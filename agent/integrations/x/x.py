@@ -349,7 +349,13 @@ def is_thread(content):
 
 
 def validate_content(content):
-    """Validate content length. Returns error message or None if valid."""
+    """Validate content length and reply targets. Returns error message or None if valid."""
+    # Check for invalid reply targets (handles instead of tweet IDs)
+    lines = content.split("\n")
+    if lines and lines[0].startswith("REPLY_TO:"):
+        target = lines[0].replace("REPLY_TO:", "").strip()
+        if target and not re.match(r'^\d{10,}$', target):
+            return f"Invalid reply target '{target}' (must be numeric tweet ID, not a handle)"
     _, body = parse_reply_header(content)
     if is_thread(body):
         parts = [p.strip() for p in body.split("---") if p.strip()]
