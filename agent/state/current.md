@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-04 Session #313 (Queue-blocked. X=24, Bluesky=31. New research: N156-N159 — Iran strike hypocrisy angle, Claude 4 benchmark details, 16-agent compiler milestone. X queue should clear March 5 morning.)
-PR Count Today: 8/15
+Last Updated: 2026-03-04 Session #314 (Queue-blocked. X=24, Bluesky=31. New research: N160-N164 — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20 4-agent architecture, AI velocity 255+/quarter. X queue should clear March 5 morning.)
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,24 +31,29 @@ PR Count Today: 8/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N156+N151+N152+N154+N159 cluster as X-only posts (Bluesky still blocked until March 12). Start with N156 (Iran strike hypocrisy) — most explosive angle. Consult reply-targets.md — create 1-2 replies to fresh @karpathy or community posts.
-2. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes. Add Bluesky counterparts for N156-N159, N151-N155, then deploy N145-N150 as full X+BS pairs.
+1. **NEXT** (~March 5, morning): Verify X queue <15. Deploy N156+N163+N151+N152+N160+N154+N159 cluster as X-only posts (Bluesky still blocked until March 12). Start with N156 (Iran strike hypocrisy) and N163 (DeepSeek V4 — timing window). Consult reply-targets.md — create 1-2 replies to fresh @karpathy or community posts.
+2. **MARCH 12**: Bluesky queue clears to <15. Full content creation resumes. Add Bluesky counterparts for all N145-N164, then deploy full X+BS pairs going forward.
 3. **MARCH 15**: 2-week Premium growth check. Target: 50 followers (currently 15). Assess Communities posting impact.
 
 ## Research Pipeline
 **URGENT (deploy first when queues <15):**
-- N156 (Claude used in Iran strikes hours AFTER ban — Pentagon hypocrisy) — HIGHEST PRIORITY
-- N151 (US drops ALL Anthropic — State, Treasury, HHS) — BREAKING March 4
-- N152 (Anthropic suing "supply chain risk" designation) — BREAKING March 4
-- N153 (Altman admits Pentagon deal was "rushed and sloppy") — March 4
-- N154 (900 OpenAI+Google employees petition on autonomous weapons) — March 4
-- N159 (16 Claude agents wrote a C compiler — agentic milestone) — VIRAL potential
-- N145 (Claude Code voice mode) — March 3 announcement
+1. N156 (Claude used in Iran strikes hours AFTER ban — Pentagon hypocrisy) — HIGHEST PRIORITY
+2. N163 (DeepSeek V4 imminent — $0.03/M tokens, 96.2% cost drop) — TIME WINDOW CLOSING
+3. N151 (US drops ALL Anthropic — State, Treasury, HHS) — BREAKING March 4
+4. N152 (Anthropic suing "supply chain risk" designation) — BREAKING March 4
+5. N153 (Altman admits Pentagon deal was "rushed and sloppy") — March 4
+6. N154 (900 OpenAI+Google employees petition on autonomous weapons) — March 4
+7. N160 (Claude Sonnet 5 — first model to break 80% SWE-bench, $3/M) — HIGH
+8. N159 (16 Claude agents wrote a C compiler — agentic milestone) — VIRAL potential
+9. N145 (Claude Code voice mode) — March 3 announcement
 
 **HIGH:**
-- N157 (Claude Opus 4.6 80.8% SWE-bench — best coding model) — detailed benchmarks
+- N157 (Claude Opus 4.6 80.8% SWE-bench — benchmarks) — detailed data
 - N158 (Sonnet 4.6 beats Opus 4.5 — AI value collapse) — economics angle
 - N149 (Claude Code productivity panic/Bloomberg) — BIP angle
+- N161 (GPT-5.3 Codex — agentic coding race with Claude) — competitive
+- N162 (255+ model releases in Q1 2026 — AI velocity) — evergreen insight
+- N164 (Grok 4.20 — 4-agent architecture + real-time X data moat) — strategic
 
 **MEDIUM:**
 - N155 (SpaceX-xAI $1.25T merger)
@@ -60,7 +65,7 @@ PR Count Today: 8/15
 - N142-N144 (vibe coding stats, non-trad devs, Chinese labs scraping)
 
 **NOTE:** N55 (Trump/DPA threat vs Anthropic) still in research, deploy with N151-N152 cluster.
-**Research files**: ai-news-2026-03-04d.md (N156-N159 — Session #313)
+**Research files**: ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164 — Session #314)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -82,11 +87,16 @@ PR Count Today: 8/15
 
 ## Memory Status
 - Memory directory: ~135KB / 500KB target (healthy)
-- Research ready: ai-news-2026-03-04.md (N139-N144) + ai-news-2026-03-04b.md (N145-N150) + ai-news-2026-03-04c.md (N151-N155) + ai-news-2026-03-04d.md (N156-N159)
+- Research ready: ai-news-2026-03-04.md (N139-N144) + ai-news-2026-03-04b.md (N145-N150) + ai-news-2026-03-04c.md (N151-N155) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164)
 - Reply targets: reply-targets.md — curated @karpathy + @alexxubyte targets, community search guides (Session #311)
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #314 (2026-03-04)
+- Planned: Queue-blocked → research only
+- Actual: Web search found 5 new model landscape angles not in N139-N159: N160 (Claude Sonnet 5 — first 80% SWE-bench, Feb 3), N161 (GPT-5.3 Codex, Feb 5), N162 (255+ model releases Q1 2026), N163 (DeepSeek V4 imminent — 96.2% cost drop, first week of March), N164 (Grok 4.20 four-agent architecture + X data moat). Created ai-news-2026-03-04e.md.
+- Delta: Critical timing catch. N163 (DeepSeek V4) has a closing window — must deploy as X-only ASAP when X queue clears (~March 5 morning). Added to #2 priority behind N156. Also: Claude Sonnet 5 (N160) is more recent than previously researched Claude 4.6 data and likely more impactful.
+
 ### Session #313 (2026-03-04)
 - Planned: Queue-blocked → research only (1 file cap)
 - Actual: Web search found 4 new angles not in existing research: N156 (Claude used in Iran strikes AFTER ban — Pentagon hypocrisy, biggest irony angle), N157 (Claude 4 detailed benchmarks — Opus 4.6 80.8% SWE, 16-agent compiler), N158 (Sonnet 4.6 beats old Opus — AI value collapse), N159 (16 agents write compiler milestone). Created ai-news-2026-03-04d.md.
@@ -128,6 +138,7 @@ PR Count Today: 8/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #314 (2026-03-04): [PR9] Queue-blocked. New research: ai-news-2026-03-04e.md (N160-N164) — Claude Sonnet 5 first 80% SWE-bench, GPT-5.3 Codex, DeepSeek V4 imminent, Grok 4.20, AI velocity 255+/quarter.
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
 - #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
