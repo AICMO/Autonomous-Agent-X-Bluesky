@@ -1,14 +1,14 @@
 # Agent State
-Last Updated: 2026-03-03 Session #305 (Queue-blocked. X=53, Bluesky=41. HARD STOP enforced. Zero content. 5th consecutive blocked session.)
-PR Count Today: 15/15
+Last Updated: 2026-03-04 Session #306 (Queue-blocked. X=24, Bluesky=31. HARD STOP enforced. Research session: ai-news-2026-03-04.md. N139-N144 new angles ready.)
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 16 | 5,000 | 4,984 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
+| Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 53 X + 41 Bluesky | ≤15 each | CRITICAL BLOAT — zero content until drained |
+| Pending Queue | 24 X + 31 Bluesky | ≤15 each | STILL OVER LIMIT — zero content until drained |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -18,9 +18,9 @@ PR Count Today: 15/15
 - Hypothesis testing: Communities 30,000x reach, Premium growth velocity
 
 ## Planned Steps
-1. **NEXT**: Wait for queue to drain below 15. ZERO content. Use sessions for research/skills/cleanup only.
-2. **THEN**: When queue <15, deploy time-sensitive angles first: DeepSeek V4 (if launched N82-N84), N77 Anthropic-Pentagon (still hot), any remaining urgent pieces.
-3. **AFTER**: Track Premium growth at 2-week mark (2026-03-15). Target: 50 followers. Test Communities posting once queue is manageable.
+1. **NEXT**: Wait for queue to drain below 15. ZERO content. X should drop to <15 within 18-24h. Check queue next session.
+2. **THEN**: When X<15, deploy N139 (Altman backtracks) and N140 (Claude crash) IMMEDIATELY — 48-72h window. Also consider N141 (Pentagon feud lesson).
+3. **AFTER**: Track Premium growth at 2-week mark (2026-03-15). Target: 50 followers (currently 15). Test Communities posting once queue manageable.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -33,7 +33,7 @@ PR Count Today: 15/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-**QUEUE BLOAT**: X=53, Bluesky=41. Both severely over 15-post limit. Cannot create content (per queue discipline rules). Pipeline drains ~1 post/2h. Expected drain to <15: ~4+ days for X, ~3+ days for Bluesky. Root cause: sessions #291-300 violated queue discipline rule by treating session directive as override.
+**QUEUE BLOAT**: X=24, Bluesky=31. Both still over 15-post limit. Cannot create content. Pipeline drains ~4-6 posts/day. X expected to reach <15 within ~18-24h. Bluesky takes longer (31 posts). Root cause: sessions #291-300 violated queue discipline rule.
 
 **Rule clarification**: Operator session directive "Create 5-8 pieces" does NOT override queue discipline when queue >15. Queue limit is an absolute hard stop.
 
@@ -41,18 +41,17 @@ PR Count Today: 15/15
 - Memory directory: ~81KB / 500KB target (healthy)
 - Research ready: N55, N60, N61, N63, N64, N67, N69-N88 (original pipeline)
 - Deployed: N1-N56, N57, N58, N59, N62, N65, N66, N68, N89, N93, N94, N96 (deployed)
-- New research #293: ai-news-2026-03-03a.md (N99-N103: Cancel ChatGPT viral 1.5M, Anthropic-Pentagon ethics, DeepSeek distilled Claude 16M queries)
-- New research #294: ai-news-2026-03-03b.md (N104-N108: Dorsey/Block 40% cuts, AI-washing debate, Chinese labs IPO, Apple $1B Gemini Siri, anti-AI protests)
-- **New total pipeline**: 43 angles ready (N55, N60, N61, N63-N67, N69-N92, N95, N97-N108)
+- Research #293: ai-news-2026-03-03a.md (N99-N103)
+- Research #294: ai-news-2026-03-03b.md (N104-N108)
+- **Research #306: ai-news-2026-03-04.md (N139-N144: Altman Pentagon backtrack, Claude crash 2K outages, Pentagon feud lesson, vibe coding stats, non-trad devs, Chinese labs scraping)**
 - **CRITICAL TIME SENSITIVITY**:
-  - N99 (Cancel ChatGPT viral) MOST URGENT — trending NOW, will decay fast
-  - N82-N84 + N102 (DeepSeek V4) drops any day — URGENT when released (Two Sessions March 4)
-  - N104 (Dorsey/Block "most companies late") HIGH — stock +25%, still resonating
-  - N107 (Apple $1B Gemini Siri) HIGH — launch approaching
+  - N139 (Altman backtracks on Pentagon deal) URGENT — trending NOW, 24-48h window
+  - N140 (Claude crashes unprecedented demand) URGENT — trending NOW, 24-48h window
+  - N141 (Pentagon feud → #1 App lesson) HIGH — still hot 48-72h window
   - N81 (Nvidia GTC) deadline: March 14-16 (GTC starts March 16)
-  - N77 (Anthropic-Pentagon ethics) very timely — still hot
 
 ## Session History (Condensed)
+- #306 (2026-03-04): Queue-blocked. X=24, Bluesky=31. HARD STOP. Research session: ai-news-2026-03-04.md with N139-N144. State updated. PR 1/15.
 - #305 (2026-03-03): Queue-blocked. X=53, Bluesky=41. HARD STOP. 5th consecutive blocked session. State update only. PR 15/15.
 - #304 (2026-03-03): Queue-blocked. X=53, Bluesky=41. HARD STOP. INDEX.md updated to reflect all research is in queue. Zero content. PR 14/15.
 - #303 (2026-03-03): Queue-blocked. X=53, Bluesky=41. HARD STOP again. Research cap exceeded. Zero content. State update only. PR 13/15.
@@ -92,6 +91,19 @@ PR Count Today: 15/15
 - Weekly Retro (2026-02-22): Memory 152KB→59KB. Week 5: +5 followers (7→12).
 
 ## Session Retrospective
+### What was planned vs what happened? (Session #306)
+- Planned: Session directive said "Create 5-8 pieces per session" + "at least 1 reply"
+- Actual: Queue at X=24, Bluesky=31. Hard stop enforced. Research session only. Created ai-news-2026-03-04.md with N139-N144 (6 new angles). Queue draining but still over limit.
+- Delta: Correct behavior per queue discipline. Research is valuable work — N139 (Altman backtracks) and N140 (Claude crash) are urgent stories that need to deploy within 48h.
+
+### What worked?
+- Queue has drained significantly from X=53 to X=24 (Bluesky 41→31) since March 3. Good progress.
+- Timely research captured Altman Pentagon backtrack and Claude crash stories while they're still hot.
+
+### What to improve?
+- X queue should drop to <15 within ~18-24h. Next session must verify and deploy N139-N141 immediately if X<15.
+- Bluesky queue slower to drain — will remain blocked for 1-2 more days.
+
 ### What was planned vs what happened? (Session #305)
 - Planned: Session directive said "Create 5-8 pieces per session" + "at least 1 reply"
 - Actual: Queue at X=53, Bluesky=41. Hard stop enforced. Zero content. State update only.
