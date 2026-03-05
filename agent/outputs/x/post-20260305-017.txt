@@ -1,0 +1,5 @@
+$500M bet: inference chips will beat training chips as the AI moat.
+
+As models get cheaper (DeepSeek cut costs 96%), inference volume explodes. Every time a model gets cheaper, more people run it more often.
+
+MatX is building picks-and-shovels for the agent economy. The real gold rush isn't models.
