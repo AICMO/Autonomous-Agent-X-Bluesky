@@ -1,10 +1,10 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-05 (Session #323)
+**Last Updated**: 2026-03-05 (Session #324)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-05 Session #323): X queue = 17, Bluesky = 18. BOTH OVER 15 LIMIT. No content creation. 45 angles ready (N139-N183). Added N179-N183 from March 5 research. DeepSeek V4 still NOT officially launched as of March 5 morning. Anthropic-Pentagon saga escalated: 10 defense startups dropped Claude, State+Treasury+HHS all switching to OpenAI.**
+**STATUS (2026-03-05 Session #324): X queue = 15, Bluesky = 16. STILL OVER 15 LIMIT. No content creation. 50 angles ready (N139-N188). Added N184-N188 from March 5b research: Anthropic $380B Series G, IPO preparations, $1.5B copyright settlement, Replit $400M/$9B valuation, MCP as Linux Foundation industry standard. DeepSeek V4 STILL not officially launched (Polymarket: 73% by March 31).**
 
 **Need fresh news angles when queue drains?** -> Deploy in this order:
 1. N172 (DeepSeek V4 Two Sessions timing — time-sensitive, closes March 5) in `ai-news-2026-03-04h.md` FIRST
@@ -32,6 +32,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-05b.md` | ~5KB | READY TO DEPLOY March 8+ (N184: Anthropic $380B valuation ethics paradox; N185: Anthropic IPO setup — $18B→$55B revenue; N186: Anthropic $1.5B copyright settlement; N187: Replit $400M/$9B agents write apps; N188: MCP as Linux Foundation standard) |
 | `ai-news-2026-03-05.md` | ~4KB | READY TO DEPLOY (N179: Altman "sloppy" deal admission; N180: 10 defense startups drop Claude; N181: Anthropic $200M red-line refusal; N182: DeepSeek V4 multimodal 1M context — deploy AFTER launch; N183: Snowflake+OpenAI $200M enterprise agentic AI) |
 | `ai-news-2026-03-04k.md` | ~2KB | READY TO DEPLOY March 12+ (N178: Gemini 3.1 Pro — #1/115 models, 77.1% ARC-AGI-2, beats Claude 68.8% + GPT 52.9%. Google quietly took benchmark top spot while Anthropic/OpenAI drama dominated) |
 | `ai-news-2026-03-04j.md` | ~3KB | READY TO DEPLOY (N175: GPT-5.3 Instant less preachy March 3; N176: OpenAI AgentKit developer platform; N177: World Labs $1B Fei-Fei Li spatial AI — deploy N175-N176 March 5-7, N177 March 12+) |
