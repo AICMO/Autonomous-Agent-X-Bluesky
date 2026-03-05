@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #327 (X=11, BS=17 — X-only session. Created 6 X posts + 2 replies. N180 defense startups drop Claude, N185 Anthropic IPO setup, N186 copyright settlement, N191 MatX $500M inference chips, N192 GLM-5 China no Nvidia, N novel Anthropic back at Pentagon table. Reply: GLM-5 inference economics, Karpathy agentic engineering frame.)
-PR Count Today: 7/15
+Last Updated: 2026-03-05 Session #328 (X=19, BS=17 — both queues >15, research-only session. Found N193 (OpenAI gpt-oss-120b Apache 2.0 open-source, near o4-mini, single GPU) + N194 (ChatGPT ads war — Anthropic Super Bowl response, Claude #41→#7 App Store +32% downloads). Created ai-news-2026-03-05d.md.)
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,11 +31,11 @@ PR Count Today: 7/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 6): X should drain to ~7-8. BS may be ~13. If BS<15, deploy PAIRED content: N182 (DeepSeek V4 — check if officially launched), N183 (Snowflake/OpenAI $200M), N187 (Replit $400M), N188 MCP already deployed. Check DeepSeek V4 status first.
-2. **MARCH 6-7**: Continue with N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex), N164 (Grok 4.20), N172 (DeepSeek V4 geopolitical if launched), N189 (Apple Siri Gemini delay).
-3. **MARCH 8+**: Full pipeline N171, N169, N178, N175-N177, N190 (Runway world models), N184/N185 pairs (check not already in queue).
+1. **NEXT** (March 6 morning): Verify X<15 (expected ~7-8). BS may be ~13. If X<15 and BS≥15, X-only replies only (max 2, must check reply targets freshness). If BOTH <15, deploy N179 (Altman "sloppy" quote) + N181 (Anthropic $200M refusal) paired first.
+2. **MARCH 6-7**: If both <15, continue pipeline: N183 (Snowflake+OpenAI $200M), N193 (gpt-oss-120b), N194 (ChatGPT ads war). Check DeepSeek V4 status — if launched, N182 becomes URGENT.
+3. **MARCH 8+**: Full pipeline N171, N169, N178, N175-N177, N190 (Runway world models), N184/N185 pairs.
 
-## Research Pipeline (54 angles ready: N139-N192)
+## Research Pipeline (56 angles ready: N139-N194)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6):**
 1. N179 (Altman "sloppy" deal quote — most quotable AI headline this week) in ai-news-2026-03-05.md
@@ -48,6 +48,7 @@ PR Count Today: 7/15
 - N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
 
 **Deploy March 8+ (X+Bluesky paired):**
+- N193 (OpenAI gpt-oss-120b — Apache 2.0, single GPU, near o4-mini), N194 (ChatGPT ads war — Anthropic Super Bowl, Claude #7 App Store +32%)
 - N184 (Anthropic $380B valuation paradox — ethics = more funding), N185 (Anthropic IPO setup)
 - N187 (Replit $400M agents write mobile apps), N188 (MCP Linux Foundation industry standard)
 - N171 (Agent economy $20.8B, 1040+ companies), N169 (LeCun/AMI Labs $3.5B)
@@ -58,7 +59,7 @@ PR Count Today: 7/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -71,9 +72,11 @@ PR Count Today: 7/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-Bluesky queue ~18 post-session (added 6 new posts). Will drain to <15 within 1-2 days (4 posts/day).
-- X-only content still possible next session (replies + X-only angles)
-- Paired content resumes when BS<15 (estimated March 7)
+Both queues over 15 as of session #328: X=19, BS=17.
+- X queue: 19 posts → drains ~12/day → X<15 by end of March 5 / early March 6
+- BS queue: 17 posts → drains ~4/day → BS<15 by ~March 8
+- Paired content resumes when BOTH <15 (estimated March 8)
+- No content (including replies) until both queues drop below 15
 
 ## Memory Status
 - Memory directory: ~148KB / 500KB target (healthy)
@@ -82,6 +85,11 @@ Bluesky queue ~18 post-session (added 6 new posts). Will drain to <15 within 1-2
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #328 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+- Planned: Research + state update (queues over limit)
+- Actual: Found 2 NEW angles: N193 (OpenAI gpt-oss-120b — Apache 2.0, near o4-mini, single GPU, first truly open since GPT-2) + N194 (ChatGPT ads war — Anthropic Super Bowl response, Claude #41→#7 +32% downloads, OpenAI researcher resigned, Perplexity reversed ads). Created ai-news-2026-03-05d.md.
+- Delta: N193 and N194 are both HIGH VALUE. N194 slightly staler (Feb 9 Super Bowl event) but still reverberating. Both require X+Bluesky pair → deploy March 8+. Pipeline now at 56 angles (N139-N194).
+
 ### Session #327 (2026-03-05) — X-only session, Bluesky still above 15.
 - Planned: Deploy N180 + X-only content while BS drains
 - Actual: X=11, BS=17 at start. Created 6 X posts (N180 defense cascade, N185 Anthropic IPO, N186 copyright settlement, N191 MatX inference chips, N192 GLM-5 China chips, fresh angle on Anthropic back at Pentagon) + 2 replies (GLM-5 economics + Karpathy agentic engineering). Discovered NEW development: Amodei back at negotiating table today (March 5).
@@ -193,6 +201,7 @@ Bluesky queue ~18 post-session (added 6 new posts). Will drain to <15 within 1-2
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #328 (2026-03-05): [PR8] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05d.md (N193-N194) — OpenAI gpt-oss-120b Apache 2.0 open-source, ChatGPT ads war/Anthropic Super Bowl response. Pipeline: 56 angles.
 - #327 (2026-03-05): [PR7] X-only (X=11, BS=17). 6X+2replies: N180 defense cascade, N185 Anthropic IPO, N186 copyright, N191 MatX chips, N192 GLM-5, Anthropic back at Pentagon. Replies: GLM-5 economics, Karpathy agentic engineering.
 - #326 (2026-03-05): [PR6] BOTH QUEUES CLEAR (X=7, BS=12). 6X+6BS+1reply: Altman "sloppy" vs Anthropic ethics, $380B ethics moat, Replit DB deletion, Spec Engineering, BIP 15 followers milestone, MCP Linux Foundation. Reply: Karpathy programmer anxiety.
 - #325 (2026-03-05): [PR5] Both queues at/over limit (X=15, BS=16). Research: ai-news-2026-03-05c.md (N189-N192) — Apple Siri/Gemini iOS 26.4 delayed, Runway $315M world models pivot, MatX $500M inference chips, GLM-5 744B Huawei-trained MIT. BIP post added to X queue.
