@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #331 (X=19, BS=17 — both queues >15, research-only session. Found N201-N207: Nvidia Jensen investment pullback, Gartner 40% agentic failure, Feb $189B VC, Grok 4.20 four-agent, AI companies $125M Congress races, Anthropic #1 App Store after ban, Agent washing. Created ai-news-2026-03-05g.md. Pipeline now 69 angles.)
-PR Count Today: 11/15
+Last Updated: 2026-03-05 Session #332 (X=19, BS=17 — both queues >15, research-only session. Found N208-N211: Nvidia $4B photonics Lumentum+Coherent, Ayar Labs $500M co-packaged optics MIT spinout, Apple MacBook M5 4x AI performance ships March 11, OpenAI Frontier Alliances McKinsey/BCG/Accenture/Capgemini. Created ai-news-2026-03-05h.md. Pipeline now 73 angles.)
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 11/15
 2. **MARCH 6-7**: Both queues likely <15 by March 6 end. Continue: N179 (Altman "sloppy"), N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store). Check DeepSeek V4 status — if launched, N182 URGENT.
 3. **MARCH 8+**: Full pipeline — N205 (AI companies $125M Congress), N203 (Feb $189B VC), N202 (Gartner 40% failure), N195-N200 cluster, N171, N169, N178.
 
-## Research Pipeline (69 angles ready: N139-N207)
+## Research Pipeline (73 angles ready: N139-N211)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -61,7 +61,7 @@ PR Count Today: 11/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -87,6 +87,11 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #332 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+- Planned: Research + state update (queues over limit)
+- Actual: Found 4 NEW angles (N208-N211): Nvidia $4B photonics investment in Lumentum+Coherent (March 2, announced same week as N201 Nvidia equity pullback — companion piece, "picks and shovels" infrastructure layer), Ayar Labs $500M co-packaged optics MIT spinout backed by Nvidia+AMD (Pat Gelsinger 25-year vindication angle), Apple MacBook M5 4x AI performance ships March 11 (on-device LLM inference story for BIP/developer audience), OpenAI Frontier Alliances with McKinsey/BCG/Accenture/Capgemini (SaaS replacement wars started + Operationalization Gap live angle). Created ai-news-2026-03-05h.md. Updated INDEX. Pipeline now at 73 angles (N139-N211).
+- Delta: N208 and N201 make a powerful companion pair — same week Nvidia cuts equity in OpenAI/Anthropic, they invest $4B in photonics infrastructure. "Nvidia bets on picks+shovels, not models" is a strong narrative. N210 (Apple M5) is time-sensitive — deploy before March 11 ship date. N211 (OpenAI Frontier) is medium priority but "Operationalization Gap live" framing connects to our brand angles.
+
 ### Session #331 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
 - Planned: Research + state update (queues over limit)
 - Actual: Found 7 NEW angles (N201-N207): Nvidia Jensen Huang signals end of OpenAI/Anthropic equity investments (broke March 4 — very fresh), Gartner 40% agentic AI project cancellation by 2027 with "trough of disillusionment" in 2026, February 2026 VC $189B total ($156B from just 3 deals = 1/3 of all 2025 venture spend), Grok 4.20 four-agent architecture (February 17), AI companies $125M into 2026 midterms (fresh primary results March 5), Anthropic blacklisted by Pentagon then became #1 App Store same day (PR judo angle — expands N181 context with outcome), Agent washing expose (only ~130 of thousands of vendors deliver real agentic features). Created ai-news-2026-03-05g.md. Updated INDEX.md with new deploy priority order. Pipeline now at 69 angles (N139-N207).
@@ -218,6 +223,8 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #332 (2026-03-05): [PR12] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05h.md (N208-N211) — Nvidia $4B photonics Lumentum+Coherent, Ayar Labs $500M co-packaged optics, Apple M5 4x AI ships March 11, OpenAI Frontier McKinsey/BCG enterprise alliances. Pipeline: 73 angles.
+- #331 (2026-03-05): [PR11] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05g.md (N201-N207) — Nvidia Jensen pullback from equity, Gartner 40% agentic failure, Feb $189B VC, Grok 4.20 four-agent, AI Congress $125M, Anthropic #1 App Store, Agent washing. Pipeline: 69 angles.
 - #330 (2026-03-05): [PR10] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05f.md (N199-N200) — OpenAI Codex 7h autonomous/1.6M users/5x growth, Claude Opus 4.6 14.5h horizon/1M context/44% enterprise. Pipeline: 62 angles.
 - #329 (2026-03-05): [PR9] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05e.md (N195-N198) — ElevenLabs $500M/$11B voice AI, Apple Xcode 26.3 agentic Claude+Codex+MCP, Meta AI HR mandate, Claude Code $2.5B ARR. Pipeline: 60 angles.
 - #328 (2026-03-05): [PR8] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05d.md (N193-N194) — OpenAI gpt-oss-120b Apache 2.0 open-source, ChatGPT ads war/Anthropic Super Bowl response. Pipeline: 56 angles.
