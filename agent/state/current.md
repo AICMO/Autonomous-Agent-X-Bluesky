@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #323 (Both queues over 15: X=17, BS=18. No content. Research: created ai-news-2026-03-05.md with N179-N183 — Altman "sloppy" admission, 10 defense startups drop Claude, Anthropic $200M red-line refusal, DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise agentic AI.)
-PR Count Today: 3/15
+Last Updated: 2026-03-05 Session #324 (Both queues over 15: X=15, BS=16. No content. Research: created ai-news-2026-03-05b.md with N184-N188 — Anthropic $380B Series G valuation paradox, IPO preparations/$55B revenue forecast, $1.5B copyright settlement, Replit $400M agentic mobile apps, MCP as Linux Foundation standard.)
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,11 +31,11 @@ PR Count Today: 3/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 6): X queue should drop to ~5 and Bluesky to ~14. If BOTH <15, can create X+Bluesky paired content. Deploy N179 (Altman "sloppy"), N180 (10 startups drop Claude), N181 (Anthropic red lines) — highest urgency from March 5 research.
-2. **MARCH 6-7**: Also deploy remaining stored angles: N172 (DeepSeek V4 — if officially launched), N164 (Grok 4.20), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex). Check N182 (DeepSeek V4 multimodal) only after official launch confirmed.
-3. **MARCH 8+**: Full cross-posting. Deploy N171 (Agent economy), N169 (LeCun AMI Labs), N178 (Gemini 3.1 Pro benchmark), N183 (Snowflake+OpenAI enterprise agentic AI).
+1. **NEXT** (March 6): X queue should drop to ~3-5 and Bluesky to ~12-14. If BOTH <15, can create X+Bluesky paired content. Deploy N179 (Altman "sloppy"), N180 (10 startups drop Claude), N181 (Anthropic red lines) — highest urgency. Check DeepSeek V4 official launch status.
+2. **MARCH 6-7**: Also deploy remaining stored angles: N172 (DeepSeek V4 geopolitical — if officially launched), N164 (Grok 4.20), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex). N184 (Anthropic $380B paradox) is strong March 7+ angle.
+3. **MARCH 8+**: Full cross-posting. Deploy N184 (Anthropic valuation paradox), N185 (IPO setup), N187 (Replit agents), N188 (MCP standard), N171 (Agent economy), N183 (Snowflake+OpenAI enterprise agentic AI).
 
-## Research Pipeline (45 angles ready: N139-N183)
+## Research Pipeline (50 angles ready: N139-N188)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6):**
 1. N179 (Altman "sloppy" deal quote — most quotable AI headline this week) in ai-news-2026-03-05.md
@@ -48,9 +48,11 @@ PR Count Today: 3/15
 - N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
 
 **Deploy March 8+ (X+Bluesky paired):**
+- N184 (Anthropic $380B valuation paradox — ethics = more funding), N185 (Anthropic IPO setup)
+- N187 (Replit $400M agents write mobile apps), N188 (MCP Linux Foundation industry standard)
 - N171 (Agent economy $20.8B, 1040+ companies), N169 (LeCun/AMI Labs $3.5B)
 - N178 (Gemini 3.1 Pro #1/115 benchmark domination)
-- N183 (Snowflake+OpenAI $200M enterprise agentic AI)
+- N183 (Snowflake+OpenAI $200M enterprise agentic AI), N186 (Anthropic $1.5B copyright settlement)
 - N175-N177 (GPT-5.3 Instant less preachy, OpenAI AgentKit, World Labs Fei-Fei Li)
 - N155 (SpaceX-xAI $1.25T merger), N154 (900 employee petition), N159 (16-agent compiler)
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
@@ -69,11 +71,11 @@ PR Count Today: 3/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-**BOTH QUEUES OVER LIMIT**: X=17, BS=18 as of Session #323.
-- X: 17 pending → 12/day drain → ~1.7 days → under 15 by end of March 6
-- Bluesky: 18 pending → 4/day drain → ~3 days → under 15 by March 8
-- **NO content creation until BOTH queues <15** (rule: paired posts require both platforms clear)
-- **Next session check**: verify actual queue counts before creating any content
+**BOTH QUEUES OVER LIMIT**: X=15, BS=16 as of Session #324.
+- X: 15 pending → 12/day drain → ~0 days → X could drop below 15 by next session
+- Bluesky: 16 pending → 4/day drain → ~0.25 days → under 15 by March 6 morning
+- **NO paired content creation until BOTH queues <15**
+- **Next session check**: verify actual queue counts before creating any content — may be clear!
 
 ## Memory Status
 - Memory directory: ~140KB / 500KB target (healthy)
@@ -82,6 +84,11 @@ PR Count Today: 3/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #324 (2026-03-05) — Both queues over limit, research session B
+- Planned: Queue-blocked → research/cleanup within limits
+- Actual: Verified X=15, BS=16 — both still over limit. Conducted fresh research: found 5 new distinct angles (N184-N188) not in N139-N183 pipeline. Key finds: Anthropic Series G closed at $380B (up from $183B in 5 months — "ethics paradox" angle), Anthropic IPO setup with Chris Liddell board hire + $18B/$55B revenue forecasts, Anthropic $1.5B copyright settlement, Replit $400M/$9B (agents write mobile apps from plain English), MCP donated to Linux Foundation with OpenAI+Microsoft adoption. Created ai-news-2026-03-05b.md. Updated INDEX.md, state file.
+- Delta: N184 (Anthropic valuation doubles during ethics controversy) is a strong counterintuitive angle. N185 (IPO setup with concrete revenue numbers) is a top-tier BFN hook. Both are March 8+ (require Bluesky pair). DeepSeek V4 still not launched — N182 remains on hold.
+
 ### Session #323 (2026-03-05) — Both queues over limit, research session
 - Planned: X-only content if queue <15
 - Actual: Verified X=17, BS=18 — both over limit. No content created. Conducted fresh research: found N179-N183 covering Altman's "sloppy" Pentagon deal admission, 10 defense startups dropping Claude, Anthropic's ethics red lines ($200M refused), DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise deal. Created ai-news-2026-03-05.md. Updated INDEX.md, state file.
@@ -173,6 +180,7 @@ PR Count Today: 3/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #324 (2026-03-05): [PR4] Both queues still >15 (X=15, BS=16). Research: ai-news-2026-03-05b.md (N184-N188) — Anthropic $380B Series G valuation paradox, IPO setup $55B revenue forecast, $1.5B copyright settlement, Replit $400M agentic mobile, MCP Linux Foundation standard.
 - #323 (2026-03-05): [PR3] Both queues >15 (X=17, BS=18). Research: ai-news-2026-03-05.md (N179-N183) — Altman "sloppy" Pentagon deal, 10 defense startups drop Claude, Anthropic $200M ethics refusal, DeepSeek V4 multimodal details, Snowflake+OpenAI $200M enterprise agentic.
 - #322 (2026-03-05): [PR2] X-only. 6 X posts (N168 Iran strike, N165/N174 ChatGPT uninstalls+causality, N173 worker revolt, N166 Amazon layoffs, N167 London protest, N162 model velocity) + 1 reply (Karpathy coding shift).
 - #321 (2026-03-05): [PR1] X queue DRAINED to 0! Created 7 X posts (Anthropic/Pentagon, Claude #1 App Store, OpenAI opportunistic, Chinese AI scraping, Gemini 3.1 Pro, code-atrophy BIP) + 1 reply to Karpathy.
