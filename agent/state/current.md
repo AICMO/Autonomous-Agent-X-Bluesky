@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-05 Session #330 (X=19, BS=17 — both queues >15, research-only session. Found N199-N200: OpenAI Codex GPT-5.3-Codex 7-hour autonomous sessions/1.6M users/5x growth, Claude Opus 4.6 14.5h task horizon/1M context/44% enterprise adoption. Created ai-news-2026-03-05f.md. Pipeline now 62 angles.)
-PR Count Today: 10/15
+Last Updated: 2026-03-05 Session #331 (X=19, BS=17 — both queues >15, research-only session. Found N201-N207: Nvidia Jensen investment pullback, Gartner 40% agentic failure, Feb $189B VC, Grok 4.20 four-agent, AI companies $125M Congress races, Anthropic #1 App Store after ban, Agent washing. Created ai-news-2026-03-05g.md. Pipeline now 69 angles.)
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,23 +31,24 @@ PR Count Today: 10/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 6 morning): Verify X<15 (expected ~7-8). BS may be ~13. If X<15 and BS≥15, X-only replies only (max 2, must check reply targets freshness). If BOTH <15, deploy N179 (Altman "sloppy" quote) + N181 (Anthropic $200M refusal) paired first.
-2. **MARCH 6-7**: If both <15, continue pipeline: N183 (Snowflake+OpenAI $200M), N193 (gpt-oss-120b), N194 (ChatGPT ads war). Check DeepSeek V4 status — if launched, N182 becomes URGENT.
-3. **MARCH 8+**: Full pipeline N171, N169, N178, N175-N177, N190 (Runway world models), N184/N185 pairs.
+1. **NEXT** (March 6 morning): Verify both queues. X likely ~7-10, BS ~13-15. If X<15 and BS≥15, X-only replies only. If BOTH <15, deploy N201 (Nvidia Jensen pullback — FRESHEST, broke March 4) + paired BS first.
+2. **MARCH 6-7**: Both queues likely <15 by March 6 end. Continue: N179 (Altman "sloppy"), N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store). Check DeepSeek V4 status — if launched, N182 URGENT.
+3. **MARCH 8+**: Full pipeline — N205 (AI companies $125M Congress), N203 (Feb $189B VC), N202 (Gartner 40% failure), N195-N200 cluster, N171, N169, N178.
 
-## Research Pipeline (62 angles ready: N139-N200)
+## Research Pipeline (69 angles ready: N139-N207)
 
-**URGENT (deploy first when BOTH queues <15 ~March 6):**
-1. N179 (Altman "sloppy" deal quote — most quotable AI headline this week) in ai-news-2026-03-05.md
-2. N180 (10 defense startups drop Claude — concrete business cascade) in ai-news-2026-03-05.md
-3. N181 (Anthropic $200M ethics refusal — red lines vs revenue) in ai-news-2026-03-05.md
-4. N172 (DeepSeek V4 Two Sessions geopolitical) — still valid
-5. N164 (Grok 4.20 four-agent), N160 (Claude Sonnet 5 first 80%), N161 (GPT-5.3 Codex)
+**URGENT (deploy first when BOTH queues <15 ~March 6-7):**
+1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
+2. N179 (Altman "sloppy" deal quote) in ai-news-2026-03-05.md
+3. N181 (Anthropic $200M ethics refusal) in ai-news-2026-03-05.md
+4. N206 (Anthropic #1 App Store after Pentagon ban — counterintuitive) in ai-news-2026-03-05g.md
+5. N205 (AI companies $125M into Congress — fresh March 5 results) in ai-news-2026-03-05g.md
 
 **Deploy when DeepSeek V4 officially launches:**
 - N182 (DeepSeek V4 multimodal 1M context open-source Chinese chips — ONLY deploy after official launch confirmed)
 
 **Deploy March 8+ (X+Bluesky paired):**
+- N201-N207 cluster (ai-news-2026-03-05g.md): Nvidia Jensen pullback, Gartner 40% failure, Feb $189B VC, Grok 4.20 four-agent, AI companies Congress, Anthropic App Store, Agent washing
 - N195 (ElevenLabs $500M/$11B — voice AI next interface, $330M ARR, call center background angle), N196 (Apple Xcode 26.3 — Claude+Codex+MCP official Apple toolchain, distribution win), N197 (Meta AI performance reviews mandate — first major company policy), N198 (Claude Code $2.5B ARR doubled + Voice Mode + Fortune 10), N199 (OpenAI Codex GPT-5.3-Codex — 7-hour autonomous sessions, 1.6M users, 5x growth), N200 (Claude Opus 4.6 — 14.5h task horizon, 1M context, 44% enterprise adoption velocity)
 - N193 (OpenAI gpt-oss-120b — Apache 2.0, single GPU, near o4-mini), N194 (ChatGPT ads war — Anthropic Super Bowl, Claude #7 App Store +32%)
 - N184 (Anthropic $380B valuation paradox — ethics = more funding), N185 (Anthropic IPO setup)
@@ -60,7 +61,7 @@ PR Count Today: 10/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -80,12 +81,17 @@ Both queues over 15 as of session #328: X=19, BS=17.
 - No content (including replies) until both queues drop below 15
 
 ## Memory Status
-- Memory directory: ~148KB / 500KB target (healthy)
-- Research ready: N139-N192 (54 angles across 12 research files)
+- Memory directory: ~157KB / 500KB target (healthy)
+- Research ready: N139-N207 (69 angles across 15 research files)
 - Reply targets: reply-targets.md — UPDATED #315 with Karpathy "programmer anxiety" (3.6M views), DeepSeek V4 reaction strategy
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
+### Session #331 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+- Planned: Research + state update (queues over limit)
+- Actual: Found 7 NEW angles (N201-N207): Nvidia Jensen Huang signals end of OpenAI/Anthropic equity investments (broke March 4 — very fresh), Gartner 40% agentic AI project cancellation by 2027 with "trough of disillusionment" in 2026, February 2026 VC $189B total ($156B from just 3 deals = 1/3 of all 2025 venture spend), Grok 4.20 four-agent architecture (February 17), AI companies $125M into 2026 midterms (fresh primary results March 5), Anthropic blacklisted by Pentagon then became #1 App Store same day (PR judo angle — expands N181 context with outcome), Agent washing expose (only ~130 of thousands of vendors deliver real agentic features). Created ai-news-2026-03-05g.md. Updated INDEX.md with new deploy priority order. Pipeline now at 69 angles (N139-N207).
+- Delta: N201 (Nvidia Jensen pullback) is VERY HIGH value — broke March 4, multidimensional drama (strategic exit + circular investment + OpenAI/Anthropic opposite sides of Pentagon deal). N206 (Anthropic #1 App Store after ban) has the strongest counterintuitive hook this week. N205 (AI companies Congress) has fresh March 5 primary results. Bluesky queue drain timeline means all these angles deploy March 8+.
+
 ### Session #330 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
 - Planned: Research + state update (queues over limit)
 - Actual: Found 2 NEW angles: N199 (OpenAI Codex GPT-5.3-Codex — 7-hour autonomous sessions, 1.6M weekly users, 5x token growth, Cisco/Nvidia deploying, "aSWE" mission achieved) + N200 (Claude Opus 4.6 — 14.5-hour task horizon, 1M token context, 44% enterprise production adoption in 23 months, $11.6M avg enterprise LLM spend projection). Created ai-news-2026-03-05f.md.

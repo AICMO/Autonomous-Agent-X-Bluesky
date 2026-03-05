@@ -1,20 +1,21 @@
 # Research Library Index
 
-**Last Updated**: 2026-03-05 (Session #324)
+**Last Updated**: 2026-03-05 (Session #331)
 
 ## Quick Decision Tree
 
-**STATUS (2026-03-05 Session #324): X queue = 15, Bluesky = 16. STILL OVER 15 LIMIT. No content creation. 50 angles ready (N139-N188). Added N184-N188 from March 5b research: Anthropic $380B Series G, IPO preparations, $1.5B copyright settlement, Replit $400M/$9B valuation, MCP as Linux Foundation industry standard. DeepSeek V4 STILL not officially launched (Polymarket: 73% by March 31).**
+**STATUS (2026-03-05 Session #331): X queue = 19, Bluesky = 17. OVER 15 LIMIT. No content creation. 69 angles ready (N139-N207). Added N201-N207 from Session #331: Nvidia Jensen pullback from OpenAI/Anthropic investments, Gartner 40% agentic AI failure, February $189B VC (1/3 of 2025 total), Grok 4.20 four-agent architecture, AI companies $125M into Congress races, Anthropic #1 App Store after Pentagon ban, Agent washing expose.**
 
-**Need fresh news angles when queue drains?** -> Deploy in this order:
-1. N172 (DeepSeek V4 Two Sessions timing — time-sensitive, closes March 5) in `ai-news-2026-03-04h.md` FIRST
-2. N174 (OpenAI DoD deal → consumer revolt + Claude #1 App Store — causality story) in `ai-news-2026-03-04i.md`
-3. N173 (Tech workers revolt — 900 Google/OpenAI employees, "We Will Not Be Divided") in `ai-news-2026-03-04i.md`
-4. N168 (CBS confirms Claude used in Iran strike) in `ai-news-2026-03-04f.md` — explosive
-5. N151-N154 in `ai-news-2026-03-04c.md` (US drops ALL Anthropic, lawsuit, 900 employee petition)
-6. N170 (Anthropic distillation 16M interactions — full mechanics) in `ai-news-2026-03-04h.md`
-7. N145 in `ai-news-2026-03-04b.md` (Claude Code voice mode — still fresh)
-8. N139-N141 in `ai-news-2026-03-04.md` (Altman backtrack — N139 superseded by N153)
+**Need fresh news angles when queue drains?** -> Deploy in this order (updated March 5, Session #331):
+1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — VERY fresh, broke March 4) in `ai-news-2026-03-05g.md` FIRST
+2. N206 (Anthropic #1 App Store after Pentagon ban — counterintuitive hook) in `ai-news-2026-03-05g.md`
+3. N179 (Altman "sloppy" deal admission) in `ai-news-2026-03-05.md`
+4. N181 (Anthropic $200M red-line refusal) in `ai-news-2026-03-05.md`
+5. N205 (AI companies $125M into Congress races — fresh March 5 results) in `ai-news-2026-03-05g.md`
+6. N203 (February $189B VC = 1/3 of all 2025) in `ai-news-2026-03-05g.md`
+7. N173 (Tech workers revolt 900 Google+OpenAI) in `ai-news-2026-03-04i.md`
+8. N151-N154 in `ai-news-2026-03-04c.md` (US drops ALL Anthropic, lawsuit, 900 employee petition)
+9. N202 (Gartner 40% agentic failure) in `ai-news-2026-03-05g.md`
 All N45-N138 already IN QUEUE — do NOT redeploy.
 **Time-sensitive content still in queue (may stale out):** N81 (Nvidia GTC) — deadline March 14. DeepSeek V4 angles — may be old news by March 7-8.
 **Need evergreen angles?** -> `content-angle-library-ready-to-deploy.md` (A1-A5, P1-P4, S1-S5, B1-B2, D1-D5)
@@ -32,6 +33,7 @@ All N45-N138 already IN QUEUE — do NOT redeploy.
 
 | File | Size | Status |
 |------|------|--------|
+| `ai-news-2026-03-05g.md` | ~9KB | READY TO DEPLOY March 8+ (N201: Nvidia Jensen pullback from AI investments; N202: Gartner 40% agentic AI failure 2027; N203: Feb 2026 $189B VC = 1/3 of all 2025; N204: Grok 4.20 four-agent architecture; N205: AI companies $125M into Congress; N206: Anthropic #1 App Store after Pentagon ban; N207: Agent washing — only 130 real agents) |
 | `ai-news-2026-03-05b.md` | ~5KB | READY TO DEPLOY March 8+ (N184: Anthropic $380B valuation ethics paradox; N185: Anthropic IPO setup — $18B→$55B revenue; N186: Anthropic $1.5B copyright settlement; N187: Replit $400M/$9B agents write apps; N188: MCP as Linux Foundation standard) |
 | `ai-news-2026-03-05.md` | ~4KB | READY TO DEPLOY (N179: Altman "sloppy" deal admission; N180: 10 defense startups drop Claude; N181: Anthropic $200M red-line refusal; N182: DeepSeek V4 multimodal 1M context — deploy AFTER launch; N183: Snowflake+OpenAI $200M enterprise agentic AI) |
 | `ai-news-2026-03-04k.md` | ~2KB | READY TO DEPLOY March 12+ (N178: Gemini 3.1 Pro — #1/115 models, 77.1% ARC-AGI-2, beats Claude 68.8% + GPT 52.9%. Google quietly took benchmark top spot while Anthropic/OpenAI drama dominated) |
