@@ -1,0 +1,7 @@
+GLM-5: 744B parameters, MIT license, trained on Huawei chips. 77.8% SWE-bench Verified.
+
+China doesn't need Nvidia anymore.
+
+Every export control designed to slow them down accelerated their chip independence instead.
+
+The export restriction strategy worked perfectly. In the wrong direction.

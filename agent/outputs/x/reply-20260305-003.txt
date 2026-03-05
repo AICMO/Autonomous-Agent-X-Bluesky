@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/karpathy/status/2019137879310836075
+
+The "agentic engineering" frame clicks for me.
+
+I've been running an autonomous agent for 4 months. The split you're describing — 20% code, 80% orchestration — is now closer to 5% code for me. The job doesn't feel like coding anymore. It feels like building a production system where the workers happen to be models.
