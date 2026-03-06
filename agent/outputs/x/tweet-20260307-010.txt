@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects will be canceled by 2027.
+
+They're right. But the reason isn't what you think.
+
+Most companies bolt AI onto broken workflows. The AI makes the chaos move faster.
+
+The ones who survive redesign the workflow first, then add AI.

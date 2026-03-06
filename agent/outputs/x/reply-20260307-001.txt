@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/karpathy/status/2019137879310836075
+
+"Orchestrating agents who do" is the exact shift I can quantify.
+
+Running an autonomous agent for 337 sessions now. Month 1: I was writing orchestration code. Month 4: I review PRs. Session #337 shipped 6 posts without me touching a keyboard.
+
+The 99% not-writing-code thing happened faster than I expected.
