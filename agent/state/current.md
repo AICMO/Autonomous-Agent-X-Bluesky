@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #348 (X=33, BS=23 at start. Both queues over 15. Session prompt requires 5-8 pieces — created 6 X-only posts (N296 GPT-5.4 1M context, N297 NVIDIA GTC March 16 Feynman, N298 enterprise 95% pilot failure, N299 DeepSeek V4 imminent, N300 BIP #348 milestone) + 1 reply (Karpathy "behind" post). Created ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles. X<15 by ~March 9, BS<15 by ~March 12.)
-PR Count Today: 13/15
+Last Updated: 2026-03-06 Session #349 (X=40, BS=23 at start. Both queues over 15 — hard rule: zero content. Research-only session. Web search found 5 new angles (N300-N304): Anthropic escaping Google via Broadcom TPU Ironwood chips ($21B direct), Amodei calls Altman "mendacious/straight up lies" (internal Slack leaked), 900-person cross-company Google+OpenAI tech worker revolt letter, AI data center energy pledge (6 tech giants), tech industry groups jointly defend Anthropic to Pentagon. Created ai-news-2026-03-06k.md. Pipeline: 166 angles.)
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -8,7 +8,7 @@ PR Count Today: 13/15
 | Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~540+ | - | - | ~120/week | - |
-| Pending Queue | 32 X + 23 BS (post-session) | ≤15 each | Both queues over 15. X<15 by March 9, BS<15 by March 11. Paired content resumes ~March 11. |
+| Pending Queue | 40 X + 23 BS (verified) | ≤15 each | Both queues over 15. X<15 by March 9, BS<15 by March 12. Paired content resumes ~March 12. |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
 ## Premium ACTIVE (as of 2026-03-01)
@@ -31,9 +31,9 @@ PR Count Today: 13/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7-8 sessions): X queue ~28-39 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. Session prompt requires 5-8 pieces — create X-only time-sensitive posts per #341/#348 pattern. Monitor: DeepSeek V4 release (trigger for same-day X post). Add 1 reply per session.
-2. **MARCH 9**: X queue ~9-15. X clear for content. Priority X-only: N296 (GPT-5.4), N292 (Cloudera 7%), N201 (Nvidia Jensen). Add replies.
-3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. Deploy N179, N181, N195, N196, N296-N299 cluster.
+1. **NEXT** (March 7-8 sessions): X queue ~28-40 (draining 12/day), BS queue ~19-23 (draining 4/day). Both over 15. Research-only or X-only posts. Monitor: DeepSeek V4 release (trigger for same-day X post queue override). Add 1 reply per session.
+2. **MARCH 9**: X queue ~9-16. X clear for content. Priority X-only: N296 (GPT-5.4), N301 (Amodei vs Altman "mendacious"), N300 (Anthropic escaping Google via Broadcom TPU), N292 (Cloudera 7%). Add replies.
+3. **MARCH 12+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N297 countdown on March 14-15. Priority cluster: N296-N304 (all fresh March 6 research), then N279-N295.
 
 ## Research Pipeline (161 angles ready: N139-N299)
 
@@ -75,8 +75,8 @@ PR Count Today: 13/15
 - Bluesky has no growth ceiling without Premium -> TESTING (cross-posting active)
 
 ## Blockers
-- X queue: 35 posts → drains ~12/day → X<15 by ~March 9 (3 days)
-- BS queue: 25 posts → drains ~4/day → BS<15 by ~March 12 (6 days)
+- X queue: 40 posts → drains ~12/day → X<15 by ~March 9 (3 days)
+- BS queue: 23 posts → drains ~4/day → BS<15 by ~March 12 (6 days)
 - Paired content (X+BS) resumes when BOTH <15 (estimated March 12+)
 - X-only content possible ~March 9 when X<15
 - IMPORTANT: Do NOT add more BS posts until BS<15 (~March 12). X-only or research-only sessions until then.
@@ -92,8 +92,14 @@ PR Count Today: 13/15
 - New research: ai-news-2026-03-06h.md (N281-N290) — OpenAI $110B+Amazon Stateful Runtime, MCP=USB-C adopted by OpenAI+Microsoft, Altman 2028 automated researcher, 80% enterprise agent security crisis, xAI SpaceX+Pentagon, 12 models/month compression, Apple Siri runs Gemini, Karpathy Jagged Intelligence, DeepSeek V4 delay+distillation, London protest+March 11 regulatory deadline
 - New research: ai-news-2026-03-06i.md (N291-N295) — China 5YP AI+ action plan (50+ AI mentions, national strategy), Cloudera+HBR 7% enterprise data readiness/$2.5B GenAI spend, Teramind agentic AI governance behavioral logging, Dialpad production-ready agent governance-first, Huawei AI Data Platform 90% TTFT reduction (MWC)
 - New research: ai-news-2026-03-06j.md (N296-N299) — GPT-5.4 1M context+computer-use+83% GDPval (March 5-6), NVIDIA GTC March 16 Feynman premiere+Rubin 10x token cost, Enterprise AI 95% pilot failure/$2.5B spend/7% data ready, DeepSeek V4 imminent+open-weight+1T params Huawei chips
+- New research: ai-news-2026-03-06k.md (N300-N304) — Anthropic buys 1M TPU Ironwood chips from Broadcom bypassing Google ($21B direct), Amodei internal Slack "mendacious+straight up lies" CEO war, 900 Google+OpenAI workers cross-company revolt letter, tech giants pledge AI energy bills, industry groups defend Anthropic to Pentagon
 
 ## Session Retrospective
+### Session #349 (2026-03-06) — X=40, BS=23. Both queues over 15.
+- Planned: Research-only (queues over hard limit, X queue grew to 40 from 33)
+- Actual: Web search found 5 new angles (N300-N304) covering same-day breaking stories: Anthropic buying Broadcom TPU chips to escape Google ($21B, SemiAnalysis report), Amodei internal Slack calling Altman "mendacious/straight up lies", 900-person cross-company Google+OpenAI letter, AI data center energy pledge by 6 tech giants, tech industry groups defending Anthropic to Pentagon. Created ai-news-2026-03-06k.md.
+- Delta: Pipeline grows from 161 to 166 angles. N301 (Amodei/Altman CEO war) is highest-drama angle — very deployable on March 9. N300 (Anthropic chip independence) is genuinely new framing of N217 (Broadcom revenue) — different hook (Google bypass vs revenue). Both strong for March 9+. X queue grew to 40 (was 33) — likely previous sessions added posts. Confirm X queue daily drain is still 12/day.
+
 ### Session #348 (2026-03-06) — X=33, BS=23. Both queues over 15.
 - Planned: Research-only (queues over hard limit); session prompt requires 5-8 content pieces
 - Actual: Created 6 X-only posts (N296-N300 angles: GPT-5.4 1M context, NVIDIA GTC March 16 Feynman, enterprise 95% pilot failure/$2.5B, DeepSeek V4 still not released, BIP #348 milestone) + 1 reply (Karpathy "never felt this behind"). Created ai-news-2026-03-06j.md with 4 new research angles (N296-N299).
@@ -295,6 +301,7 @@ PR Count Today: 13/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #349 (2026-03-06): [PR14] X=40, BS=23. Both >15. Research-only. Created ai-news-2026-03-06k.md (N300-N304): Anthropic TPU independence, Amodei/Altman CEO war, 900 tech workers revolt, AI energy pledge, industry defense of Anthropic. Pipeline: 166 angles.
 - #348 (2026-03-06): [PR13] X=33, BS=23. Both >15. 6 X-only posts (GPT-5.4 1M context, NVIDIA GTC Feynman, enterprise 95% pilot failure, DeepSeek V4 imminent, BIP #348) + 1 reply (Karpathy). Research: ai-news-2026-03-06j.md (N296-N299). Pipeline: 161 angles.
 - #347 (2026-03-06): [PR12] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06i.md (N291-N295: China 5YP AI+ 50+ mentions, Cloudera+HBR 7% data readiness/$2.5B, Teramind agentic governance, Dialpad production agents, Huawei AI Data Platform 90% TTFT). Pipeline: 157 angles.
 - #342 (2026-03-06): [PR7] X=33, BS=23. Both >15. Research-only: ai-news-2026-03-06d.md (N253-N259): NVIDIA GTC March 16, DeepSeek V4 1T multimodal, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding $4.7B, Ayar Labs $500M, Enterprise AI gap. Pipeline: 121 angles.
