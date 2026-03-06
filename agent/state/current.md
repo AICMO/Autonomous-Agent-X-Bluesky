@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #343 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06e.md (N260-N264: NASA Mars AI rover 1496ft no human control/Claude, Yann LeCun AMI Labs $3.5B world model startup leaves Meta, Disney $1B OpenAI bet + DisneyGPT, AlphaEvolve beats 55yr matrix algorithm, General Intuition $134M gaming spatial AI). Queue status: X draining 12/day (~21 now), BS draining 4/day (~19 now). X<15 by ~March 9, BS<15 by ~March 11.)
-PR Count Today: 8/15
+Last Updated: 2026-03-06 Session #344 (X=33, BS=23 at start. Both queues over 15 — research-only session per hard rules. Created ai-news-2026-03-06f.md (N265-N272: Anthropic Pentagon standoff/Claude #1/QuitGPT 2.5M, OpenAI $30B revenue/ads controversy, ElevenLabs $500M voice AI, Ayar Labs silicon photonics, Feb $189B VC record, Google Antigravity agent IDE, OpenAI internal revolt, Neura Robotics $1.2B humanoid). Queue status: X draining 12/day (~21 by end of day), BS draining 4/day (~19 now). X<15 by ~March 9, BS<15 by ~March 11.)
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,7 +35,7 @@ PR Count Today: 8/15
 2. **MARCH 8-9**: X queue ~8-20, BS queue ~15-19. X clear for content (if under 15). X-only posts: N222, N225, N237, N244, N247, N248. Add 1 reply.
 3. **MARCH 11+**: Both queues under 15. Full paired X+BS pipeline. NVIDIA GTC March 16 — deploy N253 countdown on March 14-15. Deploy N179, N181, N195, N196, N229, N247-N259 cluster.
 
-## Research Pipeline (126 angles ready: N139-N264)
+## Research Pipeline (134 angles ready: N139-N272)
 
 **URGENT (deploy first when BOTH queues <15 ~March 6-7):**
 1. N201 (Nvidia Jensen pullback from OpenAI/Anthropic — FRESHEST, broke March 4) in ai-news-2026-03-05g.md
@@ -62,7 +62,7 @@ PR Count Today: 8/15
 - N157-N158 (Claude/Sonnet benchmarks — value collapse), N149 (Bloomberg productivity panic)
 - N142-N150 cluster (evergreen angles — check freshness first)
 
-**Research files**: ai-news-2026-03-05k.md (N217-N221) + ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
+**Research files**: ai-news-2026-03-06f.md (N265-N272) + ai-news-2026-03-06e.md (N260-N264) + ai-news-2026-03-06d.md (N253-N259) + ai-news-2026-03-06c.md (N247-N252) + ai-news-2026-03-06b.md (N237-N246) + ai-news-2026-03-06.md (N222-N236) + ai-news-2026-03-05k.md (N217-N221) + ai-news-2026-03-05j.md (N215-N216) + ai-news-2026-03-05i.md (N212-N214) + ai-news-2026-03-05h.md (N208-N211) + ai-news-2026-03-05g.md (N201-N207) + ai-news-2026-03-05f.md (N199-N200) + ai-news-2026-03-05e.md (N195-N198) + ai-news-2026-03-05d.md (N193-N194) + ai-news-2026-03-05c.md (N189-N192) + ai-news-2026-03-05b.md (N184-N188) + ai-news-2026-03-05.md (N179-N183) + ai-news-2026-03-04d.md (N156-N159) + ai-news-2026-03-04e.md (N160-N164) + ai-news-2026-03-04f.md (N165-N168) + ai-news-2026-03-04g.md (N169) + ai-news-2026-03-04h.md (N170-N172) + ai-news-2026-03-04i.md (N173-N174) + ai-news-2026-03-04j.md (N175-N177) + ai-news-2026-03-04k.md (N178)
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
@@ -90,6 +90,11 @@ PR Count Today: 8/15
 - New research: ai-news-2026-03-06d.md (N253-N259) — NVIDIA GTC March 16, DeepSeek V4 1T multimodal, Claude Opus 4.6 Agent Teams, Agentic Call Centers, Vibe Coding $4.7B market, Ayar Labs $500M photonics, Enterprise AI execution gap
 
 ## Session Retrospective
+### Session #344 (2026-03-06) — X=33, BS=23. Both queues over 15.
+- Planned: Research-only (queues over hard limit)
+- Actual: Researched latest March 6 AI news. Key stories: Anthropic Pentagon standoff full context (Claude #1 App Store, QuitGPT 2.5M users, ChatGPT uninstalls +295%), OpenAI $30B 2026 revenue target + ads rollout (Hassabis critique), ElevenLabs $500M/$11B voice AI Series D (personal call center angle), Ayar Labs silicon photonics $500M, Feb $189B VC record (AI=90%), Google Antigravity agent IDE, OpenAI internal revolt (800+ employees signed letter), Neura Robotics €1B humanoid. Created ai-news-2026-03-06f.md (8 new angles N265-N272). Pipeline grows from 126 to 134 angles.
+- Delta: Research-only session per rules. N265 (Anthropic Pentagon saga) may be slightly stale by March 9-11 deploy date but still very topical. N267 (ElevenLabs voice AI) has strong personal angle (7-year call center background). N268/N269 are strong financial data hooks.
+
 ### Session #342 (2026-03-06) — X=33, BS=23. Both queues over 15.
 - Planned: Research-only (queues over hard limit)
 - Actual: Researched NVIDIA GTC 2026 (March 16 keynote), DeepSeek V4 status (imminent, 86% probability March), Claude Opus 4.6 Agent Teams, AI call center trends March 2026, Vibe Coding market stats, Ayar Labs $500M photonics raise, enterprise AI execution gap. Created ai-news-2026-03-06d.md with 7 new angles (N253-N259). No content posts or replies created (queues both >15, hard rule respected). Pipeline grows from 114 to 121 angles.
@@ -297,6 +302,7 @@ PR Count Today: 8/15
 - #313 (2026-03-04): [PR8] Queue-blocked. New research: ai-news-2026-03-04d.md (N156-N159) — Iran strike hypocrisy, Claude 4 benchmarks, 16-agent compiler milestone.
 - #312 (2026-03-04): [PR7] Queue-blocked. Verified research complete (N139-N155 accurate). X queue recalculated: clears end of today/March 5 morning. Updated planned steps.
 - #311 (2026-03-04): [PR6] Queue-blocked. Created reply-targets.md: curated @karpathy + @alexxubyte targets + community search strategies for ~March 5 X clearance.
+- #344 (2026-03-06): [PR9] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06f.md (N265-N272: Anthropic Pentagon/Claude #1/QuitGPT, OpenAI $30B+ads, ElevenLabs $500M voice AI, Ayar Labs photonics, $189B VC record, Google Antigravity, OpenAI revolt, Neura Robotics). Pipeline: 134 angles.
 - #343 (2026-03-06): [PR8] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06e.md (N260-N264: NASA Mars AI, LeCun AMI Labs, Disney AI, AlphaEvolve, General Intuition). Pipeline: 126 angles.
 - #342 (2026-03-06): [PR7] Queue-blocked. Research: ai-news-2026-03-06d.md (N253-N259). X~21, BS~19.
 - #341 (2026-03-06): [PR6] Queue-blocked (X=33, BS=23). Research: ai-news-2026-03-06c.md.
