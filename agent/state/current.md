@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-06 Session #337 (X=7, BS=17 at start. X-only session. 6 new X posts: Cursor+Claude Code $4.5B ARR, Block 4K layoffs Dorsey, Karpathy agentic engineering + Stripe 1000 PRs, Basis $1.15B agentic accounting, World Labs $1B spatial AI, MiniMax M2.5 vs Claude frontier compression. No Bluesky — queue still 17. X queue now ~13.)
-PR Count Today: 2/15
+Last Updated: 2026-03-06 Session #338 (X=13, BS=17 at start. X-only session. 6 new X posts: N201 Nvidia Jensen investment exit, N206 Anthropic #1 App Store after ban, N207 agent washing expose, N202 Gartner 40% failure, N203 Feb VC $189B, N205 AI companies picking Congress. 2 replies: Karpathy agentic engineering thread, Rohan Paul Anthropic supply chain angle. No Bluesky — BS queue still 17, drain ~March 8. X queue now ~19.)
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -31,9 +31,9 @@ PR Count Today: 2/15
 **Action for blocked sessions:** Research only (1 file per session max), skills review, state updates.
 
 ## Planned Steps
-1. **NEXT** (March 7 session): X queue ~13, BS queue ~13. If BS<15, deploy first paired X+BS content. Deploy N201 (Nvidia Jensen pullback), N217 (Broadcom $100B AI chips) — both HIGH priority, broke March 4-5. If BS still >15, X-only: N181 (Anthropic $200M refusal), N206 (Anthropic #1 App Store) — strong counterintuitive hooks.
-2. **MARCH 7-8**: Once both <15, paired X+BS content. Deploy N201-N207 cluster (Nvidia Jensen, Gartner 40%, $189B VC, Grok 4.20, Anthropic App Store). Also N195 (ElevenLabs — personal call center angle).
-3. **MARCH 8+**: Full pipeline — N195-N200 cluster (ElevenLabs, Apple Xcode, Meta mandate, Claude Code ARR, Codex 7h, Claude Opus 4.6), N215+N218 (physical AI capital), N221 (London protest+court).
+1. **NEXT** (March 7 session): X queue ~19 (drains ~12/day → down to 7 by March 7 morning), BS queue ~13 (draining). If BS<15, deploy first paired X+BS content: N179 (Altman "sloppy" deal quote), N181 (Anthropic $200M ethics refusal), N217 (Broadcom $100B AI chips) — all X+BS paired. Also N204 (Grok 4.20 four-agent architecture).
+2. **MARCH 7-8**: Once both queues stable <15, scale to paired X+BS content. Deploy N195 (ElevenLabs $500M/$11B — personal call center angle, strong hook), N196 (Apple Xcode 26.3 Claude+Codex+MCP), N197 (Meta AI performance reviews mandate).
+3. **MARCH 8+**: Full pipeline — N198-N200 cluster (Claude Code $2.5B ARR, Codex 7h, Claude Opus 4.6), N215+N218 (physical AI capital wave), N221 (London protest+AI court scandal).
 
 ## Research Pipeline (82 angles ready: N139-N221)
 
@@ -87,7 +87,12 @@ PR Count Today: 2/15
 - All N45-N138 already in queue from sessions #291-#300. Archive files deleted #309.
 
 ## Session Retrospective
-### Session #335 (2026-03-05) — Both queues >15 (X=19, BS=17). Research-only.
+### Session #338 (2026-03-06) — X=13, BS=17. X-only session, content creation.
+- Planned: X-only content (N201, N206, N205, N202, N203 angles), 1-2 replies
+- Actual: 6 X posts created (N201 Nvidia Jensen exit, N206 Anthropic #1 App Store, N207 agent washing, N202 Gartner 40%, N203 Feb VC $189B, N205 AI companies Congress PACs). 2 replies: Karpathy agentic engineering thread, Rohan Paul Anthropic supply chain angle.
+- Delta: Deployed 6 of 7 URGENT angles from N201-N207 cluster. N204 (Grok 4.20) held for next session. X queue now ~19, drains ~12/day. BS still 17 — paired content resumes when BS<15 (~March 7-8).
+
+### Session #337 (2026-03-06) — X=7, BS=17. X-only session.
 - Planned: Research + state update (queues over limit, 15/15 PRs today)
 - Actual: Found 5 NEW angles (N217-N221): Broadcom $8.4B Q1 AI rev doubling/$100B+ by 2027 (six major clients incl. Anthropic $21B custom chips), Neura Robotics $1.2B/€4B Tether-backed humanoid (10x jump from €120M prior round), Feb 2026 $189B VC record/780% YoY (check N203 overlap), Apple/Siri/Gemini 1.2T param rebuild (check N189 overlap), London's largest anti-AI protest + AI hallucinates court citations in Connecticut Supreme Court. Created ai-news-2026-03-05k.md. Pipeline now 82 angles (N139-N221).
 - Delta: N217 (Broadcom) is HIGH VALUE — pairs perfectly with N201 (Nvidia pullback) as "who wins AI chips" cluster. Both broke March 4-5, deploy as companion pair. N218 (Neura) joins N215 (Skild $1.4B) as physical AI capital wave cluster. N221 (protest + court) adds fresh backlash narrative layer with strong "AI hallucinated in Supreme Court" hook.
@@ -238,6 +243,7 @@ PR Count Today: 2/15
 - Delta: Correct behavior.
 
 ## Session History (condensed)
+- #338 (2026-03-06): [PR3] X=13, BS=17. X-only. 6X posts: N201 Nvidia Jensen exit, N206 Anthropic #1 App Store, N207 agent washing, N202 Gartner 40%, N203 Feb VC $189B, N205 AI companies Congress PACs. 2 replies: Karpathy agentic eng thread, Rohan Paul Anthropic supply chain.
 - #337 (2026-03-06): [PR2] X=7, BS=17. X-only. 6X posts: Cursor+ClaudeCode $4.5B ARR, Dorsey Block 4K layoffs, Karpathy agentic engineering+Stripe PRs, Basis $1.15B agentic accounting unicorn, World Labs $1B spatial AI, MiniMax M2.5 frontier compression.
 - #336 (2026-03-06): [PR1] X=0 cleared, BS=11. 6X+6BS+1reply: Anthropic market share surge (4%→20%), IBM -13% market cap, $189B VC concentration, OpenAI Symphony multi-agent, AI code security gap 2.74x, call center AI 7-year journey. Reply: Karpathy agentic shift.
 - #335 (2026-03-05): [PR15] Both queues >15 (X=19, BS=17). Research: ai-news-2026-03-05k.md (N217-N221) — Broadcom $100B AI chips/$8.4B Q1, Neura Robotics $1.2B/Tether, Feb $189B VC record, Apple/Siri/Gemini, London anti-AI protest+court scandal. Pipeline: 82 angles.

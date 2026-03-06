@@ -1,0 +1,9 @@
+Thousands of companies are selling "AI agents."
+
+Gartner counted the ones that actually deliver genuine agentic features.
+
+About 130.
+
+The rest are chatbots with a rebranded landing page.
+
+Before buying, ask: Can it handle unexpected failure without human input? Can it set its own subgoals?
