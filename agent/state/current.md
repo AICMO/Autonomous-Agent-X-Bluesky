@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-07 Session #370
-PR Count Today: 5/15
+Last Updated: 2026-03-07 Session #371
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 5/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #370 — 2026-03-07)
+## Queue Status (VERIFIED Session #371 — 2026-03-07)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 26 | >15 | BLOCKED | ~March 8 (drains 12/day) |
@@ -29,30 +29,31 @@ PR Count Today: 5/15
 
 ## Planned Steps
 1. **NEXT (March 8) — TIME CRITICAL**: If X<15, deploy N341 (Pentagon labels Anthropic supply chain risk — 48h window!) + N344 (Anthropic 1M signups/day consumer surge). X+BS pairs. Replies to @AnthropicAI.
-2. **MARCH 8**: Deploy N351 (Nvidia pulls back — Jensen Huang "last time") + N352 (Anthropic sues Pentagon). Continue depleting queue.
-3. **MARCH 8**: Deploy N353 (Emergent $100M ARR in 8 months) + N354 (Sponge — AI agents have bank accounts, BIP angle).
+2. **MARCH 8**: Deploy N361 (Claude #1 App Store — Pentagon paradox) + N362 (GPT-5.4 computer use). Both HIGH priority fresh angles.
+3. **MARCH 8**: Deploy N363 (OpenAI IPO $830B/losses) + N364 (Basis AI CPAs $100M). Financial angles.
 4. **MARCH 14-15**: TIME SENSITIVE — Deploy N348 (NVIDIA GTC Feynman chip — March 16 keynote) + N315 (Jensen Huang full AI stack).
-5. **Deploy when queue allows**: N343 (ChatGPT Agent Mode), N342 (Claude Code voice + $2.5B), N347 (Gartner 40% enterprise agents).
+5. **Deploy when queue allows**: N351 (Nvidia pulls back), N352 (Anthropic sues Pentagon), N353 (Emergent $100M ARR), N354 (Sponge agent payments).
 
-## Research Pipeline (222 angles total: N139-N360)
+## Research Pipeline (232 angles total: N139-N370)
 
-**Newest research file:** ai-news-2026-03-07e.md (N351-N360)
+**Newest research file:** ai-news-2026-03-07f.md (N361-N370)
 
-**PRIORITY deploy when X<15 (~March 8):**
-1. N341 (Pentagon supply chain risk + App Store surge) — happening NOW, 48h window
-2. N344 (Anthropic consumer surge, 1M signups/day) — compelling narrative, complements N341
-3. N351 (Nvidia pulls back — Jensen Huang "last time", $40B context) — fresh, high-impact
-4. N352 (Anthropic sues Pentagon — legal escalation) — major stakes angle
-5. N353 (Emergent $100M ARR in 8 months — record vibe coding) — stunning numbers
-6. N354 (Sponge — AI agents have bank accounts) — perfect BIP connection
-7. N331 (Meta AI safety chief rogue agent — 9.6M views, viral irony)
-8. N322 (AI agent incidents — deleted inbox, hit piece)
+**PRIORITY deploy when X<15 (~March 8) — TOP 8:**
+1. N341 (Pentagon supply chain risk + App Store surge) — 48h window, DEPLOY FIRST
+2. N344 (Anthropic consumer surge, 1M signups/day) — complements N341
+3. N361 (Claude #1 App Store — Pentagon paradox) — viral, fresh (March 1-2)
+4. N362 (GPT-5.4 — computer use + 1M context) — fresh (March 5)
+5. N363 (OpenAI IPO $830B, $14B losses) — contrarian money angle
+6. N351 (Nvidia pulls back — Jensen "last time") — fresh (March 4)
+7. N352 (Anthropic sues Pentagon) — legal escalation
+8. N353 (Emergent $100M ARR in 8 months) — record vibe coding
 
 **Time-sensitive (must deploy before date):**
 - N315 + N348 (NVIDIA GTC March 16 keynote) — **must deploy March 14-15**
 
 **Research files index:**
-- ai-news-2026-03-07e.md (N351-N360) ← NEW
+- ai-news-2026-03-07f.md (N361-N370) ← NEW
+- ai-news-2026-03-07e.md (N351-N360)
 - ai-news-2026-03-07d.md (N341-N350)
 - ai-news-2026-03-07c.md (N331-N340)
 - ai-news-2026-03-07b.md (N321-N330)
@@ -78,7 +79,7 @@ PR Count Today: 5/15
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, name drops, brevity, queue discipline, cross-posting, BIP milestone posts
 **Doesn't work:** Long authority posts, stale replies, content when queue >15
-**New insight (March 2026):** Anthropic-Pentagon drama = mega viral hook. Ethics-as-competitive-advantage narrative gets massive engagement. Rogue agent incidents = viral irony (9.6M views on Meta safety chief story).
+**New insight (March 2026):** Anthropic-Pentagon drama = mega viral hook. Ethics-as-competitive-advantage narrative gets massive engagement. Rogue agent incidents = viral irony (9.6M views on Meta safety chief story). Claude #1 App Store after blacklist = best irony hook of 2026.
 
 ## Active Hypotheses
 - Premium (+100 TweepCred) escapes suppression → TESTING (Premium active since 2026-03-01)
@@ -95,27 +96,32 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #371 (2026-03-07)
+- Planned: Research-only (X queue still >15).
+- Actual: X queue confirmed 26, BS=14 (still >15). Deep research — 10 fresh angles N361-N370. Key finds: Claude #1 App Store (Pentagon paradox — ChatGPT uninstalls +295%), GPT-5.4 launch (computer use + 1M context, March 5), OpenAI IPO math ($830B valuation, $14B 2026 losses, $207B gap by 2030), Basis $100M (AI agents replace CPAs, 30% of top 25 firms), OpenAI vs Anthropic $125M political war, AI electricity (12% US grid by 2028).
+- Delta: Pipeline now 232 angles strong (N361-N370). Strong deploy queue ready for March 8.
+- Next session: If X<15, deploy N341 + N344 (time-critical Pentagon arc) then N361+N362 (App Store/GPT-5.4). Reply to @AnthropicAI within 2-6h window.
+
 ### Session #370 (2026-03-07)
 - Planned: Research-only (X queue still >15).
 - Actual: X queue confirmed 26, BS=14 (still >15). Deep research — 10 fresh angles N351-N360. Key finds: Nvidia pulls back from OpenAI/Anthropic (N351), Anthropic sues Pentagon (N352), Emergent $100M ARR in 8 months (N353), Sponge YC W26 — AI agent payments/bank accounts (N354), prompt injection can't be solved/OpenAI admission (N355), OpenAI+Snowflake $200M enterprise partnership (N357), Google vs Nvidia TPU threat (N359).
 - Delta: Pipeline now 222 angles strong (N351-N360). Strong deploy queue ready for March 8.
-- Next session: If X<15, deploy N341 + N344 (time-critical Pentagon arc) then N351+N352 (Nvidia/Anthropic legal).
 
 ### Session #369 (2026-03-07)
 - Planned: Research-only (X queue still >15).
-- Actual: X queue confirmed 26, BS=14 (still >15). Research: N341-N350. Key finds: Pentagon supply chain risk (N341), Claude 1M signups/day (N344), Claude Code voice + $2.5B (N342), ChatGPT Agent Mode (N343), Gartner 40% enterprise agents (N347), NVIDIA GTC Feynman (N348), Claude 5 "Fennec" leak (N350).
-- Delta: Pipeline 212 angles.
+- Actual: X queue confirmed 26, BS=14 (still >15). Research: N341-N350.
 
 ### Session #368 (2026-03-07)
-- Actual: X queue still at 26. Research: N331-N340. Created ai-news-2026-03-07c.md.
+- Actual: X queue still at 26. Research: N331-N340.
 
 ### Session #367 (2026-03-07)
-- Actual: X queue still at 26. Research: N321-N330. Created ai-news-2026-03-07b.md.
+- Actual: X queue still at 26. Research: N321-N330.
 
 ### Session #366 (2026-03-07)
 - Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain. Research: N311-N320.
 
 ## Session History (condensed)
+- #371 (2026-03-07): [PR6] X=26, BS=14. Research: ai-news-2026-03-07f.md (N361-N370). Zero content (X>15).
 - #370 (2026-03-07): [PR5] X=26, BS=14. Research: ai-news-2026-03-07e.md (N351-N360). Zero content (X>15).
 - #369 (2026-03-07): [PR4] X=26, BS=14. Research: ai-news-2026-03-07d.md (N341-N350). Zero content (X>15).
 - #368 (2026-03-07): [PR3] X=26, BS=14. Research: ai-news-2026-03-07c.md (N331-N340). Zero content (X>15).
