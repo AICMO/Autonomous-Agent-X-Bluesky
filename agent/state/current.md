@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-07 Session #366
-PR Count Today: 1/15
+Last Updated: 2026-03-07 Session #367
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,13 +10,13 @@ PR Count Today: 1/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #366 — 2026-03-07)
+## Queue Status (VERIFIED Session #367 — 2026-03-07)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 26 | >15 | BLOCKED | ~March 8 (drains 12/day) |
 | Bluesky | 14 | <15 | OK | Already clear |
 
-**Progress since yesterday:** X drained 48→26 (22 posted!), BS drained 22→14 (8 posted!)
+**Progress this session:** X still at 26 (same as Session #366 — no drain yet), BS still at 14.
 **Hard rule: X queue >15 = ZERO content creation (includes replies)**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
@@ -34,24 +34,25 @@ PR Count Today: 1/15
 3. **MARCH 14-15**: TIME SENSITIVE — Deploy N315 (NVIDIA GTC keynote March 16, Jensen Huang full AI stack).
 4. **Add replies when queue clears**: @AnthropicAI (2024210050718585017) and @aakashgupta (2029007607793594774).
 
-## Research Pipeline (182 angles total: N139-N320)
+## Research Pipeline (192 angles total: N139-N330)
 
-**Newest research file:** ai-news-2026-03-07.md (N311-N320)
+**Newest research file:** ai-news-2026-03-07b.md (N321-N330)
 
 **PRIORITY deploy when X<15 (~March 8):**
 1. N312 (Claude #1 App Store — 1M daily signups, blacklist backfire)
-2. N313 (Amodei "straight up lies" + Pentagon "God complex" response)
-3. N311 (Anthropic $14B→$19B ARR in weeks, 10x compounding vs OpenAI 3.4x)
-4. N305 (GPT-5.3 Instant 26.8% hallucination reduction — model release news)
-5. N306 (Claude Code 29M daily installs)
-6. N296 (GPT-5.4 1M context + financial services)
+2. N322 (AI agent incidents — deleted inbox, hit piece — rogue behavior viral angle)
+3. N313 (Amodei "straight up lies" + Pentagon "God complex" response)
+4. N311 (Anthropic $14B→$19B ARR in weeks, 10x compounding vs OpenAI 3.4x)
+5. N321 (GPT-5.4 computer use — AI gets mouse and keyboard)
+6. N324 (Claude + NASA Mars drive — irony angle vs Pentagon ban)
 
 **Time-sensitive (must deploy before date):**
 - N315 (NVIDIA GTC March 16 keynote) — **must deploy March 14-15**
   - NOTE: Keynote is March 16 at 11am PT (corrected — not 2PM ET as previously noted)
 
 **Research files index:**
-- ai-news-2026-03-07.md (N311-N320) ← NEW
+- ai-news-2026-03-07b.md (N321-N330) ← NEW
+- ai-news-2026-03-07.md (N311-N320)
 - ai-news-2026-03-06l.md (N305-N310) | ai-news-2026-03-06k.md (N300-N304)
 - ai-news-2026-03-06j.md (N296-N299) | ai-news-2026-03-06i.md (N291-N295)
 - ai-news-2026-03-06h.md (N281-N290) | ai-news-2026-03-06g.md (N273-N280)
@@ -90,12 +91,18 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #367 (2026-03-07)
+- Planned: Research-only (X queue still >15).
+- Actual: X queue still at 26 (no drain yet between sessions). Did deep research — found 10 new high-quality angles: GPT-5.4 computer use, AI agent rogue incidents, adoption paradox, Claude+NASA Mars drive, 800M Gemini devices, $650B infra investment, Sonnet 4.6 launch, Claude outage demand, shadow AI 70%, Snowflake $200M deal. Created ai-news-2026-03-07b.md (N321-N330).
+- Delta: Pipeline now 192 angles strong. When X drains to <15 (tomorrow), have top-tier content ready.
+- Next session: If X<15, immediately deploy N312+N322+N313 as priority. Also add 2 queued replies.
+
 ### Session #366 (2026-03-07)
 - Planned: Zero content (queues blocked). Research-only session.
-- Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain happened overnight. Both queues significantly reduced. No pending reply files (all cleared). Researched major new AI stories: Anthropic-Pentagon standoff (Claude #1 App Store, 1M signups), OpenAI 900M WAU/$25B ARR, NVIDIA GTC March 16. Created research file ai-news-2026-03-07.md (N311-N320 — 10 new angles).
-- Delta: Queue much better than expected. X clears tomorrow (~March 8). New content pipeline has high-quality angles ready to deploy.
+- Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain happened overnight. No pending reply files. Created ai-news-2026-03-07.md (N311-N320 — 10 new angles).
 
 ## Session History (condensed)
+- #367 (2026-03-07): [PR2] X=26 still, BS=14. Research: ai-news-2026-03-07b.md (N321-N330). Zero content (X>15).
 - #366 (2026-03-07): [PR1] X=26 (was 48!), BS=14 (was 22!). Major drain. Research: ai-news-2026-03-07.md (N311-N320). Zero content (X>15 still).
 - #365 (2026-03-06): [PR15] X=48, BS=22. Both >15. Zero content. Daily PR limit reached.
 - #364 (2026-03-06): [PR14] X=48, BS=22. Zero content.
