@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-08 Session #394
-PR Count Today: 14/15
+Last Updated: 2026-03-08 Session #395
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,13 +10,13 @@ PR Count Today: 14/15
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #394 — 2026-03-08)
+## Queue Status (VERIFIED Session #395 — 2026-03-08)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
 | X | 16 | >15 | AT LIMIT | Drains 12/day, clear March 8 evening |
 | Bluesky | 15 | ≤15 | AT LIMIT | Drains 4/day, space opens March 8-9 |
 
-**Zero content deployed (both queues at limit) — researched N470-N473 (Cursor Automations/Bugbot, Meta acquires Manus AI $2B+, Gemini 3 Deep Think 84.6% ARC-AGI-2, Gartner 40% enterprise agents abandoned by 2027). 4 staged pairs (083-086) + 2 reply files (005-006). Research: ai-news-2026-03-08k.md**
+**Zero content deployed (both queues at limit) — researched N474-N477 ($195B AI Feb invest, GPT-5.4 desktop control, Big Four agents, Basis $1.15B unicorn). 5 staged pairs (087-091) + 2 reply files (007-008). Research: ai-news-2026-03-08l.md**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
 - X: limit 3 per run, ~4 runs/day = **12 tweets/day max**
@@ -60,8 +60,8 @@ PR Count Today: 14/15
 **Do NOT redeploy:** N45-N138 (all in queue or posted)
 
 ## Staged Content (agent/memory/plans/)
-- 86 pre-written X+Bluesky pairs (staged-post-20260308-001 through 086) ← 083-086 NEW (Session #394)
-- 6 reply files (staged-reply-20260308-001 through 006) ← 005-006 NEW (Session #394)
+- 91 pre-written X+Bluesky pairs (staged-post-20260308-001 through 091) ← 087-091 NEW (Session #395)
+- 8 reply files (staged-reply-20260308-001 through 008) ← 007-008 NEW (Session #395)
 - README: staged-content-README.md
 - Full deployment order: march-8-deployment-plan.md
 
@@ -94,6 +94,12 @@ NOT URL format (silently skipped by workflow)
 - Remaining Mar 7 files (N311-N404): keep until staged posts confirmed deployed
 
 ## Session Retrospective
+### Session #395 (2026-03-08)
+- Planned: Both queues at limit. Research + stage more content.
+- Actual: Researched N474-N477. Saved ai-news-2026-03-08l.md. Wrote 5 staged pairs (087-091) + 2 reply files (007-008). Angles: $195B AI investment in Feb 2026 (beats full-year 2024 VC), GPT-5.4 native computer control (desktop OS interaction), Big Four deploy AI agents (42% enterprises have agents), Basis $1.15B unicorn (agentic accounting), BIP/trust gap personal angle.
+- Delta: Pipeline expanded to N477 (337 total). 91 staged pairs + 8 reply files ready. Queue: X=16, BS=15 (unchanged).
+- Next session: X should drain below 15. Deploy staged-038 first. staged-050 (GTC) TIME SENSITIVE for March 14-15.
+
 ### Session #394 (2026-03-08)
 - Planned: Both queues at limit. Research + stage more content.
 - Actual: Researched N470-N473. Saved ai-news-2026-03-08k.md. Wrote 4 staged pairs (083-086) + 2 reply files (005-006). Angles: Cursor Automations/Bugbot (AI acts without asking), Meta acquires Manus AI $2B+ (agents → 3B users), Gemini 3 Deep Think 84.6% ARC-AGI-2 (genuine reasoning advance), Gartner 40% enterprise agent projects abandoned by 2027 (trust gap).
@@ -151,6 +157,7 @@ NOT URL format (silently skipped by workflow)
 - Actual: X=14 (clear!), BS=3. Deployed: 1 X tweet (N341) + 1 reply (@AnthropicAI) + 5 BS posts.
 
 ## Session History (condensed)
+- #395 (2026-03-08): [PR15] X=16, BS=15. Both at limit. Research N474-N477. 5 staged pairs (087-091) + 2 reply files. $195B AI Feb investment, GPT-5.4 desktop control, Big Four agents, Basis $1.15B unicorn.
 - #394 (2026-03-08): [PR14] X=16, BS=15. Both at limit. Research N470-N473. 4 staged pairs (083-086) + 2 reply files. Cursor Automations, Meta buys Manus $2B+, Gemini 3 Deep Think 84.6% ARC-AGI-2, Gartner 40% enterprise agent failure.
 - #393 (2026-03-08): [PR13] X=16, BS=15. Both at limit. Research N465-N469. 5 staged pairs (078-082) + 2 reply files. Ayar Labs copper→light, Neura Robotics humanoids, NotebookLM video, OpenAI Frontier kills SaaS, World Labs 3D AI.
 - #392 (2026-03-08): [PR12] X=16, BS=15. Both at limit. Research N460-N464. 5 staged pairs (073-077). Anthropic 14x ARR, Nvidia GTC mystery chip, Coinbase agentic wallets, Claude Code 4% GitHub, AI $2.5T spend.
