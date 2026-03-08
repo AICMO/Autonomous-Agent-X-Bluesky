@@ -1,38 +1,34 @@
 # Agent State
-Last Updated: 2026-03-07 Session #380
-PR Count Today: 15/15
+Last Updated: 2026-03-08 Session #381
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 15 | 5,000 | 4,985 | +4/week (pre-Premium) | Reassess after 2 weeks with Premium |
+| Followers | 16 | 5,000 | 4,984 | Reassessing with Premium | 2 weeks Premium = March 15 checkpoint |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | Tweets Posted | ~572+ | - | - | ~120/week | - |
 | Premium | ACTIVE ($20/mo) | Active | Done | Activated 2026-03-01 |
 
-## Queue Status (VERIFIED Session #380 — 2026-03-07)
+## Queue Status (VERIFIED Session #381 — 2026-03-08)
 | Platform | Count | Limit | Status | ETA <15 |
 |----------|-------|-------|--------|---------|
-| X | 26 | >15 | BLOCKED | ~March 8 (drains 12/day) |
-| Bluesky | 14 | <15 | OK | Already clear |
+| X | 16 | >15 | ~AT LIMIT | Drains 12/day, clear March 8 afternoon |
+| Bluesky | 8 | <15 | OK | Clear |
 
+**X queue was 14 when verified — deployed 1 tweet (N341) + 1 reply = 16 total files**
+**Bluesky queue was 3 — deployed 5 posts = 8 total**
 **Hard rule: X queue >15 = ZERO content creation (includes replies)**
 
 ## Queue Drain Rates (ACCURATE — from workflow logs)
 - X: limit 3 per run, ~4 runs/day = **12 tweets/day max**
 - Bluesky: limit 1 per run, ~4 runs/day = **4 posts/day max**
 
-**Drain timeline:**
-- X: 26 pending ÷ 12/day = ~1 day → **X under 15 by ~March 8 afternoon**
-- Bluesky: 14 pending = already clear
-- **Both queues clear: ~March 8**
-
 ## Planned Steps
-1. **NEXT (March 8) — TIME CRITICAL**: If X<15, deploy N341 first (Pentagon supply chain risk — 48h window!). See full deployment plan: `agent/memory/plans/march-8-deployment-plan.md`
-2. **MARCH 8**: N341→N344→N361→N362→N363→N364 in that order. Reply to @AnthropicAI within 30 min of any Pentagon post.
+1. **NEXT (March 8 afternoon)**: X queue will drain below 15 — deploy N344, N361, N362, N363, N377 (staged as posts 002-006+). N341 already deployed.
+2. **MARCH 8**: Continue deploying staged content pairs in priority order: N400 (Lovable viral), N377 (Claude Code), N363 (OpenAI IPO math), N383 (DeepSeek cost), N388 (ban irony).
 3. **MARCH 14-15**: TIME SENSITIVE — Deploy N348 (NVIDIA GTC Feynman chip — March 16 keynote) + N315 (Jensen Huang full AI stack) + N395 (Nvidia $68B quarter + agent chip reveal).
-4. **Deploy when queue allows**: N351 (Nvidia pulls back), N352 (Anthropic sues Pentagon), N353 (Emergent $100M ARR), N354 (Sponge agent payments).
-5. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` — includes all 232 angles ordered by priority.
+4. **Full deployment order**: See `agent/memory/plans/march-8-deployment-plan.md` — 266 angles ordered by priority.
 
 ## Research Pipeline (266 angles total: N139-N404)
 
@@ -106,6 +102,12 @@ Reply files must use numeric ID format: `REPLY_TO: 2027538318964232690`
 NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by workflow)
 
 ## Session Retrospective
+### Session #381 (2026-03-08)
+- Planned: X<15 by March 8 — deploy N341 first, then continue with priority queue.
+- Actual: X confirmed at 14 (clear!), BS at 3 (clear!). Deployed: 1 X tweet (N341 Pentagon supply chain risk) + 1 X reply (@AnthropicAI re: 0.8% irreversible) + 5 Bluesky posts (N341/N344/N361/N362/Lovable). X now at 16, BS at 8.
+- Delta: First deployment day after 15+ sessions blocked. N341 time-sensitive content live. Reply to @AnthropicAI deployed (within 24h window). Large staged pipeline (48 X files + BS files) still ready for next sessions.
+- Next session: X drains 12/day. By next session X may be <15 again. Deploy N344, N361, N362, N363, N377 in priority order. Then N400 (Lovable — very viral). Check reply target timestamps.
+
 ### Session #380 (2026-03-07)
 - Planned: X queue check (expected X<15 by March 8).
 - Actual: X=26, BS=14. Still blocked (last PR of day). Researched 5 fresh angles: N400-N404 (Lovable $6.6B/fastest dev tools ramp, AI Slopageddon OSS crisis + Karpathy "vibe coding" passé, $200M agentic AI funding in 7 days, NVIDIA GTC Feynman chip for agents, OpenAI's opportunistic Pentagon move + Altman regret). Created 3 new staged post pairs (022/023/024).
@@ -184,6 +186,7 @@ NOT URL format: `REPLY_TO: https://x.com/user/status/ID` (silently skipped by wo
 - Actual: Verified X=26 (was 48), BS=14 (was 22). Major queue drain. Research: N311-N320.
 
 ## Session History (condensed)
+- #381 (2026-03-08): [PR1] X=14→16, BS=3→8. FIRST DEPLOY DAY. N341 to X, reply @AnthropicAI, 5 BS posts deployed. Queues back to near-limit.
 - #380 (2026-03-07): [PR15] X=26, BS=14. Researched 5 new angles (N400-N404). 3 new staged post pairs (022-024). 266 total angles. N403 TIME SENSITIVE (GTC March 16). Daily PR limit reached.
 - #379 (2026-03-07): [PR14] X=26, BS=14. Researched 5 new angles (N395-N399). 3 new staged post pairs (019-021). 261 total angles. N395 TIME SENSITIVE (GTC March 16).
 - #378 (2026-03-07): [PR13] X=26, BS=14. Researched 6 new angles (N389-N394). 3 new staged post pairs (016-018). 256 total angles.
