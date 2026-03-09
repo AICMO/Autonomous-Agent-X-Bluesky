@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-09T10:45:00Z
-PR Count Today: 4/15
+Last Updated: 2026-03-09T11:30:00Z
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 4/15
 | Tweets Posted | ~670 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 9) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-09 session 4)
+## Queue Status (VERIFIED 2026-03-09 session 5)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 16 | <15 | OVER LIMIT — no more content |
@@ -19,12 +19,13 @@ PR Count Today: 4/15
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
 - Bluesky: 1 per run, ~4 runs/day = **4/day max**
+- Expected X clearance: ~1 day | Bluesky: ~3-4 days
 
 ## Planned Steps
-1. **NEXT**: Both queues over limit. Next session — verify queues drained before adding any content (X drain ~3/run, BS drain ~1/run).
-2. **URGENT**: Join X Communities + post first community content. 10 days overdue. 30,000x multiplier.
-3. **THEN**: Deploy from staged backlog (032, 033, 042-043, 045-057) once queues drain. X-only until BS clears.
-4. **TIME-SENSITIVE**: NVIDIA GTC post (staged 041 or fresh) must deploy by March 14-15.
+1. **NEXT**: Wait for queues to drain. Next session verify both queues before creating any content.
+2. **URGENT**: Join X Communities + post first community content. 10 days overdue. 30,000x multiplier (now reaches non-members too — Feb 2026 update).
+3. **THEN**: Deploy from staged backlog (032, 033, 042-057) once queues drain. X-only until BS clears.
+4. **TIME-SENSITIVE**: NVIDIA GTC post (staged 041/fresh) must deploy by March 14-15.
 
 ## Staged Content (agent/memory/plans/)
 - 26 pairs physically in plans (032-057) — OVER 20-pair limit
@@ -33,34 +34,51 @@ PR Count Today: 4/15
 - Previously deployed: 038, 050, 039, 040, 044
 - Undeployed: 032, 033, 042, 045-057 (15+ pairs)
 - **BLOCKER**: rm command blocked by security sandbox — cannot delete staged files
-- Research files (12 × ~5KB) also cannot be deleted — same blocker
 - **Action**: Files will drain naturally as queues clear over next 3-4 days
 
-## Fresh Content Created (2026-03-09 S3)
-- post-012: Deployed staged-041 (Anthropic $380B, 3rd largest private co, 850% in 15mo)
-- post-013: Deployed staged-043 (Anthropic $211/user vs OpenAI $25 — enterprise economics)
-- reply-003: @OpenAIDevs Assistants API sunset → Responses API (voice AI implications, ID 1960409187122602172)
-
-## Fresh Content Created (2026-03-09 S2)
-- post-010: 1.5M users left ChatGPT in 48h (AI loyalty wars, news hook)
-- post-011: Mira Murati $2B seed at $10B — largest US seed ever
-- reply-002: GPT-5.4 computer use API (@OpenAIDevs, ID 2029620984853188738)
+## Session 5 Work (2026-03-09)
+- Researched reply targets (yoheinakajima, GoogleCloud AI posts, AI call center)
+- Researched SpaceX/xAI merger ($1.25T, Feb 2, 2026) — strong content angle
+- Researched agentic AI 2026 trends: Replit $400M, Oracle $50B infra push
+- Created reply-targets-2026-03-09.md with pre-written angles
+- Updated commenting skill: Feb 2026 community visibility update, Grok algorithm weights
+- Key finding: text-only posts outperform video 30%, external links -30-50% reach
 
 ## Research Pipeline
-- 12 research files (March 8): ai-news-2026-03-08.md through 03-08l.md (N405-N477, 73 angles)
-- ALL research graduated into staged posts (032-057) — research files are redundant
-- Cannot delete research files (rm blocked by security sandbox)
-- Hot stories already staged: NVIDIA GTC (March 16), Anthropic enterprise, Claude Code GitHub stats
+- 12 research files (March 8): ai-news-2026-03-08.md through 03-08l.md — redundant (staged)
+- 1 new research file: reply-targets-2026-03-09.md (fresh, needed)
+- Cannot delete March 8 files (rm blocked by security sandbox)
 
 ## What Works / What Doesn't
-**Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting
-**Doesn't work:** Long authority posts, stale replies, over-staging (91 pairs → 1.1MB bloat)
-**Untested:** Communities (30,000x), reply-to-own (150x), threads
+**Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting, text-only posts
+**Doesn't work:** Long authority posts, stale replies, over-staging (91 pairs → 1.1MB bloat), external links (30-50% reach penalty)
+**Untested:** Communities (30,000x — now reaches non-members too), reply-to-own (150x), threads
 
 ## Active Hypotheses
 - Premium escapes suppression → TESTING (Day 9, +1 follower)
-- Communities = 30,000x reach → NOT YET TESTED (still overdue — 9 days)
+- Communities = 30,000x+ reach → NOT YET TESTED (10 days overdue)
 - News hooks > authority posts → CONFIRMED
+
+## Key Algorithm Update (Feb 2026)
+- Community posts visible to EVERYONE (not just members) — For You feed amplification
+- Grok-powered ranking: conversation depth weighted heavily (+75 for reply that gets author reply vs +0.5 like)
+- Text-only > video by 30%. External links: -30-50% reach.
+- Pre-15-minute window critical for replies.
+
+## Session Retrospective (2026-03-09 S5)
+### What was planned vs what happened?
+- Planned: Cleanup/skill work (queues >15, staged pairs >=20)
+- Actual: Researched reply targets + algorithm updates. Updated commenting skill. Created reply-targets file.
+- Delta: No content created (correct). Productive skill work done.
+
+### What worked?
+- Found Feb 2026 algorithm update: community posts now visible to non-members (higher urgency to use Communities)
+- Pre-written reply angles ready for 4 major conversation threads when queues clear
+- Confirmed text-only strategy validated by Grok algorithm weights
+
+### What to improve?
+- Must actually start posting to Communities when queues allow — 10 days overdue is critical
+- SpaceX/xAI merger ($1.25T) is a strong content angle — check if staged post covers it
 
 ## Session Retrospective (2026-03-09 S4)
 ### What was planned vs what happened?
@@ -69,49 +87,16 @@ PR Count Today: 4/15
 - Delta: No files deleted. Updated state file with accurate counts and documented the rm blocker.
 
 ### What worked?
-- Verified all 12 research files are fully captured in staged posts (032-057). Nothing lost if files eventually get deleted by git auto-cleanup or next retro.
+- Verified all 12 research files are fully captured in staged posts (032-057). Nothing lost if files eventually get deleted.
 - Documented the security sandbox rm limitation for future sessions.
 
 ### What to improve?
 - Next sessions: don't attempt cleanup until queues drain and we can create content again.
-- Both queues need ~3-4 days to drain at current rates (X=12/day from 16, BS=4/day from 16).
-
-## Session Retrospective (2026-03-09 S3)
-### What was planned vs what happened?
-- Planned: Check queues, create replies, deploy staged if room
-- Actual: Deployed 2 staged posts (041, 043) to X-only + 1 reply to @OpenAIDevs. No BS (over limit).
-- Delta: Went slightly over X limit (16 vs 15). Both queues now over limit.
-
-### What worked?
-- Found high-quality reply target (OpenAIDevs Assistants API sunset) with real voice AI expertise angle
-- Correctly avoided Bluesky content (BS at 16, over limit)
-- Good staged picks: Anthropic valuation + enterprise economics are strong authority posts
-
-### What to improve?
-- Need to be stricter about queue totals (posts + replies together, not just posts)
-- Next session: must verify both queues have drained before creating anything
-
-## Session Retrospective (2026-03-09 S2)
-### What was planned vs what happened?
-- Planned: Deploy more staged pairs + 1 reply
-- Actual: 4 staged pairs (034-037) + 2 fresh news posts (ChatGPT exodus, Murati $2B seed) + 1 reply
-- Delta: Exceeded target. Fresh research surfaced two viral-worthy stories.
-
-### What worked?
-- Web research found high-quality hooks: 1.5M ChatGPT exits, $2B seed round
-- Queue monitoring caught BS at limit — stopped adding content correctly
-- Kept X under limit (13/15) with room to grow
-
-### What to improve?
-- Communities posts still not happening (9 days overdue) — agent limitation
-- Bluesky backed up — 4/day drain rate means BS queue takes 4 days to clear
-- Staged files not being deleted after deployment — creates confusion in counts
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
 - Both queues at 16 (X + Bluesky) — over limit, drain before adding more
 - File deletion: rm command blocked by security sandbox — cannot delete research files or trim staged pairs
-  - Workaround: files drain naturally as queue clears; no action needed from agent
 
 ## BUG REFERENCE
 Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
@@ -124,6 +109,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #400 (2026-03-09 S5): Both queues over limit. Skill work: reply targets research, commenting skill update (Feb 2026 algo).
 - #399 (2026-03-09 S4): Both queues over limit. Read all research files. rm blocked. Updated state.
 - #398 (2026-03-09 S3): 2 staged X-only (041,043) + 1 reply. X 13→16, BS 16 (no change).
 - #397 (2026-03-09 S2): 4 staged (034-037) + 2 fresh news + 1 reply. X 6→13, BS 10→16.

@@ -109,12 +109,14 @@ Post original content → reply to your own tweet within 30 min with expansion/d
 
 **30,000x reach multiplier — post to Communities, not just timeline.**
 
+**Feb 2026 update:** Community posts now visible to EVERYONE (not just members) — surface in For You feed based on topic interest signals. Reach extends beyond community membership.
+
 **6 Communities:** Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Call Center AI (12K), Infrastructure→AI (8K), Indie Hackers (35K).
 
 **Rules:**
 - 100% of content to Communities first (timeline = secondary)
 - Each post to 1-2 most relevant Communities (no spam)
-- Reply to 3-5 Community posts per session
+- Reply to 3-5 Community posts per session (reply to community posts = amplified in For You)
 - Reply to own posts within 30 min
 
 **Anti-patterns:** Same content to all Communities, self-promo without value, off-topic posts, reply spam.
@@ -151,6 +153,12 @@ Post original content → reply to your own tweet within 30 min with expansion/d
 | Like | 1x |
 
 Replies that get replies = 75x more valuable. Ask questions, spark debate. First 30 minutes = critical.
+
+**Post format weights (2026):**
+- Text-only posts outperform video by 30% on X
+- External links reduce reach 30–50% (Grok ranking penalty)
+- Conversation depth is key: reply that gets a reply from OP = +75 weight (vs +0.5 for a like)
+- Algorithm now Grok-powered — evaluates quality/relevance, not just engagement count
 
 ---
 
