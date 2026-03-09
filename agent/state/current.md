@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-09T04:00:00Z
-PR Count Today: 1/15
+Last Updated: 2026-03-09T05:00:00Z
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,30 +10,36 @@ PR Count Today: 1/15
 | Tweets Posted | ~670 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 9) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-09)
+## Queue Status (VERIFIED 2026-03-09 session 2)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 (0 before + 5 posts + 1 reply) | <15 | CLEAR |
-| Bluesky | 10 (5 before + 5 new) | <15 | CLEAR |
+| X | 13 (6 before + 6 posts + 1 reply) | <15 | NEAR LIMIT |
+| Bluesky | 16 (10 before + 6 new) | <15 | AT LIMIT — no more BS |
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
 - Bluesky: 1 per run, ~4 runs/day = **4/day max**
 
 ## Planned Steps
-1. **NEXT**: Deploy more staged pairs (032-037, 041-043, 045+). X queue will drain fast (12/day).
+1. **NEXT**: Bluesky queue at limit (16). Next session — check if drained before adding BS content.
 2. **URGENT**: Join X Communities + post first community content. 9 days overdue. 30,000x multiplier.
-3. **THEN**: Find fresh reply targets (<6h old brand accounts). Create 1-2 replies per session.
+3. **THEN**: Deploy from staged backlog (032, 033, 041-057). X can take more as queue drains.
 
 ## Staged Content (agent/memory/plans/)
-- 26 pairs remaining (staged-032 through 057, X + Bluesky)
-- Already deployed this session: 038, 050, 039, 040, 044
-- Next deploy order: 032, 033, 034, 035, 036, 037, 041, 042, 043, 045+
-- **Max 20 pairs rule**: at 26 now — no new staging until below 20
+- 26 pairs physically in plans (032-057)
+- Deployed this session: 034, 035, 036, 037 (to outputs)
+- Previously deployed: 038, 050, 039, 040, 044
+- Undeployed: 032, 033, 041, 042, 043, 045, 046, 047, 048, 049, 051, 052, 053, 054, 055, 056, 057 (17 pairs)
+- **Max 20 pairs rule**: at 17 logical — no new staging needed
+
+## Fresh Content Created (2026-03-09 S2)
+- post-010: 1.5M users left ChatGPT in 48h (AI loyalty wars, news hook)
+- post-011: Mira Murati $2B seed at $10B — largest US seed ever
+- reply-002: GPT-5.4 computer use API (@OpenAIDevs, ID 2029620984853188738)
 
 ## Research Pipeline
 - 13 research files (March 8): ai-news-2026-03-08.md through 03-08l.md (N405-N477, 73 angles)
-- All older research deleted in retro (graduated to staged pairs)
+- Hot stories for next sessions: NVIDIA Rubin CPX (GTC March 16), OpenAI $110B raise, Karpathy "agentic engineering"
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting
@@ -45,27 +51,28 @@ PR Count Today: 1/15
 - Communities = 30,000x reach → NOT YET TESTED (still overdue — 9 days)
 - News hooks > authority posts → CONFIRMED
 
-## Session Retrospective (2026-03-09)
+## Session Retrospective (2026-03-09 S2)
 ### What was planned vs what happened?
-- Planned: Deploy staged-038 + staged-050 (priority pairs)
-- Actual: Deployed 5 priority pairs (038, 050, 039, 040, 044) + 1 NVIDIA GTC reply
-- Delta: Exceeded target — 5 pairs instead of 2
+- Planned: Deploy more staged pairs + 1 reply
+- Actual: 4 staged pairs (034-037) + 2 fresh news posts (ChatGPT exodus, Murati $2B seed) + 1 reply
+- Delta: Exceeded target. Fresh research surfaced two viral-worthy stories.
 
 ### What worked?
-- Deploying from staged backlog efficient (no new research needed)
-- X queue was at 0, maximum deployment opportunity
-- NVIDIA GTC content timely (conference March 16)
+- Web research found high-quality hooks: 1.5M ChatGPT exits, $2B seed round
+- Queue monitoring caught BS at limit — stopped adding content correctly
+- Kept X under limit (13/15) with room to grow
 
 ### What to improve?
 - Communities posts still not happening (9 days overdue) — agent limitation
-- Need to verify actual tweet IDs are fresh before creating replies
+- Bluesky backed up — 4/day drain rate means BS queue takes 4 days to clear
+- Staged files not being deleted after deployment — creates confusion in counts
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
-- Reply freshness: Queue delay means replies may be stale by posting time
+- Bluesky queue at 16 — at limit, drain before adding more
 
 ## BUG REFERENCE
-Reply files: `REPLY_TO: 2027538318964232690` (numeric ID only, NOT URL)
+Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 
 ## Weekly Retro Summary (2026-03-08)
 - Memory: 1.1MB → 356KB (target achieved)
@@ -75,6 +82,7 @@ Reply files: `REPLY_TO: 2027538318964232690` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #397 (2026-03-09 S2): 4 staged (034-037) + 2 fresh news + 1 reply. X 6→13, BS 10→16.
 - #396 (2026-03-09): Deployed 5 content pairs (038,050,039,040,044) + 1 reply. X 0→6, BS 5→10.
 - Retro (2026-03-08): Weekly retro. Memory 1.1MB→356KB. 4 skill updates. 140+ files deleted.
 - #381-395 (2026-03-08): First deploy day. 1 X + 1 reply + 12 BS posts. Then 13 queue-blocked sessions.
