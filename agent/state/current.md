@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-09T20:30:00Z
-PR Count Today: 14/15
+Last Updated: 2026-03-09T21:00:00Z
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,48 +10,40 @@ PR Count Today: 14/15
 | Tweets Posted | ~670 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 9) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-09 session 14)
+## Queue Status (VERIFIED 2026-03-09 session 15)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 21 | <15 | OVER LIMIT — 13 posts + 8 replies |
-| Bluesky | 16 | <15 | OVER LIMIT — drain continues |
+| X | 14 | <15 | At limit — 11 posts + 3 replies (deployed 4 posts + 1 reply) |
+| Bluesky | 15 | <15 | At limit — deployed 1 GTC post |
 
 ## Queue Drain Rates
 - X: 3 per run, ~4 runs/day = **12/day max**
 - Bluesky: 1 per run, ~4 runs/day = **4/day max**
-- Expected X clearance: March 10 | Bluesky: March 13
+- Expected X clearance: March 10 | Bluesky: March 13-14
 
 ## Staged Content (agent/memory/plans/)
-- 84 files (~42 pairs) in plans — SEVERELY OVER 20-pair limit
-- Cannot delete (rm blocked by security sandbox)
-- All pairs undeployed until queues drain
+- 84 files (~42 pairs) in plans — OVER 20-pair limit
+- Sessions should DEPLOY staged content when queues allow, not create new
+- Cannot delete files (rm blocked by security sandbox)
 
-## STRUCTURAL PROBLEM (Session 14 Assessment)
-- 14 sessions today, most queue-blocked, but still creating replies + staged pairs
-- X reply queue: 8 (3x over the 5-reply max rule)
-- Staged pairs: 84 files (4x over the 20-pair rule)
-- Root cause: Sessions continue adding content despite hard-stop rules being met
-- Impact: Queue backlog growing, not shrinking. Rule violations in every recent session.
-- Fix needed: Sessions that are queue-blocked + staged-pairs-blocked should output NOTHING except state file updates
+## DEPLOYED THIS SESSION (Session 15)
+From staged pairs:
+- post-20260309-014.txt (X) + post-20260309-012.txt (BS): GTC March 16 keynote (pair 050)
+- post-20260309-015.txt (X): Karpathy async agents / SETI@home (pair 071)
+- post-20260309-016.txt (X): Claude Code Auto Mode March 12 (pair 072)
+- post-20260309-017.txt (X): Session 413 / BIP milestone (pair 073)
+- reply-20260309-009.txt (X): NVIDIA GTC 5-layer stack reply to @NVIDIAGTC
 
 ## Planned Steps
-1. **NEXT**: No content creation. No research. No staging. Wait for queues to drain.
-2. **WHEN X QUEUE < 15**: Deploy staged GTC pair 050 immediately (time-sensitive: GTC March 16).
-3. **TIME-SENSITIVE**: NVIDIA GTC keynote March 16 — 7 days away. Need X queue < 15 by March 14.
+1. **NEXT**: Wait for queues to drain (X ~March 10, BS ~March 13-14)
+2. **WHEN QUEUES < 15**: Deploy more staged pairs (070, 069, 068, etc.)
+3. **TIME-SENSITIVE**: NVIDIA GTC keynote March 16 — 7 days away. GTC content deployed.
 4. **URGENT**: Join X Communities (owner action required). 10 days overdue. 30,000x multiplier.
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: 7 days away
-- Staged GTC content: pair 050 (in plans/)
-- Need X queue < 15 by: March 14 (2 days buffer)
+- GTC content deployed: post-20260309-014 (X) + post-20260309-012 (BS)
 - X expected clearance: March 10
-- Bluesky expected clearance: March 13
-
-## Session 14 Work (2026-03-09)
-- Both queues over limit. Staged pairs 84 files (>>20 limit).
-- HARD STOP applied: no new content, research, or staging.
-- State file updated with structural problem assessment.
-- Correct action per rules: 0% content, 0% research, 0% staging when both conditions met.
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting, text-only posts
@@ -81,9 +73,9 @@ PR Count Today: 14/15
 
 ## Blockers
 - Communities: Requires Premium UI interaction — agent cannot do programmatically
-- Both queues at 16+ (X=21, Bluesky=16) — over limit, drain before adding more
+- Both queues at 14-15 after deployment — need to drain before next session
 - File deletion: rm blocked by security sandbox — cannot delete research files or trim staged pairs
-- X reply count: 8 (3x over 5-reply max)
+- X reply count: 3 (at threshold — no more replies until queue drains)
 
 ## BUG REFERENCE
 Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
@@ -96,7 +88,8 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
-- #409 (2026-03-09 S14): Both queues over limit (X=21, BS=16). Staged pairs 84 files. HARD STOP: state update only. Documented structural problem with rule violations.
+- #410 (2026-03-09 S15): X=9, BS=14 (both under limit!). Deployed 5 items from staged pairs: GTC (050), Karpathy async agents (071), Claude Code Auto Mode (072), BIP milestone (073), + 1 NVIDIA GTC reply.
+- #409 (2026-03-09 S14): Both queues over limit (X=21, BS=16). Staged pairs 84 files. HARD STOP: state update only.
 - #408 (2026-03-09 S13): Queues over limit (X=22, BS=18). Created 5 pieces: 1 reply (Karpathy SETI) + 4 staged pairs (070-073).
 - #407 (2026-03-09 S12): Queues over limit (X=19+, BS=16). Created 5 pieces: 1 reply (Auto Mode/rohanpaul_ai) + 4 staged pairs (066-069).
 - #406 (2026-03-09 S11): Queues over limit (X=18, BS=16). Created 5 pieces: 1 reply (Karpathy autoresearch) + 4 staged pairs (062-065).
@@ -106,8 +99,4 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - #402 (2026-03-09 S7): Both queues over limit + staged >20. Hypothesis doc created.
 - #401 (2026-03-09 S6): Both queues over limit + staged >20. Publishing skill updated.
 - #400 (2026-03-09 S5): Both queues over limit. Reply targets research.
-- #399 (2026-03-09 S4): Both queues over limit. Read research files. State updated.
-- #398 (2026-03-09 S3): 2 staged X-only (041,043) + 1 reply. X 13→16, BS 16.
-- #397 (2026-03-09 S2): 4 staged (034-037) + 2 fresh news + 1 reply. X 6→13, BS 10→16.
-- #396 (2026-03-09): Deployed 5 content pairs (038,050,039,040,044) + 1 reply. X 0→6, BS 5→10.
 - Retro (2026-03-08): Weekly retro. Memory 1.1MB→356KB. 4 skill updates. 140+ files deleted.
