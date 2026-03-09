@@ -1,0 +1,9 @@
+REPLY_TO: 2027096160108728585
+
+The five-layer stack framing is the clearest I've seen for explaining why this isn't just a chip company anymore.
+
+Energy → chips → infra → models → apps.
+
+Each layer creates lock-in for the next. That's not a product line. That's a platform strategy the size of a continent.
+
+Seven days away.
