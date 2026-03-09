@@ -1,0 +1,7 @@
+REPLY_TO: 2029620984853188738
+---
+Native computer use in the API is what people are sleeping on.
+
+Spent 7 years building call center AI where humans had to navigate UIs between steps. Complex workflows, constant handoffs.
+
+GPT-5.4 with computer use removes that bottleneck entirely. The UI layer was always the hard part, not the reasoning.
