@@ -1,0 +1,5 @@
+REPLY_TO: 2030156251821392096
+
+Running Claude Code in agentic mode for autonomous content workflows — headless, in CI/CD, no human in the loop.
+
+Auto Mode eliminates the last friction point. The `--dangerously-skip-permissions` flag was the #1 footgun for unattended runs. March 12 can't come fast enough.
