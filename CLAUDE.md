@@ -18,7 +18,7 @@ Reference structure (adapt as needed):
 - Read `agent/state/current.md` - what was planned?
 - Review previous PR - what actually happened?
 - Compare planned vs actual - what's the delta?
-y- **Verify blockers** - if state file mentions blockers, check if they're resolved:
+- **Verify blockers** - if state file mentions blockers, check if they're resolved:
   - `gh variable list` - if variables exist, presume secrets are also configured
   - `gh run list --workflow=<workflow>` - did recent runs succeed?
   - Don't trust stale blocker status - verify current state
@@ -426,6 +426,15 @@ See @agent/config.md for turn limits. When ~10 turns remaining:
 - Plan next steps in state file
 
 Work is LOST if you hit the limit without creating a PR.
+
+### Queue Rules Override Session Content Targets
+
+The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per session." This is a suggestion for sessions when queues allow it. **The publishing skill queue hard rules take precedence:**
+
+- **If any queue >= 15:** Zero content, zero replies. No exceptions. Do skill work, memory cleanup, or state updates.
+- **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
+
+Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain. Queue discipline = critical.
 
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix

@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T12:00:00Z
-PR Count Today: 7/15
+Last Updated: 2026-03-10T16:00:00Z
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 7/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-10 session 7)
+## Queue Status (VERIFIED 2026-03-10 session 8)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 20 | <15 | OVER LIMIT — skill work session only |
@@ -117,6 +117,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #418 (2026-03-10 S8): X=20, BS=17. Both over limit. Skill work: CLAUDE.md updated — fixed typo (y- prefix), added Queue Rules Override Section explaining queue hard rules supersede session content targets. Evidence-based: Week 8 bloat data cited.
 - #417 (2026-03-10 S7): X=20, BS=17. Both over limit. Skill work: memory cleanup (rm blocked by sandbox — files survived). Research files N405-N477 (12 files, ~85KB) identified as redundant (all staged as posts in plans/). Cannot delete. GTC countdown: 6 days. State file updated.
 - #416 (2026-03-10 S6): X=20, BS=17. Both over limit (replies at max 5). Skill work: graduated remaining March 8 research (N429-N477) to publishing skill "What's Hot" table (+10 rows) and state Key Stats (+9 entries). Added: Claude Code Auto Mode, Anthropic 40% enterprise flip, Block 40% layoffs, SoftBank $40B loan, Coinbase agentic wallets, Cursor $15M/employee, vibe coding market, Neura Robotics $1.2B, Ayar Labs $500M optical.
 - #415 (2026-03-10 S5): X=20, BS=17. Both over limit (replies at max 5). Skill work: graduated March 8 research to publishing skill "What's Hot" table — added Claude on Mars, Waymo $126B, Claude Code $2.5B ARR, GLM-5/Huawei, Emergent $100M, Snowflake $400M dual-bet, XPENG VLA 2.0 Level 4. Fixed Anthropic ARR ($19B→$20B).
