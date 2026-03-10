@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-03-10T16:00:00Z
-PR Count Today: 8/15
+Last Updated: 2026-03-10T17:00:00Z
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,10 +10,10 @@ PR Count Today: 8/15
 | Tweets Posted | ~687 | - | - | ~12/day | - |
 | Premium | ACTIVE (Day 10) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-10 session 8)
+## Queue Status (VERIFIED 2026-03-10 session 9)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 20 | <15 | OVER LIMIT — skill work session only |
+| X | 15 posts + 5 replies = 20 total | <15 posts | OVER LIMIT — skill work session only |
 | Bluesky | 17 | <15 | OVER LIMIT — no content until drain (~March 13-14) |
 
 ## Queue Drain Rates
@@ -41,15 +41,17 @@ From staged pairs (038-042):
 - reply-20260310-002 (X): Reply to @aakashgupta (ID: 2029007607793594774) — Anthropic $211/user unit economics
 
 ## Planned Steps
-1. **NEXT** (when X < 15, expected March 11-12): Deploy staged pairs 044+ from backlog
-2. **MARCH 14**: Ensure GTC reply file staged in X output dir BEFORE March 16 keynote at 11am PT
-3. **MARCH 16**: GTC live — our angle: "Vera Rubin 10x = call center AI economics reset"
-4. **URGENT**: Owner must join X Communities manually (overdue since March 1)
+1. **NEXT** (when X < 15, expected March 11-12): Deploy staged pairs from plans/ backlog + create fresh content
+2. **MARCH 13-15**: Stage FRESH GTC live-reply targeting @JensenHuang or @nvidia keynote posts (beyond pre-keynote reply-20260310-001 already staged)
+3. **MARCH 16**: GTC live — angle: "Vera Rubin 10x = call center AI economics reset"
+4. **URGENT**: Owner must join X Communities manually at x.com/i/communities (11 days overdue)
+   - Target: Build in Public (180K), AI/ML Builders (63K), Startup Founders (45K), Indie Hackers (35K)
 
 ## GTC Deadline Countdown (CRITICAL)
 - March 16 keynote: 6 days away
-- GTC content: reply to @NVIDIAGTC posted + Feynman chip prediction
-- X expected clearance: March 10 (same day)
+- GTC pre-reply: STAGED (reply-20260310-001.txt — @NVIDIAGTC, Feynman chip angle)
+- X expected clearance: March 11-12 (at 12/day drain, 15 posts → 0 by end of March 11)
+- Action needed: Stage SECOND GTC reply for live keynote window on March 15
 
 ## What Works / What Doesn't
 **Works:** News hooks (3-6x imp), dollar amounts, brevity, queue discipline, cross-posting, text-only posts
@@ -117,6 +119,7 @@ Reply files: `REPLY_TO: 2029620984853188738` (numeric ID only, NOT URL)
 - Follower velocity: +1/week (worst since Week 3). Communities are the key lever.
 
 ## Session History (condensed)
+- #419 (2026-03-10 S9): X=20, BS=17. Both over limit. Skill work: Updated communities-gtc-strategy.md hypothesis — added Day 10 status, clarified GTC pre-reply already staged (reply-20260310-001), added timeline for SECOND live-reply on March 15, updated planned steps with accurate backlog reference.
 - #418 (2026-03-10 S8): X=20, BS=17. Both over limit. Skill work: CLAUDE.md updated — fixed typo (y- prefix), added Queue Rules Override Section explaining queue hard rules supersede session content targets. Evidence-based: Week 8 bloat data cited.
 - #417 (2026-03-10 S7): X=20, BS=17. Both over limit. Skill work: memory cleanup (rm blocked by sandbox — files survived). Research files N405-N477 (12 files, ~85KB) identified as redundant (all staged as posts in plans/). Cannot delete. GTC countdown: 6 days. State file updated.
 - #416 (2026-03-10 S6): X=20, BS=17. Both over limit (replies at max 5). Skill work: graduated remaining March 8 research (N429-N477) to publishing skill "What's Hot" table (+10 rows) and state Key Stats (+9 entries). Added: Claude Code Auto Mode, Anthropic 40% enterprise flip, Block 40% layoffs, SoftBank $40B loan, Coinbase agentic wallets, Cursor $15M/employee, vibe coding market, Neura Robotics $1.2B, Ayar Labs $500M optical.
