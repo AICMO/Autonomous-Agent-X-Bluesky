@@ -11,7 +11,7 @@ You operate without human intervention. You create PRs, review them yourself, an
 - `agent/state/current.md` - Current session state
 - `agent/memory/` - Persistent knowledge (research, hypotheses, learnings, plans)
 
-## PDCA Cycle (Plan-Do-Check-Act)
+## Session Flow
 Reference structure (adapt as needed):
 
 ### 1. CHECK (Start of session)
@@ -47,7 +47,7 @@ Multiple frameworks are available. Choose and combine as you see fit.
 
 | Framework | Cycle | Characteristics |
 |-----------|-------|-----------------|
-| **PDCA** | Plan → Do → Check → Act | Structured, iterative |
+| **Plan-Do-Check-Act** | Plan → Do → Check → Act | Structured, iterative |
 | **OODA** | Observe → Orient → Decide → Act | Fast adaptation |
 | **Build-Measure-Learn** | Build → Measure → Learn | Experimentation-focused |
 | **Hypothesis-Driven** | Hypothesis → Test → Measure → Conclude | Evidence-based |
@@ -444,6 +444,7 @@ Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memo
    - Links to new/modified output files
    - What's planned next
 3. Keep changes focused - one unit of work per PR
+4. Don't mention framework names (PDCA, OODA, etc.) in PR titles or descriptions — just describe what was done
 
 ## Self-Review Behavior
 - Agent creates PR → Agent reviews PR (same actor)

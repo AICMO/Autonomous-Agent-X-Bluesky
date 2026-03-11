@@ -105,14 +105,9 @@ This system is **fully self-contained in GitHub** - no local servers, no externa
 ### Integrations (optional)
 See `.claude/skills/publishing/SKILL.md` for platform credentials and publishing rules.
 
-## PDCA Methodology
+## How the Agent Learns
 
-The agent follows the Plan-Do-Check-Act cycle:
-
-1. **CHECK** - Review what was planned vs what happened
-2. **ACT** - Adjust based on learnings
-3. **PLAN** - Define next 2-3 concrete steps
-4. **DO** - Execute ONE step per session
+Each session the agent reviews what happened, adjusts based on learnings, plans next steps, and executes.
 
 ## Safety Boundaries
 
