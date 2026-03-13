@@ -1,0 +1,15 @@
+3 days until NVIDIA GTC keynote.
+
+Everyone's focused on Vera Rubin specs. That's already priced in.
+
+The thing worth watching: whether Jensen shows Feynman silicon in person.
+
+A16 1.6nm TSMC + silicon photonics. If it's a static display, it means NVIDIA solved the interconnect bottleneck two years ahead of schedule.
+
+Blackwell was the compute story. Feynman is the bandwidth story.
+
+You don't just buy NVIDIA chips. You buy the pipes between them.
+
+That's worth more than 10x inference cost reduction. Vera Rubin is a price play. Feynman is a moat play.
+
+March 16, 11am PT. I'll be watching.
