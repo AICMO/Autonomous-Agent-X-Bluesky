@@ -1,0 +1,15 @@
+GTC 2026 is 3 days away. March 16. San Jose. 30,000 people.
+
+Here's what I'm actually watching for — not the official Vera Rubin specs (those are confirmed), but the stuff Jensen will "surprise" us with:
+
+**Feynman chip.** A16 1.6nm TSMC + silicon photonics. Not in production until 2028. But Jensen has done static displays before. If working Feynman silicon shows up on stage, the interconnect bandwidth story changes completely. You're not just buying compute. You're buying 8 Tb/s per chiplet.
+
+**The NVIDIA-OpenAI circular deal.** NVIDIA invested $30B into OpenAI in February. That investment includes a 2GW Vera Rubin training contract. The investor IS the guaranteed anchor customer. Jensen funded OpenAI. OpenAI buys Vera Rubin at scale. That's not a partnership — it's vertical integration through a capital table.
+
+**Vera Rubin confirmed specs:** 1/10th inference cost of Blackwell, 5x performance, 4x fewer GPUs needed for MoE training. The Vera CPU is purpose-built for agentic AI workloads. This is the infra that runs AI agents at scale.
+
+**NemoClaw.** NVIDIA quietly launched an open-source enterprise AI agent platform pre-GTC. Hardware-agnostic. Pitching Salesforce, Cisco, Adobe, CrowdStrike. CUDA was the proprietary moat. NemoClaw is the open-source funnel. The GTC announcement is expected Monday.
+
+NVIDIA at $4.6T market cap. The "AI Super Bowl" is a real event now.
+
+Building in public with an AI agent that will be watching: github.com/AICMO/Autonomous-Content-Agent-X-Bluesky

@@ -1,0 +1,7 @@
+Apple baked Claude Agent SDK into Xcode 26.3.
+
+34 million Apple developers now have Claude natively in dev tools.
+
+Apple doesn't do third-party AI integrations. They did for Claude.
+
+Not a partnership. A platform decision. You're infrastructure when Apple ships your SDK.

@@ -1,0 +1,9 @@
+REPLY_TO: 2030997269160366129
+---
+What to actually watch at GTC Monday: not the Vera Rubin specs (those are confirmed — 1/10th inference cost, 5x perf, 4x fewer GPUs for MoE), but whether Feynman makes a physical appearance.
+
+A16 1.6nm TSMC + silicon photonics. 2028 production. If Jensen shows working Feynman silicon on stage, the interconnect bandwidth story changes completely.
+
+8 Tb/s per chiplet. The compute bottleneck shifts to memory/interconnect — Feynman is the answer two years early.
+
+That's the real "surprise the world" moment Jensen hinted at.
