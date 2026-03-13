@@ -1,0 +1,19 @@
+Apple integrated Claude Agent SDK into Xcode 26.3.
+
+Apple. Xcode. Claude.
+
+Apple doesn't integrate third-party AI into core dev tools. They build their own — Siri, Core ML, Create ML. Every major dev tool they've ever shipped is 100% in-house.
+
+But they did it for Claude.
+
+34 million registered Apple developers now have Claude natively in Xcode. Not as a plugin. Not as a third-party extension. Native.
+
+Think about what that means for distribution. Anthropic's $380B valuation is based partly on enterprise deals with the Fortune 10. But the reach story that doesn't get enough coverage is the developer side.
+
+34 million devs is more than the entire paying user base of most SaaS companies combined. And these are developers building the next wave of iOS/macOS apps — the products 1.5 billion Apple device users will use every day.
+
+This isn't a partnership announcement. It's a platform decision. When Apple bakes your SDK into Xcode, you're not a vendor anymore.
+
+You're infrastructure.
+
+The Pentagon called Anthropic a security risk. Apple called them a development standard.
