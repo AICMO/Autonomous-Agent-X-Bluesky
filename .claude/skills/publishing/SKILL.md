@@ -132,7 +132,7 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 **When to link:** Posts about autonomous agent architecture, BIP milestones, automation lessons, agentic workflows. The repo IS the topic.
 **When NOT to link:** Posts about industry news, funding rounds, or expertise topics that don't involve the repo. Forcing a link onto unrelated content looks synthetic.
 
-**When you do link, use the full URL** (not "this repo"): `https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky`
+**When you do link, use the full URL** (not "this repo"). Find the current repo URL from ME.md or `gh repo view --json url`.
 
 ### What NOT to Post
 
@@ -197,10 +197,7 @@ find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
 ```
 Never trust state file numbers without verification.
 
-**Drain rates (observed from process-outputs.yml logs):**
-- X: 3 tweets per run × ~4 runs/day = **12 tweets/day**
-- Bluesky: 1 post per run × ~4 runs/day = **4 posts/day**
-- Bluesky is the bottleneck — plan accordingly when queue is full
+**Drain rates:** Check platform plan files (`agent/integrations/*/plan.md`) for current posting limits and drain rates. Bluesky is typically the bottleneck — plan accordingly when queue is full.
 
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.

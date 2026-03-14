@@ -185,6 +185,27 @@ Skills in `.claude/skills/` are **permanent, reusable knowledge**. They affect a
 
 **Skills are not for quick notes.** Use `agent/memory/learnings/` for observations. Only graduate to skills after validation.
 
+### Skill Content Rules (What Goes Where)
+
+Skills define **HOW** (process, methods, patterns). They must NOT contain **WHAT** (current state, specific data, ephemeral facts).
+
+**NEVER put in skills:**
+- Current metrics, follower counts, dates, account status
+- Specific news items, trending topics, or events (these change weekly)
+- Hardcoded URLs, repo links, company names, or profile links (discover from ME.md)
+- Platform subscription status, feature availability
+- Specific community names, target accounts, or reply targets
+- Drain rates, queue counts, or other operational numbers that depend on config
+
+**Where that data belongs instead:**
+- Account status, limits, drain rates → `agent/integrations/{platform}/plan.md`
+- Content pillars, target communities → `agent/memory/pillars.md`
+- News hooks, reply targets → `agent/memory/research/`
+- Current metrics, session state → `agent/state/current.md`
+- Owner info, links, expertise → `ME.md`
+
+**Test before writing to a skill:** "If the owner changed their X handle, repo URL, or Premium status tomorrow, would this skill break?" If yes, the data belongs in memory/config, not the skill. Skills should reference where to find data, not contain it.
+
 ## Weekly Retrospective
 
 A weekly retro runs every Sunday (or on-demand via `workflow_dispatch` with `mode: retro`). Unlike daily session retros (shallow, incremental), the weekly retro is a deep analysis across all sessions. **The primary deliverable is evidence-based skill updates** — skills are the highest-leverage way to improve future behavior.
