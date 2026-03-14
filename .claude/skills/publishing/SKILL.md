@@ -24,6 +24,43 @@ X Premium is live. All Premium features unlocked:
 
 ---
 
+## Expertise Pillars (Content Filter)
+
+Every post MUST connect to at least one pillar. If it doesn't, skip it.
+
+### How Pillars Work
+
+Pillars are the account's content lanes — topics where the owner has real authority. They are **discovered, not hardcoded.**
+
+**Where pillars come from:**
+1. **ME.md** — Owner's background, expertise areas, current projects
+2. **GOALS.md** — What the account is trying to achieve
+3. **This repo's purpose** — What the agent actually does (autonomous content automation)
+4. **What's working** — Topics that get engagement (check metrics during retros)
+
+**Pillar lifecycle:**
+- Discover pillars at session start by reading ME.md and GOALS.md
+- Follow the same pillars for 2-4 weeks (consistency builds audience recognition)
+- Review and potentially evolve pillars during weekly retros based on engagement data
+- Some pillars are always available (owner's permanent expertise areas from ME.md) but the agent can explore new ones
+
+**Current pillars** (review during next retro):
+
+| Pillar | Source |
+|--------|--------|
+| **Autonomous Agents** — building, running, operating agents in production | This repo |
+| **Marketing & Content Automation** — AI replacing manual marketing/growth | This repo's purpose |
+| **Call Center AI / Voice AI** — speech analytics, QA, CX | ME.md (owner expertise) |
+| **Startup Building & AI Economics** — founder lessons, scaling, inference costs | ME.md (owner expertise) |
+
+These are starting points, not permanent constraints. The agent should look for new pillars that emerge from the owner's evolving work and interests.
+
+**AI Industry news** is allowed ONLY as a hook to reach a pillar. The news is never the point. The connection to our expertise is.
+
+**Pillar gate:** Before writing any post, answer: "Which pillar does this connect to, and what's MY angle?" If you can't answer both, skip.
+
+---
+
 ## What Actually Works (Evidence-Based)
 
 **Content formats ranked by performance (our data):**
@@ -57,62 +94,38 @@ X Premium unlocks long-form posts. The agent has been writing 270-450 char posts
 
 ---
 
-## Hype-Driven Content Strategy (Primary Direction)
+## Pillar-Filtered Content Strategy
 
-> Owner directive: Focus on what's hottest in AI right now. Connect to how people are making money fast. Clickbait + actionable links.
+> Every post starts from expertise (pillars 1-4). News hooks are allowed but only as a doorway into a pillar topic. The news is the hook; the pillar expertise is the value.
 
-### Content Formula: Hype + Money + Action
+### Content Formula: Hook + Pillar Expertise + Insight
 
-Every post MUST have all three:
-1. **Hype hook** — What's viral/trending RIGHT NOW (this week, not last month)
-2. **Money angle** — Dollar amounts, specific revenue numbers
-3. **Action links** — Real repos, tools, tutorials the reader can use TODAY
+Every post MUST have:
+1. **Hook** — Timely, specific, stops the scroll (news, number, question, or personal story)
+2. **Pillar connection** — Which pillar (P1-P4) does this come from? What's MY angle?
+3. **Original insight** — What do I know from experience that the reader doesn't? Not just reporting news, but adding expertise the reader can't get elsewhere.
 
-### What's Hot Right Now (March 13, 2026 — update weekly)
+### News Hook Filtering
 
-| Trend | Money Angle | Key Links |
-|-------|-------------|-----------|
-| **Anthropic vs Pentagon — Claude hits #1 App Store** (March 1-13, 2026 — ONGOING) | Pentagon labeled Anthropic "supply chain risk" (usually reserved for foreign adversaries) after Dario refused autonomous weapons + mass surveillance use. Claude hit #1 US App Store (first time ever). 11.3M daily active users (+183% from Jan). 1M signups/day. ChatGPT uninstalls +295%. "QuitGPT" movement: 1.5M ChatGPT cancellations. Anthropic: $200M contract refused, billions of user mindshare gained. Two lawsuits filed (N.D. Cal + D.C. appeals court). OpenAI took the Pentagon deal instead. Time magazine cover: "How Anthropic Became the Most Disruptive Company in the World." | axios.com, fortune.com, thehill.com |
-| **NVIDIA GTC March 16-19** (3 DAYS AWAY) | Vera Rubin: 10x inference cost reduction, 5x performance, 4x fewer GPUs for MoE training. Vera CPU purpose-built for agentic AI. Feynman (A16 1.6nm TSMC + silicon photonics) static display expected. NVIDIA market cap $4.6T. "AI Super Bowl." | nvidia.com/gtc |
-| **OpenAI $110B funding** (Feb 2026) | Amazon $50B + SoftBank $30B + NVIDIA $30B. $840B valuation | techcrunch.com |
-| **Anthropic $30B Series G** ($380B val, ~$20B ARR) | $1B→$20B ARR in 14 months. $9B→$20B in 90 days. 10x/year vs OpenAI 3.4x. Passes OpenAI revenue mid-2026 | anthropic.com |
-| **$195B AI investment** (Feb 2026 — 1 month beats all 2024 VC) | OpenAI $110B + Anthropic $30B + Waymo $16B + humanoids $19B | crunchbase.com |
-| **GPT-5.4 desktop control** (March 5, 2026) | AI that uses your computer. 83% GDPval, 75% OSWorld. $300B+ enterprise software disrupted | openai.com |
-| **Meta acquires Manus AI for $2B+** | 3B users get AI agents via WhatsApp/Instagram/Facebook | bloomberg.com |
-| **Gemini 3 Deep Think** (84.6% ARC-AGI-2) | The test designed to be AI-resistant. 48.4% Humanity's Last Exam without tools | deepmind.google |
-| **Cursor Automations + Bugbot** ($29.3B val) | 92% of devs use AI coding tools. Cursor: AI acts without being asked | cursor.com |
-| **Big Four AI agents in production** | Deloitte Zora AI, EY.ai, KPMG, PwC. 42% of businesses have agents live. 3.7x ROI | deloitte.com |
-| **Gartner: 40% enterprise agent projects abandoned by 2027** | 80% deployed with zero governance. $450B+ enterprise agentic AI by 2035 | gartner.com |
-| **Basis $1.15B unicorn** — agentic accounting | $100M Series B. Automates full audit+tax. $600B global accounting market disrupted | basis.ai |
-| **Vibe Coding** (92% dev adoption) | Claude Code 4% of ALL GitHub commits → 20% by EOY. $0→$2.5B ARR in 9 months (fastest SaaS tool ever). Cursor $29.3B. | cursor.com |
-| **Claude on Mars** (NASA Perseverance, March 2026) | AI planned 1,496 feet of Mars driving. 500K telemetry variables verified. $2.7B spacecraft trusted to Claude. | anthropic.com |
-| **Waymo $126B** + 1M rides/week target | 450K rides/week now. 14M rides in 2025. 10 US cities → 20+ planned. 10x safer than humans. | waymo.com |
-| **GLM-5 on Huawei chips** (beats GPT-4, MIT license) | China trained 744B param model with ZERO Nvidia chips. 77.8% SWE-bench. US export controls failing. | zhipuai.cn |
-| **Emergent $100M ARR** — vibe coding in 8 months | Fastest startup ARR ramp ever. 6M users, 70% had zero prior coding experience. $70M raise. | emergent.sh |
-| **Snowflake $400M AI dual-bet** | $200M each to OpenAI AND Anthropic in same month. 12,600 enterprise customers in scope. | snowflake.com |
-| **XPENG VLA 2.0** — Level 4 consumer AVs | First Level 4 autonomous driving deployed to consumer vehicles via software update. Shipped before Tesla/Waymo. | xpeng.com |
-| **Claude Code Auto Mode** (March 11-12 launch, LIVE NOW) | AI chains 21.2 tool calls (116% autonomy increase in 6 months) without human. Cron scheduling, /loop command. `--enable-auto-mode` flag. 4% GitHub commits → 20% by EOY. $2.5B ARR. | anthropic.com/news/enabling-claude-code-to-work-more-autonomously |
-| **Anthropic 40% enterprise share** (was 4% in Jan 2025) | OpenAI lost 23 points (50%→27%), Anthropic gained 36 points in 12 months. Complete market reversal. | winbuzzer.com |
-| **Jack Dorsey cuts 40% of Block on record profits** | Q4 2025 gross profit: $2.87B (+24%). Stock up 24% on layoff news. Dorsey: "Every CEO will follow." AI-driven layoffs hit 55K in 2025 (12x prior). | fortune.com |
-| **SoftBank $40B loan** — largest ever sought | Largest dollar-denominated corporate loan in history. SoftBank sold entire Nvidia stake ($5.8B) to fund AI bets. $19.8B OpenAI gains in 9 months. | bloomberg.com |
-| **Coinbase Agentic Wallets** — AI gets a bank account | AI agents spend/earn/trade crypto without human approval. x402 protocol: 50M transactions. Deploy in <2 min. | coinbase.com |
-| **Cursor $15M revenue/employee** | $29.3B valuation, 360K paying users. $15M RPE vs industry $200-400K = 37-75x efficiency. Benchmark for AI-native companies. | cursor.com |
-| **Vibe coding: $4.7B → $12.3B by 2027** | 41% of all global code is AI-generated (256B lines in 2024). 92% of US devs use AI daily. | cursor.com |
-| **Neura Robotics $1.2B** — crypto funds humanoid robots | Tether (stablecoin issuer, $13.4B profit in 2024) funds German humanoid robot maker. $1B order book. Kawasaki customer. | neura.ai |
-| **Yann LeCun AMI Labs $1.03B seed** (March 9, 2026) | $85M per employee (12 employees, zero product, zero revenue). Europe's largest seed ever. $3.5B pre-money val. JEPA world models vs LLMs bet. Backed: NVIDIA, Bezos, Toyota Ventures, Temasek. | techcrunch.com |
-| **OpenAI building GitHub killer** (March 2026) | Taking on Microsoft's $7.5B asset — its own $13B investor. GitHub had 109 incidents H1 2025 (+58% YoY), 100+ hours downtime. OpenAI at $840B val. | tomshardware.com |
-| **NVIDIA-OpenAI Vera Rubin deal inside $30B investment** | NVIDIA's $30B OpenAI investment includes 2GW Vera Rubin training contract — guaranteed anchor customer for GTC chip launching March 16. The investment AND the customer are the same party. | nvidia.com/gtc |
-| **Google closes $32B Wiz acquisition** (March 11-12, 2026) | Google's largest deal ever. Wiz ARR $1B+. Cloud security → AI security play. Index Ventures: $3.8B payout. Sequoia: $3.2B. 1,800 employees share $3B equity. Originally said no to $23B. Came back for $32B. | techcrunch.com |
-| **Wayve $1.2B Series D** (March 2026) | $8.6B valuation. Uber invested. London public robotaxi trials 2026. Alternative AV path to Waymo. European challenger building AI-native autonomous driving. | wayve.ai |
-| **Claude Code Auto Mode** (March 12, 2026 — LIVE TODAY) | Research preview: `claude --enable-auto-mode`. Claude classifies risk of each action, auto-approves low-risk ops. Enterprise: MDM/registry disable. Increases token cost + latency. 21.2 avg tool calls per session. Direct BIP angle: this repo runs this tool. | anthropic.com |
-| **NVIDIA NemoClaw** — open-source AI agent platform (March 10-12, 2026) | Pre-GTC launch: open-source enterprise AI agents. Hardware-agnostic. Pitching Salesforce, Cisco, Google, Adobe, CrowdStrike. Contact center angle: "triage, route, escalate, and resolve without a human in the loop." NVIDIA's CUDA was the proprietary moat — NemoClaw is the open-source funnel. Jensen's "surprise the world" chip + agent platform = full stack. | nemoclaw.bot |
-| **Jensen Huang "surprise the world"** (Feb 2026 interview) | "We've prepared a few chips the world has never seen before." Said after dinner with 30 NVIDIA + SK Hynix engineers. Feynman chip (A16 1.6nm TSMC + silicon photonics) = possible static display at GTC. SK Hynix mass-producing HBM4 for Rubin. NVIDIA market cap $4.6T. | nvidia.com/gtc |
+News hooks belong in `agent/memory/research/`, NOT in this skill. This skill defines HOW to filter, not WHAT to post about.
+
+**When scanning news, for each item ask:**
+1. Which pillar does this connect to?
+2. What's MY angle — what do I know from experience that adds value beyond reporting?
+3. If you can't answer both, skip it.
+
+**Good example:** "Gartner says 40% of agent projects will be abandoned by 2027" → Pillar: Autonomous Agents → Our angle: "We've run 700+ PRs autonomously. Here's what governance actually looks like in production."
+
+**Bad example:** "NVIDIA invests $2B in Nebius" → No pillar connection → Skip. (Unless you can tie it to inference costs affecting agent economics — then it's a hook, not the topic.)
+
+**Store pillar-filtered news hooks in:** `agent/memory/research/ai-news-YYYY-MM-DD.md` with a `Pillar` and `Our Angle` column.
 
 ### Content Priorities (Ranked)
 
-1. **Trending tools + repos with money proof** (50%+)
-2. **"How people are making money" breakdowns** (30%)
-3. **Personal experience / BIP connecting to trends** (20%)
+1. **Pillar expertise + timely hook** (40%) — News/trend that connects to a pillar, with original insight from experience
+2. **Building in public / lessons learned** (30%) — Agent milestones, founder stories, what's working/failing
+3. **Industry analysis through pillar lens** (20%) — AI economics, startup patterns, market shifts that affect our domain
+4. **Promotional** (10%) — Repo, live outputs, Ender Turing — only when the post is genuinely about what we build
 
 ### Predictions & Opinions (40-50% of content)
 
@@ -125,24 +138,30 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 - "Everyone's talking about [trend]. Nobody's asking: [deeper question]. My take: [opinion]."
 - "Unpopular opinion: [contrarian take]. The data says [evidence]. Businesses should [action]."
 
-**Use author's expertise:** Voice AI/call centers (7 years), autonomous agents (this repo), infra→AI migration, startup economics (15+ years).
+**Ground predictions in pillar expertise.** Read ME.md for the owner's background. Every prediction should come from a place of authority, not generic speculation.
 
-### Link Your Repo
+### Repo Linking (Organic Only)
 
-**Never write "this repo" without the actual link.** Readers don't know what "this repo" is. Always include the full URL: `https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky`. Same applies to "this agent," "this project," etc. If you reference it, link it.
+**Only link the repo when the post is genuinely about building or running agents.** The repo link is proof, not decoration. If the post is about call center AI trends or startup economics, the repo has no business being there.
+
+**When to link:** Posts about autonomous agent architecture, BIP milestones, automation lessons, agentic workflows. The repo IS the topic.
+**When NOT to link:** Posts about industry news, funding rounds, or expertise topics that don't involve the repo. Forcing a link onto unrelated content looks synthetic.
+
+**When you do link, use the full URL** (not "this repo"): `https://github.com/AICMO/Autonomous-Content-Agent-X-Bluesky`
 
 ### What NOT to Post
 
-- **Don't promote X on X** — Never post "follow me on X" or link to the X profile in X posts. That's circular. Promote the blog, Substack, Telegram, repos, or live outputs instead. X promotion belongs in other platforms' content and in GitHub READMEs, not on X itself.
-- **Politics (HARD BAN)**: Never post about politicians by name (presidents, senators, etc.), legislation, executive orders, Senate/Congress votes, elections, or political parties — even when the topic is AI or tech. Example of banned: "Senate voted to strip AI regulation" or "President on AI standards." Example of allowed: "Anthropic refused a Pentagon contract" (company decision, not political commentary). The test: if the post mentions a politician, a vote, or a law by name, don't post it.
-- Enterprise analysis without money angle
+- **Off-pillar news** — Funding rounds, chip specs, acquisitions, or investment analysis that doesn't connect to a pillar. If the post could be written by any generic AI news account, it's not ours.
+- **Forced repo links** — Never graft the repo URL onto an unrelated topic. If the post isn't about building/running agents, the repo link doesn't belong.
+- **Don't promote X on X** — Never post "follow me on X" or link to the X profile in X posts. That's circular. Promote the blog, Substack, Telegram, repos, or live outputs instead.
+- **Politics (HARD BAN)**: Never post about politicians by name (presidents, senators, etc.), legislation, executive orders, Senate/Congress votes, elections, or political parties — even when the topic is AI or tech. The test: if the post mentions a politician, a vote, or a law by name, don't post it.
 - Benchmark comparisons without "so what"
 - Authority/framework posts without links or CTAs
 - Anything that makes the reader think but not ACT
 
 ### Research Cadence
 
-**Daily (at session start):** Quick scan for what's viral — trending GitHub repos, X trending, HackerNews front page, ProductHunt, IndieHackers.
+**Daily (at session start):** Quick scan for pillar-relevant news. Filter through pillars before saving. Save to `agent/memory/research/` with pillar tags. Skip anything that doesn't connect to a pillar.
 
 ---
 
@@ -221,10 +240,10 @@ Pick one per post: **Content value** (post teaches/provokes) OR **Outcome value*
 | **Shareability** (hot takes, relatable) | 30% |
 
 ### Content Diversification
-- **Max 50% about autonomous agent.** Also draw on: call center AI (7 years), startup building (15+ years), infra→AI journey, broader AI trends.
+- **Spread across pillars** — don't let any single pillar dominate more than 50% of output. Check last 5 posts for balance.
 - **25%+ BIP content** (progress, learnings, behind-scenes, failures)
 - **15-20% question posts** for engagement
-- **~20% promotional** (soft — repo link, profile, Ender Turing when relevant)
+- **~10% promotional** (repo link only when post is genuinely about agents/automation; Ender Turing when relevant to call center AI)
 
 ### Open Source Promotion (~1 in 5 posts)
 
@@ -337,18 +356,19 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 ## Content Creation Checklist
 
 1. **Queue check**: Queue > 15? STOP.
-2. **X length check**: News/opinion/BIP/promo/prediction post under 500 chars? Add more substance.
-3. **Thread check**: Have you created 2+ threads this week? If not, make one now.
-4. **Quality gate**: Would a stranger follow based on this post alone?
-5. **Anti-AI check**: Vibe check passed? No banned patterns?
-6. **Value type**: Content value OR outcome value, never both.
-7. **Link allocation**: Only ~20% include links.
-8. **Angle diversity**: Max 50% about agent. Check last 2 posts.
-9. **BIP balance**: At least 25% of recent output.
-10. **Category**: Authority / Personality / Shareability balanced.
-11. **Hook**: First line stops the scroll.
-12. **Bluesky version**: Written separately, under 290 chars. OK to skip if topic doesn't compress.
-13. **Politics check**: No politicians, votes, or laws by name.
+2. **Pillar check**: Which pillar does this connect to? What's MY angle? If neither, skip.
+3. **Repo link check**: Is this post genuinely about agents/automation? If not, no repo link.
+4. **X length check**: News/opinion/BIP/promo/prediction post under 500 chars? Add more substance.
+5. **Thread check**: Have you created 2+ threads this week? If not, make one now.
+6. **Quality gate**: Would a stranger follow based on this post alone?
+7. **Anti-AI check**: Vibe check passed? No banned patterns?
+8. **Value type**: Content value OR outcome value, never both.
+9. **Pillar diversity**: No single pillar > 50% of last 5 posts.
+10. **BIP balance**: At least 25% of recent output.
+11. **Category**: Authority / Personality / Shareability balanced.
+12. **Hook**: First line stops the scroll.
+13. **Bluesky version**: Written separately, under 290 chars. OK to skip if topic doesn't compress.
+14. **Politics check**: No politicians, votes, or laws by name.
 
 ---
 
