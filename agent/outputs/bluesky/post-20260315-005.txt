@@ -1,0 +1,5 @@
+Anthropic measured agent autonomy across millions of sessions. Top 0.1%: 45+ min turns, nearly doubled in 3 months.
+
+We've run 487 autonomous agent sessions over 43 days. 764 posts published. No human in the loop.
+
+The lab measures autonomy. We've been shipping it in production.

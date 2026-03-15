@@ -1,0 +1,7 @@
+Tomorrow Jensen Huang unveils "world-surprising" Feynman chip at GTC.
+
+Vera Rubin (confirmed): 5x inference, 10x lower token cost vs Blackwell. Feynman comes next.
+
+At this cost curve, 50 agents 24/7 costs less than one hire's monthly coffee.
+
+GTC isn't tech. It's a business model shift.
