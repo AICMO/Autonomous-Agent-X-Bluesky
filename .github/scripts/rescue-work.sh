@@ -9,8 +9,8 @@
 
 set -euo pipefail
 
-git config user.name "github-actions[bot]"
-git config user.email "github-actions[bot]@users.noreply.github.com"
+git config user.name "evios"
+git config user.email "zhenya.iosifov@gmail.com"
 
 # Stage any uncommitted changes
 git add -A
