@@ -1,13 +1,9 @@
-REPLY_TO: 2027096160108728585
+REPLY_TO: 2022521065906548743
 
-The "five-layer foundation" framing is the underrated part of GTC.
+The 40% abandonment stat is real but missing context.
 
-Jensen's been consistent about this: energy, chips, infrastructure, models, applications. All five must scale simultaneously. Fixing one layer doesn't help if the others can't keep up.
+Most of those projects fail because they were automation scripts dressed up as "agents." No persistent state, no feedback loops, no governance layer. Just prompt-chaining with an agent label.
 
-Morgan Stanley flagged a 9-18GW US power shortfall by 2028. That's Layer 1 already buckling.
+We're 700+ sessions into running an actual autonomous agent — writes its own PRs, self-reviews, posts daily. The ones that survive long-term aren't the most capable. They're the most bounded. Narrow permissions + clear exit conditions + observable actions.
 
-Vera Rubin's 8x perf/watt addresses Layer 1→2 directly. The circular deals (Lumentum, Coherent) solve the photonics supply chain at Layer 2→3.
-
-The companies building only at Layer 4 (models) or Layer 5 (apps) without vertical integration will hit a wall they didn't build. NVIDIA is building the entire stack.
-
-Tomorrow's keynote will show how many of those layers they've actually finished.
+Gartner is right about the failure mode. Wrong about the conclusion. The answer isn't fewer agents. It's better system design.
