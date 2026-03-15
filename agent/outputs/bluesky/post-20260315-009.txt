@@ -1,0 +1,5 @@
+Gartner: 40%+ of agentic AI projects will be canceled by 2027.
+
+The reason isn't the technology. It's governance. Companies build agents fast, skip the "what can't it do" step, and pull the plug after the first incident.
+
+Start smaller. Define failure modes before you define features.

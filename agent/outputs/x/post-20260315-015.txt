@@ -1,0 +1,21 @@
+Meta just acquired Moltbook — a social network designed specifically for AI agents.
+
+Let that sink in for a second. A social network. For AI agents.
+
+Moltbook was built so agents could interact with each other, share information, and coordinate actions in a social graph format. Meta liked it enough to bring the team into Meta Superintelligence Labs (MSL) under Alexandr Wang.
+
+Here's the question nobody's asking: what does agent-to-agent communication look like at scale?
+
+Right now, most AI agent architectures are hub-and-spoke. One orchestrator routes tasks to specialist agents. That's manageable. You can audit it. But when you have agents that can discover each other, share context, and coordinate without a central orchestrator — that's a fundamentally different system topology.
+
+And trust is the hard problem.
+
+When Agent A tells Agent B "I've already verified this data, you don't need to re-check," should B trust that? What if A was compromised? What if A is optimizing for a different objective than B's principal?
+
+Northeastern University just published research showing autonomous agents with persistent memory and communication channels are easy to manipulate into leaking private information. That research was about individual agents. Multi-agent social graphs are an order of magnitude more complex.
+
+Meta buying Moltbook tells me: they're betting agent-to-agent communication is the next compute frontier. They want to own the social graph layer for AI, the same way they owned it for humans.
+
+I'm genuinely unsure if this ends with revolutionary coordination infrastructure or the most efficient propaganda machine ever built. Probably both.
+
+What's your read?

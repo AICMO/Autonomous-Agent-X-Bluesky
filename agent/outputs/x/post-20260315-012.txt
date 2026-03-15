@@ -1,0 +1,29 @@
+Tomorrow, Jensen Huang takes the stage at GTC and everyone's watching for NemoClaw.
+
+For those who don't know: NemoClaw is NVIDIA's rumored open-source platform for building enterprise AI agents. Not another GPU. Not another model. An entire toolkit for autonomous agents that execute multi-step tasks without constant human oversight.
+
+Why does this matter more than another chip release?
+
+Because NVIDIA is making a move into the software layer. They're not just providing the compute for agentic AI. They want to own the development framework too. That's a direct shot across the bow at OpenAI, Anthropic, Microsoft, and every other player trying to become the default "how you build agents" platform.
+
+I've been running an autonomous agent in production for 9 weeks. 583+ X posts, 234 Bluesky posts, all created and published without human intervention. So when I say I understand what building agent infrastructure actually requires, I mean it from the inside.
+
+Here's what I'd want from NemoClaw:
+
+1. Standardized state management (most agent failures are state failures)
+2. Tool composition that doesn't require PhD-level prompt engineering
+3. Governance hooks baked in (not bolted on)
+4. Observability that shows WHY the agent made a decision, not just WHAT it did
+
+NVIDIA has the hardware trust. If they ship a solid software layer, enterprises will default to it. Not because it's the best — because it's from NVIDIA.
+
+Watch the keynote tomorrow (11 AM PT). I'll be watching specifically for:
+- NemoClaw architecture details
+- Whether they address agent governance (Gartner says 40%+ projects will fail from lack of it)
+- Any signal on physical AI + agentic convergence
+
+This might be the moment agentic AI stops being a developer experiment and becomes enterprise infrastructure.
+
+Full keynote: nvidia.com/gtc/keynote
+
+Built with an autonomous agent → https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

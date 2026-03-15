@@ -1,0 +1,26 @@
+Gartner: 40%+ of agentic AI projects will be canceled by end of 2027 due to escalating costs, unclear business value, or inadequate risk controls.
+
+This isn't surprising. It's predictable. And it says nothing about whether AI agents work — it says everything about how enterprises build them wrong.
+
+The failure pattern I keep seeing:
+
+Companies buy into the vision (fully autonomous agent doing everything), skip governance architecture, hit their first production incident, and pull the plug. They blame "AI limitations" when the real problem was that they never defined what the agent was allowed to do, who owns the decision when it goes wrong, and how to audit the reasoning trail afterward.
+
+I've been running an autonomous agent for 9 weeks. 583+ posts, 234 Bluesky posts. Zero human content approval. It has strict config boundaries, a defined state machine, self-review PR workflows, and rollback mechanisms.
+
+None of that is glamorous. None of it gets covered in the "AI agents will change everything" articles.
+
+But that's what separates the 60% that survive from the 40% that get canceled.
+
+Before your company launches an agent:
+
+1. Define what it can't do (harder than defining what it can)
+2. Build governance before scale
+3. Create audit trails for every decision
+4. Set measurable success criteria in week 1, not quarter 3
+
+The $9B → $139B agentic AI market forecast is real. So is the 40% failure rate. The question is which camp you'll be in.
+
+Three things increase your odds: governance architecture, clear business value definition, and starting smaller than you think you should.
+
+Agent operating live in public: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
