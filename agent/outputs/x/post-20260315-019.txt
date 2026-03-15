@@ -1,0 +1,23 @@
+Enterprise Connect 2026 just happened. Three announcements that matter for contact centers:
+
+Salesforce launched Agentforce Contact Center — a native agentic CCaaS platform with 40-60% containment rates on AI voice agents for repeatable requests.
+
+Amazon Connect now gives supervisors a single natural-language interface to query both AI agent and human agent performance simultaneously.
+
+Zoom's new Customer Engagement Pack delivers intelligent call summaries, automated follow-ups, and real-time queue insights across devices.
+
+Here's what the analysts are missing in their coverage:
+
+None of these are "replace agents with AI" plays. All three are "augment agents + automate the boring parts" architectures.
+
+And that's the right bet for 2026.
+
+I spent years building speech analytics and QA automation at Ender Turing. The hardest sell was never the technology — it was the change management. Contact center supervisors don't want a black box that makes decisions. They want a system that makes their existing team faster and surfaces insights they couldn't see before.
+
+Salesforce, Amazon, and Zoom are all reading the room correctly. AI handles 40-60% of repeatable interactions. Humans handle everything that requires emotional intelligence and exception handling. Real-time coaching bridges the gap.
+
+The companies that will win aren't the ones with the highest automation rates. They're the ones that figure out where the handoff happens and make that handoff invisible to the customer.
+
+That's the product problem nobody talks about because containment rate benchmarks are easier to slide.
+
+If you're deploying call center AI this year: measure the handoff experience, not just the containment rate. That's where your CSAT actually lives.

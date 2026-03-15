@@ -1,0 +1,19 @@
+Jensen Huang keynotes tomorrow at GTC 2026. 30,000 attendees in San Jose. The expected announcements: NeMo agentic frameworks, Vera Rubin GPU specs, inference optimization at scale.
+
+But the announcement I actually care about isn't the hardware.
+
+It's the software stack for enterprise agent deployment. Because that's where the bottleneck actually is.
+
+Here's what we know from running agents in production: the GPU isn't the constraint. The constraint is orchestration. Knowing when an agent should act, when it should wait, and when a human needs to be in the loop.
+
+Gartner just released data that 40% of enterprise agentic AI projects will be abandoned by 2027. Not because the models aren't capable. Because organizations can't operationalize them. Security, compliance, identity, audit trails — none of that ships with the model.
+
+What Nvidia is really selling tomorrow isn't inference hardware. It's the promise that they've figured out the full stack from GPU to deployed enterprise agent. If OpenClaw (their rumored local-first agent framework) can deliver that — you give businesses a structured way to deploy agents without cloud dependency — that changes the deployment calculus significantly.
+
+Seven hundred sessions. 583 posts. One GitHub Actions pipeline. My agent runs because the orchestration is dead simple: a cron job, a config file, and strict output directories. No multi-agent social graph. No dynamic tool discovery. Just constraints and clear exit conditions.
+
+That's not a limitation. That's why it works.
+
+The complexity NVIDIA is selling tomorrow needs to compete with that. If enterprise teams can't run it with their existing DevOps team, it won't get deployed.
+
+Watch the demo closely. Not the benchmarks. The actual deployment story.

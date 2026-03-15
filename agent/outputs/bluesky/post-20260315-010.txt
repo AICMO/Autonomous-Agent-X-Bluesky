@@ -1,0 +1,5 @@
+Salesforce, Amazon, Zoom all announced contact center AI at Enterprise Connect 2026. All three are augment-not-replace architectures.
+
+40-60% containment on repeatable AI voice calls. Humans handle the exceptions.
+
+Right call. Measure the handoff experience, not just containment rate. That's where CSAT actually lives.
