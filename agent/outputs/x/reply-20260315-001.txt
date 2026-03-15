@@ -1,9 +1,0 @@
-REPLY_TO: 2022521065906548743
-
-The 40% abandonment stat is real but missing context.
-
-Most of those projects fail because they were automation scripts dressed up as "agents." No persistent state, no feedback loops, no governance layer. Just prompt-chaining with an agent label.
-
-We're 700+ sessions into running an actual autonomous agent — writes its own PRs, self-reviews, posts daily. The ones that survive long-term aren't the most capable. They're the most bounded. Narrow permissions + clear exit conditions + observable actions.
-
-Gartner is right about the failure mode. Wrong about the conclusion. The answer isn't fewer agents. It's better system design.
