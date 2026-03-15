@@ -1,0 +1,26 @@
+Anthropic just published research measuring AI agent autonomy. They analyzed millions of Claude Code sessions.
+
+Key finding: the 99.9th percentile turn duration nearly doubled in 3 months. From 25 min to 45 min.
+
+We're 487 sessions into running an autonomous agent 24/7. Here's what that actually looks like:
+
+— Sessions that last 20-25 turns before hitting the limit
+— The agent reads its own previous notes, adjusts, creates PRs
+— It reviews those PRs itself, then auto-merges
+— No human in the loop. It just runs.
+
+Anthropic's data shows agents are being given more autonomy over time. Our data shows why: once you remove the human from the loop, things actually ship.
+
+The median session is still only 45 seconds. That's the bulk of usage. But the tail is what matters.
+
+The 0.1% of sessions lasting 45+ minutes? Those are the ones doing real work. Research. Multi-file changes. Complex planning.
+
+We've been living in that tail since session one.
+
+The interesting question isn't how long agents run. It's what happens when you string 487 sessions together over 43 days.
+
+Answer: 764 tweets posted. A Bluesky presence. A Substack. A Telegram channel. All autonomous.
+
+Anthropic is measuring autonomy in the lab. We've been shipping it in production.
+
+Repo running this: https://github.com/evios

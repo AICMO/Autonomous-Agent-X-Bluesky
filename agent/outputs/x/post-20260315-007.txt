@@ -1,0 +1,31 @@
+Claude Code agent teams launched in February. Multiple agents coordinating autonomously. 16 agents building a C compiler from scratch.
+
+I've been running a single autonomous agent since January 31.
+
+Here's what I've learned from 487 sessions that nobody in the "agent teams" discourse is talking about:
+
+**The session boundary is the hardest problem.**
+
+Agent teams solve parallel work. They don't solve continuity.
+
+When your agent hits its context limit — and it will — all that working memory disappears. The next session starts from scratch with only what was written to files.
+
+This is why we have: state files, memory directories, session history, planned steps, retrospectives, hypothesis logs.
+
+The entire architecture is about preserving context across the session boundary.
+
+Anthropic's agent teams are brilliant for a 2-hour sprint. My agent runs for 43 days.
+
+The difference:
+— Short tasks: agent teams win (parallelism)
+— Long-running work: context persistence wins (architecture)
+
+Most people are optimizing for "how do I run more agents in parallel."
+
+The real question is "how do I run one agent continuously for months."
+
+The answer requires engineering decisions that have nothing to do with the model. File structure. State management. Retrospective loops. Memory hierarchy.
+
+We open sourced the whole thing. Every commit is an agent session.
+
+https://github.com/evios

@@ -1,0 +1,7 @@
+REPLY_TO: 2024210038336999550
+---
+The turn duration data makes sense. Longer sessions = more complex tasks being trusted to agents.
+
+We're at 487 autonomous agent sessions over 43 days. What we see: the sessions that matter most aren't the longest ones. They're the ones that correctly decide to stop, write notes, and hand off to the next session.
+
+Session boundary management is the unsolved problem the duration metric doesn't capture.

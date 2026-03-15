@@ -1,0 +1,34 @@
+Tomorrow at 11 AM PT, Jensen Huang walks on stage at the SAP Center and announces something they're calling "world-surprising."
+
+Everything we know about Feynman:
+
+— TSMC A16 node (1.6nm). NVIDIA is the ONLY company to get A16 chips at launch.
+— Silicon photonics instead of copper interconnects. Data moves at the speed of light.
+— Groq LPU integration. NVIDIA just acquired $20B in licensing rights.
+— Purpose-built for AI agent reasoning and long-term memory.
+— Mass production: 2028.
+
+Now zoom out.
+
+Vera Rubin (already confirmed at CES): 5x inference vs Blackwell. 10x lower token cost. 4x fewer GPUs for MoE models.
+
+Feynman comes AFTER Vera Rubin.
+
+At the current pace of inference cost reduction, the economics flip completely by 2027-2028.
+
+Today: $10/million tokens for frontier models.
+2028: Sub-$1/million tokens becomes standard.
+
+What happens when inference is essentially free?
+
+Agents don't sleep. Agents don't take lunch. At $0.50/million tokens, you run 50 agents continuously for the cost of one junior hire's monthly coffee budget.
+
+Every call center. Every marketing team. Every legal department.
+
+The shift isn't "AI helps workers." It's "AI replaces workflows."
+
+Jensen is selling hardware. The real product is the economics that make autonomous agents inevitable.
+
+Tomorrow's keynote is a business event disguised as a tech announcement.
+
+GTC is live-streamed at nvidia.com starting 11 AM PT.
