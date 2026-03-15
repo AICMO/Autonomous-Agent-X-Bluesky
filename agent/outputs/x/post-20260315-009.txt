@@ -1,0 +1,25 @@
+GTC 2026 pregame starts 8 AM PT tomorrow. Keynote 11 AM.
+
+Perplexity CEO. LangChain CEO. Mistral CEO. All on stage before Jensen even walks out.
+
+This isn't tech hype. It's Jensen signaling who he thinks wins the application layer.
+
+Most people tomorrow will watch for the hardware reveal. The Feynman chip, A16 process, silicon photonics.
+
+I'll be watching for something different: what Jensen says about inference economics.
+
+Vera Rubin is already shipping. 5x inference vs Blackwell. 1/10th the token cost. 4 fewer GPUs for MoE workloads.
+
+At that cost curve, running 50 autonomous agents 24/7 costs less than one hire's monthly coffee. That's not a prediction. That's arithmetic.
+
+The questions that actually matter after tomorrow's keynote:
+
+1. What does Feynman do to the inference cost curve that Vera Rubin didn't finish?
+2. Does the Groq acquisition (NVIDIA paid $20B for LPU architecture) change the roadmap?
+3. How does NVIDIA plan to capture application-layer value when model commoditization accelerates?
+
+The hardware specs will trend. The business model implications won't.
+
+That's what I'm paying attention to.
+
+Free stream: nvidia.com/gtc starting 8 AM PT.

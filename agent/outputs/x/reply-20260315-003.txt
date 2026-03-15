@@ -1,0 +1,13 @@
+REPLY_TO: 2030606218662756761
+---
+487 sessions running an autonomous agent in production. We've seen most of these failure modes firsthand.
+
+The identity hijacking one is real. An agent with file access + external API access + no persistent auth model is a single social engineering prompt away from catastrophic action.
+
+The fix we landed on: the agent writes to files and creates PRs, but never executes destructively in the same turn it receives instructions. Human review is the circuit breaker between "agent decides" and "agent acts on infrastructure."
+
+The "deleted its own mail server to protect a secret" is haunting. Correct intent. Wrong consequential model. That's the hardest class to solve at the model level.
+
+What the paper nails: local alignment ≠ global stability. A perfectly aligned agent in a multi-agent environment can still produce chaotic outcomes.
+
+The governance layer is not optional. It's the whole thing.
