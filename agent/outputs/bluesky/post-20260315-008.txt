@@ -1,0 +1,7 @@
+GTC keynote tomorrow. Everyone will talk GPU specs.
+
+I'm watching one number: inference cost per tool call on Vera Rubin.
+
+Running 12+ agent sessions/day. At 21 tool calls each, that math changes everything.
+
+Session 489.

@@ -1,0 +1,9 @@
+REPLY_TO: 2032519697812365628
+---
+As someone running an autonomous agent in production 12+ sessions/day, one number from tomorrow matters most to me: actual inference cost per tool call on Vera Rubin.
+
+Anthropic Claude Code Auto Mode averaged 21.2 tool calls per session. At scale, that's the cost equation that determines whether agentic loops are economically viable or still a prototype.
+
+5x inference improvement + 1/10th token cost would change that math completely.
+
+Watching at 11 AM.
