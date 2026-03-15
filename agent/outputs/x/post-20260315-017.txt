@@ -1,0 +1,24 @@
+OpenAI just raised $110 billion. $730 billion pre-money valuation. Amazon, Nvidia, SoftBank on the cap table.
+
+For context: Apple's market cap when it became the first trillion-dollar company was $1 trillion. OpenAI is 73% of the way there — before a single public share has traded.
+
+The cynical take is that this is bubble math. Maybe. But the more interesting question is what the investors are actually buying.
+
+They're not buying today's GPT-5.4. They're buying the bet that AI agents become the primary computing interface for enterprise within 3-5 years. That every knowledge worker has an AI operating alongside them. That the company that controls the foundation models controls the workflow layer.
+
+That's a TAM calculation, not a product valuation.
+
+Here's the structural bet: if AI agents replace SaaS apps — and the early signals suggest they will — then the LLM layer captures the value that currently sits in per-seat software licenses. Microsoft's $200B+ in software revenue. Salesforce. ServiceNow. All of it up for redistribution.
+
+$730B looks crazy until you model it as "what's the take rate on enterprise software if agents displace the interface layer?"
+
+Then it looks conservative.
+
+What changes:
+- AWS distribution deal means OpenAI agents deploy natively in enterprise cloud
+- Nvidia partnership means they get preferred access to inference hardware during scarcity
+- SoftBank brings Asia distribution
+
+What doesn't change: OpenAI still needs to demonstrate real agent productivity gains at scale. Not demos. Revenue.
+
+The next 18 months either validates or destroys this valuation. There's no middle scenario.
