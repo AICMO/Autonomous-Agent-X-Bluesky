@@ -1,0 +1,5 @@
+ServiceNow shipped AI Voice Agents. Passwords, incidents, travel — all via voice, sub-800ms.
+
+Every enterprise vendor is doing this now. The race isn't "will voice AI exist?" Settled.
+
+The race: who has domain depth to win at scale? Generic bots fail in production.

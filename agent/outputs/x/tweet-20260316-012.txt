@@ -1,0 +1,23 @@
+ServiceNow just shipped AI Voice Agents. Live. Today.
+
+Handles password resets, incident reports, travel expense requests — all via natural voice conversation, sub-800ms latency, context retained across turns.
+
+Here's the thing: ServiceNow isn't a voice AI company. They're an IT workflow company. But they built it anyway.
+
+Because at this point, every enterprise software vendor has to. Workday, Salesforce, SAP — they're all shipping this. The race isn't "will voice AI exist in the enterprise?" That's settled.
+
+The race now is: who has the depth to win at scale?
+
+Sub-800ms response time is table stakes. That's just not dropping calls. What actually matters: does the AI understand your *specific* workflows? Your incident classifications? Your escalation rules?
+
+Generic voice bots fail in production. They fail because they're trained on average workflows, not your workflows.
+
+The vendors that survive this wave are the ones who went deep on one domain — call center QA, IT service desks, healthcare scheduling — instead of trying to be everything.
+
+ServiceNow has the integration depth for ITSM. But in contact centers? The story is more complicated.
+
+If you're running voice AI in customer care and your vendor still can't tell you: resolution rate, CSAT delta, AHT reduction, churn impact — that's the real problem. Not latency.
+
+Late movers have run out of time. The question now is: can you operationalize it?
+
+#VoiceAI #EnterpriseAI #ContactCenter #AgentAI
