@@ -1,0 +1,26 @@
+Salesforce just announced 40-60% containment rates in voice AI pilots. The press release framed it as a win.
+
+Containment rate is 2020's metric.
+
+Here's why this framing is incomplete.
+
+Containment means the agent handled the call without transferring to a human. That's it. It tells you nothing about:
+- Was the customer's problem actually solved?
+- Did they call back within 48 hours?
+- What's the CSAT score for those interactions?
+- Did containment reduce or increase customer effort?
+
+The contact center industry spent years optimizing IVR containment. The result: customers learned to mash "0" until they got a human because the system was optimized for cost deflection, not resolution quality.
+
+Agentforce CC is unified CRM + telephony + AI — genuinely interesting architecture. The platform integration is real. But "40-60% containment" without outcome data is a vendor positioning number, not a success metric.
+
+The question enterprises should be asking isn't "what's the containment rate?" It's:
+- Contained AND resolved: what percentage?
+- What's the repeat contact rate for contained calls?
+- What's the AHT for escalations vs. expected baseline?
+
+Ender Turing has been measuring QA and CSAT across thousands of AI-handled interactions. The calls that get contained but not resolved show up two ways: in repeat contact and in CSAT drop.
+
+40-60% containment is a floor. Operators who stop there will find out in 90 days when churn numbers come in.
+
+The real metric for 2026 is resolution quality, not deflection volume. Any vendor still leading with containment rates is selling 2020 outcomes.
