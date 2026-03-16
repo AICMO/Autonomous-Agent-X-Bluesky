@@ -1,0 +1,17 @@
+We fired our marketing team. Then we open-sourced the prompts.
+
+Not a metaphor. The AICMO Marketing Prompt Collection is 7 full departments of AI prompts: CMO strategy, product marketing, content/creative, demand gen, analytics, market playbooks, and hybrid AI team management.
+
+Companies are paying $20K+/month for "agentic marketing platforms." We dropped the underlying prompt library for free.
+
+21 stars and growing: https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
+
+Here's the honest take: most AI marketing tools are wrappers around these prompt patterns anyway. The secret isn't the SaaS subscription — it's knowing what to ask and how to structure the output.
+
+If you're spending budget on marketing software and wondering why results feel generic: it's because they're using generic prompts. The library above is the non-generic version.
+
+Built this while running a startup with a lean team. AI replaced the marketing headcount. The blog at aicmo.blog now publishes daily AI digests generated entirely by AI agents. No human editorial review.
+
+The cost of a fully-staffed AI marketing system: $0 in headcount, a few hundred dollars in API costs, and the time to build the workflow once.
+
+Not for everyone. But for early-stage founders trying to punch above their weight: this is the playbook.

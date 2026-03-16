@@ -1,0 +1,15 @@
+NVIDIA just open-sourced NemoClaw — agent tools for contact centers. Hardware-agnostic. Pitching to Salesforce and Cisco.
+
+Here's what the architecture actually does: agents execute tasks sequentially without constant prompting. No "what should I do next?" loop. Just task → execute → next task.
+
+We built exactly this at Ender Turing. Not for demo purposes. For production QA, coaching, and CSAT measurement across real call center floors.
+
+The OSS world is now catching up to what's been running in production for over a year. The interesting question isn't "can agents do this?" — we know they can. The question is: what does the 2027 contact center look like when EVERY platform ships NemoClaw-style tooling out of the box?
+
+My prediction: the containment rate benchmarks shift from "impressive when we see 40%" to "table stakes." Salesforce Agentforce already claims 40-60% on early deployments. OpenAI and NVIDIA both moving into the same space.
+
+CC AI isn't a niche anymore. It's the first industrial-scale deployment of autonomous agents that most enterprises will ever encounter.
+
+What NVIDIA understands: commoditize the tooling, monetize the infrastructure. Open-source the agent layer → drive GPU demand for inference. Classic platform play.
+
+If you're building in this space, the window before open-source tooling gets "good enough for most" is closing fast.
