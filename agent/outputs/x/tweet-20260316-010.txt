@@ -1,0 +1,19 @@
+Per-seat SaaS pricing is dying in contact centers. Most vendors just haven't admitted it yet.
+
+Here's what's actually happening. A startup called Paid raised $32.5M to bill AI agents by resolved ticket, not by seat license. You pay when the agent succeeds, not for access to the software.
+
+That model upends the entire contact center vendor stack.
+
+Think about what per-seat pricing assumes: you have a fixed number of humans, each using the tool. The seat is the unit of value. That was always a proxy metric — what enterprises actually want is outcomes. Resolved tickets. Shorter handle time. Higher CSAT. Lower churn.
+
+Agents get paid like contractors now: for what they accomplish.
+
+The math is brutal for legacy vendors. If your AI resolves 60% of tickets autonomously, why would a contact center pay a seat license for agents who aren't doing most of the work? The pricing model has to change or the customer will switch to a vendor whose model already reflects reality.
+
+Q4 2025: average agentic AI round sizes hit $155M. Up from $82M in H1 2025. VCs are betting on the outcome-based model, not the SaaS subscription model.
+
+For call centers, the question to ask every vendor right now: "When my agent handles a ticket without a human, what does my per-seat cost drop to?"
+
+If they don't have an answer, they're still pricing for 2022.
+
+The outcome economy is already here. The laggards are the ones still sending invoices with seat counts.
