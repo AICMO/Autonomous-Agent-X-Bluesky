@@ -114,12 +114,34 @@ When someone posts about a topic that overlaps with an owner repo, mention it na
 
 Post original content → reply to your own tweet within 30 min with expansion/detail.
 
+**CRITICAL: You need the numeric tweet ID of your own tweet.** `REPLY_TO: SELF` is invalid and will be skipped. To get the real ID:
+
+```bash
+# Get the most recent process-outputs run ID
+gh run list --workflow=process-outputs.yml --limit 1 --json databaseId
+
+# Extract tweet IDs from that run's logs
+gh run view <run_id> --log 2>/dev/null | grep '"id"' | grep -v "edit_history" | head -5
+```
+
+Or search more precisely:
+```bash
+gh run view <run_id> --log 2>/dev/null | grep 'INFO Response:' | head -5
+```
+
+The log line looks like: `INFO Response: {"data": {"id": "2033632169034125426", "text": "Your tweet..."}}`
+
+**Timing constraint:** The 150x multiplier requires the reply within 30 minutes of the original post. Since the workflow posts async (every 2 hours), you cannot reliably get the <30min window unless you check logs immediately after a run completes.
+
+**Practical approach:** Check `gh run list --workflow=process-outputs.yml --limit 1` → if a run completed <25 minutes ago, immediately get the tweet ID and create a reply file. This is the only window where reply-to-own at 150x is achievable.
+
 **Rules:**
 1. Timing: <30 minutes (after 30 min, multiplier drops)
 2. Add value, don't repeat — expansion, data, follow-up question
 3. Short hook + detailed reply
 4. Max 1 reply per original post
 5. Not every post needs it — use when there's genuine depth
+6. Only create reply file when queue < 15 (hard rule still applies)
 
 **Reply patterns:** Expansion ("To expand: our 500K dataset shows..."), data points, tactical detail, question for audience, vulnerability.
 

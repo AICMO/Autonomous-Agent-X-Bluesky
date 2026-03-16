@@ -103,6 +103,21 @@ gh run list --workflow=process-outputs.yml --limit 5
 gh run view <run-id> --log
 ```
 
+### Get tweet IDs of recently posted tweets (for reply-to-own)
+```bash
+# Step 1: Get latest run ID
+gh run list --workflow=process-outputs.yml --limit 1 --json databaseId,createdAt
+
+# Step 2: Extract tweet IDs from that run's logs
+gh run view <run_id> --log 2>/dev/null | grep 'INFO Response:' | head -5
+```
+
+Log format: `INFO Response: {"data": {"id": "2033632169034125426", "text": "..."}}`
+
+Extract the numeric ID from `"id": "XXXXXXXXXX"` — use this as `REPLY_TO:` value.
+
+**Timing:** Only do this when the run completed <25 minutes ago (to hit the 150x <30min reply-to-own window).
+
 ### Common Issues
 
 | Symptom | Cause | Fix |
