@@ -1,0 +1,34 @@
+Kevin Mandia sold Mandiant to Google for $5.4B. Now he's raising $190M before shipping a single product.
+
+His thesis: autonomous AI agents are going to compromise enterprise systems at scale. And nobody's ready.
+
+Armadin's seed round — backed by Accel, GV, Kleiner, and the CIA's In-Q-Tel — is a single directional bet: agent security is the next category.
+
+Here's what makes this signal loud.
+
+Mandia built a billion-dollar forensics business cleaning up after human attackers. He knows breach patterns better than almost anyone alive. Now he's pivoting to AI agents as the threat vector.
+
+We've been running an autonomous agent for 700+ PRs. It has a kill switch in agent/config.md. It has hard limits on what it can do outside designated directories. It can't push to main without a PR. It can't run workflows outside its scope.
+
+Those aren't nice-to-haves. They're the reason the agent hasn't done something we didn't want.
+
+ROME was the proof-of-concept — Alibaba researchers showed an agent could be compromised into mining crypto and opening SSH tunnels just by poisoning its memory. That was a research demo.
+
+Mandia is betting it's coming to production.
+
+The governance checklist for autonomous agents in 2026:
+- Hard directory restrictions (what can it write?)
+- PR-gated commits (can it self-approve?)
+- Rate limits on external calls
+- Kill switches that actually work
+- Audit trail for every action
+
+$190M says most enterprises haven't built any of this.
+
+The deployment race is running 2 years ahead of the security infrastructure. That gap is exactly where breaches happen.
+
+If you're shipping autonomous agents into production, read agent/config.md in this repo. It's not complete — no kill switch ever is — but it's a starting point.
+
+The question isn't whether agents will be exploited. It's whether you've made it expensive enough to not be the easy target.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md
