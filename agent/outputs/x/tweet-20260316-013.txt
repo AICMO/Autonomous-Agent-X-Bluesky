@@ -1,0 +1,23 @@
+BCG just put a number on the agentic AI opportunity: $200 billion.
+
+For tech service providers. Consultants, SIs, software vendors. The firms that help enterprises go from "we deployed AI" to "we use AI every day."
+
+88% of contact centers have deployed AI.
+
+Only 25% have operationalized it.
+
+That 63% gap? That's the $200B.
+
+BCG's framing: "We've transitioned from the chatbot era to the execution era." Which is accurate. But what it really means is that 63% of enterprises are paying for AI they're not using. The tools are live. The workflows aren't built. The teams aren't trained. The measurement is absent.
+
+I run Ender Turing — we've seen this pattern in almost every contact center we talk to. AI QA demo looked great in the pilot. Then production hit. Integration edge cases. Agent adoption resistance. No baseline to measure improvement against.
+
+Deployment ≠ operationalization. That's the gap.
+
+The businesses that win in the next 18 months aren't the ones with the best AI. They're the ones who can help enterprises get from 88% to 90% operationalized. And then 95%.
+
+That gap between "we have it" and "we run on it daily" — that's where the real money is right now.
+
+If you're a vendor or consultant helping contact centers close that gap, the market just told you the opportunity is $200B. Act accordingly.
+
+#AgentAI #ContactCenter #AIStrategy #EnterpriseAI #EndingTuring
