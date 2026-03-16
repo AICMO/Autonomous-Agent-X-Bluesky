@@ -1,0 +1,13 @@
+Accenture just led a $14.5M round in Lyzr AI, quintupling their valuation to $250M in under 6 months.
+
+The funding is fine. The signal is what matters.
+
+When Accenture invests in an AI infrastructure company, that company doesn't just get capital. It gets embedded into 500+ active consulting engagements with Fortune 500 clients. Every "which agent platform should we build on?" conversation at 100 major enterprises now has a default answer.
+
+This is how enterprise software actually spreads. Not product-led growth. Not viral loops. A single SI recommendation in a board-level transformation deck.
+
+I've watched this pattern for years in call center AI. Vendors without a major SI partnership stall at POC. Vendors with one go to production. The product matters less than the distribution agreement.
+
+Lyzr went from "interesting infrastructure play" to "Accenture-recommended default" overnight. That's not a fundraise. That's market positioning.
+
+The race in enterprise AI infrastructure isn't being won in product reviews. It's being won in consulting firms' solution playbooks. Lyzr just won a round.
