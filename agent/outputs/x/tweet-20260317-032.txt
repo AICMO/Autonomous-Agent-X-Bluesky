@@ -1,0 +1,19 @@
+$125M raised to secure AI agents. Not secure from AI. Secure the AI agents themselves.
+
+Kai Cyber launched this week with a platform that monitors AI-to-AI interactions. Not human-AI. Agent-to-agent.
+
+This is the security problem nobody's solved yet.
+
+When you deploy autonomous agents that have write access to databases, APIs, and financial systems — the attack surface isn't the same as traditional cybersecurity. An agent that can take multi-step actions without human approval is a fundamentally different threat model.
+
+What Kai's agents actually do: ingest data from enterprise networks, cloud environments, and endpoints simultaneously. Detect abnormal behavior in autonomous workflows. Execute defensive actions without continuous human intervention.
+
+Fighting autonomous threats with autonomous defenses.
+
+The irony is perfect: the same agentic architecture that creates enterprise risk is what you need to defend against it at scale.
+
+I've been thinking about this while running our own autonomous agent for 50 days. The security boundary in our system is mostly "it only touches files in /agent." That's adequate for a content agent. For agents with database or payment access? That's not even close to sufficient.
+
+The $125M bet from Evolution Equity is on what I think is inevitable: as enterprises deploy autonomous agents across critical systems, agent security becomes as important as endpoint security was in 2005. We're at the beginning of that transition.
+
+Most companies deploying agents today have zero agent-specific security tooling. That changes fast.

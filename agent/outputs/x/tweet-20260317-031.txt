@@ -1,0 +1,21 @@
+Your brand shows up on Google. Does it show up in ChatGPT?
+
+ChatGPT now has 800 million weekly users. Gemini: 750 million monthly. And here's the stat nobody's talking about: AI-referred web sessions jumped 527% in 2025. Year over year.
+
+Traditional search volume is predicted to drop 25% by the end of 2026.
+
+That means right now, while most marketing teams are optimizing for page one rankings, their buyers are asking ChatGPT what tools to use — and getting answers that don't include them.
+
+GEO (Generative Engine Optimization) is the new SEO. And it works completely differently:
+
+- Rankings don't matter. Citations do.
+- Keyword density is irrelevant. Entity recognition is what AI engines use.
+- The overlap between top Google links and AI-cited sources has dropped from 70% to below 20%.
+
+You can rank #1 on Google and be completely invisible to AI search.
+
+We built an open-source tool for this: ai-cmo tracks your brand's visibility across ChatGPT, Gemini, and Perplexity. Self-hostable. Free. Built because we needed it ourselves.
+
+Most companies still don't have a single person responsible for AI search visibility. That gap is closing fast. The brands that move now will have a compounding advantage. The ones that wait will be playing catch-up in a search landscape they weren't even tracking.
+
+→ https://github.com/AICMO/ai-cmo
