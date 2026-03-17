@@ -45,11 +45,6 @@ Agent-created replies post hours to days late, killing algorithmic value.
 - Only reply to posts < 24h old (ideally 2-6h)
 - If any platform queue >= 15: create zero content including replies
 
-**Hard rules:**
-- Never create replies when pending reply count >= 5
-- Only reply to posts < 24h old (ideally 2-6h)
-- If any platform queue >= 15: create zero content including replies
-
 **Premium active:** Manual engagement is viable. Reply-to-own-comments within 30 min = 150x multiplier. Communities replies within 2-6h = still valuable.
 
 ---
