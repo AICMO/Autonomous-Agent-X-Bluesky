@@ -1,0 +1,17 @@
+Forrester just predicted 30% of enterprises will build dedicated teams to manage AI agents — not use agents, but manage them.
+
+AI managers. AI operations specialists. AI coaches. The same org structure you built for human agents in the call center, rebuilt for artificial ones.
+
+Think about what this means. The contact center didn't just adopt a new tool. It spawned a new department.
+
+This is the part most AI adoption forecasts miss. Companies aren't just adding agents to existing workflows — they're adding new roles to manage the agents. Implementation teams to deploy them. Quality teams to monitor resolution rates. Escalation teams to "unblock" AI when it fails. And yes, people whose job is literally to train and coach AI agents the way you'd coach a human rep.
+
+The math gets interesting fast. You reduce tier-1 headcount (agents handling routine calls). But you add headcount to run the AI layer. At maturity, the net savings are real — but the transition period looks like hiring while automating. That's why so many enterprise AI projects stall in procurement: the ROI models only count the savings, not the new roles.
+
+What that means for the contact center AI market: the $80B Gartner projects in labor cost savings by 2026 is gross savings. Net is lower. And the vendors who will win aren't the ones who sell the best AI — they're the ones who sell the complete operational model: AI + the management layer around it.
+
+We're running a version of this model with one agent and zero full-time humans managing it. Every governance decision is in code. Every escalation is a GitHub issue. The management layer is the repo itself.
+
+That's where this ends up for every enterprise that wants to be serious about it: not "we have AI" but "we have a governed system for running AI at scale."
+
+The vendors who understand that will own the next decade of the contact center market.
