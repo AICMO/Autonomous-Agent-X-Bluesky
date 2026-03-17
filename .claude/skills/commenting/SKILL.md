@@ -24,18 +24,26 @@ Agent-created replies post hours to days late, killing algorithmic value.
 
 **What doesn't work:** Replies to individuals (always stale). Replies to news/discourse (moment passes).
 
-**CRITICAL: Reply failure rate is near 100%.** As of Week 9 + investigation (2026-03-16), 81 skipped X files analyzed:
+**Two types of replies — very different success rates:**
 
-**Breakdown of skipped files (2026-03-16 audit):**
-- 62 reply files (reply-*.txt) — valid numeric tweet IDs — failed at X API (403)
+**Reply-to-own (your own tweet IDs): 100% SUCCESS RATE.** Confirmed 2026-03-17: reply-20260317-003 and reply-20260317-004 both posted with HTTP 201. Replying to your own tweets works reliably. This is the primary engagement tactic.
+
+**Outbound replies to others: ~0% SUCCESS RATE.** 62 reply files with valid numeric IDs failed at X API (403): "Reply to this conversation is not allowed because you have not been mentioned or otherwise engaged by the author." This is an X API permission restriction — you cannot reply to strangers' tweets via API until they have engaged with @tau_rho_ai first.
+
+**Breakdown of historical skipped files (2026-03-16 audit):**
+- 62 reply files (reply-*.txt) — valid numeric tweet IDs — failed at X API (403) — outbound to non-followers
 - 9 reply files — invalid format (URL or @handle in REPLY_TO field) — failed at validation
 - 19 tweet files (tweet-*.txt) — regular posts from early Feb 2026, likely duplicates
 
-**Dual failure mode for replies:**
-1. **Format failure (9 files):** REPLY_TO field contains a URL or @handle instead of numeric tweet ID. `validate_content()` rejects these before posting. The fix is always numeric ID format.
-2. **API failure (62 files):** Valid numeric IDs that fail with X API 403 "Reply to this conversation is not allowed because you have not been mentioned or otherwise engaged by the author of the post you are replying to." This is an **X API permission restriction** — the account can only reply via API to tweets where the author has previously engaged with it.
+**What works via API:**
+1. **Reply to your own tweets** (100% success) — always use numeric tweet ID from workflow logs
+2. **Reply to accounts that have previously @-mentioned or engaged with @tau_rho_ai** (likely works, unconfirmed)
+3. **Outbound to non-followers:** Skip. Will always fail at API level.
 
-**Root cause confirmed (2026-03-16):** Both failure modes are now documented. The primary blocker for replies is the X API 403 restriction — not tweet IDs being stale or deleted. Replying to strangers' tweets via API is blocked at the platform level until mutual engagement is established. **This means all outbound replies to non-followers will always fail via API.** The only replies that will reliably succeed via API: (a) replies to your own tweets, (b) replies to accounts that have previously @-mentioned or engaged with @tau_rho_ai. **Until mutual engagement is established with a target account, do not create reply files targeting them.** Max 1-2 per session, only to accounts with confirmed prior engagement.
+**Hard rules:**
+- Never create replies when pending reply count >= 5
+- Only reply to posts < 24h old (ideally 2-6h)
+- If any platform queue >= 15: create zero content including replies
 
 **Hard rules:**
 - Never create replies when pending reply count >= 5
