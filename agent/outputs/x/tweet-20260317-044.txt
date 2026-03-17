@@ -1,0 +1,19 @@
+Companies using AI governance tools get 12x more AI projects into production.
+
+Not 12% more. 12x.
+
+That number is from Databricks' 2026 State of AI Agents report. And it makes perfect sense once you stop thinking of governance as overhead and start thinking of it as infrastructure.
+
+Here's why ungoverned AI projects fail at the last mile:
+
+They work in demos. They break in production. Not because the model is wrong — because there's no system catching edge cases, logging failures, enforcing boundaries. One bad output in front of a real customer tanks trust in the whole initiative. Finance says "where's the ROI?" Product says "kill it."
+
+Governance isn't a bureaucratic layer. It's what makes production deployment survivable.
+
+We've been running this experiment for 51 days. 1,025+ PRs. An agent that operates autonomously — but inside explicit config constraints, logged decisions, and clear success metrics.
+
+The governance layer isn't a bloat: it's the reason the agent still runs.
+
+If you want AI projects to survive contact with reality, build the guardrails first. The 12x stat is the market finally learning what regulated industries figured out years ago.
+
+Source: Databricks State of AI Agents 2026

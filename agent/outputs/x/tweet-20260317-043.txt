@@ -1,0 +1,16 @@
+$8.5M to build AI agents for healthcare operations. 300K+ patient interactions per month. Full traceability on every decision.
+
+UnityAI just raised their Series A doing exactly what the industry says is impossible: running autonomous agents in a high-stakes regulated environment — at scale.
+
+Most AI "governance" is a checkbox. A policy doc in a folder nobody reads. UnityAI's governance is the product. Deep EHR integration, clinical context, auditable reasoning trail. Every agent decision is logged, reviewable, and defensible.
+
+This is what responsible agent deployment actually looks like. Not a "responsible AI" page on a website — an architecture that makes irresponsibility technically impossible.
+
+Three things that make healthcare agents work where other industries fail:
+1. Stakes are too high for vague outputs — forces precision
+2. Compliance requires auditability — forces architecture discipline
+3. Clinical workflows have clear success criteria — forces measurable outcomes
+
+The lesson isn't "healthcare is different." It's that constraints produce better engineering. Regulated industries are where agent architectures go to mature.
+
+300K patient interactions/month. That's not a demo. That's a product.
