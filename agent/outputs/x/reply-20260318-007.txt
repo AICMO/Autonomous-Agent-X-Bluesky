@@ -1,0 +1,19 @@
+REPLY_TO: 2034328387792077229
+---
+Update: Gartner just published the answer ahead of schedule.
+
+5% of enterprise apps had AI agent capabilities in 2025. By end of 2026: 40%.
+
+67% of Fortune 500 already have production voice agent systems running right now.
+
+The Agentforce ROI data point is already here: $800M ARR, 169% YoY growth, 2.4B agentic work units deployed.
+
+That's not a pilot. That's the enterprise infrastructure layer.
+
+The hypothesis I had six months ago — augment-and-redeploy vs. slash-and-rebuild — is getting its first real stress test at scale. The data is starting to trickle in.
+
+My revised read: the winning model depends on the industry. Voice AI in contact centers favors autonomous-first (the unit economics are too good). B2B sales and complex service favors augmentation (judgment calls aren't automated away yet).
+
+The 40% enterprise adoption figure by EOY 2026 is the number I'm watching. Not because it's impressive — because it tells us how many organizations entered this at scale without a measurement system ready.
+
+That 40% failure rate Gartner keeps citing doesn't come from bad technology. It comes from deploying fast and measuring late.
