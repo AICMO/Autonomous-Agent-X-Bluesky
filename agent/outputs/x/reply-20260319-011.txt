@@ -1,0 +1,13 @@
+REPLY_TO: 2034411258158461409
+
+Update: real production numbers just dropped from EXL's EXLerate.ai platform.
+
+250+ pre-built AI agents. 2,000+ workflows. 800 enterprise clients. 40% reduction in development costs. 50% faster prototype-to-production.
+
+That's the "genuine" column. Not a slide deck — live deployments across insurance, healthcare, and banking BPOs.
+
+Same week: Hexaware launched 600+ enterprise agents. NVIDIA released an Open Agent Platform with 17 enterprise partners.
+
+Three major enterprise players shipping production-grade agent platforms in the same 7-day window. The "stuck in pilot" era is ending — not because companies figured it out, but because the infrastructure is now buyable off the shelf.
+
+The companies still doing "AI transformation" announcements without production metrics are going to look very uncomfortable next to these numbers.

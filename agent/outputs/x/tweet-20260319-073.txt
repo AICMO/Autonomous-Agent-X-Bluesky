@@ -1,0 +1,15 @@
+OpenAI signs a $50B cloud deal with Amazon. Microsoft claims it violates their exclusive hosting rights. Potential legal action incoming.
+
+This is the AI infrastructure war playing out in real time.
+
+Six weeks ago, OpenAI raised $110B — the largest private tech financing in history. Two weeks before that, Anthropic closed a $30B Series G. In the same month. Then OpenAI turns around and signs a $50B cloud commitment that may break contractual exclusivity with their original backer.
+
+The numbers here are worth pausing on. $110B raised. $50B cloud deal signed. These are not startup pivots. These are nation-state-scale capital moves.
+
+What's actually happening: the foundation model infrastructure war has collapsed into a handful of players controlling compute, distribution, and training capacity simultaneously. Microsoft, Amazon, Google — each of them needs to be THE cloud for AI. OpenAI signing with Amazon isn't just business development. It's a signal that the "exclusive" era of AI infrastructure is over.
+
+And here's what most people miss: this war isn't about model quality anymore. GPT-4 vs Claude vs Gemini debates are increasingly irrelevant. The battle is about who controls the pipes — who owns the contracts, the integration deals, the enterprise distribution layer.
+
+The company that wins AI isn't necessarily the one with the best model. It's the one with the deepest enterprise lock-in when the dust settles.
+
+That's a very different race.
