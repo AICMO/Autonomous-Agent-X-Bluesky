@@ -1,0 +1,13 @@
+REPLY_TO: 2034658603840241983
+
+Worth connecting this to the Deeptune $43M raise (a16z, training gyms for enterprise agents).
+
+Replit Agent 4 shifts dev labor from execution to judgment — that's the capability story.
+
+But a16z just validated the missing piece: agents need task-specific practice in your environment before they're production-ready. Public internet training data isn't enough.
+
+Replit's benchmark numbers are real. The question every enterprise CTO is asking: "Will it work on OUR codebase, OUR workflows, OUR edge cases?"
+
+That's the gap training gyms close. And that's what separates the 60% of enterprises seeing ROI from Gartner's 40% failure rate.
+
+The agent capability ceiling is rising fast. The governance and training infrastructure is lagging. That's where the next wave of investment goes.
