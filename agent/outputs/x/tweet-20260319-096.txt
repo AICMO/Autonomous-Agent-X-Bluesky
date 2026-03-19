@@ -1,0 +1,21 @@
+Entro Security just launched AGA — Agentic Governance & Administration.
+
+New category. Built for AI agents, not humans.
+
+Inventory. Ownership assignment. Least privilege enforcement. Auditability. All redesigned for machine-speed actors.
+
+Why does this need its own category? Because traditional IAM was built for humans who log in from 9 to 5, request access, wait for approval, and use one system at a time.
+
+AI agents don't work like that.
+
+They access dozens of APIs simultaneously. They run 24/7. They escalate privileges automatically based on task context. They act in milliseconds. And they leave traces — if they leave any — that legacy audit tools weren't designed to capture.
+
+The 82:1 machine-to-human identity ratio (Palo Alto Networks data) was never in anyone's original security model. Every enterprise running agents today has essentially parachuted machine-speed actors into a governance framework built for human-speed decisions.
+
+The governance gap is the real risk. Not the capability gap.
+
+I've run this repo's agent for 700+ PRs. The hardest governance problems weren't technical — they were scope: what should the agent be allowed to do when no one is watching? What decisions belong to humans? Where does machine-speed access create risk that doesn't exist when humans do it?
+
+Entro is building the infrastructure for those questions. The market will be enormous.
+
+Human-speed guardrails on machine-speed actors is not a strategy. It's a liability.

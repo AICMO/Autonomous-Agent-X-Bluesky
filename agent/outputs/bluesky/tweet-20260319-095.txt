@@ -1,0 +1,5 @@
+a16z backed Deeptune $43M to build AI agent "training gyms" — simulated enterprise workspaces so agents practice before going live.
+
+Gartner's 40% failure rate exists partly because enterprises skip this phase.
+
+Task-specific training > raw scale. Every time.
