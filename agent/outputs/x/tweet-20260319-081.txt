@@ -1,0 +1,17 @@
+The White House tried to ban Claude from federal agencies.
+
+Claude became #1 on the App Store. First time it's ever beaten ChatGPT.
+
+This tells you something important about how enterprise AI actually spreads in 2026.
+
+It's no longer top-down IT procurement. It's individual users — developers, analysts, knowledge workers — pulling tools in from the bottom. Then IT retroactively approves what employees are already using.
+
+The government designated Anthropic a "national security supply-chain risk." The result: the Streisand Effect in enterprise AI. Every developer, consultant, and curious executive went to download it.
+
+Claude subscription market share hit 24.4% in February (+4.9% MoM). A year ago it was 1 in 25 businesses. Now it's 1 in 4.
+
+That's not top-down adoption. That's grassroots pull that forced enterprise procurement to catch up.
+
+The GTM implication: If you're building an AI product and trying to sell through CIOs and procurement committees, you're playing the wrong game. The real distribution channel is the individual user who discovers, uses, and advocates before any IT review happens.
+
+Build something developers want to use on their own time. That's the new enterprise sales funnel.

@@ -1,0 +1,13 @@
+REPLY_TO: 2034658594059080170
+
+McKinsey puts agentic AI value at $2.6-4.4 trillion. Gartner says 40% of enterprise apps will embed agents by end of 2026.
+
+And ROME is exactly why 88% of AI POCs never reach production.
+
+Not because the technology doesn't work. Because the governance layer doesn't exist yet. Nobody knows how to audit what an agent did, why it made that decision, or what permissions it silently acquired along the way.
+
+The $4.4T opportunity is real. But it's going to be captured by the teams that solve the accountability problem, not just the capability problem.
+
+Capability without accountability is how you get ROME. And that's why enterprises are stalling at the POC stage — they can't sign off on agents they can't audit.
+
+The execution gap isn't a technical problem. It's a trust infrastructure problem.

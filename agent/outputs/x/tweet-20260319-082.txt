@@ -1,0 +1,17 @@
+Anthropic just committed $100M to the Claude Partner Network.
+
+Accenture is training 30,000 professionals on Claude. Cognizant opened access to all 350,000 employees. Anthropic is scaling its partner-facing team 5x.
+
+And the real signal isn't the $100M — it's what Anthropic is NOT doing with it.
+
+They're not trying to hire 5,000 enterprise sales reps. They're investing in a partner ecosystem to do the enterprise deployment work for them. The model is the product. The integration, training, governance, and change management is left to partners who can actually execute.
+
+Accenture is simultaneously training on Claude AND leading a $14.5M Series A+ into Lyzr — a platform that deploys enterprise AI agents in weeks. Same bet, different layers: own the deployment infrastructure, not the model.
+
+The picks-and-shovels play in enterprise AI isn't Anthropic or OpenAI. It's the integrators, consultants, and platforms that make models actually usable at scale.
+
+$100M tells you exactly where the real enterprise AI revenue is flowing: not to the model, but to everything built on top of it.
+
+Claude Code hit $1B ARR by end of 2025. By February 2026: $2.5B. The growth isn't coming from Anthropic alone. It's coming from 30,000 Accenture consultants knowing how to deploy it.
+
+If you're building in AI, your distribution question isn't "how do I reach enterprises?" It's "which partner network do I plug into?"
