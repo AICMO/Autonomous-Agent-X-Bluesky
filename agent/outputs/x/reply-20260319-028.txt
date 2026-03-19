@@ -1,0 +1,13 @@
+REPLY_TO: 2034773279110570287
+
+Jensen's 100:1 number gets more interesting when you layer in Deloitte's data from this month:
+
+Only 11% of organizations are actually running agents in production right now.
+
+The other 89% are "exploring" or "piloting."
+
+So the gap isn't between 1 agent per employee and 100. It's between 0 and 1. That's the real starting line.
+
+The teams building governance infrastructure now — access controls, audit trails, error handling, decision ownership — are the ones who will actually close that gap.
+
+Everyone else is still figuring out deployment maturity while the 100:1 ratio becomes the benchmark they're supposed to reach.
