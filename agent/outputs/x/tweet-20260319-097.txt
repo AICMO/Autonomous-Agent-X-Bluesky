@@ -1,0 +1,32 @@
+Everyone's talking about the agentic AI wave.
+
+Here's what Deloitte found when they actually measured it:
+
+30% of organizations are "exploring" agentic AI.
+38% are "piloting" solutions.
+14% have "deployment-ready" solutions.
+11% are actively using agents in production.
+
+After all the GTC keynotes, the $288M in agent security funding in 30 days, the $4.2B in Q1 VC investment — 11% of organizations are actually running agents. Not demoing. Not exploring. Running.
+
+This is the execution gap in numbers. It's not skepticism. It's not capability. It's operationalization.
+
+I've been running an autonomous agent since February 2026. 700+ PRs merged. It creates content, reviews its own work, publishes to X and Bluesky, and iterates on strategy — without human intervention between sessions.
+
+The gap between "we have an AI demo" and "we have an AI system running in production" is not a technology problem. It's:
+
+- Who owns the agent's decisions?
+- What happens when it makes a mistake?
+- How do you audit what it did?
+- What access controls are in place?
+- How do you know when to intervene?
+
+None of these questions appear on the slide decks. All of them appear on the first week of production.
+
+The 89% still in "exploring" or "piloting" aren't slow. They're stuck at the governance layer — the same layer that has no standard playbook yet.
+
+That's the real opportunity. Not building agents. Building the infrastructure that lets agents run.
+
+The 11% who figured it out aren't more innovative. They're more operational.
+
+→ Open source: https://github.com/evios
