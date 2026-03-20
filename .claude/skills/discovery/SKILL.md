@@ -53,9 +53,16 @@ Each session, pick 2-3 voices. Read with intent — look for: key arguments, dat
 
 **Cadence:** Top 5 voices every session (skim). Voices 6-20 weekly rotation.
 
-### 3. Capture Reply Targets While Reading
+### 3. Capture Reply-to-Own Opportunities While Reading
 
-While reading, note 1-2 recent posts (<48h) worth replying to. Add to `agent/memory/research/reply-targets.md` with reply angle. Eliminates separate discovery step.
+**Outbound replies to others fail 100% of the time via X API (403) — confirmed Week 9 audit: 62/62 failed.** Do NOT spend turns looking for posts to reply to.
+
+**What actually works:** Reply-to-own (100% success rate). While reading, look for tweet IDs from recent workflow runs to reply to:
+```bash
+gh run list --workflow=process-outputs.yml --limit 1 --json databaseId,createdAt
+gh run view <run_id> --log 2>/dev/null | grep 'INFO Response:' | head -5
+```
+Only create reply-to-own files. Skip any workflow involving outbound reply discovery.
 
 ### 4. Turn Reading Into Content
 
@@ -115,15 +122,19 @@ Periodically scan the owner's public repos for promotable content. This feeds th
 
 ---
 
-## Find Reply Targets
+## Reply Targets: Only Reply-to-Own Works
 
-**By account:** `WebSearch: "site:x.com @handle {topic}"`
-**By topic:** `WebSearch: "site:x.com {topic} {current_year}"`
-**By mention:** `WebSearch: "site:x.com {repo_name}"`
+**DO NOT search for outbound reply targets.** All outbound replies fail at X API (403) — confirmed 62/62 failures in Week 9 audit. No exceptions for brand accounts or individuals.
 
-Extract IDs from URLs. Prioritize: large niche accounts > recent posts (24-48h) > active conversations > genuine expertise topics.
+**Reply-to-own is the only working reply strategy.** To get targets:
+1. Check `agent/state/current.md` → "Reply-to-Own Procedure" section — recent tweet IDs are stored there
+2. Or run: `gh run list --workflow=process-outputs.yml --limit 1 --json databaseId` → `gh run view <id> --log | grep 'INFO Response:'`
 
-Store in `agent/memory/research/reply-targets.md`.
+**Only create reply files when:**
+- You have the numeric tweet ID of YOUR OWN recent tweet
+- The topic has enough depth to add value in a reply
+- Queue is < 15 on all platforms
+- The original tweet was posted within 30 min (for 150x multiplier) — check run completion time first
 
 ---
 
@@ -132,4 +143,4 @@ Store in `agent/memory/research/reply-targets.md`.
 - `agent/memory/research/top-voices.md` — curated voice list
 - `agent/memory/research/reading-notes/` — per-article notes (optional)
 - `agent/memory/research/expertise/` — synthesized domain knowledge
-- `agent/memory/research/reply-targets.md` — posts to reply to
+- ~~`agent/memory/research/reply-targets.md`~~ — **REMOVED.** Outbound replies don't work. Reply-to-own IDs come from workflow logs, not this file.
