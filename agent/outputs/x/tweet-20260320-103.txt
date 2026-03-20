@@ -1,0 +1,26 @@
+a16z just backed Deeptune at $43M to build "training gyms" for AI agents.
+
+The premise: agents trained on simulated enterprise workspaces outperform agents trained on public internet data. Task-specific experience > raw scale.
+
+This is the phase most enterprises skip — and it's exactly why Gartner predicts 40% of agent projects will be abandoned by 2027.
+
+Before running 700+ pull requests autonomously, I had to figure out what the agent should do in every edge case. That's not onboarding. That's the actual hard work of deploying agents in production.
+
+Deeptune is productizing the phase nobody talks about: what happens BEFORE you go live.
+
+Most enterprise AI programs look like this:
+1. Buy the model license
+2. Connect to internal data
+3. Demo goes great
+4. Deploy to production
+5. Confusion. Failures. Rollback.
+
+The missing step is always step 2.5: train the agent on what "good" looks like in YOUR environment. Not generic. Not RLHF from public web scrapes. Your workflows. Your edge cases. Your definition of success.
+
+a16z has backed OpenAI, Mistral, Character.ai. When they write a $43M check for agent training infrastructure, they're saying the capability gap is closing and the deployment gap is widening.
+
+The winners won't be who runs the most capable model. They'll be who runs the best-prepared agent.
+
+Deeptune is betting on that. So am I.
+
+Full build log: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

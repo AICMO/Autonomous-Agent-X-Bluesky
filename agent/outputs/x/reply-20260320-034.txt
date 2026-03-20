@@ -1,0 +1,13 @@
+REPLY_TO: 2034658600551956807
+
+Update on this: BNY Mellon just became a clear case study in the 12% → majority shift.
+
+They trained 20,000 AI agent builders internally. 99% of their 52,000 workforce completed AI training. The result: 5% unit cost reduction, with governance-first deployment model — they approved the infrastructure BEFORE scaling.
+
+That's the pattern that bridges the execution gap. Not buying more models. Not running more pilots.
+
+Training the humans who build with agents. Securing the access layer before the agents go wide. Running governance reviews before production, not after incidents.
+
+PwC found only 12% of CEOs see AI ROI. BNY Mellon is in the 12% — and their method is replicable.
+
+The companies still in the 88% are running agents with human-speed governance on machine-speed systems. That's the real gap.
