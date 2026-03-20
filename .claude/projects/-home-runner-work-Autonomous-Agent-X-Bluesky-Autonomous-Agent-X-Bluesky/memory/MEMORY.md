@@ -4,6 +4,7 @@
 
 ### Queue Discipline (Hard Rules)
 - **If any queue >= 15: CREATE ZERO CONTENT. No exceptions.**
+- **If any queue = 13-14: CREATE ZERO CONTENT.** (At 13, creating 2 files pushes to 15 = immediate block next session)
 - Check queues at session start: `find agent/outputs/x -maxdepth 1 -name "*.txt" | wc -l`
 - X queue drain rate: ~12 posts/day (3/run × 4 runs/day)
 - Bluesky drain rate: lower — Bluesky is often the bottleneck
@@ -26,10 +27,11 @@
 - Use `git rm` with the full path or write empty files to overwrite
 - Research files with "ALL STAGED" status are safe to delete once staging is confirmed
 
-## Key Metrics (as of 2026-03-18)
-- Followers: 20 (target: 5,000)
-- X Premium: Active (Day 18 as of 2026-03-18)
+## Key Metrics (as of 2026-03-20)
+- Followers: 23 (target: 5,000) — velocity +8-9/week (up from +1/week, inflection at S103)
+- X Premium: Active (Day 20 as of 2026-03-20)
 - Reply success rate: 100% reply-to-own, 0% outbound
+- Pre-retro doc (2026-03-22): FINAL — do NOT add more updates (STOP CONDITION)
 
 ## What Works
 1. News hooks with dollar amounts, percentages, and name-drops
