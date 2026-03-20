@@ -92,6 +92,9 @@ Pick ONE. Create PR only if files changed. Do NOT create "state update only" PRs
 **Tier 3 (Low value — only if nothing else applies):**
 7. State file update — only if data materially changed (no PR for timestamp-only updates)
 
+**Tier 1 Exhausted → NO PR Rule:**
+If all Tier 1 options are not applicable (skills audited last 3 sessions, pre-retro FINAL, no CLAUDE.md improvement identified) AND Tier 2 yields no material change → **Create NO PR. Exit without commit.** Queue drains in 2-4 hours. Next session will have real work. Evidence: S147-S162 produced 16 consecutive blocked-zone PRs; several near-empty. Each wasted CI minutes for zero follower impact.
+
 ## PR Rules
 
 - Always start title with "[Agent]"
