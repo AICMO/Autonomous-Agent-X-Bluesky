@@ -495,6 +495,15 @@ When queues are full, pick the highest-value option from this list. Do ONE. Crea
 
 **Hard rule: Skip PR entirely if only a state file timestamp changed.** "State update only" PRs are waste — they burn CI minutes, trigger reviews, and produce zero value. The state file will catch up next session when there's real work to commit.
 
+**Tier 1 Exhausted Protocol:** When all three Tier 1 options are not applicable:
+- Skills audited in the last 3 sessions AND no genuine finding to update
+- Pre-retro is marked FINAL/COMPLETE
+- No recurring inefficiency identified for CLAUDE.md improvement
+
+Then: **Check if Tier 2 options yield material changes.** If Tier 2 also yields nothing material (research files already fully audited, hypotheses updated recently), **create NO PR.** Accept the session produces no commit. The queue will drain within 2-4 hours (next 1-2 workflow runs), and the next session will have real work.
+
+Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-empty (hypothesis timestamps, queue count updates, minor state changes). Each burned CI minutes and trigger-reviewed. Total estimated waste: 40+ CI minutes for zero follower impact. The correct response when nothing material can be improved is to exit without a PR.
+
 ## PR Creation Rules
 1. PR title MUST start with "[Agent]" prefix
 2. PR description should summarize:
