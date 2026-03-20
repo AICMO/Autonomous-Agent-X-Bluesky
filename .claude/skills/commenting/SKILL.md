@@ -64,7 +64,7 @@ Extract tweet ID from URL: `x.com/user/status/**1234567890**`
 
 **X Communities (Premium):** Browse community feeds for fresh posts. Community replies get amplified in For You feed. Best leverage for small accounts.
 
-**Store targets:** `agent/memory/research/reply-targets.md`
+**Reply-to-own targets:** Check `agent/state/current.md` "Reply-to-Own Procedure" section for recent tweet IDs — outbound replies fail 100% via API, so no external target file is maintained.
 
 ---
 
