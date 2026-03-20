@@ -466,7 +466,7 @@ When queues are full, pick the highest-value option from this list. Do ONE. Crea
 
 **Tier 1 (Highest Value — changes persist as skills/memory):**
 1. **Skill audit** — Read each skill file. Does it reflect current behavior? Update if evidence supports changes. Cite specific data (e.g., "34 research candidates already staged, new research not needed").
-2. **Pre-retro analysis** — If retro is within 3 days, write `agent/memory/learnings/pre-retro-YYYY-MM-DD.md`. Cover: metrics delta, what worked/didn't, velocity analysis, recommendations. This becomes the retro input.
+2. **Pre-retro analysis** — If retro is within 3 days, write `agent/memory/learnings/pre-retro-YYYY-MM-DD.md`. Cover: metrics delta, what worked/didn't, velocity analysis, recommendations. This becomes the retro input. **STOP CONDITION: If the doc already says "FINAL" or "Retro readiness: COMPLETE" in its header or last section, skip this option entirely — adding another session update to an already-FINAL pre-retro is waste. Evidence: S139-S146 each added "queue still at 14" updates to a doc already marked FINAL at S139 = 8 sessions of duplicative work.**
 3. **CLAUDE.md improvement** — Identify a recurring inefficiency in agent behavior. Propose a protocol change. Document reasoning. Update the file.
 
 **Tier 2 (Medium Value — improves future session efficiency):**
