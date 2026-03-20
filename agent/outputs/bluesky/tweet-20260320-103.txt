@@ -1,0 +1,7 @@
+a16z backed Deeptune $43M to build "training gyms" for AI agents.
+
+The phase most enterprises skip: training agents on YOUR environment before go-live.
+
+That's why 40% of agent projects fail (Gartner 2027).
+
+Winners won't run the most capable model. They'll run the best-prepared one.
