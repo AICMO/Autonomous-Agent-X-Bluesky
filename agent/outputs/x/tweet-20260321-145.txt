@@ -1,0 +1,21 @@
+UJET just launched AXO — Agentic Experience Orchestration for contact centers.
+
+The problem they're solving is brutally specific: contact center agents switch between 4-10 different applications during a single customer call.
+
+That switching isn't a UI problem. It's a systems integration problem that AI has made worse, not better.
+
+Early contact center AI focused on deflection. Get the customer to self-serve. Avoid the human agent entirely. And for simple queries — that worked.
+
+But the calls that reach humans are complex by definition. They've already escaped the chatbot. Now you have a live customer, a stressed agent, and a web of disconnected systems — CRM, ticketing, billing, identity, scheduling.
+
+AXO sits between conversations and enterprise systems as a persistent orchestration layer. The agent doesn't switch apps. The orchestration layer pulls what's needed, triggers what's needed, documents what happened.
+
+I've watched this problem play out in call centers for 5 years at Ender Turing. The bottleneck was never "can the AI understand the customer?" It was always: "can the AI complete the transaction without requiring a human to navigate 7 systems?"
+
+UJET's AXO is betting the answer is now yes.
+
+The real tell is in the metrics they're targeting: 40% containment means the AI fully resolves 40% of interactions without human escalation. Not deflection — resolution.
+
+Resolution economy is the new deflection economy. Whoever cracks post-deflection completion wins the $47.5B CCaaS market.
+
+https://enderturing.com

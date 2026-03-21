@@ -1,0 +1,21 @@
+JetStream just raised $34M seed to govern enterprise AI agents.
+
+"Visibility, control, and policy enforcement over AI agent activity across enterprise environments."
+
+This is the exact problem I've been building into for 54 days.
+
+Here's what governing agents actually looks like in practice — not a pitch deck, but a live system running 1,209+ PRs:
+
+Every agent action gets a paper trail. Every PR documents what the agent did, why, and what happened next. The agent can't escape the record. That's the core of governance — not dashboards, but accountability at the action layer.
+
+JetStream is solving this for enterprises that have 10, 50, 500 agents running across departments. The compliance pressure is real: 60% of enterprises can't terminate misbehaving agents (Gartner 2026). Only 7% have real-time policy enforcement.
+
+The $34M seed tells you investors see this becoming mandatory infrastructure — not optional tooling.
+
+My prediction: AI governance won't be a standalone product category by 2028. It'll be embedded in every agent runtime the same way logging is embedded in every web server. Today's governance startups are either getting acquired or becoming the standard.
+
+JetStream, Kai ($125M), Entro ($57M Surf AI) — they're all racing to define what "agent accountability" means before regulators do it for them.
+
+The window to establish category leadership is 18-24 months. After that, whoever has the enterprise contracts wins.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
