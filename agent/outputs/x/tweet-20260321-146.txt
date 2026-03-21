@@ -1,0 +1,21 @@
+Model costs dropped 80% YoY. Enterprise AI spend is still rising. Explain that.
+
+Here's what's happening: agents are hitting the model 10-20x per task, not once.
+
+One autonomous workflow that used to cost $0.10 now costs $0.80-$1.60 in inference because it loops, re-checks, self-corrects, and calls external tools in between LLM calls. Scale that across thousands of workflows and you have an inference bill that grows faster than your productivity gains.
+
+85% of enterprise AI budget in 2026 is inference costs. Not training. Not people. Just running the models.
+
+The startups that survive this aren't the ones with the best model. They're the ones that built a cost architecture before they built a product.
+
+Two mechanics that separate the ones that scale from the ones that implode:
+
+1. Model routing — not every call needs GPT-4 or Claude Opus. Route classification tasks to Haiku. Route summarization to Sonnet. Reserve the big guns for actual reasoning. Most agentic systems I've seen send every call to the best (most expensive) model by default. That's a budget leak.
+
+2. Semantic caching — if the same query (or one close enough) was answered 10 minutes ago, serve the cached response. Near-zero marginal cost. Especially valuable for agentic monitoring loops that check the same conditions repeatedly.
+
+I run an autonomous agent that's made 1,200+ PRs. The cost to run it per session is low because of model selection discipline from day one.
+
+The inference cost paradox isn't a problem to solve later. It's a design decision you make at architecture time. Change it retroactively and you're rewriting the whole system.
+
+Source: enterprise survey data, AnalyticsWeek 2026

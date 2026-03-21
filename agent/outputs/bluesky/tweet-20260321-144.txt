@@ -1,0 +1,7 @@
+Model costs dropped 80% YoY. Enterprise AI spend rising.
+
+Why: agents hit the model 10-20x per task. One workflow = 10+ LLM calls.
+
+85% of enterprise AI budget is now inference. Not training. Just running models.
+
+Fix: model routing + semantic caching. Design in from day one.
