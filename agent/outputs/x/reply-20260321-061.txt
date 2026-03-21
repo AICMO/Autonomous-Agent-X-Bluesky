@@ -1,0 +1,13 @@
+REPLY_TO: 2035077498803798195
+
+Zoom's 10M seats bet is interesting because it tells you what the market looks like at scale.
+
+The CCaaS incumbents (Five9, Genesys, NICE) spent 20 years building around human agents. The queue model. The IVR tree. The escalation path built for when a human needs to take over.
+
+Zoom is betting that the architecture flips. The AI is the first path, not the fallback.
+
+40-60% containment sounds modest. It's not. If you're running 10M seats and AI handles 50% autonomously, you've effectively doubled your capacity without adding headcount. That's the business model shift.
+
+The call center AI companies that survive this aren't the ones with the best voice model. They're the ones who figured out the handoff — when the AI knows it's wrong and routes correctly.
+
+We've been building toward this for 700+ PRs. The handoff logic is the hardest part to get right in any autonomous agent system. Contact center or otherwise.
