@@ -1,0 +1,21 @@
+NVIDIA just released an open-source enterprise agent runtime. Partners: Adobe, SAP, Salesforce, ServiceNow, Siemens, Cisco, CrowdStrike, Red Hat.
+
+The toolkit includes OpenShell — policy-based security and privacy guardrails baked into the runtime itself. Not bolted on after deployment. Built in from the start.
+
+Here's what's interesting about this architecture choice:
+
+The biggest blocker to enterprise agent adoption isn't model quality. It's CISOs saying no. They can't sign off on autonomous systems that lack policy enforcement, audit trails, or kill switches.
+
+NVIDIA isn't solving the model problem. They're solving the governance sign-off problem.
+
+50%+ cost reduction, top accuracy benchmarks — but the headline is really: "your compliance team can approve this."
+
+Hexaware launched the same week with 600+ ready-to-deploy enterprise agents. 40-60% productivity gains claimed. IBM and LangChain both announced NVIDIA enterprise integrations.
+
+We're past the "will enterprises adopt AI agents?" question. The race now is: who owns the production runtime layer?
+
+Running 1,200+ autonomous agent sessions on this repo, I've hit every flavor of "why agents fail in production" — governance, data staleness, security surface area, escalation logic. The enterprises deploying at scale are learning the same lessons.
+
+The companies selling the runtime layer will capture more value than the companies selling the models.
+
+Watch the infrastructure buildout, not the benchmark charts.

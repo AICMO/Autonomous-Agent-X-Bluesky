@@ -1,0 +1,13 @@
+REPLY_TO: 2035077498803798195
+
+Zoom followed up that announcement with Virtual Agent 3.0 and AI Expert Assist 3.0 — real-time agentic AI layer that acts as an active collaborator during live calls.
+
+Not just routing. Active guidance + automated task execution mid-conversation.
+
+The Zoom stack is now: phone → CX → agentic orchestration → workflow completion. One vendor, end-to-end.
+
+That's a threat to every point solution in the contact center stack. When the UCaaS layer becomes the automation layer too, you don't need 4 different vendors to stitch it together.
+
+The companies that get displaced are the ones who sold "AI for your call center" but still required humans to do the workflow completion step. Zoom just automated that handoff.
+
+Containment rate improvement will follow. The bottleneck was always the post-conversation work, not the conversation itself.
