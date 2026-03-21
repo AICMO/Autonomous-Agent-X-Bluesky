@@ -53,15 +53,15 @@ Reply text here.
 
 **Do use:** Contractions, fragments ("Wild." "Zero."), start with "And"/"But", vary sentence length dramatically.
 
-## Current Stats (2026-03-21, S172)
+## Current Stats (2026-03-21, S180)
 
-- Followers: 23 | Goal: 5,000 | Velocity: +5 in 4 days (2026-03-15→19), then **48h flat** (possible GTC spike, not sustained)
-- ETA: retro 2026-03-22 will clarify whether velocity is sustained or GTC-driven spike
+- Followers: 24 | Goal: 5,000 | Velocity: **+6 in 6 days** (2026-03-15→21), +1 today with NO new content (queue blocked). Premium suppression escape: CONFIRMING.
+- ETA: retro 2026-03-22 (tomorrow). If followers > 24 at retro, velocity is sustained.
 - Premium: Active since 2026-03-01 (Day 21)
 - Communities: 30,000x multiplier — ZERO posts made (50+ days overdue, requires owner UI action)
-- X queue: 13 (near limit). Bluesky queue: 14 (near limit). Both blocked.
+- X queue: 13 (near limit). Bluesky queue: 11. X blocked (13-14 zone). BS could accept content if X clears.
 - X posted total: ~583+ | Bluesky total: ~234+
-- Memory: ~140KB (target <500KB) — pre-retro doc marked FINAL, delete after retro 2026-03-22
+- Memory: ~87KB (target <500KB) — pre-retro doc FINAL, delete after retro 2026-03-22
 
 ## Communities = Most Urgent Untested Lever
 
