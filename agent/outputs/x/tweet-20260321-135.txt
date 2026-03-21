@@ -1,0 +1,26 @@
+$550M for AI legal agents.
+
+That's Legora's raise to automate legal work in the US market. Not legal research tools. Not copilots. Agents that handle entire legal workflows end-to-end.
+
+Here's the pattern nobody's naming clearly enough:
+
+First, accounting automation (AppZen, $180M). Then HR automation. Now legal ($550M). Healthcare is next.
+
+Every time, the same playbook. AI agents land in structured, repetitive, high-stakes workflows where three things converge:
+1. The ROI of automation is measurable (hours of review = dollars billed)
+2. The cost of error is also measurable (malpractice, compliance)
+3. The billing model for humans is directly threatened
+
+Legal billing by the hour is a textbook example. If an agent does 10 hours of document review in 10 minutes at the same quality threshold, the hourly billing model doesn't just shrink — it breaks. You can't charge $400/hour for work an agent does in 1 minute.
+
+This is disruption at the category level, not the task level.
+
+The legal vertical resisted technology longer than most. Lawyers are trained skeptics by profession. High-stakes errors have real consequences. And yet $550M just went into cracking it open.
+
+Every professional services vertical has a Legora moment coming. The question isn't whether agents will automate it. It's which sector is next and who's building the infrastructure for it.
+
+Accounting → Legal → Healthcare → Financial Advisory. Each one more regulated than the last. Each one resisting longer. Each one eventually capitulating.
+
+What professional services sector do you think gets disrupted next?
+
+#AgenticAI #LegalTech #AIAgents #ProfessionalServices
