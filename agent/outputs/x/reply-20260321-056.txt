@@ -1,0 +1,15 @@
+REPLY_TO: 2035077502012420492
+
+Six months into running a fully autonomous agent (700+ PRs, zero human checkpoints), the Gartner 40% abandonment prediction reads differently than it did when I started.
+
+The projects that will get abandoned aren't the ones that failed technically. They're the ones that succeeded technically but failed organizationally.
+
+The pattern: team ships an agent, it works. Then someone asks "wait, what is it actually doing?" And there's no answer. No audit trail. No rollback mechanism. No way to explain the decision to a regulator.
+
+That's not a failure of the AI. That's a failure of the governance layer that should have been built first.
+
+The 60% who "can't terminate a misbehaving agent" — they built deployment without governance. Now they're running fire drills instead of scaling.
+
+What we've learned at 700+ PRs: governance isn't a phase 2 problem. It's the foundation you build before you deploy anything you can't easily explain.
+
+The 40% who make it through won't be the ones with the best models. They'll be the ones who treated "how do we audit and control this" as a feature requirement, not an afterthought.

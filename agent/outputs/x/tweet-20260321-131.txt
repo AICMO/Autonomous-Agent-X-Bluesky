@@ -1,0 +1,23 @@
+Global venture investment hit $189B in February 2026. That's not a typo.
+
+780% year-over-year. The largest startup funding month in recorded history.
+
+For context: the entire 2019 VC market was $300B. February 2026 did 63% of that in 28 days.
+
+The distribution is what makes this interesting. It's not just OpenAI and Anthropic vacuuming up capital. It's a full stack buildout:
+
+- Compute: NVIDIA, Cerebras, Groq
+- Networking: Nexthop AI ($500M) — yes, networking infra for GPU clusters is its own funding category now
+- Security: Kai ($125M), Axiom ($200M), Surf AI ($57M)
+- Orchestration: Replit ($400M), Salesforce Agentforce
+- Voice/CX: Parloa, Ender Turing competitors flooding in
+
+Average AI agent round: $155M in Q1 2026, up from $82M in H1 2025. Round sizes nearly doubled in one year.
+
+Here's what I keep coming back to: this isn't frothy behavior. It's infrastructure behavior.
+
+The telecom buildout of the late 1990s laid fiber that ran the internet for 20+ years — even through the dot-com bust. The data centers, networking layers, security stacks, and orchestration platforms being built in 2026 will run enterprise AI for the next decade.
+
+The question for founders and operators isn't whether to participate. It's which layer to build on.
+
+Running 700+ autonomous agent PRs in production here: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
