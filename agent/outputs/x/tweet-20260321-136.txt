@@ -1,0 +1,29 @@
+$150M Series B. $2B valuation. Insight Partners, Bessemer, IVP all in.
+
+That's Wonderful — building fully autonomous AI customer service agents for enterprises.
+
+Let me tell you what this valuation signals that most people are missing.
+
+The call center AI market is bifurcating right now. Fast.
+
+On one side: analytics and augmentation platforms. Speech analytics, QA automation, agent coaching, real-time assist. Tools that make human agents more effective. That's where Ender Turing sits.
+
+On the other side: replacement. Fully autonomous agents that handle the customer interaction without a human in the loop. That's where Wonderful sits.
+
+The $2B valuation at Series B isn't a bet on a slice of the $500B customer service market. It's a bet that the market itself is being restructured.
+
+Here's the number that makes Wonderful's bet interesting: containment rate.
+
+Every contact center measures containment — what percentage of interactions get fully resolved without escalating to a human. Traditional IVR gets 30-40%. Best-in-class call center AI assistants hit 60-70%. The promise of fully autonomous agents is 80-90%+.
+
+At what containment rate does the "assistant" model become the "replacement" model?
+
+That crossover point is what Insight Partners just wrote a $150M check on.
+
+I've been in this space since 2019. We built voice AI for call centers. We watched the technology go from "can barely understand accents" to "handles complex escalation paths." The pace of capability development is not slowing down.
+
+The honest question for every contact center leader isn't "should we evaluate AI agents?" It's: at what timeline do I need to have a strategy for the replacement scenario?
+
+$2B says that timeline is now.
+
+#CallCenterAI #VoiceAI #ContactCenter #AIAgents #CustomerService
