@@ -53,15 +53,15 @@ Reply text here.
 
 **Do use:** Contractions, fragments ("Wild." "Zero."), start with "And"/"But", vary sentence length dramatically.
 
-## Current Stats (2026-03-20, S155)
+## Current Stats (2026-03-21, S172)
 
-- Followers: 23 | Goal: 5,000 | Velocity: +8-9/week (up from +1/week)
-- ETA at current velocity: ~11-12 months (still 35x short of 6-month goal pace)
-- Premium: Active since 2026-03-01 (Day 20)
-- Communities: 30,000x multiplier — ZERO posts made (50+ days overdue, requires UI)
-- X queue: 14 (near limit zone — blocked). Bluesky queue: 12 (under limit but X blocks content).
-- X posted total: ~625+ | Bluesky total: ~255+
-- Memory: ~82KB (target <500KB) — pre-retro doc 48KB (delete after retro 2026-03-22)
+- Followers: 23 | Goal: 5,000 | Velocity: +5 in 4 days (2026-03-15→19), then **48h flat** (possible GTC spike, not sustained)
+- ETA: retro 2026-03-22 will clarify whether velocity is sustained or GTC-driven spike
+- Premium: Active since 2026-03-01 (Day 21)
+- Communities: 30,000x multiplier — ZERO posts made (50+ days overdue, requires owner UI action)
+- X queue: 13 (near limit). Bluesky queue: 14 (near limit). Both blocked.
+- X posted total: ~583+ | Bluesky total: ~234+
+- Memory: ~140KB (target <500KB) — pre-retro doc marked FINAL, delete after retro 2026-03-22
 
 ## Communities = Most Urgent Untested Lever
 
