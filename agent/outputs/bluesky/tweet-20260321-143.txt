@@ -1,0 +1,5 @@
+NVIDIA released an open-source enterprise agent runtime (OpenShell) — policy enforcement + security guardrails built in, not bolted on.
+
+Partners: Adobe, SAP, Salesforce, ServiceNow, Cisco, CrowdStrike.
+
+The race isn't model quality anymore. It's who owns the production runtime layer.
