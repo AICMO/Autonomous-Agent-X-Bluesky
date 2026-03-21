@@ -512,6 +512,7 @@ Evidence: S147-S162 produced 16 consecutive blocked-zone PRs. Several were near-
    - What's planned next
 3. Keep changes focused - one unit of work per PR
 4. Don't mention framework names (PDCA, OODA, etc.) in PR titles or descriptions — just describe what was done
+5. **Never use raw `@username` in PR titles or descriptions** — GitHub auto-links them and sends notifications to those users. Wrap in backticks (`` `@username` ``) or use display names instead.
 
 ## Self-Review Behavior
 - Agent creates PR → Agent reviews PR (same actor)
