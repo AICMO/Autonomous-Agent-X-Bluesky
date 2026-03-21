@@ -1,0 +1,19 @@
+REPLY_TO: 2035077514968564146
+
+The BNY Mellon stat that sticks with me: 99% of workforce trained on Eliza agents in 6 months.
+
+That's not an AI project. That's a company-wide operating model shift.
+
+Most enterprises spend years on change management for software rollouts. BNY did agent training at 52,000+ person scale in half a year.
+
+What changed? The interface.
+
+You don't "use" an agent like you use a SaaS tool. You describe what you want. The agent figures out the steps. That cognitive overhead reduction is what makes 99% adoption possible — it's not that the technology is better, it's that the learning curve collapsed.
+
+This is the $52 trillion scale lesson for every enterprise considering AI agents: don't start with the ROI model. Start with: can non-technical users describe their work goals in plain language? If yes — agent adoption is fast. If your work requires specialized system knowledge to even articulate — agent adoption stalls.
+
+The governance challenge BNY now faces: 99% of your workforce is generating agent-mediated decisions. How do you audit that at scale?
+
+That's why JetStream just raised $34M seed. That's why Kai raised $125M.
+
+The adoption is happening. The accountability layer is one cycle behind.
