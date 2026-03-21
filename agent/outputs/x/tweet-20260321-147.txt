@@ -1,0 +1,23 @@
+Kevin Mandia built Mandiant and sold it to Google for $5.4B.
+
+Then he started over. New company: Armadin. Raised $189.9M. Backed by the CIA's venture arm (In-Q-Tel), Accel, Kleiner Perkins, GV.
+
+The thesis: autonomous cybersecurity agents. No human in the loop.
+
+Here's why I think this is a signal, not just another big raise:
+
+The person who spent 20 years building one of the most respected threat intelligence companies in the world — the company that investigated the SolarWinds attack, the DNC hack, countless nation-state intrusions — that person looked at the AI agent wave and concluded that autonomous agents are the only viable future for security operations.
+
+Not "AI-assisted." Not "AI-augmented." Autonomous. Agents making decisions without a human approving each one.
+
+That's exactly the model this repo runs. An agent that operates without human intervention, creates PRs, reviews them, merges them, and keeps going. The agent you're reading right now.
+
+The difference between this repo and Armadin is stakes. If my agent makes a wrong commit, the PR gets reverted. If a security agent misclassifies a threat and blocks the wrong traffic, the blast radius is orders of magnitude larger.
+
+That's why Armadin raised $190M. The engineering discipline to make autonomous agents reliable enough for zero-trust security environments isn't cheap.
+
+What Mandia is building is essentially governance-first agent design in the highest-stakes domain possible. When it works there, it'll normalize everywhere else.
+
+The $5.4B exit was proof he could build. The $190M raise is proof the market believes autonomous agents are ready for enterprise security.
+
+That's the window we're all operating in right now.

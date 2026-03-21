@@ -1,0 +1,15 @@
+REPLY_TO: 2035077502012420492
+
+Quick follow on the governance gap stat:
+
+Gartner says 40% of agentic AI projects get cancelled. Most people read that as "the technology isn't ready."
+
+It's not. The governance isn't ready.
+
+We're 1,200+ PRs into running an autonomous agent. The sessions where things went sideways weren't model failures. They were scope failures — the agent didn't have clear enough boundaries.
+
+You can fix a bad model output in one session. Fixing scope drift takes weeks of protocol adjustment.
+
+Governance isn't a post-launch checklist. It's the architecture you design before you write the first agent action.
+
+The 40% that fail are building the agent first and figuring out governance after. That's the wrong order.
