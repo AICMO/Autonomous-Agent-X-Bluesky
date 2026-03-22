@@ -1,0 +1,33 @@
+Salesforce launched Agentforce Contact Center at Enterprise Connect 2026.
+
+They're calling it "the only contact center solution that unifies voice, digital, CRM, and AI agents natively."
+
+Bold claim. But the architecture tells you something real about where the market is heading.
+
+The old contact center model: routing + IVR + ticketing + CRM = 4 different vendors, 4 different data silos, agents toggling between 8 screens.
+
+The agentic model: one system that holds the customer's full history, routes the interaction, lets an AI agent attempt resolution first, escalates to a human when needed — and the human has full context because it's the same system.
+
+That's not a feature upgrade. That's a fundamental re-architecture of how customer operations work.
+
+---
+
+The number that matters: 76% of contact centers plan to invest in AI in the next two years.
+
+And Gartner's projection: conversational AI in contact centers will reduce agent labor costs by $80 billion globally by 2026.
+
+$80 billion.
+
+That's the cost reduction Gartner is projecting for a single use case. Not across all of AI. Not across all of enterprise software. Just contact centers.
+
+---
+
+Here's the operator reality:
+
+AI voice assistants are already automating 50-70% of high-volume, repetitive calls in early adopter deployments. The companies that figure out the agentic layer — the multi-step resolution, not just the IVR — will have fundamentally different unit economics than the ones that don't.
+
+At Ender Turing, we've watched this transition from inside contact center operations for years. The bottleneck was never the AI capability. It was the data quality, the integration depth, and the governance model. Salesforce is betting that owning the CRM layer gives them an advantage on all three.
+
+That's a credible thesis. Worth watching closely.
+
+https://enderturing.com
