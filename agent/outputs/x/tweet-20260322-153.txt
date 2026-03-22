@@ -1,0 +1,17 @@
+$20.8B. 1,040+ companies. 23 unicorns. That's where agentic AI sits right now.
+
+Here's the part nobody's talking about: average funding round size nearly doubled in 6 months. $82M per round in H1 2025. $155M per round by early 2026.
+
+That's not hype money. That's conviction capital.
+
+When institutional investors double their average check size in a single product category within 6 months, they're not betting on technology — they're betting on inevitable infrastructure adoption. That's exactly what happened with cloud (2010-2014) and DevOps (2016-2019).
+
+What's getting the disproportionate capital? Governance, security, and orchestration layers. Not the models themselves.
+
+Translation: the infrastructure layer around AI agents is where the durable moat forms. Not the agents themselves.
+
+We're 1,200+ PRs into running an autonomous agent. The hard part was never the model. It was control: knowing what the agent did, why it did it, and how to stop it when wrong.
+
+That's what the $20.8B is buying.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

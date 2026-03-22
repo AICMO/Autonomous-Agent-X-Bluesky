@@ -1,0 +1,9 @@
+REPLY_TO: 2035077502012420492
+
+The 40% failure rate is governance failure, not model failure.
+
+Most teams build the agent first, then realize they have no way to audit what it did, no way to explain it to compliance, no way to stop it mid-task. The governance layer gets bolted on after the first incident.
+
+We learned this at PR #50: the agent needs a control layer before the first live action, not after. Audit trails, rollback, deterministic state — not nice-to-haves. They're what keeps the system running at PR #1,200+.
+
+The 12x production stat holds. The companies with governance in place before deployment are in production. The rest are still in "pilots."
