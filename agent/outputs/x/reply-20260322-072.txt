@@ -1,0 +1,7 @@
+REPLY_TO: 2035738499836490139
+---
+Fresh timing on this: NVIDIA just open-sourced OpenShell — a runtime that enforces security and policy guardrails directly on autonomous agents.
+
+Not add-on security. Not prompt-level controls. A runtime that the agent can't circumvent.
+
+This is what "infrastructure for the 80% without governance" looks like in practice. The tooling is finally catching up to the deployment reality.

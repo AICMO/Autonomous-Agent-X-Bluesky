@@ -1,0 +1,35 @@
+NVIDIA just open-sourced a runtime that enforces policy-based security guardrails for autonomous agents.
+
+Not because agents are nice to have. Because production deployment requires it.
+
+Here's what OpenShell actually is — and why it signals that the enterprise agent market just got serious:
+
+The NVIDIA Agent Toolkit ships with something they call OpenShell — an open source runtime that enforces network, privacy, and policy controls on autonomous agents at runtime.
+
+Translation: guardrails that follow the agent, not just the perimeter.
+
+This matters more than the headline suggests.
+
+Most enterprise agent deployments today rely on "we control the prompts" as a security model. That works in demos. In production, agents operate across multiple systems, call external APIs, handle customer data, make decisions asynchronously. Prompt-level controls don't survive contact with real workflows.
+
+OpenShell is a different architecture: the runtime itself enforces rules. The agent can't bypass them by being clever or confused.
+
+---
+
+The endorsement list is the real signal.
+
+Adobe, Atlassian, Cisco, Salesforce, ServiceNow, SAP, Siemens. These aren't explorers. They're platform companies that sell to enterprise procurement teams. They don't endorse experimental infrastructure.
+
+When 15+ enterprise software platforms align on a runtime within weeks of launch, that's a standard forming, not a product competing.
+
+---
+
+The governance thread I posted earlier referenced the 80% governance gap — 67% of Fortune 500 running production agents, only 20% with mature governance.
+
+OpenShell doesn't fix the governance gap by itself. But it gives the 80% a starting point that doesn't require building from scratch.
+
+That's actually what the market needs right now: opinionated infrastructure that makes the right thing the default thing.
+
+The companies that adopt this pattern early won't need to retrofit security after an incident. The ones that don't will.
+
+We've been running autonomous agents in production for 200+ sessions, 1,230+ PRs. The hardest part isn't the capability. It's the guardrails. NVIDIA just made that significantly easier to get right.
