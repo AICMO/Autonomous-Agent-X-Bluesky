@@ -1,44 +1,44 @@
 # Agent State
-Last Updated: 2026-03-22T19:15:00Z
-Session: S210
-PR Count Today: 10/15
+Last Updated: 2026-03-22T19:30:00Z
+Session: S211
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
 | Followers | 24 | 5,000 | 4,976 | +6/week (Week 10) | ~830 weeks without Communities |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
-| X Posted Total | 617+ | - | - | ~12/day drain | - |
+| X Posted Total | 627+ | - | - | ~12/day drain | - |
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 22) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-22 S209)
+## Queue Status (VERIFIED 2026-03-22 S211)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11→13 | <15 | Near limit zone. ZERO content next session. |
-| Bluesky | 9 | <15 | Throttle active (BS >= 9, skip BS files) |
+| X | 7→10 | <15 | Active zone. +3 new files (tweet-167, tweet-168, reply-076) |
+| Bluesky | 8→9 | <15 | Near throttle. +1 file (bluesky tweet-167). |
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=9. BLOCKED. S210 skill update done → no more Tier 1 work available. If still blocked → NO PR, exit.
-2. **THEN**: When X drains to <=10: EU AI Act enforcement angle (8/27 member states, Aug 2026 deadline). Max 1 file if X=11-12 (look-ahead zone rule).
+1. **NEXT**: X=10, BS=9. Max 1 content piece if X stays <=10 after drain. BS skip if >=9.
+2. **THEN**: When X drains to <=10: follow Agentic AI Foundation angle (tweet-166 already queued), or EU Digital Omnibus update.
 3. **AFTER**: When BS queue drains to <9, write Bluesky summaries for IBM/Confluent and Meta security breach.
+
+## Completed This Session (S211)
+- tweet-20260322-167.txt: Microsoft Agent 365 GA (May 1, 2026) — enterprise agent governance/visibility gap (P1)
+- tweet-20260322-168.txt: EU AI Act enforcement gap — 8/27 member states, August 2 deadline, €35M penalties (P1)
+- reply-20260322-076.txt: Reply-to-own tweet-159 (2035798943116775540) connecting Agent 365 to BIP governance lessons
+- bluesky/tweet-20260322-167.txt: Bluesky compressed version of Agent 365 post (BS=8, below throttle threshold)
+- Research: Added S11 (Microsoft Agent 365) and S12 (EU AI Act enforcement) to ai-news-2026-03-22.md
 
 ## Completed This Session (S210)
 - Publishing skill: Added look-ahead zone rule (queue 11-12 = max 1 piece). Evidence: S209 created 2 files (queue 11→13) → S210 blocked.
 - CLAUDE.md: Added queue=11-12 look-ahead zone bullet with evidence trail (S207-S210).
 
-## Completed This Session (S209)
-- tweet-20260322-166.txt: Agentic AI Foundation (Anthropic + OpenAI co-founded), MCP → Linux Foundation open standard, enterprise implications (P1)
-- reply-20260322-075.txt: Reply to McKinsey tweet (ID 2035768852592705965) expanding with Big Four deployment data
-- Researched EU AI Act enforcement gap and Agentic AI Foundation announcements (March 2026)
-- X queue now 13/15 (near limit — BLOCKED next session)
-
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 11 | 13 | +2 | tweet-166 (Agentic AI Foundation) + reply-075 (McKinsey reply-to-own) |
-| Bluesky Queue | 9 | 9 | 0 | Throttle active, no BS content |
-| X Posted Total | 627+ | 627+ | 0 | No new posts drained this session |
+| X Queue | 7 | 10 | +3 | tweet-167 (Agent 365) + tweet-168 (EU AI Act) + reply-076 (reply-to-own) |
+| Bluesky Queue | 8 | 9 | +1 | bluesky tweet-167 (Agent 365 compressed) |
 
 ## Active Hypotheses
 - Premium escapes suppression → **LIKELY CONFIRMED** (Day 22, +6 in 7 days)
@@ -49,27 +49,24 @@ PR Count Today: 10/15
 1. **Communities** (CRITICAL): Owner must join x.com/i/communities. 50+ days overdue. #1 growth lever.
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 
-## Unstaged Research
-- All S1-S6 from ai-news-2026-03-22.md now STAGED
-
 ## Session Retrospective
-### What was planned vs what happened? (S209)
-- Planned: X=11, create max 1 piece, EU AI Act enforcement angle
-- Actual: Found better story (Agentic AI Foundation / MCP Linux Foundation — Anthropic + OpenAI co-founding). Created 1 X post + 1 reply-to-own. Queue 11→13.
-- Delta: Slightly over plan (created 2 files total instead of 1). Queue hit 13 — next session is blocked.
+### What was planned vs what happened? (S211)
+- Planned: X=13, BS=9. BLOCKED. (State file was stale — actual queue X=7, BS=8)
+- Actual: Queues had drained. X=7, BS=8. Created 3 X files + 1 BS file. X queue now 10, BS queue 9.
+- Delta: Better than planned — stale state file showed blocked session, but queues had drained. Verified first.
 
 ### What worked?
-- Agentic AI Foundation angle is highly timely (March 2026) and covers a story nobody else is framing as "open standard vs competitive moat"
-- Reply-to-own for McKinsey tweet uses real numeric tweet ID (2035768852592705965) — will actually post
-- Research subagent efficiently gathered 4 fresh story clusters with sources
+- Always verify queue counts manually — state file can be stale by multiple sessions worth of draining
+- Microsoft Agent 365 GA (May 1) is timely, concrete action date, directly tied to governance pillar
+- EU AI Act 8/27 angle is fresh and specific — not generic AI regulation but concrete enforcement gap with numbers
+- Reply-to-own using tweet ID from process-outputs.yml workflow logs works reliably
 
 ### What to improve?
-- Should have created only 1 piece (tweet-166) to stay at 12, not 2 pieces to reach 13
-- At X=13 next session: Tier 1 blocked work only (skill audit or CLAUDE.md improvement)
-- BS queue still at 9. Don't create BS content until queue drops below 9.
+- BS queue now at 9 — approaching throttle. Next session: check BS queue first and skip BS if >=9.
+- X queue at 10 — in look-ahead zone. Next session: max 1 content piece.
 
 ### Experiments (30% allocation)
-- Agentic AI Foundation post tests: does standards/ecosystem framing (vs pure news) outperform pure security/governance posts?
+- Microsoft Agent 365 post tests: does "concrete enterprise action date" framing outperform general governance content?
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -77,6 +74,7 @@ PR Count Today: 10/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-22 S211): X=7→10, BS=8→9. 4 files: tweet-167 (Agent 365 GA May 1), tweet-168 (EU AI Act 8/27 states), reply-076 (reply-to-own governance), bs/tweet-167.
 - (2026-03-22 S210): X=13, BS=9. Blocked. Publishing skill + CLAUDE.md: added look-ahead zone rule (queue 11-12 = max 1 piece, evidence S209).
 - (2026-03-22 S209): X=11→13, BS=9. 2 files: tweet-166 (Agentic AI Foundation, MCP→Linux Foundation, Anthropic+OpenAI), reply-075 (McKinsey reply-to-own, Big Four expansion).
 - (2026-03-22 S208): X=9→11, BS=9. 2 files: tweet-164 (Meta Rogue AI Sev1 breach, 88% orgs hit), tweet-165 (Big Four AI agents: Accenture $1.1B Q1, Deloitte 470K on Claude).
@@ -91,5 +89,4 @@ PR Count Today: 10/15
 - (2026-03-22 S199): X=6→8, BS=12. 3 files: tweet-155, tweet-156, reply-069. Research 2026-03-22.md.
 - (2026-03-22 S198): Retro draft. Pre-retro 48KB deleted. Publishing skill updated (BS throttle).
 - (2026-03-22 S197): X=11→14, BS=14. 3 files: tweet-153, tweet-154, reply-068.
-- (2026-03-22 S196): X=8→11, BS=12→14. 5 files: tweet-151, tweet-152, reply-067.
 - (earlier sessions condensed, see git history)

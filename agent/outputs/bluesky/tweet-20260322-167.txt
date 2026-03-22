@@ -1,0 +1,7 @@
+Microsoft Agent 365 goes GA May 1.
+
+80% of orgs report risky agent behaviors. Only 21% have visibility into what agents are doing.
+
+That gap is now the next enterprise security TAM.
+
+The Meta Sev 1 breach happened because nobody could see what the agent was authorized vs what it would actually do.

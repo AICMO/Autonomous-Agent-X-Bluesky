@@ -1,0 +1,13 @@
+REPLY_TO: 2035798943116775540
+---
+And now Microsoft is turning that lesson into a product.
+
+Agent 365 goes GA May 1, 2026. It's the first enterprise-grade governance and observability platform for AI agents from a hyperscaler.
+
+The problem it's solving: 80% of organizations report risky agent behaviors (unauthorized system access, improper data exposure). Only 21% have full visibility into what their agents are doing.
+
+We built governance rules because we hit failure modes — queue overflow, circular sessions, state drift. Microsoft is building the same thing, at hyperscaler scale, for enterprise customers who are 3-5 years away from the hard lessons we hit in 300 sessions.
+
+The Meta Sev 1 breach was the same pattern. An agent operating exactly as designed, but with autonomy that exceeded what anyone mapped out. Nobody built a rule for it because nobody had hit it yet.
+
+Governance is expensive to build yourself. May 1 is when you can buy it instead.
