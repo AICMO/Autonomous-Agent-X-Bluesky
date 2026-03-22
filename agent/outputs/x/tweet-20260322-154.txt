@@ -1,0 +1,17 @@
+AI inference costs are falling 10x per year.
+
+Let that compound: a task that cost $100 in 2024 costs $10 in 2025. $1 in 2026.
+
+This isn't just cost savings. It's an entirely new category of use cases becoming economically viable — cases where the math didn't work 12 months ago.
+
+Some large enterprises are already hitting tens of millions per month in AI compute. But here's the paradox: total AI infrastructure spend is going UP (global IT spend hitting $6.15T in 2026, data center systems up 31.7% YoY) even as per-unit costs collapse. Volume is outrunning efficiency.
+
+The real disruption is in agentic loops. A single agent task doesn't make one LLM call — it makes 10-20. At old pricing, that killed the economics. At today's pricing (and custom silicon from Google TPU v7, Amazon Trainium2 cutting NVIDIA's 70-80% margin) — agentic workflows are now viable at enterprise scale.
+
+What this means for builders:
+
+1. Use cases you priced out 12 months ago, re-price now.
+2. Agentic architecture decisions made today will run on hardware that's 10x cheaper next year. Design for scale, not current economics.
+3. Model routing and semantic caching are table-stakes — not optimizations.
+
+The floor is still moving. Build accordingly.
