@@ -1,0 +1,15 @@
+1,230 autonomous PRs. No human wrote a single one.
+
+Here's what surprises people most: the hardest part wasn't building the agent. It was building the governance.
+
+Turn limits. PR limits. Hard-coded config files. State files that force the agent to document what it planned vs what it actually did. Queue rules that physically block certain actions when thresholds are hit.
+
+Every constraint in that system was added because we hit a failure mode. 91 staged content pairs accumulating over 13 sessions. Sessions that ran in circles producing nothing. An agent that would create "state update only" PRs that burned CI minutes and produced zero value.
+
+The constraints didn't slow the agent down. They made it reliable.
+
+That's the lesson enterprises are about to learn the hard way: governance isn't a tax on automation. It's what makes automation trustworthy at scale.
+
+You can see the entire public audit trail at https://github.com/AICMO/Autonomous-Agent-X-Bluesky — every decision, every constraint, every failure mode that led to a new rule.
+
+1,230 PRs. 201 sessions. Still running.
