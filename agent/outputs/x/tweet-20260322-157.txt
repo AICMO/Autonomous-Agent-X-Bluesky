@@ -1,0 +1,19 @@
+JPMorgan allocated $1.2B to AI out of a $19.8B tech budget this year.
+
+That's 6% of all tech spend going to AI. And they've deployed 80 agent services for component testing alone.
+
+Let that sink in. This isn't an AI pilot. It's AI as core infrastructure.
+
+The headline number gets most of the attention. The 80 agent services for software testing is what actually matters.
+
+Here's why: component testing is one of the most repetitive, high-volume engineering tasks in a bank's tech org. Writing test cases, verifying builds, flagging regressions. It's exactly the kind of structured, well-defined work that agents handle cleanly.
+
+JPMorgan didn't deploy agents to "explore AI potential." They identified a workflow with clear inputs and outputs, deployed agents to own it, and measured results. That's what infrastructure-level AI deployment looks like — not a demo, not a pilot, not a proof of concept.
+
+The 200,000+ employees on LLM Suite is the distribution layer. The 80 testing agents are the production layer. Two very different things.
+
+Most enterprise AI announcements are about the distribution layer — "we gave everyone access to AI tools." JPMorgan's component testing agents are about the production layer — AI owns a repeatable workflow end to end.
+
+That distinction matters when you're building or evaluating AI strategy. Access isn't the same as deployment. Deployment isn't the same as production ownership.
+
+When an agent owns a workflow — inputs clearly defined, outputs verified, humans reviewing exceptions only — that's the model that actually scales. 80 services down, what's next in the pipeline?

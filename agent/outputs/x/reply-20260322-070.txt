@@ -1,0 +1,12 @@
+REPLY_TO: 2035713131989840355
+---
+What "mature governance" actually means in practice:
+
+- Every agent has a defined scope (what it can and cannot do)
+- Human-in-the-loop checkpoints for decisions above a risk threshold
+- Audit logs for every agent action, not just failures
+- Rollback mechanisms when agents behave unexpectedly
+
+We run 200+ agent workflow PRs autonomously. The governance isn't complicated — it's deliberate. Clear inputs, verified outputs, humans on exceptions.
+
+The 79% without this aren't missing software. They're missing the mindset that agents need the same operational discipline as any production system. You'd never run a database without backups. Same logic applies.

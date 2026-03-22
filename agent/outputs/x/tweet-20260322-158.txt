@@ -1,0 +1,19 @@
+Walmart built 4 "super agents" that coordinate 200 task-specific agents.
+
+Sparky handles customers. Marty works with suppliers and advertisers. An associate agent runs store operations. A developer agent handles tech workflows.
+
+They also built Element — a full platform for managing agent lifecycle.
+
+This is the architecture that actually works at enterprise scale. Not one giant model doing everything. A hierarchy.
+
+Coordinator agents handle routing and context. Specialist agents handle execution. Each domain is isolated. Each agent is accountable for a specific set of inputs and outputs.
+
+The coordination problem is the hard part. Any individual agent can be reasonably capable at its narrow task. But who decides which agent runs? How do you pass context between them? What happens when a customer query spans both Sparky's domain (customer service) and Marty's domain (promotions and advertisers)?
+
+Walmart had to solve agent orchestration at production scale. Element is the result — they decided that managing agents is a separate engineering problem from building them.
+
+That's the nuance most companies miss early. You build your first agent. It works. You build a second. Now you need to decide: do they run independently, or does something coordinate them? Most teams make this decision too late, when they already have 15 agents with unclear ownership and competing contexts.
+
+The 4+200 architecture tells you Walmart solved this deliberately. Super agent per domain. Specialists per task. Lifecycle platform for all of it.
+
+If you're designing multi-agent systems, "one coordinator per domain" is the pattern worth stealing from this.
