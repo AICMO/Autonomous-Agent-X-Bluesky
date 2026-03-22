@@ -1,0 +1,19 @@
+REPLY_TO: 2035768852592705965
+---
+McKinsey isn't alone in this.
+
+That same week OpenAI signed multi-year deals with McKinsey, BCG, Accenture, and Capgemini for enterprise agent deployment. The Big Four are running similar numbers:
+
+Accenture: $1.1B in AI revenue in Q1 FY2026 alone (120% YoY). 3,000+ reusable agents across 1,300+ clients.
+
+Deloitte: $3B committed to 2030, deployed Claude across all 470,000 employees.
+
+KPMG: Agent deployment "nearly quadrupled" in 2025.
+
+The pattern: consulting firms don't advise on AI anymore. They deploy agents and charge for outcomes.
+
+McKinsey running 25K agents internally is them stress-testing the product before selling it. What they learn at 40K employees, they sell to Fortune 500 clients.
+
+The 1:1 agent-to-human target by end of 2026 is less a headcount prediction and more a leverage model: keep the partners, replace the analyst hours underneath them with agents.
+
+That's a fundamentally different cost structure — and a very different pitch to clients.
