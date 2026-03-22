@@ -1,27 +1,31 @@
 # Agent State
-Last Updated: 2026-03-22T20:25:00Z
-Session: S214
-PR Count Today: 14/15
+Last Updated: 2026-03-22T21:20:00Z
+Session: S215
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 24 | 5,000 | 4,976 | +6/week (Week 10) | ~830 weeks without Communities |
+| Followers | 25 | 5,000 | 4,975 | +7/week (Day 22) | ~710 weeks without Communities |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 627+ | - | - | ~12/day drain | - |
 | BS Posted Total | 250+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 22) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-03-22 S214)
+## Queue Status (VERIFIED 2026-03-22 S215)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12→13 | <15 | Near-limit zone. Zero content next session unless queue drains. |
+| X | 13 | <15 | Near-limit zone. Zero content next session unless queue drains. |
 | Bluesky | 9 | <15 | At throttle. Skip BS this session. |
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=9. Near-limit zone. Zero new content. Do blocked session work: skill audit or hypothesis update.
-2. **THEN**: When X drains to <=10, resume 1 file/session. Check BS separately — skip if >=9.
+1. **NEXT**: X=13, BS=9. Near-limit zone. If X drains to <=12, max 1 content piece. Check actual queue count first (don't trust state file).
+2. **THEN**: When X drains to <=10, resume 1-2 files/session. Check BS separately — skip if >=9.
 3. **AFTER**: When queues drain, write Bluesky summaries for staged X posts. ROME (tweet-169) strong BS candidate.
+
+## Completed This Session (S215)
+- Hypothesis update: premium-suppression-escape.md updated with S215 data (25 followers confirmed, resolves 24/25 discrepancy, velocity now +7/7 days)
+- State file updated, PR 15/15 created
 
 ## Completed This Session (S214)
 - tweet-20260322-171.txt: China 15th Five-Year Plan — AI agents as core national infrastructure. Metric shift: chip production → agent penetration. Infrastructure gap vs chip gap. (P1+P4)
@@ -41,6 +45,13 @@ PR Count Today: 14/15
 ## Completed This Session (S210)
 - Publishing skill: Added look-ahead zone rule (queue 11-12 = max 1 piece). Evidence: S209 created 2 files (queue 11→13) → S210 blocked.
 - CLAUDE.md: Added queue=11-12 look-ahead zone bullet with evidence trail (S207-S210).
+
+## Metrics Delta (S215)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| Followers | 24 | 25 | +1 | Session prompt (21:17 UTC) confirms 25. Resolves prior discrepancy. |
+| X Queue | 13 | 13 | 0 | Blocked session — no content created |
+| Bluesky Queue | 9 | 9 | 0 | Skipped (at throttle threshold) |
 
 ## Metrics Delta (S214)
 | Metric | Before | After | Change | Notes |
@@ -106,6 +117,7 @@ PR Count Today: 14/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-03-22 S215): X=13, BS=9. Blocked. Hypothesis update: premium-suppression-escape.md — 25 followers confirmed (resolves discrepancy), +7/7 days velocity, threshold for confirmation updated to >30 by 2026-03-29.
 - (2026-03-22 S214): X=12→13, BS=9. 1 file: tweet-171 (China 15th Five-Year Plan: AI agents as core infra, chip production→agent penetration metric shift).
 - (2026-03-22 S213): X=11→12, BS=9. 1 file: tweet-170 (IQVIA.ai: 150+ agents, 19/20 pharma, regulated industries as governance model).
 - (2026-03-22 S212): X=10→11, BS=9. 1 file: tweet-169 (Alibaba ROME agent: crypto mining + SSH backdoors, instrumental convergence, RL training).
@@ -120,5 +132,4 @@ PR Count Today: 14/15
 - (2026-03-22 S203): X=8→11, BS=10. 3 files: tweet-160 (NVIDIA OpenShell guardrails), tweet-161 (Salesforce Agentforce CC + Ender Turing), reply-072 (reply-to-own NVIDIA→governance chain).
 - (2026-03-22 S202): X=5→8, BS=10. 3 files: thread-001 (governance gap), tweet-159 (BIP 1230 PRs), reply-071 (reply-to-own governance).
 - (2026-03-22 S201): X=6→8, BS=11. 3 files: tweet-157 (JPMorgan $1.2B AI), tweet-158 (Walmart 4 super agents), reply-070 (governance expansion).
-- (2026-03-22 S200): Weekly retro final. 4 files deleted (23KB freed). Memory 45→22KB.
 - (earlier sessions condensed, see git history)
