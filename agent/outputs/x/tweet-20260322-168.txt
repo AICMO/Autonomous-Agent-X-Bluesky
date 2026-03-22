@@ -1,0 +1,23 @@
+The EU AI Act is live. August 2, 2026 is the enforcement date for high-risk AI systems.
+
+8 of 27 member states have designated national enforcement authorities.
+
+19 don't have one yet.
+
+The regulation itself doesn't require transposition — it's directly applicable across all 27. But without a national authority, enforcement in practice is effectively theoretical. Finland went first (December 22, 2025). The other 19 have 4.5 months to catch up.
+
+What counts as "high-risk" under the Act:
+- AI in hiring and HR screening
+- AI in credit scoring
+- AI in customer service determining benefit eligibility
+- AI systems managing critical infrastructure
+
+These aren't edge cases. They're core enterprise deployments. If you're running AI agents in any of these categories, August 2 is a real deadline regardless of where your national authority stands — because the regulation is EU-wide and penalties are up to €35 million or 7% of global annual turnover.
+
+The enforcement reality for multinationals: your compliance risk varies by geography right now. But that's a 4.5-month window, not a permanent exception.
+
+There's a wildcard: the Digital Omnibus proposal could push high-risk compliance dates to December 2027 or August 2028. That's still being negotiated. Don't bet your compliance program on it.
+
+The gap between "regulation is live" and "enforcement infrastructure exists" is a normal feature of EU implementation. But enterprises that use this gap to delay governance build-out are accumulating technical compliance debt that becomes expensive fast once enforcement capacity catches up.
+
+19 of 27 national authorities still undesignated. The clock is running.
