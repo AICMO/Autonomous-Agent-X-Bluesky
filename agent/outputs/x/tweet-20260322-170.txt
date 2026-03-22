@@ -1,0 +1,20 @@
+19 of the top 20 pharmaceutical companies are now running AI agents in production.
+
+Not pilot programs. Not "exploring AI." Production deployments.
+
+IQVIA just launched IQVIA.ai at NVIDIA GTC last week — 150+ agents already live across clinical, commercial, and pharmacovigilance workflows. The scale stat that stops me cold: clinical trial start-up typically takes 200 days and is heavily manual. Their orchestrator agent is designed specifically to compress that.
+
+Think about what that means for drug development economics:
+- 200-day manual process → agent-orchestrated acceleration
+- AI integrating prescribing patterns, patient dynamics, HCP behavior for field teams before every meeting
+- Pharmacovigilance agents detecting safety signals across multilingual global data
+
+The enterprise AI adoption curve is steeper than most realize. This isn't a software company or a bank or a consulting firm. This is regulated life sciences — one of the most compliance-heavy industries on earth — deploying autonomous agents at scale.
+
+If pharmaceutical companies with FDA oversight and €35M EU AI Act penalties on the line are committing to agent infrastructure, the governance and compliance argument for slowing down adoption has effectively collapsed. 19 of 20 pharma companies didn't wait for perfect safety guarantees. They built governance into the deployment.
+
+The pattern: regulated industries move slower to start, then move faster because they already have the compliance muscle. Finance learned this with algorithmic trading. Healthcare is learning it now with agents.
+
+The 67% of Fortune 500 with agents in production? That number is going to look small in 18 months.
+
+IQVIA filed 100+ AI patents. That's infrastructure positioning, not tool adoption.
