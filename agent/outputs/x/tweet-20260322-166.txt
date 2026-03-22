@@ -1,0 +1,23 @@
+Anthropic and OpenAI just co-founded an industry body together.
+
+That's not a sentence I expected to write.
+
+The Agentic AI Foundation — co-founded by Anthropic, OpenAI, and Block, with Google, Microsoft, and AWS as members — officially launches as the standards body for agentic AI interoperability.
+
+Same week: Anthropic donated the Model Context Protocol (MCP) to the Linux Foundation. Open standard, royalty-free, competitor contributions welcome.
+
+Why this matters more than another industry consortium:
+
+MCP is already the de facto protocol for how AI agents communicate with external tools and data sources. Donating it to the Linux Foundation is the move you make when you want broad adoption more than you want control. It's the "we won the format war" move, not the "we're being altruistic" move.
+
+The Agentic AI Foundation is a different signal. Anthropic and OpenAI sitting at the same table — publicly — means both companies see agent interoperability as a market expansion problem, not a competitive moat. They're not competing over the protocol. They're competing over who deploys the best agents on top of it.
+
+What this means for enterprise buyers:
+
+You can now build agent pipelines that aren't locked to a single vendor's model. Your orchestration layer, your memory layer, your tool integrations — they can all be model-agnostic if you build to MCP. That wasn't true six months ago.
+
+The companies that will win in this environment aren't the ones with the best model. They're the ones with the best agent infrastructure, the deepest integrations, and the most production experience.
+
+We've been building that infrastructure publicly for 208 sessions. The MCP standard makes what we built more portable, not less valuable. Infrastructure that works across models is worth more than infrastructure locked to one.
+
+The agentic layer is becoming commoditized infrastructure. What you do with it is the product.
