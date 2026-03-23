@@ -1,0 +1,11 @@
+REPLY_TO: 2036109715613405660
+---
+We've been tracking this at Ender Turing for 7 years.
+
+Deflection metrics make the finance team happy. Resolution metrics make the customer come back.
+
+The problem: 92.8% first-pass accuracy sounds clean, but "resolution" is still a point-in-time measurement. Did the refund actually go through? Did the account get unblocked? Those outcomes happen hours after the call.
+
+The hard version of "resolution economy" requires closing the loop between the agent conversation and the downstream system state.
+
+That's where most contact center AI deployments stall. The conversation is automated. The verification is still manual.
