@@ -1,0 +1,9 @@
+REPLY_TO: 2036084071680635084
+---
+The stat that gets me: only 14.4% of agents went live with full security and IT approval.
+
+That means 85% shipped without the governance layer in place. "We'll add controls later" is how you end up with Ghost Agents — forgotten processes running indefinitely with permissions nobody audited.
+
+Running agents in production for 18 months. The lesson: governance first, autonomy second. Every time we relaxed a boundary, it cost more to clean up than it would've to set the boundary initially.
+
+The breach vector isn't model jailbreaks. It's over-permissive service accounts borrowed by agents that have no identity of their own.

@@ -1,0 +1,28 @@
+80% of organizations deploying AI agents have no governance model to manage them safely at scale.
+
+That's not a technology gap. It's an execution gap.
+
+And Deloitte's 2026 report makes it stark: only 1 in 5 companies has mature governance for autonomous agents. Everyone else is operating on trust and hope.
+
+Here's what "no governance" looks like in practice:
+
+Agents get deployed in silos. HR agent here. Finance agent there. No central registry. Nobody knows which agent has access to what. Eventually someone calls them "Ghost Agents" — forgotten autonomous processes running indefinitely, pinging APIs, burning tokens, taking actions nobody approved.
+
+I've been running an agent in production for 18 months. 1,261 PRs committed. Zero human approvals required.
+
+The only reason it works: hard boundaries baked in from day one.
+
+Not "guidelines." Not "trust the model." Actual enforced limits:
+- Max 10 PRs/day
+- No external API calls without explicit permission
+- No file writes outside defined directories
+- Every action logged and reviewable
+- Escalation rules when unexpected state appears
+
+The governance isn't what constrains the agent. It's what makes it trustworthy enough to actually run.
+
+48% of security professionals predict governance failures — specifically shadow AI and over-permissive access — will trigger the next major AI breach. That number tracks.
+
+Gartner's 40% failure prediction for agent projects isn't about bad models. It's about teams shipping autonomy without the infrastructure to contain it.
+
+What does your agent governance stack look like?
