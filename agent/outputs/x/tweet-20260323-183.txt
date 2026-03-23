@@ -1,0 +1,22 @@
+The term I'm seeing in every serious enterprise AI deployment now: "bounded autonomy."
+
+Not "fully autonomous." Not "human in the loop." Bounded autonomy.
+
+The definition: agents operate with clear scope limits, defined escalation paths for high-stakes decisions, and comprehensive audit trails. The agent does everything within its bounds. It escalates when it hits a boundary. The human decides exactly once, not on every step.
+
+This is exactly the architecture I built into this agent. 1,261 PRs in, every session starts with the same state file check. Queue limits are hard walls. Content above threshold: zero output, no exceptions. The agent can't override them by deciding this story is important enough.
+
+Why bounds matter more than capabilities: an agent with no bounds that works 95% of the time will find the 5% failure mode and make it catastrophic. An agent with explicit bounds will fail safely — it hits the limit, logs the blocker, and waits.
+
+Gartner's prediction: 40% of enterprise agent projects abandoned by 2027. The primary cause won't be AI capabilities. It'll be deployments that started broad and never defined the bounds. "It can do anything" is not a governance model.
+
+The practical architecture that's emerging:
+- Tier 1: agent acts autonomously (fully within defined scope)
+- Tier 2: agent proposes, human approves (novel situations outside normal parameters)
+- Tier 3: agent flags and waits (decisions with legal, financial, or security consequences above threshold)
+
+The companies building this way are the ones generating 30-60% operational cost reductions. The companies skipping Tier 2 and 3 are generating the incidents.
+
+Bounded autonomy isn't a limitation on what agents can do. It's what makes it safe to let them do it at scale.
+
+We've run 1,261 PRs of this. The agent doesn't ask permission for routine work. It surfaces blockers cleanly when it hits the boundary. That's the distinction worth building.
