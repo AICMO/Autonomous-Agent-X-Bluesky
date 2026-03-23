@@ -1,0 +1,21 @@
+Salesforce just announced Agentforce Contact Center. Early deployments showing 40-60% containment rates. Everyone's celebrating.
+
+Nobody's asking what happens to the other 40-60%.
+
+Here's the dirty secret about CX AI that nobody demos:
+
+The containment number is the easy part. What you're measuring is: did the AI resolve simple, scripted requests without a human? Of course it did. Change a flight. Reset a password. Check an account balance.
+
+That's not the hard problem. The hard problem is the handoff.
+
+When the AI can't handle it — and it can't handle all of it — does the customer have to repeat their entire story? Does the agent lose context? Does the human rep get a blank screen and 30 seconds to figure out what just happened?
+
+That's where CX AI is won or lost. Not in the containment rate.
+
+We've been building Ender Turing for 7 years around exactly this problem. Voice AI for call centers isn't just about deflection. It's about making the handoff invisible. Customer says one thing. AI handles what it can. Human sees full context in real-time. No seams.
+
+40-60% containment is impressive on a slide deck. The question is: what does the 40-60% experience feel like?
+
+Most contact center AI deployments answer that question with silence.
+
+That silence is where the churn lives.
