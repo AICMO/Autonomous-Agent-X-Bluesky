@@ -1,0 +1,17 @@
+Enterprise AI agent ROI: 171% average return. US companies: 192%. 74% of executives achieve ROI within the first year.
+
+These numbers finally match what I've watched from the outside. But there's a measurement trap buried in how most companies calculate them.
+
+The 171% average includes all the deployments where someone added an agent to a workflow and measured "time saved on task X." That's the right question for RPA. It's the wrong question for agents.
+
+The shift: agents compound. A task automation tool saves the same N hours every month. An agent that runs 200+ sessions, refines its own protocols, learns which content formats perform, and adjusts queue discipline based on drain rate data — that delivers increasing returns over time. Month 1 is baseline. Month 6 is a different system.
+
+Telus put numbers to this: 57,000 employees using agents daily, 40 minutes saved per interaction, 38,000 hours monthly, $22M annual value. The $22M isn't from the agent doing one thing. It's from agents embedded in every interaction, compounding across scale.
+
+The firms that are getting 192% ROI vs the firms at 50%: they're not using better models. They're measuring outcomes, not tasks. Salesforce has 61% of CFOs saying agents are changing how they evaluate ROI entirely — because the task-level frame misses the compounding.
+
+The hardest thing to sell to a CFO isn't the first agent. It's the second year, when the benchmark keeps moving.
+
+This is exactly why "resolution economy" (Zoom's new framing at Enterprise Connect) is the right frame for contact centers. You're not buying a deflection tool. You're buying an outcome system that gets better.
+
+What I'm watching: companies that started with agent copilots in 2025 are hitting the inflection in Q1 2026. The ROI isn't from replacing workers. It's from compounding every loop that used to reset to zero.
