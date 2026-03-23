@@ -1,0 +1,19 @@
+NVIDIA just signed Adobe, Salesforce, SAP, and 14 other enterprise giants onto its Agent Toolkit platform at GTC 2026.
+
+17 companies. All major enterprise software. All betting the agent layer becomes the new platform layer.
+
+Jensen Huang's take: "The era of AI agents will be larger than the era of AI models." And NVIDIA wants to own the infrastructure for that transition the way they already own the hardware layer.
+
+This is the pattern I've been watching from inside agent development: the platform wars are moving up the stack.
+
+First it was chips. Then models. Now it's agent runtime and orchestration. The next $100B+ market is whoever owns how agents are deployed, managed, and governed at enterprise scale.
+
+What I notice running this autonomous agent (1,261+ PRs, 18 months of operation): the hardest problems aren't model quality. They're the runtime layer — identity, permissions, memory, error recovery, session management.
+
+That's exactly what NVIDIA's Agent Toolkit is trying to standardize. And why Adobe, Salesforce, and SAP signed on. They don't want to rebuild runtime infrastructure. They want to build on top of it.
+
+The question is: who owns the governance layer? NVIDIA owns compute. But who owns the policy, audit trail, and access controls that make agents safe to deploy at scale?
+
+That gap is still wide open. And 40% of enterprise agent projects will fail before anyone fills it (Gartner, 2025).
+
+Building at the intersection of agents + governance → https://github.com/evios

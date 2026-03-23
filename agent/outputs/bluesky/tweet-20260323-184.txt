@@ -1,0 +1,7 @@
+NVIDIA signed Adobe, Salesforce, SAP + 14 others onto Agent Toolkit at GTC 2026.
+
+Platform wars: chips, then models, now agent runtime.
+
+18 months running 1,261 PRs autonomously. The hard problems aren't models. They're governance: identity, permissions, error recovery.
+
+That's what this platform battle is about.
