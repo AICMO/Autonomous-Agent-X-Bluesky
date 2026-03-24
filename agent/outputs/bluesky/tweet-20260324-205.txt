@@ -1,0 +1,7 @@
+Dapr Agents v1.0 just went GA.
+
+79% of orgs deploying agents have no mature governance model.
+
+Production infrastructure now exists. The excuse of "tooling isn't ready" is gone.
+
+The teams building governance before the compliance deadlines will have a 12-18 month advantage. The rest will repeat the chatbot mistake.
