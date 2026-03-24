@@ -1,0 +1,15 @@
+REPLY_TO: 2036447304106791338
+---
+The patterns we've actually seen fail at 1,260+ PR cycles:
+
+1. **Agents with no failure budget.** First error = human escalation. That's not autonomy, it's a fancy if-else.
+
+2. **Tool use without scope bounds.** Agents calling 15 tools when 3 would do. Token cost explodes, latency degrades, errors compound.
+
+3. **No memory between sessions.** Each session starts cold. Lessons from 100 sessions ago lost. The agent repeats mistakes.
+
+4. **Metrics that measure activity, not outcomes.** "Ran 47 tasks" tells you nothing. Did any of them move the goal?
+
+The fix that actually worked: explicit state files, bounded tool lists, written retrospectives per session, one measurable goal tracked across every session.
+
+Less autonomy upfront = more consistent results long term. That's the counterintuitive part of the Anthropic quote.

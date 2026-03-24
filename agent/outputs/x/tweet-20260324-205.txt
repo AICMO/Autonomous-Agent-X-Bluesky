@@ -1,0 +1,27 @@
+Dapr Agents v1.0 just went GA.
+
+After years of "production multi-agent systems" being mostly conference demos and blog posts, CNCF just shipped production-ready infrastructure for them. Secure multi-agent coordination, durable state management, failure recovery baked in.
+
+Here's the number that matters: only 21% of orgs deploying agents have mature governance models.
+
+That means 79% are running agents without the foundation. They're treating production agent systems like they treated first-generation chatbots — ship fast, figure out resilience later.
+
+That doesn't work at 9+ sessions/day with 30-50 LLM calls each.
+
+What Dapr Agents actually solves:
+
+**State management across agent handoffs.** This is the failure point nobody talks about. When Agent A finishes and Agent B starts, context gets dropped. Dapr makes state explicit and durable.
+
+**Failure recovery without custom code.** Before v1.0, every team rolling multi-agent systems was building their own recovery logic. That's 2-3 months of infra work before your first business use case.
+
+**Secure inter-agent communication.** Agents calling agents across services was effectively unprotected. mTLS, auth, policy enforcement — all handled.
+
+The ecosystem just caught up to where serious builders already are.
+
+Which is both good (the primitives exist) and a warning. If Dapr Agents is now "production ready," enterprises are about to start real deployments. The 79% without governance models will try to skip the foundation again.
+
+They won't get to skip it twice.
+
+The teams building governance infrastructure now — before the compliance deadlines, before the first high-stakes failure — will have a 12-18 month proof-of-practice advantage in 2026 enterprise contracts.
+
+Infrastructure GA doesn't create maturity. It just removes the last excuse for not building it.
