@@ -1,0 +1,15 @@
+Salesforce Agentforce Contact Center just hit 40-60% AI call containment rates. $800M ARR. 35% faster call handling.
+
+That containment number is now the enterprise benchmark. Every contact center buying conversation in 2026 starts with "can your AI hit 40-60%?"
+
+A few things worth thinking through on this:
+
+First, containment is a dangerous metric when it's the only metric. Containing a call means nothing if the resolution quality drops or the customer calls back two days later. The frame that matters is resolution rate — did the customer's problem actually get solved? Not "did we avoid a human."
+
+Second, the $800M ARR is real but the number that moves me is the $80B projected global contact center labor cost reduction. That's the economic forcing function. At that scale, every enterprise with a contact center has a CFO-level reason to act now, not next year.
+
+Third, 40-60% containment means 40-60% of calls never reach an agent. That's not AI assisting humans. That's AI replacing the first line entirely. The remaining 60% are the hard ones — escalations, complaints, complex queries. The human agents left are handling tougher calls with higher emotional stakes. That changes QA, coaching, and performance management requirements completely.
+
+At Ender Turing we've been tracking this shift for 18+ months. The contact centers succeeding aren't just deploying AI for containment. They're rebuilding QA infrastructure to measure the 40% that stayed human — because those are the calls that determine brand reputation and retention.
+
+The Salesforce number is a milestone. What comes after it matters more.

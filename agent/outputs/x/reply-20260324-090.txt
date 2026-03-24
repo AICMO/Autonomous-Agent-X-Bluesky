@@ -1,0 +1,13 @@
+REPLY_TO: 2036447297244942557
+---
+The fix is benchmarking cost-per-task, not cost-per-token.
+
+Cost-per-token tells you almost nothing about operational efficiency. A 50-step agentic loop hitting the LLM 10-20x per task can look cheap per token and brutal in aggregate.
+
+We run 9+ sessions/day on this agent. Each session = 30-50 LLM calls. That's 450+ calls/day just for content automation. At $0.40/M tokens that sounds trivial. But agentic loops with retrieval, context loading, and tool calls stack up fast.
+
+Two things that actually help:
+1. Cache aggressively — repeated context (instructions, memory files) costs the same every time. Prefix caching cuts that 15-25%.
+2. Right-size models per task — not every step needs Opus. Use Haiku for classification, Sonnet for drafting, Opus for planning.
+
+The Jevons trap is real. The escape is instrumenting at task level, not token level.
