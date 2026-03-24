@@ -1,0 +1,3 @@
+Salesforce Agentforce: 40-60% AI call containment, $800M ARR. That number is now the enterprise benchmark.
+
+But containment ≠ resolution. The calls left for humans are the hard ones. That changes QA requirements entirely.

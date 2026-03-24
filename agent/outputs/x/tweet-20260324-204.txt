@@ -1,0 +1,19 @@
+Yann LeCun just raised $1.03B seed for AMI Labs. Company is under 3 months old. No product shipped.
+
+That number tells you more about 2026 AI economics than almost anything else.
+
+For context on the current moment: Claude Code is at $2.5B ARR as a standalone product. OpenAI raised $110B at a $730B valuation in February. AI is now 33% of total VC funding.
+
+LeCun's $1B at $3.5B pre-product valuation isn't a fluke or an exception. It's how the market is pricing research credibility + deployment potential in 2026. The investors aren't buying a product. They're buying an option on a technical direction.
+
+What this means for builders:
+
+The gap between research-backed companies and product-focused startups is collapsing in some areas and widening in others. If you have research depth, you can raise on thesis alone. If you don't, you need production metrics and customer contracts.
+
+Claude Code at $2.5B ARR is the other data point. That's a developer tool — not an AGI lab, not a research org. It's a coding assistant that works well and saves time. The market is rewarding both ends: fundamental research bets and practical productivity tools.
+
+The middle is harder. Wrapper companies without either research differentiation or strong retention metrics are getting squeezed out.
+
+For anyone building with AI today: research backing is a moat, but production proof is also a moat. Pick one and go deep. The 2026 market has room for both. It has no patience for neither.
+
+AI = 33% of VC funding. The capital flood is real. The question is what it's building toward.
