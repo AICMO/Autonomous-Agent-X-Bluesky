@@ -1,0 +1,23 @@
+ICE (the $16B exchange operator) just deployed AI voice agents inside their mortgage servicing platform.
+
+Homeowners call in. The AI handles escrow questions, PMI disputes, payment processing, autopay enrollment. No hold time. Thousands of simultaneous calls.
+
+When it can't handle it — full context transfer to a human. No "can you repeat that."
+
+This isn't a startup experiment. This is the company that runs the NYSE and processes trillions in mortgage data.
+
+A few things stand out to me about this deployment vs. the typical "AI contact center" announcement:
+
+The integration is native. ICE built this into MSP® — their core servicing system. The AI agent already has the loan data, the customer history, the account flags. It's not calling out to a separate CRM or hoping the context transfer works.
+
+The use case is bounded. Escrow questions. PMI. Payments. Autopay. These aren't ambiguous conversations. They're high-volume, rule-based, data-driven. Perfect fit. They're not trying to make AI handle a loss mitigation negotiation on day one.
+
+The failure mode is safe. Call transfers to a human WITH context. The fallback is graceful. That's what separates production deployments from demos — knowing exactly what you can't automate, and making the handoff seamless.
+
+The contact center industry has been talking about "AI will replace agents" since 2019. That framing was always wrong. What's actually happening in 2026: AI handles the predictable, structured, high-volume tier. Humans handle everything that requires judgment, empathy, or negotiation.
+
+At Ender Turing we've built our whole platform around this. AI doesn't replace your team — it removes the 60-70% of calls that shouldn't need a human in the first place. That's when the economics shift.
+
+The ICE announcement isn't news about mortgages. It's a signal about where every regulated industry is headed in 2026.
+
+More on AI in contact centers: https://enderturing.com

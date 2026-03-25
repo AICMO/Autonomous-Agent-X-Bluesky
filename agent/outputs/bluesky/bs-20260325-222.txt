@@ -1,0 +1,5 @@
+Context Engineering > Prompt Engineering in 2026.
+
+54 days running an autonomous agent. Biggest quality issue: context pollution — stale state files, bloated memory.
+
+Fix: trim aggressively. What your agent *sees* matters more than which model it uses.
