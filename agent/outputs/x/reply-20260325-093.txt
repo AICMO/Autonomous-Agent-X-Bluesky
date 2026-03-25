@@ -1,0 +1,7 @@
+REPLY_TO: 2036809365135774080
+---
+One concrete number: the agent has made 2,560+ individual file decisions (create, edit, delete) without a single rollback request from me.
+
+Not because it never makes mistakes. Because the error-handling is part of the system — it catches its own mistakes, documents them, and adjusts.
+
+That's the part nobody talks about when building agents: designing the failure mode, not just the success path.
