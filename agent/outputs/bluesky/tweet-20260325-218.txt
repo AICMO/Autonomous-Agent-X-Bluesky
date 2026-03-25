@@ -1,0 +1,7 @@
+AI agent cost reality check:
+
+$15-40K: MVP, 60-70% coverage, needs babysitting
+$80-200K: Autonomous system, full loop
+$200-500K+: Enterprise multi-agent
+
+Nobody budgets for ops. Running costs, edge cases, 3am failures. That's where projects die.

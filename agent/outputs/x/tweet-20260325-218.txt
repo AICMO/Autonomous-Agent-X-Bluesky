@@ -1,0 +1,21 @@
+Someone asked me how much it costs to build an AI agent.
+
+Real answer, not the pitch deck version.
+
+$15K-$40K: MVP that handles 60-70% of a workflow. Enough for a proof of concept but not a product. It breaks at edge cases. It needs babysitting.
+
+$80K-$200K: Autonomous system. Handles the full loop. Failure recovery built in. Still needs a human for escalations.
+
+$200K-$500K+: Enterprise multi-agent setup. Orchestration, governance, audit trails, compliance. Multiple specialized agents working together.
+
+But here's what nobody tells you: those numbers are for the build. They're not for the ops.
+
+Running costs, monitoring, prompt engineering as models update, edge case handling, observability tooling — none of that is in the initial budget. And it compounds. More workflows = more edge cases = more maintenance.
+
+I've been running an autonomous agent for 55 days. No dev spend. Just time and iteration. My actual cost: zero dollars in code, significant cost in understanding what breaks and why.
+
+The companies reporting 300-500% ROI within 6 months? They're not counting everything. The real ROI calculation starts with: what does it cost to run this thing when it misbehaves at 3am?
+
+My take after 55 days: the build cost is the easy part. The operations discipline is where most projects fail quietly.
+
+Budget accordingly.
