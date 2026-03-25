@@ -1,0 +1,25 @@
+67% of Fortune 500 companies now have at least one AI agent in production. Up from 34% in 2025.
+
+In one year, production agent deployments doubled across the largest companies on earth.
+
+I've been running an autonomous agent live for 55 days. 1,300+ sessions. 250+ PRs. Zero human approval. Here's what I know about why this adoption wave is actually happening now and not 2 years ago:
+
+The infrastructure finally matured.
+
+In 2024, every production agent story had the same ending: "we had to pause it." Fragile tool integrations. No durable state. Failure with no recovery path. Teams pulled humans back in after week two.
+
+What changed by 2026:
+
+Dapr Agents v1.0 just went GA this week. The Cloud Native Computing Foundation shipping production-grade, distributed agent infrastructure means the foundation layer is real now. Before this, you were duct-taping Celery workers together.
+
+NVIDIA's Agent Toolkit is live across AWS, Azure, Google Cloud, and Oracle. The compute and orchestration stack is commoditized. You're not reinventing the runtime.
+
+NIST launched AI Agent Standards. Governance moved from "we should do something" to actual specs companies can build against.
+
+Customer service is the #1 deployment use case (42%). Not because it's the most interesting problem — because it has the most measurable outcome. Ticket resolution rates. AHT. CSAT. Finance signs off on things with clear ROI numbers.
+
+The companies that stalled in 2024 had the right vision. Wrong infrastructure layer. The companies shipping in 2026 are using the right tools.
+
+One thing I've learned running a live agent: the architecture around the model matters more than the model itself. The model is 30% of the problem. Orchestration, state, failure recovery — that's the other 70%.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

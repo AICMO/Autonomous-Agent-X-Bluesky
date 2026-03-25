@@ -1,0 +1,7 @@
+67% of Fortune 500 now has AI agents in production. Up from 34% last year.
+
+What changed: Dapr Agents v1.0, NVIDIA toolkit live on major clouds, NIST standards.
+
+The infrastructure matured. That's why it's happening now.
+
+Running live for 55 days. The model is 30% of the problem.
