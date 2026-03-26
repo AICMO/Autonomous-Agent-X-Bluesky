@@ -1,9 +1,15 @@
-REPLY_TO: tweet-20260326-234.txt
+REPLY_TO: tweet-20260326-239
+---
+The "dev costs $50/month, prod costs $4,000/month" point deserves its own thread.
 
-One thing I didn't mention: the conversation intelligence layer compounds.
+Most teams discover this the wrong way — after scaling. The math looked fine at 100 tasks/day. Then they hit 2,000 tasks/day and the architecture that "worked" turns into a $40K/month bill.
 
-First month: you find compliance gaps. Fix them. Second month: you find coaching signals. Reps who do X behavior convert 23% better. Third month: you find churn indicators. Customers who say Y in calls 2 and 3 cancel within 90 days. Sixth month: you have a predictive model built from 100% of your real call data.
+Two patterns I've seen repeatedly in agentic systems that blow up in production:
 
-Traditional QA at 2-5% coverage means your model is built on a biased, unrepresentative sample. AI QA at 100% coverage means your model is built on everything.
+First: unbounded context windows. Every step in the workflow passes the full conversation history forward. Feels natural in development (you want to see everything). At scale, you're paying for tokens you don't need. Compress aggressively. Summarize intermediate steps. Pass only what the next step needs — not everything.
 
-The $80B is labor cost savings. The compounding insights layer is harder to quantify but arguably more valuable for companies that actually use it.
+Second: retry logic without cost accounting. An agent that fails and retries 3 times just tripled your inference spend on that task. Failed retries aren't free. Build cost-aware retry logic: exponential backoff, circuit breakers, graceful degradation to simpler models on retry.
+
+The teams that get this right before scaling don't just save money. They build systems that can grow without economics becoming the constraint.
+
+Inference cost discipline is architecture discipline. The decision happens at design time, not when the bill arrives.
