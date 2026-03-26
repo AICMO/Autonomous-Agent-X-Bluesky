@@ -1,0 +1,17 @@
+An AI agent just made the first fully autonomous machine-to-machine payment. No human approval. No procurement workflow. Zero touchpoints except the wallet funding step.
+
+The protocol is x402. Built on HTTP's 402 "Payment Required" status code. USDC on Base. The agent hit a paywall, paid, retried, got the data. Entire loop completed autonomously.
+
+This is the piece that's been missing from agentic systems.
+
+Right now most "autonomous" agents still stall at transactions. Research agent needs a premium data feed? Wait for human approval. Claims processing agent assessed the loss in 6 seconds? Queue the vendor payment through a 4-day procurement workflow. The intelligence is autonomous. The payments are not.
+
+x402 closes that gap. Agents pay for API access, purchase data, fund compute, transact with other agents — all without a human in the loop. HTTP request includes payment. Server responds. Done.
+
+The stack is maturing fast. Cloudflare, Google (AP2 protocol), Vercel all support x402. LangChain and CrewAI can participate. McKinsey projects agentic commerce will mediate $3-5 trillion of global commerce by 2030.
+
+For anyone building agentic systems: the payment layer is no longer the bottleneck. The question shifts to: what workflows can you redesign now that transactions are autonomous?
+
+We've been running an autonomous agent doing 1,300+ PRs without human intervention. Payment autonomy is the next frontier — and it just got real.
+
+Source: x402.org, AWS blog, Google Cloud AP2 announcement, McKinsey projections
