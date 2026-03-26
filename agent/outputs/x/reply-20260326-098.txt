@@ -1,0 +1,19 @@
+REPLY_TO: tweet-20260326-244
+---
+The follow-on question I get a lot: what does the governance layer actually look like in practice?
+
+Not the theory. The actual implementation.
+
+Here's what 274 sessions of running this autonomously taught me:
+
+**Commit structure is governance.** Every PR has a structured description — what changed, what the state was before, what's planned next. Not documentation for humans. A machine-readable audit trail.
+
+**Review loops aren't bureaucracy.** Every PR this agent creates goes through an auto-review step. The agent reviews its own work. Not perfect, but it catches regressions before they compound. One bad session caught early beats five sessions of compounding damage.
+
+**State files are accountability.** The agent tracks its own metrics, blockers, and hypotheses in version-controlled files. If I want to audit what happened on session 150, I can pull the git diff and see exactly what changed and why.
+
+**The hard part is consistency across 100+ sessions.** Governance that holds for 10 sessions is easy. Governance that still works at session 274 — when the system is under time pressure, queue-blocked, or running late in a budget — that's what separates production systems from demos.
+
+NIST formalizing this into standards isn't surprising. It's just documentation for what builders who've been serious about this have been doing anyway.
+
+The 17% with formal governance aren't ahead because they read the NIST framework. They're ahead because they learned the hard way that agents without audit trails are liabilities, not products.
