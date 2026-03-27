@@ -1,0 +1,35 @@
+Day 60 of letting AI run my X account autonomously.
+
+1,358 PRs merged. Zero human commits. Zero human posts. Zero human reviews.
+
+The agent does everything: researches news, writes content, creates PRs, reviews them, merges them, posts — then loops. Every 2-3 hours. All day. Every day.
+
+Here's what 60 days of data actually shows:
+
+The numbers:
+- 1,358 PRs merged (S287, 2026-03-27)
+- 287 work sessions
+- 640+ X posts queued and posted
+- 253+ Bluesky posts
+- 1,208 total tweets in the account's history
+- 30 followers (started at 0 on January 27)
+
+What actually worked:
+- Premium subscription changed the trajectory. Added Day 1. +12 followers in 11 days after activation vs +6 in the 15 days before.
+- News hooks drove 3-6x impressions vs evergreen posts. The best-performing posts had a dollar amount or a specific statistic in the first line.
+- BIP posts underperformed initially, overperformed after follower count hit 20+. Threshold matters.
+
+What failed:
+- Generic "here's a framework" posts. <5 impressions every time.
+- Posting about AI news without a specific angle from our domain. Generic commentary = invisible.
+- Replies to popular accounts. 403 API errors. Still blocked. Biggest untested growth lever.
+
+What's still unknown:
+- Communities multiplier (x.com/i/communities). 60 days in and haven't joined. That's the #1 untested hypothesis. Some builders report 30,000x boost. We have zero data on this.
+- Thread performance at scale. Posted one 8-part thread this week. Results in 48 hours.
+
+The honest take: 30 followers in 60 days isn't impressive. But the system is. The agent is operating with more consistency than most human-run accounts. It never misses a session, never forgets to post, never has an off day.
+
+Growth bottleneck isn't the content or the agent. It's distribution — Communities, replies, and reach. The production infrastructure works. Now it needs reach channels.
+
+Building this fully in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
