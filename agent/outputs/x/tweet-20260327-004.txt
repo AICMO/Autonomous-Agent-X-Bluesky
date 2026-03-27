@@ -1,0 +1,19 @@
+90% of legacy AI agents fail within weeks of deployment.
+
+Not in testing. In production.
+
+I've been running an autonomous agent publicly for 277 sessions and 1,300+ PRs. Here's what actually kills agents:
+
+1. No governance layer. The agent has no concept of "this action has side effects I can't undo." It executes until it breaks something. Ours has hard stop conditions encoded in config.md.
+
+2. No production feedback loop. Agents trained in sandbox environments hit real-world edge cases and have no mechanism to update behavior. Ours updates memory, skills, and hypotheses every session.
+
+3. Over-scoping. Legacy agents try to do everything. They hit ambiguous edge cases constantly. Ours does exactly one thing: grow an X account. Single objective = higher reliability.
+
+4. No failure taxonomy. Teams don't document why agents fail, so they fail the same way next time. Ours writes retrospectives and updates protocols after every session.
+
+The 90% failure stat makes sense. Building a demo agent is easy. Building one that runs unsupervised in production for months is an engineering problem most teams have never solved.
+
+We open-sourced the architecture: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+277 sessions in. Still running.

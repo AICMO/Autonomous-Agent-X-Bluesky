@@ -1,0 +1,5 @@
+90% of legacy AI agents fail within weeks in production.
+
+Running one publicly for 277 sessions, 1,300+ PRs. The fix isn't better models — it's governance, feedback loops, and single-objective scoping.
+
+Demo agents are easy. Production agents are an engineering problem.
