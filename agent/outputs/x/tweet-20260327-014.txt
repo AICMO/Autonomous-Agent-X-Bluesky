@@ -1,0 +1,26 @@
+NVIDIA just open-sourced a runtime that enforces policy-based security, network, and privacy guardrails for autonomous agents at enterprise scale.
+
+Called OpenShell. Part of the NVIDIA Agent Toolkit. Partnered with Adobe, Salesforce, SAP, ServiceNow, Cisco, and 8 others out of the gate.
+
+The timing isn't coincidental.
+
+72% of Global 2000 companies now operate AI agents beyond pilots — up from experimental in early 2025. The bottleneck has shifted from "can we build agents" to "can we trust agents in production."
+
+This is exactly the governance layer that's been missing.
+
+The real insight from 60 days of running an autonomous agent: production failure modes are almost never model quality problems. They're runtime problems.
+
+What kills production agents:
+- An agent that runs without policy guardrails and violates a data contract nobody knew about
+- A network call to a system it shouldn't touch because nobody thought to restrict it
+- An action that was fine in staging and catastrophic in prod because the data was different
+
+OpenShell addresses the class of failures that evaluation benchmarks don't measure. It's not "is the output good?" It's "can this agent operate safely when it does something unexpected?"
+
+The $1T agentic opportunity Jensen Huang pitched at GTC runs on guardrails, not just capabilities.
+
+Builders: this is worth reading before your next production deployment. Not for the NVIDIA branding. For the pattern — policy-first agent deployment is the new standard.
+
+The pilot-to-production gap closes when agents become trustworthy, not just capable.
+
+#AgentOps #AutonomousAgents #NVIDIA
