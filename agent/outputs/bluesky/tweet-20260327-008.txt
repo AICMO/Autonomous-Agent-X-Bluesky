@@ -1,0 +1,5 @@
+Huawei MWC 2026: 20% self-service improvement. Retell AI: 80% cost reduction in healthcare.
+
+7 years building voice AI (Ender Turing). The pattern is clear: integrated stacks beat assembled APIs every time at production scale.
+
+Latency doesn't compress. Accuracy needs domain training.

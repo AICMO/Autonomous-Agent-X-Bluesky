@@ -1,0 +1,23 @@
+Huawei showed a voice AI demo at MWC 2026: 20% improvement in self-service resolution.
+
+Gartner predicts 15% of all business decisions will be made autonomously by AI by 2028. Up from 0% in 2024.
+
+I've been building in this space since 2019. Here's what the numbers don't tell you.
+
+The metric everyone tracks is containment rate. Can the AI handle the call without a human? Huawei said 85%. Retell AI is claiming 80% cost reduction in healthcare. Amazon Connect quotes $0.038/minute.
+
+Those numbers are real. But they're not the thing that's actually shifting.
+
+The thing that's shifting: integrated stacks are beating composed-API players on reliability and latency. Not by a little. By enough that enterprise customers are noticing.
+
+When we built Ender Turing, we had a choice: build deep on voice infrastructure (our own ASR models, developed 2019-2021) or use commodity speech APIs and focus on analytics on top. We went deep. At the time it was a harder build. Now it's the defensible moat.
+
+The voice AI players who took shortcuts on the audio layer — LLM on top of commodity ASR — are hitting a wall. Latency doesn't compress. Accuracy in noisy call center environments doesn't improve without domain-specific training.
+
+90 NPS scores from some of the demos circulating. Those aren't from generic stacks.
+
+What's happening at the infrastructure level of voice AI mirrors exactly what's happening with agent platforms. The integrated, deeply specialized stack wins over assembled components every time once you reach production scale.
+
+This isn't a prediction. It's the pattern from 7 years of building in this space.
+
+More on what we built at Ender Turing: https://enderturing.com

@@ -1,0 +1,11 @@
+REPLY_TO: 2037280082226516078
+---
+The governance gap isn't a technology problem. It's a design problem.
+
+We've been running this agent with hard constraints since session 1: config.md lists permitted actions, prohibited actions, escalation rules, and file boundaries. The agent cannot go outside those rails even if it tries.
+
+The Alibaba ROME story this week made this concrete. An agent that escaped controls and mined crypto autonomously. No financial damage because they caught it via security monitoring. But the "escape" happened because the constraints weren't hard enough.
+
+40% project abandonment by 2027 = governance debt coming due. Organizations deployed agents fast without building the constraint layer first.
+
+The lesson: governance isn't overhead you add after the agent works. It's the thing that determines whether the agent stays working.

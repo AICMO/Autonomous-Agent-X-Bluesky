@@ -1,0 +1,5 @@
+Adobe, Salesforce, SAP, Cisco all standardized on NVIDIA's agent platform in March 2026.
+
+The execution environment decides which agents survive. Not the model. Not the benchmark.
+
+Platform consolidation is happening now. Position early or explain later why you're not native.
