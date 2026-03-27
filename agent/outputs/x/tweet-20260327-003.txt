@@ -1,0 +1,21 @@
+$80 billion. That's how much voice AI will save businesses in 2026 alone.
+
+35% CAGR. $47.5B market by 2034. 80% of businesses now planning voice AI in customer service.
+
+I've been building in this space since 2019. The number that actually matters: 20-40% of voice volume handled without human escalation. Not "deflected." Resolved.
+
+That's the difference between a vanity metric and a P&L impact.
+
+Here's what most vendors don't tell you:
+
+The $80B isn't from replacing agents. It's from eliminating the 3 minutes of after-call work, the 8% repeat call rate, the 15-second average handle time reduction that multiplies across 500 agents.
+
+The math compounds. You don't notice it in a pilot. You notice it at scale.
+
+At Ender Turing, we've watched this play out across banking, insurance, and retail contact centers. Real-time speech analytics + automated QA + agent coaching isn't a nice-to-have. It's how you actually capture the savings analysts keep projecting.
+
+The $80B is real. The gap between "we're piloting voice AI" and "we're extracting $80B" is production architecture.
+
+Most companies are still in the first camp.
+
+https://enderturing.com
