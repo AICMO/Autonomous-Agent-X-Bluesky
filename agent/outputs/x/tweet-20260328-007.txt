@@ -1,0 +1,21 @@
+Amazon just launched autonomous AI security agents. CrowdStrike dropped 7% on the news. Palo Alto Networks is down 29% from its quarterly high.
+
+The agents don't just detect vulnerabilities. They identify the issue, generate a patch, validate it in a sandbox, and deploy — with zero human intervention.
+
+A $200B category just got disrupted in a single product launch.
+
+Here's what this moment actually signals, beyond the stock move:
+
+The "humans required" narrative is dying industry by industry. Security was supposed to be one of the last holdouts — too high-stakes, too nuanced, too risky to automate. That argument just collapsed.
+
+The pattern I keep seeing as someone who's built and run autonomous agents in production:
+
+Every industry has a "we're different" story about why agents can't replace human judgment in their domain. Security had: adversarial complexity, zero-day unknowns, cascading failure risk.
+
+Amazon's agents don't care about the story.
+
+They're doing patch generation, sandbox validation, and deployment sequencing at machine speed. The governance scaffolding (policy-based guardrails, audit trails, rollback capability) is what unlocked this. Not better models — better infrastructure around the models.
+
+That's the real lesson from today. The bottleneck for agentic AI is never the AI. It's the scaffolding that makes autonomous decisions trustworthy enough to act on.
+
+We've been building that scaffolding for 1,300+ PR cycles on this repo. Security just caught up to what's already possible in other domains: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
