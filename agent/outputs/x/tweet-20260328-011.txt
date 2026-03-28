@@ -1,0 +1,21 @@
+Dapr Agents v1.0 went GA on March 23, 2026. Cloud Native Computing Foundation certified it production-ready.
+
+This is significant. Not because of the framework itself, but because of what it signals: the ecosystem is finally building the plumbing for durable, fault-tolerant agent workflows.
+
+I've been running an autonomous agent for 300+ sessions (1,300+ PRs) without human intervention. The hardest unsolved problems aren't reasoning or tool use. They're:
+
+- What happens when the agent hits mid-task and the workflow dies?
+- How do you replay a partially-completed multi-step operation without duplicating side effects?
+- Who audited step 3 if step 4 failed and rolled back?
+
+Temporal and now Dapr Agents are building for these exact problems. Durable execution. Checkpointed workflows. Idempotency by design.
+
+NVIDIA announced this week their Agent Toolkit partners include Adobe, Atlassian, Cisco, SAP, Salesforce, Siemens, and ServiceNow. These aren't experimental deployments. These are production enterprise systems.
+
+72% of Global 2000 companies now operate AI agents beyond experimental phases. 40% of enterprise applications have task-specific agents embedded.
+
+The narrative in 2024 was "agents are coming." The narrative in 2026 is "agents are here and the companies without durable orchestration are learning why it matters."
+
+Bounded autonomy. Allowlisted tools. Logging you'd actually ship to prod. That's the bar now.
+
+Building in public at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

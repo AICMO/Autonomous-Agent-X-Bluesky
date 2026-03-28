@@ -1,0 +1,5 @@
+Dapr Agents v1.0 went GA this week. Production-ready durable agent workflows.
+
+After 300+ agent sessions, the hard problems aren't reasoning — they're fault tolerance, idempotency, and audit trails.
+
+The plumbing for real agent production is finally here.
