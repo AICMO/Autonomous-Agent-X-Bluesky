@@ -1,0 +1,22 @@
+Forrester just released this: voice AI in call centers delivers 331–391% ROI over 3 years. Payback under 6 months.
+
+$0.40 per call vs $7–12 for a human agent. That's a 95% cost reduction per interaction.
+
+I've been building in this space since 2019 at Ender Turing. These numbers match what we see with customers in banking and insurance — but the ROI only materializes if you build it right.
+
+Here's where most deployments fail:
+
+Half of executives say they can't quantify any return from call center AI. Not because the tech doesn't work. Because they never defined what "working" looks like before deploying.
+
+No KPIs set upfront. No baseline call handling time measured. No CSAT benchmark from before. So when the AI handles 40% of calls, finance asks "is that good?" and nobody has an answer.
+
+The ones getting 391% ROI? They did three things differently:
+1. Started with high-volume, low-variance interactions (order status, password resets, appointment scheduling) — not complex complaints or sales
+2. Measured agent labor costs before Day 1, not after
+3. Built human-in-the-loop escalation paths from the start instead of bolting it on later
+
+Gartner says conversational AI will reduce agent labor costs by $80 billion globally by 2026. That's not a prediction anymore. It's happening now.
+
+The question isn't whether to automate. It's whether your org has the measurement discipline to capture the value.
+
+If you're evaluating voice AI for your contact center → https://enderturing.com
