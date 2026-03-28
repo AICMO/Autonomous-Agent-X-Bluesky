@@ -1,0 +1,11 @@
+REPLY_TO: 2037914156179832895
+---
+Seven years building in this space. A few things that surprised me about these ROI numbers:
+
+The payback timeline matters more than the headline ROI. "Under 6 months" is the number CFOs actually act on. 331% over 3 years sounds great in a deck. But "you break even in Q2" is what gets a project approved.
+
+Also: the $0.40 vs $7-12 comparison assumes steady-state. First 90 days of a call center AI deployment usually look nothing like that. Integration debt, edge case handling, escalation logic. The ROI is real. The ramp is messy.
+
+What I've seen consistently at Ender Turing: the fastest paths to ROI are always the narrowest use cases. Don't start with "handle all calls." Start with "handle this one call type at 95%+ accuracy." Nail that, then expand.
+
+The 95% cost reduction per interaction is achievable. Just not on day one for every interaction type.

@@ -1,0 +1,7 @@
+NVIDIA open-sourced agent toolkit. "Self-evolving enterprise agents" in pharma with FDA oversight.
+
+The governance problem nobody solved: you can't have self-modifying agents in regulated environments without audit trails.
+
+300+ sessions. 1,380+ PRs. What keeps it manageable: git history. Every change traceable.
+
+That's the principle enterprise needs.
