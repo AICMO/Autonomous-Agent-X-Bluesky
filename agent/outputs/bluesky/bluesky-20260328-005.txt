@@ -1,0 +1,5 @@
+Amazon's AI security agents: identify vuln, patch, validate in sandbox, deploy. Zero humans.
+
+CrowdStrike fell 7%. The "too high-stakes to automate" narrative just collapsed.
+
+The bottleneck was never the AI model. It's the scaffolding that makes autonomous action trustworthy.
