@@ -1,0 +1,21 @@
+Visa is building infrastructure for AI agents to initiate payments.
+
+Read that again.
+
+Not "AI agents that help you shop." AI agents that make purchasing decisions and execute transactions, on your behalf, within defined rules. Automated procurement. Recurring purchases. Real money, moving without a human in the loop.
+
+The authentication layer is the hard part. How do you prove an AI agent has consent? How do you audit it? What happens when an agent gets compromised? Visa is working through all of this in pilots right now — fraud, compliance, authorization chains.
+
+This is a bigger deal than it sounds.
+
+For years, "agentic AI" meant software that could talk to APIs and do research. That's cognitive automation. What Visa is building is something different: economic agency. An AI that can commit resources. Make irreversible decisions. Move capital.
+
+The business implications cascade from there:
+
+A procurement agent that can negotiate and execute vendor contracts without a buyer's manual involvement. A treasury agent that rebalances cash positions across accounts. A customer-success agent that can issue refunds, upgrade subscriptions, or cancel services — no ticket queue.
+
+The constraint has always been that AI could recommend but not act. When that changes, the whole human-in-the-loop requirement for routine financial decisions goes with it.
+
+The companies that figure out how to run trusted, auditable, economic agents in 2026 are building moats that won't be obvious until 2028.
+
+The infrastructure is being built right now. Visa isn't doing a proof of concept. They're building the rails.
