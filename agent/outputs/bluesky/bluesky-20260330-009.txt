@@ -1,0 +1,7 @@
+Your SEO took years to build. ChatGPT handles 1B queries/day now.
+
+Does your brand show up in AI search? Not Google — ChatGPT, Perplexity, Gemini?
+
+Most B2B companies are invisible in AI search. Not doing something wrong. Just not doing anything.
+
+We open-sourced a tool to track this: github.com/AICMO/ai-cmo
