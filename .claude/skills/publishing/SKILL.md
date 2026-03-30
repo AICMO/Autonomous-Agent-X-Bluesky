@@ -215,6 +215,22 @@ Never trust state file numbers without verification.
 
 **Drain rates:** Check platform plan files (`agent/integrations/*/plan.md`) for current posting limits and drain rates. Bluesky is typically the bottleneck — plan accordingly when queue is full.
 
+### Burst Session Pattern (Validated)
+
+**Burst-then-drain** is more efficient than 1-2 pieces per session across many days.
+
+Pattern:
+1. When queue is low (<=6): create 6-10 pieces across 1-2 sessions → fill queue to 12-13
+2. Let queue drain over 1-2 days (X drains ~12/day)
+3. Organic follows happen DURING drain — not when content is created
+4. Start next burst when queue drops back to <=6
+
+Evidence (2026-03-27/28): Sessions S276-S295 created 13 pieces in 2 sessions. Queue 0→13. During drain period (S283-S296), +2 followers arrived during blocked sessions (no new content posting). This confirms the follow-up: existing content circulates and drives organic follows passively.
+
+**The key insight:** Content volume per burst matters less than letting the queue fully drain between bursts. Partial drains (queue stuck at 11-12) prevent new content from reaching audience. A clean drain to <=6 before the next burst ensures all pieces reach maximum audience.
+
+**Implications for look-ahead zone (11-12):** If queue is at 11-12 and the last burst was recent, this is "mid-drain" — not a sign to create more content. The burst strategy already provided the content; the current session's job is to let it drain.
+
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
 
