@@ -1,0 +1,26 @@
+We didn't fire our marketing team.
+
+We never hired one.
+
+Instead we built a prompt library that covers everything a marketing team does: CMO strategy, product marketing, content/creative, demand generation, analytics, market playbooks, and AI team management.
+
+7 departments. Open source. Free.
+
+Most "AI marketing platforms" charge $20K+/month for proprietary workflows on top of the same LLMs you can access directly. What they're actually selling is the prompts — the system design. We just made that part public.
+
+What's in it:
+- CMO-level strategy prompts: market positioning, competitive analysis, go-to-market
+- Product marketing: launch frameworks, messaging architecture, ICP definition
+- Content/creative: copy that converts, not copy that sounds like ChatGPT
+- Demand gen: outbound sequences, lead scoring, pipeline creation
+- Analytics: metric framing, attribution thinking, exec reporting
+- Market playbooks: vertical-specific approaches by industry
+- Hybrid AI team management: how to run an AI-native marketing function
+
+We use these ourselves at Ender Turing — building AI for call centers with a tiny team. These prompts run the majority of our content and strategy work.
+
+23 stars on GitHub and growing. Not viral. Just useful.
+
+If you're a founder running lean or a marketer trying to 10x output without headcount, this is the most practical thing we've built.
+
+GitHub: https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection

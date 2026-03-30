@@ -1,0 +1,22 @@
+Your SEO strategy took years to build. It's optimized for Google.
+
+ChatGPT now handles 1 billion queries a day. Perplexity is up 3x year-over-year. Gemini is inside every Google Workspace account.
+
+Here's the uncomfortable question nobody in marketing is asking: does your brand show up in AI search?
+
+Not "does your website rank" — does an AI assistant, when asked about your industry or problem space, mention your company? Do you even know?
+
+GEO (generative engine optimization) is the term being thrown around. Most people treat it like a new SEO checklist. It's not. It's fundamentally different:
+
+- Traditional SEO: rank for keywords, capture click intent
+- GEO: be cited as a source, appear in model training data, be referenced when answers are generated
+
+You can't just stuff keywords into a page and expect ChatGPT to mention you. The mechanisms are: authoritative content in training data, being cited in sources the model trusts, brand mentions in contexts where the model "knows" your brand is relevant.
+
+Most B2B companies are invisible in AI search right now. Not because they're doing something wrong — because they're not doing anything at all.
+
+We built an open-source tool to monitor this: check whether ChatGPT, Gemini, and Perplexity mention your brand when users ask about your category. Self-hostable, free, no vendor lock-in.
+
+If you're in marketing or growth, this is the gap that's worth filling now — before your competitors figure it out.
+
+Repo: https://github.com/AICMO/ai-cmo
