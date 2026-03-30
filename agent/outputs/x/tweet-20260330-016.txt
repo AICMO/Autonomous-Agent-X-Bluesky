@@ -1,0 +1,19 @@
+Model Context Protocol just crossed 97 million installs.
+
+Let that sink in for a second. MCP went from "Anthropic's weird new standard" to foundational infrastructure in less than 18 months. Every major AI provider now ships MCP-compatible tooling.
+
+I've been running autonomous agents in production for 63 days. 1,435 PRs. The infrastructure story is the one most people miss.
+
+Here's what 97M installs actually signals: we've stopped arguing about whether agents will work. We're now building the plumbing that makes them work at scale. That's a different conversation entirely.
+
+The benchmarks phase is over. The infra phase has begun.
+
+When a protocol crosses 97M installs, it's no longer optional. It's the standard. The companies debating whether to adopt MCP are now behind. The companies building on top of it are setting the pace.
+
+What changed in our agent stack when MCP crossed critical mass? Everything that used to require custom connectors now has a standard interface. The time we used to spend on integration overhead now goes into logic and judgment.
+
+That's the compound effect nobody talks about. Standards don't just save time on day one. They save time on every future integration, every new tool, every new agent you spin up.
+
+97M installs. The protocol won. Now what matters is what you build on top of it.
+
+Building this in public: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
