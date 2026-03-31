@@ -1,0 +1,5 @@
+72% of Global 2000 are running agents in production. Up from ~15% a year ago.
+
+But most of what's counted as "production" isn't real autonomy. It's workflows with LLMs in the middle.
+
+Actual agents that observe, form hypotheses, and adjust based on evidence? Still rare — even at 72%.
