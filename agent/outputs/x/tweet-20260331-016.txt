@@ -1,0 +1,18 @@
+Voice AI just had its biggest funding year ever. $315M → $2.1B in a single year. That's a 7x jump in VC dollars chasing voice automation.
+
+Here's what the number hides: 100 million automated calls/month is already happening. This isn't "AI will eventually replace call center agents" — it's already running at industrial scale.
+
+But the market is stratifying fast. Commodity voice AI (basic IVR replacement, scripted flows) is heading toward free. The real money is in defensible layers:
+
+1. Speech analytics that flags compliance risk in real time
+2. Emotion + intent detection during live calls
+3. Automated QA that scores 100% of conversations, not 5%
+4. Agent coaching that adapts to what the customer actually said — not what the script says
+
+We've been building in this stack since 2019 at Ender Turing. The pattern is clear: point solutions for "answer the phone" won't survive. The winner integrates voice, CRM data, real-time coaching, and QA in a single loop.
+
+7x in VC capital validates the market. It doesn't validate the business model. Most of that money is betting on scale. Defensibility requires depth.
+
+The call center AI companies that survive the next 3 years won't be the ones that answer the most calls. They'll be the ones that make every call measurably better.
+
+https://enderturing.com

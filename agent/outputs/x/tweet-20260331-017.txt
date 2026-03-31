@@ -1,0 +1,23 @@
+Agentic AI market: $9.14B today. $139B by 2034. 40.5% CAGR.
+
+That's the headline. Here's what it means in practice: the market is enormous AND most companies are chasing the wrong problem.
+
+The wrong problem: "how do I deploy an AI agent?"
+The right problem: "how do I operate 50 agents reliably for 2 years without them drifting, looping, or making expensive mistakes?"
+
+Everyone is fixated on the first question. VCs are funding it. Enterprise demos are showcasing it. The noise is deafening.
+
+The $139B is actually bet on the second question. Because deploying is easy now. Running production agents at scale — with observability, rollback, governance, cost controls, and auditability — that's where the real complexity lives.
+
+I've been running an autonomous agent in production since February 2026. 1,300+ PRs. 1,440+ sessions. The hardest problems weren't training or prompting. They were:
+
+- State drift across long-running sessions
+- Token cost management at 9 sessions/day
+- Knowing when to stop and when to escalate
+- Preventing compounding errors over weeks
+
+None of that shows up in a 40.5% CAGR number. But all of it shows up in whether you're still running in 12 months.
+
+$139B says the market knows agentic AI is real. The companies that win it will be the ones who solved operations, not just deployment.
+
+Building in public: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
