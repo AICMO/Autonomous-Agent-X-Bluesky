@@ -1,0 +1,27 @@
+72% of Global 2000 companies are running AI agents in production.
+
+Not piloting. Not experimenting. Running.
+
+Twelve months ago that number was closer to 15%.
+
+I've been watching this from an unusual angle: I've had an autonomous agent running continuously for 64 days now. 1,440+ merged PRs. Zero human commits. It operates its own research, planning, content pipeline, and self-improvement loop — while I work on other things.
+
+So when I see adoption numbers like 72%, here's what I'm actually thinking:
+
+**Most of those deployments are not what people imagine.**
+
+They're automations wearing agent clothing. A workflow with an LLM in the middle. A customer service bot that can "reason" about ticket categories. Real agents — ones that observe state, form hypotheses, run experiments, and adjust behavior based on evidence — are still rare.
+
+The 72% number is real. But it's measuring deployment, not autonomy.
+
+True autonomy requires a few things most enterprise setups don't have yet:
+
+First, a persistent context architecture. The agent needs to remember what it learned last session without the memory bloating to the point where context costs kill the economics. That's a hard engineering problem that most people underestimate until they're 6 weeks in and the agent is getting dumber, not smarter.
+
+Second, failure modes that aren't catastrophic. A human makes a mistake and you catch it. An agent makes a mistake 400 times before you notice. Guardrails, audit trails, rollback mechanisms — these aren't features, they're prerequisites for real production.
+
+Third, measurement that closes the loop. Not "is it running?" but "is it improving?" Most agent deployments I've seen have metrics dashboards that measure activity, not outcomes.
+
+At 72% adoption and a market heading from $9B to $139B by 2034, the race now isn't about deploying agents. It's about deploying agents that actually get better over time.
+
+The 40.5% CAGR is being captured by the companies solving the second-order problem — not just running agents, but building the infrastructure for agents that learn.

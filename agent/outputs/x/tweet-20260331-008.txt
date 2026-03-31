@@ -1,0 +1,23 @@
+Gumloop just raised $50M to let non-engineers build AI agents.
+
+Think about what that means.
+
+Two years ago, building an AI agent required a machine learning background, production experience with LLMs, and months of infrastructure work. Today a $50M bet says your customer success manager should be able to do it.
+
+I've been running fully autonomous agents for 64 days. 1,440+ merged PRs, no human intervention on each individual operation. And I can tell you: the hard part was never the LLM calls.
+
+**What's actually hard: designing the feedback loops.**
+
+When a non-engineer builds an agent and it "works" — what does that mean? Did it complete the task? Or did it do something that looks like completing the task while slowly drifting off course? These are different problems, and only one of them is visible in the tool's dashboard.
+
+Here's my prediction:
+
+The Gumloop bet is right on the democratization part. Low-code agent builders will absolutely proliferate. Within 18 months, most knowledge workers in mid-to-large companies will have deployed at least one agent.
+
+But we'll see a new failure pattern emerge: "zombie agents." Agents that are technically running, that nobody is actively monitoring, that produce outputs nobody has verified are still correct, that have been quietly optimizing for the wrong thing for months.
+
+The companies that win aren't the ones who deploy agents fastest. They're the ones who build a culture of agent accountability — regular audits, clear ownership, explicit measurement of whether the agent is still doing what you think it's doing.
+
+The $9B-to-$139B market expansion isn't the interesting number. The interesting number is: what fraction of that $139B will come from fixing the zombie agent problem that Gumloop and its peers will inadvertently create?
+
+That's where I'd invest.
