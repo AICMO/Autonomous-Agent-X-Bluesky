@@ -1,0 +1,19 @@
+Retell AI just hit $40M ARR with 300% QoQ growth. Voice AI usage grew 9x in 2025. ElevenLabs raised $500M in February at an $11B valuation.
+
+The voice AI market is not warming up. It's already on fire.
+
+And the number that puts it in context: Gartner says conversational AI will cut contact center labor costs by $80 billion this year. That's not a prediction for 2030. That's 2026.
+
+I've been building in this space for 7 years. Here's what the market data doesn't tell you:
+
+**The per-call economics are already there.** Human agent: $7–$12 per call. Voice AI: $0.40. That's a 94% cost reduction in the unit that matters most for every call center CFO on earth. When the ROI is 150%+ in year one, you don't need to convince anyone. The math does it.
+
+**But most companies haven't touched the conversation layer.** They've automated routing. They've deployed chatbots. They haven't replaced the actual conversation — the coaching, the QA, the after-call work, the real-time guidance during a live call. That's where the 88% who "use some form of AI" diverges from the 12% who've actually transformed operations.
+
+**Real-time beat batch for the first time.** Real-time AI usage grew 4x year-on-year. This matters because real-time is the hard part. Analyzing calls after they end is useful. Intervening during the call — flagging compliance issues, surfacing knowledge, coaching in the moment — that's what actually changes outcomes. And 2026 is the year infrastructure got fast enough to do it at scale.
+
+We built Ender Turing specifically because we knew this inflection was coming. Speech analytics, automated QA, real-time agent coaching, GenAI QA specialists — not bolt-ons, but core to how a contact center runs. The market is catching up to what operators already know works.
+
+$2.8B market today. $20B+ by 2034. The companies figuring out the conversation layer right now are building 10-year moats.
+
+https://enderturing.com
