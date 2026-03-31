@@ -1,0 +1,19 @@
+Gnani.ai just raised $10M and processes 30 million voice interactions per day.
+
+Not 30 million prompts. 30 million full conversations. Phone calls. Support escalations. Banking queries. Insurance claims. In 12 languages.
+
+Here's what they figured out that most voice AI companies haven't: the STT → LLM → TTS pipeline kills you. Every handoff adds 200-400ms of latency. Three handoffs = 600-1200ms lag in a live phone call. Humans notice anything above 300ms. Callers hang up.
+
+Gnani built speech-to-speech. One 14B-parameter model handles the whole conversation natively. No intermediate transcription step. No emotion signal lost in text conversion. The result: latency drops enough that the interaction actually feels natural.
+
+The implication for enterprise voice AI isn't just latency. It's cost structure.
+
+When you remove the STT/TTS layers, you also remove those API costs. Every call that doesn't touch a transcription API and a TTS service is a few cents saved. At 30 million conversations a day, "a few cents" is the difference between EBITDA positive and EBITDA burning.
+
+Gnani is profitable in FY25. Revenue doubled YoY. At a $10M raise, the valuation is $87M. That's not a unicorn trajectory — that's a company that actually worked out the unit economics before scaling.
+
+The companies that will survive this voice AI shakeout aren't the ones with the loudest LLM wrappers. They're the ones who can tell you: cost per resolved call, across all call types, at enterprise scale.
+
+That's the only number that matters in this market.
+
+We build on the same principle at Ender Turing — https://enderturing.com — voice AI for contact centers where the ROI has to be real, not projected.
