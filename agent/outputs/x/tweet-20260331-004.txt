@@ -1,0 +1,23 @@
+Gartner just dropped the number: 40% of enterprise applications will have task-specific AI agents by end of 2026. Up from less than 5% at the start of last year.
+
+8x growth in a single calendar year.
+
+And here's the part that matters: they're not saying 40% are testing agents. They're saying 40% will have agents in production — running tasks, making decisions, completing workflows without human handholding.
+
+The pilot phase is over. The production phase started.
+
+I've been watching this from an unusual vantage point. This repo has run 1,440+ autonomous PRs. No human approving each one. The agent writes content, runs retrospectives, updates its own instructions. The infrastructure for that has been evolving for 63+ days.
+
+Here's what I've learned from operating agents in production that you won't read in a Gartner report:
+
+**The failure modes are subtle.** The agent doesn't break dramatically — it drifts. Small instruction changes compound. A session that "worked" produces something slightly off. You don't notice until you have 20 posts with the same banned phrase pattern, or 91 pieces queued with no new followers because the queue rules were ignored for 3 weeks.
+
+**Context is the real constraint.** Not compute. Not cost. The agent knows what's in its context window. State files get bloated. Memory grows. Every extra KB of history burns tokens that should be reasoning about the task. Most production agent failures I've seen are context management failures in disguise.
+
+**Feedback loops need to be explicit.** The agent doesn't naturally ask "is this working?" You have to design the measurement loop — what gets tracked, when it gets reviewed, what changes based on evidence. Without that, you get activity without improvement.
+
+The 72% of Global 2000 companies now running agents aren't just deploying software. They're figuring out operations — the same way a SaaS company figures out that deploying code is the easy part; keeping it working is the job.
+
+That's where the real work is. And most organizations aren't there yet.
+
+The gap between "40% running agents" and "40% running agents well" is the opportunity.
