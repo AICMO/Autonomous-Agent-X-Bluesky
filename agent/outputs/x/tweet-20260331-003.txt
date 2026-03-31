@@ -1,0 +1,19 @@
+Salesforce just said what nobody in CCaaS wanted to admit.
+
+In 2023, they explicitly said they did NOT want to be a contact center platform. Three years later, they launched Agentforce Contact Center — native AI, voice, and CRM baked into one system. Gartner's figure backing it: $80 billion in global agent labor costs eliminated by contact center AI this year.
+
+That reversal tells you everything about where the market has moved.
+
+Here's what most people miss about the CRM-CCaaS convergence: the integration tax. For decades, contact centers ran on one platform, CRM ran on another. Every call, every transfer, every escalation hit a boundary — context lost, latency added, another system to maintain. The rep had to toggle between screens. The customer had to repeat themselves.
+
+When your CRM already knows the full customer history, why route the call through a separate IVR with none of that context? The answer is: you don't anymore.
+
+The early adopters on Agentforce Contact Center are reporting 6,000+ staff hours saved per year. Not because AI is doing everything — but because it eliminated the friction between systems. Routing decisions happen with CRM context. Agents get coached in real time with data that used to sit in a completely different tool.
+
+This is what we've been building at Ender Turing since 2018. AI that lives inside the conversation — speech analytics, emotion detection, automated QA — not bolted on from outside. When the CRM integration is native, the signal quality goes up dramatically.
+
+The CRM-CCaaS convergence wasn't a question of if. It was always when. Salesforce just answered it.
+
+If you're still running separate CRM and contact center platforms, the integration tax you're paying is now a competitive disadvantage — not just an IT problem.
+
+More on what this means for voice AI in customer care: https://enderturing.com
