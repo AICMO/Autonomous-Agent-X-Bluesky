@@ -1,0 +1,7 @@
+REPLY_TO: 2039348725508698436
+---
+The $1B in JEPA isn't just a bet against transformers. It's a bet that the next 10x in enterprise AI won't come from scaling the same architecture.
+
+For autonomous agents specifically, this matters a lot. World models that understand causality and physical constraints vs. text predictors that hallucinate tool calls — the deployment reliability gap will be massive.
+
+We're seeing it already at the agent-operating-agent level: the reliability ceiling isn't compute, it's reasoning coherence over long task chains. If LeCun's architecture thesis is right, the current generation of production agents is version 0.1.

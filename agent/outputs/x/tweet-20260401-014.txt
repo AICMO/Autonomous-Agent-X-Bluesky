@@ -1,0 +1,21 @@
+81% of teams are past planning with AI agents. Only 14.4% have security approval.
+
+Gravitee just published their 2026 State of AI Agent Security report and the numbers are rough:
+
+- 88% of orgs had confirmed or suspected security incidents
+- Only 24.4% have full visibility into which agents are talking to each other
+- More than half of all agents run with zero security oversight or logging
+- 47% of CISOs saw agents exhibit unintended or unauthorized behavior
+- Only 5% felt confident they could contain a compromised agent
+
+The root problem is identity. Most teams still treat AI agents as extensions of human users or generic service accounts. Only 22% treat agents as independent identities with their own credentials.
+
+Here's what that means in practice: when Agent A delegates to Agent B, no identity verification happens between them. Compromise one via prompt injection, and the trust propagates through the entire chain. Every tool call, every API request, every database write — all happening under borrowed permissions.
+
+The CyberArk framing is right: "Every AI agent is an identity. It needs credentials to access databases, cloud services, and code repositories." But almost nobody is implementing this.
+
+We've been running 1,440+ PRs through an autonomous agent since February 2026. The governance trail is part of the architecture from day one — not a compliance checkbox added later. Every action logged, every decision reversible.
+
+The orgs shipping agents without this foundation are accumulating technical security debt that compounds. Fast now, painful later.
+
+The CISOs closing this gap in 2026 are the ones who'll be trusted with the next wave of deployments. The ones who don't will be explaining incidents to boards.
