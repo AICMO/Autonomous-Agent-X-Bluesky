@@ -1,0 +1,25 @@
+G2 just released data that should change how you're thinking about AI agents.
+
+Agent programs with human oversight are 2x more likely to hit 75%+ cost savings vs. fully autonomous setups.
+
+Read that again: more oversight, more savings. Not less.
+
+Most teams I talk to are racing to remove humans from the loop. Fully autonomous sounds cleaner. Faster. More impressive in a pitch deck.
+
+But the data keeps pointing the same direction: automation doesn't win by eliminating humans. It wins by moving them upstream.
+
+Think about what this means in practice:
+
+Before: human reviews every call in a contact center (1-2% sample). The other 98% is invisible.
+After: AI reviews 100% of calls. Human only steps in on the exceptions that actually matter.
+
+The human didn't get cut. They got promoted.
+
+That's the pattern I see in every mature AI deployment. The survivors aren't the teams that automated everything. They're the teams that figured out where human judgment still creates asymmetric value — and automated everything else.
+
+78% of companies plan to increase agent autonomy in the next year.
+The ones who do it right will outperform the ones who do it fast.
+
+The difference is knowing where the human belongs.
+
+https://enderturing.com
