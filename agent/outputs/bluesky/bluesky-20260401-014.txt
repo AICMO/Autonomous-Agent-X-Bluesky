@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise AI agent projects canceled by 2027.
+
+Cause of death: no ROI proof, no governance, wrong work automated.
+
+5 months, 1,440 PRs in production. Survivors: automate boring first, build audit trails, measure outcomes.
+
+Autonomy without accountability = expensive chaos.

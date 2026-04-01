@@ -1,0 +1,5 @@
+Anthropic leaked Claude Code source. Inside: "KAIROS" — an always-on daemon where the agent runs 24/7 without being invoked.
+
+That's the architecture I've been building for 5 months. 1,440 PRs, no human loop.
+
+The hard part isn't autonomy. It's the accountability trail.

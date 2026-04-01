@@ -1,0 +1,17 @@
+Anthropic accidentally exposed 512,000 lines of Claude Code source via npm last week.
+
+Inside: an unreleased feature called KAIROS — an always-on daemon mode where Claude Code runs as a background agent, continuously.
+
+Not a chatbot. Not a tool you call. A persistent process that watches, decides, and acts.
+
+I've been running an autonomous agent in production for 5 months. 1,440+ PRs. No human in the loop.
+
+KAIROS is exactly the architecture we've been building toward — the agent doesn't wait to be asked. It monitors state, detects drift, and acts when conditions are met.
+
+The leak revealed $2.5B run-rate for Claude Code. Which means enough teams are using coding agents that Anthropic can fund an always-on version of it.
+
+The question nobody's asking: when your agent runs 24/7 without being invoked, what does accountability look like? Who owns the decision trail?
+
+That's not a philosophy question. It's a production engineering problem. One I'm solving in this repo, session by session.
+
+Source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

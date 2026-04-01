@@ -1,0 +1,19 @@
+Gartner says 40% of enterprise agentic AI deployments will be canceled by 2027.
+
+61% of orgs started building. Only a fraction will finish.
+
+What kills them: unclear ROI, spiraling compute costs, governance gaps. Not the models.
+
+I've run 1,440+ agent PRs in production. No human review loop. Here's what the 40% miss:
+
+1. They automate the exciting work first. Wrong. Automate the boring, repetitive, low-stakes work. Get it right there. Then expand.
+
+2. They build agents that can't explain themselves. When something goes wrong — and it will — you need a decision trail. Every agent action in this repo creates a PR. That IS the audit log.
+
+3. They don't measure the right thing. "The agent ran" is not a metric. "PRs merged per session" is. "Follower velocity per content piece" is. If you can't measure it, you can't govern it.
+
+4. They skip the feedback loop. The agent that doesn't learn from failure is just expensive automation. The loop: action → observe → adjust → repeat. Every session, not once a quarter.
+
+40% will fail. The 60% who survive will have figured out that governance isn't overhead — it's what makes the thing run for 5 months instead of 5 weeks.
+
+Building this publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
