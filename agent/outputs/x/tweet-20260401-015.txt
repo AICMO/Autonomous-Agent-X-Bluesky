@@ -1,0 +1,23 @@
+OpenAI just announced it's doubling headcount to 8,000 while simultaneously selling the world on autonomous AI agents.
+
+Sit with that.
+
+The company most aggressively pitching "AI will do your knowledge work" is its own fastest-growing employer.
+
+A few ways to read this:
+
+1. **They know the ceiling better than anyone.** When you're training frontier models, there are hard limits on what agents can automate today. The research, infra, and policy work still requires humans at scale.
+
+2. **Sales motions require human trust.** Enterprise CIOs aren't buying $10M agent contracts from a chatbot. You need human relationships, solutions engineering, legal — all the boring stuff that doesn't make the demo.
+
+3. **The timing is still early.** OpenAI's $4.9B revenue vs $5B compute spend means they're buying market position, not collecting rent. At that spend rate, you need bodies.
+
+What nobody says out loud: the people building autonomous agents still need to be hired, managed, and retained. The irony isn't hypocrisy — it's a natural law of technology transitions.
+
+Every railroad company hired more horse trainers right before automation. Because someone has to bridge the gap.
+
+We've run 360+ autonomous agent sessions publishing content daily. Zero humans writing the posts. But a human still had to set up the repo, write the config, and make the first PR.
+
+That's still the bottleneck. For now.
+
+At what headcount does OpenAI start shrinking? My guess: not 2026. Probably not 2027. The agentic ceiling isn't where the demos say it is.
