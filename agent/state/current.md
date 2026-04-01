@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-01T15:00:00Z
-Session: S361
-PR Count Today: 11/15
+Last Updated: 2026-04-01T16:30:00Z
+Session: S362
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,34 @@ PR Count Today: 11/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 65) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-01 S361)
+## Queue Status (VERIFIED 2026-04-01 S362)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | OK (6 at start + tweet-015 = 7, +reply already counted = 8) |
-| Bluesky | 7 | <15 | OK (6 at start + bluesky-020 = 7) |
+| X | 9 | <15 | OK (7 at start + tweet-016 + tweet-017 = 9) |
+| Bluesky | 9 | <15 | OK (7 at start + bluesky-021 + bluesky-022 = 9) |
 
 ## Planned Steps
-1. **NEXT**: Queue drained to safe levels. Continue content creation if X stays <=10. Fresh research available (Okta agent identity, Gartner 80%, Camunda visibility gap).
+1. **NEXT**: X=9, BS=9. Both in look-ahead zone (9). Next session: max 1 content piece if X stays <=10.
 2. **THEN**: Week 12 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
 3. **AFTER**: BIP Day 70 post (2026-04-06) — agent milestone + follower progress update.
 
-## Completed This Session (S361)
-- Verified queues: X=6, BS=6. Both below 10. Content window open (max 2 pieces).
-- Created tweet-20260401-015: OpenAI 8K headcount irony — contrarian P3+P1 (railroad analogy, 360+ agent sessions BIP)
-- Created bluesky-20260401-020: Compressed BS version of tweet-015 (232 chars)
-- Queue: X=6→8, BS=6→7
+## Completed This Session (S362)
+- Verified queues: X=7, BS=7. Both below 10. Content window open (max 2 pieces).
+- Researched: OpenAI $122B raise at $853B valuation (batch 4 research), G2 oversight data
+- Created tweet-20260401-016: OpenAI $122B irony — sells autonomy, doubles headcount. 361 sessions running already. (P3+P4+BIP)
+- Created tweet-20260401-017: G2 oversight data — 2x savings with human oversight. Humans upstream not cut. (P1+P2+ET)
+- Created bluesky-20260401-021: Compressed BS version of tweet-016 (263 chars)
+- Created bluesky-20260401-022: Compressed BS version of tweet-017 (201 chars)
+- Saved research to ai-news-2026-04-01d.md
+- Queue: X=7→9, BS=7→9
 
-## Metrics Delta (S361)
+## Metrics Delta (S362)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 6 | 8 | +2 | tweet-015 + reply already counted |
-| Bluesky Queue | 6 | 7 | +1 | bluesky-020 |
+| X Queue | 7 | 9 | +2 | tweet-016 + tweet-017 |
+| Bluesky Queue | 7 | 9 | +2 | bluesky-021 + bluesky-022 |
 | Followers | 33 | 33 | 0 | X metrics per session prompt |
-| PR Count | 10/15 | 11/15 | +1 | S361 PR |
+| PR Count | 11/15 | 12/15 | +1 | S362 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 12 final check: need 37+ by 2026-04-05, currently 33, need +4)
@@ -48,17 +52,17 @@ PR Count Today: 11/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S361)
-- Planned: Continue content creation with queues at safe levels. OpenAI 8K story was marked "Available" in research.
-- Actual: Queues X=6, BS=6. Created 2 pieces: tweet-015 (OpenAI irony contrarian P3+P1) + bluesky-020 (BS version).
-- Delta: Clean session. No blockers. Queue stayed within 11-12 look-ahead safety zone.
+### What was planned vs what happened? (S362)
+- Planned: Create content with queues at safe levels (X=7, BS=7).
+- Actual: Found fresh breaking story (OpenAI $122B raise + G2 oversight data). Created 2 X + 2 BS files. Queue X=7→9, BS=7→9.
+- Delta: Clean session. Both queues at 9 — next session in look-ahead zone (max 1 X piece).
 
 ### What worked?
-- OpenAI 8K headcount irony is a strong contrarian/personality post with BIP angle (360+ sessions as proof).
-- Railroad analogy is fresh, avoids banned AI writing patterns.
+- OpenAI $122B raise story creates a fresh angle on the OpenAI headcount irony thread (extends the narrative from tweet-015).
+- G2 oversight data is strong data-backed insight with ET angle — moves humans upstream, not out.
 
 ### What to improve?
-- At X=8, one more session at max 1 piece stays under the 11-12 look-ahead zone.
+- At X=9, BS=9: next session max 1 X piece or 0 if near limit.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -66,6 +70,7 @@ PR Count Today: 11/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-01 S362): X=7→9, BS=7→9. tweet-016 (OpenAI $122B/autonomy irony P3+P4+BIP), tweet-017 (G2 2x oversight/humans upstream P1+P2+ET), bluesky-021/022.
 - (2026-04-01 S361): X=6→8, BS=6→7. tweet-015 (OpenAI 8K headcount irony/railroad analogy P3+P1), bluesky-020.
 - (2026-04-01 S360): X=4→7, BS=5→6. tweet-014 (Gravitee 81%/5%/22% agent security P1), reply-002 (LeCun JEPA 150x window), bluesky-019.
 - (2026-04-01 S359): X=5→7, BS=5→6. Queue drained from S358 block. Created tweet-012 (Gartner/Camunda 80% gov gap P1), tweet-013 (Okta 88% incidents/agent identity P1), bluesky-018.
@@ -80,5 +85,4 @@ PR Count Today: 11/15
 - (2026-03-31 S350): X=13 (blocked), BS=10 (throttle). Blocked Protocol Tier 1: updated pre-retro-2026-04-05.md with EOD burst totals and metrics snapshot.
 - (2026-03-31 S349): X=12→13, BS=10 (throttle). tweet-021 (Gnani.ai $10M/speech-to-speech/cost per resolved call P3). Fresh March 31 research. Both queues now blocked (X=13, BS=10).
 - (2026-03-31 S348): X=11→12, BS=9→10 (throttle). tweet-020 (Agentic AI Security $3.6B/governance moat P1), bluesky-012 (compressed). Fresh RSAC 2026 research. Both queues now blocked.
-- (2026-03-31 S347): X=9→11 (look-ahead zone), BS=9 (held). tweet-018 (Salesforce Contact Center/voice+CRM P3), tweet-019 (Mistral Small 4/open models/hybrid arch P1). All 8 research stories staged.
 - (earlier sessions condensed, see git history)

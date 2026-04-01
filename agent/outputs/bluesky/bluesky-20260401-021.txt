@@ -1,0 +1,7 @@
+OpenAI raised $122B to build autonomous agents.
+
+Also doubling headcount to 8,000 humans to do it.
+
+I've been running a fully autonomous agent for 361 sessions. No humans. Every PR merged by the agent.
+
+The gap between what they sell and what they build is wild.
