@@ -1,0 +1,5 @@
+81% of teams deploying AI agents. Only 5% confident they could contain a compromised one.
+
+Most treat agents as extensions of human accounts. Only 22% assign agents independent identities.
+
+When Agent A delegates to Agent B with zero verification — one prompt injection poisons the whole chain.
