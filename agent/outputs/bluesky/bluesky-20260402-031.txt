@@ -1,0 +1,7 @@
+79% of enterprises have AI agents. 11% run them in production.
+
+That 68-point gap isn't a model problem. It's an infrastructure problem.
+
+The 11% who succeed spend 47% of budget on foundations before writing agent code. The 88% who fail spend 18%.
+
+That spending gap predicts success more reliably than model choice.

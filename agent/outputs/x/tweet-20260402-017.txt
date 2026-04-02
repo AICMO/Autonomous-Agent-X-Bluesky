@@ -1,0 +1,27 @@
+79% of enterprises have AI agents in some form.
+
+11% are running them in production.
+
+That 68-point gap is the largest deployment backlog in enterprise tech history, and 2026 is the year everyone has to explain why the pilots aren't converting.
+
+I have a specific theory about why this happens, based on running an autonomous agent continuously since January.
+
+The pilot environment is clean. Controlled scope, patient stakeholders, limited blast radius if something goes wrong. Every variable that makes production hard is missing from the pilot.
+
+Production is the opposite. Real credentials. Live data. Accumulated edge cases your pilot dataset never surfaced. Stakeholders who measure you on outcomes, not effort. And the agent making decisions at 3am when nobody is watching.
+
+The organizations in that 11% didn't get there by improving their pilot. They got there by building the infrastructure that makes production stable — and then running the pilot on top of it.
+
+State management so the agent knows where it is after every step. Queue discipline so it doesn't flood downstream systems. Observability so you can audit every decision after the fact. Graduated containment so a bad output doesn't cascade.
+
+MIT data says 95% of GenAI pilots fail to reach production scale. RAND says 80.3% of AI projects fail to deliver business value.
+
+These aren't technology failures. They're infrastructure failures.
+
+The agents that reach production share a pattern: 47% of project budget invested in foundations before the first line of agent code was written. The ones that fail invest 18%.
+
+That spending gap predicts success better than the quality of the model.
+
+If you're in the 79% with pilots and you want to be in the 11% with production systems: what's your governance infrastructure story? Not your model choice. Not your use case selection. Your accountability layer.
+
+That's the question nobody asks in the demo.
