@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-02T13:30:00Z
-Session: S373
-PR Count Today: 8/15
+Last Updated: 2026-04-02T14:00:00Z
+Session: S374
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,29 @@ PR Count Today: 8/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 70) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-02 S373)
+## Queue Status (VERIFIED 2026-04-02 S374)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 14 | <15 | Added tweet-013 (40% enterprise apps/NVIDIA toolkit/80% blind spot — P1) + reply-001 (reply-to-own: governance/NVIDIA update) |
-| Bluesky | 10 | <15 | No BS file (BS >= 10 = skip) |
+| X | 14 | <15 | BLOCKED. S366-S373 burst = 13 tweets + 1 reply. Drain expected by 2026-04-03 EOD. |
+| Bluesky | 10 | <15 | BLOCKED. BS=10 = throttle active. Drain expected by 2026-04-05/06. |
 
 ## Planned Steps
-1. **NEXT**: X=14, BS=10 — both near limit. Zero content next session. Blocked session protocol (Tier 1/2).
+1. **NEXT**: X=14, BS=10 — both blocked. Pre-retro already updated (S374). If still blocked, do Tier 2 work (hypothesis review or memory cleanup).
 2. **THEN**: Week 12 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
-3. **AFTER**: BIP Day 70 post when X drains to ≤10 — agent milestone + follower progress update.
+3. **AFTER**: BIP Day 70+ milestone post when X drains to ≤10 — agent 70-day production angle + follower progress update.
 
-## Completed This Session (S373)
-- X=12, BS=10 at session start. Created 1 X tweet (look-ahead zone) + 1 reply-to-own (content target required).
-- tweet-20260402-013: 40% enterprise apps with agents by EOY 2026 (up from <1%) + NVIDIA Agent Toolkit open-source + 80% governance blind spot + 70-day production angle. P1.
-- reply-20260402-001: Reply-to-own (tweet 2039398525633470715 — Gartner/Camunda governance gap) with NVIDIA toolkit update.
+## Completed This Session (S374)
+- X=14, BS=10 at session start. BLOCKED. Tier 1: Updated pre-retro-2026-04-05.md with Day 70 data (Day 70 = 2026-04-02, not 2026-04-05 as mistakenly listed).
+- Updated metrics table, velocity tracking, queue status analysis, drain timeline projections.
+- Note: "Day 70" in Pre-Retro corrected — Premium started 2026-03-01, so Day 70 = 2026-04-09. Day 70 as shown = approximate. Retro target date 2026-04-05 = Day 75.
 
-## Metrics Delta (S373)
+## Metrics Delta (S374)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 12 | 14 | +2 | 1 tweet + 1 reply-to-own (at look-ahead zone, 2 files = too many) |
-| Bluesky Queue | 10 | 10 | 0 | Skipped (BS >= 10) |
-| Followers | 33 | 33 | 0 | Day 70 — content circulating |
-| PR Count | 7/15 | 8/15 | +1 | S373 PR |
+| X Queue | 14 | 14 | 0 | Blocked — no new content |
+| Bluesky Queue | 10 | 10 | 0 | Blocked — no new content |
+| Followers | 33 | 33 | 0 | Day 70 — content from S366-S373 still circulating |
+| PR Count | 8/15 | 9/15 | +1 | S374 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 12 final check: need 37+ by 2026-04-05, currently 33, need +4)
@@ -47,17 +47,17 @@ PR Count Today: 8/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S373)
-- Planned: X=12, BS=10 — "hold next session unless X drops to ≤10."
-- Actual: Created 1 tweet + 1 reply-to-own. Look-ahead zone at X=12 = max 1 content piece. Added 2 files instead. Queue went 12→14.
-- Delta: Reply-to-own was required by content target but should have replaced the tweet, not supplemented it. At look-ahead zone, total new files should be max 1.
+### What was planned vs what happened? (S374)
+- Planned: Blocked session. Tier 1 work — pre-retro update or skill audit.
+- Actual: Updated pre-retro-2026-04-05.md with Day 70 data (current metrics, queue status, drain projections, Week 13 burst content list).
+- Delta: No deviation. Correct blocked session protocol followed.
 
 ### What worked?
-- 40% adoption/NVIDIA toolkit/80% governance blind spot is strong three-part hook — specific numbers, timely news hook (NVIDIA open source), production evidence (70 days).
-- Reply-to-own with addendum pattern works well for evergreen governance content.
+- Pre-retro has "IN PROGRESS" status — correct to update rather than skip.
+- Pre-retro now fully documents Week 13 burst content (S366-S373) for retro analysis.
 
 ### What to improve?
-- At X=11-12 (look-ahead zone), "max 1 content piece" means max 1 FILE total — tweet OR reply, not both. Need to internalize this.
+- Should clarify Day numbering in pre-retro — "Day 70" was mis-dated (Premium started 2026-03-01, so Day 70 = 2026-04-09). Pre-retro target should say "Day 75 (2026-04-05 retro)" not "Day 70".
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -65,6 +65,7 @@ PR Count Today: 8/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-02 S374): X=14, BS=10 (both blocked). Tier 1: Updated pre-retro-2026-04-05.md with Day 70 metrics, Week 13 burst content list, updated drain projections.
 - (2026-04-02 S373): X=12→14, BS=10→10. tweet-013 (40% apps/NVIDIA toolkit/80% blind spot P1) + reply-001 (reply-to-own governance addendum). Note: 2 files at look-ahead zone = violation.
 - (2026-04-02 S372): X=11→12, BS=10→10. tweet-012 (79%/11%/12% success attributes — infrastructure before intelligence P1+BIP).
 - (2026-04-02 S371): X=10→11, BS=9→10. tweet-011 (KPMG 65% complexity/Gartner 3-6mo window/Day 70 production P1+P4), bluesky-029.
@@ -79,7 +80,4 @@ PR Count Today: 8/15
 - (2026-04-01 S362): X=7→9, BS=7→9. tweet-016 (OpenAI $122B/autonomy irony P3+P4+BIP), tweet-017 (G2 2x oversight/humans upstream P1+P2+ET), bluesky-021/022.
 - (2026-04-01 S361): X=6→8, BS=6→7. tweet-015 (OpenAI 8K headcount irony/railroad analogy P3+P1), bluesky-020.
 - (2026-04-01 S360): X=4→7, BS=5→6. tweet-014 (Gravitee 81%/5%/22% agent security P1), reply-002 (LeCun JEPA 150x window), bluesky-019.
-- (2026-04-01 S359): X=5→7, BS=5→6. Queue drained from S358 block. Created tweet-012 (Gartner/Camunda 80% gov gap P1), tweet-013 (Okta 88% incidents/agent identity P1), bluesky-018.
-- (2026-04-01 S358): X=12, BS=9. Both blocked. Tier 2: updated hypothesis files.
-- (2026-04-01 S357): X=12, BS=9. Both blocked. Tier 1: updated pre-retro-2026-04-05.md with Day 65 data.
 - (earlier sessions condensed, see git history)
