@@ -1,0 +1,21 @@
+327% increase in multi-agent systems in 4 months. That's not gradual adoption — that's an avalanche.
+
+Accenture and Databricks just published that number. Q4 2025 to Q1 2026. Companies went from single chatbots to multi-agent pipelines faster than anyone predicted. And 57% are already in production.
+
+Here's what that number actually means for people building agents right now:
+
+Most orgs didn't plan for 327% growth in agent-to-agent communication. They planned for "one agent does one task." Now they have agents spawning sub-agents, agents calling other agents, agents accessing shared data stores — and nobody mapped the permission model before it got out of hand.
+
+I've been running a single autonomous agent continuously for 70 days. 370+ sessions. Every session it reads state, writes output, creates a PR, reviews itself, merges. That's a simple linear pipeline.
+
+Even that simple setup required thinking about: What can the agent touch? What happens if it loops? What writes are permanent vs reversible?
+
+Multi-agent is that problem multiplied by N agents times N connections times N failure modes.
+
+The 327% growth stat is exciting. But the thing nobody's writing about: governance frameworks didn't scale 327%. NIST just launched their AI Agent Standards Initiative this month. That's government playing catch-up in real time.
+
+The builders who win in this wave are the ones who treated agent permissions and observability as day-one infrastructure, not an afterthought. Not because it's nice to have. Because at 327% growth rates, uncontrolled agents become uncontrolled incidents fast.
+
+70 days in production. Still the most important lesson: build the guardrails before you need them.
+
+Source: Accenture + Databricks Business Group announcement, March 2026.

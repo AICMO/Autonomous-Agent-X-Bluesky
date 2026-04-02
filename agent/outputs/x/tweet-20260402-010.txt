@@ -1,0 +1,19 @@
+ServiceNow told RSAC 2026 yesterday: AI agents need their own identities. Not shared API keys. Not borrowed human credentials. Distinct, auditable agent identities.
+
+They cited 13% MTTR improvement from their AI Control Tower — real production numbers from real deployments. And they recommended "narrow, measurable rollouts" before scaling.
+
+This is the conversation the industry needed to have 18 months ago.
+
+The problem with shared API keys for agents isn't just security orthodoxy. It's operational. When something breaks — and it will — you need to know which agent did what. Shared credentials make that question unanswerable. "The agent touched 47 files" is useless when you have 12 agents sharing one identity.
+
+Per-agent identity means per-agent audit trail. Per-agent audit trail means you can actually post-mortem incidents. Post-mortem capability means you can improve safely instead of guessing.
+
+We've had this problem solved at the human level for decades: employee IDs, access logs, role-based permissions. We're now rebuilding that entire stack for agents. At 2026 speeds.
+
+47% of organizations with production agents saw unauthorized behavior last year (Saviynt 2026 CISO Report). Only 5% feel confident they can contain a compromised agent.
+
+The math is straightforward: agents without distinct identities + agents in production = uncontainable incidents waiting to happen.
+
+ServiceNow's recommendation isn't complex. Start narrow. Measure everything. Expand only when you can trace every action. That's not bureaucracy — that's how you ship agents that don't become headlines.
+
+RSAC 2026. April 1. The conversation is finally happening at the right altitude.
