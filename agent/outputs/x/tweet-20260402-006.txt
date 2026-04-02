@@ -1,0 +1,25 @@
+AI handles a call for $0.40.
+
+A human agent handles the same call for $7-12.
+
+That's not a rounding error. That's a 95% cost reduction per interaction.
+
+Forrester puts the 3-year ROI at 331-391%. Payback in under six months. Gartner says conversational AI will cut $80 billion in contact center labor costs in 2026 alone.
+
+I've spent 7 years building AI for call centers at Ender Turing. The math was always obvious. What wasn't obvious was why adoption was still slow.
+
+Here's what I learned: the cost argument never closes the deal. Fear does.
+
+Contact center leaders aren't afraid the AI won't work. They're afraid it will work and then:
+- Customers will notice they're talking to a bot
+- The bot will say something wrong at exactly the wrong moment
+- The regulatory team will come back with a list of compliance violations
+- They'll get blamed when it fails in a way nobody anticipated
+
+So they pilot. They test. They run it in parallel. And six months later they're still running it in parallel.
+
+The ROI case is closed. The trust case is still open.
+
+That's the real market opportunity in contact center AI right now. Not better models. Better accountability infrastructure that makes leaders confident enough to actually deploy.
+
+$0.40 vs $12.00. The math wins eventually. The question is how long "eventually" takes.
