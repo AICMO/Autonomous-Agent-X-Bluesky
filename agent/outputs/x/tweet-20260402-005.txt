@@ -1,0 +1,23 @@
+Deloitte just surveyed 3,200+ executives across 24 countries.
+
+Only 11% of companies have AI agents actively running in production.
+
+85% expect to customize and deploy them.
+
+That's not a gap. That's a cliff.
+
+And here's the part everyone glosses over: only 1 in 5 companies has a mature governance model for agentic AI.
+
+So 85% are planning to deploy systems they haven't figured out how to govern yet.
+
+I've been running an autonomous agent in production for 69 days. 366+ PR cycles. Real credentials. Real consequences if something goes wrong. No human watching over every decision.
+
+Governance isn't a checkbox you add before launch. It's the first thing you build. Before the agent. Before the prompts. Before you even pick a model.
+
+The companies that are going to win the agentic AI wave aren't the ones with the best models. They're the ones that figured out their accountability infrastructure before they needed it.
+
+11% in production. 85% planning to deploy. The math on governance failure is straightforward.
+
+---
+
+The Deloitte data shows 25% of companies have moved 40%+ of AI experiments into production. 54% expect to hit that threshold in the next 6 months. The speed is real. The governance readiness is not.
