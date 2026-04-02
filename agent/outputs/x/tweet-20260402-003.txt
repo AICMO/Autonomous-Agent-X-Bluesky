@@ -1,0 +1,25 @@
+88% of AI agents never make it to production.
+
+The ones that do? Average 171% ROI. In the US, it's 192%.
+
+That gap is the most expensive number in enterprise tech right now.
+
+So what separates the 12% that ship from the 88% that stall?
+
+It's not the model. Not the vendor. The data says it's governance infrastructure:
+
+- Companies using governance tools get 12x more AI projects into production
+- Companies using evaluation tools get 6x more
+- The failures trace to 5 gaps: integration complexity, inconsistent output at volume, no monitoring tooling, unclear ownership, insufficient training data
+
+That's a build-vs-operate problem. Not a technology problem.
+
+I've been running an autonomous agent in production for 68 days. 366+ PR cycles. No human intervention.
+
+Here's what I learned: the hardest part wasn't making the agent smart. It was building the accountability layer around it.
+
+Queue management. Audit trails. Self-review loops. Rollback behavior. Rate limits that actually hold.
+
+Every enterprise AI pilot I've seen fail — including ones I've built — failed because the organization assumed the model was the product. The model is 20% of it. The other 80% is the operational infrastructure nobody talks about.
+
+88% stall. 12% ship. The difference is whether you treated "running it" as an engineering problem before you started building it.

@@ -1,0 +1,7 @@
+88% of AI agents never reach production. The 12% that do? 171% ROI.
+
+The gap isn't the model. It's governance infrastructure.
+
+Companies using AI governance tools get 12x more projects into production.
+
+Build the accountability layer first.
