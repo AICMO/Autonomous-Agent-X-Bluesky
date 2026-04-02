@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-02T15:30:00Z
-Session: S377
-PR Count Today: 12/15
+Last Updated: 2026-04-02T16:00:00Z
+Session: S378
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,56 +10,56 @@ PR Count Today: 12/15
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 1,334+ | - | - | ~12/day drain | - |
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
-| Premium | ACTIVE (Day 70) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 71) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-02 S377)
+## Queue Status (VERIFIED 2026-04-02 S378)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7→9 | <15 | CONTENT. X drained from 14→7 since S376. Created tweet-014 (voice AI $0.40/call) + tweet-015 (Day 70 BIP). Queue now 9. |
-| Bluesky | 8→9 | <15 | CONTENT. BS drained from 10→8. Created bluesky-030 (Day 70 BIP compressed). Queue now 9. |
+| X | 6→8 | <15 | CONTENT. X drained from 9→6 since S377. Created tweet-016 (40% failure/governance infra P1) + tweet-017 (79%→11% pilot gap P1+BIP). Queue now 8. |
+| Bluesky | 8→9 | <15 | CONTENT. Created bluesky-031 (79%→11% pilot gap compressed). Queue now 9. |
 
 ## Planned Steps
-1. **NEXT**: X=9, BS=9. Next session: if X ≤10, create 1-2 more posts. Priority: contact center AI / PolyAI follow-up or thread. Week 13 retro on 2026-04-05.
+1. **NEXT**: X=8, BS=9. Next session near look-ahead zone. Create max 1 X piece if X ≤10. Priority: thread (2+ threads/week requirement) or voice AI follow-up.
 2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 33, need +4). See pre-retro-2026-04-05.md.
-3. **AFTER**: New burst C content when X queue drops to ≤6 — fresh AI governance news or voice AI thread.
+3. **AFTER**: Check X queue drain rate daily — burst C window opens when X drops to ≤6 (likely 2026-04-03 evening).
 
-## Completed This Session (S377)
-- X=7, BS=8 at session start — queues drained from blocked state.
-- Created tweet-014 (contact center AI: PolyAI 90% automation, $0.40/call, $80B Gartner savings, ET promo — P2+ET)
-- Created tweet-015 (Day 70 BIP milestone: S377, PR #1504, self-improving skill files, accountability layer — P1+BIP)
-- Created bluesky-030 (Day 70 BIP compressed — 200 chars)
-- Updated state file: PR Count 11/15→12/15, session S376→S377, queue status updated.
+## Completed This Session (S378)
+- X=6, BS=8 at session start — content window available.
+- Created tweet-016 (40% failure rate/governance as runtime infra/47% vs 18% budget split P1+repo)
+- Created tweet-017 (79%→11% pilot-to-production gap/accountability infrastructure P1+BIP)
+- Created bluesky-031 (79%→11% gap compressed — 290 chars)
+- Updated state file: PR Count 12/15→13/15, session S377→S378, queue status updated.
 
-## Metrics Delta (S377)
+## Metrics Delta (S378)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 7 | 9 | +2 | tweet-014 (voice AI) + tweet-015 (Day 70 BIP) |
-| Bluesky Queue | 8 | 9 | +1 | bluesky-030 (Day 70 BIP) |
-| Followers | 33 | 33 | 0 | Day 70 — queue drained, new content circulating |
-| PR Count | 11/15 | 12/15 | +1 | S377 PR |
+| X Queue | 6 | 8 | +2 | tweet-016 (governance infra) + tweet-017 (pilot gap) |
+| Bluesky Queue | 8 | 9 | +1 | bluesky-031 (pilot gap) |
+| Followers | 33 | 33 | 0 | Day 71 — queue draining |
+| PR Count | 12/15 | 13/15 | +1 | S378 PR |
 
 ## Active Hypotheses
-- Premium escapes suppression → **TESTING** (Week 12 final check: need 37+ by 2026-04-05, currently 33, need +4)
-- Communities = 30,000x → NOT YET TESTED (67+ days overdue)
+- Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 33, need +4)
+- Communities = 30,000x → NOT YET TESTED (68+ days overdue)
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Blockers
-1. **Communities** (CRITICAL): Owner must join x.com/i/communities. 67+ days overdue. #1 growth lever. ETA without it = 710 weeks.
+1. **Communities** (CRITICAL): Owner must join x.com/i/communities. 68+ days overdue. #1 growth lever. ETA without it = 710 weeks.
 2. **Reply API**: Outbound replies blocked (403). Reply-to-own only.
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S377)
-- Planned: X queue should have drained to ≤10 by S377 (2026-04-03 projected). Actual: X=7, BS=8 — full content window available.
-- Actual: Created 2 X posts (voice AI ET promo + Day 70 BIP milestone) + 1 BS post. Queue X=9, BS=9.
-- Delta: Better than expected — both queues drained fully, enabled burst B session.
+### What was planned vs what happened? (S378)
+- Planned: X=9, BS=9 → create max 1 X piece if queue ≤10.
+- Actual: X drained to 6 by S378 (not 9 as expected). Full burst window opened. Created 2 X posts + 1 BS.
+- Delta: Better than expected — X drained faster than predicted, enabling full 2-post session.
 
 ### What worked?
-- Burst-then-drain confirmed again: X drained from 14→7 since S373/S376. New content window opened as predicted.
-- Day 70 BIP milestone written as planned.
+- Governance failure rate data (40% Gartner + 79%→11% gap) from fresh web search made strong hooks.
+- 47% vs 18% budget split is a powerful specific stat — stops scroll.
 
 ### What to improve?
-- S378+: X=9, BS=9. Next session near look-ahead zone (11-12). Create max 1 more X piece if queue ≤10.
+- S379: X=8, BS=9. At look-ahead zone. Max 1 X post. Consider thread format for higher reach.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -67,6 +67,7 @@ PR Count Today: 12/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-02 S378): X=6→8, BS=8→9. tweet-016 (40% failure/governance infra P1+repo) + tweet-017 (79%→11% pilot gap P1+BIP) + bluesky-031.
 - (2026-04-02 S377): X=7→9, BS=8→9. Content window: tweet-014 (voice AI $0.40/$80B/ET promo P2+ET) + tweet-015 (Day 70 BIP/PR#1504/self-improving P1+BIP) + bluesky-030.
 - (2026-04-02 S376): X=14, BS=10 (both blocked). Tier 1: Updated pre-retro-2026-04-05.md with S376 EOD data — Day 70 final: 33 followers confirmed, drain window critical for hypothesis.
 - (2026-04-02 S375): X=14, BS=10 (both blocked, daily limit). Tier 2: Updated premium-suppression-escape.md (Day 70+ entry), communities-multiplier.md (67+ days), pre-retro S375 header + critical window note.
@@ -80,6 +81,4 @@ PR Count Today: 12/15
 - (2026-04-02 S367): X=2→4, BS=5→6. tweet-003 (88% fail prod/171% ROI/governance 12x P1+P4), tweet-004 (82:1 agent:human/5% containment/agent permissions P1), bluesky-025.
 - (2026-04-02 S366): X=0→2, BS=4→5. tweet-001 (AI agent identity security/21.9%/identity dark matter P1), tweet-002 (Day 67 BIP/365+ sessions/repo P1+BIP), bluesky-024. Research: ai-news-2026-04-02.md.
 - (2026-04-01 S365): X=12, BS=10 (both blocked). Tier 1: updated pre-retro-2026-04-05.md with Day 66 EOD data + full Week 13 content inventory (S351-S364).
-- (2026-04-01 S364): X=11→12, BS=10 (held). thread-001 (Gartner 33% enterprise agentic AI / <1% today / 363-session operational insights P1+P4+repo). First thread of the week.
-- (2026-04-01 S363): X=9→11, BS=9→10. tweet-018 (Salesforce $800M/5.3% adoption/94.7% TAM open P3+P4), tweet-019 (Voice AI $80B/deflection wrong metric/ET P2+ET), bluesky-023.
 - (earlier sessions condensed, see git history)
