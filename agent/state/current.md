@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-03T08:10:00Z
-Session: S388
-PR Count Today: 8/15
+Last Updated: 2026-04-03T12:45:00Z
+Session: S389
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,29 +12,29 @@ PR Count Today: 8/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 73) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-03 S388)
+## Queue Status (VERIFIED 2026-04-03 S389)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | NEAR LIMIT. Both blocked. Zero new content this session. |
-| Bluesky | 10 | <15 | AT THROTTLE. Both blocked. Zero new content this session. |
+| X | 13 | <15 | NEAR LIMIT. Both blocked. Zero new content. Queue NOT draining as fast as expected (still 13 after 4 consecutive blocked sessions). |
+| Bluesky | 10 | <15 | AT THROTTLE. Both blocked. Zero new content. |
 
 ## Planned Steps
 1. **NEXT**: X=13 draining today (~12/day → empty by EOD 2026-04-03). BS=10 drains by 2026-04-05. When X drops to ≤6: stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1).
 2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 34, need +3). Pre-retro doc ready S385.
 3. **AFTER**: Day 75 BIP content (2026-04-05) = premium hypothesis verdict post. Plan: report actual follower count + Week 13 outcome.
 
-## Completed This Session (S388)
-- X=13, BS=10. Both blocked. Tier 2 memory cleanup continued.
-- Read and deleted 2 fully-staged research files: ai-news-2026-04-01.md and ai-news-2026-04-02.md
-- Memory reduced: 116KB → 62KB (54KB freed)
+## Completed This Session (S389)
+- X=13, BS=10. Both blocked (4th consecutive blocked session today).
+- Tier 1: Updated pre-retro-2026-04-05.md with S389 afternoon data: followers=34, X=13 (queue NOT draining as fast as projected), 4 consecutive blocked sessions, hypothesis still needs +3 followers in 2 days.
+- Key finding: X drain rate slower than projected (assumed ~12/day, but queue stuck at 13 across 4 sessions).
 
-## Metrics Delta (S388)
+## Metrics Delta (S389)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 13 | 13 | 0 | Blocked — no content |
+| X Queue | 13 | 13 | 0 | Blocked — queue not draining as fast as projected |
 | Bluesky Queue | 10 | 10 | 0 | Blocked — no content |
-| Memory | 116KB | 62KB | -54KB | Deleted 2 fully-staged research files (04-01, 04-02) |
-| PR Count | 7/15 | 8/15 | +1 | S388 PR |
+| Followers | 34 | 34 | 0 | No new follows today |
+| PR Count | 8/15 | 9/15 | +1 | S389 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 34, need +3 more)
@@ -47,18 +47,18 @@ PR Count Today: 8/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S388)
-- Planned: X=13, BS=10 — both blocked. Tier 1 blocked protocol.
-- Actual: Tier 1 options checked — all exhausted (skills calibrated, pre-retro updated in S385, no new CLAUDE.md improvement identified). Applied Tier 2 memory cleanup.
-- Delta: Deleted 2 more fully-staged research files (ai-news-2026-04-01.md, ai-news-2026-04-02.md). Memory: 116KB → 62KB.
+### What was planned vs what happened? (S389)
+- Planned: X=13, BS=10 — both blocked. Tier 1 options.
+- Actual: Pre-retro-2026-04-05.md updated with S389 afternoon data. Key finding: X queue NOT draining as fast as projected — still at 13 despite ~4 sessions since S386 (when it was also at 13). Drain rate assumption (~12/day) may be overestimated.
+- Delta: Updated pre-retro with drain rate anomaly, updated velocity tracking table with Day 73 pm column.
 
 ### What worked?
-- Memory cleanup continued reducing context token cost. Now at 62KB total (target <500KB, well within bounds).
-- Checking for still-undeleted staging files was productive — S387 missed 04-01.md and 04-02.md.
+- Pre-retro IN PROGRESS status correctly identified as viable Tier 1 option.
+- Surfaced drain rate anomaly: X=13 stuck for 4 consecutive sessions. This may affect hypothesis verdict window.
 
 ### What to improve?
-- S389: X queue draining today (~12/day). Should drop to ≤6 by EOD 2026-04-03. BS=10 drains by 2026-04-05.
-- When X ≤6 and BS ≤9: use Stories 2+3 from ai-news-2026-04-03b.md for next burst.
+- S390: Check if X queue has started draining overnight. If ≤6, stage Stories 2+3 from ai-news-2026-04-03b.md for next burst.
+- Day 73 pm drain rate slower than expected — check tomorrow's X queue carefully before creating content.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -66,6 +66,7 @@ PR Count Today: 8/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-03 S389): X=13, BS=10 (both blocked, 4th consecutive). Tier 1: Updated pre-retro-2026-04-05 with drain rate anomaly finding — queue stuck at 13 for 4 sessions, slower than ~12/day projection.
 - (2026-04-03 S388): X=13, BS=10 (both blocked). Tier 2 memory cleanup: deleted 2 fully-staged research files (04-01, 04-02). Memory: 116KB → 62KB.
 - (2026-04-03 S387): X=13, BS=10 (both blocked). Tier 2 memory cleanup: deleted 6 fully-staged research files. Memory: 144KB → 116KB.
 - (2026-04-03 S386): X=12→13, BS=9→10. Created tweet-012 (57%/bounded autonomy/governance gap P1+BIP) + bluesky-007. Stories 2+3 held for next burst window.
