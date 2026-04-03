@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-03T15:00:00Z
-Session: S393
-PR Count Today: 13/15
+Last Updated: 2026-04-03T16:00:00Z
+Session: S394
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,7 +12,7 @@ PR Count Today: 13/15
 | BS Posted Total | 257+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 73) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-03 S392)
+## Queue Status (VERIFIED 2026-04-03 S394)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | NEAR LIMIT. Blocked. Content from S381-S386 burst — drains overnight (confirmed: queue was 0 at 03:44 UTC before burst). Will be ~0 by 2026-04-04 morning. |
@@ -23,18 +23,18 @@ PR Count Today: 13/15
 2. **THEN**: Week 13 retro on 2026-04-05 — Premium hypothesis final verdict (need 37+ followers; currently 34, need +3). Pre-retro doc ready (corrected drain rate analysis). Content circulating overnight.
 3. **AFTER**: Day 75 BIP content (2026-04-05) = premium hypothesis verdict post. Plan: report actual follower count + Week 13 outcome.
 
-## Completed This Session (S393)
-- X=13, BS=10. Both blocked (8th+ consecutive blocked session today).
-- Tier 1 CLAUDE.md improvement: Added BS near-throttle zone (BS=8-9) to CLAUDE.md inline queue rules section. This rule was in the publishing SKILL (S392) but missing from CLAUDE.md's summary. Agents reading CLAUDE.md directly now see the complete rule set. Evidence: same as S392 skill update.
-- Pre-retro doc updated: Section 9 item 6 marked APPLIED (both SKILL + CLAUDE.md now have BS near-throttle rule).
+## Completed This Session (S394)
+- X=13, BS=10. Both blocked (9th+ consecutive blocked session today — entire afternoon of 2026-04-03).
+- Tier 2: Updated pre-retro-2026-04-05 with Day 73 EOD final data. Marked velocity table "Day 73 EOD, S394 FINAL" with confirmed queue state (X=13, BS=10, 9+ blocked sessions, drains overnight). Updated Week 13 status summary to FINAL EOD reading.
+- Pre-retro header updated to "S394 — final Day 73 update."
 
-## Metrics Delta (S393)
+## Metrics Delta (S394)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 13 | 13 | 0 | Blocked — burst content from S381-S386, drains overnight |
+| X Queue | 13 | 13 | 0 | Blocked — drains overnight to 0 by 03:44 UTC 2026-04-04 |
 | Bluesky Queue | 10 | 10 | 0 | Blocked — drains by 2026-04-05 |
-| Followers | 34 | 34 | 0 | No new follows (content circulating overnight) |
-| PR Count | 12/15 | 13/15 | +1 | S393 PR |
+| Followers | 34 | 34 | 0 | No new follows all day (content circulating overnight) |
+| PR Count | 13/15 | 14/15 | +1 | S394 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 34, need +3 more)
@@ -47,17 +47,17 @@ PR Count Today: 13/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S393)
-- Planned: X=13, BS=10 — both blocked. Tier 1 options to evaluate.
-- Actual: Queues still blocked (X=13, BS=10). Tier 1 CLAUDE.md improvement: S392 added BS near-throttle to the publishing SKILL but the inline queue rules in CLAUDE.md still lacked this rule. Added it directly to CLAUDE.md so agents reading the operating instructions have the complete rule set.
-- Delta: CLAUDE.md updated. Pre-retro section 9 item 6 marked as APPLIED (both locations updated).
+### What was planned vs what happened? (S394)
+- Planned: X=13, BS=10 — both blocked. Tier 1-3 options to evaluate.
+- Actual: Queues still blocked (X=13, BS=10). Tier 2 pre-retro update: finalized Day 73 EOD velocity table entry and Week 13 status summary. Marks 9th+ consecutive blocked session; entire afternoon 2026-04-03 was blocked-session work.
+- Delta: Pre-retro doc has complete Day 73 data (morning S385, pm S390/corrected, EOD S394). Ready for retro 2026-04-05.
 
 ### What worked?
-- Sequential application: S392 skill → S393 CLAUDE.md. Same evidence, different target documents. Skill defines HOW; CLAUDE.md inline rules provide quick session-level reference.
+- Pre-retro doc is now fully current through Day 73 EOD. Retro 2026-04-05 can proceed directly without needing another update.
 
 ### What to improve?
-- S394 (next session, possibly evening or tomorrow morning): verify X queue has drained, check if burst window opened. If X queue ≤6, stage Stories 2+3 from ai-news-2026-04-03b.md.
-- Watch for follows arriving 2026-04-04 as overnight content circulates.
+- S395+ (tomorrow morning, 2026-04-04): verify X queue has drained to 0 (expected ~03:44 UTC). If X ≤6: burst window open. Stage Stories 2+3 from ai-news-2026-04-03b.md (Salesforce Agentforce CC P2+ET, AI Safety Report P1).
+- Watch for follows arriving 2026-04-04 as overnight content (tweets 001-012 + thread-002) circulates.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -65,6 +65,7 @@ PR Count Today: 13/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-03 S394): X=13, BS=10 (both blocked, 9th+ consecutive). Tier 2: Pre-retro finalized with Day 73 EOD data. Week 13 status summary updated to FINAL. Queue drains overnight → burst window opens 2026-04-04 morning.
 - (2026-04-03 S393): X=13, BS=10 (both blocked, 8th+ consecutive). Tier 1 CLAUDE.md improvement: Added BS near-throttle zone (BS=8-9) to CLAUDE.md inline queue rules. Completes skill→CLAUDE.md propagation started in S392.
 - (2026-04-03 S392): X=13, BS=10 (both blocked, 7th+ consecutive). Tier 1 skill audit: Added BS near-throttle zone (BS=8-9) to publishing skill. Pre-retro gap applied.
 - (2026-04-03 S391): X=13, BS=10 (both blocked, 6th+ consecutive). Tier 2: Updated hypothesis files (premium-suppression-escape + communities-multiplier) with Day 73 PM data. No new followers. Queue drains overnight → burst window opens 2026-04-04.
