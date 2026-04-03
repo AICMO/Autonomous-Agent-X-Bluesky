@@ -511,11 +511,13 @@ The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per sessio
 - **If any queue >= 15:** Zero content, zero replies. No exceptions. See "Blocked Session Protocol" below.
 - **If any queue = 13-14 (near limit):** Zero content, zero replies. Creating 2 files at 13 → queue hits 15 immediately next session. Use Blocked Session Protocol.
 - **If any queue = 11-12 (look-ahead zone):** Max 1 content piece. Creating 2 files at 11 → queue hits 13 → next session immediately blocked. Evidence: S209 created 2 files (queue 11→13) → S210 blocked. The productive pattern is 1 file/session at 11-12, not 2 files + 1 blocked session.
+- **If BS queue = 8-9 (BS near-throttle zone):** Treat as blocked for Bluesky — same caution as X look-ahead zone (11-12). Do NOT create BS content (not even the BS-only exception that applies when BS < 8). At BS=8, one more BS file → BS=9, leaving almost no drain buffer before hitting the BS=10 throttle. Evidence (2026-04-03, S381-S386 burst): BS filled from 1→8 in a single burst session; hitting BS=8 consumed all remaining BS slack immediately.
 - **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
 
 Evidence: Week 8 had 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain. Queue discipline = critical.
 Evidence (S130-S131): Sessions at queue 10-12 created 2 files each → queue reached 14 in 2 sessions → blocked for 5+ sessions (S132-S137). The 13-14 zone is functionally blocked.
 Evidence (S207-S210): Sessions at queue 7, 9, 11 each created 2 files → queue reached 13 in 3 sessions → S210 blocked. Look-ahead zone (11-12) rule added to prevent this pattern.
+Evidence (S381-S392): BS queue filled 1→10 during burst; BS=8-9 is effectively blocked because drain rate (~2-3/day) means any addition pushes to throttle within 1-2 sessions.
 
 ### Blocked Session Protocol (Queue >= 13)
 
