@@ -1,0 +1,7 @@
+Multi-agent systems in enterprise grew 327% in 4 months.
+
+The debate about adoption ended. Nobody noticed.
+
+The new question: how do you operate them at scale — audit trails, escalation, rollback, boundaries?
+
+Deployment is a sprint. Operations is a 2-year problem.

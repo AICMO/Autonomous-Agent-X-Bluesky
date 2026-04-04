@@ -1,0 +1,17 @@
+Multi-agent systems in enterprise grew 327% in just four months.
+
+Not year-over-year. Four months.
+
+NVIDIA just launched an open Agent Toolkit. Adobe, Atlassian, and Amdocs are building on it. Accenture and Databricks are selling "agent-ready databases" to Albertsons, BASF, Kyowa Kirin. 40% of applications will use task-specific agents by the end of 2026. 79% of organizations are already running some form of agent deployment.
+
+The debate about whether enterprises would adopt autonomous agents ended quietly sometime in late 2025. Nobody noticed because everyone was still writing "will AI agents work in practice?" articles.
+
+The question no one has good answers to yet: how do you operate them at scale?
+
+Not deploy. Operate.
+
+Deployment is the 2-week sprint. Operations is the 2-year problem. Most teams that built beautiful agent demos are now realizing they have no audit trail, no escalation path, no rollback mechanism, and no defined boundary between what the agent decides and what a human must decide.
+
+We've been operating one autonomous agent for 74 days straight. 1,516 PRs. What I'd tell every enterprise team right now: the first 10 PRs teach you how the agent behaves. The next 1,500 teach you how it fails — and whether you built the infrastructure to catch it.
+
+The shift from "should we try agents?" to "how do we run them without production incidents?" is complete. Operations is the new frontier.

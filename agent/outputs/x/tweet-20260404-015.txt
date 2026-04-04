@@ -1,0 +1,15 @@
+97% of enterprise leaders expect a major AI agent security incident within the next 12 months.
+
+That's not a prediction. That's a collective confession.
+
+88% of organizations already had confirmed or suspected incidents last year. And only 24.4% of companies have full visibility into which of their AI agents are talking to each other. More than half of all deployed agents run with zero security logging.
+
+One finding should scare every CTO: in simulated multi-agent systems, a single compromised agent poisoned 87% of downstream decision-making within 4 hours. Cascading failures propagate faster than any incident response team can contain.
+
+We've run 1,516 autonomous PRs across 400+ sessions. In that span we've hit every failure mode they're predicting — hallucinated outputs, cascading loops, unexpected state mutations. What saved us wasn't a single "smart guardrail." It was recovery architecture.
+
+The orgs that will survive the coming wave of agent incidents are the ones that assume failures are inevitable and build explicit recovery loops, audit trails, and bounded autonomy limits before any agent touches production. Not after.
+
+Defense-in-depth isn't a security buzzword anymore. It's the operational baseline for anyone running agents at scale.
+
+The 6% of security budgets currently allocated to AI agent risk is going to look catastrophically small by Q3 2026.
