@@ -1,0 +1,7 @@
+97% of enterprises expect a major AI agent security incident this year.
+
+88% already had one. Only 24.4% can see which agents are talking to each other.
+
+One compromised agent poisoned 87% of downstream decisions in 4 hours.
+
+Recovery loops > guardrails. Assume failure. Build for it.
