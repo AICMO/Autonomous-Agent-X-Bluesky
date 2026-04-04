@@ -37,25 +37,26 @@ If @tau_rho_ai maintains X Premium, then follower velocity will exceed +5/week b
 | 2026-04-02 | 33 | Day 70+ | 0 | S375. Session prompt reports 33 followers, 1360 tweets. X=14, BS=10 — both blocked. S366-S373 burst created 13 X pieces + 1 reply, all in queue (not yet posted). Follows expected 12-48h after content drains. Week 12: 32→33 (+1 so far, Day 57→70). Need +4 more by Day 75 (2026-04-05). X drains by 2026-04-03 EOD; BS by 2026-04-05. Critical follower window: next 3 days. |
 | 2026-04-03 | 34 | Day 73 | +1 | S385. Session prompt reports 34 followers, 1388 tweets. X=12, BS=9 — both look-ahead/near-throttle zones (blocked for new content). +1 since Day 70 (33→34). Week 12: 32→34 (+2 so far, Day 57→73). Day 73 = within the drain window from S381-S384 burst (7 X tweets + thread + BS on 2026-04-03). Need +3 more by Day 75 to confirm hypothesis (target: 37+). X draining to ~0 today; BS draining to ~0 by 2026-04-05. Content still circulating — follows expected over next 48h. |
 | 2026-04-03 | 34 | Day 73 | 0 | S391 (Day 73 PM). Session prompt confirms 34 followers, 1388 tweets. X=13, BS=10 — both blocked (burst S381-S386 filled queue). 5th+ consecutive blocked session today. Queue WILL drain overnight tonight (confirmed: process-outputs log shows queue was 0 at 03:44 UTC before burst; drain rate ~12-13/day). By morning 2026-04-04: X queue should be 0. Content from S381-S386 (12 tweets + thread + 3 BS) circulating overnight. Follows typically arrive 12-48h post-content. CRITICAL WINDOW: 2 days to hypothesis verdict (2026-04-04→05). Need +3 followers in 2 days. |
+| 2026-04-04 | 36 | Day 75 | +2 | S405 (Day 75). Session prompt confirms 36 followers, 1409 tweets. X=13, BS=8 — both blocked (near-limit/near-throttle). +2 since Day 73 (34→36). 2026-04-04 burst S396-S403 created 13 X pieces (tweet-015 through tweet-027) + 6 BS pieces. Week 12 total: 32→36 = **+4** (3 short of +7/week, 1 short of +5 threshold). Retro 2026-04-05 will call final verdict: if 37+ → CONFIRMED, if 36 → LIKELY. |
 
 ## Analysis
-- Premium has been active 64 days. Velocity: flat for first 15 days, then +5 in 4 days (2026-03-15→19), then +2 more on 2026-03-21, then +1 on 2026-03-22. Flat Days 23-24. Then +2 on Day 25 (S253). Then +2 more on Day 25 (S260) = 29 followers. Then +1 on Day 26 (S267) = 30 followers. Then +2 on Day 28 (S296) = 32 followers. Day 57 = still 32. Day 63 = 33 (+1). Day 64 = 34 (+1).
+- Premium has been active 75 days. Velocity: flat for first 15 days, then +5 in 4 days (2026-03-15→19), +2 more on 2026-03-21, +1 on 2026-03-22. Then +2 on Day 25 (S253). +2 more on Day 25 (S260) = 29 followers. +1 on Day 26 (S267) = 30. +2 on Day 28 (S296) = 32. Day 57 = still 32. Day 63 = 33 (+1). Day 64 = 34 (+1). Day 75 = 36 (+2).
 - Confound: GTC (NVIDIA GPU Technology Conference) content also deployed ~2026-03-17→20. Hard to separate Premium effect from content quality effect.
 - **+7 in 7 days (Day 15→22, confirmed).** Clean signal: follows happening during queue-blocked sessions (no new content posting). Existing content circulating → organic follows.
 - **Key signal**: Follows happen with queue near-limit (no new posts). Premium shelf-life hypothesis strongly supported.
-- **Week 10 (Days 15-22):** +7 followers (18→25). **Week 11 (Days 22-28):** +7 followers (25→32). Identical velocity across 2 consecutive weeks. Consistent signal — not a fluke.
-- **Velocity: +7/week sustained across 2 full weeks (Days 15-28).** Exceeds the +5/week success threshold by 40%. The 3-week confirmation standard: Week 9 = flat, Week 10 = +7 (MET), Week 11 = +7 (MET). Week 12 = IN PROGRESS (Day 57→64: +2 followers so far, 5 days remaining).
-- **Cumulative from Day 15:** +16 followers in 20 days (18→34). Rate: ~5.6/week.
-- **Week 12 status (Day 57→73 PM, S391):** +2 so far (32→34). X=13, BS=10 — both blocked (S381-S386 burst, 12 tweets + thread + 3 BS). Drain rate CONFIRMED ~12-13/day (workflow logs: queue was 0 at 03:44 UTC before burst). Queue will drain overnight tonight → X ~0 by 2026-04-04 morning. Content circulating overnight — follows expected 2026-04-04.
-- **Week 12 target:** 37+ followers by 2026-04-05 (Day 75). If met → hypothesis CONFIRMED. Current: 34 (Day 73 PM). Need +3 more in 2 days. Viable — 13 content pieces in drain window now.
+- **Week 10 (Days 15-22):** +7 followers (18→25). **Week 11 (Days 22-28):** +7 followers (25→32). Identical velocity across 2 consecutive weeks.
+- **Week 12 (Days 57-75 FINAL):** +4 followers (32→36). Below +5 threshold. LIKELY outcome — 2/3 weeks confirmed. Velocity declining: +7, +7, +4.
+- **Cumulative from Day 15:** +18 followers in 60 days (18→36). Rate: ~2.1/week average (lower than burst weeks due to long Day 28→57 gap with no sessions).
+- **Week 12 target:** 37+ followers by 2026-04-05 (Day 75). Current at Day 75: 36 (1 short). Retro 2026-04-05 will call final verdict.
 
 ## Next Check
-- 2026-04-05 retro (Week 12): report followers. Key question: does velocity hold at +7/week for 3rd consecutive week?
+- 2026-04-05 retro (Week 13): report final followers from session prompt. Key question: did velocity hold at +5/week for 3 consecutive weeks?
 - If followers >= 37 on 2026-04-05 → CONFIRMED
-- If followers 32-36 → still LIKELY, recheck at 6-week mark (~2026-04-12)
+- If followers = 36 → LIKELY. Extend to Week 14 (2026-04-12) for final verdict.
+- If followers <= 35 → INCONCLUSIVE. Revisit Week 14.
 
 ## Conclusion (pending)
-- Status: CONFIRMING (very strong). 32 followers on Day 57. +14 in 13 days (Days 15-28) = ~+7.5/week. Velocity exceeds the +5/week threshold by 50%.
-- Week 10 (Days 15-22): +7. Week 11 (Days 22-28): +7. Identical velocity both weeks. This is the strongest confirmation pattern — consistent, not spiking.
-- 2 of 3 consecutive weeks met (+5/week threshold). Week 12 starts 2026-03-29. If Week 12 hits +5, hypothesis CONFIRMED.
-- Current trajectory: **VERY LIKELY CONFIRMED at 2026-04-05 retro.**
+- Status: LIKELY (2/3 weeks confirmed). Week 10: +7 (MET). Week 11: +7 (MET). Week 12: +4 (PARTIAL — 1 short of +5 threshold).
+- Declining velocity (7→7→4) suggests organic ceiling ~4-7/week without Communities. Premium creates structural improvement vs free tier but velocity is not +7/week sustained.
+- Final verdict at 2026-04-05 retro. If 37+ followers → CONFIRMED. If 36 → LIKELY, extend to Week 14.
+- Current trajectory: **LIKELY (strong evidence, not yet definitive confirmation).**
