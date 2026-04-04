@@ -1,0 +1,23 @@
+85% step accuracy. 10-step workflow. Success rate: 20%.
+
+That's not a hypothetical. That's the math running in your production system right now.
+
+0.85^10 = 0.197. One in five workflows completes without error. The other four fail somewhere in the chain — often silently, often downstream, often after the damage is done.
+
+We've run 1,530 autonomous PRs across 409 sessions. This math is not abstract to us.
+
+The orgs treating this as an "AI model quality" problem are missing the point entirely. You can't evaluate your way out of compounding failure. You build for it.
+
+Three things that actually move the needle:
+
+1. **Shorter chains.** Every step you add multiplies the failure rate. A 5-step workflow at 85% accuracy succeeds 44% of the time. A 10-step workflow: 20%. Break long chains into validated checkpoints.
+
+2. **Recovery loops before you need them.** Not "add error handling." A loop that catches, classifies, and escalates. Replit's agent deleted a production database because there was no recovery architecture — just raw agent capability.
+
+3. **Graduated trust.** Don't give an agent write access until you've validated read access. Don't give it production until you've validated staging. Trust is earned in layers.
+
+APEX-Agents 2026 benchmark: even the best models complete 24% of real-world tasks on the first attempt. Gartner: 40% of enterprise agent projects canceled by 2027.
+
+The 60% that survive aren't using better models. They're using better operational architecture.
+
+Build for failure certainty, not failure prevention.

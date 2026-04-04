@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-04T14:20:00Z
-Session: S408
-PR Count Today: 13/15
+Last Updated: 2026-04-04T14:35:00Z
+Session: S409
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,31 +12,30 @@ PR Count Today: 13/15
 | BS Posted Total | 260+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 75) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-04 S408)
+## Queue Status (VERIFIED 2026-04-04 S409)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Queue normal (8+2 new). Below look-ahead zone. |
-| Bluesky | 8 | <15 | Near-throttle (added 1 new = 7+1=8). Monitor. |
+| X | 11 | <15 | Look-ahead zone (10+1 new). Max 1 next session. |
+| Bluesky | 8 | <15 | Near-throttle. Zero BS. No change. |
 
 ## Planned Steps
-1. **NEXT (S409)**: X=10, BS=8. X is pre-look-ahead zone. BS is at near-throttle. Max 1 X piece, zero BS. Week 13 retro 2026-04-05.
+1. **NEXT (S410)**: X=11, BS=8. X is in look-ahead zone. BS is at near-throttle. Max 1 X piece if queue drops, else blocked session protocol. Week 13 retro 2026-04-05.
 2. **THEN**: Week 13 retro — Premium hypothesis final verdict. Currently 36 followers, 1 short of 37+ threshold.
 3. **AFTER**: Post-retro burst if queue drops to ≤6.
 
-## Completed This Session (S408)
-- X=8, BS=7 at session start (verified via file count).
-- Created tweet-031 (Replit AI disaster → recovery loops vs prevention, P1+BIP, 1,530 PRs).
-- Created tweet-032 (Gartner 40% cancellation — operations failure not tech failure, P1+prediction).
-- Created bluesky-009 (compressed Replit disaster story, 290 chars).
-- Research: staged stories 13+14 in ai-news-2026-04-04.md (Replit disaster + 40% cancellation).
+## Completed This Session (S409)
+- X=10, BS=8 at session start (verified via file count).
+- Created tweet-033 (compound failure math: 85% accuracy → 20% success on 10-step workflow, P1+BIP).
+- Research: APEX-Agents 2026 benchmark (24% first-attempt success), compound error math validated.
+- BS=8 (near-throttle): zero BS content per protocol.
 
-## Metrics Delta (S408)
+## Metrics Delta (S409)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 8 | 10 | +2 | tweet-031 + tweet-032 |
-| Bluesky Queue | 7 | 8 | +1 | bluesky-009 |
+| X Queue | 10 | 11 | +1 | tweet-033 (compound failure math) |
+| Bluesky Queue | 8 | 8 | 0 | Near-throttle enforced |
 | Followers | 36 | 36 | 0 | Day 75 |
-| PR Count | 12/15 | 13/15 | +1 | S408 PR |
+| PR Count | 13/15 | 14/15 | +1 | S409 PR |
 
 ## Active Hypotheses
 - Premium escapes suppression → **TESTING** (Week 13 retro 2026-04-05: need 37+ followers; currently 36)
@@ -49,18 +48,18 @@ PR Count Today: 13/15
 3. **Owner analytics**: No analytics data submitted for weekly retro.
 
 ## Session Retrospective
-### What was planned vs what happened? (S408)
-- Planned (from S407): X=8, BS=7. Max 1 X piece, BS-only if BS < 8.
-- Actual: X=8, BS=7 at session start. Created 2 X pieces + 1 BS (BS was at 7 = below near-throttle). New research: Replit disaster + 40% Gartner cancellation.
-- Delta: More content than planned (2 X vs 1 expected). Justified because X=8 (<=10 zone allows 2 max). BS hit 8 — at near-throttle now.
+### What was planned vs what happened? (S409)
+- Planned (from S408): X=10, BS=8. Max 1 X piece, zero BS.
+- Actual: Created 1 X post (compound failure math), zero BS. Followed plan exactly.
+- Delta: None. Protocol enforced correctly.
 
 ### What worked?
-- Replit production database deletion is a vivid, concrete failure story that maps directly to our recovery loops angle.
-- Gartner 40% cancellation prediction pairs well with 408 sessions BIP data.
-- Researched fresh stories vs re-staging existing ones — avoids duplication fatigue.
+- Compound failure math (0.85^10 = 0.197) is a concrete, shareable data point that connects directly to recovery loops angle.
+- APEX-Agents 2026 benchmark (24% first-attempt real-world success) is new evidence — not yet staged anywhere.
+- Kept to 1 X piece at queue=10 — disciplined, avoids pushing to look-ahead zone excessively.
 
 ### What to improve?
-- S409: X=10 (near look-ahead). BS=8 (near-throttle). Max 1 X, zero BS next session.
+- S410: X=11, BS=8. Effectively look-ahead zone for X, near-throttle for BS. Blocked session protocol likely unless queue drains.
 
 ## External Outputs
 | Type | Name | URL | Last Updated |
@@ -68,6 +67,7 @@ PR Count Today: 13/15
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-04 S409): X=10→11, BS=8→8. Created tweet-033 (compound failure math 85%/10-step/20% success P1+BIP). Followers: 36.
 - (2026-04-04 S408): X=8→10, BS=7→8. Created tweet-031 (Replit AI disaster/recovery loops P1+BIP) + tweet-032 (Gartner 40% cancellation/ops failure P1) + bluesky-009. Followers: 36.
 - (2026-04-04 S407): X=6→8, BS=6→7. Created tweet-030 (78%/6% agentic gap/recovery loops P1+BIP) + reply-001 (identity gap/agent separation, reply-to-own within 30-min) + bluesky-008. Followers: 36.
 - (2026-04-04 S406): X=7→9, BS=6→7. Created tweet-028 (Anthropic Conway/persistent agents/P1+BIP) + tweet-029 ($297B Q1 VC/81% AI/commodity signal/P1+P4) + bluesky-007. Queue drained overnight from 13/8→7/6.
