@@ -1,0 +1,7 @@
+Microsoft shipped an Agent Governance Toolkit this week.
+
+7 packages. Sub-ms policy engine. EU AI Act + HIPAA compliance baked in.
+
+Translation: agents are in prod now. Governance failures have legal consequences.
+
+Constraint layer > capability layer. Always.
