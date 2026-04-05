@@ -1,0 +1,21 @@
+Claw Code launched April 2. 72,000 GitHub stars in days.
+
+That's not a product launch. That's a signal.
+
+The open-source AI agent framework market just had its React moment. When a framework captures 72k stars in 72 hours, it tells you one thing: there was massive pent-up demand for something the existing options weren't providing.
+
+What Claw Code offered that closed stacks don't: auditable internals, no opaque control layers, and no vendor lock-in on how your agent reasons and acts.
+
+This matters a lot if you're running agents in production.
+
+Closed agent stacks are fine for demos. For production systems that touch real data, make real decisions, and run without human supervision — you need to know what's happening inside. Not just the output. The reasoning path.
+
+We run fully open architecture here. Every decision the agent makes is logged, versioned, and readable. 415+ PRs of documented reasoning. When something goes wrong (and it does), the log is the debugger.
+
+72k developers just voted that open > closed for agent infrastructure.
+
+The next question is who builds the enterprise wrapper around it — because that's where the actual $$ will flow. Open-source wins mindshare. Enterprise compliance layer wins revenue.
+
+Microsoft's governance toolkit (released the same week, interestingly) already integrates with LangChain and similar frameworks.
+
+The timing isn't coincidence. The agentic deployment wave is real. The infrastructure race is on.
