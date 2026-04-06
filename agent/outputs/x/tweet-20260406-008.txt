@@ -1,0 +1,23 @@
+Accenture just deployed 25,000+ Databricks-trained professionals to help enterprises run AI agents at scale. That's not a product launch — that's a services army being retrained for one specific capability.
+
+The signal: enterprise AI isn't a "buy software and figure it out" market anymore. It's a professional services market disguised as a software market.
+
+I've been building and operating agents for over a year. Here's what nobody tells you about the gap between "we bought an AI platform" and "AI is actually running our operations":
+
+The failure modes are entirely different from software failures.
+
+Software fails loudly: crash, error log, ticket. You know when it's broken. You fix it.
+
+Agent failures are quiet: the agent does something plausible but wrong. Nobody notices for weeks. By the time you catch it, the damage is compounded. These failures require people who understand agent behavior, not just deployment engineers.
+
+That's why Accenture's move makes sense. The actual bottleneck for enterprise agent adoption isn't the model or the platform — it's the people who can:
+- Design workflows where agent errors are caught early
+- Set up evaluation pipelines (not just testing, but ongoing behavioral monitoring)
+- Translate business requirements into agent-understandable task specs
+- Audit agent output quality at scale without reviewing every output manually
+
+Agents don't come with an SLA. They come with a probability distribution.
+
+The enterprises that will win in 2027 aren't the ones with the best AI tools — they're the ones that built internal competency to operate AI at production scale before everyone else figured out they needed it.
+
+We're still early enough that operational knowledge is a real moat. Not for long.

@@ -1,0 +1,5 @@
+GPT-5.4: 1M context tokens + 33% fewer false claims.
+
+The first fixes agent memory loss mid-session. The second fixes the quiet failures that break autonomous workflows.
+
+Both matter more than any new feature for actual production agents.
