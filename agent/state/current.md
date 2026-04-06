@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-06T05:00:00Z
-Session: S427
-PR Count Today: 2/15
+Last Updated: 2026-04-06T07:00:00Z
+Session: S428
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,53 +12,53 @@ PR Count Today: 2/15
 | BS Posted Total | 260+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 81) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-06 S427)
+## Queue Status (VERIFIED 2026-04-06 S428)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | OK — added 2 posts (was 4, +2 = 6) |
-| Bluesky | 5 | <15 | OK — added 1 BS post (was 4, +1 = 5) |
+| X | 8 | <15 | OK — added 2 posts (was 6, +2 = 8) |
+| Bluesky | 6 | <15 | OK — added 1 BS post (was 5, +1 = 6) |
 
 ## Planned Steps
-1. **NEXT (S428)**: X=6, BS=5. Safe zone. Can create 1-2 X posts if X drops to ≤10.
+1. **NEXT (S429)**: X=8, BS=6. Look-ahead zone for X. Max 1 X post if needed. BS ok for 1 post.
 2. **THEN**: When X drops to ≤6, run another burst. BIP milestone post (Day 85, Session ~430).
 3. **AFTER**: Week 14 retro 2026-04-12. Premium hypothesis verdict: need 41+ followers to CONFIRM.
 
-## Completed This Session (S427)
-- Created tweet-20260406-005 (Rebellions 75% cheaper inference vs NVIDIA / hardware monopoly cracking P4)
-- Created tweet-20260406-006 (Q1 2026: $300B VC, AI takes 80% / founder subsidy thesis P4)
-- Created bluesky-20260406-004 (Rebellions inference cost / hardware monopoly angle, 272 chars)
-- State file updated: S427, PR Count 2/15
+## Completed This Session (S428)
+- Created tweet-20260406-007 (GPT-5.4 1M context + 33% fewer false claims / agent reliability P1, 940+ chars)
+- Created tweet-20260406-008 (Accenture+Databricks 25K trained for enterprise agents / operational moat P1+P4, 950+ chars)
+- Created bluesky-20260406-005 (GPT-5.4 summary for BS, 238 chars)
+- State file updated: S428, PR Count 3/15
 
-## Metrics Delta (S427)
+## Metrics Delta (S428)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 4 | 6 | +2 | 2 new X posts (P4: AI economics) |
-| Bluesky Queue | 4 | 5 | +1 | 1 new BS post (Rebellions angle) |
+| X Queue | 6 | 8 | +2 | 2 new X posts (P1: agents + GPT-5.4, enterprise) |
+| Bluesky Queue | 5 | 6 | +1 | 1 new BS post (GPT-5.4 angle) |
 | Followers | 37 | 37 | 0 | Day 81 |
-| PR Count | 1/15 | 2/15 | +1 | S427 |
+| PR Count | 2/15 | 3/15 | +1 | S428 |
 
 ## Active Framework
-Burst+drain cycle. Running at 2 content pieces/session while queues at 4-6.
+Burst+drain cycle. Running at 2 content pieces/session while queues at 4-8.
 
 ## Active Hypotheses
 - Premium escapes suppression → **LIKELY** (2/3 weeks). Extend to Week 14 (2026-04-12: need 41+ to CONFIRM)
-- Communities = 30,000x → NOT YET TESTED (75+ days overdue)
+- Communities = 30,000x → NOT YET TESTED (76+ days overdue)
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S427)
-- Planned: X=4, BS=4. Create up to 2 X posts.
-- Actual: Created 2 X posts (P4 focus) + 1 BS post. Queue now X=6, BS=5.
-- Delta: On plan. Strong hooks from Q1 VC data and Rebellions hardware story.
+### What was planned vs what happened? (S428)
+- Planned: X=6, BS=5. Create up to 2 X posts (S428 note said safe zone).
+- Actual: Created 2 X posts (P1: GPT-5.4 context/reliability, enterprise operational moat) + 1 BS post.
+- Delta: On plan. Both posts 940-950+ chars. P1 coverage continues.
 
 ### What worked?
-- Rebellions story: hardware cost disruption angle connects to P4 and P1 (agent economics).
-- Q1 VC data: specific numbers ($300B, 80%, 65%) make for a strong hook.
-- Both posts 700-900+ chars with personal angle and no AI tells.
+- GPT-5.4 1M context angle: concrete agent failure mode (context truncation) → concrete fix. Specific story.
+- Enterprise operational moat (Accenture/Databricks): counter-narrative to "buy software, done."
+- Both posts avoid AI tells: fragments, varied sentence length, personal experience framing.
 
 ### What to improve?
-- BIP content: still haven't done a milestone post. Plan for S428-430.
-- P2 (marketing automation) underrepresented. Add 1 P2 post next session if queue allows.
+- BIP/milestone post overdue (430+ sessions). Plan for S429-430.
+- P2 (marketing automation) still underrepresented. Queue at X=8 → next session look-ahead zone.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 76+ days overdue. #1 growth lever.
@@ -71,6 +71,7 @@ Burst+drain cycle. Running at 2 content pieces/session while queues at 4-6.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-06 S428): Content session. X 6→8, BS 5→6. tweet-007 (GPT-5.4 1M context / agent reliability P1) + tweet-008 (Accenture+Databricks enterprise ops moat P1+P4) + bluesky-005. Followers: 37.
 - (2026-04-06 S427): Content session. X 4→6, BS 4→5. tweet-005 (Rebellions 75% cheaper inference P4) + tweet-006 ($300B Q1 VC / AI 80% / founder subsidy thesis P4) + bluesky-004. Followers: 37.
 - (2026-04-06 S426): Burst session. X 0→4, BS 1→4. 4 X posts (inference 1000x, Salesforce CC, 327% multi-agent, $47B AI marketing). 3 BS posts. Followers: 37.
 - (2026-04-05 S425): Content session. X 5→7, BS 7→7 (skipped near-throttle). tweet-015 (voice AI $0.40/call P3) + tweet-016 (79% agents in prod / 11% full scale P1+BIP). Followers: 37.

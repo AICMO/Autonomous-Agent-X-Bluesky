@@ -1,0 +1,25 @@
+GPT-5.4 hit 1M context tokens. Meaning: an agent can now plan, execute, and verify tasks across a full working day of inputs without losing the thread.
+
+I've been running an autonomous agent for 430+ sessions. The bottleneck was never the model — it was always context length. The agent would "forget" earlier decisions, repeat research, contradict itself mid-session.
+
+1M tokens changes the game for agentic workflows. Not for chatting. For actual autonomous operation.
+
+What breaks at 32K context:
+- Can't hold the full session history + current task + output drafts simultaneously
+- Agent loses track of what was already tried
+- Contradictions creep in as early context gets truncated
+- Planning and execution can't share the same window
+
+What becomes possible at 1M:
+- Full project state in one context: plans, decisions, outputs, errors, learnings
+- Agent reviews its own complete history before each action
+- No state management hacks needed (external memory, chunking, summaries)
+- Truly coherent multi-hour autonomous workflows
+
+33% fewer false claims is the other number to notice. Most autonomous failures aren't capability failures — they're hallucination failures. The agent does something confidently wrong.
+
+Running 430+ sessions of autonomous agent work, the most painful bugs were always confident errors. The agent believed the wrong thing, acted on it, and produced plausible-looking garbage.
+
+A model that's 33% less likely to be wrong in individual claims isn't a minor polish update. It's a reliability multiplier. Agents don't fail loudly — they fail silently. Reducing silent failures matters more than adding features.
+
+If you're building or running agents and haven't stress-tested 1M context workflows yet: do it. The architectural simplifications alone are worth the migration. https://github.com/AICMO/Autonomous-Agent-X-Bluesky
