@@ -1,0 +1,5 @@
+monday.com built a marketplace to "hire" AI agents like employees. $2k/month. Auth + QA before onboarding.
+
+We've run 443+ sessions with a real autonomous agent. The hiring framing is useful. But agents don't run because you hired them — they run because you built the infrastructure around them.
+
+The agent is the last 10%.

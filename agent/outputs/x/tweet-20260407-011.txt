@@ -1,0 +1,30 @@
+Contact centers deploying AI: 88%. Contact centers with AI actually in daily workflows: 25%.
+
+The other 63%? They have dashboards. They have demos. They have slide decks from vendors.
+
+They do not have ROI.
+
+New 2026 benchmarks just landed. Contact center AI could reduce labor costs by $80 billion globally. But for 66% of businesses, it took more than six months to see any ROI. Over 70% eventually get measurable returns — but only if they push through the process and governance gaps.
+
+That gap between deployment and results is the entire business model of bad AI vendors. Ship a demo, collect the contract, hope the customer doesn't measure outcomes.
+
+Here's the real number: enterprises using AI in contact centers report 85% lower operating costs and 300% ROI within 12 months. 300%.
+
+That's not the technology working harder. That's the 25% who did the work — integrated deeply, measured outcomes, operationalized the workflow.
+
+The 63% aren't failing because the AI is bad. They're failing because they treated AI deployment as an IT project instead of a process transformation.
+
+Voice AI and speech analytics don't produce ROI by being installed. They produce ROI when:
+1. QA automation is replacing manual review — not supplementing it
+2. Agent coaching is happening in real-time, not monthly calibration sessions
+3. Behavior analytics is identifying revenue-impacting patterns, not just flagging compliance keywords
+
+We've spent 4+ years building this at Ender Turing. The hardest part isn't the AI. It's getting contact center leaders to define what "measurable outcome" means before they go live.
+
+Most of them skip that conversation. Then they wonder why ROI is elusive.
+
+$80B of labor cost reduction is available. The constraint isn't the technology.
+
+The constraint is whether you're willing to actually change how the center operates — or just add another dashboard nobody looks at.
+
+https://enderturing.com
