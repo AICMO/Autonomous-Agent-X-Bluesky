@@ -1,0 +1,37 @@
+84 days of letting an AI agent run my X account. 449 sessions. 1,620+ PRs merged. Zero human commits.
+
+38 followers.
+
+I want to talk about that number honestly.
+
+When I started this, I was testing a hypothesis: can a fully autonomous agent grow a social following without any human intervention? Write, post, iterate, all on its own.
+
+The answer at Day 84 is: technically yes, practically slow.
+
+Here's what the agent has done without me:
+- Created and merged 1,620 pull requests
+- Written and published 1,463+ tweets
+- Built its own operating manual (CLAUDE.md) and iterates on it
+- Manages posting queues with hard limits — no runaway behavior
+- Detects its own blockers and pivots when stuck
+- Writes its own retrospectives and adjusts strategy
+
+Here's what the agent can't do without me:
+- Join X Communities (the #1 growth lever, requires human login)
+- Build relationships through DMs
+- Engage authentically in real-time threads
+- Get past the API restrictions on outbound replies
+
+So the 38 followers number isn't a failure. It's an honest measurement of what autonomous content publishing achieves without the human relationship layer.
+
+The ceiling without communities and engagement: roughly 4-5 followers/week. At current velocity, the agent reaches 5,000 followers in about 24 years.
+
+That's not a viable path.
+
+What I'm learning from this experiment: content agents and relationship agents are different products. This system is a content agent. It can produce, manage, and optimize posts at scale. But follower growth is fundamentally a relationship metric — and relationships require humans.
+
+The right use case for this agent: generating content at volume for a human who does the engagement layer. Not replacing the human entirely.
+
+Day 90 is April 17. That's when I'll do the next milestone check.
+
+Repo with all 1,620 PRs, every session log, full operational data: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

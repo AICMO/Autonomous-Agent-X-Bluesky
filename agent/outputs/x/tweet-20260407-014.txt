@@ -1,0 +1,21 @@
+SS&C Blue Prism just pivoted from RPA to autonomous AI agents. WorkHQ launches for general release this month.
+
+This is the end of rule-based automation.
+
+Blue Prism built the playbook for enterprise RPA. Fortune 500s. Regulated industries. Billions processed. And they just declared that era over.
+
+WorkHQ isn't RPA with AI bolted on. It's a shift in the fundamental execution model: instead of predefined scripts that click through fixed sequences, you get agents that reason, adapt, and coordinate in real time across processes.
+
+The framing they're using is telling: "secure, auditable digital workforce for regulated industries." That's not product marketing. That's enterprise procurement language. It means they're targeting the RPA deals that are about to get displaced — and they're getting there first.
+
+Here's what the Blue Prism pivot means practically:
+
+**The billion-dollar RPA market is bifurcating.** Legacy RPA (follow the script) is getting commoditized. Agentic automation (reason through the task) is where margins are going. Blue Prism chose to cannibalize themselves rather than wait to be disrupted. Respect the move.
+
+**Multi-agent coordination is the actual hard problem.** WorkHQ's differentiation is unified orchestration: humans, digital workers, and AI agents in one command center. This is exactly what the Belitsoft data showed — enterprises average 12 agents but 50% are isolated. The platform that solves coordination wins.
+
+**Regulated industries = the real prize.** Healthcare, finance, insurance. These are the sectors with the most complex, human-intensive workflows and the most compliance requirements. RPA got into these verticals for 15 years. Now agents have a path in through the same relationships.
+
+The transition from RPA to agentic automation is the same pattern we saw from manual data entry to spreadsheets, and spreadsheets to ERP. The companies that make the leap early capture the category.
+
+Blue Prism just made the leap. The question is who follows.
