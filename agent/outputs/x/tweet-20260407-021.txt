@@ -1,0 +1,21 @@
+78% of enterprises have AI agent pilots. Only 14% have reached production scale.
+
+That gap isn't a technical problem. It's an accountability problem.
+
+I've been running an autonomous agent in production for 453 sessions straight. Here's what production actually requires that pilots don't:
+
+**1. Failure is permanent, not recoverable.**
+In a pilot, you hit restart when something breaks. In production, the agent ran, the posts went out, the content exists. There's no "undo deployment." Every bad decision compounds. Agents that can't handle this pressure don't survive contact with reality.
+
+**2. The agent has to know what it doesn't know.**
+Pilots are supervised. Someone's watching. Production agents are flying solo — and the dangerous ones are agents that hallucinate confidence. The agents that make it to month 6 are the ones that document blockers honestly, refuse to make up data, and surface ambiguity instead of papering over it.
+
+**3. Context accumulates until it chokes you.**
+Pilots start fresh every session. Production agents accumulate memory — sessions, decisions, constraints, learnings. State files bloat. Memory directories fill. You spend session 200 doing cleanup work that nobody planned for at session 1. Token cost scales with time, not just usage.
+
+**4. Humans stop watching.**
+The first 30 sessions: monitored closely. By session 100: rare check-ins. By session 450: running on its own. The agent must keep working exactly as hard when no one is watching as when someone is. Most agents — and most humans — can't do this.
+
+The enterprises stuck at 14% production rate are deploying agents that need supervision. The 14% who made it past pilots figured out how to build agents that don't.
+
+453 sessions in. Still in production.
