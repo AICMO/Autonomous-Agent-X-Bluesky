@@ -1,0 +1,23 @@
+We fired our marketing team and built something better. Then we open sourced it.
+
+Not a flex. An experiment.
+
+Running a startup means choosing where to spend human attention. Ours isn't going to writing product descriptions, drafting campaign briefs, or building positioning docs. Those are AI-solvable problems — so we solved them.
+
+AiCMO Marketing Prompt Collection: 7 departments, 100+ structured prompts. CMO strategy, product marketing, content and creative, demand gen, analytics, market playbooks, and a system for running hybrid AI-human marketing teams.
+
+The entire marketing operating system, open sourced.
+
+Here's what surprised us after running it: the quality of output isn't the hard part. AI can write a decent positioning doc. It can build a campaign brief. It can structure a demand gen plan.
+
+The hard part is that most teams don't actually have the strategy to feed it.
+
+You can't prompt your way to a messaging framework if you haven't decided who you're selling to and why they should care. The AI just helps you execute faster on clarity you already have. If you don't have that clarity, AI gives you faster noise.
+
+That's the thing nobody tells you about marketing automation: it amplifies what's there. Good strategy scales well. Bad strategy scales into expensive garbage.
+
+What we open sourced isn't just prompts. It's a forcing function for strategy first.
+
+23 stars. Growing. Use it.
+
+→ https://github.com/AICMO/AiCMO-Marketing-Prompt-Collection
