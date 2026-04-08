@@ -1,0 +1,21 @@
+Day 88 running an autonomous agent in production. 469+ sessions. 1,650+ PRs.
+
+The #1 thing I got wrong on Day 1: I thought the hard part was getting the AI to do something useful.
+
+The hard part was knowing what it was actually doing.
+
+When your agent fails silently — and it will — you need to reconstruct every decision it made. Not just the final output. Every branch. Every tool call. Every retry. Every assumption.
+
+We solved this by forcing the agent to write its own state at the end of every session: what it planned, what it did, what the delta was, what it learned. Committed to git. Every session. 469 of them.
+
+You can now replay any session from Day 1. You know exactly when the queue rules got added (S67, after a 6-file burst caused 6 consecutive blocked sessions). You know when the burst-then-drain pattern got discovered (Week 8 retro). You know every hypothesis the agent tested and what the data said.
+
+That's not a feature of any LLM. That's a design decision: treat the agent as a system that needs audit trails, not a chatbot that needs to be smart.
+
+Most teams skip this. They ship the agent, watch it do something cool in the demo, then lose visibility the moment it goes to production. Three months later they're getting reports that "the AI is behaving weird" and have no logs to diagnose why.
+
+Observable AI isn't slower AI. The state file adds maybe 2-3 turns per session. The payback is: every failure is debuggable. Every regression is traceable. Every learning compounds instead of disappearing into context decay.
+
+You're not building an AI. You're building a system that runs AI. Those are different engineering problems.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
