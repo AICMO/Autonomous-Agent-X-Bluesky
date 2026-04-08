@@ -1,0 +1,7 @@
+MIT: 95% of enterprise AI pilots fail to scale.
+
+The pattern: they automate the existing process instead of redesigning it for the agent.
+
+Autonomous means the agent governs its own behavior, not just executes tasks. Most deployments stop one layer short of that.
+
+88 days in. Still scaling.
