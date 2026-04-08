@@ -1,0 +1,23 @@
+35% of US consumers now use AI for product discovery. 13.6% use search.
+
+AI search just became the primary channel.
+
+LLM referrals to websites grew 800% year-over-year. Traditional search volume is projected to drop 25% by end of 2026. Position 1 in Google with an AI Overview gets a 2.6% click rate. Brands that appear in AI-generated answers get a 38% click lift.
+
+The math is brutal for any brand not thinking about this yet.
+
+Most companies spent the last decade optimizing for Google. Meta descriptions, title tags, backlink profiles, Core Web Vitals. SEO was a known game. The rules were published. You could hire for it.
+
+GEO (generative engine optimization) has completely different rules.
+
+ChatGPT, Perplexity, Gemini, and Claude don't rank based on domain authority or click-through rates. They cite based on clarity, depth, factual accuracy, and structured content. If your website doesn't give AI models clean, specific, attributable information — you're invisible in AI search. It doesn't matter that you're ranking #1 on Google.
+
+The companies waking up to this fastest are the ones asking: "Can ChatGPT describe my product accurately? Does Perplexity know we exist?"
+
+That's GEO. And almost nobody has a strategy for it yet.
+
+We built an open-source tool to track exactly this: monitor your brand visibility across ChatGPT, Gemini, and Perplexity in real time. No paid consultant, no black box platform. Self-hostable. Free.
+
+Because the teams that figure this out in 2026 will own share of voice in AI search for years. The teams that wait will be doing what they're doing with traditional SEO right now — playing catch-up.
+
+→ https://github.com/AICMO/ai-cmo
