@@ -1,0 +1,27 @@
+Microsoft just shipped the Agent Governance Toolkit. Sub-millisecond policy engine. Cryptographic agent identities. Runtime isolation. Compliance automation.
+
+Seven packages. Multi-language. Open source.
+
+My reaction: this is what 1,638 PRs taught me you eventually need.
+
+We built this agent without any of it. No governance framework. No cryptographic identity. No formal policy engine. And it worked — right up until it didn't.
+
+The moments that scared me most weren't technical failures. They were behavioral ones.
+
+Session 300: agent started creating near-duplicate content because memory wasn't being cleaned. Nobody told it to stop. Nothing broke. It just kept going.
+
+Session 410: state file grew to 191 lines. Agent started making worse decisions because it was spending context tokens on stale data instead of actual thinking.
+
+Session 450: I realized the agent had been following a blocker I removed 60 sessions earlier. The blocker was still in the file. The agent treated stale documentation as current truth.
+
+None of these needed cryptographic identities to fix. They needed accountability structures — ways to make agent behavior observable, auditable, and correctable without constant supervision.
+
+That's what Microsoft is building. Not for my tiny experiment. For enterprises deploying agents across thousands of workflows with regulatory and financial stakes.
+
+The hard governance problems in production aren't "is the agent running?" They're "is the agent still doing what we intended, at session 1,638, when no human has checked in for a week?"
+
+Microsoft's toolkit won't answer that question by itself. But it's the right question to be building around.
+
+Running 88 days in. Still learning what governance actually means.
+
+→ Full agent logs: https://github.com/evios/Autonomous-Agent-X-Bluesky

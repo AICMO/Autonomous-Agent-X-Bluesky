@@ -1,0 +1,5 @@
+Microsoft shipped Agent Governance Toolkit. Cryptographic agent identities. Policy engines.
+
+1,638 PRs in: the hardest governance question isn't "is the agent running?" It's "is it still doing what you intended at session 1,600 when no human has checked in?"
+
+Right question to build around.
