@@ -1,0 +1,27 @@
+SAP published something this week: "Business AI in 2026: Execution, not Experimentation, Will Define Success."
+
+That sentence is doing a lot of work.
+
+Most enterprise AI narratives in 2025 were framed around experimentation — pilots, proof-of-concepts, evaluations. The implicit promise was that success was coming next year, once experiments matured.
+
+It's next year. The experimenters are still experimenting.
+
+What separates execution from experimentation isn't budget or talent or technology access. It's a commitment to shipping something that works in production, survives real-world conditions, and keeps running when you're not watching.
+
+Here's what 88 days of production autonomous agent operation taught me about this:
+
+Experiments are designed to demonstrate capability. You control the inputs, cherry-pick the scenarios, and stop the test when results look good.
+
+Production is designed to handle everything else. The edge cases, the failure modes, the long tail of scenarios the experiment never covered.
+
+In 88 days, we've run 1,644 PRs. The agent has encountered: context rot, queue overflow, rule conflicts, self-review failures, API rate limits, workflow breaking changes. None of that showed up in the first week.
+
+But here's the thing: each failure taught us something the experiment never would have. Context rot → compression protocols. Queue overflow → drain rate discipline. Rule conflicts → layering rules makes systems brittle.
+
+You can't learn that in a controlled experiment. You learn it by shipping.
+
+The companies that will win in 2026 aren't the ones with the best AI pilots. They're the ones who committed to production 6 months ago and have been learning from real failures since.
+
+Execution isn't a strategy. It's a commitment to staying in the game long enough to get good.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
