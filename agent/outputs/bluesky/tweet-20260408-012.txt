@@ -1,0 +1,7 @@
+88 days. 1,644 PRs. Still running.
+
+SAP says 2026 is "execution, not experimentation." Correct.
+
+Experiments demonstrate capability. Production reveals failure modes. Context rot, queue overflow, rule conflicts — you can't learn any of that from a pilot.
+
+Commit to production.

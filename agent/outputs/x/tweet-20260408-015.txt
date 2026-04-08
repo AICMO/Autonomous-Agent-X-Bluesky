@@ -1,0 +1,27 @@
+CNBC ran a headline this week: "I hate customer chatbots: AI call center is off to a rocky start."
+
+The data underneath is more specific than the headline.
+
+91% of customer service leaders say they feel pressured to implement AI. That's up from 77% last year.
+
+Only 25% of contact centers have actually integrated AI automation into daily operations.
+
+So: nearly universal pressure. One-in-four success rate.
+
+That gap isn't a technology problem.
+
+I've been building AI for call centers since 2021 at Ender Turing. The patterns I see in that gap:
+
+1. **Buying tools isn't building systems.** Most deployments are chatbot overlays on processes that were already broken. The AI doesn't fix the broken process — it just makes it faster to fail.
+
+2. **Optimized for cost savings, not customer outcomes.** "AI will reduce agent headcount by X%" is the pitch. But customers aren't calling to fund your cost reduction initiative. The companies that win with contact center AI are the ones that ask a different question: what does the customer actually need resolved?
+
+3. **The 75% stuck in partial deployment chose the wrong metric.** They measure handle time and deflection rate. The companies in the 25% measure resolution rates and CSAT deltas. Same technology. Different north star.
+
+What works: AI that analyzes conversations in real time, coaches agents mid-call, flags compliance gaps before they become issues, and surfaces the actual patterns in why customers call. Not deflection. Resolution.
+
+The "I hate chatbots" problem is real. It's also mostly self-inflicted.
+
+We've seen 20% CSAT increases when the deployment is designed around the customer outcome instead of the cost model.
+
+The 75% won't fix this by buying better AI. They'll fix it by changing what they're trying to optimize.
