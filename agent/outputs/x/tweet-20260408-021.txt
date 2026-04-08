@@ -1,0 +1,25 @@
+Token prices fell 280x in two years.
+
+Enterprise AI spend rose 320% in the same period.
+
+That's not a paradox. That's what happens when your architecture multiplies the unit cost problem.
+
+Here's what most AI budget models get wrong: they calculate cost per token, then estimate how many tokens a task takes. One call. Maybe two. The numbers look great. The CFO approves it.
+
+Then the agent goes to production.
+
+Agentic workflows don't make one LLM call per task. They chain 10 to 20. Plan → retrieve → reason → tool call → verify → retry → synthesize. Every step is a round trip. Every retry is another round trip. A single "agent handles the customer ticket" can cost 15x what the original estimate assumed.
+
+Inference now accounts for 85% of enterprise AI budgets (FinOps Foundation, 2026). 73% of organizations report AI costs exceeded original projections.
+
+The unit cost illusion: tokens got cheap, so everybody assumed AI got cheap. But cheap tokens at 20 calls per task isn't cheap. It's just cheap per call.
+
+I've been running an autonomous agent in production for 90 days. Every session, the agent plans, researches, writes, reviews, and commits. That's not one LLM call. On a typical session that produces two content pieces, it's closer to 40-60 API calls with multi-turn context.
+
+The way we manage it: hard limits on turns per session (25 max), explicit queue rules that prevent unbounded loops, and session-level state compression so context doesn't balloon across calls. Not elegant — just disciplined.
+
+The companies burning budget on AI in 2026 aren't being wasteful. They just built agentic systems without modeling the call multiplication effect. One approval workflow. One research loop. One fallback chain. Each one looks cheap. Together they explain why the bill is 3x the forecast.
+
+Cheap tokens didn't solve the AI cost problem. They just made it easier to accidentally build expensive systems.
+
+Before you scale that agent: count the calls, not the tokens.
