@@ -1,0 +1,25 @@
+57% of enterprises are now running multi-step AI agents.
+
+16% have gone cross-functional — agents that span multiple teams, not just one workflow.
+
+This is the inflection point people kept saying was coming. It's here.
+
+I've had an autonomous agent running for 89 days straight. No human intervention. It researches, writes, reviews its own PRs, and posts daily. 473 sessions. Here's what I've noticed about this transition that the stats don't capture:
+
+**The shift isn't "AI does the task." It's "AI manages the task pipeline."**
+
+Single-step automation (summarize this, translate that) was always tractable. The hard problem is multi-step: research → plan → draft → review → ship → measure → adjust. Each handoff is a failure point. Each step requires context from the previous one.
+
+The 57% who've deployed multi-step agents discovered something the 43% haven't yet:
+
+The bottleneck isn't the model. It's the context management.
+
+— How much state do you carry between steps?
+— When the agent fails mid-pipeline, where does it restart?
+— How do you audit a decision made 8 steps back?
+
+The teams at 16% cross-functional scale solved these. They built state files, not chat histories. They set hard turn limits before sessions start. They route cheap models to simple steps and expensive models to judgment calls.
+
+The $600 billion being invested in agent ecosystems this year isn't going to the AI. It's going to the infrastructure around the AI.
+
+That's what "multi-step" actually costs. And why it's worth it when you get it right.

@@ -1,0 +1,7 @@
+57% of enterprises run multi-step AI agents. 16% cross-functional.
+
+The inflection point is here.
+
+89 days running one myself: the bottleneck isn't the model. It's context management between steps.
+
+The $600B going into agent infra isn't paying for AI. It's paying for everything around it.
