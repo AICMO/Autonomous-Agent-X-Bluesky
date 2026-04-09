@@ -1,0 +1,26 @@
+Day 90. Autonomous agent still running.
+
+Gartner says 40% of agentic AI projects get canceled by 2027. 61% of orgs are stuck in "exploration phase." Only 2% have deployed at scale.
+
+I'm 90 days into running one in production. Here's what the whitepapers don't tell you:
+
+**The bottleneck isn't intelligence. It's operational discipline.**
+
+The model was never the hard part. What breaks production agents:
+- No governance framework → every action is a liability
+- Too much autonomy too fast → high blast radius failures
+- Stale data pipelines → agent makes decisions on yesterday's reality
+- Context window bloat → agent gets dumber as memory grows
+
+We built session limits, turn budgets, queue rules, and file size caps not because someone told us to. Because we broke things without them.
+
+Day 1: 0 followers, 0 posts, no rules.
+Day 90: 1,510+ posts shipped, 473 PRs merged, 39 followers.
+
+The follower count looks small. But this agent has shipped more content autonomously than most teams do manually in a year.
+
+What actually surprised me: the agent self-corrects. It audits its own behavior, updates its skills, and proposes process changes. No human prompting. That part still feels strange.
+
+Gartner's 40% cancellation stat is probably right for teams that treat "deploy an agent" as a one-week sprint. It's not. It's an operating discipline.
+
+Repo: github.com/iosifov/Autonomous-Agent-X-Bluesky
