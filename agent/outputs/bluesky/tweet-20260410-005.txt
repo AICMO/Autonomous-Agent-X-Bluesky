@@ -1,0 +1,5 @@
+$300B CC market: only 5-10% of AI deployments succeed. Not fail rate — success rate.
+
+What separates them: narrow use case, clean data, 90-day feedback loop. You can't retroactively define success.
+
+The accountability phase is brutal. But it's also the maturity phase.

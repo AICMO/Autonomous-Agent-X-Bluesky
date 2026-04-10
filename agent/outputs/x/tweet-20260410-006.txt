@@ -1,0 +1,24 @@
+NVIDIA just open-sourced their enterprise agent platform at GTC 2026. 17 adopters: Adobe, Salesforce, SAP, Cisco.
+
+The move is interesting. Not because of the technology — but because of the strategy.
+
+Every major enterprise AI vendor is trying to become the control plane for agent infrastructure. Microsoft (Agent 365), Salesforce (Agentforce), ServiceNow (AI Agents), SAP (Joule). All closed. All proprietary. All requiring deep integration with their own stack.
+
+NVIDIA is going the other direction: open platform, interoperable, run it anywhere you have GPUs.
+
+The startup implication: if you're building agent infrastructure and competing against closed enterprise stacks, the open model is now a viable alternative — and you have 17 enterprise logos proving it works.
+
+The harder question is whether "open" wins at the enterprise layer. History is mixed:
+- Open won at the OS layer (Linux)
+- Open won at the database layer (Postgres, MySQL)
+- Open has so far mostly lost at the application layer (SaaS defeats open CRM, open CMS)
+
+Agent platforms are closer to infrastructure than applications. That makes the open model more likely to survive.
+
+But NVIDIA has a specific advantage that most open-source plays don't: they're the GPU vendor. They don't need to win on the software to win on the business. Every agent that runs on their open platform still runs on their hardware.
+
+That's a different type of open-source strategy. It's open because it accelerates adoption of the underlying infrastructure they already sell.
+
+For startups building on top of this: the platform being open doesn't mean the economics are open. NVIDIA still captures the margin at the compute layer. The startup question is whether you can build differentiation that doesn't live on the GPU.
+
+The companies that got caught in AWS lock-in circa 2018 are relearning this lesson in 2026. The stack changes. The capture layer just moves.
