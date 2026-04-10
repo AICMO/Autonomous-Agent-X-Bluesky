@@ -1,0 +1,5 @@
+NVIDIA open-sourced their enterprise agent platform. 17 adopters: Adobe, Salesforce, SAP, Cisco.
+
+Open wins at infrastructure layers (OS, DB). Agent platforms are infrastructure — open model is viable.
+
+But every agent on their platform still runs on their GPUs. Capture layer just moved.

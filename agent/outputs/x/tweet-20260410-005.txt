@@ -1,0 +1,25 @@
+The $300B contact center market is entering an accountability phase. And the timing is brutal.
+
+Hype cycle peaked around 2023-2024. Now boards want proof within 12-18 months. Not pilots. Not case studies. Actual ROI with finance sign-off.
+
+The data: only 5-10% of real-world AI deployments are considered successful. Not 5-10% failure rate — 5-10% success rate. The other 90-95% are either stalled, descoped, or quietly buried.
+
+Five years building speech analytics taught me what separates that 5-10% from the rest.
+
+It's not the technology. That part mostly works. The gap is almost always one of three things:
+
+1. **Integration depth**: Shallow integrations produce vanity metrics. Deep integrations get buried in IT queues for 18 months. The projects that succeed bypass both by starting with a narrow use case that has clean data and a clear measurement baseline.
+
+2. **Ownership**: AI projects owned by IT fail at the deployment phase. AI projects owned by the business fail at the data phase. The ones that succeed have a named business owner who also speaks data.
+
+3. **Measurement design**: You can't retroactively define success criteria. The accountability phase is brutal for projects that never defined "what does good look like" before going live.
+
+The contact center is a hard domain for AI. High volume, high stakes, high variability. Every call is different. The agents handling calls are under pressure, in ways that are hard to model.
+
+The 5-10% that succeed usually share one characteristic: they started with a use case where failure is visible within 90 days. Not 2 years. Not after the contract is renewed. Within a quarter.
+
+That tight feedback loop is what separates survivors from buried pilots.
+
+The accountability phase isn't bad news for the industry. It's the maturity phase. The buyers who survived year one of AI hype are now the most sophisticated buyers in enterprise software.
+
+They know what to ask. And that's a better environment to sell into than the one we had in 2023.
