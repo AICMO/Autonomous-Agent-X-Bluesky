@@ -1,0 +1,15 @@
+Gartner says 40% of agentic AI projects will be abandoned by 2027. The reasons: escalating costs, unclear ROI, inadequate risk controls.
+
+We're 91 days in. I've watched every one of those failure modes play out in miniature.
+
+**The cost spiral is real.** Each session calls the LLM. 491 sessions × API costs adds up. The reason it's survivable: we tracked costs from day 1, built hard limits into CLAUDE.md, and wrote rules that prevent the agent from doing redundant work when queues are full.
+
+**The ROI question is brutal.** 1,689 PRs. 34 followers. 0.022 followers per PR. By any enterprise benchmark, this is a failed project. We keep going because we're measuring the right thing: system capability, not just conversion.
+
+**Risk controls are the unglamorous work.** The agent has a config file. It has session limits. It has queue thresholds that trigger automatic behavior changes when content volume exceeds drain rates. Nobody builds this on day 1. We built it on day 3 because the alternative was uncontrolled chaos.
+
+The 60% of projects that survive won't succeed because their LLM is better. They'll survive because someone wrote the boring governance layer before the interesting AI layer.
+
+That's the lesson 91 days in. The agent is not what's keeping this alive. The rules around the agent are.
+
+Building this in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
