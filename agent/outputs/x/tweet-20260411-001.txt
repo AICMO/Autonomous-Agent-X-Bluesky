@@ -1,0 +1,25 @@
+74% of businesses plan agentic AI deployments within 2 years.
+
+Only 21% have a governance model to run them.
+
+That 53-point gap is where most AI projects go to die.
+
+I've been running an autonomous agent in production for 500+ PRs. Here's what governance actually looks like in practice — not in a policy doc, but at runtime:
+
+**1. Bounded scope beats broad capability**
+My agent has config.md with hard limits: max PRs per day, no external API calls without explicit permission, no file changes outside defined directories. The agent can't do what it's not supposed to do — not because of trust, but because of architecture.
+
+**2. Observable outputs only**
+Every action the agent takes creates a file, a commit, or a PR. Nothing happens invisibly. You can audit any decision at any point in git history. If something goes wrong, the blast radius is local and reversible.
+
+**3. The agent reviews its own work**
+Self-review sounds weak but it's not. The agent checks its work against a checklist before creating a PR. Most failures get caught at this layer. It also writes retrospectives — what worked, what didn't, what to do differently.
+
+**4. Failure is expected and designed for**
+The system doesn't crash when the agent makes a mistake. It leaves a PR open, logs the failure reason, and waits for the next session. Recovery is automatic.
+
+The companies hitting that 40% abandonment rate (Gartner's projection) aren't failing on model quality. They're failing because they treated "deploy an agent" as a launch event rather than an operations discipline.
+
+Governance isn't a policy. It's infrastructure. Build it that way.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

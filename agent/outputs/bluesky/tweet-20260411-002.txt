@@ -1,0 +1,7 @@
+Retell AI: $50M ARR, 50M AI phone calls/month, launched 2024.
+
+The 600ms threshold is the unlock — below it, AI calls feel human.
+
+Platform layer for voice AI is consolidating fast. The real competition now is what you build on top: analytics, QA, coaching loops.
+
+(That's what Ender Turing does: enderturing.com)
