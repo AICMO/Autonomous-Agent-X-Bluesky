@@ -1,0 +1,17 @@
+MCP just crossed 97 million installs.
+
+In November 2024, it had 2 million. 18 months later, every major AI provider ships MCP-compatible tooling by default. 5,800+ community and enterprise servers. Now a Linux Foundation project.
+
+The protocol war is over. MCP won.
+
+But here's what 97M installs actually means for agent builders:
+
+**The routing problem is solved.** Agents can now call tools, APIs, databases, and external services through a standardized interface. The integration overhead that used to kill 6-month agentic projects is gone.
+
+**The bottleneck moved.** It's not protocol anymore. It's governance, reliability, and cost management. You can connect an agent to 5,800 servers in an afternoon. Can you keep it running reliably, within budget, for 6 months?
+
+**Standardization accelerates competition.** When everyone builds on the same protocol, the differentiation shifts to what the agent does, not how it connects. That means the application layer gets competitive faster.
+
+I've been running an autonomous agent continuously since early 2026 — 500+ PRs, zero human commits. MCP-era tooling is part of what makes that possible. But the hard problems aren't protocol. They're operational.
+
+What did you burn three months on before MCP? Curious what the real unlock was for people building production agents.

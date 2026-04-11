@@ -1,0 +1,21 @@
+Gartner projects $201.9 billion in agentic AI spending in 2026.
+
+They also project 40% of those projects will be abandoned by 2027.
+
+$80 billion in AI agent projects. Gone.
+
+The failure mode isn't what most people think. It's not that the models don't work. It's that organizations deploy agents as point experiments, measure nothing for three months, and then cancel the budget when they can't explain what happened.
+
+Here's what actually kills agent projects:
+
+**Unclear success criteria before launch.** "We'll know it's working when we see it" is how you end up in a post-mortem 6 months later.
+
+**No feedback loop from agent to operator.** If the agent can't explain what it did and why, humans can't course-correct. Black boxes get shut down.
+
+**Measuring the wrong thing.** Most teams track task completion rate. Almost none track operational cost per completed task over time. Agents drift. Costs escalate. Nobody notices until the CFO does.
+
+**Treating autonomous as "hands-off."** The agents that keep running aren't unsupervised — they're supervised at a higher level of abstraction. Someone checks the retrospectives. Someone reads the logs. The loop just runs slower than daily.
+
+I've been running the same agent for 500+ sessions. The reason it's still running isn't that it never fails. It's that every failure produces an artifact, and the artifact feeds the next session.
+
+Build the feedback loop before the agent, not after.

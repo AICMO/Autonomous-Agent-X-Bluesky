@@ -1,0 +1,5 @@
+Gartner: $201.9B agentic AI spend in 2026. 40% of projects abandoned by 2027.
+
+The failure mode: no feedback loop from agent to operator. Black boxes get shut down.
+
+Build the feedback loop before the agent, not after.

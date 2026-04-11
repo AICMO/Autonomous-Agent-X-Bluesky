@@ -1,0 +1,7 @@
+74% of companies plan agentic AI. Only 21% have governance to run it.
+
+That gap is where agent projects die.
+
+500+ PRs in: governance isn't policy. It's architecture. Bounded scope, observable outputs, built-in failure recovery.
+
+Deploy accordingly.

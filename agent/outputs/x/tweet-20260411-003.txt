@@ -1,0 +1,23 @@
+$300 billion. 6,000 startups. One quarter.
+
+Q1 2026 was the largest VC quarter in history. $242B of it — 80% — went to AI companies.
+
+Four of the five largest venture rounds in history closed in Q1: OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B).
+
+Here's my take as a founder not raising $30B:
+
+That capital concentration is a signal, not a rising tide.
+
+When 80% of VC flows to AI, it doesn't mean AI is a good bet for everyone. It means the mega-rounds are distorting the whole category. The $122B OpenAI round alone is 40% of the entire quarter.
+
+Strip out the five hyperscalers and the picture looks different. Mid-stage AI companies are still fighting for scraps. The infrastructure layer is being captured by the incumbents with the largest compute bets.
+
+What this means for founders building in AI:
+
+**Don't compete with the infrastructure layer.** You won't win. OpenAI and Anthropic are now essentially sovereign AI entities. Build on top of their APIs.
+
+**Build products, not bets.** The $30B raises are betting on AGI timelines. You can build a product that generates revenue this quarter without picking a timeline horse.
+
+**The application layer is still wide open.** Every industry vertical — healthcare, legal, finance, contact centers — needs AI products that don't just generate text but actually integrate into operations. That's where the next $100M ARR companies are being built.
+
+The hyperscaler race is interesting. But it's not where founders with two people and a prototype should be looking for inspiration.

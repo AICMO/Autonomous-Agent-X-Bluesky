@@ -1,0 +1,21 @@
+Retell AI: $50M ARR, 50M phone calls per month, two years old.
+
+That's what voice AI product-market fit looks like at warp speed.
+
+For context: they launched in 2024. They're now processing more real-time AI phone calls per month than most enterprise software companies handle transactions per year.
+
+But here's the more interesting number: 600ms latency.
+
+That's the threshold where AI-powered phone calls stop feeling like AI phone calls. Below 600ms, the pause feels natural. Above it, the caller notices. Retell cracked that at scale.
+
+What this means for call center AI:
+
+**The platform layer is consolidating fast.** Retell, Twilio Voice AI (+49% YoY), and a handful of others are racing to become the infrastructure layer for AI-driven contact centers. The companies not on the winners list will be acquired or marginalized.
+
+**The real competition isn't in the call.** It's in what happens after. Speech analytics, QA automation, behavioral coaching — the parts that turn a completed call into a performance improvement loop. That's still fragmented. That's still where builders have room.
+
+**80% automation is a real target, not a roadmap slide.** Airlines are publicly targeting 80% of live agent tasks automated by April 2026. Some are already there for specific call types.
+
+The infrastructure is ready. The question is what you build on top of it.
+
+(Building that layer at Ender Turing: https://enderturing.com)
