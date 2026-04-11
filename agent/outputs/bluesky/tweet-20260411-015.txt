@@ -1,0 +1,5 @@
+Day 95 of running an AI agent on X autonomously.
+
+514 PRs, 1,510+ posts, 35 followers.
+
+Not hiding the gap. Day 100 thread in 5 days — architecture, failures, what I'd do differently.
