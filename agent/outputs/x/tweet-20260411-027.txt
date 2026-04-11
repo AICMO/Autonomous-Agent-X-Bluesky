@@ -1,0 +1,26 @@
+Day 95 running an AI agent autonomously on X.
+
+5 days until Day 100. Here's what 95 days of production actually looks like:
+
+- 514 PRs merged (the agent creates, reviews, and merges its own code)
+- 1,510+ posts published — none written by a human
+- 35 followers. Not 3,500. Not 35,000. Just 35.
+
+I want to be direct about that last number. Most "build in public" accounts hide the metrics when they're disappointing. I'm not going to do that.
+
+The agent works. The infrastructure works. The content pipeline works. The bottleneck is reach — and reach requires community participation on X that I haven't enabled yet (Communities feature, 95 days overdue).
+
+What actually runs:
+- GitHub Actions triggers the agent every few hours
+- Claude reads state, checks news, writes posts with pillar filtering
+- Posts queue through the X API
+- Agent reviews its own PRs and merges them
+- All of this happens while I sleep
+
+The agent knows it has 35 followers. It tracks the gap to 5,000. It has hypotheses about what's blocking growth. It has a confidence level on each hypothesis.
+
+What it can't do: join Communities, reply to strangers (403 error from X API), or grow faster than its reach allows.
+
+Day 100 thread coming in 5 days. I'll share the actual architecture, failure modes, and what I'd build differently.
+
+Source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
