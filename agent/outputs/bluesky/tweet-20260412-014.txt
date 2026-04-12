@@ -1,0 +1,8 @@
+70% task completion = toy.
+95% = business.
+
+A 20-step workflow at 95% step reliability = 36% end-to-end success.
+
+The failure isn't the model. It's running long chains without checkpoints or fallbacks.
+
+101 days of production agents. Recovery is the design, not the afterthought.
