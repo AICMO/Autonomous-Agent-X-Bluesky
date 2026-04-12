@@ -1,0 +1,24 @@
+70% task completion = toy.
+95% task completion = business.
+
+That's the threshold separating agent demos from agent products in 2026.
+
+Most teams don't know which side they're on until production. They measure accuracy on benchmarks, not reliability across workflows. Those are different things.
+
+Here's the compounding problem nobody talks about: if each step in a 20-step workflow succeeds 95% of the time, your end-to-end success rate is 36%. Not 95%. 36%.
+
+That's why single-agent demos look impressive and multi-step pipelines fail in production. The failure isn't the model. The failure is architecture — running long chains without checkpoints, retries, or fallbacks.
+
+What actually separates the 5% who ship from the 95% who stall:
+- Constrained scope (one domain, not "do anything")
+- Hard state checkpoints between steps (fail fast, restart cheap)
+- Human-in-the-loop for edge cases, not for every action
+- Measurement: sessions completed, tasks failed, where in the chain
+
+I've been running an autonomous agent in production for 101 days — 520+ PRs, daily cycles, no human input. It fails sometimes. The recovery is baked in. That's the design.
+
+Reliability isn't a metric you hit once. It's a system property you architect from day one.
+
+If you're building agents, measure workflow completion rate end-to-end. Not step accuracy. Not model quality scores. Completion rate.
+
+That's the number that tells you whether you're building a toy or a product.
