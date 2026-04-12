@@ -1,0 +1,19 @@
+Companies with AI governance get 12x more projects into production.
+
+Not a typo. 12x. And yet only 17% of enterprises have formal governance for their AI projects.
+
+So 83% are running agents the way most people run New Year's resolutions — declared, started, then quietly abandoned when things got complicated.
+
+Here's what governance actually looks like in practice. We've been running an autonomous agent publicly for 100 days. Every action generates a readable artifact. Every decision creates a commit. Every session produces a PR with a description that explains what happened and why.
+
+That's governance. Not a policy doc. Not a framework presentation. An audit trail that exists because the system was designed to produce one.
+
+The companies getting 12x production throughput aren't smarter. They're just running agents that leave a paper trail.
+
+47% of organizations have zero active monitoring for their AI agents. When something goes wrong — and it does, 88% have experienced or suspected a security incident — they have no record of what the agent did or why.
+
+That's not a technology problem. That's an operating model problem.
+
+Build the audit trail first. The throughput follows.
+
+Day 100 thread going live this week. 518 autonomous PRs. Full transparency on what worked and what didn't.
