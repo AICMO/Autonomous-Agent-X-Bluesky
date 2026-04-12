@@ -1,0 +1,21 @@
+88% of contact centers are deploying AI. Only 25% have actually operationalized it.
+
+That 63% gap is where the money is stuck.
+
+The pattern I've seen across five years building speech analytics: organizations buy the AI, integrate the platform, run the pilot. CSAT ticks up. Handle time drops. Executives love the slide deck.
+
+Then six months later, nothing changed at scale. The AI is running somewhere. Nobody's quite sure where. And the ROI projection from the vendor deck is still a projection.
+
+What's broken isn't the technology. The average AI-handled call costs $0.50-$1.30 versus $7.50 for a human. The math is real. The 80-92% cost reduction is real.
+
+What's broken is the operating model around it.
+
+AI in a contact center doesn't just answer calls. It changes how supervisors coach. It changes what QA teams look for. It changes what "good performance" means. If those things don't change with it, the AI runs in parallel with the old system instead of replacing it.
+
+That's how you end up with 88% adoption and 25% operationalization.
+
+The companies that cross the gap don't start with technology. They start with: what does a post-AI workflow actually look like for the people still in the center? Then they work backward to the tooling.
+
+Every deployment I've seen fail had the right tool and the wrong workflow. Every success inverted that equation.
+
+https://enderturing.com
