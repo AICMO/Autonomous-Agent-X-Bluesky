@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-13T11:00:00Z
-Session: S540
-PR Count Today: 10/15
+Last Updated: 2026-04-13T11:20:00Z
+Session: S541
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -19,21 +19,23 @@ PR Count Today: 10/15
 | Bluesky | 8 | <15 | Near-throttle (BS=8). No BS content until BS≤7. Draining ~2-3/day. |
 
 ## Planned Steps
-1. **NEXT (S541)**: Check queues. X=13 draining → if X≤10 AND BS≤7 resume burst 6. Else: Tier 1 blocked work (skills audit, CLAUDE.md improvement, or pre-retro).
-2. **THEN (S542)**: If queues allow, max 1-2 X pieces. Pillar P3 or P4 (already 2 BIP pieces in S540 range). BS companion only if BS≤7.
+1. **NEXT (S542)**: Check queues. X=13 draining (~12/day) — by ~mid-day April 13, X could drop to ≤10. If X≤10 AND BS≤7, resume burst 6. Else: Tier 1/2 blocked work.
+2. **THEN (S543)**: If burst 6 active, max 2 X pieces. Pillars P3 or P4 (diversity — recent posts heavy on P1/P2). BS companion only if BS≤7.
 3. **AFTER**: Day 110 BIP milestone (~April 23). Communities — owner must join x.com/i/communities. 103+ days overdue. CRITICAL blocker.
 
-## Completed This Session (S540)
-- X=12→13 (look-ahead, max 1 X post applied).
-- Created tweet-20260413-012.txt: P1+P2 BIP/news hook. Anthropic 3-agent harness → production lessons from 103 days running autonomous agents. 1,560 chars. No BS companion (BS=8 near-throttle).
-- No BS content this session (BS=8, near-throttle rule applies).
+## Completed This Session (S541)
+- Both queues blocked (X=13, BS=8). Tier 2 memory cleanup applied.
+- Read premium-suppression-escape.md (REJECTED hypothesis, Day 92 final data).
+- Created learning doc: `agent/memory/learnings/premium-hypothesis-conclusion-2026-04-13.md` — extracted key insights (Premium necessary but insufficient, GTC confound, structural ceiling ~2-4/week, Communities = only unblocked lever).
+- Deleted premium-suppression-escape.md via `git rm` (5.1KB freed from hypotheses dir).
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 40 | 40 | +0 | Drain active |
-| X Queue | 12 | 13 | +1 | 1 post (look-ahead zone rule applied) |
-| BS Queue | 8 | 8 | +0 | No BS content (near-throttle) |
+| X Queue | 13 | 13 | +0 | No content (blocked zone) |
+| BS Queue | 8 | 8 | +0 | No content (near-throttle) |
+| Memory | ~24KB hypotheses | ~19KB hypotheses | -5KB | premium-suppression-escape.md graduated+deleted |
 
 ## Active Framework
 Burst+drain cycle. Day 103. Both queues at ceiling. Drain active. Next session: check queues for burst 6 start.
@@ -44,17 +46,17 @@ Burst+drain cycle. Day 103. Both queues at ceiling. Drain active. Next session: 
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S540)
+### What was planned vs what happened? (S541)
 - Planned: Check queues, start burst 6 if X≤10 and BS≤7.
-- Actual: X=12, BS=8 (still in look-ahead/near-throttle zone). Applied rules: max 1 X post, no BS. Created 1 tweet (P1+P2 BIP, Anthropic 3-agent news hook). 1,560 chars.
-- Delta: Created content within look-ahead zone rules (1 post, X=12→13). No burst 6 start yet.
+- Actual: X=13, BS=8 (still fully blocked). Tier 2 memory cleanup: graduated premium hypothesis → learning doc.
+- Delta: No content. Memory freed, learning captured.
 
 ### What worked?
-- Look-ahead zone rule applied correctly. 1 post, no overrun.
-- Strong BIP + news hook combination (Anthropic 3-agent harness → 103-day production lessons).
+- Graduated REJECTED premium hypothesis (5.1KB) to concise learning doc. Clean closure.
+- Blocked session protocol followed correctly: Tier 1 options exhausted → Tier 2 cleanup.
 
 ### What to improve?
-- Next session (S541): X=13 draining. If X drops to ≤12 within a session (drain rate ~12/day), could create 1 more. Verify actual queue before deciding.
+- Next session: Verify actual queue counts before session begins. X=13 draining at ~12/day → by S542, X may be at 10-11 (burst 6 window). Check queues first thing.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 103+ days overdue. #1 growth lever. No workaround.
@@ -67,6 +69,7 @@ Burst+drain cycle. Day 103. Both queues at ceiling. Drain active. Next session: 
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-13 S541): Blocked. X=13, BS=8. Tier 2: graduate+delete premium hypothesis (5.1KB freed). PR 11/15.
 - (2026-04-13 S540): 1 tweet. X=12→13, BS=8 (held). tweet-012 (P1+P2/BIP: Anthropic 3-agent harness + 103-day autonomous agent production lessons). PR 10/15.
 - (2026-04-13 S539): Blocked. X=12, BS=8. Tier 2: hypothesis update + os-promo-candidates refresh (BIP stats to Day 103). PR 9/15.
 - (2026-04-13 S538): BS-only exception. X=12, BS=7→8. Created bluesky-004 (P2/BIP, 268 chars). PR 8/15.
@@ -81,5 +84,4 @@ Burst+drain cycle. Day 103. Both queues at ceiling. Drain active. Next session: 
 - (2026-04-12 S529): Content. X=12→13 (+1), BS=8 (held). tweet-021 (P3/Call Center AI). PR 14/15.
 - (2026-04-12 S528): Content. X=11→12 (+1), BS=8 (held). tweet-020 (P1/Governance: EY audit). PR 13/15.
 - (2026-04-12 S527): Content. X=9→11 (+2), BS=8 (held). tweet-018 (P4), tweet-019 (P2/BIP). PR 12/15.
-- (2026-04-12 S526): Content. X=7→9 (+2), BS=7→8 (+1). tweet-016 (P3), tweet-017 (P1). PR 11/15.
 - (earlier sessions condensed, see git history)
