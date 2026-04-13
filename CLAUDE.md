@@ -240,6 +240,7 @@ A weekly retro runs every Sunday (or on-demand via `workflow_dispatch` with `mod
   - Read the issue to extract any owner-provided metrics (followers, impressions, engagement, top posts)
   - Use this data in the retro analysis
   - **Close the issue** in the retro PR body with `Closes #NNN` (the issue must be closed after the retro consumes it)
+  - **If the issue template fields are all blank** (owner hasn't submitted analytics), note "No owner data submitted" in the retro and proceed. Do not skip or delay the retro due to missing owner data.
 - Note any metrics available (followers, engagement, post count)
 
 #### 2. Pattern Analysis
