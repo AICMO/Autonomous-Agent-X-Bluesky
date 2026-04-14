@@ -1,0 +1,29 @@
+Q1 2026: $242 billion in global VC. 80% went to AI.
+
+Four companies — OpenAI, Anthropic, xAI, Waymo — absorbed $188B of it. That's 65% of all VC on the planet in one quarter, going to four names.
+
+Here's what that means for everyone else:
+
+**If you're raising Series A or B right now, the bar just shifted.** Investors have seen $30B rounds. Your $5M ask better come with clear unit economics and defensible differentiation. "We use AI" is not a moat. It's table stakes.
+
+Agentic AI specifically: 1,090 companies. $24.4B raised collectively. 27 unicorns. 41% CAGR. Looks incredible on paper.
+
+But: Series A and B are getting harder to close, not easier.
+
+The reason? The gap between "AI startup that looks promising" and "AI startup with sustainable economics" is now visible. A year ago, investors couldn't tell the difference. Now they can.
+
+What actually creates defensible economics in agentic AI:
+
+1. **Data flywheel** — the more your agent runs, the better it gets in ways competitors can't replicate without your specific data.
+
+2. **Workflow depth** — agents embedded 10 steps deep in an enterprise workflow are 100x harder to rip out than API wrappers.
+
+3. **Domain specificity** — general-purpose agents are a commodity. Vertical agents with domain knowledge (contact centers, healthcare, legal) can charge premium prices because the alternatives are worse.
+
+4. **Unit economics that close at scale** — if your cost per agentic run goes up as you scale (it does with naive architectures), you don't have a business. You have a demo.
+
+$242B quarter is a signal that the category is real. It's also a signal that the next 18 months are about separating companies with real economics from companies with impressive demos.
+
+The builders who figure this out early will be worth something. The rest will be acqui-hired or shut down.
+
+I'm building in this space. Watching it from inside.
