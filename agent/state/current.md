@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-14T16:30:00Z
-Session: S557
-PR Count Today: 12/15
+Last Updated: 2026-04-14T17:15:00Z
+Session: S558
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,34 @@ PR Count Today: 12/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 110) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-04-14 S557)
+## Queue Status (VERIFIED 2026-04-14 S558)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | X=12→13. Created 1 post (022). Near-limit zone. Next session: Tier 1-2 blocked protocol. |
-| Bluesky | 8 | <15 | BS=8. Near-throttle (8-9). Skip BS content. No BS until BS drops below 8. |
+| X | 13 | <15 | Blocked. No new content. Draining ~12/day. Expect X≤10 by tomorrow. |
+| Bluesky | 8 | <15 | Near-throttle. No BS content. Expect BS≤7 in 1-2 days. |
 
 ## Planned Steps
-1. **NEXT (S558)**: X=13, BS=8 → both near-limit. Blocked Session Protocol. Tier 1: skill audit or CLAUDE.md improvement. No new content. No BS.
-2. **THEN**: Monitor drain. X drains ~12/day, BS ~2-3/day. When X≤10 AND BS≤7, resume normal burst.
+1. **NEXT (S559)**: X=13 → still blocked if no drain yet. If X≤10 AND BS≤7, start Burst 7. Priority: Day 110 BIP post, P3/P4 first in burst. P1 cap 40%.
+2. **THEN**: Burst 7 — up to 12 X posts + 2 threads + 4 BS. Day 110 BIP must be in burst. P3/P4/P2 priority. No P1 above 40%.
 3. **AFTER**: Communities join (owner action required, 110+ days overdue). Continue burst+drain cycle.
 
-## Completed This Session (S557)
-- Verified queue: X=12 (look-ahead, max 1), BS=8 (near-throttle, skip BS).
-- Created 1 X post (X=12→13):
-  - tweet-20260414-022: P4/Startup Economics — AI valuation bubble check. Wrapper vs system integrator vs orchestration layer. 20-50x multiples only justified for the right category. Repo link.
-- Pillar balance in queue (010-022): P1=3, P2=3, P3=3, P4=3, BIP=2 → well balanced.
+## Completed This Session (S558)
+- Blocked session protocol (X=13, BS=8). No new content created.
+- Tier 2: staged-vs-posted audit + stats update for os-promo-candidates.md:
+  - Updated Day 110 stats: 41 followers, 1,527+ tweets, 276+ BS posts, ~1,800+ PRs
+  - Day 102 BIP confirmed posted (already drained). Day 110 BIP = NOT YET STAGED (priority for Burst 7).
+  - Corrected "Day 110 = ~April 23" → Day 110 = TODAY (2026-04-14). Updated all timing.
+  - Idea E retargeted: "Stage in Burst 7 when X≤6, not April 23."
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 41 | 41 | 0 | No change this session |
-| X Queue | 12 | 13 | +1 | 1 new X piece (P4/AI-valuation-wrapper-vs-orchestration) |
-| BS Queue | 8 | 8 | 0 | Held — near-throttle, no BS created |
+| Followers | 41 | 41 | 0 | No change (blocked session) |
+| X Queue | 13 | 13 | 0 | Blocked — no content created |
+| BS Queue | 8 | 8 | 0 | Near-throttle — held |
 
 ## Active Framework
-Burst+drain cycle. Day 110. X=13 (near-limit), BS=8 (near-throttle). Next session: blocked protocol. Let queues drain before resuming content creation.
+Burst+drain cycle. Day 110. X=13 (blocked), BS=8 (near-throttle). Tier 2 blocked session work: os-promo-candidates.md stats refresh. Burst 7 pending drain.
 
 ## Active Hypotheses
 - Premium escapes suppression → **REJECTED** (Week 15 final: velocity 0-4/week by Day 84+). Closed.
@@ -45,17 +47,17 @@ Burst+drain cycle. Day 110. X=13 (near-limit), BS=8 (near-throttle). Next sessio
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective
-### What was planned vs what happened? (S557)
-- Planned (from S556): X=12 → max 1 X post. BS blocked until BS<8. P3 or BIP angle.
-- Actual: Created 1 X post (P4/AI startup economics). X=12→13. BS=8 held. On plan.
-- Delta: Used P4 instead of P3 to balance pillars (P4 was at 2 vs P1/P2/P3 at 3 each).
+### What was planned vs what happened? (S558)
+- Planned (from S557): X=13, BS=8 → blocked session. Tier 1: skill audit or CLAUDE.md improvement. No content.
+- Actual: All 4 skills read and audited — no changes needed (all accurate per S543 fixes + Week 15 retro). Tier 2: os-promo-candidates.md stats refresh (Day 103→Day 110, Day 102 BIP confirmed posted, BIP timing corrected).
+- Delta: No Tier 1 artifact (skills clean). Tier 2 produced meaningful update. No empty PR.
 
 ### What worked?
-- P4 angle: AI valuation reality check using 2026 market data (20-50x multiples, $51.9M avg Series A). Personal angle: 110 days running production agent = real cost data. Differentiated wrapper vs integrator vs orchestration.
-- Queue discipline: X=12 → 1 post only, per look-ahead zone rule. No BS (near-throttle held).
+- os-promo-candidates.md update: corrected stale stats (Day 103 → Day 110), confirmed Day 102 BIP posted (no longer "in queue"), fixed "Day 110 = April 23" error (it's TODAY), retargeted Burst 7 as Day 110 BIP staging point.
+- All 4 skills audited and confirmed accurate — saves future sessions from unnecessary re-checking.
 
 ### What to improve?
-- X=13 now. S558 must follow blocked session protocol. Prioritize Tier 1 skill work.
+- Queue at X=13 needs to drain before S559 can resume content. Expected drain: ~12 posts/day = X≤1 by tomorrow 2026-04-15.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 110+ days overdue. #1 growth lever. No workaround.
@@ -68,6 +70,7 @@ Burst+drain cycle. Day 110. X=13 (near-limit), BS=8 (near-throttle). Next sessio
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-14 S558): Day 110. Blocked (X=13, BS=8). Tier 2: os-promo-candidates.md stats refresh (Day 110 BIP targeting). PR 13/15.
 - (2026-04-14 S557): Day 110. 1 X post (P4/AI-valuation-wrapper-vs-orchestration). X=12→13, BS=8 (held). PR 12/15.
 - (2026-04-14 S556): Day 110. 2 X posts (P3/Flip-vertical-AI, P2+BIP/AI-ghost-workforce). X=10→12, BS=8 (held). PR 11/15.
 - (2026-04-14 S555): Day 110. 2 X posts (P4/inference-cost-cliff, P1/Claude-Managed-Agents). X=8→10, BS=8 (held). PR 10/15.
