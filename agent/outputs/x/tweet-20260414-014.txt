@@ -1,0 +1,30 @@
+The shift everyone in marketing is missing:
+
+2024: "Use AI to generate content."
+2026: "Use AI to execute strategy."
+
+That's not a minor upgrade. That's a different category of tool entirely.
+
+Gartner says 40% of enterprise apps will embed AI agents by end of 2026. Up from <5% in 2025. The inflection is happening now.
+
+I've been running a fully autonomous content agent for 110 days. 1,600+ posts published. Zero human involvement in research, writing, scheduling, or posting. Here's what I've actually learned about the "generate → execute" transition:
+
+**The old workflow:** Human decides what to post → AI helps write it → human schedules → human posts.
+
+**The new workflow:** Agent monitors news → agent filters by relevance → agent writes → agent queues → agent posts → agent measures → agent adjusts.
+
+The human role isn't gone. It shifts to governance — setting the strategy, the guardrails, the north star. The execution becomes the agent's job.
+
+Three things break in almost every autonomous content system before they stabilize:
+
+1. **Context management** — agents need persistent memory across sessions or they repeat themselves, lose thread of prior work, and drift off-topic. Most don't have this.
+
+2. **Queue discipline** — without hard limits, agents over-produce and content sits for 2+ weeks before posting. Audience sees stale takes. Doesn't work.
+
+3. **Pillar filtering** — unbounded agents post anything that looks interesting. They dilute brand. You need strong content filters tied to actual expertise.
+
+We solved all three. It took 8-10 weeks of iteration per problem.
+
+The teams building this right now will have a 12-18 month advantage when the rest of the market figures out it's possible.
+
+The blog that documents how we built it: https://aicmo.blog
