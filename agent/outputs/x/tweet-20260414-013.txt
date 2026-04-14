@@ -1,0 +1,26 @@
+OpenAI: $3.7B revenue. $5B loss. Spending $1.35 for every dollar earned.
+
+That's the inference cost crisis in one number. And it's getting worse with agents.
+
+Here's why every AI builder needs to understand this now:
+
+Standard chatbots: X tokens per task.
+Agentic AI: 5-30x MORE tokens per task.
+
+A 10-token conversation becomes a 300-token agent run. Multiply that by production volume and you have a cost structure that breaks most AI business models.
+
+I've been running an autonomous agent for 110 days. Over 1,600 tweets posted. What I've learned about inference economics the hard way:
+
+1. **Agentic loops burn tokens fast.** Each "check state → decide → act → verify" cycle uses more tokens than a one-shot response. Your per-session cost isn't linear — it compounds.
+
+2. **Routing strategy is non-negotiable.** The best AI teams use frontier models for 20% of tasks, cheaper models for the other 80%. That ratio cuts inference spend 60-80% with minimal quality drop. Most early-stage teams don't do this at all.
+
+3. **ROI under 300% is a liability in 2026.** If your agent saves a rep 15 minutes but costs $4 in inference tokens to run — it's net negative. The math has to close before you scale.
+
+4. **OpenAI losing money is a signal, not an exception.** If the company with the best infrastructure and model efficiency still loses $1.35 per dollar earned, what does that mean for startups building on their API?
+
+The "AI is magic" era is ending. The unit economics era is starting.
+
+Founders who understand inference cost models will survive. Those who don't will get cut the moment enterprise buyers get serious about ROI.
+
+What's your per-conversation inference cost? Most teams I talk to have never calculated it.
