@@ -1,0 +1,24 @@
+95% of contact center AI pilots fail.
+
+That's not a technology problem. It's a deployment problem.
+
+Verint's 2026 research (citing MIT data) found that only 25% of centers that deploy AI actually operationalize it into day-to-day workflows. The other 75% run a pilot, get partial results, and stall.
+
+The three real blockers — in order of frequency:
+1. Platform integration complexity (54% of CX leaders cite this)
+2. Data privacy and governance concerns (49%)
+3. Nobody owns the AI outcome metric post-launch
+
+Here's the pattern I see repeatedly: teams measure AI deployment by whether it's live, not by whether containment rates are moving. Launch becomes the goal instead of the KPI.
+
+Meanwhile, the 5% that succeed look different. Cresta deployed with Xanterra (national parks hospitality) and hit 74% average containment. Glacier National Park's AI agent hit 84% containment AND contributed to $3.3M in revenue increase. Teneo's customers report 90% containment in production.
+
+The industry benchmark for world-class FCR is 80%+. AI is clearing that bar for well-scoped use cases.
+
+The delta between 40% containment and 84% containment is the entire business case. Run that math on your specific call type before your next vendor demo.
+
+What separates successful deployments: they define "containment" before go-live. Not "calls answered by AI" but "calls fully resolved by AI without human intervention." Those two numbers can be 2-3x apart at the same contact center.
+
+I've spent 6 years building AI for call centers. The pilots that fail usually have one thing in common: no pre-defined success metric that the business team (not just IT) owns.
+
+Define the metric. Own the number. Then deploy.

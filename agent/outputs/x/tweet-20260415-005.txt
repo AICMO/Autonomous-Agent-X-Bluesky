@@ -1,0 +1,23 @@
+NICE just paid $955M for Cognigy. Largest acquisition in NICE's 40-year history.
+
+Here's why the number makes sense: Cognigy customers aren't running chatbots. They're running end-to-end agentic orchestration at enterprise scale.
+
+Lufthansa Group cut handover rates 20% and reached 72% of customer sessions handled by AI — after replacing 500+ fragmented conversation flows with unified agentic systems.
+
+Schwarz Group (Lidl's parent company) is processing 15 million customer cases annually through multi-agent systems.
+
+Generali mined 100,000 call recordings in weeks and identified 150 granular customer intents. Target: 65% automation rate.
+
+That's not pilot numbers. That's production.
+
+The market signal here is specific: the "bot vs. human" framing in contact centers is dead. What's replacing it is orchestration — multiple AI agents handling different parts of a customer journey, handing off cleanly, with a human in the loop for exceptions.
+
+Meanwhile Salesforce and ServiceNow just invested $1.5B jointly into Genesys. That's two of the largest enterprise software companies deciding that contact center platforms aren't adjacent to their core business anymore — they ARE the core.
+
+The enterprise CX stack is consolidating around platforms that can run agentic workflows at scale.
+
+If you're in contact centers and still evaluating point solutions for individual tasks, the window for that approach is closing fast. The investment dollars are moving toward orchestration platforms that manage the full conversation lifecycle — not individual components.
+
+What we build at Ender Turing: real-time intelligence layered on top of live call data. Not orchestration play — but the data and QA layer that makes orchestration accountable. Every AI agent needs a scorecard. We build that.
+
+More: https://enderturing.com
