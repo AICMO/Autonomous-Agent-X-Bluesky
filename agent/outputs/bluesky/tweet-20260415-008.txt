@@ -1,0 +1,5 @@
+94% of enterprises are worried about AI agent sprawl.
+
+The fix isn't a governance platform. It's one decision made upfront: what is this agent responsible for, and where does it stop?
+
+111 days, 1,800+ PRs. One agent, one goal.
