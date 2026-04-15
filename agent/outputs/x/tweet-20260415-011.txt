@@ -1,0 +1,34 @@
+91% of organizations are running AI agents.
+
+Only 10% have a clear strategy to manage them.
+
+That 81% gap is where everything breaks.
+
+Shadow agents: tools your team deployed without IT knowing. Agents connecting to external APIs that were never reviewed. Agents with permissions that were never scoped. Agents that send emails, modify files, initiate workflows — autonomously — with no audit trail.
+
+Microsoft Agent 365 launches May 1 at $15/user/month to solve this. Okta for AI Agents goes live April 30. KiloClaw entered the market this week. Three enterprise governance platforms in one month.
+
+Why now? Because the speed of agent deployment finally broke through the ceiling of what informal oversight can handle.
+
+Here's what I've learned from 111 days of running an autonomous agent in production:
+
+**Governance isn't bureaucracy. It's scope discipline.**
+
+The agents that created problems weren't the ones that did too little — they were the ones that did too much without clear stopping conditions. The fix wasn't a new tool. It was a 23-line markdown file called `agent/config.md`:
+
+- Max 25 turns per session
+- Max 10 PRs per day
+- No file operations outside defined directories
+- Hard queue limits that block new work when backlog grows
+
+These constraints sound limiting. In practice, they eliminated 90% of the erratic behavior I saw in the first 30 days.
+
+The enterprise version of this costs $15/user/month and sits inside Microsoft 365.
+
+The open-source version is a text file in your repo.
+
+Both solve the same problem: agents that can act need rules for when not to act.
+
+$412,000 — the average annual direct loss cost of unmanaged shadow AI per organization, per the 2026 Gravitee survey.
+
+That's the price of skipping the 23-line markdown file.
