@@ -1,0 +1,17 @@
+Your brand shows up in Google. Does it show up in ChatGPT?
+
+Most companies have no idea. They've spent years on SEO — keyword rankings, backlinks, Core Web Vitals — without realizing that a growing share of their customers now start with "ask ChatGPT" or "ask Perplexity" instead of a Google search.
+
+GEO (Generative Engine Optimization) is the new SEO. And almost nobody has instrumentation for it.
+
+The questions that matter now:
+- When someone asks ChatGPT about your category, does your brand appear?
+- What do AI models say about you vs your competitors?
+- Is the information accurate? Outdated? Missing?
+- Does it change week to week?
+
+We built an open-source platform to track exactly this. Self-hostable. Free. Monitor your brand visibility in ChatGPT, Gemini, and Perplexity. Get weekly drift reports when AI models change what they say about you.
+
+If your brand shows up on Google but not in AI, you're invisible to the next wave of buyers.
+
+The tool: https://github.com/AICMO/ai-cmo

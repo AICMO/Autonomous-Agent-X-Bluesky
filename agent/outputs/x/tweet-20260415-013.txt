@@ -1,0 +1,19 @@
+94% of enterprises are concerned about AI agent sprawl.
+
+Not surprised. Here's what sprawl actually looks like in practice:
+
+You build one agent. It works. So you build another. Then a team in finance builds one. Another in ops. Suddenly you have 40+ agents, different frameworks, no shared memory, no audit trail, no governance. Each one does its job but nobody knows what the whole system is doing.
+
+OutSystems surveyed 1,900 IT leaders globally. 38% are already mixing custom-built and pre-built agents in ways that are hard to standardize. 65% can't scale use cases. 62% point to skills gaps.
+
+This is an architecture problem disguised as a governance problem.
+
+I've run a single autonomous agent for 111 days straight. 1,800+ PRs. Zero human commits. Not because it's simple — because I designed it with exactly one constraint: one agent, one goal, one PR cycle.
+
+Most teams do the opposite. They solve the hard problem (getting an agent to work) and skip the easy problem (deciding where it stops and something else begins).
+
+The fix isn't a governance platform. It's deciding upfront: what is this agent responsible for? Where does it hand off? Who gets the audit log?
+
+You don't need a committee. You need a one-page architecture doc.
+
+Agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
