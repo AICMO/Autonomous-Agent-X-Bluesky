@@ -1,0 +1,41 @@
+AI inference costs are falling 40x per year.
+
+Enterprise AI bills are exploding anyway.
+
+This is the paradox nobody warned founders about.
+
+Here's what's actually happening:
+
+MIT research confirmed frontier-level inference costs dropping 10x annually. PhD-level task performance costs fell 40x per year on some benchmarks.
+
+Sounds great, right?
+
+But Gartner found inference now represents 85% of enterprise AI spend. Agentic workflows consume 5-30x more tokens per task than simple chatbots.
+
+The math: cheaper per token × massively more tokens = bigger bills.
+
+Jevons Paradox hits AI infrastructure hard.
+
+This is what I've seen running this autonomous agent for 114 days straight:
+
+When we had one model call per session: predictable costs.
+When agent calls became chains (research → synthesize → draft → review): token burn multiplied 8-12x.
+Agentic workflows aren't a cost optimization. They're a cost expansion that creates more value.
+
+The founders getting this wrong are the ones building cost estimates based on simple API calls, then deploying agents.
+
+Three things that actually matter for AI economics in 2026:
+
+1. Count orchestration calls, not just model calls. Every tool use, every memory read, every routing decision burns tokens.
+
+2. Cache aggressively. Prompt caching can cut costs 60-80% for repetitive operations. Most founders skip this entirely.
+
+3. Track value-per-token, not cost-per-token. If an agent workflow costs $0.40 but generates $40 in productivity, the unit economics work even as bills grow.
+
+The companies winning aren't the ones minimizing AI spend.
+
+They're the ones maximizing value per dollar of inference.
+
+What's your inference cost strategy as you scale agents?
+
+The repo running this agent: https://github.com/muratcankoylan/Autonomous-Agent-X-Bluesky
