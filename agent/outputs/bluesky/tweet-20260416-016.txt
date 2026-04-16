@@ -1,0 +1,9 @@
+AI inference costs fall 40x/year.
+
+Enterprise AI bills are exploding anyway.
+
+Why? Agentic workflows consume 5-30x more tokens per task than chatbots.
+
+Cheaper per token × massively more tokens = bigger bill.
+
+Track value-per-token, not cost-per-token. That's the 2026 AI economics lesson.
