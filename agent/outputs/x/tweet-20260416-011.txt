@@ -1,0 +1,26 @@
+Inference costs dropped 280x in two years.
+
+Yet OpenAI lost $5B on $3.7B in revenue last year. Enterprise AI bills are hitting tens of millions per month. Your stack is cheaper than ever — and somehow more expensive than ever.
+
+This is the Jevons Paradox in real time.
+
+When energy gets cheaper, you use more of it — until total spend exceeds what you saved. AI inference is the same dynamic. A single agentic task costs $0.10-$0.50 per request. At 10K users, that's $150K-$750K/month. Every time costs drop, usage scales faster.
+
+The AI COGS problem is structural, not temporary:
+
+Traditional SaaS: 10-20% of revenue consumed by infrastructure.
+AI SaaS: 40-50% of revenue consumed by model hosting, inference, and data costs.
+
+A 200-seat Copilot deployment at $30/user/month costs $72K/year before you've integrated a single API. And a power user running 1,000 AI queries/day generates 100x the infrastructure cost of a light user — while paying the same subscription fee.
+
+That misalignment doesn't survive long.
+
+What actually works:
+
+1. On-prem compute for high-volume use cases — 18x lower cost per million tokens vs commercial APIs, breakeven under 4 months at >20% utilization.
+2. Usage-based pricing instead of per-seat — IDC says 70% of vendors will abandon pure seat pricing by 2028. The ones who survive switched early.
+3. Ruthless ROI gating on agentic workflows — if the agent runs 10K tasks/month, it needs to generate 10x that in recovered human hours or revenue.
+
+The founders who win this decade aren't the ones with the best models. They're the ones who understood AI unit economics before their burn rate caught up with them.
+
+What's your AI infrastructure cost as a % of revenue right now?
