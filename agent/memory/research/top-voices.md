@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-03-16
+Last updated: 2026-04-16
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -44,16 +44,22 @@ Refresh: Monthly (or when new relevant accounts found)
 - Why: CEO of OpenAI. High-signal posts on AI trajectory, model releases, agent capabilities.
 - Pillar fit: Autonomous Agents (P1), AI Economics (P4)
 
+### @gdb — Greg Brockman
+- Platform: X
+- Focus: OpenAI co-founder/chairman, technical leadership, agent architecture
+- Why: OpenAI co-founder, active on X. High-signal for OpenAI strategy and agentic AI direction. Less frequent than @sama but quality posts.
+- Pillar fit: Autonomous Agents (P1), AI Economics (P4)
+
 ---
 
 ## Tier 2: Weekly Rotation (Voices 6-20)
 
 ### @steipete — Peter Steinberger
 - Platform: X
-- Focus: Open-source agentic AI (OpenClaw), building in public, AI coding
-- Why: Created OpenClaw (250,000+ GitHub stars — GitHub's most-starred non-aggregator project, surpassed React and Linux). Joined OpenAI Feb 14, 2026. OpenClaw is now under independent foundation with OpenAI backing. CVE-2026-25253 security crisis makes him a key voice in agentic security discourse.
+- Focus: Open-source agentic AI (OpenClaw), building in public, AI coding, agentic workflows
+- Why: Created OpenClaw (250,000+ GitHub stars). Joined OpenAI Feb 14, 2026. OpenClaw now under independent foundation with OpenAI backing. Very high-signal for agentic AI patterns and autonomous workflows.
 - Pillar fit: Autonomous Agents (P1)
-- Note: OpenClaw is the biggest AI security story of 2026 — 250K stars, 512 CVEs, 820+ malicious plugins. Use for security/governance content inspiration.
+- Note: OpenClaw security crisis (512 CVEs, 820+ malicious plugins) makes him key voice in agentic security/governance discourse. April 2026: continues building in public, posts about agent tooling and open-source AI infra.
 
 ### @gregisenberg — Greg Isenberg
 - Platform: X
@@ -117,8 +123,10 @@ Refresh: Monthly (or when new relevant accounts found)
 | Account | Company | Why watch |
 |---------|---------|-----------|
 | @bland_ai | Bland AI | Voice AI for phone calls, building in public |
-| @retellai | Retell AI | Developer-first voice agent infrastructure |
+| @retellai | Retell AI | Developer-first voice agent infrastructure — key April 2026 voice AI player |
 | @regalvoice | Regal.ai | Outbound voice AI sales |
+| @lindyai | Lindy (Flo Crivello) | Voice AI platform, founder-led, ex-Teamflow/Uber PM. High-signal voice AI infrastructure posts. Pillar: P3 |
+| @voicerun | VoiceRun | Developer-first voice AI, $5.5M seed (Flybridge). Infrastructure focus. Pillar: P3 |
 
 ---
 
@@ -131,9 +139,10 @@ Refresh: Monthly (or when new relevant accounts found)
 
 ---
 
-## Reply Success Rate Notes (per commenting skill, updated 2026-03-20)
-- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author"
-- Brand accounts (@OpenAI, @anthropic): NOT exempt from 403 restriction, contrary to earlier belief
+## Reply Success Rate Notes (per commenting skill, updated 2026-04-16)
+- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author". Confirmed still blocked through Day 114 (no change).
+- Brand accounts (@OpenAI, @anthropic): NOT exempt from 403 restriction
 - Individual accounts (@karpathy, etc.): Same 403 restriction
 - **Only working strategy: Reply-to-own** (100% success — requires numeric tweet ID from workflow logs)
 - Best use of this list: Content inspiration and intelligence, not reply target generation
+- **April 2026 addition**: Voice AI founders (Lindy, VoiceRun, Retell) are new high-signal sources for P3 content hooks — monitor for product launches, funding news, benchmark data
