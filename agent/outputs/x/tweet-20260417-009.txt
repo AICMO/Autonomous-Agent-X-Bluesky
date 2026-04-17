@@ -1,0 +1,19 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That's up from 14% in Q4 2025. Doubled in 6 months.
+
+But the number that should stop you: marketing automation returns $5.44 per dollar spent on average. Top quartile programs hit $8.71.
+
+Here's what the shift actually looks like in practice:
+
+Klarna cut $10M in annual marketing costs after applying agents to content production. Six-week campaigns now finish in seven days. Senior marketers are reclaiming 8-10 hours a week.
+
+The math isn't subtle. AI content drafting: 3.2x ROI. Personalization engines: 2.7x ROI. The agencies and teams still treating AI as "one tool in the stack" are already operating at a structural cost disadvantage.
+
+What I'm seeing in our own work: content production that used to require manual research, drafting, scheduling — now fully autonomous. 117 days running. 1,700+ posts published.
+
+The playbook isn't "use AI to help write content."
+
+It's "build systems that eliminate the bottleneck entirely."
+
+The 66% of enterprise marketing teams not yet running autonomous agents aren't behind. They're about to be.

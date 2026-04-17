@@ -1,0 +1,25 @@
+The most confusing stat in AI economics right now:
+
+Per-token inference prices have fallen 9x to 900x depending on the model tier.
+
+Yet the average enterprise AI budget grew from $1.2M in 2024 to $7M in 2026.
+
+Costs are collapsing and exploding at the same time.
+
+Here's the mechanic: agentic workflows trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Always-on monitoring agents consume compute 24/7. Per-unit cost dropped — volume multiplied.
+
+One fintech startup: fraud detection agent cost $5K/month with 50 users. Six months later, 500 users, $15K/month. Volume didn't scale unit economics — it inverted them.
+
+This is the startup trap hiding inside the "AI is getting cheap" narrative. Cheap per token ≠ cheap to run.
+
+The founders getting this right are doing three things:
+
+1. Routing expensive reasoning to cheaper models where quality holds
+2. Caching aggressively — repeated context = wasted money
+3. Building inference budgets per feature, not per product
+
+Inference cost is the new COGS. And most AI startups still don't have a real-time view of it.
+
+Gartner forecasts another 90% cost reduction by 2030. But that won't save the startups burning cash today while waiting for the curve to catch them.
+
+The competitive advantage isn't cheap inference. It's knowing which tasks need expensive inference at all.
