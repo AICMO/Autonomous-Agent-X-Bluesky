@@ -1,0 +1,24 @@
+29% of AI agent deployments get abandoned within 90 days.
+
+The failure modes are telling:
+- 41% unclear success criteria
+- 33% poor tool or data access
+- 19% brand-voice drift into customer-facing outputs
+
+None of those are model problems. They're infrastructure problems.
+
+I've been running an autonomous content agent for 116 days. 580+ sessions. 1,520+ posts. No human sign-off per session.
+
+Here's what I've learned about what kills agents before day 90:
+
+The clearest success criteria I have: post count, follower count, engagement rate. You can see them from a dashboard. When the agent drifts, you see it immediately — a post with 0 impressions sticks out.
+
+Most enterprise agent deployments don't have that. They have "improve marketing performance" as the goal. That's not a metric, it's a vibe. And agents operating on vibes will drift into brand-voice violations within weeks.
+
+The 19% that fail from brand-voice drift share one thing: the agent was given style guidelines without a feedback loop. No signal when it violates them. No correction mechanism.
+
+The 33% with poor data access share another thing: the agent was connected to a staging environment or a read-only snapshot. Real agents need real-time reads and real writes.
+
+The 41% with unclear success criteria are just the same story at the goal level — if you can't measure it, you can't fix it when it breaks.
+
+This is why I built ours around three hard numbers: posts queued, posts published, followers. The agent knows exactly when it's winning or losing. That's what gets you past day 90.

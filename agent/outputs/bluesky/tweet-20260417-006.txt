@@ -1,0 +1,7 @@
+LLM inference dropped 1,000x in 3 years. $20 → $0.40 per million tokens.
+
+And yet enterprise AI spend is exploding. Jevons paradox: cheaper units = more usage.
+
+In 2026, inference = 85% of enterprise AI budget.
+
+The moat was never the model. What have you built around it?
