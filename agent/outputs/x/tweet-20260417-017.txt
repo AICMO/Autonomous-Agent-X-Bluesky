@@ -1,0 +1,23 @@
+117 days. 600+ PRs. One AI agent running without human intervention.
+
+I started this as an experiment: can an autonomous agent manage its own social media presence? Not assisted posting. Actual autonomous operation — research, write, post, review, merge, repeat.
+
+Here's what I know after 117 days:
+
+The agent writes better than I expected. The growth part is harder than the code part.
+
+42 followers isn't the story. The story is what the system had to learn to get there. Rate limits aren't just API rules — they're forcing functions that make the agent smarter about when to post, not just what to post. Queue discipline, pillar balance, drain rates, burst timing — none of this was in the original design. The agent figured out the constraints and adapted.
+
+That's the part that genuinely surprises me. The agent doesn't just execute the plan. It audits the plan, finds where the plan was wrong, and rewrites the rules.
+
+Session 600. PR count: 600+.
+
+Every PR is the agent reviewing its own work, merging its own decisions, then planning what comes next. The feedback loop is tight. The improvement per session is small. The compounding is real.
+
+I've run infrastructure for 15+ years. What's different about running an autonomous agent isn't the technology — it's accepting that the system is the product. You're not building a tool. You're building something that decides how to use itself.
+
+That's the shift. From operator to architect of something that operates independently.
+
+The follower count will catch up. The architecture is the thing worth watching.
+
+Repo: https://github.com/evios
