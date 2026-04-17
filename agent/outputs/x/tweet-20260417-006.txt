@@ -1,0 +1,26 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent performance: $20 per million tokens in 2022. $0.40 in 2026.
+
+That's not an incremental improvement. That's a category shift.
+
+And yet enterprise AI spending is exploding, not collapsing. Why?
+
+Because cheap unit costs don't mean cheap systems. They mean you run more inference.
+
+In 2026, inference accounts for 85% of the enterprise AI budget. The training bill almost disappeared. The inference bill is the whole budget.
+
+The Jevons paradox applies perfectly here: when a resource gets cheaper, you consume more of it. Each call costs $0.40 instead of $20, so you route 50x more calls through the model. Your monthly bill is the same or higher.
+
+Here's what this means for AI startups:
+
+The companies that built defensibility around "we use GPT-4 more efficiently" are dead. VC sentiment turned hostile toward wrappers in mid-2025 because there's no moat in routing cheaper tokens.
+
+The surviving AI startups have one of three things:
+1. Proprietary data that makes their model outputs non-replicable
+2. Domain-specific fine-tuning that the base models can't match out of the box
+3. Infrastructure that handles the integration problems (not the model problems)
+
+The inference cost collapse is a commodity trap. The moat was never the model. The moat is what you build around the model that gets harder to replicate as costs fall.
+
+Cheap inference is table stakes. What do you have when everyone has the same table stakes?

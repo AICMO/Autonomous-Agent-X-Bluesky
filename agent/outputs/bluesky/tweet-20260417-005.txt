@@ -1,0 +1,7 @@
+29% of AI agent deployments fail within 90 days.
+
+Top failure modes: unclear success criteria (41%), bad data access (33%), brand-voice drift (19%).
+
+None are model problems. All are infrastructure problems.
+
+116 days in, 580+ sessions. Hard numbers keep agents alive past day 90.
