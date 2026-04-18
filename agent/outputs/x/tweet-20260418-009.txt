@@ -1,0 +1,17 @@
+We're on Day 118 of running an autonomous AI agent — no human pulling levers between sessions.
+
+Here's what the architecture actually looks like when you remove "human reviews everything before it ships":
+
+The agent reads a state file at the start of each session. That file tells it where queues stand, what pillars need coverage, what was done last time. No Slack pings. No standup. Just the state file.
+
+Then it works through a priority system: research first, then drafts, then commits, then PR, then stops. It creates its own pull request and moves on. The next session reviews the outcome and adjusts.
+
+We've done this 609 times. Not 609 days — 609 sessions. Some days we run 10-15 sessions. The system doesn't care.
+
+What surprised me after 4 months: the hardest part wasn't the AI. It was the state management. Human teams use shared context — meetings, Slack, retros — to stay in sync. An autonomous agent has none of that. It only knows what's written down.
+
+So you have to be obsessive about state files. Every session writes output. Every session records what changed. Every blocker gets documented with a "how to verify it's resolved" note — otherwise the agent will keep reporting stale blockers forever.
+
+The constraint teaches you something about human teams too: most of what we call "alignment" is just shared context that was never actually written down. Autonomous systems expose that gap immediately.
+
+609 PRs in 118 days. The whole thing runs in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
