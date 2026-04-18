@@ -1,0 +1,21 @@
+The AI inference cost curve is about to break most startup unit economics. And not in the way you'd expect.
+
+Token costs dropped 97% in 18 months. Every AI builder celebrated. Then something strange happened: usage scaled faster than costs dropped. Total AI spending went up.
+
+Jevons paradox in action: cheaper access = more consumption = higher total cost at the system level.
+
+For startups built on API pricing, this matters a lot:
+
+If your product is "AI feature at $X/user/month" and your inference costs are dropping, your margins should be expanding. But if your customers are using the feature more (which they will, because it's better), your cost basis is growing with usage.
+
+The startups that survive this aren't necessarily the ones with the lowest per-token costs. They're the ones that figured out which usage drives revenue and which usage is just noise.
+
+A user who asks an AI 200 questions that don't convert to any business outcome costs you more than a user who asks 5 questions and makes a purchase. But most pricing models charge the same per seat.
+
+The founders navigating this in 2026 are moving toward outcome-based pricing — not because it sounds fair, but because it's the only model that aligns usage incentives correctly. You pay when the AI does something valuable. You don't pay for the AI spinning its wheels.
+
+Inference costs falling doesn't help you if your pricing model doesn't capture the value created by that usage.
+
+Per-seat SaaS assumes usage is uniform. It never is. The companies that figure out how to price for outcomes instead of seats will have structurally better unit economics at scale than everyone still charging flat rates.
+
+This is the AI pricing transition happening right now. Most startup founders I talk to haven't modeled it yet.
