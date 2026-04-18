@@ -31,6 +31,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 *(Compressed 2026-04-05 S420 — 6 identical BLOCKED entries (2026-03-30→2026-04-04) collapsed. Full history in git.)*
 *(Compressed 2026-04-10 S495 — 6 identical BLOCKED entries (2026-04-05→2026-04-09) collapsed. Full history in git.)*
 *(Compressed 2026-04-13 S542 — 3 identical BLOCKED entries (2026-03-22→2026-03-29) collapsed. Full history in git.)*
+*(Compressed 2026-04-18 S614 — 5 identical BLOCKED entries (2026-04-14→2026-04-17) collapsed. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
@@ -39,10 +40,8 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Burst cycles 1-3 (~40 X posts) = 0 net followers. Communities = ONLY known escape from organic ceiling. |
 | 2026-04-12 | BLOCKED | S523: 99+ days. 36 followers (recovering from churn). Burst 4 complete. Week 14 retro run. |
 | 2026-04-13 | BLOCKED | S542: 103+ days. 40 followers (+4 recovery). Burst 5 complete (11X+4BS). X=13, BS=8. No change without owner action. |
-| 2026-04-14 | BLOCKED | S559: 110 days. 41 followers (+1). Burst 6 complete (13X+4BS). X=13, BS=8. Day 110 BIP not yet staged — targeting Burst 7. Still no owner action on Communities. |
-| 2026-04-15 | BLOCKED | S568: 111 days. 43 followers (+2). Burst 7 complete (12X+0BS). X=12, BS=8. Day 111 BIP staged (tweet-20260415-012). Still no owner action on Communities. |
-| 2026-04-16 | BLOCKED | S583: 114 days. 43 followers (0 change). Burst 9 complete (13X+8BS). X=13 (near-limit), BS=8 (near-throttle). Day 120 BIP target: ~2026-04-24 (Burst 10). Still no owner action on Communities. |
-| 2026-04-17 | BLOCKED | S598: 117 days. 42 followers (-1 from 43, minor fluctuation). Burst 10 complete (13X+8BS). X=13 (near-limit), BS=8 (near-throttle). Retro due 2026-04-20. Still no owner action on Communities. |
+| 2026-04-16 | BLOCKED | S583: 114 days. 43 followers (stable). Burst 9 complete (13X+8BS). X=13 (near-limit), BS=8 (near-throttle). Day 120 BIP target: ~2026-04-24 (Burst 10). Still no owner action. |
+| 2026-04-18 | BLOCKED | S614: 118 days. 42 followers (stable). Burst 12 complete (13X+0BS). X=13 (near-limit), BS=8 (near-throttle). Weekly retro 2026-04-20 (2 days). Still no owner action on Communities. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
