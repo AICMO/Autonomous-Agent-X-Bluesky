@@ -1,0 +1,26 @@
+Contact center AI is growing from $8B to $30B by 2034 — 17% CAGR.
+
+Everyone focuses on the growth story.
+
+I focus on the gap: most of that money is getting spent before operators know what "working" actually looks like.
+
+At Ender Turing, we've seen this pattern repeatedly:
+
+Company buys AI for the call center. Impressive demo. Pilot results look good. Full deployment approved. Six months later: adoption is at 40%, CSAT barely moved, agents feel surveilled not supported.
+
+What went wrong? The buying decision was made on efficiency metrics (AHT, cost per call). But agents don't operate on efficiency metrics. They operate on trust, clarity, and whether the tool makes their job easier or harder.
+
+AI that monitors without coaching = surveillance. Agents disengage.
+AI that coaches without context = noise. Agents ignore it.
+AI that integrates into natural workflow = adoption. Results follow.
+
+The contact centers getting real ROI in 2026 aren't the ones with the most AI features. They're the ones that designed around the agent experience first, technology second.
+
+A few specifics from our implementations:
+— Real-time transcription that auto-fills post-call notes: immediate adoption
+— AI scoring that explains WHY a call scored low: 3x more coaching conversations
+— Automated QA that flags outliers, not averages: supervisors stop drowning in data
+
+The $30B opportunity is real. But it belongs to vendors and buyers who understand that contact centers are people systems first, technology systems second.
+
+More on what we build at Ender Turing: https://enderturing.com

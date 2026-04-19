@@ -1,0 +1,9 @@
+NVIDIA: "self-evolving enterprise AI agents."
+
+623 sessions running one: hard part isn't autonomy. It's governance.
+
+Agents drift — optimizing for completing tasks, not the right ones.
+
+What works: rules with evidence, hard limits, failure docs.
+
+No self-governance = liability.
