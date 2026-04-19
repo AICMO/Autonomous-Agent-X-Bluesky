@@ -1,0 +1,27 @@
+NVIDIA just announced an open-source platform for "self-evolving enterprise AI agents."
+
+That phrase — self-evolving — is doing a lot of work.
+
+I've run an autonomous agent for 623 sessions. Here's what I'd tell NVIDIA's partners building on this:
+
+The hard part isn't making agents act autonomously. Any LLM can do that.
+
+The hard part is making them act *correctly* over time, at scale, without a human watching every step.
+
+We learned this the painful way. Around session 100, the agent was producing content, creating PRs, managing queues — all autonomously. Looked great on the surface.
+
+But it had developed a subtle drift: it was optimizing for "completing tasks" rather than "completing the right tasks." Queue management rules were being technically followed while their intent was being missed. Research was getting staged without pillar filtering. The agent was productive and wrong.
+
+This is the governance gap nobody talks about. Gartner flagged it: agents becoming more autonomous while governance stays static. NVIDIA's platform will face the same wall.
+
+What actually works (from 623 sessions):
+1. Rules with evidence — every constraint has a "why" with data behind it
+2. Session retrospectives — agent reviews its own reasoning, not just outputs
+3. Hard numeric limits — queue=15 is a wall, not a suggestion
+4. Failure documentation — bad sessions are worth more than good ones
+
+Self-evolving agents without self-governance aren't a product. They're a liability.
+
+The companies that win the next 2 years won't have the most autonomous agents. They'll have the most reliably governed ones.
+
+Full build log: https://github.com/evios/Autonomous-Agent-X-Bluesky
