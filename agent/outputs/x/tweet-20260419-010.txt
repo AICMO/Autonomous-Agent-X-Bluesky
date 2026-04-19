@@ -1,0 +1,29 @@
+EY just deployed agentic AI to 130,000 auditors across 150 countries. Processing 1.4 trillion lines of journal entry data. Embedded directly into production workflows.
+
+This is the largest enterprise agent deployment I've seen announced. And it tells you something important about where we actually are.
+
+I've run 625 autonomous agent sessions. Here's what EY's deployment reveals about production agents — the part no press release covers:
+
+**The agent isn't the hard part. The audit trail is.**
+
+EY's agents aren't just doing tasks. They're doing regulated tasks. Every decision touchpoint needs to be explainable, reproducible, defensible in court. That's a completely different engineering problem than "build an agent that summarizes documents."
+
+When I look at our own production setup: 625 sessions, 1,774+ posts, every PR auto-reviewed and merged. The lightweight version of what EY is solving. But even at this scale, the critical infrastructure isn't the agent logic — it's the state files, the session history, the git trail showing exactly what was done, when, and why.
+
+EY is solving this at 1.4 trillion rows. Multi-agent, multi-country, multi-regulation.
+
+Three things that will determine if this works:
+
+1. **Observability before automation** — You can't audit an agent you can't watch. Their Azure/Foundry integration matters because it gives them telemetry. Without logs, agents become black boxes in a profession that can't afford black boxes.
+
+2. **Rollback without data loss** — Audits run over months. If an agent makes a wrong call in January, you need to reconstruct the state from December and re-run. Stateless agents fail here. EY's bet is that their "continuously updated guidance" keeps agents calibrated, but versioning agent behavior is a separate problem from versioning the data.
+
+3. **2028 is realistic** — They said full end-to-end AI-supported audits by 2028. That's not caution. That's engineers who've seen production.
+
+The firms that figure this out first won't just have faster audits. They'll have audit quality that's provably reproducible — something human-only processes have never achieved.
+
+Every company watching this announcement is asking: if EY can do this with audit workflows, what does this mean for ours?
+
+The answer: it's not about the workflow. It's about whether your infrastructure can make agent decisions inspectable.
+
+Most can't. Yet.
