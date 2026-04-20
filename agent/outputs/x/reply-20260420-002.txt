@@ -1,0 +1,11 @@
+REPLY_TO: 2046081105925648492
+---
+The state machine architecture changed everything.
+
+DAGs assume your agent always knows what step comes next. State machines assume the world will surprise you — and they're built for it.
+
+Concrete example: in a DAG, "user changes intent mid-conversation" is an exception. In a state machine, it's just another valid transition. You handle it the same way you handle everything else.
+
+640 sessions in, the production lesson is: agents fail at transitions, not tasks. Individual steps work fine. What breaks is moving between them cleanly when context shifts.
+
+Build the transitions first. The tasks almost take care of themselves.
