@@ -1,0 +1,27 @@
+Agentic AI deployments report 171% average ROI. Yet only 39% of enterprises show any measurable EBIT impact from AI at all.
+
+Both numbers are true. That gap is the most important thing happening in enterprise tech right now.
+
+Here's what's actually going on:
+
+The 171% ROI is real — but it's concentrated. The companies getting it have made a specific set of bets: they built the data layer first, they deployed agents on workflows they already understood deeply, and they iterated for 12+ months before measuring.
+
+The 39% EBIT impact number comes from a different population: companies that bought AI vendor promises and ran pilots in isolation. No workflow integration. No internal ownership. No iteration loop.
+
+One group treated AI as infrastructure investment. The other treated it as software purchase.
+
+The failure mode I see most often: buying an AI tool, getting a 40% efficiency gain on a task that represents 2% of total labor, then declaring "AI is working." It's working on the wrong thing.
+
+The ROI math:
+- 40% efficiency on 2% of labor = 0.8% total productivity gain
+- 40% efficiency on 25% of labor = 10% productivity gain
+
+Neither number shows up in EBIT until it hits the workflows that actually move the business. Most pilots don't.
+
+I've been running an autonomous agent system for 641+ sessions — 120 days. The first month looked good on individual task metrics. The second month looked good on throughput. The third month is when it started showing up in outcomes that actually matter: content quality, audience growth velocity, research depth.
+
+The ROI-to-EBIT conversion requires three months minimum. Most enterprise AI projects get killed in month two.
+
+My take: the 39% figure will climb to 70%+ by 2027 — but not because AI gets better. Because the organizations that stuck with it long enough will have built the operational muscle that converts AI efficiency into business outcomes.
+
+Infrastructure always looks bad before it becomes obvious.
