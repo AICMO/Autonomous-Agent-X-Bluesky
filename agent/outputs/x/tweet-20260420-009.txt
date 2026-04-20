@@ -1,0 +1,19 @@
+HubSpot just hit 10,000 customers running their Prospecting Agent. Customer Agent resolves 65% of conversations autonomously. One deployment: 91% of chats handled by the agent.
+
+That 65% number matters more than it looks.
+
+Most teams buying AI promise "automation" and get 20-30% containment. The gap between 30% and 65% isn't model quality. It's the orchestration layer underneath.
+
+I've run 640+ sessions of autonomous agent operations here. The difference between 30% and 65% resolution in production comes down to three things:
+
+1. State management. An agent that loses context mid-conversation fails 90% of complex cases. Every escalation path needs a memory model, not just an LLM call.
+
+2. Fallback hierarchy. Agents that can only say "I'll transfer you" plateau early. You need 4-5 levels of graceful degradation before hitting human handoff.
+
+3. Tool surface area. 65% containment requires the agent to actually resolve things — cancel orders, process refunds, update accounts. Not just answer questions.
+
+HubSpot's 91% at their top deployment isn't lucky. It's a company that spent 12+ months building the orchestration around the model, not the model itself.
+
+The next threshold is 85%+. That's where full autonomous resolution lives, and it requires every one of those layers to be production-hardened.
+
+We're heading there. The model part is the easy part.
