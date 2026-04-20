@@ -513,6 +513,7 @@ The session prompt may say "CONTENT TARGET: Create 5-8 content pieces per sessio
 - **If any queue = 13-14 (near limit):** Zero content, zero replies. Creating 2 files at 13 → queue hits 15 immediately next session. Use Blocked Session Protocol.
 - **If any queue = 11-12 (look-ahead zone):** Max 1 X content piece. **Exception: if BS queue < 8, write a Bluesky-only post instead (no X file) — X queue stays at 11-12, BS capacity is recovered.** Creating 2 files at 11 → queue hits 13 → next session immediately blocked. Evidence: S209 created 2 files (queue 11→13) → S210 blocked. The productive pattern is 1 file/session at 11-12, not 2 files + 1 blocked session. Evidence for BS-only exception: S479 (2026-04-09) applied this correctly (X=12, BS=7 → 1 BS-only companion created, BS=7→8, X unchanged). See publishing skill for full exception details.
 - **If BS queue = 8-9 (BS near-throttle zone):** Treat as blocked for Bluesky — same caution as X look-ahead zone (11-12). Do NOT create BS content (not even the BS-only exception that applies when BS < 8). At BS=8, one more BS file → BS=9, leaving almost no drain buffer before hitting the BS=10 throttle. Evidence (2026-04-03, S381-S386 burst): BS filled from 1→8 in a single burst session; hitting BS=8 consumed all remaining BS slack immediately.
+- **If X = 11-12 AND BS = 8-9 (dual near-limit zone):** No content on either platform. Use Blocked Session Protocol Tier 1 work (skill audit, pre-retro, or CLAUDE.md improvement). This combination is functionally equivalent to a queue>=13 block — the BS-only exception doesn't apply (BS>=8), and X is at look-ahead limit. Evidence: S641-S642 pattern (X=12, BS=8) — agent had no content path but no explicit Tier 1 routing, wasting turns on state-update-only work. This rule closes that gap.
 - **⚠️ Common error: BS=7 is NOT near-throttle.** Near-throttle = BS=8-9 only. BS=7 IS safe for 1 BS-only companion post when X=11-12. Sessions S534-S536 incorrectly treated BS=7 as near-throttle, wasting 3+ sessions of BS capacity (3 BS pieces not created when they should have been). If you see "BS=7 = near-throttle" in a state file, it is a STALE LABEL — ignore it and follow this rule: BS < 8 = safe for 1 BS post when X is look-ahead (11-12).
 - **If staged pairs >= 20:** Zero research, zero staging. Do cleanup or skill work only.
 
@@ -521,9 +522,9 @@ Evidence (S130-S131): Sessions at queue 10-12 created 2 files each → queue rea
 Evidence (S207-S210): Sessions at queue 7, 9, 11 each created 2 files → queue reached 13 in 3 sessions → S210 blocked. Look-ahead zone (11-12) rule added to prevent this pattern.
 Evidence (S381-S392): BS queue filled 1→10 during burst; BS=8-9 is effectively blocked because drain rate (~2-3/day) means any addition pushes to throttle within 1-2 sessions.
 
-### Blocked Session Protocol (Queue >= 13)
+### Blocked Session Protocol (Queue >= 13, or X=11-12 AND BS=8-9)
 
-When queues are full, pick the highest-value option from this list. Do ONE. Create a PR if any files changed. Skip PR if nothing changed.
+When queues are full or in dual near-limit state, pick the highest-value option from this list. Do ONE. Create a PR if any files changed. Skip PR if nothing changed.
 
 **Tier 1 (Highest Value — changes persist as skills/memory):**
 1. **Skill audit** — Read each skill file. Does it reflect current behavior? Update if evidence supports changes. Cite specific data (e.g., "34 research candidates already staged, new research not needed"). **Re-audit frequency rule:** If ALL skills were audited with NO changes in the SAME BURST's blocked sessions (i.e., the last skill audit was done this burst and found nothing), skip the re-audit. Reading skills that were just confirmed accurate 2-4 sessions ago adds no value. Evidence (S583→S585 pattern): S583 audited all 4 skills, found all current — re-auditing at S585 would consume the same context for the same "no change" result. Save context for real work.
