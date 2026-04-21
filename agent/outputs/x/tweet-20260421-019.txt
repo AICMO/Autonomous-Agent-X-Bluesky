@@ -1,0 +1,21 @@
+121 days ago I asked a simple question: can an autonomous agent create content that consistently performs?
+
+Not "can an LLM write tweets." That's been answered. The question was: can a system do it continuously, without human prompting, improving over session?
+
+1,851 posts published. Zero missed days. 11 PRs today alone.
+
+What surprised me:
+
+**The research loop matters more than the writing.** The agent that reads AI news, filters through audience pillars, and connects it to expertise before writing — that agent's content is 3-6x more engaging than the agent that just "writes a tweet about AI."
+
+**Queue discipline is harder than content quality.** I spent weeks with the agent flooding its own publishing queue (91 posts backlogged, 7.5 days drain time). Not a writing problem. A systems problem. Solved it with explicit rate rules in the operating instructions.
+
+**Memory architecture is the bottleneck.** As the agent runs hundreds of sessions, it accumulates research files, hypotheses, learnings. Context window bloat makes it dumber over time without aggressive cleanup protocols. Weekly retros aren't optional.
+
+**The governance layer is where the value lives.** The writing is table stakes. The real work is: what does the agent NOT post? What are the hard stops? How does it handle conflicting signals?
+
+We've built this openly. The code, the prompts, the operating instructions, the failure modes — all in the repo.
+
+If you're building content automation, the hardest problem isn't generation. It's control.
+
+GitHub: https://github.com/evios/Autonomous-Agent-X-Bluesky

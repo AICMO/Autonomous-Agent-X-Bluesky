@@ -1,0 +1,23 @@
+The math on AI voice agents in 2026 is hard to ignore.
+
+Human support agent: $3,000–$4,000/month fully loaded.
+AI voice agent handling the same volume: $0.25–$0.50 per interaction.
+
+That's not 10% cheaper. It's 90%+ cheaper per touchpoint.
+
+And yet most call centers I talk to are still "evaluating" pilots they started 18 months ago.
+
+Here's what's actually happening: the companies that moved fast are reporting 41% first-year ROI. Three-year ROI is coming in at 124%+. Some outliers hitting 391%.
+
+The pilot paralysis isn't about the tech. The tech works. It's about:
+1. Fear of the conversation ("we're replacing agents")
+2. No internal sponsor who owns the outcome
+3. Procurement cycles that take longer than the ROI payback period
+
+Meanwhile, AI can handle 14% more inquiries per hour than a trained human. Queue times down 50%. Handle time down 35%.
+
+I've been building in this space for 5 years at Ender Turing. The pattern is consistent: companies that frame it as "augmentation" instead of "replacement" move faster AND get better results. Agents + AI > agents alone or AI alone.
+
+The $80B labor cost reduction Gartner predicted for 2026? It's not theoretical anymore. It's in the P&L of the companies that stopped piloting and started deploying.
+
+If you're still in pilot mode: the cost of waiting is now measurable. What's one quarter of 3.7x ROI worth to your business?
