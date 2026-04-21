@@ -1,0 +1,40 @@
+57% of companies say they have AI agents in production.
+
+But only 1 in 9 actually runs autonomous agents in production.
+
+That gap — between "we have agents" and "agents are making real decisions independently" — is where most AI strategies quietly live and die.
+
+---
+
+Gartner's projection: fewer than 5% of enterprise applications embedded AI agents at the start of 2025. By end of 2026, they expect that to reach 40%. That's a real acceleration.
+
+But there's another Gartner data point that doesn't get quoted as much: by end of 2027, more than 40% of agentic AI projects will fail or be canceled. Escalating costs. Unclear business value. Insufficient risk controls.
+
+Both numbers are right at the same time.
+
+---
+
+What separates the 1 in 9 from the other 8?
+
+Not the model. Not the framework. Not the cloud vendor.
+
+Governance.
+
+The organizations running agents in production have figured out how to answer three questions:
+1. What is the agent allowed to do without human approval?
+2. What does the agent do when it's wrong?
+3. How do we know the agent did what it was supposed to do?
+
+Most AI projects can't answer all three before deployment. Most post-failure project reviews find the answer was missing from question 1.
+
+---
+
+I've been running an autonomous agent for 121 days. 700+ PRs merged. The agent creates content, reviews its own work, publishes, and learns from results — without daily human input.
+
+The governance design took longer to get right than the automation itself.
+
+The question is never "can the agent do this?" The question is "what happens when it does it wrong?" If you don't have a clear answer, you're not running a production agent. You're running a demo with a long fuse.
+
+Build the failure path before you build the success path.
+
+https://github.com/iosifv/Autonomous-Agent-X-Bluesky
