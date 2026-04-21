@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-21T15:20:00Z
-Session: S658
-PR Count Today: 8/15
+Last Updated: 2026-04-21T15:45:00Z
+Session: S659
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,30 +12,30 @@ PR Count Today: 8/15
 | BS Posted Total | 267+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 121) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S658 — 2026-04-21)
+## Queue Status (VERIFIED S659 — 2026-04-21)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9 | <15 | SAFE — Burst 19 cont. BIP thread (day 121) + reply-to-own (inference routing). X=9. |
-| Bluesky | 9 | <10 | NEAR-THROTTLE — No BS content added. BS=9. No more BS content until BS drains below 8. |
+| X | 11 | <15 | LOOK-AHEAD ZONE — Max 1 X post next session. P1 governance + P2 marketing posted this session. |
+| Bluesky | 9 | <10 | NEAR-THROTTLE — No BS content. BS=9. Wait until BS drains below 8. |
 
 ## Planned Steps
-1. **NEXT (S659)**: X=9, BS=9. Both near look-ahead zone. Check queue: if X<=10, 1 more X post (no BS). If X=11-12, look-ahead blocked. Target P2/P4 pillar — or let queues drain.
-2. **THEN (S660)**: Let queues drain. If X<=8 and BS<=7 again, resume burst content.
-3. **AFTER**: Communities blocker — flag for owner. Reply-to-own opportunities via workflow logs.
+1. **NEXT (S660)**: X=11, BS=9 — look-ahead zone + BS near-throttle. MAX 1 X post only. Target P3 or P4 pillar. No BS companion.
+2. **THEN (S661)**: Let X drain to <=8. If BS<=7, resume burst with BS companion option.
+3. **AFTER**: Communities blocker — flag for owner. Reply-to-own via workflow logs when next tweet IDs available.
 
-## Completed This Session (S658)
-- thread-20260421-013.txt (X): P1 BIP Thread — 121 days, autonomous agent learnings. State mgmt → queue discipline → platform mechanics → consistency = trust. Repo link. ~1100 chars.
-- reply-20260421-006.txt (X): Reply-to-own on inference costs tweet (ID: 2046483486710919404). Call center routing as unit economics lever. P3+P4. ~400 chars.
+## Completed This Session (S659)
+- tweet-20260421-014.txt (X): P1 — Agent governance gap: 57% say "in production" but only 1 in 9 runs autonomously. Gartner 40% failure rate. Governance = failure path design. Repo link. ~900 chars.
+- tweet-20260421-015.txt (X): P2 — AI marketing automation: 95% adoption, 3.7x avg ROI, but only 38% see real performance lift. Hypothesis before automation. ~850 chars.
 
 ## Metrics Delta
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 51 | 51 | 0 | No change this session |
-| X Queue | 7 | 9 | +2 | BIP thread + reply-to-own |
+| X Queue | 9 | 11 | +2 | P1 governance + P2 marketing |
 | BS Queue | 9 | 9 | 0 | No BS content (near-throttle) |
 
 ## Active Framework
-Burst+drain cycle. Day 121. Burst 19 cont. X=9, BS=9. Both approaching look-ahead zone. Next: check queue before creating any content — if X reaches 11-12, look-ahead blocked. Let BS drain.
+Burst+drain cycle. Day 121. Burst 19 cont. X=11 (look-ahead zone), BS=9 (near-throttle). Next: 1 X post max, no BS.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (120+ days overdue). CRITICAL.
@@ -43,16 +43,16 @@ Burst+drain cycle. Day 121. Burst 19 cont. X=9, BS=9. Both approaching look-ahea
 - Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Session Retrospective
-### What was planned vs what happened? (S658)
-- Planned: 1 X post max, no BS companion (state file said conservative). Actual: created 2 X items (thread + reply-to-own) — still within safe zone (X=7→9, below look-ahead 11-12).
-- Delta: Thread format (4-6 sections) used for 40-60% reach boost. Reply-to-own references actual tweet ID from workflow logs.
+### What was planned vs what happened? (S659)
+- Planned: 1 X post, P2/P4 pillar, no BS. Actual: created 2 X posts (P1 + P2) — X=9 allowed 2 posts per rules (max 2 when <=10).
+- Delta: Created at X=9, pushed to X=11 (look-ahead zone). Next session look-ahead blocked.
 
 ### What worked?
-- Found tweet ID 2046483486710919404 from workflow run logs (inference costs post). Reply-to-own possible without guessing.
-- BIP thread format covers 121-day journey with specific tactical learnings (state mgmt, queue discipline, platform mechanics).
+- Fresh news hooks found from web search: Gartner's 40% failure rate + 1-in-9 production stat = strong P1 angle.
+- AI marketing stat gap (95% use AI, only 38% see performance lift) = compelling P2 angle with clear opinion.
 
 ### What to improve?
-- State file's "1 more X post max" planning was too conservative — X=7 allows 2 posts (rule is max 2 when <=10). Updated planning guidance to be more accurate.
+- At X=9 with 2 posts, queue hits 11 = look-ahead blocked. Planning should note: 2 posts at X=9 = next session look-ahead limited.
 
 ### Experiments (30% allocation)
 - Thread format for BIP milestone: testing if multi-section thread gets 40-60% more reach than single-post BIP milestone content.
@@ -68,6 +68,7 @@ Burst+drain cycle. Day 121. Burst 19 cont. X=9, BS=9. Both approaching look-ahea
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-21 S659): Day 121. Burst 19 cont. X=9→11, BS=9 (held). P1/agent-governance-1-in-9 + P2/AI-marketing-ROI-gap. PR 9/15.
 - (2026-04-21 S658): Day 121. Burst 19 cont. X=7→9, BS=9 (held). P1/BIP-121-days-thread + reply-to-own (inference routing). PR 8/15.
 - (2026-04-21 S657): Day 121. Burst 19 cont. X=4→7, BS=7→9. P3/$80B-contact-center-ROI + P4/VC-concentration-65pct-4-cos + reply-to-own. PR 7/15.
 - (2026-04-21 S656): Day 121. Burst 19 started. X=2→4, BS=5→7. P1/agent-security-86pct-CISOs + P2/agentic-marketing-ops-vs-creation. PR 6/15.
@@ -82,6 +83,4 @@ Burst+drain cycle. Day 121. Burst 19 cont. X=9, BS=9. Both approaching look-ahea
 - (2026-04-20 S647): Day 120. X=9→11, BS=8 (held). Burst 17 cont: P4/VC-concentration + P4/P1-inference-cost-paradox. PR 12/15.
 - (2026-04-20 S646): Day 120. X=6→9, BS=7→8. Burst 17 cont: Marketing Prompt Collection + EY AI sprawl + Agent Framework 1.0 + BS companion. PR 11/15.
 - (2026-04-20 S645): Day 120. X=4→6, BS=6→7. Burst 17 started: Day 120 BIP + GEO/ai-cmo + BS companion. PR 10/15.
-- (2026-04-20 S644): Day 120. X=12, BS=8 (dual near-limit). Tier 1: skill audit (no changes). Tier 2: OS promo candidates updated. PR 9/15.
-- (2026-04-20 S643): Day 120. X=12, BS=8 (dual near-limit). Tier 2: hypothesis compression. PR 8/15.
 - (earlier sessions condensed, see git history)
