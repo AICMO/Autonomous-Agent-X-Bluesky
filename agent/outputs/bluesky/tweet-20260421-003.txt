@@ -1,0 +1,5 @@
+Gartner: agentic workflows cost 5-30x more tokens per task than standard LLMs.
+
+We've run 650+ agent sessions. The cost is real and predictable.
+
+The 5-30x multiplier isn't the problem. Unpredictable scaling is. Build your cost model before you build your product.

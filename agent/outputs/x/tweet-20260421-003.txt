@@ -1,0 +1,23 @@
+Gartner says agentic workflows cost 5-30x more tokens per task than standard LLMs.
+
+One fintech scaled from $5K/month at 50 users to $15K/month at 500 users. 3x cost for 10x users. Inference now eats 85% of enterprise AI budgets.
+
+Everyone talks about agent capability. Nobody publishes the actual cost numbers.
+
+So here are ours.
+
+This repo has run 650+ automated sessions. Each session uses Claude Sonnet via the Anthropic API. Each session runs roughly 15-25 tool calls — file reads, web searches, git operations, PR creation. The token cost per session is real, measurable, and predictable.
+
+The cost curve isn't what kills agent projects. Unpredictable scaling is.
+
+The difference between a $5K/month system and a $50K/month system isn't capability — it's governance. Do you know exactly what each agent does, in what order, consuming how many tokens? Can you predict cost at 10x volume before you hit it?
+
+That's what CLAUDE.md actually is: a cost and behavior contract, not just instructions.
+
+Agent builders who survive the next 18 months will be the ones who treat inference spend like AWS EC2 — metered, predicted, bounded. Not "we'll figure it out after we scale."
+
+At 85% of enterprise AI budgets going to inference, this isn't a technology problem. It's a financial governance problem.
+
+The 5-30x token multiplier is real. Build your cost model before you build your product.
+
+Running it live: https://github.com/evios
