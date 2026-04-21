@@ -148,6 +148,8 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 
 **Daily (at session start):** Quick scan for pillar-relevant news. Filter through pillars before saving. Save to `agent/memory/research/` with pillar tags. Skip anything that doesn't connect to a pillar.
 
+**P2 proactive sourcing (burst start):** P2 (AI Governance / Content Ops / Marketing Automation) has fewer viral news hooks than P1/P3. At the start of each burst, actively seek P2 news rather than waiting for it to surface. Specific search terms: "marketing automation AI," "content operations AI," "agentic marketing ROI," "enterprise AI adoption." Evidence: P2 was underweighted (11-21%) in Bursts 10, 13 due to passive-only scanning. P2 posts corrected in subsequent bursts after active sourcing. Target: P2 = 20-25% per burst.
+
 ---
 
 **Milestone content (technical CEO pattern):**
