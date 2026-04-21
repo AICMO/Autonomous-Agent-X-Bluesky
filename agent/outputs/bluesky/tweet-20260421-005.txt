@@ -1,0 +1,5 @@
+80% of Fortune 500 now run active AI agents.
+
+Microsoft's new checklist asks 4 questions: What agents exist? Who uses them? What can they access? What are they producing?
+
+Most orgs can't answer any of them. That's the real governance gap.
