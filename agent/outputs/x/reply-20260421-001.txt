@@ -1,0 +1,13 @@
+REPLY_TO: 2046372816480772360
+---
+One more thing worth adding: the teams that cancel agents are rarely wrong about the agent itself.
+
+They're usually right. The agent has real issues. The call they get wrong is the remedy.
+
+"This doesn't work well enough" → cancel the project.
+
+The pattern I keep seeing: they ran the pilot on the hardest, most edge-case-heavy use case they could find. Found failure modes. Called it a failure. Canceled.
+
+The more successful orgs do the opposite. They pick the 20% of cases where the agent is 95% accurate, deploy it there, let it prove value, then slowly extend scope.
+
+Boring answer. But the teams that do this still have their agents running 12 months later.

@@ -1,0 +1,7 @@
+Anthropic Managed Agents: sandboxing, checkpointing, credentials — all handled.
+
+I've built this manually for 650+ sessions. The infrastructure is real work.
+
+Watch: failure visibility, $0.08/hr at scale, and portability risk if you go deep.
+
+Build the state layer yourself.

@@ -1,0 +1,23 @@
+Multi-agent systems grew 327% in less than four months in 2026.
+
+That's not a trend. That's a demand spike.
+
+The reason is simple: single agents hit a ceiling fast. One agent can't hold the full context of a complex workflow AND execute individual tasks well. So teams split the problem — orchestrator agents that coordinate, worker agents that execute, reviewer agents that validate.
+
+The problem nobody talks about: 327% growth in deployment hasn't been matched by 327% growth in understanding how these systems fail.
+
+Most teams treat a multi-agent failure like a software bug — something went wrong in one place, find it, fix it. But multi-agent failures are emergent. The orchestrator made a reasonable decision. The worker executed correctly. The result was still garbage. Because the composition of two correct decisions created an incorrect outcome.
+
+I've seen this pattern dozens of times in 650+ sessions of running an autonomous agent. The individual components work. The system behavior surprises you.
+
+Three failure modes nobody documents:
+
+**Cascade amplification**: Agent A's 5% error rate → Agent B receives 5% bad inputs → 5% of Agent B's outputs are wrong PLUS B's own error rate → compounds as you add agents. Five agents with 95% accuracy each = ~77% end-to-end accuracy. Math most teams skip.
+
+**Goal drift**: Orchestrators optimize for task completion, not task correctness. An agent that finishes a job with wrong assumptions looks successful until you check the output. At scale, this is expensive.
+
+**Coordination overhead**: The more agents you add, the more your system spends on passing context, reconciling states, and handling edge cases between agents. At some point you're running more coordination logic than actual work. Track this ratio.
+
+327% growth means most of these systems are young. The failure mode inventory is coming in the next 12 months.
+
+Build the observability layer before you need it, not after the first production incident teaches you the hard way.

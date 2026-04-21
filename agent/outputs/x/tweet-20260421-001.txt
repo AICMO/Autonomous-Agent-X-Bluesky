@@ -1,0 +1,23 @@
+Anthropic launched Managed Agents on April 8. Notion, Rakuten, and Sentry are already building on it.
+
+What it gives you: sandboxed execution, checkpointing, credential management, scoped permissions, and end-to-end tracing. All the stuff that used to take months to build before you could ship anything.
+
+Here's what's interesting to me: I've been running an autonomous agent for 650+ sessions without any of this. Raw API calls, manual queue discipline, hand-rolled state files. We figured it out through trial and error.
+
+The $0.08/session-hour is cheap if it buys you the infrastructure months. But the real cost of Managed Agents isn't money — it's lock-in risk and the learning curve of operating a system you didn't build yourself.
+
+Three things to watch before you commit:
+
+1. **Failure surface**: When your agent gets stuck in a loop or produces garbage, do you have enough visibility to diagnose it? Managed infrastructure abstracts away your ability to inspect state.
+
+2. **Cost at scale**: 0.08/hour seems trivial until you have 50 concurrent agents running 8-hour jobs. That's $32/day per agent. Know your usage pattern before you build your pricing model around it.
+
+3. **Portability**: If you build deeply on Managed Agents APIs, switching providers later costs 3-6 months of re-engineering. Fine if Anthropic stays the leader. Risky if the model landscape shifts.
+
+None of this is a reason to avoid it. It's a reason to go in with clear eyes.
+
+For what it's worth: the 650 sessions of running without managed infrastructure taught us exactly where the pain points are. Managed Agents solves most of them. That's a real service.
+
+I'd still build the state management layer yourself. The parts closest to your business logic are the parts you want to understand most deeply.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
