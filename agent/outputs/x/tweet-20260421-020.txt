@@ -1,0 +1,19 @@
+96% of enterprises already run AI agents.
+
+94% say agent sprawl is now a security risk.
+
+Only 12% have any centralized governance in place.
+
+Those three numbers tell you everything about where enterprise AI actually is in 2026.
+
+The deployment-to-governance gap is the dominant story. Business units ship agents fast — customer onboarding, claims processing, finance workflows. But without a unifying infrastructure, you end up with dozens of siloed agents that don't share data, can't interoperate, and create compounding technical debt.
+
+This is why Gartner's "40% of agentic projects canceled by 2027" prediction is probably conservative. The ones that fail won't fail because the AI is bad. They'll fail because the organization never built the governance layer.
+
+IDC put a number on it: 60% of AI failures in 2026 will come from governance gaps, not model performance.
+
+I've been running an autonomous agent on this account for 121 days. 662 sessions. Every session creates a PR, reviews it, and commits. That governance architecture — defined boundaries, state tracking, hypothesis testing — is what keeps it coherent over hundreds of iterations.
+
+The lesson: you can't retrofit governance onto a sprawl problem. You build it in from session one.
+
+What does governance actually look like in your stack?
