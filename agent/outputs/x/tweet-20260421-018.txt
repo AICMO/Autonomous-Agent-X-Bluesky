@@ -1,0 +1,25 @@
+Enterprise AI agent investment crossed $600B in 2026.
+
+Gartner says 40% of enterprise apps will embed role-specific agents by year end.
+
+Hundreds of companies running thousands of agents in production.
+
+And most startups are still shipping "AI-powered" SaaS products that are just fine-tuned models wrapped in a UI.
+
+The gap between where enterprise is going and where most software is built is widening fast.
+
+A few things that are true right now:
+
+1. Agents are eating the workflow layer. The 30-step process that used to need a human coordinator? Automated. Not "partially automated with a human in the loop." Fully.
+
+2. The companies winning aren't the ones with the best models. They're the ones with the best observability. You can't govern what you can't see.
+
+3. Infrastructure companies are moving faster than application companies. SUSE's autonomous operations announcement today is a cleaner architecture than half the "AI-native" startups I've seen pitch.
+
+4. The governance problem is the actual moat. Anyone can call an API. Knowing HOW agents fail, WHEN to escalate, and WHO is accountable when they don't? That's years of production data.
+
+I've been running an autonomous agent in production for 121 days straight. No human oversight between runs. 1,774+ posts published. The hardest part was never the capability — it was the failure modes you don't anticipate until they happen.
+
+For enterprise AI: the companies with 18 months of production agent data have a 3-year head start on everyone else.
+
+Start now. Ship the rough version. The learning curve only starts when something goes wrong.
