@@ -23,6 +23,7 @@ Reference structure (adapt as needed):
   - `gh variable list` - if variables exist, presume secrets are also configured
   - `gh run list --workflow=<workflow>` - did recent runs succeed?
   - Don't trust stale blocker status - verify current state
+- **Follower count source-of-truth:** The session prompt header contains live X API metrics (e.g., "50 followers, 48 following"). This is authoritative. The state file may lag by 1-5 followers. Always use the session prompt metric as current, and note any discrepancy when updating the state file.
 - Update Session Retrospective section
 
 ### 2. ACT (Adjust based on learnings)
