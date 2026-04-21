@@ -1,0 +1,5 @@
+4 companies raised $188B in Q1 2026. 65% of all global VC.
+
+OpenAI $122B. Anthropic $30B. xAI $20B. Waymo $16B.
+
+For everyone else: the inference economics are the real story. Per-token cost down 1,000x. Per-outcome cost: unchanged.

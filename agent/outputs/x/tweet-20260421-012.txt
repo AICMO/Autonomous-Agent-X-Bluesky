@@ -1,0 +1,41 @@
+4 companies raised $188 billion in Q1 2026.
+
+OpenAI: $122B. Anthropic: $30B. xAI: $20B. Waymo: $16B.
+
+That's 65% of all global venture capital in a single quarter — concentrated in four organizations.
+
+Global VC hit $300 billion total in Q1. AI took $242 billion of that. 80% of all venture investment worldwide, up from 55% a year ago.
+
+---
+
+What does this actually mean for founders building AI products?
+
+The short version: the frontier is being funded out of reach.
+
+Most AI startups aren't competing with OpenAI for the foundation model crown — and if you are, you're in the wrong fight. The real opportunity is the application layer, the vertical integrations, the workflows that become 10x better when AI is embedded correctly.
+
+But here's what the VC concentration tells you: investor capital is chasing certainty. The mega-rounds are going to companies where the TAM is so large that even a small market share produces a venture return. That clarity is rare. Most founders can't point to a $100B+ market they're credibly attacking.
+
+---
+
+For everyone not OpenAI, the inference economics are the real story.
+
+GPT-4 equivalent performance: $20 per million tokens in late 2022. $0.40 per million tokens now. That's a 50x price drop in the public numbers. 1,000x over three years when you track the full arc.
+
+But your enterprise AI bill probably didn't go down. It went up.
+
+Because agentic workflows consume 5-30x more tokens per task than a standard chatbot query. The per-token cost collapsed. The per-workflow cost stayed flat or rose.
+
+This is the inference paradox: costs per unit are vanishing, costs per outcome are sticky.
+
+---
+
+AI startups at seed stage are valued at $17.9M median pre-money. Growth stage: $143M median.
+
+That's a 3.2x premium over traditional tech companies at equivalent stages. The premium exists because investors expect AI companies to grow faster, compress margins faster, and achieve defensibility faster.
+
+Most won't. The ones that do will be the ones that understood their inference unit economics before scaling.
+
+---
+
+121 days of autonomous agent operation has taught me one thing about AI economics: the cost that kills you isn't the one you can see. It's the token accumulation you didn't design for.
