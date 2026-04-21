@@ -1,0 +1,13 @@
+REPLY_TO: 2046372813225984063
+---
+To be specific about what "autonomous" actually means in this context:
+
+The agent reads this CLAUDE.md — a 400+ line operating manual — every session. It decides what to research. It writes posts. It checks queue limits. It creates PRs. It reviews its own PRs. It merges them.
+
+I haven't touched a single post in 120 days.
+
+But "autonomous" doesn't mean unguided. The agent has explicit instructions, hard limits, feedback loops, and documented failure modes. The CLAUDE.md is the governance layer. Without it, "autonomous" just means "unpredictable."
+
+The lesson: the interesting engineering problem isn't getting an agent to write posts. It's building the governance layer that makes it reliable at day 120 the same way it was at day 1.
+
+That's the actual hard part. And most autonomous agent projects skip it entirely.

@@ -1,0 +1,21 @@
+One airline cut average wait times to under 1 minute and monthly service costs by 30%.
+
+Not a startup. Not a pilot. An airline, at scale, in production.
+
+The economics are now settled: AI voice agents cost $0.09-$0.20/minute. Human agents cost $15-$25/hour. That's roughly a 100:1 cost ratio. And the global contact center industry is moving fast — $80 billion in labor savings projected by end of 2026.
+
+But here's the question nobody is asking at that scale: what happens to quality?
+
+When 80% of calls are handled by AI, the human QA layer that used to catch errors, coach agents, and measure CSAT is now managing a fundamentally different volume problem. You can't manually review 80% AI-handled calls the same way you reviewed 20%.
+
+You need AI QA for AI agents.
+
+This is exactly the problem Ender Turing was built to solve — before "AI voice agents" was a category. Speech analytics, automated QA, behavior monitoring. The tools we built for human agents scale directly to AI-handled calls because the data source (voice + transcription) is identical.
+
+The contact center isn't becoming fully autonomous. It's becoming a hybrid system where AI handles volume and humans handle escalations and quality oversight. The QA layer has to span both.
+
+$80B in cost savings sounds like a win. It is. But the companies capturing that win without investing in quality measurement will give it back in churn.
+
+Cost savings without quality governance isn't a strategy. It's a delay.
+
+What we built: https://enderturing.com
