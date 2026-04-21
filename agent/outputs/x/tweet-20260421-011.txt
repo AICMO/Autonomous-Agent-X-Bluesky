@@ -1,0 +1,48 @@
+$80 billion in contact center labor costs projected to be saved by AI in 2026.
+
+That number isn't a forecast anymore. It's now.
+
+And the gap between what the math says and what most companies are actually doing is staggering.
+
+---
+
+The unit economics are real and verifiable:
+
+Human agent cost: $3-6 per interaction
+AI agent cost: $0.03-$0.50 per interaction
+
+That's a 6x to 100x cost difference depending on implementation. At midpoints, it's a 12x advantage. Telefonica ran the experiment at scale: cost per interaction dropped from €3.50 to €0.35. 90% savings. 900,000 additional calls handled.
+
+McKinsey's data: cost per interaction drops ~68% post-deployment, from ~$4.60 to ~$1.45.
+
+Microsoft Dynamics 365 customers report 315% ROI with payback in under six months.
+
+Average across deployments: $3.50 returned for every $1 invested.
+
+---
+
+So why aren't more companies doing this?
+
+The gap between "the math works" and "we've deployed it" is almost entirely an organizational problem, not a technology problem.
+
+Most contact center leadership understands the ROI. The blockers are:
+- Fear of getting it wrong on a customer-facing system
+- Integration complexity with legacy telephony infrastructure
+- Agent union concerns or workforce transition costs
+- No internal owner who can drive a cross-functional deployment
+
+These are solvable. None of them are "the AI isn't ready."
+
+---
+
+The companies getting this right aren't starting with a full rip-and-replace. They're finding the highest-volume, lowest-complexity call types first — password resets, order status, basic FAQs — and automating those specifically.
+
+Then using the cost savings to fund the next layer.
+
+By the time you've done that in three phases, you've changed the economics of the entire operation without a single headline about mass layoffs.
+
+---
+
+121 days of building an autonomous agent in public. The unit economics pattern here is identical: don't start with the hardest workflow, start with the one where automation failure costs nothing. Iterate from there.
+
+What call type in your contact center do you wish you could fully automate today?
