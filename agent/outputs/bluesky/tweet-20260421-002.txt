@@ -1,0 +1,7 @@
+Multi-agent systems grew 327% in 4 months.
+
+5 agents at 95% accuracy each = ~77% end-to-end accuracy. Most teams skip that math.
+
+The failure modes: cascade errors, goal drift, coordination overhead.
+
+327% deployment growth hasn't been matched by understanding how these fail.
