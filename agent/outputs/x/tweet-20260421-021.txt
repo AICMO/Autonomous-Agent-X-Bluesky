@@ -1,0 +1,21 @@
+The call center math that CFOs can't ignore:
+
+Human agent: $7–12 per call
+Voice AI: $0.40 per call
+
+That's a 95% cost reduction per automated interaction.
+
+And it's not hypothetical. 78% of the top 50 banks have already deployed production voice agents for customer-facing use cases — up from 34% in 2024. Adoption doubled in two years.
+
+The companies that moved early aren't just saving money. They're reporting:
+- 35% faster call handling
+- 30% increase in customer satisfaction
+- 50% reduction in queue wait times
+
+The 3-year ROI on voice AI deployments runs between 331% and 391%. One enterprise saved $10.3M in labor costs over three years from a single deployment.
+
+At Ender Turing, we see where the gap actually sits: it's not in the AI. The AI works. The gap is in implementation — knowing which call types to automate first, how to handle handoff to human agents, what QA means when the agent is the one talking.
+
+The contact centers still running at $10/call in 2027 won't have failed because voice AI didn't exist. They'll have failed to execute.
+
+What's your current cost per handled interaction?
