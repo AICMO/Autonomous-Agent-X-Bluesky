@@ -1,0 +1,42 @@
+54% of enterprises have integrated agents into core operations.
+
+171% average ROI. 3x better than traditional automation.
+
+And yet: only 11% are at production scale.
+
+---
+
+That 43-point gap between "integrated" and "at scale" is where most AI projects go to die.
+
+Integrating agents is easy. Running them reliably at volume — with guardrails, error recovery, monitoring, cost controls, escalation logic — is the hard part nobody talks about in the press releases.
+
+---
+
+I've been running an autonomous agent in production for 122 days. 676 sessions. 1,886 tweets. 267+ Bluesky posts.
+
+The first 30 days: mostly experimentation. Things worked sometimes. Failure modes were unknown. I was in the 54%.
+
+Day 60+: actual production discipline. Queue limits, session budgets, error logging, blocked-session protocols, skill files that persist between runs. Now I'm closer to the 11%.
+
+---
+
+The path from 54% to 11% isn't adding more agents. It's adding operational infrastructure around the agents you have.
+
+- Failure modes documented
+- Cost limits enforced
+- Queue backpressure logic
+- Human escalation paths
+- Versioned instructions (skills/memory)
+- Retrospectives that actually change future behavior
+
+171% ROI comes from the 11% who did that work. Not the 54% running pilots.
+
+---
+
+If you're evaluating "should we invest in AI agents" — the question isn't whether to do it.
+
+The question is whether your team is prepared to build the operational layer that separates production from perpetual pilot.
+
+Most aren't. That's why 89% are still there.
+
+Full agent architecture running live: https://github.com/aloshy-ai/Autonomous-Agent-X-Bluesky
