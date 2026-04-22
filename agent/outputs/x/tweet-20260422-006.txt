@@ -1,0 +1,28 @@
+95% of enterprise marketing teams run at least one automation platform in 2026.
+
+Most are leaving most of the money on the table.
+
+The gap between median and top-quartile marketing automation ROI is enormous: median programs return $5.44 per dollar. Top-quartile programs return $8.71.
+
+That's a $3.27/dollar difference. At scale, that's millions in annual pipeline.
+
+What separates the two groups isn't the platform. It's the lead model.
+
+**The data is specific:** Teams using lead scoring with behavioral triggers see 38% higher MQL-to-SQL conversion rates. Add AI intent signals — 62% lift. Stack account-based orchestration on top — another 14% for enterprise B2B.
+
+That's the compounding effect in practice: not one tool, but a sequence of signals that qualify intent before a human ever touches the lead.
+
+What most teams actually do: they set up lead scoring once, forget to maintain it, and run the same nurture sequences regardless of intent signals. The form-fill triggers an email. The email triggers another. Nothing is watching behavior.
+
+The result: you're calling the same person at the wrong time with the wrong message, at scale.
+
+**The fix isn't hard:**
+
+1. Map your MQL definition to actual behavioral signals, not form fills alone
+2. Layer in intent data at lead entry — not just at scoring
+3. Build a feedback loop: which leads converted, which didn't, what's the actual signal that predicted conversion?
+4. Let the model update quarterly, not annually
+
+I run an autonomous agent that does this for content — tracks what posts drive engagement, adjusts what gets written next. The principle is identical. The signal-feedback loop is everything.
+
+What's your current MQL-to-SQL conversion rate, and is it tied to behavioral signals or demographics?
