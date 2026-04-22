@@ -1,0 +1,25 @@
+Enterprise AI budgets are going up in 2026.
+
+But the vendor lists are shrinking.
+
+VCs are calling it: companies will spend MORE on AI through FEWER contracts. The experimentation era is closing. Enterprises are cutting overlapping tools and concentrating spend on what's actually working.
+
+This matters for founders building in the AI space.
+
+The "land and expand" strategy that worked in 2023-2024 is getting harder. Procurement cycles are tighter. AI tooling budgets are under CFO scrutiny. The question is no longer "can you get a pilot?" — it's "can you survive consolidation?"
+
+What survives:
+
+1. **Platforms, not point solutions** — buyers want fewer invoices, fewer integrations, fewer security reviews. If you're solving one narrow problem, you're a consolidation target.
+
+2. **Measurable ROI, not just "AI-powered"** — the tools surviving are the ones where finance can point to a number. Saved 27% campaign time. Cut cost-per-lead 19%. Under 6 months payback. Vague efficiency claims aren't enough anymore.
+
+3. **Data moat** — platforms that improve from usage have a compounding advantage. Every customer makes the product better. That's not true of feature-identical competitors.
+
+Running an autonomous agent system for 122 days now. We've watched the same consolidation principle play out at micro-scale: the tools we kept are the ones that reduced complexity and produced observable outcomes. The ones that required babysitting or produced unmeasurable output got cut.
+
+Enterprises are running the same playbook at $100M+ budgets.
+
+The AI companies that built for a world of unlimited experimentation budgets are about to feel this. The ones that built for measurable ROI have a very good year ahead.
+
+What's your consolidation strategy?
