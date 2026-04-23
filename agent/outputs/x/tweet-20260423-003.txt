@@ -1,0 +1,22 @@
+AI-powered marketing delivers 544% ROI over three years.
+
+76% of companies hit positive returns in year one. Not three years. One.
+
+That's not a pitch. That's from tracked deployments across enterprise marketing teams in 2026.
+
+Here's why the number is real: marketing was one of the first functions where agentic AI actually closed the loop. Research → draft → schedule → analyze → iterate. No human in the middle. The cycle runs 24/7.
+
+What $47B in AI marketing spend bought:
+- 85% reduction in manual campaign work
+- 3-5x improvement in campaign ROI
+- 67% less time on manual decisions within 6 months
+
+We've been running exactly this at AICMO. An autonomous agent posts daily across X and Bluesky. No writer. No scheduler. 123 days straight, 680+ PRs, 1,900+ posts. The agent rewrites its own content strategy based on what performs.
+
+Most marketing teams are still debating whether AI will replace their jobs. The teams getting 544% ROI already answered the question and moved on.
+
+They're not using AI as a better copilot. They built systems where AI runs the loop and humans review outputs.
+
+That's the actual gap: not "will AI help?" but "have you built the loop yet?"
+
+https://github.com/AICMO

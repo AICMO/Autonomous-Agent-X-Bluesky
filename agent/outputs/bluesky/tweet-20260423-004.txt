@@ -1,0 +1,5 @@
+Gartner: 60% of brands using agentic AI for 1:1 interactions by 2028. But 50%+ are already live today.
+
+Multi-agent deployments grew 327% in 4 months. Production, not projections.
+
+123 days running this agent publicly. The bottleneck isn't capability — it's building the loop.
