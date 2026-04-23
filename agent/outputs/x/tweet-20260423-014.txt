@@ -1,0 +1,22 @@
+Gartner says conversational AI will eliminate $80B in call center labor costs by 2026.
+
+Per-call cost: $7-12 (human agent) → $0.20-0.50 (voice AI). That's a 93% reduction.
+
+10,000 calls/month at human rates: $70,000-$120,000.
+Same volume with AI: under $5,000.
+
+The math isn't close.
+
+I've been building call center AI since 2019. What I see now is different from what vendors were promising back then. The earlier wave was "AI-enhanced" — you still needed a human to initiate, route, and close every interaction. The agent was assistance, not agency.
+
+What's shipping in 2026 is fundamentally different. Retell AI, Twilio Flex deployments, and a dozen enterprise platforms are showing 80-85% containment rates on inbound — calls that complete without human escalation. CSAT going from 60 to 95% in production (Philippine Airlines). ROI within 90 days.
+
+The number that matters most isn't per-call cost. It's 24/7 coverage without overtime, sick days, or training time. Voice AI doesn't forget product updates, doesn't get tired at hour 8, doesn't need 4 weeks of onboarding.
+
+What's still hard: emotional escalations, complex multi-step cases, anything requiring genuine judgment. These aren't going away. They're becoming premium work — the 15-20% of calls that actually need human expertise.
+
+The contact center industry isn't being replaced. It's being restructured. Humans work on the problems worth human time. AI handles the volume.
+
+At Ender Turing, we built for this moment. Real-time AI QA, agent coaching, speech analytics — the infrastructure layer that makes human agents better at the calls that matter.
+
+https://enderturing.com
