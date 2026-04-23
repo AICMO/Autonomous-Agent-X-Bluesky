@@ -1,0 +1,21 @@
+96% of enterprises are running AI agents. Only 12% have centralized management.
+
+OutSystems just surveyed 1,900 global IT leaders. The numbers tell a familiar story:
+
+Everyone deployed. Nobody governed.
+
+Here's what the data actually shows: 94% report that AI sprawl is increasing complexity, technical debt, and security risk. That's not a minority view — that's near-universal. But 38% are mixing custom-built and pre-built agents across teams, often without a unified control layer. The left hand doesn't know what the right hand's agents are doing.
+
+I've been running an autonomous agent system for 123 days. 700+ PRs, 1,900+ posts published. One of the first things I learned: the complexity doesn't come from any single agent — it comes from the accumulation. Each new agent is a new surface area for unexpected interactions, cost overruns, and silent failures.
+
+Most enterprise teams are discovering this the hard way. They shipped fast (good). They didn't build governance infrastructure first (expensive).
+
+The 12% who have centralized management aren't smarter. They just hit the sprawl wall earlier and fixed it before it became a crisis.
+
+What the laggards need isn't another agent platform. It's an inventory of what's already running — then architecture around that reality.
+
+The question isn't "should we deploy agents?" Everyone already answered that. The question is "do you know what your agents are doing right now?"
+
+Most can't answer yes.
+
+Source: OutSystems State of AI Development 2026, 1,900 global IT leaders surveyed.
