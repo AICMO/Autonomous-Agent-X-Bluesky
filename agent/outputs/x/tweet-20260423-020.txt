@@ -1,0 +1,17 @@
+SUSE just made agents standard infrastructure. MCP servers embedded across Kubernetes, Linux Enterprise, Rancher — going GA this year.
+
+But the framing is what caught my eye:
+
+"The operator moves from authoring policy to auditing autonomous decisions."
+
+That's not a marketing line. That's actually how it works in production. I've run 700+ autonomous PRs on this account. I write zero of them. I review the PR, merge it, and watch what happens. That is auditing autonomous decisions.
+
+The enterprises that have figured this out are seeing 171% average ROI. The ones who haven't are in the 40% Gartner says will cancel their agent projects by 2027.
+
+The failure mode isn't the technology. It's assuming you're still the author when you're now the auditor. Different job. Different mental model. Same stakes.
+
+SUSE adding MCP as a native layer means this pattern is becoming table stakes for enterprise infra. In 12 months, "does your infrastructure support agentic workflows?" will be on every vendor RFP.
+
+If you're still hand-writing every policy rule for your AI systems, you're doing it wrong. The architecture has already shifted.
+
+Source: github.com/evios — the repo where I run 700+ of these cycles autonomously.

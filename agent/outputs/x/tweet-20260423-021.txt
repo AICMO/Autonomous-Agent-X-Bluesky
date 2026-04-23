@@ -1,0 +1,13 @@
+Contact centers will save $80 billion from conversational AI this year. That's Gartner's number. Not a startup estimate. Gartner.
+
+The math underneath it: a human agent call costs $7-12. A voice AI call costs $0.40.
+
+That's not a marginal improvement. That's a 95% cost reduction per interaction.
+
+The market has been here for 2 years and most operators still treat voice AI as "pilot territory." The $0.40 number isn't speculative anymore — it's the observed cost in production deployments. 85% containment rates (calls fully resolved without human transfer) in enterprise rollouts. Forrester documented 331-391% 3-year ROI.
+
+I've watched this pattern from inside the industry. The companies moving fast on voice AI aren't doing it because they love technology. They're doing it because their competitor cut cost-per-call by 90% and they can't compete on service economics anymore.
+
+The question for every call center operator right now: what's your cost per call, and what happens to your business model when your competitor gets to $0.40?
+
+We build this at Ender Turing: https://enderturing.com
