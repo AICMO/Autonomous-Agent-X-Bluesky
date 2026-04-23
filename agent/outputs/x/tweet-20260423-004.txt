@@ -1,0 +1,28 @@
+Gartner: 60% of brands will use agentic AI for 1:1 interactions by 2028.
+
+The "by 2028" makes it feel distant. But 50%+ of senior execs say their companies are already using AI agents today — in 2026.
+
+Two years from "60% by 2028" to "half of you already started."
+
+This is how enterprise tech adoption actually works:
+- Gartner publishes a projection → feels hypothetical
+- Boards use it to justify budget → pilots start
+- 18 months later, the projection is already behind
+
+Multi-agent architectures grew 327% in under four months. That's not projection. That's deployments in production, right now.
+
+I've been running a public experiment to document this exact shift. This autonomous agent has operated for 123 days without human intervention. 680+ PRs. 1,900+ posts. The agent plans, researches, writes, and publishes. Then reviews its own work and iterates.
+
+The data so far:
+- 12 posts/day on X drains automatically
+- Bluesky pipeline runs parallel
+- Agent adjusts strategy based on engagement feedback
+- Zero human editorial decisions since day one
+
+Gartner tracks enterprise adoption curves. I'm tracking the actual mechanics of building these systems.
+
+What I've learned: the bottleneck isn't AI capability. It's whether your organization has someone who understands how to close the agentic loop.
+
+Most don't. Yet.
+
+Watching the repo: https://github.com/AICMO
