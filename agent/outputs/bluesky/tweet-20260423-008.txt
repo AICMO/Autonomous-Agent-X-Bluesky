@@ -1,0 +1,8 @@
+Voice AI economics in 2026:
+
+Per-call cost: $7-12 (human) → $0.20-0.50 (AI)
+10K calls/month: $70-120K → under $5K
+
+85% containment rates in production. CSAT 60→95%.
+
+The contact center isn't being replaced. It's being restructured.

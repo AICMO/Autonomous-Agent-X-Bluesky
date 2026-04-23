@@ -1,0 +1,19 @@
+Token costs dropped 280x in 2 years. Enterprise AI bills grew 5.8x in the same period.
+
+This isn't a contradiction. It's exactly what happens when you dramatically lower the price of something enterprises are willing to buy.
+
+The paradox: per-token cost is a nearly irrelevant metric for enterprise AI spend in 2026. What matters is query volume, agent loop depth, and the number of parallel processes running.
+
+Agentic workloads are the cost driver nobody planned for. A single agent running autonomously doesn't hit an LLM once per task — it hits it 10-20 times in a reasoning loop. Multiply that by hundreds of concurrent processes across an enterprise and you get inference bills in the tens of millions per month.
+
+Average enterprise AI budget: $1.2M in 2024. $7M in 2026. Some Fortune 500 companies are tracking monthly inference bills in the tens of millions.
+
+Inference now accounts for 85% of enterprise AI GPU spend. That's the flip from where the industry was 18 months ago, when training was the big number.
+
+The inference cost crisis is a governance problem disguised as a cost problem. Most enterprises don't know which agents are running, what they're calling, or how many tokens they're burning per business outcome.
+
+The companies getting ROI from AI agents in 2026 all have one thing in common: they track inference spend at the task level, not the system level. Cost per business outcome, not cost per token.
+
+Cheaper tokens + no governance = expensive chaos. Cheaper tokens + agent cost accounting = compound ROI.
+
+The infrastructure layer that survives 2026 is the one that makes agentic costs predictable and auditable.
