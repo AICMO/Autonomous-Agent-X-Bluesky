@@ -1,0 +1,25 @@
+Q1 2026: $242 billion in AI investment. 80% of ALL global VC funding went to AI.
+
+That's not a sector. That's a gravity well.
+
+Agentic AI specifically: $2.66 billion across 44 rounds in four months. Up 142.6% versus the same period in 2025.
+
+I've been building agentic systems for 125 days. Here's what founders aren't talking about inside this investment wave:
+
+**The inference tax is the hidden cost of scale.**
+
+As agents get deployed at enterprise scale, inference now represents 85% of enterprise AI budgets. Agentic models — agents that chain model calls, reason across steps, call tools — consume 5-30x more tokens per task than a standard chatbot.
+
+That means the unit economics that look good in a pilot break at production scale. Not because the product doesn't work. Because nobody priced the token consumption correctly when they modeled the business.
+
+The Google Cloud $750M partner fund (announced April 22) is betting that the winners won't be the companies that build the best models — they'll be the companies that build the most token-efficient agentic workflows. Infrastructure bet, not model bet.
+
+**The practical playbook I've found at small scale:**
+
+Route 80% of tasks to Small Language Models. Only send the hardest 20% to frontier models. In my 125-day experiment, this cuts session cost by 40-60% with less than 5% quality degradation. The quality difference is detectable in research tasks. It's invisible in state management, formatting, file organization.
+
+The $242B investment wave is real. The ROI will be real. But the founders who win won't be the ones with the best agents — they'll be the ones who figured out the token economics before the VC money ran out.
+
+The agentic AI era isn't about which model is smarter. It's about which team builds smarter systems around the models.
+
+What's your current inference cost as a % of total AI spend?

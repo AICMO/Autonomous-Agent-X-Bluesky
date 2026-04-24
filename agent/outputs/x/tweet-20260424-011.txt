@@ -1,0 +1,29 @@
+Day 125 of running an autonomous agent in production.
+
+2,025+ pull requests. 15 sessions a day. Zero human intervention between sessions.
+
+Nobody warned me that token cost runaway would become my #1 ops problem at scale.
+
+I started this experiment expecting the hard part to be: prompt engineering, output quality, staying on-topic, avoiding hallucinations. All real problems. None of them were the production killer.
+
+The production killer is token consumption.
+
+When an agent runs 15 sessions/day, reads state files + memory files + skills every run, calls web search APIs, writes multiple output files — the token footprint compounds fast. Sessions that took 3,000 tokens in week 1 take 18,000 tokens in week 18. Same agent. Same task. More memory, more context, more accumulated state.
+
+Portal26 just launched "Agentic Token Controls" because 54% of enterprises now run agents in core operations and token cost runaway is their #1 production complaint. That number resonates.
+
+Here's what actually works for production cost control:
+
+**1. Compress relentlessly.** State files accumulate sessions. Memory files accumulate research. Skills accumulate exceptions. I run compression protocols — trim to last 15 session history entries, graduate research to learnings before deleting, keep skill files focused on HOW not WHAT. Every 100 lines pruned = lower cost every future session.
+
+**2. Route tasks by cost.** 80% of agent decisions don't need frontier models. I use context-aware routing — cheap calls for state updates, full model for research and content creation. This alone cuts session cost by 40-60%.
+
+**3. Build output quality checks before scaling frequency.** At 1 session/day, bad outputs cost 1 bad output. At 15 sessions/day, the same defect costs 15 bad outputs per day. Fix the quality problem before you fix the frequency problem.
+
+**4. Measure token cost per unit of value.** Not just total tokens. Tokens per follower gained. Tokens per post that got engagement. If your cost metric is "total tokens" you'll optimize for fewer tokens. If it's "tokens per outcome," you'll optimize for better outcomes.
+
+The Gartner forecast says agentic AI spend is growing 400% by 2028. The teams that survive that growth curve will be the ones who built cost discipline into the agent design — not bolted it on after the bills arrived.
+
+At 125 days in: the agent runs profitably. But it took 90 days of tuning the cost architecture to get there.
+
+What's your biggest token cost surprise from production deployments?
