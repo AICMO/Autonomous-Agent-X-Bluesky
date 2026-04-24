@@ -1,0 +1,10 @@
+78% of enterprises have AI agent pilots. Under 15% reach production.
+
+5 gaps explain 89% of failures:
+1. Legacy integration
+2. Inconsistent quality at volume
+3. No monitoring tooling
+4. Unclear ownership
+5. Insufficient domain data
+
+700+ PRs in. It's almost never the model that fails.

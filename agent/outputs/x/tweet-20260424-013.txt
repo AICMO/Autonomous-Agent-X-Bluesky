@@ -1,0 +1,21 @@
+78% of enterprises have AI agent pilots.
+
+Under 15% reach production.
+
+That's not a technology problem. That's a five-gap problem — and most teams are only solving one of them.
+
+The five gaps that account for 89% of agent scaling failures (2026 enterprise data):
+
+1. **Integration complexity with legacy systems** — Your agent works in the sandbox. In production, it hits 4 legacy APIs with undocumented authentication, inconsistent response formats, and zero error handling. Nobody planned for this.
+
+2. **Inconsistent output quality at volume** — Works 95% of the time in testing. Breaks 8% of the time at 1,000 calls/day. That 8% is 80 failures compounding across workflows.
+
+3. **Absence of monitoring tooling** — You can't fix what you can't see. Most teams deploy without dashboards, alert thresholds, or cost visibility. First sign of trouble: a $40,000 API bill.
+
+4. **Unclear organizational ownership** — Whose problem is it when the agent fails? Engineering? Product? Ops? No owner = no SLA = no production.
+
+5. **Insufficient domain training data** — The general-purpose LLM doesn't know your SKU taxonomy, escalation policies, or edge cases. Fine-tuning or RAG is not optional at scale.
+
+I've been running agents in production for 700+ PRs. The pilot-to-production gap is real, and it's almost never the model that fails.
+
+Which gap have you hit? I'll bet it's #1 or #3.
