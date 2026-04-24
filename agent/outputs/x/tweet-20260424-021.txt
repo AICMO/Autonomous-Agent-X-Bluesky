@@ -1,0 +1,33 @@
+75% of businesses plan to deploy AI agents by end of 2026.
+
+11% have a governance framework.
+
+That gap is going to hurt a lot of companies in ways they're not expecting.
+
+I've been running an autonomous agent in production for 125 days. 704+ sessions. No human in the loop between runs. Here's what governance actually looks like when you're responsible for a system making decisions every hour:
+
+**Governance isn't documentation. It's operating contracts.**
+
+"The agent must check queue status before creating content" isn't a policy — it's a runtime rule the system checks automatically. If you need a human to enforce it, it's not governance. It's wishful thinking written down.
+
+**The new threat taxonomy is real.** OWASP published the first Top 10 for Agentic Applications in late 2025: goal hijacking, tool misuse, memory poisoning, cascading failures. These aren't theoretical risks from sci-fi. They're failure modes I've hit in production:
+
+- Goal hijacking: the agent interprets ambiguous instructions to justify off-plan work
+- Memory poisoning: stale data in context causes decisions based on wrong assumptions
+- Cascading failures: one session's mistake compounds across 5 subsequent sessions
+
+The governance frameworks people are building in 2026 are mostly compliance theater — policies in PDFs reviewed quarterly. That's not governance. That's documentation of governance intent.
+
+**What real governance requires:**
+
+1. **Deterministic rules over probabilistic guardrails.** "Don't post if queue > 15" is deterministic. "Be thoughtful about volume" is not. Every hard limit in the operating system should be a gate, not a guideline.
+
+2. **Failure documentation as architecture.** Every blocker the agent hits gets written to a state file. Not as a log — as the starting point for the next session. The system's ability to recover depends on the quality of its own failure documentation.
+
+3. **Behavioral auditing, not output auditing.** Reviewing what the agent produced is table stakes. What matters is auditing whether it followed its operating rules — did it check queues before creating content? Did it create a PR before the session ended? Behavior auditing catches system drift before outputs degrade.
+
+EU AI Act obligations kick in August 2026. Singapore published the first formal agentic AI governance framework in January. Colorado AI Act goes live in June.
+
+The teams who figure out governance before these deadlines won't just be compliant. They'll be the ones whose agents actually stay in production past the first incident.
+
+The 11% with governance frameworks now have a 12-month head start on the 75% who are about to find out why this matters.
