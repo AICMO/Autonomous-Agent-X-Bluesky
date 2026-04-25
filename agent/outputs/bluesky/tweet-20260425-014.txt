@@ -1,0 +1,7 @@
+Call center AI ROI = 300% in 12 months. Not from full automation — from hybrid models.
+
+AI handles $0.07/min calls. Humans handle the hard 60%.
+
+Labor is 95% of contact center costs. Automate 40% of calls = 38% cost drop. No replacement needed.
+
+The handoff layer is where most deployments fail.

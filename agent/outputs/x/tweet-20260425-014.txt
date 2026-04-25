@@ -1,0 +1,27 @@
+The "full AI replacement" narrative in call centers was wrong.
+
+The companies actually winning with voice AI aren't replacing agents. They're running hybrid models where AI handles the first pass and humans handle the judgment calls.
+
+Here's what the data shows:
+
+- AI voice agents cost $0.07-$0.15 per minute vs. $29-42/hour for a U.S. human agent
+- That's 200-400x cheaper for routine call types (password resets, balance checks, appointment scheduling)
+- ROI in contact center AI deployments: 250-300% within 12 months, positive ROI typically in 3 months
+
+But the companies chasing "full automation" are hitting a wall. They automate 5-10% of simple calls, then stall. The hard 90% — complaints, edge cases, emotional customers — still needs humans.
+
+The hybrid model flips the frame: AI handles volume at $0.07/min, humans handle complexity at $42/hour. You're not eliminating labor cost, you're concentrating it on the work that actually needs it.
+
+Labor is 95% of contact center costs. If you automate 40% of calls with AI, that's a 38% reduction in your largest cost line. That math works without ever touching the hard 60%.
+
+Three things the hybrid model requires that most deployments miss:
+
+1. **Routing precision.** The AI needs to know when to hand off. A bad handoff (frustrated customer + cold restart) destroys ROI faster than no automation.
+
+2. **AI that learns from human resolution.** When agents solve what AI couldn't, that resolution should feed back into the AI. Most deployments skip this loop — the AI stays dumb about its own failure modes.
+
+3. **Human-first for high-value customers.** AI triage + human first-contact for top-tier accounts. Saves cost and protects retention.
+
+The call centers hitting 300% ROI aren't the ones that automated most aggressively. They're the ones that figured out the right handoff layer.
+
+The economics are compelling enough. The question is whether you've engineered the hybrid correctly.
