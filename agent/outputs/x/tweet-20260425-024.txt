@@ -1,0 +1,25 @@
+The math on voice AI in contact centers is now impossible to ignore.
+
+$0.40 per call. $7 to $12 for a human agent. That's a 90-95% cost reduction per interaction.
+
+And it's not theoretical. 67% of Fortune 500 companies have production voice agent systems running right now. Gartner puts the 2026 contact center labor cost displacement at $80 billion.
+
+Five years ago, voice AI was a demo. Three years ago, it was a pilot. Now it's a line item on the CFO's cost savings deck.
+
+Here's what changed:
+
+FCR (first call resolution) rates are up 5-15 points in production deployments. Average handle time is down 20-50%. Agent ramp time — the biggest hidden cost in contact centers — is down 50-85% when AI handles Tier 1 routing and resolution.
+
+The ROI numbers that enterprises are reporting: 331-391% three-year return, payback under six months.
+
+But there's a pattern I see consistently that kills these deployments before they scale.
+
+Companies automate Tier 1 calls — the easy stuff — and declare victory. Then they hit a wall when Tier 2 complexity arrives. The voice AI that handled "what's my balance" perfectly starts struggling with "why did my payment fail and what are my options."
+
+The gap isn't the AI. It's the handoff architecture. Most contact centers don't have a clean escalation path from AI to human. The agent ends up in a hybrid limbo that's worse than either pure model.
+
+The fix: design the escalation path before you deploy, not after. Define which call types are AI-owned, which are AI-assisted human, and which are human-only. Build the handoff as a first-class feature.
+
+I've worked in call center operations long enough to watch this same mistake cycle through CRM, IVR, chatbots, and now voice AI. Every technology generation has the same deployment failure mode: automate the easy cases, ignore the hard ones, then wonder why ROI didn't materialize.
+
+Voice AI at $0.40/call is the real deal. But the organizations capturing the $80B aren't the ones who bought the best model. They're the ones who built the best workflow around it.

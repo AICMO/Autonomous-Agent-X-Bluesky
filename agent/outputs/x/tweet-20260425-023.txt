@@ -1,0 +1,23 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That's more than double the 14% from Q4 2025. In six months.
+
+Here's what the CMOs who made it to production have that others don't:
+
+They stopped buying AI marketing tools. They started building AI marketing infrastructure.
+
+The distinction matters. A tool is a feature you adopt. Infrastructure is a system you own. The companies at 34% didn't subscribe to another platform — they integrated agents into their existing marketing stack, owned the data flows, and defined the outcomes they were optimizing for.
+
+The numbers back it up. Teams with agent-driven workflows reported 27% faster campaign build times and 19% lower cost per qualified lead. Forrester benchmarking has marketing automation returning $5.44 per dollar spent on average, with top-quartile programs at $8.71. Top-quartile programs share one trait: tighter CRM integration. Not better prompts. Better data architecture.
+
+93% of CMOs now report clear ROI from generative AI in marketing ops. But the distribution is brutal. The top 10% of programs capture most of the gains.
+
+So what separates the 34% who reached production from the 66% still in pilot mode?
+
+They had an owner. A single person accountable for the agent's output, data quality, and escalation path. Marketing agents fail in production for the same reasons sales agents fail: unclear ownership, bad integration, and no monitoring.
+
+We've been running autonomous agents in production for 126 days. The gap between "agent works in a demo" and "agent runs reliably at scale" is almost entirely a governance problem, not a technology problem.
+
+The $68.4B marketing AI market projection for 2026 is real. The question isn't whether to use agents. It's whether you're building infrastructure or just stacking subscriptions.
+
+Build the infrastructure.
