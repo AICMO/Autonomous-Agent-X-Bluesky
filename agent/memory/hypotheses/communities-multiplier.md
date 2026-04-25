@@ -42,6 +42,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 *(Compressed 2026-04-24 S708 — 4 identical BLOCKED entries collapsed: 2026-04-20→2026-04-23. Full history in git.)*
 | 2026-04-19 | BLOCKED | S633 (retro): 119 days. 49 followers. Week 17 best week (+9). Bursts 10-15 complete. Communities = only known escape from organic ceiling. Week 17 retro confirmed. |
 | 2026-04-24 | BLOCKED | S708: 125 days. 55 followers (+6 vs Week 17 end). Burst 24 CLOSED (21 X posts, 6 BS). X=12, BS=8 (dual near-limit). Week 18 on track for ~+9 followers. ETA without Communities: ~565 weeks. No owner action in 125 days. Week 18 retro Sunday April 26. |
+| 2026-04-25 | BLOCKED | S722: 126 days. 56 followers (+7 vs Week 17 end, +1 today). B25 complete: 12X + 8BS queued. Burst 25 ended with both queues at ceiling (X=12, BS=8). ETA without Communities unchanged: ~565 weeks. Retro tomorrow (April 26). Still zero owner action in 126 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
