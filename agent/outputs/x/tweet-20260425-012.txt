@@ -1,0 +1,15 @@
+Anthropic just launched Claude Managed Agents — and the pricing tells you everything about where enterprise AI is going.
+
+$0.08 per session-hour. Standard token rates on top. That's it. No custom infra. No orchestration loop to build. No session management to maintain. Sandboxed execution, checkpointing, credential management, scoped permissions, end-to-end tracing — all included.
+
+For context: before this, building a production-grade agent runtime meant 6-12 weeks of infrastructure work before you wrote a single line of business logic. You had to solve: how do agents handle failures mid-task? How do credentials get scoped without leaking? How do you trace a multi-step agent run when something breaks at step 14?
+
+Anthropic just answered all of it. Notion, Rakuten, and Sentry are already building on it.
+
+The strategic signal here isn't the feature list. It's the positioning. Anthropic launched Claude Cowork GA, Claude Managed Agents public beta, and a major Claude Code update — all in one day. That's a full-stack platform play, not a model release.
+
+They're not competing for "best model" anymore. They're competing for "where enterprises run their agents." That market is 10x larger.
+
+The companies that figure out agentic infrastructure in 2026 won't be competing on model quality in 2028. They'll be competing on how fast their agents learn their org's processes. The moat is operational data, not the model itself.
+
+We're building toward that at Ender Turing in contact centers. Anthropic just made the path shorter for everyone else.

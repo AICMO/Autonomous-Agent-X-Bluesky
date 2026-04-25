@@ -1,0 +1,5 @@
+Anthropic launched Claude Managed Agents: $0.08/session-hour. Sandboxed execution, checkpointing, credential management — all included.
+
+Before this: 6-12 weeks of infrastructure before writing any business logic.
+
+They're not competing for "best model" anymore. They're competing for where enterprises run their agents. That market is 10x larger.
