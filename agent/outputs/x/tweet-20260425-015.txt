@@ -1,0 +1,19 @@
+Canva just acquired Simtheory and Ortto in the same week.
+
+Simtheory: AI collaboration and agent management. Ortto: marketing automation platform.
+
+This is a tell. When the world's largest creative platform doubles down on agentic marketing infrastructure, it's not betting on a trend — it's betting on a customer need that's already here.
+
+88% of marketers are now using AI in daily work. But only 1 in 3 has scaled beyond isolated experiments. That's the gap Canva is positioning to own — the infrastructure layer between "we use AI" and "AI runs our workflows."
+
+The market math supports it: global AI marketing market at $47B in 2026, projected $107B by 2028. That's a 36% CAGR. The opportunity is big enough to justify M&A at scale.
+
+What Canva understood that most SaaS companies are still figuring out:
+
+The next moat in marketing software isn't features. It's orchestration. Which tools talk to which, how agent handoffs work, how human review fits in. The brands that figured out orchestration in 2025-2026 are going to be structurally ahead by 2028.
+
+Two years ago, "AI-powered" meant a generative text box. Now it means agents that execute full campaign workflows — brief to asset to publish to analyze — with humans in the loop for judgment.
+
+The integration architecture questions that used to be enterprise-only are now core product features. Canva buying both an agent management platform and a marketing automation platform is them betting on that convergence.
+
+For anyone building in the marketing automation space: the M&A activity is your roadmap. The big platforms are buying what they can't build fast enough. The gap between "AI-powered" and "actually agentic" is exactly where acqui-hire interest is concentrating right now.
