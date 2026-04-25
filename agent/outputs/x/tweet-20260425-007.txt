@@ -1,0 +1,15 @@
+The ROI numbers for voice AI in contact centers are starting to look almost ridiculous. 380% ROI. 70% operational cost reduction. 50% AHT reduction. 5-15 point FCR gains in the first quarter.
+
+I've been in call center AI since 2019 at Ender Turing. I remember when 20% AHT reduction was considered excellent. Now 50% is table stakes for best-in-class voice AI deployments.
+
+Here's what changed: the shift from "AI assistant" to "AI agent" in the contact center. Old model — AI helps the human agent find the answer faster. New model — AI handles the entire interaction autonomously for the high-volume, rules-based calls (which is 70-80% of total volume). Human agents see complex, emotionally nuanced, exception-heavy calls only.
+
+The economics follow. When AI handles 70% of volume at $0.07/interaction instead of $38-42 fully-loaded human cost, the unit economics aren't just better — they're a different category.
+
+But the deployment pattern still matters. Every enterprise we talk to asks for the same thing: phased rollout. Start with one high-volume, well-scoped use case. Validate the numbers. Expand from proven ROI.
+
+Nobody's trying to rip-and-replace the contact center overnight. They're finding the 3-4 interaction types where the logic is repeatable, outcomes are measurable, and automation risk is low. Get 380% ROI on that slice. Then expand.
+
+That's not a technology problem anymore. It's a change management and rollout sequencing problem.
+
+The vendors winning in 2026 aren't the ones with the best model. They're the ones with the best deployment playbook. https://enderturing.com
