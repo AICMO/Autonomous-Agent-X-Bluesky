@@ -1,0 +1,7 @@
+88% of agent pilots never reach production.
+
+Not because the tech fails. Because there's no governance layer.
+
+No pre-execution constraints. No rollback paths. No human checkpoints on irreversible actions.
+
+Build the constraints before you build the agent.
