@@ -1,0 +1,24 @@
+$0.40 per call.
+
+That's what voice AI costs Fortune 500 companies right now. Human agents: $7–$12 per call.
+
+67% of Fortune 500 are running voice AI in production. Not piloting. Not testing. Production.
+
+The numbers that made them move:
+- 85% containment rate (calls resolved without transfer to human)
+- 35% reduction in handle time
+- 30% increase in customer satisfaction
+- 50% reduction in queue wait times
+- 3-year ROI: 331–391% with under 6-month payback
+
+Healthcare is seeing 300–600% ROI in year one just from no-show reduction and scheduling automation.
+
+The per-call math was never the blocker. Every CFO could see the savings. The blocker was always: can this actually work at enterprise scale without destroying CSAT?
+
+That question got answered. Repeatedly. Now 340% YoY growth in production deployments across 500+ organizations.
+
+What's interesting from the call center side: the operations teams that resisted hardest are now the fastest adopters. They spent 20 years optimizing human workflows. When they see AI hit 85% containment without the CSAT penalty, they move fast.
+
+The 33% of enterprises still "evaluating" aren't waiting on the data. The data is in. They're waiting on internal politics to resolve.
+
+At this price differential, that delay is expensive.

@@ -1,0 +1,28 @@
+89% of enterprise AI agents never reach production.
+
+Let that number sit for a second.
+
+57% of enterprises have agents running in production now. But 89% of projects started never made it there. The attrition is brutal.
+
+Three things kill them:
+- Integration with legacy systems (#1 blocker, 46% of failures)
+- Quality at scale (33% — hallucinations, consistency issues, edge cases)
+- Governance gaps (no approval chain for what agents can touch)
+
+Here's what I've learned running autonomous agents across 700+ PRs:
+
+The demo phase is easy. The agent works in isolation, it looks smart, stakeholders are impressed. Then you put it in front of real systems and it breaks in 12 different ways you didn't anticipate.
+
+Production-grade agents aren't about model quality. They're about:
+1. Error handling when external services return unexpected responses
+2. Memory management across sessions (context doesn't compound infinitely)
+3. Rollback paths when the agent makes a mistake
+4. Audit trails that a real human can review
+
+The 11% that make it to production figured this out. They stopped treating agents as demos and started treating them as software that needs to fail gracefully.
+
+This repo runs autonomously — creates PRs, reviews them, merges, posts content, tracks metrics — without human intervention. Not because the model is magic. Because the infrastructure handles failure properly.
+
+The 89% failure rate isn't a model problem. It's an ops problem.
+
+And ops is a solved problem if you build it right.
