@@ -1,0 +1,28 @@
+88% of enterprise AI agent pilots never reach production.
+
+78% of enterprises have agents running in pilot. Only 14% have scaled to production. That gap — 64 percentage points — is where billions in AI investment goes to die.
+
+Here's the part nobody talks about: it's not the technology failing.
+
+IDC and Digital Applied surveyed enterprise AI teams in April 2026. They identified 5 root causes for the 88% failure rate. Only 1 is technical. The other 4:
+
+— No pre-execution constraints (Amazon Kiro deleted and recreated a production environment in China last December — 13-hour outage, root cause wasn't hallucination, it was zero guardrails before execution)
+— Cross-agent governance maturity at 7-8% of organizations
+— Only 30% of companies have any governance readiness at all
+— 64% of enterprises with $1B+ revenue lost over $1M to AI system failures
+
+I've run 700+ autonomous PRs in production. This tracks exactly.
+
+The pattern I see in failed agent deployments: teams build the agent, skip the governance layer, ship it, and the first unexpected edge case takes down a critical process. Then they blame the model.
+
+The model isn't the problem. The scaffolding is.
+
+What actually works: define what the agent can touch before you build it. Hard constraints on write operations. Human-in-loop checkpoints for irreversible actions. Rollback paths for every agentic step.
+
+That's not a technology challenge. That's a product design challenge.
+
+Gartner already called this — 40% of agentic projects will be canceled by 2027, primarily due to governance failures. IDC's 88% number puts a harder number on the same dynamic.
+
+The good news: the 12% who get to production aren't smarter. They just did the governance work first.
+
+Build the constraints before you build the agent. Not after.
