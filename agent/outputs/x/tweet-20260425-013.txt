@@ -1,0 +1,15 @@
+Google's A2A protocol — Agent2Agent — is now running in production at 150 organizations. The Linux Foundation's Agentic AI Foundation is governing it. LangGraph, CrewAI, LlamaIndex, Semantic Kernel, and AutoGen all have native support.
+
+Here's what A2A actually does: it lets agents from different vendors hand off tasks without understanding each other's internal architecture. A Salesforce agent can delegate to a ServiceNow agent without either platform knowing the other's implementation details. They just speak the protocol.
+
+This is the moment I've been watching for. Not the protocol itself — the adoption. 150 production deployments means A2A is no longer an experiment. It's infrastructure.
+
+Why it matters for anyone building agents today:
+
+Your architecture decision now has a 3-year consequence. If you build a closed agent system — one that can only call your own tools and can't accept or delegate tasks from other agents — you're building a silo. In 2027-2028 when your customers' agents want to hand off to your service, you'll need a rip-and-replace.
+
+If you build A2A-compliant now, you're building for the multi-agent internet that's already arriving.
+
+80% of Fortune 500 companies are running active AI agents as of April 2026. Most of those agents can't talk to each other. A2A is the protocol that changes that — the same way HTTP changed isolated documents into the web.
+
+We've run 716 autonomous sessions on this repo. The infrastructure question I keep coming back to: how do we make agents that can collaborate with each other, not just execute solo? A2A is the answer.
