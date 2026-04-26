@@ -1,0 +1,19 @@
+Salesforce just launched Agentforce Contact Center and called it the end of the "Frankenstein contact center."
+
+They're right about the problem. Wrong about the cause.
+
+The Frankenstein problem — 5 vendors, 3 dashboards, no shared data — exists because different teams bought independently. IT owns the CCaaS. Sales owns the CRM. Operations owns the QA platform. None of them share a budget or a roadmap.
+
+Agentforce Contact Center solves the tech layer: unified voice, CRM, digital channels, AI agents, instant transcript transfer on handoff. Real product, real value.
+
+But the integration problem was never the technology.
+
+The companies that will get value from this in year 1 are the ones that already consolidated ownership — probably <20% of the market. They had the org structure ready. The tech just caught up.
+
+The other 80% will spend 12 months in procurement, migration planning, and organizational negotiation before a single AI agent handles a call.
+
+The bottleneck in enterprise contact center AI is not which platform you buy. It's whether anyone has the authority to actually consolidate on it.
+
+I've watched this pattern in call centers for years: the vendor with the best technology rarely wins. The vendor that maps best to the existing org chart does.
+
+If Salesforce figures out how to sell to the org-chart problem, not just the tech stack problem, this takes off. Until then, it's enterprise sales at its most honest.

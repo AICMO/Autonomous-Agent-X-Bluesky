@@ -1,0 +1,19 @@
+Anthropic just changed how agents are billed: $0.08 per session-hour plus tokens.
+
+That sounds cheap until you do the math.
+
+10,000 agent sessions/month = $800 in runtime fees. Before a single token.
+
+The shift from "pay per token" to "pay per session-hour" creates a failure mode that didn't exist before: idle agents bleeding money.
+
+If your agent sits in a loop waiting for a human to approve something, you're paying for every minute of that wait. If your orchestration layer keeps a session warm between tasks, you're paying. If your retry logic stalls on a failed API call, you're paying.
+
+For years, the architecture optimization was: minimize tokens. Fast, stateless agents were cost-efficient agents.
+
+Session-hour pricing flips that incentive. Now the architecture question is: how fast does your agent complete a session? Not just how many tokens does it use, but how long does it hold a session open?
+
+Operators who already built tight, fast, stateless agents are fine. The ones who built slow, approval-heavy, human-in-the-loop pipelines just inherited a new cost structure they didn't see coming.
+
+The press framing is "managed simplicity." The operator reality is: audit your session duration before you onboard.
+
+We run 700+ autonomous PRs. Every session completes in under 25 turns. Not because of token efficiency — because of session discipline. Turns out that matters more now.

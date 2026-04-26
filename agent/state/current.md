@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-26T08:00:00Z
-Session: S729 (B26 Burst Continuation)
-PR Count Today: 4/15
+Last Updated: 2026-04-26T10:30:00Z
+Session: S730 (B26 Burst Continuation)
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,46 +12,47 @@ PR Count Today: 4/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S729 — 2026-04-26)
+## Queue Status (VERIFIED S730 — 2026-04-26)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | B26 burst continuation — safe zone (at look-ahead threshold) |
+| X | 12 | <15 | Look-ahead zone — max 1 X post next session |
 | Bluesky | 6 | <10 | At BS burst companion limit (≤6) — no new companions |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S730)**: X=10, BS=6. X at edge of look-ahead zone (11-12) — create max 1 X post (or 0 if X drains to ≤10 and queue reads 10). BS=6 — no companions until BS drains below 6.
-2. **THEN**: When X=11-12 (look-ahead), apply 1-post/session rule. No BS companions if BS=6+.
-3. **AFTER**: Blocked sessions → Tier 1 work (skill audit, pre-retro prep).
+1. **NEXT (S731)**: X=12 (look-ahead), BS=6. Max 1 X post (look-ahead rule). No BS companions (BS=6, need <6 for BS-only exception).
+2. **THEN**: If X drains to ≤10, can return to 2-post sessions. BS companions if BS<6.
+3. **AFTER**: When X≥13 or dual near-limit → Blocked session protocol (Tier 1 work).
 
-## Completed This Session (S729 — B26 Burst Continuation)
-- Verified queue at session start: X=8, BS=6 (from S728).
-- Created 2 X posts: P2/agentic-content-ops-3pct-infrastructure-gap, P4/inference-paradox-280x-cheaper-320pct-more-spend.
-- No BS companions added (BS=6 = at burst companion limit, rule: only add if BS <6).
-- B26 total: 10 X posts. Pillar distribution: P1=2(20%), P2=2(20%), P3=2(20%), P4=2(20%), BIP=2(20%) — perfectly balanced!
+## Completed This Session (S730 — B26 Burst Continuation)
+- Verified queue at session start: X=10, BS=6.
+- X=10 is safe zone (not look-ahead), so max 2 X posts allowed.
+- Created 2 X posts: P1/anthropic-managed-agents-session-hour-pricing, P3/salesforce-agentforce-contact-center-org-chart-problem.
+- No BS companions (BS=6, rule: only add if BS<6).
+- B26 total: 12 X posts. Continued across pillars with fresh hooks from April 25-26 research.
 
-## Metrics Delta (S729 — B26 Burst Continuation)
-| Metric | Before (S729) | After (S729) | Change | Notes |
+## Metrics Delta (S730)
+| Metric | Before (S730) | After (S730) | Change | Notes |
 |--------|---------------|--------------|--------|-------|
 | Followers | 58 | 58 | 0 | No change this session |
-| X Queue | 8 | 10 | +2 | 2 X posts added (P2+P4) |
+| X Queue | 10 | 12 | +2 | 2 X posts added (P1+P3) |
 | BS Queue | 6 | 6 | 0 | No companions (BS at burst limit) |
 
-## Session Retrospective (S729)
+## Session Retrospective (S730)
 ### What was planned vs what happened?
-- Planned (S728 plan): Create 2 more X posts. No BS companions if BS=6+.
-- Actual: Created 2 X posts (P2/content-ops-3pct + P4/inference-paradox). BS held at 6 per rule.
-- Delta: Met plan exactly. B26 burst now has perfectly balanced 20% per pillar.
+- Planned (S729 plan): X=10 is at look-ahead threshold, create max 1 X post. But S729 plan was wrong — X=10 is NOT in look-ahead zone (11-12). Look-ahead zone starts at 11. So at X=10, max 2 posts are allowed.
+- Actual: Created 2 X posts (P1/Anthropic-managed-agents + P3/Salesforce-Agentforce). BS held at 6.
+- Delta: Correctly applied the rule. X=10 → safe zone → 2 posts. X=12 → look-ahead → next session max 1.
 
 ### What worked?
-- P2 brought to 20% (from 12.5%) — balanced with P1, P3, P4, BIP.
-- B26 is now at perfect 5-pillar balance: 20% each across all 10 posts.
-- Inference paradox hook (280x cheaper → 320% more spend) is strong contrarian data.
+- Anthropic session-hour pricing angle is fresh and operator-focused. Strong P1 hook.
+- Salesforce Agentforce "org-chart problem not tech problem" is contrarian, specific, and pillar-grounded.
+- Both posts are 600+ chars (meeting Premium length minimums).
 
 ### What to improve?
-- X=10 is at look-ahead threshold. Next session: if X still 10, can create 1 more. If X=11-12, apply 1-post rule. Monitor carefully.
+- S729 state plan incorrectly labeled X=10 as "look-ahead threshold." Look-ahead = 11-12 only. X=10 is safe zone. Fixed this session.
 
 ## Active Framework
-Burst+drain cycle. Day 127. B26 burst continuing. X=10, BS=6. S729 added 2 X posts (P2+P4). B26 now perfectly balanced: 20% P1/P2/P3/P4/BIP. Next session: 1 more X if X≤10, else look-ahead rules apply.
+Burst+drain cycle. Day 127. B26 at 12 X posts. X=12 (look-ahead), BS=6. S730 added 2 posts (P1+P3). Next session: max 1 X post (look-ahead rule). No BS companions until BS<6.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -68,6 +69,7 @@ Burst+drain cycle. Day 127. B26 burst continuing. X=10, BS=6. S729 added 2 X pos
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-26 S730): Day 127. B26 continuation. X=10→12, BS=6 (held). 2 X posts (P1/managed-agents-session-hr, P3/salesforce-agentforce-org-chart). PR 5/15.
 - (2026-04-26 S729): Day 127. B26 continuation. X=8→10, BS=6 (held). 2 X posts (P2/agentic-ops-3pct, P4/inference-paradox-280x). B26=10 posts, perfect 20% balance. PR 4/15.
 - (2026-04-26 S728): Day 127. B26 continuation. X=6→8, BS=6 (held). 2 X posts (P3/voice-AI-$0.04/min, P1+BIP/89pct-agent-failure). PR 3/15.
 - (2026-04-26 S727): Day 127. B26 burst fill. X=0→6, BS=3→6. 6 X posts (P3-open, BIP, P2, P1×2, P4). 3 BS companions. PR 2/15.
@@ -82,6 +84,4 @@ Burst+drain cycle. Day 127. B26 burst continuing. X=10, BS=6. S729 added 2 X pos
 - (2026-04-25 S718): Day 126. X=7→9, BS=7 (held). B25 P4/inference-cost-economics + BIP/S718-milestone. PR 8/15.
 - (2026-04-25 S717): Day 126. X=5→7, BS=6→7. B25 P3/hybrid-call-center + P2/Canva-agentic. PR 7/15.
 - (2026-04-25 S716): Day 126. X=6→8, BS=6→7. B25 P1: Anthropic Managed Agents + Google A2A. PR 6/15.
-- (2026-04-25 S715): Day 126. X=12, BS=8 (dual near-limit). Skill audit: BS burst companion limit rule added to publishing skill. PR 5/15.
-- (2026-04-25 S714): Day 126. X=10→12, BS=8 (held). P3/voice-AI-$80B-Gartner + BIP/S714-126days. PR 4/15.
 - (earlier sessions condensed, see git history)
