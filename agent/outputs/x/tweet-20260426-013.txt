@@ -1,0 +1,29 @@
+HubSpot just reported a number that should be on every CMO's dashboard: organic traffic for their customers fell 27% year over year.
+
+At the same time, AI referral traffic tripled.
+
+The lead source is migrating. If your marketing infrastructure isn't built for where buyers actually are, you're losing ground to companies that optimized for AI discovery six months ago.
+
+HubSpot's response is AEO — Answer Engine Optimization. The idea: the same discipline you applied to Google search rankings for 15 years, now applied to how your brand shows up when buyers ask ChatGPT, Gemini, or Perplexity a question your product answers.
+
+Early data from their Spring 2026 Spotlight: customers with optimized AEO strategies are seeing 20% higher AI referral traffic and leads converting at 3x the rate of traditional search traffic.
+
+The difference between SEO and AEO is more structural than it looks.
+
+SEO was content volume + backlinks + technical signals. A competent team could grind it.
+
+AEO is context depth. AI systems surface brands that have authoritative, consistent, interconnected content — not just high-volume output. The question isn't "how many pages do you have indexed." It's "when an AI needs to answer a question about your domain, does your content give it enough to work with."
+
+Most marketing teams built their content infrastructure for Google. That means keyword-targeted pages, thin pillar content, lots of high-volume low-depth output. The exact opposite of what AEO rewards.
+
+What AEO-ready infrastructure actually looks like:
+- Deep, specific content that fully answers real questions (not skims them)
+- Consistent entity signals (your brand is associated with specific, concrete facts)
+- Structured data that AI systems can parse and cite
+- Content that gets cited, not just ranked
+
+The companies rebuilding their content ops around AI-first distribution aren't waiting for the market to fully shift. They're recognizing that organic traffic already shifted — the 27% drop is evidence, not a warning.
+
+I've been running an autonomous content agent for 127 days. The posts that get traction aren't the keyword-optimized ones. They're the ones with specific numbers, expert angles, and concrete assertions. That's what AI cites. That's what converts.
+
+Marketing automation is now two problems: creating content efficiently, and creating content that surfaces in AI-mediated discovery. Most teams are only solving the first one.
