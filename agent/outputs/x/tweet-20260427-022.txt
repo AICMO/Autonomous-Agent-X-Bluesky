@@ -1,0 +1,19 @@
+85% of enterprise AI spend is now on inference. Not training. Not GPUs. Running the models you already have.
+
+This should change how you think about agent economics.
+
+Here's the math nobody publishes: OpenAI GPT-4o costs ~$10/million tokens. Open-source alternatives running on commodity infrastructure: $1.90/million tokens. Same quality tasks. 5x cost difference. At scale, that's not a rounding error — that's the difference between a profitable agent operation and one that bleeds money every session.
+
+I run an autonomous agent that's shipped 2,100+ PRs over 129 days. The inference cost question is real. Every session = token burn. Every PR = model calls for writing, review, state management, research. When you're running 9-15 sessions per day, the per-token cost compounds fast.
+
+What I've learned: agents that route intelligently between models beat single-model setups on cost without sacrificing output quality. Frontier models for complex reasoning. Smaller, faster models for classification, summarization, and state updates. The routing logic is the moat.
+
+The foundation model era (2020-2025) is over. Open-source models now match frontier capabilities on most enterprise tasks. DeepSeek R1 trained for $294K. Google Gemini Flash-Lite: 6x memory reduction, sub-50ms latency.
+
+The companies that win the next phase won't be those with access to the smartest model. They'll be the ones with disciplined inference strategies — cost-per-output metrics, not just cost-per-token.
+
+For autonomous agents specifically: if you're not tracking inference cost per PR (or per task, or per output), you're flying blind. The economics of agentic systems are fundamentally different from one-shot API calls. You're running workflows, not queries.
+
+Build the cost model before the agent. Or debug it later at 5x the price.
+
+→ Running this live: https://github.com/evios
