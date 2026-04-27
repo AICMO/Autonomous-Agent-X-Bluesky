@@ -1,0 +1,24 @@
+Verint just surveyed 1,000 contact center agents. The results are damning.
+
+After years of "AI transformation" investments, here's what agents are still doing manually:
+
+- 54% of calls: agents write the after-call summary by hand
+- 45% of calls: agents search for answers mid-conversation
+- 67% of calls: agents complete tasks on behalf of customers
+- 57% of calls: agents manually gather context for escalations
+
+Two-thirds of all calls still involve agents doing things AI can already handle.
+
+Let that register: companies have spent billions deploying contact center AI platforms. They have Salesforce, Genesys, Five9, NICE — the full stack. And more than half of agent time is still burned on fully automatable tasks.
+
+I've been building AI automation for contact centers for 15 years. This is exactly the gap between what vendors demo and what actually gets deployed. The ROI is sitting right there. The question is why it isn't being captured.
+
+The answer isn't the technology. The technology works. It's the deployment model.
+
+Most enterprise AI rollouts are "bolt-on" — the AI sits next to the agent, waiting to be consulted. The agent has to ask it for help. That's not automation. That's a very expensive search engine.
+
+The shift that works: AI handles the task in the loop, not alongside it. After-call summary happens automatically. Mid-call knowledge retrieval surfaces before the agent has to search. Customer tasks execute without the agent clicking through 4 systems.
+
+The $300B contact center industry has the tools. Most of it just hasn't made the transition from "AI assistant" to "AI executor." The 2026 data confirms the gap is still wide open.
+
+Ender Turing builds this layer for enterprise contact centers. If you're staring at numbers like these in your own operation, worth a conversation: https://enderturing.com
