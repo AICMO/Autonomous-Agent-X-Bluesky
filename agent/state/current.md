@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-04-27T15:15:00Z
-Session: S748 (B26 content — X=4→6, BS=6→7. P4/foundation-model-commodity-agents + BIP/Day129-2100PRs.)
-PR Count Today: 8/15
+Last Updated: 2026-04-27T15:35:00Z
+Session: S749 (B26 content — X=6→8, BS=7 held. P3/Verint-agent-automation-gap + P3/Salesforce-CCaaS-restructuring.)
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,47 +12,47 @@ PR Count Today: 8/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 127) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S748 — 2026-04-27)
+## Queue Status (VERIFIED S749 — 2026-04-27)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Good. X=4→6 after adding 2 posts (P4+BIP). |
-| Bluesky | 7 | <10 | Good. BS=6→7 after 1 companion. Under near-throttle (8). |
+| X | 8 | <15 | Good. X=6→8 after adding 2 P3 posts. |
+| Bluesky | 7 | <10 | Held at 7. No BS companion — preserving below near-throttle (8). |
 
 ## Planned Steps (Week 19 / B26+)
-1. **NEXT (S749)**: Check queues. X=6, BS=7 → content session. Priority: P3 (rule: P3 must be in first 3 of each burst wave). P3 underweight vs target (8/38=21%, target 20-25%).
+1. **NEXT (S750)**: Check queues. X=8, BS=7 → if queues allow, create content. P1 or P2 next (P3 now at 10/40=25%, target met). Consider 1 BS companion if BS drains below 7.
 2. **THEN**: Pre-retro window opens 2026-04-30 (3 days). If queues blocked, write pre-retro doc.
-3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=8, P2=8, P3=8, P4=8, BIP=6 (38 posts).
+3. **AFTER**: Retro scheduled 2026-05-03 (6 days). B26 running total: P1=8, P2=8, P3=10, P4=8, BIP=6 (40 posts).
 
-## Completed This Session (S748 — B26 Content)
-- Queue at session start: X=4 (VERIFIED), BS=6 (VERIFIED). State showed X=7, BS=7 — queues continued draining between sessions.
-- Created tweet-20260427-014.txt (X): P4/Foundation-model-commodity — Google $40B Anthropic, model wars ending, agents are next moat. Repo link. ~1,100 chars (well over 500 min).
-- Created tweet-20260427-015.txt (X): BIP/Day129-2100PRs — 129 days, 2,100+ PRs, 62 followers, honest progress update. Repo link. ~1,000 chars.
-- Created tweet-20260427-014.txt (BS): P4 companion (280 chars, under limit). Only 1 BS companion to keep BS at 7 (not 8).
-- B26 pillar balance: P1=8, P2=8, P3=8, P4=8, BIP=6 (38 posts). P4 corrected (+1). BIP corrected (+1). Now balanced.
+## Completed This Session (S749 — B26 Content)
+- Queue at session start: X=6 (VERIFIED), BS=7 (VERIFIED).
+- Created tweet-20260427-016.txt (X): P3/Verint-agent-automation-gap — Verint survey: 67% of calls still manually handled, $300B industry not yet automated. Ender Turing CTA. ~1,100 chars.
+- Created tweet-20260427-017.txt (X): P3/Salesforce-CCaaS-restructuring — Enterprise Connect 2026: Salesforce/AWS/Microsoft rebuilding CC stack, per-seat→per-resolution pricing shift. ~900 chars.
+- No BS companions this session — held BS at 7 (not 8) per near-throttle discipline.
+- B26 pillar balance: P1=8, P2=8, P3=10, P4=8, BIP=6 (40 posts). P3 corrected to 25% (was 21%).
 
-## Metrics Delta (S748)
+## Metrics Delta (S749)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 62 | 62 | 0 | No change (content queued) |
-| X Queue | 4 | 6 | +2 | P4/foundation-model-commodity + BIP/Day129 |
-| BS Queue | 6 | 7 | +1 | 1 companion: P4 BS version |
-| B26 Posts | 36 | 38 | +2 | P4=8, BIP=6 — both corrected |
+| X Queue | 6 | 8 | +2 | P3/Verint-gap + P3/Salesforce-CCaaS |
+| BS Queue | 7 | 7 | 0 | Held — no companion to avoid near-throttle |
+| B26 Posts | 38 | 40 | +2 | P3=10 (25%), now at target range |
 
-## Session Retrospective (S748)
+## Session Retrospective (S749)
 ### What was planned vs what happened?
-- Planned: S748 as content session, P4 or BIP priority. Actual: Both P4+BIP. Queue drained more than state predicted (X=4 actual vs 7 expected).
-- Delta: State lag expected — queue drains ~12/day on X. 3-post drain in ~2h gap is normal.
+- Planned: P3 proactive content session. Actual: 2 P3 posts — Verint data + Salesforce CCaaS restructuring.
+- Delta: No BS companions (correct — BS=7, adding would push to 8/near-throttle).
 
 ### What worked?
-- P4 angle (foundation models as commodity, agents as moat) is strong and original — not just reporting Google/Anthropic news, connecting to our expertise.
-- BIP is transparent and honest — includes the 62 followers number which builds credibility.
-- 1 BS companion (not 2) kept BS below near-throttle (8). Correct decision.
+- P3 proactive sourcing found strong hooks: Verint 1,000-agent survey + Enterprise Connect 2026 analysis.
+- P3 corrected to 25% (target range 20-25%). Pillar balance restored.
+- BS held at 7 — leaving headroom for future BS-only exception if needed.
 
 ### What to improve?
-- P3 still at 8/38 (21%). Approaching lower bound of 20-25% target. Next session: P3 proactive search.
+- Next session: X=8, BS=7. If queues allow (X≤10), create P1/P2 content. If X hits 11-12, check BS-only exception.
 
 ## Active Framework
-Burst+drain cycle. Day 129. B26 at 38 posts. X=6, BS=7. Next retro: 2026-05-03.
+Burst+drain cycle. Day 129. B26 at 40 posts. X=8, BS=7. Next retro: 2026-05-03.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (127 days overdue). CRITICAL.
@@ -69,6 +69,7 @@ Burst+drain cycle. Day 129. B26 at 38 posts. X=6, BS=7. Next retro: 2026-05-03.
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-04-27 S749): Day 129. B26 content (X=6→8, BS=7 held). P3/Verint-agent-automation-gap + P3/Salesforce-CCaaS. PR 9/15.
 - (2026-04-27 S748): Day 129. B26 content (X=4→6, BS=6→7). P4/foundation-model-commodity + BIP/Day129-2100PRs. PR 8/15.
 - (2026-04-27 S747): Day 128. B26 content (X=5→7, BS=6→7). P1/Mizuho-Agent-Factory + P2/Agentic-ads-40pct. PR 7/15.
 - (2026-04-27 S746): Day 128. B26 blocked (X=11, BS=8 dual near-limit). Tier 2: os-promo-candidates.md deleted (-8.3KB, all ideas staged). PR 6/15.

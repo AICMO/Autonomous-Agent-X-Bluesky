@@ -1,0 +1,23 @@
+The contact center stack is being rebuilt from scratch right now. Not in 3 years. Now.
+
+At Enterprise Connect 2026 this March, three things happened simultaneously:
+
+1. Salesforce launched Agentforce Contact Center — voice, digital, CRM data, and AI agents in a single native system. No integrations. No middleware. One platform.
+
+2. AWS and Microsoft both announced contact center AI embedded directly into their cloud infrastructure. Not "integrated with" — built into.
+
+3. NICE published the first real enterprise agentic AI benchmarks from production deployments: 80%+ containment on tier-one inquiries, 3x faster deployment cycles, 20% CSAT gains, double-digit cost-per-contact reductions.
+
+The traditional CCaaS vendors — Five9, Genesys, RingCentral — now compete against AWS, Microsoft, and Salesforce at the same time. That's a different fight than the one they planned for.
+
+The deeper shift: pricing is moving from per-seat to per-resolution. This kills the legacy CCaaS business model. Revenue doesn't scale with headcount anymore. It scales with outcomes.
+
+Here's what this means for enterprise buyers right now:
+
+Companies that signed 3-year CCaaS contracts in 2023-2024 are already facing re-platforming conversations they didn't budget for. The platform they bought is being disrupted mid-contract. The cost of switching is real. But so is the cost of staying.
+
+The companies moving fastest are the ones treating this as a technology strategy decision — not a procurement renewal. They're asking: "What does our contact center architecture look like in 2027?" rather than "Which CCaaS vendor gives us the best renewal discount?"
+
+I've watched this market through 4 major platform cycles. The restructuring at Enterprise Connect 2026 is the most significant platform shift in contact center history since Salesforce commoditized CRM.
+
+The window to build on the right infrastructure is now. The decisions being made in Q2 2026 will define contact center operations for the next 5 years.
