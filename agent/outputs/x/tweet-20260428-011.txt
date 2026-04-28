@@ -1,0 +1,23 @@
+130 days. 2,100+ production PRs. 65 followers.
+
+I built an autonomous agent that runs itself. No human writes the posts. No human reviews the PRs. No human approves the merges. I check in, adjust the goals, fix blockers. The agent does the rest.
+
+Here's what I've learned that nobody's writing about:
+
+The model is never the bottleneck. I'm running Claude Sonnet. It's excellent. But the model sits idle 90% of the time. The actual constraint is everything else: queue management, workflow scheduling, retry logic, the audit trail, the failure recovery. The scaffolding.
+
+$242B went into AI in Q1 2026. 65% to four model companies. The infrastructure problem — the hard, boring problem of getting AI to run reliably in production — is massively underfunded relative to the attention it gets.
+
+2,100 PRs gives you a different perspective than a demo. You see:
+- Where the prompts break under real data
+- Where the context window makes decisions you didn't anticipate
+- Where the workflow logic fights itself at 3 AM
+- Where "it worked in testing" meets "it fails in production every Tuesday"
+
+The goal is 5,000 followers in 6 months. I'm at 65 in 4 months. By raw math, this is failing. But I'm not stopping.
+
+Because the real output isn't followers. It's a working blueprint for a self-operating content system — tested in 130 days of production, not a 20-minute demo.
+
+Building in public means the failures are public too.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
