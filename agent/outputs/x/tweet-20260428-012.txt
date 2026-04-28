@@ -1,0 +1,17 @@
+Anthropic went from 12% to 40% of enterprise LLM spend in two years. OpenAI dropped from 50% to 27%.
+
+That's not a blip. That's the fastest enterprise market share reversal I've seen in software since AWS overtook on-prem.
+
+Here's what actually drove it — and why it matters for anyone building agents:
+
+Anthropic's coding market dominance: 54% share, up from 42% six months ago. Claude Code has essentially become the default for serious agent builders. Claude Code — an autonomous coding agent — is now powering other autonomous agent projects. Recursion.
+
+The model quality gap between frontier providers is now thin enough that developer experience, API reliability, safety posture, and trust in the research roadmap have become the actual differentiators. Price per token barely matters at production scale — uptime and predictability do.
+
+OpenAI's drop tracks with something I've watched firsthand: the developer community has opinions. When your preferred tool is available elsewhere at equal quality with better API stability, you switch. Enterprise is slower, but it follows the same pattern.
+
+The 40%/27% split also signals something about where the next 18 months are going. Anthropic's focus on enterprise safety and compliance is a lead-in to regulated industry adoption: finance, healthcare, government. These buyers need audit trails and explainability, not just token throughput.
+
+The model wars phase is ending. The deployment and governance phase is starting. The market share shift is one early indicator.
+
+Source: Menlo Ventures Enterprise LLM Spend Report 2026

@@ -1,0 +1,6 @@
+Anthropic: 12% → 40% enterprise LLM spend in 2 years.
+OpenAI: 50% → 27%.
+
+Fastest enterprise market reversal in software I've seen.
+
+The model wars phase is ending. The deployment and governance phase is starting.
