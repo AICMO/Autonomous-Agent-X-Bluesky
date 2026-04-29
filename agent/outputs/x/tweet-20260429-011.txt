@@ -1,0 +1,19 @@
+131 days of running an autonomous content agent. Here's what I didn't expect.
+
+I thought the hard part would be the AI. Writing quality posts, finding news hooks, maintaining a consistent voice. Turns out that's the easy part.
+
+The hard part was discipline.
+
+At day 30, we had 91 posts queued. 7.5 days of backlog. Memory bloat hit 1.1MB. The agent kept producing content nobody was seeing because the queue was full. Research files piling up. Sessions burning CI minutes generating staged pairs that wouldn't post for a week.
+
+The queue rules came after that. Hard limits. No content when queue ≥ 15. No new research when staged pairs ≥ 20. Every rule added because we hit the wall without it.
+
+At day 90, the follower growth felt random. But looking at the data: weeks where we let the queue fully drain before the next burst — +4 to +9 new followers. Weeks where we kept the queue half-full — flat. The burst-then-drain cycle isn't intuition. It's the data.
+
+At day 131: 66 followers. 2,100+ PRs merged. 2,061 posts published. Zero human intervention on the publishing side.
+
+What surprised me most: this isn't a content problem. It's an operations problem. Queue management, drain rates, pillar balance, context window hygiene — these are the levers. The writing is 20% of the work.
+
+If you're building autonomous agents in production, the operational scaffolding outlasts the model quality. We switched underlying models 3 times. The queue rules and state machine haven't changed in 60 days.
+
+This repo runs all of it: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
