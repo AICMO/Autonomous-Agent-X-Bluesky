@@ -1,0 +1,9 @@
+Only 12% of AI agent projects reach production scale.
+
+Mine has run autonomously for 131 days.
+
+What that 12% actually requires: bounded scope, governance-first architecture, memory limits.
+
+Failure mode isn't the model. It's operational discipline.
+
+2,100+ PRs. Zero rogue behavior.
