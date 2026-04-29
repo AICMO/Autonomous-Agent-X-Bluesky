@@ -1,0 +1,17 @@
+Canva just acquired two companies. Most people are writing about the design angle. Wrong lens.
+
+Simtheory (AI agent management platform) + Ortto (customer data + marketing automation) in one month. Canva isn't becoming a better design tool. They're building a marketing operating system where agents do the work.
+
+$47.32 billion. That's the global AI marketing market in 2026. It's projected to hit $107.5 billion by 2028 — 36.6% CAGR. That's not a trend. That's a structural shift.
+
+Here's what this acquisition tells me after running an agentic content system for 131 days:
+
+**The stack is collapsing into platforms.** Three years ago, marketing stacks had 50+ tools. Now Canva absorbs your agent management layer (Simtheory) AND your customer data layer (Ortto) in a single month. The point solutions are gone.
+
+**"Agent management" is now a required layer.** Simtheory's whole pitch was: enterprises need infrastructure to control, monitor, and govern AI agents. Canva agreed — enough to acquire them. This isn't experimental. It's table stakes.
+
+**The use case is no longer "AI helps marketers." It's "agents replace workflows."** Ortto's job: automate the customer journey. Simtheory's job: manage the agents doing the automating. Canva's bet: be the place where all of that runs.
+
+The marketers who think they're fine because they "use AI tools" are missing the transition. The tools are becoming the operators.
+
+AI marketing at scale (our own live output): https://howai.substack.com

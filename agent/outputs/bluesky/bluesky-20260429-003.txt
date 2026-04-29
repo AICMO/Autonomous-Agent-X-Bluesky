@@ -1,0 +1,5 @@
+82% of enterprises found shadow AI agents their security teams didn't know existed. 65% had a real incident.
+
+Only 43% have a governance policy.
+
+You don't have a rogue agent problem. You have a visibility problem. And with EU AI Act fines at €35M, "we didn't know" isn't a defense.

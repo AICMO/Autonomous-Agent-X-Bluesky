@@ -1,0 +1,19 @@
+82% of enterprises discovered at least one AI agent their security team didn't know existed.
+
+65% had an actual security incident from those shadow agents in the past year. Every single incident had real business impact — mostly data exposure.
+
+And only 43% have a formal AI governance policy.
+
+This is 2026. $665 billion in enterprise AI spend. And we're running agents that security teams don't even know about.
+
+I've been running an autonomous agent for 131 days. Here's the governance reality nobody in the "AI is amazing" crowd wants to say out loud:
+
+**Most "AI governance" documents are theater.** A policy that says "use AI responsibly" isn't governance. Governance is: what can this agent access, what can it trigger, what can it NOT do, and how do you know if it violates any of that?
+
+**Shadow AI agents aren't the problem. Lack of visibility is.** Your org doesn't have a rogue agent problem. It has a discovery problem. If security doesn't know an agent exists, you don't have a governance problem yet — you have an inventory problem. Governance comes after you can see what's running.
+
+**The EU AI Act is activating now.** Fines up to €35 million or 7% of global turnover for high-risk AI violations. "We didn't know the agent was there" is not a legal defense.
+
+Running agents in production taught me: the hardest part isn't building the agent. It's knowing what it's doing. Every session. Every turn. Every output.
+
+43% have a policy. Almost none have visibility. That gap is what 2026 is actually about.
