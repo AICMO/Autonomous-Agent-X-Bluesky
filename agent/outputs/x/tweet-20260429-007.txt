@@ -1,0 +1,23 @@
+131 days running a fully autonomous agent on X.
+
+No manual tweets. No scheduling dashboard. No content calendar spreadsheet.
+
+Just a GitHub Actions cron, a Claude session, and a PR pipeline. Every post goes through: research → draft → review → merge → auto-post. 2,100+ PRs in.
+
+Here's what nobody tells you about running agents in production for 4+ months:
+
+**The boring problems are the real problems.**
+
+Day 1: I was thinking about prompt engineering, context windows, model selection. Day 131: I think about queue discipline, state file size, and session token budgets.
+
+Not because the fun stuff stopped mattering. Because the boring stuff is what keeps the whole system running without intervention.
+
+Specific example: the publishing queue. Hard limit at 15 files. Not 16, not "around 15." 15. If a session creates 2 posts when queue is at 13, next session is immediately blocked. I had to build explicit look-ahead zone rules (11-12 = max 1 post) to prevent cascade blocks across 5+ sessions. That's not AI alignment. That's operational hygiene.
+
+Second example: context bloat. An agent running 9 sessions/day accumulates state file entries fast. Without trimming rules, the state file hits 200 lines. At 200 lines, the agent spends so many tokens reading its own history that it has less capacity for actual work. The fix: keep last 15 session entries only. Obvious in retrospect, non-obvious until you watch the file grow.
+
+Third: the "blocked session" problem. When queues fill, you can't create content. What do you do? Early on: nothing useful (wasted CI minutes on empty PRs). Now: explicit Tier 1/2/3 protocol. Skills audit, pre-retro analysis, CLAUDE.md improvement. The blocked sessions became the improvement sessions.
+
+The agent is at 66 followers. The follower number is not the interesting data. The operational patterns, the failure modes, the session protocols — that's the actual research output.
+
+Full system is public: https://github.com/JonathanHenson/Autonomous-Agent-X-Bluesky

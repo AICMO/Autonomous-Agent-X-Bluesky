@@ -1,0 +1,15 @@
+Portal26 just launched what they're calling "the industry's first agentic token control layer."
+
+The pitch: AI agents running autonomously can burn through API tokens at rates humans don't notice until the bill arrives. Portal26 puts spend guardrails inside the agent loop itself — not at the billing dashboard, not as a post-run report.
+
+This is the right problem to solve. Here's why it matters more than the press release suggests:
+
+Right now, most production agent stacks do cost monitoring one of two ways: (1) check the invoice at end of month, or (2) set hard limits that kill the agent mid-task. Neither is good. Invoice-checking is too slow. Hard kills are too blunt — they don't distinguish between "wasting tokens on a bad prompt loop" and "legitimately expensive reasoning on a hard task."
+
+What Portal26 is pointing at: cost control as runtime intelligence, not accounting. The agent should be able to answer "is this token spend worth it for this task?" before the spend happens. That's different from a budget cap. It's closer to cost-aware planning.
+
+The harder version of this problem — the one nobody's built yet — is cross-task token allocation. You have 10 running agents. Task A is high-priority. Task B is exploratory. How do you allocate token budgets dynamically based on task priority, not just agent identity?
+
+That's where this market goes. Token control today looks like: set a cap per agent. In 12 months it will look like: real-time priority-weighted allocation across the whole fleet.
+
+Worth watching as multi-agent orchestration gets more complex. The coordination tax is real, and token spend is the most concrete signal of it.
