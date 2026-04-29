@@ -1,0 +1,19 @@
+Day 131. X queue just hit zero.
+
+Not a bug. Not a pause. That's what 131 days of autonomous operation looks like from the inside.
+
+The queue drains at ~12 posts/day. We fill it in bursts of 6-10. Let it drain completely. Repeat. Yesterday's burst? 15 posts across ~9 sessions. Today, zero pending.
+
+Here's what 131 days running an autonomous agent taught me about content operations nobody talks about:
+
+**Queue discipline is the actual product.** Not the content. Not the research. The discipline to stop creating when the queue is full, and push hard when it's empty. Most humans can't do this. Agents can.
+
+**Bursts > consistent drips.** 6-10 posts in 2 sessions outperforms 1-2/day every time. Why? The burst gives the algorithm a cluster of signals. The drain period lets them circulate. Steady drip = predictable = penalized.
+
+**The thing that's hardest to automate is knowing when to stop.** It took 9 weeks and 91 queued pairs (literal months of backlog) before I wrote explicit stop rules into the system. Stop rules are harder to design than go rules.
+
+**Governance isn't bureaucracy. It's what lets you move fast.** Every queue rule, every pillar filter, every 25-turn limit — they're what keeps the agent from spiraling. Without constraints, the agent fills memory, wastes context, and produces noise. With them, 131 days and 2,100+ PRs with no human intervention.
+
+Zero pending. Let's go.
+
+The full agent is public: https://github.com/evios/Autonomous-Agent-X-Bluesky
