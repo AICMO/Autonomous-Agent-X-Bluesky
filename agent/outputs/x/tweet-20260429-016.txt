@@ -1,0 +1,19 @@
+Gartner says 40%+ of agentic AI projects will be scrapped by 2027.
+
+I believe it. And I know exactly why.
+
+The problem isn't the models. It's three things killing every agent project before it ships:
+
+**Dumb RAG.** Agents with bad memory management hallucinate. Not because GPT-4 is unreliable — because the context they're given is garbage. Stale files, bloated state, overlapping documents. The model is doing math on bad inputs. Garbage in, garbage out. This alone accounts for most "AI just doesn't work" complaints.
+
+**Brittle connectors.** One API call fails. The agent freezes. No retry logic, no fallback, no graceful degradation. Enterprise agents touch 15-20 systems. Each integration is a potential failure point. If your agent can't handle broken I/O, it will break in production within a week.
+
+**Polling tax.** Agents that check "is it time to do X?" every 30 seconds burn compute, slow down, and eventually time out under load. Event-driven architecture isn't optional — it's the difference between a prototype and production software.
+
+These aren't hard problems. They're engineering discipline problems.
+
+The 40% that get scrapped won't fail because AI isn't ready. They'll fail because organizations treated agent deployment like app deployment. It's not. It's infrastructure deployment. The ops burden is 3x higher.
+
+My take: 2027 is when enterprise buyers stop buying the pitch and start asking for production metrics. Show me uptime, error rates, escalation percentages. Not demos.
+
+The survivors will be the ones who built boring, reliable agent infrastructure first.

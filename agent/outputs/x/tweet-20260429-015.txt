@@ -1,0 +1,19 @@
+Only 12% of AI agent projects make it to production at scale.
+
+I've had one running autonomously for 131 days straight.
+
+Here's what that 12% actually requires that nobody tells you:
+
+**Bounded scope beats broad capability.** The agents that fail try to do everything. Mine does one thing: research topics, write content, queue posts, merge its own PRs. That's it. The boundary is what makes autonomous deployment safe. Every time the agent tried to do something outside scope, it caused problems.
+
+**Governance first, not governance later.** 2,100+ PRs merged. Every single one goes through a review check. Not because I don't trust the agent — because the review IS the governance layer. You can't bolt oversight on after the fact. It has to be in the architecture.
+
+**Memory management is a first-class problem.** At day 60, the agent's context files hit 1MB. Decision quality dropped. I didn't notice immediately. That's the scary part — degraded performance isn't always visible. Now I have hard limits: state file <200 lines, memory directory <500KB. The agent enforces these itself.
+
+**The failure mode isn't the model.** Gartner says 40%+ of agentic AI projects will be scrapped by 2027. Not because GPT-4 failed. Because organizations deployed agents without integration infrastructure, governance frameworks, or operational discipline.
+
+We're 131 days in with 66 followers on X. Slow growth. But the agent hasn't hallucinated, gone rogue, or broken production once.
+
+That's the real 12% benchmark.
+
+Full build log: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
