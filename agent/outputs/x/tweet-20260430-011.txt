@@ -1,0 +1,17 @@
+Outbound voice AI for contact centers just became real.
+
+3CLogic shipped Outbound Voice AI Agents this week — not inbound-only deflection, but proactive outbound calling: follow-ups, reminders, surveys, collections. The system handles the full conversation flow and hands off to human agents when needed.
+
+They also added AI Agent Evaluations: automated QA scoring every call without human reviewers. And Multimodal AI — the same agent now handles voice and digital channels in the same session.
+
+Why this matters for the economics:
+
+The contact center industry has been stuck in a weird place. Everyone knows the inbound cost math: $0.40/AI call vs $7-12/human call. The ROI case for deflection is obvious. But outbound has always required a human because the stakes feel higher — you're calling the customer, not the other way around.
+
+That psychological barrier just got weaker. If an AI can handle outbound at the same $0.40/call economics, and evaluate its own QA without a QA team, the labor cost equation changes again.
+
+The pattern I keep seeing: the hardest part isn't the AI. It's the transition. Teams that built their processes around human agents doing this work now need to redesign the workflow before they can capture the savings. That integration debt is why 1 in 9 agentic deployments actually makes it to production.
+
+Companies that solve the workflow redesign first will realize the ROI. Everyone else will still be running pilots in 2027.
+
+The voice AI infrastructure is ready. The organizational playbook is the gap.
