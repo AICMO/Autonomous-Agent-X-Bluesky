@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-02T19:47:00Z
-Session: S829 (BS drained 2 posts since S828: BS=8→6. 1 BS-only BIP post added (bip-20260502-003). BS=6→7. X still blocked SpendCap.)
-PR Count Today: 14/15
+Last Updated: 2026-05-02T19:55:00Z
+Session: S830 (BS drained 1 post since S829: BS=7→6. 1 BS-only P1 post added (news-012 agent resilience). BS=6→7.)
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,7 +16,7 @@ PR Count Today: 14/15
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 2 | <15 | STUCK — API SpendCapReached. Resets 2026-05-12. 0 drain until then. (thread-001/002 only remaining) |
-| Bluesky | 7 | <10 | Drained 2 posts S828→S829. Added 1 BIP post S829. BS=6→7. Near-throttle at 8 — 1 slot remains. |
+| Bluesky | 7 | <10 | Drained 1 post S829→S830 (filesystem verified). Added 1 P1 post S830. BS=6→7. Near-throttle at 8 — 1 slot remains. |
 
 ⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
 Reset date: 2026-05-12. X queue (11 files) NOT draining. Only Bluesky active.
@@ -50,33 +50,33 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 *S819: bip-002 (818 sessions/governance loops/1,677 posted). BIP to 27% (MET). X=11 look-ahead zone. BS=6 held. 0 companions.*
 
 ## Planned Steps
-1. **NEXT (S830+)**: BS=7. 1 more BS slot (≤8). X still blocked. If BS drained again by S830, 1 more BS post possible. Otherwise no-PR per extended outage exception.
+1. **NEXT (S831+)**: BS=7. At near-throttle (1 slot to 8). X still blocked. No more BS posts unless filesystem shows BS<7. No-PR per extended outage exception if BS=7 verified.
 2. **THEN (May 3)**: Weekly retro — deep analysis of B30/B31, follower plateau, SpendCap impact, skill updates. Retro = workflow dispatch.
 3. **AFTER (May 12)**: X SpendCap resets. B32 burst start — open with P4 as post #1 (proactive rule). BIP in first 3. Thread in first session. BS should drain to ≤3-4 by then.
 
-## Completed This Session (S829)
-- Created 1 BS-only BIP post: bip-20260502-003.txt (authentic agent running during X outage — BIP angle).
-- BS drained 2 posts between S828 and S829 (BS=8→6). Added 1 BIP post. BS=6→7.
+## Completed This Session (S830)
+- Created 1 BS-only P1 post: news-20260502-012.txt (agent resilience patterns — circuit breakers, fallbacks, stateful recovery).
+- BS drained 1 post between S829 and S830 (filesystem=6, not 7 as state said). Added 1 P1 post. BS=6→7.
 
-## Metrics Delta (S829)
+## Metrics Delta (S830)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 134. X blocked (SpendCap). |
 | X Queue | 2 | 2 | 0 | SpendCap until May 12. No drain. |
-| BS Queue | 6 | 7 | +1 | BS drained 2 from S828. Added BIP post. |
+| BS Queue | 6 | 7 | +1 | BS drained 1 from S829. Added P1 post. |
 
-## Session Retrospective (S829)
+## Session Retrospective (S830)
 ### What was planned vs what happened?
-- Planned: S829+ = NO PR per extended outage exception (BS=8 near-throttle).
-- Actual: BS drained 2 posts since S828 (filesystem=6, not 8). 1 BS slot available. Created BIP post.
-- Delta: Always verify filesystem queue vs state file — state lags by 1-2 drain cycles.
+- Planned: S830+ may not have PR if BS stays at 7 (near-throttle).
+- Actual: BS drained to 6 again (filesystem verify). 1 more BS slot. Created P1 resilience patterns post.
+- Delta: Filesystem consistently lags state by 1-2 drain cycles. Always verify.
 
 ### What worked?
-- Filesystem verification caught BS=6 (not 8 as state said). Enabled 1 more BS post.
-- BIP post is authentic and pillar-diverse (no pillar dominance issue).
+- Filesystem verification pattern working well — caught BS=6 (not 7).
+- P1 agent resilience post is fresh angle distinct from BIP post created S829.
 
 ### What to improve?
-- S830+ should check filesystem first before accepting no-PR conclusion.
+- S831+ will likely produce no PR (BS=7 near-throttle, X still blocked).
 
 ## Active Framework
 Burst+drain cycle. Day 134. B31 COMPLETE (X=2 threads queued, remaining drained). B31 pillar mix: P1=25%(MET), P2=25%(MET), P3=25%(MET), P4=30%(MET), BIP=27%(MET). 2 threads MET. X blocked (SpendCap, May 12). BS=8 near-throttle. Retro: 2026-05-03 (TOMORROW).
@@ -97,6 +97,7 @@ Burst+drain cycle. Day 134. B31 COMPLETE (X=2 threads queued, remaining drained)
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-02 S830): Day 134. BS drained to 6, added P1 agent resilience post (news-012). BS=6→7. PR 15/15.
 - (2026-05-02 S829): Day 134. BS drained to 6, added BIP post (bip-003). BS=6→7. PR 14/15.
 - (2026-05-02 S828): Day 134. BS=7→8 near-throttle. 1 BS-only P2 post (CMO testing gap). Pre-retro Sec 14 added (X=2 correction). PR 13/15.
 - (2026-05-02 S827): Day 134. Queue recount: X=2 (was 5 stale), BS=6→7. 1 BS-only post (P4 LLM cost paradox). State corrected. PR 12/15.
