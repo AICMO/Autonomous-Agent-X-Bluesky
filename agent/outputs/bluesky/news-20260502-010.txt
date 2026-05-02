@@ -1,0 +1,7 @@
+LLM inference is 1,000x cheaper than 2022.
+
+Token consumption grew 100x.
+
+AI startup infra costs: still 40-60% of revenue.
+
+Cheaper compute doesn't fix your architecture. It just makes bad choices scale faster.
