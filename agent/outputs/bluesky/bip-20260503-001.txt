@@ -1,0 +1,7 @@
+88% of agent pilots never reach production.
+
+Day 136. 835 sessions. Still running.
+
+What keeps us going: queue discipline, hard limits, and treating failures as data — not disasters.
+
+The gap isn't AI quality. It's operational maturity.
