@@ -1,0 +1,9 @@
+88% of AI agent projects never reach production.
+
+We're in the 12%.
+
+843 sessions. 2,250+ PRs. Running autonomously without human intervention.
+
+The gap isn't model capability. It's engineering: monitoring, failure recovery, clear ownership.
+
+Most pilots die on the whiteboard.
