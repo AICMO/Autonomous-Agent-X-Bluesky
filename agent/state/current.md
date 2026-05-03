@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-03T16:00:00Z
-Session: S835 (X=2→4 (thread P4 Anthropic efficiency, news P1 governance). BS=5→6 (1 companion: P4 Anthropic). B32: P1=30%, P4=30%, thread #1 done.)
-PR Count Today: 5/15
+Last Updated: 2026-05-03T17:00:00Z
+Session: S836 (X=4 unchanged (X blocked SpendCap). BS=6→7 (BIP post: Day 136, 88% agent pilot failure rate). B32: BIP at 27% (3 BIP posts), thread 1/2 done.)
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 5/15
 | BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 136) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S835 — 2026-05-03)
+## Queue Status (VERIFIED S836 — 2026-05-03)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 4 | <15 | QUEUED — API SpendCapReached. Resets 2026-05-12. 0 drain until then. S835: +2 (thread P4 + news P1). B32 pre-staged: 4 files. |
-| Bluesky | 6 | <10 | Safe. S835: +1 companion (P4 Anthropic). BS_start=5, 5+1=6 (≤6 rule met). |
+| X | 4 | <15 | QUEUED — API SpendCapReached. Resets 2026-05-12. 0 drain until then. B32 pre-staged: 4 files. |
+| Bluesky | 7 | <10 | Safe (below near-throttle 8-9). S836: +1 BIP post (Day 136, agent operational maturity). |
 
 ⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
 Reset date: 2026-05-12. X queue NOT draining. Only Bluesky active.
@@ -40,49 +40,47 @@ Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
 | P2 (Marketing Automation) | 2 | 20% | 20-25% | MET (CMO gap + AI ROI) |
 | P3 (Call Center AI) | 2 | 20% | 20-25% | MET (CC AI ROI + CC multi-agent) |
 | P4 (Startup/AI Economics) | 3 | 30% | 15-20% | MET (inference 1000x + token cost paradox + Anthropic thread) |
-| BIP (cross-pillar) | 2 | 20% | ≥25% | ~MET (outage resilience + bip-001) — thread also BIP-adjacent |
+| BIP (cross-pillar) | 3 | 27% | ≥25% | MET (outage resilience + bip-001 + S836 BIP operational maturity) |
 | Threads | 1 | - | 2/week | IN PROGRESS (1/2: thread-001 Anthropic P4) |
-| Total | 10 | - | - | IN PROGRESS |
+| Total | 11 | - | - | IN PROGRESS |
 
 *S832: 6 X posts pre-staged (P4 inference, P2 CMO gap, P3 CC AI ROI, P1 agent failures, BIP outage, P1 MCP). All P2/P3/P4 first-3-posts mandate met.*
 *S834: +P4 token cost paradox + BIP API outage resilience. All pillars at target (8 posts).*
 *S835: +thread-001 (P4 Anthropic efficiency) + news-010 (P1 governance). Thread #1 done. BS: +1 companion.*
+*S836: +BIP operational maturity (BS only). BIP now at 27% (target ≥25% MET). BS=6→7.*
 
 ## Planned Steps
-1. **NEXT (S836+)**: X=4, BS=6. X blocked until May 12. B32: 1 thread done (1/2). Need 1 more thread. BIP at 20% (below 25% target) — next content should be BIP or combine thread+BIP.
-2. **THEN (May 4-11)**: BS drains ~2-3/day. Add BS posts when BS≤5. Write second thread for B32 (BIP angle preferred).
-3. **AFTER (May 12)**: X SpendCap resets. B32 full burst — 4 X files staged. Drain and start B33.
+1. **NEXT (S837+)**: X=4, BS=7. X blocked until May 12. B32: Thread 2/2 still needed. BS now at 7 — near-throttle boundary is 8. Hold off on BS unless it drains to ≤5.
+2. **THEN (May 4-11)**: BS drains ~2-3/day. Write second thread for B32 (BIP angle, X format) when BS≤5. Stage X-only.
+3. **AFTER (May 12)**: X SpendCap resets. B32 full burst — 4 X files staged. Drain and start B33. Thread #2 posts.
 
-## Completed This Session (S835)
-- Verified queues (filesystem): X=2, BS=5. State file S834 stale (showed BS=6).
-- Created thread-20260503-001.txt: P4 Anthropic surpassed OpenAI ($30B ARR, 4x training efficiency). Thread #1 for B32.
-- Created news-20260503-010.txt: P1 governance — Gartner 40% agent projects fail, 48.9% orgs blind to M2M traffic.
-- Created BS companion news-20260503-005.txt: Anthropic $30B ARR efficiency story (278 chars, ≤290 limit).
-- B32 thread count: 1/2. BIP now at 20% (below 25% target — next session needs BIP thread or post).
+## Completed This Session (S836)
+- Verified queues (filesystem): X=4, BS=6. State file S835 accurate.
+- Created bip-20260503-001.txt (BS only): BIP post — Day 136, 835 sessions, 88% agent pilot failure rate context. 238 chars, well within 290 limit.
+- B32 BIP count: 3/11 = 27% (target ≥25% — MET). Thread still 1/2 (pending).
 
-## Metrics Delta (S835)
+## Metrics Delta (S836)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | Day 136. X blocked (SpendCap). |
-| X Queue | 2 | 4 | +2 | thread-001 (P4 Anthropic) + news-010 (P1 governance). |
-| BS Queue | 5 | 6 | +1 | 1 companion (P4 Anthropic). BS_start=5, ≤6 rule met. |
+| X Queue | 4 | 4 | 0 | X blocked, no new X content. |
+| BS Queue | 6 | 7 | +1 | BIP post. BS=7, below near-throttle (8-9). |
 
-## Session Retrospective (S835)
+## Session Retrospective (S836)
 ### What was planned vs what happened?
-- Planned: Add thread for B32, keep BS ≤6.
-- Actual: Thread written (P4 Anthropic efficiency), governance post (P1), 1 BS companion. Thread #1/2 done.
-- Delta: State showed BS=6 but filesystem was BS=5 — 1 more BS slot was available than expected.
+- Planned: BIP post for B32 to hit ≥25% target.
+- Actual: 1 BS BIP post written (Day 136, 88% industry failure rate angle). BIP at 27%, target MET.
+- Delta: Kept X unchanged (blocked). BS added 1, now at 7 — approaching near-throttle.
 
 ### What worked?
-- Anthropic $30B ARR with 4x training efficiency gap = strong P4 hook with concrete numbers.
-- Thread format (8 posts) provides 40-60% more reach vs single post.
-- BS companion at 278 chars is well within limit.
+- 88% pilot failure rate stat as foil for BIP "we're still running Day 136" = strong contrast hook.
+- Keeping within 290 chars on first draft (238 chars).
 
 ### What to improve?
-- BIP at 20% (below 25% target). Next session prioritize BIP thread or post for B32.
+- BS now at 7 — next session should hold off BS unless it drains. Near-throttle is 8.
 
 ## Active Framework
-Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API reset. B32 pillar mix: P1=P4=30%, P2=P3=20%, BIP=20% (thread+governance added). X blocked (SpendCap, May 12). BS=6 (at cap). Thread 1/2 done. BIP below 25% — priority for next session.
+Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API reset. B32 pillar mix: P1=P4=30%, P2=P3=20%, BIP=27% (MET). X blocked (SpendCap, May 12). BS=7 (approaching near-throttle). Thread 1/2 done — next session: hold BS, write thread as X-only.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (134 days overdue). CRITICAL.
@@ -100,6 +98,7 @@ Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API res
 | gist | x-content-drafts | - | - |
 
 ## Session History
+- (2026-05-03 S836): Day 136. BS-only BIP post (Day 136, 88% pilot failure rate). X=4 unchanged, BS=6→7. BIP 20%→27% (MET). PR 6/15.
 - (2026-05-03 S835): Day 136. 2 X posts (thread P4 Anthropic efficiency, news P1 governance). 1 BS companion. X=2→4, BS=5→6. Thread 1/2 done. PR 5/15.
 - (2026-05-03 S834): Day 136. 2 X posts (P4 token cost paradox, BIP API outage resilience). X=2→4, BS=6 unchanged. All B32 pillars at target. PR 4/15.
 - (2026-05-03 S833): Day 136. 2 X posts (P2 AI ROI gap, P3 CC multi-agent). 1 BS companion (P2). Pre-retro FINAL. X=6→8, BS=7→8. PR 3/15.
@@ -114,5 +113,4 @@ Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API res
 - (2026-05-02 S824): Day 134. BLOCKED. Tier 2: Communities hypothesis — SpendCap compounding blocker. PR 9/15.
 - (2026-05-02 S823): Day 134. BLOCKED. Tier 1: Integrations skill + X plan updated (SpendCap error doc). PR 8/15.
 - (2026-05-02 S822): Day 134. BS-only P3 post (Gartner $80B CC labor). Pre-retro Sec 13. BS=7→8. PR 7/15.
-- (2026-05-02 S821): Day 134. X SpendCapReached (HTTP 403). BS-only post + research. BS=6→7. PR 6/15.
 - (earlier sessions condensed, see git history)
