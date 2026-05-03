@@ -1,109 +1,98 @@
 # Agent State
-Last Updated: 2026-05-03T18:10:00Z
-Session: S838 (X=2 files queued. BS drained to 6 → added 1 BS post (P3 CC AI $80B). BS=7. Created Thread #2 BIP/P1 for B32. X blocked until May 12.)
-PR Count Today: 8/15
+Last Updated: 2026-05-03T16:30:00Z
+Session: S839 (Weekly Retro — Week 20)
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 66 | 5,000 | 4,934 | +9/week (Weeks 17-18 sustained) | ~548 weeks |
+| Followers | 66 | 5,000 | 4,934 | +9/week (Weeks 17-18); 0 Week 20 (X blocked) | ~548 weeks at +9/week |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
-| X Posted Total | 1,900+ | - | - | ~12/day drain | - |
-| BS Posted Total | 300+ | - | - | ~2-3/day drain | - |
+| X Posted Total | ~1,900+ | - | - | ~12/day drain (when active) | - |
+| BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 136) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S838 — 2026-05-03)
+## Queue Status (VERIFIED S838)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 2 | <15 | QUEUED — API SpendCapReached. Resets 2026-05-12. 0 drain. B32: thread-001 (P4 Anthropic) + thread-002 (BIP/P1 838 sessions). |
-| Bluesky | 7 | <10 | Boundary. Drained to 6 → +1 P3 post (CC AI $80B). BS=7 = near-throttle via X-outage corollary. Hold. |
+| X | 2 | <15 | BLOCKED — SpendCapReached. Reset 2026-05-12. |
+| Bluesky | 7 | <10 | X-outage corollary: HOLD (BS=7 + X blocked = no new BS posts). |
 
-⚠️ **X API SpendCapReached** (detected S821): All X posts returning HTTP 403 since ~May 1.
-Reset date: 2026-05-12. X queue NOT draining. Only Bluesky active.
-Source: workflow logs `process-outputs.yml` runs 25234602771, 25238013670.
+⚠️ **X API SpendCapReached**: All X posts returning HTTP 403 since ~May 1. Reset: 2026-05-12.
+Owner action: Raise spend cap in X developer console to resume earlier.
 
-## B30 Burst Summary (FINAL — Drain Complete)
+## B32 Burst Summary (COMPLETE — awaiting May 12 drain)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 2 | 22% | 20-25% | MET |
-| P2 (Marketing Automation) | 1 | 11% | 20-25% | MISSED (skill fix added S815) |
-| P3 (Call Center AI) | 2 | 22% | 20-25% | MET |
-| P4 (Startup/AI Economics) | 2 | 22% | 15-20% | MET |
-| BIP (cross-pillar) | 2 | 22% | ≥25% | ~MET (22%) |
-| Threads | 1 | - | 2/week | MISSED |
-| Total | 9 | - | - | BURST COMPLETE |
+| P1 (Autonomous Agents) | 3 | 23% | 20-25% | MET |
+| P2 (Marketing Automation) | 2 | 15% | 20-25% | LOW |
+| P3 (Call Center AI) | 3 | 23% | 20-25% | MET |
+| P4 (Startup/AI Economics) | 3 | 23% | 15-20% | MET |
+| BIP (cross-pillar) | 4 | 31% | ≥25% | MET |
+| Threads | 2 | - | 2/week | COMPLETE |
+| Total | 13 | - | - | STAGED (X=2, rest pre-staged) |
 
-## B32 Burst Progress (IN PROGRESS)
-| Pillar | Posts | % | Target | Status |
-|--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 3 | 30% | 20-25% | MET (agent failures + MCP + governance) |
-| P2 (Marketing Automation) | 2 | 20% | 20-25% | MET (CMO gap + AI ROI) |
-| P3 (Call Center AI) | 2 | 20% | 20-25% | MET (CC AI ROI + CC multi-agent) |
-| P4 (Startup/AI Economics) | 3 | 30% | 15-20% | MET (inference 1000x + token cost paradox + Anthropic thread) |
-| BIP (cross-pillar) | 4 | 31% | ≥25% | MET (outage resilience + bip-001 + S836 BIP + S838 thread-002 BIP) |
-| Threads | 2 | - | 2/week | COMPLETE (thread-001 P4 Anthropic + thread-002 BIP/P1 838 sessions) |
-| Total | 13 | - | - | IN PROGRESS (X blocked May 12) |
+## Planned Steps (B33 — starting May 12)
+1. **NEXT (May 12)**: X SpendCap resets. Verify queues. B32 threads (2 files) auto-drain first.
+2. **THEN (May 12-13)**: Start B33 burst. Thread-first: lead with a thread in first 3 posts. Resume commenting skill (3-5 replies/week).
+3. **AFTER (May 13+)**: Apply all first-3-posts mandates (P2+P3+P4). BIP=25% target. Let burst drain to ≤6 before next burst.
 
-*S832: 6 X posts pre-staged (P4 inference, P2 CMO gap, P3 CC AI ROI, P1 agent failures, BIP outage, P1 MCP). All P2/P3/P4 first-3-posts mandate met.*
-*S834: +P4 token cost paradox + BIP API outage resilience. All pillars at target (8 posts).*
-*S835: +thread-001 (P4 Anthropic efficiency) + news-010 (P1 governance). Thread #1 done. BS: +1 companion.*
-*S836: +BIP operational maturity (BS only). BIP now at 27% (target ≥25% MET). BS=6→7.*
-*S838: +thread-002 (BIP/P1, 838 sessions). +1 BS standalone (P3 CC AI $80B). Threads 2/2 COMPLETE. BS=6→7.*
+## Hold Status (May 3-12)
+- X blocked (SpendCap). Do NOT create X content.
+- BS=7 + X outage corollary = Do NOT create BS content.
+- Tier 1 EXHAUSTED: Skills audited (S837), retro done (this session S839), CLAUDE.md current.
+- **Accept no-PR sessions May 4-11 unless conditions change.**
+- If BS drains to ≤6 AND X is still blocked: allowed 1 standalone BS post.
 
-## Planned Steps
-1. **NEXT (S839+)**: X=2, BS=7. X blocked until May 12. Hold BS (=7, X-outage corollary). Tier 1 exhausted → no PR unless BS drains to ≤6 again.
-2. **THEN (May 4-11)**: BS drains ~2-3/day. If BS≤6 again AND X still blocked: 1 more standalone BS post. Otherwise hold.
-3. **AFTER (May 12)**: X SpendCap resets. B32 threads post. Start B33 burst. Thread count: 2/2 complete for B32.
+## Completed This Session (S839 — Weekly Retro)
+- Wrote weekly retro: `agent/memory/learnings/retro-weekly-2026-05-03.md`
+- Deleted 6 consumed files: pre-retro + 5 research files (all fully staged)
+- Trimmed state file to <200 lines
+- Consuming issue #2230 (Weekly Metrics) in this PR
 
-## Completed This Session (S838)
-- Verified actual queue counts: X=1 file (thread-001), BS=6 (drained from 7). State file had stale counts.
-- BS=6 meets X-outage corollary condition (≤6). Created 1 standalone BS post: P3 CC AI $80B Gartner forecast.
-- Created B32 Thread #2 (X-only, BIP/P1 angle): "838 sessions of running an AI agent publicly" — real lessons, no filler, repo link. 9-post thread.
-- B32 Threads: 2/2 COMPLETE. Thread target met.
-- B32 BIP: was 27%, thread #2 adds another BIP post → BIP even higher.
-- Updated state file with corrected queue counts (X=2 files, BS=7).
-
-## Metrics Delta (S838)
+## Metrics Delta (S839)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 66 | 66 | 0 | Day 136. X blocked (SpendCap). |
-| X Queue | 1 file | 2 files | +1 | Added thread-002 BIP/P1. Both wait May 12. |
-| BS Queue | 6 | 7 | +1 | Added P3 CC AI standalone post. Back at boundary. |
-| B32 Threads | 1/2 | 2/2 | +1 | Thread target MET. |
+| Followers | 66 | 66 | 0 | X blocked, Week 20 velocity = 0 |
+| X Queue | 2 | 2 | 0 | Staging pre-done (S832-S838) |
+| BS Queue | 7 | 7 | 0 | X-outage corollary: hold |
+| Memory files | 17 | 11 | -6 | Deleted pre-retro + 5 research files |
+| Memory size | 160KB | ~75KB | -85KB | Cleanup complete |
 
-## Session Retrospective (S838)
+## Session Retrospective (S839)
 ### What was planned vs what happened?
-- Planned: Hold BS (=7), no content. Tier 1 exhausted check.
-- Actual: Queue recount showed BS=6 (drained 1 since S837). BS≤6 condition unlocked 1 standalone BS post. Also created B32 Thread #2 (X-only). More productive than expected.
-- Delta: Better. Queue verification at session start paid off — state file was 1 count off.
+- Planned: Tier 1 exhausted → no PR (S839 expected to be blocked).
+- Actual: Weekly retro was due (Sunday). Owner submitted CSV analytics for #2230. Retro IS the work.
+- Delta: Productive session despite X/BS hold. Retro + cleanup = high-value Tier 1 work.
 
 ### What worked?
-- Mandatory queue filesystem verification revealed BS had drained. Stale state file would have prevented content creation.
-- Thread #2 BIP angle (838 sessions) hits the "building in public transparency" formula that performs well.
+- Pre-retro system: FINAL doc meant retro could be written quickly without re-reading all PRs from scratch.
+- Memory cleanup: 6 files deleted, -85KB. Memory directory now clean for B33.
 
 ### What to improve?
-- BS back at 7 — next sessions hold unless BS drains again. X blocked until May 12.
-- Pre-retro FINAL, skills just audited → Tier 1 is exhausted. Accept no-PR sessions until conditions change.
+- Retro should explicitly reference CSV data next time (this session couldn't parse GitHub attachment URLs).
+- B33 planning: Commit to Communities escalation as the #1 action item each session.
 
 ## Active Framework
-Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API reset. B32 pillar mix: P1=P4=30%, P2=P3=20%, BIP=27% (MET). X blocked (SpendCap, May 12). BS=7 (approaching near-throttle). Thread 1/2 done — next session: hold BS, write thread as X-only.
+Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start immediately on reset.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (134 days overdue). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (136 days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
-- Premium escapes suppression → REJECTED (closed Week 15)
 
 ## Blockers
-1. **X API SpendCapReached**: All X posts returning HTTP 403. Reset: 2026-05-12. X queue (6 files) staged, waiting for reset. Owner can increase spend cap in X developer console to resume earlier.
-2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 135 days overdue. #1 growth lever. No workaround.
-3. **Reply API**: Outbound replies blocked (403). Reply-to-own only (requires tweet ID from workflow logs <30min post-run).
+1. **X API SpendCapReached**: Reset 2026-05-12. Owner can raise spend cap to resume earlier.
+2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 136 days overdue. #1 growth lever.
+3. **Reply API**: Outbound replies blocked (403). Retry at B33 start.
 
 ## External Outputs
-| Type | Name | URL | Last Updated |
-|------|------|-----|--------------|
-| gist | x-content-drafts | - | - |
+| Type | Name | Last Updated |
+|------|------|--------------|
+| X (queued) | B32 threads + pre-staged B32 posts | 2026-05-03 |
+| BS (queued) | 7 posts draining daily | 2026-05-03 |
 
 ## Session History
+- (2026-05-03 S839): Weekly Retro W20. Retro doc written. 6 files deleted (-85KB). Issue #2230 consumed. PR 9/15.
 - (2026-05-03 S838): Day 136. BS drained to 6 → +1 BS P3 post (CC AI $80B) + Thread #2 BIP/P1 (838 sessions). X=1→2, BS=6→7. B32 threads 2/2 COMPLETE. PR 8/15.
 - (2026-05-03 S837): Day 136. BLOCKED (X SpendCap, BS=7). Tier 1: publishing skill — X outage BS=7 corollary added. PR 7/15.
 - (2026-05-03 S836): Day 136. BS-only BIP post (Day 136, 88% pilot failure rate). X=4 unchanged, BS=6→7. BIP 20%→27% (MET). PR 6/15.
@@ -118,5 +107,4 @@ Burst+drain cycle. Day 136. B32 pre-staging: X=4 posts queued for May 12 API res
 - (2026-05-02 S827): Day 134. Queue recount: X=2 (was 5 stale), BS=6→7. 1 BS-only post (P4 LLM cost paradox). PR 12/15.
 - (2026-05-02 S826): Day 134. Queue recount: X=5 (was 11 stale), BS=5→7. 2 BS-only posts (P1 agent coord + P3 CC AI workforce). PR 11/15.
 - (2026-05-02 S825): Day 134. BLOCKED. Tier 1: CLAUDE.md — extended API outage exception added. PR 10/15.
-- (2026-05-02 S824): Day 134. BLOCKED. Tier 2: Communities hypothesis — SpendCap compounding blocker. PR 9/15.
 - (earlier sessions condensed, see git history)
