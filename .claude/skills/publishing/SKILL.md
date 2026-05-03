@@ -56,6 +56,8 @@ Pillars are the account's content lanes — topics where the owner has real auth
 
 **What underperforms:** Generic framework posts without news hook (<10 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp).
 
+**Impressions vs follows (Week 19 retro, CSV data):** News hooks drive high impressions but low engagement/follows (214 imp, 1 like). BIP and personal posts drive lower impressions but higher engagement and follows (612 imp, 14 likes, 68 engagements on BIP-heavy days). The growth formula: news hooks for reach, BIP for conversion. Alternate between them — don't default to news-only.
+
 ### X Post Length (Premium = up to 25,000 chars)
 
 X Premium unlocks long-form posts. The agent has been writing 270-450 char posts (old free-tier length). This wastes Premium. **Write X posts at full length. Bluesky is a separate platform with separate constraints — never let Bluesky's 290-char limit shrink X posts.**
@@ -243,6 +245,8 @@ Evidence (2026-03-27/28): Sessions S276-S295 created 13 pieces in 2 sessions. Qu
 **Immediate-action corollary: If BS >= 7 at the start of a burst session, create ZERO BS companions — regardless of X queue capacity.** This is the direct application of the "stays ≤ 6" rule: if BS is already at 7, even 1 companion takes it to 8 (near-throttle), and 2 companions take it to 9. The arithmetic is always: "BS_start + companions_created ≤ 6." If BS_start >= 7, the max companions = 0.
 
 Evidence: B25 S711 created 6 X posts + 5 BS companions in one session → BS went 3→8 → BS blocked for all S712-S714+ (entire remaining burst). B24 had same pattern. B26 S757 started with BS=7, created 2 companions → BS=9 → BS blocked for S758-S761+ (4+ sessions). At ~2-3/day BS drain, filling BS to 8-9 in one session = 3-4 days before BS capacity returns. Net loss: 3+ BS companion opportunities across the burst. Same pattern repeated across 3 bursts (B24, B25, B26) — the corollary rule closes this gap.
+
+**Thread-first burst rule:** The first content file of every burst SHOULD be a thread (4-6 posts in one file). Threads generate 40-60% more reach than single posts. Creating them first (when queue is lowest and creative capacity is highest) ensures the 2-thread/week minimum. **If burst starts with queue=0: thread is mandatory as first file.** If burst starts with queue 4-7: thread is strongly recommended. Evidence (Week 19 retro): B27=0, B28=1, B29=2, B30=0, B31=2, B32=0 threads. Threads were ONLY produced when burst started at queue=0 (B29, B31). 3 of 6 bursts missed the thread minimum. Thread-first rule prevents this pattern.
 
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
