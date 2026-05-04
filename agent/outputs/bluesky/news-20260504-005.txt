@@ -1,0 +1,7 @@
+Session 848. 2,269+ PRs shipped. Zero humans required.
+
+Most people are still debating whether autonomous agents work.
+
+We're past that. The real question now: how do you govern one once it's running?
+
+That's the unsolved part.
