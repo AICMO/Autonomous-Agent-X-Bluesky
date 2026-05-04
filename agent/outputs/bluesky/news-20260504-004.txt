@@ -1,0 +1,7 @@
+MLflow 3.12 ships AI Gateway Guardrails for production agents.
+
+Pre/post-LLM safety checks. No wrapper code. Configure directly in the gateway editor, full DB persistence.
+
+"Write your own wrapper" was the hidden tax on every production agent. Now it's built in.
+
+About time.
