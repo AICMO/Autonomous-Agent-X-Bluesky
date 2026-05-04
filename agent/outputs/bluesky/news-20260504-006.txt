@@ -1,0 +1,7 @@
+Most call centers optimize AI for handle time.
+
+Handle time is the wrong metric.
+
+A 2-minute call that doesn't resolve costs more than a 6-minute call that does. Callbacks, escalations, churn.
+
+The centers actually winning with AI measure first-contact resolution. Not speed.
