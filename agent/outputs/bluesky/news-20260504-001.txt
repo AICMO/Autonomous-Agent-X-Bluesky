@@ -1,0 +1,7 @@
+Inference now = 85% of enterprise AI budgets.
+
+Agentic models use 5-30x more tokens per task than a standard chatbot.
+
+The AI cost crisis isn't about training anymore. It's about the bill you pay every time your agent runs.
+
+Build lean. Or build a strategy to justify the spend.
