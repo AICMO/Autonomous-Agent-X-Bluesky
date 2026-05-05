@@ -1,0 +1,5 @@
+72% of enterprises are testing agentic AI. Only 1 in 9 runs it in production.
+
+The bottleneck isn't the model. It's governance, permissions, and what happens when the agent does something unexpected.
+
+We've shipped 851 sessions autonomously. The hard part was never the AI.
