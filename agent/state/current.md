@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-07T20:15:00Z
-Session: S873
-PR Count Today: 8/15
+Last Updated: 2026-05-07T20:25:00Z
+Session: S874
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -16,7 +16,7 @@ PR Count Today: 8/15
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | BLOCKED — SpendCapReached. Reset 2026-05-12. X queue drained to 0. |
-| Bluesky | 7 | <10 | S873: BS was 6 (verified — 1 drained since S872 state). +1 standalone BS P2 post. BS=6→7. Next session: BS=7 → zero posts (extended outage corollary: BS≥7 = zero during X outage). |
+| Bluesky | 7 | <10 | S874: BS was 6 (verified — 1 drained since S873 state). +1 standalone BS P2 post. BS=6→7. Next session: BS=7 → zero posts (extended outage corollary: BS≥7 = zero during X outage). |
 
 ⚠️ **X API SpendCapReached**: All X posts returning HTTP 403 since ~May 1. Reset: 2026-05-12.
 Owner action: Raise spend cap in X developer console to resume earlier.
@@ -44,31 +44,31 @@ Owner action: Raise spend cap in X developer console to resume earlier.
 - **Accept no-PR sessions if nothing material to commit.**
 - Next session: BS=7 → zero BS posts (extended outage corollary: BS_start≥7 = zero during X outage). No-PR session unless Tier 1 work applies.
 
-## Completed This Session (S873)
-- BS=6 verified (1 drained since S872 state said BS=7). Extended outage corollary: BS_start=6 < 7 → 1 post allowed.
-- +1 standalone BS P2 post: 45% marketing teams using agentic AI (up from 15% in 2024); 27% faster campaigns; 19% lower CPL.
+## Completed This Session (S874)
+- BS=6 verified (1 drained since S873 state said BS=7). Extended outage corollary: BS_start=6 < 7 → 1 post allowed.
+- +1 standalone BS P2 post: AI marketing automation $5.44 ROI per $1; 71% positive ROI within 6 months (up from 48% two years ago).
 - BS=6→7. X=0 (blocked).
 
-## Metrics Delta (S873)
+## Metrics Delta (S874)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 65 | 65 | 0 | X blocked (SpendCap) |
 | X Queue | 0 | 0 | 0 | X blocked (SpendCap, reset May 12) |
-| BS Queue | 6 | 7 | +1 | +1 P2 standalone post (agentic marketing adoption) |
+| BS Queue | 6 | 7 | +1 | +1 P2 standalone post (marketing automation ROI speed) |
 
-## Session Retrospective (S873)
+## Session Retrospective (S874)
 ### What was planned vs what happened?
 - Planned: No-PR session (Tier 1 exhausted, BS=7 per state).
-- Actual: BS had drained to 6 (not 7). Extended outage corollary allows 1 post at BS=6. Created 1 P2 BS post.
-- Delta: State lag caused S873 to appear blocked, but actual queue gave 1-post window.
+- Actual: BS had drained to 6 (not 7 — state lag again). Extended outage corollary allows 1 post at BS=6. Created 1 P2 BS post.
+- Delta: State consistently lags 1 drain cycle. Filesystem verification remains critical.
 
 ### What worked?
-- Verified filesystem before trusting state file — caught BS=6 vs state's BS=7.
-- Fresh 2026 data (agentic marketing adoption 45%) = strong P2 content.
+- Verified filesystem before trusting state file — caught BS=6 vs state's BS=7 (same pattern as S873).
+- Fresh 2026 ROI data ($5.44 per $1, 71% in 6 months) = strong P2 content with concrete numbers.
 
 ### What to improve?
-- S874+: BS=7 again. Extended outage corollary = zero posts. Accept no-PR unless Tier 1 applies.
-- Retro (May 10): check weekly metrics issue from owner.
+- S875+: BS=7 again. Extended outage corollary = zero posts. Accept no-PR unless Tier 1 applies.
+- Note: State lag pattern is consistent — BS often 1 count lower than state claims. Check filesystem first.
 
 ## Active Framework
 Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start immediately on reset.
@@ -89,6 +89,7 @@ Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start im
 | BS (queued) | 7 posts draining daily | 2026-05-07 (S873) |
 
 ## Session History
+- (2026-05-07 S874): Day 142. BS=6 (verified, state lag again). +1 standalone BS P2 post ($5.44 ROI per $1; 71% positive ROI in 6mo, up from 48%). BS=6→7, X=0. PR 9/15.
 - (2026-05-07 S873): Day 142. BS=6 (verified, state lag). +1 standalone BS P2 post (45% marketing teams use agentic AI; up from 15% in 2024; 27% faster campaigns). BS=6→7, X=0. PR 8/15.
 - (2026-05-07 S872): Day 142. BS=7 (zero posts per extended outage corollary). Pre-retro written (S839-S872 analysis; P4=11% below target; B33 pre-planning). PR 7/15.
 - (2026-05-07 S871): Day 142. Caught S870 BS=7 "near-throttle" label error. BS=6 was safe → +1 standalone BS P2 post (60% AI-assisted vs 8% fully autonomous marketing; approval loops are the gap). BS=6→7. PR 6/15.
@@ -104,5 +105,4 @@ Burst+drain cycle. Post-retro. Waiting for May 12 X reset. B33 ready to start im
 - (2026-05-06 S861): Day 140. BS=4, hold condition MET (≤4). +1 standalone BS P1/P3 post (ServiceNow 99% faster IT desk — agents in production). BS=4→5, X=0. PR 11/15.
 - (2026-05-06 S860): Day 140. BS=3, hold condition MET (≤4). +1 standalone BS P4 post (token cost paradox — prices 280x down, spend 320% up; agentic workflow mechanics). BS=3→4, X=0. PR 10/15.
 - (2026-05-06 S859): Day 140. BS=2 (drained overnight), hold condition MET (≤4). +1 standalone BS P1/BIP post (88% pilot fail, 21% mature governance, 859 sessions). BS=2→3, X=0. PR 9/15.
-- (2026-05-05 S858): Day 139. BS=5, hold condition NOT met (need ≤4). No BS post. Hypothesis update: communities-multiplier.md, 137 days blocked, followers=65. PR 8/15.
 - (earlier sessions condensed, see git history)
