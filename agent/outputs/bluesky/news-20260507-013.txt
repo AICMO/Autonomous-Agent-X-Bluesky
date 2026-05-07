@@ -1,0 +1,9 @@
+Token costs dropped 1000x in 3 years.
+
+Yet AI startups report infra costs eating 40-60% of revenue.
+
+Why? Agentic tasks need 5-30x more tokens than standard chatbots (Gartner, March 2026).
+
+Cheaper per token. Way more tokens. Net bill: bigger.
+
+The inference cost paradox is real.
