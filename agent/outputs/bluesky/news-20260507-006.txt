@@ -1,0 +1,5 @@
+MIT found 95% of GenAI projects failed to deliver real ROI.
+
+The 5% that worked weren't using GenAI as a writing assistant. They built autonomous workflows where the AI executes, not assists.
+
+The difference isn't the model. It's the architecture.
