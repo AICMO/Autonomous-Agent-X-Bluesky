@@ -1,0 +1,7 @@
+72% of enterprises are testing AI agents.
+
+Only 1 in 9 run them in production.
+
+That gap isn't a model problem. It's a governance problem. Who owns failures? Who audits decisions? Who turns it off?
+
+The orgs shipping agents in 2026 solved operations. Not prompts.

@@ -1,0 +1,5 @@
+MCP hit 97M installs in 16 months.
+
+Kubernetes took 4 years to reach comparable infrastructure scale.
+
+The USB-C moment for AI agents already happened. If you're building agent integrations without MCP, you're writing something that'll need a full rewrite in 18 months.

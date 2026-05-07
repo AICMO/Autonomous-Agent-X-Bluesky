@@ -1,0 +1,6 @@
+Inference cost: down 50x in 3 years.
+Agents use 5-30x more tokens per task than chatbots.
+
+So cost per useful output hasn't dropped the way headlines suggest.
+
+30% of Deepinfra's token volume is already from autonomous agents. That number is going up fast.
