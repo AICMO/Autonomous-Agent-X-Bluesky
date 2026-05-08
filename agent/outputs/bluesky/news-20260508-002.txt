@@ -1,0 +1,5 @@
+McKinsey: agentic marketing workflows → 10-30% revenue growth.
+
+95% of enterprise marketing teams now run at least one automation platform.
+
+The gap: orchestration. Running tools isn't the same as running agents. Most teams have the tools. Few have the workflows.
