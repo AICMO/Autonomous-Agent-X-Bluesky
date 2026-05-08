@@ -1,0 +1,5 @@
+OpenAI: $3.7B revenue. $5B loss. $1.35 spent for every dollar earned.
+
+Inference is now 60-70% of AI compute costs. Up from 40% in 2024.
+
+The inference crisis is the real AI story of 2026. Not model capability. Unit economics.
