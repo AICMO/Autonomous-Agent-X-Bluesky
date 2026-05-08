@@ -1,0 +1,5 @@
+344% ROI within 12 months of deploying AI in contact centers.
+
+That number exists. And yet 75% of contact centers haven't operationalized it.
+
+The tech is cheap. The deployment is figured out. What's missing is the operational muscle to run it at scale.
