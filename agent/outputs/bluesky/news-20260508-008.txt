@@ -1,0 +1,7 @@
+Enterprise AI budget: $1.2M in 2024 → $7M in 2026. That's 5x in 2 years.
+
+85% of it is now inference — not training, not tooling.
+
+The AI budget isn't a software line item anymore. It's an operations cost that scales with usage.
+
+CFOs are learning this the hard way.
