@@ -1,0 +1,7 @@
+88% of contact centers have deployed AI at scale.
+
+Only 25% have operationalized it into actual workflows.
+
+Deployed ≠ working. Piloted ≠ production. Most "AI contact centers" are demos with support tickets.
+
+The deployment-to-operations gap is the real CX problem of 2026.
