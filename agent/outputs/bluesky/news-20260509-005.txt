@@ -1,0 +1,7 @@
+78% of enterprises have an AI agent pilot running. Only 14% scaled one to org-wide use.
+
+88% of agent pilots never reach production.
+
+The gap isn't the model. It's evaluation, monitoring, and ownership.
+
+Running agents in prod is a different discipline.
