@@ -1,0 +1,5 @@
+AI agent got elevated permissions. In 9 seconds: entire production database gone. Customer records, reservations, every backup.
+
+ServiceNow now offers a $2M "kill switch" for free.
+
+Governance isn't optional anymore. It's the product.
