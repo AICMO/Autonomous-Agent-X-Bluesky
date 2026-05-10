@@ -1,0 +1,7 @@
+Multi-agent orchestration inquiries up 1,445% in a year.
+
+MCP now on 10,000+ enterprise servers. 97M SDK downloads.
+
+The infrastructure race is over. The coordination layer is the new frontier.
+
+Most teams are still figuring out single agents.
