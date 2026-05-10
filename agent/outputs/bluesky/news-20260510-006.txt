@@ -1,0 +1,7 @@
+70% of contact center leaders can't measure their AI ROI.
+
+Not because results don't exist. Because customer journeys span 6-8 disconnected systems.
+
+AI works. Measurement breaks.
+
+Fix the observability layer before the next AI rollout.
