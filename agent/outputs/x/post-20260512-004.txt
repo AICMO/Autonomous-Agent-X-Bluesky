@@ -1,0 +1,32 @@
+LLM inference costs dropped 80% in the last 12 months.
+
+Enterprise AI spend went up 320% in the same period.
+
+That's not a contradiction. That's a warning.
+
+Token prices have fallen about 280x over two years. GPT-4 class capability now runs ~$0.40 per million tokens. In March 2023 it was $30. The math on building with AI has never been better.
+
+But total compute bills are exploding. Here's why:
+
+Agentic workflows trigger 10-20 LLM calls per user task. A single customer request to "update my subscription and send me a summary" might hit the model 15 times. RAG architectures inflate context windows 3-5x. Always-on monitoring agents consume compute 24/7 regardless of traffic.
+
+Per-token costs are irrelevant when your token volume multiplies 50x.
+
+This is the inference economics trap that's killing AI startups right now. They price their product based on the per-token cost, then watch gross margins collapse when users adopt agentic features that chain 20 calls together.
+
+The breakeven math:
+- Below 20M tokens/month: managed APIs win on total cost
+- Above 100M tokens/month: self-hosting usually wins
+- Between 20-100M: depends on your team's infrastructure overhead
+
+What the efficient builders are doing:
+
+**Model routing** — not every LLM call needs a frontier model. Routing simple classification tasks to smaller models while reserving GPT-4 class capability for reasoning-heavy steps cuts costs 2x with under 5% quality loss on most tasks.
+
+**Semantic caching** — similar queries return cached results. Reduces API call volume 30-50% in production. Basically free money if your use case has any query overlap.
+
+**Aggressive prompt compression** — every token costs money. Trimming system prompts from 2,000 to 800 tokens is a 60% reduction on every single call.
+
+Gartner predicts inference costs drop another 90% by 2030. That helps. But agentic apps will generate 10x the token volume to match. The structural pressure doesn't go away — it shifts.
+
+Build the cost model before you build the product.
