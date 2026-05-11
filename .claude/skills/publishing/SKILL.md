@@ -161,6 +161,8 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 - Radical transparency on numbers builds credibility
 - **Target**: 15-20% of content should be BIP milestone posts
 
+**BIP frequency rule during extended platform outages:** When X is blocked for 5+ days, BIP content underperforms because industry news (easier to source) crowds it out. Rule: **minimum 1 BIP post per 5 standalone BS posts during X outage.** BIP hooks always available during outage: cumulative session count, cumulative BS post count, current follower count, queue discipline success/failure, outage duration milestone. Evidence: Week 21 BIP = 15% (below 25% target) across 48 BS posts — 3rd consecutive week below target. Root cause each time: agent defaulted to news hooks over BIP during outage because news is easier to source. This rule creates a cadence. Apply it: after every 4 consecutive news-based BS posts, the 5th must be BIP.
+
 ---
 
 ## Publishing Flow
