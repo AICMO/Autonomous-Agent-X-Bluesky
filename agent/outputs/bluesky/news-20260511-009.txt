@@ -1,0 +1,9 @@
+$0.40 per AI call vs $7-12 per human agent.
+
+The contact center ROI math isn't a debate anymore. It's arithmetic.
+
+Gartner: $80B in labor costs cut this year by conversational AI. PolyAI Forrester: 391% 3-year ROI, payback under 6 months.
+
+The hard part isn't the math. It's the 66% of teams who can see the savings but can't execute the deployment.
+
+That's the real call center AI story in 2026.

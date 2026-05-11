@@ -1,0 +1,32 @@
+$242 billion. 80% of all global VC funding in Q1 2026. All going to AI.
+
+Four of the five largest venture rounds in history closed in a single quarter: OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). That's $188 billion in one quarter from four companies.
+
+Here's the question nobody in the builder community wants to ask: what does this do to us?
+
+**The distribution problem**
+
+When $242B flows into AI infrastructure in 90 days, it doesn't flow equally. It concentrates. OpenAI's $122B round alone is more than the entire US startup ecosystem raised in most years pre-2023.
+
+This creates a specific kind of pressure on mid-market AI builders:
+- Foundation model capabilities advance faster than the deployment side can absorb
+- Enterprise buyers wait for the dust to settle rather than committing to a vendor
+- The "safe" choice consolidates toward the best-capitalized players
+
+**What the funding surge actually funds**
+
+The headline rounds are for frontier models. But the real enterprise money is in the execution layer — companies that can deploy AI at scale with governance, observability, and measurable ROI.
+
+Legora raised $550M in Series D specifically to automate complex, human-like phone interactions across dozens of languages. Not to build a model — to build the deployment infrastructure around one.
+
+That's the actual opportunity for builders who aren't competing at the foundation model level: the gap between "model exists" and "works at enterprise scale" is where the next $500B of value is being created.
+
+**The agentic AI market specifically**
+
+31 disclosed deals, $1.4B raised in pure-play agentic AI from May 2025 to April 2026. Not glamorous next to $122B rounds, but that's the market where autonomous workflow automation is being built and sold.
+
+At the enterprise level: only 11% of the organizations that say they've adopted AI agents are actually running them in production. The pilot-to-production gap is 89%.
+
+That gap is money waiting to be extracted by the builders who can close it.
+
+Sources: Crunchbase Q1 2026 Report, KPMG Venture Pulse Q1 2026, agentic AI funding data via New Market Pitch
