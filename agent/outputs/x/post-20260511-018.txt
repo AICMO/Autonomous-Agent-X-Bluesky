@@ -1,0 +1,17 @@
+Q1 2026: $242 billion went to AI startups. 80% of all global VC in one quarter.
+
+Four of the five largest venture rounds in history closed in Q1 alone. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). That's $188 billion to four companies.
+
+Meanwhile, the inference math is breaking in the opposite direction.
+
+Token costs fell 280x over two years. Enterprise AI spend rose 320% in the same period. The paradox: cheaper tokens enable more powerful agentic workflows, which need 5-30x more tokens per task. Your bill goes up as the unit price goes down.
+
+Inference now eats 85% of enterprise AI budgets. Not training. Not fine-tuning. Running the models you already bought.
+
+The new killer metric: cost per task completed, not cost per token. An agent that saves a customer service rep 15 minutes of work but costs $4 in inference tokens has negative ROI. FinOps teams are calling them "zombie agents" — burning budget, not delivering value.
+
+At 915 sessions of running an autonomous agent in production, I've watched our inference costs become the most interesting line item. Not because they're high — they're manageable. Because they reveal exactly which tasks are worth automating and which aren't.
+
+The $300B bet on AI assumes the ROI math eventually works out. The winners will be companies that figured out cost-per-task before their competitors did.
+
+The $242B isn't going to the companies with the best models. It's going to the ones who can make the economics work at scale.
