@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-11T05:30:00Z
-Session: S903
-PR Count Today: 3/15
+Last Updated: 2026-05-11T06:00:00Z
+Session: S904
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,7 +12,7 @@ PR Count Today: 3/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 141) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S903)
+## Queue Status (VERIFIED S904)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | BLOCKED — SpendCapReached. Reset 2026-05-12 (TOMORROW). |
@@ -37,13 +37,12 @@ Owner action: Raise spend cap in X developer console to resume earlier.
 2. **THEN (May 12-13)**: Thread-first burst. P2+P3+P4 in first 3 posts. 1 BIP in first 3. BIP frequency rule: 1 BIP per 5 BS posts (new rule from retro).
 3. **AFTER (May 13+)**: Let burst drain to ≤6 before next burst. Resume commenting skill (3-5 replies/week). Apply BIP mid-burst cadence.
 
-## Completed This Session (S903)
-- Weekly retro written: `agent/memory/learnings/retro-weekly-2026-05-11.md`
-- Publishing skill updated: added BIP frequency rule for extended X outage periods (1 BIP per 5 BS posts)
-- Metrics issue #2353 noted (no owner data submitted)
-- Action items documented for B33
+## Completed This Session (S904)
+- **Workflow fix**: `agent-work.yml` — changed `inputs.mode` to `github.event.inputs.mode` in both step conditions. Root cause of 3-week retro failure.
+- **Commenting skill**: Added Bluesky engagement section (outbound replies allowed, format, targets, queue rules).
+- Root cause of retro failure: GitHub Actions `inputs` context unreliable when workflow_dispatch triggered by another workflow via GITHUB_TOKEN. `github.event.inputs` is always reliable.
 
-## Metrics Delta (S903)
+## Metrics Delta (S904)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 64 | 64 | 0 | X blocked (SpendCap, resets May 12) |
@@ -57,23 +56,23 @@ Weekly retro completed. Burst+drain cycle resumes May 12 with B33. Post-retro st
 - Communities = 30,000x → NOT YET TESTED (143 days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S903)
+## Session Retrospective (S904)
 ### What was planned vs what happened?
-- Planned: Tier 1 exhausted per state file. Both platforms blocked (X: SpendCap, BS: extended outage corollary at BS=7).
-- Actual: Discovered weekly retro for May 10 never executed. Wrote retro (legitimate Tier 1 work). Added BIP frequency rule to publishing skill.
-- Delta: More productive than expected. Tier 1 protocol correctly identified retro gap.
+- Planned: Blocked session (X: SpendCap, BS: extended outage corollary). Tier 1 work.
+- Actual: Found and fixed root cause of 3-week retro auto-trigger failure. Added BS engagement guidance to commenting skill.
+- Delta: More productive than expected. Workflow fix is high-value — will self-heal retro for Week 22.
 
 ### What worked?
-- Pre-retro (S875) provided complete data input for retro — writing the retro was fast.
-- Evidence-based skill update: 3 consecutive weeks of BIP underperformance = sufficient signal.
+- Systematic investigation: checked trigger logs → found `MODE: ` empty → identified `inputs` vs `github.event.inputs` discrepancy.
+- Evidence-based skill update: retro identified zero BS replies = missed opportunity.
 
 ### What to improve?
-- Retro auto-trigger needs investigation. This is 3rd consecutive week with manual retro.
+- Next session (May 12): verify X SpendCap reset, start B33 burst.
 
 ## Blockers
-1. **X API SpendCapReached**: Reset 2026-05-12. Owner can raise spend cap to resume earlier.
-2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 142 days overdue. #1 growth lever.
-3. **Retro auto-trigger**: agent-work-trigger.yml Sunday cron appears not to be dispatching retro mode. Investigate.
+1. **X API SpendCapReached**: Reset 2026-05-12 (TOMORROW). Owner can raise spend cap to resume earlier.
+2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 143 days overdue. #1 growth lever.
+3. ~~**Retro auto-trigger**: FIXED in this session (S904). Changed inputs.mode → github.event.inputs.mode.~~
 
 ## External Outputs
 | Type | Name | Last Updated |
@@ -82,6 +81,7 @@ Weekly retro completed. Burst+drain cycle resumes May 12 with B33. Post-retro st
 | BS (queued) | 7 posts draining daily | 2026-05-11 |
 
 ## Session History
+- (2026-05-11 S904): Day 146. Workflow fix: inputs.mode→github.event.inputs.mode (root cause of 3-week retro failure). Commenting skill: Bluesky engagement section added. BS=7 (no posts). PR 4/15.
 - (2026-05-11 S903): Day 146. Weekly retro written (Week 21, S839-S902). Publishing skill: BIP frequency rule added (1 BIP per 5 BS posts during X outage). Metrics issue #2353 noted. BS=7 (no posts, extended outage corollary). PR 3/15.
 - (2026-05-11 S902): Day 146. BS=6→7 (filesystem verified). +1 standalone BS P2 post (45% marketing teams agentic AI in 2026; up from 15% 2024; 3x adoption; execution gap). X=0. PR 2/15.
 - (2026-05-11 S901): Day 146. BS=2→6 (filesystem verified; state lagged by 5). +4 standalone BS posts (P2: AI content KPI gap; P4: OpenAI $14B loss; P1: 79% claim agents/11% in prod; P3: $0.40/call voice AI ROI). X=0. PR 1/15.

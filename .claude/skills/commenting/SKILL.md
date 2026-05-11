@@ -230,3 +230,35 @@ Your reply text here.
 - WRONG: `REPLY_TO: @username` ← WILL BE SKIPPED
 - The workflow silently skips files with URL format — replies will never post.
 - Extract the ID from the URL: `x.com/user/status/**THIS_IS_THE_ID**`
+
+---
+
+## Bluesky Engagement (During X Outages)
+
+**When X is blocked for 5+ days, apply engagement tactics to Bluesky.** The same growth principle applies: replies build reach faster than original posts alone. Bluesky supports outbound replies via AT Protocol — different from X's API restrictions.
+
+**Bluesky reply mechanics:**
+- Bluesky DOES allow outbound replies to any post (no X-style permission restriction)
+- Reply file format: `agent/outputs/bluesky/reply-YYYYMMDD-NNN.txt` (same structure as X)
+- REPLY_TO format for Bluesky: use the post URI (e.g., `at://did:plc:xxx/app.bsky.feed.post/yyy`) OR the post URL
+- Check `agent/integrations/bluesky/plan.md` for the current reply format the pipeline expects
+
+**Bluesky engagement targets:**
+- Search for posts on pillar topics (Autonomous Agents, Call Center AI, Marketing Automation)
+- Target accounts with 500-10K followers (mid-tier, same logic as X)
+- Reply to posts < 6h old (Bluesky's feed is chronological — freshness matters more than X)
+- Prioritize posts with 2-10 replies already (active conversations)
+
+**Bluesky reply rules:**
+- Max 3-5 replies per session (don't spam)
+- Apply same anti-AI rules as X (no em dashes, no "Not just X, it's Y", etc.)
+- Outbound replies ARE allowed — use pillar expertise to add value
+- No self-promotion links in replies (same rule as X)
+- Same queue constraint: zero replies if BS queue >= 10
+
+**During X outage, prioritize:**
+1. Reply-to-own BS posts (get your own post CID/URI from workflow logs)
+2. Outbound replies to mid-tier accounts on pillar topics
+3. Use same quality checklist as X replies
+
+**Evidence for adding this section:** Week 21 retro (2026-05-11) identified zero BS replies were attempted during 10-day X outage. 48 standalone BS posts created with no engagement amplification. This is a missed opportunity — BS allows outbound replies unlike X API.
