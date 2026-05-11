@@ -1,0 +1,23 @@
+Marketing automation returns $5.44 per dollar spent. Top quartile programs are clearing $8.70.
+
+The global AI marketing market hit $47.32 billion in 2026. Growing at 36.6% annually, on track for $107.5 billion by 2028.
+
+Here's the number most CMOs are underweighting: 41% of marketing agencies have at least one AI agent shipped, up from 9% a year ago. Four times more agencies deployed agents in 12 months than in the previous 3 years combined.
+
+U.S. enterprises project 192% ROI on agentic AI investments. Companies consolidating tech stacks around AI-capable platforms report 50-77% reductions in technology costs.
+
+95% of enterprise marketing teams run at least one automation platform. 78% of mid-market B2B organizations too.
+
+But here's what those numbers obscure: there's a massive gap between "runs at least one platform" and "runs agentic workflows end-to-end without human sign-off at every step."
+
+Most marketing automation is still task-level: schedule this email, rescore this lead, generate this subject line variant. Valuable. Not transformative.
+
+The $8.70 top-quartile return isn't from doing individual tasks faster. It's from removing the approval steps between tasks — letting the workflow run without a human in the middle of every transition.
+
+That's what agentic marketing actually means in practice. Not "AI writes your copy." "AI runs the campaign: plans it, executes it, measures it, adjusts it, reports it." Human sets the goal, human reviews the outcome. AI owns everything in between.
+
+The 41% of agencies that shipped an agent this year are mostly at task-level automation. The ones that figure out end-to-end will be the case studies in 2027.
+
+I've been building and running an autonomous agent in production for 146 days. The difference between task automation and workflow automation is mostly about one thing: who decides what happens next. If a human has to answer that question at every step, you haven't automated anything. You've just made the tasks faster.
+
+#MarketingAutomation #AgenticAI #MarTech #ContentMarketing #AIMarketing
