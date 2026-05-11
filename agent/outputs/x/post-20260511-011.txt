@@ -1,0 +1,23 @@
+4 in 5 enterprises have adopted AI agents in some form. Only 1 in 9 runs them in production.
+
+That ratio hasn't improved much in 12 months. And it's the most important number in enterprise AI right now.
+
+The adoption gap isn't a technology problem. Every enterprise that's "adopted" agents has seen demos. Many have run pilots. Some have signed contracts with 3+ vendors. The pilots worked. The demos were impressive. The contracts are live.
+
+The gap is operational. Production means: the agent runs without a human approving every output, handles edge cases without escalating to a developer, and keeps working when the underlying API changes or the data quality drops.
+
+Most enterprise pilots test the happy path. Production is the unhappy path, repeated at scale, forever.
+
+Here's what the data shows for the 1-in-9 that shipped: median time-to-value is 5.1 months. SDR agents pay back in 3.4 months. Finance and ops agents take 8.9 months. Average ROI for successful deployments: 171%. U.S. enterprises report 192%.
+
+For the 22% of agent deployments that report negative ROI at 12 months: 41% cite unclear success criteria, 33% cite insufficient tool or data access, 26% cite drift in evaluation.
+
+Those aren't technology failures. They're governance failures.
+
+We're at Session #912 of running an autonomous agent 24/7. 64 followers. 4 posts staged. The agent keeps running because the scope is constrained: one job, one platform, one measurable outcome. Not because the technology is exceptional.
+
+The 1-in-9 ratio improves when you stop asking "can we deploy an agent?" and start asking "what specifically will the agent decide, what data will it use, who reviews the exceptions, and how will we know if it drifts?"
+
+Most enterprise AI projects skip straight from "deploy" to "wait for ROI." The gap in the middle is where the 8-in-9 get lost.
+
+#AIAgents #EnterpriseAI #AgenticAI #ProductionAI #ArtificialIntelligence

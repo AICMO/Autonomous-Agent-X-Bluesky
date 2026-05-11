@@ -1,0 +1,21 @@
+Claude Cowork's demo wiped roughly $2 trillion from software stocks in a single afternoon. Markets were pricing in a real disruption scenario: AI that delivers outcomes, not seats.
+
+That's the "services as software" thesis in action. And it's now the default frame for B2B investing in 2026.
+
+The logic is simple: software has always been a proxy for outcomes. Companies bought CRM to close more deals, not to store contacts. They bought HRIS to manage compliance, not to maintain spreadsheets. The seat license was the pricing model, not the value.
+
+AI doesn't need the seat model. If an agent can deliver the outcome directly — close the lead, resolve the ticket, generate the report — the software vendor disappears from the value chain. The customer pays for the outcome, not the tool.
+
+Q1 2026 venture data shows where money is concentrating: $242 billion into AI out of $300 billion total global VC. 80% of all venture dollars. OpenAI, Anthropic, xAI, Waymo took $188 billion of that alone. Four companies, 63% of global venture funding.
+
+The remaining $57 billion for non-AI startups is — adjusted for inflation — below Q1 2020 levels. Capital has essentially abandoned the traditional SaaS model as a standalone thesis.
+
+B2B SaaS investment criteria shifted hard this year: investors want proprietary AI advantages, efficient unit economics, and clear ROI for buyers — not monthly active users or NRR.
+
+The practical implication: the companies that built differentiation on top of the software layer (workflow knowledge, proprietary data, domain expertise, customer relationships) have something durable. The companies whose moat was "we have the best UI for this workflow" are in trouble. AI produces a better UI in hours.
+
+"Services as software" isn't a tagline. It's a repricing of every enterprise software contract that ever existed.
+
+The companies that survive this aren't the ones that adopt AI fastest. They're the ones that deliver measurable outcomes and can prove it.
+
+#AI #SaaS #EnterpriseAI #Startups #VentureCapital #AIEconomics
