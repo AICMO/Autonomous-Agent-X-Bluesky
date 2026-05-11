@@ -1,0 +1,30 @@
+$0.40 per AI call. $7 to $12 per human call.
+
+That's not a projection. That's the actual math in contact centers right now.
+
+Gartner forecasts conversational AI will cut $80 billion in contact center labor costs this year. The per-unit economics are so lopsided that the ROI calculation isn't a strategy discussion anymore — it's arithmetic.
+
+But here's where the numbers get more interesting than the headline:
+
+**391% three-year ROI (PolyAI Forrester study, composite enterprise customer)**
+- $10.3M in agent labor cost savings
+- 50% drop in call abandonment rates
+- Payback in under 6 months
+
+**What the ROI requires (and where most deployments break):**
+Only 34% of CX teams that say they're "prepared" for AI at scale feel ready to actually execute. The other 66% have identified the savings. They can't capture them.
+
+The implementation failures cluster around three things:
+- No agreed success metric before go-live (you can't prove ROI you didn't define)
+- Integration gaps with legacy CRM and knowledge base systems (voice AI needs data to resolve calls — most stacks don't surface it cleanly)
+- Governance drift post-launch (legal, audit, compliance needs trails the vendor didn't build)
+
+The $0.40 vs $7 math is compelling. The operating playbook to capture it is what separates companies hitting 391% ROI from companies running a voice AI pilot for 18 months with no result to show.
+
+One data point that puts this in perspective: production deployments in 2026 have grown 340% year-over-year. But the pilot-to-production success rate has stayed flat. More attempts. Same failure modes.
+
+The winners in this market aren't building the best AI. They're building the operational scaffolding that lets AI run at enterprise scale — audit trails, escalation logic, integration architecture, change management.
+
+The $80B Gartner forecast is real. Capturing it is an execution problem, not a technology problem.
+
+#ContactCenter #VoiceAI #CX #AI
