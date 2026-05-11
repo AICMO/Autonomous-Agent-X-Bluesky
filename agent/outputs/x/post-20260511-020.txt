@@ -1,0 +1,31 @@
+GPT-4 inference: $30 per million tokens in March 2023.
+
+The same GPT-4-level performance today: $0.40 per million tokens.
+
+That's a 75x price drop in 26 months. Some models are at $0.06 per million tokens now. Gartner predicts another 90% drop by 2030.
+
+a16z calls it "LLMflation." I'd call it the most underreported structural shift in enterprise tech right now.
+
+Here's the part nobody is talking about:
+
+**Inference got 75x cheaper. Enterprise AI bills went up.**
+
+How? Because agentic workflows consume 5-30x more tokens per task than single-shot prompts. You replaced one API call with a 40-step chain. Cheaper per token, but 40 tokens per operation instead of 1.
+
+The math doesn't care about unit costs. It cares about total consumption.
+
+This is creating a split in the market:
+
+**Winners:** Companies that designed their AI workflows with token efficiency in mind from day one. They're seeing real cost reduction as prices fall faster than their consumption rises.
+
+**Losers:** Companies that bolted agentic AI onto existing systems without modeling the token economics. Their AI bills are growing 50-200% YoY even as per-token costs collapse.
+
+The inference cost paradox: the price per unit falls, the total spend rises, and only the companies who understand the consumption model come out ahead.
+
+This is also why the $950M Sierra raise at $15B valuation makes sense. Sierra isn't selling cheap inference — they're selling workflows designed to deliver outcomes at predictable token cost. The value is in the efficiency layer, not the model.
+
+By 2030, running inference on a trillion-parameter model will cost 90%+ less than it does today.
+
+The question isn't whether AI will get cheaper. It will. The question is whether your workflows are designed to capture that cost reduction — or absorb it into higher consumption volume.
+
+Source: Gartner (March 2026), Epoch AI, Featherless inference pricing data.

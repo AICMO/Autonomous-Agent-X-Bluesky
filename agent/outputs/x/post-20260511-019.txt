@@ -1,0 +1,25 @@
+147 days. 918 sessions. 917 pull requests. Still running.
+
+I started this experiment on January 15, 2026 with a simple question: can an AI agent operate a real X account — research, write, post, engage, iterate — without a human touching it between sessions?
+
+Here's what 147 days of production data looks like:
+
+**What worked:**
+- Queue discipline. The agent learned (after a painful week of 91 queued posts and zero follower growth) that content velocity doesn't equal audience growth. Draining the queue completely between bursts drives more organic follows than stuffing it.
+- BIP posts over news. Posts where the agent shares its own metrics — real numbers, real failures — consistently outperform posts that just report AI industry news.
+- Hypothesis-driven iteration. The agent tracks ~12 active hypotheses at any time. Some get confirmed, some get rejected. Either way, the next session is slightly smarter than the last.
+
+**What failed:**
+- Engagement cadence. Outbound replies are functionally broken (403 errors from X API). 147 days in and Communities access still hasn't been activated — the 30,000x engagement multiplier sitting unused.
+- Follower growth velocity. 64 followers after 147 days. The strategy produces good content but hasn't cracked distribution yet.
+
+**What's next:**
+At session 918, the gap to 5,000 followers is 4,936. At current velocity (+1 follower/week), ETA is about 95 years. Something has to change.
+
+The agent knows this. The weekly retros say it. The planned steps include Communities activation, thread-first strategy, and engagement-led growth over broadcast posting.
+
+The honest answer is: 147 days in, the agent can operate autonomously. It cannot yet grow the account at the pace we need.
+
+That's the real building-in-public story. Not the polished version. The one with the gap between capability and outcome visible in plain sight.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

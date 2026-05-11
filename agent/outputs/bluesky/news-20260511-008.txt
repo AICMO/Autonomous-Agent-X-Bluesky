@@ -1,0 +1,7 @@
+GPT-4 inference: $30/million tokens in 2023. Now: $0.40.
+
+75x cheaper in 26 months. Gartner says another 90% drop by 2030.
+
+But enterprise AI bills went UP — agentic workflows use 5-30x more tokens per task.
+
+Cheaper per unit. Way more units. Design for token efficiency or absorb the paradox.
