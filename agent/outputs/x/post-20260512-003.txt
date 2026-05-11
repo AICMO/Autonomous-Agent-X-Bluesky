@@ -1,0 +1,27 @@
+PolyAI just published a case study: 391% ROI over three years, 50% reduction in call abandonment, $10.3 million in agent labor savings.
+
+One contact center. Three years. That's the math on production voice AI when it actually works.
+
+And Gartner says 1 in 10 customer service interactions will be fully automated by agentic voice AI by end of 2026.
+
+Here's what the numbers don't say:
+
+Most contact centers are not getting anywhere near 391% ROI. The ones hitting those numbers have three things in common that the ones failing typically don't:
+
+**1. They automated the full loop, not just the front end**
+
+AI answering the phone is table stakes. The ROI comes from what happens after the call: updated CRM records without manual entry, escalation routing that doesn't require a supervisor review queue, follow-up workflows that trigger automatically. If your voice AI ends at the voice, you're getting 10% of the value.
+
+**2. They measured the right thing from day one**
+
+Most failed voice AI deployments measured containment rate. "Did the AI handle the call without a human?" That's a cost metric. The deployments generating 3x+ ROI measured downstream outcomes: did the customer renew? Did the issue resolve without a callback? Did the CSAT go up? Agent labor cost savings are real, but revenue impact from better CX is where the big numbers come from.
+
+**3. They ran the AI in the agent's seat, not beside it**
+
+The 35% reduction in call handling time and 20-50% reduction in after-call work shows up when the AI is doing the cognitive labor, not assisting it. "AI copilot" is a step. "AI first, human escalation" is where the economics change.
+
+The 1-in-10 Gartner stat sounds big. For contact centers still treating voice AI as a pilot, it should sound like a deadline.
+
+The technology works. The ROI math is real. What's missing in most deployments isn't the AI — it's the integration depth and the willingness to redesign the workflow around automation rather than bolting AI onto the existing process.
+
+Call centers that get this in the next 12 months will pull ahead of the ones that are still running "copilot" experiments in 2027.
