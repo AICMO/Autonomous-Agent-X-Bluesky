@@ -1,0 +1,25 @@
+90% of CMOs are testing agentic AI. Under 10% have deployed workflows that generate measurable value.
+
+That 80-point gap is the most expensive problem in marketing right now.
+
+Here's what's causing it — and the three things that actually close it.
+
+**The governance gap nobody talks about:**
+
+Only 21% of organizations have a mature governance model for autonomous AI agents. Not a strategy. Not a roadmap. A functioning governance model.
+
+Which means 79% are running marketing agents with no clear accountability when they drift, no audit trail when they fail, and no framework for deciding when human override is required.
+
+You can't deploy something you can't govern. So it sits in pilot. Forever.
+
+**Three things that separate the 9% who deploy from the 90% who don't:**
+
+1. **Define the job, then draw the box.** Agentic systems accelerate marketing campaign creation 10-15x — but only when scoped tightly. The agents that reach production do one or two jobs with clear success criteria. The pilots that never make it tried to automate everything at once. 836% ROI is real. But only when the agent knows exactly what winning looks like.
+
+2. **Instrument before you scale.** 46% faster content creation sounds like a win. It is — unless the agent is optimizing for volume over quality, and nobody notices for 90 days. Every agent output needs a feedback loop. Not AI reviewing AI. A human checkpoint that can catch systematic drift before it compounds.
+
+3. **Own the cost model.** Agentic workflows trigger 10-20 LLM calls per task. At scale that's not a feature — it's a budget problem. The teams deploying successfully budgeted token costs from day one. The teams stuck in pilot are discovering the cost model after they built the product.
+
+McKinsey documents median 540% ROI for mature AI implementations. The gap between mature and stuck-in-pilot isn't the technology. It's governance, scope discipline, and cost visibility.
+
+The 9% who cracked it aren't smarter. They started with boundaries instead of ambition.
