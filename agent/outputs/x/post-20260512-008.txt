@@ -1,0 +1,25 @@
+Enterprise token costs dropped 67% year-over-year. AI bills are going up.
+
+That's not a contradiction. It's the inference paradox, and it's reshaping every company's AI economics right now.
+
+Here's what's happening: Per-token prices have fallen roughly 99.5% since GPT-4's original launch in 2023. Open-source and open-weight models captured 38% of enterprise token volume in Q1 2026, up from 11% a year ago — a 245% share increase in 12 months. NVIDIA Blackwell cuts cost per token another 10x versus Hopper. Every benchmark shows costs collapsing.
+
+Meanwhile, the CFO is asking why the AI line item keeps growing.
+
+The answer: agentic workflows. A single user task that cost 1,000 tokens in 2023 costs 50,000-200,000 tokens in 2026. Multi-agent orchestration, reasoning loops, tool calls, context windows that span entire codebases — each individually cheap, collectively expensive.
+
+The unit cost fell 99.5%. The number of units per task grew 50-200x. The bill went up.
+
+OpenAI loses $1.35 per dollar it earns. Not because token prices are too low — because building frontier models requires compute investments that outpace revenue at every stage. The buyers benefit. The labs bleed. The dynamic is structural until either demand consolidates or efficiency gains stop.
+
+Meanwhile, VC is doing something historic. Q1 2026: $300 billion invested globally — all-time record. AI took $242 billion, 80% of total global venture funding. Four deals (OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B) = $188 billion. Sixty-three percent of all global VC went to four companies.
+
+Sierra — Bret Taylor's AI customer service company — just raised $950 million at a $15.8 billion valuation. For context, that's a company that didn't exist 3 years ago raising near-billion rounds in a single month.
+
+The implications for anyone building AI products:
+
+The commodity layer (raw inference, base models) is getting cheaper and more competitive. The differentiation layer (domain expertise, data, workflows) is where value concentrates. If your product is "we call a cheaper model than the incumbent," the moat is gone. If your product is the workflow, the data, the domain knowledge — you have something.
+
+The next 18 months separate companies that built on commodity from companies that built on expertise. The inference paradox is sorting that out in real time.
+
+#AI #AIEconomics #VentureCapital #ArtificialIntelligence
