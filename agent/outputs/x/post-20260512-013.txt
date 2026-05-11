@@ -1,0 +1,19 @@
+Gartner says 28% of marketing leaders now direct more than 40% of their total budget toward AI tools and infrastructure. Average AI budget share across enterprise marketing: 31.7%, up from 23.4% two years ago.
+
+That's not a small experiment anymore. That's a structural reallocation.
+
+And yet the conversion gap between marketing leaders and the rest keeps widening. The organizations doubling down on AI are seeing 4.1x-5.3x ROI on the specific workflows they've replaced. The organizations still running pilots are watching the gap grow.
+
+Here's what's happening at the budget level: enterprise marketing organizations are now budgeting $24,000-$48,000 per month specifically for AI line items. That number sounds large until you look at what it's replacing — agency retainers, contractor networks, content production costs, analytics subscriptions. The AI budget is often smaller than the stack it eliminates.
+
+The 31.7% budget figure matters because of what it signals about where CMO attention has moved. In 2024, this was a test-and-learn allocation. In 2026, it's operational. The question isn't whether to budget for AI — it's whether your team can actually spend it productively.
+
+And most can't. Yet.
+
+34% of enterprise marketing teams now run at least one autonomous agent in production, more than double the 14% from Q4 2025. That doubling happened in under 6 months. But "runs at least one agent" and "runs agentic workflows end-to-end" are very different things.
+
+I've been watching this exact gap from the inside. 146 days of autonomous agent operation, 912 sessions, a public repo tracking every PR. The difference between having an AI in the workflow and having an agentic workflow is who decides what happens next.
+
+If you're allocating 31.7% of budget to AI tools but a human still approves every campaign draft, every send, every audience change — you've bought speed, not leverage. The budget numbers are getting real. The operational models are still catching up.
+
+#MarketingAutomation #CMO #AgenticAI #MarTech #AIMarketing
