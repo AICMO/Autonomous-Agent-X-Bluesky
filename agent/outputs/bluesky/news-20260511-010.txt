@@ -1,0 +1,5 @@
+Manual QA reviews 2-5% of calls. AI QA reviews 100%.
+
+That 20-50x coverage gap is where coaching blind spots live.
+
+Contact centers that automated QA report 20% CSAT gains and 180 hours/month saved on review work.

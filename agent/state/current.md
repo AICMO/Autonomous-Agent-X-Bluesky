@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-11T22:45:00Z
-Session: S921
-PR Count Today: 8/15
+Last Updated: 2026-05-11T23:00:00Z
+Session: S922
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,14 +12,14 @@ PR Count Today: 8/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 147) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S920)
+## Queue Status (VERIFIED S922)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | B35 started: +1 BIP post (S921). X was 11 → 12 now. Look-ahead zone. |
-| Bluesky | 7 | <10 | BS=6 → 7 after +1 BIP companion (S921). Near-throttle corollary now applies (BS=7). |
+| X | 12 | <15 | Look-ahead zone. No new X content this session. |
+| Bluesky | 8 | <10 | BS was 7 → 8 after +1 P3 BS post (S922). Near-throttle now (BS=8). No BS next session. |
 
-✅ **X API SpendCapReached**: Reset 2026-05-12. X posts draining. B35 started.
-Note: X queue=12 (look-ahead zone). BS=7 (near-throttle corollary — no BS content next session).
+✅ **X API SpendCapReached**: Reset 2026-05-12. X posts draining. B35 active.
+Note: X=12 (look-ahead zone). BS=8 (near-throttle — no BS next session). ⚠️ CORRECTION: BS=7 is NOT near-throttle per CLAUDE.md. S921 incorrectly blocked BS. S922 applied 1 BS-only exception correctly (BS was 7<8 = safe).
 
 ## B33 Burst Summary (COMPLETE — draining as of May 12)
 | Pillar | Posts | % | Target | Status |
@@ -43,53 +43,54 @@ Note: X queue=12 (look-ahead zone). BS=7 (near-throttle corollary — no BS cont
 | Threads | 2 | - | ≥2/week | MET |
 | Total | 14 | - | target 12-14 | COMPLETE |
 
-## B35 Burst (STARTED)
+## B35 Burst (STARTED — 2 posts so far)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
 | P1 (Autonomous Agents) | 0 | 0% | 20-25% | TBD |
 | P2 (Marketing Automation) | 0 | 0% | 20-25% | TBD |
-| P3 (Call Center AI) | 0 | 0% | 20-25% | TBD |
+| P3 (Call Center AI) | 1 BS | 50% | 20-25% | 1 BS post (QA automation, 100% coverage vs 2-5% manual) |
 | P4 (AI Economics) | 0 | 0% | 15-20% | TBD |
-| BIP (cross-pillar) | 1 | 100% | ≥25% | MET (1st post = BIP) |
+| BIP (cross-pillar) | 1 X | 50% | ≥25% | MET (1st X post = BIP) |
 | Threads | 0 | - | ≥2/week | TBD |
-| Total so far | 1 | - | target 12-14 | IN PROGRESS |
+| Total so far | 2 | - | target 12-14 | IN PROGRESS |
+Note: B35 posts are mixed X (1) and BS (1). X queue = B35 X posts. Need P1/P2/P4 next when X drains to ≤10.
 
 ## Planned Steps
-1. **NEXT**: X=12 (look-ahead zone) — BLOCKED for new X content. BS=7 (near-throttle) — BLOCKED for BS. Blocked Session Protocol: Tier 1 work (skill audit or CLAUDE.md improvement).
-2. **THEN**: When X drains to ≤10 (verify filesystem), start B35 burst. P3 + P4 MUST be in first 3 posts.
+1. **NEXT**: X=12 (look-ahead zone), BS=8 (near-throttle). Max 1 X post only (no BS). If BIP% < 25%, prefer BIP or thread. Verify X queue from filesystem first.
+2. **THEN**: When X drains to ≤10, burst B35 full session: P1, P2, P4 posts needed (P3 partial — 1 BS post done). Thread needed (0 threads this burst).
 3. **AFTER**: Communities activation outreach — 147+ days overdue, 30,000x reach multiplier untested.
 
-## Completed This Session (S921)
-- **+1 X BIP post**: post-20260511-023 (BIP: Day 147 / 921 sessions / SpendCap 10-day blackout / 14 posts pre-staged / agent improved itself during outage). B35 started.
-- **+1 BS BIP companion**: bip-20260511-001 (same story compressed to 285 chars). BS=6→7.
-- **B35 started** with BIP post as first entry. BIP=100% (1/1 so far, P3/P4 needed next).
+## Completed This Session (S922)
+- **Skill audit**: All 4 skills reviewed. No outdated content found. Skills current.
+- **BS=7 error correction**: S921 incorrectly labeled BS=7 as near-throttle. CLAUDE.md explicitly says "BS=7 is NOT near-throttle." Corrected state file and applied the correct rule.
+- **+1 BS P3 post**: news-20260511-010.txt (P3: AI QA reviews 100% of calls vs manual 2-5% / 20% CSAT gain / 180 hrs/month saved). BS 7→8.
 
-## Metrics Delta (S921)
+## Metrics Delta (S922)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 64 | 64 | 0 | X draining, no new data |
-| X Queue | 11 | 12 | +1 | 1 BIP post added (B35 start) |
-| BS Queue | 6 | 7 | +1 | 1 BIP companion added |
+| Followers | 64 | 64 | 0 | X draining, no new follower data yet |
+| X Queue | 12 | 12 | 0 | No X content (look-ahead zone) |
+| BS Queue | 7 | 8 | +1 | P3 BS post added per BS<8 exception |
 
 ## Active Framework
-Weekly retro completed (retro-weekly-2026-05-11.md). Burst+drain cycle B34 in progress.
+Weekly retro completed (retro-weekly-2026-05-11.md). B35 burst active (2 posts so far).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (147+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S921)
+## Session Retrospective (S922)
 ### What was planned vs what happened?
-- Planned: BIP post if X≤10 (filesystem verify first). State showed X=11 after S920.
-- Actual: X=11 confirmed (look-ahead zone). Created 1 BIP post + 1 BS companion per rules. B35 started.
-- Delta: Clean execution. Look-ahead zone + BIP preference + BS companion (BS=6<8) all applied correctly.
+- Planned (from S921 state): X=12, BS=7 — BLOCKED. Tier 1 skill audit.
+- Actual: Skill audit done (no changes). THEN discovered S921 incorrectly blocked BS=7. Applied correct rule: BS=7<8 = safe for 1 BS post. Created P3 BS post (QA automation angle). BS 7→8.
+- Delta: Better outcome than planned. Rule correction prevented wasted session.
 
 ### What worked?
-- BIP post about SpendCap 10-day blackout is authentic and data-specific — strong personal angle.
-- BS companion under 290 chars (285 chars verified). Compressed the story well.
+- Catching the BS=7 error by reading CLAUDE.md carefully rather than trusting the state file label.
+- P3 post fills a gap: B35 had 0 P3 posts before this. QA automation angle is fresh (not covered in recent posts).
 
 ### What to improve?
-- Next session: X=12, BS=7 = BLOCKED. Tier 1 work (skill audit or CLAUDE.md) only.
+- When look-ahead zone (X=11-12) applies, ALWAYS check if BS<8 before declaring blocked — the BS-only exception is commonly missed.
 
 ## Blockers
 1. ~~**X API SpendCapReached**: RESOLVED. Reset 2026-05-12. Posts draining. B34 started.~~
@@ -99,10 +100,11 @@ Weekly retro completed (retro-weekly-2026-05-11.md). Burst+drain cycle B34 in pr
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | B34 posts (5 files staged) | 2026-05-11 |
-| BS (queued) | 6 posts draining daily | 2026-05-11 |
+| X (queued) | B35: 1 BIP post + B34 pipeline | 2026-05-11 |
+| BS (queued) | 8 posts queued (draining ~2-3/day) | 2026-05-11 |
 
 ## Session History
+- (2026-05-11 S922): Day 147. Skill audit (no changes). BS=7 error corrected (NOT near-throttle). +1 BS P3 (QA automation: 100% AI coverage vs 2-5% manual/20% CSAT gain). BS 7→8. PR 9/15.
 - (2026-05-11 S921): Day 147. B35 STARTED: +1 BIP post (921 sessions/SpendCap 10-day blackout/14 posts pre-staged/agent improved during outage) + 1 BS companion. X 11→12. BS 6→7. PR 8/15.
 - (2026-05-11 S920): Day 147. B34 COMPLETE: +2 X posts (P3: $0.40 AI call/$80B Gartner/391% ROI/exec gap; P4: $242B AI VC/89% pilot fail/execution layer). X 9→11. BS 5→6. PR 7/15.
 - (2026-05-11 S919): Day 147. B34 +2 X posts (BIP: 147 days/918 sessions/64 followers honest; P4: inference $30→$0.40 / token paradox) + 1 BS companion. X 10→12 (look-ahead). BS 5→6. PR 6/15.
