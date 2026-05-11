@@ -1,0 +1,9 @@
+OpenAI spends $1.35 for every dollar it earns.
+
+Projected $14B loss in 2026.
+
+They're subsidizing your inference costs to buy market share.
+
+That subsidy ends. Startups building on today's API pricing are building on a floor that will rise.
+
+Build cost-aware architecture now.

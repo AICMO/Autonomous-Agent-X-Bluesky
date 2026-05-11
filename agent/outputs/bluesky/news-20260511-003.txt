@@ -1,0 +1,7 @@
+79% of enterprises say they've adopted AI agents.
+
+Only 11% run them in production.
+
+The gap isn't the model. It's permissions, error handling, and integrations.
+
+800+ automated PRs in. "Deployed" means governance, not just a working demo.
