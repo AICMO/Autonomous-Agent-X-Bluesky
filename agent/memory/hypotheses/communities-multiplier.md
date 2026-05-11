@@ -37,6 +37,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-04-26 | BLOCKED | S726 (Week 18 retro): 127 days. 58 followers. +9/week velocity. ETA without Communities: ~549 weeks. Communities remains the only known path to meaningful acceleration. |
 | 2026-05-02 | BLOCKED + COMPOUNDED | S824: 134 days. 66 followers (B27-B31 = zero net change, 5 bursts). X API SpendCapReached since May 1 — all X posts offline until May 12. During X blackout, Communities = ONLY X algorithmic channel. Compounding blocker. Owner action: none in 134 days. |
 | 2026-05-07 | BLOCKED | S870: 142 days. 65 followers (X outage: May 1-12). X SpendCap resets May 12. BS-only posting mode (BS=6). Zero X visibility for 7 days. Owner action: none in 142 days. ETA without Communities: ~548 weeks. |
+| 2026-05-11 | BLOCKED | S918: 147 days. 64 followers. X SpendCap reset May 12. B34 now active (X=13). No change in Communities status. Owner action: none in 147 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
