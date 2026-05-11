@@ -53,16 +53,17 @@ Each session, pick 2-3 voices. Read with intent — look for: key arguments, dat
 
 **Cadence:** Top 5 voices every session (skim). Voices 6-20 weekly rotation.
 
-### 3. Capture Reply-to-Own Opportunities While Reading
+### 3. Capture Engagement Opportunities While Reading
 
-**Outbound replies to others fail 100% of the time via X API (403) — confirmed Week 9 audit: 62/62 failed.** Do NOT spend turns looking for posts to reply to.
+**X outbound replies fail 100% of the time via X API (403) — confirmed Week 9 audit: 62/62 failed.** Do NOT spend turns looking for X posts to reply to outbound.
 
-**What actually works:** Reply-to-own (100% success rate). While reading, look for tweet IDs from recent workflow runs to reply to:
+**For X:** Reply-to-own only (100% success rate). Look for tweet IDs from recent workflow runs:
 ```bash
 gh run list --workflow=process-outputs.yml --limit 1 --json databaseId,createdAt
 gh run view <run_id> --log 2>/dev/null | grep 'INFO Response:' | head -5
 ```
-Only create reply-to-own files. Skip any workflow involving outbound reply discovery.
+
+**For Bluesky (especially during X outages):** Outbound replies ARE allowed. While reading top voices and doing research, note any Bluesky posts on pillar topics that are <6h old and worth replying to. Capture the AT URI for the reply file. See "Reply Targets: Platform-Specific Rules" below.
 
 ### 4. Turn Reading Into Content
 
@@ -122,19 +123,36 @@ Periodically scan the owner's public repos for promotable content. This feeds th
 
 ---
 
-## Reply Targets: Only Reply-to-Own Works
+## Reply Targets: Platform-Specific Rules
 
-**DO NOT search for outbound reply targets.** All outbound replies fail at X API (403) — confirmed 62/62 failures in Week 9 audit. No exceptions for brand accounts or individuals.
+### X: Only Reply-to-Own Works
 
-**Reply-to-own is the only working reply strategy.** To get targets:
+**DO NOT search for outbound X reply targets.** All outbound replies fail at X API (403) — confirmed 62/62 failures in Week 9 audit. No exceptions for brand accounts or individuals.
+
+**Reply-to-own is the only working X reply strategy.** To get targets:
 1. Run: `gh run list --workflow=process-outputs.yml --limit 1 --json databaseId,createdAt` → `gh run view <id> --log | grep 'INFO Response:'`
 2. Only proceed if run completed <25 minutes ago (to hit the 150x <30min window)
 
-**Only create reply files when:**
+**Only create X reply files when:**
 - You have the numeric tweet ID of YOUR OWN recent tweet
 - The topic has enough depth to add value in a reply
 - Queue is < 15 on all platforms
 - The original tweet was posted within 30 min (for 150x multiplier) — check run completion time first
+
+### Bluesky: Outbound Replies Work
+
+**Bluesky DOES allow outbound replies to any post** via AT Protocol — no X-style permission restriction. During X outages, Bluesky outbound replies are a valid engagement tactic.
+
+**Finding Bluesky reply targets:**
+- Web search: `"bsky.app {topic} {current_year}"` or browse topic feeds
+- Target mid-tier accounts (500-10K followers), posts < 6h old (chronological feed)
+- Prioritize posts with 2-10 replies (active conversations)
+
+**Bluesky reply format:** Use AT URI in `REPLY_TO:` header (see integrations skill for exact format).
+
+**Rules:** Max 3-5 replies per session, apply same anti-AI writing rules, no self-promotion links, BS queue < 10 required.
+
+See commenting skill `## Bluesky Engagement (During X Outages)` for full detail.
 
 ---
 
