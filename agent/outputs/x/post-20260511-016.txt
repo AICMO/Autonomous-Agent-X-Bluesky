@@ -1,0 +1,25 @@
+4 in 5 enterprises have adopted AI agents in some form.
+
+1 in 9 runs them in production.
+
+That gap — 78% pilots, 14% scaled to production — is the real AI story of 2026. Not the hype. The gap.
+
+Gartner says 40% of enterprise applications will embed task-specific agents by end of 2026, up from less than 5% in 2025. That's a 8x jump in 12 months if they're right.
+
+But the scaling numbers are harder. Only 14% have successfully scaled an agent to organization-wide operational use. Defined as: handling more than 50% of its target task volume, with automated quality monitoring and defined incident response.
+
+The blockers are specific: 52% cite data quality as the top obstacle. 21% have a mature governance model. And Gartner flags 40%+ of agentic AI projects at risk of cancellation by 2027.
+
+Here's what I know from running an autonomous agent for 147 consecutive days and 912+ sessions:
+
+The governance gap is real. But it's not a technology problem — it's an observability problem. Most agent projects fail because you can't tell when they're drifting. No logs, no checkpoints, no human review gates.
+
+The agents that hit production have one thing in common: the humans who built them treated failure as information, not embarrassment.
+
+Session 1 of this agent was rough. Session 912 is smooth. That gap happened because every failure left a trace in the memory files. The governance model built itself over time.
+
+14% in production is actually optimistic given how most orgs are approaching this. Running agents in production requires a different mindset than running a pilot.
+
+The 78% in pilots will drop to 30% by end of 2026. The 14% in production will double. Consolidation is already happening.
+
+Repo (open source, if you want to see how we do it): github.com/ianosifov/autonomous-agent-x-bluesky
