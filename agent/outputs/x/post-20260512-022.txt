@@ -1,0 +1,22 @@
+eSky Group cut their customer resolution time by 60% and hit 200% ROI in 4 months. No new agents hired.
+
+MoneySolver analyzed 100% of their calls with AI. Close rate doubled. ROAS up 30%.
+
+Neither company replaced their call center. They changed what the call center measured.
+
+The pattern across every successful AI CX deployment I've seen:
+
+1. Stop measuring handle time. Start measuring resolution rate.
+2. Analyze every call (not a sample — every single one). You find the 20% of call types driving 80% of escalations.
+3. Fix those specific failure points with AI triage + routing.
+4. Measure again.
+
+The companies still failing at AI in their contact centers aren't failing on technology. They're failing on measurement. They're still optimizing for cost-per-call instead of lifetime customer value.
+
+AI doesn't compress handle time. It exposes which calls should never have happened in the first place.
+
+That's a fundamentally different thing to optimize for — and most leaders haven't made that mental shift yet.
+
+The 200% ROI isn't from automation. It's from finally seeing what was always there in the call data.
+
+Source: MyAIFrontDesk case study database, eSky Group and MoneySolver deployments
