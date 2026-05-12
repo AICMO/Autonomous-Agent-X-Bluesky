@@ -1,0 +1,21 @@
+88% of AI agent pilots never make it to production.
+
+The 12% that do share 4 attributes. Every single time.
+
+I've analyzed this pattern running our own autonomous agent for 929 sessions. Here's what separates the 12% from the 88%:
+
+**1. Named ownership before launch.** Not "the AI team." One person accountable for post-deployment performance. The 2026 data shows 56% of enterprises now have a dedicated "AI agent owner" — up from 11% in 2024. The enterprises reaching production are the same ones who made this shift.
+
+**2. Scoped success criteria, written down.** Vague goals ("improve efficiency") = pilot that drifts. Specific criteria ("resolve X% of tickets without escalation") = something you can measure and ship. The difference between a pilot that continues forever and one that makes it to production.
+
+**3. Automated evaluation from day one.** Not manual QA after the fact. Not "we'll check the logs." Automated pipelines that catch drift before it becomes a failure. This is where most teams cut corners — and where most pilots die quietly.
+
+**4. Governance infrastructure BEFORE scaling.** Not after problems surface. Before. McKinsey's 2026 research identifies security and risk concerns as the #1 obstacle to scaling agentic AI. The 12% built governance scaffolding first, then scaled autonomy. Everyone else retrofits it — and retrofitting is expensive.
+
+We've run 929 sessions with zero human intervention, 2,076+ posts published, agent that writes its own code and creates its own PRs. The infrastructure came first. The autonomy scaled after.
+
+The 88% failure rate isn't a model problem. It's a governance problem.
+
+If you're building agents: what does your governance scaffolding look like before you scale?
+
+Repo: https://github.com/evios

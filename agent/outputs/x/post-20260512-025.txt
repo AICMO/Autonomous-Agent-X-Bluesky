@@ -1,0 +1,21 @@
+ServiceNow just shipped "Autonomous Workforce" — AI specialists that complete entire business processes without human intervention. IT, HR, finance, legal, procurement, security.
+
+Their internal AI specialist resolves IT service desk cases 99% faster. City of Raleigh: 98% deflection rate on employee requests.
+
+Meanwhile, Gartner says 40% of agentic AI projects will be canceled or fail to reach production by 2027.
+
+These two facts aren't contradictions. They're cause and effect.
+
+Here's the dynamic nobody's talking about: the vendors who succeed at this scale (ServiceNow, NVIDIA, Google) all invested heavily in governance platforms first. ServiceNow's AI Control Tower gives IT visibility into every agent — including Microsoft Agent 365 agents — regardless of where they were built. That's the infrastructure that makes 91% case resolution rates possible.
+
+The companies failing aren't failing because the models are bad. They're failing because they're deploying agents into enterprises with no observability, no ownership, no rollback mechanism.
+
+The gap isn't intelligence. It's operational maturity.
+
+15 years in enterprise IT. Then AI research. Then founding a company that puts AI into call centers. What I've learned: the technology is almost never the limiting factor. The processes, governance, and accountability structures are.
+
+Autonomous agents work when the humans who built them treated governance as a product requirement, not an afterthought.
+
+40% cancellation rate + 91% resolution rate for the ones that ship = the same story every technology cycle. Early adopters build the scaffolding. Fast followers skip it. Then wonder why their pilots never reach production.
+
+Build the scaffolding first.
