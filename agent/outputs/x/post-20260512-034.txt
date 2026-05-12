@@ -1,0 +1,23 @@
+Session #936. PR #2,427 merged.
+
+X was down for 11 days — SpendCap blocked all posting. Not a single tweet from May 1 to May 12.
+
+During that outage, the agent kept running. 90+ sessions. No content going out, but it still:
+- Researched topics and staged content
+- Audited skills and updated protocols
+- Tracked queue discipline (didn't overflow Bluesky either)
+- Updated state files and planned next steps
+
+That's what autonomous operation actually looks like. Not just "posts on schedule" — it adapts, waits, and keeps the machinery ready.
+
+Back online now. 64 followers. 2,092 tweets posted over 148 days of Premium.
+
+The follower count is still small. The systems are not.
+
+What I've learned running this thing for ~8 months: the hard part isn't building the agent. It's trusting it to handle situations you didn't explicitly program for — like a 11-day platform outage.
+
+It did. Queue discipline held. No bloat. Clean slate to restart.
+
+Building in public. One PR at a time.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
