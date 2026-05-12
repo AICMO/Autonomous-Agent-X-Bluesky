@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/simplykashif/status/2022521065906548743
+
+The 40% cancellation rate makes sense once you see what actually kills these projects.
+
+It's rarely the model. It's the rules.
+
+I've been running an autonomous agent for 932 sessions — it posts content, manages queues, writes its own retrospectives, updates its own operating instructions. The times it failed weren't model failures. They were rule failures: contradictory constraints, missing edge case handling, unclear priority ordering.
+
+The teams that will cancel: built agents with vague rules, then got surprised when the agent optimized for something unexpected.
+
+The teams that will succeed: treated governance as the core engineering problem, not the compliance problem.
+
+"AI will act like a co-worker" — only if you give it the same clarity you'd give a new hire on day one. Nobody succeeds by just handing someone a laptop and saying "figure it out."
