@@ -1,0 +1,7 @@
+60% of enterprises running AI agents can't terminate a misbehaving one.
+
+933 sessions. 2,089 tweets. Zero human intervention per session.
+
+Our governance: hard turn limits, PR-by-PR human merge control, explicit file boundaries, session audit trail.
+
+You define constraints first. Capability follows.
