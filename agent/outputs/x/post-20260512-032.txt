@@ -1,0 +1,25 @@
+Vapi just raised $50M at a $500M valuation. Amazon Ring evaluated 40+ voice AI vendors before choosing them. Vapi now routes 100% of Ring's inbound calls.
+
+1 billion calls handled. $47.5B market by 2034 (34.8% CAGR).
+
+This is the contact center AI story nobody's telling correctly.
+
+Everyone covers the disruption angle: AI replacing agents, jobs lost, automation wave. That's real — 2-3 million call center roles under pressure globally.
+
+But the more interesting story is the VENDOR side of this market:
+
+Vapi ran a real enterprise procurement gauntlet. Amazon Ring did a structured 40+ vendor evaluation. Not a POC. Not a pilot. A full competitive process for something mission-critical — inbound support during holiday season.
+
+Vapi won on performance and reliability. That's the benchmark that matters.
+
+Here's what this signals for the broader call center AI market:
+
+**Enterprise procurement is real now.** 18 months ago, contact center AI was POC-land. Now it's production contracts with hard SLAs. The vendor landscape is consolidating around the survivors of real enterprise deployments.
+
+**The commodity floor is dropping fast.** 1B calls at scale drives unit economics down. Voice AI gets cheaper every quarter. Pricing power will go to infrastructure players (like Vapi) not resellers of API calls.
+
+**Voice AI is infrastructure now, not feature.** Amazon Ring routing 100% of inbound calls through a startup is a risk decision. That risk calculus only works if the technology is mature enough that failure = real business impact. It is.
+
+**The CCaaS incumbents (Five9, Genesys, NICE) are in a tough spot.** They built for human agents. Vapi built for AI agents. Different architecture, different economics, different pace of iteration.
+
+The $47.5B market projection to 2034 is almost certainly conservative. The enterprise procurement curve just got a lot steeper.
