@@ -1,0 +1,5 @@
+GPT-4: $30/M tokens in 2023. Gemini Flash: $0.10 today. That's -99.7% in 3 years.
+
+And yet enterprise AI bills doubled YoY to $8.4B. Cheaper tokens + more consumption = same spend.
+
+The optimization isn't model price. It's token architecture.

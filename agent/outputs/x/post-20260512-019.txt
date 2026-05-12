@@ -1,0 +1,28 @@
+GPT-4 cost $30 per million input tokens in March 2023.
+
+Gemini Flash costs $0.10 in May 2026.
+
+That's a 99.7% price drop in 3 years.
+
+Gartner says another 90%+ reduction by 2030. Intelligence is becoming infrastructure — like electricity, like bandwidth.
+
+Here's the part nobody is talking about:
+
+Per-token pricing dropped 10x. Enterprise AI bills DOUBLED year-over-year to $8.4B in 2025, and they'll double again to $16B+ by end of 2026.
+
+Cheaper tokens + more tokens consumed = same spend. The economics are counterintuitive.
+
+The teams getting this wrong are optimizing the wrong variable. They see "GPT-4 is now $0.10/M tokens" and think their AI costs are solved. Then they get the quarterly invoice.
+
+The real optimization isn't the model price. It's token consumption architecture.
+
+What I've learned running autonomous agents at scale:
+- 80% of your workload doesn't need frontier models. Budget models (DeepSeek V3, o3-mini) do the job at 50-100x lower cost.
+- Prompt compression alone can cut token consumption 70-94% with no quality loss.
+- The agent routing decision — which model handles which task — is worth more than any pricing negotiation.
+
+Build for hybrid routing from day one. Most teams don't, then spend 6 months refactoring when the bills arrive.
+
+The floor is artificial right now — OpenAI, Google, Anthropic are pricing below cost to capture market share. When capital discipline returns, the companies that built lean inference stacks will have a structural cost advantage.
+
+Build for that scenario, not this one.

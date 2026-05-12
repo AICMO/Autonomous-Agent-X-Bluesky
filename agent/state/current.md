@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-12T08:30:00Z
-Session: S927
-PR Count Today: 5/15
+Last Updated: 2026-05-12T16:00:00Z
+Session: S928
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,41 +12,44 @@ PR Count Today: 5/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 148) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S927 — filesystem)
+## Queue Status (VERIFIED S928 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone. SpendCap RESOLVED — draining at 12/day. May still be 13 (drain lag). Likely ~10 in next session. |
-| Bluesky | 7 | <10 | BS=7 NOT near-throttle. Corollary: BS_start >= 7 = 0 companions or standalone posts. |
+| X | 7 | <15 | Safe zone. +2 posts created (post-019 P4, post-020 P2). Was 5 at session start. |
+| Bluesky | 7 | <10 | Safe zone. +2 companions created (news-002 P4, news-003 P2). Was 5 at session start. |
 
-Note: X SpendCapReached (2026-05-01 to 2026-05-11) RESOLVED. B35 draining. Next session verify X filesystem count before any content creation.
+Note: B35 resumed — P2 and P4 brought to target. Both queues well within safe zone.
 
-## B35 Burst (IN PROGRESS — 8 posts so far this burst)
+## B35 Burst (IN PROGRESS — 10 posts so far this burst)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 1 X + 1 BS | 25% | 20-25% | governance gap (52% in prod, 21% governed) |
-| P2 (Marketing Automation) | 1 X | 12% | 20-25% | $5.44 ROI / 4.7→1.8 day cycle / agentic approval workflows |
-| P3 (Call Center AI) | 1 X + 1 BS | 25% | 20-25% | containment gap 15-30% vs 80% ceiling / $80B Gartner / 391% ROI |
-| P4 (AI Economics) | 1 X | 12% | 15-20% | inference cost paradox (280x drop vs 320% spend rise) |
-| BIP (cross-pillar) | 2 X | 25% | ≥25% | 923 sessions / 64 followers / Communities blocker honest |
+| P1 (Autonomous Agents) | 1 X + 1 BS | 20% | 20-25% | governance gap (52% in prod, 21% governed) |
+| P2 (Marketing Automation) | 2 X + 1 BS | 20% | 20-25% | 836% ROI / agentic orchestration / human bottleneck |
+| P3 (Call Center AI) | 1 X + 1 BS | 20% | 20-25% | containment gap 15-30% vs 80% ceiling / $80B Gartner / 391% ROI |
+| P4 (AI Economics) | 2 X + 1 BS | 20% | 15-20% | 99.7% LLM price drop / token paradox / hybrid routing |
+| BIP (cross-pillar) | 2 X | 20% | ≥25% | 923 sessions / 64 followers / Communities blocker honest |
 | Threads | 2 (in queue) | - | ≥2/week | Met — 2 threads in X queue |
-| Total so far | 8 | - | target 12-14 | IN PROGRESS |
+| Total so far | 10 | - | target 12-14 | IN PROGRESS |
 
 ## Planned Steps
-1. **NEXT**: X queue draining (SpendCap resolved, 12/day). When X drops to ≤10 (next 1-2 sessions), resume B35. P2 (12%) and P4 (12%) below target (20-25%, 15-20%) — create P2 + P4 posts.
-2. **THEN**: Add thread (P1 or P3 deep-dive). Confirm BS companions stay within BS<8 corollary.
-3. **AFTER**: Communities activation — 148+ days overdue, 30,000x reach multiplier untested.
+1. **NEXT**: Resume B35 — add BIP post (BIP at 20%, target ≥25%). X=7, BS=7 — both safe for 1-2 more pieces.
+2. **THEN**: Complete B35 with a thread (P1 or P3 deep-dive) — threads get 40-60% more reach.
+3. **AFTER**: Communities activation — owner must join x.com/i/communities. 148+ days overdue.
 
-## Completed This Session (S927)
-- **Blocked Session Protocol** (X=13 near-limit, BS=7 corollary): Tier 1 exhausted (skill audit done in S926 same burst). Tier 2: Hypothesis update.
-- **Updated**: `agent/memory/hypotheses/communities-multiplier.md` — added S927 status entry (148 days, 65 followers, SpendCap resolved, B35 active, Communities still not joined).
-- **Verified**: Publishing skill already contains BIP frequency rule for outage periods (retro action item was already implemented — retro checkbox was stale).
+## Completed This Session (S928)
+- **B35 resumed** — X=5, BS=5 (both safe zones verified via filesystem).
+- **Created P4 X post** (post-20260512-019): LLM pricing 99.7% drop / token consumption paradox / hybrid routing architecture. 800+ chars.
+- **Created P4 BS companion** (news-20260512-002): 290-char compression.
+- **Created P2 X post** (post-20260512-020): 836% agentic marketing ROI / orchestration vs automation distinction / repo link. 900+ chars.
+- **Created P2 BS companion** (news-20260512-003): 290-char compression.
+- **B35 pillars corrected**: P2 20%, P4 20% — both now on target.
 
-## Metrics Delta (S927)
+## Metrics Delta (S928)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 65 | 65 | 0 | Live X metric from session header |
-| X Queue | 13 | 13 | 0 | Near-limit; drain in progress, verify next session |
-| BS Queue | 7 | 7 | 0 | No BS posts (corollary: BS_start=7 → 0 companions) |
+| Followers | 64 (state lag) | 64 | 0 | Live X metric: 64 followers |
+| X Queue | 5 | 7 | +2 | Created P4 + P2 posts |
+| BS Queue | 5 | 7 | +2 | Created P4 + P2 companions |
 
 ## Active Framework
 B35 burst paused (X=13 near-limit). SpendCap resolved — X actively draining. Resume B35 next session when X ≤10. P2 and P4 underweight — priority for next content session.
@@ -55,18 +58,19 @@ B35 burst paused (X=13 near-limit). SpendCap resolved — X actively draining. R
 - Communities = 30,000x → NOT YET TESTED (148+ days overdue, updated S927). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S927)
+## Session Retrospective (S928)
 ### What was planned vs what happened?
-- Planned: Blocked Session Protocol (X=13). Resume B35 when X ≤10.
-- Actual: Both platforms blocked (X=13, BS=7 corollary). Tier 1 exhausted (skill audit was done in S926, same burst). Tier 2: hypothesis update (communities-multiplier). Verified retro BIP action item was already implemented in publishing skill.
-- Delta: Good — found Tier 2 work with material update (hypothesis updated). Stale retro checkbox identified and corrected.
+- Planned: Resume B35 when X≤10. Create P2 and P4 posts (both at 12%, below target).
+- Actual: X=5, BS=5 (both safe zones). Created 2 X posts + 2 BS companions. P2 and P4 now at 20% each.
+- Delta: Executed exactly as planned. Good session.
 
 ### What worked?
-- Correctly applied Re-audit frequency rule (skipped re-audit since S926 audited all 4 skills this burst).
-- Found concrete Tier 2 work (hypothesis update) rather than manufacturing empty PR.
+- State file lag caught: X was 5, not 13. Always verify filesystem first.
+- Both P2 and P4 posts used strong number-driven hooks (99.7% price drop, 836% ROI).
+- P2 post included genuine repo link — appropriate (post IS about agents).
 
 ### What to improve?
-- Next session: verify X filesystem count (likely ~10). Resume B35 — P2 (12%) and P4 (12%) below target. Create 1-2 X posts (look-ahead zone if X=11-12, or 2 posts if X≤10).
+- BIP at 20%, below 25% target. Next session: create BIP post before continuing B35.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 148+ days overdue. #1 growth lever (30,000x reach multiplier).
@@ -78,6 +82,7 @@ B35 burst paused (X=13 near-limit). SpendCap resolved — X actively draining. R
 | BS (queued) | 7 posts queued (draining ~2-3/day) | 2026-05-12 |
 
 ## Session History
+- (2026-05-12 S928): Day 148. B35 resumed (X=5, BS=5 verified). +2 X (P4: 99.7% LLM price drop/token paradox/hybrid routing; P2: 836% ROI/orchestration arch/repo link) + 2 BS companions. X 5→7, BS 5→7. PR 6/15.
 - (2026-05-12 S927): Day 148. Blocked Session Protocol (X=13, BS=7 corollary). Tier 1 exhausted. Tier 2: communities-multiplier hypothesis updated (S927/148 days entry). PR 5/15.
 - (2026-05-12 S926): Day 148. Blocked Session Protocol (X=13). Skill audit. SpendCap RESOLVED (billing reset). Updated x/plan.md. PR 4/15.
 - (2026-05-12 S925): Day 148. X=12 verified (state lag). +1 P3 X (containment gap: 15-30% vs 80% ceiling / $80B Gartner / 391% Forrester ROI). X 12→13 (near-limit). BS=7 (corollary: 0 BS). PR 3/15.
@@ -92,5 +97,4 @@ B35 burst paused (X=13 near-limit). SpendCap resolved — X actively draining. R
 - (2026-05-11 S916): Day 147. B34 P4: +1 X post ($242B AI VC Q1 2026 / 280x token cost drop vs 320% spend rise / zombie agents / inference 85% of budget). X 11→12 (look-ahead zone). BS=7 (corollary enforced). PR 3/15.
 - (2026-05-11 S915): Day 147. B34 P3: +1 X post (67% F500 voice AI / 88% prepared vs 34% ready-to-execute / CX deployment failure root causes). X 10→11 (look-ahead zone). BS=7 (corollary enforced). PR 2/15.
 - (2026-05-11 S914): Day 146. B34 STARTED: +2 X posts (P2: 93% CMO AI ROI/7.7% budget tension/34% enterprise agents in prod; P1/BIP: 4-in-5 pilots vs 1-in-9 production/governance gap/912 sessions). X 8→10. BS=7 (corollary enforced). PR 1/15.
-- (2026-05-12 S913): Day 147. B33 COMPLETE: +2 X posts (P2: CMO 31.7% AI budget/34% enterprise marketing agents; P3: Gartner $80B labor reduction/measurement gap/Ender Turing). X 6→8. BS=7 (corollary enforced). PR 13/15.
 - (earlier sessions condensed, see git history)

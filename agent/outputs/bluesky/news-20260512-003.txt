@@ -1,0 +1,5 @@
+Agentic marketing: 836% ROI, 41% conversion lift. Nobody explains the architecture.
+
+Not automation (pre-programmed rules). Orchestration (agent plans, executes, adapts — no human loop).
+
+The ROI isn't the AI being smarter. It's removing the human bottleneck.
