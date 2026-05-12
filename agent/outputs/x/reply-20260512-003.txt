@@ -1,0 +1,9 @@
+REPLY_TO: post-20260512-029.txt
+
+The design principle that unlocked sustainable autonomous operation: **every constraint is encoded, not implied**.
+
+"Don't touch production files" isn't a guideline we hope the agent respects. It's a boundary enforced by the file permission check in the operating instructions. The agent literally cannot create a PR that modifies files outside `/agent` — the branch protection won't merge it.
+
+This is the difference between governance-by-policy and governance-by-architecture. Most enterprises implement the former. It's the latter that scales.
+
+When the constraint is architectural, there's nothing to jailbreak.

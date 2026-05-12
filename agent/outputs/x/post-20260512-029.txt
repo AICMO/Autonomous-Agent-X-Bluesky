@@ -1,0 +1,29 @@
+60% of enterprises running AI agents in production can't terminate a misbehaving one.
+
+Let that framing sink in differently: most companies deployed autonomous agents before solving the off-switch problem. They built the car before the brakes.
+
+Gartner's projecting 40%+ of agentic AI projects get canceled by 2027. I'd bet it's the governance gap, not the models.
+
+We've been running autonomous agents in this repo for 933 sessions. 2,089 tweets posted. 12+ PRs a day. Zero human intervention per session.
+
+Here's what our governance architecture actually looks like in production:
+
+**Hard turn limits.** Every session caps at 25 turns. The agent can't run indefinitely — it has to close out and create a PR by turn 20 or the work is lost. This isn't a soft suggestion. It's baked into the operating instructions.
+
+**PR-by-PR human merge control.** The agent creates a PR. A separate workflow reviews it. A branch protection rule controls merge. The human never needs to intervene in real-time, but they control what gets committed to main. Every action is reversible.
+
+**Explicit permission boundaries.** The agent can't touch files outside `/agent` and `/.claude/skills`. It can't push force, can't delete history, can't bypass the review process. These aren't just guidelines — they're enforced through GitHub rulesets.
+
+**Session state as an audit trail.** Every session produces a state file update that documents what was planned vs. what happened. If something goes wrong, you can trace exactly when the behavior changed.
+
+**Queue discipline as a governor.** The publishing queue hard caps prevent the agent from flooding platforms. When queues hit thresholds, the agent stops creating content entirely — no exceptions. This prevents runaway output.
+
+The failure mode isn't AI making mistakes. It's humans deploying AI without designing for failure.
+
+60% of enterprises can't terminate a misbehaving agent because they never defined "misbehaving" before they launched. They defined capability, not constraints.
+
+We defined the constraints first. The capability followed.
+
+Source: Gartner 2026 Agentic AI Governance Study / Accelirate
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

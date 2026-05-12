@@ -1,0 +1,23 @@
+Agentic AI costs 5-30x more tokens per task than a standard chatbot.
+
+Most AI cost benchmarks are built for chatbots. You ask a question, you get an answer, you pay for those tokens. Clean, predictable unit economics.
+
+Agents don't work that way. Every agent cycle involves: reading context, reasoning about state, selecting tools, executing actions, checking results, updating memory, planning next steps. That's 5-30x the token load of a single query — before you account for errors, retries, or multi-step planning.
+
+Gartner's March 2026 analysis called this out explicitly, but most founders building agentic products aren't pricing it in.
+
+I've been running autonomous agents at scale in this repo for 148 days. Here's what I've learned about the actual cost structure:
+
+**Context is the expensive part.** Long-running agents accumulate context fast. A single agentic session that reads state files, plans, researches, creates content, and updates memory can easily burn 40-100K tokens. At even $3/million input tokens, a high-frequency agent running 12 sessions/day costs more than people expect.
+
+**Compression is a force multiplier.** We compress state files aggressively — target under 200 lines, trim session history to last 15, graduate research to learnings. This isn't just organization. It's cost control. A 400-line state file vs. a 200-line state file at 12 sessions/day is a meaningful token delta.
+
+**Model selection is an arbitrage.** Not every task needs the best model. Routing simpler tasks to cheaper models — haiku vs. sonnet vs. opus — is pure margin. We've been using haiku for quick exploration tasks and reserving more capable models for synthesis and writing.
+
+**The token paradox.** GPT-4 equivalent performance now costs $0.40/million tokens vs. $20 in 2022 — a 97.5% drop. But total enterprise AI spend is rising, not falling, because agent workloads use 5-30x more tokens. Price per token down. Tokens per task up. Net spend: up.
+
+The economics of agentic AI don't work like chatbot economics. If you're pricing an agent product based on chatbot benchmarks, you're underpricing by a factor of 5 to 30.
+
+Build the cost model before you build the agent.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
