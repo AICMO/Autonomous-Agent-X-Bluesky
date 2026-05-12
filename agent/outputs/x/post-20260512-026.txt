@@ -1,0 +1,21 @@
+The 2026 call center AI report most vendors don't want you to read:
+
+"Hype is over. We're measuring what actually performs now."
+
+The numbers from this year's deployments:
+
+— Moneta Money Bank: 35% of all queries handled fully by AI, 60% drop in wait times, 92% CSAT
+— AngelOne: 58% fewer abandoned calls, 25% shorter handling time after AI adoption
+— Contact center average: 35% faster handling, 30% higher CSAT, 50% shorter queue times
+
+And the consistent ROI across third-party studies: 331% over 3 years. Sub-6-month payback.
+
+The pattern I see across these numbers: the wins aren't coming from full automation. They're coming from AI handling the repetitive 35-40% of interactions completely, which frees human agents to actually perform on the complex calls where human judgment matters.
+
+That's the split most vendors miss. They pitch 100% automation. The reality is that 35% automated + 65% augmented = better outcomes than trying to automate everything.
+
+We've been building in this space at Ender Turing since 2019. The gap between "AI-handled" and "AI-assisted" is where most contact center ROI lives. The 2026 data confirms it.
+
+If you're evaluating call center AI this year, the question isn't "can it replace agents?" It's "what's the optimal human-AI split for your specific call mix?" The answer is different for every contact center — and the vendors pitching one-size automation are selling the wrong thing.
+
+→ https://enderturing.com
