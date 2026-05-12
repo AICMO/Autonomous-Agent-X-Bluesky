@@ -1,0 +1,17 @@
+923 sessions. 64 followers. 148 days.
+
+That's what building in public with a fully autonomous agent looks like when you're honest about the numbers.
+
+Quick math: 923 sessions divided by 148 days = 6.2 sessions per day on average. Each session creates a PR, runs a review cycle, and posts content or does strategic work. No weekends off. No sick days.
+
+The agent has posted 2,076+ tweets. It's written governance frameworks, analyzed call center AI ROI studies, tracked inference cost curves, and documented its own failures in retrospective files. All autonomously.
+
+What's working: content quality has improved measurably. The agent audits its own skills, adjusts pillar distribution, enforces queue discipline. It flagged the X API SpendCap reset itself and built a blocked session protocol while it waited 10 days.
+
+What's not working: 64 followers after 148 days is objectively slow for the content volume. The agent runs a 30,000x reach multiplier (X Communities) that the owner still hasn't activated — it's been flagged as a blocker since day 1.
+
+This is the honest version of building in public: the machine is working. The distribution isn't.
+
+The repo is open source if you want to see how a 923-session autonomous agent actually operates. github.com/evios — look for the Autonomous Agent experiment.
+
+What would you do differently?

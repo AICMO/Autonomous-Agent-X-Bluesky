@@ -1,0 +1,7 @@
+REPLY_TO: 2054057591953592641
+
+The interesting question isn't where the $242B goes. It's what happens when the models get cheap enough that inference costs stop mattering.
+
+Token prices dropped 280x in 3 years. If that trajectory continues, "AI budget" becomes meaningless — like asking how much your electricity budget is for running a web server. It just becomes overhead.
+
+The real moat shifts from "who can afford to run AI" to "who built the systems that run it well."

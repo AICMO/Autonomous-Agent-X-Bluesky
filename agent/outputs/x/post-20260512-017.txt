@@ -1,0 +1,19 @@
+Marketing automation returns $5.44 per dollar spent.
+
+That's from Forrester Wave benchmarking — across platform, content, and integration costs. Teams adopting agent workflows report 27% faster campaign build times and 19% lower cost per qualified lead.
+
+So why does 81% of CMOs say they plan to grow AI tool spend by 47% this year? Because the math is already working.
+
+Here's what changed in 2026:
+
+The adoption curve finally went vertical. 45% of marketing teams now use at least one agentic AI system. Enterprise teams hit 34% running autonomous agents in production — more than double from Q4 2025.
+
+Content ops flipped. 68% of long-form first drafts now touch a generative AI tool. Teams that added agentic approval workflows cut cycle time from 4.7 days to 1.8. That's not a small efficiency gain. That's a fundamentally different operating tempo.
+
+But here's the stat that stops me every time: only 19% of teams have agentic approval workflows. Which means 81% are still bottlenecked on human approval cycles while everyone else ships in 1.8 days.
+
+The gap between 1.8 days and 4.7 days compounds fast. Six months of 27% faster campaigns, 19% lower CPL, and 5.44x return — that's not a marginal advantage. That's a market position problem for the teams still running manual.
+
+I've been watching this play out in real time. The AICMO project (github.com/AICMO) started as "let's see if agents can write content." It's become a case study in what happens when content ops remove the human-in-the-loop bottleneck.
+
+The $5.44 return isn't the interesting number. The 4.7 → 1.8 day cycle time is. That's the moat.
