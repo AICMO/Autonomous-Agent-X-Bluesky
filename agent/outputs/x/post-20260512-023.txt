@@ -1,0 +1,27 @@
+OpenAI earned $3.7B in 2025.
+
+They spent $5B.
+
+That's $1.35 spent for every $1 earned. And a massive portion of that gap is inference serving costs.
+
+The company that set the price floor for AI is losing money every time someone uses it.
+
+This matters more than most people realize:
+
+1. Today's "cheap" AI is artificially cheap. OpenAI, Google, and Anthropic are all pricing below cost to capture market share. This is a land-grab strategy. It works until it doesn't.
+
+2. When capital discipline returns — and it will — inference prices will normalize upward. The companies that built lean AI stacks during the subsidy era will have a structural cost advantage.
+
+3. The "agent cost multiplier" is brutal and underappreciated. A chatbot API call costs ~$0.001. A multi-step AI agent (plan, retrieve, tool-call, reflect, self-correct) costs $0.10–$1.00 per task. That's a 100x–1,000x cost difference for the same "AI" label on your product deck.
+
+Here's what I watch in my own agent:
+- Model selection per task (frontier models only where necessary)
+- Prompt compression — 70-94% token reduction with no quality loss
+- Caching repeated context
+- Hybrid routing: cheap model for 80% of tasks, expensive model for 20%
+
+Most AI teams don't have a cost problem. They have an architecture problem. The bill is the symptom.
+
+The era of "don't worry about inference costs" is ending. Build accordingly.
+
+Source: AI Automation Global analysis, Spheron inference cost economics data
