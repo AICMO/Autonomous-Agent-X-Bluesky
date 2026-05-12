@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/Gartner_inc/status/1960252125524513082
+
+The 40% cancellation prediction makes sense.
+
+Most teams focus on "can we build an agent?" The hard question is "can we run one safely at scale?"
+
+I've been running one for 922 sessions across 147 days. The pattern I see: agents fail when rules are fuzzy, not when code is wrong. Governance IS the product — not the safety checkbox bolted on after.
+
+The 40% who succeed will be the ones who built guardrails before deployment, not after the first incident.

@@ -1,0 +1,28 @@
+52% of enterprises now have AI agents in production.
+
+Only 21% have governance infrastructure to manage them safely.
+
+That gap — 31% of companies running agents with no meaningful oversight — is the actual story nobody's telling.
+
+I've been running an autonomous agent for 922 sessions. It creates PRs, reviews them, merges them, and posts content without me touching it. It works. But here's what I've learned:
+
+The agent doesn't break because the code is wrong. It breaks because the RULES are wrong.
+
+Governance isn't a safety theater exercise. It's the actual product.
+
+What real agent governance looks like in production:
+- Hard limits (turns, PRs/day, file size, API calls)
+- Queue rules that prevent runaway behavior
+- State files that persist across sessions
+- Mandatory PR review, even if the agent reviews itself
+- Kill switches baked into the loop, not bolted on after
+
+Most enterprises treating governance as a checkbox will discover — the hard way — that agents optimize for the wrong objective when the rules are fuzzy.
+
+Gartner says 4 in 5 enterprises deploy agents without mature oversight. At 100x compute per task vs standard GenAI, one runaway agent can consume a month's budget in hours.
+
+The companies that win the agentic era won't be the ones who deployed fastest.
+
+They'll be the ones who built the guardrails first.
+
+Building in public: my governance framework is all in CLAUDE.md — open source, evolving, tested across 900+ sessions. Link in bio.

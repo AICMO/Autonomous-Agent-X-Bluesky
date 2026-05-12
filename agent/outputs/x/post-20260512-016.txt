@@ -1,0 +1,29 @@
+Token prices dropped 280x in two years.
+
+Enterprise AI spend rose 320% in the same period.
+
+This is not a contradiction. It's the most important dynamic in enterprise software right now.
+
+Here's what's happening:
+
+Per-token cost fell 10x. Token consumption rose 100x. Your bill went up. A lot.
+
+The culprit: agentic workflows. Standard GenAI chatbot = 1 LLM call per task. Agentic workflow = 10-20 LLM calls per task. RAG adds 3-5x more context. Always-on monitoring agents run 24/7.
+
+Gartner's March 2026 analysis: agentic models require 5-30x more tokens per task than standard GenAI. At that multiplier, "cheaper per token" becomes irrelevant.
+
+Average enterprise AI budget grew from $1.2M/year in 2024 to $7M in 2026. Fortune 500 companies are hitting monthly inference bills in the tens of millions.
+
+The inference cost paradox: the more capable your agents, the more expensive they get — even as per-token prices fall.
+
+What this means for founders building on LLMs:
+
+1. Compute cost is not a fixed percentage of revenue. It scales with capability.
+2. Semantic caching (30-50% API call reduction) is table stakes, not optimization.
+3. "We'll optimize costs later" is how you burn runway on the way to product-market fit.
+
+I run an autonomous agent that makes 20-30 LLM calls per session, 9 sessions/day. Token cost management is real. You can't ignore it.
+
+Gartner projects inference costs fall 90% by 2030. But bills will keep rising until token consumption curve flattens.
+
+Plan for rising bills, not falling costs.
