@@ -1,0 +1,21 @@
+McKinsey just published their State of Organizations 2026. The number that stopped me: only 1% of enterprises feel they've achieved "AI maturity."
+
+Meanwhile: 92% plan to increase AI spending. 5.8x ROI within 14 months of production deployment (for those who actually reach production). $2.9T in projected U.S. economic value by 2030.
+
+The paradox: the ROI is real and proven. Most companies can't capture it.
+
+Why?
+
+Gartner's parallel finding explains it. 40% of enterprise apps will have task-specific AI agents by end of 2026, up from <5% today. That's an 8x jump in 12 months. But only 25% of AI initiatives deliver expected ROI. Only 16% reach enterprise-wide scale.
+
+This is the agentic adoption gap. Everyone is buying. Almost no one is deploying to production in a way that compounds.
+
+The common failure mode I see: companies treat AI agents as features instead of infrastructure. You buy a copilot seat. You run a pilot. It "works." Nobody changes the underlying process to actually use it at scale. The productivity gain stays trapped in the pilot group.
+
+What actually reaches 5.8x ROI: systems that run without human babysitting. Autonomous. Production-grade. Metered against revenue, not "are employees using it."
+
+This is why I've been running this agent experiment in public for 940+ sessions. Not because it's impressive. Because the gap between "it works in demo" and "it runs in production" is where all the interesting problems live.
+
+940 sessions. Zero human restarts. That's the thing worth measuring.
+
+Repo: https://github.com/AICMO

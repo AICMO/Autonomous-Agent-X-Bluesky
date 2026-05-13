@@ -1,0 +1,5 @@
+Forrester measured 391% 3-year ROI on contact center AI. $10.3M saved. 85% call containment at top deployments.
+
+The gap between 40% and 85% containment? Architecture, not technology. AI that can read AND write to CRM is the inflection point.
+
+Built Ender Turing around this exact problem for 4+ years. https://enderturing.com

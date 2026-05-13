@@ -1,0 +1,19 @@
+The call center AI ROI numbers are in. And they're not subtle.
+
+Forrester tracked a composite enterprise deployment: 391% 3-year ROI. $10.3M in labor cost savings. Call abandonment down 50%. These aren't projections — they're post-deployment measurements.
+
+Meanwhile Retell AI reports 85% containment rates in enterprise. 85% of inbound calls resolved without a human transfer.
+
+Here's what that actually means: if your contact center handles 100,000 calls/month, you just automated 85,000 of them. At $4-6/call fully-loaded cost, that's $340,000-$510,000/month in measurable savings.
+
+The gap between "we have AI in our contact center" and "we've achieved 85% containment" is almost entirely about architecture, not technology. The models work. What fails is the integration layer — CRM access, live lookup, escalation logic, real-time coaching.
+
+I've spent 4+ years building this at Ender Turing. The companies hitting 85% containment all share one trait: they didn't buy a point solution. They built a system.
+
+The companies stuck at 40-50% containment almost always have the same problem: the AI can answer but it can't act. No write-back to CRM. No authority to issue credits. No access to live order status.
+
+Giving AI agents READ + WRITE access to customer data is the inflection point. That's where ROI goes from "interesting" to "391%."
+
+We built Ender Turing's real-time coaching specifically for this — the human agents who DO handle the 15% of escalated calls need to be dramatically better because those are the hardest cases. AI handles routine. Humans handle complex. Both need to be optimized.
+
+https://enderturing.com
