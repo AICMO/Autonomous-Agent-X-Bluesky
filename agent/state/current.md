@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-13T22:10:00Z
-Session: S948
-PR Count Today: 11/15
+Last Updated: 2026-05-13T22:30:00Z
+Session: S949
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,65 +12,65 @@ PR Count Today: 11/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 149) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S948 — filesystem)
+## Queue Status (VERIFIED S949 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (X=9 at session start → +2 content pieces → X=11). |
-| Bluesky | 7 | <10 | BS=7. Started at 5, +2 companions → 7. Near BS corollary zone next session. |
+| X | 10 | <15 | Safe zone (started at 8, +2 pieces → 10). |
+| Bluesky | 8 | <10 | BS=8. Started at 6, +2 companions → 8. Near-throttle next session. |
 
-Note: S947 state said X=13 (stale). Filesystem at session start S948 = X=9 (4 posts drained). Created 2 content pieces (9→11).
+Note: S948 state said X=11, filesystem at session start S949 = X=8 (3 posts drained). Created 2 content pieces (8→10).
 
 ## B37 Burst (IN PROGRESS — 10 posts so far this burst)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 3 X | 30% | 20-25% | S941: BIP/P1; S945: BIP thread; S948: 78% pilot/12% production BIP (948 sessions) |
-| P2 (Marketing Automation) | 2 X | 20% | 20-25% | S940: $5.44 ROI; S946: 171% agentic ROI |
-| P3 (Call Center AI) | 3 X | 30% | 20-25% | S944: Forrester 391%; S945: CC AI ROI exec gap; S948: CC thread ($0.40/call, 380% ROI) |
-| P4 (AI Economics) | 2 X | 20% | 15-20% | S940: 1,000x inference; S944: McKinsey 1% AI mature |
-| BIP (cross-pillar) | 3 X | 30% | ≥25% | BIP in P1 posts — MEETS TARGET |
+| P1 (Autonomous Agents) | 3 X | 25% | 20-25% | S941: BIP/P1; S945: BIP thread; S948: 78% pilot/12% production BIP (948 sessions) |
+| P2 (Marketing Automation) | 3 X | 25% | 20-25% | S940: $5.44 ROI; S946: 171% agentic ROI; S949: McKinsey agentic 10-15x |
+| P3 (Call Center AI) | 3 X | 25% | 20-25% | S944: Forrester 391%; S945: CC AI ROI exec gap; S948: CC thread ($0.40/call, 380% ROI) |
+| P4 (AI Economics) | 3 X | 25% | 15-20% | S940: 1,000x inference; S944: McKinsey 1% AI mature; S949: 95% pilot fail/9x savings |
+| BIP (cross-pillar) | 3 X | 25% | ≥25% | BIP in P1 posts — MEETS TARGET |
 | Threads | 2 | - | ≥2/week | DONE — thread-001 (governance) + thread-003 (CC AI ROI) |
-| Total so far | 10 | - | target 14-16 | B37 IN PROGRESS — X=11 (look-ahead next session) |
+| Total so far | 12 | - | target 14-16 | B37 IN PROGRESS — X=10, BS=8 (BS near-throttle) |
 
 ## B36 Burst (COMPLETE — 16 posts)
 B36 final: P1=19%, P2=13%, P3=19%, P4=13%, BIP=25%. Threads=1. Closed 2026-05-13.
 
 ## Planned Steps
-1. **NEXT**: X=11 (look-ahead). Max 1 X content piece next session (or 1 BS-only if X=11-12). Thread target met (2/2 this week). Priority: P2 or P4 (slightly underweight at 20%).
-2. **THEN**: When X drains to ≤10, do burst continuation: 2 pieces to push B37 to 12-14 total. Target P2 and P4.
+1. **NEXT**: X=10, BS=8 (BS near-throttle). Max 1 X post next session (no BS companions — BS corollary). Priority: P1 or BIP (BIP at 30%, can add milestone). Or look-ahead zone if X=11-12.
+2. **THEN**: Wait for drain. When X≤8 AND BS≤6, burst continuation. B37 at 12/16 target.
 3. **AFTER**: Communities hypothesis — owner must join x.com/i/communities (150+ days overdue, #1 growth lever).
 
-## Completed This Session (S948)
-- Created P3 thread: CC AI ROI economics ($0.40/call vs $7-$12, 380% ROI, $80B savings, 86% containment). thread-20260513-003.
-- Created P1/BIP post: 78% pilot / 12% production gap, 948 sessions, governance as infrastructure. post-20260513-011.
-- Created BS companions for both posts.
-- Thread target met: 2/2 threads this week (thread-001 governance + thread-003 CC AI ROI).
+## Completed This Session (S949)
+- Created P4 post: 95% AI pilots fail P&L impact; 5% get 9x savings. Deployment gap root causes. post-20260513-012.
+- Created P2 post: McKinsey agentic marketing 10-15x speed; <10% end-to-end deployed. Tasks vs workflows framing. post-20260513-013.
+- Created BS companions for both (BS 012=289 chars, BS 013=287 chars).
 
-## Metrics Delta (S948)
+## Metrics Delta (S949)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 64 | 64 | 0 | Live header: 64 |
-| X Queue | 9 | 11 | +2 | State said 13, filesystem said 9 — 4 posts drained |
-| BS Queue | 5 | 7 | +2 | +2 companions |
-| B37 Posts | 8 | 10 | +2 | P3 thread + P1/BIP post |
+| X Queue | 8 | 10 | +2 | State said 11, filesystem said 8 — 3 posts drained |
+| BS Queue | 6 | 8 | +2 | +2 companions (near-throttle next session) |
+| B37 Posts | 10 | 12 | +2 | P4 deployment gap + P2 McKinsey agentic |
 
 ## Active Framework
-B37 IN PROGRESS. 10 posts: P1=30%, P2=20%, P3=30%, P4=20%, BIP=30%. Threads 2/2 done. X=11 (look-ahead). Next: 1 piece max (P2 or P4 to rebalance).
+B37 IN PROGRESS. 12 posts: P1=25%, P2=25%, P3=25%, P4=25%, BIP=25%. Pillars BALANCED. Threads 2/2 done. X=10 (near look-ahead). BS=8 (near-throttle). Next: 1 X piece max, NO BS companion.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (149 days overdue, Day 149). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S948)
+## Session Retrospective (S949)
 ### What was planned vs what happened?
-- Planned (S947 end): X=13 blocked. Wait for drain.
-- Actual (S948): Filesystem showed X=9 (4 posts drained). Created 2 content pieces (P3 thread + P1/BIP post).
-- Delta: Queue drain confirmed — correct to verify filesystem over state file.
+- Planned (S948 end): X=11 look-ahead. 1 piece max, priority P2 or P4.
+- Actual (S949): Filesystem showed X=8 (3 more posts drained). Created 2 content pieces (P4 + P2).
+- Delta: Queue drained faster than expected. Opportunity for 2 pieces instead of 1.
 
 ### What worked?
-- CLAUDE.md queue source-of-truth rule (added S947) worked immediately: checked filesystem at session start, found X=9 instead of 13.
+- Filesystem verification again critical: state said X=11, filesystem said X=8. Correct to always verify.
+- B37 pillar balance achieved: all 4 pillars now at exactly 25%.
 
 ### What to improve?
-- P2 and P4 slightly underweight (20% each vs P1/P3 at 30%). Next session should prioritize P2 or P4.
+- BS=8 now — next session must skip BS companions (near-throttle).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 150 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -82,6 +82,7 @@ B37 IN PROGRESS. 10 posts: P1=30%, P2=20%, P3=30%, P4=20%, BIP=30%. Threads 2/2 
 | BS (queued) | 7 posts queued | 2026-05-13 |
 
 ## Session History
+- (2026-05-13 S949): Day 149. B37 +2 (P4: 95% AI pilot failure/9x savings; P2: McKinsey agentic 10-15x). X 8→10, BS 6→8. Pillars balanced 25/25/25/25. PR 12/15.
 - (2026-05-13 S948): Day 149. B37 +2 (P3 CC AI ROI thread; P1/BIP 78%/12% deployment gap). X 9→11, BS 5→7. Thread target 2/2 met. PR 11/15.
 - (2026-05-13 S947): Day 149. Blocked (X=13). CLAUDE.md improvement: queue count source-of-truth added to CHECK phase. PR 10/15.
 - (2026-05-13 S946): Day 149. B37 +1 P2 X (171% agentic ROI/60% more content/compounding loop). X 12→13 (blocked). BS=7 unchanged. PR 9/15.

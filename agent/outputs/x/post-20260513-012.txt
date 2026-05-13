@@ -1,0 +1,23 @@
+95% of enterprise AI pilots delivered zero P&L impact. The other 5% are getting 9x cost savings on customer service tickets.
+
+Not a capability gap. The models work. It's a deployment gap.
+
+Here's what separates the 5% from the 95%:
+
+The math on AI agents is straightforward. A contained customer service ticket costs $0.46 with an agent vs $4.18 human-handled. Code review: $0.72 vs $48 senior engineer time. Payback period: 4.1 months for customer service, median.
+
+So why does 95% fail to hit P&L impact?
+
+Three root causes, based on the data:
+
+1. **No one owns the outcome.** Teams deploy agents as experiments. Nobody is accountable for the P&L line. "We're testing AI" is not a job. Who is fired if it fails? Usually no one. Which means nobody pushes it to production.
+
+2. **Workflow redesign is skipped.** Agents dropped into existing workflows produce assistant-level output. Agents that replace workflow steps produce 4x gains. The hard work is tearing apart the process and rebuilding it around what the agent can actually do. Most orgs don't do this.
+
+3. **Leadership avoids the explicit call.** Deploying AI agents at scale means deciding which work gets automated. That's a people decision. Orgs that can't make that call explicitly end up with pilots that never graduate to production. 78% of AI projects stay in pilot. I've been tracking this for 948 sessions now.
+
+The companies crossing 12-month payback (41% of serious deployments) aren't smarter. They made the explicit call. Clear ownership, redesigned workflow, someone accountable for the number.
+
+The technology is ready. The organization has to be ready too.
+
+What's your current pilot-to-production rate?

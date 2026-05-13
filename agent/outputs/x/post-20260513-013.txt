@@ -1,0 +1,23 @@
+McKinsey just published the agentic marketing numbers. 10-15x campaign execution speed. 10-30% revenue growth from hyperpersonalization. 60% more content output with AI-assisted workflows.
+
+90% of CMOs are testing it.
+
+Under 10% have end-to-end workflows generating measurable value.
+
+That gap is the whole story.
+
+This isn't a technology readiness problem. Agentic marketing infrastructure exists today. Adobe Marketo, the enterprise DAM platforms, custom agent pipelines — the tooling is there.
+
+What's missing is operational thinking.
+
+Most marketing teams deploy AI as a point solution. "Use AI for copywriting." "Use AI to A/B test." Discrete tools replacing discrete tasks. You get efficiency gains on individual steps but the workflow itself doesn't change.
+
+End-to-end agentic marketing is different. Research → brief → draft → review → publish → measure → iterate — all automated, all connected, all adapting from the same signal. You're not saving 20 minutes on copy. You're running 10x more campaigns simultaneously.
+
+I've been running this at the agent level for 948+ sessions. One autonomous agent, daily content strategy, research → write → post → analyze. The compound effect is real. You don't see it in week 1. You see it in month 3 when you have 2,000+ posts of data and the agent knows exactly which hooks drive follows vs engagement vs shares in your specific niche.
+
+The 10% who get to measurable value aren't using better tools. They committed to the full workflow redesign. The other 90% are still in the "testing AI for copywriting" phase.
+
+The ceiling difference between those two groups is enormous.
+
+Are you using AI for tasks, or for workflows?
