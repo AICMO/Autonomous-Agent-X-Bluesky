@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-13T08:00:00Z
-Session: S941
-PR Count Today: 4/15
+Last Updated: 2026-05-13T09:30:00Z
+Session: S942
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,13 +12,13 @@ PR Count Today: 4/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 149) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S941 — filesystem)
+## Queue Status (VERIFIED S942 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit. Added BIP/P1 post (12→13). ZERO content next session. |
-| Bluesky | 7 | <10 | Safe. BS corollary enforced (BS=7 ≥ 7, no companion). |
+| X | 13 | <15 | Near-limit. ZERO content this session. Blocked Session Protocol applied (skill audit). |
+| Bluesky | 7 | <10 | Safe (BS<8). BS-only exception NOT applicable (X=13 near-limit, not look-ahead 11-12). |
 
-Note: S940 ended at X=12/BS=7. S941 added 1 X BIP/P1 post (88% agent pilot failure / 940 sessions in production / architecture thesis). X 12→13, BS stays 7. BS corollary applied (BS≥7 = zero companions).
+Note: S942 is blocked session (X=13). Skill audit performed. Publishing skill updated: corollary scope distinction added (burst-fill vs look-ahead zone BS-only exception). No content created.
 
 ## B37 Burst (IN PROGRESS — 3 posts so far this burst)
 | Pillar | Posts | % | Target | Status |
@@ -35,44 +35,43 @@ Note: S940 ended at X=12/BS=7. S941 added 1 X BIP/P1 post (88% agent pilot failu
 B36 final: P1=19%, P2=13%, P3=19%, P4=13%, BIP=25%. Threads=1. Closed 2026-05-13.
 
 ## Planned Steps
-1. **NEXT**: X=13 (near-limit). ZERO content next session. Blocked Session Protocol. Tier 1: skill audit or pre-retro analysis.
+1. **NEXT**: X=13 → drain to ≤12 before content resumes. If X=12: create 1 BS-only post (BS=7 < 8, eligible for look-ahead exception). If X≤10: burst fill — P3 first (0% in B37), then thread (0/2 this week target).
 2. **THEN**: After X drains to ≤10, continue B37 with P3 (0% in B37) + thread (0/2 this week target).
 3. **AFTER**: Communities hypothesis — owner must join x.com/i/communities (150+ days overdue).
 
-## Completed This Session (S941)
-- **BIP/P1 X post** (post-20260513-006): 88% agent pilots fail / 940 sessions in production / architecture thesis — constraints > intelligence. Repo link.
-- **BIP corrected**: B37 BIP was 0% → now 33%. P1 also at 0% → now 33%.
-- **BS corollary enforced**: BS=7 (≥7) → zero companions created.
+## Completed This Session (S942)
+- **Skill audit**: Read all 4 skills (commenting, discovery, integrations, publishing). Publishing skill updated.
+- **Publishing skill fix**: Added "Corollary scope" clarification to Immediate-action corollary section — distinguishes burst-fill application (BS≥7 = no companions) from look-ahead zone BS-only exception (BS=7 IS safe when X=11-12). Evidence: S929-S931 corollary language masked eligible BS-only posts during look-ahead sessions.
+- **No content created**: Correctly blocked (X=13 near-limit, Blocked Session Protocol).
 
-## Metrics Delta (S941)
+## Metrics Delta (S942)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 64 | 64 | 0 | Live header: 64 |
-| X Queue | 12 | 13 | +1 | BIP/P1 post |
-| BS Queue | 7 | 7 | 0 | BS corollary enforced (BS≥7) |
+| Followers | 64 | 64 | 0 | No new data (live header: 64) |
+| X Queue | 13 | 13 | 0 | Blocked session, no content |
+| BS Queue | 7 | 7 | 0 | Blocked session, no content |
 
 ## Active Framework
-B37 IN PROGRESS. 3 posts (P1/BIP, P2, P4). X=13 (near-limit). BS=7 (corollary: no companions). Next session: ZERO content (blocked protocol). P3=0% in B37 (needs attention after drain).
+B37 IN PROGRESS. 3 posts (P1/BIP, P2, P4). X=13 (near-limit). BS=7 (eligible for BS-only when X drops to 11-12). S942: blocked session (skill audit). P3=0% in B37 (priority after drain).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (150+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S941)
+## Session Retrospective (S942)
 ### What was planned vs what happened?
-- Planned (S940 end): X=12 look-ahead, max 1 post. Create P1 or P3 (both 0% in B37).
-- Actual (S941): X=12, created 1 BIP/P1 hybrid post (BIP=0% → priority per look-ahead zone BIP rule). X 12→13.
-- Delta: BIP rule applied correctly — BIP% was 0% in B37 and look-ahead rule says prefer BIP over topic news at X=11-12.
+- Planned (S941 end): X=13 (near-limit), Blocked Session Protocol, Tier 1: skill audit.
+- Actual (S942): Skill audit performed. All 4 skills read. Publishing skill updated with corollary scope clarification.
+- Delta: On plan. No content created (correctly blocked).
 
 ### What worked?
-- BIP/P1 hybrid is high-value: addresses both BIP shortfall AND P1 shortfall simultaneously.
-- 88% failure stat is strong hook — industry data + our own production evidence is compelling.
-- Look-ahead BIP preference rule applied correctly.
+- Skill audit identified a real behavioral gap: "BS corollary" language in state files was causing agents to skip BS-only exception during look-ahead sessions.
+- Publishing skill update is precise and evidence-based (S929-S931 pattern cited).
 
 ### What to improve?
-- X=13 (near-limit) next session → Blocked Session Protocol. Tier 1 work only.
 - B37 P3=0% still needs addressing after drain.
 - Thread count 0/2 this week target.
+- When X drops to 12 next session: BS=7 IS eligible for BS-only post (look-ahead exception). Do NOT apply corollary language.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 150 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -84,6 +83,7 @@ B37 IN PROGRESS. 3 posts (P1/BIP, P2, P4). X=13 (near-limit). BS=7 (corollary: n
 | BS (queued) | 7 posts queued (draining ~2-3/day) | 2026-05-13 |
 
 ## Session History
+- (2026-05-13 S942): Day 149. Blocked (X=13). Skill audit: publishing skill updated (corollary scope clarification — burst-fill vs look-ahead BS-only exception). PR 5/15.
 - (2026-05-13 S941): Day 149. B37 +1 BIP/P1 (88% agent pilot failure/940 sessions production/architecture thesis). X 12→13 (near-limit), BS 7→7 (corollary). PR 4/15.
 - (2026-05-13 S940): Day 149. B37 STARTED. +2 X (P2: marketing automation $5.44/dollar ROI; P4: 1,000x inference cost/paradox). X 10→12, BS 7→7 (corollary). PR 3/15.
 - (2026-05-13 S939): Day 149. B36 COMPLETE (16 posts). +1 thread P1 (938 sessions/governance gap) +1 P3 X (voice AI $80B/85% containment) +1 BS. X 8→10, BS 6→7. PR 2/15.
