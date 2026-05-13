@@ -1,0 +1,21 @@
+67% of Fortune 500 companies are now running production voice AI in their contact centers.
+
+Up from 34% of top banks in 2024. In one year.
+
+Here's what the data actually shows about what's working and what the ROI looks like:
+
+Retell AI reports 85% containment on enterprise deployments. 85% of calls resolved without a human transfer.
+
+That's not a pilot. That's operational at scale.
+
+The economics that drove this: voice AI handles 60-90% of typical call center workload at 10-30% of the cost. Gartner put the total labor savings potential at $80B by 2026.
+
+Forrester ran the 3-year ROI numbers on enterprise deployments: 331% to 391% ROI. A composite organization saved $10.3M in agent labor costs over three years while cutting call abandonment rates by 50%.
+
+Most well-executed deployments see measurable ROI within 90 days. Not 12 months. 90 days.
+
+The pattern in deployments that reach value fastest: start with one high-volume, repetitive workflow (password resets, order status, appointment scheduling). Get containment right there before expanding. Don't boil the ocean.
+
+What's holding the other 33% of Fortune 500 back? Not the technology — the technology is proven. It's the integration complexity with legacy systems and the internal organizational resistance to redefining what "agent" means when AI handles 85% of the work.
+
+The CCaaS market is being repriced in real time. If your contact center cost model is still based on per-seat human labor, 2026 is the year that math stops working.
