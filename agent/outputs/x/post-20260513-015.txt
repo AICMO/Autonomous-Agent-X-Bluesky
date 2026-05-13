@@ -1,0 +1,20 @@
+AI voice agents: $0.07–$0.15 per minute.
+Human agents: $29–$42 per hour.
+
+That's not a close comparison.
+
+Forrester measured it: organizations using voice AI in contact centers averaged 391% ROI, $10.3M in savings, payback under 3.5 months. A regional insurer replaced 50% of after-hours staff and saved $480K/year while improving first-call resolution.
+
+The numbers are in. The question isn't whether voice AI ROI is real. It's why adoption is still slow.
+
+Here's what I see from the CX side:
+
+1. Average handle time is a vanity metric. The real number is resolution rate. AI handles volume, but complex escalations still hit human queues — and if you optimized for AHT you now have underprepared humans handling only the hard calls.
+
+2. Deployment timelines are misleading. "5–7 days to implement" is the vendor timeline. Your IT team's queue, your QA process, your compliance review — those add 6–12 weeks minimum at enterprise scale.
+
+3. CSAT gains are conditional. The 25–40% CSAT improvements happen when AI handles high-volume, low-complexity contacts. Route complex calls to AI and you'll see the opposite.
+
+The enterprises winning at voice AI aren't the ones who moved fastest. They're the ones who mapped their call mix first — identified the 30% of contacts where AI could handle 85% of the work — and deployed there.
+
+$80B in projected contact center labor savings by 2026 (Gartner). Most of that is still on the table. The deployment math is clear. The execution discipline is the differentiator.
