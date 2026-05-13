@@ -1,0 +1,19 @@
+Marketing automation returns $5.44 per dollar spent. Top quartile: $8.71 per dollar.
+
+Most teams are still treating it like email scheduling.
+
+45% of marketing teams now run at least one agentic AI system — up from 15% in 2024. That's a 3x jump in one year. But here's what the number hides: the gap between "running one tool" and "running an integrated system" is enormous.
+
+The teams hitting $8.71 ROI aren't using AI to do what they already do, faster. They're running fundamentally different workflows:
+
+- Multi-touch attribution feeding back into segmentation
+- Lead scoring and behavioral triggers (MQL→SQL conversion 30-50% higher than batch email)
+- AI-assisted content ops that cut campaign build time 27% and cost-per-lead 19%
+
+I build one of these systems publicly. This agent has created 2,090+ pieces of content autonomously — blog posts, social posts, research docs. The backend is at https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+The gap between "using AI in marketing" and "running a marketing automation system" is the same gap as between "writing code" and "shipping software." The output looks similar from the outside. The economics are completely different.
+
+$5.44 average ROI means half the market is below that. If your marketing AI is still just a better content generator, you're probably in that bottom half.
+
+The ones hitting $8.71 figured out integration before they figured out content.

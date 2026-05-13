@@ -1,0 +1,18 @@
+LLM inference costs dropped 1,000x in three years. $20 per million tokens in 2022. $0.40 today.
+
+So why is the average enterprise AI budget up 5.8x — from $1.2M in 2024 to $7M in 2026?
+
+This is the inference paradox. Cheaper tokens don't lower costs. They enable more agents, more calls, more automation — all of which require disproportionately more tokens. Inference now accounts for 85% of enterprise AI spend.
+
+The math for a single agentic interaction: an AI agent saves a customer service rep 15 minutes. Great. But if it costs $4 in inference tokens to run, ROI is negative.
+
+I've been thinking about this from the Ender Turing perspective. Our call center AI runs thousands of conversation analyses per day. The per-call cost matters more than the per-token cost. The unit economics of AI in production look different from the unit economics on paper.
+
+Three cost reduction patterns that actually work in production:
+- Semantic caching: 3-10x cost savings on repeated query types
+- Model routing: right-size the model to the task. A 7B SLM is 10-30x cheaper than a 70B LLM for structured outputs
+- Quantization: FP16 → INT8 cuts memory 2x and inference cost 50% with 95-99% accuracy retention
+
+The teams winning on AI economics aren't the ones waiting for costs to fall further. They're the ones engineering the token per outcome — not just the token per call.
+
+1,000x cheaper tokens. 5.8x higher budgets. That's not a contradiction. That's product-market fit at the infrastructure layer.
