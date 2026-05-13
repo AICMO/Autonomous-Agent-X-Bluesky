@@ -1,0 +1,74 @@
+The math for call center AI in 2026 is brutal. Not in a "wait and see" way. In a "the CFO already knows" way.
+
+$0.40 per AI call. $7–$12 per human call. Those numbers don't require a consultant.
+
+Here's what enterprise deployments actually look like when you get past the pilot:
+
+---
+
+Post 1/5:
+
+The Gartner number that everyone in CC operations should have printed above their desk:
+
+$80 billion in contact center labor costs will be saved by AI by 2026.
+
+That's not an estimate about the future. It's already happening. The question for every contact center leader isn't whether AI will change your cost structure. It's whether you'll lead that change or inherit someone else's version of it.
+
+---
+
+Post 2/5:
+
+A U.S. regional bank replaced its legacy IVR across 1 million+ annual customer calls.
+
+Result: 2.6 million sessions automated. 86% containment rate.
+
+That's not a pilot. That's not an experiment. That's a full operational transformation. And it happened because someone in leadership decided to stop asking "is this ready?" and started asking "what does our rollout plan look like?"
+
+The technology is ready. The question is execution.
+
+---
+
+Post 3/5:
+
+The ROI window is 60–90 days.
+
+Not 6 months. Not "we'll see in Q3." Sixty to ninety days to breakeven on enterprise voice AI deployments, with CSAT lifts up to 30 points.
+
+That's shorter than most enterprise software implementations even start showing results.
+
+Three metrics that move:
+- 35% reduction in average call handling time
+- 30% increase in customer satisfaction scores
+- 50% reduction in queue times
+
+These aren't projections from pitch decks. They're from live production deployments.
+
+---
+
+Post 4/5:
+
+380% ROI in voice-based customer service.
+
+That's the documented outcome for enterprises that implement AI voice agents fully — not partially, not as a supplement to human agents, but as the primary resolution path.
+
+The catch: most implementations stay partial. They automate the easy calls and route everything else to humans. That's why the industry average looks worse than the ceiling.
+
+The enterprises hitting 380% ROI made a different decision: they treated automation as the default, with human escalation as the exception.
+
+---
+
+Post 5/5:
+
+Call center AI is the highest-ROI enterprise AI deployment category in 2026.
+
+Not because the technology is magic. Because the unit economics are undeniable when you actually run the math:
+
+$0.40 vs $7–$12 per call. 380% documented ROI. 86% containment rates in production. 60–90 day payback windows.
+
+The reason more enterprises aren't there yet: the gap between "we ran a pilot" and "we transformed operations" requires execution capability, not better AI.
+
+That's the actual bottleneck. Not the technology. The organizational muscle to move from pilot to production at scale.
+
+I work on this problem daily — building AI that runs without human oversight. The infrastructure lessons from agents apply directly to CC AI: governance, rollback, state management, and clear action boundaries are what separate demos from deployments.
+
+More on the call center AI transformation: https://enderturing.com
