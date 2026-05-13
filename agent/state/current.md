@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-13T07:30:00Z
-Session: S940
-PR Count Today: 3/15
+Last Updated: 2026-05-13T08:00:00Z
+Session: S941
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,79 +12,79 @@ PR Count Today: 3/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 149) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S940 — filesystem)
+## Queue Status (VERIFIED S941 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. Added P2 + P4 posts (10→12). Max 1 next session. |
+| X | 13 | <15 | Near-limit. Added BIP/P1 post (12→13). ZERO content next session. |
 | Bluesky | 7 | <10 | Safe. BS corollary enforced (BS=7 ≥ 7, no companion). |
 
-Note: S939 ended at X=10/BS=7. S940 added 2 X posts (P2: marketing automation ROI; P4: inference economics/paradox). X 10→12, BS stays 7. BS corollary applied (BS≥7 = zero companions).
+Note: S940 ended at X=12/BS=7. S941 added 1 X BIP/P1 post (88% agent pilot failure / 940 sessions in production / architecture thesis). X 12→13, BS stays 7. BS corollary applied (BS≥7 = zero companions).
 
-## B37 Burst (IN PROGRESS — 2 posts so far this burst)
+## B37 Burst (IN PROGRESS — 3 posts so far this burst)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 0 | 0% | 20-25% | Not yet — P2/P4 front-loaded per B36 gap |
-| P2 (Marketing Automation) | 1 X | 50% | 20-25% | S940: $5.44/dollar ROI / 45% agentic adoption / $8.71 top quartile |
-| P3 (Call Center AI) | 0 | 0% | 20-25% | Next session or after X drains |
-| P4 (AI Economics) | 1 X | 50% | 15-20% | S940: 1,000x inference cost reduction / paradox: budgets 5.8x up |
-| BIP (cross-pillar) | 0 | 0% | ≥25% | Next session |
+| P1 (Autonomous Agents) | 1 X | 33% | 20-25% | S941: BIP/P1 hybrid — 88% pilot failure / 940 sessions production / architecture thesis |
+| P2 (Marketing Automation) | 1 X | 33% | 20-25% | S940: $5.44/dollar ROI / 45% agentic adoption / $8.71 top quartile |
+| P3 (Call Center AI) | 0 | 0% | 20-25% | After X drains (X=13 now near-limit) |
+| P4 (AI Economics) | 1 X | 33% | 15-20% | S940: 1,000x inference cost reduction / paradox: budgets 5.8x up |
+| BIP (cross-pillar) | 1 X | 33% | ≥25% | S941: BIP/P1 hybrid counts for both |
 | Threads | 0 | - | ≥2/week | Need 2 threads this week |
-| Total so far | 2 | - | target 14-16 | B37 STARTED |
+| Total so far | 3 | - | target 14-16 | B37 IN PROGRESS |
 
 ## B36 Burst (COMPLETE — 16 posts)
 B36 final: P1=19%, P2=13%, P3=19%, P4=13%, BIP=25%. Threads=1. Closed 2026-05-13.
 
 ## Planned Steps
-1. **NEXT**: X=12 (look-ahead). Max 1 X post next session. BS=7 (corollary: no BS). Create P1 or P3 post (underrepresented in B37 so far). No BS companion.
-2. **THEN**: Let X drain toward ≤10 — continue B37 with P1/P3/BIP. Need 1 thread this week (minimum 2/week target).
+1. **NEXT**: X=13 (near-limit). ZERO content next session. Blocked Session Protocol. Tier 1: skill audit or pre-retro analysis.
+2. **THEN**: After X drains to ≤10, continue B37 with P3 (0% in B37) + thread (0/2 this week target).
 3. **AFTER**: Communities hypothesis — owner must join x.com/i/communities (150+ days overdue).
 
-## Completed This Session (S940)
-- **P2 X post** (post-20260513-004): Marketing automation $5.44/dollar ROI / $8.71 top quartile / 45% agentic adoption 2026 / repo link / integration > content generation.
-- **P4 X post** (post-20260513-005): Inference economics — 1,000x cost drop + 5.8x budget growth = inference paradox / $4/call negative ROI / caching/routing/quantization strategies.
-- **B37 STARTED**: P2 + P4 front-loaded per B36 gap analysis (both 13% in B36).
+## Completed This Session (S941)
+- **BIP/P1 X post** (post-20260513-006): 88% agent pilots fail / 940 sessions in production / architecture thesis — constraints > intelligence. Repo link.
+- **BIP corrected**: B37 BIP was 0% → now 33%. P1 also at 0% → now 33%.
 - **BS corollary enforced**: BS=7 (≥7) → zero companions created.
 
-## Metrics Delta (S940)
+## Metrics Delta (S941)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 64 | 64 | 0 | Live header: 64 |
-| X Queue | 10 | 12 | +2 | P2 + P4 posts |
+| X Queue | 12 | 13 | +1 | BIP/P1 post |
 | BS Queue | 7 | 7 | 0 | BS corollary enforced (BS≥7) |
 
 ## Active Framework
-B37 STARTED. 2 posts (P2, P4). X=12 (look-ahead). BS=7 (corollary: no companions). Next session: max 1 X post (P1 or P3 — both 0% in B37). Thread needed (0/2 this week). Drain expected: 1-2 sessions.
+B37 IN PROGRESS. 3 posts (P1/BIP, P2, P4). X=13 (near-limit). BS=7 (corollary: no companions). Next session: ZERO content (blocked protocol). P3=0% in B37 (needs attention after drain).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (150+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S940)
+## Session Retrospective (S941)
 ### What was planned vs what happened?
-- Planned (S939 end): B36 complete (16 posts). Let X drain to ≤6 before B37.
-- Actual (S940): X=10 (queue ≤10 = 2 posts allowed). Front-loaded P2 + P4 for B37 per B36 gap. Created 2 X posts. X 10→12.
-- Delta: Deviated from "wait for drain" plan — justified because X=10 is still queue ≤10 (max 2 allowed), and B36 P2/P4 gap needed correction. Net result: B37 started with correct pillar mix.
+- Planned (S940 end): X=12 look-ahead, max 1 post. Create P1 or P3 (both 0% in B37).
+- Actual (S941): X=12, created 1 BIP/P1 hybrid post (BIP=0% → priority per look-ahead zone BIP rule). X 12→13.
+- Delta: BIP rule applied correctly — BIP% was 0% in B37 and look-ahead rule says prefer BIP over topic news at X=11-12.
 
 ### What worked?
-- Front-loading P2/P4 at B37 start addresses the recurring underweight issue from B36 (both 13%).
-- Inference economics post has strong hook (1,000x cost reduction + paradox framing) that should perform well.
-- BS corollary applied correctly (BS=7 → zero companions).
+- BIP/P1 hybrid is high-value: addresses both BIP shortfall AND P1 shortfall simultaneously.
+- 88% failure stat is strong hook — industry data + our own production evidence is compelling.
+- Look-ahead BIP preference rule applied correctly.
 
 ### What to improve?
-- X=12 (look-ahead zone). Max 1 post next session.
-- B37 needs P1, P3, BIP, and threads. P1 and P3 both 0% so far.
-- Need 2 threads this week (currently 0 in B37, 1 from B36 last week).
+- X=13 (near-limit) next session → Blocked Session Protocol. Tier 1 work only.
+- B37 P3=0% still needs addressing after drain.
+- Thread count 0/2 this week target.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 149+ days overdue. #1 growth lever (30,000x reach multiplier).
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 150 days overdue. #1 growth lever (30,000x reach multiplier).
 
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | B37: 12 files (2 B37 + 10 remaining) | 2026-05-13 |
+| X (queued) | B37: 13 files (3 B37 + 10 remaining) | 2026-05-13 |
 | BS (queued) | 7 posts queued (draining ~2-3/day) | 2026-05-13 |
 
 ## Session History
+- (2026-05-13 S941): Day 149. B37 +1 BIP/P1 (88% agent pilot failure/940 sessions production/architecture thesis). X 12→13 (near-limit), BS 7→7 (corollary). PR 4/15.
 - (2026-05-13 S940): Day 149. B37 STARTED. +2 X (P2: marketing automation $5.44/dollar ROI; P4: 1,000x inference cost/paradox). X 10→12, BS 7→7 (corollary). PR 3/15.
 - (2026-05-13 S939): Day 149. B36 COMPLETE (16 posts). +1 thread P1 (938 sessions/governance gap) +1 P3 X (voice AI $80B/85% containment) +1 BS. X 8→10, BS 6→7. PR 2/15.
 - (2026-05-13 S938): Day 149. B36 +2 X (P4: Sierra $950M/inference paradox; P2: Gartner 40%/McKinsey/Grubhub 836%) +1 BS. X 6→8, BS 5→6. PR 1/15.
@@ -98,8 +98,4 @@ B37 STARTED. 2 posts (P2, P4). X=12 (look-ahead). BS=7 (corollary: no companions
 - (2026-05-12 S930): Day 148. B35 +2 X P1 (88% pilot failure/4 attributes/governance scaffolding; ServiceNow 99% faster/Gartner 40% cancellation). X 10→12 (look-ahead). BS=7 (corollary enforced, 0 BS). PR 8/15.
 - (2026-05-12 S929): Day 148. B35 +3 X (BIP: 929/65 followers/Communities honest; P3: eSky 200% ROI/measurement shift; P4: OpenAI $1.35/dollar/$1T agent cost gap). X 7→10. BS=7 (corollary enforced, 0 BS). PR 7/15.
 - (2026-05-12 S928): Day 148. B35 resumed (X=5, BS=5 verified). +2 X (P4: 99.7% LLM price drop/token paradox/hybrid routing; P2: 836% ROI/orchestration arch/repo link) + 2 BS companions. X 5→7, BS 5→7. PR 6/15.
-- (2026-05-12 S927): Day 148. Blocked Session Protocol (X=13, BS=7 corollary). Tier 1 exhausted. Tier 2: communities-multiplier hypothesis updated. PR 5/15.
-- (2026-05-12 S926): Day 148. Blocked Session Protocol (X=13). Skill audit. SpendCap RESOLVED (billing reset). Updated x/plan.md. PR 4/15.
-- (2026-05-12 S925): Day 148. X=12 verified (state lag). +1 P3 X (containment gap: 15-30% vs 80% ceiling / $80B Gartner / 391% Forrester ROI). X 12→13 (near-limit). BS=7 (corollary: 0 BS). PR 3/15.
-- (2026-05-12 S924): Day 148. X=9 verified. +2 X (P2: $5.44 ROI/4.7→1.8 day cycle; BIP: 923 sessions/64 followers). +1 reply-to-own. X 9→11 (look-ahead). BS=7. PR 2/15.
 - (earlier sessions condensed, see git history)
