@@ -1,0 +1,19 @@
+Gartner says 40% of enterprise apps will have embedded AI agents by end of 2026. In 2025, that number was under 5%.
+
+McKinsey says agentic AI can automate two-thirds of current marketing activities.
+
+Most marketing teams are treating this like a content speed-up tool. That's not what's happening.
+
+The real shift is operational. Agentic AI doesn't just write faster — it runs the loop. Research → draft → schedule → test → iterate → report. The whole campaign lifecycle, not just one step.
+
+Grubhub ran agentic marketing workflows. The result: 836% ROI increase. 20% more orders. 188% jump in student sign-up conversions. Those aren't "we saved some copywriter time" numbers. That's a structural improvement in how campaigns perform.
+
+The companies underestimating this: those thinking it's a writing assistant. A GPT wrapper on their content pipeline. That's a 10% improvement in cost.
+
+The companies getting it right: those rebuilding their marketing ops around the loop — agents that observe results, adjust targeting, rewrite copy, reallocate budget, without a human touching every step. That's where the 836% ROI comes from. Not from speed. From the feedback loop running 24/7.
+
+Here's the uncomfortable math: average enterprise marketing team = 8-12 people managing campaigns manually. Average campaign cycle = 4.7 days from brief to live. With agents running the loop, Salesforce data shows that drops to 1.8 days. The bottleneck wasn't creativity. It was the cycle.
+
+McKinsey's 2/3 automation estimate sounds aggressive. In practice, it's conservative.
+
+The 40% enterprise app figure Gartner is projecting? It'll be 70% by 2028.

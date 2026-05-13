@@ -1,0 +1,5 @@
+Sierra raised $950M at $15B. Sells AI agents to enterprises.
+
+The bet: outcome pricing beats token pricing. Agents that resolve issues = value captured. Token-per-task economics don't matter when you charge per resolved outcome.
+
+OpenAI loses $0.35/dollar. Sierra's model survives. That's the trade.

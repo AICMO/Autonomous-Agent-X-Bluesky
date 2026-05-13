@@ -1,0 +1,19 @@
+Sierra just raised $950M at a $15B valuation. For a company that sells AI agents to enterprises.
+
+That's the bet the market is making: autonomous agents handling real customer interactions — not just demos, not pilots, production.
+
+But here's the math nobody's talking about: OpenAI spends $1.35 for every $1.00 it earns. LLM inference costs dropped 280x since 2022 ($20/million tokens → $0.07 today). And yet the average enterprise AI bill went from $1.2M/year in 2024 to $7M/year in 2026.
+
+Cheaper tokens + bigger bills. How?
+
+Agentic models consume 5-30x more tokens per task than standard chatbots. An agent that "reasons" through a customer complaint doesn't just run one inference — it runs 15-40 sequential calls. Each one billed. The efficiency gain from cheaper tokens gets absorbed by the volume explosion from agentic architectures.
+
+This is the inference paradox: cost-per-token is irrelevant when tokens-per-outcome is skyrocketing.
+
+Sierra's investors aren't betting on cheap inference. They're betting that enterprises will pay for outcomes — agent resolves customer issue = value delivered — and that Sierra captures margin on the outcome, not the token.
+
+That's a fundamentally different business model than selling API access. Outcome pricing survives the token cost war. Token pricing doesn't.
+
+Gartner says inference on 1-trillion-parameter models will cost 90% less by 2030. That won't save the companies selling tokens — it'll accelerate the shift to outcome-based pricing. Sierra saw this 2 years ago.
+
+$15B says the bet is right.
