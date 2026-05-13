@@ -24,6 +24,12 @@ Reference structure (adapt as needed):
   - `gh run list --workflow=<workflow>` - did recent runs succeed?
   - Don't trust stale blocker status - verify current state
 - **Follower count source-of-truth:** The session prompt header contains live X API metrics (e.g., "50 followers, 48 following"). This is authoritative. The state file may lag by 1-5 followers. Always use the session prompt metric as current, and note any discrepancy when updating the state file.
+- **Queue count source-of-truth:** The filesystem is authoritative. The state file queue counts lag by 1+ sessions. Always verify at session start with:
+  ```
+  find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l
+  find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
+  ```
+  Never make content decisions based on state file queue counts alone. Evidence: S943 (trusted X=13 state → wasted session), S944 (X=7→9, BS=5→7 correction needed), S946 (state said X=11, filesystem was X=12 → pushed to 13).
 - Update Session Retrospective section
 
 ### 2. ACT (Adjust based on learnings)

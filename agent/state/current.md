@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-13T16:10:00Z
-Session: S946
-PR Count Today: 9/15
+Last Updated: 2026-05-13T16:30:00Z
+Session: S947
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -35,39 +35,38 @@ Note: S945 filesystem was X=12 (state said 11). S946 added P2 post (X=12→13). 
 B36 final: P1=19%, P2=13%, P3=19%, P4=13%, BIP=25%. Threads=1. Closed 2026-05-13.
 
 ## Planned Steps
-1. **NEXT**: X=13 (blocked). Tier 1 blocked session work. Skill audit or pre-retro analysis. Zero content.
-2. **THEN**: Wait for X to drain to ≤10 (need 3+ drain cycles). Then create 1 more thread (1/2 done this week).
+1. **NEXT**: X=13 (blocked). Tier 1 exhausted (skill audit S942, CLAUDE.md S947). Pre-retro FINAL. If X still ≥13: accept no PR (Tier 1 Exhausted Protocol). Verify queue from filesystem.
+2. **THEN**: Wait for X to drain to ≤10 (need 3+ drain cycles ~drain to ≤10 by tomorrow). Then create 1 more thread (1/2 done this week).
 3. **AFTER**: Communities hypothesis — owner must join x.com/i/communities (150+ days overdue, #1 growth lever).
 
-## Completed This Session (S946)
-- **P2 X post created**: post-20260513-010.txt — Agentic marketing ROI: 171% enterprise projection / 60% more content / 10-15x campaign acceleration / compounding feedback loop angle
+## Completed This Session (S947)
+- **CLAUDE.md improvement**: Added "Queue count source-of-truth" to CHECK phase. State file queue counts are unreliable; filesystem is authoritative. Evidence: 3 queue count discrepancies today (S943, S944, S946).
 
-## Metrics Delta (S946)
+## Metrics Delta (S947)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 64 | 64 | 0 | Live header: 64 |
-| X Queue | 12 | 13 | +1 | P2 post added (filesystem was 12, not 11 from state) |
-| BS Queue | 7 | 7 | 0 | No companions (BS≥7 corollary enforced) |
+| X Queue | 13 | 13 | 0 | Blocked session — no content |
+| BS Queue | 7 | 7 | 0 | No change |
 
 ## Active Framework
-B37 IN PROGRESS. 8 posts: P1=25%, P2=25%, P3=25%, P4=25%, BIP=25%. All pillars now on target. X=13 (blocked). Next: Tier 1 work. 1 more thread needed this week (after drain).
+B37 IN PROGRESS. 8 posts: P1=25%, P2=25%, P3=25%, P4=25%, BIP=25%. All pillars now on target. X=13 (blocked). Next: Tier 1 work (exhausted today). Wait for drain. 1 more thread needed this week.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (149 days overdue, Day 149). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S946)
+## Session Retrospective (S947)
 ### What was planned vs what happened?
-- Planned (S945 end): X=11 (but filesystem was 12). Create P2 X post + 1 BS standalone.
-- Actual (S946): Created P2 X post (X=12→13). No BS companion (BS≥7 corollary enforced).
-- Delta: P2 now at 25% (on target). State file had stale X count (11 vs filesystem 12).
+- Planned (S946 end): Tier 1 blocked session work (X=13).
+- Actual (S947): CLAUDE.md improvement — added queue count source-of-truth to CHECK phase.
+- Delta: Fixes recurring pattern of state file queue counts being trusted over filesystem.
 
 ### What worked?
-- P2 agentic marketing ROI post: used fresh stats (171% ROI, 60% more content, 10-15x acceleration) with proprietary angle (compounding feedback loop from 149 days of running the agent).
+- Identified recurring inefficiency (3 queue discrepancies today) and encoded a fix in CLAUDE.md.
 
 ### What to improve?
-- State file X count was wrong again (11 vs filesystem 12). Always verify filesystem. Now X=13 = blocked.
-- 1 more thread needed this week — must wait for drain to ≤10 first.
+- Skill audit was done S942 with a change. Pre-retro is FINAL. CLAUDE.md improved this session. Tier 1 effectively exhausted for this burst.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 150 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -79,6 +78,7 @@ B37 IN PROGRESS. 8 posts: P1=25%, P2=25%, P3=25%, P4=25%, BIP=25%. All pillars n
 | BS (queued) | 7 posts queued | 2026-05-13 |
 
 ## Session History
+- (2026-05-13 S947): Day 149. Blocked (X=13). CLAUDE.md improvement: queue count source-of-truth added to CHECK phase. PR 10/15.
 - (2026-05-13 S946): Day 149. B37 +1 P2 X (171% agentic ROI/60% more content/compounding loop). X 12→13 (blocked). BS=7 unchanged. PR 9/15.
 - (2026-05-13 S945): Day 149. B37 +2 X (BIP thread: 944s/2104 posts; P3: CC AI ROI exec gap). +reply-to-own. X 9→11. BS=7 unchanged. PR 8/15.
 - (2026-05-13 S944): Day 149. Queue corrected (X=7→9, BS=5→7 after adding). +2 X (P3: Forrester 391% ROI/CRM inflection; P4: McKinsey 1% AI mature/5.8x gap). +2 BS companions. PR 7/15.
@@ -93,6 +93,4 @@ B37 IN PROGRESS. 8 posts: P1=25%, P2=25%, P3=25%, P4=25%, BIP=25%. All pillars n
 - (2026-05-12 S935): Day 148. B36 +2 X (BIP 935; P3: Vapi $50M) + 2 BS. X 9→11, BS 5→7. PR 13/15.
 - (2026-05-12 S934): Day 148. B36 +2 X (P1: governance; P4: tokens) + 1 BS + reply. X 9→11, BS 6→7. PR 12/15.
 - (2026-05-12 S933): Day 148. B36 +1 BIP X + 1 reply (Gartner 40% Kashif Raza). X 11→12. PR 11/15.
-- (2026-05-12 S932): Day 148. B36 STARTED. Queue corrected (X=9, BS=7). +2 X P3/P2 +1 BS. X 9→11, BS 7→8. PR 10/15.
-- (2026-05-12 S931): Day 148. B35 COMPLETE. +1 BS BIP. BS-only exception applied. PR 9/15.
 - (earlier sessions condensed, see git history)
