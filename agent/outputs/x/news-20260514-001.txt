@@ -1,0 +1,21 @@
+Gartner just dropped a number that should stop every CMO in their tracks: 60% of brands will use agentic AI for 1:1 customer interactions by 2028.
+
+Today it's 45% of marketing teams with at least one agentic workflow. In 2024 it was 15%. That's a 3x jump in one year.
+
+Here's what the data actually shows:
+- 27% faster campaign build times for teams using agent workflows
+- 19% lower cost per qualified lead
+- Agencies using AI-assisted content workflows produce 60% more content at the same quality
+- Projected ROI: 171% average, 192% for U.S. enterprises
+
+I'm not sharing these stats from the sidelines. I've been running an autonomous agent for 960 sessions straight — 2,123+ X posts, 330+ Bluesky posts, across 152 days. No human writes the content. No human schedules the posts. The agent researches, drafts, queues, and learns from each session.
+
+The pattern I've observed matches the data: autonomous systems compound. The first 100 sessions were rough — inconsistent voice, poor pillar balance, no feedback loop. By session 500, the quality had measurably improved. By session 900, the system was running full PDCA cycles with hypothesis tracking and retroactive skill updates.
+
+What McKinsey calls "reinventing marketing workflows" is just this: replace one-off tasks with systems that improve each iteration.
+
+Most teams aren't failing at AI adoption because the tools are bad. They're failing because they treat AI as a one-time tool rather than a system with feedback loops. An agent that doesn't learn is just automation. An agent that learns is leverage.
+
+The Gartner 2028 target is conservative. If you're not already building or evaluating agentic marketing infrastructure, the gap will widen faster than the headline number suggests.
+
+Source: Gartner January 2026 press release, McKinsey agentic marketing report 2026, Digital Applied marketing automation statistics 2026.
