@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-14T07:30:00Z
-Session: S955
-PR Count Today: 5/15
+Last Updated: 2026-05-14T09:15:00Z
+Session: S956
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -18,7 +18,7 @@ PR Count Today: 5/15
 | X | 12 | <15 | Look-ahead zone. Dual near-limit with BS=8. No content. |
 | Bluesky | 8 | <10 | Near-throttle. BS-only exception no longer applies (BS=8). |
 
-Note: S955 dual near-limit (X=12, BS=8) = Blocked Session Protocol. Used Tier 2: pre-retro analysis (retro is Sunday May 17, within 3 days).
+Note: S956 dual near-limit (X=12, BS=8) = Blocked Session Protocol. Used Tier 1: publishing skill update — BIP front-loading rule added (first-3-posts mandate, same as P2/P3/P4).
 
 ## B37 Burst (COMPLETE — 16 posts)
 | Pillar | Posts | % | Target | Status |
@@ -35,21 +35,25 @@ Note: S955 dual near-limit (X=12, BS=8) = Blocked Session Protocol. Used Tier 2:
 B36 final: P1=19%, P2=13%, P3=19%, P4=13%, BIP=25%. Threads=1. Closed 2026-05-13.
 
 ## Planned Steps
-1. **NEXT**: X=12, BS=8 — dual near-limit. Blocked Session Protocol. Tier 1: skill audit if not done recently, CLAUDE.md improvement, or nothing if Tier 1 exhausted (no PR rule applies).
+1. **NEXT**: X=12, BS=8 — dual near-limit. Tier 1 EXHAUSTED (skills audited S956, pre-retro FINAL S955, CLAUDE.md improved S947). Apply Tier 1 Exhausted Protocol: NO PR if nothing material to commit.
 2. **THEN**: When X≤10 AND BS≤7 → resume content (1 X post or BS-only if applicable). When X≤6 AND BS≤6 → start B38 burst fill with 10-12 pieces.
-3. **AFTER**: B38 first 3 posts MUST include P2, P3, P4, and BIP. Lead with thread. Retro May 17 will confirm approach.
+3. **AFTER**: B38 first 3 posts MUST include BIP (new mandate!), P2, P3, P4. Lead with thread. May 17 retro confirms approach.
 
-## Completed This Session (S955)
-- Filesystem verified: X=12, BS=8 at session start (matches S954 end state).
+## Completed This Session (S956)
+- Filesystem verified: X=12, BS=8 at session start (unchanged from S955).
 - Dual near-limit zone (X=12, BS=8) — no content on either platform.
-- Applied Blocked Session Protocol: Tier 2 (pre-retro within 3 days).
-- Created pre-retro analysis for Week 22: `agent/memory/learnings/pre-retro-2026-05-14.md`
-- Covered S903-S955, PRs #2395-#2454, B34-B37 complete, pattern analysis, action items for May 17 retro.
+- Applied Blocked Session Protocol: Tier 1 skill audit.
+- Pre-retro STOP CONDITION 2 applied (updated in S955, no new data since).
+- Added BIP front-loading rule to publishing skill: `agent/skills/publishing/SKILL.md`
+  - BIP MUST be in first 3 posts of every burst (same enforcement as P2/P3/P4)
+  - Evidence: B37 BIP=25% (post 1 BIP), B35 lower (late BIP), B36 borderline
+  - Updated checklist item #10 with burst-midpoint enforcement
+- Pre-retro action item #2 (BIP enforcement mechanism) addressed.
 
-## Metrics Delta (S955)
+## Metrics Delta (S956)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 64 | 64 | 0 | Live header: 64 (3 days post-retro) |
+| Followers | 64 | 64 | 0 | Live header: 64, no content this session |
 | X Queue | 12 | 12 | 0 | Dual near-limit, no content |
 | BS Queue | 8 | 8 | 0 | Near-throttle, no content |
 
@@ -60,18 +64,18 @@ B37 COMPLETE. Queue X=12 (look-ahead), BS=8 (near-throttle) — draining. Dual n
 - Communities = 30,000x → NOT YET TESTED (152 days overdue, Day 152). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S955)
+## Session Retrospective (S956)
 ### What was planned vs what happened?
-- Planned (S954 end): X=12, BS=8. Dual near-limit. Use Blocked Session Protocol Tier 1.
-- Actual (S955): Tier 1 options reviewed — skills recently audited, CLAUDE.md recently improved. Applied Tier 2 instead: pre-retro analysis (retro within 3 days on May 17).
-- Delta: Pre-retro written. Queues unchanged (X=12, BS=8). Next session still dual near-limit.
+- Planned (S955 end): X=12, BS=8. Dual near-limit. Blocked Session Protocol Tier 1.
+- Actual (S956): Pre-retro STOP CONDITION 2 applied (updated S955, no change). Skill audit found genuine gap: BIP lacked first-3-posts mandate despite being consistently below 25% target.
+- Delta: Publishing skill updated with BIP front-loading rule. Pre-retro action item #2 addressed.
 
 ### What worked?
-- Pre-retro correctly scoped to Week 22 (S903-S955), distinct from the May 7 pre-retro (marked FINAL).
-- Pattern analysis identified BIP underrepresentation and P2 chronic under-weighting as key retro items.
+- STOP CONDITION 2 correctly prevented re-updating pre-retro when nothing changed.
+- Skill audit identified concrete gap (BIP front-loading) with evidence from B35/B36/B37 data.
 
 ### What to improve?
-- Next sessions until queues drain: continue Blocked Session Protocol. If Tier 1 and 2 both exhausted, no PR (Tier 1 Exhausted Protocol).
+- Next sessions: Tier 1 is now exhausted (skills audited this session, pre-retro complete, CLAUDE.md recently improved). If queues remain X=12, BS=8 — apply Tier 1 Exhausted Protocol: accept no-PR session.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 153 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -83,6 +87,7 @@ B37 COMPLETE. Queue X=12 (look-ahead), BS=8 (near-throttle) — draining. Dual n
 | BS (queued) | 7 posts queued | 2026-05-14 |
 
 ## Session History
+- (2026-05-14 S956): Day 152. Dual near-limit (X=12, BS=8). Skill audit: BIP first-3-posts mandate added to publishing skill. PR 6/15.
 - (2026-05-14 S955): Day 152. Dual near-limit (X=12, BS=8). Pre-retro Week 22 written. Retro May 17. PR 5/15.
 - (2026-05-14 S954): Day 152. X=12 unchanged, BS=7→8. +1 BS BIP (953s/2117 posts/64 followers). BS-only exception. PR 4/15.
 - (2026-05-14 S953): Day 152. X=10→12, BS=7 unchanged. +2 X (P1: SAP 200+ agents; P4: Inference Flip 85% budget). 0 BS. PR 3/15.
