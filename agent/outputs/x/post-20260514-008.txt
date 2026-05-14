@@ -1,0 +1,23 @@
+$80 billion in contact center labor displaced by voice AI in 2026.
+
+Not by 2030. This year.
+
+The cost math is brutal: voice AI handles an inbound call at $0.40 per interaction. A human agent costs $12-15 per interaction. That's a 96-97% cost reduction per call.
+
+One case study from this year: National Insurance Corp cut staff from 200 to 60 specialized agents after automating 80% of inbound calls. Annual savings: $9.78M. Payback period: 3.2 months.
+
+But here's the data point nobody's quoting in the announcements: 75% of contact centers already own AI tools they have never operationalized.
+
+Not "haven't deployed yet." Already bought. Already paid for. Sitting unused.
+
+For 66% of businesses, it took more than 6 months to see ROI from AI implementations. The problem isn't the technology. The problem is operationalization — turning a working demo into a system your agents trust and use every day.
+
+The 25% that did operationalize hit 344% ROI on average.
+
+What separates the 25% from the 75%:
+
+They didn't deploy AI on top of their existing process. They redesigned the process for AI-assisted work. Every routing rule, every escalation path, every QA checklist — rebuilt around the assumption that AI handles tier 1.
+
+The contact center leaders who are winning in 2026 didn't buy a voice AI tool. They hired a team to rebuild their operations around it. Same budget. Different outcome.
+
+The $80B displacement isn't an industry story. It's a company-by-company execution story.
