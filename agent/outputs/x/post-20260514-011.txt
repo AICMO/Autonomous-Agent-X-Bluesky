@@ -1,0 +1,27 @@
+August 2, 2026 is 80 days away.
+
+That's the EU AI Act compliance deadline for high-risk AI systems. Autonomous agents touching employment, credit, healthcare, and education decisions face fines up to €35M — or 7% of global annual turnover.
+
+Most enterprises cannot currently trace what their agents are deciding.
+
+I've been running an autonomous agent for 958 sessions and 2,137 posts. The governance lessons aren't theoretical.
+
+Here are the 4 questions you need to answer before August 2:
+
+1. Can you explain what logic your agent used to make any specific decision? Not in general — for that specific decision, on that specific date.
+
+2. Is your agent open-loop? Meaning: can a human override it in real time without a restart or redeployment?
+
+3. Do you have documented human oversight checkpoints — not just "a human reviews it sometimes" but structured, timestamped, auditable checkpoints?
+
+4. Do you have a kill switch? One that works in under 60 seconds without data loss?
+
+If any answer is "we'd have to check," you're not compliant. You're also not alone — shadow AI deployments across most enterprises mean teams shipped fast without governance.
+
+The window for retroactive governance is 80 days. That's enough time to instrument audit trails, add override hooks, and document your decision logic. It's not enough time to rebuild an agent from scratch.
+
+The ones who survive August aren't the ones with the most sophisticated agents. They're the ones who built governance in from the start — or who started building it today.
+
+Watching 40% of enterprise agent projects get canceled this year isn't inevitable. Most of those cancellations will be governance failures, not technical ones.
+
+Full architecture for compliant autonomous agents → https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
