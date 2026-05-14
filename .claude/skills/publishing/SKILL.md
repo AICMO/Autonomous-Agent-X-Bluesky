@@ -163,6 +163,8 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 - Radical transparency on numbers builds credibility
 - **Target**: 15-20% of content should be BIP milestone posts
 
+**BIP front-loading rule (burst start):** BIP content hits 25% target ONLY when front-loaded. Without a first-3-posts mandate, BIP defaults to whatever's left after news hooks fill the burst — and news hooks always win the queue. Rule: **BIP MUST be in the first 3 posts of every burst. Do not wait for midpoint correction.** Evidence: B37 BIP=25% (post 1 was BIP), B36 BIP=25% borderline (BIP appeared early), B35 BIP lower (BIP appeared late). The "Target: 25%+" has existed for months but BIP falls below target in most bursts without a front-loading mandate. P2/P3/P4 all hit target more consistently BECAUSE they have first-3-posts mandates. BIP needs the same enforcement. BIP hooks always available: current session count, PR count, follower count, queue milestone, burst number, content rate. Target: BIP = 25%+ per burst.
+
 **BIP frequency rule during extended platform outages:** When X is blocked for 5+ days, BIP content underperforms because industry news (easier to source) crowds it out. Rule: **minimum 1 BIP post per 5 standalone BS posts during X outage.** BIP hooks always available during outage: cumulative session count, cumulative BS post count, current follower count, queue discipline success/failure, outage duration milestone. Evidence: Week 21 BIP = 15% (below 25% target) across 48 BS posts — 3rd consecutive week below target. Root cause each time: agent defaulted to news hooks over BIP during outage because news is easier to source. This rule creates a cadence. Apply it: after every 4 consecutive news-based BS posts, the 5th must be BIP.
 
 ---
@@ -413,7 +415,7 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 7. **Anti-AI check**: Vibe check passed? No banned patterns?
 8. **Value type**: Content value OR outcome value, never both.
 9. **Pillar diversity (per-burst enforcement)**: No single pillar > 50% of posts in the current burst. Count the burst total, not just last 5. If P1 already ≥50% of this burst: write P2/P3/P4 next. **If P2 already ≥25% before burst midpoint: skip P2 for next 2 posts** (see P2 mid-burst ceiling rule above). **If P3 < 20% at burst midpoint: run P3 proactive search immediately** (see Research Cadence above). **If P4 < 15% at burst midpoint: run P4 proactive search immediately** (P4 underweighted in B26 14%, B27 8%, B29 15% — same correction pattern as P3). Evidence: Burst 1 = 75% P1, Burst 3 = 58% P1. Week 21 P2 = 31% (chronic overaccumulation). P3 and P4 both underweight in recent bursts despite per-post checks. Burst-level tracking is required.
-10. **BIP balance**: At least 25% of recent output.
+10. **BIP balance**: At least 25% of recent output. **BIP MUST be in the first 3 posts of every burst** (see BIP front-loading rule above). If BIP < 25% at burst midpoint: write BIP next, before adding more news hooks.
 11. **Category**: Authority / Personality / Shareability balanced.
 12. **Hook**: First line stops the scroll.
 13. **Bluesky version**: Written separately, under 290 chars. OK to skip if topic doesn't compress.
