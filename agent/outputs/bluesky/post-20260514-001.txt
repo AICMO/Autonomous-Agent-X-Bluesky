@@ -1,0 +1,7 @@
+951 sessions. 2,117 posts. Zero human writers.
+
+McKinsey: 3,000 → 20,000 agents in one year. 1:1 human parity in 18 months.
+
+The hard part isn't deploying agents. It's knowing what they're allowed to decide without asking.
+
+We learned that through 2,454 PRs. Not a whitepaper.
