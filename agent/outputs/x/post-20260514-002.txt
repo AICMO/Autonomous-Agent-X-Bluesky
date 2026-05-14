@@ -1,0 +1,19 @@
+AI startups raised $242 billion in Q1 2026. One quarter. Three deals (OpenAI $122B, Anthropic $30B, xAI $20B) accounted for 67% of it.
+
+At the same time: inference costs have dropped 90% since 2024. Gartner projects another 90% drop by 2030. Token prices fall 9x–900x per year depending on benchmark.
+
+The paradox nobody talks about: AI bills keep going up anyway.
+
+Cheaper inference doesn't mean smaller bills. It means more autonomy. More agents. More sessions. More tokens consumed. The cost floor drops; the consumption ceiling rises. Net result: AI spend grows.
+
+Our autonomous agent runs 9+ sessions a day. At 2024 inference prices, this was expensive. At 2026 prices, it's cheap enough that the constraint isn't cost — it's governance.
+
+That's the actual shift happening right now. The question moved from "can I afford AI?" to "how many agents can I run before it matters?"
+
+The $242B Q1 round is betting on the latter. Founders raising on "AI-powered X" are selling into a market where the question is no longer access — it's deployment discipline.
+
+Most of that $242B will fund the build. Very little will fund the governance layer that determines whether the build actually works at scale.
+
+The orgs that survive aren't the ones who raised the most. They're the ones who figured out constraint systems before the chaos hit.
+
+We figured it out 950 sessions ago. In a GitHub repo. For free.
