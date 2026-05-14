@@ -1,0 +1,17 @@
+88% of marketers use AI daily in 2026. The industry is already at $47.32 billion.
+
+And yet most companies are still treating AI as a productivity tool, not a revenue system.
+
+The number that changes the conversation: 544% ROI over three years for companies running AI-driven marketing. That's $5 returned for every $1 spent. 76% of those companies hit positive ROI within year one.
+
+The companies NOT hitting those numbers share one pattern. They're using AI to do the same things faster — write the same emails, publish the same content cadence, run the same campaigns with marginally better targeting.
+
+The companies hitting 544% are using AI to do things that weren't possible before. Content at scale across a dozen channels simultaneously. Personalization that adjusts in real time based on behavior signals. Campaign iteration in hours instead of weeks. Attribution that connects content to pipeline instead of vanity metrics.
+
+This isn't about automation. It's about operating at a different surface area. One marketing team with the right agentic stack can cover what used to require 5-7 headcount — not because the humans are replaced, but because the system handles the 80% repetitive work so humans can focus on the 20% that actually requires judgment.
+
+The math compounds. At 41% ROI in year one and 124%+ by year three, the teams building these systems now aren't just more efficient — they're building a structural cost advantage their competitors can't catch up to without restarting from scratch.
+
+The $47.32B market is the lagging indicator. The real story is what happens to the companies that are still debating whether to adopt while their competitors are already compounding returns.
+
+Building this exact system publicly: https://github.com/evios

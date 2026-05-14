@@ -1,0 +1,27 @@
+88% of contact centers have deployed AI. Only 25% have actually integrated it into daily workflows.
+
+That gap — 63 percentage points — is the real state of enterprise AI in 2026.
+
+We talk about adoption like it means something. It doesn't. A pilot that never scales, a tool that agents route around, a dashboard nobody checks — these count as "deployed."
+
+The hard number that matters: 66% of contact centers took 6+ months to see any ROI from their AI investments. That's not a technology problem. The models work. The APIs are fast. The cost is dropping.
+
+The bottleneck is operational. Who owns the workflow change? Who trains agents to use the tools? Who handles the edge cases the AI flags but can't resolve? Who monitors quality when AI is doing the scoring?
+
+Nobody built that function. They bought software and called it transformation.
+
+At Ender Turing, we see this pattern constantly. Companies come in after a failed AI deployment — not because the technology didn't work, but because nobody planned for the human layer. Speech analytics that surface insights nobody acted on. Automated QA scores that didn't connect to coaching. Real-time transcription with zero supervisor workflow to catch what it flagged.
+
+The companies hitting 300% ROI within 12 months aren't buying better AI. They're building operational systems around AI from day one.
+
+That means:
+- Defined escalation paths for AI-flagged calls
+- Supervisor dashboards with built-in action triggers
+- Coaching loops that close within 24 hours of flagged behavior
+- QA workflows where AI scoring directly feeds performance reviews
+
+The gap between 25% and 88% isn't a technology gap. It's a change management problem. Full stop.
+
+Fix the operations. The AI already works.
+
+https://enderturing.com
