@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-14T18:00:00Z
-Session: S963
-PR Count Today: 13/15
+Last Updated: 2026-05-14T19:00:00Z
+Session: S964
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,13 +12,13 @@ PR Count Today: 13/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 152) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S963 — filesystem)
+## Queue Status (VERIFIED S964 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 12 | <15 | Look-ahead zone. B38 in progress (8/target). Max 1 X post next session. |
 | Bluesky | 8 | <10 | Near-throttle. No BS content until BS drains to ≤6. |
 
-Note: S961 added P2 post (Gartner 60% agentic AI) + BS companion. X 11→12, BS 7→8. S962/S963 = blocked sessions. S963: +1 follower (64→65, first gain this week).
+Note: S961 added P2 post (Gartner 60% agentic AI) + BS companion. X 11→12, BS 7→8. S961-S964 = blocked sessions (dual near-limit). S963: +1 follower (64→65, first gain this week).
 
 ## B38 Burst (IN PROGRESS)
 | Pillar | Posts | % | Target | Status |
@@ -35,42 +35,43 @@ Note: S961 added P2 post (Gartner 60% agentic AI) + BS companion. X 11→12, BS 
 B37 final: P1=25%, P2=19%, P3=25%, P4=25%, BIP=25%. Threads=2. Closed 2026-05-14.
 
 ## Planned Steps
-1. **NEXT**: Dual near-limit (X=12, BS=8). No content. Blocked Session Protocol: Tier 1 work (skill audit, pre-retro, or CLAUDE.md improvement).
-2. **THEN**: When X≤10 after drain, resume burst fill. Threads: 1/2 done. Need 1 more thread (P3 CC AI ROI or P4 AI Economics).
-3. **AFTER**: B38 total = 8/16. Need 8 more. P3=14%, P4=14% below target — prioritize these in remaining posts.
+1. **NEXT**: Tier 1 Exhausted (skills audited S964, pre-retro current, CLAUDE.md improved). If X=12, BS=8 still → check Tier 2 or no PR. Accept no PR if nothing material.
+2. **THEN**: When X≤10 and BS≤6 after drain, resume burst fill. Threads: 1/2 done. Need 1 more thread (P3 CC AI ROI or P4 AI Economics).
+3. **AFTER**: B38 total = 8/16. Need 8 more. P3=13%, P4=13% both below target — prioritize these in remaining posts.
 
-## Completed This Session (S963)
-- Pre-retro updated with new follower data: +1 follower (64→65) per session header. Goal gap corrected to 4,935. Follower table updated, sessions covered updated to S963.
-- State file updated with followers 65, PR count 13/15.
+## Completed This Session (S964)
+- Skill audit: all 4 skills reviewed (publishing, commenting, discovery, integrations). All current — no changes needed.
+- CLAUDE.md improvement: Clarified re-audit frequency rule. Pre-burst skill audits (e.g., S956 before B38) do NOT count as "same burst's blocked sessions." Added explicit note with S956/B38 evidence. Prevents incorrect "re-audit violation" interpretation in future sessions.
 
-## Metrics Delta (S963)
+## Metrics Delta (S964)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 64 | 65 | +1 | First gain of week — per session header |
+| Followers | 65 | 65 | 0 | Stable — no session header change |
 | X Queue | 12 | 12 | 0 | No content (dual near-limit) |
 | BS Queue | 8 | 8 | 0 | No content (BS near-throttle) |
 
 ## Active Framework
-B38 IN PROGRESS (8/16 posts). Queues X=12 (look-ahead), BS=8 (near-throttle). Pillar balance: P1=25%, P2=22%, P3=13%, P4=13%, BIP=25%. P2 recovered to target. P3/P4 still below target. Thread 1/2 done. S963: pre-retro updated with follower gain +1. Next: Blocked Session Protocol (dual near-limit X=12, BS=8). P3/P4 posts pending drain.
+B38 IN PROGRESS (8/16 posts). Queues X=12 (look-ahead), BS=8 (near-throttle). Pillar balance: P1=25%, P2=22%, P3=13%, P4=13%, BIP=25%. P2 recovered to target. P3/P4 still below target. Thread 1/2 done. S964: Skill audit (all 4 current) + CLAUDE.md improvement (pre-burst audit scope clarified). Next: Tier 1 Exhausted — no PR if nothing material. S965+ should see queue drain, enabling content. P3/P4 posts pending drain.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (154 days overdue, Day 153). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S963)
+## Session Retrospective (S964)
 ### What was planned vs what happened?
-- Planned (S962 end): Dual near-limit (X=12, BS=8). Blocked Session Protocol, Tier 1 work.
-- Actual (S963): Pre-retro updated with new follower data (+1, 64→65). Material update: follower table, goal gap, sessions covered. Followers confirmed via session header.
-- Delta: Executed correctly. Follower count change = new data = eligible pre-retro update despite same-session stop condition.
+- Planned (S963 end): Dual near-limit (X=12, BS=8). Blocked Session Protocol, Tier 1 work.
+- Actual (S964): Skill audit (all 4 current, no updates needed) + CLAUDE.md improvement (pre-burst audit scope clarification). Material output: CLAUDE.md updated.
+- Delta: Executed correctly. Skill audit confirmed all skills current. CLAUDE.md rule gap closed.
 
 ### What worked?
-- Session header follower count (65) correctly overriding stale state file count (64).
-- Pre-retro updated with +1 follower gain — first growth signal of Week 22.
-- Blocked session compliance: S963 = fourth blocked session with material output.
+- Correctly applied stop condition 2 for pre-retro (updated in prior session, no new metrics).
+- Identified genuine CLAUDE.md ambiguity: pre-burst vs same-burst audit scope in re-audit frequency rule.
+- Made targeted, evidence-based improvement to CLAUDE.md with S956/B38 evidence cited.
 
 ### What to improve?
 - P3/P4 still at 13% (below targets). Both need posts when X/BS queues drain.
-- Second thread still needed (thread 1/2 done). Target: P3 CC AI ROI or P4 AI Economics thread.
+- Second thread still needed (1/2 done). Target: P3 CC AI ROI or P4 AI Economics thread.
+- Next session (S965): Tier 1 options exhausted (skills audited, pre-retro current, CLAUDE.md improved). If X/BS still 12/8 → Tier 1 Exhausted Protocol → Tier 2 or no PR.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 154 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -82,6 +83,7 @@ B38 IN PROGRESS (8/16 posts). Queues X=12 (look-ahead), BS=8 (near-throttle). Pi
 | BS (queued) | 8 posts queued | 2026-05-14 |
 
 ## Session History
+- (2026-05-14 S964): Day 153. Dual near-limit (X=12, BS=8). Skill audit (all 4 current) + CLAUDE.md improvement (pre-burst audit scope). PR 14/15.
 - (2026-05-14 S963): Day 153. Dual near-limit (X=12, BS=8). Pre-retro updated: +1 follower (64→65), goal gap 4,936→4,935. PR 13/15.
 - (2026-05-14 S962): Day 152. Dual near-limit (X=12, BS=8). Pre-retro updated with B38 data. P3/P4 both at 13% (below target). PR 12/15.
 - (2026-05-14 S961): Day 152. B38 post 8 P2 (Gartner 60% agentic AI by 2028). +BS companion. X=11→12, BS=7→8. P2 14%→22%. PR 11/15.
@@ -96,5 +98,4 @@ B38 IN PROGRESS (8/16 posts). Queues X=12 (look-ahead), BS=8 (near-throttle). Pi
 - (2026-05-14 S952): Day 151. X=8→10, BS=7 unchanged. +2 X (P3: CC AI 88%/25% gap; P2: $47.32B/544% ROI). 0 BS. PR 2/15.
 - (2026-05-14 S951): Day 150. B37 COMPLETE (16 posts). +2 X (BIP/P1: McKinsey 20K agents; P4: $242B VC + inference paradox) +1 BS. X 6→8, BS 6→7. PR 1/15.
 - (2026-05-13 S950): Day 149. B37 +2 (P1: agent governance 40% fail; P3: voice AI $0.07/min). X 10→12, BS=8 unchanged. B37=14/16. PR 13/15.
-- (2026-05-13 S949): Day 149. B37 +2 (P4: 95% AI pilot failure/9x savings; P2: McKinsey agentic 10-15x). X 8→10, BS 6→8. Pillars balanced 25/25/25/25. PR 12/15.
 - (earlier sessions condensed, see git history)
