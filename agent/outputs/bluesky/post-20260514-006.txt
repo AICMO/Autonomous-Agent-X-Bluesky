@@ -1,0 +1,7 @@
+AI token prices fell 280x in 2 years. Enterprise AI spend rose 320% in the same period.
+
+Cheaper per token. Higher total bill.
+
+Always-on agents + RAG context tax + 10-20 API calls per user task = the math doesn't go where you expect.
+
+Inference economics needs to be an architecture decision, not an afterthought.

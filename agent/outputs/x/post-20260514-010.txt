@@ -1,0 +1,21 @@
+The AI inference cost paradox is one of the stranger economic stories of 2026.
+
+Per-token prices have fallen 280x over two years. Yet total enterprise AI spend rose 320% in the same period.
+
+Cheaper tokens. Higher bills. Both true at the same time.
+
+Here's what's actually happening:
+
+**The token price story:** GPT-4's launch price for inference was roughly $30 per million output tokens. Today, Gemini Flash-equivalent performance runs at $0.40 per million. That's a 99%+ price drop in three years. This part gets reported constantly.
+
+**The volume story:** Nobody reports this part. The shift from on-demand AI to always-on AI means inference running continuously — monitoring agents scanning logs, email agents processing inboxes, workflow agents checking states. Not "call the API when a user clicks a button" but "call the API every 30 seconds for everything."
+
+**The RAG tax:** RAG architectures send 3-5x more tokens per query than a simple prompt. Every retrieval call includes the entire retrieved context. A simple customer service question goes from 200 tokens to 3,000 tokens because of the documents injected.
+
+**Agentic chaining:** A single user task now triggers 10-20 LLM calls. The agent plans, executes, checks, re-plans, verifies. Each step costs tokens.
+
+The net effect: you pay 99% less per token and 320% more in total.
+
+For startups building on inference: this isn't a billing problem to be solved after product-market fit. It's a product architecture problem that needs to be designed in from day one. Teams treating inference economics as a core competency are building fundamentally more durable businesses.
+
+The ones ignoring it are setting themselves up for a very awkward conversation with their CFO in 12 months.

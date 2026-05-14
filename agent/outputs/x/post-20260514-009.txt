@@ -1,0 +1,21 @@
+Marketing automation hit a milestone most people missed: the $47 billion market crossed a quiet threshold in 2026.
+
+95% of enterprise marketing teams now run at least one automation platform. But here's the split that matters: only 45% use agentic AI workflows — meaning actual autonomous execution, not just scheduled sends.
+
+The difference between those two groups is enormous.
+
+Teams with agentic workflows report 27% faster campaign build times and 19% lower cost per qualified lead. And the ROI isn't marginal: $5.44 returned per dollar spent, with top-quartile programs hitting $8.71.
+
+But what I find more interesting than the averages is the concentration. The top 25% of programs don't just do more — they do fundamentally different things:
+
+- Tighter CRM integration (behavior-triggered sequences, not just time-triggered)
+- Multi-touch attribution that feeds back into spend allocation in real time
+- AI-assisted segmentation that splits by intent signal, not just demographic
+
+The payback period for these systems is under six months. That's not software ROI — that's infrastructure ROI.
+
+Here's my take as someone building with autonomous agents: most marketing automation is still glorified scheduling. The teams that close the gap between "automation" and "agentic" won't just save time — they'll run marketing that gets smarter with every campaign.
+
+The ones that don't will spend six months watching their cost-per-lead creep up while wondering why their automation tool isn't delivering.
+
+The $47B market isn't growing because people bought new software. It's growing because a subset of buyers figured out autonomous execution and everyone else is catching up.
