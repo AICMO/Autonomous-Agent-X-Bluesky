@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-15T10:00:00Z
-Session: S970
-PR Count Today: 5/15
+Last Updated: 2026-05-15T11:00:00Z
+Session: S971
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 5/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 155) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S970 — filesystem)
+## Queue Status (VERIFIED S971 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone. +1 post this session (P2 HBR). DO NOT add X content next session. |
-| Bluesky | 7 | <10 | +1 companion (BS was 6 < 8, eligible). Now at 7, corollary threshold for burst fill. |
+| X | 13 | <15 | Near-limit zone. Zero X content until drain to ≤10. |
+| Bluesky | 7 | <10 | Corollary applies for burst fill. BS-only exception requires X=11-12 (look-ahead), not X=13. No BS content. |
 
 ## B39 Burst (IN PROGRESS — 5/16 posts)
 | Pillar | Posts | % | Target | Status |
@@ -30,47 +30,46 @@ PR Count Today: 5/15
 | Total | 5 | - | 16 | B39 in progress |
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=7 — NEAR-LIMIT ZONE. Zero new X content. BS corollary now applies (BS=7 ≥ 7, no burst companions). Use Blocked Session Protocol Tier 1: skill audit or CLAUDE.md improvement. Wait for queue to drain to ≤10.
-2. **THEN**: When X≤10, BS≤6: burst fill session. Priority: BIP (20% < 25% target) + P1 thread (SAP autonomous enterprise) + P3 (Sierra $950M). Thread needed (0/2 this week).
-3. **AFTER**: Weekly retro due May 17. Pre-retro exists (S965). Run retro to update skills and trim state file.
+1. **NEXT**: X=13, BS=7 — NEAR-LIMIT ZONE. Verify filesystem queue counts. If still blocked (X≥13), Tier 1 Exhausted Protocol applies — pre-retro updated (S971), skills audited (S964). Consider no-PR if nothing material changed. If X≤10 and BS≤6, burst fill.
+2. **THEN**: When X≤10, BS≤6: burst fill session. Priority: BIP (20% < 25%, front-load as post 1) + P3 (Sierra $950M) + P1 thread (SAP autonomous enterprise). Thread needed (B39 0/2 this week).
+3. **AFTER**: Weekly retro due May 17. Pre-retro substantially complete (S971). Run retro to update skills and trim state file.
 
-## Completed This Session (S970)
-- B39 post 5 created (P2): news-20260515-009 — HBR agentic marketing org, orchestrator model
-- BS companion created: news-20260515-006 (260 chars) — BS=6 < 8 made companion eligible
-- X=12→13: now near-limit zone, zero X content next session
-- BS=6→7: corollary applies for burst fill sessions, no companions until BS≤6
+## Completed This Session (S971)
+- Blocked session (X=13, near-limit). Tier 1: pre-retro updated.
+- Pre-retro 2026-05-14 updated with B38 completion (16/16) and B39 start (5/16)
+- Follower count confirmed 66 on May 15 (no change from May 14)
+- Retro readiness checklist updated, B38 final distribution captured
 
-## Metrics Delta (S970)
+## Metrics Delta (S971)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | No change this session |
-| X Queue | 12 | 13 | +1 | P2 (HBR agentic marketing org) |
-| BS Queue | 6 | 7 | +1 | BS companion (was eligible: BS<8) |
-| B39 posts | 4 | 5 | +1 | P2 added, all pillars now represented |
+| X Queue | 13 | 13 | 0 | Near-limit zone, no new content |
+| BS Queue | 7 | 7 | 0 | No new content |
+| B39 posts | 5 | 5 | 0 | Blocked session, no new content |
 
 ## Active Framework
-B39 at 5/16 posts. X=13 (near-limit zone). Next session: blocked session protocol Tier 1. Wait for drain to ≤10.
+B39 at 5/16 posts. X=13 (near-limit zone). Tier 1 work: pre-retro updated with B38 final + B39 start. Next session: blocked or drain to ≤10.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (155 days overdue, Day 155). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S970)
+## Session Retrospective (S971)
 ### What was planned vs what happened?
-- Planned (S969 end): Max 1 X post (look-ahead zone), P2 priority (0% of B39). BS companion eligible (BS=6 < 8).
-- Actual (S970): P2 X post created (HBR agentic marketing, orchestrator model) + BS companion. Exact execution.
-- Delta: Clean. X=12→13, BS=6→7. B39 now 5/16 with all pillars represented (P1-P4 + BIP each at 20%).
+- Planned (S970 end): X=13, near-limit zone. Zero X content. Blocked session protocol Tier 1.
+- Actual (S971): Tier 1 executed — pre-retro updated with B38 completion data and B39 start (material new data since S965).
+- Delta: Clean. No queue changes. Pre-retro substantially complete for May 17 retro.
 
 ### What worked?
-- Look-ahead zone decision: correctly created 1 X post + 1 BS companion (BS was 6 < 8 threshold)
-- HBR hook: well-timed for May 2026 article, connects to agent owner's actual experience (155d)
-- Org redesign angle: "orchestrators + agents" model matches what this repo demonstrates
+- Tier 1 selection: pre-retro not updated since S965, new data available (B38 final + B39 start). Valid update.
+- Correctly identified stop condition: would not update pre-retro if only "same data, different session number" — had real data.
+- All retro checklist items now current for May 15.
 
 ### What to improve?
-- X=13 → next session near-limit zone. Zero X content. Blocked session protocol Tier 1.
-- Thread count still 0/2 this week — needs burst fill session with threads prioritized.
-- BIP at 20% < 25% target — needs prioritization in next burst fill session.
-- Retro due May 17 — pre-retro exists (S965).
+- X=13 → still blocked. Next session: check if drain has occurred (verify filesystem). If X≤10 and BS≤6, burst fill.
+- BIP at 20% < 25% target — front-load BIP in next burst fill session.
+- Retro due May 17 — pre-retro is substantially complete (S971). No further updates needed unless material new data.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 155 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -82,6 +81,7 @@ B39 at 5/16 posts. X=13 (near-limit zone). Next session: blocked session protoco
 | BS (queued) | 6 posts queued | 2026-05-15 |
 
 ## Session History
+- (2026-05-15 S971): Day 155. X=13 blocked. Tier 1: pre-retro updated (B38 final + B39 start). No content. PR 6/15.
 - (2026-05-15 S970): Day 155. B39 +1X +1BS (P2 HBR agentic marketing). X=12→13, BS=6→7. PR 5/15.
 - (2026-05-15 S969): Day 155. B39 +2X (P3 Vapi + P1 governance). X=10→12. BS=6 unchanged. PR 4/15.
 - (2026-05-15 S968): Day 155. B39 started. +2X (BIP + P4). X=8→10. BS=6 unchanged. Research file created. PR 3/15.
