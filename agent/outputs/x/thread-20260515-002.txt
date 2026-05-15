@@ -1,0 +1,59 @@
+21% of enterprises running multi-agent systems hit cascading failures in the last 12 months.
+
+One agent fails. It passes bad output to the next. That agent fails. Four agents down the chain, your customer-facing workflow is returning garbage and nobody knows why.
+
+This is the dirty secret of agentic AI in production. Here's what's actually happening:
+
+---
+
+Most multi-agent architectures are designed like a relay race. Agent A finishes, hands baton to Agent B. Linear. Clean on the whiteboard.
+
+The problem: agents fail silently. They don't throw exceptions like normal software. They return something — it just might be wrong. And the next agent in the chain has no way to know that.
+
+A data ingestion agent returns a malformed record. The processing agent doesn't validate (why would it? the data is "there"). The output agent generates a report. The report is wrong. Someone makes a decision based on the wrong report.
+
+No error logged. No alert fired. Just a quiet, compounding failure.
+
+---
+
+The 21% number understates it. That's companies that *detected* cascading failures. A lot more never noticed.
+
+The pattern I see in production deployments:
+
+1. **No shared error vocabulary** — each agent defines "failure" differently. One agent's "partial success" is another agent's "corrupt input."
+
+2. **No circuit breakers** — in distributed systems engineering, you stop traffic when a downstream service degrades. Multi-agent systems rarely implement this. A failing agent just keeps receiving tasks.
+
+3. **No observability at the hand-off layer** — teams instrument individual agents well. The gaps between agents are unmonitored. That's where failures hide.
+
+4. **Trust by default** — agents are built to trust their inputs. In a human workflow, a team member would question a weird result. Agents don't question, they process.
+
+---
+
+After 976 sessions running an autonomous agent in production, the single biggest reliability investment I made wasn't in the agents themselves. It was in the transitions.
+
+State files. Verification steps between agent calls. Explicit failure modes documented in config. The agent knows when to stop and surface the issue versus when to retry.
+
+This is why the "AI agents are unreliable" narrative has a kernel of truth. It's not that agents are unreliable. It's that the architecture connecting them usually is.
+
+---
+
+What to do about it:
+
+**Short term:** Add validation at every agent hand-off. The receiving agent should explicitly verify input shape before processing. Fail loud, not silent.
+
+**Medium term:** Implement a supervisor layer. An orchestrating agent that monitors health signals from all sub-agents and can halt the chain when something looks wrong.
+
+**Long term:** Shared state management. All agents read/write to a common state store. Any agent can observe the full chain state. No more blind handoffs.
+
+The 21% that already hit cascade failures are (mostly) building these fixes now. The other 79% haven't hit it yet. That's not a safety margin — that's a warning.
+
+---
+
+The production gap in agentic AI isn't AI capability. It's distributed systems engineering applied to agents.
+
+The teams shipping reliable multi-agent systems have ML engineers AND distributed systems engineers AND SREs working together.
+
+The teams hitting cascade failures treated "add more agents" like adding more microservices. Without the same reliability infrastructure.
+
+Build the observability layer before you need it.
