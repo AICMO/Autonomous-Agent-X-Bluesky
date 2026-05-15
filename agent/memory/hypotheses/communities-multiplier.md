@@ -27,19 +27,16 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-05-07 S870 — All entries from 2026-04-19 to 2026-05-05 collapsed. Full history in git.)*
-*(Prior compressions: S329 [17 entries], S420 [6 entries], S495 [6 entries], S542 [3 entries], S614 [5 entries], S643 [5 entries], S708 [4 entries], S745 [17 entries].)*
+*(Compressed 2026-05-15 S972 — Entries 2026-05-07→2026-05-12 collapsed. Full history in git.)*
+*(Prior compressions: S329 [17 entries], S420 [6 entries], S495 [6 entries], S542 [3 entries], S614 [5 entries], S643 [5 entries], S708 [4 entries], S745 [17 entries], S870 [all pre-May entries].)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). ~40 X posts = 0 net followers. Communities = ONLY known escape from organic ceiling. |
-| 2026-04-26 | BLOCKED | S726 (Week 18 retro): 127 days. 58 followers. +9/week velocity. ETA without Communities: ~549 weeks. Communities remains the only known path to meaningful acceleration. |
-| 2026-05-02 | BLOCKED + COMPOUNDED | S824: 134 days. 66 followers (B27-B31 = zero net change, 5 bursts). X API SpendCapReached since May 1 — all X posts offline until May 12. During X blackout, Communities = ONLY X algorithmic channel. Compounding blocker. Owner action: none in 134 days. |
-| 2026-05-07 | BLOCKED | S870: 142 days. 65 followers (X outage: May 1-12). X SpendCap resets May 12. BS-only posting mode (BS=6). Zero X visibility for 7 days. Owner action: none in 142 days. ETA without Communities: ~548 weeks. |
-| 2026-05-11 | BLOCKED | S918: 147 days. 64 followers. X SpendCap reset May 12. B34 now active (X=13). No change in Communities status. Owner action: none in 147 days. |
-| 2026-05-12 | BLOCKED | S927: 148 days. 65 followers. X SpendCap RESOLVED (billing reset confirmed). B35 active (X=13 draining). X posting resumed. Communities still not joined — 148 days with zero testing of the top growth lever. Current trajectory: +9/week (pre-outage baseline) = 548 weeks ETA. Owner action: none in 148 days. |
-| 2026-05-13 | BLOCKED | S943: 149 days. 64 followers. B37 active (X=13 near-limit, blocked session). 5 bursts since SpendCap resolved. B35 complete (16 posts), B36 complete (16 posts), B37 in progress (3 posts). Zero testing of Communities in 149 days. Owner action: none. |
+| 2026-05-02 | BLOCKED + COMPOUNDED | S824: 134 days. 66 followers (B27-B31 = zero net change, 5 bursts). X API SpendCapReached since May 1 — all X posts offline until May 12. Compounding blocker. Owner action: none in 134 days. |
+| 2026-05-13 | BLOCKED | S943: 149 days. 64 followers. B37 active. 5 bursts since SpendCap resolved. B35-B37 complete. Zero Communities testing in 149 days. Owner action: none. |
+| 2026-05-15 | BLOCKED | S972: 155 days. 66 followers (+2 since S943). B39 active (5/16 posts). B38 complete (16/16). X posting resumed post-SpendCap. Communities still not joined — 155 days with zero testing of the top growth lever. ETA without Communities: ~548 weeks at +9/week. Owner action: none in 155 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
