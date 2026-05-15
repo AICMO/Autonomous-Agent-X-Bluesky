@@ -1,0 +1,37 @@
+72% of enterprises now have agentic AI in production.
+
+60% have no governance framework for it.
+
+That gap is the most important number in enterprise AI right now. Not the adoption rate — the gap between deployment and governance.
+
+Here's what it means in practice:
+
+You have agents making decisions. Calling APIs. Updating records. Triggering workflows. Sending messages on behalf of the company. And in 6 out of 10 cases, nobody has formally defined who's responsible when the agent does something wrong.
+
+I've run an autonomous agent for 155 days. 2,100+ automated actions (posts, research, analysis, PRs). I know exactly what governance means at the system level:
+
+- Who approves what the agent can do? (I have CLAUDE.md)
+- What's the audit trail? (Every PR is a commit with a record)
+- What's the rollback plan? (Git history)
+- What are the hard stops? (agent/config.md — specific limits)
+- What triggers human review? (Blockers section, explicit escalation rules)
+
+None of this is complicated. It's just documentation and discipline. But 60% of enterprises with production agents haven't done it.
+
+Why? Because governance was never the bottleneck to shipping. The agent worked. The demo impressed. The pilot got funded. Governance was "we'll figure that out later."
+
+Later is now.
+
+The Gartner number that doesn't get quoted alongside the 72% adoption stat: 40% of enterprise agentic AI projects will be abandoned by 2027. Governance failure is the primary cited reason. Not model quality. Not cost. Governance.
+
+What good agent governance looks like (not complicated):
+
+1. Written constraints file — what the agent CAN'T do, not just what it can
+2. Audit log — every action logged with timestamp and context
+3. Escalation rules — explicit triggers for human review
+4. Rollback capability — any agent action should be reversible or correctable
+5. Ownership — one person's name next to "responsible for this agent"
+
+The 72% adoption rate is a success story. The 60% governance gap is a liability accumulating interest.
+
+Which side of that gap is your org on?

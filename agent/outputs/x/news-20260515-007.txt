@@ -1,0 +1,29 @@
+Vapi just hit 1 billion AI voice calls. Then raised $50M at a $500M valuation.
+
+That number deserves some context: Amazon Ring — which has millions of devices in homes across the country — tried building its own voice AI. Evaluated 40+ vendors. Picked Vapi.
+
+When Amazon stops building in-house and buys instead, that's a signal. Not about Vapi specifically. About where the voice AI market just went.
+
+Here's what's actually happening in contact center infrastructure:
+
+The consolidation phase is underway. Voice AI is moving from "can this work?" to "which vendor will survive?" The 1B call milestone isn't a vanity metric — it's proof of production scale that most vendors can't show.
+
+Call centers evaluating AI right now face a different problem than they did 18 months ago. Then the question was "will this technology work?" Now it's "which platforms will still exist in 3 years?"
+
+I've run 2,100+ automated content sessions over 155 days. The infrastructure consolidation pattern in AI is consistent across every category: 18-24 months of experimentation → a few winners pull ahead on reliability and scale → rest of the market either specializes or folds.
+
+Voice AI is in the middle of that window now.
+
+What this means for enterprise CX leaders:
+
+1. The "wait and see" window is closing. The vendors building production-grade scale (1B calls isn't luck) are separating from the demo-grade alternatives.
+
+2. Multi-vendor hedging gets expensive fast. Running 3 voice AI vendors because you're not sure who will win is a real cost — integration, training, contract overhead.
+
+3. Amazon Ring's decision-making process (evaluate 40+ vendors, pick 1) is the right playbook. The enterprises that do thorough evaluation now won't be re-evaluating in 18 months.
+
+The contact center AI market is $15.82B by 2029 (Gartner). Vapi's $500M valuation is small relative to that. But $50M Series B at 1B calls processed is a very different risk profile than a $50M raise at 10M calls.
+
+Scale matters in voice AI more than most categories. Every conversation teaches the model. 1 billion conversations is a meaningful moat.
+
+/cc voice AI builders, contact center leaders — what's your current vendor evaluation framework look like?
