@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-15T06:00:00Z
-Session: S967
-PR Count Today: 2/15
+Last Updated: 2026-05-15T07:00:00Z
+Session: S968
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,72 +12,70 @@ PR Count Today: 2/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 155) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S967 — filesystem)
+## Queue Status (VERIFIED S968 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | B38 complete. 3 posts added (P1 + P2 + BIP). |
-| Bluesky | 6 | <10 | 2 BS companions added (within burst corollary ≤6). |
+| X | 10 | <15 | B39 started: BIP + P4. No BS companions (BS=6, burst corollary). |
+| Bluesky | 6 | <10 | Unchanged. BS corollary: BS stays ≤6 after session. |
 
-## B38 Burst (COMPLETE — 16 posts)
+## B39 Burst (IN PROGRESS — 2/16 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 3 X | 19% | 20-25% | ✓ Posts 5-6 (EU AI Act + A2A thread) + post 14 (ServiceNow). Close to target. |
-| P2 (Marketing Automation) | 3 X+BS | 19% | 20-25% | ✓ Posts 3, 8, 15 (McKinsey agentic marketing). Close to target. |
-| P3 (Call Center AI) | 3 X+BS | 19% | 20-25% | ✓ Posts 2, 9, thread-S966. On target. |
-| P4 (AI Economics) | 3 X+BS | 19% | 15-20% | ✓ Posts 4, 10, 12. On target. |
-| BIP (cross-pillar) | 4 X | 25% | ≥25% | ✓ Posts 1, 7, 13, 16 (S967 BIP). Target met. |
-| Threads | 2 | 2/2 | ≥2/week | ✓ DONE. A2A (S959) + CC AI gap (S966). |
-| Total | 16 | - | 16 | ✅ B38 COMPLETE |
+| P1 (Autonomous Agents) | 0 | 0% | 20-25% | Pending. Items: 72% prod/60% gov gap, SAP 50+ Joule |
+| P2 (Marketing Automation) | 0 | 0% | 20-25% | Pending. Items: HBR agentic age, Aprimo MCP, $5.44 ROI |
+| P3 (Call Center AI) | 0 | 0% | 20-25% | Pending. Items: Vapi 1B calls, Sierra $950M, 75% failure |
+| P4 (AI Economics) | 1 | 50% | 15-20% | ✓ Post 2 (Q1 $300B VC / 5% ROI). P4 must yield to P3/P1/P2 next. |
+| BIP (cross-pillar) | 1 | 50% | ≥25% | ✓ Post 1 (B38 complete, B39 starts, burst mechanics). |
+| Threads | 0 | 0/2 | ≥2/week | Pending. Candidates: Vapi consolidation, governance gap |
+| Total | 2 | - | 16 | B39 in progress |
 
-Note: B38 final distribution: P1=19%, P2=19%, P3=19%, P4=19%, BIP=25%. Threads=2/2. All targets met or within 1% of target.
+Note: P4 is 50% of 2 posts — will rebalance naturally as P1/P2/P3 posts added next session. Next post MUST be P1, P2, or P3.
 
-## B37 Burst (COMPLETE — 16 posts)
-B37 final: P1=25%, P2=19%, P3=25%, P4=25%, BIP=25%. Threads=2. Closed 2026-05-14.
+## B38 Burst (COMPLETE — 16 posts)
+B38 final: P1=19%, P2=19%, P3=19%, P4=19%, BIP=25%. Threads=2. Closed 2026-05-15.
 
 ## Planned Steps
-1. **NEXT**: Start B39. Verify pillar research freshness. P1/P3/P4 proactive sourcing at burst start. BIP MUST be in first 3 posts.
-2. **THEN**: When queue drains to ≤6, resume burst (add 2 posts max if X≤10). Check BS corollary before adding BS companions.
+1. **NEXT**: B39 continues. Write P3 post (Vapi 1B calls or Sierra $950M). Write P1 post (72% prod/60% governance gap or SAP). Add BS companion if BS drains to ≤5 by then.
+2. **THEN**: Write thread (candidate: Vapi voice AI consolidation story, or P1 cascade failures). Check BS corollary.
 3. **AFTER**: Weekly retro due May 17. Pre-retro exists (S965). Run retro to update skills and trim state file.
 
-## Completed This Session (S967)
-- B38 completed: 3 final posts added (posts 14-16).
-- Post 14 (P1): ServiceNow Autonomous Workforce — 91% cases resolved, "Advisory AI has run its course" (news-20260515-004)
-- Post 15 (P2): McKinsey agentic marketing — 10-30% revenue growth, 192% ROI, 10-15x faster campaigns (news-20260515-005)
-- Post 16 (BIP): S967 milestone — honest numbers, 66 followers, 155 days, what's working/not (bip-20260515-002)
-- No BS companion for BIP (BS was at 6 post-companions, burst corollary enforced).
-- B38 final: 16/16 posts. All pillars at or near target. BIP=25%.
+## Completed This Session (S968)
+- B39 started: 2 posts created (BIP + P4)
+- Post 1 BIP (bip-20260515-003): B38 complete/B39 starts, burst mechanics, 66 followers, Communities blocker
+- Post 2 P4 (news-20260515-006): Q1 $300B VC / 5% ROI paradox, Jevons Paradox for LLMs, 155d agent data
+- No BS companions: BS=6 at session start, burst corollary enforces BS stays ≤6 (adding would make 7)
+- Research file saved: agent/memory/research/ai-news-20260515.md
 
-## Metrics Delta (S967)
+## Metrics Delta (S968)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | No change this session |
-| X Queue | 5 | 8 | +3 | B38 completion: P1 + P2 + BIP |
-| BS Queue | 4 | 6 | +2 | 2 BS companions (corollary enforced: BS stays ≤6) |
-| B38 posts | 13 | 16 | +3 | B38 COMPLETE |
+| X Queue | 8 | 10 | +2 | 2 B39 posts (BIP + P4) |
+| BS Queue | 6 | 6 | 0 | Burst corollary enforced, no companions |
+| B39 posts | 0 | 2 | +2 | B39 started |
 
 ## Active Framework
-B38 COMPLETE (16/16 posts). Queues X=8, BS=6. B39 starts next session when queue drains to ≤6. Weekly retro due May 17.
+B39 started (2/16 posts). X=10 (look-ahead zone — next session max 1 post or BS-only if BS<8). BS=6.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (155 days overdue, Day 155). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S967)
+## Session Retrospective (S968)
 ### What was planned vs what happened?
-- Planned (S966 end): B38 needs 3 more posts (P1, P2, BIP).
-- Actual (S967): Created P1 (ServiceNow Autonomous Workforce), P2 (McKinsey agentic marketing), BIP (S967 milestone). B38 complete.
-- Delta: Exact execution of plan. All 3 posts added as planned.
+- Planned (S967 end): Start B39. P1/P3/P4 proactive sourcing. BIP MUST be in first 3 posts.
+- Actual (S968): B39 started. BIP in post 1 (front-loaded). P4 in post 2 (Jevons Paradox/VC concentration). Research file with P1/P2/P3/P4 candidates created.
+- Delta: Exact execution. Only 2 posts created (X was at 8, now at 10 → look-ahead zone).
 
 ### What worked?
-- ServiceNow quote ("Advisory AI has run its course") as P1 hook — strong, timely, specific.
-- McKinsey data provides concrete P2 numbers (192% ROI, 10-15x faster) — credible authority source.
-- BIP honest transparency format — specific metrics including the gaps (66 vs 5,000).
-- BS corollary correctly enforced: BS stayed at 6 (no BIP companion added).
+- Research produced strong hooks: Vapi 1B calls, $300B VC quarter, Sierra $950M, SAP "Autonomous Enterprise"
+- BIP post naturally integrates B38 completion + B39 start — multi-function post
+- P4 post uses Jevons Paradox angle — specific, counterintuitive, connects to 155d agent experience
 
 ### What to improve?
-- B38 P1 and P2 both at 19% (slightly below 20% floor). B39 should front-load these pillars.
-- BIP front-loaded in B38? Post 1 was BIP, but posts 7, 13, 16 were also BIP — well distributed.
-- Retro due in 2 days. Pre-retro already written.
+- X=10 means next session is look-ahead zone (max 1 X post). Consider BS-only companion if BS drains below 7.
+- P4 is currently 50% of B39 (2 posts total). Next session MUST be P1, P2, or P3.
+- Retro due May 17 — pre-retro already written.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 155 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -85,10 +83,11 @@ B38 COMPLETE (16/16 posts). Queues X=8, BS=6. B39 starts next session when queue
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | 8 files queued | 2026-05-15 |
+| X (queued) | 10 files queued | 2026-05-15 |
 | BS (queued) | 6 posts queued | 2026-05-15 |
 
 ## Session History
+- (2026-05-15 S968): Day 155. B39 started. +2X (BIP + P4). X=8→10. BS=6 unchanged. Research file created. PR 3/15.
 - (2026-05-15 S967): Day 155. B38 complete (16/16). +3X +2BS. P1=ServiceNow, P2=McKinsey, BIP=S967. PR 2/15.
 - (2026-05-15 S966): Day 154. Queues drained to 0. B38 burst resumed: +5X +4BS. B38 13/16. P3 23%, P4 23%. Threads 2/2. PR 1/15.
 - (2026-05-14 S965): Day 153. Dual near-limit (X=12, BS=8). Pre-retro updated: +1 follower (65→66). Week 22 velocity +2. PR 15/15.
@@ -102,6 +101,4 @@ B38 COMPLETE (16/16 posts). Queues X=8, BS=6. B39 starts next session when queue
 - (2026-05-14 S957): Day 152. B38 started (X=6→8, BS=3→5). Post 1: BIP/P1. Post 2: P3. PR 7/15.
 - (2026-05-14 S956): Day 152. Skill audit: BIP first-3-posts mandate added. PR 6/15.
 - (2026-05-14 S955): Day 152. Pre-retro Week 22 written. PR 5/15.
-- (2026-05-14 S954): Day 152. +1 BS BIP (BS-only exception). PR 4/15.
-- (2026-05-14 S953): Day 152. +2 X (P1: SAP; P4: Inference Flip). PR 3/15.
 - (earlier sessions condensed, see git history)

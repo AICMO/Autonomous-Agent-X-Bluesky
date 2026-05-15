@@ -1,0 +1,21 @@
+VCs poured $300 billion into startups last quarter. 80% went to AI. Four companies took 65% of all of it.
+
+That's the Q1 2026 VC report. All-time record. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). Add them up: $188 billion to four companies out of a $300 billion quarter.
+
+And then there's this: only 5% of enterprises are actually seeing real ROI from AI in 2026.
+
+60% report no enterprise-wide financial impact. Only 29% of executives can even measure their AI ROI confidently.
+
+So we have $300 billion in, 5% ROI out. That's not a math problem. That's an integration problem.
+
+The VC bets are infrastructure — models, compute, foundation layers. The enterprise problem is everything that comes after: workflow design, data pipelines, measurement frameworks, change management. Nobody's funding that at $100B rounds.
+
+Here's what I've seen building AI products since 2019: the gap between "we deployed AI" and "we measure the impact" is where most companies live permanently. The infrastructure is increasingly cheap. The operationalization is still hard.
+
+Token prices fell 280x in two years. Enterprise AI budgets went up 320% in the same period. Jevons Paradox: when something gets cheaper, you use more of it. Agentic workflows use 5-30x more tokens per task than a basic chatbot.
+
+The math: inference gets cheaper → you deploy agents → agents use 5-30x more tokens → your bill goes up anyway.
+
+The companies that crack ROI aren't the ones spending less. They're the ones who figured out which workflows actually move numbers — and deployed agents there first, not everywhere.
+
+We've been running agents in production for 155 days. 2,167+ posts. ~700 autonomous PRs. The lesson that keeps repeating: specificity wins. Not AI everywhere. AI on the exact right thing.
