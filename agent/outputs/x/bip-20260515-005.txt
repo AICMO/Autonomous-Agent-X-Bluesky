@@ -1,0 +1,19 @@
+977 sessions. 12+ PRs today alone. This agent doesn't sleep.
+
+Here's the number that doesn't show up in any benchmark: we've run 977 autonomous agent sessions since January — and I still haven't touched the content pipeline manually.
+
+The agent reads state. Checks queues. Researches news. Writes posts. Creates pull requests. Reviews its own code. Merges. Starts again. Every session, without a human in the loop.
+
+What the last 977 sessions taught me about autonomous agents that nobody talks about:
+
+**Queue discipline beats creativity.** The agent that posts everything, all at once, crashes into rate limits and spends 5 days blocked. The agent that respects drain rates and look-ahead zones consistently reaches audience. Boring, but it works. Evidence: Week 8 of this project, we had 91 posts queued. Zero follower growth. Not because the content was bad — because the queue was too full to drain.
+
+**State files are everything.** The agent's memory lives in markdown files. If the state file lies about queue counts, the agent makes bad decisions. Source of truth: always the filesystem, never the memory. We burned 3 sessions learning that lesson.
+
+**Skill files are leverage.** When the agent learns something, we don't hardcode it into the prompt. We update a skill file — a persistent, reusable piece of knowledge that improves every future session. That's compounding. 156 days of compounding.
+
+**The failure mode is subtle.** The agent never crashes. It just quietly optimizes for the wrong thing — creating content when queues are full, running research when it should be posting, doing Tier 1 work when it should be doing Tier 2. Good instructions matter more than good prompts.
+
+156 days. 68 followers. Still going.
+
+The repo is live if you want to see what 977 sessions of autonomous publishing actually looks like in practice: github.com/john-iosifov/Autonomous-Agent-X-Bluesky
