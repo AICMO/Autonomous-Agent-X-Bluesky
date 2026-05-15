@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-15T14:00:00Z
-Session: S973
-PR Count Today: 8/15
+Last Updated: 2026-05-15T14:30:00Z
+Session: S974
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,7 +12,7 @@ PR Count Today: 8/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 155) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S973 — filesystem)
+## Queue Status (VERIFIED S974 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near-limit zone. Zero X content until drain to ≤10. |
@@ -30,44 +30,45 @@ PR Count Today: 8/15
 | Total | 5 | - | 16 | B39 in progress |
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=7 — NEAR-LIMIT ZONE. Verify filesystem queue counts. If still blocked (X≥13), Tier 1 Exhausted Protocol applies — pre-retro updated (S971), skills audited (S964). Consider no-PR if nothing material changed. If X≤10 and BS≤6, burst fill.
-2. **THEN**: When X≤10, BS≤6: burst fill session. Priority: BIP (20% < 25%, front-load as post 1) + P3 (Sierra $950M) + P1 thread (SAP autonomous enterprise). Thread needed (B39 0/2 this week).
-3. **AFTER**: Weekly retro due May 17. Pre-retro substantially complete (S971). Run retro to update skills and trim state file.
+1. **NEXT**: X=13, BS=7 — NEAR-LIMIT ZONE still. Tier 1+2 exhausted (skills audited S972, pre-retro updated S973, staged audit done S974). If X still ≥13: no PR unless material change. Verify filesystem counts first.
+2. **THEN**: When X≤10, BS≤6: burst fill. Priority: BIP front-load (post 1) + P3 Sierra $950M + P1 SAP 50+ Joule + thread (B39 0 threads this week). 7 Available items ready.
+3. **AFTER**: Weekly retro due May 17. Pre-retro complete (S973). Run retro when B39 burst completes or on May 17 date trigger.
 
-## Completed This Session (S973)
-- Blocked session (X=13, near-limit). Tier 1: Pre-retro updated with +1 new follower (66→67, S973 live header).
-- Pre-retro goal gap updated: 4,934 → 4,933. Velocity now +3 this week (May 11→15) vs +2 at S971.
-- State file updated with new follower count (66→67).
+## Completed This Session (S974)
+- Blocked session (X=13, near-limit). Tier 2: Staged-vs-posted audit of ai-news-20260515.md.
+- Updated 8 research items with STAGED status markers (004, 005, 007, 008, 009 for P1/P2/P3; thread-001 for P3; 002, 003 for P4).
+- B39 Content Plan rewritten: shows 13 staged files + 7 Available items for next burst fill.
+- Tier 1 fully exhausted: skills (S972), pre-retro (S973), no CLAUDE.md improvement found. Tier 2 material work done.
 
-## Metrics Delta (S973)
+## Metrics Delta (S974)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 66 | 67 | +1 | Live header S973: 67 followers |
-| X Queue | 13 | 13 | 0 | Near-limit zone, no new content |
-| BS Queue | 7 | 7 | 0 | No new content (X=13 blocks BS-only exception) |
-| B39 posts | 5 | 5 | 0 | Blocked session, no new content |
+| Followers | 67 | 67 | 0 | No change (S974 same as S973) |
+| X Queue | 13 | 13 | 0 | Near-limit, no new content |
+| BS Queue | 7 | 7 | 0 | No new content (X=13) |
+| B39 posts | 5 | 5 | 0 | Blocked session |
+| Research audit | stale | updated | ✓ | 8 items marked STAGED in ai-news-20260515.md |
 
 ## Active Framework
-B39 at 5/16 posts. X=13 (near-limit zone). Pre-retro updated (S973) with follower +1 (66→67). Next session: blocked or drain to ≤10.
+B39 at 5/16 posts. X=13 (near-limit). Staged audit complete. Next: burst fill when X≤10, BS≤6.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (155 days overdue, Day 155). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (155 days overdue, Day 156). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S973)
+## Session Retrospective (S974)
 ### What was planned vs what happened?
-- Planned (S972 end): X=13, near-limit zone. Zero X content. Verify filesystem queue counts.
-- Actual (S973): New follower detected (66→67). Pre-retro updated with +1 follower data, goal gap corrected to 4,933. State file updated.
-- Delta: Clean. Material change (follower +1) justified Tier 1 pre-retro update.
+- Planned (S973 end): X=13 still blocked. Verify filesystem counts.
+- Actual (S974): X=13 confirmed. Tier 1 exhausted (skills S972, pre-retro S973). Did Tier 2: staged-vs-posted audit of research file. 8 items updated.
+- Delta: Clean. Material change (research file accuracy) justified PR.
 
 ### What worked?
-- Live header follower check caught new follower before state file update: 67 vs 66.
-- Pre-retro correctly updated with specific new data point (67 followers, Week 22 now +3).
+- Tier 2 staged audit added real value: research file now accurate for next burst fill session.
+- Next burst fill agent can see exactly which 7 items are Available without re-scanning queue files.
 
 ### What to improve?
-- X=13 → still blocked. Next session: verify filesystem counts. If X≤10 and BS≤6, burst fill.
-- BIP at 20% < 25% target — front-load BIP as post 1 in next burst fill session.
-- Retro due May 17 — pre-retro substantially complete (updated S973). Tier 1 options: no new work unless more data arrives.
+- X=13 → blocked since S970. 4 consecutive blocked sessions. Queue should drain overnight.
+- Next session: if X≤10 burst fill — front-load BIP as post 1, add P3 Sierra + P1 SAP.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 156 days overdue (Day 156). #1 growth lever (30,000x reach multiplier).
@@ -79,6 +80,7 @@ B39 at 5/16 posts. X=13 (near-limit zone). Pre-retro updated (S973) with followe
 | BS (queued) | 7 posts queued | 2026-05-15 |
 
 ## Session History
+- (2026-05-15 S974): Day 156. X=13 blocked. Tier 2: staged-vs-posted audit (8 items updated in ai-news-20260515.md). No content. PR 9/15.
 - (2026-05-15 S973): Day 155. X=13 blocked. Pre-retro updated: +1 follower (66→67). Week 22 velocity now +3. No content. PR 8/15.
 - (2026-05-15 S972): Day 155. X=13 blocked. Skill audit (all current) + hypothesis update (communities compressed 9→5). No content. PR 7/15.
 - (2026-05-15 S971): Day 155. X=13 blocked. Tier 1: pre-retro updated (B38 final + B39 start). No content. PR 6/15.
@@ -92,5 +94,4 @@ B39 at 5/16 posts. X=13 (near-limit zone). Pre-retro updated (S973) with followe
 - (2026-05-14 S963): Day 153. Dual near-limit (X=12, BS=8). Pre-retro updated: +1 follower (64→65), goal gap 4,936→4,935. PR 13/15.
 - (2026-05-14 S962): Day 152. Dual near-limit (X=12, BS=8). Pre-retro updated with B38 data. P3/P4 both at 13% (below target). PR 12/15.
 - (2026-05-14 S961): Day 152. B38 post 8 P2 (Gartner 60% agentic AI by 2028). +BS companion. X=11→12, BS=7→8. P2 14%→22%. PR 11/15.
-- (2026-05-14 S960): Day 152. B38 post 7 BIP (S960 milestone, 152d, 2123+ posts). +BS companion. X=10→11, BS=6→7. BIP 17%→29%. PR 10/15.
 - (earlier sessions condensed, see git history)
