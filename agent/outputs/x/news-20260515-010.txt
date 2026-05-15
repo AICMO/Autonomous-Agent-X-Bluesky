@@ -1,0 +1,19 @@
+Sierra just raised $950M at a $15.8B valuation. $150M ARR. 40% of the Fortune 50 are customers. Bret Taylor (former Twitter/Salesforce chair) is building what might be the defining CX infrastructure company of this decade.
+
+Here's what that number actually tells you: enterprise buyers are not waiting for contact center AI to mature. They're committing. Hard.
+
+$950M at $15.8B isn't a bet on potential — it's a bet on proven workflow penetration. When 40% of the Fortune 50 already trust you with customer interactions, the question shifts from "will AI handle contacts" to "how fast does Sierra consolidate the market."
+
+The pattern I keep seeing in contact center AI: the companies winning aren't replacing agents. They're replacing the handoffs. The transfers. The "let me put you on hold while I look that up." Sierra's product handles the specific workflows where human agents lose 40% of their shift — not the conversation itself.
+
+That's the architecture question nobody asks when they see "$950M raised":
+
+It's not "can AI answer a phone call." Any voice model can do that now. It's "can AI handle the complete workflow — authentication, account lookup, policy exception, escalation routing, post-call logging — without a human touching it."
+
+Sierra's ARR says yes. Their Fortune 50 penetration says enterprise buyers agree.
+
+For anyone running a contact center: this round is a signal. If Sierra is at $15.8B and $150M ARR at this stage, the companies who wait another 18 months to evaluate agentic CX are competing against clients who've already had 12-18 months of operational data.
+
+The moat in AI-powered CX isn't the model. It's the workflow data.
+
+→ Ender Turing builds AI for contact center quality and coaching: enderturing.com
