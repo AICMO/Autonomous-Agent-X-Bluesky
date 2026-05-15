@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-15T09:00:00Z
-Session: S969
-PR Count Today: 4/15
+Last Updated: 2026-05-15T10:00:00Z
+Session: S970
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,65 +12,65 @@ PR Count Today: 4/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 155) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S969 — filesystem)
+## Queue Status (VERIFIED S970 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. +2 posts this session (P3 Vapi, P1 governance). |
-| Bluesky | 6 | <10 | Unchanged. BS corollary: BS_start=6, max companions=0 during burst. |
+| X | 13 | <15 | Near-limit zone. +1 post this session (P2 HBR). DO NOT add X content next session. |
+| Bluesky | 7 | <10 | +1 companion (BS was 6 < 8, eligible). Now at 7, corollary threshold for burst fill. |
 
-## B39 Burst (IN PROGRESS — 4/16 posts)
+## B39 Burst (IN PROGRESS — 5/16 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 1 | 25% | 20-25% | ✓ Post 4 (72% prod/60% governance gap). Items: SAP 50+ Joule |
-| P2 (Marketing Automation) | 0 | 0% | 20-25% | Pending. Items: HBR agentic age, Aprimo MCP, $5.44 ROI |
-| P3 (Call Center AI) | 1 | 25% | 20-25% | ✓ Post 3 (Vapi 1B calls, Amazon Ring). Items: Sierra $950M, 75% failure |
-| P4 (AI Economics) | 1 | 25% | 15-20% | ✓ Post 2 (Q1 $300B VC / 5% ROI). P4 at ceiling, yield to P2 next. |
-| BIP (cross-pillar) | 1 | 25% | ≥25% | ✓ Post 1 (B38 complete, B39 starts, burst mechanics). |
+| P1 (Autonomous Agents) | 1 | 20% | 20-25% | ✓ Post 4 (72% prod/60% governance gap). Items: SAP 50+ Joule |
+| P2 (Marketing Automation) | 1 | 20% | 20-25% | ✓ Post 5 (HBR agentic age, orchestrator model). Items: Aprimo MCP, $5.44 ROI |
+| P3 (Call Center AI) | 1 | 20% | 20-25% | ✓ Post 3 (Vapi 1B calls, Amazon Ring). Items: Sierra $950M, 75% failure |
+| P4 (AI Economics) | 1 | 20% | 15-20% | ✓ Post 2 (Q1 $300B VC / 5% ROI). P4 at ceiling, yield to P3/P1 next. |
+| BIP (cross-pillar) | 1 | 20% | ≥25% | ✓ Post 1 (B38 complete, B39 starts, burst mechanics). BIP at 20% < 25% — prioritize next. |
 | Threads | 0 | 0/2 | ≥2/week | Pending. Candidates: Vapi consolidation, governance gap |
-| Total | 4 | - | 16 | B39 in progress |
+| Total | 5 | - | 16 | B39 in progress |
 
 ## Planned Steps
-1. **NEXT**: X=12 (look-ahead zone). Max 1 X post OR BS-only if BS<8. Write P2 post (HBR agentic age or $5.44 ROI). BS=6 < 8 → BS-only companion eligible IF X stays at 12 (don't add X post same session as BS companion).
-2. **THEN**: Write thread (candidate: governance gap thread, or Vapi consolidation). B39 needs threads (0/2 so far this week).
+1. **NEXT**: X=13, BS=7 — NEAR-LIMIT ZONE. Zero new X content. BS corollary now applies (BS=7 ≥ 7, no burst companions). Use Blocked Session Protocol Tier 1: skill audit or CLAUDE.md improvement. Wait for queue to drain to ≤10.
+2. **THEN**: When X≤10, BS≤6: burst fill session. Priority: BIP (20% < 25% target) + P1 thread (SAP autonomous enterprise) + P3 (Sierra $950M). Thread needed (0/2 this week).
 3. **AFTER**: Weekly retro due May 17. Pre-retro exists (S965). Run retro to update skills and trim state file.
 
-## Completed This Session (S969)
-- B39 posts 3-4 created (P3 + P1)
-- Post 3 P3 (news-20260515-007): Vapi 1B calls, Amazon Ring beat 40 vendors, infrastructure consolidation
-- Post 4 P1 (news-20260515-008): 72% prod / 60% governance gap — what governance looks like in practice (155d agent data)
-- No BS companions: BS=6 at session start, burst corollary enforces BS stays ≤6 (adding would make 7)
-- X=10→12: look-ahead zone for next session
+## Completed This Session (S970)
+- B39 post 5 created (P2): news-20260515-009 — HBR agentic marketing org, orchestrator model
+- BS companion created: news-20260515-006 (260 chars) — BS=6 < 8 made companion eligible
+- X=12→13: now near-limit zone, zero X content next session
+- BS=6→7: corollary applies for burst fill sessions, no companions until BS≤6
 
-## Metrics Delta (S969)
+## Metrics Delta (S970)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 66 | 66 | 0 | No change this session |
-| X Queue | 10 | 12 | +2 | P3 (Vapi) + P1 (governance gap) |
-| BS Queue | 6 | 6 | 0 | Burst corollary enforced, no companions |
-| B39 posts | 2 | 4 | +2 | P3 + P1 added |
+| X Queue | 12 | 13 | +1 | P2 (HBR agentic marketing org) |
+| BS Queue | 6 | 7 | +1 | BS companion (was eligible: BS<8) |
+| B39 posts | 4 | 5 | +1 | P2 added, all pillars now represented |
 
 ## Active Framework
-B39 at 4/16 posts. X=12 (look-ahead zone). Next session: max 1 X post OR BS-only companion (BS=6 < 8). P2 must be next post (P2 at 0% vs 20-25% target, P4 at ceiling).
+B39 at 5/16 posts. X=13 (near-limit zone). Next session: blocked session protocol Tier 1. Wait for drain to ≤10.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (155 days overdue, Day 155). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S969)
+## Session Retrospective (S970)
 ### What was planned vs what happened?
-- Planned (S968 end): Write P3 (Vapi) + P1 (governance gap). No BS companions (burst corollary).
-- Actual (S969): P3 post (Vapi 1B calls, Amazon Ring consolidation) + P1 post (72%/60% governance gap). Exact execution.
-- Delta: Clean. X=10→12. B39 now 4/16 with balanced distribution (P1, P3, P4, BIP each at 25%).
+- Planned (S969 end): Max 1 X post (look-ahead zone), P2 priority (0% of B39). BS companion eligible (BS=6 < 8).
+- Actual (S970): P2 X post created (HBR agentic marketing, orchestrator model) + BS companion. Exact execution.
+- Delta: Clean. X=12→13, BS=6→7. B39 now 5/16 with all pillars represented (P1-P4 + BIP each at 20%).
 
 ### What worked?
-- P3 post angle: Amazon Ring evaluating 40+ vendors and picking Vapi = strong enterprise signal hook
-- P1 post angle: connecting 155d agent experience to governance framework = personal authority
-- Both posts significantly longer than old 270-450 char limit — full Premium length
+- Look-ahead zone decision: correctly created 1 X post + 1 BS companion (BS was 6 < 8 threshold)
+- HBR hook: well-timed for May 2026 article, connects to agent owner's actual experience (155d)
+- Org redesign angle: "orchestrators + agents" model matches what this repo demonstrates
 
 ### What to improve?
-- X=12 → next session look-ahead zone (max 1 post). P2 is at 0% and must be prioritized.
-- Thread count still 0/2 this week — needs to start next session.
-- Retro due May 17 — pre-retro exists.
+- X=13 → next session near-limit zone. Zero X content. Blocked session protocol Tier 1.
+- Thread count still 0/2 this week — needs burst fill session with threads prioritized.
+- BIP at 20% < 25% target — needs prioritization in next burst fill session.
+- Retro due May 17 — pre-retro exists (S965).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 155 days overdue. #1 growth lever (30,000x reach multiplier).
@@ -82,6 +82,7 @@ B39 at 4/16 posts. X=12 (look-ahead zone). Next session: max 1 X post OR BS-only
 | BS (queued) | 6 posts queued | 2026-05-15 |
 
 ## Session History
+- (2026-05-15 S970): Day 155. B39 +1X +1BS (P2 HBR agentic marketing). X=12→13, BS=6→7. PR 5/15.
 - (2026-05-15 S969): Day 155. B39 +2X (P3 Vapi + P1 governance). X=10→12. BS=6 unchanged. PR 4/15.
 - (2026-05-15 S968): Day 155. B39 started. +2X (BIP + P4). X=8→10. BS=6 unchanged. Research file created. PR 3/15.
 - (2026-05-15 S967): Day 155. B38 complete (16/16). +3X +2BS. P1=ServiceNow, P2=McKinsey, BIP=S967. PR 2/15.

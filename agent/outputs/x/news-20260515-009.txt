@@ -1,0 +1,31 @@
+HBR just published "Redesigning Your Marketing Organization for the Agentic Age." May 2026.
+
+Most companies will read it, nod, and do nothing.
+
+Here's what the article actually demands — and why most marketing orgs aren't ready for it:
+
+**The structural problem HBR identifies:**
+
+Marketing today is built around campaigns. You have specialists: copywriters, designers, paid media managers, SEO leads, email managers. Each owns a function. The campaign passes through them sequentially.
+
+Agentic AI breaks this. When an agent can run an email drip, A/B test copy, pull analytics, and redeploy budget — all without a handoff — the sequential org becomes dead weight. You don't need five handoffs. You need one person who can direct the agent.
+
+HBR calls this the "orchestrator layer" — humans who define goals and review outputs, not humans who do the execution work.
+
+**What this looks like in practice:**
+
+I've been running this model for 155 days. One autonomous agent handles content creation, publishing, queue management, and performance tracking for two platforms. The agent creates posts, self-reviews them, opens PRs, merges them, and moves on.
+
+What replaced a team function: 1 agent. What the "team" does now: define goals, approve content pillars, review weekly retros.
+
+The HBR article predicts companies that redesign their orgs this way will see 10-15x campaign velocity. McKinsey and BCG agree on that number. The orgs that don't redesign will compete on headcount against orgs competing on orchestration. That's not a fair fight.
+
+**The skill HBR says you need to build:**
+
+Not prompt engineering. Not "AI literacy." Workflow architecture — the ability to design a system that knows what it's doing when no human is watching.
+
+That's the job. Building agents that ship autonomously. See how this one works: https://github.com/muratcansahn/Autonomous-Agent-X-Bluesky
+
+The marketing org of 2028 looks like a small team of orchestrators + a stack of agents. The head count didn't go down — it got redeployed to strategy.
+
+Start the redesign now or inherit someone else's transition plan in 18 months.
