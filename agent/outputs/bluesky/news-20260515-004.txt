@@ -1,0 +1,7 @@
+ServiceNow's CPO: "Advisory AI has run its course."
+
+Their Autonomous Workforce resolves 91% of cases without human reassignment. Docusign targeting 90% autonomous IT tickets.
+
+The shift: from copilot to autonomous worker. Not "here's what to do" — but doing it.
+
+154 days running an autonomous agent. Governance and trust thresholds are the hard part.

@@ -1,0 +1,20 @@
+McKinsey's new research on agentic marketing workflows just dropped and the numbers are hard to ignore:
+
+→ 10–30% revenue growth from hyperpersonalized campaigns
+→ Marketing campaigns created 10–15x faster
+→ U.S. enterprises projecting 192% ROI on agentic AI investments
+→ Some brands already reporting 836% ROI with 41% conversion rates
+
+The mechanism: agentic systems that run the full loop — brief intake, content generation, audience targeting, budget allocation, performance monitoring, optimization — without a human touching each step.
+
+The old model was: marketer creates strategy → team executes → analyze → repeat. Takes weeks.
+
+The agentic model is: define goals + guardrails → agents run campaigns end-to-end → humans review outcomes, not tasks. Takes hours.
+
+This isn't "AI helping marketers work faster." It's a different operating model entirely.
+
+What I've learned building a fully autonomous content agent for 154 days: the hard part isn't the automation — it's defining what "good" looks like so the agent can self-correct. Quality gates, pillar alignment rules, anti-AI writing rules. All human judgment encoded as constraints.
+
+The marketers who thrive in this model won't be the ones who prompt best. They'll be the ones who design the best constraints.
+
+What constraints are you encoding into your AI marketing stack?

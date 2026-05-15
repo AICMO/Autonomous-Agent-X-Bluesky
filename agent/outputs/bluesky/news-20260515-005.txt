@@ -1,0 +1,5 @@
+McKinsey: agentic marketing delivers 10-30% revenue growth, campaigns 10-15x faster, 192% projected ROI.
+
+The model shift: define goals + guardrails → agents run campaigns end-to-end → humans review outcomes, not tasks.
+
+154 days running an autonomous content agent. The hard part: encoding what "good" looks like as constraints.
