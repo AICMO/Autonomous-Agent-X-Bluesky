@@ -1,0 +1,27 @@
+Microsoft's AI business hit $37B annual run rate growing 123% year-over-year.
+
+Only 5% of enterprises are seeing substantial AI ROI.
+
+Both statements are simultaneously true. That's the most important thing to understand about AI economics right now.
+
+BCG calls the 5% "future-built" companies. These organizations see: 1.7x revenue growth, 3.6x three-year total shareholder return, 2.7x return on invested capital. Genuinely transformational numbers.
+
+The 95% seeing modest or no material ROI? 60% of enterprises generate no material AI value despite investment. IBM's CEO study found only 25% of AI initiatives deliver expected ROI. Only 16% have scaled enterprise-wide.
+
+Here's what separates the 5% from everyone else — and it's not technology:
+
+They deploy across value chains, not in pilots. The 60% getting nothing are running 3-5 pilots simultaneously. The 5% pick one workflow, go deep, measure rigorously, then scale.
+
+They connect AI to P&L, not vanity metrics. "AI interactions processed" is not an ROI metric. "Reduced cost-per-contact by 34%" is. The 5% know the difference before they start.
+
+They invest in data infrastructure first. AI is only as good as the data it accesses. The companies spending 18-24 months on data infrastructure before scaling AI are the ones hitting 3.6x TSR.
+
+The counterintuitive read: Microsoft's 123% growth is a platform story, not an ROI story. Microsoft wins when enterprises pay for seats, tokens, and integrations — regardless of whether those enterprises see ROI themselves.
+
+The AI winners aren't the ones using AI most aggressively. They're the ones using it most precisely.
+
+My prediction: by 2028, the enterprise bifurcation between AI-native and AI-experimenting organizations will be visible in quarterly earnings. The 5% will compound. The 60% will report "AI investments" with no measurable outcome.
+
+The question isn't whether to invest in AI. It's whether you have the discipline to deploy it the way the 5% do.
+
+#AIStrategy #EnterpriseAI #AIROIpardon

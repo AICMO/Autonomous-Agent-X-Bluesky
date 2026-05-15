@@ -1,0 +1,7 @@
+Token costs fell 280x in 2 years. AI inference spending is still rising.
+
+Big tech spends $700B on AI infra in 2026. 60-70% is inference now, not training.
+
+The price floor hit a level where "AI for this" stopped being a calculation and became the default.
+
+$6.7T cumulative by 2030. #AIEconomics

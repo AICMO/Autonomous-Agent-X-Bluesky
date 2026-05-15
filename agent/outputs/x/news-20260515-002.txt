@@ -1,0 +1,25 @@
+Token costs fell 280x in two years. Enterprise AI inference spending is still rising.
+
+Big tech will spend $700B on AI infrastructure in 2026. 60-70% of that compute is now inference — not training. The model-building phase is largely done. We're in the deployment era.
+
+Amazon: $200B committed. Google: $175-185B. Microsoft: ~$150B annualized. Meta: $115-135B.
+
+And yet the paradox gets stranger: when GPT-4 launched, output tokens cost $60/M. Today they're fractions of a cent — a 280x collapse in price. By every economic textbook, demand should moderate as prices fall. Instead, usage exploded faster than costs fell.
+
+Why? Because at $60/M, you run AI on your most critical workflows. At fractions of a cent, you run it on everything.
+
+The inflection point wasn't the technology. It was the price floor hitting a level where "AI for this process" stopped being a cost-benefit calculation and became the default decision.
+
+This is what the $700B is really telling you:
+
+The hyperscalers aren't betting on AI being useful. They already know it's useful. They're betting on a world where compute capacity is the binding constraint on enterprise value creation — and they want to own that constraint.
+
+At $1.6T annually by 2031, this is no longer an investment. It's the new cost of doing business.
+
+The question for every startup and enterprise isn't "should we use AI?" It's "how much inference capacity do we need to stay competitive?" That's a fundamentally different question than the one most companies are asking right now.
+
+Projections: $6.7T cumulative worldwide AI infrastructure spend by 2030.
+
+We're not in an AI boom. We're in the foundation-laying phase of the AI economy.
+
+#AIEconomics #InferenceAI #TechInfrastructure
