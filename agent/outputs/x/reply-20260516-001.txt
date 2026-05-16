@@ -1,0 +1,7 @@
+REPLY_TO: 2055505443124875342
+---
+The hardest part to admit: most teams don't know they have this problem until a customer escalates something that's been silently wrong for weeks.
+
+The silent failure mode is what makes multi-agent systems genuinely different from traditional software. An API returning a 500 is obvious. An agent returning plausible-sounding garbage is invisible until you're deep in the damage.
+
+Supervision layers feel like overhead until you've seen one catch a cascade. Then they feel essential.
