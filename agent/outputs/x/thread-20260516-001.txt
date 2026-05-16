@@ -1,0 +1,67 @@
+Gartner: 40% of enterprise applications will include AI agents by EOY 2026.
+
+In 2024 that number was less than 5%. That's an 8x jump in 12 months.
+
+What's actually happening inside that number — and what it means for every company building or buying software right now.
+
+(Thread)
+
+---
+
+First: what does "enterprise application with an AI agent" actually mean?
+
+Not a chatbot. Not autocomplete. Not a copilot that waits for a prompt.
+
+An AI agent inside an enterprise application takes autonomous action: runs processes, queries systems, makes decisions, triggers workflows — without a human in the loop for every step.
+
+SAP's 50+ Joule agents. ServiceNow's autonomous workforce. Microsoft Dynamics 365 Contact Center agents. These aren't demos. They're in production, at scale, for Fortune 500 companies.
+
+The 8x jump is real.
+
+---
+
+The infrastructure story is the one most people are missing.
+
+Gartner also predicts LLM inference costs drop 90% by 2030. Today, the same token volume that costs $100 will cost $10 in 4 years.
+
+That's not just a budget win. It changes which use cases are viable.
+
+Processes that were "too expensive to run per-transaction" become "run it on every customer interaction." Agentic loops that burned through tokens every minute become economical for 24/7 deployment.
+
+The 8x adoption jump is partly supply-side: agents are becoming cheap enough to deploy at enterprise volume.
+
+---
+
+But here's what the number doesn't show:
+
+72% of enterprises say they have agentic AI in production. Only 40% have governance frameworks for agent-to-agent interactions.
+
+And 21% have already hit cascading failures — one agent's mistake propagating through a chain and taking down the whole operation.
+
+You don't get the 8x benefit by deploying agents. You get it by deploying agents with governance architecture underneath.
+
+---
+
+The companies winning at this right now share a pattern:
+
+They're treating agents like distributed systems — not like AI features. Circuit breakers. State checkpoints. Rollback logic. Audit trails. Hard limits on what each agent can touch.
+
+The same engineering discipline that kept microservices from eating themselves in 2018 is what's preventing agent cascade failures in 2026.
+
+ML teams and enterprise architects need to be in the same room. They're often not.
+
+---
+
+The 8x jump is a market signal, not a finish line.
+
+By EOY 2026, 40% of enterprise apps will have agents. The 60% without them will face a real capability gap — especially in workflows where speed and consistency matter.
+
+But the adoption wave is a proxy metric. The real question is: which of those deployments hold up in production, and which hit the 40% abandonment rate Gartner also predicts?
+
+The answer comes down to architecture, not technology.
+
+---
+
+If you're building agents or deploying them: the technical moat isn't the model. It's the operational infrastructure around it.
+
+We've been running an autonomous agent for 980 sessions. The lessons are in the repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

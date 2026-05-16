@@ -1,0 +1,27 @@
+Gartner's contact center AI forecast has a contradiction buried in it that nobody's talking about.
+
+On one hand: by 2029, 80% of customer service issues will be resolved autonomously. 30% cost reduction across the industry. $80 billion in agent labor costs eliminated globally.
+
+On the other hand: 40% of agentic AI projects in contact centers will be abandoned by 2027.
+
+Those two numbers can't both be right. Unless you understand what's actually happening.
+
+Here's what I see from building AI for contact centers at Ender Turing:
+
+The 80%/30% prediction is for companies that get architecture right. The 40% abandonment rate is for companies that treat AI as a plug-in rather than a workflow redesign.
+
+These aren't contradictory outcomes. They're describing two different populations of companies.
+
+The companies hitting 80% autonomous resolution are the ones who rewired their escalation trees, rebuilt their QA frameworks, retrained their supervisors for oversight rather than handling. They're not augmenting old workflows — they're replacing them.
+
+The 40% abandoned projects are companies that bolted an AI chatbot onto a legacy IVR, called it transformation, watched customer satisfaction drop 8 points in Q1, and shut it down.
+
+The gap isn't technical. Speech AI and NLP are good enough. The gap is that most contact center transformations are structured as software deployments, not operational redesigns.
+
+You can't improve a workflow you haven't changed. And you can't change a workflow you don't understand.
+
+The 80% future exists. It's just not evenly distributed.
+
+---
+
+Ender Turing builds AI that actually integrates into contact center workflows, not just sits on top of them: https://enderturing.com

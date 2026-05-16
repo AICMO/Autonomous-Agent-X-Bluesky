@@ -1,0 +1,5 @@
+Aprimo's new AI content ops platform ships with an MCP server.
+
+"AI librarian" that understands brand taxonomy, approval workflows, compliance — and orchestrates instead of just generating.
+
+Content ops is a supply chain problem. AI is finally being built like it.

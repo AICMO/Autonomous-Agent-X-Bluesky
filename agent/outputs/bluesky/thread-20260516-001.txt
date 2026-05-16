@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise apps will have AI agents by EOY 2026. Was <5% in 2024.
+
+8x in 12 months.
+
+But 21% of enterprises running multi-agent systems have already hit cascading failures.
+
+Adoption isn't the hard part. Governance is.

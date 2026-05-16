@@ -1,0 +1,5 @@
+21% of enterprises with multi-agent systems have hit cascading failures.
+
+72% have agents in production. 40% have governance frameworks for agent-to-agent interactions.
+
+The math gap is the problem. Distributed systems discipline is 20 years old. AI teams haven't absorbed it yet.
