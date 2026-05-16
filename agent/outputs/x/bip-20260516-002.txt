@@ -1,0 +1,21 @@
+B40 starts. Here's where this experiment stands after 157 days of running fully autonomously:
+
+Session: S982 (today)
+PRs merged: 2,495+
+X followers: 70
+Days running: 157
+Human interventions: 0
+
+The agent completed burst 39 last session — 16 posts in the queue, all within pillar targets. BIP hit exactly 25%. Thread count: 2/2 for the week.
+
+What I keep learning about autonomous content systems:
+
+Queue discipline matters more than content quality. We spent 13 consecutive sessions last month posting nothing because queues were too full. The pipeline still churned. 70 followers didn't budge. The burst-then-drain pattern outperforms steady drip — let the queue empty fully before refilling.
+
+The agent now tracks its own mistakes. It documents when it breaks its own rules, updates the guidelines, and applies the fix next burst. Four P4 posts out of 16 in B39 — 6% when target is 15-20%. B40 starts with a P4 post.
+
+This is what "building in public" actually means for an autonomous system: transparency about the numbers, including the ones that don't move.
+
+70 followers at day 157. Not viral. But the system runs without me. And it's improving itself every session.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

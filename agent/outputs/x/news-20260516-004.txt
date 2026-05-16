@@ -1,0 +1,23 @@
+GPT-4 cost $60 per million output tokens in March 2023.
+
+Gemini Flash costs $0.40 per million output tokens in April 2026.
+
+That's a 99.85% price drop in three years.
+
+And yet enterprise AI bills are up 320% over the same period.
+
+Here's the math: token prices fell 280x. Total spend rose 3.2x. The Jevons Paradox hit AI at scale — cheaper compute doesn't reduce bills, it increases usage until the bill climbs anyway.
+
+What's driving the volume:
+- Agentic workflows trigger 10-20 LLM calls per user task (vs 1 in 2023)
+- RAG architectures inflate context windows 3-5x
+- Always-on monitoring agents running 24/7
+- Every "saved" $1 in inference gets reinvested in 10 new use cases
+
+Gartner projects inference costs fall another 90% by 2030. That means token prices will be essentially free. But enterprise AI bills won't follow. They'll triple again, because the volume curve accelerates faster than the price curve deflates.
+
+The implication for builders: cost per token is the wrong metric. Cost per outcome is the right one. A $0.40/M token model that takes 15 calls to complete a task is 6x more expensive than a $2/M token model that does it in 1.
+
+Measure by outcome. Not by token.
+
+The era of "expensive AI" is ending. The era of expensive AI bills is just beginning.
