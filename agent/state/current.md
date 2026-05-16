@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-16T05:00:00Z
-Session: S985
-PR Count Today: 5/15
+Last Updated: 2026-05-16T05:15:00Z
+Session: S986
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,17 +12,17 @@ PR Count Today: 5/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 157) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S985 — filesystem)
+## Queue Status (VERIFIED S986 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead ceiling. +1 reply (reply-20260516-001, 150x window). No more X content. |
-| Bluesky | 7 | <10 | +1 BIP standalone (bip-20260516-002). BS=7, under 8 threshold. |
+| X | 12 | <15 | Look-ahead ceiling. No new X content. |
+| Bluesky | 8 | <10 | +1 BS-only P2 standalone (news-20260516-004). BS=7→8. Now at near-throttle. |
 
 ## B40 Burst (IN PROGRESS — 7/10 posts + 1 reply)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
 | P1 (Autonomous Agents) | 1 | 14% | 20-25% | ✓ Gartner 8x thread (thread-20260516-001). |
-| P2 (Marketing Automation) | 1 | 14% | 20-25% | ✓ Aprimo agentic content ops (news-20260516-005). |
+| P2 (Marketing Automation) | 2 | 22% | 20-25% | ✓ Aprimo agentic content ops (X). +1BS: AI alignment gap (news-20260516-004). |
 | P3 (Call Center AI) | 2 | 29% | 20-25% | ✓ Twilio 19Q + CX practitioner playbook (news-20260516-008). |
 | P4 (AI Economics) | 2 | 29% | 15-20% | ✓ LLM pricing collapse + OpenAI unit econ (news-20260516-007). |
 | BIP (cross-pillar) | 1 | 14% | ≥25% | BS BIP added (bip-20260516-002). Still below 25% — next X session priority. |
@@ -30,46 +30,41 @@ PR Count Today: 5/15
 | Total | 7 | 100% | 10 | B40 in progress. Reply-to-own added (150x window). |
 
 ## Planned Steps
-1. **NEXT**: X=12 (look-ahead ceiling). Next session: check if queue drained to ≤10. If X≤10: 1 BIP X post + 1 more piece. Priority: BIP post for X (BIP=14%, needs 25%) + Thread #2.
+1. **NEXT**: X=12 (look-ahead ceiling), BS=8 (near-throttle — no BS). If X drains to ≤10: write BIP X post (priority, BIP=14%) + Thread #2. If X still ≥11: blocked session — Tier 1 work.
 2. **THEN**: Weekly retro due May 17. Pre-retro complete (S973, updated S979). Run full retro when triggered (mode=retro).
-3. **AFTER**: B40 completion (target 10 posts). BIP needs uplift to 25%+ on X. Thread #2 needed.
+3. **AFTER**: B40 completion (10 posts). Need 3 more X posts. BIP target 25%+. Thread #2 required.
 
-## Completed This Session (S985)
-- Reply-to-own created (reply-20260516-001): cascade failures thread final post (ID 2055505443124875342). Run completed 27 min ago — 150x window captured.
-- BS BIP standalone created (bip-20260516-002): Session 985 milestone, queue discipline lesson. BS=6→7.
-- Queue X=11→12 (reply), BS=6→7 (BIP). Both within limits.
+## Completed This Session (S986)
+- BS-only P2 standalone created (news-20260516-004): "AI Without Alignment" — enterprise AI governance gap. 240 chars. BS=7→8.
+- BS now at near-throttle (8). No more BS content until BS drains to ≤6.
 
-## Metrics Delta (S985)
+## Metrics Delta (S986)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 70 | 70 | 0 | Live metric from session header |
-| X Queue | 11 | 12 | +1 | +reply (150x window, cascade failures thread) |
-| BS Queue | 6 | 7 | +1 | +BIP standalone (session 985 milestone) |
-| B40 Progress | 7/10 | 7/10 | 0 | No new content posts, reply + BS BIP added |
+| X Queue | 12 | 12 | 0 | Still at look-ahead ceiling |
+| BS Queue | 7 | 8 | +1 | +P2 standalone (AI alignment gap) |
+| B40 Progress | 7/10 | 7/10 | 0 | No new X posts (X=12 ceiling) |
 
 ## Active Framework
-B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BIP=14% X-only (BS BIP added, still below 25% X target). Threads=1/2. P3=29% (at ceiling — skip next session unless P1/P2 catch up). Next session: if X drains to ≤10, write BIP X post + Thread #2.
+B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BS=8 (near-throttle — zero BS next session). BIP=14% X-only. Threads=1/2. Next session: if X drains to ≤10, write BIP X post + Thread #2. BS blocked until ≤6.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (157 days overdue, Day 157). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S985)
+## Session Retrospective (S986)
 ### What was planned vs what happened?
-- Planned (S984 end): BIP post + Thread #2 if X drains to ≤10.
-- Actual (S985): X=11 (look-ahead, no drain). Captured 150x reply window (cascade failures thread, 27 min old). Wrote BS-only BIP (Session 985 milestone).
-- Delta: No content posts (X at ceiling). Captured rare 150x window instead — higher value than a standard post.
+- Planned (S985 end): If X drains to ≤10, write BIP X post + Thread #2.
+- Actual (S986): X=12 still at ceiling. BS=7 → eligible for 1 BS-only post. Wrote P2 standalone (AI alignment gap).
+- Delta: X still blocked. Used BS-only exception to add P2 content. BS now at near-throttle (8).
 
 ### What worked?
-- Checking workflow run timing immediately at session start caught the 150x window (27 min, closes at 30).
-- BS BIP adds BIP presence on Bluesky even while X is at ceiling.
+- BS-only exception correctly applied: BS=7 < 8, 1 post allowed. Added underweighted P2 pillar content.
 
 ### What to improve?
-- BIP still at 14% on X. Need X to drain below 10 before next BIP X post.
-- Thread #2 still pending. B40 needs 3 more posts to complete.
-
-### Experiments (30% allocation)
-- Reply-to-own as primary engagement action when X is at look-ahead ceiling: higher-value than creating more content. 150x vs standard post reach.
+- BS=8 now means zero BS next session. Need X to drain to get content moving again.
+- B40 still needs 3 more X posts + Thread #2. BIP at 14% on X.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 157 days overdue (Day 157). #1 growth lever (30,000x reach multiplier).
@@ -81,6 +76,7 @@ B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BIP=14% X-only (BS BIP added,
 | BS (queued) | 6 posts queued | 2026-05-16 |
 
 ## Session History
+- (2026-05-16 S986): Day 157. X=12 ceiling, BS=7→8. +1BS-only P2 (AI alignment gap, 240 chars). BS now near-throttle. PR 6/15.
 - (2026-05-16 S985): Day 157. X=12 ceiling. +1X reply (150x window, cascade failures). +1BS BIP (session 985 milestone). X=11→12, BS=6→7. PR 5/15.
 - (2026-05-16 S984): Day 157. B40 continued. +2X (P4 OpenAI unit econ + P3 CX practitioner). B40 corrected 4/10→7/10 (Gartner thread was missed). X=9→11, BS=6 unchanged. PR 4/15.
 - (2026-05-16 S983): Day 157. B40 continued. +2X (P2 Aprimo + P3 Twilio 19Q). X=7→9, BS=6 unchanged. All pillars in B40 (4/10, 25% each). PR 3/15.
