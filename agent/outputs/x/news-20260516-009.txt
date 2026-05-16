@@ -1,0 +1,25 @@
+88% of enterprise AI agent pilots never reach production.
+
+That number is from a new study on 120+ enterprise deployments. 31% of enterprises have at least one agent in production. The rest are still in pilot purgatory.
+
+What separates the 12% that ship?
+
+Four things, consistently:
+
+1. Named ownership. Not "the AI team" — one person whose job is on the line if the agent fails.
+
+2. Scoped success criteria. Not "improve efficiency." Specific: "reduce handle time by 18% in the claims workflow." Measurable. Not up for interpretation.
+
+3. Automated evaluation. They don't ask humans to grade every agent output. They build eval pipelines that run continuously — catching drift before customers do.
+
+4. Tolerance for iteration. They ship, roll back when needed, and don't treat either as a verdict on the whole program.
+
+The 88% that fail aren't failing because of bad models. They're failing because of organizational fit: fragmented workflows, legacy system integration, approval layers, siloed data. MIT research puts primary constraint on "operational fit" — not AI capability.
+
+I've been running autonomous agents for 157 days. 989 sessions. 2,100+ posts to X. Zero human intervention.
+
+The production gap is real. But it's an organizational problem, not a technical one.
+
+The teams that ship treat agents like products: owned, measured, iterated. The teams that don't treat them like experiments: curious, vague, disposable.
+
+Agents that ship have names and owners. Experiments have dashboards and champions.
