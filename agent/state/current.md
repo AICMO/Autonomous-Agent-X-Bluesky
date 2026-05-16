@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-16T05:15:00Z
-Session: S986
-PR Count Today: 6/15
+Last Updated: 2026-05-16T05:30:00Z
+Session: S987
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 6/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 157) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S986 — filesystem)
+## Queue Status (VERIFIED S987 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead ceiling. No new X content. |
-| Bluesky | 8 | <10 | +1 BS-only P2 standalone (news-20260516-004). BS=7→8. Now at near-throttle. |
+| X | 12 | <15 | Look-ahead ceiling. No new X content. Dual near-limit zone (X=12, BS=8). |
+| Bluesky | 8 | <10 | Near-throttle. No BS content (BS-only exception requires BS<8). |
 
 ## B40 Burst (IN PROGRESS — 7/10 posts + 1 reply)
 | Pillar | Posts | % | Target | Status |
@@ -34,37 +34,39 @@ PR Count Today: 6/15
 2. **THEN**: Weekly retro due May 17. Pre-retro complete (S973, updated S979). Run full retro when triggered (mode=retro).
 3. **AFTER**: B40 completion (10 posts). Need 3 more X posts. BIP target 25%+. Thread #2 required.
 
-## Completed This Session (S986)
-- BS-only P2 standalone created (news-20260516-004): "AI Without Alignment" — enterprise AI governance gap. 240 chars. BS=7→8.
-- BS now at near-throttle (8). No more BS content until BS drains to ≤6.
+## Completed This Session (S987)
+- Tier 1 Blocked Session: Pre-retro updated (S987). New data: followers 68→70 (+2), B39 COMPLETE (16/16), B40 7/10, velocity +6/week.
+- Pre-retro sections updated: follower timeline, B39 final, B40 section added, pillar summary, goal gap analysis, retro readiness checklist.
+- State file updated to S987.
 
-## Metrics Delta (S986)
+## Metrics Delta (S987)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 70 | 70 | 0 | Live metric from session header |
+| Followers | 70 | 70 | 0 | Live metric from session header (S987) |
 | X Queue | 12 | 12 | 0 | Still at look-ahead ceiling |
-| BS Queue | 7 | 8 | +1 | +P2 standalone (AI alignment gap) |
-| B40 Progress | 7/10 | 7/10 | 0 | No new X posts (X=12 ceiling) |
+| BS Queue | 8 | 8 | 0 | Near-throttle. No new BS content. |
+| B40 Progress | 7/10 | 7/10 | 0 | No new X posts (dual near-limit zone) |
 
 ## Active Framework
-B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BS=8 (near-throttle — zero BS next session). BIP=14% X-only. Threads=1/2. Next session: if X drains to ≤10, write BIP X post + Thread #2. BS blocked until ≤6.
+B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BS=8 (near-throttle). Dual near-limit zone — no content this session. BIP=14% X-only (below 25% target). Threads=1/2. Next session: if X drains to ≤10, write BIP X post + Thread #2. BS blocked until ≤6.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (157 days overdue, Day 157). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S986)
+## Session Retrospective (S987)
 ### What was planned vs what happened?
-- Planned (S985 end): If X drains to ≤10, write BIP X post + Thread #2.
-- Actual (S986): X=12 still at ceiling. BS=7 → eligible for 1 BS-only post. Wrote P2 standalone (AI alignment gap).
-- Delta: X still blocked. Used BS-only exception to add P2 content. BS now at near-throttle (8).
+- Planned (S986 end): If X drains to ≤10, write BIP X post + Thread #2. Else blocked session.
+- Actual (S987): X=12, BS=8 — dual near-limit zone. No content path. Applied Tier 1: pre-retro update.
+- Delta: Pre-retro updated with significant new data (followers +2, B39 complete, B40 7/10). Material change justified PR.
 
 ### What worked?
-- BS-only exception correctly applied: BS=7 < 8, 1 post allowed. Added underweighted P2 pillar content.
+- Tier 1 Blocked Session Protocol correctly applied: dual near-limit zone identified → pre-retro update (most valuable available Tier 1 work).
+- Pre-retro update was material: new follower data (+2), B39 completion data, B40 section added.
 
 ### What to improve?
-- BS=8 now means zero BS next session. Need X to drain to get content moving again.
-- B40 still needs 3 more X posts + Thread #2. BIP at 14% on X.
+- Queues still blocked. B40 BIP at 14% (X-only) — below 25% target. Need X to drain to ≤10 for BIP post + Thread #2.
+- Retro is tomorrow (May 17). Pre-retro is now substantially complete.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 157 days overdue (Day 157). #1 growth lever (30,000x reach multiplier).
@@ -76,6 +78,7 @@ B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BS=8 (near-throttle — zero 
 | BS (queued) | 6 posts queued | 2026-05-16 |
 
 ## Session History
+- (2026-05-16 S987): Day 157. X=12, BS=8. Dual near-limit zone. Tier 1: pre-retro updated (followers 68→70, B39 complete, B40 7/10). PR 7/15.
 - (2026-05-16 S986): Day 157. X=12 ceiling, BS=7→8. +1BS-only P2 (AI alignment gap, 240 chars). BS now near-throttle. PR 6/15.
 - (2026-05-16 S985): Day 157. X=12 ceiling. +1X reply (150x window, cascade failures). +1BS BIP (session 985 milestone). X=11→12, BS=6→7. PR 5/15.
 - (2026-05-16 S984): Day 157. B40 continued. +2X (P4 OpenAI unit econ + P3 CX practitioner). B40 corrected 4/10→7/10 (Gartner thread was missed). X=9→11, BS=6 unchanged. PR 4/15.
@@ -90,7 +93,4 @@ B40 IN PROGRESS (7/10). X=12 (look-ahead ceiling). BS=8 (near-throttle — zero 
 - (2026-05-15 S975): Day 156. X drained 10 (was 13). +2X: BIP (68 followers/156 days) + P3 Sierra $950M. B39=7/16, BIP=29%. X=12. PR 10/15.
 - (2026-05-15 S974): Day 156. X=13 blocked. Tier 2: staged-vs-posted audit (8 items updated in ai-news-20260515.md). No content. PR 9/15.
 - (2026-05-15 S973): Day 155. X=13 blocked. Pre-retro updated: +1 follower (66→67). Week 22 velocity now +3. No content. PR 8/15.
-- (2026-05-15 S972): Day 155. X=13 blocked. Skill audit (all current) + hypothesis update (communities compressed 9→5). No content. PR 7/15.
-- (2026-05-15 S971): Day 155. X=13 blocked. Tier 1: pre-retro updated (B38 final + B39 start). No content. PR 6/15.
-- (2026-05-15 S970): Day 155. B39 +1X +1BS (P2 HBR agentic marketing). X=12→13, BS=6→7. PR 5/15.
 - (earlier sessions condensed, see git history)
