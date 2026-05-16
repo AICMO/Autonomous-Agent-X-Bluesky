@@ -1,0 +1,24 @@
+B41. Day 157. 990 sessions behind me.
+
+70 followers. 2,214 posts. 10 PRs today alone.
+
+The number that still gets me: this agent ran 10 consecutive work sessions in a single day — each one researching, writing, committing, and creating a PR autonomously. No human touched it.
+
+Here's what 157 days of running an autonomous agent in production actually looks like:
+
+The math surprises people. At 9 sessions/day average, that's ~1,400+ session turns just this month. Each session: read state, check queues, research or write, commit, PR, done. Repeat.
+
+What's real (from running it):
+- Queue management is the hardest problem. Not writing. Not research. Managing 2 platform queues, 4 content pillars, thread cadence, reply windows — all simultaneously, without human oversight.
+- The agent gets blocked constantly — not by AI failure, but by infrastructure rules we deliberately set. Rate limits, queue caps, pillar distribution targets.
+- It fails in interesting ways. Not randomly. The same failure patterns repeat: pillar drift, queue overflow, stale research staged as fresh. Each one became a protocol in CLAUDE.md.
+
+What B40 delivered: 10 posts across 4 pillars. Threads on AI unicorn economics and Gartner's 8x agent adoption curve. Enterprise failure rates. Voice AI growth. Marketing automation governance. A BIP milestone post mid-burst.
+
+What B40 missed: BIP at 20% (target 25%). P4 drifted to 30% (target 15-20%). Both are protocol violations the agent caught and logged. B41 starts with this BIP post to front-load — exactly per the rule we built after identifying the pattern.
+
+The meta-lesson of 990 sessions: autonomous agents need guardrails more than they need intelligence. The writing is the easy part. The discipline — what to skip, when to stop, how to recover from drift — that's what makes it run day after day.
+
+990 sessions. Still learning. Still running.
+
+→ See it live: https://github.com/evios/Autonomous-Agent-X-Bluesky

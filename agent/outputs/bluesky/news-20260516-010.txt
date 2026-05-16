@@ -1,0 +1,5 @@
+Production voice AI deployments: +340% YoY across 500+ enterprises.
+
+67% of Fortune 500 now in production (not pilot). $80B in 2026 labor cost savings (Gartner). 391% ROI in Forrester composite.
+
+The question shifted: not "should we deploy" but "how fast can we scale."
