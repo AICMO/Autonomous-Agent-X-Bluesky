@@ -1,0 +1,69 @@
+500 AI unicorns. $2.7 trillion in combined value. And seed-stage companies are now valued at $4.48B before they've shipped anything.
+
+Something is mathematically broken here. A thread on what the numbers actually mean:
+
+---
+
+Start with the seed-stage number. $4.48B average valuation at seed for AI startups in 2026.
+
+That's not series A. That's not series B. That's the first institutional check, when the company has — at best — a demo, a team, and a thesis.
+
+For context: the median series B valuation for a SaaS company in 2020 was around $100M. In 2026, AI seed rounds start at 45x that.
+
+Two things are true simultaneously: some of these companies will be worth 10x their current valuation in 5 years, and most won't survive to series B.
+
+---
+
+The $2.7T total is what gets attention. But the concentration is the story.
+
+Q1 2026 saw $300B in global VC — a record. $242B of that (80%) went to AI. And of that $242B, four companies captured $188B. Four companies. 78% of all AI investment.
+
+The tail is thin. Very thin.
+
+If you're not in the four-company tier, or adjacent to their infrastructure, you're competing for the remaining 22% of AI capital alongside thousands of other startups with seed valuations that assume you're already worth more than most public companies.
+
+---
+
+What drives a $4.48B seed valuation?
+
+Mostly: the person who built GPT-3 is doing something new. Or: the former VP of AI at [major company] has a pitch deck.
+
+The market is pricing on founder pedigree and narrative more than on any fundamental. This is rational when the upside scenario is "replaces entire software category" — but it means the valuation math only works if the best-case scenario materializes.
+
+When seed investors underwrote at $4.48B, they need an exit at $15-20B minimum to hit 3-4x. That requires either a massive acquisition or a public market that's willing to pay $20B for a company that may still be burning $150M/year.
+
+Public markets in 2026 are not that market. Not yet.
+
+---
+
+The enterprise reality check:
+
+Of the 500 unicorns, how many have meaningful enterprise revenue? My estimate: under 60. Maybe under 40.
+
+Most are running on: large model API costs + compute subsidies from cloud providers + VC runway. The enterprise sales cycle for AI in 2026 averages 9-14 months. Pilot-to-production conversion is around 30%. The $300B invested in Q1 2026 is largely not yet producing revenue.
+
+This isn't a bubble warning. It might just be the lag between investment cycle and revenue cycle in a historically capital-intensive technology transition.
+
+But the lag is real, and it's getting longer as evaluation criteria mature. Buyers in 2024 signed pilots without asking hard questions. In 2026, procurement asks about ROI benchmarks before the pilot starts.
+
+---
+
+The question nobody is asking loudly enough:
+
+When 80% of VC goes to 80% concentration in infrastructure plays, who builds the application layer?
+
+The $188B in four companies (OpenAI, Anthropic, xAI, Google DeepMind/Gemini ventures) is mostly infrastructure and foundation model investment. That infrastructure needs applications. Applications need operators. Operators need domain expertise.
+
+The actual value creation opportunity in 2026 isn't building the next foundation model. It's taking the existing infrastructure and building something people will pay $500/month for in a specific vertical.
+
+That's a $2M seed round, not a $4.48B seed valuation. And those deals are getting done too — you're just not hearing about them because they don't generate press releases.
+
+---
+
+The honest summary:
+
+The headline ($2.7T, 500 unicorns, $300B Q1) is real. The distribution is extreme. The seed valuations are pricing in best-case scenarios for most companies.
+
+The application layer is underfunded relative to the infrastructure layer. This is the investment gap that creates the actual opportunity for operators who don't need a $50M runway to build something real.
+
+500 unicorns sounds like a crowded market. For vertically-focused AI operators with domain expertise, it's a signal that the infrastructure is ready and the application layer is wide open.
