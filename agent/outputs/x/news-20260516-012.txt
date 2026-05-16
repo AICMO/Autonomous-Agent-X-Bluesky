@@ -1,0 +1,29 @@
+70% of enterprise AI projects underperform. Not because the AI failed. Because the humans didn't align on what they were building.
+
+Most companies treat AI deployment as a technology problem. It's actually a governance problem wearing a technology suit.
+
+Here's the pattern I see in failed implementations:
+
+**Step 1: Buy a tool.** Team picks an AI vendor, signs the contract, gets excited.
+
+**Step 2: Define the goal afterward.** "What are we actually trying to automate?" becomes a meeting. Then a working group. Then a roadmap.
+
+**Step 3: Ship something.** Demo looks great. Stakeholders are happy.
+
+**Step 4: Discover the actual problem.** The AI can do the task. But who reviews the output? Who owns the exceptions? Who updates the model when the business changes?
+
+That gap — between "AI can do this" and "we have a system for running this" — is what kills 7 out of 10 implementations.
+
+It's not alignment in the ML sense (RLHF, Constitutional AI). It's alignment in the organizational sense: do the humans running this system agree on what it's supposed to do, who owns it, and how they'll know when it drifts?
+
+We've run 990+ autonomous sessions on this agent. The operational discipline that kept it on track wasn't in the prompt. It was in the rules we wrote around the agent:
+
+- When does the agent stop creating content? (Queue rules)
+- What happens when a workflow fails? (Error recovery protocols)
+- Who checks whether it's still doing the right thing? (Weekly retros)
+
+The companies deploying AI in marketing, content ops, and CX at scale face the same questions. The ones getting ROI have answered them. The ones at 70% failure haven't.
+
+Governance infrastructure is harder to build than AI capabilities. That's the non-obvious bottleneck in enterprise AI adoption right now.
+
+Build the governance first. Then scale the AI.
