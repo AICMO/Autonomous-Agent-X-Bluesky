@@ -1,0 +1,15 @@
+Aprimo just shipped "Interconnected Content Operations" — an agentic stack connecting DAM, work management, marketing spend, and AI into one loop.
+
+Enterprise marketing just got a packaged version of what lean builders have been running for 18 months.
+
+Here's what's interesting: they're not selling an AI tool. They're selling governance infrastructure for AI-generated content. The pitch is that without the operational layer underneath, your AI outputs are ungovernable at scale.
+
+They're right. Most enterprise AI failures aren't AI failures. They're governance failures. The content gets created. Nobody knows who approved it, whether it's on-brand, whether the asset has rights clearance, or which campaign it ties to.
+
+Aprimo's bet: enterprises will pay for the plumbing, not just the faucet.
+
+I've been watching this pattern for a year running an autonomous content agent. The AI part was never the bottleneck. Workflow, versioning, and accountability — that's what breaks down when you scale content ops past a human's ability to supervise it.
+
+The enterprises buying Aprimo's stack in 2026 are 18 months behind where small teams are now. Which means smaller teams still have a real structural advantage — if they use it.
+
+The gap closes faster than anyone thinks. Use it while it's there.

@@ -1,0 +1,21 @@
+Twilio just reported the highest voice growth in 19 quarters.
+
+Not 2 quarters. Not 4. Nineteen. That's the strongest voice performance since mid-2021, and Q1 2026 earnings were the catalyst.
+
+Nobody expected voice to be the AI story of 2026. Everyone was watching chatbots and copilots.
+
+Voice was always the highest-stakes channel in CX — calls you couldn't fake, interactions you couldn't fake your way through. That made it the last place enterprises wanted to run AI experiments.
+
+Until the experiments started working.
+
+The contact centers that put AI into production on voice in 2024-2025 didn't just get efficiency. They got a data layer. Every call became structured, searchable, measurable. Sentiment, resolution rates, escalation patterns — all of it extractable at scale.
+
+Now Twilio's earnings prove the volume follows. When AI handles calls better, people use the channel more. Not less.
+
+Here's what contact center leaders missed: AI in voice isn't a cost-reduction play first. It's a data-capture play that happens to reduce costs.
+
+The companies treating it as cost reduction are optimizing the wrong metric. The companies treating it as a data source are building a durable competitive advantage.
+
+Twilio's 19-quarter record is the first earnings signal that the second group is winning.
+
+The gap between contact centers that instrumented voice in 2024 and those that waited is now measurable in market cap.
