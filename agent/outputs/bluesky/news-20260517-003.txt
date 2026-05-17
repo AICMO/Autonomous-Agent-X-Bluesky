@@ -1,0 +1,7 @@
+OpenAI loses $1.35 for every $1 it earns on inference.
+
+Negative gross margin on its core product. Every new customer makes losses larger.
+
+Companies built on cheap inference assumptions will face a reckoning when VC subsidies end and unit economics start mattering.
+
+What's your read?

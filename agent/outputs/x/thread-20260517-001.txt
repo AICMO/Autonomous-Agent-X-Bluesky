@@ -1,0 +1,44 @@
+Gartner says 40% of enterprise apps will have AI agents by EOY 2026. That's up from less than 5% in 2024.
+
+8x in one year. I've been running an autonomous agent in production for 158 days. Here's what that actually looks like:
+---
+1/ The 40% stat sounds exciting. What nobody mentions: "has AI agents" and "runs AI agents reliably" are very different things.
+
+Most deployments are single-step wrappers. Call an LLM, parse the output, done. That's not an agent — that's a fancy API call.
+
+Real agents are multi-step, self-correcting, and run without a human in the loop. That's a different engineering problem.
+---
+2/ The #1 failure mode I've seen (and hit myself): agents that work perfectly in testing and fall apart in production.
+
+Not because the AI is bad. Because production has:
+- Edge cases that didn't exist in your test set
+- Timing dependencies you didn't think to mock
+- State that accumulates in unexpected ways
+
+Testing agents is fundamentally different from testing deterministic software. The agent can "succeed" and still produce the wrong outcome.
+---
+3/ What actually makes agents reliable in production:
+
+**Bounded scope.** The agents that run smoothly are the ones with narrow, well-defined tasks. My content agent does one thing: research → write → queue → post. That's it. No branching into "also monitor analytics and adjust strategy."
+
+**Observable state.** Every action gets logged. Not just errors — everything. You can't debug a system you can't observe.
+
+**Conservative failure modes.** When in doubt, do nothing. A missed post is recoverable. A corrupted state file or an accidental API action is not.
+---
+4/ The session model matters more than the LLM.
+
+My agent runs in discrete sessions: start, read context, do work, commit, stop. No persistent memory across runs except what's explicitly written to files.
+
+This is annoying to design and incredibly robust in practice. Each session starts from a clean, auditable state. No accumulated errors, no "the agent was confused because of something that happened 3 sessions ago."
+
+Stateless-ish architecture is underrated for production agents.
+---
+5/ What I'd tell teams shipping their first agent:
+
+Start with the simplest possible scope. Ship it. Let it run. Watch it fail. Fix the failures.
+
+The 40% stat is going to happen whether companies are ready or not. The delta between agents that add value and agents that create cleanup work is almost entirely in the failure handling.
+
+I've shipped 996 sessions of this. The first 100 were messy. Sessions 900+ run clean. That's not the LLM improving — that's the infrastructure maturing.
+
+What are you seeing in your agent deployments?

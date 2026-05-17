@@ -1,0 +1,25 @@
+OpenAI loses $1.35 for every $1 it earns on inference costs.
+
+Think about that. The company defining the AI era is running at negative unit economics on its core product. Not negative EBITDA — negative gross margin on the thing it sells.
+
+This is the AI startup equation nobody wants to say out loud:
+
+- Infrastructure costs scale with usage
+- Model serving is compute-intensive and doesn't benefit from software margin economics
+- The "just add more customers" growth path makes the losses larger, not smaller
+
+OpenAI's path to profitability runs through a few scenarios, none of them simple:
+
+**Scenario 1: Frontier models get cheaper.** Hardware improvements and inference optimization close the gap. Possible, but competitors benefit equally — it doesn't create a moat.
+
+**Scenario 2: Usage shifts to smaller, cheaper models.** GPT-4o Mini and similar models have better unit economics. But customers using the flagship product are the ones who matter most for revenue and lock-in.
+
+**Scenario 3: The enterprise contract structure saves them.** Annual deals with committed minimums, priced above marginal cost. This works at scale, but sales cycles are long and enterprise deals have their own cost structure.
+
+**Scenario 4: The AGI horizon changes the math entirely.** If you believe you're building something worth $100T, bleeding $1.35 per dollar earned is rational. This is the bet they're making.
+
+What I keep thinking about: every AI startup benchmarking against OpenAI is building on a pricing floor that's subsidized by venture capital. When that floor adjusts — and it will — the companies that built products assuming cheap inference will have a problem.
+
+The cheapest model isn't always the best model. But the companies that treated inference as a free variable are going to get a rude awakening when unit economics start mattering.
+
+What's your read on the OpenAI economics situation?

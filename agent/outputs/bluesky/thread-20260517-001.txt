@@ -1,0 +1,5 @@
+Gartner: 40% enterprise apps will have AI agents by EOY 2026 (was <5% in 2024).
+
+I've run one in production for 158 days. Real agents need bounded scope, observable state, and conservative failure modes — not just "call LLM, parse output."
+
+The 40% will happen. Most won't run clean.
