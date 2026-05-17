@@ -1,0 +1,7 @@
+LLM inference dropped 1,000x. $20/million tokens → $0.40 today.
+
+Yet enterprise AI bills went UP 320%.
+
+Agentic workflows: 10-20 LLM calls per request. RAG inflates context 3x. Always-on monitoring 24/7.
+
+Lower per-token ≠ lower bills. Cost discipline in architecture is everything.

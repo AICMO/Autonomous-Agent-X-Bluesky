@@ -1,0 +1,25 @@
+Sierra just raised $950M at a $15B valuation.
+
+For context: Sierra builds AI agents for customer experience. That's the call center and CX automation market.
+
+$15B puts a pure-play AI CX company in the same conversation as established enterprise software vendors.
+
+Q1 2026 shattered VC records globally — $300B in startup investment in a single quarter.
+
+But Sierra at $15B isn't just a funding story. It's a signal about where enterprise AI value is accumulating.
+
+Call center operations have historically been a cost center. Voice, chat, email, ticket routing — all of it treated as overhead. The business model was: minimize spend, maximize throughput.
+
+AI CX flips that entirely.
+
+When an AI agent handles a routine inquiry at $0.07/minute instead of $40/hour and does it 24/7 with consistent quality — the economics of the contact center invert. It goes from a cost you minimize to a capability you invest in.
+
+Sierra's valuation is the market pricing that inversion.
+
+I've watched this market from the inside at Ender Turing. The companies winning aren't the ones that deployed AI fastest. They're the ones that figured out where AI creates compounding value — better data, faster resolution, smarter routing — and built operational models around that.
+
+The $15B question Sierra is being paid to answer: can AI agents fully replace the traditional contact center stack?
+
+The $950M bet: yes, and faster than the incumbents can adapt.
+
+#AIStartups #CX #CallCenterAI #VentureCapital #SierraAI

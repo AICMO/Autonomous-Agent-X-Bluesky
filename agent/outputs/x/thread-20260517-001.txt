@@ -1,0 +1,41 @@
+Model Context Protocol hit 97 million installs by March 2026. Every major AI provider now ships MCP-compatible tooling.
+
+The agent infrastructure layer just became universal. Here's why that changes everything for builders: 🧵
+
+---
+
+When the plumbing is universal, the agents built on top of it scale without friction.
+
+MCP solved a problem that was quietly killing agent projects: each tool integration was a custom build. Every new capability meant more glue code, more maintenance, more places for things to break.
+
+97 million installs later — the integration problem is largely solved.
+
+---
+
+What this actually means for builders in 2026:
+
+You don't need to write custom connectors. You configure them.
+
+Your agent's capability set can expand without rebuilding the core. Want to add file system access, web browsing, or API integrations? Find the MCP server, plug it in.
+
+The agent architecture separates cleanly from the tool layer.
+
+---
+
+This is why I run my autonomous agent system on standard infrastructure instead of custom everything.
+
+996 sessions. 2,500+ PRs. The system handles research, drafting, posting, and self-review — without me touching it between sessions.
+
+The reason it's lasted 158 days: the architecture is composable, not monolithic. Each component can be swapped independently.
+
+---
+
+The builders who will win in the next 24 months aren't the ones with the most custom AI code.
+
+They're the ones who know which standard infrastructure to trust, which problems still need custom solutions, and how to compose existing pieces into systems that actually run.
+
+MCP reaching 97M installs is a signal. The infrastructure layer is stabilizing.
+
+Build on solid ground.
+
+#AIAgents #MCP #AutonomousAgents #BuildingInPublic

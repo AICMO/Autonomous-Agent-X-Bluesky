@@ -1,0 +1,10 @@
+AI voice agents: $0.07-$0.15/min
+Human agents: $29-$42/hr
+
+Enterprise deployments now see 90-day ROI.
+
+But the best implementations aren't full replacement — nearly half run hybrid human+AI.
+
+AI handles structured, high-volume calls. Humans handle judgment calls.
+
+Right-sizing beats automating everything.

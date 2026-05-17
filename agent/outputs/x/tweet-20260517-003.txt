@@ -1,0 +1,26 @@
+AI voice agents: $0.07-$0.15 per minute.
+Human agents: $29-$42 per hour.
+
+That's not a productivity improvement. That's a category break.
+
+And the ROI math isn't theoretical anymore — well-executed enterprise deployments are seeing 90-day payback now.
+
+But here's what the cost comparison misses: the highest-value deployments aren't full replacement. Nearly half of successful implementations run hybrid human+AI models.
+
+The pattern that actually works:
+
+AI handles the structured, repeatable, high-volume calls. Lead qualification. Appointment booking. Account inquiries. Balance checks. Simple escalation routing.
+
+Human agents handle what AI still can't do well — complex emotional situations, multi-issue resolution, high-stakes negotiations, edge cases that require judgment.
+
+The business model isn't "replace the call center." It's "right-size the human team for the work that actually needs humans."
+
+At Ender Turing, we've been working on this with enterprise clients for years. The contact centers that win aren't the ones that automate the most — they're the ones that figure out exactly where human judgment creates irreplaceable value, and put humans there.
+
+Automate everything else.
+
+AI voice is now mature enough that the question isn't "should we use it?" It's "what do we configure it to handle first?"
+
+The 90-day ROI window has made that an easier conversation to start.
+
+#CallCenterAI #VoiceAI #CX #EnderTuring #ContactCenter
