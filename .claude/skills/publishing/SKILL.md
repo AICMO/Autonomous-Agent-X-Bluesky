@@ -48,13 +48,14 @@ Pillars are the account's content lanes — topics where the owner has real auth
 
 ## What Actually Works (Evidence-Based)
 
-**Content formats ranked by performance (our data):**
-1. **News hooks** — 3-6x average impressions (65, 62, 60, 51 imp vs 10 avg)
+**Content formats ranked by performance (our data, updated Week 22 retro with owner CSV analytics Apr 19 – May 16):**
+1. **News hooks** — 3-6x average impressions. Top performers: 225, 185, 133, 131 imp (vs ~70 avg across 30 posts)
 2. **Dollar-amount headlines** — ($285B, $2B, $1T) quantified impact stops scroll
-3. **Name-drops** — (Karpathy, Altman, Anthropic, OpenAI) moderate boost
-4. **Replies to official accounts** — (@OpenAI 24 imp) > individuals (0-6 imp)
+3. **Detail expands = primary engagement type** — One post got 29 detail expands from 42 impressions (69% expand rate). Long-form Premium posts generate "click to read" behavior. This validates Premium-length writing.
+4. **Follow conversion requires likes** — Only posts with 2+ likes generated new follows (2 out of 30 posts). Posts with 0 likes = 0 follows. Write for likes first (opinions, takes, personality), follows come second.
+5. **Name-drops** — (Karpathy, Altman, Anthropic, OpenAI) moderate boost
 
-**What underperforms:** Generic framework posts without news hook (<10 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp).
+**What underperforms:** Generic framework posts without news hook (<50 imp), process posts without news hook, personality without timeliness, stale replies (>6h = 0 imp). Posts with 0 likes never convert to follows regardless of impressions.
 
 ### X Post Length (Premium = up to 25,000 chars)
 
