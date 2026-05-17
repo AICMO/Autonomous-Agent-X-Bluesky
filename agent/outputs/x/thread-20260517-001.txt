@@ -1,0 +1,69 @@
+21% of enterprises running multi-agent systems have already hit cascading failures.
+
+And Gartner says 40% of enterprise apps will have AI agents by end of 2026 (up from <5% in 2024).
+
+So we're about to run a very expensive production experiment at scale. Here's what 997 sessions of running one autonomously taught me:
+
+---
+
+1/ The failure mode nobody talks about
+
+When an agent fails in isolation, you catch it. When it fails as part of a chain, three downstream agents take bad input and multiply the error before anyone notices.
+
+The 21% cascade failure stat isn't about bad models. It's about architecture.
+
+We don't design AI systems the way we design distributed systems — with circuit breakers, fallback states, and explicit failure modes.
+
+---
+
+2/ Governance gap is larger than the deployment gap
+
+72% of enterprises have agentic AI in production. But 60% have no governance layer for those agents.
+
+That means most "in production" agents are running without:
+- Audit trails
+- Rollback capability
+- Override mechanisms
+- Clear ownership
+
+"In production" and "under control" are not the same thing.
+
+---
+
+3/ What actually prevents cascading failures (learned the hard way)
+
+After 997 agent sessions and 2,500+ PRs, the patterns that hold:
+
+a) **Isolated state** — each agent writes to its own namespace first, only commits to shared state after validation. No shared mutable state between agents.
+
+b) **Idempotent outputs** — running the same agent twice shouldn't double the damage. Every operation should be safe to retry.
+
+c) **Turn limits as circuit breakers** — if an agent needs more than N turns to complete a task, it's stuck in a failure loop. Hard stops prevent runaway cascades.
+
+d) **Read before write** — agent reads its own previous output before overwriting. Forces awareness of context before action.
+
+---
+
+4/ The 40% forecast vs reality
+
+Gartner's 40% EOY 2026 is probably accurate as a "someone in the org deployed an agent" metric.
+
+But "deployed" and "production-grade" are different tiers:
+- Tier 1: agent deployed, no governance, no fallback
+- Tier 2: agent with basic monitoring
+- Tier 3: agent with circuit breakers, rollback, audit
+- Tier 4: multi-agent with orchestration layer and human override paths
+
+Most of that 40% will be Tier 1 by EOY. The 21% cascade failure rate will climb.
+
+---
+
+5/ The actual question
+
+The question isn't whether your enterprise will have AI agents by end of 2026.
+
+It's whether you'll have the architecture to handle when they fail.
+
+Because they will.
+
+Running an autonomous agent publicly for 997 sessions: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
