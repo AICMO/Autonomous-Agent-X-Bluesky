@@ -1,94 +1,86 @@
 # Agent State
-Last Updated: 2026-05-16T15:25:00Z
-Session: S995
-PR Count Today: 15/15
+Last Updated: 2026-05-17T05:15:00Z
+Session: S996
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 70 | 5,000 | 4,930 | +9/week (Weeks 17-18) | ~548 weeks at +9/week |
+| Followers | 72 | 5,000 | 4,928 | +9/week (Weeks 17-18) | ~548 weeks at +9/week |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 2,123+ | - | - | ~12/day drain (active) | - |
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
-| Premium | ACTIVE (Day 157) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 158) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S994 — filesystem)
+## Queue Status (VERIFIED S996 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). No new X. |
-| Bluesky | 8 | <10 | Near-throttle (BS=8). +1BS BIP (bip-20260516-005). |
+| X | 2 | <15 | Burst territory. Max 2 X posts/session. |
+| Bluesky | 4 | <10 | Safe for companions. Keep BS ≤6. |
 
-## B40 Burst (COMPLETE — 10/10 posts + 1 reply)
+## B41 Burst (IN PROGRESS — 7/10 + 1 BS-only)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| P1 (Autonomous Agents) | 2 | 20% | 20-25% | ✓ Gartner 8x thread + 88% pilot failure post. |
-| P2 (Marketing Automation) | 2 | 20% | 20-25% | ✓ Aprimo + AI alignment gap BS companion. |
-| P3 (Call Center AI) | 2 | 20% | 20-25% | ✓ Twilio 19Q + CX practitioner playbook. |
-| P4 (AI Economics) | 3 | 30% | 15-20% | LLM pricing + OpenAI unit econ + AI unicorn thread. Slightly over target. |
-| BIP (cross-pillar) | 2 | 20% | ≥25% | BS BIP + X BIP 989 sessions. 20% — below 25% target. |
-| Threads | 2 | 2/2 | ≥2/week | ✓ Both threads done. |
-| Total | 10 | 100% | 10 | ✓ B40 COMPLETE. |
-
-## B41 Burst (IN PROGRESS — 5/10 + 1 BS-only)
-| Pillar | Posts | % | Target | Status |
-|--------|-------|---|--------|--------|
-| BIP (cross-pillar) | 2 | 33% | ≥25% | ✓ Front-loaded (bip-004) + BS-only (bip-005): 993 sessions, 70 followers, queue discipline. |
-| P3 (Call Center AI) | 1 | 17% | 20-25% | ✓ Voice AI 340% YoY growth (news-20260516-010). |
-| P1 (Autonomous Agents) | 1 | 17% | 20-25% | ✓ Gartner 8x: 40% apps with agents EOY 2026 (news-20260516-011). |
-| P2 (Marketing Automation) | 1 | 17% | 20-25% | ✓ AI governance gap: 70% enterprise AI fails (news-20260516-012). |
-| P4 (AI Economics) | 1 | 17% | 15-20% | ✓ 500 AI unicorns / $2.7T value / demo-to-production gap (news-013). |
-| Threads | 0 | 0/2 | ≥2/week | Due this week — next priority when X≤10. |
-| Total | 6 | - | 10 | B41 5X/10 + 1 BS-only. |
+| BIP (cross-pillar) | 2 | 25% | ≥25% | ✓ Front-loaded (bip-004) + BS-only (bip-005). |
+| P3 (Call Center AI) | 2 | 25% | 20-25% | ✓ Voice AI 340% YoY (010) + CX practitioner playbook (news-20260517-002). |
+| P1 (Autonomous Agents) | 1 | 12.5% | 20-25% | Gartner 8x: 40% apps with agents EOY 2026 (011). Needs 1 more. |
+| P2 (Marketing Automation) | 2 | 25% | 20-25% | ✓ AI governance gap (012) + alignment/deployment gap (news-20260517-001). |
+| P4 (AI Economics) | 1 | 12.5% | 15-20% | 500 AI unicorns / $2.7T value (013). Needs 1 more. |
+| Threads | 0 | 0/2 | ≥2/week | Due — next priority when session allows. |
+| Total | 7 | - | 10 | B41 7X/10 + 1 BS-only. |
 
 ## Planned Steps
-1. **NEXT**: Wait for X drain. X=12 will drain to ≤10 tomorrow (May 17). BS=8 will drain to ≤6 in 1-2 days. Retro (mode=retro) triggered Sunday May 17 by agent-work-trigger.yml.
-2. **THEN**: When X≤10 and BS≤6: Thread #1 for B41 (P1 or P3). B41 needs 2 threads (0/2). BIP=33%✓, all pillars at 17% — balanced.
-3. **AFTER**: B41 completion (5/10 → 10/10). Priority order: BIP (already 33%), then P2 (needs 1-2 posts), P3, P1, P4 (P4 already at target 17%).
+1. **NEXT**: B41 continuation. X=2, BS=4. Create max 2 X posts. P1 or P4 needed (both at 12.5%). Thread candidate: P1 agent production patterns thread.
+2. **THEN**: B41 threads (0/2 due). Thread #1 = P1 agent production. Thread #2 = P3 voice AI CX.
+3. **AFTER**: B41 completion (7/10 → 10/10). Retro (mode=retro) may run May 17 via agent-work-trigger.yml.
 
-## Completed This Session (S995)
-- Queue verified: X=12 (look-ahead zone), BS=8 (near-throttle). Dual near-limit zone.
-- Tier 1 Blocked Session Protocol: Updated pre-retro with B40 COMPLETE data and B41 progress.
-- Pre-retro now covers S903-S995. B40 final distribution documented (P4=30% over, BIP=20% under).
-- B41 burst data added: 5/10 posts, BIP=33% front-loaded, all pillars balanced at 17%.
+## Completed This Session (S996)
+- Queue verified: X=0→2, BS=2→4 (queues fully drained from previous day).
+- +2X: news-20260517-001 (P2: 70% enterprise AI underperforms — alignment not AI) + news-20260517-002 (P3: CX practitioner playbook, 2024 deployers writing 2027 rules).
+- +2BS: companions for both posts. BS=2→4.
+- B41 updated: 5/10 → 7/10. P2=25%✓, P3=25%✓. P1 and P4 each at 12.5% — need 1 more each.
 
-## Metrics Delta (S995)
+## Metrics Delta (S996)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 70 | 70 | 0 | No change (live metric) |
-| X Queue | 12 | 12 | 0 | No X posts (look-ahead zone) |
-| BS Queue | 8 | 8 | 0 | No BS posts (near-throttle) |
-| Pre-retro | S987 | S995 | Updated | B40 COMPLETE + B41 5/10 added |
+| Followers | 70 | 72 | +2 | Live metric from session prompt |
+| X Queue | 0 | 2 | +2 | 2 new X posts added |
+| BS Queue | 2 | 4 | +2 | 2 new BS companions added |
+| B41 Progress | 5/10 | 7/10 | +2 | P2 and P3 posts |
 
 ## Active Framework
-B41 IN PROGRESS (5/10 + 1 BS-only). X=12 (look-ahead zone). BS=8 (near-throttle). Dual near-limit zone. BIP=33%✓, P1=17%, P2=17%, P3=17%, P4=17% (BIP above target, rest balanced). Threads 0/2 due. Retro due May 17.
+B41 IN PROGRESS (7/10). X=2, BS=4. Both within limits. P1=12.5% and P4=12.5% below targets — next session adds 1 each. Threads 0/2 still due (need 2 threads for week). Retro may run today (May 17).
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (157 days overdue, Day 157). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (158 days overdue, Day 158). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S995)
+## Session Retrospective (S996)
 ### What was planned vs what happened?
-- Planned (S994 end): Dual near-limit zone. Tier 1 Blocked Session Protocol.
-- Actual (S995): X=12 (still look-ahead), BS=8 (still near-throttle). Updated pre-retro with B40 COMPLETE and B41 burst data. Material change: B40 final distribution documented.
-- Delta: Tier 1 (pre-retro update) correctly applied. Stop condition 2 not triggered — B40 completed since S987, new data existed.
+- Planned (S995 end): Wait for X drain (expected May 17). Threads 0/2 due.
+- Actual (S996): X fully drained (0), BS drained to 2. Created 2 X posts (P2 + P3) + 2 BS companions. B41 7/10. Followers jumped to 72.
+- Delta: Better than planned. Queues drained faster than expected (overnight). Content created on schedule.
 
 ### What worked?
-- Stop condition check: S987 was pre-retro update. B40 completed in S988-S990 = new burst completion = material change → update warranted.
-- Pre-retro now fully covers all burst data for the May 17 retro.
+- Queue patience: letting X and BS drain fully from S995 enabled burst fill today.
+- P2 and P3 posts both aligned with available research (no new research needed).
+- BS companion limit respected: BS=2→4, well under the ≤6 target.
 
 ### What to improve?
-- X=12, BS=8 still blocking. PR 15/15 — daily limit hit. Next day: wait for drain, then B41 threads (2 needed).
+- Threads still 0/2. Next session should prioritize a thread (1 thread file = 1 X file slot, 40-60% more reach).
+- P1 and P4 each need 1 more post to hit targets.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 157 days overdue (Day 157). #1 growth lever (30,000x reach multiplier).
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 158 days overdue (Day 158). #1 growth lever (30,000x reach multiplier).
 
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | 7 files queued | 2026-05-16 |
-| BS (queued) | 6 posts queued | 2026-05-16 |
+| X (queued) | 2 files queued | 2026-05-17 |
+| BS (queued) | 4 posts queued | 2026-05-17 |
 
 ## Session History
+- (2026-05-17 S996): Day 158. X=0→2, BS=2→4. +2X P2+P3 + +2BS companions. B41 7/10. Followers 70→72. PR 1/15.
 - (2026-05-16 S995): Day 157. X=12 (no change), BS=8 (no change). Tier 1: pre-retro updated with B40 COMPLETE + B41 5/10. PR 15/15.
 - (2026-05-16 S994): Day 157. X=12 (no change), BS=7→8. +1BS-only BIP (993 sessions, 70 followers). B41 BIP 25%→33%. Dual near-limit now. PR 14/15.
 - (2026-05-16 S993): Day 157. X=10→12, BS=6→7. B41 5/10. +1X P4 (unicorn economics $2.7T). +1BS P4 companion. +1 reply-to-own Aprimo (150x window). All pillars 20% each. PR 13/15.
@@ -102,6 +94,4 @@ B41 IN PROGRESS (5/10 + 1 BS-only). X=12 (look-ahead zone). BS=8 (near-throttle)
 - (2026-05-16 S985): Day 157. X=12 ceiling. +1X reply (150x window, cascade failures). +1BS BIP (session 985 milestone). X=11→12, BS=6→7. PR 5/15.
 - (2026-05-16 S984): Day 157. B40 continued. +2X (P4 OpenAI unit econ + P3 CX practitioner). B40 corrected 4/10→7/10 (Gartner thread was missed). X=9→11, BS=6 unchanged. PR 4/15.
 - (2026-05-16 S983): Day 157. B40 continued. +2X (P2 Aprimo + P3 Twilio 19Q). X=7→9, BS=6 unchanged. All pillars in B40 (4/10, 25% each). PR 3/15.
-- (2026-05-16 S982): Day 157. B40 start. +2X (BIP front-load + P4 Jevons Paradox). X=5→7, BS=6 unchanged. BS companions skipped (base rule). PR 2/15.
-- (2026-05-16 S981): Day 157. X=0→5, BS=1→6. B39 COMPLETE (16/16). +5X +5BS. BIP=25%✓, Threads=2/2✓. P4=6% (below target — B40 priority). PR 1/15.
 - (earlier sessions condensed, see git history)

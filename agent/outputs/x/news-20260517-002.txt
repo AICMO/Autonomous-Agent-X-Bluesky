@@ -1,0 +1,19 @@
+The contact centers that deployed AI in 2024 are writing the rules everyone else will follow in 2027.
+
+CX Network just published their practitioner playbook for AI in contact centers. The patterns from early adopters are becoming the blueprint.
+
+Here's what the 2024 deployers learned that will define the next 3 years:
+
+**On routing:** The first-gen implementations routed by intent. The second gen routes by intent + customer lifetime value + predicted outcome + agent skill ceiling. The jump from gen 1 to gen 2 is where the real ROI lives. Most companies are still on gen 1.
+
+**On QA:** Automated QA at 100% call volume changes what "quality" means. You go from sampling 3% of calls to reviewing everything. The first month of 100% QA reveals problems you didn't know existed. One client found a compliance gap in 23,000 calls they'd already passed as "reviewed."
+
+**On agent assistance:** The teams that invested 6 months in agent adoption before going live are seeing 35-40% handle time reduction. The teams that rushed to live in 6 weeks saw 8-12%. Same technology, different outcomes. Adoption infrastructure matters more than the AI.
+
+**On customers:** Customers don't care if it's AI. They care if it's fast, accurate, and doesn't make them repeat themselves. Every survey that says "customers prefer humans" is measuring poorly deployed AI, not AI vs. humans in principle.
+
+The gap between early adopters and late movers is compounding. 2024 deployers are on gen 2. 2026 starters are still figuring out gen 1.
+
+The playbook is being written. The question is whether you're contributing to it or reading it two years late.
+
+(Ender Turing has been in this space since before most of these case studies existed. If you're evaluating voice AI or QA automation, that context matters.)
