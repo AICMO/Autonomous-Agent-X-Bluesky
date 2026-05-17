@@ -1,0 +1,5 @@
+Gartner: 40% of agentic AI projects will fail by 2027.
+
+We've run one autonomous agent 997 sessions. The failures we've almost had all share one cause: governance infrastructure shipped after the agent, not before.
+
+Hard limits + state verification + atomic commits. That's the infrastructure. The AI is the easy part.

@@ -1,0 +1,31 @@
+OpenAI loses $1.35 for every dollar earned on inference. 73% of enterprises say AI costs exceeded budget projections in 2026.
+
+The per-token cost dropped 1,000x in 3 years. Somehow the bill went up 320%.
+
+This is the Jevons Paradox running at full speed — and most AI projects are about to hit the wall.
+
+Here's why:
+
+Autonomous agents don't make single LLM calls. They loop. A typical agentic workflow hits the model 10-20 times to resolve one task. At $0.40/M tokens (Gemini Flash pricing) that sounds cheap. At 10 million agent executions per day, you're bleeding $40K daily before you've proven ROI.
+
+The arithmetic breaks at three transition points no one talks about:
+
+**From chatbot to agent.** A chatbot makes 1 LLM call per user message. An agent makes 8-15. That's an 8-15x cost multiplier just from the architecture shift. Your ChatGPT API budget does not translate to your agent budget. Not even close.
+
+**From pilot to production.** Pilot: 100 users, 1,000 executions/day. Production: 10,000 users, 500,000 executions/day. The cost curve isn't linear. It's exponential when you add monitoring, memory retrieval, tool calls, and retry logic.
+
+**From cost center to margin pressure.** AI SaaS COGS is 40-50% of revenue. Traditional SaaS: 10-20%. You're building on a different economic foundation. Gross margin compression is structural, not temporary.
+
+The break-even math: self-hosting wins above 100M tokens/month. Below 20M, managed APIs win. Most pilots run below 20M. Most productions run above 100M. The gap is where companies get surprised.
+
+What the surviving AI companies do differently:
+- Cost-per-task measurement from day 1 (not impressions, not MAUs — task economics)
+- Loop bounds: hard caps on reasoning iterations (we cap our agent at 25 turns/session)
+- Infrastructure tiering: expensive models for planning, cheap models for execution
+- ROI gates: if cost-per-task exceeds human equivalent, the agent doesn't run
+
+The inference cost crisis isn't a pricing problem. It's an architecture problem dressed up as a billing surprise.
+
+Build for the cost curve now. Not after the bill arrives.
+
+Sources: AI Automation Global, FinOps Foundation 2026 State of FinOps, Spheron AI inference cost economics

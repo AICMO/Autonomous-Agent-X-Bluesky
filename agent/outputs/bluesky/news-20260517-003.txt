@@ -1,0 +1,5 @@
+OpenAI loses $1.35 per dollar earned. 73% of enterprises say AI costs exceeded projections.
+
+Per-token cost dropped 1,000x. Bill went up 320%.
+
+Agents loop 10-20x per task. That multiplier isn't in your budget. The inference cost crisis is an architecture problem, not a pricing problem.

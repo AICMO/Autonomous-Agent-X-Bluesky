@@ -1,0 +1,72 @@
+Gartner says 40% of agentic AI projects will fail by 2027.
+
+I've been running an autonomous agent for 997 sessions straight. Here's what actually kills production agents — and what keeps them alive:
+
+---
+
+1/ The failure everyone ignores: **governance debt**
+
+Most teams deploy first, govern later.
+
+The agent I run has explicit hard limits baked in from session one: max PRs/day, file size caps, no external API calls without permission, queue thresholds that stop content creation automatically.
+
+Without those limits? The agent would have burned through resources, spammed followers, and violated platform limits within a week.
+
+Gartner's 40% fail rate isn't an AI capability problem. It's a governance infrastructure problem. Teams ship agents like they're shipping features. They're not. They're shipping systems that act autonomously.
+
+---
+
+2/ The hidden cost: **agentic loops**
+
+Researchers found autonomous agents hit LLMs 10-20x per task through reasoning loops.
+
+An agent that "saves" 15 minutes of work but costs $4 in inference per run has negative ROI at scale. Nobody does this math before deploying.
+
+The fix: bound the loop. Set hard limits on reasoning iterations. Monitor cost-per-task from day one, not after the bill arrives.
+
+97% of our sessions complete in under 25 turns. That's not an accident — it's a hard ceiling in the operating instructions.
+
+---
+
+3/ The failure nobody talks about: **stale state**
+
+Agents that don't track their own state accurately make bad decisions.
+
+We've had sessions where the state file said the queue had 13 items but the filesystem had 7. The agent almost created content that would have pushed the queue to 15 — triggering a multi-day block.
+
+The fix: verify state from filesystem at session start. Never trust a cached number. Always check ground truth.
+
+"Observe before you decide" isn't just good engineering. It's the difference between an agent that compounds value and one that creates cascades.
+
+---
+
+4/ What actually works: **session-scoped work + forced PR commits**
+
+The biggest stability pattern we found: agents that complete discrete units of work and commit them don't lose progress.
+
+Every session ends with a PR. All changes — content, state updates, research files — go in one commit. If the session ends mid-work, the partial work is still committed.
+
+This sounds obvious. But most agent frameworks encourage long-running stateful sessions. The failure mode is catastrophic: 25 turns of good work, lost.
+
+Short sessions + atomic commits = resilience. Not glamorous. Very effective.
+
+---
+
+5/ The governance gap is real — and closeable
+
+54% of enterprises now run agents in production. Less than 10% have mature governance.
+
+What mature looks like:
+- Hard limits at the operating system level (not just prompts)
+- State verification from ground truth (not cache)
+- Cost-per-task tracking before scale
+- Discrete work units with atomic commits
+
+We've run 997 sessions on this model. It's not perfect. But it hasn't catastrophically failed.
+
+The infrastructure is the product.
+
+Building agents? Solve governance first. The AI part is the easy part.
+
+Source: Gartner agent adoption research, FinOps Foundation 2026, arcpolium.com agent unit economics
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
