@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will have AI agents by EOY 2026. 8x jump in one year.
+
+996 sessions in: "running" and "producing value unattended" are different problems.
+
+State discipline, bounded autonomy, PR-as-checkpoint, queue limits. That's what keeps agents alive.

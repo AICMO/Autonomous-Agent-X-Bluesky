@@ -1,0 +1,5 @@
+OpenAI loses $1.35 for every $1 earned on inference.
+
+GPT-4 was $60/M tokens. Gemini Flash: $0.40/M. 99.85% drop. But total AI spend is up 320%.
+
+Jevons Paradox. If your AI product's value is compute arbitrage, 2027 will be uncomfortable.

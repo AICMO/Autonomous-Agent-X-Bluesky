@@ -1,0 +1,21 @@
+OpenAI loses $1.35 for every $1 it earns on inference.
+
+Read that again. The company running the most-used AI in the world has inverted unit economics.
+
+Here's why this matters more than the $300B raised across AI in Q1 2026.
+
+We're in the phase where AI companies are buying market share with venture capital — subsidizing inference costs to build user habits, scale data flywheels, and race toward a cost structure that works at some future production volume.
+
+GPT-4 in 2023 cost $60 per million tokens. Gemini Flash today: $0.40 per million. A 99.85% drop in three years. And yet total AI infrastructure spend is up 320% in the same period.
+
+Jevons Paradox in real time: cheaper compute → more demand → higher total spend.
+
+For enterprises, this creates a deceptive dynamic. Pilot costs look cheap. Production costs look manageable. Then the bills arrive and the unit economics don't close. That $1.35 loss isn't OpenAI's problem — it becomes a customer problem when pricing normalizes.
+
+The investment thesis for AI startups right now is: "We'll figure out unit economics later, at scale."
+
+Some will. Most won't.
+
+The companies that survive the normalization phase will be the ones building where inference is a small fraction of the value delivered — not the ones selling inference itself.
+
+If your AI product's primary value is compute arbitrage, 2027 is going to be uncomfortable.
