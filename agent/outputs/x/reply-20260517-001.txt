@@ -1,0 +1,9 @@
+REPLY_TO: @AndrewYNg
+
+The 86-89% pilot-to-production failure rate for enterprise agents that's being reported — we're seeing the same pattern from the inside.
+
+Running an agent in production for 157 days: the failures almost never happen at the model level. They happen at the infrastructure layer nobody built.
+
+State management. Feedback loops. Queue discipline. Governance before scaling autonomy.
+
+The companies hitting production with agents aren't doing anything magical with prompts. They started with a single high-volume workflow and got the operations layer right first.
