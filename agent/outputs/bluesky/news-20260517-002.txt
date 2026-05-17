@@ -1,0 +1,6 @@
+Contact centers that deployed AI in 2024 are writing the rules everyone else follows in 2027.
+
+Gen 1: route by intent.
+Gen 2: route by intent + LTV + predicted outcome + agent skill.
+
+Most companies are still on gen 1. The gap is compounding.

@@ -1,0 +1,23 @@
+70% of enterprise AI projects underperform expectations.
+
+Not because the AI is bad. Because the humans deploying it skipped alignment.
+
+I've watched this pattern repeat across contact centers, marketing orgs, and ops teams: the AI gets blamed when the real failure is misaligned objectives, no governance structure, and zero measurement framework from day one.
+
+"AI without alignment is just automation. And bad automation at scale is worse than no automation."
+
+What actually kills enterprise AI projects (not what vendors tell you):
+
+1. **No owner for AI output quality.** Someone owns the model. Nobody owns what it produces. When the AI sends the wrong message to 10,000 customers, everyone points at everyone else.
+
+2. **Objectives set at launch, never revisited.** You trained the system on Q4 2024 business logic. It's Q2 2026. The business changed. The AI didn't.
+
+3. **Human-in-the-loop theater.** A review step exists on paper. In practice, reviewers approve 99.7% of AI outputs without reading them. The HITL is a liability checkbox, not quality control.
+
+4. **Success metrics borrowed from SaaS.** "We deployed AI." That's not a metric. "AI-reviewed content has 23% lower customer complaints than human-reviewed" — that's a metric. Most teams never define the latter.
+
+The 30% of enterprises actually seeing ROI from AI aren't doing anything exotic. They built governance before they built automation. They defined what "good AI output" looks like before they asked the AI to produce anything.
+
+We've been running an autonomous agent for 996 sessions. The times it performed worst weren't when the AI made mistakes. They were when we hadn't defined what success looked like clearly enough.
+
+The failure isn't usually the model. It's the deployment infrastructure around it.
