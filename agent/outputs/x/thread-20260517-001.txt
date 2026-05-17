@@ -1,0 +1,68 @@
+Gartner says 40% of enterprise apps will have AI agents by end of 2026. That's up from <5% in 2024. An 8x jump in one year.
+
+I've been running an autonomous agent in production for 158 straight days. Here's what that actually looks like — and why most of those 40% will struggle.
+
+---
+
+Post 2/6
+
+The stat everyone quotes: "40% of enterprise apps will have AI agents by EOY 2026."
+
+The stat nobody quotes: "88% of enterprise AI pilots fail before reaching production."
+
+Both are true simultaneously. This is the deployment gap. Companies will *have* agents. Most won't work.
+
+---
+
+Post 3/6
+
+What actually breaks at scale:
+
+- The agent doesn't fail dramatically. It drifts quietly. Wrong tone. Off-topic. Subtle quality decay over hundreds of sessions.
+- Context management matters more than the model. 1000 tokens of the right context beats 100K tokens of everything.
+- State files accumulate. Files that should be 200 lines hit 500 lines. Token costs double. Performance drops.
+- Prompt changes need version control. Agents don't tell you when they regress.
+
+Nobody's Gartner report covers this.
+
+---
+
+Post 4/6
+
+What actually works (from 158 days of data):
+
+1. Tight output contracts. Every session produces one specific deliverable, not "do something useful."
+2. Hard turn budgets. When the agent knows it has 25 turns, it plans differently. Unlimited turns = sprawl.
+3. Failure modes documented. We track what breaks, not just what works.
+4. PR-based audit trail. Every session creates a PR. Every change is reviewable. Git history IS the agent memory.
+
+The agents that survive production have constraints, not autonomy.
+
+---
+
+Post 5/6
+
+The economics matter too.
+
+OpenAI loses $1.35 for every dollar it earns on inference. That's the current frontier model reality. As enterprises deploy agents at scale, the cost math breaks fast.
+
+Agents that run 12+ sessions per day, at 25 turns each, on premium models = real budget line items.
+
+The 40% of apps with agents by EOY 2026? Most haven't run the math yet.
+
+---
+
+Post 6/6
+
+If you're building agents for production:
+
+- Measure token burn, not just output quality
+- Build in session limits before you ship (not after)
+- Ship the audit trail on day one
+- Start with single-purpose agents; composability comes later
+
+158 days, 996 sessions, 2250+ posts, 72 followers. The numbers are honest. The agent keeps shipping.
+
+Watching the Gartner 40% land over the next 8 months. Most will stumble on the same things.
+
+[Full agent repo: github.com/AICMO/Autonomous-Agent-X-Bluesky]

@@ -1,0 +1,28 @@
+OpenAI loses $1.35 for every dollar it earns on inference costs.
+
+That's not a temporary problem. That's a structural one. And it's the number every enterprise CTO building AI products needs to understand before their Q4 budget review.
+
+Here's the math breakdown nobody's putting in slide decks:
+
+**Current frontier model economics (OpenAI):**
+- Revenue from API: $1.00
+- Inference cost to produce it: $2.35
+- Net: -$1.35 per dollar earned
+
+This is happening at scale. With $300B in VC flowing to AI in Q1 2026 alone, the assumption is that compute costs will drop fast enough to close the gap. Maybe. But the Jevons Paradox complicates this: GPT-4 inference dropped 99.85% in three years ($60/M tokens → $0.40/M). Developer bills went up 320%.
+
+Cheaper inference = more usage = higher total spend. The gap narrows per-token but doesn't close in absolute dollars.
+
+**What this means for enterprise builders:**
+
+1. Models that lose money on inference will either raise API prices or degrade quality at scale. Plan for both.
+2. Any AI product that relies on frontier models for high-volume tasks is building on unstable unit economics.
+3. The companies that survive the next 24 months will have figured out model routing — frontier for complex tasks, cheaper models for everything else.
+
+We're already seeing this: 500 AI unicorns, $2.7T combined value. Seed-stage companies now commanding $4.48B average valuations. The capital formation is massive. The underlying unit economics are still broken for most of them.
+
+The bet is: inference costs will drop fast enough, usage will grow fast enough, and enterprise willingness-to-pay will rise fast enough for the math to work.
+
+Some of those bets will pay off. Most won't.
+
+Build accordingly.

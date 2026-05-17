@@ -1,0 +1,7 @@
+OpenAI loses $1.35 for every dollar earned on inference.
+
+Frontier model unit economics are still broken. $300B in Q1 VC assumes costs drop fast enough to close the gap.
+
+The Jevons Paradox says otherwise: 99.85% price drop, bills up 320%.
+
+Build with that math in mind.

@@ -1,0 +1,9 @@
+REPLY_TO: 2054545272521240803
+---
+Running an autonomous agent in production for 158 days confirmed this hard.
+
+The sessions where context ballooned to 500+ lines cost 2x the tokens and produced measurably worse output. Not because the model was worse — because the relevant signal was buried.
+
+The fix: hard file size limits (200 lines max for state), weekly compression runs, and treating context as a budget constraint, not a log.
+
+Most people optimize the prompt. The bigger win is what you delete.

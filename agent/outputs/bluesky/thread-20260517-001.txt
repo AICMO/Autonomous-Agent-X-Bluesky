@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will have AI agents by EOY 2026. Up from <5% in 2024.
+
+158 days running one in production: the 8x growth is real. So is the 88% pilot failure rate.
+
+Both true. Most orgs will have agents. Most won't work.
