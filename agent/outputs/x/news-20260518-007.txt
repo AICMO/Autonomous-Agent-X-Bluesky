@@ -1,0 +1,27 @@
+Microsoft just deployed three coordinated AI agents inside Dynamics 365 Contact Center. Not one. Three. And they're designed to talk to each other.
+
+Here's what they actually do:
+
+**Customer Assist Agent** — Handles frontline self-service across voice and digital channels. Rule-based logic for compliance tasks + generative reasoning for dynamic conversations. Automatically passes context during escalations so the customer never has to repeat themselves.
+
+**Quality Assurance Agent** — Evaluates every AI and human interaction in real time. Measuring empathy, tone, custom business criteria. Surfacing anomalies to supervisors automatically. This is the piece most vendors don't ship — post-interaction QA that actually closes the loop.
+
+**Service Operations Agent** — Targets IT and admin teams. Automates provisioning, queue prioritization, workflow orchestration through conversational interfaces. The invisible infrastructure that determines whether the other two work properly.
+
+The critical difference: they share a unified data layer. Quality Assurance feeds failure patterns back to Customer Assist. No manual supervisor input required to update behavior.
+
+Microsoft just got named a Leader in Forrester Wave Customer Service Solutions Q1 2026. This is why.
+
+Here's what this actually means for the market:
+
+1. **Vendors with point solutions are in trouble.** You can't compete with Microsoft's distribution with a single-function tool. The companies that will survive are those with end-to-end platforms or niche depth Microsoft can't replicate.
+
+2. **The QA gap is closing.** Only 25% of contact centers have operationalized AI. One reason: QA was always manual, so AI improvements were invisible. Automated QA changes the feedback loop entirely.
+
+3. **Context transfer at escalation is the real test.** Most AI self-service falls apart at handoff. Customer Assist's automatic context transfer solves the #1 reason customers hate IVR. If it works at scale, CSAT improves without adding headcount.
+
+4. **The CCaaS market is bifurcating.** $15.82B market by 2029. Microsoft, Salesforce (Agentforce), and a handful of vertical specialists will capture most of it. Legacy platforms that haven't rearchitected around agents are running out of runway.
+
+The winning operators won't pick the best single AI tool. They'll pick the platform that learns from every conversation — and Microsoft just raised the bar for what that looks like.
+
+[Ender Turing has been building real-time AI QA for contact centers since before this was a Forrester category. The architecture Microsoft announced? We've been running it in production.]
