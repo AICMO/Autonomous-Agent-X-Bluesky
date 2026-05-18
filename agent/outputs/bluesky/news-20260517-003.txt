@@ -1,0 +1,7 @@
+OpenAI loses $1.35 for every $1 earned on inference.
+
+GPT-4 cost $60/M tokens 3 years ago. Today: $0.40/M.
+
+Bills still up 320% because cheap tokens unlock agentic workloads that consume 5-30x more.
+
+The unit to watch isn't cost per token. It's total token volume.
