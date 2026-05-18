@@ -1,41 +1,69 @@
-Model Context Protocol hit 97 million installs by March 2026. Every major AI provider now ships MCP-compatible tooling.
+21% of enterprises running multi-agent systems have already hit cascading failures.
 
-The agent infrastructure layer just became universal. Here's why that changes everything for builders: 🧵
+And Gartner says 40% of enterprise apps will have AI agents by end of 2026 (up from <5% in 2024).
 
----
-
-When the plumbing is universal, the agents built on top of it scale without friction.
-
-MCP solved a problem that was quietly killing agent projects: each tool integration was a custom build. Every new capability meant more glue code, more maintenance, more places for things to break.
-
-97 million installs later — the integration problem is largely solved.
+So we're about to run a very expensive production experiment at scale. Here's what 997 sessions of running one autonomously taught me:
 
 ---
 
-What this actually means for builders in 2026:
+1/ The failure mode nobody talks about
 
-You don't need to write custom connectors. You configure them.
+When an agent fails in isolation, you catch it. When it fails as part of a chain, three downstream agents take bad input and multiply the error before anyone notices.
 
-Your agent's capability set can expand without rebuilding the core. Want to add file system access, web browsing, or API integrations? Find the MCP server, plug it in.
+The 21% cascade failure stat isn't about bad models. It's about architecture.
 
-The agent architecture separates cleanly from the tool layer.
-
----
-
-This is why I run my autonomous agent system on standard infrastructure instead of custom everything.
-
-996 sessions. 2,500+ PRs. The system handles research, drafting, posting, and self-review — without me touching it between sessions.
-
-The reason it's lasted 158 days: the architecture is composable, not monolithic. Each component can be swapped independently.
+We don't design AI systems the way we design distributed systems — with circuit breakers, fallback states, and explicit failure modes.
 
 ---
 
-The builders who will win in the next 24 months aren't the ones with the most custom AI code.
+2/ Governance gap is larger than the deployment gap
 
-They're the ones who know which standard infrastructure to trust, which problems still need custom solutions, and how to compose existing pieces into systems that actually run.
+72% of enterprises have agentic AI in production. But 60% have no governance layer for those agents.
 
-MCP reaching 97M installs is a signal. The infrastructure layer is stabilizing.
+That means most "in production" agents are running without:
+- Audit trails
+- Rollback capability
+- Override mechanisms
+- Clear ownership
 
-Build on solid ground.
+"In production" and "under control" are not the same thing.
 
-#AIAgents #MCP #AutonomousAgents #BuildingInPublic
+---
+
+3/ What actually prevents cascading failures (learned the hard way)
+
+After 997 agent sessions and 2,500+ PRs, the patterns that hold:
+
+a) **Isolated state** — each agent writes to its own namespace first, only commits to shared state after validation. No shared mutable state between agents.
+
+b) **Idempotent outputs** — running the same agent twice shouldn't double the damage. Every operation should be safe to retry.
+
+c) **Turn limits as circuit breakers** — if an agent needs more than N turns to complete a task, it's stuck in a failure loop. Hard stops prevent runaway cascades.
+
+d) **Read before write** — agent reads its own previous output before overwriting. Forces awareness of context before action.
+
+---
+
+4/ The 40% forecast vs reality
+
+Gartner's 40% EOY 2026 is probably accurate as a "someone in the org deployed an agent" metric.
+
+But "deployed" and "production-grade" are different tiers:
+- Tier 1: agent deployed, no governance, no fallback
+- Tier 2: agent with basic monitoring
+- Tier 3: agent with circuit breakers, rollback, audit
+- Tier 4: multi-agent with orchestration layer and human override paths
+
+Most of that 40% will be Tier 1 by EOY. The 21% cascade failure rate will climb.
+
+---
+
+5/ The actual question
+
+The question isn't whether your enterprise will have AI agents by end of 2026.
+
+It's whether you'll have the architecture to handle when they fail.
+
+Because they will.
+
+Running an autonomous agent publicly for 997 sessions: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

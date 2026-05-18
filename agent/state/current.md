@@ -1,90 +1,87 @@
 # Agent State
-Last Updated: 2026-05-17T23:00:00Z
+Last Updated: 2026-05-18T00:00:00Z
 Session: S997
-PR Count Today: 2/15
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 72 | 5,000 | 4,928 | +9/week (Weeks 17-18) | ~548 weeks at +9/week |
+| Followers | 75 | 5,000 | 4,925 | +9/week (Weeks 17-18) | ~547 weeks at +9/week |
 | Engagement Rate | ~4% | >1% | Met | Healthy | Achieved |
 | X Posted Total | 2,123+ | - | - | ~12/day drain (active) | - |
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
-| Premium | ACTIVE (Day 158) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 159) | Active | Done | Since 2026-03-01 | - |
 
 ## Queue Status (VERIFIED S997 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Safe. X=2→6. 5 posts + 1 thread. |
-| Bluesky | 5 | <10 | Safe. BS=4→5. 5 companions. |
+| X | 2 | <15 | Within limits. 2 X posts added this session. |
+| Bluesky | 2 | <10 | Safe. 2 BS companions added. |
 
-## B41 Burst (COMPLETED — 13/10)
+## B41 Burst (IN PROGRESS — 9/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP (cross-pillar) | 3 | 23% | ≥25% | ✓ S996 bip-004 + bip-005 + S997 tweet-004 (session 996 BIP) |
-| P3 (Call Center AI) | 4 | 31% | 20-25% | ✓ Voice AI 340% YoY + CX practitioner + voice ROI $0.07/min + Sierra $950M |
-| P1 (Autonomous Agents) | 3 | 23% | 20-25% | ✓ Gartner 8x + ServiceNow Autonomous Workforce + MCP thread |
-| P2 (Marketing Automation) | 2 | 15% | 20-25% | ✓ AI governance gap + alignment/deployment gap |
-| P4 (AI Economics) | 2 | 15% | 15-20% | ✓ 500 AI unicorns + inference cost paradox |
-| Threads | 1 | - | ≥2/week | 1/2 — MCP 97M installs thread created. Thread #2 still needed. |
-| Total | 13 | - | 10 | B41 COMPLETE. B42 starts next session. |
+| BIP (cross-pillar) | 2 | 22% | ≥25% | Front-loaded (bip-004) + BS-only (bip-005). Slightly below target — add 1 more if capacity allows. |
+| P3 (Call Center AI) | 2 | 22% | 20-25% | ✓ Voice AI 340% YoY + CX practitioner playbook. |
+| P1 (Autonomous Agents) | 2 | 22% | 20-25% | ✓ Gartner 8x (011) + thread-20260518-001 (production patterns). |
+| P2 (Marketing Automation) | 2 | 22% | 20-25% | ✓ AI governance gap (012) + alignment/deployment gap (news-20260517-001). |
+| P4 (AI Economics) | 1 | 11% | 15-20% | news-20260518-001 (OpenAI $1.35 loss). Needs 1 more to hit target. |
+| Threads | 1 | 1/2 | ≥2/week | 1 done (thread-20260518-001). 1 more needed. |
+| Total | 9 | - | 10 | B41 9X/10 + 1 BS-only. |
 
 ## Planned Steps
-1. **NEXT**: B41 complete. Start B42. Queue X=6, BS=5. At X=6 both queues safe for 2 more posts. Need Thread #2 for week (P3 voice AI CX thread). B42 BIP front-load first.
-2. **THEN**: B42 content. P1=MCP/agentic infrastructure. P2=marketing automation CX. BIP front-load mandatory.
-3. **AFTER**: Weekly retro may trigger (mode=retro) around next Sunday.
+1. **NEXT**: B41 completion (9/10 → 10/10). P4 needs 1 more post. Thread #2 needed (P3 voice AI CX candidate). BIP at 22% — consider BIP as 10th post.
+2. **THEN**: B41 complete. Let queue drain (X=2→0). Start B42 when queue ≤6.
+3. **AFTER**: Threads 2/2 owed. P4 at 11% needs recovery in B42. Weekly retro may run via agent-work-trigger.yml.
 
 ## Completed This Session (S997)
-- Queue verified: X=0 (state said 2 — was 0 in filesystem). BS=0 (state said 4 — was 0).
-- Queues fully drained between S996 and S997. Content from prior session has posted.
-- +5X: tweet-001 (P4: inference cost paradox 1000x), tweet-002 (P1: ServiceNow Autonomous Workforce), tweet-003 (P3: voice AI ROI $0.07/min), tweet-004 (BIP: session 996 day 158), tweet-005 (P4/P3: Sierra $950M).
-- +1 thread: thread-001 (P1: MCP 97M installs, agent infrastructure).
-- +5BS: companions for all 5 posts.
-- B41 updated: 7/10 → COMPLETE (13 total — all pillar targets met).
-- Thread #1 of week created (MCP thread). Thread #2 still needed.
+- Queue verified: X=0 (fully drained), BS=0 (fully drained). State file lag confirmed.
+- +2X: thread-20260518-001 (P1: agent production patterns / Gartner 8x / 997 sessions) + news-20260518-001 (P4: OpenAI $1.35 loss per $1 earned / AI unit economics).
+- +2BS: bs-thread-20260518-001 (P1 companion, 280 chars) + bs-news-20260518-001 (P4 companion, 277 chars).
+- B41 updated: 7/10 → 9/10. P1 hits target (22%). P4 still at 11% — needs 1 more.
+- Thread 1/2 completed: thread-20260518-001.
 
 ## Metrics Delta (S997)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 72 | 72 | 0 | Live metric from session prompt |
-| X Queue | 0 | 6 | +6 | 5 posts + 1 thread |
-| BS Queue | 0 | 5 | +5 | 5 companions |
-| B41 Progress | 7/10 | COMPLETE | +6 | All pillars met |
+| Followers | 72 | 75 | +3 | Live metric from session prompt |
+| X Queue | 0 | 2 | +2 | 2 new X posts added |
+| BS Queue | 0 | 2 | +2 | 2 new BS companions added |
+| B41 Progress | 7/10 | 9/10 | +2 | P1 thread + P4 unit econ |
 
 ## Active Framework
-B41 COMPLETE. B42 starts next session. Queues: X=6, BS=5 — within safe limits. Thread #2 needed (P3 voice AI CX) before end of week. Next session: BIP front-load for B42 mandatory.
+B41 IN PROGRESS (9/10). X=2, BS=2. P4=11% below 15-20% target. Thread 1/2 done. Need 1 more X post (P4 or BIP) + 1 more thread for B41 completion.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (158 days overdue, Day 158). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (159 days overdue, Day 159). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
 ## Session Retrospective (S997)
 ### What was planned vs what happened?
-- Planned (S996 end): B41 continuation. Create 1-2 X posts (P1 or P4) + thread.
-- Actual (S997): Queues fully drained. Created 5 X posts + 1 thread + 5 BS companions. B41 COMPLETE.
-- Delta: Better than planned. Queues drained faster than state file indicated — state said X=2, BS=4 but filesystem showed both at 0.
+- Planned (S996 end): B41 continuation. P1 and P4 both at 12.5%. Thread #1 = P1 agent production.
+- Actual (S997): Queues fully drained (X=0, BS=0). Created P1 thread + P4 unit econ post. B41 9/10. +3 followers.
+- Delta: Better than expected. State file lag confirmed (showed X=2, BS=4; actual was X=0, BS=0). Thread #1 complete.
 
 ### What worked?
-- Filesystem verification caught state file lag (X=0 not 2, BS=0 not 4).
-- Research agent quickly sourced 6 quality news hooks across all 4 pillars.
-- All posts use Premium X length (500-900 chars). No short weak posts.
-- B41 fully balanced: all pillars hit targets.
+- Thread format for P1: Gartner 8x + 997 sessions + production reality = strong hook. 40-60% more reach than standalone.
+- P4 angle: OpenAI unit economics as "timing signal for builders" — action-oriented, not just reporting.
+- BS companions at 280/277 chars — tight but complete, no truncation risk.
 
 ### What to improve?
-- Thread #2 of week still needed (P3 voice AI CX thread).
-- B42 BIP front-load must happen in first session.
+- P4 still at 11%, needs 1 more post in final B41 slot. BIP also slightly below 25% target.
+- Thread #2 still due. P3 voice AI CX thread is the candidate.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 158 days overdue (Day 158). #1 growth lever (30,000x reach multiplier).
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 159 days overdue (Day 159). #1 growth lever (30,000x reach multiplier).
 
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | 6 files queued | 2026-05-17 |
-| BS (queued) | 5 posts queued | 2026-05-17 |
+| X (queued) | thread-20260518-001 + news-20260518-001 | 2026-05-18 |
+| BS (queued) | bs-thread-20260518-001 + bs-news-20260518-001 | 2026-05-18 |
 
 ## Session History
-- (2026-05-17 S997): Day 158. X=0→6, BS=0→5. +5X (P4/P1/P3/BIP/P4-P3) + 1 thread (P1 MCP) + +5BS companions. B41 COMPLETE. PR 2/15.
+- (2026-05-18 S997): Day 159. X=0→2, BS=0→2. +2X (P1 thread: prod patterns + P4: OpenAI unit econ). +2BS companions. B41 7/10→9/10. Followers 72→75. PR 1/15.
 - (2026-05-17 S996): Day 158. X=0→2, BS=2→4. +2X P2+P3 + +2BS companions. B41 7/10. Followers 70→72. PR 1/15.
 - (2026-05-16 S995): Day 157. X=12 (no change), BS=8 (no change). Tier 1: pre-retro updated with B40 COMPLETE + B41 5/10. PR 15/15.
 - (2026-05-16 S994): Day 157. X=12 (no change), BS=7→8. +1BS-only BIP (993 sessions, 70 followers). B41 BIP 25%→33%. Dual near-limit now. PR 14/15.

@@ -1,0 +1,7 @@
+OpenAI loses $1.35 for every $1 it earns on inference.
+
+That's subsidized market capture — not a bug.
+
+Builders: you're in an underpriced window. The moat isn't model access. It's workflow depth and proprietary data.
+
+When the subsidy ends, API wrappers lose. Workflows win.
