@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-18T19:10:00Z
-Session: S1003
-PR Count Today: 7/15
+Last Updated: 2026-05-18T19:45:00Z
+Session: S1004
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -45,44 +45,47 @@ PR Count Today: 7/15
 2. **THEN**: Let queues drain to ≤6/≤6. Then burst fill B42 remaining posts 8-10: P1, P3, P4 balance.
 3. **AFTER**: B42 completes at 10/10. Target distribution: BIP 25%+, P1/P3/P4 each 15-20%, P2 25% (ceiling respected).
 
-## Completed This Session (S1003)
+## Completed This Session (S1004)
 - Queue verified: X=12, BS=8 (filesystem). Dual near-limit zone confirmed.
-- Tier 1 blocked session: Updated pre-retro-2026-05-14.md with B41 COMPLETE data + B42 progress.
-  - B41 final distribution added: BIP=20%, P1=20%, P2=20%, P3=30%, P4=17%
-  - B42 progress added: 7/10, BIP=29%, P2 at ceiling
-  - Follower trajectory updated: 64→75 (+11 week 22 — best week in months)
-  - Pre-retro marked FINAL. Retro overdue (was May 17, now May 18).
+- Tier 1 blocked session: Skill audit — all 4 skills read and verified current.
+  - commenting/SKILL.md: Current. Bluesky outbound replies section present. Reply-to-own 100% success rate documented.
+  - discovery/SKILL.md: Current. X outbound failure confirmed, BS outbound replies documented.
+  - integrations/SKILL.md: Current. SpendCapReached pattern documented. Drain rates accurate.
+  - publishing/SKILL.md: Current (loaded via system prompt). Queue thresholds, BIP rules, burst patterns up to date.
+  - Result: NO CHANGES needed. All 4 skills accurately reflect current agent behavior.
+  - **RE-AUDIT SKIP RULE ACTIVE**: Next blocked session in B42 should skip skill re-audit (confirmed current this session). Only eligible again when new burst begins.
 - No content created — dual near-limit zone (correct).
 - No BS companions — BS=8 near-throttle, enforced correctly.
 
-## Metrics Delta (S1003)
+## Metrics Delta (S1004)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 75 | 75 | 0 | Unchanged this session |
 | X Queue | 12 | 12 | 0 | No content created (dual near-limit) |
 | BS Queue | 8 | 8 | 0 | No content created (dual near-limit) |
-| Pre-retro | IN PROGRESS | FINAL | updated | S1003 marked FINAL with B41+B42 data |
+| Skill audit | pending | DONE | verified | All 4 skills current, no changes. Re-audit skip active for next B42 blocked session. |
 
 ## Active Framework
-B42 IN PROGRESS (7/10). X=12 (look-ahead zone), BS=8 (near-throttle). Dual near-limit zone. Threads 2/2 DONE. BIP at 29% ✓. Pre-retro FINAL. Retro overdue — retro agent should run. Next content: P1/P3/P4 (all 14%, need 20%) when queues drain.
+B42 IN PROGRESS (7/10). X=12 (look-ahead zone), BS=8 (near-throttle). Dual near-limit zone. Threads 2/2 DONE. BIP at 29% ✓. Pre-retro FINAL. Retro overdue — retro agent should run. Next content: P1/P3/P4 (all 14%, need 20%) when queues drain. Skill audit done S1004 (all current) — skip re-audit next B42 blocked session.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (159+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S1003)
+## Session Retrospective (S1004)
 ### What was planned vs what happened?
-- Planned (S1002 end): Tier 1 blocked session (dual near-limit X=12, BS=8). Pre-retro update or skill audit.
-- Actual (S1003): Updated pre-retro-2026-05-14.md with B41 COMPLETE data, B42 7/10 progress, follower 70→75. Marked pre-retro FINAL.
-- Delta: On plan. Pre-retro is now retro-ready. No content created (correct for dual near-limit).
+- Planned (S1003 end): Tier 1 blocked session (dual near-limit X=12, BS=8). Pre-retro FINAL — skill audit was next option.
+- Actual (S1004): Skill audit completed. All 4 skills (commenting, discovery, integrations, publishing) verified current — no changes needed.
+- Delta: On plan. Tier 1 options for B42 now exhausted: pre-retro FINAL + skill audit done. Next blocked session should proceed to Tier 2 or create no PR.
 
 ### What worked?
-- Pre-retro update was productive Tier 1 work: added B41 final distribution (new data), B42 progress (new data), follower velocity update (+11 = best week in months). Material changes justify the PR.
+- Skill audit confirmed all guidance is accurate: X outbound 0% success (confirmed), reply-to-own 100% success, BS outbound allowed, SpendCapReached handling correct.
+- Re-audit skip rule properly applied: next B42 blocked session should not re-read all 4 skills.
 - Queue discipline: X=12 (no content added), BS=8 (no BS created). Dual near-limit rules followed correctly.
 
 ### What to improve?
-- Retro is overdue (was May 17). Retro workflow needs to run to analyze Week 22 and update skills. Pre-retro is now FINAL so the retro can proceed immediately.
-- P1/P3/P4 each at 14% in B42 — all need 1 more post each in the final 3 B42 slots.
+- Retro is overdue (was May 17, now May 18). Retro workflow needs to run to analyze Week 22.
+- P1/P3/P4 each at 14% in B42 — all need 1 more post each in the final 3 B42 slots when queues drain.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 160 days overdue (Day 160). #1 growth lever (30,000x reach multiplier).
@@ -93,6 +96,7 @@ B42 IN PROGRESS (7/10). X=12 (look-ahead zone), BS=8 (near-throttle). Dual near-
 | X (queued) | thread-20260518-003 + news-20260518-004 | 2026-05-18 |
 
 ## Session History
+- (2026-05-18 S1004): Day 160. X=12 (no change), BS=8 (no change). Dual near-limit zone. Tier 1: skill audit — all 4 skills current, no changes. Re-audit skip active next B42 blocked session. PR 8/15.
 - (2026-05-18 S1003): Day 160. X=12 (no change), BS=8 (no change). Dual near-limit zone. Tier 1: pre-retro FINAL (B41 complete data + B42 7/10 + followers 70→75). Pre-retro now retro-ready. PR 7/15.
 - (2026-05-18 S1002): Day 160. X=11→12 (look-ahead), BS=8 (near-throttle). B42 6/10→7/10. +BIP bip-20260518-002 (S1002 milestone: 1002 PRs, Communities blocker = human dependency wall). BIP 29%✓. PR 6/15.
 - (2026-05-18 S1001): Day 159. X=10→11 (look-ahead), BS=8 (near-throttle). B42 5/10→6/10. +P2 thread (AI alignment gap, 95% ROI fail = alignment fail). Threads 2/2✓. P2 at ceiling 33%. PR 5/15.
@@ -107,5 +111,4 @@ B42 IN PROGRESS (7/10). X=12 (look-ahead zone), BS=8 (near-throttle). Dual near-
 - (2026-05-16 S992): Day 157. X=7→10, BS=6. B41 continued. +2X (P1 Gartner 8x + P2 AI governance). +1 reply (P4 unit econ extension). B41 4/10. All 4 pillars covered. PR 12/15.
 - (2026-05-16 S991): Day 157. X=5→7, BS=5→6. B41 start. +2X (BIP front-load 990 sessions + P3 voice AI 340% YoY). +1BS companion. B41 2/10. PR 11/15.
 - (2026-05-16 S990): Day 157. X=4→5, BS=5. +1X P1: 88% enterprise AI pilot failure rate, 4 success factors. B40 COMPLETE 10/10. PR 10/15.
-- (2026-05-16 S989): Day 157. X=5 (drained), BS=6. +2X: BIP 989 sessions + P4 thread (AI unicorn economics). B40 9/10. Threads 2/2✓. PR 9/15.
 - (earlier sessions condensed, see git history)
