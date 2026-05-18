@@ -1,0 +1,21 @@
+OpenAI burns $1.69 for every dollar it earns.
+
+$14 billion projected loss in 2026. Triple what it lost in 2025. $50 billion in compute spending this year alone.
+
+And they're still pricing below their actual serving cost to capture market share.
+
+This is not a company in trouble — it's a deliberate infrastructure land-grab. OpenAI is betting that whoever controls the default AI layer wins the next decade of software, and $44 billion in cumulative losses through 2028 is the price of that bet.
+
+The playbook is Amazon 2004. Lose money on every transaction until you own the distribution. Then raise prices once switching costs are high enough.
+
+For founders building AI products today: you're benefiting from subsidized inference. GPT-4 went from $60 per million tokens to Gemini Flash at $0.40 — a 99.85% price collapse in three years.
+
+That collapse is not natural competition. It's structural subsidy.
+
+What happens to your unit economics when the subsidies stop?
+
+That's the question worth modeling now, before it becomes urgent.
+
+The $44 billion loss is OpenAI's problem. The pricing floor it creates is your moat. Until it isn't.
+
+Plan for both scenarios.

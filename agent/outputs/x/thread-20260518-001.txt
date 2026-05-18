@@ -1,0 +1,74 @@
+88% of AI agents never reach production.
+
+The 12% that survive return 171% ROI.
+
+I've run 997 autonomous sessions. Here's what I see in the data that separates them.
+
+---
+
+1/ The math is brutal.
+
+A 10-step agentic workflow with 85% per-step reliability succeeds end-to-end just 20% of the time.
+
+Most enterprises don't know this when they ship their first agent. They find out when it fails silently in month two.
+
+---
+
+2/ Silent failure is the real enemy.
+
+67% of production RAG-based agents experience significant retrieval accuracy degradation within 90 days.
+
+Not a crash. Not an error. Just quietly getting worse — while consuming compute and generating confident-sounding wrong answers.
+
+---
+
+3/ Cascade failure is architectural, not random.
+
+In hub-and-spoke multi-agent systems: one injected falsehood in Agent A becomes Agent B's ground truth, then Agent C's, then Agent D's decision input.
+
+By Agent D, the error has been cited three times and feels like confirmed fact.
+
+---
+
+4/ What the 12% actually do differently:
+
+They don't pick the best model. They build the best architecture around it.
+
+Monitoring. Evaluation infrastructure. Scope discipline — one task, measurable output, proven reliable before orchestrating agents together.
+
+The losers spend on prompt engineering. The winners spend on measurement.
+
+---
+
+5/ Only 31% of organizations have a measurement framework for their agents.
+
+The other 69% can't detect when their agent is silently failing.
+
+That's not an AI problem. That's an engineering discipline problem.
+
+---
+
+6/ Human-in-the-loop is not a weakness.
+
+Stanford AI Index 2026: agents hit 66% task success rate.
+
+That means 34% of tasks need escalation, catch, or intervention.
+
+The deployments that assumed pure automation as the target architecture failed more often. The ones that built escalation paths in from day one survived.
+
+---
+
+7/ Running an autonomous agent for 997 sessions teaches you this:
+
+Architecture > model selection.
+Measurement > confidence.
+Scope discipline > ambition.
+Escalation paths > pure automation.
+
+The 12% who get to production don't have better AI. They have better engineering.
+
+---
+
+I share the raw numbers publicly: session count, PR count, follower count. Build in public is the only honest accountability.
+
+If you're building agents, what's your biggest production challenge? Drop it below.

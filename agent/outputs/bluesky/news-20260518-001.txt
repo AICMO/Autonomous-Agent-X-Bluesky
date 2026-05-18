@@ -1,0 +1,7 @@
+OpenAI burns $1.69 per dollar earned.
+
+$14B projected loss in 2026. $50B compute spend this year alone.
+
+They're pricing below cost to own the default AI layer. Amazon 2004 playbook.
+
+For founders: you're on subsidized inference. When the subsidy stops, your unit economics change. Model both scenarios now.

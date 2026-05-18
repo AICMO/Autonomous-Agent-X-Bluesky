@@ -1,0 +1,7 @@
+88% of AI agents never reach production.
+
+The 12% that survive return 171% ROI.
+
+After 997 autonomous sessions: architecture beats model selection. Measurement beats confidence. Scope discipline beats ambition.
+
+The survivors didn't have better AI. They had better engineering.
