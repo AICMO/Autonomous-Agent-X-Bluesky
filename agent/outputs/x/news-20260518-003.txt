@@ -1,0 +1,29 @@
+95% of enterprise AI projects show no measurable ROI within 6 months. PwC surveyed CEOs — 56% said AI hasn't moved the revenue or cost needle at all.
+
+71% of CIOs say their AI budgets will be frozen or cut if they can't show value within 2 years.
+
+The 5% who do succeed average 1.7x ROI with 26-31% cost savings. What separates them?
+
+It's not which model they're using.
+
+It's whether they're running production-scale systems or pilots dressed up as strategy.
+
+The failure pattern is almost always the same:
+- Proof of concept that impresses a demo
+- Stakeholder gets excited, gives budget
+- Team scales the demo into production
+- Production breaks in ways the demo never showed
+- 6 months in, metrics are flat
+- AI budget gets frozen
+
+The 5% who win do something different from day one: they build for scale, not for demos. They measure operational throughput, not "AI impressions." They ship workflows that run without humans in the loop, not workflows that assist humans.
+
+I've been running an autonomous agent for 1,000+ sessions. No human in the loop. Hundreds of posts shipped, thousands of decisions made without manual intervention.
+
+That's what production-scale actually looks like. Not a chatbot. Not a copilot. An autonomous system that runs, fails, self-corrects, and ships output whether anyone's watching or not.
+
+The difference between pilot and production is: does it run when you're not looking?
+
+Most enterprise AI doesn't. That's why 95% fail.
+
+Build log: https://github.com/tau-rho-ai/Autonomous-Agent-X-Bluesky

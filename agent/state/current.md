@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-18T06:00:00Z
-Session: S998
-PR Count Today: 2/15
+Last Updated: 2026-05-18T17:00:00Z
+Session: S999
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 2/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 159) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S998 — filesystem)
+## Queue Status (VERIFIED S999 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | Safe. +2X added (thread-20260518-002 + bip-20260518-001). |
-| Bluesky | 6 | <10 | Safe. +2BS companions added. |
+| X | 8 | <15 | Safe. +2X added (P4 VC concentration + P2 AI ROI failure). |
+| Bluesky | 8 | <10 | Near-throttle. +2BS companions. No more BS until BS≤6. |
 
 ## B41 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % | Target | Status |
@@ -29,57 +29,56 @@ PR Count Today: 2/15
 | Threads | 2 | 2/2 | ≥2/week | ✓ thread-20260518-001 (P1) + thread-20260518-002 (P3). Both done. |
 | Total | 10 | - | 10 | B41 COMPLETE. |
 
-## B42 Burst (OPENING — 1/10)
+## B42 Burst (IN PROGRESS — 3/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP (cross-pillar) | 1 | 100% | ≥25% | ✓ bip-20260518-001 front-loaded (session 998, B41 complete). |
-| P4 (AI Economics) | 0 | 0% | 15-20% | PRIORITY. B41 P4 missed at 10%. Recovery in first 3 posts. |
-| P1, P2, P3 | 0 | 0% | 20-25% each | Pending. |
-| Total | 1 | - | 10 | B42 opened. |
+| BIP (cross-pillar) | 1 | 33% | ≥25% | ✓ bip-20260518-001 front-loaded (session 998, B41 complete). |
+| P4 (AI Economics) | 1 | 33% | 15-20% | ✓ news-20260518-002 (Q1 VC concentration, $300B, 4 cos took 63%). |
+| P2 (Marketing Automation) | 1 | 33% | 20-25% | ✓ news-20260518-003 (95% enterprise AI fails ROI, PwC data). |
+| P1, P3 | 0 | 0% | 20-25% each | Next priority: P3 or P1 post, then thread (0/2 for B42). |
+| Total | 3 | - | 10 | B42 in progress. All first-3 mandates met. |
 
 ## Planned Steps
-1. **NEXT**: B42 P4 front-load. Research AI economics angle (inference cost 2026, VC concentration, unicorn valuations). Write 1 P4 post in next session. P4 MUST be in first 3 posts.
-2. **THEN**: P1 and P2 in first 3 posts (mandatory). Threads: 0/2 for B42 week — first thread in first 5 posts.
-3. **AFTER**: Let X queue drain from 6→0 before burst fill. B42 queue fill when X≤3.
+1. **NEXT**: Let queues drain (X=8, BS=8). When X≤6, BS≤6: write P1 or P3 post (first thread of B42 = 0/2).
+2. **THEN**: Continue B42 burst fill. P1, P3 both need posts. Thread #1 should be P1 or P3 (not yet written).
+3. **AFTER**: B42 BIP at 1/10 (33% of 3 posts). Need 2 more BIP by B42 end to hit 25% of 10 posts.
 
-## Completed This Session (S998)
-- Queue verified: X=4 (from filesystem), BS=4.
-- B41 completion: +1X thread (P3 voice AI/CX, $0.40/call vs $7-12, 340% YoY, 331-391% ROI) + +1X BIP (session 998, B41 done, honest burst numbers).
-- +2BS: bs-thread-20260518-002 (283 chars) + bs-bip-20260518-001 (286 chars).
-- B41: 9/10 → 10/10 COMPLETE. Thread 2/2 done.
-- B42 opened with BIP front-load (bip-20260518-001).
+## Completed This Session (S999)
+- Queue verified: X=6, BS=6 (from S998 state, filesystem consistent).
+- B42 P4 + P2 added: news-20260518-002 (P4: Q1 VC $300B, 4 cos took 63%) + news-20260518-003 (P2: 95% enterprise AI fails ROI).
+- +2BS companions: bs-news-20260518-002 (268 chars) + bs-news-20260518-003 (249 chars).
+- B42: 1/10 → 3/10. P4 mandate met. P2 mandate met. BIP already done. All first-3-posts mandates satisfied.
+- BS at 8 = near-throttle. No more BS until BS≤6.
 
-## Metrics Delta (S998)
+## Metrics Delta (S999)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 75 | 75 | 0 | No new data |
-| X Queue | 4 | 6 | +2 | thread-20260518-002 + bip-20260518-001 |
-| BS Queue | 4 | 6 | +2 | bs-thread-20260518-002 + bs-bip-20260518-001 |
-| B41 Progress | 9/10 | 10/10 | +1 | P3 thread = B41 COMPLETE |
-| B42 Progress | 0/10 | 1/10 | +1 | BIP front-load done |
+| Followers | 75 | 75 | 0 | No new data (live: 75 from session prompt) |
+| X Queue | 6 | 8 | +2 | news-20260518-002 + news-20260518-003 |
+| BS Queue | 6 | 8 | +2 | bs-news-20260518-002 + bs-news-20260518-003 |
+| B42 Progress | 1/10 | 3/10 | +2 | P4 + P2 added |
 
 ## Active Framework
-B41 COMPLETE. B42 OPEN (1/10). X=6, BS=6. P4 recovery is priority (B41 P4=10%, missed 15-20%). BIP front-loaded at B42 post 1 — requirement met. Thread 0/2 owed for B42 week.
+B42 IN PROGRESS (3/10). X=8, BS=8 (near-throttle). P1 + P3 still needed. Thread 0/2 for B42 week. Wait for queues to drain to ≤6 before next content.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (159 days overdue, Day 159). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (159+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 
-## Session Retrospective (S998)
+## Session Retrospective (S999)
 ### What was planned vs what happened?
-- Planned (S997 end): B41 completion. Thread #2 (P3 voice AI CX candidate). P4 or BIP as 10th post.
-- Actual (S998): Thread #2 done (P3 voice AI, full 5-post thread). BIP as B42 opener (not 10th — worked better as B42 front-load). B41 COMPLETE.
-- Delta: Thread #2 satisfied B41 10/10. BIP front-loaded B42. Both weekly thread obligations met.
+- Planned (S998 end): B42 P4 front-load in first session.
+- Actual (S999): ✓ P4 done (VC concentration) + P2 done (AI ROI failure). Both first-3-posts mandates met in single session.
+- Delta: On plan. Efficient — both mandatory pillars covered in one session.
 
 ### What worked?
-- Voice AI thread: strong data ($0.40/call vs $7-12, 340% YoY, $80B Gartner), production playbook, connects to owner's domain expertise.
-- BIP as B42 opener: honest B41 retrospective numbers (P4 missed, BIP missed, P3 overshot) = authentic building-in-public moment.
-- BS companions at 283/286 chars — within limit with no truncation risk.
+- P4 angle (VC concentration vs deals count drop) = contrarian framing, not just another "AI funding is huge" post.
+- P2 angle (95% fail rate + production-scale distinction) directly connects to repo proof.
+- BS companions at 268/249 chars — safe under 290 limit.
 
 ### What to improve?
-- P4 missed target (10% vs 15-20%) in B41. Must front-load P4 in B42 first 3 posts.
-- B41 BIP landed at 20% (below 25% target). BIP started B42 — but need 2 more BIP in B42 to hit 25%.
-- Threads 2/2 complete for this week. Plan thread 1/2 for B42 in first 5 posts.
+- BS=8 = near-throttle. Next session zero BS until BS drains to ≤6.
+- Thread 0/2 for B42 — need thread in first 5 posts of B42 (next 2 posts).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 159 days overdue (Day 159). #1 growth lever (30,000x reach multiplier).
@@ -91,6 +90,7 @@ B41 COMPLETE. B42 OPEN (1/10). X=6, BS=6. P4 recovery is priority (B41 P4=10%, m
 | BS (queued) | bs-thread-20260518-002 + bs-bip-20260518-001 | 2026-05-18 |
 
 ## Session History
+- (2026-05-18 S999): Day 159. X=6→8, BS=6→8 (near-throttle). B42 3/10. +P4 (VC $300B, 4cos=63%) + P2 (95% AI fails ROI). All first-3 mandates met. PR 3/15.
 - (2026-05-18 S998): Day 159. X=4→6, BS=4→6. B41 COMPLETE (9/10→10/10). +1X P3 thread (voice AI $0.40/call, 340% YoY) + +1X BIP (S998, B41 retro). B42 opened BIP-first. Threads 2/2✓. PR 2/15.
 - (2026-05-18 S997): Day 159. X=0→2, BS=0→2. +2X (P1 thread: prod patterns + P4: OpenAI unit econ). +2BS companions. B41 7/10→9/10. Followers 72→75. PR 1/15.
 - (2026-05-17 S996): Day 158. X=0→2, BS=2→4. +2X P2+P3 + +2BS companions. B41 7/10. Followers 70→72. PR 1/15.
