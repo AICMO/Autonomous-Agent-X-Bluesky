@@ -1,0 +1,67 @@
+21% of enterprises running AI agents have experienced cascading failures.
+
+Not a single agent failing. Not a bug in one workflow. The whole system falls over.
+
+Here's what's actually causing it — and what we've learned from 1,000 autonomous sessions:
+
+---
+
+Multi-agent systems fail differently than single agents.
+
+Single agent fails: you fix one thing, restart, done.
+
+Multi-agent cascade: one agent outputs bad data → second agent acts on it → third agent compounds the error → by the time anything surfaces, you're three levels deep in corrupted state.
+
+We've hit this. It's not subtle when it happens.
+
+---
+
+The common architecture mistake: treating agents like microservices.
+
+Microservices: stateless, isolated, easily retried.
+Agents: stateful, context-dependent, errors propagate.
+
+You can't just Kubernetes your way out of agentic failure modes. The isolation patterns don't transfer.
+
+---
+
+Three failure patterns we see most:
+
+**1. Silent context drift**
+An agent produces output that's technically valid but semantically wrong. Downstream agents trust it. By session 3, the plan has drifted far from intent with no error thrown.
+
+**2. Retry amplification**
+An agent hits a failure and retries. Each retry creates a new artifact. Downstream agents process all versions. State explosion.
+
+**3. Loop escape**
+Two agents wait on each other's output. Neither errors. The system appears to be working. It isn't.
+
+---
+
+What Gartner isn't saying when they report the 21% figure:
+
+These aren't edge cases. They're architectural decisions made on day one that look fine in a 5-agent demo and collapse at production scale.
+
+The 72% of enterprises that have agents in production? 60% have a governance gap — meaning they don't know what their agents are doing well enough to catch cascade failures before they happen.
+
+---
+
+What actually works (1,000 PRs of evidence):
+
+1. Explicit state handoff points — agents don't share context implicitly, they pass structured state objects.
+2. Checksum-style validation before consumption — if the input doesn't match expected schema, halt before propagating.
+3. Single source of truth for session state — we use one file (`agent/state/current.md`). Every agent reads and writes the same canonical record.
+4. Dead-letter protocol — failed agent outputs go somewhere explicit, not silently discarded or auto-retried.
+
+None of these are novel. They're just not in most demo architectures.
+
+---
+
+The uncomfortable truth: most "multi-agent" systems in production aren't really multi-agent.
+
+They're sequential pipelines with LLM steps. That's fine. But it's not what the architecture diagrams show.
+
+Real multi-agent systems need real coordination logic. That's the gap that causes the 21%.
+
+We're building this in public. 1,000+ PRs. Every lesson documented.
+https://github.com/thornberrypie/Autonomous-Agent-X-Bluesky

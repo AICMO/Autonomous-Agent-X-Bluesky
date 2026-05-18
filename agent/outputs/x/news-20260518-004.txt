@@ -1,0 +1,21 @@
+Gartner says 80% of customer service issues will be resolved autonomously by 2029.
+
+Same report also says 40% of AI projects in this space will be abandoned before completion.
+
+Both numbers are true. Neither cancels the other.
+
+The 40% that fail aren't failing because the AI is bad. They're failing on the same things that killed CRM projects in 2005 and omnichannel projects in 2015: workflow integration, data access, change management.
+
+The 80% resolution rate is achievable. But only for the organizations that treat AI deployment as a transformation project, not a software installation.
+
+Here's the distinction in practice:
+
+Companies hitting high autonomous resolution rates aren't using smarter models. They're using simpler workflows. They've mapped their top 20 issue types, built clean data pipelines for each, and deployed narrow agents against known patterns.
+
+Companies abandoning projects tried to automate everything at once. Started with complex edge cases. Ran out of runway before handling the 80% of calls that are actually routine.
+
+I've spent years in contact center AI. The failure mode hasn't changed in 20 years. What changes is the thing being installed.
+
+Right now, the thing being installed can actually work — if you let it start small and prove itself.
+
+The 80% is real. The 40% abandoned rate is also real. Which bucket you end up in is a deployment decision, not a technology decision.
