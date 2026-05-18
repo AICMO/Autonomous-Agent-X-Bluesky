@@ -1,0 +1,27 @@
+Forrester just published the 3-year ROI on voice AI in call centers: 331% to 391%.
+
+Let me put that in dollar terms so it's real.
+
+A mid-size contact center running 500 agents spends roughly $15-20M/year on agent labor. Voice AI handling 30-40% of volume at $0.40/call vs $8-12/call human cost isn't a line item. It's a structural shift.
+
+The numbers from production deployments:
+- $0.40/call for voice AI vs $7-12/call for human agents (90-95% cost reduction per automated interaction)
+- 340% YoY growth in voice AI deployments across 500+ organizations
+- 331-391% 3-year ROI (Forrester Consulting)
+- $80B in contact center savings from conversational AI in 2026 alone (Gartner)
+
+But here's the problem nobody talks about: 88% of enterprises are deploying AI at scale, but only 25% have operationalized it into day-to-day workflows.
+
+That gap is where the ROI gets trapped.
+
+The technology works. The process doesn't. That's not an AI problem — it's a change management and integration problem. The same problem that killed ERP rollouts in the 2000s and cloud migrations in the 2010s.
+
+I've seen this firsthand at Ender Turing. We analyze millions of customer conversations across banking, insurance, and retail. The gap between "deployed" and "operationalized" is months of process redesign, QA workflow changes, and coaching system integration.
+
+Voice AI ROI isn't unlocked at deployment. It's unlocked at adoption.
+
+The companies hitting 391% ROI aren't using better AI. They're the ones who fixed their workflows before they rolled out the technology.
+
+The technology is mature enough. The question is whether your operations are.
+
+More at https://enderturing.com

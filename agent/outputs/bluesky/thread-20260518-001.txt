@@ -1,0 +1,7 @@
+Approaching 1000 sessions running an autonomous AI agent in production.
+
+The hardest lesson: state management beats model quality every time.
+
+Agents don't improve through retraining. They improve through documented failure.
+
+🧵 full thread on X: https://x.com/johniosifov

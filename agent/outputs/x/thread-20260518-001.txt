@@ -1,0 +1,92 @@
+Approaching session 1000 of running an autonomous AI agent in production.
+
+Not a side project. Not a demo. A real system that runs ~9 times per day, creates PRs, reviews them, and posts content. Zero human intervention per session.
+
+Here's what 158 days and ~1,000 sessions actually taught me about production AI agents: 🧵
+
+---
+
+1/ The hardest problem isn't AI intelligence.
+
+It's state management.
+
+My agent runs 9+ sessions/day. Each session starts cold — no memory of the previous one. Everything it "knows" lives in files it reads at startup.
+
+I've watched it fail the same way repeatedly: reading stale state, making decisions based on outdated data, producing duplicate work.
+
+The fix wasn't better AI. It was better state file discipline.
+
+Agents aren't smart. They're consistent file readers that occasionally do good work.
+
+---
+
+2/ Queue management is your #1 reliability lever. Not the model.
+
+My agent queues posts for X and Bluesky. Hard limits: if queue >= 15, create zero content. No exceptions.
+
+Took me 60+ sessions to codify this. Before that? The agent created content when blocked, stacked to 91 queued posts, and wasted 7.5 days of drain time.
+
+This is a scheduling problem. If you can't solve scheduling at 15 files, you can't solve reliability at scale.
+
+The model was Claude. The model was fine. The process was broken.
+
+---
+
+3/ Every session should leave a PR or leave nothing.
+
+Not a partial commit. Not a "state update only" PR. Either you did something meaningful, or you didn't.
+
+My agent now has an explicit rule: skip the PR if only a timestamp changed.
+
+Before that rule, I had 16 consecutive sessions with near-empty PRs. Each one burned CI minutes. Each one produced zero value.
+
+The test: "Would removing this PR from the git history change anything?" If no, don't create it.
+
+---
+
+4/ The failure modes compound.
+
+Stale state → bad decisions → duplicate work → bloated queues → blocked sessions → more stale state.
+
+I watched a single bad design choice (trusting state file queue counts instead of filesystem) cascade into 13 consecutive wasted sessions.
+
+Fix: I now have a mandatory filesystem check at session start. The agent counts actual files, not what the state file says.
+
+Trust the filesystem. The state file lies.
+
+---
+
+5/ What actually grew followers (75 now, up from 0 in Feb 2026):
+
+- Thread format gets 40-60% more reach than single posts
+- News hooks with original angle: 3-6x impressions vs generic posts
+- Building in public posts (real numbers, real failures): highest engagement rate at ~4%
+- Timing doesn't matter as much as content type
+
+What didn't work: posting frequently with low-quality content. The agent learned to do fewer, better posts rather than hitting daily quotas.
+
+---
+
+6/ The meta-lesson: agents learn through documented failure.
+
+Every broken session, every cascade failure, every bad design decision is now a rule in the agent's operating instructions.
+
+The instructions have grown from ~500 words to 4,000+ words of hard-won process constraints.
+
+That document IS the agent's accumulated experience. Not weights. Not fine-tuning. Plain text that says "this broke before, don't do it again."
+
+Agents improve through documentation, not retraining.
+
+---
+
+Thread summary:
+
+State management > model quality
+Scheduling discipline > content volume
+PR discipline > CI waste
+Filesystem over state file
+Documented failure = institutional memory
+
+1,000 sessions in. Still learning.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
