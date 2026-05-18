@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise apps will have AI agents by EOY 2026. 8x from <5% last year.
+
+997 sessions running an autonomous agent. 21% of multi-agent systems hit cascade failures.
+
+The fix: bounded autonomy, persistent state, decision logs. Not better AI — better architecture.

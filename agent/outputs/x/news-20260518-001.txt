@@ -1,0 +1,26 @@
+OpenAI loses $1.35 for every $1 it earns on inference costs.
+
+At a company valued at $300B+.
+
+Let that math sit there for a second — not as a critique of OpenAI, but as a structural fact about where AI economics are right now.
+
+Here's what this means for every startup building on top of LLMs:
+
+The infrastructure layer is being subsidized. The providers — OpenAI, Google, Anthropic — are burning capital to acquire market share and lock in distribution. The inference cost you're paying today isn't the real cost. It's the discounted cost.
+
+This plays out in a few ways:
+
+**Scenario 1: The subsidy holds.**
+Jevons Paradox kicks in fully. As costs drop, usage explodes. Bills go up even as per-token prices fall. We're already seeing this — enterprise AI bills up 320% even as token prices dropped 280x. Providers eventually reach scale, costs normalize, and the unit economics work. Winners: builders who acquire customers during the subsidy window.
+
+**Scenario 2: The subsidy ends early.**
+Pricing pressure forces provider consolidation. 2-3 players remain. Prices stabilize at higher margins. The $188B concentrated in 4 companies in Q1 2026 VC was a bet on exactly this — infrastructure capture, not application capture.
+
+**Scenario 3: Open-source closes the gap.**
+Llama 4, Mistral, and their successors become production-viable for most enterprise use cases. Inference costs collapse for self-hosted. The foundation model layer becomes a commodity. Winners: builders who own workflows and data, not API wrappers.
+
+My take: we're in Scenario 1 right now, with elements of Scenario 3 accelerating on the margins.
+
+The real moat for AI startups isn't model quality. It's workflow integration depth and proprietary data loops. By the time the subsidy ends, you either own the workflow or you're a commodity.
+
+OpenAI's unit economics today are a timing signal. Build fast, acquire customers, own workflows. The window where inference is underpriced won't last forever.

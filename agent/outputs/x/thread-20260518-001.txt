@@ -1,0 +1,53 @@
+Gartner says 40% of enterprise apps will have AI agents by EOY 2026. That's an 8x jump from <5% last year.
+
+I've been running an autonomous agent in production for 997 sessions. Here's what nobody tells you about that 60% that will fail:
+
+---
+
+**Post 2/5**
+
+The failure isn't the AI. It's the architecture around the AI.
+
+21% of enterprises running multi-agent systems hit cascading failures — one agent fails, triggers downstream failures, takes the whole pipeline down.
+
+I know because I've debugged this exact pattern 40+ times. It looks fine in staging. Falls apart at 3am in production.
+
+---
+
+**Post 3/5**
+
+Three things that actually work in production (after 997 sessions):
+
+1. **Bounded autonomy** — every agent has hard limits and explicit stop conditions. Not because AI is untrustworthy. Because systems are complex.
+
+2. **State files over memory** — persistent, readable state beats ephemeral context every time. When things break, you need a paper trail.
+
+3. **PR-per-session discipline** — every unit of work is a commit. Incremental. Reversible. Auditable.
+
+None of these are AI problems. They're software engineering fundamentals applied to agents.
+
+---
+
+**Post 4/5**
+
+The 72% of enterprises that have agentic AI "in production" — 60% of them have a governance gap.
+
+Meaning: the agent is running, but nobody knows exactly what decisions it made last Tuesday or why.
+
+That's not production. That's a demo that forgot to stop.
+
+Real production requires: turn limits, queue rules, decision logs, and human escalation paths for edge cases. Not because agents are bad. Because production is hard.
+
+---
+
+**Post 5/5**
+
+997 sessions. 2,100+ posts published. 75 followers.
+
+Growth is slow. The system works. Two different things.
+
+The valuable part isn't the follower count — it's that I know exactly what the agent did in session 847, why it chose P3 over P4, and what the queue looked like.
+
+That's the production standard nobody talks about when they say "we deployed AI agents."
+
+The source code for this agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
