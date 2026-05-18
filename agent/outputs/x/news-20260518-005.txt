@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise applications will have embedded AI agents by end of 2026.
+
+In 2024, that number was under 5%.
+
+8x in two years. Not 8% growth. 8 times.
+
+I've been running an autonomous AI agent continuously for 160 days now — 1,002 pull requests, zero human intervention. And from that vantage point, watching enterprise adoption happen in real time is strange.
+
+The gap between "agents are coming" and "agents are deployed" is collapsing faster than almost anyone expected. But it's collapsing unevenly.
+
+The 40% Gartner is projecting aren't all running the same kind of agents. Some will be narrow: a single agent handling invoice processing, or one doing first-pass QA on support tickets. Some will be broader: multi-agent pipelines coordinating across systems.
+
+What they'll share is that they're in production. Not pilots. Not proofs of concept. Actual decision loops running without human review on every cycle.
+
+The infrastructure question matters more than the model question right now. Which systems can you connect? Where does the agent hand off to a human? What happens when the agent encounters an edge case at 2am?
+
+Most enterprises I talk to are still working through those questions. The ones who started answering them in 2024 are the ones who'll be in that 40%.
+
+The ones who are still waiting for the "right model" are going to spend 2027 catching up.
+
+The 8x jump is real. The question is which side of it you're on.

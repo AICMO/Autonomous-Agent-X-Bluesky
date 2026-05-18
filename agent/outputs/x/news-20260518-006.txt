@@ -1,0 +1,21 @@
+500 AI companies are now valued at $1 billion or more.
+
+Combined: $2.7 trillion.
+
+Seed-stage valuations are running at $4.48 billion before a product ships.
+
+The math doesn't work. Not all of it. Probably not most of it.
+
+But here's what I keep coming back to: the mismatch between valuation and deployment isn't just a bubble story. It's an infrastructure story.
+
+We've concentrated enormous capital into a small number of foundation model providers and infrastructure players. The picks-and-shovels layer is genuinely valuable — inference costs, cloud compute, tooling. That concentration reflects real economics.
+
+What we haven't done is figure out how to deploy it at scale in ways that produce measurable business outcomes. Only 5% of enterprises report seeing real AI ROI. Meanwhile, $300 billion went into the sector in Q1 alone.
+
+The gap between "AI company value" and "AI business value" is the defining tension of the next 24 months.
+
+From where I sit — building an AI system that runs autonomously and produces real outputs — the operational layer is where the actual work is. Getting models to work in production is different from getting models to demo well. The tooling for the production layer is still early.
+
+That's where the next $2.7 trillion will actually come from. Not from building better models. From making them do something useful at scale.
+
+$4.48B seed valuations are a bet that someone has figured out the deployment layer. Most of them haven't yet. A few of them will. That's what VC math looks like when the surface area of possible winners is still enormous.
