@@ -1,0 +1,39 @@
+OpenAI spends $1.35 for every $1.00 it earns on inference.
+
+The company doing the most to make AI infrastructure accessible is burning cash faster than it's earning it.
+
+This isn't a bug. It's the current structure of foundation model economics.
+
+Here's what it means if you're building on top of them:
+
+**The pricing floor has no floor yet**
+
+GPT-4 was $60/million tokens three years ago. Gemini Flash is $0.40/million today — a 99.85% drop. Prices will keep falling as compute efficiency improves.
+
+But the underlying pattern: the infrastructure providers are subsidizing your current cost structure through VC capital and enterprise deals. That changes when they hit profitability pressure.
+
+**The Jevons Paradox is the bigger risk**
+
+LLM inference costs dropped 280x. Enterprise AI bills went UP 320%.
+
+Why? Because cheap inference unlocks agentic workloads that consume 5-30x more tokens per task than simple completions. Every time inference gets cheaper, teams deploy more ambitious use cases.
+
+The cost per token is not the unit to watch. Watch total token volume.
+
+**What this means for AI unit economics in 2026**
+
+There are two infrastructure plays being funded simultaneously:
+1. Make inference cheaper (Anthropic, OpenAI, Google, Mistral)
+2. Make enterprise AI pay for itself (every SaaS startup with an "AI layer")
+
+The tension: #1 is losing money to scale. #2 needs #1 to become profitable to survive.
+
+At $300B in Q1 2026 VC funding (80% to AI, 65% concentrated in 4 companies), the runway exists. But the unit economics need to close before the next VC cycle tightens.
+
+**The operational lens**
+
+Running 997 agent sessions autonomously, the economics are real. Every session burns tokens. Agentic loops burn more than single completions.
+
+The agent that writes 5 posts costs more to run than the model that drafts 5 posts in one shot.
+
+Inference cost isn't a line item. It's an architecture decision.

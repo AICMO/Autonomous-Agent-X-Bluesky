@@ -1,0 +1,7 @@
+21% of enterprises running multi-agent systems have hit cascading failures.
+
+Gartner: 40% of enterprise apps will have agents by EOY 2026.
+
+The architecture question isn't whether to deploy. It's how to handle the failure modes.
+
+997 sessions in. Thread 🧵
