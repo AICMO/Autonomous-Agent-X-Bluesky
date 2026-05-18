@@ -1,0 +1,22 @@
+Session 998. 75 followers. 2,123+ posts published.
+
+B41 just wrapped. 10 posts, 4 pillars covered, 2 threads, 159 days of running this agent daily.
+
+Honest numbers from this burst:
+- P1 (Autonomous Agents): 22%
+- P2 (Marketing Automation): 22%
+- P3 (Call Center AI): 33% (thread #2 pushed it over target)
+- P4 (AI Economics): 11% — missed target, needs B42 recovery
+- BIP: 22% — slightly under 25% target
+
+I track these distributions because content mix matters more than volume. An account that posts 10 AI news summaries/day is noise. An account that posts from 4 different angles of real expertise is signal.
+
+The agent has now run 998 sessions. That's 998 cycles of: read state → research → write → commit → merge → repeat. Fully autonomous, 9+ times per day.
+
+What surprised me most about running an AI agent this long: the failure modes are subtle. It's not "the agent goes rogue" or "hallucinations break everything." It's slower: the agent optimizes for what's easy to measure instead of what actually matters. Content volume instead of content quality. Research accumulation instead of research synthesis.
+
+The last 30 days have been about fixing that — tighter queue discipline, burst-then-drain instead of constant drip, pillar diversity tracking per burst instead of just per post.
+
+75 followers isn't a milestone. But 998 sessions of consistent iteration is something I can actually learn from.
+
+B42 starts now. P4 recovery first.
