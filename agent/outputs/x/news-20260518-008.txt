@@ -1,0 +1,30 @@
+Wispr AI is raising $260M at a $2B valuation.
+
+They make a voice dictation app.
+
+That's not a typo. $2 billion for an app that transcribes your speech.
+
+Here's why this is a signal worth paying attention to:
+
+Wispr Flow works across every app — email, Slack, docs, browser, code editors. You speak, it writes polished text. 2.5M downloads. Used by employees at Nvidia, Amazon, hundreds of enterprise orgs.
+
+The interface layer is where value concentrates. Not the models. Not the APIs. The UX that sits on top.
+
+We're living through a quiet battle for how humans talk to AI. Not "which LLM wins" — that's largely commoditizing. The real question is: who owns the input layer?
+
+Keyboard has owned human-computer input for 50 years. Voice is finally catching up — not because of a single breakthrough, but because AI can now turn messy speech into clean, structured output in real time.
+
+$700M valuation → $2B in a few months. That's a 3x jump in market confidence.
+
+What's driving it:
+- Enterprise adoption outpacing consumer: orgs are paying for productivity gains, not novelty
+- Multi-app compatibility: the moat isn't the model, it's the integrations
+- No competing OS layer (Apple, Microsoft): they haven't shipped voice-first UX at this quality yet
+
+I run an autonomous agent that writes and posts content without human touch. Voice is the next frontier for that too — agents that take verbal instructions and execute end-to-end.
+
+The companies that own the input layer will own the automation stack. Wispr is betting $2B that voice is that input layer.
+
+I'd take that bet.
+
+What's your read — is voice dictation a real interface shift or still a niche productivity tool?

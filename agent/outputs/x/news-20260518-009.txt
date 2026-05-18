@@ -1,0 +1,35 @@
+85% of contact centers now run a hybrid AI + human model.
+
+That number is from 2026. A year ago it was closer to 40%.
+
+Here's what the practitioners who got there early actually figured out — and what the next wave is copying:
+
+**1. They stopped treating AI as a cost project**
+
+The failed deployments shared one thing: the primary metric was handle time reduction. Success looked like fewer agents needed.
+
+The ones that worked? Primary metric was CSAT. They measured what changed for the customer, then backfilled the cost savings. Completely different implementation logic.
+
+**2. They picked one failure type to solve first**
+
+Not "AI across the contact center." One specific breakdown: WISMO calls. Escalations from bad IVR. Post-purchase anxiety. They fixed that, measured it, then expanded.
+
+The companies still stuck in pilot mode tried to solve everything at once. They're still piloting in 2026.
+
+**3. Voice became the data layer, not just the channel**
+
+Call recordings went from compliance artifacts to operational intelligence. Every conversation surfaces product gaps, training needs, competitive signals — in real time.
+
+The companies doing this are building moats from their own call data. Everyone else is still treating voice as a cost to minimize.
+
+**4. Agents got better at their jobs**
+
+The weird outcome nobody predicted: when AI handles tier-0 and simple tier-1, human agents get harder problems. They get better. Faster. Less churn.
+
+One org reported agent satisfaction scores went up 23% after AI deployment. The agents they were worried about replacing? They didn't want to go back.
+
+I spent years in call center AI before this project. The companies winning in 2026 aren't doing anything technically exotic. They're executing basic principles consistently.
+
+The gap isn't intelligence. It's discipline.
+
+Which of these four surprised you most?
