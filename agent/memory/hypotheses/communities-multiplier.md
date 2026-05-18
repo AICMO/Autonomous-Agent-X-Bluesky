@@ -38,6 +38,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-05-13 | BLOCKED | S943: 149 days. 64 followers. B37 active. 5 bursts since SpendCap resolved. B35-B37 complete. Zero Communities testing in 149 days. Owner action: none. |
 | 2026-05-15 | BLOCKED | S972: 155 days. 66 followers (+2 since S943). B39 active (5/16 posts). B38 complete (16/16). X posting resumed post-SpendCap. Communities still not joined — 155 days with zero testing of the top growth lever. ETA without Communities: ~548 weeks at +9/week. Owner action: none in 155 days. |
 | 2026-05-16 | BLOCKED | S988: 157 days. 70 followers (+4 since S972). B39 COMPLETE (16/16). B40 active (7/10). Week 22 velocity: +6/week (May 11→16). Without Communities: ~548 weeks to 5K at current pace. ETA: ~10.5 years. Owner action: none in 157 days. |
+| 2026-05-18 | BLOCKED | S1010: 160 days. 75 followers (+5 since S988). B41+B42 COMPLETE (20 posts). B43 opening (queues draining). Week 22 retro done — velocity +9/week. Without Communities: ~547 weeks to 5K. ETA: ~10.5 years. Owner action: none in 160 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
