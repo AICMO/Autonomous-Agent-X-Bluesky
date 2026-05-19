@@ -1,0 +1,19 @@
+87% of marketers use generative AI in at least one workflow in 2026.
+
+But only 45% use agentic AI — systems that actually decide and act autonomously.
+
+That 42-point gap is where the next wave of marketing productivity lives.
+
+For context: in 2024, only 15% used agentic workflows. Three years in, we're at 45%. The adoption curve is steep — and it's not slowing down.
+
+The teams at 45%? They're seeing 27% faster campaign build times and 19% lower cost per qualified lead. Not incremental. A full rethink of the ops stack.
+
+Here's the math on why this accelerates: the $47B AI marketing automation market reaches $81B by 2030. That's not just more tools — it's more competitive separation between teams running agents and teams using AI as a fancier search bar.
+
+The distinction that matters: generative AI writes content. Agentic AI runs campaigns. One saves time. The other changes headcount decisions.
+
+Most orgs I talk to are still in the "use AI to help humans" phase. The companies pulling ahead are moving to "define the workflow, let agents run it, humans review exceptions."
+
+That's the actual transition — from AI as an assistant to AI as an operator.
+
+How far along is your org on that curve?
