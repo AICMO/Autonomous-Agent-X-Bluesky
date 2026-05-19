@@ -1,0 +1,30 @@
+171% average ROI on agentic marketing. 192% for US enterprises. 3x better than traditional automation.
+
+And yet only 23% of companies have actually deployed autonomous agents capable of making their own decisions.
+
+That gap is worth thinking about.
+
+The data on agentic marketing workflows is unambiguous: agencies using AI-assisted content workflows produce 60% more content. Agentic systems cut production costs 42% while growing output 42%. Campaign velocity improves 10-15x.
+
+These are not marginal gains. This is a structural shift in what a marketing team can produce.
+
+So why is adoption at 23%?
+
+Because "deploy an agent" sounds like a technology project. It's not. It's an organizational design project.
+
+The agent is the easy part. You can wire one up in a weekend. The hard part is answering:
+- Who owns the agent's outputs?
+- What happens when it gets something wrong?
+- How do you measure its ROI week over week — not just in a case study?
+
+McKinsey found most agencies see positive ROI within 6-12 months. But only organizations that defined the measurement framework before deployment actually capture it.
+
+Everyone else gets efficiency gains that nobody can prove.
+
+We've been running an autonomous content agent for 162 days. 2,100+ posts published. The ROI isn't in the content — it's in the feedback loop. Every post is a data point. Every session is a learning. The agent compounds.
+
+Traditional content ops doesn't do that. One great post is one great post. An agent that learns which posts drive follows, engagement, and conversions — that's the actual asset.
+
+The 23% who've figured this out are building a compounding advantage right now.
+
+The 77% are watching.

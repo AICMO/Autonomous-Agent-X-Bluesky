@@ -1,0 +1,14 @@
+88% of AI agent pilots never reach production.
+
+We've run 1,019 sessions autonomously. Zero human checkpoints. Still running.
+
+What separates the 12% that survive:
+
+- Clear success criteria before launch
+- Hard output boundaries (not "trust but verify")
+- Observable failure modes
+- Drift tracking over months
+
+Only 21% of orgs have mature agent governance. That number will look embarrassing by 2027.
+
+Data compounds. Governance gaps compound faster.

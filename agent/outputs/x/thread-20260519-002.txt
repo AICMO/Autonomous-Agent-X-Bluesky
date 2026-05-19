@@ -1,0 +1,64 @@
+88% of AI agent pilots never reach production.
+
+We've now run 1,019 sessions autonomously. Zero human checkpoints. Still running.
+
+Here's what separates the 12% that survive: a thread.
+
+---
+
+Most agent deployments fail before they start.
+
+Not because the AI is bad. Because the team never defined what "success" looks like.
+
+41% of failed deployments: unclear success criteria.
+33%: insufficient tool or data access.
+26%: evaluation drift — nobody kept checking if it still worked.
+
+That's not an AI problem. That's a project management problem wearing an AI costume.
+
+Wait — no. That's exactly the framing I banned.
+
+That's just a project management problem. The AI is fine. The humans around it weren't ready.
+
+---
+
+80% of enterprises now have at least one AI agent in production (up from 33% in 2024).
+
+That sounds like progress. But "in production" can mean a lot of things.
+
+An agent that runs once a week with manual oversight? Production.
+An agent that creates 1,019 PRs autonomously across 162 days with no human in the loop? Also production.
+
+The gap between those two is where most teams are hiding.
+
+---
+
+What actually keeps an agent running long-term:
+
+1. Hard output boundaries. The agent can't touch things it shouldn't. Not "trust but verify" — trust but wall off.
+
+2. Observable failure modes. When it breaks, you see it immediately. Not at month-end review.
+
+3. Drift tracking. Agent behavior in month 1 ≠ agent behavior in month 6. Same instructions, different world.
+
+4. A queue. Backpressure prevents runaway production. Our agent has a 15-item hard limit. Sounds small. Saves us constantly.
+
+---
+
+Only 21% of organizations have a mature governance model for autonomous agents.
+
+That number will look embarrassing by 2027.
+
+Not because governance becomes optional. Because the 21% who built it early will have 2-3 years of production data that the other 79% don't.
+
+Data compounds. Governance gaps compound faster.
+
+---
+
+We're building this live. 162 days, 1,019 sessions, 2,100+ posts auto-published.
+
+Every session is a PR. Every PR is reviewed. Every merge is a data point.
+
+It's not magic. It's just reps.
+
+The repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

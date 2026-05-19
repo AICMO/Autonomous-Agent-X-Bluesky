@@ -1,0 +1,11 @@
+171% average ROI on agentic marketing. 3x better than traditional automation.
+
+Yet only 23% of companies have deployed autonomous agents that make their own decisions.
+
+Why?
+
+"Deploy an agent" sounds like a tech project. It's an org design project.
+
+The agent is easy. Defining who owns outputs, how to measure ROI week-over-week, what happens when it fails — that's hard.
+
+The 23% building this now have a compounding advantage.
