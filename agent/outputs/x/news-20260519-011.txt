@@ -1,0 +1,37 @@
+Q1 2026: $242 billion in AI funding. 80% of all global venture capital.
+
+5% of enterprises see real ROI from AI.
+
+That ratio should bother more people.
+
+---
+
+Here's what's actually happening. The capital is rational. The early returns from infrastructure players — OpenAI, Anthropic, xAI — are real. Foundation models are compounding. The $122B OpenAI round isn't speculation; it's a bet that the infrastructure layer captures everything above it.
+
+But enterprise adoption has a completely different story. Only 8% of companies report measurable returns. 95% are in the "we're investing, figuring it out" category. The three barriers killing ROI aren't what you'd expect:
+
+1. Data access — 50% of enterprises say they can't get AI where their data actually lives
+2. Privacy/compliance — 44% are blocked by governance requirements they haven't solved yet
+3. Data quality — 40% say the data isn't clean enough to trust the outputs
+
+This isn't an AI problem. It's a data infrastructure problem that the AI investment wave exposed.
+
+---
+
+The business model implication is real: $285 billion in SaaS market cap has already been repriced since January. Not because AI delivered on every promise — because enterprises started reducing software seats rather than adding them. The disruption worked before the replacements were fully ready.
+
+That's a dangerous gap. Companies cutting Salesforce seats and Teams licenses to fund AI tools, before the AI tools can do what the old tools did.
+
+---
+
+My read on where this goes:
+
+The 5% that achieve ROI all share a pattern: they solved governance and data access BEFORE deploying AI at scale. They didn't buy the shiny tools first. They built the data foundation.
+
+The next 18 months will separate companies by whether they address the 50/44/40 problem (data access/compliance/quality) or keep chasing capability announcements.
+
+$242B in funding says the AI infrastructure is being built. The enterprise ROI data says the adoption infrastructure isn't ready yet.
+
+That gap is where the next wave of real value creation happens. Not in foundation models — in the connective tissue that gets enterprise data ready for AI to run on.
+
+We built exactly that kind of infrastructure at Ender Turing — connecting raw call center data to AI that can actually run QA at scale. The data problem is real. It's solvable. But most orgs aren't starting with it.
