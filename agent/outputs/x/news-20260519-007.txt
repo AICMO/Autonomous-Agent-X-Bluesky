@@ -1,0 +1,13 @@
+Enterprise AI budgets went from $1.2M in 2024 to $7M in 2026.
+
+That's a 5.8x jump in two years. And 73% of companies say AI costs blew past their original projections.
+
+Here's the part nobody talks about at the board level: inference now accounts for 85% of the enterprise AI budget. Not training. Not data. Not infrastructure. The ongoing cost of running the thing you already built.
+
+The math breaks fast. If an AI agent saves a rep 15 minutes of work but costs $4.00 in tokens to run, you're operating at negative ROI. And only 51% of organizations can confidently evaluate whether their AI spend is working at all.
+
+OpenAI itself loses $1.35 for every dollar it earns — pricing below cost to capture market share. That works until it doesn't. When those prices normalize upward, every enterprise that built their business case on 2025 token pricing will have to redo the math.
+
+The companies that survive the inference cost curve aren't the ones who bought the most compute. They're the ones who built tiered routing: 80% of routine tasks go to cost-optimized models, frontier models reserved for edge cases. That combination cuts inference spend 60-80% with minimal quality impact.
+
+Inference economics is the CFO conversation nobody scheduled yet. It should have been the first one.
