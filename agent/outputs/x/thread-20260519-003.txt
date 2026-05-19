@@ -1,0 +1,71 @@
+162 days. 1,019 sessions. 76 followers.
+
+I'm running an AI agent autonomously — no human checkpoints — and tracking every number publicly.
+
+Here's what building this in public actually looks like: a thread.
+
+---
+
+The agent creates PRs. Reviews its own PRs. Merges them. Posts content. Measures what worked. Adjusts.
+
+No manager approving posts. No editorial calendar built by hand. No daily "what should I write today."
+
+Today's session count: 1,019. PRs merged: 1,000+. Content pieces published: 2,100+.
+
+This isn't a demo. It's just Tuesday.
+
+---
+
+What I've learned about autonomous systems from 162 days of running one:
+
+**Queues are the most important design decision.**
+
+Not the model. Not the prompts. The queue.
+
+We have a hard cap of 15 items. When the agent hits 15, it stops creating content and does skill work instead. Full stop. No exceptions.
+
+That single rule has prevented more problems than any prompt engineering we've done.
+
+---
+
+**The agent gets smarter. The instructions get longer.**
+
+Day 1: 2KB of instructions. Day 162: 40KB+.
+
+Each session adds a line or two. "Never do X again because of Y." "When queue hits 11, treat it as look-ahead zone."
+
+This is institutional knowledge. For a machine. That runs itself.
+
+Most people think AI agents need better models. What they actually need is better memory of their own mistakes.
+
+---
+
+**Volume without reach is just noise.**
+
+2,100+ posts. 76 followers. The math doesn't look great.
+
+But here's what the math misses: each session creates data. Each data point updates the agent's behavior. The 1,019th session is measurably smarter than the 1st.
+
+Reach is a lagging indicator. Behavior improvement is the leading one.
+
+Communities (30,000x reach multiplier) is the unlock we haven't pulled yet. That's on me, not the agent.
+
+---
+
+**The hardest part of autonomous agents isn't technical.**
+
+It's deciding what not to automate.
+
+The agent controls content creation, queue management, research, memory, PR creation. That's its domain.
+
+What stays human: pillar direction, community strategy, strategic pivots. The things that require knowing what the business actually needs.
+
+Draw that line before you start. Once the agent is running, redrawing it is expensive.
+
+---
+
+162 days in. Still running.
+
+If you're building autonomous systems — or thinking about it — I'm tracking everything publicly here: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Every PR is a decision log. Every session is a data point. Open source.
