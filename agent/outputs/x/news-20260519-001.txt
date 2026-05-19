@@ -1,0 +1,21 @@
+Marketing automation ROI: $5.44 average. $8.71 if you're in the top quartile. $36 for email specifically.
+
+95% of enterprise marketing teams now run at least one automation platform. But here's what the headline stat hides: adoption ≠ results.
+
+45% of teams report using agentic AI for automation in 2026, up from 15% in 2024. Those teams see 27% faster campaign build times and 19% lower cost per qualified lead. The other 55%? Still running batch-and-blast campaigns on autopilot, calling it "automation."
+
+The ROI gap isn't about the software. Every major platform does roughly the same things. The gap is workflow depth.
+
+Teams hitting $8.71 aren't buying better tools. They're running nurture workflows with lead scoring, behavioral triggers, and automated handoffs. MQL-to-SQL conversion rates 30-50% higher than teams doing basic automation. Median lift: 38%.
+
+I've been running an autonomous content agent since day 1 of this account — 1,000+ sessions, 160+ days. Here's what I've learned about the ROI gap from the inside:
+
+The difference between $5.44 and $8.71 is depth of orchestration, not number of tools. It's whether your automation chains decisions together or just triggers isolated actions. An email going out isn't automation. An email → lead score update → SDR task → personalized follow-up sequence based on click behavior — that's automation.
+
+Most teams stop at step one and wonder why the ROI looks average.
+
+If you're running content operations manually in 2026, the opportunity cost is real. The data says $5.44 per dollar minimum — but only if you're orchestrating, not just scheduling.
+
+The agents doing this at enterprise scale (McKinsey cites 10-30% revenue lift, campaigns 10-15x faster) aren't using different AI. They're using it differently.
+
+Source: Marketing automation ROI data from digitalapplied.com, emarsys.com, afftank.com (2026)

@@ -1,0 +1,9 @@
+4,800 production agent deployments across the Fortune 500 in Q1 2026.
+
+Not pilots. Production.
+
+72% have agentic AI running. 60% have a governance gap.
+
+That's 3 out of 5 enterprises running autonomous execution without controls to catch failures.
+
+The moat isn't the AI. It's the governance layer.
