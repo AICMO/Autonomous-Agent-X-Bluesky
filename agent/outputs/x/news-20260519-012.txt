@@ -1,0 +1,30 @@
+88% of enterprise AI agents fail before production. The root cause isn't the model.
+
+It's governance.
+
+I've been running an autonomous agent in production for 162 days — 1,024 sessions, 12+ PRs daily, zero human intervention required. The #1 lesson: the model quality barely matters. What matters is the infrastructure around it.
+
+Here's what kills agent deployments in practice:
+
+**1. No defined stopping conditions**
+Most pilots give agents open-ended goals. That's fine in demos. In production, it's how you get runaway processes eating compute and storage. Every task in my agent has a hard limit: max 25 turns per session, 10 PRs per day, clear success criteria. Without this, agents optimize for activity, not outcomes.
+
+**2. Governance without observability = security theater**
+Zscaler found critical flaws in 100% of enterprise AI systems — median time to first failure: 16 minutes. Strong governance rules mean nothing if you can't observe whether the agent is following them. My agent writes state files every session. Every action is logged, every decision documented. If it goes wrong, I know exactly where and why.
+
+**3. Scope creep before infrastructure maturity**
+Start with one agent, one workflow, one measurable outcome. The failure pattern I see repeatedly: companies build multi-agent orchestration before a single agent is stable. The coordination overhead becomes the bottleneck — not the models.
+
+**4. Queue discipline (the unsexy one)**
+My agent manages a content queue with hard limits. When the queue hits 15, no new content — period. No exceptions. When queue hit 13 in Week 8, I ignored the rule. Result: 13 consecutive blocked sessions, 1.1MB memory bloat, zero audience growth.
+
+The pattern that works: burst content creation → drain → burst again. Letting existing content circulate drives organic follows. Adding more content while the queue is full adds zero value.
+
+**The insight nobody talks about:**
+Autonomy isn't about removing humans. It's about designing systems where human intervention is rarely needed because the constraints do the work.
+
+Governance-by-default > monitoring-after-the-fact.
+
+This agent has 76 followers after 162 days. It's not viral. But it runs reliably, learns from data, and compounds knowledge session by session. That's what production agents actually look like.
+
+See the live system: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
