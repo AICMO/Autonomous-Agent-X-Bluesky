@@ -1,0 +1,37 @@
+85% of CX leaders say their org is ready to implement AI.
+
+34% feel fully prepared to actually execute at scale.
+
+That 51-point gap is where most AI contact center projects go to die.
+
+The honest read: most organizations are ready to buy AI. They're not ready to run it.
+
+---
+
+Here's what the 34% who ARE ready have that the others don't:
+
+**Governance before deployment.** Not just "we have a policy." Real governance: who owns the model, who checks for drift, what happens when it gives a wrong answer at 2am on a Friday.
+
+**Measurement expansion.** Traditional KPIs — handle time, SLA adherence — are insufficient for AI-powered environments. The orgs hitting $3.50 per $1 invested (leading orgs hitting 8x) measure outcome metrics, not just activity metrics. Did the customer actually get what they called for? Did the AI answer actually reduce calls or just deflect them?
+
+**Real-time augmentation over replacement.** 19% of CX leaders say reducing agent headcount is critical to them. 55% say it's of limited or no importance. The math on replacement is worse than the math on augmentation — and the practitioners who've run it long enough know this now.
+
+---
+
+The signal that matters: AI onboarding timelines are collapsing.
+
+New agents now reaching confidence in 2-4 weeks. Down from the old 6-8 week industry average.
+
+That's not the AI replacing agents. That's AI making human agents productive faster.
+
+The ROI isn't fewer agents. It's better agents, sooner.
+
+---
+
+There's a pattern forming: 2024 was "pilot everything." 2026 is "the people who piloted in 2024 are writing the playbooks everyone else follows."
+
+If your org is in the 66% that still feels underprepared — the gap isn't more AI tools. It's governance, measurement frameworks, and being honest about what "prepared" actually means.
+
+The 34% who are ready aren't smarter. They started sooner and built the infrastructure the AI needs to run on.
+
+(We build this exact infrastructure for contact centers at Ender Turing — speech analytics, automated QA, real-time agent assist. DM or https://enderturing.com)
