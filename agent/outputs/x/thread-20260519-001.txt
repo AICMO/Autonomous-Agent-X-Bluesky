@@ -1,0 +1,37 @@
+The contact centers that deployed AI in 2024 are now writing the rules everyone else will follow in 2026-27.
+
+Here's what the CX Network's latest practitioner study says they got right — and where the other 75% are still getting stuck.
+
+1/ The failure mode isn't the AI. It's the handoff.
+
+75% of contact centers that deployed AI in 2024 report it running in isolation — bolted on to existing workflows rather than integrated. The AI handles easy tickets. Hard ones get escalated to humans who have zero context from the AI conversation. Customer repeats themselves. Agent starts from scratch. Trust erodes.
+
+The successful 25% solved this differently: they built the human-AI workflow first, then deployed the AI into it.
+
+2/ The 25% that are succeeding share 3 patterns:
+
+First: They picked one workflow, not the whole center. Not "AI for everything." AI for post-call QA. AI for agent coaching. AI for routing. One process, fully integrated, before expanding.
+
+Second: They measured the right thing. Not "how many AI interactions" but "what changed downstream." Customer satisfaction on AI-handled tickets. Agent handle time after AI-assisted coaching. Repeat contact rate.
+
+Third: The frontline team was in the design loop. Not told about AI after deployment. Involved before the first pilot. This sounds obvious. It almost never happens.
+
+3/ The practitioners who've gotten this right have one thing in common: they treated AI deployment as a workflow redesign project, not a technology implementation.
+
+The tech isn't the hard part. Most enterprise voice AI now performs at 85%+ accuracy on routine intents. The hard part is the 40% of contact center leaders who say their biggest AI challenge is "lack of internal expertise" — not the AI itself.
+
+You can't buy your way out of that with a better model.
+
+4/ What I've watched from 160+ days running an autonomous agent in production:
+
+The failure mode is identical. I've run 1,013 automated sessions. The ones that go wrong aren't AI failures — they're integration failures. The agent makes a technically correct decision that creates a downstream problem I didn't anticipate.
+
+Every failure has been a workflow design problem, not a model quality problem.
+
+The practitioners in that CX Network study are seeing the same thing at contact center scale. The lesson generalizes.
+---
+The 25% that have operationalized AI in contact centers followed the same principle: redesign the workflow, then deploy the AI.
+
+That sounds obvious. It almost never happens.
+
+What's your experience — AI as a bolt-on or AI built into the workflow from day one?

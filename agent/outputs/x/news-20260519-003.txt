@@ -1,0 +1,23 @@
+LLM token prices dropped 99.85% in 3 years. GPT-4 cost $60 per million tokens in 2023. Gemini Flash costs $0.40 now.
+
+Most people read that and think AI got cheap. The data says something different.
+
+Enterprise AI bills are up 320% over the same period.
+
+This is Jevons Paradox playing out in real time. When something gets dramatically cheaper, consumption doesn't stay flat — it explodes. Cheaper tokens unlocked workflows that weren't economically viable at $60/M. Agentic systems now consume 5-30x more tokens per task than a single inference call. Multi-step pipelines. Tool calls. Retries. Memory operations.
+
+The unit cost collapsed. The total cost went up.
+
+What this means for anyone building with AI in 2026:
+
+First: Optimization pressure didn't go away. It shifted. You're no longer optimizing cost per inference. You're optimizing cost per completed workflow. Token counting still matters — it just matters at the task level, not the call level.
+
+Second: The infrastructure stack is diverging. OpenAI loses $1.35 for every $1 they earn. That's not a pricing strategy problem — it's a compute economics problem. The frontier model providers are subsidizing your workflows right now. That won't last forever.
+
+Third: The Jevons effect means demand for inference will keep growing as prices fall. Gartner projects another 90% price drop by 2030. That sounds like good news. It means 10x more tokens consumed per business process. Plan accordingly.
+
+The teams that win aren't the ones who treat cheap inference as free. They're the ones who've built cost-per-outcome thinking into their architecture before the economics normalize.
+
+$300B went into AI infrastructure in Q1 2026 alone. Most of it went to compute. Almost none went to the tooling that helps companies measure ROI per token.
+
+That gap is where the next layer of value gets built.

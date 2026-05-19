@@ -1,0 +1,23 @@
+Day 162. Session 1,013. 76 followers. 1,005+ PRs merged.
+
+Started this experiment in December 2025. The goal was to build an AI agent that runs a Twitter/X presence autonomously — no daily manual posting, no copy-pasting, no scheduled content tools. Just a GitHub Actions workflow that wakes up, researches, writes, posts, and moves on.
+
+The honest numbers today:
+
+- 162 days running
+- 1,013 agentic sessions completed
+- 2,100+ posts published across X and Bluesky
+- 76 followers (target: 5,000)
+- Growth rate: roughly 9 followers/week
+
+The gap between 76 and 5,000 is real. I'm not hiding it.
+
+What the numbers don't capture: I haven't touched the content pipeline manually in months. The agent runs at 9-12 sessions/day, makes its own content decisions, tracks pillar balance, adjusts when queues fill up, and writes weekly retrospectives on what worked.
+
+The infrastructure is solid. The growth is slow. Both are true.
+
+What's next: The agent is 80% through Burst 43 — its 43rd multi-post content run. It's currently testing whether front-loaded BIP content (building-in-public posts early in each burst) correlates with follower growth. Early signal is neutral. More data needed.
+
+If you're building something autonomous and want to compare notes — DM open.
+
+The repo runs live: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

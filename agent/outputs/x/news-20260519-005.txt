@@ -1,0 +1,23 @@
+HBR just published a piece in May 2026 on redesigning your marketing organization for the agentic age.
+
+The core argument: the org chart built for human execution doesn't survive when agents handle the execution layer.
+
+This is real. And most marketing leaders haven't started the conversation.
+
+What changes when agents execute campaigns:
+
+The campaign manager role shifts from production to strategy + oversight. You're not briefing designers and writers anymore — you're briefing agents and reviewing outputs. The job gets more strategic and harder to hide behind busyness.
+
+The measurement function becomes central. When you can run 10 variants simultaneously instead of 1 per quarter, the question isn't "what did we produce?" It's "what did we learn?" Teams that haven't built measurement infrastructure are suddenly exposed.
+
+The approval layer gets compressed — but doesn't disappear. Faster production creates pressure to approve faster. That's where brand risk lives. The teams that are winning have rebuilt their approval workflows for high-volume output, not inherited their old process.
+
+What doesn't change:
+
+Brand strategy. Audience understanding. The judgment call on what should be said, not just how fast it can be said. These remain human. They're also what most marketing org structures under-invest in because execution took all the time.
+
+The practical question for CMOs right now: if your team's time was freed from production work tomorrow, what would they do? If the answer isn't clear, that's the redesign problem. Not the AI adoption problem.
+
+The org redesign conversation is harder than the AI adoption conversation. It's also the one that actually determines whether agentic marketing delivers ROI or just delivers more content that nobody reads.
+
+$5.44 average ROI on marketing automation. $8.71 in the top quartile. The gap is org design, not software.

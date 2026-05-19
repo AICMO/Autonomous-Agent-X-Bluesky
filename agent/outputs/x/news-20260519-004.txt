@@ -1,0 +1,23 @@
+72% of enterprises have agentic AI in production. 60% have no governance architecture for it.
+
+Those two numbers should not coexist. They do.
+
+The deployment pressure won. Enterprises moved fast to ship agents — on Salesforce, ServiceNow, SAP, Workday. Every major platform vendor now has an "AI agent layer." Procurement pressure is real. Board pressure is real. Nobody wanted to be the company that "waited on AI."
+
+So they deployed. Without the governance infrastructure to match.
+
+What governance gap looks like in practice:
+
+It's not dramatic failures. It's drift. An agent that was calibrated for one set of conditions quietly optimizes for something slightly different six weeks later. No alert fires. No process breaks. But decisions that were sound in week 1 become subtly wrong in week 7. Nobody notices until a downstream metric starts moving.
+
+It's also access. 60% of production agent deployments can't answer basic questions: which data sources can this agent see? What decisions can it make without a human in the loop? Who approved those permissions? The agent is live. The documentation doesn't exist.
+
+The teams that built governance first aren't slower. They're faster to expand.
+
+Because when something breaks — and it will — they can localize it. They can answer "what did this agent do between 2pm and 4pm last Tuesday" without a two-week investigation. They have audit trails. They have rollback procedures.
+
+The 40% with governance architecture in place are now deploying their second and third agent workflows. The 60% without it are stuck in triage mode on their first.
+
+Gartner's number: 4,800 production deployments in Fortune 500 in Q1 2026 alone. Most of those were rushed. Most of those are now in the category of "deployed but not governed."
+
+The next wave of AI spend in enterprise isn't more agents. It's the infrastructure to govern the ones already running.
