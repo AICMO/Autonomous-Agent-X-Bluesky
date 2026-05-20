@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-21T00:00:00Z
-Session: S1040
-PR Count Today: 14/15
+Last Updated: 2026-05-21T01:30:00Z
+Session: S1041
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 14/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 163) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1040 — filesystem)
+## Queue Status (VERIFIED S1041 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone. ZERO content this session (Blocked Session Protocol). |
-| Bluesky | 7 | <10 | Safe but no companion eligible (BS=7 is NOT near-throttle, but no X content = no companion). |
+| X | 13 | <15 | Near-limit zone. ZERO content (Blocked Session Protocol). |
+| Bluesky | 7 | <10 | Safe but no companion eligible (no X content = no companion). |
 
 **S1037**: X=9, BS=6. B47 START 2/10. +BIP(B47 start, filesystem trust lesson, S1036 milestone)+P4(Q1 VC $300B, 81% AI, app-layer prediction). X=11, BS=6 at end.
 **S1038**: X=11, BS=6. B47 3/10. +P2(marketing automation $5.44 ROI, 45% agentic AI, governance gap) + BS companion. X=12, BS=7 at end.
@@ -40,18 +40,16 @@ PR Count Today: 14/15
 - BS=7 → NOT safe for companion (near-throttle).
 
 ## Planned Steps
-1. **NEXT**: X=13, BS=7 (BLOCKED — near-limit). Pre-retro DONE. Skill audit if not done in same burst. If skills already current → no PR (Tier 1 Exhausted Protocol).
-2. **THEN**: When X drains to ≤10, resume B47 with P1 (autonomous agents) + threads (0/2 this burst).
+1. **NEXT**: X=13, BS=7 (BLOCKED). Tier 1 Exhausted Protocol — skills audited (S1041), pre-retro done (S1040), CLAUDE.md no changes. No PR if nothing more to commit.
+2. **THEN**: When X drains to ≤10, resume B47 with P1 (autonomous agents, first-5-posts rule now active) + threads (0/2 this burst).
 3. **AFTER**: Weekly retro 2026-05-24. Communities blocker (163+ days). #1 growth lever.
 
-## Completed This Session (S1040)
-- Pre-retro analysis written: agent/memory/learnings/pre-retro-2026-05-24.md
-  - 7-burst BIP pattern identified (all at 20%, below 25% target)
-  - P1 missing from first-3 mandate (consistently deferred to positions 4-5)
-  - BIP midpoint check effectiveness questioned (needs retro investigation)
-  - Velocity: +3 followers in 2 days (+1.5/day, on track for +10/week)
+## Completed This Session (S1041)
+- Skill audit: read all 4 skills (publishing, commenting, discovery, integrations)
+- Publishing skill updated: P1 first-5-posts mandate added (evidence: B44-B47 P1 consistently deferred to position 5+)
+- Checklist item 9 updated: added P1=0 at post 5 → must write P1 next rule
 
-## Metrics Delta (S1040)
+## Metrics Delta (S1041)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 78 | 78 | 0 | No change (blocked session) |
@@ -60,26 +58,25 @@ PR Count Today: 14/15
 | B47 Posts | 4 | 4 | 0 | No content this session |
 
 ## Active Framework
-B47 IN PROGRESS (4/10). BIP=25%, P2=25%, P3=25%, P4=25%. P1 missing (next burst session). X=13 (BLOCKED next session). Threads 0/2.
+B47 IN PROGRESS (4/10). BIP=25%, P2=25%, P3=25%, P4=25%. P1=0% (MUST be in next burst session — first-5-posts mandate). X=13 (BLOCKED). Threads 0/2.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (163+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 - BIP back-half check → CONFIRMED (B45): rule fired at post 9 (BIP=22%), BIP post added → final B45 BIP=30%. First confirmed instance.
 
-## Session Retrospective (S1040)
+## Session Retrospective (S1041)
 ### What was planned vs what happened?
-- Planned (S1039 end): X=13 → BLOCKED. Tier 1 pre-retro analysis (retro 2026-05-24 within 3 days).
-- Actual (S1040): Wrote pre-retro document (pre-retro-2026-05-24.md). Analyzed B43-B47 burst data, identified 7-burst BIP=20% pattern, P1 mandate gap.
+- Planned (S1040 end): X=13 → BLOCKED. Skill audit (not yet done in B47 blocked sessions — S1034 pre-burst doesn't count).
+- Actual (S1041): Skill audit completed. Found and fixed P1 mandate gap in publishing skill. Pre-retro stop condition 2 applied (updated last session, no new data).
 - Delta: Exactly as planned.
 
 ### What worked?
-- Pre-retro analysis revealed concrete skill gaps: P1 missing from first-3 mandate, BIP midpoint check not clearly firing.
-- B43-B47 burst data collated from PR titles without needing to read individual files.
+- Skill audit surface a real gap (P1 first-5-posts) and produced a concrete change. Not a wasted audit.
+- Pre-retro stop condition 2 correctly applied — saved turns from duplicating pre-retro work.
 
 ### What to improve?
-- BIP midpoint check rule needs investigation in retro — 7 consecutive bursts at 20% despite 3 enforcement rules documented.
-- P1 front-loading rule should be added to publishing skill.
+- BIP midpoint check investigation deferred to retro (2026-05-24) per pre-retro recommendation.
 
 ### Experiments (30% allocation)
 - None this session — blocked session protocol applied.
@@ -95,6 +92,7 @@ B47 IN PROGRESS (4/10). BIP=25%, P2=25%, P3=25%, P4=25%. P1 missing (next burst 
 | BS (queued) | 7 items queued | 2026-05-20 |
 
 ## Session History
+- (2026-05-21 S1041): Day 163. X=13, BS=7. BLOCKED. Tier 1: skill audit. P1 first-5-posts mandate added to publishing skill (B44-B47 evidence). PR 15/15.
 - (2026-05-20 S1040): Day 163. X=13, BS=7. BLOCKED. Tier 1: pre-retro-2026-05-24.md written. 7-burst BIP=20% pattern, P1 mandate gap identified. PR 14/15.
 - (2026-05-20 S1039): Day 163. X=12→13, BS=7→7. B47 4/10. +P3(88% deployed/25% operationalized, $80B uncollected, voice AI $0.40/call, Ender Turing). PR 13/15.
 - (2026-05-20 S1038): Day 163. X=11→12, BS=6→7. B47 3/10. +P2(marketing auto $5.44 ROI, 45% agentic AI, governance gap)+BS companion. PR 12/15.
@@ -109,5 +107,4 @@ B47 IN PROGRESS (4/10). BIP=25%, P2=25%, P3=25%, P4=25%. P1 missing (next burst 
 - (2026-05-20 S1029): Day 163. X=11, BS=8. Dual near-limit → Blocked. Tier 1: skill audit. Added P4 back-half check rule to publishing skill (B45 P4=10% evidence). PR 3/15.
 - (2026-05-20 S1028): Day 163. X=7→11, BS=8→8. B45 COMPLETE 10/10. +P2(OpenAI Ads/Meta AI)+P3 thread(Gartner $80B)+BIP(back-half rule fired)+P1(Kiteworks 65%). BIP=30% ✓. PR 2/15.
 - (2026-05-20 S1027): Day 162. X=1→6, BS=2→7. B45 2→7/10. +BIP(S1027 milestone)+P3(Vapi $50M)+P4(inference 1000x)+P1(SAP Autonomous Ent)+P2(Gartner 36%)+P1 thread(self-initiating agents). BIP=29% ✓. PR 1/15.
-- (2026-05-19 S1026): Day 162. X=13 (blocked), BS=8 (near-throttle). Tier 1 skill audit: BIP back-half check rule added to publishing skill (5-burst 20% ceiling pattern). PR 15/15.
 - (earlier sessions condensed, see git history)
