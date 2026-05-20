@@ -1,0 +1,7 @@
+65% of enterprises had an AI agent security incident this year.
+
+63% can't enforce purpose limits. 60% can't terminate a misbehaving agent.
+
+This isn't a capability gap. It's a governance gap.
+
+Build the cage before you put the agent in it.
