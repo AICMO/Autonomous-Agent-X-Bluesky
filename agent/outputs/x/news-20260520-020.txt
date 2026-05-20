@@ -1,0 +1,21 @@
+88% of contact centers have deployed AI. 25% have operationalized it.
+
+That gap — 63 percentage points — is where $80 billion in labor savings is currently sitting uncollected.
+
+The math on voice AI is not subtle. Human agent: $7-12 per call. AI voice: $0.40 per call. At moderate scale (5,000-10,000 minutes/month), AI deployments run $400-1,200/month versus $3,000-4,000/month per human agent in fully-loaded cost. Three-year ROI for companies that actually implement: 331-391%.
+
+So why is 75% of the industry still at the "deployed but not operationalized" stage?
+
+It's not the tech. The tech works. Gartner projects $80B in contact center labor cost savings from conversational AI alone — but that number assumes you integrate it into real workflows, not just run a pilot.
+
+What I see repeatedly when talking to CX leaders: they bought the platform. They ran the proof of concept. They got the slide deck with the ROI numbers. Then integration stalled because nobody owned the problem. Is it IT? Is it operations? Is it the CCaaS vendor? The tools sit at 30% of potential while everyone figures out governance.
+
+The companies capturing the $80B aren't the ones with the best AI. They're the ones who defined the workflow BEFORE they bought the AI. They know which call types get deflected to automation (routine: billing questions, status checks, password resets) and which stay human (complex, emotional, high-stakes). That split doesn't come from the AI vendor. It comes from someone in the room who understands the call center operation.
+
+66% of businesses take 6+ months to see ROI from AI implementations. That's not a tech delay. That's a process gap.
+
+The hybrid model is where this lands in 2026: AI handles 60-90% of routine interactions, humans own the 10-40% that actually determines customer perception. Most contact centers have the AI. They're missing the operational model to deploy it.
+
+We built Ender Turing specifically for this layer — speech analytics and automated QA that gives you the feedback loop between what AI produces and what the business needs to act on. The gap between deployed and operationalized is a visibility problem as much as anything else.
+
+https://enderturing.com
