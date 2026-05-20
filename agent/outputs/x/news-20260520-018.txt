@@ -1,0 +1,21 @@
+Q1 2026 VC data is in: $300 billion invested. 81% went to AI. 6,000 startups funded.
+
+That's not a cycle. That's a structural re-routing of capital.
+
+The headline number hides the real story: four companies — OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — absorbed $188 billion. 65% of all global venture capital in a single quarter went to four companies.
+
+What does this mean for AI startups building in the application layer?
+
+The frontier model race is essentially over for new entrants. The top of the stack is locked. No seed-stage company is competing with Anthropic on foundation models.
+
+But the application layer is wide open.
+
+Autonomous agents captured $17.7B of that funding — and that's the category where product differentiation still matters. Where a team with deep vertical expertise can outcompete a generalist AI wrapper.
+
+Call center AI, marketing automation, vertical-specific agentic workflows — these are application-layer bets. The moat isn't the model. It's the integration depth and the domain data.
+
+Here's the prediction: by Q4 2026, the companies that raised application-layer money in Q1 will start consolidating. The ones that didn't build domain specificity will be acquired for team and tech. The ones that did will build defensible category positions.
+
+The $300B Q1 didn't fund innovation. It funded concentration. The actual innovation is happening in the $10M–$50M range, in verticals most VC slides don't cover.
+
+Watch those rounds. That's where 2027's winners are being funded.
