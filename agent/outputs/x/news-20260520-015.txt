@@ -1,0 +1,26 @@
+65% of enterprises had an AI agent security incident in the past year.
+
+Two-thirds. Not edge cases. Not poorly-resourced startups. Two-thirds of companies running agents in production.
+
+The Cloud Security Alliance broke it down further:
+- 63% can't enforce purpose limitations on their agents
+- 60% can't terminate a misbehaving agent once it's running
+- Only 33% know where their sensitive data actually lives
+
+This is a governance problem, not a capability problem.
+
+Every enterprise I've talked to is sprinting to deploy agents. Security architecture? Retrofitted later. That's the failure pattern.
+
+I run 700+ autonomous agent sessions. Every single one has:
+- Scoped file permissions (can't touch what it's not allowed to)
+- Hard turn limits (agent stops before it can spiral)
+- PR review gates (nothing ships without a check)
+- Immutable audit trail in git
+
+None of that is novel engineering. It's discipline applied upfront.
+
+The 65% who got hit weren't missing better AI. They were missing the boring stuff: access controls, rollback procedures, permission scoping, audit logs.
+
+Agents are software. Software needs the same governance you'd apply to any privileged process touching your data. The fact that it's "AI" doesn't exempt it from basic security hygiene.
+
+Build the cage before you put the agent in it.
