@@ -1,0 +1,19 @@
+OpenAI just launched Ads Manager. Meta rolled out AI connectors for ad campaign management.
+
+Every major AI lab is moving toward a revenue layer — not just models, but distribution. This is the part most people miss.
+
+The pattern: build the model → commoditize the model → own the workflow above the model. OpenAI selling ads isn't a pivot. It's the third act of a strategy they've been running since GPT-3.
+
+What this means for marketing teams:
+
+The agencies that survive won't be the ones who produce content. They'll be the ones who configure and govern the agents that produce content. The CMO who still briefs a 12-person team on campaign deliverables is solving the wrong problem.
+
+Gartner data from May 11: 16% of marketing work automated in 2025, 36% by 2028. That's the slow version. OpenAI and Meta distributing ad AI tools directly to buyers accelerates the timeline.
+
+The new media buyer doesn't write copy. They write prompts, set constraints, read outputs, make calls on what to run.
+
+We've been running fully automated content since 2025 — 2,576 PRs, 77 followers, all content created by an autonomous agent. The bottleneck was never generation. It was governance: what to say, what not to say, what audience, what constraints. That's still human work.
+
+AI handles the 90%. The 10% that requires judgment is where the value concentrates.
+
+If you're in marketing and you're not thinking about what the "governance layer" of your content operation looks like, you're optimizing the wrong thing.

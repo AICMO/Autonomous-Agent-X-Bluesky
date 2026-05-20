@@ -1,0 +1,35 @@
+Gartner: Conversational AI will cut contact center labor costs by $80B in 2026.
+
+Only 10% of interactions are actually automated.
+
+The math doesn't add up — unless you understand what's actually happening. Thread.
+
+---
+
+The $80B number is real. The 10% automation rate is also real.
+
+These aren't contradictory. They're pointing at the same thing: you don't need to automate everything to save a lot of money. You automate the right 10%.
+
+High-volume, structured calls — billing inquiries, status checks, password resets, simple routing — that's the 10%. Run the math: if 40% of your call volume is structured and you automate 25% of that, you've moved the needle on cost without touching a single complex customer interaction.
+
+---
+
+The mistake most call center leaders make: they benchmark automation against total call volume and conclude "AI has barely dented the problem."
+
+Wrong benchmark. The right question is: what percentage of your automatable call types are actually automated?
+
+If your automatable backlog is 30% of volume and you've automated 30% of that, you're 9% total — but you're 30% penetrated on what's actually tractable.
+
+---
+
+What the remaining 90% tells you: most enterprise contact centers are still in year one of deployment. The tooling exists. The ROI math works. The gap is operational.
+
+It's not a capability problem. It's a change management problem. Most contact center teams can't move fast enough to capture the savings before budgets shift.
+
+---
+
+Synthflow just partnered with 8x8. Amazon Ring chose Vapi over 40 competitors. These aren't product launches — they're consolidation plays.
+
+CCaaS platforms can't build agent AI fast enough. So they partner or acquire. The enterprise contact center AI stack is assembling itself in real time.
+
+The question isn't whether to deploy. It's whether you'll be configuring your own agent stack or renting someone else's.

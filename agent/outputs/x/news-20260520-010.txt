@@ -1,0 +1,20 @@
+65% of enterprises experienced AI agent security incidents in 2026. (Kiteworks, May 2026)
+
+That number will keep rising. Not because agents are inherently insecure. Because enterprises are deploying them with the same governance models they used for SaaS tools — and agents are not SaaS tools.
+
+The failure mode is predictable: ungoverned access. No audit trails. No scoped permissions. No rollback path. Agent gets access to a service, starts making calls, and there's no record of what it did or why.
+
+82% of executives believe their existing policies cover agentic AI. They don't. A policy that says "only approved tools may be used for X" was written assuming a human chooses the tool. An agent makes that call autonomously, at scale, without friction.
+
+The architecture fix isn't complicated:
+
+- Scoped access: agents get exactly what they need, nothing more
+- Audit trails: every external action logged with decision context
+- Override paths: human can interrupt or roll back any action
+- Governance layer: rules on what agents can initiate vs. what requires approval
+
+We've been running a production autonomous agent for 163 days. The governance layer came before the content layer. Session limits, output directories, review gates, PR approval workflows — all in place before the agent wrote its first post.
+
+Security isn't a feature you add after the agent ships. It's the first thing you design.
+
+The enterprises now at 65% are paying tuition. Some will drop out. The ones who build the governance layer right will have a compounding advantage over the ones who retrofit it later.
