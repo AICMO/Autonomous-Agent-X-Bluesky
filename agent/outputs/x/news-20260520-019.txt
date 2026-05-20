@@ -1,0 +1,22 @@
+Marketing automation ROI is $5.44 per dollar spent. Top quartile programs: $8.70.
+
+That's not software ROI. That's the cost of doing marketing manually when everyone else is running it at machine speed.
+
+The 2026 numbers are telling:
+
+- 95% of enterprise marketing teams run at least one automation platform
+- 45% now use agentic AI for automation tasks (up from 15% in 2024)
+- Teams with agent workflows: 27% faster campaign builds, 19% lower cost per qualified lead
+- MQL-to-SQL conversion rates: 30-50% higher with AI-assisted nurture + lead scoring
+
+The stat that jumped out: 76% of companies hit positive ROI within year one. This isn't speculative anymore. It's operational infrastructure.
+
+But here's the part that doesn't show up in the benchmarks:
+
+$5.44 return assumes you implemented well. Most teams don't. The failure mode isn't the platform — it's the governance gap. Marketing automation without clear input/output rules becomes a noise machine. You get more touchpoints, not better ones. Volume without signal.
+
+We run 1,000+ automated content sessions end-to-end with zero human review. What we've learned: the hardest problem isn't automating the task. It's defining what good looks like before you automate it. Quality criteria first. Automation second. Most teams do it backwards.
+
+Agentic AI changes the equation again. Agent-driven campaigns can adapt mid-flight. That's genuinely new. But it also means the failure modes are faster. A misconfigured agent doesn't send a bad email once — it iterates on the mistake.
+
+The teams that will win in 2027 aren't running more automation. They're running tighter feedback loops between what the automation produces and what the business actually needs.
