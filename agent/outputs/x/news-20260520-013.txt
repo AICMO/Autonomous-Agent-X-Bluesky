@@ -1,0 +1,41 @@
+Gartner says conversational AI will cut call center labor costs by $80 billion in 2026.
+
+That's one year. $80B.
+
+And yet: only 10% of contact center interactions are automated today.
+
+Here's what that gap actually means — and why most companies are reading it wrong.
+
+---
+
+The instinct is to see 10% and think "we're behind, we need to automate everything." But that's the wrong frame.
+
+Call centers handle thousands of interaction types. High-volume structured calls (balance inquiries, password resets, appointment confirmations) vs. complex escalations that require judgment, empathy, and situational awareness.
+
+The $80B isn't from automating 100% of interactions. It's from selective containment of the structured ones.
+
+I've spent 7 years building AI for call centers at Ender Turing. The companies getting real ROI aren't trying to replace human agents. They're isolating the interaction types where automation outperforms — and letting humans own the rest.
+
+The math: if your CC handles 10,000 calls/day and 40% are routine, automating those 4,000 calls at $4/call saves $5.8M/year. Not from AI hype. From targeting the right 40%.
+
+---
+
+The execution gap is real, though. Most deployments fail at the same point: the handoff.
+
+You automate the easy calls. But when the AI hits its confidence threshold and kicks to a human, it usually hands off a cold transcript and zero context. The agent starts from scratch. Customer repeats themselves. CSAT tanks.
+
+The best implementations I've seen treat the AI as the first stage of a pipeline, not a replacement. AI handles structured load → captures context → transfers to human WITH context. The human picks up mid-conversation, not at the beginning.
+
+That's the difference between a deployed agent and a functional one.
+
+---
+
+Gartner's $80B projection will materialize — but unevenly. The companies that capture it have already figured out what to automate and what not to.
+
+The ones that haven't will spend 2026 rebuilding failed deployments and wondering why the ROI isn't there.
+
+If you're in CC AI: the containment rate is the metric. Not the automation rate. Not deflection volume. How often does the AI fully resolve the interaction without human intervention?
+
+That's where the $80B is hiding.
+
+[Ender Turing helps call centers measure exactly this — real containment, not just deflection: https://enderturing.com]
