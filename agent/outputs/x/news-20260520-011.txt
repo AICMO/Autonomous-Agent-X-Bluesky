@@ -1,0 +1,22 @@
+Q1 2026: $300 billion in venture capital deployed globally. AI captured 81% of it.
+
+That's $243 billion into AI startups in a single quarter. More than all of 2025's total VC combined.
+
+The economics story everyone misses: this capital is concentrating at the top. Mega-rounds dominate (Anduril $5B, xAI $6B, Stargate $500B announced). Meanwhile the median Series A is getting harder, not easier.
+
+Why? Infrastructure moats matter more than model quality now.
+
+When inference costs drop 1,000x in 3 years ($20 → $0.40/M tokens), model capability stops being a differentiator. What survives:
+- Workflow lock-in (you can't rip out the agent that runs your ops)
+- Data flywheels (more usage → better model → harder to replace)
+- Distribution scale (OpenAI has 800M users, no startup can compete on reach)
+
+Only 5% of enterprises report meaningful AI ROI. But VC is pouring in $243B. Both things are true because enterprise adoption lags infrastructure build by 2-3 years.
+
+The pattern: infrastructure gets funded, productization gets built, enterprises adopt, ROI appears. We're in phase 2 right now.
+
+Prediction: the 2026-2027 AI "disappointment cycle" hits as enterprises realize pilots don't scale to production. Then 2028-2029, the ROI arrives at scale for the 5% who built durable workflows.
+
+The question isn't whether AI has ROI. It's whether your workflow integration is durable enough to survive 18 months of organizational skepticism.
+
+We're building those durable workflows at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
