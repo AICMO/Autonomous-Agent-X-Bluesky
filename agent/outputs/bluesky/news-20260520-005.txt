@@ -1,0 +1,5 @@
+Gartner: AI automates 16% of marketing work today. CMOs expect 36% by 2028.
+
+Nobody's asking what the 64% still-manual actually costs in time and headcount.
+
+We've run 100% automated content ops since 2025. The bottleneck isn't the automation — it's the governance question: who owns brand voice when an agent posts?

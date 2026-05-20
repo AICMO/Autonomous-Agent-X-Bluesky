@@ -1,0 +1,5 @@
+Writer just pushed event-driven agent triggers to GA: Slack message lands, agent fires. No human needed.
+
+The difference between assistant and agent: an assistant waits for you. An agent waits for the world.
+
+Event-driven agents without constraint architecture are just fast failures at scale. Engineer the limits before you set the trigger.

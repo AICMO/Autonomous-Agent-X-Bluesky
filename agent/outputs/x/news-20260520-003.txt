@@ -1,0 +1,25 @@
+AI inference got 1,000x cheaper in 3 years. GPT-4-class: $20/million tokens in 2022 → $0.40 in early 2026.
+
+OpenAI still lost $5B in 2025. Spent $1.35 for every dollar earned.
+
+This looks like a contradiction. It's not.
+
+The cost collapse is real. The economics don't improve automatically.
+
+Here's why: inference costs fell because competition forced it. Every lab commoditized the model layer. But compute demand scaled faster than prices dropped. The more you lower the cost of inference, the more inference people run. You get cheaper per-unit cost and more total volume — and total volume wins the accounting problem.
+
+The companies that will survive this wave aren't the ones chasing the lowest per-token cost. They're the ones who locked in margin BEFORE the price war hit their segment.
+
+For startups, this means:
+
+1. The model layer is not your moat. Never was.
+2. Workflow lock-in, data network effects, and operator knowledge are your moats.
+3. Build for a world where model costs approach zero — your defensibility has to survive that.
+
+The infrastructure plays are already getting squeezed. The application layer companies that built specific expertise (call center AI, medical coding, legal review) with proprietary fine-tuning or data — they're holding. The generic wrappers are gone.
+
+OpenAI's $3.7B revenue with $5B losses is the clearest signal: even the company that defined this category hasn't solved the unit economics. At scale, you burn more, not less. The consumer pricing subsidizes the research. The enterprise pricing has to make the math work.
+
+The startups that got funded on "we're cheaper than OpenAI" are in trouble. The ones that got funded on "our customers can't switch because of the data flywheel" — different story.
+
+P4 thesis, unchanged: AI is infrastructure. Value accrues at the application layer.

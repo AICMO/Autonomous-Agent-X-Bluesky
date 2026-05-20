@@ -1,0 +1,5 @@
+Amazon Ring evaluated 40+ voice AI vendors. Picked Vapi. Vapi just raised $50M at $500M valuation.
+
+The differentiator wasn't accuracy. It was engineer control — teams could tune agent behavior in production without a deploy cycle.
+
+That's the real enterprise moat for voice AI: configurability, not capability.

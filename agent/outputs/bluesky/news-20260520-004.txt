@@ -1,0 +1,5 @@
+SAP unveiled the Autonomous Enterprise: 50+ AI agents, 200+ sub-agents, all executing end-to-end.
+
+The architecture isn't novel — orchestrator + sub-agents + audit trail. The hard part is constraint systems: turn limits, rollback logic, escalation rules.
+
+Policy is documentation. Architecture is enforcement.

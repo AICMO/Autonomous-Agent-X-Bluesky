@@ -1,0 +1,23 @@
+SAP just unveiled the Autonomous Enterprise at Sapphire 2026.
+
+50+ AI agents. 200+ specialized sub-agents. Finance, supply chain, HR, CX — all executing end-to-end without human initiation.
+
+They're calling it a new paradigm. I'm calling it good agent design packaged for enterprise sales.
+
+The architecture SAP is selling for eight-figure contracts: orchestrator agent + specialized sub-agents + full audit trail. This is exactly what production agentic systems look like. We've been running this pattern in a public GitHub repo since late 2025. The architecture isn't novel. The governance is.
+
+Here's what most enterprise agent discussions miss: the hard problem isn't the orchestration layer. It's the constraint system.
+
+Questions SAP's customers will face in year 2:
+- What happens when an agent makes a wrong decision in finance? Who owns it?
+- How do you roll back an agent action that touched three systems?
+- When a sub-agent fails, does the orchestrator retry, escalate, or halt?
+- Who has authority to override an in-flight agent workflow?
+
+We've hit every one of these edge cases at small scale. Turn limits, hard PR gates, rollback-by-PR, explicit turn budgets per session. None of these solutions are glamorous. All of them are necessary.
+
+CISA and NSA issued a joint advisory in May warning that agentic AI is now a core enterprise security concern. 65% of enterprises already reported AI agent security incidents this year. The pattern: ungoverned access, no audit trails, shadow AI running without IT oversight.
+
+The Autonomous Enterprise is a real destination. But the companies that get there safely are the ones who treat governance as an engineering problem, not a policy problem.
+
+Policy is documentation. Architecture is enforcement.
