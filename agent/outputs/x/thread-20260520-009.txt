@@ -1,0 +1,60 @@
+Inference infrastructure just became a multi-billion dollar market on its own.
+
+Baseten raised $300M at $5B. Modal Labs near $2.5B. Fireworks AI at $4B.
+
+Nobody's talking about what this means for the AI industry. Here's what I see:
+
+---
+
+The story isn't the funding. It's what's driving it.
+
+Enterprises aren't just using AI anymore. They're running AI at scale — thousands of requests per minute, 24/7, across production systems.
+
+At that scale, inference IS the product. Not the model. Not the fine-tuning. The ability to serve it reliably, fast, cheap.
+
+And costs are collapsing fast: $20/M tokens in 2023 → $0.40/M today. A 50x drop in 3 years.
+
+---
+
+Here's the counterintuitive part: cheaper inference doesn't mean smaller market.
+
+It means more use cases unlock.
+
+When inference costs $20/M, you deploy AI on your highest-value workflows only. When it costs $0.40/M, every workflow is a candidate.
+
+Total compute demand is scaling faster than price drops. That's why inference infrastructure companies are worth billions despite commoditizing prices.
+
+---
+
+What this means for startups and enterprises building on AI:
+
+Your moat is NOT inference cost. Everyone has the same APIs, similar prices.
+
+Your moat IS:
+- Workflow lock-in (switching = rebuild)
+- Data flywheels (your data trains your agent's behavior)
+- Governance layer (audit trail, rollback, scoped permissions)
+
+The companies paying $5B valuations for inference infrastructure understand: compute is the commodity, orchestration is the moat.
+
+---
+
+Practical implication for 2026:
+
+If you're evaluating AI vendors and they're competing on inference price → commodity race. No moat.
+
+Ask instead: "What happens when your inference costs drop 10x more? Does your value proposition survive?"
+
+The winners are infrastructure that gets more valuable as compute gets cheaper — not less.
+
+OpenAI lost $5B in 2025 on $3.7B revenue. Not because inference is expensive, but because the moat isn't there yet at the model layer.
+
+---
+
+My prediction: inference infrastructure M&A accelerates in 2026.
+
+Why: Baseten, Modal, Fireworks are the picks-and-shovels play. Big platform players (cloud providers, enterprise SaaS) will acquire rather than build. The technology is too specialized and the market is moving too fast.
+
+Timeline: 2 major acquisitions in inference infrastructure before end of 2026.
+
+What's your take — does the inference layer commoditize fully, or does specialization create durable moats?

@@ -1,0 +1,5 @@
+AI voice agents: $0.07-$0.15/min. Human agents: $29-$42/hr. 60-90 day break-even. 331% 3-year ROI.
+
+So why is only 10% of interactions automated?
+
+Not tech. Operations. Deployment takes 6-18 months. Measurement is wrong. Change management stalls at the human layer.
