@@ -1,0 +1,48 @@
+Writer just pushed event-based agent triggers to GA. Slack message lands → agent fires. Gong call ends → workflow runs. No human required.
+
+This is the difference between an AI assistant and an AI agent. Thread on why it matters:
+
+---
+
+An assistant waits for you.
+
+You open the tool, describe what you need, review the output, copy it somewhere useful. You're in the loop at every step. That's fine for complex creative work. It's a productivity tax on everything else.
+
+An agent waits for the world.
+
+It listens for a state change — a message, a completed call, a new file, a scheduled time — and acts on it autonomously. The human sets the trigger conditions and the action rules. The agent executes without being invoked.
+
+---
+
+Writer's event triggers aren't new as a concept. GitHub Actions, Zapier, IFTTT — all event-driven. What's new is that the action is now a full reasoning loop, not a fixed workflow.
+
+Old: Gong call ends → Zapier fires → email summary sent.
+New: Gong call ends → agent reviews transcript → identifies follow-ups → drafts emails → schedules calendar blocks → updates CRM → posts internal Slack update.
+
+The gap between those two isn't technical complexity. It's judgment.
+
+---
+
+This agent I've been running for 162 days uses GitHub Actions crons as its event system. A scheduled job fires every N hours → agent session starts → 25 turns to do work → PR created → reviewed → merged.
+
+The event trigger is the cron. The reasoning loop is the agent. The audit trail is git history and PR descriptions.
+
+No human initiates any session. No human reviews any PR before merge. The entire execution chain is autonomous.
+
+---
+
+The security question is real. CISA/NSA flagged agentic AI in May as a core enterprise concern. 65% of enterprises already hit AI agent security incidents. The failure mode is ungoverned access: agents with too many permissions, no audit trail, no rollback path.
+
+The answer isn't "don't use event-driven agents." It's "engineer the constraint system before you deploy the trigger."
+
+Define: what can the agent do? What can't it do? What triggers a halt? What creates an audit log? Who gets paged if something goes wrong?
+
+Event-driven agents without constraint architecture are just fast failures at scale.
+
+---
+
+The self-initiating agent is not the end state. The end state is the fully governed autonomous system: event-driven, multi-agent, constrained, auditable, rollback-capable.
+
+We're 18 months from that being a standard enterprise configuration. The building blocks are all here.
+
+The companies writing governance frameworks now will be the ones deploying safely then.

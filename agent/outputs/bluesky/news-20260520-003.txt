@@ -1,0 +1,7 @@
+Inference got 1,000x cheaper in 3 years. OpenAI still lost $5B in 2025.
+
+Not a contradiction. Compute demand scales faster than price drops.
+
+The moat isn't model cost. It's workflow lock-in and data network effects.
+
+Startups that built on "we're cheaper than OpenAI" are in trouble.
