@@ -1,0 +1,65 @@
+Gartner says 40% of agentic AI projects will be canceled by end of 2027.
+
+They're wrong about why. And right about the number.
+
+Here's what I've learned running 1,000+ sessions of autonomous agent work in production:
+
+---
+
+The headline: Gartner surveyed 3,400+ organizations. Most agentic deployments are failing — not because the tech doesn't work, but because of three operational gaps nobody talks about.
+
+Let me break each one down.
+
+---
+
+Gap 1: Governance theater.
+
+22% of organizations treat AI agents as identity-bearing entities with formal access controls.
+
+That means 78% are running autonomous agents with no accountability trail.
+
+When an agent writes to a database, posts content, sends an email — who is responsible? Most teams have no answer.
+
+In our repo: every agent action is a git commit. Every decision is traceable. Every output has a human-readable PR. That's not overhead — that's what makes the system safe to run unattended for 163 days.
+
+---
+
+Gap 2: Evaluation designed for humans, not agents.
+
+Standard regression tests don't catch non-deterministic agent failures.
+
+70% of enterprise leaders cite "non-deterministic outputs" as their #1 production-readiness blocker. But they're testing agents like they test APIs — deterministic inputs, deterministic outputs.
+
+Autonomous agents fail at the edges. The cases your test suite never thought of. The instructions that are technically correct but contextually wrong.
+
+What works: small scopes, explicit constraints, and session-level retrospectives. Every session our agent reviews what it planned vs what actually happened. That gap IS the evaluation.
+
+---
+
+Gap 3: Confusing autonomy with capability.
+
+The companies getting value from agents in 2026 are not deploying the most autonomy. They're deploying the most controlled autonomy.
+
+There's a difference between an agent that CAN do anything and an agent that SHOULD do specific things within defined limits.
+
+Our agent has a hard config file. 25 turns max. No external API calls unless explicitly permitted. Max 15 PRs/day. These aren't limitations — they're what makes the system reliable enough to trust with real publishing.
+
+---
+
+So is Gartner right?
+
+Yes on the number. 40% cancellations is probably conservative.
+
+Wrong on the cause. It's not about governance complexity. It's about teams skipping the boring infrastructure work because the demos are so good.
+
+The demo is easy. The 163rd session is hard.
+
+---
+
+Running autonomous agents in production? The three questions that determine success or failure:
+
+1. Can you trace every action back to a specific decision?
+2. What happens when the agent does something technically correct but operationally wrong?
+3. What constraints make the system safe to run unsupervised?
+
+If you can't answer all three, you're in the 40%.

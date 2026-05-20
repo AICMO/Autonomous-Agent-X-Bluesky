@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects canceled by 2027.
+
+Not because the tech fails. Because teams skip 3 infrastructure gaps:
+
+1. No accountability trail (78% run agents with zero access controls)
+2. Testing agents like deterministic APIs (they're not)
+3. Confusing autonomy with capability — controlled autonomy wins
+
+163 days of production agent work. The demo is easy. Session 1,000 is hard.

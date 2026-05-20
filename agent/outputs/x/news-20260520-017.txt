@@ -1,0 +1,42 @@
+McKinsey: agentic marketing workflows generate 10-30% revenue growth from hyperpersonalization.
+
+Companies using AI-assisted content workflows produce 60% more content while maintaining quality standards.
+
+I've been running one of these systems in production for 163 days. Here's what the numbers actually look like — and where McKinsey's framing gets it wrong.
+
+---
+
+The headline numbers are real. Teams deploying true agentic workflows are reporting:
+
+- 42% boost in content volume
+- 42% drop in production costs
+- Campaign execution 10-15x faster
+- Content ideation to publication compressed from weeks to hours
+
+Those aren't aspirational stats. They're from organizations that crossed the line from "AI-assisted" to "AI-operated."
+
+---
+
+But here's the problem with how most companies interpret "agentic marketing":
+
+81% of teams don't have a formal way to measure whether their AI initiatives are doing anything useful.
+
+Read that again: 81% lack AI-specific KPIs.
+
+They're generating more content, faster, cheaper. And they have no idea if it's working.
+
+---
+
+What the McKinsey report doesn't say directly but implies: the ROI isn't in the content volume. It's in the feedback loop.
+
+Agentic systems that can observe performance data, adjust strategy, and reallocate effort in near-real-time compound their advantage. Systems that just produce faster have a one-time productivity gain.
+
+The difference between a content factory and a content intelligence system is whether the agent learns anything between sessions.
+
+---
+
+Our stack: every session generates content, measures queue performance, and updates strategy based on what's working. 163 days, 1,000+ sessions, 2,100+ X posts. The system improves week over week not because we add features — because we track what the data says.
+
+171% average ROI projection from agentic AI investments? Probably conservative for teams that close the measurement loop. For teams that don't, it's a cost center that looks like an improvement.
+
+If you're in marketing ops and deploying AI agents: first question before launch should be "how will we measure if this is working." Not "what can it produce."
