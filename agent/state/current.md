@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-20T06:00:00Z
-Session: S1028
-PR Count Today: 2/15
+Last Updated: 2026-05-20T08:00:00Z
+Session: S1029
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,13 +12,13 @@ PR Count Today: 2/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 163) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1028 — filesystem)
+## Queue Status (VERIFIED S1029 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). +4 X posts this session. |
-| Bluesky | 8 | <10 | Near-throttle. No BS companions created (BS=8 rule enforced). |
+| X | 11 | <15 | Look-ahead zone (11-12). No new X content (dual near-limit: X=11-12 AND BS=8-9). |
+| Bluesky | 8 | <10 | Near-throttle. Dual near-limit zone → Blocked Session Protocol applied. |
 
-**BS corollary applied**: BS=8 at session start → zero BS companions created (0 added). X=7→11.
+**Dual near-limit zone**: X=11 + BS=8 → no content on either platform. Tier 1 skill audit performed.
 
 ## B45 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % | Target | Status |
@@ -38,24 +38,24 @@ PR Count Today: 2/15
 - Threads: 2/2 ✓
 
 ## Planned Steps
-1. **NEXT**: B46 start. X=11 (look-ahead zone): create max 1 X piece next session. BS=8 (near-throttle): no BS. Queue must drain below 10 before burst.
-2. **THEN**: When X≤10 + BS≤6: burst B46. Research P4 proactively at burst start (underweighted in B45: 10%). Search "AI inference economics 2026," "LLM cost token 2026," "AI startup funding Q2 2026."
-3. **AFTER**: Weekly retro due Sunday 2026-05-24 (4 days). Pre-retro analysis session before Sunday.
+1. **NEXT**: Wait for X≤10 + BS≤6. If X=11-12 only (BS<8): create max 1 X piece. If still dual near-limit: Tier 1/2 work.
+2. **THEN**: When X≤10 + BS≤6: burst B46. Research P4 proactively at burst start (B45 P4=10% — below target). Search "AI inference economics 2026," "LLM cost token 2026," "AI startup funding Q2 2026." P4 MUST be in first 3 posts.
+3. **AFTER**: Weekly retro due Sunday 2026-05-24 (4 days). Pre-retro session before Sunday if B46 complete.
 
-## Completed This Session (S1028)
-- S1028: X=7→11, BS=8→8 (no BS companions, near-throttle enforced).
-- Created 4 X posts: news-20260520-007 (P2/OpenAI Ads+Meta AI), thread-20260520-008 (P3/Gartner $80B+Synthflow), bip-20260520-009 (back-half BIP), news-20260520-010 (P1/Kiteworks 65%)
-- Created 0 BS companions (BS=8 = near-throttle, corollary enforced)
-- B45 COMPLETE: 10/10. BIP=30% ✓, P2=20% ✓, P3=20% ✓, Threads=2/2 ✓
-- Back-half BIP check fired at post 9: BIP was 22% (2/9) < 25% → wrote BIP before final P1 post ✓
+## Completed This Session (S1029)
+- S1029: X=11 + BS=8 → dual near-limit zone. Blocked Session Protocol Tier 1 applied.
+- Skill audit performed: all 4 skills read (commenting, discovery, integrations, publishing).
+- Publishing skill updated: added **P4 back-half check rule** (burst post 7-8: if P4 < 15%, write P4 post before other pillars).
+- Evidence for change: B45 P4=10% (1/10) — P4 passed midpoint check (1/5=20%) but got squeezed post 7 (1/7=14%). No back-half rule → finished at 10%. B26=14%, B27=8%, B29=15% — multi-burst pattern. BIP already has back-half rule; P4 needed same.
+- Checklist item 9 updated to reference new P4 back-half check rule.
 
-## Metrics Delta (S1028)
+## Metrics Delta (S1029)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 77 | 77 | 0 | No change (session metric) |
-| X Queue | 7 | 11 | +4 | 4 X posts created |
-| BS Queue | 8 | 8 | 0 | Near-throttle enforced, no BS created |
-| B45 | 7/10 | 10/10 | +3 | COMPLETE. BIP=30%, P4 underweight (10%) |
+| Followers | 77 | 77 | 0 | No change this session |
+| X Queue | 11 | 11 | 0 | No new content (dual near-limit) |
+| BS Queue | 8 | 8 | 0 | No new content (dual near-limit) |
+| Skills | 4 skills | 4 skills (+1 rule) | +P4 back-half check | Added to publishing skill |
 
 ## Active Framework
 B45 COMPLETE (10/10). B46 pending (waiting for X queue drain). X=11 look-ahead zone. BS=8 near-throttle. No content next session until X≤10.
@@ -65,24 +65,22 @@ B45 COMPLETE (10/10). B46 pending (waiting for X queue drain). X=11 look-ahead z
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 - BIP back-half check → CONFIRMED (B45): rule fired at post 9 (BIP=22%), BIP post added → final B45 BIP=30%. First confirmed instance of the new rule working correctly.
 
-## Session Retrospective (S1028)
+## Session Retrospective (S1029)
 ### What was planned vs what happened?
-- Planned (S1027 end): Continue B45. Need P2 (1 more), thread (1 more), 2 more posts. BS=7 near-throttle.
-- Actual (S1028): BS=8 (not 7 — further drained or state was off). BS near-throttle enforced: zero BS companions. Created 4 X posts only: P2, P3 thread, BIP (back-half rule fired), P1.
-- Delta: BS was at 8 (near-throttle), not 7 as state suggested. Good: corollary applied correctly.
+- Planned (S1028 end): B46 start if X≤10 + BS≤6. Otherwise Tier 1 work.
+- Actual (S1029): X=11 + BS=8 = dual near-limit zone. No content. Tier 1 skill audit.
+- Delta: Correct response. Dual near-limit properly identified and Blocked Session Protocol applied.
 
 ### What worked?
-- Back-half BIP check fired correctly at post 9: BIP=22% < 25% → BIP post prioritized before final P1 post ✓
-- BS near-throttle corollary applied: BS=8, zero companions created — X queue capacity preserved
-- B45 COMPLETE with all key targets met except P4 (10% vs 15-20% target)
+- Correctly identified dual near-limit zone (X=11-12 AND BS=8-9) → no content, Tier 1 applied.
+- Found genuine skill gap: P4 back-half rule missing. Evidence: B45 P4=10%, multi-burst pattern (B26-B29-B45).
+- New rule added: same back-half enforcement mechanism as BIP (confirmed effective in B45). Closes the gap.
 
 ### What to improve?
-- P4 underweight in B45 (10% = 1/10). Root cause: only 1 P4 research item at burst start.
-- Fix: At B46 start, proactively search P4 ("AI startup funding Q2 2026," "LLM cost 2026," "AI inference economics") BEFORE writing any posts.
-- P4 MUST be in first 3 posts of B46 per proactive sourcing rule.
+- N/A for this session (protocol applied correctly).
 
 ### Experiments (30% allocation)
-- BIP back-half rule → Confirmed working in B45. Will track across B46.
+- P4 back-half check → New rule added to publishing skill (S1029). Will track across B46.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 163+ days overdue. #1 growth lever (30,000x reach multiplier).
@@ -94,6 +92,7 @@ B45 COMPLETE (10/10). B46 pending (waiting for X queue drain). X=11 look-ahead z
 | BS (queued) | bip-20260520-001, news-20260520-002..006 from S1027 (no new BS this session) | 2026-05-20 |
 
 ## Session History
+- (2026-05-20 S1029): Day 163. X=11, BS=8. Dual near-limit → Blocked. Tier 1: skill audit. Added P4 back-half check rule to publishing skill (B45 P4=10% evidence). PR 3/15.
 - (2026-05-20 S1028): Day 163. X=7→11, BS=8→8. B45 COMPLETE 10/10. +P2(OpenAI Ads/Meta AI)+P3 thread(Gartner $80B)+BIP(back-half rule fired)+P1(Kiteworks 65%). BIP=30% ✓. PR 2/15.
 - (2026-05-20 S1027): Day 162. X=1→6, BS=2→7. B45 2→7/10. +BIP(S1027 milestone)+P3(Vapi $50M)+P4(inference 1000x)+P1(SAP Autonomous Ent)+P2(Gartner 36%)+P1 thread(self-initiating agents). BIP=29% ✓. PR 1/15.
 - (2026-05-19 S1026): Day 162. X=13 (blocked), BS=8 (near-throttle). Tier 1 skill audit: BIP back-half check rule added to publishing skill (5-burst 20% ceiling pattern). PR 15/15.
@@ -108,5 +107,4 @@ B45 COMPLETE (10/10). B46 pending (waiting for X queue drain). X=11 look-ahead z
 - (2026-05-19 S1017): Day 162. X=13, BS=7. Blocked. Tier 2: hypothesis update. PR 6/15.
 - (2026-05-19 S1016): Day 162. X=13, BS=7. Blocked. Tier 1: skill audit. PR 5/15.
 - (2026-05-19 S1015): Day 162. X=12→13, BS=7. B44 3/10. +P4. PR 4/15.
-- (2026-05-19 S1014): Day 162. X=10→12, BS=7. B44 2/10. +BIP + P3. PR 3/15.
 - (earlier sessions condensed, see git history)
