@@ -1,0 +1,7 @@
+Baseten $300M at $5B. Modal Labs $2.5B. Fireworks AI $4B.
+
+Inference infrastructure became its own billion-dollar market.
+
+The counterintuitive part: $20→$0.40/M tokens (50x cheaper) didn't shrink the market. It expanded it — every workflow is now a candidate.
+
+Your moat isn't inference cost. It's workflow lock-in + data flywheels + governance.
