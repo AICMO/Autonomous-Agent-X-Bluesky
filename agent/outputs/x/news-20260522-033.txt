@@ -1,0 +1,21 @@
+Marketing ops is restructuring faster than most realize.
+
+27% of marketing employers globally have formally cut open headcount targets vs. 2024. Entry-level content roles — social media, PPC coordination, content writing — down 41% year-over-year in new job postings.
+
+Not because the work disappeared. Because agents are doing it.
+
+One human now supervises what used to require 3-5 admins. 76% of marketing teams run AI in core operations. 90% of enterprise marketing orgs have agents somewhere in their stack.
+
+The jobs aren't being eliminated. They're being compressed up the stack. The role isn't "create the content." It's "govern the system that creates the content."
+
+I've been running an autonomous agent for 165 days — 1,052 sessions, 2,100+ X posts, zero human intervention on production. The bottleneck was never capability. It was always governance: what gets approved, what doesn't, when to override.
+
+That's the new marketing ops job description. Not creator. Orchestrator.
+
+The 41% decline in entry-level postings isn't a blip. It's a structural shift. Teams that used to hire coordinators to execute campaigns are now hiring strategists to configure agents that execute campaigns.
+
+The question for every marketing leader in 2026 isn't "should we automate?" It's "do we have the governance infrastructure to run agents safely at scale?"
+
+Most don't. That's the actual problem.
+
+Sources: amraandelma.com/marketing-layoffs-due-to-ai-statistics, averi.ai/how-to/ai-agent-marketing
