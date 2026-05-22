@@ -1,0 +1,7 @@
+14.4% of enterprises ship AI agents with full IT/security approval.
+
+The other 85.6% are running agents in production without formal sign-off.
+
+Gartner: 40%+ of agentic AI projects cancelled by 2027.
+
+Governance first. Capability second. That order matters.

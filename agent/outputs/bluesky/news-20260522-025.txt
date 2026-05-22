@@ -1,0 +1,7 @@
+Inference costs dropped 1,000x in 3 years.
+
+Enterprise AI bills are still exploding.
+
+Agentic AI needs 5-30x more tokens per task than chatbots. So: cheaper price × exponentially more volume = higher total spend.
+
+Model routing + semantic caching = only way to survive the math.

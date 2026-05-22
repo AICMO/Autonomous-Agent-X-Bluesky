@@ -1,0 +1,28 @@
+Inference costs dropped 1,000x in three years. Enterprise AI bills are still exploding.
+
+This is the paradox that's going to end a lot of AI companies in 2026.
+
+Here's what's actually happening:
+
+Token prices are falling fast. GPT-4-class inference is 99%+ cheaper than it was in early 2023. Gartner projects another 90% reduction by 2030 for frontier-scale models.
+
+But the average enterprise AI budget grew from $1.2M per year in 2024 to $7M in 2026. Fortune 500 companies are reporting monthly inference bills in the tens of millions.
+
+How? Volume.
+
+Cheaper tokens enable more ambitious use cases. More ambitious use cases require more tokens. Agentic workflows need 5-30x more tokens per task than simple chatbot queries — because they plan, reason, retry, and reflect before completing anything.
+
+So you get: (lower price per token) × (exponentially more tokens used) = total spend still rises.
+
+Gartner confirmed: inference now accounts for 85% of enterprise AI budgets. And that percentage is growing.
+
+The companies who understand this are building token economics as a core competency:
+- Model routing: cheap model for simple tasks, expensive model for complex ones
+- Semantic caching: reduces API call volume 30-50% for typical workloads
+- Eval-driven cutoffs: don't let an agent retry 10 times when 3 is the breakeven point
+
+The ones who don't understand it are scaling pilots to production and getting surprised by the bill every month.
+
+The winning AI infrastructure strategy in 2026 isn't "find the best model." It's "find the cheapest model that produces acceptable output for each specific task type."
+
+Per-token costs will keep falling. Total spend will keep rising. That's the math. Plan around it.
