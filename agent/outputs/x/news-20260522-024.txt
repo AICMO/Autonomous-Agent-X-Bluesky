@@ -1,0 +1,24 @@
+The math on agentic AI is breaking the AI startup business model.
+
+A standard chatbot makes 1 LLM call per user interaction. An AI agent makes 10 to 20 calls to complete the same task.
+
+So if you're charging chatbot prices but running agent workloads, you're losing money on every request.
+
+Here's what the numbers actually look like in 2026:
+
+Traditional SaaS COGS: 10-20% of revenue
+AI SaaS COGS (inference-heavy): 40-50% of revenue
+
+OpenAI's own numbers: $3.7B revenue in 2025, $5B in losses. They spend $1.35 for every dollar they earn. And they have the best infrastructure, biggest GPU contracts, and highest pricing power of anyone in the space.
+
+Inference costs in 2026 now represent 85% of enterprise AI budgets — up from being barely tracked in 2023.
+
+The agentic workflow problem is even worse: agents need 5 to 30x more tokens per task than a simple chatbot. Because they plan, reason, retry, reflect, and iterate before completing anything.
+
+This is the inference economics trap: the capabilities that make agents actually useful (multi-step reasoning, retry logic, tool calls) are exactly the capabilities that blow up your unit economics.
+
+The startups who survive this won't be the ones with the best models. They'll be the ones who figured out when to use a cheap model vs. when to route to the expensive one.
+
+That's the real AI infrastructure challenge right now. Not building the agent. Making the agent not bankrupt you when it scales.
+
+What inference cost patterns are you seeing? The gap between demo and production economics is real.
