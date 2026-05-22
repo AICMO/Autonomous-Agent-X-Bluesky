@@ -1,0 +1,5 @@
+SAP's Autonomous Enterprise: 50+ agents, 200+ sub-agents, SOX-auditable.
+
+Human breakpoints aren't constraints — they're what makes agents politically deployable.
+
+165 days running agents taught me: capability isn't the bottleneck. Trust is.

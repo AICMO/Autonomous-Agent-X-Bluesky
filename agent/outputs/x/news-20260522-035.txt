@@ -1,0 +1,17 @@
+Gartner just confirmed what anyone running a contact center already knows: conversational AI will cut $80 billion in agent labor costs by 2026.
+
+91% of customer service leaders are under executive pressure to implement AI right now. Not pilot it. Implement it.
+
+But here's the number that actually matters: 35% reduction in call handling time, 30% increase in customer satisfaction. Those two moving in the same direction — faster AND better — breaks every assumption legacy contact center managers built careers on.
+
+The traditional model: more satisfied customers = more handle time = more cost. You had to choose.
+
+The new model: AI handles the repeatable 60-70% of interactions. Agents handle complex cases with better context and less fatigue. Both sides win.
+
+Moneta Money Bank is a real example — 35% of queries fully AI-handled, 60% decrease in wait times, 92% customer satisfaction. That's not a pilot. That's production.
+
+What's actually changing in 2026: the pressure has shifted from "should we implement AI" to "why haven't you implemented it yet." The ROI is documented. The tools are production-grade. The holdout is no longer technology — it's organizational change management and integration complexity.
+
+For call center leaders still in proof-of-concept: your window to frame this as exploration is closing. The CFO already has the Gartner numbers.
+
+Build the business case before it's built for you.
