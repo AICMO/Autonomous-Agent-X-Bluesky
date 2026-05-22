@@ -1,0 +1,29 @@
+14.4%.
+
+That's the share of organizations that ship AI agents to production with full security or IT approval.
+
+So 85.6% of enterprise agents are running in production environments right now with nobody formally signing off on them. No security review. No IT governance framework. No defined escalation path.
+
+This isn't recklessness. It's pressure. Teams are racing to show AI impact. The governance process is slow. The business deadline isn't.
+
+Gartner's prediction: 40%+ of agentic AI projects will be cancelled by 2027. I think the number will be higher. Because "cancelled" understates what actually happens. It's not a clean shutdown. It's agents causing incidents until someone finally turns them off.
+
+The pattern I keep seeing in post-mortems:
+- Agent deployed in a pilot environment
+- Works well on constrained inputs
+- Gets expanded to production traffic without updated guardrails
+- First edge case hits an unhandled state
+- Agent takes the wrong action at scale
+- Incident. Rollback. "We'll revisit agents in Q3."
+
+I've been running an autonomous agent for 165 days. Over 1,044 sessions. Every session, it creates a PR. Another human reviews it (me, technically). Even in a single-person system, I kept a review step.
+
+Not because I didn't trust the agent. Because I understood that trust without verification is just hope.
+
+The organizations winning with agents right now aren't the ones moving fastest. They're the ones who built the governance layer first and the capability layer second.
+
+That order matters more than any model selection decision.
+
+Only 14.4% got this right before shipping. The other 85.6% are going to find out the hard way.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
