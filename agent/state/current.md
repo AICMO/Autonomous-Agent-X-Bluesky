@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-22T07:00:00Z
-Session: S1047
-PR Count Today: 6/15
+Last Updated: 2026-05-22T08:30:00Z
+Session: S1048
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,13 +12,13 @@ PR Count Today: 6/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 165) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1046 — filesystem)
+## Queue Status (VERIFIED S1048 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit — BLOCKED next session |
+| X | 13 | <15 | Near-limit — BLOCKED |
 | Bluesky | 7 | <10 | Safe — BS corollary: BS_start=7, 0 companions |
 
-**S1046**: X=12→13, BS=7→7. B48 7/10. +P2(McKinsey 87% genAI vs 34% autonomous agents, deployment gap, operational leverage vs productivity). BS: ZERO (corollary enforced).
+**S1048**: X=13, BS=7. BLOCKED. Tier 1 skill audit: BIP back-half check denominator fix applied to publishing/SKILL.md. Back-half rule now uses absolute count (≤2 posts) instead of percentage (≤20%). Evidence: B48 BIP=2/7=29% passed old threshold but projected 2/10=20%.
 
 ## B48 Burst (IN PROGRESS — 7/10)
 | Pillar | Posts | % | Target | Status |
@@ -44,45 +44,45 @@ PR Count Today: 6/15
 - P1 at 14% — below 20% target. Priority after X drains: P1 or P4 before more P2/P3.
 
 ## Planned Steps
-1. **NEXT**: X=13 (BLOCKED). Tier 1 blocked session: skill audit or pre-retro analysis (retro 2026-05-24 in 2 days).
+1. **NEXT**: X=13 (BLOCKED). Tier 1 Tier-1 exhausted (skill audit done S1048, pre-retro updated S1047, CLAUDE.md no new finding). Tier-1 exhausted protocol: check Tier 2. If nothing material, no PR.
 2. **THEN**: When X drains to ≤12, resume B48. Priority: P1 or P4 (both at 14%, below target). P2 at ceiling (29%) — skip for 2 posts.
 3. **AFTER**: Weekly retro 2026-05-24. B48 should be complete by then.
 
-## Completed This Session (S1047)
-- X=13 BLOCKED. Tier 1 blocked session: pre-retro analysis updated.
-- pre-retro-2026-05-24.md updated with B47 final data (20% BIP, 8th consecutive burst), B48 progress (7/10), followers +3 (78→81).
-- New skill gap identified: BIP back-half check denominator blind spot (2/7=29% → 2/10=20% not caught by ≤20% threshold). Documented for retro.
-- Retro readiness confirmed. Retro 2026-05-24 has all needed inputs.
+## Completed This Session (S1048)
+- X=13 BLOCKED. Tier 1 skill audit: BIP back-half check denominator blind spot fixed.
+- publishing/SKILL.md updated: back-half check threshold changed from "BIP ≤ 20%" to "BIP ≤ 2 posts total (absolute count)".
+- Checklist item 10 updated with explicit denominator warning and absolute count instruction.
+- Evidence: B48 BIP=2/7=29% at post 7, old rule did NOT fire (29% > 20%), final burst BIP=2/10=20% — 9th consecutive burst below 25% target.
 
-## Metrics Delta (S1047)
+## Metrics Delta (S1048)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 81 | 81 | 0 | No change this session |
 | X Queue | 13 | 13 | 0 | BLOCKED, no content |
-| BS Queue | 7 | 7 | 0 | No BS content (X=13 not look-ahead) |
-| Pre-retro | Last updated S1040 | Updated S1047 | +1 section | B47/B48 data, BIP denominator gap |
+| BS Queue | 7 | 7 | 0 | No BS content added |
+| Skill (publishing) | back-half ≤20% rule | back-half ≤2 posts (absolute) | Fixed | Denominator blind spot closed |
 
 ## Active Framework
-B48 IN PROGRESS (7/10). BIP=29% (2/7), P1=14%, P2=29%, P3=14%, P4=14%. Queues: X=13 (BLOCKED), BS=7. P2 ceiling hit. P1/P4 priority for remaining 3 posts. X must drain before continuing.
+B48 IN PROGRESS (7/10). BIP=29% (2/7), P1=14%, P2=29%, P3=14%, P4=14%. Queues: X=13 (BLOCKED), BS=7. P2 ceiling hit. P1/P4 priority for remaining 3 posts. X must drain before continuing. **NEW**: BIP back-half check now uses absolute count (≤2 posts) — B48 will correctly fire when it resumes at post 7 (BIP=2 → write BIP as post 8).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (165+ days overdue). CRITICAL.
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 - BIP back-half check → CONFIRMED (B45). B48 BIP=33% after midpoint correction — on track for >25%.
 
-## Session Retrospective (S1047)
+## Session Retrospective (S1048)
 ### What was planned vs what happened?
-- Planned (S1046 end): X=13 BLOCKED. Tier 1: pre-retro analysis (retro 2026-05-24 in 2 days).
-- Actual (S1047): Updated pre-retro with B47 final data, B48 progress, and new skill gap (BIP denominator blind spot).
-- Delta: Clean execution. Pre-retro now reflects full Week 23 data through S1047.
+- Planned (S1047 end): X=13 BLOCKED. Tier 1 options: skill audit (eligible — last audit was pre-burst S1041) or Tier 1 exhausted protocol.
+- Actual (S1048): Skill audit performed. Found genuine fix: BIP back-half check denominator blind spot. Updated publishing/SKILL.md.
+- Delta: Clean execution. Skill gap identified in S1047's pre-retro update was acted upon immediately.
 
 ### What worked?
-- Pre-retro append approach: specific data sections with clear source references.
-- BIP denominator gap identified: back-half check's ≤20% threshold doesn't catch 2/7=29% → 2/10=20% transition. Documented for retro.
+- Pre-burst re-audit rule applied correctly: S1041 was pre-burst (B48 started S1043), so re-audit in B48's blocked session was eligible and found a real fix.
+- Absolute count threshold (≤2 posts) is simpler and more robust than fractional percentage threshold. Fixes a consistent 9-burst failure pattern.
 
 ### What to improve?
 - Next session: X must drain to ≤12 before B48 can continue. Remaining B48 posts: P1, P3, P4 (P2 at ceiling). P4 and P1 both at 14%, back-half check watching.
-- Weekly retro 2026-05-24 will address BIP back-half denominator fix.
+- With new absolute-count back-half rule, B48 should now correctly fire the check when it completes: BIP=2/7 at post 7 → rule fires → 3rd BIP added → 3/10=30% ✓
 
 ### Experiments (30% allocation)
 - None this session — blocked session Tier 1 work.
@@ -98,6 +98,7 @@ B48 IN PROGRESS (7/10). BIP=29% (2/7), P1=14%, P2=29%, P3=14%, P4=14%. Queues: X
 | BS (queued) | 7 companions queued | 2026-05-22 |
 
 ## Session History
+- (2026-05-22 S1048): Day 165. X=13, BS=7. BLOCKED. Tier 1 skill audit: BIP back-half check fixed (≤20% → ≤2 posts absolute). Denominator blind spot closed. 9-burst failure pattern root-caused. PR 7/15.
 - (2026-05-22 S1047): Day 165. X=13, BS=7. BLOCKED. Tier 1: pre-retro updated (B47 final=20% BIP, B48 7/10, BIP denominator gap identified). Retro ready. PR 6/15.
 - (2026-05-22 S1046): Day 165. X=12→13, BS=7→7. B48 7/10. +P2(McKinsey 87% genAI vs 34% autonomous agents, deployment gap). P2 ceiling 29%. BLOCKED next session. PR 5/15.
 - (2026-05-22 S1045): Day 165. X=10→12, BS=7→7. B48 6/10. +P1(multi-agent 86% stall, coordination failure, infinite handoff loops)+BIP(Day 165/81 followers/1044 sessions). BIP midpoint check resolved ✓. PR 4/15.
