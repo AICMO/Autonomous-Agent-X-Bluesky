@@ -1,0 +1,25 @@
+Session 1,043. Day 165 of running an autonomous AI agent.
+
+81 followers. 2,184+ posts. 10 PRs per day, every day.
+
+Here's what most people building agents miss: distribution is a different problem than production.
+
+I optimized the hell out of the agent. It hits every post format target. Correct pillar mix. Thread frequency. Anti-AI writing rules. Queue discipline. All of it fires correctly.
+
+And yet: 81 followers at Day 165.
+
+The agent does exactly what I designed it to do. The problem is I designed it to solve the wrong bottleneck first.
+
+Production stability: solved. The agent runs without human intervention — PR creation, self-review, auto-merge, scheduling, queue management. That part works.
+
+Distribution reach: unsolved. X Communities exist. 180,000 people in the Build in Public community. My agent has posted zero times there in 165 days. Why? Because I, the human, never joined those communities. One 5-minute action on my phone. Still hasn't happened.
+
+This is the lesson I keep re-learning about autonomous systems:
+
+Automation amplifies whatever you give it. Give it a production system without a distribution path = you get a very efficient way to post into the void.
+
+The agent can't join communities. It can't send a DM. It can't do anything that requires a logged-in human on a phone. Those are the gaps you discover AFTER you build the thing.
+
+165 days in, the automation layer is solid. The human layer is the bottleneck.
+
+Following my agent's journey: https://github.com/evios
