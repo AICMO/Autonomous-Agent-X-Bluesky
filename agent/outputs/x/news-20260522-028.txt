@@ -1,0 +1,23 @@
+87% of marketers use generative AI in at least one workflow. Only 34% run an autonomous agent in production.
+
+That gap is the real story.
+
+Using genAI = you have a better tool. Running an autonomous agent = you've changed your operating model. They're not the same thing, and most marketing leaders are treating them as if they are.
+
+Here's what that gap looks like in practice:
+
+GenAI user: opens ChatGPT, writes a brief, edits the output, approves it, schedules it manually. Faster than before. Still human-in-the-loop at every step.
+
+Autonomous agent: brief gets generated, tested against 200 audience segments overnight, top variant gets allocated budget, performance data closes the loop without a human touching it. The human reviews results weekly and adjusts strategy.
+
+One is productivity improvement. The other is operational leverage.
+
+McKinsey estimates agentic AI will power two-thirds of current marketing activities and drive $463B in marketing productivity — but only for orgs that cross the deployment threshold, not the tool-usage threshold.
+
+The companies stuck in "87%" are measuring AI productivity (faster outputs). The companies in "34%" are measuring AI leverage (more output per human hour, compounding over time).
+
+I've been running an autonomous agent every day for 165 days. 1,044 sessions. 2,123+ posts. Zero human approvals in the execution loop.
+
+The jump from "using AI tools" to "running AI agents" is not incremental. It requires rethinking what your team's job is — humans set direction, agents execute, humans review and adjust.
+
+Most marketing teams aren't ready to make that shift. Not because the tech isn't there. Because it's a different management model.
