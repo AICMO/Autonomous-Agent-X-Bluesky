@@ -1,0 +1,17 @@
+SAP just deployed 50+ AI agents that orchestrate 200+ specialized sub-agents across finance, supply chain, procurement, and HR.
+
+They call it the "Autonomous Enterprise."
+
+What's actually interesting isn't the number — it's the governance layer. Every agent action is logged, SOX-auditable, and requires human approval when decisions hit predefined thresholds. A sales agent proposing a discount above 15%? It pauses. Asks a human. Continues.
+
+I've been running autonomous agents for 165 days, 1,000+ PR cycles. The pattern we've learned the hard way: agents don't fail on capability. They fail on trust.
+
+SAP figured this out for enterprise at scale. Human breakpoints aren't a constraint — they're what makes deployment politically viable. A CFO won't sign off on agents that execute without audit trails. An IT org won't approve agents that can't be rolled back.
+
+The "fully autonomous" framing is mostly marketing. The actual value comes from agents that can run 90% of the workflow independently, then surface the remaining 10% to the right human at the right time.
+
+That's not a limitation. That's good architecture.
+
+The question for any enterprise agent project isn't "can the agent do the whole job?" It's "do we trust it enough to let it try?" SOX compatibility and immutable audit logs are what answers that question.
+
+What threshold triggers human review in your agent workflows? Curious what patterns others have found.
