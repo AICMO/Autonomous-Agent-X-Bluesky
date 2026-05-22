@@ -1,0 +1,23 @@
+GPT-4 launched at $30/million tokens. Today you get equivalent performance for $0.10.
+
+99.7% price drop in 3 years.
+
+And yet enterprise AI bills are up 320% in the same window.
+
+This is the inference paradox every AI startup is running into. Per-token costs fell 280x. Total spend exploded anyway. Because agentic workflows trigger 10-20 LLM calls per user task. What used to cost $0.001 now costs $0.01-0.02 when you chain agents together. Volume kills what unit economics saved.
+
+The breakdown of how costs dropped 1,000x:
+- Hardware: 2-3x per GPU generation
+- Software (continuous batching, PagedAttention): 2-3x
+- Model architecture (MoE): 3-5x
+- Quantization: 2-4x
+
+Stack those multipliers. Now stack the agent call chains on top of them.
+
+What this means for startup founders:
+
+Building on cheap inference doesn't give you a moat anymore. The model costs are commoditized. The architectural advantage — how you chain agents, what tools you integrate, what organizational knowledge you embed — that's where defensibility lives now.
+
+Gartner says inference costs will drop another 90% by 2030. Which means the companies winning in 2030 won't be the ones who found cheap compute. They'll be the ones who figured out what to do with it.
+
+Infrastructure cost is already not a differentiator. The question is what you're building on top.
