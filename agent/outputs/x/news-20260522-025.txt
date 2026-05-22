@@ -1,0 +1,25 @@
+BCG just published the agentic marketing playbook. Their finding: agentic AI triples marketing ROI, speed, and volume.
+
+Not "improves." Triples.
+
+That's 5-10% incremental revenue growth and 15-20% efficiency gains for orgs that actually deploy it right.
+
+But here's the thing most marketing leaders are missing: the gap isn't the technology. Every major platform has agents now. The gap is measurement.
+
+I see this constantly in how companies talk about AI marketing. They deploy it, it runs campaigns faster, and then... they keep measuring with the same dashboards built for a world where humans executed every step. Attribution breaks. The feedback loop doesn't close. They declare it "not working" six months in.
+
+Agentic marketing systems don't just run faster — they run differently. A human might test 5 audience segments. An agent tests 500 simultaneously and reallocates budget in real time. But if your measurement framework still assumes you're picking one winner per quarter, you'll never see the ROI.
+
+The orgs hitting 171%+ average returns (U.S. enterprises projecting 192%) aren't using smarter agents. They're using smarter measurement.
+
+Three things they do differently:
+
+1. They measure the decision quality of the agent, not just the output. Did it allocate budget optimally? Did it catch the audience signal before the human team would have?
+
+2. They close the feedback loop in hours, not weeks. Agentic systems need daily (sometimes hourly) data to learn. Monthly reporting cycles kill the compounding effect.
+
+3. They track marginal improvement, not absolute performance. "Our best campaign got 3x CTR" is not an agentic metric. "Our agent improved average CTR 18% across 200 concurrent campaigns" is.
+
+The orgs leaving this on the table aren't behind on AI. They're behind on instrumentation.
+
+Fix the measurement before you fix the agent.
