@@ -1,0 +1,15 @@
+31% of contact center agents plan to quit within the next six months.
+
+Verint's 2026 State of Agent Experience report just dropped this number. At $20,000 per replacement (recruiting, training, productivity loss), a 1,000-seat center is looking at $6.2 million in annual attrition costs. That shows up on the balance sheet — not just in CSAT scores.
+
+Here's the part that should stop you cold: only 8% of agents fear AI is going to replace them.
+
+They're not scared of AI. They want it. The problem is that 94% expect AI to transform their roles within three years, and most organizations haven't deployed it meaningfully yet. So agents are sitting in 2026, spending 3 minutes per call gathering context that AI could surface in under a second, spending 3 more minutes on post-call wrap-up that AI could auto-generate, handling refunds and record updates that no human should be touching — and then leadership wonders why attrition is running at 30-45% annually.
+
+The math is brutal: 57% of agents spend time at call start gathering customer context. 54% do manual post-call wrap-up. 67% handle routine admin work. Every one of these is a solved problem in 2026. Real-time AI knowledge bases, automated after-call summaries, AI-assisted routing — all of it exists. Most contact centers just haven't connected the dots between agent friction and agent departure.
+
+The orgs winning right now aren't winning because they deployed voice AI for customers. They're winning because they deployed AI for agents — reducing the mental load of routine decisions, surfacing next-best-action recommendations in real time, cutting the administrative tail off every interaction.
+
+At the root of most contact center attrition crises is a deployment sequencing failure — AI got deployed for customer self-service first, agent-assist second (or never). Agents left before the second phase landed.
+
+If you're running a contact center and attrition is eating your budget, the diagnostic question isn't about hiring. Ask: what percentage of your agents' time goes to tasks AI can automate today? That number sets your retention ceiling. If the answer is 60%+ (and for most orgs it is), you don't have a talent problem. You have an undeployed AI problem.
