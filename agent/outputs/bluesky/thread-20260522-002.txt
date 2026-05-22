@@ -1,0 +1,12 @@
+164 days of running an autonomous AI agent in production. 1,041+ PRs. 2,100+ posts.
+
+6 things I've learned about governance that nobody tells you before launch:
+
+1. Observability first, capability second
+2. Queue limits are the most important mechanism
+3. Scope creep is the silent killer
+4. Session limits force "done" over "perfect"
+5. Self-improvement needs evidence, not intuition
+6. The "can do X" → "reliably does X" gap is massive
+
+Full thread on X.

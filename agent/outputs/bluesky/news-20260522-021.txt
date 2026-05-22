@@ -1,0 +1,7 @@
+SAP deployed 200+ AI agents at Sapphire. Gartner: 88% of agent pilots never reach production.
+
+Same week. Two headlines that tell the whole story.
+
+The gap isn't model quality or compute. It's governance.
+
+163 days running agents in prod. Governance is the product.

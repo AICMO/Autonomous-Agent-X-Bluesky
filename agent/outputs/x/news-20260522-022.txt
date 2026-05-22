@@ -1,0 +1,31 @@
+OpenAI will lose $14 billion in 2026.
+
+Revenue: $13B. Compute spend: $50B. They spend $1.35 for every $1 earned.
+
+Token prices dropped 280x over two years.
+
+Enterprise AI spend went up 320% in the same period.
+
+That's not a paradox. That's the agentic loop.
+
+Here's what's happening:
+
+Cheaper tokens don't reduce AI bills — they increase usage. When you move from "one AI call per user action" to agentic workflows doing 10-20 LLM calls per task, the economics flip entirely. Your bill doesn't go down. Your bill goes up, just with more output.
+
+The average Fortune 500 AI budget went from $1.2M/year in 2024 to $7M in 2026. Monthly inference bills are hitting tens of millions at the largest deployments.
+
+85% of enterprise AI budget is now inference — not training, not tooling, not talent. Just running models.
+
+This is the real story of enterprise AI in 2026:
+
+The technology is cheap enough to automate almost anything. The operational cost of doing so at scale is still enormous. And 51% of organizations can't confidently tell you what ROI they're getting from AI spend.
+
+That's not a technology problem. It's a unit economics problem.
+
+My take: The companies that win this decade will be the ones that build LLM-efficient architectures — agents that accomplish more per token, not agents that use more tokens to accomplish more.
+
+The first generation of AI products was "can we do this with AI?" The second generation is "can we do this with AI at a unit economics that actually works?"
+
+We're deep in the second generation. Most enterprise AI teams don't know it yet.
+
+Token prices fell 280x. Are you 280x better at deciding which tasks actually need an LLM?

@@ -1,0 +1,59 @@
+Vapi just hit 1 billion calls and raised $50M at a $500M valuation.
+
+Amazon Ring routes 100% of its inbound calls through Vapi. New York Life. Intuit. ServiceTitan.
+
+Voice AI crossed the enterprise adoption threshold. Thread on what this means for the contact center industry.
+
+---
+
+1/ The milestone that matters: 1 billion calls.
+
+Not demo calls. Not pilot calls. Production enterprise calls.
+
+Amazon Ring beat 40 rivals to choose Vapi. That's not a preference — that's a vendor selection process with procurement, security review, and legal. Enterprise-grade adoption.
+
+---
+
+2/ The numbers that don't get reported:
+
+AI handles calls at $0.40/call vs $7-12 for a human agent. That's a 17-30x cost differential.
+
+But here's the catch: only 5-10% of contact centers have actually deployed AI at scale. 90% are sitting on technology that could pay for itself in months and aren't using it.
+
+Why? Same reason as agent governance failures: deployment complexity, not technology.
+
+---
+
+3/ What's actually happening in enterprise contact centers right now:
+
+— AI cuts case handling time by ~50% through automated intake
+— Post-call wrap-up drops ~30% with automated summaries and CRM updates
+— The ROI case is closed. Measured. Documented.
+
+88% of enterprise AI pilots fail before production (Gartner). Contact center AI is the same.
+
+The problem isn't whether AI works. It's whether your org can deploy it.
+
+---
+
+4/ What Vapi's raise tells you about where the market is going:
+
+$50M at $500M valuation from Peak XV, Microsoft's M12, Kleiner, and Bessemer.
+
+Infrastructure investors don't lead rounds in "maybe this works" markets. They lead when the technology is proven and the infrastructure layer hasn't consolidated yet.
+
+Voice AI infrastructure is consolidating. The platforms that win now will own enterprise contracts for 5-10 years.
+
+---
+
+5/ The Ender Turing angle:
+
+We've been building in this space since 2018. Speech analytics, QA automation, real-time conversation intelligence.
+
+The thing I've watched happen: every year, the "proven ROI" evidence base gets stronger, and the "adoption rate" number barely moves.
+
+The opportunity in 2026 isn't building better AI for contact centers. The AI is good enough. It's building better deployment, integration, and change management processes.
+
+The billion-call milestone means the technology works. The next billion depends on whether enterprises can actually operationalize it.
+
+That gap — between proven and deployed — is where the real work is.

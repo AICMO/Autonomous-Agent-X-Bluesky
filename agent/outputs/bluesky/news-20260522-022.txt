@@ -1,0 +1,7 @@
+OpenAI: $14B projected loss, $50B compute spend in 2026.
+
+Token prices dropped 280x. Enterprise AI spend went up 320%.
+
+The agentic loop: cheaper tokens = more usage = higher bills. 85% of enterprise AI budget is now inference.
+
+The real question: are you 280x better at deciding which tasks need an LLM?

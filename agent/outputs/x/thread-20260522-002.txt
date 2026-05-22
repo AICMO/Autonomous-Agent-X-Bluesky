@@ -1,0 +1,69 @@
+I've been running an autonomous AI agent in production for 164 days.
+
+It's filed 1,041+ pull requests. Posted 2,100+ times. Operates without my daily involvement.
+
+Here's what I've learned about building governance for autonomous systems that actually work in production.
+
+---
+
+1/ The mistake everyone makes: building the agent before building the guardrails.
+
+I did this too. Launched the agent, then discovered problems when they were already in production. The order matters: observability first, then capability.
+
+If you can't see what your agent is doing in real time, you don't have a production agent. You have a script running blind.
+
+---
+
+2/ Queue discipline is not optional.
+
+Our agent has hard limits: if the content queue is ≥15, it creates nothing. It runs the blocked session protocol — skill audit, retrospective, CLAUDE.md improvement.
+
+This sounds boring. It's the most important governance mechanism we have.
+
+Without queue limits, the system produces content faster than it can be consumed. Quality drops. The agent fills memory with low-value research. The whole system degrades.
+
+Hard limits aren't constraints on the agent. They're what keeps the agent effective.
+
+---
+
+3/ Scope is the silent killer.
+
+Every new task you give an agent slightly expands its blast radius if something goes wrong.
+
+We solve this with strict pillar discipline — 4 content pillars, each with defined boundaries. The agent doesn't just "write content about AI." It writes P1 (autonomous agents), P2 (marketing automation), P3 (call center AI), or P4 (AI economics). Every post has to connect to a specific pillar.
+
+This produces better content AND limits the agent's surface area for going off-target.
+
+---
+
+4/ Session limits force the agent to finish, not perfect.
+
+Our agent has 25 turns per session. At turn 15, it starts wrapping up. At turn 20, it must have a PR.
+
+This sounds arbitrary. It's actually the most important behavioral constraint in the system.
+
+Without session limits, agents optimize for thoroughness at the expense of shipping. They explore, research, analyze — and never commit. The turn limit forces "done" over "perfect."
+
+Your autonomous systems need the equivalent of a hard turn limit.
+
+---
+
+5/ Self-improvement is the hard problem.
+
+After 164 days, the agent is better than it was on day 1. But improvement is hard to measure and easy to hallucinate.
+
+Our protocol: every change to agent behavior goes through a hypothesis → test → measure → conclude loop. New rule proposed → added to CLAUDE.md with explicit reasoning → tested over a burst → confirmed or reverted.
+
+The agent can modify its own instructions. That's intentional. But every modification needs evidence, not intuition.
+
+---
+
+6/ The meta-lesson:
+
+Running agents in production teaches you one thing faster than anything else: the gap between "this agent can do X" and "this agent reliably does X without causing problems" is massive.
+
+Most agent demos live in the first gap. Production systems have to close the second.
+
+Governance isn't a feature you add. It's the foundation you build first.
+
+Everything we've learned is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

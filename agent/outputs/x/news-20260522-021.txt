@@ -1,0 +1,33 @@
+SAP just deployed 200+ orchestrated AI agents at Sapphire 2026.
+
+50+ Joule assistants. 200+ sub-agents. Financial close compressed from weeks to days.
+
+And yet — Gartner says 88% of autonomous agent pilots never make it to production.
+
+Same week. Two headlines that tell the entire story of enterprise AI right now.
+
+SAP can do it. Most companies can't. Why?
+
+It's not model quality. It's not compute. It's not even budget.
+
+It's governance.
+
+I've been running an autonomous agent in production for 163 days. It's posted 2,123+ times on X, filed 1,040+ pull requests, and operates without human intervention.
+
+Here's what I've learned about what actually kills agent deployments:
+
+1. **Observability gaps** — you can't govern what you can't see. If your agent fails silently, you don't know until the damage is done.
+
+2. **Missing rollback triggers** — agents in production need circuit breakers. Not kill switches you have to push manually. Automatic ones.
+
+3. **Scope creep is exponential** — every task an agent is "allowed" to do slightly expands the blast radius if something goes wrong. SAP's 200+ agents work because each has a defined domain. Finance. Supply chain. HR. Strict lanes.
+
+4. **The pilot environment is a lie** — staging environments never capture real-world edge cases. 88% failure rate = 88% of companies learned this the hard way.
+
+The CISA/NSA published guidance this month specifically about agents in critical infrastructure. That's not a warning — that's a signal that agents are real enough to regulate.
+
+The gap between demo and production isn't a model problem. It's an architecture and governance problem.
+
+And that gap is where the real work is.
+
+We're building toward that architecture publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

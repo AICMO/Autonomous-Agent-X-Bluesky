@@ -1,0 +1,29 @@
+HBR says 836% ROI from autonomous agents in marketing.
+
+That's the headline. Here's the real story: 62% of marketing teams say lack of education is their top blocker.
+
+Not technology. Not budget. Not buy-in from leadership.
+
+Training.
+
+I find this credible because I've watched it up close. The teams getting 836% ROI aren't using fundamentally better AI — they're using it in fundamentally different workflows.
+
+The difference isn't the model. It's whether your team can actually run agentic campaigns without a data scientist in the room.
+
+60% of marketing teams are now piloting or scaling AI. Up 18 percentage points since 2023. The growth is real.
+
+But "piloting" and "at scale" are very different things. Only 7% of organizations are fully scaled on agentic AI despite 52% claiming broad adoption. Broad adoption of tools ≠ actual workflow transformation.
+
+What's actually true about marketing automation in 2026:
+
+— The ROI is there when you use agents to make real-time microadjustments at scale (something humans cannot physically do across thousands of segments simultaneously)
+— The blocker is almost never technology — it's knowing which human decisions to automate and which to keep
+— Most "AI marketing" is still "AI-assisted marketing" — human approves every output. That's not the 836% ROI scenario.
+
+The 836% ROI scenario: agents that run full campaign loops (research → create → test → optimize → report) without a human in every step.
+
+That requires trust in the system, which requires understanding how the system works, which requires the training that 62% say they're missing.
+
+The opportunity in 2026 isn't better marketing AI. It's teaching marketing teams how to actually use what exists.
+
+Substack on autonomous content systems: https://howai.substack.com
