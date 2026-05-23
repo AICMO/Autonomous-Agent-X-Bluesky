@@ -1,0 +1,21 @@
+54% of enterprises have integrated AI agents into core operations as of mid-2026.
+
+Not "piloting." Not "evaluating." Core operations: executing workflows, processing documents, monitoring compliance, coordinating decisions across business functions.
+
+80% of those enterprises report measurable economic benefits — cost savings, faster throughput, lower headcount growth per unit of output.
+
+That's a real number. But here's the other number nobody leads with:
+
+80% of organizations lack visibility into how their AI operates within daily workflows.
+
+So: most enterprises that deployed AI agents can't fully see what those agents are doing. They know the output metrics are up. They don't know the process in between.
+
+This is where the economics get interesting. The ROI case is clear. The governance case is not.
+
+$600 billion in AI agent investment in 2026. Most of it went into building agents. Very little went into watching them.
+
+The enterprises that figure out observability — audit trails, rollback, scoped permissions, real-time monitoring — will have a structural advantage over the ones that don't. Not because they have better AI. Because they can trust what their AI is actually doing.
+
+Dev teams using AI agents report 30-60% productivity gains. Contact centers are seeing 20-40% call containment. These numbers are real. The next layer of gains comes from governance, not more agents.
+
+My take: we're one year into the deployment phase. The next two years are the governance phase. Watch which vendors move from "run agents" to "run agents safely" — that's where enterprise consolidation happens.
