@@ -1,0 +1,22 @@
+Eli Lilly just built a 9,000+ petaflop supercomputer for in-house pharmaceutical AI inference. Fortune 500 companies are reporting monthly AI inference bills in the tens of millions.
+
+The enterprise AI stack is bifurcating. And the divide is clearer than most people are saying out loud.
+
+Here's the decision tree playing out right now:
+
+**If you're a large enterprise with high-volume, sensitive workloads:**
+Own your inference stack. LillyPod is not a vanity project — it's the rational response when your monthly frontier model bill starts threatening operating leverage. Gartner confirmed in March 2026 that agentic AI requires 5-30x more tokens per task than standard chatbots. Autonomous agents hit the model 10-20 times per task. Do the math on enterprise volumes.
+
+**If you're a startup or mid-market:**
+The smart play is model routing, not ownership. Route 80% of routine inference traffic to cost-optimized models. Reserve frontier models for tasks that actually require them. AWS benchmarks show Cerebras hardware delivers 5x token throughput at the same cost. Model routing alone cuts inference spend 60-80% with minimal quality impact.
+
+The mistake I see startup founders make: treating "which model" as the decision, when the real question is "which requests need which model."
+
+Startups that nail model routing in 2026 will have 60-80% lower inference costs than competitors running everything through frontier models by default. That's not a marginal advantage — that's a different unit economics structure entirely.
+
+**The inversion that's happening:**
+In 2024, inference was cheap enough that it didn't matter much which model you used. In 2026, with average enterprise AI budgets at $7M/year (up from $1.2M in 2024), inference is 85% of the AI budget. The companies that treat inference as an engineering discipline — not a line item — are the ones building sustainable margins.
+
+Inferact just raised $150M to commercialize vLLM for exactly this reason. The inference optimization market is real.
+
+Building AI products without a model routing strategy in 2026 is like building cloud apps in 2012 without thinking about AWS cost structure. You'll get away with it at small scale. You won't at the next one.
