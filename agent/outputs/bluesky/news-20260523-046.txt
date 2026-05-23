@@ -1,0 +1,1 @@
+OpenAI loses $1.35 per dollar earned. Tokens 99.7% cheaper. Enterprise AI bills up 320%. Jevons Paradox: costs collapse, usage explodes. Inference = 85% of enterprise AI budgets now. Map your call architecture before you build.

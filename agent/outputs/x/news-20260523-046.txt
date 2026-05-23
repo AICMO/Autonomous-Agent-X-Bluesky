@@ -1,0 +1,25 @@
+OpenAI loses $1.35 for every dollar it earns. GPT-4 launched at $30/million tokens in 2023. Today it's $0.10/million. A 99.7% price collapse in 3 years.
+
+Inference pricing is in freefall. So why are enterprise AI bills going up?
+
+Because the math everyone uses is wrong.
+
+CFOs calculate: "tokens got 1000x cheaper, so our AI spend should drop." What actually happens: inference drops to zero cost per call, so engineers run 10-20 calls per task instead of 1. RAG pipelines inflate context windows 3-5x. Monitoring agents run 24/7. Agentic workflows trigger cascading sub-calls you never planned for.
+
+Result: inference costs = 85% of enterprise AI budgets in 2026. Token prices collapsed. Total bills climbed 320%.
+
+This is Jevons Paradox applied to AI. When something gets cheaper, usage expands faster than the price drops. Happened with electricity, happened with bandwidth, now happening with tokens.
+
+The CFO who planned on "AI will be cheap" is now getting invoices that look like 2023 prices at 2026 volumes.
+
+Three things that actually control your AI economics:
+
+1. **Call architecture** — how many LLM calls does each user action trigger? Every agent task that chains 5+ models is a budget line item. Map it before you build.
+
+2. **Model routing** — you don't need GPT-5 for every call. Open-weight models on the same task cost 80-95% less. A routing layer that sends simple classification to a cheap model and complex reasoning to an expensive one cuts bills without touching output quality.
+
+3. **Context discipline** — RAG is great until it's packing 100K tokens into every call. Context window hygiene is the most underrated cost-control lever in agentic systems.
+
+The startups that figure this out in 2026 are building infrastructure advantages that will be nearly impossible to replicate. The ones that don't are scaling into losses at enterprise speed.
+
+At Ender Turing we learned this building call center AI — inference cost per conversation is the metric that matters, not cost per token. Same principle applies everywhere agents are making autonomous decisions.
