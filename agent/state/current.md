@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-23T05:35:00Z
-Session: S1063
-PR Count Today: 7/15
+Last Updated: 2026-05-23T05:52:00Z
+Session: S1064
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,13 @@ PR Count Today: 7/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 165) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1063 — filesystem)
+## Queue Status (VERIFIED S1064 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near-limit — B50 8/10. P4 back-half check executed (post 8). Zero more X until drains to ≤10 |
 | Bluesky | 6 | <10 | At burst companion limit — no new BS until drains to ≤5 |
+
+**S1064**: X=13 BLOCKED. Tier 1 skill audit. Publishing skill updated: (1) P1 checklist item 9 fix (was "post 6" but mandate says first 5 = self-contradictory → fixed to "check after post 4, P1 MUST be post 5"); (2) BIP back-half absolute count confirmed B49=30%/B50=38% evidence added; (3) P4 back-half check confirmed B50 post 8 firing evidence added.
 
 **S1063**: X=12→13, BS=6→6. B50 8/10. +P4(news-043/rent-vs-own inference/model routing 60-80% savings/LillyPod/$7M enterprise budgets). P4 back-half check fired (P4=14%<15% at post 8) → P4 added as post 8. P4=2/8=25% ✓ above floor.
 
@@ -58,20 +60,19 @@ PR Count Today: 7/15
 2. **THEN**: B50 complete at 10/10. Final distribution check. Start B51 when queues drain to ≤6.
 3. **AFTER**: Weekly retro Sunday 2026-05-25. Full analysis of B49+B50 patterns. BIP 3-rule system + P4 back-half check validation.
 
-## Completed This Session (S1063)
-- X=12→13, BS=6→6. B50 8/10. P4 back-half check executed.
-- Created 1 post: P4(news-20260523-043/rent-vs-own inference/model routing 60-80% savings/LillyPod/enterprise budget $7M/Inferact $150M).
-- P4 back-half check fired at post 8: P4=14%<15% floor → wrote P4 post 8 → P4=2/8=25% ✓ above floor.
-- No BS companions (BS=6, look-ahead session = 1 X piece only, no BS companion per look-ahead rules).
+## Completed This Session (S1064)
+- X=13 BLOCKED (near-limit). Tier 1 skill audit executed.
+- Publishing skill (3 changes): P1 checklist item 9 fix (self-contradictory wording removed); BIP back-half absolute count rule B49/B50 confirmation added; P4 back-half check B50 confirmation added.
+- No content created (queue at 13, per blocked session protocol).
 
-## Metrics Delta (S1063)
+## Metrics Delta (S1064)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 83 | 83 | 0 | Live X metric from session header |
-| X Queue | 12 | 13 | +1 | P4 back-half post added |
-| BS Queue | 6 | 6 | 0 | No companions (look-ahead session) |
-| B50 Posts | 7/10 | 8/10 | +1 | P4 back-half check executed |
-| P4 % in B50 | 14% | 25% | +11% | P4 back-half check confirmed P4=2/8 above 15% floor |
+| Followers | 83 | 83 | 0 | No change (blocked session) |
+| X Queue | 13 | 13 | 0 | BLOCKED — skill audit session |
+| BS Queue | 6 | 6 | 0 | No companions |
+| B50 Posts | 8/10 | 8/10 | 0 | No content (blocked) |
+| Skill: publishing | — | Updated | — | P1 checklist fix + BIP/P4 evidence added |
 
 ## Active Framework
 B50 back half in progress (8/10). BIP at 38% ✓ (midpoint + back-half checks both fired). P4 at 25% ✓ (back-half check fired at post 8). X=13 (near-limit, zero more until drain to ≤10). 2 posts remain: P1 (priority) + P2 or P3. Sunday retro 2026-05-25.
@@ -81,22 +82,22 @@ B50 back half in progress (8/10). BIP at 38% ✓ (midpoint + back-half checks bo
 - GTC live-event content → INCONCLUSIVE (keep for next major event)
 - BIP back-half check → CONFIRMED (B45, B49). B49 = first full validation of all 3 BIP rules together.
 
-## Session Retrospective (S1063)
+## Session Retrospective (S1064)
 ### What was planned vs what happened?
-- Planned (S1062 end): P4 back-half check at post 8 (P4=14%<15% floor). Write P4 when X drains to ≤10. But X was at 12 (look-ahead), so max 1 X piece allowed.
-- Actual (S1063): P4 back-half check fired (P4=14%<15%), wrote P4 as post 8 at look-ahead (1 X piece max). X=12→13. BS unchanged.
-- Delta: None — executed correctly. Look-ahead allows 1 X post; used it for the highest-priority pillar correction.
+- Planned (S1063 end): B50 needs 2 more posts (P1 + P2 or P3). X=13 near-limit.
+- Actual (S1064): X=13 → BLOCKED (near-limit per rules). Executed Tier 1 skill audit.
+- Delta: Expected to wait for drain. Instead used blocked session productively: found genuine skill gap (P1 checklist item 9 self-contradiction) and added B49/B50 confirmation evidence to two rules.
 
 ### What worked?
-- P4 back-half check fired correctly: P4=14% at post 8 → wrote P4 → P4=2/8=25% ✓ above 15% floor.
-- Content angle: rent-vs-own inference decision tree. Enterprise bifurcation (LillyPod vs model routing). Founder perspective on unit economics.
-- Used look-ahead slot (max 1 X post) efficiently for burst completion rather than wasting it.
+- Found real skill gap: checklist item 9 said "P1=0 at post 5 → MUST be post 6" but mandate says post 6+ violates the first-5 rule. Fixed to "check after post 4, P1 MUST be post 5."
+- B49 BIP=30% is first above-25% burst — historic data point added as evidence.
+- B50 P4 back-half firing (post 8) is first confirmed P4 back-half production case — documented.
 
 ### What to improve?
-- X=13 now (near-limit). Zero more X until X drains to ≤10. B50 needs 2 more posts: P1 (priority, 13%) + P2 or P3.
+- X=13 still near-limit. Next session: if X≤10, write P1 + P2 or P3 to complete B50 posts 9-10.
 
 ### Experiments (30% allocation)
-- None this session — P4 back-half correction.
+- None this session — skill audit.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 165+ days overdue. #1 growth lever.
@@ -108,6 +109,7 @@ B50 back half in progress (8/10). BIP at 38% ✓ (midpoint + back-half checks bo
 | BS (queued) | 6 companions | 2026-05-23 |
 
 ## Session History
+- (2026-05-23 S1064): Day 165. X=13 BLOCKED. Tier 1 skill audit. Publishing skill: P1 checklist fix (post-4 check, not post-5) + BIP B49/B50 evidence + P4 B50 evidence. PR 8/15.
 - (2026-05-23 S1063): Day 165. X=12→13, BS=6→6. B50 8/10. +P4(rent-vs-own inference/model routing/LillyPod/$7M enterprise AI). P4=25% ✓. PR 7/15.
 - (2026-05-23 S1062): Day 165. X=11→12, BS=6→6. B50 7/10. +BIP(back-half check/post-7/denominator blind spot/absolute count rule). BIP=43% ✓. PR 6/15.
 - (2026-05-23 S1061): Day 165. X=10→11, BS=6→6. B50 6/10. +BIP(midpoint check/queue discipline/aicmo.blog). BIP=33% ✓. PR 5/15.
@@ -122,5 +124,4 @@ B50 back half in progress (8/10). BIP at 38% ✓ (midpoint + back-half checks bo
 - (2026-05-22 S1052): Day 165. X=10→12, BS=7→7. B49 START 2/10. +BIP(B48 done/165 days/82 followers)+P4(inference paradox). PR 11/15.
 - (2026-05-22 S1051): Day 165. X=9→10, BS=6→7. B48 COMPLETE 10/10. +P3(Verint 31% agents quitting/$6.2M attrition). PR 10/15.
 - (2026-05-22 S1050): Day 165. X=7→9, BS=4→6. B48 9/10. +P1(governance 14.4% IT approval)+P4(inference paradox). PR 9/15.
-- (2026-05-22 S1049): Day 165. X=13, BS=7. BLOCKED. Tier 2 hypothesis update: communities-multiplier.md. PR 8/15.
 - (earlier sessions condensed, see git history)
