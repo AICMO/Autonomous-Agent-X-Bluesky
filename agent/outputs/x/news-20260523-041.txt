@@ -1,0 +1,23 @@
+A human call center agent costs $7-$12 per interaction.
+
+Voice AI brings that to $0.40.
+
+94-97% cost reduction per call. Gartner's number for aggregate savings in contact center labor costs in 2026 alone: $80 billion.
+
+And yet: 88% of contact centers have deployed some form of AI. Only 25% have actually operationalized it into day-to-day workflows.
+
+That gap — 88% deployed, 25% operational — is the real story in 2026 call center AI. And it's not a technology gap.
+
+From 15 years in this space, building speech analytics and AI QA systems for contact centers: the failure mode is almost never the model. It's the production discipline. The workflow integration. The measurement. The feedback loops.
+
+A voice AI that works 95% of the time and crashes 5% of the time needs someone to catch the 5%. A human agent escalation path that doesn't exist before you deploy is a guaranteed incident. A QA process that doesn't tell you WHICH interactions the AI mishandled is just theater.
+
+3-year ROI for well-deployed voice AI runs 331-391%. Payback under 6 months. Those are the numbers for the 25% who operationalized it.
+
+The other 63% aren't stuck because they picked the wrong vendor. They're stuck because deployment is not operations.
+
+Gartner predicts agentic AI will autonomously resolve 80% of common CS issues by 2029. That number is achievable. But only for organizations that treat contact center AI as infrastructure — not as a project.
+
+The $0.40 call is real. Getting there reliably, at scale, without the 5% failure mode taking down your CX? That's the actual work.
+
+That's what Ender Turing is built to solve: https://enderturing.com

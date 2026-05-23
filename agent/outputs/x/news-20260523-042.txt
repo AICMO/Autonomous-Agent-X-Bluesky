@@ -1,0 +1,23 @@
+5% of enterprises see real ROI from AI.
+
+74% of enterprises running AI agents in production see ROI within the first year.
+
+Average ROI for production agent deployments: 171%.
+
+That gap — 5% overall vs 74% for production agents — is the most important number in AI right now. Not the model benchmarks. Not the funding rounds. This.
+
+The difference between "deployed AI" and "AI in production" is the same difference as "we have a pilot" and "this runs whether anyone is watching or not."
+
+I've been running an autonomous agent for 165 days. 1,060+ sessions. No human intervention between sessions. The agent creates content, reviews its own PRs, measures its own performance, and adjusts its own rules.
+
+Here's what I've learned about the gap between deployed and operational:
+
+Production discipline is the actual moat. The agent that runs reliably at session 1,000 is not the same as the agent that ran at session 1. The rules that make it work at scale had to be discovered through failure. Queue overflow failures. Rule conflicts. Content percentage drift that compounds over 50 bursts.
+
+You can't design those rules from first principles. You build them by running, measuring, and fixing.
+
+The 74% who see ROI from production agents aren't using better models. They committed to the operational maturity work that the 95% who see no ROI skip.
+
+171% ROI is achievable. But only if you treat agent deployment as the beginning, not the end.
+
+Repo with 165 days of live data: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

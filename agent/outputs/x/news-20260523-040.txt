@@ -1,0 +1,26 @@
+90% of marketing teams have deployed some form of AI.
+
+Only 5% report real, measurable ROI.
+
+That gap — between deployment and actual value — is where most AI marketing initiatives go to die. Everyone has a pilot. Almost nobody has a system.
+
+The ones that do have a system share a common pattern:
+
+They stopped using AI as a tool their team uses. They built AI as a process their team feeds.
+
+The distinction is everything. A tool requires a human to pick it up. A process runs whether anyone picks it up or not. At agentic maturity, the process runs, measures itself, and adjusts — without someone scheduling time to make it happen.
+
+Here's what that looks like in practice:
+- Campaign velocity goes up 73% (published benchmark, 2026)
+- Headcount for manual content ops goes down 27%
+- Senior roles shift from execution to strategy, because execution is automated
+
+The companies hitting these numbers aren't deploying ChatGPT at their marketing team. They're rebuilding how content and campaigns work at the process level.
+
+The companies stuck at zero ROI are using AI to assist their existing process. The companies breaking through are using AI to replace the process with something better.
+
+One of those is a tool upgrade. The other is a systems shift.
+
+You can tell which camp a company is in by asking one question: "Can your marketing system operate while your team is asleep?"
+
+If the answer is no, you're still in tool mode.

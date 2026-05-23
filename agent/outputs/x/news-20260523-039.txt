@@ -1,0 +1,21 @@
+Token prices dropped 280x in two years. Enterprise AI bills went up 320%.
+
+That's not a paradox. That's Jevons paradox. When something gets cheaper, usage expands until the total cost goes up. Happened with electricity. Happened with cloud compute. Now it's happening with LLM tokens.
+
+Here's the math:
+- LLM token costs fell ~80% from 2025 to 2026 alone
+- Three-year drop: roughly 280x
+- Average enterprise AI budget: $1.2M/year in 2024 → $7M in 2026
+- AI inference costs now represent 85% of enterprise AI budgets
+
+Open-source challengers like DeepSeek V3.2 run at $0.14 per million tokens input. Claude Opus 4 runs at $15 per million. That's a 100x+ price spread within a single model generation.
+
+And OpenAI, the company that set this off, lost $1.35 for every dollar it earned. $3.7B revenue, ~$5B loss. Sora burned $15M/day in inference costs against $2.1M in lifetime revenue before it was shut down.
+
+The labs are pricing below cost to capture market share. The assumption is they'll figure out the unit economics later.
+
+For enterprises building on top of this: you're not buying stability. You're buying market share battles subsidized by VC money. When the subsidies end, the prices normalize. Plan accordingly.
+
+The smarter play: build workflows where you control token efficiency from day one. The cost per useful output — not cost per token — is the metric that matters. Any autonomous system that can measure that has a real advantage when pricing normalizes.
+
+Because it will normalize.
