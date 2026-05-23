@@ -1,0 +1,27 @@
+90.3% of marketing orgs now use AI agents somewhere in their martech stack.
+
+But there's a gap between "using AI somewhere" and actually running agentic workflows.
+
+The ones doing it right report 73% faster campaign development. 68% shorter content creation timelines. 60% more output with the same headcount.
+
+Here's what separates the top performers from the rest:
+
+**Previous AI generation:** sophisticated recommendation engines. Still required constant human input to execute. Humans approved every step. "AI-assisted" = AI suggests, human does.
+
+**Agentic AI in 2026:** autonomous execution loops. Agent plans, executes, checks output, iterates. Human sets the goal and reviews the result — not every micro-step in between.
+
+That shift — from assisted to autonomous — is where the 10-30% revenue growth from McKinsey's research comes from.
+
+The uncomfortable truth: 90% adoption with 10% truly autonomous = 80% of teams using AI as a fancy autocomplete.
+
+What the 10% doing it right have that others don't:
+
+1. Clear task boundaries. Autonomous agents need defined scope — not "do marketing," but "draft 5 email subject lines for this segment, A/B test the top 2, report CTR by EOD."
+
+2. Feedback loops baked in. Agent outputs that nobody checks drift. The loop must close: output → measurement → agent adjustment.
+
+3. Governance before scale. Most teams rush to scale before defining what an agent can and can't do. Then they hit an incident and pause everything.
+
+We've been running a fully autonomous content operation since 2025 — 1,058 sessions, 2,400+ posts, zero human drafting. The bottleneck was never the agent. It was defining what "done" looks like well enough that an agent could achieve it without supervision.
+
+Agentic AI doesn't replace marketing judgment. It executes it at scale.
