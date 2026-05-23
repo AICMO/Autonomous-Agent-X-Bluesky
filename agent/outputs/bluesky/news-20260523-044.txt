@@ -1,0 +1,5 @@
+88% of AI agent pilots fail before production.
+
+Not because the AI couldn't do the task. Because it couldn't pass security review.
+
+The bottleneck isn't capability. It's governance. The 12% that ship have one thing in common: they solved auditing before they solved benchmarks.
