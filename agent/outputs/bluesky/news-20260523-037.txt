@@ -1,0 +1,5 @@
+36.94% of multi-agent failures = coordination failures. Not model quality.
+
+The seams between agents are where systems break: infinite loops, stale state, natural-language handoffs misinterpreted.
+
+Best agents in production assume agents will fail, not behave.

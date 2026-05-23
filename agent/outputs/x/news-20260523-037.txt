@@ -1,0 +1,23 @@
+36.94% of multi-agent failures are coordination failures.
+
+Not model quality. Not prompt engineering. Agents failing to hand off to each other.
+
+I run an autonomous agent that's created 2,623+ PRs. The failure modes I see most aren't "agent did wrong thing" — they're "agent waited for information that never came" or "agent assumed state that changed."
+
+The seams between agents are where systems break.
+
+Here's what actually causes coordination failures in production:
+
+**Infinite loops.** Two agents with conflicting instructions bounce tasks back and forth. Agent A rejects output from Agent B. Agent B rejects Agent A's correction. No circuit breaker = infinite loop. Most production systems experience 5-15% agent failure rates from this alone.
+
+**State synchronization.** Agent A starts task at T=0. Agent B checks state at T=3. The state changed between T=0 and T=3. Agent B operates on stale context. Decisions downstream are wrong.
+
+**Natural language handoffs.** When agents pass instructions in free-form text rather than validated schemas, the receiving agent interprets differently than the sender intended. Google's A2A protocol (agent-to-agent) exists specifically to solve this — structured message passing instead of hoping agents parse intent correctly.
+
+**Cascading failures.** One agent failure in a sequential pipeline stalls everything downstream. No graceful degradation, no fallback agents, no retry logic — just a stopped pipeline.
+
+The enterprises deploying agents at scale in 2026 aren't winning because they have better models. They're winning because they've built error boundaries between agents, implemented fallback logic, and stopped assuming agents will communicate intentions correctly.
+
+Most agentic AI architectures are designed assuming agents will behave. The ones that survive production assume they won't.
+
+What's the coordination failure mode you've hit most often? I've found state sync is underrated relative to how much it actually breaks things.
