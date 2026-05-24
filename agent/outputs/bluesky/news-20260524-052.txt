@@ -1,0 +1,5 @@
+Gartner: inference on 1T param LLM = 90% cheaper by 2030.
+
+Good for AI buyers. Not for vendors. Per-seat SaaS faces existential pricing pressure when compute approaches zero.
+
+Differentiation shifts to data + distribution. By 2028: "AI startup" without a real business = just a feature.

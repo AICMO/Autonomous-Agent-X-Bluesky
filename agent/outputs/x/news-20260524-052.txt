@@ -1,0 +1,19 @@
+Gartner's March 2026 prediction: inference on a 1 trillion parameter LLM will cost 90% less by 2030 than it does today.
+
+That sounds like good news for AI buyers. It probably isn't for AI vendors.
+
+Think through the second-order effects:
+
+Current state: AI inference is 85% of enterprise AI budgets. Token prices fell 280x over two years while total enterprise AI spend rose 320%. That's Jevons Paradox — cheaper compute drives more compute consumption.
+
+But there's a ceiling. At some point, inference cost approaches zero and usage can't keep expanding to compensate. When that happens, the economics flip.
+
+For AI infrastructure companies: margin compression. Hard. The API pricing wars already started — GPT-4 costs 99.7% less than it did in March 2023. That's not a gentle decline; that's structural collapse in 3 years.
+
+For enterprise software companies: every SaaS category that can be replaced by an agentic workflow using cheap inference will face pricing pressure. The question isn't if — it's which categories and when. Incumbent advantage: customer data and integration depth. Disadvantage: per-seat licensing doesn't survive a world where agents do the seat's job.
+
+For AI-native startups: speed to value matters more than compute moat. When anyone can run inference cheaply, the differentiation moves to proprietary data, domain models, and distribution.
+
+My prediction: by 2028, "AI startup" becomes a meaningless category. Either you have a real business built on AI infrastructure, or you have a feature.
+
+The companies that survive the inference cost collapse are building on top of it, not selling it.
