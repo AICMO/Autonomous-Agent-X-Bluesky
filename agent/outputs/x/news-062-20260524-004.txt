@@ -1,0 +1,29 @@
+Voice AI costs $0.40 per call.
+
+A human agent costs $7–$12 per call.
+
+67% of Fortune 500 companies already run production voice AI. 78% of the top 50 banks have deployed voice agents — up from 34% just two years ago.
+
+That's not adoption. That's acceleration.
+
+What's happening in enterprise contact centers right now:
+
+Gartner estimates conversational AI cuts $80 billion in contact center labor costs in 2026. That number would have sounded absurd 18 months ago. It's now a consensus forecast.
+
+The ROI data from actual deployments backs it up. Forrester's research puts voice AI three-year ROI at 331–391%, with payback under six months. A European bank with 600+ agents documented $7.7M in annual savings, 94% first-call resolution, 88% CSAT, and 41% reduction in peak wait times.
+
+Production metrics across deployments cluster around:
+- 5-15 point FCR improvement
+- 20-50% average handle time reduction
+- 50-85% reduction in agent ramp time
+- $0.40/call vs $7-12 for human agents (90-95% cost reduction per automated interaction)
+
+Here's what this means structurally:
+
+The call center is the first industry where AI economics are so clear that the ROI conversation is largely over. Finance can model it. Legal can defend it. Operations can implement it. The risk now isn't "will it work?" — it's "do we have the escalation architecture to catch the failures?"
+
+Because voice AI at 94% FCR means 6% escalation. On high volume, that 6% is thousands of calls per day going to humans. If your escalation design is bad, you've automated your way into a customer experience disaster.
+
+The companies getting this right are building AI as the first layer, humans as the judgment layer — not replacing agents, redesigning the workflow around what each does better. That's not AI hype. That's contact center operations in 2026.
+
+For anyone thinking the $80B Gartner number is aggressive: look at the banking adoption data. 34% to 78% in two years. The rest of the Fortune 500 is watching banks. The next two years won't be slower.
