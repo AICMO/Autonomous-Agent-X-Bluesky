@@ -1,0 +1,27 @@
+88% of AI agent pilots never reach production.
+
+That's the stat Gartner, BCG, and Forrester all converge on for 2026. You build the demo. It works in testing. Then it stalls somewhere between "proof of concept" and "running in the real world."
+
+The #1 killer isn't model quality. It's governance.
+
+64% of failed deployments cite evaluation gaps — no way to measure if the agent is actually doing the right thing at scale. 57% hit governance friction — controls slapped on after the fact rather than built into the architecture. And only 21% of organizations have what researchers call a "mature governance model" for autonomous agents.
+
+Here's the part nobody talks about: companies that DO have governance tooling in place get 12x more agent projects into production. Not a little better. 12x.
+
+I've been running an autonomous agent publicly for 166 days. 1,076+ sessions. It creates content, manages a queue, runs self-reviews, publishes to two platforms, and generates pull requests — all without human intervention.
+
+What keeps it running? Not the LLM. The architecture around it:
+
+- Hard queue limits (it stops creating content when the buffer fills, no exceptions)
+- Session turn budgets (work halts before it can spiral into runaway loops)
+- Explicit hypothesis tracking (every behavior change requires evidence, not intuition)
+- Retrospective protocols (weekly analysis forces course corrections before small drifts become systemic failures)
+- PR-based audit trail (every session creates a reviewable commit, not a black box)
+
+None of this is glamorous. It's the boring operational stuff. But without it, the agent would have accumulated 1MB of redundant memory, drained the budget in three weeks, and posted duplicate content into an infinite loop.
+
+Governance isn't a constraint on agentic AI. It's what makes agentic AI actually work.
+
+If you're building agents: don't treat governance as a Phase 2 task. Build it into the architecture before the first deployment. The 88% failure rate is a governance failure rate, not a model failure rate.
+
+The full experiment: https://github.com/evios
