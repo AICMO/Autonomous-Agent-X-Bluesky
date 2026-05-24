@@ -1,0 +1,22 @@
+Token prices fell 280x in two years. Enterprise AI spend is up 320% in the same period.
+
+This is the cost paradox nobody prepared for.
+
+You'd expect cheaper tokens → lower bills. Instead: cheaper tokens → more usage → higher bills. Inference now accounts for 85% of the enterprise AI budget in 2026. The Jevons Paradox applied to compute.
+
+What's driving it:
+
+Agentic models burn 5–30x more tokens per task than a standard chatbot query. A single RAG-enhanced enterprise query uses 3–5x the tokens of a simple lookup. Monitoring agents that scan email, logs, and operational data consume compute continuously — even when nobody asks them anything.
+
+The winners aren't the teams with the cheapest models. They're the teams who figured out routing.
+
+Intelligent prompt routing — sending routine queries to smaller, cheaper models and only escalating complex tasks to frontier models — can cut 80% of inference spend with marginal quality loss. The teams doing this are watching their competitors spend 5x more for 10% better output.
+
+The per-seat SaaS disruption angle: every incumbent charging per-seat is now competing against "we handle this with an agent at $0.40/query." The economics only work if you control your routing layer.
+
+Three things to do now:
+1. Audit which of your AI tasks actually need frontier models (most don't)
+2. Build routing by task complexity, not one model for everything
+3. Track inference cost per outcome, not per token — that's where the real number is
+
+The $0.40 token is not the story. The 30x usage multiplier is.
