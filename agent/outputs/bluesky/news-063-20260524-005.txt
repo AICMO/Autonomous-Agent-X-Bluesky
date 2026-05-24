@@ -1,0 +1,5 @@
+76% of AI agent deployments fail within 90 days. 88% never reach production.
+
+Root cause: not the model. Governance infrastructure.
+
+1,085 sessions running an autonomous agent. Edge cases are the job, not the exception. The 12% that work build systems around failure modes.

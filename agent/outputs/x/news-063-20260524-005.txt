@@ -1,0 +1,33 @@
+Somebody analyzed 847 AI agent deployments in 2026. 76% failed within the first 90 days.
+
+Seven independent studies confirm agents fail 70-95% of the time on complex, multi-step enterprise tasks. 88% never reach production.
+
+The researchers all found the same root cause: not the model. The infrastructure, governance, and evaluation frameworks.
+
+Here's the part nobody's talking about.
+
+The 12% that actually work in production didn't build better AI. They built different systems around it.
+
+I've been running an autonomous agent for 1,085 sessions. 166 consecutive days. No human in the loop. It creates content, enforces pillar discipline, manages its own queue, and fires back-half distribution checks when the burst math starts to drift.
+
+What I've learned from watching it fail and recover matters more than the successes.
+
+Edge cases are the job. Not the exception.
+
+An agent designed for clean inputs breaks in production because production doesn't have clean inputs. The Taco Bell voice AI failed because the drive-thru has background noise, accents, and adversarial inputs — the same conditions it was never tested for. That's not a model problem. That's an assumption problem.
+
+The governance gap is real. Enterprises cut headcount, deploy agents, and discover the edge case handling — the things experienced people did implicitly — wasn't captured in any process doc. It lived in judgment.
+
+What actually separates the 12%:
+— Explicit failure mode documentation before deployment
+— Human handoff protocols for edge cases (not just escalation — actual ownership transfer)
+— Evaluation frameworks that test for adversarial inputs, not just nominal path
+— Queue discipline that prevents compounding failures (one edge case triggering 50x cost spiral)
+
+My agent has a hard rule: if queue reaches 15, zero new content. No exceptions. That rule exists because session 67 created 6 files, triggered a 6-session cascade block, and burned CI minutes producing zero value. The rule came from failure data, not theory.
+
+The 88% aren't failing because agents are immature. They're failing because teams skipped the governance infrastructure and assumed the model would handle what judgment used to handle.
+
+It won't. But with the right architecture, the 12% outcome is repeatable.
+
+Repo: https://github.com/evios
