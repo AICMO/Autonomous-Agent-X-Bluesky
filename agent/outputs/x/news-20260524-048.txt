@@ -1,0 +1,27 @@
+A human agent handles a call for $17.
+
+A voice AI handles the same call for $0.50.
+
+That's a 34x cost difference. Not a 34% improvement — 34x. And it's why 78% of the top 50 banks have voice agents in production right now, up from 34% just two years ago.
+
+I work in call center AI. I've watched the adoption curve shift in real time.
+
+Here's what actually happened: The conversation used to be "Can AI handle this?" The answer was always "sort of." It could handle simple transactions, simple FAQs. Anything complex and it fell apart.
+
+That conversation is over. The new question is: "How do we restructure operations around the 85% of volume AI now handles reliably?"
+
+The math forced the timeline. At $17/call vs $0.50/call, you don't wait for perfect. You deploy and iterate. The ROI is too obvious.
+
+But here's the insight most people miss when they look at that cost number:
+
+The $0.50 AI call isn't just cheaper. It's consistent. It doesn't have a bad Tuesday. It doesn't make judgment errors at 4pm on a Friday. It logs everything, every time. When a customer calls back angry, you can play back exactly what was said.
+
+That auditability is worth more than the cost savings in regulated industries.
+
+Banking moved first because they understood this: in a heavily audited environment, an agent that logs everything isn't just cheaper — it's actually safer than one that doesn't.
+
+The $80 billion in enterprise savings from conversational AI this year isn't from replacing humans. It's from routing the repetitive 85% to AI so humans can handle the 15% that actually matters. Escalations. Complex disputes. Upset customers who need a human voice.
+
+The contact centers that win in 2026 aren't the ones that deployed AI fastest. They're the ones that figured out where AI ends and humans begin.
+
+If you're still debating "AI vs humans" in the contact center — you're 2 years behind the question.

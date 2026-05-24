@@ -1,0 +1,7 @@
+In May 2026 alone: NVIDIA, SAP, Google, ServiceNow, Deel, Cloudflare all launched agentic platforms.
+
+Not agent features. Platforms with governance, orchestration, and enterprise-scale infrastructure.
+
+57% of enterprises already have agents in production. The infrastructure just finalized.
+
+The pilot window is closing.
