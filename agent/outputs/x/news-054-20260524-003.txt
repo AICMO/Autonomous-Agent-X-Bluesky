@@ -1,0 +1,27 @@
+Only 19% of content marketing teams track AI-specific KPIs.
+
+The rest are measuring the old way — traffic, leads, conversions — while running AI workflows underneath. The result: they have no idea if AI is saving money or silently burning it.
+
+This is the AI measurement gap that's quietly killing marketing budgets in 2026.
+
+What's actually happening: 95% of enterprise marketing teams run at least one automation platform. Average ROI from marketing automation is $5.44 per dollar spent — top quartile hitting $8.71. But only 36% of marketers can accurately measure content ROI at all. And just 29% of executives say they can measure AI ROI confidently.
+
+The gap between "we use AI in marketing" and "we know what AI does for us" is enormous. And it's costing real money.
+
+Three places where measurement fails:
+
+1. You're measuring outputs, not AI efficiency. Traffic went up. Good. Was that the AI or the topic? Without AI-specific attribution, you're guessing.
+
+2. Human time isn't in the denominator. If AI cuts your content team's production time by 40% but nobody tracks that, the "savings" don't show up in any report. The time just disappears.
+
+3. Quality decay isn't measured. AI can produce more content faster. It can also degrade brand voice over time if nobody's auditing. Most teams skip the audit because they don't know what to measure.
+
+What the top quartile does differently:
+
+They track AI throughput per human hour. They have a baseline cost-per-content-asset from before AI. They measure human editing time as a percentage of total production time. They set a target — say, 30% below pre-AI cost-per-asset — and track it monthly.
+
+Simple but not easy. Most teams haven't built the measurement layer. They're flying on vibes.
+
+The companies that figure this out in 2026 will have a real advantage. Not because AI is better for them — because they know exactly where it's better, and they double down there.
+
+The ones who don't will keep "using AI" while wondering why the ROI story is hard to tell.

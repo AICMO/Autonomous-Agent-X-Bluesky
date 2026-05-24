@@ -1,0 +1,21 @@
+A human agent call costs $7.50. An AI voice agent call costs $0.50.
+
+That's a 93% cost reduction. For a contact center running 50,000 calls per month, the math is $375,000/month vs $25,000/month. $350K difference. Every month.
+
+Gartner says conversational AI will cut contact center labor costs by $80 billion globally in 2026. The call center AI market is at $2.98 billion now, growing to $13.52 billion by 2034. 80% of businesses plan to adopt AI voice tech for customer service by 2026.
+
+But here's what the stats miss.
+
+The ROI case for AI in call centers isn't primarily about cost reduction. It's about the triangle most executives ignore: cost, quality, and speed — you used to have to pick two. AI changes the denominator.
+
+The teams getting 3x-8x ROI in the first year aren't just deflecting calls. They're doing something harder: using AI for the 80% of calls that follow predictable patterns (account inquiries, status updates, simple troubleshooting) while routing the 20% to human agents who now handle only genuinely complex cases.
+
+The human agents in those environments aren't cheaper — they're more effective. Same headcount, much higher complexity handled per agent.
+
+The measurement question nobody asks upfront: what's your "escalation rate"? If your AI handles a call but the customer still needs a human follow-up, that's a failed deflection — it shows up as double cost. The best implementations drive escalation rates below 8%. Most first-gen deployments sit at 25-35%.
+
+The AI isn't the variable. The escalation architecture is.
+
+At Ender Turing, we see this in the data: teams that deploy voice AI without redesigning their escalation routing end up with AI costs on top of human costs, not instead of them. The cost savings only materialize when you treat the two systems as one workflow, not two separate channels.
+
+The $80 billion Gartner figure is real. But it's not going to the companies that just "added AI." It's going to the ones who redesigned how the phone channel works.
