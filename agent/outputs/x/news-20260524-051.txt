@@ -1,0 +1,18 @@
+CISA, NSA, and cybersecurity agencies from Australia, Canada, New Zealand, and the UK just published joint guidance on agentic AI systems.
+
+The key finding: AI agents are already operating in critical infrastructure with insufficient governance. Not in pilot programs. In production. Right now.
+
+This matters more than it sounds. When five national security agencies coordinate a joint advisory, it means they're seeing real risk at scale — not theoretical exposure. The timing (May 2026) lines up with the explosion of enterprise agent deployments we've seen across the last 6 months.
+
+What the guidance flags specifically:
+- Agents can take real-world actions with financial, operational, and security consequences
+- Identity governance for agents is essentially unsolved — "identity dark matter" now covers 57% of enterprise AI activity
+- Agentic pipelines lack the audit trails that compliance frameworks require
+
+Here's what this means if you're building agents:
+
+The governance gap isn't a future problem. It's a present one. And the window to build compliant architectures before regulation arrives is closing. Frameworks written for human users don't map to agents that spawn sub-agents, call external APIs, and make decisions at machine speed.
+
+My take: the builders who treat agent governance as a first-class design constraint — not a box to check later — will have a meaningful advantage when compliance requirements formally land. The ones who ship fast and assume they'll retrofit governance are going to have a hard 2027.
+
+The security community is watching agent deployments closely. You should probably be watching back.
