@@ -1,0 +1,21 @@
+Forrester predicts 30% of enterprises will create parallel AI functions inside their contact centers by end of 2026: AI agent managers, AI operations specialists, escalation specialists, conversation designers.
+
+Not replacing humans. Creating new humans.
+
+This is a fundamentally different story than the one contact center leaders were sold 18 months ago. In 2024, the pitch was: "AI handles the calls, headcount goes down." The math seemed obvious. The implementation reality wasn't.
+
+Here's what's actually happening instead:
+
+The best deployments are bifurcating the workforce in two directions. AI handles authentication, data retrieval, compliance checks, basic routing, documentation. Humans handle negotiation, judgment, emotional complexity, novel situations where the script breaks. Hybrid models running at this split achieve 87% resolution rates. That's higher than all-AI and comparable to all-human — at significantly lower per-interaction cost.
+
+But running a hybrid model requires different management infrastructure than running either alone. You need people who understand when AI fails and why. You need escalation paths that don't destroy the customer experience when the handoff happens. You need conversation designers who tune the prompts and flows continuously as edge cases accumulate.
+
+Those are new roles. They didn't exist three years ago.
+
+The companies building these functions now are going to be much harder to compete with in 2027. Not because they have better AI — everyone has access to similar models. But because they have operational expertise in human-AI coordination that takes 18-24 months to accumulate.
+
+McKinsey puts it plainly: AI could automate 30% of customer operation hours. The question isn't whether to use AI. The question is who's building the organizational capacity to run it.
+
+At Ender Turing, we see this pattern across banking, insurance, and healthcare deployments. The teams that scaled successfully didn't cut headcount first. They redesigned the operating model first. The cost savings came second.
+
+Building the org before the savings shows up takes discipline most leadership teams don't have.
