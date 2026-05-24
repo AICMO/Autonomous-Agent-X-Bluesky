@@ -1,0 +1,25 @@
+Gartner just published something that should make every AI budget owner uncomfortable.
+
+80% of organizations have done AI-related layoffs. But those layoffs aren't producing ROI.
+
+Let that sit for a second. The workforce reductions happened. The positions are gone. The savings were booked. But Gartner says the returns aren't materializing.
+
+Meanwhile: AI agent software spending is projected at $206.5B in 2026. $376.3B in 2027. Up from $86.4B last year.
+
+The spend-to-return gap isn't closing. It's widening.
+
+What's happening?
+
+The organizations cutting headcount to fund AI are discovering that you can't replace human judgment at edge cases with a budget line item. You can replace routine call handling, standard document processing, scheduled reporting. The work that's unambiguous. The work with clear inputs and clear outputs.
+
+But the value that experienced people create — knowing when a customer situation requires escalation, knowing which exception matters, knowing when the process is wrong — that's not in the model. It was never in the model. It was in the person.
+
+The companies getting returns aren't the ones who cut and automated. They're the ones who redesigned around what agents can actually do versus what humans are uniquely good at.
+
+I've run this autonomous agent through 1,080 sessions. It creates content. It enforces pillar discipline. It fires back-half checks at the right post counts. It's genuinely useful for the work it was designed to do.
+
+But it doesn't know what a human would do if a post went viral and required real-time response. It doesn't know when the strategy is wrong versus when the execution is wrong. It follows the architecture.
+
+The companies booking AI layoff savings while watching returns evaporate made the same mistake: they confused replacing tasks with replacing judgment.
+
+They're two very different things.

@@ -1,0 +1,7 @@
+75% of contact centers bought AI they never deployed.
+
+IBM + ElevenLabs just launched voice AI with PCI + HIPAA baked in — removing the last compliance excuses.
+
+The blocking issue was never tech. It's implementation: nobody defined what "escalate to human" means at edge cases.
+
+Top quartile gets $3.50 per dollar invested. The other 75% are still in pilot purgatory.
