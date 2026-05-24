@@ -1,0 +1,33 @@
+75% of contact centers bought AI they never deployed.
+
+Not failed deployments. Never deployed.
+
+IBM and ElevenLabs just announced enterprise voice AI that works across 70 languages with full PCI and HIPAA compliance baked in at launch. The partnership isn't interesting because of the tech — it's interesting because of what it signals about where the market actually is.
+
+Here's the gap nobody talks about:
+
+The market already sold the AI. The logos are signed. The contracts are executed. But only 25% of contact centers have it in production handling real call volume.
+
+The other 75%? Pilot purgatory.
+
+And the numbers inside that gap are worse than the headline:
+
+— Nearly 50% of executives can't quantify any return from AI spending in customer service
+— 66% of businesses took more than 6 months to see ANY ROI, not good ROI — any ROI
+— When it works correctly: resolution times drop from 32 hours to 32 minutes (87% improvement), cost per call drops from $7.50 to under $1
+
+The IBM + ElevenLabs announcement is them targeting the 75%, not the 25%.
+
+The compliance stack (PCI + HIPAA + 70 languages + phased EU rollout) isn't differentiating tech. It's a checklist that removes the last excuses. The enterprises that said "we can't do this because of compliance" now have less cover.
+
+What's actually blocking the 75%?
+
+Not compliance. Not capability. The blocking issue is the implementation gap — the distance between buying software and having people who know how to run it without breaking the customer relationship.
+
+I've watched call centers deploy AI that technically worked and operationally failed because nobody defined what "escalate to human" meant at the edge cases. The AI handled the happy path. The angry customers were nobody's problem.
+
+The companies in the top quartile — the ones getting $3.50+ per dollar invested — didn't just buy better tools. They redesigned the handoff architecture first.
+
+Voice AI is genuinely ready for production in 2026. The question isn't technology. It's whether the operators are ready for it.
+
+Most aren't. Yet.

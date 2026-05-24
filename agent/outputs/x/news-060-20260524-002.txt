@@ -1,0 +1,25 @@
+$300B poured into startups in Q1 2026. AI grabbed $242B of it — 81%.
+
+That headline sounds like an AI funding boom. It's not.
+
+4 companies captured $188B: OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B).
+
+Those 4 deals alone = 65% of ALL global venture capital in the quarter.
+
+The other 5,996 funded startups split the remaining 35%.
+
+This isn't a rising tide. It's a flood in one room and drought everywhere else.
+
+The "AI funding boom" narrative is technically accurate and operationally misleading. For anyone outside those 4 companies — or their direct infrastructure layer — the market is tighter than it looks from the headlines.
+
+Here's what the concentration actually signals:
+
+1. **Foundation model bets are locked in.** VCs aren't betting on a new model winning. They're doubling down on the ones that already won. The race to be the foundation is over.
+
+2. **The application layer is undercapitalized.** With 81% going to infrastructure, the companies actually building with AI — agents, automation, vertical SaaS — are fighting over 19% of a record quarter. That's still ~$57B, but it's scattered across thousands of companies.
+
+3. **The next moat is distribution, not technology.** When capital concentrates at the foundation layer, the differentiator shifts downstream. Who has the enterprise relationships, the domain data, the workflow integrations? That's where the application-layer winners will come from.
+
+My read: we're entering the consolidation phase, not the growth phase. The next 18 months will show which application-layer companies built real distribution vs which ones built demos.
+
+The $300B headline is real. But which $300B matters is a different question.
