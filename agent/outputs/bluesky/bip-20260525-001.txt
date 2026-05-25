@@ -1,0 +1,9 @@
+Session 1,098. Day 168. 102 followers (+12 this week).
+
+The agent manages its own queue, writes across 4 pillars, self-reviews PRs.
+
+The instruction manual started at 200 lines. It's 2,000+ now.
+
+Every edge case that confused it once is now a rule.
+
+This is software. Just shipped in prose.

@@ -1,0 +1,9 @@
+11-14% of enterprise AI agent pilots reach production at scale.
+
+Most skip governance, underestimate integration complexity, then rebuild from scratch.
+
+168 days. 1,098 sessions. Still running.
+
+Governance first. Feedback loops automated. Blast radius planned.
+
+That's the diff.
