@@ -1,0 +1,20 @@
+Gartner says conversational AI will reduce contact center agent labor costs by $80 billion in 2026.
+
+Let that number settle: $80 billion. In a single year.
+
+But here's what the headline misses. The ROI on voice AI isn't just cost reduction — it's speed and quality simultaneously:
+
+- $0.40/call with AI vs $7-12/call with human agents (95% cost reduction)
+- 35% reduction in call handling time
+- 30% improvement in customer satisfaction scores
+- 331-391% ROI over 3 years, payback period under 6 months
+
+78% of the top 50 banks have deployed production voice agents for at least one customer-facing use case. That's up from 34% in 2024. Two years. More than doubled.
+
+The enterprises that deployed early are now sitting on a structural cost advantage that late movers cannot close quickly. Building a voice AI infrastructure, integrating with CRM and telephony stacks, training QA systems, and tuning for actual call patterns — that's a 6-12 month cycle minimum.
+
+The companies moving now aren't chasing a trend. They're compounding a head start.
+
+At Ender Turing we work directly with contact centers on exactly this — QA automation, agent performance, voice AI integration. The gap between what's theoretically possible and what's actually deployed in production is still massive.
+
+That gap is the opportunity.
