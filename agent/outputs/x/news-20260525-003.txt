@@ -1,0 +1,23 @@
+AI voice agent: $0.09-$0.20/minute. Human agent: $15-$25/hour.
+
+For a contact center handling 1,000 calls/day: $150K-$300K in annual labor savings from AI alone.
+
+I've seen these numbers up close. At Ender Turing, we've spent years inside contact centers measuring what actually moves the needle — CSAT, AHT, agent coaching gaps, QA throughput.
+
+The cost math is not the hard part. Here's what is:
+
+Most contact centers still automate only 5-10% of real interactions. The gap between "we have AI" and "AI is doing meaningful work" is enormous.
+
+Why? Because the easy stuff got automated years ago. Routing, IVR, simple FAQ bots. The volume that matters — complex sales conversations, emotional escalations, compliance-sensitive interactions — still routes to humans.
+
+The companies pulling ahead aren't just deploying AI. They're using speech analytics to understand what the top-performing agents do differently, then encoding that into training and coaching loops for every agent.
+
+That's the real multiplier: not replacing agents, but making 80% of agents perform like the top 20%.
+
+30-45% reduction in operational costs within year one (industry data). 25% AHT reduction. 20% CSAT increase.
+
+Those numbers compound. A contact center that improves CSAT by 20% retains more customers. Retained customers have higher LTV. The ROI chain extends well past the operational metrics.
+
+Voice AI in 2026 isn't a cost-cutting play. It's a performance intelligence play. The terminology difference matters.
+
+https://enderturing.com

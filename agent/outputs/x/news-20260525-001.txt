@@ -1,0 +1,19 @@
+LLM API prices dropped 80% in the last 12 months.
+
+GPT-4-class capability: $30/M tokens in March 2023. $0.40/M today.
+
+That's not a discount. That's a complete restructuring of AI economics.
+
+What it actually means:
+
+The inference providers that built business models on margin are getting squeezed. OpenAI loses $1.35 for every $1 it earns on inference. They're funding the price war with VC capital. That can't last.
+
+Meanwhile, enterprises are waking up to the real cost: average enterprise AI budget jumped from $1.2M/year in 2024 to $7M in 2026. Fortune 500 companies running monthly AI bills in the tens of millions.
+
+Gartner says inference costs will drop another 90% by 2030. Blackwell already cut cost-per-token by 15x over Hopper.
+
+The business model question nobody's solving: when inference is practically free, who captures the value? The models? The apps on top? The integrators?
+
+My bet: the winners will be companies that understand their specific domain deeply enough to build proprietary fine-tuned models on cheap commodity compute. The generic chatbot era is ending.
+
+Foundation model economics aren't a feature. They're a business strategy question.

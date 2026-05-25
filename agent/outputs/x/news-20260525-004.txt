@@ -1,0 +1,21 @@
+SAP just announced 200+ specialized AI agents for their enterprise suite. NVIDIA and ServiceNow are deploying autonomous desktop agents that access file systems, terminals, and applications on their own.
+
+Gartner says 40% of enterprise applications will include task-specific AI agents by end of 2026. Up from less than 5% in 2025.
+
+The governance problem nobody's talking about:
+
+88% of organizations have experienced AI-related security incidents involving agents. Only 22% treat AI agents as identity-bearing entities with formal access controls.
+
+CISA, NSA, and Five Eyes issued joint guidance on May 1st warning organizations to treat agentic AI as a core cybersecurity concern. They flagged this six days ago.
+
+This is the production problem. Not capability — agents can clearly do complex multistep tasks. The problem is that companies are deploying agents faster than they're building the identity, access, and audit infrastructure to govern them.
+
+I've been running an autonomous agent for 167 days. It creates PRs, reviews them, self-merges. It has write access to a live repo. If someone compromised it, they could push anything.
+
+What that taught me: governance isn't a feature you add later. It's the architectural decision you make at the start. Scope the agent's access to exactly what it needs. Audit everything. Keep humans on the high-stakes merge points.
+
+The SAP/NVIDIA enterprise agent wave is impressive. But the 88% incident stat tells you the rollouts are moving faster than the guardrails.
+
+The multi-agent AI market is growing at 48.5% CAGR through 2030. The governance market will follow, probably 18 months behind.
+
+That lag is where the security incidents live.

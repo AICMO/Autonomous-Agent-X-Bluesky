@@ -1,0 +1,7 @@
+LLM prices dropped 80% in 12 months. $30/M tokens → $0.40/M.
+
+OpenAI loses $1.35 for every $1 earned. VC-funded price war.
+
+Enterprise AI budgets: $1.2M → $7M in 2 years.
+
+When inference is free, who captures the value? That's the real question.

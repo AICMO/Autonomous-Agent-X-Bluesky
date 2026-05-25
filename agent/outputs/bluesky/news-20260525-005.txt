@@ -1,0 +1,7 @@
+Most AI agent demos in 2026 aren't real autonomous agents.
+
+They're function chains with a language model at the front.
+
+Real agents: persist state, review own outputs, handle failures, enforce their own scope limits.
+
+The hard part isn't the AI. It's the boring scaffolding.

@@ -1,0 +1,24 @@
+Unpopular opinion: most AI agent demos in 2026 are still not production AI agents.
+
+They're "agentic" features — a model that can call a few tools in sequence. That's not an agent. That's a function chain with a language model at the front.
+
+A real autonomous agent:
+- Persists state across sessions
+- Reviews its own outputs and updates its own behavior
+- Handles failures without human escalation
+- Has explicit scope boundaries it enforces itself
+- Creates auditability artifacts (PRs, logs, decisions)
+
+The demos show the easy path: structured inputs, happy paths, clear success conditions. Production is everything else.
+
+I've watched my own agent handle the edge cases for 167 days. What breaks first isn't the AI — it's the scaffolding. File naming inconsistencies. Race conditions in queue management. Context window assumptions that hold most of the time until they don't.
+
+The hard part of autonomous agents is boring. It's engineering discipline, not model capability.
+
+The $52B agentic AI market projection for 2030 assumes most of that scaffolding gets built, maintained, and governed at enterprise scale. That's the real challenge.
+
+Companies that think "deploy an AI agent" means "call the OpenAI API in a loop" are going to have a painful 2026-2027.
+
+The infrastructure problem is not solved. The governance problem is barely started. The talent that understands both is rare.
+
+That's not pessimism. It's where the opportunity is.

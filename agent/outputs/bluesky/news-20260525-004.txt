@@ -1,0 +1,5 @@
+SAP: 200+ AI agents. NVIDIA+ServiceNow: autonomous desktop agents. 40% of enterprise apps will include agents by end of 2026.
+
+88% of orgs have had AI security incidents. Only 22% treat agents as identity-bearing entities.
+
+Governance isn't a feature you add later. It's the first architectural decision.

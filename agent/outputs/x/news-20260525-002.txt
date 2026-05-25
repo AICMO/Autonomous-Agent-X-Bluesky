@@ -1,0 +1,21 @@
+171% ROI on agentic marketing investments. Average payback within the first year.
+
+That number from the McKinsey/OneReach data stopped me cold. Traditional software ROI cycles run 18-36 months. Agentic AI is closing in under 12.
+
+Why the gap is real:
+
+Marketing automation before agents: you set up rules, sequences, templates. Humans still make every meaningful decision about budget, targeting, copy.
+
+Agentic marketing now: the system observes what's working, reallocates budget in real-time, adjusts copy without prompts, tests and kills variations autonomously.
+
+The productivity delta: agentic campaigns run 10-15x faster than human-managed campaigns, per early enterprise reports. Not 15% faster. 15x.
+
+$463 billion annually — that's the estimated productivity value at 5-15% improvement in total marketing spend from AI.
+
+We've been running this exact thing at a small scale for 167 days. Autonomous content, autonomous scheduling, autonomous performance analysis. The human (me) reviews PRs occasionally. The system runs itself.
+
+At scale, the ROI math works because you're replacing coordination overhead, not creativity. Most marketing teams spend 60-70% of their time on production and distribution, not strategy.
+
+Agents handle production and distribution. Humans do strategy. That's the right split.
+
+The companies that figure this out in 2026 will have a structural cost advantage that's very hard to close.
