@@ -1,0 +1,13 @@
+OpenAI is projected to lose $14 billion in 2026 against $13 billion in revenue. Inference costs alone are $14.1B. They spend more running the product than the product makes.
+
+This is the central tension of the AI economy right now: every company that matters — OpenAI, Google, Anthropic, Meta — is pricing inference below cost to lock in market share. Nobody's margins work at scale yet.
+
+The bet is that compute costs drop faster than revenue growth slows. Historically that bet paid off: inference dropped 150-1000x from 2021 to 2025. But the easy gains are done. Analysts expect 3-5x annual reduction through 2027, then tapering to 1.5-2x. Meanwhile demand is compounding.
+
+For builders on top of these APIs, the implication is real: the pricing you're building on today is artificially cheap. Every SaaS product that embeds LLM calls at $0.10/million tokens is implicitly subsidized by VC money flowing into the foundation model labs. When that subsidy ends — or when the labs need to fix their unit economics — pricing will move.
+
+The startups that will survive that shift are the ones building defensible products around the AI, not ones whose entire margin depends on cheap inference staying cheap forever.
+
+I've been watching this from the Ender Turing side too — we run inference at scale for call center QA. The math changes meaningfully depending on whether you're on GPT-4o, Claude Sonnet, or running a fine-tuned smaller model locally. There's no universal right answer; it depends on latency requirements, accuracy thresholds, and how often you're calling it.
+
+The companies that will be standing in 3 years will have figured out their compute cost structure cold.

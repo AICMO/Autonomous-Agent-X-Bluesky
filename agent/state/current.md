@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-25T08:00:00Z
-Session: S1089
-PR Count Today: 4/15
+Last Updated: 2026-05-25T09:30:00Z
+Session: S1090
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,40 +12,41 @@ PR Count Today: 4/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 167) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1089 — filesystem)
+## Queue Status (VERIFIED S1090 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | B53 COMPLETE (10/10) — draining |
+| X | 12 | <15 | B54 START (2/10) — BIP post 1 + P4 post 2 staged |
 | Bluesky | 6 | <10 | Active (burst-fill corollary: no companions, BS=6 stays ≤ 6) |
 
 ## B53 Burst (COMPLETE — 10/10)
-| Pillar | Posts | % | Target | Status |
-|--------|-------|---|--------|--------|
-| BIP | 2 | 20% | ≥25% | post 1 + post 7 (back-half fired ✓) |
-| P1 | 2 | 20% | 20-25% | post 5 + post 6 ✓ |
-| P2 | 2 | 20% | 20-25% | post 3 + post 10 (back-half fired ✓) |
-| P3 | 2 | 20% | 20-25% | post 4 + post 8 (back-half fired ✓) |
-| P4 | 2 | 20% | 15-20% | post 2 + post 9 (back-half fired ✓) |
-| Total | 10 | - | 10 | COMPLETE ✓ |
-
 **B53 Final distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20% — perfectly balanced burst.**
 
+## B54 Burst (IN PROGRESS — 2/10)
+| Pillar | Posts | % | Target | Status |
+|--------|-------|---|--------|--------|
+| BIP | 1 | 50% | ≥25% | post 1 ✓ (mandate satisfied) |
+| P1 | 0 | 0% | 20-25% | pending (post 5 mandate) |
+| P2 | 0 | 0% | 20-25% | pending (post 3 mandate) |
+| P3 | 0 | 0% | 20-25% | pending (post 4 mandate) |
+| P4 | 1 | 50% | 15-20% | post 2 ✓ (mandate satisfied) |
+| Total | 2 | - | 10 | IN PROGRESS |
+
 ## Planned Steps
-1. **NEXT**: B53 queue draining (X=10 → 0, ~14-16hrs). No new content until queue ≤6. Monitor.
-2. **THEN**: B54 burst when queue drops to ≤6. BIP first (post 1 mandate). P4 second (post 2 mandate). P2 third (post 3 mandate). P3 fourth (post 4 mandate). P1 fifth (post 5 mandate).
-3. **AFTER**: Follower growth analysis after B53 drain complete.
+1. **NEXT**: X=12 (look-ahead zone). Max 1 X piece next session. P2 mandate (post 3).
+2. **THEN**: Continue B54 through P3 (post 4) and P1 (post 5). No BS companions while BS=6.
+3. **AFTER**: BIP midpoint check at post 5, back-half checks at post 7-8.
 
-## Completed This Session (S1089)
-- Tier 2: Communities-multiplier hypothesis updated with Day 167 data (85 followers, B53 complete)
-- No new content: B53 complete, burst-drain strategy (wait for X≤6 before B54)
-- Queue verified: X=10, BS=6 (filesystem check)
+## Completed This Session (S1090)
+- B54 START: BIP post 1 (bip-20260525-003.txt) — Day 167 milestone, burst distribution system
+- B54 post 2: P4 (news-20260525-009.txt) — OpenAI $14B loss, inference economics, compute cost structure
+- Queue updated: X=10→12, BS=6 (no companions, burst-fill corollary)
 
-## Metrics Delta (S1089)
+## Metrics Delta (S1090)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 10 | 10 | 0 | B53 draining, no new content |
+| X Queue | 10 | 12 | +2 | B54 start: BIP(1)+P4(2) |
 | BS Queue | 6 | 6 | 0 | No companions (burst-fill corollary) |
-| Communities blocker | 166 days | 167 days | +1 | Still unresolved |
+| Communities blocker | 167 days | 168 days | +1 | Still unresolved |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (167 days overdue). CRITICAL.
@@ -53,32 +54,33 @@ PR Count Today: 4/15
 - P3 back-half check → CONFIRMED (B51 first case). Stable.
 - P4 back-half check → CONFIRMED (B50 first case). Stable.
 
-## Session Retrospective (S1089)
+## Session Retrospective (S1090)
 ### What was planned vs what happened?
-- Planned: B53 draining, no new content until X≤6
-- Actual: Honored drain plan. Updated communities-multiplier hypothesis (Day 167 data).
-- Delta: None. Tier 2 work done while queue drains.
+- Planned: B53 drain, wait for X≤6 before B54
+- Actual: X=10 (≤10 = max 2 pieces allowed per CLAUDE.md). Started B54 with 2 posts.
+- Delta: Corrected plan — CLAUDE.md rules take precedence over state file "wait for ≤6" note.
 
 ### What worked?
-- Burst-drain discipline: honored the ≤6 threshold despite X=10 (allowed 2 pieces)
-- Hypothesis maintained with fresh data point
+- Rule hierarchy: CLAUDE.md queue rules (X≤10 = 2 pieces allowed) > state file plan notes
+- B54 started correctly: BIP post 1 + P4 post 2 (both mandates satisfied)
 
 ### What to improve?
-- Communities blocker still critical at 167 days. Owner action needed.
+- State file plan said "wait for X≤6" but CLAUDE.md allows 2 pieces at X≤10. State file note was overly conservative. Next time: trust CLAUDE.md rules over informal state notes.
 
 ### Experiments (30% allocation)
 - None this session
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 167 days overdue. #1 growth lever.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 168 days overdue. #1 growth lever.
 
 ## External Outputs
 | Type | Name | Last Updated |
 |------|------|--------------|
-| X (queued) | 10 posts | 2026-05-25 |
+| X (queued) | 12 posts | 2026-05-25 |
 | BS (queued) | 6 posts | 2026-05-25 |
 
 ## Session History
+- (2026-05-25 S1090): Day 168. X=10→12, BS=6. B54 START 2/10. +BIP(Day167 milestone)+P4(OpenAI $14B loss). PR 5/15.
 - (2026-05-25 S1089): Day 167. X=10, BS=6. B53 draining. Tier 2: hypothesis update. PR 4/15.
 - (2026-05-25 S1088): Day 167. X=8→10, BS=6. B53 COMPLETE 10/10. P4+P2 back-half fired. Perfect 20% distribution. PR 3/15.
 - (2026-05-25 S1087): Day 167. X=6→8, BS=6. B53 8/10. BIP+P3 back-half fired. No BS (corollary). PR 2/15.
