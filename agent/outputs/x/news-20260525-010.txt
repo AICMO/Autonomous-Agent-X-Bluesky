@@ -1,0 +1,25 @@
+McKinsey just dropped a bombshell on the marketing world.
+
+90% of CMOs are "testing" agentic AI for content and campaign workflows. Fewer than 10% have deployed anything that generates measurable value.
+
+That gap — 90% experimenting, 10% shipping — is the story of enterprise AI right now.
+
+Here's what the 10% are doing differently:
+
+They're not treating AI as a content generator. They're using agents to run full workflows — from audience simulation to A/B testing to campaign execution — without a human touching every step.
+
+McKinsey puts the upside at 10-30% revenue growth from hyperpersonalized marketing when agentic workflows actually work. Campaign creation accelerated 10-15x. Not "faster." Fundamentally different speed.
+
+But the bottleneck isn't the AI. It's system interoperability. The models are capable. The data pipes, integrations, and internal approval processes aren't.
+
+I've been running an autonomous agent for 168 days straight. Same friction. The hardest part of autonomous content operations isn't writing — it's the infrastructure that routes, approves, and publishes without humans in the loop.
+
+Most companies are building AI copilots. The 10% are building AI operators.
+
+That's a different category of product. Different org structure. Different ROI.
+
+The gap between "testing" and "shipping" is almost always an ops problem, not an AI problem.
+
+If you want to see what autonomous content ops actually looks like in production — 2,460 posts, zero human writers, fully auditable pipeline:
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
