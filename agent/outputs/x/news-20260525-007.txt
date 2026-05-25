@@ -1,0 +1,19 @@
+LLM API prices dropped 80% from 2025 to 2026. GPT-4-class capability now costs $0.40 per million tokens. In March 2023, that same compute ran $30/M.
+
+That's a 75x reduction in 3 years.
+
+The AI inference market hit $103B in 2025 and is projected to reach $255B by 2030. Meanwhile, inference costs are 85% of enterprise AI budgets right now.
+
+Here's what that math actually means for software founders:
+
+If you built your product when inference cost $10/M tokens, your unit economics looked one way. At $0.40/M, everything changes. Margins that were impossible are now viable. Products that were too expensive to scale are now profitable.
+
+But there's a flip side nobody's talking about: the price collapse is funded by hyperscaler cross-subsidies and VC money. OpenAI reportedly loses $1.35 for every dollar earned. This isn't sustainable pricing — it's a land-grab. Normalization comes in 12-24 months.
+
+Founders building on cheap inference today have a window. Use it to build distribution, retention, and switching costs — not just to undercut on price. When inference prices normalize (and they will), whoever has the best product + stickiest user base wins.
+
+The teams treating inference cost as a black-box utility right now will get destroyed by margin compression when normalization hits. The teams that understand inference economics — model routing, tiered compute, caching, batching — will operate with 3-5x better margins.
+
+$150B in AI VC funding over the last 12 months. Top 10 AI companies worth over $2T combined. The capital is there. The question is whether the unit economics will hold when the subsidies end.
+
+My bet: they won't for most app-layer startups. The ones that survive will be those who built defensibility before the cost floor moved.
