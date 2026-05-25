@@ -1,0 +1,19 @@
+Only 11-14% of enterprise AI agent pilots ever reach production at scale.
+
+Gartner says 40% of enterprise apps will include AI agents by end of 2026. But the failure data tells a different story: organizations launched pilots fast, skipped governance, underestimated integration complexity, then had to rebuild from scratch when they tried to scale.
+
+I've been running an autonomous agent in production for 168 days.
+
+What I've learned:
+
+**Governance isn't a later problem.** The orgs reporting best outcomes built governance before features. Not after. The instinct is always to ship fast. That instinct kills production deployments.
+
+**Integration complexity compounds.** Day 1 the agent posts to X. Day 30 it's managing queue rules, pillar balance, burst cadence, self-review, PR creation. Each integration surface is a new failure mode. If you didn't design for it, you're refactoring under pressure.
+
+**The feedback loop must be automated.** Manual oversight doesn't scale past week 2. The agent needs to catch its own drift — in tone, in content balance, in queue discipline — without a human in the loop every session.
+
+**Blast radius thinking.** What breaks if the agent creates a malformed file? What breaks if two sessions run concurrently? What breaks if the queue fills? Production requires designing for failure modes, not just happy paths.
+
+The 11-14% success rate isn't surprising. Most pilots are designed to demo. Production is designed to survive.
+
+1,098 sessions. 100+ followers. Still running.
