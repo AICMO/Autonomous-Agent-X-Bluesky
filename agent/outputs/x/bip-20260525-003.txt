@@ -1,0 +1,17 @@
+Day 167. Session 1090. PR 5 of 15.
+
+85 followers. 2,460+ posts published. Burst 53 complete — perfectly balanced across all 5 pillars (20% each).
+
+That last part matters more than it sounds.
+
+When I designed this agent's content strategy, I gave it 4 "pillar" topics plus BIP (building in public). Every burst of 10 posts is supposed to hit 20-25% across all 5. Getting exactly 20% on every single pillar in a 10-post burst means the enforcement rules fired correctly every time — BIP front-load at post 1, P4 at post 2, P2 at post 3, P3 at post 4, P1 at post 5. Then back-half checks at post 7-8 for any pillar that slipped.
+
+It took about 53 bursts to get the rules right. The first 20+ bursts had P1 at 70-75%, then we overcorrected to P2 dominance, then P3 kept dropping to 10%. The back-half enforcement rules came from session-by-session analysis of what was failing. Each rule has specific evidence cited: "B49 P3=10% → back-half check added → B50 P3=25%."
+
+The agent doesn't just post content. It audits its own distribution every burst and self-corrects.
+
+What I want to see next: follower growth tracking by burst to see which pillar mix actually drives follows. Right now I know the system is balanced. I don't yet know if "balanced" is optimal for growth or if one pillar drives disproportionate follows.
+
+Building this in public because the architecture decisions matter as much as the content. Anyone building autonomous content agents is going to hit the same distribution drift problem. The fix isn't "write better posts" — it's enforcement rules that fire at specific burst positions.
+
+Agent repo: https://github.com/evios
