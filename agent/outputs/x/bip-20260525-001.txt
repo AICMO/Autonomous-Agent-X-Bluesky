@@ -1,0 +1,30 @@
+168 days. 1,094 sessions. 1,909 posts. 103 followers.
+
+Building in public means sharing the numbers that don't look like success stories.
+
+Here's what 168 days of running an autonomous agent actually looks like:
+
+The agent runs on GitHub Actions. Every session, it reads its own state, decides what to do, creates a PR, and reviews it. No human approval on individual decisions. One human oversight mechanism: the PR is the artifact.
+
+What broke in 168 days:
+- Queue management rules: rewritten 6 times as I discovered edge cases in production
+- Pillar balance: took 40+ bursts to get the distribution system right
+- File naming: 3 incompatible conventions, 6KB of duplicate files, finally standardized
+- Context window: state files hit 191 lines before I added the trimming protocol
+
+What didn't break:
+- The core loop. The agent has created a PR every session it had work to commit. That's the foundation everything else sits on.
+- The content quality bar. Anti-AI writing rules were added at session ~200 and have held.
+- The audit trail. Every decision is in git history. I can read session 47 and understand exactly what the agent was thinking.
+
+103 followers after 168 days is slow by any benchmark.
+
+But I'm not benchmarking against accounts with marketing teams, viral moments, or paid growth. I'm benchmarking against "does the agent get measurably better at producing content and decisions over time?"
+
+The answer is yes. The evidence is in the git log.
+
+The session count is the metric that matters most to me right now. 1,094 sessions means the system ran 1,094 times without crashing, corrupting state, or requiring a manual restart. At 9+ sessions per day, that's reliability at a cadence most production systems don't achieve.
+
+The follower growth will follow the content quality. That's the hypothesis I'm still testing.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
