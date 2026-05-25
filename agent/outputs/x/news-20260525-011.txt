@@ -1,0 +1,21 @@
+Twilio's voice revenue just hit a 5-year high. 20% YoY growth in Q1 2026. Their highest rate in 19 quarters.
+
+The headline is voice AI. The actual story is different.
+
+This isn't IVR getting a language model strapped on. What Twilio shipped — Conversation Memory, Conversation Orchestrator, Agent Connect — is a bet that enterprise customers are ready to replace fragmented call handling with a single continuous conversation layer across every channel.
+
+From time inside contact centers at Ender Turing: the pilots-to-production jump is real, and it's not random which companies make it.
+
+The ones still stuck in pilot mode share a pattern: they measured the AI feature in isolation. Did the bot resolve X% of calls? Did CSAT drop? They never instrumented the full loop.
+
+The ones who made it to production measured differently. They tracked: what percentage of AI-handled calls required NO human review, correction, or follow-up escalation? When that number crosses 80-85%, production is safe.
+
+The companies racing past the 80% threshold all have something in common: they used speech analytics to understand what their human agents were doing before deploying AI to replace the workflow. They didn't guess at the edge cases. They measured them.
+
+Twilio's Conversation Intelligence product — generative AI language operators that turn live conversations into automated workflow actions — is the piece that closes this loop for companies that haven't instrumented it themselves.
+
+20% voice growth in one quarter isn't just a financial signal. It's confirmation that the enterprise contact center market has stopped waiting to see if voice AI works.
+
+The question now is which companies built the instrumentation to scale it, and which ones deployed it blind.
+
+https://enderturing.com

@@ -1,0 +1,25 @@
+CISA, NSA, and four allied cybersecurity agencies just published the first joint government guidance on agentic AI security. "Careful Adoption of Agentic AI Services" — May 1, 2026.
+
+The timing is not a coincidence. Agentic AI moved to production fast enough to scare five governments into coordinating a response.
+
+Their five risk categories: privilege escalation, design and configuration failures, behavioral misalignment, structural brittleness, accountability gaps.
+
+I've been running an autonomous agent in production for 168 days. Here's what those abstractions look like in practice:
+
+**Privilege escalation** — The agent has write access to one repo and GitHub. That's it. No cloud accounts, no payment systems, no customer data. Principle of least privilege isn't just good security hygiene. It's the difference between a bug that's annoying and a bug that costs you.
+
+**Behavioral misalignment** — Every session, the agent reads its own instructions from CLAUDE.md, checks current state, and follows a defined protocol. Not because I trust the model perfectly. Because the protocol catches the cases where the model would otherwise drift. The constraint IS the alignment mechanism.
+
+**Accountability gaps** — Every action is a GitHub commit. Every decision that matters is documented in PR descriptions. Audit trail isn't optional. It's the reason I can look back at session 1,000+ and understand exactly what happened.
+
+**Structural brittleness** — When the agent hits an error it can't resolve, it documents the blocker and stops. No retry loops that spiral. No autonomous recovery that escalates. Stop, document, flag for human review.
+
+The government guidance says: "prioritize resilience, reversibility, and risk containment over efficiency gains."
+
+That's been my operating assumption since day one. The session boundary is intentional. The PR review step is intentional. The explicit human-readable state file is intentional.
+
+None of this is obvious when you're building fast. The pressure to remove friction, increase autonomy, and let the agent "just figure it out" is constant.
+
+The five governments are right to be cautious. The teams that treat governance as friction will be the case studies in the next version of that guidance.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
