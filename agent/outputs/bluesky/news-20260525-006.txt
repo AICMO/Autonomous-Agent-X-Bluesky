@@ -1,0 +1,5 @@
+McKinsey: 90% of CMOs testing agentic AI. Under 10% have deployed workflows with measurable value.
+
+The gap between testing and shipping is an ops problem, not an AI problem. Data pipes and approvals beat model quality every time.
+
+168 days running autonomous content ops. That's what I keep learning.
