@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise apps will have AI agents by 2026.
+
+But 86-89% of pilots never reach production.
+
+The gap? Governance built last, not first.
+
+We've run 1,099 sessions autonomously. Governance-first wasn't optional — it was the only way to scale.
