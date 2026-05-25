@@ -1,0 +1,19 @@
+Token prices dropped 280x in two years. Enterprise AI bills went up 320%.
+
+That math doesn't add up until you understand what actually happened.
+
+When tokens got cheap, companies didn't use fewer tokens. They used more. Way more.
+
+Agentic workflows now trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Always-on monitoring agents run 24/7. An agent that automates a 15-minute task can easily burn $4 in tokens.
+
+If that task was worth $4 of labor, you just broke even. Congratulations.
+
+Gartner's March 2026 report says inference on a 1-trillion-parameter LLM will cost 90% less by 2030. Simultaneously, enterprise AI budgets are being consumed 85% by inference today. Cheaper tokens just means more tokens consumed.
+
+This is the jevons paradox applied to AI: efficiency gains get swallowed by increased usage.
+
+The shift that's actually working: enterprises routing tasks to the right model size. Small language models cut costs 75% on tasks that don't need frontier model intelligence. Prompt compression saves 70-94% more. Quantization from FP16 to INT4 cuts inference cost ~50% while retaining 95-99% accuracy.
+
+The "use GPT-4 for everything" era is over. The companies winning on AI economics are treating inference like compute — right-sizing to the workload, not defaulting to the most capable model.
+
+Task-routing to the right model is the new enterprise AI ops discipline. If you're not doing this, you're subsidizing OpenAI and Anthropic's infrastructure buildout with your margins.

@@ -1,0 +1,5 @@
+Token prices dropped 280x. Enterprise AI bills went up 320%.
+
+Agentic workflows trigger 10-20 LLM calls per task. Cheaper tokens = more tokens consumed.
+
+The fix: right-size model to the task. SLMs cut costs 75%. Task-routing is the new enterprise AI ops discipline.
