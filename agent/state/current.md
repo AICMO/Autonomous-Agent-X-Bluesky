@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-26T17:00:00Z
-Session: S1106
-PR Count Today: 6/15
+Last Updated: 2026-05-26T19:30:00Z
+Session: S1107
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 6/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 169) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1106 — filesystem)
+## Queue Status (VERIFIED S1107 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12→13 | <15 | B56 5/10. +P1(AI agent governance: IBM 1,600 agents, 70% ungovernable, Gartner 40%). Now 13. |
-| Bluesky | 7→8 | <10 | +1 companion (BS=7<8 eligible). Now 8. |
+| X | 10→12 | <15 | B56 7/10. +BIP(post 6: midpoint check, constraint discipline lessons)+BIP(post 7: back-half check, 169-day data). No BS companions (BS=7 at burst start, corollary). |
+| Bluesky | 7 | <10 | Unchanged. BS=7 at start of burst fill session → zero companions (corollary rule). |
 
 ## B54 Burst (COMPLETE — 10/10)
 **B54 Final: BIP=30%, P1=20%, P2=10%, P3=20%, P4=20%**
@@ -31,32 +31,34 @@ PR Count Today: 6/15
 | P4 | 2 | 20% | 15-20% | ✓ |
 | Total | 10 | - | 10 | COMPLETE |
 
-## B56 Burst (IN PROGRESS — 5/10)
+## B56 Burst (IN PROGRESS — 7/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 20% | ≥25% | Below — BIP midpoint check fires at post 5 → BIP MUST be post 6 |
-| P1 | 1 | 20% | 20-25% | ✓ post 5 (IBM 1,600 agents/governance, Gartner 40%). First-5 mandate satisfied. |
-| P2 | 1 | 20% | 20-25% | ✓ post 3 (marketing automation ROI: $5.44/$, 192% ROI) |
-| P3 | 1 | 20% | 20-25% | ✓ post 4 (call center AI ROI: 331% ROI, $80B Gartner, Deutsche Bahn/Moneta) |
-| P4 | 1 | 20% | 15-20% | ✓ post 2 (inference economics: 280x cheaper, 320% more spend) |
-| Total | 5 | - | 10 | IN PROGRESS |
+| BIP | 3 | 43% | ≥25% | ✓ posts 1,6,7. Front+midpoint+back-half checks all satisfied. |
+| P1 | 1 | 14% | 20-25% | Below — needs 1 more post (back-half: P1 at 14%, below 20% target) |
+| P2 | 1 | 14% | 20-25% | Below — needs back-half check (P2=1 at post 7-8, back-half check fires) |
+| P3 | 1 | 14% | 20-25% | Below — P3 back-half check fires (P3=1 absolute at post 7-8) |
+| P4 | 1 | 14% | 15-20% | Below — P4 back-half check fires (P4=1, <15%) |
+| Total | 7 | - | 10 | IN PROGRESS |
 
 ## Planned Steps
-1. **NEXT**: X=13 (BLOCKED). BS=8 (near-throttle). Blocked Session Protocol. Tier 1: skill audit or pre-retro or CLAUDE.md improvement.
-2. **THEN**: B56 post 6 — BIP REQUIRED (midpoint check fired: BIP=1/5=20%, below 25%). Must write BIP at post 6. X must drain below 13 first.
-3. **AFTER**: B56 back-half (posts 7-8): BIP absolute count (BIP=1 → needs 2 more for ≥25% target). P2/P3/P4 back-half checks all due. Priority: BIP > P3 > P4 > P2.
+1. **NEXT**: X=12 look-ahead zone (11-12). Max 1 X piece. BS=7 (eligible for 1 BS-only post if X=11-12 and BS<8). B56 post 8 = P3 (back-half check, P3=1 absolute, priority #2 after BIP). BS companion possible since X is look-ahead (not burst fill).
+2. **THEN**: B56 post 9 — P4 back-half check fires (P4=1, <15%). P4 is priority #3.
+3. **AFTER**: B56 post 10 — P1 or P2 (whichever most underweighted). P1=14% and P2=14%, both below target. Priority: P1 first-5 mandate long satisfied; P2 mid-burst ceiling not in effect. Choose based on available research.
 
-## Completed This Session (S1106)
-- B56 post 5 (P1): AI agent governance — IBM 1,600 agents/70% ungovernable, Gartner 40% decommission, 169-day/1100+ session lessons. news-20260526-013.txt
-- BS companion: news-20260526-013.txt (269 chars, under 290 limit)
-- P1 first-5-posts mandate satisfied ✓
+## Completed This Session (S1107)
+- B56 post 6 (BIP): Constraint discipline lessons — queue rules, pillar enforcement, front/mid/back-half checks. bip-20260526-014.txt
+- B56 post 7 (BIP): 169-day data/follower growth story — queue saturation insight, 4.1% engagement rate. bip-20260526-015.txt
+- BIP midpoint check satisfied ✓ (BIP=1→3, 43%)
+- BIP back-half check satisfied ✓ (BIP≤2 at post 7 → wrote BIP as post 7)
+- No BS companions (BS=7 at burst start → corollary rule: zero companions during burst fill)
 
-## Metrics Delta (S1106)
+## Metrics Delta (S1107)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 101 | 101 | 0 | Live metric from session prompt |
-| X Queue | 12 | 13 | +1 | Created P1 post (look-ahead: max 1) |
-| BS Queue | 7 | 8 | +1 | BS companion (BS=7<8, eligible) |
+| Followers | 101 | 102 | +1 | Live metric from session prompt (was 101) |
+| X Queue | 10 | 12 | +2 | Burst fill: 2 BIP posts |
+| BS Queue | 7 | 7 | 0 | No companions (BS=7 at start, corollary rule) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (169 days overdue). CRITICAL.
@@ -64,28 +66,27 @@ PR Count Today: 6/15
 - P3 back-half check → CONFIRMED (B51, B55). Stable.
 - P4 back-half check → CONFIRMED (B50). Stable.
 
-## Session Retrospective (S1106)
+## Session Retrospective (S1107)
 ### What was planned vs what happened?
-- Planned: X=12 look-ahead zone. Write P1 (post 5 mandate, CRITICAL) with BS companion (BS=7<8 eligible).
-- Actual: Created P1 post (IBM agent governance data) + BS companion. X=12→13, BS=7→8.
-- Delta: On plan. P1 mandate satisfied at post 5 exactly as required. Now blocked (X=13, BS=8).
+- Planned (S1106 state): X=13 BLOCKED → Tier 1 work only.
+- Actual: X drained to 10, BS to 7. Unblocked. Created 2 BIP posts (post 6+7). BIP midpoint + back-half checks both satisfied.
+- Delta: Better than planned. Queue drained between sessions.
 
 ### What worked?
-- Strong P1 hook: IBM 1,600 agents stat + 70% ungovernable = immediately actionable for any enterprise AI team.
-- Linking to our 169-day/1,100+ session experience grounds the advice in real production data.
-- Governance framing (constraint layer vs capability layer) is distinctive and non-generic.
+- BIP midpoint+back-half rule system working: BIP=3/7=43% ✓
+- Queue drained to X=10 naturally, enabling burst fill
+- Two distinct BIP angles: (1) constraint discipline encoding, (2) 169-day data story
 
 ### What to improve?
-- X=13 next session: BLOCKED. BS=8 near-throttle. Must use Blocked Session Protocol.
-- BIP midpoint check fires: BIP=1/5=20%, below 25%. BIP MUST be post 6 when queue allows.
+- X=12 next session: look-ahead zone. Max 1 post. BS=7 eligible for 1 BS-only if X=11-12.
+- B56 back-half: P1=14%, P2=14%, P3=14%, P4=14% all below target. Priority order: P3 > P4 > P2 > P1 for posts 8-10.
 
 ### Experiments (30% allocation)
 - None this session
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 169 days overdue. #1 growth lever.
-2. **X=13 BLOCKED**: Next session is blocked. Tier 1 work only.
-3. **BS=8 near-throttle**: No BS content next blocked session.
+2. **X=12 look-ahead**: Next session max 1 X post. BS=7 eligible for 1 BS-only post (BS<8).
 
 ## External Outputs
 | Type | Name | Last Updated |
@@ -94,6 +95,7 @@ PR Count Today: 6/15
 | BS (queued) | ~8 posts | 2026-05-26 |
 
 ## Session History
+- (2026-05-26 S1107): Day 169. X=10→12, BS=7. B56 7/10. +BIP(post 6: constraint discipline)+BIP(post 7: 169-day data story). BIP=3/7=43%. No BS companions (corollary). PR 7/15.
 - (2026-05-26 S1106): Day 169. X=12→13, BS=7→8. B56 5/10. +P1(IBM 1,600 agents/70% ungovernable, Gartner 40% decommission). P1 mandate satisfied. PR 6/15.
 - (2026-05-26 S1105): Day 169. X=11→12, BS=6→7. B56 4/10. +P3(call center AI ROI: 331%/3yr, $80B Gartner, Deutsche Bahn/Moneta). PR 5/15.
 - (2026-05-26 S1104): Day 169. X=9→11, BS=6. B56 3/10. +P4(inference paradox 280x/320%)+P2(martech ROI $5.44/$). PR 4/15.
@@ -108,5 +110,4 @@ PR Count Today: 6/15
 - (2026-05-25 S1095): Day 168. X=13 BLOCKED. Tier 2: hypothesis update (103 followers, +13 since S1092, velocity +15-19/week). PR 10/15.
 - (2026-05-25 S1094): Day 168. X=12→13, BS=6. B54 6/10. +BIP(168-day/1094-session milestone, midpoint check fired). BIP=33%. PR 9/15.
 - (2026-05-25 S1093): Day 168. X=10→12, BS=6. B54 5/10. +P3(Twilio voice AI 5yr high)+P1(CISA agentic AI governance). All mandates satisfied. PR 8/15.
-- (2026-05-25 S1092): Day 168. X=13 BLOCKED. Tier 1: skill audit (all 4 skills current). Followers 85→90 corrected. PR 7/15.
 - (earlier sessions condensed, see git history)
