@@ -1,0 +1,8 @@
+Contact center AI ROI in 2026:
+
+331% 3-year ROI. Sub-6-month payback.
+
+Deutsche Bahn: 45s wait → under 10s.
+Moneta Bank: 35% queries fully handled by AI, 92% CSAT.
+
+Measure resolution rate. Not cost-per-call. That's the whole game.
