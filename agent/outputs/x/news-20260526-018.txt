@@ -1,0 +1,23 @@
+GPT-4 equivalent inference: $20/million tokens in late 2022. $0.40/million tokens today.
+
+That's a 50x cost collapse in 3 years.
+
+Here's the problem: token consumption didn't drop 50x. It went up.
+
+Gartner's March 2026 analysis: agentic AI models require 5-30x more tokens per task than standard generative AI chatbots. So the math looks like this — per-token cost fell 50x, token volume per task increased 5-30x. Net unit economics improvement for agentic workflows: 2-10x. Not 50x.
+
+For startups that built pricing around 2023 token economics, the news is even worse. A customer paying $20/month can now generate $18-25 in inference costs during heavy reasoning tasks. The unit economics simply don't work at standard per-seat pricing.
+
+The founders who understand this early are doing a few things:
+
+First, they're not selling inference. They're selling outcomes. Price on results (calls resolved, tickets closed, conversions driven), not on compute consumed. Outcome pricing insulates you from the next token cost swing in either direction.
+
+Second, they're measuring token consumption per customer segment before signing enterprise deals. Heavy users with complex agentic workflows at $40/month are loss-leaders. You need to know this before the contract, not after the renewal conversation.
+
+Third, they're using caching aggressively. System prompts, user context, and common prefixes are prime caching targets. For a call center agent handling 500 calls/day, prompt caching alone can cut inference costs 40-60%.
+
+At Ender Turing, we process thousands of conversations daily. The inference bill is not theoretical. Every efficiency at the unit economics level compounds across volume.
+
+The AI industry talks constantly about per-token pricing dropping. The more important number is cost per business outcome. That's the number that decides whether your product has a margin.
+
+Per-token cost isn't the unit you should be tracking.
