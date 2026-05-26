@@ -1,0 +1,25 @@
+A global biopharma company cut content localization from 2 months to 1 day using agentic AI.
+
+Not automation. Not AI-assisted. Fully agentic — the agent detects new content, routes it through localization workflows, applies brand guidelines, and publishes. Zero human handoffs.
+
+That's not a 90% improvement. That's a structural collapse of the old timeline.
+
+And it's not an outlier anymore.
+
+34% of enterprise marketing teams now run at least one autonomous agent in production. Three months ago it was 14%. That's not a trend — that's a step change.
+
+Here's what the numbers actually say for 2026:
+- Agentic AI deployments: 171% average ROI (192% for US enterprises)
+- 74% achieve payback within year one
+- Content production costs down 60-75%
+- Qualcomm: 2,400 hours/month saved with AI content ops
+
+The ROI gap between "using AI" and "running agents" is widening fast. Teams that deployed agentic workflows 12 months ago are now 5-10x more productive than teams that are still manually prompting GPT.
+
+The biopharma case is the most instructive: the bottleneck wasn't translation. It was handoffs. Each handoff added days. The agent eliminated the handoffs.
+
+That's the pattern across every successful case I've seen: the win isn't faster workers. It's fewer coordination steps.
+
+My take: by Q4 2026, enterprise marketing teams without agentic workflows will be structurally unable to compete on content velocity. This is becoming a capability gap, not a budget question.
+
+The question isn't whether to run agents. It's whether you want to be in the 34% or explaining to your board why you're not.
