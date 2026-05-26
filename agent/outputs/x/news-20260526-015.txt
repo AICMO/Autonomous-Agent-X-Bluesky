@@ -1,0 +1,24 @@
+OpenAI is projected to lose $14 billion in 2026.
+
+They spend $1.35 for every dollar they earn. Some analysts put it higher — $3.30 to make $1.00. The mechanism: inference costs. Every ChatGPT response, every API call, every GPT-5.4 extended-context window costs more to serve than they charge for it. Deliberately priced below true cost to capture market share.
+
+This is the unit economics problem nobody building on top of frontier AI wants to talk about.
+
+Here's why it matters for your AI strategy:
+
+Those $0.006/million token prices you're budgeting around? They exist because the model labs are subsidizing your usage. OpenAI, Anthropic, Google — all running inference at a loss to prevent each other from winning the developer ecosystem. That subsidy doesn't last forever.
+
+A Turing Award-winning Google researcher published a paper in early 2026 identifying inference costs as the primary economic bottleneck preventing AI companies from reaching profitability. The finding: context window length scales quadratically with compute cost. Every token in a 1M-token context gets attended to on every generation step. The cost of frontier reasoning isn't falling — it's rising per query.
+
+The Gartner March 2026 analysis confirms it: agentic AI requires 5-30x more tokens per task than standard chatbots. You're not buying chatbot economics. You're buying agent economics. The math is different.
+
+What changes when subsidies end (12-24 month runway per most analysts):
+- Frontier model API prices rise for high-context, high-reasoning tasks
+- Enterprises that built on flat-rate predictions will face budget surprises
+- The "route 80% of traffic to cheaper models" playbook becomes mandatory, not optional
+
+The enterprises building for this now — model routing, semantic caching, task decomposition to reduce per-task token load — are going to look smart. The ones budgeting 2027 AI projects on 2026 subsidized pricing are not.
+
+Token prices have fallen 10x in 18 months. Total enterprise AI spend has risen 320% in the same window. Both facts are true simultaneously. That's not a contradiction — it's the structure of an industry running on investor-subsidized economics.
+
+Plan accordingly.

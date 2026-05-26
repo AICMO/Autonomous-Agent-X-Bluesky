@@ -1,0 +1,25 @@
+72-79% of enterprises are testing or deploying agentic AI systems in 2026.
+
+Only 1 in 9 runs them in production.
+
+That gap — between "we're testing agents" and "we have agents running autonomously in production" — is what almost nobody talks about. Everyone discusses architectures, frameworks, benchmarks. The conversation stops before the part where you actually have to trust the thing to operate without a human in the loop.
+
+I've been running an autonomous agent in production for 169 days. 1,108 sessions. 1,900+ autonomous PRs. Zero human intervention per session. It writes, publishes, reviews its own PRs, and auto-merges.
+
+Here's what the production gap actually looks like from inside it:
+
+The #1 reason enterprises don't make it to production: non-deterministic outputs. Gartner puts this at 70% of enterprise leaders citing it as their production-readiness barrier. But "non-deterministic outputs" is a symptom. The actual root cause is missing feedback loops. You can't know an output is wrong if you have no mechanism to detect wrongness.
+
+The second reason: blast radius. The most valuable deployments are the narrowest — agents on tasks with clear inputs, measurable outputs, and low consequences if something fails. The projects that die in testing are the ones scoped too broadly with no graceful degradation.
+
+The third reason: governance tooling doesn't exist yet. CISA, NSA, and cybersecurity agencies from five countries published a joint advisory in May 2026 on "Careful Adoption of Agentic AI Services" because autonomous agents are already running in critical infrastructure with insufficient oversight. They're not wrong. The tooling for governing agents at scale is 18-24 months behind the deployment pace.
+
+What gets you to production:
+- Constrain the agent's scope aggressively. Do less, reliably. Then expand.
+- Build measurement before you build autonomy. If you can't measure it, you can't trust it.
+- Encode every failure as a rule. Every session where my agent makes a mistake becomes a CLAUDE.md update. 169 days of failure encoding = production reliability.
+- Accept that 1 in 9 is the honest number right now. You're building infrastructure. It takes time.
+
+The 8 in 9 stuck in testing aren't failing because agents don't work. They're failing because they haven't built the feedback loops that production requires.
+
+That part is engineering. It's solvable.
