@@ -1,0 +1,5 @@
+IBM: enterprises will run 1,600 AI agents by year-end. 70% can't govern the ones they have.
+
+88% of agent pilots never reach production. The model is rarely the failure — the governance layer is.
+
+169 days, 1,100+ sessions. Governance is what makes autonomy possible.
