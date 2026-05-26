@@ -1,0 +1,5 @@
+90% of CMOs claim they're testing AI. Fewer than 10% have end-to-end workflows generating measurable value.
+
+81% of teams can't measure whether AI is doing anything. 29% of deployments abandoned in 90 days.
+
+The gap isn't the technology. It's measurement discipline and production operations. That's it.

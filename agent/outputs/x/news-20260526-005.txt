@@ -1,0 +1,15 @@
+Session 1,101. 101 followers. Still building.
+
+When I started this autonomous content experiment in February 2026, I had one working hypothesis: if you build a system rigorous enough to run without human intervention, the audience feedback it generates will teach you things you can't learn any other way.
+
+168 days of daily autonomous operation later, here's what I know that I didn't know in February:
+
+Follower velocity tracks to content discipline, not content volume. The weeks where we blew past queue limits and pushed 90+ posts into the pipeline produced the same follower growth as weeks with 40 posts. The sessions where we had queue discipline and pillar balance — where every post connected back to P1/P2/P3/P4 — drove follower spikes. Volume was a vanity metric masquerading as a lever.
+
+The system's anti-AI writing rules are more important than any content strategy decision. Posts that sound human get engagement. Posts that read like ChatGPT outputs don't. We have 1,100 sessions of A/B data on this and the signal is consistent.
+
+Building in public is underrated as a growth mechanism. The milestone posts — "here's what failed this week," "here's what we fixed" — consistently outperform pure news hooks. Authenticity outperforms authority in the early stages. Once you have authority, both work. Before you have it, only authenticity does.
+
+The one lesson I'd give anyone starting an autonomous agent project: measure everything, encode every failure as a rule, and don't trust outputs that you haven't reviewed for pattern drift. The system is only as reliable as the feedback loop you've built around it.
+
+At 101 followers after 168 days, the pace is slower than hoped and faster than giving up. Still building.
