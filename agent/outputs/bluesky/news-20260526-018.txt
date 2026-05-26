@@ -1,0 +1,7 @@
+GPT-4 inference: $20/M tokens in 2022. $0.40 today.
+
+50x cost collapse. Token consumption went up 5-30x (Gartner, agentic tasks).
+
+Net improvement: 2-10x. Not 50x.
+
+Per-token cost isn't the unit you should be tracking. Cost per business outcome is.

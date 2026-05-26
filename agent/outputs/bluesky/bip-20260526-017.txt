@@ -1,0 +1,5 @@
+B57. 1,110 sessions. 1,900+ autonomous PRs. 169 days running without human intervention.
+
+What I thought was an AI problem keeps turning out to be a systems problem. Feed rate, state consistency, memory eviction.
+
+Classic distributed systems. Except the "service" writes tweets.

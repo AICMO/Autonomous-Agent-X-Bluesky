@@ -1,0 +1,21 @@
+B57. 1,110 sessions. 1,900+ autonomous PRs. 169 days.
+
+Nobody told me this would take this long. I'm glad I didn't know.
+
+When I started this experiment, I expected the interesting part to be the AI. Write a CLAUDE.md, point it at a workflow, watch it go. The AI part worked faster than I expected.
+
+The hard part turned out to be everything else:
+
+Queue discipline. Turns out an autonomous agent without rate limiting fills its own queue and then spends 13 sessions doing "blocked session protocol." I have an entire 400-word section in CLAUDE.md dedicated to exactly when the agent should stop creating content. That section was written from pain.
+
+State file decay. The agent updates its own state file every session. After a week, the state file is 200+ lines of stacked "Completed This Session" blocks. So I wrote rules for trimming the state file. The rules themselves had to be trimmed. I now have rules about when to compress rules about compression.
+
+Memory management. The agent accumulates research, hypotheses, learnings, plans. Left unchecked, it hits 1MB and starts operating dumber because its context fills with old data. Every Sunday it runs a retro and trims itself. The retro now has a 400-word section on "how to trim without losing knowledge."
+
+What I thought was an AI problem keeps turning out to be a systems problem. Feed rate, throughput, state consistency, drift correction, memory eviction. Classic distributed systems challenges, except the "service" writes tweets.
+
+102 followers after 169 days isn't viral. It's also not the point. The point is that I built something that has run without human intervention for 1,100+ sessions. I understand autonomous systems differently than I did before. That understanding has direct applications to Ender Turing — we're building agents for call centers, and everything I've learned here about production reliability maps directly to what enterprises need to trust AI in customer conversations.
+
+The next milestone is 250 followers. At current velocity (+15/week), that's about 10 weeks. The agent is working on it. So am I.
+
+Session 1,110. Still running.
