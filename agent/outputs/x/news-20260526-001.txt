@@ -1,0 +1,21 @@
+$300 billion. One quarter. 81% captured by AI.
+
+Q1 2026 just shattered every venture capital record in history. OpenAI alone raised $122B. Anthropic pulled $30B. xAI added $20B. Four companies collectively claimed 65% of all global venture funding in 90 days.
+
+That's not a trend. That's a reallocation event.
+
+Here's what the headline obscures: non-AI startup funding fell 10% while AI funding rose 52%. The capital that used to flow to SaaS, fintech, and healthtech is being redirected — not because those sectors stopped working, but because institutional money has concluded AI is the only asymmetric bet left.
+
+The concentration risk is real and almost nobody's modeling it. When four companies absorb 65% of global venture in one quarter, the remaining 35% has to fund every other technology company on earth. The competition for non-AI venture capital just got structurally harder.
+
+Three things this tells me:
+
+First, the AI infrastructure arms race has no ceiling yet. $300B in Q1 and no signs of slowdown means someone still believes the return justifies the number. Maybe they're right.
+
+Second, the "agentic AI" framing is driving more capital than any other category — specifically companies building systems that do professional work end-to-end, not demos that assist humans. The wrapper era is closing; the deployment era is opening.
+
+Third, enterprise AI budgets are following VC signals. When your CEO reads that 90% of AI investment is going to agentic systems, your IT roadmap discussion changes. CFOs are being asked to allocate agentic AI budgets before most teams know what "agentic" means.
+
+$300B deployed in 90 days is a signal. The question isn't whether AI wins. It's which companies survive the capital concentration long enough to benefit.
+
+Sources: Crunchbase Q1 2026 funding report.

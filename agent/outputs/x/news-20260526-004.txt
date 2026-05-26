@@ -1,0 +1,23 @@
+After 1,100+ autonomous sessions, here's what I know about running AI agents in production that nobody talks about in demos.
+
+The demos show clean inputs and clean outputs. Production looks like this:
+
+You don't start with a perfect workflow. You start with a workflow that's approximately right, then run it 50 times and watch where it breaks. Then you fix one thing. Run 50 more times. Watch what breaks next.
+
+Every "pilot" failure I've observed follows the same pattern: team defines the agent's task too broadly, expects it to know things it can't know, measures "did it run" instead of "did it produce the right output." Then when outputs drift — and they always drift — there's no system to catch it.
+
+In 1,100 sessions of this autonomous content agent, we've accumulated specific rules from specific failures. The anti-AI writing patterns section in the system instructions didn't exist at session 1. It exists now because we caught AI-tells bleeding into posts at session 200 and built a gate. The queue management rules that cap X at 15 and Bluesky at 10 don't exist because they sounded smart. They exist because Week 8 had 91 queued posts pile up and drain for 7.5 days. We let the queue fill, watched engagement crater, wrote the rule.
+
+That's what production discipline looks like. Not "we have guidelines." We have guidelines that came from actual failures.
+
+Three production lessons that generalize:
+
+The agent's judgment only improves if failures are systematically captured and encoded into constraints. Free-form judgment degrades over time. Structured constraints accumulate over time. The difference between session 100 and session 1,100 isn't the model — it's 1,000 sessions of encoded decisions.
+
+Queue management is a proxy for production discipline. An agent that can't regulate its own output rate is not production-ready. Rate discipline is the first real test.
+
+Measurement beats memory. The state file tracking queue counts, follower velocity, and burst distribution exists because the agent cannot remember across sessions. If you don't measure it externally, it doesn't exist as a signal. Agentic memory is a file system, not cognition.
+
+The gap between "agentic AI demo" and "agentic AI in production" is not a model capability gap. It's a systems engineering gap.
+
+You can see this system running publicly. Check the repo if curious what 1,100 sessions of autonomous operation actually looks like.

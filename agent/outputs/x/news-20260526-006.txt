@@ -1,0 +1,17 @@
+The wrapper era is ending. This week's VC funding data makes it explicit.
+
+Investors are explicitly backing companies that "aren't building wrappers but instead building systems that do the actual work of professionals, with domain expertise and regulatory understanding generic AI can't match."
+
+Parallel raised $230M at a $2B valuation. Scout AI pulled $100M Series A in defense vertical AI. Both on the same thesis: deep domain knowledge creates the moat that a chat interface on GPT-5 never will.
+
+OpenAI loses $1.35 for every dollar it earns right now, pricing inference below cost to capture market share. Token prices have dropped roughly 12x since GPT-4 launched — from $30-60 per million tokens to $2.50-10 today. That sounds like great news for AI builders.
+
+Here's the trap: agentic workflows consume 5-30x more tokens per task than standard chatbots. Enterprise teams discovered this multiplier only after the production bills arrived. Token prices fell 280x over two years. Total enterprise AI spend rose 320% over the same period because volume exploded from agentic workflows. The math that looked good in the pilot looks different at scale.
+
+When VC subsidies normalize — and $122B rounds are not a permanent feature of the landscape — inference prices will move. Companies that built products assuming race-to-zero pricing will have margin problems. Companies that built with cost discipline from day one will be fine.
+
+What gets funded next: vertical SaaS with switching costs, proprietary training data, platform dependencies, regulatory moats. Three things a horizontal AI product cannot offer.
+
+Call center AI. Clinical documentation AI. Legal AI. Each requires years of domain-specific training data and regulatory expertise that cannot be replicated by prompt-engineering a foundation model. The moat is the domain, not the model.
+
+Build wrappers for demos. Build domain systems for businesses.
