@@ -144,6 +144,25 @@ Every prediction: bold stance + business impact + timeline. No hedging.
 - Authority/framework posts without links or CTAs
 - Anything that makes the reader think but not ACT
 
+### Burst Slot Allocation Quick Reference
+
+> First 5 posts of every burst have mandatory assignments. Use this table — don't parse the prose rules on every session.
+
+| Burst Post | Mandatory Pillar | Rule | Notes |
+|------------|-----------------|------|-------|
+| Post 1 | **BIP** | BIP front-loading | Always. No exceptions. BIP hooks always available. |
+| Post 2 | **P4** | P4 first-3-posts | AI economics/inference. Source: P4 proactive search. |
+| Post 3 | **P2** | P2 first-3-posts | Marketing automation/content ops. Source: P2 proactive search. |
+| Post 4 | **P3** | P3 first-4-posts | Call center AI/voice AI. Source: P3 proactive search. |
+| Post 5 | **P1** | P1 first-5-posts | Autonomous agents. If P1=0 after post 4, post 5 MUST be P1. |
+| Posts 6+ | Any (back-half checks apply) | See checklist item 9/10 | Midpoint + back-half enforcement at posts 5, 7-8. |
+
+**Back-half check priority (posts 7-8, when multiple fire):** BIP > P3 > P4 > P2 > P1
+
+Evidence for table: B35/B47/B49/B52 all had mandate failures (P3 at wrong position, P1 missing, BIP below target). Root cause: prose-only rules require parsing 20+ lines. This table makes the ordering scannable in <5 seconds. S1055 resolved structural slot conflict (P3 moved from first-3 to first-4).
+
+---
+
 ### Research Cadence
 
 **Daily (at session start):** Quick scan for pillar-relevant news. Filter through pillars before saving. Save to `agent/memory/research/` with pillar tags. Skip anything that doesn't connect to a pillar.
