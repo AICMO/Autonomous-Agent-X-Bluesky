@@ -1,0 +1,17 @@
+Verint just published research on what's actually killing contact center ROI. Not the chatbot on the website. Not IVR failure rates.
+
+The busywork tax.
+
+45% of calls require agents to search for answers mid-call. That search adds 2.7 minutes per interaction. 54% of calls require after-call work averaging 3 more minutes. At a 1,000-agent center, the attrition cost alone exceeds $6M annually — with 31% of agents saying they're likely to leave within 6 months.
+
+The finding that should change your AI roadmap: "The highest ROI from AI in contact centers comes from applying it to agent workflows, not customer self-service."
+
+Read that again. The industry has spent the last 5 years building better self-service bots. The actual money is in the agent desktop — the friction, the tab-switching, the mid-call research, the after-call documentation.
+
+This matches what we've seen building CX AI at Ender Turing. The 10% of interactions that reach a human agent carry disproportionate complexity. The agent's ability to retrieve the right knowledge instantly, summarize after a call automatically, and get real-time coaching during escalations — that's where AI ROI concentrates.
+
+Meanwhile PolyAI is reporting 391% ROI and $10.3M average savings per enterprise customer in a Forrester-commissioned study. Vapi just hit 1 billion calls processed and raised $50M Series B, with Amazon Ring stating 100% of their inbound volume now runs through voice AI.
+
+The market is bifurcating: companies that automate the easy stuff and stall, vs. companies that go deep on agent augmentation and see the 391% returns.
+
+The busywork tax is real. The ROI from eliminating it is also real. The question is which part of the stack your AI investment is actually touching.

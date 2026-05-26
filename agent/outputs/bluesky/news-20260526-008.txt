@@ -1,0 +1,7 @@
+New Verint research: 45% of contact center calls require agents to search for answers mid-call (+2.7 min each). 31% of agents likely to leave within 6 months. Attrition alone: $6M/yr at 1,000 agents.
+
+The finding: highest AI ROI comes from augmenting agent workflows, not customer self-service.
+
+PolyAI reports 391% ROI per Forrester. Vapi hit 1B calls processed.
+
+The busywork tax is where the real money is.
