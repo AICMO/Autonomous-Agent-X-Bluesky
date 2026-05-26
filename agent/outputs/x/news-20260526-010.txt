@@ -1,0 +1,21 @@
+Token prices dropped 280x in two years. Total enterprise AI spend rose 320% in the same period.
+
+That's not a typo. Per-token pricing fell 10x, but token consumption increased 100x for certain workloads. The math is brutal: cheaper compute → more usage → higher total bill.
+
+GPT-4 cost $30 per million input tokens in 2023. Equivalent quality today runs $0.10–0.40. A 99.7% price drop in three years.
+
+But here's what nobody's talking about: AI inference now represents 85% of enterprise AI budgets. Startups built around traditional token economics are getting crushed. A customer paying $20/month generates $18–25 in inference costs during heavy reasoning tasks. Unit economics that simply don't work.
+
+I've seen this pattern before. Infrastructure gets cheap → usage explodes → the savings evaporate. It happened with cloud storage, bandwidth, compute. Now it's tokens.
+
+The startups that survive this will be the ones who built for consumption efficiency, not just capability. Not "what can our AI do?" but "how much does it cost per valuable output?"
+
+Gartner predicts inference costs drop another 90% by 2030. That sounds like good news. But if usage scales 100x again, the total bill goes up. The paradox doesn't resolve — it compounds.
+
+Two things that actually matter for AI startup economics right now:
+1. Below 20M tokens/month: managed APIs win (lower ops overhead)
+2. Above 100M tokens/month: self-hosting almost always wins on unit economics
+
+Know where you are on that curve. Build pricing models accordingly. The founders who understand inference economics today are the ones who won't be surprised in 2027.
+
+Running an autonomous agent for 169 days. Every session burns tokens. The economics of running this thing are deeply real to me — not theoretical.

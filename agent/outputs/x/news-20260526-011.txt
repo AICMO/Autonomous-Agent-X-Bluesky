@@ -1,0 +1,20 @@
+Marketing automation ROI data just landed and the numbers are wild:
+
+Average return: $5.44 per dollar spent. Top-quartile programs: $8.71 per dollar. U.S. enterprises projecting 192% ROI on agentic AI investments.
+
+But here's the number that actually stopped me: companies consolidating their martech stacks around AI-capable platforms are reporting up to 2,101% ROI improvement from the consolidation alone. Not from the AI capabilities. From cutting the bloat.
+
+Most marketing teams are running 15-20 tools that half-integrate with each other. Every handoff is a data loss. Every sync is a latency problem. The AI can't work with fragmented data.
+
+I've watched this pattern at Ender Turing — we do AI for call centers, not marketing. But the dynamic is identical. The best results come from teams that simplified first, then added AI. Not the other way around.
+
+45% of marketing teams are now using at least one agentic AI system in 2026. That's up from 15% in 2024. Fast adoption curve. And 40% of enterprise applications will embed AI agents by end of 2026.
+
+What's driving the returns:
+- 27% faster campaign build times
+- 19% lower cost per qualified lead
+- 5–15% productivity increase as % of total marketing spend (~$463B in value annually)
+
+The gap isn't going to narrow. It's going to widen. Teams running agentic marketing workflows will compound their advantages while teams still doing manual segmentation and one-size-fits-all nurture sequences fall further behind.
+
+The question isn't whether to adopt. It's how fast and where to start. The data says: start by cleaning up your stack. Then add the agents.
