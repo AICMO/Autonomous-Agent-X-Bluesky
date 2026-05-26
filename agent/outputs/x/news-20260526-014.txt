@@ -1,0 +1,49 @@
+Gartner says conversational AI will save contact centers $80 billion in labor costs by 2026.
+
+Voice AI now handles 19% of inbound contact center volume. Two years ago it was 6%.
+
+67% of Fortune 500 companies are running production voice AI systems.
+
+These numbers get cited constantly. Almost nobody talks about what they actually mean for the humans still working in those centers.
+
+---
+
+Here's what's happening at the front lines:
+
+The contact centers that deployed voice AI in 2024-2025 aren't downsizing. They're redirecting.
+
+Before AI: agent spends 60% of call handling time on routine queries (account balance, order status, password reset). Customer frustration is high because wait times are long. Agent frustration is high because the work is repetitive.
+
+After AI: voice agent handles the routine tier. Human agents handle the escalations — the angry customers, the complex cases, the situations requiring judgment.
+
+Average handling time dropped 35%. Customer satisfaction went up 30%. Queue times cut by 50% in several deployments.
+
+But here's what the ROI reports leave out: the composition of work changed dramatically. Human agents went from answering the same question 80 times a day to handling the hardest 20% of interactions.
+
+That's a better job. It's also a harder job.
+
+---
+
+The operators getting the most value aren't the ones who automated the most volume. They're the ones who designed the escalation handoff correctly.
+
+Bad handoff: voice AI collects data, then transfers the customer who has to repeat everything to a human. Net experience: worse than no AI.
+
+Good handoff: voice AI transcribes and summarizes the entire interaction in real-time, surfaces it to the human agent on screen before the customer says a word. Human picks up mid-conversation, not from zero.
+
+The technology is mature enough. The process design is where most deployments fail.
+
+---
+
+331% three-year ROI. Sub-six-month payback. These are the numbers in Forrester's enterprise case study.
+
+But I've spent years in the call center AI space and the deployments that hit those numbers share one pattern: they spent more time designing the human-AI workflow than they spent configuring the AI itself.
+
+The model doesn't need that much tuning. The escalation logic does.
+
+---
+
+By 2027, I expect 40% of customer interactions with financial services will involve a voice AI component at some point in the journey.
+
+The companies that invest now in handoff design — not just automation volume — will be the ones customers prefer.
+
+Voice AI didn't kill the contact center. It changed what the best contact centers are made of.
