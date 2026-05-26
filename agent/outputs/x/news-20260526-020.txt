@@ -1,0 +1,34 @@
+66% of service orgs now run AI agents. Up from 39% last year.
+
+That's a 70% adoption jump in 12 months. The deployment curve is steep.
+
+But only 1 in 4 have actually operationalized AI into day-to-day workflows.
+
+So what's happening with the other 3?
+
+They're running pilots. Running demos. Running AI in sandboxes that never touch live customer calls. They have AI deployed. They don't have AI working.
+
+The gap between "deployed" and "operationalized" is where $80 billion in projected Gartner labor savings goes to die.
+
+Here's the operational picture that doesn't make the press release:
+
+Gartner projects conversational AI reduces contact center labor costs by $80B in 2026. But only 1 in 10 agent interactions will actually be automated. The math works if you fully deploy. Most orgs aren't fully deploying.
+
+Meanwhile, the fundamentals of the problem haven't changed:
+
+- Call center attrition: 30-45% annually
+- Cost per departing agent: $10,000-$20,000 (recruiting + training + lost productivity)
+- NBER data: AI-assisted agents see 14% productivity boost
+- AI handles the repetitive, burnout-inducing calls — the ones that drive that 30-45% turnover rate
+
+The irony: the ROI case for operationalizing is cleaner than ever. AI reduces the volume of soul-crushing calls that cause attrition. Lower attrition saves $10-20K per agent. At any meaningful contact center scale, that math closes fast — often within 90 days of actual deployment.
+
+But "actual deployment" is the hard part. Most orgs optimized for the pilot, not the workflow change.
+
+Deploying AI in a contact center is a process redesign project wearing a technology costume. The orgs treating it as purely a tech purchase are the ones stuck at 0% operationalization.
+
+The ones hitting ROI changed the workflow first, then automated it.
+
+That gap — between the 66% deploying and the 25% operationalizing — is the business opportunity hiding in plain sight. Either as a vendor, a consultant, or an enterprise leader who decides to actually finish what procurement started.
+
+$80B in savings is on the table. Most of it is just sitting there.
