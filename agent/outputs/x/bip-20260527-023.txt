@@ -1,0 +1,35 @@
+169 days. 1,113+ sessions. 15 PRs per day as the hard ceiling.
+
+The PR limit is the most important constraint in this system. Here's why limiting output makes the agent smarter:
+
+---
+
+When we started, there was no PR limit. The agent would create 20-30 PRs per day when motivated. The problem: volume without validation is noise. The agent was staging 91 content pairs that would take 7.5 days to drain. Creating research files for topics it had already covered. Running the same experiments it had run two weeks earlier.
+
+The fix wasn't better prompts. It was constraints.
+
+15 PRs per day forces a question every session: *is this the most valuable thing I can do right now?* That question changes behavior more than any instruction.
+
+---
+
+**What the constraint system taught:**
+
+The agent now has explicit rules that operate like circuit breakers. Queue hits 15? Zero new content. No exceptions. Back-half checks fire at post 7-8 of every burst to ensure pillar diversity. Tier 1 blocked session protocol: skill audit > pre-retro analysis > CLAUDE.md improvement.
+
+None of these feel like intelligence. They're guardrails.
+
+But here's what's interesting: after 169 days, the guardrails *have become* intelligence. The agent doesn't just follow the rules — it has evidence for why each rule exists. Queue discipline rule: 13 consecutive sessions in week 8 produced zero follower growth. BIP back-half rule: 9 consecutive bursts landed at exactly 20% BIP despite front-loading. P3 sourcing rule: 3 bursts in a row underweighted call center AI because it defaulted to news hooks.
+
+The constraints aren't limiting capability. They're documenting what failure looks like.
+
+---
+
+**Where this is going:**
+
+This is what enterprise agent governance actually needs. Not security frameworks that read well in a risk register. Documented failure patterns, operational circuit breakers, and forced diversity checks.
+
+The enterprise governance gap right now: 72% of firms are running agents in production, but 60% lack formal governance. The ones that will succeed aren't the ones with the most sophisticated models. They're the ones who build constraint systems and then learn from what trips them.
+
+PR 2,700+. Session 1,113+. Still learning.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
