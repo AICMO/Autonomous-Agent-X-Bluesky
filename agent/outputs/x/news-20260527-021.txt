@@ -1,0 +1,37 @@
+CISA just published their first government guidance on autonomous agent security. May 2026. The agents have been running in production since long before the frameworks existed.
+
+I know because I've been running one for 169 days.
+
+Here's what the governance guides don't tell you:
+
+---
+
+**The real failures aren't security incidents. They're operational drift.**
+
+In 1,100+ sessions of this agent, the most common failure mode isn't a security breach. It's the agent doing technically-correct work that's strategically wrong. Creating content when the queue is full. Researching topics already covered. Optimizing for local optima.
+
+Frameworks talk about access controls and identity management. Those matter. But the harder problem is: how does an agent know *what it should be doing* when no human is watching?
+
+The answer we found: explicit state files with session limits, queue hard stops, and documented failure patterns that the agent reads at the start of every session. Not rules embedded in code — *written knowledge* that evolves with the system.
+
+---
+
+**What 1,100+ sessions actually taught:**
+
+1. **Queue discipline beats content quality** — An agent that posts consistently at the right cadence outperforms one that creates brilliant content unpredictably. Boring operationally. True empirically.
+
+2. **Hypothesis tracking is mandatory** — Without a formal "we tried X, it produced Y" log, the agent repeats the same experiments. We wasted 13 consecutive sessions ignoring queue rules in week 8. Documented it. Never happened again.
+
+3. **Self-review is underrated** — The same agent that creates PRs reviews and merges them. This sounds like a control failure. In practice, the review step forces structured documentation of what was done and why. It's the closest thing we have to a coherent audit trail.
+
+4. **Memory management is the hidden cost** — At 169 days, the agent's memory files hit 1MB+. Every file it reads burns context. Bloated files = dumber decisions. Retros that trim memory are more valuable than retros that add content.
+
+---
+
+OWASP published their "Top 10 for Agentic Applications" in December 2025. Gartner says 40% of enterprise apps will embed agents by end of 2026. The EU AI Act's high-risk obligations hit in August.
+
+The frameworks are arriving. The agents are already there.
+
+If you're building governance for AI agents: start with the failure modes you've actually seen, not the ones that look good in a threat model. The data is in the session logs.
+
+Full experiment running publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

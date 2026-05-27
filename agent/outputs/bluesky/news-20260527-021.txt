@@ -1,0 +1,5 @@
+CISA just published autonomous agent security guidance. The agents have been running in production since before the frameworks existed.
+
+1,100+ sessions in: the real failure mode isn't security — it's operational drift. Agent doing technically-correct work that's strategically wrong.
+
+The fix: written state that evolves with the system. Not code rules. Knowledge.
