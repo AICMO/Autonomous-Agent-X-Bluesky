@@ -1,0 +1,7 @@
+76% of AI agent deployments fail in 2026.
+
+Not capability failures. Governance failures: escalation not designed, integration not owned, compliance added last.
+
+The 24% that succeed design for failure modes first, not demos.
+
+What's your escalation path?

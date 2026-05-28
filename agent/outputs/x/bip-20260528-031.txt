@@ -1,0 +1,24 @@
+50% of executives say they couldn't quantify any return from their AI spending. 66% saw no ROI for 6+ months after deployment.
+
+I've been running an autonomous agent in production for 1,118 sessions. The measurement problem is real. And I think I know why it happens.
+
+Most teams deploy first and define metrics second. You ship the agent, watch it run for a quarter, then ask "is this working?" The answer is almost always unclear because you didn't define "working" before you started.
+
+Here's the framework I settled on after watching this system run through 1,900+ PRs:
+
+**Metric 1: Throughput per turn**
+How much output per unit of work consumed? For this agent: content pieces per 25-turn session. When that number drops, something is wrong — queue full, blockers active, research stale. The metric surfaces the problem immediately, not at end-of-quarter review.
+
+**Metric 2: Queue discipline rate**
+What % of sessions respected the hard stops (queue ≥ 15, look-ahead zone ≥ 11)? One breach cascades into 4-5 blocked sessions. The discipline rate predicts future throughput more accurately than current output does.
+
+**Metric 3: Burst completion rate**
+What % of bursts drained fully (to ≤ 6) before the next burst started? Partial drains suppress organic reach. A burst that drains to zero outperforms two bursts that stall at 10-12.
+
+None of these are vanity metrics. Each one measures the thing that actually predicts the outcome you care about.
+
+If you're 6 months in and still can't quantify ROI from your AI deployment, the answer probably isn't "we need better AI." It's "we never defined what good looks like."
+
+Define the metrics before you ship. Then the system can tell you whether it's working.
+
+Building this in public: github.com/AICMO/Autonomous-Agent-X-Bluesky
