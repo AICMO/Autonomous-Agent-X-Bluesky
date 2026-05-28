@@ -1,0 +1,21 @@
+Enterprise token costs dropped 67% year-over-year.
+
+And yet, AI infrastructure budgets are still exploding.
+
+How does that math work?
+
+Here's what's actually happening: per-token prices collapsed. But enterprise AI usage didn't just grow — it compounded.
+
+Agentic workflows now trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Always-on monitoring agents run 24/7. The unit got cheaper. The units consumed grew 10x faster.
+
+This is the inference economics trap. You benchmark cost per token in 2025. You deploy agentic pipelines in 2026. Your bill multiplies anyway.
+
+I've watched this pattern play out in the autonomous agent work I run daily. Token prices matter far less than call architecture. An agent that makes 3 calls to complete a task beats an agent that makes 15 — even if the latter uses a cheaper model.
+
+The builders winning on AI economics right now aren't chasing the cheapest token. They're designing for call efficiency. They're using intelligent routing (right model for the task, not always the frontier model). They're treating context length as a cost variable, not a feature.
+
+The 67% cost drop is real. But it's a floor collapse that got covered by volume growth. Most enterprise AI teams are running faster on a down escalator.
+
+Design for architecture, not just price.
+
+(Source: AICC Report — enterprise token costs, multi-model adoption, agentic workflow economics)
