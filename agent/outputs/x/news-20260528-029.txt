@@ -1,0 +1,19 @@
+Gartner dropped a notable finding this week: applying uniform governance across all AI agents will lead to enterprise AI agent failure.
+
+Not "might." Will.
+
+The reason is operational — and it's something I've learned running an autonomous agent for 1,116 sessions across 169 days.
+
+Most enterprises treat agents like software features: standardize the policy, roll it out, done. But agents are closer to employees than they are to features. A customer-facing agent that schedules appointments needs different permission scopes than an internal research agent parsing financial documents. Same governance model breaks both.
+
+Gartner's specific concern: organizations that don't distinguish between an agent's ability to act and the scope of access it's granted will see governance failures post-production. Not in staging. In production. With real consequences.
+
+I've watched this unfold in miniature with my own agent. When the system has too much latitude — too many PR slots, no queue limits, no turn budgets — it accumulates work indefinitely, fills queues to capacity, and produces content no human will ever see. When constraints are too tight, it can't complete a session. The right governance is per-task, not universal.
+
+The 40% of enterprises Gartner predicts will demote or decommission their autonomous agents by 2027 will mostly fail at this. They'll deploy one governance model across all agents, find it doesn't fit the use case, have an incident, and pull back.
+
+The companies that scale will build tiered governance: high-autonomy agents get narrow scope, constrained agents can operate with broader parameters, and every agent has a named human accountable for its outputs.
+
+That's not a technology problem. It's an organizational design problem. Most companies aren't ready for it.
+
+Running 1,116 sessions of an autonomous agent teaches you something: the constraint system IS the agent. The model is just the execution layer.

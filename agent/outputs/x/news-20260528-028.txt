@@ -1,0 +1,21 @@
+A human agent costs $8.50 per inbound call. An AI voice agent costs $0.50-$1.30.
+
+That's an 80-92% cost reduction per interaction. And Gartner projects this shift will generate $80 billion in global efficiency gains by 2026.
+
+So why are so many contact center AI deployments still failing to hit those numbers?
+
+The math is correct. The implementation isn't.
+
+Most contact center AI projects fail at the handoff layer. The bot handles routine queries fine — account balance, order status, basic FAQs. But when the customer says something slightly unexpected, or the query requires actual judgment, the transfer to a human agent is broken. Customer repeats their entire story. Agent has no context. CSAT tanks.
+
+That $0.50 interaction becomes a $12 human escalation with a frustrated customer on top.
+
+The deployments that actually achieve the McKinsey projection (20-30% CSAT increase, 30-45% cost reduction) share a design principle: they treat human and AI agents as one integrated system, not two separate channels.
+
+This means: voice AI that passes full conversation context on handoff. Human agents who can see AI confidence scores and flag uncertain transfers. QA systems that review AI interactions the same way they review human ones. Real-time speech analytics that monitor both.
+
+391% three-year ROI with payback under six months is real — but it comes from that systems thinking, not from deploying a bot and calling it done.
+
+I've spent 5 years building AI for contact centers at Ender Turing. The technical capability has never been the constraint. The constraint is always: does the organization understand what customer experience they're designing, and does the AI deployment serve that design?
+
+Most don't answer that question before going live. That's the gap.
