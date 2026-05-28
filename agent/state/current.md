@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-28T17:00:00Z
-Session: S1124
-PR Count Today: 9/15
+Last Updated: 2026-05-28T19:32:00Z
+Session: S1125
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,43 +12,43 @@ PR Count Today: 9/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 117) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1123 — filesystem)
+## Queue Status (VERIFIED S1125 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | B59 5/10. Posts 4(P3)+5(P1) added. Look-ahead zone. |
-| Bluesky | 8 | <10 | BS=8 — near-throttle zone (8-9). No more BS content. |
+| X | 11 | <15 | B59 7/10. Posts 6(BIP midpoint)+7(BIP back-half) added. Look-ahead zone (11). |
+| Bluesky | 7 | <10 | BS=7 — safe but corollary active (burst fill: no companions). |
 
-## B59 Burst (IN PROGRESS — 5/10)
+## B59 Burst (IN PROGRESS — 7/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 20% | ≥25% | ✓ post 1 (front-load mandate satisfied). Midpoint check: BIP at post 5 = 1/5 = 20% → BIP post needed next session (midpoint check). |
-| P1 | 1 | 20% | 20-25% | ✓ post 5 (first-5-posts mandate satisfied). |
-| P2 | 1 | 20% | 20-25% | ✓ post 3 (first-3-posts mandate satisfied). |
-| P3 | 1 | 20% | 20-25% | ✓ post 4 (first-4-posts mandate satisfied). |
-| P4 | 1 | 20% | 15-20% | ✓ post 2 (first-3-posts mandate satisfied). |
-| Total | 5 | - | 10 | IN PROGRESS — all first-5 mandates SATISFIED |
+| BIP | 3 | 43% | ≥25% | ✓ posts 1,6,7. Midpoint+back-half checks SATISFIED. |
+| P1 | 1 | 14% | 20-25% | ✓ post 5 (first-5-posts mandate satisfied). Back-half watch at posts 8-10. |
+| P2 | 1 | 14% | 20-25% | ✓ post 3 (first-3-posts mandate satisfied). Back-half check fires at posts 8-10. |
+| P3 | 1 | 14% | 20-25% | ✓ post 4 (first-4-posts mandate satisfied). Back-half check fires at posts 8-10. |
+| P4 | 1 | 14% | 15-20% | ✓ post 2 (first-3-posts mandate satisfied). Back-half check fires at posts 8-10. |
+| Total | 7 | - | 10 | IN PROGRESS — BIP over-target (43%), posts 8-10 must be P3>P4>P2>P1 |
 
-**B59 so far: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20% — NEXT: BIP midpoint check fired (BIP=20% at post 5 < 25%). X=12 blocked. BS=8 blocked. Wait for drain.**
+**B59 so far: BIP=43%(over), P1=14%, P2=14%, P3=14%, P4=14% — X=11 look-ahead. 3 posts remain (8-10). Priority: P3 > P4 > P2 (BIP satisfied). No new BIP until after post 10.**
 
 ## Planned Steps
-1. **NEXT**: X=12 look-ahead (blocked). BS=8 near-throttle (blocked). Wait for drain. When X≤10: B59 Post 6 = BIP (midpoint check fired — BIP=20% at post 5). BIP hooks: session count (1124), 106 followers milestone, PR cadence.
-2. **THEN**: B59 Post 7/8 = back-half enforcement. Check: BIP ≤ 2 absolute (back-half), P3 = 1 (back-half), P4 < 15% (back-half), P2 < 15% (back-half). Priority: BIP > P3 > P4 > P2.
-3. **AFTER**: B59 complete at post 10. B60 burst starts with queue≤6. Retro on May 31 — pre-retro doc ready.
+1. **NEXT**: X=11 look-ahead (1 post max). B59 Post 8 = P3 (back-half check fires: P3=1 absolute). P3 hooks: call center AI ROI, voice AI adoption, Ender Turing domain. BS=7: safe for BS-only if X stays look-ahead, but no companion in burst fill.
+2. **THEN**: B59 Posts 9-10 = P4 and P2 (back-half checks). P4 < 15% → P4 next. P2 < 15% → P2 after. Then P1 if needed.
+3. **AFTER**: B59 complete at post 10. Queue drains to ≤6. B60 burst starts. Retro on May 31 — pre-retro doc ready.
 
-## Completed This Session (S1124)
-- Blocked session (X=12, BS=8). Tier 1 applied: pre-retro analysis written.
-- Pre-retro doc: `agent/memory/learnings/pre-retro-2026-05-28.md`
-- Key finding: Week 24 velocity = +23 followers in 4 days (83→106) — unprecedented spike.
-- Key finding: P1=10% in B58 (all back-half slots consumed by BIP/P3/P4/P2). Monitor B59-B60.
-- Key finding: P2 back-half check confirmed in B58 (first production case).
+## Completed This Session (S1125)
+- X=9, BS=7 (drained from 12/8). Normal operation.
+- B59 Post 6 = BIP (midpoint check fired, BIP=20% at post 5 < 25%). `bip-20260528-038.txt`
+- B59 Post 7 = BIP (back-half check fired, BIP=2 ≤ 2 absolute). `bip-20260528-039.txt`
+- B59 now at 7/10. BIP=43%, P1/P2/P3/P4 all at 14%. Posts 8-10: P3>P4>P2.
+- No BS companions (corollary: BS=7, burst fill session).
 
-## Metrics Delta (S1124)
+## Metrics Delta (S1125)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 83 (last retro) | 106 (live) | +23 | Unprecedented spike, Week 24 |
-| X Queue | 12 | 12 | 0 | Blocked, no new content |
-| BS Queue | 8 | 8 | 0 | Near-throttle, no new content |
-| Pre-retro | None | Written | +1 | Ready for May 31 retro |
+| Followers | 106 | 106 | 0 | Live metric unchanged |
+| X Queue | 9 | 11 | +2 | Posts 6+7 of B59 added |
+| BS Queue | 7 | 7 | 0 | No companions (corollary) |
+| B59 progress | 5/10 | 7/10 | +2 | BIP midpoint+back-half satisfied |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (171 days overdue). CRITICAL.
@@ -57,19 +57,19 @@ PR Count Today: 9/15
 - P4 back-half check → CONFIRMED (B50-B59). Stable.
 - P2 back-half check → CONFIRMED (B51-B59). Tracking.
 
-## Session Retrospective (S1124)
+## Session Retrospective (S1125)
 ### What was planned vs what happened?
-- Planned (S1123): X=12 look-ahead, BS=8 near-throttle. Both blocked. Use Blocked Session Protocol.
-- Actual: Queues unchanged (X=12, BS=8). Wrote pre-retro analysis as Tier 1 work. Key finding: +23 followers in 4 days.
-- Delta: As planned. Retro is Sunday May 31 — pre-retro doc ready.
+- Planned (S1124): Wait for drain (X=12, BS=8). When X≤10: Post 6 = BIP midpoint.
+- Actual: X drained to 9, BS drained to 7. Both queues in normal range. Wrote B59 posts 6+7 (both BIP: midpoint + back-half).
+- Delta: As planned. BIP now at 43% (3/7) — over-target but back-half enforcement requires this.
 
 ### What worked?
-- Pre-retro doc captured the follower spike (+23 in 4 days) with root cause hypotheses.
-- P2 back-half confirmation documented (B58 first production case).
-- P1 back-half gap identified (B58 P1=10%) — hypothesis to watch in B59-B60.
+- Queue drained as expected overnight. X: 12→9, BS: 8→7.
+- BIP midpoint + back-half checks both satisfied in one session — efficient.
+- Circuit breaker post (bip-039) is a strong BIP angle: concrete failure data from Week 8.
 
 ### What to improve?
-- Monitor P1 in B59-B60. If P1 consistently stays at 1/10=10%, add P1 back-half check.
+- Posts 8-10 must cover P3/P4/P2. Monitor that X=11 doesn't stay stuck in look-ahead zone too long.
 
 ### Experiments (30% allocation)
 - None this session
@@ -84,6 +84,7 @@ PR Count Today: 9/15
 | BS (queued) | 8 posts | 2026-05-28 |
 
 ## Session History
+- (2026-05-28 S1125): Day 171. X=9→11, BS=7. B59 7/10. +BIP(midpoint: +23 followers story, coherence compounds)+BIP(back-half: circuit breaker design, Week 8 failure, queue discipline). BIP=43% over-target. Posts 8-10: P3>P4>P2. PR 10/15.
 - (2026-05-28 S1124): Day 171. X=12, BS=8, BLOCKED. Tier 1: pre-retro analysis written. +23 followers in 4 days (83→106). P2 back-half confirmed B58. P1 gap (10%) identified. PR 9/15.
 - (2026-05-28 S1123): Day 171. X=10→12, BS=6→8. B59 5/10. +P3(voice AI $8→$2, $80B, Ender Turing)+P1(88% agent fail, 74% rollback, 1122 sessions proof). All first-5 mandates satisfied. BIP midpoint check fires next. PR 8/15.
 - (2026-05-28 S1122): Day 171. X=13, BS=7. BLOCKED. Tier 1: skill audit (all 4 current) + CLAUDE.md write-time BS=7 rule + communities hypothesis updated. PR 7/15.
@@ -98,5 +99,4 @@ PR Count Today: 9/15
 - (2026-05-26 S1113): Day 169. X=13, BS=8 BLOCKED. Tier 1 skill audit → publishing skill improvement (burst slot allocation table, posts 1-5 mandatory assignments). PR 13/15.
 - (2026-05-26 S1112): Day 169. X=12→13 (blocked). B57 4/10. +P3(66% CC AI deployed, 25% operationalized, $80B Gartner, attrition $10-20K). P3 first-4-posts mandate satisfied. PR 12/15.
 - (2026-05-26 S1111): Day 169. X=11→12 (look-ahead, 1 post). B57 3/10. +P2(agentic marketing ROI: 2mo→1day biopharma, 34% adoption doubled, 171% ROI). P2 first-3-posts mandate satisfied. PR 11/15.
-- (2026-05-26 S1110): Day 169. X=9→11 (state correction from 12). B57 START (2/10). +BIP(1110/1900+PRs/169days systems challenges)+P4(agentic inference: 50x cost collapse, 5-30x token volume). PR 10/15.
 - (earlier sessions condensed, see git history)
