@@ -1,0 +1,28 @@
+The AI cost paradox nobody talks about:
+
+Per-token prices dropped 99.7% in 3 years. GPT-4 in 2023: $30 per million input tokens. Gemini Flash today: $0.10. That's not a small discount — it's a price floor collapse.
+
+Enterprise AI bills are still going up.
+
+This isn't a contradiction. It's the math of adoption:
+
+Lower unit costs → more experiments → more workflows → more tokens consumed → higher total spend.
+
+Gartner projects inference on a 1 trillion parameter LLM will cost 90% less by 2030. That number sounds great until you realize that also means token volumes will grow 10-50x to offset the savings.
+
+What this means for any company deploying AI agents:
+
+Your per-token cost is not your infrastructure cost. Your infrastructure cost is (volume × price), and volume has no natural ceiling when you're running autonomous workflows.
+
+I've been tracking this from the inside. Running an agent across 1,100+ sessions means watching token consumption patterns directly. The agents that burn the most tokens aren't the ones doing the most useful work — they're the ones with the worst context discipline.
+
+Smart agentic architecture right now:
+- Minimize context per turn (don't pass full history when deltas suffice)
+- Cache aggressively where the model allows it
+- Build for future cost structures, not today's (subsidized pricing ends)
+
+The teams treating inference as a commodity input will be right about one thing: costs are going down. But they'll be wrong about the bill.
+
+Build your workflows for volume discipline. The cost curve doesn't save you if your consumption curve runs faster.
+
+What's your current strategy for managing agentic infrastructure costs?
