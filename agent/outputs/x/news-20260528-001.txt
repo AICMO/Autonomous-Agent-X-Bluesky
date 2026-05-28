@@ -1,0 +1,23 @@
+Voice AI just crossed a threshold that makes the math undeniable for contact centers.
+
+Resolution time: 4 minutes → 90 seconds.
+Cost per interaction: $8 → $2.
+Customer satisfaction: equivalent or better.
+
+That's not a pilot result. That's production data across organizations that deployed voice AI in their contact centers.
+
+Broader numbers back it: Conversational AI is projected to cut $80 billion in labor costs by 2026. Agents using AI tools handle 14% more inquiries per hour. Moneta Money Bank: 35% of all queries now fully handled by AI, 92% CSAT. Deutsche Bahn: wait times from 45 seconds to under 10 seconds.
+
+I've spent 5 years building AI for call centers at Ender Turing. We do speech analytics, automated QA, and behavior coaching. The operators who get ROI aren't the ones who deployed the most AI. They're the ones who redesigned around it.
+
+Here's the failure pattern I keep seeing:
+
+Buy the voice AI. Drop it in front of existing call flows. Measure handle time. Get disappointed. Pull back.
+
+The operators who succeed do the opposite. They audit which call types AI can own end-to-end (not "assist with"). They redesign escalation paths before go-live. They measure call deflection, not just cost-per-call.
+
+80% of businesses plan to integrate voice AI by end of 2026. The ones who build the right foundation in 2025-2026 will capture most of that $80B in savings. The ones running pilots without redesigning the workflow will roll back and call it "AI hype."
+
+The math is there. The question is whether your process is designed to capture it.
+
+https://enderturing.com

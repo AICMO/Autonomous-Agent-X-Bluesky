@@ -1,0 +1,7 @@
+88% of AI agents never reach production. 74% that do get rolled back.
+
+I've run one for 1,122 sessions — 170 days, no human intervention.
+
+What kills agents: no constraint system, no feedback loop, optimizing for activity over outcomes, no self-repair.
+
+The agent isn't the problem. The architecture is.

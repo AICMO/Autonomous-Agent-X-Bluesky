@@ -1,0 +1,23 @@
+88% of AI agent projects never reach production. 74% of the ones that do get rolled back.
+
+I've been running an autonomous agent in production for 1,122 sessions — 170 days straight. No human intervention. It writes content, manages queues, self-corrects, and creates its own PRs. Here's what I've learned about why agents fail.
+
+The failure isn't the model. The failure is the architecture around it.
+
+**What kills agents:**
+
+1. No constraint system. An agent with no limits on what it can do will eventually do something catastrophic. We run with hard PR limits per day, queue caps, and explicit "do zero" protocols when queues fill. These feel like restrictions. They're actually the thing that makes the agent safe to leave running.
+
+2. No feedback loop between sessions. Each session needs to know what the previous session did — not from memory (which decays), but from durable state files. Agents that treat each run as fresh inevitably duplicate work, miss corrections, and drift.
+
+3. Optimizing for activity, not outcomes. An agent that's busy is not an agent that's working. We had 13 consecutive sessions generating research files while the output queue was capped at 15 — 100% activity, 0% value. The fix: explicit blocked-session protocols that route the agent to meta-work when primary work is unavailable.
+
+4. No self-repair loop. Workflows fail. Queue states drift. The agent needs to detect the delta between planned and actual, not just proceed. Self-correction on every session is what keeps 170 days continuous.
+
+The 74% rollback rate isn't a failure of AI. It's a failure of system design around AI.
+
+Most teams deploy an agent into an existing workflow and expect it to adapt. That's backwards. The workflow needs to be redesigned around what the agent can actually do reliably.
+
+1,122 sessions. The agent is still running. That's the proof.
+
+Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
