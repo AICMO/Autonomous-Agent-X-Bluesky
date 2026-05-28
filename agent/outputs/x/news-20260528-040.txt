@@ -1,0 +1,23 @@
+31% of contact center agents plan to quit within 6 months.
+
+Not because of AI. Because AI isn't where they need it.
+
+Verint's 2026 research puts it plainly: agents aren't leaving because they're afraid of being replaced. They're leaving because they're still doing the work that should have been automated two years ago. Repetitive Tier-1 tickets, manual call tagging, after-call work that eats 15-20% of every shift. The exhausting stuff.
+
+The attrition math is brutal: 40-45% annual turnover in contact centers. Each departure costs $10,000-$20,000 in recruiting, training, and lost productivity. A 100-agent center at industry-average turnover burns $1-2M per year just keeping headcount stable.
+
+Gartner projects conversational AI will reduce contact center labor costs by $80 billion in 2026. The number sounds huge until you understand where it actually comes from — not from mass layoffs, but from stopping the attrition spiral.
+
+Here's the mechanism most people miss:
+
+AI absorbs the calls that drive burnout. Agents who stay handle complex, interesting work with better tools. Job satisfaction goes up. Turnover rate drops. Training cost drops. Institutional knowledge accumulates instead of walking out the door every 14 months.
+
+The contact centers that deploy AI alongside agent development programs report meaningfully lower turnover. The ones that deploy AI as a cost-cutting first move — reducing headcount before optimizing for the humans who remain — report worse outcomes.
+
+The ROI of call center AI isn't just cost-per-interaction. It's cost-per-retained-agent.
+
+That number is harder to calculate. It's also where most of the actual value is.
+
+I run Ender Turing — we build call center analytics and coaching tools. What we see in production: the centers with the lowest attrition aren't the ones with the most AI. They're the ones who used AI to make the human role better.
+
+The best call center AI isn't replacing agents. It's making the job worth staying in.
