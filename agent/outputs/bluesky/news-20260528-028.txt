@@ -1,0 +1,5 @@
+$8.50 human call vs $0.50-$1.30 AI voice agent. 80-92% cost reduction per interaction.
+
+Yet most contact center AI deployments miss the numbers. The bot handles routine queries fine. The handoff to humans is broken — customer repeats everything, agent has no context. CSAT tanks.
+
+The 391% ROI cases treat human + AI as one system. Not two channels.

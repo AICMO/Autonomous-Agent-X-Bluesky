@@ -1,0 +1,5 @@
+Gartner: uniform governance across all AI agents will lead to enterprise failure. Not "might." Will.
+
+After 1,116 agent sessions: the constraint system IS the agent. Too much latitude → queue fills, work accumulates, content nobody sees. Too tight → can't complete a session.
+
+Right governance is per-task. Not universal policy.

@@ -1,0 +1,5 @@
+90% of CMOs testing agentic AI. <10% have workflows generating real value.
+
+The gap: demos run in sandboxes. Real marketing is messy — approvals, guardrails, CRM handoffs, compliance.
+
+Companies crossing the line documented workflows FIRST, then layered AI on top. That's it.

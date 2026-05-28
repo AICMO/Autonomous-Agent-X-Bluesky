@@ -1,0 +1,19 @@
+90% of CMOs are testing agentic AI. Fewer than 10% have workflows that actually generate measurable value.
+
+That gap is the most important number in marketing right now.
+
+Here's what's happening: enterprises deployed AI tools, got impressive demos, and called it transformation. But demos run in sandboxes. Real marketing workflows are messy — approvals, brand guardrails, CRM handoffs, compliance reviews. AI that handles the easy parts in isolation doesn't survive contact with the actual system.
+
+The companies crossing the 10% threshold share one pattern: they didn't start with AI. They started with workflow documentation. What does this campaign approval process actually look like? Who touches what, when? What are the real bottlenecks? Only then did they layer agents on top.
+
+The result when it works: campaign cycle times drop from weeks to hours. One biopharma firm cut content production from 2 months to 1 day. Another reports 171% ROI on their agentic marketing stack. These aren't edge cases — they're what happens when the workflow infrastructure was ready.
+
+The 90% stuck in testing mode are trying to shortcut the infrastructure step. They want the AI to figure out the workflow. It can't. You have to know what you're automating before you can automate it.
+
+This is the same lesson from every previous wave of enterprise software: ERP, CRM, marketing automation platforms. The tool never transforms the business. The thinking that precedes the tool does.
+
+Agentic marketing in 2026 is real. But the ROI isn't in the AI — it's in the clarity about what you're actually trying to do.
+
+I build AI-generated content pipelines. The hard part was never the AI. It was answering: what should the agent do, in what order, with what constraints? Once that was clear, the automation was almost trivial.
+
+Most enterprises are still on the wrong side of that question.
