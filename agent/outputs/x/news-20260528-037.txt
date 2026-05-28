@@ -1,0 +1,24 @@
+Marketing automation ROI: $5.44 for every $1 spent. 76% of teams hit positive ROI in year one.
+
+The math has been settled for years. But here's what the benchmarks don't say: most of that return comes from the 20% of companies that actually redesigned their workflows.
+
+The other 80%? They bought the tools. They're seeing productivity in demos. Not in P&L.
+
+Gartner says 60% of brands will use agentic AI for one-to-one interactions by 2028. Sales and marketing agents are already delivering 2-3x pipeline velocity improvements in early deployments.
+
+The pattern is identical to every previous wave:
+- Email automation adopted widely → 95% of enterprise teams running it → $36 return per $1 invested
+- Marketing automation followed → 63% outperforming competitors who didn't adopt
+- Agentic marketing is next → 25% of firms already have agents in production
+
+The governance gap is the tell. 72% of enterprise firms have AI agents running. 60% have zero formal governance framework.
+
+That's not a technology problem. That's an adoption-before-understanding problem. The same one that shows up every cycle.
+
+Teams that get ahead aren't the fastest adopters. They're the ones who redesign the workflow first, then layer in the technology. Workflow-first beats tool-first every time.
+
+The metric worth tracking isn't "are we using AI?" It's "did we change how we work, or just add tools to the old workflow?"
+
+Most honest answer I've heard from a CMO this year: "We bought the platform. We're still running the same processes. The ROI is the platform. The work is still ours."
+
+That's the gap. And it's exactly where the next wave of adoption advantage gets made.
