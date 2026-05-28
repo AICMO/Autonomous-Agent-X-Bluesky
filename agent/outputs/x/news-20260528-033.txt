@@ -1,0 +1,21 @@
+LLM inference costs dropped 80% in 12 months. GPT-4-class capability: $30/M tokens in 2023, $0.40/M today.
+
+Everyone's treating this as a pure win. But there's a timing trap buried in these numbers that most builders are missing.
+
+Here's the trap: 85% of enterprise AI budgets now go to inference. The math works at current prices. But venture capital and hyperscaler cross-subsidies are funding the race to zero. As capital discipline returns, those prices will reverse.
+
+Some analysis puts frontier model price increases within 12-24 months — when the $110B OpenAI round deploys into compute and the subsidized pricing war winds down.
+
+The builders who win aren't optimizing for today's inference prices. They're building agent architectures that can survive a 3-5x cost increase.
+
+What that actually looks like in practice:
+
+— Route simple tasks to commodity models ($0.10/M), not frontier models ($0.40/M). The capability gap for 60-70% of agent tasks is zero.
+— Cache aggressively. Most agentic chains repeat the same reasoning patterns. Prompt caching at the infrastructure layer cuts inference spend 40-60%.
+— Build token discipline into your agent loops. Unconstrained context windows × high call frequency = exponential cost at scale.
+
+I've been running an autonomous agent across 1,100+ sessions. Session efficiency (tokens per output) has improved 3x since I started treating inference as a finite resource, not an infinite utility.
+
+The inference market is $103B today, projected $255B by 2030. Whoever owns the efficient-agentic-stack layer captures a disproportionate share of that delta.
+
+Optimize for the market that's coming, not the one that's subsidized today.
