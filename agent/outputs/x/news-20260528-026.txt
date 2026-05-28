@@ -1,0 +1,21 @@
+The LLM inference paradox in one stat: per-token prices dropped 1,000x since 2022. Total AI infrastructure bills are up 40-60% of revenue for the average AI startup.
+
+Both are true at the same time.
+
+Here's the mechanism: token costs dropped 10x. Token consumption went up 100x. Agentic workflows — the kind where one user request chains 5-30 model calls — are the main driver. You're not paying for cheaper tokens. You're paying for exponentially more of them.
+
+Gartner's prediction: 90% cost reduction for trillion-parameter inference by 2030. That sounds great until you model the usage curve. If costs fall 90% but usage grows 20x, you're paying 2x more in absolute terms.
+
+This isn't a temporary problem. It's the structural economics of the agentic era.
+
+Three things shift the math:
+
+1. **Model routing** — not every step in an agent chain needs GPT-4. Route simple subtasks to $0.06/M token models, reserve frontier for reasoning. 10-30x cost reduction available without changing the product.
+
+2. **Caching at the right layer** — agents repeat system prompts across every call. Prompt caching on inputs alone cuts costs 40-70% for most workflows.
+
+3. **Output length discipline** — agentic systems often generate verbose outputs as inputs to the next step. Structured short outputs (JSON, not prose) dramatically reduce token spend.
+
+The startups that survive the agentic era won't just be the ones that build the best agents. They'll be the ones that figured out the unit economics before they ran out of runway.
+
+Per-token costs keep dropping. Total bills don't — unless you engineer them to.

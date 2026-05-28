@@ -1,0 +1,5 @@
+LLM inference paradox: per-token prices fell 1,000x since 2022. AI infrastructure bills are now 40-60% of revenue for avg startups.
+
+Both true. Token costs dropped 10x. Token usage grew 100x. Agentic chains (5-30 calls/request) are the driver.
+
+Model routing + caching + output discipline are the only exits.
