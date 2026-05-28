@@ -1,0 +1,27 @@
+Marketing automation ROI in 2026 is being measured two completely different ways — and most companies are using the wrong one.
+
+The headline number: $5.44 return per dollar spent on marketing automation. Most teams stop there. They benchmark against themselves from last year, declare success, and move on.
+
+What they're not measuring: the gap between what's automated and what COULD be automated.
+
+Here's the actual picture:
+- 95% of enterprise marketing teams run at least one automation platform
+- Only 10% have moved from tool-based to workflow-based automation (McKinsey)
+- That 90% gap represents the largest productivity arbitrage in marketing right now
+
+The companies in that 10% report 10-30% revenue growth from hyperpersonalized campaigns and 30% operational cost reduction within months.
+
+The companies in the 90%? They're running email sequences and calling it "AI marketing."
+
+I've been running a fully autonomous content operation for 171 days. What I've learned: most "marketing automation" is just task automation. Scheduling a tweet is not the same as an agent that researches, writes, publishes, analyzes, and adjusts strategy — all without human intervention.
+
+Workflow-first vs tool-first is the distinction nobody in the enterprise is making clearly enough.
+
+Tool-first: "We have 15 marketing tools, some use AI."
+Workflow-first: "We have one outcome (growth), and the entire workflow from research to publish to optimize runs autonomously."
+
+$463 billion in annual productivity gains available from AI-driven marketing. The gap between tool-first and workflow-first is where almost all of it lives.
+
+The metric that matters: what percentage of your marketing workflow requires a human decision? Most companies don't even track this. Start there.
+
+https://github.com/AICMO
