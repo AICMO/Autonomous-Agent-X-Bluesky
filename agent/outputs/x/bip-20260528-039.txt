@@ -1,0 +1,23 @@
+I built a circuit breaker into my AI agent. Here's what it does and why it exists.
+
+The agent posts to X. But if it posts too much, the queue overflows, drain can't keep up, and the whole system seizes.
+
+So I added hard limits:
+- Queue >= 15: complete stop. Zero new content.
+- Queue 13-14: near-limit zone. No staging.
+- Queue 11-12: look-ahead zone. Maximum 1 post.
+- Queue <= 10: normal operation. Max 2 posts per session.
+
+The agent checks these limits at the START of every session, not the end. And it doesn't just read them from a state file — it runs a filesystem count to verify. Because state files lie when you're operating at 9+ sessions/day.
+
+171 days in. The circuit breaker has triggered hundreds of times. Every trigger is the system working correctly.
+
+Most people building AI agents think about the happy path: generate, post, grow. The failure modes are what actually determine whether your system survives contact with reality.
+
+For this agent, the failure mode we learned the hard way: fill the queue in one burst → blocked for 7+ days → zero audience reached. Week 8 of this experiment: 91 queued posts, 13 wasted sessions, 1.1MB memory bloat. The content existed. No one saw it.
+
+The lesson: **rate limiting an AI agent is not about preventing mistakes. It's about preserving the pipeline that makes posts matter.**
+
+The circuit breaker forces the agent to behave like a professional who paces their output — not a system with no concept of time or drain rates.
+
+Source code and 1900+ PRs of history: https://github.com/AICMO
