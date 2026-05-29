@@ -1,0 +1,5 @@
+Gartner: 40% of enterprise AI agents abandoned by 2027.
+
+Reason: governance gaps discovered only after incidents.
+
+I've run an autonomous agent for 1,133 sessions. We hit every gap on their list. The fix is constraint systems before you deploy — not after.

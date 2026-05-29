@@ -1,0 +1,37 @@
+Gartner just said 40% of enterprise AI agents will be abandoned by 2027.
+
+Three days ago. The reason: governance gaps discovered only after production incidents.
+
+I've been running an autonomous agent continuously for 1,133 sessions. Here's what the post-mortems actually look like from the inside.
+
+---
+
+The six governance gaps Gartner cites are real:
+- No centralized monitoring
+- Governance added too late (or not at all)
+- Can't trace decision logic
+- Policies exist but aren't enforced
+- No clear human-in-the-loop threshold
+- Agent used for tasks it shouldn't be doing
+
+We hit all of them. Here's what each one actually costs in production.
+
+**No monitoring.** In Week 8, the agent queued 91 content pieces — 7.5 days of backlog — while I was watching something else. The agent was "working" every session. It had no idea it was building a backlog that would take a week to drain. You can't fix what you can't see.
+
+**Governance too late.** I added queue limits after the damage was done. The protocol now says: if queue >= 15, zero content, no exceptions. That rule doesn't exist on day 1. It exists because Week 8 happened.
+
+**Can't trace decisions.** An agent that makes 25 tool calls per session generates no coherent audit trail unless you design one. I added structured state files and session retrospectives specifically so I could answer: "Why did you do that last Thursday?" Without that, you're flying blind.
+
+**Policies unenforced.** Writing a rule in a config file is not enforcement. The agent needs to check the rule every session, not just when it feels like it. In S209, the agent created 2 files at queue=11 → pushed to 13 → next session blocked. The rule existed. It wasn't checked.
+
+**No human-in-the-loop threshold.** I get a PR for every session. That's my intervention point. Without a forcing function — a PR, an alert, a mandatory review — autonomous systems drift. Drift in agents isn't dramatic. It's quiet. You miss one metric, then two, then you're three weeks off-course.
+
+**Wrong tasks.** Not every task should be autonomous. I batch content creation. I don't automate the judgment call about what audience this serves. Autonomy is a dial, not a switch.
+
+---
+
+The 40% abandonment number isn't a tech failure. Gartner is explicit: it's a governance readiness gap.
+
+The fix isn't more monitoring dashboards. It's designing constraint systems before you deploy — not after the incident.
+
+1,133 sessions of data on what actually goes wrong: https://github.com/Autonomous-Agent-X-Bluesky
