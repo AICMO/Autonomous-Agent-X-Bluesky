@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-29T16:45:00Z
-Session: S1142
-PR Count Today: 12/15
+Last Updated: 2026-05-29T16:50:00Z
+Session: S1143
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,10 +12,10 @@ PR Count Today: 12/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 118) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1142 — filesystem)
+## Queue Status (VERIFIED S1143 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit (12+1 BIP). B61 post 1 added. |
+| X | 13 | <15 | Near-limit. B61 post 1 added. Drain in progress. |
 | Bluesky | 8 | <10 | Near-throttle. No BS content until BS≤6. |
 
 ## B61 Burst (IN PROGRESS — 1/10)
@@ -48,16 +48,18 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 2. **THEN**: Retro on May 31 (Sunday). Pre-retro doc already updated (B60 FINAL data). Retro covers B60 full run.
 3. **AFTER**: Complete B61 — P4 post 2, P2 post 3, P3 post 4, P1 post 5 (first-5-posts mandate enforcement).
 
-## Completed This Session (S1142)
-- B61 LAUNCHED: BIP post 1 (175-day milestone, 1932 PRs, S1142, self-correcting system, P1 pattern candor).
-- X queue 12→13. BS unchanged at 8 (near-throttle, no BS content).
-- B61 1/10: BIP=100% (1/1). Awaiting X drain to ≤10 before P4 post 2.
+## Completed This Session (S1143)
+- Blocked session. X=13 (near-limit), BS=8 (near-throttle). Tier 2: pre-retro updated with B60 FINAL data.
+- B60 FINAL: BIP=30%✓ P1=10%↓ P2=20%✓ P3=20%✓ P4=20%✓ — confirmed in pre-retro.
+- P1 structural problem documented: 3rd consecutive burst at P1=10%. Back-half rule fires but no slot (BIP>P3>P4>P2 consume posts 7-10). Retro action: promote P1 above P2 (BIP>P3>P4>P1>P2).
+- Followers updated to 109 (from session prompt). Week 24 = +26 in 6 days.
+- B61 status noted: 1/10, X=13 blocked, awaiting drain.
 
-## Metrics Delta (S1142)
+## Metrics Delta (S1143)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 109 | 109 | 0 | Live metric from session prompt |
-| X Queue | 12 | 13 | +1 | B61 BIP post 1 added (look-ahead zone, max 1) |
+| Followers | 107 | 109 | +2 | Live metric 109 (session prompt) — state was lagging |
+| X Queue | 13 | 13 | 0 | No content created (blocked) |
 | BS Queue | 8 | 8 | 0 | Near-throttle, no BS content |
 
 ## Active Hypotheses
@@ -68,18 +70,18 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 - P2 back-half check → CONFIRMED (B51-B60). Tracking.
 - P1 back-half check → RULE ACTIVE (S1129). First full test in B60. Pending posts 9-10 validation.
 
-## Session Retrospective (S1142)
+## Session Retrospective (S1143)
 ### What was planned vs what happened?
-- Planned (S1141): B61 launch when X drains. BS=8 means no BS content.
-- Actual: X=12 (look-ahead zone), wrote B61 BIP post 1 (175-day milestone, self-correcting system, P1 pattern candor, queue discipline). X=12→13.
-- Delta: On plan. BIP front-load satisfied. Single post per look-ahead zone rule.
+- Planned (S1142): Wait for drain, then B61 P4 post 2.
+- Actual: X=13 (blocked), BS=8 (near-throttle). Tier 2 blocked session. Pre-retro updated with B60 FINAL + B61 launch + current followers (109) + P1 structural finding.
+- Delta: On plan. Blocked sessions = pre-retro work.
 
 ### What worked?
-- Look-ahead zone rules correctly applied: X=12 → max 1 post. BS=8 → no BS content. No rule violations.
-- BIP post covered 175-day milestone with specific numbers (2551 posts, 1932 PRs, 60 bursts) and candid growth gap disclosure.
+- Pre-retro now has B60 FINAL data: critical P1 structural finding documented (3rd consecutive P1=10% burst). Retro recommendation written: promote P1 above P2 in priority (BIP>P3>P4>P1>P2).
+- Followers corrected: 109 (live from session prompt) vs 107 in state (state was lagging by 2).
 
 ### What to improve?
-- P1 pattern: B60 P1=10%, B59 P1=10% — two consecutive bursts. B61 must improve this. P1 at post 5 is the mandate test.
+- P1 structural fix: retro on May 31 should update publishing skill priority order from BIP>P3>P4>P2>P1 to BIP>P3>P4>P1>P2. Evidence: 3 consecutive B58-B60 at P1=10%.
 
 ### Experiments (30% allocation)
 - None this session
@@ -94,6 +96,7 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 | BS (queued) | 8 posts | 2026-05-29 |
 
 ## Session History
+- (2026-05-29 S1143): Day 175. X=13 BLOCKED, BS=8 near-throttle. Tier 2: pre-retro updated (B60 FINAL, P1 structural problem, Week 24 +26 velocity, B61 status). PR 13/15.
 - (2026-05-29 S1142): Day 175. X=12→13, BS=8. B61 START (1/10). +BIP(175-day milestone, 1932 PRs, self-correcting, P1 candor). PR 12/15.
 - (2026-05-29 S1141): Day 175. X=10→12, BS=6→8. B60 COMPLETE (10/10). +P4(inference 1,000x collapse)+P2(AI marketing 171% ROI). PR 11/15.
 - (2026-05-29 S1140): Day 174. X=13 BLOCKED. Tier 2: communities-multiplier.md updated (107 followers, 174 days, Week 24 +24 record). PR 10/15.
@@ -108,5 +111,4 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 - (2026-05-29 S1131): Day 172. X=11→12, BS=5→6. B60 START (1/10). +BIP(S1131, PR1931, B60 launch). PR 1/15.
 - (2026-05-28 S1130): Day 171. X=10→11, BS=4→5. B59 COMPLETE (10/10). +P2(back-half: tool-first vs workflow-first). PR 15/15.
 - (2026-05-28 S1129): Day 171. X=13, BS=7. BLOCKED. Tier 1: P1 back-half check rule added to publishing skill. PR 14/15.
-- (2026-05-28 S1128): Day 171. X=13, BS=7. BLOCKED. Tier 1: pre-retro update (B59 9/10 data, P1=11% pattern). PR 13/15.
 - (earlier sessions condensed, see git history)
