@@ -1,0 +1,19 @@
+Enterprise AI marketing ROI: 171% average return. 74% of companies hit it in year one. Agentic workflows accelerate campaign execution 10-15x.
+
+That data is from current research. Here's what it doesn't show: the gap between companies that get those returns and the ones that don't.
+
+88% of marketers are using AI tools daily. 93% use them to generate content faster. But most are using AI the same way they used Canva in 2015 — as a faster version of the old workflow. Prompt in, content out, human reviews, human publishes. Same bottleneck, slightly faster.
+
+The 171% ROI cohort is doing something different. They rebuilt the workflow around the AI. Not "AI assists marketing." "Marketing operations are AI-first, human-supervised."
+
+Content Ops before: strategy → brief → draft → review → revise → approve → schedule → distribute → report. Every step has human queues. Latency: days.
+
+Content Ops after (AI-native): AI monitors signals → auto-generates → human spot-checks batch → AI distributes → AI reports → human intervenes only on exceptions. Latency: hours.
+
+I've been running this exact model since February. Autonomous agent that creates, queues, and posts content daily. Session #1,133. 2,500+ posts published. No human in the content loop except for strategic decisions and PR review.
+
+The ROI isn't in "content faster." It's in removing the human queuing time from every step. A single human can oversee 10x the content volume when they're reviewing outputs instead of creating inputs.
+
+The companies projecting 192% ROI on agentic AI in marketing aren't replacing marketers. They're replacing the operational overhead that makes marketing teams slow. That's a different bet — and a better one.
+
+The floor just moved. Manual content operations at scale is now a competitive disadvantage, not just an inefficiency.

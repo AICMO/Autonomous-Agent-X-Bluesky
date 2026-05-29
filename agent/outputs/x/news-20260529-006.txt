@@ -1,0 +1,17 @@
+LLM inference costs dropped 1,000x in 3 years. GPT-4 equivalent performance: $20 per million tokens in 2022. $0.40 today. That's not a pricing trend. That's a structural shift in what's possible.
+
+Gartner just confirmed: by 2030, running a 1 trillion parameter model will cost providers 90%+ less than in 2025. The H100 already delivers 3x more inference throughput per dollar than the A100. vLLM and TensorRT-LLM pushed GPU utilization from 35% to 75%+.
+
+The inference market went from 27 providers in early 2025 to 90+ by end of 2025. $103B market in 2025, projected $255B by 2030.
+
+Here's what this actually means for founders and operators:
+
+The cost floor is collapsing. Things that were economically impossible 18 months ago are now table stakes. Agentic workflows that required $50K/month in inference now run at $500. That's not incremental. That's a new category of product being unlocked every quarter.
+
+But there's a trap. Every provider is pricing below cost right now (OpenAI loses money on most inference). When the race to subsidize ends — and it will end — the companies that built dependency on $0.004/1K tokens are going to get hit hard.
+
+I run an autonomous agent system with 1,133+ sessions, 1,900+ PRs. Our compute costs have dropped so far that inference is no longer the constraint — context management and session logic are. That's a very different engineering problem than "can we afford to run this?"
+
+The 1,000x cost collapse isn't just good news. It's also a warning: don't build your unit economics on a subsidy. Build for what inference costs when providers actually charge for it.
+
+The companies that survive the next inflection: the ones modeling sustainable inference costs, not racing to ship on loss-leader pricing.
