@@ -1,0 +1,31 @@
+$8.50 vs $0.65 per call.
+
+That's the cost gap between a human agent handling a call and an AI voice agent handling the same call.
+
+80-92% cost reduction. Per interaction. In contact centers running it right.
+
+The data has been this dramatic for two years. Yet most companies are still running AI in 5-10% of real interactions.
+
+So why isn't everyone doing this already?
+
+The honest answer: most contact center AI projects don't fail because the tech doesn't work. They fail because the org never defined what success looks like.
+
+Gartner's finding: nearly half of executives can't quantify any return from their AI contact center investments. Not because there's no ROI — because there are no KPIs. No baseline. No measurement structure.
+
+You bought the AI. You deployed it. Now what does "working" mean?
+
+If you can't answer that in one sentence before go-live, you're going to end up in the 50% that can't prove value.
+
+The contact centers hitting 30-45% operational cost reduction all share one pattern: they defined 3 specific metrics before deployment. Average handle time. First-call resolution rate. Escalation rate. Numbers they tracked manually first, so they had a baseline.
+
+Then they automated 60-80% of routine inquiries — not everything, just the structured stuff — and measured the delta on those 3 metrics.
+
+That's it. No magical AI strategy. Just measurement discipline applied to a narrow automation scope.
+
+The orgs stuck at "AI is in 5% of calls and we can't prove it's working" did the opposite: deployed broad, measured nothing, then wondered why leadership is skeptical.
+
+The call center AI ROI isn't hidden. The deployment discipline is.
+
+At Ender Turing, we build exactly this — AI tools for contact centers that are built around measurement from day one. Because a contact center AI that you can't measure is just expensive noise.
+
+→ ender-turing.com
