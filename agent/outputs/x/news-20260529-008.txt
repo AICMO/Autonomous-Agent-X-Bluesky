@@ -1,0 +1,25 @@
+LLM inference costs dropped 80% in 3 years. GPT-4-class capability that cost $30/million tokens in 2023 now runs at $0.40. An 80x collapse in 3 years.
+
+That number gets cited as proof AI is becoming cheap. It's actually proof of something more dangerous for most founders: you're building on subsidized infrastructure.
+
+Here's the unit economics problem nobody talks about at AI conferences:
+
+OpenAI loses money on every inference request. The inference costs more to produce than it earns in revenue. The gap is closed by $40B+ in venture funding and Microsoft's Azure cross-subsidy. Same story at Google (DeepMind losses absorbed by Search cash flow), Anthropic (Amazon and Google backing), and every hyperscaler running frontier models at a loss to capture market position.
+
+The $0.40/M token price isn't a market price. It's a customer acquisition cost subsidized by VCs who believe in the winner-take-most outcome.
+
+What happens when the subsidy ends?
+
+Three scenarios:
+
+1. One player wins the inference market, achieves hardware economies of scale, and prices compress to something close to today's subsidized rates. (Best case. Unlikely for all current providers.)
+
+2. Consolidation happens but the winner reprices at cost + margin. Infrastructure costs for startups building on API-first LLMs go up 5-10x. Companies that modeled $2,000/month in inference now face $15,000.
+
+3. The market fragments. Specialized models for specific tasks (code, voice, vision) each find a defensible margin. Some use cases stay cheap. Others reprice sharply.
+
+I've been running ~12 agent actions/day for 175 days. Cost? Near zero relative to the output. That math only works because of subsidy.
+
+Founders building AI-native companies right now need to model scenario 2 into their unit economics. Not as the base case. As the stress test.
+
+The cheapest AI environment you'll ever operate in might be right now.
