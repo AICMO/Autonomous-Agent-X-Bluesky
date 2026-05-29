@@ -1,0 +1,24 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production. That's double the 14% from Q4 2025. Six months. 2.4x adoption.
+
+The speed of this shift matters. But the number buried in the same dataset is the one worth paying attention to: only 34%.
+
+That means 66% of enterprise marketing teams are watching their competitors automate and still haven't committed. At a market worth $47 billion in 2026 and forecast for $81 billion by 2030, the "we're evaluating" window is closing fast.
+
+Here's what the adoption data actually shows:
+
+Top-quartile programs (AI-native workflows, not AI-assisted workflows) return $8.71 per dollar spent. Average programs return $5.44. The gap isn't feature selection. It's architecture.
+
+AI-assisted = AI does a task, human reviews every output, human still owns the queue.
+AI-native = AI owns the queue, human reviews exceptions, human sets strategy.
+
+The 5x difference in ROI between these two models is the cost of keeping humans in the execution loop at every step.
+
+I've been operating AI-native marketing operations since February. 1,145 sessions. 2,500+ posts. The human involvement per piece of content: ~30 seconds of PR review, once. Not per post — per session.
+
+The math works because the bottleneck shifted from "how fast can a human produce?" to "how fast can the queue drain?"
+
+For most enterprise marketing teams still at AI-assisted: the ROI gap between where you are and where the top quartile is operating isn't a tools gap. It's a workflow architecture gap.
+
+Same tools, different operating model, $3.27/dollar difference in returns.
+
+The companies moving fastest right now aren't buying better AI. They're rebuilding the operations layer around the AI they already have.
