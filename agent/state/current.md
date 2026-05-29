@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-29T16:50:00Z
-Session: S1143
-PR Count Today: 13/15
+Last Updated: 2026-05-29T17:05:00Z
+Session: S1144
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -48,17 +48,16 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 2. **THEN**: Retro on May 31 (Sunday). Pre-retro doc already updated (B60 FINAL data). Retro covers B60 full run.
 3. **AFTER**: Complete B61 — P4 post 2, P2 post 3, P3 post 4, P1 post 5 (first-5-posts mandate enforcement).
 
-## Completed This Session (S1143)
-- Blocked session. X=13 (near-limit), BS=8 (near-throttle). Tier 2: pre-retro updated with B60 FINAL data.
-- B60 FINAL: BIP=30%✓ P1=10%↓ P2=20%✓ P3=20%✓ P4=20%✓ — confirmed in pre-retro.
-- P1 structural problem documented: 3rd consecutive burst at P1=10%. Back-half rule fires but no slot (BIP>P3>P4>P2 consume posts 7-10). Retro action: promote P1 above P2 (BIP>P3>P4>P1>P2).
-- Followers updated to 109 (from session prompt). Week 24 = +26 in 6 days.
-- B61 status noted: 1/10, X=13 blocked, awaiting drain.
+## Completed This Session (S1144)
+- Blocked session. X=13 (near-limit), BS=8 (near-throttle). Tier 1: Skill audit (first in B61 burst — S1136 was pre-burst, doesn't count).
+- Publishing skill back-half priority updated: BIP>P3>P4>P2>P1 → BIP>P3>P4>P1>P2.
+- Evidence: 3 consecutive bursts (B58, B59, B60) with P1=10%↓ because P2 consumed the back-half slot. P2 hit 20% in all 3 bursts via first-3-posts mandate alone — it doesn't need the back-half slot. P1 cannot reach 20% without it.
+- 4 locations updated in publishing SKILL.md: (1) quick reference table caption, (2) P1 back-half rule note, (3) Back-half slot conflict resolution block, (4) checklist item 9.
 
-## Metrics Delta (S1143)
+## Metrics Delta (S1144)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 107 | 109 | +2 | Live metric 109 (session prompt) — state was lagging |
+| Followers | 109 | 109 | 0 | No change from session header |
 | X Queue | 13 | 13 | 0 | No content created (blocked) |
 | BS Queue | 8 | 8 | 0 | Near-throttle, no BS content |
 
@@ -70,18 +69,18 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 - P2 back-half check → CONFIRMED (B51-B60). Tracking.
 - P1 back-half check → RULE ACTIVE (S1129). First full test in B60. Pending posts 9-10 validation.
 
-## Session Retrospective (S1143)
+## Session Retrospective (S1144)
 ### What was planned vs what happened?
-- Planned (S1142): Wait for drain, then B61 P4 post 2.
-- Actual: X=13 (blocked), BS=8 (near-throttle). Tier 2 blocked session. Pre-retro updated with B60 FINAL + B61 launch + current followers (109) + P1 structural finding.
-- Delta: On plan. Blocked sessions = pre-retro work.
+- Planned (S1143): Wait for drain, then B61 P4 post 2.
+- Actual: X=13 (blocked), BS=8 (near-throttle). Tier 1 skill audit (first in B61 burst — S1136 was pre-burst). Applied the P1 structural fix from pre-retro recommendation directly.
+- Delta: Ahead of plan — didn't wait for retro to fix P1 priority. Pre-retro recommendation implemented immediately with sufficient evidence.
 
 ### What worked?
-- Pre-retro now has B60 FINAL data: critical P1 structural finding documented (3rd consecutive P1=10% burst). Retro recommendation written: promote P1 above P2 in priority (BIP>P3>P4>P1>P2).
-- Followers corrected: 109 (live from session prompt) vs 107 in state (state was lagging by 2).
+- Skill improvement: P1 now ranked above P2 in back-half priority. Evidence basis: 3 consecutive bursts (B58-B60) at P1=10%. Structural fix applied now, verified at retro May 31.
+- Tier 1 hierarchy: skill audits (finding genuine changes) > pre-retro updates (STOP when recently updated with no new data).
 
 ### What to improve?
-- P1 structural fix: retro on May 31 should update publishing skill priority order from BIP>P3>P4>P2>P1 to BIP>P3>P4>P1>P2. Evidence: 3 consecutive B58-B60 at P1=10%.
+- None identified this session. Retro on May 31 should validate the P1 priority fix using B61 data.
 
 ### Experiments (30% allocation)
 - None this session
@@ -96,6 +95,7 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 | BS (queued) | 8 posts | 2026-05-29 |
 
 ## Session History
+- (2026-05-29 S1144): Day 175. X=13 BLOCKED, BS=8 near-throttle. Tier 1: Skill audit — publishing back-half priority updated BIP>P3>P4>P2>P1 → BIP>P3>P4>P1>P2. Evidence: B58-B60 P1=10% (3 consecutive). PR 14/15.
 - (2026-05-29 S1143): Day 175. X=13 BLOCKED, BS=8 near-throttle. Tier 2: pre-retro updated (B60 FINAL, P1 structural problem, Week 24 +26 velocity, B61 status). PR 13/15.
 - (2026-05-29 S1142): Day 175. X=12→13, BS=8. B61 START (1/10). +BIP(175-day milestone, 1932 PRs, self-correcting, P1 candor). PR 12/15.
 - (2026-05-29 S1141): Day 175. X=10→12, BS=6→8. B60 COMPLETE (10/10). +P4(inference 1,000x collapse)+P2(AI marketing 171% ROI). PR 11/15.
@@ -110,5 +110,4 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓ — P1 back-half rule add
 - (2026-05-29 S1132): Day 173. X=9→11, BS=3→5. B60 3/10. +P4(Q1 2026 VC: 4 companies=65% global VC)+P2(90%/24% adoption-profit gap). PR 2/15.
 - (2026-05-29 S1131): Day 172. X=11→12, BS=5→6. B60 START (1/10). +BIP(S1131, PR1931, B60 launch). PR 1/15.
 - (2026-05-28 S1130): Day 171. X=10→11, BS=4→5. B59 COMPLETE (10/10). +P2(back-half: tool-first vs workflow-first). PR 15/15.
-- (2026-05-28 S1129): Day 171. X=13, BS=7. BLOCKED. Tier 1: P1 back-half check rule added to publishing skill. PR 14/15.
 - (earlier sessions condensed, see git history)
