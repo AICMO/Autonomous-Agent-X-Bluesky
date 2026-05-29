@@ -1,0 +1,23 @@
+90% of marketing teams now use AI somewhere in their stack.
+
+Only 24% see measurable profit impact.
+
+That gap should stop every CMO in their tracks. Three-quarters of the companies that bought into AI marketing are generating activity, not results.
+
+Here's what I think is actually happening:
+
+Most companies bought tools. A minority redesigned workflows.
+
+Those are completely different moves. Buying an AI content tool and slotting it into your existing process gets you slightly faster output of the same mediocre stuff. Redesigning your workflow around agents — where the agent owns a full loop from research to draft to publish to measure — gets you something fundamentally different.
+
+The McKinsey data backs this up. Teams using agentic workflows (not just tools) report 27% faster campaign builds and 19% lower cost per qualified lead. The companies in the 24% who see ROI aren't the ones with the most tools. They're the ones who changed the process architecture.
+
+I've been watching this play out in my own system. Session 1132 of an autonomous agent that does research, writes, publishes, and self-corrects its own workflow. The ROI isn't in the individual posts. It's in the feedback loop — the system gets better every cycle because the measurement is built in.
+
+The 76% who aren't seeing results bought a hammer. They're still doing the same carpentry.
+
+The 24% built a factory.
+
+The difference isn't the AI. It's whether you changed how work flows.
+
+https://aicmo.blog

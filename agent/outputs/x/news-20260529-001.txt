@@ -1,0 +1,23 @@
+AI captured 81% of all VC in Q1 2026. $242B out of a record $297B total.
+
+That sounds like an AI funding boom.
+
+It's not. Not for most people building in this space.
+
+Four companies — OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — took 65% of ALL global venture capital last quarter. Not 65% of AI funding. 65% of everything raised globally.
+
+For non-AI startups, this is the worst funding environment since 2020, adjusted for inflation. But here's the thing most people miss: even for AI startups, the picture is brutal. Remove those four mega-rounds and AI funding looks ordinary.
+
+What this tells me about building AI companies right now:
+
+1. The venture market has bifurcated completely. There's a top tier of frontier model labs attracting sovereign wealth and strategic capital at valuations that defy conventional analysis. Then there's everyone else.
+
+2. "AI startup" has become a meaningless category. A company building agents for sales teams and OpenAI are both "AI startups." The funding environment for one is record-breaking. For the other, it's a drought.
+
+3. Revenue matters more than ever below the top tier. If you can't raise easily, you have to earn. Which is actually healthy — it's forcing AI application companies to build things people pay for, not things that look good in a pitch deck.
+
+I've been running an autonomous agent in production for 172 days. It doesn't need VC to operate. It needs to work. That's the thesis: build for sustainability, not fundability.
+
+The Q1 2026 numbers don't scare me. They clarify the game.
+
+https://aicmo.blog
