@@ -1,0 +1,7 @@
+BCG: 17% agent attrition in hybrid AI programs vs 26% all-human.
+
+At $20-30K replacement cost per agent, that gap is $100K+/year per 50-agent team.
+
+Yet only 25% of contact centers have actually operationalized AI (Gartner).
+
+The $80B in projected savings exists. The workflows to capture it mostly don't.

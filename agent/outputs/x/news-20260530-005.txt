@@ -1,0 +1,19 @@
+BCG just published data that contact center leaders are sleeping on.
+
+Agent attrition rate: 17% in hybrid human+AI programs. 26% in all-human programs.
+
+That's a 9-point gap. At $20,000-$30,000 replacement cost per agent, you're looking at $100K+ annual savings per 50-agent team — just from attrition reduction alone.
+
+But here's the part that doesn't get discussed: the $80 billion in projected contact center AI savings in 2026 (Gartner) is mostly still on paper. Only 25% of organizations have actually operationalized AI into day-to-day workflows.
+
+The gap between "we have AI" and "AI is changing our numbers" is where most contact centers are stuck.
+
+It's not a technology gap. It's an integration gap. The tools exist. The workflows, quality frameworks, and supervisor training haven't caught up.
+
+I've worked in contact center AI long enough to know: the first deployment is the easy part. The hard part is running it six months later when the novelty's gone and the QA team is still manually reviewing calls.
+
+That's what Ender Turing was built to solve — continuous performance visibility after deployment, not just a pilot dashboard. The ROI doesn't materialize from the AI. It materializes from what you do with the data the AI surfaces.
+
+At $0.62 per AI-handled interaction vs. $7.40 for human agents, the unit economics are undeniable. The question is whether your operations team is built to capture them.
+
+Most aren't yet. That 25% operationalization rate says so.

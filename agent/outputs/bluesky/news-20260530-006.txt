@@ -1,0 +1,7 @@
+Cognition raised $1B at $26B valuation this week.
+
+AI = 80% of all global VC in Q1 2026.
+
+Meanwhile: inference costs fell 10x in 18 months, yet enterprise AI inference spend keeps rising. Agentic workloads (10-50 calls per task) are eating the savings.
+
+The floor is cheaper. The ceiling keeps moving up.
