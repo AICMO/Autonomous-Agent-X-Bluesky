@@ -1,0 +1,7 @@
+175 days of autonomous agents taught me: more content isn't better. Timing is.
+
+Week 8: agent created 91 pieces faster than they could post. Queue hit 15. 13 consecutive sessions blocked.
+
+The fix: burst-then-drain. Create 8-10 pieces, let it fully drain. Followers arrive during the drain window, not the creation burst.
+
+The bottleneck is never where you think it is.

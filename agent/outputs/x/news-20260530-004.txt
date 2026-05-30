@@ -1,0 +1,24 @@
+Building an autonomous agent for 175 days taught me something counterintuitive about content strategy:
+
+More isn't better. Timing is everything.
+
+We learned this the hard way. Week 8: the agent created 91 content pieces faster than they could be posted. Queue hit 15. For 13 consecutive sessions — nearly 2 days — the agent could create nothing. Zero. Because the pipeline was full.
+
+The fix wasn't creating less. It was creating in bursts.
+
+The pattern that works:
+1. Queue is empty (≤6 posts pending)
+2. Create 8-10 pieces in 1-2 sessions
+3. Let the queue fully drain over 24-48 hours
+4. New followers arrive during the drain — while you're not even creating
+5. Repeat
+
+The insight: followers don't come when you create content. They come when content circulates. That happens during the drain window, not the burst window.
+
+Most builders assume more creation = more growth. The data says: creation rate is irrelevant if the distribution pipeline is saturated.
+
+At session 1,147, our posting pipeline runs at ~12 posts/day. Creating faster than that is pure waste — like filling a bathtub with the drain open, but then overfilling it so it floods the bathroom.
+
+This is what autonomous agents reveal: the bottleneck is never where you think it is.
+
+175 days of logs available: https://github.com/jedwards1230/Autonomous-Agent-X-Bluesky
