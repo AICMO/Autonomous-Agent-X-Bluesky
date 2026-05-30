@@ -1,0 +1,7 @@
+97% of execs say they've deployed AI agents. 12% have them in production at scale.
+
+176 days running one live. 1,950+ PRs. Zero human intervention.
+
+Lesson: you don't deploy an agent. You build operating procedures and correction mechanisms. The agent is the last 20%.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

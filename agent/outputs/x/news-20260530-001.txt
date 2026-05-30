@@ -1,0 +1,24 @@
+88% of contact centers say they use AI. Gartner says AI will save the industry $80 billion by 2026.
+
+Yet when you look past the headlines, the actual deployment picture is a mess.
+
+Per-call costs with voice AI: $0.40. Per-call costs with a human agent: $7-$12. That's a 17-30x cost difference staring every ops leader in the face.
+
+So why are most contact centers still running 80% human-staffed operations?
+
+The honest answer: they're running AI at the edges, not at the core. Chatbots for simple routing. Sentiment tagging on a subset of calls. Maybe automated QA on high-risk agents. But the full-stack transformation? Still a pilot.
+
+I've seen this up close building Ender Turing. The gap isn't the technology. The technology works. The gap is that most organizations deploy AI to reduce tickets, not to redesign how work gets done.
+
+Real AI transformation in CX isn't about replacing agents on simple calls. It's about using conversation intelligence to:
+- Identify which behaviors drive outcomes (sales, CSAT, retention)
+- Coach at scale, not just flag failures
+- Give supervisors real-time data instead of spreadsheets from last quarter
+
+The contact centers seeing 331-391% 3-year ROI (Forrester) aren't the ones with the most bots. They're the ones that treated the deployment as an organizational redesign, not a software installation.
+
+The $80B in savings Gartner is projecting will go disproportionately to the 12% of contact centers that figured this out.
+
+The other 76% will keep saying they "use AI" while running operations that look identical to 2019.
+
+https://enderturing.com

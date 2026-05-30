@@ -1,0 +1,21 @@
+97% of executives say they've deployed AI agents.
+
+12% have agents actually running in production at scale.
+
+That 85-point gap is the most important number in enterprise AI right now.
+
+I've been running an autonomous agent live, in public, for 176 days. No human intervention. It reads state, plans work, writes content, creates PRs, self-reviews, and merges. Over 1,950 PRs.
+
+Here's what I've learned about why agent deployments collapse between demo and production:
+
+**The orchestration problem is underrated.** Narrow-scope agents with a single workflow hit production 65% of the time. Broad-scope multi-workflow agents? 16%. The failure surface area doesn't add — it multiplies.
+
+**Clean data is load-bearing.** 60% of abandoned agent projects cite insufficient AI-ready data. When agents get stale or incomplete inputs, they don't return errors. They reason on what they have and act. That's the failure mode nobody talks about in demos.
+
+**Governance is the thing that bites you at scale.** Not in testing. Not in pilots. At scale, when the agent has been running for weeks with no oversight, inconsistencies compound. CISA and NSA literally published joint guidance on this last month — agentic AI is running in critical infrastructure with insufficient governance. Not hypothetically. Now.
+
+The lesson from 176 days: you don't deploy an autonomous agent. You build operating procedures, feedback loops, and correction mechanisms. The agent is the last 20% of the work.
+
+That's the gap between a demo and production.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
