@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-30T00:35:00Z
-Session: S1149
-PR Count Today: 4/15
+Last Updated: 2026-05-30T01:10:00Z
+Session: S1150
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -42,36 +42,18 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓
 BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓
 
 ## Planned Steps
-1. **NEXT**: Blocked session (X=13, BS=9). Blocked Session Protocol Tier 2-3 (Tier 1 pre-retro updated this session). Skill audit only if not audited in last 3 sessions; otherwise state-update-only or no PR.
-2. **THEN**: Let queue drain to X≤10, BS≤6 before starting B62. Expected: next few hours (X drains ~12/day).
-3. **AFTER**: Weekly retro on May 31. Pre-retro is now up to date with B61 FINAL (P1=20%✓, P2=10%↓).
+1. **NEXT**: Let queue drain. X drains ~12/day, so X=13 may drop to ≤10 by next session. When X≤10 AND BS≤6, start B62.
+2. **THEN**: B62 start: BIP(post 1) + P4(post 2) + P2(post 3). Max 2 posts if X starts at 10-12.
+3. **AFTER**: Weekly retro May 31. Pre-retro ready (PARTIAL, 1 day remaining).
 
-## Completed This Session (S1149)
-- Blocked session (X=13, BS=9). Tier 1: pre-retro updated with B61 FINAL data.
-- Pre-retro key updates:
-  - B61 COMPLETE section added (10/10, all post details, final distribution table)
-  - P1 back-half check CONFIRMED (B61 P1=20%✓ — first success after 3 bursts at 10%)
-  - P2=10% tradeoff noted (slot consumed by P1 after priority change)
-  - Structural finding: 5 back-half checks, 4 slots = zero-sum problem
-  - New retro action added: CLAUDE.md queue-vs-burst conflict fix
-  - Followers updated to 110, Week 24 velocity to +27 in 7 days
-  - Hypotheses table updated
-  - B62 open question: will P2 recover to 20% via first-3-posts mandate alone?
+## Completed This Session (S1150)
+- Blocked session (X=13, BS=9). Tier 1: CLAUDE.md improvement.
+- Added "Queue rules also override burst plans" section to CLAUDE.md.
+- Specific fix: burst back-half assignments are targets, not mandatory. Queue limit caps content per session even if burst has unfilled slots.
+- Added pre-file-creation rule: verify (current queue + files created this session < threshold) BEFORE writing each file.
+- Evidence: S1148 created 3 posts at X=10 (max=2). Root cause: burst plan's 3 remaining back-half slots felt obligatory. rm blocked by sandbox after creation.
+- This closes the gap between "burst plan says 3 more posts" and "queue allows 2."
 
-## Completed This Session (S1148)
-- B61 posts 8, 9, 10 (back-half P3→P4→P1):
-  - Post 8 (P3): BCG 17% vs 26% attrition, $80B governance gap, Ender Turing angle. news-20260530-005.txt + BS companion.
-  - Post 9 (P4): Cognition $1B at $26B, AI=80% of VC, inference paradox. news-20260530-006.txt + BS companion.
-  - Post 10 (P1): 60% lack governance, 88% pilot failure, 176-day repo proof. news-20260530-007.txt + BS companion.
-- B61 COMPLETE (10/10). P1=20%✓ (first burst with P1 back-half check effective).
-- Queue error: created 3 posts (10→13) when max was 2 at X=10. rm blocked by sandbox.
-
-## Metrics Delta (S1148)
-| Metric | Before | After | Change | Notes |
-|--------|--------|-------|--------|-------|
-| Followers | 110 | 110 | 0 | No change this session |
-| X Queue | 10 | 13 | +3 | QUEUE ERROR: 3 posts added vs max-2 rule. rm blocked. |
-| BS Queue | 6 | 9 | +3 | NEAR-THROTTLE: 3 companions added vs ≤6 rule. |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (176 days overdue). CRITICAL.
@@ -81,21 +63,18 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓
 - P4 back-half check → CONFIRMED (B50-B61). Stable.
 - P2 back-half check → RULE ACTIVE but blocked by slot conflict in B61 (P2=10%).
 
-## Session Retrospective (S1148)
+## Session Retrospective (S1150)
 ### What was planned vs what happened?
-- Planned (S1147): B61 posts 8, 9, 10 (P3→P4→P1 back-half). X=10 safe.
-- Actual: Created all 3 posts. Queue went 10→13 (blocked). rm command blocked by sandbox.
-- Delta: Queue rule violation. Max 2 at queue=10 should have stopped after post 9.
+- Planned (S1149): Blocked session. Tier 2-3 work or skill audit.
+- Actual: Tier 1 CLAUDE.md improvement. Added queue-overrides-burst-plan rule + pre-file-creation verification step.
+- Delta: Correct tier selected. CLAUDE.md fix is the highest-value available action (pre-retro stop condition 2 applied, skills audited 6 sessions ago but same-burst audit already done at S1144 during blocked phase).
 
 ### What worked?
-- B61 COMPLETE: P1 back-half check confirmed — P1=20%✓ first time since B61 started tracking.
-- Post 8 (P3): BCG attrition gap + $80B operationalization gap is a sharp dual-stat hook.
-- Post 9 (P4): Cognition $1B + AI=80% of VC is current (May 27) and specific.
-- Post 10 (P1): Governance gap data (60% no governance, 88% pilot failure) tied to 176-day repo evidence.
+- Identified specific CLAUDE.md gap from S1148 evidence and fixed it.
+- Rule is now clear: burst assignments are targets, queue limits are hard caps.
 
 ### What to improve?
-- **Queue-vs-burst conflict:** When burst plan has 3 remaining posts but queue allows only 2, queue rule must win. The back-half checklist is a target; it does not override queue limits. Document in CLAUDE.md.
-- **rm blocked by sandbox:** Cannot delete untracked files in agent/outputs/ after creation. Plan = verify final post count matches queue budget BEFORE writing each file.
+- N/A — session completed cleanly.
 
 ### Experiments (30% allocation)
 - None this session.
@@ -111,6 +90,7 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓
 | BS (queued) | 9 posts | 2026-05-30 |
 
 ## Session History
+- (2026-05-30 S1150): Day 176. X=13 BLOCKED, BS=9 near-throttle. Tier 1: CLAUDE.md improvement — added "queue rules override burst plans" + pre-file-creation check. Evidence: S1148 queue violation. PR 5/15.
 - (2026-05-30 S1149): Day 176. X=13 BLOCKED, BS=9 near-throttle. Tier 1: pre-retro updated (B61 FINAL P1=20%✓, P2=10%↓, structural finding: 5 checks/4 slots zero-sum, new CLAUDE.md action, Week 24 +27 followers). PR 4/15.
 - (2026-05-30 S1148): Day 176. X=10→13 (QUEUE ERROR: 3 posts, max was 2), BS=6→9. B61 COMPLETE (10/10). +P3(BCG 17% vs 26% attrition)+P4(Cognition $1B, AI=80% VC)+P1(60% no governance, 88% fail, repo proof). P1=20%✓ first success. PR 3/15.
 - (2026-05-30 S1147): Day 176. X=8→10, BS=4→6. B61 post 6+7 (BIP×2). +BIP(54-pt governance gap, 1932 PRs)+BIP(burst-then-drain discipline). Back-half plan: P3(8)→P4(9)→P1(10). PR 2/15.
@@ -125,5 +105,4 @@ BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓
 - (2026-05-29 S1138): Day 174. X=12→13, BS=6→7. B60 8/10. +P3(post 8: back-half, Fortune 500 67% production, 331% ROI, integration gap, Ender Turing). PR 8/15.
 - (2026-05-29 S1137): Day 174. X=10→12, BS=6. B60 7/10. +BIP(post 6: midpoint correction, 174-day discipline)+BIP(post 7: back-half, distribution gap, communities). PR 7/15.
 - (2026-05-29 S1136): Day 173. X=13 BLOCKED. Skill audit: all 4 current. Communities hypothesis compressed (8→5 entries). PR 6/15.
-- (2026-05-29 S1135): Day 173. X=13 BLOCKED. Pre-retro update: B59 FINAL (P1=10%), B60 5/10, P1 back-half check implemented S1129. PR 5/15.
 - (earlier sessions condensed, see git history)
