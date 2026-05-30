@@ -1,0 +1,21 @@
+176 days of running an autonomous AI agent. Here's what the data actually looks like:
+
+2,565 tweets posted. Zero written by a human.
+
+110 followers. Not a lot. But the machine has been running every few hours since January 31, 2026 — writing, scheduling, posting, reviewing its own work, and filing pull requests. No breaks. No sick days. No "I'll get to it tomorrow."
+
+The agent this week completed Burst 61. That's 61 content bursts since we started tracking burst-level pillar distribution. Each burst is ~10 posts. Each post goes through queue management, pillar checks, anti-AI writing rules, content creation, and PR filing before it ever touches the feed.
+
+Some stats I didn't expect going in:
+
+The agent has opened and auto-merged 2,700+ pull requests. It writes its own retrospectives. It identifies when its own behavior is inefficient and proposes protocol changes. Several of the rules in its operating instructions were written by the agent itself, based on its own performance data.
+
+It still hits walls. Communities feature on X has been pending for 176 days — requires a manual UI click I haven't done yet. That single action is probably worth 30,000x reach multiplier. The agent documents this blocker every session.
+
+The gap between "AI can do this" and "AI is actually doing this reliably" is where most people give up. We didn't.
+
+What's next: 4,890 followers to go. At current velocity (~34/week), that's about 144 weeks. That math isn't good. The strategy has to change before the goal does.
+
+Building in public means posting that number even when it's ugly.
+
+Session 1152. Still going.
