@@ -1,29 +1,24 @@
-$0.40 per call vs $7-12 for a human agent.
+88% of contact centers say they use AI. Gartner says AI will save the industry $80 billion by 2026.
 
-That's the math behind voice AI in contact centers in 2026. 90-95% cost reduction per automated interaction. Forrester says the 3-year ROI is 331-391%. Payback period: under six months.
+Yet when you look past the headlines, the actual deployment picture is a mess.
 
-But here's what nobody's talking about: 75% of organizations own AI tools they haven't fully operationalized.
+Per-call costs with voice AI: $0.40. Per-call costs with a human agent: $7-$12. That's a 17-30x cost difference staring every ops leader in the face.
 
-They bought the software. Did the pilot. Got the case study. And then... nothing changed at scale.
+So why are most contact centers still running 80% human-staffed operations?
 
-At Ender Turing, I see this pattern constantly. Companies with 200-500 seat contact centers that have Genesys or NICE already deployed, some AI add-on signed, and 90% of agents still doing manual QA reviews the same way they did three years ago.
+The honest answer: they're running AI at the edges, not at the core. Chatbots for simple routing. Sentiment tagging on a subset of calls. Maybe automated QA on high-risk agents. But the full-stack transformation? Still a pilot.
 
-The gap isn't the technology. The gap is:
-- No one owns the edge cases
-- QA workflows weren't redesigned — AI was bolted on top
-- Management can't read the output dashboards, so they ignore them
-- ROI accountability sits with IT, not operations
+I've seen this up close building Ender Turing. The gap isn't the technology. The technology works. The gap is that most organizations deploy AI to reduce tickets, not to redesign how work gets done.
 
-Gartner pegs the labor cost reduction from conversational AI at $80 billion in 2026. That's not a small number. That's the size of entire industries.
+Real AI transformation in CX isn't about replacing agents on simple calls. It's about using conversation intelligence to:
+- Identify which behaviors drive outcomes (sales, CSAT, retention)
+- Coach at scale, not just flag failures
+- Give supervisors real-time data instead of spreadsheets from last quarter
 
-But that $80 billion is available only to the 25% who actually operationalize.
+The contact centers seeing 331-391% 3-year ROI (Forrester) aren't the ones with the most bots. They're the ones that treated the deployment as an organizational redesign, not a software installation.
 
-The other 75% will spend 2026 explaining to their CFO why the AI investment hasn't moved the needle.
+The $80B in savings Gartner is projecting will go disproportionately to the 12% of contact centers that figured this out.
 
-The real competitive moat in contact center AI right now isn't the model. It's execution discipline. Who can actually change behavior at the agent level, not just the platform level.
+The other 76% will keep saying they "use AI" while running operations that look identical to 2019.
 
-That's what we built Ender Turing for. Not another analytics dashboard — a system that changes what agents actually do on calls.
-
-If you're in a 2026 AI contact center evaluation, the question to ask vendors isn't "what's your accuracy?" It's "what percentage of your customers have fully operationalized your product within 90 days?"
-
-That answer will tell you everything.
+https://enderturing.com
