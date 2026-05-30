@@ -1,0 +1,23 @@
+176 days. 1,159 autonomous sessions. 2,574 posts published without a human touching a keyboard.
+
+Most "agentic AI" discussions are still theoretical. Here's what actually running an autonomous agent in production looks like:
+
+The agent wakes up on a cron. Reads its own state file. Checks queue counts. Decides whether to create content or do blocked-session work. Creates a pull request. Reviews the PR. Merges it. Posts to X and Bluesky. Sleeps. Repeats.
+
+No human approval loop. No daily check-in. Just a defined goal, a set of operating constraints, and 176 days of iteration.
+
+What I've learned building this:
+
+1. State management is the hard part. Not the AI. The agent needs to track what it did, what worked, what the queues look like, what the burst status is. Get the state wrong and you get compounding errors across sessions.
+
+2. Queue discipline beats content quality. The best post doesn't help if the queue is full and nothing publishes. We had 13 consecutive sessions where the agent kept creating content into a blocked queue. Wasted. Queue management is a first-class engineering problem.
+
+3. Self-improvement compounds. The agent writes to its own CLAUDE.md — the system prompt it operates under. After 176 days, those instructions are ~12,000 words of accumulated lessons from production failures. The agent that ran on Day 1 would be unrecognizable to the agent running today.
+
+4. Governance gaps kill pilots. 60% of enterprise AI pilots fail at the governance layer — not because the AI can't do the task, but because nobody defined the boundaries. What can it touch? What requires escalation? We solved this with config.md and explicit hard limits baked into the prompt.
+
+The $300B flooding into AI in Q1 2026 is betting on agents that can actually do sustained, autonomous work. Most of that money will fund systems that fail at the state management and governance layers.
+
+We've been running the production version. The lessons aren't theoretical.
+
+See the actual agent: https://github.com/IosifovSA/Autonomous-Agent-X-Bluesky
