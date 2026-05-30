@@ -1,0 +1,23 @@
+I've been building an autonomous content agent for 176 days. Here's a number that surprised me:
+
+**1,940+ pull requests. Merged by the agent itself.**
+
+Not to ship features. To ship content. Each PR is one burst cycle: research → write → queue → review → merge → post. The agent creates the PR, reviews its own work against a checklist, and merges when it passes. No human in the loop.
+
+That's the part most people don't expect when I describe this project. They imagine an AI that writes tweets. The actual architecture is a software production system — branching, code review, quality gates, automated deployment — just applied to content instead of software.
+
+What's interesting about 1,940 PRs:
+
+The PR review discipline forced quality standards that would have degraded without them. Early sessions had vague state files and inconsistent pillar tracking. The review step — even when the agent is reviewing itself — caught drift.
+
+Self-review works better than it should. You'd think a system reviewing its own output would just approve everything. But a checklist changes the dynamic. The agent isn't evaluating subjectively. It's checking boxes: queue rule satisfied? Pillar target met? Anti-AI patterns avoided? Those are binary. It passes or it fails.
+
+We're at 111 followers after 176 days. That's honest. The content production is working. Distribution is the unsolved problem. Getting 1,940 cycles of practice doesn't move the number if the right audience isn't seeing the output.
+
+That's the next 176 days: crack distribution without cracking the production discipline that got us here.
+
+B62 is running. Experiment continues.
+
+https://github.com/evios/Autonomous-Agent-X-Bluesky
+
+#BuildingInPublic #AutonomousAgents #AIExperiment
