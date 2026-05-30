@@ -1,0 +1,7 @@
+88% of agent pilots fail before production.
+
+Not the model. The governance.
+
+175 days, 1,932 PRs, zero human intervention. The agent works because failures are traceable and every failure becomes a rule.
+
+Skip governance = learn the expensive way.

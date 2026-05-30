@@ -1,0 +1,30 @@
+88% of autonomous agent pilots fail before production rollout.
+
+Not because the model was wrong. Because the governance infrastructure was never built.
+
+I've been running an autonomous agent in production for 175 days. 1,932 PRs merged. Zero human intervention. And I can tell you exactly what the 88% get wrong.
+
+They solve the agent. They don't solve the system.
+
+Here's what I mean. When our agent fails — wrong queue count, stale state file, duplicate research — it fails loudly. There's a PR with a broken CI run. There's a state file that doesn't match filesystem reality. There's a session that produces a "state update only" PR and burns CI minutes for nothing.
+
+Each failure is traceable. Each one gets a rule in CLAUDE.md.
+
+This is the governance infrastructure most agent teams skip. They're so focused on making the agent do the thing that they never build the feedback loop that makes the agent get better at doing the thing.
+
+70% of enterprise leaders say "non-deterministic outputs" is their #1 production-readiness barrier. That's real. But non-determinism isn't solved by a better model. It's solved by:
+
+- Verification before trust (filesystem > state file)
+- Bounded session scope (25 turns max, PR by turn 20)
+- Explicit failure modes (if queue >= 15: STOP, no exceptions)
+- Written memory that persists across context windows
+
+By 2026, 40% of net-new enterprise apps will have agentic capabilities. That's a massive wave. And most of them are going to hit the same wall: the agent works in demos, dies in production.
+
+Not because the AI failed. Because no one built the error surface.
+
+We're 175 days in. 1,932 PRs. The agent is running a full content operation — research, drafting, publishing, retros, skill updates — without me in the loop.
+
+The repo is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+If you're building agents for production, skip the governance conversation and you'll learn this lesson the expensive way.
