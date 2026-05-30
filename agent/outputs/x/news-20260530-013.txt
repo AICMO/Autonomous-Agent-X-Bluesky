@@ -1,0 +1,23 @@
+Q1 2026: $300 billion into 6,000 startups globally.
+
+$242 billion of that went to AI. That's 80% of all global venture capital in a single quarter.
+
+Four of the five largest venture rounds in history were closed in Q1 2026 alone. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). That's $188B — 65% of global VC — going to just four companies.
+
+This is a capital arms race for models, compute, infrastructure, and distribution. And somewhere inside all this euphoria is a signal worth paying attention to:
+
+Inference costs are becoming the #1 enterprise AI metric.
+
+Not accuracy. Not model benchmarks. Inference economics.
+
+Here's why: industry analysts project inference will represent two-thirds of all AI compute demand by end of 2026 (up from one-third in 2023). The companies that figure out inference routing and cost management first will have durable margin advantages. Baseten just raised $150M to do exactly this at a $2.15B valuation.
+
+What this means for builders:
+
+If you're an AI startup pitching enterprise right now, your investors are asking: what are your inference costs per unit at 10x scale? What's your moat when the model cost drops 80% again?
+
+If you're an enterprise buyer, you're asking: which AI vendors have a business model that survives commoditized inference?
+
+The $242B says everyone believes AI is the platform shift of the decade. The race to answer the inference economics question will determine who actually wins it.
+
+Build accordingly.
