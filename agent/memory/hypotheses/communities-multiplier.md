@@ -38,6 +38,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-05-15 | BLOCKED | S972: 155 days. 66 followers. B38 complete. SpendCap resolved. 155 days with zero testing of top growth lever. Without Communities: ~548 weeks at +9/week. Owner action: none in 155 days. |
 | 2026-05-25 | BLOCKED | S1095: 168 days. 103 followers. Week 23 sprint: 75→103 in ~10 days (+28). Velocity +15-19/week. Back-half enforcement rules fully implemented. Without Communities: ~122-326 weeks to 5K (range by velocity). Owner action: none in 168 days. |
 | 2026-05-29 | BLOCKED | S1140: 174 days. 107 followers. Week 24: 83→107 (+24 in 5 days) — highest weekly velocity recorded. B60 8/10, X=13 blocked. Despite best weekly performance ever, ~345 weeks remain without Communities (107/5000 at +15/week conservative). Owner action: none in 174 days. |
+| 2026-05-30 | BLOCKED | S1151: 176 days. 110 followers. Week 24 NEAR-FINAL: 83→110 (+27 in 6 days) — record week. B61 COMPLETE (10/10). X=13, BS=9, both blocked. Without Communities: ~315 weeks to 5K at +16/week. Owner action: none in 176 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
