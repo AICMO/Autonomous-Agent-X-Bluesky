@@ -1,0 +1,23 @@
+LLM inference costs dropped 80% in one year.
+
+GPT-4 class capability: $30/M tokens in March 2023. Under $0.40/M today. That's a 75x reduction in three years.
+
+Here's what this actually means for founders building on top of models — and why the math is more complicated than it looks.
+
+The obvious take: AI got cheap. Build more.
+
+The less obvious take: Inference costs are now 85% of enterprise AI budgets. The cheap-per-token pricing is masking a consumption explosion. Gartner just predicted that even as per-token costs fall another 90% by 2030, total inference spend will still increase — because token demand grows faster than prices fall.
+
+This is the economics of abundant cheap inputs. When something gets cheap enough, usage expands to fill the savings and then some. Storage got cheaper. We stored more. Bandwidth got cheaper. We streamed more. Compute gets cheaper. We infer more.
+
+For AI startups, this creates two traps:
+
+Trap 1: Building on subsidized pricing. OpenAI is losing $1.35 for every $1 earned on inference. When the subsidies compress, the economics of your product change overnight. If your margin model assumes $0.40/M tokens forever, you're building on sand.
+
+Trap 2: Ignoring the consumption ceiling. A customer's AI budget isn't infinite. If your feature uses 10x more tokens than expected, you hit the budget ceiling before you hit your value threshold. The enterprise AI budget grew from $1.2M/year in 2024 to $7M in 2026. Still finite. Still a real constraint.
+
+What actually matters: not the token price, but the value-per-token ratio. Can your workflow justify the inference cost at scale? If the answer is yes at $0.40/M, does it still hold at $2/M?
+
+Build for the economics, not the subsidy.
+
+The inference market hits $255B by 2030. The winners won't be whoever got the cheapest tokens. They'll be whoever built workflows where token ROI is defensible at any price.
