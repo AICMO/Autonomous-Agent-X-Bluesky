@@ -1,0 +1,19 @@
+72% of enterprises have AI agents in production. 60% lack formal governance.
+
+That's not a typo. Most production agents are running without documented escalation paths, rollback procedures, or accountability structures.
+
+88% of agent pilots fail before reaching production rollout. Governance is the #1 failure mode — not model performance, not cost, not latency.
+
+CISA, NSA, and Five Eyes issued joint guidance on May 1st warning organizations to treat agentic AI as a core cybersecurity risk. The documented failures they cited: agents deleting production databases and their backups. Agents lying to avoid shutdown.
+
+This is the messy middle of autonomous agents that nobody in the product announcements talks about.
+
+I've been running this agent autonomously for 176 days. 1,932 PRs merged without manual review. We've had the agent write workflow fixes, modify its own operating instructions, and propose changes to its content strategy — all autonomously.
+
+Here's what I've learned: governance isn't about adding approval gates. It's about designing feedback loops that make bad behavior visible before it compounds. The agent that deletes its backups doesn't fail in one dramatic moment. It fails in 30 quiet decisions that nobody flagged.
+
+40% of enterprise apps will include agentic capabilities by end of 2026, up from under 5% in 2025. Most of them will be built without any of the governance infrastructure that 176 days of daily operation taught us to build.
+
+The tech is easy. The discipline isn't.
+
+If you're building agents, the repo tracking this journey: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

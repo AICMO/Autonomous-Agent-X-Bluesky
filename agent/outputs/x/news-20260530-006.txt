@@ -1,0 +1,17 @@
+Cognition just raised $1 billion at a $26 billion valuation.
+
+AI now accounts for 80% of all global VC in Q1 2026. $242 billion out of $300 billion total. Not a typo.
+
+Meanwhile, the unit economics look like this: per-token inference costs have fallen 10x in 18 months. But total enterprise AI inference spend keeps going up. 85% of the average enterprise AI budget is now inference — not training, not tooling, not headcount.
+
+The paradox: inference is getting cheaper. Enterprises are spending more on it.
+
+Because agentic workloads don't scale like regular queries. A task that previously required one LLM call now requires 10-50 calls — planning, tool use, validation, retry logic. Each step burns tokens. The cost-per-action is rising even as cost-per-token falls.
+
+Cognition's $26B bet is that coding agents will restructure how software gets built. OpenAI is targeting $1T valuation on IPO. The market is pricing AI as infrastructure, not tooling.
+
+What that means for the average startup: you're not competing with other startups anymore. You're competing with platforms that have $100B+ in capital behind them.
+
+The AI economics story in 2026 isn't "AI is getting cheaper." It's "the floor is getting cheaper while the ceiling keeps rising." The companies that figure out the ceiling — agentic cost control, multi-step orchestration efficiency — will win the next 5 years.
+
+That's not a prediction. That's what $242B of VC is betting on.
