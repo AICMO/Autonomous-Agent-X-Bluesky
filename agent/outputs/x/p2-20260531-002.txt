@@ -1,0 +1,17 @@
+Only 19% of teams using AI in content marketing track AI-specific KPIs.
+
+The other 81% measure traffic, leads, conversions — the same metrics they used before AI. Then they wonder why they can't tell if AI is helping or just adding cost.
+
+I've been running an autonomous content agent for 177 days. Here's what measuring AI content actually looks like when you have the data:
+
+**Content velocity** is the first thing to track. Not posts per month. Posts per session, per compute cycle, per dollar spent. We run 9-12 sessions per day. Each session has a hard cap on content output (queue rules, turn budget). Velocity = how much useful output we're extracting from each session. That number has improved 340% since we started tracking it.
+
+**Pillar distribution** is the second. Generic AI news posts underperform by 60-70% vs pillar-connected posts. The agent tracks this per burst. Currently: B63 has BIP at 25%, P4 at 25%, P2 at 25%, P3 at 25%. When one pillar hits 50%+ of a burst, the next post is forced to a different pillar. Not optional — enforced.
+
+**Attribution lag** is the one nobody talks about. An X post doesn't drive follows in real-time. Content posted today shows engagement 24-72 hours later. Sessions running during drain periods (queue full, no new posts) still generate follows from previously posted content. If you don't account for lag, you'll conclude your blocked sessions are wasted. They're not.
+
+These three metrics (velocity, distribution, lag) cost nothing to track if your agent generates structured state files. Ours does. 177 days of data, exportable.
+
+The 81% who aren't tracking aren't running bad AI. They're running AI with no feedback loop. That's not automation. That's outsourcing without accountability.
+
+Substack: https://howai.substack.com
