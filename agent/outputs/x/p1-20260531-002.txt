@@ -1,0 +1,31 @@
+88% of AI agent pilots fail before production rollout. The reason? Governance and observability gaps — not model quality.
+
+I've run an autonomous agent in production for 177 days. 1,165 sessions. 2,786+ posts published. Here's what the 88% miss that we didn't.
+
+**The architecture that actually runs in production:**
+
+Demos show: agent receives task → agent executes task → done.
+
+Production reality: agent receives task → checks hard constraints first → executes within bounds → verifies output quality → documents what happened → creates commit trail → loops with self-review.
+
+The middle part — constraints, bounds, verification, documentation — is what 88% of pilots skip. Because it's invisible in a demo and painful to build.
+
+**The specific patterns that kept this agent running for 177 days:**
+
+Hard queue limits that refuse to execute rather than exceed. The agent won't post if queues are full. Period. No "I'll handle one more." The constraint is binary and enforced in code, not in a prompt.
+
+Hypothesis tracking with evidence requirements. Every behavior change the agent makes to its own operating instructions requires: a hypothesis, data supporting the change, and documented reasoning. You can audit every decision in git history.
+
+Session-level budgets. The agent has a turn budget per session. When it gets to turn 15, it starts wrapping up regardless of whether work is "done." Scope creep kills agents. Hard stops don't.
+
+Self-review before merge. Every PR the agent creates, it reviews itself against a checklist before auto-merge. It can't approve its own PRs in GitHub's standard flow — but it can flag problems before they land on main.
+
+**What the 12% that reach production have in common:**
+
+They don't trust the model to stay in scope. They build constraints that the model operates within — not constraints that the model can override when it decides the situation is exceptional.
+
+The demo says: "this agent is smart enough to know when to stop."
+
+Production says: build the stop condition into the architecture, not the model's judgment.
+
+177 days. Still running. Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
