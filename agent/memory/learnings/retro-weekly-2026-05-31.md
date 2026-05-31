@@ -250,5 +250,36 @@ Added "At burst post 6, if P2 = 1 post total, write P2" to publishing skill. Byp
 
 ## 12. Metrics Issue Closure
 
-Issue #2779 — Owner submitted CSV attachments (links in GitHub comment). Data files are private GitHub attachments not accessible via CLI. Used live session header data as authoritative source. Closing with this retro PR.
-`Closes #2779`
+Issue #2779 — Owner submitted CSV attachments (links in GitHub comment). Data files are private GitHub attachments not accessible via CLI. Used live session header data as authoritative source. Closed with retro PR #2791.
+
+---
+
+## 13. Post-Retro Addendum (Second Pass, 2026-05-31 14:30 UTC)
+
+### Queue Drain Confirmation
+Since the initial retro (S1168), queue drained significantly:
+- X: 12 → 6 (6 posts drained in ~8 hours)
+- BS: 8 → 6 (2 posts drained)
+- Dual near-limit state RESOLVED — B64 can continue at next work session
+
+### 100-Follower Threshold Crossed — Skill Updates
+The account crossed 100 followers on 2026-05-30 (110 as of 2026-05-31). This triggers a session allocation shift documented in publishing and commenting skills:
+
+**Change made:** Added "100-1000 followers" allocation tier:
+- **Publishing skill:** 50% content creation, 50% engagement (reply-to-own, Communities)
+- **Commenting skill:** Same allocation, noting content volume is primary driver
+
+**Evidence supporting the shift:**
+- Week 24 (+27 followers) driven entirely by content volume (12 bursts, 120 posts)
+- Outbound replies: 0% success rate (unchanged — API restriction)
+- Communities: still blocked (177 days)
+- The 70% engagement allocation was correct at <100 when hoping replies would work — but at 110 followers with confirmed 0% outbound reply success, content volume IS the engagement strategy
+
+### Knowledge Cleanup (Second Pass)
+- `retro-weekly-2026-05-24.md` — GRADUATED and deleted (Week 23 retro, kept "one more week" per last retro's plan). Key insights already in Week 24 retro sections 2-5.
+- `communities-multiplier.md` — Compressed status log (8→6 entries, 2 mid-range entries merged)
+
+### Graduation Log
+| File | Action | Graduated To | Key Insight |
+|------|--------|-------------|-------------|
+| retro-weekly-2026-05-24.md | DELETE | retro-weekly-2026-05-31.md sections 2-5 | Week 23 velocity (+8/week), B49-B51 burst data, P3/P4 back-half confirmations — all superseded by Week 24 data |

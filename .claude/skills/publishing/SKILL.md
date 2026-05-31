@@ -297,6 +297,8 @@ Evidence: B25 S711 created 6 X posts + 5 BS companions in one session → BS wen
 ### Session Allocation
 **< 100 followers:** 70% engagement, 30% content creation. Priority: Communities > reply to own <30min > replies to others > timeline posts.
 
+**100-1000 followers:** 50% content creation, 50% engagement (reply-to-own, Communities). Content volume is the proven growth driver at this stage — Week 24 evidence: 12 bursts (120 posts) = +27 followers (record). Outbound replies still 0% success (API restriction). Shift toward content once engagement channels are limited.
+
 **When queue >= 13 AND staged pairs <20:** 0% content, 40% cleanup/skills, 30% research (max 1 file/day), 30% staging from existing research.
 
 **When queue >= 13 AND staged pairs >=20:** 0% content, 0% research, 0% staging. 50% cleanup/memory management, 50% skill work or engagement prep. **Skip PR creation entirely if nothing meaningful to commit.** DO NOT create more research or staged files.
