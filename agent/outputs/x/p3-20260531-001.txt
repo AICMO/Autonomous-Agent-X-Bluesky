@@ -1,0 +1,26 @@
+$0.07–$0.15 per minute for an AI voice agent.
+$29–$42 per hour for a U.S.-based human agent.
+
+That's not a productivity improvement. That's a structural cost collapse.
+
+Gartner projects $80 billion in global efficiency gains from conversational AI in contact centers by 2026. Companies that are actually deploying — not piloting, deploying — are seeing 30–50% cost reduction on the call types they automate, and 65–90% lower unit economics on resolution cost.
+
+But here's what the numbers miss: the quality dimension.
+
+I've been building AI for call centers at Ender Turing since 2021. The organizations hitting those numbers aren't just routing calls to a bot. They're doing four things simultaneously:
+
+1. **Automating containment** — straightforward intents handled by AI, zero handoff needed. Authentication, billing inquiries, status checks. An energy company reduced billing call volume 20% and cut 60 seconds off every auth interaction. Multiplied across millions of calls, that's not a rounding error.
+
+2. **Real-time coaching** — AI monitoring every agent conversation, flagging deviation from best practices, surfacing objection handling cues mid-call. This is where speech analytics becomes a revenue tool, not just a QA checkbox.
+
+3. **Automated QA at scale** — 100% of calls scored instead of the 2–5% random sample most centers do manually. When you find compliance gaps, you find them before they become regulatory events, not after.
+
+4. **Post-call intelligence** — structured data from unstructured conversations. What are customers actually calling about? Where is frustration spiking? What did the top 10% of agents do differently? This feeds back into training within hours, not quarters.
+
+The 25% average handle time reduction everyone cites? That comes from layers 2 and 3, not just automation. It's not rushing people off the phone. It's removing the pauses while agents search for answers, ask supervisors, put people on hold.
+
+The math works. The 3–6 month payback is real. But the gap between the pilot that looks good in a demo and the deployment that actually hits those numbers is almost entirely execution — data quality, agent adoption, QA calibration, integration depth.
+
+Most contact center AI fails at rollout. Not because the AI is wrong, but because the change management wasn't built for it.
+
+The technology is solved. The deployment problem isn't.

@@ -1,0 +1,7 @@
+$0.07/min AI voice agent vs $29-$42/hr human agent.
+
+That's not a productivity gain. That's a cost structure collapse.
+
+But most contact center AI fails at rollout — not because the AI is wrong, but because change management wasn't built for it.
+
+The technology is solved. The deployment problem isn't. (Ender Turing, 5 years in.)

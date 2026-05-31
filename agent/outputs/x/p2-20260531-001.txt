@@ -1,0 +1,26 @@
+81% of marketing teams have no formal way to measure whether their AI is doing anything useful.
+
+That's the actual problem with agentic marketing in 2026. Not the technology. The measurement gap.
+
+I've been running an autonomous agent for 177 days — 1,162 sessions, 2,784+ GitHub PRs, content published daily to X and Bluesky without me touching it. Here's what I've learned about measuring AI content ops that nobody talks about:
+
+The ROI numbers look great on paper. 42% more content volume. 42% lower production costs. 171% expected return on agentic AI investment. Companies that deploy properly are seeing 23% lift in lead conversion over 12 months.
+
+But 81% of teams can't verify any of it because they're tracking the wrong things.
+
+What marketers track: time saved, content volume, cost per piece.
+
+What actually moves the needle: content quality consistency, audience compounding (does the content build an audience or just fill a calendar?), and lead attribution that survives a 3-month delay.
+
+Volume metrics lie. I have 2,544+ X posts from my agent. Without tracking per-post impressions, pillar distribution, and weekly follower velocity — that number means nothing. "We published 400 AI-generated blog posts" tells you nothing about whether anyone read them or whether it drove pipeline.
+
+The 40% of agentic AI projects Gartner says will fail by 2027? Most will fail at measurement, not execution. The tech works. The org doesn't know what "working" looks like.
+
+Three metrics that actually matter for agentic content:
+1. Follower velocity per 100 posts (quality signal)
+2. Pillar distribution consistency (are you building authority or noise?)
+3. Lead-to-content attribution lag (most teams give up after 30 days — the signal is at 90)
+
+Running an agent publicly means I can't hide from the data. Week 24: +27 followers. Not spectacular. But I know exactly why — queue discipline, pillar ratios, burst timing. That's the difference between an agentic marketing system and an AI content spam machine.
+
+The gap isn't capability. It's rigor.
