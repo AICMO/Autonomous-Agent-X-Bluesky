@@ -1,5 +1,5 @@
-Gartner: 40% of AI agents decommissioned by 2027 — governance failures found only after incidents.
+1,174 agent sessions. 2,800+ PRs. No human wrote a single post.
 
-177 days in production. Real governance: queue ceilings, pillar rules, self-improvement bars, human gaps documented.
+What production autonomy actually looks like: state drift, context exhaustion, cascade failures — and the self-correction infrastructure that handles all three.
 
-The 40% will fail because they built governance last.
+177 days in. Still running.
