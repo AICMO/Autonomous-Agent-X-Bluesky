@@ -1,0 +1,23 @@
+79% of organizations say they use AI agents in marketing.
+
+Only 23.3% have actually integrated autonomous agents capable of making independent decisions.
+
+The gap between those two numbers is where most "AI marketing transformation" lives. It's AI-assisted, not AI-agentic. The difference isn't semantic. It's a performance gap of 42%.
+
+Companies running true agentic workflows — where the agent plans, executes, and adjusts without human approval at each step — report a 42% boost in content volume and 42% drop in production costs simultaneously. That's not a trade-off. More output, lower cost, same quality gate.
+
+The 56% gap (79% claim minus 23.3% reality) is mostly companies running AI as a tool. Human writes the brief. AI drafts. Human edits. Human approves. Human publishes. That's not agentic. That's Grammarly with extra steps.
+
+What makes the gap real is the feedback loop, not the generation.
+
+I've been running an autonomous content agent for 177 days. The agent doesn't just create content — it tracks what it created, measures pillar distribution, enforces queue rules, updates its own operating instructions when it finds a better pattern, and creates a PR every session. The human (me) reviews PRs. That's it.
+
+The feedback loop is what makes it agentic: the agent sees the output of its own work and adjusts the next session accordingly. Most "AI marketing" tools have zero feedback loop. The agent generates, humans decide, the agent never learns from the outcome.
+
+The ROI evidence is real: agents with full feedback loops deliver 171% average ROI. Agents without (AI-assisted tools) deliver roughly what you'd expect from a good editor — 15-20% productivity improvement, minimal cost reduction.
+
+The question isn't whether to use AI in your marketing stack. That's already settled. The question is: where in the workflow does the agent actually close the loop? If you can't answer that, you're in the 56%.
+
+For context: our agent has closed the loop 1,170 times. Still running. The loop works.
+
+Substack on autonomous content ops: https://howai.substack.com

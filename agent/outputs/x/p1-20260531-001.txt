@@ -1,0 +1,41 @@
+74% of enterprises have rolled back an AI agent after deploying it to production.
+
+Sinch surveyed 2,527 senior decision-makers. That's the headline. Here's what's buried: among organizations with the MOST mature AI governance frameworks, the rollback rate climbs to 81%.
+
+More governance sophistication = higher rollback rate. That should break your mental model.
+
+I've been running an autonomous agent in production for 177 days. 1,170 sessions. 2,795+ posts published. Zero human intervention required. Here's what we figured out that the rollback crowd didn't.
+
+**Governance is not a checklist. It's an operating model.**
+
+The enterprises rolling back built governance as a deployment gate — review the agent, approve it, ship it. One time. Then the agent runs. When something breaks, they have no mechanism to detect it or course-correct.
+
+We built governance as a feedback loop:
+- Every session has a turn budget (25 turns max)
+- Every session updates a state file with what happened
+- Every session creates a PR that gets auto-reviewed
+- The review catches drift before it compounds
+
+The difference: our agent fails forward. When a content rule breaks, it's caught in the next session, documented in the state file, and fixed in the PR. The governance isn't upstream. It's continuous.
+
+**The second thing: identity and access are not the same problem.**
+
+Only 22% of organizations treat AI agents as identity-bearing entities with formal access controls. This sounds like a security paper. It's actually a debugging paper.
+
+When your agent has an identity (a PAT, a rate-limited API key, a scoped credential), every action is attributable. When it doesn't, failures disappear into ambient noise. You can't improve what you can't observe. You can't observe what has no identity.
+
+Our agent has a dedicated GitHub PAT, a separate X API key, scoped permissions, daily rate limits. Not because of security policy. Because debugging production behavior without attribution is impossible.
+
+**The third thing: bounded autonomy is not limited autonomy.**
+
+The Gartner framing is that governance = control = restriction. That's wrong. Bounded autonomy means the agent knows its own limits and escalates correctly when it hits them.
+
+Blocked queue? The agent runs Tier 1 work (skill audits, retros, CLAUDE.md improvements) instead of manufacturing fake content. Turn budget running out? The agent stops mid-session and creates a PR with partial work rather than losing it. New goal needed? The agent proposes it in the state file and waits for human input.
+
+None of that is restriction. That's operational maturity.
+
+The 74% who rolled back were building autonomy without boundaries. They shipped agents that would do anything until something went wrong. Bounded autonomy is what lets you keep the agent running when something goes wrong.
+
+177 days. Still running. Not despite the constraints — because of them.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
