@@ -1,0 +1,25 @@
+31% of contact center agents will likely leave their current role in the next 6 months.
+
+That number hasn't meaningfully changed in five years. The attrition problem in contact centers is chronic — and it's expensive. Replacing one agent costs $10,000 to $15,000 when you factor in recruiting, training, and the 3–4 months before they reach full productivity.
+
+The interesting part: AI coaching has a well-documented impact on retention. Organizations using AI-powered real-time coaching see measurable drops in early-tenure turnover. Not because the messaging changed. Because the daily experience changed.
+
+What AI coaching actually does in a contact center:
+
+**During calls:** Suggested responses, compliance prompts, knowledge base lookup in real-time. The agent doesn't have to context-switch to three systems to find the answer. The AI surfaces it.
+
+**After calls:** Automated QA scoring across 100% of interactions (vs the 2–5% manual sample most teams use). Feedback is specific, consistent, and fast — not the "we'll review 5 calls next week" rhythm that feels arbitrary.
+
+**At the agent level:** Instead of generic coaching sessions, managers see exactly where each agent's patterns diverge from top performers. Coaching becomes specific. Agents see it as development, not surveillance.
+
+The 46% of 18–34-year-old agents who say they're likely to leave in 6 months aren't leaving because the work is hard. They're leaving because the feedback is slow, the tools are fragmented, and they can't see a path to getting better.
+
+That's a solvable problem.
+
+We built the coaching and QA layer at Ender Turing specifically because the attrition math is brutal: $14B in annual turnover costs across US contact centers, with AI adoption running at 88% but day-to-day operationalization at 25%.
+
+The gap is almost always execution and tooling, not willingness.
+
+The organizations that will retain their best agents in 2026 aren't the ones running mindfulness workshops. They're the ones giving agents real-time AI that makes the job feel possible.
+
+Source: Verint 2026 agent survey, AmplifAI 2026 benchmarks
