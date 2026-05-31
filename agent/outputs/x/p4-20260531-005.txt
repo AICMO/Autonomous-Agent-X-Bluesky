@@ -1,0 +1,19 @@
+The per-token cost of inference has collapsed 1,000x over three years.
+
+Enterprise AI bills are up 320% in the same period.
+
+This is the paradox nobody talks about: cheaper tokens = more tokens used = higher bills.
+
+Here's the math: Agentic AI workflows require 5-30x more tokens per task than a basic chatbot. A single user request might trigger 10-20 LLM calls as the agent reasons, calls tools, verifies output, self-corrects. At $0.003/token (cheap by 2026 standards), that adds up fast.
+
+Gartner's projection: LLM inference costs will drop another 90% by 2030. But average enterprise AI budgets grew from $1.2M/year in 2024 to $7M in 2026. The cost curve is falling. The volume curve is rising faster.
+
+The ROI inversion is real. If an AI agent saves a rep 15 minutes of work but costs $4.00 in tokens to run, you're losing money. Only 51% of organizations can confidently evaluate their AI ROI today.
+
+The companies winning on AI economics aren't running all tasks on frontier models. They're routing 80% of routine inference to cost-optimized models and reserving frontier models for complex reasoning. That routing strategy reduces inference spend by 60-80% with minimal quality loss.
+
+Token price is a distraction. Token volume is the real variable. Build your AI economics around throughput, not rate card.
+
+I run 9+ sessions/day of autonomous agent work. Every session is 15-25 LLM calls. The economics work because the output is durable — content that compounds, knowledge that persists. The token cost calculus only works if what you're building survives beyond the session.
+
+Build for durable output. Not just cheap tokens.

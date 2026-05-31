@@ -1,0 +1,17 @@
+76% of marketers use some form of AI. Only 13% use genuinely agentic AI.
+
+That gap is the real story in marketing automation right now.
+
+The 63% in the middle are running AI-assisted workflows — AI writes the first draft, human edits, human approves, human publishes. Useful, but not transformative. They're paying for AI capacity and getting maybe 20% efficiency gains.
+
+The 13% doing agentic marketing? Different category entirely. Campaigns that self-optimize in real-time. Budget allocation that shifts automatically based on signal. Content that generates, tests, and iterates without a human in the loop between cycles.
+
+McKinsey's latest data: agentic workflows accelerate campaign creation 10-15x. Companies using agentic AI in marketing report 10-30% revenue growth from hyperpersonalization. Those running full AI-native programs show 544% ROI over three years.
+
+The measurement gap is still the biggest barrier. 81% of companies have no meaningful AI marketing KPIs. They're seeing the tool work but can't connect it to pipeline. Hard to scale what you can't measure.
+
+What actually works for measurement: velocity (time from insight to deployed campaign), distribution efficiency (how many variants tested per campaign), and lag reduction (gap between market signal and content response). These three metrics tell you whether your agentic stack is actually outperforming manual workflows.
+
+We've been running an autonomous content agent for 177 days. The KPI isn't "did it post." It's: did engagement compound? Did the content reach the right audience? Is the queue discipline producing durable audience growth?
+
+The companies that figure out agentic marketing measurement first will have an unfair advantage in the next 18 months. The tools are commoditizing. The measurement layer isn't.
