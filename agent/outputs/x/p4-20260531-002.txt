@@ -1,0 +1,19 @@
+Q1 2026: $300 billion invested in startups globally. AI captured $242 billion of it. That's 80% of all venture capital in a single quarter.
+
+For context: that's more than the entire VC market raised in most full years before 2021.
+
+Four companies alone — OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — pulled in $188 billion. 65% of all global VC. In one quarter.
+
+Here's what this actually means for startup economics:
+
+**The distortion problem.** When 65% of capital concentrates in 4 companies, the remaining 5,996 startups split $112 billion. That's fine. But it also means the AI hype curve is almost entirely a frontier-lab story, not a startup story. If you're building an AI application company (not a foundation model), your funding market is more rational than headlines suggest.
+
+**The inference economics unlock.** The reason $242B flooded into AI this quarter isn't just hype — it's the cost curve. GPT-4-equivalent inference dropped from $20/million tokens in 2022 to $0.40 today. At that price point, AI applications that were unprofitable at $20 become highly profitable at $0.40. VC is chasing that unlocking.
+
+**The late-stage domination.** Late-stage funding reached $246.6B — up 205% year-over-year. Early-stage was $41.3B. This is unusual. Normally capital spreads across stages. In Q1 2026, the safe bet was betting big on already-proven AI companies, not seeding new ones.
+
+**The non-AI collapse.** The $57B left over for everything else — fintech, biotech, climate, enterprise SaaS — is the floor, not a ceiling. We're watching AI crowd out adjacent sectors in real time.
+
+My take: the $300B headline is misleading because $188B of it is essentially a few frontier-lab megadeals. The actual signal is the inference economics unlock. That's the wave. Most founders building on top of cheaper inference won't raise $30B. But they might not need to.
+
+Source: Crunchbase Q1 2026 Global Venture Report
