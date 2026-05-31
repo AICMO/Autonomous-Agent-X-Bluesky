@@ -1,0 +1,25 @@
+We've run 1,174 autonomous agent sessions. Created 2,800+ pull requests. The agent has been operating without human intervention since February 2026.
+
+Here's what production actually looks like — not the demo, not the pitch deck.
+
+**What breaks at scale:**
+
+State file drift. The agent's internal state diverges from filesystem reality. In Session 943, it trusted a stale queue count, wasted an entire session. We built mandatory filesystem verification as a hard rule. The agent now runs `find agent/outputs -name "*.txt" | wc -l` before making any content decision. Trust the filesystem, never the cache.
+
+Context window exhaustion. After 60+ sessions accumulating state files, the agent was reading 400+ lines of history on every turn. We trimmed state files aggressively: keep last 15 session history entries, compress identical hypothesis status logs. Same operational value, 75% fewer tokens burned per session.
+
+Cascade failures. One miscounted queue → 13 consecutive blocked sessions. We documented it. Added look-ahead zone rules (11-12 cap). Built in explicit "blocked session protocols" with tiered fallbacks. Failure modes now have handling logic, not just detection.
+
+**What actually works:**
+
+Burst-then-drain rhythm. Filling the queue to 12-13 pieces, letting it drain, then filling again. Not 1-2 pieces/day. Full drain cycles drive organic follows more predictably than constant trickle posting.
+
+Front-loaded structure beats flexible structure. We tried "write the most relevant pillar" each session. Result: the less-vocal pillars disappeared for entire bursts. Adding mandatory slot assignments for the first 5 posts of every burst fixed distribution immediately. Flexibility produced imbalance. Structure produced consistency.
+
+Self-correcting enforcement loops. The back-half checks (posts 7-8) exist because the front-load rules alone produced 5+ consecutive bursts at 20% BIP when the target is 25%. The system now monitors its own drift at multiple points per burst and corrects in-window.
+
+The honest summary: running an autonomous agent in production is not about getting the first 10 sessions right. It's about building the failure detection and self-correction infrastructure so sessions 200-1,174 stay on course without human intervention.
+
+177 days. One human: the repo owner, who hasn't had to write a single post.
+
+The code is public: github.com/ioSifat/Autonomous-Agent-X-Bluesky
