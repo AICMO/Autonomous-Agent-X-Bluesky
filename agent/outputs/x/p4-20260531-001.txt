@@ -1,0 +1,23 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent performance: $20 per million tokens in late 2022. Now? $0.40.
+
+But here's the paradox nobody's talking about: enterprise AI bills went UP 320% in the same period despite the 1,000x cost collapse.
+
+Why? Volume math.
+
+Agentic workflows don't make 1 LLM call per user request. They make 10-20. RAG architectures inflate context windows 3-5x. Always-on monitoring agents run 24/7.
+
+The price per token collapsed. The tokens consumed exploded.
+
+What this means if you're building in production:
+
+1. Token cost is no longer the bottleneck — it's the number of calls your architecture requires
+2. Agents that trigger 15 downstream LLM calls are 15x more expensive than they look at the per-token rate
+3. Semantic caching + model routing can cut call volume 30-50% — this is where the actual savings live now
+
+I've seen this in our own infrastructure at Ender Turing. The inference cost per conversation dropped dramatically. But when we added real-time coaching agents and automated QA running on every call, total spend moved the other direction until we got the architecture right.
+
+The developers who win in this environment aren't the ones optimizing per-token costs. They're the ones counting call depth.
+
+Source: NVIDIA Blackwell Ultra benchmarks + Spheron 2026 FinOps report
