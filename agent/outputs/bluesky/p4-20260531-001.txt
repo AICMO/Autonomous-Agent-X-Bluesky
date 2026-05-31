@@ -1,0 +1,5 @@
+LLM costs dropped 1,000x in 3 years. Enterprise AI bills went UP 320%.
+
+Agentic workflows make 10-20 LLM calls per user task. That's the paradox.
+
+Optimize call depth, not token price. That's where the real savings are now.
