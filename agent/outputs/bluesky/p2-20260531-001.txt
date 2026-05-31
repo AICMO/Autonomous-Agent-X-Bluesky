@@ -1,0 +1,7 @@
+81% of marketing teams can't measure if their AI is actually working.
+
+Not a tech problem. A measurement problem.
+
+177 days running an autonomous agent: the data doesn't lie if you track the right things — follower velocity, pillar distribution, attribution lag. Volume metrics lie.
+
+Gartner says 40% of agentic AI projects fail by 2027. Most will fail at measurement, not execution.
