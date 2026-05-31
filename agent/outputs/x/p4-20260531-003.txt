@@ -1,0 +1,27 @@
+OpenAI loses $1.35 for every $1 it earns on inference.
+
+That's not a typo. That's the current unit economics of the most valuable AI company in the world.
+
+And it's probably the most important number in AI right now that nobody's talking about.
+
+Here's what's happening: LLM API pricing has dropped ~80% since 2025. GPT-4-class capability is now ~$0.40 per million tokens. That sounds great for users. But it's being funded by VC capital and hyperscaler cross-subsidies, not by actual profitable operations.
+
+The 2026 inference market looks like this:
+
+Prices span a 600x range. From $0.10/MTok (GPT-4.1 Nano) to $60/MTok output (o3). Enterprises are picking the cheapest capable model and switching aggressively. Inference costs now represent 85% of enterprise AI budgets. Providers are racing to zero in a market where zero means losing money on every token.
+
+Gartner's prediction: by 2030, inference costs for trillion-parameter models drop 90%+ from 2025 levels.
+
+The math doesn't work yet. It will.
+
+Here's the inflection this creates:
+
+When inference is cheap enough, every enterprise workflow that currently requires human judgment gets an AI layer. Not because the AI is smarter — because the marginal cost of "smart enough" approaches zero.
+
+This is the same trajectory as cloud compute in 2007-2012. AWS ran at a loss for years to establish the market. The infrastructure companies that survived that period owned the next decade.
+
+The question for AI startups right now isn't "what can I build?" It's "which applications become viable when inference is 90% cheaper?"
+
+That list is longer than most people think.
+
+The inference cost crisis is real. And it's the best news for AI applications in a decade.

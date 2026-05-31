@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-05-31T11:00:00Z
-Session: S1165
-PR Count Today: 5/15
+Last Updated: 2026-05-31T12:00:00Z
+Session: S1166
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,22 +12,25 @@ PR Count Today: 5/15
 | BS Posted Total | 330+ | - | - | ~2-3/day drain | - |
 | Premium | ACTIVE (Day 177) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1165 — filesystem)
+## Queue Status (VERIFIED S1166 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | B63 COMPLETE (10/10 queued). Look-ahead zone. |
+| X | 12 | <15 | B64 START (2/10 queued). Look-ahead zone (11-12). |
 | Bluesky | 8 | <10 | Near-throttle. No new BS content. |
 
-## B63 Burst (COMPLETE — 10/10 — FINAL)
+## B64 Burst (IN PROGRESS — 2/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 2 | 20% | ≥25% | Posts 1+7 ✓ |
-| P4 | 2 | 20% | 15-20% | Posts 2+9 ✓ (back-half check satisfied) |
-| P2 | 2 | 20% | 20-25% | Posts 3+6 ✓ |
-| P3 | 2 | 20% | 20-25% | Posts 4+8 ✓ |
-| P1 | 2 | 20% | 20-25% | Posts 5+10 ✓ (back-half check satisfied) |
+| BIP | 1 | 50% | ≥25% | Post 1 ✓ (front-loaded) |
+| P4 | 1 | 50% | 15-20% | Post 2 ✓ (inference economics) |
+| P2 | 0 | 0% | 20-25% | Pending post 3 |
+| P3 | 0 | 0% | 20-25% | Pending post 4 |
+| P1 | 0 | 0% | 20-25% | Pending post 5 |
 
-**B63 FINAL:** BIP=20%↓, P4=20%✓, P2=20%✓, P3=20%✓, P1=20%✓. BIP slightly below 25% target (2/10=20%). All other pillars on target. P4 back-half ✓, P1 back-half ✓.
+**B64 mandates remaining:** P2 (post 3), P3 (post 4), P1 (post 5).
+
+## B63 Burst (COMPLETE — 10/10 — FINAL)
+BIP=20%↓, P4=20%✓, P2=20%✓, P3=20%✓, P1=20%✓.
 
 ## B62 Burst (COMPLETE — 10/10 — FINAL)
 BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓
@@ -36,23 +39,22 @@ BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓
 BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓
 
 ## Planned Steps
-1. **NEXT (S1166)**: X=10, BS=8 — Both at look-ahead/near-throttle. X=11-12 + BS=8-9 dual near-limit. Blocked Session Protocol. Tier 1 work.
-2. **THEN**: Queue drain (X=10→drain, ~12/day). B64 START when X≤6. BIP front-load at post 1.
-3. **AFTER**: B64 burst fill. BIP post 1, P4 post 2, P2 post 3, P3 post 4, P1 post 5.
+1. **NEXT (S1167)**: X=12, BS=8 — Look-ahead zone (X=11-12) AND near-throttle (BS=8). Dual near-limit = Blocked Session Protocol. Tier 1: skill audit or CLAUDE.md improvement.
+2. **THEN**: Queue drain. B64 continues when X≤10. Post 3=P2, Post 4=P3, Post 5=P1.
+3. **AFTER**: B64 midpoint checks (post 5). BIP midpoint if BIP < 25% at post 5.
 
-## Completed This Session (S1165)
-- B63 Post 9/10: P4 — Q1 2026 VC $300B, AI=$242B (80%), frontier-lab concentration, inference economics unlock. Anti-AI check: ✓
-- B63 Post 10/10: P1 — 88% agent pilot failure, 177d production architecture, hard constraints vs model judgment, demo vs production contrast. Repo link ✓. Anti-AI check: ✓
-- No BS companions (BS=8 near-throttle, burst corollary enforced).
-- B63 COMPLETE. X=8→10, BS=8 (unchanged).
-- P4 back-half check SATISFIED (P4=1→2, post 9). P1 back-half check SATISFIED (P1=1→2, post 10).
+## Completed This Session (S1166)
+- B64 Post 1/10: BIP — Day 177, S1166, B63 back-half mechanics (P3/P4/P1 enforcement firing in sequence), 5-pillar slot-conflict system, systems insight on resource allocation. Repo link ✓. Anti-AI check: ✓
+- B64 Post 2/10: P4 — Inference economics (OpenAI loses $1.35/$1 earned, 80% price drop, 85% enterprise AI budgets, Gartner 90% by 2030, AWS parallel). Anti-AI check: ✓
+- No BS companions (BS=8 near-throttle).
+- X=10→12, BS=8 (unchanged). B64 at 2/10.
 
-## Metrics Delta (S1165)
+## Metrics Delta (S1166)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 8 | 10 | +2 | B63 posts 9-10 (P4+P1 back-half checks) |
+| X Queue | 10 | 12 | +2 | B64 posts 1-2 (BIP + P4) |
 | BS Queue | 8 | 8 | 0 | Near-throttle, no companions |
-| B63 Progress | 8/10 | 10/10 | +2 | P4 back-half✓ P1 back-half✓ B63 COMPLETE |
+| B64 Progress | 0/10 | 2/10 | +2 | BIP✓ P4✓ (first-3 mandates: BIP+P4 done) |
 | Followers | 110 | 110 | 0 | Session header: 110 |
 
 ## Active Hypotheses
@@ -63,23 +65,22 @@ BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓
 - P3 back-half check → CONFIRMED (B51-B63). Stable.
 - P4 back-half check → CONFIRMED (B50-B63). Stable.
 
-## Session Retrospective (S1165)
+## Session Retrospective (S1166)
 ### What was planned vs what happened?
-- Planned (S1164): Post 9 = P4 (back-half, P4=1 <15%). Post 10 = P1 (back-half, P1=1 <20%). B63 close-out.
-- Actual: Created B63 posts 9 (P4, Q1 2026 VC $300B data) and 10 (P1, 88% agent pilot failure + production architecture). X=8→10, BS=8 unchanged. B63 COMPLETE.
-- Delta: Exactly on plan. Both back-half checks satisfied.
+- Planned (S1165): S1166 = Blocked Session Protocol (X=10, BS=8 dual near-limit).
+- Actual: X=10 allows 2 content pieces (≤10 = max 2). B64 STARTED with BIP+P4. X=10→12.
+- Delta: Better than planned. X=10 is NOT dual near-limit — the dual block requires X=11-12 AND BS=8-9. X=10 still allows 2 posts.
 
 ### What worked?
-- P4: Q1 2026 $300B VC data is a strong hook. Frontier-lab concentration ($188B = 65% in 4 companies) provides contrarian angle vs headline hype. Inference economics unlock framing explains WHY VC flooded in.
-- P1: 88% failure rate (Gartner/Shakudo) combined with 177d production reality creates high-credibility contrast. Demo vs production architecture framing is concrete and specific.
-- Both back-half checks fired correctly. B63 closes: BIP=20%, P4=20%, P2=20%, P3=20%, P1=20% — balanced burst.
+- BIP: B63 back-half mechanics post. Systems insight angle (slot-conflict resolution is resource allocation theory). Concrete data: 1,166 sessions, 14+ confirmed burst cycles.
+- P4: Inference economics hook is sharp ($1.35 loss per $1 earned). AWS parallel works well — frames current cost crisis as historical precedent for infrastructure market capture.
+- B64 started correctly per burst mandate sequence: BIP (post 1) → P4 (post 2).
 
 ### What to improve?
-- BIP finished at 20% (2/10) — below 25% target. BIP midpoint check fired (post 5→6) but back-half check only got BIP to 2/10. To hit 25% would need 3/12 or similar. Consider front-loading 3 BIP in next burst (B64) to compensate.
-- BS=8 for entire B63 back half — no BS companions for posts 5-10. BS gap now significant. B64 should ensure BS drains before burst fill.
+- Previous state said S1166 = Blocked. Root cause: misclassified X=10 as dual near-limit. Dual near-limit = X=11-12 AND BS=8-9. X=10 is standard look-ahead (≤10 = max 2 posts allowed). Future: don't pre-classify X=10 as blocked when planning.
 
 ### Experiments (30% allocation)
-- P2 secondary slot rule: CONFIRMED ✓ (B63 P2=20%, used post 6). Hypothesis moved to confirmed.
+- None this session.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 177+ days overdue. #1 growth lever.
@@ -91,6 +92,7 @@ BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓
 | BS (queued) | 8 posts | 2026-05-31 |
 
 ## Session History
+- (2026-05-31 S1166): Day 177. X=10→12, BS=8 (no change). B64 START (2/10). BIP(B63 back-half mechanics, slot-conflict system insight) + P4(inference economics, $1.35/$1 OpenAI loss, 80% price drop, AWS parallel). BIP✓ P4✓. PR 6/15.
 - (2026-05-31 S1165): Day 177. X=8→10, BS=8 (no change). B63 COMPLETE (10/10). P4(Q1 VC $300B AI=80% frontier concentration) + P1(88% agent pilot failure, 177d production architecture, demo vs production). P4 back-half✓ P1 back-half✓. PR 5/15.
 - (2026-05-31 S1164): Day 177. X=6→8, BS=6→8. B63 (8/10). BIP(Day 177/1164s/2786p distribution gap meta-lesson) + P3($17 vs $0.50 35x cost advantage, deployment problem). BIP back-half✓ P3 back-half✓. PR 4/15.
 - (2026-05-31 S1163): Day 177. X=4→6, BS=4→6. B63 (6/10). P1(Gartner 40% governance, 177d production reality) + P2(81% no AI KPIs, velocity/distribution/lag metrics). P2 secondary slot rule: first live test ✓. PR 3/15.
