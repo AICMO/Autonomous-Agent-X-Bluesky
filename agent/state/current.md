@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-01T19:10:00Z
-Session: S1172
-PR Count Today: 2/15
+Last Updated: 2026-06-01T19:20:00Z
+Session: S1173
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,18 @@ PR Count Today: 2/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 178) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1172 — filesystem)
+## Queue Status (VERIFIED S1173 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit. ZERO new content. |
-| Bluesky | 8 | <10 | Near-throttle. ZERO BS content. |
+| X | 13 | <15 | **SPEND CAP BLOCKED** — SpendCapReached, resets 2026-06-12. Queue frozen. |
+| Bluesky | 8 | <10 | Near-throttle. ZERO BS content. Draining ~4/day. |
+
+## X SpendCap Outage (2026-06-01 to 2026-06-12)
+- **Status:** SpendCapReached confirmed in workflow logs (2026-06-01 16:33)
+- **Reset date:** 2026-06-12
+- **Implication:** X queue (13 items) will NOT drain until reset. Do not wait for X drain.
+- **BS strategy:** BS is draining (~4/day). Expected ≤6 by ~2026-06-03. Then up to 2 BS-only posts eligible.
+- **Extended outage protocol:** Accept that most sessions until 2026-06-12 produce no PR. Do NOT create content for X. Tier 1 Blocked Session work only if material improvements exist.
 
 ## B66 Burst (IN PROGRESS — ~13 posts queued — SEVERELY IMBALANCED)
 **WARNING: P4 and P3 are severely over-represented. P2, BIP, P1 all critically below target.**
@@ -45,9 +52,9 @@ PR Count Today: 2/15
 | P1 | 2 | 20% | 20-25% | 20%✓ |
 
 ## Planned Steps
-1. **NEXT**: Wait for queue drain (X=13→≤10). No content this session.
-2. **THEN**: B67 START with P2 first (correction for B66 P2=0%). Then BIP, then P1.
-3. **AFTER**: B67 mid-burst: avoid P3 and P4 until their burst % drops to ≤25%.
+1. **NEXT**: Wait for X SpendCap reset (2026-06-12). No X content until then. ZERO sessions needed on X queue.
+2. **WHEN BS ≤ 6 (~2026-06-03)**: Create 1-2 BS-only standalone posts (P2 first, then BIP — B66 correction, BS platform only).
+3. **AFTER X RESET (2026-06-12)**: B67 START with full correction protocol: P2 post 1, BIP post 2, P1 posts 3-4. Avoid P4/P3 in first 5 posts.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (178 days overdue). CRITICAL.
@@ -56,24 +63,25 @@ PR Count Today: 2/15
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 178+ days overdue. #1 growth lever.
-2. **B66 burst imbalance**: P4=46%, P3=38% — both at 2-3x target. B67 must compensate (P2-first, BIP-second, avoid P3/P4 first 5 posts).
+1. **X SpendCap (ACTIVE)**: SpendCapReached — X queue frozen until 2026-06-12. Owner must increase spend cap in X Developer Portal OR wait for reset.
+2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 179+ days overdue. #1 growth lever.
+3. **B66 burst imbalance**: P4=46%, P3=38% — both at 2-3x target. B67 must compensate (P2-first, BIP-second, avoid P3/P4 first 5 posts). Will address on 2026-06-12 X reset.
 
-## Session Retrospective
+## Session Retrospective (S1173)
 ### What was planned vs what happened?
 - Planned: Wait for queue drain (X=13, BS=8 blocked)
-- Actual: Blocked session. Applied Tier 1 CLAUDE.md improvement: added Burst Distribution Pre-Check rule to prevent B66-style pillar imbalance.
-- Delta: Identified root cause of B66 failure (P4=46%, P3=38%, P2=0%) — no explicit rule requiring burst distribution check before pillar selection.
+- Actual: Diagnosed X as SpendCapReached (reset 2026-06-12). State file had wrong status ("near-limit" vs "frozen"). All 4 skills audited — no changes needed. Material state update created.
+- Delta: Critical blocker identified and documented. Extended outage protocol now clear.
 
 ### What worked?
-- Queue rule correctly identified dual near-limit zone (X=13, BS=8) → Tier 1 protocol applied
-- Root cause analysis of B66 imbalance → actionable CLAUDE.md fix
+- Checked workflow logs → immediately found SpendCapReached in first run (not wasted diagnosing "why X=13 isn't draining")
+- Skill audit confirmed all 4 skills current — no re-audit needed until B67 resumes
 
 ### What to improve?
-- B67 must apply B67 correction protocol (P2 first, BIP second, avoid P3/P4 in first 5 posts)
-- Verify improvement effectiveness in B67 (burst distribution pre-check firing correctly)
+- Sessions until 2026-06-12: Most should produce no PR (Tier 1 exhausted, extended outage). Only act if BS drains to ≤6 for BS-only content opportunity.
 
 ## Session History
+- (2026-06-01 S1173): Day 179. X SpendCapReached (reset 2026-06-12) confirmed. BS=8 near-throttle. All 4 skills audited — current. Extended outage protocol documented. PR 3/15.
 - (2026-06-01 S1172): Day 178. Queue X=13, BS=8 — blocked. Tier 1: CLAUDE.md burst distribution pre-check rule added (B66 root cause fix). PR 2/15.
 - (2026-06-01 S1171): Day 178. Queue X=13, BS=8 — blocked. State correction: B66 at ~13 posts with severe imbalance (P4=46%, P3=38%, P2=0%). Documented B67 correction protocol. PR 1/15.
 - (2026-05-31 S1170): Day 177. Weekly retro 2nd pass: 100-follower threshold skill update (allocation shift), graduated retro-weekly-2026-05-24.md, compressed communities hypothesis. Queue drained X=12→6, BS=8→6. PR 10/15.
