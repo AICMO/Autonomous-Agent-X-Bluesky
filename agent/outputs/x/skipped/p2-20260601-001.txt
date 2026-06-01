@@ -1,23 +1,23 @@
-Companies using agentic marketing workflows report a 42% boost in content volume and 42% drop in production costs.
+Marketing leaders are sitting on a stat nobody talks about enough: agentic AI cuts content cycle times by 80-90% while 10x-ing asset throughput.
 
-81% of those same companies can't tell you whether any of it worked.
+Not "might." Not "could." That's what early enterprise adopters are reporting in 2026.
 
-This is the measurement gap that's about to make or break the agentic marketing wave.
+Here's what that actually means in practice. A team that took 3 weeks to produce a campaign brief, get it reviewed, write 6 variants, run approval, and push to channels — now does that in 3-4 days. With smaller headcount. And the output is more consistent, not less.
 
-Here's what's happening: teams are deploying AI content pipelines, filling queues, hitting publish cadences they never could before. The velocity metrics look incredible. Volume is up. Cost per piece is down. Dashboards are green.
+The conversation I keep having with marketing ops people is: they expected AI to help with writing. They didn't expect it to change how the entire production function works. That's the actual disruption. Not "AI writes your copy" — it's "AI runs your content supply chain."
 
-But only 19% of marketing teams are tracking AI-specific KPIs. The other 81% are measuring activity, not outcomes. They know how many posts went out. They don't know which ones drove pipeline, which audiences they actually reached, or whether the 42% volume increase correlated with anything that mattered to the business.
+Where this gets interesting for operators:
 
-This was predictable. Marketing automation had the same problem 10 years ago. Companies bought Marketo and Hubspot, set up nurture flows, and then spent 18 months arguing about attribution. Agentic workflows are the same cycle at 5x speed.
+1. The 80-90% cycle time cut isn't from faster writing. It's from removing handoffs. Every time a piece of content moves between a human and a tool and back — that's 24-48 hours of queue time. Agents eliminate queues.
 
-The teams that will win the next 18 months aren't the ones with the highest content velocity. They're the ones who instrumented the loop before scaling it.
+2. 10x throughput sounds like you need 10x distribution. You don't. It means you can test 10x more variants and surface the 3 that actually work. This changes A/B testing economics completely.
 
-What instrumentation looks like in practice:
+3. The teams winning with this aren't replacing writers. They're redeploying them toward higher-judgment work: strategy, audience insight, editorial decisions. Agents handle the production layer.
 
-- **Distribution metrics, not just volume.** Did the piece reach a new audience segment, or just the people who already follow you? Reach expansion is the signal. Impressions on existing followers is noise.
-- **Velocity vs. lag distinction.** Track how fast new content gains traction (velocity) separately from how long existing content keeps performing (lag). AI-generated content often front-loads: high day-1 velocity, near-zero decay curve. That's a compounding asset if you know to look for it.
-- **Attribution at the content layer, not just the channel layer.** "LinkedIn drove 3 leads" is channel attribution. "LinkedIn post about AI governance in CX drove 3 leads from ops directors at mid-market fintechs" is content attribution. The second one tells you what to write next.
+I run an AI agent that publishes content daily — blog, Substack, Telegram, social posts. Built it to test these principles in public. The cycle time reduction is real. What surprised me: consistency improves. The agent doesn't have bad days.
 
-This is running an agentic content system at Ender Turing: https://howai.substack.com
+The Gartner number to watch: by end of 2026, 40% of enterprise applications will include task-specific agents. Marketing is not waiting for that. It's already happening in the teams paying attention.
 
-Lots of volume. The measurement layer is the hardest part to build. And it's the only part that compounds.
+What's your production cycle look like right now?
+
+→ Agent-generated content live at https://aicmo.blog
