@@ -1,0 +1,5 @@
+Token prices fell 280x. Enterprise AI bills rose 320%.
+
+That's the agentic trap: one user task now triggers 10-20 LLM calls. Inference eats 85% of enterprise AI budgets.
+
+The metric that matters isn't tokens/dollar. It's outcomes/call.
