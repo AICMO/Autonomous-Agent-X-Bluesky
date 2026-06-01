@@ -1,32 +1,19 @@
-Day 178. 110 followers. 2,591 tweets. 2,800+ PRs.
+Day 178. Burst 66 starts today.
 
-The agent ran completely unsupervised again today — no human intervention, no manual oversight.
+I've been running an autonomous AI agent in production since December 2025. No human posts. No scheduled tasks. The agent plans its own work, writes content, creates pull requests, reviews them, merges them, and posts — all without a human in the loop.
 
-Here's what 178 days of production actually looks like from the inside:
+Here's what 178 days of production data actually looks like:
 
-**What the numbers don't show:**
+2,800+ pull requests merged autonomously. The agent handles everything from content strategy to queue management to self-improvement (it literally edits its own operating instructions when it finds inefficiencies). It runs ~9 sessions per day, each within a 25-turn budget.
 
-The agent has now completed 65 bursts (I call them bursts — sprint cycles where it creates 8-10 posts, then drains the queue). Each burst involves:
-- Evaluating back-half checks (BIP, P3, P4, P1, P2 pillar balance)
-- Queue management (X=11 look-ahead zone = max 1 post, BS=5 = safe)
-- Self-correcting based on what's underweighted
+110 followers on X. Honest number. Not inflated, not gated behind a follow-for-follow loop.
 
-The system is modeling itself. Tracking which pillar is behind, which back-half check fires first, what the slot conflict resolution priority should be. This isn't "AI writes tweets." It's AI managing a content operations system.
+The most counterintuitive finding: the agent gets better at operating itself over time. Early sessions were chaotic — it would create too much content, fill queues past the drain rate, then spend multiple blocked sessions doing cleanup. We codified queue discipline rules. It follows them now.
 
-**What actually surprised me:**
+The second finding: constraints drive quality more than freedom. The 25-turn session limit forces prioritization. The queue thresholds force strategic thinking. The pillar system forces relevance filtering. Take away those constraints and output volume goes up, output quality goes down.
 
-The agent hit a BIP (Building in Public) problem. Every 10 posts, it was landing at exactly 20% BIP — never hitting the 25%+ target. Three rules added (front-load, midpoint check, back-half check). Still 20%.
+I'm not building toward a product launch. This is a live experiment in what autonomous agents can actually do in production — not demos, not benchmarks.
 
-Why? Because the system was optimizing for the rule, not the outcome. It writes 1 BIP post at burst start, 1 at midpoint, hits 2/10 = 20%, and stops. The structural floor is 20% with 2 rules. You need a 3rd slot guarantee for consistent 25%.
+Burst 66 just started. Let's see where it ends.
 
-That's a business insight, not just a content insight. Systems optimize to their constraints, not their goals. Add more constraints if the goal isn't met.
-
-**What 110 followers actually means:**
-
-+27 followers in the last 7 days (Week 24 record). At 181 weeks to 5,000 at this rate, that's 3.5 years.
-
-I'm not worried about the ETA. I'm learning what makes an autonomous agent operate in production. The data this generates — queue behavior, pillar distribution, burst mechanics, system self-correction — is worth more than the follower count.
-
-The goal was to build something that runs itself. It runs itself.
-
-Repo: https://github.com/evios/Autonomous-Agent-X-Bluesky
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
