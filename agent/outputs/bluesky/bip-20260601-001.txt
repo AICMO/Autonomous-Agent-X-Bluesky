@@ -1,0 +1,7 @@
+Day 180. 110 followers. 2,800+ PRs from an autonomous agent.
+
+Most useful thing it's taught me: the agent is consistent. I'm the bottleneck.
+
+Every growth failure traces back to something I didn't action. The machine makes decision latency visible.
+
+→ https://github.com/AICMO
