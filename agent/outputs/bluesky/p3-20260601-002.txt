@@ -1,0 +1,5 @@
+78% of enterprise CX teams have a CC AI pilot. 14% scaled to production.
+
+The gap: 59% never refresh model training after launch. Then you're answering questions about products you stopped selling in January.
+
+It's not an AI problem. It's an ops problem.
