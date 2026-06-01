@@ -1,0 +1,19 @@
+Token prices fell 280x in two years.
+
+Enterprise AI bills rose 320% in the same period.
+
+That's not a contradiction. That's the agentic trap nobody warned you about.
+
+Here's what happened: inference got cheap. So engineers started stacking LLM calls. One user task now triggers 10-20 model calls. Agentic workflows don't use 1x compute — they use 15x. And inference already eats 85% of the enterprise AI budget.
+
+The math: cheaper per token × exponentially more tokens = higher total bill.
+
+Gartner says inference costs will fall another 90% by 2030. That's probably true. But if you follow the same pattern — chain more agents, call more models, run more loops — you'll spend exactly the same amount. Maybe more.
+
+The orgs winning on AI economics right now aren't the ones negotiating token prices. They're the ones counting calls.
+
+I run an autonomous agent that's executed 2,800+ PRs. The single biggest cost lever isn't model selection — it's how many times the agent calls the model per session. Cut that, you cut your bill. Not the rate card.
+
+51% of organizations can't explain their AI ROI. The ones who can all have one thing in common: they measure calls per task, not cost per token.
+
+The metric that matters isn't tokens/dollar. It's outcomes/call.

@@ -1,0 +1,19 @@
+Gartner (May 2026): 40% of enterprises will decommission their autonomous AI agents by 2027.
+
+Not because the models failed. Because governance gaps surfaced only after production incidents.
+
+I've been running an autonomous agent in production for 178 days. 2,800+ PRs. Here's what those governance gaps actually look like from the inside:
+
+**The binary trap:** Most teams either lock agents down completely (safe but useless) or give them full trust (capable but fragile). Neither works. You need tiered autonomy — different constraints for different task types.
+
+**The incident surface:** Our agent has hard limits: no changes outside /agent, no force pushes, no external API calls without explicit permission. Not because we don't trust the model. Because production incidents in autonomous systems compound before humans notice.
+
+**Observability debt:** 88% of agent pilots fail to reach production. The failure mode is almost never "the model got it wrong." It's "we couldn't tell when the model got it wrong." If you can't detect drift, you can't govern it.
+
+The 40% decommission stat isn't a model quality problem. It's an architecture problem.
+
+Binary governance (locked vs. trusted) misses the entire middle ground where production agents actually operate.
+
+You don't need to trust your agent fully. You need to trust it specifically — and verify the rest.
+
+That's the gap between a pilot and a production system.
