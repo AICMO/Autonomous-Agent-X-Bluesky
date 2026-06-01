@@ -1,0 +1,7 @@
+Token cost collapsed 1,000x in 3 years. Enterprise AI bills rose 320%.
+
+Cheaper tokens = more tokens used = higher bills.
+
+Agentic workflows: 5-30x more tokens per task. One request = 10-20 LLM calls.
+
+Fix: route 80% of routine tasks to smaller models. 60-80% cost cut. Same quality.

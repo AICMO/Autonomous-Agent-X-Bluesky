@@ -1,0 +1,23 @@
+Q1 2026: $300 billion in global venture capital. AI captured $242 billion — 80% of everything.
+
+Four companies (OpenAI, Anthropic, xAI, Waymo) raised $188 billion. That's 65% of ALL global venture funding in a single quarter from four bets.
+
+Let that math sit for a second.
+
+65% of the world's venture capital in Q1 went to four organizations. The remaining 5,996 startups split the other 35%.
+
+This is not a diversified bet on AI. This is a structural concentration that has no precedent in venture history. The dot-com boom, the cloud compute wave, the mobile revolution — none of them produced this level of capital concentration into a handful of companies in a single quarter.
+
+What this means in practice:
+
+**For AI startups NOT in the frontier lab tier:** The funding environment looks great in the headlines. In reality, capital is flowing to the hypers and the infrastructure plays, not to application-layer companies. Median Series B valuations are up ($143M), but the rounds are harder to close. Investors want revenue proof, not demos.
+
+**For enterprises buying AI:** The four companies capturing most of the capital are also setting the pricing. When OpenAI, Anthropic, and xAI collectively raise $172 billion in one quarter, they are not under pressure to reach profitability on inference. Pricing stays subsidized. Enterprise AI spend looks "cheap" right now because it is — relative to what it will cost when the capital subsidy ends.
+
+**For AI economics broadly:** 2026 is probably the last year where the gap between "AI is expensive to run" and "AI feels cheap to use" is this wide. The $300B VC quarter is funding that gap.
+
+I've been watching the AI infrastructure market since 2019. The concentration of this capital is either the smartest set of bets ever made in tech — or the most efficient way to create a bubble that makes 2000 look modest.
+
+The math doesn't care about the narrative. At 65% concentration in 4 companies, the outcomes are binary.
+
+Source: Crunchbase Q1 2026 Venture Report, insights4vc analysis

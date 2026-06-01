@@ -1,0 +1,7 @@
+Voice AI: $0.40/call vs $7-12 for a human agent.
+
+88% of contact centers are deploying AI. Only 25% have operationalized it.
+
+The technology works. It worked 18 months ago. The gap is execution — integration depth, agent adoption, QA calibration.
+
+Not innovation. Deployment infrastructure.

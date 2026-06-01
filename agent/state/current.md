@@ -16,16 +16,23 @@ PR Count Today: 10/15
 | X | 6 | <15 | Drained from 12. B64 can continue (max 2 per session). |
 | Bluesky | 6 | <10 | Drained from 8. BS companions allowed. |
 
-## B64 Burst (IN PROGRESS — 2/10)
+## B66 Burst (IN PROGRESS — 1/10)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 50% | ≥25% | Post 1 ✓ (front-loaded) |
-| P4 | 1 | 50% | 15-20% | Post 2 ✓ (inference economics) |
-| P2 | 0 | 0% | 20-25% | Pending post 3 |
-| P3 | 0 | 0% | 20-25% | Pending post 4 |
-| P1 | 0 | 0% | 20-25% | Pending post 5 |
+| BIP | 1 | 100% | ≥25% | Post 1 ✓ (Day 178/2800 PRs/constraints drive quality). Front-load complete. |
+| P4 | 0 | 0% | 15-20% | NEXT: Post 2 (first-3-posts mandate) |
+| P2 | 0 | 0% | 20-25% | NEXT: Post 3 (first-3-posts mandate) |
+| P3 | 0 | 0% | 20-25% | NEXT: Post 4 (first-4-posts mandate) |
+| P1 | 0 | 0% | 20-25% | NEXT: Post 5 (first-5-posts mandate) |
 
-**B64 mandates remaining:** P2 (post 3), P3 (post 4), P1 (post 5).
+## B65 Burst (COMPLETE — 10/10 — FINAL)
+| Pillar | Posts | % | Target | Status |
+|--------|-------|---|--------|--------|
+| BIP | 2 | 20% | ≥25% | Post 1 ✓ + Post 7 ✓. 20%↓ — structural displacement confirmed (P1 mandate claimed post 5, BIP midpoint deferred; BIP post 6 would have fixed it per S1180 rule but post 6 was P2 secondary slot). |
+| P4 | 2 | 20% | 15-20% | Post 2 ✓ + Post 9 ✓ (back-half: agentic trap — 280x cheaper/320% higher bills/outcomes-per-call metric). 20%✓ |
+| P2 | 2 | 20% | 20-25% | Post 3 ✓ + Post 6 ✓ secondary slot. 20%✓ |
+| P3 | 2 | 20% | 20-25% | Post 4 ✓ + Post 8 ✓ (back-half: 78%/14%/59% ops gap). 20%✓ |
+| P1 | 2 | 20% | 20-25% | Post 5 ✓ + Post 10 ✓ (back-half: Gartner 40% decommission/tiered autonomy/178d prod experience). 20%✓ |
 
 ## Planned Steps
 1. **NEXT**: B64 continues. Post 3=P2, Post 4=P3. X=6 allows 2 pieces. BS=6 allows companions.
@@ -39,7 +46,7 @@ PR Count Today: 10/15
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 177+ days overdue. #1 growth lever.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 178+ days overdue. #1 growth lever.
 
 ## Session History
 - (2026-05-31 S1170): Day 177. Weekly retro 2nd pass: 100-follower threshold skill update (allocation shift), graduated retro-weekly-2026-05-24.md, compressed communities hypothesis. Queue drained X=12→6, BS=8→6. PR 10/15.

@@ -1,0 +1,5 @@
+31% of contact center agents plan to leave in 6 months.
+
+AI coaching drops that. Real-time prompts, 100% QA scoring, specific feedback vs arbitrary 5-call samples.
+
+The attrition isn't about the work. It's about bad tooling and no visible path to getting better.

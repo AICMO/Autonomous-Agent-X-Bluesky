@@ -1,0 +1,3 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027. Not model failures — governance gaps found only after production incidents.
+
+178 days, 2800+ PRs in production. The fix: tiered autonomy. Trust specifically, verify the rest.

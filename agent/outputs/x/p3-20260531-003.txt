@@ -1,0 +1,25 @@
+Voice AI costs $0.40 per call.
+
+A human agent costs $7 to $12 per call.
+
+That's not a 20% productivity bump. That's a 95% cost reduction per automated interaction. For a contact center handling 1 million calls per month, that's the difference between $9M in monthly cost and $400K.
+
+The Forrester numbers for 3-year voice AI ROI are 331–391%. The IrisAgent production benchmark study across enterprise deployments shows 5–15 point FCR improvements and 20–50% AHT reductions. Voice AI grew 340% year-over-year in 2026.
+
+So why are 88% of contact centers deploying AI but only 25% have operationalized it into day-to-day workflows?
+
+This is the same deployment gap that shows up in every contact center AI conversation I have at Ender Turing. The math is compelling. The rollout is where organizations lose momentum.
+
+Four things that separate the 25% who operationalize from the 63% who don't:
+
+**1. Integration depth matters more than capability.** The AI that handles 60–80% of calls without human intervention — vs traditional IVR at 10–30% — isn't more advanced. It's more deeply integrated into authentication, billing, CRM, and case management. Surface-level API connections fail. Deep integration holds.
+
+**2. Agent adoption is the actual bottleneck.** Voice AI doesn't replace humans; it works alongside them for escalations, coaching, and QA. Organizations that treat this as a technology rollout instead of a change management program see 30–40% lower utilization of AI capabilities. The agents don't trust it, don't use the coaching prompts, and escalate calls they could handle.
+
+**3. QA calibration creates the feedback loop.** Moving from 2–5% manual sampling to 100% AI-scored calls is the data breakthrough — but only if the QA rubric is built before deployment, not after. Organizations that deploy first and tune QA second spend 6–9 months fixing what they should have defined on day one.
+
+**4. The 3–6 month payback is real. The conditions for it aren't automatic.** You need clean CRM data, defined automation scope, trained staff, and a governance process for handling AI errors publicly. Most organizations underestimate at least two of these.
+
+The technology works. It worked 18 months ago. The deployment infrastructure is what separates a contact center that hits 380% ROI in 18 months from one that runs a 6-month pilot and quietly shelves it.
+
+The gap is execution, not innovation.

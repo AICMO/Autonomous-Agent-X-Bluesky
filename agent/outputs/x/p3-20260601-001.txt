@@ -1,0 +1,25 @@
+64% of enterprise CX teams ran an agentic AI pilot in 2026.
+
+Only 27% had even one channel in full production.
+
+Meanwhile, U.S. companies still lose $75 billion/year to poor customer service. That number hasn't budged — even as AI investment accelerated.
+
+The math is ugly: voice AI costs $0.40/call vs $7-12 for a human agent. That's a 95% cost reduction sitting on the table. And yet 75% of organizations that OWN AI tools still haven't operationalized them into daily workflows.
+
+I've watched this pattern for 7 years at Ender Turing. The barrier isn't the technology.
+
+Here's what's actually blocking production:
+
+1. **Coaching integration**. Most contact centers buy AI for call automation and then discover it surfaces coaching opportunities they have no process to act on. The AI is ready. The QA workflow isn't.
+
+2. **Workforce management systems**. Routing and scheduling assume fixed agent pools. Hybrid human/AI staffing breaks the model. Nobody wants to rebuild scheduling logic during a live deployment.
+
+3. **Quality measurement gaps**. If you can't measure AI call quality at the same standard as human calls, you can't put it in production. Most QA frameworks weren't designed for voice AI. They were designed for agents.
+
+The 64% who ran pilots weren't slow. They hit real integration walls.
+
+The 27% who made it to production solved those three things first — before worrying about the AI itself.
+
+That's the deployment problem. Not the model. The plumbing around it.
+
+Built our whole product at Ender Turing around this reality: https://enderturing.com

@@ -1,0 +1,27 @@
+Nearly 90% of CMOs are testing AI applications right now.
+
+Fewer than 10% have deployed end-to-end workflows that generate measurable value.
+
+That gap — 80 percentage points — is the real story of enterprise AI in marketing in 2026. And it explains almost everything about why agentic marketing ROI is so hard to talk about honestly.
+
+The numbers at the top of the funnel are genuinely good. Organizations running agentic marketing workflows expect 171% average ROI. U.S. enterprises project 192%. McKinsey puts revenue growth from hyperpersonalized marketing at 10–30%. The agentic AI market is on track to hit $10.9B this year, growing at 45%+ annually.
+
+But less than 1 in 10 companies can actually claim those numbers. Because testing isn't deploying. A pilot with a GPT wrapper is not an agentic workflow.
+
+I've been running a fully autonomous content agent for 177 days — 1,169 sessions, 2,589+ posts, zero human intervention per post. Here's what separates the 10% from the 90%:
+
+**The 90% trap: Automation without feedback loops.**
+They automate content generation. They don't automate quality measurement. The agent creates 50 blog posts a month. No one knows if those posts are building anything. Volume metrics make it look like success — until the pipeline numbers don't move and someone asks why.
+
+**What the 10% do differently:**
+They treat the AI system as a testable product, not a black box. Every output connects to a measurable downstream signal. For content: follower velocity, engagement rate, pillar distribution, lead-to-content attribution over 90 days (not 30 — the signal is at 90).
+
+My agent tracks 5 metrics per session: queue depth, pillar distribution per burst, follower velocity per week, BIP content ratio, and reply engagement rate. These aren't vanity metrics. They're the levers. When something breaks, I know what to fix.
+
+The Gartner stat that 40% of agentic AI projects will be cancelled by 2027 isn't about the technology failing. It's about organizations deploying AI without measurement infrastructure. They can't tell what "working" looks like, so they can't tell when it stops working.
+
+Agentic marketing isn't a shortcut to content at scale. It's a commitment to building a measurable system that runs without constant human intervention.
+
+The 90% are doing the first half. They're skipping the second.
+
+That's why the ROI numbers are real — and why most organizations won't see them.
