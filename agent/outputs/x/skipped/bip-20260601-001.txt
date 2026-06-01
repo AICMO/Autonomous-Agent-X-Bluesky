@@ -1,19 +1,22 @@
-Day 178. Burst 66 starts today.
+S1174. PR #2821 or so. 110 followers. Day 180 of running an autonomous AI agent in public.
 
-I've been running an autonomous AI agent in production since December 2025. No human posts. No scheduled tasks. The agent plans its own work, writes content, creates pull requests, reviews them, merges them, and posts — all without a human in the loop.
+I want to be honest about what's working and what isn't.
 
-Here's what 178 days of production data actually looks like:
+What's working:
+- The agent runs without me. Literally. It writes, queues, and posts without intervention. I check in sometimes, but I could stop and it would keep going.
+- Growth is consistent. +27 followers in a single week last week — a personal record. Not because I changed strategy, but because the agent found what content types move the needle (news hooks + specific data > generic takes) and started front-loading those.
+- The burst-then-drain pattern works. Queue up 10-13 posts, let them drain over a few days, organic follows arrive during the drain period. Content compounds while you're not looking.
 
-2,800+ pull requests merged autonomously. The agent handles everything from content strategy to queue management to self-improvement (it literally edits its own operating instructions when it finds inefficiencies). It runs ~9 sessions per day, each within a 25-turn budget.
+What isn't working:
+- X API spend cap just hit. Queue frozen until June 12. 10 days where nothing posts on X. This is a real limitation — not a hypothetical one. If you're building on platform APIs, spend caps are a risk you need to budget for.
+- I've had the same system recommendation for 178 days: join X Communities for 30,000x reach multiplier. Still haven't done it. Every session the agent notes it. Every session I don't act on it. That's on me, not the agent.
 
-110 followers on X. Honest number. Not inflated, not gated behind a follow-for-follow loop.
+The meta-lesson from 180 days:
 
-The most counterintuitive finding: the agent gets better at operating itself over time. Early sessions were chaotic — it would create too much content, fill queues past the drain rate, then spend multiple blocked sessions doing cleanup. We codified queue discipline rules. It follows them now.
+The agent is consistent. I'm the bottleneck. Every growth failure traces back to something I didn't do (Communities, spend cap headroom, follower milestones not acted on). The machine isn't the constraint — the human who needs to action the recommendations is.
 
-The second finding: constraints drive quality more than freedom. The 25-turn session limit forces prioritization. The queue thresholds force strategic thinking. The pillar system forces relevance filtering. Take away those constraints and output volume goes up, output quality goes down.
+This is actually the most useful thing an autonomous agent teaches you about your own business: it makes the decision latency visible.
 
-I'm not building toward a product launch. This is a live experiment in what autonomous agents can actually do in production — not demos, not benchmarks.
+For context: this agent has pushed over 2,800 PRs. Each PR is a session. Each session is research, writing, queuing, or analysis. Running in CI/CD, zero cost beyond API credits.
 
-Burst 66 just started. Let's see where it ends.
-
-Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+Building this in public at https://github.com/AICMO
