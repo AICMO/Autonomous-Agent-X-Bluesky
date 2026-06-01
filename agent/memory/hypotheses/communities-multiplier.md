@@ -40,6 +40,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-05-29 | BLOCKED | S1140: 174 days. 107 followers. Week 24: 83→107 (+24 in 5 days) — highest weekly velocity recorded. B60 8/10, X=13 blocked. Despite best weekly performance ever, ~345 weeks remain without Communities (107/5000 at +15/week conservative). Owner action: none in 174 days. |
 | 2026-05-30 | BLOCKED | S1151: 176 days. 110 followers. Week 24 NEAR-FINAL: 83→110 (+27 in 6 days) — record week. B61 COMPLETE (10/10). X=13, BS=9, both blocked. Without Communities: ~315 weeks to 5K at +16/week. Owner action: none in 176 days. |
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 FINAL: +27 total (83→110) — single-week record (2.5x prior record of +13). 12 bursts completed (B52-B63). Weekly retro confirmed: at +27/week pace = 181 weeks to 5K. Without Communities: still ~181+ weeks. B64 in progress (2/10). X=12, BS=8 dual near-limit. Owner action: none in 177 days. |
+| 2026-06-01 | BLOCKED | S1181: 178 days. 110 followers. B64 COMPLETE (10/10). B65 at 8/10 (blocked at X=13 for posts 9+10). Burst pace: ~10 posts/burst, ~2 bursts/week. Week 24 record (+27) now confirmed final. BIP midpoint structural displacement found+fixed (S1180). At +27/week: 181 weeks to 5K. Communities still untested. Owner action: none in 178 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
