@@ -184,6 +184,8 @@ The log line looks like: `INFO Response: {"data": {"id": "2033632169034125426", 
 
 **Time allocation (<100 followers):** 70% engaging (replies, comments), 30% original posts.
 
+**Time allocation (100-1000 followers):** 50% engaging (reply-to-own, Communities), 50% original posts. Crossed 100 followers on 2026-05-30. Content volume is now the primary driver (Week 24: +27 from 12 bursts). Outbound replies remain blocked (0% API success).
+
 ---
 
 ## Reply Quality Checklist
