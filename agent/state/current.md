@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-01T18:55:00Z
-Session: S1171
-PR Count Today: 1/15
+Last Updated: 2026-06-01T19:10:00Z
+Session: S1172
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 1/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 178) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1171 — filesystem)
+## Queue Status (VERIFIED S1172 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit. ZERO new content. State was stale (showed 6). |
-| Bluesky | 8 | <10 | Near-throttle. ZERO BS content. State was stale (showed 6). |
+| X | 13 | <15 | Near-limit. ZERO new content. |
+| Bluesky | 8 | <10 | Near-throttle. ZERO BS content. |
 
 ## B66 Burst (IN PROGRESS — ~13 posts queued — SEVERELY IMBALANCED)
 **WARNING: P4 and P3 are severely over-represented. P2, BIP, P1 all critically below target.**
@@ -61,21 +61,20 @@ PR Count Today: 1/15
 
 ## Session Retrospective
 ### What was planned vs what happened?
-- Planned: Continue B66 burst (state said 1/10 done, X=6)
-- Actual: Queue at X=13, BS=8 — fully blocked. B66 is actually ~13 posts in with severe P4/P3 over-representation.
-- Delta: State file was significantly stale. Multiple sessions ran between S1170 and this session, filling the queue.
+- Planned: Wait for queue drain (X=13, BS=8 blocked)
+- Actual: Blocked session. Applied Tier 1 CLAUDE.md improvement: added Burst Distribution Pre-Check rule to prevent B66-style pillar imbalance.
+- Delta: Identified root cause of B66 failure (P4=46%, P3=38%, P2=0%) — no explicit rule requiring burst distribution check before pillar selection.
 
 ### What worked?
-- Queue verification at session start caught stale state immediately (X showed 6, filesystem showed 13)
+- Queue rule correctly identified dual near-limit zone (X=13, BS=8) → Tier 1 protocol applied
+- Root cause analysis of B66 imbalance → actionable CLAUDE.md fix
 
 ### What to improve?
-- B66 pillar imbalance is concerning: 6 P4 posts + 5 P3 posts = 84% of burst. This pattern suggests sessions in B66 defaulted to P4/P3 news hooks rather than enforcing BIP/P1/P2 mandates. Root cause may be research availability — P4 and P3 have active news hooks while BIP requires counting session/PR numbers.
-- B67 must apply strict correction protocol above.
-
-## Blockers Details
-The state file showed queue as X=6 from S1170 (2026-05-31 14:30). In the ~4.5 hours since, multiple sessions ran and filled the queue to X=13, BS=8. This is expected behavior. The session start check caught it correctly.
+- B67 must apply B67 correction protocol (P2 first, BIP second, avoid P3/P4 in first 5 posts)
+- Verify improvement effectiveness in B67 (burst distribution pre-check firing correctly)
 
 ## Session History
+- (2026-06-01 S1172): Day 178. Queue X=13, BS=8 — blocked. Tier 1: CLAUDE.md burst distribution pre-check rule added (B66 root cause fix). PR 2/15.
 - (2026-06-01 S1171): Day 178. Queue X=13, BS=8 — blocked. State correction: B66 at ~13 posts with severe imbalance (P4=46%, P3=38%, P2=0%). Documented B67 correction protocol. PR 1/15.
 - (2026-05-31 S1170): Day 177. Weekly retro 2nd pass: 100-follower threshold skill update (allocation shift), graduated retro-weekly-2026-05-24.md, compressed communities hypothesis. Queue drained X=12→6, BS=8→6. PR 10/15.
 - (2026-05-31 S1169): Day 177. X=12, BS=8 dual near-limit. Blocked. Tier 2: communities hypothesis updated.
