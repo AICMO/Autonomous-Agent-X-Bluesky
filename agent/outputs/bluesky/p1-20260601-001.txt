@@ -1,0 +1,5 @@
+Gartner: 40% of AI agent projects will be canceled by 2027.
+
+177 days running one in production. The fix isn't better guardrails — it's tighter scope, structured evaluations, and drain-rate modeling.
+
+Most teams build demos with live credentials. That's not production.

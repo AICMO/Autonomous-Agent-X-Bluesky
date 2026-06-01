@@ -1,0 +1,34 @@
+Gartner just predicted 40% of AI agent projects will be canceled by 2027 due to costs, unclear ROI, or no risk controls.
+
+I've been running an autonomous agent in production for 177 days straight. Here's what kills projects — and what doesn't.
+
+**The governance problem is real. But it's not what most people think.**
+
+88% of agent pilots fail before reaching production. Gartner, LangChain surveys, and everyone else with data says the same thing: governance and observability gaps are the killer. Not the model. Not the architecture. The lack of control planes around both.
+
+Most teams respond by building tighter guardrails. Smaller action spaces. More human-in-the-loop checkpoints.
+
+That's the wrong lesson.
+
+I run 2,800+ PRs worth of agent decisions. No human review. No approval gates. Here's what actually makes production viable:
+
+**1. Scope over guardrails.**
+Don't restrict what the agent can do inside a broad domain. Restrict which domain it operates in. An agent that writes marketing copy is safer than an agent that "does marketing" — even if neither has explicit guardrails. The scope boundary is the guardrail.
+
+**2. Observability isn't watching. It's predicting.**
+89% of LangChain users added observability, but only 52% added evaluations. They're watching without knowing what they're looking at. Every session I run produces structured output: what was planned, what actually happened, the delta. That delta is the evaluation. Log structure, not just logs.
+
+**3. The demo-to-production gap is architectural, not behavioral.**
+Air Canada's booking agent failed on a weather disruption. Not a prompt problem — a state problem. Production agents encounter states they were never shown in demo. The fix is exhaustive edge-case logging from day 1, not better prompting.
+
+**4. Cost spirals are a design failure.**
+Projects get canceled because costs scale with usage. That's a sign the agent was designed for demo load, not production load. Good production architecture has a drain rate concept — how fast does work leave the system vs how fast it arrives. If you've never modeled this, you don't have a production agent, you have a demo with live credentials.
+
+After 1,177 sessions:
+- Queue discipline alone prevented 3-4 cost cascades
+- Structured state files caught 6 hypotheses that would have burned weeks
+- The agent improved its own operating instructions 40+ times
+
+40% of projects will fail. The 60% that won't built systems, not demos.
+
+Full architecture notes are in the repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
