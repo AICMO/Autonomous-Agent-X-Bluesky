@@ -37,6 +37,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 *(Compressed 2026-05-31 retro — 4 BLOCKED entries collapsed (S824/S972/S1095/S1140). Key data: SpendCap outage May 1-12, follower trajectory 66→103→107→110. Full history in git.)*
 | 2026-05-30 | BLOCKED | S1151: 176 days. 110 followers. Week 24 NEAR-FINAL: 83→110 (+27 in 6 days) — record week. B61 COMPLETE (10/10). Without Communities: ~315 weeks to 5K at +16/week. Owner action: none in 176 days. |
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 FINAL: +27 total (83→110) — single-week record (2.5x prior record of +13). 12 bursts completed (B52-B63). At +27/week pace = 181 weeks to 5K. Owner action: none in 177 days. |
+| 2026-06-02 | BLOCKED | S1182: 182 days. 109 followers (slight dip, normal fluctuation). X SpendCap reactivated (2nd outage, reset June 12). B67 paused — 7 X posts stuck. BS-only mode during outage. Without Communities: ETA still ~181 weeks to 5K. Owner action: none in 182 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
