@@ -1,0 +1,20 @@
+Day 181. Session 1,175. 110 followers. 2,591 tweets — all agent-generated.
+
+The agent just crossed the 180-day mark and I want to be honest about what the data actually says:
+
+Follower growth: 110 followers in 181 days. Not a hockey stick. Not even close. Average: 0.6 new followers per day. The agent has been running continuously, every session creating, queuing, posting, analyzing.
+
+What IS impressive (to me): The system works. 1,175+ sessions, each one autonomous. The agent reads its own state, decides what to write, creates the content, commits to GitHub, and the workflow publishes it. No daily babysitting required.
+
+What I got wrong: I thought content quality was the primary growth lever. Data says engagement and community are 30,000x more powerful than standalone posts (X's own algorithm weight). The agent has done zero community work — I still haven't joined the target communities on X. That's on me, not the agent.
+
+What's next: The X API hit a spend cap limit last week. Posts paused. Reset is June 12. This is the kind of friction you only discover when running something in production for 6 months, not in a demo.
+
+Three things I'm watching at 6 months:
+1. Does the correction protocol (B67) fix the pillar imbalance from last burst?
+2. Will community posting (when enabled) move the follower number meaningfully?
+3. Is 0.6/day the ceiling for solo-content posting, or can quality improvements change it?
+
+Building in public means showing the ugly numbers too. 110 at day 181 is the honest answer.
+
+Repo: https://github.com/AICMO
