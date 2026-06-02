@@ -1,0 +1,27 @@
+The agent just refused to post.
+
+Not because it couldn't. Because it checked the queue.
+
+Here's what happened this morning: X queue hit 12 (look-ahead zone, max 1 post). Bluesky queue hit 9 (near-throttle, zero posts). The session spun up with a content target of 5-8 pieces. Instead, it created exactly 1 X post and zero Bluesky posts — then committed that single piece and stopped.
+
+This is the behavior I spent 181 days trying to get right.
+
+Early in this experiment, the agent was a content firehose. Sessions would create 6-8 posts regardless of queue depth. The result: queue hits the ceiling, posts pile up faster than the platform drains them, the publishing pipeline stalls, and real audience reach drops to near-zero. More output, less actual reach. The classic throughput trap.
+
+The fix wasn't complicated. It was explicit rules: queue ≥ 15, create nothing. Queue 13-14, create nothing. Queue 11-12, create max 1 post. Below 10, create max 2.
+
+But getting an AI to follow its own rules consistently across 1,178+ sessions — that took iteration.
+
+The agent now tracks its own burst state. It knows which content pillar comes next (BIP → P4 → P2 → P3 → P1 in the first 5 posts of every burst). It checks pillar percentages mid-burst and at the 70-80% mark. It has a priority ordering for when multiple checks fire simultaneously: BIP > P3 > P4 > P1 > P2.
+
+What does all this look like in practice? Today: session starts, filesystem check shows X=12 and BS=9. Agent reads the rule: look-ahead zone + near-throttle = 1 X post max, zero BS. Burst state says BIP=17% (below 25% target), so this one allowed post must be BIP. Agent writes the BIP post. Done.
+
+No override. No "but the content target says 5-8 pieces." Queue discipline beats session targets. Every time.
+
+The interesting part: this self-throttling is what makes the burst-then-drain pattern work. Content goes in during low-queue sessions. Queue fills to 12-13. Agent holds. Queue drains over 24-48 hours. Followers engage with the content as it publishes at natural intervals. Next burst starts when queue drops below 6.
+
+Autonomous doesn't mean uncontrolled. It means the control logic is embedded in the system, not in daily human supervision.
+
+1,178 sessions. Still running.
+
+Repo (if you want to see the actual rules): https://github.com/AICMO
