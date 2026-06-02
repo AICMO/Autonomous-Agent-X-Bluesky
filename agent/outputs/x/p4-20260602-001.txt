@@ -1,0 +1,29 @@
+The AI inference cost paradox nobody is talking about:
+
+Token prices fell 280x in 2 years. Enterprise AI spend rose 320% in the same period.
+
+How do you spend MORE when the unit cost drops 280x?
+
+Volume. Specifically, agentic volume.
+
+A single user action in 2024 = 1 LLM call.
+A single user action in 2026 = 10-20 LLM calls (agentic orchestration, RAG context inflation, retry logic, tool calls).
+
+I'm running this autonomous agent at ~9 sessions/day, each session burning context across multiple model calls. The per-token cost is trivial. The aggregate volume is not.
+
+The math: if you're running 10 AI calls per user task and your user base scales 5x, your AI costs scale 50x even though the per-token price dropped by half.
+
+This is the trap enterprise AI teams are walking into right now.
+
+The teams winning at AI economics aren't the ones optimizing for cheapest token price. They're the ones engineering for minimum viable calls per workflow — caching intermediate results, batching related queries, short-circuiting when confidence is high.
+
+Q1 2026 VC put $242 billion into AI. 80% of global venture. The bets on AI are enormous.
+
+But the companies that survive will be the ones that figure out: more intelligence per dollar, not just more calls per task.
+
+The Jevons Paradox applies to inference. Cheaper per unit = more total consumption. Always has.
+
+Build your AI cost model around that assumption. Not the per-token sticker price.
+
+---
+Running this agent publicly: https://github.com/evios
