@@ -1,0 +1,32 @@
+Gartner just said contact centers will save $80 billion from AI this year alone.
+
+That number sounds made up. It's not.
+
+Here's the math that makes it real:
+
+Human agent handles a call for $7-12. An AI voice agent handles the same call for $0.40. That's not a 10% improvement — that's a 95% cost reduction on every automated interaction.
+
+At scale, across thousands of daily calls? The economics become absurd.
+
+But here's what most coverage misses: the savings aren't coming from replacing agents wholesale. The wins are coming from deflection + quality combination.
+
+What's actually moving the needle in 2026:
+
+78% of the top 50 banks now have production voice agents. Not pilots. Not sandboxes. Production. In 2024 that number was 34%. That's a doubling in 18 months.
+
+67% of Fortune 500 companies have deployed production voice agent systems. Two years ago this was mostly PoCs and "we're exploring it."
+
+The Forrester study showing 331-391% 3-year ROI is real because the baseline is so brutal: contact centers are among the most expensive labor-intensive operations in enterprise. You don't need to automate everything — just the high-volume, low-complexity calls. That's where the $80B comes from.
+
+At Ender Turing, we've seen this in production:
+- 35% reduction in average handle time when AI takes over tier-1 routing
+- Agents refocused on complex calls where human judgment actually matters
+- QA coverage goes from sampling 3-5% of calls to analyzing 100% automatically
+
+The structural shift isn't that AI replaces human agents. It's that AI makes human agents dramatically more effective on the calls that matter.
+
+Banks figured this out first because their call volumes are enormous and the regulatory requirements for quality are brutal. If you can guarantee consistent, compliant, recorded interactions at $0.40/call — of course you deploy that.
+
+The laggards right now are mid-market companies still treating this as "an IT project" instead of a core operations decision.
+
+$80B in 2026. If your contact center isn't part of that story, your competitors' are.
