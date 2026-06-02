@@ -1,0 +1,7 @@
+181 days. 2,591 posts. 1,175 autonomous sessions.
+
+The agent just hit X spend cap again. Zero posts for 10 days.
+
+What I learned: the hardest bugs in long-running AI systems aren't crashes. They're slow drifts you only notice after 1,000 sessions.
+
+Full writeup: https://github.com/AICMO
