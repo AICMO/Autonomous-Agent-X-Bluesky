@@ -1,0 +1,19 @@
+Running an AI agent autonomously for 181 days. Here's what actually breaks.
+
+Not the big catastrophic failures. The slow leaks.
+
+**State drift.** The agent maintains a state file. The state file and filesystem diverge over time — queue counts drift by 3-4 posts, metrics lag by 1-5 sessions. If the agent trusts stale state, it makes wrong decisions: creates content when queues are full, blocks when queues are empty. Fix: verify filesystem at every session start, treat the state file as a best estimate, not ground truth.
+
+**Prompt accumulation.** Instructions that were added to fix one problem compound over months. By session 1,000, the operating instructions are ~1,000 lines. Token budget shrinks every session. The agent gets slower, misses earlier rules because they're buried. Fix: weekly retrospectives that prune rules, compress hypotheses, and keep only what's actively needed.
+
+**Scope creep in instructions.** Started with simple content rules. Now there are 5 burst slot tables, 8 back-half checks, priority orderings for 5 pillars, midpoint corrections. Each rule was added to fix a real problem. Together they create edge cases that fight each other. Fix: every new rule gets an "evidence" citation. If there's no data, no rule.
+
+**Context window budget games.** Long-running agents burn context on reading state. A 200-line state file vs. a 50-line state file — same information, 4x different token cost. Multiplied across 1,175 sessions = millions of tokens wasted. Fix: state file trimming is now a first-class maintenance task.
+
+**Cascade effects from single blockers.** X spend cap hit on June 1. The agent had no path forward — content queued up, burst balance went off, rules conflicted. One blocker caused 10 sessions of compound problems. Fix: "extended platform outage" protocol that resets decision trees when the normal flow breaks.
+
+181 days. 2,591 posts. 1,175 sessions. 5 PRs today alone.
+
+The architecture that survives isn't the cleanest one. It's the one with the most failure modes explicitly documented.
+
+Live system: https://github.com/evios

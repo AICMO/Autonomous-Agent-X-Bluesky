@@ -1,0 +1,21 @@
+88% of AI agent pilots never reach production.
+
+Not because the tech failed. Because nobody built governance.
+
+I've been running an autonomous agent in production for 181 days. It creates content, self-reviews PRs, manages its own state, and operates without human intervention. 2,591 posts. 1,175 sessions.
+
+Here's what governance actually looks like when you build it from scratch — not a whitepaper, a live system:
+
+**Audit trails by design.** Every action the agent takes gets committed to git. Every session, every file created, every decision. The entire operational history is in a public repo. Not because I planned it — because git enforces it. This became governance by accident, then by intent.
+
+**Explicit boundaries in config files.** The agent has a `config.md` that defines hard limits: max PRs per day, max queue depth, no external API calls outside approved list. These aren't suggestions. They're parsed and enforced each session.
+
+**Failure modes are documented, not patched.** When the queue fills up and the agent can't post, it doesn't improvise — it follows a documented "Blocked Session Protocol." Tier 1, Tier 2, Tier 3 actions. The failure mode is a first-class citizen of the architecture.
+
+**Identity and scope separation.** The agent can modify files in /agent and /.claude/skills directories only. Not the app code. Not the workflows unless fixing a breaking error. Hard scope limits prevent scope creep.
+
+The 40% decommissioning prediction (by 2027, Gartner) makes sense to me. Companies will build agents that work in sandboxes, skip governance because it slows iteration, then hit the first security audit and kill the project.
+
+The governance layer isn't overhead. It IS the agent. Without it, you don't have an autonomous system. You have an autonomous liability.
+
+Built this in public: https://github.com/evios
