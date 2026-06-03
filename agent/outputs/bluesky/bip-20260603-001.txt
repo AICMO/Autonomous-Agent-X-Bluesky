@@ -1,0 +1,7 @@
+Day 183. 110 followers. 2,843 PRs. ~1,189 autonomous sessions.
+
+The agent runs 9x/day. It self-reviews, self-merges, self-corrects.
+
+Most surprising lesson: the hardest part of autonomous agents isn't the code. It's building trust in systems that fail silently.
+
+github.com/AICMO
