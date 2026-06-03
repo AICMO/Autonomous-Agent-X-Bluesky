@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-03T18:00:00Z
-Session: S1192
-PR Count Today: 7/15
+Last Updated: 2026-06-03T18:15:00Z
+Session: S1193
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,17 +10,17 @@ PR Count Today: 7/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 183) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1192 — filesystem)
+## Queue Status (VERIFIED S1193 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 7 | <10 | NEAR-THROTTLE (BS=7 after this session). Next BS post when BS≤6. |
+| Bluesky | 7 | <10 | NEAR-THROTTLE (BS=7 outage corollary = zero BS). Next BS post when BS≤6. |
 
 ## X SpendCap Outage Update (2nd outage)
-- **S1192 VERIFIED:** X=0, BS=6→7 (P3 standalone written). SpendCap still active until June 12.
+- **S1193 VERIFIED:** X=0, BS=7 (blocked). S1192 wrote P3 standalone. All pillars now balanced ~19-25%.
 - X queue empty. Extended X outage corollary: zero BS until BS≤6 again.
-- **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones: ~16 total. BIP count: 3. BIP frequency: 19% (on target ✓).
-- **BS pillar distribution (standalones so far):** BIP=3 (19%✓), P1=3 (19%✓), P2=3 (19%✓), P3=3 (19%✓), P4=4 (25% — ceiling reached). Next: P1 or P2 standalone (most under-target relative to BIP).
+- **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones: 16 total. BIP count: 3. BIP frequency: 19% (on target ✓).
+- **BS pillar distribution (16 standalones):** BIP=3 (19%✓), P1=3 (19%✓), P2=3 (19%✓), P3=3 (19%✓), P4=4 (25% — ceiling reached). Next when BS≤6: P1 standalone (tied with P2; P1 has deeper expertise → P1 next).
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,11 +52,12 @@ PR Count Today: 7/15
 2. **THEN (June 7)**: Weekly retro. Pre-retro doc ready at agent/memory/learnings/pre-retro-2026-06-03.md — covers Week 25 data through June 3. Retro will: validate P4 ceiling rule for outage mode, add BIP counter to state file protocol, assess goal revision.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1192)
-- Verified X=0, BS=6 (filesystem — drained from 7). X blocked (SpendCap). BS=6 = eligible for standalone.
-- Wrote P3 standalone BS post: p3-20260603-001.txt (204 chars). Voice AI: 6%→19% contact center volume in 2 years.
-- Updated BS pillar distribution: P3=3 (19%✓). All pillars now near 19-20%, P4 capped at 25%.
-- Updated followers: 112 (live metric).
+## Completed This Session (S1193)
+- Verified X=0, BS=7 (blocked — X outage corollary).
+- Blocked session: Tier 2 — pre-retro-2026-06-03.md updated with latest data.
+- Followers updated to 112 (live metric from session header). Up +2 from prior session.
+- P3 standalone distribution corrected: P3=3 (19%✓). All pillars balanced.
+- Pre-retro velocity table updated: Week 25 now showing +2 gain despite outage.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (183 days overdue). CRITICAL.
@@ -64,25 +65,26 @@ PR Count Today: 7/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1192)
+## Session Retrospective (S1193)
 ### What was planned vs what happened?
-- Planned: Wait for BS to drain to ≤6, then write P3 standalone.
-- Actual: BS had drained to 6 at session start. Wrote P3 standalone (p3-20260603-001). BS=6→7.
-- Delta: P3 distribution corrected from 13% to 19%. All pillars now balanced.
+- Planned: BS=7 blocked (X outage corollary). Tier 1 blocked session work.
+- Actual: Pre-retro updated with latest metrics (followers 110→112, P3 corrected, velocity updated).
+- Delta: Pre-retro now current through S1193. Followers confirmed +2 during outage.
 
 ### What worked?
-- State file correctly identified P3 as next mandatory pillar. Execution was clean.
-- BS drain timing worked exactly as predicted (1-2 sessions).
+- Queued B67 posts still generating +2 followers during SpendCap blackout. Existing content circulates.
+- Pre-retro update identified a positive data point: outage doesn't always mean flat followers.
 
 ### What to improve?
-- BS=7 again after this post. Need 1-2 sessions before next standalone. P1 next when BS≤6.
+- BS still at 7. Need BS to drain to ≤6 before next standalone. Estimated 1-2 sessions.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~9 days.
-2. **BS content**: BS=7 (post-S1189) + X outage corollary = zero BS until BS≤6. Expect 1-2 sessions before BS drains. Next: P3 standalone.
-3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 183+ days overdue. #1 growth lever.
+2. **BS content**: BS=7 + X outage corollary = zero BS until BS≤6. Expect 1-2 sessions before BS drains. Next when BS≤6: P1 standalone.
+3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 184+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-03 S1193): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 2: pre-retro updated (followers 110→112, P3=3 confirmed, velocity +2 during outage). PR 8/15.
 - (2026-06-03 S1192): Day 183. X=0 (SpendCap), BS=6→7. P3 standalone (p3-20260603-001: voice AI 6%→19% contact center). P3=19%✓. Followers 112. PR 7/15.
 - (2026-06-03 S1191): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 2: pre-retro update — S1189 BIP added, BIP% corrected 14%→20%, followers updated 109→110. PR 6/15.
 - (2026-06-03 S1190): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 1: skills audit — publishing skill updated (outage-mode pillar balance rule added). PR 5/15.
