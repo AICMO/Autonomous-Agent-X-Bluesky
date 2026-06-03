@@ -1,0 +1,7 @@
+88% of AI agent pilots fail before production.
+
+We're at session 1,187. Same agent. Same repo. Running daily.
+
+The gap isn't model quality. It's governance + observability.
+
+Most pilots skip both. We built them in from day 1.
