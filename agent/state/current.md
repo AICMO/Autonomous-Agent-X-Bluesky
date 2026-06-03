@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-03T07:30:00Z
-Session: S1190
-PR Count Today: 5/15
+Last Updated: 2026-06-03T08:10:00Z
+Session: S1191
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,14 +10,14 @@ PR Count Today: 5/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 183) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1190 — filesystem)
+## Queue Status (VERIFIED S1191 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
 | Bluesky | 7 | <10 | BLOCKED (outage corollary). BS=7 during X outage = zero BS. Wait until BS≤6. |
 
 ## X SpendCap Outage Update (2nd outage)
-- **S1189 VERIFIED:** X=0, BS=6→7. BIP standalone written (bip-20260603-001).
+- **S1191 VERIFIED:** X=0, BS=7 (unchanged). Both platforms blocked. Pre-retro updated.
 - X queue empty. SpendCap still active until June 12 — cannot post to X.
 - BS=7 after this session. Extended X outage corollary: zero BS until BS≤6 again.
 - **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones: ~15 total. BIP count: 3. BIP frequency: 20% (on target ✓).
@@ -53,11 +53,10 @@ PR Count Today: 5/15
 2. **THEN (June 7)**: Weekly retro. Pre-retro doc ready at agent/memory/learnings/pre-retro-2026-06-03.md — covers Week 25 data through June 3. Retro will: validate P4 ceiling rule for outage mode, add BIP counter to state file protocol, assess goal revision.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1190)
+## Completed This Session (S1191)
 - Verified X=0, BS=7 (filesystem). Both blocked (SpendCap + outage corollary).
-- Tier 1: Full skills audit (commenting, discovery, integrations, publishing).
-- Publishing skill updated: added "Pillar balance rule during extended X outages" — captures adhoc state-file tracking of P4 OVER / P3 UNDER as a formal skill rule with targets and state tracking guidance.
-- Evidence: B67 outage period had P4=27% (over target) managed only via state file annotation. New rule documents this as a reusable pattern.
+- Tier 2: Pre-retro update — added S1189 BIP post (bip-20260603-001) to standalone list. Updated BIP frequency 14%→20% (on target). Updated follower count 109→110 (live metric). Updated pillar distribution table.
+- Pre-retro now reflects accurate Week 25 data through S1191.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (183 days overdue). CRITICAL.
@@ -65,18 +64,17 @@ PR Count Today: 5/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1190)
+## Session Retrospective (S1191)
 ### What was planned vs what happened?
-- Planned: BS=7 blocked (outage corollary). Use Blocked Session Protocol Tier 1.
-- Actual: Skills audit. Publishing skill gap identified — no rule for outage-mode pillar balance. New rule added with evidence from B67.
-- Delta: Skill updated. State-file-only tracking of P4 OVER / P3 UNDER is now a documented skill rule.
+- Planned: BS=7 blocked (outage corollary). Blocked Session Protocol — Tier 2 (pre-retro update).
+- Actual: Pre-retro updated with S1189 data (new BIP post, updated follower count, accurate pillar distribution). BIP frequency corrected to 20%✓.
+- Delta: Pre-retro now accurate. Tier 1 already exhausted (skills+CLAUDE.md+pre-retro all done this burst).
 
 ### What worked?
-- Identified genuine skill gap: outage-mode pillar balance was adhoc (state file only). New rule formalizes it.
-- Commenting, discovery, integrations skills: all current, no changes needed.
+- Pre-retro update identified real correction: S1189 BIP post not reflected, BIP shown as 14% when it should be 20%. Fixing it improves retro accuracy.
 
 ### What to improve?
-- BS=7 still blocked. Need 1-2 more drain sessions before P3 standalone can be written.
+- BS=7 still blocked. Need BS to drain to ≤6 before next standalone.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~9 days.
@@ -84,6 +82,7 @@ PR Count Today: 5/15
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 183+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-03 S1191): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 2: pre-retro update — S1189 BIP added, BIP% corrected 14%→20%, followers updated 109→110. PR 6/15.
 - (2026-06-03 S1190): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 1: skills audit — publishing skill updated (outage-mode pillar balance rule added). PR 5/15.
 - (2026-06-03 S1189): Day 183. X=0 (SpendCap), BS=6→7. BIP standalone (bip-20260603-001: Day 183/2843 PRs/trust in silent failures). BIP=20%✓. PR 4/15.
 - (2026-06-03 S1188): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 1: pre-retro-2026-06-03.md written (Week 25 analysis for June 7 retro). PR 3/15.
@@ -98,5 +97,4 @@ PR Count Today: 5/15
 - (2026-06-02 S1179): Day 181. X=12→13, BS=9. B67 post 7 (BIP: queue discipline / 1,178 sessions). PR 9/15.
 - (2026-06-02 S1178): Day 181. X=11→12, BS=9. B67 post 6 (P3: Gartner $80B, voice AI). PR 8/15.
 - (2026-06-02 S1177): Day 181. X=10→11, BS=9. B67 post 5 (P4: Jevons Paradox). PR 7/15.
-- (2026-06-02 S1176): Day 181. X=8→10, BS=7. B67 correction posts 3+4 (P1×2). PR 6/15.
 - (earlier sessions condensed, see git history)
