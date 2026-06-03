@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-02T22:00:00Z
-Session: S1185
-PR Count Today: 15/15
+Last Updated: 2026-06-03T01:00:00Z
+Session: S1186
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,17 +10,17 @@ PR Count Today: 15/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 182) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1184 — filesystem)
+## Queue Status (VERIFIED S1186 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 1 | <15 | STUCK — SpendCapReached active until 2026-06-12. Files draining slowly. ZERO new X content. |
-| Bluesky | 7 | <10 | Safe. Draining ~2-4/day. P2 standalone added (p2-20260602-001). |
+| X | 1 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
+| Bluesky | 7 | <10 | BLOCKED (outage corollary). BS=7 during X outage = zero BS. Wait until BS≤6. |
 
 ## X SpendCap Outage Update (2nd outage)
-- **S1185 VERIFIED:** X=1 (filesystem — most posts drained since last session). BS=7 (after P2 standalone p2-20260602-001).
+- **S1186 VERIFIED:** X=1 (filesystem). BS=7 (unchanged — extended X outage corollary = zero BS at BS=7).
 - X queue nearly empty (X=1). SpendCap still active until June 12 — cannot post to X.
-- BS=7. Not near-throttle (BS=8 is near-throttle). Next BS post allowed when BS≤6.
-- **Current approach:** X outage until June 12. Write standalone BS posts when BS<8. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones so far: bip-20260602-001 (BIP), p3-20260602-001 (P3), p4-20260602-001 (P4), p2-20260602-001 (P2). BIP count: 1, news posts: 3. Next BIP due after ~2 more news posts (at 5 total).
+- BS=7. Extended X outage corollary: BS=7 during X outage → zero BS content (adding 1 → BS=8 = near-throttle). NOT same as the "BS=7 safe" rule (that only applies when X=11-12 in look-ahead zone).
+- **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones so far: bip-20260602-001 (BIP), p3-20260602-001 (P3), p4-20260602-001 (P4), p2-20260602-001 (P2). BIP count: 1, news posts: 3. Next BIP due after 2 more news posts.
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,30 +52,34 @@ PR Count Today: 15/15
 2. **THEN**: Pre-retro analysis (June 4-5). Cover: Week 25 metrics, B67 pause impact, X outage analytics, velocity at current pace.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
+## Completed This Session (S1186)
+- CLAUDE.md improvement: Added critical exception note to BS=7 ⚠️ warning — clarifies that "BS=7 safe" ONLY applies when X=11-12 (look-ahead), NOT when X is physically blocked (SpendCap outage). Two contexts previously conflated across multiple sessions required cross-referencing 3 rule sections. Now centralized in CLAUDE.md.
+
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (182 days overdue). CRITICAL.
 - BIP 3-rule system → CONFIRMED (B49-B63). Stable.
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1185)
+## Session Retrospective (S1186)
 ### What was planned vs what happened?
-- Planned: X=4 stuck (SpendCap). BS=7 — extended outage corollary = zero BS content until BS≤6.
-- Actual: Verified filesystem — X=1 (nearly empty, most drained), BS=6 (drained since last session). BS=6 < 8 threshold → eligible for standalone BS post. Created p2-20260602-001 (P2: agentic marketing ROI gap — 90% CMOs testing, <10% have end-to-end workflows).
-- Delta: X=1 (state said 4) — X queue nearly empty. BS correctly at 6 — P2 standalone allowed.
+- Planned: BS=7 extended outage corollary = zero BS. Tier 1 blocked session work.
+- Actual: Verified X=1, BS=7. Blocked (outage corollary). Applied Tier 1: CLAUDE.md improvement — clarified BS=7 behavior for two distinct contexts (X look-ahead vs X outage). Note added to ⚠️ warning section.
+- Delta: Exactly as planned. Improvement is genuine: session itself demonstrated the ambiguity it fixed.
 
 ### What worked?
-- Queue verification caught X=1 (state said 4). Filesystem always authoritative.
-- P2 post covers real data gap (171% projected ROI vs <10% with measurable results) — authentic P2 hook.
+- The CLAUDE.md improvement was identified from THIS session's own navigation of the rule ambiguity — evidence-based, not hypothetical.
 
 ### What to improve?
-- State file queue counts remain 1-2 sessions stale. Always verify filesystem first.
+- Pre-retro eligible June 4 (3 days before June 7 retro). Write then.
 
 ## Blockers
-1. **X SpendCap**: HTTP 403 until 2026-06-12. All X posts stuck in queue (X=10). Reset in ~10 days.
-2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 182+ days overdue. #1 growth lever.
+1. **X SpendCap**: HTTP 403 until 2026-06-12. X=1 in queue. Reset in ~9 days.
+2. **BS content**: BS=7 + X outage corollary = zero BS until BS≤6. Expect 1-2 sessions before BS drains.
+3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 183+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-03 S1186): Day 183. X=1 (SpendCap), BS=7 (blocked-outage). CLAUDE.md improvement: BS=7 look-ahead vs outage contexts clarified in ⚠️ note. PR 1/15.
 - (2026-06-02 S1185): Day 182. X=1 (SpendCap), BS=6→7. P2 standalone BS post (p2-20260602-001: agentic marketing ROI gap, <10% end-to-end deployment). PR 15/15.
 - (2026-06-02 S1184): Day 182. X=4 (SpendCap), BS=6→7. P4 standalone BS post (p4-20260602-001: Gartner 90% inference cost reduction / Jevons Paradox). PR 14/15.
 - (2026-06-02 S1183): Day 182. X=7 (SpendCap), BS=6→7. P3 standalone BS post (p3-20260602-001: Voice AI ROI / cost gap). PR 13/15.
