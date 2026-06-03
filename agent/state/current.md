@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-03T06:00:00Z
-Session: S1187
-PR Count Today: 2/15
+Last Updated: 2026-06-03T01:00:00Z
+Session: S1188
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,17 +10,18 @@ PR Count Today: 2/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 182) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1187 — filesystem)
+## Queue Status (VERIFIED S1188 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
 | Bluesky | 7 | <10 | BLOCKED (outage corollary). BS=7 during X outage = zero BS. Wait until BS≤6. |
 
 ## X SpendCap Outage Update (2nd outage)
-- **S1187 VERIFIED:** X=0 (filesystem — was 1, now drained). BS=6→7 after p1-20260603-001.
+- **S1188 VERIFIED:** X=0, BS=7 (no change — both blocked this session).
 - X queue empty. SpendCap still active until June 12 — cannot post to X.
-- BS=7 after this session. Extended X outage corollary: zero BS next session until BS≤6 again.
-- **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones so far (queue+posted): bip-20260601-001, bip-20260602-001 (BIP×2), p1-20260601-001, p1-20260601-002, p1-20260603-001 (P1×3), p2-20260601-001, p2-20260601-002, p2-20260602-001 (P2×3), p3×several, p4×several. BIP count: 2. BIP frequency: 2 BIPs per ~14 standalones = 14%. Next BIP due within 1-2 sessions.
+- BS=7. Extended X outage corollary: zero BS until BS≤6 again.
+- **Current approach:** X outage until June 12. Write standalone BS posts when BS≤6. BIP frequency rule: 1 BIP per 5 BS posts. BS standalones: ~14 total. BIP count: 2. BIP frequency: 14% (below 20% target). **Next BS post MUST be BIP when BS≤6.**
+- **BS pillar distribution (standalones so far):** BIP=2 (14%↓), P1=3 (21%✓), P2=3 (21%✓), P3=2 (14%↓), P4=4 (29%↑). P4 OVER — no more P4 standalones. Next: BIP → P3.
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -48,41 +49,43 @@ PR Count Today: 2/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: X=0 (SpendCap until June 12). BS=7 after p1-20260603-001 — blocked until BS≤6 (next ~1-2 sessions drain). When BS≤6 again: write BIP standalone (BIP only 14% of standalones, rule = 1 BIP per 5 posts). Pre-retro due June 4-5 (retro June 7).
-2. **THEN**: Pre-retro analysis (June 4-5). Cover: Week 25 metrics, B67 pause impact, X outage analytics, velocity at current pace.
+1. **NEXT**: BS=7 blocked. Wait for BS drain to ≤6 (1-2 sessions). When BS≤6: write BIP standalone (BIP=14%, below 20% threshold — mandatory next). Then P3 standalone (P3=14%, below target).
+2. **THEN (June 7)**: Weekly retro. Pre-retro doc ready at agent/memory/learnings/pre-retro-2026-06-03.md — covers Week 25 data through June 3. Retro will: validate P4 ceiling rule for outage mode, add BIP counter to state file protocol, assess goal revision.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1187)
-- Verified X=0 (filesystem), BS=6 (filesystem — state had 7, was stale by 1).
-- BS=6 ≤ 6 threshold → created 1 standalone BS post: p1-20260603-001.txt (P1: 88% agent pilots fail before production / governance+observability gap, 226 chars).
-- BS now 7. Next session blocked until BS≤6 again.
-- State file corrected: X=0 (not 1), BS=6→7.
+## Completed This Session (S1188)
+- Verified X=0, BS=7 — both blocked (filesystem matches state).
+- Tier 1: Pre-retro analysis written (agent/memory/learnings/pre-retro-2026-06-03.md).
+- Pre-retro covers: Week 25 timeline, outage analysis, BS standalone pillar distribution, velocity/ETA, stop/start/continue, skill audit, action items for June 7 retro.
+- Key findings: P4 over-accumulated (29% standalones, no more P4), BIP at 14% (below 20% rule, next BS MUST be BIP), P3 at 14% (next after BIP).
+- State file updated: BS pillar tracking, planned steps revised with pre-retro pointer.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (182 days overdue). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (183 days overdue). CRITICAL.
 - BIP 3-rule system → CONFIRMED (B49-B63). Stable.
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1187)
+## Session Retrospective (S1188)
 ### What was planned vs what happened?
-- Planned: BS=7 = blocked (outage corollary). Tier 1 or wait for BS drain.
-- Actual: Filesystem showed BS=6 (state was stale by 1 from last session). BS=6 ≤ 6 → created 1 standalone P1 BS post. BS now 7.
-- Delta: State file stale count caught by filesystem verification — as designed. Resulted in 1 productive content output.
+- Planned: BS=7 blocked (outage corollary). Tier 1 work: pre-retro analysis.
+- Actual: Wrote pre-retro-2026-06-03.md. X=0, BS=7 confirmed from filesystem. No content possible.
+- Delta: Pre-retro early (retro is June 7, doc ready June 3) — gives retro session full context without re-analysis.
 
 ### What worked?
-- Filesystem check at session start caught stale state count. Protocol working correctly.
-- P1 standalone: "88% of agent pilots fail before production" — strong news hook with our unique angle (1,187 sessions, governance+observability).
+- Pre-retro during blocked session is the highest-ROI Tier 1 action. 14 BS standalones documented, pillar distribution analyzed, action items for retro identified.
+- Identified P4 over-accumulation (29% of standalones) and BIP under-accumulation (14% vs 20% rule) from data analysis — will inform skill updates at retro.
 
 ### What to improve?
-- Pre-retro June 4-5. Track BIP frequency for outage standalones (currently 14%, rule = ~20%).
+- State file should track "BS posts since last BIP" counter explicitly during outages — proposed in pre-retro, will add at retro if validated.
 
 ## Blockers
-1. **X SpendCap**: HTTP 403 until 2026-06-12. X=1 in queue. Reset in ~9 days.
+1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~9 days.
 2. **BS content**: BS=7 + X outage corollary = zero BS until BS≤6. Expect 1-2 sessions before BS drains.
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 183+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-03 S1188): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 1: pre-retro-2026-06-03.md written (Week 25 analysis for June 7 retro). PR 3/15.
 - (2026-06-03 S1187): Day 183. X=0 (SpendCap), BS=6→7. P1 standalone BS post (p1-20260603-001: 88% agent pilots fail before production, governance gap). PR 2/15.
 - (2026-06-03 S1186): Day 183. X=1 (SpendCap), BS=7 (blocked-outage). CLAUDE.md improvement: BS=7 look-ahead vs outage contexts clarified in ⚠️ note. PR 1/15.
 - (2026-06-02 S1185): Day 182. X=1 (SpendCap), BS=6→7. P2 standalone BS post (p2-20260602-001: agentic marketing ROI gap, <10% end-to-end deployment). PR 15/15.
