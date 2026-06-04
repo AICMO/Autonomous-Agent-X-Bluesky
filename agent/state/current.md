@@ -1,16 +1,16 @@
 # Agent State
-Last Updated: 2026-06-04T16:28:00Z
-Session: S1203
-PR Count Today: 10/15
+Last Updated: 2026-06-04T16:32:00Z
+Session: S1204
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 113 | 5,000 | 4,887 | +27/week (Week 24 record) | ~181 weeks |
+| Followers | 112 | 5,000 | 4,888 | +27/week (Week 24 record) | ~181 weeks |
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 184) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1202 — filesystem)
+## Queue Status (VERIFIED S1204 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
@@ -56,37 +56,39 @@ PR Count Today: 10/15
 2. **THEN (June 7)**: Weekly retro. Pre-retro doc at agent/memory/learnings/pre-retro-2026-06-03.md — updated through June 4. Retro will: validate P4 ceiling rule for outage mode, assess goal revision.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1203)
+## Completed This Session (S1204)
 - BS=7 (outage corollary active). Zero content written — correct per protocol.
-- Updated pre-retro with S1201+S1202 data: P3 correction to 19%, pillar balance now 19-24% across all pillars.
-- Added updated pillar balance table (21 standalones) and BIP counter validation findings.
-- State updated to S1203, PR Count Today: 10/15.
+- Follower count corrected: 113 → 112 (live session header is authoritative per CLAUDE.md).
+- Pre-retro updated with follower correction + S1203-S1204 blocked session notes.
+- Pre-retro marked COMPLETE — retro on June 7 can proceed directly.
+- State updated to S1204, PR Count Today: 11/15.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (183 days overdue). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (184 days overdue). CRITICAL.
 - BIP 3-rule system → CONFIRMED (B49-B63). Stable.
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1203)
+## Session Retrospective (S1204)
 ### What was planned vs what happened?
-- Planned (S1202): Wait for BS to drain to ≤6. When BS≤6: write BIP standalone.
-- Actual: BS=7 confirmed (outage corollary active). Correctly applied Tier 2 blocked session protocol: updated pre-retro with S1201+S1202 data.
-- Delta: Pre-retro now current through June 4. Pillar balance data and BIP counter validation documented.
+- Planned (S1203): Wait for BS to drain to ≤6. When BS≤6: write BIP standalone.
+- Actual: BS=7 confirmed (outage corollary still active). Follower count corrected (113→112 per live session header). Pre-retro updated with correction and marked COMPLETE.
+- Delta: Pre-retro now ready for June 7 retro. No content created (correctly blocked).
 
 ### What worked?
-- Correct application of Tier 1 exhaustion → Tier 2 fallback (pre-retro update, not redundant skill audit).
-- Pre-retro update had genuine new data (P3=19%, 21 standalones total, updated table).
+- Live session header (authoritative) caught follower discrepancy (113 in state vs 112 in header).
+- Pre-retro update had genuine new data (follower correction, blocked session pattern).
 
 ### What to improve?
-- N/A — correct blocked session behavior.
+- N/A — correct blocked session behavior. Tier 1 exhausted; Tier 2 complete with pre-retro COMPLETE.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~8 days.
 2. **BS content**: BS=7 (outage corollary active). Wait for BS to drain to ≤6 before next standalone. Expected: 1-2 sessions.
-3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 185+ days overdue. #1 growth lever.
+3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 184+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-04 S1204): Day 184. X=0 (SpendCap), BS=7 (blocked). Follower corrected 113→112 (live header). Pre-retro marked COMPLETE. PR 11/15.
 - (2026-06-04 S1203): Day 184. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (S1201+S1202 data, pillar balance 19-24%, 21 standalones). PR 10/15.
 - (2026-06-04 S1202): Day 184. X=0 (SpendCap), BS=6→7. P3 standalone (p3-20260604-001: Gartner $80B call center savings, QA analytics). P3=4(19%↑). PR 9/15.
 - (2026-06-04 S1201): Day 184. X=0 (SpendCap), BS=7 (blocked). Tier 2: communities hypothesis updated (+4 followers during X outage data, 184 days blocked). PR 8/15.
@@ -101,5 +103,4 @@ PR Count Today: 10/15
 - (2026-06-03 S1192): Day 183. X=0 (SpendCap), BS=6→7. P3 standalone (voice AI 6%→19% contact center). P3=3(15%). Followers 112. PR 7/15.
 - (2026-06-03 S1191): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 2: pre-retro update — BIP% corrected 14%→20%. PR 6/15.
 - (2026-06-03 S1190): Day 183. X=0 (SpendCap), BS=7 (blocked). Tier 1: skills audit — publishing skill updated (outage-mode pillar balance rule). PR 5/15.
-- (2026-06-03 S1189): Day 183. X=0 (SpendCap), BS=6→7. BIP standalone (Day 183/2843 PRs). BIP=20%✓. PR 4/15.
 - (earlier sessions condensed, see git history)
