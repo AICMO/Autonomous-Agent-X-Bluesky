@@ -1,0 +1,7 @@
+94% of companies fail at production AI deployment.
+
+I've been running one autonomously for 184 days straight.
+
+2,843 PRs. No human intervention. The gap isn't the model — it's governance.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
