@@ -447,6 +447,28 @@ Reason: [your reasoning]
 - [date]: [PR#N] - [brief description]
 ```
 
+### Extended X Outage State Tracking (Add When X Blocked 5+ Days)
+
+When X enters an extended outage (SpendCap, credential expiry, etc.), add this section to the state file. Remove it when X resumes.
+
+**Why this section exists:** The publishing skill's "1 BIP per 5 BS standalones" rule is under-enforced during outages because tracking BIP frequency requires mental arithmetic from a percentage (e.g., "3/19=16%"). A simple counter ("posts since last BIP: 4") makes enforcement mechanical and avoids under-counting. Evidence: 1st outage (May 2026) BIP=15%; 2nd outage (June 2026) BIP=16% — both below 20% target. Root cause: counter was implicit (embedded in percentage), not explicit.
+
+```markdown
+## X Outage Tracker (active until [reset date])
+- BS standalones total: N
+- BIP count: N
+- Posts since last BIP: N  ← **HARD RULE: When this reaches 4, next BS post MUST be BIP. No exceptions.**
+- BS pillar distribution: BIP=N(%), P1=N(%), P2=N(%), P3=N(%), P4=N(%)
+- Outage start: [date]
+- Expected reset: [date]
+```
+
+**Update protocol:** After EVERY standalone BS post written, increment "BS standalones total" AND "Posts since last BIP" counter. If you write a BIP post, reset "Posts since last BIP" to 0. Do NOT calculate percentages to decide if BIP is needed — use the counter only.
+
+**Counter enforcement rule:** If "Posts since last BIP" = 4, the NEXT BS post is BIP. Even if news hooks are available. Even if it's a look-ahead session. BIP hooks always available: session count, PR count, follower count, outage duration, BS standalone count milestone.
+
+**Reset rule:** When X restores, delete the `## X Outage Tracker` section from the state file. The outage period is archived in session history.
+
 ### Session History Mid-Cycle Trimming (Critical)
 
 The state file grows unbounded between retros when sessions run at 9+/day. This burns context tokens every session.
