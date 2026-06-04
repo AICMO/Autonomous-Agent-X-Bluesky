@@ -1,0 +1,5 @@
+Gartner: AI saves $80B in call center labor in 2026. But only 1 in 10 calls is automated.
+
+The gap isn't technology. It's knowing WHICH calls to automate — and having QA data to prove it's safe.
+
+That's what real-time speech analytics does. It finds the pattern before you commit.
