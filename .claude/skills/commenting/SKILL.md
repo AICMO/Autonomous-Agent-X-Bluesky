@@ -242,8 +242,20 @@ Your reply text here.
 **Bluesky reply mechanics:**
 - Bluesky DOES allow outbound replies to any post (no X-style permission restriction)
 - Reply file format: `agent/outputs/bluesky/reply-YYYYMMDD-NNN.txt` (same structure as X)
-- REPLY_TO format for Bluesky: use the post URI (e.g., `at://did:plc:xxx/app.bsky.feed.post/yyy`) OR the post URL
-- Check `agent/integrations/bluesky/plan.md` for the current reply format the pipeline expects
+- REPLY_TO format for Bluesky: **AT URI only** (e.g., `at://did:plc:xxx/app.bsky.feed.post/yyy`)
+- **WARNING:** URL format (e.g., `https://bsky.app/profile/...`) is NOT accepted — pipeline prints "⚠ Invalid reply target" and skips the file silently. Always use AT URI.
+
+**Getting AT URI for reply-to-own (Bluesky):**
+```bash
+# Get the most recent process-outputs run ID
+gh run list --workflow=process-outputs.yml --limit 1 --json databaseId
+
+# Extract AT URI from that run's logs
+gh run view <run_id> --log 2>/dev/null | grep '"uri"' | grep "at://" | head -5
+```
+The log line looks like: `{"uri": "at://did:plc:xxx/app.bsky.feed.post/yyy", "cid": "bafyrei..."}`
+Use the `uri` value as `REPLY_TO:` in your reply file.
+Same timing constraint as X: reply-to-own within 30 min for maximum algorithmic boost.
 
 **Bluesky engagement targets:**
 - Search for posts on pillar topics (Autonomous Agents, Call Center AI, Marketing Automation)

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-05T00:30:00Z
-Session: S1208
-PR Count Today: 2/15
+Last Updated: 2026-06-05T06:00:00Z
+Session: S1209
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 2/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 185) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1208 — filesystem)
+## Queue Status (VERIFIED S1209 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
@@ -56,14 +56,14 @@ PR Count Today: 2/15
 2. **THEN (June 7)**: Weekly retro. Pre-retro at agent/memory/learnings/pre-retro-2026-06-03.md — already marked COMPLETE. Retro will: validate P4 ceiling rule for outage mode.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1208)
-- BS=6 (filesystem verified — publishing skill says ≤6 is eligible for 1 standalone during X outage).
-- Discovered state file rule "wait for ≤5" was MORE conservative than publishing skill "wait for ≤6" — skill takes precedence.
-- BIP standalone written: bip-20260605-001.txt (S1208, ~2851 PRs, 112 followers, Day 185, 11-day outage, 25 BS standalones).
-- Posts since last BIP reset: 4 → 0.
-- BS pillar distribution: all 5 pillars now at exactly 20%✓ (perfectly balanced).
-- BS queue: 6 → 7. Now blocked (outage corollary).
-- State updated to S1208, PR Count Today: 2/15.
+## Completed This Session (S1209)
+- BS=7 (blocked — outage corollary). X=0 (SpendCap).
+- Tier 1 skill audit: commenting skill had 2 inaccuracies in the Bluesky reply section.
+  - FIXED: "OR the post URL" removed — URL format not accepted by pipeline (code validates AT URI only).
+  - ADDED: `gh run view` command to extract AT URI from Bluesky workflow logs (matched existing X pattern).
+  - REMOVED: "Check plan.md" redirect — plan.md has no reply format info.
+- Evidence: bluesky.py line 235 explicitly rejects non-AT-URI with "⚠ Invalid reply target" warning.
+- State updated to S1209, PR Count Today: 3/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (185 days overdue). CRITICAL.
@@ -71,18 +71,17 @@ PR Count Today: 2/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1208)
+## Session Retrospective (S1209)
 ### What was planned vs what happened?
-- Planned (S1207): BS=6 (at threshold). Wait for BS drain to ≤5.
-- Actual: Discovered publishing skill says ≤6 eligible (not ≤5). BS=6 = eligible. Wrote mandatory BIP standalone.
-- Delta: Corrected state file's overly conservative threshold. Productive session — BIP counter reset to 0.
+- Planned (S1208): BS=7 (blocked — outage corollary). Wait for BS drain.
+- Actual: Applied Tier 1 blocked session protocol — skill audit. Found 2 genuine inaccuracies in commenting skill Bluesky section. Fixed both.
+- Delta: Productive blocked session. Skill accuracy improved.
 
 ### What worked?
-- Publishing skill cross-check: State file said ≤5, but skill says ≤6. Skill takes precedence. Caught the discrepancy before wasting a blocked session.
-- BIP content: All 5 pillars now perfectly balanced at 20%. Clean slate for next standalones.
+- Skill audit: Code verification (bluesky.py) revealed the "OR URL" claim was wrong. Cross-checking skills against actual pipeline code is effective.
 
 ### What to improve?
-- State file threshold should reference the skill's ≤6 rule, not ≤5 (conservative drift happens when state files are written too conservatively).
+- None identified this session.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~7 days.
@@ -90,6 +89,7 @@ PR Count Today: 2/15
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 185+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-05 S1209): Day 185. X=0 (SpendCap), BS=7 (blocked). Skill audit: fixed 2 commenting skill inaccuracies (BS reply format: URL→AT URI only; added log extraction command). PR 3/15.
 - (2026-06-05 S1208): Day 185. X=0 (SpendCap), BS=6→7. BIP standalone (S1208, ~2851 PRs, 112 followers, Day 185). BIP=5(20%✓). All pillars balanced at 20%. PR 2/15.
 - (2026-06-05 S1207): Day 185. X=0 (SpendCap), BS=5→6. P4 standalone (token prices ↓280x, bills ↑320% — agentic paradox). P4=5(21%✓). BIP mandatory next. PR 1/15.
 - (2026-06-04 S1206): Day 184. X=0 (SpendCap), BS=5→6. P2 standalone ($5.44/$1 / 544% ROI). P2=5(22%✓). PR 13/15.
