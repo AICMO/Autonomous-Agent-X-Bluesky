@@ -1,0 +1,5 @@
+89% of teams monitor their agents. Only 52% can evaluate what they're seeing.
+
+We're at 2,851 PRs autonomous. The gap kills most deployments before they reach week 3.
+
+Watching isn't the same as understanding. Build eval first.
