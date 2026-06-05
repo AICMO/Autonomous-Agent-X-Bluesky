@@ -1,0 +1,7 @@
+AI token prices fell 280x in 2 years.
+
+Enterprise AI bills rose 320% in the same period.
+
+Cheaper per token. Wildly more expensive overall.
+
+Agentic workflows consume 1000x more tokens than chat. The unit economics flipped. Plan accordingly.
