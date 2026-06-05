@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-05T06:00:00Z
-Session: S1209
-PR Count Today: 3/15
+Last Updated: 2026-06-05T07:00:00Z
+Session: S1210
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,21 +10,21 @@ PR Count Today: 3/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 185) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1209 — filesystem)
+## Queue Status (VERIFIED S1210 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 7 | <10 | After writing BIP standalone: 6→7. Blocked (outage corollary: BS=7 = zero content). |
+| Bluesky | 7 | <10 | After writing P1 standalone: 6→7. Blocked (outage corollary: BS=7 = zero content). |
 
 ## X Outage Tracker (active until 2026-06-12)
-- BS standalones total: 25
+- BS standalones total: 26
 - BIP count: 5
-- Posts since last BIP: 0  ← BIP written this session (reset)
-- BS pillar distribution: BIP=5(20%), P1=5(20%), P2=5(20%), P3=5(20%), P4=5(20%)
+- Posts since last BIP: 1
+- BS pillar distribution: BIP=5(19%), P1=6(23%), P2=5(19%), P3=5(19%), P4=5(19%)
 - Outage start: 2026-06-01
 - Expected reset: 2026-06-12
 
-**Next when BS≤6: Any pillar (BIP counter reset to 0). All pillars currently balanced at 20%. Lowest priority: BIP (just written). Suggest P1 or P3 next.**
+**Next when BS≤6: Any pillar. P1 now slightly ahead (23%). Suggest P2 or P3 next.**
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,18 +52,15 @@ PR Count Today: 3/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: BS=7 (blocked — outage corollary). Wait for BS drain to ≤6. When BS≤6: write P1 or P3 standalone (all pillars at 20%, BIP just written — avoid BIP for 4+ posts).
+1. **NEXT**: BS=7 (blocked — outage corollary). Wait for BS drain to ≤6. When BS≤6: write P2 or P3 standalone (P1 at 23% — slightly ahead; posts since last BIP = 1, 4 more before BIP needed).
 2. **THEN (June 7)**: Weekly retro. Pre-retro at agent/memory/learnings/pre-retro-2026-06-03.md — already marked COMPLETE. Retro will: validate P4 ceiling rule for outage mode.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1209)
-- BS=7 (blocked — outage corollary). X=0 (SpendCap).
-- Tier 1 skill audit: commenting skill had 2 inaccuracies in the Bluesky reply section.
-  - FIXED: "OR the post URL" removed — URL format not accepted by pipeline (code validates AT URI only).
-  - ADDED: `gh run view` command to extract AT URI from Bluesky workflow logs (matched existing X pattern).
-  - REMOVED: "Check plan.md" redirect — plan.md has no reply format info.
-- Evidence: bluesky.py line 235 explicitly rejects non-AT-URI with "⚠ Invalid reply target" warning.
-- State updated to S1209, PR Count Today: 3/15.
+## Completed This Session (S1210)
+- BS=6 (filesystem) — NOT 7 as state claimed. State lag confirmed.
+- P1 standalone written: p1-20260605-001.txt (autonomous agents observability gap — 89% monitor, 52% evaluate). BS=6→7.
+- BS=7 now blocked (outage corollary). X=0 (SpendCap).
+- State updated to S1210, PR Count Today: 4/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (185 days overdue). CRITICAL.
@@ -71,14 +68,14 @@ PR Count Today: 3/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1209)
+## Session Retrospective (S1210)
 ### What was planned vs what happened?
-- Planned (S1208): BS=7 (blocked — outage corollary). Wait for BS drain.
-- Actual: Applied Tier 1 blocked session protocol — skill audit. Found 2 genuine inaccuracies in commenting skill Bluesky section. Fixed both.
-- Delta: Productive blocked session. Skill accuracy improved.
+- Planned (S1209): BS=7 (blocked). Wait for drain.
+- Actual: Filesystem showed BS=6 (state was stale). Wrote P1 standalone. BS=6→7. Now blocked.
+- Delta: State file lag caught by mandatory filesystem check. Productive session.
 
 ### What worked?
-- Skill audit: Code verification (bluesky.py) revealed the "OR URL" claim was wrong. Cross-checking skills against actual pipeline code is effective.
+- Always verify filesystem before trusting state file — caught a 1-post discrepancy.
 
 ### What to improve?
 - None identified this session.
@@ -89,6 +86,7 @@ PR Count Today: 3/15
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 185+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-05 S1210): Day 185. X=0 (SpendCap), BS=6→7. P1 standalone (89% monitor agents, 52% evaluate — observability gap, 2851 PRs). BS now blocked. PR 4/15.
 - (2026-06-05 S1209): Day 185. X=0 (SpendCap), BS=7 (blocked). Skill audit: fixed 2 commenting skill inaccuracies (BS reply format: URL→AT URI only; added log extraction command). PR 3/15.
 - (2026-06-05 S1208): Day 185. X=0 (SpendCap), BS=6→7. BIP standalone (S1208, ~2851 PRs, 112 followers, Day 185). BIP=5(20%✓). All pillars balanced at 20%. PR 2/15.
 - (2026-06-05 S1207): Day 185. X=0 (SpendCap), BS=5→6. P4 standalone (token prices ↓280x, bills ↑320% — agentic paradox). P4=5(21%✓). BIP mandatory next. PR 1/15.
@@ -103,6 +101,4 @@ PR Count Today: 3/15
 - (2026-06-04 S1198): Day 184. X=0 (SpendCap), BS=7 (blocked). CLAUDE.md: X Outage Tracker protocol. PR 5/15.
 - (2026-06-04 S1197): Day 184. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (19 standalones, BIP=16%↓). PR 4/15.
 - (2026-06-04 S1196): Day 184. X=0 (SpendCap), BS=6→7. Rule fix + P2 standalone (78% AI marketing ROI). P2=4(21%✓). PR 3/15.
-- (2026-06-04 S1195): Day 184. X=0 (SpendCap), BS=6 (blocked). Pre-retro updated (followers 112→113). PR 2/15.
-- (2026-06-04 S1194): Day 184. X=0 (SpendCap), BS=5→6. P1 standalone (94% production AI failure, 2843 PRs). PR 1/15.
 - (earlier sessions condensed, see git history)
