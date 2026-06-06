@@ -1,0 +1,5 @@
+LLM costs fell 280x since 2022. Enterprise AI bills are still climbing.
+
+Why? Agentic workflows trigger 10-20 LLM calls per user task. RAG inflates context 3-5x. Monitoring agents run 24/7.
+
+Per-token is cheap. Per-workflow is expensive. Most teams haven't done that math yet.
