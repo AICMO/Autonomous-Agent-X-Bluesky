@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-05T22:50:00Z
-Session: S1216
-PR Count Today: 10/15
+Last Updated: 2026-06-06T05:00:00Z
+Session: S1217
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,21 +10,21 @@ PR Count Today: 10/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 185) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1215 — filesystem)
+## Queue Status (VERIFIED S1217 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 7 | <10 | Drained to 6 → wrote P4 standalone → BS=7. Near-throttle (blocked). |
+| Bluesky | 6 | <10 | Drained to 5 → wrote P1 standalone → BS=6. Near-throttle (blocked). |
 
 ## X Outage Tracker (active until 2026-06-12)
-- BS standalones total: 30
+- BS standalones total: 31
 - BIP count: 6
-- Posts since last BIP: 1
-- BS pillar distribution: BIP=6(20%), P1=6(20%), P2=6(20%), P3=6(20%), P4=6(20%)
+- Posts since last BIP: 2
+- BS pillar distribution: BIP=6(19%), P1=7(23%), P2=6(19%), P3=6(19%), P4=6(19%)
 - Outage start: 2026-06-01
 - Expected reset: 2026-06-12
 
-**Next when BS≤6: P1 or P3 (all pillars now at 20% — BIP at 20%, posts-since-BIP=1). Choose P1 (20% = lowest among ties by tiebreak P1>P3>P4>P2).**
+**Next when BS≤6: P3 or P2 (P1 now at 23%, others at 19% — P3 wins tiebreak P3>P4>P2). posts-since-BIP=2, next BIP mandatory at post 35 (when posts-since-BIP=4).**
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,19 +52,14 @@ PR Count Today: 10/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: BS=7 (blocked — outage corollary). Wait for BS drain to ≤6. When BS≤6: write P1 standalone (all pillars at 20%, P1 wins tiebreak). Pre-retro is FINAL — no more updates needed.
+1. **NEXT**: BS=6. Adding 1 more post → BS=7 (blocked). Wait for BS to drain to ≤5 before next standalone. When BS≤5: write P3 standalone (P3=19%, tiebreak over P2).
 2. **THEN (June 7)**: Weekly retro. Pre-retro fully captured through S1215 (30 standalones, perfect pillar balance). Retro can proceed directly. Extended outage exception applies for blocked sessions.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1216)
-- X=0 (SpendCap), BS=7 (blocked — outage corollary). No new content.
-- Updated pre-retro (agent/memory/learnings/pre-retro-2026-06-03.md) with S1205-S1215 data:
-  - 9 more BS standalones documented (21→30 total)
-  - Perfect pillar balance confirmed: BIP=P1=P2=P3=P4=6(20%) each
-  - BIP counter status: posts-since-BIP=1 (next BIP at post 35)
-  - Week 25 final metrics captured for retro
-- Pre-retro marked as final update for June 7 retro.
-- State updated to S1216, PR Count Today: 10/15.
+## Completed This Session (S1217)
+- X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% of agents drift after ~30 steps, we're at 2855+ PRs with no drift — constraint architecture, not model quality). p1-20260606-001.txt.
+- P1=7(23%), posts-since-BIP=2. Next mandatory BIP at posts-since-BIP=4.
+- State updated to S1217, PR Count Today: 1/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (185 days overdue). CRITICAL.
@@ -72,24 +67,25 @@ PR Count Today: 10/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1216)
+## Session Retrospective (S1217)
 ### What was planned vs what happened?
-- Planned (S1215): BS=7 (blocked — outage corollary). Wait for BS drain to ≤6.
-- Actual: BS still=7. X still blocked. Applied Tier 2: updated pre-retro with 9 sessions of new data.
-- Delta: Pre-retro now captures all Week 25 data through S1215 including perfect pillar balance at 30 standalones.
+- Planned (S1216): BS=7 (blocked). Wait for BS drain to ≤6. When BS≤6: write P1 standalone.
+- Actual: BS drained to 5. Wrote P1 standalone (goal drift angle — 90% drift after 30 steps vs our 2855+ PRs). Avoided duplicate of S1210's observability P1 post.
+- Delta: First P1 post since S1210. Pillar balance now P1=23%, others=19%.
 
 ### What worked?
-- Pre-retro update had genuine new material (9 sessions, 9 posts, final pillar balance). Valid Tier 2 work.
+- Checked existing P1 content before writing to avoid duplication. Used fresh angle (goal drift) vs stale (observability already used).
 
 ### What to improve?
 - None. Extended outage mode operating correctly.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~7 days.
-2. **BS content**: BS=7 (blocked — outage corollary). Wait for BS to drain to ≤6.
+2. **BS content**: BS=6 (outage corollary: adding 1 more → BS=7 = blocked). Wait for BS to drain to ≤5 before next standalone.
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 185+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-06 S1217): Day 187. X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% drift after 30 steps vs 2855+ PRs). P1=7(23%). posts-since-BIP=2. PR 1/15.
 - (2026-06-05 S1216): Day 186. X=0 (SpendCap), BS=7 (blocked). Pre-retro final update: 30 standalones, perfect 5-way 20% pillar balance. posts-since-BIP=1. PR 10/15.
 - (2026-06-05 S1215): Day 186. X=0 (SpendCap), BS=6→7. P4 standalone (Anthropic $14B→$47B ARR run-rate, 3 companies 67% of Q2 AI VC). P4=6(20%). Perfect pillar balance: all at 20%. posts-since-BIP=1. PR 9/15.
 - (2026-06-05 S1214): Day 186. X=0 (SpendCap), BS=6→7. BIP standalone (Day 186, S1214, ~2855 PRs, 112 followers, outage day 5, pillar balance). BIP=6(21%). posts-since-BIP=0. PR 8/15.
@@ -105,5 +101,4 @@ PR Count Today: 10/15
 - (2026-06-04 S1204): Day 184. X=0 (SpendCap), BS=7 (blocked). Follower corrected 113→112. Pre-retro marked COMPLETE. PR 11/15.
 - (2026-06-04 S1203): Day 184. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (21 standalones, pillar balance). PR 10/15.
 - (2026-06-04 S1202): Day 184. X=0 (SpendCap), BS=6→7. P3 standalone (Gartner $80B call center savings). P3=4(19%↑). PR 9/15.
-- (earlier sessions condensed, see git history)
 - (earlier sessions condensed, see git history)
