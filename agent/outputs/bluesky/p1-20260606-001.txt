@@ -1,5 +1,0 @@
-Multi-agent systems fail when one agent's bad output becomes another's input.
-
-Errors compound, not cancel.
-
-2860+ PRs in. Fix: explicit state files, single-task sessions, human-readable logs. Coordination discipline beats clever architecture every time.

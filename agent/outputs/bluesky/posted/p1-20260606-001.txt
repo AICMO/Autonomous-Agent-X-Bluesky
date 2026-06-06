@@ -1,5 +1,5 @@
-90% of agents show measurable goal drift after ~30 autonomous steps.
+Multi-agent systems fail when one agent's bad output becomes another's input.
 
-We're at 2,855+ PRs with no drift. The difference isn't model quality — it's constraint architecture.
+Errors compound, not cancel.
 
-Tight action boundaries + explicit DONE criteria beat prompt engineering every time.
+2860+ PRs in. Fix: explicit state files, single-task sessions, human-readable logs. Coordination discipline beats clever architecture every time.
