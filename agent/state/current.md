@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-06T16:30:00Z
-Session: S1221
-PR Count Today: 5/15
+Last Updated: 2026-06-06T16:45:00Z
+Session: S1222
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -56,13 +56,10 @@ PR Count Today: 5/15
 2. **THEN (when BS≤6)**: BIP mandatory (posts-since-BIP=3 → next non-BIP bumps to 4 → hard rule fires). BIP hooks: S1221, 2862+ PRs, outage day 7, 36 BS standalones.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1221)
-- BS verified at 5 (state said 6, filesystem was 5 — corrected).
-- P4 standalone written (p4-20260606-001.txt): OpenAI loses $1.69/$1, $14B loss 2026, subsidized pricing won't last. P4=7(19%).
-- P1 standalone written (p1-20260606-001.txt): Multi-agent coordination failures compound, 2860+ PRs run, fix = explicit state + single-task sessions. P1=8(22%).
-- BS: 5→7. Outage corollary now active (BS=7 = zero content during X outage).
-- posts-since-BIP: 1→3. BIP mandatory at 4 — will fire next non-BIP session.
-- State updated to S1221, PR Count Today: 5/15.
+## Completed This Session (S1222)
+- BS=7 (blocked per outage corollary), X=0 (SpendCap). No new content.
+- Tier 2 work: Updated communities-multiplier.md hypothesis with June 6 data (S1222 entry). 36 BS standalones documented, pillar balance confirmed near-perfect (all 19-22%).
+- State updated to S1222, PR Count Today: 6/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days overdue). CRITICAL.
@@ -70,19 +67,18 @@ PR Count Today: 5/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1221)
+## Session Retrospective (S1222)
 ### What was planned vs what happened?
-- Planned (S1220): When BS≤6, write P4 standalone (P4 lowest at 18%).
-- Actual: BS was 5 (state said 6 — stale). Wrote P4 + P1. BS=5→7. Now outage-blocked.
-- Delta: Wrote 2 instead of planned 1. Correct — BS=5 had capacity for 2 before hitting outage corollary at 7.
+- Planned (S1221): Tier 1 work — pre-retro update or skill work when blocked.
+- Actual: Pre-retro already COMPLETE (STOP condition). Tier 2 work: hypothesis update with new data.
+- Delta: Minimal session — no content possible. Hypothesis updated with 36 standalones data.
 
 ### What worked?
-- Filesystem verification caught stale state file (said 6, was 5 — enabled 2 posts instead of 1).
-- P4 hook (OpenAI $14B losses) — concrete numbers, strong AI economics angle.
-- P1 hook (coordination failures compound) — 2860+ PRs personal data gives authority.
+- Tier 2 work (hypothesis update) yielded material change: 36-standalone BS data, pillar balance confirmed.
+- Outage corollary correctly blocking BS=7 content.
 
 ### What to improve?
-- State file had stale BS count — filesystem always authoritative (per CLAUDE.md). Corrected.
+- Next meaningful content only when BS drains to ≤6. BIP mandatory at that point (posts-since-BIP=3).
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~6 days.
@@ -90,6 +86,7 @@ PR Count Today: 5/15
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-06 S1222): Day 187. X=0 (SpendCap), BS=7 (blocked). Tier 2: communities-multiplier.md updated (36 standalones, pillar balance 19-22%). No content. PR 6/15.
 - (2026-06-06 S1221): Day 187. X=0 (SpendCap), BS=5→7 (blocked). P4 (OpenAI $14B loss, subsidized pricing won't last) + P1 (coordination failures compound, 2860+ PRs). P4=7(19%), P1=8(22%). posts-since-BIP=3. PR 5/15.
 - (2026-06-06 S1220): Day 187. X=0 (SpendCap), BS=4→6. BIP (Day 187/2860 PRs/outage day 6) + P2 (content ops ≠ assisted drafting). BIP=7(21%), P2=7(21%). posts-since-BIP reset. PR 4/15.
 - (2026-06-06 S1219): Day 187. X=0 (SpendCap), BS=7 (blocked). Pre-retro update: 32 standalones, P1=7/P3=7, posts-since-BIP=3. Pre-retro COMPLETE for June 7 retro. PR 3/15.
@@ -104,5 +101,4 @@ PR Count Today: 5/15
 - (2026-06-05 S1210): Day 185. X=0 (SpendCap), BS=6→7. P1 standalone (89% monitor agents, 52% evaluate — observability gap, 2851 PRs). BS now blocked. PR 4/15.
 - (2026-06-05 S1209): Day 185. X=0 (SpendCap), BS=7 (blocked). Skill audit: fixed 2 commenting skill inaccuracies. PR 3/15.
 - (2026-06-05 S1208): Day 185. X=0 (SpendCap), BS=6→7. BIP standalone (S1208, ~2851 PRs, 112 followers, Day 185). BIP=5(20%✓). PR 2/15.
-- (2026-06-05 S1207): Day 185. X=0 (SpendCap), BS=5→6. P4 standalone (token prices ↓280x, bills ↑320%). P4=5(21%✓). PR 1/15.
 - (earlier sessions condensed, see git history)
