@@ -1,0 +1,7 @@
+Most "AI content ops" tools still require a human to hit publish.
+
+That's assisted drafting. Not content ops.
+
+Real agentic content: researches, writes, queues, posts — zero human touchpoints.
+
+187 days. 2860+ PRs. The bottleneck was never the AI. It was the workflow.

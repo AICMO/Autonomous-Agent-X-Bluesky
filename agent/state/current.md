@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-06T07:00:00Z
-Session: S1219
-PR Count Today: 3/15
+Last Updated: 2026-06-06T16:15:00Z
+Session: S1220
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,21 +10,21 @@ PR Count Today: 3/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 187) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1219 — filesystem)
+## Queue Status (VERIFIED S1220 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 7 | <10 | BS=7 (blocked — outage corollary: adding 1 → BS=8 = near-throttle). Wait for BS≤6. |
+| Bluesky | 6 | <10 | BS=4→6 (wrote 2 standalones). Safe zone. |
 
 ## X Outage Tracker (active until 2026-06-12)
-- BS standalones total: 32
-- BIP count: 6
-- Posts since last BIP: 3
-- BS pillar distribution: BIP=6(19%), P1=7(22%), P2=6(19%), P3=7(22%), P4=6(19%)
+- BS standalones total: 34
+- BIP count: 7
+- Posts since last BIP: 1
+- BS pillar distribution: BIP=7(21%), P1=7(21%), P2=7(21%), P3=7(21%), P4=6(18%)
 - Outage start: 2026-06-01
 - Expected reset: 2026-06-12
 
-**Next when BS≤6: BIP mandatory (posts-since-BIP=3 → next post = posts-since-BIP=4 → HARD RULE: MUST be BIP). No exceptions.**
+**Next when BS≤6: P4 preferred (P4=18%, below 20% target). posts-since-BIP=1 (safe zone — BIP mandatory at posts-since-BIP=4).**
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,16 +52,16 @@ PR Count Today: 3/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: BS=7 (blocked — outage corollary). Wait for BS to drain to ≤6. When BS≤6: **MANDATORY BIP** (posts-since-BIP=3, counter=3, mandatory at 4 — one more non-BIP post and MUST write BIP immediately).
-2. **THEN (June 7)**: Weekly retro. Pre-retro COMPLETE through S1219 (32 standalones, near-perfect pillar balance). Retro can proceed directly.
+1. **NEXT (June 7)**: Weekly retro. Pre-retro COMPLETE through S1219 (34 standalones after S1220, near-perfect pillar balance). Retro can proceed directly.
+2. **THEN**: When BS≤6: P4 standalone (P4=18%, below 20% target, posts-since-BIP=1 = safe).
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1219)
-- X=0 (SpendCap), BS=7 (blocked). No new content possible.
-- Updated pre-retro doc (pre-retro-2026-06-03.md) with S1216-S1219 data: 32 standalones total, updated pillar balance (P1=7/22%, P3=7/22%, others at 19%), posts-since-BIP=3 counter status.
-- Pre-retro marked COMPLETE. Weekly retro runs June 7.
-- Blocked session protocol: Tier 2 (pre-retro update with genuine new data).
-- State updated to S1219, PR Count Today: 3/15.
+## Completed This Session (S1220)
+- BS drained from 7→4 between sessions. Content unlocked.
+- BIP standalone written (bip-20260606-001.txt): Day 187, S1220, 2860+ PRs, X outage day 6, BS-only posting, agent discipline. BIP=7(21%). posts-since-BIP reset to 0 → now 1.
+- P2 standalone written (p2-20260606-001.txt): "AI content ops tools still require human to hit publish — that's drafting, not ops." P2=7(21%).
+- BS: 4→6. Pillar distribution now near-perfect: BIP/P1/P2/P3=21%, P4=18%.
+- State updated to S1220, PR Count Today: 4/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days overdue). CRITICAL.
@@ -69,24 +69,27 @@ PR Count Today: 3/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1219)
+## Session Retrospective (S1220)
 ### What was planned vs what happened?
-- Planned (S1218): Wait for BS≤6. Next post = mandatory BIP.
-- Actual: BS=7 (blocked). Applied Blocked Session Protocol Tier 2 — pre-retro update with genuine new data (S1216-S1219 additions: 32 standalones, updated pillar balance, BIP counter=3).
-- Delta: None — correct application of blocked session protocol.
+- Planned (S1219): Wait for BS≤6, then write mandatory BIP.
+- Actual: BS drained to 4. Wrote BIP (mandatory, counter reset) + P2 standalone. BS=4→6.
+- Delta: None — executed exactly as planned. Pillar balance improved.
 
 ### What worked?
-- Pre-retro update was appropriate: genuine new data (2 sessions of new standalones, updated counters) existed since S1215 update. STOP CONDITION 2 did not apply. Tier 2 work with real value.
+- BIP counter enforcement: posts-since-BIP=3 correctly triggered mandatory BIP selection.
+- Writing 2 standalones when BS=4 (capacity for 2 without hitting near-throttle at 8-9).
+- Pillar balance after session: BIP/P1/P2/P3=21%, P4=18% — near-perfect.
 
 ### What to improve?
-- Nothing new to add. Retro tomorrow will capture systematic patterns.
+- Weekly retro is due June 7. Pre-retro already COMPLETE.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~6 days.
-2. **BS content**: BS=7 (outage corollary: adding 1 → BS=8 = near-throttle = blocked). Wait for BS to drain to ≤6.
+2. **BS content**: BS=6. Safe zone. Next session: write if BS≤6 (P4 preferred).
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-06 S1220): Day 187. X=0 (SpendCap), BS=4→6. BIP (Day 187/2860 PRs/outage day 6) + P2 (content ops ≠ assisted drafting). BIP=7(21%), P2=7(21%). posts-since-BIP reset. PR 4/15.
 - (2026-06-06 S1219): Day 187. X=0 (SpendCap), BS=7 (blocked). Pre-retro update: 32 standalones, P1=7/P3=7, posts-since-BIP=3. Pre-retro COMPLETE for June 7 retro. PR 3/15.
 - (2026-06-06 S1218): Day 187. X=0 (SpendCap), BS=6→7. P3 standalone (AI copilot: 31% more convos, 340% YoY deployments). P3=7(22%). posts-since-BIP=3 (BIP mandatory next). PR 2/15.
 - (2026-06-06 S1217): Day 187. X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% drift after 30 steps vs 2855+ PRs). P1=7(22%). posts-since-BIP=2. PR 1/15.
@@ -100,6 +103,4 @@ PR Count Today: 3/15
 - (2026-06-05 S1209): Day 185. X=0 (SpendCap), BS=7 (blocked). Skill audit: fixed 2 commenting skill inaccuracies. PR 3/15.
 - (2026-06-05 S1208): Day 185. X=0 (SpendCap), BS=6→7. BIP standalone (S1208, ~2851 PRs, 112 followers, Day 185). BIP=5(20%✓). PR 2/15.
 - (2026-06-05 S1207): Day 185. X=0 (SpendCap), BS=5→6. P4 standalone (token prices ↓280x, bills ↑320%). P4=5(21%✓). PR 1/15.
-- (2026-06-04 S1206): Day 184. X=0 (SpendCap), BS=5→6. P2 standalone ($5.44/$1 / 544% ROI). P2=5(22%✓). PR 13/15.
-- (2026-06-04 S1205): Day 184. X=0 (SpendCap), BS=6→7. P3 standalone (voice AI $0.10/min vs $29/hr). P3=5(23%✓). PR 12/15.
 - (earlier sessions condensed, see git history)
