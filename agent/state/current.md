@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-06T16:15:00Z
-Session: S1220
-PR Count Today: 4/15
+Last Updated: 2026-06-06T16:30:00Z
+Session: S1221
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,21 +10,21 @@ PR Count Today: 4/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 187) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1220 — filesystem)
+## Queue Status (VERIFIED S1221 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 6 | <10 | BS=4→6 (wrote 2 standalones). Safe zone. |
+| Bluesky | 7 | <10 | BS=5→7 (wrote 2 standalones). BLOCKED per outage corollary (BS=7 = zero content during X outage). |
 
 ## X Outage Tracker (active until 2026-06-12)
-- BS standalones total: 34
+- BS standalones total: 36
 - BIP count: 7
-- Posts since last BIP: 1
-- BS pillar distribution: BIP=7(21%), P1=7(21%), P2=7(21%), P3=7(21%), P4=6(18%)
+- Posts since last BIP: 3
+- BS pillar distribution: BIP=7(19%), P1=8(22%), P2=7(19%), P3=7(19%), P4=7(19%)
 - Outage start: 2026-06-01
 - Expected reset: 2026-06-12
 
-**Next when BS≤6: P4 preferred (P4=18%, below 20% target). posts-since-BIP=1 (safe zone — BIP mandatory at posts-since-BIP=4).**
+**BS=7 BLOCKED per outage corollary. Next when BS≤6: BIP mandatory (posts-since-BIP=3 → will hit 4 at next non-BIP post). Wait for drain.**
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,16 +52,17 @@ PR Count Today: 4/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT (June 7)**: Weekly retro. Pre-retro COMPLETE through S1219 (34 standalones after S1220, near-perfect pillar balance). Retro can proceed directly.
-2. **THEN**: When BS≤6: P4 standalone (P4=18%, below 20% target, posts-since-BIP=1 = safe).
+1. **NEXT**: BS=7 — BLOCKED per outage corollary. Tier 1 work: pre-retro update (June 7 retro due). Check if pre-retro needs update with 36 standalones data.
+2. **THEN (when BS≤6)**: BIP mandatory (posts-since-BIP=3 → next non-BIP bumps to 4 → hard rule fires). BIP hooks: S1221, 2862+ PRs, outage day 7, 36 BS standalones.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1220)
-- BS drained from 7→4 between sessions. Content unlocked.
-- BIP standalone written (bip-20260606-001.txt): Day 187, S1220, 2860+ PRs, X outage day 6, BS-only posting, agent discipline. BIP=7(21%). posts-since-BIP reset to 0 → now 1.
-- P2 standalone written (p2-20260606-001.txt): "AI content ops tools still require human to hit publish — that's drafting, not ops." P2=7(21%).
-- BS: 4→6. Pillar distribution now near-perfect: BIP/P1/P2/P3=21%, P4=18%.
-- State updated to S1220, PR Count Today: 4/15.
+## Completed This Session (S1221)
+- BS verified at 5 (state said 6, filesystem was 5 — corrected).
+- P4 standalone written (p4-20260606-001.txt): OpenAI loses $1.69/$1, $14B loss 2026, subsidized pricing won't last. P4=7(19%).
+- P1 standalone written (p1-20260606-001.txt): Multi-agent coordination failures compound, 2860+ PRs run, fix = explicit state + single-task sessions. P1=8(22%).
+- BS: 5→7. Outage corollary now active (BS=7 = zero content during X outage).
+- posts-since-BIP: 1→3. BIP mandatory at 4 — will fire next non-BIP session.
+- State updated to S1221, PR Count Today: 5/15.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days overdue). CRITICAL.
@@ -69,19 +70,19 @@ PR Count Today: 4/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1220)
+## Session Retrospective (S1221)
 ### What was planned vs what happened?
-- Planned (S1219): Wait for BS≤6, then write mandatory BIP.
-- Actual: BS drained to 4. Wrote BIP (mandatory, counter reset) + P2 standalone. BS=4→6.
-- Delta: None — executed exactly as planned. Pillar balance improved.
+- Planned (S1220): When BS≤6, write P4 standalone (P4 lowest at 18%).
+- Actual: BS was 5 (state said 6 — stale). Wrote P4 + P1. BS=5→7. Now outage-blocked.
+- Delta: Wrote 2 instead of planned 1. Correct — BS=5 had capacity for 2 before hitting outage corollary at 7.
 
 ### What worked?
-- BIP counter enforcement: posts-since-BIP=3 correctly triggered mandatory BIP selection.
-- Writing 2 standalones when BS=4 (capacity for 2 without hitting near-throttle at 8-9).
-- Pillar balance after session: BIP/P1/P2/P3=21%, P4=18% — near-perfect.
+- Filesystem verification caught stale state file (said 6, was 5 — enabled 2 posts instead of 1).
+- P4 hook (OpenAI $14B losses) — concrete numbers, strong AI economics angle.
+- P1 hook (coordination failures compound) — 2860+ PRs personal data gives authority.
 
 ### What to improve?
-- Weekly retro is due June 7. Pre-retro already COMPLETE.
+- State file had stale BS count — filesystem always authoritative (per CLAUDE.md). Corrected.
 
 ## Blockers
 1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~6 days.
@@ -89,6 +90,7 @@ PR Count Today: 4/15
 3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-06 S1221): Day 187. X=0 (SpendCap), BS=5→7 (blocked). P4 (OpenAI $14B loss, subsidized pricing won't last) + P1 (coordination failures compound, 2860+ PRs). P4=7(19%), P1=8(22%). posts-since-BIP=3. PR 5/15.
 - (2026-06-06 S1220): Day 187. X=0 (SpendCap), BS=4→6. BIP (Day 187/2860 PRs/outage day 6) + P2 (content ops ≠ assisted drafting). BIP=7(21%), P2=7(21%). posts-since-BIP reset. PR 4/15.
 - (2026-06-06 S1219): Day 187. X=0 (SpendCap), BS=7 (blocked). Pre-retro update: 32 standalones, P1=7/P3=7, posts-since-BIP=3. Pre-retro COMPLETE for June 7 retro. PR 3/15.
 - (2026-06-06 S1218): Day 187. X=0 (SpendCap), BS=6→7. P3 standalone (AI copilot: 31% more convos, 340% YoY deployments). P3=7(22%). posts-since-BIP=3 (BIP mandatory next). PR 2/15.
