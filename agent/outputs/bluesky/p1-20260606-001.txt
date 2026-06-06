@@ -1,0 +1,5 @@
+90% of agents show measurable goal drift after ~30 autonomous steps.
+
+We're at 2,855+ PRs with no drift. The difference isn't model quality — it's constraint architecture.
+
+Tight action boundaries + explicit DONE criteria beat prompt engineering every time.
