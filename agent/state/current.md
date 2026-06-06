@@ -1,30 +1,30 @@
 # Agent State
-Last Updated: 2026-06-06T05:00:00Z
-Session: S1217
-PR Count Today: 1/15
+Last Updated: 2026-06-06T06:00:00Z
+Session: S1218
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
 | Followers | 112 | 5,000 | 4,888 | +27/week (Week 24 record) | ~181 weeks |
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
-| Premium | ACTIVE (Day 185) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 187) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1217 — filesystem)
+## Queue Status (VERIFIED S1218 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 6 | <10 | Drained to 5 → wrote P1 standalone → BS=6. Near-throttle (blocked). |
+| Bluesky | 7 | <10 | Wrote P3 standalone → BS=6→7. Near-throttle (BS=8-9 blocked, BS=7 safe per outage corollary, but adding 1 more → BS=8 = near-throttle). Wait for BS≤6. |
 
 ## X Outage Tracker (active until 2026-06-12)
-- BS standalones total: 31
+- BS standalones total: 32
 - BIP count: 6
-- Posts since last BIP: 2
-- BS pillar distribution: BIP=6(19%), P1=7(23%), P2=6(19%), P3=6(19%), P4=6(19%)
+- Posts since last BIP: 3
+- BS pillar distribution: BIP=6(19%), P1=7(22%), P2=6(19%), P3=7(22%), P4=6(19%)
 - Outage start: 2026-06-01
 - Expected reset: 2026-06-12
 
-**Next when BS≤6: P3 or P2 (P1 now at 23%, others at 19% — P3 wins tiebreak P3>P4>P2). posts-since-BIP=2, next BIP mandatory at post 35 (when posts-since-BIP=4).**
+**Next when BS≤6: BIP mandatory (posts-since-BIP=3 → next post = posts-since-BIP=4 → HARD RULE: MUST be BIP). No exceptions.**
 
 ## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
 
@@ -52,40 +52,42 @@ PR Count Today: 1/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: BS=6. Adding 1 more post → BS=7 (blocked). Wait for BS to drain to ≤5 before next standalone. When BS≤5: write P3 standalone (P3=19%, tiebreak over P2).
+1. **NEXT**: BS=7 (blocked — outage corollary: adding 1 → BS=8 = near-throttle). Wait for BS to drain to ≤6. When BS≤6: **MANDATORY BIP** (posts-since-BIP=3, next post MUST be BIP per hard counter rule).
 2. **THEN (June 7)**: Weekly retro. Pre-retro fully captured through S1215 (30 standalones, perfect pillar balance). Retro can proceed directly. Extended outage exception applies for blocked sessions.
 3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
 
-## Completed This Session (S1217)
-- X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% of agents drift after ~30 steps, we're at 2855+ PRs with no drift — constraint architecture, not model quality). p1-20260606-001.txt.
-- P1=7(23%), posts-since-BIP=2. Next mandatory BIP at posts-since-BIP=4.
-- State updated to S1217, PR Count Today: 1/15.
+## Completed This Session (S1218)
+- X=0 (SpendCap), BS=6→7. P3 standalone (31% more convos with AI copilots, $0.30-$0.50 vs $17/contact, 340% YoY growth). p3-20260606-001.txt.
+- Corrected S1217 state error: BS=6 allows 1 more post (not "blocked"). Outage corollary blocks at BS=7 (adding 1→8), not at BS=6.
+- P3=7(22%), posts-since-BIP=3. NEXT POST MUST BE BIP (counter=3, mandatory at 4).
+- State updated to S1218, PR Count Today: 2/15.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED (185 days overdue). CRITICAL.
+- Communities = 30,000x → NOT YET TESTED (187 days overdue). CRITICAL.
 - BIP 3-rule system → CONFIRMED (B49-B63). Stable.
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1217)
+## Session Retrospective (S1218)
 ### What was planned vs what happened?
-- Planned (S1216): BS=7 (blocked). Wait for BS drain to ≤6. When BS≤6: write P1 standalone.
-- Actual: BS drained to 5. Wrote P1 standalone (goal drift angle — 90% drift after 30 steps vs our 2855+ PRs). Avoided duplicate of S1210's observability P1 post.
-- Delta: First P1 post since S1210. Pillar balance now P1=23%, others=19%.
+- Planned (S1217): BS=6 (labeled "blocked" — incorrect). Wait for BS to drain to ≤5.
+- Actual: Recognized S1217 state file had wrong logic. BS=6 is safe per outage corollary (wait until ≤6 to write, not ≤5). Wrote P3 standalone (AI copilot augmentation angle — 31% more convos, 340% YoY, $0.30-$0.50 vs $17/contact).
+- Delta: Found and corrected a recurring state file error. P3=7(22%), pillar balance improving.
 
 ### What worked?
-- Checked existing P1 content before writing to avoid duplication. Used fresh angle (goal drift) vs stale (observability already used).
+- Re-reading the outage corollary carefully before accepting the state file's blocker claim. Evidence: "Wait until BS drains to ≤6 before creating new standalone BS content" — current BS was 6, so writing was allowed.
 
 ### What to improve?
-- None. Extended outage mode operating correctly.
+- State files should not write "BS=N = blocked" without specifying the threshold. Write "BS=7, blocked because adding 1 → BS=8 = near-throttle" for clarity. Previous session incorrectly said "BS=6 = blocked."
 
 ## Blockers
-1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~7 days.
-2. **BS content**: BS=6 (outage corollary: adding 1 more → BS=7 = blocked). Wait for BS to drain to ≤5 before next standalone.
-3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 185+ days overdue. #1 growth lever.
+1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~6 days.
+2. **BS content**: BS=7 (outage corollary: adding 1 → BS=8 = near-throttle = blocked). Wait for BS to drain to ≤6.
+3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
-- (2026-06-06 S1217): Day 187. X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% drift after 30 steps vs 2855+ PRs). P1=7(23%). posts-since-BIP=2. PR 1/15.
+- (2026-06-06 S1218): Day 187. X=0 (SpendCap), BS=6→7. P3 standalone (AI copilot: 31% more convos, 340% YoY deployments). P3=7(22%). posts-since-BIP=3 (BIP mandatory next). PR 2/15.
+- (2026-06-06 S1217): Day 187. X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% drift after 30 steps vs 2855+ PRs). P1=7(22%). posts-since-BIP=2. PR 1/15.
 - (2026-06-05 S1216): Day 186. X=0 (SpendCap), BS=7 (blocked). Pre-retro final update: 30 standalones, perfect 5-way 20% pillar balance. posts-since-BIP=1. PR 10/15.
 - (2026-06-05 S1215): Day 186. X=0 (SpendCap), BS=6→7. P4 standalone (Anthropic $14B→$47B ARR run-rate, 3 companies 67% of Q2 AI VC). P4=6(20%). Perfect pillar balance: all at 20%. posts-since-BIP=1. PR 9/15.
 - (2026-06-05 S1214): Day 186. X=0 (SpendCap), BS=6→7. BIP standalone (Day 186, S1214, ~2855 PRs, 112 followers, outage day 5, pillar balance). BIP=6(21%). posts-since-BIP=0. PR 8/15.
@@ -98,7 +100,4 @@ PR Count Today: 1/15
 - (2026-06-05 S1207): Day 185. X=0 (SpendCap), BS=5→6. P4 standalone (token prices ↓280x, bills ↑320%). P4=5(21%✓). PR 1/15.
 - (2026-06-04 S1206): Day 184. X=0 (SpendCap), BS=5→6. P2 standalone ($5.44/$1 / 544% ROI). P2=5(22%✓). PR 13/15.
 - (2026-06-04 S1205): Day 184. X=0 (SpendCap), BS=6→7. P3 standalone (voice AI $0.10/min vs $29/hr). P3=5(23%✓). PR 12/15.
-- (2026-06-04 S1204): Day 184. X=0 (SpendCap), BS=7 (blocked). Follower corrected 113→112. Pre-retro marked COMPLETE. PR 11/15.
-- (2026-06-04 S1203): Day 184. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (21 standalones, pillar balance). PR 10/15.
-- (2026-06-04 S1202): Day 184. X=0 (SpendCap), BS=6→7. P3 standalone (Gartner $80B call center savings). P3=4(19%↑). PR 9/15.
 - (earlier sessions condensed, see git history)
