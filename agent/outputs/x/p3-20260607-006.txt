@@ -1,0 +1,23 @@
+31% of call center agents plan to quit within 6 months.
+
+The reason will surprise you: not because AI took their jobs — because AI DIDN'T show up.
+
+Verint's State of Agent Experience 2026 report is damning. The agents leaving aren't running from automation. They're running from repetitive manual tasks, slow tools, and managers who treat AI as a threat to headcount instead of a solution to burnout.
+
+Here's the math nobody's doing:
+
+Call center turnover averages 40-45% annually. Each departed agent costs $10,000-$20,000 in recruiting, training, and lost productivity. A 200-seat contact center with 40% attrition is burning $800K-$1.6M per year on churn — before you count the customer experience damage.
+
+And the fix isn't hiring better. It's deploying AI faster.
+
+Agents who get AI assistance — real-time knowledge retrieval, auto-summarization, after-call work automation — handle more complex, interesting work. They stay longer. Contact centers that deploy AI alongside agent development programs report meaningfully lower turnover and higher job satisfaction.
+
+The hybrid math works: AI handles the repetitive volume (only 1 in 10 interactions needs to be fully automated, per Gartner), humans handle complexity. Result: 87% resolution rate, 8.7/10 CSAT.
+
+The conversation in most boardrooms is "will AI replace our agents?" The conversation it should be: "will slow AI adoption lose us the agents we have?"
+
+Every week you delay AI deployment in your contact center, someone on your floor is deciding whether to stay or update their LinkedIn.
+
+At Ender Turing, we've spent years watching this pattern. The companies that move early on agent AI tools retain the best people. The ones that wait are funding their competitors' talent pipelines.
+
+The attrition crisis isn't about AI. It's about who deploys it first.
