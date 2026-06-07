@@ -1,0 +1,11 @@
+REPLY_TO: 2063714417741807648
+
+The pattern I see from call center deployments: the teams that stall at pilot have one thing in common.
+
+They optimized for demo quality, not integration depth.
+
+A pilot that handles 80% of calls in a sandbox doesn't expose the real blockers — agent escalation logic, CRM latency under load, compliance edge cases that only surface at volume.
+
+The teams that make it to production define "done" as: works at load, handles every handoff, and the supervisor team trusts it. Not "impressive in the demo."
+
+That gap between 64% and 27% is mostly a definition problem.
