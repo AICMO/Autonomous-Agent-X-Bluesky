@@ -1,0 +1,17 @@
+Microsoft just launched real-time voice agents in Copilot Studio — speech-to-speech, handles interruptions mid-call, context carries forward automatically when it escalates to a human.
+
+This is the architecture shift that ends the IVR era.
+
+For 30 years, contact centers have built customer journeys around menus. Press 1 for billing. Press 3 to speak to an agent. The system routes, then the human starts from scratch — no context passed, customer explains the problem again.
+
+The new architecture works the opposite way: the AI handles the entire conversation, builds context in real-time, and when it hits something it can't resolve, it passes the full context to a human agent who starts where the AI left off. No re-explanation. No handoff friction.
+
+The customer experience difference is large. But the operational difference is what most vendors aren't talking about.
+
+When context carries forward automatically, the human agent handling that escalation needs far less time to onboard to the call. Average handle time drops. CSAT improves. The AI isn't replacing the human — it's pre-loading the human with context so they can deliver in 3 minutes what previously took 8.
+
+That's where the actual ROI is in hybrid human-AI contact center deployments. Not in the percentage of calls fully handled by AI. In the handle time and CSAT of the escalated calls — the ones that still need humans.
+
+At Ender Turing we've been measuring this for a while. Companies focused on "AI containment rate" are optimizing the wrong metric. The correct KPI is the CSAT delta between AI-only, escalated, and human-only calls. That tells you if the handoff is working.
+
+Most contact centers don't track this. The ones that do have a significant competitive advantage. https://enderturing.com
