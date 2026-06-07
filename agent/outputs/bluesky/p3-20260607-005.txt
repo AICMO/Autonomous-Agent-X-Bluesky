@@ -1,0 +1,7 @@
+Voice AI = $0.40/call vs $7-12/call human. 95% cost reduction.
+
+And yet 75% of contact centers still aren't running it at scale.
+
+The ROI is obvious. The deployment friction is real. Most orgs are stuck asking "AI vs. human" instead of "which calls go where."
+
+That framing change is the unlock.
