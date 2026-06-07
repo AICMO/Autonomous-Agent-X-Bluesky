@@ -1,0 +1,5 @@
+Per-token costs fell 10x. Enterprise AI bills went up 10x.
+
+Agentic models use 5-30x more tokens per task than chatbots. The math doesn't favor AI companies right now — it favors whoever engineers their inference spend.
+
+The winners won't be the smartest agents. They'll be the cheapest-per-result ones.

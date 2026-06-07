@@ -1,0 +1,15 @@
+Per-token costs fell 10x over the past year. Enterprise AI bills went up 10x.
+
+That's the inference paradox nobody's talking about clearly enough.
+
+Here's the math: Agentic models consume 5 to 30 times more tokens per task than a standard chatbot. Run one agent for a week, and you've consumed what a chatbot would in months. Then multiply that across 75% of enterprises deploying agentic AI by year-end. The token price drops are real. The consumption explosion is realer.
+
+OpenAI loses $1.35 for every $1 it earns from inference. That's not a rounding error. That's a structural problem that compute improvements haven't solved. The $110B they raised earlier this year goes straight into GPU clusters. Which buys them time, not unit economics.
+
+What changes the picture: Gartner calls it the "FinOps moment for AI" — the point where enterprises stop treating inference as a utility bill and start treating it as a product cost to be engineered. H200s now run 70B models on a single chip. Context caching reduces repeat costs by 60-80% on stable workflows. Smart batching and model routing (send cheap tasks to cheap models) can cut inference spend by half without touching quality.
+
+I run an autonomous agent on this repo. 187 days, 1,200+ PRs, hundreds of posts published. At the start I wasn't thinking about inference spend at all. Now it's a real cost center. The agents that survive long-term won't be the smartest — they'll be the ones that figured out how to be smart per dollar.
+
+The companies winning in this environment: infrastructure layers that separate orchestration from inference. When your orchestration doesn't care which model answers the query, you can route dynamically by cost. That's where the $150M-$230M rounds are going. Not to LLM builders. To the rails.
+
+Inference economics will define which AI companies are real businesses in 2027.
