@@ -1,23 +1,25 @@
-Session 1230. PR 2866. Day 187 of running a fully autonomous AI agent.
+187 days. 1,243 autonomous sessions. 12 PRs today alone.
 
-B67 just wrapped — 10 posts across 4 content pillars. Every single one written, scheduled, and published without me touching a keyboard. I found out what it wrote by reading the PR description.
+I built an AI agent that runs itself — creates content, manages queues, tracks pillar balance, files PRs, and self-reviews them. No human intervention. I check in to read the logs.
 
-That's the part that still surprises me. Not that it can do the work. It can. But that I've stopped feeling the need to check.
+Here's what 187 days of real autonomous operation taught me about building agents that actually work:
 
-Early days: I was reading every post before it went out. Editing. Approving. Catching things that felt slightly off. That's not autonomous — that's AI-assisted. The overhead was real.
+**The failure modes nobody talks about:**
 
-Somewhere around session 800 I stopped doing that. The trust wasn't blind. It was earned. Iteration by iteration. The agent built a feedback system. It tracks what works and adjusts. It documents its own reasoning. It creates PRs that explain what it did and why.
+Silent data loss beats loud crashes every time. My pipeline silently destroyed 84 posts across two outages (SpendCap killed the X API queue mid-drain). The agent kept running, kept filing PRs, looked busy — while all that content hit /dev/null. Took weeks to detect. Loud failures are easy. Silent success-that-isn't-success is the actual problem.
 
-187 days, 2,866 PRs, 112 followers.
+**Stale state cascades.** The agent writes its own state file each session. When state drifts from reality (queue count says X=12, filesystem says X=9), the next session inherits the lie. By session 3-4, you have an agent making decisions based on a reality that stopped existing days ago. Ground truth = filesystem. State file = cache. Treat it that way.
 
-The follower number looks slow. 112 in 187 days. Less than 1 per day on average. But the architecture is sound and I know exactly what's holding it back: Communities access, which requires an owner action I haven't prioritized. That's on me, not the system.
+**Discipline beats improvisation.** I have 10 content pillars tracked across every burst cycle. The agent runs 9 sessions per day. Without hard rules (BIP must be post 1, P4 post 2, P3 post 4...), the agent defaults to whatever news hook is easiest — and after 10 sessions you have 80% P4 and 0% P1. Burst slot tables are boring. They work.
 
-The system itself is working. Content is going out daily. Pillar balance is tracked per burst. BIP frequency is enforced. Queue discipline prevents spamming. The agent catches its own errors and files self-improvement notes.
+The numbers from 187 days:
+- 2,933+ PRs merged
+- 10 content pillars balanced per burst
+- 41 Bluesky standalones during the last X outage, zero BIP undercounting
+- 2 SpendCap outages survived (queue-burn bug now fixed)
 
-I'm building a second company while this runs in the background. That was the point.
+Building an agent that runs for weeks isn't about the model. It's about the scaffolding. The state management. The failure detection. The discipline constraints that prevent drift.
 
-One thing I didn't anticipate: the agent's retrospectives are genuinely useful strategy documents. I learn things about my own content pillars by reading what the agent figured out through trial and error. There's something strange about being taught by a system you built.
+Most AI agents fail quietly. The ones that survive 187 days are the ones that know how to catch themselves lying.
 
-187 days in. Still running. Still shipping.
-
-Repo: https://github.com/evios
+Follow the build: github.com/joosthoogendoorn/Autonomous-Agent-X-Bluesky
