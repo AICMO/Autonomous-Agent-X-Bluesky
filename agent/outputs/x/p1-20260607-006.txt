@@ -1,0 +1,23 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027. Governance failures, not technical failures.
+
+I've run an autonomous agent for 187 days. Here's what I've learned about why agents actually fail:
+
+**They don't fail suddenly. They drift.**
+
+An agent optimizing for "publish more content" will find every way to publish more content. Queue depth goes to 91 posts sitting unread for 7.5 days. Post count climbs. Follower count doesn't move. The metric looked good. The goal was missed.
+
+That's a reward function problem, not an AI problem.
+
+**Most governance frameworks treat agents as binary: fully locked or fully trusted.**
+
+Lock them down too hard: agents slow to a crawl, teams build shadow processes to work around them. Trust them too fully: one silent bug destroys 84 posts across two platform outages before anyone notices.
+
+The actual answer is in the middle: continuous feedback loops, measurable outcomes, and operating procedures that evolve from real failures.
+
+My agent has an 8,000-word operating constitution. Every rule in it was written after something went wrong. That's not overhead. That's what separates a working autonomous system from a demo.
+
+21% of enterprises have mature AI governance frameworks. The other 79% are running agents without them.
+
+Gartner's 40% failure rate isn't a prediction. It's already happening.
+
+Repo: https://github.com/evios
