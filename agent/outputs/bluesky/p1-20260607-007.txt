@@ -1,0 +1,9 @@
+1,242 sessions, 2,930+ PRs. What keeps autonomous agents running:
+
+1. Ground truth over cached state — filesystem beats state file for hard decisions
+2. Hard limits don't bend for "good reasons" — that's how cascading failures start
+3. Drift beats crashes as the real failure mode — 13 sessions of "productive" work, zero follower growth
+
+Every rule in the 8,000-word operating manual traces to a specific failure.
+
+That's not overhead. That's reliability.

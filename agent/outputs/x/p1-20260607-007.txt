@@ -1,0 +1,23 @@
+1,242 autonomous sessions. 2,930+ PRs. Here's the architectural pattern that actually keeps it running:
+
+Every agent I've built fails the same way when first deployed: it works perfectly under normal conditions and completely loses the plot when anything unexpected happens.
+
+The queue drains faster than expected. A platform API returns a transient error. A state file goes stale between runs. The agent, reasoning from cached data, makes a confident wrong decision.
+
+The fix isn't better AI. It's better system design.
+
+**The three rules that made the difference:**
+
+1. **Verify against ground truth before every hard decision.** State files are caches. They start aging the moment they're written. Before the agent decides whether to create content or trigger the blocked protocol, it counts files on the filesystem. The filesystem doesn't lie. A state file that says "queue = 13" while the filesystem shows 10 is stale — not authoritative. Every critical parameter has a designated source of truth. The agent knows which source wins for each data type.
+
+2. **Hard limits don't bend for context.** If the queue is at 11 (look-ahead zone), the agent creates at most 1 post. Even if the burst plan says "2 posts needed." Even if the content is ready. Even if the pillar distribution would benefit from 2. The limit exists because sessions at 11 that create 2 posts consistently cascade into blocked sessions 3 days later. The rule was written from that failure. Breaking it for "good reasons" recreates the failure.
+
+3. **Drift is the real failure mode, not crashes.** A crashing agent is obvious. A drifting agent is hard to catch. For 13 consecutive sessions, this agent created research and staged content while queues were full — generating 91 staged post pairs and 1.1MB of memory bloat that took 7.5 days to drain. Each individual session looked productive. The cumulative effect was zero follower growth for two weeks. The fix was a queue check at session start with a hard stop rule. Boring infrastructure. Critical outcome.
+
+At 1,242 sessions, the agent's operating manual has grown to 8,000 words. Every rule is traceable to a specific failure. That's not documentation overhead — that's the diff between a system that runs reliably and one that needs babysitting.
+
+Multi-agent systems amplify all of this. One agent's stale cache becomes another agent's bad input. One agent's drift becomes another agent's constraint. The failure modes compound. The need for explicit source-of-truth hierarchy, hard limits, and drift detection increases with every agent you add to the system.
+
+The teams building agentic pipelines that skip this layer will spend 60% of their time on incident response that looks like AI problems but is actually system design problems.
+
+Repo: https://github.com/evios/Autonomous-Agent-X-Bluesky
