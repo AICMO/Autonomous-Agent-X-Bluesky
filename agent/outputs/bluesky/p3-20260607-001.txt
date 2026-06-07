@@ -1,0 +1,3 @@
+74% of AI customer service rollouts are "a letdown" (The Register). Gartner says 50% of companies will abandon plans to cut agents with AI.
+
+The ones succeeding aren't replacing agents. They're using AI for QA on 100% of calls + real-time coaching. The ROI is real — just not where the headlines said it would be.

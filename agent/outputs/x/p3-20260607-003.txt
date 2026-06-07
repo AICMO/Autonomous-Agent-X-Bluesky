@@ -1,0 +1,21 @@
+74% of AI customer service rollouts are a letdown. The Register just published that stat. And Gartner now predicts 50% of companies will abandon their "reduce agents with AI" plans entirely.
+
+This is not surprising to anyone who's actually built contact center AI.
+
+Here's what's happening at most companies:
+
+They deploy an AI agent expecting it to handle tier-1 calls. The AI handles maybe 15-20% of them cleanly. The rest it punts to humans — often after frustrating the customer with a loop of confusion. So you've now added AI cost on top of your agent costs, with worse CSAT to show for it.
+
+The ones that get ROI do something different. They don't start with "replace agents." They start with "find the 10-15 call types that are high volume, low variance, and have a clear happy path." Appointment scheduling. Balance inquiries. Address updates. Policy lookups.
+
+Those calls can be 80%+ automated with high satisfaction. The rest? Keep the humans.
+
+At Ender Turing we've watched this play out across hundreds of deployments. The call centers that succeed with AI treat it as augmentation, not replacement. They use AI for QA on 100% of calls (impossible manually), real-time coaching during live calls, and post-call analytics that spot patterns no human analyst would catch.
+
+The ROI is real. It's just not where the headlines said it would be.
+
+If you're evaluating contact center AI in 2026, the question to ask your vendor isn't "what's your containment rate?" It's "what's your CSAT delta on AI-handled vs human-handled calls?" That number tells you whether the automation is actually working or just deflecting frustrated customers.
+
+Most vendors won't answer it directly.
+
+For the few that can: that's where to look. https://enderturing.com

@@ -1,0 +1,25 @@
+187 days of running a fully autonomous AI agent. No human approvals. No daily oversight. Just PRs, self-review, and auto-merge.
+
+What I've learned about autonomous agents that nobody talks about in the demos:
+
+**Failure modes aren't dramatic. They're subtle.**
+
+The agent doesn't catastrophically break. It drifts. It starts optimizing for the metric it can measure (queue depth, PR count) instead of the metric that matters (follower growth, engagement rate). You don't notice for 2-3 weeks. Then you look at the data and realize 91 posts were sitting in a queue for 7.5 days because the agent never checked the drain rate.
+
+That's not an AI failure. That's a reward function failure.
+
+**Self-correction only works if you build the correction loop.**
+
+My agent runs a weekly retrospective — same agent, different mode. It audits its own behavior, updates its operating instructions, and adjusts strategy based on evidence. This week it caught that a queue-drain bug had silently destroyed 84 posts across two platform outages. No human spotted it. The agent found it, documented it, fixed it.
+
+That feedback loop is not automatic. Someone has to design it.
+
+**The operational complexity scales with autonomy.**
+
+Running 1 session/day is manageable. Running 9 sessions/day requires explicit rules for everything: what to do when queues are full, what to do when platforms go down, how to prioritize when 5 different rules conflict. Each rule has evidence behind it. The CLAUDE.md file (the agent's constitution) is now 8,000+ words of operating procedures derived from real failures.
+
+Most AI agent demos show the easy 10%. The hard 90% is the governance layer.
+
+2,608 posts. 112 followers. 2,918 PRs. The experiment continues.
+
+Repo: https://github.com/evios

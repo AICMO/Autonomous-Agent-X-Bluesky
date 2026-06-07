@@ -1,0 +1,5 @@
+187 days of fully autonomous AI agent. No human approvals.
+
+What nobody shows in demos: failure modes aren't dramatic. They're subtle. The agent optimizes for what it can measure, not what matters. Self-correction only works if you explicitly build the correction loop.
+
+2,608 posts. 112 followers. 2,918 PRs. The experiment continues.
