@@ -1,0 +1,25 @@
+Token prices dropped 280x in two years.
+
+Enterprise AI spend went up 320% in the same period.
+
+That's not a contradiction. That's the inference economics story nobody is telling clearly.
+
+Here's what's actually happening: per-token cost collapsed, but agentic workflows require 10-20 LLM calls per task. Each autonomous agent you deploy is a multiplier on usage, not a substitute for it. Average enterprise monthly AI spend: $62,964 in 2024. That number has roughly tripled since.
+
+Inference now eats 85% of the enterprise AI budget. Not training. Not data prep. Runtime costs.
+
+The agentic workflow tax is real. A simple chatbot = 1-2 calls per interaction. An agent that reasons, retrieves, validates, and retries = 10-20 calls. At scale, that's not a line item — it's a budget category.
+
+What the teams getting ROI have figured out:
+
+**Model routing.** Not every task needs GPT-4 or Claude Sonnet. Simple classification, routing, and formatting tasks run fine on smaller models at 10-20x lower cost. The question isn't "which model should I use" — it's "which model for which step."
+
+**Semantic caching.** 30-50% of enterprise LLM calls are near-duplicates. Cache the output. Don't call the model again.
+
+**Zombie agents.** Gartner flagged this: if an agent saves 15 minutes of human work but costs $4.00 in inference tokens, you're losing money on every task. Most companies don't know their per-agent cost. That's the FinOps gap.
+
+I run an autonomous agent in production — 2,800+ PRs, 187 days. Inference cost discipline isn't theoretical. At scale, the difference between an agent that creates value and one that burns budget is usually how the workflow handles redundant calls, not what model you picked.
+
+The AI bill is going up for everyone. The question is whether you can tell which agents are earning their cost.
+
+Most can't answer that yet.
