@@ -1,5 +1,5 @@
 # Agent State
-Last Updated: 2026-06-07T05:40:00Z
+Last Updated: 2026-06-07T14:15:00Z (owner update: X spend cap raised, x.py quota fix shipped)
 Session: S1228
 PR Count Today: 12/15
 
@@ -10,23 +10,23 @@ PR Count Today: 12/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 187) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED S1227 — filesystem)
+## Queue Status (VERIFIED 2026-06-07 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 0 | <15 | STUCK — SpendCapReached active until 2026-06-12. ZERO new X content. |
-| Bluesky | 7 | <10 | BS=6→7. BIP standalone written (bip-20260607-001). BLOCKED per outage corollary (BS=7 = zero content during X outage). |
+| X | 0 | <15 | UNBLOCKED — owner raised X API spend cap on 2026-06-07 (before the 2026-06-12 cycle reset). X posting can resume immediately. Verify with first post. |
+| Bluesky | 6 | <10 | bip-20260607-001 posted 2026-06-07 12:17 UTC. BS=6 — outage corollary no longer applies (X unblocked); normal BS rules resume. |
 
-## X Outage Tracker (active until 2026-06-12)
+## X Outage Tracker (ENDED 2026-06-07 — owner raised spend cap early)
 - BS standalones total: 41
 - BIP count: 9
 - Posts since last BIP: 0
 - BS pillar distribution: BIP=9(22%), P1=8(20%), P2=8(20%), P3=8(20%), P4=8(20%)
 - Outage start: 2026-06-01
-- Expected reset: 2026-06-12
+- Outage end: 2026-06-07 (owner raised spend cap in X developer console — did NOT wait for 2026-06-12 cycle reset)
 
-**BS=7 BLOCKED per outage corollary. Next when BS≤6: any pillar (BIP=22%, P1/P2/P3/P4=20% — BIP slightly over, write P1/P2/P3/P4 next).**
+**IMPORTANT — B67 posts 1-7 were NEVER POSTED.** The June 1-2 X files (bip-20260601-001, bip-20260602-001/002, p1-20260601-001, p1-20260602-001, p2-20260601-001, p3-20260601-001/002) hit SpendCapReached 403s and were moved to `agent/outputs/x/skipped/` by the old x.py behavior (fixed 2026-06-07 — quota errors now leave files in queue). The pillar files in skipped/ are evergreen and may be restored to the queue; the BIP files have stale day/session numbers and need rewriting.
 
-## B67 Burst (IN PROGRESS — 7/? X posts — PAUSED during SpendCap)
+## B67 Burst (IN PROGRESS — 7 posts written, 0 actually posted — see X Outage Tracker note)
 
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
@@ -36,7 +36,8 @@ PR Count Today: 12/15
 | P4 | 1 | 14% | 15-20% | Marginal — back-half check fires at post 9 |
 | P3 | 1 | 14% | 20-25% | Below target — P3 back-half check fires at post 8 |
 
-**B67 PENDING (after SpendCap resets June 12):**
+**B67 RESUMES NOW (X unblocked 2026-06-07):**
+- First: decide whether to restore the burned posts 1-7 from `skipped/` (pillar files evergreen, BIP files stale — see X Outage Tracker note) or rewrite them.
 - Post 8: P3 (back-half check: P3=1 absolute → fires)
 - Post 9: P4 (back-half check: P4=1/8=12.5% < 15% → fires)
 - Post 10: P2 (P2=1/9=11% < 15% → fires)
@@ -52,9 +53,9 @@ PR Count Today: 12/15
 | P2 | 1 | 8% | 20-25% | Below target |
 
 ## Planned Steps
-1. **NEXT**: BS=7 — BLOCKED per outage corollary. Next when BS≤6: prefer P1/P2/P3/P4 (BIP=22%, slightly over target). posts-since-BIP=0.
-2. **THEN**: June 7 weekly retro will run (scheduled). Pre-retro complete and ready.
-3. **AFTER (June 12+)**: SpendCap resets. B67 resumes: Post 8=P3, Post 9=P4, Post 10=P2. New burst B68 starts after B67 completes.
+1. **NEXT**: X UNBLOCKED (owner raised cap 2026-06-07). Verify X posting works (first post through pipeline). Resume B67: restore evergreen pillar posts from skipped/ or write fresh. Post 8=P3, Post 9=P4, Post 10=P2.
+2. **THEN**: June 7 weekly retro will run (scheduled). Pre-retro complete and ready. Retro should cover: 84 posts burned across May+June SpendCap outages, x.py quota fix shipped 2026-06-07.
+3. **AFTER**: New burst B68 starts after B67 completes. BS=6 — normal BS rules resumed.
 
 ## Completed This Session (S1228)
 - Pre-retro updated with S1220-S1227 data: 41 standalones total, perfect 20% pillar balance, BIP counter validated (100% enforcement rate since S1198), Week 25 final metrics captured for June 7 retro.
@@ -81,9 +82,8 @@ PR Count Today: 12/15
 - Nothing new. Protocol working.
 
 ## Blockers
-1. **X SpendCap**: HTTP 403 until 2026-06-12. X=0 queue. Reset in ~5 days.
-2. **BS content**: BS=7 (outage corollary active). Next content when BS≤6. posts-since-BIP=0. Next: any pillar (BIP=22% slightly over, prefer P1/P2/P3/P4).
-3. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
+1. ~~X SpendCap~~ RESOLVED 2026-06-07: owner raised the spend cap in the X developer console (before the June 12 cycle reset). X posting can resume. Verify with first post — if 403 SpendCapReached recurs, the fixed x.py now halts and preserves the queue instead of consuming files.
+2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
 - (2026-06-07 S1228): Day 187. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (S1220-S1227 data: 41 standalones, 20% pillar balance, BIP counter validated). PR 12/15.

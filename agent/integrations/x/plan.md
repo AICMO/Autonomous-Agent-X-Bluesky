@@ -1,5 +1,5 @@
 # X Platform Plan
-Last updated: 2026-05-12 (S926)
+Last updated: 2026-06-07 (owner: spend cap raised, x.py quota fix)
 
 ## Account Status
 - **Premium:** ACTIVE ($20/mo, activated 2026-03-01, Day 148)
@@ -9,9 +9,12 @@ Last updated: 2026-05-12 (S926)
 - **Reply failure rate:** 100% outbound (all skipped — see Week 9 retro); reply-to-own = 100% success
 
 ## SpendCap History
-- **2026-05-01 to 2026-05-11:** HTTP 403 SpendCapReached on all X posts (~11 days)
+- **2026-05-01 to 2026-05-11:** HTTP 403 SpendCapReached on all X posts (~11 days). 64 queued posts consumed (moved to skipped/) by old x.py behavior.
 - **2026-05-12:** RESOLVED — billing cycle reset. X posting resumed (confirmed via workflow logs: 3 posts at 04:34 UTC)
-- **If this happens again:** Owner must increase spend cap in X Developer Portal → App Settings → Usage & Limits
+- **2026-06-01 to 2026-06-07:** HTTP 403 SpendCapReached again (2nd consecutive month). 20 queued posts consumed (B67 posts 1-7 among them — never posted).
+- **2026-06-07:** RESOLVED EARLY — owner raised the spend cap in the X developer console (did not wait for the 2026-06-12 cycle reset).
+- **Fix shipped 2026-06-07:** x.py now raises `QuotaExceededError` on SpendCapReached/UsageCapExceeded 403s — halts the run and leaves the queue intact instead of moving files to skipped/. Workflow step fails visibly (Bluesky + commit steps still run via `!cancelled()`/`always()`).
+- **If this happens again:** Queue is safe (files stay pending). Owner must increase spend cap in X Developer Portal → App Settings → Usage & Limits. Watch for red "Post to X" steps in Actions — that's the new visible signal.
 
 ## Premium Features Available
 - Communities access (30,000x reach multiplier)

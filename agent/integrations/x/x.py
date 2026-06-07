@@ -173,6 +173,14 @@ class TemporaryError(Exception):
     pass
 
 
+class QuotaExceededError(Exception):
+    """Account-level quota block (e.g. monthly spend cap). Every request fails
+    until the billing cycle resets — halt the run and leave the queue intact.
+    Evidence: May+June 2026 SpendCapReached outages consumed 84 queued posts
+    because these 403s were treated as permanent failures."""
+    pass
+
+
 MAX_RETRIES = 4
 RETRY_DELAYS = [10, 30, 60, 120]  # longer backoff — CF challenges can clear after ~60s
 
@@ -247,6 +255,15 @@ def post_tweet(session, text, reply_to=None):
         return None
 
     log.info("Response: %s", json.dumps(data))
+
+    # Detect account-level quota blocks (403 SpendCapReached / UsageCapExceeded).
+    # These are temporary — the queue must stay intact, not be consumed file by file.
+    title = str(data.get("title", ""))
+    problem_type = str(data.get("type", ""))
+    if title in ("SpendCapReached", "UsageCapExceeded") or problem_type.endswith("/credits"):
+        reset_date = data.get("reset_date", "unknown")
+        raise QuotaExceededError(
+            f"{title or 'Quota exceeded'} — API blocked until {reset_date}: {data.get('detail', '')[:200]}")
 
     # Detect duplicate content rejection
     if response.status_code == 403:
@@ -391,7 +408,7 @@ def cmd_post(session, args):
             sys.exit(1)
         try:
             success = process_content(session, args.text)
-        except RateLimitError as e:
+        except (RateLimitError, QuotaExceededError) as e:
             log.warning("%s", e)
             sys.exit(1)
         sys.exit(0 if success else 1)
@@ -412,7 +429,7 @@ def cmd_post(session, args):
             sys.exit(1)
         try:
             success = process_content(session, content)
-        except RateLimitError as e:
+        except (RateLimitError, QuotaExceededError) as e:
             log.warning("%s", e)
             sys.exit(1)
         sys.exit(0 if success else 1)
@@ -471,6 +488,10 @@ def cmd_post(session, args):
             log.warning("Duplicate content, skipping: %s", e)
             filepath.rename(SKIPPED_DIR / filepath.name)
             continue
+        except QuotaExceededError as e:
+            log.error("%s", e)
+            log.info("Posted %d before quota block. Halting — all remaining files stay in queue until the cap resets.", posted)
+            sys.exit(0 if posted > 0 else 1)
         except RateLimitError as e:
             log.warning("%s", e)
             log.info("Posted %d before rate limit. Remaining files will be retried next run.", posted)
