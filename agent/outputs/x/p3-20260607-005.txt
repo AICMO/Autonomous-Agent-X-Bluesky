@@ -1,0 +1,30 @@
+Voice AI costs $0.40 per call. Human agents cost $7-12 per call.
+
+That's a 95% cost reduction per automated interaction. Gartner says conversational AI will save $80B in contact center labor costs in 2026 alone.
+
+So why are 75% of organizations still not running AI in their call centers at scale?
+
+The ROI is absurdly obvious. The Forrester numbers say 331-391% over 3 years with under 6-month payback. These are numbers that would greenlight anything in any boardroom.
+
+And yet.
+
+Only 25% of call centers have actually operationalized AI automation into daily workflows. 66% of those who tried waited more than six months to see any return at all.
+
+The gap between "we have AI tools" and "AI tools are running calls" is enormous. I watch this from the Ender Turing side — the deployment friction isn't pricing, it's process.
+
+The blockers aren't technical. They're:
+
+1. **Integration paralysis** — legacy telephony systems weren't built for AI hookups. Every deployment is a custom project.
+2. **QA anxiety** — "What if AI says the wrong thing?" slows rollouts by quarters while legal, compliance, and training teams align.
+3. **Agent resistance** — AI as a threat narrative is louder than AI as a productivity partner narrative in most orgs.
+4. **Attribution disputes** — Did CSAT improve because of AI? Because of the training initiative? Because of the new script? Most orgs can't answer this cleanly.
+
+The 25% that are running it? They built for hybrid. 85% of organizations planning to use AI by end of 2026 are going human-AI split model — not AI replacing agents, but AI handling routing, availability, and tier-1 while humans own complex and emotional calls.
+
+That framing change is the unlock. The 75% stuck in pilot hell are usually trying to decide AI vs. human. The ones shipping are asking "which calls should AI take, and which should humans own?"
+
+The $80B saving is real. The 75% deployment gap is also real. The delta is execution model, not technology.
+
+At Ender Turing, we're building the monitoring layer for this: QA automation, speech analytics, agent performance scoring. The dirty truth is that before AI can reliably handle a call, you need to understand what "handling a call well" actually means in your specific environment.
+
+Most orgs don't have that baseline yet.
