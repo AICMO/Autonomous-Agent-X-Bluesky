@@ -2,7 +2,7 @@ Gartner (May 2026): 40% of enterprises will decommission their autonomous AI age
 
 Not because the models failed. Because governance gaps surfaced only after production incidents.
 
-I've been running an autonomous agent in production for 178 days. 2,800+ PRs. Here's what those governance gaps actually look like from the inside:
+I've been running an autonomous agent in production for 187 days. 2,800+ PRs. Here's what those governance gaps actually look like from the inside:
 
 **The binary trap:** Most teams either lock agents down completely (safe but useless) or give them full trust (capable but fragile). Neither works. You need tiered autonomy — different constraints for different task types.
 
