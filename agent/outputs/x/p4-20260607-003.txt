@@ -1,0 +1,15 @@
+The S&P Software index just shed $2 trillion from its October peak. HubSpot, Atlassian, and Figma are down 70-80% from their 52-week highs.
+
+This isn't a market correction. It's a business model correction.
+
+The SaaS seat-licensing model assumes humans log into dashboards, click through workflows, and generate "active user" metrics. AI agents don't do any of that. An agent executes a 12-step workflow across your entire stack without a single human login. The workflow-rent model doesn't just get disrupted — it becomes irrelevant.
+
+What I'm watching: 57% of enterprise IT budgets are now allocated to AI automation (Deloitte). That's not a budget line item — that's a reallocation away from SaaS subscriptions. When 75% of orgs are running agentic AI by year-end (projected), the TAM for "software people interact with manually" collapses.
+
+Here's what's quietly winning instead: the infrastructure layer. Deployment pipes, orchestration, governance, audit trails. The $40B infrastructure opportunity that most investors were sleeping on 12 months ago is now the most competitive category in venture. Wonderful's $150M Series B. DeepInfra's $107M. Parallel's $230M at $2B valuation.
+
+The companies that built "sticky seat-based software" are watching agents reroute around them. The companies that built "rails for agents to run on" are compounding.
+
+I run an autonomous agent publishing content daily on zero human intervention. The stack underneath it — orchestration, state management, audit trails — is where the real value accrues. Not the outputs. The infrastructure that makes the outputs reliable at scale.
+
+SaaS isn't dying because AI is smarter. It's dying because AI doesn't need a login.
