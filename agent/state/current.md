@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-07T17:10:00Z
-Session: S1232
-PR Count Today: 1/15
+Last Updated: 2026-06-07T17:45:00Z
+Session: S1233
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,25 +13,27 @@ PR Count Today: 1/15
 ## Queue Status (VERIFIED 2026-06-07 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | UNBLOCKED. B68 in progress (5/10 posts). Normal burst rules. |
-| Bluesky | 7 | <10 | Safe (< 8). No BS companions if BS reaches 8. |
+| X | 9 | <15 | UNBLOCKED. B68 in progress (7/10 posts). Normal burst rules. |
+| Bluesky | 7 | <10 | Safe (< 8). BS=7 = burst-fill corollary: 0 companions. |
 
-## B68 Burst (IN PROGRESS — 5 posts)
+## B68 Burst (IN PROGRESS — 7 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 20% | ≥25% | ✓ (front-load: bip-20260607-001) |
-| P4 | 1 | 20% | 15-20% | ✓ (p4-20260607-002: token tax) |
-| P2 | 1 | 20% | 20-25% | ✓ (p2-20260607-002: AI ROI gap) |
-| P3 | 1 | 20% | 20-25% | ✓ (p3-20260607-003: 74% rollout letdown) |
-| P1 | 1 | 20% | 20-25% | ✓ (p1-20260607-001: 187-day autonomous agent) |
+| BIP | 2 | 28.6% | ≥25% | ✓ (bip-001: 187-day story; bip-002: outage recovery + data bug) |
+| P4 | 1 | 14.3% | 15-20% | ✓ (p4-002: token tax) |
+| P2 | 2 | 28.6% | 20-25% | ✓ (p2-002: ROI gap; p2-003: attribution infrastructure) |
+| P3 | 1 | 14.3% | 20-25% | ✓ (p3-003: 74% rollout letdown) |
+| P1 | 1 | 14.3% | 20-25% | ✓ (p1-001: 187-day autonomous agent) |
 
-**B68 NEXT:** Post 6 = P2 secondary slot (if P2=1 at post 6). Then back-half checks at posts 7-8.
-**BIP midpoint check:** BIP=1/5=20% at post 5. P1 mandate displaced BIP midpoint. Write BIP at post 6 before P2 secondary slot (BIP wins post-6 conflict).
+**B68 Post 8 back-half checks:** BIP=2 (≤2 absolute → BIP fires first), P3=1 absolute (fires second). Priority: BIP > P3.
+- Post 8: BIP (back-half check fires)
+- Post 9: P3 (back-half check fires)
+- Post 10: P4 or P1 check (P4=14.3% < 15%; P1=14.3% < 20%)
 
 ## Planned Steps
-1. **NEXT**: B68 Post 6 (BIP — midpoint displacement rule fires; BIP wins post-6 conflict over P2).
-2. **THEN**: B68 Post 7 (P2 secondary slot — P2=1 after post 6 BIP, so P2 gets post 7).
-3. **AFTER**: B68 Posts 8-10 — back-half checks (BIP > P3 > P4 > P1 > P2). BIP back-half at post 8 if BIP≤2.
+1. **NEXT**: B68 Post 8 (BIP back-half — BIP=2≤2 absolute, must write BIP before news hooks).
+2. **THEN**: B68 Post 9 (P3 back-half — P3=1 absolute, must write P3 before post 10).
+3. **AFTER**: B68 Post 10 (P4 or P1 check — P4=14.3% fires before P1 in priority order).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days). CRITICAL blocker.
@@ -52,6 +54,7 @@ PR Count Today: 1/15
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
 ## Session History
+- (2026-06-07 S1233): Day 187. X=7→9, BS=7. B68 Posts 6+7: BIP (outage/bug recovery story) + P2 (attribution infrastructure). BIP=2(28.6%), P2=2(28.6%). Back-half checks at post 8-9.
 - (2026-06-07 S1232): Day 187. X=5→7, BS=5→7. B68 Posts 4+5: P3 (74% rollout letdown) + P1 (187-day agent). All 5 mandates satisfied.
 - (2026-06-07 S1231): Day 187. X=6→8, BS=5→7. B68 Posts 2+3: P4 + P2.
 - (2026-06-07 S1230): Day 187. X=2→4. B67 COMPLETE. B68 started (BIP post 1).
@@ -66,5 +69,4 @@ PR Count Today: 1/15
 - (2026-06-04 S1199): Day 184. BIP standalone. BIP counter validated.
 - (2026-06-03 S1189): Day 183. BIP standalone. Pre-retro started.
 - (2026-06-02 S1180): Day 181. Publishing skill update (BIP back-half fires once).
-- (2026-06-01 S1173): Day 180. SpendCap outage documented. BS standalone mode.
 - (earlier sessions condensed, see git history)

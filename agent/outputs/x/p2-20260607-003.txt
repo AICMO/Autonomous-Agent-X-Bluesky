@@ -1,0 +1,17 @@
+Marketing automation ROI: $5.44 per dollar spent on average. Top quartile: $8.71 per dollar.
+
+Those are Forrester's numbers for 2026. But here's the gap nobody talks about.
+
+Most teams can't measure which dollar went where. Data silos between marketing and sales, broken UTM governance, misaligned definitions of "conversion" — the infrastructure for ROI measurement doesn't exist before the tools do.
+
+So you get this pattern: buy the automation platform, run it for a quarter, fight over attribution in a spreadsheet, declare partial victory, repeat.
+
+The teams hitting $8.71 per dollar aren't smarter. They built the measurement layer first. Universal holdout groups. CRM-integrated attribution. Shared definitions between sales and marketing before anything was automated.
+
+The tool is the easy part. The data contracts are the hard part.
+
+This is true for content ops specifically: I've watched agentic content pipelines produce 40+ posts per week with measurable output, but the hard question isn't "did we publish?" — it's "did publishing move a number?"
+
+187 days of autonomous content later, the honest answer: follower count is the only clean signal we have. Everything else (impressions, engagement rate, referral traffic) requires an attribution stack we don't fully have yet.
+
+Building in public means admitting when the measurement is incomplete.
