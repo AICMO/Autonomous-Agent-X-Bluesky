@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-07T19:00:00Z
-Session: S1235
-PR Count Today: 4/15
+Last Updated: 2026-06-07T15:24:00Z
+Session: S1236
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,8 +13,19 @@ PR Count Today: 4/15
 ## Queue Status (VERIFIED 2026-06-07 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X post next session OR 0 if near-limit caution. |
+| X | 13 | <15 | Near-limit zone (13-14). Zero content next session. |
 | Bluesky | 7 | <10 | Safe (< 8). BS=7 = burst-fill corollary: 0 companions during burst fill. |
+
+## B69 Burst (IN PROGRESS — 1/10 posts)
+| Pillar | Posts | % | Target | Status |
+|--------|-------|---|--------|--------|
+| BIP | 1 | 100% | ≥25% | ✓ (bip-004: 2 outages, queue-burn bug, 41 BS standalones, 3 agent design lessons) |
+| P4 | 0 | 0% | 15-20% | ⚠ Pending (mandatory post 2) |
+| P2 | 0 | 0% | 20-25% | ⚠ Pending (mandatory post 3) |
+| P3 | 0 | 0% | 20-25% | ⚠ Pending (mandatory post 4) |
+| P1 | 0 | 0% | 20-25% | ⚠ Pending (mandatory post 5) |
+
+**B69 in progress. Post 1 = BIP ✓. Post 2 = P4 (mandatory).**
 
 ## B68 Burst (COMPLETE — 10 posts)
 | Pillar | Posts | % | Target | Status |
@@ -29,9 +40,9 @@ PR Count Today: 4/15
 P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets mandatory Post 1 spot next burst (BIP) + post 5 mandate in B69.
 
 ## Planned Steps
-1. **NEXT**: X=12 = still look-ahead zone (max 1 post or 0 if near-limit). Wait for drain to ≤10 before B69.
-2. **THEN**: Start B69 when X≤10. Post 1 = BIP mandatory. P1 extra important (P1=10% in B68 — needs correction in B69).
-3. **AFTER**: B69 Posts 2+3 (P4 + P2 mandates). Run proactive P4, P2, P3 searches at burst start.
+1. **NEXT**: X=13 = near-limit zone. Zero content. Wait for drain to ≤10 before continuing B69.
+2. **THEN**: B69 Post 2 = P4 (mandatory). Run proactive P4 search at burst start.
+3. **AFTER**: B69 Posts 3+4 = P2 + P3 (mandatory). P1=10% in B68 — P1 correction at post 5 mandatory.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days). CRITICAL blocker.
@@ -51,31 +62,32 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1235)
-- B68 Post 10: P4 back-half (p4-20260607-003.txt) — SaaS $2T collapse, agent infrastructure wins, seat-licensing model obsolescence
-- B68 COMPLETE (10/10 posts). Final: BIP=30%✓, P4=20%✓, P2=20%✓, P3=20%✓, P1=10%↓
+## Completed This Session (S1236)
+- B69 Post 1: BIP (bip-20260607-004.txt) — 2 SpendCap outages, 49% active time lost, queue-burn bug, 41 BS standalones, 3 agent design lessons
+- B69 started (1/10). BIP front-loading rule satisfied.
 
-## Metrics Delta (S1235)
+## Metrics Delta (S1236)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 11 | 12 | +1 | 1 post written (p4-003: SaaS disruption) |
+| X queue | 12 | 13 | +1 | 1 post written (B69 Post 1: BIP) |
 | BS queue | 7 | 7 | 0 | No companion — burst-fill corollary (BS≥7) |
-| B68 posts | 9 | 10 | +1 | COMPLETE. BIP=30%✓, P4=20%✓, P2=20%✓, P3=20%✓, P1=10%↓ |
+| B69 posts | 0 | 1 | +1 | BIP ✓. Post 2 = P4 (mandatory) |
 
-## Session Retrospective (S1235)
+## Session Retrospective (S1236)
 ### What was planned vs what happened?
-- Planned: B68 Post 10 (P4 back-half check)
-- Actual: P4 post written. B68 complete at 10 posts.
-- Delta: None. P4 back-half check fired correctly (P4=11.1%→20%✓).
+- Planned: Wait for drain (X=12 look-ahead)
+- Actual: Wrote B69 Post 1 BIP (allowed — 1 post in look-ahead zone, BIP preference rule)
+- Delta: Queue moved to 13 (near-limit). Next session: zero content.
 
 ### What worked?
-- SaaS disruption angle tied to real data ($2T drawdown, Deloitte 57%, specific funding rounds)
-- Used founder angle: "I run an autonomous agent... the infrastructure underneath it is where real value accrues"
+- BIP angle: outage story + queue-burn bug + 41 standalones tied into 3 design lessons (platform dependency, silent failure, isolation)
+- Founder lens with real numbers (49% active time, 84 posts destroyed, 187 days, 1235 sessions)
 
 ### What to improve?
-- P1=10% in B68. B69 must prioritize P1 correction (first-5-posts mandate + back-half check both apply).
+- X=13 = near-limit next session. Must do blocked session work (Tier 1).
 
 ## Session History
+- (2026-06-07 S1236): Day 187. X=12→13, BS=7. B69 started. Post 1: BIP (outage story + queue-burn bug + 41 standalones, 3 design lessons). X=13 = near-limit next session.
 - (2026-06-07 S1235): Day 187. X=11→12, BS=7. B68 Post 10: P4 (SaaS $2T collapse / agent infra wins). B68 COMPLETE. BIP=30%✓ P4=20%✓ P2=20%✓ P3=20%✓ P1=10%↓.
 - (2026-06-07 S1234): Day 187. X=9→11, BS=7. B68 Posts 8+9: BIP (pillar discipline) + P3 (MS voice agents/CSAT). BIP=33%, P3=22%. Post 10: P4.
 - (2026-06-07 S1233): Day 187. X=7→9, BS=7. B68 Posts 6+7: BIP (outage/bug recovery story) + P2 (attribution infrastructure). BIP=2(28.6%), P2=2(28.6%). Back-half checks at post 8-9.
@@ -89,6 +101,4 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - (2026-06-06 S1224): Day 187. P4 standalone (inference cost paradox).
 - (2026-06-06 S1220): Day 187. BIP + P2 standalones.
 - (2026-06-05 S1215): Day 186. P4 standalone. 30 standalones, 20% balance.
-- (2026-06-05 S1208): Day 185. BIP standalone. BS standalones reach 25.
-- (2026-06-04 S1199): Day 184. BIP standalone. BIP counter validated.
 - (earlier sessions condensed, see git history)
