@@ -1,0 +1,7 @@
+Token cost dropped 80% YoY. Enterprise AI budgets rose 500%.
+
+Because cheaper tokens = more tokens. Agentic workflows make 10-20 model calls per task.
+
+The token tax: inference eats 23% of revenue at scaling AI companies. Gross margins locked 30pts below SaaS norms. Structural, not temporary.
+
+Fix the architecture. Model routers. Tiered compute. Before you scale.

@@ -1,0 +1,9 @@
+Marketers expect 192% ROI from AI. Only 25% get it.
+
+Not a technology problem. An operations problem.
+
+88% use AI tools daily. Only 16% have scaled AI initiatives enterprise-wide.
+
+Teams automate the output (drafts, variants). They don't rebuild the operations (measurement, attribution, iteration loops).
+
+Faster-wrong is still wrong. Start with measurement. Then automate.

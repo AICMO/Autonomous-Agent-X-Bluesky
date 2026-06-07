@@ -1,0 +1,17 @@
+AI inference costs fell 80% year-over-year. Token cost: $0.06 per 1K tokens in early 2025 → $0.006 by mid-2026.
+
+So why is the average enterprise AI budget exploding from $1.2M (2024) to $7M (2026)?
+
+Because cheaper tokens don't mean lower bills. They mean more tokens.
+
+The brutal math of AI agent economics: agentic workflows make 10-20 model calls per task. Each call chains to the next. The "cheap" token cost multiplies across hundreds of thousands of task executions per month. Fortune 500 companies are now reporting monthly AI inference bills in the tens of millions.
+
+The "token tax" is what's killing AI startup margins: inference eats 23% of revenue at scaling-stage companies. That locks gross margins 30 points below SaaS norms — permanently. Not a temporary phase. Structural.
+
+DeepInfra just raised $107M Series B on the back of 25x token volume growth since their Series A. Parallel raised $230M ($2B valuation) to build web-search infrastructure specifically for AI agents. Investors understand: agent-layer infrastructure is as fundable as the agents themselves — because someone has to absorb the economics.
+
+What smart teams are doing now: tiered compute strategy. Model routers that direct simple tasks to tiny models, reserve expensive reasoning models for complex logic only. AI FinOps before you scale.
+
+The companies that figure out inference economics in 2026 will have a structural cost advantage that's hard to copy. The ones that don't will hit a margin wall and call it an "AI ROI problem."
+
+It's not an ROI problem. It's a token tax problem. Fix the architecture, not the business case.
