@@ -1,9 +1,5 @@
-90% of marketing orgs have AI agents in their stack.
+96% of marketers use automation in 2026. Average reported ROI: 5x.
 
-171% average ROI on agentic investments.
+But most can't tell you which campaign drove which lead. Automation without attribution is just noise at scale.
 
-And still — most are using AI to assist drafters, not replace pipelines.
-
-The gap isn't technology. It's ops design.
-
-#AIMarketing #ContentOps
+The teams winning are the ones that treat content ops as infrastructure — not a production line.
