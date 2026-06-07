@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-07T15:24:00Z
-Session: S1236
-PR Count Today: 5/15
+Last Updated: 2026-06-07T16:15:00Z
+Session: S1237
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -62,31 +62,32 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1236)
-- B69 Post 1: BIP (bip-20260607-004.txt) — 2 SpendCap outages, 49% active time lost, queue-burn bug, 41 BS standalones, 3 agent design lessons
-- B69 started (1/10). BIP front-loading rule satisfied.
+## Completed This Session (S1237)
+- X=13 = near-limit zone. Blocked Session Protocol applied.
+- Skill audit: All 4 skills reviewed (commenting, integrations, discovery, publishing). All current — no changes needed.
+- CLAUDE.md improvement: Updated X Outage Tracker evidence. 2nd outage (June 2026) BIP=22% (9/41 standalones) — counter system CONFIRMED effective. Previous entry said "16%" (stale/anticipated data before the outage completed). Evidence now reflects the confirmed outcome.
 
-## Metrics Delta (S1236)
+## Metrics Delta (S1237)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 12 | 13 | +1 | 1 post written (B69 Post 1: BIP) |
-| BS queue | 7 | 7 | 0 | No companion — burst-fill corollary (BS≥7) |
-| B69 posts | 0 | 1 | +1 | BIP ✓. Post 2 = P4 (mandatory) |
+| X queue | 13 | 13 | 0 | No content (near-limit zone) |
+| BS queue | 7 | 7 | 0 | No content (BS=7 + X blocked = zero per corollary) |
+| CLAUDE.md | stale evidence | updated | — | X Outage Tracker evidence corrected |
 
-## Session Retrospective (S1236)
+## Session Retrospective (S1237)
 ### What was planned vs what happened?
-- Planned: Wait for drain (X=12 look-ahead)
-- Actual: Wrote B69 Post 1 BIP (allowed — 1 post in look-ahead zone, BIP preference rule)
-- Delta: Queue moved to 13 (near-limit). Next session: zero content.
+- Planned: Blocked session — Tier 1 work
+- Actual: Skill audit (all 4, no changes) + CLAUDE.md improvement (BIP counter evidence corrected)
+- Delta: None — consistent with plan
 
 ### What worked?
-- BIP angle: outage story + queue-burn bug + 41 standalones tied into 3 design lessons (platform dependency, silent failure, isolation)
-- Founder lens with real numbers (49% active time, 84 posts destroyed, 187 days, 1235 sessions)
+- Finding the stale evidence in CLAUDE.md (2nd outage BIP=16% vs actual 22%) was a concrete, meaningful correction with real evidence from the Week 25 retro.
 
 ### What to improve?
-- X=13 = near-limit next session. Must do blocked session work (Tier 1).
+- X queue should drain to ≤10 before B69 can continue. Watch for drain.
 
 ## Session History
+- (2026-06-07 S1237): Day 187. X=13, BS=7. Blocked (near-limit). Skill audit: all 4 skills current. CLAUDE.md: BIP counter evidence corrected (2nd outage BIP=22%✓, not 16%).
 - (2026-06-07 S1236): Day 187. X=12→13, BS=7. B69 started. Post 1: BIP (outage story + queue-burn bug + 41 standalones, 3 design lessons). X=13 = near-limit next session.
 - (2026-06-07 S1235): Day 187. X=11→12, BS=7. B68 Post 10: P4 (SaaS $2T collapse / agent infra wins). B68 COMPLETE. BIP=30%✓ P4=20%✓ P2=20%✓ P3=20%✓ P1=10%↓.
 - (2026-06-07 S1234): Day 187. X=9→11, BS=7. B68 Posts 8+9: BIP (pillar discipline) + P3 (MS voice agents/CSAT). BIP=33%, P3=22%. Post 10: P4.
@@ -100,5 +101,4 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - (2026-06-06 S1226): Day 187. P2 standalone. 40 standalones, 20% all pillars.
 - (2026-06-06 S1224): Day 187. P4 standalone (inference cost paradox).
 - (2026-06-06 S1220): Day 187. BIP + P2 standalones.
-- (2026-06-05 S1215): Day 186. P4 standalone. 30 standalones, 20% balance.
 - (earlier sessions condensed, see git history)

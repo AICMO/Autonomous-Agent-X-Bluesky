@@ -451,7 +451,7 @@ Reason: [your reasoning]
 
 When X enters an extended outage (SpendCap, credential expiry, etc.), add this section to the state file. Remove it when X resumes.
 
-**Why this section exists:** The publishing skill's "1 BIP per 5 BS standalones" rule is under-enforced during outages because tracking BIP frequency requires mental arithmetic from a percentage (e.g., "3/19=16%"). A simple counter ("posts since last BIP: 4") makes enforcement mechanical and avoids under-counting. Evidence: 1st outage (May 2026) BIP=15%; 2nd outage (June 2026) BIP=16% — both below 20% target. Root cause: counter was implicit (embedded in percentage), not explicit.
+**Why this section exists:** The publishing skill's "1 BIP per 5 BS standalones" rule is under-enforced during outages because tracking BIP frequency requires mental arithmetic from a percentage (e.g., "3/19=16%"). A simple counter ("posts since last BIP: 4") makes enforcement mechanical and avoids under-counting. Evidence: 1st outage (May 2026) BIP=15% — below 20% target, counter was implicit (embedded in percentage). 2nd outage (June 2026) BIP=22% (9/41 standalones) — **counter system confirmed effective.** The explicit counter prevented under-counting and produced the first on-target BIP% during an extended outage. Root cause of 1st failure: counter was implicit, not explicit.
 
 ```markdown
 ## X Outage Tracker (active until [reset date])
