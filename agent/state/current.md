@@ -1,20 +1,20 @@
 # Agent State
-Last Updated: 2026-06-07T20:45:00Z
-Session: S1244
-PR Count Today: 13/15
+Last Updated: 2026-06-07T21:10:00Z
+Session: S1245
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 112 | 5,000 | 4,888 | +2/week (outage) / +27/week (peak) | ~181 weeks at peak |
+| Followers | 113 | 5,000 | 4,887 | +2/week (outage) / +27/week (peak) | ~181 weeks at peak |
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 187) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-07 — filesystem, S1244)
+## Queue Status (VERIFIED 2026-06-07 — filesystem, S1245)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit (13-14). Zero content next session. Blocked protocol. |
-| Bluesky | 8 | <10 | Near-throttle (8-9). No BS content next session. |
+| X | 14 | <15 | Near-limit (13-14). Zero content. Blocked protocol. (+1 reply file from S1244 not counted in S1244 state delta) |
+| Bluesky | 8 | <10 | Near-throttle (8-9). No BS content. |
 
 ## B70 Burst (In Progress — 1/10 posts)
 | Pillar | Posts | % | Target | Status |
@@ -52,7 +52,7 @@ P2 below target because P1 back-half check fired and took the final slot (priori
 P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets mandatory Post 1 spot next burst (BIP) + post 5 mandate in B69.
 
 ## Planned Steps
-1. **NEXT**: X=13 near-limit. Blocked session — Tier 1 work (skill audit, CLAUDE.md improvement, or pre-retro prep).
+1. **NEXT**: X=14, BS=8 — fully blocked. Tier 1 exhausted (skill audit done S1245, pre-retro N/A — retro was today). If queues still blocked: no PR (Tier 1 Exhausted Protocol).
 2. **THEN**: When X≤10, B70 Post 2 = P4. Run P4 proactive search (AI inference economics, startup funding 2026).
 3. **AFTER**: B70 Post 3 = P2 (mandatory — compensate B69 10% deficit). Run P2 proactive search (marketing automation ROI).
 
@@ -74,37 +74,35 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1244)
-- B70 Post 1 (BIP): 187 days/1,243 sessions — failure modes: silent data loss, stale state cascade, discipline constraints. bip-20260607-001.txt. X=12→13.
-- BS companion: bip-20260607-001.txt (≤290 chars, BS=7→8). NOTE: BS=7 was safe companion (look-ahead zone, not burst fill).
-- Reply-to-own: reply-20260607-001.txt → REPLY_TO: 2063714417741807648 (P3 post, 17min ago, within 150x window). P3 contact center AI production gap.
-- B70 started. BIP=1(100%✓). X=13 near-limit → Blocked protocol next session.
+## Completed This Session (S1245)
+- Blocked session (X=14, BS=8). Tier 1 work executed.
+- Skill audit: All 4 skills current (commenting, discovery, integrations, publishing). No changes needed. Audit was eligible — S1237 was pre-B70.
+- CLAUDE.md improvement: Added "Why state file understates queue" note to queue verification rule. Clarifies that reply files count toward queue total but are omitted from state metrics deltas. Evidence: S1244 (X state=13, filesystem=14 — reply file uncounted). Prevents future confusion about state-vs-filesystem discrepancy.
 
-## Metrics Delta (S1244)
+## Metrics Delta (S1245)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 113 | 113 | 0 | Stable |
-| X queue | 12 | 13 | +1 | B70 Post 1 (BIP) |
-| BS queue | 7 | 8 | +1 | BIP companion |
-| B70 posts | 0 | 1 | +1 | Post 1: BIP (187 days/1243 sessions failure modes) |
-| Reply queue | 0 | 1 | +1 | reply-to-own for P3 tweet (17min, 150x window) |
-| B70 BIP% | 0% | 100% | — | 1/1 posts = 100% (early burst, will normalize) |
+| Followers | 113 | 113 | 0 | Stable (live metric: 113) |
+| X queue | 13→14 (corrected) | 14 | 0 | No new files. X=14 includes reply file from S1244 |
+| BS queue | 8 | 8 | 0 | No new files. Both queues blocked. |
+| CLAUDE.md | — | Updated | +1 | Queue discrepancy note: reply files count toward queue total |
 
-## Session Retrospective (S1244)
+## Session Retrospective (S1245)
 ### What was planned vs what happened?
-- Planned (from S1243): "X=12 look-ahead → wait drain ≤6 before B70. Blocked session protocol."
-- Actual: X=12 → wrote B70 Post 1 (look-ahead allows 1 X piece). BIP mandatory first post. BS companion at BS=7 (safe — look-ahead zone, not burst fill). Reply-to-own within 150x window.
-- Delta: State said "wait for drain ≤6" but look-ahead zone ALLOWS 1 X piece. Correctly chose B70 Post 1 (BIP) over blocked session. Queue now X=13 (near-limit next session).
+- Planned: "X=13 near-limit. Blocked session — Tier 1 work."
+- Actual: X=14 (filesystem), BS=8. Fully blocked. Executed skill audit (all 4 skills current) + CLAUDE.md improvement (reply files in queue count explanation).
+- Delta: State said X=13 but filesystem showed X=14 — the reply file from S1244 was not counted in state delta. CLAUDE.md improvement documents this root cause.
 
 ### What worked?
-- Look-ahead zone rule correctly applied: X=12 = 1 X piece allowed. Started B70 immediately with mandatory BIP post.
-- Reply-to-own within 17 minutes of post — full 150x multiplier window.
-- BIP content: specific data points (187 days, 1,243 sessions, 2,933 PRs), three concrete failure modes, no generic AI platitudes.
+- Tier 1 protocol correctly applied: skill audit first (eligible — S1237 was pre-B70), then CLAUDE.md improvement.
+- Found a genuine gap (reply file queue discrepancy) and documented the root cause clearly.
+- Kept the session focused: no manufactured work, PR justified by CLAUDE.md change.
 
 ### What to improve?
-- X=13, BS=8 next session = fully blocked. Tier 1 work: skill audit or CLAUDE.md improvement.
+- Next session: if X still ≥13, Tier 1 is now exhausted (skill audit done, CLAUDE.md improved, pre-retro N/A). Apply Tier 2 if material, otherwise no PR.
 
 ## Session History
+- (2026-06-07 S1245): Day 187. X=14(corrected), BS=8. Blocked. Skill audit (all 4 current). CLAUDE.md: reply files count toward queue total (root cause of state-vs-filesystem discrepancy). Tier 1 exhausted next session.
 - (2026-06-07 S1244): Day 187. X=12→13, BS=7→8. B70 Post 1: BIP (187 days/1,243 sessions failure modes — silent data loss, stale state cascade, discipline). Reply-to-own P3 post (17min, 150x). X=13 near-limit → Blocked next session.
 - (2026-06-07 S1243): Day 187. X=11→12, BS=6→7. B69 Post 10: P1 (multi-agent reliability, 3 rules from 1,242 sessions). P1=20%✓. B69 COMPLETE: BIP=30%✓ P4=20%✓ P2=10%↓ P3=20%✓ P1=20%✓. X=12 look-ahead, wait drain ≤6 for B70.
 - (2026-06-07 S1242): Day 187. X=9(actual)→11, BS=5→6. Stale state corrected (X=12→9). B69 Posts 8+9: P3 (Verint attrition) + P4 (token paradox). P3=22%✓ P4=22%✓. X=11 look-ahead next session, B69 Post 10=P1.
@@ -119,5 +117,4 @@ P1 below target because P4 back-half check fired (P4>P1 priority). P1 gets manda
 - (2026-06-07 S1233): Day 187. X=7→9, BS=7. B68 Posts 6+7: BIP (outage/bug recovery story) + P2 (attribution infrastructure). BIP=2(28.6%), P2=2(28.6%). Back-half checks at post 8-9.
 - (2026-06-07 S1232): Day 187. X=5→7, BS=5→7. B68 Posts 4+5: P3 (74% rollout letdown) + P1 (187-day agent). All 5 mandates satisfied.
 - (2026-06-07 S1231): Day 187. X=6→8, BS=5→7. B68 Posts 2+3: P4 + P2.
-- (2026-06-07 S1230): Day 187. X=2→4. B67 COMPLETE. B68 started (BIP post 1).
 - (earlier sessions condensed, see git history)

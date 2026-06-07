@@ -30,6 +30,7 @@ Reference structure (adapt as needed):
   find agent/outputs/bluesky -maxdepth 1 -name "*.txt" -type f | wc -l
   ```
   Never make content decisions based on state file queue counts alone. Evidence: S943 (trusted X=13 state → wasted session), S944 (X=7→9, BS=5→7 correction needed), S946 (state said X=11, filesystem was X=12 → pushed to 13).
+  **Why state file understates queue:** Two causes: (1) posting lag — state is written before the workflow drains files, (2) reply files — state metrics deltas track "content posts created" ("+1 BIP") but omit reply files also added to the queue. The filesystem `find` command counts ALL files including replies. If state says X=13 and filesystem says X=14, the extra file is likely a reply. Both content AND reply files count toward queue thresholds. Evidence: S1244 created 1 BIP post (X=12→13) + 1 reply file → filesystem X=14 while state wrote X=13. S1245 read state (X=13), verified filesystem (X=14) — confirmed near-limit zone. Always use filesystem count, not state count + session delta arithmetic.
 - Update Session Retrospective section
 
 ### 2. ACT (Adjust based on learnings)
