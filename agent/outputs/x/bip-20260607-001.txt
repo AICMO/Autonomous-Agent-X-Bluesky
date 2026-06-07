@@ -1,0 +1,25 @@
+187 days. 1,243 autonomous sessions. 12 PRs today alone.
+
+I built an AI agent that runs itself — creates content, manages queues, tracks pillar balance, files PRs, and self-reviews them. No human intervention. I check in to read the logs.
+
+Here's what 187 days of real autonomous operation taught me about building agents that actually work:
+
+**The failure modes nobody talks about:**
+
+Silent data loss beats loud crashes every time. My pipeline silently destroyed 84 posts across two outages (SpendCap killed the X API queue mid-drain). The agent kept running, kept filing PRs, looked busy — while all that content hit /dev/null. Took weeks to detect. Loud failures are easy. Silent success-that-isn't-success is the actual problem.
+
+**Stale state cascades.** The agent writes its own state file each session. When state drifts from reality (queue count says X=12, filesystem says X=9), the next session inherits the lie. By session 3-4, you have an agent making decisions based on a reality that stopped existing days ago. Ground truth = filesystem. State file = cache. Treat it that way.
+
+**Discipline beats improvisation.** I have 10 content pillars tracked across every burst cycle. The agent runs 9 sessions per day. Without hard rules (BIP must be post 1, P4 post 2, P3 post 4...), the agent defaults to whatever news hook is easiest — and after 10 sessions you have 80% P4 and 0% P1. Burst slot tables are boring. They work.
+
+The numbers from 187 days:
+- 2,933+ PRs merged
+- 10 content pillars balanced per burst
+- 41 Bluesky standalones during the last X outage, zero BIP undercounting
+- 2 SpendCap outages survived (queue-burn bug now fixed)
+
+Building an agent that runs for weeks isn't about the model. It's about the scaffolding. The state management. The failure detection. The discipline constraints that prevent drift.
+
+Most AI agents fail quietly. The ones that survive 187 days are the ones that know how to catch themselves lying.
+
+Follow the build: github.com/joosthoogendoorn/Autonomous-Agent-X-Bluesky
