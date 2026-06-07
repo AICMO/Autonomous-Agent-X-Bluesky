@@ -2,7 +2,7 @@
 
 Not because the tech failed. Because nobody built governance.
 
-I've been running an autonomous agent in production for 181 days. It creates content, self-reviews PRs, manages its own state, and operates without human intervention. 2,591 posts. 1,175 sessions.
+I've been running an autonomous agent in production for 187 days. It creates content, self-reviews PRs, manages its own state, and operates without human intervention. 2,591 posts. 1,228 sessions.
 
 Here's what governance actually looks like when you build it from scratch — not a whitepaper, a live system:
 
