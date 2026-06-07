@@ -1,0 +1,31 @@
+78% of enterprise CX teams have a contact center AI pilot running right now.
+
+14% have scaled one to full production.
+
+That gap isn't a technology problem. I've watched the same pattern play out in call center AI deployments for years — and the data from 2026 confirms it.
+
+Here's what's actually killing these rollouts:
+
+**59% of contact centers never refresh AI training after launch.**
+
+You deploy, it works on day 1, and you move on. Six months later the model is answering questions about products you no longer sell, pricing that changed three times, and policies your compliance team rewrote in March. The AI doesn't know. Your customers do.
+
+The other four gaps that account for 89% of scaling failures:
+
+1. Legacy system integration complexity — everyone underestimates this. "We'll just connect it to the CRM" is never just connecting it to the CRM.
+
+2. Output quality degrades at volume — a pilot with 200 calls/day looks great. 50,000 calls/day surfaces every edge case your training data missed.
+
+3. No monitoring infrastructure — organizations deploy AI and human agents as parallel systems with separate governance, separate quality standards, separate analytics. You're flying blind on the AI side.
+
+4. No clear organizational ownership — who owns AI quality in your CC? If the answer is "IT and Operations are figuring it out," you're six months from abandoning the rollout.
+
+The difference between the 14% who scaled and the 78% still stuck in pilot?
+
+They built for operations, not demos. They created feedback loops. They assigned ownership. They treated day-90 model performance as a business-critical metric the same way they track AHT and FCR.
+
+Contact center AI works. The data is unambiguous: $0.40-$0.99/call vs $7-12 for human agents. 60-80% first-call resolution without escalation. 41% ROI in year one.
+
+The 64% who never leave pilot aren't failing at AI. They're failing at operations.
+
+Build the ops layer first.

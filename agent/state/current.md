@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-07T14:15:00Z (owner update: X spend cap raised, x.py quota fix shipped)
-Session: S1228
-PR Count Today: 12/15
+Last Updated: 2026-06-07T14:30:00Z
+Session: S1229
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,54 +13,43 @@ PR Count Today: 12/15
 ## Queue Status (VERIFIED 2026-06-07 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 0 | <15 | UNBLOCKED — owner raised X API spend cap on 2026-06-07 (before the 2026-06-12 cycle reset). X posting can resume immediately. Verify with first post. |
-| Bluesky | 6 | <10 | bip-20260607-001 posted 2026-06-07 12:17 UTC. BS=6 — outage corollary no longer applies (X unblocked); normal BS rules resume. |
+| X | 2 | <15 | UNBLOCKED — p3-20260607-001.txt (P3, B67 post 8), p4-20260607-001.txt (P4, B67 post 9). Normal burst rules active. |
+| Bluesky | 6 | <10 | Normal BS rules resumed (X unblocked 2026-06-07). BS=6 — near-throttle corollary: no BS companions until BS drains to ≤6 (currently at limit for companion creation). |
 
-## X Outage Tracker (ENDED 2026-06-07 — owner raised spend cap early)
-- BS standalones total: 41
-- BIP count: 9
-- Posts since last BIP: 0
-- BS pillar distribution: BIP=9(22%), P1=8(20%), P2=8(20%), P3=8(20%), P4=8(20%)
-- Outage start: 2026-06-01
-- Outage end: 2026-06-07 (owner raised spend cap in X developer console — did NOT wait for 2026-06-12 cycle reset)
-
-**IMPORTANT — B67 posts 1-7 were NEVER POSTED.** The June 1-2 X files (bip-20260601-001, bip-20260602-001/002, p1-20260601-001, p1-20260602-001, p2-20260601-001, p3-20260601-001/002) hit SpendCapReached 403s and were moved to `agent/outputs/x/skipped/` by the old x.py behavior (fixed 2026-06-07 — quota errors now leave files in queue). The pillar files in skipped/ are evergreen and may be restored to the queue; the BIP files have stale day/session numbers and need rewriting.
-
-## B67 Burst (IN PROGRESS — 7 posts written, 0 actually posted — see X Outage Tracker note)
+## B67 Burst (IN PROGRESS — 9 posts written, posts 1-7 were never actually posted — see note below)
 
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 2 | 29% | ≥25% | ✓ (bip-20260602-001, bip-20260602-002) |
-| P2 | 1 | 14% | 20-25% | Below target — back-half slot at post 10 |
-| P1 | 2 | 29% | 20-25% | ✓ (p1-20260602-001, p1-20260602-002) |
-| P4 | 1 | 14% | 15-20% | Marginal — back-half check fires at post 9 |
-| P3 | 1 | 14% | 20-25% | Below target — P3 back-half check fires at post 8 |
+| BIP | 2 | 22% | ≥25% | Below target — correction burst, 20% acceptable |
+| P2 | 1 | 11% | 20-25% | Below target — back-half slot at post 10 |
+| P1 | 2 | 22% | 20-25% | ✓ |
+| P4 | 2 | 22% | 15-20% | ✓ (p4-20260607-001.txt added S1229) |
+| P3 | 2 | 22% | 20-25% | ✓ (p3-20260607-001.txt added S1229) |
 
-**B67 RESUMES NOW (X unblocked 2026-06-07):**
-- First: decide whether to restore the burned posts 1-7 from `skipped/` (pillar files evergreen, BIP files stale — see X Outage Tracker note) or rewrite them.
-- Post 8: P3 (back-half check: P3=1 absolute → fires)
-- Post 9: P4 (back-half check: P4=1/8=12.5% < 15% → fires)
-- Post 10: P2 (P2=1/9=11% < 15% → fires)
-- BIP note: B67 = correction burst. BIP will finish at 2/10=20% — acceptable per updated skill.
+**B67 NOTE (important):** Posts 1-7 were written during the SpendCap outage and hit 403 errors — they were moved to `agent/outputs/x/skipped/` by the old x.py behavior (fixed 2026-06-07). The pillar files in skipped/ are evergreen. BIP files have stale day/session numbers.
 
-## B66 Burst (COMPLETE — ~12 posts — FINAL — IMBALANCED)
-| Pillar | Posts | % | Target | Status |
-|--------|-------|---|--------|--------|
-| BIP | 2 | 17% | ≥25% | Below target |
-| P4 | 6 | 50% | 15-20% | SEVERELY OVER |
-| P3 | 5 | 42% | 20-25% | SEVERELY OVER |
-| P1 | 1 | 8% | 20-25% | Below target |
-| P2 | 1 | 8% | 20-25% | Below target |
+**B67 NEXT:**
+- Post 10: P2 (P2=1/9=11% < 15% → back-half check fires)
+- After post 10: B67 COMPLETE → start B68
 
 ## Planned Steps
-1. **NEXT**: X UNBLOCKED (owner raised cap 2026-06-07). Verify X posting works (first post through pipeline). Resume B67: restore evergreen pillar posts from skipped/ or write fresh. Post 8=P3, Post 9=P4, Post 10=P2.
-2. **THEN**: June 7 weekly retro will run (scheduled). Pre-retro complete and ready. Retro should cover: 84 posts burned across May+June SpendCap outages, x.py quota fix shipped 2026-06-07.
-3. **AFTER**: New burst B68 starts after B67 completes. BS=6 — normal BS rules resumed.
+1. **NEXT**: Write B67 Post 10 (P2) to complete burst. Then start B68 with BIP at post 1 (BIP front-loading mandatory). X=2 currently — wait until X drains or write P2 when X drops to allow another piece.
+2. **THEN**: June 7 weekly retro will run (scheduled). Pre-retro complete and ready.
+3. **AFTER**: New burst B68 starts after B67 completes. BS=6 — normal BS rules, no companions until BS drains to ≤5.
 
-## Completed This Session (S1228)
-- Pre-retro updated with S1220-S1227 data: 41 standalones total, perfect 20% pillar balance, BIP counter validated (100% enforcement rate since S1198), Week 25 final metrics captured for June 7 retro.
-- BS=7 (blocked, outage corollary). No content written — correct per protocol.
-- State updated to S1228, PR Count Today: 12/15.
+## Completed This Session (S1229)
+- X UNBLOCKED: owner raised spend cap 2026-06-07. X posting resumed.
+- B67 Post 8 (P3): p3-20260607-001.txt — restored evergreen content from skipped/ (78% enterprise CX pilots, 14% in production, ops layer failures)
+- B67 Post 9 (P4): p4-20260607-001.txt — fresh inference economics post (280x token price drop vs 320% spend increase, agentic workflow tax, zombie agents)
+- X queue: 0→2. BS queue: 6 (no companions — BS at burst companion limit)
+- State updated to S1229, PR Count Today: 13/15
+
+## Metrics Delta
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| X queue | 0 | 2 | +2 | B67 posts 8-9 added |
+| BS queue | 6 | 6 | 0 | No companions (BS at limit) |
+| B67 posts | 7 | 9 | +2 | P3+P4 added |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (187 days overdue). CRITICAL.
@@ -68,24 +57,24 @@ PR Count Today: 12/15
 - All back-half checks → CONFIRMED. Stable.
 - P2 secondary slot rule → CONFIRMED (B63). Stable.
 
-## Session Retrospective (S1228)
+## Session Retrospective (S1229)
 ### What was planned vs what happened?
-- Planned (S1227): BS=7 blocked. Outage corollary active. No content.
-- Actual: BS=7 (filesystem confirmed). No content. Pre-retro updated with S1220-S1227 data (9 more standalones, final balance stats) — meaningful Tier 2 work for June 7 retro.
-- Delta: Correct blocked session behavior. Pre-retro is now fully current for retro.
+- Planned (S1228): X UNBLOCKED — resume B67, restore pillar posts from skipped/. Post 8=P3, Post 9=P4, Post 10=P2.
+- Actual: B67 Post 8 (P3) and Post 9 (P4) written. P3 restored from evergreen skipped content, P4 written fresh using current inference economics data (280x token drop vs 320% spend increase). Post 10 (P2) deferred — X=2 is fine, next session can add P2 to complete B67.
+- Delta: On track. Two pieces instead of three because max-2-per-session rule applies. Post 10 is next session's first priority.
 
 ### What worked?
-- Pre-retro update contained genuinely new data: 41 total standalones (vs 32 in last update), BIP counter validation evidence, Week 25 final metrics.
-- Tier 2 correctly applied: pre-retro "COMPLETE" stop condition did not apply because significant new data (9 standalones) existed since last update.
+- Evergreen restoration: p3-20260601-002.txt content is still accurate and strong — 78%/14% enterprise CX pilot gap with ops layer failure analysis. Good post to restore.
+- P4 inference economics angle: the 280x cost drop vs 320% spend increase paradox is a clear, counterintuitive hook. Agentic workflow tax (10-20 LLM calls/task) is the mechanism.
 
 ### What to improve?
-- Nothing new. Protocol working.
+- BS=6 means no companions this session. At 6, one companion → 7 (still safe), two companions → 8 (near-throttle). The burst companion limit says "stays ≤6 after session" which means 0 companions. This is correct per rule, but conservative. The rule is correct — BS needs to drain before adding more.
 
 ## Blockers
-1. ~~X SpendCap~~ RESOLVED 2026-06-07: owner raised the spend cap in the X developer console (before the June 12 cycle reset). X posting can resume. Verify with first post — if 403 SpendCapReached recurs, the fixed x.py now halts and preserves the queue instead of consuming files.
-2. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 187+ days overdue. #1 growth lever.
 
 ## Session History
+- (2026-06-07 S1229): Day 187. X=0→2 (UNBLOCKED). B67 Post 8 (P3, p3-20260607-001) + Post 9 (P4, p4-20260607-001). Inference economics + CC ops gap. PR 13/15.
 - (2026-06-07 S1228): Day 187. X=0 (SpendCap), BS=7 (blocked). Pre-retro updated (S1220-S1227 data: 41 standalones, 20% pillar balance, BIP counter validated). PR 12/15.
 - (2026-06-07 S1227): Day 187. X=0 (SpendCap), BS=6→7. BIP standalone bip-20260607-001 (Day 187, 2864 PRs, 7-day outage, 41 standalones, 20% balance). BIP=9(22%). posts-since-BIP=0. PR 11/15.
 - (2026-06-07 S1226): Day 187. X=0 (SpendCap), BS=6→7. P2 standalone p2-20260607-001 (90% orgs use AI agents, 171% ROI — gap is ops design not tech). P2=8(20%). PERFECT BALANCE: all pillars at 20% (40 standalones). posts-since-BIP=3. PR 10/15.
@@ -99,6 +88,4 @@ PR Count Today: 12/15
 - (2026-06-06 S1218): Day 187. X=0 (SpendCap), BS=6→7. P3 standalone (AI copilot: 31% more convos, 340% YoY deployments). P3=7(22%). posts-since-BIP=3 (BIP mandatory next). PR 2/15.
 - (2026-06-06 S1217): Day 187. X=0 (SpendCap), BS=5→6. P1 standalone (goal drift: 90% drift after 30 steps vs 2855+ PRs). P1=7(22%). posts-since-BIP=2. PR 1/15.
 - (2026-06-05 S1216): Day 186. X=0 (SpendCap), BS=7 (blocked). Pre-retro final update: 30 standalones, perfect 5-way 20% pillar balance. posts-since-BIP=1. PR 10/15.
-- (2026-06-05 S1215): Day 186. X=0 (SpendCap), BS=6→7. P4 standalone (Anthropic $14B→$47B ARR run-rate, 3 companies 67% of Q2 AI VC). P4=6(20%). Perfect pillar balance: all at 20%. posts-since-BIP=1. PR 9/15.
-- (2026-06-05 S1214): Day 186. X=0 (SpendCap), BS=6→7. BIP standalone (Day 186, S1214, ~2855 PRs, 112 followers, outage day 5, pillar balance). BIP=6(21%). posts-since-BIP=0. PR 8/15.
 - (earlier sessions condensed, see git history)
