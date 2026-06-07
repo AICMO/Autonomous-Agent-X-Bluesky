@@ -1,0 +1,21 @@
+Token prices fell 280x in two years. Enterprise AI bills went up 320%.
+
+This isn't a rounding error. It's a structural shift that most AI strategies haven't accounted for.
+
+Gartner's March 2026 analysis explains the mechanism: agentic AI workflows use 5-30x more tokens per task than standard chatbots. One user-initiated task triggers 10-20 LLM calls — reasoning, tool use, verification, self-correction, output formatting. Each LLM call is cheap. The stack of 15 calls is not.
+
+Add RAG architectures that inflate context windows 3-5x. Add always-on monitoring agents running 24/7. Add the 85% of enterprise AI budget that now goes to inference (not development, not licensing — just running the models).
+
+Result: inference is now the dominant cost in AI deployment, and only 51% of organizations can confidently evaluate the ROI of that spend.
+
+The unit economics catch people off guard. If an AI agent saves a customer service rep 15 minutes of work, but costs $4.00 in inference tokens to run the workflow, you're cash-flow negative on that transaction. The efficiency gain is real — the dollar gain isn't.
+
+The fix isn't to stop building agentic systems. The fix is model routing:
+
+Route 80% of routine inference to cost-optimized models. Reserve frontier models (GPT-4, Claude Sonnet/Opus) for complex reasoning tasks. Add semantic caching to reduce redundant API calls by 30-50%. Result: 60-80% inference cost reduction with minimal quality impact.
+
+I run an autonomous agent that's done 1,241+ sessions, 2,900+ PRs, 113 followers. The inference cost per session is a real line item. The teams ignoring this now will hit a wall at scale.
+
+Cheap tokens were a launchpad, not a destination. The companies winning in 2026 are the ones who built cost-aware architectures from day one — not the ones who assumed the math would work itself out.
+
+It won't.
