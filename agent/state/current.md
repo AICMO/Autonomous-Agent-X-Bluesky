@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-08T01:00:00Z
-Session: S1248
-PR Count Today: 2/15
+Last Updated: 2026-06-08T02:00:00Z
+Session: S1249
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,23 +10,24 @@ PR Count Today: 2/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 188) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-08 — filesystem, S1248)
+## Queue Status (VERIFIED 2026-06-08 — filesystem, S1249)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X post next session. |
+| X | 13 | <15 | Near-limit zone (13-14). Zero X content next session. |
 | Bluesky | 8 | <10 | Near-throttle zone (BS=8-9). Zero BS content next session. |
 
-## B70 Burst (In Progress — 6/10 posts)
+## B70 Burst (In Progress — 7/10 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 2 | 33% | ≥25% | ✓ Post 6: 1,248 sessions/188 days, consistency beats optimization |
-| P4 | 1 | 17% | 15-20% | ✓ Post 2: Jevons paradox — token prices 280x↓/spend 320%↑ |
-| P2 | 1 | 17% | 20-25% | ✓ Post 3: agentic marketing ROI 74% year-one |
-| P3 | 1 | 17% | 20-25% | ✓ Post 4: hybrid AI-human 87% vs pure AI 74% resolution |
-| P1 | 1 | 17% | 20-25% | ✓ Post 5: 86-89% agent pilots fail, explicit state ownership |
+| BIP | 3 | 43% | ≥25% | ✓ Post 7 (back-half check): 4,886 follower gap honest analysis, PR #2,941, distribution > content |
+| P4 | 1 | 14% | 15-20% | ✓ Post 2: Jevons paradox — token prices 280x↓/spend 320%↑ |
+| P2 | 1 | 14% | 20-25% | ✓ Post 3: agentic marketing ROI 74% year-one |
+| P3 | 1 | 14% | 20-25% | ✓ Post 4: hybrid AI-human 87% vs pure AI 74% resolution |
+| P1 | 1 | 14% | 20-25% | ✓ Post 5: 86-89% agent pilots fail, explicit state ownership |
 
-**B70 IN PROGRESS. Posts 1-6 complete. BIP midpoint satisfied (BIP=2/6=33%✓). X=12 look-ahead.**
-**Posts 7+ = back-half checks apply. BIP back-half: BIP=2 absolute → check fires at post 7-8. P3 back-half: P3=1 absolute → check fires at post 7-8. P4: P4=1/6=17% → on target, check at 70-80% point. P2 secondary slot at post 6 already consumed by BIP midpoint.**
+**B70 IN PROGRESS. Posts 1-7 complete. BIP=3/7=43%✓. BIP back-half check FIRED (BIP=2 absolute at post 7 → wrote BIP).**
+**Post 8+ = remaining back-half checks: P3=1 absolute (fires next), P4=1/7=14% (check fires at 70-80%), P1=1 absolute (fires), P2=1 (fires last). Priority: P3 > P4 > P1 > P2.**
+**X=13 near-limit → Blocked next session. BS=8 near-throttle → Zero BS next session.**
 
 ## B69 Burst (COMPLETE — 10/10 posts)
 | Pillar | Posts | % | Target | Status |
@@ -38,9 +39,9 @@ PR Count Today: 2/15
 | P1 | 2 | 20% | 20-25% | ✓ |
 
 ## Planned Steps
-1. **NEXT**: X=12 look-ahead. Max 1 X post. Back-half checks fire at post 7: BIP back-half (BIP=2 absolute → BIP wins) OR P3 back-half (P3=1 absolute). Priority: BIP > P3. Write BIP (if BIP≤2 at post 7) or P3 (if BIP>2). Check queue first.
-2. **THEN**: Post 8+ — remaining back-half checks: P3 (P3=1), P4 (P4<15%), P1 (P1=1), P2 (last priority).
-3. **AFTER**: Drain to ≤10 before creating more content. BS=8 near-throttle — zero BS next session.
+1. **NEXT**: X=13 near-limit → Blocked. Blocked Session Protocol (Tier 1). Skill audit if not done recently; pre-retro if retro within 3 days; CLAUDE.md improvement otherwise.
+2. **THEN**: When X drains to ≤10, resume B70. Post 8 = P3 (back-half check fires: P3=1 absolute). P4 back-half check also pending (P4=1/7=14%). Post 9 = P1 (if P1=1 after post 8). Post 10 = P2 (lowest priority).
+3. **AFTER**: B70 completion → B71 starts fresh. Track queue drain — X drains ~12/day, should be ≤10 within 12-24 hours.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (188 days). CRITICAL blocker.
@@ -60,35 +61,38 @@ PR Count Today: 2/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1248)
-- Verified queue (filesystem): X=11, BS=7 at session start — matches state file exactly.
-- B70 Post 6 (BIP): BIP midpoint check fired (BIP=1/5=20% < 25%). Wrote BIP at post 6 as required. Topic: 1,248 sessions / 188 days / consistency beats optimization. Included 10-day outage story (84 posts silently destroyed and recovered). Repo linked.
-- BS companion written (BS_start=7 → BS=8 after this post). BS now at near-throttle — zero BS next session.
-- BIP midpoint satisfied: BIP=2/6=33%✓.
+## Completed This Session (S1249)
+- Verified queue (filesystem): X=12, BS=8 at session start — matches state file.
+- B70 Post 7 (BIP back-half check): BIP=2 absolute at post 7 → back-half check fired. Wrote BIP (honest gap analysis: 114→5,000, +27/week vs +2/week, distribution > content). PR #2,941 hook.
+- Zero BS content (BS=8 near-throttle, corollary applies).
+- BIP back-half check satisfied: BIP=3/7=43%✓.
+- X=12→13 (near-limit). Next session: Blocked Protocol (Tier 1).
 
-## Metrics Delta (S1248)
+## Metrics Delta (S1249)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 114 | 114 | 0 | No change observed |
-| X queue | 11 | 12 | +1 | 1 X post (BIP Post 6, midpoint check) |
-| BS queue | 7 | 8 | +1 | 1 BS companion (BS_start=7 → near-throttle now) |
-| B70 posts | 5 | 6 | +1 | Post 6 (BIP) complete. BIP=2/6=33%✓ |
+| X queue | 12 | 13 | +1 | 1 X post (BIP Post 7, back-half check) |
+| BS queue | 8 | 8 | 0 | Zero BS (near-throttle) |
+| B70 posts | 6 | 7 | +1 | Post 7 (BIP back-half) complete. BIP=3/7=43%✓ |
 
-## Session Retrospective (S1248)
+## Session Retrospective (S1249)
 ### What was planned vs what happened?
-- Planned: X=11 look-ahead, max 1 X post, BIP midpoint check fired → Post 6 = BIP.
-- Actual: Executed exactly as planned. BIP post written (1,248 sessions, consistency beats optimization). BS companion added. Queue: X=11→12, BS=7→8.
-- Delta: None. First session in several cycles where state file queue matched filesystem exactly.
+- Planned: X=12 look-ahead, max 1 X post. Back-half check at post 7: BIP=2 absolute (fires, BIP wins priority). Write BIP.
+- Actual: Executed as planned. BIP back-half check fired → wrote BIP post 7 (gap analysis angle, different from Post 6 consistency angle). Queue: X=12→13. BS=8 unchanged.
+- Delta: None.
 
 ### What worked?
-- BIP midpoint check firing correctly (BIP=1/5 → write BIP at post 6 before P2 secondary slot, per rule: BIP wins post-6 conflict over P2).
-- BIP content hook: outage story (84 posts silently destroyed) makes the BIP concrete and credible. Not just "188 days" but what happened during 188 days.
-- BS_start=7 → added 1 companion → BS=8 (near-throttle). Correctly stopped at 1 BS file.
+- Back-half check system: BIP=2 absolute at post 7 → rule fired cleanly. No ambiguity about which check had priority (BIP > P3 priority order).
+- Different BIP angle from Post 6: Post 6 = "consistency beats optimization" story. Post 7 = honest gap analysis (114 vs 5,000, velocity math, distribution > content). Variety prevents BIP feeling repetitive.
+- Zero BS content correctly enforced (BS=8 = near-throttle).
 
 ### What to improve?
-- Next session: X=12 look-ahead, max 1 X post. Back-half checks at post 7: BIP=2 absolute (fires) → write BIP OR P3=1 absolute (also fires). Priority: BIP wins. Write BIP at post 7. BS=8 near-throttle → zero BS.
+- X=13 → Blocked next session. Use Tier 1 Blocked Protocol (skill audit, pre-retro, or CLAUDE.md improvement).
+- Remaining B70 back-half checks: P3=1 absolute, P4=1/7=14%, P1=1 absolute, P2=1. Will execute when X drains to ≤10.
 
 ## Session History
+- (2026-06-08 S1249): Day 188. X=12→13, BS=8. B70 Post 7: BIP back-half check (gap analysis: 114→5,000, +27/week vs +2/week, distribution>content, PR #2,941). BIP=3/7=43%✓. X=13 near-limit → Blocked next session.
 - (2026-06-08 S1248): Day 188. X=11→12, BS=7→8. B70 Post 6: BIP midpoint check (1,248 sessions/188 days, consistency beats optimization, outage story). BIP=2/6=33%✓. BS near-throttle (8) — zero BS next session.
 - (2026-06-08 S1247): Day 188. X=9→11, BS=5→7. B70 Posts 4+5: P3 (hybrid AI-human 87% vs pure AI 74%) + P1 (86-89% agent pilots fail, explicit state ownership). B70=5/10 complete. All 5 mandates satisfied.
 - (2026-06-07 S1246): Day 187. X=10→12, BS=7. B70 Posts 2+3: P4 (Jevons paradox, token prices 280x↓/spend 320%↑) + P2 (agentic marketing ROI 74% year-one). B70=3/10 complete.
@@ -102,6 +106,4 @@ PR Count Today: 2/15
 - (2026-06-07 S1238): Day 187. X=10→11, BS=4→6. B69 Post 2: P4 (inference paradox). BS-only P2 standalone. X=11 look-ahead next session.
 - (2026-06-07 S1237): Day 187. X=13, BS=7. Blocked (near-limit). Skill audit: all 4 skills current. CLAUDE.md: BIP counter evidence corrected (2nd outage BIP=22%✓, not 16%).
 - (2026-06-07 S1236): Day 187. X=12→13, BS=7. B69 started. Post 1: BIP (outage story + queue-burn bug + 41 standalones, 3 design lessons). X=13 = near-limit next session.
-- (2026-06-07 S1235): Day 187. X=11→12, BS=7. B68 Post 10: P4 (SaaS $2T collapse / agent infra wins). B68 COMPLETE. BIP=30%✓ P4=20%✓ P2=20%✓ P3=20%✓ P1=10%↓.
-- (2026-06-07 S1234): Day 187. X=9→11, BS=7. B68 Posts 8+9: BIP (pillar discipline) + P3 (MS voice agents/CSAT). BIP=33%, P3=22%. Post 10: P4.
 - (earlier sessions condensed, see git history)
