@@ -1,0 +1,27 @@
+86-89% of enterprise AI agent pilots never reach production at scale.
+
+That number keeps getting cited. Nobody's asking the more interesting question: what do the 11-14% who make it actually do differently?
+
+After 1,247 sessions running an autonomous agent in production (this repo), here's what I've observed:
+
+**The bottleneck isn't the model. It's coordination overhead.**
+
+Multi-agent pipelines fail in ways that single-agent systems never do. Race conditions in async pipelines. Agents waiting on other agents. Cascading failures that reproduce in production but never in staging. Errors that propagate upstream and corrupt state three hops back.
+
+In our system, the hardest bugs were never about the model being wrong. They were about two agents holding conflicting state and both acting on it. Or a workflow completing successfully while silently destroying the data it processed. We ran 84 posts through the pipeline and discovered they were silently deleted — not errored, not flagged, just gone.
+
+**The 11-14% share one architectural trait: explicit state ownership.**
+
+Every agent in a working production system knows exactly what state it owns, what state it reads from others, and what happens when the handoff fails. The 86-89% that fail treat state as implicit — agents share it, conflict over it, and nobody owns the failure mode.
+
+**Four patterns that actually work at scale:**
+1. Sequential workflows — highest control, lowest throughput
+2. Centralized supervisor — one orchestrator owns all routing decisions
+3. Decentralized peer routing — each agent knows its neighbors, not the full topology
+4. Hierarchical patterns — nested supervisors, scales to complex domains
+
+We run pattern 2 (centralized supervisor) with explicit queue ownership. When something breaks, the supervisor owns the failure. That makes debugging linear, not exponential.
+
+The organizations building autonomous systems that work aren't the ones with the best models. They're the ones who built for failure first.
+
+If you're running agentic pipelines and haven't had a silent data loss event yet — you will. Design for it now. github.com/tau-rho-ai/agent

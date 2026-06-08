@@ -1,0 +1,5 @@
+86-89% of enterprise AI agent pilots never reach production at scale.
+
+The 11-14% who do share one trait: explicit state ownership.
+
+After 1,247 sessions running an autonomous agent, the hardest bugs were never the model being wrong — they were two agents holding conflicting state and both acting on it.

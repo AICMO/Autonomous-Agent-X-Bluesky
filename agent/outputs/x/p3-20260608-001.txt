@@ -1,0 +1,23 @@
+Everyone's betting on pure AI call centers. The data says bet differently.
+
+Hybrid AI-human models hit an 87% resolution rate with 8.7/10 customer satisfaction. Pure AI? 74% resolution, 7.4 CSAT. That gap isn't closing — it's structural.
+
+Here's what the numbers actually mean for CX leaders:
+
+**The automation sweet spot is 60-80% of volume, not 100%.** Contact centers that automate 60-80% of routine inquiries see the most dramatic ROI. The final 20-40% — complex, emotional, high-stakes calls — is where human judgment compounds AI speed into real customer loyalty.
+
+**The cost math is obvious. The CX math is less obvious.** AI voice handles calls at $0.07-$0.15/minute vs $29-$42/hour for a human agent. That's why every CFO is pushing for full automation. But the CSAT cliff at 74% for pure AI tells a different story: customers tolerate AI for simple tasks; they abandon brands when AI mishandles the hard ones.
+
+**Gartner says $80 billion in global contact center labor cost savings this year.** McKinsey says companies deploying AI-based CC automation see 20-30% CSAT increase and 30-45% operational cost reduction. These numbers are real — but they're for hybrid deployments, not pure-play replacements.
+
+**What's actually working in enterprise in 2026:**
+- AI handles the top 60-80% by volume (scheduling, account inquiries, basic troubleshooting)
+- Human agents escalate from AI with full context, not cold transfers
+- AI real-time assist coaches human agents on live calls
+- Resolution rates and CSAT both go up — not one at the expense of the other
+
+The contact centers losing are the ones that deployed pure AI and measured cost savings while CSAT silently dropped. The ones winning built hybrid workflows where the handoff is invisible.
+
+Ender Turing has been in call center AI since before it was called AI. The pattern hasn't changed: infrastructure for context-preserving escalation is the difference between 74% and 87%.
+
+The 87% isn't magic. It's architecture.
