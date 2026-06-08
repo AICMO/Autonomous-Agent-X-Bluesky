@@ -1,0 +1,5 @@
+88% of contact centers use AI. Only 25% have integrated it.
+
+"Using AI" = chatbot on the website. "Integrated AI" = routing, agent assist, QA, and forecasting simultaneously.
+
+That 63-point gap is where CX budgets burn. The 25% started with the plumbing first.

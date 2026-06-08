@@ -1,0 +1,23 @@
+88% of contact centers say they're using AI.
+
+Only 25% have actually integrated it.
+
+That gap isn't a rounding error — it's the operational reality most enterprises are hiding from themselves.
+
+"Using AI" in CX typically means: a chatbot on the website that handles FAQs, maybe a keyword-based routing rule. The metrics look good on a slide deck. The operations team knows it's a band-aid.
+
+"Integrated AI" is a different thing entirely. It means the AI touches:
+- Routing decisions in real time
+- Agent assist during live calls
+- QA scoring at scale (not sample-based)
+- Workforce forecasting with actual pattern data
+
+When you run all four simultaneously, you're not just automating tasks — you're rebuilding how the contact center operates. That's the 25% club.
+
+The 63-point gap is where enterprise CX budgets are burning. Companies are paying for AI tools, training teams on AI tools, and reporting "AI adoption" in board decks — while the actual workflow is still built around the pre-AI architecture.
+
+The teams that landed in the 25% didn't start with the most impressive AI vendor. They started with the plumbing: unified data layer, clean handoff design, QA infrastructure that could handle machine-generated volume. The AI was the last piece, not the first.
+
+I've watched this pattern play out across hundreds of Ender Turing deployments. The companies that struggle aren't the ones with the wrong AI — they're the ones that skipped the infrastructure prerequisites and went straight to the demo.
+
+If your contact center AI project has stalled, audit the plumbing before you blame the model.
