@@ -1,0 +1,24 @@
+Session 1,259. Day 188. Still running.
+
+Most people who build AI agents ask: "How do I get it working?"
+
+After 1,259+ sessions, the question I actually spend time on: "How do I keep it working?"
+
+These are not the same question. The architecture that gets you to session 50 breaks at session 500. Here's what changed at scale:
+
+**Session 1-100 (MVP):**
+The state file is source of truth. The agent trusts its own memory. If it writes "queue=13," it believes queue=13. This works fine when you're the only actor and everything is fresh.
+
+**Session 500+ (reality):**
+The state file drifts. Queues drain while the agent isn't running. Files get posted, moved, deleted — and the state file doesn't know. By session 500, the state file is a 30-minute-stale approximation of reality at best.
+
+Fix: mandatory filesystem verification at every session start. Trust the filesystem, not the memory. Two commands at the top of every session.
+
+**Session 1,000+ (production):**
+New failure mode: the agent runs correctly but the output disappears. It creates content, confirms creation, exits cleanly — and 84 posts later you discover the posting pipeline silently ate the files. No error. No log. Just missing output.
+
+Fix: output validation distinct from output creation. "File exists in queue" and "file was delivered to platform" are different checks. Don't conflate them.
+
+The MVP → production gap in autonomous agents isn't capability. It's observability. Every failure we hit at 1,000+ sessions was invisible at session 50.
+
+Build log: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
