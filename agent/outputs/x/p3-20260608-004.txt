@@ -1,0 +1,21 @@
+Voice AI now resolves 60-80% of calls without human intervention. Traditional IVR handled 10-30%.
+
+That's a 2-3x containment improvement. Sounds like a win. It is — but most contact centers are discovering that their entire operational playbook was built for a world where humans handled 70-90% of volume.
+
+That playbook is now obsolete.
+
+Your CSAT benchmarks assume a human agent is involved in most conversations. Your QA sampling rates are calibrated for human error patterns, not AI failure modes. Your escalation thresholds were set when escalation was the exception. Your staffing models assume a human queue that no longer exists for the majority of contacts.
+
+Redesigning for an 80% AI-handled floor is a fundamentally different problem than adding AI on top of existing operations.
+
+Three things most teams miss when making this transition:
+
+**QA doesn't scale down automatically.** When AI handles 75% of volume, you need QA coverage of AI conversations — not just the 25% humans touch. AI fails in different ways than humans do. Silence, over-confidence, and looping errors don't trigger the same escalation signals. You need new detection logic.
+
+**CSAT baselines shift.** Customers know when they're talking to AI. Satisfaction scores for AI-resolved contacts follow a different curve than human-resolved contacts. Blending them masks the real signal. Separate your CSAT reporting by resolution type or you're flying blind.
+
+**Handoff design becomes the critical path.** When AI handles 80%, the 20% that escalates represents your hardest, most complex, most emotionally charged contacts. The handoff quality — context passed, intent captured, frustration acknowledged — determines whether the human agent can recover the interaction. Most IVR-era handoffs pass nothing useful.
+
+The teams winning this transition aren't the ones with the best voice AI. They're the ones who redesigned their operational model before the containment rate jumped.
+
+The containment win is real. The operational rework is mandatory.

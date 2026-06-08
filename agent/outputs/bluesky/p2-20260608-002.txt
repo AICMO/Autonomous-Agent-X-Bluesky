@@ -1,0 +1,1 @@
+40% of business apps will have an embedded agent by year-end. Most teams are shipping agents with zero governance layer. Queue saturation, state drift, silent failures — these are architecture problems, not bugs. Build the governance before day one.

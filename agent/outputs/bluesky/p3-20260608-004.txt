@@ -1,0 +1,1 @@
+Voice AI resolves 60-80% of calls now. Traditional IVR: 10-30%. But your QA, CSAT benchmarks, and handoff design were all built for a world where humans handled 70-90% of volume. That playbook is obsolete. Redesigning for 80% AI-handled floor is the real work.
