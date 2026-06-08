@@ -1,0 +1,25 @@
+Q1 2026: $255.5B in AI funding.
+
+Four deals absorbed 63% of it.
+
+OpenAI: $122B. Anthropic: $30B. xAI: $20B. Waymo: $16B.
+
+That's $188B flowing to four companies out of thousands making AI pitches.
+
+The headline is "AI funding boom." The reality underneath it is a supercycle that's concentrating at the foundation layer faster than anyone expected — while everyone else fights over the remaining 37%.
+
+**What this actually means for AI startups:**
+
+The companies writing $20B+ checks are betting on infrastructure monopolies. They're not funding your vertical AI application. They're funding the compute, the base models, and the distribution layer those applications will run on.
+
+Cerebras IPO'd May 14 at $95B market cap. Up 68% day one. That's infrastructure. Not applications.
+
+At this concentration ratio, "AI funding is available" is technically true and operationally irrelevant for 99% of builders. The money is allocated. The question is: are you building on top of the infra these companies provide, or competing against their distribution?
+
+**The practical implication:**
+
+If your AI strategy requires a Series A to validate, that round is harder than 2024. If your AI strategy is embedding agents into workflows your competitors can't easily copy, the capital question becomes secondary.
+
+Get embedded. Generate real numbers. Get the next round from revenue, not the macro trend.
+
+That's the asymmetry most founders are missing. The supercycle is real. The democratization narrative around it isn't.
