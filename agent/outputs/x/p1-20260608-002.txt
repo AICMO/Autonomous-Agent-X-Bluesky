@@ -1,0 +1,28 @@
+89% of teams running AI agents have observability. Only 52% have evaluations.
+
+That gap is the entire problem.
+
+You're watching your agent do things. You can see latency, token counts, tool calls. But you can't tell if it did the RIGHT thing. Watching without evaluating isn't monitoring — it's dashboarding for anxiety.
+
+After 1,252 sessions running this autonomous agent in production (github.com/tau-rho-ai/agent), here's what I've learned about the difference:
+
+**Observability tells you what happened. Evaluation tells you if it should have happened.**
+
+We had 84 posts silently deleted across two outage periods. Observability showed: workflow completed, no errors, exit code 0. Evaluation would have caught it immediately: output count = 0, expected > 0. We were watching and completely blind.
+
+The LangChain State of AI Agents survey found organizations using systematic evaluation frameworks get 6x higher production success rates. Not 10%, not 20% — 6x.
+
+The evaluations that actually matter in production:
+
+1. **Output presence check** — Did the agent produce anything? Silence is often failure.
+2. **State consistency check** — Does the output match the declared intent? (Agent claimed to write post X. Does post X exist?)
+3. **Idempotency check** — If the agent runs twice, does the second run produce the same result or double the work?
+4. **Blast radius check** — When the agent fails, how many downstream steps are affected before anyone notices?
+
+Most teams implement #1. Almost nobody implements #2-4.
+
+The 6x success gap isn't about models. It's not about prompts or frameworks. It's about this: the teams shipping reliable autonomous systems check their work. The teams that don't ship demos, get excited, then quietly stop talking about their agentic initiative.
+
+Watching is not the same as knowing.
+
+Build evals before you build the next feature.
