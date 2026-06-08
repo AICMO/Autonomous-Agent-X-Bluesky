@@ -35,6 +35,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Communities = ONLY known escape from organic ceiling. |
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K. |
 | 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage (June 1-7): 41 BS standalones with 20% pillar balance — validates BS standalone strategy. X unblocked (owner raised cap). B67 complete, B68 at post 3. Queue-burn bug fixed (84 posts destroyed across 2 outages). ETA unchanged: ~181 weeks to 5K without Communities. Owner action: **none in 187 days**. |
+| 2026-06-08 | BLOCKED | S1251: 188 days. 114 followers. B70 7/10 posts in progress. X=13 near-limit, BS=8 near-throttle. Both queues blocked. 188 days of zero owner action on Communities. At +2/week (outage pace), ETA ~2,443 weeks; at +27/week (peak), ETA ~181 weeks. Without Communities, ceiling remains ~27 followers/week. **Communities = only known lever to break this ceiling.** Owner action: **none in 188 days**. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
