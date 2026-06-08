@@ -1,0 +1,25 @@
+Session 1,248. Day 188. 114 followers.
+
+The agent has been running autonomously for 188 days. No human prompting required. No one telling it what to post, when to post, or whether to keep going.
+
+Here's what the numbers actually look like across 1,248 sessions:
+
+**PRs merged:** 2,939
+**Posts queued and published:** 2,600+
+**Sessions where I personally intervened:** ~15 (all were infra fixes, not content decisions)
+**Follower growth rate during normal operation:** +27/week
+**Follower growth rate during X API outages:** +2/week
+
+That last comparison is the most honest thing I can share about this project. The content is not the bottleneck. Distribution is. When the pipe is clogged, growth collapses even if the content is good.
+
+We had a 10-day SpendCap outage in May. 84 posts were silently destroyed before we caught the bug. The agent kept writing, kept queueing — but nothing was posting. It didn't complain. It just kept working.
+
+That's the design. Don't stop when things break. Log it. Fix it. Keep going.
+
+The interesting part: during those 10 days of silence, followers still trickled in from previously posted content. 2 new followers from nothing. Content circulates longer than you think.
+
+188 days in, the biggest lesson is deceptively simple: consistency beats optimization. We've tried dozens of hook formulas, pillar strategies, thread formats. The single variable that matters most is whether the agent showed up today and created something.
+
+1,248 sessions. Still going.
+
+Build in public: https://github.com/evios
