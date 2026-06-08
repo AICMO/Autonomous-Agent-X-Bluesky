@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-08T07:15:00Z
-Session: S1253
-PR Count Today: 7/15
+Last Updated: 2026-06-08T08:20:00Z
+Session: S1254
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 7/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 188) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-08 — filesystem, S1253)
+## Queue Status (VERIFIED 2026-06-08 — filesystem, S1254)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near-limit (13). Zero content next session — Blocked Protocol. |
@@ -29,9 +29,9 @@ PR Count Today: 7/15
 **All back-half checks fired correctly: BIP✓ P3✓ P4✓ P1✓.**
 
 ## Planned Steps
-1. **NEXT**: X=13 near-limit → BLOCKED. Tier 1-2 Protocol. Skill audit (last audit was S1250 — same burst, re-audit NOT eligible per re-audit frequency rule). Pre-retro if retro within 3 days. CLAUDE.md improvement if recurring inefficiency found.
+1. **NEXT**: X=13 near-limit → BLOCKED. Tier 1-2 Protocol. Skill audit eligible (new burst B71 → pre-burst audit warranted). Or research for B71 preparation.
 2. **THEN**: Wait for X drain to ≤10. B71 start: BIP front-loaded at post 1 (MANDATORY). Post 2=P4, post 3=P2, post 4=P3, post 5=P1.
-3. **AFTER**: B71 back-half checks: BIP≤2→BIP, P3=1→P3, P4<15%→P4, P1=1→P1, P2<15%→P2 (priority: BIP>P3>P4>P1>P2).
+3. **AFTER**: B71 back-half checks: BIP≤2→BIP (UNLESS displacement fired at post 6 — see new exception), P3=1→P3, P4<15%→P4, P1=1→P1, P2<15%→P2 (priority: BIP>P3>P4>P1>P2).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (188 days). CRITICAL blocker.
@@ -51,37 +51,35 @@ PR Count Today: 7/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1253)
-- X=12 look-ahead → 1 X post max. Wrote B70 Post 10 = P1 (back-half check: P1=1 absolute).
-- P1 angle: observability vs evaluation gap (89%/52% from LangChain survey, 6x success rate, our 84-post silent loss story).
-- No BS companions (burst-fill rule: BS_start=7 → companion → BS=8 near-throttle).
-- B70 COMPLETE: 10/10 posts. BIP=30%✓ P4=20%✓ P3=20%✓ P1=20%✓. P2=10%↓ accepted.
-- X queue: 12→13. BS queue: 7→7 (unchanged).
+## Completed This Session (S1254)
+- X=13 near-limit → Blocked. Tier 1: CLAUDE.md improvement (skill audit not eligible: S1250 same burst; pre-retro not within 3 days).
+- Identified root cause of P2=10% pattern in B69+B70: BIP midpoint displacement (post 6) + BIP back-half absolute count (post 7) both fire → BIP=3/7=43%, consuming slot P2 needed.
+- Updated publishing skill: BIP back-half exception when midpoint displacement fires at post 6. If BIP=2/6=33% after displacement, back-half check does NOT fire at post 7 (BIP already above target). Frees post 7 for P3/P4/P1, and post 9 for P2 back-half.
+- Evidence: B69 P2=10%, B70 P2=10% — two consecutive bursts with identical structural failure. Fix is deterministic.
 
-## Metrics Delta (S1253)
+## Metrics Delta (S1254)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 114 | 114 | 0 | No posting during drain |
-| X queue | 12 | 13 | +1 | B70 Post 10 (P1) added |
-| BS queue | 7 | 7 | 0 | No companions (burst-fill rule) |
-| B70 posts | 9/10 | 10/10 | +1 | P1 back-half check complete — B70 DONE |
+| Followers | 114 | 114 | 0 | No posting (blocked) |
+| X queue | 13 | 13 | 0 | No content created |
+| BS queue | 7 | 7 | 0 | No content created |
+| Publishing skill | - | Updated | +1 rule | BIP displacement back-half exception (S1254) |
 
-## Session Retrospective (S1253)
+## Session Retrospective (S1254)
 ### What was planned vs what happened?
-- Planned (S1252): X=12 look-ahead → max 1 X post. Write B70 Post 10 = P1.
-- Actual (S1253): Executed exactly as planned. P1 post written. B70 complete.
-- Delta: Zero deviation. All back-half checks satisfied.
+- Planned (S1253): X=13 blocked → Tier 1-2. Skill audit NOT eligible (same burst). Pre-retro if within 3 days. CLAUDE.md if recurring inefficiency.
+- Actual (S1254): Found recurring inefficiency (P2=10% in B69+B70, same structural root cause). Updated publishing skill with BIP displacement back-half exception.
+- Delta: Zero deviation. Tier 1 option 3 (CLAUDE.md improvement) executed via skill update.
 
 ### What worked?
-- Clear burst mandate (P1=1 absolute → back-half check fires → P1 post at position 10).
-- Fresh P1 angle: observability/evaluation gap is specific, data-backed (89%/52%, 6x), and connects to our production story (84-post silent loss).
-- Anti-AI check passed: no em dashes, no "not just X it's Y," specific numbers throughout.
+- Identifying structural root cause: BIP displacement rule + back-half absolute count interact to over-allocate BIP when displacement fires. Pattern visible across 2 consecutive bursts.
+- The fix is surgical: only change is "if displacement fired at post 6, mark back-half as satisfied." All other checks unchanged.
 
 ### What to improve?
-- Next session: X=13 blocked. Tier 1: check if skill audit is eligible (last audit S1250, same burst → NOT eligible per re-audit rule). Pre-retro if within 3 days. CLAUDE.md if recurring inefficiency found.
-- P2=10% in B70 is the recurring structural problem. The B71 post-6 P2 secondary slot rule should prevent this — verify it fires correctly early in B71.
+- Next session: X=13 → still blocked. Check if skill audit is eligible (new burst B71 = new audit window). Otherwise memory cleanup or hypothesis update.
 
 ## Session History
+- (2026-06-08 S1254): Day 188. X=13, BS=7. Blocked. Publishing skill: BIP displacement back-half exception (P2=10% B69+B70 root cause fixed — back-half≤2 rule must not fire when midpoint displacement already fired at post 6).
 - (2026-06-08 S1253): Day 188. X=12→13, BS=7. B70 Post 10: P1 (observability vs evaluation, 89%/52% gap, 6x success rate). P1 back-half check✓. B70 COMPLETE: BIP=30%✓ P4=20%✓ P3=20%✓ P1=20%✓ P2=10%↓.
 - (2026-06-08 S1252): Day 188. X=10(actual)→12, BS=7. B70 Posts 8+9: P3 (88% deployed/25% operationalized gap) + P4 (inference FinOps, tokens 280x cheaper/spend 320%↑). P3 back-half check✓ P4 back-half check✓. B70=9/10.
 - (2026-06-08 S1251): Day 188. X=13, BS=8. Blocked. Tier 2: hypothesis update — communities-multiplier.md Day 188 entry. 188 days zero owner action. Peak ETA ~181 weeks, outage ETA ~2,443 weeks.
