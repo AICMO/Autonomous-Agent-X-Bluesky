@@ -1,0 +1,25 @@
+88% of contact centers have deployed AI. Only 25% have operationalized it.
+
+That gap — 63 percentage points — represents trillions of dollars in locked ROI.
+
+The hard part was never the technology. Everyone figured that out. The hard part is what comes after deployment: workflow redesign, agent coaching, QA governance, escalation logic, feedback loops. All the boring operational work that doesn't show up in vendor demos.
+
+Here's what I see at Ender Turing, working with contact centers daily:
+
+Most deployments stall at the same three points:
+
+1. **No closed loop between AI and human performance** — AI flags issues, but nobody acts on them systematically. QA scores improve on paper. CSAT doesn't move.
+
+2. **Agents aren't trained to work with AI** — They work around it. Or ignore the prompts. The tech is live but adoption is 20-30%. You're paying for full capacity and using a quarter of it.
+
+3. **Leadership KPIs didn't change** — Management still measures handle time and tickets closed. AI that reduces those numbers looks bad on the old dashboard. So nobody champions it internally.
+
+The economics are brutal when you look at what's on the table: human agents cost $7-12 per call. Voice AI costs $0.40. That's a 95% cost reduction per automated interaction. One Forrester study documented $10.3M in labor savings over 3 years, 331-391% ROI, payback under 6 months.
+
+That ROI is sitting there. Uncaptured. In 63% of organizations that already have the technology running.
+
+This isn't a technology problem. It's a governance and change management problem.
+
+The contact centers that crack operationalization in the next 12 months will have an insurmountable competitive advantage over the ones still doing demos.
+
+What's blocking operationalization in your organization? Genuinely curious — the patterns repeat everywhere but the specific blocker is usually unique.
