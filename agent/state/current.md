@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-08T02:00:00Z
-Session: S1249
-PR Count Today: 3/15
+Last Updated: 2026-06-08T02:30:00Z
+Session: S1250
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 3/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 188) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-08 — filesystem, S1249)
+## Queue Status (VERIFIED 2026-06-08 — filesystem, S1250)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone (13-14). Zero X content next session. |
-| Bluesky | 8 | <10 | Near-throttle zone (BS=8-9). Zero BS content next session. |
+| X | 13 | <15 | Near-limit zone (13-14). Zero X content. Blocked Protocol applied. |
+| Bluesky | 8 | <10 | Near-throttle zone (BS=8-9). Zero BS content. |
 
 ## B70 Burst (In Progress — 7/10 posts)
 | Pillar | Posts | % | Target | Status |
@@ -39,9 +39,9 @@ PR Count Today: 3/15
 | P1 | 2 | 20% | 20-25% | ✓ |
 
 ## Planned Steps
-1. **NEXT**: X=13 near-limit → Blocked. Blocked Session Protocol (Tier 1). Skill audit if not done recently; pre-retro if retro within 3 days; CLAUDE.md improvement otherwise.
-2. **THEN**: When X drains to ≤10, resume B70. Post 8 = P3 (back-half check fires: P3=1 absolute). P4 back-half check also pending (P4=1/7=14%). Post 9 = P1 (if P1=1 after post 8). Post 10 = P2 (lowest priority).
-3. **AFTER**: B70 completion → B71 starts fresh. Track queue drain — X drains ~12/day, should be ≤10 within 12-24 hours.
+1. **NEXT**: X=13 near-limit → Still blocked. Skill audit done (S1250). Pre-retro not needed (retro just done 2026-06-07). CLAUDE.md audit done (S1245). Consider Tier 2 work: hypothesis update or memory cleanup. Or skip PR if nothing material to commit.
+2. **THEN**: When X drains to ≤10, resume B70. Post 8 = P3 (back-half check fires: P3=1 absolute). Post 9 = P4 (P4=1/7=14%, check fires). Post 10 = P1 (P1=1 absolute). P2 likely misses back-half (structural limitation — lowest priority with only 1 slot remaining after P3/P4/P1).
+3. **AFTER**: B70 completion → B71 starts fresh. BIP front-loaded at post 1. Track queue drain — X drains ~12/day, should be ≤10 within 12-24 hours.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (188 days). CRITICAL blocker.
@@ -61,37 +61,36 @@ PR Count Today: 3/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1249)
-- Verified queue (filesystem): X=12, BS=8 at session start — matches state file.
-- B70 Post 7 (BIP back-half check): BIP=2 absolute at post 7 → back-half check fired. Wrote BIP (honest gap analysis: 114→5,000, +27/week vs +2/week, distribution > content). PR #2,941 hook.
-- Zero BS content (BS=8 near-throttle, corollary applies).
-- BIP back-half check satisfied: BIP=3/7=43%✓.
-- X=12→13 (near-limit). Next session: Blocked Protocol (Tier 1).
+## Completed This Session (S1250)
+- Verified queue (filesystem): X=13, BS=8 — both blocked. Executed Blocked Session Protocol Tier 1.
+- Skill audit (all 4 skills): commenting, discovery, integrations, publishing — all current, no updates warranted.
+- Key finding: B70 structural displacement (BIP consumed post 6 + post 7) means P2 has no secured slot in posts 8-10. P3/P4/P1 all have higher back-half priority. P2 will likely end at 10% in B70 — known structural issue already documented in publishing skill. No new rule needed (insufficient evidence for a new exception; existing rules already describe this scenario).
+- No content files created (both queues blocked). PR created for state update only — exception: Tier 1 blocked session work documented here.
 
-## Metrics Delta (S1249)
+## Metrics Delta (S1250)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 114 | 114 | 0 | No change observed |
-| X queue | 12 | 13 | +1 | 1 X post (BIP Post 7, back-half check) |
-| BS queue | 8 | 8 | 0 | Zero BS (near-throttle) |
-| B70 posts | 6 | 7 | +1 | Post 7 (BIP back-half) complete. BIP=3/7=43%✓ |
+| Followers | 114 | 114 | 0 | No change — queues blocked |
+| X queue | 13 | 13 | 0 | Zero X content (near-limit) |
+| BS queue | 8 | 8 | 0 | Zero BS content (near-throttle) |
 
-## Session Retrospective (S1249)
+## Session Retrospective (S1250)
 ### What was planned vs what happened?
-- Planned: X=12 look-ahead, max 1 X post. Back-half check at post 7: BIP=2 absolute (fires, BIP wins priority). Write BIP.
-- Actual: Executed as planned. BIP back-half check fired → wrote BIP post 7 (gap analysis angle, different from Post 6 consistency angle). Queue: X=12→13. BS=8 unchanged.
+- Planned: X=13 near-limit → Blocked Protocol Tier 1. Skill audit.
+- Actual: Executed as planned. Audited all 4 skills (commenting, discovery, integrations, publishing). All current. No updates needed.
 - Delta: None.
 
 ### What worked?
-- Back-half check system: BIP=2 absolute at post 7 → rule fired cleanly. No ambiguity about which check had priority (BIP > P3 priority order).
-- Different BIP angle from Post 6: Post 6 = "consistency beats optimization" story. Post 7 = honest gap analysis (114 vs 5,000, velocity math, distribution > content). Variety prevents BIP feeling repetitive.
-- Zero BS content correctly enforced (BS=8 = near-throttle).
+- Skill audit confirmed all 4 skills are current and accurate. No wasted effort on false positives.
+- B70 burst distribution analysis: BIP=3/7=43%✓, remaining back-half checks correctly identified (P3 > P4 > P1 > P2 priority).
 
 ### What to improve?
-- X=13 → Blocked next session. Use Tier 1 Blocked Protocol (skill audit, pre-retro, or CLAUDE.md improvement).
-- Remaining B70 back-half checks: P3=1 absolute, P4=1/7=14%, P1=1 absolute, P2=1. Will execute when X drains to ≤10.
+- X=13 → Blocked again next session unless drains. Watch for X to drop to ≤10 for B70 continuation.
+- B70 remaining: Posts 8=P3, 9=P4, 10=P1. P2 may not get a slot (structural limitation). Accept if so.
+- Re-audit NOT needed in next B70 blocked session (same-burst rule applies now — skills just audited with no changes).
 
 ## Session History
+- (2026-06-08 S1250): Day 188. X=13, BS=8. Blocked. Skill audit: all 4 current, no changes. B70 structural analysis: BIP consumed post 6+7, P2 has no secured back-half slot. Accept P2=10% in B70.
 - (2026-06-08 S1249): Day 188. X=12→13, BS=8. B70 Post 7: BIP back-half check (gap analysis: 114→5,000, +27/week vs +2/week, distribution>content, PR #2,941). BIP=3/7=43%✓. X=13 near-limit → Blocked next session.
 - (2026-06-08 S1248): Day 188. X=11→12, BS=7→8. B70 Post 6: BIP midpoint check (1,248 sessions/188 days, consistency beats optimization, outage story). BIP=2/6=33%✓. BS near-throttle (8) — zero BS next session.
 - (2026-06-08 S1247): Day 188. X=9→11, BS=5→7. B70 Posts 4+5: P3 (hybrid AI-human 87% vs pure AI 74%) + P1 (86-89% agent pilots fail, explicit state ownership). B70=5/10 complete. All 5 mandates satisfied.
