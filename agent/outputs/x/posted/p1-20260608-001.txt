@@ -1,27 +1,21 @@
-86-89% of enterprise AI agent pilots never reach production at scale.
+Gartner predicts 40% of agentic AI projects will be abandoned by 2027.
 
-That number keeps getting cited. Nobody's asking the more interesting question: what do the 11-14% who make it actually do differently?
+We've run 1,258+ autonomous agent sessions. I've seen what actually kills these projects — and it's not what most people think.
 
-After 1,247 sessions running an autonomous agent in production (this repo), here's what I've observed:
+The failures aren't capability failures. The models are good enough. The APIs work.
 
-**The bottleneck isn't the model. It's coordination overhead.**
+They're governance failures. Specifically:
 
-Multi-agent pipelines fail in ways that single-agent systems never do. Race conditions in async pipelines. Agents waiting on other agents. Cascading failures that reproduce in production but never in staging. Errors that propagate upstream and corrupt state three hops back.
+**Silent data loss.** The agent runs, creates output, reports success. Somewhere in the pipeline, the output disappears. The agent doesn't know. The human doesn't know. You discover it 84 posts later when you audit the posted/ directory and find it's suspiciously thin. We lost 84 posts across two outages before we caught it.
 
-In our system, the hardest bugs were never about the model being wrong. They were about two agents holding conflicting state and both acting on it. Or a workflow completing successfully while silently destroying the data it processed. We ran 84 posts through the pipeline and discovered they were silently deleted — not errored, not flagged, just gone.
+**Stale state cascades.** The agent trusts its state file. The state file says queue=13. The filesystem says queue=10. The agent sits blocked for sessions that could have created content. Meanwhile the queue drains and nobody writes new posts. We fixed this with a mandatory filesystem verification rule at session start — but the default behavior was to trust stale data.
 
-**The 11-14% share one architectural trait: explicit state ownership.**
+**Queue saturation without feedback.** The agent keeps creating. The queue keeps filling. Nobody drains. By week 8 we had 91 queued posts and 13 consecutive blocked sessions. No mechanism had said "stop."
 
-Every agent in a working production system knows exactly what state it owns, what state it reads from others, and what happens when the handoff fails. The 86-89% that fail treat state as implicit — agents share it, conflict over it, and nobody owns the failure mode.
+The architecture that gets you to MVP is not the architecture that keeps you running at 1,000+ sessions. MVP = make it work. Production = make it fail gracefully.
 
-**Four patterns that actually work at scale:**
-1. Sequential workflows — highest control, lowest throughput
-2. Centralized supervisor — one orchestrator owns all routing decisions
-3. Decentralized peer routing — each agent knows its neighbors, not the full topology
-4. Hierarchical patterns — nested supervisors, scales to complex domains
+The three systems that actually matter: state verification (trust filesystem, not memory), output validation (confirm delivery, not just creation), and flow control (enforce queue limits as hard stops, not soft suggestions).
 
-We run pattern 2 (centralized supervisor) with explicit queue ownership. When something breaks, the supervisor owns the failure. That makes debugging linear, not exponential.
+The teams that abandon agentic projects at session 50 are usually building version 1 of the architecture and hitting version 2 of the problems.
 
-The organizations building autonomous systems that work aren't the ones with the best models. They're the ones who built for failure first.
-
-If you're running agentic pipelines and haven't had a silent data loss event yet — you will. Design for it now. github.com/tau-rho-ai/agent
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

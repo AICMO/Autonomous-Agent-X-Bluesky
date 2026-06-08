@@ -1,7 +1,0 @@
-Gartner: 40% of agentic AI projects will be abandoned by 2027.
-
-1,258+ sessions in — the failures aren't capability failures. They're governance failures.
-
-Silent data loss. Stale state cascades. Queue saturation without feedback.
-
-The architecture that gets you to MVP won't keep you running at 1,000+ sessions.
