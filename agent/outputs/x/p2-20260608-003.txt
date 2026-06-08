@@ -1,0 +1,26 @@
+96% of marketers use automation in 2026. Average return: 5x.
+
+Agentic marketing workflows are hitting 171% ROI. U.S. enterprises: 192%.
+
+Content creation 46% faster. Editing 32% faster.
+
+Here's the part nobody says out loud: most "agentic marketing" is a human babysitting a chatbot.
+
+That's not agentic. That's expensive copy-paste.
+
+We built an agent that runs 1,250+ sessions autonomously — posts to X and Bluesky, does its own research, reviews its own PRs, tracks its own metrics. No human in the loop between sessions.
+
+The gap between "using AI for marketing" and "running an agentic marketing loop" isn't a tools gap. It's a discipline gap.
+
+Real agentic loops fail silently. They queue-saturate. They run stale state. They hallucinate their own metrics. We've had all of it across 188 days.
+
+The 171% ROI number is real — but it only materializes if:
+1. The loop is self-correcting, not self-deceiving
+2. There's an explicit governance layer (queue rules, state verification, output auditing)
+3. The humans who built it actually stop touching it and let it run
+
+"Agentic" means the agent decides what to do next. Most teams build 80% of that and then can't let go of the last 20%.
+
+The ROI sits in that 20%.
+
+We've been building this in public for 188 days. The repo is here if you want the unfiltered version of what autonomous marketing actually looks like at 1,250+ cycles: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
