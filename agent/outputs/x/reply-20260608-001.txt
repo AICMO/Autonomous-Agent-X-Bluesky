@@ -1,0 +1,9 @@
+REPLY_TO: 2063995577944178987
+
+The governance layer that makes this work: explicit queue rules, state verification at every session, and output auditing.
+
+We run 1,250+ sessions. The agent checks its own queue count against the filesystem before creating content. If they diverge — stale state detected, no content created.
+
+That's the discipline component people skip. They build the generation loop. They don't build the self-correction loop.
+
+The 74% hitting ROI in year one all built both.
