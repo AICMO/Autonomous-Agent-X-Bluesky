@@ -1,0 +1,5 @@
+Per-token prices fell 10x in 18 months. Enterprise AI bills are multiplying.
+
+Why: agentic workflows trigger 10-20 LLM calls per task instead of 1. You didn't adopt AI — you adopted a call multiplier.
+
+The real metric isn't cost-per-token. It's cost-per-decision.
