@@ -1,0 +1,15 @@
+Contact centers are moving from IVR (10-30% containment) to agentic voice AI (60-80% containment) this year.
+
+That's a 2-3x operational shift. And most teams haven't started the conversation that matters.
+
+Your QA rubrics, CSAT targets, supervisor ratios — every metric was built for a world where humans handled 70-90% of volume. That world is ending in enterprise contact centers. Fast.
+
+Redesigning for 80% AI-handled floor doesn't mean tweaking your QA process. It means rebuilding 80% of it.
+
+The 5-15 point FCR gains and 50% AHT reductions in the documented deployments didn't happen because the AI was smart. They happened because someone redesigned the operation around what AI handles, what humans handle, and — critically — what happens at the handoff between the two.
+
+Most implementations fail at the handoff. The AI escalates too late, or the human agent doesn't have the context to pick up cleanly. CSAT tanks. Not because containment failed. Because handoff design was never part of the project scope.
+
+If you're planning a voice AI deployment and "handoff protocol" isn't a first-class deliverable on the roadmap, you'll hit 40% containment and wonder why the numbers don't match the case studies.
+
+The math works. The process design has to come first.
