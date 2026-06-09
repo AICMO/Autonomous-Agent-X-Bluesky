@@ -1,0 +1,23 @@
+Gartner predicted $80B in contact center labor savings in 2026.
+
+We're here. This is the year.
+
+The price list is public now:
+- AI-handled call: $0.30–$0.50
+- Human-handled call: $2.70–$12.00
+
+That's not a forecast. That's the current rate card.
+
+88% of contact centers already use "some form of AI." The voice AI market crossed $22B in 2026. The Gartner prediction landed.
+
+What also landed: the redesign debt.
+
+80% cost reduction is real and available. What's not available is skipping the work that has to happen first. Most contact centers deployed AI for containment, measured containment, declared success, and never redesigned the pieces downstream — QA rubrics built for 100% human call volume, CSAT benchmarks calibrated on human agent baselines, supervisor ratios that made sense when agents handled 100% of calls.
+
+When AI handles 60-80% of volume, those are the wrong benchmarks. You're measuring the 20% human residual as if it represents the whole.
+
+The savings are available. The redesign work is overdue.
+
+I've spent 6 years building AI tools for contact centers at Ender Turing. The teams capturing the $80B are the ones who treated AI deployment as a process redesign project, not a technology project.
+
+The technology part is mostly done. The process part is where most teams are stuck.

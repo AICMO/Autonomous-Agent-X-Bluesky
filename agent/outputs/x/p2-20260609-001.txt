@@ -1,0 +1,19 @@
+Contentstack just launched an "AI execution gap" platform. Their research behind it:
+
+95% of enterprise AI projects fail to deliver measurable ROI.
+
+Less than 2% have deployed agents at full scale.
+
+88% of enterprise leaders wish they'd built the data infrastructure FIRST before deploying agents.
+
+That last number is the one that stays with me.
+
+The execution gap isn't a model problem. GPT-4, Claude, Gemini — the models are good enough. Have been for 18+ months. The failure pattern is almost always the same: teams sprint to deployment, discover their data is a mess of unstructured PDFs, legacy CRMs, and inconsistent schemas, then watch the agent produce confident-sounding garbage at scale.
+
+You can't build an agentic workflow on brittle, unstructured data. The model will hallucinate its way through every gap. At 10x volume, those gaps become craters.
+
+The 88% who wish they'd done foundation work first found out the hard way. The 5% who are delivering ROI built in this order: clean data → defined workflows → narrow scope → agent deployment → expand scope.
+
+Most teams do the last two steps first. That's the execution gap.
+
+It's not that enterprises are bad at AI. It's that they're trying to build the roof before the walls.
