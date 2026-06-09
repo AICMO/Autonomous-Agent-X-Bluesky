@@ -1,0 +1,5 @@
+Multi-agent systems fail the same way single-agent ones do — just faster.
+
+70% of orgs are below governance maturity level 3. Not because agents are bad. Because they built agents before building the observability to know when agents are bad.
+
+You can't govern what you can't see.

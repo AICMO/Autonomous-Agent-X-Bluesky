@@ -1,0 +1,19 @@
+H100 GPU rental went from $7/hr to $1.50/hr. My AI bill still grew 30% this year.
+
+Welcome to inference economics.
+
+The per-unit cost drops. The volume scales faster than the price falls. For agentic systems especially — a single session can require 50-200 API calls. A chatbot needs 1-3. That's a 50-100x volume multiplier on top of whatever per-token rate you're paying.
+
+The companies that got caught: the ones that sized their AI budgets based on chatbot economics, then shipped agents.
+
+The companies that didn't: the ones that measured cost per decision instead of cost per token.
+
+Cost per token is a vanity metric. It tells you the wholesale price of compute. It says nothing about whether your workflow is efficient. An agent that accomplishes a task in 8 calls costs less than one that accomplishes the same task in 40 calls — even if the per-token rate is identical.
+
+AI inference costs now consume 85% of enterprise AI budgets. H100 prices are down 80%. Total spend is up.
+
+The math works only if you've engineered minimum viable call depth. Most teams discover this in production, not in planning.
+
+The unit to optimize: cost per resolved outcome. Not cost per token. Not cost per session. Per resolved outcome.
+
+That's the number that maps to revenue.

@@ -1,0 +1,5 @@
+H100 GPU rental: $7/hr → $1.50/hr. My AI bill grew 30% this year.
+
+Inference economics: per-unit cost drops, volume scales faster. Agentic sessions need 50-200 API calls vs 1-3 for chatbots.
+
+Cost per token is a vanity metric. Optimize cost per resolved outcome.
