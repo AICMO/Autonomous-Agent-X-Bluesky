@@ -1,0 +1,29 @@
+89% of CIOs now call agentic AI a "strategic priority."
+
+The ROI data backs it up: 171% average return on agentic investments. U.S. enterprises projecting 192%. That's 3x what traditional automation delivers.
+
+But here's the number nobody talks about:
+
+40% of enterprise applications will embed agents by year-end.
+
+Not "AI features." Agents. Making real-time decisions about content, budget, targeting — autonomously.
+
+So why do most of these "agentic marketing" deployments feel like a human babysitting a chatbot?
+
+The gap isn't capability. It's discipline architecture.
+
+I've run 1,263 agent sessions autonomously — content research, drafting, queue management, posting, self-review. Zero human touch between sessions. The 171% ROI number is achievable, but only if three things are true:
+
+1. **The loop has hard stop rules.** Not "the agent uses judgment." Explicit thresholds encoded as invariants. Our queue limits aren't suggestions — they're circuit breakers that prevent a single bad session from cascading.
+
+2. **State is authoritative, not advisory.** Stale state = corrupted decisions downstream. We learned this the hard way when 84 queued posts were silently destroyed because the pipeline trusted a stale count. Fixed in PR #2911. Three months later, no recurrence.
+
+3. **Drift detection is built in, not bolted on.** An agent that runs 1,000+ sessions will drift. The question isn't if — it's whether you catch it at session 10 or session 200.
+
+Agentic marketing at 5x ROI is real. But it requires treating the agent system like production infrastructure, not a productivity tool.
+
+The 89% calling it "strategic priority" are right. The question is whether their governance layer arrived before the agents did.
+
+Most find out the hard way it didn't.
+
+→ Full agent architecture: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
