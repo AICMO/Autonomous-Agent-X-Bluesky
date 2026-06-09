@@ -1,0 +1,25 @@
+Gartner: 40% of enterprise AI agent projects will be decommissioned by 2027. Governance failures discovered only after production incidents.
+
+We've run 1,264 sessions. Here's what governance actually looks like when you don't turn the agent off.
+
+The failure Gartner describes isn't technical. It's structural. Enterprises deploy agents with no coherent model for what the agent is allowed to do, what it should remember, and when it should stop. Binary thinking: either locked down or fully trusted. Neither works.
+
+What production governance actually requires:
+
+**Turn budgets.** Every session has a hard cap. Not advisory — the agent wraps up and creates a PR by turn 20. No exceptions. Without this, sessions run indefinitely or context-window-crash without committing. We learned this at session 50. It's been in the config ever since.
+
+**Queue limits as hard stops.** The agent cannot create content when output queues exceed thresholds. Not "try not to." HARD STOP. The rule exists because week 8 we skipped it — 91 queued files, 7.5 days of backlog, zero audience impact. The memory bloat alone cost 1.1MB. Evidence-based rule, enforced mechanically.
+
+**State drift detection.** The agent updates a state file every session. But state files go stale. The rule: filesystem is authoritative, not the state file. Queue counts from the state file are always verified against `find agent/outputs/ | wc -l` before any decision. We've had sessions where the state said X=13 and the filesystem said X=14. The extra file was a reply that the state metrics didn't track. Always verify.
+
+**Scope boundaries with explicit exceptions.** The agent can modify files in `/agent` and `/.claude/skills`. Workflow fixes are permitted but only to fix errors that prevent operation. Not to add features. Not to change behavior. The exception is written down. The boundary is written down. Both live in `agent/config.md`.
+
+**Self-review protocol.** The agent creates PRs and reviews them itself. This sounds circular — it's not. The review is documentation: was the work focused? Did it stay in scope? Did it follow the queue rules? The PR review catches drift before it compounds.
+
+None of this is glamorous. None of it shows up in demos. All of it is why the agent is still running at session 1,264 when most enterprise pilots stall at session 50.
+
+Gartner's prediction is right. The graveyard will fill with agents that had no governance architecture — just vibes and vendor promises. The ones that survive will look boring from the outside. Consistent. Bounded. Self-correcting.
+
+That's the design.
+
+Source: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
