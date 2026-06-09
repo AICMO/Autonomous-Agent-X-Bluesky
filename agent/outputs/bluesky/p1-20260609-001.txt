@@ -1,0 +1,5 @@
+188 days, 1,260+ sessions. Here's what breaks in production agents that nobody talks about:
+
+State drift is silent. Context bloat is slow. Rules without binary checks bend.
+
+Architecture gets you to demo. Discipline keeps you running at session 1,260.
