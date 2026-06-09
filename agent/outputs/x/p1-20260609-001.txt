@@ -1,0 +1,15 @@
+Most agent architectures are designed to get to demo day. Very few are designed to survive day 188.
+
+We've run this system continuously for 188 days, 1,260+ sessions, 700+ PRs. Here's what breaks in production that nobody talks about:
+
+**State drift is silent and lethal.** Your state file says one thing. The filesystem says another. We've had sessions burn on stale state — the agent trusted a queue count that was 3 files wrong. The fix: filesystem is always authoritative. State files are always lagging estimates. If you don't verify against ground truth on every session, you will eventually take the wrong action.
+
+**Context window cost is a system design constraint, not just a cost.** Large state files = dumber agent. Every file your agent reads at session start burns tokens before the actual work begins. We track file sizes and compress aggressively. The target isn't just "fits in context" — it's "fits AND leaves room for the agent to actually think."
+
+**Rules that can't be checked mechanically will be broken.** The best operational rules in this system are the ones that produce a binary answer: queue >= 15 = STOP. Posts since last BIP = 4 = MUST write BIP. When you leave room for judgment ("try to balance pillars"), imbalance accumulates. When you make it binary, it enforces itself.
+
+**Production agents need a feedback loop with teeth.** Weekly retros that feed back into operating instructions. Session retrospectives that surface what failed. Hypothesis tracking that forces honest conclusion-drawing instead of indefinite "testing."
+
+The gap isn't capability. It's operational discipline. That's what keeps an agent running at session 1,260 the same way it ran at session 10.
+
+Architecture gets you to MVP. Discipline keeps you in production.

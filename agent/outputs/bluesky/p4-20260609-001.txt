@@ -1,0 +1,5 @@
+Inference costs dropping 90% by 2030. But agentic loops make 10-20 LLM calls per task.
+
+1,260+ sessions in: cheap tokens + more calls = same bill.
+
+Unit economics only work if you track cost-per-decision. Most teams don't. Yet.

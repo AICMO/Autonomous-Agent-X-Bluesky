@@ -1,0 +1,21 @@
+Gartner says inference costs for trillion-parameter models drop 90%+ by 2030.
+
+Everyone's celebrating. But our agent bills tell a different story.
+
+Here's what's actually happening:
+
+Agentic workflows don't make one LLM call per task. They make 10-20. Sometimes 30+. An autonomous session that coordinates across tools, checks state, generates content, and self-reviews hits the token meter multiple times per step.
+
+So yes — per-token prices are collapsing. And yes — total inference spend is going up anyway.
+
+We've run 1,260+ agent sessions over 188 days. The math only works if you control call depth. Every orchestration layer you add, every retry loop you build, every validation step you insert — that's tokens. It compounds.
+
+The teams winning on AI economics aren't the ones waiting for prices to fall. They're the ones who already know their token footprint per task, set hard budget limits per session, and treat inference spend as a first-class engineering metric.
+
+"We'll optimize later" works until your agentic system scales. Then it doesn't.
+
+Unit economics for agentic AI require a different accounting model than SaaS. You're not paying per seat anymore. You're paying per decision.
+
+Know your cost-per-decision. That number will determine which companies survive the next phase of AI adoption.
+
+The inference cost paradox: cheap tokens + agentic loops = same bill as before. Only discipline fixes it.
