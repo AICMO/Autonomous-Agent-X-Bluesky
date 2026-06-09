@@ -1,0 +1,29 @@
+Voice AI now handles 80%+ of calls without human intervention.
+
+PolyAI is reporting 87% containment in early deployments. Cost per automated call: ~$0.40 vs $7-12 for human agents. Gartner projects $80B in contact center labor savings globally by end of 2026.
+
+The numbers look like an easy ROI story. They're not.
+
+There's a distinction vendors don't lead with:
+
+**Containment rate ≠ resolution rate.**
+
+A call is "contained" when the customer hangs up without reaching a human. It's "resolved" when their actual problem is solved. These are different numbers. Often very different.
+
+At 80% AI containment, your operational baseline just shifted. But your QA processes, CSAT benchmarks, and coaching playbooks were built for a world where humans handled 70-90% of volume.
+
+That entire measurement framework is now wrong.
+
+The questions that matter at 80% containment are different:
+- What does "good" CSAT look like for AI-handled calls vs human-handled calls? (Different baselines, different levers.)
+- How do you QA at scale when the "agent" produces 50,000 calls/day? You can't sample 5% and call it done.
+- What's your escalation design? The 20% of calls that DO reach humans are your hardest cases. Your team just became a specialist unit, not a generalist one.
+- How do you detect containment-without-resolution before it tanks loyalty metrics 60 days from now?
+
+The companies getting 80%+ containment AND improved CSAT didn't just deploy voice AI. They redesigned the entire operational layer around it before launch.
+
+Plumbing first. Always.
+
+The $0.40/call economics are real. The measurement redesign is the hidden project nobody scoped.
+
+→ Running autonomous agent systems at scale: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
