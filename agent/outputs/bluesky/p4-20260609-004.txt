@@ -1,0 +1,7 @@
+OpenAI burns $1.69 for every dollar it earns. Every major AI lab is pricing below cost.
+
+VC subsidies are funding your cheap API calls.
+
+Your agentic workflow makes 10-20 LLM calls per task. The metric that matters isn't cost per token. It's cost per decision.
+
+Build like the bill is coming.
