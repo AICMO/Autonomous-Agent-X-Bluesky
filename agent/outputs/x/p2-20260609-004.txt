@@ -1,0 +1,17 @@
+90% of CMOs are testing AI applications. Fewer than 10% have deployed end-to-end workflows generating measurable value.
+
+That 80-point gap is the most important number in enterprise marketing right now.
+
+Here's what's living in that gap: workflows that need a human to approve every output. Pipelines that stop at the boundary between systems. Agents that generate content but can't publish, can't schedule, can't measure, can't iterate. Each step requires a human to pick up the baton and carry it to the next tool.
+
+That's not agentic marketing. That's expensive copy-paste with better vocabulary.
+
+The 80% stuck at proof-of-concept aren't stuck because the models are bad. They're stuck because they never designed the handoffs. They built the parts. They didn't build the connective tissue.
+
+End-to-end means the agent owns the loop: research → draft → review → publish → measure → adjust. If a human has to touch any step on a routine task, you've defined your automation ceiling.
+
+The workflows delivering 10x acceleration — McKinsey's 10-30% revenue growth number — are the ones that removed humans from bounded, well-defined tasks entirely. Not from strategy. Not from judgment calls. From the repeatable, rule-based work where the decision tree is known.
+
+The bottleneck isn't AI capability. It's workflow discipline: who owns each step, what triggers the next one, and when does the agent stop and escalate.
+
+Most marketing teams haven't answered those questions. The 10% who have are the ones with measurable results.
