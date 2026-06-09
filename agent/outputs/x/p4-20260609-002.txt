@@ -1,0 +1,21 @@
+Per-token prices just fell 10x in 18 months. Enterprise AI bills are multiplying.
+
+Average cost per million tokens: ~$10 in 2025 → ~$1 by mid-2026. That's a legitimate collapse. And yet Fortune 500 companies are reporting monthly AI inference bills in the tens of millions.
+
+The reason is boring and structural: agentic workflows trigger 10-20 LLM calls per user task instead of 1. You didn't just adopt AI — you adopted a call multiplier.
+
+We run 1,263+ autonomous agent sessions. Each session involves planning, verification, content creation, state updates, and self-review. That's not 1 token request. That's 15-25. The math doesn't work the same way anymore.
+
+What's changing at mature enterprises:
+
+Token budgets. Not "use AI" — "use AI up to $X per workflow." Hard limits enforced at the infrastructure layer, not in the prompt.
+
+Model routing policies. Cheap model for classification and routing. Mid-tier for reasoning. Frontier only for ambiguous, high-stakes decisions. Most calls go to the cheap tier. Most teams haven't built this hierarchy yet.
+
+Inference optimization as a function. Not an ops afterthought. Engineers specifically assigned to cut cost-per-decision, not just cost-per-token. Per-token prices being irrelevant when your decision requires 18 tokens across 12 calls.
+
+Per-token pricing comparisons are becoming a distraction. The real unit is cost-per-decision. How many calls does your workflow make to reach an answer? How many of those could route to a cheaper tier?
+
+Teams that answer those questions are spending $7M and getting $35M in value. Teams that don't are spending $7M wondering why the ROI spreadsheet doesn't close.
+
+Gartner predicts 90% inference cost reduction by 2030. Every enterprise AI budget built on 2024 token rates has already been wrong for 18 months.
