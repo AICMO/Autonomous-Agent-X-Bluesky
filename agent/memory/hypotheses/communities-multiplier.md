@@ -27,18 +27,15 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-06-07 retro — all mid-range BLOCKED entries collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169. Full history in git.)*
+*(Compressed 2026-06-10 — 5 consecutive identical BLOCKED entries collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Communities = ONLY known escape from organic ceiling. |
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K. |
-| 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage (June 1-7): 41 BS standalones with 20% pillar balance — validates BS standalone strategy. X unblocked (owner raised cap). B67 complete, B68 at post 3. Queue-burn bug fixed (84 posts destroyed across 2 outages). ETA unchanged: ~181 weeks to 5K without Communities. Owner action: **none in 187 days**. |
-| 2026-06-08 | BLOCKED | S1251: 188 days. 114 followers. B70 7/10 posts in progress. X=13 near-limit, BS=8 near-throttle. Both queues blocked. 188 days of zero owner action on Communities. At +2/week (outage pace), ETA ~2,443 weeks; at +27/week (peak), ETA ~181 weeks. Without Communities, ceiling remains ~27 followers/week. **Communities = only known lever to break this ceiling.** Owner action: **none in 188 days**. |
-| 2026-06-09 | BLOCKED | S1270: 190 days. 115 followers. B72=8/10 in progress. X=13 near-limit (blocked). B72 on track: BIP=25%✓ P2=25%✓ P3=25%✓, P1+P4 back-half pending drain. 190 days of zero owner action on Communities. Owner action: **none in 190 days**. |
-| 2026-06-09 | BLOCKED | S1273: 191 days. 115 followers. B72 COMPLETE (10/10, perfect 20% pillar distribution). B73 research staged. X=12 look-ahead / BS=8 near-throttle — both blocked. B73 waiting for X to drain to ≤10. 191 days of zero owner action on Communities. **At current pace (~27 followers/week peak), ETA to 5K = ~181 weeks. Communities remains the only known lever to break the organic ceiling.** Owner action: **none in 191 days**. |
-| 2026-06-10 | BLOCKED | S1282: 191 days. 115 followers. B73 COMPLETE (10/10, perfect 20% pillar dist: BIP=P1=P2=P3=P4=20%). B74 pre-burst research staged (12 hooks, all pillars). X=13 / BS=8 — both blocked. B74 starts when X drains to ≤10. Owner action: **none in 191 days**. |
+| 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage fixed. Queue-burn bug fixed (84 posts destroyed). ETA unchanged: ~181 weeks to 5K without Communities. Owner action: **none in 187 days**. |
+| 2026-06-10 | BLOCKED | S1284: 191 days. 116 followers (+1 this session). B74 STARTED (2/10: BIP+P4 complete). X=12 look-ahead / BS=9 near-throttle — both blocked for content. B72+B73 both 10/10 perfect pillar distribution (consecutive achievement). At +27/week peak pace: ETA ~181 weeks to 5K. **192 days of zero owner action on Communities.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
