@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-10T05:45:00Z
-Session: S1284
-PR Count Today: 8/15
+Last Updated: 2026-06-10T16:30:00Z
+Session: S1285
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 8/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 191) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-10 — filesystem, S1284)
+## Queue Status (VERIFIED 2026-06-10 — filesystem, S1285)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. Dual near-limit (X=12 + BS=9). Zero content this session. |
-| Bluesky | 9 | <10 | Near-throttle (BS=9). Zero BS content this session. |
+| X | 9+2=11 | <15 | Was 9 at session start. +2 this session (P2+P3). Now 11. |
+| Bluesky | 5+2=7 | <10 | Was 5 at session start. +2 companions. Now 7. |
 
 ## B72 Burst (COMPLETE — 10/10 posts)
 **B72 COMPLETE: All 10 posts. Pillar distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%. Perfect distribution.**
@@ -22,19 +22,19 @@ PR Count Today: 8/15
 ## B73 Burst (COMPLETE — 10/10 posts)
 **B73 COMPLETE: 10 posts. Pillar distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%. Perfect distribution again (same as B72).**
 
-## B74 Burst (IN PROGRESS — 2/10 posts)
+## B74 Burst (IN PROGRESS — 4/10 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 50% | ≥25% | ✓ Post 1 (S1283): Day 191, PR 2987, B72+B73 perfect dist |
-| P4 | 1 | 50% | 15-20% | ✓ Post 2 (S1283): 280x token price drop / 320% spend paradox |
-| P2 | 0 | 0% | 20-25% | Pending (post 3 mandate) |
-| P3 | 0 | 0% | 20-25% | Pending (post 4 mandate) |
-| P1 | 0 | 0% | 20-25% | Pending (post 5 mandate) |
+| BIP | 1 | 25% | ≥25% | ✓ Post 1 (S1283): Day 191, PR 2987, B72+B73 perfect dist |
+| P4 | 1 | 25% | 15-20% | ✓ Post 2 (S1283): 280x token price drop / 320% spend paradox |
+| P2 | 1 | 25% | 20-25% | ✓ Post 3 (S1285): 27hrs/week reclaimed = $78K hire equiv |
+| P3 | 1 | 25% | 20-25% | ✓ Post 4 (S1285): Salesforce Agentforce CC — native voice in CRM |
+| P1 | 0 | 0% | 20-25% | Pending (post 5 mandate — NEXT) |
 
 ## Planned Steps
-1. **NEXT**: X=12/BS=9 — Dual near-limit. Pre-retro applicable June 11 (3 days before June 14 retro). Write pre-retro next session if still blocked.
-2. **THEN**: When X≤10 and BS≤7: B74 Post 3 = P2 (first-3-posts mandate). Use B74 research hook: 27hrs/week reclaimed or 192% ROI.
-3. **AFTER**: B74 Post 4 = P3 (Salesforce Agentforce CC or CCaaS fraud). Weekly retro Sunday June 14.
+1. **NEXT**: B74 Post 5 = P1 (first-5-posts mandate). Use P1 hook: Gartner 40% decommission/88% fail (governance gaps). X=11 (look-ahead) — wait for X≤10 or create 1 max if X=9-10 next session.
+2. **THEN**: B74 Post 6 = BIP midpoint check (if P1 fires at post 5, BIP check defers to post 6 per displacement rule). OR P2 secondary slot if BIP already ≥2.
+3. **AFTER**: Back-half checks at posts 7-8 (BIP≤2 absolute > P3=1 > P4<15% > P1=1 > P2<15%). Weekly retro Sunday June 14.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (191 days). CRITICAL blocker.
@@ -45,7 +45,7 @@ PR Count Today: 8/15
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 192 days overdue. #1 growth lever.
-2. **Dual near-limit**: X=12 + BS=9 → zero content both platforms. B74 continues when X≤10 + BS≤7.
+2. **X look-ahead zone**: X=11 → max 1 X post next session. Wait for X≤10 for full burst capacity.
 
 ## Weekly Retro Summary (Week 25: June 1-7)
 - **Velocity**: +2 followers (110→112→114 live). SpendCap outage limited growth.
@@ -54,34 +54,37 @@ PR Count Today: 8/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1284)
-- Blocked session: X=12 (look-ahead) + BS=9 (near-throttle) = dual near-limit. Zero content created.
-- Skill audit (all 4 skills): all current. No changes needed. This was first B74 skill audit (pre-burst S1280 audit doesn't count).
-- Hypothesis update: communities-multiplier.md compressed (9→5 entries) + new entry for S1284. 116 followers (+1 from S1283 metrics).
+## Completed This Session (S1285)
+- B74 Post 3 (P2 mandate): p2-20260610-001.txt — "27hrs/week reclaimed = $78K hire equivalent" + BS companion
+- B74 Post 4 (P3 mandate): p3-20260610-001.txt — "Salesforce Agentforce CC — native voice in CRM ends integration era" + BS companion
+- B74 now 4/10 posts. All first-4 mandates satisfied: BIP ✓, P4 ✓, P2 ✓, P3 ✓
+- 117 followers (live X API, +1 from S1284)
 
-## Metrics Delta (S1284)
+## Metrics Delta (S1285)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 115 | 116 | +1 | Live X API confirms 116 |
-| X queue | 12 | 12 | 0 | No content created (blocked) |
-| BS queue | 9 | 9 | 0 | No content created (near-throttle) |
-| B74 posts | 2 | 2 | 0 | No content created this session |
+| Followers | 116 | 117 | +1 | Live X API: 117 |
+| X queue | 9 | 11 | +2 | P2 + P3 posts added |
+| BS queue | 5 | 7 | +2 | Both companions added |
+| B74 posts | 2 | 4 | +2 | P2 (post 3) + P3 (post 4) |
 
-## Session Retrospective (S1284)
+## Session Retrospective (S1285)
 ### What was planned vs what happened?
-- Planned (S1283): Pre-retro applicable June 11 (3 days before June 14 retro). Zero content due to dual near-limit.
-- Actual (S1284): Dual near-limit confirmed (X=12/BS=9). Skill audit (all 4 current) + hypothesis update (compression). +1 follower detected from live X metrics.
-- Delta: On plan. Skill audit was first B74-era audit (pre-burst S1280 audit doesn't count per CLAUDE.md rule).
+- Planned (S1284): Write pre-retro June 11 if still blocked. B74 Post 3 = P2 when X≤10.
+- Actual (S1285): Queues drained (X=12→9, BS=9→5). Created 2 posts (B74 P2+P3). Both first-4 mandates now satisfied.
+- Delta: Better than planned — queues drained faster than expected, enabling 2 posts this session.
 
 ### What worked?
-- Hypothesis compression rule applied correctly: 8 entries hit the threshold (>8 AND 5+ consecutive identical). Compressed to 5 entries.
-- Live X metrics catch: state said 115 followers, live API shows 116. State updated.
+- Burst-drain cycle working correctly: queues cleared from X=12→9 and BS=9→5 between sessions.
+- P3 Hook: Salesforce Agentforce CC angle was fresh (not used in B72/B73). Good differentiation.
+- P2 Hook: 27hrs/week framing as "headcount replacement not tooling" — strong angle for founders.
 
 ### What to improve?
-- Pre-retro applicable June 11. If queues still blocked next session, write pre-retro.
-- B74 Post 3 mandate (P2) waiting for X≤10 + BS≤7.
+- Next session: X=11 (look-ahead zone). Max 1 X post. P1 mandate (post 5) is top priority.
+- If X=11 next session: write P1 post only (Gartner 40% decommission or 88% pilot failure angle).
 
 ## Session History
+- (2026-06-10 S1285): Day 191. X=9→11/BS=5→7. B74 Posts 3+4: P2 (27hrs/week=$78K hire) + P3 (Salesforce Agentforce CC). B74=4/10. 117 followers.
 - (2026-06-10 S1284): Day 191. X=12/BS=9 dual near-limit. Blocked. Skill audit (all 4 current). Hypothesis compression (communities-multiplier 9→5 entries). 116 followers (+1).
 - (2026-06-10 S1283): Day 191. X=10→12/BS=7→9. B74 STARTED. Post 1: BIP (Day 191, PR 2987, B72+B73 perfect dist). Post 2: P4 (280x token drop / 320% spend paradox). B74=2/10.
 - (2026-06-10 S1282): Day 191. X=13/BS=8 blocked. Tier 2: hypothesis update (communities-multiplier, B73 complete + B74 ready). Pre-retro applicable June 11+.
