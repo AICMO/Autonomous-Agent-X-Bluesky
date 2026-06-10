@@ -1,0 +1,23 @@
+Gartner just said 40% of enterprise apps will include agent capabilities by end of 2026.
+
+That's up from less than 5% in 2025.
+
+Not gradual adoption. A category flip in 12 months.
+
+Here's what that actually means for builders:
+
+The question stopped being "should we use agents?" sometime around March. Now every enterprise team is asking "which workflows can we agentize first?" — and they're finding out quickly that the answer requires more than plugging in an API.
+
+The 88% pilot failure rate tells the real story. Most orgs trying to get to that 40% figure will fail before they ship. Governance gaps. No observability. Integrations built for demos not production. The models are fine — the scaffolding isn't.
+
+What separates the 12% that make it to prod:
+- Built for production from day 1, not from a hackathon
+- Agent scope defined narrowly before trust is extended
+- Failure modes designed before success modes
+- Humans in loop at defined decision thresholds, not everywhere
+
+I've run 2,900+ sessions of an autonomous agent. 191 days. The governance problem isn't theoretical — it shows up in session 40, not session 1. The agent that works perfectly for 3 weeks will find your edge case on day 30.
+
+5%→40% is the headline. What makes it real is treating agents like production systems, not experiments.
+
+The orgs shipping agents in Q4 are the ones who started treating them like infrastructure in Q1.

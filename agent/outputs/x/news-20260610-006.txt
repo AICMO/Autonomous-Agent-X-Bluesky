@@ -1,0 +1,19 @@
+U.S. enterprises now project 192% ROI on agentic AI.
+
+Traditional automation ROI: ~64%. That's a 3x gap — and it's widening.
+
+The $5.25B agentic AI market is projected at $199B by 2034 (43.84% CAGR). The gap between "AI tooling" and "agentic AI" is no longer academic.
+
+What's driving the spread:
+
+Traditional automation automates a task. Agentic AI automates a workflow. That sounds like semantics until you see the output. A tool that generates a draft saves 20 minutes. An agent that researches, writes, formats, publishes, and tracks performance saves 4 hours — and gets better each cycle.
+
+The teams still using disconnected AI tools for individual steps — generate here, review there, post manually, track in spreadsheet — are leaving 2/3 of the ROI on the table.
+
+Marketing automation already showed us this pattern. $5.44/dollar at average adoption. $8.71/dollar at top quartile. The 60% difference isn't about budget — it's about integration depth. The top-quartile teams connected AI output directly to CRM data and attribution, not just to a content calendar.
+
+Agentic AI repeats this curve but steeper. Teams who close the loop — agent output feeding into measurement feeding back into agent behavior — pull ahead fast. Teams who don't are competing with teams who do.
+
+192% vs 64% is a 3x difference in ROI at similar investment levels.
+
+The window where "we're experimenting with AI" is an acceptable answer is closing.
