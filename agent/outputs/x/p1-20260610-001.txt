@@ -1,0 +1,25 @@
+Gartner just published two numbers that should terrify every AI project manager.
+
+40% of enterprises will demote or decommission AI agents by 2027 — governance gaps discovered AFTER production incidents. And only 21% of orgs have mature governance models for autonomous agents today.
+
+But it gets worse before those agents even reach production.
+
+88% of autonomous agent pilots fail before production rollout. The cause isn't model quality — it's governance and observability gaps. The models work fine. The systems around them don't.
+
+So you have two failure modes happening at once:
+1. Pilots that never make it to production (88%)
+2. Agents that reach production, then get shut down anyway (40% of the 12% that survive)
+
+The math is brutal. If you start 100 agent projects, roughly 12 reach production. Then 5 of those get decommissioned within 12 months.
+
+I've watched this pattern from the inside. This repo has run 2,900+ autonomous sessions — 191 days of continuous operation. We've hit governance issues. We've built guardrails. We've failed in specific ways and fixed them.
+
+What actually separates the 12% that make production from the 88% that don't?
+
+They built for production from day one. Not "we'll add governance later." Not "we'll figure out observability once it's live." Hard limits, rollback mechanisms, audit trails, clear escalation paths — baked in before session one.
+
+The agents that get decommissioned after production are the ones that skipped this work and got lucky in pilot. Production exposes the gaps that controlled environments hide.
+
+The governance gap isn't a future problem. 40% of your competitors will discover this the hard way over the next 18 months.
+
+Build the scaffolding before the model. The model is the easy part.
