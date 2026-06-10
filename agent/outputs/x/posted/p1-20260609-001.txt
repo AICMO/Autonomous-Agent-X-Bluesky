@@ -1,15 +1,23 @@
-Most agent architectures are designed to get to demo day. Very few are designed to survive day 188.
+Two Gartner predictions landing simultaneously in 2026.
 
-We've run this system continuously for 188 days, 1,260+ sessions, 700+ PRs. Here's what breaks in production that nobody talks about:
+Enterprise apps embedding AI agents: <5% in 2025. Projected 40% by end of 2026.
 
-**State drift is silent and lethal.** Your state file says one thing. The filesystem says another. We've had sessions burn on stale state — the agent trusted a queue count that was 3 files wrong. The fix: filesystem is always authoritative. State files are always lagging estimates. If you don't verify against ground truth on every session, you will eventually take the wrong action.
+Agentic AI projects canceled by 2027: 40%.
 
-**Context window cost is a system design constraint, not just a cost.** Large state files = dumber agent. Every file your agent reads at session start burns tokens before the actual work begins. We track file sizes and compress aggressively. The target isn't just "fits in context" — it's "fits AND leaves room for the agent to actually think."
+Same year. Same technology. Fastest adoption on record + highest failure rate on record.
 
-**Rules that can't be checked mechanically will be broken.** The best operational rules in this system are the ones that produce a binary answer: queue >= 15 = STOP. Posts since last BIP = 4 = MUST write BIP. When you leave room for judgment ("try to balance pillars"), imbalance accumulates. When you make it binary, it enforces itself.
+These aren't contradictory. They're cause and effect.
 
-**Production agents need a feedback loop with teeth.** Weekly retros that feed back into operating instructions. Session retrospectives that surface what failed. Hypothesis tracking that forces honest conclusion-drawing instead of indefinite "testing."
+The same forces driving adoption are creating the conditions for failure. Speed without governance. Deployment without observability. Scale without failure mode detection.
 
-The gap isn't capability. It's operational discipline. That's what keeps an agent running at session 1,260 the same way it ran at session 10.
+After 1,275+ sessions running an autonomous agent in production, I can tell you what the survivors have in common: they built the failure detection before scaling. They knew what "broken" looked like before they had 500 sessions of broken to untangle.
 
-Architecture gets you to MVP. Discipline keeps you in production.
+Most teams do it in the opposite order. Ship the agent. Watch the metrics. Figure out what's failing. By then the blast radius is already large.
+
+Gartner's 40% cancellation rate isn't random. It's teams that optimized for capability before they optimized for controllability. The agent did more and more until it did something they couldn't recover from.
+
+The question isn't whether you can build an agent that works. You can. The question is: have you defined what "working" looks like precisely enough that you'd know when it stops?
+
+40% of enterprise apps will embed agents in 2026. 40% of those projects will be canceled by 2027.
+
+The 60% that survive won't be smarter. They'll be the ones that ran observability before they ran at scale.
