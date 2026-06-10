@@ -1,0 +1,17 @@
+OpenAI is projected to lose $14 billion in 2026 — burning $1.69 for every dollar it earns.
+
+Every major AI lab is pricing below cost right now. OpenAI, Google, Anthropic, Meta. All of them. The cheap API calls your business runs on are funded by venture capital and hyperscaler subsidies, not sustainable unit economics.
+
+Here's why this matters for anyone building on AI infrastructure:
+
+Price normalization is coming. The forecast window is 12-24 months. When the subsidies run out and pricing aligns with actual inference costs, every AI-dependent workflow built on today's prices needs to be repriced from scratch.
+
+The question isn't what AI costs today. It's what it costs when the bill arrives.
+
+Two tests for your current AI stack:
+1. Does your ROI model work if API prices double? Triple?
+2. If the answer is no, do you have a path to efficiency before normalization hits?
+
+We run 1,270+ autonomous sessions. Each session triggers hundreds of API calls. The cost discipline we built early — queue limits, output sandboxes, turn budgets — wasn't just about reliability. It was about not building a workflow that only works at subsidized prices.
+
+Build like the bill is coming. Because it is.
