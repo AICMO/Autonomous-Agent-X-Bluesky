@@ -1,0 +1,25 @@
+Forrester's 3-year ROI for contact center AI: 331–391%.
+
+Year one alone: 41%. By year three: 124%.
+
+But here's the number nobody puts in the headline: the companies hitting 391% all defined "resolved" before they deployed.
+
+The companies sitting at 2x ROI defined "contained."
+
+Containment is not resolution. A call that ends without a human is not a success. A call where the customer got what they needed — that's a success.
+
+35% reduction in call handling time. 30% increase in CSAT. 50% queue time reduction. 5-15 point FCR improvement. Those are the mechanics of 391%.
+
+None of them happen if your KPIs still measure containment.
+
+I've seen this pattern across 6 years building AI tools for contact centers. The ROI gap between top-quartile deployments and median deployments isn't model quality. It isn't the technology vendor. It's measurement design.
+
+Teams that capture 391% changed their measurement framework on day one. They said: "We're not measuring calls contained. We're measuring problems solved." Then they built AI toward that definition.
+
+Teams stuck at 1.5x still have containment targets. The AI is optimizing for ending calls quickly — which is exactly what the org told it to optimize for.
+
+Voice AI is now a $47.5B market by 2034 (CAGR 34.8%). The technology ROI is real and documented. The question for every contact center in 2026 is simpler: what are you measuring?
+
+If you're still measuring containment, you'll get containment. At about half the ROI you could have.
+
+(Ender Turing builds AI tools specifically to close this gap — moving contact centers from containment measurement to resolution measurement. That's the whole product philosophy.)
