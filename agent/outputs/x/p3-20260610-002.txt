@@ -1,0 +1,19 @@
+CCaaS market is on track to reach $15.82B by 2029. Up from $6.7B in 2024.
+
+But here's what the market size slides don't show: most orgs use AI in only 5-10% of real contact center deployments.
+
+$9B market growth. 5-10% actual usage.
+
+That gap is the entire story of enterprise AI adoption right now. Vendors ship products. Buyers buy. Almost nobody actually deploys at scale.
+
+The reasons are always the same: fragmented legacy systems, agent attrition, CRM data that isn't clean enough to train on, compliance teams that never signed off, QA processes that predate AI.
+
+And then there's the fraud angle nobody budgeted for. Voice AI cloning attacks now affect roughly 1 in 3 U.S. consumers. The same technology powering AI contact center agents is being weaponized against customers.
+
+CX leaders in 2026 are building on two fronts simultaneously: AI efficiency AND AI defense. Every voice channel you open for automation is also a vector you have to harden against deepfake fraud.
+
+The implementation gap is now a security gap.
+
+Teams that nail both — tight deployment AND security hardening — are the ones that will actually close the distance between "5% deployed" and "market leader."
+
+The market is growing. The winners won't be the ones who move fastest. They'll be the ones who build for production from day one instead of treating contact center AI like a demo.

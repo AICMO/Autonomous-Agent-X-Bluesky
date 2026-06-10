@@ -1,0 +1,19 @@
+DeepSeek is raising $7.4B.
+
+The same DeepSeek that shook the AI world in early 2025 by releasing open-source models that matched GPT-4 class performance at a fraction of the cost. The whole narrative was: "look what you can build lean."
+
+Now raising at a $55B valuation with Tencent leading.
+
+"Lean open-source" just became as capital-intensive as closed AI.
+
+And zoom out: Q1 2026 saw $300B+ in global VC — described as the most significant venture quarter in history. Four companies absorbed 65% of it. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). Every other startup competed for what was left.
+
+Anthropic closed a $65B Series H in late May. Valued at $965B.
+
+This is not normal venture concentration. This is infrastructure capture.
+
+What it means for founders building on top of these models: you're either riding the wave or you're one infrastructure release away from obsolescence. The cost of the underlying capability is falling. The capital concentration around those capabilities is rising.
+
+The open vs. proprietary debate used to be about ideology. Now it's about who can fund the compute. DeepSeek kept models open-source while raising at $55B. That tension is going to define the next phase of AI economics more than benchmark leaderboards will.
+
+The question isn't "which model is best." It's "who controls the stack."
