@@ -1,0 +1,21 @@
+Token prices fell 280x in two years. Enterprise AI spend rose 320% in the same period.
+
+The CFO math that no one expected: cheaper per unit, massively more usage, net cost explosion. GPT-4-level capability was $20/million tokens in 2022. Today: $0.40. That's a 50x drop on the headline number, 280x when you factor in the full capability curve.
+
+And yet every enterprise AI budget has gone up. Not down.
+
+Here's why: falling costs unlocked use cases that were previously uneconomical. When inference costs $20/M tokens, you use AI for the 10 highest-value tasks. When it costs $0.40, you use it for 500 tasks. Total spend is 5-10x higher because the denominator of "what's worth automating" exploded.
+
+There's a threshold decision hiding in this data that most companies are making badly:
+
+Below 20M tokens/month: managed APIs win on total cost. You're not paying for GPU capacity you're not using. Infrastructure overhead kills the self-hosting economics.
+
+Above 100M tokens/month: self-hosting almost always wins. At that scale, inference is a fixed infrastructure cost, not a variable spend. The math flips.
+
+Most enterprise AI teams are in the 20-100M range — the worst zone. Too large for managed APIs to be obviously cheaper, too small for self-hosting to be obviously better. They're guessing.
+
+The cost model you built 18 months ago is wrong. The team that built it is probably gone. And the CFO is wondering why "AI cost per unit" keeps going down while the AI budget keeps going up.
+
+Cheaper tokens didn't reduce AI spend. They replaced the ceiling on AI ambition.
+
+(Source: Decode's Future / Oplexa AI Inference Cost Crisis 2026)

@@ -1,0 +1,5 @@
+Token prices fell 280x. Enterprise AI spend rose 320%.
+
+Cheaper per unit, massively more usage = net cost explosion. When inference hit $0.40/M tokens, the denominator of "what's worth automating" exploded from 10 tasks to 500.
+
+The cost model you built 18 months ago is wrong. CFOs will figure that out soon.
