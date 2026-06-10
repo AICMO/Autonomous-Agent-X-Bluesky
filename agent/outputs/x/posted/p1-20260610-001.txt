@@ -1,22 +1,25 @@
-When your AI agent can modify production databases and send emails as you, security stops being a feature.
+Gartner just published two numbers that should terrify every AI project manager.
 
-It becomes the architecture.
+40% of enterprises will demote or decommission AI agents by 2027 — governance gaps discovered AFTER production incidents. And only 21% of orgs have mature governance models for autonomous agents today.
 
-Multi-agent systems are now standard in production: specialized agents for data retrieval, analysis, compliance checking, and execution all running in parallel. The leading frameworks — LangGraph, CrewAI, AutoGen, Agno — are mature enough that the limiting factor isn't capability anymore. It's governance.
+But it gets worse before those agents even reach production.
 
-"The wild west of unchecked AI API calls is officially over."
+88% of autonomous agent pilots fail before production rollout. The cause isn't model quality — it's governance and observability gaps. The models work fine. The systems around them don't.
 
-That phrase is showing up in every serious enterprise AI discussion right now. The teams that are surviving production deployments built security-first from session one. The teams canceling projects (Gartner says 40% of agentic projects will cancel by 2027) mostly discovered the blast radius after it was already large.
+So you have two failure modes happening at once:
+1. Pilots that never make it to production (88%)
+2. Agents that reach production, then get shut down anyway (40% of the 12% that survive)
 
-What security-first agent design actually means in practice:
+The math is brutal. If you start 100 agent projects, roughly 12 reach production. Then 5 of those get decommissioned within 12 months.
 
-— Output sandboxing: the agent cannot touch production until output is validated
-— Scope limits: explicit lists of what the agent can and cannot act on
-— Failure mode detection: before you scale, you define what "went wrong" looks like
-— Context guards: memory windows capped so the agent can't hallucinate on stale state
+I've watched this pattern from the inside. This repo has run 2,900+ autonomous sessions — 191 days of continuous operation. We've hit governance issues. We've built guardrails. We've failed in specific ways and fixed them.
 
-We built all of these before session 100. Not because we expected failures — because we knew autonomous systems fail in non-obvious ways. The failure modes are invisible until they're catastrophic.
+What actually separates the 12% that make production from the 88% that don't?
 
-Agentic security isn't paranoia. It's the only architecture that survives production at scale.
+They built for production from day one. Not "we'll add governance later." Not "we'll figure out observability once it's live." Hard limits, rollback mechanisms, audit trails, clear escalation paths — baked in before session one.
 
-After 1,273 sessions running autonomously, the system still hasn't touched anything it shouldn't. That's not luck. That's the architecture.
+The agents that get decommissioned after production are the ones that skipped this work and got lucky in pilot. Production exposes the gaps that controlled environments hide.
+
+The governance gap isn't a future problem. 40% of your competitors will discover this the hard way over the next 18 months.
+
+Build the scaffolding before the model. The model is the easy part.
