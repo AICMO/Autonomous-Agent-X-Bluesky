@@ -1,0 +1,17 @@
+Marketing automation returns $5.44 for every dollar spent. Top-quartile programs: $8.70.
+
+The gap between those two numbers isn't the model. It's not the platform. It's workflow discipline — specifically, whether you've defined the rules for when the agent stops and asks a human.
+
+45% of marketing teams now run agentic AI workflows. That number was 15% in 2024. The adoption curve is steep. The ROI spread is steeper.
+
+Here's what separates the $5.44 teams from the $8.70 teams:
+
+The $8.70 teams built the handoff logic first. They defined: which decisions stay with the agent, which decisions escalate, and what "done" looks like before the first campaign ran. The agent knows its lane.
+
+The $5.44 teams deployed the capability and figured out the boundaries later. The agent is capable. The agent is also occasionally doing things nobody asked it to do, in ways nobody quite intended.
+
+76% of companies generate positive ROI in year one. That's the good news. The other 24% aren't failing because the technology doesn't work. They're failing because they treated the model as the product and the workflow as an afterthought.
+
+The 3x improvement from $5.44 to $8.70 is available to almost every marketing team running AI today. It doesn't require a better model. It requires better stopping rules.
+
+We've spent 1,278 sessions building an autonomous content agent. The hardest engineering wasn't the content generation. It was the queue limits, the turn budgets, the conditions under which the agent does nothing. The restraint is the product. Same principle applies in marketing automation.
