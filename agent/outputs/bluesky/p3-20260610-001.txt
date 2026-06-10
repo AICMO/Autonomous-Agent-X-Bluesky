@@ -1,0 +1,5 @@
+Salesforce Agentforce CC: native voice in CRM. Every call transcribed, fed into customer records in real time.
+
+Voice data was the last channel to get AI treatment. Now it trains your agents live.
+
+"Add AI to your CC stack" is becoming "replace your CC stack entirely." The integration era is ending.
