@@ -1,0 +1,8 @@
+79% of enterprises have AI agents.
+11% have reached production.
+
+68pp gap = "largest deployment backlog in enterprise tech history" (Agentic AI Institute).
+
+The agent isn't the problem. The operating model is.
+
+192 days running one in production: the agent is easy. Governance, limits, and escalation rules — that's what separates 11% from 79%.

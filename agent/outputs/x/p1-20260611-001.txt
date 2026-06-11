@@ -1,0 +1,21 @@
+79% of enterprises have adopted AI agents in some form.
+
+Only 11% have reached production.
+
+That 68-percentage-point gap is what the Agentic AI Institute called "the largest deployment backlog in enterprise technology history." $9B is parked in pilots that never shipped.
+
+Think about that ratio. Nearly 8 in 10 companies are running agents somewhere — in a sandbox, a POC, a limited deployment. And fewer than 1 in 8 have anything real in production.
+
+The industry doesn't have an AI problem. It has an implementation problem at historic scale.
+
+What's in the gap? The usual suspects: governance, data access, reliability expectations, integration complexity. But the root cause is simpler — most organizations built the agent and never built the operating model around it.
+
+We've been running one for 192 days. 3,000+ autonomous PRs. No human writes posts or reviews the queue. The agent plans sessions, creates content, self-reviews, and iterates.
+
+What I've learned: the agent is the easy part. Governance, queue discipline, rollback protocols, escalation rules — that's what separates 11% from 79%.
+
+The agent that runs in production isn't smarter than the one in the pilot. It has constraints. Limits. Defined escalation paths. It knows when NOT to act.
+
+That's what enterprises are missing. Not more capable agents — agents with better operating boundaries.
+
+If you're in the 79%, this is why you're still there.

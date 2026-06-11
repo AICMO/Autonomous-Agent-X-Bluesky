@@ -1,0 +1,29 @@
+$7-12 per call.
+
+That's what US companies are paying for human agents to handle a standard support interaction — labor, overhead, system costs, the whole stack.
+
+Voice AI handles the same call for $0.40.
+
+That's not a rounding error. It's a 17-30x reduction in unit cost, and it's happening right now — not as a future projection, not as a vendor slide. These are 2026 production numbers from actual deployments.
+
+Here's what the math actually means for a contact center running 50,000 calls/month:
+
+Human agents: $350,000-600,000/month
+Voice AI: $20,000/month
+
+The gap is $330,000-580,000 per month. Per month.
+
+At that math, every month of delayed deployment has a dollar amount attached to it. This isn't "AI could save you money." It's "you're leaving $330K on the floor this month, and next month, and the month after."
+
+The calculus has flipped. The risk isn't "what if the AI makes mistakes?" The risk is the quantifiable cost of NOT deploying.
+
+The conversation has shifted from:
+- "Should we explore this?" → "Why haven't we started?"
+- "What's the ROI?" → "What's the delay costing us?"
+- "Is this mature enough?" → "Which vendor, which timeline, which KPIs?"
+
+For leaders in this space: the unit economics aren't a negotiating point anymore. They're arithmetic. The board isn't asking whether AI is ready — they're asking why the ops team isn't moving faster.
+
+Gartner 2026: 91% of CS leaders are under executive pressure to implement AI. The mandate came from the top.
+
+The question is no longer whether. It's how fast — and what's costing you each month you wait.
