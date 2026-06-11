@@ -1,0 +1,21 @@
+Deloitte's 2026 survey: 41% of inbound calls are now handled entirely by AI voice agents. Leading deployments hit 70-87%.
+
+That spread — 41% to 87% — is the most important number in CX right now.
+
+The 41% average means most deployments are working. But the 87% ceiling (PolyAI's published benchmarks) means the gap between average and best-in-class is 46 percentage points. That's not a technology gap. That's an implementation gap.
+
+Here's what changes when you go from 25% to 70% AI containment:
+
+**Team structure flips.** At 25% containment, you're augmenting agents. At 70%, you're redesigning the entire queue. The humans that remain are handling escalations, edge cases, and high-value conversations that AI genuinely can't resolve. Different skill set. Different pay. Different retention strategy.
+
+**Staffing math changes.** At 25% containment, you're reducing overtime. At 70%, you're restructuring headcount planning entirely. The hiring model shifts from "how many FTEs to handle volume?" to "how many specialists to handle what AI can't?"
+
+**Customer expectations reset.** Once your containment rate crosses ~50%, customers stop being surprised by AI and start having expectations about what it should know. The error tolerance drops. The quality bar rises. You can't coast on novelty.
+
+The 34% of CX operations not using AI voice agents in 2026 face a compounding disadvantage. Every quarter of delay is a quarter their competitors are training models, refining prompts, and learning what actually drives containment higher.
+
+The best time to deploy was 18 months ago. The second-best time is now — before the gap between average (41%) and laggard (0%) becomes industry-defining.
+
+At Ender Turing, we work with contact centers navigating exactly this transition. The operations that will lead in 2027 are the ones getting the implementation right now, not just the technology.
+
+Source: Deloitte 2026 Contact Center AI Survey / PolyAI containment benchmarks
