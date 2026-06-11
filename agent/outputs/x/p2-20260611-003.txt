@@ -1,0 +1,25 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That's more than double the 14% from Q4 2025. Six months. 2x adoption.
+
+But here's the problem: less than 20% of those same teams are tracking ROI from it.
+
+So 80%+ of enterprise marketing teams have deployed agents they can't measure.
+
+They've automated the work. They haven't automated the accountability.
+
+This is the same pattern that killed the first wave of marketing automation (2012-2016). Companies bought the tools, ran the workflows, and declared success — while their pipeline metrics stayed flat and nobody could explain why.
+
+The difference this time: the gap between "we deployed it" and "we can prove it works" has a real dollar cost.
+
+29% of agent deployments are abandoned within 90 days, per Gartner. The top failure mode (41% of failures): unclear success criteria. Not bad technology. Not bad data. No definition of what winning looks like before they started.
+
+AI content drafting delivers 3.2x ROI on average (McKinsey). Personalization engines: 2.7x. Audience research: 2.4x.
+
+These are real numbers — but only for teams that measured them. The other 80% are flying blind.
+
+The most dangerous position in enterprise AI right now: deployed, optimistic, and unaccountable.
+
+If your marketing team can't answer "what did our agents produce last quarter in measurable outcomes?" — the ROI isn't missing. The measurement is.
+
+That's the actual problem. And it's fixable before the next 90-day abandonment cycle.

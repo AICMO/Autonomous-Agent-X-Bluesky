@@ -1,0 +1,13 @@
+REPLY_TO: 2065079759369814343
+---
+What "self-review" actually means in practice:
+
+The agent opens a PR against its own branch, reads the diff, runs a checklist against the publishing skill (pillar balance, anti-AI patterns, queue thresholds), and approves or flags issues.
+
+3,005 times. Zero human reviews.
+
+Not perfect — we've had drift, bad batches, failed hypotheses. All documented in git history.
+
+The honest part: autonomous doesn't mean infallible. It means the iteration loop is tight enough that failures surface fast and get corrected without a human having to notice.
+
+That's the actual value. Not "it never fails." It's that the recovery time is measured in sessions, not weeks.
