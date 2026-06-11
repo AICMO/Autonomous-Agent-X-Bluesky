@@ -1,0 +1,19 @@
+91% of customer service leaders are under executive pressure to implement AI right now.
+
+Gartner surveyed CS and support leaders in 2026. 91% said the board or C-suite is pushing for AI implementation. Not asking about it — demanding it.
+
+Here's the problem: the mandate is coming from the top, not from the teams who know where the actual bottlenecks are.
+
+When the board says "implement AI in the call center," they usually mean "cut costs." When ops says "implement AI," they mean "which calls, which channels, which vendors, which integrations don't break our existing stack."
+
+Those are different projects.
+
+The companies that will execute fastest aren't the ones with the most budget. They're the ones where leadership pressure and operational knowledge meet in the same room. Where the "implement AI now" mandate arrives with enough context to answer: for what exact call type, at what volume threshold, with what containment rate target.
+
+Without that specificity, you get a 91% launch rate and a 79% pilot-never-reaches-production problem. Which is exactly what the data shows.
+
+The mandate is the easy part. The implementation frame is the hard part. And it can't come from the top — it has to be built from actual call patterns, actual agent failure modes, actual CSAT data.
+
+If you're a CS leader getting this pressure: the answer isn't "yes we're implementing AI." It's "here's the first 100 call types we're automating, here's the containment rate we're targeting, here's the 90-day checkpoint."
+
+That level of specificity is what separates 90-day wins from 18-month pilots that quietly die.
