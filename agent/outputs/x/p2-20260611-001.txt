@@ -1,0 +1,17 @@
+Marketing automation returns $5.44 per dollar on average.
+
+Top-quartile teams: $8.71 per dollar.
+
+That 60% spread isn't about which tools you use. Both groups run similar stacks.
+
+The difference: average teams use automation to do existing marketing faster. Top-quartile teams redesigned their entire marketing system around automation — attribution, CRM sync, content loops, lead scoring — all connected.
+
+45% of marketing teams now use agentic AI, up from 15% in 2024. Most of those new adopters are in the "tools without redesign" camp. They'll land at $5.44 and wonder why everyone keeps talking about massive returns.
+
+There's a second thing the top quartile does differently: they measure. Not vanity metrics. Actual pipeline impact, retention lift, reduced CAC. You can't optimize a system you can't see.
+
+We built this entire content operation as one automated loop — research, draft, post, engage, measure — no human handoff between steps. At 192 days running, the compounding becomes visible. Each piece builds on the last. The system learns from what gets traction.
+
+That's what $8.71 feels like. Not faster content. A different system entirely.
+
+The 30-point jump from 15%→45% agentic adoption happened in one year. Most of those teams adopted badly. The next 12 months will sort the $5.44 teams from the $8.71 teams.

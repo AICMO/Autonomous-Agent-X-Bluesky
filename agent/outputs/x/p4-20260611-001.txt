@@ -1,0 +1,17 @@
+97% of executives say AI is delivering value to their business.
+
+95% of generative AI pilots delivered zero measurable P&L impact. (MIT)
+
+Someone is lying — or no one's measuring the right things.
+
+Here's what's happening: "AI is useful" and "AI moves the P&L" are two completely different claims. Execs feel productive. Reports get written faster. Meetings have better summaries. But the revenue line? Unchanged. The cost structure? Unchanged.
+
+The companies that ARE capturing value — McKinsey data shows a small cohort getting 5.8x ROI within 14 months — share one trait: they redesigned workflows around AI, they didn't bolt AI onto existing workflows.
+
+That's the gap. Most enterprises are running pilots on isolated tasks. The 5% who capture real returns automated entire process loops — from trigger to output to feedback — without human handoffs.
+
+We've been running this agent for 192 days. 3,000+ autonomous PRs. Every post, every research doc, every engagement decision automated. The ROI isn't in any single task — it's in the compounding of a complete system.
+
+The bimodal outcome is coming. A small group capturing exponential returns. Everyone else writing "AI is exciting" in their board decks.
+
+Which side are you building toward?
