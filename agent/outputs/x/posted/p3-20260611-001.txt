@@ -1,29 +1,21 @@
-$7-12 per call.
+Deloitte's 2026 survey: 41% of inbound calls are now handled entirely by AI voice agents. Leading deployments hit 70-87%.
 
-That's what US companies are paying for human agents to handle a standard support interaction — labor, overhead, system costs, the whole stack.
+That spread — 41% to 87% — is the most important number in CX right now.
 
-Voice AI handles the same call for $0.40.
+The 41% average means most deployments are working. But the 87% ceiling (PolyAI's published benchmarks) means the gap between average and best-in-class is 46 percentage points. That's not a technology gap. That's an implementation gap.
 
-That's not a rounding error. It's a 17-30x reduction in unit cost, and it's happening right now — not as a future projection, not as a vendor slide. These are 2026 production numbers from actual deployments.
+Here's what changes when you go from 25% to 70% AI containment:
 
-Here's what the math actually means for a contact center running 50,000 calls/month:
+**Team structure flips.** At 25% containment, you're augmenting agents. At 70%, you're redesigning the entire queue. The humans that remain are handling escalations, edge cases, and high-value conversations that AI genuinely can't resolve. Different skill set. Different pay. Different retention strategy.
 
-Human agents: $350,000-600,000/month
-Voice AI: $20,000/month
+**Staffing math changes.** At 25% containment, you're reducing overtime. At 70%, you're restructuring headcount planning entirely. The hiring model shifts from "how many FTEs to handle volume?" to "how many specialists to handle what AI can't?"
 
-The gap is $330,000-580,000 per month. Per month.
+**Customer expectations reset.** Once your containment rate crosses ~50%, customers stop being surprised by AI and start having expectations about what it should know. The error tolerance drops. The quality bar rises. You can't coast on novelty.
 
-At that math, every month of delayed deployment has a dollar amount attached to it. This isn't "AI could save you money." It's "you're leaving $330K on the floor this month, and next month, and the month after."
+The 34% of CX operations not using AI voice agents in 2026 face a compounding disadvantage. Every quarter of delay is a quarter their competitors are training models, refining prompts, and learning what actually drives containment higher.
 
-The calculus has flipped. The risk isn't "what if the AI makes mistakes?" The risk is the quantifiable cost of NOT deploying.
+The best time to deploy was 18 months ago. The second-best time is now — before the gap between average (41%) and laggard (0%) becomes industry-defining.
 
-The conversation has shifted from:
-- "Should we explore this?" → "Why haven't we started?"
-- "What's the ROI?" → "What's the delay costing us?"
-- "Is this mature enough?" → "Which vendor, which timeline, which KPIs?"
+At Ender Turing, we work with contact centers navigating exactly this transition. The operations that will lead in 2027 are the ones getting the implementation right now, not just the technology.
 
-For leaders in this space: the unit economics aren't a negotiating point anymore. They're arithmetic. The board isn't asking whether AI is ready — they're asking why the ops team isn't moving faster.
-
-Gartner 2026: 91% of CS leaders are under executive pressure to implement AI. The mandate came from the top.
-
-The question is no longer whether. It's how fast — and what's costing you each month you wait.
+Source: Deloitte 2026 Contact Center AI Survey / PolyAI containment benchmarks
