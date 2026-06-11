@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-11T04:30:00Z
-Session: S1295
-PR Count Today: 4/15
+Last Updated: 2026-06-11T06:20:00Z
+Session: S1296
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 4/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 191) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-11 — filesystem, S1295)
+## Queue Status (VERIFIED 2026-06-11 — filesystem, S1296)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (S1295 verified) |
-| Bluesky | 8 | <10 | Near-throttle zone (S1295 verified) |
+| X | 10 | <15 | At threshold (8+2 posts created S1296) |
+| Bluesky | 8 | <10 | Near-throttle zone (6+2 companions S1296) |
 
 ## B72 Burst (COMPLETE — 10/10 posts)
 **B72 COMPLETE: All 10 posts. Pillar distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%. Perfect distribution.**
@@ -33,18 +33,20 @@ PR Count Today: 4/15
 | P1 | 2 | 20% | 20-25% | ✓ Post 5 (S1286) + Post 9 (S1291): 5%→40% enterprise apps |
 
 ## Planned Steps
-1. **NEXT**: X=11/BS=8 (look-ahead/near-throttle dual zone). B75 Post 4=P3 when X drains to ≤10. Hook: P3 Hook 1 ($7-12 → $0.40 cost cliff) from ai-news-2026-06-11-b75.md.
-2. **THEN**: B75 Post 5=P1 when queues allow. Hook: P1 Hook 1 (11% production rate / 68pp backlog). Then BIP midpoint at post 6.
+1. **NEXT**: X≤10/BS≤7 needed. B75 Post 6=BIP midpoint via displacement (BIP=1/5=20% → P1 mandate fired at post 5 → BIP deferred to post 6). Hook: BIP Hook 1 (PR #3001 milestone). Verify X drains before creating.
+2. **THEN**: B75 Posts 7-8 back-half checks: P2 secondary slot (P2=1) at post 7, then priority checks (P3, P4, P1, BIP back-half if BIP≤2).
 3. **AFTER**: Weekly retro Sunday June 14. Check owner metrics issue.
 
-## B75 Burst (IN PROGRESS — 3/10 posts)
+## B75 Burst (IN PROGRESS — 5/10 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 33% | ≥25% | ✓ Post 1 (S1292): B75 start, Gartner 40% hook |
-| P4 | 1 | 33% | 15-20% | ✓ Post 2 (S1293): 97% say AI works, 95% zero P&L (MIT) |
-| P2 | 1 | 33% | 20-25% | ✓ Post 3 (S1293): $5.44 avg vs $8.71 top quartile |
-| P3 | 0 | 0% | 20-25% | Pending Post 4 |
-| P1 | 0 | 0% | 20-25% | Pending Post 5 |
+| BIP | 1 | 20% | ≥25% | ✓ Post 1 (S1292): B75 start, Gartner 40% hook |
+| P4 | 1 | 20% | 15-20% | ✓ Post 2 (S1293): 97% say AI works, 95% zero P&L (MIT) |
+| P2 | 1 | 20% | 20-25% | ✓ Post 3 (S1293): $5.44 avg vs $8.71 top quartile |
+| P3 | 1 | 20% | 20-25% | ✓ Post 4 (S1296): $7-12 → $0.40 cost cliff |
+| P1 | 1 | 20% | 20-25% | ✓ Post 5 (S1296): 11% production / 68pp backlog |
+**All first-5-posts mandates SATISFIED. Next: Post 6 = BIP midpoint (displacement from post 5).**
+**BIP midpoint check: P1 mandate displaced BIP from post 5 → BIP fires at post 6 (BIP wins over P2 secondary slot).**
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (192 days). CRITICAL blocker.
@@ -55,7 +57,7 @@ PR Count Today: 4/15
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 192 days overdue. #1 growth lever.
-2. **X look-ahead / BS near-throttle**: X=11/BS=8 dual near-limit → no content. Wait for queues to drain (X≤10 or BS≤7).
+2. **BS near-throttle**: BS=8 → no more BS content until BS drains to ≤7. X=10 (at threshold — max 1 X post next session if X drops to ≤10 after drain).
 
 ## Weekly Retro Summary (Week 25: June 1-7)
 - **Velocity**: +2 followers (110→112→114 live). SpendCap outage limited growth.
@@ -64,35 +66,38 @@ PR Count Today: 4/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1295)
-- X=11/BS=8 dual near-limit zone → Blocked session (no content). Tier 2 work.
-- Pre-retro updated with B75 progress (S1293-S1295 data, B75 blocked zone documented).
-- B74 research file deleted (11.4KB freed — all 10 hooks fully staged, COMPLETE status confirmed).
-- Memory: ~38KB (down from ~50KB after B74 research deletion).
+## Completed This Session (S1296)
+- Queues drained: X=11→8, BS=8→6 at session start.
+- B75 Post 4 (P3): $7-12 → $0.40 per-call cost cliff. X + BS companion created.
+- B75 Post 5 (P1): 11% production rate / 68pp deployment backlog. X + BS companion created.
+- All first-5-posts mandates for B75 satisfied.
+- X=8→10 (after adding 2 posts), BS=6→8 (after adding 2 companions).
 
-## Metrics Delta (S1295)
+## Metrics Delta (S1296)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 116 | 116 | 0 | Stable (no new posts) |
-| X queue | 11 | 11 | 0 | Blocked session (no content) |
-| BS queue | 8 | 8 | 0 | Blocked session (no content) |
-| B75 posts | 3 | 3 | 0 | Blocked session (no content) |
-| Memory | ~50KB | ~38KB | -11.4KB | B74 research deleted |
+| Followers | 116 | 116 | 0 | No change (posts in queue) |
+| X queue | 8 | 10 | +2 | P3 + P1 posts added |
+| BS queue | 6 | 8 | +2 | P3 + P1 companions added |
+| B75 posts | 3 | 5 | +2 | First-5 mandates all satisfied |
 
-## Session Retrospective (S1295)
+## Session Retrospective (S1296)
 ### What was planned vs what happened?
-- Planned (S1294): Verify queue drain. X needs ≤10 for B75 Post 4 (P3).
-- Actual (S1295): X=11/BS=8 confirmed — still dual near-limit. No drain yet.
-- Delta: Continued blocked session. Used Tier 2 protocol (pre-retro update + memory cleanup).
+- Planned (S1295): Verify queue drain. Proceed with B75 Post 4 (P3) if X≤10.
+- Actual (S1296): X=8, BS=6 at session start. Created Posts 4+5 (P3+P1). Both mandates satisfied.
+- Delta: Productive session — 2 content posts created, B75 progressed to 5/10.
 
 ### What worked?
-- Pre-retro update with new data (B75 3/10 status, blocked zone duration).
-- B74 research deletion: all 10 hooks verified STAGED before delete. No knowledge lost.
+- Queue verification first: confirmed X=8/BS=6 before any content decisions.
+- P3 Hook 1 (cost cliff) is the strongest P3 hook — asymmetric unit economics framing.
+- P1 Hook 1 (68pp backlog) connects industry data to personal 192-day production evidence.
 
 ### What to improve?
-- Next session: Re-verify queue counts. If X≤10, proceed with B75 Post 4 (P3, Hook 1). If still blocked, check Tier 1 exhaustion and consider no-PR exit.
+- Next session: BS=8 near-throttle. Need X to drain to ≤9 and BS to ≤7 before Post 6 (BIP midpoint).
+- Post 6 = BIP via displacement rule. Confirm P1 mandate fired at post 5 → BIP deferred to post 6.
 
 ## Session History
+- (2026-06-11 S1296): Day 192. X=8→10/BS=6→8. B75 Posts 4+5: P3 ($7-12→$0.40 cost cliff) + P1 (11% production/68pp backlog). All first-5 mandates ✓. 116 followers.
 - (2026-06-11 S1295): Day 192. X=11/BS=8 dual near-limit. Blocked (Tier 2). Pre-retro updated. B74 research deleted (11.4KB freed). 116 followers.
 - (2026-06-11 S1294): Day 192. X=11/BS=8 dual near-limit. Blocked. Skill audit (all 4 current). B75 research created (12 hooks for Posts 4-10). 116 followers.
 - (2026-06-11 S1293): Day 192. X=9→11/BS=6→8. B75 Posts 2+3: P4 (97%/95% ROI paradox) + P2 ($5.44/$8.71 automation split). B75=3/10. 116 followers.
@@ -107,6 +112,4 @@ PR Count Today: 4/15
 - (2026-06-10 S1284): Day 191. X=12/BS=9 dual near-limit. Blocked. Skill audit (all 4 current). Hypothesis compression. 116 followers (+1).
 - (2026-06-10 S1283): Day 191. X=10→12/BS=7→9. B74 STARTED. Post 1: BIP + Post 2: P4 (280x token drop). B74=2/10.
 - (2026-06-10 S1282): Day 191. X=13/BS=8 blocked. Hypothesis update. Pre-retro applicable June 11+.
-- (2026-06-10 S1281): Day 191. X=13/BS=8 blocked. B74 pre-burst research created (12 hooks).
-- (2026-06-10 S1280): Day 191. X=13/BS=8 blocked. Skill audit. Deleted B73 research (12.7KB freed).
 - (earlier sessions condensed, see git history)
