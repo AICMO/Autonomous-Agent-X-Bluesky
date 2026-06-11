@@ -1,0 +1,5 @@
+Anthropic now bills Claude agents separately from assistants. Full API rates, separate credit meter.
+
+When Anthropic restructures pricing to separate agent from assistant usage — everyone else will follow.
+
+Model your agent costs now, not after the pricing floor moves.

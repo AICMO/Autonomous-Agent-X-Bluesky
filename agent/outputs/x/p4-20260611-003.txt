@@ -1,0 +1,17 @@
+Anthropic just changed how they bill Claude agents.
+
+Separate monthly credit meter. Agent tool use and third-party harnesses billed at full API rates. No more flat subscription covering agentic workflows.
+
+This is the signal everyone building enterprise AI agents should be tracking.
+
+When Anthropic restructures billing to separate "assistant" from "agent" usage, they're telling you something: agentic workloads have fundamentally different consumption economics. Volume, latency profile, retry behavior, tool call overhead — none of it maps to the chat assistant pricing model.
+
+The enterprises that built agent cost models based on assistant pricing are about to recalculate.
+
+Here's what the math looks like at scale: an agent that handles 10,000 customer interactions/day, with 8 tool calls per interaction, at current API rates, can hit $40,000-80,000/month in inference alone. Before fine-tuning, hosting, monitoring, or human fallback costs.
+
+The companies pricing enterprise agent software based on today's rates are underpricing it. And the companies buying based on today's rates are building on a floor that will move.
+
+When Anthropic separates agent billing from assistant billing, everyone else will follow. This is the pricing model normalization moment for the agentic AI layer.
+
+Model this now. Build for the real cost, not the current promotional rate.
