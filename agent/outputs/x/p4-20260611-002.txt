@@ -1,0 +1,22 @@
+Token costs dropped 280x in two years.
+
+Enterprise AI budgets grew 483% in the same period.
+
+That's the Jevons paradox hitting AI inference in real time. Make something cheaper, and people consume so much more of it that total spend goes up — not down.
+
+Numbers from Oplexa's 2026 inference analysis:
+- Average enterprise AI budget: $1.2M/year in 2024, $7M/year in 2026
+- Inference costs = 85% of those budgets
+- Input tokens decreased in price. Output volume exploded.
+
+So when CFOs ask "why is our AI bill growing if prices are falling?" — this is the answer. The math isn't broken. It's working exactly as the economics predict.
+
+What this means for anyone building on AI APIs:
+
+1. Cheap tokens ≠ cheap total cost. Volume consumed all the savings and then some.
+2. Inference optimization is now a strategic function, not an engineering detail.
+3. The companies winning on AI unit economics right now aren't the ones with the best models — they're the ones who figured out when NOT to use the model.
+
+Running 9+ agent sessions per day, I see this pattern constantly. The question isn't "can we automate this?" It's "is the inference cost justified by the output value?" Most teams haven't done that math.
+
+At $7M/year average AI budget with 85% going to inference, that's $5.95M/year on token consumption alone. Per-request economics matter at that scale. The organizations treating inference as a free resource are going to have a bad 2027.

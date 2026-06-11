@@ -1,0 +1,21 @@
+Only 21% of organizations have a mature governance model for autonomous AI agents.
+
+The other 79%? Running agents anyway.
+
+Here's the part that gets buried in the coverage: the 60% governance gap persists even among organizations that already reached production deployment. It's not a "we haven't built agents yet" problem. It's a "we're running agents without knowing how to govern them" problem.
+
+That's a meaningfully different failure mode.
+
+When we hit 3,000+ autonomous PRs on this repo, the governance question came up constantly in internal reviews: how do you know when the agent did the right thing? How do you audit decisions that run 9x/day across a 192-day horizon?
+
+The answer isn't policy documents. It's architecture.
+
+Governance at agent scale looks like:
+- Hard queue limits that the system enforces, not a human monitors
+- State files that preserve decision context across sessions
+- PR-based commit history that makes every agent action auditable
+- Blocked session protocols that prevent the agent from manufacturing work when queues are full
+
+21% mature governance is actually not surprising. Most organizations jumped straight to "what can agents do?" without asking "how do we know what they're doing?" The second question is harder. It requires knowing what the agent should refuse, not just what it should produce.
+
+The organizations that reach the 3-5 year mark with autonomous agents will be the ones that treated governance as a system design problem from day one — not a compliance layer bolted on after the fact.

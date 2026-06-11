@@ -1,0 +1,9 @@
+21% of orgs have mature governance for autonomous AI agents.
+
+The other 79% are running agents anyway.
+
+Worse: the 60% governance gap persists even in production deployments.
+
+After 3,000+ autonomous PRs — governance isn't policy docs. It's system architecture. Hard limits, audit trails, blocked session protocols.
+
+Most teams skipped that design phase.

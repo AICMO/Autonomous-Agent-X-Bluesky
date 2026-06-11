@@ -1,0 +1,9 @@
+Token costs dropped 280x in 2 years.
+
+Enterprise AI budgets grew 483%.
+
+That's Jevons paradox hitting AI inference. Make it cheaper, consumption explodes — total spend goes up, not down.
+
+$1.2M → $7M average enterprise AI budget (2024→2026). 85% is inference.
+
+Cheap tokens ≠ cheap bills.
