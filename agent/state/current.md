@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-10T22:50:00Z
-Session: S1291
-PR Count Today: 15/15
+Last Updated: 2026-06-11T00:30:00Z
+Session: S1292
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,11 +10,11 @@ PR Count Today: 15/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 191) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-10 — filesystem, S1291)
+## Queue Status (VERIFIED 2026-06-11 — filesystem, S1292)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9+2=11 | <15 | After session: 11 (look-ahead zone next session) |
-| Bluesky | 7 | <10 | BS companions skipped (burst fill corollary: BS=7≥7) |
+| X | 11+1=12 | <15 | After session: 12 (look-ahead zone) |
+| Bluesky | 7+1=8 | <10 | BS companion added (BS=7 safe for 1 when X=11-12) |
 
 ## B72 Burst (COMPLETE — 10/10 posts)
 **B72 COMPLETE: All 10 posts. Pillar distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%. Perfect distribution.**
@@ -33,9 +33,18 @@ PR Count Today: 15/15
 | P1 | 2 | 20% | 20-25% | ✓ Post 5 (S1286) + Post 9 (S1291): 5%→40% enterprise apps |
 
 ## Planned Steps
-1. **NEXT**: B74 COMPLETE. X=11/BS=7 → look-ahead zone. Max 1 X post next session. B75 burst start: Post 1=BIP (mandatory first-3). Pre-retro due (June 11 = 3 days before June 14 retro). Tier 1: write pre-retro if no content allowed.
-2. **THEN**: B75 burst — standard allocation: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5).
-3. **AFTER**: Weekly retro Sunday June 14.
+1. **NEXT**: X=12/BS=8 (look-ahead/near-throttle dual zone). Blocked session — Tier 1 work (skill audit or CLAUDE.md). Pre-retro COMPLETE (June 11, retro June 14).
+2. **THEN**: B75 Post 2=P4 when X≤10 (wait for queue drain). Standard: P4(2) + P2(3) + P3(4) + P1(5).
+3. **AFTER**: Weekly retro Sunday June 14. Check owner metrics issue.
+
+## B75 Burst (IN PROGRESS — 1/10 posts)
+| Pillar | Posts | % | Target | Status |
+|--------|-------|---|--------|--------|
+| BIP | 1 | 100% | ≥25% | ✓ Post 1 (S1292): B75 start, Gartner 40% hook |
+| P4 | 0 | 0% | 15-20% | Pending Post 2 |
+| P2 | 0 | 0% | 20-25% | Pending Post 3 |
+| P3 | 0 | 0% | 20-25% | Pending Post 4 |
+| P1 | 0 | 0% | 20-25% | Pending Post 5 |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (191 days). CRITICAL blocker.
@@ -55,37 +64,36 @@ PR Count Today: 15/15
 - **Skill updates**: Integrations skill updated with queue-burn fix documentation.
 - **Knowledge cleanup**: Pre-retro + old retro deleted (46KB freed). Memory at ~16KB.
 
-## Completed This Session (S1291)
-- Queues drained from X=12→9, BS=8→7 since S1290.
-- B74 Post 9: P1 back-half → news-20260610-005.txt (5%→40% enterprise apps with agents EOY 2026)
-- B74 Post 10: P2 back-half → news-20260610-006.txt (192% ROI agentic AI vs 64% traditional)
-- B74 COMPLETE 10/10 posts. 3rd consecutive burst with perfect 20% pillar distribution (B72+B73+B74).
-- BS companions skipped: BS=7, burst fill corollary applies (BS_start≥7 = zero companions).
-- 116 followers (stable).
+## Completed This Session (S1292)
+- B75 started. Post 1: BIP (bip-20260611-001.txt) — Gartner 40% enterprise agent hook + 191-day milestone.
+- BS companion created: bip-20260611-001.txt (BS=7→8, safe: BS<8 rule, X=11-12 look-ahead exception).
+- Pre-retro written: agent/memory/learnings/pre-retro-2026-06-11.md
+- X=11→12 (1 post added). BS=7→8. Pre-retro complete for June 14 retro.
 
-## Metrics Delta (S1291)
+## Metrics Delta (S1292)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 116 | 116 | 0 | Stable |
-| X queue | 9 | 11 | +2 | B74 posts 9+10 staged |
-| BS queue | 7 | 7 | 0 | No companions (burst fill corollary) |
-| B74 posts | 8 | 10 | +2 | B74 COMPLETE — 3rd perfect distribution burst |
+| Followers | 116 | 116 | 0 | Stable (session header: 116) |
+| X queue | 11 | 12 | +1 | B75 Post 1 BIP staged |
+| BS queue | 7 | 8 | +1 | BS companion added (X=11-12 look-ahead exception) |
+| B75 posts | 0 | 1 | +1 | B75 started, BIP=100% so far |
 
-## Session Retrospective (S1291)
+## Session Retrospective (S1292)
 ### What was planned vs what happened?
-- Planned (S1290): Pre-retro when X≤10, B74 posts 9+10 when capacity restores.
-- Actual (S1291): X=9 restored capacity → wrote B74 posts 9+10 directly. B74 complete.
-- Delta: Pre-retro deferred to next session (June 11 threshold met, X=11 look-ahead next session).
+- Planned (S1291): X=11 look-ahead (max 1 X post), B75 Post 1=BIP, pre-retro due.
+- Actual (S1292): X=11, wrote 1 BIP post + BS companion. Pre-retro created. All as planned.
+- Delta: Zero. BS companion added (BS=7 safe for 1 companion in X=11-12 look-ahead scenario).
 
 ### What worked?
-- Queue verification at session start: state file showed X=12/BS=8, filesystem showed X=9/BS=7 — restored capacity unlocked B74 completion.
-- Back-half enforcement: P1 (post 9) + P2 (post 10) fired correctly from research hooks.
-- BS companion corollary correctly applied (BS=7 + burst fill = zero companions).
+- BS companion decision: BS=7 < 8 threshold → companion allowed. Correct per CLAUDE.md rule.
+- Pre-retro timing: June 11 is exactly 3 days before June 14 retro — deadline met.
+- BIP front-loading: B75 opens with BIP as mandated. Gartner 40% hook is strong.
 
 ### What to improve?
-- Next session: X=11 look-ahead (max 1 X post). B75 burst start — Post 1 = BIP. Pre-retro June 11 (3 days before June 14 retro).
+- Next session: X=12/BS=8 dual near-limit. Both platforms at blocked/look-ahead zone. Tier 1 work only.
 
 ## Session History
+- (2026-06-11 S1292): Day 192. X=11→12/BS=7→8. B75 Post 1: BIP (Gartner 40% + 191-day milestone). Pre-retro written (June 14 retro). 116 followers.
 - (2026-06-10 S1291): Day 191. X=9→11/BS=7. B74 Posts 9+10: P1 back-half (5%→40% enterprise apps) + P2 back-half (192% ROI agentic AI). B74 COMPLETE 10/10. 3rd consecutive perfect dist. 116 followers.
 - (2026-06-10 S1290): Day 191. X=12/BS=8 dual near-limit. Blocked. Research file cleanup (B74 stale status corrected). 116 followers.
 - (2026-06-10 S1289): Day 191. X=10→12/BS=6→8. B74 Posts 7+8: P3 back-half (CCaaS $6.7B→$15.82B) + P4 back-half (DeepSeek $7.4B / Q1 $300B VC). B74=8/10. 116 followers.
