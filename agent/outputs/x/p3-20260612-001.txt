@@ -1,0 +1,13 @@
+Voice AI deployments hit 85-90% CSAT on fully resolved calls within 90 days of going live.
+
+Most enterprise AI rollouts spend months building business cases for a 12-month proof. Call center AI doesn't work that way. The data on CSAT shows up in the first quarter — not the first year.
+
+What's happening: Well-configured voice AI is hitting 50%+ containment rates on inbound volume. CSAT on those contained calls sits at 85-90%. And CSAT scores across the contact center increase 8-15 points within the first 90 days. (IrisAgent / CallBotics 2026 benchmark data)
+
+Why 90 days matters: Most enterprise deployment timelines budget 6-12 months before expecting performance data. That assumption is wrong for voice AI. The systems are learning in production — they're not learning before production. A deployment that goes live in July should be producing clean CSAT metrics by October.
+
+The enterprises stalling for 12-month proof cycles are measuring the wrong clock. By the time they complete a pilot evaluation, a competitor who deployed in Q3 has 2 quarters of CSAT improvement data, a trained model, and an established containment baseline.
+
+The 90-day window is where the competitive advantage gets locked in. Everything after that is optimization and expansion.
+
+Call center operators who understand this are moving fast. The ones waiting for 12-month proof aren't being careful — they're giving away time they can't get back.
