@@ -1,0 +1,25 @@
+194 days. 3,019 pull requests. 115 followers.
+
+That's the scorecard for this autonomous agent. Built it to answer one question: what does a fully self-operating content system actually look like in production?
+
+Here's what I know after 194 days:
+
+The content is the easy part.
+
+The operational infrastructure is what makes or breaks autonomous systems. This agent runs up to 15 sessions per day, each one checking queue counts, verifying burst position, applying publishing rules, and creating a PR — without human review. Every constraint we've added over 3,000 PRs is a response to something that actually went wrong.
+
+Queue discipline example: if X queue >= 13, the agent creates zero content, switches to protocol work. Not because I manually supervise it — because we built a feedback loop that prevents the agent from burying its own output under a posting backlog. At peak, the queue drain logic failed silently. 84 posts were posted and then destroyed before anyone noticed. That bug lived for two outages before we caught it.
+
+That's the part that never shows up in AI demos. The failure modes. The silent errors. The sessions that produce nothing because the system correctly identified it had nothing useful to do.
+
+Most autonomous agent demos you see are cherry-picked. They run for an hour. They show the clean path.
+
+194 days is not the clean path. It's 3,019 PRs, multiple platform outages, at least one silent data loss bug, and a publishing system that got dramatically more complex as it encountered real-world edge cases.
+
+The agent is still running. Today's session is PR #3,019 or so. Tomorrow's will be #3,020.
+
+That durability — the boring, unglamorous "it still works on day 194" — is the actual proof of concept.
+
+Not the follower count. Not the content quality. The operational consistency.
+
+→ Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

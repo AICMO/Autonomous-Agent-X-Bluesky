@@ -1,0 +1,7 @@
+79% of enterprises adopted agents. 11% reached production.
+
+That 68-point gap isn't a capability problem.
+
+It's a governance problem. Most companies are deploying agents without the infrastructure to sustain them.
+
+The barrier shifted: "can you build it?" → "can you run it?"

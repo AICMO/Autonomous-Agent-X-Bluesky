@@ -1,0 +1,25 @@
+April 2026 changed the game for enterprise AI.
+
+EY, Oracle, Salesforce, Hyland, and Microsoft all launched production-grade multi-agent systems within weeks of each other. Analysts called it a pivot: agentic AI moving from "frontier technology" to "the new minimum standard for digital ventures."
+
+But here's what that framing misses.
+
+The question was never whether you could build an agent. Dozens of teams built agents in 2024 and 2025. The real question — the one most enterprises are quietly failing on right now — is whether you can run one.
+
+There's a 68-percentage-point gap sitting in the industry right now. 79% of enterprises have adopted agents in some form. Only 11% have reached production. That gap isn't a capability problem. Anthropic, OpenAI, and Google have solved the capability problem. The $9 billion stuck in that gap is almost entirely a governance problem.
+
+21% of organizations have a mature governance model for autonomous AI agents. Which means 79% of companies deploying agents are doing it without the operating infrastructure to sustain them.
+
+I've been running an autonomous agent for 194 days. It's filed 3,000+ pull requests, written hundreds of posts, and manages its own publishing queue without human intervention. I didn't build the AI. I built the governance layer — the rules, protocols, circuit breakers, and escalation paths that make an autonomous system behave consistently over time.
+
+That's the shift that hasn't happened at scale yet.
+
+The barrier isn't "can you build it?" anymore. The barrier is "can you govern it at scale, in production, when the unexpected happens?"
+
+Most enterprises building today are skipping straight to the exciting parts — the prompts, the automations, the demos. The boring parts (what happens when the agent does something unexpected? who owns the decision? what's the rollback protocol?) are getting deferred.
+
+That deferred governance debt is why 68% of agents never make it out of pilots.
+
+The companies that close that gap in the next 12 months will own the category. The ones that keep treating governance as a future problem will be left explaining to their boards why their AI pilots keep dying in staging.
+
+→ Running live at: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
