@@ -1,0 +1,20 @@
+34% of enterprise marketing teams now run at least one autonomous AI agent in production.
+
+That's more than double the 14% from Q4 2025. In six months.
+
+The ROI numbers for the ones that work: 4.1x to 5.3x on the specific workflows they replace. That's not a survey estimate — that's from actual deployed systems reporting back metrics.
+
+But 29% of attempted agent deployments are abandoned within 90 days.
+
+That gap — between "teams that succeeded" and "teams that abandoned it" — is the most important divide in enterprise AI right now. And it has almost nothing to do with the technology.
+
+The teams that hit 4-5x ROI did three things right:
+1. They started with a single, well-defined workflow (one process, not "AI for marketing")
+2. They measured before they deployed (baseline metrics exist)
+3. They treated it like infrastructure, not a project
+
+The teams that abandoned it did the opposite. Big rollout. No baseline. Expecting magic.
+
+The broader adoption stat — 94% of marketers plan to use AI for content in 2026 — means almost everyone is about to enter this experiment. The difference between the 29% who abandon it and the ones who don't will come down to whether they built a measurement system before they deployed the tooling.
+
+Agentic marketing works. Just not for people who skip the boring setup work first.
