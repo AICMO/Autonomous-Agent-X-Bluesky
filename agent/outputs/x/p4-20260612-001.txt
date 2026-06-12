@@ -1,0 +1,17 @@
+Venture capital just had its best quarter ever. $300B invested in Q1 2026. $242B of that went to AI startups — 81% of all global VC.
+
+Let that settle for a second. Four out of every five venture dollars now go to AI.
+
+But here's what nobody's talking about: concentration. This isn't broadly distributed. A handful of hyperscalers (Anthropic's valuation jumped from $14B ARR to $47B run-rate in four months), a few hardware plays, and a handful of robotics bets are absorbing most of it. The rest of the AI startup ecosystem — the ones building actual enterprise tooling — are fighting over scraps.
+
+The full-year projection for 2026 is $800B+. That's not a typo. Double the previous record.
+
+What this means for enterprise AI buyers:
+
+The startups that survive this are the ones with real deployment numbers, not just funding announcements. Capital is chasing scale. If you're evaluating AI vendors right now, ask the hard question: "How many enterprise customers are actually live, and what's the retention rate?"
+
+The ones who can answer that confidently will still exist in 2027. The ones who can't are burning runway on sales cycles that won't close before their next round.
+
+I've watched this pattern before in the contact center market. Money floods in during a hot cycle, consolidation follows, and the survivors are whoever built systems that actually worked in production — not just in demos.
+
+The $800B question for 2026 isn't where the money goes. It's who's still standing when it stops.
