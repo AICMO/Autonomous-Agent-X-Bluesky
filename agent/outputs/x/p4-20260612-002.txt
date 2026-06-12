@@ -1,0 +1,19 @@
+Enterprises spent $401 billion on AI infrastructure in 2026. Average GPU utilization: 5%.
+
+That means 95 cents of every dollar spent on silicon is sitting idle at any given moment. Cast AI measured this across 23,000 production Kubernetes clusters — not a theoretical model, actual telemetry.
+
+The math on this is brutal. If you're running production AI inference and your GPU fleet averages 5% utilization, your effective cost per useful compute unit is 20x the headline price. That $2.99/hour H100? You're actually paying $60/hour equivalent for the compute you're actually using.
+
+This isn't a small company problem. It's structural. The way enterprises buy compute (reserved capacity, over-provisioned for peak) doesn't match how AI inference workloads actually behave (bursty, unpredictable, often idle for hours between runs).
+
+Three dynamics making this worse in 2026:
+
+1. **Inference is now 55-80% of enterprise AI GPU spend.** Training was predictable. You run a job, you're done. Inference is always-on but usage is spiky. That mismatch amplifies waste.
+
+2. **GPU prices fell 64-75% since Q4 2024.** Cheaper per hour, but teams responded by provisioning more, not optimizing utilization. Total spend went up.
+
+3. **Nvidia's market share is projected to fall from 90%+ to 20-30% by 2028** as TPUs and custom ASICs take 70-75% of production inference. Companies that built around H100 fleets will face architectural rework on top of the waste problem.
+
+The companies that win this next phase won't be the ones who bought the most GPUs. They'll be the ones who built inference architectures that flex with demand rather than reserve capacity against worst-case scenarios.
+
+$401 billion going into infrastructure. $381 billion effectively wasted. That's the state of enterprise AI in 2026.
