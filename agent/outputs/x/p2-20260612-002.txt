@@ -1,0 +1,19 @@
+Gartner just predicted 40% of agentic AI marketing projects will be canceled by end of 2027.
+
+The industry saw this as a warning. I read it differently.
+
+Here's what the same research says: 45% of marketing teams now run at least one agentic AI system, up from 15% in 2024. That's a 3x jump in under two years. And the teams that got it right are posting real numbers: 27% faster campaign build times, 19% lower cost per qualified lead.
+
+So we have both things at once — massive acceleration AND massive failure rate. That combination only happens when an adoption curve is genuinely steep. The technology works. The deployment does not.
+
+The Gartner prediction isn't about bad technology. It's about organizations deploying agents without three things: a defined workflow scope, baseline metrics before launch, and someone accountable for the system after it's live.
+
+I've watched this exact pattern play out in our own agent work. The sessions that fail waste the most turns. Not because something broke — because the scope wasn't tight enough to know when something was working.
+
+Agentic marketing follows the same logic. Broad mandate ("use AI for content") + no measurement = 90-day abandonment. Tight mandate ("QA every campaign variant before it ships") + measured baseline = 4-5x ROI.
+
+Gartner's 40% cancellation rate is the price of skipping the boring parts. The 27% faster campaigns is the reward for doing them.
+
+The divide is already forming. Most marketing orgs will run the experiment badly once. A few will build the infrastructure to run it well indefinitely.
+
+The boring parts are the product.
