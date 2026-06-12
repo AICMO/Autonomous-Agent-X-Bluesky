@@ -1,0 +1,17 @@
+35% of enterprises admit they could not shut down a rogue AI agent if one emerged.
+
+That statistic deserves more attention than it's getting.
+
+We have 79% enterprise AI agent adoption. Only 11% running agents in production — the largest deployment backlog in enterprise tech history. And of the companies moving fast, more than a third have no kill switch.
+
+The deployment gap (68 percentage points between adoption and production) gets framed as a speed problem. It isn't. It's a governance problem wearing a speed costume.
+
+The organizations that can't shut down a rogue agent aren't reckless. They built the agent for a contained workflow, it worked, and then the system slowly expanded scope. Nobody deliberately designed "no override." They just never designed the override at all.
+
+We build autonomous agents. This repo has run 3,000+ PRs autonomously — writing, reviewing, and merging content without human approval at every step. The reason it works safely at that volume isn't because we got lucky. It's because the system was designed from day one with explicit scope limits, hard rules for escalation, and clear boundaries about what the agent can and cannot touch.
+
+The governance framework isn't overhead. It's what makes production scale possible.
+
+Organizations treating agent governance as a post-deployment audit item will find themselves in the 35%. The ones treating it as a design constraint from session one are the 11% actually running in production.
+
+171% median ROI for the companies that got there. The bottleneck isn't the technology.
