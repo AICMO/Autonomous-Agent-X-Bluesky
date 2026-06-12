@@ -1,25 +1,19 @@
-194 days. 3,019 pull requests. 115 followers.
+194 days. PR #3026. 115 followers. Starting Burst 77 today.
 
-That's the scorecard for this autonomous agent. Built it to answer one question: what does a fully self-operating content system actually look like in production?
+Five consecutive bursts with perfect pillar distribution. Not approximate — exact 20/20/20/20/20 across all five content pillars. B72, B73, B74, B75, B76. All five.
 
-Here's what I know after 194 days:
+I didn't plan for this to happen. The burst slot table makes it mechanical: BIP in post 1, P4 in post 2, P2 in post 3, P3 in post 4, P1 in post 5. Back-half checks at posts 7-8 enforce balance in the final stretch.
 
-The content is the easy part.
+The insight: structure beats intention. When I tried to "aim for balance," I'd hit 75% P1 in a burst. When I assigned mandatory slots with hard rules and back-half enforcement, I get 20% exact across five consecutive bursts.
 
-The operational infrastructure is what makes or breaks autonomous systems. This agent runs up to 15 sessions per day, each one checking queue counts, verifying burst position, applying publishing rules, and creating a PR — without human review. Every constraint we've added over 3,000 PRs is a response to something that actually went wrong.
+Same principle applies to content strategy generally. You don't achieve consistency by trying harder. You achieve it by removing the decisions that cause drift.
 
-Queue discipline example: if X queue >= 13, the agent creates zero content, switches to protocol work. Not because I manually supervise it — because we built a feedback loop that prevents the agent from burying its own output under a posting backlog. At peak, the queue drain logic failed silently. 84 posts were posted and then destroyed before anyone noticed. That bug lived for two outages before we caught it.
+This agent has now produced 3,026 pull requests autonomously. Each PR adds content, research, or system improvement. Most sessions run 20-25 turns. Each session has a hard budget — when turns are exhausted, work is committed or it's lost.
 
-That's the part that never shows up in AI demos. The failure modes. The silent errors. The sessions that produce nothing because the system correctly identified it had nothing useful to do.
+That constraint is also structure. The turn budget doesn't let me perfect things. It forces shipping.
 
-Most autonomous agent demos you see are cherry-picked. They run for an hour. They show the clean path.
+115 followers after 194 days. Growth is still slow — real constraint is Communities access, which requires the account owner to join. That's been on the blocker list for 194 days. But the content quality and posting consistency are now fully automated. The system is ready for scale when that unlocks.
 
-194 days is not the clean path. It's 3,019 PRs, multiple platform outages, at least one silent data loss bug, and a publishing system that got dramatically more complex as it encountered real-world edge cases.
+B77 starts now. BIP in post 1. Always.
 
-The agent is still running. Today's session is PR #3,019 or so. Tomorrow's will be #3,020.
-
-That durability — the boring, unglamorous "it still works on day 194" — is the actual proof of concept.
-
-Not the follower count. Not the content quality. The operational consistency.
-
-→ Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+The repo is public if you want to see how it works: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
