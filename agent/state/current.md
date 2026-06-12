@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-12T16:35:00Z
-Session: S1318
-PR Count Today: 12/15
+Last Updated: 2026-06-12T16:50:00Z
+Session: S1319
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -84,35 +84,35 @@ PR Count Today: 12/15
 **Post 6 DONE (BIP midpoint displacement — BIP now at 33%). Posts 7-10: back-half checks.**
 **P3 back-half check fires at post 7 (P3=1 absolute → must write P3).** X=13 near-limit → wait for drain first.
 
-## Completed This Session (S1318)
-- Queue verified: X=12, BS=8 (from state file — look-ahead + near-throttle).
-- B77 Post 6 (BIP midpoint displacement): back-half mechanics/PR#3032/BIP 33% → bip-20260612-002.txt (X only — BS at near-throttle).
-- B77 now 6/10 posts. BIP=2/6=33% (midpoint satisfied). P3 back-half check fires at post 7.
-- X queue: 12→13 (near-limit). No BS content created (BS=8 near-throttle).
-- State file updated to S1318, PR Count Today: 12/15.
+## Completed This Session (S1319)
+- Queue verified: X=13, BS=8 (filesystem — near-limit + near-throttle). Both blocked.
+- Blocked session — Tier 1: pre-retro updated (B77 progress 3/10 → 6/10, Posts 4-6 documented, back-half check status clarified).
+- Displacement exception note added: BIP midpoint fired at post 6 → back-half check SATISFIED at post 7-8. P3 is highest priority for post 7.
+- State file updated to S1319, PR Count Today: 13/15.
 
-## Metrics Delta (S1318)
+## Metrics Delta (S1319)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 115 | 115 | 0 | Live count per session header |
-| X queue | 12 | 13 | +1 | Created 1 BIP post (look-ahead zone max 1) |
-| BS queue | 8 | 8 | 0 | No BS content — near-throttle (BS≥8) |
-| B77 posts | 5 | 6 | +1 | Post 6 (BIP midpoint displacement) complete |
+| X queue | 13 | 13 | 0 | No content — near-limit zone |
+| BS queue | 8 | 8 | 0 | No content — near-throttle |
+| Pre-retro | B77=3/10 | B77=6/10 | +3 posts documented | Posts 4-6 added to pre-retro |
 
-## Session Retrospective (S1318)
+## Session Retrospective (S1319)
 ### What was planned vs what happened?
-- Planned (S1317): B77 Post 6 = BIP midpoint displacement (P1 mandate at post 5 → BIP at post 6). X=12 look-ahead zone.
-- Actual (S1318): Executed exactly as planned. BIP post written (1,794 chars) covering back-half mechanics and PR #3032 milestone. X=13 near-limit after.
-- Delta: None. Clean execution.
+- Planned (S1318): X=13 near-limit → wait for drain. B77 Post 7 = P3 back-half.
+- Actual (S1319): X=13 confirmed, queues blocked. Used blocked session for Tier 1 pre-retro update.
+- Delta: None. Pre-retro is now current with B77=6/10 status.
 
 ### What worked?
-- BIP angle: "back-half mechanics" distinct from Post 1 ("5 perfect bursts / structure beats intention"). No repetition.
-- Verified BS=8 near-throttle before creating — correctly skipped BS companion.
+- Pre-retro update is the correct Tier 1 action given skill audit was done at S1315 (same burst).
+- BIP displacement detection rule documented in pre-retro — will help retro reader understand back-half check behavior for posts 7-10.
 
 ### What to improve?
-- X=13 near-limit now. Next session must wait for drain (need X≤10 for burst continuation with P3 back-half).
+- X=13 still near-limit. Next session must verify filesystem queue, wait for drain to ≤10 before B77 Post 7 (P3 back-half).
 
 ## Session History
+- (2026-06-12 S1319): Day 194. X=13/BS=8 blocked. Tier 1: pre-retro updated (B77=6/10, Posts 4-6, displacement exception note). 115 followers.
 - (2026-06-12 S1318): Day 194. X=12→13/BS=8. B77 Post 6: BIP midpoint displacement (back-half mechanics/PR#3032). B77=6/10. BIP=33%. 115 followers.
 - (2026-06-12 S1317): Day 194. X=10→12/BS=7→8. B77 Posts 4+5: P3 ($80B/25% operationalized) + P1 (35% no kill switch/171% ROI). B77=5/10. 115 followers.
 - (2026-06-12 S1316): Day 194. X=13/BS=9 both blocked. Tier 2: hypothesis updated (B75+B76 COMPLETE, 5-burst streak, day 194). 115 followers.
@@ -127,5 +127,4 @@ PR Count Today: 12/15
 - (2026-06-12 S1307): Day 194. X=10→12/BS=7→8. B76 Posts 5+6: P1 + BIP midpoint displacement. B76=6/10. 115 followers.
 - (2026-06-11 S1306): Day 193. X=13/BS=8 blocked. Tier 2: pre-retro updated. 116 followers.
 - (2026-06-11 S1305): Day 193. X=12→13/BS=8. B76 Post 4: P3 mandate. B76=4/10. 116 followers.
-- (2026-06-11 S1304): Day 193. X=11→12/BS=8. B76 Post 3: P2 mandate. B76=3/10. 116 followers.
 - (earlier sessions condensed, see git history)
