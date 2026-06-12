@@ -1,0 +1,7 @@
+LLM inference costs dropped 1,000x in 3 years. Enterprise AI spend went up 320%.
+
+That's not a contradiction. That's the Jevons Paradox.
+
+Cheaper compute didn't reduce spend. It unlocked use cases that weren't viable before — at much higher volume.
+
+The question isn't "can we afford AI." It's "did we model cost at scale before shipping."

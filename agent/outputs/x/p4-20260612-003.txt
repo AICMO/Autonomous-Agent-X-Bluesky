@@ -1,0 +1,17 @@
+LLM inference costs dropped 1,000x in three years.
+
+GPT-4 equivalent: $20 per million tokens in late 2022. Now: $0.40 per million tokens.
+
+Enterprise AI spend: up 320% in the same period.
+
+This is the Jevons Paradox playing out in real time. When a resource gets 1,000x cheaper, you don't use 1,000x less money on it — you use it for 1,000x more things. Agentic workflows trigger 10-20 LLM calls per user task where a single API call used to be the baseline.
+
+The pricing collapse didn't reduce AI infrastructure spend. It unlocked use cases that weren't economically viable before, and those use cases have higher volume than anything that came before them.
+
+This matters for how you think about AI investments:
+
+The cost-per-token metric is almost irrelevant now. What matters is total calls per workflow, workflow volume, and whether the business outcome is worth the aggregate cost. A workflow that saves 30 minutes of analyst time and costs $0.40 in compute is a slam dunk. A workflow that does the same thing 10,000 times a day is $4,000/day — and you need to have run the numbers before you scale it.
+
+The 1,000x cost collapse is real. But it doesn't mean AI is free. It means the economics shifted from "can we afford to use it" to "did we model the cost at scale before we shipped it."
+
+Most teams are still in the first conversation. The ones scaling are already in the second.
