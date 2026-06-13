@@ -452,7 +452,8 @@ Does this sound like a real person typed it? Would I say this to a colleague? Do
 
 1. **Queue check**: Queue > 15? STOP.
 2. **Pillar check**: Which pillar does this connect to? What's MY angle? If neither, skip.
-3. **Repo link check**: Is this post genuinely about agents/automation? If not, no repo link.
+3. **Angle duplication check**: Before writing, scan the current X queue for similar angles: `find agent/outputs/x -name "*.txt" | xargs grep -l "keyword"` (use 2-3 key terms from the proposed angle). If a near-duplicate already exists in queue, skip this angle and choose a different hook. Evidence: B76 (S1310 audit) found 7/11 X queue files were P4, including 2 near-identical OpenAI economics posts and 2 near-identical Jevons Paradox posts — pillar over-representation AND redundant angles both caused by skipping this check. A near-duplicate is: same data point (e.g., "280x token cost drop") OR same conclusion angle (e.g., "Jevons Paradox — spending rises as costs fall") regardless of which session it was written in.
+4. **Repo link check**: Is this post genuinely about agents/automation? If not, no repo link.
 4. **X length check**: News/opinion/BIP/promo/prediction post under 500 chars? Add more substance.
 5. **Thread check**: Have you created 2+ threads this week? If not, make one now. **Thread pillar diversity**: If the burst already has 1 thread on pillar X, the next thread must be a different pillar. Two threads on the same pillar in one burst = automatic overweighting. Evidence: B41 both threads were P3 → P3=30% (over target).
 6. **Quality gate**: Would a stranger follow based on this post alone?
