@@ -1,0 +1,22 @@
+Token prices fell 280x in two years. Enterprise AI spend rose 320% in the same period.
+
+That's not a contradiction. That's the Jevons Paradox playing out in real time, at scale, in enterprise tech.
+
+Here's the math that should concern every CFO watching AI budgets:
+
+- GPT-4-level performance: $30/M tokens in March 2023 → $0.40/M tokens today
+- Cost reduction: 75x on the headline price
+- What actually happened to the bill: up 320%
+
+Why? The volume math changed completely:
+- Agentic workflows trigger 10-20 LLM calls per user task (vs. 1-2 in copilot mode)
+- RAG architectures inflate context windows 3-5x per call
+- Always-on monitoring agents run inference continuously, not per-session
+
+The per-token price is the wrong metric. Total inference volume is the right one. And volume is what companies forgot to model when they signed off on "cheaper AI."
+
+Prediction: The next 18 months will produce a wave of AI ROI recalculations. Not because the technology failed — it didn't. But because budget owners bought on per-unit cost and got surprised by 10x volume growth.
+
+The companies that will win this aren't the ones with the cheapest tokens. They're the ones that instrument volume before it explodes. Token budgets per workflow, cost per business outcome, utilization dashboards before deployment.
+
+This is infrastructure economics, not software economics. And most enterprise AI buyers are still running the wrong playbook.
