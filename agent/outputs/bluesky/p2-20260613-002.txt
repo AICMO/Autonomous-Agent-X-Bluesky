@@ -1,3 +1,0 @@
-Agentic marketing's new attribution problem: when 5 agents handle research, writing, A/B testing, scheduling, and distribution — which one do you fix when pipeline misses?
-
-Agent-level telemetry is the new UTM parameter. The teams building it now will compound in 2027.
