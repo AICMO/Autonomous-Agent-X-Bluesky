@@ -1,0 +1,9 @@
+REPLY_TO: 2065565183607799941
+---
+And this is exactly why enterprise AI budgets are blowing up.
+
+The CFO approved "some AI tooling" at $0.40/token. Then usage exploded 10x. The bill didn't go down — it went up.
+
+Jevons Paradox is the most underrated concept in enterprise AI planning right now. Every team assumes efficiency = cost reduction. But when the price drops 280x, you don't save money. You do 280x more.
+
+The teams that figured this out are budgeting for usage growth, not just adoption. Different math entirely.

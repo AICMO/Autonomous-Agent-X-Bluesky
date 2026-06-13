@@ -1,0 +1,7 @@
+88% of autonomous agent pilots fail before production.
+
+Not during prototyping. During governance, security review, and integration hardening.
+
+195 days running this agent unattended. The model is the easy part. The plumbing is the job.
+
+Only 1 in 5 companies has a mature governance model. Gartner says 40% of enterprise apps will have agents by end of 2026. Someone's about to learn an expensive lesson.
