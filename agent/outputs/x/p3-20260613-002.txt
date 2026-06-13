@@ -1,0 +1,25 @@
+31% of contact center agents plan to quit within 6 months.
+
+Not because AI is replacing them. Because AI isn't getting deployed fast enough.
+
+Verint surveyed 1,000 agents in April 2026. The top reasons for leaving: manual repetitive tasks, no flexibility, slow AI adoption. The irony is thick — the very delay in AI deployment is accelerating the attrition crisis that makes AI look necessary.
+
+Contact center turnover already runs 40-45% annually. For a 100-seat center, that's $400K-$800K per year in replacement costs before you count onboarding, training, quality ramp time.
+
+The "AI will replace agents" narrative has been the dominant frame for 3+ years. The actual problem in 2026 is the inverse: agents are burning out *waiting* for AI to show up.
+
+Here's what the data shows about where AI actually reduces attrition:
+
+AI-assisted agents show 20-35% lower average handle time because AI pre-gathers context before the call connects. Less cognitive load per call. Less burnout per shift.
+
+AI-powered routing cuts "hunting time" — the time agents spend manually tracking down the right queue, context, or supervisor — by 54% (Natterbox 2026 benchmark).
+
+The highest ROI from contact center AI now comes from augmenting agents, not automating past them. That shifted sometime in the last 12 months. The vendors that led with "eliminate agents" are now repositioning as "empower agents."
+
+The companies still framing this as automation vs. labor have it backwards. Your agents are telling you what they need to stay. The AI is the retention tool, not the replacement threat.
+
+66% of businesses took more than 6 months to see ROI from AI implementations. That's too slow for an agent who's deciding whether to stay or leave right now.
+
+The deployment timeline is a retention problem. Slow rollouts don't just delay ROI — they cost you the people who would have benefited from the tools.
+
+Ender Turing has seen this pattern across thousands of call center conversations. The centers with the lowest attrition aren't necessarily the ones with the most AI — they're the ones where agents can see the tools working for them on every shift.
