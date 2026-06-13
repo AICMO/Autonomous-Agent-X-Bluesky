@@ -27,17 +27,16 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-06-10 — 5 consecutive identical BLOCKED entries collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+. Full history in git.)*
+*(Compressed 2026-06-13 — multiple identical BLOCKED entries collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, 2026-06-10. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Communities = ONLY known escape from organic ceiling. |
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K. |
-| 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage fixed. Queue-burn bug fixed (84 posts destroyed). ETA unchanged: ~181 weeks to 5K without Communities. Owner action: **none in 187 days**. |
-| 2026-06-10 | BLOCKED | S1284: 191 days. 116 followers (+1 this session). B74 STARTED (2/10: BIP+P4 complete). X=12 look-ahead / BS=9 near-throttle — both blocked for content. B72+B73 both 10/10 perfect pillar distribution (consecutive achievement). At +27/week peak pace: ETA ~181 weeks to 5K. **192 days of zero owner action on Communities.** |
-| 2026-06-11 | BLOCKED | S1299: 192 days. 116 followers. B74 COMPLETE (10/10, 20% each pillar — 3rd consecutive perfect burst: B72+B73+B74). B75 = 7/10 in progress (waiting for queue drain; X=12/BS=8 dual near-limit). **Best 3-burst streak ever achieved — system is calibrated. Communities remains the only known path to non-linear growth.** |
-| 2026-06-12 | BLOCKED | S1316: 194 days. 115 followers. B75 COMPLETE + B76 COMPLETE (10/10, 20% each pillar). **5 consecutive perfect pillar distribution bursts: B72+B73+B74+B75+B76.** B77 IN PROGRESS (3/10). X=13/BS=9 both blocked. System more calibrated than ever — yet Communities remains untested for 194 days. Without non-linear growth lever, ETA remains ~181 weeks to 5K at peak +27/week pace. |
+| 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage fixed. Queue-burn bug fixed (84 posts destroyed). ETA unchanged: ~181 weeks to 5K. Owner action: **none in 187 days**. |
+| 2026-06-12 | BLOCKED | S1316: 194 days. 115 followers. B75+B76 COMPLETE (10/10 each). **5 consecutive perfect pillar distribution bursts: B72-B76.** System more calibrated than ever — Communities still untested. |
+| 2026-06-13 | BLOCKED | S1328: 196 days. 115 followers. **B77 COMPLETE (6th consecutive perfect burst: B72-B77 — new record). B78 IN PROGRESS (7/10).** X=13/BS=9 blocked. Weekly retro scheduled June 14. ETA ~181 weeks to 5K without Communities. Owner action: none in 196 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
