@@ -1,0 +1,5 @@
+Voice AI deployments grew 340% YoY. 75% of the ROI is still locked.
+
+Only 1 in 4 companies has actually operationalized it — embedded into routing, QA, CRM, coaching.
+
+Deploying ≠ integrating. The operationalization gap is where the value lives.
