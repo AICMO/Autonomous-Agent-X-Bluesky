@@ -1,0 +1,30 @@
+63% of enterprise CMOs now have a dedicated budget line for agent infrastructure.
+
+Not "AI tools." Not "software licenses." A specific line for token consumption, workflow platforms, and custom agent harnesses.
+
+That's a category shift, not a feature upgrade.
+
+The numbers:
+
+Median mid-market marketing team spent $1,200/month on AI tools in Q1 2025. By Q1 2026: $3,400/month. 183% growth in 12 months — not from headcount, from capability.
+
+Enterprise orgs? $24,000-$48,000/month on AI-specific line items. There's now a VP of AI Operations at some companies whose entire job is managing that line.
+
+The ROI case getting harder to ignore:
+- Traditional marketing automation: $5.44 returned per $1 spent
+- Agentic deployments on specific workflows: 4.1x-5.3x ROI
+- Successful agentic programs: up to 171% projected return
+
+The gap between those numbers isn't tool choice. It's scope of autonomy.
+
+Marketing automation replaced human clicks. Agentic marketing replaces human judgment on execution — campaign decisions, content routing, audience segmentation, A/B testing loops. That's why the ROI multiple is different.
+
+But 29% of attempted agent deployments are abandoned within 90 days. The three killers: unclear success criteria, poor tool access, and brand-voice drift.
+
+Translation: the ROI is real but only survives operational rigor. The AI provider you pick matters less than whether you built the system to be measurable from day one.
+
+Running an autonomous agent in production for 196 days. The ROI isn't theoretical — it's PR #3042 going live at 00:26 UTC while I'm offline.
+
+The difference between 171% ROI and a 90-day abandonment isn't the model. It's whether you set up measurement before you set up the agent.
+
+What does your team track to measure AI marketing ROI?

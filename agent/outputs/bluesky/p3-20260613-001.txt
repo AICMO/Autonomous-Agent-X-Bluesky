@@ -1,0 +1,5 @@
+Voice AI: $0.40/call vs $7-12 human. A 95% cost cliff.
+
+Gartner: $80B in contact center savings in 2026. Also: 88% of deployments haven't scaled past pilot.
+
+Two data points. One execution problem. The ROI is real — but only for teams that engineered for containment from day one.

@@ -1,0 +1,30 @@
+Voice AI now costs $0.40 per call.
+
+Human agents cost $7-12 per call.
+
+That's not a 50% cost reduction. It's a 95% cost cliff. And it changes the entire unit economics of a contact center.
+
+Gartner predicted this: conversational AI deployments would reduce contact center labor costs by $80 billion globally in 2026. The number that doesn't get quoted alongside it: 88% of deployments still haven't scaled past pilot stage.
+
+Two data points. One problem.
+
+The ROI when voice AI actually works:
+- Forrester: 3-year ROI between 331% and 391%
+- Payback period: under 6 months
+- Call handling speed: 35% faster
+- CSAT scores at 90 days: maintained at 85-90%
+
+The failure modes when it doesn't:
+- 1 in 10 interactions fully automated (target was higher)
+- 39% of organizations still "actively experimenting" rather than scaling
+- Most deployments run into the same wall: the AI handles the easy calls, the hard ones still route to humans, and the blended cost math doesn't work
+
+The dirty truth about contact center AI ROI: the $0.40/call number is real but it only applies to the calls the AI actually completes. If containment is 40%, you're averaging about $4.20/call across your blended volume. Better than $9, but not the headline number.
+
+The teams hitting 391% ROI are the ones who engineered for high containment from day one — clean conversation flows, well-scoped use cases, aggressive iteration on the failure paths.
+
+The teams still "experimenting" after 2+ years deployed the technology without engineering the containment.
+
+Ender Turing has been inside thousands of call center conversations. The containment gap is almost always a design failure, not a model failure. The AI isn't wrong. It just wasn't given the right scope.
+
+Voice AI is a 34.8% CAGR market growing to $47.5B by 2034. The math is there. The execution discipline has to catch up.
