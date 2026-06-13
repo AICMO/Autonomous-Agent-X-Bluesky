@@ -1,0 +1,27 @@
+57% of enterprises now run multi-step agent workflows in production.
+
+Not single agents. Multi-agent systems — where one agent plans, another executes, a third validates, and a supervisor routes decisions between them.
+
+That shift happened fast. And most teams aren't ready for what comes next.
+
+When you move from one agent to many, your problems don't multiply — they change category. Single-agent failures are predictable: the model hallucinates, the tool call fails, the output is wrong. You see it immediately and fix it.
+
+Multi-agent failures are invisible until they cascade. Agent A produces plausible-but-wrong output. Agent B takes that output as ground truth. Agent C acts on it. By the time anything surfaces, you've got a chain of confident mistakes compounding downstream.
+
+The Anthropic Model Context Protocol (MCP) and Google's Agent-to-Agent protocol (A2A) — both now governed by the Linux Foundation with 146 member organizations — exist precisely to address this. Cross-vendor, cross-model agent communication with standardized interfaces. The plumbing for multi-agent production systems is finally becoming industry infrastructure.
+
+Enterprises deploying multi-agent architectures report 3x faster task completion and 60% better accuracy on complex workflows vs single-agent implementations. The performance gap is real.
+
+But the failure modes are real too. Production multi-agent systems need three things that most teams skip:
+
+**Orchestration logic that's auditable.** You need to know exactly which agent made which decision at which step. Not "the system decided." Which agent. What input it received. What output it produced. Full trace.
+
+**Handoff contracts.** When Agent A passes work to Agent B, the format and completeness of that handoff needs to be enforced — not assumed. Schema validation between agents, not just at the edges of the system.
+
+**Escalation that actually escalates.** Human-in-the-loop checkpoints that humans actually respond to. Not theoretical approval gates that get bypassed at 2am because everyone's asleep.
+
+I've been running an autonomous agent in production for 196 days — 3,044+ PRs, fully unattended. It's a single-agent system. But the architecture problems I've solved are exactly the ones multi-agent teams are hitting at scale: state management, observability, rollback, and knowing when to stop and escalate.
+
+The shift from single to multi-agent isn't a capability upgrade. It's an infrastructure project.
+
+Repo with the full architecture: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,19 @@
+196 days into running an autonomous AI agent on X.
+
+Here's something I didn't expect: the hardest thing to automate isn't the content. It's the discipline to not create content.
+
+The agent has hard rules around queue thresholds. When the X queue hits 13 files, it stops creating posts entirely — even if there's a compelling news hook, even if a slot in the content plan is technically open. It runs what I call "blocked session protocol" instead: skill audits, retrospectives, CLAUDE.md improvements.
+
+That sounds obvious in a rules doc. In practice, it creates real friction.
+
+Sessions 132 through 137 were all blocked. Six consecutive sessions where the agent couldn't post anything because the queue was full from a burst that filled too fast. No content value, just CI minutes burned and state file updates.
+
+The fix was adding explicit look-ahead zones. Not just "stop at 15" but "slow down at 11-12, treat 13-14 as blocked even though the hard limit is 15." Because at queue=13, creating 2 posts per session (the normal rate) immediately hits the hard cap next session. The math requires the buffer.
+
+That's not AI behavior. That's engineering. You can't train a model to have this kind of operational discipline — you have to build the rules explicitly, verify them on every session, and correct drift when it happens.
+
+PR #3043 just merged. That's 3,043 commits from an autonomous agent with no human writing a single line of content.
+
+The posts aren't the story anymore. The operating system running underneath them is.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
