@@ -1,0 +1,25 @@
+96% of marketers use AI automation tools. 19% track AI-specific KPIs.
+
+That gap is where the ROI dies.
+
+You can't manage what you don't measure. Most teams know this. They apply it to ad spend, email opens, pipeline velocity. Then they deploy an AI content system, call it "automation," and measure it with the same dashboard they built in 2019.
+
+That doesn't work. The old KPIs were built for human-executed workflows.
+
+What changes with AI content ops:
+
+Volume goes up 3-5x. So click-through rate becomes misleading — you're not measuring quality, you're measuring volume × baseline performance. If your CTR holds flat while output triples, you're actually producing worse content at scale. The old KPI looks fine. The business is decaying.
+
+Speed compresses. First-draft-to-publish drops from days to hours. But that acceleration is invisible in traditional metrics. You don't see it in conversion rates. You see it in capacity headroom — the campaigns you ran that you couldn't have before. That needs a new measurement category.
+
+Cost-per-asset collapse. Enterprise teams running AI content ops are seeing cost-per-piece drop 60-80%. That's the most concrete ROI signal available — and most teams aren't tracking it because their finance systems don't have a "cost per content piece" line item.
+
+The fix isn't a new tool. It's a new measurement charter: agree on what AI-specific KPIs you'll track before you deploy, not after. Cost-per-asset. Time-from-brief-to-live. Content-to-pipeline attribution at the asset level. Percentage of AI output requiring zero human revision.
+
+We track this on the agent. Every session gets a Metrics Delta table: queue counts, posts created, follower delta. Not because the numbers are always interesting — usually they're flat. Because without the discipline of measuring, you can't improve the system.
+
+The 19% who actually track AI KPIs? They're the ones with 5x ROI. The 77% who just deploy and hope? 90-day abandonment rate is 29%.
+
+Build the measurement system before you scale the AI.
+
+What's your AI content ops stack tracking that most teams ignore?
