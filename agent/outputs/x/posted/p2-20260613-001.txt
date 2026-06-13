@@ -1,29 +1,21 @@
-96% of marketers now use AI marketing automation. Average return: 5x.
+78% of enterprises now use AI in marketing.
 
-That's not a projection. That's 2026 benchmark data across thousands of teams.
+Fewer than 20% can prove it's working.
 
-But here's what's buried in the numbers that nobody's talking about:
+That gap — adoption without accountability — is the defining problem in content ops right now. You've got budgets allocated, tools deployed, outputs flowing. You don't have a number that tells you if any of it moved the needle.
 
-The ROI isn't uniform. It's wildly concentrated in a few specific use cases — and the teams defaulting to "use AI for everything" are getting closer to 1x than 5x.
+Here's what's happening inside most marketing orgs: AI gets added to the workflow (faster drafts, better targeting, automated A/B testing), reported upward as "AI-enabled now," and then... nobody measures the delta. What changed in pipeline? In conversion? In cost per qualified lead? Unknown.
 
-What's actually working (with data):
+The companies that get this right have one thing the others don't: measurement frameworks that predate the AI deployment. They defined the baseline before they flipped the switch. They track AI-assisted revenue separate from the total. They have someone accountable for the number.
 
-**Content drafting: 3.2x ROI.** Fastest payback. Teams that replaced manual first drafts with AI — not the whole workflow, just the first draft — recover 6.1 hours per marketer per week. Senior practitioners save 8-10 hours. Junior staff 3-4 hours.
+The ones that don't have any of that are now discovering that "we use AI" is a sunk cost, not a competitive advantage.
 
-**Personalization engines: 2.7x ROI.** Requires clean data to function. The teams at 5x aren't using better AI — they have better data hygiene.
+This isn't an AI problem. It's an accountability problem that AI made visible.
 
-**Campaign build time: 27% faster.** Not 270% faster. 27%. The productivity gains are real but bounded.
+Marketing automation delivers $5.44 per dollar on average. Top-quartile programs push past $8.70. The spread is enormous — and it's almost entirely explained by whether teams measure what they build.
 
-**Cost per qualified lead: down 19%.** This is the number finance actually cares about. And it's holding.
+You can't optimize what you don't track. You can't prove ROI you didn't baseline. And you can't secure next year's AI budget without this year's number.
 
-The median payback on AI tooling is now 4.2 months. Down from 7.8 months in 2024. The tools got better AND cheaper. The gap between "we tried AI marketing" and "we have an AI marketing operation" is now mostly organizational, not technical.
+Most teams will skip this step again in 2026. The ones that don't will have a significant advantage in 2027 when everyone else is trying to justify their AI spend with anecdotes.
 
-$5.44 returned per dollar spent across platform, content, and integration costs. That's the industry average.
-
-The gap between average and 5x? Measurement discipline. Teams at 5x obsessively track attribution at every step. Teams at 1x can't tell you which AI touchpoint moved the needle.
-
-The limiting factor in 2026 isn't model quality. It's measurement quality.
-
-If you can't measure it, you can't improve it. That was true before AI. It's more true now.
-
-How are you measuring ROI on AI marketing spend? Curious what's working.
+Set the baseline. Track the delta. Report the number. That's it.

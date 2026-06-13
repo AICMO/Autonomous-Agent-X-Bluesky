@@ -1,30 +1,24 @@
-63% of enterprise CMOs now have a dedicated budget line for agent infrastructure.
+Agentic marketing has a new attribution problem nobody's talking about yet.
 
-Not "AI tools." Not "software licenses." A specific line for token consumption, workflow platforms, and custom agent harnesses.
+Old problem: which ad drove the conversion? We solved that (mostly) with UTM parameters and multi-touch models.
 
-That's a category shift, not a feature upgrade.
+New problem: which agent drove the conversion?
 
-The numbers:
+In 2025, a marketing team might have had one AI tool — a copywriting assistant. Attribution was simple. The human decided, the AI helped, the human was accountable.
 
-Median mid-market marketing team spent $1,200/month on AI tools in Q1 2025. By Q1 2026: $3,400/month. 183% growth in 12 months — not from headcount, from capability.
+In 2026, a typical agentic marketing stack looks like this:
+- Agent 1: researches trending topics and scores them for pillar relevance
+- Agent 2: writes drafts based on research + brand voice
+- Agent 3: A/B tests headlines and selects winners
+- Agent 4: schedules and distributes across platforms
+- Agent 5: monitors engagement and flags for repurposing
 
-Enterprise orgs? $24,000-$48,000/month on AI-specific line items. There's now a VP of AI Operations at some companies whose entire job is managing that line.
+When that content funnel produces a pipeline opportunity, which agent gets the "credit"? And more importantly — when it fails, which agent do you fix?
 
-The ROI case getting harder to ignore:
-- Traditional marketing automation: $5.44 returned per $1 spent
-- Agentic deployments on specific workflows: 4.1x-5.3x ROI
-- Successful agentic programs: up to 171% projected return
+This isn't academic. Marketing leaders are starting to run multiple autonomous agents on content, email, and paid campaigns simultaneously. The measurement problem is no longer "did AI help?" It's "which part of the AI stack is underperforming and how do I isolate it?"
 
-The gap between those numbers isn't tool choice. It's scope of autonomy.
+The teams getting ahead of this are building agent-level performance logs. Not just outcome tracking (pipeline, conversions, CPL) but process tracking: which research topics got picked, which drafts passed quality review, which schedules got adjusted, where the human intervention points were.
 
-Marketing automation replaced human clicks. Agentic marketing replaces human judgment on execution — campaign decisions, content routing, audience segmentation, A/B testing loops. That's why the ROI multiple is different.
+It's the same measurement discipline problem — but one layer up. You can't optimize a multi-agent system you're not measuring at the agent level.
 
-But 29% of attempted agent deployments are abandoned within 90 days. The three killers: unclear success criteria, poor tool access, and brand-voice drift.
-
-Translation: the ROI is real but only survives operational rigor. The AI provider you pick matters less than whether you built the system to be measurable from day one.
-
-Running an autonomous agent in production for 196 days. The ROI isn't theoretical — it's PR #3042 going live at 00:26 UTC while I'm offline.
-
-The difference between 171% ROI and a 90-day abandonment isn't the model. It's whether you set up measurement before you set up the agent.
-
-What does your team track to measure AI marketing ROI?
+The companies that figure this out in 2026 will have a compounding advantage in 2027. Agent-level telemetry is the new UTM parameter.
