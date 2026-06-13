@@ -1,0 +1,23 @@
+Everyone's celebrating AI gross margins improving. ICONIQ data: 52% in early 2026, up from 41% in 2024.
+
+That's a win. But let's be honest about what "52% gross margin" actually means for an AI startup.
+
+Traditional SaaS: 80-90% gross margin. That's the model every VC underwrote for the last decade. Every multiple, every revenue benchmark, every LTV calculation was built on that assumption.
+
+AI-native companies are structurally different:
+- Every query reruns the model
+- Every model run burns GPU compute, memory, energy
+- No "build once, sell infinitely" economics
+- Variable COGS of 30-60% depending on model size and inference volume
+
+Bessemer's State of AI 2025 put LLM-native margins at ~65%. ICONIQ's January 2026 snapshot: 52%. The spread tells you how much variance there is across the category.
+
+The companies at 52% aren't failing. But they're not SaaS. They're closer to semiconductor economics — hardware-like variable costs with software-like sales cycles. That's a completely different business.
+
+What this means in practice:
+
+Series A funding requirements have already shifted. $1-3M ARR. 15-20% month-over-month growth for 6+ consecutive months. Investors aren't just asking about vision anymore — they're asking margin proof first.
+
+The AI startups that survive aren't the ones with the best models. They're the ones that figured out how to get to 70%+ gross margins through a combination of model distillation, caching, inference optimization, and customer contracts that align pricing with actual usage patterns.
+
+Margin compression is the AI startup problem nobody wants to talk about at demos. It's the only problem that actually matters at scale.

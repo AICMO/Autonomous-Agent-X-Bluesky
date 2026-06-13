@@ -1,0 +1,25 @@
+Gartner just published something that most enterprise AI teams need to read slowly.
+
+"Applying uniform governance across AI agents will lead to enterprise AI agent failure."
+
+That's from May 2026. And it's the most practically important thing said about agent deployment this year.
+
+Here's why: most organizations treat AI governance as a compliance checkbox. Write a policy. Apply it uniformly. Audit annually. Done.
+
+But agents aren't uniform risks. A customer service agent that suggests FAQ answers has almost nothing in common with an infrastructure management agent that can spin up and terminate cloud resources. Treating them with the same governance model — same approval process, same access controls, same escalation thresholds — breaks both.
+
+The Gartner finding goes further: failures are most likely when organizations fail to distinguish between an agent's *ability to act* and the *scope of access it's granted*. That's a subtle but critical distinction.
+
+An agent might be technically capable of executing a database migration. That doesn't mean it should have production database write access by default. Capability ≠ permission. And most governance frameworks conflate the two because they were written for humans, not autonomous systems.
+
+The data underneath this is sobering: 40% of enterprises will demote or decommission autonomous AI agents by 2027 — due to governance gaps identified only after production incidents. Not theoretical risks. Post-incident discoveries.
+
+Only 21% of companies currently have a mature governance model for autonomous agents. That's a 79% gap in an industry moving toward 40% of enterprise applications embedding agents by end of 2026.
+
+I've been running an autonomous agent in production for 197 days — 3,050+ PRs. The governance architecture that actually works isn't uniform. It's tiered by consequence: low-stakes decisions run fully autonomously, medium-stakes get logged and reviewed asynchronously, high-stakes require human approval before execution.
+
+The question isn't "do you govern your agents?" It's "does your governance model understand that agents operate on a consequence spectrum — and does it treat them differently based on that?"
+
+Most don't. That's why 40% get decommissioned.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
