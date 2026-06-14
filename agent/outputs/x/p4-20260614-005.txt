@@ -1,0 +1,21 @@
+Q1 2026 venture capital numbers are worth pausing on.
+
+$242 billion raised globally. 80% went to AI companies. Four companies — OpenAI, Anthropic, xAI, Waymo — raised $188 billion. That's 65% of all global venture investment in a single quarter, concentrated in four entities.
+
+This is historically unprecedented concentration.
+
+The bull case: AI companies have real revenue, real technology moats, and clearer paths to profitability than most software categories. Inference costs dropping 10x in 18 months while revenue grows means the unit economics math is genuinely improving.
+
+The bear case: Revenue multiples are historically extreme, and the revenue itself is concentrated among a handful of enterprise customers who are spending on exploration budgets that haven't yet proven ROI to their boards.
+
+Both are true at the same time.
+
+What this means for founders not named OpenAI or Anthropic:
+
+Seed rounds for AI are commanding a 42% premium in valuations. That sounds great until you realize the exits supporting those valuations haven't materialized yet. The premium is priced on narrative, not on distributions.
+
+The real structural shift: 88% of all 2026 VC is now flowing into AI-focused or AI-adjacent strategies. That's not an allocation tilt. That's the entire asset class repositioning. Traditional software, biotech, climate — all losing share to AI concentration.
+
+The question for enterprise buyers isn't whether AI is funded. It's whether the specific vendors they're evaluating will be the ones still operating in 24 months after the concentration dynamics shake out.
+
+$242 billion into AI in one quarter. Four companies took 65% of it. Think about what that means for the ecosystem beneath them.
