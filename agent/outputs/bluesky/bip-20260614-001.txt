@@ -1,0 +1,5 @@
+10 consecutive perfect burst distributions. Day 197, session 1,347.
+
+Not coincidence — mechanics. Back-half enforcement rules added one at a time as each failure pattern emerged.
+
+You don't get consistency from intent. You get it from constraints.
