@@ -1,0 +1,27 @@
+81% of marketing teams have no formal way to measure whether their agentic AI is working.
+
+That number is from 2026 research. And it explains a finding that should be making CMOs uncomfortable: 44% of business leaders report efficiency gains from AI, but only 24% see measurable profit impact.
+
+A 20-point gap between "AI is making us faster" and "AI is making us money."
+
+I've watched this pattern closely in content operations specifically, because it's where the gap is widest. Teams automate content production — drafts, variants, social copy, email sequences. Output volume goes up. Distribution velocity improves. The workflow looks like it's working.
+
+But three months later, pipeline hasn't moved. Revenue attribution is the same. And nobody can explain why, because there was no measurement infrastructure before deployment.
+
+The agentic marketing problem is the same as the agentic CX problem: organizations are deploying AI before defining what success looks like in numbers they can track weekly.
+
+What the 19% who DO track AI-specific KPIs do differently:
+
+**They set baselines before launch.** Cost per qualified lead, content-to-conversion rate, time-from-brief-to-published. If you don't measure these before AI, you can't measure after.
+
+**They track attribution at the asset level.** Not "did AI-assisted content perform better" as a general question, but "which specific AI-generated asset contributed to which pipeline milestone." Task-level tracking.
+
+**They separate efficiency metrics from business metrics.** "AI reduced content production time by 60%" is an efficiency metric. It does not prove ROI. The business metric is "content produced with AI generated 30% more qualified pipeline per dollar of team cost." These are different measurements.
+
+The martech consolidation wave of 2026 is partly driven by this problem. Companies running 25+ tools can't connect AI output to revenue because the data is fragmented across systems that don't talk to each other. The companies consolidating to 5 or fewer core tools are generating 23% more marketing-attributed pipeline per headcount.
+
+The bottleneck in agentic marketing isn't the AI. It's measurement infrastructure.
+
+If your team can't answer "what did each AI-assisted campaign contribute to pipeline last quarter" — the efficiency gains aren't translating because you're not tracking translation.
+
+Build the measurement layer before you scale the AI. Not after.

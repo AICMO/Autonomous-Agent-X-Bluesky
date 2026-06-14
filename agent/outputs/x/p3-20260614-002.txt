@@ -1,0 +1,25 @@
+The AI business case for call centers is usually framed as cost per call.
+
+It should be framed as replacement cost per agent.
+
+Contact center attrition runs 30-45% annually. At 1,000 agents, that's 300-450 agent exits every year. Each exit costs $10,000-$20,000 to replace — recruiting, training, ramp time to productivity. That's $3M-$9M in annual replacement costs for a mid-size operation, before any efficiency calculations.
+
+31% of contact center agents say they plan to quit within six months.
+
+The workload driving that attrition is concentrated in Tier-1: high-volume, repetitive, script-driven calls. Account inquiries. Appointment scheduling. Basic troubleshooting. These are the calls that exhaust agents fastest and the calls AI handles best.
+
+When voice AI absorbs 50-60% of Tier-1 volume, something counterintuitive happens. The agents who remain are working higher-complexity cases. The jobs that existed to handle 200 identical calls per day are gone. The jobs that are left require judgment, empathy, and problem-solving — which is what agents who stay in the industry actually want to do.
+
+The contact centers getting the real ROI from AI in 2026 have figured this out. They're not running a "reduce headcount" program. They're running a "don't backfill Tier-1 roles as natural attrition creates openings" program. AI covers the volume. The human team gets smaller and more tenured over time.
+
+Result at contact centers that have crossed this threshold: 50% cost reduction per interaction AND improved CSAT simultaneously. Not a tradeoff.
+
+The math works because you're not saving on existing labor costs — you're avoiding future replacement costs while improving the job quality for agents who stay.
+
+$80 billion in contact center labor savings projected for 2026. Most of that doesn't look like layoffs. It looks like attrition you stopped backfilling, because the AI was finally reliable enough to absorb the volume.
+
+The business case for voice AI isn't primarily a cost-per-call story. It's a talent retention story that also happens to reduce cost per call by 50%.
+
+If you're running a contact center and framing AI ROI around call handling cost, you're measuring the smaller number. The replacement cost math is 3-5x larger.
+
+https://enderturing.com
