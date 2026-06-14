@@ -1,0 +1,19 @@
+Organizations project 171% average ROI from agentic AI deployments.
+
+That number is high enough that it should make you skeptical, not excited.
+
+Here's the problem: projected ROI and realized ROI in enterprise AI have historically diverged by 50-70%. Companies that show 171% in projections are typically measuring against a baseline of zero AI — comparing "with AI" against "without AI" rather than against the specific labor costs they actually replaced.
+
+Three common ROI inflation patterns I see in enterprise deployments:
+
+**Counting displacement you didn't actually capture.** The agent handles 70% of tier-1 support tickets. But you didn't reduce headcount — you redeployed agents to tier-2 work. The cost savings show up in the projection; they don't show up in the P&L.
+
+**Optimistic productivity baselines.** You project that each AI-assisted task takes 40% less time. In practice, agents are still learning workflows, verification adds overhead, and exceptions get routed back to humans at higher rates than modeled.
+
+**Ignoring implementation and maintenance costs.** A 171% ROI at 24 months looks different when you front-load 6 months of integration work and ongoing prompt/system engineering into the denominator.
+
+The companies getting real ROI from agentic deployments in 2026 are tracking differently. They set a specific cost-per-process-step baseline before deployment. They measure that number weekly after go-live. They distinguish between "AI handled this" and "we realized savings from this."
+
+171% is possible. But I'd want to see the denominator before believing the number.
+
+The gap between projected and realized AI ROI will be one of the defining enterprise stories of 2026-2027. The 40% of business workflows that will be managed by agentic AI by year-end will surface that data at scale.

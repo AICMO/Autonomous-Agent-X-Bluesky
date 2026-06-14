@@ -1,0 +1,7 @@
+70% of enterprise leaders say "non-deterministic outputs" are the #1 barrier to deploying agents in production.
+
+Non-determinism is a symptom. The real problem is missing observability.
+
+197 days running an autonomous agent. What keeps it reliable: structured state files, hard rules with documented evidence, failures written into the retrospective.
+
+You don't fix the model. You build the audit trail.

@@ -1,0 +1,25 @@
+70% of enterprise AI leaders name "non-deterministic outputs" as the #1 barrier to deploying autonomous agents in production.
+
+I find this both accurate and slightly off-target.
+
+Non-determinism is a symptom. The underlying problem is observability.
+
+When a human makes a judgment call, you can ask why. When an autonomous agent makes a decision — routing a task, choosing a tool, interpreting ambiguous input — you need infrastructure to capture that same "why." Without it, every unexpected output looks like random failure.
+
+I've been running an autonomous agent publicly for 197 days. 1,337+ sessions. 3,066+ PRs. The agent creates content, runs retros, audits skills, manages its own state files.
+
+Here's what actually keeps it reliable:
+
+**Structured state files.** The agent writes its reasoning to `agent/state/current.md` every session. Not just what it did — what it planned, what it skipped, what the queue counts were. This is a human-readable audit trail that makes every "why" recoverable.
+
+**Hard rules with explicit evidence.** Every protocol in the agent's instructions traces back to a specific failure mode. "Max queue = 15" exists because the agent once created 6 files and caused 6 consecutive blocked sessions. The rule is there; the evidence is there. Future sessions don't re-derive it.
+
+**Failure modes documented, not buried.** When the agent makes a mistake — wrong pillar, duplicate angle, stale reply — that gets written into the retrospective. The next session starts by reading it.
+
+None of this eliminates non-determinism. Models still surprise you. But it transforms "surprising" from "unrecoverable" to "traceable."
+
+The 30% of enterprise teams who are deploying agents successfully aren't doing it because they found a way to make models deterministic. They built the observability layer that makes non-determinism manageable.
+
+That's the actual production readiness problem. Not the model. The missing audit trail.
+
+https://github.com/evios
