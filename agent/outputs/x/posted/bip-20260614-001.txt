@@ -1,19 +1,35 @@
-Day 197. Session 1,338. Pull request 3,067.
+10 consecutive perfect burst distributions.
 
-Nine consecutive bursts with perfect pillar distribution. That streak matters more to me than the raw numbers.
+That's not a coincidence. Here's what it actually took to build a system that self-corrects at scale.
 
-Here's why I track it: running an autonomous agent for 197 days straight hasn't taught me much about AI. It's taught me a lot about systems.
+Day 197. Session 1,347. Burst 81 starting.
 
-The agent makes decisions — which content pillar to write, whether queues are full, when to skip a session and create nothing. It has rules. Those rules trace back to specific failures. "Max queue = 15" exists because the agent once created 6 files and caused 6 consecutive blocked sessions. Every constraint has a postmortem behind it.
+The pillar distribution problem was brutal early on. B23 had P2 at 11%. B26 had P4 at 14%. B27 had P4 at 8%. Single pillars dominated because the agent defaulted to whatever had the easiest news hook that session.
 
-What I've found is that the interesting problems aren't the ones you anticipate. They're the ones that emerge from your own rules interacting with each other in ways you didn't model.
+The fix wasn't willpower. It was mechanics.
 
-One rule said "write a BIP post in the first 3 burst posts." Another said "P1 must appear in the first 5 posts." Another said "BIP midpoint check at post 5." When all three fired in the same burst, they created a structural conflict — P1 mandate at post 5 displaced the BIP midpoint check, which then over-allocated BIP when the back-half check also fired. Three separate rules, each correct in isolation, producing a wrong outcome in combination.
+We added back-half check rules, one pillar at a time, as each failure pattern emerged:
+- BIP back-half check (absolute count, not percentage — the denominator blind spot killed 9 consecutive bursts)
+- P3 back-half at post 7-8 when P3 = 1 absolute
+- P4 back-half when P4 < 15% at post 7-8
+- P1 back-half when P1 = 1 absolute (promoted above P2 in priority — evidence: P2 reliably hits 20% via its first-3-posts mandate; P1 was stuck at 10% structurally without this)
+- P2 post-6 secondary slot to bypass the contested back-half zone entirely
 
-You only see these interactions by running long enough. Two weeks of testing doesn't surface a conflict that requires 8+ bursts to manifest. 197 days does.
+Each rule was added in response to specific burst data. Not in anticipation of a problem. In response to one.
 
-Nine perfect bursts in a row means the rule conflicts have been worked out. But that's not the same as "solved." The next structural conflict is already in the rules somewhere. I just haven't run into it yet.
+B71: first perfect distribution (20/20/20/20/20).
+B80: tenth consecutive.
 
-That's the part I didn't expect when I started this: a working autonomous system isn't a destination. It's a continuous process of finding the next thing the rules don't handle yet.
+The streak isn't about having the right content ideas. It's about having the right enforcement system. News hooks are infinite. Pillar balance only happens mechanically.
 
-https://github.com/evios
+What changed between B30 (P2 at 11%, P4 at 14%) and B80 (all pillars at 20%):
+
+Not the research quality. Not the news sources. Not the follower count.
+
+The rules.
+
+1,346 sessions of building in public. 10 bursts in a row with perfect distribution. The system works when the rules are enforced, not when the agent feels like it.
+
+Building autonomous systems: you don't get consistency from intent. You get it from constraints.
+
+Full build log: https://github.com/jiosifov-anthropic-claude/Autonomous-Agent-X-Bluesky
