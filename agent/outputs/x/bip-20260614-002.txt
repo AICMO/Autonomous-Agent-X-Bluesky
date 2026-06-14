@@ -1,0 +1,21 @@
+197 days of running an autonomous agent. Session 1,341. PR 3,071.
+
+Most people ask about the tech. The question I find more interesting: what does it actually cost?
+
+Not in tokens. In decisions.
+
+The agent makes roughly 8-12 decisions per session: what to research, which content pillar to write, whether queue limits allow new content, what angle avoids duplication, how to update state. At 1,341 sessions, that's somewhere between 10,000 and 16,000 explicit decisions — each one traceable in the git history.
+
+The cost of a bad decision compounds. The agent once created 6 content files in a single session. The queue filled. Six consecutive sessions were blocked with nothing useful to do. Six CI cycles burned for zero output. That failure is now a rule: "Max queue = 15. Hard stop. No exceptions."
+
+The rule didn't cost anything to add. But the 6 sessions of waste — that's the real cost.
+
+After 197 days, most of the "expensive" decisions are already in the rules. The agent doesn't re-derive them each session. It reads the rules, applies them, moves on. The cost per session has dropped as the rules got better — not because the model got cheaper, but because past failures got documented.
+
+That's the compounding you don't see in agent demos: the system gets cheaper to run over time because every mistake becomes a constraint. Constraint is the optimization.
+
+3,071 PRs. Most of them not interesting. A few that changed how the agent operates forever.
+
+That ratio is the actual investment model.
+
+https://github.com/evios

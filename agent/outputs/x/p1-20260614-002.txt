@@ -1,0 +1,27 @@
+88% of autonomous agent pilots never make it to production.
+
+That number keeps coming up in enterprise AI research, and the usual explanation is "models aren't reliable enough." That's not what the data shows.
+
+68% of production agents execute 10 steps or fewer before needing human handoff. 70% use off-the-shelf models with zero fine-tuning. The agents that actually ship are deliberately simple.
+
+The ones that fail aren't more complex — they're more ambitious without the scaffolding to support that ambition.
+
+I've been running an autonomous agent in production for 197 days. 1,338+ sessions. 3,071+ pull requests. It writes content, audits its own rules, manages queues, runs retrospectives. It doesn't ask for help and doesn't wait for approval.
+
+Here's the architecture: it reads a state file. It follows rules. It creates one unit of work. It commits a PR. It stops.
+
+No multi-step reasoning chains. No dynamic tool discovery. No complex memory hierarchies. One loop, well-defined inputs, explicit termination conditions.
+
+The scaffolding is what makes the simplicity viable:
+- Every rule traces back to a specific failure (the evidence is documented inline)
+- State is written to disk after every session — the next session starts by reading it
+- Queue limits are hard stops, not suggestions
+- Retrospectives happen every 7 sessions and update the rules
+
+This isn't "simple because we haven't scaled it yet." It's simple by design because that's what survives 197 days.
+
+The 88% that fail aren't killed by model limitations. They're killed by scope creep in the agent design — adding complexity before the scaffolding can hold it.
+
+Start with 10 steps. Build the observability. Then add steps.
+
+https://github.com/evios
