@@ -1,0 +1,7 @@
+Content teams with agents in the approval loop: 1.8-day cycles.
+
+Everyone else: 4.7 days.
+
+34% of enterprise marketing teams now run at least one agent in production. Up from 14% in Q4 2025. A 2x jump in one quarter.
+
+The bottleneck was never drafting speed. It was the approval loop.
