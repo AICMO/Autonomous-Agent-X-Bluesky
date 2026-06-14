@@ -1,0 +1,31 @@
+AI voice agents score 4.1/5 CSAT. Human agents score 4.3/5.
+
+On paper, that's a 0.2-point gap. Manageable. Executives see this in vendor benchmarks and think: acceptable tradeoff for 50-60% cost reduction.
+
+What they miss: proper hybrid escalation closes that gap to 0.05 points. Pure-AI is 4.1. Human-AI hybrid with clean handoffs lands at 4.25. You can have both the cost reduction AND near-parity CSAT.
+
+But most deployments never reach that state. They stay stuck at 4.1 or worse, and here's why.
+
+The handoff is where contact center AI dies.
+
+The failure pattern I see consistently: company deploys AI voice agent, deflects 40-60% of volume, and discovers CSAT damage at the quarterly review. By then, 3-4 months of customer experience data is already negative. Some of those customers have churned.
+
+What went wrong? Three things, almost always in combination:
+
+**1. No QA layer on AI output.** The AI handled 50,000 calls. No one reviewed what it said on those calls. Compliance exposure, off-script responses, confusing IVR loops — all invisible until a customer complaint escalates or someone audits a random sample.
+
+**2. The handoff lost context.** Customer spent 3 minutes explaining their issue to the AI. Transfer happens. Human agent picks up cold — no summary, no intent, no sentiment flag. Customer repeats themselves. CSAT drops 0.4-0.6 points on repeated-context calls alone.
+
+**3. Escalation trigger was wrong.** Most teams set escalation at "customer says agent" or "confidence score below X." Both miss the real trigger: frustration detected before the explicit escalation request. By the time a customer asks for a human, they're already at 3/5 CSAT.
+
+The contact centers closing the CSAT gap to 0.05 points built three things the others skipped:
+
+Automated QA that samples AI calls and flags deviations (not just human calls). Clean handoff context — AI packages a 2-3 sentence summary plus sentiment score before transfer, human agent sees this before picking up. Proactive escalation triggers based on sentiment detection in real-time, not wait-for-keyword logic.
+
+None of this is exotic technology. It's operational discipline applied to the AI layer the same way it was applied to the human layer.
+
+91% of contact center leaders are under pressure to show AI ROI. Most show deflection rate and cost-per-call. The leaders measuring CSAT delta between AI-handled and hybrid-handled calls — and actually improving it — are the ones with sustainable programs.
+
+The 0.2-point gap is closable. The question is whether you built the infrastructure to close it.
+
+https://enderturing.com
