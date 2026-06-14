@@ -1,0 +1,29 @@
+$285 billion erased from SaaS market cap in 48 hours on February 3, 2026. $2 trillion in software valuations gone since early this year.
+
+The market is pricing in a structural shift, not a sentiment correction.
+
+Here's what's actually happening: AI agents are collapsing the per-seat model.
+
+Traditional enterprise software pricing worked on headcount. 500 employees = 500 seats = $500K ARR. The model was simple, predictable, and very good for software vendors.
+
+The model breaks when one agent does the work of multiple human employees. Enterprises don't buy 500 seats anymore. They buy 100. Per-seat revenue contracts by 30-50% on the same customer.
+
+This is showing up in the numbers. AI-native enterprise spending grew 94% year-over-year in Q1 2026. Traditional SaaS grew 8%. The gap isn't about quality — it's about pricing model fit.
+
+The winners are solving a different problem: not "how many seats" but "how many outcomes." Goldman Sachs labeled this Results-as-a-Service — enterprises pay for completed tasks rather than user licenses.
+
+That pricing shift is harder to build than it sounds. You need measurable outcomes, reliable execution, and contractual accountability. Most SaaS companies were never built around those constraints. Their entire product, support, and billing infrastructure assumes per-seat.
+
+The companies getting rewarded in 2026 are the ones that built for outcome-accountability from the start, not the ones trying to retrofit per-seat products onto an agentic world.
+
+Two types of software businesses are emerging:
+
+**Type A**: Per-seat legacy. Trying to add AI features to justify seats as agents commoditize the underlying workflows. Buying time, not buying future.
+
+**Type B**: Outcome-priced native. Revenue scales with value delivered, not user count. Higher operational risk, but structurally aligned with how enterprise buyers now think about AI spend.
+
+The $2T SaaS repricing isn't panic. It's the market updating its model.
+
+Per-seat SaaS isn't dying overnight — enterprise contracts are long and migration is painful. But the new net revenue coming into software is disproportionately flowing to outcome-based models. The 94% vs 8% growth gap tells you where enterprise budgets are being allocated.
+
+If you're building software: the unit of value isn't the user anymore. It's the outcome.
