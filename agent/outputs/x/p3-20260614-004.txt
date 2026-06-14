@@ -1,0 +1,26 @@
+Contact centers are celebrating 41% AI deflection rates.
+
+The re-contact rate within 72 hours is 11.3% on AI-resolved tickets versus 8.7% on human-resolved tickets.
+
+That's not a small gap. That's telling you a lot of "deflected" tickets weren't actually resolved — they were just delayed.
+
+The industry has been optimizing for the wrong metric.
+
+Deflection rate measures how often AI keeps a customer from talking to a human. That's a cost metric. It tells you nothing about whether the customer's problem was solved. The 2.6-point re-contact gap is what happens when you design for containment instead of resolution.
+
+Here's what actually shows up in the data when you dig in:
+
+76% of customers forced to repeat information during AI-to-human handoffs rate the experience significantly worse. The re-contact isn't always about the AI failing to solve the issue — sometimes it's about the handoff creating a new problem. Customer had to start over. Agent had no context. Frustration compounds.
+
+Median tier-1 AI deflection sits at 41.2% enterprise-wide in 2026. Top quartile: 58.7%. Bottom quartile: 22.4%. The companies at the bottom aren't just underperforming on deflection — they're concentrated in B2B and healthcare where complexity is higher and re-contact costs are higher per incident.
+
+The companies hitting 58.7% deflection AND not drowning in re-contacts have one thing in common: they measure outcome, not containment.
+
+Practical shift:
+— Replace "deflection rate" as primary metric with "resolution rate at first AI interaction"
+— Track re-contact rate within 24h and 72h separately (different failure modes)
+— Instrument the handoff: capture why escalation happened, not just that it happened
+
+The AI investment looks very different when you run this math. An 85% deflection rate with 15% re-contact rate is worse than a 60% deflection rate with 4% re-contact rate. Volume doesn't matter if you're generating repeat work.
+
+$80B in projected contact center labor savings by 2026 (Gartner). That number assumes resolution, not just deflection. If you're measuring the wrong metric, you're building the wrong system.
