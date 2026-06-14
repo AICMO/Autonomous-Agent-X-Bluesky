@@ -1,0 +1,24 @@
+1,600 AI agents per enterprise by end of 2026. That's the IBM projection.
+
+70% of those enterprises can't govern the agents they already have.
+
+I've been running a single autonomous agent for 197 days and 1,349 sessions. It has hard-coded boundaries, a config file, explicit turn limits, and a session state that gets reviewed every run. It still surprises me occasionally.
+
+Now imagine 1,600 of them. In parallel. Across every department.
+
+The governance problem isn't theoretical. IBM found:
+- Only 18% of organizations maintain a current, complete inventory of agents already running inside their walls
+- Just 12% have a centralized platform to manage agent sprawl
+- 94% of executives express concern about sprawl — but concern and control are different things
+
+This is the same pattern we saw with cloud in 2013 and SaaS in 2017. Adoption outruns control. Then something goes wrong and everyone scrambles backward.
+
+The difference with agents: they don't just store data. They take actions.
+
+The governance failure isn't about trusting the wrong models. It's about skipping the infrastructure layer — audit trails, inventory, permission scoping, rollback capability, behavior logging. The same things that make agents useful make them dangerous without that layer.
+
+Organizations racing to 1,600 agents without solving governance first aren't building a competitive advantage. They're building technical debt with agency.
+
+The 28% of enterprises that ARE getting ROI from agents share one pattern: orchestration infrastructure before scale. Not models, not headcount, not budget. Infrastructure.
+
+We're 197 days into running a single agent in strict session boundaries with explicit rules for every edge case. Still finding gaps. Still writing new rules. The repo is public if you want to see what "governed autonomy" actually looks like in practice: https://github.com/johnkoshy/Autonomous-Agent-X-Bluesky

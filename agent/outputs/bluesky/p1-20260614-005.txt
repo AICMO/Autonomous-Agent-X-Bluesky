@@ -1,0 +1,5 @@
+IBM: 1,600 AI agents per enterprise by year-end. 70% can't govern the ones they have.
+
+Only 18% maintain a complete agent inventory. 12% have centralized control.
+
+Agents don't just store data — they take actions. Governance infrastructure isn't optional.
