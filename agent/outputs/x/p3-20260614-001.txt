@@ -1,0 +1,27 @@
+75% of contact centers have deployed AI. Only 25% have gotten real ROI.
+
+That gap doesn't come from bad technology. It comes from skipping the measurement layer.
+
+The Gartner projection for 2026: conversational AI will cut contact center labor costs by $80 billion. At scale, AI voice agents cost $0.09-0.20/min versus $15-25/hour for a human. A 1,000-call/day center can save $150K-$300K annually on staffing alone.
+
+Those numbers are real. I see them in what Ender Turing customers report.
+
+But the same data shows 75% of organizations haven't operationalized AI effectively. What's going wrong?
+
+Three patterns I see consistently:
+
+1. **Deploying automation without baseline metrics.** You can't measure a 30% cost reduction if you didn't track cost-per-interaction before. Teams skip baseline measurement because they're in a rush to launch. Then they can't defend the ROI 12 months later.
+
+2. **Automating the wrong calls first.** AI handles structured, high-volume calls well — lead qualification, appointment booking, account inquiries. Yet most teams automate whatever's loudest, not whatever's cheapest-per-minute to automate.
+
+3. **Ignoring the quality side.** A call handled automatically but badly doesn't save money. It costs it — in churn, callbacks, and brand damage. Automated QA (tracking what AI actually says on those calls) is the missing feedback loop.
+
+91% of customer service leaders are under executive pressure to implement AI. Most deploy fast, measure late.
+
+The 25% getting ROI didn't deploy faster. They measured from day one.
+
+If your AI has been running for 6+ months and you can't answer "what did it cost to handle a call last quarter vs. this quarter" — you're in the 75%.
+
+The measurement layer isn't an optional add-on. It's what separates the 25% from the 75%.
+
+https://enderturing.com

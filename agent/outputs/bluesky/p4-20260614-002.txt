@@ -1,0 +1,10 @@
+AI-native gross margins: 41%→45%→52% in 3 years.
+
+SaaS at scale: 70-80%.
+
+The gap: inference costs + VC subsidy. OpenAI loses $1.35/dollar earned. That pricing ends in 12-24 months.
+
+Type A startup: built on current economics, no architectural work.
+Type B: cost-aware from day one.
+
+Model your margins at 2x current inference pricing. That's the real stress test.

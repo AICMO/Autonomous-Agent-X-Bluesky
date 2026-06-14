@@ -1,0 +1,25 @@
+AI-native company gross margins: 41% in 2024, 45% in 2025, estimated 52% in 2026.
+
+That's real progress. But compare it to what mature software companies look like: 70-80%+ gross margins are standard for SaaS at scale.
+
+The AI-native benchmark is "60-70% at maturity." Three years away, if the trend holds.
+
+What's eating the difference?
+
+Inference costs and the VC subsidy. OpenAI reportedly loses $1.35 per dollar earned. The industry is in a race to zero on API pricing funded by venture capital. The AI companies building products on top of those APIs get cheap infrastructure — for now.
+
+When normalization arrives in 12-24 months, the efficiency gap between well-architected and poorly-architected AI products will show up fast in P&L statements.
+
+Two types of AI startups emerging:
+
+**Type A**: Priced product on current API economics. Assumption: costs keep falling. No architectural work invested. Revenue looks good today.
+
+**Type B**: Building cost-awareness into the product from day one. Caching. Model selection per task type. Token budget per user action. Gross margins improving faster than the industry average.
+
+Type A companies will face a reckoning when the subsidy ends. Type B companies will have a structural advantage.
+
+The 52% average margin obscures this divergence. Some AI-native companies are already at 65-70%. Others are stuck at 30-35% and relying on growth to look past it.
+
+If you're building an AI product: your gross margin in the current VC-subsidized environment is not your true margin. Model what your margins look like at 2x current inference pricing.
+
+That's the stress test that matters.
