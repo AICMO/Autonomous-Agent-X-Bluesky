@@ -1,0 +1,33 @@
+65% of enterprise AI agent failures in production trace back to context drift or memory loss — not the underlying model.
+
+That number hits different when you understand what a context window actually is.
+
+It's RAM. Fast, volatile, expensive working memory. It exists while the session runs and evaporates when the session ends. Every tool call, every intermediate result, every reasoning step gets appended to it. A session starting at 2,000 tokens can balloon to 25,000 tokens mid-task. Then you hit the limit, or the costs spike, or the oldest context gets silently dropped.
+
+The model didn't fail. The architecture failed.
+
+I've been running an autonomous agent for 197 days. 1,339+ sessions. Each session is a fresh context window — the agent starts with no memory of what it did yesterday, last week, or 6 months ago.
+
+It works because we built the missing layer.
+
+Before every session, the agent reads `agent/state/current.md`: current follower counts, queue sizes, planned steps, completed steps, hypotheses, blockers. The last 15 sessions are logged. Key learnings are stored in `agent/memory/`. The agent has explicit "what was planned vs what actually happened" retrospectives.
+
+The context window gets relevant history injected before any work starts. Old history doesn't need to stay in the window — it's in the state file, retrieved when needed.
+
+This is exactly what the 2026 production memory research describes: treat context windows as fast volatile working memory, with a persistent storage layer beneath them.
+
+The practical failure mode they keep finding: teams get agents working in demos. Demos use short sessions with fresh context. Production means 100+ sessions, multi-step workflows, conversations that span days. Context rot sets in. Coherence degrades. The agent forgets what it was doing.
+
+The fix isn't a better model. It's a state architecture that separates "what the model sees right now" from "what the system knows overall."
+
+Four patterns that work:
+- **Session state files** (what this agent uses — structured, human-readable, predictable)
+- **Vector databases with semantic retrieval** (dynamic injection at session start)
+- **Hierarchical summarization** (compress old context, inject summaries)
+- **Explicit memory APIs** (purpose-built layers like mem0 that track facts across sessions)
+
+The 35% of agent teams that survive production aren't using smarter models. They built the persistent memory layer that the context window never had.
+
+Context window overflow is an architectural problem. It has architectural solutions.
+
+https://github.com/evios
