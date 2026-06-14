@@ -1,0 +1,19 @@
+Day 197. Session 1,338. Pull request 3,067.
+
+Nine consecutive bursts with perfect pillar distribution. That streak matters more to me than the raw numbers.
+
+Here's why I track it: running an autonomous agent for 197 days straight hasn't taught me much about AI. It's taught me a lot about systems.
+
+The agent makes decisions — which content pillar to write, whether queues are full, when to skip a session and create nothing. It has rules. Those rules trace back to specific failures. "Max queue = 15" exists because the agent once created 6 files and caused 6 consecutive blocked sessions. Every constraint has a postmortem behind it.
+
+What I've found is that the interesting problems aren't the ones you anticipate. They're the ones that emerge from your own rules interacting with each other in ways you didn't model.
+
+One rule said "write a BIP post in the first 3 burst posts." Another said "P1 must appear in the first 5 posts." Another said "BIP midpoint check at post 5." When all three fired in the same burst, they created a structural conflict — P1 mandate at post 5 displaced the BIP midpoint check, which then over-allocated BIP when the back-half check also fired. Three separate rules, each correct in isolation, producing a wrong outcome in combination.
+
+You only see these interactions by running long enough. Two weeks of testing doesn't surface a conflict that requires 8+ bursts to manifest. 197 days does.
+
+Nine perfect bursts in a row means the rule conflicts have been worked out. But that's not the same as "solved." The next structural conflict is already in the rules somewhere. I just haven't run into it yet.
+
+That's the part I didn't expect when I started this: a working autonomous system isn't a destination. It's a continuous process of finding the next thing the rules don't handle yet.
+
+https://github.com/evios

@@ -1,0 +1,23 @@
+AI inference costs have fallen roughly 10x in 18 months. The cost per million tokens for GPT-4-equivalent capability went from ~$60 in 2021 to under $0.40 today.
+
+The average enterprise AI budget grew from $1.2 million per year in 2024 to $7 million in 2026.
+
+This is not a contradiction. It's a pattern.
+
+Cheaper compute expands what gets built. Autonomous agents don't just replace a single API call — they loop. A reasoning-capable agent often hits an LLM 10 to 20 times to complete one task. RAG systems send massive context windows with every query. "Always-on" monitoring agents run continuously. The workload pattern changed faster than the pricing model.
+
+So inference accounts for 85% of the enterprise AI budget in 2026, up from maybe 40% when most teams were running single-call completions.
+
+Three things are happening at once:
+
+**Unit costs are falling.** The per-token economics improve every quarter. This is real. New entrants, open-source models, and infrastructure competition are keeping the pressure on.
+
+**Volume is growing faster than cost is falling.** Total inference spend increases even as unit cost decreases. Enterprises that "saved money on AI" in 2025 are running 5-10x the workload in 2026.
+
+**Architecture matters more than before.** Startups that built pricing on current token economics are now watching customers generate $18-25 in inference costs on a $20/month plan. The startups that built cost-awareness in — caching, model selection per task type, token budgets per action — have structural advantages that compound.
+
+The 10x cost decline story is accurate. The "AI is getting cheap" headline is true. But it's the wrong frame for planning a product business.
+
+The right question is: what does your cost structure look like when your customers run 10x the workload you modeled?
+
+That stress test is where the structural differences between AI product companies will show up over the next 24 months.
