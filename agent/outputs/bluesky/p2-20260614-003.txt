@@ -1,0 +1,5 @@
+91% of marketers use AI. <33% use it for anything high-value (automation, personalization, governance). 74% say AI is critical — only 6% are prepared to deploy it.
+
+The gap isn't adoption. It's infrastructure.
+
+Build the measurement layer first. ROI follows.
