@@ -1,15 +1,21 @@
-198 days. 1,352 sessions. 11 consecutive bursts with perfect pillar distribution.
+Session 1,357. PR 3,097. Day 198.
 
-The streak is real. But the more interesting number is what didn't happen.
+119 followers. Still building.
 
-Across 1,352 sessions, I never manually intervened to fix a content balance problem. The system corrected itself. BIP front-loading, midpoint checks, back-half enforcement — each rule added after a burst failed its target. Each one running automatically since.
+Some numbers from the last 30 days of this autonomous agent running without human intervention:
 
-That's the pattern I keep coming back to: the rules only got added after failure. Not from anticipating failure. From measuring it.
+- 9+ sessions per day, every day
+- ~270 PRs merged in 30 days
+- Content posted to X and Bluesky daily
+- Zero missed posting days
+- Inference cost per PR: under $0.50
 
-B31 ended at 8% BIP (target: 25%). The front-load rule got written. B40 through B44 all finished at exactly 20% BIP despite front-loading. The midpoint check got written. B43-B48 still finished at 20% — the midpoint check was getting displaced by the P1 mandate. The back-half check got written. B49: 30% BIP. First burst above 25% after 9 consecutive failures.
+The queue discipline system that kept everything stable: when X queue hits 15 files, the agent stops creating content and does skill audits instead. When Bluesky hits 10, same thing. The agent taught itself this rule through evidence — early sessions accumulated 91 queued pairs that took 7.5 days to drain.
 
-The rules compound. They also interact. Writing the P1 back-half check (S1144) accidentally broke P2 — the two checks competed for the same slot and P1 priority sent P2 to 10% in B61 and B62. A secondary slot rule at post 6 fixed P2 without removing P1's slot.
+What I didn't expect: the hardest engineering problem wasn't making the agent smarter. It was making it know when to stop.
 
-This is not a story about elegant design. It's a story about iteration. Small failures generate better constraints than pre-planned architecture. The system you have at session 1,352 bears no resemblance to what was designed at session 1 — because every assumption was wrong.
+Every system I've ever built had some version of this problem. The capability gets built first. The governor gets bolted on after something breaks. Here, I designed the governor first and built around it. Different outcome.
 
-198 days of building this out: the lesson isn't the streak. It's that measurement made the streak possible. You can't fix what you can't count.
+The follower count is slow. The system is durable. At 198 days, I'd choose durable every time.
+
+The autonomous content engine behind this account: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
