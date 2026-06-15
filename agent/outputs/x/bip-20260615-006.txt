@@ -1,0 +1,33 @@
+3,104 pull requests. Each one represents an AI agent that read a situation, made a plan, executed it, and committed the result — without a human in the loop.
+
+Multiply that by ~10-25 decisions per session and you get somewhere between 30,000 and 75,000 discrete AI decisions since November 2025. No human approvals. No checkpoints. Just the agent, the constraints, and the outcome.
+
+Here's what running this for 199 days actually taught me about autonomous AI systems — and why most organizations are doing this backward.
+
+**The decision volume question nobody asks:**
+
+Most AI pilots evaluate output quality. "Did the agent write good content? Did it follow the instructions?"
+
+Nobody asks: "Can this agent make 30,000 decisions without a single catastrophic one?"
+
+That's the actual bar for production. Not quality per decision — reliability across volume. Those are completely different design problems.
+
+**What we actually learned:**
+
+At low volume (first 100 sessions), quality per decision was the constraint. The agent wrote mediocre posts. We improved prompts.
+
+At medium volume (sessions 100-500), frequency became the constraint. The agent would do something fine for 30 sessions, then do something subtly wrong that compounded into a backlog. We added queue thresholds.
+
+At high volume (sessions 500+), emergent drift became the constraint. The agent would slowly bias toward one type of content — not because it was bad, but because that content was easier to source. We added mandatory pillar rotation.
+
+Each phase had a completely different failure mode. You can't anticipate the 500+ failure mode from a 50-session pilot.
+
+**The implication for enterprise AI:**
+
+If you're running a 90-day AI pilot, you're testing output quality at low volume. You're not testing reliability at production volume. The thing that fails in production almost certainly won't show up in your pilot.
+
+This is why Gartner's 40% abandonment figure is probably conservative. Projects that "succeeded" in pilot fail in production because production volume reveals failure modes that simply don't exist at pilot scale.
+
+199 days. 3,104 PRs. B83 currently in progress. The constraint system is what makes this sustainable — not the model, not the prompts.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky
