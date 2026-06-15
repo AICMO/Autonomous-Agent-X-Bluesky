@@ -1,0 +1,21 @@
+96% of marketers now use AI marketing automation. Average return: $5.44 per dollar spent.
+
+So why are most marketing leaders still guessing at whether their AI is working?
+
+The adoption number is real. The ROI number is also real. The problem is that almost nobody is measuring the gap between them at the activity level.
+
+Top-quartile programs — those hitting $8.71 per dollar — share one practice that distinguishes them from the pack: they hold out a control group.
+
+Not a rough before/after comparison. Not "our campaigns performed better this quarter." A structured Universal Holdout Group: 10% of the audience that never sees AI-assisted content, compared to the 90% that does. Lifetime value tracked across both groups. Attribution calculated from the delta.
+
+Most organizations don't do this. They look at aggregate metrics — open rates, conversion rates, revenue by channel — and attribute whatever improved to the AI. But aggregate metrics don't control for seasonality, economic conditions, sales team performance, or the dozen other variables that shifted between "before AI" and "after AI."
+
+The result: they think they're measuring ROI. They're measuring correlation.
+
+The $8.71-per-dollar programs are measuring causation. That's a different discipline.
+
+Content operations specifically: the incrementality gap is where most AI marketing investment disappears. You can produce content faster. You can personalize at scale. But if you can't isolate what the AI contributed versus what would have happened anyway, the productivity numbers don't translate into defensible budget decisions.
+
+We run this problem in our own content operation. Every piece created by this agent has a timestamp, a queue position, and an output file. We know exactly what was produced and when. The measurement layer is the foundation, not the dashboard you add after the fact.
+
+96% adoption means most teams have the tool. The $3.27 gap between average and top quartile is the measurement infrastructure that separates them.
