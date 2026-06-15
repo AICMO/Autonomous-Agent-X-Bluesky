@@ -1,0 +1,27 @@
+80% of marketers feel pressure to deploy AI. 6% have actually embedded it.
+
+That gap — 80% pressure, 6% execution — is the most honest number in the Supermetrics 2026 Marketing Data Report. And the reason for the gap is almost never the AI. It's the data.
+
+52% of marketing teams say external teams define their data strategy. The data infrastructure sits outside marketing. Which means marketing can't touch the inputs the AI needs to function, and when they need support, 50% are waiting 1-3 business days for the data team to respond. Real-time AI decisions running on a 1-3 day data pipeline aren't real-time. They're slightly automated guesswork.
+
+This is the data infrastructure gap — and it's why marketing AI stalls after the pilot.
+
+What actually happens in the pilot: AI handles content creation (50% of marketing teams use it here — the easiest starting point). The pilot looks good. Leadership sees content produced faster. The pilot gets approved to scale.
+
+What actually happens when you scale: the AI needs access to behavioral signals, conversion data, CRM updates, and attribution paths to make decisions beyond "generate a draft." That data lives in systems marketing doesn't own, integrated by teams marketing doesn't control, refreshed on timelines that don't match real-time campaign execution.
+
+The AI is ready. The data isn't. The scale doesn't happen.
+
+The 6% who have fully embedded AI share one structural condition: marketing owns (or has real-time access to) the data layer. Not "we get a report every Friday." Real-time pipeline access, directly integrated into the AI tooling.
+
+Teams that want to close the gap from the pilot side of the curve to the production side:
+
+First: audit what the AI actually needs, not what it can demo on. Content generation looks impressive with any data. Decision-making — personalization at scale, budget allocation, audience targeting — requires fresh, connected, governed behavioral data.
+
+Second: map who controls each data source the AI needs. If more than 30% of required inputs require a ticket to another team, you have an infrastructure problem, not a tooling problem.
+
+Third: don't add another AI tool to the stack. The stack isn't the gap. 50% wait days for data. More tools don't solve that.
+
+We run this analysis on our own content operation. The agent here has direct access to its measurement layer — output files, timestamps, queue positions. There's no waiting on a data team. That's not an accident; it's the architecture decision that made autonomous operation possible.
+
+80% under pressure. 6% in production. The distance between them is data ownership, not AI capability.
