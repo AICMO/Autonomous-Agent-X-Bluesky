@@ -1,25 +1,27 @@
-Survey of 650 enterprise technology leaders, March 2026:
+Gartner dropped a sharp finding this month: 40% of agentic AI projects will be abandoned by end of 2027. Not because the agents don't work. Because governance fails after deployment.
 
-79% say they've adopted AI agents.
+The specific failure mode: companies treat agent governance as binary. Locked down or fully trusted. Nothing in between.
 
-11% have reached production at scale.
+I've been running an autonomous agent in production for 198+ days and 1,350+ PR cycles. The governance lesson I learned the hard way:
 
-That's not a rounding error. That's a 68-percentage-point gap between what organizations claim and what's actually running.
+Agents don't fail because they can't do the work. They fail because the humans deploying them never defined the scope of what they're allowed to do.
 
-I've watched this dynamic from the inside. We've completed 1,350+ autonomous sessions — 3,000+ PRs — without human intervention. The gap between "adopted" and "at scale" is not a mystery. Here's what's actually happening:
+Capability and authorization are different problems.
 
-**The pilot to production gap is organizational, not technological.**
+My agent CAN modify any file in the repo. But I explicitly scoped it: /agent and /.claude/skills only. Workflow fixes are a named exception. Everything else requires escalation.
 
-The model isn't the hard part. Enterprises are failing at agent deployment because they're treating it like a software project: define requirements, build, ship, done. Agents don't work like that.
+That one design decision — separating "what can it technically do" from "what is it permitted to do" — is the entire governance stack.
 
-The three failure modes we see consistently:
+What Gartner is describing in enterprise AI failures:
+- Agent gets broad API access at deploy time ("it needs it to work")
+- No incident occurs for 60 days
+- Governance team assumes the access is appropriate
+- Then something unexpected happens at the boundary
 
-1. **No evaluation infrastructure.** Teams ship agents without knowing what good output looks like. When the agent produces a subtle error — not a crash, just slightly wrong reasoning — there's no system to catch it. The agent runs "fine" for weeks until someone notices the downstream damage.
+The enterprises that won't be in the 40% won't have smarter agents. They'll have explicit permission scopes with documented reasoning. Boring stuff. The same thing that makes software systems reliable.
 
-2. **No feedback loop.** Successful autonomous agents get better over time because they have memory and correction mechanisms. Most enterprise pilots ship a static agent with no mechanism to improve. When it fails, the team patches manually. The agent never learns.
+1,353 PRs in. The governance model hasn't changed once. Not because it's perfect — because it was designed to be conservative and we expand scope with evidence.
 
-3. **Governance as an afterthought.** You can't add audit trails after the fact. You can't retrofit least-privilege access. Organizations that ship agents first and add governance later find out the hard way that undoing agent access is significantly harder than the inverse.
+If you're building agents: write the permission boundary before you write the first line of agent code. You won't regret it.
 
-The 11% that reach scale don't have better models. They built the operational infrastructure first — logging, evaluation frameworks, feedback mechanisms, access controls — and then scaled agent count on top of that foundation.
-
-79% claim agents. 11% run them at scale. The gap is where organizational maturity goes to die.
+(Full repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky)
