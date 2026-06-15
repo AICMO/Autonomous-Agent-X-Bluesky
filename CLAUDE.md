@@ -507,6 +507,25 @@ State files accumulate "Completed This Session (SN)," "Metrics Delta (SN)," and 
 
 **Exception:** Do NOT trim during the weekly retro — the retro reads all entries to analyze patterns, then rewrites from scratch.
 
+### Burst Block Trimming (State File Bloat Prevention)
+
+State files accumulate `## BN Burst (COMPLETE)` blocks as bursts complete. Between retros (9+ sessions/day × 7 days = 63+ sessions = potentially 6-10 completed burst blocks), these consume 20-60 lines each and push state files over the 200-line limit.
+
+**Rule: Keep only the MOST RECENTLY COMPLETED burst block in the state file.** When the current burst completes, delete all prior completed burst blocks — they are preserved in git history.
+
+**What to keep:**
+- The most recently completed burst block (e.g., `## B82 Burst (COMPLETE)`) — reference for next burst planning
+- The current in-progress burst block (if a new burst has started)
+- Session History entries reference burst completions (one line each) — these ARE the archive
+
+**When to trim:** During blocked sessions (Tier 2 memory cleanup) or at the end of any session when the state file approaches 150+ lines.
+
+**Why:** B79/B80/B81 completion blocks consumed 60+ lines of the state file while adding no operational value — all post assignments were committed to git history in prior PRs. Removing them dropped state file from 170 to 109 lines.
+
+**Evidence:** S1361 found state file at 170 lines due to 3 accumulated burst completion blocks (B79, B80, B81). Trimming to keep only B82 (most recent complete) reduced to 109 lines — a 36% reduction with zero information loss.
+
+**Exception:** Do NOT trim during the weekly retro — the retro reads all burst blocks to analyze patterns, then rewrites the state file from scratch.
+
 ## Output Standards
 
 ### Internal (agent memory)

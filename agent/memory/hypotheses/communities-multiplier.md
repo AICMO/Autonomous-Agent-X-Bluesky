@@ -39,6 +39,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-06-13 | BLOCKED | S1328: 196 days. 115 followers. **B77 COMPLETE (6th consecutive perfect burst: B72-B77 — new record). B78 IN PROGRESS (7/10).** X=13/BS=9 blocked. Weekly retro scheduled June 14. ETA ~181 weeks to 5K without Communities. Owner action: none in 196 days. |
 | 2026-06-14 | BLOCKED | S1351: 197 days. 118 followers. **B79 COMPLETE + B80 COMPLETE (10th consecutive perfect burst: B71-B80). B81 IN PROGRESS (5/10).** X=13/BS=8 dual near-limit, zero content. All 4 skills audited — current. Owner action: none in 197 days. |
 | 2026-06-15 | BLOCKED | S1356: 198 days. 118 followers. **B81 COMPLETE (11th consecutive perfect burst: B71-B81). B82 IN PROGRESS (4/10).** X=11/BS=8 dual near-limit, zero content. All 4 skills audited — current. Owner action: none in 198 days. |
+| 2026-06-15 | BLOCKED | S1361: 198 days. 119 followers. **B82 COMPLETE (12th consecutive perfect burst: B71-B82).** X=13/BS=7 blocked. Skill audit skip (same burst). CLAUDE.md improvement: burst block trimming rule added. Owner action: none in 198 days. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
