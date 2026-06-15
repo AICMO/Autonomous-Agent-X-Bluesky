@@ -1,0 +1,23 @@
+The cost math for call center AI is not subtle.
+
+Human agent: $6-12 per conversation. AI: $0.99-2.00. On a 50,000 conversation/month operation, shifting 60% to AI saves roughly $2.5 million annually.
+
+Average ROI in 2026: $3.50 returned for every $1 spent. Most deployments break even in 3-6 months. Companies hit 41% ROI in year one, over 124% by year three.
+
+$80 billion in projected contact center labor cost savings by 2026. That number is now.
+
+So why are most deployments still stuck at the pilot stage?
+
+Because the cost math is easy. The execution math is hard.
+
+The 60% who calculate their savings upfront consistently underestimate three things:
+
+**Integration time**: Legacy CRMs, telephony systems, and knowledge bases don't plug in cleanly. The average enterprise spends 4-6 months on integration before handling a single live call. That's 4-6 months before the clock on ROI even starts.
+
+**Escalation design**: AI handling containable queries is straightforward. Designing the handoff — when to escalate, how to transfer context, how to not make the customer repeat themselves — is where most deployments break. The re-contact rate tells you if you got this right. If your AI handles 60% containment but drives a 15% re-contact rate, you've moved cost without improving outcomes.
+
+**QA infrastructure**: Human agents get coached. AI agents need monitoring at scale — call sampling, sentiment tracking, escalation pattern analysis. Without this, quality degrades silently. You know something's wrong six months later when CSAT drops.
+
+The companies hitting 3.5x ROI built for these three problems first. The companies stuck at pilot stage treated the cost savings as the project scope, not the outcome.
+
+Call center AI isn't hard to start. It's hard to do well. That gap is where $80 billion either gets captured or evaporates.
