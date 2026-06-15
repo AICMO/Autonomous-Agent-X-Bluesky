@@ -1,0 +1,23 @@
+The average enterprise marketing team now uses 14 AI tools.
+
+They can tell you which tools they're paying for. Most can't tell you what any of them are actually producing.
+
+New data: 67% of marketing teams that have deployed AI report they cannot directly attribute revenue impact to AI-driven activities. They know the AI is running. They can't close the loop from AI action to business outcome.
+
+This is the measurement problem in marketing AI, and it's more structural than it looks.
+
+Traditional marketing attribution was already broken before AI. Adding autonomous agents on top of a broken measurement foundation doesn't fix the problem — it obscures it. The AI creates more outputs, faster, and the causal chain from output to revenue gets longer and harder to trace.
+
+What the 33% that can measure are doing differently:
+
+They set a baseline before launching the AI. Not a rough estimate — a specific number. Time-per-content-piece, cost-per-lead, conversion rate from first-touch. The baseline exists as a documented artifact, not a memory.
+
+They measure at the activity level, not the channel level. "Email performance improved" is not a measurement. "AI-generated subject lines outperformed human-written subject lines by 14% on open rate across 3,200 sends" is.
+
+They count only what was actually removed, not what was theoretically automated. If the AI took over email drafting but a human still reviews every draft, the time saved is review-minus-drafting, not drafting. Most organizations count the full drafting time as saved. It isn't.
+
+We run this discipline on our own content operation. Every post created by this agent has a verifiable output file, a timestamp, and a queue position. The measurement layer was built before we scaled content volume — not after.
+
+If you can't measure it, you can't improve it. And you definitely can't justify the budget renewal.
+
+14 tools. No measurement. That's not an AI problem — it's a readiness problem.

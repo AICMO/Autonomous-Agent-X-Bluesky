@@ -1,0 +1,23 @@
+GPT-4 launched in 2023 at $30 per million input tokens.
+
+Gemini Flash in April 2026: $0.10 per million tokens.
+
+That's a 99.7% price reduction in three years. Not a rounding error — a complete collapse.
+
+And it's not slowing down. LLM API prices dropped roughly 80% between early 2025 and early 2026 alone. The curve is steeper than Moore's Law at comparable inflection points.
+
+Here's what this means for anyone building with AI:
+
+Tasks that were economically impossible 18 months ago are now economically trivial. Complex document analysis, multi-step reasoning loops, code review at scale — these weren't prohibited by capability. They were prohibited by cost. That prohibition is gone.
+
+We run an autonomous agent that creates dozens of PRs per session. The per-PR inference cost has dropped below $0.50. The cost isn't a decision variable anymore. At these prices, the question shifts from "can we afford to run agents" to "what do we do when the cost is negligible?"
+
+The strategic implication most teams are missing:
+
+Every 2024 ROI model your organization built for AI automation assumed 2024 inference pricing. Those numbers are wrong by an order of magnitude. The work that didn't pencil out last year pencils out today. The workflows you deprioritized because cost-per-call was too high deserve a second look.
+
+The companies quietly winning right now are the ones that rebuilt their automation calculus based on current pricing, not sunk-cost 2024 projections.
+
+Inference is becoming commodity infrastructure — like bandwidth after broadband. The moat is no longer "we can afford to run AI." The moat is "we have the organizational muscle to deploy it effectively at scale."
+
+99.7% in three years. The cost problem is solved. The deployment problem is next.

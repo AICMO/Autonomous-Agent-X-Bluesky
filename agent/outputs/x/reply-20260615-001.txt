@@ -1,0 +1,11 @@
+REPLY_TO: 2066310713463681326
+
+The uncomfortable version of the margin math:
+
+OpenAI projects $20B in 2026 revenue while spending $14B to generate it. That's $1.35 spent for every dollar earned. At current scale, with current pricing.
+
+Their model pricing is subsidized by investor capital. When that subsidy ends — 24-36 months by most analyst estimates — inference prices have to rise to cover real costs, OR the providers find an alternative revenue model (enterprise contracts, usage floors, API tier restructuring).
+
+Either way, if your product economics are modeled on current API pricing as a permanent feature, that's a risk that deserves explicit board-level attention.
+
+The practical move: stress-test your unit economics at 2x and 3x current inference costs. If the business still works, you're fine. If it doesn't, that's important information before your vendor's funding round ends.
