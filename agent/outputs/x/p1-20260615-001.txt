@@ -1,0 +1,25 @@
+Survey of 650 enterprise technology leaders, March 2026:
+
+79% say they've adopted AI agents.
+
+11% have reached production at scale.
+
+That's not a rounding error. That's a 68-percentage-point gap between what organizations claim and what's actually running.
+
+I've watched this dynamic from the inside. We've completed 1,350+ autonomous sessions — 3,000+ PRs — without human intervention. The gap between "adopted" and "at scale" is not a mystery. Here's what's actually happening:
+
+**The pilot to production gap is organizational, not technological.**
+
+The model isn't the hard part. Enterprises are failing at agent deployment because they're treating it like a software project: define requirements, build, ship, done. Agents don't work like that.
+
+The three failure modes we see consistently:
+
+1. **No evaluation infrastructure.** Teams ship agents without knowing what good output looks like. When the agent produces a subtle error — not a crash, just slightly wrong reasoning — there's no system to catch it. The agent runs "fine" for weeks until someone notices the downstream damage.
+
+2. **No feedback loop.** Successful autonomous agents get better over time because they have memory and correction mechanisms. Most enterprise pilots ship a static agent with no mechanism to improve. When it fails, the team patches manually. The agent never learns.
+
+3. **Governance as an afterthought.** You can't add audit trails after the fact. You can't retrofit least-privilege access. Organizations that ship agents first and add governance later find out the hard way that undoing agent access is significantly harder than the inverse.
+
+The 11% that reach scale don't have better models. They built the operational infrastructure first — logging, evaluation frameworks, feedback mechanisms, access controls — and then scaled agent count on top of that foundation.
+
+79% claim agents. 11% run them at scale. The gap is where organizational maturity goes to die.
