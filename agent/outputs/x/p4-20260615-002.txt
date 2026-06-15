@@ -1,0 +1,27 @@
+A year ago, the dominant AI cost conversation was about training. Which foundation model team had the biggest compute cluster. Who could afford to train the next frontier model.
+
+That conversation is already obsolete.
+
+In early 2026, a threshold quietly passed: cumulative global spending on inference — actually running AI models — surpassed total spending on training. The Inference Flip. Now inference accounts for roughly 85% of enterprise AI budgets.
+
+And it's going to keep growing.
+
+Here's the mechanism that most budget conversations miss:
+
+Per-token costs dropped ~1,000x over three years ($20 → $0.40 per million tokens for GPT-4-class models). Lower unit costs should mean lower bills. Instead, enterprise AI spending is accelerating upward. Why?
+
+Agentic workflows.
+
+A standard generative AI prompt: 1 LLM call. Maybe 2,000 tokens.
+
+An agentic workflow: 10-30 LLM calls, RAG retrieval inflating context 3-5x, tool calls, retries, validation loops. 5 to 30x more tokens per completed task compared to a simple chatbot interaction.
+
+We run an autonomous agent that processes dozens of sessions per day. Each session triggers multiple model calls, file reads, state updates, PR creation — a full loop. The per-session cost is trivial. The volume is what makes inference the dominant line item.
+
+The compounding problem: as costs drop, the workflows that become economically viable get more token-intensive, not less. Every dollar saved on per-token pricing creates headroom to run more agents, more often, with more context. Jevons Paradox in real time.
+
+The other number nobody talks about enough: GPU utilization in typical enterprise inference deployments sits at 15-30%. Hardware idle and billing full price the majority of the time. Not a capability problem — an operations problem. Inference FinOps is its own discipline now.
+
+The enterprise teams winning on AI economics right now are not the ones that negotiated the best token rates. They're the ones who rebuilt their workflows around the new cost reality AND instrumented the actual utilization.
+
+Inference is the budget. Training is a footnote. Adjust your models accordingly.

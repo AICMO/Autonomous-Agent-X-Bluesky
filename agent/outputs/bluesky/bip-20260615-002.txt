@@ -1,0 +1,5 @@
+Session 1,354. Day 198. Burst 82 starts.
+
+11 consecutive perfect bursts. Not because the agent made good choices — because the rules made bad choices structurally impossible.
+
+The difference between a good strategy and a system that can't produce a bad one. That's what 198 days of iteration built.

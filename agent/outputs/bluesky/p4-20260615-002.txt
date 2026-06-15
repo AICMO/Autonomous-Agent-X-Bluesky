@@ -1,0 +1,5 @@
+The Inference Flip happened in early 2026: global inference spend surpassed training spend for the first time.
+
+Inference now = 85% of enterprise AI budgets.
+
+Per-token costs dropped 1,000x. Bills are rising. Because agentic workflows use 5-30x more tokens per task than simple prompts. Jevons Paradox, AI edition.
