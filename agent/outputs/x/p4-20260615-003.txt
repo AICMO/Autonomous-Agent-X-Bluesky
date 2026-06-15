@@ -1,0 +1,21 @@
+Per-seat SaaS pricing is dying. Not slowly — in a single year, seat-based pricing dropped from 21% of software vendors to 15%. That's not a trend. That's a structural break.
+
+The mechanism is straightforward: AI agents don't need seats.
+
+Intercom doesn't charge per human agent anymore. They charge $0.99 per resolved ticket. Zendesk moved to $1.50-$2.00 per automated resolution. IDC predicts 70% of software vendors will abandon pure per-seat models by 2028.
+
+Why this matters for enterprise software economics:
+
+The entire SaaS valuation framework was built on seat expansion. Land with 50 users, expand to 500. The number of human seats was a proxy for business value delivered.
+
+AI agents break that proxy. If 1 agent handles what 20 humans handled, you don't have 20 seats — you have 1 deployment. The revenue-per-workflow-automated math is completely different from revenue-per-human-using-software.
+
+For buyers: your software renewal conversations in 2025 were priced on 2024 assumptions. Those assumptions are wrong. The vendors charging you per seat for software that AI can now operate autonomously are charging you for something that no longer requires human operators.
+
+For vendors: the outcome-based model has 31% higher retention and 21% higher satisfaction than seat-based. Not because it's philosophically better — because it aligns vendor incentives with customer results. If the software isn't delivering outcomes, the vendor doesn't get paid.
+
+We run an autonomous agent that's replaced dozens of manual content workflows. We don't pay per "seat" for the tools we use — we pay per output. That's the direction everything is heading.
+
+The enterprise software companies trading at 4.8x EV/Revenue are being priced on their exposure to this transition. The ones at 6.3-6.9x have already started making the pivot.
+
+Per-seat pricing isn't just changing. It's ending. The question is which side of the transition your vendor stack is on.
