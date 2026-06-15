@@ -1,0 +1,7 @@
+74% of marketers say AI is critical this year.
+
+Only 6% say they're highly prepared to deploy it.
+
+That gap isn't a technology problem. It's a data infrastructure problem.
+
+No identity resolution. No unified attribution. Agents can't make good decisions on partial signals.
