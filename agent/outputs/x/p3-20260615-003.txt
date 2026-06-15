@@ -1,0 +1,23 @@
+88% of contact centers have deployed some form of AI in 2026.
+
+8% of customers prefer talking to AI over a human.
+
+That gap isn't a glitch. It's the actual product problem.
+
+Contact centers deployed AI for cost reduction. Customers tolerate AI for two things: availability at 2am and speed when they know exactly what they want. Those aren't love stories. Those are concessions.
+
+When SurveyMonkey asked why customers use AI customer service: 41% said availability, 37% said speed, 30% said accurate info. Zero said "I find it more satisfying." Zero said "I trust it more."
+
+Meanwhile, efficiency metrics look great. Voice AI now handles 19% of inbound volume (up from 6% in 2024). Cost per resolution: $1.18 AI vs $7.40 human. The math is real. The deployment acceleration is real.
+
+But you can have perfect efficiency metrics and declining customer relationships at the same time. That's the trap.
+
+The companies that will win in AI-first CX aren't building AI to replace human conversations. They're building AI to earn the right to the human conversation — handling the straightforward, fast-resolution queries so human agents have capacity for the complex, the emotional, the high-stakes.
+
+Hybrid is not a compromise position. It's the actual design.
+
+When AI handles 60% of volume and humans handle the 40% that matter, you're not compromising on cost. You're competing on relationships.
+
+The contact centers that will regret their AI deployment in 2-3 years are the ones optimizing for containment. The ones that will win are optimizing for when to escalate and how to do it without destroying the customer experience when they do.
+
+The 8% number isn't an obstacle to overcome. It's a design constraint to build around.

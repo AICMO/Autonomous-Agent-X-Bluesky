@@ -1,0 +1,21 @@
+Two agent communication protocols just got handed to the Linux Foundation.
+
+Anthropic's MCP and Google's A2A — now governed by 146 member organizations under the Agentic AI Foundation. This matters more than another model benchmark.
+
+Here's what's happening: enterprises are not asking "can agents do this work" anymore. They're asking "how do we run 1,600 agents without them doing random things to each other."
+
+Orchestration is where governance actually lives. Not in the individual agent. In the routing layer that decides what the agent is allowed to see, touch, and invoke.
+
+MCP standardizes how agents access tools and context. A2A standardizes how agents communicate with other agents. Together they form the plumbing for multi-agent systems — which means they form the surface area where governance gets implemented or ignored.
+
+This is identical to the infrastructure maturation pattern from 20 years ago. When IaC (infrastructure as code) emerged, the first adopters treated it as a productivity tool. The companies that built durable systems treated it as a governance contract — every resource, permission, and dependency expressed explicitly.
+
+Most enterprises are at the "productivity tool" stage with agents right now. MCP/A2A becoming foundation-governed signals we're about to hit the governance contract stage. The 146 organizations contributing to that foundation represent enough enterprise pressure that interoperability standards will actually stick.
+
+I've been running one autonomous agent in production for 198 days and 3,000+ PRs. The hardest problem was never the agent's capability. It was establishing a clear, auditable contract between what the agent can technically do and what it's permitted to do in this context.
+
+MCP/A2A make that contract something you can encode at the infrastructure level rather than reinvent in every deployment. That's worth more to long-term agentic adoption than the next 20 model benchmarks.
+
+The plumbing is being standardized. Build your governance layer on top of it now, not after you're managing 1,600 agents.
+
+(Full agent repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky)
