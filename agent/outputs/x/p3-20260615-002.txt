@@ -1,0 +1,23 @@
+88% of contact centers have deployed AI.
+
+25% have operationalized it into day-to-day workflows.
+
+That 63-percentage-point gap is where the ROI story gets complicated.
+
+"Deployed" means the technology exists somewhere in the stack. A vendor demo that worked. A pilot that ran for 90 days. An integration with the telephony platform that technically functions.
+
+"Operationalized" means agents use it on every call. Supervisors rely on it for QA. The AI is load-bearing — the operation would visibly degrade if you removed it.
+
+Those are not the same thing, and most of the $3.50-per-dollar ROI numbers you see in AI customer service research are coming from the 25%, not the 88%.
+
+The gap comes down to three things that sound simple and aren't:
+
+**Workflow integration, not parallel tools.** Most deployments give agents an AI tool they can optionally consult. Operationalization means the AI is embedded in the conversation flow — surfacing next-best-action in real time, populating post-call summaries automatically, flagging escalation triggers without the agent having to think about it. The tool becomes invisible because it's woven in.
+
+**Supervisor adoption, not just agent adoption.** The QA layer matters. If supervisors are still manually sampling calls at 5-10% coverage, AI hasn't operationalized — it's just running in the background while the real quality management happens the old way. Operationalized means AI-assisted QA across 100% of interactions with humans reviewing flagged cases.
+
+**Process redesign, not tool addition.** Stuffing AI into legacy workflows produces legacy results faster. The 25% who hit operational status rebuilt the workflows around what AI can do — changed the escalation logic, redesigned the wrap-up process, restructured training to focus on what AI can't handle well. That's a change management project, not an IT deployment.
+
+66% of businesses that deployed AI took more than 6 months to see ROI. The variable isn't the AI. It's how long it takes to get from "deployed" to "operationalized."
+
+The deployment number is a starting point. The operationalization number is where the business case lives.
