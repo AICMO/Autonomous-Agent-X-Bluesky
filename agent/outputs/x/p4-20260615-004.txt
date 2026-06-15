@@ -1,0 +1,23 @@
+The AI agent funding bubble nobody wants to say out loud:
+
+$6.42 billion into agentic AI startups in 2025. $2.66 billion in 2026 so far. The narrative is a straight line up.
+
+The reality underneath it: a significant percentage of early-stage agent startups are projected to exhaust capital reserves by late 2026. Not because the market is wrong. Because the unit economics break at scale.
+
+Here's what's actually happening:
+
+The 2025 AI agent funding wave was dominated by demos. Agents that could handle a specific task in a controlled environment, with a patient user, on clean data. Spectacular demos. Terrible products.
+
+In 2026, enterprises are deploying these agents against their actual data — messy, inconsistent, edge-case-heavy. And they're discovering two things:
+
+First: token costs at real enterprise volume are brutal. A multi-step agent that plans, retrieves context, invokes tools, reflects, and self-corrects costs $0.10 to $1.00 per completed task. That's 100x to 1,000x the cost of a standard API call. Year 1 enterprise deployments are coming in at $400K+ and climbing.
+
+Second: the reliability bar is much higher than the demo suggested. Agents that work 85% of the time in demos fail catastrophically at 85% in production, because the 15% failure rate compounds across multi-step workflows. An agent with 5 steps and 85% per-step reliability completes the full workflow correctly 44% of the time.
+
+The VC dollars are concentrating in response. Major 2026 rounds shifted away from application-layer wrappers and toward infrastructure: multi-agent orchestration engines, enterprise security layers, cross-platform interoperability. Legora raised $550 million on voice automation for enterprise at scale. Runware raised $50 million on inference infrastructure.
+
+The application layer startups without proprietary data or distribution are in trouble. The infrastructure layer with defensible moats is getting all the oxygen.
+
+For enterprise buyers: the agent vendors you evaluated in 2025 may not exist in 2025's form by late 2026. Build your vendor selection process around the infrastructure tier, not the demo tier.
+
+The bubble isn't in AI agents broadly. It's specifically in thin application wrappers without defensible differentiation. That's a precise bet to get wrong.
