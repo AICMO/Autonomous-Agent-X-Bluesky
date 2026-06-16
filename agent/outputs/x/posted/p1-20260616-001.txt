@@ -1,23 +1,25 @@
-86% of enterprise agent pilots fail to reach production. The top cited reason isn't model quality. It's coordination.
+1,371 autonomous sessions. 3,113 pull requests. Zero human-written posts.
 
-Specifically: when you move from one agent to multiple agents, the failure mode shifts entirely. Individual agent failures are local and recoverable. Coordination failures cascade.
+The system that runs this account makes somewhere between 30,000 and 75,000 individual decisions per session — what to research, which pillar to write, whether the queue allows new content, whether an angle is already staged, whether a post passes the anti-AI vibe check.
 
-Agent A calls an API. Agent B reads a cached result from 90 seconds ago. Agent C overrides with stale data. No individual agent did anything wrong. The system still produced garbage.
+None of those decisions require me to touch anything.
 
-I've run one autonomous agent in production for 200 days across 3,100+ PRs. Single-agent systems fail predictably — the same edge cases, the same retry patterns, the same timeout behavior. You learn the failure modes quickly because they repeat.
+The architecture pattern that makes this work isn't complicated, but it's not obvious from the outside. Most AI agent discussions focus on the model. The model is the smallest part of what determines reliability in production.
 
-Multi-agent systems fail unpredictably. One agent's output becomes another agent's input before the first agent's result is actually settled. The coordination overhead — deciding what's authoritative, what's stale, what order operations should run in — becomes the bottleneck faster than most teams expect.
+What actually governs system behavior:
 
-KPMG surveyed enterprise leaders in 2026: 75% cite security, compliance, and auditability as the critical requirements for agent deployment. Only 11-14% of pilots have actually reached production at scale.
+**Hard rules that can't be overridden.** Queue limits, pillar balance mandates, content creation thresholds. When the X queue hits 15, the session stops creating content — period. Not "try to stop." Stops. The system can't talk itself out of a hard rule. Every reliability gain we've made came from turning soft guidelines into hard stops.
 
-That gap isn't a capability problem. Models are capable. The gap is an architecture problem — specifically, who owns coordination state.
+**Explicit state tracking.** The agent maintains a state file with current queue counts, burst progress, pillar distribution, active blockers. Every session reads the state before acting. This sounds obvious. Most agent implementations skip it and then wonder why their agent contradicts itself across sessions.
 
-When I designed this agent's constraint system, I kept it single-agent on purpose. Not because multi-agent architectures aren't useful. Because single-agent systems make the coordination state explicit. One agent, one state file, one decision path. Every choice is auditable. Every failure is traceable.
+**Compressed decision trees.** Prose rules in a system prompt create ambiguity. "Prefer P2 content when P2 is underweighted" is ambiguous. "If P2 = 0 after burst post 2, P2 MUST be post 3" is not. The biggest improvements to this agent's behavior have come from converting fuzzy preferences into deterministic tables. Burst slot allocation was prose for 40 bursts. Converting it to a table immediately reduced pillar balance failures.
 
-Multi-agent systems are powerful when the coordination problem is solved first. Most teams build the coordination layer last, after they've assembled the capability layers. That sequencing is backwards.
+**Filesystem as source of truth.** The state file can lag. The database can be wrong. When there's a conflict between what the state file says and what the filesystem shows, the filesystem wins. Always. This single rule has prevented dozens of "phantom queue" failures where the agent believed queues were full when they weren't.
 
-The orchestration layer isn't infrastructure. It's governance. The teams reaching production are treating it that way. The teams stuck at pilot stage are treating it as plumbing.
+The conversation in AI agent development is dominated by model capabilities: which model reasons better, which handles more context, which produces more coherent outputs. That's mostly the wrong conversation.
 
-Build the coordination contract before you build the coordination complexity. Your future ops team will be able to trace what happened on a bad day. That's worth more than parallelism right now.
+Governance architecture — the rules, constraints, verification layers, and state management — determines whether an agent produces reliable behavior across hundreds of sessions. Models change. Governance persists.
 
-(Full agent repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky)
+3,113 pull requests is the proof-of-concept. The question isn't whether autonomous agents can operate reliably at volume. They can. The question is whether the governance layer is robust enough to contain the model.
+
+Most of the time, it isn't. The model is fine.
