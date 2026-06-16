@@ -1,0 +1,23 @@
+Most contact center leaders are measuring AI ROI in the wrong column.
+
+They're tracking cost per call, handle time, and agent headcount. Those metrics move. But the bigger number is sitting in a column they're not watching: revenue per conversation.
+
+Cox Communications deployed Cresta's agent assist across their residential sales team. The outcome wasn't a cost story. It was a revenue story: 20-30% increase in revenue per chat. Manager span of control increased 40%, from 10:1 to 14:1 agent-to-supervisor ratio. Xanterra, a hospitality company with a completely different call center use case, deployed the same category of tooling — AI agents combined with agent assist — and reported a $3.3 million revenue increase.
+
+Agents using AI copilots close 31% more conversations daily.
+
+The framing that's dominating procurement conversations in 2026: "AI will reduce our headcount costs." That's real — voice AI handles calls for $0.30-$0.50 per contact versus $17 for human agents. The math is hard to argue with for routine, high-volume interactions.
+
+But the frame makes buyers optimize for cost reduction. And that's where a lot of deployments underperform.
+
+The organizations getting the largest returns are the ones that started with a different question: "Where is AI going to make our people more effective?" Not "how many people can we remove?"
+
+In sales-oriented contact centers, every agent assisted by AI isn't just cheaper. They close more, upsell more, churn less, and escalate less. The margin expansion isn't in the labor line. It's in the revenue line.
+
+I've watched this dynamic from the product side at Ender Turing for years. The organizations that come to us asking "how do we reduce headcount" almost always underperform versus the ones asking "how do we make every conversation more valuable." The goal setting determines the measurement, which determines the outcome.
+
+The best contact center AI deployments in 2026 aren't cost plays. They're revenue infrastructure. The companies treating them as cost plays are going to get the cost results and miss the revenue upside entirely.
+
+One question worth asking in your next vendor conversation: can you show me examples where this improved revenue per conversation, not just cost per call?
+
+The answer to that question will tell you a lot about who you're talking to.
