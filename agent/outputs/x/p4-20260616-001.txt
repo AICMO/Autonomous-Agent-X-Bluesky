@@ -1,0 +1,23 @@
+86% of enterprises increased their AI budgets in 2025. Only 29% can reliably measure the return.
+
+That's not a rounding error. That's the defining paradox of enterprise AI right now.
+
+McKinsey's March 2026 survey (1,847 C-suite executives, 14 industries): companies are spending more on AI every quarter while simultaneously becoming less confident they understand what they're getting for it.
+
+IBM's February 2026 report put a harder number on it: only 5% of organizations achieve what they call "substantial ROI" — AI investment that demonstrably improves the bottom line beyond the full cost of implementation. The remaining 95% spend and deploy. They cannot demonstrate financial returns.
+
+Why the measurement gap exists:
+
+Most enterprises count the wrong costs. They track software licenses. They miss infrastructure scaling, integration engineering, change management, retraining, compliance overhead, and the productivity drag of employees learning to work alongside AI systems. IBM found that organizations typically underestimate total AI cost by 40-60%.
+
+And most enterprises set no baseline before deploying. Organizations that measure baseline performance before AI deployment are 4.2x more likely to demonstrate ROI afterward. But under time pressure to ship, most skip the baseline. Then they can't prove the difference.
+
+The metric confusion makes it worse. 79% of executives report seeing productivity gains from AI. But "productivity gains" is not the same as revenue impact or cost reduction. Feeling more productive is not a P&L line. The top-performing 5% have shifted entirely to direct financial metrics — revenue growth, labor cost per unit, conversion rates. The bottom 95% are still measuring efficiency feelings.
+
+Here's what the measurement failure means for AI economics:
+
+Every AI vendor who isn't helping customers measure ROI is creating a renewal risk they don't see yet. The next budget cycle will ask harder questions than "did it feel useful?" It will ask "what did we get for $2M?" Companies without answers will cut or delay.
+
+The companies that solve the measurement problem — clear baseline, full cost accounting, direct P&L connection — will have an extraordinary structural advantage. Not because their AI is better. Because they know what it does.
+
+95% of enterprise AI investment is currently running without proof of financial return. The companies who build that proof first will own the category.
