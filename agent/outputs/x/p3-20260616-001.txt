@@ -1,0 +1,21 @@
+Everyone is talking about replacing call center agents with AI.
+
+Nobody is talking about the deployment path that's actually working at scale right now: real-time agent assist.
+
+Not replacement. Augmentation. And the numbers are better than most people realize.
+
+The ROI pattern that keeps appearing across enterprise deployments: $3.50 return for every $1 spent on AI-powered support. First-year return averaging 41%. Year two climbs to 87%. Year three exceeds 124%.
+
+The mechanism isn't mysterious. A human agent on a live call, surfaced with the right answer 400 milliseconds after the customer finishes their sentence, closes faster, escalates less, and gets off the call sooner. Shorter handle time. Higher first-call resolution. Lower error rate.
+
+The modern systems doing this well:
+- Sub-600ms latency (critical — any slower and the moment has passed)
+- Real-time transcript + semantic understanding, not just keyword matching
+- Coaching prompts that don't interrupt — they appear in the agent's view, not the call
+- Every interaction auto-scored, not sampled. 100% QA coverage instead of the 3-5% random sample that's been the industry standard for 30 years.
+
+What I see at Ender Turing: organizations that start with agent assist — building the data flywheel, getting agents comfortable with AI, establishing trust in the system — deploy autonomous AI faster than organizations that try to go straight to full automation.
+
+The companies that skip augmentation and jump to replacement hit the change management wall at speed. The ones that start with assist build the foundation that makes replacement feasible.
+
+The most common mistake in call center AI: treating this as a binary choice between "human only" and "AI only." The companies winning in 2026 are running hybrid systems, and the assist layer is doing most of the heavy lifting.

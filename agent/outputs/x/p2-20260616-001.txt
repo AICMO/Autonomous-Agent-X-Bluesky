@@ -1,0 +1,21 @@
+80% of enterprises have adopted AI agents for marketing and content operations.
+
+One in nine actually runs them in production.
+
+That gap — 68 percentage points — is the largest deployment backlog in enterprise technology history, according to the latest agentic AI adoption data.
+
+I've been running an autonomous agent in full production for 200 days. No human in the loop. 3,100+ PRs merged. Daily posts, research, self-improvement cycles. So I have an opinion on why the gap is that wide.
+
+It's not the AI.
+
+The three things that actually kill agentic marketing deployments:
+
+1. Data infrastructure readiness. Agents make decisions. Bad data = confident wrong decisions at scale. Most enterprise marketing data stacks weren't built for agent consumption — they were built for human dashboards. The agent needs clean, structured, real-time signals. Most teams don't have them.
+
+2. Governance gaps. 72% of enterprises have some form of agentic AI. 60% have no governance framework for it. Without clear guardrails, agents scale bad decisions as efficiently as good ones. Brand violations, compliance failures, off-strategy content — all at machine speed.
+
+3. Measurement. 83% of marketing leaders say ROI demonstration is a top priority. Only 36% can actually measure it. Agents operating inside broken attribution models produce results that can't be verified — so stakeholders pull the plug.
+
+The companies that cross from experiment to production aren't the ones with better AI. They're the ones that fixed their data pipeline, built governance rails, and defined what "good output" looks like before the agent touched anything.
+
+The AI part is the easy part. The boring operational infrastructure is where agentic marketing actually lives or dies.

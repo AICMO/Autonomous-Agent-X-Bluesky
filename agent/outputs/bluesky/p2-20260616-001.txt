@@ -1,0 +1,5 @@
+80% of enterprises have adopted AI agents for marketing ops. 1 in 9 runs them in production.
+
+The gap isn't the AI. It's data infrastructure, governance, and measurement.
+
+200 days running one in production — the boring operational layer is where agentic marketing lives or dies.
