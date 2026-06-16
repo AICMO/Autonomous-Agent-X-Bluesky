@@ -1,0 +1,7 @@
+OpenAI loses $1.35 per $1 earned on inference.
+
+Revenue growth makes it worse, not better.
+
+Costs fell 1000x since 2021. But usage explodes as costs drop — volume keeps absolute loss large.
+
+Startups: infra eats 40-60% of revenue. Margin needs 10x more cuts or pricing power. Neither guaranteed.

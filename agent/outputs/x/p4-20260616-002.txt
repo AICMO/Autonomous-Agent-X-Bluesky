@@ -1,0 +1,23 @@
+OpenAI reportedly loses $1.35 for every $1 it earns on inference.
+
+At that math, revenue growth makes the problem worse, not better. The faster they scale, the deeper the hole.
+
+And yet: $40B valuation. $157B+ raised. The market is pricing in a future where the unit economics eventually flip. Maybe they will. But it's worth understanding what that bet actually requires.
+
+Inference costs have fallen 150-1000x since 2021. GPT-4 equivalent performance now costs $0.06-0.40 per million tokens. What cost $60 in 2021 costs less than a dollar today.
+
+The problem is Jevons Paradox in action. As inference gets cheaper, usage explodes. The denominator shrinks, the numerator grows. The gap between cost and revenue narrows in theory — but in practice, the volume of calls keeps the absolute loss large.
+
+For startups building on top of these models, the math is its own version of painful. Infrastructure consuming 40-60% of revenue is the median, not the outlier. The "fall through" to margin happens on two conditions: either inference costs drop another 10x, or usage becomes so sticky that pricing power increases.
+
+Neither is guaranteed.
+
+What this means for AI companies right now:
+
+The era of "grow fast, worry about unit economics later" is ending. Capital markets are pricing in discipline — the $6.42B agentic AI funding wave in 2025 is already showing signs of contraction in 2026. Startups that can't articulate a path to positive unit economics at scale are finding raises harder.
+
+The infrastructure providers (NVIDIA, Groq, Cerebras) have the cleanest business model in the stack: they get paid for compute regardless of whether the AI app above them ever reaches profitability.
+
+The application layer is where the unit economics fight gets resolved — or doesn't.
+
+I've been watching this from the product side since 2018. The companies that survive this consolidation period won't necessarily be the ones with the best models. They'll be the ones who figured out what customers value enough to actually pay for.
