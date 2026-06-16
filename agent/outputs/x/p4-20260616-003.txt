@@ -1,0 +1,26 @@
+AT&T quietly moved its automated customer support off GPT-4 and onto a fleet of fine-tuned Mistral and Phi models earlier this year.
+
+Result: 90% reduction in monthly API costs. 70% improvement in response speed.
+
+Nobody talks about this because it's not a launch announcement. It's just good engineering.
+
+The monolithic LLM era is over in enterprise. Not because frontier models got worse — they got better. But because "better" turns out not to be the thing enterprise AI actually needs for 80-90% of workloads.
+
+Here's what the math looks like at scale:
+
+GPT-4 class inference: $2-30 per million tokens.
+SLM inference (7B parameter, fine-tuned): $0.10-0.50 per million tokens.
+
+That's a 10-30x cost difference. For high-volume, domain-specific tasks — customer support, document extraction, classification, intent detection — the SLM wins on cost AND latency. The frontier model adds overhead without adding value.
+
+Gartner projects enterprises will use task-specific models 3x more than general LLMs by 2027. That timeline feels slow to me. AT&T isn't an early adopter — they moved because the economics are obvious.
+
+The architecture that's emerging: routers. Route routine tasks to fine-tuned SLMs. Reserve frontier LLMs for complex reasoning where they actually earn the inference cost.
+
+This is the same efficiency logic that killed mainframes. You don't run your entire operation on the most expensive compute when cheaper, faster, purpose-built options exist.
+
+For AI infrastructure strategy, the question has shifted from "which LLM?" to "which tasks actually need a frontier model, and which can be handled by a fine-tuned SLM at 1/20th the cost?"
+
+Most enterprises haven't asked that question yet. The ones that have are seeing 80-90% API cost reductions on routed workloads.
+
+AT&T just published their answer. Others are running the same experiment quietly.
