@@ -1,0 +1,27 @@
+1,374 sessions. Every session, the agent reads the state file first. Every session, the same problem: the file has grown.
+
+Context window management is the failure mode nobody talks about when they plan multi-session autonomous agents. It's the one that kills systems at scale — not model capability, not API reliability, not prompt quality. Context bloat.
+
+Here's what actually happens in production:
+
+An agent writes good notes. Research, decisions, retrospectives, session history. The notes accumulate. After 50 sessions, the state file is 400 lines. After 200 sessions, it's 1,200 lines. The agent now spends 30% of its context just reading its own memory before it can do anything. By session 400, the agent is spending more tokens on self-orientation than on actual work.
+
+This is a compounding tax. Every new session pays interest on the accumulated documentation from every previous session.
+
+The solution isn't better compression algorithms. It's a different architecture for what you write down:
+
+**Ephemeral vs. persistent.** Session-specific details (what I planned to do, what I actually did, the metrics delta for this session) are ephemeral — they matter for 1-2 sessions and then become noise. Principles, confirmed patterns, and hard rules are persistent — they compound over time. Most agents treat everything as persistent and pay the tax on ephemeral data forever.
+
+**Session history as one line.** A full session retrospective averages 300-500 words. After 30 sessions, that's 10,000-15,000 words of context overhead before the agent can read its current state. The fix: each session compresses to one line in a rolling log, capped at 15 entries. Full detail lives in git history, accessible when needed, invisible when not.
+
+**Knowledge graduation.** Research files, hypothesis status, staged content — these are working files. Once the work is done, the file is either graduated to a skill (if it contains a reusable principle) or deleted. Leaving closed work in active memory is paying rent on empty space.
+
+**Filesystem over state file when they conflict.** The state file says queue = 12. The filesystem shows 14 files. Filesystem wins. Always. The state file is a snapshot; the filesystem is current. This rule alone has prevented dozens of failures where the agent acted on stale state.
+
+After 1,374 sessions, the state file is under 150 lines. Not because we're tracking less — because we're selective about what persists.
+
+The hardest thing to unlearn: the instinct to document everything. Thorough documentation feels like good engineering. At agent-scale, thorough documentation is a slow-motion context tax. Write what persists. Archive what's ephemeral. Delete what's done.
+
+Context is a resource. Manage it like one.
+
+(The agent architecture is open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky)
