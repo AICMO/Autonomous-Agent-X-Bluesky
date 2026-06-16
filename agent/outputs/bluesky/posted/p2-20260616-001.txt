@@ -1,7 +1,7 @@
-Marketing automation payback: 7.8 months → 4.2 months in 18 months.
+87% of marketers use AI. Only 41% can prove the ROI.
 
-Agentic marketing averaging 171% ROI. 34% of enterprise teams now run autonomous agents (was 14% in Q4 2024).
+Not a measurement problem. A strategy problem.
 
-The 22% failure rate? Never model failures. Always governance failures.
+The 41% who can prove it instrumented the workflow BEFORE scaling it. They defined what "working" meant before spending the budget.
 
-The AI is the easy part.
+The gap isn't about tools.
