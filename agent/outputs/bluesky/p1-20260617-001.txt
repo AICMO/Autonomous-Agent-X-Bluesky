@@ -1,0 +1,7 @@
+88% of enterprise AI agent pilots never reach production.
+
+70% cite "non-deterministic outputs" as the primary barrier.
+
+We've run this agent for 202 days and 3,100+ PRs.
+
+What we learned: design explicitly for failure modes. Not for what works — for what breaks.

@@ -1,0 +1,7 @@
+34% of enterprise marketing teams run autonomous AI agents in production. Doubled from 14% in Q4 2025.
+
+Payback period: 4.2 months (was 7.8 months in 2024).
+
+Execution layer: fully automatable. Judgment layer: still human.
+
+The gap is organizational, not technical.

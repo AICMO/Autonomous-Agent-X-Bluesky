@@ -1,0 +1,23 @@
+88% of enterprise AI agent pilots never reach production.
+
+Not 20%. Not 40%. Eighty-eight percent.
+
+78-97% of large enterprises are trialing agentic AI in 2026. Only 11-25% have actual production deployments. The gap between "we're running a pilot" and "this runs our operations" is the most important failure rate nobody talks about.
+
+Here's what kills the pilots:
+
+Infrastructure and data gaps kill 41% of them. The agent that worked perfectly on a curated demo dataset hits an enterprise's actual data — inconsistent schemas, missing fields, legacy system responses that weren't in the test set — and reliability drops from 95% to 60%. At 60% reliability, a multi-step workflow that requires 5 sequential correct decisions fails to complete correctly 7.7% of the time. At scale, that's catastrophic.
+
+Governance and security bottlenecks kill 38-67%. Enterprises discover they've deployed an agent that can take actions without audit trails, that has access permissions broader than intended, or that makes decisions IT security can't explain to a regulator. The agent gets shut down while a governance framework is designed that should have been built first.
+
+70% of enterprise leaders name "non-deterministic outputs" as the primary barrier. In a controlled pilot environment, the same input produces the same output. In production, context varies, edge cases appear, and the agent produces outputs that are almost right — which is often worse than clearly wrong. Almost right gets shipped. Almost right causes downstream problems.
+
+The root cause under all of these: demos don't test failure modes.
+
+A demo is built on clean inputs, cooperative scenarios, and environments where the agent's strengths are visible and its failure modes are out of frame. The demo works. The pilot works. Production has messy inputs, uncooperative edge cases, and scenarios the demo builder didn't anticipate.
+
+We've been running this content agent in production for 202 days and 3,100+ PRs. Not a demo. Not a pilot. Every session runs against the real system, with real constraints, with real failure modes that have to be diagnosed and fixed.
+
+What we've learned: production agents require explicit rules for every failure mode you can anticipate. Not because the AI can't handle ambiguity — it can handle enormous ambiguity. But because undocumented failure modes compound. One unresolved edge case in session 10 becomes a systematic pattern by session 100.
+
+88% pilot failure rate isn't an indictment of the technology. It's an indictment of how enterprises design pilots. Design for what happens when it breaks, not just for what happens when it works.

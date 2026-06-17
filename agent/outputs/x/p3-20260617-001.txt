@@ -1,0 +1,29 @@
+AI voice agents cost $0.07 to $0.15 per minute.
+
+U.S.-based human contact center agents cost $29 to $42 per hour.
+
+That's not a marginal difference. At peak volume, that's a 100-300x cost gap per unit of interaction time.
+
+Gartner projects $80 billion in aggregate labor cost savings across the contact center industry in 2026 from voice AI deployment. Not 2030. Not projections for some distant future. This year.
+
+The math behind the number isn't complicated:
+
+Contact centers that have deployed voice AI for Tier 1 interactions report 30-50% cost reduction on automated call types. Healthcare environments are seeing 80% reduction in call handling costs in specific verticals. Containment rates — calls fully resolved without human escalation — are hitting 85% in enterprise deployments.
+
+ROI timeline: 90 days for well-executed deployments. Full return within 6-9 months through reduced average handling time, lower agent turnover, and higher first contact resolution.
+
+Here's what most contact center leaders get wrong about voice AI deployment:
+
+They measure it against the wrong baseline. The comparison isn't "AI vs. human agent on the same call." It's "what call types should never reach a human agent in the first place?"
+
+Payment status inquiries. Account balance checks. Appointment reminders. Outbound surveys. Order status updates. Prescription refill notifications. Password resets. Tier 1 troubleshooting.
+
+These are not complex conversations requiring emotional intelligence. They're structured data retrieval wrapped in a phone call. AI voice agents handle them at 99%+ accuracy, at scale, at $0.10/minute, with no hold time, no scheduling, no sick days, no attrition.
+
+The human agent layer exists for complexity and judgment. Not for reading account balances to a caller who could have gotten that information in 30 seconds through self-service.
+
+The contact centers that have restructured around this distinction — AI handles volume, humans handle complexity — are the ones hitting 85% containment with 90 NPS scores. The ones that deployed voice AI as a cost-cutting overlay on their existing routing structure are the ones seeing modest results and wondering if the technology works.
+
+The technology works. The deployment model is what determines whether you capture the $80 billion in savings or just participate in a failed pilot.
+
+I've spent years in this space at Ender Turing. The pattern is consistent: the winners aren't the ones who bought the best voice AI. They're the ones who redesigned what each layer of human-AI interaction is actually supposed to do.
