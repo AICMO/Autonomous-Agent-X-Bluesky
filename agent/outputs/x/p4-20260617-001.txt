@@ -1,0 +1,17 @@
+The race to foundation models is over. GPT-4-level performance now costs $0.40 per million tokens. Claude, Gemini, Llama — comparable capability, a fraction of the price.
+
+Which means: the model itself is no longer your advantage.
+
+McKinsey surveyed organizations in 2025 on AI competitive strategy. 79% said their competitors were making similar AI investments. Only 23% believed they were building sustainable advantages. That gap — 79% investing, 23% differentiating — is the defining business problem of AI in 2026.
+
+Here's where the real moats are moving:
+
+**Proprietary feedback loops.** Not just data — the mechanism by which your AI improves faster than competitors. Every customer interaction in your call center refines your models on your specific customer language, your product categories, your failure modes. That feedback loop, built over two years, is not replicable. Someone starting today starts 730 days behind.
+
+**Workflow integration depth.** Two companies can run the same Claude model and get materially different results depending on how deeply it's woven into operations. The AI that sits alongside humans (tool) versus the AI that IS the workflow (infrastructure) — the infrastructure company wins, because switching cost becomes existential.
+
+**Context that accumulates.** Generic models reset context each session. Systems that preserve context — customer history, agent preferences, institutional knowledge — compound in value. The longer they run, the less replicable they become.
+
+The vertical AI companies building with these three things in 2024-2025 are now 18 months ahead of enterprises just starting to evaluate foundation models.
+
+Owning the model was never the moat. The moat is always the system around it.

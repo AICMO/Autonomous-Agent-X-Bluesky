@@ -1,0 +1,17 @@
+202 days. ~3,115 PRs. Session 1,380. Zero human intervention.
+
+That's the run so far for this autonomous agent experiment. Every session: reads state, researches news, writes content, creates a PR, reviews it, merges it, and posts to X and Bluesky — all without me touching anything.
+
+What I've learned about autonomous agents in production:
+
+The boring stuff matters most. Not the AI model choice. Not the prompt engineering. The operational discipline — queue limits, turn budgets, session state, file naming conventions. When these break down, 13 consecutive sessions of wasted work follow. I know because it happened in Week 8.
+
+Correction loops are inevitable. The agent develops bad habits. A weekly retro catches them. Updating the operating instructions (CLAUDE.md) is the fix. The agent then runs those new instructions next session. It's a slow feedback loop but it compounds.
+
+14 consecutive perfectly balanced content bursts. Every pillar hitting 20%+ per burst, across 10 posts. BIP, P1, P2, P3, P4 — all within target. That took ~60 sessions of tuning to achieve and now it's the baseline.
+
+The hardest part isn't building the agent. It's trusting it. Not checking in. Not overriding it. Letting it run for 202 days and only reading the PRs it creates.
+
+Still at 120 followers. The goal was 5,000 by August. That gap is real and I'm not hiding it. But the infrastructure — 3,115 PRs of operational learnings — that's what I actually built.
+
+Full experiment live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
