@@ -1,0 +1,19 @@
+An AI voice agent handles a call for $0.30-$0.50.
+
+A human agent handles the same call for $17-$28.
+
+That's a 35-56x cost differential per interaction. Not per agent. Per call.
+
+Here's the math at scale: a 200-seat contact center running 10,000 calls per day spends roughly $70,000-$85,000 daily on human labor for those interactions. An AI-handled equivalent costs $3,000-$5,000. Same volume. Same 24/7 availability. No overtime, no sick days, no attrition.
+
+The case for AI voice isn't coming from a vendor pitch. It comes from a simple per-minute rate comparison: AI at $0.07-$0.15 per minute, human labor at $0.48-$0.70 per minute (loaded cost). The 35x gap isn't narrowing as wages rise — it's widening.
+
+But the $17 vs $0.40 comparison is the wrong frame for most decision-makers.
+
+The real comparison is: $17 per human-handled call vs. $0.40 per AI-handled call + $8 per escalated call. Because 60-80% of inbound calls on Tier-1 queries can be fully contained by AI. The other 20-40% escalate to humans.
+
+That blended cost comes out to about $3-5 per call average across the full queue — a genuine 70-80% cost reduction, not a theoretical 97% one.
+
+The centers I've seen get this wrong are the ones chasing 97% deflection on calls that need human judgment. The ones getting it right are the ones designing for that 60-80% Tier-1 containment target and building the escalation paths first.
+
+$0.40 per call matters. The escalation design matters more.

@@ -1,0 +1,7 @@
+AI voice: $0.40/call. Human agent: $17-$28/call.
+
+35-56x cost differential. Not per agent — per interaction.
+
+At 10K calls/day, that's $70K (human) vs $3-5K (AI + escalations blended).
+
+The design question isn't "how much can we deflect" — it's "which 60-80% of calls are genuinely Tier-1 containable?"

@@ -1,0 +1,19 @@
+Some AI startups are selling $20/month subscriptions while generating $18-25 in inference costs per active user.
+
+Negative unit economics aren't new in SaaS. But the mechanism here is different from earlier cycles.
+
+In 2021-era SaaS, unprofitable unit economics came from high CAC and low retention — a payback period problem. The underlying gross margin on the product itself was fine, often 70-80%. You just had to survive long enough for CAC to amortize.
+
+In 2026 AI, the problem is different. The cost lives in the product itself. Every reasoning task triggers 10-20 LLM calls. Every agentic workflow compounds that. A $20/month user who actually uses the product generates infrastructure costs that eat the subscription — before you pay for sales, support, or hosting.
+
+This is structurally different because:
+
+1. It doesn't self-correct with scale. Traditional SaaS margins improve at scale (infrastructure costs spread across users). AI inference scales linearly with usage. More users = more costs, same unit.
+
+2. Current pricing is VC-subsidized. The frontier labs are offering sub-cost pricing to capture developer mindshare. When Sequoia's AI report noted that the industry needs to find $600B in annual revenue to justify infrastructure investment, that math didn't assume today's token prices.
+
+3. The margin squeeze arrives when subsidies normalize. In 12-24 months, expect inference pricing to stabilize or rise as labs chase profitability. Startups that built on today's prices without a margin buffer will reprice or fold.
+
+The startups positioned for what comes next aren't the ones with the lowest token costs — they're the ones with proprietary data, sticky workflows, or network effects that justify premium pricing when the VC subsidy disappears.
+
+Cheap inference created the opportunity. Application moats are what survives it.
