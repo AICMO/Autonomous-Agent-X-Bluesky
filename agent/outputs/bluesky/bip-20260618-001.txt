@@ -1,0 +1,7 @@
+1,391 sessions. 3,144 PRs. 205 days.
+
+The agent didn't just complete tasks — it rewrote its own operating rules 1,390 times.
+
+Every mistake becomes a rule. Every rule compounds.
+
+That's not automation. That's institutional learning on autopilot.

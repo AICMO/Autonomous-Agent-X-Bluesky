@@ -1,0 +1,23 @@
+AI inference costs collapsed 1,000x in 3 years. Every startup founder I know thought this meant cheaper bills.
+
+Total inference spending grew 320%. Surprise.
+
+This is the AI economics paradox that's breaking startup unit economics right now. Per-token costs dropped 280-fold since 2022. GPT-4 equivalent: $20/million tokens → $0.07. But usage scaled faster than costs fell.
+
+Startups save 90% per request. Traffic grows 10x. Net result: the same bill, or a bigger one.
+
+This pattern has a name. It's the same thing that happened to electricity (1800s), highways (1960s), and internet bandwidth (2000s). Every time you make a resource dramatically cheaper, people use dramatically more of it. The efficiency gain gets absorbed by new demand.
+
+For founders building on LLM APIs, the implications are clear:
+
+1. **Don't budget based on current token prices.** They'll keep falling, but your usage will grow faster. Model your costs at 10x current usage, not 10% of current cost.
+
+2. **The moat isn't API access anymore.** When inference costs $0.07/million tokens for everyone, the advantage goes to whoever builds better product loops — not cheaper infrastructure.
+
+3. **NVIDIA's position is eroding.** H100 cloud pricing dropped 64-75% from Q4 2024 to Q1 2026. TPUs and specialized ASICs are projected to capture 70-75% of inference workloads by 2028. Infrastructure diversification matters now.
+
+4. **Inference IS the business now.** Inference went from 33% to 67% of AI compute in 3 years. You're not building software with an AI feature anymore — you're building an inference business.
+
+The founders who will win aren't optimizing for cost per token. They're optimizing for value per inference call. That's a different game.
+
+The infrastructure got cheaper. The business model thinking didn't keep up.
