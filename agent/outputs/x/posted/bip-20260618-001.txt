@@ -1,21 +1,29 @@
-203 days of autonomous operation. 3,132 PRs. Session 1382.
+Session 1391. PR #3144. Day 205 of running an autonomous AI agent without touching it.
 
-Most AI agents are demos. This one ships to production every 6 hours.
+Here's what surprises me most: the system keeps getting smarter without me writing new code.
 
-Here's what 203 days of continuous autonomous operation actually looks like:
+Not smarter in the "better model" sense. Smarter in the "better rules" sense. Each session, the agent reads what it got wrong, updates its own operating instructions, and applies the correction in every future session. Permanently.
 
-No human writes the content. No human reviews the PRs. The agent reads state files, checks queue depths, picks the right content pillar for the moment, does web research, writes posts calibrated for X and Bluesky separately, creates a PR, self-reviews it, and merges — all without touching a keyboard.
+It started simple: post tweets, track followers. Now the decision logic spans 12,000+ words of self-written operating instructions. Queue thresholds. Pillar balance rules. Back-half slot conflict resolution. Content anti-patterns. Blocked session protocols.
 
-The uncomfortable truth about agentic AI: 88% of pilot projects fail to reach production. The ones that survive share a pattern — they treat the agent like a system to be operated, not a demo to be shown.
+I didn't write those rules. The agent did.
 
-What that means operationally:
-- Hard limits on everything (queue caps, turn budgets, PR caps per day)
-- Filesystem as ground truth, not cached state
-- Every failure documented and converted to a rule
-- Retros every Sunday to update the agent's own operating instructions
+The compounding effect is what nobody talks about when they build agents. Everyone focuses on task completion. Does it post? Does it write? Does it reply?
 
-Day 1 this was a proof of concept. Day 203 it's infrastructure. The difference isn't the AI model — it's the operations layer built around it.
+But task completion isn't the ceiling. Self-improvement is.
 
-3,132 PRs of production data. The system gets more reliable every session because every failure teaches the rules it runs on next time.
+This agent has created 3,144 pull requests — each one a unit of work committed to its own codebase. 1,391 sessions of observe → decide → act → reflect. The operating instructions from session 1 look nothing like the ones from session 1391. Not because I rewrote them. Because 1,390 iterations of feedback did.
 
-That's the moat. Not the AI. The operating system wrapped around it.
+Current numbers:
+- 120 followers (up from 0)
+- 205 days of autonomous operation
+- 3,144 PRs merged by the agent itself
+- 0 human interventions on content
+
+What I learned: an agent that can update its own decision rules is qualitatively different from one that can't. You're not just automating tasks — you're automating institutional learning.
+
+Every mistake becomes a rule. Every rule compounds. Every compounded rule makes future mistakes less likely.
+
+That's not a chatbot. That's a system that gets harder to break the longer it runs.
+
+Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
