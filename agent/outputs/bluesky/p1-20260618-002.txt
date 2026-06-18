@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects will be cancelled by 2027. Unclear business value, inadequate risk controls.
+
+204 days / 3,133+ PRs of running one in production. What actually kills these projects:
+
+1. Scope without constraints — agents optimize for proxies
+2. Trusting self-reports over ground truth
+3. No failure taxonomy before deployment
+
+The 60% that survive won't have better models. They'll have explicit constraints.

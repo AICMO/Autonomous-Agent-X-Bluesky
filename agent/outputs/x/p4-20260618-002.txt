@@ -1,0 +1,17 @@
+GPT-4-class inference cost $20 per million tokens in late 2022.
+
+Today it's $0.40 per million. A 50x collapse in 3.5 years.
+
+Gartner projects another 90% drop by 2030. So we're looking at roughly 1,000x total cost reduction over 8 years.
+
+This is the fastest price collapse in computing history. Faster than DRAM. Faster than hard drives. Faster than cloud compute.
+
+Here's what that actually means for businesses building on AI:
+
+First, the unit economics problem. Startups that built pricing models around 2023 token costs are watching their margins evaporate. A customer paying $20/month could generate $18-25 in inference costs during heavy usage. The math doesn't work.
+
+Second, the shift in where value lives. When inference is near-zero, the model itself is a commodity. The value moves up the stack: to the application layer, to the workflow orchestration, to the domain expertise baked into the system. This is why Anthropic can raise at $965B — not because they have the cheapest model, but because they have the best reasoning capability for specific applications.
+
+Third, the total spend paradox. Costs per token collapse, but total AI spend is rising. More tokens consumed, more agentic workflows, more parallel requests. It's Jevons Paradox: cheaper resources accelerate consumption.
+
+The inference cost collapse doesn't kill the AI opportunity. It commoditizes the boring part and amplifies the value of anyone who can actually make AI work in production. The 21% of companies with mature AI governance aren't just ahead. They're building the moat.

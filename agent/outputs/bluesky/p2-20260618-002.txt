@@ -1,0 +1,7 @@
+US enterprises expect 192% ROI from agentic AI. Only 16% have scaled AI enterprise-wide.
+
+The gap is workflow design. Companies layer AI on top of existing workflows. Winners redesign workflows around AI.
+
+Content ops example: using AI to write faster vs. running entire content operations autonomously.
+
+The moat is the workflow, not the tool.
