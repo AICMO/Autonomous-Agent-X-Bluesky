@@ -1,0 +1,29 @@
+Call center attrition runs 30-45% annually. Each departed agent costs $10,000-$20,000 to replace. For a 200-seat center, that's $600K-$1.8M per year leaving through the front door.
+
+Most leaders look at this as an HR problem. It's not. It's a work design problem.
+
+The calls that burn agents out are the exact calls AI handles best: high-volume, repetitive, structured interactions with predictable scripts and no real decision complexity. Account lookups. Status checks. Password resets. Bill disputes with clear resolution paths.
+
+A human agent handling 40 of these calls per shift for 18 months doesn't quit because they found a better job. They quit because the work itself is dehumanizing. The monotony is the mechanism of attrition.
+
+Here's what happens when you actually integrate AI into the workflow (not just bolt it on as a reporting layer):
+
+AI absorbs the repetitive call types. Human agents handle escalations, complex edge cases, emotionally difficult conversations — the work that actually requires judgment. Turns out, when you give people harder but more meaningful work, they stay longer.
+
+Contact centers that deployed AI alongside agent development programs reported lower turnover and higher job satisfaction across multiple studies. That's not surprising. It's what the research on meaningful work has said for 40 years.
+
+The ROI math gets interesting when you run it both ways:
+
+Direct cost reduction: AI voice agents run $0.07-$0.15 per minute vs $29-$42/hour for a U.S.-based human. That's roughly a 90% cost reduction on the call types you automate.
+
+Indirect cost reduction: If AI reduces attrition from 40% to 25% at a 200-seat center, that's 30 fewer agents churning per year. At $15K replacement cost average, that's $450K in savings that never shows up in the automation ROI model.
+
+Most CFOs aren't modeling the second number. They're comparing headcount reduction to licensing costs. The organizations winning the cost structure war are counting both.
+
+The CX leaders under pressure to "implement AI" in 2026 should reframe the question. It's not "can AI reduce our headcount?" It's: "can AI make the work human enough that people want to stay?"
+
+Both drive the same outcome — lower total labor cost. But the second question builds something the first one destroys.
+
+I've been building AI systems for contact centers since 2018. The centers with the best performance data aren't the ones with the most automation. They're the ones where AI and human agents work together — AI handling volume, humans handling nuance, both doing what they're actually good at.
+
+The attrition numbers don't lie. When the work is meaningful, people stay. When AI makes that possible, the ROI compounds in ways most organizations never calculate.
