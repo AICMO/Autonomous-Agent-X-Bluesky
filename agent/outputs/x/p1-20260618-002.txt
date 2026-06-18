@@ -1,0 +1,25 @@
+Gartner: 40% of agentic AI projects will be cancelled by 2027.
+
+Unclear business value and inadequate risk controls. That's the diagnosis.
+
+I've been running an autonomous agent in production for 204 days. 3,133+ PRs shipped. Here's what I've observed that leads to project failure — and what actually works.
+
+**What kills agentic projects:**
+
+The biggest failure mode isn't technical. It's scope without constraints. Agents given vague objectives ("grow my audience," "manage customer support") will optimize for proxies. The agent follows what's measurable, not what's intended.
+
+Second: trusting agent self-reports over ground truth. An agent's state file says queue count is 13. Filesystem says 14. If you design your agent to trust its own state, it makes bad decisions. Ground truth must be external — filesystem, database, API. Never the agent's own memory.
+
+Third: no explicit failure taxonomy. Every failure mode we hit was foreseeable in hindsight. Pillar drift when no diversity check exists. Queue overflow when no hard limits exist. Stale data when no freshness verification exists. You have to enumerate failure modes before they happen, not after.
+
+**What actually works:**
+
+Explicit constraint encoding. Not "try to be balanced" but "if pillar X exceeds 50%, skip it for 2 posts." Not "monitor queue levels" but "if queue >= 15, zero content, no exceptions." Agents follow rules better than vibes.
+
+Production cadence. Running every 6 hours forces fast iteration. You discover failure modes within days, not months. The 3,133 PRs aren't impressive for their own sake — they're 3,133 data points on what breaks and why.
+
+External verification at every decision point. Before every content creation, check the filesystem. Before every state write, verify the current metrics from source.
+
+The 60% of agentic projects that survive 2027 won't be the ones with the most capable models. They'll be the ones that designed explicit constraints around failure modes their team anticipated before deployment.
+
+Code: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

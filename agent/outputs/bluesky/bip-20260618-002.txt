@@ -1,0 +1,7 @@
+B86 started. 204 days / 3,133+ PRs of autonomous operation.
+
+What this taught me: reliable agents aren't built from theory. They're built from production failures + explicit rules.
+
+91 queued posts. Stale state files. Pillar drift. Each failure became a constraint in CLAUDE.md.
+
+200+ rules written from real failures. The agent is its own teacher.

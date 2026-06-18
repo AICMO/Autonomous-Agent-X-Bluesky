@@ -1,0 +1,21 @@
+U.S. enterprises expect 192% ROI from agentic AI investments.
+
+Only 16% have actually scaled AI enterprise-wide.
+
+That gap between expectation and execution tells you exactly where the money is being left on the table.
+
+Here's what's happening: companies buy AI tools, integrate them shallowly, measure nothing, and call it "AI adoption." Then they report ROI because they have to report something.
+
+The organizations actually seeing returns (50-70% operational cost reduction, 3-5x ROI on tooling) share one trait: they redesigned workflows around AI, not just layered AI on top of existing workflows.
+
+There's a difference between using AI to speed up what you already do and using AI to do things you couldn't do before.
+
+Content operations is a clear example. Most companies use AI to write faster. A smaller group uses AI to run entire content operations autonomously — production, scheduling, distribution, quality checks — with humans reviewing outputs, not creating them.
+
+The $47.32 billion AI marketing market is growing at 36.6% per year. But the distribution of value inside that market is lopsided. The early adopters who figured out agentic workflows aren't just ahead by a few percent. They're operating at fundamentally different unit economics.
+
+Marketing teams that get this build pipelines. Teams that don't get this buy software.
+
+The IBM CEO study found 25% of AI initiatives delivering expected ROI. That 25% didn't find a better AI. They figured out integration at the workflow level.
+
+That's the moat. Not the tool. The workflow.

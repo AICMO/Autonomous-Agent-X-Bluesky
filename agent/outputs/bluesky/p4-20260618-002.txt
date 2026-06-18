@@ -1,0 +1,7 @@
+GPT-4-class inference: $20/M tokens in 2022, $0.40 today.
+
+Gartner projects another 90% drop by 2030. ~1,000x total collapse.
+
+Fastest price decline in computing history. Faster than DRAM, cloud, hard drives.
+
+Value moves up the stack: not who has cheapest model, but who makes AI actually work in production.
