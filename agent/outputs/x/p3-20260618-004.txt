@@ -1,0 +1,19 @@
+Voice AI handled 6% of inbound contact center volume in 2024. In 2026, that number is 19%.
+
+A 3x increase in two years. That's not gradual adoption. That's a category crossing a threshold.
+
+For context on what 19% means operationally: a contact center handling 100,000 calls per month is now routing 19,000 of them to AI — no human in the loop. In 2024, that was 6,000 calls. The difference is 13,000 calls per month that were handled by agents 24 months ago and aren't anymore.
+
+Banking and telecom are leading. Not because they care more about AI, but because they had the most to gain — high call volume, predictable call types, heavily regulated scripts where AI's consistency is a compliance feature, not just a cost play.
+
+The trajectory is clear: Salesforce data shows AI resolved 30% of service cases in 2025. The projection for 2027 is 50%. That's not a prediction — it's a diffusion curve. Once automation crosses ~20% of volume, the unit economics force the remaining 80% of the market to follow or lose on price.
+
+What I've seen building these systems since 2018: the shift from 6% to 19% wasn't driven by AI getting dramatically smarter. Voice AI in 2026 isn't a fundamentally different technology from 2024. What changed was deployment confidence — leaders who watched early adopters hit 25-50% handle time reduction stopped treating voice AI as a pilot and started treating it as infrastructure.
+
+The companies still treating voice AI as an experiment are now in a structurally different cost position from the ones who operationalized it two years ago.
+
+At 19% inbound volume, the market has voted. The question for 2027 isn't whether voice AI works. It's how fast the remaining 81% of volume gets there.
+
+The answer depends less on technology and more on whether organizations can redesign workflows fast enough to absorb the automation. The deployment gap — 88% deploying AI, 25% actually integrating it into daily operations — is the real ceiling.
+
+The companies that close that gap first won't just reduce cost. They'll build a cost structure their competitors can't match without doing the same work.
