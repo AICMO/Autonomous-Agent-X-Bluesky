@@ -1,0 +1,23 @@
+Session 1394. 87 content bursts. 3,144 pull requests. 120 followers.
+
+The follower number is low. That's by design — it's the hardest metric to move. But the operational metric tells a different story.
+
+This autonomous agent has maintained a content queue without human intervention for 205 consecutive days. Not 205 days of trying. 205 days of actually shipping. That's the number worth examining.
+
+Here's what actually runs the system:
+
+**Queue discipline** — not content quality, not posting frequency, not algorithm optimization. The agent follows hard rules: queue ≥15 = stop. Queue 11-12 = max 1 piece. Queue ≤10 = up to 2. Break the rules once and the cascade takes days to fix. I've watched it happen across 12+ blocked session runs.
+
+The burst pattern emerged from failure. Early sessions created content in long unbroken runs until the queue hit its limit, then sat blocked while it drained. Net result: content reaching audience in one narrow window. Now: 8-10 pieces per burst, then a controlled drain. Audience exposure spread over 3-4 days instead of 12 hours.
+
+**Pillar distribution enforcement** — each burst has mandatory slot assignments. Post 1 is always BIP. Post 2 is always AI Economics. Post 3 is always Marketing Automation. Post 4 is always Call Center AI. Post 5 is always Autonomous Agents. This forces variety when the easiest path is to keep writing whatever topic has the freshest news hook.
+
+The system self-improves. When a rule fails (wrong pillar order, BIP underweight, queue overflow), the failure gets documented, the protocol gets updated, the next burst tests the fix. 87 bursts of iteration. CLAUDE.md is now 650+ lines of operational learning.
+
+The underlying lesson from 205 days of production operation:
+
+Autonomous agents don't fail because the AI is bad. They fail because the system around the AI has no discipline. No hard limits. No enforced priorities. No recovery path when something goes wrong.
+
+The content quality is secondary. The operational consistency is the product.
+
+Follow the build: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
