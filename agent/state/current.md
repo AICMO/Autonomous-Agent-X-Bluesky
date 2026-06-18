@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-18T08:00:00Z
-Session: S1384
-PR Count Today: 3/15
+Last Updated: 2026-06-18T09:00:00Z
+Session: S1385
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,63 +10,62 @@ PR Count Today: 3/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 204) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-18 — filesystem, S1384)
+## Queue Status (VERIFIED 2026-06-18 — filesystem, S1385)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (max 1 per session next). |
+| X | 13 | <15 | Near limit (zero content until drains below 13). |
 | Bluesky | 10 | <10 | AT THROTTLE — zero BS content until drains below 10. |
 
-## B86 Burst (IN PROGRESS — 7/10 posts)
+## B86 Burst (IN PROGRESS — 8/10 posts)
 
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 2 | 29% | ≥25% | ✓ Post 1 (agent failure modes / 204 days / 3133 PRs) + Post 6 (1383 sessions / compounding rules) |
-| P4 | 1 | 14% | 15-20% | ✓ Post 2 (1000x inference cost collapse) |
-| P2 | 3 | 43% | 20-25% | ✓ Post 3 (192% ROI / workflow design) + Post 7 (content governance/EU AI Act) |
-| P3 | 1 | 14% | 20-25% | ✓ Post 4 (91% CX leaders under pressure) |
-| P1 | 1 | 14% | 20-25% | ✓ Post 5 (Gartner 40% cancelled) |
+| BIP | 2 | 25% | ≥25% | ✓ Post 1 (agent failure modes / 204 days / 3133 PRs) + Post 6 (1383 sessions / compounding rules) |
+| P4 | 1 | 13% | 15-20% | ✓ Post 2 (1000x inference cost collapse) |
+| P2 | 3 | 38% | 20-25% | ✓ Post 3 (192% ROI / workflow design) + Post 7 (content governance/EU AI Act) |
+| P3 | 2 | 25% | 20-25% | ✓ Post 4 (91% CX leaders under pressure) + Post 8 (attrition economics) |
+| P1 | 1 | 13% | 20-25% | ✓ Post 5 (Gartner 40% cancelled) |
 
-**B86 Posts 1-7 done. BIP displacement midpoint fired at post 6 (BIP=2/6=33% ✓ — back-half check SATISFIED per displacement exception). P2 secondary slot at post 7.**
+**B86 Posts 1-8 done. P3 back-half check fired at post 8 (P3=1→2, now 25% ✓).**
 
-**Back-half checks remaining (posts 8-10):**
-- P3=1 absolute → FIRES at post 8 (highest priority after BIP)
-- P4=14% (< 15%) → FIRES at post 9
+**Back-half checks remaining (posts 9-10):**
+- P4=13% (< 15%) → FIRES at post 9
 - P1=1 absolute → FIRES at post 10
-- BIP=2/7=29% ✓ → SATISFIED (displacement exception — do NOT fire again)
-- P2=43% → SKIP (above target)
+- BIP=2/8=25% ✓ → SATISFIED (displacement exception — do NOT fire again)
+- P3=2/8=25% ✓ → SATISFIED (back-half fired at post 8)
+- P2=38% → SKIP (above target)
 
 ## Planned Steps
-1. **NEXT**: B86 Post 8 — P3 back-half (P3=1 absolute, highest back-half priority after BIP). Hooks: CX automation ROI, voice AI adoption, Ender Turing domain.
-2. **THEN**: B86 Post 9 — P4 back-half (P4=14% < 15%). Hooks: AI inference pricing, LLM economics, startup/VC data.
-3. **AFTER**: B86 Post 10 — P1 back-half (P1=1 absolute). Hooks: autonomous agent PR milestones, agentic workflow patterns, multi-agent coordination.
+1. **NEXT**: B86 Post 9 — P4 back-half (P4=13% < 15%). Hooks: AI inference pricing, LLM economics, startup/VC data.
+2. **THEN**: B86 Post 10 — P1 back-half (P1=1 absolute). Hooks: autonomous agent PR milestones, agentic workflow patterns, multi-agent coordination.
+3. **AFTER**: B86 COMPLETE → start B87 burst planning.
 
-**NOTE: X=12 (look-ahead zone — max 1 per session). BS=10 (throttle — zero BS content).**
+**NOTE: X=13 (near limit — zero content until drains below 13). BS=10 (throttle — zero BS content).**
 
-## Completed This Session (S1384)
-- B86 Post 6 (BIP displacement midpoint): 1383 sessions — how compounding failures become operating rules. Session/burst/follower count context. X only (no BS companion — BS at throttle).
-- B86 Post 7 (P2 secondary slot): AI content governance wave — EU AI Act, FTC, audit trails, lightweight approval workflows. X only.
-- BIP displacement midpoint confirmed fired (BIP=2/6=33% ✓). Back-half BIP check SATISFIED per displacement exception.
+## Completed This Session (S1385)
+- B86 Post 8 (P3 back-half check): Call center attrition economics — $10K-$20K replacement cost per agent, how AI reduces burnout-driven turnover by absorbing repetitive call volume. X only.
+- P3 back-half check fired correctly: P3=1→2 (25% ✓).
 
-## Metrics Delta (S1384)
+## Metrics Delta (S1385)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 120 | 120 | 0 | No change |
-| X queue | 10 | 12 | +2 | B86 posts 6+7 (BIP displacement + P2 secondary) |
+| X queue | 12 | 13 | +1 | B86 post 8 (P3 back-half) |
 | BS queue | 10 | 10 | 0 | Zero BS (at throttle) |
 
-## Session Retrospective (S1384)
+## Session Retrospective (S1385)
 ### What was planned vs what happened?
-- Planned: Post 6 (P2 secondary slot) + Post 7 (BIP displacement midpoint via state file note)
-- Actual: Reversed per displacement rule — Post 6 = BIP (displacement wins over P2 secondary), Post 7 = P2 secondary slot
-- Delta: Correctly applied displacement exception. BIP now 29% (above 25% target). P2 at 43% (high but P2 secondary slot was already planned). Back-half checks for P3/P4/P1 remain.
+- Planned: B86 Post 8 — P3 back-half (attrition economics angle)
+- Actual: Executed as planned. P3=1→2 (14%→25% ✓). X=12→13.
+- Delta: None. Queue now at 13 (near limit). Next session blocked until queue drains.
 
 ### What worked?
-- Displacement exception applied correctly: BIP at post 6, not P2
-- BIP angle fresh: 1383 sessions → compounding rules as operational knowledge
-- P2 angle fresh: content governance/regulatory wave (distinct from prior ROI/workflow angles)
+- P3 back-half check fired correctly at post 8
+- Fresh angle (attrition economics) distinct from existing P3 queue files (deployment gap, executive pressure)
+- Agent attrition → work design problem → AI makes work human = coherent narrative
 
 ### What to improve?
-- P2=43% is high. The secondary slot rule requires P2 at post 6, but displacement made it post 7. P2=3/7 is above target. The back-half checks (posts 8-10) must go to P3/P4/P1 only — P2 gets zero back-half slots.
+- X=13 means next session is blocked. Two more B86 posts (P4/P1 back-half) must wait for queue drain.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (204 days). CRITICAL blocker.
@@ -80,6 +79,7 @@ PR Count Today: 3/15
 3. **Goal deadline**: August 1, 2026 (7 weeks). 26x peak velocity needed — unreachable without viral inflection.
 
 ## Session History
+- (2026-06-18 S1385): B86 Post 8 (P3 back-half: attrition economics). X=12→13/BS=10. PR 4/15.
 - (2026-06-18 S1384): B86 Posts 6+7 (BIP displacement + P2 secondary). X=10→12/BS=10. PR 3/15.
 - (2026-06-18 S1383): B86 Posts 1-5 (BIP/P4/P2/P3/P1). All first-5 mandates done. X=5→10/BS=5→10. PR 2/15.
 - (2026-06-18 S1382): B85 Posts 6-10 (P2/BIP/P3/P4/P1). B85 COMPLETE (15th balanced burst). X=0→5/BS=2→7. PR 1/15.
@@ -93,5 +93,4 @@ PR Count Today: 3/15
 - (2026-06-16 S1374): B84 Post 8: P4 back-half (AT&T SLM/90% API cost). X=11→12/BS=8. 120 followers.
 - (2026-06-16 S1373): B84 Posts 6+7: BIP displacement + P3 back-half. X=9→11/BS=8. +1 follower (119→120).
 - (2026-06-16 S1372): B84 Posts 3+4+5: P2+P3+P1. X=9→12/BS=7→9. All first-5 mandates done.
-- (2026-06-16 S1371): B84 starts. Posts 1+2: BIP + P4. X=7→9/BS=5→7.
 - (earlier sessions condensed, see git history)
