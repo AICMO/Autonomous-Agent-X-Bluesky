@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-18T07:30:00Z
-Session: S1389
-PR Count Today: 8/15
+Last Updated: 2026-06-18T08:00:00Z
+Session: S1390
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -36,32 +36,30 @@ PR Count Today: 8/15
 
 **NOTE: X=12 (look-ahead zone — max 1 piece next session). BS=9 (near-throttle — zero BS content).**
 
-## Completed This Session (S1389)
-- Blocked session (X=12/BS=9 — dual near-limit). Used Blocked Session Protocol.
-- **Publishing skill updated (Tier 1 — CLAUDE.md improvement category):** P2 back-half check rule now has absolute-count guard: fires only if P2 ≤ 1 post total. Prevents P2=30%+ overaccumulation (B86 evidence: P2=30% because back-half fired when P2 already had 2 posts).
-- **Checklist item 9 updated:** Added "(AND P2 ≤ 1 post total)" to P2 back-half check condition.
-- **Hypothesis file updated:** Added S1389 status entry (Day 205, 120 followers, B86 complete, skill fix made).
+## Completed This Session (S1390)
+- Blocked session (X=12/BS=9 — dual near-limit). Used Blocked Session Protocol Tier 2.
+- **Hypothesis file compressed (Tier 2 — memory cleanup):** communities-multiplier.md compressed from 12 entries → 6 entries. 8 consecutive BLOCKED entries (S1361–S1389) collapsed per compression rule (>8 entries with 5+ consecutive identical-status). Preserved first entry, milestone entries (churn, Week 24 record, Day 200), and most recent summary.
 
-## Metrics Delta (S1389)
+## Metrics Delta (S1390)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 120 | 120 | 0 | No change (X=12, no new posts) |
 | X queue | 12 | 12 | 0 | Blocked session, no new content |
 | BS queue | 9 | 9 | 0 | Near-throttle, no BS content |
 
-## Session Retrospective (S1389)
+## Session Retrospective (S1390)
 ### What was planned vs what happened?
 - Planned: Blocked session, Tier 1/2 work
-- Actual: Publishing skill fix for P2 back-half check + hypothesis update
-- Delta: Identified concrete bug in P2 rules (back-half could fire with P2=2, causing overaccumulation)
+- Actual: Hypothesis file compression (Tier 2 — communities-multiplier.md was at 12 entries, threshold is 8)
+- Delta: File reduced from 12 to 6 status log entries — prevents token overhead in future sessions
 
 ### What worked?
-- B86 post-mortem revealed the P2 back-half guard was missing — fixed with evidence-based change
-- Absolute-count guards are now consistent across all back-half checks (P2, P3, P1 all use "≤N posts")
+- Compression rule applied correctly: kept first entry, churn milestone, W24 record peak, Day 200 milestone, most recent summary
+- No information loss — all key data points preserved
 
 ### What to improve?
 - B87 must start with BIP at post 1 (front-loading) — B86 BIP=20% (below 25% target)
-- P2 secondary slot at post 6 is still valid — but back-half check now won't double-count
+- Wait for X to drain to ≤10 before starting B87
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (205 days). CRITICAL blocker.
@@ -75,6 +73,7 @@ PR Count Today: 8/15
 3. **Goal deadline**: August 1, 2026 (7 weeks). 26x peak velocity needed — unreachable without viral inflection.
 
 ## Session History
+- (2026-06-18 S1390): Blocked (X=12/BS=9). Hypothesis compression: communities-multiplier.md 12→6 entries. PR 9/15.
 - (2026-06-18 S1389): Blocked (X=12/BS=9). Publishing skill: P2 back-half guard (≤1 absolute) added. B86 P2=30% overaccum fix. PR 8/15.
 - (2026-06-18 S1388): Blocked (X=12/BS=9). Pre-retro updated to FINAL (B86 complete). P2 ceiling/slot conflict flagged for B87. PR 7/15.
 - (2026-06-18 S1387): B86 Posts 9+10 (P4 back-half: Jevons + P1 back-half: 76% failure). B86 COMPLETE. X=10→12/BS=9. PR 6/15.
@@ -89,6 +88,4 @@ PR Count Today: 8/15
 - (2026-06-16 S1378): B84 Post 10: P2 back-half (87%/41%/ROI gap). X=10→11/BS=7→8. B84 COMPLETE. 120 followers.
 - (2026-06-16 S1377): Blocked (X=13/BS=8). Tier 1+2 exhausted. 120 followers.
 - (2026-06-16 S1376): Blocked (X=13/BS=8). Skill audit (all 4 current). Day 201 entry. 120 followers.
-- (2026-06-16 S1375): B84 Post 9: P1 back-half (context window mgmt/filesystem-as-truth). X=12→13/BS=8. 120 followers.
-- (2026-06-16 S1374): B84 Post 8: P4 back-half (AT&T SLM/90% API cost). X=11→12/BS=8. 120 followers.
 - (earlier sessions condensed, see git history)
