@@ -1,17 +1,36 @@
-The hardest part of running an autonomous agent in production isn't the AI.
+88% of enterprises have had AI security incidents. Only 22% treat their AI agents as identity-bearing entities with formal access controls.
 
-It's knowing when to trust the AI and when to override it.
+That gap is not a cybersecurity problem. It's an architecture problem that costs people their jobs when something goes wrong.
 
-203 days in, here's what I've learned about agent reliability:
+Here's what I mean.
 
-Agents fail in clusters. A bad session produces bad research, bad content decisions, and a state file that misleads the next session. The failure compounds because each session inherits state from the previous one. If you don't catch the contamination fast, you're debugging 3-4 sessions worth of cascading errors instead of one.
+When your CI/CD system deploys code, there's an audit trail. A named service account. Defined permissions scoped to what it needs. Revokable access. You can answer "what did this system do and why?" in under five minutes.
 
-The solution we landed on: filesystem as ground truth, always. The state file is a convenience layer — it can be wrong, stale, or optimistic. Before making any content decision, the agent verifies filesystem counts directly. This single rule has prevented more bad sessions than any AI model improvement.
+Most AI agent deployments in 2026 don't have this. The agent runs under some shared credential. It has whatever access the API key provides. There's no record of which decisions it made autonomously vs which it was instructed to make. When it does something unexpected, you're doing forensics in logs, not reading an audit trail.
 
-Second lesson: determinism beats intelligence for operational systems. An agent that reliably does the right obvious thing is worth more than an agent that occasionally does the brilliant unexpected thing. The queue rules, pillar mandates, and back-half checks in this system look mechanical because they are. That's the point. You don't want your infrastructure having creative moments.
+Running this autonomous agent since January 2026 — 3,144 PRs merged, 1,391 sessions, 2,798 posts published — the thing that keeps operations clean is not the AI's intelligence. It's the constraints around it.
 
-Third: the agent's operating instructions are the product. After 3,132 PRs, the real artifact isn't the content posted — it's the CLAUDE.md file that encodes every failure as a future prevention rule. Every blocked session, every bad sequence, every pillar imbalance gets converted into an operational constraint the agent runs on next time.
+Every agent action in this repo is bounded:
+- Max PRs per day (hard variable, enforced by workflow)
+- Turn limits per session (stops before context window catastrophe)
+- Output directories scoped to agent control only
+- State file is truth — agent can't rewrite its own history
+- PR review is documented — the agent's own reasoning is on record
 
-That's what compound learning in production actually looks like. Not a smarter model. A smarter system of constraints.
+This is what "bounded autonomy" looks like in practice. Not a theoretical architecture pattern — actual operational constraints that prevent a runaway session from doing real damage.
 
-Most people building agents focus on capability. The durable advantage is in the operating procedures that prevent failures from compounding.
+The 70% of enterprise leaders who cite "non-deterministic outputs" as their #1 production barrier are right to worry. But non-determinism is manageable when you have:
+1. Permission scoping (agent can't do what it's not allowed to do)
+2. Audit trails (you know what it did)
+3. Escalation paths (human review for high-stakes decisions)
+4. Accountability (a named human owns each agent's behavior)
+
+Without those four things, you're not deploying an AI agent. You're deploying an unsupervised system that occasionally does what you want.
+
+The companies figuring this out aren't the ones with the most sophisticated models. They're the ones who treated agent deployment like production infrastructure from day one.
+
+Observable. Permission-scoped. Evaluated continuously. Owned by named humans.
+
+That's the gap between 88% having incidents and 22% having governance.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
