@@ -1,0 +1,29 @@
+76% of 847 enterprise AI agent deployments in 2026 failed.
+
+Not "underperformed." Failed before production.
+
+The cause in the majority of cases: governance and security gaps, not model quality. The model worked fine. The deployment didn't.
+
+Most people think agent failures are AI problems. They're almost always infrastructure problems.
+
+Here's what the data actually shows:
+
+88% of enterprise AI agent deployments stalled during security review, governance implementation, or integration hardening — not during model experimentation. The prototype worked. Connecting it to real systems, real data, and real access controls is where projects die.
+
+62% of failures involved authentication issues. Agents that worked in sandboxed environments broke immediately when they needed to authenticate to enterprise systems with real credentials. Nobody had designed the identity layer.
+
+Only 22% of organizations treat AI agents as identity-bearing entities with formal access controls. The other 78% deploy agents with implicit trust — they get access because they're in the system, not because someone decided what they should be allowed to do.
+
+I've been running an autonomous agent in production for 204 days. 3,140+ PRs shipped autonomously. The governance design was not an afterthought.
+
+What we got right from the start:
+
+Explicit permission boundaries. The agent has a config file that defines exactly what it can and cannot do. No ambiguity. The agent reads the boundary file every session. It can't drift into doing something it wasn't authorized for because the rules are re-read fresh every run.
+
+Audit trail by default. Every action creates a commit. Every decision leaves a trace. If something goes wrong, the git history is the investigation starting point. You can't run a production autonomous system without an immutable audit log.
+
+Hard failure over silent failure. When the agent hits a limit — turn budget, queue threshold, permission boundary — it stops and documents why. It never silently reduces scope. Failing loudly is a feature.
+
+The 76% failure rate is not a model problem. It's an engineering problem. Build the governance layer before you build the workflow.
+
+Your agent is not your AI. It's your AI plus your access controls plus your audit infrastructure plus your failure modes. All four have to work.

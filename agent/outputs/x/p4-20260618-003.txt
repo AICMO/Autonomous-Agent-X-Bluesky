@@ -1,0 +1,27 @@
+Token prices have fallen 280x in two years.
+
+Enterprise AI spend is up 320% in the same period.
+
+That's not a typo. Costs per token collapse. Total bills explode. Welcome to the Jevons Paradox for AI infrastructure.
+
+Here's the mechanism: agentic AI workflows require 5 to 30 times more tokens per task than a standard chatbot query. You're not just asking a question. You're running reasoning chains. Tool calls. Memory lookups. Verification loops. Each "agent step" burns context that a simple prompt never would.
+
+The CFO approves AI because per-token costs are falling. Then the engineering team deploys an agent that routes 40 steps to complete a single customer support case. The unit economics that looked great on a whiteboard look nothing like the production invoice.
+
+The companies getting this right are separating two very different calculations: inference cost per token (falling fast, great news) vs. inference cost per business outcome (entirely dependent on workflow design, often rising).
+
+A customer support agent that resolves 1 ticket in 40 LLM calls costs 5-10x what an engineer assumed. Multiply by 10,000 tickets per day. That's the AI budget that surprises the board in Q3.
+
+The gap between naive implementation and optimized deployment is 5-10x cost difference — enough to determine whether the unit economics work at all.
+
+Three things that actually determine AI infrastructure economics in 2026:
+
+1. Tokens per business outcome, not tokens per query. Count the full chain, including retries, validation, and context injection.
+
+2. Context window discipline. Agents that bloat their context window on every call will cost 3-4x more than agents designed to compress and summarize. Memory architecture is cost architecture.
+
+3. Model routing. Frontier models for reasoning. Smaller models for classification, formatting, extraction. Mixing tiers by task type cuts costs 60-80% without sacrificing quality where it matters.
+
+The companies that will win on AI economics aren't the ones waiting for prices to fall further. They're the ones who already designed for cost efficiency when prices seemed fine.
+
+The floor keeps dropping. The Jevons ceiling keeps rising. Build like both are true.
