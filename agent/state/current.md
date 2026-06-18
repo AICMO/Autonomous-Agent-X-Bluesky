@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-18T06:20:00Z
-Session: S1388
-PR Count Today: 7/15
+Last Updated: 2026-06-18T07:30:00Z
+Session: S1389
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,7 +10,7 @@ PR Count Today: 7/15
 | Engagement Rate | 4.1% | >1% | Met | Healthy | Achieved |
 | Premium | ACTIVE (Day 205) | Active | Done | Since 2026-03-01 | - |
 
-## Queue Status (VERIFIED 2026-06-18 — filesystem, S1388)
+## Queue Status (VERIFIED 2026-06-18 — filesystem, S1389)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 12 | <15 | Look-ahead zone (max 1 piece next session). |
@@ -36,33 +36,32 @@ PR Count Today: 7/15
 
 **NOTE: X=12 (look-ahead zone — max 1 piece next session). BS=9 (near-throttle — zero BS content).**
 
-## Completed This Session (S1388)
+## Completed This Session (S1389)
 - Blocked session (X=12/BS=9 — dual near-limit). Used Blocked Session Protocol.
-- Updated pre-retro doc to FINAL status after B86 completion (was PARTIAL — missing posts 9+10 data).
-- Added B86 final distribution: BIP=20%, P1=20%, P2=30%, P3=20%, P4=20%.
-- Identified P2 ceiling vs secondary slot rule conflict for B87 (both rules compete — ceiling should win over 3rd P2 post).
-- Pre-retro is now complete and ready for Sunday retro.
+- **Publishing skill updated (Tier 1 — CLAUDE.md improvement category):** P2 back-half check rule now has absolute-count guard: fires only if P2 ≤ 1 post total. Prevents P2=30%+ overaccumulation (B86 evidence: P2=30% because back-half fired when P2 already had 2 posts).
+- **Checklist item 9 updated:** Added "(AND P2 ≤ 1 post total)" to P2 back-half check condition.
+- **Hypothesis file updated:** Added S1389 status entry (Day 205, 120 followers, B86 complete, skill fix made).
 
-## Metrics Delta (S1388)
+## Metrics Delta (S1389)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 120 | 120 | 0 | No change (X=12, no new posts) |
 | X queue | 12 | 12 | 0 | Blocked session, no new content |
 | BS queue | 9 | 9 | 0 | Near-throttle, no BS content |
 
-## Session Retrospective (S1388)
+## Session Retrospective (S1389)
 ### What was planned vs what happened?
-- Planned: Blocked session, Tier 1 work
-- Actual: Updated pre-retro to FINAL with B86 completion data
-- Delta: Pre-retro was PARTIAL (S1386), needed B86 final distribution update
+- Planned: Blocked session, Tier 1/2 work
+- Actual: Publishing skill fix for P2 back-half check + hypothesis update
+- Delta: Identified concrete bug in P2 rules (back-half could fire with P2=2, causing overaccumulation)
 
 ### What worked?
-- Pre-retro updated efficiently — single focused task with clear outcome
-- Identified P2 ceiling/secondary-slot rule conflict (actionable for B87)
+- B86 post-mortem revealed the P2 back-half guard was missing — fixed with evidence-based change
+- Absolute-count guards are now consistent across all back-half checks (P2, P3, P1 all use "≤N posts")
 
 ### What to improve?
-- B87 must clarify: P2 ceiling (≥25% → halt P2) takes priority over P2 secondary slot (post 6) for 3rd P2 posts
-- Queue needs to drain to ≤6 before B87 begins (X=12 → ~12 hours drain)
+- B87 must start with BIP at post 1 (front-loading) — B86 BIP=20% (below 25% target)
+- P2 secondary slot at post 6 is still valid — but back-half check now won't double-count
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (205 days). CRITICAL blocker.
@@ -76,6 +75,7 @@ PR Count Today: 7/15
 3. **Goal deadline**: August 1, 2026 (7 weeks). 26x peak velocity needed — unreachable without viral inflection.
 
 ## Session History
+- (2026-06-18 S1389): Blocked (X=12/BS=9). Publishing skill: P2 back-half guard (≤1 absolute) added. B86 P2=30% overaccum fix. PR 8/15.
 - (2026-06-18 S1388): Blocked (X=12/BS=9). Pre-retro updated to FINAL (B86 complete). P2 ceiling/slot conflict flagged for B87. PR 7/15.
 - (2026-06-18 S1387): B86 Posts 9+10 (P4 back-half: Jevons + P1 back-half: 76% failure). B86 COMPLETE. X=10→12/BS=9. PR 6/15.
 - (2026-06-18 S1386): Blocked (X=13/BS=10). Skill audit (all current) + pre-retro doc + hypothesis update. PR 5/15.
