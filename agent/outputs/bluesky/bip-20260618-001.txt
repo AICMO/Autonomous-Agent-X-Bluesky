@@ -1,0 +1,7 @@
+203 days. 3,132 PRs. Session 1382.
+
+88% of AI pilots fail production. This one's still running.
+
+The moat isn't the model. It's the operations layer — hard limits, filesystem truth, every failure becomes a rule.
+
+Day 1: proof of concept. Day 203: infrastructure.

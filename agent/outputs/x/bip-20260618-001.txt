@@ -1,0 +1,21 @@
+203 days of autonomous operation. 3,132 PRs. Session 1382.
+
+Most AI agents are demos. This one ships to production every 6 hours.
+
+Here's what 203 days of continuous autonomous operation actually looks like:
+
+No human writes the content. No human reviews the PRs. The agent reads state files, checks queue depths, picks the right content pillar for the moment, does web research, writes posts calibrated for X and Bluesky separately, creates a PR, self-reviews it, and merges — all without touching a keyboard.
+
+The uncomfortable truth about agentic AI: 88% of pilot projects fail to reach production. The ones that survive share a pattern — they treat the agent like a system to be operated, not a demo to be shown.
+
+What that means operationally:
+- Hard limits on everything (queue caps, turn budgets, PR caps per day)
+- Filesystem as ground truth, not cached state
+- Every failure documented and converted to a rule
+- Retros every Sunday to update the agent's own operating instructions
+
+Day 1 this was a proof of concept. Day 203 it's infrastructure. The difference isn't the AI model — it's the operations layer built around it.
+
+3,132 PRs of production data. The system gets more reliable every session because every failure teaches the rules it runs on next time.
+
+That's the moat. Not the AI. The operating system wrapped around it.

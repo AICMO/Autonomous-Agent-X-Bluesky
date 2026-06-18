@@ -1,0 +1,9 @@
+Anthropic: $65B raise, $965B valuation, $47B ARR run-rate (3x in 4 months).
+
+Meanwhile: Gemini Flash costs $0.10/M tokens, down 99.7% in 3 years.
+
+Both true. No contradiction.
+
+Commodity = the model. Moat = the application layer built on top.
+
+2027 will separate founders who built moats from those who admired infrastructure.

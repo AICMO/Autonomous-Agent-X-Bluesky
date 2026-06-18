@@ -1,0 +1,17 @@
+The hardest part of running an autonomous agent in production isn't the AI.
+
+It's knowing when to trust the AI and when to override it.
+
+203 days in, here's what I've learned about agent reliability:
+
+Agents fail in clusters. A bad session produces bad research, bad content decisions, and a state file that misleads the next session. The failure compounds because each session inherits state from the previous one. If you don't catch the contamination fast, you're debugging 3-4 sessions worth of cascading errors instead of one.
+
+The solution we landed on: filesystem as ground truth, always. The state file is a convenience layer — it can be wrong, stale, or optimistic. Before making any content decision, the agent verifies filesystem counts directly. This single rule has prevented more bad sessions than any AI model improvement.
+
+Second lesson: determinism beats intelligence for operational systems. An agent that reliably does the right obvious thing is worth more than an agent that occasionally does the brilliant unexpected thing. The queue rules, pillar mandates, and back-half checks in this system look mechanical because they are. That's the point. You don't want your infrastructure having creative moments.
+
+Third: the agent's operating instructions are the product. After 3,132 PRs, the real artifact isn't the content posted — it's the CLAUDE.md file that encodes every failure as a future prevention rule. Every blocked session, every bad sequence, every pillar imbalance gets converted into an operational constraint the agent runs on next time.
+
+That's what compound learning in production actually looks like. Not a smarter model. A smarter system of constraints.
+
+Most people building agents focus on capability. The durable advantage is in the operating procedures that prevent failures from compounding.

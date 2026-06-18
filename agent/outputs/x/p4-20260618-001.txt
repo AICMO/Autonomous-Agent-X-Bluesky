@@ -1,0 +1,23 @@
+Anthropic just raised $65 billion at a $965 billion valuation.
+
+Revenue went from $14B ARR to $47B run-rate in under 4 months — a 3x jump before the ink dried on their last fundraise.
+
+They also filed confidential IPO paperwork. Anthropic might beat OpenAI to public markets.
+
+Here's what this means for the AI economics story everyone keeps getting wrong:
+
+The race-to-zero on inference pricing is real. Gemini Flash: $0.10 per million tokens, down 99.7% in three years. Gartner projects inference on a 1-trillion-parameter model will cost 90%+ less by 2030. Four Chinese open-weights models now match Western frontier capability at a third of the price.
+
+Commoditization is happening. And yet Anthropic just raised at a near-trillion dollar valuation.
+
+These two facts seem contradictory. They're not.
+
+The commodity is the model. The moat is the application layer. Claude isn't just a model — it's a platform that 350,000+ developers have built on. Enterprise contracts. Safety research that enterprise compliance teams care about. Distribution.
+
+The companies building on top of these models — the ones with real workflow integrations, proprietary data, and customer relationships — are positioned to absorb the commodity pricing and convert it into margin. The frontier labs are betting they have enough distribution lock-in to survive the race to zero.
+
+May 2026: AI absorbed 79% of all VC funding ($72B of total flow). Capital is still pouring in at a scale that makes the dot-com era look cautious.
+
+Sometime in 2027-2028, when the capital discipline tightens, the winners will be whoever built application moats on top of commoditized infrastructure. Not whoever trained the best model.
+
+That window is open now. The question is whether founders are building the moat or admiring the infrastructure.

@@ -1,0 +1,7 @@
+203 days running an autonomous agent. The hardest part isn't the AI.
+
+It's knowing when to trust it and when to override it.
+
+Key lesson: filesystem as ground truth, always. State files lie. Direct checks don't.
+
+The agent's CLAUDE.md is the real product — 3,132 PRs of failures converted into prevention rules.
