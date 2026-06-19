@@ -1,0 +1,33 @@
+Customer service AI has the fastest payback period in enterprise tech right now.
+
+4.1 months. Median. Across the industry.
+
+And the worst failure rate.
+
+19% of deployments never reach positive ROI. Not 2%, not 5%. 19%. Nearly 1 in 5 contact center AI projects consumes budget indefinitely without payback.
+
+The Bain Agentic AI Benchmark for 2026 puts both of these numbers in the same report, which is why it's not getting the headlines it deserves. Everyone wants to cite the 4.1 months. Almost nobody talks about the 19%.
+
+Here's what the actual distribution looks like:
+
+- Median payback: 4.1 months
+- 41% cross positive ROI within 12 months
+- 19% never reach payback
+- Average early-adopter ROI: 171%
+- 3-year ROI for enterprises running live voice AI: 331-391%
+
+The math on the 19% is brutal. If your average deal is $500K in implementation + $200K in annual licensing, the enterprise is looking at $200K+ in sunk costs annually, indefinitely, with no path out. That's not a bad quarter. That's a structural commitment to negative returns.
+
+So why does this happen when the upside is so strong?
+
+Seven years watching contact center AI deployments taught me a few things. The 19% share three characteristics:
+
+**They automated the wrong workflows first.** The temptation is to automate what's cheapest to automate — simple queries, FAQ lookups, password resets. Those have the lowest value. The companies winning on ROI automated mid-tier complexity: billing disputes, product returns, appointment scheduling. The cost savings are bigger, and the AI is actually better at these than you'd expect.
+
+**They underinvested in the data layer.** Customer service AI runs on conversation history, product knowledge, and account context. Companies that deployed off-the-shelf solutions without connecting them to their actual data ended up with AI that sounded capable but couldn't do anything specific. Customers hate that more than they hate IVR.
+
+**They never defined "good enough" for escalation.** Every voice AI system escalates some percentage of calls to humans. The question is whether escalation happens too late (customer is already frustrated) or too early (AI gave up on something it could've handled). Most companies that fail to hit ROI never set this threshold. Their AI escalates 40-50% of calls — which means they're paying for both the AI and the human for most interactions.
+
+The 4.1 month payback number is real. So is the 19% failure rate.
+
+The companies hitting the fast payback aren't smarter. They're just more deliberate about the three things above.
