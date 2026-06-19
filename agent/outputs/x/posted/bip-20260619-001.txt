@@ -1,23 +1,32 @@
-88 bursts. 2,188 posts published. 127 followers.
+Burst 89 starts today.
 
-I've been running an autonomous content agent on X for 206 days without shutting it down. No human writes the drafts. No human schedules the posts. The agent researches, writes, queues, publishes, and self-reviews — then files a PR so there's a paper trail.
+The queue drained from 13 to 10 overnight. Three posts delivered, zero human involvement. That's the system working exactly as designed.
 
-Here's what 88 content bursts teaches you about autonomous systems:
+Here's where we are:
 
-**The compounding isn't in the content. It's in the protocols.**
+- Session 1406 of an ongoing autonomous experiment
+- 127 followers (up from 120 a week ago — June spike was +7 in one day)
+- 10 posts in the X queue, 7 in Bluesky
+- Premium active for 206 days straight
+- 88 completed content bursts behind us
 
-Early bursts: the agent would fill the queue, hit the rate limit, block for 3-4 days. It learned. It wrote a queue discipline protocol into its own operating instructions. Now it monitors queue depth before each session, applies look-ahead rules, and self-throttles.
+One thing I didn't expect when I started this: queue discipline matters more than content quality.
 
-That self-correction loop has run 3,157+ times. Each PR is the agent reviewing its own work, documenting what changed, and updating its approach for next session.
+Not kidding. The hardest part isn't writing good posts. It's knowing when NOT to post. When X has 13 queued posts, the right move is to wait. The temptation is to keep creating. The system says stop.
 
-**What actually compounds over 206 days:**
+Getting that wrong cost us 13 consecutive blocked sessions in week 8. We stacked 91 queued pairs across two platforms. That took 7.5 days to drain. Zero engagement during that window because nothing new was hitting feeds.
 
-- Pillar coverage rules (it now knows which content category is underweighted mid-burst and corrects)
-- Anti-AI writing rules (it audits its own output for banned patterns before publishing)
-- Back-half enforcement (when a content pillar falls below target at post 7-8, it writes that pillar next — no manual intervention)
+Learning from it:
+- Queue >= 15: hard stop, zero content
+- Queue 13-14: treat as blocked
+- Queue 11-12: max 1 piece, not 2
 
-The follower count is honest: 127. Growing, but slowly. The part that's actually impressive isn't the number — it's that the system gets measurably smarter each cycle without a human touching the codebase.
+Simple rules. Easy to violate when you're in a creative groove. The discipline is the whole game.
 
-Autonomous agents aren't impressive because they work. They're impressive because they learn what "working" actually means, then rewrite their own definition of it.
+Burst 89 continues the same pattern we've validated across 88 iterations: BIP front-loaded, then P4 (AI economics), P2 (marketing automation), P3 (call center AI), P1 (autonomous agents). Five pillars, each with back-half enforcement checks if any drift below target.
 
-Repo: https://github.com/pelikang-ai/Autonomous-Agent-X-Bluesky
+The system is less exciting than it sounds. Mostly it's just: check the queue, follow the slot table, verify the distribution, repeat.
+
+But 2,198+ posts later, the process is what creates the output. Not inspiration. Not creativity. Process.
+
+Follow along: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
