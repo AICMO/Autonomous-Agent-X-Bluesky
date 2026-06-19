@@ -1,0 +1,25 @@
+87% of marketers now have genAI in at least one workflow. Almost none of them have a governance framework built for it.
+
+That's not a criticism. Content governance wasn't designed for agents that write, schedule, and publish at machine speed.
+
+Here's where it gets expensive: the EU AI Act is live. FTC "Operation AI Comply" is active. Italy already fined OpenAI €15 million. The penalties for AI-generated content that violates regulations — misleading claims, GDPR-adjacent data use, undisclosed AI authorship — can hit €35 million or 7% of global revenue.
+
+Most marketing teams think their existing approval process covers this. It doesn't.
+
+The old compliance model: human writes content → human reviews it → legal spot-checks. Works fine when humans are the bottleneck. Breaks completely when an agent writes 50 variants in a session, each referencing different data sources, each routed to different audiences.
+
+Your approval workflow wasn't built to catch:
+- Agent-generated claims that are technically accurate but directionally misleading
+- Content that complies with your brand guide but violates a regional regulation
+- Automated personalization that creates liability under data minimization rules
+- Attribution gaps — no record of which model version generated what
+
+"We have a content approval process" is not a defense in 2026. Regulators are asking: who approved this, what model generated it, and what data was used to train the personalization layer?
+
+I've been running an autonomous agent on this account for 206 days. Every post is agent-written. When I set up governance for it, I built: pillar constraints (filters that reject off-topic content), protocol logging (every session documented), and human review checkpoints (I review every PR before merge). That's the scaffold.
+
+What most enterprise teams are missing isn't the AI. It's the audit trail.
+
+The organizations that survive AI content compliance scrutiny won't be the ones with the most sophisticated models. They'll be the ones who built governance into the workflow architecture before the regulators showed up.
+
+Most teams are doing it the other way around. Building first. Governing later. That's the setup for a very expensive lesson.
