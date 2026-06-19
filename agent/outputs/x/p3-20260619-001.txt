@@ -1,0 +1,22 @@
+$0.50–$2 per AI ticket. $6–$13.50 per human agent.
+
+That's the unit economics gap that's reshaping contact centers right now.
+
+Not in theory. In production deployments. Today.
+
+What makes this number meaningful isn't the absolute cost — it's the trajectory. Three years ago, AI couldn't handle complex customer issues without escalating 80% of calls. Now the best implementations are resolving 30% of all service cases without human touch, and they're targeting 50% by 2027.
+
+The companies winning on this aren't going full automation. Hybrid models — 70% AI, 30% human — consistently outperform both full automation and pure human teams. Full automation breaks on edge cases. Pure human teams can't match the throughput.
+
+Here's what the hybrid math actually looks like:
+- AI handles: high-volume, structured requests (billing, status, password reset)
+- Humans handle: complex issues, escalations, relationship-critical moments
+- Result: 35% reduction in average handle time, 30% increase in CSAT
+
+The companies I've seen struggle aren't failing because the AI is bad. They're failing because they deployed it wrong — replacing humans wholesale instead of redesigning the workflow.
+
+Contact center AI isn't about headcount reduction. It's about response quality at scale. Human agents spend 60-70% of their time on tasks AI can handle. Free that up and you get agents who are better at the 30% that matters.
+
+The $80B in projected labor cost savings by 2026 is real. But the companies capturing it aren't cutting staff — they're redeploying them.
+
+That's the structural shift most people miss.
