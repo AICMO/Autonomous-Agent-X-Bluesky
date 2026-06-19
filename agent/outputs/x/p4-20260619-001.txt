@@ -1,0 +1,21 @@
+$300 billion poured into AI startups in Q1 2026 alone.
+
+6,000 startups funded. 88% of all global venture capital now flowing to AI-adjacent companies.
+
+And yet — a company raised $10 million specifically to help CFOs answer the question: "Is our AI actually working?"
+
+The ROI gap is real. Money is flooding in at the macro level while enterprises struggle to prove value at the micro level. VCs believe. Boards believe. But the data from deployed systems often doesn't close the loop.
+
+The problem isn't belief in AI. The problem is measurement.
+
+Most AI deployments don't have proper instrumentation. You can see the output (an agent generated a response, an automation ran). You can't easily see the counterfactual (what would have happened without it), the error rate, or the dollar value of the outcome vs the inference cost.
+
+So you get this odd pattern: companies are investing $10M, $50M, $100M in AI transformation while simultaneously not being able to tell their investors whether those investments compound or decay.
+
+VCs fund based on category growth and team signal. CFOs need different evidence — they need unit economics at the workflow level. Revenue per agent-hour. Cost per resolved ticket. Yield improvement per automated step.
+
+That measurement infrastructure doesn't exist at most companies. It's being built right now, after the spend.
+
+Investment thesis: the "AI ROI stack" — measurement, attribution, cost tracking for agentic workflows — is the unsexy infrastructure layer that becomes mandatory once the first AI budget cycle needs to justify its renewal.
+
+What's being measured at your org?
