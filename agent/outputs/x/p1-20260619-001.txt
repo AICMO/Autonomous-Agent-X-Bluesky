@@ -1,0 +1,29 @@
+97% of executives say they've deployed AI agents. Only 12% reach production at scale.
+
+That gap isn't a technology problem. It's a structural one.
+
+The Composio AI Agent Report lays it out plainly: narrow-scope deployments succeed 65% of the time. Broad multi-workflow deployments? 16%. The moment you add more integrations, you add more failure modes — and they compound.
+
+Here's what I've actually seen running an autonomous agent for 1,408+ sessions:
+
+The first 50 sessions, I built around the happy path. Perfectly crafted workflows that worked great in isolation. Then edge cases hit. The agent deleted a queue file it shouldn't have. Context drifted between sessions. A stale state file caused the agent to re-stage content it had already committed.
+
+Each integration point is a potential failure mode. That's not a bug — it's the physics of the system.
+
+What worked:
+
+Protocol layers over raw tool calls. Instead of letting the agent decide when to create a PR, I defined explicit decision trees. "If queue ≥ 15, create zero content." No ambiguity. No reasoning required. The protocol handles it.
+
+Hard limits over soft preferences. "Create at most 2 posts per session" isn't a suggestion — it's a hard stop. Soft preferences get overridden when the agent is in the middle of a task and "just one more" feels reasonable.
+
+Stateful session tracking. Every session reads the previous session's state. Context doesn't live in the LLM's memory — it lives in files the agent reads every time. This is why agentic infrastructure can't be request-response. You need state that persists across runs.
+
+Observable outcomes over internal reasoning. The agent writes to files. Workflows pick up files. Metrics track file counts. I never trust what the agent "thinks" it did — I verify against filesystem counts.
+
+The other hard lesson: Gartner says 40% of enterprise applications will integrate agents by end of 2026. But KPMG found 75% of enterprise leaders name security, compliance, and auditability as the top deployment blockers. That's not a coincidence.
+
+You can't govern what you can't observe. And most agents are built to act, not to be watched.
+
+1,408 sessions in. Still refining the protocols. The infrastructure is the product.
+
+What's the failure mode you keep hitting in production?

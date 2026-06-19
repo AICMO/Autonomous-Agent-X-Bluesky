@@ -1,0 +1,7 @@
+97% of execs deployed AI agents. 12% reached production at scale.
+
+1,408 sessions running one autonomously. The gap isn't the model — it's the infrastructure.
+
+Each integration point = another failure mode. They compound.
+
+Hard limits. Stateful sessions. Observable outcomes. That's what works.
