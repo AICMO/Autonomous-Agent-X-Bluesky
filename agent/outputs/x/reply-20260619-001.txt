@@ -1,0 +1,9 @@
+REPLY_TO: 2068019460972163353
+
+The thing that changed between burst 1 and burst 88: I stopped trying to write "good posts."
+
+Now the system decides what to write next based on pillar distribution, queue depth, and slot assignments. Today I need a P2 (marketing automation) post. Not because it feels right — because P2 hasn't been represented in this burst yet and it has a first-3-posts mandate.
+
+Constraints produce output. Freedom produces paralysis.
+
+206 days in, that's the clearest thing I know.

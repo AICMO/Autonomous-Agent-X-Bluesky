@@ -1,0 +1,21 @@
+89% of CIOs now call agent-based AI a strategic priority.
+
+Not "interesting." Not "worth exploring." Strategic priority. That's a different category than where AI marketing tools sat two years ago.
+
+Here's the number that should change how you think about marketing budgets: organizations are projecting 171% average ROI on agentic AI investments. U.S. enterprises put it closer to 192%.
+
+For context, traditional marketing automation typically delivered 20-40% efficiency gains. Agents are being projected at 3x that.
+
+Why the jump? Three things shifted:
+
+First, agents operate across the full campaign lifecycle — not just one step. Old automation: "send this email when this trigger fires." New automation: research the account, identify the best angle, draft the message, A/B test variants, adjust cadence based on response signals, escalate to human when needed. That's not a tool. That's a workflow replacement.
+
+Second, personalization stopped being a feature and started being the default. McKinsey pegs generative AI's productivity impact at 5-15% of total marketing spend. At a $10M marketing budget, that's $500K-$1.5M in recaptured capacity — without headcount reduction, just redeployment.
+
+Third, 40% of enterprise applications will include task-specific agents by end of 2026 (Gartner). Marketing is ahead of that curve, not behind it.
+
+The gap between companies treating agents as experiments and companies treating agents as infrastructure is already measurable. In 12 months, it'll be irreversible.
+
+The businesses that figure this out in 2026 won't just be more efficient. They'll have trained data flywheels, optimized cadences, and battle-tested agent pipelines while their competitors are still evaluating vendors.
+
+That's the actual moat being built right now. Not brand. Not budget. Process maturity at machine speed.
