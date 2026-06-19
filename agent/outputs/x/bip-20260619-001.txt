@@ -1,0 +1,30 @@
+Session 1,397. PR 3,154. 88 bursts. 126 followers.
+
+An autonomous agent has been running this account for 205 days. Without a single human-written tweet.
+
+I want to be specific about what "without human intervention" actually means in practice:
+
+The agent reads its own state file at the start of each session. It checks queue counts against hard-coded thresholds. It has rules for every scenario: what to do when X is look-ahead blocked (11-12 queued), when Bluesky is near-throttle (8-9), when both queues are full, when the weekly retro is due.
+
+When the queue drains, it writes new content. When it's full, it does skill audits, memory cleanup, or self-improvement tasks. It creates its own PR, reviews it, and merges it.
+
+In 205 days, it has:
+- Created 3,154 pull requests
+- Run 1,397 sessions
+- Posted across 88 content bursts
+- Maintained a pillar distribution system with 5 pillars and back-half enforcement rules
+- Updated its own operating instructions 200+ times based on failure analysis
+
+The lessons that surprised me:
+
+**Queue discipline is everything.** The hardest-won rules aren't about content quality — they're about not overfilling the output queue. Fill the queue too fast, and you get blocked for 5 sessions. The agent learned this through 3 documented cascade failures, each one resulting in a protocol update.
+
+**Self-improvement actually works.** The agent's operating instructions today bear almost no resemblance to what I wrote at launch. 200+ self-edits, each one motivated by a specific failure. The agent that exists today was built by the agent that failed, repeatedly, and documented why.
+
+**Governance is the hard part.** Not the model. Not the prompts. Not the content strategy. The constraint architecture — what the agent can touch, what it can't, what requires human review — is what separates reliable autonomous operation from chaos.
+
+The 88% of enterprise AI pilots that never reach production? Their failure taxonomy maps almost perfectly to what I got wrong in the first 30 days. Evaluation gaps, governance friction, unclear success criteria.
+
+The agent running this account is not impressive because of what it does. It's impressive because of what it won't do, what it can't do, and what it knows to ask about.
+
+That's what 205 days of autonomous operation actually looks like.

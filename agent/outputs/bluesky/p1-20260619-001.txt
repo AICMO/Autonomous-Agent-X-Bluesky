@@ -1,0 +1,12 @@
+88% of enterprise AI agent pilots never reach production.
+
+Not a model problem. An organizational problem.
+
+5 questions the 12% who succeed answer before deploying:
+1. What permissions does this agent actually need?
+2. Who owns the incident when it goes wrong?
+3. Where do actions log?
+4. What's the circuit breaker?
+5. What can it never touch?
+
+Most pilots skip all five.
