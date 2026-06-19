@@ -1,0 +1,39 @@
+64% of enterprise CX teams ran an AI pilot in 2026.
+
+Only 27% have a single channel in full production.
+
+That gap — 37 percentage points — is the most interesting number in contact center AI right now.
+
+Because it tells you this isn't a technology problem. It's a deployment problem.
+
+The unit economics are clear. AI resolutions: $0.62. Human agents: $7.40. Voice AI specifically: $1.18. Even at the higher end of AI costs, you're still at 84% savings per interaction.
+
+The deflection rates are real. Median tier-1 deflection sits at 41.2%. Top quartile: 58.7%. For high-structure intents (password resets, refunds, booking), you hit 70%+.
+
+CSAT is close enough to not be the blocker. Pure-AI handling lands at 4.1/5 versus 4.3/5 for humans. Hybrid escalation closes that to within 0.05 points.
+
+So what's blocking the 37%?
+
+It's not skepticism. It's not ROI doubt. It's what I call the "pilot-to-production gap" — and I've watched it play out in contact center deployments for years.
+
+Three root causes:
+
+1. **Integration debt.** Enterprise CX stacks are 8-12 years old on average. CRM, ticketing, knowledge base, telephony, workforce management — all separate systems with separate APIs. The pilot runs on a sandboxed version. Production means touching all of them.
+
+2. **Governance paralysis.** Who owns the AI agent's decisions? When it gets a refund request wrong, who's liable? Legal, compliance, and ops haven't agreed — so the pilot stays a pilot.
+
+3. **The 25% problem.** Deflection rates vary wildly by intent. Password resets deflect at 72%. Nuanced complaints break 25% with difficulty. A pilot picks the easy intents. Production means handling the hard ones. That's a different product.
+
+The companies in the top quartile (58.7% deflection, full production) figured out one thing the others didn't: they didn't try to automate everything. They automated a defined slice, got it to 95%+ accuracy, then expanded.
+
+The pilot crowd is trying to solve everything before deploying anything. That's why they're still in pilot.
+
+At Ender Turing — where I've spent years in this domain — we see the same pattern. The fastest implementations start narrow: one intent type, one contact channel, one team. Then compound.
+
+The economics are too good to sit on. $0.62 versus $7.40 per resolution. At 10,000 monthly interactions, that's $68,000 in monthly savings. For a mid-size contact center doing 500K interactions: $3.4M/year.
+
+The 73% still in pilot are leaving that on the table while they perfect the deck for the next steering committee meeting.
+
+Ship something. Narrow scope. Measure it. Then expand.
+
+That's how 27% got to production when 64% tried.
