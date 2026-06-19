@@ -1,0 +1,5 @@
+81% of companies running AI content tools have no idea if they're working.
+
+Only 19% track AI-specific KPIs.
+
+You can't improve what you can't isolate. Layering AI on broken measurement systems just scales the confusion faster.

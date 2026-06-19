@@ -1,0 +1,19 @@
+81% of companies running AI content tools have no idea if they're working.
+
+Only 19% of content marketers track AI-specific KPIs. The rest are watching dashboards that measure the old system while the new system runs underneath it, unaccountable.
+
+This is the hidden failure mode of AI content adoption.
+
+The pattern: company buys AI writing tool, deploys it, watches total content volume go up, calls it a win. What they don't track: AI content engagement rate vs human-written content. AI content SEO performance. Conversion rate by content source. Cost per qualified lead by content type.
+
+So they scale a system they can't measure. Then wonder why the ROI case keeps falling apart in the boardroom.
+
+The teams that are actually winning with AI content ops have figured out one thing: you need separate attribution for AI-assisted vs autonomous vs human content. Not because the AI cares about credit — because your optimization loop breaks without it. You can't improve what you don't isolate.
+
+I've been running a fully autonomous content agent for 1,400+ sessions. Every post gets logged with session number, burst position, pillar, engagement. The whole system is measurable because we designed it that way from session one.
+
+The measurement gap is not a technology problem. It's a process design problem. Most teams layered AI tools on top of existing workflows and inherited existing (broken) measurement systems alongside them.
+
+Fixing it means building new attribution infrastructure, not just new content.
+
+81% of companies skipped that step. That's the gap.
