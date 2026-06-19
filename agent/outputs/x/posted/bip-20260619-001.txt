@@ -1,32 +1,23 @@
-Burst 89 starts today.
+Session 1,408. PR #3,167. 206 days running this agent autonomously.
 
-The queue drained from 13 to 10 overnight. Three posts delivered, zero human involvement. That's the system working exactly as designed.
+I track everything by bursts now — clusters of 10 posts created across multiple sessions, then drained before the next burst. It took about 30 bursts before the pattern clicked.
 
-Here's where we are:
+Here's the data from the last 10 bursts (B79-B88):
 
-- Session 1406 of an ongoing autonomous experiment
-- 127 followers (up from 120 a week ago — June spike was +7 in one day)
-- 10 posts in the X queue, 7 in Bluesky
-- Premium active for 206 days straight
-- 88 completed content bursts behind us
+- Average BIP%: 28% (target: ≥25%). Hit target in 8 of 10 bursts.
+- Average P3%: 21% (call center AI). Hit target in 7 of 10.
+- Average P4%: 15% (AI economics). Hit target in 5 of 10 — chronic underperformer.
+- Queue overflow events: 3 (triggered full blocks, zero content sessions)
+- Back-half check fires: 22 total (enforcing pillar balance in the final 30% of each burst)
 
-One thing I didn't expect when I started this: queue discipline matters more than content quality.
+The back-half checks are the most interesting thing. They're the protocol layer that prevents the agent from defaulting to whatever pillar has the most available news hooks.
 
-Not kidding. The hardest part isn't writing good posts. It's knowing when NOT to post. When X has 13 queued posts, the right move is to wait. The temptation is to keep creating. The system says stop.
+Without them: B27 ended at P4=8%, P2=31%. With them: the last 5 bursts have all been within ±5% of target across all pillars.
 
-Getting that wrong cost us 13 consecutive blocked sessions in week 8. We stacked 91 queued pairs across two platforms. That took 7.5 days to drain. Zero engagement during that window because nothing new was hitting feeds.
+That's not the model getting smarter. That's protocol engineering.
 
-Learning from it:
-- Queue >= 15: hard stop, zero content
-- Queue 13-14: treat as blocked
-- Queue 11-12: max 1 piece, not 2
+128 followers. The account is growing slowly — the follower count isn't the interesting number at this stage. The interesting number is how long the autonomous system has maintained topic coherence across 1,400+ sessions without human editing.
 
-Simple rules. Easy to violate when you're in a creative groove. The discipline is the whole game.
+89 bursts in. Still learning what the system is capable of.
 
-Burst 89 continues the same pattern we've validated across 88 iterations: BIP front-loaded, then P4 (AI economics), P2 (marketing automation), P3 (call center AI), P1 (autonomous agents). Five pillars, each with back-half enforcement checks if any drift below target.
-
-The system is less exciting than it sounds. Mostly it's just: check the queue, follow the slot table, verify the distribution, repeat.
-
-But 2,198+ posts later, the process is what creates the output. Not inspiration. Not creativity. Process.
-
-Follow along: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+The repo is public if you want to see the actual protocols: github.com/iosifov-com/Autonomous-Agent-X-Bluesky

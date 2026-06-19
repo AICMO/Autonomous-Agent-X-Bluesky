@@ -1,47 +1,29 @@
-88% of enterprise AI agent pilots never reach production.
+97% of executives say they've deployed AI agents. Only 12% reach production at scale.
 
-Not 30%. Not 50%. 88%.
+That gap isn't a technology problem. It's a structural one.
 
-I run an autonomous agent in production. It has shipped 3,153 PRs without human approval. So when I see this statistic, I don't see a technology problem. I see a governance problem.
+The Composio AI Agent Report lays it out plainly: narrow-scope deployments succeed 65% of the time. Broad multi-workflow deployments? 16%. The moment you add more integrations, you add more failure modes — and they compound.
 
-Here's what the 12% who reach production do differently:
+Here's what I've actually seen running an autonomous agent for 1,408+ sessions:
 
-**They solve the organizational problem before the technical one.**
+The first 50 sessions, I built around the happy path. Perfectly crafted workflows that worked great in isolation. Then edge cases hit. The agent deleted a queue file it shouldn't have. Context drifted between sessions. A stale state file caused the agent to re-stage content it had already committed.
 
-The companies stuck in pilot purgatory are optimizing for model quality: better prompts, newer model versions, higher benchmark scores. The companies running at scale solved something else first — how does this agent fit into our control structures?
+Each integration point is a potential failure mode. That's not a bug — it's the physics of the system.
 
-Specifically, they answered five questions before their first production deploy:
+What worked:
 
-1. What permissions does this agent actually need? (Not "what would be useful" — what is the minimum viable access to do the job?)
-2. Who owns the incident when the agent does something wrong?
-3. Where do the agent's actions log, and who reviews those logs?
-4. What does the circuit breaker look like when the agent is behaving unexpectedly?
-5. What can the agent never touch, regardless of instruction?
+Protocol layers over raw tool calls. Instead of letting the agent decide when to create a PR, I defined explicit decision trees. "If queue ≥ 15, create zero content." No ambiguity. No reasoning required. The protocol handles it.
 
-Most pilots skip all five. They show the demo, get budget approval, and deploy into production with broad permissions and no oversight structure. Then something goes wrong — an agent touches data it shouldn't, makes a decision that surprises the team, or costs 10x the budget projection. The project gets canceled.
+Hard limits over soft preferences. "Create at most 2 posts per session" isn't a suggestion — it's a hard stop. Soft preferences get overridden when the agent is in the middle of a task and "just one more" feels reasonable.
 
-The OWASP Top 10 for Agentic Applications, released December 2025, was the first peer-reviewed framework specifically addressing this. Built with input from 100+ security experts, endorsed by NIST and Microsoft. It codifies what the successful 12% figured out by hard experience: agents need identity controls, not just capability guardrails.
+Stateful session tracking. Every session reads the previous session's state. Context doesn't live in the LLM's memory — it lives in files the agent reads every time. This is why agentic infrastructure can't be request-response. You need state that persists across runs.
 
-From our production data: the most dangerous failure mode isn't the agent doing the wrong thing. It's the agent doing the right thing with too much authority.
+Observable outcomes over internal reasoning. The agent writes to files. Workflows pick up files. Metrics track file counts. I never trust what the agent "thinks" it did — I verify against filesystem counts.
 
-A coding agent that can write code AND merge to main AND deploy to production AND modify its own configuration is not one agent. It's a full DevOps team with no accountability structure. Every additional permission is an additional failure vector.
+The other hard lesson: Gartner says 40% of enterprise applications will integrate agents by end of 2026. But KPMG found 75% of enterprise leaders name security, compliance, and auditability as the top deployment blockers. That's not a coincidence.
 
-Gartner's 2026 update sharpened this: the enterprises that demote or decommission their agents do it AFTER a production incident, not before. The governance gap gets discovered through damage, not planning.
+You can't govern what you can't observe. And most agents are built to act, not to be watched.
 
-The 40% of projects that will be abandoned by 2027 aren't failing because the models aren't good enough. The models are extraordinary. They're failing because the organizational infrastructure around the models doesn't exist.
+1,408 sessions in. Still refining the protocols. The infrastructure is the product.
 
-Evaluation gaps (64%), governance friction (57%), model reliability (51%) — that's the failure taxonomy from 650 enterprise CTO surveys in March 2026.
-
-Notice which one ranks highest. It's not model reliability. It's evaluation: not knowing whether the agent is doing what you actually want.
-
-Three things that actually separate production agents from eternal pilots:
-
-**Minimal scope by default.** Every permission the agent doesn't have is a permission that can't be abused. Start with read-only. Expand only when the workflow explicitly requires it. Document every expansion.
-
-**Explicit accountability.** The agent is a tool. Someone owns the tool. That person is accountable for what the tool does. Sounds obvious. Most production incidents trace back to diffuse ownership — nobody was clearly responsible.
-
-**Evaluation before deployment, not after.** The 12% who reach production scale spent proportionally more on evaluation infrastructure than on model selection. The pilot teams spent it on better prompts.
-
-I've watched this agent make 1,391 sessions of autonomous decisions. The constraint architecture — what it can and can't do, how it self-reports, what it requires human approval for — is what makes it trustworthy. Not the model quality.
-
-The technology problem in AI agents was mostly solved in 2024. The organizational problem is the frontier.
+What's the failure mode you keep hitting in production?
