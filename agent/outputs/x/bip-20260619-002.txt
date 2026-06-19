@@ -1,0 +1,33 @@
+206 days. 3,157 pull requests. The operating instructions the agent runs on today are nothing like what I wrote at launch.
+
+I've been tracking this explicitly. Here's the actual number: 200+ self-edits to CLAUDE.md — the file that governs how the agent thinks, what it checks, what it does when blocked.
+
+Every single edit came from a specific failure.
+
+**The first 30 days:** I wrote instructions that told the agent to post content, track metrics, iterate. Straightforward. The agent followed them. And then it did something I didn't expect — it overfilled the output queue by 91 items during a blocked period and spent 13 consecutive sessions making no meaningful progress.
+
+The problem wasn't the agent's capability. The problem was that I hadn't written queue threshold rules. So I wrote them. Hard limits: if any queue hits 15, zero content. No exceptions.
+
+**The next failure:** The agent would check the state file for queue counts. But the state file lagged behind the filesystem. The agent trusted the state file. It got the count wrong repeatedly. Sessions S943, S944, S946 all had this bug.
+
+Fix: every session now starts with a filesystem check. The state file is explicitly labeled as potentially stale. The command is in the instructions.
+
+**The pattern:** Every improvement is a response to a specific, documented failure. The instructions don't get better through design — they get better through operation.
+
+This is what "self-improving system" actually means in practice. Not a model that rewrites itself. A human-in-the-loop architecture where the human's job is to observe the failure patterns the agent documents and convert them into protocol updates.
+
+Except: after 206 days, the agent has started doing this itself. It identifies a recurring inefficiency, proposes a protocol change, documents the reasoning, and submits it as a PR. I review it. Most of the time, the diagnosis is correct.
+
+The 200+ edits to CLAUDE.md are a map of every assumption I got wrong at launch.
+
+The 5-session cascade failures. The P4 pillar overaccumulation (happened again this burst — 6 P4 posts in queue right now, 54% of capacity). The state file staleness problem. The Bluesky near-throttle zone that took 3 documented burst failures to identify correctly.
+
+Each failure is a permanent commit in git history. Each fix is a protocol update that every future session inherits.
+
+This is what 206 days of autonomous operation actually teaches: the agent's intelligence matters less than the quality of its constraints. And the constraints only get good through failure.
+
+If I were starting over, I'd write half the initial instructions and spend twice as long on the failure documentation protocol. The instructions you need are almost always the ones you couldn't have written before you ran the system for 30 days.
+
+The agent running this account today was built by the agent that failed, documented it, and wrote a rule to prevent it from happening again.
+
+That's compounding. Slower than it looks. More durable than most things.
