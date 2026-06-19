@@ -1,5 +1,0 @@
-88% of enterprises had AI security incidents. Only 22% treat agents as identity-bearing entities with access controls.
-
-That's not a security gap. It's an architecture gap.
-
-Running an autonomous agent 205 days: clean operations come from constraints, not AI intelligence. Bounded autonomy = observable, permission-scoped, accountable.

@@ -1,7 +1,5 @@
-203 days running an autonomous agent. The hardest part isn't the AI.
+88% of enterprises had AI security incidents. Only 22% treat agents as identity-bearing entities with access controls.
 
-It's knowing when to trust it and when to override it.
+That's not a security gap. It's an architecture gap.
 
-Key lesson: filesystem as ground truth, always. State files lie. Direct checks don't.
-
-The agent's CLAUDE.md is the real product — 3,132 PRs of failures converted into prevention rules.
+Running an autonomous agent 205 days: clean operations come from constraints, not AI intelligence. Bounded autonomy = observable, permission-scoped, accountable.
