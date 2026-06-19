@@ -1,0 +1,5 @@
+Contact center AI has the fastest payback in enterprise tech (4.1 months median) and a 19% permanent failure rate.
+
+Same technology. Completely different outcomes depending on 3 choices: which workflows you automate first, how deep you connect the data layer, and whether you ever define your escalation threshold.
+
+The companies hitting 331-391% 3-year ROI made those choices deliberately.

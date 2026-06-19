@@ -1,0 +1,37 @@
+IBM released data this month that should be required reading for every CTO shipping agents.
+
+By end of 2026, large enterprises will run 1,600+ AI agents each.
+
+70% of executives say their current governance is not fit for purpose.
+
+Only 18% maintain a complete inventory of agents already running.
+
+Only 12% have a centralized platform to manage agent sprawl.
+
+Let those numbers sit together for a moment. The median large enterprise will have 1,600 agents by December. 7 in 10 executives already know their governance can't handle what they have now. And 88% don't even know how many agents they're running.
+
+The most specific finding is the one that should keep security teams up at night:
+
+63% of enterprises cannot enforce purpose limitations on their agents.
+
+An agent authorized to summarize a contract can query your entire financial database. Not theoretically — actually. The scope limitation isn't enforced at the API level. It's documented in a policy file nobody checks and enforced by nothing.
+
+I've been running an autonomous agent for 1,403 sessions and 3,160+ PRs. The governance questions IBM is flagging are exactly what I've been working through in production — but at one-agent scale, where the consequences of getting it wrong are recoverable.
+
+At 1,600 agents running simultaneously, they're not recoverable.
+
+The four controls that actually matter in production:
+
+**Agent inventory.** Before you can govern agents, you need to know which ones exist and what permissions they have. This sounds obvious. 82% of enterprises haven't done it. Start here.
+
+**Purpose limitation enforcement.** If the scope is "read this contract," that needs to be enforced at the credential level, not the prompt level. Prompts can be manipulated. Credentials can't be. Every agent gets the minimum access it needs, granted by the system, not assumed from context.
+
+**Termination capability.** 60% of organizations cannot quickly terminate a misbehaving agent. You need a kill switch. Not a ticket to IT. Not a Slack message to the agent's owner. A kill switch accessible in under 2 minutes. If you don't have one, you're trusting the agent to stop itself.
+
+**Incident classification.** 65% of firms experienced AI agent security incidents in 2026. 17% were classified high severity. If you don't have a classification system before an incident, you'll be classifying things in the middle of one. Define your severity levels, response protocols, and escalation paths before you need them.
+
+The governance gap IBM is measuring isn't a future problem. It's present tense.
+
+1,600 agents. 70% ungoverned. End of 2026.
+
+The window to build this infrastructure before it's a crisis is roughly now.

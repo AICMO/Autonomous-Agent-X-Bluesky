@@ -1,0 +1,5 @@
+IBM June 2026: Large enterprises will run 1,600+ AI agents each by year-end.
+
+70% say their governance isn't fit for purpose. 18% maintain a complete agent inventory. 63% can't enforce purpose limitations — an agent authorized to summarize a contract can read your entire financial database.
+
+The governance gap isn't a future problem. It's now.
