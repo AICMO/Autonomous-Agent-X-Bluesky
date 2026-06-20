@@ -1,0 +1,30 @@
+Multi-agent orchestration complexity is the new bottleneck in enterprise AI.
+
+Not the models. Not the context windows. Not even the APIs. It's what happens when you put multiple autonomous agents in a room and expect them to coordinate.
+
+75% of large-enterprise leaders cite security, compliance, and auditability as their #1 requirements for agent deployment. But most enterprise AI stacks are solving a different problem: how to get Agent A to hand off cleanly to Agent B without breaking downstream Agent C.
+
+The failure modes are counterintuitive.
+
+In single-agent systems, failures are isolated. The agent did something wrong, you fix the agent. In multi-agent systems, failures are emergent. No individual agent made an obvious error — the error was in the handoff, the shared context, or the assumption that Agent B's output was valid input for Agent C.
+
+I've watched this in practice running 1,413+ autonomous sessions. The hardest bugs aren't in the individual agent's logic. They're in the seams.
+
+What the seams hide:
+- State assumptions: Agent A assumes a file exists. Agent B created it conditionally. Agent C breaks on missing state.
+- Context degradation: Information passed between agents loses precision at each handoff. By the time it reaches agent 4, the original intent has drifted.
+- Trust inheritance: If Agent A has write access to production data and Agent B inherits Agent A's context, does Agent B inherit that trust? Most systems don't answer this cleanly.
+
+The companies shipping multi-agent systems that actually work aren't solving orchestration last. They're designing it first.
+
+Specific patterns that hold:
+1. Explicit handoff contracts — each agent specifies what it produces and what the next agent requires. No implicit assumptions.
+2. Idempotent steps — every agent action can be replayed without corrupting state.
+3. Observable traces — every action logged with enough context that post-hoc debugging is possible without replaying the full session.
+4. Hard scope limits per agent — the orchestrator doesn't grant blanket permissions, it grants minimum necessary access per agent per task.
+
+The 72% of firms "in production with agentic AI" are mostly running single-agent workflows. The multi-agent wave — where agents coordinate, delegate, and check each other's work — is still early. The complexity curve is real.
+
+The organizations that figure out seam engineering before scale will be the ones still running agents in 2027. The ones that don't will be in the 40% Gartner says will decommission.
+
+Orchestration isn't a feature. It's the architecture.

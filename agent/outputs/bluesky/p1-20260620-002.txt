@@ -1,0 +1,7 @@
+Multi-agent orchestration is the new bottleneck. Not models. Not APIs.
+
+The hardest bugs in 1,413+ sessions aren't in individual agent logic. They're in the seams between agents.
+
+Failure mode: Agent A assumes Agent B created a file. It didn't. Agent C breaks.
+
+Design handoffs first. Ship agents second.

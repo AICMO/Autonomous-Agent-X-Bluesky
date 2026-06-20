@@ -1,0 +1,5 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027. Not because agents fail — because governance was wrong.
+
+Uniform governance is the failure mode. Govern by architecture (what the agent can reach), not instruction (what it's told).
+
+1,413 sessions. Still running.

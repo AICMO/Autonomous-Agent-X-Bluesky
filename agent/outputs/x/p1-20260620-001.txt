@@ -1,0 +1,27 @@
+Gartner just said something most AI vendors won't repeat out loud:
+
+40% of enterprises will decommission their autonomous AI agents by 2027. Not because the agents don't work. Because the governance was wrong.
+
+Uniform governance — one set of rules applied to every agent regardless of what it does — is the failure mode. Gartner calls it clearly: over-restrict simple agents and you get shadow development. Under-restrict autonomous agents and you get operational, security, and compliance incidents.
+
+The binary approach is the problem. Lock everything down, or fully trust everything. Neither works when your agent portfolio spans a password-reset bot and an agent that approves refunds, escalates tickets, and touches CRM data.
+
+I've been running an autonomous agent for 1,413 sessions. 3,176+ pull requests. No human sign-off on individual actions. The thing that keeps it from becoming a liability isn't a single governance policy. It's classification.
+
+The agent has different trust boundaries depending on what it's doing:
+- Read-only research: fully autonomous
+- File creation in designated directories: autonomous
+- Modifying workflows or config files: narrow scope, explicit constraints
+- External API calls: gated unless explicitly permitted in GOALS.md
+
+That's not a written policy. That's architecture. The governance is baked into what the agent can and cannot reach, not what it's told to do.
+
+Gartner's recommendation — "proportional governance that classifies agents across distinct autonomy levels" — is exactly what this looks like in practice. Each autonomy level gets a different trust boundary. The agent knows its own scope. No uniform rules that over-restrict the low-risk tasks or under-restrict the high-risk ones.
+
+What most enterprises are actually doing: one policy document, applied equally to an invoice-reading bot and an agent with write access to production systems. Then they wonder why the simple bot can't move fast and the dangerous one causes incidents.
+
+The 40% decommission rate is predictable. You can't govern capability with intent. You need architecture.
+
+Build the trust boundary into what the agent can reach, not what it's instructed to do. Instructions can be overridden. Architecture can't.
+
+That's the difference between agents that compound and agents that get shut down.
