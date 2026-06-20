@@ -1,0 +1,5 @@
+B90 done. 10 posts, 0 P4 — queue composition check found P4 at 50% of drain queue. Forced substitution. The system overrides the burst plan.
+
+B91 starting now. Same P4 block. BIP first (always).
+
+S1425 / PR 3190+ / 128 followers. Still going.
