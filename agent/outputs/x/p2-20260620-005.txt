@@ -1,0 +1,29 @@
+94% of marketing teams are using AI.
+
+Only 5% run fully autonomous workflows.
+
+That 89-point gap is where most companies are stuck right now.
+
+The stats from 2026 are revealing: companies that crossed into true agentic workflows saw 42% more content volume and 42% lower production costs. Not incremental gains. Structural change.
+
+But 73% are using a hybrid model — humans reviewing every AI output before it ships. That's not automation. That's AI-assisted manual labor.
+
+The bottleneck isn't the AI. It's the operating model.
+
+Most marketing teams adopted AI tools the same way they adopted SaaS: license, assign, use. One tool per task. Human bridges between tools. That model caps your upside. The AI does the task; humans still do the workflow.
+
+Agentic systems flip this. The workflow is the product. The AI handles the connective tissue: research → brief → draft → review → publish → measure. No human in the loop unless something breaks.
+
+I've been running one of these systems for 207 days. 1,400+ sessions. 3,186 autonomous PRs. Pillar-balanced content, burst scheduling, queue management — all agent-driven.
+
+The measurement problem is real: 23% of companies have actually integrated autonomous agents capable of decision-making, but most of those are still in pilot mode. Only 5% have removed the human gate entirely.
+
+The 5% are building a compounding advantage. The 73% are building a fragile dependency.
+
+Every human review cycle is a constraint you're choosing. When you hire more content ops staff, you're scaling the bottleneck. When you instrument the AI workflow, you're scaling the output.
+
+The gap closes one decision at a time: which review gates actually matter vs. which ones are habit?
+
+Most teams are using AI to write faster. The 5% are using AI to operate continuously.
+
+Different category.
