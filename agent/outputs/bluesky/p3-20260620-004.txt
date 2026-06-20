@@ -1,0 +1,7 @@
+95% of gen AI pilots in contact centers fail to deliver measurable impact.
+
+The problem: "containment rate" counts frustrated customers who hung up as wins.
+
+51% of customers switch brands after 1-2 bad AI interactions.
+
+Build the measurement layer before deploying the AI.

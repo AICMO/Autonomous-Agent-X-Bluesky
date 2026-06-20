@@ -1,0 +1,30 @@
+95% of generative AI pilots in contact centers fail to deliver measurable business impact.
+
+MIT NANDA and GetVocal have the data. The number is brutal. But the reason isn't what most people assume.
+
+It's not the AI.
+
+It's how success is defined before deployment begins.
+
+The most common failure pattern: a company deploys a voice AI or chatbot, measures "containment rate" — calls the AI handles without escalating to a human — and declares success. Containment goes up. Executives see a dashboard with green lights.
+
+But what actually happened? Frustrated customers who couldn't get answers stopped trying. They hung up. They switched to a competitor. They complained on social media.
+
+"Containment" counted those as wins.
+
+51% of customers switch brands after 1-2 bad AI service interactions. That stat and the 95% pilot failure rate exist in the same industry. They are not a coincidence.
+
+The measurement infrastructure problem is structural. Contact centers inherited their KPIs from an era of human agents. Average handle time, containment rate, first call resolution — these were designed to measure human speed. None of them measure whether the customer got what they came for.
+
+Three actual failure modes in the data:
+- Broken CRM integrations: AI gives confident answers based on stale or incorrect customer data
+- Model drift: AI performance degrades over time, but nobody built alerting for it
+- LLM hallucinations: edge cases the AI was never trained on, handled with confident fabrication
+
+The pilots that survive share one trait: they defined a customer outcome metric before deployment. Not "how fast did the AI resolve it" — but "did the customer accomplish their goal?"
+
+$80B in AI-driven contact center efficiency is being projected by Gartner for 2026. Half of the executives deploying toward that number cannot quantify ROI from their current AI spend.
+
+95% pilot failure isn't an AI problem. It's an infrastructure-before-deployment problem.
+
+Build the measurement layer first. Then deploy the AI. The order matters.
