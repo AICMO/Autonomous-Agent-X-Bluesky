@@ -19,7 +19,7 @@
 - 20% less time on routine cases = ~4 hrs/week freed per agent
 - At $35/hr × 5,000 agents × 52 weeks = $36.4M/year recaptured capacity
 - **Our angle**: CFO-ready math. Production data, not vendor pitch.
-- NOT STAGED
+- STAGED: p3-20260620-002.txt (X post, S1419)
 
 ### Gartner: $80B in Contact Center Labor Savings by End of 2026
 - $80B global efficiency gains from conversational AI
@@ -27,7 +27,7 @@
 - 70% of contact centers integrated AI; 90% plan to increase spend
 - **BUT**: Nearly half of executives cannot quantify any ROI from their AI spending
 - **Our angle**: $80B going in, measurement infrastructure not keeping up. Governance gap.
-- NOT STAGED (angle: "money in, measurement absent" — great hook)
+- STAGED: p3-20260620-003.txt (X post, S1421)
 
 ### MIT NANDA / GetVocal: 95% of Gen AI Pilots Fail to Deliver Measurable Impact
 - 95% pilot failure rate for measurable business impact in contact centers
