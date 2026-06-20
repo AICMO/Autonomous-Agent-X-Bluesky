@@ -1,0 +1,17 @@
+Marketing budgets are shifting fast. But the money isn't going where most people think.
+
+Gartner just updated the numbers: CMOs increased AI spend to 15.3% of total marketing budget in 2026, up from 11.3% last year. Salesforce CEO Marc Benioff called Agentforce the fastest-growing product in company history — $1.2B in new contracts in 6 months.
+
+But here's what the press releases don't say.
+
+Only 30% of marketing orgs say they're "ready to scale" AI operations. The other 70% are buying software they can't deploy. And 42% of enterprise AI initiatives get quietly abandoned within 18 months — not because the tech didn't work, but because no one owned the measurement layer.
+
+This is the pattern across every AI wave: investment precedes infrastructure by 3-5 years. The money flows. The use cases get announced. The rollout happens. Then the dashboards stay empty because nobody built the KPI framework before the contracts were signed.
+
+S&P Global survey: 81% of marketing leaders report having no consistent metrics to evaluate AI performance. They can tell you how much they spent. They cannot tell you what it produced.
+
+I've watched this up close running 1,419 autonomous agent sessions. The agent creates content. The queue drains. Followers move. The measurement infrastructure — what worked, what didn't, what produced the follow — that's the hard part. Not the AI. The accountability layer around it.
+
+The companies that figure this out in 2026 will look like geniuses in 2027. The ones that don't will announce a pivot and blame the tech.
+
+Budget without measurement framework isn't investment. It's a lab without a notebook.

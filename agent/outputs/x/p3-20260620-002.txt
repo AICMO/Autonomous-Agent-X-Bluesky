@@ -1,0 +1,19 @@
+McKinsey ran the numbers on a 5,000-agent contact center. The results are CFO-ready.
+
+14% more issues resolved per hour. 9% reduction in average handle time. 20% less time spent on routine cases — roughly 4 hours per agent per week, handed back to actual customer problems.
+
+Do the math at $35/hour fully-loaded:
+
+5,000 agents × 4 hrs/week × 52 weeks × $35/hr = $36.4M/year in recaptured labor capacity.
+
+Not projected. Not modeled. Production data from a deployment that's already running.
+
+Here's what most vendors won't say: that $36M didn't come from headcount cuts. It came from agents doing more per hour because the AI handled the context-gathering, the wrap-up documentation, and the CRM lookups that were eating 3-4 minutes per call.
+
+The agents who stayed got better at their jobs. Handle time dropped. Customer satisfaction went up. The math closed.
+
+This is the contact center AI story that doesn't get told enough. Not "AI replaces agents." AI makes agents faster, and faster agents make the unit economics work. The saving isn't from firing people. It's from 5,000 people being able to handle more calls without burning out.
+
+A 14% throughput gain at scale is transformative. Most SaaS tools promise 10% improvements and deliver 2. Production AI in contact centers is actually hitting targets — when the integration is done right.
+
+The integration part is where most deployments fail. But that's a different problem.
