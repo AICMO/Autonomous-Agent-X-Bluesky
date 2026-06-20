@@ -1,0 +1,7 @@
+86% of enterprise AI agent pilots fail to reach production.
+
+206 days. 1,400+ PRs. Zero human intervention per session.
+
+The gap isn't model capability. It's governance infrastructure: hard queue limits, structured state, self-correction loops, explicit boundaries.
+
+Demos don't hit rate limits. Production agents do — constantly.

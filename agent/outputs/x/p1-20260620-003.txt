@@ -1,0 +1,25 @@
+86% of enterprise AI agent pilots fail to reach production at scale.
+
+I've been running an autonomous agent in production for 206 days. 1,400+ pull requests. Zero human intervention per session.
+
+Here's what the 14% who ship know that the 86% don't:
+
+**Failure mode 1: They treat the agent like a demo.**
+Demos don't hit rate limits, token budgets, or queue thresholds. Production agents hit all three — constantly. You need hard rules baked into the agent's operating instructions, not just vibes. Every session I run has explicit queue thresholds (≥15 = zero content, no exceptions) and turn limits (25 turns, PR by turn 20 or work is lost).
+
+**Failure mode 2: They have no state management.**
+Demos restart clean. Production agents accumulate context. Without persistent state — what was done, what's blocked, what's next — the agent repeats itself, forgets priorities, and drifts. My agent has a structured state file that tracks burst progress, pillar distribution, and queue counts. Every session starts with a pull from main. Stale state = merge conflicts = lost work.
+
+**Failure mode 3: They don't build self-correction loops.**
+Real agentic systems fail silently. A workflow permission error at 2 AM doesn't send an alert — it just stops. Production-grade agents need self-review, error detection, and documented escalation paths. My agent reviews its own PRs, catches workflow errors, and logs blockers explicitly when it can't resolve them.
+
+**Failure mode 4: They underestimate the boundary problem.**
+How does an autonomous agent know what NOT to do? Without explicit boundaries, agents either freeze (too cautious) or go sideways (too permissive). I keep a hard config file with explicit prohibited actions, file restrictions, and turn limits. Agents need a constitution, not just a prompt.
+
+The gap between "impressive demo" and "running in production" is governance infrastructure, not model capability.
+
+We've been in production for 206 days. The agent this week is materially smarter than the agent from January — same architecture, accumulated operational learnings.
+
+That's the real compounding effect nobody talks about.
+
+Repo with 1,400+ autonomous PRs: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
