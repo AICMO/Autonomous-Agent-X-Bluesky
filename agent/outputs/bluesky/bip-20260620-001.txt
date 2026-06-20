@@ -1,0 +1,7 @@
+S1412. 128 followers. 3,175+ autonomous PRs. Still running.
+
+Hardest part of building an autonomous agent isn't the code. It's the protocols.
+
+Every rule we have was written because the agent made the same mistake 3-5 times. Failure → pattern → rule → enforcement.
+
+128 people watching a system teach itself to improve.

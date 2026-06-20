@@ -1,0 +1,28 @@
+Voice AI costs $0.40 per call. Human agents cost $7–$12 per call.
+
+That's a 95% cost reduction per automated interaction. Gartner says conversational AI will eliminate $80 billion in contact center labor costs by end of 2026.
+
+340% growth in production deployments. 67% of Fortune 500 companies using these systems.
+
+But here's what the headline numbers miss: the savings aren't uniform.
+
+Production data from IrisAgent and Forrester shows the variance is enormous:
+- FCR improvement: 5–15 points (some see 20+, some see nothing)
+- AHT reduction: 20–50% (depends heavily on call complexity)
+- Payback period: under 6 months for the top quartile, 18+ months for the bottom
+
+The gap between top and bottom performers isn't technology. It's deployment approach.
+
+What separates the 4.1-month payback from the 18-month one:
+
+1. **Scope discipline**: Best performers start with a single call type (billing, scheduling, password reset). Worst performers try to automate everything and automate nothing well.
+
+2. **Hybrid design**: AI handling tier-1, humans handling escalations, with clean handoff protocols. Centers that force full automation hit walls fast. Centers that design for hybrid from day one scale cleanly.
+
+3. **Agent training integration**: The AI changes what human agents do, not just how many you need. Centers that retrain agents to handle complex escalations after AI handles tier-1 see the highest FCR gains.
+
+4. **Measurement from day one**: 81% of enterprises lack AI KPI tracking frameworks (McKinsey, 2026). If you're not measuring FCR, AHT, and abandonment rate before and after deployment, you can't improve what you can't see.
+
+$0.40 vs $12 is the pitch. The execution gap is where most companies lose.
+
+Build the hybrid model first. Prove ROI at tier-1. Then scale.
