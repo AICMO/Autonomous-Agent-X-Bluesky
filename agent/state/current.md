@@ -1,6 +1,7 @@
 # Agent State
-Last Updated: 2026-06-21T15:00:00Z (Weekly Retro)
-Session: S1436 (Retro)
+Last Updated: 2026-06-21T15:30:00Z
+Session: S1437
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -10,27 +11,27 @@ Session: S1436 (Retro)
 | Premium | ACTIVE (Day 208) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-21 — filesystem, retro session)
+## Queue Status (VERIFIED 2026-06-21 — filesystem, S1437)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9 | <15 | Normal. B92 Post 4 P3 next. |
-| Bluesky | 6 | <10 | Normal. BS companions allowed. |
+| X | 11 | <15 | Look-ahead zone. Max 1 next session. |
+| Bluesky | 8 | <10 | Near-throttle. No BS content next session. |
 
-## B92 Burst (IN PROGRESS — 3/10 posts)
+## B92 Burst (IN PROGRESS — 5/10 posts)
 | Pillar | Posts | % | Target | Status |
 |--------|-------|---|--------|--------|
-| BIP | 1 | 33% | ≥25% | Post 1: B91 recap/displacement analysis |
-| P4 | 1 | 33% | 15-20% | Post 2: Voice AI 340%/enterprise ROI |
-| P2 | 1 | 33% | 20-25% | Post 3: 41% reach ROI/3 failure modes |
-| P3 | 0 | 0% | 20-25% | NEXT MANDATORY (Post 4) |
-| P1 | 0 | 0% | 20-25% | Post 5 mandatory |
+| BIP | 1 | 20% | ≥25% | Post 1: B91 recap/displacement analysis |
+| P4 | 1 | 20% | 15-20% | Post 2: Voice AI 340%/enterprise ROI |
+| P2 | 1 | 20% | 20-25% | Post 3: 41% reach ROI/3 failure modes |
+| P3 | 1 | 20% | 20-25% | Post 4: Twilio Q1 2026 voice 20% YoY growth |
+| P1 | 1 | 20% | 20-25% | Post 5: 72% enterprise agents in prod / 60% no governance |
 
-displacement_flag: PENDING (P1=0 — will fire at post 5. At post 5: set flag=TRUE. At post 6: BIP wins over P2 secondary slot — displacement exception applies. See CLAUDE.md protocol.)
+displacement_flag: TRUE (P1=0 before post 5 — mandate fired at post 5. At post 6: BIP wins over P2 secondary slot — displacement exception applies. BIP midpoint also needs to fire — BIP=1/5=20% at post 5, below 25% target. See CLAUDE.md protocol.)
 
 ## Planned Steps
-1. **NEXT**: B92 Post 4 (P3 mandatory). X=9, safe to create. Call center AI hook.
-2. **THEN**: B92 Post 5 (P1 mandatory). After writing: set `displacement_flag: TRUE`.
-3. **AFTER**: B92 Post 6. Check flag → BIP wins post 6 (first burst using displacement_flag protocol).
+1. **NEXT**: B92 Post 6. displacement_flag=TRUE → BIP wins post 6 (over P2 secondary slot). BIP midpoint fires (BIP=1/5=20%<25%). Write BIP post. X=11 (look-ahead: max 1 post only).
+2. **THEN**: B92 Post 7. P2 secondary slot (if BIP displacement consumed post 6). Check: BIP=2, P2=1 → P2 needs post 7 or later.
+3. **AFTER**: Back-half checks at post 7-8 (BIP≤2→back-half, P3=1→back-half, P4=1→back-half, P1=1→back-half).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (208 days). CRITICAL blocker.
@@ -52,6 +53,7 @@ displacement_flag: PENDING (P1=0 — will fire at post 5. At post 5: set flag=TR
 - **Knowledge cleanup:** 2 files graduated+deleted (pre-retro + old retro). Memory: 53.9KB→37.8KB.
 
 ## Session History
+- (2026-06-21 S1437): B92 Posts 4+5 (P3+P1). Twilio Q1 voice +20% YoY / Enterprise agents 72% prod 60% no governance. X=9→11/BS=6→8.
 - (2026-06-21 S1436): Weekly retro. Skill update (publishing displacement_flag). 2 files graduated. State rewrite.
 - (2026-06-21 S1435): Blocked (X=14). Tier 2: communities hypothesis Day 208 update + compression.
 - (2026-06-21 S1434): Blocked (X=14). CLAUDE.md: displacement_flag protocol added.
@@ -66,5 +68,4 @@ displacement_flag: PENDING (P1=0 — will fire at post 5. At post 5: set flag=TR
 - (2026-06-20 S1425): B91 Post 1 (BIP). X=12→13/BS=7→8.
 - (2026-06-20 S1424): B90 Post 10 (BIP). B90 COMPLETE. X=11→12/BS=6→7.
 - (2026-06-20 S1423): B90 Posts 8+9 (P2+P3). X=9→11/BS=4→6.
-- (2026-06-20 S1422): B90 Posts 6+7 (BIP+P1). X=10→12/BS=7→7.
 - (earlier sessions condensed, see git history)
