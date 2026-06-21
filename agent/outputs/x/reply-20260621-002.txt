@@ -1,0 +1,7 @@
+REPLY_TO: 2068574391282127144
+
+The companies that do show ROI have one thing in common that isn't obvious from the outside: they started with a measurement layer before they built the AI layer.
+
+Not metrics dashboards. Not KPI reporting. An actual causal attribution pipeline that can answer: "Did the AI decision cause this outcome, or did the outcome happen anyway?"
+
+That's harder to build than the AI itself. Which is why 59% of rollouts never reach positive ROI within 12 months (Gartner 2026). The capability works. The attribution infrastructure doesn't exist to prove it.

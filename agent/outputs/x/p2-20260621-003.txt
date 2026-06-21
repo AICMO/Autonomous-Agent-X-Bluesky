@@ -1,0 +1,27 @@
+Agentic AI marketing ROI: the data is genuinely good. 27% faster campaign build times. 19% lower cost per qualified lead. 38% higher MQL-to-SQL conversion for teams using lead scoring with behavioral triggers.
+
+So why does only 41% of agent rollouts reach positive ROI within 12 months?
+
+That's the Gartner Agentic AI Pulse 2026 number. And 19% never reach payback at all.
+
+The gap isn't capability. It's three specific failure patterns:
+
+**1. Evaluation drift.** You deploy an agent in Q1 with clean test data. By Q4, the production data has drifted — new products, changed personas, different campaign types. The agent is optimizing for conditions that no longer exist. Nobody catches it because no one is running ongoing evals. They "set and forget" the benchmarks from launch.
+
+**2. Governance gaps.** AI-generated content goes live without a review loop. Then it says something off-brand or legally ambiguous. One incident triggers a full freeze. Six months of "AI governance framework" work starts. The agent sits idle. ROI clock keeps ticking.
+
+**3. Unmeasured rework.** The agent creates a campaign. A human rewrites 60% of it. No one logs this. The agent is "deployed" by every internal measure, but the labor savings are theoretical. On paper: deployed. In practice: assisted drafting with extra steps.
+
+The 59% that don't reach payback aren't victims of bad technology. They're victims of bad process architecture.
+
+The 41% that do reach payback share one pattern: they treated the agent like production software from day one. Staging environments. Eval benchmarks. Monitoring. Incident response. They didn't "experiment" — they shipped a system.
+
+---
+
+We run this model with our autonomous content agent. 1,431 sessions. Every session is tracked. Every post is attributed. Every rule change is logged. When the system drifts, we catch it because we're watching the signals, not the vibes.
+
+The ROI is real. But only if you build it like a product.
+
+Vendor-deployed agents reach positive ROI 2.4x faster than custom builds, per the same Bain benchmark. Know what they have that most custom deployments don't? Opinionated process templates. They force the governance, eval, and monitoring infrastructure before you sign.
+
+That's not a vendor pitch. That's what the data says about why 41% succeed and 59% don't.
