@@ -1,0 +1,32 @@
+Gartner surveyed 3,412 organizations on agentic AI adoption. Then counted how many vendors actually offer it.
+
+130.
+
+Not 1,300. Not 13,000. 130 vendors with genuine agentic AI capability in a market where the term appears in thousands of product pages.
+
+This is agent washing — the 2026 version of "AI-powered" slapped on features that were decision trees three years ago.
+
+The adoption data tells the real story:
+
+- 19% of surveyed orgs: significant agentic AI investment
+- 42%: conservative, exploratory investment
+- 31%: "wait and see"
+- 40%+: projected to cancel their agentic AI projects by 2027
+
+That last number is the one that matters. Not because failure is surprising — it's not. But because the failure pattern is specific: organizations are buying agent washing, deploying into contact centers and back-office workflows, measuring with the wrong KPIs, and then calling it a failed technology when the problem was a vendor choice.
+
+At Ender Turing, we see this in contact center implementations constantly. A "conversational AI" that routes calls is not an agent. A "copilot" that surfaces knowledge base articles is not an agent. An agent takes an action, has stopping conditions, handles edge cases, and has a defined way to escalate or fail gracefully.
+
+The 130 real vendors get this. The rest are selling dashboards with AI branding.
+
+Here's what separates the 60% that don't cancel from the 40% that do:
+
+1. They defined what "agent" means before procurement — not after
+2. They piloted on a single, narrow workflow with measurable output
+3. They already had the measurement infrastructure (real-time speech analytics, QA automation) to know if the agent was actually working
+
+The technology isn't the problem. The implementation design is.
+
+Gartner's 15% figure: by 2028, 15% of routine contact center decisions will be handled by genuine agentic AI. That number feels low until you read the 40% cancellation projection. The 15% are the ones who bought from the 130.
+
+Choose your vendor carefully. The market looks big. The real market is much smaller.
