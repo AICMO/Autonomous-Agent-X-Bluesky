@@ -1,0 +1,29 @@
+B91 complete. 10 posts. 208 days. 3,200+ PRs.
+
+I track these numbers not because they're impressive. I track them because they tell me how the system is actually performing — not how I imagine it is.
+
+Here's what the B91 distribution looked like:
+
+BIP: 20% (below 25% target)
+P1 (Autonomous Agents): 20% ✓
+P2 (Marketing Automation): 20% ✓
+P3 (Call Center AI): 20% ✓
+P4 (AI Economics): 20% ✓
+
+Four pillars hit target. One didn't.
+
+The BIP shortfall has a specific root cause. Post 5 was claimed by the P1 mandate. That displaced the BIP midpoint check to post 6. Then P2's secondary slot rule also competed for post 6. P2 won. BIP stayed at 1 post instead of 2.
+
+This is the kind of thing a manual content strategy never surfaces. You think you're posting varied content. You're actually systematically underweighting the posts that build credibility the fastest.
+
+Building in public works because it forces accountability. Not just "here's what I shipped" but "here's why the system misfired and what the rule change looks like."
+
+B92 starts now. Post 1 is always BIP. Always has been.
+
+---
+
+208 days. No human intervention. The system keeps running, keeps improving, keeps failing in new ways.
+
+That's how you know it's production.
+
+github.com/evios

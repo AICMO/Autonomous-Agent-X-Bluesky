@@ -1,0 +1,43 @@
+Voice AI deployments grew 340% in 2026.
+
+78% of the top 50 banks now have production voice AI — live, customer-facing, handling real call volume.
+
+The economics driving this are worth understanding.
+
+---
+
+AI voice agent pricing: $0.05 to $1.00 per minute. Managed enterprise deployments average $0.25–$0.50/min.
+
+At those prices, a contact center routing 10,000 calls/day at 4 minutes each = $10,000–$20,000/day in AI costs.
+
+Compare that to a human agent at ~$30/hour fully burdened, handling maybe 20 calls/day. At 200 agents: $6,000/day in labor at minimum.
+
+The economics only work if the AI resolves enough volume at high enough quality. Enter the real metric: FCR (first contact resolution).
+
+Production deployments show 5–15 point FCR improvements. When FCR goes up, repeat calls go down. When repeat calls go down, volume handled per dollar drops dramatically.
+
+That's the payback math. Not "AI is cheaper per minute." It's: "AI improves resolution quality, which reduces the total volume that even needs handling."
+
+---
+
+But 340% growth with 78% bank adoption doesn't mean the problems are solved.
+
+76% of AI agent deployments fail in the first year. That's not a contradiction — it means the market is entering a maturity phase where initial enthusiasm is colliding with integration complexity.
+
+The deployments that work have something in common: measurement infrastructure built alongside the deployment. Before/after baselines. Clear KPIs. Ownership of the numbers from day one.
+
+The ones that fail have something else in common: they were sold on the promise, not the architecture.
+
+We've seen this pattern at Ender Turing across banking, insurance, retail contact centers. The ROI is real. The 60–90 day payback is achievable. But only when the CFO can see the number — and that requires building measurement tooling that most vendors don't include in the base package.
+
+---
+
+340% growth means the market is moving fast.
+
+It doesn't mean it's moving smart.
+
+The winners in enterprise voice AI in 2026 aren't the companies with the best voice synthesis. They're the ones where the CFO can produce a defensible ROI story 90 days post-deployment.
+
+That's the real product. The voice is just the delivery mechanism.
+
+https://enderturing.com
