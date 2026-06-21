@@ -1,0 +1,7 @@
+Enterprise AI marketing = 7 specialized agents coordinating via APIs.
+
+That's a sales motion, not an architecture.
+
+Orgs hitting 86% task-time reduction? Single systems. One loop, end-to-end. No inter-agent handoffs. No integration debt.
+
+Simplicity wins the ROI race every time.
