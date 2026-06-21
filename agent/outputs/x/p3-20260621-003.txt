@@ -1,0 +1,30 @@
+95% of generative AI pilots in contact centers fail to deliver measurable business impact.
+
+Not 50%. Not 60%. 95%.
+
+MIT and GetVocal tracked this across hundreds of deployments. The stat is brutal. But the reason behind it is even more important.
+
+The pilots aren't failing because the AI is bad.
+
+They're failing because the measurement is wrong.
+
+Here's the specific trap: "containment rate."
+
+A contact center deploys a voice AI. Customers who don't wait for a human agent get logged as "contained." Success metric: containment rate goes up. Leadership is happy.
+
+What actually happened? 51% of those "contained" customers switched brands after 1-2 bad AI interactions. The frustrated ones who couldn't get help — they still get counted as wins.
+
+You're measuring deflection, not resolution. You're measuring cost savings, not customer outcomes. And when the customer churns 3 months later, that loss shows up in a completely different P&L line.
+
+The three root causes MIT found:
+1. Broken CRM integrations (AI can't access the data it needs to actually help)
+2. Model drift (the AI degrades over weeks; nobody notices until churn spikes)
+3. LLM hallucinations on edge cases (confident wrong answers, no escalation path)
+
+None of these are AI capability problems. They're infrastructure and governance problems.
+
+This is exactly why we built measurement-first into Ender Turing from the start. Every interaction tracked: resolution vs deflection, customer sentiment trajectory, escalation patterns, AHT variance. If the AI is "helping" but customers are churning — you see it in the data within days, not quarters.
+
+The 95% failure rate isn't a verdict on AI. It's a verdict on how we deploy it.
+
+Fix the measurement. Then fix the model.

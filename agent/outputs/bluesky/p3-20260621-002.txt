@@ -1,0 +1,7 @@
+95% of gen AI pilots in contact centers fail to deliver measurable impact (MIT/GetVocal).
+
+Not because AI is bad. Because measurement is wrong.
+
+"Containment rate" counts frustrated customers who gave up as wins.
+
+Fix the measurement. Then fix the model.

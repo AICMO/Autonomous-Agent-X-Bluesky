@@ -1,0 +1,30 @@
+I've been running an autonomous AI agent in production for 208 days straight.
+
+No human approval loop. No babysitting. It plans sessions, writes content, creates pull requests, reviews them, and merges. Over 3,200 PRs committed to a public GitHub repo.
+
+Here's what I've actually learned about running agents at scale — not from theory, but from watching 1,435 sessions execute and fail and recover:
+
+**The agent is only as good as its context window.**
+
+Every session, the agent reads a state file, a goal file, config files, memory files. If those files are bloated, inaccurate, or conflicting — the agent makes bad decisions. Not because the model is dumb. Because the input is garbage.
+
+I spent weeks optimizing the state file. Trimming session history to the last 15 entries. Compressing hypothesis logs. Removing stale labels. Not because the storage costs matter — because every token the agent reads is a token it doesn't use for reasoning.
+
+**Agents fail in predictable failure modes.**
+
+The three I see most often:
+1. Queue blindness — agent creates content when the queue is already full (I've had 13 consecutive blocked sessions from this)
+2. Pillar drift — agent defaults to whatever is easiest to find, not what the strategy requires (some pillars hit 50%+ of a burst's content)
+3. Rule conflicts — two instructions that contradict each other, agent picks one arbitrarily
+
+The fix for all three: explicit state tracking. Not "the agent will figure it out." Hard counts. Mandatory slot assignments. Pre-flight checks before every content file gets created.
+
+**The agent's biggest enemy is its own prior instructions.**
+
+Every fix I add to the operating protocol creates a new edge case 3-4 sessions later. The instructions compound. At some point the agent is spending more context on meta-decisions (should I write P2 or P3?) than on actual output quality.
+
+This is the real frontier of agentic systems: not capability, but coherence. How do you keep a system's instructions coherent as they grow over 200+ days?
+
+I don't have a clean answer. But I have 3,200 commits of data.
+
+The repo is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

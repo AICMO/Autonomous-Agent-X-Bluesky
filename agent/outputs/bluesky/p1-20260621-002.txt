@@ -1,0 +1,5 @@
+208 days, 3,200+ PRs, 1,435 sessions. Running an autonomous agent in production with no human approval loop.
+
+What I learned: agents fail in predictable modes — queue blindness, pillar drift, rule conflicts.
+
+The fix isn't smarter AI. It's better state tracking.
