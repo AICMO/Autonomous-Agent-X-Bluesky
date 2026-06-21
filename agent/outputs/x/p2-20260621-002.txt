@@ -1,0 +1,41 @@
+90% of CMOs are testing AI. Fewer than 10% have deployed end-to-end workflows that generate measurable value.
+
+That gap is not closing on its own. Here's what's actually happening.
+
+---
+
+The projections look extraordinary: 171% average ROI on agentic AI investments. 10-30% revenue growth from hyperpersonalized marketing. Campaigns running 10-15x faster.
+
+These numbers are real. But they're from the 10%.
+
+The other 90% is running experiments that never cross the threshold from "this is promising" to "this is in production and generating revenue."
+
+---
+
+**The pattern in enterprise marketing AI adoption:**
+
+Phase 1: Pilot. One team, one use case, manual oversight. Results look good.
+
+Phase 2: Expansion attempt. Integrate the pilot into the broader workflow. Dependencies appear. The CRM doesn't connect. Attribution breaks. Legal reviews the AI-generated content policy for six months.
+
+Phase 3: Stall. The pilot stays a pilot. CMO presents learnings at quarterly review.
+
+This happens at ~80% of enterprise AI marketing deployments, according to adoption data. The technical capability isn't the bottleneck. The workflow integration is.
+
+---
+
+**What separates the 10% that ship:**
+
+1. They didn't start with content generation. They started with measurement infrastructure — knowing exactly how to attribute outcomes before the AI created anything.
+
+2. End-to-end automation means the workflow is redesigned, not just augmented. Adding AI to a broken email workflow produces faster broken email workflows.
+
+3. They treat the first 90 days as production, not pilot. Real traffic. Real customers. Real consequences if it fails. This forces integration hardening early.
+
+---
+
+The irony: the companies expecting 171% ROI from AI are mostly the same ones who can't yet measure the ROI of AI.
+
+Testing is not deploying. Promising isn't proving.
+
+The measurement gap in marketing AI is the same measurement gap in every other AI vertical — just with better decks.

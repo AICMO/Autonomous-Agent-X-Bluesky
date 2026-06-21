@@ -1,0 +1,9 @@
+88% of AI agent pilots never reach production.
+
+I've run one for 208 days. 1,427 sessions. 3,198+ PRs.
+
+What kills them isn't bad AI. It's agents designed to execute tasks — not survive changing environments.
+
+Day 90+ is where production reality diverges from pilot assumptions.
+
+The boring infrastructure (state files, queue rules, explicit constraints) is what keeps it running.

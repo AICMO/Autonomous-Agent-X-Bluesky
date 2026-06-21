@@ -1,0 +1,45 @@
+MIT studied 300 AI deployments across industries. 95% failed to deliver measurable P&L impact.
+
+Contact centers took the hardest hit. Here's what actually went wrong — and it wasn't the AI.
+
+---
+
+The lead finding from MIT's NANDA research: the models were mostly fine.
+
+The failure was in how organizations designed workflows around AI — not understanding how to capture the upside while managing the failure modes.
+
+In contact centers, this plays out in a specific, painful way:
+
+A bot deflects a frustrated customer. The dashboard shows a "contained" interaction. Someone logs it as a win. The customer switched brands two days later.
+
+This is the containment vs. abandonment measurement problem. Deflection looks like resolution. Bot handoffs get counted as escalation avoidance. The KPI is green. The customer is gone.
+
+GetVocal documented another failure mode: authentication loops. Bot asks for account verification. CRM lookup fails silently. Bot asks again. Customer asks for a human. The agent can't see the conversation history. Customer hangs up after 4 minutes. Logged as: "customer disconnected."
+
+The AI didn't fail. The integration did.
+
+---
+
+Here's what the 5% that actually delivered ROI did differently:
+
+1. Narrow scope with clear stopping conditions. No "solve all inbound." One workflow, defined inputs, measurable outputs.
+
+2. Measurement infrastructure built BEFORE deployment. If you can't prove it worked, you can't prove anything.
+
+3. CRM integration tested against real data — not clean test sets. Real customer queries are messy, multilingual, emotionally charged. Test environments are not.
+
+We've seen this firsthand at Ender Turing. Contact centers that get ROI from AI almost always started with a single, well-instrumented use case — automated QA on 100% of calls — before expanding to anything agentic.
+
+The ones that failed started with the agent and retrofitted the measurement.
+
+---
+
+$80B in projected efficiency gains from contact center AI in 2026.
+
+Nearly half of executives can't quantify any ROI.
+
+That gap isn't a technology problem. It's a workflow and measurement design problem.
+
+95% failure rate is fixable. But not by buying better models.
+
+By designing better implementations.
