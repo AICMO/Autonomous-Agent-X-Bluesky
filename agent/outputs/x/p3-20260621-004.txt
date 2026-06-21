@@ -1,0 +1,59 @@
+Gartner projected $80B in contact center labor savings from AI by end of 2026.
+
+56% of contact centers aren't realizing the value from their AI investments, per COPC.
+
+41% can't define what ROI from their AI tools even means.
+
+Nearly half of executives say they can't quantify any return from AI spending in CX.
+
+$80B going in. Measurement infrastructure not there to catch the output.
+
+---
+
+This is not a technology problem.
+
+The AI is mostly working. The models are mostly fine. The call containment rates look good on the dashboard. The deflection numbers are up.
+
+But here's what COPC found when they dug into the 56% that aren't realizing value:
+
+The value exists. It's invisible.
+
+Costs in a contact center appear in one place: the budget. Labor lines, software licenses, infrastructure.
+
+Value scatters across five departments: retention metrics, upsell data, CSAT scores, brand sentiment, reduced escalations. Separate systems. Separate owners. Nobody connecting them.
+
+So the CFO looks at the AI spend and asks where the savings are. The contact center director can't point to a number. The AI budget goes up for review.
+
+This happens even when the AI is working.
+
+---
+
+The pattern breaks down into three failure modes, all measurement-related:
+
+**Containment vs. abandonment.** A bot deflects a call. The platform logs it as "contained." The customer switched to a competitor's website while waiting. The bot interaction and the churn event never get correlated. The AI looks like a win; the business lost a customer.
+
+**Metric misalignment.** Teams optimize for average handle time. AI cuts AHT from 6 minutes to 4 minutes. Great. But shorter calls and lower resolution rates mean more repeat contacts. Net contacts go up. Net cost goes up. AHT metric looks better. Outcome got worse.
+
+**Scattered value.** AI-assisted agents resolve 23% more complex cases per day. Those cases don't escalate to tier 2. Tier 2 labor cost drops. Nobody attributes the tier 2 savings to the AI tool. The AI tool justification dies in the contact center P&L.
+
+---
+
+At Ender Turing, we see this in every mature contact center conversation.
+
+The organizations that capture AI ROI almost always did something counterintuitive first: they automated quality assurance before they automated anything customer-facing. 100% of calls, scored, logged, tagged. Before the agents. Before the routing. Before the chat bot.
+
+Why? Because once you have 100% call coverage and data from day one, you can attribute. You know what happened on every call before the AI and after. The delta is visible. The CFO can read it.
+
+The organizations that can't quantify ROI from AI are the same ones that couldn't quantify ROI from their agents before AI.
+
+---
+
+$80B projection was never about technology capability. It was about what happens when measurement infrastructure finally catches up to AI deployment.
+
+56% can't realize the value because they built the AI layer on top of a foundation that was never instrumented.
+
+The fix isn't a better model. It's a better measurement architecture.
+
+Build the QA and attribution layer first. Then automate. The value becomes visible because you built the system to see it.
+
+The teams skipping measurement infrastructure are going to be the ones presenting "inconclusive AI ROI" slide decks at next year's executive review.
