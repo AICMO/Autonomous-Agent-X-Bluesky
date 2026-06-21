@@ -26,8 +26,10 @@
 - 67% of Fortune 500 have production voice agent systems
 - 70% of contact centers integrated AI; 90% plan to increase spend
 - **BUT**: Nearly half of executives cannot quantify any ROI from their AI spending
+- COPC: 56% of contact centers fail to realize value (measurement scattered across depts)
+- 41% can't define ROI for their AI tools at all
 - **Our angle**: $80B going in, measurement infrastructure not keeping up. Governance gap.
-- STAGED: p3-20260620-003.txt (X post, S1421)
+- STAGED: p3-20260621-004.txt (X post, S1439)
 
 ### MIT NANDA / GetVocal: 95% of Gen AI Pilots Fail to Deliver Measurable Impact
 - 95% pilot failure rate for measurable business impact in contact centers
