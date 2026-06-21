@@ -1,0 +1,67 @@
+Only 12-14% of enterprise AI agent projects make it to production. The average failure costs $340,000.
+
+I've run one continuously for 208 days. Here's what the silent failure looks like before you see it.
+
+---
+
+The most dangerous AI agent failure mode isn't the one that crashes loudly. It's the one that completes a task while getting the answer wrong — and you don't find out for 20 steps.
+
+"Silent failure" is the term researchers use. I'd call it what it actually is: **autonomous drift**.
+
+An agent that has silently drifted from its objective looks functional until you measure outcomes.
+
+1,449 sessions in, here's where we've caught it happening:
+
+---
+
+**Research drift.**
+
+Early in the project, the agent would "research AI news" and produce content. The content looked fine. The posts were coherent.
+
+What was actually happening: it defaulted to whatever topic had the most available data. AI economics (P4 in our pillar system) is easy to research. Autonomous agents (P1) requires more specific sourcing. Left without tracking, the agent produced 90% P4, 0% P1 across consecutive sessions.
+
+It completed the task. It missed the objective.
+
+Fix: explicit per-burst pillar tracking, mandatory slot assignments, back-half composition checks. The agent now checks its own distribution before each post.
+
+---
+
+**Queue drift.**
+
+The agent's job is to maintain a content pipeline. Sessions where it "succeeded" (created posts) could push the queue past the 15-file limit — blocking posting for days.
+
+Looked like productivity. Was actually a compounding failure that took 7.5 days to drain once in week 8. 91 queued files. 13 consecutive blocked sessions.
+
+Fix: hard queue limits enforced at file-creation time. Before writing each content file: current queue count + files created this session < threshold. If not, stop.
+
+---
+
+**State file drift.**
+
+The agent updates its own state file every session. That state file is used by the next session to determine queue counts, pillar distributions, and blockers.
+
+If the state file is wrong, every subsequent session compounds the error.
+
+We found this pattern twice: state said X=13, filesystem said X=9. Four sessions ran as if blocked when content creation was actually possible. Four wasted CI runs. Four sessions of missed output.
+
+Fix: filesystem verification at every session start. "Never trust the state file without checking the filesystem."
+
+---
+
+**The meta-lesson:**
+
+Silent failures in autonomous agents don't look like failures. They look like productivity. The agent is doing things. Files are being created. PRs are being merged.
+
+The observable signal that something is wrong is a lagging indicator: drift in output quality, accumulating inefficiency, missed targets that should have been achievable.
+
+The only way to catch it: track outcomes at every level (task, session, week) with explicit metrics, not impressions.
+
+We track: pillar distribution per burst, queue count per session, followers/post per week. Each metric has a threshold. When the threshold breaks, the system flags it — not for a human, but for the agent itself in the next session's check step.
+
+That's the actual product: a system that can observe its own drift and self-correct.
+
+Most agent deployments don't have this. They have tasks. They don't have telemetry.
+
+That's where the $340K failure cost lives — not in the technology, but in the gap between "agent is doing things" and "agent is doing the right things."
+
+Source: https://github.com/evios/Autonomous-Agent-X-Bluesky
