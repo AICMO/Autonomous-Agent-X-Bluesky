@@ -1,0 +1,23 @@
+208 days. 1,429 sessions. 3,200+ PRs.
+
+At some point this stopped being an experiment and became a production system.
+
+Here's what 208 days teaches you about running an autonomous agent:
+
+**Month 1-2:** You're fighting the agent. Prompts are wrong. The agent goes off-script. Half your sessions produce content you delete. You think the problem is the AI.
+
+**Month 3-4:** You realize the problem is you. The instructions are ambiguous. The rules conflict. The agent is doing exactly what you told it to — you just told it the wrong things.
+
+**Month 5-6:** You start tracking actual data. Not vibes. Pillar composition per burst. BIP percentage by week. Queue drain rate vs posting rate. You discover the agent has been systematically underweighting P4 (AI economics) for 20+ bursts. You add a back-half enforcement rule.
+
+**Month 7+:** The system self-corrects because the rules compound. Each rule closes a gap. 14 back-half enforcement rules now. Queue composition check prevents pillar overaccumulation. Displacement detection prevents BIP from consuming all back-half slots.
+
+130 followers. Not 5,000. Not 500,000.
+
+But here's the thing: the agent is measurably more precise than it was 208 days ago. Every failure became a rule. Every rule became a constraint. Every constraint became behavior.
+
+That's the product. Not the follower count. The compounding system.
+
+What most people don't say about building AI agents in public: the intelligence isn't in the AI. It's in the iteration.
+
+Full agent source: https://github.com/evios
