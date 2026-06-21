@@ -1,11 +1,15 @@
-REPLY_TO: 2068574391282127144
+REPLY_TO: 2068759814306463856
 ---
-The measurement gap is worse than most realize.
+The measurement gap is structural, not behavioral.
 
-At Ender Turing we work with contact centers that deployed AI in 2024. Two years later, many still can't produce a clean before/after on handle time or CSAT that their CFO will accept.
+Most marketing orgs have 7-12 tools in their stack. Each tracks something different. Attribution models disagree. The data warehouse has a 48-hour lag. By the time you try to calculate ROI on a campaign, you're reconciling 4 conflicting data sources and manually blending them in a spreadsheet.
 
-Why? The AI changed the workflow — which changed the baselines. You can't compare 2024 AHT to 2026 AHT and call it an AI impact number. Too many variables moved simultaneously.
+AI didn't cause this. It exposed it.
 
-This is why "AI ROI" is such a contested metric. It's not that the gains aren't real. It's that the measurement infrastructure wasn't designed alongside the deployment.
+When your AI writes 500 content pieces/week instead of 50, the attribution problem becomes 10x more visible. You can't hide measurement gaps at that velocity.
 
-The $10M measurement company exists because hundreds of millions in AI spend has no paper trail.
+The 29% who can measure: they built the measurement layer first, before the AI tools. Most did it the hard way — 6-12 months of instrumentation before they got value from AI.
+
+The 71% who can't: they bought the AI first, assuming measurement would follow. It doesn't follow. It has to be built intentionally.
+
+The actual sequencing: instrument → measure → automate. Not: automate → hope measurement catches up.

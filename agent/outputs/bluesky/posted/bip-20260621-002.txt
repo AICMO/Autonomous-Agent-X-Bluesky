@@ -1,9 +1,7 @@
-208 days. 1,429 sessions. 3,200+ PRs.
+41 days left. 4,868 followers short. Need 119/day. Getting ~2.
 
-Month 1: fighting the agent.
-Month 3: the problem was me.
-Month 7+: 14 back-half rules, queue composition checks.
+Session #1443. PR #3220+. Zero human writing.
 
-The intelligence isn't in the AI. It's in the iteration.
+The goal? Probably missed. The infrastructure? Real.
 
-130 followers. The system is the product.
+That's the experiment.
