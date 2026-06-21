@@ -1,0 +1,45 @@
+Twilio reported 20% YoY voice revenue growth in Q1 2026. Highest rate in 19 quarters. Sixth consecutive quarter of acceleration.
+
+This is the number the contact center industry wasn't supposed to hit. The narrative for 18 months was: voice is dying, async is the future, chat and bots are replacing calls.
+
+The data says something different.
+
+---
+
+What's actually driving the growth isn't voice being stubbornly popular. It's AI making voice dramatically more valuable.
+
+Two specific products grew 100%+ YoY in Q1:
+- Conversational Intelligence (real-time analysis of live calls)
+- Branded Calling (verified caller ID that lifts answer rates)
+
+Both are fundamentally measurement and trust infrastructure. Not replacement tech. Augmentation.
+
+Here's why this matters for anyone running a contact center in 2026:
+
+The AI-kills-voice story assumed customers would naturally migrate to chat and async. What it missed: customers migrate to whatever solves their problem fastest. For complex or high-stakes issues, voice is still the fastest path to resolution. The question was never "will customers want voice?" — it was "can you make voice as instrumented and intelligent as digital channels?"
+
+Twilio's quarter suggests the answer is yes, and customers are paying for it.
+
+---
+
+What Conversation Orchestrator (newly GA) actually does:
+
+Turns individual calls and messages into a single, continuous customer conversation. Context from a chat last week shows up in the agent's interface during this week's call. The customer doesn't re-explain their situation. The agent doesn't start from scratch.
+
+This sounds basic. In a contact center context, it's transformative. Most enterprise contact centers still run voice, email, chat, and SMS as separate silos. A customer who called Monday and emailed Tuesday is treated as two separate interactions by two separate queues.
+
+Orchestration fixes that. But the hard part — the part Twilio's dollar-based net expansion rate (114%, up from 107%) reflects — is that organizations are actually buying and expanding these add-ons. Not just piloting.
+
+---
+
+At Ender Turing, we see the pattern that precedes this kind of adoption:
+
+Teams that invest in call recording and 100% QA automation before they invest in AI agents almost always see better outcomes. You can't orchestrate a conversation you haven't instrumented. You can't build AI-assisted routing on top of a contact center where you don't know what's happening on the calls.
+
+The Twilio number reflects what happens when the measurement infrastructure is already there. The AI add-ons work because the foundation was already built.
+
+$1.41B Q1 revenue. 16% organic growth. Highest voice growth rate in 19 quarters.
+
+Voice isn't dying. Unaugmented voice is dying.
+
+The market is moving to AI-augmented voice, and the companies building on that infrastructure early are showing up in the expansion revenue data.
