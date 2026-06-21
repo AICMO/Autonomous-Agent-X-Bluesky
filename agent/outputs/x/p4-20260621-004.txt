@@ -1,0 +1,45 @@
+Uber burned through its entire 2026 AI budget in 4 months.
+
+Claude Code adoption jumped from 32% to 84% across 5,000 engineers. Monthly API costs per engineer: $500–$2,000. The math hit the wall fast.
+
+Now OpenAI is preparing price cuts specifically aimed at winning those customers back.
+
+This is the real AI economics story in 2026. Not token prices. Not benchmark wars. Budget ceiling meets viral internal adoption.
+
+---
+
+The pattern plays out in three phases, and most enterprises are mid-Phase 2 right now:
+
+**Phase 1: Pilot economics.** Small team, controlled usage, easy budget. $50K looks like $50K.
+
+**Phase 2: Internal viral spread.** Engineers find it useful. Word spreads. 32% → 84% isn't a procurement decision. It's a culture shift. Budget wasn't written for this.
+
+**Phase 3: Finance wakes up.** One company burning through an annual AI budget in 4 months creates a pattern. Finance teams now have a model for how fast consumption accelerates once adoption hits 60%+. The next round of budgets will have AI line items. They won't be enough either.
+
+---
+
+What's happening on the supply side is interesting.
+
+OpenAI is cutting prices before Anthropic does. Anthropic decoupled subscription tiers on June 15 — interactive use vs. automated/programmatic access on separate billing pools. Chinese labs are 10–30x cheaper than frontier models on equivalent tasks.
+
+When Uber-scale enterprises blow through their AI budgets, brand loyalty disappears. The next sprint goes to whoever is cheapest that week.
+
+This is commoditization pressure meeting enterprise adoption curves at exactly the wrong time for the labs losing money on every token.
+
+---
+
+The uncomfortable part of this for the AI lab business model:
+
+OpenAI and Anthropic are already selling below cost. They're subsidizing enterprise adoption at billions in annual losses. As adoption scales (see: Uber), the subsidy requirement grows. As competition forces prices down, the loss per token widens.
+
+Someone eventually pays for the gap between what enterprises budget and what the models cost to run. Today that's venture capital and the balance sheets of lab investors.
+
+When the subsidy window closes — and it will — the pricing shock to enterprise AI budgets will arrive very fast.
+
+The companies building now who understand their true cost-of-AI (not the discounted 2026 rate) will survive the repricing. The ones who built workflows assuming current prices hold permanently are building on sand.
+
+---
+
+The budget crisis is real. The price war is real. Neither is a reason to stop building with AI.
+
+It's a reason to instrument your AI spend now — at the workflow level, not the invoice level. Because in 12 months, you'll need to justify every dollar to a CFO who just got a very unexpected quarterly bill.
