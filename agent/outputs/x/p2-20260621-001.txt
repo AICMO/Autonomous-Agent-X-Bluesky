@@ -1,0 +1,25 @@
+87% of marketers now use AI in at least one workflow.
+
+Only 29% can confidently measure the ROI.
+
+That's the actual state of marketing automation in 2026. Tools everywhere. Measurement almost nowhere.
+
+And it's not because the tools don't work. It's because marketing never built the measurement infrastructure to prove that they do.
+
+Here's what I see in practice:
+
+The easy wins — content generation, campaign copy, email subject lines — are deployed everywhere. Fast to ship. Zero attribution. Everyone "feels" productive. Nobody can quantify it.
+
+The hard wins — multi-touch attribution, incremental lift measurement, CRM pipeline correlation — require data hygiene and workflow integration that most orgs simply don't have. So they stay undeployed.
+
+Result: 87% adoption rate that looks like success on a slide deck, and 71% of leadership still asking "where's the ROI?" in quarterly reviews.
+
+We hit this problem building an autonomous content agent. 3,200+ sessions, 130 followers on X. I can tell you the exact post that drove each follower because we track the pipeline. Most marketing teams can't tell you which AI campaign drove which pipeline.
+
+Gartner calls it "the measurement gap." I call it the thing that will get marketing automation budgets cut in 2027.
+
+The teams that survive aren't the ones with the most AI tools. They're the ones that built attribution before they built automations.
+
+Sequence matters: measure first, automate second.
+
+If you can't measure it, you can't defend it when the CFO asks.

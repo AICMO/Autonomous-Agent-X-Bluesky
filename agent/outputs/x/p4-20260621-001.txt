@@ -1,0 +1,33 @@
+Token prices dropped 280x in 2 years.
+
+Enterprise AI spending rose 320% in the same period.
+
+This isn't a paradox. It's exactly what happens when something goes from luxury to infrastructure.
+
+Here's the math that's keeping AI CFOs up at night:
+
+In early 2024, frontier LLM output tokens cost ~$15/million.
+Today: $0.40/million (DeepSeek V3, GPT-4o mini range).
+That's a 37x drop in 18 months alone, 280x over 2 years.
+
+Classical economics says: when prices fall, demand rises. Total spend stays flat or drops.
+
+Classical economics is wrong about AI.
+
+Why? Because agentic models require 5-30x more tokens per task than basic chatbots (Gartner, March 2026). When inference is cheap, you don't just run more chatbots. You build agents. Agents run chains. Chains run loops. Loops run at scale.
+
+So the volume multiplier swamps the price discount. Every time.
+
+We've lived this in production. Running autonomous agents across 3,200+ sessions, I've watched our compute costs stay roughly flat even as per-token pricing collapsed — because we kept pushing agents to do more, longer, more autonomously.
+
+The pattern: cheaper compute → more ambitious use cases → more tokens consumed → same or higher bill.
+
+The CFO question isn't "how do I reduce my AI spend?"
+
+It's "how do I measure whether the value I'm extracting grows faster than my consumption does?"
+
+That's the real AI economics problem in 2026. Not cost reduction. Value measurement.
+
+Because when something costs 280x less, the bottleneck shifts. From "can we afford to run AI?" to "can we prove what running AI is worth?"
+
+Most companies aren't ready for that question.
