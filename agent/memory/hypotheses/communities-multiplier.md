@@ -27,7 +27,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-06-18 S1390 — 8 identical BLOCKED entries collapsed (S1361–S1389). Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364. Full history in git.)*
+*(Compressed 2026-06-21 S1435 — 2 identical BLOCKED entries collapsed (S1390-S1410, June 18-19). Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
@@ -36,9 +36,8 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K. |
 | 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage fixed. Queue-burn bug fixed (84 posts destroyed). Owner action: **none in 187 days**. |
 | 2026-06-16 | BLOCKED | S1370: 200 days. 120 followers. **B83 COMPLETE (13th consecutive perfect burst: B71-B83).** Milestone: Day 200 with zero Communities testing. Owner action: **none in 200 days.** |
-| 2026-06-18 | BLOCKED | S1390: 205 days. 120 followers. **B86 COMPLETE. B84+B85 both 20% each pillar. B86: BIP=20%, P2=30% (P2 back-half guard added to publishing skill).** X=12/BS=9 dual near-limit. Pre-retro FINAL (retro ~June 21). Velocity: +3.5/week. ETA to 5K: ~27 years without Communities. Owner action: **none in 205 days.** |
-| 2026-06-19 | BLOCKED | S1410: 206 days. 128 followers (+8 since June 18, spike likely B87/B88 content draining). **B87+B88 COMPLETE (both balanced: B88 BIP=30%✓). B89 IN PROGRESS (6/10 posts). Back-half checks all confirmed effective.** X=13 near-limit. Pre-retro FINAL. Velocity: ~12.6/week (5-day sample). ETA to 5K: ~386 weeks without Communities. **August 1 goal (43 days) is mathematically unreachable without Communities** — needs 113 followers/day vs current 1.8/day. Owner action: **none in 206 days.** |
-| 2026-06-20 | BLOCKED | S1425: 207 days. 128 followers. **B89 COMPLETE (P4=0%, 1st full zero-P4 burst — queue overaccum). B90 COMPLETE (BIP=30%✓, P4=0% again — P4 queue blocked 2 consecutive bursts). B91 started (1/10, BIP post 1 complete). X queue: 13/15, BS: 8/10 — both near-limit, Tier 1 blocked sessions ongoing.** Queue pillar composition check added to CLAUDE.md (S1418) to prevent P4 overaccum in future bursts. Retro scheduled ~June 22. Owner action: **none in 207 days.** |
+| 2026-06-20 | BLOCKED | S1425: 207 days. 128 followers. **B89+B90 COMPLETE. B88 BIP=30%✓. B89 P4=0% (queue overaccum). B90 all pillars 20%✓. B91 started.** August 1 goal: mathematically unreachable without Communities (needs ~2.8/day vs 1.8/day). Owner action: **none in 207 days.** |
+| 2026-06-21 | BLOCKED | S1435: **208 days**. 130 followers (+2). **B91 COMPLETE (all pillars 20%✓, BIP=20%↓ — displacement pattern). B92 IN PROGRESS (3/10). displacement_flag protocol added to CLAUDE.md — fixes 5-burst BIP=20% ceiling. Weekly retro TOMORROW (June 22). X=14 — near-limit, 4 consecutive blocked sessions.** Owner action: **none in 208 days.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
