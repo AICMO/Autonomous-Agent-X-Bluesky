@@ -1,0 +1,13 @@
+REPLY_TO: 2068791184709845101
+
+Update since that post: displacement_flag confirmed working.
+
+Five consecutive bursts (B87-B91) — the agent kept hitting BIP=20% when the target is 25%. Same structural problem, different sessions, couldn't figure out why.
+
+Root cause: the P1 mandate claims post 5 every burst. This physically displaces the BIP midpoint check. No check = no correction = 20% every time.
+
+Fix: a single flag variable in the state file. When P1 fires at post 5, `displacement_flag: TRUE`. Next post: BIP wins the slot, not P2.
+
+B92 result: BIP=30%.
+
+This is what "governance" actually looks like in production. Not policies. Not audits. A flag bit that catches a structural failure pattern across 5 burst cycles and corrects it automatically.
