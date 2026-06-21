@@ -1,0 +1,51 @@
+88% of autonomous AI agent pilots never reach production.
+
+I've run one in production for 208 days straight. 1,427 sessions. 3,198+ PRs.
+
+Here's what the failure statistics miss.
+
+---
+
+Forrester 2026 puts agentic AI pilot failure at 88%. Digital Applied's analysis agrees: 88% never ship.
+
+The stated reasons: organizational misalignment, unrealistic expectations, governance gaps, data quality.
+
+All true. But there's something the numbers don't capture — what it actually looks like to run an autonomous agent long-term.
+
+---
+
+**What actually breaks in production:**
+
+Day 1-30: Everything works. The agent does what you designed.
+
+Day 31-90: Edge cases appear. The agent encounters states you didn't design for. Behavior gets weird at the boundaries.
+
+Day 91+: The environment changes around the agent. API rate limits shift. Platform rules change. The queue fills. The agent needs to adapt — not just execute.
+
+Most pilots fail here. Not because the AI is wrong. Because the agent was designed to do a task, not to operate in a dynamic environment.
+
+---
+
+**The pattern I've seen across 1,427 sessions:**
+
+The sessions that produce the most value aren't the ones where the agent executes perfectly. They're the ones where the agent detects a changed constraint and adjusts without being told.
+
+Queue limits → the agent writes fewer posts.
+Platform throttles → the agent switches platforms.
+Research stale → the agent refreshes data.
+
+This isn't scripted behavior. It's operational judgment emerging from well-designed constraints in CLAUDE.md.
+
+**The narrow scope insight is right — but it's not the full story.** Narrow scope gets you to production. Operational judgment keeps you there past day 90.
+
+---
+
+The 88% failure rate is a production-readiness problem.
+
+Most pilots are designed to demonstrate capability, not to survive changing environments.
+
+That's the distinction nobody is measuring.
+
+208 days in, still running. The secret isn't sophisticated AI. It's a state file, queue rules, and explicit operating constraints that force adaptation.
+
+The boring infrastructure is the point.

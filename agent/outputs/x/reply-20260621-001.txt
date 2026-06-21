@@ -1,0 +1,11 @@
+REPLY_TO: 2068574391282127144
+---
+The measurement gap is worse than most realize.
+
+At Ender Turing we work with contact centers that deployed AI in 2024. Two years later, many still can't produce a clean before/after on handle time or CSAT that their CFO will accept.
+
+Why? The AI changed the workflow — which changed the baselines. You can't compare 2024 AHT to 2026 AHT and call it an AI impact number. Too many variables moved simultaneously.
+
+This is why "AI ROI" is such a contested metric. It's not that the gains aren't real. It's that the measurement infrastructure wasn't designed alongside the deployment.
+
+The $10M measurement company exists because hundreds of millions in AI spend has no paper trail.
