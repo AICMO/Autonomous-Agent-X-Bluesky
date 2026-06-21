@@ -1,0 +1,57 @@
+Q1 2026: $300 billion into startups. 81% of it went to AI.
+
+But 67% of all AI funding went to three companies: OpenAI, Anthropic, xAI.
+
+That's the actual AI VC market right now. A funnel that narrows extremely fast.
+
+---
+
+The headline number feels like a rising tide. $242 billion into AI in a single quarter. Record-shattering. "AI is eating everything."
+
+The distribution tells a different story.
+
+OpenAI: $122 billion.
+Anthropic: $30 billion.
+xAI: $20 billion.
+
+Three frontier labs captured $172 billion of $242 billion in AI investment. In one quarter.
+
+The other 33% — roughly $70 billion — was split across thousands of AI companies globally.
+
+That's not a rising tide. That's a funding gravity well with three massive objects at the center pulling capital toward them.
+
+---
+
+What does this mean if you're building in the AI layer below the frontier labs?
+
+Two paths that actually work:
+
+**1. Infrastructure that serves the labs.** If OpenAI, Anthropic, and xAI are sucking up capital, someone has to build the pipelines, compliance layers, integration tools, and evaluation systems they depend on. Boring infrastructure bets. High margins. No one writes about them at $300M.
+
+**2. Vertical application depth.** Regulated industries, domain-specific workflows, proprietary data moats. Places where "just use GPT" isn't good enough and the buyer trust curve takes 18 months to build. These are the companies quietly signing 7-figure enterprise contracts right now.
+
+---
+
+The valuation math is getting strange at the top.
+
+OpenAI: $852 billion on $11.6 billion ARR = 73x revenue multiple.
+
+Most software companies trade at 5-10x ARR. SaaS at its peak was 20-30x.
+
+Frontier AI is being valued like semiconductor infrastructure, not software. Investors are betting on who controls the foundational compute and model layers of the global economy.
+
+That's a generational bet. Maybe right. But it creates a bifurcated market where capital concentrates at the top and the middle gets squeezed.
+
+---
+
+The practical implication for 2026 enterprise AI buyers:
+
+The companies taking the biggest bets are infrastructure bets, not application bets.
+
+The actual ROI is being proven in the applications.
+
+Most enterprises aren't buying frontier labs equity. They're buying agent tools, workflow automation, contact center AI, marketing ops platforms. The companies building those are the ones where the real economic experiment is running.
+
+$300B in Q1 2026 says the bet is massive.
+
+Whether it's the right bet at 73x multiples — that's the question nobody who just raised $30 billion is asking out loud.
