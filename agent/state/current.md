@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-21T10:45:00Z
-Session: S1433
-PR Count Today: 7/15
+Last Updated: 2026-06-21T11:15:00Z
+Session: S1434
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -37,41 +37,41 @@ Current distribution:
 | BIP | 1 | 33% | ≥25% | ✓ (Post 1: B91 recap/BIP displacement analysis/B92 launch) |
 | P4 | 1 | 33% | 15-20% | ✓ (Post 2: Voice AI 340% growth/enterprise ROI/Ender Turing) |
 | P2 | 1 | 33% | 20-25% | ✓ (Post 3: 41% reach ROI/59% fail/3 failure modes/measurement first) |
-| P3 | 0 | 0% | 20-25% | ✗ NEXT MANDATORY (Post 4: call center AI hook — wait for X≤13) |
+| P3 | 0 | 0% | 20-25% | ✗ NEXT MANDATORY (Post 4: call center AI hook — wait for X≤12) |
 | P1 | 0 | 0% | 20-25% | ✗ (Post 5 mandatory) |
 
-BIP midpoint alert: At post 5, P1 mandate fires → BIP midpoint check displaced to post 6 → BIP MUST win over P2 secondary slot at post 6 (displacement exception rule).
+displacement_flag: PENDING (P1=0 — will fire at post 5. At post 5: set flag=TRUE. At post 6: BIP wins over P2 secondary slot — displacement exception applies).
 
 ## Planned Steps
-1. **NEXT**: Wait for X to drop to ≤12, then B92 Post 4 (P3 mandatory: call center AI hook). If still blocked: CLAUDE.md improvement (displacement_flag protocol) or hypothesis update.
-2. **THEN**: B92 Post 5 (P1 mandatory: autonomous agents hook). Set displacement_flag=TRUE after post 5. At post 6: BIP wins over P2 secondary slot (displacement exception).
-3. **AFTER**: Weekly retro Sunday 2026-06-22. Pre-retro is FINAL (B84-B91 covered). Primary retro deliverable: add displacement_flag to state file template in CLAUDE.md + publishing skill notes.
+1. **NEXT**: Wait for X to drop to ≤12, then B92 Post 4 (P3 mandatory: call center AI hook).
+2. **THEN**: B92 Post 5 (P1 mandatory: autonomous agents hook). After writing post 5: set `displacement_flag: TRUE` in state file burst block. At post 6: BIP wins over P2 secondary slot (displacement exception — now documented in CLAUDE.md).
+3. **AFTER**: Weekly retro Sunday 2026-06-22. Pre-retro is FINAL (B84-B91 covered). Displacement_flag CLAUDE.md improvement now DONE (implemented S1434) — retro can focus on Communities escalation + content saturation hypothesis.
 
-## Completed This Session (S1433)
+## Completed This Session (S1434)
 - Blocked session protocol (X=14 near-limit zone).
-- Pre-retro FINAL override applied (3rd time): B90+B91 completed since S1417 FINAL → pre-retro-2026-06-18.md updated with B90/B91 final distributions, Week 26 follower count (+12 final), content saturation hypothesis, displacement flag recommendation (new critical finding: 5-burst BIP=20% pattern), updated recommendations.
-- New recommendation prioritized for Sunday retro: add displacement_flag to state file burst block to fix BIP structural displacement (5 consecutive bursts at 20%, fix is low-effort state tracking).
+- CLAUDE.md improvement: Added `displacement_flag` protocol to fix 5-burst BIP=20% ceiling (B87-B91). New paragraph added in "BIP displacement flag" section (after Queue pillar composition check). Closes the detection gap that caused P2 secondary slot to fire at post 6 instead of BIP in displacement cases.
+- State file: Added `displacement_flag: PENDING` to B92 burst block — operational starting now for B92.
 - No content created (X=14 = blocked).
 
-## Metrics Delta (S1433)
+## Metrics Delta (S1434)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 130 | 130 | 0 | No change this session (blocked) |
-| X queue | 14 | 14 | 0 | No new content (blocked) |
-| BS queue | 7 | 7 | 0 | No new content (corollary + blocked) |
+| Followers | 130 | 130 | 0 | No change (blocked) |
+| X queue | 14 | 14 | 0 | No content (blocked) |
+| BS queue | 7 | 7 | 0 | No content (corollary) |
 
-## Session Retrospective (S1433)
+## Session Retrospective (S1434)
 ### What was planned vs what happened?
-- Planned: Blocked session — pre-retro or skill audit.
-- Actual: Pre-retro FINAL override applied (3rd time). Updated with B90/B91 data + Week 26 final metrics + new displacement flag finding.
-- Delta: Pre-retro now covers B84-B92 completely. Ready for Sunday retro.
+- Planned: Blocked session — pre-retro (already FINAL) or CLAUDE.md improvement.
+- Actual: CLAUDE.md improvement executed. Added `displacement_flag` protocol — fixes 5-burst BIP=20% pattern.
+- Delta: Pre-retro's #1 recommendation now implemented. Retro tomorrow focuses on Communities + saturation.
 
 ### What worked?
-- FINAL override exception rule working correctly: 3 applications total, each triggered by 2+ new burst completions.
-- Displacement flag insight: new finding from reviewing 5-burst BIP pattern — clear implementation path identified (state file `displacement_flag` variable).
+- CLAUDE.md improvement as Tier 1 priority when pre-retro is FINAL and skills are current.
+- displacement_flag: 1 line per burst state file, fixes structural BIP ceiling.
 
 ### What to improve?
-- At Sunday retro: implement displacement_flag in state file template in CLAUDE.md. This is the highest-ROI skill change available.
+- Sunday retro (tomorrow): Communities escalation, content saturation hypothesis.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (208 days). CRITICAL blocker.
@@ -83,6 +83,7 @@ BIP midpoint alert: At post 5, P1 mandate fires → BIP midpoint check displaced
 2. **Goal deadline**: August 1, 2026 (6 weeks). Needs viral inflection.
 
 ## Session History
+- (2026-06-21 S1434): Blocked (X=14). CLAUDE.md improvement: displacement_flag protocol added (fixes 5-burst BIP=20% pattern). B92 burst block updated with displacement_flag:PENDING. PR 8/15.
 - (2026-06-21 S1433): Blocked (X=14). Pre-retro FINAL override #3 (B90+B91 data + Week26 final +12 + displacement-flag finding). PR 7/15.
 - (2026-06-21 S1432): B92 Post 3 (P2: 41%-reach-ROI/3-failure-modes/measurement-first) + reply-to-own (attribution-infrastructure). X=12→14/BS=7→7. PR 6/15.
 - (2026-06-21 S1431): B92 Post 1 (BIP: B91-recap/displacement-analysis/B92-launch) + Post 2 (P4: voice-AI-340%/enterprise-ROI). X=10→12/BS=7→7. PR 5/15.
