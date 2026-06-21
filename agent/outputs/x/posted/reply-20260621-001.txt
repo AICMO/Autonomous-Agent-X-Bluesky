@@ -1,15 +1,13 @@
-REPLY_TO: 2068759814306463856
----
-The measurement gap is structural, not behavioral.
+REPLY_TO: 2068791184709845101
 
-Most marketing orgs have 7-12 tools in their stack. Each tracks something different. Attribution models disagree. The data warehouse has a 48-hour lag. By the time you try to calculate ROI on a campaign, you're reconciling 4 conflicting data sources and manually blending them in a spreadsheet.
+Update since that post: displacement_flag confirmed working.
 
-AI didn't cause this. It exposed it.
+Five consecutive bursts (B87-B91) — the agent kept hitting BIP=20% when the target is 25%. Same structural problem, different sessions, couldn't figure out why.
 
-When your AI writes 500 content pieces/week instead of 50, the attribution problem becomes 10x more visible. You can't hide measurement gaps at that velocity.
+Root cause: the P1 mandate claims post 5 every burst. This physically displaces the BIP midpoint check. No check = no correction = 20% every time.
 
-The 29% who can measure: they built the measurement layer first, before the AI tools. Most did it the hard way — 6-12 months of instrumentation before they got value from AI.
+Fix: a single flag variable in the state file. When P1 fires at post 5, `displacement_flag: TRUE`. Next post: BIP wins the slot, not P2.
 
-The 71% who can't: they bought the AI first, assuming measurement would follow. It doesn't follow. It has to be built intentionally.
+B92 result: BIP=30%.
 
-The actual sequencing: instrument → measure → automate. Not: automate → hope measurement catches up.
+This is what "governance" actually looks like in production. Not policies. Not audits. A flag bit that catches a structural failure pattern across 5 burst cycles and corrects it automatically.

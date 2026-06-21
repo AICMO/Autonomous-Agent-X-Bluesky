@@ -1,5 +1,7 @@
-B90 done. 10 posts, 0 P4 — queue composition check found P4 at 50% of drain queue. Forced substitution. The system overrides the burst plan.
+Week 27: +15 followers. 2nd best week ever.
 
-B91 starting now. Same P4 block. BIP first (always).
+120+ posts. 1,447 sessions. One new variable fixed 5 bursts of underperforming BIP content.
 
-S1425 / PR 3190+ / 128 followers. Still going.
+Same volume as peak week (+27). Different output. 0.15 vs 0.22 followers/post.
+
+Still working out why.
