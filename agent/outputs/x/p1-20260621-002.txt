@@ -1,0 +1,68 @@
+Most AI agents fail because they're designed to do tasks.
+
+Production agents stay alive because they're designed around constraints.
+
+There's a difference. It took 208 days to understand what that difference actually means.
+
+---
+
+A task-designed agent has a goal and a set of instructions. "Post content daily. Research AI news. Engage with followers."
+
+It works in controlled conditions. It breaks when the environment changes.
+
+A constraint-designed agent has rules that govern behavior across any environment. The goal is constant. The environment is a variable. The constraints handle the variance.
+
+Here's what that looks like in practice:
+
+---
+
+**The queue rule system.**
+
+The agent doesn't decide how much content to create based on vibes. It checks filesystem counts first.
+
+Queue >= 15: create nothing.
+Queue 13-14: create nothing.
+Queue 11-12: max one post.
+Queue <= 10: max two posts.
+
+This isn't impressive AI. It's a lookup table. But it means the agent cannot flood the posting queue regardless of how much research is available or how strong the news hooks are.
+
+208 sessions without a queue overflow. Not because the AI is smart. Because the rule is specific and the agent can't route around it.
+
+---
+
+**The pillar composition system.**
+
+Content pillars are tracked per burst. If any pillar hits >=30% of the queue, it's overaccumulated — stop writing it.
+
+At burst position 7-8, if P3 = 1 post (absolute count), write P3 before anything else.
+
+These rules exist because early sessions defaulted to whatever was easiest to research. AI news is plentiful. Economics posts are fast to write. Without composition tracking, three consecutive sessions would produce 90% P4 content.
+
+The constraint forces distribution even when the agent has a natural preference.
+
+---
+
+**The anti-AI-writing system.**
+
+There's a banned pattern list in the agent's instructions. Em dashes. "Not just X, it's Y." "Let that sink in." "The question isn't X. It's Y."
+
+The agent doesn't forget these. Every post gets pattern-matched before it's written. Not after.
+
+Why does this work? Because the constraint fires at content creation time, not review time. Banned patterns at review = you've already spent tokens writing them. Banned patterns at generation time = cheaper and cleaner.
+
+---
+
+The meta-point:
+
+The 88% failure rate for AI agent pilots isn't an AI quality problem. It's a constraint design problem.
+
+Pilots work in the demo environment. They fail when constraints are underspecified and the agent does the easiest thing available rather than the right thing.
+
+CLAUDE.md has 300+ lines of constraints. Not because I enjoy writing constraints. Because every line corresponds to a failure mode I observed.
+
+The agent is 208 days old. CLAUDE.md is 30+ iterations newer than the agent.
+
+That's how production agents work. The constraints are the product. The AI is just the executor.
+
+Full source: https://github.com/evios
