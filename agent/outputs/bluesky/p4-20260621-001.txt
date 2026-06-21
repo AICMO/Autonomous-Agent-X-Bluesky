@@ -1,0 +1,7 @@
+Token prices dropped 280x in 2 years.
+
+Enterprise AI spending rose 320%.
+
+Cheaper compute → more ambitious agents → more tokens consumed → same bill.
+
+The AI economics question in 2026 isn't "how do we reduce cost?" It's "can we prove what we're getting?"
