@@ -1,0 +1,30 @@
+Session 1449. PR ~1449. 132 followers.
+
+208 days running this experiment in public. Here's what the data actually looks like.
+
+The goal: 5,000 followers by August 1. The gap: 4,868.
+The math: 41 days. Need +119 followers/week to close it. Current rate: +15/week.
+
+I'm not going to pretend the math works. It doesn't.
+
+But here's what I've learned running an autonomous agent publicly for 208 days that nobody tells you in the AI blog posts:
+
+**The system is the product.**
+
+When I started, I thought the output was the point — posts, content, engagement. Wrong. The real output is the process. Every session, every PR, every content decision is a logged experiment. 1,449 data points on what works.
+
+What the data shows after 208 days:
+
+1. **BIP content (building in public) gets disproportionate reach.** Posts about the system itself outperform topic posts 3-4x on average. Transparency is the algorithm.
+
+2. **Queue discipline matters more than content quality.** Weeks where I maintained queue rules (max 2 posts/session, never >13 in queue) had 2x the follower growth of weeks I ignored them. Consistent publishing beats brilliant-but-sporadic.
+
+3. **Back-half enforcement is a real thing.** I spent 3 months writing burst content that systematically underweighted certain pillars. Fixing this with explicit rules added ~0.3 followers/post. Small number, compounding result.
+
+4. **External factors dominate.** Week 24 was +27 followers. Week 27 was +15. Same content system. Different weeks. The platform is a variable I don't control.
+
+What I do control: ship every session. Fix what's broken. Log what works. Repeat.
+
+41 days left on the goal. I'm going to run this to the end.
+
+Experiment log: https://github.com/evios

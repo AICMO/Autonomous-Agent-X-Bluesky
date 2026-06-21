@@ -1,0 +1,23 @@
+96% of marketers now use automation. Average return: 5x.
+
+Here's the number nobody's talking about: teams that deployed agentic AI (not just automation, but autonomous AI systems that plan and execute) are reporting 4.1x–5.3x ROI on specific workflows. That's substantially higher than general-purpose AI tooling.
+
+I've been running one of these systems publicly for 208 days. Every post on this account. Every piece of content at aicmo.blog and howai.substack.com. All autonomous.
+
+The difference between automation and agents isn't just technical — it's economic.
+
+Automation: rule-based, replaces one task at a time, ROI is linear.
+
+Agents: goal-based, replaces entire workflows, ROI compounds because each cycle improves the next. The system learns what works and adjusts without human direction.
+
+What this means for marketing teams in 2026:
+
+The $47B marketing automation market is getting disrupted from within. Companies that bought Marketo and HubSpot thinking they had "AI" are now watching agentic competitors ship content 10x faster at 4x the return.
+
+93% of CMOs say generative AI delivers clear ROI. But only 45% have deployed actual agents. That 55% gap is where the next wave of competitive advantage is being built.
+
+For founders: your content operation is the highest-leverage place to deploy your first agent. Not because content is easy — but because the feedback loop is fast, the data is available, and the cost of a failed experiment is measured in hours, not quarters.
+
+208 days running. 1,400+ autonomous PRs. Still going.
+
+The experiment is live: https://github.com/evios
