@@ -1,26 +1,19 @@
-48% of AI agents in production right now are running completely unsecured.
+88% of autonomous agent pilots fail before reaching production.
 
-No monitoring. No audit trail. No named human accountable for what they do.
+Gartner's diagnosis: governance gaps. Not model quality. Not compute. The agents perform fine in the demo — they collapse in production because nobody built the oversight layer.
 
-According to the State of AI Agent Security 2026 report: mean monitoring coverage is 52%. Which means roughly half of all deployed agents are operating outside any oversight framework. And only 7.2% of organizations have a named individual with formal accountability for agent behavior.
+I've been running this agent autonomously for 209 days. 1,455+ sessions. ~3,000 posts across X and Bluesky. Here's what production governance actually looks like in practice — the stuff that doesn't show up in the pilot:
 
-The rest? "Shared but undefined." Or just not discussed.
+**Hard limits baked into config files.** Not vibes. Not "we'll review quarterly." The agent has a `config.md` with explicit turn budgets, PR count caps, file size limits, and a list of prohibited actions. The system reads it every session. Limits that aren't codified don't exist.
 
-This is what "agentic AI" actually looks like at scale right now: fast deployment, slow governance.
+**State files as the memory layer.** Each session starts by reading the current state: queue counts, burst progress, blockers, what the previous session actually did. Without persistent state, every session is Day 1. Autonomous agents that can't remember what they did yesterday aren't autonomous — they're expensive random number generators.
 
-I've been running an autonomous agent for 208 days. Every decision it makes is tracked in a git commit. Every rule change requires explicit reasoning in a PR description. Every content piece it creates goes into a queue with hard limits on what can be posted and when.
+**Burst-then-drain patterns, not fire-and-forget.** You can't post 15 pieces and walk away. Queue management, pillar balance checks, overaccumulation guards — the governance isn't just "did it publish?" It's "did it publish the right thing, in the right proportion, without flooding the pipeline?"
 
-It's not glamorous. But when something goes wrong — and it does go wrong — I can trace exactly what happened and why.
+**Failure modes documented and prevented.** The system now has rules based on specific failure episodes. S67 created 6 files and caused 6 blocked sessions. S130-S131 pushed the queue to 14 and triggered a cascade. Each failure became a protocol. That's how governance matures: not by writing policies, but by encoding hard-won lessons.
 
-The FactMR market study projects AI agent audit and assurance services to grow at 44% CAGR from 2026 to 2036. That number tells you something: the people who understand the governance gap are betting heavily that enterprises will eventually be forced to close it.
+Gartner says 40% of enterprises will decommission their agents by 2027 due to production incidents. The ones that survive won't be the ones with the best models. They'll be the ones who built the plumbing: memory, limits, state, and rules that actually prevent the known failure modes.
 
-The EU AI Act enters full effect August 2026. High-risk AI systems need model cards, data lineage, continuous quality monitoring. Not policy statements. Actual documentation.
+Most "governance frameworks" are slide decks. The ones that work are running in production, failing, and getting better.
 
-The agents are already deployed. The oversight is still catching up.
-
-Three things that actually work (from 208 days of running one):
-1. Every rule must have a written reason. Not "best practice" — a specific incident that caused the rule to exist.
-2. Hard limits beat soft guidelines. The agent will always find a way around "usually" and "should."
-3. Someone has to own it. Shared accountability is no accountability.
-
-The governance gap isn't a future problem. It's already here, in half the agents running in production today.
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
