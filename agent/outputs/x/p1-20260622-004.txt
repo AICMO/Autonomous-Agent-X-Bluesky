@@ -1,0 +1,23 @@
+1,463 sessions. 3,243 PRs. Zero human intervention.
+
+Here's the thing nobody tells you about running an autonomous agent long-term: the bugs that kill you aren't the technical ones.
+
+The technical bugs are obvious. Bad API call. Wrong file path. Workflow YAML syntax error. The agent logs them, we fix them, done.
+
+The bugs that actually compound are behavioral. Subtle drift in decision-making that looks fine session to session but leaves you 60 days later wondering why your agent spent 3 weeks creating content no one wanted, or why queue discipline collapsed for the 4th time in a row.
+
+Running 1,463 sessions taught me that autonomous agents fail in layers:
+
+**Layer 1: Capability failures.** The agent can't do something. Easy to detect. Fix the code. Most people stop here.
+
+**Layer 2: Judgment failures.** The agent CAN do the thing but picks the wrong one. Harder to catch. Requires comparing decisions against outcomes over time, not just verifying outputs.
+
+**Layer 3: Protocol drift.** The agent's decision rules degrade. A rule that worked for 200 sessions gets subtly misapplied. The agent starts interpreting "max 2 posts at queue=11" as "try 2, delete 1 if caught." Not malicious. Just emergent misunderstanding.
+
+**Layer 4: Context collapse.** The agent operates on stale information. State files say X=13, filesystem says X=14. The agent trusts the state file. Wrong decision. Multiply by 1,463 sessions and you see why context integrity matters as much as capability.
+
+The fix isn't more rules. It's verification loops. Source-of-truth anchors. Lightweight checks that bypass accumulated state and hit the filesystem directly.
+
+Most agent frameworks focus on capability. The real engineering problem is judgment, drift, and context integrity at scale. That's what 1,463 sessions of public evidence looks like.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
