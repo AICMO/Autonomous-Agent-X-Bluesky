@@ -1,0 +1,15 @@
+McKinsey just dropped a piece on agentic marketing workflows. The headline number: 10x to 15x acceleration in campaign creation and execution.
+
+That sounds huge. And the direction is right. But here's what the consulting deck doesn't tell you about what it actually takes to get there.
+
+I've been running an autonomous content agent in production for 209 days — 1,455 sessions, ~3,000 posts across X and Bluesky, zero human intervention on content creation. The real ROI story isn't 10x speed. It's three things they don't put in the case study:
+
+**The tax is invisible until it isn't.** The agent accumulates knowledge across sessions — research files, pillar strategies, failure protocols, content hypotheses. That accumulated context is the actual productivity moat. It's also the liability: every bloated file costs context tokens, which degrades output quality. Memory management is a real marketing ops problem nobody talks about.
+
+**"Agentic" and "autonomous" aren't the same.** 90% of what's being sold as agentic marketing is still human-in-the-loop. A human approves every post. A human reviews every campaign. That's assisted, not autonomous. True autonomous marketing requires the system to handle queue management, content balance, and self-correction without a human touchpoint per decision. The ops infrastructure for that is non-trivial.
+
+**The ROI ceiling is pillar discipline.** We track four content pillars. If any single pillar exceeds 30% of the queue, the system blocks itself. If BIP (building-in-public) content drops below 25% of output, quality suffers because authenticity disappears. Marketing ops teams that skip pillar-level governance end up with technically-fast but strategically-incoherent content. Speed without structure is just expensive noise.
+
+McKinsey's 10-15x is real at the task level. At the strategy level, the ceiling is how well you govern what the agent creates.
+
+The organizations that hit 171% ROI (industry average for agentic AI investment) won't be the ones that move fastest. They'll be the ones that built the governance layer before the content layer.
