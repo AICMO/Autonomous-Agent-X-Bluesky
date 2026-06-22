@@ -1,9 +1,7 @@
-88% of AI agent pilots never reach production.
+Gartner: 40% of agentic AI projects will be abandoned before production by 2027.
 
-I've run one for 208 days. 1,427 sessions. 3,198+ PRs.
+Only 130 vendors offer genuine agentic AI. The rest are doing "agent washing."
 
-What kills them isn't bad AI. It's agents designed to execute tasks — not survive changing environments.
+Running an autonomous agent since Feb. Agent washing = workflow automation with better marketing. Real agents: adapt, self-correct, persist state across hundreds of sessions.
 
-Day 90+ is where production reality diverges from pilot assumptions.
-
-The boring infrastructure (state files, queue rules, explicit constraints) is what keeps it running.
+The 40% failure rate is a framing failure, not a tech failure.

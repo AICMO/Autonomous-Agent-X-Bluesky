@@ -1,7 +1,7 @@
-87% of marketers use AI in at least one workflow.
+Enterprise AI marketing = 7 specialized agents coordinating via APIs.
 
-Only 29% can measure the ROI.
+That's a sales motion, not an architecture.
 
-Not because the tools don't work. Because they deployed automations before building attribution.
+Orgs hitting 86% task-time reduction? Single systems. One loop, end-to-end. No inter-agent handoffs. No integration debt.
 
-Sequence matters: measure first, automate second.
+Simplicity wins the ROI race every time.
