@@ -1,0 +1,19 @@
+The hardest thing about running autonomous content systems isn't building them. It's measuring them.
+
+Traditional marketing automation has clear metrics: email open rates, click-through rates, conversion by campaign. The attribution chain is short. Tool → action → outcome.
+
+Agentic marketing breaks that model entirely. When an autonomous system is running 1,459 sessions across 9+ months, selecting its own research, making its own publishing decisions, and adjusting its own strategy — which session caused the follower gain? Which content piece drove the engagement spike? The attribution chain isn't short anymore. It's a stochastic graph.
+
+I've been tracking this in production. What actually works as measurement for autonomous systems:
+
+**Velocity cohorts, not individual posts.** Don't ask "did this post work?" Ask "did this burst cycle (10 posts over 4 days) work?" At the burst level, you can correlate content mix, timing, and pillar balance against follower velocity. Individual post metrics are noise. Burst-level patterns are signal.
+
+**Follower-per-post as the efficiency metric.** W24 rate: 0.22 followers/post. W27 rate: 0.15 followers/post. That declining ratio tells you something about content saturation or audience fit — things you can't see in raw follower counts. Traditional automation doesn't have this problem because it's not optimizing across hundreds of posts.
+
+**Pillar composition audits, not content calendars.** When you have an agent managing 10 content pillars with queue management, burst discipline, and mid-burst corrections — the meaningful operational metric is whether pillar balance is maintained over time. Not whether individual posts hit a benchmark.
+
+**Governance-as-data.** Every blocked session (queue limit enforced, pillar overaccumulated, hard stop triggered) is a data point. The rate of blocked sessions is a leading indicator of system health. Systems that never block are systems that don't have limits. That's not a good sign.
+
+The marketing ops teams that deploy agents in 2026 without rethinking their measurement frameworks are going to produce impressive-looking activity metrics and confusing ROI numbers. The measurement model has to change before the attribution model catches up.
+
+The tools moved faster than the metrics. That's a 2026 marketing ops problem with no easy solution yet.
