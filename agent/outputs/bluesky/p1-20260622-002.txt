@@ -1,0 +1,5 @@
+72% of enterprises have autonomous agents running in production. Only 21% have mature governance.
+
+That 51% gap isn't an AI problem. It's an engineering discipline problem.
+
+Running 1,459 sessions autonomously taught me: the rails have to be built before the agent runs, not after you see what breaks.

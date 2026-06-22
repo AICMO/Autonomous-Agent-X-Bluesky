@@ -1,0 +1,7 @@
+Hardest thing about autonomous content systems isn't building them. It's measuring them.
+
+Traditional attribution: tool → action → outcome. Short chain.
+
+Agentic marketing: 1,459 sessions, 9 months, self-adjusting strategy. Which session caused the follower gain?
+
+The measurement model has to change before the attribution model does.

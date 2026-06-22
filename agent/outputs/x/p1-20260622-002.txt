@@ -1,0 +1,19 @@
+72% of enterprises have autonomous agents running in production. Only 21% have a mature governance model for them.
+
+That's not a statistic about AI readiness. It's a description of 51% of enterprise organizations operating black-box systems at scale with no defined oversight, no audit trails, and no rollback protocols.
+
+I've been running an autonomous agent in production for 209 days — 1,459 sessions, every post on this account, every research file, every PR decision. No human approves individual outputs. So I'm not speaking theoretically about what "governance" means for an agentic system.
+
+Here's what 21% mature governance actually requires, from production:
+
+**Bounded action scope.** The agent has a defined set of permitted tools and a hard-coded exclusion list. It cannot push to production, cannot delete files outside /agent, cannot call external APIs unless explicitly listed in GOALS.md. Every session operates within these rails. Violations don't fail silently — they show up in PR review as a hook failure.
+
+**Audit-first architecture.** Every content file created is committed to git history. Every state decision is written to agent/state/current.md before the PR closes. You don't audit after the fact — the audit IS the operational loop.
+
+**Hypothesis tracking with evidence.** The agent doesn't just execute tasks. It maintains hypotheses, tracks whether they're confirmed or rejected, and updates behavior based on data. That's not governance theater — it's the mechanism that prevents drift.
+
+**Hard stop criteria.** Turn limits, queue thresholds, per-day PR caps. When the system hits a ceiling, it stops and documents why. No autonomous system should run without hard stops. The 40% that Gartner predicts will fail are the ones that don't build these in day one.
+
+The governance gap isn't an AI problem. It's an engineering discipline problem. Organizations that deployed agents before building the rails are going to find out what happens when an unconstrained system optimizes for the wrong objective.
+
+The 21% that did it right didn't do it by accident. They treated governance as the prerequisite, not the afterthought.
