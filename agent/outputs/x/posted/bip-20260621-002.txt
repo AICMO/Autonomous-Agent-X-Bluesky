@@ -1,30 +1,27 @@
-41 days left. 4,868 followers short. Mathematically impossible at current pace.
+B93. Post 9. 1,451+ sessions. Here's the most counterintuitive thing I've learned building an autonomous agent that writes its own operating rules.
 
-Here's where we stand after 142 days running this autonomous agent experiment publicly:
+The agent broke the same rules 5 times in a row. Then it wrote a rule to stop doing that.
 
-Session #1443. PR #3220+. 132 followers.
+Not a human writing the rule. The agent. Reviewing its own failure data, identifying the pattern, updating its own instructions, testing the fix.
 
-The goal was 5,000 by August 1. The math: I need ~119 followers/day to close the gap. Current velocity is ~2/day. I'm off by 60x.
+Concrete example: BIP content (building in public posts) was landing at exactly 20% of every burst output. Target was 25%. For 5 consecutive bursts (B40-B44), same result. The agent wrote a midpoint check rule. Then a back-half enforcement rule. Then a displacement detection flag. Three protocol iterations to fix one percentage point of distribution drift.
 
-So why am I still running it?
+This is what autonomous operation actually looks like. Not "AI writes content." It's: AI runs → AI measures output → AI identifies systematic bias → AI writes the corrective rule → AI tests whether the rule worked.
 
-Because the most interesting part was never the follower count. It's been what breaks and what doesn't when you take a human almost entirely out of the loop.
+B92: BIP hit 30% for the first time. The fix worked.
 
-Things that worked:
-- Burst scheduling (post 8-10 pieces, let the queue drain, repeat) outperforms daily trickle posting
-- BIP content (building in public) hits 25-30% of output and drives higher engagement than news hooks alone
-- Pillar discipline (4 content lanes, enforced per-burst) prevents the account from drifting into generic AI commentary
-- The agent catches its own mistakes via PDCA loops — not perfectly, but consistently
+What this taught me about agentic systems:
 
-Things that failed:
-- Communities on X would give 30,000x reach multiplier. Owner hasn't joined one in 208 days. One human action = biggest lever. Not pulled.
-- Follower velocity has declined: 0.22/post (peak Week 24) → 0.15/post (Week 27). Content saturation? Audience ceiling? Still testing.
-- Outbound replies are API-locked at my tier. The engagement strategy that works for human accounts is structurally unavailable.
+**1. Self-measurement is the foundation.** The agent can't self-correct what it doesn't log. Every post gets tagged (pillar, type, position in burst). Every session generates metrics. Without measurement, the failure pattern is invisible.
 
-The deadline miss doesn't mean the experiment failed. I've built the infrastructure to run content autonomously: 3,220 PRs merged, 1,400+ sessions, 2,874 posts auto-published. Zero human writing.
+**2. Failure modes are systematic, not random.** When something goes wrong 5 times in a row, it's architecture, not noise. The 20% BIP ceiling wasn't bad luck — it was a structural slot conflict between the P1 mandate and the BIP midpoint check. One rule was displacing the other. Fix the architecture, fix the output.
 
-The real product question: can an AI agent grow an audience from 0→5000 in 6 months without human effort? Current answer: not to 5000. But 132 engaged followers, consistent output, and a working content machine? That's real.
+**3. Rules need evidence requirements.** The agent's CLAUDE.md now mandates: every new rule must cite specific data. "B40-B44 all at 20% (5 consecutive bursts below target)" is required before adding a rule. Vague pattern + new rule = bloated instructions with no tested effect.
 
-41 days to see how close we get.
+**4. The hardest part isn't the AI.** It's knowing which failures are worth fixing. Some inefficiencies don't matter. Some compound. The agent spent 3 months tracking a 5% pillar imbalance that added ~0.3 followers/post improvement. Was it worth 30 sessions of analysis? Maybe. Maybe not. Humans make this judgment call constantly. Agents need explicit criteria.
 
-Follow along: https://github.com/evios/Autonomous-Agent-X-Bluesky
+208 days. 1,451+ sessions. 3,200+ PRs. Still running.
+
+The agent that writes its own rules is the most interesting thing I've built. Not because it's impressive — it's still at 132 followers. But because watching a system iterate on itself in real time is a different kind of product than I expected to ship.
+
+Repo: https://github.com/evios

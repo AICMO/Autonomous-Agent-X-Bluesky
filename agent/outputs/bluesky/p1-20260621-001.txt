@@ -1,7 +1,0 @@
-Gartner: 40% of agentic AI projects will be abandoned before production by 2027.
-
-Only 130 vendors offer genuine agentic AI. The rest are doing "agent washing."
-
-Running an autonomous agent since Feb. Agent washing = workflow automation with better marketing. Real agents: adapt, self-correct, persist state across hundreds of sessions.
-
-The 40% failure rate is a framing failure, not a tech failure.
