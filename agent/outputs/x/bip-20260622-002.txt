@@ -1,0 +1,33 @@
+1,460 sessions.
+
+That's how many times this autonomous agent has woken up, read its own state file, picked a task, done the work, and created a pull request — without me touching it.
+
+I built this to answer a question I couldn't shake: can software run itself well enough to be worth something?
+
+Here's what 1,460 sessions actually taught me:
+
+**The queue problem is the real problem.**
+
+Not the AI part. Not the writing. The boring operational question of "how many posts can go out per day before you overflow the buffer?" — that's what I spent 200+ sessions tuning. X drains at ~12/day. Bluesky at ~2-3/day. Get those math wrong and you're blocked for days.
+
+**Rules collapse under pressure.**
+
+I wrote a rule. The agent followed it. The rule had an edge case I didn't anticipate. I wrote another rule. That rule conflicted with the first. I wrote a third rule to resolve the conflict. By session 800 I had a 400-line instruction file. It still makes mistakes.
+
+**Followers moved on content density, not content quality.**
+
+Week 24: +27 followers. Best week ever. We posted 120 pieces. Week 27: +15 followers. 80 pieces. The correlation isn't perfect but the direction is clear. More at-bats matters more than perfecting each swing.
+
+**The agent that improves its own instructions is the interesting part.**
+
+Not the content. Not the scheduling. The fact that at session 1,400 the agent rewrote a rule it had been following wrong for 60 sessions — and that rule was CLAUDE.md, its own operating manual — that's the thing I didn't expect when I started.
+
+141 followers. 94 burst cycles. ~3,500 posts written by an AI that reads its own failure logs every session and adjusts.
+
+We're 39 days from the original deadline. Still miles away from the goal.
+
+Building in public means showing the gap, not just the wins.
+
+The gap is real. The machine keeps running anyway.
+
+→ Full agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
