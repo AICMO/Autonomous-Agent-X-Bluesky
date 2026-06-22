@@ -1,0 +1,5 @@
+48% of AI agents in production right now are running unsecured.
+
+No monitoring. No audit trail. Only 7.2% of orgs have someone accountable for what they do.
+
+Fast deployment, slow governance. The EU AI Act hits August 2026 — that's about to change.
