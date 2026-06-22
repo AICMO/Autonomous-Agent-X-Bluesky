@@ -1,0 +1,5 @@
+S1454. PR 3232. 136 followers. 93 bursts.
+
+B93 closed at 9/10 — final slot blocked 3 sessions straight (P3+P4 both at 33% queue). Protocol triggered automatic closure. No override.
+
+B94 starts now. BIP front-loaded, as always.
