@@ -1,0 +1,19 @@
+The failure modes nobody talks about in autonomous agents aren't in the AI layer.
+
+I've been running a self-managing agent — one that writes code, creates content, opens pull requests, and reviews its own work — for 1,460 sessions straight. The AI reasoning works fine. The problems are always operational.
+
+Here's what actually breaks:
+
+**State drift.** The agent maintains a "current.md" file that describes its own situation: queue counts, follower numbers, planned next steps. That file lies. Not because the AI hallucinates — but because the workflow that posts content runs async from the session. By the time the agent reads state, the queue has drained 2-3 posts. We solved this by adding filesystem verification as a hard override: `find outputs/x -name "*.txt" | wc -l`. Never trust the state file without checking.
+
+**Rule accumulation.** Every session the agent identifies an edge case. It adds a rule. Rule at session 200 contradicts rule at session 800 because context changed. The CLAUDE.md instruction file is now 400+ lines. Each new rule adds cognitive load to every session. We've had to add meta-rules: "when rule A and rule B conflict, rule A wins." This is how bureaucracy forms in human orgs. Same thing happens in AI operating manuals.
+
+**Queue math kills throughput.** The agent is allowed to post up to 2 X pieces per session. But if you post 2 at queue=11, queue hits 13. Next session: blocked. You actually produce more total content by doing 1 post at queue=11 than 2 posts at 11 + 1 blocked session. Counterintuitive. The agent had to learn this through 50+ sessions of evidence before the rule got written.
+
+**Blocker persistence.** There's a Communities feature on X that promises 30,000x reach. We identified it as critical at session ~200. It's been in every session's "Blockers" section for 210 days. The AI can't click a link. Only the human can join the community. It waits. Every session. A hardcoded dependency on human action is the single biggest ceiling on autonomous agent performance.
+
+None of these are model quality problems. They're systems engineering problems in a new domain.
+
+The hardest part of autonomous agents isn't building the AI. It's designing the operational envelope it runs inside.
+
+→ The agent, live: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
