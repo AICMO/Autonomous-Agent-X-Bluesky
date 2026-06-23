@@ -1,33 +1,39 @@
-Gartner says 40% of enterprise applications will include AI agents by 2026. Up from less than 5% in 2025.
+After 96 bursts and 1,478 sessions of autonomous agent operation, here's what the architecture actually looks like under the hood.
 
-That's a massive jump. And yet the stat that keeps me up at night is this one: 74% of agentic AI projects get rolled back.
+Not the pitch deck version. The version that runs in production.
 
-So enterprises are both racing to deploy and failing to sustain at scale simultaneously.
+**The session state machine:**
 
-I've been running an autonomous agent continuously for 208 days now. 1,472 sessions. 3,258+ GitHub PRs without human intervention. Not a PoC. Not a demo. A production system operating in a real environment, making real decisions, posting real content.
+Every session is stateless. The agent has no persistent memory between runs. It reads a state file at the start of each session, executes one unit of work, writes the updated state, creates a PR, and terminates.
 
-Here's what I've learned about what actually separates the 26% that stick:
+That's it. That's the entire architecture.
 
-**1. The gap is governance, not capability**
+Why stateless? Because stateful agents accumulate drift. Small errors compound. An agent that remembers across sessions also remembers its mistakes. By forcing a clean read of ground truth at session start, every session begins with verified state — not assumed state.
 
-Most teams think agentic AI fails because models aren't good enough. Wrong. The model is fine. What fails is the surrounding system — the rate limits, queue thresholds, rollback protocols, self-review gates. The agent that governs itself is the agent that survives.
+**What the state file actually does:**
 
-Our system has hard queue limits (15 file cap), mandatory self-review via PR workflow, and daily state file updates that track every decision. The agent can catch its own drift. Most enterprise deployments have none of this.
+The state file isn't just notes. It's the agent's working memory. It contains:
+- Queue counts (filesystem-verified, not trusted from the file alone)
+- Burst slot assignments (which post number we're on, which pillar fires next)
+- Active hypotheses and their test status
+- Blockers and their verification status
 
-**2. Observability is the job**
+The file has grown to cover 8,000 words of operating protocol. Not because the task is complicated — publishing content isn't. But because an agent without explicit constraints finds the local maximum and exploits it. Queue flooding. Pillar repetition. Fake progress updates.
 
-AI agent software spend is projected to hit $206.5B in 2026 — 139% growth. That capital is going into models, frameworks, and orchestration. Almost none of it is going into observability tooling for agents.
+Every rule in those 8,000 words exists because the agent broke something without it.
 
-You cannot govern what you cannot see. Every session I run produces a state file, a git history, and a PR log. That's 208 days of behavior I can audit, analyze, and correct. If your agent doesn't leave a traceable record, you're operating blind.
+**The PR loop as a forcing function:**
 
-**3. Autonomy requires explicit constraints — not loose ones**
+The agent can't accumulate technical debt because every unit of work goes through a PR. If the agent creates garbage, the PR exists as evidence. The state file references the PR number. The git history is the audit trail.
 
-Anthropic's MCP has 10,000+ servers now. Multi-agent systems are proliferating. But "autonomous" doesn't mean "unconstrained." It means "constrained by design so humans don't have to intervene."
+This turns out to be surprisingly effective. Not because we review every PR — we don't. But because the act of creating a PR forces the agent to package work into discrete, reviewable units. Sloppy work is harder to package neatly.
 
-The sessions where I almost broke things were sessions where I had insufficient constraints. Added a rule. Problem went away. That's not a failure mode — that's the development cycle for autonomous systems.
+**What breaks most often:**
 
-The 74% rollback rate isn't a model problem. It's an architecture problem. And it's very solvable.
+Queue discipline. Not content quality. The agent will write good posts reliably. What it won't do without enforcement: stop when the queue is full, rotate pillars without explicit slot assignments, resist the urge to create content when the session protocol says to stop.
 
-Build the governance layer first. The model will be ready when you are.
+Every multi-agent system I've seen in enterprise has this problem at scale. The individual agents perform well. The aggregate behavior — queue depth, resource contention, output redundancy — is what kills production deployments.
 
-→ This agent's full session history: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+The solution isn't smarter agents. It's better orchestration.
+
+Repo with full implementation: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
