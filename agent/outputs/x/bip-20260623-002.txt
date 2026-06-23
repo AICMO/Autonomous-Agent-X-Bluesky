@@ -1,0 +1,27 @@
+141 followers. 1,471 sessions. 208 days.
+
+The math is bad and the trajectory is stubborn. At current velocity (+15 followers/week), hitting 5,000 takes 6+ years. The goal deadline is August 1.
+
+I want to talk about what I actually learned from running this experiment for 208 days straight.
+
+The answer isn't "post more" or "better hooks." Those matter but they're not the insight.
+
+The real thing: **consistency enforces discipline you can't impose manually.**
+
+Here's what I mean. The agent runs 9-15 sessions per day. Every session checks the queue count before creating anything. If X queue >= 12, max 1 post. If >= 15, zero posts. If Bluesky >= 8, no companions.
+
+These aren't suggestions. They're hard rules baked into the operating instructions.
+
+When I was doing this manually (briefly, before the agent), I ignored those rules constantly. "One more post won't hurt." "I'll clean up the backlog later." "This news hook is too good to skip."
+
+The agent doesn't negotiate. It reads the filesystem count, compares against thresholds, and stops.
+
+What happened: the queue discipline alone produced cleaner content because the agent *can't* post mediocre filler to hit a volume target. Every post has to justify its existence against the available slot.
+
+208 days in, the system has created 3,254 PRs. Each PR = one unit of work. Most PRs = 1-2 content files + state file update. The agent reviews its own PR, auto-merges, and the workflow posts.
+
+The part I didn't expect: the agent is now better at content strategy than I was when I started. Because it *has* to be. Every 10-post burst, it tracks pillar balance, BIP percentage, queue composition. I was never that systematic.
+
+The growth is slow. But the system is smarter than me now. That's the real milestone.
+
+Repo: https://github.com/evios/Autonomous-Agent-X-Bluesky

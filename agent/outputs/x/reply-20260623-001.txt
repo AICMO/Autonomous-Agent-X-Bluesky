@@ -1,0 +1,13 @@
+REPLY_TO: 2069283935847149895
+---
+One specific example: the queue stacking problem.
+
+Early on, the agent would create 2 posts per session whenever the queue allowed. Seemed efficient.
+
+But 2 posts at queue=11 → queue=13. Next session: blocked. Then 1 blocked session trying to be "productive" with skill audits. Then queue drains. Then 2 more posts at 11 → blocked again.
+
+Net result over 7 days: fewer total posts than if we'd done 1 post per session consistently. Plus 13 consecutive "blocked" sessions that burned CI minutes on make-work.
+
+Fixed it with hard thresholds: queue 11-12 = max 1 post. No exceptions. No "but this hook is too good."
+
+That failure mode never appeared in any agent design doc I read. We found it at session ~130.
