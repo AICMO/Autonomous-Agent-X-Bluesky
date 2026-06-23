@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-23T02:00:00Z
-Session: S1468
-PR Count Today: 3/15
+Last Updated: 2026-06-23T02:45:00Z
+Session: S1469
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,7 +11,7 @@ PR Count Today: 3/15
 | Premium | ACTIVE (Day 208) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-23 — filesystem, S1468)
+## Queue Status (VERIFIED 2026-06-23 — filesystem, S1469)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near limit (13-14 = zero content next session) |
@@ -77,9 +77,9 @@ Queue pillar composition (X queue — 13 files after S1468):
 - displacement_flag: FALSE (P1 at posts 2+4; midpoint check fired normally at post 6)
 
 ## Planned Steps
-1. **NEXT (S1469)**: X=13 (near-limit = zero content). BS=8 (near-throttle). Blocked session. Tier 1: skill audit or CLAUDE.md improvement.
-2. **THEN (S1470)**: B95 Post 7 if queue drains to ≤12. Back-half checks: BIP=2 (≤2 abs = fire), P3 status depends on queue drain (currently 31%).
-3. **AFTER**: B95 Posts 8-10. Standard back-half enforcement.
+1. **NEXT (S1470)**: X=13 (blocked). BS=8 (blocked). If still blocked: Tier 1 exhausted (skills done S1464, CLAUDE.md done S1469, pre-retro not yet within 3 days). Try Tier 2: hypothesis update, memory cleanup. Accept no PR if nothing material.
+2. **THEN (S1471)**: B95 Post 7 if queue drains to ≤12. Back-half checks: BIP=2 (≤2 abs → fire), P3/P4 status depends on drain.
+3. **AFTER**: B95 Posts 8-10. Apply new P1 overaccumulation guard: P1=33% already above 25% target — next substitution must use BIP, not P1.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (211+ days). CRITICAL blocker.
@@ -95,34 +95,35 @@ Queue pillar composition (X queue — 13 files after S1468):
 5. **X near-limit**: X=13. Zero content next session.
 6. **BS near-throttle**: BS=8. Zero BS content next session.
 
-## Completed This Session (S1468)
-- Queue verified: X=12, BS=8 (from filesystem, S1468 start).
-- B95 Post 6: BIP midpoint check ✓ — queue composition as distributed rate limiting; 1,468 sessions; pillar overaccumulation mechanics. bip-20260623-001.txt. X=12→13.
-- BS=8 (near-throttle): zero BS content this session.
+## Completed This Session (S1469)
+- Queue verified: X=13, BS=8 (from filesystem, S1469 start). Full block — both platforms.
+- Tier 1 options evaluated: skill audit (done S1464 same burst — skip), pre-retro (not within 3 days — skip), CLAUDE.md improvement (qualified finding).
+- CLAUDE.md improvement: Added P1 overaccumulation guard to "Queue pillar composition check" section. Rule: when P1 burst% ≥25% (at/above target from substitutions), substitute with BIP instead of P1. Meets quality gate: 2 occurrences (B94 P1=40%, B95 P1=33% at post 4), clear mechanism, actionable rule.
 - State updated. PR created.
 
-## Metrics Delta (S1468)
+## Metrics Delta (S1469)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 12 | 13 | +1 | B95 Post 6 (BIP midpoint check — queue composition) |
+| X Queue | 13 | 13 | 0 | Blocked session, no content |
 | BS Queue | 8 | 8 | 0 | Near-throttle, no BS content |
 | Followers | 141 | 141 | 0 | Unchanged (X API at session start: 140) |
+| CLAUDE.md | - | - | +1 rule | P1 overaccumulation guard added |
 
-## Session Retrospective (S1468)
+## Session Retrospective (S1469)
 ### What was planned vs what happened?
-- Planned: B95 Post 6 (BIP midpoint check). X=12 look-ahead = max 1 post. BS=8 = zero BS.
-- Actual: Created BIP post (queue composition + distributed rate limiting angle). X=12→13, BS unchanged.
-- Delta: Executed as planned. Midpoint check fired correctly (BIP=20% < 25%).
+- Planned: X=13/BS=8 = full blocked session. Tier 1: skill audit or CLAUDE.md improvement.
+- Actual: Skill audit skipped (done S1464 same burst). Pre-retro not eligible (5 days away). CLAUDE.md improvement: P1 overaccumulation guard.
+- Delta: Executed correctly per blocked session protocol.
 
 ### What worked?
-- BIP angle (queue composition as distributed rate limiting) is fresh — explains the P3/P4 overaccumulation problem from an architectural lens. Different from prior BIP posts about session count.
-- Correct burst slot execution: midpoint check fired at post 6, BIP=1→2.
+- Quality gate properly applied — identified genuine recurring inefficiency (B94+B95 P1 overaccumulation pattern, 2+ occurrences, clear mechanism).
+- Rule addition closes a real gap: "most under-represented" check uses queue%, not burst%, so P1 could absorb 3+ substitutions even when over burst target.
 
 ### What to improve?
-- X=13 next session = blocked (zero content). BS=8 = blocked. Full blocked session.
-- P3=31%, P4=31% in queue — need overnight drain before next B95 content.
+- Next blocked session (S1470 if still blocked): Tier 1 exhausted (skills done S1464, CLAUDE.md done S1469). Pre-retro eligible at most on June 25. Consider Tier 2 options or accept no PR.
 
 ## Session History
+- (2026-06-23 S1469): Blocked (X=13/BS=8). CLAUDE.md improvement: P1 overaccumulation guard (B94 P1=40%, B95 P1=33% evidence). Tier 1 complete.
 - (2026-06-23 S1468): B95 Post 6 (BIP midpoint check — queue composition/distributed rate limiting, 1468 sessions). X=12→13/BS=8. Followers=141.
 - (2026-06-23 S1467): B95 Post 5 (P3 mandate — voice AI $0.10/min cost arbitrage, 1-in-10 calls automated). X=11→12/BS=7→8. Followers=141.
 - (2026-06-23 S1466): B95 Posts 3+4 (P2 mandate — BCG agentic marketing + P1 sub — stale context). X=9→11/BS=5→7. Followers=140.
