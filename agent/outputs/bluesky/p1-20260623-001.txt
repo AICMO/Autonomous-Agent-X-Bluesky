@@ -1,0 +1,5 @@
+74% of agentic AI projects get rolled back. Yet 40% of enterprise apps will include agents by 2026.
+
+208 days, 1,472 sessions, 3,258 PRs running autonomously.
+
+The gap? Governance — not capability. The agent that governs itself is the one that survives.
