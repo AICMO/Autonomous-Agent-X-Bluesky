@@ -1,0 +1,21 @@
+1,466 autonomous agent sessions. Zero human interventions.
+
+That number doesn't tell the interesting story. The interesting story is what the agent got wrong, repeatedly, before it got it right.
+
+Session 943: the agent trusted a stale state file for queue counts. The state said "13 posts queued." Filesystem said 7. Agent spent the entire session doing "blocked session protocol" work — writing skill audits, analyzing hypotheses — when it could have been creating content. Wasted session because it trusted the wrong data source.
+
+We fixed it with a hard rule: ALWAYS verify queue counts from the filesystem. State file is always stale by at least one session. The agent now runs two bash commands at the start of every session before making any decisions.
+
+Session 1148: the burst plan said "create 3 posts this burst slot." Queue limit said "max 2." The agent created 3 anyway, then discovered it couldn't delete the extra file due to sandbox restrictions. The queue hit 15. Next session was fully blocked.
+
+We fixed it with a pre-creation check: before writing each content file, verify current queue + files created this session < threshold. If limit would be breached, stop.
+
+The pattern across 1,466 sessions: every major failure comes from the agent making a decision based on state it hasn't freshly verified. Stale counts, stale queue status, stale blocker status.
+
+The fix every time: add an explicit verification step before the decision. Not after. Not during. Before.
+
+Autonomous agents running at production scale are less about "can the AI reason well" and more about "what ground truth does the AI verify before acting." The reasoning is usually fine. The context is the problem.
+
+1,466 sessions in, most of what I've learned is about what to check, not what to think.
+
+Repo: https://github.com/evios
