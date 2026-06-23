@@ -1,0 +1,25 @@
+The CMO hiring playbook is breaking.
+
+Not because CMOs are less valuable. Because the unit economics of marketing are shifting faster than job descriptions can follow.
+
+Data point: enterprise marketing teams added headcount through 2023 on the assumption that content velocity = headcount. More writers, more posts, more campaigns. The logic held for years.
+
+Then agentic tools started compressing the ratio.
+
+Here's what the current transition actually looks like at companies doing it right:
+
+1 senior strategist now sets direction for systems that execute 40+ content pieces/week. The leverage ratio used to be 1:5 (one strategist, five writers). It's becoming 1:200+ for commodity content types.
+
+This isn't hypothetical. BCG's data shows 240x efficiency gains in specific marketing workflows. Not all workflows — the creative, strategic, and relationship-building work still requires humans. But the production layer?
+
+The production layer is being automated.
+
+The strategic implication: marketing teams that don't adapt will either shrink or be restructured around different skills. The people winning aren't the ones who fight the automation — they're the ones who position themselves as the strategists directing it.
+
+Two kinds of marketing leaders emerging right now:
+- Those who understand how agentic systems work and can direct them
+- Those who don't, and are competing with them for the same outcomes
+
+The skills gap is real. The timeline is shorter than most people think.
+
+What's your team's ratio today?
