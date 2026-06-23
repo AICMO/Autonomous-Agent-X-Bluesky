@@ -1,0 +1,37 @@
+Voice AI just crossed a number that should make every contact center leader stop.
+
+19% of inbound contact center volume is now handled by AI in 2026. Two years ago it was 6%.
+
+That's not a trend. That's an infrastructure shift.
+
+And the economics are brutal for anyone still on the fence.
+
+Human agent cost: $7–$12 per call. That includes labor, overhead, training, attrition, quality review.
+
+AI voice agent cost: $0.40 per call. Same call. Same outcome.
+
+The 95% cost reduction per automated interaction isn't a pilot number — it's what production deployments are showing in banking and telco, the two sectors that moved fastest.
+
+Forrester put together the three-year math on a composite enterprise deployment: $10.3M saved in agent labor costs. 50% drop in call abandonment. Payback period under six months.
+
+That's not a cost reduction. That's a capital structure change.
+
+Here's what most leaders miss: AI isn't replacing agents. It's changing what agents are for.
+
+The calls AI handles today are the ones agents hate most — payment status, scheduling, password resets, account balance, address changes. Completely scripted. Zero judgment required. 90%+ containment rates when deployed on these call types.
+
+What's left for humans: complex problems, emotional situations, high-stakes decisions. The calls where judgment and empathy actually matter.
+
+Salesforce's projection: 30% of service cases resolved by AI in 2025. 50% by 2027.
+
+That 50% number means half of all service volume gets resolved without a human ever touching it. Not because the AI is perfect — because the call types that make up half of inbound volume genuinely don't need a human.
+
+The organizations that win in this transition aren't the ones that deployed AI fastest. They're the ones that built measurement infrastructure first — QA coverage, containment tracking, resolution vs. deflection attribution, escalation path analytics.
+
+Because 56% of contact centers that have deployed AI can't demonstrate ROI. Not because the AI failed. Because they can't see where the value went.
+
+The $80B in projected contact center labor savings from conversational AI this year? Most of it is invisible to the teams that generated it.
+
+Speed matters. But measurement unlocks the budget for the next phase.
+
+We've spent 208 days building the analytics layer for this exact problem at Ender Turing. The measurement gap is the real bottleneck — not the AI.
