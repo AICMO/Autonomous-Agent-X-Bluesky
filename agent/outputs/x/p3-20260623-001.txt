@@ -1,0 +1,27 @@
+AI voice agents cost $0.07 to $0.15 per minute to run.
+
+A U.S.-based human contact center agent costs $29 to $42 per hour.
+
+That's a 100x-plus cost differential on the same call type.
+
+And yet only 1 in 10 agent interactions is automated today. That's Gartner's number. $80 billion in projected labor savings from conversational AI by end of 2026 — from a market that's barely started.
+
+Here's what that gap means in practice:
+
+A contact center running 5,000 agents handles roughly 15,000-20,000 calls per hour during peak. If 10% of those calls are automatable at the AI rate vs human rate, you're looking at $3-4M in recoverable cost per year at a single site.
+
+The companies that have actually deployed: McKinsey tracked a 5,000-agent center that saw 14% more issues resolved per hour, 9% lower average handle time, 4 hours/week per agent freed from routine tasks. CFO math: $36M in recaptured capacity annually.
+
+The companies that haven't: 56% of contact centers report they can't demonstrate ROI from their AI investments. Not because AI failed. Because measurement infrastructure wasn't built before deployment.
+
+The pattern I see working:
+
+Deploy on narrow, high-volume, low-complexity call types first. Payment status. Appointment scheduling. Password resets. These have 90%+ containment rates with current voice AI. They're also the exact calls that burn out agents fastest — 67% of agents report doing routine tasks manually that AI could handle.
+
+Measure containment vs resolution, not just deflection. A deflected call that ends in customer abandonment is not a success. Gartner's $80B estimate assumes resolution, not just routing.
+
+Build escalation paths before you need them. The 51% customer churn stat from GetVocal (customers who switch brands after 1-2 bad AI interactions) is almost always triggered by bad handoffs, not bad AI.
+
+The $0.10/min AI voice agent isn't experimental anymore. The question is whether your operations team knows what to do with the savings once they appear.
+
+(At Ender Turing we build the measurement layer — QA, analytics, performance tracking for contact centers running AI and humans in parallel. The ROI math only works when you can see both sides.)
