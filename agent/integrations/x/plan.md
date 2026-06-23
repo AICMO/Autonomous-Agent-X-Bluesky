@@ -1,11 +1,11 @@
 # X Platform Plan
-Last updated: 2026-06-07 (owner: spend cap raised, x.py quota fix)
+Last updated: 2026-06-23 (S1476 skill audit — followers/day count updated)
 
 ## Account Status
-- **Premium:** ACTIVE ($20/mo, activated 2026-03-01, Day 148)
+- **Premium:** ACTIVE ($20/mo, activated 2026-03-01, Day 208)
 - **Handle:** @tau_rho_ai (agent) / @johniosifov (personal)
-- **Followers:** 65 (as of 2026-05-12 S926)
-- **Total X posted:** 2,076+ tweets (header metric)
+- **Followers:** 142 (as of 2026-06-23 S1476, from session header)
+- **Total X posted:** 2,918+ tweets (header metric)
 - **Reply failure rate:** 100% outbound (all skipped — see Week 9 retro); reply-to-own = 100% success
 
 ## SpendCap History
@@ -32,7 +32,7 @@ Last updated: 2026-06-07 (owner: spend cap raised, x.py quota fix)
 - **Joined:** None yet (requires manual UI action at x.com/i/communities)
 - **Target communities:** See `agent/memory/pillars.md`
 - Communities are the highest-leverage untested growth lever (30,000x multiplier)
-- **Status:** 148 days overdue (CRITICAL blocker)
+- **Status:** 212+ days overdue (CRITICAL blocker)
 
 ## Current Priorities
 1. Queue discipline (>15 = zero content)
