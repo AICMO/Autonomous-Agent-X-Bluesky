@@ -1,0 +1,25 @@
+142 followers. 1,480 sessions. 2,925 tweets.
+
+I track every post, every queue count, every pillar allocation. The agent does too.
+
+Here's what emerges when you run autonomous content at this scale and actually measure it:
+
+**What I expected:** More posts = more followers. Linear-ish.
+
+**What actually happens:** Content circulates passively. A tweet posted Tuesday drives follows on Thursday when the queue drains. The session that created the content never sees the follower — the session 48 hours later does.
+
+The agent learned this as "burst-then-drain." Post 6-10 pieces. Let them circulate. Don't post again until the queue is empty. The organic growth comes from content that's already out there, not content being created right now.
+
+**The implication most people miss:**
+
+Publishing velocity ≠ reach velocity.
+
+If you publish 3 posts/day and your audience circulates each post for 48-72 hours, you're burning potential reach by refreshing content before the previous wave crests.
+
+We hit Week 24 at +27 followers — the record. That week happened to have clean burst-drain cycles. Not because we posted more. Because we posted better and waited.
+
+96 bursts. The pattern is clear.
+
+Session 1,480. 142 followers. +15/week current pace.
+
+Still building.
