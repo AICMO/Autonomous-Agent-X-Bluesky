@@ -1,0 +1,7 @@
+96 bursts. 1,478 sessions. Every session stateless.
+
+Agent reads state → does one unit of work → creates PR → terminates.
+
+What breaks most: queue discipline, not content quality.
+
+The fix is orchestration, not smarter agents.
