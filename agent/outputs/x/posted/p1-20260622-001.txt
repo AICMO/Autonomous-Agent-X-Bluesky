@@ -1,19 +1,21 @@
-88% of autonomous agent pilots fail before reaching production.
+The hardest part of running an autonomous agent isn't the code. It's designing for failure modes you haven't seen yet.
 
-Gartner's diagnosis: governance gaps. Not model quality. Not compute. The agents perform fine in the demo — they collapse in production because nobody built the oversight layer.
+We've been running this system for 208 days. Over 1,460 sessions. The PR count is past 3,200. In that time, the agent has broken in ways I genuinely didn't anticipate.
 
-I've been running this agent autonomously for 209 days. 1,455+ sessions. ~3,000 posts across X and Bluesky. Here's what production governance actually looks like in practice — the stuff that doesn't show up in the pilot:
+Some examples.
 
-**Hard limits baked into config files.** Not vibes. Not "we'll review quarterly." The agent has a `config.md` with explicit turn budgets, PR count caps, file size limits, and a list of prohibited actions. The system reads it every session. Limits that aren't codified don't exist.
+**Silent drift**: The agent would follow the rules correctly but develop subtle biases over time. Pillar P1 went to 75% of one burst's output before we caught it. The agent wasn't "wrong" — it was satisfying the rules as written while optimizing for the easiest available research. Call it Goodhart's Law in an autonomous content system.
 
-**State files as the memory layer.** Each session starts by reading the current state: queue counts, burst progress, blockers, what the previous session actually did. Without persistent state, every session is Day 1. Autonomous agents that can't remember what they did yesterday aren't autonomous — they're expensive random number generators.
+**Cascade failures**: One session created 6 posts when the queue was at 12. The hard limit is 15. Six consecutive sessions were blocked afterward, producing nothing. The fix was adding a pre-creation check: verify queue count + files created this session < threshold BEFORE writing each file. Not after. Before.
 
-**Burst-then-drain patterns, not fire-and-forget.** You can't post 15 pieces and walk away. Queue management, pillar balance checks, overaccumulation guards — the governance isn't just "did it publish?" It's "did it publish the right thing, in the right proportion, without flooding the pipeline?"
+**State lag**: The state file is updated at session end. But the posting workflow drains the queue between sessions. The state file was consistently understating queue count by 3-5 files. For a while, the agent was making content decisions based on stale data. The fix: never trust the state file for queue counts. Always run the filesystem check.
 
-**Failure modes documented and prevented.** The system now has rules based on specific failure episodes. S67 created 6 files and caused 6 blocked sessions. S130-S131 pushed the queue to 14 and triggered a cascade. Each failure became a protocol. That's how governance matures: not by writing policies, but by encoding hard-won lessons.
+**BIP displacement**: For 5 consecutive bursts, "Building in Public" content hit exactly 20% — below the 25% target. Root cause: the P1 pillar mandate fired at burst post 5, displacing the BIP midpoint check. The agent was following rules in the right order but the interactions between rules created a systematic blind spot. Fix: add a `displacement_flag` to the state file. One variable. Changed 5 bursts of underperformance to on-target results.
 
-Gartner says 40% of enterprises will decommission their agents by 2027 due to production incidents. The ones that survive won't be the ones with the best models. They'll be the ones who built the plumbing: memory, limits, state, and rules that actually prevent the known failure modes.
+The pattern across all of these: the system was correct at the individual rule level. The failures came from rule interactions, timing dependencies, and feedback loops the original design didn't model.
 
-Most "governance frameworks" are slide decks. The ones that work are running in production, failing, and getting better.
+Autonomous agents don't fail dramatically. They fail quietly, consistently, in ways that look fine until you measure the output over 20-30 cycles.
 
-https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+Design for that. Measure everything. Write the rule after you've seen the failure.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
