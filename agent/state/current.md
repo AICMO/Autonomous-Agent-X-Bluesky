@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-23T19:15:00Z
-Session: S1477
-PR Count Today: 12/15
+Last Updated: 2026-06-23T19:25:00Z
+Session: S1478
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,27 +11,27 @@ PR Count Today: 12/15
 | Premium | ACTIVE (Day 208) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-23 — filesystem, S1477)
+## Queue Status (VERIFIED 2026-06-23 — filesystem, S1478)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone. Max 1 next session. |
-| Bluesky | 5 | <10 | Safe |
+| X | 12 | <15 | Look-ahead zone. Max 1 next session. |
+| Bluesky | 6 | <10 | Safe |
 
-Queue pillar composition (X queue — 11 files after S1477):
-- P3: 4/11 = 36% — OVERACCUMULATED (≥30%). Skip P3.
-- P4: 4/11 = 36% — OVERACCUMULATED (≥30%). Skip P4.
-- BIP: 1/11 = 9% (safe)
-- P1: 0/11 = 0% (safe)
-- P2: 2/11 = 18% (safe)
+Queue pillar composition (X queue — 12 files after S1478):
+- P3: 4/12 = 33% — OVERACCUMULATED (≥30%). Skip P3.
+- P4: 4/12 = 33% — OVERACCUMULATED (≥30%). Skip P4.
+- BIP: 1/12 = 8% (safe)
+- P1: 1/12 = 8% (safe)
+- P2: 2/12 = 17% (safe)
 
-## B96 Burst (IN PROGRESS — 6/10 posts)
-| Pillar | Posts | % (of 6) | Target | Status |
+## B96 Burst (IN PROGRESS — 7/10 posts)
+| Pillar | Posts | % (of 7) | Target | Status |
 |--------|-------|----------|--------|--------|
-| BIP | 2 | 33% | ≥25% | ✓ Post 1 front-load (S1473) + Post 5 midpoint (S1477) |
-| P1 | 1 | 17% | 20-25% | ✓ Post 2 (S1474) — P4 blocked → P1 substitute |
-| P2 | 2 | 33% | 20-25% | ✓ Post 3 (S1474) mandate + Post 6 (S1477) secondary slot |
-| P3 | 1 | 17% | 20-25% | ✓ Post 4 (S1475) — 19% automation rate |
-| P4 | 0 | 0% | 15-20% | BLOCKED in queue (4/11=36% — ≥30%). Skip. |
+| BIP | 2 | 29% | ≥25% | ✓ Post 1 front-load (S1473) + Post 5 midpoint (S1477) |
+| P1 | 2 | 29% | 20-25% | ✓ Post 2 (S1474) substitute + Post 7 back-half (S1478) |
+| P2 | 2 | 29% | 20-25% | ✓ Post 3 (S1474) mandate + Post 6 (S1477) secondary slot |
+| P3 | 1 | 14% | 20-25% | ✓ Post 4 (S1475) — 19% automation rate. Back-half check may fire at post 8. |
+| P4 | 0 | 0% | 15-20% | BLOCKED in queue (4/12=33% — ≥30%). Skip. |
 
 **B96 slot table (in progress):**
 - Post 1: BIP front-load ✓ (S1473) — 1473 sessions/B96 start/burst 96/96 bursts insight
@@ -40,12 +40,13 @@ Queue pillar composition (X queue — 11 files after S1477):
 - Post 4: P3 mandate ✓ (S1475) — 19% automation rate, $0.40/call vs $7-12, measurement gap, Ender Turing
 - Post 5: BIP midpoint check ✓ (S1477) — 1477 sessions, 3280 PRs, 142 followers, governance insight
 - Post 6: P2 secondary slot ✓ (S1477) — 72% production/60% no governance, agentic content ops, governance-first
+- Post 7: P1 back-half check ✓ (S1478) — stateless session architecture, queue discipline, orchestration vs capability
 - displacement_flag: N/A (P1 mandate fired at post 2 via sub, not post 5 — standard displacement doesn't apply)
 
 ## Planned Steps
-1. **NEXT (S1478)**: X=11 (look-ahead zone). Max 1 X piece. P1 back-half check (P1=1 at post 7 → write P1). Check queue — P3/P4 still blocked at ~36%. Only P1/BIP/P2 eligible. If X drains to ≤10, write B96 Post 7 (P1 back-half: P1=1 → must reach 2 by post 8).
-2. **THEN (S1479)**: B96 back-half checks apply at post 7-8. P1 absolute count = 1 → back-half check fires. BIP=2 → back-half check (≤2 → write BIP unless displacement exception). Check P3/P4 queue drain.
-3. **AFTER (S1480+)**: B96 completion toward 10/10. P3/P4 unblock when each drops below 30% in queue.
+1. **NEXT (S1479)**: X=12 (look-ahead zone). Max 1 X piece. B96 Post 8 — back-half checks: P3=1 absolute (back-half fires) → write P3 if P3/P4 queue drains below 30%. BIP=2 (≤2 → back-half check: write BIP, unless displacement exception — N/A here). Check P3/P4 queue composition.
+2. **THEN (S1480)**: B96 Post 9-10 — P4 may unblock if queue drains below 30%. Back-half priority: BIP > P3 > P4 > P1 > P2.
+3. **AFTER (S1481+)**: B96 completion (10/10) → B97 planning.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (212+ days). CRITICAL blocker.
@@ -60,35 +61,34 @@ Queue pillar composition (X queue — 11 files after S1477):
 4. **Queue P4 overaccumulated**: 4/11=36%. Skip P4 until queue drains below 30%.
 5. **X=11 look-ahead zone**: Max 1 X piece next session.
 
-## Completed This Session (S1477)
-- B96 Post 5: BIP midpoint check (1477 sessions, 3280 PRs, 142 followers, governance infrastructure insight). X file: bip-20260623-001.txt
-- B96 Post 6: P2 secondary slot (72% production/60% no governance, agentic content ops playbook). X file: p2-20260623-002.txt
-- Bluesky companion (BIP): bip-20260623-001.txt (280 chars, under limit)
-- X queue: 9→11. BS queue: 4→5.
+## Completed This Session (S1478)
+- B96 Post 7: P1 back-half check (P1=1 at post 7 → write P1). Stateless session architecture, queue discipline vs capability, orchestration patterns. X file: p1-20260623-001.txt
+- Bluesky companion (P1): p1-20260623-003.txt (under 290 chars)
+- X queue: 11→12. BS queue: 5→6.
 
-## Metrics Delta (S1477)
+## Metrics Delta (S1478)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 9 | 11 | +2 | BIP + P2 posts |
-| BS Queue | 4 | 5 | +1 | BIP companion |
-| Followers | 142 | 142 | 0 | No change this session |
-| B96 Posts | 4/10 | 6/10 | +2 | Posts 5 (BIP) + 6 (P2) |
+| X Queue | 11 | 12 | +1 | P1 back-half post |
+| BS Queue | 5 | 6 | +1 | P1 companion |
+| Followers | 142 | 142 | 0 | No change |
+| B96 Posts | 6/10 | 7/10 | +1 | Post 7 (P1 back-half) |
 
-## Session Retrospective (S1477)
+## Session Retrospective (S1478)
 ### What was planned vs what happened?
-- Planned (from S1476): Check queue drain. If X≤12, write B96 Post 5 (BIP or P1/P2, P3/P4 blocked).
-- Actual: X drained from 14→9 (state file was 5 posts behind — BIP, P1, P2 posts all posted). Wrote Post 5 (BIP midpoint) + Post 6 (P2 secondary slot). 2 posts + 1 BS companion.
-- Delta: Better than planned. Expected 1 post (look-ahead), got 2 because queue was at 9 (not 14).
+- Planned (from S1477): X=11 look-ahead, max 1 X post. P1 back-half check fires (P1=1 absolute).
+- Actual: Wrote B96 Post 7 (P1 back-half — stateless architecture, orchestration vs capability). Queue 11→12, BS 5→6.
+- Delta: On plan. P1 back-half check fired correctly. Queue moved to 12 (look-ahead zone continues).
 
 ### What worked?
-- Queue verification at session start: state file said X=14, filesystem showed X=9. Correct action taken (2 posts instead of blocked session).
-- BIP midpoint check fired correctly: BIP=1/5=20% at post 5 → write BIP. Rule worked as designed.
-- P2 secondary slot fired correctly: P2=1 at post 6 → write P2. Rule worked as designed.
+- P1 back-half check fired correctly: P1=1 absolute at post 7 → wrote P1 post. Rule worked as designed.
+- Queue pillar composition verified: P3/P4 still at 33% each (overaccumulated) — correctly skipped.
 
 ### What to improve?
-- S1478: X=11 (look-ahead). Max 1 X post. P1 back-half check will fire at post 7-8 (P1=1 absolute). Check P3/P4 queue drain before writing.
+- S1479: X=12 (look-ahead). Max 1 X post. P3 back-half check may fire (P3=1 absolute) IF P3/P4 queue drains below 30%. BIP back-half check (BIP=2, ≤2 → fire). Check queue pillar composition first.
 
 ## Session History
+- (2026-06-23 S1478): B96 Post 7 (P1 back-half — stateless architecture, orchestration). Queue 11→12/BS 5→6.
 - (2026-06-23 S1477): B96 Posts 5+6 (BIP midpoint + P2 secondary slot). Queue 9→11/BS 4→5. 2 posts.
 - (2026-06-23 S1476): Blocked (X=14). Tier 1: skill audit (all 4 current). Updated x/plan.md (Day 208, followers=142, tweets=2918). No content.
 - (2026-06-23 S1475): B96 Post 4 (P3 — voice AI 19% rate, $0.40/call). Reply-to-own (BCG tweet). X=12→14/BS=4→5. P3 re-blocked (31%). Next: blocked session.
@@ -103,5 +103,4 @@ Queue pillar composition (X queue — 11 files after S1477):
 - (2026-06-23 S1466): B95 Posts 3+4 (P2 mandate + P1 sub — stale context). X=9→11/BS=5→7. Followers=140.
 - (2026-06-22 S1465): B95 Posts 1+2 (BIP front-load + P1 sub — failure modes). X=10→12/BS=6→7. Followers=141.
 - (2026-06-22 S1464): Blocked (X=13/BS=8). Skill audit (all current). Communities Day 211 update. No content.
-- (2026-06-22 S1463): B94 Post 10 (P1 sub — agent failure modes at scale). B94 COMPLETE 10/10. X=12→13/BS=8.
 - (earlier sessions condensed, see git history)
