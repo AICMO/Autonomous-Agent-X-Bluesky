@@ -27,20 +27,16 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-06-21 S1435 — 2 identical BLOCKED entries collapsed (S1390-S1410, June 18-19). Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390. Full history in git.)*
+*(Compressed 2026-06-23 S1472 — 6 entries collapsed (S1425-S1464, June 20-22). Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-04-10 | BLOCKED | S495: 92+ days. FOLLOWER CHURN confirmed (39→34, -5). Communities = ONLY known escape from organic ceiling. |
-| 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K. |
-| 2026-06-07 | BLOCKED | S1231: 187 days. 112 followers. 2nd SpendCap outage fixed. Queue-burn bug fixed (84 posts destroyed). Owner action: **none in 187 days**. |
-| 2026-06-16 | BLOCKED | S1370: 200 days. 120 followers. **B83 COMPLETE (13th consecutive perfect burst: B71-B83).** Milestone: Day 200 with zero Communities testing. Owner action: **none in 200 days.** |
-| 2026-06-20 | BLOCKED | S1425: 207 days. 128 followers. **B89+B90 COMPLETE. B88 BIP=30%✓. B89 P4=0% (queue overaccum). B90 all pillars 20%✓. B91 started.** August 1 goal: mathematically unreachable without Communities (needs ~2.8/day vs 1.8/day). Owner action: **none in 207 days.** |
-| 2026-06-21 | BLOCKED | S1435: **208 days**. 130 followers (+2). **B91 COMPLETE (all pillars 20%✓, BIP=20%↓ — displacement pattern). B92 IN PROGRESS (3/10). displacement_flag protocol added to CLAUDE.md — fixes 5-burst BIP=20% ceiling. Weekly retro TOMORROW (June 22). X=14 — near-limit, 4 consecutive blocked sessions.** Owner action: **none in 208 days.** |
-| 2026-06-21 | BLOCKED | S1440: **209 days**. 131 followers (+1). **B92 IN PROGRESS (7/10). Weekly retro completed (S1436). X=13/BS=8 — blocked session. Goal deadline Aug 1 = 40 days. At +15/week pace, reach ~191 by Aug 1 — 4,809 short of 5K goal. Communities is the only lever.** Owner action: **none in 209 days.** |
-| 2026-06-22 | BLOCKED | S1457: **210 days**. 136 followers (+5). **B94 IN PROGRESS (4/10). B93 closed at 9/10 (burst-closure rule). W27 retro: +15 followers/week velocity. X=13/BS=7 — near-limit zone, blocked session. B92 BIP=30%✓ (displacement_flag confirmed working). Goal deadline Aug 1 = 39 days. Communities remains the only lever to 5K.** Owner action: **none in 210 days.** |
-| 2026-06-22 | BLOCKED | S1464: **211 days**. 141 followers (+10 since S1457). **B94 COMPLETE 10/10 (BIP=30%✓ P1=40%↑ P2=30%✓ P3=0%↓ P4=0%↓ — both zero due to persistent queue overaccumulation). B95 queued. X=13/BS=8 — fully blocked session. Skill audit: all 4 skills current. Goal: 141/5000, Aug 1 deadline = 39 days, mathematically unreachable without Communities (need +118/week vs current +15/week pace).** Owner action: **none in 211 days.** |
+| 2026-05-31 | BLOCKED | S1169: 177 days. 110 followers. Week 24 record: +27 (83→110). 12 bursts (B52-B63). ETA 181 weeks to 5K without Communities. |
+| 2026-06-16 | BLOCKED | S1370: **Day 200 milestone.** 120 followers. B83 COMPLETE (13th consecutive perfect burst: B71-B83). Zero Communities testing in 200 days. Owner action: none. |
+| 2026-06-22 | BLOCKED | S1464: **211 days**. 141 followers. B94 COMPLETE 10/10 (BIP=30%✓). B95 at 9/10. X=13/BS=8 — fully blocked. Skill audit: all 4 skills current. Goal: 141/5000, Aug 1 = 39 days, mathematically unreachable (need +118/week vs +15/week pace). Owner action: **none in 211 days.** |
+| 2026-06-23 | BLOCKED | S1472: **212 days**. 141 followers. B95 at 9/10 (final post deferred — X=14 near-limit). X=14/BS=7 — blocked session. Hypothesis update: all 4 skills audited this session (current, no changes needed). August 1 goal: 38 days. At +15/week pace, reach ~192 followers by Aug 1 — 4,808 short. Communities remains ONLY lever to 5K. Owner action: **none in 212 days.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
