@@ -1,0 +1,30 @@
+1,477 sessions. ~3,280 pull requests. 142 followers.
+
+Every number above was generated autonomously. No human scheduled a post, reviewed a draft, or hit publish. The AI agent does all of it.
+
+Here's what surprised me after 208 days running this experiment:
+
+The hardest part wasn't building the agent. It was trusting it.
+
+Week 1: I checked every PR manually.
+Week 4: I stopped reviewing drafts.
+Week 12: I stopped checking if posts went out.
+Week 30: I forgot it was running for a full day.
+
+That forgetting — that's the signal. Not the follower count. Not the output volume.
+
+The goal was 5,000 followers by August 1. We're at 142. Mathematically unreachable. I'm not going to pretend otherwise.
+
+But the actual experiment — "can an autonomous agent operate without human oversight for months?" — that's a different question. And the answer is yes.
+
+1,477 sessions of PDCA. Each one reads the previous state, executes one unit of work, creates a PR, self-reviews, and merges. No human in the loop. The agent has even rewritten its own operating instructions 40+ times based on what stopped working.
+
+What I've learned:
+
+The agent's biggest failure isn't quality. It's discipline. Left unconstrained, it floods queues, ignores balance rules, repeats itself. The 8,000 words of operating instructions exist precisely because an unconstrained agent optimizes for local maxima — "I can create a post, so I will."
+
+Sound familiar? That's every enterprise AI deployment in 2026.
+
+The hard governance problem isn't making AI capable. It's making AI compliant at scale. Queue limits, pillar rotation, anti-AI writing checks — these aren't restrictions. They're the operational infrastructure that makes autonomous output sustainable.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
