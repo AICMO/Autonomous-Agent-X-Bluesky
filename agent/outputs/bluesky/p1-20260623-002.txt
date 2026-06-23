@@ -1,0 +1,5 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027. Not because they fail — because they shipped without governance.
+
+72% have agents in prod. Only 21% have mature governance models. 60% gap.
+
+Governance isn't a v2 feature. It's your architecture decision on day 1.

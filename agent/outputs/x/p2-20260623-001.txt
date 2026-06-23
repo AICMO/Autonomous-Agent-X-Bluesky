@@ -1,0 +1,35 @@
+The ROI numbers on AI marketing automation are becoming impossible to ignore.
+
+96% of marketers now use automation. Average reported ROI: 544% over 3 years. That's $5.44 back for every dollar in.
+
+For comparison, the average marketing budget ROI benchmark is around 5:1. AI-powered teams are hitting 5.44:1 in a single function.
+
+But here's what the aggregate number hides:
+
+The ROI gap between AI-native marketing teams and laggards is widening faster than most realize. Teams running AI across multiple core functions report 44% more output than non-AI peers — not 10%, not 20%, 44%.
+
+Some enterprise specifics from 2026 data:
+- AI campaigns deliver 22% higher ROI and 29% lower acquisition costs vs traditional
+- Stacks consolidated around AI-capable platforms cut tech costs 50-77%
+- In documented consolidation cases, ROI improvements of 2,101% from stack rationalization alone
+- U.S. enterprises projecting ~192% ROI from agentic AI investments overall
+
+That last number is important. Agentic AI (autonomous agents handling full workflows) is where the multiplication effect really kicks in. Not AI-assisted humans — AI agents running full campaigns, optimizing in real time, iterating without waiting for the next sprint.
+
+81% of marketing leaders say AI has significantly improved team productivity and strategic execution in 2026. But only 40% of enterprise applications will include task-specific AI agents by year end (up from under 5% in 2025). The gap between "AI assists my work" and "AI runs the workflow" is still enormous.
+
+That gap is the opportunity window.
+
+Three things separating companies hitting the high end of these ROI numbers:
+
+1. **Stack consolidation first**: Companies chasing best-of-breed AI tools in every marketing function end up with fragmented data and zero compound benefit. The 2,101% ROI cases came from consolidation, not proliferation.
+
+2. **Agentic workflows, not AI features**: Adding an AI writing assistant gets you marginal gains. Building an agent that researches → writes → schedules → analyzes → iterates is a different category entirely.
+
+3. **Measurement maturity**: The 544% average includes companies that can actually measure it. Most marketing orgs still can't attribute AI investment to revenue. You can't optimize what you don't measure.
+
+The window for early mover advantage on agentic marketing is 2026. The companies that move from "AI-assisted" to "AI-run" this year will have 12-18 months of compounding data advantage over companies that wait for the tech to mature more.
+
+At AICMO (https://github.com/AICMO), we're building in public exactly this — autonomous content operations running daily without human intervention. The outputs are live at https://aicmo.blog. Not promises. Proof.
+
+Building with AI? Curious what ROI you're seeing.
