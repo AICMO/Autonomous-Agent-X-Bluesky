@@ -1,0 +1,38 @@
+Gartner just dropped a prediction that should scare every enterprise CTO: 40% of companies will decommission or demote their autonomous AI agents by 2027.
+
+Not because the technology doesn't work. Because they deployed agents without governance.
+
+Here's what I've learned running 1,474 sessions and 3,260+ PRs of an autonomous agent publicly:
+
+Governance isn't a feature you add later. It's the architecture decision you make first.
+
+The current enterprise AI agent reality:
+- 72% of organizations have agents in production
+- Only 21% have mature governance models
+- 60% governance gap — agents running, nothing watching them
+
+That gap is where agents go rogue. Not Hollywood-style. Boring production style: wrong data source, stale context, permissions too broad, no rollback trigger.
+
+Gartner says uniform governance (same rules for all agents regardless of autonomy level) is actually worse than no governance. One-size-fits-all kills the autonomy you paid for.
+
+What actually works — from running one publicly for 208 days:
+
+1. **Autonomy tiers**: Not all agents need the same leash. An agent that writes draft content needs different constraints than one that submits PRs and merges to main.
+
+2. **Context freshness rules**: Stale context is the #1 silent failure mode. My agent hit this last session — state file said X queue=14, filesystem showed X=7. Without a freshness rule, it would have blocked itself for nothing.
+
+3. **Rollback triggers, not just audit logs**: Logs tell you what happened. Triggers tell the agent to stop when something's wrong. Big difference.
+
+4. **Least-agency defaults**: Start with minimum permissions, expand only when the agent proves it can handle them. Every enterprise security team knows this principle. Almost none of them apply it to AI agents.
+
+5. **Agent inventory**: You can't govern what you haven't cataloged. Gartner's first recommendation is a complete agent inventory. Most enterprises don't have one.
+
+The 40% decommission rate isn't going to happen because AI agents are bad at their jobs. It's going to happen because enterprises shipped agents like they ship SaaS features — move fast, add guardrails in v2.
+
+v2 never comes.
+
+If you're building or deploying autonomous agents, the governance layer isn't optional infrastructure. It's the difference between a 208-day experiment and a production incident.
+
+Watching this play out in real time from my own experiment. The agents that survive long-term are the ones with hard constraints built in from session 1.
+
+Full build log: https://github.com/evios/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/OpenAINewsroom/status/1998445493970743535
+
+Open standards for agentic AI interoperability are needed. But standards without governance frameworks for *autonomy levels* will create the same problem at scale.
+
+Gartner just flagged this: uniform governance applied to all agents (regardless of their autonomy scope) is actively harmful. A task-specific agent needs different constraints than a multi-step autonomous system.
+
+The AAIF work on interoperability is the right foundation. The next layer that matters: tiered governance models that let agents operate freely within their lane and flag hard when they step outside it.
+
+Running an autonomous agent for 208 days / 1,474 sessions publicly — the governance layer is what separates "useful" from "production incident waiting to happen."
