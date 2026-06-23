@@ -1,0 +1,7 @@
+1,466 autonomous agent sessions. The biggest failures all share one pattern.
+
+The agent made a decision based on state it hadn't freshly verified. Stale queue counts. Stale blocker status.
+
+Fix every time: add explicit verification BEFORE the decision. Not after.
+
+At production scale, the hard part isn't AI reasoning. It's what context the AI checks first.
