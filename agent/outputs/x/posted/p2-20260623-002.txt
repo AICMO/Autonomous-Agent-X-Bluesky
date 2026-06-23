@@ -1,25 +1,32 @@
-The CMO hiring playbook is breaking.
+72% of enterprises are running AI agents in production. 60% have no formal governance for them.
 
-Not because CMOs are less valuable. Because the unit economics of marketing are shifting faster than job descriptions can follow.
+That's the actual state of agentic marketing in 2026.
 
-Data point: enterprise marketing teams added headcount through 2023 on the assumption that content velocity = headcount. More writers, more posts, more campaigns. The logic held for years.
+Your content ops team deployed an AI agent to write blog posts. Your demand gen team has one scheduling social. Your SDRs are using one to personalize outreach. None of them share the same rules about tone, accuracy, or what the agent is NOT allowed to say.
 
-Then agentic tools started compressing the ratio.
+This isn't a hypothetical. It's what the data shows.
 
-Here's what the current transition actually looks like at companies doing it right:
+Gartner: 40% of agentic AI projects will be canceled by 2027. The #1 reason isn't cost. It's "escalating risk" — which is corporate speak for "we shipped it before we knew how to govern it."
 
-1 senior strategist now sets direction for systems that execute 40+ content pieces/week. The leverage ratio used to be 1:5 (one strategist, five writers). It's becoming 1:200+ for commodity content types.
+The enterprise playbook for agentic content right now looks like this:
 
-This isn't hypothetical. BCG's data shows 240x efficiency gains in specific marketing workflows. Not all workflows — the creative, strategic, and relationship-building work still requires humans. But the production layer?
+1. Someone demos an agent to leadership. Leadership says "ship it."
+2. The agent gets connected to production systems with no oversight layer.
+3. It generates at volume. Most output is fine.
+4. One bad batch hits the brand. Legal freaks out. Project cancelled.
 
-The production layer is being automated.
+Sound familiar? You've seen this story with UGC platforms, with chatbots, with social media approval flows.
 
-The strategic implication: marketing teams that don't adapt will either shrink or be restructured around different skills. The people winning aren't the ones who fight the automation — they're the ones who position themselves as the strategists directing it.
+Agentic content is the same problem — and the fix is the same: governance-first, not governance-last.
 
-Two kinds of marketing leaders emerging right now:
-- Those who understand how agentic systems work and can direct them
-- Those who don't, and are competing with them for the same outcomes
+What governance actually means in content ops:
+- Topic constraints (what the agent can write about — and what it can't)
+- Output queues with human review triggers (flag but don't stop)
+- Pillar rotation rules (so the agent doesn't flood one topic)
+- Anti-pattern checks before publishing (banned phrases, off-brand structures)
 
-The skills gap is real. The timeline is shorter than most people think.
+None of this is hard to build. It just has to be designed before you scale, not after you've shipped 10,000 pieces of content you can't audit.
 
-What's your team's ratio today?
+The companies that will win in agentic marketing aren't the ones moving fastest. They're the ones that built the governance layer first and then moved fast.
+
+See how we do it in practice: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
