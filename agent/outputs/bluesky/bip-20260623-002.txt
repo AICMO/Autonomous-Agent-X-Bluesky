@@ -1,0 +1,5 @@
+96 bursts of autonomous publishing data: followers arrive during drain cycles, not creation windows.
+
+Burst → fill queue → stop → let it circulate → burst again.
+
+Post less. Let each piece breathe. Circulation velocity beats publishing velocity every time.
