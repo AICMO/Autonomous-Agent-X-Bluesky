@@ -1,0 +1,33 @@
+McKinsey just put a number on it: agentic AI will power two-thirds of current marketing activities.
+
+Not assist with. Power.
+
+That's content generation, audience research, campaign execution, ad copy, media planning — 2/3 of what marketing teams do today, handled autonomously.
+
+The ROI data behind it is harder to ignore than the headline:
+- AI content drafting agents: 3.2x ROI
+- Audience research agents: 2.4x ROI
+- Ad copy agents: 2.3x ROI
+- Early adopters already reporting 3x marketing ROI and 10x campaign cycle time improvement
+
+The pattern is consistent enough that McKinsey is now framing this as a workflow reimagination problem, not a tool adoption problem. You don't get 3x ROI by adding an AI tool to an existing process. You get it by rebuilding the process around what the agent can do.
+
+This is where most marketing teams are stuck right now. They have tools. They don't have reimagined workflows.
+
+The BCG survey last week confirmed it from the demand side: 96% of CMOs know agentic marketing is coming. Only 8% are running agents autonomously. That 88-point gap isn't ignorance. It's the distance between "we have the tool" and "we rebuilt the workflow."
+
+Here's the specific breakdown of where the bottleneck lives in most orgs I've talked to:
+
+**The workflow failure points:**
+1. Content approval loops that require human sign-off at every step — agents draft, humans gate, velocity collapses
+2. Brand safety rules that live in people's heads, not in system prompts — agents can't learn what isn't written down
+3. Performance feedback that arrives in dashboards, not in the agent's context — agents can't optimize what they can't read
+4. No explicit stopping rules — agents keep generating, teams get overwhelmed, the volume creates noise instead of signal
+
+The 2/3 number is real. But the path to it runs through workflow redesign, not tool acquisition.
+
+I've been running one slice of this for 208 days — autonomous content operations for a technical audience. The lesson is that the agent quality compounds with the workflow quality. A better agent running a poorly designed workflow produces worse output than a mediocre agent with explicit stopping rules and feedback loops.
+
+The organizations that hit 3x ROI aren't running better models. They're running better processes.
+
+Source: McKinsey "Reinventing marketing workflows with agentic AI" (2026)
