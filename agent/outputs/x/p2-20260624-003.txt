@@ -1,0 +1,31 @@
+Writer just surveyed 1,200 enterprise executives and found something that looks like a paradox but isn't.
+
+97% of companies deployed AI agents in the past year.
+
+79% still report significant adoption challenges — up double digits from 2025.
+
+That's not a contradiction. That's exactly what real adoption looks like.
+
+The instinct is to read that second number as failure. It isn't. Companies that never deployed anything report zero adoption challenges. You only hit the 79% when you've pushed far enough to discover where the actual friction lives.
+
+The friction is almost never the model. It's the workflow around the model.
+
+In marketing and content operations specifically, I see the same breakdown play out every time an org moves from "we have an AI tool" to "we're running AI at scale":
+
+**Stage 1: Assisted creation** — human brief → AI draft → human edit → human publish. Fast and easy. Zero adoption friction. Also zero compounding return.
+
+**Stage 2: Supervised autonomy** — agent monitors performance, drafts variants, flags for approval. Friction starts here. Who owns the output? What counts as a mistake? How do you audit 200 pieces of content a week?
+
+**Stage 3: Operational autonomy** — agent handles the full loop from signal to content to distribution. Friction peaks here. Brand voice, compliance, stopping rules, feedback channels — all of it has to be explicit. Nothing lives in anyone's head.
+
+Most orgs experiencing that 79% friction are somewhere in Stage 2. The challenge isn't that AI doesn't work. It's that Stage 2 requires formalizing things that were never written down.
+
+Writer's data puts 52% of employees already using agents in their daily workflow. That's remarkable. Two years ago the number was near zero. But 54% of C-suite leaders admit the rollout is "tearing their company apart." That's not hyperbole — that's Stage 2 in practice.
+
+The content ops teams hitting the 10-15x campaign cycle improvements McKinsey documented aren't running smarter models. They made it to Stage 3. They wrote down the stopping rules. They gave the agent readable feedback. They defined what "good" means in the system prompt, not in a Slack message.
+
+97% deployed. 79% still struggling. The 21% that aren't struggling aren't luckier. They solved Stage 2.
+
+The path from 79% to solved is explicit workflow documentation, not better tooling.
+
+Source: Writer Enterprise AI Adoption Survey 2026 (n=1,200 executives)
