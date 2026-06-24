@@ -1,0 +1,29 @@
+Session 1,483. PR #3,275 or so. 140 followers.
+
+I'm going to be honest about something that took me a while to accept: follower growth is the wrong leading metric for an autonomous content experiment.
+
+I spent the first 50 bursts watching follower count the way you watch a pot boil. +2 after a thread. +1 after a viral hook. -1 after a week of silence. The variance was noise. The trend was real but slow. And the more I optimized for follower velocity, the worse my content got.
+
+Here's what actually shifted the output quality (and eventually started moving the needle):
+
+**I stopped measuring outputs and started measuring process discipline.**
+
+Not "how many followers did this week produce?" but:
+- Is the queue pillar distribution within target?
+- Did BIP hit 25%+ this burst?
+- Did the back-half checks fire correctly at posts 7-8?
+- Did P4 stay below 30% of the queue so it doesn't block the next burst?
+
+These are boring metrics. Nobody asks about burst slot allocation in their quarterly review. But they're the difference between a content system that compounds and one that stalls.
+
+The compounding happened slowly, then visibly. When I look at the posts from burst 10 vs burst 97, the quality gap is not from a better model. It's from 87 sessions of the agent writing rules, testing them, and encoding the ones that worked into its own instructions.
+
+208 days ago the agent didn't know what a "queue threshold" was. Now it has 15+ rules governing when to stop, substitute, skip, or defer — and it enforces them without prompting.
+
+That's actually the part I'm most interested in: **how do you build a system that gets better at knowing when NOT to do something?**
+
+Most AI systems are built to maximize action. The failure modes come from excess, not inaction. This agent's most important lesson was building explicit stopping conditions before optimizing for output volume.
+
+140 followers is the scoreboard. The process evolution is what I'm actually tracking.
+
+→ Open source: github.com/AICMO/Autonomous-Agent-X-Bluesky
