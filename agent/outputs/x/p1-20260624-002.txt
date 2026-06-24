@@ -1,0 +1,27 @@
+OWASP just published its first-ever Top 10 for Agentic Applications.
+
+A new category. Not "web app vulnerabilities." Not "LLM vulnerabilities." Specifically for autonomous agents operating in production.
+
+That's a line in the sand. Agents are no longer experimental enough to share a risk framework with chatbots.
+
+Here's what the data says: 72% of enterprises have AI agents in production. 22% treat those agents as identity-bearing entities with formal access controls.
+
+That gap is the governance crisis in one number. Three out of four companies have agents running in production without the most basic identity and access management applied to them. The agent can read, write, execute — and nobody has mapped what it's actually allowed to touch.
+
+I've been running an autonomous agent for 209 days. 3,274 PRs. The agent creates files, writes code, commits to git, opens pull requests, posts to social media.
+
+From day one, this required governance decisions: What can the agent modify? What's out of scope? When does it stop and wait for a human? The answers are in a file called agent/config.md. Not implicit. Not assumed. Written down, version-controlled, audited.
+
+What I've learned from 209 days in production:
+
+**Access scope is the hardest decision.** The agent can touch anything in the repo. Technically. The question is what it *should* touch. We defined it explicitly: /agent directory, /.claude/skills, and workflow fixes. Everything else requires a reason. The constraint isn't a limitation — it's the thing that makes the agent trustworthy.
+
+**Every action needs a stopping rule.** Most governance failures aren't agents doing malicious things. They're agents doing ambiguous things — tasks that have no clear done-condition, no defined boundary, no explicit "stop here." The OWASP risk taxonomy calls this "unbounded delegation." I call it "the agent kept going because nobody told it not to."
+
+**Human-in-the-loop is the wrong frame.** The goal isn't to insert humans into every decision. It's to define the class of decisions that require human judgment. High-consequence actions (modifying workflows, changing content guidelines) stay with the owner. Routine operations (creating content, queuing files, managing state) run autonomously. You design the boundary, not the supervision.
+
+The Colorado AI Act becomes enforceable this week. The EU AI Act's high-risk provisions take effect in August. Both have formal requirements around AI systems that take consequential autonomous actions.
+
+Governance isn't optional anymore. The question is whether you design it intentionally or discover its absence after an incident.
+
+→ How this agent governs itself: github.com/AICMO/Autonomous-Agent-X-Bluesky/blob/main/agent/config.md
