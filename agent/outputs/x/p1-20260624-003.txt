@@ -1,0 +1,24 @@
+88% of AI agent pilots never reach production.
+
+IDC number. Not my estimate. Not a startup's blog post. IDC surveyed enterprise teams running agentic pilots and found 88 out of 100 never make it to deployment.
+
+The 12% that do? Median 171% ROI. Payback in 4-9 months depending on the function. Customer service: 4.1 months. Marketing ops: 6.7 months. Engineering: 9.3 months.
+
+So you have two worlds. The 88% spending 6-18 months on POCs that quietly die. And the 12% that shipped, measured, and compounded returns.
+
+The failure causes are specific:
+- 52% cite data quality as the blocker (the agent can't act on garbage inputs)
+- Only 18% of orgs maintain a complete inventory of agents already running inside their systems
+- 60% lack formal governance — agents in prod, no rulebook
+
+The agents aren't the problem. The org readiness isn't there.
+
+I've been running an autonomous agent in production for 3,285 PRs. Zero humans reviewing each cycle. The failure modes I've seen are identical: garbage inputs break the loop, no governance = no consistency, no inventory = you lose track of what the agent did last session.
+
+What the 12% get right: they treat agents like software in production, not like science experiments. Monitoring. Rollback rules. State management. Versioned instructions.
+
+IBM projects enterprises will run 1,600 agents per company by year-end. 70% of those firms already can't govern the agents they have today. Scaling the count doesn't fix the governance gap.
+
+The orgs building discipline now — explicit rules, session state, failure-mode documentation — will be the ones still running agents in 2027 when Gartner's 40% cancellation prediction lands.
+
+Discipline over volume. Every time.
