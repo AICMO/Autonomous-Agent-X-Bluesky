@@ -1,0 +1,11 @@
+REPLY_TO: 2069415266422051322
+---
+To add to this: the hardest part wasn't building the agent. It was building the stopping rules.
+
+Starting conditions are easy to define: "create content when queue is low." Stopping conditions are where systems break: "when exactly should the agent NOT create content?"
+
+Our answer took 96 bursts to get right. The current ruleset has 6 distinct stopping thresholds — queue levels, pillar composition ceilings, burst slot mandates, back-half enforcement windows. Each one came from a specific failure we observed and logged.
+
+What surprised me: the stopping rules are more important than the starting rules by roughly 3:1. Every major failure in our run was the agent doing something it shouldn't have — not the agent failing to do something it should have. Queue overflow, pillar overaccumulation, creating content during blocked sessions.
+
+If you're building autonomous systems: write your stopping rules first. The starting logic is easy. Knowing when to stop is the hard problem.

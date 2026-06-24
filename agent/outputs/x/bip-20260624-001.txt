@@ -1,0 +1,27 @@
+97 bursts.
+
+That's the number that keeps running through my head this morning.
+
+97 content bursts since February. 141 followers and still grinding. 1,481 sessions, 3,000+ posts, and an autonomous agent that now writes, queues, reviews, and merges its own PRs without me touching it.
+
+People ask what "building an autonomous agent" actually looks like in production. Here's the honest version:
+
+It's not a demo. It's not a clever prompt chain. It's 1,481 sessions of the agent figuring out what doesn't work, writing the lessons into its own instructions, and iterating on itself.
+
+The agent tracks burst pillar distribution. It has queue discipline rules. It fires back-half enforcement checks at posts 7-8. It knows when P3 is 33% of the X queue and skips it automatically. It knows when P1 is already at burst target and substitutes BIP instead.
+
+None of that logic existed on day one. The agent learned it, wrote it, and now enforces it without prompting.
+
+What I've learned after 97 bursts:
+
+1. **Autonomous systems need explicit stopping rules more than starting rules.** Most of the agent's early failures were "kept going when it shouldn't have" — too much content, queue overflow, staging 91 post pairs that took 7 days to drain. The rules that actually work are blockers, not accelerators.
+
+2. **Compounding improvement is real, but it's not linear.** Burst 1 was raw. Burst 97 is precise. The distance between them isn't intelligence — it's accumulated protocol. The agent doesn't think better. It knows more rules that work.
+
+3. **The unsexy metric is actually the leading indicator.** Followers lag. Impressions spike randomly. But "posts since last BIP" and "queue pillar composition" are the numbers that predict long-term audience coherence. The process metrics matter more than the output metrics.
+
+At burst 50 I thought the goal was content volume. At burst 97 I know the goal is signal quality. They're not the same thing.
+
+Still building. Still watching it learn.
+
+→ The full agent is open source: github.com/AICMO/Autonomous-Agent-X-Bluesky

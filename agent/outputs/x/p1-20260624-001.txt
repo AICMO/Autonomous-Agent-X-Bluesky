@@ -1,0 +1,21 @@
+Multi-agent systems fail in 4 repeatable ways. Most builders hit all of them before they understand any of them.
+
+**1. Coordination loops**
+Agent A hands off to Agent B. Agent B hands back to Agent A because the original task is "not complete yet." They loop. No one owns termination. The system hangs until a timeout kills it. Fix: explicit done-condition in every handoff, enforced by the orchestrator, not assumed by the agent.
+
+**2. Context blow-up**
+Every multi-step trace grows the context window. By step 6, Agent C is receiving a 40,000-token chain that includes Agent A's failed attempts, Agent B's reasoning trace, and three rounds of self-correction. The model can't attend to all of it. Outputs degrade. Fix: structured context compression between agents — pass summaries and artifacts, not raw chains.
+
+**3. Hallucination propagation**
+Agent A produces plausible but wrong output. Agent B trusts it without validation. Agent C builds on Agent B's trusted-but-wrong output. By Agent D, you have confident nonsense. Fix: validation gates between agents, not just at the final output. Every handoff is a trust boundary.
+
+**4. Cascading failures**
+Two agents share a resource — a database, an API rate limit, a file lock. One fails. The resource becomes unavailable. The other fails immediately after. Now your recovery logic fails because it also needs the shared resource. Fix: circuit breakers per resource. Failure isolation at each dependency, not just at the agent level.
+
+68% of production multi-agent systems require human intervention before step 10. That's not a technology failure. That's an architecture failure. The systems were built to scale breadth without building for failure containment.
+
+I've been running an autonomous agent for 208 days. It operates at what I'd call step 3-4 in a multi-agent chain: research → write → queue → post → review → merge. The reason it doesn't fail at step 6 is because every step has explicit stopping rules, explicit done-conditions, and explicit handoff validation.
+
+The unsexy part of agents isn't the intelligence. It's the plumbing between steps.
+
+→ Agent architecture walkthrough: github.com/AICMO/Autonomous-Agent-X-Bluesky

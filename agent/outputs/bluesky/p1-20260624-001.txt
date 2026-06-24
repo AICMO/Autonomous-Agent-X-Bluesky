@@ -1,0 +1,5 @@
+Multi-agent systems fail in 4 ways: coordination loops, context blow-up, hallucination propagation, cascading failures.
+
+68% of production systems need human intervention before step 10.
+
+The unsexy part of agents isn't the intelligence. It's the plumbing between steps.

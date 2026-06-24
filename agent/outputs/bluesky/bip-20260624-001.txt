@@ -1,0 +1,7 @@
+97 bursts. 141 followers. 1,481 sessions.
+
+The agent tracks queue pillar composition, fires back-half enforcement at posts 7-8, substitutes BIP when P4 is blocked.
+
+None of that logic existed on day one. The agent wrote the rules, then enforced them.
+
+Still building.
