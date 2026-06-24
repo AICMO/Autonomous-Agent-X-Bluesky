@@ -1,0 +1,22 @@
+Call center attrition runs 30-45% annually. Every 3 years, you've replaced your entire team.
+
+That's not a people problem. It's a system design problem.
+
+Two numbers from 2026 hybrid AI programs that changed how I think about contact center economics:
+
+Agent attrition in all-human programs: 26%
+Agent attrition in hybrid AI-human programs: 17%
+
+That's a 35% reduction in turnover just from deploying AI alongside agents — not replacing them.
+
+Why? Human agents doing repetitive Tier 1 work burn out. That's the job. Handle the same 12 issue types on rotation, 200 calls per week, script-locked and metric-measured. The agents who stay are often the wrong ones (those who've stopped caring about quality) and the ones who leave are often the right ones (those who wanted meaningful work).
+
+Hybrid programs shift the split. AI handles Tier 1. Agents handle escalations, complex judgment calls, emotionally loaded situations. The work becomes harder to automate and more cognitively engaging. Attrition drops.
+
+The resolution cost math hits too: AI resolutions average $0.62 vs $7.40 for human agents. Voice AI specifically runs $1.18 per resolution.
+
+At scale, that arithmetic is not a debate. You're paying $7.40 for a call that ends in burnout and eventual churn vs $1.18 for a call that ends in resolution and agent retention.
+
+The business case for hybrid isn't just cost. It's compounding human capital ROI.
+
+What's your current attrition rate? Most contact center leaders know the number. Fewer know the AI-adjusted benchmark to compare it against.
