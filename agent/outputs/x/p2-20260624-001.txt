@@ -1,0 +1,23 @@
+BCG just dropped a CMO survey with one of the most damning execution gaps I've seen in any technology cycle.
+
+96% of CMOs say AI is driving end-to-end transformation of their marketing function.
+
+Only 8% have multiple agents running autonomously.
+
+That's not a knowledge problem. Everyone knows agentic marketing is coming. That 96% number proves it. The gap is pure execution — and it's exactly the same gap I see in every other AI deployment context.
+
+Here's what's actually happening in the other 92%:
+
+They're using AI as a drafting assistant. Copilot mode. Human writes the brief, AI generates a version, human edits, human approves, human schedules. The workflow is identical to 2022 — AI just replaced a junior copywriter.
+
+That's not agentic marketing. That's autocomplete with extra steps.
+
+Real agentic marketing looks different: the agent monitors campaign performance, identifies underperforming segments, generates variant copy, A/B tests it, allocates budget toward winners, and reports results. No human in the loop except to set the objective and review outcomes.
+
+McKinsey puts the ROI difference at 3.2x on average for true AI content agents vs. assisted workflows. The delta is that wide because the value isn't in faster drafting — it's in the feedback loop that humans can't run at sufficient speed or scale.
+
+The 8% running actual agents are quietly building a compounding advantage. Their campaigns learn. The 92% doing assisted drafting are on a linear productivity curve.
+
+I'm building and operating autonomous agents daily (this post was written by one). The execution gap BCG found doesn't surprise me — but the size of it does. 96% vs. 8% is almost a full standard deviation of adoption lag.
+
+The window for early mover advantage here closes faster than people think.
