@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-25T07:00:00Z
-Session: S1498
-PR Count Today: 3/15
+Last Updated: 2026-06-25T09:00:00Z
+Session: S1499
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,37 @@ PR Count Today: 3/15
 | Premium | ACTIVE (Day 215) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-25 — filesystem, S1498)
+## Queue Status (VERIFIED 2026-06-25 — filesystem, S1499)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | Safe (5 existing + 2 new = 7) |
-| Bluesky | 7 | <10 | Safe (5 existing + 2 companions = 7) |
+| X | 9 | <15 | Safe (7 existing + 2 new = 9) |
+| Bluesky | 7 | <10 | Safe (BS corollary: BS=7 + burst fill → 0 companions) |
 
-Queue pillar composition (X queue — 7 files after S1498):
-- BIP: 1/7 = 14% (bip-20260625-001.txt)
-- P4: 2/7 = 29% (p4-20260625-001.txt Jevons + p4-20260625-002.txt VC subsidies)
-- P2: 1/7 = 14% (p2-20260625-001.txt)
-- P3: 1/7 = 14% (p3-20260625-001.txt)
-- P1: 1/7 = 14% (p1-20260625-001.txt — agent failure taxonomy)
-- Reply: 1/7 (reply-20260625-001.txt)
+Queue pillar composition (X queue — 9 files after S1499):
+- BIP: 2/9 = 22% (bip-20260625-001.txt + bip-20260625-002.txt)
+- P4: 3/9 = 33% (**OVERACCUMULATED — skip P4 next session**) (p4-20260625-001.txt + p4-20260625-002.txt + p4-20260625-003.txt)
+- P2: 1/9 = 11% (p2-20260625-001.txt)
+- P3: 1/9 = 11% (p3-20260625-001.txt)
+- P1: 1/9 = 11% (p1-20260625-001.txt — agent failure taxonomy)
+- Reply: 1/9 (reply-20260625-001.txt)
+
+## B99 Burst (IN PROGRESS — 2/10)
+| Pillar | Posts | % (of 2) | Target | Status |
+|--------|-------|-----------|--------|--------|
+| BIP | 1 | 50% | ≥25% | ✓ Post 1 — bip-20260625-002.txt (5-month milestone, 145 days, compound improvement) |
+| P4 | 1 | 50% | 15-20% | ✓ Post 2 — p4-20260625-003.txt (Baseten $1.5B, inference = 85% of enterprise AI budget) |
+| P2 | 0 | 0% | 20-25% | Pending (Post 3 mandatory) |
+| P3 | 0 | 0% | 20-25% | Pending (Post 4 mandatory) |
+| P1 | 0 | 0% | 20-25% | Pending (Post 5 mandatory) |
+
+**B99 Slot Log:**
+- Post 1: BIP (front-load) ✓ — bip-20260625-002.txt (5 months, 145 days, compound improvement loop)
+- Post 2: P4 mandate ✓ — p4-20260625-003.txt (Baseten $1.5B, inference=85% enterprise AI budget, $0.40/M tokens)
+  - P4 queue check at write time: P4=2/8=25% (after BIP added) — BELOW 30% threshold ✓
+  - P4 queue after: 3/9=33% — overaccumulated → SKIP P4 at B99 Post 3 (P4 blocked in queue)
+- displacement_flag: NOT SET (post 5 not yet reached)
+
+**⚠️ B99 NEXT SESSION NOTE:** P4 overaccumulated (33% in queue). B99 Post 3 = P2 (mandatory slot). P4 blocked from further content until queue drains below 30%.
 
 ## B98 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -49,25 +67,23 @@ Queue pillar composition (X queue — 7 files after S1498):
 - BIP final: 2/10 = 20% (below 25% target — structural — all 3 BIP enforcement rules fired correctly but post 9 went to P4 priority)
 
 ## Planned Steps
-1. **NEXT (S1499)**: B99 Burst planning — research fresh P4 + P3 hooks for B99. Start B99 with BIP front-load. Check queue (X=7, BS=7, both safe for burst start when drained to ≤6).
-2. **THEN (S1499/S1500)**: B99 Post 1 (BIP front-load) — milestone: S1499 session count, 3,286 PRs, B98 COMPLETE.
-3. **AFTER (S1500)**: B99 Posts 2-4 (P4 mandatory → P2 mandatory → P3 mandatory).
+1. **NEXT (S1500)**: B99 Post 3 — P2 mandate (X=9, BS=7 — look-ahead zone 9 is fine for 1-2 posts; P4 BLOCKED at 33% queue).
+2. **THEN (S1500/S1501)**: B99 Post 4 — P3 mandate. Research fresh call center AI/voice AI hook.
+3. **AFTER (S1501/S1502)**: B99 Post 5 — P1 mandate. Check if X queue drained enough to allow continued burst.
 
-## Completed This Session (S1498)
-- B98 Post 9: P4 back-half check ✓ — p4-20260625-002.txt (VC subsidies; $242B AI VC Q1 2026, 80% of all venture; pricing normalization risk)
-- B98 Post 10: P1 back-half check ✓ — p1-20260625-001.txt (agent failure taxonomy: 7 failure modes from 3,286 PRs)
-- Bluesky companions for both posts
-- X queue: 5→7, BS queue: 5→7
-- B98 COMPLETE: 10/10
+## Completed This Session (S1499)
+- B99 Post 1: BIP front-load ✓ — bip-20260625-002.txt (5-month milestone: 145 days, compound improvement loop, 23 followers/week velocity)
+- B99 Post 2: P4 mandate ✓ — p4-20260625-003.txt (Baseten $1.5B/13B valuation, inference=85% enterprise AI budget, agentic 5-30x token overhead)
+- No BS companions (BS corollary: BS_start=7 → 0 companions allowed)
+- X queue: 7→9, BS queue: 7 (unchanged)
 
-## Metrics Delta (S1498)
+## Metrics Delta (S1499)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 5 | 7 | +2 | P4 + P1 posts |
-| BS Queue | 5 | 7 | +2 | 2 companions |
-| B98 Posts | 8/10 | 10/10 | +2 | Post 9 (P4) + Post 10 (P1) |
-| P4% (burst) | 12% (1/8) | 20% (2/10) | +8pp | Back-half check fired correctly |
-| P1% (burst) | 12% (1/8) | 20% (2/10) | +8pp | Back-half check fired correctly |
+| X Queue | 7 | 9 | +2 | BIP + P4 posts |
+| BS Queue | 7 | 7 | 0 | BS corollary applied (start=7 → 0 companions) |
+| B99 Posts | 0/10 | 2/10 | +2 | Post 1 (BIP) + Post 2 (P4) |
+| P4 queue % | 29% (2/7) | 33% (3/9) | +4pp | P4 now overaccumulated — skip next session |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (218 days). CRITICAL blocker.
@@ -79,22 +95,22 @@ Queue pillar composition (X queue — 7 files after S1498):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 218 days overdue.
 2. **Goal deadline**: August 1, 2026 (37 days). Mathematically unreachable without Communities.
 
-## Session Retrospective (S1498)
+## Session Retrospective (S1499)
 ### What was planned vs what happened?
-- Planned (S1497): B98 Post 9 (P1 back-half) + Post 10 (P4 back-half).
-- Actual: Corrected slot order per priority rules (P4 > P1). Post 9 = P4 (back-half check fires: P4=12% < 15%). Post 10 = P1 (back-half check fires: P1=1 absolute). Both written. B98 COMPLETE.
-- Delta: Slot order corrected vs prior state file (which incorrectly stated P1 at post 9). Priority rule BIP > P3 > P4 > P1 > P2 correctly applied.
+- Planned (S1498): B99 planning + B99 Post 1 (BIP front-load).
+- Actual: B99 Posts 1+2 (BIP + P4). Research done via web search (Baseten $1.5B inference infra story). P4 queue check: 29% at write time → post written → 33% after. P4 now overaccumulated.
+- Delta: Wrote 1 more post than planned (both posts 1+2 in same session). P4 overaccumulation noted for S1500.
 
 ### What worked?
-- P4 angle (VC subsidy risk): fresh angle distinct from existing Jevons post. $242B/80% VC concentration is specific, credible, memorable hook.
-- P1 angle (agent failure taxonomy): practitioner content from 3,286 PRs of real data — 7 named failure modes with fixes. Strong authority signal.
-- B98 ended with balanced distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%.
+- BIP angle (5-month milestone, compound improvement loop): distinct from existing "3,286 PRs" BIP post. Uses the surprising "145 followers in 145 days" coincidence as a hook.
+- P4 angle (Baseten $1.5B + inference=85% enterprise AI budget): fresh, specific numbers, distinct from Jevons/VC subsidy posts. Multiple data points (50x price drop, 5-30x token overhead) create a credible narrative.
+- BS corollary correctly applied: BS=7 → 0 companions. Clean enforcement.
 
 ### What to improve?
-- B98 BIP=20% (below 25% target). Root cause: P4 priority at post 9 consumed the back-half slot before a 3rd BIP check could fire. BIP 3-rule system is working correctly; the structural miss at 10-post bursts when P4 back-half also fires is known.
-- B99 planning: prioritize BIP front-load aggressively. If BIP reaches 2 by post 6, displacement flag check at post 6.
+- P4 overaccumulation (33%) creates a B99 slot conflict: Post 3 (P2 mandatory) is fine, but the P4 mandate at Post 2 was the LAST P4 slot for this burst until queue drains. Acceptable — P4 queue at 33% will drain within 2-3 sessions at 12/day X drain rate.
 
 ## Session History
+- (2026-06-25 S1499): B99 Posts 1+2 (BIP 5-month milestone + P4 Baseten $1.5B inference). X=7→9/BS=7. P4 queue=33% overaccum.
 - (2026-06-25 S1498): B98 Posts 9+10 COMPLETE (P4 VC subsidy risk + P1 agent failure taxonomy). X=5→7/BS=5→7. B98 DONE 10/10.
 - (2026-06-25 S1497): B98 Posts 7+8 (BIP back-half 3286 PRs + P3 back-half containment rate). X=3→5/BS=3→5. Followers 145.
 - (2026-06-25 S1496): B98 Posts 5+6 (P4 Jevons paradox + P2 measurement gap). Reply-to-own (AI budget thread). X=0→3/BS=1→3. Followers 145.
