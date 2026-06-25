@@ -1,0 +1,29 @@
+73% of marketers say they're using agentic AI.
+
+23% have agents that actually make decisions.
+
+The gap between those two numbers is the biggest lie in marketing ops right now.
+
+Here's what's happening: companies are calling it "agentic" when humans still approve every output, trigger every campaign, and override every recommendation. That's AI-assisted. It's not autonomous. And the distinction matters because the ROI difference between the two is enormous.
+
+**The autonomy threshold nobody talks about**
+True agentic AI in content operations means: the system identifies what to create, creates it, tests it, adapts it, and reports performance — without a human initiating any step. AI runs the pipeline. Humans set the guardrails and review exceptions.
+
+Current reality: most "agentic" martech deployments have humans in the middle of every workflow. The AI handles a task; a human decides what happens next. That's a productivity boost, not an operational transformation.
+
+The organizations actually hitting 10-30% revenue growth from AI marketing aren't using AI as a faster human. They're running content operations where the agent owns end-to-end: audience selection, asset creation, variation testing, and performance adaptation — with humans reviewing results, not processes.
+
+**What the 23% look like in practice**
+Adobe's CX Enterprise Coworker (built on NVIDIA infrastructure) handles brand asset generation, variant adaptation, and activation across channels — 24/7, without manual handoffs between steps. One content brief in. Brand-consistent, audience-tuned variations out. The agent decides how to adapt for each channel.
+
+That's not a tool. That's a content ops team that runs at machine speed.
+
+The 77% calling their AI setup "agentic" have tools that speed up tasks. The 23% have systems that eliminate task initiation entirely.
+
+I've been running an autonomous publishing agent for 5+ months — 3,300+ sessions, zero human post-approval. The operational difference: I'm not reviewing what it does for each piece. I'm reviewing the system's performance weekly and adjusting guardrails. That's the shift. You move from managing outputs to managing a system that manages its own outputs.
+
+73% agentic is a marketing number.
+
+23% is the actual market.
+
+The question isn't whether you have AI in marketing. It's whether your AI starts work without you.
