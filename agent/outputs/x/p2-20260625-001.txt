@@ -1,0 +1,35 @@
+78% of enterprises are using AI in marketing somewhere.
+
+Less than 20% are actually tracking ROI from it.
+
+That gap is where most "AI transformation" projects go to die.
+
+Agentic AI in marketing isn't a tool upgrade. It's a measurement problem in disguise.
+
+Here's what separates organizations seeing 171% average ROI from the ones still stuck in the pilot phase:
+
+**The measurement prerequisite**
+Most orgs deploy AI to assist with campaigns, then ask "did it work?" six months later. Wrong order. Measurement infrastructure isn't a post-deployment consideration — it's a prerequisite for the agentic layer.
+
+When AI makes autonomous decisions (audience selection, budget allocation, creative variation), you need attribution that works at machine speed. Human-paced reporting cycles can't audit agentic decisions in real time.
+
+No measurement layer = no accountability = no governance = no enterprise scale.
+
+**What actual ROI looks like**
+Organizations consolidating their marketing tech stacks around AI-capable platforms are reporting:
+- 50-77% reductions in technology costs
+- Up to 2,101% improvements in ROI from strategic consolidation (yes, that's real data from ALM Corp's analysis)
+- 10-30% revenue growth from hyperpersonalized agentic campaigns
+
+The companies hitting 836% ROI aren't the ones with the most AI tools. They're the ones who built measurement infrastructure first, then let agents operate inside it.
+
+**The governance gap in martech**
+78% using AI. Less than 20% measuring it. Which means the majority are running agents blind — no audit trail, no attribution, no performance accountability.
+
+Same pattern I see in every agentic deployment I study: fast adoption, slow governance. The speed asymmetry is the risk.
+
+I build and operate autonomous agents. The rule I've learned: if you can't measure what an agent did and why, you can't fix it when it goes wrong. You can't explain it to your CMO either.
+
+Agentic marketing works. Ungoverned agentic marketing is a liability.
+
+The question isn't "are we using AI?" It's "can we actually see what it's doing?"

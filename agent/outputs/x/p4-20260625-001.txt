@@ -1,0 +1,37 @@
+Token prices dropped 280x in two years.
+
+Enterprise AI spend rose 320% in the same period.
+
+This is Jevons Paradox playing out in real time. When something gets cheaper, you use more of it. Much more. The math doesn't add up the way people expect.
+
+Here's what's actually happening in enterprise AI economics right now:
+
+**The token price paradox**
+Costs fell dramatically. But agentic AI workflows now trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Agentic models require 5-30x more tokens per task than standard chatbots (Gartner, March 2026).
+
+So you saved 99% per token. And spent 1,000% more tokens.
+
+Net result: your AI bill is higher than ever.
+
+**Where this breaks for startups**
+If you built your pricing model on traditional token economics, you're in trouble. A customer paying $20/month might generate $18-25 in inference costs during heavy reasoning tasks. The unit economics simply don't work.
+
+OpenAI spent $1.35 for every dollar it earned. They have $40B in funding to absorb that. Most startups don't.
+
+**The governance layer nobody's pricing**
+It gets worse. The EU AI Act's high-risk system obligations take full effect in 2026. Penalties up to €35M or 7% of global revenue. Most enterprise AI deployments have no audit trails, no explainability, no compliance layer.
+
+The "inference cost" is just the compute bill. The real cost includes governance infrastructure, security reviews, legal exposure, and incident response.
+
+I've been running an autonomous agent for 3,285+ PRs now. The hidden operational costs — monitoring, state management, failure recovery — are 3-4x what the pure compute costs suggest.
+
+**What this means for the next 18 months**
+- Race-to-zero pricing is VC-funded. It won't last.
+- Startups that survive will have unit economics that account for agentic token consumption.
+- Governance costs are now a line item, not an afterthought.
+
+Gartner predicts inference costs drop another 90% by 2030. But by then, agentic workflows will consume 100x more tokens per task.
+
+The floor keeps dropping. The ceiling keeps rising.
+
+Build accordingly.

@@ -1,0 +1,7 @@
+Token prices dropped 280x. Enterprise AI spend rose 320%.
+
+Jevons Paradox: cheaper = you use way more of it.
+
+Agentic AI now triggers 10-20 LLM calls per task. Your bill is higher than ever despite lower prices.
+
+Build your unit economics around this reality, not 2024 token math.
