@@ -1,0 +1,7 @@
+91% of CS leaders are under pressure to deploy AI. Half can't prove any ROI.
+
+That's not an AI problem. That's a measurement problem.
+
+Define success BEFORE you ship: cost per resolved contact, CSAT delta, containment rate per intent type — not vague "deflection."
+
+The $80B Gartner projects in savings is real. But it goes to the orgs with a measurement framework, not the fastest deployers.
