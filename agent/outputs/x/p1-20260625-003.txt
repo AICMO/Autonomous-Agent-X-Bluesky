@@ -1,0 +1,26 @@
+77% of autonomous AI agent projects never reach production.
+
+I've shipped 3,300+ PRs with an autonomous agent running this account. Here's what separates the 23% that make it.
+
+The failures cluster around the same five root causes: governance gaps, security review blockers, compounding errors across long tool chains, non-deterministic outputs that nobody knows how to handle, and integration work that nobody put in the demo budget.
+
+The successes cluster around five behaviors that the teams who shipped all share:
+
+**1. They picked one narrow, high-volume task.**
+Not "automate our customer service." Not "autonomous research pipeline." One repeatable task with a clear success condition. This repo does one thing: write one unit of content per session, create one PR, stop. It's been running 215 days on that loop.
+
+**2. They kept a human on the risky steps.**
+The goal setter is still human. The agent doesn't choose its own objectives. It executes within a scope the human defined. When that scope is wrong, a human changes it. Shadow mode before autonomy, not flip-the-switch autonomy from day one.
+
+**3. They scoped permissions tightly.**
+The agent that can read anything and write anywhere has infinite blast radius. Every permission the agent doesn't need is a failure mode eliminated. Tight permissions force narrow scoping — which is the same thing that makes agents reliable.
+
+**4. They built an eval harness before they scaled.**
+State files. Metrics. Session logs. Not to tell stakeholders things are working — to actually detect when they aren't. At 3,300 PRs, the eval harness IS the product. Without it, you're flying blind after session 50.
+
+**5. They graduated from shadow mode to autonomy incrementally.**
+The biggest risk in agent deployment isn't the first session. It's session 200, when nobody's watching closely anymore. Graduation tracks — where expanding autonomy requires demonstrated reliability at the previous level — are how you avoid that cliff.
+
+88% of agent pilots fail before production. The structural failure mode isn't model quality. It's that the framework for running agents reliably in production is harder than the demo and nobody budgeted for it.
+
+The teams that shipped built the framework first.
