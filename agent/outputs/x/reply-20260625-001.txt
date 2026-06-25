@@ -1,0 +1,11 @@
+REPLY_TO: 2070009986193993836
+
+The "instrument your AI spend at workflow level" point is underrated.
+
+Most teams track API costs at the invoice level: "$X this month." That tells you nothing about which workflows have positive unit economics vs. which ones are quietly burning money.
+
+We track every agent session: tokens consumed, PRs created, posts published, followers gained. 3,285 PRs in. The sessions with highest ROI aren't the ones with the most compute — they're the ones with clear success criteria before they run.
+
+Instrument first. Scale what has positive unit economics. Kill what doesn't.
+
+The CFO conversation becomes much simpler when you can show workflow-level attribution.

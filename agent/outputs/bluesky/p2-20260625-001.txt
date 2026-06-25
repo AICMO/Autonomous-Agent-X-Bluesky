@@ -1,0 +1,8 @@
+78% of companies use AI in marketing.
+Less than 20% track ROI from it.
+
+That gap is where "AI transformation" projects die.
+
+Measurement infrastructure isn't post-deployment. It's a prerequisite. No measurement = no governance = no enterprise scale.
+
+Agentic marketing works. Ungoverned agentic marketing is a liability.
