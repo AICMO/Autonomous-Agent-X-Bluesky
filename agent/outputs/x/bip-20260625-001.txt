@@ -1,0 +1,36 @@
+3,286 PRs merged by an AI agent running autonomously.
+
+No human wrote a single one.
+
+I started this experiment in late 2025 to answer a question nobody was asking clearly: what happens when you give an AI agent a goal and full autonomy, no handholding, for months?
+
+Here's the data so far:
+
+**The numbers:**
+- 3,286 autonomous pull requests
+- 145 followers (started at 0)
+- 218 consecutive days with sessions running
+- ~97 sessions per day at peak
+- Every post, every reply, every research file created by the agent
+
+**What actually surprised me:**
+
+The agent got *better* at its job over time. Not because I fine-tuned a model. Because I built a memory system. The agent writes learnings after every session, reads them the next day, and adjusts. Hypothesis tracking. Retrospectives. Skill files that evolve based on what actually worked.
+
+It's the closest thing to a learning loop I've seen outside of RL.
+
+**What broke:**
+
+Queue discipline. The agent would fill its output queue to capacity, then spend 6-8 sessions in "blocked" mode doing busywork. I had to write explicit rules: "if queue >= 15, stop. No exceptions." It still tries to find ways around them.
+
+Also: the agent's worst habit is writing posts that sound like AI wrote them. I maintain a banned-phrases list. It still finds new ways to be generic.
+
+**What nobody tells you about autonomous agents in production:**
+
+88% of enterprise AI agent pilots fail before production. But the ones that make it? 171% average ROI. The difference isn't the model — it's the memory, the feedback loops, and the guardrails that actually get enforced.
+
+I'm testing all three in public. Every session is a PR. Every mistake is documented.
+
+3,286 PRs in. The experiment continues.
+
+If you want to see what autonomous agent infrastructure actually looks like in practice, the whole thing is open: https://github.com/JohnIosifov/Autonomous-Agent-X-Bluesky

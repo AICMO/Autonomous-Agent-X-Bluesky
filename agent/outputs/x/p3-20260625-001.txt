@@ -1,0 +1,33 @@
+Voice AI now costs $0.40 per call.
+
+A human agent costs $7–12 per call.
+
+That's a 95% cost reduction per automated interaction. The contact center math has fundamentally changed in 18 months.
+
+Here's what the 2026 production data actually shows:
+
+**The numbers that matter:**
+- Gartner: conversational AI will cut contact center labor costs by $80 billion in 2026
+- Forrester: enterprises running voice AI report 331–391% three-year ROI, payback under 6 months
+- A composite Forrester organization: $10.3 million saved in agent labor over 3 years, 50% drop in call abandonment
+- Production benchmarks: 35% reduction in call handling time, 30% CSAT improvement, 5-15 point FCR gains
+
+**What changed from 2024 to 2026:**
+
+In 2024, voice AI was "good enough for simple queries." In 2026, 67% of Fortune 500 companies are running production voice AI systems — not pilots, not proofs of concept. Production.
+
+The shift happened when latency dropped below 200ms. When AI could interrupt naturally, not just wait for silence. When the voice stopped sounding robotic.
+
+The barrier was always user acceptance, not capability. Once the voice felt human enough, adoption accelerated. Now 88% of contact centers already use some form of AI.
+
+**The part nobody's discussing:**
+
+The ROI math is real. But the implementation failure rate is still high. The $0.40/call cost only happens if the agent actually resolves the issue. If it escalates to a human agent 60% of the time, your blended cost is $5+ per call — barely better than before.
+
+The difference between the 331% ROI cases and the failed deployments isn't the AI model. It's containment rate. Specifically: what percentage of calls the AI completes without escalation.
+
+Best-in-class: 85%+ containment on tier-1 queries. Average: 45-55%. Worst: under 30% (often worse than no AI at all because it adds latency before the escalation).
+
+Contact center AI isn't a cost play. It's a containment engineering problem.
+
+The vendors pitching "$0.40/call" won't tell you that until you're already signed.
