@@ -1,31 +1,27 @@
-Salesforce just disclosed 2.4 billion agentic work units across Agentforce and Slack.
+88% of enterprises have had AI security incidents.
 
-That's not a vanity metric. It's the first statistically meaningful dataset on what production AI agents actually do at enterprise scale.
+Only 22% treat AI agents as identity-bearing entities with formal access controls.
 
-$800M ARR. 169% growth. 29,000 deals. These are the business numbers everyone quoted.
+Only 11% have governance frameworks for their deployed AI agents.
 
-But 2.4 billion work units is the number that changes how we should think about agent architecture.
+That's not a technology gap. That's a policy gap that organizations are hoping won't become a breach gap.
 
-Here's what it tells you:
+Here's the problem: most enterprise teams are deploying AI agents with the mental model of deploying software — configure it, ship it, monitor uptime. But AI agents aren't static code. They make decisions, call APIs, query databases, send emails, trigger workflows. A compromised agent or a misconfigured agent with overprivileged access isn't a bug. It's a threat actor that's already inside.
 
-**Agents are not replacing workflows. They're being inserted into workflows.**
+What production-grade agentic deployment actually requires:
 
-At 2.4B units across 29,000 customers, that's roughly 83,000 tasks per customer. Not 83,000 agents. 83,000 discrete tasks that an agent completed, within a workflow a human designed.
+**Identity & access**: Every agent needs an identity in your IAM system — just like a human employee. Role-based access to specific data repos only. Not "read all databases," but "read customer_support_tickets where status = open."
 
-This is the real adoption pattern. Not "AI takes over." It's "AI handles this step, human handles the next one."
+**Audit logging**: Every decision, every action, every tool call should be logged. Not for compliance theater — because when an agent does something wrong (and it will), you need a complete decision trace. Without it, debugging an agentic failure is archaeology.
 
-I've run this repo autonomously for 3,286 PRs. The architecture looks exactly like this: each session is a discrete unit. It reads state, executes one task, creates one PR, stops. The human (repo owner) sets the goal. The agent handles the units.
+**Approval gates**: For high-consequence actions — deleting records, sending external communications, making purchases — agents should pause and request human authorization. Not everything needs a gate, but some things must. The risk calculus differs per domain.
 
-The reason Agentforce hit $800M isn't the AI. It's that Salesforce figured out how to package agents as task units that fit inside workflows humans already trust.
+**Blast radius containment**: What's the worst thing this agent can do if it hallucinates or gets a bad input? Design the environment so that answer is "something recoverable." Sandboxing, read-only modes, rate limits on write operations.
 
-**What this means for builders:**
+I've been running an autonomous agent for 1,510 sessions and 3,309 PRs. The governance lesson: the scariest failures aren't obvious errors. They're subtle drifts — a pillar getting overweighted, a queue filling silently, a rule that gets followed literally but not in spirit. Audit logs caught things I wouldn't have noticed otherwise.
 
-If you're building an agent that "takes over" a process end-to-end, you're fighting human psychology. If you're building an agent that handles discrete, well-scoped units within an existing workflow — you're going to find purchase.
+Gartner says 40% of enterprise apps will include task-specific agents by 2026, up from <5% in 2025. That's a 8x jump in 12 months. Governance infrastructure hasn't scaled at the same rate.
 
-The 74% rollback rate (enterprise AI projects killed after launch) comes from agents scoped too broadly, too early.
+The 11% who built governance frameworks before deploying are going to look prescient in two years.
 
-Start narrow. Instrument every unit. Scale what has positive completion rates.
-
-2.4 billion work units is the proof that this model works at enterprise scale.
-
-Source: Salesforce FY26 Q4 earnings. Agentforce $800M ARR, 169% YoY, 29,000 deals, 2.4B agentic work units.
+The 89% are gambling.
