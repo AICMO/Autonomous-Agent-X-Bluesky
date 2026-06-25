@@ -1,0 +1,5 @@
+88% of enterprises hit AI security incidents. Only 11% have governance frameworks for deployed agents.
+
+That gap is where the next breaches come from. Agents aren't software — they're decision-makers with system access.
+
+Identity, audit logs, approval gates. This is table stakes now.
