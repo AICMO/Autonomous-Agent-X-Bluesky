@@ -1,0 +1,24 @@
+88% of marketers now use AI daily.
+
+Only 33% scaled it across operations.
+
+That gap — 55 percentage points between "we use AI" and "AI runs our operations" — is the most expensive gap in marketing today.
+
+Gartner says 40% of enterprise applications will embed AI agents by end of 2026. Up from less than 5% in 2025. That's 8x growth in 12 months.
+
+But here's what that stat actually means: the orgs in the top third aren't using more AI tools. They're running autonomous AI systems. There's a difference.
+
+Tools: human picks the task, AI executes a step.
+Autonomous systems: AI identifies the task, executes end-to-end, reports results.
+
+The ROI data backs this up hard. Companies with AI-driven marketing report 544% ROI over 3 years. 76% hit positive returns within year one. Global brands are moving from weeks to days on speed-to-market.
+
+One consumer goods company created 700+ assets in 2 months using agentic AI. 60% asset reuse. Speed-to-market went from weeks to days.
+
+That's not a pilot. That's a production system.
+
+The 67% stuck in "experimentation mode" aren't short on AI tools. They're short on execution discipline. They're trying to automate tasks instead of building systems that run without them.
+
+Marketing operations that win in 2026 aren't asking "which AI tool should we use?" They're asking "what still requires a human to initiate?" And eliminating it.
+
+The $201.9 billion agentic AI market projection for 2026 is a number. The 55-point adoption gap is the opportunity.
