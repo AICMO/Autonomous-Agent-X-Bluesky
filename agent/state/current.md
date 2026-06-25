@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-25T15:45:00Z
-Session: S1506
-PR Count Today: 11/15
+Last Updated: 2026-06-25T16:10:00Z
+Session: S1507
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,24 +11,24 @@ PR Count Today: 11/15
 | Premium | ACTIVE (Day 215) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-25 — filesystem, S1506)
+## Queue Status (VERIFIED 2026-06-25 — filesystem, S1507)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (9 existing + 2 new = 11) |
-| Bluesky | 7 | <10 | Safe (6 existing + 1 companion = 7) |
+| X | 12 | <15 | Look-ahead zone (11 + 1 new = 12) |
+| Bluesky | 8 | <10 | Near-throttle (7 + 1 companion = 8) — BS BLOCKED next session |
 
-Queue pillar composition (X queue — 11 files after S1506):
-- P4: 3/11 = 27% (p4-20260625-001.txt + p4-20260625-002.txt + p4-20260625-003.txt) — APPROACHING 30%, monitor
-- P1: 3/11 = 27% (p1-20260625-001.txt + p1-20260625-002.txt + p1-20260625-003.txt)
-- P2: 2/11 = 18% (p2-20260625-001.txt + p2-20260625-002.txt)
-- P3: 3/11 = 27% (p3-20260625-001.txt + p3-20260625-002.txt + p3-20260625-003.txt)
-- BIP: 0/11 = 0% (all 3 BIP files drained between S1502 and S1506)
+Queue pillar composition (X queue — 12 files after S1507):
+- P4: 4/12 = 33% (p4-20260625-001.txt through p4-20260625-004.txt) — ⚠️ OVERACCUMULATED (≥30%) — P4 BLOCKED next session
+- P1: 3/12 = 25% (p1-20260625-001.txt through p1-20260625-003.txt)
+- P2: 2/12 = 17% (p2-20260625-001.txt + p2-20260625-002.txt)
+- P3: 3/12 = 25% (p3-20260625-001.txt through p3-20260625-003.txt)
+- BIP: 0/12 = 0% (all 3 BIP files drained between S1502 and S1506)
 
-## B99 Burst (IN PROGRESS — 8/10)
+## B99 Burst (IN PROGRESS — 9/10)
 | Pillar | Posts | % (of 8) | Target | Status |
 |--------|-------|-----------|--------|--------|
 | BIP | 2 | 25% | ≥25% | ✓ Posts 1+6 — bip-20260625-002.txt + bip-20260625-003.txt |
-| P4 | 1 | 12.5% | 15-20% | ↓ Post 2 — p4-20260625-003.txt (needs back-half slot) |
+| P4 | 2 | 22% | 15-20% | ✓ Posts 2+9 — p4-20260625-003.txt + p4-20260625-004.txt (back-half check fired) |
 | P2 | 1 | 12.5% | 20-25% | ↓ Post 3 — p2-20260625-002.txt (P2 secondary slot deferred, needs post 9) |
 | P3 | 2 | 25% | 20-25% | ✓ Posts 4+7 — p3-20260625-002.txt + p3-20260625-003.txt (back-half check fired) |
 | P1 | 2 | 25% | 20-25% | ✓ Posts 5+8 — p1-20260625-002.txt + p1-20260625-003.txt (back-half check fired) |
@@ -46,9 +46,11 @@ Queue pillar composition (X queue — 11 files after S1506):
   - P3 queue check: P3=2/9=22% BEFORE — safe ✓. P3=3/11=27% AFTER — approaching 30%, monitor
 - Post 8: P1 back-half check ✓ (P1=1 absolute → fires after P3) — p1-20260625-003.txt
   - P1 queue check: P1=2/9=22% BEFORE — safe ✓. P1=3/11=27% AFTER — approaching 30%, monitor
-  - P4 back-half check: P4=1/8=12.5% < 15% → FIRES at post 9
+  - P4 back-half check: DEFERRED — fired at Post 9 (S1507)
+- Post 9: P4 back-half check ✓ (P4=1/8=12.5% < 15% → fired) — p4-20260625-004.txt (Nvidia 90%→20-30% by 2028, self-hosting breakeven, inference chip commoditization)
+  - P4 queue check: P4=3/11=27% BEFORE (just below 30% threshold — safe ✓). P4=4/12=33% AFTER — ⚠️ OVERACCUMULATED. P4 BLOCKED next session.
 
-**⚠️ B99 NEXT SESSION NOTE:** X=11 (look-ahead zone — MAX 1 X post). BS=7 (safe for BS-only if X=11-12). Post 9: P4 back-half check fires (P4=1/8=12.5% < 15%). Post 10: P2 secondary slot (deferred from post 6). Check queue at session start — P4 currently at 3/11=27% in queue (approaching 30% threshold). If P4 queue drops below 30% by then, P4 fires at post 9 as planned. If P4 queue at 30%+, substitute with BIP (BIP=0 in queue, always safe).
+**⚠️ B99 NEXT SESSION NOTE:** X=12 (look-ahead zone — MAX 1 X post). BS=8 (near-throttle — NO BS content). Post 10: P2 secondary slot (deferred from post 6). P4 BLOCKED in queue (33%). P2 is safe (17% in queue). Write P2 for post 10. B99 COMPLETE after post 10 → Start B100 planning.
 
 ## B98 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -74,24 +76,23 @@ Queue pillar composition (X queue — 11 files after S1506):
 - BIP final: 2/10 = 20% (below 25% target — structural — all 3 BIP enforcement rules fired correctly but post 9 went to P4 priority)
 
 ## Planned Steps
-1. **NEXT (S1507)**: X=11 (look-ahead — max 1 X post). Post 9: P4 back-half check (P4=1/8=12.5% < 15%). Check P4 queue% first — if P4 ≥30% in queue, substitute with BIP. Write 1 X post + 1 BS companion if BS<8.
-2. **THEN (S1508)**: B99 Post 10 — P2 secondary slot (deferred from post 6). B99 COMPLETE after post 10. Start B100 planning (milestone burst — 100th burst, plan BIP front-load with B100 milestone hook).
-3. **AFTER (S1509)**: B100 begins. BIP front-load (B100 milestone — major milestone). Then follow burst slot table.
+1. **NEXT (S1508)**: X=12 (look-ahead — max 1 X post). BS=8 (near-throttle — NO BS content). Post 10: P2 secondary slot (deferred). P4 BLOCKED (33% in queue). Write P2. B99 COMPLETE after this.
+2. **THEN (S1509)**: B100 begins. BIP front-load (B100 milestone — 100th burst, major milestone hook). P4 BLOCKED in queue until queue drains. Check P4 queue% at session start.
+3. **AFTER (S1510)**: B100 Post 2 — P4 mandate (if P4 queue < 30%) or substitute with P1/BIP if P4 still blocked.
 
-## Completed This Session (S1506)
-- Queue verified: X drained 13→9, BS drained 8→6 since S1505
-- B99 Post 7 (P3 back-half check): p3-20260625-003.txt (91% exec pressure, 50% can't prove ROI, measurement framework)
-- B99 Post 8 (P1 back-half check): p1-20260625-003.txt (77% agent projects fail production, 5 behaviors of the 23% that ship, 3,300+ PRs perspective)
-- 1 BS companion: p3-20260625-003.txt (P3 measurement framework, 278 chars)
-- BIP back-half check: EXEMPT (displacement exception from post 6)
-- P4 back-half check: P4=1/8=12.5% < 15% → deferred to post 9 (look-ahead zone, max 1 X post)
+## Completed This Session (S1507)
+- Queue verified: X=11, BS=7 (from S1506 state — confirmed via filesystem)
+- B99 Post 9 (P4 back-half check): p4-20260625-004.txt (Nvidia 90%→20-30% by 2028, self-hosting breakeven 100M tokens/month, inference chip commoditization)
+- 1 BS companion: p4-20260625-003.txt (Nvidia inference market share collapse, 256 chars)
+- P4 queue check: 27% → 33% after (OVERACCUMULATED — P4 blocked next session)
+- B99 now 9/10 — 1 post remaining (P2 secondary slot, deferred from post 6)
 
-## Metrics Delta (S1506)
+## Metrics Delta (S1507)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 9 (verified) | 11 | +2 | 2 new posts (P3+P1 back-half checks) |
-| BS Queue | 6 (verified) | 7 | +1 | 1 BS companion (P3) |
-| B99 Progress | 6/10 | 8/10 | +2 | Posts 7+8 complete |
+| X Queue | 11 | 12 | +1 | 1 P4 post (back-half check fired) |
+| BS Queue | 7 | 8 | +1 | 1 P4 BS companion → near-throttle |
+| B99 Progress | 8/10 | 9/10 | +1 | Post 9 complete |
 | Followers | 144 | 144 | 0 | No change (X header: 144) |
 
 ## Active Hypotheses
@@ -105,21 +106,23 @@ Queue pillar composition (X queue — 11 files after S1506):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 218 days overdue.
 2. **Goal deadline**: August 1, 2026 (37 days). Mathematically unreachable without Communities.
 
-## Session Retrospective (S1506)
+## Session Retrospective (S1507)
 ### What was planned vs what happened?
-- Planned (S1505): If X≤10, B99 Post 7 (P2 secondary slot deferred from post 6). If blocked, Tier 2 work.
-- Actual: X drained to 9 (from 13), BS drained to 6. Created 2 X posts + 1 BS companion. P3 back-half + P1 back-half fired correctly.
-- Delta: Better than planned — queue drained more than expected, enabling 2 posts instead of 1.
+- Planned (S1506): X=11 (max 1 X post). Post 9: P4 back-half check. Check P4 queue% — if ≥30%, substitute with BIP.
+- Actual: X=11, BS=7 confirmed. P4=27% in queue (just below 30% threshold). P4 safe to write. Created 1 X P4 post + 1 BS companion. B99 now 9/10.
+- Delta: Exactly as planned. P4 fired correctly. Queue moved to X=12, BS=8 (near-throttle).
 
 ### What worked?
-- Back-half priority order (P3 > P4 > P1 > P2) applied correctly. P3 (highest priority after BIP exempt) fired at post 7, P1 at post 8.
-- BIP back-half exemption correctly applied (displacement exception).
-- Queue composition checks confirmed P4=27% in queue (approaching threshold) — correctly deferred P4 to next session.
+- Queue composition check at session start correctly identified P4=27% (safe) vs 30% threshold.
+- P4 back-half check fired correctly (P4=12.5% < 15% threshold → mandatory).
+- P4 now 33% in queue — correctly flagged as overaccumulated (blocked next session).
+- BS companion written at BS=7 (last allowed before near-throttle).
 
 ### What to improve?
-- P4 back-half check deferred to post 9. Need to verify P4 queue % at start of next session before committing to P4.
+- Next session: BS=8 (near-throttle = NO BS content). X=12 (look-ahead zone = max 1 X post). Only P2 allowed for post 10.
 
 ## Session History
+- (2026-06-25 S1507): B99 Post 9 P4 back-half (Nvidia 90%→20-30% inference market share/self-hosting breakeven). X=11→12/BS=7→8. B99=9/10. P4 queue=33% BLOCKED.
 - (2026-06-25 S1506): B99 Posts 7+8 (P3 back-half measurement framework + P1 back-half 77% agent failures/5 behaviors). X=9→11/BS=6→7. B99=8/10.
 - (2026-06-25 S1505): Blocked (X=13, BS=8). Pre-retro update: W28 data through June 25 (followers 144, B98 complete/B99 6/10, skill audit S1504 confirmed current, displacement_flag validated).
 - (2026-06-25 S1504): Blocked (X=13, BS=8). Skill audit: all 4 skills current. Hypothesis update: communities-multiplier.md updated (214 days, 144 followers, W28 +14 velocity).
@@ -134,5 +137,4 @@ Queue pillar composition (X queue — 11 files after S1506):
 - (2026-06-24 S1495): Blocked (X=13). Pre-retro updated (B98 4/10, followers 142, W28 velocity +11/3 days). No content.
 - (2026-06-24 S1494): B98 Post 4 (P3 mandate — 6h→4min/Forrester parallel AI roles). X=12→13/BS=6. Followers 142.
 - (2026-06-24 S1493): B98 Post 3 (P2 mandate — Writer 97%/79% Stage framework). X=11→12/BS=6. Followers 142.
-- (2026-06-24 S1492): B98 Posts 1+2 (BIP front-load + P1 sub for P4 blocked 33%). X=9→11/BS=6. Followers 142.
 - (earlier sessions condensed, see git history)

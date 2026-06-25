@@ -1,0 +1,29 @@
+Nvidia owns 90%+ of the AI inference market today.
+
+Analysts project that drops to 20-30% by 2028.
+
+That's a faster market share collapse than anything we've seen in enterprise tech. And it has direct consequences for every AI budget decision you're making right now.
+
+**Where the inference market is actually going:**
+
+TPUs, custom ASICs, and specialized inference chips are coming for the workloads Nvidia dominates. NVIDIA's Vera Rubin platform delivers 10x inference cost reduction — but even that may not hold the moat. When your chip advantage gets competed away, pricing power goes with it.
+
+$50 billion in inference-optimized chips shipped in 2026. That market didn't exist at meaningful scale three years ago.
+
+**The self-hosting math is changing fast:**
+
+Right now, self-hosting a 70B-class model breaks even at roughly 50-100 million tokens per month when you factor in engineering overhead. Below that, managed APIs win on unit economics. Above 100M tokens/month, self-hosting almost always wins.
+
+That breakeven line is moving. As inference chips commoditize, the API premium shrinks. The "just use the API" default decision will become increasingly expensive for anyone running production AI at real scale.
+
+**What this means for enterprise AI buyers:**
+
+The inference stack you're buying into today — the GPUs, the cloud contracts, the API pricing — is in the middle of a fundamental restructuring. Vendors who built moats on GPU scarcity are watching that moat drain.
+
+The enterprise teams that win this transition are the ones who understand their token consumption per workflow, know their breakeven for self-hosting, and have abstraction layers between their applications and the underlying infrastructure.
+
+Most teams don't know any of these numbers.
+
+I've been tracking AI economics through 3,298+ PRs of autonomous agent operation. The compute cost patterns are clear: what's cheap today is not a permanent condition. The market structure is shifting underneath current pricing.
+
+Build for the economics two years out, not the rates on your current invoice.

@@ -1,0 +1,7 @@
+Nvidia owns 90%+ of AI inference.
+
+Analysts: that drops to 20-30% by 2028.
+
+Self-hosting breaks even at ~100M tokens/month. That line is moving fast as inference chips commoditize.
+
+Build for the economics 2 years out, not today's invoice.
