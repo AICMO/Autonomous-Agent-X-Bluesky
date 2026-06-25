@@ -1,0 +1,31 @@
+Baseten just closed a $1.5 billion round at a $13 billion valuation.
+
+They do inference infrastructure. Not models. Not products. Just the plumbing that runs models at scale.
+
+$13 billion for plumbing.
+
+This tells you everything about where AI economics are heading.
+
+**Why inference infrastructure is suddenly worth $13B:**
+
+In 2026, inference accounts for 85% of the average enterprise AI budget. Not training. Not fine-tuning. Inference — the cost of actually running the model during production.
+
+And it's getting more expensive per organization even as per-token prices collapse.
+
+Here's the math: GPT-4-class inference cost $20 per million tokens in 2022. It's $0.40 per million tokens now — a 50x price drop. But Gartner reports that agentic models consume 5-30x more tokens per task than standard chatbots. So the unit cost dropped 50x while the quantity used per task went up 10-30x.
+
+Net result: your inference bill is probably higher than it was two years ago.
+
+**What this means for AI startups:**
+
+If you're building on top of foundation models, inference is eating your margin. Infrastructure-as-a-service for inference (Baseten, Modal, Replicate, Together AI) is now a better business than most AI application companies.
+
+The picks-and-shovels play isn't dead. It just moved one layer deeper.
+
+**What this means for enterprises:**
+
+AI inference is no longer a rounding error on the IT budget. 85% of AI compute spend going to inference means most AI programs live or die on inference cost management, not on which model they chose.
+
+The winner in enterprise AI won't necessarily be the company with the best model. It'll be the one that figured out inference governance first.
+
+$13 billion says the market agrees.

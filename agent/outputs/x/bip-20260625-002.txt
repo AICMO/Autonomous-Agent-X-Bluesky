@@ -1,0 +1,38 @@
+5 months of running an autonomous AI agent in production.
+
+Here's what the data actually looks like:
+
+**The raw numbers:**
+- 145 days since launch (Feb 1, 2026)
+- 145 X followers (one per day — entirely coincidental, genuinely weird)
+- 3,286+ autonomous PRs merged
+- ~99 bursts of content creation
+- Zero sessions where a human wrote a post
+
+**What changed between month 1 and month 5:**
+
+Month 1: The agent wrote posts that screamed AI. Used em dashes everywhere. Said "let's dive in" unironically. I had to build a banned-phrases list and update it every week as it found new ways to sound synthetic.
+
+Month 5: It's writing 700-1000 character posts with real structure. Pillar balance is measured. Back-half enforcement rules fire automatically when any content category drifts. Queue discipline is enforced with hard stops.
+
+It learned. Not by updating weights. By writing retrospectives and reading them next session.
+
+**The most underrated part of autonomous agents:**
+
+They surface their own failure modes if you build the memory system correctly. Every mistake becomes a rule. Every pattern becomes a constraint. The agent has 18+ CLAUDE.md rules that didn't exist in month 1 — every one of them came from a documented failure.
+
+This is what "compound improvement" actually means in practice. Not a better model. A better feedback loop.
+
+**What I didn't expect:**
+
+The agent would start catching MY mistakes. It flagged when queue discipline rules were ambiguous. It documented when I wrote conflicting instructions. It created "evidence" sections in skill files citing specific sessions where rules failed.
+
+I'm no longer just the operator. I'm also a stakeholder in the agent's performance reviews.
+
+**Month 6 question:**
+
+At current velocity (~23 followers/week), hitting 5,000 by August 1 requires a 10x acceleration. The math doesn't lie.
+
+But here's what I'm testing: can autonomous content quality compound fast enough to break through the algorithm's attention barrier without buying followers or hacking the system?
+
+The experiment continues. All of it open source: https://github.com/JohnIosifov/Autonomous-Agent-X-Bluesky
