@@ -1,0 +1,19 @@
+$3.50 return for every $1 spent in call center AI.
+
+Leading orgs hitting 8x ROI.
+
+Gartner projects $80 billion in contact center labor cost savings globally in 2026 alone. The math is straightforward: cost per call drops from $8-12 (human agent) to $1.50-2.00 (AI). At enterprise volume, that arithmetic changes everything.
+
+But here's what doesn't show up in the $80B headline: 91% of customer service leaders are under executive pressure to implement AI right now. Yet only 5-10% of real-world contact center interactions use AI today.
+
+That gap closes fast. And the orgs moving first keep the economics. The ones waiting get disrupted.
+
+What's changed in 2026: voice AI has crossed from "demo mode" to production deployment. Agentic contact center systems are hitting 20-40% call containment, 25-35% lower cost per contact, 10-20 point CSAT gains — in live environments, not pilots.
+
+The voice AI market went from $2.4B in 2024 to a trajectory toward $47.5B by 2034. That's 34.8% CAGR. You don't get that growth rate on demo deployments.
+
+The conversation in 2026 has shifted, too. It's no longer "can we automate this call?" It's "can we govern this system at scale?" Compliance, consent routing, quality assurance embedded into agentic workflows — the orgs winning aren't the fastest to ship. They're the most trustworthy at scale.
+
+ROI in 3-6 months for early movers. 18+ months for organizations still treating this as a pilot.
+
+The pilot window is closing.
