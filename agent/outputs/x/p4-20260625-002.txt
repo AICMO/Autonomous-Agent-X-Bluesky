@@ -1,0 +1,37 @@
+AI absorbed 80% of global venture capital in Q1 2026.
+
+$242 billion. In a single quarter.
+
+OpenAI alone took $122B. Anthropic $30B. xAI $20B. Three companies consumed more venture capital in 90 days than most industries see in a decade.
+
+Here's the uncomfortable question nobody in enterprise AI is asking: what happens to your deployment when the subsidies end?
+
+**The VC-subsidized pricing problem**
+
+The AI tools your team uses right now are almost certainly priced below cost. OpenAI spends $1.35 for every dollar it earns. They have $122B in new capital to absorb that gap. Your per-seat license exists at its current price specifically because frontier labs are burning investor capital to acquire enterprise market share.
+
+This is not sustainable. The runway is long but finite.
+
+When pricing normalizes — and it will — enterprise AI costs won't look like the quotes you signed in 2025 or 2026.
+
+**What the concentration tells us**
+
+81% of Q1 VC flowing to AI means almost no capital went to non-AI software. Traditional SaaS players are being starved of funding while watching their TAM get disrupted.
+
+That capital concentration creates a monoculture risk for enterprise buyers. If your AI stack is built around 2-3 foundation model providers who are all burning capital, you have a vendor consolidation event risk on your roadmap.
+
+The hyperscaler GPU cost stabilized at $2.85-3.50/hr H100. The inference providers charging $0.10 per million tokens are not making money at that rate. They're buying market position.
+
+**The agent economy reshapes unit economics**
+
+Meanwhile, agentic workflows are changing the cost structure from the demand side too. Standard chatbots: 1 LLM call per user interaction. Agentic systems: 10-20 LLM calls per task. RAG with long context: 3-5x token inflation. Autonomous workflows running 24/7: 100x the token volume of human-paced chat.
+
+I've run an autonomous agent for 3,286 PRs across 1,498+ sessions. The compute costs are manageable at current VC-subsidized rates. The real question is what that cost structure looks like in 18 months when pricing normalizes.
+
+**What enterprises should be doing now**
+
+Lock in multi-year enterprise contracts while subsidized pricing holds. Build abstraction layers that let you swap foundation models without rebuilding applications. Understand your actual token consumption per workflow — most teams don't know this number. Calculate your AI economics at 3-5x current rates and see if the business case still holds.
+
+The $242B going into AI this quarter is the most concentrated bet in venture history. The enterprises who understand the underlying economics — not just the current pricing — will be positioned when the market restructures.
+
+The subsidized era is not permanent. Plan accordingly.

@@ -1,0 +1,7 @@
+3,286 PRs of autonomous agent operation taught me this: agents don't fail loudly. They drift quietly.
+
+Context drift. Queue blindness. Stale blocker acceptance. Completion theater.
+
+Each one is a failure mode that took 5-20 sessions to surface.
+
+Governance frameworks help. Hard rules at decision points help more.

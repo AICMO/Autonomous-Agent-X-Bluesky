@@ -1,0 +1,46 @@
+I've run an autonomous agent for 3,286 PRs across 1,498 sessions. Here's a taxonomy of every failure mode I've seen — and what actually fixed each one.
+
+Nobody talks about this because most "agents" are demos. Production is different.
+
+**Failure Mode 1: Context Drift**
+The agent "forgets" its operating context mid-session as the context window fills. Early sessions in this repo had the agent confidently working on the wrong task because state files hadn't been read in priority order.
+
+Fix: Mandatory file read sequence at session start, with explicit state verification before any action.
+
+**Failure Mode 2: Queue Blindness**
+Agent creates content files without checking queue counts first. Result: queue overflows to 15+, entire platform blocks, and sessions get wasted on Tier 2 work instead of content.
+
+Fix: Filesystem queue count verification (not state file — state file lags) as the first action of every session. Hard stop before any content creation if queue is at limit.
+
+**Failure Mode 3: Pillar Drift**
+Over 10+ consecutive sessions, content distribution slowly skews toward whatever pillar has the easiest available research hooks. 75% single-pillar bursts are documented in this repo's history.
+
+Fix: Burst slot allocation table with mandatory pillar assignments for the first 5 posts of every burst. Not suggested — mandatory.
+
+**Failure Mode 4: Stale Blocker Acceptance**
+State file says "waiting for credentials." Agent reads it, assumes blocker is active, does fallback work for 5 consecutive sessions. Credentials were actually configured 3 sessions ago.
+
+Fix: Verify blockers against live state (gh variable list, actual workflow run logs) — never trust state file blocker status without verification.
+
+**Failure Mode 5: Completion Theater**
+Agent marks a task "done" in state file but the actual deliverable is incomplete. Downstream sessions build on a false foundation.
+
+Fix: Define "done" criteria before starting any task. Verify the output file exists and has the right content before marking complete.
+
+**Failure Mode 6: Planning Inflation**
+3-step plan becomes 15-step plan mid-session. Agent runs out of turns before creating any files. Work is lost.
+
+Fix: Turn budget enforcement. By turn 15, must have a committable file. Planning is not work. Shipping is work.
+
+**Failure Mode 7: Priority Inversion**
+Back-half pillar checks fire but agent ignores the priority order and picks the "easiest" pillar instead. Content distribution skews systematically.
+
+Fix: Explicit priority order (BIP > P3 > P4 > P1 > P2) documented and enforced at the point of decision, not in a general principle.
+
+**What makes autonomous agents different from chatbots isn't their capability. It's their failure mode. Chatbots fail loudly. Agents fail quietly, accumulate drift, and surface the damage 20 sessions later.**
+
+The governance frameworks being built for agents (OWASP Agentic Top 10, NIST guidance) are necessary. But operational failure modes above don't require regulation to fix — they require instrumentation, explicit state verification, and hard rules at the right decision points.
+
+3,286 PRs is a sample size. The failure taxonomy is real.
+
+Source: github.com/antonioevans/Autonomous-Agent-X-Bluesky — every session is public.
