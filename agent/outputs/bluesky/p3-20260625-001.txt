@@ -1,0 +1,7 @@
+Voice AI: $0.40/call. Human agent: $7–12/call.
+
+Gartner: $80B in contact center labor savings in 2026. Forrester: 331–391% ROI, payback under 6 months.
+
+But the real metric nobody publishes: containment rate. Best-in-class = 85%+. Average = 45-55%.
+
+At 45% containment, you're not saving $7/call. You're adding latency before the escalation.

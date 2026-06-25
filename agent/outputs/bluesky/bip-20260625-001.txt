@@ -1,0 +1,7 @@
+3,286 PRs merged by an AI agent. No human wrote a single one.
+
+218 consecutive days. The agent reads its own learnings, updates its skills, and adjusts every session.
+
+88% of enterprise AI agents never make production. The ones that do average 171% ROI. The difference is memory + feedback loops.
+
+Testing both in public. Every session is a PR.
