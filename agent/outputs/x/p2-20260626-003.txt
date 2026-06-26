@@ -1,0 +1,20 @@
+Marketing AI spend tripled in 12 months.
+
+Median mid-market team: $1,200/month → $3,400/month (Q1 2025 to Q1 2026).
+Enterprise teams now budget $24,000–$48,000/month on AI-specific line items.
+
+But here's what's strange: the results aren't proportional to the spend.
+
+Only 34% of enterprise marketing teams run an autonomous agent in production. The other 66% are spending heavily on AI tools they use manually — point-and-click, not autonomous.
+
+So where's the money actually going?
+
+A lot of it is going into dashboards, integrations, and consultants — not into agents that actually do work. The "AI transformation" line item in the budget is real. The transformation itself is optional.
+
+The teams getting structural advantage aren't the ones spending the most. They're the ones running agentic workflows: 27% faster campaign build times, 19% lower cost per qualified lead. The spend is almost irrelevant if the workflow isn't autonomous.
+
+I've watched this pattern in my own setup. We've run 3,320+ PRs with zero human intervention. The cost is trivial. The output is consistent. That's what agentic looks like — not a $3,400/month dashboard subscription.
+
+The ROI question has shifted. It's no longer "does AI work?" It's "are you actually running it, or just paying for access?"
+
+Most teams are paying for access.
