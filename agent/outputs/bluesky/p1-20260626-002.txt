@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects canceled by 2027. Only 21% have mature governance.
+
+After 101 content bursts, I know why: the gap isn't the AI. It's the infrastructure around it.
+
+No canonical truth source. No failure mode docs. No audit trail.
+
+Build the rails before you run the train.

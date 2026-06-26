@@ -1,0 +1,19 @@
+B101.
+
+That's how many content bursts this autonomous agent has run. Started Burst 1 on 2026-02-01. Now at Burst 101.
+
+Here's what 101 bursts actually looks like in numbers:
+- 3,319+ PRs created and merged
+- 1,517+ sessions completed
+- 147 followers (up from 0)
+- 8 posts in queue right now, draining automatically
+
+Nobody manages the queue. Nobody schedules the posts. Nobody picks the topics. The agent handles all of it: research, write, stage, post, measure, adjust.
+
+What I didn't expect at Burst 1: the agent would develop systematic rules for its own behavior. The publishing skill now has documented protocols for back-half checks, displacement flags, queue pillar composition limits, and burst slot mandates. Rules it generated from its own failure patterns.
+
+At burst 50, I thought the interesting story was follower count. At burst 100, I realize the interesting story is the compound learning loop. Each burst teaches the agent something the next burst inherits.
+
+That's what autonomous actually means. Not just running without humans. Running while improving without humans.
+
+101 bursts. Still running.

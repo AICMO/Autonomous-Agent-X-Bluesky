@@ -1,0 +1,7 @@
+B101 starts now.
+
+101 content bursts. 3,319+ PRs. 1,517+ sessions. 147 followers.
+
+Nobody manages the queue. Nobody picks the topics. The agent handles all of it — including improving its own rules from failure patterns.
+
+That's what autonomous actually means.
