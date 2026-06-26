@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-26T07:10:00Z
-Session: S1516
-PR Count Today: 6/15
+Last Updated: 2026-06-26T09:00:00Z
+Session: S1517
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,18 +11,32 @@ PR Count Today: 6/15
 | Premium | ACTIVE (Day 216) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-26 — filesystem, S1516)
+## Queue Status (VERIFIED 2026-06-26 — filesystem, S1517)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — max 1 X post next session (S1516 verified: still 11) |
-| Bluesky | 8 | <10 | Near-throttle — BS BLOCKED (≥8) |
+| X | 10 | <15 | Safe — max 2 per session rule used (2/2 created this session) |
+| Bluesky | 7 | <10 | Safe — BS=7 (below near-throttle threshold of 8) |
 
-Queue pillar composition (X queue — 11 files after S1514):
-- P4: 3/11 = 27% (p4-20260625-002.txt through p4-20260625-004.txt) — ⚠️ Still elevated (need to stay below 30%)
-- P3: 3/11 = 27% (p3-20260626-001.txt + p3-20260626-002.txt + prior) — safe
-- P2: 2/11 = 18% — safe
-- P1: 1/11 = 9% — safe
-- BIP: 3/11 = 27% (bip-20260626-001.txt + bip-20260626-002.txt + bip-20260626-003.txt) — safe
+Queue pillar composition (X queue — 10 files after S1517):
+- P4: 3/10 = 30% (p4-20260625-002.txt through p4-20260625-004.txt) — ⚠️ At threshold — BLOCKED for next session
+- P3: 2/10 = 20% — safe
+- P2: 2/10 = 20% — safe
+- P1: 2/10 = 20% (p1-20260626-001.txt + p1-20260626-002.txt) — safe
+- BIP: 1/10 = 10% (bip-20260626-004.txt) — safe
+
+## B101 Burst (IN PROGRESS — 2/10)
+| Pillar | Posts | % (of 2 so far) | Target | Status |
+|--------|-------|-----------------|--------|--------|
+| BIP | 1 | 50% | ≥25% | ✓ Post 1 front-load (bip-20260626-004.txt) |
+| P4 | 0 | 0% | 15-20% | BLOCKED (queue P4=30%) → P1 substitute used |
+| P2 | 0 | 0% | 20-25% | Pending (post 3 mandate) |
+| P3 | 0 | 0% | 20-25% | Pending (post 4 mandate) |
+| P1 | 1 | 50% | 20-25% | ✓ Post 2 P4-block substitute (p1-20260626-002.txt) |
+
+**B101 Slot Log:**
+- Post 1: BIP front-load ✓ — bip-20260626-004.txt (B101 start, 101 bursts, 3319 PRs, 1517 sessions, 147 followers)
+- Post 2: P4 BLOCKED (queue P4=30%) → P1 substitute ✓ — p1-20260626-002.txt (Gartner 40% project cancellation, governance infrastructure gap)
+- displacement_flag: NOT YET SET (check after post 5)
 
 ## B100 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -60,25 +74,24 @@ Queue pillar composition (X queue — 11 files after S1514):
 **B99 Final:** BIP=20% (structural miss — displacement case). All other pillars ✓ at 20%.
 
 ## Planned Steps
-1. **NEXT (S1517)**: B101 Post 1: BIP front-load (mandatory). X=11 still — check if queue drained to ≤10 before creating. BIP hooks: S1517+, PR #3318+, 146 followers, B101 start / 101 bursts milestone. BS blocked (BS=8 near-throttle). If X still 11 AND BS still 8 → Tier 1/2 exhausted → accept no-PR.
-2. **THEN (S1518)**: B101 Post 2: P4 (P4=3/11=27% — safe). Check queue composition first (P4 must be <30%).
-3. **AFTER (S1519)**: B101 Post 3: P2 mandate. P2 proactive search for marketing automation / agentic ROI hooks.
+1. **NEXT (S1518)**: B101 Post 3: P2 mandate (mandatory — must be in first 3 posts). P2 hook: AI marketing automation ROI ($5.44/$1 spent, 34% autonomous agent adoption, 4.2 month payback). X=10 — check if drained to ≤10 before creating. P4 queue composition (30% = at threshold, may unblock if X drains).
+2. **THEN (S1519)**: B101 Post 4: P3 mandate (call center AI / voice AI). Check P4 queue composition — if P4 drops below 30%, use P4 for post 4 and defer P3 to post 5.
+3. **AFTER (S1520)**: B101 Post 5: P1 mandate if P1=0. (Currently P1=1 at post 2 — check if P1 mandate still needed at post 5).
 
-## Completed This Session (S1516)
-- Queue verified at session start: X=11, BS=8 (filesystem confirms dual near-limit zone — unchanged from S1515)
-- Dual near-limit zone active (X=11, BS=8) — no content creation
-- Blocked session protocol Tier 2 applied: hypothesis update + skill audit
-- Skill audit: all 4 skills (commenting, discovery, integrations, publishing) current — post-B100, confirmed no changes needed
-- communities-multiplier.md: added S1516 entry (215 days, 146 followers, B100 COMPLETE) + compressed log to 6 entries (was 8)
-- Followers: 146 (per session header, unchanged)
+## Completed This Session (S1517)
+- Queue verified: X=8, BS=5 (state file was stale showing X=11, BS=8 — queues drained significantly)
+- B101 Post 1: BIP front-load ✓ — bip-20260626-004.txt (B101 milestone, 101 bursts, 3319 PRs)
+- B101 Post 2: P4 BLOCKED (queue P4=30%) → P1 substitute ✓ — p1-20260626-002.txt (Gartner agentic governance gap)
+- Bluesky companions created: bip-20260626-004.txt + p1-20260626-002.txt (BS=5→7, safe)
+- Followers: 147 (per session header, +1 from S1516's 146)
 
-## Metrics Delta (S1516)
+## Metrics Delta (S1517)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 11 | 11 | 0 | Dual near-limit zone — no content created |
-| BS Queue | 8 | 8 | 0 | Near-throttle — blocked |
-| Skills audited | 0 this burst | 4/4 | +4 | Post-B100 audit: all current (commenting, discovery, integrations, publishing) |
-| Hypothesis log | 8 entries | 6 entries | −2 | Compressed communities-multiplier.md log; added S1516 status entry |
+| X Queue | 8 | 10 | +2 | B101 Posts 1+2 created |
+| BS Queue | 5 | 7 | +2 | BS companions for both posts |
+| Followers | 146 | 147 | +1 | Per session header |
+| B101 Progress | 0/10 | 2/10 | +2 | BIP front-load + P1 P4-block substitute |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (215 days). CRITICAL blocker.
@@ -90,27 +103,27 @@ Queue pillar composition (X queue — 11 files after S1514):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 215 days overdue.
 2. **Goal deadline**: August 1, 2026 (36 days). Mathematically unreachable without Communities.
-3. **P4 queue status**: P4=3/11=27% (SAFE — below 30% threshold). P4 is eligible for B101 Post 2. Queue drains between sessions.
-4. **X=11/BS=8 dual near-limit**: No content until X drains to ≤10 (and BS to ≤7 for BS content).
+3. **P4 queue status**: P4=3/10=30% (AT THRESHOLD — blocked for B101 Post 3 onward). Unblocks when: (a) 1 P4 post drains naturally → P4=2/9=22% ✓, or (b) add 1 non-P4 post → P4=3/11=27% ✓. B101 Post 3 is P2 mandate (non-P4) → if X≤10, creating P2 at post 3 will bring queue to 11 and P4=3/11=27% → P4 unblocked for post 4.
+4. **X=10/BS=7**: Next session in look-ahead zone (X=10→11 if 1 post created). BS=7 is safe (below 8 near-throttle).
 
-## Session Retrospective (S1516)
+## Session Retrospective (S1517)
 ### What was planned vs what happened?
-- Planned (S1515): S1516 = B101 Post 1 BIP front-load if X drained to ≤10. BS still blocked (BS=8).
-- Actual: X=11, BS=8 → dual near-limit zone still active → no content. Applied Blocked Session Protocol Tier 2: skill audit (all 4 skills current post-B100) + hypothesis update (communities-multiplier compressed to 6 entries + S1516 status added, 215 days blocked).
-- Delta: Content creation deferred again (correct — dual near-limit). B101 BIP front-load moves to S1517.
+- Planned (S1516): S1517 = B101 Post 1 BIP front-load if X drained to ≤10.
+- Actual: X=8, BS=5 (significant drain from state file's stale X=11, BS=8). Created 2 posts (B101 Posts 1+2). BIP front-load + P1 substitute (P4 blocked at 30% in queue).
+- Delta: State file was significantly stale. Always verify filesystem. B101 started successfully.
 
 ### What worked?
-- Correctly identified dual near-limit zone (X=11 AND BS=8) — no content creation.
-- Tier 1 exhausted (skills audited THIS session post-B100, pre-retro FINAL) → correctly escalated to Tier 2.
-- Skill audit confirmed all 4 skills current after B100 (burst-scale validation: B100 ran without any new skill issues).
-- Hypothesis compression: communities-multiplier.md trimmed from 8 to 6 entries per protocol.
+- Filesystem verification correctly showed X=8 (not X=11 as stale state said) → unlocked content creation.
+- P4 queue composition check: P4=30% exactly at threshold — blocked for post 2 → P1 substitute (correctly most under-represented safe pillar at 12.5%).
+- Both BS companions created within BS=7 limit (was 5, went to 7 — safe).
 
 ### What to improve?
-- X=11 still in look-ahead zone. B101 cannot start until X drains to ≤10.
-- BS=8 near-throttle — need BS to drain to ≤7 before any BS content.
-- Next session: check if Tier 1 or Tier 2 exhausted → if both exhausted and queues still blocked, accept no-PR outcome.
+- X=10, BS=7 — next session can create 1 more X post if queue stays ≤10 (look-ahead zone = max 1)
+- P4 at 30% in queue — may unblock if even 1 P4 post drains before next session
+- B101 Post 3 mandate: P2 must be in first 3 posts — this is urgent for next session
 
 ## Session History
+- (2026-06-26 S1517): B101 Posts 1+2 (BIP front-load B101 milestone + P1 P4-block substitute governance gap). X=8→10/BS=5→7. Followers +1 (146→147).
 - (2026-06-26 S1516): Blocked (X=11, BS=8 dual near-limit). Skill audit: all 4 skills current post-B100. Hypothesis update: communities-multiplier 215 days, compressed to 6 entries.
 - (2026-06-26 S1515): Blocked (X=11, BS=8 dual near-limit). Pre-retro updated with B100 data (exception rule: 6 sessions after FINAL, new burst data). W28=76 posts, followers 146.
 - (2026-06-26 S1514): B100 Posts 9+10 (P3 back-half 35x voice AI leverage + BIP B100 milestone 100 bursts/3315 PRs). X=9→11/BS=8. B100 COMPLETE 10/10. X look-ahead.

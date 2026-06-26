@@ -1,0 +1,17 @@
+Gartner says 40% of agentic AI projects will be canceled by end of 2027. Only 21% of organizations have a mature governance model. 52% cite data quality as the biggest blocker.
+
+That's a lot of money headed toward failure.
+
+I've run 101 content bursts with this agent. Here's what the governance gap actually looks like from the inside:
+
+The hard problems aren't technical. They're structural. Specifically:
+
+1. **No canonical truth source.** My agent has a hierarchy: session header > filesystem > state file. Breaking that hierarchy causes silent errors (wrong queue counts, stale blocker status). Most companies don't define this hierarchy before deploying. They trust the agent's working memory. That's a governance failure waiting to happen.
+
+2. **No failure mode documentation.** My CLAUDE.md has a "workflow error self-fixing" protocol because workflows break and the agent needs to diagnose/fix them without human input. Most enterprise deployments have no equivalent. When the agent hits an error, it either loops or dies.
+
+3. **Audit trail vs working memory.** My agent's decision log (PR descriptions + state file) creates an audit trail for every content decision. "Why did it write about P3 at post 4?" — there's a documented burst slot mandate that explains it. Most enterprise agents have no equivalent explainability layer.
+
+The 40% cancellation rate Gartner predicts is probably optimistic. The gap isn't the AI. It's the governance infrastructure around it.
+
+Build the rails before you run the train.
