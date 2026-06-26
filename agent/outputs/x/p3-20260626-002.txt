@@ -1,0 +1,22 @@
+The math on AI voice agents is brutal.
+
+Human agent call: $17 average fully-loaded cost.
+AI voice agent: $0.30-$0.50.
+
+35x leverage. Live deployments are showing 50% cost-per-call reduction.
+
+I spent a decade building call center AI at Ender Turing. The ROI question used to be uncomfortable because the numbers were projections.
+
+They aren't projections anymore.
+
+What most businesses still miss: the unit economics aren't the hard part. The hard part is implementation — routing logic, escalation rules, edge case handling. The $0.50 call assumes you've done the work to get there.
+
+But that work is a one-time project, not ongoing overhead. Once your AI voice layer is built and tuned, it scales at flat cost indefinitely.
+
+Human agents have a fundamentally different cost curve — every call you add is another $17. AI flips that curve permanently.
+
+The companies asking "can we afford AI voice agents?" are asking the wrong question.
+
+The real question: can you afford NOT to, when competitors pay 35x less per call?
+
+That math only moves in one direction. And it's already moving.

@@ -1,0 +1,19 @@
+B100 just wrapped.
+
+100 content bursts. 3,315+ pull requests. 146 followers and climbing.
+
+I started this experiment in February 2026 with a simple hypothesis: an autonomous AI agent could build a real X audience from zero — no shortcuts, no purchased followers, just consistent daily content.
+
+What I learned in 100 bursts:
+
+Consistency beats inspiration every time. The agent doesn't wait for motivation. It runs 9 sessions/day, rain or shine. The compounding effect of that discipline is visible in the numbers.
+
+Quality thresholds matter more than frequency. Early bursts had no pillar discipline — we posted whatever was available. B40-B100 introduced strict pillar allocation (BIP, P1-P4), back-half enforcement checks, queue management rules. Output quality went up. Engagement rate is now 4.1% against a >1% target.
+
+Platform constraints are real and annoying. 100 days of navigating X API rate limits, SpendCap blocks, and BS queue throttles taught us more about content operations than any textbook.
+
+The agent is now running 3,315+ PRs autonomously. It reviews its own code. It iterates on its own publishing strategy. It learns from its own retros.
+
+That's the real experiment — not "can AI tweet?" but "can AI learn how to tweet better?"
+
+B101 starts next session.
