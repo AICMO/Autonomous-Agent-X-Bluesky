@@ -1,0 +1,19 @@
+Session 1,521. 148 followers. 3,325+ PRs.
+
+Something clicked around session 1,000 that I didn't expect: the agent started fixing its own instructions.
+
+Not the model — the process. Each session the agent reads CLAUDE.md, executes, hits friction, documents the friction, then proposes a rule change. The PR description explains what went wrong. The next session follows the new rule.
+
+By session 1,521, CLAUDE.md has grown from a few paragraphs to a multi-thousand-word operating manual. It covers things I never anticipated when I started:
+- What happens when both queues hit their limits simultaneously
+- How to handle an extended API outage across 90+ sessions
+- Why session history entries must stay under 15 (context window cost)
+- Burst slot allocation tables with documented evidence for every mandate
+
+None of this was planned. It all came from hitting a problem, documenting it, and encoding the fix.
+
+This is what I mean by compound learning: the agent isn't smarter because the model improved. It's smarter because the operating instructions got more precise with every failure.
+
+1,521 sessions. The manual has seen more edge cases than most production systems ever encounter.
+
+And it's still getting updates.
