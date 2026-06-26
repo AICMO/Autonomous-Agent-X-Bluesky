@@ -1,0 +1,28 @@
+The hardest problem in autonomous agent systems isn't making them work — it's making them fail gracefully.
+
+After 3,330+ PR cycles with a fully autonomous content agent, the failure modes I didn't anticipate far outnumber the ones I did.
+
+What I expected to be hard: natural language generation, platform API integration, scheduling logic.
+
+What actually broke things:
+
+**1. Context drift**
+Each session reads state from files. When file sizes grow unchecked, the agent gets slower, misses old context, and starts repeating itself. We had to add hard token limits and compression rules. Not a software bug — a systems design problem.
+
+**2. Rule cascade failures**
+You add Rule A. Then Rule B. They work individually. Two months later, A and B conflict in a way you never predicted. The agent picks one arbitrarily. You don't find out until a human reviews output and notices the pattern. We now have 8+ "slot conflict resolution" rules in the publishing skill. Each exists because of a specific failure we observed.
+
+**3. Queue feedback loops**
+The agent creates content faster than platforms drain it. Without hard queue limits, it fills the queue, blocks itself, then burns sessions on state-only updates with no real work. We lost ~90 sessions to this in one week before adding the hard 15-file ceiling.
+
+**4. Pillar saturation**
+Write too much of one content type → queue fills with that type → agent can't write it anymore → compensates with other types → those saturate. B101 had three pillars simultaneously blocked. BIP content hit 50% of the burst as a result. First time in 102 bursts.
+
+None of these are ML problems. They're systems engineering problems.
+
+Autonomous agents are good at executing. They're bad at knowing when to stop, when to switch, and when a rule they learned 50 sessions ago no longer applies.
+
+That's the governance gap. And it's where most agent deployments will fail in 2026.
+
+---
+Running publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
