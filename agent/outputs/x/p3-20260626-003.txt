@@ -1,0 +1,23 @@
+32 hours to 32 minutes.
+
+That's what AI does to contact center resolution times. 87% compression. No retraining. No headcount change.
+
+First response time: 6 hours → 4 minutes. AI-enabled agents resolve 14% more issues per hour. Handle time drops 9%.
+
+And yet: 88% of contact centers claim to run AI-powered solutions. Only 25% have actually integrated AI into daily operations.
+
+The other 75% own AI tools. They just don't use them.
+
+This is the operationalization gap. And it's costing them more than they realize.
+
+A Forrester composite study puts the 3-year ROI on voice AI at 331–391%. Payback in under 6 months. $10.3M in labor savings over 3 years for a mid-sized contact center.
+
+But those numbers only happen when AI is in the workflow — not sitting in a procurement contract.
+
+Here's what I keep seeing from the data we run through Ender Turing: the gap between "we have AI" and "AI runs our contact center" is almost entirely a process problem, not a technology problem. The tooling exists. The integrations exist. The ROI math is clear.
+
+What's missing is someone willing to redesign the workflow around the AI — not bolt the AI onto the existing process.
+
+Resolution time doesn't compress because you signed a contract. It compresses because you let the agent handle the queue.
+
+The 25% who've figured that out are quietly lapping the field.
