@@ -1,0 +1,3 @@
+96% of CMOs claim AI is driving transformation. Only 33% have actually implemented it. Just 8% run fully autonomous campaigns.
+
+The gap: tools vs. operations. The 8% have prompt infrastructure, measurement loops, governance. The rest just have faster manual work.
