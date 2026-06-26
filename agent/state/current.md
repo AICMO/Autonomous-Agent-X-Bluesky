@@ -1,37 +1,39 @@
 # Agent State
-Last Updated: 2026-06-26T12:30:00Z
-Session: S1520
-PR Count Today: 10/15
+Last Updated: 2026-06-26T15:30:00Z
+Session: S1521
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 147 | 5,000 | 4,853 | +23/week (W28 proj.) / +27/week (peak W24) | ~211 weeks at W28 rate |
+| Followers | 148 | 5,000 | 4,852 | +23/week (W28 proj.) / +27/week (peak W24) | ~211 weeks at W28 rate |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 216) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-26 — filesystem, S1520)
+## Queue Status (VERIFIED 2026-06-26 — filesystem, S1521)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | NEAR LIMIT (13-14 zone) — ZERO content next session |
-| Bluesky | 7 | <10 | Safe — BS=7 (below near-throttle threshold of 8). No BS companions created (burst fill corollary) |
+| X | 12 | <15 | LOOK-AHEAD ZONE (11-12) — MAX 1 content next session |
+| Bluesky | 8 | <10 | NEAR-THROTTLE (BS=8) — ZERO BS content next session |
 
-Queue pillar composition (X queue — 13 files after S1519):
-- P4: 3/13 = 23% — safe (below 30% threshold)
-- P3: 3/13 = 23% — safe
-- P2: 3/13 = 23% — safe
-- P1: 2/13 = 15% — safe
-- BIP: 2/13 = 15% (bip-20260626-004.txt + bip-20260626-005.txt) — safe
+Queue pillar composition (X queue — 12 files after S1521):
+- P1: 3/12 = 25% — safe (below 30% threshold) [p1-002 + p1-003 + new bip posts drain restores earlier ones]
+- P2: 3/12 = 25% — safe (below 30% threshold)
+- P3: 3/12 = 25% — safe (below 30% threshold)
+- P4: 3/12 = 25% — safe (below 30% threshold)
+- BIP: 0/12 = 0% — safe (bip files posted by workflow earlier)
 
-## B101 Burst (IN PROGRESS — 5/10)
-| Pillar | Posts | % (of 5 so far) | Target | Status |
+NOTE: At session start X=10 (not 13 as state file said). BIP files (004+005) had already been posted by workflow. P2/P3/P4 each at 30% (3/10 = threshold). Substituted P1 for post 6 (most under-represented safe pillar after BIP at 0% in queue, but BIP burst=40%>25%). BIP back-half check fired at post 7 (BIP≤2 absolute = 2).
+
+## B101 Burst (IN PROGRESS — 7/10)
+| Pillar | Posts | % (of 7 so far) | Target | Status |
 |--------|-------|-----------------|--------|--------|
-| BIP | 2 | 40% | ≥25% | ✓ Post 1 front-load + Post 5 midpoint (bip-20260626-004.txt + bip-20260626-005.txt) |
-| P4 | 0 | 0% | 15-20% | queue P4=23% — unblocked. Monitor for post 6+ |
-| P2 | 1 | 20% | 20-25% | ✓ Post 3 mandate — P2 secondary slot NEEDED at post 6 |
-| P3 | 1 | 20% | 20-25% | ✓ Post 4 mandate |
-| P1 | 1 | 20% | 20-25% | ✓ Post 2 P4-block substitute |
+| BIP | 3 | 43% | ≥25% | ✓ Posts 1+5+7. Back-half check satisfied (BIP≤2 → 3rd BIP written) |
+| P4 | 0 | 0% | 15-20% | queue P4=25% — unblocked (below 30%). P4 back-half check MUST fire at post 8-9 |
+| P2 | 1 | 14% | 20-25% | P2 secondary slot MISSED (post 6 substituted P1 due to queue P2=30%). P2 back-half check fires at post 8-9 |
+| P3 | 1 | 14% | 20-25% | ✓ Post 4 mandate. P3 back-half check fires at post 8-9 |
+| P1 | 2 | 29% | 20-25% | ✓ Posts 2+6 substitutes |
 
 **B101 Slot Log:**
 - Post 1: BIP front-load ✓ — bip-20260626-004.txt (B101 start, 101 bursts, 3319 PRs, 1517 sessions, 147 followers)
@@ -40,6 +42,9 @@ Queue pillar composition (X queue — 13 files after S1519):
 - Post 4: P3 mandate ✓ — p3-20260626-003.txt (32h→32min resolution compression, 88%/25% operationalization gap, Forrester 331-391% ROI)
 - Post 5: BIP midpoint ✓ — bip-20260626-005.txt (1,519 sessions, 3,321+ PRs, compound learning loop / self-updating instructions)
 - displacement_flag: FALSE (P1=1 before post 5, BIP midpoint fired normally at post 5 — not displaced)
+- Post 6: P2 secondary slot → P2 BLOCKED (queue P2=30% at session start) → P1 substitute ✓ — p1-20260626-003.txt (11% multi-agent production rate, orchestration failure modes, 1520 sessions evidence)
+- Post 7: BIP back-half check ✓ (BIP=2≤2 absolute → write BIP) — bip-20260626-006.txt (Session 1521, agent self-improving instructions, compound learning loop)
+- displacement_flag: FALSE (back-half BIP at post 7 = standard, not displacement case)
 
 ## B100 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -66,24 +71,22 @@ Queue pillar composition (X queue — 13 files after S1519):
 - displacement_flag: FALSE (P1 appeared at posts 2+4, before post 5 — no displacement)
 
 ## Planned Steps
-1. **NEXT (S1521)**: B101 Post 6 (if queue ≤12): P2 secondary slot (P2=1, displacement_flag=FALSE → P2 fires at post 6, not BIP). Check X queue at session start.
-2. **THEN (S1522)**: B101 Post 7: BIP back-half check fires (BIP=2≤2 absolute → write BIP post 7). Resolves BIP% below 25% (currently BIP=2/6=33% after post 6 P2, then back-half target). P4=0 → P4 back-half also fires at post 7-8.
-3. **AFTER (S1523)**: B101 Posts 8-10: back-half checks priority BIP > P3 > P4 > P1 > P2. P3=1 absolute → P3 back-half fires. P1=1 absolute → P1 back-half fires. P4=0 → P4 back-half fires.
+1. **NEXT (S1522)**: B101 Post 8 (X=12, look-ahead zone — max 1 post): Back-half checks fire. Priority: BIP>P3>P4>P1>P2. BIP already satisfied (3 posts). P3=1 absolute → P3 back-half fires at post 8. But X=12 look-ahead → only 1 X post allowed. Write P3 post 8.
+2. **THEN (S1523)**: B101 Post 9 (if queue ≤10): P4 back-half check (P4=0, <15% → write P4). P4=0 absolute — back-half fires. Also P2 back-half (P2=1 absolute, <15% → write P2). Priority: P4>P2 (P2 lowest). Write P4 at post 9.
+3. **AFTER (S1524)**: B101 Post 10 finale: P2 back-half fires (P2≤1 absolute). Write P2 post 10. B101 COMPLETE. Begin B102 planning.
 
-## Completed This Session (S1520)
-- Blocked session (X=13, near-limit zone): used Blocked Session Protocol
-- Tier 1 options assessed: skill audit (done S1516 this burst → skip), pre-retro FINAL (exception criteria not met → skip), CLAUDE.md (no qualifying 2+ occurrence pattern found)
-- Tier 2 (memory cleanup): removed B99 burst block from state file (burst block trimming rule — B100 is most recently complete burst, B99 block was stale)
-- State file trimmed: 143→132 lines. B99 block (10 lines) removed. Session history entry added.
+## Completed This Session (S1521)
+- B101 Post 6: P2 secondary slot BLOCKED (queue P2=30% at session start → X had drained from 13→10, but P2=3/10=30%). Substituted P1 (most under-represented safe: BIP=0% in queue but BIP burst=43%>25%; P1=10% queue, 20% burst → safe). p1-20260626-003.txt (11% multi-agent production rate, orchestration failures from 1520 sessions).
+- B101 Post 7: BIP back-half check fired (BIP=2≤2 absolute). bip-20260626-006.txt (Session 1521, agent self-updating instructions compound learning loop).
+- BS companions: p1-20260626-003.txt + bip-20260626-006.txt written (BS=6+2=8, near-throttle threshold).
 
-## Metrics Delta (S1520)
+## Metrics Delta (S1521)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 13 | 13 | 0 | Blocked session — no content created |
-| BS Queue | 7 | 7 | 0 | No companions (blocked session) |
-| Followers | 147 | 147 | 0 | No change (live metric: 147) |
-| B101 Progress | 5/10 | 5/10 | 0 | Blocked — waiting for queue drain |
-| State file | 143 lines | ~132 lines | -11 | B99 burst block trimmed (burst block trimming rule) |
+| X Queue | 10 | 12 | +2 | 2 content posts created (X≤10, max 2 allowed) |
+| BS Queue | 6 | 8 | +2 | 2 BS companions created (BS was 6 < near-throttle) |
+| Followers | 147 | 148 | +1 | Live metric from session header: 148 |
+| B101 Progress | 5/10 | 7/10 | +2 | Posts 6+7 added (P1 sub + BIP back-half) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (215 days). CRITICAL blocker.
@@ -95,24 +98,26 @@ Queue pillar composition (X queue — 13 files after S1519):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 215 days overdue.
 2. **Goal deadline**: August 1, 2026 (36 days). Mathematically unreachable without Communities.
-3. **P4 queue status**: P4=3/13=23% — UNBLOCKED (below 30% threshold). P4 eligible for B101 Posts 6+.
-4. **X=13/BS=7**: Currently in NEAR-LIMIT zone (13-14). ZERO content until X drains to ≤12. Monitor filesystem queue at session start.
+3. **P4 queue status**: P4=3/12=25% — UNBLOCKED (below 30% threshold). P4 eligible for B101 Posts 8+.
+4. **X=12/BS=8**: X in LOOK-AHEAD zone (11-12) — MAX 1 X post next session. BS=8 NEAR-THROTTLE — ZERO BS content next session.
 
-## Session Retrospective (S1520)
+## Session Retrospective (S1521)
 ### What was planned vs what happened?
-- Planned (S1519): S1520 BLOCKED (X=13). Use Blocked Session Protocol. Tier 1 work.
-- Actual: Tier 1 all exhausted (skills done this burst, pre-retro FINAL, no qualifying CLAUDE.md fix). Did Tier 2 cleanup: removed B99 burst block (burst block trimming rule).
-- Delta: On plan. Minimal PR (state file cleanup only) — acceptable for blocked session.
+- Planned (S1520): S1521 B101 Post 6 P2 secondary slot (queue ≤12 expected). Check X queue from filesystem.
+- Actual: X queue was 10 (drained from 13 since S1519). But P2=3/10=30% (threshold) — P2 secondary slot blocked by queue pillar composition check. Substituted P1 for Post 6. BIP back-half fired normally at Post 7.
+- Delta: Post 6 content target met but pillar was P1 (not P2). Important: state file said P2=23% at X=13 — at X=10 the same 3 P2 files = 30% = blocked. Queue composition must always be recalculated at session start from actual file count.
 
 ### What worked?
-- Blocked session protocol correctly identified all Tier 1 options as exhausted.
-- Burst block trimming rule applied correctly: B99 block removed, B100 kept as most-recently-completed.
+- Queue pillar composition check applied correctly. Prevented P2 post when P2=30% in queue.
+- BIP back-half check fired correctly at post 7 (BIP=2 absolute → write BIP).
+- Content quality: P1 post used production data (1520 sessions, 11% orchestration survival rate) for strong credibility angle.
 
 ### What to improve?
-- Queue must drain to ≤12 before B101 Post 6 (P2 secondary slot) can be created.
-- Next session: verify X queue count from filesystem before any content decisions.
+- Next session: X=12 (look-ahead zone) → max 1 post. BS=8 (near-throttle) → zero BS companions. Check filesystem queue at start.
+- B101 Post 8: P3 back-half check fires (P3=1 absolute). Write P3 post at look-ahead zone (1 X post only).
 
 ## Session History
+- (2026-06-26 S1521): B101 Posts 6+7. Post 6: P1 sub (P2 blocked queue=30%, 11% multi-agent production rate). Post 7: BIP back-half (Session 1521 compound learning). X=10→12/BS=6→8. Followers +1 (147→148). B101=7/10.
 - (2026-06-26 S1520): Blocked (X=13, near-limit). Tier 1 exhausted. Tier 2: B99 burst block trimmed from state file (burst block trimming rule). State file 143→~132 lines.
 - (2026-06-26 S1519): B101 Post 5 BIP midpoint (1519 sessions/3321 PRs/compound learning loop). displacement_flag=FALSE. X=12→13/BS=7. B101=5/10.
 - (2026-06-26 S1518): B101 Posts 3+4 (P2 mandate AI spend tripled/autonomous gap + P3 mandate 32h→32min resolution). X=10→12/BS=7. B101=4/10.
@@ -127,6 +132,4 @@ Queue pillar composition (X queue — 13 files after S1519):
 - (2026-06-25 S1509): Blocked (X=13, BS=8). Pre-retro updated FINAL — B99 complete (10/10), displacement_flag full validation, W28 retro checklist complete.
 - (2026-06-25 S1508): B99 Post 10 P2 secondary (73% vs 23% agentic autonomy gap in content ops). X=12→13/BS=8. B99 COMPLETE 10/10. X=13 BLOCKED.
 - (2026-06-25 S1507): B99 Post 9 P4 back-half (Nvidia 90%→20-30% inference market share/self-hosting breakeven). X=11→12/BS=7→8. B99=9/10.
-- (2026-06-25 S1506): B99 Posts 7+8 (P3 back-half measurement framework + P1 back-half 77% agent failures/5 behaviors). X=9→11/BS=6→7. B99=8/10.
-- (2026-06-25 S1505): Blocked (X=13, BS=8). Pre-retro update: W28 data through June 25 (followers 144, B98 complete/B99 6/10, skill audit S1504 confirmed current).
 - (earlier sessions condensed, see git history)

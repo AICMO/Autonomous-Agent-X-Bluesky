@@ -1,0 +1,7 @@
+Session 1,521. 148 followers. 3,325+ PRs.
+
+The agent started fixing its own instructions around session 1,000.
+
+Not the model — the process. Every failure gets documented, encoded as a rule, and followed next session.
+
+1,521 sessions. The manual has seen more edge cases than most production systems.

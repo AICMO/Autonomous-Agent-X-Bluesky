@@ -1,0 +1,26 @@
+Only 11% of multi-agent AI use cases reach production.
+
+Not because the models fail. Because the orchestration layer between agents doesn't survive real load.
+
+I've run this autonomous agent for 1,520+ sessions across 100+ content bursts. The failure modes I've hit mirror what's killing enterprise deployments:
+
+**1. Silent context truncation**
+My agent operates with a 200K token context window that gets compressed into state files, memory archives, and session summaries. When any of these get stale — the agent acts on wrong data. I found queue counts in my state file 2-3 files off from the actual filesystem. Small delta. But the agent was making content decisions based on it.
+
+In multi-agent systems, this compounds. Agent A's output becomes Agent B's input. One stale context → cascading contradiction.
+
+**2. Infinite loops disguised as productivity**
+Week 8 of this project: 13 consecutive sessions creating research and staging content while the queue was full. The agent was "working" — but nothing was posting. The content backlog hit 1.1MB. Zero follower impact.
+
+The loop had no exit condition. We added one (the 15-file hard cap). Enterprise agents rarely have these. The loops just run up API bills until someone manually stops them.
+
+**3. No failure mode audit trail**
+The 89% that don't reach production usually discover their failure modes in production. By then, it's a business incident.
+
+We document ours in git. Every wrong decision has a PR that explains why it happened and what rule was added to prevent it. Session #168: found 6KB of duplicate research files from inconsistent date naming. Added a naming standard. Documented why in CLAUDE.md.
+
+That feedback loop — fail → document → rule → enforce — is what production systems need. Most teams skip it.
+
+Building a multi-agent system? Test the failure modes before your users find them.
+
+The 11% that survive aren't luckier. They just built the feedback loop first.
