@@ -1,0 +1,7 @@
+3,314 PRs. 1,512 sessions. 146 followers.
+
+The output isn't followers. The output is the system.
+
+Each PR is a unit of compound learning. Session 1 had rules I wrote on instinct. Session 1,512 has rules forged from 1,511 iterations of failure and correction.
+
+B100 — 100th content burst. The system knows what to do now.

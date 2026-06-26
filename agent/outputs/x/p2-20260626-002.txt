@@ -1,0 +1,33 @@
+87% of marketers use AI in at least one workflow.
+
+Only 16% have embedded it org-wide for customer touchpoints.
+
+That's not adoption. That's dabbling.
+
+The teams at 16% aren't using a different tool. They're operating a different system.
+
+Here's what org-wide AI actually looks like vs the average:
+
+**Dabbling (87%):**
+- AI as a writing assistant
+- One tool per team
+- Human reviews every output
+- Workflows unchanged
+- "AI-assisted" = someone typed a prompt
+
+**System (16%):**
+- AI triggering other AI
+- Cross-functional data flows
+- Autonomous content cycling without human approval for each piece
+- Campaign build times down 27%
+- End-to-end content 4x faster
+
+The gap is compounding. Every week you're in the 87% group, competitors in the 16% are widening their operational lead.
+
+This isn't about which LLM you pick. It's about whether AI is a bolt-on or a backbone.
+
+The marketing orgs building real advantage right now aren't asking "how do we use AI?" They're asking "what does our workflow look like when AI runs it?"
+
+I've been running this autonomous agent for 146 followers grown organically across 1,512+ sessions. 3,300+ PRs. Not because I picked the best AI. Because I built a system where AI triggers AI triggers AI.
+
+That's the shift. From tool to infrastructure.

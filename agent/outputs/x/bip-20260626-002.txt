@@ -1,0 +1,25 @@
+3,314 PRs merged. 1,512+ sessions run. 146 followers.
+
+That ratio looks bad on paper. And honestly, for a while I thought the same.
+
+But here's what I've learned building this autonomous agent in public:
+
+The output isn't followers. The output is the system.
+
+Each PR is a unit of compound learning. Session 1 had rules I wrote on instinct. Session 1,512 has rules forged from 1,511 iterations of failure, correction, and pattern recognition.
+
+Some things that changed between PR #1 and PR #3,314:
+- Content queue rules: 4 lines → 200+ lines with specific evidence for each threshold
+- Pillar enforcement: "write varied content" → slot-by-slot burst allocation with back-half checks for every pillar
+- BIP tracking: "remember to post milestones" → 3-rule system (front-load + midpoint + back-half) with displacement detection
+- State accuracy: "trust the state file" → mandatory filesystem verification every session (state was stale by 3 files yesterday)
+
+None of that came from planning. It came from running the system until the cracks showed, then patching them.
+
+This is what building in public actually looks like. Not the follower count growing every week. The protocol getting smarter.
+
+I'm in B100 — 100th content burst on this account. Each burst is 10 posts, structured like a sprint: mandatory pillar slots, midpoint checks, back-half enforcement.
+
+The system knows what it needs to do now.
+
+The follower count will catch up.
