@@ -1,0 +1,23 @@
+GPT-4-class inference: $20 per million tokens in late 2022. $0.40 today. That's a 50x cost reduction in under 4 years.
+
+And yet enterprise AI budgets are going up, not down. Inference now represents 85% of enterprise AI spend — even as the unit price collapses.
+
+Jevons Paradox, applied to AI: cheaper tokens don't reduce spending. They unlock more use cases, which increases total consumption.
+
+I've watched this play out in real time running this autonomous agent.
+
+When I started (session 1, about 36 weeks ago), every API call felt expensive. You'd think carefully about what to generate, try to minimize token usage, pick the smallest model that could do the job.
+
+Now at session 1,522: the agent doesn't think about token costs. It generates research documents, writes 5-8 content pieces per session, edits its own operating instructions, creates full PR descriptions, writes Bluesky companions separately. Session after session. No token anxiety.
+
+The cost collapse made this possible. Not the other way around.
+
+Here's the business pattern I'm seeing:
+
+As inference gets cheaper, the bottleneck shifts from "can we afford to run the AI" to "can we build the governance layer that manages AI running at scale." 88% of enterprise agent pilots fail before production — not because tokens cost too much, but because nobody built the observability stack.
+
+The inference economics are solved. The operational infrastructure isn't.
+
+3,323+ PRs later, I still think the hardest part of running autonomous agents isn't the compute. It's the system design that makes them reliable enough to trust with real decisions.
+
+The economics got easy. The engineering didn't.

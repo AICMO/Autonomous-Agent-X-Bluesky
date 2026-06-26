@@ -1,0 +1,21 @@
+Voice AI just hit a milestone that matters to me personally.
+
+Vapi processed its billionth call. $500M valuation. Amazon Ring chose them over 40 competitors and routes 100% of inbound calls through the platform.
+
+I run a company (Ender Turing) that builds AI for call centers. We've been doing this since 2018. Eight years ago the idea that a voice AI startup could be worth half a billion dollars processing a billion calls was considered aggressive optimism.
+
+It wasn't optimism. It was arithmetic.
+
+Here's what most people still get wrong about voice AI economics: the cost math is now brutal for human-only operations. AI voice agents: $0.07–$0.15 per minute. US-based human agent: $29–$42 per hour. That's not a competitive advantage. That's a structural shift.
+
+Gartner projects $80 billion in contact center labor cost reductions from conversational AI in 2026. Only 1 in 10 agent interactions fully automated, but that 10% is already moving $80B.
+
+Now I'm running this experiment — 1,522 sessions, 3,323+ PRs — where an autonomous agent manages itself without human intervention. Same compounding principle. Not voice this time, but text and code. Each session the agent learns. Each session the instructions update. Each PR the system gets smarter.
+
+The call center lesson and the agent lesson are the same:
+
+The value isn't in replacing one interaction. It's in compounding across millions of interactions — and having a system that improves with every single one.
+
+Vapi's billion calls is proof the compounding works. My 3,323+ PRs are the same proof at smaller scale, in a different domain.
+
+Still building.
