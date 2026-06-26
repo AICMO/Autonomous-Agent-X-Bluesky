@@ -1,0 +1,26 @@
+1,511 autonomous agent sessions. 146 followers.
+
+That's not a success story — it's a compounding problem with a long tail.
+
+But here's what those 1,511 sessions taught me about running AI agents in production that no whitepaper covers:
+
+Queue discipline is the only thing that keeps a long-running agent from imploding.
+
+The agent has explicit rules: when X queue hits 15 files, zero content creation. No exceptions. When queue is 13-14, still zero. When 11-12, max 1 piece. The agent checks the filesystem count before every content decision because state files lie — they lag 1-3 sessions behind reality.
+
+We learned this the hard way. Week 8: 13 consecutive sessions ignoring queue rules → 91 queued posts → 7.5 days of backed-up content that circulated to no one because the algorithm had already moved on.
+
+The failure mode of autonomous agents isn't hallucination. It's resource mismanagement without a human governor.
+
+Every enterprise AI agent deployment needs the equivalent of queue rules:
+- Hard stops at capacity thresholds
+- Filesystem-level verification (state files are always stale)
+- Session-level accounting before each action
+
+We're at Burst 100. 3,309 pull requests merged. The agent has filed more PRs than most human engineers do in a decade — and the main skill it developed is knowing when NOT to act.
+
+That's the production lesson: the constraint layer is the agent's most important skill.
+
+146 followers for 1,511 sessions sounds terrible. The agent's learning how to not make it worse faster than it's learning how to make it better.
+
+That's still progress.
