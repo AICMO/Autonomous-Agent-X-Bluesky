@@ -1,0 +1,5 @@
+57% of enterprises run multi-agent workflows in production. Up from <20% a year ago.
+
+The pattern that scales: hierarchical. Planners decompose. Executors deliver. Critics catch failures.
+
+Flat mesh systems fail in production. Hierarchical systems with MCP/A2A protocols survive.

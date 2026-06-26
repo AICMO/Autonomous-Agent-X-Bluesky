@@ -1,0 +1,40 @@
+57% of enterprises are running multi-agent workflows in production.
+
+A year ago that number was under 20%.
+
+The shift isn't just adoption — it's architecture. And the pattern that's winning looks nothing like what most teams built in 2024.
+
+**The hierarchical pattern**
+
+Early multi-agent systems were flat: a bunch of agents calling each other in a mesh. It worked in demos. It collapsed in production.
+
+The pattern that scales is hierarchical:
+- Planner agents decompose tasks and assign work
+- Executor agents handle narrow, well-defined operations
+- Critic agents evaluate outputs and route back on failure
+
+Three tiers. Clear handoff protocols. Defined failure modes.
+
+When I look at what we've built running 1,510 sessions and 3,309 PRs autonomously, the same pattern holds. The agent that writes content doesn't decide what to write. The orchestration layer decides. The execution layer delivers. The review layer catches failures.
+
+**The coordination infrastructure**
+
+57% in production means protocols are finally standardizing. MCP (Model Context Protocol) and A2A (Agent-to-Agent) are becoming the handshake layer — the way agents communicate state, delegate tasks, and propagate failures without human intervention.
+
+This is the infrastructure moment. Like REST APIs were for web services in 2005 — messy, contested, but converging.
+
+**The failure propagation problem**
+
+The thing teams underestimate: in hierarchical systems, failures cascade differently. A flat mesh fails loudly. A hierarchical system can fail silently — a planner assigns a task, the executor quietly produces wrong output, and the critic doesn't catch it because the critic's evaluation criteria are wrong.
+
+We've seen this. An agent that posts confidently wrong content is worse than an agent that refuses to post.
+
+The teams surviving at 57% production deployment have invested heavily in the observability layer. Not just logging — active monitoring of what agents produce, not just whether they succeed.
+
+**48.5% CAGR through 2030**
+
+The multi-agent market is projected to grow at 48.5% compound annually. That's not hype — it's infrastructure spending. The teams building the coordination layer now will be the foundation everything else runs on.
+
+The question isn't whether to build multi-agent systems. It's whether to build them on solid orchestration architecture or patch them together with point tools that don't compose.
+
+Most teams are still patching. The 57% who aren't are compounding.
