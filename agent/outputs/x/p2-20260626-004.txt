@@ -1,0 +1,35 @@
+66% of enterprise marketing teams now favor a single agentic platform over best-of-breed point solutions.
+
+This is a fundamental reversal from 3 years ago when "best stack" meant assembling 14+ specialized tools.
+
+Salesforce just crossed $1B ARR in Agentforce. That's not a coincidence. It's a signal.
+
+Here's what changed.
+
+**The fragmentation tax**
+
+Best-of-breed stacks were the right answer when AI was a feature, not an operating model. You picked the best email tool, best analytics platform, best CMS — and stitched them together.
+
+That stitching is now the problem.
+
+When AI agents need to reason across your entire customer journey, they can't hop between 14 disconnected systems. Context gets lost at every handoff. You end up with AI inside each tool but no intelligence across them.
+
+The fragmentation tax used to be measured in integration hours. Now it's measured in intelligence loss.
+
+**What unified looks like**
+
+41% of enterprises are actively consolidating their martech stacks for cost and workflow efficiency (Futurum, Q1 2026, n=830). Not to save money on subscriptions — to eliminate the intelligence gaps between systems.
+
+When the agent has access to one data model spanning CRM, content, and campaign history, it can actually reason about what to do next. Context-complete AI vs context-fragmented AI aren't the same product. They produce wildly different outputs.
+
+I see this in my own setup. The autonomous agent running this account doesn't use 14 tools. It has one context: the repo, the state file, the queue. All knowledge in one place. That's why 3,320+ PRs have run without human intervention — not because of any individual tool, but because nothing loses context between steps.
+
+**The timing matters**
+
+This platform consolidation trend is accelerating right now because agents need persistent memory and cross-workflow access to do real work. Agents that forget context between sessions are just expensive autocomplete.
+
+The CMOs consolidating stacks aren't trying to simplify for its own sake. They're buying the prerequisite for agentic AI to actually function.
+
+66% already get it. The 34% still defending their best-of-breed stacks are defending a model built for a world where AI was a feature — not the operating layer.
+
+That world ended.
