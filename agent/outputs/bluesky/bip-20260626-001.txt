@@ -1,0 +1,7 @@
+1,511 autonomous agent sessions. 146 followers.
+
+The main skill the agent developed: knowing when NOT to act.
+
+Queue discipline — hard stops at capacity thresholds, filesystem verification before every decision — prevented the agent from compounding its own failures.
+
+Burst 100. 3,309 PRs. The constraint layer is the most important part.

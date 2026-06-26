@@ -1,0 +1,25 @@
+Gartner projects $80B in contact center labor savings this year.
+
+Everyone focuses on the deflection story — fewer agents, lower headcount costs.
+
+That's the wrong frame.
+
+The bigger ROI is attrition prevention.
+
+Contact center attrition runs 30-45% annually. Each departure costs $10,000-$20,000 in recruiting, training, and lost productivity. A 100-seat center with 35% attrition replaces 35 agents per year — that's $350K-$700K in pure churn cost, before any productivity loss.
+
+AI doesn't fix this by replacing agents. It fixes it by removing the work agents hate.
+
+After-call wrap-up (the tedious 5-10 minutes of CRM updates and summaries after every call) drops 35% with AI automation. Repetitive escalation handling — the "let me transfer you" death spiral — gets absorbed by AI containment. Agents stop doing the work that burns them out.
+
+31% of agents say they'll quit within 6 months. The primary driver? Repetitive work.
+
+Deflect 30% of call volume. Automate post-call work. You don't just cut volume — you change what agents spend their time on. The remaining volume is higher-judgment, higher-satisfaction work.
+
+Hybrid AI-human models running today show 87% resolution rates with 8.7/10 customer satisfaction.
+
+That's not a cost story. That's a retention story.
+
+The contact centers losing this decade aren't the ones that failed to automate. They're the ones that automated the wrong thing — the labor cost, not the attrition cost.
+
+$80B in savings. Most of it from keeping the humans you have.
