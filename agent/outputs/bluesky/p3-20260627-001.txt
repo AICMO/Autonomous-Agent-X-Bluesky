@@ -1,0 +1,7 @@
+Voice AI: 6% of contact center volume in 2024 → 19% in 2026.
+
+AI agent: $0.10/min. Human agent: $35/hr. ~350:1 cost ratio.
+
+The 81% still human are escalations and edge cases. QA on AI calls = 100% automated coverage vs 1-2% manual.
+
+The trajectory to majority is visible. Teams instrumenting now get 18mo head start.

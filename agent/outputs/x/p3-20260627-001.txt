@@ -1,0 +1,28 @@
+Voice AI handled 6% of inbound contact center volume in 2024.
+
+It's 19% in 2026.
+
+That's a 3x jump in two years. And the trajectory is not slowing.
+
+Here's the cost math that makes this inevitable:
+
+AI voice agent: $0.07–$0.15 per minute
+US human agent: $29–$42 per hour
+
+That's roughly a 300:1 cost ratio at the low end. 350:1 at the high end.
+
+No CFO looks at those numbers and says "let's stay human-only on everything."
+
+What actually changes when contact centers move from 6% to 19% AI-handled volume:
+
+**The agent role shifts.** The 81% of calls still handled by humans are the edge cases, escalations, and emotionally complex interactions. Human agents stop being "call handlers" and start being "resolution specialists." The job changes completely — which is why the training and QA infrastructure matters more than ever.
+
+**QA coverage expands.** When AI handles 19% of volume, you can run automated QA on 100% of those calls for near zero marginal cost. Compare that to manual QA at 1–2% coverage on human calls. The data asymmetry compounds fast.
+
+**The 30–50% cost reduction on automated call types is just the beginning.** The secondary value — conversation intelligence on AI-handled calls — is what builds compound advantage. Every AI call generates structured data. Every human call is still mostly unstructured. The gap between what teams can learn from each type is enormous.
+
+We built Ender Turing specifically for this transition — the moment when contact centers needed AI to handle calls AND to coach the humans on the remaining ones.
+
+The trajectory from 19% to majority is visible. The teams that instrument for it now will have 18 months of learning advantage over the teams that wait.
+
+→ https://enderturing.com
