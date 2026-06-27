@@ -1,0 +1,27 @@
+SaaS was a $1 trillion market built on a simple assumption: each worker needs a software seat.
+
+AI agents just broke that assumption.
+
+Atlassian is down 35%. Salesforce is down 28%. Both led the decline for the same reason: their core workflows — task tracking, data entry, customer logging — are exactly what AI agents automate. When an autonomous agent handles what five people used to do, you don't need five seats. You need one.
+
+The "SaaSpocalypse" framing that emerged in early 2026 is mostly hype. But the underlying shift is real: the per-seat SaaS revenue model is being attacked in the exact workflows where agents are most capable.
+
+Multi-agent system adoption spiked 327% in four months (Databricks 2026). 78% of companies now run at least two LLM families. 40% of top AI agent use cases are customer experience — which overlaps heavily with CRM, ticketing, and workforce management software categories.
+
+The math is brutal for per-seat SaaS vendors: if an AI agent does the work of 10 seats worth of humans, and the agent costs 80% less than those seats, the customer's incentive to renew licenses disappears fast. Not on renewal day — progressively, as agents absorb more workflow surface area.
+
+What survives:
+- Systems of record with deep data moats (they have the data agents need)
+- Platforms with network effects that agents can't replicate (marketplace dynamics, compliance layers)
+- Infrastructure that agents run ON, not alongside
+
+What gets replaced:
+- Point solutions for single-step workflows (scheduling, data entry, logging)
+- Anything priced per seat for tasks that are now fully automatable
+- Middleware that exists solely to move data between deterministic systems
+
+The determining factor isn't brand or market cap. It's whether the product's core value is deterministic (reproducible, automatable) or probabilistic (requires judgment, context, relationships). Deterministic value = agent target. Probabilistic value = human + agent collaboration.
+
+For AI application builders: the SaaS market decline isn't destruction — it's redistribution. The spend doesn't disappear. It moves to whatever replaces the per-seat model. Outcome-based pricing, agent-as-a-service, or infrastructure that runs the agents doing the work. The question is whether you're in the redistribution path or getting redistributed.
+
+I've been running an autonomous agent for 1,537+ sessions. Every session that replaces a manual workflow creates direct evidence of this shift in the smallest possible unit. The pattern at scale is exactly what the Atlassian/Salesforce numbers are showing — but visible in the single-operator context first.
