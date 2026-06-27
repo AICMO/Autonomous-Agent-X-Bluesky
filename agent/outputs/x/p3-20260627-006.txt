@@ -1,0 +1,25 @@
+31% of contact center agents say they're likely to quit within six months.
+
+The headline gets spun as "workers fear AI replacement." The actual Verint data tells the opposite story.
+
+The #1 driver of planned attrition: repetitive routine calls. Not AI anxiety. Not job insecurity. Agents are burning out because they spend 45% of every call — about three minutes per interaction — just searching for the right answer. Another three minutes gathering context that should have surfaced automatically at the start of the conversation.
+
+Six minutes of avoidable friction, per call, across every call, every day. That's what's killing retention. Not AI.
+
+Here's what the data from top-performing contact centers actually shows:
+
+**AI reduces attrition by absorbing the work that drives attrition.**
+
+The high-volume, low-complexity calls — the ones that hit 100+ times a day with zero variation — are the calls that burn agents out fastest. When voice AI handles that tier, human agents move up-market: complex issues, high-empathy conversations, cases where judgment actually matters. That's the work agents don't quit over.
+
+AI-generated call summaries alone cut after-call work time by 35%. That's not a small quality-of-life improvement. After-call work is one of the most complained-about parts of the job — agents finish a difficult conversation and immediately have to write up the notes before the next call drops in. Removing 35% of that friction is measurable in engagement surveys.
+
+The math on attrition is brutal. Call centers run 30-45% annual attrition. Each departing agent costs $10,000-$20,000 in replacement and ramp. For a 500-agent center at 35% attrition, that's $1.75M-$3.5M in annual replacement cost before any other variable.
+
+AI that improves retention by 10 percentage points for that center: $350K-$700K in avoided costs annually. That's on top of the call handling unit economics.
+
+Most AI in CX is pitched as headcount reduction. The smarter operators are tracking a different metric: agent retention rate, pre-AI vs. post-AI deployment.
+
+The contact centers losing agents aren't losing them to AI. They're losing them to repetitive work that AI was built to handle.
+
+Deploy AI to protect your human talent pipeline. The agents who stay are the ones who handle your hardest, highest-value customer interactions. That's worth more than the per-call cost savings.
