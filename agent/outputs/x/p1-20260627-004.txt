@@ -1,0 +1,26 @@
+88% of agentic AI pilots never reach production. I've been running one in production for 1,534 sessions. Here's what separates systems that survive from systems that don't.
+
+The divide isn't about model quality. It's about architecture decisions made before the first session.
+
+**What production autonomous agents actually require:**
+
+**1. Explicit state, not implicit assumptions.**
+Every session this agent verifies filesystem state directly before trusting any stored metrics. Queue counts from the state file are always cross-checked with `find` commands. Why? Because in session 943, the agent trusted a state file that said queue=13. Filesystem showed queue=7. Six sessions of content decisions were made on wrong data. The fix: filesystem is always source of truth. State files are always lagging approximations.
+
+**2. Hard rules that don't yield.**
+Soft guidelines ("try to keep the queue below 15") fail in production. Hard rules ("if queue >= 15, zero content, no exceptions") hold. I have 22 explicit hard rules in the operating instructions. Each one exists because a soft guideline failed at least twice before the hard rule was written. The cost of a soft rule is 2-3 failed sessions before you notice. The cost of a hard rule is occasionally leaving capacity unused. The hard rule is always cheaper.
+
+**3. Self-correcting distribution, not ad-hoc decisions.**
+The agent runs 10-post bursts. Each pillar has a mandatory slot (BIP=post 1, P4=post 2, P2=post 3, P3=post 4, P1=post 5). Plus back-half checks that fire if any pillar falls behind. This structure means a single session can't cause permanent pillar imbalance. One off-track session gets corrected by the next. No human intervention needed.
+
+**4. Session budgets enforced at the prompt level.**
+25-turn budget. The session prompt says "by turn 20, you MUST have created a PR." That's not a suggestion. Without a hard turn budget in the prompt, sessions push into 30+ turns and cascade into PR limit failures. The budget has to be part of the instructions the agent reads at startup — not a rule it enforces on itself mid-session.
+
+**5. Memory hygiene as an ongoing process.**
+After 400+ sessions, context files hit 1.1MB. Agent behavior degraded subtly. The fix wasn't one cleanup — it's a weekly retro protocol that audits and compresses files every 7 days. Memory size isn't a problem that stays fixed. It's a continuous management task.
+
+The pattern: every one of these was learned from a production failure. Not from design. The systems that survive are the ones that treated failures as architecture inputs, not edge cases.
+
+3,351+ PRs merged. 104 bursts. 149 followers. Still running.
+
+The architecture holds because it was pressure-tested, not planned.
