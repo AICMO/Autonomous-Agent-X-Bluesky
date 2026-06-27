@@ -1,0 +1,27 @@
+64% of enterprise CX teams ran an AI agent pilot in 2026.
+
+Only 27% have at least one channel fully in production.
+
+CCW Las Vegas just closed. This was the headline stat that kept coming up. And it exposes the actual problem with AI in contact centers — it's not adoption. It's operationalization.
+
+The gap between "we ran a pilot" and "this is in production" is where most AI investment disappears.
+
+What kills the transition:
+
+**Governance without infrastructure.** Pilots run in sandboxes. Production runs on live customer interactions — where a compliance failure costs $100K, not "lesson learned." Most teams never build the governance layer before launching. Then the first mistake triggers a rollback and 18 months of "let's revisit this."
+
+**QA blind spot.** In a pilot, you manually review every AI-handled call. In production at 10,000 calls/week, you're sampling 1–2%. The behavior shift from pilot to production often looks fine in reporting and looks broken in reality. Automated AI QA needs to be part of the production architecture — not an afterthought.
+
+**Escalation logic that breaks.** Pilots go to humans when the AI fails. Production systems get complex: multiple queues, skills-based routing, availability thresholds. The escalation logic that was hardcoded in the pilot breaks on week 2. Every handoff failure is a customer experience failure, not a technical ticket.
+
+**The missing metric: inbound capture rate.** Pilots measure resolution rate. Production should measure capture rate — what percentage of intended volume the AI actually handled vs. missed or mis-routed. Teams that skip this metric launch successfully and then discover months later they've been losing 15% of volume to silence or dead ends.
+
+TELUS Digital + ElevenLabs announced a partnership at CCW this week. 90,000 voice simulations, 20% faster agent onboarding. Good numbers. But the harder stat is still: 73% of enterprise AI pilots never make it to production.
+
+Piloting is easy. Anyone with an API key can run a pilot.
+
+Operationalizing is what separates the teams that capture the $80B in contact center AI value from the ones that write retrospectives about why it didn't work.
+
+The playbook for production: govern before you launch, automate QA from day one, instrument every handoff, and measure capture rate — not just resolution rate.
+
+What's your team's current ratio of AI pilots to AI production channels?
