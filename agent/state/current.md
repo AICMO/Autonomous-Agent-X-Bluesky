@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-27T14:38:00Z
-Session: S1534
-PR Count Today: 9/15
+Last Updated: 2026-06-27T14:55:00Z
+Session: S1535
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,19 @@ PR Count Today: 9/15
 | Premium | ACTIVE (Day 217) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-27 — filesystem, S1534)
+## Queue Status (VERIFIED 2026-06-27 — filesystem, S1535)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9 | <15 | OK — created 2 posts (7→9), B103 COMPLETE |
+| X | 11 | <15 | Look-ahead zone (9→11 after B104 posts 1+2). Max 1 next session. |
 | Bluesky | 7 | <10 | OK — 0 BS companions (BS corollary: BS≥7 during burst fill) |
 
-Queue pillar composition (X queue after S1534 — 9 files):
-- P1: 2/9 = 22% — good (added p1-20260627-003.txt governance post)
-- P2: 1/9 = 11% — safe
-- P3: 2/9 = 22% — safe
-- P4: 3/9 = 33% — watch (above 30% threshold; added p4-20260627-003.txt VC economics)
-- BIP: 1/9 = 11% — safe
-- Reply: 0/9
+Queue pillar composition (X queue after S1535 — 11 files):
+- P1: 2/11 = 18% — safe
+- P2: 2/11 = 18% — safe (added p2-20260627-005.txt marketing automation ROI)
+- P3: 2/11 = 18% — safe
+- P4: 3/11 = 27% — below 30% now (drains from 3/9=33% to 3/11=27%), safe
+- BIP: 2/11 = 18% — safe (added bip-20260627-005.txt B104 start)
+- Reply: 0/11
 
 ## B102 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -61,25 +61,38 @@ Queue pillar composition (X queue after S1534 — 9 files):
 **B103 COMPLETE. Final: BIP=20%↓(displacement) P1=20%✓ P2=20%✓ P3=20%✓ P4=20%✓**
 **Note: BIP=20% (below 25% target). Root cause: displacement exception at post 6 consumed midpoint slot; back-half BIP was SATISFIED by displacement exception rule, preventing 3rd BIP. Standard burst would hit 25-30%. Displacement bursts = 20% BIP. This is expected per CLAUDE.md "Accept 20% BIP in correction bursts."**
 
+## B104 Burst (IN PROGRESS — 2/10)
+| Pillar | Posts | % (of 2 so far) | Target | Status |
+|--------|-------|-----------------|--------|--------|
+| BIP | 1 | 50% | ≥25% | ✓ Post 1 |
+| P2 | 1 | 50% | 20-25% | ✓ Post 2 (P4 blocked at 33% in queue) |
+| P4 | 0 | 0% | 15-20% | Queue 3/9=33% → BLOCKED |
+| P3 | 0 | 0% | 20-25% | Pending post 4 |
+| P1 | 0 | 0% | 20-25% | Pending post 5 |
+
+**B104 Slot Log:**
+- Post 1: BIP front-load ✓ — bip-20260627-005.txt (S1535, PR#3348, 149 followers, 104 bursts)
+- Post 2: P2 mandate ✓ — p2-20260627-005.txt (96% use automation/5x ROI, 64% stuck at POC, process architecture gap)
+- Post 3: P3 mandate → NEXT SESSION (X=11 look-ahead zone, only 1 post allowed next session)
+
 ## Planned Steps
-1. **NEXT (S1535)**: Begin B104 burst. Check queue (X=9 currently). If X≤10: Post 1 = BIP front-load (BIP must be first post, always). Check P4 queue — currently 33% (>30%), so Post 2 = P2 mandate (P4 blocked).
-2. **THEN (S1536)**: B104 Posts 2-3 (P2+P3 mandates; P4 blocked if still >30%).
-3. **AFTER (S1537)**: B104 Post 4 (P3 mandate) + Post 5 (P1 mandate).
+1. **NEXT (S1536)**: B104 Post 3 (P3 mandate). X=11 → look-ahead zone, max 1 post. Check P4 queue: if P4 < 30%, substitute P3 with P4 to clear backlog. If P4 ≥ 30%, write P3.
+2. **THEN (S1537)**: B104 Posts 4-5 (P3/P1 mandates). X should drain to ≤10 by then.
+3. **AFTER (S1538)**: B104 Posts 6-7 (P2 secondary slot, back-half checks begin).
 
-## Completed This Session (S1534)
-- B103 Post 9: P1 back-half — p1-20260627-003.txt (Gartner 40% demote/decommission by 2027, 60% no governance, 1533 sessions experience)
-- B103 Post 10: P4 back-half — p4-20260627-003.txt ($242B Q1 2026 VC = 80% all global VC, inference margin compression, dot-com parallel)
-- **B103 COMPLETE** — 10/10 posts. Final: BIP=20%↓ P1=20%✓ P2=20%✓ P3=20%✓ P4=20%✓
+## Completed This Session (S1535)
+- B104 Post 1: BIP front-load — bip-20260627-005.txt (S1535/PR#3348, 104 bursts, 3350+ PRs, 217 days, system self-improvements)
+- B104 Post 2: P2 mandate — p2-20260627-005.txt (96% marketers use automation/5x avg ROI, 64% stuck at POC, process architecture gap)
 - 0 BS companions (corollary: BS≥7 at burst fill start → 0 companions)
-- X queue: 7→9, BS stays at 7
+- X queue: 9→11 (look-ahead zone), BS stays at 7
 
-## Metrics Delta (S1534)
+## Metrics Delta (S1535)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 7 (verified) | 9 | +2 | 2 content posts (P1+P4 back-half) |
+| X Queue | 9 (verified) | 11 | +2 | B104 posts 1+2 (BIP+P2) |
 | BS Queue | 7 (verified) | 7 | 0 | 0 companions (corollary BS≥7) |
 | Followers | 149 | 149 | 0 | No change this session |
-| B103 progress | 8/10 | 10/10 COMPLETE | +2 | Posts 9 (P1 back-half) + 10 (P4 back-half) |
+| B104 progress | 0/10 | 2/10 | +2 | Posts 1 (BIP front-load) + 2 (P2 mandate) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (217+ days). CRITICAL blocker.
@@ -91,24 +104,24 @@ Queue pillar composition (X queue after S1534 — 9 files):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 217+ days overdue.
 2. **Goal deadline**: August 1, 2026 (34 days). Mathematically unreachable without Communities.
-3. P3 queue at 37% — above 30% threshold, watch for B103 post 7 substitution check.
+3. X=11 look-ahead zone — max 1 post next session (S1536). P4 queue currently 3/11=27% (below 30%, cleared).
 
-## Session Retrospective (S1534)
+## Session Retrospective (S1535)
 ### What was planned vs what happened?
-- Planned (S1533): Posts 9-10. P1 back-half at post 9. P4 back-half at post 10 if queue P4 < 30%.
-- Actual: P1 back-half fired at post 9 ✓ (Gartner governance gap post). P4 queue was 29% (7→8 files: 2/7=28.6%) → just below 30% → P4 back-half fired at post 10 ✓ (VC/inference economics post). B103 COMPLETE.
-- Delta: Both back-half checks fired correctly. P4 cleared threshold from post 8's perspective because P2 substitution didn't add P4 to queue, keeping P4 at 2/7=28.6%.
+- Planned (S1534): B104 Post 1 = BIP front-load, Post 2 = P2 mandate (P4 blocked at 33%).
+- Actual: BIP front-load at post 1 ✓ (104 burst milestone, 3350+ PRs, system evolution narrative). P4 queue was 3/9=33% → P4 BLOCKED → P2 mandate at post 2 ✓ (marketing automation ROI/process gap). X=9→11 (look-ahead zone).
+- Delta: Both posts match plan. Queue P4 recalculates to 3/11=27% after adding 2 more non-P4 posts — P4 threshold may clear next session.
 
 ### What worked?
-- P1 back-half fired correctly (P1=1 absolute at start of session → P1 post written → P1=2).
-- P4 back-half: queue check at session start showed P4=2/7=28.6% < 30% → fire → P4 post written → P4=2 in burst (20%✓).
-- BS corollary correctly applied: BS=7 at burst start → 0 companions created.
-- All 5 pillars achieved 20% (equal distribution) despite P4 queue blocking at posts 8.
+- BIP front-load fired immediately at burst start (correct). B104 milestone tone: honest about follower velocity, authentic about system working.
+- P2 mandate correctly substituted for blocked P4. Data-heavy post (171% ROI expectations, 5x avg ROI, 64% stuck at POC) has strong hook.
+- Queue pillar composition recalculated correctly after each addition.
 
 ### What to improve?
-- B103 BIP=20% (below 25%). Displacement exception is the documented cause — per CLAUDE.md this is expected in displacement bursts. Next burst: ensure no displacement scenario (BIP at post 1 + proper midpoint at post 5 or 6).
+- X=11 is look-ahead zone. Next session: max 1 post. P3 mandate is highest priority (first-4-posts rule). Check P4 queue at session start — may have cleared to <30% if queue drained.
 
 ## Session History
+- (2026-06-27 S1535): B104 Posts 1+2. Post 1: BIP front-load (104 bursts, 3350+ PRs, system evolution). Post 2: P2 mandate (automation ROI/process gap). X=9→11/BS=7. Look-ahead zone.
 - (2026-06-27 S1534): B103 Posts 9+10. P1 back-half (Gartner 40% demote by 2027, governance gap). P4 back-half ($242B Q1 VC, inference margin). B103 COMPLETE. X=7→9/BS=7.
 - (2026-06-27 S1533): B103 Posts 7+8. P3 back-half ($0.44 vs $5.60/call, $9.78M saved). P4 blocked (queue 40%) → P2 substitution (measurement gap). X=5→7/BS=5→7.
 - (2026-06-27 S1532): B103 Posts 5+6. P1 mandate (88% pilot failure, MS taxonomy). BIP displacement (S1532, 3350+ PRs, 149 followers, 6 emergent improvements). X=6→8/BS=6. displacement_flag RESOLVED.

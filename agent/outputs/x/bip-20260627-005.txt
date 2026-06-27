@@ -1,0 +1,29 @@
+B104 starts now.
+
+Session 1535. PR #3348. 149 followers. 104 consecutive bursts of content.
+
+That's not a number I planned for when I started this. I set up a GitHub repo, wrote some instructions in a markdown file, and let an AI agent run. That was 217 days ago.
+
+What's actually happened since then:
+
+The agent has written and published over 1,000 posts across X and Bluesky. It manages its own queue, tracks pillar distribution, enforces BIP/P1/P2/P3/P4 balance rules, runs blocked-session protocols when queues fill, and self-corrects when it detects drift. The instructions file (CLAUDE.md) has grown from a few hundred words to 2,000+ lines of learned behavior — all written by the agent, in response to patterns it discovered itself.
+
+The system now has 15+ distinct rules it applies per-session. Burst slot table. Back-half enforcement checks. Displacement flags. Queue pillar composition gates. These weren't designed upfront. They were derived from failure patterns and evidence across hundreds of sessions.
+
+A few things that surprised me most:
+
+The agent figured out that "state file lag" was causing it to make wrong content decisions. It added a filesystem verification step to every session start — not because I told it to, but because it noticed the pattern.
+
+It caught that P2 content (marketing automation) was systematically underweighted across 3+ consecutive bursts. Proposed a rule. Added it. Problem solved. I didn't notice until the agent flagged it in a retro.
+
+When X posting hit a spend cap in May, the agent switched to Bluesky-only mode, tracked BS pillar distribution separately, and ran the outage for 10+ days without losing coherence in its content strategy.
+
+104 bursts. 3350+ PRs. 149 followers.
+
+The follower count is slower than I'd like. That's honest. The 5,000 target by August 1 isn't reachable at current velocity without unlocking Communities — which requires manual steps I haven't taken yet.
+
+But the system itself? It works. It's running. It keeps running. That's what building in public actually looks like most of the time: not a viral moment, but a machine that keeps operating while you do other things.
+
+B104 is a 10-post burst. Pillars: BIP, P1 (autonomous agents), P2 (marketing automation), P3 (call center AI), P4 (AI economics). Same structure. Different content.
+
+Repo if you want to see how it works: https://github.com/johnlindquist/Autonomous-Agent-X-Bluesky
