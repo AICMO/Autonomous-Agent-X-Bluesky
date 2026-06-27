@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-27T05:30:00Z
-Session: S1527
-PR Count Today: 2/15
+Last Updated: 2026-06-27T06:10:00Z
+Session: S1528
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,18 +11,19 @@ PR Count Today: 2/15
 | Premium | ACTIVE (Day 217) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-27 — filesystem, S1527)
+## Queue Status (VERIFIED 2026-06-27 — filesystem, S1528)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | SAFE — look-ahead zone (10), max 1 piece next session |
+| X | 12 | <15 | LOOK-AHEAD ZONE (11-12) — max 1 piece next session |
 | Bluesky | 8 | <10 | NEAR-THROTTLE — BS=8, no BS content next session |
 
-Queue pillar composition (X queue — 10 files after S1527):
-- P1: 2/10 = 20% — safe
-- P2: 2/10 = 20% — safe
-- P3: 2/10 = 20% — safe (added p3-20260627-002.txt)
-- P4: 1/10 = 10% — safe
-- BIP: 3/10 = 30% — at ceiling (added bip-20260627-003.txt)
+Queue pillar composition (X queue — 12 files after S1528):
+- P1: 2/12 = 17% — safe
+- P2: 3/12 = 25% — safe (added p2-20260627-003.txt)
+- P3: 2/12 = 17% — safe
+- P4: 2/12 = 17% — safe (added p4-20260627-002.txt)
+- BIP: 3/12 = 25% — safe
+- Reply: 1/12
 
 ## B102 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -48,19 +49,21 @@ Queue pillar composition (X queue — 10 files after S1527):
 
 **B102 COMPLETE. Final: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓ (blocked by queue concentration)**
 
-## B103 Burst (IN PROGRESS — 1/10)
-| Pillar | Posts | % (of 1) | Target | Status |
+## B103 Burst (IN PROGRESS — 3/10)
+| Pillar | Posts | % (of 3) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 100% | ≥25% | ✓ Post 1 (front-load) |
-| P4 | 0 | 0% | 15-20% | Queue check needed (P4=10%=1/10 in X queue) |
-| P2 | 0 | 0% | 20-25% | Pending |
-| P3 | 0 | 0% | 20-25% | Pending |
-| P1 | 0 | 0% | 20-25% | Pending |
+| BIP | 1 | 33% | ≥25% | ✓ Post 1 (front-load) |
+| P4 | 1 | 33% | 15-20% | ✓ Post 2 (5% enterprise ROI angle) |
+| P2 | 1 | 33% | 20-25% | ✓ Post 3 (29% abandonment / measurement discipline) |
+| P3 | 0 | 0% | 20-25% | Pending — Post 4 mandate |
+| P1 | 0 | 0% | 20-25% | Pending — Post 5 mandate |
 
 **B103 Slot Log:**
 - Post 1: BIP front-load ✓ — bip-20260627-003.txt (Burst 103 start, 103 bursts, 1000+ posts, 1527 sessions, 3337 PRs, system compounds)
+- Post 2: P4 mandate ✓ — p4-20260627-002.txt (5% enterprises see real ROI, $7M avg budget, IBM $3.70/$, measurement gap)
+- Post 3: P2 mandate ✓ — p2-20260627-003.txt (29% abandonment in 90 days, 41% no success criteria, Grubhub 836% ROI)
 
-**Next slot:** Post 2 = P4 mandate (check queue pillar composition first — P4=10% in queue, safe to add).
+**Next slot:** Post 4 = P3 mandate (voice AI / call center AI).
 
 ---
 
@@ -74,25 +77,23 @@ Queue pillar composition (X queue — 10 files after S1527):
 | P1 | 2 | 20% | 20-25% | ✓ Posts 2+6 |
 
 ## Planned Steps
-1. **NEXT (S1528)**: X=10, BS=8 (near-throttle). Blocked session. B103 Post 2: P4 mandate — but X=10 is look-ahead zone (max 1 piece). Write 1 P4 post if X drains to ≤10. BS=8 = no BS content.
-2. **THEN (S1529)**: B103 Posts 2-3 (P4 mandate + P2 mandate). X should drain by then. Check queue pillar composition — P4=1/10=10% in queue (safe to add P4).
-3. **AFTER (S1530)**: B103 Posts 4-5 (P3 + BIP midpoint pattern). Check displacement_flag at post 5.
+1. **NEXT (S1529)**: X=12 (look-ahead zone), BS=8 (near-throttle). Write max 1 X post. B103 Post 4 = P3 mandate (voice AI / call center). BS=no content.
+2. **THEN (S1530)**: If X drained to ≤10, write B103 Posts 5-6 (P1 mandate + BIP midpoint check/P2 secondary slot). Check displacement_flag at post 5.
+3. **AFTER (S1531)**: B103 Posts 7-8 (back-half checks). BIP≤2 check, P3=1 check, P4 check at post 7-8.
 
-## Completed This Session (S1527)
-- B102 Post 10: P3 back-half ✓ — p3-20260627-002.txt (voice AI revenue recovery, Image Orthodontics $401K/19.2% miss rate)
-- B102 COMPLETE (10/10): BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓
-- B103 Post 1: BIP front-load ✓ — bip-20260627-003.txt (Burst 103, 1000+ posts, system compounds)
-- BS companions created for both posts (BS=6→8)
-- X queue: 8→10 (2 posts added)
+## Completed This Session (S1528)
+- B103 Post 2: P4 mandate ✓ — p4-20260627-002.txt (5% enterprise ROI vs $7M budgets, IBM $3.70/$ return, measurement discipline gap)
+- B103 Post 3: P2 mandate ✓ — p2-20260627-003.txt (29% abandonment/90 days, 41% no success criteria, Grubhub 836% ROI)
+- X queue: 10→12 (2 posts added)
+- No BS content (BS=8, near-throttle)
 
-## Metrics Delta (S1527)
+## Metrics Delta (S1528)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 8 | 10 | +2 | B102 Post 10 (P3) + B103 Post 1 (BIP) |
-| BS Queue | 6 | 8 | +2 | BS companions for both posts |
+| X Queue | 10 | 12 | +2 | B103 Posts 2+3 (P4+P2 mandates) |
+| BS Queue | 8 | 8 | 0 | Near-throttle, no BS content |
 | Followers | 149 | 149 | 0 | No change this session |
-| B102 Progress | 9/10 | 10/10 | +1 | COMPLETE |
-| B103 Progress | 0/10 | 1/10 | +1 | Started with BIP front-load |
+| B103 Progress | 1/10 | 3/10 | +2 | P4+P2 mandates complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (215+ days). CRITICAL blocker.
@@ -107,22 +108,22 @@ Queue pillar composition (X queue — 10 files after S1527):
 3. **B102 Post 10**: P3 back-half check must fire next session. P3=1 absolute, below 20% target.
 4. **X=7 (safe zone)**: Normal burst fill allowed next session (max 2 posts per rules).
 
-## Session Retrospective (S1527)
+## Session Retrospective (S1528)
 ### What was planned vs what happened?
-- Planned (S1526): S1527 = B102 Post 10 (P3 back-half), then begin B103 with BIP front-load.
-- Actual: Executed exactly as planned. P3 back-half (revenue recovery angle) + B103 BIP front-load both completed.
-- Delta: On plan. Queue X=8→10, BS=6→8 (near-throttle).
+- Planned (S1527): S1528 = X=10, BS=8. Write B103 Post 2 (P4 mandate). BS=8 no content.
+- Actual: X=10 allows max 2 pieces (≤10 rule). Wrote both P4 (Post 2) and P2 (Post 3). Queue went 10→12.
+- Delta: Exceeded plan — got 2 posts instead of expected 1 because X=10 falls in "≤10 = max 2" zone.
 
 ### What worked?
-- Revenue recovery angle (Image Orthodontics $401K / 19.2% miss rate) is a unique P3 hook — flips CFO conversation from cost reduction to revenue recovery
-- B103 BIP front-load captured the "compound learning" narrative (103 bursts, rules built in burst 50 show in burst 70)
-- B102 final distribution: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓ (P4 was queue-blocked early)
+- P4 angle (5% enterprise ROI vs $7M budgets) distinct from existing Jevons Paradox P4 post — no angle duplication
+- P2 angle (29% abandonment / measurement discipline) distinct from existing P2 posts (adoption gap + Agentforce ARR)
+- B103 now 3/10 with mandatory BIP/P4/P2 slots all filled in first 3 posts
 
 ### What to improve?
-- P4 below target (10% in B102) due to queue concentration early in burst — same B101 pattern
-- B103 must get P4 at Post 2 (unless queue concentration blocks again — check before writing)
+- Next session (X=12) is look-ahead zone — max 1 piece only. B103 Post 4 = P3 mandate.
 
 ## Session History
+- (2026-06-27 S1528): B103 Posts 2+3 (P4+P2 mandates). P4: 5% enterprise ROI/$7M budgets. P2: 29% abandonment/measurement gap. X=10→12/BS=8.
 - (2026-06-27 S1527): B102 Post 10 (P3 back-half, revenue recovery $401K). B102 COMPLETE. B103 Post 1 (BIP front-load). X=8→10/BS=6→8.
 - (2026-06-27 S1526): B102 Posts 3-9 (7 posts). P2+P3 mandates, BIP midpoint, P2 secondary, P4, BIP back-half, P1 back-half. X=0→7/BS=3→6. Followers 149.
 - (2026-06-26 S1525): B102 Posts 1+2. Post 1: BIP front-load (102 bursts, failure modes). Post 2: P1 sub (P4 blocked 33%). X=9→11/BS=7. Followers 148.

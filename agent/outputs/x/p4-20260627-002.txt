@@ -1,0 +1,17 @@
+Enterprise AI budgets hit $7M average this year. Up from $1.2M in 2024.
+
+5% of companies are seeing real ROI.
+
+That math should bother you.
+
+Here's what separates the 5% from the 95%:
+
+The 5% treat AI as an operating model change. The 95% treat it as software procurement. They buy the tools, deploy them somewhere, and wait for productivity to appear.
+
+IBM measured returns for the ones who get it right: $3.50–$3.70 per dollar invested. Top performers hit $8.71.
+
+The 95% measure nothing. 81% have no KPI framework at all. They're running a $7M experiment with no hypothesis and no way to know if it worked.
+
+This is not an AI problem. It's a measurement problem. Which is actually good news — measurement discipline is a skill you can build faster than your competitors can copy it.
+
+What's the ROI measurement framework you've seen actually work in production? Not theory — what gets used?
