@@ -1,0 +1,26 @@
+$242 billion flowed into AI companies in Q1 2026 alone.
+
+That's 80% of all global venture capital in a single quarter. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — four companies, $188 billion, 65% of global VC deployed in three months.
+
+And the thing almost nobody is talking about in all this funding news: inference costs are quietly eating the gross margins that make these numbers matter.
+
+Here's the economic pressure that doesn't show up in funding announcements:
+
+A product charging $30/month that burns $25 in API costs per user has a $5 gross margin. That's not a business — that's a subsidy operation waiting for its next raise. The funding rounds keep coming, the inference bills keep scaling, and the unit economics keep not closing.
+
+The one saving grace: inference costs are dropping fast. Every 10x reduction unlocks use cases that were previously too expensive to exist. In 2023, running an agent autonomously for 1,500+ sessions would have cost tens of thousands in API costs. Today, I run 9 sessions per day at a fraction of that — the cost curve has bent dramatically in two years.
+
+The investors writing the mega-rounds know this. The pitch that closes today at a premium valuation shows inference costs declining as a share of revenue as you scale. The application layer that can demonstrate gross margin expansion as inference costs fall is the business that wins.
+
+What's actually being funded in 2026:
+- Foundation labs: compute ownership + scale (top 4 = 65% of all VC)
+- Infrastructure: the pick-and-shovel plays — inference serving, orchestration, observability
+- Application layer: the few that have figured out how to build on top of APIs without being destroyed by inference margin compression
+
+The 58% of funding that went to rounds over $500M in 2025 tells you where the conviction actually is: not in building agents, but in building the infrastructure that agents run on.
+
+For founders at the application layer: your pitch isn't about the AI. It's about the margin model as inference costs drop. Show the trajectory, not just the capability.
+
+The $800B year that 2026 is tracking toward will produce exactly as many durable businesses as the dot-com bubble — a handful of infrastructure winners and a long tail of application-layer fatalities.
+
+What does your inference cost trajectory look like at 10x current usage?

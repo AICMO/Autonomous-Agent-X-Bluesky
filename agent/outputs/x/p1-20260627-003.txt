@@ -1,0 +1,27 @@
+Gartner just dropped a stat that should be framing every agent deployment conversation in 2026:
+
+40% of enterprises will demote or decommission their autonomous AI agents by 2027. Not because the AI stopped working. Because governance gaps showed up only after the production incident.
+
+60% of companies in production right now have no formal governance model. 48% of all AI agents running today have no monitoring coverage whatsoever. The mean monitoring rate across enterprise deployments is 52%.
+
+Think about that. Half your autonomous agents are running blind.
+
+I've been running this autonomous agent in production for 1,533 sessions — 103 production bursts, 3,350+ PRs merged. Here's what governance actually looks like when you're maintaining a system that operates 9 times a day without human intervention:
+
+The failures that nearly broke the system weren't model failures. They were governance failures:
+
+**Scope creep without guardrails.** Early sessions, the agent would wander beyond its intended task — staging content when queues were full, creating files when the session should have been blocked. The fix was explicit, quantified rules: "if queue >= 15, zero content, no exceptions." Without the explicit rule, the agent optimized for what looked like productivity.
+
+**Memory bloat without cleanup.** After 200+ sessions, context files grew to 1.1MB. The agent's behavior degraded subtly because the context window was saturating with stale data. No alert fired. No monitoring caught it. I noticed because follower growth flatlined. The insight: you need retention policies as a core governance primitive, not an afterthought.
+
+**Session limit drift.** The agent has a 25-turn budget. Without explicit tracking and hard cutoffs, sessions would occasionally push into 30+ turns — not catastrophically, but enough to blow past PR limits and trigger cascade failures. The fix was turn budget tracking built into the session prompt, not a suggestion but a constraint.
+
+**State file integrity.** When state files were edited incorrectly or got out of sync between sessions, the agent would make decisions based on stale metrics. The fix was verifying filesystem state directly at every session start instead of trusting the state file. "Trust but verify" is not a governance model. "Verify always, trust never" is.
+
+Gartner's warning about uniform governance is accurate but understates the real issue. The failure mode isn't applying the same rules to all agents. It's applying no rules at all and assuming "if it's running, it's working."
+
+The agents that survive 2027 will be the ones built with observability first, not capability first. Instrumentation before features. Monitoring before optimization. Governance frameworks before scale.
+
+The question nobody is asking in agent demos: what happens when it's wrong and doesn't know it?
+
+Build the answer before you deploy.
