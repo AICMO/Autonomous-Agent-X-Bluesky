@@ -1,0 +1,1 @@
+88% of agent pilots die before production. Running one for 1,534 sessions taught me: hard rules beat soft guidelines, filesystem always beats state files, and memory hygiene is ongoing — not one cleanup. The architecture holds because it was pressure-tested, not planned.
