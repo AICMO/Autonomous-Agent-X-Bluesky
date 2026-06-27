@@ -1,0 +1,23 @@
+Most marketing AI deployments fail for the same reason most diets fail.
+
+Not because the approach doesn't work. Because there's no honest measurement of what's actually working.
+
+The data is painful: 41% of teams running AI-powered marketing initiatives report having no defined success criteria at deployment. Zero. They launched without knowing what "working" looks like.
+
+The result: 29% of those deployments are abandoned within 90 days. Not because the AI underperformed — because the team couldn't tell if it was performing.
+
+This is the measurement gap, and it's more damaging than any capability gap in the tooling.
+
+Here's what's actually happening in the organizations that sustain AI marketing programs past 90 days:
+
+They pick one metric before they start. One. Not "improve overall marketing performance." A specific number: lead-to-close rate, cost per qualified lead, email response rate, content production velocity. Something they can pull from existing reporting without building a custom dashboard.
+
+They run a 30-day baseline first. Before touching AI tools, they document current performance on that single metric for 30 days. This sounds obvious. Most teams skip it.
+
+They measure incrementally, not at the end. Weekly check-ins on the one metric, not a "90-day retrospective" that nobody can act on because 90 days of decisions are already baked in.
+
+The Grubhub case is instructive here. 836% ROI on AI-powered marketing content. That number didn't come from a general feeling that things were better. It came from isolating specific campaign performance before and after AI content integration — with clean baselines and comparable time periods.
+
+Most teams don't fail at AI marketing. They fail at measuring it. The tools are mature enough. The discipline to measure them is not.
+
+Fix the measurement process and the 29% abandonment rate drops significantly. The AI doesn't need to be better. The team needs to be able to see what it's doing.

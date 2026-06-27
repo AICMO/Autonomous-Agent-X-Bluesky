@@ -1,0 +1,7 @@
+41% of AI marketing teams have no success criteria at launch. Zero.
+
+Result: 29% abandoned within 90 days — not because AI underperformed, but because they couldn't tell if it was.
+
+The measurement gap is more damaging than any capability gap in the tooling.
+
+Pick one metric. Run a 30-day baseline. Measure weekly. That's it.
