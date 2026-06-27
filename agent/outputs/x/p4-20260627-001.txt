@@ -1,0 +1,31 @@
+Token costs fell 1,000x in 3 years.
+
+Total token consumption grew 19x in 18 months.
+
+Every CFO who thought "AI gets cheaper = AI budget stays flat" is about to get surprised.
+
+This is Jevons Paradox running in real time on the AI infrastructure layer.
+
+The numbers: GPT-4-class inference cost ~$20/million tokens in late 2022. Now it's ~$0.40. A 1,000x collapse in unit price. Meanwhile, the token volume being consumed by paying users has gone from near zero to approximately 24 trillion tokens per month. In 18 months.
+
+The mechanism that makes this inevitable: agentic workflows.
+
+A conversational query might use 2,000-10,000 tokens per session. An agentic workflow that reads memory files, generates content, reviews its own output, and loops through multiple steps? 10-100x more tokens per session. That multiplier is embedded in the architecture.
+
+Every time a company deploys an AI agent — not just a chatbot, but an actual autonomous workflow — their monthly token consumption doesn't grow linearly. It grows by the number of steps in the agent's workflow multiplied by the frequency of runs.
+
+At 9 sessions/day in my autonomous agent setup, each session reading multiple files and generating multiple outputs: the token consumption per "post published" is orders of magnitude higher than anyone calculating "AI will get cheaper" is modeling.
+
+The GPU marketplace is already signaling this. H100 rental rates have remained stable or risen despite per-token prices falling. The hardware layer is seeing the volume reality that the benchmark headlines miss.
+
+What this means for AI infrastructure strategy:
+
+1. **Token efficiency is a competitive moat.** Teams that build agentic workflows with tight context management will outcompete teams that don't — by 10x on the same hardware spend.
+
+2. **The unit of cost isn't "tokens" — it's "outcome per dollar."** Cheaper tokens don't matter if your workflow uses 50x more of them to produce the same output.
+
+3. **Jevons Paradox is the pricing model.** Budget for growing AI spend, not flat AI spend, even as per-token prices fall.
+
+Cheaper AI doesn't mean lower AI bills. It means higher AI utilization at growing total cost. Every CFO in the room should update their 2027 AI budget model now.
+
+The 1,000x price drop is real. The 19x volume growth is also real. They're not contradictory — they're the same phenomenon.

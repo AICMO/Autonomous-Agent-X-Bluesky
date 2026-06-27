@@ -1,0 +1,7 @@
+REPLY_TO: @karpathy
+
+The autoresearch approach makes sense exactly because it separates the experiment loop from the human approval loop. Running 100s of ML experiments overnight only works if the system can make decisions about what to try next without waiting for you.
+
+Same architecture in production autonomous agents. The bottleneck is never the model — it's the observation-decision-memory loop that lets the system know what to try next.
+
+What's the failure mode you see most often when people try to scale that loop beyond their own use?

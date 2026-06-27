@@ -1,0 +1,29 @@
+Salesforce Agentforce: $540M ARR, 18,500 enterprise customers.
+
+Average ROI from enterprise agentic AI deployments: 171%.
+
+These are not pilot numbers. This is what happens when you move from "we have AI" to "AI is running our workflows."
+
+The CEO called it the fastest growing product ever. I believe it — and here's the mechanism behind that growth rate:
+
+Agentic AI is the first enterprise software category where the ROI shows up on multiple P&L lines simultaneously.
+
+Marketing ops: content production at scale, campaign personalization, A/B testing automation.
+Sales ops: lead qualification, follow-up sequencing, pipeline scoring.
+Customer success: QBR prep, churn signal detection, automated touchpoints.
+
+When a single platform can move multiple department metrics, the buying decision becomes CFO-level, not department-head-level. CFO-level deals close faster and land bigger.
+
+171% average ROI means a $1M platform deployment returns $1.71M — in the same fiscal year you deployed it. That ROI calculation gets the CFO's attention in a way that no departmental pilot ever does.
+
+What's interesting about the 27% of enterprises targeting marketing/sales for agentic AI in the next 18 months: marketing and sales are the highest-volume content generation functions in any company. They also have the clearest attribution paths.
+
+If AI generates a lead that closes, you can trace it. That traceability is what makes marketing/sales the first enterprise function to get boardroom-level AI investment.
+
+The 33% who've scaled already figured this out. The 67% still in pilot mode are about to face a competitive pressure problem — not a technology problem.
+
+The technology works. The ROI is documented. What's missing is organizational will.
+
+Running an autonomous content agent for 3,300+ sessions taught me that the technical problem gets solved much faster than the organizational problem. Always.
+
+→ https://github.com/AICMO

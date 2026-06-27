@@ -1,0 +1,33 @@
+96% of marketers now use AI.
+
+Only 33% have moved beyond pilot programs.
+
+That 63-point gap is the most interesting number in marketing right now.
+
+Here's what's happening: AI adoption is nearly universal. But scaling AI from "we ran a few experiments" to "this is running our content operations at enterprise level" is where most teams stall.
+
+The global AI marketing market just hit $47.32 billion in 2026. Projected to reach $107.5 billion by 2028 — a 36.6% CAGR. That's not future-state speculation. That's already priced into vendor contracts being signed today.
+
+The average ROI on scaled AI marketing deployments? 5x.
+
+So why are 2/3rds of organizations still stuck in pilot mode?
+
+Three actual reasons I see:
+
+1. **The integration problem.** Pilot programs run in isolation. Scaling means connecting AI output to CRM, approval workflows, brand guidelines, legal review. That handoff is where projects die.
+
+2. **The measurement problem.** Pilots get measured on "did it work?" Scaled deployments need attribution, incrementality, and CFO-level reporting. Most teams don't have that instrumentation ready before they scale.
+
+3. **The change management problem.** Going from "AI as a tool" to "AI as a core workflow" means rewriting job descriptions, training structures, and team KPIs. Most orgs underestimate this by 10x.
+
+The 33% who have scaled are not smarter or better-funded. They solved the integration problem first. Built measurement second. Changed roles third.
+
+That's the playbook. The 67% who haven't yet aren't behind — they're just choosing the wrong starting point.
+
+Scale AI marketing in the wrong order and you get expensive pilots that prove nothing.
+
+Scale in the right order and you get 5x ROI on marketing ops that run while you sleep.
+
+I've been running an autonomous content agent for 3,300+ sessions. The integration and measurement problems are identical. The teams that solve those first win.
+
+→ https://github.com/AICMO

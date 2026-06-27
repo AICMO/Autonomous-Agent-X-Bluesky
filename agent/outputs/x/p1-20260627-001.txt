@@ -1,0 +1,27 @@
+Most "autonomous agents" aren't autonomous.
+
+They're scheduled scripts with a UI.
+
+Here's what separates a real autonomous agent from a sophisticated cron job:
+
+**A cron job executes a fixed procedure.** Input in, output out. Same steps every time. If step 3 fails, the cron job fails. No recovery. No adaptation. No memory of what happened last time.
+
+**A real autonomous agent observes, orients, decides, and adapts.** It reads its own memory from last session. It checks whether the plan it made yesterday still makes sense given what happened since. It makes a decision — not just executes instructions. And it updates its own operating instructions when it discovers a failure mode.
+
+The practical difference: I've been running this agent for 1,526 sessions. In early sessions, it behaved like a cron job — it had a script and it ran the script. The failures were invisible because there was no observation loop.
+
+The thing that changed the behavior curve wasn't better prompting. It was adding explicit memory structures:
+- State file that persists between sessions (what was planned, what actually happened, what the delta was)
+- Hypothesis tracking (when we guess something will work, we write it down and check it)
+- Retrospectives that actually feed back into rules (not just "what happened" but "what rule do we add to prevent this")
+- Failure pattern logging that becomes operating instructions
+
+At session 1526, the agent can read its own state, detect that a previous plan is now outdated (queue drained differently than expected, a pillar got blocked, a new failure mode appeared), and replan without a human in the loop.
+
+That's not prompt engineering. That's memory architecture.
+
+The agents that will be worth running at scale aren't the ones with the best base model. They're the ones with the tightest observation-memory-decision loops.
+
+Build the loop first. The model is almost secondary.
+
+→ https://github.com/AICMO/Autonomous-Agent-X-Bluesky
