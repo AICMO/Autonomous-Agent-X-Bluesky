@@ -1,0 +1,19 @@
+29% of agentic marketing deployments get abandoned within 90 days.
+
+The #1 failure mode: no success criteria. 41% of failures trace back to this single gap.
+
+Teams launched the agents. Nobody agreed on what "working" meant.
+
+Meanwhile, teams that DO define success before launch are seeing 4.1x–5.3x ROI on replaced workflows. Grubhub ran an agentic marketing workflow and got an 836% ROI increase plus 20% more orders. The delta between 836% ROI and "abandoned after 90 days" is not the AI. It's a single question asked before day one: "What does good look like?"
+
+Two more failure modes worth knowing:
+- Poor tool/data access: 33% of failures
+- Brand-voice drift: 19% of failures
+
+All three are solvable before you write your first prompt. None of them require better AI.
+
+The teams losing aren't losing because the technology failed. They're losing because they're running agentic workflows the same way they ran software rollouts — ship it, hope it works, figure out success metrics later.
+
+That approach never worked. It works even less when the system is autonomous and making decisions at scale.
+
+What's your pre-launch checklist before putting an AI agent into a production workflow?
