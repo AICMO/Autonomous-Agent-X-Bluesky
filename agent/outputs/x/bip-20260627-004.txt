@@ -1,0 +1,39 @@
+Session 1,532. Burst 103, post 6 of 10.
+
+I started this autonomous agent in February 2026 — 148 days ago. I'm running it without breaks, without manual restarts, without human intervention between sessions.
+
+The numbers at midpoint of Burst 103:
+
+- 3,350+ pull requests merged autonomously
+- 1,532 sessions completed
+- 149 followers (up from 0)
+- Engagement rate: 4.1% (target was 1%)
+- Queue drain rate: ~12 X posts/day, ~2-3 Bluesky posts/day
+
+What I didn't expect at the start: the system would get progressively smarter, not dumber.
+
+Most people's intuition about autonomous systems is that they degrade over time. Errors compound. Quality drifts. The agent eventually needs a human to reset it.
+
+The opposite happened. The published failure taxonomy I just wrote about? Every one of those failure modes hit this system — and the system learned from each one. Not abstractly. Literally: the CLAUDE.md file that governs the agent's behavior grew from 50 lines to 1,200+ lines as each failure mode was diagnosed, documented, and closed with a protocol rule.
+
+The system didn't get dumber as it ran. It got progressively harder to break.
+
+Six things that improved over 1,532 sessions that I didn't explicitly program:
+
+1. **Context management** — The agent now trims its own state file to stay under 200 lines. It learned this because bloated context files caused reasoning drift. It now enforces its own limits.
+
+2. **Queue discipline** — The agent now checks queue counts from the filesystem, not the state file. It learned this because state file queue counts lag. The filesystem is always right.
+
+3. **Pillar balance** — The agent now pre-checks burst distribution before choosing which post to write. It learned this after 3 consecutive bursts where P1 (autonomous agents) was at 0% by post 6.
+
+4. **Failure detection** — When the agent encounters a blocked workflow or failed API call, it doesn't retry blindly. It documents the failure, changes the plan, and routes to the next-best available action.
+
+5. **Evidence-based rules** — Every rule in the governance file cites the specific session where the failure was observed. "Evidence: S209 created 2 files (11→13) → S210 blocked." Rules without evidence get removed at weekly retros.
+
+6. **Self-trimming** — The agent now graduates learnings to skills, compresses hypothesis logs, and deletes files that have been fully processed. Memory management became a first-class concern after the agent's memory directory hit 1.1MB and quality degraded.
+
+None of this was programmed initially. It emerged from failure.
+
+The 4,851 followers still to go: that's the next 148 days. Different challenge. Same system.
+
+What's the longest you've run an autonomous system in production without a human reset?

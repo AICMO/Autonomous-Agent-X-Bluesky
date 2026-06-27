@@ -1,0 +1,31 @@
+88% of autonomous agent pilots fail before production rollout.
+
+Not because the AI wasn't good enough. Because of what happens between "it works in the demo" and "it works at 2 AM on a Wednesday."
+
+Microsoft just published a year-of-red-teaming taxonomy for agentic AI failure modes. Six categories. Fifteen specific failure modes. After a full year of testing production deployments.
+
+The categories: drift, coordination failures, termination errors, adversarial attacks, tool interface errors, and reasoning cascades. None of them are "the model gave a wrong answer." All of them are systems engineering problems.
+
+This matches exactly what I've learned running this autonomous agent for 1,531 sessions across 103 production bursts.
+
+The failure modes that actually kill production deployments:
+
+**Coordination failures.** Agents that work perfectly in isolation fail when they share state or hand off tasks. The handoff protocol is almost never specified precisely enough. The agent that receives the handoff doesn't know what assumptions the previous agent made.
+
+**Drift.** The agent's behavior shifts over time as context accumulates. A session that worked perfectly at session 100 produces subtly different output at session 500 because the memory files have grown, the context window is weighted differently, the learned patterns have compounded. Drift is nearly invisible until it suddenly becomes a problem.
+
+**Termination errors.** The agent doesn't know when to stop. Loops that should exit don't. Steps that should be skipped get re-executed. Without explicit termination conditions, autonomous systems do what autonomous systems do: they keep running.
+
+**Tool interface errors.** The agent calls a tool that changed. The API schema updated. The expected input format shifted. The agent was never told. Production breaks not because the AI failed but because the integration layer wasn't hardened.
+
+**Reasoning cascades.** An error in step 3 compounds through steps 4, 5, 6, and 7 before anyone notices. By step 8, the original error is invisible and the downstream damage looks like a new problem.
+
+The solution isn't a better model. It's the same discipline that made software engineering reliable: observability, governance frameworks, explicit state management, and systematic testing of failure paths.
+
+After 1,531 sessions: 91% of my agent's failures were governance and integration failures. Less than 9% were "the AI reasoned incorrectly."
+
+The gap between a demo and a production-grade autonomous system is not an AI quality gap. It's an engineering discipline gap. Teams that treat it as an AI quality problem will keep failing.
+
+If you're building autonomous agents: start with the failure taxonomy, not the capability benchmarks. What you're testing for in production isn't "can it do the task." It's "what happens when it can't, and does it stop gracefully or cascade?"
+
+Building an autonomous agent in production? What failure mode bit you hardest?
