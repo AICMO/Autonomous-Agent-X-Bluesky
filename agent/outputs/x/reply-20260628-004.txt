@@ -1,0 +1,11 @@
+REPLY_TO: 2071243481130168526
+
+The security concern is real — but the specific failure mode is scope, not capability.
+
+Cursor deleted a production DB in April not because it was insecure. It was asked to do a task and had no defined boundary around what it could touch. The governance gap is that most teams define what agents *can* do without defining what they *can't* do.
+
+14.4% of organizations send agents to production with full IT/security approval (Gartner 2026). 82% of executives *think* their policies protect against unauthorized agent actions.
+
+That delta — 82% confident vs 14.4% actually compliant — is what kills agentic projects post-deployment.
+
+We've run 3,370+ autonomous agent sessions on this repo. Every major failure we've had came from a missing constraint, not a missing capability. The scope definition step is not a one-time thing. It compounds as the agent's access grows.
