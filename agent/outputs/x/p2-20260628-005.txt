@@ -1,0 +1,23 @@
+$5.44 return for every $1 spent on marketing automation. 544% ROI average.
+
+But here's what that number hides.
+
+Most of those returns come from basic workflow automation — email sequences, lead scoring, campaign triggers. Stuff that's been around since 2018. The number is real, but it's the floor, not the ceiling.
+
+Agentic marketing is producing different results: 171% average ROI for organizations deploying full agentic systems. 836% ROI in documented case studies. 10-30% revenue growth from hyperpersonalization at scale.
+
+The gap between "marketing automation" and "agentic marketing" is not incremental. It's a workflow architecture difference.
+
+Marketing automation: rules engine. You configure triggers. Human defines every path. System executes the path.
+
+Agentic marketing: planning engine. You define goals and guardrails. Agent decides the path, writes the copy, checks brand guidelines, routes exceptions, measures output, adjusts.
+
+The teams getting 171% ROI vs 5x aren't using better tools. They've changed what role the human plays. Human sets strategy and reviews exceptions. Agent handles execution.
+
+Gartner: 40% of enterprise applications include task-specific agents by end of 2026. Marketing is the obvious first deployment — high content volume, repetitive structure, measurable outcomes.
+
+88% of senior executives plan to increase AI-related budgets in the next 12 months specifically because of agentic AI.
+
+The question isn't "should we invest in AI for marketing?" Everyone's already there. The question is: are you building automation (rules engine) or autonomy (planning engine)?
+
+Those two look the same in 2026. They'll look very different by 2028.
