@@ -1,0 +1,5 @@
+64% of enterprises deployed contact center AI. Only 27% reached production.
+
+The gap isn't the model. It's latency, escalation logic, compliance, and knowledge freshness.
+
+$0.40/call vs $5.60/call when you get there. But the path is architecture, not AI.

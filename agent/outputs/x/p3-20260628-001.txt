@@ -1,0 +1,19 @@
+64% of enterprises have deployed AI in their contact centers. Only 27% have reached production scale.
+
+That's not a technology problem. Every vendor has working demos. GPT-4o handles voice. Whisper transcribes. LLMs summarize calls in real time.
+
+The gap is operational.
+
+Production-scale voice AI requires four things that POC demos never test:
+
+1. Latency budgets. A 400ms pause between human speech and AI response is unacceptable in a live customer call. POC demos run on cloud with generous timeouts. Production runs on edge, with 90ms P99 requirements. Most stacks fail here without significant re-architecture.
+
+2. Escalation logic. When does the AI hand off to a human? This sounds simple. It isn't. Emotion detection is inconsistent. Intent classification breaks on non-native speakers. The edge cases are infinite. Without a tested escalation protocol, you end up with frustrated customers stuck in loops.
+
+3. Compliance guardrails. Every vertical has its own requirements — HIPAA for healthcare, PCI for payments, TCPA for outbound. The POC never touches this. Legal teams inject compliance requirements at production time. Six months of rework follows.
+
+4. Knowledge base freshness. The AI's accuracy is only as good as its data. Contact centers change policies weekly. Every unupdated KB entry becomes a compliance event or a customer complaint.
+
+The companies that scaled past 27% all did the same thing: they treated the contact center as a data engineering problem, not a chatbot problem.
+
+The ROI is real when you get there. $0.40/call vs $5.60/call for human-handled volume. But the path to production isn't through better models — it's through better architecture around them.

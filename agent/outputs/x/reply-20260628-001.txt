@@ -1,0 +1,15 @@
+REPLY_TO: 2071100165306437995
+
+The counter-argument I keep hearing: "agents need human oversight for anything important."
+
+True. But that's not the relevant comparison.
+
+The relevant comparison is: which tasks currently done by licensed software seats can now be handled by agents with lighter-touch oversight?
+
+Expense report approval: human reviews agent's flag, not 200-line form. That's 90% of the seat eliminated.
+
+Pipeline updates: agent pulls CRM data, writes the summary, human hits send. That's 80% of the seat eliminated.
+
+The seat doesn't disappear on day one. It gets hollowed out until the renewal doesn't make sense anymore.
+
+That's what the Atlassian and Salesforce numbers are showing. Not collapse. Hollowing.
