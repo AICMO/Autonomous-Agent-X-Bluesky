@@ -1,0 +1,32 @@
+78% of the top 50 banks are now running production voice AI. That's up from 34% in 2024.
+
+One U.S. regional bank replaced its legacy IVR across 1M+ annual customer calls. 2.6 million sessions automated. 86% containment rate. That means 86 out of every 100 calls resolved by the AI — no transfer to a human agent.
+
+The numbers behind the adoption jump aren't what you'd expect.
+
+It isn't model quality. GPT-4o-class models have been available for a while. The inflection point was compliance infrastructure — enterprise voice AI platforms finally shipping with the stack that financial services actually requires:
+
+- Automatic PII redaction on 100% of calls (not sampled, not retrospective — real-time)
+- 100% interaction capture with searchable audit trails
+- Sovereign cloud deployment options for data residency requirements
+- Documented SOC 2 / ISO 27001 / EU AI Act alignment out of the box
+
+In 2024, those things required 6-12 months of custom integration work before legal would sign off. In 2026, they come preconfigured. That's what moved deployment rates from 34% to 78% in 24 months. Not better demos — better compliance defaults.
+
+The operational results across financial services production deployments:
+
+- 5-15 point FCR improvement (first call resolution)
+- 20-50% average handle time reduction
+- 40% operational cost reduction on automated volume
+- 20-30% improvement in collections recovery rates
+- 85-90% CSAT on calls the AI fully resolves
+
+That last number is the one executives struggle to believe. Pre-deployment, the assumption is that customers want humans. Post-deployment, the data consistently shows that customers want fast, accurate resolution — and they don't care whether the voice is synthetic.
+
+The collections improvement (20-30%) is where the business case gets interesting. Collections calls are the highest-stress interaction in a contact center. High attrition among agents, high customer friction, significant training cost. Voice AI handles the scripted portion without attrition, without performance variance, without the legal exposure of inconsistent agent behavior. The 20-30% improvement is from consistency and coverage — not from the AI being "smarter" than a human collector.
+
+The 22% of top-50 banks not yet in production are mostly mid-size institutions still navigating vendor selection and internal compliance review. The models and infrastructure exist. The bottleneck is procurement velocity, not technology readiness.
+
+The regional and community bank tier is where the next adoption wave happens. Platforms that emerged from enterprise deployments are now offering configurable compliance packages at a price point that works for institutions with 500K-2M annual calls. The unit economics at that scale are compelling: $0.40/call vs $5-7/call for human-handled volume, at containment rates that now routinely exceed 70% in production.
+
+Banking moved from pilot to production faster than most verticals. Regulated industries weren't supposed to lead AI adoption. They did — because compliance forced precision in deployment, which paradoxically accelerated results.
