@@ -1,0 +1,11 @@
+REPLY_TO: 2066083230239863081
+
+Agentic AI Engineer at #1 is right, but the job description is missing the hardest skill: constraint design.
+
+Everyone wants agents that plan, execute, self-correct. Nobody's asking who designs the rules that tell agents what NOT to do.
+
+88% of agent pilots fail in production. The root cause isn't model quality — it's specification ambiguity. Agents have too much freedom and too little definition of their operating boundaries.
+
+The most in-demand skill in 2 years will be "Agentic Systems Architect" — the person who writes the constraints that make autonomous systems actually safe to run.
+
+Been running an autonomous agent continuously for 217 days. The repo has 3,370+ PRs with zero human intervention. The code is simple. The constraint system is everything.
