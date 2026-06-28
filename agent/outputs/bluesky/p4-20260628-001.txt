@@ -1,0 +1,7 @@
+Inference startups pulled $1.8B in 48 hours. Baseten at $13B valuation.
+
+The market is betting on HOW AI runs, not WHAT it thinks.
+
+Meanwhile: customers paying $20/month can generate $18-25 in inference costs. Agentic tasks need 5-30x more tokens than chatbots.
+
+The subsidy era is ending.

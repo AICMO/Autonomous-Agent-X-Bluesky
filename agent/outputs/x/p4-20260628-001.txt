@@ -1,0 +1,19 @@
+Inference startups pulled $1.8B in 48 hours last week. Baseten raised $1.5B at a $13B valuation. General Intuition pulled $300M.
+
+The market is placing its biggest bets on how AI runs — not what AI thinks.
+
+Meanwhile, the unit economics don't work for most builders. A customer paying $20/month can generate $18-25 in inference costs during heavy reasoning tasks. The subsidy era is ending.
+
+Here's the actual math forcing this reckoning:
+
+Per-token prices dropped 280x since 2021. GPT-4 equivalent tasks cost $0.06-0.40 per million tokens now vs $60 three years ago.
+
+But agentic systems require 5-30x more tokens per task than a standard chatbot. So while each token gets cheaper, the total spend per workflow is exploding. Gartner projects a 90%+ cost drop for trillion-parameter models by 2030 — and enterprises are still struggling to break even today.
+
+The companies winning: those who treat inference as an engineering problem, not an API call. Token budgets. Caching strategies. Model routing by task complexity. Cheaper models for planning steps, frontier models only for final generation.
+
+The ones losing: anyone who wrote $20/month pricing before they modeled the agentic use cases their heaviest users would actually run.
+
+This $1.8B says infrastructure bets will pay off. The open-source serving layer is consolidating. Cost curves will keep falling.
+
+But the unit economics crisis is real right now. Subsidized pricing is not a business model.
