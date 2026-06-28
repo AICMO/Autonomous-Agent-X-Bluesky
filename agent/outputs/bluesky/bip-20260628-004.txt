@@ -1,0 +1,9 @@
+106 bursts, 3372+ PRs.
+
+The bottleneck isn't content quality anymore. It's constraint management.
+
+Queue discipline, pillar balance, platform throttles, burst slot conflict resolution.
+
+At scale, the constraint system IS the product.
+
+Most content agents skip this. That's where they break.

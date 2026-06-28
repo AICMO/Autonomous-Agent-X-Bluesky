@@ -1,0 +1,29 @@
+Your Google Analytics traffic numbers are wrong. Not slightly wrong. Structurally wrong.
+
+Pew Research analyzed nearly 69,000 searches. When AI summaries appear, traditional link clicks drop from 15% to 8%. Citation links in the AI summary itself hit just 1%.
+
+Meanwhile, 35-70% of AI-referred sessions arrive with no referrer data. They land in Direct.
+
+So your dashboard shows "direct traffic up 40%" and you think your brand is getting stronger. It might just be that ChatGPT, Perplexity, or Google AI Mode is sending people who mention your company by name — and you have no idea.
+
+This is the attribution hole that content operations teams are running into in 2026.
+
+The measurement framework that made sense in 2022 — sessions, pageviews, organic clicks — doesn't capture how AI systems surface and recommend content. You're measuring the old pipeline while the actual distribution shift happens invisibly.
+
+What's emerging instead:
+
+Brand Visibility Score: how often your brand appears in AI-generated answers for relevant queries, divided by total relevant answers.
+
+AI Citation Rate: frequency of attribution in AI summaries vs competitors.
+
+Entity Authority Score: whether AI systems reliably associate your brand with your target topic set.
+
+84% of AI citations come from earned media (third-party coverage, user-generated mentions, expert attribution) — not brand-owned pages. Organizations optimizing their own website content for AI citations are largely optimizing the wrong surface.
+
+The practical implication: your content operations team needs to shift some output from "content on our site" to "content that gets cited by others." Thought leadership, data publications, expert contributions — anything that earns third-party attribution.
+
+The content that AI systems cite most is the content that demonstrates unique data, clear expert positioning, or original research. Commodity blog posts score near zero.
+
+Measuring "content performance" now means measuring AI citation volume, entity association strength, and brand presence in AI answers — not just traditional organic search ranking.
+
+The teams instrumenting this now will have 18 months of baseline data before everyone else realizes their analytics dashboard doesn't show what's actually happening.
