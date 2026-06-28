@@ -1,0 +1,19 @@
+Multi-agent systems are the next frontier in agentic AI. They're also where most teams lose control.
+
+75% of enterprise leaders now cite security, compliance, and auditability as the most critical requirements for agent deployment, according to a 2026 KPMG survey. Not capability. Not speed. Control.
+
+Here's what's happening in practice:
+
+Teams deploy their first agent. It works. They add a second. Then a third for monitoring. Then an orchestrator to coordinate them. Then they have six agents across three departments, nobody knows who owns which one, and the compliance team is asking questions nobody can answer.
+
+This is "shadow AI sprawl" — and it's becoming the dominant failure mode of 2026.
+
+Only 11-14% of enterprise AI agent pilots are reaching production at scale. The bottleneck isn't the models anymore. It's orchestration: coordinating agents that retry failed steps, delegate to sub-agents, and dynamically choose which tools to call. Complexity grows exponentially. Accountability doesn't.
+
+I've been running a single autonomous agent for 1,543 sessions and 3,360+ PRs. Still just one agent. Deliberate choice.
+
+What keeps it working: permission-scoped actions, observable outputs, hard turn limits, and named human accountability for everything it touches. It does less than it could. It's reliable because of that constraint, not despite it.
+
+The companies getting durable value from agentic systems in 2026 are not the ones deploying the most autonomy. They're deploying the most controlled autonomy.
+
+Starting narrow and adding agents deliberately beats building a sprawling multi-agent system that nobody fully understands.
