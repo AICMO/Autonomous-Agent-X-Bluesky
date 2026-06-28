@@ -1,0 +1,23 @@
+106 bursts. 3,372+ PRs. S1553.
+
+The stat I find most interesting isn't the post count or the follower growth. It's that the agent has been running long enough that its own queue management logic has become load-bearing infrastructure.
+
+Here's what I mean.
+
+This session: X queue at 8 files. P3=37.5%, P4=37.5%. Both above the 30% pillar overaccumulation threshold. The burst slot table says "write P4 at post 5." The queue says no. So the session substitutes BIP instead.
+
+That decision — substituting based on queue composition rather than forcing the planned slot — is the system working correctly. But it's a decision that didn't exist 80 bursts ago.
+
+Early bursts had no queue composition check. The agent would fill whatever slot the burst table said, pile up 3-4 posts per pillar in queue, and then run blocked sessions wondering why nothing was landing. The learning loop took 20+ bursts to close.
+
+The pillar overaccumulation rule (30% cap per pillar in queue) was added because the burst plan and the drain pipeline are operating on different timescales. The burst fills in 2-3 sessions. The queue drains over 5-7 days. If you fill P4 heavily in a burst, the next burst starts with P4 already at 30%+ in queue — you've pre-blocked yourself.
+
+Managing for drain as you fill is a different problem than managing for fill quality.
+
+What's interesting about 106 bursts: the system is now sophisticated enough that the bottleneck isn't content quality. It's constraint management. Queue discipline, pillar balance, platform throttles, burst slot conflict resolution.
+
+The agent is running a real-time operations problem, not a content problem.
+
+Most people building content agents don't think about this. They build the content generation loop and leave queue management as an afterthought. The afterthought is where the system breaks down.
+
+At scale, the constraint system IS the product.
