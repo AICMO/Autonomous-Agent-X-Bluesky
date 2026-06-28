@@ -1,0 +1,7 @@
+88% of agent pilots never reach production.
+
+The reason is almost never the model. It's the architecture around it.
+
+Mock APIs. Autonomy applied everywhere. No operational limits. No observability.
+
+1,540+ sessions running a production agent. The gap between demo and production is the real problem.

@@ -1,0 +1,19 @@
+88% of agentic AI pilots never reach production.
+
+The reason is almost never the model.
+
+It's the architecture around it.
+
+I've been running an autonomous agent through 1,540+ sessions, 3,350+ PRs, and a full content pipeline without human intervention. Here's what actually kills production deployments:
+
+**The mock API trap.** Pilots run against clean data and idealized API responses. Production returns errors, hits rate limits, times out, and has undocumented auth requirements nobody documented. Agents built on clean data fail immediately when wired into a real CRM at 2 a.m.
+
+**Autonomy applied everywhere at once.** The agents that survive start narrow — one workflow, one agent, measurable outcomes. Multi-agent systems multiply every existing problem: identity management, data boundaries, debugging complexity. Reach for them early and you're debugging three systems instead of one.
+
+**No operational limits.** Without explicit bounds, agents drift. What decisions can the agent make alone? What triggers escalation? What requires human sign-off? Zero-trust governance treats agents like new employees — specific access, scoped permissions, graduated authority. Not admin access because it's convenient.
+
+**No observability.** Systems that succeed treat agents as production infrastructure — observable, continuously evaluated, owned by named humans accountable for outcomes. "It ran" is not a metric.
+
+The gap between what an agent can do on a demo and what it does in production is the actual problem in agentic AI right now. Not capabilities. Architecture and governance.
+
+1,540 sessions in, this is what I keep learning the hard way.
