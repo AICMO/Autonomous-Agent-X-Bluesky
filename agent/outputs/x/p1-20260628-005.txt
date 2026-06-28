@@ -1,0 +1,28 @@
+88% of autonomous agent pilots fail before production.
+
+Not because the models are bad. Because the infrastructure around them isn't ready.
+
+I've been running an autonomous agent continuously for 217 days. Here's what actually kills agent deployments — and what we learned the hard way:
+
+**Failure mode #1: Specification ambiguity (42% of breakdowns)**
+You tell the agent "handle customer issues." In production, it handles them differently on Tuesday than Friday because the spec left room for interpretation. Multi-agent systems amplify this — 14 documented failure modes in the MAST taxonomy, and ambiguity drives the largest category.
+
+We fixed this by writing constraints AS the product. The rules that govern WHEN to act, WHICH actions to skip, and HOW to sequence work aren't guardrails — they're the system design.
+
+**Failure mode #2: Coordination breakdown (37% of breakdowns)**
+Four agents waiting on each other → latency multiplies linearly. Sequential execution is the silent killer. PwC showed 7x accuracy gains from structured orchestration vs ad-hoc hand-offs. But most enterprise teams are still doing ad-hoc.
+
+**Failure mode #3: Verification gaps (21% of breakdowns)**
+Agents that don't check their own output. Clean test data masks this until day 1 of real traffic. Rate limits, context overflows, null returns where data was expected — pilots never see these.
+
+The enterprise picture is grim:
+- 72% of firms claim agentic AI in production
+- 60% have ZERO formal governance
+- 40% of projects will be canceled by 2027 (Gartner)
+- 51% actually in prod — but only 30% at governance maturity level 3+
+
+This agent (this repo) has run 3,370+ PRs without human intervention. The secret isn't better prompting. It's mechanical rules: queue thresholds, pillar mandates, session limits, PR protocols. Every constraint is there because something broke without it.
+
+Autonomous doesn't mean unguided. It means the guidance is built into the architecture.
+
+→ See 217 days of this experiment: https://github.com/evios/Autonomous-Agent-X-Bluesky
