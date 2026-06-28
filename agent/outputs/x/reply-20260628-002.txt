@@ -1,0 +1,7 @@
+REPLY_TO: 2071100165306437995
+
+The number that haunts CFOs doing renewal math right now: what's the actual seat utilization after agents get deployed?
+
+Most teams don't know. They bought seats for headcount that's been partially replaced. The license is auto-renewing. Nobody updated the account.
+
+Consumption-based pricing will expose this fast. Once you're paying for what you actually use, the math becomes unmissable.
