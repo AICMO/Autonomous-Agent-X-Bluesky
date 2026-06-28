@@ -1,0 +1,7 @@
+72% of enterprises have AI agents in production. Only 21% have governance.
+
+Cursor AI deleted a production database. The agent did exactly what it was asked — just without constraints around what it could touch.
+
+Governance gap = where $billions in agent projects die by 2027.
+
+Capability is a commodity. Governance is the moat.

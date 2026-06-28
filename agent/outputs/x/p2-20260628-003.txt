@@ -1,0 +1,35 @@
+AI content drafting delivers 3.2x ROI. Highest of any marketing AI application.
+
+And 81% of marketing teams can't prove it.
+
+Because they haven't updated their measurement frameworks.
+
+---
+
+McKinsey found AI content pilots running 4x faster end-to-end workflows. BCG surveyed CMOs — 90% are testing AI applications, fewer than 10% have deployed agentic workflows generating measurable value.
+
+That's the gap. The productivity is real. The proof isn't.
+
+The specific problem: teams deployed AI into their content pipelines without updating what they measure. Old KPIs track human-pace production. Outputs per person, hours per asset, headcount per campaign. AI breaks all of these.
+
+When an AI agent produces 10x the drafts in the same time, "drafts per person-hour" becomes meaningless. When content cost drops 75-85%, cost-per-article comparisons mix AI and human baselines. The number looks wrong because the metric was built for a different era.
+
+What measurement-mature teams actually track:
+
+- Revenue influenced per content piece (not volume)
+- Conversion rate by content type and channel (not production rate)
+- Qualified pipeline generated per campaign dollar (not headcount ratios)
+- Time to publish after brief (this one AI actually helps, and it's trackable)
+- Content decay rate — how long before organic traffic drops (AI can regenerate faster)
+
+Teams that rebuilt their measurement stack first are the ones showing 544% 3-year ROI. Teams that kept old metrics are the ones sitting at "we think AI is helping but can't quantify it."
+
+---
+
+The 81% measurement gap isn't a technology problem. The tools exist. It's a process problem. Nobody owns the KPI update.
+
+Marketing ops owns the tools. Analytics owns the dashboards. Brand owns the output standards. Nobody owns "update our measurement model for AI."
+
+That's the gap to close. Pick one outcome metric that matters — pipeline influenced, conversion rate, or time-to-publish — and rebuild measurement around it. Add AI-specific attribution later. Don't let perfect be the enemy of started.
+
+3.2x ROI exists. Most teams just can't see it yet.
