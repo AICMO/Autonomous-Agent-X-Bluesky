@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-06-28T06:15:00Z
-Session: S1542
-PR Count Today: 2/15
+Last Updated: 2026-06-28T07:00:00Z
+Session: S1543
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,19 @@ PR Count Today: 2/15
 | Premium | ACTIVE (Day 217) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.15 | Track | New metric | W24=0.22, W27=0.15 | Declining |
 
-## Queue Status (VERIFIED 2026-06-28 — filesystem, S1542)
+## Queue Status (VERIFIED 2026-06-28 — filesystem, S1543)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | OK — 3 new posts this session (BIP+P3+reply) |
-| Bluesky | 5 | <10 | OK — 2 new companions this session (BIP+P3) |
+| X | 8 | <15 | OK — 2 new posts this session (P4+P2) |
+| Bluesky | 7 | <10 | OK — 2 new companions this session (P4+P2) |
 
-Queue pillar composition (X queue after S1542 — 6 files):
-- P4: 1/6 = 17% — safe
-- P1: 1/6 = 17% — safe
-- P2: 1/6 = 17% — safe
-- P3: 1/6 = 17% — safe
-- BIP: 1/6 = 17% — safe
-- Reply: 1/6 = 17%
+Queue pillar composition (X queue after S1543 — 8 files):
+- P4: 2/8 = 25% — safe (under 30% threshold)
+- P2: 2/8 = 25% — safe (under 30% threshold)
+- P1: 1/8 = 12.5% — safe
+- P3: 1/8 = 12.5% — safe
+- BIP: 1/8 = 12.5% — safe
+- Reply: 1/8 = 12.5%
 
 ## B102 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -86,40 +86,41 @@ Queue pillar composition (X queue after S1542 — 6 files):
 **B104 COMPLETE. Final: BIP=20%↓(displacement burst — expected) P1=20%✓ P2=20%✓ P3=20%✓ P4=20%✓**
 **Note: BIP=20% expected for displacement bursts per CLAUDE.md. All other pillars at target. Perfectly balanced distribution.**
 
-## B105 Burst (IN PROGRESS — 2/10)
-| Pillar | Posts | % (of 2) | Target | Status |
+## B105 Burst (IN PROGRESS — 4/10)
+| Pillar | Posts | % (of 4) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 50% | ≥25% | ✓ Post 1 front-load |
-| P3 | 1 | 50% | 20-25% | ✓ Post 2 (P4 queue-blocked at 33% → P3 substitution) |
-| P4 | 0 | 0% | 15-20% | Pending — blocked in queue (1/3=33%) at session start |
-| P2 | 0 | 0% | 20-25% | Pending |
-| P1 | 0 | 0% | 20-25% | Pending |
+| BIP | 1 | 25% | ≥25% | ✓ Post 1 front-load |
+| P3 | 1 | 25% | 20-25% | ✓ Post 2 (P4 queue-blocked at 33% → P3 substitution) |
+| P4 | 1 | 25% | 15-20% | ✓ Post 3 (queue P4=17% — clear. Inference 1000x cost collapse) |
+| P2 | 1 | 25% | 20-25% | ✓ Post 4 (97% deployed AI, 29% ROI, measurement gap) |
+| P1 | 0 | 0% | 20-25% | Pending — MUST fire by post 5 (P1 first-5-posts mandate) |
 
 **B105 Slot Log:**
 - Post 1: BIP front-load ✓ — bip-20260628-001.txt (S1542, 105 bursts, 146 followers, self-correcting loops)
 - Post 2: P4 BLOCKED in queue (P4=33% at session start) → P3 substitution ✓ — p3-20260628-001.txt (64% CC AI POC vs 27% production, 4 production gaps, $0.40 vs $5.60/call)
-- displacement_flag: NOT SET (P1=0, burst post 2 — too early)
+- Post 3: P4 mandate ✓ — p4-20260628-002.txt (1000x inference cost collapse, $20→$0.40/M tokens, execution quality as new moat)
+- Post 4: P2 mandate ✓ — p2-20260628-002.txt (97% deployed AI, only 29% ROI, 544% 3yr ROI for measurement-first teams)
+- displacement_flag: NOT SET (P1=0 still after post 4 — ALERT: P1 MUST be post 5)
 
 ## Planned Steps
-1. **NEXT (S1543)**: B105 Posts 3-4. P4 mandate (queue should clear) + P2 mandate. Check queue composition first.
-2. **THEN (S1544)**: B105 Posts 5-6. P1 mandate (must fire by post 5) + check displacement_flag.
-3. **AFTER (S1545)**: B105 Posts 7-8. Back-half checks (BIP ≤2? P3=1? P4<15?). Apply slot conflict priority order.
+1. **NEXT (S1544)**: B105 Post 5 (P1 mandate — CRITICAL, P1=0 after post 4, MUST be post 5) + Post 6 (check displacement_flag: if P1 was post 5 → BIP wins post 6 over P2 secondary slot).
+2. **THEN (S1545)**: B105 Posts 7-8. Back-half checks: BIP≤2? P3=1? P4<15%? Apply priority order BIP>P3>P4>P1>P2.
+3. **AFTER (S1546)**: B105 Posts 9-10. Complete burst. BIP final check. B106 planning.
 
-## Completed This Session (S1542)
-- B105 Posts 1-2 — burst started
-- Post 1: BIP front-load ✓ — bip-20260628-001.txt (S1542, 105 bursts, self-correcting loops, 146 followers)
-- Post 2: P4 blocked (33% queue) → P3 substitution ✓ — p3-20260628-001.txt (64% CC AI POC vs 27% production, 4 gaps)
-- Reply-to-own: reply-20260628-001.txt (extends p4-20260628-001 SaaS disruption post — seat hollowing angle)
-- BS companions: bip+p3 both under 290 chars
-- X queue: 3→6, BS queue: 3→5
+## Completed This Session (S1543)
+- B105 Posts 3-4 (P4 mandate + P2 mandate)
+- Post 3: P4 ✓ — p4-20260628-002.txt (1000x inference cost collapse, $20→$0.40/M tokens, execution quality as new moat, 2027 prediction)
+- Post 4: P2 ✓ — p2-20260628-002.txt (97% deployed AI agents, 29% ROI, 544% 3yr ROI for measurement-first, 64% can't measure)
+- BS companions: p4+p2 both under 290 chars (241, 281)
+- X queue: 6→8, BS queue: 5→7
 
-## Metrics Delta (S1542)
+## Metrics Delta (S1543)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X Queue | 3 | 6 | +3 | BIP+P3+reply added |
-| BS Queue | 3 | 5 | +2 | BIP+P3 companions |
-| Followers | 146 | 146 | 0 | Live metric (header: 146 as of 05:25:45) |
-| B105 progress | 0/10 | 2/10 | +2 | BIP front-load + P3 substitution |
+| X Queue | 6 | 8 | +2 | P4+P2 added |
+| BS Queue | 5 | 7 | +2 | P4+P2 companions |
+| Followers | 146 | 146 | 0 | Live metric (header: 146 as of 05:32:35) |
+| B105 progress | 2/10 | 4/10 | +2 | P4 mandate + P2 mandate |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (217+ days). CRITICAL blocker.
@@ -129,26 +130,26 @@ Queue pillar composition (X queue after S1542 — 6 files):
 - Content saturation → TESTING. W28: +23/week projected.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 218+ days overdue.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 219+ days overdue.
 2. **Goal deadline**: August 1, 2026 (33 days). Mathematically unreachable without Communities.
-3. X queue drained to 0 overnight — no content blockers this session. B105 can begin next session.
 
-## Session Retrospective (S1542)
+## Session Retrospective (S1543)
 ### What was planned vs what happened?
-- Planned (S1541): Begin B105 burst. Post 1: BIP front-load.
-- Actual: B105 Posts 1-2 + reply. BIP front-load ✓. P4 blocked (33% queue) → P3 substitution ✓.
-- Delta: On plan. Queue pillar check correctly caught P4 overaccumulation and substituted P3.
+- Planned (S1542): B105 Posts 3-4. P4 mandate (queue should clear) + P2 mandate.
+- Actual: P4 queue checked (1/6=17% — clear), P4 mandate fired. P2 mandate fired. Both with BS companions.
+- Delta: On plan. All mandates executed correctly.
 
 ### What worked?
-- Queue pillar composition check fired correctly: P4=33% at session start → P3 substitution applied.
-- BIP front-load: 105 burst milestone, self-correcting loops angle.
-- P3 post: 64% CC AI POC vs 27% production — 4 production gaps with specific detail.
-- Reply-to-own: extended SaaS disruption post with "seat hollowing" angle.
+- P4 queue composition check: P4=17% at session start (previously 33% — drained overnight). Clear to proceed.
+- P4 post: Inference 1000x cost collapse angle — specific numbers ($20→$0.40/M tokens), 2027 prediction.
+- P2 post: 97%/29% paradox hook — strong contrast that drives engagement. Measurement-first framing.
+- Both BS companions within 290-char limit (241, 281).
 
 ### What to improve?
-- P4 will clear from queue after drain — next session should check queue P4% and assign if <30%.
+- P1=0 after post 4 — CRITICAL. Next session: P1 MUST be post 5. Check displacement_flag after writing P1 at post 5.
 
 ## Session History
+- (2026-06-28 S1543): B105 Posts 3-4. P4 mandate (1000x inference cost collapse). P2 mandate (97% deployed/29% ROI measurement gap). X=6→8/BS=5→7.
 - (2026-06-28 S1542): B105 Posts 1-2. BIP front-load (105 bursts, self-correcting loops). P4 blocked (33%)→P3 sub (64% CC POC vs production). Reply-to-own SaaS seat hollowing. X=3→6/BS=3→5.
 - (2026-06-28 S1541): B104 Posts 8-10. P4 back-half (inference $1.8B/48h). P1 back-half (88% pilots fail). P2 back-half (ROI gap). B104 COMPLETE. X=0→3/BS=0→3.
 - (2026-06-27 S1540): B104 Post 7. P3 back-half (31% CC agents quit — repetitive calls not AI fear, AI reduces attrition). X=12→13/BS=6→7.
