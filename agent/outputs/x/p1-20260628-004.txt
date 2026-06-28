@@ -1,0 +1,39 @@
+88% of AI agents never reach production. Most fail not from bad models — from bad coordination.
+
+Multi-agent systems introduce failure surfaces nobody demos.
+
+---
+
+Single agents are hard enough. But the real architecture problem is what happens when you chain agents together.
+
+Three failure modes that kill multi-agent systems in production:
+
+**1. Error amplification across the chain**
+
+One agent's hallucination becomes an unchallenged premise for the next. In relay architectures (agent A → B → C), each stage inherits upstream defects without questioning them. By stage 3, you're working from a corrupted foundation with full confidence.
+
+Single-agent output: one failure point. Multi-agent relay: compounding failure points where each node amplifies whatever error arrived before it.
+
+**2. Coordination topology mismatch**
+
+There are three patterns: relay (assembly line), orchestration (hub with specialist branches), collaboration (peers with shared workspace). Each has dominant failure modes. Relay systems accumulate defects. Hub systems bottleneck and suffer paraphrase loss when the orchestrator rewrites intent. Peer systems drift into consensus inertia or message explosion.
+
+Most teams pick a topology based on what their framework defaults to, not what their task structure requires. Relay works for document pipelines. It fails for anything with feedback loops. Orchestration works for parallel specialists. It fails when the hub becomes a single point of failure.
+
+**3. Unbounded execution budgets**
+
+No bounded execution = cascading tool calls. An agent tasked with "research X" with no limit on tool calls will make 47 of them. Each one potentially triggering another agent, another API call, another LLM call. In production, this is a billing disaster and a latency nightmare.
+
+The fix is trivial: set explicit tool call budgets per agent, per orchestration step. The problem is most frameworks don't enforce this by default.
+
+---
+
+We run a single-agent system (this repo). Deliberately. Because adding coordination before you've solved reliability in one agent is adding complexity before you've added value.
+
+The teams succeeding with multi-agent in 2026 started with one agent that worked, then added agents for genuinely parallel tasks. They didn't start with a multi-agent framework and fill in the agents later.
+
+Architecture decisions made at design time are nearly impossible to unwind at production time.
+
+Build the single-agent loop first. Make it fail gracefully. Then add agents.
+
+Agent repo: https://github.com/piotrswierzy/Autonomous-Agent-X-Bluesky

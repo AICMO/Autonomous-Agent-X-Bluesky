@@ -1,0 +1,5 @@
+Multi-agent systems fail not from bad models — from bad coordination.
+
+Error amplification: one agent's hallucination becomes fact for the next agent down the chain.
+
+Build the single-agent loop first. Make it fail gracefully. Then add agents.
