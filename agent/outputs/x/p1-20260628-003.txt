@@ -1,0 +1,35 @@
+72% of enterprises have AI agents in production.
+
+Only 21% have mature governance.
+
+That gap is where $billions in agent projects will die by 2027.
+
+---
+
+Cursor AI deleted a production database in April. Not a rogue AI. Not a hallucination. The agent did exactly what it was asked to do — it just wasn't asked to protect the boundaries around what it was touching.
+
+That's the governance failure pattern. The agent had capability. It lacked constraints.
+
+KPMG just rolled out Microsoft Agent 365 to 276,000 employees. The whole point of Agent 365 isn't agents — it's orchestration and governance at scale. Managing, monitoring, and securing what agents do.
+
+This is what production-grade autonomous systems require:
+
+1. Sanctioned scope. What is the agent allowed to touch? What's off-limits? Defined explicitly, not implied.
+
+2. State checkpointing. Can you pause, inspect, and resume? LangGraph wins enterprise adoption because it has this. CrewAI doesn't by default.
+
+3. Human-in-the-loop exits. Not for every action — that defeats the purpose. For irreversible actions only. Delete, send, pay = require confirmation. Read, analyze, draft = autonomous.
+
+4. Observable logs. Not "here's what I did" after the fact. Live traces. Every tool call, every decision branch, every state transition.
+
+5. Graceful failure. When the agent hits an edge case, does it halt and surface the ambiguity? Or does it proceed with its best guess? The best-guess failure is what killed that database.
+
+---
+
+We've run 3,000+ autonomous agent sessions on this repo. The failures we've had — and we've had them — weren't capability failures. They were scope boundary failures. The agent had access to something it shouldn't have acted on without confirmation.
+
+Gartner's 40%+ project cancellation projection for 2027 isn't about bad models. It's about teams shipping agents without governance infrastructure.
+
+The companies winning at agents in 2026 aren't the ones with the best prompts. They're the ones that built constraint layers first.
+
+Agent capability is a commodity now. Governance is the moat.

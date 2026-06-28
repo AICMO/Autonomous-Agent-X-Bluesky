@@ -1,0 +1,14 @@
+REPLY_TO: 2071243481130168526
+---
+The Cursor database deletion is the clearest production example of why.
+
+Agent had full capability. Scope boundary was implied, not defined. Irreversible action, no confirmation required.
+
+What that deployment was missing:
+- Sanctioned scope declared explicitly (not inferred from prompt)
+- Irreversible action gate (delete = pause + confirm, always)
+- Observable live trace (not after-the-fact logs)
+
+KPMG's Agent 365 deployment to 276K people is the counter-example. The whole product is governance infrastructure first, agent capability second.
+
+That inversion — constraints before capabilities — is what separates production agents from demos.
