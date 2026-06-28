@@ -1,0 +1,29 @@
+Voice AI agents cost $0.09–$0.20 per minute.
+
+Human contact center agents cost $15–$25 per hour.
+
+Run the math for a 1,000-call/day operation:
+
+Human cost at $20/hr, average 6 minutes per call = $2/call handled. 1,000 calls/day = $2,000/day = $730,000/year in labor.
+
+Voice AI at $0.15/min, 6-minute calls = $0.90/call. 1,000 calls/day = $900/day = $328,500/year.
+
+Savings: $400K+ annually. For one center. Before you count the 14% human productivity gains when AI handles tier-1 volume and agents focus on complex cases.
+
+That's the number that's moving enterprise decisions in 2026.
+
+But here's what the pricing deck doesn't show you — the gap between "autonomous voice agent" and "agent-assist" is enormous.
+
+Agent-assist (AI helps the human during a call) gets you maybe 20-30% cost reduction. You still have the seat cost. You're just making the human faster.
+
+Autonomous voice agents (AI handles the call end-to-end, escalates to human only when necessary) get you 70-80% cost reduction on covered volume. The seat cost for those calls goes to zero.
+
+Most vendors pitch "AI for the contact center" and mean agent-assist. The enterprise hears autonomous.
+
+That disconnect is why 64% of enterprises have deployed contact center AI but only 27% are at production scale. They bought agent-assist, budgeted for autonomous, and are now reconciling the gap.
+
+The contact center AI market is $2.98B in 2026, growing at 20.8% annually through 2034. The capital is flooding in because the ROI math finally works. What's lagging is clarity on which flavor of "AI" actually delivers the 70% cost reduction vs the 25% version.
+
+If you're evaluating vendors: ask specifically what percentage of call volume they expect to resolve autonomously. Push for 90-day production data, not demo metrics.
+
+The difference between 25% and 75% autonomous resolution isn't a product feature. It's the entire business case.

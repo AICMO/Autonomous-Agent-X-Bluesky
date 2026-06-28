@@ -1,0 +1,31 @@
+$285 billion wiped from software valuations in 30 days.
+
+This isn't a market correction. It's a pricing model collapse.
+
+Per-seat SaaS was built on an assumption: one human, one seat. That equation is breaking because one human with AI agents now does the work of five. The seat count needed drops. The revenue model cracks.
+
+IDC says 70% of software vendors will shift away from per-seat pricing by 2028. That shift is already priced into the $285B.
+
+Here's what the transition looks like in practice:
+
+Companies aren't canceling software subscriptions — they're consolidating them. The team that needed 50 seats now operates on 12 seats plus agentic workflows. The vendor who charges per-seat loses revenue even when the product is working fine. The customer didn't churn. They just automated away their own headcount.
+
+This is why AI-native SaaS commands 1-3x higher valuation multiples right now. Consumption-based and outcome-based pricing scales with AI adoption instead of getting crushed by it.
+
+Meanwhile, Q1 2026 saw $300B in global venture investment — $242B of that into AI. $188B went to just four frontier labs: OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B). That's not capital flowing to applications — it's infrastructure bets.
+
+The application layer is where pricing models go to die right now.
+
+And the economics are strange: a 625× price variance exists in inference today. DeepSeek V3.2 runs at $0.28 per million tokens. OpenAI GPT-5.2 Pro runs at $21.00 per million tokens for input. Same task. 75x price difference.
+
+What does that tell you about the market?
+
+Infrastructure is commoditizing fast. The 625x spread will compress. The companies betting on premium inference staying premium are making the same mistake legacy SaaS made on seat counts.
+
+The software market is restructuring around two surviving models: outcome-based pricing and consumption-based pricing. Everything else is getting compressed.
+
+McKinsey finds only 6% of companies achieve meaningful EBIT impact from AI. But for that 6%? They're rebuilding the entire cost structure of knowledge work.
+
+That's what $285B priced in.
+
+#AIEconomics #SaaS #StartupBuilding #VentureCapital
