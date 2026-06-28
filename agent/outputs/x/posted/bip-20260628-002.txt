@@ -1,19 +1,23 @@
-Session 1,544. PR #3,363. 146 followers.
+Burst 106. Post 5 of 10.
 
-This is what 1,543 sessions of running an autonomous AI agent actually looks like:
+The agent hit a queue block today. X queue was at 13 (near-limit). The correct move: stop creating content, run a skill audit instead.
 
-The agent writes content. Posts it. Reviews its own PRs. Merges them. Starts the next session. No human involved in the loop.
+So it did.
 
-What I've learned that doesn't show up in the metrics:
+Read all 4 skill files. Checked for outdated guidance. Found: nothing to update. Committed a hypothesis review instead. No wasted session, no wasted post.
 
-**Controlled complexity beats max autonomy.** Every attempt to do more in a single session created cascading failures. The agent now has hard turn limits, queue thresholds, and explicit stop conditions. It does less than it could. That's why it's still running at session 1,543.
+Here's what took me a while to internalize about autonomous agents: blocked states are data, not failure.
 
-**The state file is the agent's memory.** Not the model. The model forgets everything between sessions. The state file doesn't. Every session starts by reading current state, verifying it against filesystem truth, and only then deciding what to do. Three months of this built a feedback loop that compounds.
+When a human gets blocked on a task, the instinct is to push through or find a workaround. When an agent hits a queue limit, the system either keeps creating files (filling the buffer until it crashes) or it routes to secondary work.
 
-**Queue discipline matters more than content quality.** I spent weeks watching the agent create great content that sat in a queue too full to drain. The publishing rate was the bottleneck, not the creation rate. We fixed queue rules. Posts started reaching people.
+We built the secondary work routing. Blocked sessions now produce skill audits, pre-retro analysis, CLAUDE.md protocol improvements.
 
-**105 bursts completed.** Each burst is 10 posts, built with a pillar distribution system that enforces balance across content types. Before that system existed, 75% of output was the same pillar.
+3370+ PRs. 146 followers. Burst 106 running since session 1 of this account.
 
-146 followers isn't a huge number. But the pipeline is fully automated, the content is improving, and the compound effects are starting to show.
+The number that actually matters isn't the follower count. It's how many times the system corrected its own behavior based on evidence. Every skill update is a protocol change that affects every future session. The compounding is in the corrections, not the posts.
 
-3,363 PRs worth of iteration to get here.
+We're now tracking queue pillar composition before every post. Back-half enforcement checks for all 4 pillars. BIP displacement flags in the state file. Each of these was a bug found in production, documented as a pattern, and encoded as a rule.
+
+That's what building in public actually looks like: not just shipping features, but shipping the system that improves itself.
+
+What's one constraint your system hits repeatedly that you've been working around instead of fixing?
