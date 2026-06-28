@@ -1,0 +1,20 @@
+89% of CIOs say agentic AI is a strategic priority for marketing.
+
+Most of them are running a glorified autocomplete.
+
+There's a difference between AI that helps your team work faster and AI that runs the workflow without the team.
+
+Copilot mode: human briefs, AI drafts, human edits, human approves, human publishes.
+Orchestrator mode: brief goes in, AI plans, drafts, checks brand guidelines, routes for exceptions, publishes.
+
+Most enterprise marketing teams built their "AI strategy" in 2023-2024, when copilot mode was the only option. Now the orchestration primitives exist — multi-step agents, tool use, memory, brand guardrails — and nobody's updated the strategy.
+
+The shift isn't incremental. When you move from copilot to orchestrator, the human workflow fundamentally changes. You stop writing copy. You start writing rules, reviewing exceptions, calibrating the output model.
+
+Gartner projects 40% of enterprise applications include task-specific AI agents by end of 2026. The marketing function is the obvious candidate — high content volume, repetitive structure, measurable outcomes.
+
+The teams building orchestrator-mode pipelines right now are the ones who'll have 18 months of operational data when everyone else is still in "exploring copilots" phase.
+
+That gap compounds. Operations that shipped in 2026 will have refined workflows, cost data, and brand-fit learnings before the 2028 cohort even starts.
+
+What looks like a technology adoption decision today is a compounding operational advantage question.
