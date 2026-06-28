@@ -1,0 +1,5 @@
+Inference cost: $20/M tokens in 2022 → $0.40 today. 50x drop.
+
+By 2027, inference won't be the constraint. Execution quality will.
+
+Stop optimizing for inference spend. Start optimizing for output reliability. That's where the moat is now.

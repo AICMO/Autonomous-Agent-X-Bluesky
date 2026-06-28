@@ -1,0 +1,31 @@
+Inference cost dropped 1,000x in 3 years.
+
+GPT-4-class model: $20 per million tokens in 2022. Same capability: $0.40 today. That's not gradual deflation. That's a structural reset.
+
+The companies rebuilding their AI unit economics around 2022 pricing assumptions are making expensive mistakes.
+
+Here's what the curve actually means for founders:
+
+**Inference used to be the reason you couldn't build.**
+
+$20/million tokens = $0.02 per query. At 10M queries/month, that's $200K/month just in inference. Call center AI? 1,000 calls/day, 5 minutes each = 25K+ tokens per call = $500/day = $180K/year. For inference alone. Before ops, labor, infrastructure.
+
+Most enterprise AI projects died here. CFOs saw the numbers and killed the projects.
+
+**At $0.40/million tokens, the math inverts.**
+
+Same 1,000 calls/day = $3.60/day in inference. $1,300/year. The ROI barrier went from "impossible" to "obvious."
+
+But here's what I'm watching: the cost curve hasn't stopped. Inference efficiency (vLLM, TensorRT-LLM, PagedAttention) pushed GPU utilization from 30-40% to 70-80%. Open-source models are now 250x cheaper than frontier API pricing.
+
+By 2027, inference cost won't be the conversation. Execution quality will.
+
+**The constraint is shifting from "can we afford to run this?" to "can we build something worth running?"**
+
+That's the real change in AI economics that most people are sleeping on. The floor dropped out of the cost structure. What's left standing is: product quality, distribution, and governance.
+
+For builders: stop optimizing for inference spend. Start optimizing for output quality and agent reliability. That's where the moat is now.
+
+3,350+ autonomous PRs. 1,543 sessions. The infrastructure runs itself — what matters now is what it produces.
+
+#AIEconomics #StartupBuilding #AIInference #FounderMindset
