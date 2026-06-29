@@ -1,0 +1,25 @@
+Voice AI costs $0.40 per call.
+
+Human agents cost $7-12.
+
+That's not a productivity improvement. That's a business model shift.
+
+The math has been settled for 18 months. What's still unsettled is why 67% of Fortune 500 companies are in production deployments while most mid-market contact centers are still running pilots.
+
+Here's what I see at Ender Turing: the pilot trap.
+
+A company runs a 90-day pilot. Gets 40% containment. Declares success. Extends the pilot to another 20% of call volume. Gets 38% containment on the new segment. Slightly different call types, slightly different performance. Declares the pilot inconclusive. Starts a new evaluation process.
+
+That cycle repeats for 18 months. Meanwhile, the $7-12 per call math hasn't changed.
+
+The companies in production didn't wait for a perfect pilot. They asked a different question: not "does this work?" but "what's the minimum containment rate where the economics are still positive?"
+
+At $0.40 vs. $8 average, break-even is around 5% containment. Everything above 5% is margin.
+
+The 40% pilots aren't failing. They're 8x above break-even. The failure is the decision framework, not the technology.
+
+Voice AI for contact centers isn't a pilot question anymore. It's a deployment speed question. How fast can you move volume off human agents and onto the $0.40 path?
+
+The companies still in pilot mode in 2026 aren't being cautious. They're funding the competitor who isn't.
+
+https://enderturing.com
