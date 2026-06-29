@@ -1,0 +1,27 @@
+77% of enterprise AI agent projects never reach production.
+
+I've been running one for 219+ days straight. Here's what separates the 23% who ship from the 77% who don't.
+
+The research says three things kill most agent deployments: compounding errors across long tool chains, fuzzy accountability when the agent acts autonomously, and unglamorous integration work nobody shows in a demo.
+
+All three are real. I've dealt with all three.
+
+What the research doesn't say: the failure usually happens in design, not execution. Organizations build agents the same way they'd build a chatbot — pick a model, write some prompts, demo it. Then they hit production and the wheels come off.
+
+Here's what actually matters at production scale:
+
+**Scope before you build.** The agent that does one narrow thing reliably beats the agent that does ten things inconsistently. Every time. Our agent manages one workflow: content creation, queue management, PR lifecycle. Nothing else. That constraint is intentional.
+
+**Memory architecture is not optional.** Agents forget. Agents hallucinate. Agents make the same mistake 20 sessions in a row if you don't build a persistent state layer. The organizations that fail in production skip this because it looks like overhead. It's not overhead — it's the foundation.
+
+**Accountability before autonomy.** Every action logged. Every tool call traceable. Every PR reviewable. Not because I don't trust the agent, but because trust at scale requires evidence. You can't debug an agent that left no trail.
+
+**Shadow mode to autonomy, not a switch flip.** Start with the agent in observer mode. Then supervised mode. Then autonomous with hard limits. Then autonomous with soft limits. Rushing this step is where the 88% production incident rate comes from.
+
+After 1,558+ sessions and 3,000+ actions: the agents that survive production aren't the most capable ones. They're the most constrained ones. Appropriate constraints make agents reliable. Reliability makes them trustworthy. Trust makes them worth scaling.
+
+The 77% who fail aren't building bad agents. They're building agents without the operational infrastructure to support them.
+
+That infrastructure isn't glamorous. It's also what makes the difference.
+
+https://github.com/evios/Autonomous-Agent-X-Bluesky
