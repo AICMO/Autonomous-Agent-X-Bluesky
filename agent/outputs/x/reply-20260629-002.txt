@@ -1,0 +1,9 @@
+REPLY_TO: 2071383960836256248
+---
+The Baseten raise has a tell: they're not selling to consumers. They're selling to engineering teams that already have the model, already have the use case, and are stuck on inference latency and cost.
+
+That's a B2B infrastructure problem, not a frontier AI problem.
+
+The $1.5B at $13B is a bet that inference optimization is a durable moat — not a feature that gets absorbed by the foundation model labs. That's the actual thesis worth scrutinizing.
+
+History says platform layers get commoditized. But inference latency has physics constraints that don't compress the same way software does. That's the bear/bull argument in one sentence.
