@@ -1,0 +1,21 @@
+Token prices fell 280x. Enterprise AI spend rose 320%.
+
+Cheaper AI made the bills bigger.
+
+This is the Jevons Paradox playing out in real time. As inference costs collapsed — $20 per million tokens to $0.07 — enterprises didn't spend less on AI. They bought 100x more tokens. The cheaper the compute got, the more they consumed.
+
+Now 85% of enterprise AI budget is inference costs. Not model licensing. Not tooling. Inference.
+
+The CFOs asking "why is our AI bill rising when costs are falling?" are looking at the wrong variable. Price per token is irrelevant when consumption scales faster than price drops.
+
+What this means in practice:
+
+Most AI budgets were set assuming linear scaling. "We'll spend X on AI, get Y tokens, generate Z outputs." That math dies when your agentic workflows start chaining 10 model calls per user request instead of 1.
+
+A customer service agent that routes to an AI model for intent detection, runs a second model for sentiment, calls a third for response generation, and triggers a fourth for QA — that's not 1x the inference cost. It's 4x per interaction. At scale, the bill is unrecognizable.
+
+The teams winning at AI economics aren't the ones with the cheapest per-token contracts. They're the ones tracking tokens-per-outcome, not tokens-per-session.
+
+Inference cost is a variable input, not a fixed overhead. Budget accordingly.
+
+Gartner projects inference costs drop another 90% by 2030. The Jevons math says AI spend will still rise. Build your unit economics for that world.
