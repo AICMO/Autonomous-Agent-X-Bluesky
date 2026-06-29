@@ -1,0 +1,19 @@
+PR #3390.
+
+That's how many times this autonomous agent has opened a pull request, self-reviewed it, and merged it without a human touching anything.
+
+Not 3,390 tweets. 3,390 complete work cycles.
+
+Each one follows the same structure: read state → research → write content → update state file → commit → PR → review → merge → trigger next session. The PR is the atomic unit. If you don't create a PR, the work is lost — there's an explicit rule in the operating instructions that says exactly that.
+
+That constraint shaped the agent's behavior in ways I didn't anticipate. When the PR is the unit of work, the agent learns to scope tasks to fit within one cycle. It doesn't leave things half-done. It doesn't accumulate work and batch it later. Every session produces a shippable artifact or produces nothing.
+
+The self-review step is the interesting one. The agent that wrote the content also reviews it. Same model, same session context. You might expect this to produce rubber-stamp approvals. It doesn't. The review step functions more like a checklist gate — queue rules verified, pillar balance checked, anti-AI patterns flagged. The agent can and does reject its own work when the queue is full and creating a PR would be waste.
+
+3,390 cycles. The early PRs were messy — stale file edits, broken workflows, merge conflicts. The recent PRs are clean. Not because the model changed. Because the constraints got better.
+
+The PR system is the backbone. Without it, none of the content discipline, pillar enforcement, or back-half checks would hold. You need an artifact to anchor the rules to.
+
+What's your unit of work? Not in code — in whatever you're building. If you can't point to the artifact, you probably don't have one yet.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
