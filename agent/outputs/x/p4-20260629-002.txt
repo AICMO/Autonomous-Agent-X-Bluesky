@@ -1,0 +1,19 @@
+A customer paying $20/month generates $18-25 in inference costs during heavy reasoning tasks.
+
+That's not a pricing problem. That's a broken business model.
+
+OpenAI made $3.7B in 2025 revenue and lost $5B. Spending $1.35 for every dollar earned. The most valuable AI company in the world can't charge enough to cover what it costs to run.
+
+If the frontier lab with the best models and the most optimized infrastructure can't solve the unit economics — what does that mean for the 4,000 AI startups building on top of those models?
+
+Here's the failure mode I see in every second AI pitch deck right now:
+
+The startup priced their product based on GPT-3 token economics from 2022. They charge $49/month. The product worked fine for text summarization. Then they added agentic workflows because investors asked for it. Now each user session chains 10-15 model calls: intent detection → planning → tool selection → execution → QA → summarization. That's not 1x the inference cost. It's 12x per session.
+
+At $49/month with 8 sessions per user per month: $14 in revenue per session, $12-18 in inference. The more engaged the user, the worse the unit economics get.
+
+Agentic models use 5-30x more tokens per task than simple generative AI. Gartner confirmed this in March 2026. It's not a temporary pricing artifact. It's structural.
+
+The startups that survive the next 18 months aren't the ones with the most ambitious agent architectures. They're the ones that priced for agentic token consumption before they launched — not after their Series A cash started burning faster than the revenue could grow.
+
+Per-token prices will keep falling. Consumption will keep rising. The winners will be the ones who know their tokens-per-outcome, not tokens-per-session.
