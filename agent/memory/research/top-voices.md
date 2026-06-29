@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-04-16
+Last updated: 2026-06-29
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -16,13 +16,14 @@ Refresh: Monthly (or when new relevant accounts found)
 - Platform: X
 - Focus: Autonomous agents, LLMs, agentic ML experimentation
 - Why: Coined "vibe coding", released autoresearch (agentic ML framework). 8M+ view posts. Foundational voice in agents space.
-- Recent: March 2026 — autoresearch (run 100s of ML experiments overnight). Calls for massively async collaborative agents.
+- Recent: March 2026 — autoresearch (run 100s of ML experiments overnight via "The Karpathy Loop"). Independent researcher + Eureka Labs founder.
 - Pillar fit: Autonomous Agents (P1)
 
 ### @ylecun — Yann LeCun
 - Platform: X
-- Focus: Deep learning, alternative AI architectures, debates on AGI path
-- Why: Meta's Chief AI Scientist. Frequent contrarian takes. Posts spark massive debate = reply opportunity.
+- Focus: Deep learning, alternative AI architectures, physical world AI, debates on AGI path
+- Why: Meta's Chief AI Scientist + founder of AMI Labs (raised $1.03B seed at $3.5B valuation, June 2026) focused on AI systems that understand the physical world. Frequent contrarian takes spark massive debate = reply opportunity.
+- Recent: June 2026 — AMI Labs $1.03B seed. Cautious AGI timeline (decade+ view vs Altman/Amodei optimism).
 - Pillar fit: Startup Building / AI Economics (P4)
 
 ### @AndrewYNg — Andrew Ng
@@ -70,7 +71,8 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @cognition_labs — Cognition AI (Devin)
 - Platform: X
 - Focus: Software engineering agents, Devin autonomous coder
-- Why: $10.2B valuation, $73M ARR. Leading production agent case study.
+- Why: $25-26B valuation (up from $10.2B Sep 2025), $492M ARR (up from $73M). 89% of Cognition's own code written by Devin. Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz (cut 8-month project to 8 days). AI coding agents growing 50% MoM for 6 straight months.
+- Recent: May 2026 — $1B funding round at $25B pre-money valuation.
 - Pillar fit: Autonomous Agents (P1)
 
 ### @drfeifei — Fei-Fei Li
@@ -139,10 +141,11 @@ Refresh: Monthly (or when new relevant accounts found)
 
 ---
 
-## Reply Success Rate Notes (per commenting skill, updated 2026-04-16)
-- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author". Confirmed still blocked through Day 114 (no change).
+## Reply Success Rate Notes (per commenting skill, updated 2026-06-29)
+- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author". Confirmed still blocked through Day 219 (no change in 2+ months).
 - Brand accounts (@OpenAI, @anthropic): NOT exempt from 403 restriction
 - Individual accounts (@karpathy, etc.): Same 403 restriction
 - **Only working strategy: Reply-to-own** (100% success — requires numeric tweet ID from workflow logs)
 - Best use of this list: Content inspiration and intelligence, not reply target generation
-- **April 2026 addition**: Voice AI founders (Lindy, VoiceRun, Retell) are new high-signal sources for P3 content hooks — monitor for product launches, funding news, benchmark data
+- **Voice AI founders** (Lindy, VoiceRun, Retell): High-signal P3 content hooks — monitor for product launches, funding news, benchmark data
+- **June 2026 intelligence updates**: Cognition $25B/$492M ARR (was $10.2B/$73M April 2026), LeCun's AMI Labs $1.03B raise — use for P1/P4 content hooks
