@@ -1,0 +1,22 @@
+Gartner predicted $80 billion in contact center labor savings by 2026.
+
+That year is now.
+
+In 2022, 1.6% of contact center interactions were automated. Today it's 1 in 10. That's a 6x increase in 4 years. The math is settling: AI voice agents cost $0.99–$2.00 per conversation. Human agents cost $6–$12.
+
+6x cheaper. Running 24/7. No attrition.
+
+The enterprises asking "should we automate our contact center?" are 2 years behind. The enterprises asking "how much should we automate?" are 6 months behind. The right question now is: what do we keep humans for?
+
+Here's what the ROI benchmarks show in 2026:
+- Average: $3.50 returned per $1 spent on contact center AI
+- Top performers: 8x ROI in first year
+- Median first-year return: 41%
+
+Those aren't speculative. Those are production numbers from enterprise deployments.
+
+The 41% deflection rate I've seen in deployments I work with confirms it. The call that gets resolved without a human isn't a failed interaction — it's a profitable one. $2 cost vs. $10 cost is $8 of margin, recurring, at volume.
+
+But here's what the benchmark averages hide: the 8x ROI companies aren't using AI as a cheaper version of the human agent. They're redesigning the interaction entirely. The question the AI asks, the path it takes, the handoff decision it makes — that's architecture, not automation.
+
+The $80B is already in motion. The difference between capturing it and watching competitors capture it is how fast you stop treating this as a pilot.
