@@ -1,0 +1,11 @@
+REPLY_TO: 2071605506335035701
+---
+The three killers you'd add after running one for 219+ days:
+
+Permission creep. Agents start with minimal access and accumulate it over time as teams add "just one more" integration. By month 6 the agent touches systems nobody mapped at deployment.
+
+Governance debt. Nobody built the monitoring layer when the agent shipped. Technical metrics (latency, uptime) get watched. Consequential error rates don't. Drift is invisible until something breaks.
+
+Organizational antibodies. The 23% who ship don't just build better agents. They build the surrounding system — logging, traceability, rollback procedures — before they need them. The 77% skip the boring parts and get surprised by them at production scale.
+
+The research says "compounding errors across long tool chains." In practice that often means the tool chains were never fully mapped in the first place.

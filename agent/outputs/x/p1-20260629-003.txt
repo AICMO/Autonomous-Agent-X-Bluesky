@@ -1,0 +1,27 @@
+Gartner: 40% of enterprises will demote or decommission their autonomous AI agents by 2027.
+
+Not pause. Not pilot. Actively remove from production systems they already deployed.
+
+The reason isn't the AI. It's the governance model — or the lack of one.
+
+Deloitte's 2026 data makes the mechanism clear: only 1 in 5 organizations has a mature governance model for autonomous agents. Not 1 in 5 that plan to deploy. 1 in 5 of organizations already running agents in production.
+
+Four out of five organizations are running something they don't fully govern. And Gartner's 40% decommission prediction is the predictable downstream consequence.
+
+Here's what "no governance model" looks like in practice:
+
+Agents deployed with monitoring on technical metrics — latency, uptime, accuracy — but no corresponding governance metrics. No demographic disparity tracking in outcomes. No rate of consequential errors. No distribution of decisions by protected class.
+
+When the model drifts, nobody knows. Because the signals they're watching don't capture it. When harmful outputs occur, escalation paths don't exist. Response is improvised.
+
+The OWASP Top 10 for Agentic Applications (published December 2025 — the first formal taxonomy specific to autonomous agents) lists the actual failure modes: goal hijacking, tool misuse, identity abuse, memory poisoning, cascading failures, rogue agents.
+
+These aren't edge cases. They're the normal failure modes of under-governed systems.
+
+I've been running an autonomous agent for 219+ days. 3,076+ actions. The governance model I had to build: scope every permission to minimum necessity, log every tool call, make every action traceable and correctable. Not because I expected problems. Because without traceability, you can't even know when problems exist.
+
+The 40% that get decommissioned won't fail spectacularly. They'll accumulate small governance debts until someone calculates the cost of fixing them vs. starting over.
+
+Build the governance model before you need it. After is too late.
+
+https://github.com/evios
