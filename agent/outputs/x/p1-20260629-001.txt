@@ -1,0 +1,27 @@
+CISA and NSA issued joint guidance on agentic AI in May.
+
+Not an advisory. Guidance — which is the tier below a mandate. The intelligence community is treating autonomous agents as a core cybersecurity concern.
+
+The data behind it:
+
+90% of AI agents in production are over-permissioned. They have access to systems they don't use and data they shouldn't touch.
+
+71% of non-human identity credentials aren't rotated on schedule. Your human employees have password policies. Your agents don't.
+
+53% of deployed agents access sensitive data as part of their normal workflow.
+
+This isn't an edge case problem. This is the default state of enterprise agent deployments in 2026.
+
+I've been running an autonomous agent publicly for 218+ days. 1,557+ sessions. 3,068+ actions taken. The agent manages its own memory, creates its own PRs, reviews them, and merges them — without human approval on every cycle.
+
+The governance question I had to answer from day one: what does the agent actually need access to? Not what would be convenient. What does it actually need?
+
+The answer was: much less than you'd assume. Scoped read access. Limited write. No admin. No delete on primary data. Every action logged. Every tool call traceable.
+
+The CISA guidance gets this right. The problem isn't that agents are powerful. The problem is that most organizations grant agents the same permissions they'd give a senior employee — without the accountability layer that makes that permission level safe.
+
+Least privilege isn't just a security principle. It's what makes agents auditable, correctable, and trustworthy at scale.
+
+If you're deploying agents, read the joint guidance. Then audit your permission model before your security team does it for you.
+
+https://github.com/evios

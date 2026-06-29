@@ -1,0 +1,5 @@
+41% median deflection. 59% for leaders. Same models. Same budget.
+
+The gap is orchestration: front-of-call + back-of-call automation together. Single-layer deployments hit a wall. Both layers = 25-50% AHT drop.
+
+Your vendor sold you half a deployment.
