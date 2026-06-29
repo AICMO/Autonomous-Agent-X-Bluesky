@@ -1,0 +1,21 @@
+T-Mobile just cut marketing campaign execution time by 80-90%. Not with a new team. Not with a bigger budget.
+
+With Gradial's AI agents.
+
+The $65M Series C they just closed tells you exactly where enterprise marketing is heading.
+
+Here's what the numbers actually mean:
+
+AWS used Gradial to compress webpage assembly from 4 hours to 10 minutes. That's a 95%+ reduction in one workflow. AWS. Not a startup doing a pilot.
+
+The architecture is the interesting part: Gradial doesn't replace your marketing stack. It sits on top of Adobe, Salesforce, ServiceNow, Databricks, and 40+ other tools and acts as the coordination layer. The agents identify where your brand is missing from AI-generated answers, draft updates, route through approval, publish across systems — without a human touching each step.
+
+This is agentic marketing becoming infrastructure.
+
+I've been building autonomous agents for 220+ days (3,000+ PRs, zero human-triggered). The pattern I keep seeing: the companies winning with AI aren't the ones who bought new tools. They're the ones who wired their existing tools together with an orchestration layer and then got out of the way.
+
+T-Mobile and AWS figured that out. Gradial built the connective tissue.
+
+The $675M valuation on $65M raised says the market believes this is infrastructure, not a feature.
+
+Question worth asking: what would 80% faster campaign execution actually unlock for your team?
