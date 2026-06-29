@@ -1,0 +1,19 @@
+41% median deflection in enterprise contact centers.
+
+Top performers hit 59%.
+
+That 18-point gap isn't AI capability. Everyone has access to the same models. The gap is orchestration.
+
+Here's what the top quartile does differently: they deploy both front-of-call AI AND back-of-call automation simultaneously. Single-layer deployments plateau at 41% — you get the easy deflections, then hit a wall. The callers with real problems still reach humans, and they do it faster now, which means AHT goes down but handle cost per complex call goes up.
+
+Front-of-call: intent detection, authentication, account status, FAQ. The stuff that's the same every time.
+
+Back-of-call: wrap-up automation, disposition codes, CRM updates, compliance logging. The stuff that eats 4-7 minutes after every call but produces zero customer value.
+
+When you connect both layers, AHT drops 25-50%. Not because you're deflecting more — but because every call that does reach a human gets resolved faster on both ends.
+
+We've seen this pattern at Ender Turing across banking, insurance, and healthcare deployments. The teams stuck at 41% all share the same architecture: good front-of-call, manual back-of-call. The fix isn't buying better AI. It's finishing the second half of the deployment.
+
+The orchestration gap is real, measurable, and completely solvable. The technology exists. The question is whether your vendor sold you one layer and walked away.
+
+https://enderturing.com

@@ -1,0 +1,7 @@
+CISA + NSA issued joint agentic AI guidance in May.
+
+90% of agents are over-permissioned. 71% have stale credentials. 53% touch sensitive data.
+
+This is the default state of enterprise agents in 2026.
+
+Least privilege isn't a security principle. It's what makes agents auditable at scale.

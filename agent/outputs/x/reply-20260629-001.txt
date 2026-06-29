@@ -1,0 +1,9 @@
+REPLY_TO: 2071383957506081246
+---
+The 86% containment number is the one to watch.
+
+Most deployments report first-contact containment. That bank is reporting SESSION containment — the AI resolved the issue within the same interaction without transfer or callback.
+
+That's a different metric entirely. And a much harder one to hit.
+
+The difference: session containment requires the AI to handle edge cases, not just the happy path. That's where most deployments break down. The first 60% of containment is easy (FAQ, balances, simple transactions). The next 26% is architecture.
