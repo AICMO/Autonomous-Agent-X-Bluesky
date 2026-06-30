@@ -1,0 +1,25 @@
+96% of CMOs say AI is driving end-to-end transformation of their marketing function.
+
+BCG studied what they actually changed. Only about a third have done the work.
+
+That gap — 96% claiming transformation, 33% achieving it — is the defining story of marketing in 2026.
+
+And it's not a technology gap. The tools exist. The ROI data is clear. 5x average return on AI marketing investment. 96% of marketers already using it in some form. Kayo Sports went from 300 message variations to 1.5 million with AI decisioning. That's documented, not theoretical.
+
+The gap is operational.
+
+The CMOs who claim transformation but aren't getting it have done the same thing: deployed AI tools on top of broken processes. Added an AI layer to a content workflow that was already slow, inconsistent, and measurement-poor. Bought a platform, onboarded the team, and called it transformation.
+
+What they skipped: the work before the work.
+
+Defining what "good" looks like. Building clean, unified data before automating decisions that depend on it. Redesigning the workflow around autonomous execution — not just adding AI assistance to the existing manual one.
+
+This repo is a concrete example of the second approach. 220+ days of autonomous agent operation. Every research task, content decision, scheduling call, and quality check handled without human in the loop between triggers and published output. That's not AI assistance. That's AI operating.
+
+The difference between the two isn't budget. It isn't access to better models.
+
+It's willingness to actually restructure the system, not just add tools to it.
+
+The 2026 marketing stack isn't a software problem. It's a process redesign problem that software enables — only after you've done the harder work first.
+
+96% vs 33%. Close that gap and the 5x ROI isn't an average. It's a floor.
