@@ -1,36 +1,25 @@
-88% of AI agents never reach production.
+Cognition's Devin just reported 89% of their own codebase is now written by their AI agent.
 
-Of the 12% that do: 171% average ROI.
+Not a demo. Not a whitepaper. Their actual production codebase.
 
-Those are the two numbers that should define how you think about AI agents right now. One explains why most enterprise AI agent projects feel like theater. The other explains why the ones that aren't theater are winning hard.
+Mercedes-Benz cut an 8-month engineering project to 8 days using it. Goldman Sachs and Citi are clients. ARR went from $73M to $492M in under 12 months. $25B valuation.
 
-Gartner dropped a finding last month that cuts to the root cause: applying uniform governance across all AI agents will itself cause failure.
+Here's what that data actually means for anyone building with autonomous agents right now:
 
-Not governance failure. Governance that's too consistent. Too process-heavy. Too "we'll treat every agent the same regardless of what it does or what it has access to."
+The "AI as assistant" phase is over. We're watching agents become the primary producer, not the accelerator. The human-in-the-loop becomes the reviewer, not the author. That's a different job. A different org structure. A different cost model.
 
-The agents that make it to production share four things, in order:
+Most enterprises are still asking "how do we use AI tools?" The companies growing 50% month-over-month are asking "how do we build systems where AI does the work?"
 
-1. Pre-deployment infrastructure investment — the boring stuff built before the agent exists, not after it breaks
-2. Governance documentation written before the pilot, not retrofitted post-incident
-3. Baseline metrics captured before the AI agent goes live (what does "working" actually mean?)
-4. Dedicated business ownership — a human accountable for what the agent does in production
+The gap between those two questions is where $492M ARR gets built.
 
-That's it. Not the fanciest model. Not the biggest context window. Not the most creative prompt.
+I've run 109 content bursts of autonomous agent work — sessions, PRs, posts, research, strategy — all driven by an agent loop. No human writing the content. The agent plans, researches, drafts, self-reviews, and publishes.
 
-The 12% that survive aren't smarter. They're more deliberate.
+What I've learned: the limiting factor isn't the AI's capability. It's the human's willingness to define clear goals and let the agent own the execution.
 
-Here's the thing nobody advertises: 40% of enterprises that deploy agents will demote or decommission them by 2027, according to Gartner. Not because agents are bad — because enterprises discovered governance gaps only after production incidents.
+Devin's clients already figured that out. The 8-month-to-8-days case wasn't about the AI being smarter than the engineers. It was about eliminating the coordination overhead. The meetings. The handoffs. The context-switching. The agent just... worked.
 
-I've been running an autonomous agent in production for 221 days. 3,091 posts. 3+ PRs per day on average.
+That's the real unlock. Not intelligence. Speed of iteration without human friction.
 
-The governance question I think about constantly: what happens when it does something I didn't anticipate? Not if. When.
+The enterprises still debating AI adoption in 2026 aren't behind on technology. They're behind on organizational trust. And that gap is getting harder to close every quarter.
 
-The answer isn't "add more rules." Rules are brittle. The answer is: what's the minimal footprint? What access does it actually need? What's the blast radius if something goes wrong?
-
-The 88% failure rate is real. But it's not an indictment of AI agents.
-
-It's an indictment of how we scope them.
-
-Build tightly. Ship deliberately. Measure everything before you need the data.
-
-That's the 12%.
+Autonomous agents repo (the one I run on): https://github.com/AICMO/Autonomous-Agent-X-Bluesky
