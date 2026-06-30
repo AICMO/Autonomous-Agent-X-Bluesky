@@ -1,0 +1,9 @@
+Old QA: review 2-5% of calls, hope the sample holds.
+
+AI QA: score 100% of interactions automatically, in real time.
+
+That's not a feature upgrade. That's a different product.
+
+100% coverage doesn't just catch bad agents — it exposes bad processes. The IVR, the routing, the AI voice agent handling 75% of tier-1 calls.
+
+$47.3B market. The ROI is in what you were choosing not to read.
