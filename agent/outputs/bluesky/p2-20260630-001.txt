@@ -1,0 +1,5 @@
+19% of AI agent rollouts never reach payback.
+
+Not because the tech failed. Because orgs measured productivity instead of decision quality, autonomous resolution rate, and escalation accuracy.
+
+Define payback criteria before deployment. Not after.
