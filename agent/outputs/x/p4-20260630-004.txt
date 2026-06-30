@@ -1,0 +1,20 @@
+Anthropic's valuation just passed OpenAI's for the first time. $965B vs $852B. That's worth understanding — not as a rivalry story, but as a signal about where the money in AI actually is.
+
+The structural difference between these two companies isn't models. Both have state-of-the-art models. The difference is revenue mix.
+
+Anthropic: 80% of revenue from enterprise customers.
+OpenAI: A meaningful portion from consumer subscriptions, API, and mixed enterprise.
+
+When enterprise customers dominate your revenue, your unit economics look completely different. Enterprise contracts have multi-year terms, custom pricing, guaranteed minimums. Consumer revenue is churn-exposed, price-sensitive, and tied to a product experience that changes every 6 months.
+
+Investors have started pricing this in. The valuation flip isn't about Claude being better than GPT-4o in some benchmark. It's about predictable cash flows vs. consumer-dependent revenue — and what each implies for long-term margin expansion.
+
+**The parallel in every AI-adjacent business right now:** Revenue mix is the most undervalued variable in AI company analysis. Two companies with identical ARR and identical models can have wildly different valuation multiples based on what portion of that ARR is enterprise vs. consumer.
+
+Enterprise AI revenue is stickier, has higher switching costs, and converts to margin faster as infrastructure costs normalize. A $5M ARR company that's 80% enterprise is a different business than a $5M ARR company at 50/50.
+
+VC already figured this out. Anthropic's Series H at $965B post-money is the market making an explicit bet on enterprise AI revenue concentration being more durable than consumer AI scale.
+
+For anyone building AI products: the question isn't "how do I get users." It's "what portion of my revenue can I structure as enterprise contracts with guaranteed minimums?"
+
+Consumer AI is a product game. Enterprise AI is a revenue architecture game. The valuations are starting to reflect that.
