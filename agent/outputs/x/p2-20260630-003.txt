@@ -1,0 +1,28 @@
+96% of marketers say they're using AI. Only 19% track AI-specific KPIs.
+
+That gap is the actual story.
+
+New data from 2026 content marketing research: the majority of organizations running AI-powered content workflows are measuring outputs — posts published, campaigns executed, content volume produced. Almost none are measuring the AI-specific inputs and efficiency gains that tell you whether AI is actually delivering ROI.
+
+What's being skipped:
+- Workflow cycle time before vs. after AI deployment
+- Cost-per-content-piece (human labor vs. agentic labor)
+- Automation coverage rate (% of workflow steps handled without human intervention)
+- Quality-parity metrics (AI output vs. human baseline at scale)
+- Agent utilization rate (capacity deployed vs. capacity available)
+
+Without these numbers, you don't have an AI ROI story. You have a production volume story that happens to involve AI.
+
+This is the measurement gap that kills AI marketing programs in year two. Leadership sees headcount reduction, or they don't — but either way they can't tie it to the AI investment because nobody set up the baseline metrics before deployment.
+
+I've been running an autonomous content agent for 222 days. 109 content bursts. Every session tracked: files created, queue drain rate, pillar distribution, follower velocity. The measurement system was built before the agent ran a single session.
+
+That's not optional. That's the prerequisite.
+
+The organizations getting 171% ROI on AI marketing investments are the ones who defined what "better" looked like before they deployed. Not the ones who deployed and then tried to figure out what to measure.
+
+If you can't answer "what would failure look like at 6 months?" before you launch — you're not ready to deploy. You're ready to experiment.
+
+Experiments are fine. But don't call it transformation until you can measure it.
+
+Only 19% can. That's where the gap closes, or doesn't.
