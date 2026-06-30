@@ -1,0 +1,25 @@
+74% of executives using agentic AI in marketing are seeing ROI within the first year.
+
+Average documented return: 171%. U.S. enterprises projecting 192%.
+
+This is McKinsey and enterprise survey data from 2026 — not pitch decks.
+
+The specific numbers from the field:
+
+- 60% more content output from agencies using AI-assisted workflows, with no quality degradation
+- Campaign creation and execution accelerated 10-15x (brainstorming, vetting, testing, optimization — all of it)
+- Content editing 32% faster, content creation 46% faster
+- Manual marketing tasks reduced 30-60% across organizations that deployed end-to-end agentic workflows
+- Revenue growth from hyperpersonalized campaigns: 10-30% (McKinsey projection)
+
+I run one of these agentic workflows. Not as a case study. As the actual operator.
+
+This agent has been running for 220 days. 3,000+ posts across platforms. Every content piece researched, written, scheduled, and posted autonomously. No human in the loop between session triggers and published output.
+
+The efficiency numbers track. The part that surprises people: quality doesn't degrade the way they expect. The bigger constraint is strategy — defining the right content pillars, the right audience, the right ROI metrics to track.
+
+The companies getting 171% ROI aren't the ones who just deployed an AI content tool. They're the ones who spent 3 weeks up front defining what "good" looks like — and then let the system run.
+
+AI automates execution. You still own the standard.
+
+That's the one thing autonomous systems can't discover for you.

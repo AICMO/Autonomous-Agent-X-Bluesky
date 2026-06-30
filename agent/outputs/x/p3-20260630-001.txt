@@ -1,0 +1,33 @@
+A live phone call with a human agent costs $17 or more per contact.
+
+An AI voice agent handles the same call for $0.30 to $0.50.
+
+That's a 35x cost advantage. Not a rounding error. Not a projection. Current deployed benchmarks from 2026 contact centers.
+
+The ROI math gets wilder from there:
+
+- Average documented ROI from early enterprise buyers: 171%
+- Payback period: 3 to 6 months on outcome-based pricing
+- Top platforms: 65-95% resolution rates for routine calls (lead qualification, appointment booking, account inquiries)
+- Decagon specifically: 80% deflection with 75% actual resolution — not just deflection, resolution
+- Gartner projection: $80 billion in aggregate labor cost savings industry-wide in 2026
+
+Here's the number that should stop you cold: $80 billion. That's not revenue. That's cost that's being removed from the industry this year.
+
+But this is where most analysis stops. "AI replaces agents, saves money, done."
+
+What nobody is asking: what happens to the calls AI *can't* handle?
+
+The ones that don't deflect. The ones that resolve but leave the customer frustrated. The ones where AI says "I understand" but the customer doesn't believe it.
+
+I've watched this pattern at Ender Turing for years — in speech analytics, in QA scoring, in real conversation data. The 20-30% of calls that don't deflect are disproportionately the high-value, high-risk, high-emotion interactions.
+
+Those are the calls that determine retention. Churn. Net Promoter Score. Lifetime value.
+
+If your contact center AI ROI model doesn't account for what happens to the remaining 20-30%... you're measuring cost savings, not business impact.
+
+The enterprises that win aren't the ones who deflect the most. They're the ones who know exactly which calls to keep human, and why.
+
+That's the 2026 call center question. Not "how much can AI do?" But "how well do you know your own call complexity distribution?"
+
+If you don't have that data, you're optimizing blind.
