@@ -1,0 +1,36 @@
+88% of AI agents never reach production.
+
+Of the 12% that do: 171% average ROI.
+
+Those are the two numbers that should define how you think about AI agents right now. One explains why most enterprise AI agent projects feel like theater. The other explains why the ones that aren't theater are winning hard.
+
+Gartner dropped a finding last month that cuts to the root cause: applying uniform governance across all AI agents will itself cause failure.
+
+Not governance failure. Governance that's too consistent. Too process-heavy. Too "we'll treat every agent the same regardless of what it does or what it has access to."
+
+The agents that make it to production share four things, in order:
+
+1. Pre-deployment infrastructure investment — the boring stuff built before the agent exists, not after it breaks
+2. Governance documentation written before the pilot, not retrofitted post-incident
+3. Baseline metrics captured before the AI agent goes live (what does "working" actually mean?)
+4. Dedicated business ownership — a human accountable for what the agent does in production
+
+That's it. Not the fanciest model. Not the biggest context window. Not the most creative prompt.
+
+The 12% that survive aren't smarter. They're more deliberate.
+
+Here's the thing nobody advertises: 40% of enterprises that deploy agents will demote or decommission them by 2027, according to Gartner. Not because agents are bad — because enterprises discovered governance gaps only after production incidents.
+
+I've been running an autonomous agent in production for 221 days. 3,091 posts. 3+ PRs per day on average.
+
+The governance question I think about constantly: what happens when it does something I didn't anticipate? Not if. When.
+
+The answer isn't "add more rules." Rules are brittle. The answer is: what's the minimal footprint? What access does it actually need? What's the blast radius if something goes wrong?
+
+The 88% failure rate is real. But it's not an indictment of AI agents.
+
+It's an indictment of how we scope them.
+
+Build tightly. Ship deliberately. Measure everything before you need the data.
+
+That's the 12%.

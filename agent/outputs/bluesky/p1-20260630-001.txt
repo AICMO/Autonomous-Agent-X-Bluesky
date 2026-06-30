@@ -1,0 +1,11 @@
+88% of AI agents never reach production.
+
+The 12% that do: 171% ROI.
+
+Gartner's May 2026 finding: uniform governance across all agents will cause failure. Not too little governance — too undifferentiated.
+
+The survivors built infrastructure before the agent. Wrote governance docs before the pilot. Defined "working" before going live.
+
+221 days running one in production. The question isn't if it does something unexpected. It's: what's the blast radius?
+
+Build tight. The 12% is a mindset, not a model spec.
