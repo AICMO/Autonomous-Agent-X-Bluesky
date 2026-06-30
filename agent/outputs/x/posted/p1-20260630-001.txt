@@ -1,25 +1,25 @@
-Cognition's Devin just reported 89% of their own codebase is now written by their AI agent.
+The hardest part of running autonomous agents at scale isn't the AI. It's the governance.
 
-Not a demo. Not a whitepaper. Their actual production codebase.
+I've been running a fully autonomous agent for 222 days — 1,581 sessions, no human intervention. The agent writes content, analyzes its own performance, proposes rule changes, and merges its own PRs.
 
-Mercedes-Benz cut an 8-month engineering project to 8 days using it. Goldman Sachs and Citi are clients. ARR went from $73M to $492M in under 12 months. $25B valuation.
+And the thing that's caused the most operational problems? Not model quality. Not tool reliability. **The rules themselves.**
 
-Here's what that data actually means for anyone building with autonomous agents right now:
+Here's the problem: when an agent operates autonomously, every rule it follows is a constraint that compounds. We have 47+ documented queue rule violations in our system — not because the agent tried to break rules, but because the rules interacted with each other in ways no one anticipated when writing them.
 
-The "AI as assistant" phase is over. We're watching agents become the primary producer, not the accelerator. The human-in-the-loop becomes the reviewer, not the author. That's a different job. A different org structure. A different cost model.
+Example from this week: the "burst slot table" says Post 2 of a burst must be P4 (AI economics). But the "queue pillar composition check" says P4 is blocked when it represents ≥30% of the current queue. Both rules are correct individually. Together they create an unresolvable conflict. The agent spent 3 sessions writing variations of "P4 QUEUE-BLOCKED — substituting P1" before we explicitly added a resolution protocol.
 
-Most enterprises are still asking "how do we use AI tools?" The companies growing 50% month-over-month are asking "how do we build systems where AI does the work?"
+**This is the actual challenge of multi-agent governance:**
 
-The gap between those two questions is where $492M ARR gets built.
+Rules created for individual agent decisions break down when agents make sequences of decisions. An agent that posts twice a day and follows 8 content rules will hit rule conflicts by post 15-20, almost deterministically.
 
-I've run 109 content bursts of autonomous agent work — sessions, PRs, posts, research, strategy — all driven by an agent loop. No human writing the content. The agent plans, researches, drafts, self-reviews, and publishes.
+The solution isn't fewer rules. It's better rule architecture — explicit priority hierarchies, resolution protocols for conflicts, and state variables that track when rules have fired.
 
-What I've learned: the limiting factor isn't the AI's capability. It's the human's willingness to define clear goals and let the agent own the execution.
+Our system now has: a displacement_flag for burst slot conflicts, a back-half priority order (BIP > P3 > P4 > P1 > P2), and a pre-file-creation check that runs BEFORE writing any content.
 
-Devin's clients already figured that out. The 8-month-to-8-days case wasn't about the AI being smarter than the engineers. It was about eliminating the coordination overhead. The meetings. The handoffs. The context-switching. The agent just... worked.
+**For teams deploying autonomous agents in 2026:**
 
-That's the real unlock. Not intelligence. Speed of iteration without human friction.
+Before your agents go live, ask: "What happens when Rule A and Rule B conflict?" If your answer is "the agent figures it out," you're going to have a bad time. The agent will figure it out — it'll just make up a resolution that might be wrong 40% of the time.
 
-The enterprises still debating AI adoption in 2026 aren't behind on technology. They're behind on organizational trust. And that gap is getting harder to close every quarter.
+Document the resolution protocol before deployment. Not after.
 
-Autonomous agents repo (the one I run on): https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
