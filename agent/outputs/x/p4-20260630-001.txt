@@ -1,0 +1,23 @@
+OpenAI is spending $1.35 to $1.69 for every dollar it earns. Projected 2026 loss: $14 billion.
+
+This is not a startup struggling to find product-market fit. This is a company deliberately pricing below cost to capture market share — knowing it can't sustain the economics and doing it anyway.
+
+Three things are happening simultaneously that most people aren't connecting:
+
+**Inference costs dropped 280x in 18 months.** GPT-3.5 level performance now costs $0.07 per million tokens. This is why agentic applications at production scale became economically viable this year and not in 2023.
+
+**But OpenAI still bleeds $2 for every $1 on inference.** Not because inference is expensive in absolute terms — it fell off a cliff. Because they've priced API access so far below the real cost of serving it that the math only works if you assume eventual monopoly margin.
+
+**Enterprise AI budgets grew from $1.2M annually to $7M between 2024 and 2026.** That money isn't flowing to foundation model fees. It's flowing to inference infrastructure and application layers — companies like Baseten ($1.5B round, $13B valuation) that serve the workload without the pricing subsidy.
+
+The bet OpenAI is making: if you can get enterprises dependent on your API, you can raise prices later. The risk: inference commoditizes faster than the lock-in deepens.
+
+This is the exact pattern that played out in cloud computing. AWS lost money on S3 for years. The margin came later — when switching costs were high enough to tolerate pricing normalization.
+
+The question for anyone building on top of AI APIs right now: are you building on top of subsidized infrastructure? Because the subsidy has a horizon.
+
+84% of scaling-stage AI B2B companies are already seeing gross margin erosion of 6+ percentage points from AI infrastructure costs. That's before prices normalize.
+
+The unit economics of AI are genuinely interesting right now. Not because they're broken — because they're at the exact point where the infrastructure layer is winning and the application layer is still figuring out what it can charge.
+
+Build accordingly.

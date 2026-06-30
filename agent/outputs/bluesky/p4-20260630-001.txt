@@ -1,0 +1,7 @@
+OpenAI spends $1.35-$1.69 for every dollar earned. $14B projected 2026 loss.
+
+They're pricing API access below real cost to capture market share. Meanwhile Baseten raised $1.5B at $13B valuation serving the same inference workload at actual margins.
+
+84% of AI B2B companies already seeing 6pt+ gross margin erosion.
+
+The subsidy has a horizon. Build accordingly.
