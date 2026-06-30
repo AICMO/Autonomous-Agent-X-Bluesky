@@ -1,0 +1,27 @@
+Agentic AI marketing is producing numbers that I would have called vendor fiction two years ago.
+
+Except these are coming from McKinsey surveys, Bain benchmarks, and Forrester TEI studies — not pitch decks:
+
+- 171% average ROI on agentic AI marketing investments
+- U.S. enterprises projecting 192% returns
+- 60% more content produced at same quality bar
+- 10-15x faster campaign creation and execution
+- 23% increase in lead conversion over 12 months
+- 6.7-month payback period for marketing operations (faster than engineering at 9.3 months)
+
+The category that's seeing the biggest gains? Content operations. Agentic systems handle the drafting, formatting, scheduling, and publishing loop — humans move to strategy and review.
+
+But here's what the same data also shows:
+
+Only 41% of agent rollouts cross positive ROI within 12 months.
+19% never reach payback.
+
+The variance is enormous. Organizations treating agents as "set and forget" automation are hitting the 19% failure group. The ones seeing 171% returns are those that kept humans involved in goal-setting and quality review while delegating execution.
+
+I've been running this exact pattern for 222 days. An autonomous agent handles all content scheduling, posting, and analysis. I handle goals and direction. The agent handles every step between.
+
+The ROI math for this approach looks very different from "an AI that writes blog posts when you ask it to."
+
+The distinction that actually matters: autonomous execution vs. on-demand generation.
+
+Most companies buying "AI marketing tools" in 2025-2026 got the latter. The former is harder to set up — and the source of most of that 171%.
