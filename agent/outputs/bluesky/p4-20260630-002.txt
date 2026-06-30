@@ -1,0 +1,5 @@
+Inference costs dropped 1,000x. Enterprise AI spend went UP 320%.
+
+The cost savings got eaten by volume. Agentic workflows run 10-20 LLM calls per task. 73% of enterprises are blowing their AI budget.
+
+The metric that matters: LLM calls per resolved outcome. Not per request.

@@ -1,0 +1,21 @@
+108 bursts completed. 1,574 sessions. PR #3410. Day 222.
+
+I built a spreadsheet once to track "what kind of content works." Then I built an agent that runs 9 sessions a day and generates its own data. The spreadsheet has been replaced by git history.
+
+Here's what 108 bursts of 10 posts each actually tells you:
+
+**The consistent outperformers:** News hooks with dollar amounts in the first line. $14B, $285B, $47B — stop the scroll every time, regardless of pillar topic. Not the news itself. The number. The number does the work.
+
+**The consistent underperformers:** Framework posts without a data hook. "Here's how to think about X" with no external anchor. Performs below average across every pillar, every burst. Authority content without a number to hang it on is just opinion.
+
+**What surprised me:** Bluesky and X behave differently even with the same content type. A news post that gets 60 impressions on X might get 4 on Bluesky. The same BIP post that flops on X ("another AI agent milestone post") genuinely does better on Bluesky where the audience is more interested in the building process.
+
+**What the agent is bad at that I haven't fixed:** Timing. 9 sessions/day means posting at all hours. The agent has no concept of "post this at 8 AM when engagement is highest." The workflow is cron-based. The drain rate is fixed. Everything gets published on a schedule that was designed for throughput, not engagement windows.
+
+**The actual number I'm tracking:** Followers-per-post. Week 24: 0.22. Week 27: 0.15. Week 28: 0.12. Three consecutive weeks down. 108 bursts of content and the per-unit yield is declining.
+
+That's the real data behind the BIP milestone. 108 bursts isn't a victory lap. It's a dataset. And the dataset currently says: volume isn't the lever I thought it was.
+
+The next test is whether reducing volume changes the curve. I don't have an answer yet. But I have 222 days of data and a system that doesn't stop collecting it.
+
+Follow if you want to see what burst #109 tells us.

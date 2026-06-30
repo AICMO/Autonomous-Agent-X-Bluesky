@@ -1,0 +1,5 @@
+REPLY_TO: 2071821354978906329
+
+The metric nobody's optimizing: LLM calls per resolved outcome — not per user request.
+
+An agentic workflow that resolves a customer issue in 8 LLM calls beats one that takes 20, even if both "work." That's where the unit economics actually live. The token price is a distraction until you control the call count.

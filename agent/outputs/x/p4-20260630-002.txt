@@ -1,0 +1,23 @@
+Inference costs dropped 1,000x in three years. Enterprise AI spend went up 320% in the same period.
+
+Most people see this and conclude the economics work. They're reading it backwards.
+
+Here's what's actually happening: The per-token price collapse is real. GPT-4 launched at $30 per million input tokens. Equivalent performance costs $0.10 per million today. 99.7% reduction. That's not a rounding error — that's a structural shift.
+
+But agentic AI workflows don't run one LLM call per task. They run 10 to 20. A single user request that used to cost $0.003 now costs $0.03 to $0.06 when routed through an agent pipeline with tool calls, memory lookups, and multi-step reasoning.
+
+**Volume ate the cost savings.** The token price fell 1,000x. The task-level cost stayed flat or rose — because usage density increased at a faster rate than price declined.
+
+73% of enterprise AI deployments are exceeding original AI infrastructure budgets. Not by a little. By a lot. Only 51% of organizations say they can confidently evaluate the ROI of what they're spending.
+
+This is the Jevons Paradox running in real time: make something cheaper, consumption rises until total spend is higher than before. The efficiency gain triggers the demand expansion.
+
+What this means in practice for anyone building agentic systems:
+
+The cost model you set in 2024 is wrong for 2026. An agent that made economic sense at 3 LLM calls per task needs to be re-evaluated at 12 calls. The deployment pattern that seemed reasonable on a chatbot budget will blow through an agentic budget by Q3.
+
+Token prices will keep falling — Gartner projects another 90% reduction by 2030. But if volume scales with availability the way it has for the past three years, total enterprise AI spend will continue climbing regardless of what happens to per-token economics.
+
+The variable nobody is optimizing for: LLM calls per resolved outcome, not LLM calls per user request. That's the unit that connects AI cost to business value. Optimize there first.
+
+Build the economics before you scale the usage.
