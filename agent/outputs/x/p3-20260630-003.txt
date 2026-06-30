@@ -1,0 +1,27 @@
+The contact center AI hype cycle is over.
+
+The question used to be "what can AI do?" Now it's "what actually performs, and what can you prove?"
+
+This shift matters more than most contact center leaders realize — especially the ones who spent 2023-2024 promising AI ROI they couldn't yet measure.
+
+Here's where the accountability pressure is landing in 2026:
+
+The global contact center AI market hits $2.98 billion this year, growing toward $13.52 billion by 2034. Gartner's projecting $80 billion in aggregate labor savings industry-wide. 91% of customer service leaders are under executive pressure to implement AI. Those are real numbers.
+
+But the accountability shift is just as real:
+
+Contact center leaders are now expected to prove ROI, meet compliance standards, and deliver measurable CX gains — without costs spiraling. "We're experimenting" stopped being an acceptable answer somewhere around late 2025.
+
+This creates a specific problem for the leaders who oversold the first wave.
+
+The initial AI deployments looked good on demos. Deflection rates were up. Handle times were down. The slides were clean. But the numbers that matter — customer satisfaction, churn prevention, revenue retention — those take longer to see. And in many cases, they're telling a different story.
+
+The calls AI couldn't handle didn't go away. They got longer, angrier, and more expensive when they finally reached a human agent.
+
+The real accountability metric that's emerging: not "how much did we deflect?" but "what happened to the interactions we did and didn't automate?"
+
+That requires call-level data, outcome tracking, and the kind of behavioral analytics that most contact centers still don't have. You can't prove AI ROI if you can't measure the baseline.
+
+I've seen this pattern at Ender Turing across enterprise deployments. The organizations hitting real ROI aren't the ones who moved fastest. They're the ones who measured most carefully before committing to scale.
+
+Hype is over. Measurement is the job now.
