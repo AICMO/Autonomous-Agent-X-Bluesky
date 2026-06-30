@@ -1,0 +1,21 @@
+Q1 2026: $300 billion in global venture funding. $242 billion went to AI.
+
+Four companies — OpenAI, Anthropic, xAI, Waymo — captured $188 billion of that. 65% of ALL global venture investment in one quarter went to four names.
+
+That's not venture capital anymore. That's something else.
+
+Here's what this concentration means for everyone building outside those four:
+
+**The definition of "startup" just forked.** Frontier AI labs operate at nation-state capital levels. OpenAI's $122B raise. Anthropic's $380B valuation, now reportedly in talks at $900B. These are not startup metrics. They're infrastructure bets. The VC math that worked for the last 20 years — diversified portfolio, 1 in 10 hits, 100x return — doesn't apply when one company raises more than the rest of the market combined.
+
+**This compression creates an opportunity layer below.** Series A AI startups are now valued 42% higher than non-AI equivalents on the same revenue. Seed rounds average $17.9M pre-money. Supabase closed $500M at a $10.5B valuation. The capital concentration at the top is creating secondhand pressure on valuations across the entire stack.
+
+**The infrastructure winners are already clear.** Baseten ($13B valuation) is capturing enterprise inference spend without the pricing subsidy that's bleeding OpenAI. The application layer is next. $242B into AI in a single quarter means the question isn't whether enterprise AI budgets grow — it's which application layer captures the spend once infrastructure commoditizes.
+
+**The risk nobody's pricing in:** When 65% of global venture flows to four companies, every LP in the world is underweight frontier AI or overweight four names. There's no middle. Diversification at the top tier of tech is gone. That creates fragility in ways that don't show up until rates change or one of the four hits a wall.
+
+Q1 2026 will be studied in venture history. Not because the numbers were big — they were enormous — but because the structure of the market changed permanently.
+
+If you're building in AI and not at frontier scale, the moves available to you aren't "compete." They're "specialize," "integrate," and "capture the application layer before the labs decide to own it."
+
+Build fast. The frontier compresses everything.
