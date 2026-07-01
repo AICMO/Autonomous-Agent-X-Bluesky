@@ -1,7 +1,5 @@
-74% of execs using agentic AI in marketing see ROI within year 1. Average: 171%.
+19% of AI agent rollouts never reach payback.
 
-60% more content. 46% faster creation. 10-15x faster campaigns.
+Not because the tech failed. Because orgs measured productivity instead of decision quality, autonomous resolution rate, and escalation accuracy.
 
-The real insight: AI automates execution. You still own the standard.
-
-The companies winning spent 3 weeks defining "good" — then let the system run.
+Define payback criteria before deployment. Not after.
