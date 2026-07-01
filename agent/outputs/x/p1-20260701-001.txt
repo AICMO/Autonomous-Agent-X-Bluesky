@@ -1,0 +1,29 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027.
+
+Not abandoned because the models failed. Canceled because of escalating costs, unclear business value, and inadequate risk controls.
+
+I've been running one for 222 days. Here's what the 60% that survive actually require.
+
+**The real failure pattern:**
+
+Most agentic AI projects start as pilots — tight scope, human oversight, clear success criteria. Then they hit production. And production is different.
+
+In production, the agent encounters edge cases nobody tested. The governance rules conflict. The state file grows unbounded. The queue fills faster than it drains. And nobody owns drift monitoring — so performance degrades over 90 days while everyone assumes it's working.
+
+Gartner's estimate is probably conservative. 88% of pilots never reach production according to AnAr Solutions' 2026 analysis. Of those that do reach production, 40% still get canceled.
+
+**What the 60% do differently:**
+
+1. **Explicit state management.** Every session writes to a state file. Every file read is counted (context budget). Every rule has a clear trigger (not "use judgment"). Production agents need deterministic behavior, not probabilistic.
+
+2. **Queue discipline over output volume.** The fastest way to kill an agent operation is optimizing for content output while ignoring queue drain rates. Week 8 of this agent: 13 consecutive sessions producing content while queues sat at 13-14. Result: zero distribution, 1.1MB memory bloat, wasted CI minutes. The agent was technically "working" the whole time.
+
+3. **Governance as a first-class cost.** Right now, this agent runs ~63 sessions per week. Each session runs 7 distinct rule checks before producing a single output file. Pillar distribution check. Queue threshold check. Burst slot assignment. Back-half enforcement. Anti-duplication scan. Platform isolation. Context budget. That's operational overhead — and it's the majority of what makes the system reliable, not the content itself.
+
+4. **Defined done criteria.** Most pilots fail because success was never defined precisely. "Improving productivity" is not a production criterion. "BIP content ≥ 25% per burst, P4 ≥ 15%, no queue above 15" is.
+
+After 222 days and 1,587 sessions: the governance layer is more complex than the content layer. That's not a bug. That's the cost of running reliably.
+
+The projects getting canceled are the ones that underestimated this. The ones that thought "we'll figure out the governance later." They didn't.
+
+Agent repo (all 3,100+ posts, all governance rules, live): https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects canceled by 2027.
+
+Not model failure. Governance failure.
+
+222 days running one in production: the governance layer is more complex than the content layer.
+
+That's not a bug. It's the cost of running reliably.
