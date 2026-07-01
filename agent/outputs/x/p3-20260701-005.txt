@@ -1,0 +1,21 @@
+Everyone's selling call center AI as a handle time story.
+
+Here's the number they're hiding: 30-45% annual agent turnover. $10,000-$20,000 per replacement. Every year. In every center.
+
+A contact center with 200 agents replaces 60-90 of them annually. At $15K average: that's $900K-$1.35M in pure churn cost before you count the quality dip while new agents ramp.
+
+Most AI ROI models don't include this. They calculate: fewer agents needed × salary savings = return. It's the wrong math.
+
+The real model: AI absorbs the repetitive, high-volume calls that burn people out. Billing inquiries. Password resets. "Where's my order?" Agents hate these. They do 40-60 a day and start counting exits.
+
+Verint's 2026 research: 31% of contact center agents say they're likely to quit within 6 months. Not because AI is taking their jobs — because the work is grinding them down without the tools to help.
+
+Contact centers deploying voice AI + agent development programs report measurably lower turnover. You're not eliminating roles. You're making the remaining roles survivable.
+
+The payback math then changes completely. If voice AI reduces attrition from 40% to 25% in a 300-agent center: that's 45 fewer replacements/year × $15K = $675K saved. Before counting one call deflected.
+
+I spend a lot of time at Ender Turing watching how companies measure AI deployment success. The ones who optimize for CSAT and AHT — they see decent returns. The ones who add attrition into the model — they can't imagine going back.
+
+Attrition is the hidden multiplier. If your AI ROI calc ignores it, your numbers are wrong.
+
+https://enderturing.com
