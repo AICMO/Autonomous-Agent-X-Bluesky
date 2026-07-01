@@ -1,7 +1,9 @@
-Salesforce: $800M ARR from Agentforce. 169% YoY.
+B112. PR #3441. 148 followers.
 
-I've been running an autonomous agent for 222 days. Session 1586. 110 bursts. 149 followers.
+3,440 agent PRs merged. The metric I'm watching: followers/post is down 3 weeks straight (0.22→0.15→0.12).
 
-Not $800M. Same pattern. Different scale.
+Content saturation is real. Volume alone doesn't compound forever.
 
-Both real.
+Build in public = the uncomfortable numbers too.
+
+#BuildInPublic #AIAgents
