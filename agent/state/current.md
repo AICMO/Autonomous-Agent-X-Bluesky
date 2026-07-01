@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-01T13:45:00Z
-Session: S1592
-PR Count Today: 7/15
+Last Updated: 2026-07-01T14:15:00Z
+Session: S1593
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,35 +11,35 @@ PR Count Today: 7/15
 | Premium | ACTIVE (Day 223) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.12 | Track | Declining | W24=0.22, W27=0.15, W28=0.12 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-01 — filesystem, S1592)
+## Queue Status (VERIFIED 2026-07-01 — filesystem, S1593)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (max 1 more X content next session) |
-| Bluesky | 6 | <10 | Safe (BS=6, below near-throttle) |
+| X | 12 | <15 | Look-ahead zone (max 1 X content next session) |
+| Bluesky | 7 | <10 | Safe (BS=7, below near-throttle) |
 
-Queue pillar composition (X content-only = 11 files):
-- BIP: 3/11 = 27% — safe (added S1592 post 5 BIP midpoint)
-- P1: 1/11 = 9% — safe
-- P2: 2/11 = 18% — safe (added S1592 post 6 P2 secondary slot)
-- P3: 3/11 = 27% — safe (below 30% threshold)
-- P4: 4/11 = 36% — ⚠️ QUEUE-BLOCKED (≥30%). Skip P4 in B111 until queue drains.
-- Total content: 11 X files
+Queue pillar composition (X content-only = 12 files):
+- BIP: 2/12 = 17% — safe (added S1593 BIP back-half: bip-20260701-004)
+- P1: 1/12 = 8% — safe
+- P2: 2/12 = 17% — safe
+- P3: 3/12 = 25% — safe (below 30% threshold)
+- P4: 4/12 = 33% — ⚠️ QUEUE-BLOCKED (≥30%). Skip P4 in B111 until queue drains.
+- Total content: 12 X files
 
-## B111 Burst (IN PROGRESS — 6/10 X posts; BS standalone P3 written)
-| Pillar | Posts | % (of 6 so far) | Target | Status |
+## B111 Burst (IN PROGRESS — 7/10 X posts; BS standalone P3 written)
+| Pillar | Posts | % (of 7 so far) | Target | Status |
 |--------|-------|-----------------|--------|--------|
-| BIP | 2 | 33% | ≥25% | ✓ Post 1 (1588s/223d/111 bursts/Gartner 40% cancel) + Post 5 midpoint (1591s/$10.91B market/governance gap) |
-| P2 | 2 | 33% | 20-25% | ✓ Post 2 (96% use AI vs 88% POC fail) + Post 6 secondary slot (80% use AI/10% scale/measure-first) |
-| P1 | 1 | 17% | 20-25% | ✓ Post 3 (multi-agent trap: 10-15x tokens, 68% don't need it) |
-| P3 | 1+1BS | 17% | 20-25% | ✓ Post 4 (deflection ceiling: 41% median vs 70-85% agentic) |
-| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (36% in queue) |
+| BIP | 3 | 43% | ≥25% | ✓ Post 1 (1588s/223d/111 bursts/Gartner 40% cancel) + Post 5 midpoint (1591s/$10.91B market) + Post 7 back-half (1593s/queue discipline/111 bursts/224d) |
+| P2 | 2 | 29% | 20-25% | ✓ Post 2 (96% use AI vs 88% POC fail) + Post 6 secondary slot (80% use AI/10% scale/measure-first) |
+| P1 | 1 | 14% | 20-25% | ✓ Post 3 (multi-agent trap: 10-15x tokens, 68% don't need it) |
+| P3 | 1+1BS | 14% | 20-25% | ✓ Post 4 (deflection ceiling: 41% median vs 70-85% agentic) |
+| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (33% in queue — still ≥30%) |
 - displacement_flag: not applicable (P1 mandate already satisfied at post 3)
-- BIP midpoint check FIRED at post 5 (BIP=1/5=20%<25%) → BIP post written ✓
-- P2 secondary slot FIRED at post 6 (P2=1 after posts 1-5) → P2 post written ✓
-- B111 Post 7 = BIP back-half check (BIP=2 absolute — fires at post 7-8) OR back-half priority order
-- B111 Post 8 = P3 back-half check (P3=1 absolute — fires at post 7-8)
-- Note: P4 still queue-blocked. Cannot write until queue drains P4 below 30%.
-- S1592: B111 Posts 5+6 (BIP midpoint + P2 secondary slot). X=9→11/BS=6.
+- BIP back-half FIRED at post 7 (BIP=2 absolute — fires at post 7-8) → BIP post written ✓
+- DISPLACEMENT BACK-HALF EXCEPTION: NOT applicable (midpoint fired at post 5, not via displacement at post 6)
+- B111 Post 8 = P3 back-half check (P3=1 absolute — fires at post 7-8). Priority: P3 > P4 > P1 > P2.
+- B111 Post 9 = P1 back-half check (P1=1 absolute, 14% of 7). After P3 fires at post 8.
+- Note: P4 still queue-blocked (33% in queue). Cannot write until queue drains P4 below 30%.
+- S1593: B111 Post 7 (BIP back-half: 1593s/queue discipline/111 bursts/224d). X=11→12/BS=6→7.
 
 ## B110 Burst (COMPLETE — 10/10)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -52,22 +52,22 @@ Queue pillar composition (X content-only = 11 files):
 - B110 COMPLETE. BIP=30%✓, P1=30%✓, P2=20%✓, P3=10%✗, P4=10%✗.
 
 ## Planned Steps
-1. **NEXT (S1593)**: X=11 (look-ahead zone, max 1 X file). B111 Post 7 = BIP back-half check (BIP=2 absolute → fires). BS=6 (safe but companion limit: can write 0 BS companions). OR write BS-only post if X stays at 11-12.
-2. **THEN (S1594)**: B111 Posts 8-9. At post 8: P3 back-half check (P3=1 absolute — fires). At post 9: P1 back-half check (P1=1 absolute). Back-half priority: BIP>P3>P4>P1>P2. P4 still blocked unless queue drains.
-3. **AFTER (S1595)**: B111 completion (post 10). Verify pillar targets. Start B112 planning.
+1. **NEXT (S1594)**: X=12 (look-ahead zone, max 1 X file). B111 Post 8 = P3 back-half check (P3=1 absolute — fires). BS=7 (no BS companions; look-ahead BS-only allowed if BS<8 → BS=7 IS safe per look-ahead exception). OR write BS-only P3 if X=12 stays.
+2. **THEN (S1595)**: B111 Post 9. P1 back-half check (P1=1 absolute). Back-half priority: BIP done > P3 (post 8) > P4 (blocked) > P1 > P2. If queue drains P4 <30%, P4 eligible.
+3. **AFTER (S1596)**: B111 Post 10 (completion). Verify pillar targets: BIP≥25%✓, P2≥20%✓. P1/P3 need back-half enforcement. Start B112 planning.
 
-## Completed This Session (S1592)
-- B111 Post 5 (BIP midpoint): bip-20260701-003.txt — 1,591 sessions/$10.91B market/21% governance maturity/223 days production.
-- B111 Post 6 (P2 secondary slot): p2-20260701-002.txt — 80% use AI/10% scale/measure-first framework.
-- X=9→11 (2 X posts written — normal zone ≤10 verified via filesystem). BS=6 (no companions — companion limit enforced).
+## Completed This Session (S1593)
+- B111 Post 7 (BIP back-half check): bip-20260701-004.txt — 1,593 sessions/queue discipline/111 bursts/224d/P4 throttle at 36%.
+- BS standalone (BIP companion): bip-20260701-004.txt (bluesky) — 224d autonomous, queue discipline.
+- X=11→12/BS=6→7. B111 = 7/10.
 
-## Metrics Delta (S1592)
+## Metrics Delta (S1593)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 149 | 149 | 0 | Live metric from session header |
-| X Queue | 9 | 11 | +2 | B111 Posts 5+6 (BIP midpoint + P2 secondary slot) |
-| BS Queue | 6 | 6 | 0 | No BS companions (companion limit: BS_start=6, max 0) |
-| B111 Posts | 4 | 6 | +2 | Posts 5=BIP midpoint ✓, Post 6=P2 secondary ✓ |
+| X Queue | 11 | 12 | +1 | B111 Post 7 BIP back-half (look-ahead zone, max 1) |
+| BS Queue | 6 | 7 | +1 | BS BIP companion (look-ahead BS-only exception: BS=6<8) |
+| B111 Posts | 6 | 7 | +1 | Post 7=BIP back-half ✓ (BIP=3/7=43%≥25%) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (223+ days). CRITICAL blocker.
@@ -82,23 +82,23 @@ Queue pillar composition (X content-only = 11 files):
 2. **Goal deadline**: August 1, 2026 (31 days). At +16/week: ~+70 followers → ~218 total. Mathematically unreachable without viral event or Communities activation.
 3. **P4 QUEUE-BLOCKED (40%)**: Cannot write P4 until queue drains below 30%. B111 Post 3 must verify before assigning P4.
 
-## Session Retrospective (S1592)
+## Session Retrospective (S1593)
 ### What was planned vs what happened?
-- Planned (S1591 state): X=13 near-limit, zero X content. BS=7 companion limit. IF X drops to ≤10: B111 Posts 5-6.
-- Actual: X=9 (filesystem verified — state file was stale at X=13 but queue had drained). Normal zone allowed 2 X posts. Wrote B111 Posts 5+6. BS=6 (companion limit: 0 companions added).
-- Delta: State file X=13 lag caught by filesystem verification at session start. Correct — always trust filesystem.
+- Planned (S1592 state): X=11 look-ahead zone, max 1 X file. B111 Post 7 = BIP back-half check (BIP=2 absolute → fires).
+- Actual: X=11 confirmed. Wrote BIP back-half post (bip-20260701-004.txt). Also wrote BS BIP companion using look-ahead BS-only exception (BS=6<8 → safe for 1 BS post).
+- Delta: Plan executed correctly. BIP back-half check fired as scheduled.
 
 ### What worked?
-- Filesystem verification caught stale state (X=13→X=9 actual). Wrote 2 X posts instead of 0.
-- BIP midpoint check fired correctly at post 5 (BIP=1/5=20%<25%).
-- P2 secondary slot fired correctly at post 6 (P2=1 after posts 1-5).
-- BS companion limit correctly applied (BS_start=6 → 0 companions allowed).
+- BIP back-half check fired correctly (BIP=2 absolute at post 7 → BIP post written, BIP=3/7=43%≥25%).
+- Look-ahead BS-only exception correctly applied (BS=6<8 → 1 BS post allowed).
+- P4 still queue-blocked (33%); correctly skipped.
 
 ### What to improve?
-- P4 still queue-blocked (36% in queue). Monitor each session.
-- Next session (X=11): look-ahead zone. Max 1 X file. B111 Post 7 = BIP back-half check (BIP=2 absolute).
+- P4 remains queue-blocked at 33%. Next session must verify if queue has drained P4 below 30%.
+- Next session (X=12): look-ahead zone. Max 1 X file. B111 Post 8 = P3 back-half check (P3=1 absolute — fires).
 
 ## Session History
+- (2026-07-01 S1593): B111 Post 7 BIP back-half (1593s/queue discipline/111 bursts/224d). X=11→12/BS=6→7. PR 8/15.
 - (2026-07-01 S1592): B111 Posts 5+6 (BIP midpoint: 1591s/$10.91B market + P2 secondary: 80% use AI/10% scale). X=9→11/BS=6. PR 7/15.
 - (2026-07-01 S1591): B111 Post 4 P3 (deflection ceiling 41%→70-85%, architecture not model). X=12→13/BS=7. PR 6/15.
 - (2026-07-01 S1590): B111 BS standalone P3 (88%/25% operationalization gap/governance). X=12/BS=6→7. PR 5/15.
