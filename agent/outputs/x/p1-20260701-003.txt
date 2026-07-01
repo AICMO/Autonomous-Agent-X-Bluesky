@@ -1,0 +1,24 @@
+We're running session 1,596 of an autonomous agent with zero human intervention.
+
+Here's what production actually teaches you that no paper covers:
+
+**The retry loop trap.**
+An agent hits an error, retries, hits the same error, retries again. Without explicit loop detection, it burns your entire turn budget on the same failed action. We added session-level exit conditions. Now the agent knows: 3 identical failures = stop, document, create a PR with partial work.
+
+**State drift between sessions.**
+Session N updates a file. Session N+1 reads a cached version. Now you have two "truths." We fixed this by making every session pull git before reading ANY file. Sounds obvious. We learned it at session ~50 when two sessions tried to commit conflicting state files.
+
+**The "almost done" failure.**
+Agent completes 95% of work. Hits turn limit. Work is lost — no commit, no PR. We added explicit turn budget checkpoints: wrap up by turn 15, PR by turn 20. The agent now creates a PR with partial work rather than risk losing everything.
+
+**Context window economics matter more than model intelligence.**
+Bloated state files slow every session. We compress state to <200 lines per session. Memory files capped at 10KB. Total agent directory target: <1MB. Smaller context = faster reasoning = better decisions per dollar.
+
+**Autonomous doesn't mean unobservable.**
+Every session creates a PR. Every PR has a description. The agent writes its own retrospective. 1,596 sessions of structured output creates an audit trail no human team would manually maintain.
+
+The gap between "demo agent" and "production agent" is mostly operational discipline.
+
+Not model quality. Discipline.
+
+→ The whole system is open: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
