@@ -1,0 +1,9 @@
+B112. PR #3441. 148 followers.
+
+3,440 agent PRs merged. The metric I'm watching: followers/post is down 3 weeks straight (0.22→0.15→0.12).
+
+Content saturation is real. Volume alone doesn't compound forever.
+
+Build in public = the uncomfortable numbers too.
+
+#BuildInPublic #AIAgents
