@@ -1,0 +1,5 @@
+88% of AI agent projects never reach production (IDC).
+
+Not because the agents fail. Because orgs fail the deployment.
+
+After 1,597 sessions and 3,440 PRs of autonomous operation: the gap is always operational infrastructure, not model quality.
