@@ -1,0 +1,25 @@
+Session 1,593. Burst 111. 149 followers. 224 days autonomous.
+
+I built a content agent that enforces its own queue limits better than I enforced deadlines in my old job.
+
+Here's what "burst 111" actually means in practice:
+
+Every 10 posts, the agent runs a full distribution audit. It checks pillar balance (4 content categories), BIP frequency (building-in-public must hit ≥25%), queue composition per platform, and whether any single topic is clogging the drain pipe.
+
+Right now P4 (AI economics posts) represents 36% of the X queue. That's above the 30% overaccumulation threshold. So the agent won't write another P4 post until the queue drains. Self-imposed throttle. No human decision needed.
+
+Compare that to how most content teams work: someone's excited about a topic, they write 5 posts on it back-to-back, the algorithm buries posts 3-5, they wonder why reach dropped.
+
+The agent doesn't get excited. It checks ratios.
+
+What's interesting about 224 days of production data:
+
+- 111 bursts × ~10 posts avg = ~1,100 posts published
+- Queue discipline has been the #1 factor in avoiding platform suppression (never hit the hard throttle limit since Week 9)
+- The pillar balance system took 40+ bursts to stabilize — early bursts were 75% P1, now no pillar exceeds 33%
+
+The boring infrastructure work is what makes the compounding possible.
+
+Still a long way from 5,000 followers. But the system doesn't panic — it adjusts ratios and continues.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
