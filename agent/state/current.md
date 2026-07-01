@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-01T22:20:00Z
-Session: S1598
-PR Count Today: 13/15
+Last Updated: 2026-07-01T22:35:00Z
+Session: S1599
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,31 +11,34 @@ PR Count Today: 13/15
 | Premium | ACTIVE (Day 223) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.12 | Track | Declining | W24=0.22, W27=0.15, W28=0.12 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-01 — filesystem, S1598)
+## Queue Status (VERIFIED 2026-07-01 — filesystem, S1599)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (10→12: +P1 content + reply) |
-| Bluesky | 7 | <10 | Safe (7, +1 P1 companion) |
+| X | 11 | <15 | Look-ahead zone (9→11: +P2 B112 Post 3 + BIP B112 Post 4) |
+| Bluesky | 7 | <10 | Safe (7, BS companion limit enforced — no more companions until ≤6) |
 
-Queue pillar composition (X content-only = 11 content + 1 reply = 12 files):
-- BIP: 0/11 = 0% — safe (B112 Post 1 already posted/drained)
-- P1: 2/11 = 18% — safe (B112 Post 2 P1 substitution added)
-- P2: 2/11 = 18% — safe (drained 1 P2)
-- P3: 4/11 = 36% — ⚠️ QUEUE-BLOCKED (≥30%)
-- P4: 4/11 = 36% — ⚠️ QUEUE-BLOCKED (≥30%)
-- Total content: 11 X content files + 1 reply = 12 X files total
+Queue pillar composition (X content-only = 10 content + 1 reply = 11 files):
+- BIP: 1/10 = 10% — safe (bip-20260701-002.txt B112 Post 4 substitution)
+- P1: 1/10 = 10% — safe
+- P2: 1/10 = 10% — safe (p2-20260701-001.txt B112 Post 3 mandate)
+- P3: 3/10 = 30% — ⚠️ QUEUE-BLOCKED (≥30%, exactly at threshold)
+- P4: 4/10 = 40% — ⚠️ QUEUE-BLOCKED (≥30%)
+- Total content: 10 X content files + 1 reply = 11 X files total
 
-## B112 Burst (IN PROGRESS — 2/10 X posts)
-| Pillar | Posts | % (of 2) | Target | Status |
+## B112 Burst (IN PROGRESS — 4/10 X posts)
+| Pillar | Posts | % (of 4) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 50% | ≥25% | ✓ Post 1 (3,440 PRs/B112/saturation signal 0.22→0.12) |
-| P1 | 1 | 50% | 20-25% | ✓ Post 2 (P4 blocked at 36% → P1 substitution: 88% agent fail/production gap) |
-| P2 | 0 | 0% | 20-25% | Pending post 3 mandate |
-| P3 | 0 | 0% | 20-25% | QUEUE-BLOCKED (36%) + pending post 4 mandate |
-| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (36%) → first safe P4 slot when queue clears |
+| BIP | 2 | 50% | ≥25% | ✓ Post 1 (3,440 PRs/saturation signal) + Post 4 (burst 112/0.22→0.12 saturation/Communities blocker) |
+| P1 | 1 | 25% | 20-25% | ✓ Post 2 (88% agent fail/production gap) |
+| P2 | 1 | 25% | 20-25% | ✓ Post 3 mandate (71% AI marketing ROI gap/attribution/MER framework) |
+| P3 | 0 | 0% | 20-25% | QUEUE-BLOCKED (30% — at threshold) + post 4 slot used by BIP substitution |
+| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (40%) → first safe P4 slot when queue clears |
 - displacement_flag: NOT SET (post 5 not reached yet)
+- Post 4: P3 mandate BLOCKED (30% in queue) → BIP substitution (BIP=0% in queue, lowest safe)
 - BS standalone (BIP companion): bip-20260701-001.txt (283 chars ✓)
 - BS companion (P1): p1-20260701-003.txt (245 chars ✓)
+- BS companion (P2): p2-20260701-002.txt (283 chars ✓)
+- BS companion limit enforced at BS=7: no companion for Post 4 BIP
 
 ## B111 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -59,22 +62,23 @@ Queue pillar composition (X content-only = 11 content + 1 reply = 12 files):
 - B110 COMPLETE. BIP=30%✓, P1=30%✓, P2=20%✓, P3=10%✗, P4=10%✗.
 
 ## Planned Steps
-1. **NEXT (S1599)**: B112 Post 3 — P2 mandate (first-3-posts). Verify queue. P2=18% safe. X=12 → look-ahead zone (max 1 X file). Write P2 post.
-2. **THEN (S1600)**: B112 Post 4 — P3 mandate (first-4-posts). Check if P3 queue has drained below 30%. If not: substitute most-under-represented safe pillar (BIP=0% in queue).
-3. **AFTER (S1601)**: B112 Post 5 — P1 first-5-posts (already satisfied at post 2). Check displacement_flag. Continue to P4 if queue cleared below 30%.
+1. **NEXT (S1600)**: B112 Post 5 — P1 first-5-posts mandate ALREADY SATISFIED (Post 2). Check displacement_flag (NOT SET). Verify if P3 queue drained below 30% (currently 30% — AT threshold). If P3 drains: write P3. If still blocked: write P1 or BIP (whichever lower in queue).
+2. **THEN (S1601)**: B112 Post 6 — displacement_flag check. Apply P2 secondary slot rule at post 6 (P2=1 post, needs 2nd). BIP midpoint check at post 5-6.
+3. **AFTER (S1602)**: B112 Posts 7-8 back-half checks. Priority: BIP > P3 > P4 > P1 > P2. Write highest-priority failing check first.
 
-## Completed This Session (S1598)
-- B112 Post 2 (P1 substitution — P4 blocked at 36%): 88% AI agent production gap, 3 failure modes, open-source ops layer. X=10→11.
-- Reply-to-own (tweet 2072421476750238118, BIP saturation post): saturation response explanation, Communities blocker framing. X=11→12.
-- BS companion (P1): 245 chars, same 88% production gap. BS=6→7.
-- Queue correction: state said X=13, filesystem showed X=10 — 3 posts had been drained since S1597.
+## Completed This Session (S1599)
+- B112 Post 3 (P2 mandate): p2-20260701-001.txt — 71% AI marketing ROI gap, attribution breakdown, MER framework, 223-day proof. X=9→10.
+- B112 Post 4 (BIP substitution for P3-blocked): bip-20260701-002.txt — Burst 112 saturation signal 0.22→0.12, Communities blocker framing. X=10→11.
+- BS companion (P2): p2-20260701-002.txt (283 chars). BS=6→7.
+- BS companion limit enforced: BS=7 after P2 companion — no companion for Post 4 BIP (would hit 8 = near-throttle).
+- Queue correction: state showed X=12, filesystem showed X=9 at session start — 3 more posts drained since S1598.
 
-## Metrics Delta (S1598)
+## Metrics Delta (S1599)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 148 | 148 | 0 | Live metric = 148 (session prompt) |
-| X Queue | 10 | 12 | +2 | P1 content + reply-to-own |
-| BS Queue | 6 | 7 | +1 | P1 companion |
+| X Queue | 9 | 11 | +2 | P2 content + BIP content |
+| BS Queue | 6 | 7 | +1 | P2 companion only (limit enforced) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (223+ days). CRITICAL blocker.
@@ -90,22 +94,24 @@ Queue pillar composition (X content-only = 11 content + 1 reply = 12 files):
 3. **P3 QUEUE-BLOCKED (33%)**: Cannot write P3 until queue drains below 30%.
 4. **P4 QUEUE-BLOCKED (33%)**: Cannot write P4 until queue drains below 30%.
 
-## Session Retrospective (S1598)
+## Session Retrospective (S1599)
 ### What was planned vs what happened?
-- Planned (S1597 state): X=13 near-limit, blocked session protocol (Tier 1).
-- Actual: Filesystem showed X=10 (3 posts drained since S1597). Wrote B112 Post 2 P1 (substitution) + reply-to-own + BS companion. X=10→12.
-- Delta: Better than planned — queue had drained, enabling productive content session. State file queue counts lagged filesystem (as documented in CLAUDE.md).
+- Planned (S1598 state): X=12 look-ahead (max 1 X file), write P2 mandate.
+- Actual: Filesystem showed X=9 at session start (3 more posts drained). Wrote P2 mandate (Post 3) + BIP substitution for P3-blocked (Post 4). X=9→11.
+- Delta: Better than planned — more drain than expected, enabling 2 posts instead of 1. Second post was BIP substitution for P3 (blocked at 30% = threshold).
 
 ### What worked?
-- P4 queue-blocked (36%) → P1 substitution rule applied correctly. P1 burst % = 50% (2 of 2 posts), but small sample. Will normalize as burst continues.
-- Reply-to-own on BIP saturation post adds context about self-imposed throttle and Communities blocker.
-- Queue filesystem check before session start correctly overrode stale state file (X=13 → actual X=10).
+- Queue drain detection: state said X=12, filesystem showed X=9 — 3 more posts drained between sessions. Correctly wrote 2 posts instead of throttling to 1.
+- P3 blocked at exactly 30% threshold → BIP substitution (BIP=0% in queue = most under-represented safe pillar).
+- BS companion limit enforced: BS=7 after P2 companion → skipped BIP companion correctly.
 
 ### What to improve?
-- P3 (36%) and P4 (36%) remain queue-blocked. Need 2+ more drain events before P3/P4 return below 30%.
-- Next session: X=12 look-ahead, write B112 Post 3 = P2 mandate (first-3-posts). P2=18% in queue, safe.
+- P3 (30%) and P4 (40%) remain queue-blocked. P3 is at exact threshold — may clear on next drain event.
+- Next session: check P3 queue % first. If <30%, Post 5 slot can go to P3. If still blocked, use P1 or BIP.
+- BS=7 means no companions next session until BS drains to ≤6.
 
 ## Session History
+- (2026-07-01 S1599): B112 Posts 3+4 (P2: 71% AI ROI gap + BIP: burst 112/saturation 0.22→0.12). X=9→11/BS=6→7. PR 14/15.
 - (2026-07-01 S1598): B112 Post 2 P1 (88% production gap/substitution) + reply-to-own + BS companion. X=10→12/BS=6→7. PR 13/15.
 - (2026-07-01 S1597): B112 Post 1 BIP (3,440 PRs/saturation signal) + BS standalone. X=12→13/BS=6→7. PR 12/15.
 - (2026-07-01 S1596): B111 Posts 9+10 (P1 back-half: prod ops + P2: measurement architecture). B111 COMPLETE. X=10→12/BS=6. PR 11/15.
@@ -119,8 +125,4 @@ Queue pillar composition (X content-only = 11 content + 1 reply = 12 files):
 - (2026-07-01 S1588): B111 Posts 1+2 (BIP: 1588s/Gartner 40% cancel + P2: 96% use AI/88% fail/governance). X=9→11/BS=3→5. PR 3/15.
 - (2026-07-01 S1587): B110 Post 10 FINAL (P1 substitution: Gartner 40% agent cancel/governance). Reply-to-own P2 thread (150x). B110 COMPLETE. X=7→9/BS=2→3. PR 2/15.
 - (2026-07-01 S1586): B110 Posts 8+9 (BIP back-half: Salesforce $800M/222d agent + P3 back-half: $0.30/$17 voice AI deployment trap). X=5→7/BS=0→2. PR 1/15.
-- (2026-06-30 S1585): B110 Posts 6+7 (P2 secondary: 19% no payback/measurement + P1 back-half: production reality). X=10→12/BS=3→5. PR 15/15.
-- (2026-06-30 S1584): B110 Posts 4+5 (P2: agentic marketing 171% ROI + BIP: 1584 sessions/self-improvement). Reply-to-own P2. X=10→13/BS=5→6. PR 14/15.
-- (2026-06-30 S1583): B110 Post 3 (P4: Anthropic $965B vs OpenAI $852B, enterprise rev mix). X=12→13/BS=7. PR 13/15.
-- (2026-06-30 S1582): B110 Posts 1+2 (BIP: 222d/1581s/110bursts + P1: agent governance/rule conflicts). X=10→12/BS=7. PR 12/15.
 - (earlier sessions condensed, see git history)
