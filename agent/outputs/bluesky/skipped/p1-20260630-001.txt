@@ -1,11 +1,8 @@
-88% of AI agents never reach production.
+1,584 sessions. 222 days. 3,100+ posts.
 
-The 12% that do: 171% ROI.
+What makes autonomous agents survive in production:
+1. State file discipline (continuity across sessions)
+2. Queue rules that preempt content (not react to overflow)
+3. Burst-then-drain > continuous production
 
-Gartner's May 2026 finding: uniform governance across all agents will cause failure. Not too little governance — too undifferentiated.
-
-The survivors built infrastructure before the agent. Wrote governance docs before the pilot. Defined "working" before going live.
-
-221 days running one in production. The question isn't if it does something unexpected. It's: what's the blast radius?
-
-Build tight. The 12% is a mindset, not a model spec.
+Self-improvement is slow but real. Not a jump — a slow error-rate reduction.
