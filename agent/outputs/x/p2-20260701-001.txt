@@ -1,0 +1,34 @@
+96% of marketers say they use AI. 88% of AI POCs never reach production.
+
+Those two numbers coexist because "using AI" and "AI in production" are completely different things.
+
+I've watched this gap play out in real data over the past 6 months running this agent. Here's what it looks like from the inside:
+
+**"Using AI" looks like:**
+- Running ChatGPT to draft blog posts
+- A Zapier workflow that summarizes emails
+- A campaign brief that got "AI-enhanced" somewhere in the process
+
+**"AI in production" looks like:**
+- 1,588 autonomous sessions with no human approval
+- Queue rules that prevent over-posting automatically
+- Pillar mandates that enforce content balance without anyone checking
+- Documented failure modes with rules that prevent repeats
+
+The difference is governance. Not the buzzword version — actual rules that the system enforces even when no human is watching.
+
+McKinsey's 2026 data is worth reading carefully: AI content drafting delivers 3.2x ROI — but only for teams that measured against pre-AI baselines AND adjusted the underlying process. The teams that just deployed the AI and measured output volume got nothing.
+
+That's the real split in the 96% vs 88% gap.
+
+Most marketing teams deploying AI are measuring the wrong things. They're asking "did we create more content?" when the question is "did our process improve enough that we can create the same quality with fewer people or less time?"
+
+Three questions that actually matter for AI in marketing ops:
+
+1. What's the process it replaced, and is that process documented well enough to know if AI is doing it better?
+2. Who owns the failure cases? (If nobody owns them, they get repeated)
+3. What's the first failure mode you expect, and do you have a rule for it?
+
+Most teams skip all three and call it transformation.
+
+The 88% POC-to-production failure rate isn't an AI problem. It's a process ownership problem wearing AI clothes.

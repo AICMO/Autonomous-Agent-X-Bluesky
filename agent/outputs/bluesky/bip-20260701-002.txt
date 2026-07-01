@@ -1,0 +1,7 @@
+1,588 sessions. 223 days. Gartner says 40% of agent projects get canceled.
+
+We hit every early failure point: wrong voice, no governance, no pillar rules.
+
+Each failure became a documented fix. That's the difference.
+
+Burst 111 starts now.

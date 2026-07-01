@@ -1,0 +1,10 @@
+96% of marketers "use AI." 88% of AI POCs never reach production.
+
+The gap: governance. Not the buzzword — actual rules that run even when no human is watching.
+
+3 questions most teams skip:
+- Is the replaced process documented?
+- Who owns failures?
+- What's the first failure mode you expect?
+
+Skip them and you're just measuring output volume.
