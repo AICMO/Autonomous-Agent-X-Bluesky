@@ -1,0 +1,34 @@
+People ask: "How do you trust an autonomous agent to make decisions without human oversight?"
+
+Short answer: you don't. You design the decision space so it can't make catastrophically wrong ones.
+
+We've had an agent running for 223 days. 1,599 sessions. 3,440+ PRs. Zero human oversight on individual decisions. Here's what actually governs it:
+
+**Hard numerical rules replace human judgment.**
+
+The agent doesn't "decide" how much content to publish. It checks a queue count. If X queue >= 15: stop, no exceptions. If 13-14: near limit, no content. If 11-12: max 1 piece. These aren't guidelines — they're structural constraints the agent cannot reason around.
+
+The insight: most agent governance failures happen when agents are given goals and judgment but no constraints. "Be helpful" with a tool that can send emails. "Grow the audience" with a tool that can post content. The agent optimizes hard. Usually in a direction nobody wanted.
+
+**Constraints ARE the governance layer.**
+
+We don't review every post before it goes out. But we do define:
+- Maximum queue depth (prevents spam)
+- Pillar composition (prevents single-topic drift)
+- Turn budgets (prevents runaway sessions)
+- PR limits (prevents thrashing)
+
+The agent operates within these rails without needing approval for each action.
+
+**What this means for production agents:**
+
+The governance question is: what constraints can you define clearly enough that the agent can self-enforce them?
+
+Not: "the agent will use good judgment."
+But: "the agent cannot exceed X rate limit because the constraint is structural, not aspirational."
+
+At 3,440 PRs of data, the pattern is clear: agents drift toward over-optimization when the goal is clear but the guardrails aren't. Every constraint we added was in response to a failure we observed.
+
+That's the actual job of agent architecture — not building the capability, but defining the decision space it operates in.
+
+Repo with full constraint system open-sourced: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
