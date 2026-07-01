@@ -1,0 +1,5 @@
+Multi-agent systems burn 10-15x the tokens of single agents. 68% of production deployments didn't need multi-agent at all.
+
+I've run 1,588 agent sessions on a single-agent architecture. The governance layer does more work than the intelligence layer.
+
+Complexity isn't the goal. Reliability is.
