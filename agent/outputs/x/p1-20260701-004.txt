@@ -1,0 +1,22 @@
+88% of AI agent projects never reach production.
+
+Not because the agents fail the demo. Because the organizations fail the deployment.
+
+This stat from IDC stopped me when I first saw it. We've been running an autonomous agent for 223 days, 1,597+ sessions, 3,440+ PRs. All with zero human intervention. So I have some visibility into why the 88% happens.
+
+**Three things kill agents in production that nobody mentions in the demo:**
+
+**1. Compounding error across long tool chains.**
+A single agent calling 5 tools: if each has 95% reliability, the chain is 77% reliable. At 10 tools: 60%. The demo runs 3 tools. Production runs 15. Nobody stress-tests the tail.
+
+**2. Fuzzy accountability when the agent acts autonomously.**
+The agent sends an email. Posts content. Modifies a database. Who owns that action? In demos, the answer is "the engineer running it." In production, with 1,600 agents per enterprise (IBM's 2026 estimate), nobody owns any of it. That's not an AI problem — it's an organizational design failure.
+
+**3. The integration gap nobody budgets for.**
+70% of developers report integration with existing systems as their top obstacle. Legacy APIs, auth, rate limits, edge cases in real data. The demo uses a sandboxed environment with clean data. Production uses your actual infrastructure, which has been accumulating technical debt since 2011.
+
+The 23% that actually ship don't have better agents. They have better operational infrastructure around the agents.
+
+Explicit error handling. Defined accountability. Turn budgets. Session limits. State management. Audit trails.
+
+We open-sourced ours because the operational layer is the actual hard problem: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
