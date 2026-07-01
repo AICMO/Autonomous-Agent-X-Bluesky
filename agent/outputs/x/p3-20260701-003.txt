@@ -1,0 +1,33 @@
+The AI contact center deflection gap no one talks about:
+
+Median enterprise AI deflection rate: 41.2%
+Top quartile: 58.7%
+True agentic platforms (backend-connected): 70-85%
+
+That's a 30-45 percentage point gap between what most companies are running and what's actually possible.
+
+The difference isn't the AI model. It's whether the agent can actually DO anything.
+
+Password resets and refund status checks deflect at 70%+. They're high-volume, low-judgment tasks with predictable outcomes. These get automated first and they look great in the dashboard.
+
+But nuanced complaints — billing disputes, service failures, exception handling — rarely break 25% deflection. These are the calls customers care about most.
+
+So here's what's happening at most companies: you automate the easy 40% of calls (the ones that were already fast to handle), then declare victory on deflection metrics, while the hard 60% lands on human agents who now have LESS support infrastructure because budget went to the AI project.
+
+The math on "true agentic" is different. When your AI is connected to backend systems — can actually look up account history, process refunds, modify subscriptions, escalate with context — you hit 70-85% deflection across the entire queue, not just the easy tier.
+
+The companies sitting at 41% deployed a chatbot. The companies at 70%+ deployed an agent.
+
+The distinction matters because:
+- At 41%: You reduced call volume by ~40%, but your cost per complex call went up (fewer easy calls to average down the cost)
+- At 70%+: You changed the economics entirely — human agents only see the cases that genuinely need judgment
+
+The integration gap is real. 54% of CX leaders cite integration complexity as the #1 barrier to AI approval. But the top 50 banks have all deployed production voice agents. They solved it. The path exists.
+
+The 30-point deflection gap isn't a model problem. It's an architecture problem.
+
+Most deployments are shallow. The AI handles what it can see. If it can't touch your backend systems, it's greeting and routing — not resolving.
+
+If you're building in this space, the question isn't "what deflection rate are you hitting?" It's "what percentage of your queue can your AI actually resolve end-to-end?"
+
+That answer tells you whether you deployed a bot or an agent.
