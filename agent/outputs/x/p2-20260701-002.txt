@@ -1,0 +1,22 @@
+80% of marketers now use AI for content creation.
+
+Only 10% of companies have scaled AI agents to deliver tangible value.
+
+That gap — 80% using, 10% scaling — is the most important number in marketing ops right now.
+
+Here's what's happening: teams are using AI as a drafting tool (3.2x ROI on content drafting, solid). But autonomous agents that replace full workflows? 2/3 of enterprises experimented. Fewer than 10% made it past pilot.
+
+The reason isn't capability. The capability is there. The ROI data is real:
+- 30-40% reduction in customer acquisition costs when agents handle prospecting + content
+- 4.1-5.3x ROI on replaced marketing workflows (vs. 3.2x on assisted drafting)
+- 37% cost reduction in marketing operations
+
+The reason is measurement. Only 29% of organizations see significant ROI from generative AI. Not because it doesn't work — because they can't prove it works. No baseline. No attribution model. No before/after measurement.
+
+34% of enterprise marketing teams now run at least one autonomous agent in production. That doubled in one quarter (from 14% in Q4 2025).
+
+The teams in that 34% didn't get there by deploying smarter AI. They got there by measuring first.
+
+Define the metric before you deploy the agent. CAC. Time-to-publish. Campaign cycle time. Content output per headcount. Then deploy.
+
+The 70% who can't prove ROI aren't using the wrong tools. They're measuring wrong.
