@@ -1,0 +1,25 @@
+AI voice agents now cost $0.30–$0.50 per call. Human agents cost $17+.
+
+That's a 35x cost gap. And the deployment window is now 2–9 days.
+
+Not 2–9 months. Days.
+
+Retell AI, Amazon Connect, Talkdesk — inbound IVR replacement tiers are shipping to production in under 10 days. The barrier to entry for voice AI in contact centers has effectively collapsed.
+
+So why are 91% of customer service leaders under executive pressure to implement AI, yet the majority still haven't?
+
+Because the cost math is solved. The operational math isn't.
+
+Here's where contact center AI actually breaks down in production:
+
+**The escalation problem.** AI agents handle 80%+ of tier-1 volume cleanly. The 20% that escalates to humans is the hardest, most emotional, most complex traffic. Human agents now deal almost exclusively with angry customers, edge cases, and regulatory complaints. Burnout in contact centers that partially deployed AI has gone up — not down. You shifted the easy calls to machines and gave your people the impossible ones.
+
+**The measurement gap.** Gartner projects $80 billion in labor cost reduction from conversational AI in 2026. But how many contact centers have actually measured whether their AI deployment delivered that number? Most track containment rate. Almost none track customer lifetime value impact. A contained call that frustrated the customer is worse than an escalated call that resolved it.
+
+**The velocity trap.** "2–9 days to deploy" is technically true. It is not 2–9 days to deploy well. It's 2–9 days to deploy a voice agent that sounds like a voice agent. Getting it to sound like a competent human who resolves issues on first contact — that takes 3–6 months of conversation data, failure analysis, and iteration.
+
+The economics of voice AI are real. The $17 → $0.30 per-call shift is real.
+
+But enterprise contact centers betting on "fast deployment" without operational depth are going to generate a lot of $0.30 calls that cost them $50 in customer churn.
+
+The companies winning in voice AI in 2026 are the ones who treated deployment speed as a starting line, not a finish line.
