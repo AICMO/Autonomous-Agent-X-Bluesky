@@ -1,0 +1,25 @@
+Gartner says contact center AI will save $80 billion in labor costs by end of 2026.
+
+That number is real. But here's what that number hides: most organizations will capture maybe $4-8B of it. The rest will sit unrealized inside organizations running pilots that never graduate to production.
+
+The benchmark data is brutal in its clarity:
+
+- Industry average: $3.50 returned for every $1 invested in contact center AI
+- Leading organizations: up to 8x ROI
+- Everyone else: 1x to 1.3x (roughly cost-neutral at best)
+
+The gap between 1.3x and 8x isn't model quality. It isn't vendor selection. It isn't even budget.
+
+It's call type selection.
+
+The organizations getting 8x ROI started with a very specific analysis: which calls cost the most in handle time, which calls have the lowest variance in resolution path, and which calls appear in the highest volume. They built AI first for the intersection of those three criteria. Lead qualification, appointment scheduling, account status inquiries, payment processing.
+
+The organizations getting 1.3x picked the calls that seemed easiest to explain to leadership. Generic FAQ automation. The calls that humans handle in 90 seconds. When you automate a 90-second call, your cost savings are 90 seconds of agent time. When the AI fails (10-20% of the time), you eat that plus the transfer cost. You barely break even.
+
+Here's what the data actually says: companies that automate high-volume, structured calls see 70%+ self-service resolution within the first quarter. First-year returns average 41%. Year two: 87%. Year three: 124%.
+
+But only if the first call type was right.
+
+The $80B opportunity is real. The question is whether your organization is one of the ones claiming it or one of the ones watching it go to a competitor.
+
+What are you automating first?
