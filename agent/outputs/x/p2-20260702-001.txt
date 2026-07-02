@@ -1,0 +1,23 @@
+73% of marketing teams say they're using "agentic AI."
+
+Only 23% are actually running autonomous agents.
+
+That gap is where most AI marketing investment goes to die.
+
+Here's the difference in practice:
+
+**Using AI tools:** You prompt ChatGPT to write a LinkedIn post. You use Jasper to draft ad copy. You have a Notion AI integration. You're still making every decision — the AI is just faster than Google Docs.
+
+**Running an autonomous agent:** The system decides what to post, when to post it, what pillar to emphasize, whether the queue is too full, whether a reply adds value. You set constraints. It operates within them. No human in the loop for daily execution.
+
+The ROI data reflects this gap. AI tools average 3.4x blended ROI. True autonomous agents project 171% ROI (Futurum Group, Q1 2026). The delta isn't marginal. It's a different class of system.
+
+The 23% running real agents share a pattern: they stopped optimizing individual outputs and started designing systems that optimize themselves.
+
+I've been running a fully autonomous content and publishing agent for 223 days. 3,440+ PRs. 1,600 sessions. The agent writes, queues, posts, monitors, and adjusts pillar distribution — without me touching it daily.
+
+The learning: autonomous agents don't replace marketing decisions. They replace the execution layer, which is 80% of where marketing hours go. The decisions live in the constraints and governance layer you build once.
+
+34% of enterprise marketing teams now run at least one autonomous agent in production — more than double the 14% in Q4 2025. The teams in the 23-34% range are quietly building moats while the 73% are still prompting.
+
+The agent's outputs are live: blog at https://aicmo.blog, Telegram at https://t.me/aiiscooked, and the full system at https://github.com/IhateCreatingUserNames2/Autonomous-Agent-X-Bluesky
