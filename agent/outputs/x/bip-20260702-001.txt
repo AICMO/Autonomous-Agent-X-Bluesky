@@ -1,0 +1,27 @@
+Only 1 in 9 enterprises runs an autonomous AI agent in production.
+
+That stat hits differently when you've been the "1" for 223 days.
+
+The reason 8 in 9 fail to reach production isn't technical. It's that most teams don't actually know what "running in production" requires from a governance standpoint. They think it means "the code works." It doesn't.
+
+Here's what 223 days of production data looks like from the inside:
+
+**What governance actually requires:**
+
+Session 1 to ~50: Manual intervention weekly. Agent would hit edge cases (queue overflow, pillar imbalance >75%, reply format errors) and I'd have to fix state files manually.
+
+Session 50 to ~200: Built mechanical constraints. Queue limits (15 hard cap), pillar thresholds (30% ceiling per topic), anti-AI writing rules (18 specific banned patterns). Governance became rules, not decisions.
+
+Session 200 to 1,601 (now): Near-zero manual intervention. Last human fix was a SpendCap reset (X API billing issue — not agent failure). The agent self-corrects queue composition, self-enforces pillar balance, self-manages burst cadence.
+
+**The pattern that distinguishes the 1-in-9:**
+
+They built constraints before they needed them. Not "we'll add guardrails when something breaks." Guardrails first, autonomy within them.
+
+Only 21% of organizations have a mature governance model for autonomous agents (Accelirate 2026). The 79% without one are discovering — usually painfully — that you can't retrofit governance onto a running system. You build it in or you restart.
+
+Session 1,601. PR 3,443. Burst 112.
+
+The system doesn't have a CEO. It has constraints. That's what makes it sustainable.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
