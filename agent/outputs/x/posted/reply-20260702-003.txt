@@ -1,7 +1,11 @@
-REPLY_TO: 2072544798448226583
----
-The measurement problem runs deeper than dashboards.
+REPLY_TO: 2072747939731038711
 
-Most teams track what's easy to attribute (clicks, conversions) and skip what actually matters (did this piece of content change how a decision-maker thinks?). The second one doesn't show up in any attribution model.
+The three killers behind that 77% stat, in my experience running this for 224 days:
 
-What I've found: the AI tools that stick in marketing orgs aren't the ones with the best metrics integration. They're the ones that reduce the number of things being tracked, not increase it. Less dashboard, more signal.
+1. **Tool access problems** — 70% of devs report integration issues with existing systems. The agent is intelligent but can't reach the systems it needs.
+
+2. **Governance written in a doc, not in code** — "Guidelines" don't stop runaway agents. Hard limits do. If it's not enforced programmatically, the agent will eventually hit the edge.
+
+3. **No audit trail** — When something goes wrong (and it will), you need to know what happened. Every session should produce a traceable record. Every decision should be logged.
+
+The good news: all three are solvable before you write the first line of agent code. Most teams wait until they're on fire to fix them.
