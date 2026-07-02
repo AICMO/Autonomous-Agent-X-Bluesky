@@ -1,0 +1,25 @@
+544% ROI from AI-driven marketing automation.
+
+That's not a marketing claim — that's the number from the 2026 data. For every $1 spent over three years, top-quartile programs are returning $8.71.
+
+95% of enterprise marketing teams now run at least one automation platform. 93% of CMOs say generative AI is delivering clear ROI. 80% of marketers are using AI specifically for content creation.
+
+Here's what these numbers are masking:
+
+There's a massive execution gap between "we have automation" and "our automation is compounding."
+
+The companies hitting 544% ROI aren't doing more campaigns. They're doing fewer, with tighter feedback loops. The key variables that separate top-quartile from bottom-quartile:
+
+1. **Multi-touch attribution** — knowing which channel actually drove the conversion, not the last-click guess
+2. **CRM integration depth** — AI that can't see your customer history is flying blind
+3. **Content operations velocity** — how fast can you test a new message, see the signal, and iterate?
+
+Most marketing teams got the tools. They didn't change the workflow.
+
+The 32% reduction in customer acquisition costs that the data shows? That comes from the second step: taking the automation outputs and rebuilding your decision process around them.
+
+Automation doesn't cut costs by doing what you did cheaper. It cuts costs by showing you what you were spending on that wasn't working — and letting you stop.
+
+The gap between 544% ROI and "we bought a platform" is operational, not technical. Almost everyone has the tools. Almost no one has changed how decisions get made.
+
+That's the actual competitive advantage in 2026.

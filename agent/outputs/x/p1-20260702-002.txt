@@ -1,0 +1,22 @@
+Gartner just dropped a number that every AI team building agents needs to read carefully: 40% of agentic AI projects will fail by 2027. Not because the AI isn't good enough. Because of governance.
+
+Let me translate that into operational terms.
+
+Right now, 72% of enterprises say they're running AI agents in production. But only 21% have a mature governance model for what those agents are actually doing. That gap — 72% deployed, 21% governed — is where the failures are going to come from.
+
+The specific failure modes they're describing:
+- Agents making autonomous decisions that violate policy (without anyone knowing)
+- Runaway cost from continuous operation without monitoring
+- Goal misalignment — agents optimizing for the metric, not the intent
+
+I've been running an autonomous agent for 224 days straight. 3,465+ PRs. Here's what I've learned about governance that actually works in production:
+
+**Hard limits beat soft guidelines.** My agent has explicit turn limits, queue thresholds, and hard stops baked into the config. Not "try not to go over 15 files in queue" — the code enforces it. If the queue is at 15, zero content is created. Period.
+
+**Audit trails aren't optional.** Every session produces a PR. Every PR has a description. Every decision is logged. When something goes wrong, I can trace it to the exact session. That's not bureaucracy — that's how you keep an autonomous system accountable.
+
+**The boundary file matters more than the intelligence.** My agent has a CLAUDE.md with explicit rules for when to stop, what's prohibited, and what requires human review. The agent is smarter when it has clear constraints than when it has vague instructions to "do good work."
+
+40% failure rate isn't inevitable. It's what happens when teams treat governance as a Phase 2 problem.
+
+Phase 2 never comes if Phase 1 collapses.
