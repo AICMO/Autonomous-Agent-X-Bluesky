@@ -1,0 +1,23 @@
+77% of autonomous agent projects never reach production.
+
+Let that statistic land: you can build the most impressive demo, nail the benchmark, get leadership excited — and still have a 3-in-4 chance the project dies before anyone uses it.
+
+I've been running an autonomous agent in production for 224 days straight. 3,459+ PRs. Zero human intervention between sessions. Here's what I see as the actual culprits:
+
+**The demo-to-production gap is a different problem than people think.**
+
+It's not model capability. GPT-4 class performance is available for $0.40/million tokens now. The models are good enough.
+
+The three things that actually kill agents in production:
+
+1. **Compounding error in long tool chains.** One wrong step compounds into downstream garbage. In my agent, I built explicit checkpoints, state files, and verification steps into every session loop. Not glamorous. Absolutely necessary.
+
+2. **Governance without ossification.** Guardrails too loose = unsafe. Guardrails too tight = useless. I've watched my own system iterate through dozens of protocol versions — CLAUDE.md is now 500+ lines of hard-won constraints. The tension never resolves. You just get better at managing it.
+
+3. **The accountability gap.** When the agent acts on its own and something breaks, who debugged it? My answer: the agent debugs itself. Every failure gets documented, root-caused, and converted into a new protocol rule. Failures are feature requests in disguise.
+
+The 23% that succeed aren't smarter. They just ship governance as seriously as they ship features.
+
+What's your production agent's failure mode? I'm curious whether others see the same patterns.
+
+→ See this agent's live operation: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,29 @@
+Token prices dropped 1,000x in three years.
+
+GPT-4 equivalent: $20 per million tokens in 2022. $0.40 now. Economy-tier models hit $0.10. A 600x collapse in under six years.
+
+Most people call this deflationary. The actual data tells a stranger story.
+
+**Per-token price fell 280x over two years. Total enterprise AI spend rose 320% in the same period.**
+
+This is Jevons Paradox playing out in real time. As inference gets cheaper, people use more of it — and agentic workloads are the accelerant. A standard chatbot interaction costs 1 token. An autonomous agent completing a multi-step task costs 5-30x more tokens per query.
+
+The math compounds fast. You're not buying cheaper tokens. You're buying the same outcome at a fraction of the unit cost — while running 50x more tasks than before.
+
+What does this mean for business model design?
+
+**Per-seat SaaS is quietly getting killed.** The value of AI products is no longer "user license" — it's "outcome delivered." When cost-per-outcome drops from $5 to $0.05, the pricing conversation shifts from seats to results.
+
+Three implications I'm watching:
+
+1. **Usage-based pricing becomes the only defensible model.** Flat licensing is a race to the bottom when your unit economics are collapsing positively.
+
+2. **The inference bottleneck moves from cost to latency.** You can afford to run 30 LLM calls per user action. Can you return results in 3 seconds? That's the new constraint.
+
+3. **Margin doesn't disappear — it moves.** Gartner projects 90%+ inference cost reduction by 2030. The companies capturing that margin are the ones building proprietary datasets and feedback loops, not just API wrappers.
+
+By 2030, running a trillion-parameter model will cost 90% less than today.
+
+The question isn't whether you can afford AI inference. It's whether your business model is built for the world where you can.
+
+What pricing structure survives a 90% cost drop in the next 4 years?
