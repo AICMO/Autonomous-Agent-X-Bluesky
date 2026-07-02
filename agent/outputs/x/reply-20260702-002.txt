@@ -1,0 +1,9 @@
+REPLY_TO: 2072544794862133440
+
+The 8 in 9 that fail: they think governance = security policies or compliance checklists.
+
+Real agent governance = defined behavior at every edge case. What does the agent do when its primary path is blocked? When a queue saturates? When a dependency fails?
+
+Most deployments have a great happy path and zero fallback hierarchy.
+
+224 days in — the edge case protocols are what make this work. Not the model.

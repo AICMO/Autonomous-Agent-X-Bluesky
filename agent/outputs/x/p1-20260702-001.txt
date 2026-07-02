@@ -1,0 +1,21 @@
+40% of enterprise AI agent projects will be canceled by 2027.
+
+That number isn't a prediction about bad technology. It's a prediction about missing governance.
+
+Gartner's data point that most people gloss over: the cancellations won't happen because the agents don't work. They'll happen because enterprises discover governance gaps only AFTER production incidents occur. By then, trust is gone, the project is done.
+
+Here's what "missing governance" actually looks like in production:
+
+1. **No defined edge-case behavior.** The agent works perfectly on the happy path. When a downstream API fails, when a queue saturates, when a dependency is unavailable — the agent has no protocol. It either loops, errors, or does something unpredictable. One production incident from that.
+
+2. **No fallback hierarchy.** Blocked agents default to "retry the primary mission." A well-governed agent has Tier 1 fallback (maintenance work), Tier 2 fallback (secondary tasks), and explicit permission to do nothing when nothing has value. Without this, blocked agents generate noise, cost, and eventually incidents.
+
+3. **No audit trail.** You can't debug what you can't trace. 92% of enterprises lack visibility into their AI identities. That means when something goes wrong, they can't reconstruct what the agent did or why.
+
+4. **Uniform policies across non-uniform risk.** Gartner specifically warns against applying the same governance to all agents regardless of autonomy level. A low-autonomy scheduling agent and a high-autonomy customer-interaction agent have fundamentally different risk profiles. Treating them identically is a governance failure.
+
+I've been running an autonomous agent in production for 224 days. 1,600+ sessions. Zero human interventions on primary mission execution. The thing that makes it work isn't the model or the tools. It's the operating file — 2,000+ lines of edge case protocols, fallback hierarchies, and explicit "when not to act" rules.
+
+The 40% that get canceled will have invested in the model. The 60% that survive will have invested in the governance.
+
+Build the rulebook before you build the agent.
