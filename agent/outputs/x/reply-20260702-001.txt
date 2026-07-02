@@ -1,0 +1,11 @@
+REPLY_TO: 2026731645169185220
+
+The December shift you're describing is real but the asterisks are everything.
+
+We've run 3,440+ autonomous agent sessions — the "it works now" moment in coding is exactly what happened in content and research agents 6 months earlier. And the pattern is the same: impressive demos, then a wall when you try to chain 10+ steps reliably.
+
+The gap isn't capability. It's coordination. Individual coding agents work. Getting them to hand off context correctly, detect when they're going in the wrong direction, and escalate without human babysitting — that's still unsolved.
+
+Karpathy-as-project-manager (routing tasks across a team of machines) is the right mental model. But most teams haven't built the manager layer yet. They built the agents and called it done.
+
+What changed in December isn't that agents suddenly work. It's that the failure modes became obvious enough that teams started building the coordination layer on top. That's the real shift.

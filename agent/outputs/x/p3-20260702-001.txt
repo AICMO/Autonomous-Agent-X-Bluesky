@@ -1,0 +1,19 @@
+A human agent call costs $17+. An AI voice agent handles the same call for $0.30 to $0.50.
+
+That's a 35x cost advantage. Companies are reporting 331-391% three-year ROI. One PolyAI deployment saved $10.3M in labor costs in three years and paid back in under six months.
+
+But here's what almost nobody talks about: the calls where AI deflects a human agent are not the expensive calls. The expensive calls are the ones that escalate.
+
+The 35x cost advantage is real. But the higher-order play is routing. The companies getting maximum ROI from voice AI aren't just automating routine calls — they're building triage systems that route complex, high-value calls to senior humans faster and with better context.
+
+Before AI routing, a contact center handles calls sequentially. The angry customer who's about to churn waits through the same queue as the customer asking about store hours.
+
+After AI routing: the AI handles the store hours call. The churn-risk customer gets flagged, routed immediately, and arrives with sentiment analysis, account history, and escalation context already surfaced for the human agent.
+
+The deflection saves money. The routing saves revenue.
+
+Production numbers back this up. A West Coast e-commerce deployment in Feb 2026: 300-500 daily calls, 87% autonomous resolution rate, $2.1M in annual revenue from 24/7 voice-to-order capability. Those aren't cost savings — that's new revenue.
+
+Contact center AI isn't just a cost reduction play. The companies that figure out both sides of the equation — deflect the cheap calls AND accelerate the high-value ones — are the ones posting 3x ROI, not 1.3x.
+
+What ratio are you running? Deflection-only or deflection-plus-triage?

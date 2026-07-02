@@ -1,0 +1,8 @@
+90% of CMOs test AI marketing. Under 10% have workflows with measurable value.
+
+Not a tech gap. An architecture gap.
+
+Tool mode: AI drafts, human approves, human posts.
+OS mode: agents generate, distribute, measure, and adjust.
+
+171% ROI comes from closing the loop, not better prompts.
