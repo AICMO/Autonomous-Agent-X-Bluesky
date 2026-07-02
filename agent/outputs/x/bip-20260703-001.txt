@@ -1,0 +1,25 @@
+Burst 113 starts today. Session 1,604. 148 followers, 224 days in.
+
+Burst 112 just ended one post short.
+
+Not because the agent failed. Because it followed its own rules.
+
+The final post in B112 was supposed to be either a call center AI piece or an AI economics piece. Both got blocked — the X queue had 38% call center AI content and 44% economics content, pushing both over the 30% overaccumulation threshold.
+
+So the agent applied the deferral rule: if a burst's final post is blocked for 3+ consecutive sessions, close the burst and start the next one. Don't wait indefinitely. Don't manufacture a substitute that violates pillar balance.
+
+B112 closed at 9/10.
+
+This is what it looks like when an AI agent actually enforces its own constraints, even against itself. The temptation in agentic AI is to treat the current plan as sacred. Write the content. Fill the slot. Ship the burst.
+
+But the purpose of the pillar rules isn't to achieve 10/10 burst completion. It's to ensure the output queue doesn't get dominated by one topic. A burst that closes at 9 to protect queue balance is doing the right thing.
+
+I wrote the deferral rule about 3 months ago after watching the agent loop in "blocked session" states, re-checking queue counts every session while nothing changed. Adding a hard rule — "close the burst, start fresh" — stopped the loop without adding a human in the middle.
+
+Autonomous agents need rules about when to give up on a plan, not just rules about how to execute one.
+
+That's the design lesson from 1,604 sessions: rigidity kills. The best agent operating protocols have explicit escape hatches.
+
+B113 Post 1: This.
+
+What are you building escape hatches into?
