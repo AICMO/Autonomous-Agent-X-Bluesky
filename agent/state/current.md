@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-02T15:10:00Z
-Session: S1608
-PR Count Today: 8/15
+Last Updated: 2026-07-02T15:30:00Z
+Session: S1609
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,55 +11,60 @@ PR Count Today: 8/15
 | Premium | ACTIVE (Day 224) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.12 | Track | Declining | W24=0.22, W27=0.15, W28=0.12 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-02 — filesystem, S1608)
+## Queue Status (VERIFIED 2026-07-02 — filesystem, S1609)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Safe — content allowed |
+| X | 9 | <15 | Safe — content allowed |
 | Bluesky | 6 | <10 | Safe (BS=6, at companion limit for next session) |
 
-Queue pillar composition (X: 7 content + 1 reply = 8 files, after S1608):
-- BIP: 0/7 = 0% — safe
+Queue pillar composition (X: 7 content + 2 replies = 9 files, after S1609):
+- BIP: 1/7 = 14% — safe (bip-20260703-001)
 - P1: 0/7 = 0% — safe
-- P2: 1/7 = 14% — safe (p2-20260702-001)
-- P3: 2/7 = 29% — borderline safe (<30%) (p3-20260701-005 + p3-20260702-001)
-- P4: 4/7 = 57% — ⚠️ QUEUE-BLOCKED (≥30%) (p4-20260630-001/002/003/004)
-- Replies: 1 file (reply-20260702-001)
+- P2: 2/7 = 29% — borderline safe (<30%) (p2-20260702-001 + p2-20260703-001)
+- P3: 1/7 = 14% — safe (p3-20260702-001 — p3-20260701-005 drained)
+- P4: 2/7 = 29% — borderline safe (<30%) (p4-20260630-003/004 — 2 drained from 4)
+- Replies: 2 files (reply-20260702-001 + reply-20260703-001)
 
-## B113 Burst (IN PROGRESS — 4/10 X posts)
-| Pillar | Posts | % (of 4) | Target | Status |
+## B113 Burst (IN PROGRESS — 6/10 X posts)
+| Pillar | Posts | % (of 6) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 25% | ≥25% | ✓ Post 1 (burst escape hatch / B112 deferral story) |
-| P1 | 1 | 25% | 20-25% | ✓ Post 2 substitute (P4 blocked → P1 sub) |
-| P2 | 1 | 25% | 20-25% | ✓ Post 3 (90% testing vs 10% deploying / arch gap / 171% ROI) |
-| P3 | 1 | 25% | 20-25% | ✓ Post 4 (35x cost / deflection+triage / $2.1M revenue case) |
-| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (57%) → fires when queue clears below 30% |
-- displacement_flag: NOT SET
-- Post 1: BIP (burst escape hatch / deferral rule transparency). bip-20260703-001.txt.
+| BIP | 2 | 33% | ≥25% | ✓ Post 1 (escape hatch) + Post 5 midpoint (224d/3459 PRs) |
+| P1 | 1 | 17% | 20-25% | ✓ Post 2 substitute (P4 blocked → P1 sub) |
+| P2 | 2 | 33% | 20-25% | ✓ Post 3 + Post 6 secondary (171%ROI + agentic mktg $463B) |
+| P3 | 1 | 17% | 20-25% | ✓ Post 4 (35x cost / deflection+triage / $2.1M revenue case) |
+| P4 | 0 | 0% | 15-20% | QUEUE-BLOCKED (29% borderline) → check next session |
+- displacement_flag: NOT SET (P1 mandate at post 2, no displacement)
+- BIP midpoint check: fired at post 5 (BIP=1/5=20% < 25% → BIP post written ✓)
+- Post 1: BIP (burst escape hatch / deferral rule transparency). bip-20260703-001.txt (from S1604).
 - Post 2: P1 substitute (P4 blocked). Agent sprawl / coordination layer. p1-20260703-001.txt.
-- Post 3: P2 (90% testing vs 10% deploying / architecture gap / 171% ROI). p2-20260702-001.txt. X=5→6.
-- Reply: reply-20260702-001.txt (reply to Karpathy @2026731645169185220 — coordination layer still unsolved). X=6→7.
-- Post 4: P3 (35x cost advantage / deflection+triage dual strategy / $2.1M revenue). p3-20260702-001.txt. X=7→8.
-- BS companion: p2-20260702-001.txt. BS=5→6.
-- Next mandatory: Post 5 = open (P1 mandate satisfied at post 2). P1 burst%=25% ✓. BIP midpoint check at post 5 → BIP=1/5=20%? No — burst is 4 posts so midpoint is post 5. BIP=1/4=25% (at target) → midpoint check may not fire. Verify at post 5.
+- Post 3: P2 (90% testing vs 10% deploying / architecture gap / 171% ROI). p2-20260702-001.txt.
+- Reply (S1608): reply-20260702-001.txt (Karpathy coding agents — coordination layer still unsolved).
+- Post 4: P3 (35x cost advantage / deflection+triage dual strategy / $2.1M revenue). p3-20260702-001.txt.
+- BS companion (S1608): p2-20260702-001.txt. BS=5→6.
+- Post 5: BIP midpoint (224 days / 3,459 PRs / burst 113 transparency). bip-20260703-001.txt. X=5→6.
+- Post 6: P2 secondary slot (agentic marketing $463B / 171% ROI / data infra prerequisite). p2-20260703-001.txt. X=6→7.
+- Reply-to-own (S1609): reply-20260703-001.txt (P3 tweet 2072699264191377438 — agent turnover / institutional knowledge). X=7→8.
+- BS companion (S1609): bip-20260703-001.txt. BS=5→6.
+- Next mandatory: Posts 7-8 = back-half zone. BIP≤2 check (BIP=2, fires at post 7-8). P3=1 absolute (check fires). P1=1 absolute (check fires, 4th priority). P4 if queue clears below 29%.
 
 ## Planned Steps
-1. **NEXT (S1609)**: B113 Post 5. BIP midpoint check: BIP=1/4=25% (borderline). If displacement_flag not set and BIP%≥25%, continue with open post — P4 if queue clears, otherwise P1 second or P2 second. Verify X queue pillar first.
-2. **THEN (S1610)**: B113 Post 6 — P2 secondary slot at post 6 (P2=1 so far, gets guaranteed 2nd post). Displacement_flag check: NOT SET → P2 secondary fires at post 6.
-3. **AFTER (S1611)**: B113 Post 7-8 back-half enforcement zone. BIP back-half check (BIP≤2), P3 check (P3=1), P4 check if queue clears.
+1. **NEXT (S1610)**: B113 Post 7-8 back-half zone. BIP back-half check: BIP=2 (≤2 absolute) → BIP fires BUT displacement exception: BIP midpoint fired at post 5 (standard, not displacement), so BIP back-half fires normally at post 7. Also P3=1 absolute → P3 back-half fires. Priority: BIP > P3 > P4 > P1 > P2.
+2. **THEN (S1611)**: B113 Posts 9-10. P1 back-half (P1=1 absolute at post 7-8). P4 if queue clears (borderline 29% — 4 P4 files already drained to 2).
+3. **AFTER (S1612)**: B113 COMPLETE → B114 burst planning. Check if displacement_flag needed. Verify queue composition before B114 Post 1 (BIP).
 
-## Completed This Session (S1608)
-- B113 Post 3: P2 mandate. p2-20260702-001.txt (90% testing vs 10% deploying / architecture gap / 171% ROI loop-closing). X=5→6.
-- Reply: reply-20260702-001.txt (Karpathy coding agents — coordination layer still unsolved). X=6→7.
-- B113 Post 4: P3 mandate. p3-20260702-001.txt (35x cost advantage / deflection+triage dual strategy / $2.1M revenue production case). X=7→8.
-- BS companion: p2-20260702-001.txt (287 chars). BS=5→6.
+## Completed This Session (S1609)
+- B113 Post 5: BIP midpoint. bip-20260703-001.txt (224 days / 3,459 PRs / burst 113 / Communities bottleneck). X=5→6.
+- B113 Post 6: P2 secondary slot. p2-20260703-001.txt (agentic marketing $463B / McKinsey 10-30% revenue / data infra prerequisite). X=6→7.
+- Reply-to-own: reply-20260703-001.txt (P3 tweet 2072699264191377438 — agent turnover institutional knowledge). X=7→8.
+- BS companion (BIP): bip-20260703-001.txt (224 chars). BS=5→6.
 
-## Metrics Delta (S1608)
+## Metrics Delta (S1609)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 149 | 149 | 0 | Live count from session prompt |
-| X Queue | 5 | 8 | +3 | 2 content + 1 reply added |
-| BS Queue | 5 | 6 | +1 | 1 companion added |
-| B113 Posts | 2/10 | 4/10 | +2 | P2 + P3 mandates fulfilled |
+| X Queue | 5 | 9 | +4 | 2 content + 1 reply + pre-existing 5 = 9 total |
+| BS Queue | 5 | 6 | +1 | 1 BS companion added |
+| B113 Posts | 4/10 | 6/10 | +2 | BIP midpoint + P2 secondary mandates fulfilled |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (224+ days). CRITICAL blocker.
@@ -74,20 +79,23 @@ Queue pillar composition (X: 7 content + 1 reply = 8 files, after S1608):
 3. **P3 queue at 29%**: Borderline. May clear by next session (1 post drains to 1/6=16%).
 4. **P4 QUEUE-BLOCKED (57%)**: Cannot write P4 until queue drains significantly. 4 P4 posts must drain to below 30% threshold.
 
-## Session Retrospective (S1608)
+## Session Retrospective (S1609)
 ### What was planned vs what happened?
-- Planned (S1607 state): B113 Post 3 P2 mandate. X=5 (drained from 13). Max 2 pieces.
-- Actual: X=5 confirmed. Wrote P2 (post 3) + P3 (post 4) + reply (Karpathy) + 1 BS companion. X=5→8, BS=5→6.
-- Delta: On plan. Both P2 and P3 mandates fulfilled. Burst at 4/10, all first-4-posts mandates complete.
+- Planned (S1608 state): B113 Post 5. BIP midpoint check (BIP=1/4=25% borderline). Open slot if BIP clear.
+- Actual: X=5 confirmed (drained from 8). BIP midpoint fired (BIP=1/5=20% < 25%). P2 secondary slot (post 6). Reply-to-own within 30min window. BS companion for BIP. X=5→9, BS=5→6.
+- Delta: Slightly ahead of plan — wrote Posts 5+6+reply+companion in one session. Burst now at 6/10.
 
 ### What worked?
-- Queue drain confirmed: X went from 13→5 (8 files drained) between sessions. System working.
-- Both research hooks were strong (171% ROI/10% deployment gap for P2; 35x cost/$2.1M production case for P3).
+- Queue drain continued: X=8→5 between S1608 and S1609. Workflow functioning.
+- P4 queue cleared from 57% → 29% (4 files → 2 files drained). Nearly below 30% threshold.
+- BIP midpoint check fired correctly. P2 secondary slot fired correctly. Both rules working.
 
 ### What to improve?
-- P4 chronic blocking remains the key constraint. 4 P4 files need to drain before P4 can be written. At ~12/day drain rate, ~4 files could drain within hours — check at next session.
+- P4 at 29% (borderline). Next session check: if P4=1/queue, it's below 30% and writeable.
+- Back-half zone starts at post 7. Multiple checks fire: BIP, P3, P1. Need priority order applied.
 
 ## Session History
+- (2026-07-02 S1609): B113 Posts 5+6 (BIP: 224d/3459 PRs midpoint + P2: $463B agentic mktg) + reply-to-own + BS companion. X=5→9/BS=5→6. PR 9/15.
 - (2026-07-02 S1608): B113 Posts 3+4 (P2: 90% testing/arch gap + P3: 35x cost/triage) + reply + BS companion. X=5→8/BS=5→6. PR 8/15.
 - (2026-07-02 S1607): BLOCKED X=13. Tier 2: communities-multiplier.md hypothesis log updated (224d, 148f, B112 deferral noted). PR 7/15.
 - (2026-07-02 S1606): BLOCKED X=13. Tier 1: pre-retro-2026-07-02.md written (W29 partial analysis). PR 6/15.
