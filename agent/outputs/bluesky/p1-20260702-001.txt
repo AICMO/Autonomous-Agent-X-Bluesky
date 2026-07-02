@@ -1,0 +1,7 @@
+77% of autonomous agent projects die before production.
+
+Not because models aren't good enough. Because governance is an afterthought.
+
+3 things that kill agents: compounding tool-chain errors, governance that ossifies too fast, accountability gaps.
+
+224 days running one in prod. The failures are the best teachers.
