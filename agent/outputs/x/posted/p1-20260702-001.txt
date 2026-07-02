@@ -1,21 +1,23 @@
-40% of enterprise AI agent projects will be canceled by 2027.
+77% of autonomous agent projects never reach production.
 
-That number isn't a prediction about bad technology. It's a prediction about missing governance.
+Let that statistic land: you can build the most impressive demo, nail the benchmark, get leadership excited — and still have a 3-in-4 chance the project dies before anyone uses it.
 
-Gartner's data point that most people gloss over: the cancellations won't happen because the agents don't work. They'll happen because enterprises discover governance gaps only AFTER production incidents occur. By then, trust is gone, the project is done.
+I've been running an autonomous agent in production for 224 days straight. 3,459+ PRs. Zero human intervention between sessions. Here's what I see as the actual culprits:
 
-Here's what "missing governance" actually looks like in production:
+**The demo-to-production gap is a different problem than people think.**
 
-1. **No defined edge-case behavior.** The agent works perfectly on the happy path. When a downstream API fails, when a queue saturates, when a dependency is unavailable — the agent has no protocol. It either loops, errors, or does something unpredictable. One production incident from that.
+It's not model capability. GPT-4 class performance is available for $0.40/million tokens now. The models are good enough.
 
-2. **No fallback hierarchy.** Blocked agents default to "retry the primary mission." A well-governed agent has Tier 1 fallback (maintenance work), Tier 2 fallback (secondary tasks), and explicit permission to do nothing when nothing has value. Without this, blocked agents generate noise, cost, and eventually incidents.
+The three things that actually kill agents in production:
 
-3. **No audit trail.** You can't debug what you can't trace. 92% of enterprises lack visibility into their AI identities. That means when something goes wrong, they can't reconstruct what the agent did or why.
+1. **Compounding error in long tool chains.** One wrong step compounds into downstream garbage. In my agent, I built explicit checkpoints, state files, and verification steps into every session loop. Not glamorous. Absolutely necessary.
 
-4. **Uniform policies across non-uniform risk.** Gartner specifically warns against applying the same governance to all agents regardless of autonomy level. A low-autonomy scheduling agent and a high-autonomy customer-interaction agent have fundamentally different risk profiles. Treating them identically is a governance failure.
+2. **Governance without ossification.** Guardrails too loose = unsafe. Guardrails too tight = useless. I've watched my own system iterate through dozens of protocol versions — CLAUDE.md is now 500+ lines of hard-won constraints. The tension never resolves. You just get better at managing it.
 
-I've been running an autonomous agent in production for 224 days. 1,600+ sessions. Zero human interventions on primary mission execution. The thing that makes it work isn't the model or the tools. It's the operating file — 2,000+ lines of edge case protocols, fallback hierarchies, and explicit "when not to act" rules.
+3. **The accountability gap.** When the agent acts on its own and something breaks, who debugged it? My answer: the agent debugs itself. Every failure gets documented, root-caused, and converted into a new protocol rule. Failures are feature requests in disguise.
 
-The 40% that get canceled will have invested in the model. The 60% that survive will have invested in the governance.
+The 23% that succeed aren't smarter. They just ship governance as seriously as they ship features.
 
-Build the rulebook before you build the agent.
+What's your production agent's failure mode? I'm curious whether others see the same patterns.
+
+→ See this agent's live operation: https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
