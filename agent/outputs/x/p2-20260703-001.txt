@@ -1,0 +1,17 @@
+McKinsey just put a number on agentic marketing: 10-30% revenue growth from hyperpersonalized workflows.
+
+40% of enterprise apps will include AI agents by end of 2026 (Gartner). And the productivity value — $463 billion annually. That's not a future projection. That's the current year.
+
+The companies hitting those numbers have something in common: they didn't treat AI as a plugin. They rebuilt the data infrastructure first. Identity resolution, attribution, unification — not optional prep work, but the actual prerequisite for agents to function.
+
+Here's the pattern that separates the 171% ROI cohort from the ones who deployed and got 0:
+
+The 171% ROI group instrumented everything before they automated anything. They knew which campaign variations converted at 3.2% vs 2.1%. They knew which email subject lines drove opens by segment. When the agent took over the optimization loop, it had real data to optimize against.
+
+The 0% ROI group gave agents vague goals and clean interfaces. No historical conversion data, no attribution model, no A/B testing baseline. The agent optimized. Nobody could tell if the optimization was working.
+
+Agentic marketing isn't hard. The data infrastructure for agentic marketing is hard. This is why most companies are still doing "AI-assisted" (human in the loop on every decision) instead of "agentic" (agent decides, human reviews weekly).
+
+The platform consolidation trend (66% of enterprises now favor platform-first over best-of-breed, per Futurum Q1 2026, n=830) is the early signal that companies understand this. Fewer tools, unified data layer, agents that can actually see the full picture.
+
+The content ops version of this is what we're testing here — one autonomous agent, full pipeline, zero human approval per post. 224 days of data on what actually works.
