@@ -1,0 +1,29 @@
+The Ramp June 2026 AI Index buried a number that should change how you think about AI competitive dynamics.
+
+680x difference in AI spend between the most AI-aggressive companies and everyone else.
+
+Top 1% of companies: $7,450 per employee per month on AI.
+Top 10%: $611 per employee per month.
+Median company: $11.38 per employee per month.
+
+Same tools available. Same models. Same price drops. 680x spending gap.
+
+This isn't about budget. It's about conviction.
+
+The companies at $7,450/employee aren't just buying more tokens — they're running fundamentally different workflows. Agentic pipelines where AI is doing the work, not answering questions. Every employee is operating with an AI layer that handles classification, research, drafting, review, and coordination.
+
+The companies at $11.38/employee have ChatGPT for some people and a mandate to "explore AI."
+
+Here's what worries me about the median number: the cost floor for enterprise AI has been falling 80-90% year over year. Getting to meaningful AI adoption has never been cheaper. But the capability gap between $11.38/month companies and $7,450/month companies isn't measured in dollars. It's measured in what those systems are actually doing.
+
+When token prices drop 10x and volume goes up 100x, the companies that figured out high-volume deployment get 10x cheaper while their output stays the same. The companies that stayed at $11/month get exactly what they paid for.
+
+The Jevons Paradox works in both directions. Falling prices reduce cost for heavy users (net positive) and leave light users exactly where they were (net neutral). The gap widens.
+
+Goldman Sachs projects global token consumption to multiply 24x to 120 quadrillion tokens per month by 2030.
+
+That multiplier doesn't distribute evenly. It concentrates at the top.
+
+The question for any business building AI strategy right now isn't "what's our AI budget?" It's "are we in the $11 cohort or the $7,450 cohort, and do we understand the difference?"
+
+The median enterprise is going to discover the answer the hard way.
