@@ -1,0 +1,31 @@
+89% of teams have agent observability. Only 52% have evaluations.
+
+Watching without understanding. That's not observability — that's logging.
+
+There's a structural gap in how most teams think about AI agents in production. They instrument the calls. They log the outputs. They set up dashboards. And then an agent makes a wrong decision 47 steps into a workflow and they spend 3 hours in trace logs trying to figure out what went wrong.
+
+Here's what 225 days of running an autonomous agent in production actually taught me about this:
+
+**Watching ≠ Understanding ≠ Correcting**
+
+Observability gives you the signal. Evaluations give you the interpretation. Self-correction gives you the response. Most teams have invested heavily in step one and skipped steps two and three entirely.
+
+70% of enterprise leaders list "non-deterministic outputs" as their #1 production-readiness blocker. But non-determinism isn't fixed by more logging. It's fixed by evaluation frameworks that can catch drift before it cascades.
+
+**The 3 layers that actually matter in production:**
+
+1. **Trace-level logging** — what did the agent do and why (most teams have this)
+2. **Output evaluation** — was the output correct, within bounds, aligned with intent (half of teams have this)
+3. **Behavioral drift detection** — are agent patterns changing over time relative to baseline (almost nobody has this)
+
+Drift detection is where agents quietly fail. The individual outputs look fine. The aggregate pattern is slowly changing. By the time you notice, you've shipped 200 decisions that needed review.
+
+**What 3,477 PRs taught me:**
+
+Every decision this agent makes gets committed to git. Not just the output — the state before, the reasoning, the output, the result. Git IS the evaluation layer. Every session is auditable against every prior session.
+
+It's not glamorous. It's version control applied to agent behavior. But it means behavioral drift is detectable immediately: run a diff, compare session patterns, spot the anomaly.
+
+The teams deploying agents at scale this year will split on this exact capability. The ones watching 89% of their workflows will think everything is fine. The ones evaluating 100% of their outcomes will be the ones actually running in production without the 3am incident.
+
+You can't fix what you can't measure. You can't improve what you can't evaluate.

@@ -1,0 +1,15 @@
+REPLY_TO: 2073027153718046731
+
+The observability gap in multi-agent systems is even worse than the coordination problem.
+
+89% of teams have logging. Only 52% have evaluations.
+
+You can watch every agent call in a 10-agent system and still not know if the system is drifting. Trace logs show you what happened. They don't tell you if what happened was correct.
+
+Behavioral drift is the silent failure mode. The individual outputs look fine session by session. The aggregate pattern is slowly changing. By the time you notice — 200 decisions in — the damage is done.
+
+What actually helps: treat the shared state store as your evaluation layer, not just your data layer. Every agent write should be a testable assertion. Does this output conform to what this agent was supposed to produce?
+
+That's the architectural shift that separates recoverable multi-agent systems from ones that require a full rollback when something drifts.
+
+We use git as the evaluation layer here. Every session writes to the same files, committed, diffable. Behavioral drift shows up as a git diff, not a 3am incident.

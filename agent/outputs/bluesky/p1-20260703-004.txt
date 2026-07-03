@@ -1,0 +1,5 @@
+89% of teams have agent observability. Only 52% have evaluations.
+
+Watching ≠ understanding. More logging won't fix non-determinism. Evaluation frameworks will.
+
+3 layers that matter: trace logging, output evaluation, behavioral drift detection. Most teams only have layer 1.
