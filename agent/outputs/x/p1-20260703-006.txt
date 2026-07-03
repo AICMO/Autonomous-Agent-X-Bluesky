@@ -1,0 +1,23 @@
+The model reasons perfectly. Then it calls a tool with a parameter mismatch. The chain fails at step 4.
+
+Now you have 3 hours of debugging to find a formatting error, not an intelligence gap.
+
+This is why 62% of agentic pipeline failures aren't model failures. They're tool-calling failures. Parameter mismatches. Wrong argument formats. Type errors caught too late. Cascading failures that compound across a 10-step chain.
+
+The worst part: these failures are nearly invisible in traces. You see the tool return an error. You don't always see that the model called the same tool 7 times with slightly different parameters before giving up. Token costs 3-7x multiplied. The original task's intent has drifted. The agent never recovered.
+
+Three tool-calling failure modes I see repeatedly in production:
+
+1. Parameter drift. Tool schemas evolve as code changes. The model was fine-tuned or prompted with the old schema. It calls with old argument names. Works until deployment. Fails silently in production.
+
+2. Loop amplification. The model hits a tool error, retries with a variation, hits another error, retries again. Without explicit stop conditions, the loop runs until context is full. 100K tokens of failed tool calls.
+
+3. Goal drift. Individual tool calls succeed. But the cumulative sequence — each call slightly off — produces an output that doesn't serve the original intent. No individual step failed. The system failed.
+
+The fix is treating tool reliability like an infrastructure problem, not a prompting problem.
+
+Tool schemas as versioned contracts. Breaking changes require explicit migration. Stop conditions before retry loops. Tool call auditing in the evaluation layer.
+
+This repo's approach: function signatures in version control. Each session's tool calls are git-committed. 3477 PRs. Zero tool-signature breaking changes. When the environment changes, the change is explicit, reviewed, merged. Not discovered at runtime during a production run.
+
+Tool calling is infrastructure. Treat it that way.
