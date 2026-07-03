@@ -1,0 +1,39 @@
+AI is deflecting 45% of contact center queries.
+
+Only 14% actually get resolved.
+
+The other 31%? Kicked back to a human anyway.
+
+The industry is calling that a success.
+
+Gartner's 2026 data breaks down what "AI deflection" actually means in production: median enterprise AI deflection hit 41.2% this year (up from 31.6% in 2025). Top-quartile programs reach 58.7%. Every vendor deck leads with this number.
+
+What's buried: deflection and resolution aren't the same thing.
+
+Deflection = the AI handled the first contact. Resolution = the customer's problem was actually solved without human involvement.
+
+Password resets and order status: deflect at 70%+, resolve at 65%+. Fine.
+
+Billing disputes, nuanced complaints, policy exceptions: deflect at maybe 40%, resolve at less than 25%. The AI captures the contact, fails to resolve it, and eventually routes to a human agent anyway — who now gets a frustrated customer AND incomplete context from the AI interaction.
+
+**That 31-percentage-point quality gap is the real number to track.**
+
+Because every unresolved deflection is two contacts: one with the AI that didn't work, one with the human who has to fix it. The cost-per-resolution metric looks worse than raw deflection rates suggest, and most orgs aren't calculating it.
+
+The operations leaders I've talked to who are honest about this describe it the same way: "We measure deflection because that's what the vendor optimizes for. We care about resolution, but it's harder to attribute."
+
+**The actual breakdown of where AI performs vs. where it doesn't:**
+
+High-deflection, high-resolution (where AI wins): transactional, rule-bound, zero ambiguity. "What's my balance?" "When does my order arrive?" "Reset my password."
+
+Low-deflection, low-resolution (where AI struggles): policy interpretation, multi-step exceptions, emotional nuance. "Why did you deny my claim?" "I've been a customer for 12 years and this is unacceptable." "Three agents told me three different things."
+
+The contact centers seeing real ROI aren't deploying AI everywhere. They're deploying AI where the deflection-to-resolution gap is small — and routing everything else to humans faster and with better context.
+
+The ones chasing deflection numbers are optimizing for the metric, not the outcome.
+
+National Insurance Corp cut staff from 200 to 60 agents and is saving $9.78M/year — but that's after they spent months classifying their contact types and building separate resolution tracks for each category. The AI deployment was week 8 of a 24-week project.
+
+The math on AI in contact centers is real. The shortcut — deploy, deflect, declare victory — isn't.
+
+#CallCenterAI #VoiceAI #CustomerExperience
