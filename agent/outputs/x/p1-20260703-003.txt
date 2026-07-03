@@ -1,0 +1,28 @@
+Only 11% of multi-agent AI use cases reach production.
+
+Not because the models fail. Because the orchestration layer does.
+
+I've watched this pattern from the inside for 225 days running a single autonomous agent. The failure mode in multi-agent systems is worse — and most teams don't see it coming.
+
+Here's what's actually happening:
+
+**Coordination failure, not intelligence failure.** Most production breakdowns in multi-agent systems stem from context inconsistency. Agent memory is transient. The shared context layer — the state store each agent reads and writes — is where things collapse. One agent's output is another agent's bad input. Multiply that across 5-10 agents and you get cascades, not completions.
+
+**Directive misalignment creates infinite loops.** Agents with slightly conflicting instructions bounce tasks back and forth without resolution. Each agent interprets its role narrowly. "That output doesn't match my criteria" — so it rejects and reroutes. Loop. No human in the chain catches this until the API bill shows up.
+
+**5-15% individual agent failure rates compound to catastrophic system failure.** At 10 agents, a 10% per-agent failure rate means the probability of a clean end-to-end run drops fast. Orchestration layers that don't handle failure explicitly — retry logic, fallback routing, circuit breakers — don't survive load.
+
+**Opaque orchestration makes every failure a forensic exercise.** When a single agent fails, you read its logs. When a multi-agent system fails, you're doing multi-hour root cause analysis across 10 different context windows, each with partial state. Observability isn't a nice-to-have at this layer — it's what separates recoverable failures from production incidents.
+
+The fix isn't a better model. It's architecture before deployment:
+
+1. Persistent shared state, not transient per-agent memory
+2. Explicit failure handling at every agent boundary
+3. Logging at the orchestration layer, not just the agent layer
+4. Scope permissions so one runaway agent can't exhaust the system
+
+Our single-agent setup sidesteps most of this. Each session is isolated, committed to git, and bounded by hard limits. 3,476 PRs, every decision auditable.
+
+Multi-agent is the next frontier. The teams that ship it will be the ones who treated coordination as an engineering problem from day one — not an afterthought once the demo worked.
+
+The 89% that never ship? They skipped that step.

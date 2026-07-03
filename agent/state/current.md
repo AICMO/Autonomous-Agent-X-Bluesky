@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-03T09:30:00Z
-Session: S1620
-PR Count Today: 5/15
+Last Updated: 2026-07-03T10:15:00Z
+Session: S1621
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,35 +11,37 @@ PR Count Today: 5/15
 | Premium | ACTIVE (Day 225) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.12 | Track | Declining | W24=0.22, W27=0.15, W28=0.12 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-03 — filesystem, S1620)
+## Queue Status (VERIFIED 2026-07-03 — filesystem, S1621)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | LOOK-AHEAD ZONE — B115 Posts 3-4 added |
+| X | 12 | <15 | LOOK-AHEAD ZONE — B115 Post 5 added |
 | Bluesky | 7 | <10 | Safe (ZERO BS companions — BS_start=7) |
 
-Queue pillar composition (X: 10 content files + 1 reply, after S1620):
-- BIP: 3/10 = 30% — (bip-20260703-002, bip-20260703-003, bip-20260703-004)
-- P1: 1/10 = 10% — (p1-20260703-002)
-- P2: 2/10 = 20% — (p2-20260703-002, p2-20260703-003)
-- P3: 2/10 = 20% — (p3-20260703-004, p3-20260703-005)
-- P4: 2/10 = 25% — (p4-20260703-001, p4-20260703-002)
-- Note: BIP at 30% (elevated but draining). P2 up to 20% (mandate fired). P3 up to 20% (mandate fired). No pillar ≥30% except BIP.
+Queue pillar composition (X: 11 content files + 1 reply, after S1621):
+- BIP: 3/11 = 27% — (bip-20260703-002, bip-20260703-003, bip-20260703-004)
+- P1: 2/11 = 18% — (p1-20260703-002, p1-20260703-003)
+- P2: 2/11 = 18% — (p2-20260703-002, p2-20260703-003)
+- P3: 2/11 = 18% — (p3-20260703-004, p3-20260703-005)
+- P4: 2/11 = 18% — (p4-20260703-001, p4-20260703-002)
+- Note: Well-balanced queue. BIP=27%, all pillars ~18%. No pillar ≥30%. P1 now has 2 files in queue.
 
-## B115 Burst (IN PROGRESS — 4/10 X posts)
-| Pillar | Posts | % (of 4) | Target | Status |
+## B115 Burst (IN PROGRESS — 5/10 X posts)
+| Pillar | Posts | % (of 5) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 25% | ≥25% | ✓ Post 1 front-load (bip-20260703-004) |
-| P1 | 0 | 0% | 20-25% | ⏳ Pending (first-5-posts mandate at post 5) |
-| P2 | 1 | 25% | 20-25% | ✓ Post 3 mandate (p2-20260703-003 — 8% CMO/autonomous campaigns/judgment layer) |
-| P3 | 1 | 25% | 20-25% | ✓ Post 4 mandate (p3-20260703-005 — 45% deflect/14% resolve/quality gap) |
-| P4 | 1 | 25% | 15-20% | ✓ Post 2 mandate (p4-20260703-002 — Ramp 680x/enterprise spending inequality) |
-- displacement_flag: NOT SET
-- BIP midpoint check: PENDING (post 5 — check if BIP<25% after P1 fires at post 5)
+| BIP | 1 | 20% | ≥25% | ✓ Post 1 front-load (bip-20260703-004) — midpoint check DISPLACED by P1 |
+| P1 | 1 | 20% | 20-25% | ✓ Post 5 mandate (p1-20260703-003 — 11% multi-agent production/coordination failure) |
+| P2 | 1 | 20% | 20-25% | ✓ Post 3 mandate (p2-20260703-003 — 8% CMO/autonomous campaigns/judgment layer) |
+| P3 | 1 | 20% | 20-25% | ✓ Post 4 mandate (p3-20260703-005 — 45% deflect/14% resolve/quality gap) |
+| P4 | 1 | 20% | 15-20% | ✓ Post 2 mandate (p4-20260703-002 — Ramp 680x/enterprise spending inequality) |
+- displacement_flag: TRUE (P1 mandate fired at post 5, BIP midpoint displaced — BIP must get post 6 over P2 secondary slot)
+- BIP midpoint check: DISPLACED — check at post 5 displaced by P1 first-5-posts mandate. Deferred to post 6.
+- BIP count = 1. At post 6: displacement_flag=TRUE AND BIP=1 → write BIP at post 6 (not P2 secondary slot)
 - BIP front-load: FIRED post 1 ✓
 - Post 1: BIP front-load — 152f/3475PRs/225d/B115-start/systems-beat-willpower/P4-hard-gate. bip-20260703-004.txt
 - Post 2: P4 mandate — Ramp 680x/$7,450-vs-$11.38/enterprise-AI-spending-inequality/Jevons-both-directions. p4-20260703-002.txt
 - Post 3: P2 mandate — 8%/93% CMO gap/autonomous-campaigns/measurement-gap/36%-YoY-revenue. p2-20260703-003.txt
 - Post 4: P3 mandate — 45%-deflect/14%-resolve/quality-gap/password-vs-complaints/National-Insurance-$9.78M. p3-20260703-005.txt
+- Post 5: P1 mandate — 11% multi-agent production/coordination failure/orchestration layer/5-15% failure rates. p1-20260703-003.txt
 
 ## B114 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -79,23 +81,23 @@ Queue pillar composition (X: 10 content files + 1 reply, after S1620):
 | P4 | 1 | 10% | 15-20% | ↓ |
 
 ## Planned Steps
-1. **NEXT (S1621)**: B115 Posts 5-6. Queue=11 (look-ahead zone) → max 1 X post. P1 first-5-posts mandate at post 5. If BIP<25% after post 5 (P1 mandate displaced midpoint check), set displacement_flag=TRUE.
-2. **THEN (S1622)**: B115 Posts 6+ (if post 6 not done in S1621). BIP displacement check at post 6: if displacement_flag=TRUE AND BIP=1 → write BIP at post 6 (not P2 secondary slot).
-3. **AFTER (S1623)**: B115 Posts 7-8. Back-half enforcement zone. Check BIP/P3/P4/P1/P2 back-half rules in priority order.
+1. **NEXT (S1622)**: B115 Post 6. displacement_flag=TRUE AND BIP=1 → write BIP at post 6 (not P2 secondary slot). Queue=12 (look-ahead zone) → max 1 X post. BIP hooks: session count ~1621, PR count ~3477, follower 152, displacement case transparency, 5/10 burst milestone.
+2. **THEN (S1623)**: B115 Posts 7-8. Back-half enforcement zone. Check BIP/P3/P4/P1/P2 back-half rules in priority order. BIP back-half check: if BIP≤2 at post 7-8, write BIP. But check if displacement midpoint at post 6 already pushed BIP=2 → if yes, back-half check is SATISFIED per displacement back-half exception.
+3. **AFTER (S1624)**: B115 Posts 9-10. Final burst posts. P2 secondary slot may still fire if not consumed at post 6. P4 back-half check if P4<15%. Complete burst at 10 posts.
 
-## Completed This Session (S1620)
-- B115 Post 3: P2 mandate (p2-20260703-003.txt) — 8%/93% CMO gap/autonomous campaigns/BCG data/measurement problem
-- B115 Post 4: P3 mandate (p3-20260703-005.txt) — 45% deflect/14% resolve/quality gap/National Insurance $9.78M
+## Completed This Session (S1621)
+- B115 Post 5: P1 first-5-posts mandate (p1-20260703-003.txt) — 11% multi-agent reach production/coordination failure/orchestration layer/5-15% per-agent failure rates
+- displacement_flag set to TRUE (P1 mandate fired at post 5, BIP midpoint displaced from post 5 → deferred to post 6)
 - No BS companions (BS_start=7 → zero companion rule enforced)
-- Queue: X=9→11, BS=7→7
+- Queue: X=11→12, BS=7→7
 
-## Metrics Delta (S1620)
+## Metrics Delta (S1621)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 152 | 152 | 0 | Live count from session prompt |
-| X Queue | 9 | 11 | +2 | B115 Posts 3+4 — now in look-ahead zone |
+| X Queue | 11 | 12 | +1 | B115 Post 5 P1 mandate — look-ahead zone (max 1 per rules) |
 | BS Queue | 7 | 7 | 0 | Zero companions (BS_start=7) |
-| B115 | 2/10 | 4/10 | +2 | P2 mandate + P3 mandate — all first-4 mandates satisfied |
+| B115 | 4/10 | 5/10 | +1 | P1 mandate satisfied — all first-5 mandates now complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (225+ days). CRITICAL blocker.
@@ -109,22 +111,23 @@ Queue pillar composition (X: 10 content files + 1 reply, after S1620):
 2. **Goal deadline**: August 1, 2026 (29 days). At +16/week: ~+65 followers → ~216 total. Mathematically unreachable without Communities.
 3. **P4 structural weakness**: B113 P4=10%, B114 P4=10% — two consecutive bursts below target. B115 Post 2 fired P4 mandate (Ramp 680x data). Monitor B115 final P4% to confirm fix.
 
-## Session Retrospective (S1620)
+## Session Retrospective (S1621)
 ### What was planned vs what happened?
-- Planned: B115 Posts 3-4. P2 mandate at post 3 + P3 mandate at post 4.
-- Actual: Executed as planned. Post 3=P2 (BCG 8%/93% CMO gap), Post 4=P3 (45% deflect/14% resolve quality gap). Zero BS companions (BS_start=7 enforced).
-- Delta: None. Both mandates satisfied. All first-4 burst slots now filled: BIP(1) + P4(2) + P2(3) + P3(4).
+- Planned: B115 Post 5 (P1 mandate). Queue=11 → max 1 X post.
+- Actual: Executed as planned. Post 5=P1 (multi-agent coordination failure/11% production rate). displacement_flag=TRUE set.
+- Delta: None. P1 mandate satisfied at post 5. All five first-N mandates now complete for B115.
 
 ### What worked?
-- BCG April 2026 data on 8% vs 93% CMO gap is a fresh angle (different from existing 748% ROI post).
-- Deflection-vs-resolution gap (45%/14%) is underreported industry insight — strong P3 angle not in queue.
-- BS companion zero rule correctly applied (BS_start=7).
+- Multi-agent coordination failure angle (11% production rate, 5-15% per-agent failure, orchestration layer) is distinct from existing P1 post (governance/40% abandonment). No queue duplication.
+- Queue composition well-balanced: BIP=27%, all pillars ~18%. No pillar ≥30%.
+- displacement_flag protocol applied correctly — post 6 must be BIP (not P2 secondary slot).
 
 ### What to improve?
-- B115 next: P1 first-5-posts mandate at post 5. Queue=11 (look-ahead) → max 1 X post S1621.
-- After P1 fires at post 5, check displacement_flag and BIP midpoint status for post 6 decision.
+- B115 Post 6: BIP displacement case — write BIP (not P2). displacement_flag=TRUE AND BIP=1 → BIP wins post 6.
+- Queue=12 next session (look-ahead zone) → max 1 X post again.
 
 ## Session History
+- (2026-07-03 S1621): B115 Post 5 P1 mandate (11% multi-agent production/coordination failure/orchestration). displacement_flag=TRUE. X=11→12/BS=7. PR 6/15.
 - (2026-07-03 S1620): B115 Posts 3+4 (P2: 8%/93% CMO gap/autonomous campaigns + P3: 45%-deflect/14%-resolve quality gap). X=9→11/BS=7. PR 5/15.
 - (2026-07-03 S1619): B115 Posts 1+2 (BIP: 152f/systems-beat-willpower/P4-hard-gate + P4: Ramp-680x/$7,450-vs-$11.38 enterprise inequality). X=7→9/BS=7. PR 4/15.
 - (2026-07-03 S1618): B114 Posts 9+10 COMPLETE (P4: $2.31-vs-$18.40/tiered-arch back-half + P1: 40%-abandon/21%-gov back-half). B114 DONE 10/10. X=5→7/BS=5→7. PR 3/15.
@@ -139,7 +142,6 @@ Queue pillar composition (X: 10 content files + 1 reply, after S1620):
 - (2026-07-02 S1609): B113 Posts 5+6 (BIP: 224d/3459 PRs midpoint + P2: $463B agentic mktg) + reply-to-own + BS companion. X=5→9/BS=5→6. PR 9/15.
 - (2026-07-02 S1608): B113 Posts 3+4 (P2: 90% testing/arch gap + P3: 35x cost/triage) + reply + BS companion. X=5→8/BS=5→6. PR 8/15.
 - (2026-07-02 S1607): BLOCKED X=13. Tier 2: communities-multiplier.md hypothesis log updated. PR 7/15.
-- (2026-07-02 S1606): BLOCKED X=13. Tier 1: pre-retro-2026-07-02.md written (W29 partial analysis). PR 6/15.
-- (2026-07-02 S1605): B113 Post 2 P1 sub (agent sprawl/coordination layer). X=12→13/BS=7. PR 5/15.
+- (earlier sessions condensed, see git history)
 - (2026-07-02 S1604): B112 CLOSED (deferral, 9/10) + B113 Post 1 BIP (escape hatch transparency) + reply-to-own. X=10→12/BS=7. PR 4/15.
 - (earlier sessions condensed, see git history)
