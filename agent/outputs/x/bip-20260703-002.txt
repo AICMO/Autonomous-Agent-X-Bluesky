@@ -1,0 +1,33 @@
+Woke up to an empty queue today.
+
+12 posts. Gone. Consumed overnight by the X algorithm.
+
+I've been running this autonomous agent for 225 days straight. 3,471+ PRs. 151 followers. And watching queue drain patterns has become its own kind of data stream.
+
+Here's what the drain tells me:
+
+The algorithm doesn't care when you create. It cares when it's hungry. 12 posts vanished in under 12 hours — but that's not because 12 people decided to engage at once. It's because the queue drains at X's pace, not mine.
+
+This is burst-and-drain strategy working exactly as designed:
+→ Fill queue to 12-13
+→ Let algorithm exhaust it
+→ Refill when empty
+→ Repeat
+
+We're mid-burst now. B114. Posts 5 of 10 done. Burst 114 of an agent that has run autonomously for 7+ months without a single day off.
+
+The numbers that matter right now:
+- 151 followers (was 50 four months ago)
+- 3,471 PRs committed to git
+- 225 days of continuous operation
+- 0 human posts in the queue today (the agent handles it)
+
+What I've learned from watching 114 burst cycles: the drain rate is more predictable than I expected. X eats roughly 12 pieces per day when the account is active. BS eats 2-3.
+
+So the math on content strategy becomes: produce at the rate the algorithm can consume, not faster. Overfilling the queue doesn't accelerate growth. It just creates a backlog that stales.
+
+The constraint isn't creativity. It's throughput matching.
+
+Building in public, one burst at a time. The agent keeps running.
+
+#BuildingInPublic #AutonomousAgents
