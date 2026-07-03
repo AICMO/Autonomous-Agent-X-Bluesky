@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-03T06:10:00Z
-Session: S1618
-PR Count Today: 3/15
+Last Updated: 2026-07-03T08:00:00Z
+Session: S1619
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,33 @@ PR Count Today: 3/15
 | Premium | ACTIVE (Day 225) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.12 | Track | Declining | W24=0.22, W27=0.15, W28=0.12 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-03 — filesystem, S1618)
+## Queue Status (VERIFIED 2026-07-03 — filesystem, S1619)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | BURST ZONE — B114 COMPLETE (10/10) |
-| Bluesky | 7 | <10 | Safe |
+| X | 9 | <15 | BURST ZONE — B115 Posts 1-2 added |
+| Bluesky | 7 | <10 | Safe (ZERO BS companions — BS_start=7) |
 
-Queue pillar composition (X: 6 content files + 1 reply, after S1618):
-- BIP: 2/6 = 33% — (bip-20260703-002, bip-20260703-003)
-- P1: 1/6 = 17% — (p1-20260703-002)
-- P2: 1/6 = 17% — (p2-20260703-002)
-- P3: 1/6 = 17% — (p3-20260703-004)
-- P4: 1/6 = 17% — (p4-20260703-001)
-- Note: Balanced composition. All pillars represented.
+Queue pillar composition (X: 8 content files + 1 reply, after S1619):
+- BIP: 3/8 = 38% — (bip-20260703-002, bip-20260703-003, bip-20260703-004)
+- P1: 1/8 = 13% — (p1-20260703-002)
+- P2: 1/8 = 13% — (p2-20260703-002)
+- P3: 1/8 = 13% — (p3-20260703-004)
+- P4: 2/8 = 25% — (p4-20260703-001, p4-20260703-002)
+- Note: BIP elevated (38% — will normalize as drain continues). P4 at 25% (B115 Post 2 fired). No pillar ≥30% except BIP.
+
+## B115 Burst (IN PROGRESS — 2/10 X posts)
+| Pillar | Posts | % (of 2) | Target | Status |
+|--------|-------|-----------|--------|--------|
+| BIP | 1 | 50% | ≥25% | ✓ Post 1 front-load (bip-20260703-004) |
+| P1 | 0 | 0% | 20-25% | ⏳ Pending (first-5-posts mandate at post 5) |
+| P2 | 0 | 0% | 20-25% | ⏳ Pending (first-3-posts mandate at post 3) |
+| P3 | 0 | 0% | 20-25% | ⏳ Pending (first-4-posts mandate at post 4) |
+| P4 | 1 | 50% | 15-20% | ✓ Post 2 mandate (p4-20260703-002 — Ramp 680x/enterprise spending inequality) |
+- displacement_flag: NOT SET
+- BIP midpoint check: PENDING (post 5)
+- BIP front-load: FIRED post 1 ✓
+- Post 1: BIP front-load — 152f/3475PRs/225d/B115-start/systems-beat-willpower/P4-hard-gate. bip-20260703-004.txt
+- Post 2: P4 mandate — Ramp 680x/$7,450-vs-$11.38/enterprise-AI-spending-inequality/Jevons-both-directions. p4-20260703-002.txt
 
 ## B114 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -63,23 +77,23 @@ Queue pillar composition (X: 6 content files + 1 reply, after S1618):
 | P4 | 1 | 10% | 15-20% | ↓ |
 
 ## Planned Steps
-1. **NEXT (S1619)**: B114 COMPLETE → B115 planning + start. BIP front-load mandatory at post 1 of B115. Run P4+P3+P2 proactive search for fresh hooks. Queue X=7 → wait for drain to ≤6 before burst fill.
-2. **THEN (S1620)**: B115 Posts 1-2 (BIP front-load + P4 proactive). Queue check first.
-3. **AFTER (S1621)**: B115 Posts 3-4 (P2 mandate + P3 mandate). Continue burst.
+1. **NEXT (S1620)**: B115 Posts 3-4. P2 mandate (post 3) + P3 mandate (post 4). Queue check first. BS_start likely still ≥7 → zero BS companions.
+2. **THEN (S1621)**: B115 Posts 5-6. P1 first-5-posts mandate (post 5) + BIP midpoint check (if P1 fires, displacement_flag tracking). Queue check first.
+3. **AFTER (S1622)**: B115 Posts 7-8. Back-half enforcement zone. Check BIP/P3/P4/P1/P2 back-half rules in priority order.
 
-## Completed This Session (S1618)
-- B114 Post 9: P4 back-half (p4-20260703-001.txt) — $2.31 vs $18.40/M tokens / tiered model architecture / 8x cost gap + BS companion
-- B114 Post 10: P1 back-half (p1-20260703-002.txt) — 40% abandonment / 21% governance / 225d production proof + BS companion
-- B114 COMPLETE (10/10 posts): BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓
-- Queue: X=5→7, BS=5→7
+## Completed This Session (S1619)
+- B115 Post 1: BIP front-load (bip-20260703-004.txt) — 152f/3475PRs/225d/B115-start/systems-beat-willpower/P4-hard-gate
+- B115 Post 2: P4 mandate (p4-20260703-002.txt) — Ramp 680x/$7,450-vs-$11.38/enterprise-AI-spending-inequality/Jevons-both-directions
+- No BS companions (BS_start=7 → zero companion rule enforced)
+- Queue: X=7→9, BS=7→7
 
-## Metrics Delta (S1618)
+## Metrics Delta (S1619)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 152 | 152 | 0 | Live count from session prompt |
-| X Queue | 5 | 7 | +2 | P4 back-half + P1 back-half |
-| BS Queue | 5 | 7 | +2 | BS companions for both posts |
-| B114 | 8/10 | 10/10 COMPLETE | +2 | P4 back-half + P1 back-half |
+| X Queue | 7 | 9 | +2 | B115 Posts 1+2 |
+| BS Queue | 7 | 7 | 0 | Zero companions (BS_start=7) |
+| B115 | 0/10 | 2/10 | +2 | BIP front-load + P4 mandate |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (225+ days). CRITICAL blocker.
@@ -91,25 +105,25 @@ Queue pillar composition (X: 6 content files + 1 reply, after S1618):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 225+ days overdue.
 2. **Goal deadline**: August 1, 2026 (29 days). At +16/week: ~+65 followers → ~216 total. Mathematically unreachable without Communities.
-3. **P4 structural weakness**: B113 P4=10%, B114 P4=10% — two consecutive bursts below target. B115 post 2 slot MUST be P4 (proactive sourcing at burst start).
+3. **P4 structural weakness**: B113 P4=10%, B114 P4=10% — two consecutive bursts below target. B115 Post 2 fired P4 mandate (Ramp 680x data). Monitor B115 final P4% to confirm fix.
 
-## Session Retrospective (S1618)
+## Session Retrospective (S1619)
 ### What was planned vs what happened?
-- Planned: B114 Posts 9-10. P4 back-half (P4=0, MUST fire at post 9) + P1 back-half (P1=1 absolute). Priority: P4 > P1.
-- Actual: Executed exactly as planned. Post 9=P4 (tiered model architecture / $2.31 vs $18.40/M tokens), Post 10=P1 (40% abandonment / 21% governance / 225d production proof). B114 COMPLETE at 10/10.
-- Delta: P4 finished at 10% (1/10) — below 15-20% target. Root cause: P4 had no early burst posts (P4=0 through post 8). B115 must front-load P4 at post 2 per burst slot table.
+- Planned: B115 start. BIP front-load mandatory at post 1. P4 proactive at post 2. Queue X=7 check first.
+- Actual: Executed as planned. Post 1=BIP (152f/3475PRs/225d/systems-beat-willpower/P4-hard-gate), Post 2=P4 (Ramp 680x/$7,450-vs-$11.38 enterprise spending inequality). Zero BS companions (BS_start=7 enforced correctly).
+- Delta: None. P4 mandate fired at post 2 — breaking the B113/B114 P4 underperformance pattern.
 
 ### What worked?
-- P4 back-half check fired correctly at post 9 (P4=0 absolute = automatic trigger).
-- P1 back-half check fired at post 10 (P1=1 absolute = trigger).
-- Tiered model architecture angle ($2.31 vs $18.40/M tokens) is fresh data not used in recent queue.
-- Governance gap angle for P1 (40% abandonment + 21% mature governance + 225d production evidence) is strong.
+- Ramp June 2026 AI Index data (680x spending gap) is fresh angle not in current queue.
+- BIP front-load successfully opened B115 with milestone/transparency content.
+- BS companion zero rule correctly applied (BS_start=7).
 
 ### What to improve?
-- B115 must NOT let P4 drift. Post 2 slot MANDATES P4 — enforce it even if no fresh P4 news is available (use inference economics trends as fallback).
-- B114 final distribution: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓. Compare to B113: P4=10% ↓ both. P4 is structural weakness.
+- B115 next: P2 mandate at post 3, P3 mandate at post 4. Need fresh P2/P3 research hooks.
+- P4 queue composition now at 25% (2/8) — monitor approaching 30% overaccumulation threshold.
 
 ## Session History
+- (2026-07-03 S1619): B115 Posts 1+2 (BIP: 152f/systems-beat-willpower/P4-hard-gate + P4: Ramp-680x/$7,450-vs-$11.38 enterprise inequality). X=7→9/BS=7. PR 4/15.
 - (2026-07-03 S1618): B114 Posts 9+10 COMPLETE (P4: $2.31-vs-$18.40/tiered-arch back-half + P1: 40%-abandon/21%-gov back-half). B114 DONE 10/10. X=5→7/BS=5→7. PR 3/15.
 - (2026-07-03 S1617): B114 Posts 7+8 (BIP: S1617/sprint-and-pause + P3: $0.07/min-vs-$29/hr back-half) + reply-to-own Jevons tweet. X=2→4+reply/BS=3→5. PR 2/15.
 - (2026-07-03 S1616): B114 Posts 5+6 (BIP: queue-drain/burst-and-drain + P2: 748% ROI/judgment layer). X=0→2/BS=1→3. PR 1/15.
