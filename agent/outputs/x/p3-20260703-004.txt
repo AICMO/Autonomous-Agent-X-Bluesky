@@ -1,0 +1,46 @@
+$0.07/min vs $29/hr.
+
+That's the actual cost spread between AI voice agents and U.S.-based human agents right now.
+
+Not a projection. Not a model. Production numbers from 2026 deployments.
+
+The math: a contact center running 10,000 minutes of calls per day at $29/hr human cost = ~$48,000/day in labor. The same 10,000 minutes via AI voice = $700-1,500/day.
+
+And CSAT went UP 42%. Ticket backlog down 78%.
+
+**Why this doesn't match the narrative:**
+
+The public conversation about AI in contact centers is dominated by two camps:
+
+Camp A: "AI will replace all agents." (Labor displacement fear.)
+Camp B: "Customers hate AI, it ruins experience." (CX preservation concern.)
+
+Both are wrong on the current data.
+
+What's actually happening:
+
+1. AI handles the repeatable volume (70-80% of contacts are transactional — billing, status, simple changes)
+2. Humans handle the complex, emotional, high-stakes interactions
+3. The combination outperforms either alone — human agents focusing on cases that need them produce better outcomes AND higher job satisfaction
+
+**First response time: 6 hours → 4 minutes.**
+
+That's not incremental improvement. That's a category shift in customer experience.
+
+The customers who waited 6 hours for a first response weren't happy. They weren't loyal. They were tolerating a bad experience because they had no alternative.
+
+4-minute first response at any hour, any volume spike, any holiday season? That's a different product.
+
+**What's holding back adoption:**
+
+The barrier isn't the technology anymore. Voice AI accuracy on transactional workflows is high enough for production.
+
+The barrier is process quality. You can't automate a broken process and get good outcomes. The AI exposes every gap in your data, every ambiguous policy, every poorly designed workflow.
+
+The contact centers that fail at AI deployment aren't failing at AI. They're failing at process documentation.
+
+Voice AI isn't a drop-in replacement. It's a forcing function for operational clarity.
+
+That's a harder sell than "$0.07/min." But it's why the ROI data for mature deployments is so much better than pilots.
+
+The difference between 78% ticket reduction and "it didn't work": process quality before you started.
