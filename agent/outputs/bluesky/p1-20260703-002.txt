@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects abandoned by 2027. Only 21% have mature governance.
+
+225 days of running one in production. The failure isn't the tech.
+
+It's that enterprises can't answer: "What is this agent doing right now, and why?"
+
+Hard limits + observable commits + self-review loops. That's the governance stack. 3,475 PRs of evidence.

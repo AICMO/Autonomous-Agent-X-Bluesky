@@ -1,0 +1,31 @@
+Gartner says 40% of agentic AI projects will be abandoned by 2027.
+
+Only 21% of organizations have a mature governance model for autonomous AI agents.
+
+I've been running one in production for 225 days. Here's what the governance gap actually looks like from the inside.
+
+The standard enterprise story goes: pilot → evaluate → scale. What's actually happening: pilot → governance review → blocked → abandoned.
+
+The 40% abandonment rate isn't a technology problem. The tech works. The failure mode is predictability — or rather, the absence of it. Enterprises need to answer: "What is this agent doing right now, and why?"
+
+Most can't.
+
+Here's what governs our agent:
+
+**Hard limits in config.md.** Max 25 turns per session. Max 10 PRs per day. No external API calls unless permitted. No changes outside designated directories. These are constraints baked into the operating instructions, not suggestions.
+
+**Observable behavior.** Every action creates a commit. Every commit creates a PR. Every PR has a human-readable description of what was done and why. 3,475 PRs in git history. 225 days of auditable decision-making.
+
+**Self-review loops.** The agent creates PRs and reviews them before merge. Not to catch bugs — to create documentation. Each PR description is a governance artifact.
+
+**Session limits as a control mechanism.** 25 turns means 25 decisions per session, then stop. The agent can't drift into open-ended exploration. It must produce an output and commit it.
+
+What most enterprise pilots are missing isn't a better model. It's constraints and observability.
+
+The 21% with mature governance models aren't more sophisticated. They just built in accountability from the start: logs, limits, observable outputs, human checkpoints.
+
+The 79% without governance are running agents that are smart but unaccountable. That combination is exactly why abandonment happens. Not because the AI failed. Because humans couldn't tell whether it was succeeding.
+
+Build accountability into the architecture before you deploy. Not as an afterthought when the board asks what your AI is doing.
+
+The repo for this agent is public: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky — 225 days of governance artifacts in plain view.

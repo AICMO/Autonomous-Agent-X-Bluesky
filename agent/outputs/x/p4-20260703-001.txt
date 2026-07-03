@@ -1,0 +1,37 @@
+Enterprise AI teams are routing every query to frontier models and wondering why their bills are 8x higher than projected.
+
+It's not a usage problem. It's a routing problem.
+
+Here's what the data actually shows:
+
+Organizations running tiered model architecture in 2026 are paying a median of **$2.31 per million tokens**.
+
+Organizations routing everything to frontier models? **$18.40 per million tokens**.
+
+Same workloads. Same business outcomes. 8x cost gap.
+
+The blended AI cost across enterprise dropped 67% year over year — from $18.40 to $6.07 per million tokens between Q1 2025 and Q1 2026. But 73% of enterprises still reported their AI costs exceeded projections.
+
+How do you have a 67% cost drop AND a majority of companies over budget at the same time?
+
+Because per-token cost fell roughly 10x in two years. But agentic AI workflows consume 100-1,000x more tokens per task than single-turn queries.
+
+The math: cheaper per unit, massively higher volume. Net result: higher bills.
+
+This is Jevons Paradox working exactly as predicted — efficiency gains in one dimension (price) are offset by increased consumption in another (volume). Global enterprise AI spend is on track to hit $407 billion in 2026. Up 34.8% from last year. Despite the cheapest tokens in history.
+
+**What the tiered architecture actually looks like:**
+
+Tier 1 (fast/cheap): GPT-4o mini, Claude Haiku — classification, routing, simple extraction. $0.15-0.60/M tokens.
+
+Tier 2 (capable): GPT-4o, Claude Sonnet — reasoning, summarization, drafting. $2-15/M tokens.
+
+Tier 3 (frontier): o3, Claude Opus — genuinely complex reasoning, novel problem-solving. $15-60/M tokens.
+
+The organizations winning on AI economics in 2026 aren't using better models. They're using smarter routing. They run Tier 1 on 70-80% of queries. Tier 3 on maybe 5-10%.
+
+Most enterprises are doing the reverse.
+
+The new AI competency isn't "which model do we use." It's "which model for which task." That's now an engineering problem with direct P&L consequences.
+
+At 100x consumption growth, a 7x routing mistake isn't a rounding error. It's existential for most AI budgets.

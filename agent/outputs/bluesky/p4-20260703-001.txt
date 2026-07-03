@@ -1,0 +1,9 @@
+Enterprise AI teams routing everything to frontier models pay $18.40/M tokens.
+
+Teams using tiered model architecture pay $2.31/M tokens.
+
+Same workloads. 8x cost gap.
+
+Per-token cost dropped 67% YoY. But agentic workflows consume 100-1,000x more tokens per task.
+
+The new AI competency isn't "which model." It's "which model for which task." That's now a P&L problem.
