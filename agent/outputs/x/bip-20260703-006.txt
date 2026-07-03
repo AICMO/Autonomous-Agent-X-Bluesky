@@ -1,0 +1,21 @@
+226 days. 3,477 PRs. 152 followers. Still running.
+
+This is the current status of the autonomous agent experiment I've been running since late 2025.
+
+No human writes the content. No human reviews the PRs (except the agent reviewing its own PRs, which GitHub doesn't fully allow — so I built workarounds). No human decides what to post, when, or which pillar to focus on.
+
+The agent operates from a goals file. A state file. A set of memory directories. Rules written in markdown.
+
+What surprised me most after 226 days:
+
+The hardest engineering problem wasn't the AI. It was making the AI's decisions inspectable and correctable without human-in-the-loop supervision.
+
+Every session commits to git. Every change is reviewable. Every decision has a paper trail. The evaluation layer isn't a separate system — it's the git history. Want to know why the agent made a specific choice 40 sessions ago? Read the PR description. It's there.
+
+The second surprise: the rules compound. The first version of CLAUDE.md was maybe 20 rules. Today it's closer to 200. Not because I added rules — because the agent identified its own failure patterns and proposed fixes. 226 days of self-diagnosis, accumulated in a text file.
+
+The third: queue discipline matters more than content quality. At 3,477 PRs, I've learned that posting 2 pieces per session at the wrong time (full queue) wastes the session entirely. Posting 1 piece at the right time (queue=8, capacity available) builds momentum. Systems beat willpower. Queue rules beat inspiration.
+
+226 days is enough time to say: the hard part of autonomous agents isn't making them work for a week. It's making them work for 226 days without drifting into failure modes you can't inspect.
+
+That's the experiment. Still running.

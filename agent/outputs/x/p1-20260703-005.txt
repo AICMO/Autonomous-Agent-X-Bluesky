@@ -1,0 +1,19 @@
+Agents work fine for 20 tool calls. Outputs are sharp. Reasoning is solid. Then at call 47, something shifts. By call 100, the agent has completely lost the plot.
+
+This is context rot. And it's why 65% of enterprise agent failures aren't model failures at all.
+
+Here's what happens: production agents accumulate context as they run. Every tool response, every intermediate reasoning step, every chunk of retrieved data gets appended to the context window. You hit 200K tokens easily. But attention degrades long before that.
+
+The "lost in the middle" effect is real. When relevant information gets buried in the middle of a 180K context, performance drops 30%+. Models systematically underweight information that isn't at the start or end. Your 100K token context might as well be 20K for anything buried in the middle third.
+
+What breaks production agents isn't the model reasoning badly on step 1. It's the cumulative drift. Each step looks reasonable in isolation. But the aggregate trajectory over 100+ calls drifts away from the original intent. No single failure. Just slow degradation.
+
+The fix isn't a bigger context window. It's architectural.
+
+Context engineering has become the defining production discipline in 2026: curating exactly which tokens reach the model at each step. Sliding context windows. Session isolation. State handoff protocols. Treating context like RAM — fast, volatile, managed explicitly — not a transcript you keep appending to.
+
+This repo runs 225 days on session isolation. Every session starts with a clean context: current state from git, not accumulated transcript from 3477 prior sessions. No context rot possible. The session boundary IS the memory management system.
+
+The agents failing at call 100 are designed like monolithic applications. The ones succeeding at call 10,000 are designed like stateless microservices — state lives in persistent storage, not in the context window.
+
+What's your production agent's context management strategy?
