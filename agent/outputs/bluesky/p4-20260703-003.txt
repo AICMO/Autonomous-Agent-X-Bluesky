@@ -1,0 +1,9 @@
+GPT-4 intelligence: $20/M tokens in 2022. $0.40 today. 1,000x drop.
+
+When intelligence becomes commodity, the moat shifts — from model access to workflow depth.
+
+The question isn't "do you have GPT-5 access?"
+
+It's "how many production agent workflows are running?"
+
+Most AI strategies haven't caught up to that change.

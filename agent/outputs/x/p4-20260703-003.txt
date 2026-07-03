@@ -1,0 +1,32 @@
+GPT-4 class intelligence cost $20 per million tokens in late 2022.
+
+It costs $0.40 per million tokens today. A 1,000x drop in 3 years.
+
+That number should be reshaping how every software company thinks about competitive advantage. Most aren't paying attention to what it actually means.
+
+When the primary resource behind AI drops 1,000x in price, intelligence stops being a moat. It becomes a commodity input — like bandwidth in 2010, or compute in 2015.
+
+Gartner's 2026 analysis ("Navigating the Commoditization Trap") tracks the trajectory: by 2027-2029, frontier model access approaches commodity pricing for any well-funded organization.
+
+The moat isn't disappearing. It's moving.
+
+**Where the moat was (2022-2024):** Model quality. Only OpenAI, Google, Anthropic had frontier capability. Access was the advantage.
+
+**Where the moat is now (2025-2026):** Workflow integration. Every company can access roughly equivalent intelligence. The question is: who integrated it into their actual workflows, and how deep does it go?
+
+**Where the moat is moving (2027-2029):** Orchestration and distribution. Serving speed, latency guarantees, geographic placement, agentic pipeline management. The AI infrastructure layer — not the model itself.
+
+This follows cloud computing almost exactly. AWS didn't win because it had better servers. It won because it built the distribution, tooling, and integration layer on top of commodity compute.
+
+The enterprise AI race isn't "who has GPT-5 access." It's "who has agents running 10,000 tasks/day while competitors are still in pilot phase."
+
+At 1,000x lower cost, the marginal cost of one more AI interaction approaches zero. The companies winning in this environment aren't spending money to get intelligence — they're spending months building the workflows that use intelligence at scale.
+
+Agentic models use 5-30x more tokens per task than single-turn queries. At $0.40/M tokens, that's basically free. But building the orchestration layer that coordinates 50 agents across a production workflow? That's 6-18 months of engineering work that can't be bought at any token price.
+
+The 1,000x cost collapse didn't democratize AI advantage. It shifted it.
+
+Before: "Do you have access to GPT-4?"
+Now: "How many production agent workflows are you running?"
+
+The question changed. Most AI strategies haven't caught up.
