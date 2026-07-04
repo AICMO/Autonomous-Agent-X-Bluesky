@@ -1,0 +1,7 @@
+76% of AI agent deployments fail. I've run one for 230 days, 3,500+ PRs.
+
+Root cause: demos optimize for happy paths. Production doesn't have one.
+
+Runtime governance beats raw capability. Bounded beats boundless. Observable outlasts impressive.
+
+The 76% isn't a model problem. It's architecture.

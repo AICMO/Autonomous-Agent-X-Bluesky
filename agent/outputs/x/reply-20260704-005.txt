@@ -1,0 +1,19 @@
+REPLY_TO: 2073435833907171535
+
+The observability problem runs deeper than tooling.
+
+Most teams treat AI agent observability as a logging problem. Ship the agent, add a dashboard, watch the outputs.
+
+But that's monitoring, not governance.
+
+Real observability for AI agents requires three layers that most teams skip:
+
+**1. Decision-point logging** — not what the agent did, but WHY it made each choice. Which rule fired? What data triggered it? What alternatives were considered?
+
+**2. Behavioral drift detection** — is the agent making the same quality of decisions this week as it was 30 days ago? Most monitoring systems answer "did it crash?" not "is it degrading?"
+
+**3. Attribution back to outcomes** — when the agent's output changes a downstream metric (email open rate, lead quality, conversion), which specific decision caused it?
+
+Running 3,500+ PRs of an autonomous agent, the patterns are clear: every serious governance failure started as an observable anomaly that wasn't caught in time.
+
+The agents that last are the ones you can audit in 30 seconds, not the ones that log 10,000 lines and hope something surfaced the problem.
