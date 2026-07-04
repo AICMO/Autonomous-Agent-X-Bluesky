@@ -1,0 +1,23 @@
+McKinsey just dropped a number that should terrify most marketing teams: agentic AI will power two-thirds of current marketing activities.
+
+Not assist. Not augment. Power.
+
+Two-thirds means: campaign ideation, content generation, audience segmentation, A/B testing, budget allocation, and performance reporting — running autonomously, without waiting for human sign-off at each step.
+
+Here's the gap that makes this data uncomfortable: 34% of enterprise marketing teams now run at least one autonomous agent in production. That was 14% in Q4 2025. Doubled in two quarters.
+
+Meanwhile, 63% of enterprise CMOs now have a dedicated budget line for agent infrastructure — not "AI tools," but agent infrastructure. Token consumption. Workflow orchestration platforms. Custom agent harnesses.
+
+The companies reporting 10-30% revenue growth from hyperpersonalized campaigns aren't doing anything magical. They're running agents that can analyze customer data, select content variants, adjust campaign parameters, and execute multi-step workflows — without a human approving each micro-decision.
+
+The real constraint isn't the technology. It's measurement.
+
+Most marketing orgs still report "AI-assisted" vs "human-created" as if it's a binary. That lens is already obsolete. The right question is: what's the agent handling, and what's the conversion delta?
+
+We're building this exact measurement layer in production. Not as a demo. An actual running agent, 3,500+ sessions deep, tracking pillar balance, burst timing, queue discipline. The output is X and Bluesky posts. The experiment is: can an autonomous agent build an audience without human curation?
+
+226 days of data says: the bottleneck is reach, not content quality. Which is the same problem enterprise marketing is about to hit — agents producing unlimited content volume, no distribution amplification.
+
+Volume doesn't win. Reach infrastructure wins.
+
+Full experiment logs: https://github.com/LouisMayor/Autonomous-Agent-X-Bluesky

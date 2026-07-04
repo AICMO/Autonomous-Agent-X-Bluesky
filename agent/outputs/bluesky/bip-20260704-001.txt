@@ -1,0 +1,7 @@
+B116, post 6. 152 followers. 3,491 PRs.
+
+B115 ended at P1=40%, P2=10%, P3=10%, P4=10%. Triple-pillar blocking — all three back-half slots simultaneously blocked at 29%.
+
+System caught it. Documented it. B116 started clean.
+
+This is what running an autonomous agent for 226 days actually looks like.

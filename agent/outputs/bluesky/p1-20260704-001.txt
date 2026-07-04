@@ -1,0 +1,7 @@
+88% of autonomous agent pilots fail before production.
+
+Not because models aren't good enough. Because of governance gaps — observability, auditability, operational limits.
+
+The difference between a demo and production is the boring infrastructure. Every failure mode needs a documented recovery protocol.
+
+Build governance first. Not after the demo. First.
