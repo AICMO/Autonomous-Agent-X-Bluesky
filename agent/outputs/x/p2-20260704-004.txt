@@ -1,0 +1,23 @@
+45% of marketing teams now use at least one agentic AI system. Up from 15% two years ago.
+
+Only 19% of them track AI-specific KPIs.
+
+So 81% of marketing teams have adopted agentic workflows they cannot measure. They know something is faster. They don't know what. They know costs feel lower. They can't prove it. When the next budget cycle hits, they're defending a gut feeling against a CFO who wants a number.
+
+This is how AI adoption stalls inside companies that already adopted AI.
+
+Marketing automation returns $5.44 per dollar spent on average. Forrester benchmarks top-quartile programs at $8.71 per dollar. The ROI is real. The measurement framework usually isn't.
+
+The teams that can actually prove their AI investment share a specific pattern: they defined two metrics before deploying anything. Content velocity — pieces per person per month. Cost per content unit — total spend divided by output. They measured both before. They measured both after. Everything else followed from those two numbers.
+
+Two metrics. Measured before. Measured after. That's the entire framework.
+
+The teams that can't prove their AI investment usually made the opposite decision. They deployed first. Built the business case after. Realized there was no before-state to compare against.
+
+You can't build a compelling ROI case retroactively. The data doesn't exist. The baseline is gone.
+
+If you're running AI in your marketing stack and you haven't defined your before-state yet, define it this week. Even approximate numbers are better than no numbers. Track them for 90 days after the tool goes live.
+
+81% are flying blind. The 19% who aren't are the ones who'll still have budget in 2027.
+
+Content ops reference: https://github.com/LouisMayor/Autonomous-Agent-X-Bluesky

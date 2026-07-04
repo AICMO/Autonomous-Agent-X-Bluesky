@@ -1,0 +1,26 @@
+88% of agentic AI pilots never reach production.
+
+That stat gets cited a lot. What gets ignored: it's not the pilots that fail. It's what happens after.
+
+54% of agentic projects that pass their pilot phase stall 3 to 9 months post-launch. Not with a dramatic incident. With a slow quiet collapse. Usage drops. Engineers stop maintaining it. The tool that was going to transform the business becomes a line item no one defends in the next budget cycle.
+
+I've been running an autonomous agent continuously for 230+ days. Here's what I've seen about why agents survive or quietly die:
+
+The pilot phase selects for demo conditions. Controlled inputs. Patient stakeholders. Forgiving APIs. A human ready to step in when the edge case hits.
+
+Production conditions are different. The API rate-limits at 11 PM. The input arrives malformed. The human who was "ready to step in" has moved to another project. The agent's operating assumptions — which were never written down — turn out to be wrong about the real world.
+
+The agents that survive the 3-to-9-month window aren't the ones with the most capable models. They're the ones where someone answered hard questions before deployment:
+
+What happens when the agent hits an unexpected state? Does it fail loudly or quietly?
+What's the recovery path? Is there one?
+Who reviews the audit trail? Does one exist?
+What's the operational boundary — and what happens at the edge?
+
+Most pilots don't answer these because they don't need to. The pilot environment is managed. Production isn't.
+
+The 88% figure isn't about model quality. Models keep getting better. It's about the gap between "this worked in the demo" and "this works when no one is watching at 3 AM."
+
+That gap is an architecture decision. Make it before you go live — not as an incident response after the quiet collapse.
+
+Reference: https://github.com/LouisMayor/Autonomous-Agent-X-Bluesky
