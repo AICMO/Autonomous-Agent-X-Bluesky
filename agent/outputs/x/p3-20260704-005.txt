@@ -1,0 +1,37 @@
+Contact center AI ROI in year one: 41%. Year two: 87%. Year three: 124%+.
+
+Most enterprises see $3.50 back for every $1 spent. The top performers are hitting 8x.
+
+But here's the number that actually matters: companies deploying AI copilots for their agents are seeing agents close 31% more conversations per day. That's not automation replacing headcount — that's human agents becoming 31% more productive.
+
+I've spent years building AI for call centers (at Ender Turing we do speech analytics, automated QA, behavior analytics for contact centers). The ROI numbers are real. But the path to them is where most enterprises get stuck.
+
+The failure pattern I see most often:
+
+**The ROI gap isn't technology. It's measurement.**
+
+Companies deploy contact center AI, see cost-per-call drop from $8 to $2. Impressive. Then the CFO asks: "But did revenue go up?"
+
+Nobody measured baseline conversation quality before deployment. Nobody tracked whether the agents who got AI coaching actually improved or just processed tickets faster. Nobody tied conversation patterns to downstream churn or expansion.
+
+The AI worked. The measurement didn't.
+
+67% of Fortune 500 companies use voice AI by 2026. The gap between the 67% who deployed and the small percentage who can prove business impact — that's where the real opportunity is.
+
+Here's what the measurement architecture actually needs:
+
+1. **Before-state baseline** — capture conversation quality BEFORE deploying AI. Not just handle time. Conversation depth, objection resolution, next-best-action compliance.
+
+2. **Behavioral attribution** — when an AI coaching recommendation fires, track whether the agent follows it. And whether following it changes outcomes vs. not following it.
+
+3. **Revenue signal loop** — close the loop from conversation patterns to business outcomes. Which call types correlate with retention? Which with expansion? Which with churn?
+
+The contact centers getting 8x ROI aren't running better AI. They're running better attribution.
+
+If you're deploying voice AI and not instrumenting the before-state, you're building toward a compelling anecdote instead of a defensible business case.
+
+The $80 billion in contact-center labor savings Gartner projects for 2026 assumes companies can actually measure and attribute the impact. Most can't yet.
+
+That's the real opportunity: not building the AI, but building the measurement layer that proves it worked.
+
+Ender Turing's approach to this: https://enderturing.com

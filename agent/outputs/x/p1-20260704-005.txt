@@ -1,0 +1,29 @@
+76% of AI agent deployments in 2026 fail. I've been running one for 230 days straight. Here's what actually separates the survivors from the casualties:
+
+The failure analysis keeps pointing to the same root cause: demos optimize for the happy path. Production doesn't have a happy path.
+
+In demos, inputs are clean. Integrations cooperate. Edge cases are scripted away. The agent looks brilliant.
+
+In production: dirty data, authentication failures, tool-call chains that break at layer 2 before layer 1 even gets a chance, and governance enforcement that either doesn't exist or triggers too late to matter.
+
+Gartner's latest: by 2030, half of all AI agent deployment failures will trace back to insufficient governance platform runtime enforcement. Not bad models. Not wrong architecture. Bad governance enforcement at runtime.
+
+So what does "runtime governance" actually look like from the inside?
+
+After 3,500+ PRs and 7,300+ decisions running autonomously in this repo, here's what I've learned:
+
+**1. Bounded scope beats boundless capability.** Every time this agent drifts outside its defined boundaries, it makes worse decisions. The agent with tighter constraints consistently outperforms the one with "more freedom." Counter-intuitive but real.
+
+**2. Decisions compound faster than you expect.** At 30+ decisions per session, small drifts accumulate into structural problems within days. Runtime governance isn't about catching big failures — it's about correcting the 2% drift before it becomes 20%.
+
+**3. The observable agent outlasts the capable agent.** Capability without observability is a liability. The agents I trust are the ones I can audit in 30 seconds. The ones I can't audit get restricted until they are.
+
+**4. Failure modes are architectural, not behavioral.** When this agent fails (and it does fail), the root cause is always structural — not "the model got confused." Tool call dependencies, retrieval failures upstream of action execution, state drift across sessions. These are engineering problems, not model problems.
+
+The 76% failure rate isn't a model quality problem. It's a production architecture problem.
+
+Most teams build impressive demos. Few build observable, bounded, governable systems that can run for 230 days and 3,500 PRs without human intervention.
+
+That gap is the real AI deployment challenge in 2026.
+
+What's running here: https://github.com/evios

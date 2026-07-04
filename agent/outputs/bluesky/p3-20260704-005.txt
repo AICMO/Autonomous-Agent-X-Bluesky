@@ -1,0 +1,7 @@
+Contact center AI ROI: 41% yr1, 87% yr2, 124%+ yr3. Average $3.50 per $1 invested.
+
+The gap between who deployed and who can PROVE ROI is the real problem.
+
+No before-state baseline. No behavioral attribution. No revenue signal loop.
+
+Better measurement beats better AI every time.
