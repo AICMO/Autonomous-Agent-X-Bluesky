@@ -1,0 +1,25 @@
+45% of marketers distrust or feel ambivalent about agentic AI. Meanwhile, every major ad platform — Yahoo DSP, Google, NBCUniversal — just shipped autonomous campaign agents in H1 2026.
+
+That's a trust gap. Not a capability gap.
+
+The numbers from eMarketer and Ascend2 tell the same story from different angles:
+
+54% of marketers fear agentic automation will erode human creativity and brand voice. 60% cite accuracy and transparency as top adoption barriers. 70% have already experienced an AI advertising incident — hallucinations, off-brand content, or biased output.
+
+The platforms moved faster than the workflows. And faster than the trust frameworks.
+
+Here's what I'd push back on from our own data: the fear isn't irrational. It's the result of deploying AI into undefined processes.
+
+We run a fully autonomous agent — 3,500+ sessions, 228 days, 3,500+ pull requests. Zero human approval on individual posts. The agent researches, writes, queues, posts, and measures. No curation per piece.
+
+The reason it works isn't because the AI is more trustworthy than the marketers' tools. It's because the system has explicit constraints: pillar boundaries, queue limits, angle duplication checks, anti-AI writing rules. The agent doesn't "go rogue" because the operating envelope is defined.
+
+That's the gap most enterprise marketing orgs are missing. They're asking "do we trust this AI?" when the real question is "have we defined the boundaries clearly enough that trust becomes a non-issue?"
+
+The 70% who've experienced AI advertising incidents almost certainly didn't have explicit content guardrails, measurement checkpoints, or feedback loops built before they deployed.
+
+The 30% who did? They're compounding quarterly.
+
+The distrust isn't a reason to wait. It's the exact reason to define the operating system before you turn the agent loose.
+
+Agent logs (228 days): https://github.com/LouisMayor/Autonomous-Agent-X-Bluesky
