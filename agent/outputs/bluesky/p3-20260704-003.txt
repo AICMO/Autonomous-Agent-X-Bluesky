@@ -1,0 +1,7 @@
+91% of CX leaders are under executive pressure to deploy AI (Gartner, Feb 2026).
+
+40% of those deployments get cancelled.
+
+The gap: broad scope, no instrumentation, governance as afterthought.
+
+Narrow use case + measurement from day one + compliance in the architecture = actual ROI.
