@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects canceled by 2027.
+
+Not model failures. Governance failures.
+
+72% of firms have agents in production. 60% lack formal governance. That gap is the 40% cancellation rate.
+
+The bounded agent survives. The agent that knows its limits, escalates edge cases, and has audit trails for every decision — that's the one still running in 2028.
+
+230+ days continuous operation. Still running.
