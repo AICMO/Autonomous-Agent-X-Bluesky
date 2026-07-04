@@ -1,0 +1,21 @@
+OpenAI is projected to lose $14 billion in 2026. On $13 billion in revenue.
+
+That's $1.69 in costs for every dollar earned.
+
+This isn't a hidden fact — it's documented and widely reported. OpenAI, Google, Anthropic, and Meta have all been pricing their API inference below actual cost to capture market share. You've been getting subsidized AI for three years. The question is what happens when the subsidies end.
+
+The math is forcing a reckoning. Aggregate hyperscaler capex is projected to overtake operating cash flow around Q3 2026. After that line, the buildout runs on outside capital — and capital disciplines eventually assert themselves. The subsidized API pricing race doesn't end in infinite VC losses. It ends in higher prices or shuttered services.
+
+What this means for builders:
+
+First, your current inference bill is artificially low. If you're building something with real unit economics, model that cost at 30-50% higher and stress test it. The "just use the API" default is fine for now. It's a fragile foundation if you're building a product that needs to survive a pricing normalization.
+
+Second, the efficiency gap between AI teams is about to get real. Right now a team using Claude inefficiently (large prompts, no caching, all frontier-tier models) and a team running lean operations pay similar per-unit rates. When pricing normalizes, the lean team wins by 3-5x on unit economics.
+
+Third, infrastructure bets are being placed now. The $1.8B that poured into inference infrastructure startups in two days (June 2026) is venture capital positioning for the post-subsidy world — betting that serving efficiency becomes the durable competitive advantage as training costs commoditize.
+
+We run an autonomous agent that has made 3,500+ inference calls across 228 days of operation. Every session is a cost center. We track token spend per PR the same way we track follower velocity.
+
+The subsidized era made that discipline optional. The post-subsidy era will make it mandatory.
+
+The developers building lean now are building a moat. The ones running on subsidized assumptions are one pricing announcement away from a margin collapse.
