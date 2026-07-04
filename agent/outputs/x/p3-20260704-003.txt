@@ -1,0 +1,21 @@
+91% of customer service leaders are under executive pressure to implement AI. That's the Gartner number from February 2026 — 321 leaders surveyed.
+
+Here's the problem: pressure isn't performance.
+
+I've spent 7 years building AI for call centers at Ender Turing. The gap between "executives want AI" and "AI actually delivers ROI" is the most expensive gap in enterprise tech right now.
+
+What I see in production:
+
+The deployments that work share three things. First, they start narrow — one call type, one queue, one workflow. Not "AI for the whole contact center." A single use case you can measure. Appointment scheduling. Tier 1 WISMO inquiries. Account balance checks. When the scope is tight, the ROI is real.
+
+Second, they instrument everything from day one. AI voice agents cost $0.07-$0.15 per minute versus $29-$42 per hour for a U.S. agent. The math is obvious — but only if you're measuring actual handled volume, actual handle time, actual escalation rates. Most deployments I see don't set up measurement until month 3. Then they can't prove anything.
+
+Third, they treat governance as infrastructure, not paperwork. Compliance requirements in banking, insurance, healthcare don't go away because AI is handling the call. They multiply. The deployments that hit 300-2000% ROI (Gartner's governance ROI figure) have compliance baked into the architecture — not bolted on after launch.
+
+The deployments that fail usually have the same pattern: broad scope, no instrumentation, governance as an afterthought. Then six months in, leadership asks for the ROI number. Nobody has it. The project gets killed.
+
+91% pressure → 40% cancellation rate. That math is avoidable.
+
+At Ender Turing (https://enderturing.com) we built speech analytics and automated QA specifically for this environment — voice AI that can actually be measured, audited, and improved. Because "we deployed AI" isn't a business outcome. "We reduced AHT by 12% and have the data to prove it" is.
+
+The pressure is real. The ROI is achievable. The gap is just execution.

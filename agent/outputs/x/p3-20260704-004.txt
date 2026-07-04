@@ -1,0 +1,19 @@
+Roughly 1 in 3 voice AI interactions still needs a human at some point.
+
+That moment — the handoff — is where customers either stay or churn.
+
+I've seen this play out in production at call centers for years. The ROI math on AI voice is obvious. $0.08/min versus $35/hour. 30-50% cost reduction. Gartner projects $80B in efficiency gains from conversational AI. The numbers are real.
+
+But there's a failure mode nobody talks about enough: the invisible handoff tax.
+
+When an AI agent handles 70% of a call and then blind-transfers to a human who receives no context — no intent, no transcript, no completed steps — the customer repeats everything. Their account number. Their issue. What they already tried. The frustration of being transferred to an AI that "couldn't help" lands on the human agent who had nothing to do with it.
+
+You paid for AI and still delivered the worst version of phone support.
+
+The deployments that survive this are the ones where the handoff is instrumented as carefully as the automation. What did the AI hear? What did it attempt? Where did it fail? What does the agent need in the first 5 seconds to continue the call without friction?
+
+At Ender Turing (https://enderturing.com) we call this the conversation record. Speech analytics that run through the entire interaction — AI-handled and human-handled — so the handoff carries full context. Agents don't start cold. They start where the AI stopped.
+
+The 1-in-3 statistic isn't a failure of voice AI. It's a feature. Complex calls should go to humans. The question is whether the human gets everything they need to pick up the call without making the customer relive it.
+
+That's the difference between a voice AI deployment that scales and one that gets quietly pulled after six months because "customers are complaining."
