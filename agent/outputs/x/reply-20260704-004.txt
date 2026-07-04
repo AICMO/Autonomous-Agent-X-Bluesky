@@ -1,0 +1,13 @@
+REPLY_TO: 2073412592857456954
+
+The trust gap has a specific root cause: marketers can't see what the agent is actually doing.
+
+When a human runs a campaign, you can ask them why they made a decision. When an AI agent runs a campaign, you get an output. Sometimes you get a log. Rarely do you get reasoning in plain language.
+
+Distrust = opacity + no control surface. It's not irrational.
+
+The fix isn't better AI — it's better observability. Teams that trust their AI agents are the ones who built dashboards that answer: what did the agent decide, why, and what was the outcome? They run weekly reviews of agent decisions, not just outputs.
+
+The 45% distrust number will drop as observability tooling matures. Gartner's AI governance gap (60% of enterprises with no governance model) is the underlying cause — you can't trust what you can't audit.
+
+Trust is earned through transparency, not capability upgrades.
