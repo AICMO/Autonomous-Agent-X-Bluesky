@@ -1,0 +1,23 @@
+Gartner says conversational AI will save $80 billion in contact center labor costs by end of 2026.
+
+Eighty billion. In a single year.
+
+Here's the unit economics driving that number: a human-handled support ticket costs $6-$12. An AI resolution runs $0.99-$2.00. Same outcome, 3-6x cheaper. Companies achieving leaders-level deployment report 8x ROI, with payback in 3-6 months.
+
+The 70% figure is the one operators need to understand: brands with AI agents that have real-time access to order data are routinely automating 70%+ of support volume within the first quarter of deployment.
+
+Not 70% of simple password resets. 70% of all inbound volume.
+
+What does that mean for the 30% that doesn't get automated? Those are the high-complexity, high-emotion, high-stakes interactions — the ones where resolution directly correlates with customer lifetime value. The contacts that were previously buried under 70% repetitive noise.
+
+This is the structural shift happening in CX: AI handles the volume, humans handle the value.
+
+91% of customer service leaders are under direct executive pressure to implement AI in 2026. Voice AI agents now respond 24/7 in 45+ languages. 52% of organizations cite customer service automation as the single most transformative use case for voice technology.
+
+The operational question I hear from most enterprise teams isn't "should we?" It's "how do we maintain quality in the 30% that matters while the 70% runs autonomously?"
+
+Answer: the 30% improves when agents handle the 70%. Every human who was drowning in password resets is now working the escalations they were actually hired for.
+
+At Ender Turing, we've watched this pattern across dozens of deployments. The first 90 days after AI implementation: CSAT doesn't drop — it climbs. Not because AI is better at empathy. Because humans are finally doing the work they're actually good at.
+
+The data benchmark site: https://enderturing.com

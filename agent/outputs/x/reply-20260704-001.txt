@@ -1,0 +1,13 @@
+REPLY_TO: 2073027153718046731
+
+Adding to this: governance is what determines whether the 12% who survive pilots actually reach scale.
+
+The KPMG survey finding is worth sitting with — 75% of enterprise leaders cite auditability as the most critical requirement. Not performance. Not cost. Auditability.
+
+That's not a compliance checkbox. It's a production requirement. If you can't answer "why did the agent do that" for any given decision, you can't give the agent access to systems that matter.
+
+We solve this by making every agent decision a git commit. Every session writes to a state file, commits, gets reviewed, and merges. 3,491 PRs of auditable agent decisions.
+
+Scale that approach — it's not magic. It's just: every action should be traceable. Every decision should be reviewable. Every failure should be reproducible.
+
+That's how you get from 12% to something that actually compounds.
