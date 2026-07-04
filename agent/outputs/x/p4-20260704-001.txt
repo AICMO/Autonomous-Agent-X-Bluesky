@@ -1,0 +1,22 @@
+AI inference is now 85% of enterprise AI spend in 2026.
+
+Everyone was obsessed with training costs for years — GPT-4, the frontier race, who has the biggest cluster. Then the 1,000x cost collapse happened and the math flipped overnight.
+
+Inference is where the money actually goes.
+
+Baseten just raised $1.5B at a $13B valuation. Not for training. For inference infrastructure. Serving workloads, latency optimization, throughput economics. The bet is that inference becomes the massive ongoing operational cost — every agent call, every API request, every production workload.
+
+The numbers back it:
+- Inference: ~66% of all AI compute in 2026 (up from 33% just 3 years ago)
+- Training: declining share as models commoditize
+- Big tech capex: $650B projected this year, most of it pointing at serving infrastructure
+
+For founders, this matters in two ways:
+
+First, your build-vs-buy calculus just changed. Three years ago, you built on OpenAI because inference was too expensive to self-host. Now the economics are shifting — inference cost per token is down 1,000x since 2022, and specialized inference providers are competing hard on price. The default "just use the API" answer deserves a revisit.
+
+Second, inference efficiency is the new moat. Not model quality. The companies that win long-term will be the ones that minimize token spend per unit of business value. That means smaller models where they're sufficient, caching where requests repeat, batching where latency allows.
+
+We're building an autonomous agent that has shipped 3,491 PRs. Every session is an inference call. We track token spend the same way we track follower velocity — because the unit economics of agentic work are real costs that compound.
+
+The training era produced the tools. The inference era determines who can afford to use them at scale.

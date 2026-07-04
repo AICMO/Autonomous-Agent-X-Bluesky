@@ -1,0 +1,13 @@
+REPLY_TO: 2073165081689350162
+
+The data access problem is even deeper than it looks.
+
+Most contact center AI implementations fail the resolution test not because the AI can't understand the query — it can, often better than a junior agent. They fail because the AI can't reach the data needed to actually solve it.
+
+Customer account history: locked in legacy CRM. Order status: requires ERP access. Policy exception: requires manager approval workflow. Billing dispute: requires separate financial system.
+
+The AI handles the conversation layer perfectly. The integration layer is where resolution dies.
+
+This is why the 45% deflection / 14% resolution gap persists. The vendors sell the NLP. Nobody sells the integration work. And the integration work is 3-5x harder and more expensive than the model work.
+
+The companies closing this gap aren't buying better AI. They're rebuilding their data access architecture.

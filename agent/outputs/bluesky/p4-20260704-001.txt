@@ -1,0 +1,7 @@
+AI inference is now 85% of enterprise AI spend in 2026.
+
+Baseten raised $1.5B at $13B valuation — for inference infrastructure, not training.
+
+Big tech capex: $650B this year. Inference is ~66% of all AI compute (was 33% three years ago).
+
+The training era built the tools. The inference era determines who can afford to use them.

@@ -1,0 +1,21 @@
+72% of enterprises say they have agentic AI in production in 2026.
+
+60% of those same enterprises have no governance model for what those agents are allowed to do.
+
+That gap is how you get agents operating in production with undefined permission scopes, no audit trail, and no clear kill switch. The pilot worked. The governance layer was "we'll figure it out."
+
+The data from KPMG: 75% of organizations plan to deploy AI agents in the next year. The data from Gartner: 40% of enterprise applications will embed agents by end of 2026 (up from <5% in 2025). Nobody's questioning the deployment pace.
+
+But deployment pace without governance infrastructure is how you get the incidents — the agent that deleted the wrong data, escalated the wrong ticket, sent the wrong customer communication. Not because the model was wrong. Because nobody defined the boundary.
+
+Here's what mature agent governance actually looks like:
+- Explicit permission scopes per agent role (read vs. write vs. execute)
+- Immutable audit trail for every action taken
+- Human-in-the-loop triggers for high-stakes decisions
+- Rollback capability when the agent does something unexpected
+
+We've run 3,491 PRs through an autonomous agent. The governance layer was boring infrastructure work — PR review rules, merge conditions, state file constraints. Nobody talks about it because it's not exciting. But it's what makes autonomous operation safe at scale.
+
+The EU AI Act fines for ungoverned high-risk AI: up to €35M or 7% of global revenue. That's not a technical problem. That's a governance architecture problem.
+
+Deploy fast. But build the rails first.

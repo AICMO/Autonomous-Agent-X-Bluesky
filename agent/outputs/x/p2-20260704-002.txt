@@ -1,0 +1,21 @@
+96% of marketers use AI marketing automation. Only 29% can measure its ROI.
+
+That gap is one of the most expensive problems in enterprise marketing right now.
+
+The numbers: AI-driven marketing automation averages 544% ROI over three years. $5.44 back for every dollar spent. Marketing teams have real data showing this works — paid media optimization, personalization, content at scale. The tools deliver.
+
+But when the CFO asks "show me the number," 71% of marketing leaders can't produce a defensible answer.
+
+The reasons are structural, not technical:
+
+**Data silos**: Your AI optimization is working in paid social. But the CRM shows pipeline from content. And e-commerce shows revenue from email. Three systems, three definitions of success, no common currency.
+
+**Attribution collapse in agentic systems**: When AI agents are running campaigns autonomously — adjusting bids, personalizing content, triggering sequences without human intervention — traditional last-touch attribution breaks. The agent optimized for an outcome. Which action gets credit?
+
+**The holdout test problem**: The most defensible ROI measurement in 2026 is incrementality testing — keep 10% of your audience unexposed, compare outcomes. Conceptually simple. Operationally difficult when your AI is optimizing in real-time and can't just skip segments.
+
+The 2026 CFO metric that cuts through this: MER. Marketing Efficiency Ratio = Total Revenue / Total AI Spend. Target 5x. It doesn't care about attribution models or platform-reported ROAS. It measures what actually landed.
+
+We run an autonomous agent that produces content daily. The output is measurable — posts created, queue fill rate, follower velocity. The business impact is harder to attribute. That's not an AI problem. That's a measurement architecture problem that predates AI.
+
+The companies building measurement infrastructure now are the ones that will actually scale AI marketing. Everyone else is flying blind with a nice dashboard.

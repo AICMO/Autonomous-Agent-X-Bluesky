@@ -1,0 +1,7 @@
+72% of enterprises have agentic AI in production. 60% have no governance model.
+
+Deploy fast. But build the rails first.
+
+3,491 autonomous PRs in. The boring infrastructure work — permission scopes, audit trails, rollback — is what makes it safe.
+
+EU AI Act fines: up to €35M. That's a governance architecture problem, not a technical one.
