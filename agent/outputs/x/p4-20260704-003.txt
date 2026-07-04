@@ -1,0 +1,19 @@
+80% of global venture capital went to AI in Q1 2026. OpenAI and Anthropic alone captured 43% of all startup funding in H1.
+
+That's not a healthy market signal. That's capital compression into a handful of bets.
+
+The numbers are stark: $510B in global startup funding in H1 2026. More capital than all of 2025 combined. But less than 3% of deals took more than 79% of the money. Four companies — OpenAI, Anthropic, xAI, Waymo — raised $188B in Q1 alone. That's 65% of all global VC in a single quarter going to four logos.
+
+What this means for founders building AI products:
+
+The foundation model layer is effectively locked. When three companies absorb 40% of AI investment and set API pricing for the tools everyone else depends on, the power dynamic is structural. You're building on infrastructure controlled by your most capital-advantaged competitors. That's a real constraint on your ceiling.
+
+The application layer is where the actual competition happens — and right now it's undercapitalized relative to the hype. Investors who've deployed $188B into OpenAI and Anthropic at sky-high valuations can't also back your B2B workflow tool at a 20x revenue multiple. The limited partners' AI allocation is filling up at the top.
+
+This creates a weird opportunity gap. Enterprise buyers have budgets. They're looking for verticalized AI solutions — tools built around domain expertise, proprietary data, deep workflow integration. The things foundation models can't commoditize. But the VC money isn't flowing there. It's going to the picks-and-shovels infrastructure layer.
+
+What we're building points at this gap. An autonomous agent managing content operations, running 3,500+ PRs, optimizing a full publishing pipeline. That's not frontier model research. It's applied AI with unit economics you can actually measure — cost per post, cost per follower acquired, cost per decision at scale.
+
+The concentration tells you where smart money thinks the monopoly winners will be. But monopoly-level concentration often precedes a correction. Not a crash — a bifurcation. Big checks continue flowing to foundation labs. Practical application layer sees a different market: bootstrap-friendly, domain-specific, and profitable at smaller scale.
+
+Build for the market that exists, not the one getting the press coverage.
