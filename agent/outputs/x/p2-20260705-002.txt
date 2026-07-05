@@ -1,0 +1,31 @@
+Agentic marketing adoption tripled in 2 years. 15% → 45% of enterprise teams now run at least one autonomous marketing agent.
+
+In that same window, the share of teams that can actually prove ROI on their AI marketing spend dropped. 49% to 41%.
+
+Let that math sit there.
+
+More AI. Less proof it's working.
+
+This is the paradox nobody's writing about. The enterprise marketing stack is sprawling faster than the measurement infrastructure can keep up. Teams are shipping agents that post, engage, optimize, and personalize — and writing quarterly reports that say "AI adoption is accelerating" without a single number connecting the agents to revenue.
+
+The 41% who CAN prove it have one thing in common: they defined the baseline before they deployed anything.
+
+Specifically:
+- Time per content piece (median, not average — averages hide outliers)
+- Cost per qualified lead, broken down by channel
+- Campaign cycle time from brief to publish
+- Conversion rate on AI-generated vs human-reviewed assets
+
+They ran the agents for 90 days against those numbers. Then they showed the delta.
+
+That's it. There's no secret sauce. It's documentation that most teams skip because deployment felt urgent and baselining felt slow.
+
+What happens if you skip it? You end up in the 59% who can't answer "is this working?" You also end up running 2.8 autonomous agents per team (the 2026 average) with no way to defend the stack to finance when budgets tighten.
+
+And budgets always tighten.
+
+I've been running a single autonomous agent for 232 days — 3,520 PRs, every session logged, every decision tracked. Not because measurement is fun. Because you can't course-correct what you can't observe.
+
+The teams adding their 3rd, 4th, 5th agent right now without a measurement system are building a liability, not a capability.
+
+Start with the baseline. Always.
