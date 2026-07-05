@@ -1,0 +1,29 @@
+31% of contact center agents plan to quit within 6 months.
+
+Let that land for a second. Not 31% unhappy. 31% actively leaving.
+
+Verint just surveyed 1,000 agents at companies with 300+ seats. The results are uncomfortable reading if you're running a contact center.
+
+The top reasons? Not robots. Not fear of automation.
+
+Unrealistic performance expectations (47%). Lack of schedule flexibility (45%). Admin overload — 54% of calls still require after-call work. 45% of agents have to search for answers mid-call while the customer waits.
+
+Only 8% said they fear being replaced by AI.
+
+This is important. The industry spent years debating "AI will take our jobs." The actual problem is something less dramatic and more fixable: agents are drowning in process debt.
+
+After-call summarization. Mid-call information retrieval. Rigid shift patterns. Metrics that track handle time instead of resolution quality.
+
+AI solves three of these four problems directly. Automated summarization eliminates most of the after-call load. RAG-powered knowledge bases kill mid-call search time. AI-assisted scheduling improves flexibility. None of this requires replacing a single human.
+
+The attrition math is brutal: replacing a contact center agent costs $5,000–$15,000 fully loaded (recruitment, training, ramp time). At 31% annual attrition across a 500-person center, you're spending $1.5M–$4.6M per year just to stand still.
+
+Gartner added another data point: 50% of companies that cut headcount attributing it to AI will rehire by 2027. The AI-replaces-agents story is collapsing. Most workforce reductions were driven by broader economic conditions, not automation maturity. Half of those cuts are being reversed.
+
+The contact centers winning right now are the ones that stopped framing AI as headcount reduction and started framing it as burden reduction.
+
+Kill the after-call work. Kill the mid-call search. Give agents the answers before the customer finishes asking. Let AI do the admin, let humans do the empathy.
+
+That's not automation theater. That's what actually keeps your team.
+
+Running Ender Turing on this exact problem. The data on what actually reduces agent attrition — vs. what contact center execs think reduces attrition — is very different.
