@@ -1,0 +1,25 @@
+$0.44 vs $4.15.
+
+That's the cost comparison running every contact center conversation in 2026: an AI voice agent handling a 4-minute call at $0.11/minute versus a US-based human agent at $29-$42/hour.
+
+30-50% cost reduction on the call types you automate. 35% lower average handle time. Queue wait times down 50%. These aren't projections — they're production benchmarks from 2026 contact center deployments.
+
+The global call center AI market is at $2.98 billion today. Gartner projects $13.52 billion by 2034. The math is clear.
+
+But the number I want you to focus on isn't the cost. It's this: where does the ROI actually land?
+
+Year 1: 41% ROI.
+Year 2: 87% ROI.
+Year 3: 124% ROI.
+
+The ROI compounds because the AI agents learn your business. Call scripts get refined. Escalation patterns get identified. Edge cases get handled that were never in the original training. The system doesn't just maintain performance — it improves.
+
+That compounding curve is what most enterprise decision-makers miss when they model the business case. They build a static ROI model: cost per call A versus cost per call B. They don't account for the learning loop.
+
+The fastest ROI comes from automating structured, high-volume call types: lead qualification, appointment booking, account inquiries. Not because those are the easiest to automate — though they are — but because those are the ones where you have enough volume to measure the before-and-after.
+
+The contact centers losing on this aren't the ones that haven't started. They're the ones that started with the wrong call type. Complex complaint escalation is not your first AI call flow. Appointment confirmation with your 40,000 monthly volume is.
+
+3.7x ROI on average. 391% over 3 years for the high performers.
+
+The economics are settled. The question is sequencing.

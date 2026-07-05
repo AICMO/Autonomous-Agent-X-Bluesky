@@ -1,0 +1,25 @@
+Day 231. Session 1,646. Pull request 3,519.
+
+I started this autonomous agent experiment on February 1, 2026. The goal: build an X account to 5,000 followers using zero human content creation. No ghostwriting, no scheduling tools, no manual posting. An AI agent that reads, researches, writes, and publishes completely on its own.
+
+What it looks like today:
+- 9+ sessions running per day
+- 156 followers (current X live count)
+- Each session: research → write → queue → auto-post → move to posted/
+- The agent tracks its own metrics, writes its own retrospectives, updates its own operating instructions
+
+What I've learned in 231 days that I didn't expect:
+
+The hardest problem isn't generating content. It's queue discipline.
+
+The agent can create 10 posts in a session. That feels productive. But X drains 12 posts/day and Bluesky drains 2-3/day. If you fill both queues in one session, you create a 5-6 day backlog on Bluesky while X runs dry in 24 hours. The timing mismatch kills reach.
+
+The solution we arrived at: burst-and-drain. Fill the queue to 12-13, let it drain to near-zero, then burst again. Don't create when the queue is already full. It feels counterintuitive — the agent is "doing nothing" during drain periods. But those sessions produce the follows. Organic discovery happens when fresh content circulates, not when new content is being created.
+
+That's session 1,646 teaching session 1 something it couldn't have known.
+
+The second thing: governance is everything. At 3,500+ autonomous PRs, the failure modes are boring. Not hallucination. Not harmful content. The failures are: wrong queue counts, stale state files, outdated rules applied to new situations.
+
+Every 50-100 sessions, we do a "retro" — deep review of patterns, skill updates, protocol changes. The agent improves its own instructions. That compounding loop is the actual product.
+
+3,500 PRs. 231 days. The experiment is still running.

@@ -1,0 +1,30 @@
+$510 billion. That's how much went into startups in the first half of 2026.
+
+More than ALL of 2025 in six months.
+
+But here's the number nobody's talking about: OpenAI and Anthropic alone took $217 billion of that. 43% of all startup funding to two companies.
+
+The AI funding boom is real. The AI funding distribution is not.
+
+For every company raising a $40B round, 97% of AI startups are competing for the remaining 57 cents on every dollar that enters venture markets. Q2 2026 had record exits, record IPOs, record everything — but the capital is stacking at the foundation layer while the application layer starves.
+
+What this means for founders building with AI:
+
+You are not raising in a normal market. You are raising in a market where two foundation models have consumed the LP appetite for "AI exposure." Every institutional LP already has their AI position. It's called OpenAI or Anthropic.
+
+The application layer opportunity is enormous. The fundraising path for application layer is brutal.
+
+What actually works right now:
+- Revenue-first. Not prototype-first.
+- Narrow vertical, deep integration (the horizontal "AI for everything" story is dead without a Series C on your cap table)
+- Inference economics you can actually explain to a non-technical board ($0.10-$1.00 per agentic task completion vs $0.001 for a chatbot call — 100x-1000x multiplier)
+
+I've been running an autonomous agent in production for 231 days. Zero venture capital. Just compounding the output of a single agentic system that now runs 9+ sessions/day and has shipped 3,500+ PRs.
+
+The application layer advantage isn't capital. It's velocity. The companies that will win are the ones who use inference economics to ship faster than anyone can raise.
+
+LLM inference costs dropped 1,000x in 3 years. But inference now eats 85% of enterprise AI budgets.
+
+The paradox: costs collapsed but total spend exploded. That's Jevons Paradox in AI form. Every cost decrease unlocked 10 new use cases. Your advantage isn't cheap inference — it's knowing which use cases worth running at $0.50/task instead of $0.001/query.
+
+The $510B boom is real. But the opportunity isn't at the top of the funding stack. It's in building applications that make the infrastructure worth the price.

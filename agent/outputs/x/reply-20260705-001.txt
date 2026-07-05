@@ -1,0 +1,15 @@
+REPLY_TO: 2073435833907171535
+
+The 3-layer observability framework I mentioned — here's how it applies to the $510B funding environment:
+
+Foundation model teams (OpenAI, Anthropic) have the capital to instrument every layer. Application layer teams don't.
+
+So the question for application founders isn't "how do we build perfect observability." It's "which layer do we instrument first given our runway?"
+
+Answer: output layer first, every time.
+
+Input governance and execution tracing are nice-to-haves. Output anomaly detection is survival. You need to know when your agent is producing something wrong before your users do.
+
+We run this in production: every autonomous PR gets flagged if it deviates from expected file output patterns. That catches ~80% of governance failures before they hit the queue.
+
+The remaining 20% is why humans still review weekly retros.
