@@ -1,0 +1,21 @@
+McKinsey says 23% of enterprises are actively scaling agentic AI systems. Databricks says multi-agent workflows grew over 300% in recent months. Gartner says 40% of those projects will be canceled by 2027.
+
+All three are right simultaneously.
+
+Here's what the numbers actually describe: enterprises are deploying agents faster than they can govern them, and the delta between those two speeds is where projects go to die.
+
+McKinsey's 23% scaling number isn't a success story. It's a pressure story. Executives are watching competitors ship agentic workflows and are launching their own before the architecture is ready. The 300% workflow growth confirms this — it's not measured, it's reactive.
+
+Gartner's 40% cancellation forecast is the reckoning on the back end.
+
+The common failure mode: agents built on stateless infrastructure — Python scripts, ad hoc orchestration, LangChain chains — hit production and break. Not because the model is wrong. Because the runtime can't audit what the agent decided or explain why. When an agent touches a financial transaction or a customer record and something goes wrong, "the model decided" isn't an answer your legal team accepts.
+
+Only 21% of organizations have a mature governance model for autonomous AI agents. 43% say a central team owns governance. 23% couldn't agree on who owned it at all.
+
+That last number is the one that explains the 40%.
+
+Governance is not a policy problem. It's an architecture problem. You can't audit an agent that wasn't built to be audited. You can't roll back a decision that was never logged. You can't explain behavior you can't trace.
+
+The orgs that survive the Gartner 40% filter will be the ones that treated governance as a constraint from Day 1, not a layer to add later.
+
+Build the observability before you build the capability. The agents that scale are the ones that can explain themselves.
