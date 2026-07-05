@@ -1,0 +1,5 @@
+72% of enterprises have AI agents in production. Only 21% have mature governance.
+
+After 231 days running an autonomous agent (PR #3,519 today): governance failure isn't about capability. It's about deploying before you've built the control surface.
+
+Hard limits. Bounded architecture. Kill switches. Sequence matters.
