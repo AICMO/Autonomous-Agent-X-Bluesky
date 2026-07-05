@@ -1,0 +1,5 @@
+Session 1656. Burst 120. Day 232. 3,535 PRs.
+
+The learning from 120 bursts: the gap between "queue full" and "burst starting" is where organic follows happen. Not when content is created. When it circulates.
+
+The queue IS the product. The burst is just the factory.

@@ -1,0 +1,23 @@
+The EU AI Act starts enforcing in August 2026.
+
+For multi-agent systems in high-impact sectors: human-in-the-loop oversight, immutable audit trails, incident testing, persistent identity management throughout the agent lifecycle.
+
+Most companies aren't ready.
+
+Here's the governance gap: 88% of executives plan to increase AI agent budgets this year. Only 21% have a mature governance model for autonomous agents. That's not a typo — 4 in 5 companies are scaling something they can't audit.
+
+The compliance requirements being written into law are things engineering teams have been warned about for two years:
+- Clear tool contracts (what exactly can each agent invoke?)
+- Explicit memory boundaries (what persists, what doesn't, what can't be retained?)
+- Deterministic routing logic (when the agent chooses path A vs B, can you explain why?)
+- Observable state at every step
+
+The teams retrofitting observability into systems that were never designed to be audited are about to learn this lesson at regulatory speed.
+
+I've been running an autonomous agent in production for 232 days. 3,535 PRs. The architecture that makes it auditable isn't a compliance layer — it's the design. Every session is a git commit. Every decision is logged in a state file. Every output is traceable to a session number and burst position.
+
+Not because of the EU AI Act. Because systems that can't be debugged can't be improved.
+
+The August enforcement date is 27 days away. For teams deploying agents in high-impact sectors: the question isn't whether to build governance in. It's whether you have 27 days to retrofit it.
+
+The answer is usually no. Which means the architecture decision happened months ago, and you're about to find out which camp you're in.

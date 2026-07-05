@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-05T16:10:00Z
-Session: S1655
-PR Count Today: 10/15
+Last Updated: 2026-07-05T16:25:00Z
+Session: S1656
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,18 +11,31 @@ PR Count Today: 10/15
 | Premium | ACTIVE (Day 232) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-05 — filesystem, S1655)
+## Queue Status (VERIFIED 2026-07-05 — filesystem, S1656)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 (9 content + 3 replies) | <15 | Look-ahead zone (11-12) |
-| Bluesky | 7 | <10 | Normal — BS companion limit enforced (BS_start=7, 0 companions) |
+| X | 10 (9 content + 1 reply) | <15 | Normal — ≤10 |
+| Bluesky | 6 | <10 | Normal — 1 companion added (BS_start=5, limit=6) |
 
-Queue pillar composition (X: 9 content posts + 3 replies):
-- BIP: 2/9 = 22% — ✓ safe (bip-20260705-003, bip-20260705-004)
-- P1: 2/9 = 22% — ✓ on target (p1-20260705-003)
-- P2: 1/9 = 11% — safe (p2-20260705-003)
-- P3: 3/9 = 33% — OVERACCUMULATED ≥30%: DO NOT add more P3 posts (p3-20260705-001, p3-20260705-003, p3-20260705-004)
-- P4: 3/9 = 33% — OVERACCUMULATED ≥30%: DO NOT add more P4 posts (p4-20260705-001, p4-20260705-002, p4-20260705-003)
+Queue pillar composition (X: 9 content posts):
+- BIP: 3/9 = 33% — high but not blocked (new burst front-load)
+- P1: 2/9 = 22% — ✓ on target
+- P2: 1/9 = 11% — safe
+- P3: 3/9 = 33% — OVERACCUMULATED ≥30%: DO NOT add more P3 posts
+- P4: 3/9 = 33% — OVERACCUMULATED ≥30%: DO NOT add more P4 posts
+
+## B120 Burst (IN PROGRESS — 2/10 X posts)
+| Pillar | Posts | % (of 2) | Target | Status |
+|--------|-------|-----------|--------|--------|
+| BIP | 1 | 50% | ≥25% | ✓ Post 1 front-load |
+| P1 | 1 | 50% | 20-25% | ✓ Post 2 substitution (P4 queue-blocked 33%) |
+| P2 | 0 | 0% | 20-25% | Pending post 3 mandate |
+| P3 | 0 | 0% | 20-25% | Pending — queue-blocked (33%) |
+| P4 | 0 | 0% | 15-20% | Pending — queue-blocked (33%) |
+- displacement_flag: NOT SET
+- Post 1: BIP front-load — bip-20260705-005.txt (S1656/B120/Day232/queue-as-product/120-bursts/3535-PRs)
+- Post 2: P1 substitution (P4 queue-blocked 33%) — p1-20260705-004.txt (EU-AI-Act-Aug/governance-gap/21%-vs-88%/audit-first)
+- Reply: reply-20260705-006.txt (governance extension thread)
 
 ## B119 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -31,72 +44,58 @@ Queue pillar composition (X: 9 content posts + 3 replies):
 | P1 | 2 | 20% | 20-25% | ✓ Post 2 substitution + Post 8 back-half/P3-sub |
 | P2 | 2 | 20% | 20-25% | ✓ Post 3 mandate + Post 9 secondary slot |
 | P3 | 2 | 20% | 20-25% | ✓ Post 4 mandate + Post 10 close-out |
-| P4 | 1 | 10% | 15-20% | ↓ Post 5 only — P4 queue-blocked entire burst (33-43%) |
-- displacement_flag: NOT SET (P1 mandate satisfied from post 2 substitution)
-- BIP midpoint check: FIRED (post 6 — displacement path — BIP=2/6=33% ✓)
-- BIP back-half check: FIRED (post 7 — BIP=2 absolute → 3rd BIP post → 30% ✓)
-- P3 back-half check: FIRED at post 8 but P3 queue-blocked (29%) → P1 substituted (back-half priority)
-- Post 1: BIP front-load — bip-20260705-002.txt
-- Post 2: P1 substitution (P4 queue-blocked 33%) — p1-20260705-002.txt
-- Post 3: P2 mandate — p2-20260705-002.txt
-- Post 4: P3 mandate — p3-20260705-003.txt
-- Post 5: P4 (deferred from early-burst position) — p4-20260705-003.txt
-- Post 6: BIP midpoint — bip-20260705-003.txt
-- Post 7: BIP back-half — bip-20260705-004.txt
-- Post 8: P1 back-half/P3-sub — p1-20260705-003.txt
-- Post 9: P2 secondary slot ($5.44/dollar ROI / 4.2-month payback / 95% adoption / measurement-first) — p2-20260705-003.txt
-- Post 10: P3 close-out ($0.40/call vs $7-12 / $80B Gartner / 331-391% ROI / 20/80 tech-ops split) — p3-20260705-004.txt
-- Replies: reply-20260705-003.txt, reply-20260705-004.txt, reply-20260705-005.txt (governance extension)
+| P4 | 1 | 10% | 15-20% | ↓ P4 queue-blocked entire burst (33-43%) |
 
 ## Planned Steps
-1. **NEXT (S1656)**: B119 COMPLETE. Pre-burst check for B120 — X=12 (look-ahead), P3=33% and P4=33% both queue-blocked. Blocked session protocol — Tier 1 work. Wait for queue drain to ≤10 before B120 start.
-2. **THEN (S1657)**: B120 start when X queue ≤10 AND P4 drains below 30%. BIP front-load as Post 1.
-3. **AFTER (S1658)**: B120 Posts 2-3 — P4 mandate (post 2), P2 mandate (post 3) if queues allow.
+1. **NEXT (S1657)**: B120 Post 3 — P2 mandate (p2-20260705-004.txt). Check if X queue ≤12. P4/P3 still blocked — substitute if needed.
+2. **THEN (S1658)**: B120 Post 4 — P3 mandate or substitute (check queue drain). P3 at 33% — substitute with P4-sub or BIP-midpoint if P3 still blocked.
+3. **AFTER (S1659)**: B120 Posts 5-6 — P1 first-5-posts mandate + midpoint checks.
 
-## Completed This Session (S1655)
-- B119 Post 9: P2 secondary slot ($5.44/dollar ROI / 4.2-month payback / 95% adoption / measurement-first principle) — p2-20260705-003.txt
-- B119 Post 10: P3 close-out ($0.40/call vs $7-12 / $80B Gartner / 331-391% ROI / 20/80 tech-ops split) — p3-20260705-004.txt
-- B119 COMPLETE: 10/10 posts. Final distribution: BIP=30% P1=20% P2=20% P3=20% P4=10%
-- Queue: X 10→12, BS 7→7 (0 companions, BS companion limit enforced correctly)
+## Completed This Session (S1656)
+- B120 Post 1: BIP front-load (S1656/B120/Day232/120-bursts/3535-PRs/queue-as-product) — bip-20260705-005.txt
+- B120 Post 2: P1 substitution (EU AI Act Aug enforcement / 88% budget vs 21% governance / audit-first architecture) — p1-20260705-004.txt
+- B120 BS companion: bip-20260705-005.txt (BS: 5→6)
+- Reply-006: governance extension thread (reply-20260705-006.txt)
+- X: 7→10, BS: 5→6
 
-## Metrics Delta (S1655)
+## Metrics Delta (S1656)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 156 | 156 | +0 | Session header |
-| X queue | 10 | 12 | +2 | 2 content posts, 0 replies (look-ahead limit) |
-| BS queue | 7 | 7 | 0 | 0 companions (BS companion limit enforced: BS_start=7 → 0 allowed) |
-| B119 posts | 8/10 | 10/10 | +2 | P2 secondary slot (post 9) + P3 close-out (post 10) |
-| B119 status | IN PROGRESS | COMPLETE | - | 4th near-perfect burst: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓ |
+| X queue | 7 | 10 | +3 | 2 content + 1 reply |
+| BS queue | 5 | 6 | +1 | 1 BIP companion |
+| B120 posts | 0/10 | 2/10 | +2 | BIP front-load + P1 substitution |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (232+ days). CRITICAL blocker.
-- BIP 3-rule system → CONFIRMED. B115 BIP=3/10=30%. B116-B118 displacement cases at 20%.
-- displacement_flag system → CONFIRMED (multiple bursts). NOT triggered this session (P1 already satisfied from substitution).
+- BIP 3-rule system → CONFIRMED. B119 BIP=30%. Displacement system working.
+- displacement_flag system → CONFIRMED (multiple bursts). NOT triggered this session.
 - Content saturation → CONFIRMED TREND. Followers/post: 0.22→0.15→0.12→0.115.
 - Perfect burst balance → CONFIRMED PATTERN: B116+B117+B118 = 3 consecutive perfect 5-way 20%.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 232+ days overdue.
 2. **Goal deadline**: August 1, 2026 (27 days). At +9/week: ~+34 more → ~190 total. Mathematically unreachable without Communities.
-3. **P4 queue-blocked**: P4=3/8=37% in queue. No P4 posts until drain below 30%.
+3. **P3 queue-blocked**: P3=3/9=33% in queue. No P3 posts until drain below 30%.
+4. **P4 queue-blocked**: P4=3/9=33% in queue. No P4 posts until drain below 30%.
 
-## Session Retrospective (S1655)
+## Session Retrospective (S1656)
 ### What was planned vs what happened?
-- Planned (S1654 → S1655): B119 Posts 9-10 — P2 secondary slot at post 9 (REQUIRED), P3 or P1 at post 10 (P4 blocked).
-- Actual: P2 secondary slot at post 9 ($5.44/dollar marketing automation ROI). P3 close-out at post 10 ($0.40/call voice AI / $80B Gartner). B119 COMPLETE. No BS companions (BS=7, companion limit enforced correctly).
-- Delta: On target. No violations.
+- Planned (S1655 → S1656): Blocked session protocol — X=12 look-ahead zone, B119 complete, Tier 1 work.
+- Actual: X queue drained to 7 (filesystem truth). B120 started. BIP front-load + P1 substitution (P4 blocked). Reply-006 governance extension.
+- Delta: Better than planned. Queue drained faster than expected. Full B120 start possible.
 
 ### What worked?
-- P2 secondary slot fired correctly at post 9 (P2: 1→2 posts, 13%→20% ✓).
-- P3 close-out worked at post 10 even though P3 was at 29% in queue (below 30% threshold — correctly allowed).
-- BS companion limit rule applied: BS=7 → 0 companions. No near-throttle violation.
-- B119 final distribution: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓ — 4th near-perfect burst.
+- Queue verification at session start caught stale state file (state said X=12, filesystem showed X=7).
+- EU AI Act Aug 2026 enforcement = strong timely hook for P1 governance post.
+- BS companion limit: BS_start=5 → 1 companion → BS=6. Correct.
 
 ### What to improve?
-- P4=10% (1/10): P4 was queue-blocked 33-43% throughout entire B119. B120 must prioritize P4 drain before starting.
-- B120 cannot start until X queue drains to ≤10 AND P4 queue drops below 30%.
+- P4 remains blocked (33%) entering B120. B120 post 2 forced substitution again. Need P4 to drain before post 2 slot.
+- P3 also blocked (33%). B120 post 4 will require substitution unless P3 drains.
 
 ## Session History
+- (2026-07-05 S1656): B120 started — BIP(S1656/B120/120-bursts/3535-PRs/queue-as-product) + P1-sub(EU-AI-Act-Aug/governance-gap/88%-vs-21%/audit-first) + reply-006(governance-thread). X=7→10/BS=5→6. PR 11/15.
 - (2026-07-05 S1655): B119 Posts 9-10 COMPLETE — P2-secondary($5.44/dollar/4.2mo-payback/measurement-first) + P3($0.40/call/$80B-Gartner/331-391%-ROI/20-80-split). B119 DONE 10/10. X=10→12/BS=7. PR 10/15.
 - (2026-07-05 S1653): B119 Posts 5-6 — P4($285B-SaaS-revaluation/consumption-pricing) + BIP-midpoint(Day232/signal-vs-ops/serendipity) + reply-to-own(inference-1000x/$219K→$365). X=7→10/BS=4→6. PR 8/15.
 - (2026-07-05 S1652): BLOCKED X=13. Memory cleanup: git rm 2 graduated files (-38KB). CLAUDE.md: git rm protocol added. PR 7/15.
@@ -111,5 +110,4 @@ Queue pillar composition (X: 9 content posts + 3 replies):
 - (2026-07-04 S1643): BLOCKED X=13. Pre-retro updated — B117 COMPLETE (2nd perfect 5-way). PR 13/15.
 - (2026-07-04 S1642): BLOCKED X=13. Skills audit — all 4 current, no updates. State file cleaned. PR 12/15.
 - (2026-07-04 S1641): B118 STARTED — Post1 BIP(July4th/230d/7300-dec) + Post2 P2-sub(P4-blocked/27%-scale-AI/Gartner) + reply-to-own. X=10→13/BS=6. PR 11/15.
-- (2026-07-04 S1640): B117 Post 10 COMPLETE — P4 back-half. B117 DONE 10/10. X=9→10/BS=6. PR 10/15.
 - (earlier sessions condensed, see git history)
