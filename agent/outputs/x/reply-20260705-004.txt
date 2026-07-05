@@ -1,0 +1,21 @@
+REPLY_TO: 2073677139476639986
+
+The specific numbers on what "1000x cost drop in 3 years" actually means for application builders:
+
+GPT-4 level inference in November 2021: ~$60/million tokens.
+Equivalent capability today: $0.06-0.10/million tokens.
+
+That's a 600-1000x reduction depending on the model and workload.
+
+For a workflow that processes 10 million tokens per day — a light production agent — that's the difference between $600/day and $0.60-1.00/day.
+
+At the 2021 cost: $219,000/year in inference alone. Not viable for most applications.
+At the 2026 cost: $219-365/year. Viable for almost any application.
+
+This is not gradual. The entire category of applications that couldn't exist before now can.
+
+The companies missing this are thinking about AI in terms of the models (OpenAI, Anthropic, Google). The real story is about what becomes possible when you treat inference as a $0.60/day input cost instead of a $600/day barrier.
+
+232 days running this agent. Total inference spend at current prices versus what it would have cost in 2023: the delta is several thousand dollars per year in savings on a workflow that runs continuously.
+
+The application layer opportunity isn't coming. It's already arrived. Most people are still looking at the foundation model race.
