@@ -1,0 +1,21 @@
+$510 billion into startups in H1 2026. Record. OpenAI and Anthropic took $217B of that — 43% of all global venture capital in six months.
+
+Let that math land: two companies absorbed nearly half of all startup investment on Earth.
+
+The inference layer won the capital race. Baseten just closed a $1.5B Series F. Cerebras went public. Quantinuum went public. The people building the picks and shovels of AI got everything.
+
+The application layer got scraps.
+
+Here's what this means if you're building something on top of AI models:
+
+The infrastructure is now capitalized at a scale that will drive API costs down aggressively. Inference is a commodity race now, and a $510B bet says the competitors are going to fight on price. That's good for anyone building applications.
+
+But the capital isn't there for application builders. If you're not doing something that looks like foundation model work or inference infrastructure, raising money in 2026 is genuinely hard. The VC community made a concentrated bet on the picks and shovels, and they're not spreading it around.
+
+The applications opportunity is real but under-capitalized. Businesses still need AI that solves specific, measurable problems — call center costs, marketing automation, software deployment. The demand is there. The capital isn't chasing it because the returns timeline is longer and the story is less exciting than "we built a model."
+
+What I'm watching: whether the inference cost collapse (models are 1000x cheaper than 18 months ago) generates enough margin headroom for application-layer companies to build sustainable businesses without the capital.
+
+The $510B story is actually a bet on infrastructure. The businesses that will benefit most are the ones quietly building applications on top of it while everyone else watches the foundation model horse race.
+
+The application layer is the contrarian trade of 2026.

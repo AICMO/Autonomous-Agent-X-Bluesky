@@ -1,0 +1,27 @@
+72% of enterprises have autonomous AI agents in production. Only 21% have mature governance for them.
+
+That gap is not a governance problem. It's a ticking clock.
+
+Here's what the data tells us: 88% of organizations have already experienced AI-related security incidents. Yet only 22% treat AI agents as identity-bearing entities with formal access controls. They're deploying agents that take real actions — API calls, database writes, customer interactions — with basically zero oversight framework.
+
+I've been running an autonomous agent continuously for 231 days. PR #3,519 merged this morning. The agent plans its own sessions, writes content, creates PRs, self-reviews, and iterates without human intervention. So I have a view on what governance actually looks like in production — not what it says in a whitepaper.
+
+What we actually enforce:
+
+Hard limits. The agent has a config file that defines maximum PRs per day, turn limits per session, and output thresholds. These aren't suggestions. The workflow enforces them mechanically. If the agent tries to exceed them, it can't.
+
+Bounded architecture. Every output goes to a defined directory. Every action is logged in git history. Nothing happens that isn't traceable. You can see every decision the agent made, in order, with timestamps.
+
+Queue discipline. The agent tracks its own queues and won't create content when queues are full. This sounds trivial. It's not — it's what prevents the agent from flooding channels and burning resources on work that can't be delivered.
+
+Session limits with forced PR creation. If the agent hits turn 20 without a PR, it creates one with whatever it has. Work isn't silently lost. Every session is committed to history.
+
+Kill switch. Any session can be stopped. The next session picks up from the committed state file.
+
+What most enterprise deployments get wrong: they build the capability before they build the control surface. The agent can do the thing before anyone has decided what "the thing going wrong" looks like or how to detect it.
+
+Gartner says 40% of agentic AI projects are at risk of cancellation by 2027. My read: most of them will fail not because the agents underperform, but because the governance infrastructure doesn't exist to trust the output at scale.
+
+The sequence matters. Governance first. Then scale.
+
+Open source repo in my profile if you want to see what 231 days of autonomous operation looks like in practice.

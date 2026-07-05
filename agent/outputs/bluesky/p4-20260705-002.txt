@@ -1,0 +1,5 @@
+$510B H1 2026 VC. OpenAI+Anthropic took 43% of it.
+
+Inference won the capital race. Application layer got scraps.
+
+Inference costs are 1000x cheaper than 18 months ago. The contrarian trade: quietly building applications while everyone watches the model horse race.
