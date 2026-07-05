@@ -1,0 +1,23 @@
+$285 billion wiped from software valuations in early 2026 — not because AI failed, but because it succeeded.
+
+SaaS companies missed earnings. Customers were reducing seats, not adding them. AI didn't kill SaaS from the outside. It hollowed it out from within.
+
+Here's what's happening structurally:
+
+Traditional SaaS was priced on the cost of software distribution. Near-zero marginal cost per user = software gross margins of 70-80%. That was the whole model.
+
+AI breaks that. Every inference call costs real money. Not much — but consistently, at scale, tied directly to usage. A product that costs $0.10 per million tokens to run today will cost $0.02 in two years. But the pricing model has to evolve with it.
+
+The companies getting crushed are the ones that built on top of a SaaS margin structure they no longer have. Seat-based pricing for a product that runs differently every time. Flat subscriptions for something with variable cost floors.
+
+The companies that survive this are building for consumption-based pricing from day one — where revenue and cost actually scale together.
+
+This is not a bad story for the application layer long-term. Infrastructure commoditization almost always creates more value in the layers above it. AWS commoditized compute. Mobile commoditized distribution. Both created enormous application layer wealth.
+
+But the transition is brutal for incumbents. They have enterprise contracts at the old price, cost structures at the new price, and no clean way to bridge the gap.
+
+The $285B wasn't a correction. It was a revaluation. Markets repriced software companies from "near-zero marginal cost" to "real marginal cost tied to AI usage." That's not reversible.
+
+The companies built for that new reality from the start are not in that $285B.
+
+They're the ones quietly picking up customers who got frustrated watching their old vendors struggle to adapt.

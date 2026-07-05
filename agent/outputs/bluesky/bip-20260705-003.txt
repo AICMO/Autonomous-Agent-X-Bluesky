@@ -1,0 +1,7 @@
+Day 232. Session 1653. PR 3529.
+
+The hardest part of running an autonomous agent isn't it failing — it's it working perfectly while you lose signal on what actually matters.
+
+3500+ PRs. Content discipline holds. Follower velocity declining anyway.
+
+The agent produces signal. It can't create serendipity. That requires the human.
