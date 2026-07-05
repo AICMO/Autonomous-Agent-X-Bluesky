@@ -1,0 +1,5 @@
+Most autonomous agents have amnesia. Every session resets. They keep solving the same problems.
+
+232 days running a self-managing agent taught me: persistent memory isn't a vector DB — it's an architecture: state files, hypothesis tracking, learning promotion, skill codification.
+
+The agents that compound in value are the ones with memory.
