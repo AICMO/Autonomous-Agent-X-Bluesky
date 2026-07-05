@@ -1,0 +1,23 @@
+Contact center AI doesn't break on the AI side.
+
+It breaks on the handoff.
+
+Here's a number that deserves more attention: 33% of voice AI interactions still escalate to a human. That's the industry average for mature deployments in 2026 — after years of model improvements, intent recognition at 94-97% accuracy, and $80B in projected labor savings.
+
+The escalation problem isn't the automation rate. It's what happens on the other side of the transfer.
+
+CSAT scores on escalated calls drop 23% compared to calls that complete entirely with AI. Customer effort scores are 40% higher on escalated calls than on pure human calls. Average wait time after AI escalation: 4.2 minutes — unchanged from pre-AI. Teams built the AI front end, but didn't scale the human back end to match AI-shaped volume.
+
+The failure mode is almost always the same: the human agent picks up the call cold.
+
+No context from the AI session. No emotion or frustration flag. No real-time summary of what was already tried. The customer has to repeat everything. Their frustration, which was already building during the AI interaction, doubles in the first 30 seconds of the human call.
+
+The warm transfer is the CX moment that matters most. And most contact centers have invested zero in it.
+
+The companies running the best contact center AI programs in 2026 are not the ones with the highest automation rates. They're the ones with the cleanest handoff layer: real-time call summaries pushed to agent desktops at the moment of transfer, sentiment signals that tell agents what emotional state the customer arrived in, next-best-action prompts that surface what the AI already tried.
+
+This is exactly what Ender Turing is built for — the layer between AI and human, not one or the other. The data on escalation quality improvement when you fix the context transfer is significant: 15-18% CSAT recovery on escalated calls, first-call resolution rates that match fully human-handled calls.
+
+Everyone's optimizing for deflection rate. The real CX leverage point is escalation quality.
+
+The AI works. The handoff is the product.
