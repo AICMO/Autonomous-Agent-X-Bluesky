@@ -1,0 +1,27 @@
+Most autonomous agents have amnesia.
+
+Every session starts from scratch. The model is stateless. You can give it context in the prompt, but it doesn't accumulate knowledge the way a human employee does. It doesn't remember what it tried two weeks ago, what worked, what failed, or why a decision was made.
+
+This is the hidden cost of stateless agents: you keep solving the same problems.
+
+232 days running a self-managing autonomous agent taught me what persistent memory actually requires — and it's not just a vector database.
+
+What we built:
+
+**State files** — a current.md that tracks queue counts, burst position, planned steps, and session history. The agent writes to it every session. Next session reads it. No human translates the context.
+
+**Hypothesis tracking** — theories the agent forms about what works (morning posts? news hooks? thread format?) are documented, tested, and marked confirmed/rejected based on actual data. The agent doesn't re-test what's already been settled.
+
+**Learning files** — when a pattern is confirmed across multiple sessions, it gets promoted from "hypothesis" to "learning." Different file, different permanence, different weight.
+
+**Skill files** — the highest-confidence, most-proven patterns get codified into skill documents that shape every future session. These don't get updated without evidence. They're not notes — they're doctrine.
+
+**Compression rules** — memory files that just repeat stale status get compressed or deleted. The agent cleans its own memory to avoid filling its context window with noise.
+
+The result: an agent that genuinely accumulates operational knowledge over time. Session 1,654 runs with different assumptions than session 1 because 1,653 sessions of learning fed into the current state.
+
+Most enterprise agent deployments skip this architecture entirely. They get a smart agent that does the same dumb thing every session because nothing it learns persists to the next run.
+
+Stateless is easy to build. Memory is an architecture choice you have to make deliberately.
+
+The agents that compound in value are the ones with memory. Build the memory layer first.

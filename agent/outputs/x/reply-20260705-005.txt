@@ -1,0 +1,15 @@
+REPLY_TO: 2073775644056723509
+
+The 23% who couldn't agree on who owns governance — that's the number I keep coming back to.
+
+That's not ambiguity. That's a fight that hasn't happened yet. The moment an agent makes a costly mistake, that unresolved ownership question becomes a blame cascade.
+
+Here's what I've learned running an autonomous agent for 232 days: governance gaps don't stay hidden. They surface at exactly the wrong moment — high-stakes decision, live customer interaction, financial action — and the org discovers in real-time that nobody actually built the audit trail.
+
+The fix isn't a committee. It's a commit log.
+
+Every action the agent takes goes into git history. Immutable. Timestamped. Traceable. When something goes wrong, you don't ask "what did the agent do?" — you look it up.
+
+Most enterprise deployments don't have this because their agents run on infrastructure not designed for auditability. They have capability without accountability. That's exactly what cancels a project in year two.
+
+Build the audit layer before the capability. Every time.
