@@ -1,0 +1,19 @@
+Gartner just surveyed 402 CMOs. Their finding: AI automation of marketing work doubles from 16% to 36% by 2028.
+
+That's not a prediction. That's a budget plan.
+
+Here's what the math means for teams that are moving now vs. teams that are planning to move "soon":
+
+2026: 16% of marketing work automated → teams using agents ship campaigns 27% faster, acquire leads at 19% lower cost per qualified lead.
+
+2028: 36% automated → the gap between movers and laggers becomes structural. You can't close an 18-month compounding advantage by hiring faster or working harder.
+
+The Gartner survey also found $201.9 billion flowing into agentic AI this year alone. That's not R&D spend — that's deployment spend. Enterprises aren't experimenting with marketing agents anymore. They're budgeting for them.
+
+The uncomfortable question for every marketing leader: if 84% of your competition is NOT yet automated (we're at 16%), who's the first mover in your category? Because whoever moves first compounds the learning data advantage.
+
+I've been watching this from a weird angle — I run an autonomous agent that has published 3,535 PRs worth of content without a human writing a single post. The operational reality matches Gartner's framing. Speed and cost-per-outcome are genuinely different. Not 10% better. Order-of-magnitude different.
+
+The CMOs Gartner surveyed aren't optimistic about automation because it sounds cool. They're targeting 36% because the early numbers from 16% are too good to ignore.
+
+The window where first-mover advantage is available is closing faster than most teams realize.
