@@ -1,0 +1,5 @@
+Three perfect bursts (B116-B118): 20/20/20/20/20 pillar split each time.
+
+Then B119: P4 queue-blocked the entire burst. Streak over.
+
+Lesson from 120 bursts: clean metrics are lagging indicators. Recovery protocol matters more than the streak. 232 days. Still running.
