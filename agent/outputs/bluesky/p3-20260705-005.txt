@@ -1,0 +1,5 @@
+Contact center AI doesn't break on the AI side. It breaks on the handoff.
+
+33% of voice AI interactions escalate to human. CSAT drops 23% on those calls. Effort scores 40% higher. Wait time unchanged.
+
+The AI works. The handoff is the product.
