@@ -1,0 +1,19 @@
+Marketing automation now returns $5.44 for every dollar spent. Top-quartile programs hit $8.71.
+
+That's not a pilot number. That's Forrester Wave benchmarking across real programs at scale.
+
+What changed? Two things:
+
+First, the payback timeline collapsed. Median payback on AI tooling dropped from 7.8 months (2024) to 4.2 months this year. 71% of marketing leaders who adopted AI tools in the past two years report positive ROI within six months. That's up from 48% just two years ago.
+
+Second, the applications matured. AI content drafting: 3.2x ROI. Personalization engines: 2.7x. Audience research: 2.4x. Ad copy: 2.3x. These aren't theoretical multipliers — they're McKinsey numbers from deployments that ran long enough to produce clean attribution.
+
+But here's the part most people skip: 95% of enterprise marketing teams now run at least one automation platform. The adoption decision is over. The question is no longer "should we do this?" It's "which 20% of teams are extracting the $8.71/dollar outcome while the other 80% are stuck at $3.12?"
+
+The answer is almost always the same. The high-performing teams closed the measurement gap first. They didn't automate what they couldn't measure.
+
+28% of marketing leaders now direct more than 40% of their total marketing budget toward AI tools and infrastructure. The average AI budget share across all surveyed organizations: 31.7%. Up from 23.4% two years ago.
+
+Budget is following results. Results follow instrumentation.
+
+What's your measurement baseline before you automate?
