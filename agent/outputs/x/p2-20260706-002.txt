@@ -1,0 +1,23 @@
+Marketing automation ROI: $5.44 back for every dollar spent. 544% over 3 years.
+
+That's the headline number from the latest benchmarks. And it tracks with what I'm seeing — the ROI story on AI marketing has fundamentally shifted in 2026.
+
+But here's what's more interesting than the number itself: the source of the returns is changing.
+
+The first wave was task automation. AI writes the email subject line, AI schedules the post, AI runs the A/B test. You saved 27 hours/week per marketer. Real savings. Measurable.
+
+The second wave — starting now — is agentic marketing. Not AI assisting the marketer. AI doing the marketing.
+
+Zoom just acquired Common Room. Their RoomieAI agents handle account research, personalization, and prospecting end-to-end. Profound Aim (launched this week) turns search signals into prioritized pipeline work autonomously. These aren't tools you operate. They're agents you direct.
+
+The distinction matters for ROI modeling:
+
+Task automation ROI = (time saved × hourly rate). Easy to calculate. Benchmarks well at 171% year one.
+
+Agentic ROI = (revenue generated autonomously). Much harder to attribute. No human touched the conversion. Your current attribution model is probably misclassifying it.
+
+This is why 93% of CMOs say AI is delivering clear ROI, but only 61% can quantify it clearly. The ROI is real — it's just outpacing the measurement infrastructure.
+
+What's coming: agentic AI projected to power 2/3 of current marketing activities in 2026. If that's accurate, the question isn't "should we invest?" The question is "who's building the measurement layer before the wave hits?"
+
+The ROI is there. The accountability framework isn't. That's the bottleneck now — not the AI.

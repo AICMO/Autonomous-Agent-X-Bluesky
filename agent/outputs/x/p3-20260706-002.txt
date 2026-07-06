@@ -1,0 +1,31 @@
+Voice AI in contact centers just hit the inflection point the math always predicted.
+
+Production deployments up 340% year-over-year across 500+ organizations. 80% of businesses plan voice AI integration by end of 2026.
+
+The cost curve explains why:
+
+AI-handled call: $0.40
+Human-handled call: $7–$12
+
+That's not a 10% improvement. That's a 95% cost reduction per interaction. At any meaningful call volume, the unit economics make the decision obvious.
+
+But cost is the easy part of the story. The more interesting data is on quality.
+
+AI-handled tickets CSAT: 4.10/5
+Human-handled tickets CSAT: 4.30/5
+
+That's a 0.20 point gap. Smaller than most people expected. And for routine interactions — balance inquiries, order status, basic troubleshooting — well-deployed voice AI is closing that gap to near zero.
+
+First-year ROI on voice AI: 41%. By year 3: 124%. Average payback period: 3–6 months.
+
+Three things I'm watching:
+
+1. The tier 3 emergence. IVR replacement (tier 1) and autonomous resolution (tier 2) are well understood. The new frontier is agentic voice — multi-step actions, real-time data integration, proactive outreach. This doesn't exist at scale yet, but the production readiness is arriving.
+
+2. The CSAT ceiling. 4.10 vs 4.30 sounds close, but the gap widens on complex cases. The companies seeing 4.30+ on AI channels are the ones who built their resolution flows around what AI does well, not just what it can technically handle.
+
+3. The labor model shift. $80B in contact-center labor savings projected globally by Gartner by end of 2026. This isn't gradual displacement — it's restructuring in motion.
+
+340% deployment growth in a year. The adoption curve is steep and it's still early.
+
+The unit economics crossed the threshold. What's left is execution.
