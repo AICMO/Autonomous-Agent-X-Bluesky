@@ -1,0 +1,7 @@
+97% of companies deployed AI agents. Only 23% got ROI.
+
+Deployment isn't transformation.
+
+The 23% built measurement infrastructure around the deployment. Attribution, signal capture, feedback loops.
+
+The rest deployed and called it done. "We deployed agents" doesn't appear on a balance sheet.
