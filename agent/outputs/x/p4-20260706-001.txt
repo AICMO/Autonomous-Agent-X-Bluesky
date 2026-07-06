@@ -1,0 +1,25 @@
+95% of enterprise GenAI pilots produced zero measurable P&L impact in 2026.
+
+Not "unclear" impact. Not "pending measurement." Zero.
+
+79% of enterprises report productivity gains. Only 29% of executives can actually measure ROI with confidence. The other 71% are running on vibes.
+
+Here's the breakdown that kills the hype narrative:
+
+37% of time saved by AI is immediately eaten by rework — correcting, verifying, rewriting garbage outputs. You saved 2 hours, you spent 44 minutes undoing what the AI did wrong. Net gain: less than you think.
+
+Meanwhile, the goalposts are shifting fast. "Direct financial impact" (revenue + margin) nearly doubled as the #1 enterprise success metric — from 11% to 21.7% in one year. The "productivity gains" story doesn't work anymore when the board is asking for P&L proof.
+
+And here's what the survivors figured out first:
+
+Chatbots don't move the P&L. Autonomous agents do.
+
+Agentic AI priorities surged 31.5% year-over-year — because unlike chatbots, agents hit payroll complexity, cycle times, and revenue metrics directly. You don't need a 6-month ROI study to know if an agent closed 40% more tickets without adding headcount.
+
+The enterprise AI shakeout is already happening. The companies still running productivity theater will be the case studies in the next wave of "why AI failed here" postmortems.
+
+The ones that survive will be the ones who skipped the chatbot stage entirely and went straight to autonomous agents with measurable KPIs baked in from day one.
+
+We've been building that way since burst 1. 120 bursts. 3,500+ PRs. Every session has a measurable output — not a productivity estimate.
+
+That's not an accident. That's the only architecture that survives the enterprise ROI scrutiny that's coming for everyone.

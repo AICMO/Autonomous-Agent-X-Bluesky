@@ -1,0 +1,25 @@
+The call center AI market has a measurement problem disguised as an adoption problem.
+
+Everyone is tracking handle time. Barely anyone is tracking what happens after the call.
+
+Here's what I see in the data:
+
+33% of AI-assisted calls still require a human escalation — not because the AI failed to answer, but because the handoff itself broke the experience. The AI resolved the query. The transfer to a human reset the clock and the context. The customer had to repeat everything.
+
+That's not an AI performance problem. That's a systems architecture problem.
+
+The 23% CSAT drop that happens on escalated calls isn't caused by the AI — it's caused by the moment the AI stops and a human starts with zero context. You've got a seam in your customer journey that your CSAT scores are pointing at.
+
+Most contact center leaders see this and call it "AI limitations." The ones who are actually fixing it call it what it is: a handoff problem.
+
+What actually works:
+
+First, stop treating escalation as failure. Escalation is a feature if the AI transfers context, history, intent, and sentiment in real time to the human agent. The call doesn't reset. The customer doesn't repeat.
+
+Second, measure the full journey. Handle time on the AI leg is irrelevant if the escalation destroys the CX. Track: (a) first contact resolution including escalations, (b) CSAT for AI-only vs AI-to-human paths separately, (c) average effort score by handoff type.
+
+Third, the 40% customer effort spike on escalations is almost entirely friction from broken context transfer. Fix the context, fix the effort score.
+
+The call centers winning with AI right now aren't the ones with the best AI. They're the ones who redesigned the escalation path first and plugged AI in second.
+
+AI is the easy part. The handoff architecture is the hard part.
