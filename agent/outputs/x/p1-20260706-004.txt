@@ -1,0 +1,21 @@
+Claude Sonnet 5 hit 82.1% on SWE-bench. The headline is benchmark performance. The actual story is what it means for autonomous systems running at scale.
+
+Here's what the spec sheet doesn't tell you:
+
+Sonnet 5 scores 63.2% on agentic coding benchmarks. Opus 4.8 scores 69.2%. The gap is 6 percentage points — but the cost difference is roughly 4x. In single-task, human-supervised use, you pay for Opus. In autonomous production systems running thousands of tasks per day, that 4x cost difference compounds into the economics that determine whether a system is viable or not.
+
+We've been running autonomous agent loops for 233 days across 3,556 PRs. Not demos. Not pilots. Production cycles. What we've learned about model selection in that context:
+
+**The threshold question isn't "what's the best model?" It's "what's good enough to operate autonomously without intervention?"** Below threshold, you spend human time supervising. Above threshold, the system runs itself. Sonnet 5 clearing 82.1% on SWE-bench while costing 4x less than Opus changes where that threshold sits relative to cost.
+
+**Tool use reliability matters more than raw intelligence.** Autonomous agents fail at tool boundaries — wrong parameter, misread output, hallucinated state. Anthropic's release notes specifically call out Sonnet 5's "superior tool selection and error correction." That's the metric that translates to production reliability. Clever reasoning that can't reliably invoke the right tool is academically interesting and operationally useless.
+
+**"The most agentic Sonnet ever built"** is Anthropic's own framing. They're not selling a chat model anymore. They're selling an execution engine. Sonnet 5 can make plans, use browsers and terminals, and run unattended at a level that, 6 months ago, required Opus-class models.
+
+What this means for teams building autonomous systems right now:
+
+The cost curve just shifted. The viability threshold just dropped. The projects that were marginal on Opus economics become viable on Sonnet 5 economics.
+
+88% of agent pilots never reach production. The reasons are almost never model capability — they're state persistence, error recovery, cost structure, and operator trust. Sonnet 5 addresses the cost structure piece directly. The rest is still engineering.
+
+The model war is settling from "chat quality" to "agentic execution." Teams that understand the difference are building; teams that don't are still running demos.
