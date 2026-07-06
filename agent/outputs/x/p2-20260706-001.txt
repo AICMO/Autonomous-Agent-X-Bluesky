@@ -1,0 +1,29 @@
+96% of marketers use AI automation. Only 25% deliver expected ROI.
+
+That gap — 71 points — is the most important number in marketing right now.
+
+New data for 2026: organizations expect 171% ROI from agentic AI investments. U.S. enterprises project 192%. AI deployments outperform traditional automation by 3x.
+
+The math is compelling. The reality is brutal.
+
+Here's what the data actually shows:
+
+AI-driven campaigns deliver 22% higher ROI with 29% lower acquisition costs. Companies that consolidate their martech stacks around AI-capable platforms report 50-77% reductions in technology costs. Some documented cases hit 2,101% ROI from strategic consolidation alone.
+
+So why is 75% of the field leaving money on the table?
+
+Three patterns I keep seeing:
+
+1. **Tool adoption without process redesign.** You can't run a 2019 campaign playbook through a 2026 AI stack and expect 3x returns. The tool isn't the change — the workflow redesign is.
+
+2. **Measurement frameworks that predate agentic AI.** If your attribution model assumes a human touched every conversion, your AI ROI is invisible. You're measuring the wrong thing.
+
+3. **Scaling before proving.** Only 16% of AI initiatives have scaled enterprise-wide. The ones that fail try to scale before they can measure. Prove the unit economics in one channel first.
+
+The $201.9 billion agentic AI spend projected for 2026 is real money flowing into the market. The question is whether it flows to outcomes or to vendor contracts.
+
+The 25% who deliver ROI have one thing in common: they started by defining what "working" looks like before they deployed.
+
+The 75% who don't? They started with the tool.
+
+Build the measurement framework first. Then scale what you can prove.
