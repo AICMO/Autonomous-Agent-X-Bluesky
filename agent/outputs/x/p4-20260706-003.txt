@@ -1,0 +1,23 @@
+AI inference costs collapsed 1,000x in 3 years. Enterprise AI spending surged 320% in the same window.
+
+This is the Jevons Paradox running at technology speed, and most enterprise AI budgets are not built for it.
+
+The data: AT&T's internal AI now consumes 27 billion tokens a day, up from 1 billion 18 months ago. That's 27x consumption growth against a backdrop of falling per-token prices. Uber burned through its entire 2026 AI budget by April.
+
+The math works like this:
+
+1865: William Jevons observed that more efficient coal engines didn't reduce coal consumption — they made coal economical for more uses, so consumption grew. Same principle, new substrate.
+
+When chatbot inference cost $90 per million tokens, most enterprise use cases didn't pencil out. When it dropped to $0.40, everything penciled out. So companies built everything. And "everything" at scale is a lot of tokens.
+
+The cheap models made this worse, not better. Gartner's March 2026 research shows commodity inference approaching near-zero — which sounds great until you realize it doesn't apply to frontier reasoning models. GPT-4.5 and Claude Opus 4 are not on the same deflation curve. The models you actually want for production-grade autonomous agents can still run $15-75 per million output tokens.
+
+The two-tier structure is the real trap. You budget assuming commodity model prices. Your production agents need frontier model capabilities. The gap is real and it compounds per-call.
+
+Agentic workflows make this non-linear. A chatbot is 1 inference call. A production agent is 40-200 inference calls per task — planning, tools, reflection, correction. At $0.40/million on commodity models that's manageable. At $15-75/million on frontier reasoning models, you need the economics to work before you scale.
+
+What this means in practice:
+
+Budget for token consumption growing 10-30x faster than you expect. Every efficiency improvement opens 3 new use cases. Model the Jevons effect into your AI OPEX planning, not just your pilot costs.
+
+The enterprises winning in 2026 aren't the ones who found cheaper tokens. They're the ones who built architecture that works at scale regardless of token price — because they knew the price curve wouldn't protect them from the consumption curve.
