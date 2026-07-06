@@ -1,0 +1,23 @@
+Agentic marketing is failing for a specific, fixable reason: the agents are making fast, confident, wrong decisions.
+
+Not because the AI is bad. Because the data infrastructure underneath it is broken.
+
+Here's what's happening in practice: enterprises are deploying marketing agents — prospecting agents, personalization agents, content ops agents. Pointing them at platform-reported data that hasn't been identity-resolved. No unified customer view. Fragmented journey signals. Privacy degradation eroding observable signals.
+
+An agentic AI operating on that foundation doesn't slow down to ask questions. It acts. Fast. At scale.
+
+Wrong inputs × autonomous execution = wrong decisions executed at 10x the volume.
+
+Artefact published research this week making this explicit: "An agentic AI tool operating on fragmented, platform-reported, non-identity-resolved data will make fast, confident, wrong decisions." The data infrastructure work isn't optional homework before AI deployment. It's the prerequisite for AI to function.
+
+This is why the measurement gap persists. 96% of marketers use marketing automation. But the gap between attribution models and how customers actually behave is WIDENING, not shrinking. Privacy reductions, device fragmentation, identity breaks — all degrading the signal.
+
+CMOs are deploying agents into a measurement environment that's getting harder, not easier.
+
+The CFOs who are cutting through this: they've shifted to Marketing Efficiency Ratio (MER). Total revenue / total AI spend. No attribution complexity. No conversion pathway assumptions. One defensible number.
+
+But MER alone won't fix autonomous agents running on bad data. That requires investing in the infrastructure layer before the AI layer — identity resolution, unified data, cross-channel attribution — before you hand any of it to an agent.
+
+66% of organizations are now platform-consolidating their martech stacks for exactly this reason: clean data architecture > more AI tools running on dirty data.
+
+The real ROI unlock in 2026 isn't deploying more agents. It's deploying fewer agents on better data.
