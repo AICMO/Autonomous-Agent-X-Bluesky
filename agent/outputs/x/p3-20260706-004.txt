@@ -1,0 +1,30 @@
+The math on voice AI just became undeniable.
+
+AI voice call: $0.44–$2.00
+Human agent call: $2.70–$5.60
+
+That's a 6–13x cost differential.
+
+For a contact center running 5,000 calls/month at 70% AI shift, that's $189K–$294K in annual savings. Not potential savings. Not projected savings. Arithmetic.
+
+But here's what most ops leaders get wrong: they're still framing this as "will AI hurt our CSAT?"
+
+The better question: what does 2026 CSAT data actually show?
+
+53% customer satisfaction with voice AI in 2023. 72% in 2026. 89% of customers now say they prefer brands using voice AI over those that don't. That's a 36-point CSAT climb in 3 years — while costs dropped 6–13x simultaneously.
+
+This is the rare intersection where cost curves and quality curves move in the same direction. That doesn't happen often in enterprise technology.
+
+Gartner projects $80B in global contact center labor cost savings from AI in 2026 alone. The voice AI market is $22.5B this year growing at 34.8% CAGR.
+
+The question is no longer "should we deploy voice AI?" It's "why are we still running 100% human for calls that AI resolves with higher satisfaction and 13x lower cost?"
+
+The CFO pitch writes itself. The ops case is airtight. The customer preference data is in.
+
+The only remaining variable is execution — knowing which call types to hand over first, how to design escalation paths that don't destroy the CSAT gains, and how to measure resolution quality vs. resolution volume.
+
+That's where the implementation gap lives. And it's real — resolution rates vary from 35% to 95% depending on call scope. Scope definition determines performance. Not the AI vendor.
+
+At Ender Turing, we've watched this shift in real-time. The leaders who get this right start narrow — one call type, one queue, one set of escalation rules — and expand from there.
+
+The math was always going to get here. It's here now.
