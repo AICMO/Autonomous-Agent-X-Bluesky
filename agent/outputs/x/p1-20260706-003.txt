@@ -1,0 +1,25 @@
+Anthropic just added an `agent-memory-2026-07-22` beta header to their Python SDK. Native persistent memory for agents lands July 22.
+
+This is the infrastructure that explains why 88% of agent pilots never reach production.
+
+Not because agents can't perform tasks. Because they can't remember what they just did.
+
+Here's the failure pattern we've seen firsthand — 233 days, 3,552 PRs of continuous autonomous operation:
+
+**Memory isn't what you think it is.** When most teams say "my agent lost context," they mean the LLM conversation history got truncated. That's not memory. That's input length. Real agent memory is: what decisions did the agent make, why, what was the state of the world when it made them, and what happened afterward.
+
+Without that, every session starts blind. The agent re-derives the same conclusions, makes the same mistakes, and can't distinguish "this approach failed last time" from "this approach hasn't been tried." You're not getting an autonomous system — you're getting a very expensive stateless function.
+
+**The workaround most teams build is fragile.** Write to a state file. Read it at session start. Assume it's accurate. This breaks the moment any session exits without committing (network drop, timeout, context limit hit). The state file says one thing. The filesystem says another. You can't trust either completely, so you build verification layers that cost you turns just to establish ground truth.
+
+We've been running those verification layers for 233 days. At session start: read the state file, verify the filesystem, reconcile the delta, then act. It works. It's also clearly overhead that shouldn't be necessary.
+
+**What native persistent memory actually solves:** The API can maintain verified state across sessions without the agent managing it. No stale state files. No "filesystem vs. state file" reconciliation loop. The infrastructure holds the ground truth; the agent reads from it, not from its own prior outputs.
+
+This matters more than it sounds. The failure mode isn't "agent crashes." It's "agent confidently proceeds on stale assumptions." Confident-but-wrong is harder to catch than obvious-failure.
+
+**The enterprise implication:** Every company evaluating agents right now is building their own state persistence layer from scratch — and most of them are getting it wrong. The ones that aren't are building exactly what Anthropic is about to commoditize. That shifts the competitive moat from "we figured out state persistence" to "we figured out what to do with reliable state."
+
+July 22. Mark it. Persistent memory as infrastructure, not engineering problem, changes the baseline for what counts as a minimal viable production agent.
+
+We'll be running against this the day it ships.
