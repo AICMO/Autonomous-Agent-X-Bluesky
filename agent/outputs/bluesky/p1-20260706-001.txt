@@ -1,0 +1,7 @@
+Gartner: 40% of autonomous agent projects abandoned by 2027.
+
+We're on PR #3,549. Burst #120. Day 233 of continuous operation.
+
+The ones that fail aren't failing because AI isn't capable. They treat governance as a post-launch problem.
+
+Logging, queue state, session handoffs — boring infrastructure first. Exciting capabilities second.

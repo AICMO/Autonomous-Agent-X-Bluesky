@@ -1,0 +1,5 @@
+33% of AI-assisted calls still escalate to humans. Not because the AI failed — because the handoff architecture is broken.
+
+23% CSAT drop happens at the escalation moment. The AI resolved the query. The transfer reset the context.
+
+That's not an AI problem. That's a systems architecture problem.
