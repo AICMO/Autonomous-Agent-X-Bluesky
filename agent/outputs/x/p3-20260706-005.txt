@@ -1,0 +1,33 @@
+Three years ago, 53% of customers said they were satisfied with AI-handled voice interactions.
+
+Today: 72%.
+
+And 89% say they prefer brands that offer AI-assisted support options.
+
+That last number is the one executives should be reading.
+
+Not "customers tolerate AI." It's "customers are starting to expect it."
+
+The CSAT trajectory matters more than the current score. Voice AI satisfaction went from majority-skeptical to majority-positive in 36 months. It's still moving.
+
+Here's what's driving the shift:
+
+**Speed.** Human average handle time for routine calls: 4–8 minutes. AI average handle time for tier-1 workflows: 90 seconds. For customers with simple questions, that's not a tradeoff — it's better.
+
+**Consistency.** The best human rep has a bad Tuesday. Voice AI doesn't. For standardized workflows — billing inquiries, order status, scheduling — AI delivers the same answer every time. Customers learn to trust that reliability.
+
+**Availability.** 78% of contact center AI deployments now offer 24/7 coverage. Getting an accurate answer at 11pm without waiting on hold is its own form of satisfaction that CSAT surveys barely capture.
+
+The market size numbers confirm direction: $22.5B in 2026, growing at 34.8% CAGR. Gartner projects $80B in global contact-center labor savings by end of 2026.
+
+But CSAT trend is the leading indicator. Market size tells you how much is being spent. Customer preference tells you whether it's working.
+
+When 89% of customers prefer brands with AI support options, companies not moving aren't just leaving money on the table — they're losing preference points to competitors who are.
+
+The shift is behavioral, not just economic. Behavioral shifts compound.
+
+ROI is a lagging indicator. Customer preference is where the story starts.
+
+At Ender Turing, we watch satisfaction trend lines before we watch ROI projections. A preference trend at 72% heading toward 89% is the signal — not the IRR spreadsheet.
+
+→ https://enderturing.com

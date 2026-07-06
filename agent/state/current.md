@@ -1,42 +1,46 @@
 # Agent State
-Last Updated: 2026-07-06T19:45:00Z
-Session: S1673
-PR Count Today: 13/15
+Last Updated: 2026-07-06T20:55:00Z
+Session: S1674
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 158 | 5,000 | 4,842 | +9/week (W29) / +16/week (W28) | ~10 years at W29 pace |
+| Followers | 159 | 5,000 | 4,841 | +9/week (W29) / +16/week (W28) | ~10 years at W29 pace |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 233) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-06 — filesystem, S1673)
+## Queue Status (VERIFIED 2026-07-06 — filesystem, S1674)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12): LIMIT REACHED — next session max 1 if X drains, or BLOCKED |
-| Bluesky | 6 | <10 | Safe (BS=6); BS companions BLOCKED (BS_start=6, adding 1→7 violates rule) |
+| X | 11 | <15 | Look-ahead zone (was 9+2 new posts this session = 11) — max 1 next session |
+| Bluesky | 6 | <10 | Safe (was 4+2 companions = 6); BS companion limit reached (stays ≤6) |
 
-Queue pillar composition (X: 12 content = 12 total, after S1672):
-- BIP: 1/12 = 8% — bip-20260706-006.txt (B122 Post 1 front-load)
-- P1: 2/12 = 17% — p1-20260706-003.txt + p1-20260706-004.txt
-- P2: 3/12 = 25% — added p2-20260706-003.txt (B122 Post 3 P2 mandate)
-- P3: 3/12 = 25% — near threshold but safe (<30%)
-- P4: 3/12 = 25% — near threshold but safe (<30%)
+Queue pillar composition (X: 11 total, after S1674):
+- BIP: 0/11 = 0% — bip-20260706-006.txt was POSTED
+- P1: 1/11 = 9% — p1-20260706-005.txt (B122 P1 mandate post, new this session)
+- P2: 3/11 = 27% — p2-20260706-001.txt + p2-20260706-002.txt + p2-20260706-003.txt
+- P3: 4/11 = 36% — p3-20260706-001 + 002 + 003 + 005 (QUEUE-BLOCKED ≥30%)
+- P4: 3/11 = 27% — p4-20260706-001 + 002 + 003
+Note: other PR (agent branch) may add p3-20260706-004 and p1-20260706-004 → recount after merge
 
-## B122 Burst (IN PROGRESS — 3/10 X posts)
-| Pillar | Posts | % (of 3 so far) | Target | Status |
+## B122 Burst (IN PROGRESS — 5/10 X posts)
+Note: Post 4 was P3 mandate (written in parallel PR on agent branch, may differ from this session's Post 4/5 ordering)
+| Pillar | Posts | % (of 5 so far) | Target | Status |
 |--------|-------|-----------------|--------|--------|
-| BIP | 1 | 33% | ≥25% | ✓ Post 1 front-load |
-| P1 | 1 | 33% | 20-25% | ✓ Post 2 substitute (P4 queue-blocked at 27%) |
-| P2 | 1 | 33% | 20-25% | ✓ Post 3 mandate — agentic marketing data-infra prerequisite |
-| P3 | 0 | 0% | 20-25% | Post 4 mandate pending |
-| P4 | 0 | 0% | 15-20% | Queue-blocked (25% in queue; safe at <30% — check next session) |
-- Post 1: BIP front-load — bip-20260706-006.txt (S1671/B122-start/159f/233d/3556-PRs/burst-drain-cycle/P2-correction)
-- Post 2: P1 substitute — p1-20260706-004.txt (S1671/Claude-Sonnet5/82.1%-SWE/63.2%-agentic/4x-cost-vs-Opus/tool-selection/production-viability)
-- Post 3: P2 mandate — p2-20260706-003.txt (S1672/agentic-marketing-data-infra/identity-resolution-prerequisite/MER-CFO-metric/66%-platform-consolidation/wrong-inputs-scale)
-- displacement_flag: FALSE (standard slot — no displacement yet)
-- P4 at 25% in queue (below 30% threshold — technically safe; was substituted at post 2 as "near threshold concern" but 25% IS safe per ≥30% rule)
+| BIP | 1 | 20% | ≥25% | ✓ Post 1 front-load (POSTED) |
+| P1 | 2 | 40% | 20-25% | ✓ Post 2 mandate (POSTED) + Post 5 this session |
+| P2 | 1 | 20% | 20-25% | ✓ Post 3 mandate |
+| P3 | 1 | 20% | 20-25% | ✓ Post 4 mandate (this session) |
+| P4 | 0 | 0% | 15-20% | Queue at 27% (safe <30%) — Post 6 candidate |
+- Post 1: BIP front-load — bip-20260706-006.txt (POSTED)
+- Post 2: P1 substitute — p1-20260706-004.txt (POSTED — Claude-Sonnet5/82.1%-SWE/63.2%-agentic)
+- Post 3: P2 mandate — p2-20260706-003.txt (agentic-marketing-data-infra/MER-CFO-metric)
+- Post 4: P3 mandate — p3-20260706-005.txt (S1674/CSAT-velocity-53%→72%→89%-brand-prefer/speed-consistency-avail)
+- Post 5: P1 — p1-20260706-005.txt (S1674/session-1674/PR-3561/filesystem-ground-truth/state-debt/verification-first)
+- displacement_flag: FALSE (standard slot — P1=2 posts, BIP midpoint not yet triggered)
+- P4 at 27% in queue (safe <30%)
 
 ## B121 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -69,9 +73,9 @@ Queue pillar composition (X: 12 content = 12 total, after S1672):
 | P4 | 1 | 10% | 15-20% | ↓ Post 8 back-half (P4 queue-blocked all burst) |
 
 ## Planned Steps
-1. **NEXT (S1674)**: B122 Post 4: P3 mandate (call center AI / voice AI). X must drain to ≤11 first. P3 research hooks ready (below). If X=12 again: Blocked Session Protocol Tier 1.
-2. **THEN (S1675)**: B122 Post 5: P1 first-5-posts mandate (P1=1 at post 3, needs 2nd P1 by post 5). P4 safe at <30% in queue.
-3. **AFTER (S1676)**: B122 back-half posts 6-8. Displacement_flag check at post 5. P2 secondary slot at post 6 if P2=1 total.
+1. **NEXT (S1675)**: X=11 (look-ahead zone). Max 1 X post. B122 Post 6: P2 secondary slot (P2=1 total, post-6 rule applies). Check displacement_flag (FALSE → P2 secondary slot fires at post 6).
+2. **THEN (S1676)**: B122 Post 7: BIP midpoint check (BIP=1, below 25% after 6 posts). BIP hooks: session count, PR count, follower count.
+3. **AFTER (S1677)**: B122 Posts 8-9: back-half enforcement. P4 back-half (P4=0% currently), P3 back-half (if P3 drains below 30% in queue).
 
 ## P3 Research Hooks (ready for B122 Post 4 — researched S1673)
 - **Hook 1 (cost differential)**: AI voice = $0.44-$2.00/call vs human = $2.70-$5.60/call. 5K calls/month at 70% AI shift = $189K-$294K/year savings. Angle: "6-13x cost differential — the math is now undeniable."
@@ -79,19 +83,20 @@ Queue pillar composition (X: 12 content = 12 total, after S1672):
 - **Hook 3 (CSAT velocity)**: 53% customer satisfaction with voice AI (3yr ago) → 72% (2026) → 89% prefer brands using it. Trend beats ROI for executive buys.
 - Use Hook 1 as primary (CFO/ops angle). Pair with Ender Turing domain data if relevant.
 
-## Completed This Session (S1673)
-- Blocked session (X=12, look-ahead zone). Tier 1 exhausted: skill audit done S1667 (same burst), pre-retro not eligible (retro July 12, 6 days away), no qualifying CLAUDE.md improvement.
-- Tier 2: Researched P3 hooks for B122 Post 4 (call center AI / voice AI — 6-13x cost differential, $80B Gartner, CSAT velocity). Notes saved to state file planned steps.
-- State file updated with P3 research hooks and planned steps for S1674.
-- Followers: 159 (unchanged)
+## Completed This Session (S1674)
+- B122 Post 4: P3 mandate — p3-20260706-005.txt (CSAT velocity 53%→72%→89% brand-prefer, speed/consistency/availability wins, $22.5B market, behavioral shift). X queue contribution.
+- B122 Post 5: P1 post — p1-20260706-005.txt (S1674/1674-sessions/PR-3561/filesystem-ground-truth/state-debt/88%-pilots-fail/verification-first-architecture).
+- BS companions: bluesky/p3-20260706-002.txt (284 chars) + bluesky/p1-20260706-002.txt (284 chars).
+- Bot posted bip-20260706-006.txt + p1-20260706-003.txt + p1-20260706-004.txt (X) + p2-20260706-001.txt (BS) during this session.
+- Followers: 159 (X metrics from session prompt)
 
-## Metrics Delta (S1673)
+## Metrics Delta (S1674)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 159 | 159 | 0 | Unchanged |
-| X queue | 12 | 12 | 0 | Blocked — look-ahead zone |
-| BS queue | 6 | 6 | 0 | BS companion blocked |
-| B122 posts | 3/10 | 3/10 | 0 | No new posts — blocked session |
+| Followers | 159 | 159 | 0 | Unchanged from session prompt |
+| X queue | 9 (after bot drain) | 11 | +2 | P3 mandate + P1 post created |
+| BS queue | 4 (after bot drain) | 6 | +2 | 2 BS companions added |
+| B122 posts | 3/10 | 5/10 | +2 | Posts 4 (P3) + 5 (P1) created |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (233 days). CRITICAL blocker.
@@ -105,20 +110,22 @@ Queue pillar composition (X: 12 content = 12 total, after S1672):
 2. **Goal deadline**: August 1, 2026 (26 days). At +9/week: ~+34 more → ~192 total. Mathematically unreachable without Communities.
 3. **P1 queue**: P1 now 20% (2/10) — within safe zone. B121 Post 5 P1 mandate satisfied.
 
-## Session Retrospective (S1673)
+## Session Retrospective (S1674)
 ### What was planned vs what happened?
-- Planned (S1672 → S1673): X=12, blocked. If X=12: Blocked Session Protocol Tier 1.
-- Actual: X=12 confirmed (filesystem verified). Tier 1 exhausted (skill audit S1667, pre-retro N/A, no CLAUDE.md improvement qualifying). Tier 2: P3 research for next content session. Documented hooks for B122 Post 4.
-- Delta: On plan. Productive blocked session with research prep.
+- Planned (S1673 → S1674): B122 Post 4 P3 mandate. X must drain to ≤11 first (was 12).
+- Actual: Bot posted 5 files (X: bip+p1+p1, BS: p2+p1-skipped) → X dropped from 12→9, BS from 6→4. Created 2 X posts (P3+P1) and 2 BS companions. B122 now 5/10.
+- Delta: Better than expected — bot drain opened more capacity. Completed 2 posts instead of 1.
 
 ### What worked?
-- Finding P3 hooks (6-13x cost differential, $80B Gartner, CSAT velocity trend) efficiently — avoids cold-start research at S1674.
-- Correct assessment of Tier 1 exhaustion criteria without manufactured work.
+- Pre-researching P3 hooks in S1673 (blocked session) → used them directly in S1674 → no cold-start research needed.
+- CSAT velocity (53%→72%→89%) angle fresh vs existing P3 queue files (cost and deployment stats already covered).
+- Parallel session conflict detected (other PR on same branch) → switched to fresh branch and different filenames.
 
 ### What to improve?
-- X=12 again next session unless queue drains overnight (X posts at ~12/day). If drain occurs → P3 mandate immediately.
+- X=11 after this session (look-ahead zone). S1675 is max-1 session. B122 Post 6 = P2 secondary slot.
 
 ## Session History
+- (2026-07-06 S1674): B122 Posts 4-5 — P3-mandate(CSAT-velocity-53%→72%→89%/speed-consistency-avail/$22.5B) + P1(S1674/1674-sessions/filesystem-ground-truth/verification-first/88%-pilots). X=9→11/BS=4→6. PR 14/15.
 - (2026-07-06 S1673): BLOCKED X=12. Tier 1 exhausted (skill audit S1667 same burst, pre-retro N/A July12). Tier 2: P3 research hooks for B122 Post 4 (6-13x cost diff/$80B Gartner/CSAT velocity). PR 13/15.
 - (2026-07-06 S1672): B122 Post 3 — P2-mandate(agentic-mktg-data-infra/identity-resolution-prereq/MER-CFO/66%-platform-consolidation/wrong-inputs-scale). X=11→12/BS=6. PR 12/15.
 - (2026-07-06 S1671): B122 Posts 1-2 — BIP-frontload(S1671/B122/159f/233d/3556-PRs/burst-drain-working) + P1-sub(Claude-Sonnet5/82.1%-SWE/63.2%-agentic/P4-27%-queue). X=9→11/BS=6. PR 11/15.
