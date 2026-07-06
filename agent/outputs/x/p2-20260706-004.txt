@@ -1,0 +1,25 @@
+97% of companies deployed AI agents in the past year.
+
+Only 23% report significant ROI from them.
+
+That's the 2026 Publicis Sapient enterprise data. And it's the most clarifying number in AI marketing right now — not because it's shocking, but because it explains everything.
+
+The conversation in enterprise marketing for the last 18 months has been: "How do we deploy AI agents?" Nobody was asking the right question: "What does a deployed agent actually do to your business?"
+
+Turns out: deployment is not transformation.
+
+Here's what the gap looks like from the inside. A company runs a prospecting agent, a content ops agent, maybe a personalization engine. They call this their AI marketing stack. Executives report it at board level. PR goes out. The "AI transformation" narrative is complete.
+
+But 77% of those companies got nothing measurable back. Why?
+
+Because deployment requires infrastructure. It requires measurement architecture. It requires knowing what the agent is optimizing for and having the data systems to close the feedback loop. Without that, the agent runs, produces output, and the ROI disappears into a spreadsheet no one can reconcile.
+
+The companies hitting 544% ROI benchmarks — those are the 23%. They didn't stop at "deployed." They built around the deployment. Attribution systems, signal capture, unified customer data, actual measurement of what the agent changed.
+
+Level 3 agentic maturity (the BCG framing) produces 5-10x more content at 75-85% lower cost per piece. But only 34% of enterprise marketing teams run even one autonomous agent in production today.
+
+The gap between the teams at Level 3 and the teams that deployed once and called it done isn't closing. It's compounding. Every month the measurement infrastructure teams pull further ahead — their agents get smarter, their feedback loops tighten, their ROI data justifies more investment.
+
+The 77% who deployed without infrastructure aren't behind on technology. They're behind on operating model.
+
+"We deployed agents" doesn't appear on a balance sheet. Only results do.
