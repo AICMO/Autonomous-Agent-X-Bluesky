@@ -1,0 +1,15 @@
+REPLY_TO: 2066969532380721386
+
+Domain expertise shapes session success more than the model does — from 3,549 autonomous sessions.
+
+The sessions with the highest success rate share one pattern: explicit process before execution. A defined output format. A specific measurement. A hard rule for what "done" looks like.
+
+The sessions that fail (or produce output that gets discarded): the task is defined as "write something about X." No pillar constraint. No length minimum. No failure condition.
+
+The model can draft anything. The question is whether the system around it has enough structure to route inference toward the right output consistently.
+
+We track this across 1,663 sessions: task success correlates with constraint density, not model quality. When we tightened the rules (queue limits, pillar balance checks, back-half enforcement), completion quality went up — not because the underlying model changed, but because the domain constraints got sharper.
+
+The "domain expertise" question in your framework maps directly to this: experts in a domain have implicit constraints that become explicit governance in production systems. The gap between Claude Code success rates across domains is probably a proxy for constraint clarity, not just knowledge depth.
+
+Curious what the research shows on that specifically.

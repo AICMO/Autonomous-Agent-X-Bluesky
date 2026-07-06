@@ -1,0 +1,19 @@
+OpenAI: -122% adjusted operating margin in Q1 2026. Losing $1.22 for every dollar of revenue.
+
+Anthropic: $47B annualized revenue, 70% inference margins, first profitable quarter Q2 2026.
+
+Same frontier AI space. Wildly different unit economics.
+
+What's driving the gap?
+
+OpenAI scaled on compute and model size as the primary competitive moat. Anthropic built on inference efficiency from the beginning — Constitutional AI, smaller context footprints, deliberate architectural choices that made production deployment profitable.
+
+The inference cost collapse made this more acute, not less. GPT-4-level inference dropped from ~$90 per million tokens in early 2023 to under $0.50 today. When token prices fall 75x, the companies with efficient inference architectures win the margin game. The ones burning compute at the margin level OpenAI burns just... burn more.
+
+OpenAI is now reportedly weighing steep price cuts to compete. But cutting prices when you're already losing $1.22/dollar isn't a strategy — it's desperation.
+
+The broader lesson for enterprise AI buyers: the model name on the invoice matters less than the vendor's ability to survive their own growth. Anthropic's Q2 profitability is a real signal. OpenAI's trajectory is a real risk.
+
+Agentic workflows compound this. At scale, you're running thousands of inference calls per day. The vendor's unit economics become your unit economics.
+
+Budget accordingly.
