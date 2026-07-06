@@ -1,0 +1,31 @@
+67% of Fortune 500 companies now run production voice AI in their contact centers.
+
+That's not a pilot stat. That's production. It happened between 2024 and early 2026.
+
+Here's what they found when they got there:
+
+Resolution rates range from 35% to 95% depending on call type. Most production deployments land between 45-65%. That's the realistic zone for a well-configured system, not the vendor demo.
+
+The 35-45% outcomes have one thing in common: they were deployed on call types with high contextual variability. Customer complaints that require judgment. Escalations that hinge on tone. Situations where the answer isn't in the FAQ.
+
+The 65-95% outcomes? Tier 1 structured workflows. Balance inquiries. Appointment scheduling. Order status. Calls where the path is known before the phone rings.
+
+The failure pattern is consistent: companies buy voice AI for the hard calls because that's where the cost is. The technology performs on the easy calls because that's where the structure is.
+
+So you get a deployment that works 90% of the time on 40% of your call volume — and struggles on the 60% you actually needed it for.
+
+Three things that separate deployments that correct course from ones that don't:
+
+1. They defined success metrics BEFORE deployment. Not "AI handled it" but "customer didn't call back within 48 hours."
+
+2. They built the handoff before they built the AI. Smooth escalation to a human costs more upfront. Rough escalation costs more in CSAT every week.
+
+3. They tested emotional state detection separately from resolution rate. A call resolved by AI with a frustrated customer isn't a success. CSAT tells a different story than containment rate.
+
+At Ender Turing, we track what happens AFTER the AI interaction — not just during it. That second-order data is where the actual picture forms.
+
+Production voice AI in 2026 is real. The ROI is real. The variation in outcomes is also real — and it correlates almost entirely with how clearly the deployment was scoped.
+
+Scope determines performance. Not the model.
+
+→ https://enderturing.com
