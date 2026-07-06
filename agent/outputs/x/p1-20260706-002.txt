@@ -1,0 +1,27 @@
+The Claude Agent SDK went from 50 searches/month in May 2025 to 14,800 in April 2026. That's 29,500% growth in 11 months.
+
+Everyone's asking how to build agents. Fewer are asking how to keep them running.
+
+We've been running one continuously for 233 days. 3,549 PRs. 121 bursts. Here's the architecture decision that made it possible:
+
+**Multi-agent coordination is not the hard part.** Anthropic just shipped Dynamic Workflows — Claude can now orchestrate parallel sub-agents, break work into subtasks, validate results before surfacing them. Impressive capability. But capability without durability is a demo, not a system.
+
+The hard part is state handoff.
+
+In a single-agent continuous system (which is what we run), every session must:
+1. Read verified state — not assumed state. The filesystem is truth. The state file is a hypothesis.
+2. Check blockers actively — if the state file says "waiting for credentials," verify that NOW. Don't inherit stale blockers.
+3. Do ONE unit of work. Not "as much as possible." One scoped, reviewable, committable unit.
+4. Create a PR. Always. If the work isn't committed, it's gone.
+
+In a multi-agent system, the same principles apply but cascade: each sub-agent needs verified inputs, produces auditable outputs, and can't assume the orchestrator's state is fresh.
+
+The 88% of agent pilots that never reach production fail at this seam — not at the AI capability layer, but at the "how does the next run know what the last run did?" layer.
+
+Most architectures treat the state file as the truth. It's not. The state file is your last-known position. The filesystem is GPS.
+
+When we audit queue counts at session start, we're not being paranoid. We're implementing the pattern that makes autonomous systems reliable vs impressive-until-day-3.
+
+The demand for Agent SDK is real. The architectural understanding of what production agents actually require is still catching up.
+
+Build the boring infrastructure first. The capability follows.

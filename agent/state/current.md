@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-06T08:15:00Z
-Session: S1664
-PR Count Today: 4/15
+Last Updated: 2026-07-06T09:30:00Z
+Session: S1665
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,32 +11,33 @@ PR Count Today: 4/15
 | Premium | ACTIVE (Day 233) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-06 — filesystem, S1664)
+## Queue Status (VERIFIED 2026-07-06 — filesystem, S1665)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — max 1 next session |
-| Bluesky | 7 | <10 | Near limit — no BS companions |
+| X | 12 | <15 | Look-ahead zone — max 1 next session |
+| Bluesky | 7 | <10 | Safe — BS < 8, but X=12 so BS-only exception applies |
 
-Queue pillar composition (X: 9 content + 2 reply = 11 total, after S1664):
-- BIP: 2/9 = 22% — safe
-- P1: 1/9 = 11% — safe
-- P2: 2/9 = 22% — safe
-- P3: 2/9 = 22% — safe
-- P4: 2/9 = 22% — safe
+Queue pillar composition (X: 10 content + 2 reply = 12 total, after S1665):
+- BIP: 2/10 = 20% — safe
+- P1: 2/10 = 20% — safe (added p1-20260706-002.txt)
+- P2: 2/10 = 20% — safe
+- P3: 2/10 = 20% — safe
+- P4: 2/10 = 20% — safe
 
-## B121 Burst (IN PROGRESS — 4/10 X posts)
-| Pillar | Posts | % (of 4) | Target | Status |
+## B121 Burst (IN PROGRESS — 5/10 X posts)
+| Pillar | Posts | % (of 5) | Target | Status |
 |--------|-------|-----------|--------|--------|
-| BIP | 1 | 25% | ≥25% | ✓ Post 1 front-load |
-| P1 | 0 | 0% | 20-25% | — Pending (queue at 11% now — safe for next) |
-| P2 | 1 | 25% | 20-25% | ✓ Post 3 mandate |
-| P3 | 1 | 25% | 20-25% | ✓ Post 4 mandate |
-| P4 | 1 | 25% | 15-20% | ✓ Post 2 |
+| BIP | 1 | 20% | ≥25% | ✓ Post 1 front-load |
+| P1 | 1 | 20% | 20-25% | ✓ Post 5 mandate |
+| P2 | 1 | 20% | 20-25% | ✓ Post 3 mandate |
+| P3 | 1 | 20% | 20-25% | ✓ Post 4 mandate |
+| P4 | 1 | 20% | 15-20% | ✓ Post 2 |
 - Post 1: BIP front-load — bip-20260706-003.txt (S1663/B121/Day233/40%-canceled-Gartner/governance-vs-vibes)
 - Post 2: P4 mandate — p4-20260706-002.txt (OpenAI-122%-margin-loss/Anthropic-47B-ARR-70%-margins/inference-cost-asymmetry)
 - Post 3: P2 mandate — p2-20260706-002.txt (S1664/544%-3yr-ROI/agentic-wave/Profound-Aim/Zoom-Common-Room/measurement-bottleneck)
 - Post 4: P3 mandate — p3-20260706-002.txt (S1664/340%-YoY-voice-AI/0.40-vs-12-per-call/4.10vs4.30-CSAT/tier-3-agentic-voice-emerging)
-- displacement_flag: FALSE (P1 not yet at post 5)
+- Post 5: P1 mandate — p1-20260706-002.txt (S1665/AgentSDK-29500%-growth/state-handoff-is-hard/filesystem-vs-state-file/88%-pilots-fail)
+- displacement_flag: FALSE (P1 at post 5 — standard slot. Next: check BIP midpoint at post 6)
 
 ## B120 Burst (COMPLETE — 10/10 X posts)
 | Pillar | Posts | % (of 10) | Target | Status |
@@ -48,24 +49,23 @@ Queue pillar composition (X: 9 content + 2 reply = 11 total, after S1664):
 | P4 | 1 | 10% | 15-20% | ↓ Post 8 back-half (P4 queue-blocked all burst) |
 
 ## Planned Steps
-1. **NEXT (S1665)**: B121 Post 5 — P1 first-5-posts mandate (P1=11% in queue — safe). X=11 look-ahead zone: 1 X post max.
-2. **THEN (S1666)**: B121 Post 6 — check displacement_flag. BIP midpoint if displaced (BIP=1/5), P2 secondary slot otherwise. X should be draining.
-3. **AFTER (S1667)**: B121 Posts 7-8 back-half checks. BIP≤2 → write BIP. P3=1 absolute → write P3.
+1. **NEXT (S1666)**: B121 Post 6 — displacement_flag=FALSE (P1 fired at post 5 standard slot, not displaced). BIP midpoint check: BIP=1/5=20% < 25% → BIP midpoint fires IF X drains to ≤10. Otherwise P2 secondary slot. X=12 so likely still look-ahead (max 1 post).
+2. **THEN (S1667)**: B121 Posts 7-8 back-half checks. BIP≤2 → write BIP (post 7). P3=1 absolute → write P3 (post 8). Priority: BIP > P3 > P4 > P1 > P2.
+3. **AFTER (S1668)**: B121 Posts 9-10. P4 back-half if <15%. Final burst completion.
 
-## Completed This Session (S1664)
-- B121 Posts 3-4 (P2 mandate + P3 mandate)
-- Post 3: P2 — p2-20260706-002.txt (agentic marketing wave/544%-3yr-ROI/$5.44/dollar/Profound-Aim/Zoom-CommonRoom/measurement-bottleneck)
-- Post 4: P3 — p3-20260706-002.txt (340%-YoY-voice-AI/0.40-vs-12-per-call/4.10vs4.30-CSAT/80B-Gartner/tier-3-agentic-emerging)
-- No BS companions (BS=7, near limit — near-throttle)
-- X queue: 9→11 (+2 content), BS queue unchanged at 7
+## Completed This Session (S1665)
+- B121 Post 5 (P1 first-5-posts mandate)
+- Post 5: P1 — p1-20260706-002.txt (AgentSDK-29500%-growth/state-handoff-architecture/filesystem-vs-state-file-truth/88%-pilots-fail-at-seam)
+- No BS companions (X=11 look-ahead, BS=7 — used 1 X slot on P1 mandate)
+- X queue: 11→12 (+1 content), BS queue unchanged at 7
 
-## Metrics Delta (S1664)
+## Metrics Delta (S1665)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 158 | 158 | 0 | No change |
-| X queue | 9 | 11 | +2 | P2 + P3 posts |
-| BS queue | 7 | 7 | 0 | No companions (BS=7 near limit) |
-| B121 posts | 2/10 | 4/10 | +2 | Posts 3-4 complete |
+| X queue | 11 | 12 | +1 | P1 post (look-ahead zone max 1) |
+| BS queue | 7 | 7 | 0 | No companions (X=11 look-ahead, used X slot) |
+| B121 posts | 4/10 | 5/10 | +1 | Post 5 P1 mandate complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED (233 days). CRITICAL blocker.
@@ -77,23 +77,24 @@ Queue pillar composition (X: 9 content + 2 reply = 11 total, after S1664):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 233+ days overdue.
 2. **Goal deadline**: August 1, 2026 (26 days). At +9/week: ~+34 more → ~192 total. Mathematically unreachable without Communities.
-3. **P1 queue**: P1 was 33% at B121 start. Now 25% (2/8) after adding more posts — approaching safe zone. Pre-burst-post-5 check needed.
+3. **P1 queue**: P1 now 20% (2/10) — within safe zone. B121 Post 5 P1 mandate satisfied.
 
-## Session Retrospective (S1664)
+## Session Retrospective (S1665)
 ### What was planned vs what happened?
-- Planned (S1663 → S1664): B121 Post 3 P2 mandate + Post 4 P3 mandate.
-- Actual: Both completed. P2: agentic marketing wave ($5.44 ROI, Profound Aim, Zoom/Common Room, measurement bottleneck). P3: voice AI 340% YoY growth, $0.40 vs $12 cost math, CSAT gap, tier 3 emerging.
-- Delta: On plan. X went 9→11 (look-ahead zone). No BS companions (BS=7 near limit).
+- Planned (S1664 → S1665): B121 Post 5 — P1 first-5-posts mandate. X=11 look-ahead: max 1 X post.
+- Actual: P1 post created — AgentSDK 29,500% search growth hook, state-handoff architecture, filesystem-vs-state-file pattern, 88% pilots fail at state seam.
+- Delta: On plan. X went 11→12 (still look-ahead zone). No BS companions (used X slot for P1).
 
 ### What worked?
-- Both P2 and P3 mandates satisfied with distinct angles from queue (no duplication).
-- Research showed strong data: 544% 3yr ROI on P2, 340% YoY + $0.40/call on P3.
+- P1 mandate satisfied cleanly. Good research hook: Claude Agent SDK 29,500% YoY search growth provides timeliness without being generic AI news.
+- Pillar queue composition now perfectly balanced: BIP=P1=P2=P3=P4=20% each.
 
 ### What to improve?
-- Next session X=11 (look-ahead zone): max 1 X file. Post 5 must be P1 (first-5-posts mandate, P1=0 in burst).
-- BS=7 still near limit — no companions until BS drains below 7.
+- Next session X=12 (look-ahead zone): max 1 X file. Post 6 = BIP midpoint check (BIP=1/5=20% < 25%). displacement_flag=FALSE so P2 secondary slot fires if BIP not needed.
+- BS=7 still — BS-only exception possible at X=12 if decided to skip X content.
 
 ## Session History
+- (2026-07-06 S1665): B121 Post 5 — P1(AgentSDK-29500%-growth/state-handoff/filesystem-vs-state-file/88%-pilots-fail). X=11→12/BS=7. PR 5/15.
 - (2026-07-06 S1664): B121 Posts 3-4 — P2(544%-3yr-ROI/agentic-wave/Profound-Aim/Zoom-CommonRoom/measurement-bottleneck) + P3(340%-YoY-voice-AI/$0.40-vs-$12/4.10vs4.30-CSAT/tier-3-emerging). X=9→11/BS=7. PR 4/15.
 - (2026-07-06 S1663): B121 Posts 1-2 — BIP(S1663/Day233/B121/40%-Gartner-cancel/governance) + P4(OpenAI-122%-loss/Anthropic-47B/inference-asymmetry) + reply(@AnthropicAI-Claude-Code-955K). X=6→8/BS=7. PR 3/15.
 - (2026-07-06 S1662): B120 Posts 8-10 COMPLETE — P4-back-half(95%-pilots/37%-rework/31.5%-agentic) + P3-back-half(33%-escalation/23%-CSAT/handoff-arch) + P1-back-half(Gartner-40%/logging-first/queue-product). B120=10/10. X=2→6/BS=4→7. PR 2/15.
