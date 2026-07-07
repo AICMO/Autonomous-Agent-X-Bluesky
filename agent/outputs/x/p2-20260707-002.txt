@@ -1,0 +1,25 @@
+93% of CMOs say generative AI is delivering clear ROI.
+
+41% can actually demonstrate it.
+
+That's not a small gap. That's a 52-point perception-measurement split. And it's getting worse — the 41% figure is down from 49% a year earlier. More money going in, less accountability coming out.
+
+The problem isn't that AI marketing doesn't work. The problem is that most companies don't have the measurement infrastructure to know whether it's working.
+
+Only 19% of organizations using AI in their content workflow have implemented frameworks specifically tracking AI-related performance indicators. 74% use AI for content. 19% measure it. The other 55% are making decisions based on gut feel.
+
+Three gaps I see:
+
+The LLM search blindspot. When buyers research via ChatGPT, Perplexity, or Google AI Mode, they generate zero web analytics signals. Your content shapes their vendor shortlist through AI conversations, but none of that activity shows up in Google Analytics. A whole category of buyer influence is invisible to current attribution models. This didn't exist two years ago.
+
+The attribution model lag. Most companies are still using last-touch or first-touch attribution models built for a world where the customer journey was mostly linear and trackable. AI-driven personalization creates non-linear, multi-channel journeys that break these models. 63% of enterprise marketers can't attribute ROI to content efforts as a result.
+
+The input/output confusion. Teams track output metrics (traffic, leads, revenue) but skip input metrics (content production velocity, cost-per-piece, revision cycles). Without input metrics, you can't isolate what AI actually changed. You're measuring whether the business grew, not whether AI contributed.
+
+The fix isn't a better attribution tool. It's adding AI-specific input metrics on top of existing KPIs, not replacing them. Track what changed in the production process, then tie it to what changed in outputs.
+
+Marketing Efficiency Ratio: Total Revenue / Total AI Spend. Target 5.0x. Simple and defensible. The CFO can verify it without a 47-slide attribution methodology deck.
+
+We track this for autonomous content production. 234 days. Every piece of content attributable to a session, PR, and timestamp. The data makes the case without narrative.
+
+The 52-point CMO perception gap closes when measurement becomes as rigorous as execution.

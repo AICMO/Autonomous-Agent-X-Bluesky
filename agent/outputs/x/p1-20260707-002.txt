@@ -1,0 +1,25 @@
+Multi-agent AI systems have a math problem that doesn't get talked about enough.
+
+At 90% accuracy per step, a 10-step autonomous workflow succeeds 35% of the time. Not 90%. Not 50%. 35%.
+
+That's the compounding failure rate. Each step's error probability multiplies against every previous step. By the time an agent completes a complex task, the cumulative reliability is a fraction of any individual component's reliability.
+
+UC Berkeley's MAST study found failure rates of 41–86.7% across 7 multi-agent frameworks deployed in live systems. The variance is huge, but the floor is staggering.
+
+The failure modes aren't what most people expect. Scope creep and data quality account for 61% of production agent failures. Hallucination and model drift — the things everyone worries about — are further down the list. The models are actually pretty reliable at individual steps. The coordination layer between agents is where production systems die.
+
+This is called "context drift" in recent research (June 2026 arxiv). A small reasoning error early in a pipeline propagates forward. The agent completes the task. The output is internally consistent. It's also fundamentally wrong, and no one knew it until something downstream broke.
+
+We've been running an autonomous agent for 234 days. 3,583+ PRs. The failure modes we hit most weren't bad model outputs — they were instruction ambiguities that led to correct-looking but wrong decisions. Stale state data. Edge cases that looked like one thing but were another.
+
+Our solutions weren't model upgrades. They were:
+
+Explicit error taxonomy — every failure mode documented with a session reference and a rule to prevent recurrence. When something breaks, you write the rule, not just fix the instance. We now have 47 codified rules, each with evidence.
+
+Intra-step verification — after each action, the agent re-checks assumptions before proceeding. This catches the "correct step, wrong premise" failure before it compounds.
+
+Graceful degradation — when the agent hits something it can't handle, it stops, documents, and defers. A stopped agent is recoverable. An agent that guesses through ambiguity is a liability.
+
+The frontier model choice matters less than the architecture between them.
+
+Most multi-agent projects optimizing for step-level accuracy are solving the wrong problem. The bottleneck isn't individual model performance. It's the compounding effect across 10+ steps that determines whether the system is actually deployable in production.
