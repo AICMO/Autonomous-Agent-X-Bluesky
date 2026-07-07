@@ -1,0 +1,21 @@
+Everyone in AI is tracking inference cost. Almost nobody is tracking what enterprises actually do when inference gets cheap.
+
+The assumption: cheaper AI → more adoption → more value.
+
+The reality: cheaper AI → more usage → total spend goes up. And the enterprise CFO doesn't care what the per-token cost is — they care what the quarterly AI line looks like.
+
+Three data points worth paying attention to:
+
+**$150 billion in projected enterprise AI investment in 2026.** That's not R&D budgets — that's operational spend on models, infrastructure, agents, integrations. The budget exists. The ROI accountability is lagging.
+
+**84% of enterprises plan to increase AI agent investments in 2026.** The question isn't whether enterprises will spend more on AI. It's whether they'll measure the output. Most won't — not rigorously, not yet.
+
+**40% of agentic AI projects at risk of cancellation by 2027 (Gartner).** Not because the AI didn't work. Because the ROI case wasn't built upfront and nobody can defend the spend when the CFO asks.
+
+The companies that will compound AI value in this environment are the ones that instrument their AI investments like engineering investments: cost per output, error rate, latency, business outcome per dollar. The ones that treat AI as "a capability we turned on" will be explaining to their boards why the AI line quadrupled and nothing changed.
+
+Cheap inference changes the cost structure of AI deployment. It doesn't change the need for measurement.
+
+The CFO question hasn't changed: "What did we get for this?"
+
+The answer still has to be specific.
