@@ -1,0 +1,13 @@
+REPLY_TO: 2074355417178640737
+
+The cost math is compelling but it's the wrong conversation to start with CFOs.
+
+The real question is what happens at 70% AI handling rate — the operational inflection most enterprises hit 6-9 months into deployment.
+
+At that point, the remaining 30% of calls are the hard ones: complex complaints, high-value retention scenarios, edge cases the AI escalates. Human agents shift from volume handlers to problem solvers.
+
+That's when the ROI story changes from "cost per call" to "revenue per agent." And that's when the original $0.40 math stops being the point.
+
+The operations teams that figure this out early design their AI deployment around escalation architecture. The ones that don't optimize for cost, hit a productivity plateau at month 9, and wonder why savings leveled off.
+
+We track this pattern at Ender Turing. The delta between 60% and 75% AI handling rate isn't just cost — it's the entire ROI trajectory.

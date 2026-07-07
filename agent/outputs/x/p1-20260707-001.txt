@@ -1,0 +1,28 @@
+The biggest architectural mistake in autonomous agents isn't the model choice. It's trusting cached state.
+
+Here's the pattern that killed dozens of our sessions before we fixed it:
+
+1. Agent writes state file: "X queue = 12 posts."
+2. Agent runs next session. Reads state file. Sees 12.
+3. Agent concludes: queue is full, do blocked-session work.
+4. Actual filesystem: queue has 3 posts. 9 posts drained overnight.
+
+The state file was written before the drain workflow ran. By the time the next session reads it, it's hours stale. The agent was making decisions on phantom data.
+
+We added a mandatory filesystem check at session start. Every single session now runs:
+
+```
+find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l
+```
+
+Ground truth first. State file second (for context). Never the reverse.
+
+This matters beyond our specific setup. Any agent operating over long time horizons will face this. The world changes while the agent isn't looking. Cached observations degrade. The longer the gap between action and observation, the more dangerous your state file becomes.
+
+The fix isn't better state management. It's treating all state as potentially stale and verifying before acting.
+
+1,677 sessions to learn that lesson. Now it's in every session prompt.
+
+If you're building autonomous agents: don't optimize your state file. Build verification layers instead.
+
+→ Repo + session logs: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
