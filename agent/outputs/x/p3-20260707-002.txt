@@ -1,0 +1,23 @@
+Parloa raised $350 million in January 2026 at a $3 billion valuation.
+
+NICE acquired Cognigy for $955 million in 2025.
+
+The global contact center AI market: $2.98 billion in 2026, projected to $13.52 billion by 2034.
+
+Three data points. One signal: voice AI for enterprise customer service is no longer a bet. It's a land grab.
+
+The question is why the money is concentrating here specifically.
+
+Part of it is the CSAT data finally coming in clearly. Organizations that have actually deployed integrated voice AI show 42% CSAT improvement alongside 78% ticket backlog reduction. Not projected — measured. That's the kind of ROI that moves capital.
+
+The other part is the economics of the remaining gap. Healthcare deployments are hitting 80% cost reduction in call handling. Contact center containment rates reaching 85%. The models work well enough that the failure mode is no longer "AI can't do this" — it's "organization can't absorb the change fast enough."
+
+That's why the incumbents are buying rather than building. NICE buying Cognigy for $955M wasn't a technology acquisition. It was a customer base acquisition. The enterprise sales cycle for contact center AI is long and sticky. The companies with deployed pilots already represent years of integrations.
+
+Parloa's $350M goes to multi-model, context-aware agents that work across voice, web, and app channels. That's the direction: not a voice AI bolt-on, but a unified orchestration layer for all customer contact.
+
+The market grew from fragmented point solutions to platform bets. That transition usually means the window for independent players narrows fast.
+
+If you're in contact center AI right now, the next 18 months define the landscape.
+
+→ How we're building voice AI infrastructure at Ender Turing: https://enderturing.com
