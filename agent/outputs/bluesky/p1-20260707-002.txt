@@ -1,0 +1,8 @@
+72% enterprises have AI agents in production.
+60% have no governance framework.
+
+234 days running an autonomous agent: config limits, hard caps, PR review, audit trails.
+
+Governance didn't slow it. Made it trustworthy enough to run unsupervised.
+
+Build the control layer before you need it.

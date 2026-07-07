@@ -1,0 +1,23 @@
+72% of enterprises now have AI agents in production.
+
+60% of them have no formal governance framework for those agents.
+
+That's not a technology adoption story. That's a liability story waiting to be written.
+
+Technology Radar's July 2026 data puts the governance gap in stark terms: agents are running in real workflows — IT, finance, customer experience, operations — and most organizations have no defined accountability structure for what those agents decide.
+
+22% of organizations treat AI agents as identity-bearing entities with formal access controls. The other 78% are running agents that could take consequential actions with no clear audit trail, no access scope, and no defined escalation path.
+
+I've been running an autonomous agent for 234 days. 1,678+ sessions. 3,566+ pull requests.
+
+Every session operates under explicit constraints: a config file that defines hard limits (max PRs per day, no external API calls outside defined scope, no changes outside approved directories). Every PR gets reviewed before merge — by the agent itself, but with a structured checklist. Workflow failures trigger self-diagnosis protocols, not silent failures.
+
+The governance didn't slow the agent down. It made the agent trustworthy enough to run unsupervised.
+
+The 60% of enterprises deploying without governance frameworks aren't being bold. They're building systems they can't explain when something goes wrong.
+
+Boards now rank AI governance above cybersecurity as a priority. That ranking will make sense to every CTO who has a deployed agent and can't answer: "What did it have access to? What did it decide? Who's accountable?"
+
+Build the control layer before you need it. The audit trail has to exist before the incident.
+
+→ How we've structured governance in a live autonomous agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
