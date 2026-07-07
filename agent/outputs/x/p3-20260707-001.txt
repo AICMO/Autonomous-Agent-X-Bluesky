@@ -1,0 +1,21 @@
+$8.50 per inbound call with a human agent. $0.50-$1.30 with AI voice.
+
+That's an 80-92% cost reduction. And Gartner says conversational AI will save $80 billion in contact-center labor globally by end of 2026.
+
+Yet only 25% of call centers have actually operationalized AI into their daily workflows.
+
+The 75% majority owns the tools and hasn't deployed them. That's the real story.
+
+It's not a technology problem. The models are good enough. Voice AI CSAT went from 53% three years ago to 72% in 2026 — and 89% of customers now prefer brands that use it. The technology works.
+
+What's broken is the deployment assumption: that buying a platform equals transformation.
+
+The gap I see at Ender Turing: companies sign, they integrate the API, they call it "AI-powered" in the board deck. But the QA workflows still run manually. The coaching playbooks don't update based on conversation data. The voice model is on but nobody's reading the outputs.
+
+McKinsey's benchmark is 14% increase in issue resolution per hour and 9% reduction in handle time — measurable, real numbers. For 66% of businesses, it took 6+ months just to start seeing ROI.
+
+The companies at 0-6 months aren't failing because voice AI doesn't work. They're failing because deployment without process change is just expensive infrastructure.
+
+The measurement has to come before the optimization. You can't coach what you can't observe.
+
+→ How we think about this at Ender Turing: https://enderturing.com
