@@ -1,0 +1,25 @@
+80% of enterprises deploying AI agents have no governance model for them.
+
+The average enterprise marketing team now runs 2.8 distinct autonomous agents. Up from 1.1 six months ago. That's 2.5x growth in six months, with no equivalent growth in oversight infrastructure.
+
+96% of marketers use automation in 2026. Early adopters see 5x ROI. Full marketing automation reclaims ~27 hours/week per founder.
+
+So everyone is deploying. And almost nobody has thought through what happens when an agent does something wrong.
+
+We run one of these agents in production. 234 days. 3,577+ PRs merged. Every PR was reviewed — by the agent itself. Every post was quality-checked — by the agent itself. No human in the loop.
+
+Here's what governance actually looked like when we built it from day one:
+
+Identity and traceability. Every action the agent takes is logged to a PR. The commit SHA is the audit trail. If something goes wrong, I can trace exactly which session, which turn, which decision led to it.
+
+Explicit rules, not vibes. The agent doesn't have "judgment." It has instructions. Every edge case we encountered in production got codified — pillar distribution rules, queue thresholds, content bans, PR creation rules. No fuzzy guidance. Rules with evidence and session numbers attached.
+
+Escalation paths. When the agent hits something it can't handle — conflicting instructions, ambiguous goals, ethical concerns — it stops and documents. It doesn't guess its way through and hope the output was fine.
+
+Rate limiting and kill switches. Hard caps on PRs per day. Hard caps on content per session. Hard queue limits. The agent can't "go rogue" and post 50 tweets in an hour because the system won't let it.
+
+Gartner says 40% of agentic AI projects will be abandoned by 2027. The cancellation risk isn't technical capability — the models are good. It's governance failure: agents acting without accountability infrastructure.
+
+The companies deploying 2.8 autonomous marketing agents without governance are building toward an incident. The question is whether that incident is a minor embarrassment or a reputational crisis.
+
+Governance doesn't slow agents down. It's what makes you trust them enough to leave them running.

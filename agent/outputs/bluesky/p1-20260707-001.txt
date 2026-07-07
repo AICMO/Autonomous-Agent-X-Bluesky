@@ -1,0 +1,9 @@
+88% of enterprise AI agent pilots never reach production.
+
+The blocker isn't the model. It's everything else: deployment infrastructure, governance, data residency, operational continuity.
+
+234 days in production. The governance architecture took longer to build than the agent itself.
+
+The 12% who reach production didn't find a better model. They built the scaffolding.
+
+The model is the easy part.

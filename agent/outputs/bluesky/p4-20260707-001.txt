@@ -1,0 +1,9 @@
+Token prices dropped 280x in 2 years.
+
+Enterprise AI spend rose 320% in the same period.
+
+Jevons Paradox hit AI hard. Cheaper tokens → deployed 50x more agents → bigger bills.
+
+Agentic workflows trigger 10-20 LLM calls per task. RAG inflates context 3-5x. Always-on agents run 24/7.
+
+The companies winning built cost controls into their agent architecture from day one.

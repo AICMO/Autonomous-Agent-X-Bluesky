@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 25% operationalized for measurable ROI.
+
+$80B in projected labor savings in 2026. But most centers aren't capturing it.
+
+The gap: deployment ≠ operationalization. Technical implementation is 20% of the work. The other 80%: QA workflows, escalation triggers, speech analytics tuned to AI failure modes.
+
+The model isn't the bottleneck anymore. Process is.
