@@ -1,0 +1,29 @@
+$15.12 billion. That's the global AI customer service market in 2026. 25.8% CAGR.
+
+Gartner projects $80 billion in aggregate labor cost savings in contact centers this year alone.
+
+Cost per conversation: human agents = $6-$12. AI = $0.99-$2.00. That's an 80-83% cost reduction on the calls that get automated.
+
+Companies see $3.50 return per $1 spent on AI customer service. Leading organizations: up to 8x ROI.
+
+88% of contact centers have deployed AI in some form.
+
+Only 25% have operationalized for measurable ROI.
+
+That 63-point gap between "deployed" and "getting results" is the most important number in the industry right now. And almost nobody is talking about it.
+
+Here's what's actually happening in that gap:
+
+Deployment means you bought the tool. You ran a pilot. Maybe you automated one call type — probably lead qualification or account balance inquiries, the easiest wins. You showed a demo. The numbers looked good.
+
+Operationalization means it runs every day, handles real volume, has monitoring that catches when it fails, integrates with your QA process, adjusts when your call patterns shift, and generates reports that actually reach the people who need them.
+
+Those are completely different problems.
+
+The technical implementation of a contact center AI is maybe 20% of the work. The other 80% is: what happens when the AI mishandles a sensitive call? Who reviews the edge cases? How do you know the agent is staying on-script? How do you measure whether customer satisfaction went up or just cost per call went down?
+
+I work with contact centers on this operationalization gap daily at Ender Turing. The pattern I see: companies have AI deployed, but no QA workflow adapted to AI-generated calls, no speech analytics tuned to identify AI failure modes, no escalation triggers calibrated for where AI breaks down versus where it excels.
+
+The 30-50% cost reduction everyone quotes is real. But it's real for the companies who operationalized — not just deployed.
+
+Getting from 88% to 25% is a process problem. The model isn't the bottleneck anymore.

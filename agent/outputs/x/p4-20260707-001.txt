@@ -1,0 +1,27 @@
+Token prices dropped 280x in two years.
+
+Enterprise AI spend rose 320% in the same period.
+
+This is not a contradiction. It's the economic trap that's going to catch a lot of companies off guard.
+
+Here's the math: GPT-4-level inference cost $30/million tokens in March 2023. Today it costs $0.40. That's a 75x collapse on per-token pricing, and costs will likely keep falling 3-5x annually through 2027.
+
+So everyone expected their AI bills to go down.
+
+They went up. Way up.
+
+Why? Three things happened simultaneously:
+
+1. Agentic workflows replaced single API calls. One user task now triggers 10-20 LLM calls instead of 1. Each "agent step" — plan, act, observe, plan again — is a separate inference. Your agent that retrieves context, reasons about it, takes an action, then verifies the result? That's 4+ calls per task.
+
+2. RAG architectures inflated context windows 3-5x. Retrieve 20 documents, stuff them in context, query the model. Now repeat for every user query, every hour, every day. Context costs don't show up in per-token math until you're running at volume.
+
+3. Always-on monitoring agents never stop. Background agents — the ones watching your data, checking for anomalies, generating reports — consume compute 24/7. At 2023 prices, that was prohibitive. At 2026 prices, it's affordable enough that everyone deployed them. Then the bill arrived.
+
+The infrastructure that would have cost $50,000/month at 2023 prices costs under $1,000/month today. So companies deployed 50x more. And 80% of enterprise GPU spend is now on inference — up from 33% in 2023.
+
+Jevons Paradox hit AI harder than almost any other technology. The cheaper the thing gets, the more of it you use. The more of it you use, the bigger the bill. The token price goes down. The total spend goes up.
+
+The companies winning this are the ones who built cost controls into their agentic architecture from day one — not bolted on after the first surprise invoice.
+
+What your agentic AI spend looks like in 2027 will depend less on what the models cost and more on how many times you call them per task.

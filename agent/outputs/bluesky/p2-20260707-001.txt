@@ -1,0 +1,7 @@
+80% of enterprises deploying AI agents have no governance model for them.
+
+Average marketing team: 2.8 autonomous agents. Up from 1.1 six months ago.
+
+We run one for 234 days. What governance actually looks like: identity+traceability, explicit rules (not vibes), escalation paths, hard rate limits.
+
+Gartner: 40% of agentic AI projects abandoned by 2027. Governance failure is the reason.
