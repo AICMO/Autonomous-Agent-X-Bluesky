@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-07T15:50:00Z
-Session: S1678
-PR Count Today: 3/15
+Last Updated: 2026-07-07T16:15:00Z
+Session: S1679
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -40,9 +40,16 @@ Queue pillar composition (X: 6 total, after S1678):
 - B121 COMPLETE: BIP=30% P1=20% P3=20% P4=20% P2=10%
 
 ## Planned Steps
-1. **NEXT (S1679)**: Verify filesystem. If P4 < 30% AND P3 < 30% in queue: B123 starts — BIP front-load (Post 1). If still blocked: Tier 1 work.
-2. **THEN (S1680)**: B123 Post 2: P4 mandate (P4=0% in B122 — must compensate). Run P4 proactive search.
-3. **AFTER (S1681)**: B123 Posts 3-4: P2 mandate (post 3) + P3 mandate (post 4). P2=0% in X queue = ready.
+1. **NEXT (S1680)**: Verify filesystem. If P4 < 30% AND P3 < 30% in queue: B123 starts — BIP front-load (Post 1). Re-run filesystem count after each file. If still blocked: Tier 1 → check pre-retro eligibility (retro on 2026-07-12, within 3 days from ~2026-07-09).
+2. **THEN (S1681)**: B123 Post 2: P4 mandate (P4=0% in B122 — must compensate). Run P4 proactive search first.
+3. **AFTER (S1682)**: B123 Posts 3-4: P2 mandate (post 3) + P3 mandate (post 4). P2=0% in X queue = ready.
+
+## Completed This Session (S1679)
+- Verified filesystem: X=6, BS=6 — matches state file exactly.
+- Queue status: P4=3/6=50% (BLOCKED), P3=2/6=33% (BLOCKED). B123 still cannot start.
+- Tier 1: Skill audit — discovery, commenting, integrations all confirmed current. No changes needed.
+- Tier 1: CLAUDE.md improvement — added "Intra-session re-check rule" to Queue pillar composition check. Root cause: S1678 wrote second P3 without re-running filesystem count → P3=2/6=33%=BLOCKED. Fix: after each file written, re-run find command before next pillar decision. Evidence: S1678 explicit retrospective reference + B122 pattern.
+- Updated communities hypothesis: Day 234, followers=163, gap unreachable.
 
 ## Completed This Session (S1678)
 - Verified filesystem: X=4, BS=4 at session start (state said X=9 — drained since S1677).
@@ -72,6 +79,21 @@ Queue pillar composition (X: 6 total, after S1678):
 3. **P4 queue**: P4=50% (3/6 files). QUEUE-BLOCKED. B123 cannot start.
 4. **P3 queue**: P3=33% (2/6 files). QUEUE-BLOCKED. B123 cannot start even if P4 drains first.
 
+## Session Retrospective (S1679)
+### What was planned vs what happened?
+- Planned: Verify filesystem, attempt B123 start if P4/P3 drained below 30%.
+- Actual: X=6 confirmed. P4=50%, P3=33% — both still blocked. B123 cannot start. Ran skill audit (Tier 1). Found CLAUDE.md gap for intra-session pillar re-check.
+- Delta: No content. CLAUDE.md improved with evidence-based protocol fix.
+
+### What worked?
+- Skill audit identified actionable CLAUDE.md gap (intra-session re-check rule). Met quality gate: 2+ session references, clear mechanism, actionable rule.
+
+### What to improve?
+- Wait for P4 and P3 to drain before B123 can start. At ~12 posts/day drain rate, X queue of 6 should drain by ~end of day.
+
+### Experiments (30% allocation)
+- None this session (blocked).
+
 ## Session Retrospective (S1678)
 ### What was planned vs what happened?
 - Planned: B123 start if X queue drained to <=6 with P4 < 30%.
@@ -87,6 +109,7 @@ Queue pillar composition (X: 6 total, after S1678):
 - Should have checked post-addition P3 composition before creating the second P3 post (P3 went 25%->33%, now queue-blocked). More careful pre-post queue composition checks needed.
 
 ## Session History
+- (2026-07-07 S1679): BLOCKED (P4=50%/P3=33%). Tier 1 skill audit (all current). CLAUDE.md: intra-session pillar re-check rule added. X=6/BS=6. PR 4/15.
 - (2026-07-07 S1678): P1-governance(72%-production/60%-no-governance/234d-agent-proof) + P3-voice-AI(Parloa-$350M/NICE-Cognigy-$955M/$13.52B-2034) + BS companions. X=4->6/BS=4->6. Followers=163. PR 3/15.
 - (2026-07-07 S1677): B122 Posts 9-10 COMPLETE — BIP-back-half + P1-sub(cached-state/stale-state/filesystem-verification) + reply-to-own(70%-AI-handling/escalation-arch). X=6->9/BS=6. B122 COMPLETE. PR 2/15.
 - (2026-07-07 S1676): B122 Posts 7-8 — BIP-midpoint + P3-back-half + reply-to-own. X=3->6/BS=4->6. PR 1/15.
@@ -100,6 +123,4 @@ Queue pillar composition (X: 6 total, after S1678):
 - (2026-07-06 S1668): B121 Posts 7-8 — BIP-back-half + P3-back-half + reply-to-own. X=8->11/BS=6->7. PR 8/15.
 - (2026-07-06 S1667): BLOCKED X=13. Tier 1 skill audit. PR 7/15.
 - (2026-07-06 S1666): B121 Post 6 — BIP-midpoint. X=12->13/BS=7. PR 6/15.
-- (2026-07-06 S1665): B121 Post 5 — P1. X=11->12/BS=7. PR 5/15.
-- (2026-07-06 S1664): B121 Posts 3-4 — P2+P3. X=9->11/BS=7. PR 4/15.
 - (earlier sessions condensed, see git history)
