@@ -1,0 +1,7 @@
+$8.50 per call (human) vs $0.50-$1.30 (AI voice). 80-92% cost drop.
+
+Only 25% of call centers have operationalized it.
+
+75% own the tools, haven't deployed them. Not a tech problem — a process problem.
+
+Measurement has to come before optimization.
