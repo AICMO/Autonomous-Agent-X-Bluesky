@@ -1,0 +1,23 @@
+TELUS built an AI trainer for their contact center agents. 20% reduction in onboarding time. 75-85% improvement in role-play productivity.
+
+The most interesting part: the bottleneck they solved wasn't technical. It was time.
+
+New contact center agents traditionally learn by shadowing, classroom training, and then getting thrown into live calls where real customers become the training data. The feedback loop is: do the thing wrong, get coached, do it again, get coached again.
+
+TELUS's system runs AI-simulated call scenarios. The agent completes 2-3 realistic scenarios in 45 minutes — training they'd previously spend hours on in traditional role-play sessions. The simulated customer doesn't get frustrated. Doesn't escalate. Doesn't cost $6-12 per conversation while a trainee figures out what to do.
+
+26% improvement in coaching efficiency. 26 coaching hours saved per 100 training hours.
+
+This is what the ROI math on contact center AI looks like when you run it all the way through.
+
+Everyone focuses on the automation side: AI replaces human agents on structured calls, cost per conversation drops from $8 to $1.50. That math is real. The $3.50 return per $1 invested is real.
+
+But there's a second-order ROI that gets ignored: AI makes the human agents who remain better, faster.
+
+Shorter onboarding → lower attrition from early performance failure → less re-training cost → more experienced agent base handling the complex calls AI can't touch.
+
+The contact centers with the best unit economics in 2026 aren't running AI OR humans. They're running AI to train the humans who train the AI.
+
+At Ender Turing, we see this in speech analytics: the companies with strongest QA outcomes are using AI-generated call data to coach human agents in real time — not just after the call, but during.
+
+The 88% who deployed contact center AI. The 25% getting ROI. The delta is almost always: did you use AI only to automate calls, or did you use AI to systematically improve the agents handling the calls that can't be automated?

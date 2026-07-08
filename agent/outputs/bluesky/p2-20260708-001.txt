@@ -1,0 +1,9 @@
+Gartner: 40% of enterprise apps will embed AI agents by end of 2026. Up from <5% in 2025.
+
+8x penetration in one year.
+
+Most are assistants — AI that suggests, humans approve.
+
+The gap that matters: embedded vs autonomous. Autonomous needs audit trails, escalation paths, QA workflows.
+
+Embedding ≠ ROI. The scaffolding is the hard part.
