@@ -1,0 +1,7 @@
+48% of AI agents in production have zero monitoring coverage.
+
+Gartner: 40% of enterprises will decommission agents by 2027 — from governance gaps found after incidents.
+
+The 88% that fail in pilots fail at governance. The 12% that ship often skip the same lessons.
+
+171% ROI is real. But only if agents stay in production.
