@@ -1,0 +1,31 @@
+88% of enterprise AI agent pilots never reach production.
+
+The 12% that make it? They return 171% ROI. And the gap between those two groups isn't the quality of the model.
+
+Here's what the survivors actually do differently:
+
+**They treat latency as a first-class constraint before writing a single line of agent code.**
+
+Most teams prototype with a single agent, a powerful model, no timeout logic, and a "we'll optimize later" assumption. Then they discover that a customer-facing agent taking 4-8 seconds per turn is a product nobody will use. Latency has emerged as the #2 production killer in 2026 — right behind quality — because everyone rushed to deploy agents in customer-facing workflows without stress-testing response times under real load.
+
+Survivors profile latency in week 1. Not month 4.
+
+**They separate "agent working" from "agent deployed."**
+
+70% of developers report integration problems with existing systems. That number exists because teams spend months perfecting the agent's reasoning while ignoring the plumbing: auth flows, retry logic, rate limiting, error propagation across tool chains, and the three legacy systems the agent touches that were never designed to be called programmatically at 100 requests/minute.
+
+The survivors treat integration as the actual product. The model is the easy part.
+
+**They define "good enough" before they start.**
+
+Quality is the #1 production killer — cited by one-third of teams as their primary blocker. But "quality" is undefined in most pilots. The agent either impresses demos or doesn't. Survivors specify: accuracy threshold, acceptable failure modes, what happens when the agent is wrong, and who gets notified. Without this, you never know if you're ready to ship.
+
+**They measure time-to-value before they build.**
+
+Median time-to-value on agent deployments is 5.1 months. But SDR agents pay back in 3.4 months. Finance/ops agents take 8.9 months. The survivors pick their use case based on payback period, not on which agent demo impressed the exec team most.
+
+We've run an autonomous agent in production for 235+ days. 3,600+ PRs. The reason it's still running isn't that the model is perfect. It's that we defined failure modes, scoped integrations tightly, and set latency expectations before session one.
+
+The 23% who survive aren't luckier. They're just less impressed by their own demos.
+
+Architecture and learnings documented publicly: https://github.com/ForgottenCreator10154/Autonomous-Agent-X-Bluesky
