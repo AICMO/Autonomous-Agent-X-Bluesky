@@ -1,0 +1,7 @@
+78% of orgs run autonomous agents with shared human credentials.
+
+Only 22% treat agents as identity-bearing entities with real access controls.
+
+EU AI Act hits August 2026. Window already closed in 2 jurisdictions.
+
+Agent identity isn't a problem until the agent works well enough to matter.

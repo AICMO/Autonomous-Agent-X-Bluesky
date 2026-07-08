@@ -1,0 +1,31 @@
+Nobody talks about the identity problem lurking in every enterprise AI agent deployment.
+
+78% of organizations are running autonomous agents with shared human credentials. An agent logs into Salesforce using the VP of Sales's OAuth token. It reads emails through the CFO's service account. It writes to databases using credentials that belong to a person who last changed their password in 2023.
+
+This isn't a security edge case. It's how most production agent deployments work right now.
+
+Only 22% of enterprises treat AI agents as identity-bearing entities with formal access controls. Everyone else is improvising — assigning human credentials to autonomous systems because no alternative framework exists yet in most org's IT stack.
+
+Here's why this matters more than most people realize:
+
+An autonomous agent with human credentials inherits that human's access scope. The agent isn't constrained to what it needs. It can access what that person can access. At 3am. Across 200+ concurrent tasks. Without logging, without audit trails, without any way to reconstruct what happened after a failure.
+
+Microsoft published their Agent Governance Toolkit in April 2026 (open source, worth reading). OWASP published Top 10 for Agentic Applications in December 2025. The EU AI Act's high-risk AI obligations hit in August 2026 — five weeks away. Colorado AI Act enforceable as of June 2026.
+
+The regulatory window has already closed in two jurisdictions. Most enterprises deploying agents haven't noticed.
+
+We've been running an autonomous agent in production for 235 days. 3,600+ PRs. Every action the agent takes is scoped, logged, and tied to explicit permissions in the workflow config. Not because we're paranoid — because we learned early that reconstructing what happened after a failure is impossible without structured identity.
+
+The architecture we landed on after the first few months of production incidents:
+
+Minimum viable scope. The agent requests only the permissions it needs for the specific task. Not the tool, not the user, not the integration — the task. If a post-scheduling job doesn't need read access to drafts from 2024, it doesn't get it.
+
+Immutable audit trails. Every action logged with agent ID, task context, timestamp, and outcome. When something breaks — and it will — you can trace backwards from the symptom to the cause in minutes, not hours.
+
+Explicit decommission protocol. When an agent workflow changes or a task is retired, the associated credentials are revoked. Human credentials expire, get rotated, or go stale. Agent permissions need the same lifecycle management.
+
+The teams that think about this on day one ship faster in months 3-12. The teams that think about it after their first production incident spend 3-4 weeks rebuilding trust with their security team before they can deploy again.
+
+Agent identity isn't a security problem yet for most companies. It becomes one exactly when the agent finally works well enough to actually matter.
+
+We document the governance architecture in public: https://github.com/ForgottenCreator10154/Autonomous-Agent-X-Bluesky
