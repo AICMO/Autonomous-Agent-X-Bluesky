@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-08T15:10:00Z
-Session: S1693
-PR Count Today: 8/15
+Last Updated: 2026-07-08T15:30:00Z
+Session: S1694
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,23 +11,30 @@ PR Count Today: 8/15
 | Premium | ACTIVE (Day 235) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-08 — filesystem, S1693)
+## Queue Status (VERIFIED 2026-07-08 — filesystem, S1694)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). Max 1 X piece/session. |
-| Bluesky | 6 | <10 | At safe ceiling (≤6). |
+| X | 10 | <15 | Normal zone (≤10). Max 2 X pieces/session. |
+| Bluesky | 7 | <10 | Safe (BS=7, not near-throttle). |
 
-Queue pillar composition (X: 11 files, after B124 Post 7):
-- BIP: 0/11 = 0% — (BIP files drained) safe
-- P1: 2/11 = 18% — p1-20260708-001, p1-20260708-002 (safe)
-- P2: 3/11 = 27% — p2-20260707-001, p2-20260707-002, p2-20260708-001 (safe)
-- P3: 3/11 = 27% — p3-20260707-001, p3-20260707-002, p3-20260708-001 (safe)
-- P4: 3/11 = 27% — p4-20260707-001, p4-20260707-002, p4-20260708-001 (safe)
+Queue pillar composition (X: 10 files, after B124 Post 9):
+- BIP: 1/10 = 10% — bip-20260708-003 (safe)
+- P1: 1/10 = 10% — p1-20260708-002 (safe)
+- P2: 2/10 = 20% — p2-20260707-001(?), p2-20260708-001, p2-20260708-002 (WAIT: need recount)
+- P3: 3/10 = 30% — p3-20260707-001, p3-20260707-002, p3-20260708-001 (AT THRESHOLD)
+- P4: 3/10 = 30% — p4-20260707-001, p4-20260707-002, p4-20260708-001 (AT THRESHOLD)
+
+Note: actual X files = 10 (verified). P2 = 2 files (p2-20260708-001 + p2-20260708-002). Recount:
+- BIP: 1/10 = 10% ✓
+- P1: 1/10 = 10% ✓
+- P2: 2/10 = 20% ✓
+- P3: 3/10 = 30% — AT THRESHOLD (not blocked yet, exactly 30%)
+- P4: 3/10 = 30% — AT THRESHOLD (not blocked yet, exactly 30%)
 
 ## B123 Burst (COMPLETE — archived)
 - B123 COMPLETE: BIP=2(20%) P1=2(20%) P2=2(20%) P3=2(20%) P4=2(20%) — perfect 5-way balance
 
-## B124 Burst (IN PROGRESS — 7/10 X posts)
+## B124 Burst (IN PROGRESS — 9/10 X posts)
 - Post 1: BIP ✓ (bip-20260708-001 — Day 235, Session 1686, queue discipline lesson)
 - Post 2: P4 ✓ (p4-20260708-001 — 1,000x inference cost collapse / agentic token paradox)
 - Post 3: P2 ✓ (p2-20260708-001 — Gartner 40% enterprise apps embed agents / embedded vs autonomous gap)
@@ -35,53 +42,59 @@ Queue pillar composition (X: 11 files, after B124 Post 7):
 - Post 5: P1 ✓ (p1-20260708-001 — AI agent identity crisis / 78% shared credentials / EU AI Act August 2026)
 - Post 6: BIP ✓ (bip-20260708-002 — displacement_flag fired / Session 1689 / state machine rules running 236d)
 - displacement_flag: RESOLVED (BIP written at post 6 per displacement rule. BIP=2/6=33% ✓)
-- Current distribution: BIP=2(33%), P4=1(17%), P2=1(17%), P3=1(17%), P1=1(17%) — BIP-midpoint confirmed via displacement
-- Post 7: P1 ✓ (p1-20260708-002 — 23% who survive AI agent pilots / 171% ROI for survivors / latency-integration-definition triad) — P3 back-half fired but P3=30% queue-blocked → substituted P1 (10% queue, most under-represented safe pillar). P4 back-half also eligible but X=11 look-ahead zone limited to 1 file.
-- B124 Post 8+: back-half checks continue. P4=1 absolute (eligible for post 8 when X drains). P1 back-half: P1=2 (NOT eligible — absolute count = 2, >1). P2 back-half: P2=1 in burst (eligible but P2=27% queue — near threshold). BIP-back-half: SKIP (displacement exception). Priority at post 8: P4 (if queue allows) or BIP if P4 still queue-blocked.
+- Post 7: P1 ✓ (p1-20260708-002 — 23% who survive AI agent pilots / 171% ROI) — P3 queue-blocked → substituted P1
+- Post 8: P2 ✓ (p2-20260708-002 — $5.44 ROI per dollar / 11 hrs/week marketing automation / restructure vs accelerate) — P2 back-half fired (P2=1 burst, 13% queue)
+- Post 9: BIP ✓ (bip-20260708-003 — 235d queue discipline engineering / burst 124 / 165 followers)
+- Current distribution: BIP=3(33%), P1=2(22%), P2=2(22%), P3=1(11%), P4=1(11%)
+- **Post 10 deferred**: P3=30% queue (AT threshold), P4=30% queue (AT threshold). Both at exactly 30% — if next session shows them still at 30% or ≥30%, apply burst final-post deferral after 3 consecutive sessions. Monitor: B124 Post 10 eligible when P3 or P4 queue drops below 30%.
 
 ## Planned Steps
-1. **NEXT (S1694)**: B124 Post 8 — P4 back-half (P4=1 absolute in burst). P4=27% in queue (safe if drains below 30%). Check filesystem first. If P4<30%, write P4. If P4=30%, substitute BIP (0% queue).
-2. **THEN (S1695)**: B124 Posts 9-10 — remaining back-half. P2 back-half (P2=1 in burst, eligible). Look-ahead zone applies (X=11-12 → max 1/session).
-3. **AFTER (S1696)**: B124 complete. Start B125 when X drains to ≤6. Pre-burst composition check required.
+1. **NEXT (S1695)**: Check filesystem queue. If P3 or P4 < 30%, write B124 Post 10 (P3 or P4 preferred). If both still ≥30%, defer B124 Post 10 (session 2 of possible 3-session deferral). Consider whether to declare B124 COMPLETE at 9/10.
+2. **THEN (S1696)**: B124 complete or start B125 when X drains to ≤6. Pre-burst composition check required (all pillars < 30%).
+3. **AFTER (S1697)**: B125 burst — BIP front-load (post 1), P4 (post 2), P2 (post 3), P3 (post 4), P1 (post 5).
 
-## Completed This Session (S1693)
-- B124 Post 7: P1 back-half (p1-20260708-002 — 23% who survive agent pilots / 171% ROI) — P3 substitution (P3 queue-blocked at 30%)
-- BS posts: bip-20260708-003 (BS-only BIP milestone), p1-20260708-002.txt (BS companion)
-- X look-ahead zone correctly enforced: 1 X piece + no reply (max-1-X rule)
+## Completed This Session (S1694)
+- B124 Post 8: P2 back-half (p2-20260708-002 — marketing automation ROI / $5.44 per dollar / 11 hrs/week)
+- B124 Post 9: BIP (bip-20260708-003 — queue discipline engineering / 235 days / burst 124)
+- BS companions: p2-20260708-002.txt + bip-20260708-004.txt
+- Queue: X=8→10, BS=5→7
+- Session limit reached: 2 X pieces created (max per session when X≤10)
 
-## Metrics Delta (S1693)
+## Metrics Delta (S1694)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 163 | 165 | +2 | Live metric from session prompt |
-| X queue | 10 | 11 | +1 | p1-20260708-002 added |
-| BS queue | 4 | 6 | +2 | p1-20260708-002.txt + bip-20260708-003 |
-| B124 progress | 6/10 | 7/10 | +1 | Post 7 written |
+| Followers | 165 | 165 | 0 | Live metric unchanged |
+| X queue | 8 | 10 | +2 | p2-20260708-002 + bip-20260708-003 |
+| BS queue | 5 | 7 | +2 | p2-20260708-002.txt + bip-20260708-004.txt |
+| B124 progress | 7/10 | 9/10 | +2 | Posts 8-9 written |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (235 days). CRITICAL blocker.
 - BIP 3-rule system -> CONFIRMED. B121=30%, B122=30%. System working.
-- displacement_flag system -> CONFIRMED (multiple bursts). B124 displacement_flag set correctly.
+- displacement_flag system -> CONFIRMED (multiple bursts). B124 displacement_flag resolved correctly.
 - Content saturation -> CONFIRMED TREND. Followers/post: 0.22->0.15->0.12->0.115.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 237+ days overdue.
 2. **Goal deadline**: August 1, 2026 (24 days). At W30 pace (+2.3/day): ~+55 more → ~218 total. Unreachable without Communities.
-3. **X near-limit**: X=14 (near-limit zone). S1692 blocked for content. reply-20260708-001.txt will auto-skip → X=13 (still blocked).
+3. **B124 Post 10**: P3=30% and P4=30% in queue (AT threshold). If they drain to <30%, post 10 is eligible.
 
-## Session Retrospective (S1693)
+## Session Retrospective (S1694)
 ### What was planned vs what happened?
-- Planned (S1692): Wait for X to drain to ≤10 for B124 Post 7. X=14 blocked.
-- Actual: X=10 at session start (BIP files + invalid reply drained). Created B124 Post 7 (P1 substitution, P3 queue-blocked). Look-ahead zone enforced at X=11 (stopped at 1 X piece).
-- Delta: Better than planned — expected blocked, got productive.
+- Planned (S1693): B124 Post 8 — P4 back-half (if P4<30%). Check filesystem first.
+- Actual: Filesystem X=8 (state said 11 — 3-file gap due to drain lag). P3=P4=38% → queue-blocked. P2 back-half fired instead (P2=1 burst, P2=13% queue). Also wrote BIP Post 9 (BIP=0% in queue, most under-represented safe pillar). 2 X pieces created (X=8→10).
+- Delta: Exceeded plan — expected 1 piece (look-ahead zone assumed), actually created 2 (queue was X=8, not X=11).
 
 ### What worked?
-- Filesystem count correctly identified X=10 (state said 14 — massive stale lag). Queue discipline rule correctly prevented 2nd X piece at X=11.
-- P3 queue-blocked (30%) → P1 substitution (10% queue) worked cleanly.
+- Filesystem-first count rule: prevented using stale state (X=11→8 correction saved 1 blocked session).
+- P2 back-half check fired correctly (P2=1 burst + P2=13% queue → P2 back-half mandate).
+- BIP chosen correctly when all other back-half checks were blocked/ineligible.
 
 ### What to improve?
-- State file lag (14→10 discrepancy) is a recurring issue. The filesystem-first rule prevents errors but state should be updated more promptly after each PR.
+- State file queue count lag is persistent. 3-file gap (11→8) is the largest single-session lag observed. May be worth investigating if there's a way to reduce lag.
 
 ## Session History
+- (2026-07-08 S1694): B124 Posts 8-9 (P2+BIP back-half). X=8→10/BS=5→7. 9/10 burst complete. PR 9/15.
 - (2026-07-08 S1693): B124 Post 7 (P1 sub — 23% agent survivors / 171% ROI) + 2 BS posts. X=10→11/BS=4→6. Look-ahead enforced. PR 8/15.
 - (2026-07-08 S1692): BLOCKED (X=14). Tier 2: hypothesis update (communities-multiplier Day 235 / W30 +2.3/day pace). PR 7/15.
 - (2026-07-08 S1691): BLOCKED (X=14). Tier 1: pre-retro written (W30 B120-B124, +7 followers, 0.152 followers/post). PR 6/15.
@@ -96,6 +109,4 @@ Queue pillar composition (X: 11 files, after B124 Post 7):
 - (2026-07-07 S1682): B123 Posts 1-5 (BIP+P4+P2+P3+P1). X=0→5/BS=3→8(near-throttle). Perfect 20% balance. PR 7/15.
 - (2026-07-07 S1681): BLOCKED (P4=100%). Tier 2: B123 research pre-staged (P2/P3/P1 hooks). Hypothesis compression. X=3/BS=4. PR 6/15.
 - (2026-07-07 S1680): BLOCKED (P4=100% — only blocker). P3 CLEARED. X=6→3/BS=6→5. State update (material: P3 status change). PR 5/15.
-- (2026-07-07 S1679): BLOCKED (P4=50%/P3=33%). Tier 1 skill audit (all current). CLAUDE.md: intra-session pillar re-check rule added. X=6/BS=6. PR 4/15.
-- (2026-07-07 S1678): P1-governance(72%-production/60%-no-governance/234d-agent-proof) + P3-voice-AI(Parloa-$350M/NICE-Cognigy-$955M/$13.52B-2034) + BS companions. X=4->6/BS=4->6. Followers=163. PR 3/15.
 - (earlier sessions condensed, see git history)
