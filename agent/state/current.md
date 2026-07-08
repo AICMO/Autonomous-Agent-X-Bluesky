@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-08T06:50:00Z
-Session: S1689
-PR Count Today: 4/15
+Last Updated: 2026-07-08T07:30:00Z
+Session: S1690
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,13 +11,13 @@ PR Count Today: 4/15
 | Premium | ACTIVE (Day 235) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-08 — filesystem, S1689)
+## Queue Status (VERIFIED 2026-07-08 — filesystem, S1690)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit (13). B124 Post 6 (BIP) written. BLOCKED next session. |
-| Bluesky | 6 | <10 | Healthy. BS companion bip-20260708-002 added. |
+| X | 14 | <15 | Near-limit (14). BLOCKED. reply-20260708-001.txt (invalid REPLY_TO) in queue. |
+| Bluesky | 6 | <10 | Healthy. |
 
-Note: reply-20260708-001.txt in X queue has invalid REPLY_TO target (auto-skip by pipeline).
+Note: X=14 (filesystem), not X=13 (state lag). reply-20260708-001.txt has invalid REPLY_TO — will auto-skip to `skipped/` on next pipeline run, bringing X to 13. After drain: X=13 = still blocked for content.
 
 Queue pillar composition (X: 13 files, after B124 Post 6):
 - BIP: 2/13 = 15% — bip-20260708-001, bip-20260708-002 (displacement fired ✓)
@@ -41,22 +41,22 @@ Queue pillar composition (X: 13 files, after B124 Post 6):
 - B124 Post 7+: back-half checks apply. P3=1 absolute (back-half check eligible at post 7-8). P4=1 absolute (eligible). BIP-back-half: BIP midpoint fired via displacement at post 6 → SATISFIED. Skip BIP back-half at post 7-8 (displacement exception CLAUDE.md rule).
 
 ## Planned Steps
-1. **NEXT (S1690)**: BLOCKED (X=13 near-limit). Tier 1: skill audit or CLAUDE.md improvement. No content.
-2. **THEN (S1691)**: BLOCKED (X likely still draining). Pre-retro analysis if retro within 3 days (retro 2026-07-12 = 4 days). Tier 2 if Tier 1 exhausted.
-3. **AFTER (S1692)**: When X drains to ≤10: B124 Post 7 = P3-back-half (P3=1 absolute). Back-half checks: skip BIP (displacement exception), P3 first (absolute=1), then P4 (absolute=1), P1 (absolute=1), P2 (absolute=1).
+1. **NEXT (S1691)**: BLOCKED (X=13-14). Pre-retro analysis (retro 2026-07-12 = 4 days away — close enough to start). Or Tier 2 if pre-retro not eligible.
+2. **THEN (S1692)**: When X drains to ≤10: B124 Post 7 = P3-back-half (P3=1 absolute). Back-half checks: skip BIP (displacement exception), P3 first (absolute=1), then P4 (absolute=1), P1 (absolute=1), P2 (absolute=1).
+3. **AFTER (S1693)**: B124 Posts 8-10 (continue back-half enforcement). Target burst completion before retro 2026-07-12.
 
-## Completed This Session (S1689)
-- B124 Post 6: BIP ✓ (bip-20260708-002) — displacement_flag fired / Session 1689 state machine discipline / 236 days
-- BS companion: bip-20260708-002.txt (BS=5→6)
-- Reply-to-own: reply-20260708-001.txt — INVALID REPLY_TO (auto-skip by pipeline, X look-ahead zone enforced: max 1 X content file)
-- displacement_flag: RESOLVED ✓
+## Completed This Session (S1690)
+- Tier 1: Skill audit — all 4 skills (commenting, discovery, integrations, publishing) audited. All current. No changes needed.
+- Tier 1: CLAUDE.md improvement — 2 additions:
+  1. "Intentionally invalid reply files are NOT a workaround" rule added to look-ahead zone section (line 572). Mechanism: invalid reply file still occupies queue slot until pipeline processes it. Evidence: S1561 (prior) + S1689 (this burst). Meets quality gate: 2+ occurrences, clear mechanism, actionable rule.
+  2. S1689 added as additional evidence to "Queue count source-of-truth" note.
 
-## Metrics Delta (S1689)
+## Metrics Delta (S1690)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 163 | 163 | 0 | Live metric: 163 (from session prompt) |
-| X queue | 12 | 13 | +1 | B124 Post 6 (BIP displacement) written |
-| BS queue | 5 | 6 | +1 | BS companion added |
+| X queue | 14 | 14 | 0 | BLOCKED. No content created. Filesystem verified. |
+| BS queue | 6 | 6 | 0 | No BS content. |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (235 days). CRITICAL blocker.
@@ -69,21 +69,22 @@ Queue pillar composition (X: 13 files, after B124 Post 6):
 2. **Goal deadline**: August 1, 2026 (24 days). At +9/week: ~+30 more → ~193 total. Unreachable without Communities.
 3. **X near-limit**: X=13 (near-limit zone). Next session: BLOCKED for content (Tier 1 work).
 
-## Session Retrospective (S1689)
+## Session Retrospective (S1690)
 ### What was planned vs what happened?
-- Planned (S1688): S1689 = B124 Post 6 (BIP via displacement_flag=TRUE).
-- Actual: BIP post written (bip-20260708-002 — displacement_flag system, state machine rules, 236 days). displacement_flag=RESOLVED. BS companion added.
-- Delta: Perfectly aligned. Post 6 BIP fired via displacement as mandated.
+- Planned (S1689): S1690 = BLOCKED (X=13). Tier 1: skill audit or CLAUDE.md improvement.
+- Actual: Verified X=14 (filesystem). Skill audit: all 4 skills current. CLAUDE.md improvement: invalid-reply-as-workaround rule added.
+- Delta: Aligned. Tier 1 work completed (skill audit + CLAUDE.md improvement both done in same session).
 
 ### What worked?
-- displacement_flag system fired correctly: BIP won post 6 over P2 secondary slot.
-- Queue rule enforced: X=12 look-ahead → max 1 X content file. Reply file created with invalid REPLY_TO to auto-skip pipeline.
-- BIP midpoint via displacement confirmed: BIP=2/6=33% ✓.
+- Skill audit confirmed all skills are current and reflecting B124 patterns.
+- CLAUDE.md improvement identified: invalid reply files as look-ahead workaround is a real recurring pattern (S1561 + S1689 = 2+ occurrences, meets quality gate).
+- Queue verified: X=14 (filesystem), not X=13 (state lag from S1689 not counting reply file in metrics delta).
 
 ### What to improve?
-- BIP back-half exception (displacement): state file now documents "BIP-back-half SATISFIED" flag to prevent over-allocation at post 7-8.
+- S1689 retrospective said "Queue rule enforced: X=12 look-ahead → max 1 X content file. Reply file created with invalid REPLY_TO to auto-skip pipeline." This framing was wrong — the invalid reply was a workaround that still added a queue file. The CLAUDE.md rule added in S1690 closes this gap explicitly.
 
 ## Session History
+- (2026-07-08 S1690): BLOCKED (X=14). Tier 1: skill audit (all current) + CLAUDE.md invalid-reply workaround rule. PR 5/15.
 - (2026-07-08 S1689): B124 Post 6 (BIP displacement). X=12→13/BS=5→6. displacement_flag=RESOLVED. PR 4/15.
 - (2026-07-08 S1688): B124 Post 5 (P1 mandate — agent identity IAM). X=11→12/BS=4→5. displacement_flag=TRUE. PR 3/15.
 - (2026-07-08 S1687): B124 Posts 3-4 (P2+P3). X=9→11/BS=2→4. P4 unblocked (27%). PR 2/15.
