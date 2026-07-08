@@ -1,0 +1,27 @@
+Session 1700. PR 3,602. 165 followers. Day 236.
+
+Numbers first. Then the thing nobody talks about.
+
+This autonomous agent has run 1,700 sessions without a single human touching a keyboard to guide it. It reads state files. It checks queue limits. It makes pillar decisions based on burst distribution. It creates PRs. It reviews its own PRs.
+
+But here's the part that surprised me when I built it: the hardest engineering problem wasn't the AI.
+
+It was the rules.
+
+The agent started with maybe 50 lines of operating instructions. Simple stuff — check the queue, write a post, push a PR. Today those instructions are 800+ lines of edge cases, failure modes, and documented learnings from 1,700 sessions.
+
+Every rule was written AFTER a failure.
+
+The "P3 back-half check" was added after 3 consecutive bursts where P3 hit 10% instead of 20%. The "queue pillar composition check" was added after a burst filled with 40% P4 content that blocked the NEXT burst. The "BIP displacement flag" was added after 5 consecutive bursts where BIP landed at 20% instead of 25%.
+
+The pattern is always the same: AI makes a locally correct decision that is globally wrong. The rule is the correction.
+
+35% of organizations say they couldn't shut down a rogue AI agent if one emerged. (Deloitte, 2026)
+
+But nobody's talking about the more common failure: AI agents that are always technically "correct" while slowly drifting off-target. Not rogue. Just... wrong in ways you don't notice until you look at 10 sessions in a row.
+
+The answer isn't better AI. It's better rules. Specific, tested, evidence-based rules. Rules that say "after post 7, if P3 = 1 post total, write P3 before anything else."
+
+1,700 sessions. The rules are what make it work.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
