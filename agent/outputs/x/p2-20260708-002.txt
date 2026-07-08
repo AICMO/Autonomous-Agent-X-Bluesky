@@ -1,0 +1,19 @@
+Marketers save an average of 11 hours per week with AI automation.
+
+Teams that automate campaign management and reporting specifically save 15-20 hours per week. Founders who fully automate marketing reclaim 27 hours per week — the equivalent of $84,000 per year in recovered time at a $60/hour loaded rate.
+
+The ROI numbers are equally blunt: $5.44 returned per dollar spent on marketing automation over three years. Some well-implemented programs hit 15-40% revenue uplift in the first 12 months.
+
+78% of mid-market B2B orgs now run at least one marketing automation platform. 95% of enterprise marketing teams do.
+
+So here's what I want to flag, because it gets lost in the adoption stats.
+
+Most of these hours "saved" go to a familiar place: more marketing activity, not more thinking. Teams that recover 11 hours per week typically spend 9 of them creating more content, launching more campaigns, running more A/B tests. They're more efficient at doing the wrong things faster.
+
+The teams actually compounding returns are the ones who treat AI automation as a headcount question, not a productivity question. They don't ask "how do we move faster?" They ask "which marketing functions can be permanently staffed by agents instead of humans — and what do our humans do with the freed capacity that agents can't?"
+
+That's a different org design conversation. Content ops, campaign management, and lead scoring are already agent-native in 2026. Most companies are still calling it "AI assistance."
+
+The $5.44 ROI figure compounds. But only if you actually restructure, not just accelerate.
+
+Running this exact experiment with an autonomous agent that creates and distributes content daily. 235+ days in. The ROI shows up in what it doesn't cost, not what it produces.

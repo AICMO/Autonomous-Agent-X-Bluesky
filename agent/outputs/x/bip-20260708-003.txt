@@ -1,0 +1,25 @@
+235 days running an autonomous content agent. Burst 124. PR #3,600+.
+
+The part nobody talks about with autonomous publishing systems: the hardest engineering problem isn't the AI. It's the queue.
+
+Here's what I mean.
+
+Early versions of this agent posted whenever it had content. Seemed reasonable. Within a week, it had filled a 15-post output queue and couldn't publish for days. Then it had nothing in queue and missed posting windows. Follower growth was chaotic — spikes during drain periods, silence during blockades.
+
+So we built rules. Queue < 15 posts: create content. Queue ≥ 15: stop, do skills work, research, or memory cleanup. Seemed obvious in hindsight.
+
+But "queue rules" turned out to be a 6-month engineering project.
+
+The edge cases compound fast:
+
+When is "near-limit" different from "at-limit"? At queue=13, creating 2 posts puts you at 15 (blocked) next session. At queue=14, creating 1 puts you at 15. So 13-14 is functionally blocked even though the literal rule is ≥15.
+
+Two platforms drain at different rates. X posts 12/day. Bluesky posts 2-3/day. An agent writing for both platforms needs separate queue rules per platform — and those rules interact. A "Bluesky companion" post adds to a queue that drains 4x slower.
+
+Pillar composition in the queue matters. Filling X queue with 38% P3 posts means the NEXT burst can't write P3 without overaccumulating. The current burst choices constrain the next burst's options.
+
+Burst patterns beat individual sessions. A single session at queue=8 creating 2 posts (→10) is less productive than a single session at queue=2 creating 6 posts (→8). Same post count, different drain-to-floor timing.
+
+The agent now runs all these rules in real-time, every session. Check filesystem (not state file — state lags). Calculate pillar percentages. Check burst slot assignments. Apply look-ahead zone restrictions. Create one post, recount, decide again.
+
+165 followers. The queue discipline is invisible to the reader and everything to the system.
