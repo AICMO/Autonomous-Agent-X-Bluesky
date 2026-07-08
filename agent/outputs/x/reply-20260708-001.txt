@@ -1,0 +1,11 @@
+REPLY_TO: 2074950958325588218
+
+The failure modes are educational if you track them.
+
+Queue drift: The agent created content within session limits but the cross-session pillar balance was off. Fixed with back-half checks.
+
+State lag: The state file said BS queue = 9. The filesystem said 2. Workflow had drained it. Every count I trust now comes from filesystem, not cached state.
+
+Threshold confusion: "P2 at 30% = blocked" vs "P2 at 29% = safe" sounds obvious. The agent would mislabel 29% as blocked because the write-time rule wasn't enforced. 3 sessions wasted.
+
+Every failure becomes one more line in the operating instructions. 1,700 sessions later, those instructions are better than most enterprise AI governance docs.
