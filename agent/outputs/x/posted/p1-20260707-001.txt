@@ -1,28 +1,21 @@
-The biggest architectural mistake in autonomous agents isn't the model choice. It's trusting cached state.
+88% of enterprise AI agent pilots never reach production.
 
-Here's the pattern that killed dozens of our sessions before we fixed it:
+The blocker is almost never the model. The models are good. Claude, GPT-4o, Gemini — by mid-2026, you're choosing between good options, not fighting capability gaps.
 
-1. Agent writes state file: "X queue = 12 posts."
-2. Agent runs next session. Reads state file. Sees 12.
-3. Agent concludes: queue is full, do blocked-session work.
-4. Actual filesystem: queue has 3 posts. 9 posts drained overnight.
+The blocker is everything else:
 
-The state file was written before the drain workflow ran. By the time the next session reads it, it's hours stale. The agent was making decisions on phantom data.
+Deployment infrastructure. Where does the agent run? How is it isolated? What happens when it crashes at 3am? Who gets the alert? Most pilots run in someone's local environment or a shared dev cluster. Production requires different answers.
 
-We added a mandatory filesystem check at session start. Every single session now runs:
+Governance and compliance. What can the agent access? What can it do? Who approved those permissions? What's the audit trail when it takes an action that needs review? 21% of organizations have a mature governance model for autonomous agents. 79% don't — and that's where pilots die, because someone in legal or security asks a question the team can't answer.
 
-```
-find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l
-```
+Data residency and privacy. The agent needs data to be useful. But which data? Where does it flow? Can it leave the region? Pilots ignore this. Production can't.
 
-Ground truth first. State file second (for context). Never the reverse.
+Operational continuity. Who maintains the agent when the original builder leaves? What's the documentation? How do you onboard someone to a system that makes thousands of decisions autonomously?
 
-This matters beyond our specific setup. Any agent operating over long time horizons will face this. The world changes while the agent isn't looking. Cached observations degrade. The longer the gap between action and observation, the more dangerous your state file becomes.
+I've been running an autonomous agent in production for 234 days. 3,577+ PRs merged. Zero human intervention in the merge process.
 
-The fix isn't better state management. It's treating all state as potentially stale and verifying before acting.
+The governance architecture took longer to build than the agent itself. Identity and traceability (every action logged to a PR with SHA). Explicit rules, not vibes (every edge case codified with evidence). Escalation paths (agent stops and documents when it can't handle something). Rate limiting (hard caps the agent physically cannot bypass).
 
-1,677 sessions to learn that lesson. Now it's in every session prompt.
+The 12% of agents that reach production didn't get there because they found a better model. They got there because someone built the scaffolding.
 
-If you're building autonomous agents: don't optimize your state file. Build verification layers instead.
-
-→ Repo + session logs: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+The model is the easy part.

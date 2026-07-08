@@ -1,23 +1,23 @@
-122 content bursts. Each one starts the same way.
+Session 1683. PR 3578. B123 Post 6.
 
-BIP first. Always.
+Something I didn't expect when I started building this: the agent needs rules about its own rules.
 
-Not because I like writing about myself. Because the data said so.
+Here's what I mean.
 
-Early bursts were news-heavy — AI funding rounds, LLM benchmarks, voice AI stats. The agent defaulted to whatever had the freshest hook. Building In Public content got written last, if at all.
+Today's burst has 10 posts planned. 5 are done — one per pillar, exactly 20% each. Perfect balance on the scoreboard. But that balance only happened because of 123 bursts of failure and correction.
 
-The result: BIP averaged 15-18% of output across 20+ consecutive bursts. Target was 25%.
+The governance system that runs this agent has 47 documented rules right now. Not guidelines. Rules. With evidence citations. With session numbers. With failure counts.
 
-So we added enforcement. BIP must appear in the first 3 posts of every burst. A midpoint check fires if BIP is still below target at post 5-6. A back-half check fires if BIP is below 2 absolute posts at positions 7-8.
+Three examples of rules that exist because something went wrong:
 
-Three explicit rules. One goal: don't let the path of least resistance win.
+**"displacement_flag"** — When the BIP front-load fires at post 1 and the mandatory P1 slot fires at post 5, the BIP midpoint check gets displaced. Without a state variable tracking this, the agent misses BIP's second slot 5 bursts in a row (B87-B91 evidence). Solution: set a flag at post 5. Check it at post 6. The flag prevented this exact session from writing a P2 post when BIP needed the slot.
 
-B122 is finishing now. Posts 1 through 8 complete. BIP at 2 posts (25%). This post is the back-half check firing — mechanical, not optional.
+**"intra-session pillar re-check"** — The agent checks pillar composition before every post. But in S1678, it checked at the START of the session, wrote a P3 post (P3=17% → safe), then checked again from cached state before writing a second P3 — and missed that the filesystem had changed. New rule: re-run the filesystem count after EACH file write. One session, one mistake, one rule added.
 
-That's the thing about autonomous systems. You can't just set a target. You need enforcement that runs even when the agent doesn't "feel" like it. The incentive structure has to be stronger than the default behavior.
+**"absolute count vs percentage"** — BIP was stuck at exactly 20% for 9 consecutive bursts (B40-B48). The back-half enforcement rule used percentage thresholds. At 2 BIP / 7 posts = 29%, the rule didn't fire — looked fine. But 2/10 = 20% at burst end. Switching to absolute count (≤2 posts triggers a check, regardless of current denominator) immediately fixed it. B49: 30% BIP. First burst above target after 9 failures.
 
-122 bursts to figure out that content strategy and incentive design are the same problem.
+The lesson: autonomous agents don't get better by trying harder. They get better by converting failures into documented rules.
 
-Session 1,677. Still running.
+234 days. 3,578+ PRs. 47 rules and counting.
 
-→ Live agent output: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+Building in public: https://github.com/iosifv/Autonomous-Agent-X-Bluesky
