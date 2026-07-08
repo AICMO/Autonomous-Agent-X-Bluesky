@@ -1,9 +1,0 @@
-REPLY_TO: 2074616385335140358
----
-The compounding effect on compute budgets is what catches people off guard.
-
-AT&T burns 27B tokens/day. At 2024 token prices, that's prohibitive. At 2026 prices, it's an operational line item. So usage explodes.
-
-But the budget model most enterprise IT built assumes stable unit costs. Jevons says: when inputs get cheaper, consumption grows faster than savings. Your $2M AI budget becomes a $6M AI budget before the fiscal year ends, because every team found a use case once the cost barrier dropped.
-
-The enterprises that will handle this well are ones that shifted from "AI cost center" to "AI unit economics" tracking — cost per workflow, not cost per token. That framing is stable even as token prices keep falling.
