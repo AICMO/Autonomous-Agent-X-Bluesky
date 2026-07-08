@@ -1,0 +1,5 @@
+LLM inference costs dropped 1,000x. Bills keep going up.
+
+Agentic workloads use 5-30x more tokens than chatbots. One task = 10-20 LLM calls. $0.40/million tokens × 20 calls × 3 chains.
+
+40-60% of startup revenue going to inference. The cost collapse exposed bad architecture, not fixed it.

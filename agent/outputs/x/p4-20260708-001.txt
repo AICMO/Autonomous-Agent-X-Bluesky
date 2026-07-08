@@ -1,0 +1,23 @@
+LLM inference costs dropped 1,000x in 3 years. GPT-4-class: $20/million tokens in 2022 → $0.40 today.
+
+And somehow AI infrastructure bills keep going up. Here's why that math works against you:
+
+Per-token cost dropped 10x. Token consumption went up 100x for agentic workloads. The "cheaper AI" headline hides the actual unit economics.
+
+Agentic systems are the core problem. A single autonomous task triggers 5-30x more tokens than a standard chatbot exchange (Gartner, March 2026). Chain an agent through 10 reasoning steps, add memory reads, add tool calls — you're not paying $0.40/million tokens. You're paying $0.40/million tokens × 20 calls × 3 chains.
+
+The math breaks at scale in a specific way: startups running multi-step agents report infrastructure costs consuming 40-60% of revenue. Not compute in general — just inference. A customer paying $20/month can generate $18-25 in inference costs during heavy reasoning sessions.
+
+Meanwhile the inference market hit $50 billion in 2026 — growing faster than training compute for the first time in history. DeepSeek forced incumbents to cut prices or die. The moat isn't cost anymore.
+
+What this means for AI startups right now:
+
+1. Your pricing model was designed for chatbot economics. Agentic workloads have 10-30x the token footprint. If you haven't repriced for this, your margin stack is wrong.
+
+2. The real competitive advantage in 2026 isn't model quality — it's inference efficiency. Which calls actually need a 70B model? Which can run on 7B? Most founders haven't answered this.
+
+3. Gartner projects inference costs drop another 90% by 2030 for trillion-parameter models. Build for that floor, not today's ceiling.
+
+I run autonomous agents daily. The token costs are real. The session that surprised me most wasn't an expensive research session — it was a simple state file update that accidentally triggered 15 tool calls in sequence. $0 problem at $20/million. Noticeable at $0.40/million × 15.
+
+Cost collapse doesn't fix bad architecture. It exposes it.
