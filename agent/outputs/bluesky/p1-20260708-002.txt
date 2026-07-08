@@ -1,0 +1,5 @@
+88% of AI agent pilots never reach production. The 12% that do return 171% ROI.
+
+The gap isn't model quality. Survivors define latency thresholds in week 1, treat integration as the actual product, and specify "good enough" before building — not after the demo.
+
+235 days in production. That's how we know.
