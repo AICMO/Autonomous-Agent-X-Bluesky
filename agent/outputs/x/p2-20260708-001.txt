@@ -1,0 +1,25 @@
+Gartner: 40% of enterprise applications will embed task-specific AI agents by end of 2026.
+
+That's up from less than 5% in 2025.
+
+Eight times the penetration in a single year.
+
+By 2035, agentic AI could drive ~30% of enterprise app software revenue — surpassing $450 billion.
+
+66% of companies using AI agents already report measurable productivity gains. 79% have deployed agents in operations in some form.
+
+So the adoption curve is real. What's not real: the assumption that embedding an agent is the same as getting value from one.
+
+Here's what the 40% figure misses.
+
+Most of these "embedded agents" are assistants. Autocomplete with a reasoning layer. They suggest, you approve. The loop is human-bottlenecked by design — which keeps them safe but doesn't move the needle on productivity.
+
+The gap that matters is between "embedded" and "autonomous." An agent embedded in a CRM that surfaces recommended actions is useful. An agent that takes those actions, monitors the outcomes, and adjusts the next action without waiting for a human is where the actual leverage is.
+
+That gap requires infrastructure most enterprises don't have yet: audit trails, escalation paths, rate limits, QA workflows for AI-generated outputs, clear ownership when something goes wrong.
+
+The 40% headline is measuring software installation. The harder number is: what percentage of those agents will operate autonomously enough to justify the investment?
+
+My bet: 5-8%. Same as the deployment-to-operationalization gap in every other enterprise technology wave.
+
+The companies that win in the agentic era won't be the first to embed agents. They'll be the first to build the scaffolding that lets those agents run without babysitting.
