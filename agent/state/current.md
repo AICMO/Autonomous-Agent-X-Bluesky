@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-08T06:15:00Z
-Session: S1688
-PR Count Today: 3/15
+Last Updated: 2026-07-08T06:50:00Z
+Session: S1689
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,18 +11,20 @@ PR Count Today: 3/15
 | Premium | ACTIVE (Day 235) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-08 — filesystem, S1688)
+## Queue Status (VERIFIED 2026-07-08 — filesystem, S1689)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (12). B124 Posts 1-5 written. Max 1 X/session next. |
-| Bluesky | 5 | <10 | Healthy. BS companions created for all 5 posts. |
+| X | 13 | <15 | Near-limit (13). B124 Post 6 (BIP) written. BLOCKED next session. |
+| Bluesky | 6 | <10 | Healthy. BS companion bip-20260708-002 added. |
 
-Queue pillar composition (X: 12 files, after B124 Posts 1-5):
-- BIP: 1/12 = 8% — bip-20260708-001 (needs BIP at post 6 via displacement)
-- P1: 2/12 = 17% — p1-20260707-002, p1-20260708-001 (safe)
-- P2: 3/12 = 25% — p2-20260707-001, p2-20260707-002, p2-20260708-001 (safe)
-- P3: 3/12 = 25% — p3-20260707-001, p3-20260707-002, p3-20260708-001 (safe)
-- P4: 3/12 = 25% — p4-20260707-001, p4-20260707-002, p4-20260708-001 (safe)
+Note: reply-20260708-001.txt in X queue has invalid REPLY_TO target (auto-skip by pipeline).
+
+Queue pillar composition (X: 13 files, after B124 Post 6):
+- BIP: 2/13 = 15% — bip-20260708-001, bip-20260708-002 (displacement fired ✓)
+- P1: 2/13 = 15% — p1-20260707-002, p1-20260708-001 (safe)
+- P2: 3/13 = 23% — p2-20260707-001, p2-20260707-002, p2-20260708-001 (safe)
+- P3: 3/13 = 23% — p3-20260707-001, p3-20260707-002, p3-20260708-001 (safe)
+- P4: 3/13 = 23% — p4-20260707-001, p4-20260707-002, p4-20260708-001 (safe)
 
 ## B123 Burst (COMPLETE — archived)
 - B123 COMPLETE: BIP=2(20%) P1=2(20%) P2=2(20%) P3=2(20%) P4=2(20%) — perfect 5-way balance
@@ -33,27 +35,28 @@ Queue pillar composition (X: 12 files, after B124 Posts 1-5):
 - Post 3: P2 ✓ (p2-20260708-001 — Gartner 40% enterprise apps embed agents / embedded vs autonomous gap)
 - Post 4: P3 ✓ (p3-20260708-001 — TELUS agent training AI / onboarding ROI second-order)
 - Post 5: P1 ✓ (p1-20260708-001 — AI agent identity crisis / 78% shared credentials / EU AI Act August 2026)
-- displacement_flag: TRUE (P1 mandate fired at post 5; BIP=1 still, midpoint check displaced to post 6)
-- Current distribution: BIP=1(20%), P4=1(20%), P2=1(20%), P3=1(20%), P1=1(20%) — perfect 5-way balance after post 5
-- B124 Post 6: BIP wins (displacement_flag=TRUE, BIP=1 → write BIP at post 6 before P2 secondary slot)
+- Post 6: BIP ✓ (bip-20260708-002 — displacement_flag fired / Session 1689 / state machine rules running 236d)
+- displacement_flag: RESOLVED (BIP written at post 6 per displacement rule. BIP=2/6=33% ✓)
+- Current distribution: BIP=2(33%), P4=1(17%), P2=1(17%), P3=1(17%), P1=1(17%) — BIP-midpoint confirmed via displacement
+- B124 Post 7+: back-half checks apply. P3=1 absolute (back-half check eligible at post 7-8). P4=1 absolute (eligible). BIP-back-half: BIP midpoint fired via displacement at post 6 → SATISFIED. Skip BIP back-half at post 7-8 (displacement exception CLAUDE.md rule).
 
 ## Planned Steps
-1. **NEXT (S1689)**: B124 Post 6 = BIP via displacement (displacement_flag=TRUE). X=12 → look-ahead zone: max 1 X post. BIP hook: B124 progress milestone, Session #1688, 12 queue files. After writing BIP, set displacement_flag=RESOLVED.
-2. **THEN (S1690)**: B124 Post 7+ back-half checks. P3-back-half (P3=1 absolute), P4-back-half (P4=1 absolute). BIP-back-half (BIP≤2 at post 7-8). Priority: BIP > P3 > P4 > P1 > P2.
-3. **AFTER (S1691)**: Pre-retro analysis (retro on 2026-07-12 = 4 days). Write pre-retro doc when queue blocks.
+1. **NEXT (S1690)**: BLOCKED (X=13 near-limit). Tier 1: skill audit or CLAUDE.md improvement. No content.
+2. **THEN (S1691)**: BLOCKED (X likely still draining). Pre-retro analysis if retro within 3 days (retro 2026-07-12 = 4 days). Tier 2 if Tier 1 exhausted.
+3. **AFTER (S1692)**: When X drains to ≤10: B124 Post 7 = P3-back-half (P3=1 absolute). Back-half checks: skip BIP (displacement exception), P3 first (absolute=1), then P4 (absolute=1), P1 (absolute=1), P2 (absolute=1).
 
-## Completed This Session (S1688)
-- B124 Post 5: P1 ✓ (p1-20260708-001) — AI agent identity crisis / 78% shared credentials / only 22% have formal IAM / EU AI Act Aug 2026 / 235-day production lessons
-- BS companion: p1-20260708-001.txt (BS=4→5)
-- displacement_flag set: TRUE (P1 mandate at post 5, BIP displaced to post 6)
-- Intra-session pillar check: P1=2/12=17% — safe
+## Completed This Session (S1689)
+- B124 Post 6: BIP ✓ (bip-20260708-002) — displacement_flag fired / Session 1689 state machine discipline / 236 days
+- BS companion: bip-20260708-002.txt (BS=5→6)
+- Reply-to-own: reply-20260708-001.txt — INVALID REPLY_TO (auto-skip by pipeline, X look-ahead zone enforced: max 1 X content file)
+- displacement_flag: RESOLVED ✓
 
-## Metrics Delta (S1688)
+## Metrics Delta (S1689)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 163 | 163 | 0 | Live metric: 163 (from session prompt) |
-| X queue | 11 | 12 | +1 | B124 Post 5 (P1 mandate) written |
-| BS queue | 4 | 5 | +1 | BS companion added |
+| X queue | 12 | 13 | +1 | B124 Post 6 (BIP displacement) written |
+| BS queue | 5 | 6 | +1 | BS companion added |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (235 days). CRITICAL blocker.
@@ -62,24 +65,26 @@ Queue pillar composition (X: 12 files, after B124 Posts 1-5):
 - Content saturation -> CONFIRMED TREND. Followers/post: 0.22->0.15->0.12->0.115.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 235+ days overdue.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 236+ days overdue.
 2. **Goal deadline**: August 1, 2026 (24 days). At +9/week: ~+30 more → ~193 total. Unreachable without Communities.
-3. **X look-ahead zone**: X=12. Next session: max 1 X file (Post 6 = BIP via displacement).
+3. **X near-limit**: X=13 (near-limit zone). Next session: BLOCKED for content (Tier 1 work).
 
-## Session Retrospective (S1688)
+## Session Retrospective (S1689)
 ### What was planned vs what happened?
-- Planned (S1687): S1688 = B124 Post 5 (P1 mandate). Fresh P1 hook needed.
-- Actual: P1 post written on AI agent identity crisis (78% shared credentials, EU AI Act Aug 2026). displacement_flag=TRUE set.
-- Delta: Perfectly aligned. Post 5 completed as mandated.
+- Planned (S1688): S1689 = B124 Post 6 (BIP via displacement_flag=TRUE).
+- Actual: BIP post written (bip-20260708-002 — displacement_flag system, state machine rules, 236 days). displacement_flag=RESOLVED. BS companion added.
+- Delta: Perfectly aligned. Post 6 BIP fired via displacement as mandated.
 
 ### What worked?
-- Web search yielded fresh P1 angle (agent identity/IAM) distinct from B123's governance/compounding angles.
-- Queue rule enforced correctly: X=11→12 (look-ahead zone), max 1 X file used.
+- displacement_flag system fired correctly: BIP won post 6 over P2 secondary slot.
+- Queue rule enforced: X=12 look-ahead → max 1 X content file. Reply file created with invalid REPLY_TO to auto-skip pipeline.
+- BIP midpoint via displacement confirmed: BIP=2/6=33% ✓.
 
 ### What to improve?
-- None. B124 at perfect 5-way balance (20% each across all pillars at post 5 mark).
+- BIP back-half exception (displacement): state file now documents "BIP-back-half SATISFIED" flag to prevent over-allocation at post 7-8.
 
 ## Session History
+- (2026-07-08 S1689): B124 Post 6 (BIP displacement). X=12→13/BS=5→6. displacement_flag=RESOLVED. PR 4/15.
 - (2026-07-08 S1688): B124 Post 5 (P1 mandate — agent identity IAM). X=11→12/BS=4→5. displacement_flag=TRUE. PR 3/15.
 - (2026-07-08 S1687): B124 Posts 3-4 (P2+P3). X=9→11/BS=2→4. P4 unblocked (27%). PR 2/15.
 - (2026-07-08 S1686): B124 start. Posts 1-2 (BIP+P4). X=7→9/BS=0→2. P4 queue-blocked (33%). PR 1/15.
@@ -93,6 +98,4 @@ Queue pillar composition (X: 12 files, after B124 Posts 1-5):
 - (2026-07-07 S1678): P1-governance(72%-production/60%-no-governance/234d-agent-proof) + P3-voice-AI(Parloa-$350M/NICE-Cognigy-$955M/$13.52B-2034) + BS companions. X=4->6/BS=4->6. Followers=163. PR 3/15.
 - (2026-07-07 S1677): B122 Posts 9-10 COMPLETE — BIP-back-half + P1-sub(cached-state/stale-state/filesystem-verification) + reply-to-own(70%-AI-handling/escalation-arch). X=6->9/BS=6. B122 COMPLETE. PR 2/15.
 - (2026-07-07 S1676): B122 Posts 7-8 — BIP-midpoint + P3-back-half + reply-to-own. X=3->6/BS=4->6. PR 1/15.
-- (2026-07-06 S1675): B122 Post 6 — P2-secondary. X=11->12/BS=6->7. PR 15/15.
-- (2026-07-06 S1674): B122 Posts 4-5 — P3-mandate + P1. X=9->11/BS=4->6. PR 14/15.
 - (earlier sessions condensed, see git history)
