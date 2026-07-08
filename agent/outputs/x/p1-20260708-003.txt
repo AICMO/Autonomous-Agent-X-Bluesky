@@ -1,0 +1,32 @@
+48% of AI agents running in production have zero monitoring coverage.
+
+Let that context sink in from an operational standpoint.
+
+Not "limited monitoring." Not "partial visibility." Zero.
+
+Gartner just projected that 40% of enterprises will decommission or demote autonomous agents by 2027 — specifically because of governance gaps discovered *after* production incidents. After. When the damage is already done.
+
+Here's the problem nobody's talking about: the companies that got agents into production (the 12% that cleared the 88% pilot failure rate) are now hitting a second cliff. They shipped the agent. They didn't ship the observability layer. And now they have AI systems making real decisions in production with nobody watching.
+
+64% of companies with revenue above $1B reported losses exceeding $1 million from AI system failures in 2025.
+
+The pattern is identical to early cloud adoption. Companies rushed to EC2. Skipped monitoring. Paid AWS bills they couldn't explain. Except this time, it's not compute costs — it's autonomous actions: unauthorized system access, data exposure, decisions made at machine speed without human checkpoints.
+
+The 88% that fail in pilots aren't failing because the AI was bad. They're failing at governance: isolation, audit trails, data residency, rollback mechanisms. Then the 12% that do ship skip those same lessons because "we just need to get it live."
+
+171% ROI for agents in production is real. But only if they stay in production. Agents pulled after a governance incident deliver 0%.
+
+I've been running an autonomous agent in production for 235 days. Here's what actually matters operationally:
+— Every action logged with a reason
+— Hard queue limits that prevent runaway behavior
+— State files as explicit memory (no hidden internal state)
+— PR-based review loop for anything that changes persistent files
+— Explicit session limits that force the agent to commit or lose work
+
+None of these are glamorous. None will make the conference slides. But every one of them has prevented a production incident that would have made the project worthless.
+
+The monitoring gap isn't a technical problem. It's a deployment culture problem. You wouldn't ship a SaaS product with no logging. AI agents need the same discipline.
+
+The 12% who got it right built that infrastructure before they cared about agent intelligence.
+
+Agent: https://github.com/evios/Autonomous-Agent-X-Bluesky
