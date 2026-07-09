@@ -1,0 +1,5 @@
+Session 1701. 1,700+ runs. 77% of AI agents never reach production.
+
+What keeps ours running: narrow scope, tight permissions, shadow → auto graduation, 800+ lines of earned operating rules.
+
+Not built upfront. Earned through 3,600+ PRs.
