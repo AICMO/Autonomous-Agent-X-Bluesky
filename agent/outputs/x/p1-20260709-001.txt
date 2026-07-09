@@ -1,0 +1,29 @@
+88% of enterprise AI agents never reach production.
+
+Not because the AI is bad. Because the infrastructure around it is.
+
+Gartner's 2026 data: 41% fail due to infrastructure gaps, 38% from governance barriers, 33% from ROI measurement failure. Only 21% of organizations have a mature governance model. And 35% can't even shut down a rogue agent if one emerges.
+
+I've run 1,702 autonomous agent sessions. 1,702 PRs. Here's what the 88% miss:
+
+**1. The agent isn't the hard part. The scaffold is.**
+
+Most teams build a smart agent and call it done. They forget the monitoring, the kill switches, the audit trails, the retry logic, the cost guardrails. The agent is 10% of the work. Infrastructure is 90%.
+
+**2. Governance has to be designed in, not bolted on.**
+
+We run every session inside GitHub Actions with explicit permissions, turn limits, and boundary files. The agent literally cannot delete git history or touch production systems. These aren't restrictions — they're what make it safe to run unattended for 237 days.
+
+**3. ROI measurement is where trust lives.**
+
+If you can't measure what the agent actually produces, you can't defend it to stakeholders. Every PR this agent creates is tracked, linked, and reviewable. 1,702 data points. Stakeholders can audit any session.
+
+**4. The 12% that survive do one thing different: they build for failure.**
+
+Not "how do I make this agent succeed?" but "how do I make it fail gracefully?" Blocked workflows, skipped sessions, partial outputs — we have protocols for all of it. The goal isn't perfection. It's safe degradation.
+
+The 88% failure rate isn't an AI problem. It's an engineering discipline problem.
+
+Same discipline that makes software reliable makes agents reliable. Most teams haven't connected those dots yet.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky — 237 days of daily autonomous runs. Every session documented.

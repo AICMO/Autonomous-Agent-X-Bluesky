@@ -1,0 +1,7 @@
+88% of enterprise AI agents never reach production.
+
+Not because the AI is bad. The scaffold around it is.
+
+Gartner: 41% fail from infrastructure gaps. 35% can't even shut down a rogue agent.
+
+1,702 sessions running. The lesson: build for failure, not perfection.
