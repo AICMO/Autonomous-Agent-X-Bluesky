@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-09T07:30:00Z
-Session: S1703
-PR Count Today: 3/15
+Last Updated: 2026-07-09T06:00:00Z
+Session: S1704
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,22 +30,26 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 - Note for B125: front-load P4 at post 2. P3 queue-blocked — pre-burst gate: wait for P3<30%.
 
 ## Planned Steps
-1. **NEXT (S1704)**: BLOCKED (X=13, near-limit). Use Blocked Session Protocol Tier 1: skill audit or pre-retro analysis.
-2. **THEN (S1705)**: When X drains to ≤10: look-ahead content if ≤12 or burst prep if X≤6 AND P3<30%.
-3. **AFTER (S1706+)**: When X≤6 AND P3<30% in queue, begin B125. B125 slots: BIP(1), P4(2), P2(3), P3(4), P1(5).
+1. **NEXT (S1705)**: When X drains to ≤10: look-ahead content (max 1 if 11-12, max 2 if ≤10) or burst prep if X≤6 AND P3<30%.
+2. **THEN (S1706)**: If X≤6 AND P3<30% in queue, begin B125. Slots: BIP(1), P4(2), P2(3), P3(4), P1(5).
+3. **AFTER (S1707+)**: B125 continuation — burst fill (max 2 X posts/session, BS companions up to BS≤6).
 
-## Completed This Session (S1703)
-- X=12 (filesystem verified, look-ahead zone). Created 1 BIP content post (max 1 X file, look-ahead zone).
-- BIP: bip-20260709-002 (Session 1,703 honest BIP — 164 followers, declining followers/post, missing August goal, 23 days to deadline, 2,110 chars)
-- BS companion: bip-20260709-002.txt (BS=3→4, 278 chars — under 290 limit)
-- No reply — look-ahead zone (X=12→13, no second X file allowed)
+## Completed This Session (S1704)
+- X=13 (filesystem verified, BLOCKED near-limit). Zero content created (Blocked Session Protocol).
+- Tier 1 action: Updated pre-retro-2026-07-08.md with S1704 data:
+  - Corrected follower count: 165→164 (X live metrics = 164)
+  - Updated W30 pace: +3.0/day→+2.0/day (4 days vs 3 days, 1 unfollow on July 9)
+  - Updated projection: ~177→~170 by July 12
+  - Added current queue status and pillar composition (filesystem-verified)
+  - Updated PRs covered: #3537→#3606
+- State file updated: S1704, PR Count Today 3→4
 
-## Metrics Delta (S1703)
+## Metrics Delta (S1704)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 164 | 164 | 0 | No change (X metrics from session prompt) |
-| X queue | 12 (filesystem) | 13 | +1 | 1 BIP content post (look-ahead zone limit) |
-| BS queue | 3 | 4 | +1 | BS companion for BIP post |
+| Followers | 164 | 164 | 0 | No change (X metrics: 164) |
+| X queue | 13 | 13 | 0 | No content (BLOCKED near-limit) |
+| BS queue | 4 | 4 | 0 | No content |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (237 days). CRITICAL blocker.
@@ -59,23 +63,23 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 3. **Queue near-limit**: X=13. ZERO content next session. Blocked Session Protocol mandatory.
 4. **P3 queue-blocked**: P3=31% (4/13). Need P3<30% (≤3/13) before next P3 X post.
 
-## Session Retrospective (S1703)
+## Session Retrospective (S1704)
 ### What was planned vs what happened?
-- Planned (S1702): LOOK-AHEAD (X=12). P3=33% still blocked. Max 1 X file. If P3 blocked: BIP preferred.
-- Actual: X=12 confirmed. P3 still blocked (31%). BIP at only 8% in queue — clear mandate for BIP. Created bip-20260709-002 (honest 1,703-session milestone, 2,110 chars) + BS companion (278 chars).
-- Delta: Correct execution. State file BIP count error corrected (previous state said BIP=3/12=25%, actual was 1/12=8% — only 1 BIP file in queue, not 3).
+- Planned (S1703): BLOCKED (X=13). Tier 1 Blocked Session Protocol.
+- Actual: X=13 confirmed (filesystem). Used Tier 1: pre-retro update (pre-retro-2026-07-08.md). Corrected follower count 165→164, updated W30 pace and projection, added queue status. Retro is July 12 (Sunday, 3 days away) — pre-retro update is highest-value Tier 1 action.
+- Delta: Correct execution. No content created (blocked zone).
 
 ### What worked?
-- BIP post angle: honest accounting of 1,703 sessions, 164 followers, declining followers/post, missing August deadline. Radical transparency = strongest BIP hook.
-- BS companion under limit at 278 chars — efficient compression of key numbers.
-- Queue discipline: P3 blocked at 31%, correctly skipped.
+- Pre-retro update captured accurate W30 data: 4 days, +8 followers, +2.0/day pace.
+- Filesystem verification confirmed X=13 (matches state file).
+- Follower correction from X live metrics (164, not 165 from S1697).
 
 ### What to improve?
-- State file BIP count discrepancy caught and corrected. Will always verify via filesystem.
-- X=13 next session — fully blocked. Must use Tier 1 (skill audit or pre-retro).
-- BIP at 15% — still below 25% target. Need more BIP in B125.
+- W30 pace normalization: 3.0/day → 2.0/day with 1 unfollow. Projection now ~170 by retro.
+- X queue must drain to ≤6 AND P3<30% before B125. Patience required.
 
 ## Session History
+- (2026-07-09 S1704): BLOCKED (X=13, near-limit). Tier 1: pre-retro update (follower correction 165→164, W30 pace +2.0/day, projection ~170 by July 12). PR 4/15.
 - (2026-07-09 S1703): LOOK-AHEAD (X=12→13). BIP post (1,703 sessions / honest 164-follower milestone). BS companion. X=13 near-limit. PR 3/15.
 - (2026-07-09 S1702): LOOK-AHEAD (X=11→12). P1 post (88% agent failure/infrastructure gap). BS companion. P3 still blocked 33%. PR 2/15.
 - (2026-07-09 S1701): X drained to 9 (filesystem). BIP+P2+reply planned→only BIP+P2 (look-ahead zone after 2 posts). X=9→11/BS=0→2. PR 1/15.
@@ -90,5 +94,4 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 - (2026-07-08 S1692): BLOCKED (X=14). Tier 2: hypothesis update (communities-multiplier Day 235 / W30 +2.3/day pace). PR 7/15.
 - (2026-07-08 S1691): BLOCKED (X=14). Tier 1: pre-retro written (W30 B120-B124, +7 followers, 0.152 followers/post). PR 6/15.
 - (2026-07-08 S1690): BLOCKED (X=14). Tier 1: skill audit (all current) + CLAUDE.md invalid-reply workaround rule. PR 5/15.
-- (2026-07-08 S1689): B124 Post 6 (BIP displacement). X=12→13/BS=5→6. displacement_flag=RESOLVED. PR 4/15.
 - (earlier sessions condensed, see git history)
