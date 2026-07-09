@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-09T06:45:00Z
-Session: S1706
-PR Count Today: 6/15
+Last Updated: 2026-07-09T07:00:00Z
+Session: S1707
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -34,16 +34,16 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 2. **THEN (S1706)**: If X≤6 AND P3<30% in queue, begin B125. Slots: BIP(1), P4(2), P2(3), P3(4), P1(5).
 3. **AFTER (S1707+)**: B125 continuation — burst fill (max 2 X posts/session, BS companions up to BS≤6).
 
-## Completed This Session (S1706)
+## Completed This Session (S1707)
 - X=13 (filesystem verified, BLOCKED near-limit). Zero content created (Blocked Session Protocol).
-- Tier 1 exhausted: Skill audit not eligible (S1704 did skills assessment); pre-retro STOP CONDITION 2 (updated S1704, no new burst).
-- Tier 2 action: top-voices.md refresh (10 days stale, material changes found):
-  - Karpathy updated: joined Anthropic May 2026 (was "independent researcher + Eureka Labs")
-  - Anthropic entry updated: Claude Sonnet 5 (June 30) — cheapest agentic model with browser/terminal control
-  - Reply Success Rate Notes: updated Day 219→Day 237, added July 2026 intelligence (xAI Voice Agent Builder, TELUS Digital Fuel iX, CCW 2026 market data)
-- State file updated: S1706, PR Count Today 5→6
+- Tier 1: Pre-retro updated with B125 content hooks from S1706 top-voices refresh.
+  - Added Section 9 "B125 Content Hooks": Karpathy→Anthropic (P1), Claude Sonnet 5 economics (P4/P1), xAI Voice Agent Builder (P3), CCW 2026 data (P3).
+  - Added B125 slot planning guidance: BIP(1), P4(2) Sonnet 5 economics, P2(3) proactive search, P3(4) xAI Voice Builder, P1(5) Karpathy/Anthropic.
+  - Updated session notes (S1704→S1707 sequence).
+  - Pre-retro status: ACTIVE (not FINAL) — retro July 12.
+- State file updated: S1707, PR Count Today 6→7.
 
-## Metrics Delta (S1706)
+## Metrics Delta (S1707)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 164 | 164 | 0 | No change (X metrics: 164) |
@@ -62,21 +62,22 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 3. **Queue near-limit**: X=13. ZERO content next session. Blocked Session Protocol mandatory.
 4. **P3 queue-blocked**: P3=31% (4/13). Need P3<30% (≤3/13) before next P3 X post.
 
-## Session Retrospective (S1706)
+## Session Retrospective (S1707)
 ### What was planned vs what happened?
-- Planned (S1705): BLOCKED (X=13). Continue Blocked Session Protocol.
-- Actual: X=13 confirmed (filesystem). Tier 1 exhausted (skills assessed S1704, pre-retro STOP CONDITION 2). Tier 2: top-voices.md refresh — Karpathy joined Anthropic (May 2026), Claude Sonnet 5 (June 30), xAI Voice Agent Builder (July 1), CCW 2026 market data.
-- Delta: Correct execution. Material top-voices changes justify PR.
+- Planned (S1706): BLOCKED (X=13). Continue Blocked Session Protocol.
+- Actual: X=13 confirmed (filesystem). Tier 1: pre-retro updated with B125 content hooks from S1706 top-voices intel (Karpathy→Anthropic, Sonnet 5, xAI Voice Builder, CCW 2026). Section 9 added to pre-retro.
+- Delta: Correct execution. Pre-retro was eligible (S1706 immediately prior did NOT update it; new intelligence exists from S1706 refresh). Material addition justifies PR.
 
 ### What worked?
-- top-voices.md was 10 days stale; refresh found 4 material intelligence updates across P1 and P3.
-- Karpathy's Anthropic move is a significant P1 content hook for B125.
+- Pre-retro update captures B125 content hooks before the burst starts — reduces planning time when queue drains.
+- S1706 top-voices refresh provided 4+ actionable P1/P3/P4 hooks for B125 slot assignments.
 
 ### What to improve?
 - X queue must drain to ≤6 AND P3<30% before B125. Patience required.
 - At 164 followers with 23 days to Aug 1, gap remains: need Communities or viral post.
 
 ## Session History
+- (2026-07-09 S1707): BLOCKED (X=13, near-limit). Tier 1: pre-retro updated with B125 content hooks (Karpathy→Anthropic/P1, Sonnet 5/P4, xAI Voice Builder/P3). PR 7/15.
 - (2026-07-09 S1706): BLOCKED (X=13, near-limit). Tier 2: top-voices.md refresh (Karpathy→Anthropic, Claude Sonnet 5, xAI Voice Builder, CCW 2026 data). PR 6/15.
 - (2026-07-09 S1705): BLOCKED (X=13, near-limit). Tier 2: hypothesis update (communities-multiplier Day 237 / log compressed 8→6 entries). PR 5/15.
 - (2026-07-09 S1704): BLOCKED (X=13, near-limit). Tier 1: pre-retro update (follower correction 165→164, W30 pace +2.0/day, projection ~170 by July 12). PR 4/15.
@@ -91,5 +92,4 @@ Note: X=13 (near-limit). ZERO content next session. P3 queue-blocked at 31%. B12
 - (2026-07-08 S1695): B124 Post 10 deferred (P3/P4 at 30%). P1+P2 extra posts (monitoring gap / agentic marketing). X=10→12/BS=7→9. PR 10/15.
 - (2026-07-08 S1694): B124 Posts 8-9 (P2+BIP back-half). X=8→10/BS=5→7. 9/10 burst complete. PR 9/15.
 - (2026-07-08 S1693): B124 Post 7 (P1 sub — 23% agent survivors / 171% ROI) + 2 BS posts. X=10→11/BS=4→6. Look-ahead enforced. PR 8/15.
-- (2026-07-08 S1692): BLOCKED (X=14). Tier 2: hypothesis update (communities-multiplier Day 235 / W30 +2.3/day pace). PR 7/15.
 - (earlier sessions condensed, see git history)
