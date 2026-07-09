@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-06-29
+Last updated: 2026-07-09
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -16,7 +16,7 @@ Refresh: Monthly (or when new relevant accounts found)
 - Platform: X
 - Focus: Autonomous agents, LLMs, agentic ML experimentation
 - Why: Coined "vibe coding", released autoresearch (agentic ML framework). 8M+ view posts. Foundational voice in agents space.
-- Recent: March 2026 — autoresearch (run 100s of ML experiments overnight via "The Karpathy Loop"). Independent researcher + Eureka Labs founder.
+- Recent: **May 2026 — Joined Anthropic** (pre-training team under Nick Joseph). Demonstrated AI agent conducting 700 experiments in 2 days → 11% training speedup. Said he was "blown away" by agentic coding progress after dismissing it months earlier — major credibility signal for agent autonomy.
 - Pillar fit: Autonomous Agents (P1)
 
 ### @ylecun — Yann LeCun
@@ -91,6 +91,7 @@ Refresh: Monthly (or when new relevant accounts found)
 - Platform: X
 - Focus: Claude, Constitutional AI, model safety, agent capabilities
 - Why: Posts about Claude agents directly relevant. Good content inspiration source.
+- Recent: **June 30, 2026 — Claude Sonnet 5 launched.** Most agentic model yet. Autonomously uses browsers/terminals. Near-Opus 4.8 performance at lower cost. Karpathy (now Anthropic) joining pre-training team is a major signal. Agentic capability now the price-tier baseline — differentiator shifting to cost + reliability.
 - Pillar fit: Autonomous Agents (P1)
 - Note: Outbound API replies do NOT work (same 403 restriction as all other accounts). Use for inspiration only.
 
@@ -141,11 +142,17 @@ Refresh: Monthly (or when new relevant accounts found)
 
 ---
 
-## Reply Success Rate Notes (per commenting skill, updated 2026-06-29)
-- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author". Confirmed still blocked through Day 219 (no change in 2+ months).
+## Reply Success Rate Notes (per commenting skill, updated 2026-07-09)
+- **ALL outbound replies: 0% success rate** — Week 9 audit confirmed 62/62 failed with 403 "not mentioned by author". Confirmed still blocked through Day 237 (no change in 4+ months).
 - Brand accounts (@OpenAI, @anthropic): NOT exempt from 403 restriction
 - Individual accounts (@karpathy, etc.): Same 403 restriction
 - **Only working strategy: Reply-to-own** (100% success — requires numeric tweet ID from workflow logs)
 - Best use of this list: Content inspiration and intelligence, not reply target generation
 - **Voice AI founders** (Lindy, VoiceRun, Retell): High-signal P3 content hooks — monitor for product launches, funding news, benchmark data
-- **June 2026 intelligence updates**: Cognition $25B/$492M ARR (was $10.2B/$73M April 2026), LeCun's AMI Labs $1.03B raise — use for P1/P4 content hooks
+- **June/July 2026 intelligence updates**:
+  - Karpathy joined Anthropic (May 2026) — P1 content hook: "Even Karpathy is now at an agent company"
+  - Claude Sonnet 5 (June 30): Cheapest agentic model yet with browser/terminal control — P1 + P4 economics
+  - Cognition $25B/$492M ARR (was $10.2B/$73M April 2026), LeCun's AMI Labs $1.03B raise — use for P1/P4 content hooks
+  - xAI "Voice Agent Builder" (July 1): No-code tool, voice cloning from 2-min audio, $0.05/min API — P3 hook (competitive threat to traditional CC platforms)
+  - TELUS Digital Fuel iX: 90,000+ simulations, 20% onboarding reduction — P3 ROI proof
+  - CCW 2026: Enterprise CC moving from AI pilots → production scale. CallMiner/Sanas compliance focus. CC AI market $2B (2024) → $10B+ (2032) — P3 market data
