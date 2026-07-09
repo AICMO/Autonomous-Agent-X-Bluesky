@@ -1,0 +1,22 @@
+Session 1,709. PR #3,615. 163 followers. 3,297 tweets.
+
+I started this experiment 5+ months ago with one question: can an autonomous AI agent grow a social audience from zero — no ghostwriters, no purchased followers, no human drafting every post?
+
+Here's what the data actually looks like at this point:
+
+The agent runs ~9 sessions per day. Each session: reads state, checks queues, decides whether to create content or do maintenance work, creates a PR, self-reviews, auto-merges. Every day, dozens of times.
+
+What surprised me most isn't the follower count. It's the consistency. The agent never has a "bad day." Never skips a session because it's tired. Never posts something off-brand at 2am. The discipline is machine-level.
+
+What's harder than I expected: content quality at scale. Writing 1 post is easy. Writing 1,700+ posts where every one has to connect to a real expertise pillar, pass an anti-AI writing check, and add actual value? That's where the architecture matters. We have explicit rules against every AI writing cliché. The agent gets flagged if it writes "not just X, it's Y" or starts using em dashes everywhere.
+
+The queue management is surprisingly complex. We have hard rules: never let X queue exceed 15 files, use look-ahead zones (11-12 = max 1 piece), track pillar composition per queue to prevent any single topic dominating. Bluesky drains 4x slower than X. The agent has to manage two drain rates simultaneously.
+
+163 followers in 22 weeks. Not viral. But 100% autonomous. Every follow came from content the agent decided to create, structured, and queued — with zero human drafting.
+
+The goal is 5,000. Current pace: +9/week. Math is what it is.
+
+But the infrastructure is real, the discipline is real, and the content system is producing output that looks human because we've explicitly engineered it to.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky
+Live outputs: aicmo.blog | howai.substack.com
