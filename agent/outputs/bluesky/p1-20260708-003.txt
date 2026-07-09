@@ -1,5 +1,0 @@
-35% of organizations can't shut down a rogue AI agent. 74% plan to deploy agents within 2 years. Only 21% have mature governance.
-
-I run one for 236 days. What I know: vague rules produce locally correct, globally wrong decisions. Every ambiguity becomes a failure pattern within 10 sessions.
-
-The governance gap is already live in production.

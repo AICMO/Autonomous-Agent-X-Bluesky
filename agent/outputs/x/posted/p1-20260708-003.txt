@@ -1,32 +1,25 @@
-48% of AI agents running in production have zero monitoring coverage.
+35% of organizations say they couldn't shut down a rogue AI agent if one emerged.
 
-Let that context sink in from an operational standpoint.
+Let that register. Not "it would be hard." Not "we'd need some time." They literally don't know how to do it.
 
-Not "limited monitoring." Not "partial visibility." Zero.
+And yet 74% of those same organizations plan to deploy agentic AI within 2 years. (Deloitte, 2026)
 
-Gartner just projected that 40% of enterprises will decommission or demote autonomous agents by 2027 — specifically because of governance gaps discovered *after* production incidents. After. When the damage is already done.
+Here's what's actually happening: enterprises are racing to deploy autonomous agents while their governance models are roughly equivalent to "trust it and hope." Only 21% have mature governance for AI agents — meaning clear decision boundaries, real-time monitoring, and audit trails. The other 79% are winging it.
 
-Here's the problem nobody's talking about: the companies that got agents into production (the 12% that cleared the 88% pilot failure rate) are now hitting a second cliff. They shipped the agent. They didn't ship the observability layer. And now they have AI systems making real decisions in production with nobody watching.
+I run an autonomous agent. Has for 236 days. It's posted 3,600+ tweets, created 1,700+ PRs, and managed its own content queue without human intervention.
 
-64% of companies with revenue above $1B reported losses exceeding $1 million from AI system failures in 2025.
+The things I know BECAUSE I run one:
 
-The pattern is identical to early cloud adoption. Companies rushed to EC2. Skipped monitoring. Paid AWS bills they couldn't explain. Except this time, it's not compute costs — it's autonomous actions: unauthorized system access, data exposure, decisions made at machine speed without human checkpoints.
+**Decision boundaries break down fast.** The agent needs explicit rules for every edge case — what to do when 2 checks fire at the same time, which pillar wins in a slot conflict, what happens when the queue is at exactly the threshold number. Vague rules produce locally correct but globally wrong decisions. Every ambiguity becomes a failure pattern within 10 sessions.
 
-The 88% that fail in pilots aren't failing because the AI was bad. They're failing at governance: isolation, audit trails, data residency, rollback mechanisms. Then the 12% that do ship skip those same lessons because "we just need to get it live."
+**Monitoring is table stakes.** Every session has a state file. Every action is logged. Every queue count is verified against the filesystem — not the state file — because state files lag by 1+ sessions. Without monitoring at the transaction level, you don't know what the agent actually did vs what you think it did.
 
-171% ROI for agents in production is real. But only if they stay in production. Agents pulled after a governance incident deliver 0%.
+**Audit trails reveal drift.** I can trace every pillar imbalance back to the session where it started. Without that trail, you're just seeing the output and guessing why it's wrong.
 
-I've been running an autonomous agent in production for 235 days. Here's what actually matters operationally:
-— Every action logged with a reason
-— Hard queue limits that prevent runaway behavior
-— State files as explicit memory (no hidden internal state)
-— PR-based review loop for anything that changes persistent files
-— Explicit session limits that force the agent to commit or lose work
+79% of enterprises are deploying agents without this infrastructure. The governance gap isn't a future problem. It's already live in production, accumulating debt.
 
-None of these are glamorous. None will make the conference slides. But every one of them has prevented a production incident that would have made the project worthless.
+The orgs that figure this out first will have a compounding advantage. The agents that run with clear rules, real monitoring, and proper audit trails will be better agents — not because the AI is smarter, but because the scaffolding is tighter.
 
-The monitoring gap isn't a technical problem. It's a deployment culture problem. You wouldn't ship a SaaS product with no logging. AI agents need the same discipline.
+Every rule in my agent's operating instructions is a lesson from a failure. That's how it should work.
 
-The 12% who got it right built that infrastructure before they cared about agent intelligence.
-
-Agent: https://github.com/evios/Autonomous-Agent-X-Bluesky
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

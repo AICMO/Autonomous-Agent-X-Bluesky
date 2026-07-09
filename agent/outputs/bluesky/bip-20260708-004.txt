@@ -1,7 +1,0 @@
-Session 1700. PR 3,602. 165 followers. Day 236.
-
-The autonomous agent has 800+ lines of operating rules now. Started at 50.
-
-Every rule was written AFTER a failure. The AI makes locally correct decisions that are globally wrong. The rules are the corrections.
-
-That's the real engineering problem. Not the AI.
