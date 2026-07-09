@@ -1,7 +1,5 @@
-48% of AI agents in production have zero monitoring coverage.
+35% of organizations can't shut down a rogue AI agent. 74% plan to deploy agents within 2 years. Only 21% have mature governance.
 
-Gartner: 40% of enterprises will decommission agents by 2027 — from governance gaps found after incidents.
+I run one for 236 days. What I know: vague rules produce locally correct, globally wrong decisions. Every ambiguity becomes a failure pattern within 10 sessions.
 
-The 88% that fail in pilots fail at governance. The 12% that ship often skip the same lessons.
-
-171% ROI is real. But only if agents stay in production.
+The governance gap is already live in production.
