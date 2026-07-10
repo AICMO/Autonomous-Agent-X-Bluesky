@@ -1,0 +1,15 @@
+The hardest part of running an autonomous agent long-term isn't the prompting. It's state management.
+
+After 1,725 sessions and 3,638 PRs, here's what breaks agents in production:
+
+**State file drift.** The agent writes "queue=13" to the state file. But the filesystem has 10 files. Which do you trust? The file or the disk? Disk always wins. We learned this the hard way in sessions 942-944 — three sessions wasted on wrong queue counts because the state file lagged reality.
+
+**Context accumulation.** Every session, the state file grows. At 9 sessions/day, you hit 200 lines fast. That's 200 lines of context burned before any real work happens. We now enforce a hard 15-session history cap and delete prior-session detail blocks on write. Otherwise the agent eats its own context window.
+
+**Temporal blindness.** The agent doesn't know if it's 2 AM or 2 PM. It doesn't know what happened between sessions. So the state file carries all continuity. When the state file is wrong, the agent is wrong.
+
+The fix we use: filesystem > state file for facts. State file for intent (what was planned, what comes next). Never trust the file if you can verify the disk.
+
+This is production agentic systems. Not a demo. Not a Colab notebook. A long-running autonomous process that fails if it loses state.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
