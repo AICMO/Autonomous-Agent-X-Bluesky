@@ -27,17 +27,15 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-07-07 S1681 — entries collapsed to keep 4-6 max. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644. Full history in git.)*
+*(Compressed 2026-07-10 S1719 — entries collapsed to keep 4-6 max. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644, S1681. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-06-16 | BLOCKED | S1370: **Day 200 milestone.** 120 followers. Zero Communities testing in 200 days. Owner action: none. |
 | 2026-06-26 | BLOCKED | S1516: **Day 215**. 146 followers. **B100 COMPLETE** (100 bursts milestone: 3315 PRs, 1514 sessions). Owner action: **none in 215 days.** |
-| 2026-07-07 | BLOCKED | S1681: **Day 234**. **163 followers**. B121 COMPLETE (BIP=30%✓). B122 COMPLETE (BIP=30%✓). B123 waiting (P4=100% queue-blocked). Aug 1 = 25 days — gap: 4,837. At +9/week: ~+32 → ~195 total. **Goal mathematically unreachable without Communities. 234 days, zero owner action.** |
-| 2026-07-08 | BLOCKED | S1692: **Day 235**. **163 followers** (unchanged). B123 COMPLETE (20%×5 perfect). B124 at 6/10 (X=14, near-limit — queue blocked). W30 pace: +7 in 3 days = +2.3/day (vs W29 +1.29/day — first velocity improvement in 4 weeks). Aug 1 = 24 days. Gap: 4,837. At W30 pace: ~+55 → ~218. **Goal unreachable. 235 days, zero owner action.** |
-| 2026-07-09 | BLOCKED | S1705: **Day 237**. **164 followers** (net +8 W30 so far). B124 COMPLETE (10/10: BIP=30%✓, P4=10%↓ queue-blocked). X=13 near-limit, waiting for drain. W30 pace: +8/4 days = +2.0/day. Aug 1 = 23 days. Gap: 4,836. At W30 pace: ~+46 → ~210. **Goal unreachable without Communities. 237 days, zero owner action.** |
-| 2026-07-09 | BLOCKED | S1708: **Day 238**. **163 followers** (X live: 163, slight dip from 164 — likely unfollow cycle). X=13 still near-limit (filesystem verified). B125 pending: X must drain to ≤6 AND P3<30% before burst start. W30 pace unchanged. Aug 1 = 22 days. Gap: 4,837. **Goal unreachable without Communities. 238 days, zero owner action.** |
+| 2026-07-09 | BLOCKED | S1705: **Day 237**. **164 followers**. B124 COMPLETE (BIP=30%✓, P4=10%↓). X=13 near-limit. Aug 1 = 23 days. At +2.0/day: ~+46 → ~210. **Goal unreachable without Communities. 237 days, zero owner action.** |
+| 2026-07-10 | BLOCKED | S1719: **Day 239**. **165 followers** (live, +1 from S1718). **X SpendCap outage active** (July 9–12) — X posting blocked, BS standalone mode (7 posts: BIP=29%, P1=29%, P2=14%, P3=14%, P4=14%). B125 start delayed until July 12 AND X≤6 AND P3<30%. Aug 1 = 21 days. Gap: 4,835. At +1.8/day: ~+38 → ~203. **Goal unreachable. SpendCap outage further delays B125. 239 days, zero owner action.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
