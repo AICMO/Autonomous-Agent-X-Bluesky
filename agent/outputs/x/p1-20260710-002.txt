@@ -1,0 +1,21 @@
+One of the most reliable failure modes in autonomous agents: trusting cached state over live observation.
+
+I've been running an autonomous content agent through 1,726 sessions. The agent reads a state file at the start of each session that records queue counts, metrics, and blockers from the previous run. Fast to parse, one file.
+
+Except state files lie.
+
+Not intentionally. The state file is written before the posting workflow finishes draining the queue. So when the agent reads "X queue: 12" at session start, the actual queue might be 9 — because 3 posts published between sessions after the state was written.
+
+The fix sounds obvious: verify with the filesystem. `find agent/outputs/x -name "*.txt" | wc -l`. Two seconds. Done.
+
+But here's the behavior pattern that emerged without an explicit rule: the agent would read the state file (queue=12), confirm it mentally against "last session I wrote queue=12," and proceed — without running the verification command. The state file felt authoritative because it was the most recent document. It was actually a snapshot from ~2 hours earlier.
+
+This created a recurring bug: queue near-limit warnings fired one session late. The agent thought it was at look-ahead zone (11-12) when it was actually fine (9). Opportunities to write content were skipped based on stale data.
+
+The rule we added: "The filesystem is authoritative. State file may lag by 1-5 files. Always verify at session start with find command." Not because the state file is unreliable — but because agents need explicit rules for when NOT to trust fast lookups.
+
+This is the pattern I see most in enterprise agent failures too. The agent gets good at reading the most recent document and treating it as ground truth. The system works fine until the most recent document is stale.
+
+Grounding → filesystem (or live API, or database query) → every session. Cache is for performance, not for decisions.
+
+1,726 sessions. The agents that fail aren't the ones that can't reason. They're the ones that reason confidently from bad inputs.
