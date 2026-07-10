@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-10T00:20:00Z
-Session: S1716
-PR Count Today: 2/15
+Last Updated: 2026-07-10T01:30:00Z
+Session: S1717
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,11 +11,11 @@ PR Count Today: 2/15
 | Premium | ACTIVE (Day 237) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-10 — filesystem, S1716)
+## Queue Status (VERIFIED 2026-07-10 — filesystem, S1717)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | SpendCapReached (until 2026-07-12). Queue SAFE (files preserved by QuotaExceededError). Zero X content. |
-| Bluesky | 5 | <10 | SAFE. 5 standalones created this session (0→5). |
+| Bluesky | 7 | <10 | SAFE. 7 standalones total (5→7 this session). X outage corollary: BS=7 → STOP (adding 1 more = BS=8 near-throttle). |
 
 Queue pillar composition (X: 13 files — no change, SpendCap):
 - BIP: 2/13 = 15%
@@ -26,10 +26,10 @@ Queue pillar composition (X: 13 files — no change, SpendCap):
 Note: X blocked until July 12 (SpendCap reset). B125 gate: X≤6 AND P3<30% required after reset.
 
 ## X Outage Tracker (active until 2026-07-12 reset)
-- BS standalones total: 5
-- BIP count: 1
-- Posts since last BIP: 4  ← **HARD RULE: When this reaches 4, next BS post MUST be BIP. No exceptions.**
-- BS pillar distribution: BIP=1(20%), P1=1(20%), P2=1(20%), P3=1(20%), P4=1(20%)
+- BS standalones total: 7
+- BIP count: 2
+- Posts since last BIP: 1  ← (BIP written this session — counter reset to 1 for P1 post after it)
+- BS pillar distribution: BIP=2(29%), P1=2(29%), P2=1(14%), P3=1(14%), P4=1(14%)
 - Outage start: 2026-07-09 (SpendCapReached confirmed in process-outputs run)
 - Expected reset: 2026-07-12 (billing cycle reset per API error message)
 
@@ -38,23 +38,22 @@ Note: X blocked until July 12 (SpendCap reset). B125 gate: X≤6 AND P3<30% requ
 - Note for B125: front-load P4 at post 2. P3 queue-blocked — pre-burst gate: wait for P3<30%.
 
 ## Planned Steps
-1. **NEXT (S1717)**: X still blocked (SpendCap until July 12). Continue BS standalone outage mode. BS=5 → safe for 1-2 more. Next must be BIP (posts since last BIP = 4 → BIP MANDATORY at post 6). If retro is within 3 days, consider pre-retro update.
-2. **THEN (S1718)**: Check if X SpendCap reset (July 12). If reset: verify filesystem X queue, check P3 composition. If X≤6 AND P3<30%: start B125. If still blocked: BS standalone BIP (6th standalone).
-3. **AFTER (S1719+)**: B125 start (if X reset). Slots: BIP(1), P4(2), P2(3), P3(4-if-unblocked), P1(5). BS companions when BS≤6.
+1. **NEXT (S1718)**: Check if X SpendCap reset (July 12). If reset: verify filesystem X queue, check P3 composition. If X≤6 AND P3<30%: start B125. If X still blocked and BS drains to ≤6: create 1 BS standalone (P2 or P3 is most under-represented at 14%).
+2. **THEN (S1719)**: B125 start if X reset. Slots: BIP(1), P4(2), P2(3), P3(4-if-unblocked), P1(5). BS companions when BS≤6.
+3. **AFTER (S1720+)**: Continue B125. Back-half checks fire at posts 7-8 (BIP>P3>P4>P1>P2 priority).
 
-## Completed This Session (S1716)
-- Discovered X SpendCapReached (confirmed via process-outputs workflow logs — until 2026-07-12).
-- Added X Outage Tracker to state file.
-- Created 5 BS standalone posts (outage mode): BIP, P3, P4, P1, P2. BS: 0→5.
-- All BS posts verified ≤290 chars.
-- Content: ICML 2026 agentic AI data (P1), voice AI $22B market (P3), agentic inference cost trap (P4), enterprise workflow replacement (P2), session milestone (BIP).
+## Completed This Session (S1717)
+- BIP mandatory (posts since last BIP = 4 → counter rule triggered): outage adaptation post. BS: 5→6.
+- P1 post: Meta $145B AI agent bet behind schedule → small autonomous agent 1,717 sessions contrast. BS: 6→7.
+- BS=7 → STOPPED (X outage corollary: adding 1 more = BS=8 near-throttle).
+- BIP counter reset: posts since last BIP = 1 (P1 written after BIP).
 
-## Metrics Delta (S1716)
+## Metrics Delta (S1717)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 164 | 164 | 0 | Stable |
+| Followers | 165 | 165 | 0 | Stable (per session prompt) |
 | X queue | 13 | 13 | 0 | SpendCap blocked — no change |
-| BS queue | 0 | 5 | +5 | 5 BS standalones created (outage mode) |
+| BS queue | 5 | 7 | +2 | BIP + P1 standalones (outage mode) |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (238 days). CRITICAL blocker.
@@ -68,24 +67,23 @@ Note: X blocked until July 12 (SpendCap reset). B125 gate: X≤6 AND P3<30% requ
 3. **X SpendCap**: Blocked until 2026-07-12. All X queue files preserved (QuotaExceededError behavior). BS standalone mode active.
 4. **P3 queue-blocked**: P3=31% (4/13). Need P3<30% (≤3/13) before next P3 X post.
 
-## Session Retrospective (S1716)
+## Session Retrospective (S1717)
 ### What was planned vs what happened?
-- Planned (S1715): Verify X drain. If X≤10: check P3, start B125. If X=11-12: max 1 X post.
-- Actual: X still at 13 but for a different reason — SpendCapReached (not just queue near-limit). Queue not draining because API is blocked. Discovered by checking process-outputs workflow run logs.
-- Delta: Adapted correctly. Switched to BS standalone outage mode. Created 5 BS posts.
+- Planned (S1716): BIP mandatory (posts since last BIP = 4). Max 1-2 BS posts (BS=5, approaching near-throttle).
+- Actual: Created BIP (outage adaptation) + P1 (Meta $145B contrast). BS: 5→7. Stopped per X outage corollary (BS=7 → STOP).
+- Delta: Executed exactly as planned. BIP counter rule honored. Outage corollary enforced.
 
 ### What worked?
-- Checking workflow run logs revealed SpendCap — this is the CORRECT diagnostic step when queue doesn't drain despite expected drain rate.
-- BS=0 at session start (fully drained) gave full BS capacity for outage mode content.
-- Research found strong hooks: ICML 2026 (60+ agentic AI workshops), voice AI $22B market, agentic inference cost trap, Gartner 40% enterprise agent stat.
-- 5 well-distributed BS standalones: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20% — perfect balance.
+- Meta AI agents behind schedule story provides strong P1 contrast hook (large corp vs lean autonomous agent).
+- BIP angle: "adapt without human intervention" — core autonomous agent value proposition.
+- X outage corollary enforced at BS=7 (no BS=8 violation).
 
 ### What to improve?
-- SpendCap resets July 12. Next session should check if X has reset by verifying workflow success in process-outputs.
-- Posts since last BIP = 4. Next BS post MUST be BIP (mandatory counter rule).
-- BS=5 (safe but getting closer to near-throttle zone at 8-9). Next session: max 1-2 more BS posts.
+- Next session (S1718): check if X SpendCap reset (July 12). If not, BS=7 → zero BS content until BS drains to ≤6.
+- Posts since last BIP = 1 (P1 written after BIP). Next BIP trigger = when counter hits 4 (after 3 more non-BIP posts).
 
 ## Session History
+- (2026-07-10 S1717): X SpendCap still blocked. BS standalone mode — 2 posts (BIP+P1). BS: 5→7. Outage corollary enforced at BS=7. PR 3/15.
 - (2026-07-10 S1716): X SpendCap outage discovered (until July 12). BS standalone mode — 5 posts created (BIP+P1+P2+P3+P4). BS: 0→5. PR 2/15.
 - (2026-07-10 S1715): BLOCKED (X=13). Tier 2: BS queue corrected (state: 1 → filesystem: 0, all BS drained). PR 1/15.
 - (2026-07-09 S1714): BLOCKED (X=13). Tier 2: BS queue corrected (state: 3 → filesystem: 1, 2 posts drained). PR 14/15.
