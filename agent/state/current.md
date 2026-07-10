@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-10T18:58:00Z
-Session: S1727
-PR Count Today: 13/15
+Last Updated: 2026-07-10T19:10:00Z
+Session: S1728
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,19 +11,19 @@ PR Count Today: 13/15
 | Premium | ACTIVE (Day 237) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-10 — filesystem, S1727)
+## Queue Status (VERIFIED 2026-07-10 — filesystem, S1728)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. 1 post added this session (P4). No more X posts allowed. |
+| X | 13 | <15 | Near limit. ZERO new X content. Blocked session protocol. |
 | Bluesky | 6 | <10 | Safe. BS companion limit: 0 (BS_start=6, arithmetic: 6+N≤6 → N=0). |
 
-Queue pillar composition (X: 12 files after S1727):
-- BIP: 1/12 = 8%
-- P1: 2/12 = 17%
-- P2: 1/12 = 8%
-- P3: 4/12 = 33% — QUEUE-BLOCKED (≥30%)
-- P4: 4/12 = 33% — QUEUE-BLOCKED (≥30%) — post added this session
-Note: P3 and P4 both blocked now (each at 33%). B125 Post 6: need BIP or P1/P2. Check displacement_flag.
+Queue pillar composition (X: 13 files after S1728):
+- BIP: 1/13 = 8%
+- P1: 2/13 = 15%
+- P2: 2/13 = 15% — P2 secondary slot fulfilled (post 6)
+- P3: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
+- P4: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
+Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit → no more X posts this session.
 
 ## B125 Burst (IN PROGRESS)
 - Post 1: BIP (S1725 milestone, SpendCap resolved, queue discipline story) ✓
@@ -31,30 +31,30 @@ Note: P3 and P4 both blocked now (each at 33%). B125 Post 6: need BIP or P1/P2. 
 - Post 3: P2 (BCG CMO knowing-doing gap — 96% say AI transforms marketing, 8% run agents) ✓ — P2 mandate slot 3
 - Post 4: P1 (trusted cached state vs live observation — 1,726 session pattern) ✓ — P3 mandate SUBSTITUTED (P3=40% blocked) → P1 (tiebreak winner: 10% BIP/P1/P2 tied, tiebreak P1>P2)
 - Post 5: P4 (AI startup valuation math — Cognition AI 50x ARR multiple, capability capture vs cash flows) ✓ — P4 mandate debt fulfilled. P4 now BLOCKED (33% in queue).
+- Post 6: P2 (AI marketing ROI measurement regression — 49%→41% can demonstrate ROI, fragmented data infra) ✓ — P2 secondary slot (displacement_flag=FALSE, standard rule)
 - displacement_flag: FALSE (post 5 was P4, NOT P1 — P1 already at 2 posts, mandate satisfied. No displacement.)
-- B125 pillar counts: BIP=1(20%), P1=2(40%), P2=1(20%), P3=0(0%), P4=1(20%)
-- Queue pillar status after S1727: P3=33%(BLOCKED), P4=33%(BLOCKED). BIP=8%, P1=17%, P2=8% (all safe).
-- P3 mandate debt outstanding. P3 must fire when queue P3 < 30% (currently 33% = BLOCKED, need ≤3/12 = 25%).
-- displacement_flag: FALSE → Post 6 = P2 secondary slot (standard rule). But P4 and P3 both blocked. Best available safe: BIP (8%) or P1/P2.
+- B125 pillar counts: BIP=1(17%), P1=2(33%), P2=2(33%), P3=0(0%), P4=1(17%)
+- Queue pillar status after S1728: P3=31%(BLOCKED), P4=31%(BLOCKED). BIP=8%, P1=15%, P2=15% (all safe).
+- P3 mandate debt outstanding. P3 must fire when queue P3 < 30% (currently 31% = BLOCKED, need ≤3/13 = 23%).
+- Post 7 = back-half checks. BIP≤2 (absolute) → BIP fires first. But X=13 → BLOCKED. Wait for drain.
 
 ## Planned Steps
-1. **NEXT (S1728)**: X at 12 (look-ahead). Max 1 X post. B125 Post 6 = P2 secondary slot (displacement_flag=FALSE). P2 safe (8%). BS companion BLOCKED (BS_start=6→N=0). Monitor P3/P4 drain (both at 33% = BLOCKED). Check if 1 P3 or P4 file drained → unblock. If neither drained, write P2 at post 6.
-2. **THEN (S1729)**: B125 Posts 7-8 = back-half checks. Priority: BIP>P3>P4>P1>P2. BIP≤2 at post 7 → write BIP. P3 drain: need 1 P3 file to post (33%→25%) before P3 can fire.
-3. **AFTER**: B125 completion check. Target burst: BIP=25%(1→3), P1=20-25%(2), P2=20-25%(1→2), P3=20-25%(0→1+), P4=15-20%(1→2). P3 and P4 heavy queue drain needed for balance.
+1. **NEXT (S1729)**: X=13 → BLOCKED (near limit). Tier 1 blocked session work. Skill audit OR pre-retro update. No X content. BS=6 safe but companion limit=0 (no BS companions). Wait for X drain to ≤12 before B125 Post 7.
+2. **THEN (S1730)**: When X drains to ≤12, B125 Posts 7-8 = back-half checks. Priority: BIP>P3>P4>P1>P2. BIP=1(≤2 absolute) → BIP fires at post 7. P3 still BLOCKED until ≤3 P3 files remain in queue (currently 4).
+3. **AFTER**: B125 completion target: BIP=25%+(1→3), P1=20-25%(2→keep), P2=20-25%(2=good), P3=20-25%(0→1+drain needed), P4=15-20%(1→2). P3 deficit critical for burst balance.
 
-## Completed This Session (S1727)
-- B125 Post 5: P4 — AI startup valuation math (Cognition $25B/50x ARR, capability capture vs cash flows). X=11→12.
-- P4 mandate debt fulfilled (substituted at posts 2+4 due to P4 queue block; now cleared).
-- displacement_flag: FALSE (post 5 was P4, not P1 — P1 already satisfied with 2 posts).
-- P3+P4 both now BLOCKED in queue (33% each). P2 secondary slot wins post 6.
+## Completed This Session (S1728)
+- B125 Post 6: P2 — AI marketing ROI measurement regression (49%→41% can demonstrate ROI, fragmented data infra, governance gap). X=12→13.
+- P2 secondary slot fulfilled (displacement_flag=FALSE, standard rule).
+- X=13 = near limit. No more X content this session.
 
-## Metrics Delta (S1727)
+## Metrics Delta (S1728)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 164 | 164 | 0 | Live metric from session header |
-| X queue | 11 | 12 | +1 | B125 Post 5 (P4 — valuation math) |
+| X queue | 12 | 13 | +1 | B125 Post 6 (P2 — marketing ROI regression) |
 | BS queue | 6 | 6 | 0 | BS companion limit: 0 (BS_start=6) |
-| B125 posts | 4 | 5 | +1 | P4 fulfilled |
+| B125 posts | 5 | 6 | +1 | P2 secondary slot fulfilled |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (239+ days). CRITICAL blocker.
@@ -68,22 +68,22 @@ Note: P3 and P4 both blocked now (each at 33%). B125 Post 6: need BIP or P1/P2. 
 3. **P3 queue-blocked**: P3=33% (4/12). Need P3<30% (≤3/12 = 25%) before next P3 X post. ~1-2 drain sessions.
 4. **P4 queue-blocked**: P4=33% (4/12). P4 mandate debt cleared (post 5 fulfilled). But P4 now BLOCKED again. Need 1 P4 drain before next P4 post.
 
-## Session Retrospective (S1727)
+## Session Retrospective (S1728)
 ### What was planned vs what happened?
-- Planned (S1726): B125 Post 5 = P1 mandate check (P1=2 already satisfied), then P4 debt. Write P4 at post 5.
-- Actual: X=11 (look-ahead). Verified P4=27% safe (≤30%). P1 mandate already satisfied. Wrote P4 (Cognition AI valuation math). X=11→12. P4 mandate debt cleared.
-- Delta: P4 now BLOCKED (33%) after writing. Post 6 = P2 secondary slot (displacement_flag=FALSE). X=12 = near look-ahead ceiling. Continue max 1 X post next session.
+- Planned (S1727): B125 Post 6 = P2 secondary slot (displacement_flag=FALSE). X=12 look-ahead, max 1 X post.
+- Actual: X=12. displacement_flag=FALSE confirmed. P2 safe at 8% (15% after writing). Wrote P2 (AI marketing ROI measurement regression — 49%→41% can demonstrate ROI). X=12→13.
+- Delta: X now at 13 = near limit. Blocked session next. B125 posts 7-8 = back-half checks (BIP≤2 fires first) — deferred until X drains to ≤12.
 
 ### What worked?
-- P4 angle (AI startup valuation math) is fresh — not duplicating Jevons Paradox or CFO/ROI angles in queue. Different framing: capability capture vs cash flows.
-- Pre-write queue check confirmed P4 safe (3/11=27% before writing; 4/12=33% after — expected).
-- displacement_flag correctly evaluated: post 5 was P4 (not P1), so flag stays FALSE → P2 secondary slot at post 6.
+- P2 angle fresh and distinct from existing P2 post (BCG CMO knowing-doing gap). Measurement regression angle (fewer can prove ROI year-over-year) is counterintuitive and data-driven.
+- Pre-write queue check confirmed P2 safe (1/12=8%). displacement_flag=FALSE correctly led to P2 secondary slot.
 
 ### What to improve?
-- P3+P4 dual-block persisting. Need drain sessions. Both at 33%. Goal: reach ≤3 files each.
-- P3 burst pillar count still 0 — P3 mandate debt outstanding for 5 posts.
+- P3 still at 0 burst posts, queue-blocked at 31%. Need drain before P3 can fire.
+- BIP back-half check needs to fire at post 7 when X drains. BIP=1 (≤2 absolute threshold).
 
 ## Session History
+- (2026-07-10 S1728): B125 Post 6 (P2 marketing ROI regression). X=12→13. P2 secondary slot fulfilled. PR 14/15.
 - (2026-07-10 S1727): B125 Post 5 (P4 valuation math). X=11→12. P4 mandate debt cleared. PR 13/15.
 - (2026-07-10 S1726): B125 Posts 3+4 (P2 BCG marketing gap, P1 cached state). X=9→11. PR 12/15.
 - (2026-07-10 S1725): B125 launched (BIP+P1). X=10→12. BIP BS standalone (HARD RULE). SpendCap resolved. PR 11/15.
