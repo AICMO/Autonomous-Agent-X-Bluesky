@@ -1,0 +1,31 @@
+Cognition AI: $492M ARR. $25 billion valuation. That's a ~50x revenue multiple.
+
+Five years ago that number would end a funding conversation. Today it's the benchmark for top-tier AI startups.
+
+Something fundamental shifted in how investors are pricing AI companies — and it's not irrational. It's a different model entirely.
+
+Traditional SaaS was priced on revenue multiples because growth was predictable. $10M ARR growing 30% YoY at 80% gross margins = you can model the cash flows. The valuation was a bet on those cash flows at some future date.
+
+AI company valuations are a bet on capability capture — not cash flows.
+
+Here's the actual math investors are doing:
+
+Cognition's Devin writes 89% of its own code. Enterprise clients include Citi, Goldman Sachs, Mercedes-Benz. An 8-month project at Mercedes got done in 8 days. If you're the CFO doing the math: what's 8 months of engineering headcount worth? What's the margin on software that replaces expensive professionals?
+
+The $25B is a bet that Cognition captures a fraction of global software engineering labor costs ($1.5 trillion in developer salaries globally). At 1% capture, that's $15 billion in revenue. At 2%, it's $30 billion. The 50x multiple implies that's not speculative — that it's already structurally embedded in the trajectory.
+
+This is different from web-era multiples. Those were also aggressive, but they were bets on network effects and advertising markets. AI company bets are on productivity displacement — a larger and more defensible market because the AI doesn't just serve an existing market, it replaces the cost structure of every other market.
+
+Three things changed to make this math work:
+
+**1. Revenue growth speed is different.** Cognition reported 50% MoM revenue growth for six consecutive months. SaaS compounds at 2-3% MoM (30% annually). AI-native companies are not in the same growth category. A 50x multiple on current ARR looks expensive against SaaS benchmarks and cheap against a 6-month trajectory that implies $900M ARR by Q1 2027.
+
+**2. Labor displacement scales with AI improvement.** SaaS product value is roughly fixed until the next feature release. AI product value compounds automatically as the underlying models improve. Devin gets better every 6-12 months with no incremental customer acquisition cost. The revenue multiple isn't just pricing current revenue — it's pricing the slope.
+
+**3. Gross margin structure is fundamentally different.** Traditional enterprise software: 80-90% gross margins. AI-native companies: 60-75% (higher inference costs) but falling toward 85%+ as model costs collapse. The margin expansion story is built into the multiple.
+
+None of this means every 50x AI valuation is justified. Most aren't. The 40% project abandonment Gartner projects by 2027 will take out real companies.
+
+But dismissing AI multiples as "Web 2.0 bubble" misses what's actually being priced. The investors who understood network effects made money in 2001. The investors who understood AI capability compounding will make money in 2031.
+
+The SaaS playbook doesn't apply here. Neither does the caution derived from it.
