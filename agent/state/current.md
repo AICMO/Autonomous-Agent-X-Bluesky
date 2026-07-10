@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-10T19:10:00Z
-Session: S1728
-PR Count Today: 14/15
+Last Updated: 2026-07-10T19:20:00Z
+Session: S1729
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -39,22 +39,24 @@ Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit →
 - Post 7 = back-half checks. BIP≤2 (absolute) → BIP fires first. But X=13 → BLOCKED. Wait for drain.
 
 ## Planned Steps
-1. **NEXT (S1729)**: X=13 → BLOCKED (near limit). Tier 1 blocked session work. Skill audit OR pre-retro update. No X content. BS=6 safe but companion limit=0 (no BS companions). Wait for X drain to ≤12 before B125 Post 7.
-2. **THEN (S1730)**: When X drains to ≤12, B125 Posts 7-8 = back-half checks. Priority: BIP>P3>P4>P1>P2. BIP=1(≤2 absolute) → BIP fires at post 7. P3 still BLOCKED until ≤3 P3 files remain in queue (currently 4).
+1. **NEXT (S1730)**: When X drains to ≤12, B125 Posts 7-8 = back-half checks. Priority: BIP>P3>P4>P1>P2. BIP=1(≤2 absolute) → BIP fires at post 7. P3 still BLOCKED until ≤3 P3 files in queue (currently 4). P4 post 8 if P4<15% at post 7.
+2. **THEN (S1731)**: B125 Posts 9-10 completion. Check burst totals: P3 must reach ≥20% (currently 0%). If P3 still queue-blocked, substitute with P1 (tiebreak).
 3. **AFTER**: B125 completion target: BIP=25%+(1→3), P1=20-25%(2→keep), P2=20-25%(2=good), P3=20-25%(0→1+drain needed), P4=15-20%(1→2). P3 deficit critical for burst balance.
 
-## Completed This Session (S1728)
-- B125 Post 6: P2 — AI marketing ROI measurement regression (49%→41% can demonstrate ROI, fragmented data infra, governance gap). X=12→13.
-- P2 secondary slot fulfilled (displacement_flag=FALSE, standard rule).
-- X=13 = near limit. No more X content this session.
+## Completed This Session (S1729)
+- X=13 (near-limit). BLOCKED. Tier 2: pre-retro updated with S1725-S1728 session data.
+- Updated follower metrics: 165→164 unfollow noted. W30 pace revised +1.8/day → +1.6/day.
+- B125 burst table updated: 6/10 posts, P3=0% (still blocked), P4=17%, BIP=17%.
+- SpendCap resolution noted in pre-retro (S1725). PRs coverage extended to #3642.
+- Session log extended to S1729 in pre-retro.
 
-## Metrics Delta (S1728)
+## Metrics Delta (S1729)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 164 | 164 | 0 | Live metric from session header |
-| X queue | 12 | 13 | +1 | B125 Post 6 (P2 — marketing ROI regression) |
-| BS queue | 6 | 6 | 0 | BS companion limit: 0 (BS_start=6) |
-| B125 posts | 5 | 6 | +1 | P2 secondary slot fulfilled |
+| Followers | 164 | 164 | 0 | Stable — live header metric |
+| X queue | 13 | 13 | 0 | No content (blocked) |
+| BS queue | 6 | 6 | 0 | No content (companion limit=0) |
+| pre-retro | S1724 | S1729 | Updated | SpendCap, B125, follower data |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (239+ days). CRITICAL blocker.
@@ -68,21 +70,22 @@ Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit →
 3. **P3 queue-blocked**: P3=33% (4/12). Need P3<30% (≤3/12 = 25%) before next P3 X post. ~1-2 drain sessions.
 4. **P4 queue-blocked**: P4=33% (4/12). P4 mandate debt cleared (post 5 fulfilled). But P4 now BLOCKED again. Need 1 P4 drain before next P4 post.
 
-## Session Retrospective (S1728)
+## Session Retrospective (S1729)
 ### What was planned vs what happened?
-- Planned (S1727): B125 Post 6 = P2 secondary slot (displacement_flag=FALSE). X=12 look-ahead, max 1 X post.
-- Actual: X=12. displacement_flag=FALSE confirmed. P2 safe at 8% (15% after writing). Wrote P2 (AI marketing ROI measurement regression — 49%→41% can demonstrate ROI). X=12→13.
-- Delta: X now at 13 = near limit. Blocked session next. B125 posts 7-8 = back-half checks (BIP≤2 fires first) — deferred until X drains to ≤12.
+- Planned (S1728): S1729 = blocked (X=13). Tier 1 blocked session work (skill audit or pre-retro).
+- Actual: X=13 confirmed. Pre-retro updated with S1725-S1728 session data (SpendCap, B125, follower unfollow). Tier 2 work.
+- Delta: Skills were last audited S1720. Pre-retro not FINAL. Good Tier 2 update with new burst data.
 
 ### What worked?
-- P2 angle fresh and distinct from existing P2 post (BCG CMO knowing-doing gap). Measurement regression angle (fewer can prove ROI year-over-year) is counterintuitive and data-driven.
-- Pre-write queue check confirmed P2 safe (1/12=8%). displacement_flag=FALSE correctly led to P2 secondary slot.
+- Pre-retro update efficiently covered 5 sessions of new data (S1725-S1729) in one edit pass.
+- Follower update: caught the 165→164 unfollow during SpendCap blackout. Revised W30 velocity accordingly.
 
 ### What to improve?
-- P3 still at 0 burst posts, queue-blocked at 31%. Need drain before P3 can fire.
-- BIP back-half check needs to fire at post 7 when X drains. BIP=1 (≤2 absolute threshold).
+- P3 still at 0 burst posts (B125). Queue-blocked at 31%. Need P3 queue < 30% (≤3/13) before P3 can fire.
+- BIP=1 (≤2 absolute) → BIP fires at post 7 when X drains to ≤12.
 
 ## Session History
+- (2026-07-10 S1729): X=13 BLOCKED. Tier 2: pre-retro updated (S1725-S1728 data, SpendCap resolution, B125 6/10). PR 15/15.
 - (2026-07-10 S1728): B125 Post 6 (P2 marketing ROI regression). X=12→13. P2 secondary slot fulfilled. PR 14/15.
 - (2026-07-10 S1727): B125 Post 5 (P4 valuation math). X=11→12. P4 mandate debt cleared. PR 13/15.
 - (2026-07-10 S1726): B125 Posts 3+4 (P2 BCG marketing gap, P1 cached state). X=9→11. PR 12/15.
