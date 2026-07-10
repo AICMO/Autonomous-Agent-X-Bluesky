@@ -1,0 +1,7 @@
+95% of AI marketing projects fail to deliver ROI.
+
+The 5% that win share one trait: they measured against pre-AI baselines before launching.
+
+No baseline = no proof = project killed at review.
+
+Set the baseline first. The AI can wait a week.
