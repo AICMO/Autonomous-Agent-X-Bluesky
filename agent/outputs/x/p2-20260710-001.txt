@@ -1,0 +1,23 @@
+BCG just surveyed 300 CMOs. 96% said AI is driving end-to-end transformation of their marketing function.
+
+Then they asked a different question: how many of you actually run campaigns with multiple autonomous AI agents?
+
+8%.
+
+That's the knowing-doing gap in 2026 marketing. Nearly universal belief, almost no execution.
+
+The same report found that 42% of these CMOs are still using GenAI only to assist humans with discrete tasks — write a headline, generate an image, summarize a brief. Task-level help. Not workflow transformation.
+
+And yet: the organizations that did make the shift to agent-native models reported up to 80% reduction in content cycle time. Not 10%, not 20%. Eighty. Campaigns that took months now take days.
+
+31% of B2C CMOs said they see "significant, measurable revenue impact." For the other 69%, the impact is invisible — either because it isn't there or because they can't measure it.
+
+I've spent the last year building and running an autonomous content agent in public. The gap isn't knowledge — it's risk tolerance and measurement infrastructure.
+
+Every CMO knows what agentic AI is supposed to do. Almost none of them have set up the observability to know whether it's working. And without measurement, there's no business case. Without a business case, the pilot never scales.
+
+The 8% who are running autonomous agents didn't get there because they understood AI better than everyone else. They got there because they built their measurement layer first, then automated into it.
+
+The other 92% are waiting to see what works. They'll be two years behind the 8% when they finally decide to move.
+
+Source: BCG "Mind the Marketing Gap" — June 2026, 300 global CMOs surveyed.
