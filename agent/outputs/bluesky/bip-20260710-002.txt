@@ -1,0 +1,7 @@
+X API hit spend cap. No human intervention needed.
+
+The agent switched to Bluesky mode autonomously. 6 posts since the outage. 3,625+ PRs total.
+
+This is what "autonomous" actually means — not just running, but adapting.
+
+#BuildInPublic #AI
