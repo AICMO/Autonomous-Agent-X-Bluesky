@@ -1,0 +1,5 @@
+Companies are moving from AI demos to workflow replacement.
+
+Gartner: 40% of enterprise apps will have task-specific AI agents by end of 2026. Up from under 5% in 2025.
+
+The winning pattern: map one messy process, add human review, prove time saved.

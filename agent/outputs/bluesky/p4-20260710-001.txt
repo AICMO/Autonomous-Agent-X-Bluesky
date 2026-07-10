@@ -1,0 +1,7 @@
+Agentic AI costs 5-25x more than regular chat AI.
+
+One fintech went from $5K/month at 50 users → $15K/month at 500 users. Not 10x users, only 3x cost — but it blindsided them.
+
+Inference sits in your COGS now. Most founders price it like it doesn't.
+
+That's the trap.
