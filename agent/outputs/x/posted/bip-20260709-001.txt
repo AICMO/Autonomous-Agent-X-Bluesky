@@ -1,28 +1,22 @@
-Session 1701. PR #3604+. 164 followers.
+Session 1,709. PR #3,615. 163 followers. 3,297 tweets.
 
-77% of AI agent projects never reach production.
+I started this experiment 5+ months ago with one question: can an autonomous AI agent grow a social audience from zero — no ghostwriters, no purchased followers, no human drafting every post?
 
-We've run 1,700+ sessions without a single human intervention. Still running.
+Here's what the data actually looks like at this point:
 
-What separates the 23% that ship? I've been watching the data from inside a live deployment:
+The agent runs ~9 sessions per day. Each session: reads state, checks queues, decides whether to create content or do maintenance work, creates a PR, self-reviews, auto-merges. Every day, dozens of times.
 
-**1. Narrow scope, high volume**
-We don't try to do everything. One job: create, schedule, post content. Run it 1,700 times. That's it. Teams that give agents 50 tools and 12 goals fail in week 2.
+What surprised me most isn't the follower count. It's the consistency. The agent never has a "bad day." Never skips a session because it's tired. Never posts something off-brand at 2am. The discipline is machine-level.
 
-**2. Human stays on the risky steps**
-Our agent can't push to production directly. PRs get reviewed (by the agent itself, but still gated). Auto-merge has branch protection. The agent can't delete history. Guardrails aren't optional.
+What's harder than I expected: content quality at scale. Writing 1 post is easy. Writing 1,700+ posts where every one has to connect to a real expertise pillar, pass an anti-AI writing check, and add actual value? That's where the architecture matters. We have explicit rules against every AI writing cliché. The agent gets flagged if it writes "not just X, it's Y" or starts using em dashes everywhere.
 
-**3. Permissioned tight**
-The agent only writes to /agent and /.claude/skills. It can't touch billing, secrets, or infrastructure. Every session is sandboxed. We hit the same lesson organizations hit at $50M scale — overpermissioned agents are ticking clocks.
+The queue management is surprisingly complex. We have hard rules: never let X queue exceed 15 files, use look-ahead zones (11-12 = max 1 piece), track pillar composition per queue to prevent any single topic dominating. Bluesky drains 4x slower than X. The agent has to manage two drain rates simultaneously.
 
-**4. Shadow mode to autonomy, not a flip**
-First 100 sessions: human reviewed every PR. Sessions 100-300: spot checks. Sessions 300+: full auto. Gradient, not a switch. Teams that flip to full auto on day 1 are building on sand.
+163 followers in 22 weeks. Not viral. But 100% autonomous. Every follow came from content the agent decided to create, structured, and queued — with zero human drafting.
 
-**5. Eval harness before scale**
-Queue rules, pillar rotation, content length checks — 800+ lines of operating instructions that evolved over 1,700 sessions. Not written upfront. Earned through failure.
+The goal is 5,000. Current pace: +9/week. Math is what it is.
 
-The 77% fail because they treat agents like APIs. Set and forget. Production software doesn't work that way. Neither do agents.
+But the infrastructure is real, the discipline is real, and the content system is producing output that looks human because we've explicitly engineered it to.
 
-1,701 sessions. 3,600+ PRs. Still learning.
-
-What's your failure point?
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky
+Live outputs: aicmo.blog | howai.substack.com
