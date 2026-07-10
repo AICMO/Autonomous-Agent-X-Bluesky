@@ -1,0 +1,7 @@
+ICML 2026: 23,918 paper submissions. 60+ workshops on agentic AI.
+
+From 247 workshops, "agentic AI" appeared in nearly 1 in 4 proposals.
+
+A year ago this was a niche. Now it's the center of every serious ML conference.
+
+The research community has voted.
