@@ -1,0 +1,9 @@
+GPT-4-class inference: $20/million tokens in 2022 → $0.40 in 2026.
+
+1,000x cost drop in 3 years.
+
+But agentic AI uses 10-20 LLM calls per task. Startups are spending the savings and more.
+
+Inference costs eat 40-60% of revenue for many AI companies.
+
+Cheaper models ≠ cheaper products.
