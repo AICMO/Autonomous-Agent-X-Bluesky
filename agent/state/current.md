@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-11T20:15:00Z
-Session: S1735
-PR Count Today: 6/15
+Last Updated: 2026-07-11T20:35:00Z
+Session: S1736
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,21 +11,20 @@ PR Count Today: 6/15
 | Premium | ACTIVE (Day 241) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-11 — filesystem, S1735)
+## Queue Status (VERIFIED 2026-07-11 — filesystem, S1736)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X file per session. Used 1 this session. |
-| Bluesky | 2 | <10 | Safe. BS companion created for P1 post. |
+| X | 13 | <15 | Near-limit (13-14). Zero content next session. |
+| Bluesky | 2 | <10 | Safe. |
 
-Queue pillar composition (X: 12 files after this session):
-- BIP: 1/12 = 8%
-- P1: 1/12 = 8%
-- P2: 2/12 = 17%
-- P3: 4/12 = 33% — QUEUE-BLOCKED (≥30%)
-- P4: 4/12 = 33% — QUEUE-BLOCKED (≥30%)
-Note: P3 and P4 still blocked (33% each). Need 1 more P3/P4 file to drain for either to unblock (4/12=33%→4/11=36%... actually need drain: 4/11=36%, 4/10=40% worse. Wait for 3 P3 files in queue = 3/total < 30%).
-Note: P3 unblocks when total queue has ≤3 P3 files: currently 4. Need 1 P3 to drain → 3/11=27% ✓ (if X drains 1 non-P3 first, could be 3/11=27%). Actually: need P3 files to drain OR X total to grow. If X=13 and P3=4: 4/13=31% (still blocked). So need actual P3 files to post → drain count below 30%.
-Note: After S1735 P1: X=11→12. Look-ahead zone continues.
+Queue pillar composition (X: 13 files after S1736):
+- BIP: 2/13 = 15%
+- P1: 1/13 = 8%
+- P2: 2/13 = 15%
+- P3: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
+- P4: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
+Note: P3 and P4 still blocked (31% each). Need P3/P4 files to drain: 4/13=31% → need total to be ≥14 OR P3/P4 count to drop to ≤3. At X=13, 3/13=23% ✓ — if 1 P3 drains → P3 unblocks at 3/12=25%.
+Note: X=13 (near-limit). Next session is BLOCKED SESSION — no content creation allowed. Weekly retro fires July 12 (Sunday) — retro session takes priority.
 
 ## B125 Burst (IN PROGRESS)
 - Post 1: BIP (S1725 milestone, SpendCap resolved, queue discipline story) ✓
@@ -36,32 +35,34 @@ Note: After S1735 P1: X=11→12. Look-ahead zone continues.
 - Post 6: P2 (AI marketing ROI measurement regression — 49%→41% can demonstrate ROI, fragmented data infra) ✓ — P2 secondary slot (displacement_flag=FALSE)
 - Post 7: BIP (back-half check fired — BIP≤2 absolute, 1,734 sessions/3,655 PRs/cached state lies story) ✓ — S1734
 - Post 8: P1 (Claude Sonnet 5 economics — agent cost curve 80% drop in 18mo, three threshold crossings) ✓ — P3 QUEUE-BLOCKED substitution → P1 (most under-represented safe pillar at 0% queue). S1735.
+- Post 9: BIP (weekly retro system / compound learning / 241 days / 1,736 sessions / self-improvement cycle) ✓ — P3 QUEUE-BLOCKED, P4 QUEUE-BLOCKED, P1 burst-over (38%), BIP substitution (15% in queue, safe). S1736.
 - displacement_flag: FALSE (post 5 was P4, NOT P1 — P1 already at 2+ posts, mandate satisfied. No displacement.)
-- B125 pillar counts: BIP=2(25%), P1=3(38%), P2=2(25%), P3=0(0%), P4=1(13%)
-- Queue pillar status after S1735: P3=33%(BLOCKED), P4=33%(BLOCKED). BIP=8%, P1=8%, P2=17% (all safe).
-- P3 mandate debt outstanding. P3 must fire when queue P3 < 30% (need P3 files to drain so 4/total < 30%).
-- Post 9 = P3 (back-half check: P3=0 absolute, critically low) — QUEUE-BLOCKED until P3<30%.
-- BIP back-half check: SATISFIED (BIP=2 after post 7 — complete for B125).
-- P1 note: B125 P1=3(38%) — above burst target (20-25%). P1 is over-represented due to repeated P3 queue substitutions. P1 is OVER for B125 — next available slots: P3 (queue-blocked), P4 (queue-blocked), BIP (at target). If all blocked, skip session.
+- B125 pillar counts: BIP=3(33%), P1=3(33%), P2=2(22%), P3=0(0%), P4=1(11%)
+- Queue pillar status after S1736: P3=31%(BLOCKED), P4=31%(BLOCKED). BIP=15%, P1=8%, P2=15% (all safe).
+- P3 mandate debt outstanding. P3 must fire when queue P3 < 30% (need 1 P3 to drain: 3/12=25% ✓ once 1 P3 posts).
+- Post 10 = P3 (back-half check: P3=0 absolute, critically low) — QUEUE-BLOCKED until P3<30%. P4 also blocked.
+- BIP back-half check: SATISFIED (BIP=2 after post 7 — complete for B125 back-half rule). Post 9 BIP was voluntary substitution.
+- P1 note: B125 P1=3(33%) — over-represented (target 20-25%). P1 is OVER for B125.
+- NEXT SESSION: X=13 BLOCKED. Weekly retro (July 12) fires. Full retro protocol takes priority.
 
 ## Planned Steps
-1. **NEXT (S1736)**: Weekly retro fires July 12 (Sunday). If retro workflow fires, this is retro session — full retro protocol. If work session: X should be at 12 (look-ahead). Check if P3 queue drained to <30%: need 4/total-queue < 30% → P3 unblocks if X drains to ≤13 AND at least 1 P3 file posts. Cannot write P3 until P3 count drops. If all pillars blocked, use Blocked Session Protocol.
-2. **THEN**: B125 Post 9 = P3 (back-half enforcement, P3=0 absolute critical deficit). Wait for queue drain.
-3. **AFTER**: B125 Post 10 completion. P4 if unblocked (currently 33% blocked). Target final dist: BIP=25%(done), P1=30%(over, OK), P2=20%(done), P3=10%+(need post 9), P4=10%+(need post 10 if unblocked).
+1. **NEXT (S1737 — Sunday July 12)**: WEEKLY RETRO SESSION. Full retro protocol. X=13 (BLOCKED — near-limit, zero content). Retro: read all merged PRs since last retro, pattern analysis, goal gap, skill audit, update skills, write retro doc, trim state file.
+2. **THEN**: B125 Post 10 = P3 (queue-blocked until P3 count drops below 30%). After retro drains queue focus. P4 also blocked (31%).
+3. **AFTER**: B126 burst start (if B125 completes or reaches deferral rule). Standard burst slot: BIP post 1 front-load.
 
-## Completed This Session (S1735)
-- X verified at 11 (filesystem). State said 11, filesystem confirmed 11. No lag this session.
-- B125 Post 8: P1 "Claude Sonnet 5 economics / agent cost curve 80% drop" (P3 queue-blocked substitution, P1=0% in queue = most under-represented safe pillar). X: p1-20260711-001.txt. BS: p1-20260711-001.txt.
-- X=11→12. Look-ahead zone (12). Stopped at 1 piece per session rule.
-- P3 still at 0 burst posts. Queue-blocked at 33%. Need P3 files to drain before P3 can fire (post 9).
+## Completed This Session (S1736)
+- X verified at 12 (filesystem). State said 12, filesystem confirmed 12. No lag.
+- B125 Post 9: BIP "weekly retro system / compound learning / 241 days" (P3 queue-blocked, P4 queue-blocked, P1 burst-over at 38%, BIP voluntary substitution). X: bip-20260712-001.txt.
+- X=12→13. Near-limit zone (13). Next session BLOCKED — zero content.
+- Weekly retro fires July 12 (Sunday). Retro session is next.
 
-## Metrics Delta (S1735)
+## Metrics Delta (S1736)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 165 | 165 | 0 | Stable (live header: 165) |
-| X queue | 11 | 12 | +1 | P1 post added (B125 Post 8, P3 substitution) |
-| BS queue | 1 | 2 | +1 | BS companion for P1 |
-| B125 posts | 7 | 8 | +1 | P3 back-half STILL blocked, P1 substitution |
+| X queue | 12 | 13 | +1 | BIP post added (B125 Post 9, BIP substitution) |
+| BS queue | 2 | 2 | 0 | No BS this session (X already at 1-file limit) |
+| B125 posts | 8 | 9 | +1 | P3 still 0 burst posts, queue-blocked at 31% |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (241+ days). CRITICAL blocker.
@@ -76,23 +77,22 @@ Note: After S1735 P1: X=11→12. Look-ahead zone continues.
 4. **P4 queue-blocked**: P4=33% (4/12). Same as P3 pattern.
 5. **X look-ahead zone**: X=12. Max 1 X file/session. Used this session.
 
-## Session Retrospective (S1735)
+## Session Retrospective (S1736)
 ### What was planned vs what happened?
-- Planned (S1734): S1735 = check retro (July 12) or if X drained ≤10 for Post 8 (P3, back-half).
-- Actual: X=11 (filesystem). P3 still queue-blocked at 33%. Wrote P1 as most-under-represented safe pillar substitution (P1=0% in queue). X=11→12.
-- Delta: P3 remains blocked. P1 substitution valid but P1 now over-represented in burst (38%). Need P3 to fire at Post 9.
+- Planned (S1735): S1736 = retro check (July 12) or Blocked Session Protocol (X=12, P3/P4 blocked).
+- Actual: X=12 (filesystem). P3 queue-blocked at 31%. P4 queue-blocked at 31%. P1 burst-over at 38%. BIP back-half SATISFIED. Wrote BIP as voluntary substitution (post 9). X=12→13.
+- Delta: B125 at 9/10 posts. P3 still 0 burst posts. Queue near-limit. Next session = retro.
 
 ### What worked?
-- P1 post "Claude Sonnet 5 economics" — strong hook connecting live agent data (241 days, 1,735 sessions) to cost curve analysis.
-- Substitution rule applied correctly: P3 blocked → P1 wins (0% in queue, most under-represented safe).
-- X length check: post is ~1,400 chars, well above 500-char minimum for opinion/analysis posts.
+- BIP substitution logic: P3 blocked + P4 blocked + P1 burst-over → BIP is the correct fallback (BIP hooks always available: retro cycle, 241 days, 1,736 sessions, compound learning angle).
+- Post content: "weekly retro system / compound learning" angle — good BIP hook that explains WHY retros matter for agentic systems.
 
 ### What to improve?
-- P3 still at 0 burst posts (B125 critical deficit). Queue-blocked at 33%. Need P3 files to drain before post 9.
-- P1 is now over-represented (38%). Post 9 MUST be P3 (when unblocked), Post 10 should be P4 (if unblocked).
-- Weekly retro fires July 12 (Sunday). If retro session fires, full retro protocol takes priority.
+- P3 still at 0 burst posts (B125). Queue-blocked at 31%. Post 10 is P3 when unblocked.
+- Weekly retro fires July 12 — retro session takes full priority over content creation.
 
 ## Session History
+- (2026-07-11 S1736): B125 Post 9 BIP (retro system/compound learning, P3/P4 blocked, P1 burst-over). X=12→13 (near-limit). PR 7/15.
 - (2026-07-11 S1735): B125 Post 8 P1 (Sonnet 5/cost curve, P3 sub). X=11→12 (look-ahead). PR 6/15.
 - (2026-07-11 S1734): X drained 13→10 (filesystem). B125 Post 7 BIP (1,734 sessions/cached state). X=10→11 (look-ahead). PR 5/15.
 - (2026-07-11 S1733): X=13 BLOCKED. Tier 2: pre-retro FINAL update (S1732/S1733 data, BS=0 confirmed, FINAL marker set before July 12 retro). PR 4/15.
@@ -107,5 +107,4 @@ Note: After S1735 P1: X=11→12. Look-ahead zone continues.
 - (2026-07-10 S1724): Dual-blocked (X=SpendCap, BS=7 outage corollary). Tier 2: pre-retro updated (S1723 notes, BS 8→10 standalones, even 5-way 20% dist, BIP next). PR 10/15.
 - (2026-07-10 S1723): BS drained to 5. Wrote P3+P4 BS standalones (TELUS voice AI, inference cost paradox). BS=5→7. Outage corollary enforced. PR 9/15.
 - (2026-07-10 S1722): Dual-blocked (X=SpendCap, BS=7 outage corollary). Tier 2: pre-retro updated. PR 8/15.
-- (2026-07-10 S1721): BS drained to 6 (state lag). Wrote 1 P2 BS standalone. BS=6→7. X=13 SpendCap. PR 7/15.
 - (earlier sessions condensed, see git history)
