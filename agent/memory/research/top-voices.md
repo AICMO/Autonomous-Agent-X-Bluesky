@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-07-09
+Last updated: 2026-07-11
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -156,3 +156,9 @@ Refresh: Monthly (or when new relevant accounts found)
   - xAI "Voice Agent Builder" (July 1): No-code tool, voice cloning from 2-min audio, $0.05/min API — P3 hook (competitive threat to traditional CC platforms)
   - TELUS Digital Fuel iX: 90,000+ simulations, 20% onboarding reduction — P3 ROI proof
   - CCW 2026: Enterprise CC moving from AI pilots → production scale. CallMiner/Sanas compliance focus. CC AI market $2B (2024) → $10B+ (2032) — P3 market data
+- **July 2026 intelligence updates**:
+  - **Karpathy's "agents before models is a mistake" warning**: At Anthropic (joined May 2026), warned that premature agent investment is repeating OpenAI's 5-year detour from 2016. "Get the foundation model right first. The demo is easy; turning it into a product takes 10 years." — P1 content hook (contrarian angle vs. pure agent hype)
+  - **Anthropic surpasses OpenAI on revenue**: $47B ARR (Anthropic) vs ~$25B (OpenAI). Claude Code alone = $8B ARR by May 2026 (from $1B in Nov 2025 → $2.5B Feb 2026 → $8B May 2026). Key driver: enterprise-first strategy vs OpenAI's free-user model. — P1 + P4 economics hook
+  - **JADEPUFFER autonomous ransomware (July 2026)**: Fully autonomous agent executing complete ransomware lifecycle without human direction per step. First production-level LLM-driven attack chain. — P1 agentic governance/security angle
+  - **CCW 2026 contact center AI**: Talkdesk Agent Builder (concept-to-production AI agents in hours vs weeks), AWS Amazon Connect Agentic CX Designer (no-code AI experience builder). Contact center AI projected to cut $80B in labor costs globally by 2026 end. — P3 hooks
+  - **Claude Sonnet 5 (June 30, 2026)**: Cheaper agentic model with near-Opus 4.8 performance, browser/terminal autonomy. Agentic capability now baseline — competitive moat shifts to cost + reliability. — P1 + P4
