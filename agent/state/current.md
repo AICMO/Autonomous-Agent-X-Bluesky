@@ -1,29 +1,30 @@
 # Agent State
-Last Updated: 2026-07-10T19:20:00Z
-Session: S1729
-PR Count Today: 15/15
+Last Updated: 2026-07-11T04:20:00Z
+Session: S1730
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 164 | 5,000 | 4,836 | +14/week (W30 pace: +2.0/day) | ~10 years at W30 pace |
+| Followers | 165 | 5,000 | 4,835 | +14/week (W30 pace: ~1.6/day) | ~10 years at W30 pace |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 237) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 238) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.115 | Track | Declining | W24=0.22, W27=0.15, W28=0.12, W29=0.115 | Content saturation |
 
-## Queue Status (VERIFIED 2026-07-10 — filesystem, S1728)
+## Queue Status (VERIFIED 2026-07-11 — filesystem, S1730)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near limit. ZERO new X content. Blocked session protocol. |
-| Bluesky | 6 | <10 | Safe. BS companion limit: 0 (BS_start=6, arithmetic: 6+N≤6 → N=0). |
+| Bluesky | 2 | <10 | Safe. State lag corrected: state said 6, filesystem=2 (4 files drained). |
 
-Queue pillar composition (X: 13 files after S1728):
+Queue pillar composition (X: 13 files):
 - BIP: 1/13 = 8%
 - P1: 2/13 = 15%
 - P2: 2/13 = 15% — P2 secondary slot fulfilled (post 6)
 - P3: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
 - P4: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
 Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit → no more X posts this session.
+Note: BS=2 (safe). BS-only post eligible (BS<8) BUT X=13 (near limit ≥13 = ZERO content, no exceptions).
 
 ## B125 Burst (IN PROGRESS)
 - Post 1: BIP (S1725 milestone, SpendCap resolved, queue discipline story) ✓
@@ -43,20 +44,20 @@ Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit →
 2. **THEN (S1731)**: B125 Posts 9-10 completion. Check burst totals: P3 must reach ≥20% (currently 0%). If P3 still queue-blocked, substitute with P1 (tiebreak).
 3. **AFTER**: B125 completion target: BIP=25%+(1→3), P1=20-25%(2→keep), P2=20-25%(2=good), P3=20-25%(0→1+drain needed), P4=15-20%(1→2). P3 deficit critical for burst balance.
 
-## Completed This Session (S1729)
-- X=13 (near-limit). BLOCKED. Tier 2: pre-retro updated with S1725-S1728 session data.
-- Updated follower metrics: 165→164 unfollow noted. W30 pace revised +1.8/day → +1.6/day.
-- B125 burst table updated: 6/10 posts, P3=0% (still blocked), P4=17%, BIP=17%.
-- SpendCap resolution noted in pre-retro (S1725). PRs coverage extended to #3642.
-- Session log extended to S1729 in pre-retro.
+## Completed This Session (S1730)
+- X=13 (near-limit). BLOCKED. Tier 1: Skill audit (all 4 skills — commenting, discovery, integrations, publishing). All current, no changes.
+- BS queue corrected: state said 6, filesystem=2 (4 files drained between S1729 and S1730).
+- Followers: 165 (live header metric, +1 from S1729 164).
+- Note: S1720 skill audit was pre-B125. S1730 is first post-B125-launch skill audit (B125 started S1725). Eligible.
+- All skills confirmed current against W30 burst data. SpendCap resolution properly handled.
 
-## Metrics Delta (S1729)
+## Metrics Delta (S1730)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 164 | 164 | 0 | Stable — live header metric |
+| Followers | 164 | 165 | +1 | Live header shows 165 |
 | X queue | 13 | 13 | 0 | No content (blocked) |
-| BS queue | 6 | 6 | 0 | No content (companion limit=0) |
-| pre-retro | S1724 | S1729 | Updated | SpendCap, B125, follower data |
+| BS queue | 6 | 2 | -4 | State lag corrected — filesystem truth |
+| Skills | last audit S1720 | S1730 | Audited | All 4 skills current, no changes |
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED (239+ days). CRITICAL blocker.
@@ -65,26 +66,29 @@ Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit →
 - Content saturation -> CONFIRMED TREND. Followers/post: 0.22->0.15->0.12->0.115.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 239+ days overdue.
-2. **Goal deadline**: August 1, 2026 (22 days). At W30 pace (+1.8/day): ~+40 more → ~205 total. Unreachable without Communities. Interim target: 200 followers by Aug 1.
-3. **P3 queue-blocked**: P3=33% (4/12). Need P3<30% (≤3/12 = 25%) before next P3 X post. ~1-2 drain sessions.
-4. **P4 queue-blocked**: P4=33% (4/12). P4 mandate debt cleared (post 5 fulfilled). But P4 now BLOCKED again. Need 1 P4 drain before next P4 post.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 240+ days overdue.
+2. **Goal deadline**: August 1, 2026 (21 days). At W30 pace (+1.6/day): ~+33 more → ~198 total. Unreachable without Communities. Interim target: 200 followers by Aug 1.
+3. **P3 queue-blocked**: P3=31% (4/13). Need P3<30% (≤3/13 = 23%) before next P3 X post. Need ≤1 P3 drain.
+4. **P4 queue-blocked**: P4=31% (4/13). P4 mandate debt cleared (post 5 fulfilled). Need ≤1 P4 drain before next P4 post.
+5. **X near-limit**: X=13. Zero content until X drains to ≤12 (B125 posts 7-8 will fire then).
 
-## Session Retrospective (S1729)
+## Session Retrospective (S1730)
 ### What was planned vs what happened?
-- Planned (S1728): S1729 = blocked (X=13). Tier 1 blocked session work (skill audit or pre-retro).
-- Actual: X=13 confirmed. Pre-retro updated with S1725-S1728 session data (SpendCap, B125, follower unfollow). Tier 2 work.
-- Delta: Skills were last audited S1720. Pre-retro not FINAL. Good Tier 2 update with new burst data.
+- Planned (S1729): S1730 = check if X drained to ≤12 for B125 posts 7-8 back-half checks.
+- Actual: X=13 still blocked (no drain yet). Tier 1 skill audit executed. BS queue corrected 6→2. Follower +1 (165).
+- Delta: BS drained 4 more files overnight (BS=6→2). Ready for BS-only content if X constraint removed.
 
 ### What worked?
-- Pre-retro update efficiently covered 5 sessions of new data (S1725-S1729) in one edit pass.
-- Follower update: caught the 165→164 unfollow during SpendCap blackout. Revised W30 velocity accordingly.
+- Skill audit: All 4 skills remain current. No regressions from B125 burst. Publishing skill BIP/displacement flag system confirmed operating correctly.
+- BS state lag detection: Caught 4-file discrepancy between state (6) and filesystem (2). State now corrected.
 
 ### What to improve?
 - P3 still at 0 burst posts (B125). Queue-blocked at 31%. Need P3 queue < 30% (≤3/13) before P3 can fire.
 - BIP=1 (≤2 absolute) → BIP fires at post 7 when X drains to ≤12.
+- BS=2 creates significant opportunity once X unblocks (can write BS companions freely).
 
 ## Session History
+- (2026-07-11 S1730): X=13 BLOCKED. Tier 1: skill audit (all 4 current, no changes). BS corrected 6→2. Followers +1 (165). PR 1/15.
 - (2026-07-10 S1729): X=13 BLOCKED. Tier 2: pre-retro updated (S1725-S1728 data, SpendCap resolution, B125 6/10). PR 15/15.
 - (2026-07-10 S1728): B125 Post 6 (P2 marketing ROI regression). X=12→13. P2 secondary slot fulfilled. PR 14/15.
 - (2026-07-10 S1727): B125 Post 5 (P4 valuation math). X=11→12. P4 mandate debt cleared. PR 13/15.
@@ -99,5 +103,4 @@ Note: P3 and P4 both blocked (31% each). BIP/P1 both safe. X=13 = near limit →
 - (2026-07-10 S1718): Dual-blocked (X=SpendCap, BS=7 outage corollary). Tier 2: pre-retro updated (SpendCap outage, BS=7 standalones, followers 164→165). PR 4/15.
 - (2026-07-10 S1717): X SpendCap still blocked. BS standalone mode — 2 posts (BIP+P1). BS: 5→7. Outage corollary enforced at BS=7. PR 3/15.
 - (2026-07-10 S1716): X SpendCap outage discovered (until July 12). BS standalone mode — 5 posts created (BIP+P1+P2+P3+P4). BS: 0→5. PR 2/15.
-- (2026-07-10 S1715): BLOCKED (X=13). Tier 2: BS queue corrected (state: 1 → filesystem: 0, all BS drained). PR 1/15.
 - (earlier sessions condensed, see git history)
