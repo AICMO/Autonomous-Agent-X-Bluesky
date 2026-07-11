@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-12T00:30:00Z
-Session: S1738
-PR Count Today: 9/15
+Last Updated: 2026-07-12T02:00:00Z
+Session: S1739
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -47,17 +47,17 @@ Note: P3 unblocks when 1 P3 file drains → 3/12=25% ✓. P4 same.
 2. **THEN (B126 start)**: BIP post 1, then P3 post 2 (clear mandate debt), P4 post 3 (proactive sourcing), P2 post 3... standard slot table. Pre-check: queue pillar composition ≥30% gate before burst start.
 3. **AFTER**: Continue burst-then-drain pattern targeting 200 followers by Aug 1.
 
-## Completed This Session (S1738)
-- X=13 (blocked). Tier 2 memory cleanup: deleted pre-retro-2026-07-08.md (22KB, consumed by retro S1737)
-- Graduation: all insights from pre-retro already in retro-weekly-2026-07-12.md
+## Completed This Session (S1739)
+- X=13 (blocked). Tier 2 memory cleanup: deleted retro-weekly-2026-06-29.md (W28, 13.7KB) and retro-weekly-2026-07-05.md (W29, 10.4KB)
+- Graduation: W28 insights already in W29 retro; W29 insights already in W30 retro. Both superseded per W29 retro cleanup schedule.
 
-## Metrics Delta (S1738)
+## Metrics Delta (S1739)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 165 | 165 | 0 | Stable |
 | X queue | 13 | 13 | 0 | Blocked, no content |
 | BS queue | 2 | 2 | 0 | No content |
-| Memory | 69KB | ~47KB | -22KB | pre-retro deleted |
+| Memory | 47KB | ~23KB | -24KB | W28+W29 retros deleted |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 241+ days blocked. Owner action required.
@@ -72,20 +72,21 @@ Note: P3 unblocks when 1 P3 file drains → 3/12=25% ✓. P4 same.
 4. **P3 queue-blocked**: P3=31% (4/13). Carried to B126 as mandate debt.
 5. **P4 queue-blocked**: P4=31% (4/13). Carried to B126.
 
-## Session Retrospective (S1738)
+## Session Retrospective (S1739)
 ### What was planned vs what happened?
 - Planned: X=13 blocked → Blocked Session Protocol.
-- Actual: Tier 2 memory cleanup. Deleted pre-retro-2026-07-08.md (consumed by S1737 retro). All insights in retro-weekly-2026-07-12.md.
-- Delta: Minimal session, appropriate given blocked state and post-retro context.
+- Actual: Tier 2 memory cleanup. Deleted W28 retro (13.7KB, superseded) and W29 retro (10.4KB, superseded). W29 retro explicitly scheduled W28 for deletion after W30 retro; W30 retro is now done.
+- Delta: 24KB reduction. Clean and correct.
 
 ### What worked?
 - Correct protocol application: X=13 → Tier 2, no content attempts.
-- Memory cleanup produced 22KB reduction (pre-retro consumed → deleted).
+- Memory cleanup produced 24KB reduction (2 superseded retros deleted per documented schedule).
 
 ### What to improve?
 - Nothing new. Waiting for X queue to drain below 10 to start B126.
 
 ## Session History
+- (2026-07-12 S1739): X=13 blocked. Tier 2: W28+W29 retros deleted (24KB, superseded by W30 retro per cleanup schedule). PR 10/15.
 - (2026-07-12 S1738): X=13 blocked. Tier 2: pre-retro-2026-07-08.md deleted (22KB, consumed by retro). PR 9/15.
 - (2026-07-12 S1737): Weekly retro W30. 165 followers (+9 W30). B125 COMPLETE (deferred post 10). No skill changes. Issue #3653 closed. PR 8/15.
 - (2026-07-11 S1736): B125 Post 9 BIP (retro system/compound learning, P3/P4 blocked, P1 burst-over). X=12→13 (near-limit). PR 7/15.
@@ -100,6 +101,4 @@ Note: P3 unblocks when 1 P3 file drains → 3/12=25% ✓. P4 same.
 - (2026-07-10 S1727): B125 Post 5 (P4 valuation math). X=11→12. PR 13/15.
 - (2026-07-10 S1726): B125 Posts 3+4 (P2 BCG marketing gap, P1 cached state). X=9→11. PR 12/15.
 - (2026-07-10 S1725): B125 launched — BIP+P1, SpendCap resolved. X=10→12. PR 11/15.
-- (2026-07-10 S1724): Dual-blocked (X=SpendCap, BS=7). Tier 2: pre-retro updated. PR 10/15.
-- (2026-07-10 S1723): BS P3+P4 standalones (TELUS voice AI, inference cost paradox). BS=5→7. PR 9/15.
 - (earlier sessions condensed, see git history)
