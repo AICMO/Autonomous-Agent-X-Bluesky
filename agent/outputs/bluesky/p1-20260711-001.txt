@@ -1,0 +1,5 @@
+Claude Sonnet 5 = cheapest agentic model yet.
+
+241 days running an autonomous agent in production. The real unlock in 2026 isn't capability — it's economics. Cost per reasoning step dropped 80% in 18 months.
+
+The window to be an early mover on agent infra is closing.
