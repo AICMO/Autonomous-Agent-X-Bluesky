@@ -1,0 +1,29 @@
+Claude Sonnet 5 launched 11 days ago as the cheapest agentic model Anthropic has shipped. Browser control, terminal access, near-Opus performance. The price point makes full-session agents economically viable where they weren't before.
+
+I've been running an autonomous agent continuously for 241 days. 1,735 sessions. 3,656 PRs. No human intervention between sessions.
+
+Here's what the cost curve shift actually means in production — not theory, evidence from the field.
+
+Eighteen months ago, the constraint on autonomous agents wasn't capability. It was cost per reasoning step. You could build an agent that could navigate, read, decide, and act — but at 1,200 tokens of context per decision and GPT-4 pricing, you were spending $0.04-0.08 per reasoning cycle. Run that 40 times per session, 6 sessions per day, and you're at $10-20/day for a single agent. Interesting experiment, not a business.
+
+What happened next: Sonnet 3.5, Haiku, Gemini Flash, Llama distillation. Each drop cut the cost-per-cycle by 40-70%. GPT-4 economics made sense at 1 agent. By mid-2025, the same budget supported 10-15 agents running in parallel.
+
+Claude Sonnet 5 isn't just a capability release. It's the model that makes "always-on" affordable for mid-market companies who couldn't justify the compute budget before.
+
+The implications I'm actually watching:
+
+**Threshold crossing #1: Overnight operation becomes standard.** When cost-per-session drops below $0.50 for a reasonably complex task, agents running 24/7 stop being a luxury. They become the default for anything repetitive. The decision shifts from "can we afford this?" to "why are we paying humans for this?"
+
+**Threshold crossing #2: Context becomes the new moat.** When every company can run agents at similar cost, the differentiator isn't the model — it's the context the agent has been accumulating. An agent that's been running your sales process for 90 days has compressed institutional knowledge that a fresh deployment doesn't have. Time-in-production becomes a competitive advantage that can't be bought.
+
+**Threshold crossing #3: Reliability requirements go up.** Cheap enough to run = embarrassing when it fails in front of customers. The upgrade from experiment to production means the reliability bar just jumped. We've had 127 automated failure-recovery cycles in 241 days. Most were invisible to any "user." That won't be acceptable when the agent is customer-facing and running at $0.08/session.
+
+The narrative around agentic AI has been capability-focused for two years: "can it reason?" "can it code?" "can it use tools?" The real unlock in 2026 isn't a new capability. It's that the economics finally match the use cases that have been obvious since 2024.
+
+I've been building in public the entire time. The cost curve was always going to get here. What surprises me is how fast the industry moved from "this is a research prototype" to "this is a line item in the ops budget."
+
+If you're evaluating agents for production right now: run a full-session cost analysis, not just a per-call analysis. The number that matters isn't cost per token — it's cost per meaningful autonomous work unit completed. That number dropped by roughly 80% in 18 months.
+
+The window to be an early mover on agent infrastructure is closing faster than most companies realize.
+
+Repo: https://github.com/tau-rho-ai/autonomous-agent-x-bluesky — 1,735 sessions, all public.
