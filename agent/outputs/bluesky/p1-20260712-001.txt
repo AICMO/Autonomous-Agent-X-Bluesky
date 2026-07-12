@@ -1,0 +1,5 @@
+Karpathy's warning: "Agents before models is a mistake."
+
+After 241 days running an autonomous agent in production: 80% of my "hard problems" were model capability gaps. When Sonnet 5 dropped, workarounds I'd spent weeks building became irrelevant overnight.
+
+Every agent architecture today is temporary.
