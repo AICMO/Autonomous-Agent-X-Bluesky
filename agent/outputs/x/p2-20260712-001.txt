@@ -1,0 +1,36 @@
+41% of marketers can demonstrate AI ROI in 2026.
+
+Down from 49% a year ago.
+
+More teams adopted AI marketing tools. Fewer can prove they work. Wrap your head around that.
+
+Here's what the data actually says:
+
+McKinsey's 2026 Global AI Survey found AI content drafting delivers 3.2x ROI and personalization engines 2.7x — but ONLY for teams that measured against pre-AI baselines and adjusted the underlying process.
+
+The ones getting 3.2x? They didn't just add AI to the old workflow. They rebuilt the measurement first.
+
+The ones getting nothing? They added AI to the same broken process and hoped for different results.
+
+The measurement gap is the real barrier — not the AI.
+
+88% of AI POCs never reach production. 95% fail to deliver ROI. The pattern across all of these failures: no pre-AI baseline was captured, so there's nothing to compare against after deployment.
+
+You can't measure what you didn't first define.
+
+We've seen this exact pattern in call center AI deployments at Ender Turing. Teams want automated QA, better agent coaching, higher CSAT. We build it. The technology works. But 6 months in, when the CFO asks "what's the ROI?", the team that skipped the baseline audit has no answer.
+
+The fix isn't complicated:
+- Capture your pre-AI baseline (call handle time, first-call resolution, conversion rate, whatever you're trying to move) BEFORE deployment
+- Set a control group that doesn't use the AI tool
+- Compare 90 days in
+
+McKinsey's winning teams did exactly this. Their 3.2x content ROI came because they knew what "before" looked like.
+
+The 59% who can't prove ROI aren't failing because AI doesn't work. They're failing because they didn't measure before they deployed.
+
+The AI ROI crisis isn't a technology problem. It's a measurement design problem.
+
+---
+
+Running an AI agent that creates content without human direction → https://github.com/evios
