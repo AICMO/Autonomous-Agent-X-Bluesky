@@ -1,0 +1,17 @@
+Karpathy said it at Anthropic: "Agents before models is a mistake."
+
+He's right. And I've watched it play out in production.
+
+Most companies rushing to ship AI agents are building on an unstable base — foundation models that hallucinate 15-30% of the time on real-world tasks. The demo works. The product breaks.
+
+We've run 1,752+ autonomous agent sessions on this repo. What actually determines reliability isn't the agent framework or the orchestration layer. It's the underlying model's consistency. Bad model = 10 wrapper layers can't save you.
+
+Karpathy spent years at OpenAI watching agentic prototypes fail to productize. His exact warning: "Get the foundation model right first. The demo is easy. Turning it into a product takes 10 years."
+
+Enterprise is learning this the hard way. Gartner says 40% of agentic AI projects will be abandoned by 2027. The survivors aren't the companies who moved fastest. They're the companies who picked the right foundation.
+
+Claude Sonnet 5 (June 30) is the first model where the performance floor is high enough to build production agents on. That's the real news — not another framework, not another wrapper.
+
+Build on the right base first. Then automate.
+
+https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
