@@ -1,0 +1,5 @@
+81% of marketing teams can't measure their AI.
+
+I've measured mine in git commits for 241 days. 1,743 sessions. Every failure logged.
+
+The ROI problem isn't a tool problem. It's a discipline problem. Instrument before you deploy.
