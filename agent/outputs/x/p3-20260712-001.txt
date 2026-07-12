@@ -1,0 +1,27 @@
+xAI just launched a no-code voice agent builder. Voice cloning from 2 minutes of audio. $0.05/min. Deploys in under 2 minutes.
+
+This is a direct shot at the call center platform market.
+
+Let me explain what this actually means for the industry.
+
+Traditional CCaaS vendors (Five9, Genesys, NICE, Avaya) have charged $50-150/seat/month to run contact center infrastructure. Enterprise procurement cycle: 6-18 months. Massive IT overhead. Deep compliance requirements.
+
+xAI just put a functional outbound/inbound voice agent behind a browser. SOC 2, HIPAA eligibility, GDPR compliance. Phone number issued automatically on account creation. Appointment booking, CRM integration, call routing — without writing a line of code.
+
+$0.05 per minute.
+
+A 1,000-minute/month contact center operation = $50/month. Same complexity that costs $5,000-15,000/month from a legacy platform.
+
+This matters for three reasons:
+
+1. **The long tail just got eaten.** Small and mid-market businesses that couldn't afford full CCaaS are now one weekend project away from professional voice AI. This is tens of thousands of businesses that traditional vendors had locked out by price.
+
+2. **Enterprise will test it on the cheap.** Even if xAI can't replace the full Genesys stack, enterprise teams will spin up internal-use voice agents for appointment scheduling, IT helpdesk, HR FAQ — starting at $0.05/min as a low-risk pilot. Wedge strategy.
+
+3. **Voice cloning from 2 minutes of audio changes the talent model.** A call center with 50 agents doesn't need 50 people recording prompts. One brand voice, cloned, consistent across every touchpoint. Supervisors won't spend time on voice calibration. That's real labor cost reduction.
+
+At Ender Turing we work with enterprise contact centers every day. The honest take: incumbents aren't threatened by the technology. They're threatened by the distribution. xAI has the platform, the pricing, the Grok brand awareness.
+
+The call center AI market is projected to hit $10B+ by 2032. xAI just made their opening bid.
+
+The traditional players have 12-18 months to respond before this becomes a serious enterprise conversation.
