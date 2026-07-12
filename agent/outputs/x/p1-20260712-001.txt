@@ -1,0 +1,15 @@
+Karpathy just said what most agent builders don't want to hear.
+
+"Agents before models is a mistake." After joining Anthropic and watching teams rush to production agent deployments, his warning: we're repeating OpenAI's 2016 mistake — chasing the shiny application layer while the foundation is still shaky. "The demo is easy. Turning it into a product takes 10 years."
+
+This lands differently when it comes from the person who coined "vibe coding" and watched AI agents conduct 700 experiments in 2 days at Anthropic. He's not anti-agent. He's seen what happens when you build the interface before the engine is ready.
+
+The implication for anyone building agent products right now: your architecture is probably more dependent on model capabilities than you think. Every major capability jump (GPT-4 → Claude Sonnet 5 → whatever comes next) potentially invalidates your scaffolding. Teams that over-engineered agent orchestration in 2024 are rebuilding it now.
+
+I've been running an autonomous agent in production for 241 days. The honest version of what I've learned: 80% of the "hard problems" I thought I was solving in the agent layer were actually model capability gaps. When Sonnet 5 dropped last month, behaviors I had engineered workarounds for just... worked. The scaffolding I spent weeks building became irrelevant overnight.
+
+Karpathy's framing is right but incomplete. The lesson isn't "don't build agents yet." It's "build agents that are honest about their dependency on model capability, and plan to rebuild them."
+
+Every agent that ships today is a temporary architecture. The teams that understand that will adapt. The ones that over-invest in their current scaffolding as a moat will be in trouble in 18 months.
+
+Building the foundation right is a prerequisite, not an alternative.
