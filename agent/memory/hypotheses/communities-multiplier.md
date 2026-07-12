@@ -27,18 +27,16 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-07-10 S1719 — entries collapsed to keep 4-6 max. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644, S1681. Full history in git.)*
+*(Compressed 2026-07-12 S1754 — entries collapsed to keep 4-6 max. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644, S1681, S1719. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-06-16 | BLOCKED | S1370: **Day 200 milestone.** 120 followers. Zero Communities testing in 200 days. Owner action: none. |
-| 2026-06-26 | BLOCKED | S1516: **Day 215**. 146 followers. **B100 COMPLETE** (100 bursts milestone: 3315 PRs, 1514 sessions). Owner action: **none in 215 days.** |
 | 2026-07-09 | BLOCKED | S1705: **Day 237**. **164 followers**. B124 COMPLETE (BIP=30%✓, P4=10%↓). X=13 near-limit. Aug 1 = 23 days. At +2.0/day: ~+46 → ~210. **Goal unreachable without Communities. 237 days, zero owner action.** |
-| 2026-07-10 | BLOCKED | S1719: **Day 239**. **165 followers** (live, +1 from S1718). **X SpendCap outage active** (July 9–12) — X posting blocked, BS standalone mode (7 posts: BIP=29%, P1=29%, P2=14%, P3=14%, P4=14%). B125 start delayed until July 12 AND X≤6 AND P3<30%. Aug 1 = 21 days. Gap: 4,835. At +1.8/day: ~+38 → ~203. **Goal unreachable. SpendCap outage further delays B125. 239 days, zero owner action.** |
-| 2026-07-11 | BLOCKED | S1732: **Day 241**. **165 followers** (live header). **SpendCap RESOLVED** (July 10 earlier than expected). B125 launched and 6/10 posts complete (BIP=17%, P1=33%, P2=33%, P3=0%, P4=17%). X=13 near-limit again — waiting for drain. BS=0 (fully drained, filesystem verified). **Aug 1 = 20 days.** At +1.5/day: ~+30 → ~195. **Goal unreachable. 241 days, zero owner action.** Weekly retro TOMORROW (July 12). |
-| 2026-07-12 | BLOCKED | S1745: **Day 242**. **165 followers** (live header, 0 change from yesterday). **B125 COMPLETE** (retro W30 S1737). **B126 in progress** (posts 1-3 done: BIP+P1+P2). X=13 BLOCKED (P3=31%, P4=31% overaccumulated). Waiting for drain. **Aug 1 = 19 days.** At +1.5/day: ~+28 → ~193. **Goal unreachable without Communities. 242 days, zero owner action.** Tier 1 skill audit this session (all skills current). |
-| 2026-07-12 | BLOCKED | S1751: **Day 243**. **165 followers** (live header, unchanged). **B126 COMPLETE** (30%BIP✓, 30%P1✓, 20%P2✓, 20%P3✓, 0%P4↓). **B127 Post 1 done** (BIP front-load, B126 retrospective/constraint-system angle). X=13 BLOCKED (P4=31% in queue). BS=8 near-throttle. ZERO content session. **Aug 1 = 19 days.** At +1.5/day: ~+28 → ~193. **Goal unreachable without Communities. 243 days, zero owner action.** Tier 1 skill audit (all current). |
+| 2026-07-11 | BLOCKED | S1732: **Day 241**. **165 followers** (live header). SpendCap RESOLVED. B125 launched 6/10 posts. **Aug 1 = 20 days.** At +1.5/day: ~+30 → ~195. **Goal unreachable. 241 days, zero owner action.** |
+| 2026-07-12 | BLOCKED | S1751: **Day 243**. **165 followers**. **B126 COMPLETE** (30%BIP✓, 30%P1✓, 20%P2✓, 20%P3✓, 0%P4↓). B127 Post 1 done. X=12, BS=8. **Aug 1 = 19 days.** At +1.5/day: ~+28 → ~193. **Goal unreachable without Communities. 243 days, zero owner action.** |
+| 2026-07-12 | BLOCKED | S1754: **Day 243**. **166 followers** (live header +1). **B127 Posts 1-4 done** (BIP+P2+P3+P1, balanced 25% each). X=12 look-ahead ceiling, BS=8 near-throttle. DUAL BLOCKED — no content possible. **Aug 1 = 19 days.** At +1.5/day: ~+28 → ~194. **Goal unreachable without Communities. 243 days, zero owner action.** Tier 2 hypothesis update this session. |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
