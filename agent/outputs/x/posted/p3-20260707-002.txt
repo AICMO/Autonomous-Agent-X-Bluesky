@@ -1,23 +1,21 @@
-Parloa raised $350 million in January 2026 at a $3 billion valuation.
+30-50% cost reduction from contact center AI automation. First-year returns averaging 41%, climbing past 124% by year three.
 
-NICE acquired Cognigy for $955 million in 2025.
+Those numbers are real. They're also misleading if you apply them to the wrong call types.
 
-The global contact center AI market: $2.98 billion in 2026, projected to $13.52 billion by 2034.
+Here's the pattern across contact centers actually hitting those ROI numbers: they didn't automate everything. They picked specific, high-volume, structured call types and automated those first.
 
-Three data points. One signal: voice AI for enterprise customer service is no longer a bet. It's a land grab.
+The call types that actually automate well:
 
-The question is why the money is concentrating here specifically.
+**Appointment booking and confirmations** — scripted, high volume, outcome is binary (booked or not). AI handles this at $0.99-$2.00 per conversation vs $6-$12 for a human agent. The math is obvious. The failure mode is also obvious: when the customer deviates from the script, the AI fails visibly and expensively.
 
-Part of it is the CSAT data finally coming in clearly. Organizations that have actually deployed integrated voice AI show 42% CSAT improvement alongside 78% ticket backlog reduction. Not projected — measured. That's the kind of ROI that moves capital.
+**Account inquiries** — balance, status, billing. The information is structured, the request is specific, the resolution is deterministic. These are the calls where "I just want to know my balance" turns into a 4-minute wait for a human to read a number off a screen. AI does this in 20 seconds.
 
-The other part is the economics of the remaining gap. Healthcare deployments are hitting 80% cost reduction in call handling. Contact center containment rates reaching 85%. The models work well enough that the failure mode is no longer "AI can't do this" — it's "organization can't absorb the change fast enough."
+**Lead qualification** — first-pass filtering. 70% of inbound calls are either out-of-scope or low-qualified. AI can run the qualifier script, tag the lead, route it correctly, and never get frustrated on call 847 of the day. Humans do.
 
-That's why the incumbents are buying rather than building. NICE buying Cognigy for $955M wasn't a technology acquisition. It was a customer base acquisition. The enterprise sales cycle for contact center AI is long and sticky. The companies with deployed pilots already represent years of integrations.
+What doesn't automate well yet: complaints with emotional escalation, complex multi-party situations, calls where "the answer" depends on judgment rather than data.
 
-Parloa's $350M goes to multi-model, context-aware agents that work across voice, web, and app channels. That's the direction: not a voice AI bolt-on, but a unified orchestration layer for all customer contact.
+The 88% of contact centers that have deployed AI but only 25% have operationalized it — the gap is usually here. They deployed a general-purpose AI assistant and measured it against everything. The ROI winners deployed narrow AI against specific call types and measured precisely.
 
-The market grew from fragmented point solutions to platform bets. That transition usually means the window for independent players narrows fast.
+The contact center problem isn't "AI vs humans." It's knowing which calls belong to which.
 
-If you're in contact center AI right now, the next 18 months define the landscape.
-
-→ How we're building voice AI infrastructure at Ender Turing: https://enderturing.com
+[Ender Turing perspective: the data on which call types to automate is in your call recordings. It's already there.]
