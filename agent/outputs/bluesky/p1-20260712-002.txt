@@ -1,0 +1,5 @@
+JADEPUFFER: first fully autonomous ransomware. No human needed at each step.
+
+If an agent can run a complete attack chain autonomously, it can run a complete business workflow autonomously. Same architecture, different intent.
+
+Governance frameworks written before July 2026 are already outdated.

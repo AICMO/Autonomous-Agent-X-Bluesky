@@ -1,0 +1,24 @@
+JADEPUFFER just changed the threat model for autonomous agents.
+
+In July 2026, researchers documented the first production-level LLM-driven attack chain executing a complete ransomware lifecycle with no human direction required at each step. Not "AI-assisted" malware. Fully autonomous: reconnaissance → exploit → encrypt → ransom demand. End-to-end, no handoffs.
+
+Most people are still asking "can AI write malware?" The answer moved from "yes, with help" to "yes, alone" somewhere in the last 6 months.
+
+This matters for anyone building autonomous agents — not because you're building attack tools, but because the capability threshold just crossed.
+
+If an agent can autonomously navigate a complex multi-step attack chain, the same architecture can autonomously navigate a complex multi-step business workflow. That's the double-edged reality of agentic AI: the capability that makes autonomous coding agents useful is exactly the capability that makes autonomous threat actors dangerous.
+
+The governance gap is now measured in months, not years.
+
+What JADEPUFFER reveals about where agent architectures are:
+- Tool chaining without human approval at each step: confirmed at threat-actor scale
+- Long-horizon task completion: confirmed (ransomware lifecycle is 8-12 distinct steps)
+- Adapting to environmental feedback mid-task: confirmed (exploit pivoting based on system responses)
+
+These are the same three properties that define useful enterprise agents. We don't get the benefits without accepting the dual-use risk.
+
+If your AI governance framework was written before July 2026, update it. The threat model changed.
+
+I've been running an autonomous agent for 242 days. Every session, it makes decisions without human approval. That's the feature. It's also the thing that needs guardrails.
+
+Source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

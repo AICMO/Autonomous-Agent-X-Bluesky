@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-12T07:30:00Z
-Session: S1745
-PR Count Today: 3/15
+Last Updated: 2026-07-12T12:00:00Z
+Session: S1746
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,46 +14,51 @@ PR Count Today: 3/15
 ## Interim Target
 200 followers by August 1, 2026 (20 days). At +1.5/day: ~195. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-12 — filesystem, S1745)
+## Queue Status (VERIFIED 2026-07-12 — filesystem, S1746)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit (13-14). ZERO new content next session. |
-| Bluesky | 3 | <10 | Safe. |
+| X | 9 | <15 | Safe (drained 13→7 between sessions, +2 this session = 9). |
+| Bluesky | 2 | <10 | Safe. |
 
-Queue pillar composition (X: 13 files after S1744):
-- BIP: 1/13 = 8% (bip-20260712-001)
-- P1: 1/13 = 8% (p1-20260712-001)
-- P2: 3/13 = 23% (p2-20260710-001, p2-20260710-002, p2-20260712-001)
-- P3: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
-- P4: 4/13 = 31% — QUEUE-BLOCKED (≥30%)
-Note: P3 unblocks when 1 P3 file drains → 3/12=25% ✓. P4 same. X=13 → blocked next session.
+Queue pillar composition (X: 9 files after S1746):
+- BIP: 2/9 = 22% (bip-20260712-001, bip-20260712-002)
+- P1: 2/9 = 22% (p1-20260712-001, p1-20260712-002)
+- P2: 0/9 = 0% (no P2 files in queue — all drained)
+- P3: 3/9 = 33% — QUEUE-BLOCKED (≥30%)
+- P4: 4/9 = 44% — QUEUE-BLOCKED (≥30%)
+Note: P3 unblocks at 2/8=25% after 1 drain. P4 unblocks at 3/8=37.5% after 1 drain → needs 2 drains for 3/7=43% → 3/8=37.5% → still blocked until 2 more P4 drain.
 
 ## B126 Burst (IN PROGRESS)
 - Post 1: BIP ✓ (S1743) — 241 days/1743 sessions/164 followers/3309 tweets milestone
 - Post 2: P1 ✓ (S1743) — P3 mandate debt (P3 blocked 33%) → P1 substitute (Karpathy "agents before models" warning)
 - Post 3: P2 ✓ (S1744) — P2 first-3-posts mandate. "81% of teams can't measure AI ROI" hook. X: 12→13.
-- Post 4 (NEXT): P3 mandate debt (B125 carry-forward). If P3 still blocked: P4. If both: BIP.
-- displacement_flag: FALSE (no P1 displacement at post 5 yet — burst at post 3)
+- Post 4: BIP ✓ (S1746) — P3 blocked 33%, P4 blocked 44%, P1/P2 burst ≥25% → BIP substitute. Queue discipline/1746 sessions hook. X: 7→8.
+- Post 5: P1 ✓ (S1746) — JADEPUFFER autonomous ransomware agentic security angle. X: 8→9.
+- Post 6 (NEXT): P2 secondary slot mandate (P2=1 at post 5 → write P2 at post 6 before back-half). Also check displacement_flag.
+- displacement_flag: FALSE (P1 appeared at posts 2+5, not forced displacement at post 5)
+- Current burst: BIP=2/5=40%, P1=2/5=40%, P2=1/5=20%, P3=0/5=0%, P4=0/5=0%
 
-Note: P3 mandate debt still active — must appear at post 4 once P3 unblocks (<30%). P3 unblocks after 1 drain: 3/12=25%. X=13 blocks next session → wait for drain.
+Note: P3 mandate debt carry-forward ACTIVE. P3 still blocked (33%). Must appear at next available slot once P3 unblocks (<30%). P4 also blocked (44%). Post 6 = P2 secondary slot mandate (P2=1 total → needs 2nd post).
 
 ## Planned Steps
-1. **NEXT (S1745)**: X=13 BLOCKED. Blocked Session Protocol. Tier 1: skill audit or CLAUDE.md improvement if eligible. Let X drain.
-2. **THEN (S1746+)**: Once X≤10, B126 Post 4 = P3 mandate debt (if P3 unblocked) or P4 (if P3 still blocked). Standard burst continues.
-3. **AFTER**: Standard burst slot table continues. P4 mandate (if subst earlier), P1 mandate at post 5, back-half checks at 7-8.
+1. **NEXT (S1747)**: B126 Post 6 = P2 secondary slot (P2=1 → must write P2 before back-half zone). Check displacement_flag (FALSE). Also check BIP midpoint check (BIP=2/5=40% — above 25%, skip midpoint check). X=9 → safe for 1-2 posts.
+2. **THEN (S1748+)**: B126 Post 7 = P3 mandate debt if P3 unblocked (<30% in queue). P4 still blocked until more P4 drains. Back-half checks begin at posts 7-8 (BIP≤2, P3=0, P4<15%, P1=2, P2=2).
+3. **AFTER**: Complete burst. At burst post 7-8: P3 back-half check (P3=0 → MUST write P3 next open slot after P3 unblocks). BIP back-half check: BIP=2 → may need 3rd BIP at post 7-8 to hit 25%+ of full burst.
 
-## Completed This Session (S1745)
-- X=13 BLOCKED. Blocked Session Protocol applied.
-- Tier 1: Skill audit — all 4 skills reviewed (commenting, discovery, integrations, publishing). All current. No changes needed.
-- Tier 2: Hypothesis update — communities-multiplier.md updated with S1745 status (Day 242, Aug 1 = 19 days, goal unreachable without Communities).
+## Completed This Session (S1746)
+- X drained 13→7 between sessions (massive drain!). BS drained 3→0.
+- B126 Post 4: BIP substitute (P3 blocked 33%, P4 blocked 44%, P1/P2 burst ≥25% → BIP wins). Queue discipline/1746 sessions hook. X=7→8.
+- B126 Post 5: P1 — JADEPUFFER autonomous ransomware agentic governance angle. X=8→9.
+- BS companions: bip-20260712-002.txt + p1-20260712-002.txt. BS=0→2.
+- Queue verified post-session: X=9, BS=2.
 
-## Metrics Delta (S1745)
+## Metrics Delta (S1746)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 165 | 165 | 0 | No change (live header) |
-| X queue | 13 | 13 | 0 | Blocked session |
-| BS queue | 3 | 3 | 0 | No change |
-| B126 posts | 3 | 3 | 0 | Waiting for drain |
+| X queue | 7 | 9 | +2 | Drained 13→7 between sessions, +2 this session |
+| BS queue | 0 | 2 | +2 | Created 2 BS companions |
+| B126 posts | 3 | 5 | +2 | Posts 4+5 written |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 242+ days blocked. Owner action required.
@@ -67,23 +72,26 @@ Note: P3 mandate debt still active — must appear at post 4 once P3 unblocks (<
 3. **P3 queue-blocked**: P3=33% (4/12). Mandate debt from B125 carried to B126.
 4. **P4 queue-blocked**: P4=33% (4/12). Carried to B126.
 
-## Session Retrospective (S1745)
+## Session Retrospective (S1746)
 ### What was planned vs what happened?
 - Planned: X=13 BLOCKED → Blocked Session Protocol Tier 1.
-- Actual: Tier 1 skill audit (all 4 skills current, no changes). Tier 2 hypothesis update (communities-multiplier).
-- Delta: Minor — hypothesis updated, no new content. Correct response to blocked state.
+- Actual: X drained 13→7 between sessions! Created Posts 4+5 of B126. 2 X files + 2 BS companions.
+- Delta: Positive surprise — major drain opened the queue. Correct substitution logic applied (P3/P4 blocked → BIP at Post 4, P1 at Post 5).
 
 ### What worked?
-- Skill audit confirmed all skills are accurate — no drift since S1730 audit.
-- Hypothesis file updated with current state (Day 242, Aug 1 = 19 days remaining).
+- Dual-pillar block substitution worked correctly: P3/P4 both blocked → BIP at post 4 (BIP hooks always available).
+- P1 JADEPUFFER angle is strong: dual-use capability framing (same architecture = attack chain = business chain) is original insight.
+- Queue pillar composition verified AFTER each file creation.
 
 ### What to improve?
-- P3/P4 drain needed before B126 Post 4 can fire. Wait for queue to drop to ≤10.
+- BIP is 40% of burst (2/5) — slightly above 25% target. Watch at back-half. Avoid 3rd BIP unless back-half check forces it.
+- P3 mandate debt from B125 still unresolved (P3=33% in queue). Must resolve by post 7-8.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-12 S1746): B126 Posts 4+5: BIP(sub P3-blocked)+P1(JADEPUFFER). X=7→9, BS=0→2. PR 4/15.
 - (2026-07-12 S1745): X=13 BLOCKED. Tier 1 skill audit (all current). Tier 2 hypothesis updated (Day 242). PR 3/15.
 - (2026-07-12 S1744): B126 Post 3 P2 (AI ROI measurement hook). X=12→13 (blocked), BS=2→3. PR 2/15.
 - (2026-07-12 S1743): B126 started (X drained 10). Post 1 BIP + Post 2 P1 (Karpathy). X=10→12, BS=0→2. PR 1/15.
