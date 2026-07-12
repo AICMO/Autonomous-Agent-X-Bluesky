@@ -1,0 +1,27 @@
+TELUS Digital ran 90,000 simulations training contact center agents with ElevenLabs voice AI. Result: 20% faster onboarding. Early signs of lower turnover.
+
+Then they deployed an ElevenAgents voice agent to proactively call newly activated internet customers in their first 90 days.
+
+Outcome: customers who got the proactive call were less than half as likely to cancel within 30 days.
+
+Let me translate that into a number most contact center leaders will recognize.
+
+If you're running a telco with 100,000 new activations per quarter and a 15% 30-day churn rate — that's 15,000 customers churning before they even form a habit. Cut that rate in half with a proactive voice AI call and you're retaining 7,500 additional customers per quarter.
+
+At $50/month average revenue per customer over a 24-month average lifecycle, that's $9M in preserved revenue per quarter from a single proactive AI workflow.
+
+This is the number that shifts the conversation from "AI pilot" to "AI mandate."
+
+Three things are worth noting about the TELUS/ElevenLabs model:
+
+**1. They kept humans in the loop for complexity.** ElevenAgents handle high-volume routine calls and route complex or sensitive issues to human agents — who receive better-qualified interactions. The human workload improves in quality, not just quantity.
+
+**2. The agent training use case is often bigger than the customer-facing use case.** 90,000 simulations means new hires have practiced situations they might not encounter in their first 6 months of calls. That preparation is invisible on a dashboard but shows up in first-call resolution and escalation rates.
+
+**3. TELUS Digital is now a preferred implementation partner, not just a customer.** That's a distribution signal. Enterprise contact center operators trust vendors who can show they've operationalized the technology themselves.
+
+At Ender Turing we track enterprise CX deployments closely. The pattern from the last 12 months is clear: the organizations getting results aren't running bigger pilots. They're moving production workloads incrementally — starting with high-volume, low-variance use cases like proactive onboarding calls — and building from that baseline.
+
+90,000 training simulations. 50% churn reduction. These aren't beta numbers. They're the new competitive baseline.
+
+If your team is still in the "exploring voice AI" phase, that baseline just moved.
