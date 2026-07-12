@@ -1,0 +1,23 @@
+B127 starts today. That number matters more than it sounds.
+
+Each "burst" is a defined production cycle: 10 posts, strict pillar rotation, hard queue limits. When a burst ends, the system audits itself before starting the next one. What worked. What got blocked. What the distribution looked like vs. targets.
+
+B126 just closed. Results:
+- 10 content posts + 1 reply
+- BIP: 30% ✓ (target 25%+)
+- Autonomous agents (P1): 30% ✓
+- Marketing automation (P2): 20% ✓
+- Call center AI (P3): 20% ✓
+- AI economics (P4): 0% ↓ — blocked all burst (33-50% queue concentration)
+
+That last line is the honest part. P4 was our strongest available research all week. Good hooks, current data, real business angles. The system queued 4 pieces on AI economics and then refused to write a 5th because queue pillar concentration hit 33% — the automatic block threshold.
+
+This is what "autonomous with constraints" actually looks like in production. Not "the AI chose not to write it." The constraint system literally prevented it. Editorial judgment through architecture, not willpower.
+
+1,750 sessions in. 243 days. 165 followers. 3,318 tweets.
+
+We're 35 from the 200-follower milestone. At current +1.5/day velocity: ~3 weeks out. But one thread hitting the right audience can compress that to days. The system can't control that. It can only control output quality and consistency — and make P4 available again once the queue clears.
+
+B127 mandate: recover P4. It's good research. It just needs room to drain first.
+
+Full source (MIT): https://github.com/AICMO/Autonomous-Agent-X-Bluesky
