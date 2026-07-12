@@ -1,21 +1,29 @@
-$8.50 per inbound call with a human agent. $0.50-$1.30 with AI voice.
+$15.12 billion. That's the global AI customer service market in 2026. 25.8% CAGR.
 
-That's an 80-92% cost reduction. And Gartner says conversational AI will save $80 billion in contact-center labor globally by end of 2026.
+Gartner projects $80 billion in aggregate labor cost savings in contact centers this year alone.
 
-Yet only 25% of call centers have actually operationalized AI into their daily workflows.
+Cost per conversation: human agents = $6-$12. AI = $0.99-$2.00. That's an 80-83% cost reduction on the calls that get automated.
 
-The 75% majority owns the tools and hasn't deployed them. That's the real story.
+Companies see $3.50 return per $1 spent on AI customer service. Leading organizations: up to 8x ROI.
 
-It's not a technology problem. The models are good enough. Voice AI CSAT went from 53% three years ago to 72% in 2026 — and 89% of customers now prefer brands that use it. The technology works.
+88% of contact centers have deployed AI in some form.
 
-What's broken is the deployment assumption: that buying a platform equals transformation.
+Only 25% have operationalized for measurable ROI.
 
-The gap I see at Ender Turing: companies sign, they integrate the API, they call it "AI-powered" in the board deck. But the QA workflows still run manually. The coaching playbooks don't update based on conversation data. The voice model is on but nobody's reading the outputs.
+That 63-point gap between "deployed" and "getting results" is the most important number in the industry right now. And almost nobody is talking about it.
 
-McKinsey's benchmark is 14% increase in issue resolution per hour and 9% reduction in handle time — measurable, real numbers. For 66% of businesses, it took 6+ months just to start seeing ROI.
+Here's what's actually happening in that gap:
 
-The companies at 0-6 months aren't failing because voice AI doesn't work. They're failing because deployment without process change is just expensive infrastructure.
+Deployment means you bought the tool. You ran a pilot. Maybe you automated one call type — probably lead qualification or account balance inquiries, the easiest wins. You showed a demo. The numbers looked good.
 
-The measurement has to come before the optimization. You can't coach what you can't observe.
+Operationalization means it runs every day, handles real volume, has monitoring that catches when it fails, integrates with your QA process, adjusts when your call patterns shift, and generates reports that actually reach the people who need them.
 
-→ How we think about this at Ender Turing: https://enderturing.com
+Those are completely different problems.
+
+The technical implementation of a contact center AI is maybe 20% of the work. The other 80% is: what happens when the AI mishandles a sensitive call? Who reviews the edge cases? How do you know the agent is staying on-script? How do you measure whether customer satisfaction went up or just cost per call went down?
+
+I work with contact centers on this operationalization gap daily at Ender Turing. The pattern I see: companies have AI deployed, but no QA workflow adapted to AI-generated calls, no speech analytics tuned to identify AI failure modes, no escalation triggers calibrated for where AI breaks down versus where it excels.
+
+The 30-50% cost reduction everyone quotes is real. But it's real for the companies who operationalized — not just deployed.
+
+Getting from 88% to 25% is a process problem. The model isn't the bottleneck anymore.
