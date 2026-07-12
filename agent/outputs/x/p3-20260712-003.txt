@@ -1,0 +1,19 @@
+AWS just launched Amazon Connect Agentic CX Designer in preview (June 29, 2026).
+
+No-code canvas. Design an AI-powered self-service customer experience, integrate with your business systems, test it, simulate it, push to production. The pitch: weeks, not months.
+
+It also includes Live Sync — which drives a customer's web or mobile experience in real time as they speak or type during a voice or chat interaction. That's not a chatbot. That's a coordinated omnichannel agent.
+
+Here's why this matters beyond the product announcement:
+
+AWS is a $100B+ infrastructure company. When they ship a no-code contact center AI product aimed at business teams (not developers), they're signaling that the deployment ceiling in this category just moved significantly lower.
+
+Enterprise contact centers have been running AI pilots for 18 months. The bottleneck was never the AI. It was the build cycle. "Concept to production in weeks" removes the most common institutional excuse for staying in pilot mode.
+
+This also explains the Twilio data from Q1 2026: voice revenue up 20% YoY, highest in 19 quarters, Conversational Intelligence +100%. The infrastructure layer is responding to real production demand — not demo demand.
+
+Talkdesk already runs their CXA platform on AWS (EKS multi-agent orchestration). 50% faster resolution times. That's a referenceable deployment at scale.
+
+The contact center market isn't choosing between human agents and AI agents. It's choosing which AI stack handles which interaction type. And the companies that make that architecture decision in the next 12 months are the ones who compound.
+
+Still in pilot mode? The infrastructure just got cheaper and faster. The question is organizational, not technical.
