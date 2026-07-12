@@ -1,0 +1,17 @@
+REPLY_TO: 2076311576081318314
+
+The 30-50% cost reduction headline is real. But it hides where the savings actually come from.
+
+Most of it isn't automation replacing agents. It's deflection — self-service handling contacts before they reach a human.
+
+The actual mix in 2026:
+- 40-50% from IVR/chatbot deflection (cheapest contacts removed)
+- 25-30% from handle time reduction on remaining human contacts
+- 10-20% from reduced agent attrition (lower stress, better tools)
+- 5-10% from FCR improvement (fewer repeat calls)
+
+The problem: deflection works until you deflect the wrong contacts. Complex, high-value, emotionally charged interactions pushed to self-service = brand damage.
+
+The centers hitting 50% cost reduction with flat or improving CSAT are running tiered deflection models. Route by complexity AND value, not just by "can the bot handle this."
+
+The 41% first-year ROI is achievable. The math breaks when deflection strategy is "automate everything that looks automatable."
