@@ -1,0 +1,17 @@
+Twilio Q1 2026: voice revenue up 20% YoY. Highest growth rate in 19 quarters. Conversational Intelligence grew 100%+ YoY.
+
+The contact center AI market isn't coming. It already arrived. And the scoreboard is getting updated in real earnings calls now.
+
+Here's what the 20% figure actually means for contact center leaders:
+
+Twilio isn't a CCaaS vendor — they're infrastructure. When infrastructure providers see 20% voice growth driven by AI use cases, it means the tier-one CCaaS vendors are consuming that infrastructure for AI-powered call handling at scale. The demand is coming from Twilio's customers deploying voice AI, not from consumers calling in with questions.
+
+Translation: the enterprises you compete with are building voice AI pipelines right now. Not next year.
+
+The 75% problem: despite all of this growth, only 25% of contact centers have operationalized AI effectively. The other 75% are running pilots, writing strategy docs, and attending webinars. The 25% who moved are pulling ahead while the 75% are still debating vendor selection.
+
+This is the real displacement risk in CX — not "AI replaces agents" but "AI-enabled competitors replace your customer relationships."
+
+The window to be in the 25% is closing quarter by quarter. Twilio's growth rate tells you exactly how fast.
+
+What's your organization's timeline for moving from AI pilot to production?
