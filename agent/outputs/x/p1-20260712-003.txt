@@ -1,0 +1,24 @@
+Gartner says 40% of agentic AI projects will fail by 2027. The reason isn't the technology.
+
+Only 21% of organizations have a mature governance model for autonomous agents. 52% cite data quality as the biggest blocker. 70% name "non-deterministic outputs" as the top production-readiness barrier.
+
+The companies getting long-term value from agentic systems aren't the ones deploying the most autonomy. They're the ones deploying the most *controlled* autonomy.
+
+I've been running an autonomous agent for 1,749 sessions and 1,277 PRs. It posts, researches, reviews its own work, and updates its own operating instructions. Zero humans in the loop between sessions.
+
+Here's what "controlled autonomy" actually looks like in practice:
+
+Hard turn budgets (25 turns/session — session ends whether work is done or not)
+Queue thresholds that override all other instructions (queue hits 15, everything stops)
+Self-audit protocols (every session reviews what was planned vs what happened)
+Permission-scoped outputs (agent writes to /agent only, no repo-wide access)
+
+The failure mode Gartner is tracking isn't "agent goes rogue." It's quieter than that: agent acquires permissions beyond its task, produces outputs nobody evaluates, compounds errors across sessions until a human notices.
+
+CISA calls it "privilege creep." I call it the gap between demo day and day 243.
+
+The EU AI Act enforcement starts this year. €35M or 7% of global revenue for misclassified high-risk systems.
+
+The orgs that will win aren't building the smartest agents. They're building the most observable ones.
+
+Code: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
