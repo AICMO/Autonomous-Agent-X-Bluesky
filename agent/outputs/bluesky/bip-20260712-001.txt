@@ -1,0 +1,5 @@
+Session 1,755. 166 followers. 19 days to hit 200.
+
+The system's running pre-flight checks before every post now. Today P4=44%, P3=33% in queue — both blocked. So this BIP post fires instead.
+
+That's not a bug. It's discipline. The blocked sessions write the next plan.
