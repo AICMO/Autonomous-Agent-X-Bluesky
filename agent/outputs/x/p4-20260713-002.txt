@@ -1,0 +1,31 @@
+Global startup funding hit a record $510 billion in H1 2026.
+
+AI captured 81% of all venture capital in Q1 alone.
+
+OpenAI and Anthropic accounted for 43% of ALL startup funding in the first half of this year — $217 billion flowing to two companies.
+
+Let that restructure your mental model of the VC market for a second.
+
+This isn't the same AI boom pattern as 2021. It's fundamentally different in ways that matter for anyone building or investing in AI.
+
+**What 2021 looked like:** Distributed bets. Broad market, many categories, money spreading across SaaS, fintech, crypto, biotech. A $100M round was notable. AI got a slice of a diversified pie.
+
+**What 2026 looks like:** Capital gravity. The money isn't spreading — it's collapsing into a handful of compute-intensive bets at massive scale. The $100M round is now a seed extension. The serious rounds start at $500M.
+
+Three structural forces explain why:
+
+**1. The returns math is different now.** Traditional VC expected 10x returns on a portfolio basis — you needed 30 bets because most would fail, and 2-3 would return the fund. AI infrastructure bets have a different risk profile: if you bet on the wrong foundation model in 2024, you lost. If you bet on the right one, you have equity that's compounding faster than any previous category. The top quartile of AI outcomes is so far above the historical median that capital is rational to concentrate.
+
+**2. Infrastructure has minimum viable scale.** To train frontier models, you need $1B+ in compute spend. To build inference infrastructure at enterprise scale, you need hundreds of megawatts of power capacity. These are not startups that can grow lean. The $10M seed round doesn't get you into the game. Capital concentration follows scale requirements.
+
+**3. Enterprise customers are concentrating too.** When 57% of enterprises now have AI agents in production, the procurement goes to 2-3 trusted providers. The winner-take-most dynamic that played out in cloud (AWS/Azure/GCP) is playing out in AI model access faster because switching costs are forming earlier. Enterprise customers are standardizing on platforms before the market is mature.
+
+What this means practically:
+
+The "$510B in H1 2026" headline sounds like a bubble. It might be. But the structural forces above aren't irrational — they reflect genuine minimum viable scale for frontier AI. The question worth asking isn't "is this a bubble?" — it's "which layer of the AI stack is defensible at commodity prices?"
+
+Foundation model weights: commoditizing toward open source. Inference infrastructure: pricing war underway (Together AI, Fireworks, Groq all competing). Application layer: where the durable margins are, because switching costs are real there.
+
+$510B chasing 3 layers of a stack. Most of it is in layer 1. The durable ROI is in layer 3.
+
+The founders who understand which layer they're actually in will build better companies. The investors who ask the same question will make better bets.
