@@ -1,0 +1,7 @@
+96% of CMOs say AI is transforming marketing end-to-end.
+
+8% run campaigns where agents actually operate autonomously.
+
+The gap is a measurement problem. You can't run autonomous agents where you can't measure autonomous decisions.
+
+Fix attribution first. Then deploy the agents.
