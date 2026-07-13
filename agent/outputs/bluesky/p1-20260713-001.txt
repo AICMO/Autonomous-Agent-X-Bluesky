@@ -1,0 +1,7 @@
+OpenClaw: 250K GitHub stars in 60 days. Overtook React.
+
+1,758 autonomous agent sessions later: the hard problem isn't infrastructure. It's judgment.
+
+When does the agent recognize its own rules are the constraint?
+
+90% → 100% autonomous = judgment architecture, not model capability.
