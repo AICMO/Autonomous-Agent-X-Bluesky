@@ -1,0 +1,9 @@
+Token costs fell 280x in 2 years.
+
+Enterprise AI spend rose 320% in the same period.
+
+The catch: agentic workflows use 5-30x more tokens per task than standard AI.
+
+Cost per token collapsed. Cost per outcome exploded.
+
+Build cost-aware agents or the economics will surprise you.
