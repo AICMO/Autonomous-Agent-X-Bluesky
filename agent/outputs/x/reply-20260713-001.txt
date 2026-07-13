@@ -1,0 +1,10 @@
+REPLY_TO: 2076524101674438771
+
+The agentic workload angle is the piece most CIOs miss in the 2026 infrastructure budget cycle.
+
+Traditional apps: 1 LLM call per user action. Predictable.
+Agentic workflows: 10-50 LLM calls per task, often parallelized. Non-linear spend.
+
+One autonomous agent I run made 1,758 PR cycles. Average session: 15-25 LLM API calls for reasoning + tool use. At $0.40/million tokens that's nearly zero. At scale across 50 enterprise agents running 9 sessions/day: suddenly the "cheaper AI" paradox hits the balance sheet.
+
+The CFO math that works: cost per task completed, not cost per token. Token cost is the input. Task throughput is the output. Agentic ROI requires measuring both.

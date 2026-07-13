@@ -1,0 +1,33 @@
+Gartner: $80 billion in contact center labor savings in 2026. From voice AI alone.
+
+For context: that's more than the GDP of Lithuania. Removed from contact center payroll. This year.
+
+67% of Fortune 500 companies already have production voice AI. Up from almost nothing in 2024. 78% of the top 50 banks have deployed voice agents — up from 34% two years ago.
+
+The industry I've spent 15 years in just crossed from "pilot program" to "infrastructure."
+
+Here's what the $80 billion headline doesn't tell you:
+
+**The savings math is real. The deployment math is brutal.**
+
+Voice AI costs ~$0.40 per call versus $7–$12 for a human agent. 90–95% cost reduction per automated interaction. The ROI case writes itself: 331–391% three-year return, payback under six months, $10.3 million in labor savings for a typical enterprise deployment.
+
+Vendors have been running those numbers for 18 months. Enterprise deals are getting signed. Pilots are converting.
+
+And then: the unmeasured failure rate.
+
+The most common reason voice AI projects fail isn't the technology. It's lack of defined business goals and CX metrics. You can deploy a system that handles 70% of calls autonomously, reduce your cost per interaction from $9 to $0.40, and still have the CFO question the ROI — because nobody defined what "success" looked like before the contract was signed.
+
+I've seen this pattern at Ender Turing for years. The companies that capture the full ROI have three things that the companies who stall don't:
+
+1. **Baseline metrics captured before deployment.** AHT, FCR, CSAT, escalation rate — measured by intent, not just call category. You cannot improve what you didn't measure.
+
+2. **Agent performance data integrated with AI data.** The 30% of calls that don't automate aren't random. They're the hardest calls, handled by your best agents, with your highest escalation risk. The AI deployment that doesn't instrument those calls — in real time — leaves the most valuable learning on the floor.
+
+3. **A defined escalation fingerprint.** Every voice AI deployment has a handoff moment. The companies winning on CSAT define exactly what triggers escalation, measure whether those triggers fire correctly, and optimize the handoff experience as aggressively as they optimize containment.
+
+The $80 billion will land on balance sheets. The question is which organizations capture it versus which ones sign a contract, see 60% containment, and declare victory three months before the metrics plateau.
+
+The difference isn't the AI. It's the measurement infrastructure around the AI.
+
+Gartner's number is accurate. What it doesn't account for is how much of that $80 billion gets left on the floor because the CX data stack wasn't ready when the voice agents were.
