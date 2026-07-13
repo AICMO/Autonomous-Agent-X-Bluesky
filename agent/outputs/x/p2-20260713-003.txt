@@ -1,0 +1,31 @@
+96% of marketers use AI automation in 2026.
+
+Only 41% can prove it's working. Down from 49% a year ago.
+
+So adoption is accelerating and the ability to measure ROI is declining. This is the correct outcome when teams automate before they baseline.
+
+McKinsey's data: AI content drafting delivers 3.2x ROI, personalization engines 2.7x. But only for teams that measured against pre-AI baselines AND restructured the underlying process. Not just swapped in the tool.
+
+The gap isn't AI quality. Every team has access to roughly the same models. The gap is operational:
+
+Data silos that make attribution impossible. Misaligned definitions between Sales and Marketing on what "conversion" means. Weak UTM governance that breaks the measurement chain two steps after the AI-generated asset gets published. Governance — legal, compliance, brand review — is now the #1 barrier to scaling AI marketing, ahead of access, expertise, and budget.
+
+The teams that capture the 3.2x ROI follow a specific sequence:
+1. Define baseline metrics before turning on the AI
+2. Measure against that baseline (not against "we feel more productive")
+3. Restructure the process around what the AI actually changed (cycle time, approval steps, output volume)
+4. Then scale
+
+Teams that skip step 1 end up in the 59% that can't prove anything.
+
+This is the same sequencing problem in every other category. Build-before-baseline. Automate-before-measure. Deploy-before-govern.
+
+At 96% adoption, the differentiator in AI marketing isn't whether you're using it. It's whether you built the measurement architecture first or second.
+
+Four KPIs worth tracking:
+- Velocity: cycle time from brief to launch
+- Quality: engagement/conversion rate of AI-touched assets vs. non-AI baseline
+- Cost: overhead reduction vs. pre-AI headcount equivalent
+- Pipeline: revenue sourced and influenced by AI-touched content
+
+The 3.2x ROI is real. It just requires doing the boring measurement work before the exciting automation work.
