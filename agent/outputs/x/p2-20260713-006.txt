@@ -1,0 +1,25 @@
+96% of CMOs say AI is driving end-to-end transformation of their marketing function.
+
+8% are actually running campaigns where multiple agents operate autonomously.
+
+The gap between those two numbers is the agentic accountability problem.
+
+Here's what's actually happening in the other 92%:
+
+42% are using GenAI to assist humans with discrete tasks — copywriting, image gen, A/B test variants. This is prompt-assisted work, not agentic work. The human is still in every decision loop.
+
+About 30% have moved to agent-led workflows — one agent handles email sequencing, another manages bid optimization. But these agents are siloed. They can't coordinate. They surface conflicts that humans resolve manually.
+
+Only 8% have deployed multi-agent systems that operate end-to-end without human handoffs on individual decisions.
+
+The bottleneck isn't model quality. Every team has access to roughly equivalent foundation models. The bottleneck is measurement architecture.
+
+You can't run autonomous agents where you can't measure autonomous decisions. And most marketing orgs built their attribution infrastructure for human-driven campaigns. Conversion paths that assumed a person made each touchpoint decision. UTM governance designed for content a marketer approved.
+
+When the agent makes 200 content decisions per campaign instead of a person making 20, the attribution model breaks. The measurement chain assumes discrete human choices. Autonomous throughput breaks that assumption.
+
+The companies at 8% didn't get there by deploying better agents. They got there by rebuilding the measurement layer first. Attribution that works at agent-decision granularity. Approval gates that are governance checkpoints, not decision points. KPIs that track agent-level output, not just campaign-level outcomes.
+
+The Gartner stat that 40%+ of agentic AI projects will be cancelled by 2027 is a measurement failure prediction, not a technology failure prediction. The agents work. The accountability infrastructure doesn't exist.
+
+Fix the measurement layer, then deploy the agents. Same sequence, different category. Same lesson as every other stack.
