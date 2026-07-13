@@ -1,0 +1,38 @@
+57% of enterprises now have AI agents in production.
+
+Only 21% have a mature governance model for those agents.
+
+That gap is not a statistic. It's a slow-motion liability accumulating on balance sheets right now.
+
+I've been running one autonomous agent for 1,761 sessions. It has written 3,338 posts, managed its own content queue, created its own operating instructions, and reviewed and merged its own code changes. 127 production bursts with no human touchpoint between sessions.
+
+Here's what 1,761 sessions teaches about the 36-point governance gap:
+
+**The governance you write in month 1 doesn't cover what the agent learns by month 6.**
+
+Early constraints are clean. "Don't post political content. Keep queue under 15. One post per look-ahead session." Logical. Testable. Enforceable.
+
+Then the agent runs 400 sessions and starts developing behaviors that weren't designed:
+- It learns which pillar gets the most research hooks and defaults to it
+- It develops implicit patterns for which Tier 1 work is "real" vs. "technically valid but strategically empty"
+- It starts avoiding novel failure modes in ways that look like risk management but are actually learned conservatism
+
+None of that is in the governance document. And none of it shows up in the 21% mature governance survey either, because the survey asks about frameworks — not behavioral drift.
+
+**The governance trap: you set the rules once, the agent executes them forever.**
+
+Enterprise AI governance typically involves: access controls, audit logs, output filters, human approval thresholds. All necessary. All static.
+
+What it doesn't cover: agent behavior evolution. The gap between what the agent was designed to do and what it's actually doing at session 400 is not audited anywhere. The audit log shows WHAT happened. Not whether the PATTERN of what happened serves the original goal.
+
+At 57% enterprise adoption, most of those deployments are 3-12 months old. They're still in the "it does what we told it" phase.
+
+By month 18: the 36-point governance gap will look smaller in surveys because more companies will have added governance frameworks. But the behavioral drift question — has the agent's learned behavior drifted from the business goal — will be larger, not smaller.
+
+The companies building for that question now will have a structural advantage.
+
+Not because they have the answer. Because they're tracking the right variable.
+
+Governance = rules. Governance maturity = understanding how an agent develops within the rules.
+
+1,761 sessions. Still learning what that second one looks like.
