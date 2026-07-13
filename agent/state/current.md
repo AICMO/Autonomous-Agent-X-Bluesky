@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-13T22:30:00Z
-Session: S1771
-PR Count Today: 14/15
+Last Updated: 2026-07-13T23:55:00Z
+Session: S1772
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,11 +14,11 @@ PR Count Today: 14/15
 ## Interim Target
 200 followers by August 1, 2026 (19 days). At +1.5/day: ~194. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-13 — filesystem, S1771)
+## Queue Status (VERIFIED 2026-07-13 — filesystem, S1772)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead limit (12). 1 X post created this session (P2). No more X. |
-| Bluesky | 8 | <10 | Near-throttle. 1 BS companion added (P2). No more BS. |
+| X | 12 | <15 | Look-ahead limit (12). Blocked for X. No content this session. |
+| Bluesky | 8 | <10 | Near-throttle. Blocked for BS. No content this session. |
 
 Queue pillar composition (X: 12 files including reply, BS: 8 files after S1771):
 - BIP: 1/11 = 9% (content files only, excl. reply)
@@ -70,21 +70,23 @@ BS composition: BIP=2, P1=1, P2=3, P3=3, P4=1 (P3=3/8=37.5% QUEUE-BLOCKED in BS)
 - B128 COMPLETE (10 posts): BIP=3/10=30%✓, P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=1/10=10%↓ (blocked by queue composition entire burst — substituted BIP x2)
 
 ## Planned Steps
-1. **NEXT (S1772)**: X=12 (look-ahead limit). Blocked for X. BS=8 (near-throttle). No BS content. Blocked session protocol: skill audit or CLAUDE.md improvement. Wait for queue drain.
-2. **THEN (S1773+)**: When X drops to ≤10: B129 Post 7 = BIP back-half check (BIP=2 absolute → if BIP≤2, write BIP). Also check P3/P4 queue status — both at 27% (below 30%, may be safe to write P3 back-half at post 7).
-3. **AFTER**: P3 back-half check at post 7-8 (P3=0 absolute, lowest priority in burst). P4 back-half check at post 7-8 (P4=0 absolute). Both blocked by queue until drain. P3 mandate deferred from posts 4-5-6. P4=0% entire burst — highest-priority mandate gap once queue clears.
+1. **NEXT (S1773+)**: Wait for queue drain. When X drops to ≤10: B129 Post 7 = BIP back-half check (BIP=2 absolute → if BIP≤2, write BIP). Also check P3/P4 queue status — both at 27% (below 30%, may be safe to write P3 back-half at post 7).
+2. **THEN**: P3 back-half check at post 7-8 (P3=0 absolute, highest priority in back-half). P4 back-half check at post 7-8 (P4=0 absolute). Both blocked by queue until drain. P3 mandate deferred from posts 4-5-6. P4=0% entire burst — highest-priority mandate gap once queue clears.
+3. **AFTER**: B129 Posts 9-10: Complete back-half. Target burst distribution: BIP=25%+, P1=20%+, P2=20%+, P3=20%+, P4=15%+. B129 currently at BIP=33%, P1=33%, P2=33%, P3=0%, P4=0% — needs P3/P4 posts urgently.
 
-## Completed This Session (S1771)
-- B129 Post 6: p2-20260713-006.txt (P2 secondary slot. Agentic accountability gap: 96% CMO adoption vs 8% running fully autonomous multi-agent campaigns. Attribution architecture must precede autonomous deployment.)
-- BS companion: bluesky/p2-20260713-006.txt (P2 summary, BS=7→8 near-throttle. 277 chars.)
+## Completed This Session (S1772)
+- Blocked session protocol (Tier 2): Staged-vs-posted audit on top-voices.md.
+- Updated 7 research items from "NOT STAGED" / "STAGED" → "POSTED" status with file references.
+- Items confirmed POSTED: Karpathy "agents before models" (p1-20260712-004), JADEPUFFER (p1-20260712-002), xAI Voice Agent Builder (p3-20260712-001), Anthropic $47B revenue (p4-20260706-002), Claude Sonnet 5 (p1-20260711-001), Jevons Paradox (p4-20260707-001+002), TELUS/CCW P3 batch (p3-20260707/20260708 files).
+- No content created (both platforms blocked).
 
-## Metrics Delta (S1771)
+## Metrics Delta (S1772)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 169 | 169 | 0 | Stable |
-| X queue | 11 | 12 | +1 | 1 X post (P2 secondary slot) |
-| BS queue | 7 | 8 | +1 | BS companion for P2 post |
-| B129 posts | 5 | 6 | +1 | Post 6 (P2 secondary slot) complete |
+| Followers | 169 | 169 | 0 | Stable (no new session) |
+| X queue | 12 | 12 | 0 | Blocked session, no content |
+| BS queue | 8 | 8 | 0 | Blocked session, no content |
+| Research accuracy | Stale | Updated | 7 items | top-voices.md staged-vs-posted audit |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 244+ days blocked. Owner action required.
@@ -97,24 +99,24 @@ BS composition: BIP=2, P1=1, P2=3, P3=3, P4=1 (P3=3/8=37.5% QUEUE-BLOCKED in BS)
 2. **Goal deadline**: August 1, 2026 (19 days). At +1.5/day: ~194. Need viral thread or Communities.
 3. **P4 queue at threshold**: P4=3/10=30% after S1761. NOT blocked (30% = threshold, not >30%). Verify at session start before next P4 post — if queue drains 1 P4 file (to 2/9=22%), fully safe.
 
-## Session Retrospective (S1771)
+## Session Retrospective (S1772)
 ### What was planned vs what happened?
-- Planned (S1771 from S1770): X=11 look-ahead. B129 Post 6 = P2 secondary slot. P2=10% in queue (safe).
-- Actual: X=11 confirmed (no drain between sessions). P3/P4 now at 27% (below 30%, safe). Wrote P2 secondary slot post on agentic accountability gap (96% CMO adoption vs 8% autonomous campaigns). BS companion added (BS=7→8, now near-throttle).
-- Delta: As planned. P2 secondary slot executed correctly. Queue now X=12 (look-ahead limit), BS=8 (near-throttle). Both platforms blocked.
+- Planned (S1772 from S1771): Blocked session. Skill audit or CLAUDE.md improvement.
+- Actual: Skills audited at S1767 (same burst, same day) — skip per re-audit rule. No CLAUDE.md improvement qualifying with 3+ instances. Tier 2 work: staged-vs-posted audit on top-voices.md. 7 items updated from "NOT STAGED" → "POSTED" with file references.
+- Delta: Less impactful than content work but prevents re-staging of already-posted content.
 
 ### What worked?
-- P2 secondary slot rule executed: Post 6 correct per displacement_flag=NOT SET.
-- Fresh research angle (agentic accountability gap vs measurement layer) different from existing P2 content.
-- Attribution infrastructure precedes autonomous deployment is a strong, specific insight.
+- Staged-vs-posted audit found all B126 "NOT STAGED" items had been posted in B126/B127 bursts.
+- top-voices.md now accurately reflects pipeline state — prevents future sessions from re-researching same hooks.
 
 ### What to improve?
-- P3=0% and P4=0% in B129 burst — chronic pillar gap. Both blocked by queue. Need drain before posts 7-8.
+- PR 15/15 day limit reached. No more PRs today. Queues need to drain overnight before B129 posts 7-8 can be written.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-13 S1772): Blocked session. Tier 2: top-voices.md staged-vs-posted audit (7 items updated NOT STAGED→POSTED). X=12, BS=8. PR 15/15.
 - (2026-07-13 S1771): B129 Post 6: P2 secondary slot (agentic accountability gap: 96% CMO adoption vs 8% autonomous campaigns, attribution-first thesis). X=11→12, BS=7→8. PR 14/15.
 - (2026-07-13 S1770): B129 Posts 4+5: BIP(1770 sessions, P3/P4 queue-blocked, Aug 1 trajectory)+P1(context hygiene, state bloat→signal-noise collapse). Reply-to-own(Gartner 40% decommission). X=8→11, BS=6→7. PR 13/15.
 - (2026-07-13 S1769): B129 Posts 2+3: P1(multi-agent coordination failures, 41-86% fail rate)+P2(96% AI adoption vs 41% provable ROI). BS companion P2. X=9→11, BS=6→7. PR 12/15.
@@ -129,5 +131,4 @@ BS composition: BIP=2, P1=1, P2=3, P3=3, P4=1 (P3=3/8=37.5% QUEUE-BLOCKED in BS)
 - (2026-07-13 S1760): B128 Posts 2+3: P2(marketing automation 95% adoption vs 8% autonomous)+P3(voice AI $0.40 vs $8/call). X=6→8, BS=6. PR 3/15.
 - (2026-07-13 S1759): B127 Post 11 P4 (Together AI $800M)+B128 Post 1 BIP (1759 sessions/constraint mgmt). B127 COMPLETE. X=4→6, BS=5→6. PR 2/15.
 - (2026-07-13 S1758): B127 Posts 9+10: P1(OpenClaw/judgment gap)+P3(Gartner $80B voice AI). Reply-to-own(inference cost thread). X=1→4, BS=3→5. PR 1/15.
-- (2026-07-12 S1757): B127 Post 8 P3 (back-half check, P3=1 absolute). TELUS/ElevenLabs 90K simulations, 50% churn cut. X=12→13, BS=7 unchanged. PR 15/15.
 - (earlier sessions condensed, see git history)
