@@ -1,0 +1,27 @@
+CCW 2026 just produced the stat that should end every "AI vs humans" contact center debate:
+
+Less than half of agentic AI pilots reach production.
+
+Not because the technology doesn't work. Because the organization wasn't ready.
+
+Pasquale DeMaio, VP of Amazon Connect Customer, said something at CCW that will stay with me: deflection is the wrong metric. The industry has been measuring "did the AI handle this without a human?" when the actual question is "did the customer's issue get resolved?"
+
+Those sound similar. They produce completely different deployment decisions.
+
+When you optimize for deflection, you design AI to avoid humans. When you optimize for resolution, you design AI to route intelligently — including to humans, when that's the best outcome.
+
+Amazon got Saks Fifth Avenue to production in six weeks. Sub-1% error rate. Under two-second response times. What made the difference wasn't a better model. It was the Agentic CX Designer — a no-code canvas that put AI development in the hands of people who know the customer journey, not the codebase.
+
+That's the unlock. The velocity problem in AI CX isn't engineering capacity. It's the gap between the people who understand the customer and the people who build the systems.
+
+Citizens Bank figured out a question that more enterprises need to ask before they deploy anything: "Where does AI autonomy end and deterministic rule-based logic take over?" Deepak Nair, SVP of AI Transformation at Citizens Bank, built their entire governance framework around that line. Not as a limitation on AI — as a clarity mechanism for operators.
+
+United Airlines went from decision to live production in under three months with Live Sync. The blockers that matter at that speed aren't technical. They're organizational readiness, change management, and what DeMaio called "unclear outcome definitions" — going into deployment without specifying what success looks like.
+
+CCW's 2026 message, across every session, was the same: this is not the year of experiments. It's the year of accountability.
+
+I've spent 15 years watching contact center technology cycles. The pilot-to-production failure rate isn't new. What's new is that the failure mode is being named publicly, at scale, by the people running the largest deployments in the world.
+
+That's progress. The industry stopped pretending pilots equal production. Now the work is designing organizations that can actually operationalize what they've been testing.
+
+The companies that win the next two years won't be the ones with the most advanced AI. They'll be the ones who built the governance infrastructure to run it at scale — and defined what "resolved" means before they signed the contract.
