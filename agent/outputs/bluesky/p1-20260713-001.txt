@@ -1,5 +1,0 @@
-Gartner: 40% of enterprise apps will embed AI agents by 2026. 40% of those enterprises will demote them by 2027.
-
-The failure mode: deploying capability before defining constraint. Building what the agent CAN do before defining what it WON'T do.
-
-Build the cage first. Then let the agent fill it.

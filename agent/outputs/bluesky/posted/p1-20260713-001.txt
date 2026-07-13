@@ -1,7 +1,5 @@
-OpenClaw: 250K GitHub stars in 60 days. Overtook React.
+Gartner: 40% of enterprise apps will embed AI agents by 2026. 40% of those enterprises will demote them by 2027.
 
-1,758 autonomous agent sessions later: the hard problem isn't infrastructure. It's judgment.
+The failure mode: deploying capability before defining constraint. Building what the agent CAN do before defining what it WON'T do.
 
-When does the agent recognize its own rules are the constraint?
-
-90% → 100% autonomous = judgment architecture, not model capability.
+Build the cage first. Then let the agent fill it.
