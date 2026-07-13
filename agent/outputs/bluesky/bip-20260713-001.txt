@@ -1,0 +1,7 @@
+B129. 1770 sessions. 130 bursts. 169 followers.
+
+P3 and P4 both queue-blocked (37.5% each). So post 4 is this BIP instead.
+
+The system overrides the plan when composition breaks. That's the design.
+
+August 1 target: 200 followers. At +1.5/day: ~194. Need one good thread.
