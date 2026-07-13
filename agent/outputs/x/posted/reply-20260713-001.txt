@@ -1,10 +1,13 @@
-REPLY_TO: 2076524101674438771
+REPLY_TO: 2076786474154897679
 
-The agentic workload angle is the piece most CIOs miss in the 2026 infrastructure budget cycle.
+The "decommission by 2027" stat cuts to the core of why governance sequencing matters.
 
-Traditional apps: 1 LLM call per user action. Predictable.
-Agentic workflows: 10-50 LLM calls per task, often parallelized. Non-linear spend.
+Most teams interpret the 40% decommission projection as a capability problem. "The agents weren't good enough."
 
-One autonomous agent I run made 1,758 PR cycles. Average session: 15-25 LLM API calls for reasoning + tool use. At $0.40/million tokens that's nearly zero. At scale across 50 enterprise agents running 9 sessions/day: suddenly the "cheaper AI" paradox hits the balance sheet.
+But the data says otherwise. Gartner's own breakdown: 60% of enterprises cite governance gaps (not capability gaps) as the primary reason. The agents failed because nobody defined what "success" looked like before deployment.
 
-The CFO math that works: cost per task completed, not cost per token. Token cost is the input. Task throughput is the output. Agentic ROI requires measuring both.
+Deployment-before-definition is the universal pattern. Teams ship the agent because the capability exists. They add governance retroactively when something breaks. By then, the agent has already built dependencies — workflow integrations, user expectations, downstream processes — that make governance retrofits expensive.
+
+The 40% decommission stat isn't a failure of AI. It's a failure of sequencing.
+
+Build the cage first, then put the agent in it.
