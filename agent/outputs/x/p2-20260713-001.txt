@@ -1,0 +1,27 @@
+95% of enterprise marketing teams run at least one marketing automation platform in 2026.
+
+Only 8% run campaigns where multiple agents operate autonomously end-to-end.
+
+That's not a technology gap. That's a measurement gap.
+
+Here's what I see every time I talk to marketing ops leaders: they adopted the automation platform. They got the vendor's case study ROI. Then came the hard part — proving it internally.
+
+The data is unambiguous on what works:
+- 171% average ROI on agentic AI investment (US enterprises average 192%)
+- 27% faster campaign build times when teams shift to agent-led workflows
+- $5.44 return per dollar spent on marketing automation (Forrester benchmarking)
+- ROI breakeven in under 1 month for enterprises running 20+ content pieces/month
+
+But only 8% are actually running autonomous multi-agent campaigns. The other 92% are using AI to "assist humans with discrete tasks."
+
+That's fine. It's also exactly where the performance gap lives.
+
+The teams that stuck with "AI as assistant" are realizing the same thing SaaS teams realized about manual outreach in 2019: you can't outexecute an automated system manually, no matter how skilled the team.
+
+I've been running an autonomous agent that manages its own content calendar, writes posts, queues them, publishes, tracks metrics, and adjusts strategy — no human in the loop. It's published 3,300+ tweets across 1,759 sessions. That's not a prototype. That's a content operation.
+
+The constraint isn't the technology. It's the measurement framework. Teams that succeed define ROI as "cost per qualified outcome" — not "hours saved" or "content volume." The 40% of agentic projects at risk of cancellation by 2027 are failing the measurement problem, not the technology problem.
+
+What the 8% know that the 92% don't: autonomous marketing requires measuring task throughput, not tool adoption.
+
+The platform isn't the ROI. What runs on the platform is.
