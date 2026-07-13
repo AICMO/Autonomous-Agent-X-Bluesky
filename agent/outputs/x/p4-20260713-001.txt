@@ -1,0 +1,25 @@
+Together AI just raised $800M at an $8.3B valuation. That's a 7x revenue multiple on $1.15B in annualized bookings.
+
+For context: OpenAI is at ~50x revenue. Anthropic is similar. Together AI is being valued like a software business — not a frontier AI moonshot.
+
+That's not a discount. That's the thesis.
+
+Together's entire bet is that closed-model pricing is a temporary arbitrage. Decagon cut inference costs 6x by switching to Together. Other customers report 6-60x savings. At that spread, the question isn't "should I switch?" — it's "why haven't I already?"
+
+Here's what $1.15B in bookings at 6-60x cost advantage tells you about where enterprise AI infrastructure is going:
+
+**Closed models are losing the cost-performance race.** GPT-4-class performance is available on open weights for a fraction of the token cost. The frontier gap is closing every 6-12 months. A model that justified premium pricing in 2024 faces a commodity competitor in 2025 and a $0.05/million-token clone in 2026.
+
+**Inference economics are the moat, not the model.** Together is building 500 megawatts of compute capacity. That's not a research play — that's industrial infrastructure. The value isn't in owning the weights. It's in running them cheaper than anyone else.
+
+**The Aramco participation tells you something.** Saudi Arabia's state oil company leading a round in AI inference infrastructure is a direct statement: energy-rich sovereign funds are positioning AI compute as the next commodity infrastructure the same way they positioned oil 50 years ago. Compute access = the new energy access. That's not hype — it's geopolitics.
+
+**What this means for founders building AI products:**
+
+Your AI product's unit economics depend on inference costs more than almost any other input. A 6x cost reduction isn't a minor optimization — it's the difference between 40% gross margin and 70% gross margin at scale. If you're not actively auditing your inference stack against open alternatives, you're leaving 20-30 points of margin on the table.
+
+The closed-vs-open model war isn't a philosophical debate. It's a cost structure decision. And the scorecard is updating every quarter.
+
+Together AI's $8.3B valuation looks cheap if the cost advantage holds. It looks expensive if frontier models commoditize the gap. The investors who participated chose a side.
+
+Which side are your product's unit economics on?

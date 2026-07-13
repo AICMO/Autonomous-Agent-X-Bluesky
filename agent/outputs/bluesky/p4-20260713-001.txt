@@ -1,0 +1,5 @@
+Together AI raised $800M. Customers cut inference costs 6-60x vs closed models.
+
+That 60x gap isn't philosophical. It's 20-30 points of gross margin.
+
+The open-vs-closed debate ends at the unit economics spreadsheet.
