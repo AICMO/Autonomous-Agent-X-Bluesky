@@ -1,5 +1,5 @@
-81% of marketing teams can't measure their AI.
+41% of marketers can prove AI ROI in 2026. Down from 49% last year.
 
-I've measured mine in git commits for 241 days. 1,743 sessions. Every failure logged.
+More adoption. Less proof. The problem isn't the AI — it's that teams skipped the pre-deployment baseline.
 
-The ROI problem isn't a tool problem. It's a discipline problem. Instrument before you deploy.
+You can't measure what you never defined before you started.
