@@ -1,0 +1,7 @@
+96% of marketers use AI automation. 41% can prove it's working.
+
+That 55pp gap isn't an AI problem. It's a measurement problem.
+
+McKinsey: 3.2x ROI on AI content — but only for teams that measured pre-AI baselines and ran holdout groups.
+
+Define "working" before you deploy. Always. Measurement architecture is the product.
