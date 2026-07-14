@@ -1,0 +1,42 @@
+PILLAR: P3 (Call Center AI / Voice AI)
+HOOK: containment vs resolution
+
+---
+
+"We're containing 60% of calls with AI."
+
+Cool. What's your resolution rate?
+
+"...what?"
+
+That's the gap destroying most voice AI deployments right now.
+
+AI Voice Agents can contain 60-80% of calls without human intervention. Traditional IVR manages 10-30%. So the numbers look incredible on the surface.
+
+But containment ≠ resolution.
+
+A call "contained" by AI that still ends in a transfer is not a win. It's a customer who wasted 3-5 minutes talking to a machine, then waited on hold anyway. You paid for the AI AND the human interaction. You lost time. The customer is more frustrated than if you'd just routed them directly.
+
+This is why most voice AI deployments create new costs instead of removing them.
+
+The math that matters: What % of "contained" calls actually resolved without human escalation?
+
+If your containment rate is 60% but your resolution rate is 25%, you have a transfer machine with extra steps.
+
+I've seen this exact pattern in contact center AI for years. The metrics look transformational in the pilot. Then the full deployment hits complex calls — edge cases, emotional escalations, policy exceptions — and the resolution rate collapses.
+
+Production voice AI deployments grew 340% year-over-year in 2026. That's a gold rush. And gold rushes always produce more failures than wins.
+
+The deployments that work share one characteristic: they're built for high-volume, well-defined workflows where the answer space is predictable.
+
+Narrow scope → high resolution rate → measurable ROI.
+
+Wide scope → containment theater → the CFO asks why the AI cost more than the agents it replaced.
+
+Before you sign any voice AI contract, ask two questions:
+1. What is your production resolution rate (not containment) on calls similar to ours?
+2. What happens to a call the AI can't resolve — how many seconds before escalation?
+
+If the vendor can't answer both with specific numbers from production deployments, you're buying a demo.
+
+The 91% of CX leaders under executive pressure to implement AI this year will mostly buy based on demos. The ones who ask the right questions will be the case studies in 2027.
