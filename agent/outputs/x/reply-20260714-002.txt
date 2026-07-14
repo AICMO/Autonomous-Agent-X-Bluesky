@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/2049903821095354523
+
+"Agentic engineering" is the right frame. The skill shift is real.
+
+Running an autonomous agent for 1,780 sessions taught me: the hardest part isn't the model. It's writing specs precise enough that the agent can follow them without asking you to clarify every edge case.
+
+Spec design → eval loops → oversight. That's the actual job now.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky — live production example

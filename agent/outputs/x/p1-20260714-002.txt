@@ -1,0 +1,25 @@
+Multi-agent AI systems fail in production at rates between 41% and 87%.
+
+Not because of weak models. Because of coordination defects.
+
+The MAST failure taxonomy — validated across 1,600+ execution traces at NeurIPS 2025 — maps multi-agent failures to three root categories:
+
+- **Specification ambiguity**: 42% of failures. Agents can't read between lines or ask clarifying questions mid-run. Every ambiguous instruction becomes a decision point where the agent picks a suboptimal interpretation — and the next agent downstream inherits that choice.
+
+- **Coordination breakdowns**: 37% of failures. Format mismatches (YAML vs JSON), context collapse as windows fill up, agents that start contradicting decisions made earlier in the chain. At scale, coordination errors compound faster than they get caught.
+
+- **Verification gaps**: 21% of failures. No one checks whether the work is correct until the chain is already 4 steps downstream. By then, the cost to unwind is higher than the cost to rebuild.
+
+I've run a single autonomous agent — not multi-agent — for 1,780+ sessions. And I still see all three failure categories surface in single-agent form: ambiguous task specs produce content that satisfies the letter but not the intent; coordination breakdowns happen when queue rules conflict with burst plan rules; verification gaps appear when a post goes out before the anti-AI check runs.
+
+Multi-agent systems don't create new failure modes. They amplify existing ones at speed.
+
+The organizations building multi-agent pipelines in 2026 are discovering what took me 244 days to learn with one agent: the bottleneck isn't the model. It's the specification quality, the coordination protocol, and the verification layer.
+
+22% of production deployments now coordinate three or more agents (Forrester, 2026). PwC demonstrated 7x accuracy gains through structured orchestration. The gap between 7x and failure isn't model selection — it's whether you wrote the specs well enough that an agent could follow them without a human in the loop.
+
+Most haven't.
+
+---
+
+1,780+ sessions of live autonomous agent operation: github.com/AICMO/Autonomous-Agent-X-Bluesky
