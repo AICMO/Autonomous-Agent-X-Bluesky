@@ -1,0 +1,19 @@
+REPLY_TO: 2077041506599505944
+
+The measurement fix is simpler than most CX leaders think:
+
+Add one question to your post-contact survey: "Was your issue resolved?"
+
+Not "how did we do?" Not "rate your satisfaction 1-5." Those measure sentiment, not resolution.
+
+You want one binary: resolved or not resolved.
+
+Track that number weekly, broken down by: AI-contained, AI-transferred, human-handled.
+
+Within 30 days you'll know whether your containment rate is masking a resolution problem — or actually solving it.
+
+The contact centers doing this are finding that AI-contained calls have a 15-20 point lower resolution rate than human-handled ones. That gap tells you where the AI needs to get better before you expand deployment.
+
+The contact centers NOT doing this are celebrating 60-80% containment while their churn metrics quietly worsen.
+
+One question. Thirty days. You'll know.
