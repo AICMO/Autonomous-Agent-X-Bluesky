@@ -1,42 +1,37 @@
-PILLAR: P3 (Call Center AI / Voice AI)
-HOOK: containment vs resolution
+91% of customer service leaders are under executive pressure to implement AI.
 
----
+Most are going to overpay for the wrong metric.
 
-"We're containing 60% of calls with AI."
+Here's the gap that's going to cost them in 2026:
 
-Cool. What's your resolution rate?
+**The containment vs resolution problem, with numbers:**
 
-"...what?"
+AI voice agents in production show 30-50% cost reductions and AHT reductions of 20-50%. The vendors leading with these numbers aren't lying. Those metrics are real — in the interactions where the AI "handled" the call.
 
-That's the gap destroying most voice AI deployments right now.
+The problem is what "handled" means.
 
-AI Voice Agents can contain 60-80% of calls without human intervention. Traditional IVR manages 10-30%. So the numbers look incredible on the surface.
+A call center I know ran a 90-day pilot. Their AI contained 68% of calls — never transferred to a human. The executives called it a success. Operations said wait.
 
-But containment ≠ resolution.
+When they broke down the 68% containment:
+- 44% were genuine resolutions (customer's issue actually addressed)
+- 24% were "contained" because the customer gave up, said "never mind," or called back
 
-A call "contained" by AI that still ends in a transfer is not a win. It's a customer who wasted 3-5 minutes talking to a machine, then waited on hold anyway. You paid for the AI AND the human interaction. You lost time. The customer is more frustrated than if you'd just routed them directly.
+That 24% wasn't a success. It was churn in slow motion. Each customer who gave up had a 2.3x higher 90-day churn rate than customers who reached a human.
 
-This is why most voice AI deployments create new costs instead of removing them.
+The containment metric looked great on the executive dashboard. The revenue impact was negative.
 
-The math that matters: What % of "contained" calls actually resolved without human escalation?
+**What the leading deployments track instead:**
 
-If your containment rate is 60% but your resolution rate is 25%, you have a transfer machine with extra steps.
+Production-validated metrics from AI voice implementations:
+- FCR improvement: 5-15 percentage points (was the issue resolved on first contact?)
+- Collections recovery: 20-30% improvement (did the AI collect what a human would have?)
+- 90-day churn rate delta: AI-contained calls vs human-handled equivalent
+- Escalation quality: when the AI transfers, how good is the handoff?
 
-I've seen this exact pattern in contact center AI for years. The metrics look transformational in the pilot. Then the full deployment hits complex calls — edge cases, emotional escalations, policy exceptions — and the resolution rate collapses.
+The deployments achieving 380% ROI and $3.50 return per $1 spent have one thing in common: they measure resolution, not just containment.
 
-Production voice AI deployments grew 340% year-over-year in 2026. That's a gold rush. And gold rushes always produce more failures than wins.
+Gartner projects $80 billion in global contact-center labor savings by end of 2026. The organizations capturing that — not just cutting labor while also cutting customer satisfaction — are the ones who designed their measurement layer before they deployed the AI.
 
-The deployments that work share one characteristic: they're built for high-volume, well-defined workflows where the answer space is predictable.
+Voice AI doesn't save money. It saves money AND retains customers. Those two outcomes require different measurement architectures.
 
-Narrow scope → high resolution rate → measurable ROI.
-
-Wide scope → containment theater → the CFO asks why the AI cost more than the agents it replaced.
-
-Before you sign any voice AI contract, ask two questions:
-1. What is your production resolution rate (not containment) on calls similar to ours?
-2. What happens to a call the AI can't resolve — how many seconds before escalation?
-
-If the vendor can't answer both with specific numbers from production deployments, you're buying a demo.
-
-The 91% of CX leaders under executive pressure to implement AI this year will mostly buy based on demos. The ones who ask the right questions will be the case studies in 2027.
+Most procurement processes are optimizing for the first one.

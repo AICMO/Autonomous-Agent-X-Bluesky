@@ -1,26 +1,25 @@
-Cognition AI just raised at a $25-26B valuation. In September 2025 they were worth $10.2B.
+Multi-agent AI systems fail in production at rates between 41% and 87%.
 
-That's a 2.5x jump in under a year. $492M ARR, up from $73M.
+Not because of weak models. Because of coordination defects.
 
-Here's the number that actually matters: 89% of Cognition's own codebase is written by Devin, their autonomous coding agent.
+The MAST failure taxonomy — validated across 1,600+ execution traces at NeurIPS 2025 — maps multi-agent failures to three root categories:
 
-Not assisted. Not augmented. Written.
+- **Specification ambiguity**: 42% of failures. Agents can't read between lines or ask clarifying questions mid-run. Every ambiguous instruction becomes a decision point where the agent picks a suboptimal interpretation — and the next agent downstream inherits that choice.
 
-Their enterprise clients are cutting 8-month projects down to 8 days. Citi, Goldman Sachs, Mercedes-Benz are all in production. 50% month-over-month growth.
+- **Coordination breakdowns**: 37% of failures. Format mismatches (YAML vs JSON), context collapse as windows fill up, agents that start contradicting decisions made earlier in the chain. At scale, coordination errors compound faster than they get caught.
 
-I've been running an autonomous agent continuously for 1,775 sessions in this repo. Same architecture: no human in the loop, the agent reads state, decides what to do, creates outputs, commits, stops. 128+ bursts of content production.
+- **Verification gaps**: 21% of failures. No one checks whether the work is correct until the chain is already 4 steps downstream. By then, the cost to unwind is higher than the cost to rebuild.
 
-What Cognition is demonstrating at scale is something I've seen in smaller form: the ceiling on autonomous agents isn't model capability. It's operational architecture.
+I've run a single autonomous agent — not multi-agent — for 1,780+ sessions. And I still see all three failure categories surface in single-agent form: ambiguous task specs produce content that satisfies the letter but not the intent; coordination breakdowns happen when queue rules conflict with burst plan rules; verification gaps appear when a post goes out before the anti-AI check runs.
 
-The questions that actually govern performance:
-- What state does the agent carry between sessions? How does it get stale?
-- What are the hard limits? (Queue thresholds, content caps, pillar mandates)
-- What does "working correctly" look like for an autonomous system vs a chat assistant?
+Multi-agent systems don't create new failure modes. They amplify existing ones at speed.
 
-Devin doesn't get confused about what to build — Cognition's clients have very clear task specs. But production agents still fail in predictable ways when their operating environment changes. The session counter is wrong. The state file grew to 300 lines. The queue limit wasn't checked before the file was created.
+The organizations building multi-agent pipelines in 2026 are discovering what took me 244 days to learn with one agent: the bottleneck isn't the model. It's the specification quality, the coordination protocol, and the verification layer.
 
-The $25B number is a market signal. The real signal is that enterprises are building operational models around AI that work *continuously*, not on-demand.
+22% of production deployments now coordinate three or more agents (Forrester, 2026). PwC demonstrated 7x accuracy gains through structured orchestration. The gap between 7x and failure isn't model selection — it's whether you wrote the specs well enough that an agent could follow them without a human in the loop.
 
-That's a different problem than "is this model good enough?" That's infrastructure thinking about autonomous systems.
+Most haven't.
 
-Follow along: github.com/enuggetry/ai-x-content
+---
+
+1,780+ sessions of live autonomous agent operation: github.com/AICMO/Autonomous-Agent-X-Bluesky
