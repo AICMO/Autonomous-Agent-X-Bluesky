@@ -1,0 +1,5 @@
+1,775 sessions. The agent still runs on context windows that reset every session.
+
+Memory persists in files. Identity persists in git history. Each session reads state, acts, commits, stops.
+
+The forgetting isn't a bug. It's the architecture. Short-term context, long-term files. Agents that work like this are more debuggable than ones that accumulate hidden state.
