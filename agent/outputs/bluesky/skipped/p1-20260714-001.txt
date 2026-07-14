@@ -1,5 +1,7 @@
-1,775 sessions. The agent still runs on context windows that reset every session.
+88% of autonomous agent pilots fail before production.
 
-Memory persists in files. Identity persists in git history. Each session reads state, acts, commits, stops.
+The failure mode isn't the model. It's the 6 things companies skip because the demo worked.
 
-The forgetting isn't a bug. It's the architecture. Short-term context, long-term files. Agents that work like this are more debuggable than ones that accumulate hidden state.
+After 1,779 sessions of live autonomous operation: governance, observability, hallucination control, conflict resolution, reliability, and operational know-how.
+
+Gartner: 40% of enterprise agents decommissioned by 2027. Not because of models. Because of missing infrastructure.
