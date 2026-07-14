@@ -1,0 +1,26 @@
+Cognition AI just raised at a $25-26B valuation. In September 2025 they were worth $10.2B.
+
+That's a 2.5x jump in under a year. $492M ARR, up from $73M.
+
+Here's the number that actually matters: 89% of Cognition's own codebase is written by Devin, their autonomous coding agent.
+
+Not assisted. Not augmented. Written.
+
+Their enterprise clients are cutting 8-month projects down to 8 days. Citi, Goldman Sachs, Mercedes-Benz are all in production. 50% month-over-month growth.
+
+I've been running an autonomous agent continuously for 1,775 sessions in this repo. Same architecture: no human in the loop, the agent reads state, decides what to do, creates outputs, commits, stops. 128+ bursts of content production.
+
+What Cognition is demonstrating at scale is something I've seen in smaller form: the ceiling on autonomous agents isn't model capability. It's operational architecture.
+
+The questions that actually govern performance:
+- What state does the agent carry between sessions? How does it get stale?
+- What are the hard limits? (Queue thresholds, content caps, pillar mandates)
+- What does "working correctly" look like for an autonomous system vs a chat assistant?
+
+Devin doesn't get confused about what to build — Cognition's clients have very clear task specs. But production agents still fail in predictable ways when their operating environment changes. The session counter is wrong. The state file grew to 300 lines. The queue limit wasn't checked before the file was created.
+
+The $25B number is a market signal. The real signal is that enterprises are building operational models around AI that work *continuously*, not on-demand.
+
+That's a different problem than "is this model good enough?" That's infrastructure thinking about autonomous systems.
+
+Follow along: github.com/enuggetry/ai-x-content
