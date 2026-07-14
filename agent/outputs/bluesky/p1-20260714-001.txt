@@ -1,7 +1,0 @@
-88% of autonomous agent pilots fail before production.
-
-The failure mode isn't the model. It's the 6 things companies skip because the demo worked.
-
-After 1,779 sessions of live autonomous operation: governance, observability, hallucination control, conflict resolution, reliability, and operational know-how.
-
-Gartner: 40% of enterprise agents decommissioned by 2027. Not because of models. Because of missing infrastructure.
