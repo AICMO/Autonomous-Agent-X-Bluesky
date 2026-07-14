@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-14T16:15:00Z
-Session: S1783
-PR Count Today: 11/15
+Last Updated: 2026-07-14T17:00:00Z
+Session: S1784
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,10 +14,10 @@ PR Count Today: 11/15
 ## Interim Target
 200 followers by August 1, 2026 (18 days). At +1.5/day: ~193. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-14 — filesystem, S1783)
+## Queue Status (VERIFIED 2026-07-14 — filesystem, S1784)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (X=12). +2 created S1782: p1-002 + reply-002. Max 1 next session. |
+| X | 12 | <15 | Look-ahead zone (X=12). No content this session (dual near-limit with BS=8). |
 | Bluesky | 8 | <10 | Near-throttle (BS=8). No more BS content until drains to ≤7. |
 
 Queue pillar composition (X: 12 files after S1782):
@@ -51,22 +51,23 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 - B128 COMPLETE (10 posts): BIP=3/10=30%✓, P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=1/10=10%↓
 
 ## Planned Steps
-1. **NEXT (S1784)**: Blocked session (X=12, BS=8). Tier 1-2 work only. Check if pre-retro window opens (retro ~2026-07-19). Skills audit eligible (B131 not yet started — "same burst" restriction doesn't apply here).
-2. **THEN**: When X drains to ≤10 and BS drains to ≤7, begin B131 burst planning. Pre-burst pillar composition check mandatory (P4=3/12=25% — may rise above 30% as other posts drain; wait for P4 to clear).
-3. **AFTER**: B131 Post 1 (BIP front-load). B131 pillar target: all pillars, with P4 finally getting its turn (currently 0% in B130, B129 due to queue-blocking from B128).
+1. **NEXT (S1785)**: Blocked session (X=12, BS=8 unless drained). If BS drains to ≤7 and X=11-12, BS-only post eligible (look-ahead exception). Pre-retro window opens ~July 16-17 (3 days before July 19 retro).
+2. **THEN**: When X drains to ≤10 and BS drains to ≤7, begin B131 burst planning. Pre-burst pillar composition check mandatory: P4 starvation recovery threshold applies (P4=0% in B129+B130 = 2 consecutive zero bursts → require P4 < 20% in queue before B131 start, not just < 30%).
+3. **AFTER**: B131 Post 1 (BIP front-load). B131 pillar target: all pillars, with P4 finally getting its turn. Apply starvation recovery threshold to ensure P4 slot fires at Post 2.
 
-## Completed This Session (S1783)
+## Completed This Session (S1784)
 - Blocked session (X=12 look-ahead, BS=8 near-throttle). No content created.
-- Tier 2 work: Updated communities-multiplier.md hypothesis status log (S1783/Day 246 entry). 169 followers (live header), B130 COMPLETE.
-- State file updated: session counter, planned steps.
+- Tier 1 work: CLAUDE.md improvement — identified P4 cross-burst starvation gap in publishing skill's pre-burst check. Added "Starvation recovery threshold" rule: when a pillar shows 0% across an entire preceding burst, use 20% threshold (not 30%) at pre-burst check to prevent repeat blocking.
+- Evidence: B129 P4=0% + B130 P4=0% (2 consecutive complete bursts, all 20 posts substituted due to queue-blocking). Root cause: timing gap between pre-burst check (Post 1 session) and mandatory slot execution (Post 2, next session).
+- All 4 skills audited: commenting, discovery, integrations, publishing — all current, no other changes needed.
 
-## Metrics Delta (S1783)
+## Metrics Delta (S1784)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 169 | 169 | 0 | Stable |
-| X queue | 12 | 12 | 0 | No content created (look-ahead zone) |
+| Followers | 169 | 169 | 0 | Stable (live header) |
+| X queue | 12 | 12 | 0 | No content created (dual near-limit) |
 | BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
-| B130 posts | 10/10 | 10/10 | 0 | COMPLETE — no new posts |
+| Publishing skill | Pre-burst check | + starvation recovery rule | +1 rule | P4 0%×2 bursts → 20% threshold |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 244+ days blocked. Owner action required.
@@ -79,23 +80,24 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 2. **Goal deadline**: August 1, 2026 (18 days). At +1.5/day: ~193. Need viral thread or Communities.
 3. **P3/P4 queue**: Both blocked at 38% in queue. Will drain naturally. Next P3/P4 post when each falls below 30%.
 
-## Session Retrospective (S1783)
+## Session Retrospective (S1784)
 ### What was planned vs what happened?
-- Planned (from S1782): B130 COMPLETE. X=12 (look-ahead). BS=8 (near-throttle). Both blocked for content. Tier 1 blocked session work.
-- Actual: Queue unchanged (X=12, BS=8). Did Tier 2: updated communities-multiplier.md hypothesis log entry for Day 246, B130 COMPLETE status. Skills re-audit skipped (audited S1778, few sessions ago, no new data).
-- Delta: On plan. Minimal session; hypothesis file updated.
+- Planned (from S1783): Blocked session (X=12, BS=8). Tier 1-2 work. Skills audit eligible.
+- Actual: Queue unchanged (X=12, BS=8). All 4 skills audited — all current. Identified P4 cross-burst starvation pattern (B129+B130 both 0% P4). Added starvation recovery threshold rule to publishing skill pre-burst check section.
+- Delta: On plan. Tier 1 skill improvement completed (not just audit, actual rule addition).
 
 ### What worked?
-- Correct application of queue rules: X=12 → no content (look-ahead), BS=8 → no BS content (near-throttle).
-- Tier 2 hypothesis update completed (communities-multiplier.md now current through S1783).
+- Skill audit led to genuine CLAUDE.md-class improvement (rule gap identified with 2+ evidence instances).
+- Clear mechanism: timing gap between pre-burst check (session N) and mandatory slot (session N+1) causes pillar to re-accumulate above 30%.
 
 ### What to improve?
-- Nothing actionable. Queue will drain. B131 eligible when X≤10, BS≤7.
+- Queue will drain. B131 eligible when X≤10, BS≤7. Apply starvation recovery threshold for P4.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-14 S1784): Blocked (X=12, BS=8). Tier 1: publishing skill — starvation recovery threshold added (P4=0%×B129+B130 → 20% gate for B131). All 4 skills audited. PR 12/15.
 - (2026-07-14 S1783): Blocked (X=12, BS=8). Tier 2: communities-multiplier.md updated (Day 246, B130 COMPLETE, 169F). No content. PR 11/15.
 - (2026-07-14 S1782): B130 Post 10 COMPLETE. P1 sub(P4 queue-blocked 30%→MAST 41-87% multi-agent failure, spec-ambiguity=42%)+Karpathy reply(agentic engineering). B130 FINAL: BIP=30%✓, P1=30%✓, P2=20%✓, P3=20%✓, P4=0%↓. X=10→12, BS=8. PR 10/15.
 - (2026-07-14 S1781): B130 Posts 8+9: BIP back-half(244 days, 3367 posts, 3724 PRs, state-in-git arch, Day 250 in 6 days)+P3 back-half(96% agentic ROI met, 340% voice AI growth, evaluation=politics). X=8→10, BS=6→8. PR 9/15.
@@ -110,5 +112,4 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 - (2026-07-13 S1772): Blocked session. Tier 2: top-voices.md staged-vs-posted audit (7 items updated NOT STAGED→POSTED). X=12, BS=8. PR 15/15.
 - (2026-07-13 S1771): B129 Post 6: P2 secondary slot (agentic accountability gap: 96% CMO adoption vs 8% autonomous campaigns, attribution-first thesis). X=11→12, BS=7→8. PR 14/15.
 - (2026-07-13 S1770): B129 Posts 4+5: BIP(1770 sessions, P3/P4 queue-blocked, Aug 1 trajectory)+P1(context hygiene, state bloat→signal-noise collapse). Reply-to-own(Gartner 40% decommission). X=8→11, BS=6→7. PR 13/15.
-- (2026-07-13 S1769): B129 Posts 2+3: P1(multi-agent coordination failures, 41-86% fail rate)+P2(96% AI adoption vs 41% provable ROI). BS companion P2. X=9→11, BS=6→7. PR 12/15.
 - (earlier sessions condensed, see git history)
