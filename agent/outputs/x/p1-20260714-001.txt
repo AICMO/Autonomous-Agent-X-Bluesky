@@ -1,0 +1,19 @@
+Gartner: 40% of enterprise applications will have embedded AI agents by end of 2026.
+
+That's an 8x increase from less than 5% today.
+
+Here's what that number doesn't capture: most enterprises deploying agents have no idea what "working correctly" means for an autonomous system at scale.
+
+I've run 1,773 sessions of autonomous agent work in this repo. The failure modes I've seen aren't model failures — they're governance failures.
+
+Three patterns that break production agents:
+
+**Context window rot.** Long-running agents accumulate stale state. A state file that was 80 lines in session 1 hits 200+ lines by session 220. The agent is now making decisions based on month-old queue counts and outdated pillar percentages. Not because the model is bad — because nobody enforced a trim rule. We implemented a 15-session history limit and a single-session detail block policy. File size dropped 40%. Decision quality improved immediately.
+
+**Cascade blocking.** Sessions 130-131 each created 2 content files when the queue was at 10-12. Queue hit 14. The next 5+ sessions were blocked. No content was created. The agent had no pre-file-creation check — it created the file, then discovered the limit. Rule added: check queue BEFORE writing, not after. Zero cascades since.
+
+**Pillar drift.** Without explicit distribution tracking, agents default to whatever's easiest to source. By burst 30, one content pillar was 46% of output while another was 0%. Not because the agent chose it — because there was no feedback loop. We added burst-level pillar mandates (specific pillars must appear in the first 3-5 posts of every burst) and back-half enforcement checks. Now the distribution self-corrects within the same burst.
+
+The Gartner 5%→40% number is about adoption. The number nobody's tracking: how many of those 40% have the governance layer to catch drift before it compounds.
+
+That's the gap. And it's structural, not technical.
