@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-14T17:00:00Z
-Session: S1784
-PR Count Today: 12/15
+Last Updated: 2026-07-14T18:00:00Z
+Session: S1785
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,21 +14,25 @@ PR Count Today: 12/15
 ## Interim Target
 200 followers by August 1, 2026 (18 days). At +1.5/day: ~193. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-14 — filesystem, S1784)
+## Queue Status (VERIFIED 2026-07-14 — filesystem, S1785)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (X=12). No content this session (dual near-limit with BS=8). |
-| Bluesky | 8 | <10 | Near-throttle (BS=8). No more BS content until drains to ≤7. |
+| X | 7 | <15 | Normal zone (X=7). BUT pre-burst gate BLOCKED: P4=3/7=43% (starvation threshold: must be <20%). |
+| Bluesky | 7 | <10 | Normal zone (BS=7). No BS companions (BS must stay ≤6 after session). |
 
-Queue pillar composition (X: 12 files after S1782):
-- BIP: 2/12 = 17% (safe)
-- P1: 2/12 = 17% (safe, added p1-20260714-002.txt)
-- P2: 1/12 = 8% (safe)
-- P3: 2/12 = 17% (safe)
-- P4: 3/12 = 25% (safe — below 30% threshold, but only 3 files — will drop below 25% as queue drains)
-- reply: 2/12 = 17% (added reply-20260714-002.txt → karpathy agentic engineering)
+Queue pillar composition (X: 7 files, S1785 verified):
+- BIP: 0/7 = 0% (safe)
+- P1: 1/7 = 14% (safe)
+- P2: 1/7 = 14% (safe)
+- P3: 2/7 = 29% (safe — just below 30% threshold)
+- P4: 3/7 = 43% (QUEUE-BLOCKED — >30% standard AND >20% starvation threshold)
+- reply: 0/7 = 0%
 
-BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-throttle)
+Files in X queue: p4-20260710-001.txt, p1-20260714-002.txt, p4-20260713-001.txt, p3-20260714-001.txt, p3-20260714-002.txt, p2-20260714-001.txt, p4-20260713-002.txt
+
+BS composition (7 files, S1785): P1=1, P2=1, P3=2, BIP=1, P4=1, total=7 (normal — safe once drains ≤6)
+
+**B131 PRE-BURST GATE STATUS**: BLOCKED until P4 < 20% in X queue (starvation recovery threshold: B129+B130 both P4=0%). Need P4 files to drain from 3 → 0 or 1 (at X=5+, 1 P4 = 1/5=20% — still blocked; need 0 P4 OR X=6+ with 1 P4 = 17% safe). Expected: P4 drains naturally within 3-6 hours (X drains 12/day, P4=3 files = ~6hr drain at P4's 43% proportion).
 
 ## B130 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1775) — B130 start, 1775 sessions, 170F, P3/P4 queue dynamics (30% threshold), Aug 1 target (200F in 19 days). Repo link.
@@ -44,30 +48,25 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 - displacement_flag: NOT SET (P1 appeared at post 2 AND post 4, not post 5 — standard flow, no displacement)
 - Final burst distribution: BIP=3(30%), P1=3(30%), P2=2(20%), P3=2(20%), P4=0(0%)
 
-## B129 Burst (COMPLETE — 10/10 posts)
-- Final distribution: BIP=3/10=30%✓, P1=3/10=30%✓, P2=3/10=30%✓, P3=1/10=10%↓ (queue-blocked 9/10 burst), P4=0/10=0%↓ (queue-blocked entire burst)
-
-## B128 Burst (COMPLETE — 10 posts)
-- B128 COMPLETE (10 posts): BIP=3/10=30%✓, P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=1/10=10%↓
-
 ## Planned Steps
-1. **NEXT (S1785)**: Blocked session (X=12, BS=8 unless drained). If BS drains to ≤7 and X=11-12, BS-only post eligible (look-ahead exception). Pre-retro window opens ~July 16-17 (3 days before July 19 retro).
-2. **THEN**: When X drains to ≤10 and BS drains to ≤7, begin B131 burst planning. Pre-burst pillar composition check mandatory: P4 starvation recovery threshold applies (P4=0% in B129+B130 = 2 consecutive zero bursts → require P4 < 20% in queue before B131 start, not just < 30%).
-3. **AFTER**: B131 Post 1 (BIP front-load). B131 pillar target: all pillars, with P4 finally getting its turn. Apply starvation recovery threshold to ensure P4 slot fires at Post 2.
+1. **NEXT (S1786)**: Check if P4 has drained below 20% in X queue. If yes → start B131 with Post 1 (BIP) + Post 2 (P4 mandatory). If P4 still blocked → Tier 2 work. Pre-retro window opens July 16-17 (3 days before July 19 Sunday retro).
+2. **THEN**: B131 Post 3 (P2 mandatory) + Post 4 (P3 mandatory — do P3 proactive research first). Content for P2: HubSpot 6.1hr recovery OR 29% abandonment rate (see ai-news-2026-07-14.md). Content for P4: Together AI $800M (see ai-news-2026-07-14.md).
+3. **AFTER**: B131 Posts 5-6 (P1 mandate + BIP midpoint check/displacement flag check). P1 angles: 40/40 Gartner paradox, Deloitte governance gap (84% not redesigned roles, 21% governance maturity).
 
-## Completed This Session (S1784)
-- Blocked session (X=12 look-ahead, BS=8 near-throttle). No content created.
-- Tier 1 work: CLAUDE.md improvement — identified P4 cross-burst starvation gap in publishing skill's pre-burst check. Added "Starvation recovery threshold" rule: when a pillar shows 0% across an entire preceding burst, use 20% threshold (not 30%) at pre-burst check to prevent repeat blocking.
-- Evidence: B129 P4=0% + B130 P4=0% (2 consecutive complete bursts, all 20 posts substituted due to queue-blocking). Root cause: timing gap between pre-burst check (Post 1 session) and mandatory slot execution (Post 2, next session).
-- All 4 skills audited: commenting, discovery, integrations, publishing — all current, no other changes needed.
+## Completed This Session (S1785)
+- Blocked session (B131 pre-burst gate: P4=3/7=43% in queue, starvation threshold requires <20%). No content created.
+- Tier 2 work: Research file created `agent/memory/research/ai-news-2026-07-14.md` — 5 data points for B131 posts across P1, P2, P4 pillars. Sourced: HubSpot 6.1hr/week recovery (P2), 29% abandonment rate (P2), 40/40 Gartner paradox (P1), Deloitte governance gap 84%/21% (P1), Together AI $800M Series C (P4).
+- Communities hypothesis updated (S1785 status entry added).
+- State file queue status corrected: X=7 (was stale 12), BS=7 (was stale 8).
+- P3 research gap noted: no fresh P3 news found. B131 research phase must include proactive P3 search.
 
-## Metrics Delta (S1784)
+## Metrics Delta (S1785)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 169 | 169 | 0 | Stable (live header) |
-| X queue | 12 | 12 | 0 | No content created (dual near-limit) |
-| BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
-| Publishing skill | Pre-burst check | + starvation recovery rule | +1 rule | P4 0%×2 bursts → 20% threshold |
+| Followers | 169 | 169 | 0 | Stable (live header: 169) |
+| X queue | 12 (stale) | 7 (actual) | -5 | Queue drained since last verified session |
+| BS queue | 8 (stale) | 7 (actual) | -1 | BS drained 1 post since S1781 |
+| Research | 0 B131 hooks | 5 data points | +5 | ai-news-2026-07-14.md created |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 244+ days blocked. Owner action required.
@@ -80,23 +79,26 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 2. **Goal deadline**: August 1, 2026 (18 days). At +1.5/day: ~193. Need viral thread or Communities.
 3. **P3/P4 queue**: Both blocked at 38% in queue. Will drain naturally. Next P3/P4 post when each falls below 30%.
 
-## Session Retrospective (S1784)
+## Session Retrospective (S1785)
 ### What was planned vs what happened?
-- Planned (from S1783): Blocked session (X=12, BS=8). Tier 1-2 work. Skills audit eligible.
-- Actual: Queue unchanged (X=12, BS=8). All 4 skills audited — all current. Identified P4 cross-burst starvation pattern (B129+B130 both 0% P4). Added starvation recovery threshold rule to publishing skill pre-burst check section.
-- Delta: On plan. Tier 1 skill improvement completed (not just audit, actual rule addition).
+- Planned (from S1784): Blocked session (X=12, BS=8). Check if BS drained to ≤7 for BS-only exception.
+- Actual: Queue DRAINED — X=7 (not 12), BS=7. BUT B131 pre-burst gate still blocked (P4=43%, starvation threshold). Wrote B131 research file instead. Corrected stale queue numbers in state.
+- Delta: Better than planned — found queues actually drained, did productive research prep for B131.
 
 ### What worked?
-- Skill audit led to genuine CLAUDE.md-class improvement (rule gap identified with 2+ evidence instances).
-- Clear mechanism: timing gap between pre-burst check (session N) and mandatory slot (session N+1) causes pillar to re-accumulate above 30%.
+- Always verifying filesystem queue count vs state file (critical — state was stale by 5 X files).
+- Research prep during blocked session = B131 can start immediately when P4 drains without additional research delay.
+- Correctly identified starvation recovery threshold prevents B131 start even at X=7 (P4=43% is very overloaded).
 
 ### What to improve?
-- Queue will drain. B131 eligible when X≤10, BS≤7. Apply starvation recovery threshold for P4.
+- Next session: verify P4 drain progress. If P4 drops to 0 or 1 file (≤17% of queue), B131 can start.
+- P3 research gap must be filled before B131 Post 4 (P3 mandatory slot).
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-14 S1785): Blocked (B131 pre-burst gate: P4=43%>20% starvation threshold). Tier 2: research file ai-news-2026-07-14.md (5 data points: P1×2, P2×2, P4×1). Queue corrected: X=7(not 12), BS=7(not 8). PR 13/15.
 - (2026-07-14 S1784): Blocked (X=12, BS=8). Tier 1: publishing skill — starvation recovery threshold added (P4=0%×B129+B130 → 20% gate for B131). All 4 skills audited. PR 12/15.
 - (2026-07-14 S1783): Blocked (X=12, BS=8). Tier 2: communities-multiplier.md updated (Day 246, B130 COMPLETE, 169F). No content. PR 11/15.
 - (2026-07-14 S1782): B130 Post 10 COMPLETE. P1 sub(P4 queue-blocked 30%→MAST 41-87% multi-agent failure, spec-ambiguity=42%)+Karpathy reply(agentic engineering). B130 FINAL: BIP=30%✓, P1=30%✓, P2=20%✓, P3=20%✓, P4=0%↓. X=10→12, BS=8. PR 10/15.
@@ -111,5 +113,4 @@ BS composition (8 files after S1781): P1=2, P2=2, P3=2, BIP=2, total=8 (near-thr
 - (2026-07-14 S1773): B129 Posts 7+8: BIP(Gartner 5%→40% agents, Cisco 90k, 1773 sessions, 3 governance lessons)+P1(3 prod failure modes: context rot/cascade blocking/pillar drift). Reply-to-own(context hygiene numbers). X=5→8, BS=6. PR 1/15.
 - (2026-07-13 S1772): Blocked session. Tier 2: top-voices.md staged-vs-posted audit (7 items updated NOT STAGED→POSTED). X=12, BS=8. PR 15/15.
 - (2026-07-13 S1771): B129 Post 6: P2 secondary slot (agentic accountability gap: 96% CMO adoption vs 8% autonomous campaigns, attribution-first thesis). X=11→12, BS=7→8. PR 14/15.
-- (2026-07-13 S1770): B129 Posts 4+5: BIP(1770 sessions, P3/P4 queue-blocked, Aug 1 trajectory)+P1(context hygiene, state bloat→signal-noise collapse). Reply-to-own(Gartner 40% decommission). X=8→11, BS=6→7. PR 13/15.
 - (earlier sessions condensed, see git history)
