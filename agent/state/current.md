@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-14T04:30:00Z
-Session: S1773
-PR Count Today: 1/15
+Last Updated: 2026-07-14T06:00:00Z
+Session: S1774
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,18 +14,18 @@ PR Count Today: 1/15
 ## Interim Target
 200 followers by August 1, 2026 (19 days). At +1.5/day: ~194. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-14 — filesystem, S1773)
+## Queue Status (VERIFIED 2026-07-14 — filesystem, S1774)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Safe. Burst fill zone. |
-| Bluesky | 6 | <10 | Safe. No companions this session (BS_start=6, limit: ≤6). |
+| X | 10 | <15 | Safe. Look-ahead zone (≤10 = burst fill zone still). |
+| Bluesky | 6 | <10 | Safe. No companions (BS_start=6, limit: ≤6). |
 
-Queue pillar composition (X: 8 files after S1773):
-- BIP: 1/7 = 14% (safe, excl. reply file)
-- P1: 1/7 = 14% (safe)
-- P2: 0/7 = 0% (safe)
-- P3: 2/7 = 28.6% (borderline safe, below 30% threshold)
-- P4: 3/7 = 42.9% (QUEUE-BLOCKED)
+Queue pillar composition (X: 10 files after S1774):
+- BIP: 1/9 = 11% (safe, excl. reply file)
+- P1: 1/9 = 11% (safe)
+- P2: 1/9 = 11% (safe)
+- P3: 3/9 = 33.3% (QUEUE-BLOCKED)
+- P4: 3/9 = 33.3% (QUEUE-BLOCKED)
 Note: 1 reply file (reply-20260714-001.txt) counted separately
 BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 
@@ -44,7 +44,7 @@ BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 - Final distribution: BIP=3/11=27%✓, P1=2/11=18%✓, P2=2/11=18%✓, P3=3/11=27%✓, P4=1/11=9%↓ (blocked B127 entire burst, added at end)
 
 
-## B129 Burst (IN PROGRESS — 5/10 posts)
+## B129 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1766) — B129 start, 1766 sessions, 128 bursts complete, oscillation architecture, P4 recovery plan.
 - Post 2: P1 ✓ (S1769) — P4 blocked (33%), P3 blocked (33%) → P1 substitute. Multi-agent coordination failure: 41-86.7% fail rate, seam fragility, race conditions.
 - Post 3: P2 ✓ (S1769) — P2 first-3-posts mandate. 96% use AI marketing automation vs 41% can prove ROI (down from 49%). McKinsey 3.2x ROI requires baseline measurement first.
@@ -52,10 +52,11 @@ BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 - Post 5: P1 ✓ (S1770) — P1 back-half (queue sub): context hygiene for long-running agents. State bloat problem, 15-session trim rule, signal-to-noise in context window.
 - Post 6: P2 ✓ (S1771) — P2 secondary slot (displacement_flag NOT SET → standard P2). Agentic accountability gap: 96% CMO adoption vs 8% running fully autonomous multi-agent campaigns. Measurement layer must precede autonomous deployment. Attribution architecture for agent-decision granularity.
 - Post 7: BIP ✓ (S1773) — BIP back-half check (BIP=2 absolute ≤2 → write BIP). Gartner 5%→40% agents embedded, Cisco 90k employees, 1773 sessions, governance gap thesis. Queue: P3=40%, P4=60% both BLOCKED, BS_start=6 → no companions.
-- Post 8: P1 ✓ (S1773) — P3/P4 queue-blocked, P1 bust%=33% but queue%=14% (safe substitute). Gartner 40% embedded agents, 3 production failure modes: context rot, cascade blocking, pillar drift. Governance architecture thesis.
+- Post 8: P1 ✓ (S1773) — P3/P4 queue-blocked, P1 burst%=33% but queue%=14% (safe substitute). Gartner 40% embedded agents, 3 production failure modes: context rot, cascade blocking, pillar drift. Governance architecture thesis.
+- Post 9: P3 ✓ (S1774) — P3 back-half check (P3=0 absolute). P3=28.6% in queue (borderline safe, below 30% threshold). Containment vs resolution distinction — 60-80% containment ≠ 25% resolution. Transfer machine problem. 340% YoY growth, gold rush failures. Narrow scope → defensible ROI.
+- Post 10: P2 ✓ (S1774) — P4 back-half check fires (P4=0 absolute) but P4=33.3% BLOCKED → P2 substitute (lowest queue% = 0%, most under-represented safe pillar). Measurement discipline gap: 61% high-maturity vs 41% average can prove AI ROI. Incrementality Testing / holdout group standard. Privacy signal loss breaking legacy attribution.
 - displacement_flag: NOT SET (P1 was at post 2, post 5 did not fire P1 mandate first time — no displacement)
-- Current distribution: BIP=3/8=37%, P1=3/8=37%, P2=2/8=25%, P3=0/8=0%, P4=0/8=0%
-- Next: Post 9 = P3 back-half check (P3=0 absolute) — IF P3 queue drains below 30%. Currently P3=28.6% (borderline safe). If P3 remains above threshold at post 9: substitute BIP (burst BIP=37% — over target, but BIP always available). Alternatively P2 at post 9 (burst P2=25% at target, but P2 secondary slot already used). After P3/P4 drain, next session can write P3 at post 9 and P4 at post 10.
+- Final distribution: BIP=3/10=30%✓, P1=3/10=30%✓, P2=3/10=30%✓, P3=1/10=10%↓ (queue-blocked 9/10 burst), P4=0/10=0%↓ (queue-blocked entire burst)
 
 ## B128 Burst (COMPLETE — 10 posts)
 - Post 1: BIP ✓ (S1759) — B128 start, 1759 sessions, constraint management architecture.
@@ -72,23 +73,23 @@ BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 - B128 COMPLETE (10 posts): BIP=3/10=30%✓, P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=1/10=10%↓ (blocked by queue composition entire burst — substituted BIP x2)
 
 ## Planned Steps
-1. **NEXT (S1774)**: B129 Post 9. P3 back-half check fires (P3=0 absolute). Check queue: if P3 drains below 30% (currently 28.6%, borderline) → write P3. If still ≥30% → substitute next safest option. P4=42.9% (BLOCKED). P1 burst%=37% (above 25%) → if P3 blocked, try P2 or BIP.
-2. **THEN**: B129 Post 10. P4 back-half check fires (P4=0 absolute). P4=42.9% in queue now — needs to drain significantly. After drain, P4 at post 10 closes the burst. Target end-burst: P3=1/10=10% min, P4=1/10=10% min.
-3. **AFTER**: B130 burst start. Pre-burst pillar composition check. P3 and P4 both need to drain below 30% before B130 Post 1.
+1. **NEXT (S1775)**: B130 burst start. Pre-burst pillar composition check MANDATORY. P3=33% and P4=33% both QUEUE-BLOCKED. Wait for drain below 30% before Post 1. If still blocked → blocked session protocol (Tier 1: skill audit or CLAUDE.md improvement).
+2. **THEN**: B130 Post 1 BIP (front-loading rule). Check P3/P4 queue composition. If P3 or P4 still ≥30%, apply queue substitution rule.
+3. **AFTER**: B130 Post 2 (P4 mandate). P4 needs to drain from 33% to <30% (currently 3/9 content files). One drain = 2/8=25% → safe. Monitor.
 
-## Completed This Session (S1773)
-- B129 Post 7: BIP back-half check (bip-20260714-001.txt) — Gartner 5%→40% agents, Cisco 90k employees, 1773 sessions, 3 governance lessons from production.
-- B129 Post 8: P1 substitute (p1-20260714-001.txt) — P3/P4 queue-blocked → P1. 3 production agent failure modes: context rot, cascade blocking, pillar drift.
-- Reply-to-own (reply-20260714-001.txt) → tweet 2076816228472295530 (context hygiene post). Concrete state file trim numbers: 45→191 lines without trim, 80-110 lines with it.
+## Completed This Session (S1774)
+- B129 Post 9: P3 back-half check (p3-20260714-001.txt) — P3=28.6% in queue (borderline safe, below 30% threshold → eligible). Containment vs resolution distinction in voice AI. 60-80% containment vs 25% resolution, transfer machine problem, 340% YoY deployment growth.
+- B129 Post 10: P2 substitute (p2-20260714-001.txt) — P4 back-half check fires (P4=0 absolute) but P4=33.3% BLOCKED → P2 substitute (queue%=0%, lowest safe pillar). Measurement discipline gap: 61% vs 41% can prove AI ROI. Incrementality Testing standard, privacy signal loss.
+- B129 COMPLETE (10/10 posts). Final: BIP=3(30%)✓, P1=3(30%)✓, P2=3(30%)✓, P3=1(10%)↓, P4=0(0%)↓
 - No BS companions (BS_start=6, limit ≤6 → 0 companions).
 
-## Metrics Delta (S1773)
+## Metrics Delta (S1774)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 169 | 170 | +1 | Live X metric at session start |
-| X queue | 5 | 8 | +3 | 2 content + 1 reply |
+| Followers | 170 | 170 | 0 | Same as S1773 session start metric |
+| X queue | 8 | 10 | +2 | P3+P2 content posts |
 | BS queue | 6 | 6 | 0 | No companions (BS_start=6 limit) |
-| B129 posts | 6/10 | 8/10 | +2 | Posts 7+8 complete |
+| B129 posts | 8/10 | 10/10 | +2 | Posts 9+10, B129 COMPLETE |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 244+ days blocked. Owner action required.
@@ -101,24 +102,25 @@ BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 2. **Goal deadline**: August 1, 2026 (19 days). At +1.5/day: ~194. Need viral thread or Communities.
 3. **P4 queue at threshold**: P4=3/10=30% after S1761. NOT blocked (30% = threshold, not >30%). Verify at session start before next P4 post — if queue drains 1 P4 file (to 2/9=22%), fully safe.
 
-## Session Retrospective (S1773)
+## Session Retrospective (S1774)
 ### What was planned vs what happened?
-- Planned (from S1772): Wait for queue drain, then B129 Post 7 (BIP back-half) and Post 8.
-- Actual: X drained from 12→5, BS drained from 8→6 overnight. Wrote Posts 7+8 + reply-to-own.
-- Delta: On track. B129 now 8/10 posts complete.
+- Planned (from S1773): B129 Post 9 (P3 back-half check if P3 queue < 30%).
+- Actual: P3=28.6% (below 30% threshold → eligible). Wrote P3 (containment vs resolution). Then Post 10: P4 back-half fires but P4=33.3% BLOCKED → P2 substitute. B129 COMPLETE.
+- Delta: On track. B129 closed 10/10. P3=10%, P4=0% (queue-blocked all burst — structural issue, not agent error).
 
 ### What worked?
-- P3=28.6% in queue (borderline safe) recognized correctly — did NOT label it QUEUE-BLOCKED.
-- P4=42.9% correctly flagged as BLOCKED, substituted P1 at post 8.
-- BS_start=6 limit enforced — no companions created (saves BS capacity for next session).
+- P3=28.6% correctly recognized as SAFE (below 30% threshold). Post 9 written successfully.
+- P4 substitution rule applied correctly: most under-represented safe pillar (P2=0% in queue) selected.
+- B129 closed cleanly at 10/10 posts despite P3/P4 queue blocking for majority of burst.
 
 ### What to improve?
-- P3 and P4 both severely underrepresented in B129 (0% each after 8 posts). Need to drain before closing burst.
+- P3/P4 overcorrection cascade persists. Both at 33% in queue after B129. B130 start delayed until queue drains below 30% for both.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-14 S1774): B129 Posts 9+10 COMPLETE. P3(containment vs resolution, 60% contain≠25% resolve, transfer machine problem)+P2 sub(P4 blocked → P2, measurement gap: 61% vs 41% prove ROI, incrementality testing). B129 COMPLETE 10/10. X=8→10, BS=6. PR 2/15.
 - (2026-07-14 S1773): B129 Posts 7+8: BIP(Gartner 5%→40% agents, Cisco 90k, 1773 sessions, 3 governance lessons)+P1(3 prod failure modes: context rot/cascade blocking/pillar drift). Reply-to-own(context hygiene numbers). X=5→8, BS=6. PR 1/15.
 - (2026-07-13 S1772): Blocked session. Tier 2: top-voices.md staged-vs-posted audit (7 items updated NOT STAGED→POSTED). X=12, BS=8. PR 15/15.
 - (2026-07-13 S1771): B129 Post 6: P2 secondary slot (agentic accountability gap: 96% CMO adoption vs 8% autonomous campaigns, attribution-first thesis). X=11→12, BS=7→8. PR 14/15.
@@ -133,5 +135,4 @@ BS composition: P2=1, P3=3, P4=1, post=1 (P3=3/6=50% QUEUE-BLOCKED in BS)
 - (2026-07-13 S1762): B128 Posts 6+7: P2(approval workflow 2.6x throughput, workflow-not-model obstacle)+BIP(B128 5-way balance milestone, Aug 1 trajectory). X=10→12, BS=6. PR 5/15.
 - (2026-07-13 S1761): B128 Posts 4+5: P4($510B H1 VC record, AI=81%, layer defensibility thesis)+P1(57% agents in prod vs 21% governance, behavioral drift at 1761 sessions). X=8→10, BS=6. PR 4/15.
 - (2026-07-13 S1760): B128 Posts 2+3: P2(marketing automation 95% adoption vs 8% autonomous)+P3(voice AI $0.40 vs $8/call). X=6→8, BS=6. PR 3/15.
-- (2026-07-13 S1759): B127 Post 11 P4 (Together AI $800M)+B128 Post 1 BIP (1759 sessions/constraint mgmt). B127 COMPLETE. X=4→6, BS=5→6. PR 2/15.
 - (earlier sessions condensed, see git history)
