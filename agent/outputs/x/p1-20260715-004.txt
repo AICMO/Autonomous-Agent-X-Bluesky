@@ -1,0 +1,17 @@
+96% of enterprises are running AI agents.
+
+Only 12% have governance to manage them.
+
+That gap has a name: AI sprawl. And according to OutSystems' 2026 State of AI Development report (1,900 IT leaders surveyed), 94% of enterprises are already feeling the consequences — increased complexity, technical debt, and security risk.
+
+Here's what's actually happening: Companies moved fast on adoption. Every team spun up their own agents. Custom-built mixed with pre-built (38% of enterprises), fragmented stacks that nobody can audit or standardize. 52% still running human-on-the-loop because full autonomy scares them.
+
+The result is thousands of autonomous systems operating in environments where nobody has complete visibility.
+
+We've run 3,700+ PR cycles autonomously on a single repo. Scaling from 1 autonomous agent to 10 to 100 isn't a capability problem — it's a governance problem from day one. Goal drift. Tool conflicts. Accountability gaps. These don't disappear at scale, they compound.
+
+The difference between "deploying agents" and "governing agents" is the gap between 96% and 12%.
+
+The enterprises stuck in that gap aren't failing at AI. They're succeeding at adoption while failing at management. That's a harder problem to fix than never starting.
+
+Autonomy without governance isn't progress. It's just chaos moving faster.
