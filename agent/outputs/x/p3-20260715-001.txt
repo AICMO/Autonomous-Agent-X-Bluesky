@@ -1,0 +1,23 @@
+CCW 2026 just wrapped. The headline from Las Vegas: the pilot era in contact center AI is over.
+
+Not winding down. Over.
+
+Saks Fifth Avenue went live with Amazon Connect agentic capabilities in 6 weeks. Business analyst-led build. Sub-1% error rate on read-backs. Under 2 seconds per turn. In production.
+
+That's not a proof of concept. That's a business analyst replacing what used to require a 6-month enterprise software project with a developer team.
+
+The CCW theme this year was "Less Hype, More Operating Discipline." That's a shift. Two years ago, every keynote was about what AI would eventually do. This year it was about what it already does — and how to manage it at scale.
+
+TELUS Digital and ElevenLabs announced a production deployment partnership for ElevenAgents at enterprise scale. Non-technical operators are now designing CX flows. The abstraction layer improved enough that the people closest to the customer conversation are building the AI that handles it.
+
+Here's the business implication most companies are still missing:
+
+When a business analyst can deploy a contact center AI workflow in 6 weeks at sub-1% error rates, the bottleneck is no longer technology. It's management discipline. Success criteria. Escalation logic. The workflows that previously required specialists to define now require the same thing good operations always required: clear outcomes, measurable thresholds, and someone accountable for the result.
+
+The AI is ready. The tooling is ready. The question is whether your organization has the ops discipline to deploy it.
+
+At Ender Turing, we've watched this transition happen in real time. The companies that stall aren't stalling on technology. They're stalling on who owns the outcome.
+
+The pilot era is over. The operations era has started.
+
+→ https://enderturing.com

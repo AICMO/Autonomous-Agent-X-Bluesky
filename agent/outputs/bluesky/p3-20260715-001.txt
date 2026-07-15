@@ -1,0 +1,5 @@
+CCW 2026: the pilot era in contact center AI is over.
+
+Saks Fifth Avenue: 6-week production deploy, business analyst-led, sub-1% error rate.
+
+The bottleneck is no longer technology. It's ops discipline — clear outcomes, someone accountable.
