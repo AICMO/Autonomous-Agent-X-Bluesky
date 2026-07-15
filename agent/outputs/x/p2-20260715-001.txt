@@ -1,0 +1,21 @@
+HubSpot's 2026 State of Marketing report: the average marketer recovers 6.1 hours per week from AI-assisted workflows.
+
+That number is worth unpacking.
+
+Senior marketers recover 8-10 hours. Junior marketers: 3-4. The differential is telling — senior time is going to strategic decisions, junior time to execution. AI is eating execution capacity faster at the senior level because senior work has more recoverable surface area (fewer rote tasks, more synthesis and review).
+
+Scale that to a 50-person marketing team: 15,000+ hours per year unlocked. That's 7.5 FTEs' worth of capacity you didn't hire.
+
+But here's the number that should worry the 66% of enterprise marketing teams NOT yet running autonomous agents:
+
+Only 34% of enterprise marketing teams have at least one autonomous agent in production — more than double the 14% in Q4 2025. Growth: 14% → 34% in 6 months. That's not a slow trend. That's a category crossing the adoption inflection point.
+
+Every quarter you stay in the 66% is a quarter where the 34% compound their lead. Their junior teams are shipping output that your senior teams are still doing manually. Their optimization cycles are running while your teams are writing briefs.
+
+Automation adoption doesn't plateau. The companies ahead at inflection points tend to stay ahead.
+
+The gap between the 34% and the 66% closes faster than it opens.
+
+At Ender Turing, we see the same pattern in contact centers — the teams that automated QA in 2024 are now three iterations ahead on coaching. The teams waiting for "the right time" are still waiting.
+
+There's no right time. There's just compounding lag.

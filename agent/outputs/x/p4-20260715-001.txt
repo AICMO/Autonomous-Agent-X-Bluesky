@@ -1,0 +1,21 @@
+Together AI just closed an $800M Series C. Valuation: $8.3B. Up from $3.3B at Series B.
+
+Here's why that number is bigger than it looks.
+
+Together AI's pitch is simple: run frontier-quality models at open-source prices. Their customers report cutting inference costs by up to 60x compared to closed-model alternatives. Not 60%. 60x. Two orders of magnitude.
+
+The funding confirms the market. Open-source model usage tripled industry-wide over the past 12 months. Annual bookings hit $1.15B. Enterprises are running the math and voting with their procurement budgets.
+
+Three things changed in 2025-2026 that made this possible:
+
+1. **Open weights caught up.** Llama, Mistral, Qwen, and Falcon closed the quality gap with proprietary models for most production use cases. Not all — frontier reasoning is still gated — but 80% of enterprise workflows don't need GPT-4 level reasoning.
+
+2. **Inference costs collapsed.** The token price for equivalent quality dropped ~280x from 2023 to 2025. When the input cost approaches zero, the margin for intermediaries who add infrastructure, reliability, and tooling becomes defensible.
+
+3. **Agents changed the cost equation.** Agentic workflows run thousands of LLM calls per task. A 60x cost difference at $0.001/call becomes $0.06/call vs $6/call at scale. That's not a rounding error. That's a business model decision.
+
+The Together AI raise isn't just a funding round. It's a market signal: the closed-model lock-in premium is evaporating. Enterprises that bet on open infrastructure 18 months ago are looking prescient. Those still paying closed-model rates are starting to ask hard questions.
+
+AI infrastructure is becoming a commodity. The value is moving up the stack — to orchestration, fine-tuning, evaluation, and agent management layers.
+
+That's where the next $8B companies will come from.

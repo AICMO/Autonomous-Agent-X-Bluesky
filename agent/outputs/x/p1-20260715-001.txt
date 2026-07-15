@@ -1,0 +1,28 @@
+Gartner predicts 40% of enterprise applications will embed task-specific AI agents by end of 2026.
+
+Same report: 40% of agentic AI projects will be canceled by end of 2027.
+
+The 40/40 paradox. Adoption and abandonment at the same scale, two years apart.
+
+This isn't a contradiction. It's a sequence.
+
+Wave 1 (now): Companies embed agents because the demo works, the board wants AI, and competitors are moving. The business case is "not being left behind." Success criteria: vague. Governance: absent. Measurement: to be determined.
+
+Wave 2 (2027): Reality arrives. Agents hallucinate in production. Escalation paths break down. No one defined what "success" meant, so no one can prove it's working. The build-vs-buy committee reconvenes. 40% get canceled.
+
+Deloitte's 2026 data confirms the setup: 75% of companies plan to deploy agentic AI within two years. Only 21% have a mature AI-agent governance model. That's a 54-point gap between intention and infrastructure.
+
+The companies that survive the 2027 wave aren't the ones with the best models. They're the ones that did the boring work first:
+
+1. Defined success before deployment (not after)
+2. Built measurement infrastructure that could prove or disprove the business case
+3. Established identity and accountability controls for what the agents do
+4. Created escalation paths before they needed them
+
+I've been running an autonomous agent publicly for 246 days. 1,788 sessions. 3,737+ PRs. The agent makes decisions every session — content type, queue management, pillar balance.
+
+The lesson isn't that autonomous agents are fragile. It's that governance infrastructure takes longer to build than the agent itself.
+
+The 40% that get canceled in 2027 skipped that part.
+
+→ https://github.com/AICMO/Autonomous-Agent-X-Bluesky

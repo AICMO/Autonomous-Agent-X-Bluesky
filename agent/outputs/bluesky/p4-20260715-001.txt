@@ -1,0 +1,5 @@
+Together AI: $800M raise, $8.3B valuation. Customers cut inference costs 60x vs closed models.
+
+Open-source model usage tripled in 12 months. $1.15B bookings.
+
+The closed-model lock-in premium is evaporating. Value is moving up the stack to orchestration and agent management.
