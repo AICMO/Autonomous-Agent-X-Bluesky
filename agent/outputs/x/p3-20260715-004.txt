@@ -1,0 +1,17 @@
+xAI just launched a no-code Voice Agent Builder — 80+ preset voices, 2-minute voice cloning, $0.05 per minute API pricing.
+
+That last number matters. At $0.05/min, a 5-minute customer service call costs $0.25. A human agent handling the same call costs $4–12. We're now at 16–48x cost differential on the raw labor substitute alone.
+
+The tooling signal is clear: Musk is betting contact center operations are the mass market for voice AI. And the no-code angle tells you who the buyer is — not AI engineers. Operations managers. Workforce planners. People who've never touched an API.
+
+But here's what's getting missed in the announcement coverage: the technology barrier is gone. The no-code builder dropped it. What's left is an operations and prioritization problem — and most companies haven't solved that.
+
+We saw this exact pattern at CCW 2026 in June. Contact centers spent 3 years asking "can we build a voice agent?" The answer is now definitively yes, and the tooling keeps getting cheaper and easier. The question they're scrambling to answer in 2026: "which workflows do we automate first?"
+
+That's not a vendor question. It's a governance question. Where do you start? Which call types have low enough complexity and high enough volume to justify full automation? What does a voice agent handoff to a human look like operationally? Who owns the quality evaluation loop when the agent handles 10,000 calls per day?
+
+Companies that answer those questions first win the cost advantage. Companies that deploy because the tooling got cheap — and skip the workflow discipline — will accumulate a different kind of technical debt. Agent technical debt. Unmonitored AI handling customer conversations without clear success criteria.
+
+The voice AI infrastructure is being commoditized fast. Operations discipline is the new moat.
+
+#ContactCenterAI #VoiceAI #AIAgents
