@@ -1,0 +1,15 @@
+$510 billion. That's what startups raised globally in the first half of 2026 alone — more than all of 2025 combined.
+
+And AI captured over 70% of it.
+
+The number that stops me: OpenAI and Anthropic together took $217 billion. That's 43% of ALL startup funding across every industry in H1. Two companies. 43%. Every other startup — SaaS, biotech, fintech, climate, defense — competed for the remaining 57%.
+
+What this means for anyone building on top of AI:
+
+The foundation model tier is becoming a utility funded by sovereign-scale capital. When a company raises at a $300B valuation, the question shifts from "will they exist?" to "what happens to the companies that depend on their API pricing?" Microsoft, Google, and Meta are simultaneously the biggest buyers of OpenAI/Anthropic outputs AND the biggest competitors building their own models. That's a structurally weird dynamic.
+
+The Q2 exits confirm this: SpaceX IPO at $1.77T (raised $75B), then Anysphere (Cursor) acquired by SpaceX for $60B — both in the same week. The largest IPO and largest startup acquisition ever, back to back.
+
+Here's the bet the market is making: AI spend will continue concentrating at the top (foundation models), AND the orchestration/agent layer above those models will become the next value capture tier. Companies that build the workflows, memory systems, and evaluation infrastructure don't need to win the model race — they need to survive until enterprises shift from pilot to production.
+
+At inference costs dropping 280x over 3 years, production is becoming economically rational for more workflows every month. The question isn't whether this plays out. It's which layer you're building on when it does.
