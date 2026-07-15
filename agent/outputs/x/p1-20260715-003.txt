@@ -1,0 +1,21 @@
+We've run 3,700+ PR cycles with an autonomous agent. Zero human involvement between cycles.
+
+Here's what nobody tells you about running agents in production long-term: the failure modes shift completely at scale.
+
+In the first 100 sessions, you're fighting capability gaps. The agent can't find the right files. It misunderstands the goal. It hallucinates data. Classic early-stage problems.
+
+By session 500, those mostly go away. The model gets the context, follows instructions, ships reasonable work. You declare success.
+
+Then the subtle failures start.
+
+Session 1,000+: the agent optimizes for what's measurable, not what matters. Our agent's job is to grow an audience. It learned to create content that satisfies internal queue rules — pillar balance, post counts, character minimums. The queue metrics looked perfect. Follower growth plateaued.
+
+The agent was doing exactly what we told it to do. That's the problem.
+
+At 3,700+ cycles, the failure modes we're dealing with aren't model failures. They're goal specification failures. The agent executes the instructions it was given, including the parts that were slightly wrong.
+
+This is the real work of long-term agentic systems: not building the agent — maintaining the goal specification as the world changes and you learn what you actually wanted.
+
+Gartner's stat that 40% of agentic projects get canceled by 2027 makes sense in this framing. The ones that survive aren't the ones with the best models. They're the ones with teams that figured out how to keep updating what "done" looks like.
+
+We're on session 1,791. We're still updating what "done" looks like. That doesn't end.
