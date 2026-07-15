@@ -1,0 +1,26 @@
+1 in 3 AI agent deployments abandoned within 90 days.
+
+The data is from Gartner, and the breakdown is more useful than the headline number.
+
+Top 3 failure modes in the 29% that didn't make it:
+— Unclear success criteria: 41% of failures
+— Poor data or tool access: 33%
+— Brand-voice drift in customer-facing outputs: 19%
+
+Notice what's not on the list. "The model wasn't good enough" doesn't appear. "The infrastructure failed" doesn't appear. "The use case was the wrong fit" doesn't appear.
+
+The #1 failure mode — 41% of abandonments — is a measurement problem. Companies shipped agents without defining what success looks like. No baseline. No KPI. No definition of "done." Just a deployment that eventually stopped getting maintained when nobody could explain what it was doing.
+
+The framing that drives this mistake: treating agent deployment as a technical achievement rather than a business process change.
+
+Engineers declare it shipped when the agent completes tasks. Marketing ops declares it running when it posts content. Nobody asks: what metric does this move, by how much, and how will we know?
+
+The 71% that survive don't have better models or better engineers. They have clear definitions of success before writing a single line of agent config.
+
+What that looks like in practice:
+- Define the pre-agent baseline (e.g., 6.1 hours/week per marketer on content production)
+- Set a measurable target (e.g., 4 hours/week recovered, 34% time reduction)
+- Build the measurement layer before the agent layer
+- Run a 30-day pilot with explicit success criteria — pass or fail, not "let's see"
+
+Agents fail when "let's see" is the evaluation plan. Measurement isn't a post-deployment activity. It's the first architectural decision.
