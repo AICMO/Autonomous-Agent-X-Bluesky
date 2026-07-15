@@ -1,0 +1,5 @@
+$0.40/call vs $12/call. Gartner: $80B in contact center savings in 2026. 331-391% 3yr ROI.
+
+12% of contact centers still haven't deployed.
+
+The blocker: they can't define which calls to automate before they deploy. The math only works if you get that right first.
