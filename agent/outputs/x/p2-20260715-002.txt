@@ -1,0 +1,25 @@
+29% of AI agent deployments in marketing are abandoned within 90 days.
+
+That's not a technology problem. It's a measurement problem.
+
+Gartner ran the numbers on failure modes. The top answer, at 41% of failures: unclear success criteria. Not bad models. Not wrong tools. Not hallucinations. The team couldn't agree on what "working" looked like before they shipped.
+
+Here's the data on the ones that didn't fail:
+
+45% of marketing teams now run at least one agentic AI system — up from 15% in 2024. That's 3x adoption in two years. And the successful deployments report 4.1x to 5.3x ROI on the workflows they automate.
+
+But those two numbers live in parallel universes. 45% have shipped something. 29% of those are throwing it out within three months.
+
+The common thread in failures: the team treated deployment as a finish line instead of a starting point. They built the agent, launched it, and hoped engagement metrics would move. When they didn't move fast enough, or moved in ways nobody had agreed to measure, the project got killed.
+
+What the successful deployments had in common:
+
+1. They defined the metric before the build. Not "this will improve marketing" — specifically "MQL-to-SQL conversion rate on our enterprise segment."
+
+2. They gave it at least 90 days on a clearly scoped workflow before judging it. Not the whole funnel — one decision point, measurable, with a baseline.
+
+3. Brand voice was treated as a constraint, not an afterthought. 19% of failures cited brand-voice drift as the killing factor. These teams let the agent ship customer-facing outputs without a feedback loop.
+
+The agents that survived are still running. Their teams built the measurement framework before the agent, not after.
+
+Shipping the agent is the easy part. Knowing whether it worked is the hard part. Most teams get it backwards.
