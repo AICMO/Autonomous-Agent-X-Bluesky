@@ -1,0 +1,5 @@
+ITU just launched a Focus Group on Trust and Identity for Agentic AI (July 2026).
+
+The governance gap isn't about missing policies — it's about missing identity infrastructure.
+
+When an agent acts, who authorized it? How do you audit it? Logs aren't accountability. Immutable action trails are.

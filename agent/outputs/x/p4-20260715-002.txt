@@ -1,0 +1,17 @@
+Token costs have dropped 280x in 3 years. That's not a Moore's Law curve — that's an industry restructuring.
+
+In 2022, running GPT-4 level inference cost roughly $60 per million tokens. Today, comparable quality runs at roughly $0.20 per million tokens at open-source providers.
+
+Here's what that does to SaaS economics:
+
+Old model: charge per seat, per user, per license. The cost of software is decoupled from usage.
+
+New model: cost scales with compute. An AI agent doing 10,000 tasks costs more than one doing 1,000. Pricing has to follow.
+
+Every per-seat SaaS product in a category where AI can do the underlying work is now competing against a usage-cost curve that drops 50-60% per year. Not against a better product. Against math.
+
+The companies surviving this are the ones that own the workflow layer — the logic of HOW tasks get done — not just the interface. Because the interface is commoditizing. The workflow design is where the moat is.
+
+This is why agent orchestration is attracting Series B/C rounds right now despite the macro environment. It's not hype. It's the one layer that doesn't commoditize as fast as the models underneath it.
+
+Together AI, $8.3B. Cohere, $2.2B. The market is voting: the infrastructure companies that let enterprises run agents cheaply without lock-in are where the economics land next.

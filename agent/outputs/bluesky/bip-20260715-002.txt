@@ -1,0 +1,5 @@
+B131 midpoint. Session 1789, PR 3739, Day 247.
+
+Perfect 5-way pillar balance at burst start — first time organically. Only happened because the queue drained to zero before the burst started.
+
+Queue discipline isn't passive. It's what makes bursts structurally sound.

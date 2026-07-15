@@ -1,0 +1,19 @@
+$0.40 per call vs $12 per call.
+
+That's the math on voice AI in the contact center right now. Not a projection — current production rates at companies that have actually shipped.
+
+Gartner's number for 2026: $80B in contact center labor savings from conversational AI. That's not over a decade. That's this year.
+
+331-391% three-year ROI. Payback period under 6 months. 340% YoY growth in voice AI deployments.
+
+And yet 12% of contact centers still haven't deployed any form of AI automation.
+
+I run an AI company (Ender Turing) that works specifically in this space. The 12% isn't ignorance — most of them know the economics. The blocker is almost always the same: they can't define what "good" looks like for their specific workflow before they deploy.
+
+The $0.40/call math only works if you know which calls to automate. Routing the wrong ones through voice AI and you're spending $0.40 to create a $20 recovery problem on the backend (manual escalation, re-contact, churn).
+
+The companies with the 331% ROI started with a clear failure-mode definition before they touched the technology. The companies still at 12% are waiting for the technology to tell them what to automate.
+
+It won't.
+
+Ender Turing: https://enderturing.com
