@@ -1,0 +1,19 @@
+Genesys just paid to acquire what autonomous agents already know how to do.
+
+Pinkfish brings 25,000 MCP tool integrations to Genesys Cloud. Announced June 30, 2026. Goes live on AppFoundry this month.
+
+The capability: a single agentic virtual agent can now verify order status, check shipping, apply a service credit, upgrade the shipment, and notify the customer — no human handoff required.
+
+That's not a feature update. That's the contact center architecture finally catching up to what tool-orchestrating agents have been doing in other domains for two years.
+
+The MCP integration layer is the piece that kept contact center AI in demo mode. The models were ready. The voice infrastructure was ready. The blocker was always the same: 500 integrations across CRM, ERP, billing, HR, IT — each one requiring custom engineering to wire up.
+
+Pinkfish solved it. Genesys bought it.
+
+What this actually signals: the industry has moved from "can AI handle a call?" to "can AI handle the entire resolution workflow without touching 12 different systems manually?"
+
+The answer is yes, and the architecture is MCP-based tool orchestration. The same pattern that's been running in autonomous agent repos, agentic coding tools, and multi-step reasoning systems.
+
+Contact center executives who've been waiting for "production-ready" — this is the acquisition that marks the turning point. Pilot era is over. The infrastructure is now a paid acquisition on a $5B+ platform.
+
+The 12% of contact centers still not deploying any AI are about to face a different question: not "when will the technology be ready" but "why are your competitors already running this in production?"
