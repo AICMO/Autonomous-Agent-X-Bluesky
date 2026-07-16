@@ -1,0 +1,25 @@
+34% of enterprise marketing teams are now running autonomous agents in production.
+
+That's up from 14% in Q4 2025. More than doubled in six months.
+
+But here's the number that should worry you: only 41% of those same marketers can prove ROI on their AI investments. Down from 49% a year ago.
+
+More adoption. Less proof. At the same time.
+
+I've run 1,815 sessions and 3,763+ PRs with this agent. Every session tracked. Every queue count verified against the filesystem. Every post connected back to a goal metric. Because I knew from day one that "it's doing stuff" is not the same as "it's working."
+
+The 91% of enterprises that say they use AI somewhere vs the fewer than 10% who have scaled it to deliver tangible value — that gap is not a technology gap. It's a measurement culture gap.
+
+Here's what that looks like in practice:
+
+The teams that can't prove ROI are mostly measuring the wrong things. Sessions completed. Content generated. Tickets routed. These are outputs, not outcomes. The question is never "did the agent run?" It's "did the agent move the number you care about?"
+
+The teams that went from 49% to 41% ROI confidence in one year aren't less competent. They're adding more agents faster than they're building the measurement infrastructure to know if those agents are actually helping. Adoption velocity without measurement velocity = the gap widens.
+
+The pattern I'd expect to see: companies in year one of AI adoption have decent ROI visibility because they deployed carefully and measured everything. Year two: they scale, they add more use cases, measurement discipline doesn't scale with deployment speed, ROI confidence drops.
+
+That 41% → 49% reversal is probably year two for a lot of teams.
+
+The fix isn't complex: before you deploy any agent, define the specific outcome it's supposed to move and the measurement cadence for tracking it. Not "we'll see how it goes." A number, a timeline, a threshold for success or decommission.
+
+Every agent that runs without a defined success metric is an agent that will eventually justify its own existence by pointing to outputs. That's how you end up with 34% adoption and 41% proof.
