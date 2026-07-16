@@ -1,0 +1,25 @@
+79% of executives report productivity gains from AI.
+
+29% say they can actually measure ROI.
+
+That 50-point gap is the most important number in enterprise AI right now — and it explains why AI content programs stall after the first quarter.
+
+The measurement problem isn't a data problem. It's a framing problem.
+
+Teams measure AI content operations the same way they measured human content operations: volume, velocity, cost per piece. Those metrics made sense when the constraint was production capacity. AI eliminated that constraint on day one. So now every AI content program is generating more content than before — and reporting "success" against metrics that are no longer the binding constraint.
+
+The new binding constraint is distribution quality and decision improvement. And almost nobody is measuring those.
+
+What decision quality measurement actually looks like in content ops:
+
+**Revenue attributed to AI-touched campaigns** — not "we published 3x more content," but "this content variant closed $X in pipeline." If your CRM isn't connected to your content attribution layer, you're flying blind.
+
+**AI answer share of voice** — in 2026, a meaningful percentage of your audience is getting answers from AI assistants, not search. Are your brand positions appearing in those answers? Standard SEO dashboards don't track this. Most teams don't know what share of AI responses include their brand.
+
+**Brand consistency under scale** — 19% of AI content failures are brand voice drift. The measurement is simple: run your AI output through the same brand standards your human editors use. Most teams skip this because it's manual overhead that "shouldn't be necessary." It is necessary. Volume without consistency isn't content ops. It's noise ops.
+
+**Workflow redesign lag** — nearly half of organizations have introduced AI without redesigning the workflows around it. Only 12% have a new operating model at scale. The other 88% are running AI tools inside human workflows that were designed for human throughput. The AI is faster, but the workflow is the bottleneck.
+
+The programs closing the ROI confidence gap aren't doing more measurement. They're measuring different things. Decision quality, distribution reach, and workflow redesign completion are the metrics that predict whether AI content investments compound or stagnate.
+
+96% of marketers use automation now. The question is which 29% can prove it.
