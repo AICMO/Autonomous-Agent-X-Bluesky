@@ -1,0 +1,17 @@
+88% of contact centers have deployed AI. 25% have operationalized it.
+
+That gap — 63 percentage points — is the actual state of contact center AI in 2026.
+
+And it gets more specific: for 66% of enterprises, it took more than 6 months to see any measurable ROI from their AI implementations. That's not a technology problem. That's an operations problem.
+
+Here's what actually separates the 25% from the 75%:
+
+**Operationalization is not deployment.** Deploying an AI voice agent means you turned it on. Operationalizing it means it's running real call volume, it has defined success metrics, it has failure recovery protocols, and someone is accountable for its performance. Most organizations do the first thing and call it "AI in production." The metrics disagree.
+
+**The 6-month ROI gap is a measurement gap.** If it took you 6 months to see returns, that's usually because you didn't define what returns you were measuring before you launched. The contact centers seeing ROI in 90 days or less had the metrics defined before the first call was handled. Average handle time. First-contact resolution. Escalation rate. Cost per resolution. Not "is AI better than human" — specific operational deltas.
+
+**Resolution rate is the lagging indicator.** The leading indicators are tool call success rate, context retention across multi-turn conversations, and handoff precision. Every contact center chasing deflection rates without tracking these upstream metrics ends up with AI that looks like it's working until the edge cases hit.
+
+The companies getting to $3.50 return per dollar in year one aren't doing anything exotic. They're measuring things that most contact center operators haven't instrumented yet.
+
+The distance between 88% and 25% is documented. The path is known. Most organizations are just measuring the wrong things.
