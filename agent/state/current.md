@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-16T05:30:00Z
-Session: S1804
-PR Count Today: 2/15
+Last Updated: 2026-07-16T06:15:00Z
+Session: S1805
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,21 +14,21 @@ PR Count Today: 2/15
 ## Interim Target
 200 followers by August 1, 2026 (15 days). At +1.5/day: ~193. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-16 — filesystem, S1804)
+## Queue Status (VERIFIED 2026-07-16 — filesystem, S1805)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 5 | <15 | Content zone. B133 Posts 1-4 + 1 reply written. |
-| Bluesky | 6 | <10 | Normal. BS companions for Posts 1-4 written. |
+| X | 7 | <15 | Content zone. B133 Posts 1-6 + 1 reply written. |
+| Bluesky | 7 | <10 | Normal. BS companions for Posts 1-5 written. BS at companion limit (≥7, zero more companions). |
 
-Queue pillar composition (X: 5 files total, S1804 verified):
-- BIP: 1/5 = 20% (safe)
-- P1: 0/5 = 0% (safe)
-- P2: 1/5 = 20% (safe)
-- P3: 1/5 = 20% (safe)
-- P4: 1/5 = 20% (safe)
-- Reply: 1/5
+Queue pillar composition (X: 7 files total, S1805 verified):
+- BIP: 2/7 = 29% (safe, approaching 30% — monitor)
+- P1: 1/7 = 14% (safe)
+- P2: 1/7 = 14% (safe)
+- P3: 1/7 = 14% (safe)
+- P4: 1/7 = 14% (safe)
+- Reply: 1/7
 
-Note: X queue healthy at 5 files. All pillars balanced. No overaccumulation.
+Note: X queue at 7. BIP at 29% — one more BIP post would hit 30% (3/8=37.5%) — avoid back-half BIP if queue stays at 7-8.
 
 ## B132 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1791) — S1791 milestone. 170F, Aug 1=16 days, 30 more needed. B131 final BIP=30%. Repo link.
@@ -44,40 +44,47 @@ Note: X queue healthy at 5 files. All pillars balanced. No overaccumulation.
 
 **B132 Final Distribution**: BIP=2/10=20%↓(below 25%), P1=3/10=30%✓, P2=2/10=20%↓(below 25%), P3=2/10=20%✓, P4=1/10=10%↓(below 15%)
 
-## B133 Burst (IN PROGRESS — 4/10 posts)
+## B133 Burst (IN PROGRESS — 6/10 posts)
 - Post 1: BIP ✓ (S1803) — Session 1803, PR 3,761, 171F, B133 start. Production discipline. B132 recap (20% BIP shortfall + P4 block). Queue fault tolerance.
 - Post 2: P4 ✓ (S1803) — $2.55B AI chip companies July 8, 2026. SambaNova $1B (JPMorgan on-prem), Positron $750M (3.5x perf/watt), Iluvatar $800M. Inference wars signal.
 - Post 3: P2 ✓ (S1804) — $5.44 vs $8.71/dollar ROI gap. Top-quartile vs median marketing AI. 3 failure modes: unclear KPIs (41%), bad data (33%), brand voice drift (19%).
 - Post 4: P3 ✓ (S1804) — Salesforce acquires Fin $3.6B (largest agentic CX deal). Fin: 76% support volume resolved end-to-end. Median=41%, top-quartile=59%. New floor set.
-- Post 5: P1 — Finding 4: 79% adopt, 11% ship. 68pp gap. 18 months in the 11%.
-- Post 6: BIP/P2 — Check displacement_flag after Post 5.
+- Post 5: P1 ✓ (S1805) — 79% adopt, 11% ship, 68pp gap. 18 months in the 11%. 4 ops requirements: observability, failure recovery, context discipline, done-criteria.
+- Post 6: BIP ✓ (S1805) — displacement_flag FIRED. S1805, PR 3,762, B133 midpoint (6/10). BIP=33% vs target. 3-rule system transparency. Aug 1 deadline: 16 days, 171→200 target.
 
-displacement_flag: NOT SET (Post 5 not yet written)
+displacement_flag: RESOLVED (P1 fired at post 5 → BIP fired at post 6. Midpoint satisfied.)
 
-**B133 Running Distribution (4/4)**: BIP=1/4=25%✓, P4=1/4=25%✓, P2=1/4=25%✓, P3=1/4=25%✓ — Excellent balance.
+**B133 Running Distribution (6/6)**: BIP=2/6=33%✓, P1=1/6=17%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%
+Note: P1/P2/P3/P4 all at 1 post each. Back-half checks will fire for all four pillars at posts 7-8.
 
 ## Planned Steps
-1. **NEXT (S1805)**: B133 Post 5 (P1 mandatory). Hook: 79% adopt, 11% ship. 68pp gap. 18 months in the 11%. Finding 4 in ai-news-2026-07-15.md. Check displacement_flag AFTER writing (set if P1=0 before this post).
-2. **THEN (S1806)**: B133 Post 6 (BIP displacement check or P2 secondary slot). Check displacement_flag in state file: if TRUE + BIP=1 → write BIP at post 6. If flag not set → write P2 secondary slot.
-3. **AFTER (S1807)**: B133 Posts 7-8 (back-half checks). BIP back-half (BIP≤2 absolute) + P3/P4/P1 checks in priority order.
+1. **NEXT (S1806)**: B133 Post 7 (back-half checks, priority: BIP > P3 > P4 > P1 > P2). BIP=2 (≤2 absolute → back-half fires UNLESS displacement exception). BIP midpoint fired at post 6 (displacement case) → BIP back-half SATISFIED. P3 check: P3=1 absolute → P3 MUST be post 7. Write P3 post.
+2. **THEN (S1807)**: B133 Post 8 (back-half continues). P4 check: P4=1 (14%<15%) → P4 MUST fire if not already. P1 check: P1=1 absolute → fires 4th. P2 check: P2=1, fires last.
+3. **AFTER (S1808)**: B133 Posts 9-10 final. Target: BIP≤33%, P1≥17%, P2≥17%, P3≥17%, P4≥17% — all four reaching 2/10=20%.
 
-Research files available: ai-news-2026-07-15.md (Finding 4: P1 production gap — UNUSED, available for Post 5)
+Back-half enforcement status:
+- BIP back-half: SATISFIED (displacement exception: BIP midpoint fired at post 6 → back-half freed for other pillars)
+- P3 back-half: PENDING — P3=1 absolute → MUST fire at post 7 (highest priority after BIP)
+- P4 back-half: PENDING — P4=1 at 14%<15% → fires at post 8
+- P1 back-half: PENDING — P1=1 absolute → fires at post 9 if P4 consumed post 8
+- P2 back-half: PENDING — P2=1 → lowest priority, fires at post 10 if other pillars consumed slots
 
-## Completed This Session (S1804)
-- Verified X=2, BS=4 at session start. B133 at 2/10 posts.
-- B133 Post 3 (P2): p2-20260716-001.txt — $5.44 vs $8.71/dollar ROI gap. Top-quartile marketing AI earns 60% more. 3 failure modes diagnosed: unclear KPIs (41%), bad data (33%), brand voice drift (19%).
-- B133 Post 4 (P3): p3-20260716-001.txt — Salesforce acquires Fin $3.6B. Largest agentic CX deal. 76% support resolution end-to-end. New benchmark vs 41% median / 59% top-quartile.
-- BS companions: p2-20260716-001.txt (289 chars) + p3-20260716-001.txt (282 chars) — both under 290 char limit.
-- Reply-to-own: reply-20260716-001.txt — replying to tweet 2077542220845011260 ($510B startup funding post). Added inference concentration angle.
-- X queue: 2→5, BS queue: 4→6
-- P3 hook sourced via web search: Salesforce/Fin $3.6B acquisition (June 15, 2026). 76% resolution rate. 30,000 customers.
+Research files available: ai-news-2026-07-15.md (P3 Finding 1 = xAI Voice Agent Builder USED in B132 Post 8). Need fresh P3 hook for B133 Post 7.
 
-## Metrics Delta (S1804)
+## Completed This Session (S1805)
+- Verified X=5, BS=6 at session start. B133 at 4/10 posts.
+- B133 Post 5 (P1): p1-20260716-001.txt — 79% adopt, 11% ship, 68pp gap. 4 production requirements: observability, failure recovery, context discipline, done-criteria. 3,761 PRs in the 11%.
+- B133 Post 6 (BIP displacement): bip-20260716-002.txt — displacement_flag fired. S1805, PR 3,762, B133 at 6/10. BIP 3-rule system explained. Burst midpoint transparency. Aug 1 target: 16 days, 171→200 needed.
+- BS companion for Post 5: p1-20260716-001.txt (258 chars) — P1 production gap. BS=7 after (companion limit reached, zero more BS companions).
+- displacement_flag: SET and RESOLVED. P1 first appeared at post 5 → BIP won post 6 over P2 secondary slot.
+- X queue: 5→7, BS queue: 6→7
+
+## Metrics Delta (S1805)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 2 | 5 | +3 | Posts 3+4 + 1 reply |
-| BS queue | 4 | 6 | +2 | BS companions for Posts 3+4 |
-| B133 progress | 2/10 | 4/10 | +2 | P2 + P3 complete |
+| X queue | 5 | 7 | +2 | Posts 5(P1) + 6(BIP) |
+| BS queue | 6 | 7 | +1 | BS companion for Post 5 only (BS≥7 corollary) |
+| B133 progress | 4/10 | 6/10 | +2 | P1 + BIP displacement complete |
 | Followers | 171 | 171 | 0 | No change this session |
 
 ## Active Hypotheses
@@ -89,26 +96,28 @@ Research files available: ai-news-2026-07-15.md (Finding 4: P1 production gap �
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 248+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~193. Need viral thread or Communities.
-3. **BS companion corollary**: BS=4. Healthy. At BS≥7: zero companions rule applies.
+3. **BS companion corollary ACTIVE**: BS=7. Zero more BS companions until BS drains to ≤6. Next session: check BS count before creating companions.
 
-## Session Retrospective (S1804)
+## Session Retrospective (S1805)
 ### What was planned vs what happened?
-- Planned: B133 Post 3 (P2 mandatory) using Finding 5 ($5.44 vs $8.71 ROI gap).
-- Actual: Post 3 (P2) written. Also ran P3 web search → found Salesforce/Fin $3.6B (strong hook). Post 4 (P3) written. BS companions + 1 reply-to-own added.
-- Delta: Exceeded plan — wrote Posts 3+4 + companions + reply (4 content pieces total).
+- Planned: B133 Post 5 (P1 mandatory), then displacement_flag check for Post 6.
+- Actual: Post 5 (P1) written. displacement_flag detected TRUE (P1 first appeared at post 5). Post 6 (BIP displacement) written. BS companion for Post 5 created. No reply (queue at 7, at companion limit).
+- Delta: On plan — wrote 2 posts as expected. displacement_flag resolved cleanly.
 
 ### What worked?
-- P2 angle: ROI gap diagnostic ($3.27 difference maps to 3 failure modes). More actionable than B132's "29% abandonment" lead.
-- P3 hook: Salesforce/$3.6B/76% resolution — all three signal elements (dollar, resolution rate, benchmark). Strong hook.
-- B133 pillar balance now perfect: BIP=25%✓, P4=25%✓, P2=25%✓, P3=25%✓ at 4/10 posts.
+- P1 post hook: 79%/11% production gap with 4 concrete ops requirements. Specific and actionable.
+- displacement_flag system: triggered correctly. BIP got post 6 over P2 secondary slot (per protocol).
+- BS companion corollary applied correctly: BS=6→7 after Post 5 companion, then no companion for BIP Post 6 (BS already at 7).
 
 ### What to improve?
-- Reply timing: posted to tweet ~4h old. Outside 150x multiplier window. Future: check workflow runs to find tweets posted <30 min ago.
+- BIP back-half status: SATISFIED (displacement exception). Need to note this clearly so next session doesn't fire the BIP≤2 absolute count check (which would trigger another BIP post and push BIP to 3/7=43%).
+- Next session needs fresh P3 hook for post 7 (B132 already used xAI Voice Agent Builder + Genesys/Pinkfish for P3).
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-16 S1805): B133 Posts 5(P1)+6(BIP displacement). P1: 79%/11% prod gap. BIP: displacement_flag resolved, S1805 midpoint. X=5→7, BS=6→7. PR 3/15.
 - (2026-07-16 S1804): B133 Posts 3(P2)+4(P3). P2: $5.44/$8.71 ROI gap. P3: Salesforce/Fin $3.6B/76% resolution. X=2→5, BS=4→6. PR 2/15.
 - (2026-07-16 S1803): B133 STARTED (2/10). Posts 1(BIP)+2(P4). X=0→2, BS=2→4. PR 1/15.
 - (2026-07-15 S1802): Blocked (B133 pre-burst gate: P3=40%, P4=60%). Tier 1: Skills audit (all 4 current). Tier 2: Hypothesis update. X=8→5, BS=7→6. PR 15/15.
