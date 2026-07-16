@@ -1,0 +1,7 @@
+$2.55B in AI chip companies in one day (July 8, 2026).
+
+SambaNova $1B, Positron $750M, Iluvatar CoreX $800M+.
+
+Not model companies. Chip companies betting against NVIDIA's inference monopoly.
+
+Training is commoditized. Inference is the new frontier. On-prem enterprise inference is real.

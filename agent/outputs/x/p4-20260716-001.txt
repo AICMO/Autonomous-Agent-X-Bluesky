@@ -1,0 +1,23 @@
+$2.55 billion raised by AI chip companies in a single day. July 8, 2026.
+
+Not AI model companies. Not AI application companies. Chip companies. Three bets against NVIDIA's inference monopoly in the same 24 hours:
+
+— SambaNova Systems: $1B Series F at $11B valuation. JPMorganChase signed an enterprise contract for on-premises inference. Not cloud. On-prem.
+— Positron: $750M, claims 3.5x performance-per-watt versus comparable NVIDIA inference offerings.
+— Iluvatar CoreX (China): $800M+ Hong Kong Stock Exchange. Negotiating 50,000 chips for ByteDance in 2026.
+
+$2.55B in one day is a signal, not a coincidence.
+
+The training compute story is largely written — a handful of hyperscalers own it, costs are declining (280x token cost drop in 36 months), and the differentiation is compressing. The new frontier is inference: running models at scale, in production, at a cost and latency that makes business use cases viable.
+
+What the three raises actually tell you:
+
+**SambaNova's JPMorganChase contract:** Enterprise AI is moving off-cloud for inference. Not because cloud is bad — because at enterprise inference scale, the economics of on-prem start to win. JPMorganChase isn't running experiments. They're running production workloads. On-prem inference is real infrastructure, not a pilot.
+
+**Positron's 3.5x performance-per-watt claim:** If true, this is a 70% energy cost reduction versus NVIDIA for the same inference throughput. At scale, energy cost is a first-order variable. Data center operators are paying attention.
+
+**Iluvatar CoreX / ByteDance:** 50,000 chips for one buyer in China. The geopolitical inference stack is being built in parallel to the US stack. Not as a fallback. As a primary alternative.
+
+The capital window for betting against NVIDIA's inference monopoly has opened. Whether the challengers can actually execute is a different question — but three simultaneous $750M+ raises in the same 24 hours says the market is pricing in fragmentation.
+
+Inference is the new training. The question isn't which model to use. It's where it runs, at what cost, and who controls the stack.
