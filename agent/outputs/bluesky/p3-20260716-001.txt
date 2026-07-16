@@ -1,0 +1,5 @@
+Salesforce paid $3.6B for Fin. Largest agentic CX deal ever.
+
+Fin's AI resolves 76% of support volume end-to-end. Not deflected — resolved. Across chat, email, WhatsApp, SMS, and phone.
+
+Median enterprise AI deflection = 41%. Top-quartile = 59%. Fin at 76% just set the new floor.

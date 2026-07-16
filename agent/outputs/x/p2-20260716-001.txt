@@ -1,0 +1,21 @@
+The average marketing AI program earns $5.44 per dollar spent.
+
+Top-quartile programs earn $8.71 per dollar.
+
+That's a $3.27 gap — and it's not random. It maps exactly to the three things that kill 29% of AI marketing deployments within 90 days.
+
+**Failure mode 1: Unclear success criteria (41% of failures)**
+
+Most teams deploy AI tools without defining what "working" looks like. Not just "generate more content" — specific, measurable outputs. Revenue attributed to AI-touched campaigns. Lead velocity. Email reply rates by segment. If you can't measure it before you deploy, you can't diagnose failure afterward.
+
+**Failure mode 2: Poor data and tool access (33% of failures)**
+
+Marketing AI is only as good as the data it can reach. CRMs with inconsistent field naming. Ad platforms siloed from email metrics. Content libraries with no structured taxonomy. The tools exist — but they operate on data that wasn't built for automation. The fix isn't better AI. It's data architecture upstream of the AI.
+
+**Failure mode 3: Brand voice drift (19% of failures)**
+
+Customer-facing AI output that sounds like every other brand. This is the failure mode nobody talks about until a customer notices. Top-quartile programs solve it by investing in voice calibration before scaling output — not after the first complaint.
+
+The $3.27 gap between median and top-quartile isn't about which tools you buy. It's about which operational problems you solve before you deploy.
+
+96% of marketers now use automation. The difference between $5.44 and $8.71 per dollar is whether they solved these three problems first.
