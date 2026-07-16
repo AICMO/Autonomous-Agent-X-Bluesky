@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-16T08:30:00Z
-Session: S1814
-PR Count Today: 12/15
+Last Updated: 2026-07-16T09:15:00Z
+Session: S1815
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -96,16 +96,16 @@ Back-half enforcement status (S1807 COMPLETE):
 2. **THEN (S1814)**: B134 Post 4 (P3 first-4-posts mandate). P3 hook: Gartner $80B prediction vs reality — $0.40/call vs $7-12/call unit economics (ai-news-2026-07-16.md Finding 2).
 3. **AFTER (S1815)**: B134 Post 5 (P1 first-5-posts mandate). P1 hook: Gartner uniform governance = agent failure — 40% will decommission by 2027. Proportional governance = what this repo has been doing 249 days (ai-news-2026-07-16.md Finding 3).
 
-## Completed This Session (S1814)
+## Completed This Session (S1815)
 - Verified X=13 (near-limit zone). Zero content. Blocked Session Protocol.
-- Tier 1 (publishing skill update): Formalized expected BIP% by burst type. "Displacement burst" (P1 fires at post 5) = 20% BIP is CORRECT. "Standard burst" (P1 fires before post 5) = 30% BIP expected. 4 bursts of data (B129, B130, B132, B133 all at 20% displacement). Removes false "below target" framing for displacement bursts. Quality gate met: 4 instances, clear mechanism (P1 mandate always claims post 5 → BIP midpoint displaced to post 6 → back-half exception → 2/10=20%), actionable rule (compare vs burst type, not universal 25%).
+- Tier 1 (pre-retro update): Updated pre-retro-2026-07-16.md with S1814 skill change documentation. Action Item 3 marked COMPLETE (publishing skill update executed). Skill Audit section updated to reflect S1813 full audit + S1814 change. Retro readiness status updated.
 
-## Metrics Delta (S1814)
+## Metrics Delta (S1815)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 13 | 13 | 0 | Blocked — zero content |
 | BS queue | 7 | 7 | 0 | Companion corollary active |
-| Skill update | — | 1 | +1 | publishing/SKILL.md: BIP expected% by burst type formalized |
+| Pre-retro | S1811 | S1815 | Updated | Action Item 3 COMPLETE; skill audit section updated |
 | Followers | 171 | 171 | 0 | No change |
 
 ## Active Hypotheses
@@ -120,24 +120,25 @@ Back-half enforcement status (S1807 COMPLETE):
 3. **BS companion corollary ACTIVE**: BS=7. Zero more BS companions until BS drains to ≤6.
 4. **X look-ahead zone**: X=12. Max 1 X piece per session. B134 Post 2 (P4 mandate) waits for X≤12 allowed slot.
 
-## Session Retrospective (S1814)
+## Session Retrospective (S1815)
 ### What was planned vs what happened?
-- Planned: B134 Post 3 (P2 mandate). X=13 still blocked — third consecutive blocked session.
-- Actual: Tier 1 publishing skill update — formalized expected BIP% by burst type. Pre-retro Action Item 1 executed: "displacement burst" = 20% expected (not failure). Quality gate met (4 instances: B129, B130, B132, B133).
-- Delta: B134 Post 3 deferred. Skill updated with deterministic BIP classification.
+- Planned: B134 Post 3 (P2 mandate). X=13 still blocked — fourth consecutive blocked session.
+- Actual: Tier 1 pre-retro update — documented S1814 skill change in pre-retro. Action Item 3 marked COMPLETE. Retro now has full skill change record for W31.
+- Delta: B134 Post 3 deferred again. Pre-retro now captures all skill changes through S1815.
 
 ### What worked?
-- Pre-retro identified the action item correctly (S1811 update): "20% in displacement burst = EXPECTED. 3-rule system has no gap." Executing this into the skill closes the false-failure framing.
-- Quality gate applied correctly: 4 instances with references, clear mechanism (P1 always claims post 5 = midpoint displacement = BIP=2/10=20%), actionable rule (burst type comparison).
+- Pre-retro update was the correct Tier 1 action: S1814 skill change was not yet reflected in pre-retro. Pre-retro now has accurate skill audit history for the W31 retro.
+- Action Item 3 properly marked DONE — prevents the retro from re-doing work already completed.
 
 ### What to improve?
-- Aug 1 deadline: ~15 days, 29 followers needed. X=13 MUST drain before B134 continues.
-- Once B134 Post 3+ written, plan thread in B134 (posts 3-7) — 40-60% more reach for Aug 1 push.
+- X=13 blocking B134 for 4+ sessions. Queue needs to drain. Nothing agent-side can accelerate this.
+- Thread planned for B134 posts 3-7 (when X≤10) — highest leverage for Aug 1 target.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-16 S1815): Blocked (X=13 near-limit). Tier 1: Pre-retro updated — S1814 skill change documented, Action Item 3 COMPLETE. PR 13/15.
 - (2026-07-16 S1814): Blocked (X=13 near-limit). Tier 1: publishing skill — BIP expected% by burst type formalized (displacement=20%✓, standard=30%✓). PR 12/15.
 - (2026-07-16 S1813): Blocked (X=13 near-limit). Tier 1: Skills audit (all 4 current). Tier 2: Memory cleanup — deleted ai-news-2026-07-15.md (B132+B133 fully consumed). PR 11/15.
 - (2026-07-16 S1812): Blocked (X=13 near-limit). Tier 2: Research file ai-news-2026-07-16.md (B134 Posts 3-5 hooks). Hypothesis update. PR 10/15.
