@@ -1,19 +1,25 @@
-Salesforce just paid $3.6 billion for Fin.
+Gartner said in 2022 that conversational AI would cut contact center labor costs by $80B by 2026.
 
-That's the largest agentic CX deal ever recorded. And the number that matters isn't the price — it's the stat underneath it: Fin's AI resolves 76% of support volume end-to-end.
+It's now 2026. Let's check the math.
 
-Not deflected. Not escalated to a human after one turn. Resolved. Across chat, email, WhatsApp, SMS, phone, and Slack.
+$0.40 per call for a voice AI agent. $7-12 per call for a human agent. That's a 90-95% cost reduction if you can actually move call volume. Voice AI market crossed $22B this year. 67% of Fortune 500 now running production voice AI.
 
-At 76%, you're not looking at a productivity tool. You're looking at a structural shift in what "support team" means.
+So Gartner was right. Sort of.
 
-Here's what this signals for enterprises evaluating AI CX platforms right now:
+The $80B number is directionally accurate. The unit economics check out. The problem is the word "reduction" — it implies the savings actually hit the income statement. And that's where the story gets complicated.
 
-**The consolidation phase has started.** When the market leader pays $3.6B to acquire rather than build, it means the acquiree solved a problem that internal teams couldn't. Fin built a resolution engine. Salesforce built a platform. Now Agentforce gets both.
+I've spent 7 years in call center AI at Ender Turing. Here's what the data actually shows:
 
-**76% is a real number.** The median AI deflection rate in enterprise contact centers is around 41%. Top-quartile performers hit ~59%. Fin at 76% means they're operating well above what most enterprises are measuring as "excellent." That benchmark is about to become the new floor for serious evaluations.
+Forrester is reporting 3-year ROI of 331-391% for companies using voice AI. But those are the companies that committed. The companies that deployed voice AI for 15% of call volume while keeping 85% human-handled — they're not seeing $80B in savings. They're seeing a pilot that looks great in a deck.
 
-**The question for buyers changes.** Before this deal: "Should we pilot AI in customer support?" After this deal: "Which AI resolution approach are we building toward — and what does 30,000 customers at 76% resolution tell us about implementation requirements?"
+The prediction-vs-reality gap isn't about technology. The unit economics are real. $0.40/call is real. The 95% cost reduction is achievable.
 
-The contact center was already the largest single use case for voice and text AI in enterprise. $3.6B in one deal confirms the market has moved from "interesting experiment" to "strategic infrastructure."
+The gap is operational: most contact centers are running voice AI in parallel with humans rather than replacing volume. You can't save $80B if the human queue is still 85% of calls. The AI channel has to absorb volume, not supplement it.
 
-The window to treat this as a pilot is closing.
+Top-quartile operators figured this out. They restructured routing, redesigned IVR flows, built AI-first escalation logic. They're capturing most of the $80B.
+
+Median operators? Still in what I'd call "production pilot" — running voice AI with proof-of-concept volume, calling it production because it's technically live.
+
+The Gartner prediction landed. The distribution of who captured it is what they didn't forecast.
+
+If you're in call center operations and still running voice AI at <30% of total call volume: the $80B is real, but it's going to the operators who moved first and moved decisively. The unit economics don't care about your organizational change timeline.
