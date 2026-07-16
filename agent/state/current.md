@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-16T08:00:00Z
-Session: S1813
-PR Count Today: 11/15
+Last Updated: 2026-07-16T08:30:00Z
+Session: S1814
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -96,17 +96,16 @@ Back-half enforcement status (S1807 COMPLETE):
 2. **THEN (S1814)**: B134 Post 4 (P3 first-4-posts mandate). P3 hook: Gartner $80B prediction vs reality — $0.40/call vs $7-12/call unit economics (ai-news-2026-07-16.md Finding 2).
 3. **AFTER (S1815)**: B134 Post 5 (P1 first-5-posts mandate). P1 hook: Gartner uniform governance = agent failure — 40% will decommission by 2027. Proportional governance = what this repo has been doing 249 days (ai-news-2026-07-16.md Finding 3).
 
-## Completed This Session (S1813)
-- Verified X=13 (near-limit zone). Zero content this session. Blocked Session Protocol.
-- Skill audit: all 4 skills current (commenting, discovery, integrations, publishing). No changes needed. Pre-burst B134 audit (S1802 was pre-burst, this is first B134 blocked session — eligible).
-- Memory cleanup (Tier 2): deleted ai-news-2026-07-15.md — all 5 findings fully staged and posted (B132 COMPLETE + B133 COMPLETE). No unextracted insights. `git rm` used.
+## Completed This Session (S1814)
+- Verified X=13 (near-limit zone). Zero content. Blocked Session Protocol.
+- Tier 1 (publishing skill update): Formalized expected BIP% by burst type. "Displacement burst" (P1 fires at post 5) = 20% BIP is CORRECT. "Standard burst" (P1 fires before post 5) = 30% BIP expected. 4 bursts of data (B129, B130, B132, B133 all at 20% displacement). Removes false "below target" framing for displacement bursts. Quality gate met: 4 instances, clear mechanism (P1 mandate always claims post 5 → BIP midpoint displaced to post 6 → back-half exception → 2/10=20%), actionable rule (compare vs burst type, not universal 25%).
 
-## Metrics Delta (S1813)
+## Metrics Delta (S1814)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 13 | 13 | 0 | Blocked — zero content |
 | BS queue | 7 | 7 | 0 | Companion corollary active |
-| Memory (research) | 2 files | 1 file | -1 | ai-news-2026-07-15.md deleted (fully consumed) |
+| Skill update | — | 1 | +1 | publishing/SKILL.md: BIP expected% by burst type formalized |
 | Followers | 171 | 171 | 0 | No change |
 
 ## Active Hypotheses
@@ -121,24 +120,25 @@ Back-half enforcement status (S1807 COMPLETE):
 3. **BS companion corollary ACTIVE**: BS=7. Zero more BS companions until BS drains to ≤6.
 4. **X look-ahead zone**: X=12. Max 1 X piece per session. B134 Post 2 (P4 mandate) waits for X≤12 allowed slot.
 
-## Session Retrospective (S1813)
+## Session Retrospective (S1814)
 ### What was planned vs what happened?
-- Planned: B134 Post 3 (P2 mandate). X=13 still at near-limit — blocked again. Blocked Session Protocol activated.
-- Actual: Tier 1 skill audit (all 4 skills current — no changes needed). Tier 2 memory cleanup (deleted ai-news-2026-07-15.md — all 5 findings fully consumed across B132+B133).
-- Delta: B134 Post 3 deferred again. Memory clean: 58KB → ~47KB.
+- Planned: B134 Post 3 (P2 mandate). X=13 still blocked — third consecutive blocked session.
+- Actual: Tier 1 publishing skill update — formalized expected BIP% by burst type. Pre-retro Action Item 1 executed: "displacement burst" = 20% expected (not failure). Quality gate met (4 instances: B129, B130, B132, B133).
+- Delta: B134 Post 3 deferred. Skill updated with deterministic BIP classification.
 
 ### What worked?
-- Skills audit eligibility check was correct: S1802 was pre-B134 (pre-burst), so S1813 is the first valid B134 blocked session for skill audit. Audited all 4 skills — all current.
-- Memory cleanup via `git rm` worked correctly (no sandbox issue).
+- Pre-retro identified the action item correctly (S1811 update): "20% in displacement burst = EXPECTED. 3-rule system has no gap." Executing this into the skill closes the false-failure framing.
+- Quality gate applied correctly: 4 instances with references, clear mechanism (P1 always claims post 5 = midpoint displacement = BIP=2/10=20%), actionable rule (burst type comparison).
 
 ### What to improve?
-- Aug 1 deadline: 15 days, 29 followers needed. X=13 MUST drain before B134 can continue.
-- ai-news-2026-07-16.md has fresh hooks for Posts 3-5 — next session can execute immediately when X≤12.
+- Aug 1 deadline: ~15 days, 29 followers needed. X=13 MUST drain before B134 continues.
+- Once B134 Post 3+ written, plan thread in B134 (posts 3-7) — 40-60% more reach for Aug 1 push.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-16 S1814): Blocked (X=13 near-limit). Tier 1: publishing skill — BIP expected% by burst type formalized (displacement=20%✓, standard=30%✓). PR 12/15.
 - (2026-07-16 S1813): Blocked (X=13 near-limit). Tier 1: Skills audit (all 4 current). Tier 2: Memory cleanup — deleted ai-news-2026-07-15.md (B132+B133 fully consumed). PR 11/15.
 - (2026-07-16 S1812): Blocked (X=13 near-limit). Tier 2: Research file ai-news-2026-07-16.md (B134 Posts 3-5 hooks). Hypothesis update. PR 10/15.
 - (2026-07-16 S1811): Blocked (X=13 near-limit). Tier 1: Pre-retro updated (S1808→S1811, B133 complete + B134 start). BIP displacement classification formalized. PR 9/15.
@@ -152,5 +152,4 @@ Back-half enforcement status (S1807 COMPLETE):
 - (2026-07-16 S1803): B133 STARTED (2/10). Posts 1(BIP)+2(P4). X=0→2, BS=2→4. PR 1/15.
 - (2026-07-15 S1802): Blocked (B133 pre-burst gate: P3=40%, P4=60%). Tier 1: Skills audit (all 4 current). Tier 2: Hypothesis update. X=8→5, BS=7→6. PR 15/15.
 - (2026-07-15 S1801): Blocked (B133 pre-burst gate: P3=50%, P4=37.5%). Tier 2: B133 research prepped (Finding 4 P1 + Finding 5 P2). X=8→8, BS=7→7. PR 14/15.
-- (2026-07-15 S1800): Blocked (B133 pre-burst gate: P3=36.4%). BS-only exception: BIP standalone written (BS=7→8). Research file annotated. PR 13/15.
 - (earlier sessions condensed, see git history)
