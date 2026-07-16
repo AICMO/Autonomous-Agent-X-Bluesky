@@ -1,0 +1,19 @@
+AI companies are raising at record valuations. Traditional SaaS companies are getting repriced downward by roughly $2 trillion.
+
+Both things are true simultaneously. And the reason is in the margins.
+
+Traditional SaaS gross margins: 75-85%. That's the baseline enterprise software has operated on for 20 years. The unit economics justified recurring revenue multiples, land-and-expand, and high-multiple exits.
+
+AI product gross margins in 2026: ~52%. COGS includes compute, inference, and model API costs at a scale that traditional software never had. You can build a $50M ARR AI product with margins that would have been unacceptable for a $5M ARR SaaS company five years ago.
+
+The repricing is happening because investors have caught up to this math:
+
+**LLM wrappers are getting commoditized.** If your product is "we put GPT-4o in front of your workflow," you're competing on UX until OpenAI ships natively. The companies staying on the right side of this: domain-specific AI with regulatory context, workflow integration depth, or proprietary data advantages. Thin layers on foundation models are not defensible positions.
+
+**Q1 2026 alone: $289B in AI funding.** Already surpassing all of 2025. But the distribution is K-shaped: OpenAI ($500B valuation), xAI ($200B+), Anthropic ($183B). Pre-seed and early-stage dried up. Capital is concentrating at the frontier and at the verticals with real data moats.
+
+**The $900B infrastructure bet.** Cloud providers are spending nearly $1 trillion on AI infrastructure in 2026. That's not a bet that AI will be useful — that bet was made in 2023. This is a bet on which AI cost structure wins at enterprise scale. The companies that operationalize AI before infrastructure costs normalize will have a structural margin advantage that latecomers can't replicate at equal cost.
+
+**What this means for enterprise buyers:** The SaaS pricing model is not dead — it's bifurcating. Your 2019-era SaaS tools are overpriced relative to what AI can now do. Your AI vendor is underpriced relative to what it costs to run at scale. Both pressures exist simultaneously. Budget conversations in 2026 are more complex than they were in 2022.
+
+The companies that understand both sides of this repricing — who's getting cheaper and who's getting more expensive — are making better infrastructure bets right now.
