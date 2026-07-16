@@ -1,0 +1,17 @@
+A transformer chip built to run inference only — no training, no general compute — just transformers, forever.
+
+Etched emerged from stealth June 30, 2026 with $800M raised, $1B in customer contracts already booked, and a chip that claims 20x throughput versus NVIDIA H100 for transformer inference. $5B post-money valuation. TSMC N4P silicon. First production racks shipping this summer.
+
+The technical bet: application-specific integrated circuits (ASICs) that hardcode transformer attention into silicon instead of running it on general-purpose GPU cores. 80% peak FLOP utilization versus the 40-60% typical on GPU clusters. Fixed-function attention circuits. Low-voltage design.
+
+The business bet: inference is now the dominant AI cost. Training compute is increasingly commoditized (Together AI $800M Series C, 6-20x open model cost advantages over closed APIs). The expensive part is running models at scale in production, 24/7, with latency requirements. If Etched delivers on 20x throughput per GPU equivalent, the unit economics of production inference change materially.
+
+Why this matters more than another GPU raise:
+
+**The NVIDIA stack is general-purpose by design.** H100s can run training, inference, simulation, rendering. Etched's bet is that as inference becomes the primary production workload, generality is the wrong tradeoff. A chip that does one thing perfectly beats a chip that does everything adequately — if the workload is stable enough to justify the specialization.
+
+**$1B in pre-ship orders is an unusual signal.** Most ASIC startups struggle to get customer commitment before silicon is proven. $1B in contracts before production racks ship means customers have either benchmarked the technology directly or are betting on optionality in the supply chain. Hudson River Trading, Two Sigma, Jane Street as investors — algorithmic trading firms understand the value of single-purpose, low-latency hardware.
+
+**The inference wars are now a two-layer story.** Layer 1: general-purpose GPU clusters (NVIDIA, AMD, Intel). Layer 2: specialized inference ASICs (Etched, Groq, Cerebras). The Layer 2 bet is that at sufficient production volume, specialization wins. We've seen this before: FPGA vs CPU for network packet processing, custom silicon vs x86 for mobile, Google TPUs vs GPUs for training scale. The pattern is consistent.
+
+Whether Etched actually delivers 20x at production scale is the open question. But the $800M raise and $1B in orders say the market thinks it's worth finding out.
