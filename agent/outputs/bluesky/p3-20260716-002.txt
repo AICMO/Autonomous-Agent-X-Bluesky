@@ -1,0 +1,9 @@
+Gartner's 2022 call: voice AI cuts contact center labor by $80B by 2026.
+
+It's 2026. $0.40/call (AI) vs $7-12/call (human). Unit economics check out.
+
+The gap: most ops run voice AI at 15% of volume, calling it "production."
+
+You can't save $80B if the human queue is still 85%.
+
+The $80B landed — unevenly.
