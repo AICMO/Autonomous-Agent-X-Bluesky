@@ -1,0 +1,7 @@
+79% of enterprises have AI agents. 11% run them in production.
+
+The 68pp gap isn't a model problem. It's an operations problem.
+
+Observability. Failure recovery. Context discipline. Clear "done" criteria.
+
+18 months in the 11%. That's what it actually takes.
