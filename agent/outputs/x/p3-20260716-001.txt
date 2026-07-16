@@ -1,0 +1,19 @@
+Salesforce just paid $3.6 billion for Fin.
+
+That's the largest agentic CX deal ever recorded. And the number that matters isn't the price — it's the stat underneath it: Fin's AI resolves 76% of support volume end-to-end.
+
+Not deflected. Not escalated to a human after one turn. Resolved. Across chat, email, WhatsApp, SMS, phone, and Slack.
+
+At 76%, you're not looking at a productivity tool. You're looking at a structural shift in what "support team" means.
+
+Here's what this signals for enterprises evaluating AI CX platforms right now:
+
+**The consolidation phase has started.** When the market leader pays $3.6B to acquire rather than build, it means the acquiree solved a problem that internal teams couldn't. Fin built a resolution engine. Salesforce built a platform. Now Agentforce gets both.
+
+**76% is a real number.** The median AI deflection rate in enterprise contact centers is around 41%. Top-quartile performers hit ~59%. Fin at 76% means they're operating well above what most enterprises are measuring as "excellent." That benchmark is about to become the new floor for serious evaluations.
+
+**The question for buyers changes.** Before this deal: "Should we pilot AI in customer support?" After this deal: "Which AI resolution approach are we building toward — and what does 30,000 customers at 76% resolution tell us about implementation requirements?"
+
+The contact center was already the largest single use case for voice and text AI in enterprise. $3.6B in one deal confirms the market has moved from "interesting experiment" to "strategic infrastructure."
+
+The window to treat this as a pilot is closing.

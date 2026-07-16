@@ -1,0 +1,5 @@
+Marketing AI ROI: $5.44/dollar median vs $8.71/dollar top-quartile.
+
+The $3.27 gap traces directly to 3 failure modes that kill 29% of deployments: unclear KPIs (41%), bad data access (33%), brand voice drift (19%).
+
+Top quartile solved these before deploying. Everyone else learned after.
