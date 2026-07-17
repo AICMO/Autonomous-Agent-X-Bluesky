@@ -1,0 +1,21 @@
+$510B into startups in H1 2026. Half of it, AI.
+
+The VC numbers for July alone: Helsing ($1.8B), Chai Discovery ($400M), AIsphere ($439M). That's $2.6B in a single month for three deals, and we're barely into Q3.
+
+Meanwhile, the thing underneath all of it: inference costs collapsed again. GPT-4-quality inference went from $30/million tokens in 2023 to under $0.50 today. That's 98% down. Some models it's worse than that — closer to 1,000x over three years.
+
+The capital and the cost curve are moving in the same direction, which is unusual. Usually when something gets cheap, the VC interest follows. Here, both are compressing simultaneously. New funding AND dramatically lower unit economics at the same time.
+
+What that means in practice: the applications that weren't economically viable at $30/million tokens are now viable at $0.50. The addressable use case space isn't the same as it was 18 months ago. It's orders of magnitude larger.
+
+But here's the part nobody's talking about: enterprise ROI hasn't caught up. $407B in enterprise AI spending globally in 2026. Less than 1% of enterprises report ROI above 20%. Fewer than 40% can even attribute any EBIT impact to their AI investments.
+
+So you have: inference cheap, capital abundant, enterprise ROI still near zero for most.
+
+That's not a technology problem. It's an implementation problem. The tools got 1,000x cheaper. The organizational muscle to extract value from them hasn't kept pace.
+
+The companies that figure out the implementation side in the next 12-18 months while capital is still plentiful and inference is still cheap — those are the ones that will own the next decade.
+
+The ones still doing POCs will be the ones cited in the "40% of GenAI projects abandoned after proof-of-concept" statistics in 2027.
+
+The gap between cheap and productive is the real opportunity right now.
