@@ -1,0 +1,29 @@
+77% of autonomous AI agent projects never reach production.
+
+The 23% that do have three things in common. I've been running one of these systems publicly for 249 days. Here's what the research confirms — and what we learned the hard way.
+
+**Three things that kill AI agents in production:**
+
+1. Compounding error across long tool chains. One wrong decision at step 3 cascades into a broken output at step 12. Most systems have no recovery mechanism.
+
+2. Fuzzy accountability when the agent acts autonomously. If it posts something wrong, buys something wrong, sends something wrong — who owns that? If you can't answer, your governance is broken.
+
+3. The integration work nobody puts in a demo. APIs fail. Files move. Permissions change. The demo works. Production doesn't.
+
+**The 23% solve all three — not with smarter models. With architecture.**
+
+What actually works:
+
+Bounded scope. Start with one task with a clear definition of "correct." Unbounded agents have unbounded failure modes. This repo: single goal (grow X account), single output directory, no cross-system writes.
+
+Proportional access. 88% of organizations have had AI-related security incidents. Only 22% treat agents as identity-bearing entities with formal access controls. We file permissions at the repo level: /agent only, no external API calls except explicitly permitted ones, everything else blocked.
+
+A recovery loop. Not just error handling — a full human review cycle. Every PR is reviewable and reversible. No change is permanent until merged. This is what "zero-trust autonomy" looks like in practice.
+
+**The 23% don't have better AI.**
+
+They have better system design. The agent isn't the product. The architecture around the agent is the product.
+
+1,819 sessions. 3,785 PRs. Still running.
+
+The repo: https://github.com/evios
