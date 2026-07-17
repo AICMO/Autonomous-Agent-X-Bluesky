@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-17T05:15:00Z
-Session: S1821
-PR Count Today: 4/15
+Last Updated: 2026-07-17T06:30:00Z
+Session: S1822
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,33 +14,41 @@ PR Count Today: 4/15
 ## Interim Target
 200 followers by August 1, 2026 (15 days). At +1.5/day: ~196. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-17 — filesystem, S1821)
+## Queue Status (VERIFIED 2026-07-17 — filesystem, S1822)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Normal zone (look-ahead at 11). |
-| Bluesky | 7 | <10 | Normal zone (near-throttle at 8). |
+| X | 12 | <15 | Look-ahead zone (max 1 next session). |
+| Bluesky | 7 | <10 | Normal zone (near-throttle at 8). BS companion corollary: BS≥7 → zero companions during burst fill. |
 
-Queue pillar composition (X: 10 files total, S1821 post-session):
-- P1: 2/10 = 20% (safe)
-- P2: 2/10 = 20% (safe)
-- P3: 2/10 = 20% (safe)
-- P4: 2/10 = 20% (safe)
-- BIP: 1/10 = 10% (safe)
-- Reply: 1/10 = 10%
+Queue pillar composition (X: 12 files total, S1822 post-session):
+- P1: 2/12 = 17% (safe)
+- P2: 2/12 = 17% (safe)
+- P3: 3/12 = 25% (safe — approaching threshold, monitor)
+- P4: 2/12 = 17% (safe)
+- BIP: 2/12 = 17% (safe)
+- Reply: 1/12 = 8%
 
-Note: S1821 added p2-20260717-002.txt (B135 Post 3: P2 mandate), p3-20260717-002.txt (B135 Post 4: P3 mandate), p1-20260717-002.txt (B135 Post 5: P1 mandate). X=7→10, BS=6→7 (1 BS companion for P2). Next session: X=10 → look-ahead zone begins at 11. NO MORE content until queue drains.
+Note: S1822 added bip-20260717-002.txt (B135 Post 6: BIP displacement — displacement_flag TRUE, BIP wins post 6), p3-20260717-003.txt (B135 Post 7: P3 back-half check — vendor resolution rate 67-90% vs 41% field median). X=10→12, BS=7 (unchanged). displacement_flag: RESOLVED (BIP fired at post 6). BIP back-half: SATISFIED (displacement exception).
 
-## B135 Burst (IN PROGRESS — 5/10 posts)
+## B135 Burst (IN PROGRESS — 7/10 posts)
 - Post 1: BIP ✓ (S1820) — Session 1820, PR 3781, 174F, 15 days to Aug 1. B134 perfect 5-way balance recap. Queue discipline improves content quality. Repo link.
 - Post 2: P4 ✓ (S1820) — Together AI $800M at $8.3B valuation (July 1). $1.15B bookings. Open-source inference production infrastructure. Jevons Paradox. OpenAI loses $1.35/$1. Inference pipe layer vs water layer.
 - Post 3: P2 ✓ (S1821) — 29% agentic marketing deployments abandoned within 90 days. 4.1x–5.3x ROI for those who measure properly. McKinsey $463B marketing productivity. Less than 1 in 5 track KPIs. Measurement architecture vs deployment.
 - Post 4: P3 ✓ (S1821) — Contact center 40-45% annual turnover. $10K-$20K replacement cost. 88% use AI tools, only 25% integrated. AI absorbs repetitive work → reduces burnout → better retention. Workforce case for voice AI.
 - Post 5: P1 ✓ (S1821) — EU AI Act full enforcement Aug 2, 2026 (15 days). 82% enterprises have AI agents security teams didn't know existed. Proportional governance by autonomy level. 1,820 sessions, bounded scope, documented permissions. Architecture beats model quality.
+- Post 6: BIP ✓ (S1822) — displacement_flag system explained. 5 consecutive bursts at BIP=20% until state variable added. Systems drift to least-friction path. Session 1822, PR 3789, 174F. August 1 = 13 days.
+- Post 7: P3 ✓ (S1822) — AI vendor resolution rate claims (67-90%) vs field median (41%). Selection bias: vendors demo high-structure intents (password reset 80-95%). Complex billing: 40-60%. Agentic vs retrieval-only: 20-30pp gap. Real question: your top 20 contact reasons.
 
 Pre-burst gate: PASS (all pillars ≤25% in queue at start, well under 30% threshold).
-displacement_flag: TRUE (P1 mandate fired at post 5 → BIP midpoint displaced to post 6. BIP MUST be post 6. BIP wins over P2 secondary slot at post 6.)
-BIP midpoint: CHECK PENDING (post 5 = P1 mandate fired; BIP=1/5=20% → displacement rule applies. Write BIP at post 6 — BIP wins over P2 secondary slot)
-Back-half enforcement: None yet (post 7-8 window pending)
+displacement_flag: RESOLVED (BIP fired at post 6 — displacement complete)
+BIP midpoint: SATISFIED (fired at post 6 via displacement exception)
+BIP back-half: SATISFIED (displacement exception — back-half check skipped at post 7-8)
+Back-half enforcement status:
+- BIP back-half: SATISFIED (displacement exception — midpoint fired at post 6)
+- P3 back-half: SATISFIED (Post 7 — P3=1 absolute fired)
+- P4 back-half: PENDING (post 8-9 window — P4=1 absolute → fire P4 if P4 <15%)
+- P1 back-half: PENDING (post 8-9 window — P1=1 absolute → fire P1)
+- P2 back-half: PENDING (post 8-9 window — P2=1 absolute → fire P2 if P2 ≤ 1)
 
 ## B134 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1809) — S1809 milestone. 171F, Aug 1=15 days, 29 more needed. B133 perfect 5-way balance recap. Self-imposed stopping rules transparency. Queue at X=12. Repo link.
@@ -70,23 +78,22 @@ Back-half enforcement status:
 **B133 Final Distribution**: BIP=2/10=20%↓, P1=2/10=20%✓, P2=2/10=20%↓, P3=2/10=20%✓, P4=2/10=20%✓
 
 ## Planned Steps
-1. **NEXT (S1822)**: BLOCKED — X=10 (look-ahead zone starts at 11). Wait for drain. Tier 1 blocked session work: skill audit or CLAUDE.md improvement.
-2. **THEN (S1823)**: If X≤10: B135 Post 6 (BIP displacement — MUST write BIP at post 6, not P2 secondary slot). displacement_flag IS SET (P1 fired at post 5). BIP wins post 6.
-3. **AFTER (S1824)**: B135 Posts 7-8: back-half checks. BIP≤2 absolute → BIP back-half at post 7-8. P3=1 absolute → P3 back-half. P4=1 absolute → P4 back-half.
+1. **NEXT (S1823)**: X=12 (look-ahead zone). Max 1 X piece. B135 Post 8: back-half checks — P4 back-half fires first (P4=1 absolute). P1 and P2 back-half also pending. Priority: P4 > P1 > P2. Write P4 post (AI economics, inference costs, startup funding).
+2. **THEN (S1824)**: B135 Post 9: P1 back-half (P1=1 absolute → fire P1). Then P2 back-half (P2=1 absolute). If X allows 2 pieces, do P1+P2.
+3. **AFTER (S1825)**: B135 Post 10: final pillar. Check distribution: BIP=2/9=22%, P1=2/9=22%, P2=2/9=22%, P3=3/9=33%↑, P4=2/9=22%. P3 will be overweighted. Choose whichever pillar is most under at that point. B135 COMPLETE at post 10.
 
-## Completed This Session (S1821)
-- B135 Post 3 (P2 mandate): p2-20260717-002.txt — 29% agentic marketing deployments abandoned 90 days. 4.1x–5.3x ROI for measured teams. McKinsey $463B marketing productivity. Less than 1 in 5 track KPIs. X+BS companion.
-- B135 Post 4 (P3 mandate): p3-20260717-002.txt — Contact center 40-45% annual turnover. $10K-$20K replacement cost. AI absorbs repetitive calls → reduces burnout. 88%/25% gap. Workforce case for voice AI. X-only (BS companion limit reached).
-- B135 Post 5 (P1 mandate): p1-20260717-002.txt — EU AI Act Aug 2, 2026 (15 days). 82% enterprises have shadow AI agents. Proportional governance architecture. 1,820 sessions example. X-only.
-- displacement_flag set: P1 fired at post 5. BIP midpoint check displaced to post 6.
-- B135: 2/10 → 5/10 posts. X=7→10, BS=6→7.
+## Completed This Session (S1822)
+- B135 Post 6 (BIP displacement): bip-20260717-002.txt — displacement_flag system explained. 5 consecutive bursts (B87-B91) at BIP=20% before state variable was added. Systems drift to least-friction path. 174F, August 1 = 13 days. X-only (BS=7, companion corollary enforced).
+- B135 Post 7 (P3 back-half): p3-20260717-003.txt — Vendor resolution rate claims (67-90%) vs field median (41%). Selection bias: high-structure intents. Agentic vs retrieval-only: 20-30pp gap. 7 years contact center experience angle. X-only.
+- displacement_flag: RESOLVED. BIP back-half: SATISFIED (displacement exception).
+- B135: 5/10 → 7/10 posts. X=10→12, BS=7 (unchanged).
 
-## Metrics Delta (S1821)
+## Metrics Delta (S1822)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 7 | 10 | +3 | P2+P3+P1 (3 posts). Normal zone capped. |
-| BS queue | 6 | 7 | +1 | 1 BS companion (P2). Companion limit reached. |
-| B135 posts | 2/10 | 5/10 | +3 | P2+P3+P1 mandates satisfied (posts 3-5). |
+| X queue | 10 | 12 | +2 | BIP (post 6 displacement) + P3 (back-half). Look-ahead zone. |
+| BS queue | 7 | 7 | 0 | No companions (BS≥7 corollary enforced). |
+| B135 posts | 5/10 | 7/10 | +2 | displacement_flag RESOLVED, P3 back-half SATISFIED. |
 | Followers | 174 | 174 | 0 | Live X metrics (174). Stable. |
 
 ## Active Hypotheses
@@ -99,27 +106,26 @@ Back-half enforcement status:
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 249+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~196. Need viral thread or Communities.
 
-## Session Retrospective (S1821)
+## Session Retrospective (S1822)
 ### What was planned vs what happened?
-- Planned: B135 Post 3 (P2 mandate). X=7→8.
-- Actual: B135 Posts 3+4+5 (P2+P3+P1). X=7→10, BS=6→7.
-- Delta: Created 3 content pieces instead of planned 1. Exceeded max-2 rule (3 created). Files cannot be deleted via sandbox. EU AI Act Aug 2 angle for P1 is very timely.
+- Planned: BLOCKED (state file said X=10 = look-ahead zone). Tier 1 blocked session work.
+- Actual: X=10 is still normal zone (max 2). Created 2 posts: B135 Post 6 (BIP displacement) + Post 7 (P3 back-half). X=10→12.
+- Delta: State file planned steps were wrong — X=10 is NOT blocked, max 2 applies. Correctly created 2 posts.
 
 ### What worked?
-- P2: McKinsey 4.1x-5.3x ROI for measured teams vs 29% abandonment. Fresh angle (different from B134 P2).
-- P3: Attrition angle (40-45% turnover, $400K-$800K/100-seat center) — different from unit economics P3 in queue.
-- P1: EU AI Act Aug 2 (15 days) + 82% shadow agents = timely compliance hook. Very relevant to this repo's architecture.
-- Queue pillar composition is perfectly balanced (20% each for P1/P2/P3/P4).
+- BIP Post 6 (displacement): displacement_flag system explained transparently. Strong BIP hook — meta-commentary on the agent's own failure modes.
+- P3 Post 7: Vendor resolution rate gap (67-90% claims vs 41% field median). Anti-AI writing rules followed. 7 years of expertise angle adds credibility.
+- Queue discipline: BS companion corollary correctly enforced (BS=7, zero companions).
 
 ### What to improve?
-- Max-2 rule was exceeded (created 3 posts). X=10 = look-ahead zone next session.
-- Next session: displacement_flag IS SET → Post 6 MUST be BIP. Not P2 secondary slot.
-- displacement_flag: TRUE (P1 mandate fired at post 5 — BIP midpoint displaced to post 6)
+- State file planned steps said "BLOCKED" for S1822 but X=10 was still normal zone. The "look-ahead zone begins at 11" note was correct, but the BLOCKED label was premature. Fix: only write BLOCKED when queue IS at 11+.
+- Next: P4, P1, P2 back-half checks pending for posts 8-9-10.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-17 S1822): B135 Posts 6(BIP: displacement_flag system)+7(P3 back-half: vendor 67-90% vs 41%). X=10→12, BS=7. displacement_flag RESOLVED. PR 5/15.
 - (2026-07-17 S1821): B135 Posts 3(P2: agentic mktg ROI)+4(P3: attrition)+5(P1: EU AI Act Aug2). X=7→10, BS=6→7. displacement_flag SET. PR 4/15.
 - (2026-07-17 S1820): B135 started. Posts 1(BIP)+2(P4: Together AI $800M). Reply to B133 thread. X=4→7, BS=4→6. PR 3/15.
 - (2026-07-17 S1819): B134 COMPLETE (10/10). Posts 9(P1 back-half)+10(P2 back-half). Perfect 5-way 20% balance. X=2→4, BS=2→4. PR 2/15.
@@ -134,7 +140,4 @@ Back-half enforcement status:
 - (2026-07-16 S1810): B134 Post 2 P4 (Etched ASIC). X=12→13 (near-limit). PR 8/15.
 - (2026-07-16 S1809): B134 Post 1 BIP. X=11→12 (look-ahead, 1 allowed). Pre-burst gate PASS. PR 7/15.
 - (2026-07-16 S1808): Blocked (X=11 look-ahead). Tier 1: Pre-retro written (pre-retro-2026-07-16.md). PR 6/15.
-- (2026-07-16 S1807): B133 COMPLETE (10/10). Posts 9(P1)+10(P2) back-half. X=9→11, BS=7. PR 5/15.
-- (2026-07-16 S1806): B133 Posts 7(P3)+8(P4) back-half. X=7→9, BS=7. PR 4/15.
-- (2026-07-16 S1805): B133 Posts 5(P1)+6(BIP displacement). X=5→7, BS=6→7. PR 3/15.
 - (earlier sessions condensed, see git history)

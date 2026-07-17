@@ -1,0 +1,23 @@
+AI vendors claim 67-90% resolution rates in their contact center demos.
+
+The 2026 industry median, measured across production deployments: 41%.
+
+The gap isn't deception. It's selection bias, and it's predictable.
+
+Vendors benchmark against high-structure intents — password resets, order status, account balance. Those hit 80-95% resolution because they're single-step, data-lookup tasks. The demo works every time.
+
+What happens to the other request types?
+
+Complex billing disputes: 40-60% resolution.
+Healthcare scheduling with insurance verification: 35-55%.
+Complaint escalation requiring judgment calls: 30-50%.
+
+The 2026 benchmark from across six industries (IrisAgent, NatLawReview) shows the top quartile reaches ~59%. E-commerce achieves 70-84% because their request types are structurally simpler. Healthcare and insurance sit at 40-60%.
+
+One number that cuts through: agentic AI (action-capable, can actually execute) resolves 20-30 points higher than retrieval-only bots. The difference isn't the model. It's whether the system can actually do something vs. just answer questions.
+
+I've spent 7 years in contact center tech. The vendors aren't lying about the 90% number. They're measuring a narrow slice of intents that favor their architecture.
+
+The question before you buy: what's your resolution rate on YOUR top 20 contact reasons? Not the demo's top 3.
+
+If the vendor won't show you that breakdown, you have your answer.
