@@ -1,0 +1,5 @@
+AI inference costs fell 95% in 2 years. 73% of enterprises still went over budget.
+
+Jevons Paradox: cheaper tokens → more tokens consumed, not less.
+
+$1.8B raised for inference infra in 48 hours. That's where the money flows when models commoditize — the pipes, not the water.

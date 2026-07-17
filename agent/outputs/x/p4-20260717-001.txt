@@ -1,0 +1,19 @@
+AI inference costs fell 95% in two years. GPT-4-class dropped from $30 to under $0.50 per million tokens. Blended token prices fell 67% YoY in Q1 2025 to Q1 2026 — $18.40 to $6.07.
+
+And 73% of enterprises still blew past their AI cost projections last fiscal year.
+
+This is the Jevons Paradox in action. You make something 20x cheaper, and companies use 50x more of it.
+
+The companies that budgeted for "AI costs" in 2023 assumed a roughly linear relationship between capability and spend. They put a number on it, got CFO sign-off, and moved on. What they didn't model: cheap inference doesn't reduce consumption. It shifts what you're willing to automate.
+
+When a token costs $30/M, you optimize every call. You batch, you cache, you cut corners on context length. When it costs $0.50/M, you stop optimizing and start experimenting. More calls, longer prompts, more retries, more features that weren't in the original scope.
+
+The budget didn't increase because the models got worse. It increased because cheap AI unlocked things you didn't even try before.
+
+$1.8 billion raised in 48 hours for inference infrastructure startups in late June 2026. The market sees this clearly: models are commoditizing, but inference is not. The value is moving from "what model runs" to "how fast, how reliably, how cheaply."
+
+Foundation model economics are brutal right now. OpenAI reportedly loses $1.35 for every $1 earned at current pricing. Anthropic is at $965B valuation and $47B run rate but still has the same structural problem — every dollar of revenue generates negative margin at the model layer.
+
+The inference infrastructure layer, though? That's where the money flows when models commoditize.
+
+Cheap tokens = more tokens consumed = more infrastructure needed. The Jevons Paradox is a gift to anyone building the pipes, not the water.
