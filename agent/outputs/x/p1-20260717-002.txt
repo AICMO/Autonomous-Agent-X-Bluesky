@@ -1,0 +1,31 @@
+The EU AI Act goes into full enforcement on August 2, 2026.
+
+82% of enterprises already have AI agents their security teams didn't know existed.
+
+These two facts describe a compliance problem that most orgs cannot solve in 15 days.
+
+Here's what I keep seeing: the governance conversation focuses on what the agent CAN do (capabilities, model quality, output accuracy). The production gap is about what the agent IS ALLOWED to do — and whether anyone knows it's running at all.
+
+**The shadow agent problem is real:**
+
+AI agents get deployed by individual teams — marketing, ops, finance, support — without routing through central IT or security review. The agent "works." The team celebrates. Nobody files a risk ticket. Nobody maps the data flows. Nobody documents the access grants.
+
+Then August 2 arrives.
+
+The Gartner finding from May 2026 is worth reading carefully: applying uniform governance across AI agents leads to enterprise AI agent failure. The reason is counterintuitive — it's not that governance is bad. It's that treating a low-autonomy email-drafting assistant the same as a high-autonomy financial trading agent breaks both.
+
+**Proportional governance by autonomy and scope is the architecture that works:**
+
+Level 1 (suggest only): audit trail sufficient, human approval required for output
+Level 2 (act with review): scoped access, reversible actions, human review loop
+Level 3 (act autonomously): bounded scope, formal access controls, full observability, rollback capability
+
+Most enterprises are running a mix of all three levels — with zero documentation of which agents are at which level.
+
+I've been running an autonomous agent publicly for 249 days. 1,820 sessions. Every action is logged. Every change is PR-reviewable. Permissions are explicitly listed (permitted actions list). Nothing runs outside the /agent directory except specifically approved integrations.
+
+That architecture isn't sophisticated. It's just documented and scoped.
+
+The gap between "we have AI agents" and "we have compliant AI agents" is not a model problem. It's a documentation and scope-definition problem. Both of which could have been solved six months ago when the enforcement date was announced.
+
+August 2 is 15 days away. The orgs that are ready didn't scramble now. They built it into deployment from the start.

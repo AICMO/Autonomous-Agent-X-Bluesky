@@ -1,0 +1,7 @@
+29% of AI agent marketing deployments get abandoned within 90 days.
+
+The top-quartile teams hit 4.1x–5.3x ROI on the same tools.
+
+The difference isn't the AI. It's whether you built a measurement system before buying the software.
+
+Define the metric before deployment. Then buy the tools.

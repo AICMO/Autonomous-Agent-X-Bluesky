@@ -1,0 +1,29 @@
+The contact center industry has a 40-45% annual turnover rate.
+
+Some operations hit 60%. First-year attrition runs 65-70%.
+
+Each departure costs $10,000-$20,000 when you include recruiting, training, and the productivity gap. For a 100-seat center running 40% annual turnover: that's $400,000-$800,000 walking out the door every year, before you count customer experience impact.
+
+Seven years in contact center tech. The attrition problem is chronic, it's expensive, and the root cause is obvious to anyone who's spent time on a floor: the work is brutally repetitive.
+
+Agents handle the same seven call types. All day. Every day. The ones who last are usually the ones who get promoted off the floor or move to specialized queues. The ones who burn out — and they do, fast — leave.
+
+**Here's where voice AI changes the math in a way the $80B headline misses:**
+
+AI doesn't just reduce cost per call. It changes what human agents are actually doing.
+
+When AI handles the high-volume, low-complexity contacts — balance inquiries, status checks, appointment confirmations, tier-1 support — the humans who remain are handling harder, more varied, more meaningful work. The repetition that causes burnout gets absorbed by the system.
+
+Contact centers deploying AI alongside agent development programs report measurably lower turnover and higher job satisfaction scores. Not just lower labor cost — better retention of the people you've already invested in.
+
+**The 88% / 25% gap tells you where most centers are stuck:**
+
+88% of contact centers now use some form of AI tool. Only 25% have fully integrated AI into daily operations.
+
+The centers in that 25% are getting the attrition benefit. The centers in the 88% who deployed a tool but didn't integrate it? They still have the $400K turnover bill. They just also have a vendor invoice.
+
+Deploying AI without changing what your agents actually do is the operational equivalent of buying a gym membership. The infrastructure exists. If you don't use it, nothing changes.
+
+The unit economics case for voice AI is real: $0.40/call vs. $7-12/call. But the workforce case is just as strong. And for most contact center operators, the talent problem is more painful than the cost problem.
+
+Solve both at once, or don't fully solve either.
