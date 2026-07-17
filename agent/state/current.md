@@ -1,36 +1,36 @@
 # Agent State
-Last Updated: 2026-07-17T13:00:00Z
-Session: S1830
-PR Count Today: 13/15
+Last Updated: 2026-07-17T14:30:00Z
+Session: S1831
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 174 | 5,000 | 4,826 | +1.5/day (W30) | Unreachable without Communities |
+| Followers | 175 | 5,000 | 4,825 | +1.5/day (W30) | Unreachable without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 249) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | 0.138 | Track | Declining trend | W24=0.22→W30=0.138 | Reach is constraint |
 
 ## Interim Target
-200 followers by August 1, 2026 (15 days). At +1.5/day: ~196. Needs one good thread or viral post.
+200 followers by August 1, 2026 (15 days). At +1.5/day: ~197.5. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-17 — filesystem, S1823)
+## Queue Status (VERIFIED 2026-07-17 — filesystem, S1831)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone (zero content next session). |
-| Bluesky | 7 | <10 | Normal zone (near-throttle at 8). BS companion corollary: BS≥7 → zero companions during burst fill. |
+| X | 8 | <15 | Normal zone (allows 2 more). |
+| Bluesky | 6 | <10 | Normal zone (companion corollary: BS≥7 → zero companions during burst fill; at BS=6, 1 companion added this session). |
 
-Queue pillar composition (X: 13 files total, S1823 post-session):
-- P1: 2/13 = 15% (safe)
-- P2: 2/13 = 15% (safe)
-- P3: 3/13 = 23% (safe)
-- P4: 3/13 = 23% (safe)
-- BIP: 2/13 = 15% (safe)
-- Reply: 1/13 = 8%
+Queue pillar composition (X: 8 files total, S1831 post-session):
+- P1: 1/8 = 13% (safe)
+- P2: 1/8 = 13% (safe)
+- P3: 3/8 = 38% (QUEUE-BLOCKED for next burst — ≥30%)
+- P4: 3/8 = 38% (QUEUE-BLOCKED for next burst — ≥30%)
+- BIP: 0/8 = 0% (safe)
+- Reply: 0/8 = 0%
 
-Note: S1823 added p4-20260717-003.txt (B135 Post 8: P4 back-half — $510B H1 VC, $2.6B July deals, inference $30→$0.50/M tokens, $407B enterprise spend vs <1% ROI >20%). X=12→13, BS=7 (unchanged). P4 back-half: SATISFIED.
+Note: S1831 added p1-20260717-001.txt (B135 Post 9: P1 back-half — 72% enterprise agent production, 21% mature governance, 1,831 sessions architecture) and p2-20260717-001.txt (B135 Post 10: P2 back-half — 95% adoption, 41% ROI proof down from 49%, measurement architecture). X=6→8, BS=5→6. B135 COMPLETE.
 
-## B135 Burst (IN PROGRESS — 8/10 posts)
+## B135 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1820) — Session 1820, PR 3781, 174F, 15 days to Aug 1. B134 perfect 5-way balance recap. Queue discipline improves content quality. Repo link.
 - Post 2: P4 ✓ (S1820) — Together AI $800M at $8.3B valuation (July 1). $1.15B bookings. Open-source inference production infrastructure. Jevons Paradox. OpenAI loses $1.35/$1. Inference pipe layer vs water layer.
 - Post 3: P2 ✓ (S1821) — 29% agentic marketing deployments abandoned within 90 days. 4.1x–5.3x ROI for those who measure properly. McKinsey $463B marketing productivity. Less than 1 in 5 track KPIs. Measurement architecture vs deployment.
@@ -39,9 +39,10 @@ Note: S1823 added p4-20260717-003.txt (B135 Post 8: P4 back-half — $510B H1 VC
 - Post 6: BIP ✓ (S1822) — displacement_flag system explained. 5 consecutive bursts at BIP=20% until state variable added. Systems drift to least-friction path. Session 1822, PR 3789, 174F. August 1 = 13 days.
 - Post 7: P3 ✓ (S1822) — AI vendor resolution rate claims (67-90%) vs field median (41%). Selection bias: vendors demo high-structure intents (password reset 80-95%). Complex billing: 40-60%. Agentic vs retrieval-only: 20-30pp gap. Real question: your top 20 contact reasons.
 - Post 8: P4 ✓ (S1823) — $510B H1 2026 VC record (half AI). July: $2.6B in 3 deals (Helsing $1.8B, Chai $400M, AIsphere $439M). Inference $30→$0.50/M tokens (-98%). $407B enterprise spend, <1% reporting ROI >20%. Implementation gap = real opportunity.
+- Post 9: P1 ✓ (S1831) — 72% enterprise agents in production, 21% mature governance. 1,831 sessions, documented permissions, hard limits, PR loop, explicit config. Gartner: 40% decommissioned by 2027. Architecture > model quality. P1 back-half SATISFIED.
+- Post 10: P2 ✓ (S1831) — 95% enterprise marketing has AI automation, only 41% can prove ROI (down from 49%). Adoption up, proof down. Measurement architecture first, not AI model. Top quartile: $8.71/$1 with causal testing + holdout groups. P2 back-half SATISFIED.
 
-Pre-burst gate: PASS (all pillars ≤25% in queue at start, well under 30% threshold).
-threads_this_burst: 0 (B135 — no thread written yet; posts 9+10 are mandatory P1+P2 back-half, no thread slot remaining. Thread REQUIRED in B136.)
+threads_this_burst: 0 (Thread REQUIRED in B136.)
 displacement_flag: RESOLVED (BIP fired at post 6 — displacement complete)
 BIP midpoint: SATISFIED (fired at post 6 via displacement exception)
 BIP back-half: SATISFIED (displacement exception — back-half check skipped at post 7-8)
@@ -49,8 +50,10 @@ Back-half enforcement status:
 - BIP back-half: SATISFIED (displacement exception — midpoint fired at post 6)
 - P3 back-half: SATISFIED (Post 7 — P3=1 absolute fired)
 - P4 back-half: SATISFIED (Post 8 — P4=1 absolute fired)
-- P1 back-half: PENDING (post 9 window — P1=1 absolute → fire P1)
-- P2 back-half: PENDING (post 9-10 window — P2=1 absolute → fire P2 if P2 ≤ 1)
+- P1 back-half: SATISFIED (Post 9 — P1=1 absolute fired, S1831)
+- P2 back-half: SATISFIED (Post 10 — P2=1 absolute fired, S1831)
+
+**B135 FINAL Distribution**: BIP=2/10=20%↓(displacement type — CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓
 
 ## B134 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1809) — S1809 milestone. 171F, Aug 1=15 days, 29 more needed. B133 perfect 5-way balance recap. Self-imposed stopping rules transparency. Queue at X=12. Repo link.
@@ -80,21 +83,23 @@ Back-half enforcement status:
 **B133 Final Distribution**: BIP=2/10=20%↓, P1=2/10=20%✓, P2=2/10=20%↓, P3=2/10=20%✓, P4=2/10=20%✓
 
 ## Planned Steps
-1. **NEXT (S1831)**: When X drains to ≤12, B135 Post 9: P1 back-half (P1=1 absolute → fire P1). If X=10 (allows 2), also do P2 back-half (P2=1 absolute).
-2. **THEN**: B135 Post 10: P2 back-half. B135 COMPLETE. Final distribution: BIP=2/10=20%↓(displacement=CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=25%✓, P4=2/10=25%✓.
-3. **AFTER**: Start B136. Pre-burst gate check first. B136 Post 1: BIP. THREAD REQUIRED in posts 7-8 (back-half enforcement). Aug 1 = 13 days.
+1. **NEXT (S1832)**: B135 COMPLETE. Start B136 when queues allow. Pre-burst gate check: P3=38% BLOCKED, P4=38% BLOCKED in queue — wait for drain before Post 2 (P4 mandate) and Post 4 (P3 mandate). B136 Post 1: BIP (always unblocked). Thread MANDATORY in back-half (posts 7-8).
+2. **THEN**: B136 Posts 2-4 once P3/P4 drain below 30%. Normal slot assignments: P4→P2→P3.
+3. **AFTER**: Retro Sunday July 19 (2 days). Pre-retro ready. Weekly retro should include B135 completion data and thread enforcement enforcement in B136.
 
-## Completed This Session (S1830)
-- Blocked session (X=13 near-limit). Tier 3: State file update — added required `threads_this_burst: 0` field to B135 burst block (field mandated by S1828 thread back-half enforcement rule; B135 block predates the rule and was missing this tracking field).
-- All Tier 1/2 options exhausted: skill audit done S1828 (same burst), pre-retro updated S1829 (immediately prior session, no new data — STOP CONDITION 2), memory cleanup done S1827, hypothesis updated S1826 (no new data since).
+## Completed This Session (S1831)
+- B135 Post 9 (P1 back-half): p1-20260717-001.txt — 72% enterprise agents in production, 21% mature governance. 1,831 sessions, documented permissions, hard limits, PR loop. Gartner 40% decommissioned by 2027. Architecture > model quality.
+- B135 Post 10 (P2 back-half): p2-20260717-001.txt — 95% enterprise marketing has AI, only 41% can prove ROI (down from 49%). Adoption up, proof down. Measurement architecture first. Top quartile: $8.71/$1.
+- BS companion: p1-20260717-001.txt (Bluesky, 290-char compressed).
+- B135 COMPLETE — 10/10 posts. Final distribution: BIP=2/10=20%↓(displacement=CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓.
 
-## Metrics Delta (S1830)
+## Metrics Delta (S1831)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 13 | 13 | 0 | Blocked. No content. |
-| BS queue | 7 | 7 | 0 | No content. |
-| B135 posts | 8/10 | 8/10 | 0 | Blocked. P1+P2 back-half pending. |
-| Followers | 174 | 174 | 0 | Live X metrics (174). Stable. |
+| X queue | 6 | 8 | +2 | B135 Posts 9+10 added. |
+| BS queue | 5 | 6 | +1 | P1 companion added. BS companion corollary respected (6≤6). |
+| B135 posts | 8/10 | 10/10 | +2 | COMPLETE. |
+| Followers | 175 | 175 | 0 | Live X metrics (175). +1 since last session. |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 249 days blocked. Owner action required.
@@ -106,25 +111,27 @@ Back-half enforcement status:
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 249+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~196. Need viral thread or Communities.
 
-## Session Retrospective (S1830)
+## Session Retrospective (S1831)
 ### What was planned vs what happened?
-- Planned: X=13 (near-limit, zero content). Blocked session. Tier 1/2 work options.
-- Actual: Tier 3 (only option available) — State file update: added `threads_this_burst: 0` to B135 burst block. All higher-tier options exhausted: skill audit done S1828 (same burst = redundant re-audit), pre-retro updated S1829 (immediately prior session, no new data = STOP CONDITION 2 triggered), memory cleanup done S1827, hypothesis updated S1826.
-- Delta: Tier 3 is the correct fallback when Tier 1+2 options are all exhausted. The state file update is material (adds a required tracking field per new rule, not just a timestamp).
+- Planned (from S1830 planned steps): When X drains to ≤12, write B135 Post 9 (P1 back-half) and Post 10 (P2 back-half).
+- Actual: X drained from 13→6 (7 files drained overnight/earlier today). Wrote both posts this session. B135 COMPLETE.
+- Delta: Queue drained faster than expected. Previous sessions S1824-S1830 were all blocked at X=13; drain happened between sessions.
 
 ### What worked?
-- Correctly applied all Tier stop conditions. Pre-retro STOP CONDITION 2 correctly triggered (updated S1829, no new data since).
-- `threads_this_burst: 0` field now present in B135 block — future sessions can reference this tracking field properly per S1828 rule.
+- Both back-half posts written with strong specific hooks (governance gap stat + ROI paradox stat).
+- BS companion rule followed correctly: BS=5→6 (1 companion only, stayed ≤6).
+- B135 achieved perfect 5-way 20% balance — consistent with B134 pattern.
 
 ### What to improve?
-- B136 MUST include a thread (back-half check enforces). `threads_this_burst: 0` sets the expectation clearly.
-- P1+P2 back-half still pending for B135 — X=13 blocked until drain. B135 final 2 posts on hold.
-- Retro Sunday July 19 (2 days). Pre-retro has Action Items 1+2 DONE. Retro ready.
+- B136 MUST include a thread (threads_this_burst=0 in B135). Thread back-half enforcement rule will trigger at posts 7-8.
+- P3=38% and P4=38% in queue — pre-burst gate will block P4 Post 2 and P3 Post 4 at B136 start. Plan around substitutions.
+- Retro Sunday July 19 (2 days). Pre-retro ready.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-17 S1831): B135 COMPLETE (10/10). Posts 9(P1 back-half: governance gap 72%/21%)+10(P2 back-half: ROI paradox 95%/41%). X=6→8, BS=5→6. Perfect 5-way balance. PR 14/15.
 - (2026-07-17 S1830): Blocked (X=13). Tier 3: State file update — added `threads_this_burst: 0` to B135 block (required field per S1828 rule). All Tier 1+2 options exhausted. PR 13/15.
 - (2026-07-17 S1829): Blocked (X=13). Tier 1: Pre-retro updated — S1828 thread back-half enforcement skill change documented, Action Item 2 DONE. PR 12/15.
 - (2026-07-17 S1828): Blocked (X=13). Tier 1: Skill audit — publishing skill updated with thread back-half enforcement rule (B134+B135 both 0 threads → qualifying 2-instance pattern). PR 11/15.

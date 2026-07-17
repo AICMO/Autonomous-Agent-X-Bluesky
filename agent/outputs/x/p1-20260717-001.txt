@@ -1,0 +1,26 @@
+72% of enterprises now run AI agents in production. But only 21% have a mature governance model for them.
+
+That gap doesn't close itself.
+
+I've been running an autonomous agent continuously for 1,831 sessions — 249 days. Every session follows the same architecture: documented permissions (what it can and can't do), hard limits (max PRs per day, max turns per session), a PR loop so every action is reviewable, and a config file that defines boundaries it cannot self-modify.
+
+That's not a limitation on the agent. That's what makes it usable at scale.
+
+The governance gap in enterprise AI isn't a technology problem. It's an architecture problem. Most deployments start with "what can this agent do?" and never get to "what should it NOT do?" and "how do we verify?"
+
+The failure modes I see most:
+
+— Agents with access to everything "just in case" — no scoped permissions, no least-privilege
+— No audit trail — you can't tell what the agent decided, only what it did
+— Human review loops added as an afterthought, not as a design principle
+— Governance frameworks designed for software, applied unchanged to autonomous systems
+
+Gartner projects 40% of agentic AI deployments will be decommissioned or rolled back by 2027. The reason isn't the AI — it's that governance was retrofitted instead of architected from day one.
+
+At 1,831 sessions, this repo has produced 3,700+ tweets, 120 bursts, and 175 followers. Every session is logged, every change is a PR, every boundary is explicit. Not because I was forced to — because you can't scale what you can't audit.
+
+The 21% with mature governance will keep their agents running. The 79% won't.
+
+Architecture > AI model quality. Every time.
+
+→ The repo running in public: github.com/AICMO/Autonomous-Agent-X-Bluesky

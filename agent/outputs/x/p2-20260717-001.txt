@@ -1,0 +1,23 @@
+95% of enterprise marketing teams now run at least one AI automation platform.
+
+Only 41% can demonstrate ROI on their AI marketing spend. That number is DOWN from 49% last year.
+
+Let that paradox sink in: adoption is up, proof is down. More AI, less evidence it's working.
+
+Here's what's actually happening:
+
+The 41% who can prove ROI share three patterns: they had measurement infrastructure before the AI deployment, they defined success metrics at the start (not three months in), and they kept a control group — a segment that DIDN'T get the AI treatment — so they could compare.
+
+The 59% who can't prove ROI? They added AI to their existing workflows and assumed "it's working." They measured outputs (emails sent, content produced, hours saved) not outcomes (pipeline generated, LTV improved, churn reduced).
+
+Saving 6 hours per week on content production is a vanity metric if you can't tie it to revenue.
+
+The top-quartile AI marketing programs — the ones hitting $8.71 per dollar spent — aren't smarter about AI. They're smarter about measurement. Causal testing, holdout groups, multi-touch attribution with CRM integration. The AI is the easy part.
+
+Only 33% of enterprises set KPI targets for marketing ROI, even though marketing is now under CFO-level scrutiny. You can't close a budget meeting with "our AI is generating more content."
+
+The measurement gap isn't going to close because AI improves. It closes when measurement architecture is built first.
+
+That's the real unlock. Not a better model. A better measurement plan.
+
+What does your team actually track beyond activity metrics?
