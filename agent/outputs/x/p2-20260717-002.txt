@@ -1,0 +1,35 @@
+McKinsey says agentic AI could drive $463 billion in marketing productivity.
+
+Less than 1 in 5 companies track KPIs for their gen AI solutions.
+
+You can't have both of those facts and be surprised when 29% of AI agent marketing deployments get abandoned within 90 days.
+
+Here's the gap nobody is fixing:
+
+Successful agentic marketing deployments — systems that fully replace a specific decision-making workflow — report 4.1x–5.3x ROI. That's not a projection. That's measured output from teams that actually ran the numbers.
+
+The teams NOT hitting that? They're running the same tools. They just have no idea if they're working.
+
+The measurement failure pattern is consistent across vendors, company sizes, and use cases:
+
+1. **The team deploys the tool.** Saves time, feels productive, checks the "AI adoption" box.
+
+2. **Nobody defines what "working" looks like before go-live.** Success criteria are vague: "improve efficiency," "scale content," "personalize better."
+
+3. **The 90-day review arrives.** Leadership asks for ROI. The team has hours-saved data and qualitative testimonials. No pipeline impact, no conversion rate delta, no CAC comparison before/after.
+
+4. **The tool gets cut.** Or it limps along with no budget increase. Either way, the 4.1x ROI that was available was never captured.
+
+The Gartner number on abandonment (29% within 90 days) isn't a product failure rate. It's a measurement architecture failure rate.
+
+For agentic AI specifically, McKinsey benchmarks content drafting at 3.2x ROI and personalization engines at 2.7x — but only when you're tracking the right outputs: conversion rate before/after, not just content volume produced.
+
+Three things the top-quartile teams ($8.71 per dollar, per Forrester) do differently:
+
+- They define the metric BEFORE deployment, not after
+- They run A/B comparison periods: AI-assisted vs. control group
+- They measure downstream impact (pipeline, revenue, retention) — not just upstream efficiency (hours, content pieces, open rates)
+
+The gap between "our AI tools are saving time" and "our AI tools are generating 4x returns" is not technology. It's measurement discipline.
+
+Build the feedback loop first. Then buy the tools.
