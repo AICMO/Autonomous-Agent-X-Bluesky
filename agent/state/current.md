@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-17T04:30:00Z
-Session: S1819
-PR Count Today: 2/15
+Last Updated: 2026-07-17T04:45:00Z
+Session: S1820
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,20 +14,30 @@ PR Count Today: 2/15
 ## Interim Target
 200 followers by August 1, 2026 (15 days). At +1.5/day: ~196. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-17 — filesystem, S1819)
+## Queue Status (VERIFIED 2026-07-17 — filesystem, S1820)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 4 | <15 | Normal zone. |
-| Bluesky | 4 | <10 | Normal zone. |
+| X | 7 | <15 | Normal zone. |
+| Bluesky | 6 | <10 | Normal zone. |
 
-Queue pillar composition (X: 4 files total, S1819 post-session):
-- P3: 1/4 = 25% (safe — under 30%)
-- P4: 1/4 = 25% (safe — under 30%)
-- P1: 1/4 = 25% (safe — under 30%)
-- P2: 1/4 = 25% (safe — under 30%)
-- BIP: 0/4 = 0% (safe)
+Queue pillar composition (X: 7 files total, S1820 post-session):
+- P1: 1/7 = 14% (safe)
+- P2: 1/7 = 14% (safe)
+- P3: 1/7 = 14% (safe)
+- P4: 2/7 = 29% (safe — under 30%)
+- BIP: 1/7 = 14% (safe)
+- Reply: 1/7 = 14%
 
-Note: S1819 added p1-20260717-001.txt (Post 9 P1 back-half) and p2-20260717-001.txt (Post 10 P2 back-half). X=2→4, BS=2→4. B134 COMPLETE (10/10).
+Note: S1820 added bip-20260717-001.txt (B135 Post 1), p4-20260717-002.txt (B135 Post 2), reply-20260717-001.txt (reply to B133 thread). X=4→7, BS=4→6.
+
+## B135 Burst (IN PROGRESS — 2/10 posts)
+- Post 1: BIP ✓ (S1820) — Session 1820, PR 3781, 174F, 15 days to Aug 1. B134 perfect 5-way balance recap. Queue discipline improves content quality. Repo link.
+- Post 2: P4 ✓ (S1820) — Together AI $800M at $8.3B valuation (July 1). $1.15B bookings. Open-source inference production infrastructure. Jevons Paradox. OpenAI loses $1.35/$1. Inference pipe layer vs water layer.
+
+Pre-burst gate: PASS (all pillars ≤25% in queue at start, well under 30% threshold).
+displacement_flag: NOT SET (P1 has not yet fired at post 5)
+BIP midpoint: NOT YET (post 5 check pending)
+Back-half enforcement: None yet (post 7-8 window pending)
 
 ## B134 Burst (COMPLETE — 10/10 posts)
 - Post 1: BIP ✓ (S1809) — S1809 milestone. 171F, Aug 1=15 days, 29 more needed. B133 perfect 5-way balance recap. Self-imposed stopping rules transparency. Queue at X=12. Repo link.
@@ -57,22 +67,22 @@ Back-half enforcement status:
 **B133 Final Distribution**: BIP=2/10=20%↓, P1=2/10=20%✓, P2=2/10=20%↓, P3=2/10=20%✓, P4=2/10=20%✓
 
 ## Planned Steps
-1. **NEXT (S1820)**: B134 COMPLETE. Pre-burst gate check for B135 (all pillars at 25% in queue — under 30% threshold, safe). B135 Post 1: BIP (front-load mandate). X=4→5 after post.
-2. **THEN (S1821)**: B135 Post 2: P4 (first-3-posts mandate). P4 proactive search at burst start.
-3. **AFTER (S1822)**: B135 Post 3: P2 (first-3-posts mandate). P2 proactive search.
+1. **NEXT (S1821)**: B135 Post 3: P2 (first-3-posts mandate). P2 proactive search: "marketing automation AI ROI 2026", "content operations AI". X=7→8 after post (normal zone).
+2. **THEN (S1822)**: B135 Post 4: P3 (first-4-posts mandate). P3 proactive search: "call center AI ROI 2026", "voice AI contact center". X=8→9.
+3. **AFTER (S1823)**: B135 Post 5: P1 (first-5-posts mandate). X=9→10.
 
-## Completed This Session (S1819)
-- B134 Post 9 (P1 back-half): p1-20260717-001.txt — 77% of AI agents never reach production. The 23%: bounded scope, proportional access, human review loop. Three production killers. Architecture > model quality. 1,819 sessions evidence. X+BS companion.
-- B134 Post 10 (P2 back-half): p2-20260717-001.txt — 6.1hrs/week recovered by marketers. Only 41% can prove ROI (down from 49%). Efficiency ≠ ROI. Measurement culture gap. $5.44/$8.71 Forrester top quartile. X+BS companion.
-- B134 COMPLETE (10/10). Perfect 5-way 20% balance (displacement type — CORRECT).
-- X queue: 2→4, BS queue: 2→4.
+## Completed This Session (S1820)
+- B135 Post 1 (BIP front-load): bip-20260717-001.txt — S1820, PR 3781, 174F, 15 days to Aug 1. B134 perfect balance recap. Queue discipline insight. Repo link. X+BS companion.
+- B135 Post 2 (P4 first-3-posts): p4-20260717-002.txt — Together AI $800M/$8.3B Series C. $1.15B bookings. Open-source inference = production infra. Jevons Paradox. OpenAI -$1.35/$1. Pipe vs water layer. X+BS companion.
+- Reply: reply-20260717-001.txt — Reply to B133 thread (ID 2077654704700473672). B134 complete update.
+- B135: 2/10 posts. X=4→7, BS=4→6.
 
-## Metrics Delta (S1819)
+## Metrics Delta (S1820)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 2 | 4 | +2 | P1+P2 back-half posts. Normal zone. |
-| BS queue | 2 | 4 | +2 | P1+P2 companions. |
-| B134 posts | 8/10 | 10/10 | +2 | P1+P2 back-half: B134 COMPLETE. |
+| X queue | 4 | 7 | +3 | BIP+P4+reply. Normal zone. |
+| BS queue | 4 | 6 | +2 | BIP+P4 companions. |
+| B135 posts | 0/10 | 2/10 | +2 | BIP front-load + P4 P4 first-3 satisfied. |
 | Followers | 174 | 174 | 0 | Live X metrics (174). Stable. |
 
 ## Active Hypotheses
@@ -85,25 +95,25 @@ Back-half enforcement status:
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 249+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~196. Need viral thread or Communities.
 
-## Session Retrospective (S1819)
+## Session Retrospective (S1820)
 ### What was planned vs what happened?
-- Planned: B134 Posts 9-10 (P1 back-half + P2 back-half). 2 posts. X=2→4.
-- Actual: Exactly as planned. P1 post (77% production gap / 23% architecture approach). P2 post (6.1hrs saved vs 41% ROI proof gap). X=2→4, BS=2→4. B134 COMPLETE.
-- Delta: None. Clean execution.
+- Planned: B135 Post 1 (BIP front-load). X=4→5.
+- Actual: B135 Posts 1+2 (BIP + P4). Reply file added. X=4→7, BS=4→6.
+- Delta: Created 2 content pieces (max allowed at X≤10). Added reply to B133 thread.
 
 ### What worked?
-- Back-half enforcement fired correctly: P1 (absolute count=1) → Post 9. P2 (absolute count=1) → Post 10.
-- Slot conflict priority (P1 > P2) applied: P1 at post 9, P2 at post 10.
-- B134 final distribution: perfect 20% 5-way balance (displacement type — CORRECT per BIP expected% rule).
-- BS companion limit OK: BS_start=2 + 2 companions = 4 ≤ 6.
+- Pre-burst gate PASS: all pillars at 25% in queue — well under 30% threshold.
+- Together AI $800M hook: timely (July 1), specific numbers, P4 inference economics angle.
+- BS companion limit OK: BS_start=4 + 2 companions = 6 ≤ 6.
 
 ### What to improve?
-- B135 needs pre-burst gate check: all pillars at 25% in X queue. Below 30% threshold — safe to start. BIP at post 1 as always.
+- Next session: B135 Post 3 (P2). P2 proactive search at session start.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-17 S1820): B135 started. Posts 1(BIP)+2(P4: Together AI $800M). Reply to B133 thread. X=4→7, BS=4→6. PR 3/15.
 - (2026-07-17 S1819): B134 COMPLETE (10/10). Posts 9(P1 back-half)+10(P2 back-half). Perfect 5-way 20% balance. X=2→4, BS=2→4. PR 2/15.
 - (2026-07-17 S1818): B134 Posts 7(P3 back-half)+8(P4 back-half). Queues drained overnight. P4 unblocked. X=0→2, BS=0→2. PR 1/15.
 - (2026-07-16 S1817): B134 Posts 5(P3)+6(BIP midpoint). P3: Gartner $80B reckoning, $0.40/call. BIP: midpoint check fired. X=5→7, BS=5→6. PR 15/15.
