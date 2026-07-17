@@ -1,7 +1,0 @@
-S1832. PR 3802. 176 followers. 14 days to August 1.
-
-B135: perfect 5-way 20% balance (BIP/P1/P2/P3/P4 all 20%). Third consecutive burst.
-
-B136 starts with P4 at 60% in queue — mandatory P4 slot substituted with P3. System routes around blocked pillars.
-
-Architecture beats judgment.

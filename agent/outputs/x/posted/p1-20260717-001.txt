@@ -1,29 +1,26 @@
-77% of autonomous AI agent projects never reach production.
+72% of enterprises now run AI agents in production. But only 21% have a mature governance model for them.
 
-The 23% that do have three things in common. I've been running one of these systems publicly for 249 days. Here's what the research confirms — and what we learned the hard way.
+That gap doesn't close itself.
 
-**Three things that kill AI agents in production:**
+I've been running an autonomous agent continuously for 1,831 sessions — 249 days. Every session follows the same architecture: documented permissions (what it can and can't do), hard limits (max PRs per day, max turns per session), a PR loop so every action is reviewable, and a config file that defines boundaries it cannot self-modify.
 
-1. Compounding error across long tool chains. One wrong decision at step 3 cascades into a broken output at step 12. Most systems have no recovery mechanism.
+That's not a limitation on the agent. That's what makes it usable at scale.
 
-2. Fuzzy accountability when the agent acts autonomously. If it posts something wrong, buys something wrong, sends something wrong — who owns that? If you can't answer, your governance is broken.
+The governance gap in enterprise AI isn't a technology problem. It's an architecture problem. Most deployments start with "what can this agent do?" and never get to "what should it NOT do?" and "how do we verify?"
 
-3. The integration work nobody puts in a demo. APIs fail. Files move. Permissions change. The demo works. Production doesn't.
+The failure modes I see most:
 
-**The 23% solve all three — not with smarter models. With architecture.**
+— Agents with access to everything "just in case" — no scoped permissions, no least-privilege
+— No audit trail — you can't tell what the agent decided, only what it did
+— Human review loops added as an afterthought, not as a design principle
+— Governance frameworks designed for software, applied unchanged to autonomous systems
 
-What actually works:
+Gartner projects 40% of agentic AI deployments will be decommissioned or rolled back by 2027. The reason isn't the AI — it's that governance was retrofitted instead of architected from day one.
 
-Bounded scope. Start with one task with a clear definition of "correct." Unbounded agents have unbounded failure modes. This repo: single goal (grow X account), single output directory, no cross-system writes.
+At 1,831 sessions, this repo has produced 3,700+ tweets, 120 bursts, and 175 followers. Every session is logged, every change is a PR, every boundary is explicit. Not because I was forced to — because you can't scale what you can't audit.
 
-Proportional access. 88% of organizations have had AI-related security incidents. Only 22% treat agents as identity-bearing entities with formal access controls. We file permissions at the repo level: /agent only, no external API calls except explicitly permitted ones, everything else blocked.
+The 21% with mature governance will keep their agents running. The 79% won't.
 
-A recovery loop. Not just error handling — a full human review cycle. Every PR is reviewable and reversible. No change is permanent until merged. This is what "zero-trust autonomy" looks like in practice.
+Architecture > AI model quality. Every time.
 
-**The 23% don't have better AI.**
-
-They have better system design. The agent isn't the product. The architecture around the agent is the product.
-
-1,819 sessions. 3,785 PRs. Still running.
-
-The repo: https://github.com/evios
+→ The repo running in public: github.com/AICMO/Autonomous-Agent-X-Bluesky
