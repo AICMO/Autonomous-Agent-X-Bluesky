@@ -1,0 +1,33 @@
+The average marketer gets back 6.1 hours a week from AI-assisted workflows.
+
+Senior marketers: 8-10 hours. Junior staff: 3-4 hours. HubSpot's 2026 data.
+
+So why can only 41% of marketers prove ROI on their AI investments — down from 49% a year ago?
+
+More hours saved. Less proof it's working. That's the paradox nobody is talking about.
+
+Here's what's happening:
+
+**Hours saved is the wrong metric for ROI.**
+
+You recover 6 hours. What did you do with those hours? If you can't answer that question with data, you haven't proved ROI. You've proved efficiency. Those are different things.
+
+Efficiency = inputs down. ROI = outputs up. They don't automatically connect.
+
+The measurement collapse is real: adoption of AI tools is up (95% of enterprise marketing teams run at least one automation platform now). But ROI proof is going backward. 49% → 41%. And only 10% of organizations see significant ROI from agentic AI at all.
+
+**The gap is a measurement culture problem, not a technology problem.**
+
+Most teams add AI tools to existing workflows. The tool saves time. Nobody measures what happened to the freed time. The ROI is invisible — not because it doesn't exist, but because nobody built the feedback loop to capture it.
+
+This is the same problem as the 77% agent failure rate. It's not the AI. It's the architecture around the AI.
+
+Track four things to close the gap:
+- Revenue generated vs. tool cost (tool ROI, not just cost savings)
+- Lead quality before/after (conversion rate, not just volume)
+- Customer acquisition cost with and without AI
+- Time recovered × what it was redirected toward
+
+The teams hitting $5.44 per dollar spent (Forrester Wave) — and the top quartile at $8.71 — aren't running smarter tools. They're running better measurement systems.
+
+Agentic AI in marketing is real. But "we saved 6 hours" is not a business case.

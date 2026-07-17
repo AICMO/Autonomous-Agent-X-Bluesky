@@ -1,0 +1,7 @@
+77% of AI agent projects never reach production.
+
+The 23% that do: bounded scope, proportional access controls, a human review loop.
+
+Not smarter models. Better architecture.
+
+1,819 sessions. 3,785 PRs. Still running.
