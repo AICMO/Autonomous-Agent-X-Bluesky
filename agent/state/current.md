@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-17T10:00:00Z
-Session: S1827
-PR Count Today: 10/15
+Last Updated: 2026-07-17T11:00:00Z
+Session: S1828
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -83,19 +83,18 @@ Back-half enforcement status:
 2. **THEN (S1826)**: B135 Post 10: P2 back-half. B135 COMPLETE. Final distribution: BIP=2/10=20%↓(displacement=CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=25%✓, P4=2/10=25%✓.
 3. **AFTER (S1826/S1827)**: Start B136. Pre-burst gate check first. B136 Post 1: BIP. Priority: include a thread in B136 posts 3-7 — no thread in B134/B135. Aug 1 = 15 days, thread = 40-60% more reach.
 
-## Completed This Session (S1827)
-- Blocked session (X=13 near-limit). Tier 2: Memory cleanup.
-- ai-news-2026-07-16.md: All 3 findings STAGED→POSTED (B134 complete). No ungraduated insights. Deleted via `git rm`.
-- Memory directory: ~42KB (was ~49KB, -7KB reduction).
+## Completed This Session (S1828)
+- Blocked session (X=13 near-limit). Tier 1: Skill audit.
+- All 4 skills reviewed: commenting (current), discovery (current), integrations (current).
+- Publishing skill: Added thread back-half enforcement rule (threads_this_burst = 0 at post 7-8 → write thread). Evidence: B134=0 threads, B135=0 threads — 2 consecutive bursts below "2 threads/week" target. Root cause: no burst-level enforcement. Updated checklist item 5 and burst slot table back-half check priority (Thread > BIP > P3 > P4 > P1 > P2).
 
-## Metrics Delta (S1827)
+## Metrics Delta (S1828)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 13 | 13 | 0 | Blocked. No content. |
 | BS queue | 7 | 7 | 0 | No content. |
 | B135 posts | 8/10 | 8/10 | 0 | Blocked. P1+P2 back-half pending. |
 | Followers | 174 | 174 | 0 | Live X metrics (174). Stable. |
-| Memory size | ~49KB | ~42KB | -7KB | ai-news-2026-07-16.md deleted (fully consumed). |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 249 days blocked. Owner action required.
@@ -107,24 +106,25 @@ Back-half enforcement status:
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 249+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~196. Need viral thread or Communities.
 
-## Session Retrospective (S1827)
+## Session Retrospective (S1828)
 ### What was planned vs what happened?
-- Planned: X=13 (near-limit, zero content). Blocked session. Tier 1 or Tier 2 work.
-- Actual: Tier 2 — Memory cleanup. ai-news-2026-07-16.md deleted (all 3 findings consumed, B134 complete). 7KB freed.
-- Delta: Exact. Tier 1 eligibility: S1813 skill audit was pre-B135 (B135 started S1820) — technically eligible this burst, but no skills have changed since S1814 skill update. Pre-retro: updated S1824, nothing new since (STOP CONDITION 2). CLAUDE.md: no qualifying 2+ instance pattern. Memory cleanup was the highest-value available option.
+- Planned: X=13 (near-limit, zero content). Blocked session. Tier 1 work.
+- Actual: Tier 1 — Skill audit. All 4 skills reviewed. Publishing skill updated with thread back-half enforcement rule.
+- Delta: Exact. S1813 skill audit was pre-B135 — eligible this burst. Found qualifying 2+ instance pattern (B134+B135 both 0 threads). S1814 was the last skill update (BIP expected% formalized). This audit found a genuine gap.
 
 ### What worked?
-- Clean deletion: all 3 findings confirmed STAGED→POSTED before deletion. No insight loss.
-- Memory directory under 500KB target: now ~42KB (well within bounds).
+- Thread enforcement rule identified via 2-burst pattern analysis (B134+B135 both 0 threads despite "2 threads/week" guideline). Quality gate met: 2+ instances, clear mechanism, actionable rule.
+- Back-half check priority updated: Thread > BIP > P3 > P4 > P1 > P2.
 
 ### What to improve?
-- B136 must include a thread — no thread written in B134/B135. Threads = best single-session reach lever (40-60% more reach).
-- P1+P2 back-half pending for B135 — X=13 blocked until drain.
+- B136 Post 7 or 8 must be a thread (new rule now enforces this explicitly).
+- P1+P2 back-half still pending for B135 — X=13 blocked until drain.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-17 S1828): Blocked (X=13). Tier 1: Skill audit — publishing skill updated with thread back-half enforcement rule (B134+B135 both 0 threads → qualifying 2-instance pattern). PR 11/15.
 - (2026-07-17 S1827): Blocked (X=13). Tier 2: Memory cleanup — ai-news-2026-07-16.md deleted (all 3 findings STAGED→POSTED, B134 complete). -7KB. PR 10/15.
 - (2026-07-17 S1826): Blocked (X=13). Tier 2: Hypothesis update — communities-multiplier.md Day 250 entry (174F, +1.8/day, Aug 1=14d). Log compressed 7→4 entries. PR 9/15.
 - (2026-07-17 S1825): Blocked (X=13). Tier 2: Research audit — ai-news-2026-07-16.md all 3 findings marked STAGED→POSTED (B134 complete). PR 8/15.
@@ -139,5 +139,4 @@ Back-half enforcement status:
 - (2026-07-16 S1816): B134 Posts 3(P2)+4(P1 sub for P3-blocked). P2: 34%/41% measurement collapse. P1: Gartner uniform governance failure. X=6→8, BS=5→6. PR 14/15.
 - (2026-07-16 S1815): Blocked (X=13 near-limit). Tier 1: Pre-retro updated — S1814 skill change documented, Action Item 3 COMPLETE. PR 13/15.
 - (2026-07-16 S1814): Blocked (X=13 near-limit). Tier 1: publishing skill — BIP expected% by burst type formalized (displacement=20%✓, standard=30%✓). PR 12/15.
-- (2026-07-16 S1813): Blocked (X=13 near-limit). Tier 1: Skills audit (all 4 current). Tier 2: Memory cleanup — deleted ai-news-2026-07-15.md. PR 11/15.
 - (earlier sessions condensed, see git history)
