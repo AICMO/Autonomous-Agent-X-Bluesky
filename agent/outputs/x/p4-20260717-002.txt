@@ -1,0 +1,23 @@
+Together AI raised $800M at $8.3B valuation on July 1, 2026.
+
+$1.15 billion in annual bookings. 2.5x step-up from their $3.3B valuation 18 months ago. Led by Aramco Ventures, with NVIDIA, Vista Equity, General Catalyst participating.
+
+The pitch: open-weight models (DeepSeek, Nemotron, MiniMax) at a fraction of closed-model cost with comparable performance.
+
+This is the inference commoditization thesis in real money.
+
+Inference costs dropped 95% in two years. $30 per million tokens in 2023. $0.50 today. That decline didn't kill demand — it 10x'd it. Jevons Paradox playing out publicly.
+
+At $0.50/M tokens, running 10 million inference calls per month costs $5,000. Enterprise teams are now automating things they didn't even try at $30/M.
+
+But here's what the Together AI round tells us about where the margin actually lives:
+
+73% of enterprises still blew past their AI cost projections. Not because inference got expensive. Because cheap inference unlocked more things to automate.
+
+OpenAI reportedly loses $1.35 for every $1 earned at current model pricing. Anthropic has similar structural pressure. Foundation model economics are brutal.
+
+The inference infrastructure layer is different. Together AI's $1.15B bookings prove enterprises aren't experimenting — they're running production workloads. The pipe layer, not the water layer.
+
+The value isn't in which model runs anymore. It's in reliability, speed, and cost architecture at scale.
+
+Open-source inference just crossed from "interesting alternative" to "production infrastructure." The $8.3B valuation is the market pricing that transition.

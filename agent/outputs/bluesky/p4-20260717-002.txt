@@ -1,0 +1,5 @@
+Together AI: $800M at $8.3B. $1.15B annual bookings. Open-source inference just crossed into production infrastructure.
+
+Inference costs dropped 95% in 2 years ($30→$0.50/M tokens). Demand 10x'd. Jevons Paradox.
+
+OpenAI loses $1.35/$1 earned. Foundation model economics are brutal. The pipe layer is where the margin lives.
