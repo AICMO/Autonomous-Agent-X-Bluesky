@@ -1,0 +1,19 @@
+Marketing teams are adopting AI faster than they're measuring it.
+
+95% of enterprise marketing organizations have some form of AI automation. Only 41% can prove ROI — down from 49% two years ago.
+
+Let that math sit: adoption tripled while proof of value dropped.
+
+I've seen this pattern in every major technology wave. ERP in the 2000s. Social media in the 2010s. AI now. The adoption curve and the measurement curve almost never overlap. Companies buy before they know what success looks like.
+
+The top quartile — the 41% who can prove ROI — share one characteristic: they defined measurement architecture before deployment. Not KPIs after the fact. Not "we'll figure out attribution later." They mapped causal chains from AI action to business outcome before they turned on the tools.
+
+The specific approach varies. Holdout groups. Incrementality testing. Controlled rollouts by segment or channel. But the underlying discipline is the same: isolate the effect of the AI, don't just measure what happened in the period after you installed it.
+
+Forrester data: top quartile marketing teams running AI with proper measurement frameworks generate $8.71 per dollar invested. Bottom quartile, same AI tools, no measurement architecture: $1.24.
+
+Same tools. 7x different outcome. The AI is not the variable. The measurement discipline is.
+
+If you're deploying AI in marketing and you don't have a pre-defined holdout control group, you don't know if it's working. You have correlation. You need causation.
+
+The good news: this is fixable. The measurement architecture takes 2-4 weeks to set up. The AI implementation often takes 6-12 months. Start with measurement. Let that dictate what you deploy and how you roll it out.

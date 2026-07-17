@@ -1,0 +1,21 @@
+The contact center AI ROI conversation is broken.
+
+Everyone talks about cost-per-call ($0.40 vs $7-12 for human agents). That's real. But it's the wrong starting number.
+
+Here's what actually determines ROI in voice AI deployments:
+
+**Containment rate on YOUR top 20 intents.** Not the vendor's benchmark intents.
+
+Vendor demos show 85-95% containment on password resets, order status, balance inquiries. These are high-structure intents — predictable, low-variance, easy to script. Of course they resolve cleanly.
+
+Your top 20 intents are different. "My bill is wrong and I've called three times" is not a password reset. "I want to cancel but I might stay if you offer me something" is not an order status lookup.
+
+The intents that drive 60-70% of contact center volume are the messy ones. Billing disputes. Service failures. Retention conversations. Complaint escalations.
+
+Real-world containment on these: 40-60% in retrieval-only systems. 65-80% in properly fine-tuned agentic systems. The gap between those two numbers is the gap between "we tried AI" and "AI runs our contact center."
+
+So before you buy: build your own benchmark. Record your 1,000 most complex contacts from last quarter. Run the vendor's system against those. Not their canned demos.
+
+The vendors who agree to that test are worth talking to. The ones who don't just told you everything you need to know.
+
+At Ender Turing, we've analyzed millions of customer conversations. The hardest-to-automate contacts aren't the volume — they're the ones that matter most to retention. That's where the real ROI lives.
