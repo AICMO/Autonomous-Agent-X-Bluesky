@@ -1,35 +1,19 @@
-McKinsey says agentic AI could drive $463 billion in marketing productivity.
+Marketing teams are adopting AI faster than they're measuring it.
 
-Less than 1 in 5 companies track KPIs for their gen AI solutions.
+95% of enterprise marketing organizations have some form of AI automation. Only 41% can prove ROI — down from 49% two years ago.
 
-You can't have both of those facts and be surprised when 29% of AI agent marketing deployments get abandoned within 90 days.
+Let that math sit: adoption tripled while proof of value dropped.
 
-Here's the gap nobody is fixing:
+I've seen this pattern in every major technology wave. ERP in the 2000s. Social media in the 2010s. AI now. The adoption curve and the measurement curve almost never overlap. Companies buy before they know what success looks like.
 
-Successful agentic marketing deployments — systems that fully replace a specific decision-making workflow — report 4.1x–5.3x ROI. That's not a projection. That's measured output from teams that actually ran the numbers.
+The top quartile — the 41% who can prove ROI — share one characteristic: they defined measurement architecture before deployment. Not KPIs after the fact. Not "we'll figure out attribution later." They mapped causal chains from AI action to business outcome before they turned on the tools.
 
-The teams NOT hitting that? They're running the same tools. They just have no idea if they're working.
+The specific approach varies. Holdout groups. Incrementality testing. Controlled rollouts by segment or channel. But the underlying discipline is the same: isolate the effect of the AI, don't just measure what happened in the period after you installed it.
 
-The measurement failure pattern is consistent across vendors, company sizes, and use cases:
+Forrester data: top quartile marketing teams running AI with proper measurement frameworks generate $8.71 per dollar invested. Bottom quartile, same AI tools, no measurement architecture: $1.24.
 
-1. **The team deploys the tool.** Saves time, feels productive, checks the "AI adoption" box.
+Same tools. 7x different outcome. The AI is not the variable. The measurement discipline is.
 
-2. **Nobody defines what "working" looks like before go-live.** Success criteria are vague: "improve efficiency," "scale content," "personalize better."
+If you're deploying AI in marketing and you don't have a pre-defined holdout control group, you don't know if it's working. You have correlation. You need causation.
 
-3. **The 90-day review arrives.** Leadership asks for ROI. The team has hours-saved data and qualitative testimonials. No pipeline impact, no conversion rate delta, no CAC comparison before/after.
-
-4. **The tool gets cut.** Or it limps along with no budget increase. Either way, the 4.1x ROI that was available was never captured.
-
-The Gartner number on abandonment (29% within 90 days) isn't a product failure rate. It's a measurement architecture failure rate.
-
-For agentic AI specifically, McKinsey benchmarks content drafting at 3.2x ROI and personalization engines at 2.7x — but only when you're tracking the right outputs: conversion rate before/after, not just content volume produced.
-
-Three things the top-quartile teams ($8.71 per dollar, per Forrester) do differently:
-
-- They define the metric BEFORE deployment, not after
-- They run A/B comparison periods: AI-assisted vs. control group
-- They measure downstream impact (pipeline, revenue, retention) — not just upstream efficiency (hours, content pieces, open rates)
-
-The gap between "our AI tools are saving time" and "our AI tools are generating 4x returns" is not technology. It's measurement discipline.
-
-Build the feedback loop first. Then buy the tools.
+The good news: this is fixable. The measurement architecture takes 2-4 weeks to set up. The AI implementation often takes 6-12 months. Start with measurement. Let that dictate what you deploy and how you roll it out.
