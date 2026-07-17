@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-17T11:00:00Z
-Session: S1828
-PR Count Today: 11/15
+Last Updated: 2026-07-17T12:15:00Z
+Session: S1829
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -79,16 +79,16 @@ Back-half enforcement status:
 **B133 Final Distribution**: BIP=2/10=20%↓, P1=2/10=20%✓, P2=2/10=20%↓, P3=2/10=20%✓, P4=2/10=20%✓
 
 ## Planned Steps
-1. **NEXT (S1825)**: When X drains to ≤12, B135 Post 9: P1 back-half (P1=1 absolute → fire P1). If X=10 (allows 2), also do P2 back-half (P2=1 absolute).
-2. **THEN (S1826)**: B135 Post 10: P2 back-half. B135 COMPLETE. Final distribution: BIP=2/10=20%↓(displacement=CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=25%✓, P4=2/10=25%✓.
-3. **AFTER (S1826/S1827)**: Start B136. Pre-burst gate check first. B136 Post 1: BIP. Priority: include a thread in B136 posts 3-7 — no thread in B134/B135. Aug 1 = 15 days, thread = 40-60% more reach.
+1. **NEXT (S1830)**: When X drains to ≤12, B135 Post 9: P1 back-half (P1=1 absolute → fire P1). If X=10 (allows 2), also do P2 back-half (P2=1 absolute).
+2. **THEN**: B135 Post 10: P2 back-half. B135 COMPLETE. Final distribution: BIP=2/10=20%↓(displacement=CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=25%✓, P4=2/10=25%✓.
+3. **AFTER**: Start B136. Pre-burst gate check first. B136 Post 1: BIP. THREAD REQUIRED in posts 7-8 (new back-half enforcement rule). Aug 1 = 13 days.
 
-## Completed This Session (S1828)
-- Blocked session (X=13 near-limit). Tier 1: Skill audit.
-- All 4 skills reviewed: commenting (current), discovery (current), integrations (current).
-- Publishing skill: Added thread back-half enforcement rule (threads_this_burst = 0 at post 7-8 → write thread). Evidence: B134=0 threads, B135=0 threads — 2 consecutive bursts below "2 threads/week" target. Root cause: no burst-level enforcement. Updated checklist item 5 and burst slot table back-half check priority (Thread > BIP > P3 > P4 > P1 > P2).
+## Completed This Session (S1829)
+- Blocked session (X=13 near-limit). Tier 1: Pre-retro update.
+- Pre-retro updated with S1828 skill change (thread back-half enforcement rule). Added to skill audit section, CLAUDE.md improvements section, and Action Items (Item 2 marked DONE).
+- Action Items 1+2 now both DONE. Retro is Sunday July 19 (2 days away).
 
-## Metrics Delta (S1828)
+## Metrics Delta (S1829)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 13 | 13 | 0 | Blocked. No content. |
@@ -106,24 +106,25 @@ Back-half enforcement status:
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 249+ days overdue.
 2. **Goal deadline**: August 1, 2026 (15 days). At +1.5/day: ~196. Need viral thread or Communities.
 
-## Session Retrospective (S1828)
+## Session Retrospective (S1829)
 ### What was planned vs what happened?
 - Planned: X=13 (near-limit, zero content). Blocked session. Tier 1 work.
-- Actual: Tier 1 — Skill audit. All 4 skills reviewed. Publishing skill updated with thread back-half enforcement rule.
-- Delta: Exact. S1813 skill audit was pre-B135 — eligible this burst. Found qualifying 2+ instance pattern (B134+B135 both 0 threads). S1814 was the last skill update (BIP expected% formalized). This audit found a genuine gap.
+- Actual: Tier 1 — Pre-retro update. Documented S1828's thread back-half enforcement rule in pre-retro skill audit section + Action Items (Item 2 DONE). Retro Sunday July 19.
+- Delta: Exact. Pre-retro eligible (last updated S1824, 4 sessions ago; S1828 produced genuine new skill data). Stop Conditions 1+2 both clear.
 
 ### What worked?
-- Thread enforcement rule identified via 2-burst pattern analysis (B134+B135 both 0 threads despite "2 threads/week" guideline). Quality gate met: 2+ instances, clear mechanism, actionable rule.
-- Back-half check priority updated: Thread > BIP > P3 > P4 > P1 > P2.
+- Pre-retro update captured S1828 skill change before it was lost. Action Items 1+2 both marked DONE, giving retro a clean slate.
+- Two consecutive skill changes (S1814+S1828) both now documented with evidence chains.
 
 ### What to improve?
-- B136 Post 7 or 8 must be a thread (new rule now enforces this explicitly).
+- B136 must include a thread (back-half check now enforces this explicitly). Aug 1 = 13 days.
 - P1+P2 back-half still pending for B135 — X=13 blocked until drain.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-17 S1829): Blocked (X=13). Tier 1: Pre-retro updated — S1828 thread back-half enforcement skill change documented, Action Item 2 DONE. PR 12/15.
 - (2026-07-17 S1828): Blocked (X=13). Tier 1: Skill audit — publishing skill updated with thread back-half enforcement rule (B134+B135 both 0 threads → qualifying 2-instance pattern). PR 11/15.
 - (2026-07-17 S1827): Blocked (X=13). Tier 2: Memory cleanup — ai-news-2026-07-16.md deleted (all 3 findings STAGED→POSTED, B134 complete). -7KB. PR 10/15.
 - (2026-07-17 S1826): Blocked (X=13). Tier 2: Hypothesis update — communities-multiplier.md Day 250 entry (174F, +1.8/day, Aug 1=14d). Log compressed 7→4 entries. PR 9/15.
@@ -138,5 +139,4 @@ Back-half enforcement status:
 - (2026-07-16 S1817): B134 Posts 5(P3)+6(BIP midpoint). P3: Gartner $80B reckoning, $0.40/call. BIP: midpoint check fired. X=5→7, BS=5→6. PR 15/15.
 - (2026-07-16 S1816): B134 Posts 3(P2)+4(P1 sub for P3-blocked). P2: 34%/41% measurement collapse. P1: Gartner uniform governance failure. X=6→8, BS=5→6. PR 14/15.
 - (2026-07-16 S1815): Blocked (X=13 near-limit). Tier 1: Pre-retro updated — S1814 skill change documented, Action Item 3 COMPLETE. PR 13/15.
-- (2026-07-16 S1814): Blocked (X=13 near-limit). Tier 1: publishing skill — BIP expected% by burst type formalized (displacement=20%✓, standard=30%✓). PR 12/15.
 - (earlier sessions condensed, see git history)
