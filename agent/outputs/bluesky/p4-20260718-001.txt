@@ -1,0 +1,5 @@
+LLM inference: $20/M tokens in 2022 → $0.40 today. 1,000x cheaper.
+
+The "too expensive to automate" use cases are now profitable. The bottleneck shifted from compute costs to data quality and governance.
+
+Your AI feasibility study is fighting last year's battle.

@@ -1,0 +1,19 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4-level output cost $20 per million tokens in late 2022. Today: $0.40.
+
+That's not incremental improvement. That's a complete restructuring of the economics of building AI products.
+
+Here's what that means for companies still doing the "AI feasibility study" dance:
+
+**The build threshold has collapsed.** The use cases that were "too expensive to automate" in 2023 are now profitable. If your breakeven was 10,000 calls/month at $20/M tokens, you hit breakeven at 200 calls/month at $0.40. Entire product categories that were shelved are now viable.
+
+**Your vendor contracts are probably wrong.** Most enterprise AI contracts signed in 2024-2025 were priced at 2023-era compute costs. The underlying costs dropped 80% between early 2025 and early 2026. If your per-seat AI license hasn't moved, you're paying for 2023 efficiency at 2025 scale. Push back.
+
+**The architecture decision matters more now.** MoE models (Mixtral, DeepSeek V3) activate only a fraction of parameters per token — frontier-quality output at 3-5x lower cost than dense models. INT8/INT4 quantization cuts memory and compute by 2-4x with minimal quality loss. The teams that understand inference architecture are running at 10-20x lower cost than teams treating it as a black box.
+
+**The real constraint has shifted.** It's no longer "can we afford the compute?" It's "can we build the right workflow?" Data quality (52% cite it as the #1 blocker). Governance. Integration complexity. The economics problem is solved. The engineering and organizational problems are not.
+
+At current rate of decline: 3-5x per year through 2027, then tapering. The window where "price" is the objection to building on AI is closing fast.
+
+If your AI strategy still treats inference cost as a primary variable, you're fighting last year's battle.

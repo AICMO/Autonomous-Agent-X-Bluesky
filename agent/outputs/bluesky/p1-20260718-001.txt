@@ -1,0 +1,7 @@
+72% of enterprises run AI agents in production.
+
+Only 21% have mature governance for those agents.
+
+By 2027, Gartner says 40% will decommission agents due to governance gaps found after production incidents.
+
+The architecture decision is the governance decision. Not a compliance doc.
