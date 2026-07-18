@@ -1,0 +1,28 @@
+AI inference costs dropped 90%+ since 2023.
+
+And yet 73% of organizations say their AI bills blew their original budgets.
+
+How?
+
+The inference paradox: cheaper tokens unlock more use cases. You ship more product surfaces. You add agents, retries, long context, tool calls, always-on assistants.
+
+Each one was previously too expensive to build. Now it's not.
+
+So you build it. Every product team does. And suddenly the 90% cost reduction disappears into 10x the consumption.
+
+The FinOps Foundation measured this: 80-90% of enterprise AI spend is now inference, not training. Not the thing everyone obsessed over for three years. Runtime. Usage. Scale.
+
+What changed the math:
+
+- Frontier models: $2-$15 per million input tokens in 2026 vs $20+ in 2023
+- MoE architectures cut costs 3-5x compared to dense models at same capability
+- Smaller models handling 70% of tasks at a fraction of the cost
+- But total token consumption is up 50-100x per customer
+
+The companies winning on AI economics right now are running tiered inference. They're not asking "which model is best?" They're asking "which model is good enough for this specific task at the lowest token cost?"
+
+GPT-4 class for high-stakes customer decisions. Mid-tier for structured data extraction. Small, fast models for routing, classification, pre-filtering.
+
+That architecture — model routing based on task complexity — is what the FinOps playbook looks like in 2026.
+
+The teams still running a single frontier model for everything? They're not losing on capability. They're losing on margins.

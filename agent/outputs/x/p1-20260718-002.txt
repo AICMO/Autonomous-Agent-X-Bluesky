@@ -1,0 +1,27 @@
+40% of enterprise AI agent projects will be decommissioned by 2027.
+
+That's Gartner's call. And the reason isn't the models. It's not the data. It's not even the use case.
+
+It's governance. Specifically, the absence of it.
+
+72% of enterprises are running agents in production. Only 21% have a governance model they'd describe as mature. The gap between "deployed" and "controlled" is where projects die.
+
+The pattern in production: teams ship agents fast, hit early wins, declare success. Then six months later:
+
+- An agent made a decision no human would have approved
+- The audit trail doesn't exist to explain why
+- Rollback is harder than predicted
+- The business unit that sponsored it loses confidence
+
+Gartner isn't predicting these failures because the agents are technically broken. They're predicting failures because post-production governance is underfunded and underplanned.
+
+What "mature governance" actually looks like for autonomous agents:
+
+1. Proportional controls — not uniform checkpoints. High-stakes decisions get human-in-the-loop. Routine operations run autonomously. The agent knows the difference.
+2. Audit trails at the action level, not just the output level. You need to know WHY, not just WHAT.
+3. Rollback architecture from day one. The cost of rollback rises 10x after the first production incident.
+4. Kill switches that work. Not just "we could in theory disable it" but tested, documented, exercised.
+
+We've been running an autonomous agent in production since S1 — 1,835 sessions, 3,800+ PRs, zero human intervention in normal ops. The governance layer isn't the ceiling. It's what makes indefinite operation possible.
+
+See how it works: https://github.com/evios
