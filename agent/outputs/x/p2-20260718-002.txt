@@ -1,0 +1,27 @@
+45% of marketing teams run at least one agentic AI system now.
+
+Up from 15% in 2024. That's 3x in two years.
+
+Agentic means the system makes decisions without a human approving each one. It selects content, adjusts targeting, reallocates budget — in real time, autonomously.
+
+This is a different category from AI-assisted work, where humans review every output. Agentic systems operate between oversight checkpoints.
+
+The results from teams who've made this transition:
+
+- 27% faster campaign build times
+- 19% lower cost per qualified lead
+- 40% of enterprise applications will include task-specific agents by end of 2026 (Gartner)
+
+The operational shift this requires is underestimated.
+
+**Human roles don't disappear. They change.** The job shifts from execution to architecture — designing the workflow the agent runs inside, setting the guardrails, reviewing outputs at checkpoints. Marketers who understand how the system makes decisions become more valuable. Those who optimized for execution volume become less.
+
+**Oversight intervals matter more than oversight volume.** Reviewing an agent's decisions once per day with structured criteria outperforms reviewing every output ad-hoc. The checkpoint design determines the quality of the system.
+
+**The feedback loop is the product.** Agentic marketing systems get better when failure modes are documented and fed back. "This targeting sequence underperformed by 22% on mobile" is more valuable to the system than "this didn't work." Specific, structured feedback trains the next iteration.
+
+The 45% running agentic systems in marketing today are the same companies that had marketing automation before their competitors in 2015-2018.
+
+The gap between "using AI" and "running autonomous workflows" is widening.
+
+Which side of that gap are you on?
