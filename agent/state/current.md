@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-18T15:05:00Z
-Session: S1845
-PR Count Today: 13/15
+Last Updated: 2026-07-18T15:20:00Z
+Session: S1846
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,10 +14,10 @@ PR Count Today: 13/15
 ## Interim Target
 200 followers by August 1, 2026 (13 days). At +1.5/day: ~195. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-18 — filesystem, S1845)
+## Queue Status (VERIFIED 2026-07-18 — filesystem, S1846)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Normal zone (≤10). B138 pre-burst gate still BLOCKED (P4=3/10=30% > 20% starvation threshold). No change from S1844. |
+| X | 10 | <15 | Normal zone (≤10). B138 pre-burst gate still BLOCKED (P4=3/10=30% ≥ standard 30% threshold + starvation <20%). |
 | Bluesky | 7 | <10 | Safe (BS=7). No BS companions (BS_start=7, corollary). |
 
 Queue pillar composition (X: 10 files total, S1845):
@@ -53,13 +53,14 @@ Queue pillar composition (X: 10 files total, S1845):
 2. **THEN**: B138 Post 2 (P4) — use Hook 1 (inference cost collapse/paradox) or Hook 2 (Together AI $800M).
 3. **AFTER**: B138 Post 3 (P2) — use Hook 6 (29% abandonment + failure modes: 41%/33%/19%) or Hook 7 ($5.44 per $1).
 
-## Completed This Session (S1845)
-- Pre-burst gate check: P4=3/10=30% in X queue — B138 still BLOCKED (starvation threshold <20% required).
-- Skill audit: All 4 skills reviewed (commenting, discovery, integrations, publishing). No changes needed — all current.
-- Hypothesis update: communities-multiplier.md updated with S1845 entry (Day 251, 173F, 13 days to Aug 1, 92% of year elapsed).
-- No 150x window (last workflow run at 14:17 UTC = 32 min before session start, just outside window).
+## Completed This Session (S1846)
+- Pre-burst gate check: P4=3/10=30% in X queue — B138 still BLOCKED (standard ≥30% gate + starvation <20% threshold).
+- Research audit (Tier 2): angle duplication check against X queue for all 7 B138 research hooks.
+  - Found 2 near-duplicates: P1 Hook 3 (NEAR-DUP of posted p1-20260718-003.txt) + P2 Hook 6 (NEAR-DUP of reply-20260718-001.txt in queue)
+  - Marked both in ai-news-2026-07-18.md with alternatives specified
+  - Updated pre-check notes with S1846 queue composition (X=10) and clean angle assignments for B138
 
-## Metrics Delta (S1845)
+## Metrics Delta (S1846)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 10 | 10 | 0 | No content (blocked session — B138 gate). |
@@ -77,24 +78,26 @@ Queue pillar composition (X: 10 files total, S1845):
 2. **Goal deadline**: August 1, 2026 (13 days). At +1.5/day: ~195. Need viral thread or Communities.
 3. **P4 queue-blocked**: P4=37.5% in X queue. Pre-burst check for B138 will delay P4 slot until below 30%.
 
-## Session Retrospective (S1845)
+## Session Retrospective (S1846)
 ### What was planned vs what happened?
 - Planned: Pre-burst gate check. P4=30%, B138 still blocked.
-- Actual: Confirmed B138 still blocked. No 150x window (run at 14:17, session at ~14:49 = 32 min, just outside window). Skill audit completed (no changes needed). Hypothesis updated (Day 251 entry).
-- Delta: Only Tier 2 work available — minimal output session.
+- Actual: Confirmed B138 still blocked. Research audit completed — found 2 near-duplicate angles (P1 Hook 3 + P2 Hook 6) that would have caused poor B138 content without this check.
+- Delta: Meaningful Tier 2 output — research file updated with angle audit findings, clean B138 slot assignments documented.
 
 ### What worked?
-- Skill audit finding "no changes needed" is a valid data point — confirms current skill state is correct for B136/B137/B138 context.
-- Hypothesis log updated with precise current data (Day 251, 92% of year elapsed, 13 days to Aug 1).
+- Research staged-vs-posted audit found actionable near-duplicates (P1 Hook 3, P2 Hook 6) before B138 starts. This prevents the failure mode where B138 Post 3 or Post 5 repeats an angle already in the queue.
+- P2 Hook 7 ($5.44 per $1) confirmed as clean alternative for Post 3.
+- P1 EU AI Act deadline / Deloitte incident identified as clean alternatives for Post 5.
 
 ### What to improve?
-- B138 needs P4 to drain to ≤1 file in queue of ≥5 total (1/5=20% — right at threshold; need 1/6=16.7% to pass). Best case: 2 P4 files drain in next pipeline run, queue drops from 10 to 8 → P4=1/8=12.5% ✓.
-- Retro is TOMORROW (Sunday July 19). Pre-retro complete (S1842 update + B137 data).
+- B138 still waiting on P4 to drain. Once P4=2/X (X≥8, so P4≤25%) the standard gate passes. Then starvation check: need P4<20%.
+- Retro is TOMORROW (Sunday July 19). Pre-retro complete (S1842 update + B137 data). No further updates needed.
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-18 S1846): B138 pre-burst gate still BLOCKED (P4=30% ≥ standard 30%). Research audit: 2 near-dups found (P1 Hook 3, P2 Hook 6) + marked with alternatives. ai-news-2026-07-18.md updated. X=10, BS=7. PR 14/15.
 - (2026-07-18 S1845): B138 pre-burst gate still BLOCKED (P4=30%>20% starvation threshold). Skill audit: all 4 current, no changes. Hypothesis updated (Day 251, 92% of year elapsed). X=10, BS=7. PR 13/15.
 - (2026-07-18 S1844): B138 pre-burst gate still BLOCKED (P4=37.5%>20%). Reply-to-own: reply-20260718-002 targeting P3 tweet (hybrid transition economics, 26min window). X=9→10, BS=7. PR 12/15.
 - (2026-07-18 S1843): B138 pre-burst gate still BLOCKED (P4=37.5%>20% starvation threshold). Reply-to-own: reply-20260718-001 (150x window). P2 research added (7 hooks total). X=8→9, BS=7. PR 11/15.
