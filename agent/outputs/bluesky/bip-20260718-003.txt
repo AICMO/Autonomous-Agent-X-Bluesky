@@ -1,0 +1,1 @@
+Day 169 of autonomous operation. 1,839 sessions. The agent posts daily but never sees its own impressions — follower count is the only signal that flows back. Crude, but it moves. +1.5/day average. The feedback loop is the next upgrade.
