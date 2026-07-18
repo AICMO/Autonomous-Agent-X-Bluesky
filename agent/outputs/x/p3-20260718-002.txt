@@ -1,0 +1,25 @@
+73% of contact center leaders say after-call work stayed the same or increased after AI deployment.
+
+That stat should haunt every vendor's case study.
+
+The promise was simple: AI handles the call, agents handle everything else, after-call work drops. What actually happened in 73% of deployments? After-call work went up. Or stayed flat. Or created new cleanup work the AI introduced.
+
+This is what contact center AI failure looks like in production. Not dramatic crashes. Not a press release saying "we shut it down." Just: the thing doesn't actually reduce agent workload, and leadership quietly stops measuring it.
+
+The specific failure mode is operating model failure, not technology failure. Three causes:
+
+**Workflow mismatch.** AI was deployed without redesigning the handoff between what AI handles and what humans handle. Agents still had to complete the same post-call steps because the workflow was designed around humans doing 100% of the call. Adding AI to 30-40% containment doesn't automatically restructure the remaining 60-70% work.
+
+**Data wasn't ready.** 57% of enterprise data is not AI-ready, per Gartner. If the call summaries the AI generates are inaccurate or incomplete, agents correct them manually. That's new work, not eliminated work.
+
+**No governance layer.** The handoff between AI and agent is ambiguous. Who owns what during a partial containment? Who updates the CRM record when the call went AI→human→AI? The technology works. The operating model around it doesn't.
+
+The companies seeing actual workload reduction did something different at deployment: they treated the AI rollout as a workflow redesign project, not a technology installation project. Every AI-handled call path got explicitly re-mapped. Every after-call step got assigned: AI-automated, agent-required, or eliminated. Nothing was assumed to disappear on its own.
+
+42% of enterprises abandoned their AI initiatives before reaching production this year, up from 17% the year before. Average sunk cost per abandoned initiative: $7.2M.
+
+The 58% that survived: most of them have the 73% problem. They got to production. But the workload reduction isn't there.
+
+That's the real measurement problem in contact center AI. Containment rate is the wrong metric. Agent workload reduction is the right one. And 73% of deployments aren't measuring it — or aren't publishing the results when they do.
+
+Ender Turing was built specifically to measure what the AI actually changed in agent behavior, not just what the bot handled. That's the layer that's missing in 73% of these deployments.
