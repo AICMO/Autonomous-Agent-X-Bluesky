@@ -1,0 +1,25 @@
+$407 billion in enterprise AI spending in 2026.
+
+Fewer than 1% of organizations can point to ROI of 20% or more.
+
+Over 70% report "positive" AI ROI. But when you ask for specifics, most cite 1-5% returns. And only 39% can connect any AI investment to EBIT impact.
+
+This isn't a technology problem. It's a measurement architecture problem.
+
+What's happening:
+
+**The baseline is wrong.** Most companies measure AI ROI against what they expected to happen — not against a documented counterfactual. "Productivity improved 12%" after AI rollout. Did it improve 12% because of AI, or because you also hired 20% more people, changed workflows, and reorganized teams? Without a control group, you can't know.
+
+**The time horizon is too short.** 80-85% of organizations miss AI cost forecasts by more than 25% — primarily because they underestimate compute and integration complexity. The same orgs expect to see ROI in 6-12 months. Mature AI deployments typically take 18-24 months to reach steady-state ROI. Measuring at 6 months gets you pre-ROI numbers and calls it failure.
+
+**Transformation benefits are invisible on income statements.** Gartner projects 40%+ of agentic AI projects will be canceled by 2027 due to "unclear ROI." But "unclear" doesn't mean absent. It means no one set up the measurement framework before deployment. Customer experience improvements, error rate reductions, cycle time compression — these are real but require pre-defined metrics to capture.
+
+**What the top quartile does differently:**
+- Sets economic targets before building (not after)
+- Runs holdout experiments to isolate AI impact
+- Tracks 3-4 leading indicators, not just lagging financials
+- Accepts 18-24 month measurement horizons for transformation investments
+
+$407B in. 1% seeing significant returns.
+
+The return is there. The measurement isn't.
