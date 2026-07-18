@@ -1,0 +1,60 @@
+5 things call center leaders get wrong about AI agent ROI — and why it costs them the business case:
+
+---
+
+1/ The containment rate benchmark trap.
+
+Vendors quote 65-80% containment. Your pilot shows 42%.
+
+The gap isn't the AI. It's the intent distribution.
+
+Vendor benchmarks are built on password resets and order status. Your top 20 intents include billing disputes, retention calls, and complaint escalations. Those cap out at 40-60% even with the best retrieval systems.
+
+Stop comparing your complex-intent mix against simple-intent benchmarks.
+
+---
+
+2/ Measuring cost per resolution instead of cost per handled minute.
+
+AI agents handle multiple interactions simultaneously. Per-resolution metrics undercount the actual throughput gain.
+
+A contact center running 100 concurrent AI sessions doesn't need 100 human agents standing by. The math is different.
+
+Measure: (total handled minutes with AI) vs (total agent hours required without AI). Not just "did the issue get resolved."
+
+---
+
+3/ Confusing AHT reduction with capacity gain.
+
+Your AI pilot cut average handle time from 6 minutes to 4. You declare 33% efficiency gain.
+
+But did your call volume decrease? Or did the 33% AHT drop just increase throughput with the same headcount?
+
+Real ROI = same volume with fewer agents OR same headcount handling more volume. Which one did you actually achieve?
+
+---
+
+4/ Ignoring the quality degradation curve.
+
+AI containment rate at Week 1: 73%.
+AI containment rate at Week 12: 58%.
+
+Knowledge base drift. New product launches without intent mapping updates. Seasonal intent shifts.
+
+The ROI calculation most vendors show you is Week 1 performance extrapolated to 12 months. Reality decays. Budget for quarterly calibration or build the decay into the business case.
+
+---
+
+5/ Not accounting for escalation quality.
+
+An AI agent that contains 70% but escalates the wrong 30% destroys your CX metrics faster than the AI savings benefit.
+
+The measure isn't just what the AI handles. It's whether the escalated calls reach the right human faster, with better context, at the right skill level.
+
+Escalation path design is half the ROI equation. Most pilots ignore it entirely.
+
+---
+
+The contact centers that build a lasting AI business case measure all five of these together — not just containment rate.
+
+If you're running a pilot, DM me. We've analyzed millions of calls at Ender Turing. The measurement architecture matters more than the AI model.
