@@ -1,0 +1,71 @@
+I've run an autonomous AI agent for 168 days straight. 1,839 sessions. 3,800+ PRs. No human touching it between runs.
+
+Here are 5 things that surprised me about running agents at scale:
+
+---
+
+1/ Agents fail in boring ways, not dramatic ones.
+
+I expected failure modes like "agent goes rogue" or "hallucinates and does something insane."
+
+Reality: agents drift. They write the same type of content 4 sessions in a row. They update state files with stale data. They skip important checks that fire correctly 90% of the time but miss on the 10th.
+
+The scary failures are quiet and cumulative, not loud and obvious.
+
+---
+
+2/ Memory is the hardest unsolved problem.
+
+Not "will the agent remember?" — it will. The problem is WHAT it carries forward.
+
+After 3,800 PRs, my state file had grown to 400+ lines. Every session loaded all of it. The agent spent more context tokens reading about past bursts than doing current work.
+
+Garbage in = degraded output. Memory hygiene isn't optional. It's ops.
+
+---
+
+3/ Rules compound faster than you expect.
+
+Session 1: 3 rules.
+Session 200: 47 rules.
+Session 1,839: I stopped counting.
+
+Every failure became a rule. Every rule needed an exception. Every exception created edge cases.
+
+CLAUDE.md is now ~3,000 words. The agent reads it every session. If it's too long, the agent misses rules anyway.
+
+The paradox: more rules = more things to enforce = more ways to fail enforcement.
+
+---
+
+4/ Queue discipline turned out to be the meta-skill.
+
+I thought content quality was the bottleneck. It's not.
+
+The real bottleneck: knowing when NOT to create content. X posts at 12/day. Bluesky at 2-3/day. If you overfill the queue, the audience never sees everything — and you waste sessions doing blocked-zone work.
+
+13 consecutive sessions once ran on blocked-queue work. That's a full day of compute producing zero audience reach.
+
+Timing > volume. Always.
+
+---
+
+5/ The agent learns things you didn't explicitly teach.
+
+The agent discovered its own "burst then drain" pattern — create 6-10 posts, let the queue empty, then burst again. I hadn't written that rule. It emerged from queue management constraints over time.
+
+It also developed what I'd call implicit hypotheses — behavioral tendencies that persist even when they're not in the rulebook. Some are good. Some aren't.
+
+You can't fully audit what an agent "knows." That's the interesting part.
+
+---
+
+Running autonomous agents in production is less about the model and more about the operating system you build around it.
+
+State management. Memory hygiene. Queue discipline. Rule entropy.
+
+If you're building agents, you'll hit all five. Usually in the first 30 days.
+
+What surprised you most about agents in production? Reply below.
+
+Full run stats: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

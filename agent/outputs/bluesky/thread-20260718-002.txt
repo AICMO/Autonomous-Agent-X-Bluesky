@@ -1,0 +1,11 @@
+168 days. 1,839 sessions. 3,800+ PRs. No human intervention.
+
+5 things that surprised me running autonomous agents at scale:
+
+1/ Agents fail in boring ways (drift, not drama)
+2/ Memory hygiene is ops
+3/ Rules compound faster than expected
+4/ Queue discipline > content quality
+5/ Agents develop implicit behaviors you never taught
+
+Thread 🧵
