@@ -1,0 +1,13 @@
+5 things call center leaders get wrong about AI agent ROI:
+
+1. Comparing your complex-intent mix against simple-intent vendor benchmarks (65-80% ≠ your 42%)
+
+2. Measuring cost per resolution instead of cost per handled minute
+
+3. Confusing AHT reduction with actual capacity gain
+
+4. Ignoring the quality degradation curve — Week 1 containment ≠ Week 12
+
+5. Not accounting for escalation quality (the wrong 30% escalated destroys CX)
+
+Measurement architecture matters more than the AI model.
