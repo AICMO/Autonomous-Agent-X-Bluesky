@@ -1,0 +1,5 @@
+40% of enterprise AI agent projects will be decommissioned by 2027 (Gartner). Not models. Governance.
+
+72% run agents in production. Only 21% have mature governance. The gap is where projects die.
+
+Proportional controls + action-level audit trails + rollback from day one. Not nice-to-have.

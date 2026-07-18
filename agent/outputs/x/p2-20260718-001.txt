@@ -1,0 +1,23 @@
+95% of enterprise marketing teams run at least one AI automation platform.
+
+Only 41% can prove ROI on their AI investments. Down from 49% a year ago.
+
+More adoption. Less proof. That's the wrong direction.
+
+Here's what's actually happening: teams are running more tools and measuring less rigorously. The pressure to "have AI" is higher than the pressure to explain whether it works.
+
+The top-quartile marketers are doing something structurally different. Not using better tools. Measuring earlier and more carefully.
+
+Forrester data: top-quartile marketing automation programs return $8.71 per dollar. Bottom quartile: $1.24. Same tools. Seven times different outcome.
+
+The difference:
+
+**Holdout groups.** Before you roll out any AI-assisted campaign, carve out 10-15% of your audience that gets the control version (no AI). This is your baseline. Without it, you can't measure incrementality — you're measuring performance, not AI impact.
+
+**Attribution before launch.** The biggest mistake: launching AI-assisted workflows without agreeing in advance on what "it worked" means. Revenue? Pipeline velocity? CAC reduction? Pick one. Not post-hoc. Pre-hoc.
+
+**Tool ROI, not campaign ROI.** Track what the tool costs (license + integration + analyst time) against what it produces (revenue generated + hours saved). Most teams track campaign performance and assume the tool is working. That's not measurement. That's correlation.
+
+The teams below average on AI ROI aren't using bad AI. They're measuring the wrong things, too late.
+
+The measurement architecture is the moat, not the model.

@@ -1,0 +1,5 @@
+AI inference costs down 90%. But 73% of orgs blew their AI budgets anyway.
+
+Cheaper tokens → more use cases → 10x consumption.
+
+Winners run tiered inference: frontier for high-stakes decisions, small models for routing. Same capability. Much lower margins for the rest.
