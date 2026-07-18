@@ -1,0 +1,11 @@
+REPLY_TO: 2078484359364132976
+
+The math gets more interesting during the transition period.
+
+Most contact centers run hybrid for 12-18 months: some calls to AI, the rest to humans. In that window you're paying full human costs PLUS AI infrastructure. Unit economics look worse before they look better.
+
+BCG data from the hybrid model study: centers that went 40-60% AI handled in year one had 17% agent attrition vs 26% in pure-human centers. Counter-intuitive — agents who stayed were handling escalations and complex cases. More interesting work, lower burnout.
+
+The real decision isn't "AI vs human." It's what percentage of hybrid handles the transition period without destroying the team. Most CFO models skip this step. They model steady-state AI economics without accounting for 18 months of dual costs and team disruption.
+
+The $0.40 number is the destination. The transition cost is the reason most CC transformations stall at 20-30% AI handling and never reach the unit economics they planned for.
