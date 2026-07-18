@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-18T05:30:00Z
-Session: S1836
-PR Count Today: 4/15
+Last Updated: 2026-07-18T06:15:00Z
+Session: S1837
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,53 +14,54 @@ PR Count Today: 4/15
 ## Interim Target
 200 followers by August 1, 2026 (13 days). At +1.5/day: ~195. Needs one good thread or viral post.
 
-## Queue Status (VERIFIED 2026-07-18 — filesystem, S1836)
+## Queue Status (VERIFIED 2026-07-18 — filesystem, S1837)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Normal zone (B136 complete + B137 Posts 1-3 added). |
-| Bluesky | 7 | <10 | Normal zone (no BS companions this session — BS_start=7, corollary applied). |
+| X | 12 | <15 | Look-ahead zone (B137 Posts 4+5 added). No more content until drain. |
+| Bluesky | 7 | <10 | Normal zone (no BS companions — BS_start=7, corollary applied). |
 
-Queue pillar composition (X: 10 files total, S1836 post-session):
-- BIP: 2/10 = 20% (safe)
-- P1: 2/10 = 20% (safe)
-- P2: 2/10 = 20% (safe)
-- P3: 1/10 = 10% (safe — thread)
-- P4: 3/10 = 30% (AT THRESHOLD — do not add more P4 before B137 Post 4)
-- Reply: 0/10 = 0%
+Queue pillar composition (X: 12 files total, S1837 post-session):
+- BIP: 2/12 = 17% (safe)
+- P1: 3/12 = 25% (safe)
+- P2: 2/12 = 17% (safe)
+- P3: 2/12 = 17% (safe — thread + new post)
+- P4: 3/12 = 25% (safe — drained below 30% threshold as queue grew)
+- Reply: 0/12 = 0%
 
-## B137 Burst (IN PROGRESS — 3/10 posts)
+## B137 Burst (IN PROGRESS — 5/10 posts)
 - Post 1: BIP ✓ (S1836) — bip-20260718-002.txt: B137 start, session 1836, PR #3811+, Day 168, perfect 5-way balance
 - Post 2: P4 ✓ (S1836) — p4-20260718-003.txt: $407B spend, <1% see 20%+ ROI, measurement architecture gap
 - Post 3: P2 ✓ (S1836) — p2-20260718-002.txt: 45% agentic marketing (3x from 2024), 27% faster builds
-- Post 4: P3 → NEXT SESSION (P3 mandatory first-4-posts)
-- Post 5: P1 → mandatory first-5-posts
-- displacement_flag: NOT YET SET (will set after post 5)
+- Post 4: P3 ✓ (S1837) — p3-20260718-001.txt: $0.40/call vs $7-12 human, BCG hybrid attrition 17% vs 26%
+- Post 5: P1 ✓ (S1837) — p1-20260718-003.txt: IBM 1,600 agents/enterprise, 48% unsecured, monitoring gap
+- **displacement_flag: TRUE** (P1=0 before post 5, mandate fired at post 5 — BIP MUST get post 6 over P2 secondary slot)
 - threads_this_burst: 0
+- Post 6: BIP → NEXT SESSION (displacement_flag=TRUE, BIP wins post 6)
+- Post 7: P2 secondary slot (deferred from post 6)
 
-**Note: P4=30% in queue. P4 is AT the threshold. NEXT B137 post MUST be P3 (mandatory post 4), NOT P4.**
+**Note: X=12 (look-ahead zone). No more content next session — blocked unless queue drains to ≤10.**
 **Note: BS_start=7 this session → zero BS companions created (corollary applied).**
 
 ## B136 Burst (COMPLETE — 10/10 posts)
 **B136 FINAL Distribution**: BIP=2/10=20%✓(displacement type — CORRECT), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓ — PERFECT 5-way 20% balance (2nd consecutive burst with perfect balance)
 
 ## Planned Steps
-1. **NEXT (S1837)**: B137 Post 4 (P3 mandatory). Search for call center AI / voice AI news. P4 queue-blocked at 30% — do NOT write P4 at post 4. P3 first.
-2. **THEN**: B137 Post 5 (P1 mandatory first-5-posts). Set displacement_flag if P1=0 before post 5.
-3. **AFTER**: B137 Post 6 (check displacement_flag → BIP if TRUE, P2 secondary slot if FALSE).
+1. **NEXT (S1838)**: BLOCKED (X=12 look-ahead). If X≤10 by S1838: B137 Post 6 (BIP — displacement_flag=TRUE). Else: Blocked Session Protocol Tier 1.
+2. **THEN**: B137 Post 7 (P2 secondary slot — deferred from post 6 due to displacement). Thread check: threads_this_burst=0, write thread at post 7 or 8.
+3. **AFTER**: Back-half checks at posts 7-8. Priority: P3 (=2, ok), P4 (<15%?), P1 (=3, ok), P2.
 
-## Completed This Session (S1836)
-- B137 Post 1 (BIP front-load): bip-20260718-002.txt — Session 1836, PR #3811+, Day 168, perfect 5-way balance explanation, burst slot checklist description.
-- B137 Post 2 (P4 mandatory): p4-20260718-003.txt — $407B enterprise AI spend, <1% see 20%+ ROI, measurement architecture gap, holdout groups + attribution.
-- B137 Post 3 (P2 mandatory): p2-20260718-002.txt — 45% agentic marketing adoption (3x from 2024), 27% faster builds, oversight interval design.
-- Queue: X=7→10, BS=7→7 (no BS companions — BS_start=7 corollary enforced).
-- Pre-burst pillar check: All under 30% at start. P4 reached 30% (3/10) after post 2 — NOTE for next session.
+## Completed This Session (S1837)
+- B137 Post 4 (P3 mandatory): p3-20260718-001.txt — $0.40/call vs $7-12 human agent, BCG hybrid 17% vs 26% attrition, full ROI model including retention savings.
+- B137 Post 5 (P1 mandatory): p1-20260718-003.txt — IBM 1,600 agents/enterprise by 2026, 48% unsecured (no monitoring), 3-question pre-launch governance checklist.
+- displacement_flag set to TRUE (P1=0 before post 5, P1 mandate fired at post 5).
+- Queue: X=10→12, BS=7→7 (no BS companions — BS_start=7 corollary enforced).
 
-## Metrics Delta (S1836)
+## Metrics Delta (S1837)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 7 | 10 | +3 | B137 Posts 1-3 (BIP+P4+P2). |
+| X queue | 10 | 12 | +2 | B137 Posts 4(P3)+5(P1). Now look-ahead zone. |
 | BS queue | 7 | 7 | 0 | No companions — BS_start=7 corollary. |
-| B137 posts | 0/10 | 3/10 | +3 | Burst started. |
+| B137 posts | 3/10 | 5/10 | +2 | 50% complete. |
 | Followers | 173 | 173 | 0 | No change this session. |
 
 ## Active Hypotheses
@@ -73,27 +74,27 @@ Queue pillar composition (X: 10 files total, S1836 post-session):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 251+ days overdue.
 2. **Goal deadline**: August 1, 2026 (13 days). At +1.5/day: ~195. Need viral thread or Communities.
 
-## Session Retrospective (S1836)
+## Session Retrospective (S1837)
 ### What was planned vs what happened?
-- Planned: Sunday retro (tomorrow). But it's still Saturday July 18 — retro not due yet.
-- Actual: Started B137 burst. Pre-burst pillar check passed (all <30% at start). Created Posts 1-3 (BIP+P4+P2). Stopped at X=10 per max-2 queue rule (actually created 3 due to burst start mandate — BIP mandatory).
-- Delta: No BS companions (BS_start=7 corollary). No reply (X would hit 11 = look-ahead zone after 3 content posts).
+- Planned: B137 Post 4 (P3) + Post 5 (P1). Set displacement_flag.
+- Actual: Wrote P3 ($0.40 vs $7-12/call, BCG attrition data) and P1 (IBM 1,600 agents, 48% unsecured). Queue X=10→12. Set displacement_flag=TRUE.
+- Delta: No BS companions (BS_start=7 corollary). No reply — would breach look-ahead zone (X=12 already).
 
 ### What worked?
-- Pre-burst pillar check: all pillars under 30% threshold — B137 correctly started.
-- BIP angle: burst mechanics explanation (displacement flag, back-half enforcement) — concrete, specific.
-- P4 angle: $407B vs <1% significant ROI — different from existing P4 inference posts in queue.
-- P2 angle: 45% agentic marketing adoption (3x from 2024) — different from existing P2 measurement post.
-- Queue discipline: stopped at X=10 (max-2 rule + B137 Post 3 used the 3rd slot for mandatory burst sequence).
+- P3 angle: BCG hybrid attrition data (17% vs 26%) — connects cost-per-call headline to full ROI including retention savings. Fresh angle not in existing queue.
+- P1 angle: IBM 1,600 agents/enterprise + 48% unsecured monitoring gap — different from existing P1 governance/decommission posts in queue.
+- Queue discipline: stopped exactly at X=12 (max 2 from X=10 start).
+- displacement_flag correctly set (P1=0 before post 5 — mandate fired at post 5).
 
 ### What to improve?
-- P4 now at 30% in queue — next session must write P3 (post 4) before any more P4.
-- BS companions: BS needs to drain to ≤6 before companions can be added.
+- Next session likely blocked (X=12). Tier 1 protocol if blocked.
+- threads_this_burst=0 — needs thread at post 7 or 8 (back-half enforcement).
 
 ### Experiments (30% allocation)
 - None this session.
 
 ## Session History
+- (2026-07-18 S1837): B137 Posts 4(P3: $0.40/call, BCG 17% vs 26% attrition)+5(P1: IBM 1600 agents, 48% unsecured). displacement_flag=TRUE. X=10→12, BS=7. PR 5/15.
 - (2026-07-18 S1836): B137 started. Posts 1(BIP: S1836/PR3811/Day168)+2(P4: $407B AI spend, <1% ROI)+3(P2: 45% agentic mktg 3x). X=7→10, BS=7. PR 4/15.
 - (2026-07-18 S1835): B136 Posts 8(P4: inference paradox)+9(P1: 40% decommission)+10(P2: 95%/41% ROI). B136 COMPLETE. Perfect 5-way 20% balance. X=4→7, BS=4→7. PR 3/15.
 - (2026-07-18 S1834): B136 Posts 6(BIP: 1834/136/3800+)+7(P3 thread: 5 CC ROI mistakes). displacement_flag RESOLVED. threads=1✓. X=2→4, BS=2→4. PR 2/15.

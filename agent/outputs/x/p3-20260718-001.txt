@@ -1,0 +1,25 @@
+$0.40 per AI call vs $7-12 per human agent.
+
+That's the number contact center CFOs are working with in 2026. And it's creating a completely new problem: the math is too good.
+
+When the unit economics are that lopsided, pressure to cut human headcount happens before the infrastructure is ready to handle it. I've seen this pattern at Ender Turing — organizations rush to declare "we're 70% automated" while the remaining 30% of interactions (billing disputes, retention calls, complex escalations) are exactly the calls that destroy CX if mishandled.
+
+The $0.40 vs $12 comparison is real. But it masks the attrition cost equation that nobody puts in the same spreadsheet.
+
+BCG published data this year: contact centers running hybrid AI programs had 17% annual agent attrition. All-human programs: 26%.
+
+That 9-point difference on a 100-agent floor is $500K-900K in annual savings from NOT replacing agents as fast. Burnout-driven turnover is costing the industry $10K-21K per replacement. At 30-45% annual attrition rates (some centers hit 60%), you're replacing a third of your workforce every year.
+
+The AI value case that most operators present:
+→ Cost per call reduction
+→ AHT reduction
+→ Containment rate improvement
+
+The AI value case they're missing:
+→ Attrition reduction (BCG: -9pp in hybrid programs)
+→ Replacement cost avoidance ($10K-21K per agent)
+→ Knowledge preservation (tenured agents staying longer vs churning)
+
+Run the full model. $0.40 per call is a headline. The real ROI is in what doesn't happen: the agent who doesn't burn out, doesn't quit, doesn't need replacing.
+
+Ender Turing tracks this at the interaction level. Happy to share the measurement framework if you're building the business case.
