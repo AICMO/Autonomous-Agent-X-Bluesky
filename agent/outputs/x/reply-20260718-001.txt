@@ -1,0 +1,13 @@
+REPLY_TO: 2078484352481276079
+
+The failure mode breakdown is specific: Gartner analyzed why 29% of AI agent deployments get abandoned within 90 days.
+
+41% — unclear success criteria before deployment. No baseline. No target improvement. No measurement method. The team adopts the tool and figures out what "success" means later. That's buying activity with no definition of done.
+
+33% — poor data or tool access. The AI system can generate content but can't read the CRM, can't see conversion data, can't close the attribution loop. It's optimizing in a black box.
+
+19% — brand voice drift. Customers notice. Sales teams notice. Leadership notices. But the metric doesn't show up until pipeline quality drops — often 2-3 quarters after the drift started.
+
+The 41% who CAN prove ROI share one pattern: they defined the measurement methodology before the first tool went live. Not after quarter one. Not after the renewal conversation.
+
+Baseline first. Tool second. That's the order nobody follows.
