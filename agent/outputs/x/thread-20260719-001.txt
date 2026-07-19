@@ -1,0 +1,49 @@
+$2 vs $13.50 per interaction.
+
+That gap ends the "should we automate the contact center?" debate. The question was never whether. It's which calls to automate first.
+
+Here's the unit economics most vendors won't show you:
+
+---
+
+Self-service AI interaction: $0.07–$0.15/minute to run. Round that to $2 per resolved contact at a typical interaction length.
+
+Assisted contact (phone, chat, email with a human): $13.50 median per interaction in 2026. Range: $8 at low-cost offshore centers to $28+ for complex U.S. inbound.
+
+That's a 6.75x cost delta per contact. Not 20%. Not 2x. Nearly 7x.
+
+---
+
+Most contact centers see 30–50% cost reduction on the call types they actually automate. Conservative payback window: 9–15 months. High-volume simple-intent deployments: 3–6 months.
+
+The ROI math isn't the hard part.
+
+The hard part: deciding which calls go to automation first.
+
+---
+
+The wrong answer: start with your highest-volume call type.
+
+The right answer: start with your highest-volume, lowest-complexity, highest-containment-probability call type.
+
+These are different. Enterprises that confuse the two spend $400K on a pilot that routes 80K calls per month but only resolves 18% — because they picked the right volume and the wrong complexity profile.
+
+---
+
+What "lowest complexity" actually means in contact center terms:
+
+- Single-intent (one reason for the call, not four)
+- Transactional (check balance, reschedule, confirm order status — not dispute, escalate, negotiate)
+- Low emotional charge (utility billing, appointment confirmation, delivery tracking)
+
+If a call requires judgment, empathy, or information outside the structured data layer — it's not a first-pilot automation. It's a year-3 automation, after you've built the verification architecture.
+
+---
+
+The 6.75x cost delta only lands if you pick the right call types.
+
+Organizations that miss this spend 6–18 months reporting "average handle time improved 11%" while their AI deflection rate is 14% and their $13.50 calls are still $13.50 — just fewer of them.
+
+Deflection rate is the metric. Not handle time. Not CSAT on automated contacts. Deflection.
+
+What percent of contacts never reached a human? That number × $11.50 (delta) = what you actually saved.
