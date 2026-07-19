@@ -1,0 +1,25 @@
+30-45% annual turnover. $10,000-$20,000 per replacement.
+
+For a 100-agent contact center running at industry average: that's $400,000-$800,000 walking out the door every year before you've paid a single vendor.
+
+This is the cost nobody talks about in the "AI vs. human agent" debate.
+
+Everyone's comparing $0.40/call (AI) vs. $7-$12/call (human) and calling it done. That math is real. But it misses the attrition multiplier.
+
+A 2,000-agent operation dropping from 40% to 32% annual turnover — just 8 percentage points — saves $1.1M-$2.4M/year. Not from replacing agents. From giving agents less soul-destroying repetitive work so they stay longer.
+
+The actual ROI case for contact center AI has two line items, not one:
+1. Cost per interaction (the one everyone models)
+2. Attrition reduction (the one almost nobody models)
+
+Most contact center AI pitches lead with #1. The CFO signs off on #1. Then 12 months later the retention numbers don't move and the "AI payback period" gets pushed out again.
+
+The contact centers getting 331-391% 3-year ROI are modeling both. They deploy AI on the call types that burn agents out fastest — repetitive inquiry handling, simple routing, first-level triage — and measure both deflection AND agent tenure improvement simultaneously.
+
+At Ender Turing we see this constantly: companies implement voice AI, track handle time religiously, never once measure whether agent satisfaction or tenure changed. Then they wonder why the total cost per resolution isn't moving the way the model said it would.
+
+Attrition cost is real money. It just doesn't show up on the same report as handle time.
+
+Model it before you buy, not after the pilot ends.
+
+#ContactCenter #VoiceAI #CXStrategy
