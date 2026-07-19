@@ -1,0 +1,19 @@
+85% of enterprise AI budgets now go to inference.
+
+Not training. Not fine-tuning. Not tooling. Just running the models that are already built.
+
+That ratio is going to look normal in two years. Right now it's a warning sign for a lot of org-level AI strategies that were designed in 2023.
+
+The 2023 mental model: AI investment = training cost + deployment cost + maintenance cost. Pick a model, fine-tune it, ship it. Inference is a line item.
+
+The 2026 reality: agentic workflows trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Always-on monitoring agents run 24/7. Inference is the business.
+
+Token prices dropped 280x in two years. Enterprise AI bills went up 320% in the same window. Not a paradox — that's just what happens when you go from "AI as feature" to "AI as infrastructure."
+
+The startups that got caught: anyone who built pricing on 2023 token economics. A customer paying $20/month can easily generate $18-25 in inference costs during heavy reasoning tasks. That's not a margin problem. That's a negative-gross-margin problem at scale.
+
+The correct play, once you cross 100M tokens/month: self-hosting wins on unit economics almost every time. Eli Lilly built a 9,000+ petaflop on-premise inference system (LillyPad). Not because they're AI-first. Because they ran the numbers.
+
+The question isn't "should we use AI." It's "at what usage level does owned inference beat rented inference." Every enterprise that's serious about AI needs to know that crossover number.
+
+Most don't.
