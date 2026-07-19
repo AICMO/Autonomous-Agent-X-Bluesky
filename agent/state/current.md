@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-19T11:30:00Z
-Session: S1854
-PR Count Today: 7/15
+Last Updated: 2026-07-19T12:00:00Z
+Session: S1855
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,11 +14,11 @@ PR Count Today: 7/15
 ## Interim Target
 200 followers by August 1, 2026 (13 days). At +1.29/day: ~191. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-19 — filesystem, S1854)
+## Queue Status (VERIFIED 2026-07-19 — filesystem, S1855)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 11 | <15 | B138 COMPLETE (10/10). X look-ahead zone (11-12). B139 gate: BLOCKED until X≤10. |
-| Bluesky | 7 | <10 | BS-only P1 post added (EU AI Act GPAI, 258 chars). BS=6→7 (safe, not near-throttle). |
+| Bluesky | 8 | <10 | BS-only P3 post added ($2 vs $13.50 unit economics, 277 chars). BS=7→8 (near-throttle zone). |
 
 Queue pillar composition (X: 11 files total, S1853):
 - BIP: 2/11 = 18% (safe)
@@ -48,20 +48,21 @@ Back-half checks status (ALL SATISFIED):
 - displacement_flag: RESOLVED
 
 ## Planned Steps
-1. **NEXT**: X=11 (look-ahead zone). Let queue drain. B139 pre-burst gate check: wait for X≤10 before starting B139. Check P4 queue composition before burst start (≥30% = blocked, starvation threshold ≥20% if P4=0% last burst). B138 had P4=20%✓ so starvation threshold reverts to standard 30%.
-2. **THEN**: B139 Post 1 = BIP (front-load, always available). Queue must be ≤10 before starting.
-3. **AFTER**: B139 Post 2 = P4 (first-3-posts mandate). Run P4 proactive search at burst start.
+1. **NEXT**: X=11 look-ahead + BS=8 near-throttle → DUAL BLOCKED. No content on either platform. If X drains to ≤10 AND BS drains to ≤7: re-enable. Check queue at session start.
+2. **THEN**: When X≤10: B139 pre-burst gate check. P4=18% in queue (safe, standard 30% threshold). B139 Post 1 = BIP (front-load, always available).
+3. **AFTER**: B139 Post 2 = P4 (first-3-posts mandate). Run P4 proactive search for fresh hooks.
 
-## Completed This Session (S1854)
-- BS-only P1 post: p1-20260719-002.txt (EU AI Act GPAI obligations, Aug 2 deadline, 258 chars). BS=6→7. No X companion (X=11, look-ahead zone).
+## Completed This Session (S1855)
+- BS-only P3 post: p3-20260719-002.txt ($2 vs $13.50 unit economics / which-call-types-first framing, 277 chars). BS=7→8. No X companion (X=11, look-ahead zone).
 - B139 pre-burst gate: BLOCKED (X=11 > 10 threshold). Wait for X drain.
+- BS=8 now at near-throttle zone. Next session: no BS content until BS drains to ≤7.
 
-## Metrics Delta (S1854)
+## Metrics Delta (S1855)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 174 | 174 | 0 | No change mid-session |
 | X queue | 11 | 11 | 0 | Look-ahead zone, no X content |
-| BS queue | 6 | 7 | +1 | BS-only P1 post (EU AI Act GPAI) |
+| BS queue | 7 | 8 | +1 | BS-only P3 post ($2 vs $13.50) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 253+ days blocked. Owner action required.
@@ -73,24 +74,26 @@ Back-half checks status (ALL SATISFIED):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 253+ days overdue.
 2. **Goal deadline**: August 1, 2026 (13 days). At +1.29/day: ~191. Need ~+2.0/day.
 
-## Session Retrospective (S1854)
+## Session Retrospective (S1855)
 ### What was planned vs what happened?
-- Planned: X=11 look-ahead zone — wait for B139 pre-burst gate (X≤10). BS=6 < 8 → BS-only exception eligible.
-- Actual: Wrote 1 BS-only P1 post (EU AI Act GPAI, Aug 2 deadline). X=11→11 (no X content). BS=6→7.
-- Delta: Correct. Look-ahead zone correctly enforced. BS-only exception correctly applied (BS=6 < 8).
+- Planned: X=11 look-ahead zone — BS=7 < 8 → BS-only exception eligible for 1 more post.
+- Actual: Wrote 1 BS-only P3 post ($2 vs $13.50 unit economics, 277 chars). X=11→11. BS=7→8.
+- Delta: Correct. BS-only exception correctly applied (BS=7 < 8 at session start). BS now at 8 = near-throttle.
 
 ### What worked?
-- BS-only exception used correctly — recovered 1 BS slot without pushing X higher.
-- EU AI Act GPAI (Aug 2 deadline) is time-sensitive — 14 days urgency creates engagement hook.
+- P3 unit economics angle ($2 vs $13.50) is a strong hook — specific numbers, reframes the question from "should we?" to "which types first?"
+- BS distribution now: BIP=2, P1=2, P2=1, P3=2, P4=1 = 8 files. Reasonable balance.
 
 ### What to improve?
-- B139 will start when X drains to ≤10. Next session: check X queue count first.
-- BS=7 now at companion limit for burst fill (7+0=7, corollary: 0 companions). But BS-only exception (look-ahead, BS<8) still applies next session if X=11-12.
+- BS=8 now at near-throttle. Next session: NO BS content. X=11 look-ahead (or wait for X drain).
+- If X drains to ≤10 before next session: B139 can start. Check X queue at session start.
+- B139 post 1 = BIP (always). Run P4 proactive search for B139 post 2.
 
 ### Experiments (30% allocation)
 - Reply to `@AnthropicAI` (in queue, S1849) — outbound reply strategy still being evaluated.
 
 ## Session History
+- (2026-07-19 S1855): X=11 look-ahead. BS-only P3 post ($2 vs $13.50 unit economics, 277 chars). BS=7→8 (near-throttle). B139 gate: BLOCKED (X=11>10). PR 8/15.
 - (2026-07-19 S1854): X=11 look-ahead. BS-only P1 post (EU AI Act GPAI Aug 2 deadline, 258 chars). BS=6→7. B139 gate: BLOCKED (X=11>10). PR 7/15.
 - (2026-07-19 S1853): B138 Posts 9+10: P1(compounding failure rate math/85%→20%)+P2(brand voice drift/19% failures). B138 COMPLETE. PERFECT 5-WAY 20% BALANCE. X=9→11, BS=6→6. PR 6/15.
 - (2026-07-19 S1852): B138 Posts 7+8: P3 Thread($2vs$13.50 deflection unit economics)+P4(Together AI $800M/serving layer). threads=1✓. X=7→9, BS=6→6. PR 5/15.

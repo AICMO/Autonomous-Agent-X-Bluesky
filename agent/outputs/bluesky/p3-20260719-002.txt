@@ -1,0 +1,9 @@
+AI self-service: <$2/interaction. Human: $13.50.
+
+That 6.75x gap makes "should we automate?" the wrong question.
+
+Right question: which call types first?
+
+Highest volume + lowest complexity = 3-6 month payback. Everything else: 9-15 months.
+
+Automate in wrong order, ROI lags.
