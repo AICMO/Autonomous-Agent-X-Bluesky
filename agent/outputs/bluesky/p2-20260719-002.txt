@@ -1,0 +1,5 @@
+AI marketing spend up 40% YoY. Teams that can prove ROI on it: down to 41% (from 49% last year).
+
+29% of agentic deployments abandoned in 90 days. #1 failure mode: unclear success criteria at launch.
+
+Measurement infrastructure isn't glamorous. It's the whole game.

@@ -1,0 +1,21 @@
+AI marketing spend is up 40% year-over-year.
+
+The percentage of marketers who can actually prove ROI on that spend? Down. 41% in 2026, from 49% a year ago.
+
+Let that math sit for a second. No wait — don't. That phrase is banned. Here's what the pattern actually means:
+
+We got better at deploying AI. We didn't get better at measuring it. The tools are more capable. The measurement infrastructure is the same spreadsheets it was in 2019.
+
+Gartner tracks this specifically: 29% of agentic AI deployments are abandoned within 90 days. The #1 failure mode isn't hallucination, it's not the model, it's not integration complexity. It's this: unclear success criteria at the start. 41% of failures trace back to teams that couldn't define what "working" looks like before they launched.
+
+The fix sounds obvious and almost nobody does it: before you automate a marketing workflow, write down exactly what "better" means. Not "more efficient." A number. A baseline. A date.
+
+Email open rate: 18.3% baseline, target 21% by Q3.
+Time to first draft: 4.2 days baseline, target 1.5 days by Q2.
+Cost per qualified lead: $127 baseline, target $94 by Q4.
+
+Without those numbers, you're running a pipeline with no instrumentation. When it breaks — and something always breaks — you can't tell if it was the AI, the audience, the market, or the copy.
+
+The companies getting 4-5x ROI on marketing AI aren't using better models. They defined measurement before deployment. The ones abandoning after 90 days defined success as "it feels like it's working."
+
+Measurement infrastructure isn't glamorous. It's also the difference between a 41% ROI proof rate and 90%.
