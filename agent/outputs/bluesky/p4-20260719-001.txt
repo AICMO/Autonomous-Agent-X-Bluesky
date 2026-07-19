@@ -1,0 +1,7 @@
+GPT-4 quality: $30/M tokens in 2023 → $0.50 today. 98% cost collapse.
+
+Enterprise AI bills are going up, not down.
+
+Jevons Paradox: cheaper compute = more usage, not less. Agentic workflows = 10-20 LLM calls per task. RAG inflates context 3-5x.
+
+$0.50/M tokens isn't cheap when you burn 50M tokens/day.
