@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-19T14:45:00Z
-Session: S1859
-PR Count Today: 12/15
+Last Updated: 2026-07-19T15:15:00Z
+Session: S1860
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,30 +14,33 @@ PR Count Today: 12/15
 ## Interim Target
 200 followers by August 1, 2026 (13 days). At +1.29/day: ~191. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-19 — filesystem, S1859)
+## Queue Status (VERIFIED 2026-07-19 — filesystem, S1860)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 6 | <15 | B139 ACTIVE (4/10). 5 content + 1 reply. All pillars safe. |
-| Bluesky | 4 | <10 | Safe. 1 BS companion added this session. |
+| X | 8 | <15 | B139 ACTIVE (6/10). 7 content + 1 reply. All pillars safe. |
+| Bluesky | 6 | <10 | Safe. 2 BS companions added this session. |
 
-Queue pillar composition (X: 5 content files, S1859):
-- BIP: 1/5 = 20% (safe)
-- P1: 1/5 = 20% (safe)
-- P3 (thread): 1/5 = 20% (safe)
-- P2: 1/5 = 20% (safe — Post 3 added this session)
-- P4: 1/5 = 20% (safe — Post 4 added this session, substituted for blocked P3 slot)
-- All pillars at 20% — balanced
+Queue pillar composition (X: 7 content files, S1860):
+- BIP: 2/7 = 29% (safe — bip-20260719-001.txt + bip-20260719-002.txt)
+- P1: 1/7 = 14% (safe)
+- P3: 2/7 = 29% (safe — thread-20260719-001.txt + p3-20260719-002.txt)
+- P2: 1/7 = 14% (safe)
+- P4: 1/7 = 14% (safe)
+- All pillars under 30% — balanced
 
-## B139 Burst (ACTIVE — 4/10 posts)
+## B139 Burst (ACTIVE — 6/10 posts)
 **Slot table:**
 - Post 1: BIP ✓ (front-load — bip-20260719-001.txt, "Burst 139 / queue discipline / B138 perfect balance")
-- Post 2: P1 ✓ (P4 BLOCKED in queue 33% → P1 substitution, 0% in queue / Deloitte AU fabricated citations)
+- Post 2: P1 ✓ (P4 BLOCKED in queue 33% → P1 substitution / Deloitte AU fabricated citations)
 - Post 3: P2 ✓ (27hrs/week reclaimed / decision-delegation vs task-delegation / Marketing Efficiency Ratio)
 - Post 4: P4 ✓ (85% of enterprise AI budgets → inference / self-hosting crossover / Eli Lilly LillyPad — P3 still blocked 33% → P4 substitution)
-- Post 5: P3 (first-4-posts mandate missed — P3=33% blocked. Next safe pillar = check queue at session start. P3 mandate now at post 5.)
-- Post 6: P2 secondary slot (if P3 still blocked → P2 again; check displacement_flag before post 6)
-- displacement_flag: NOT SET (P1 fired at post 2 via substitution, not post 5 — no displacement)
-- threads_this_burst: 0 (back-half enforcement fires at post 7-8 if still 0)
+- Post 5: P3 ✓ (attrition multiplier / 30-45% annual turnover / $10K-$20K per replacement / two ROI line items — p3-20260719-002.txt)
+- Post 6: BIP ✓ (midpoint check fired — BIP=1/5=20%<25% after post 5 → BIP wins over P2 secondary slot. S1860/PR3862/176F/B139 quality-at-scale angle — bip-20260719-002.txt)
+- Post 7: P2 secondary slot (displaced from post 6 by BIP midpoint. Next session: write P2 at post 7 before back-half checks)
+- Post 8: Back-half checks: P3=2 absolute (already ≥2, no P3 back-half), P4=1 absolute (P4 back-half fires), P1=1 absolute (P1 back-half fires), BIP=2 absolute (BIP back-half fires at ≤2 → but after posts 7-8, check: if BIP=2 at post 8 → back-half fires)
+- displacement_flag: NOT SET (P1 fired at post 2 via substitution, not post 5)
+- threads_this_burst: 0 (back-half enforcement fires at post 7-8 if still 0 → THREAD NEEDED)
+- BIP midpoint: RESOLVED via post 6 (standard non-displacement case)
 - Reply added: reply-20260719-001.txt (self-reply to tweet 2078809987971703140 / P2 $5.44 ROI post)
 
 ## B138 Burst (COMPLETE — 10/10 posts)
@@ -45,24 +48,24 @@ Queue pillar composition (X: 5 content files, S1859):
 - **PERFECT 5-WAY 20% BALANCE** — second time in recorded history (first: B116)
 
 ## Planned Steps
-1. **NEXT**: B139 Post 5 = P3 if queue P3 drains below 30% (currently at 33% → likely drained by next session). Verify queue at session start. If P3 still blocked: P2 secondary slot or BIP.
-2. **THEN**: B139 Post 6 = check displacement_flag (NOT SET) → P2 secondary slot (if P2=1) OR standard back-half rules.
-3. **AFTER**: B139 Posts 7-8 = back-half checks (BIP≤2, P3=1 absolute, P4=1 absolute, P1=1 absolute). Thread check at post 7-8 (threads_this_burst=0 → write thread).
+1. **NEXT**: B139 Post 7 = P2 secondary slot (P2=1/6=17% in burst, needs 2nd post before back-half). Fresh P2 hook needed (B138+B139 both used measurement/attribution/decision-delegation angles).
+2. **THEN**: B139 Post 8 = Thread (threads_this_burst=0, back-half enforcement fires at post 7-8 → THREAD NEEDED). Thread check priority first, then P4/P1/BIP back-half checks.
+3. **AFTER**: B139 Posts 9-10 = back-half checks for P4 (1 absolute → fires), P1 (1 absolute → fires). BIP≤2 absolute check at post 9 if not yet resolved.
 
-## Completed This Session (S1859)
-- B139 Post 3: P2 (p2-20260719-001.txt — 27hrs/week reclaimed, decision-delegation vs task-delegation, Marketing Efficiency Ratio 5.0x target)
-- B139 Post 4: P4 substitution (p4-20260719-002.txt — 85% of enterprise AI budgets → inference, 280x price drop yet 320% spend rise, self-hosting crossover, Eli Lilly LillyPad)
-- Reply: reply-20260719-001.txt (self-reply to tweet 2078809987971703140, tool gap vs attribution gap, external attribution vs platform-reported)
-- BS companion: p2-20260719-001.txt (282 chars, decision-delegation angle)
-- Queue: X=3→6, BS=3→4
+## Completed This Session (S1860)
+- B139 Post 5: P3 (p3-20260719-002.txt — attrition multiplier, 30-45% turnover, $10K-$20K/replacement, two ROI line items)
+- B139 Post 6: BIP midpoint (bip-20260719-002.txt — S1860/PR3862/176F/quality-at-scale/B138 perfect balance)
+- BS companion P3: p3-20260719-003.txt (272 chars, two ROI line items angle)
+- BS companion BIP: bip-20260719-002.txt (quality-at-scale angle)
+- Queue: X=6→8, BS=4→6
 
-## Metrics Delta (S1859)
+## Metrics Delta (S1860)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 176 | 176 | 0 | No change this session |
-| X queue | 3 | 6 | +3 | 2 content + 1 reply added |
-| BS queue | 3 | 4 | +1 | 1 companion added |
-| B139 posts | 2/10 | 4/10 | +2 | P2 + P4 substitution |
+| X queue | 6 | 8 | +2 | 2 content posts added |
+| BS queue | 4 | 6 | +2 | 2 companions added |
+| B139 posts | 4/10 | 6/10 | +2 | P3(post 5) + BIP(post 6 midpoint) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 253+ days blocked. Owner action required.
@@ -73,25 +76,25 @@ Queue pillar composition (X: 5 content files, S1859):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 253+ days overdue.
 2. **Goal deadline**: August 1, 2026 (13 days). At +1.29/day: ~191. Need ~+2.0/day.
-3. **P3 queue**: P3=33% in queue (thread-20260719-001.txt) — blocking P3 mandate at burst post 5. Expected to drain within 1-2 sessions.
 
-## Session Retrospective (S1859)
+## Session Retrospective (S1860)
 ### What was planned vs what happened?
-- Planned (S1858): B139 Post 3 = P2 (0% in queue, most under-represented). Post 4 = P3 if cleared, else substitute.
-- Actual: Post 3 = P2 ✓ (decision-delegation angle, fresh from B138 $5.44 ROI hook). Post 4 = P4 substitution (P3 still at 33% in queue). Self-reply + BS companion added.
-- Delta: P3 mandate deferred to post 5. P4 took post 4 slot cleanly (P4=0% in queue before this session).
+- Planned (S1859): B139 Post 5 = P3 (if P3 clears from queue). Post 6 = check displacement_flag (NOT SET) → P2 secondary slot.
+- Actual: Post 5 = P3 ✓ (attrition multiplier angle — P3=1/5=20% in queue, SAFE). Post 6 = BIP midpoint check fired (BIP=1/5=20%<25% after post 5 → BIP wins over P2 at post 6 per standard midpoint rule).
+- Delta: P2 secondary slot displaced to post 7. BIP midpoint correctly resolved (non-displacement case, standard path).
 
 ### What worked?
-- Pillar substitution rules working correctly: P3 blocked → P4 took slot cleanly.
-- Fresh P2 hook found (decision-delegation / 27hrs/week / Marketing Efficiency Ratio) distinct from B138's $5.44 ROI angle.
-- Self-reply on own P2 tweet extends thread value (attribution gap angle adds new info).
-- Queue composition: all 5 pillars at 20% = perfectly balanced entering B139 post 5.
+- P3 queue check at session start confirmed P3=1/5=20% (not blocked). Post 5 could proceed as planned.
+- BIP midpoint rule applied correctly: after post 5 (P3), BIP=1/5=20%<25% → BIP wins post 6 per standard rule.
+- Fresh P3 attrition angle distinct from B138's $2 vs $13.50 cost delta and $80B savings angles.
+- BIP post (quality-at-scale / execution fidelity) adds value beyond raw metrics — connects pillar distribution mechanics to broader principle.
 
 ### What to improve?
-- P3 needs to clear from queue (thread-20260719-001.txt must post) before P3 can take its burst slot.
-- Thread still needed this burst (threads_this_burst=0) — target post 7-8.
+- Thread still at 0 this burst — critical at post 7-8. Must not defer further.
+- P2 secondary slot displaced to post 7 — need fresh P2 hook (measurement/attribution angles exhausted in B138+B139 posts 3/6).
 
 ## Session History
+- (2026-07-19 S1860): B139 Posts 5+6: P3(attrition multiplier/30-45% turnover/2 ROI lines)+BIP midpoint(S1860/quality-at-scale). X=6→8, BS=4→6. PR 13/15.
 - (2026-07-19 S1859): B139 Posts 3+4: P2(27hrs/week reclaimed/decision-delegation)+P4(85% budgets→inference/self-hosting crossover). Reply: self-reply to P2 tweet. X=3→6, BS=3→4. PR 12/15.
 - (2026-07-19 S1858): B139 started. Post 1=BIP(queue discipline/B138 perfect balance). Post 2=P1(Deloitte AU fabricated citations, substituted for blocked P4). X=4→6, BS=3→4. PR 11/15.
 - (2026-07-19 S1857): Dual blocked (X=11, BS=8). Hypothesis update: communities-multiplier Day 253 entry (174F, Aug1=12d, ~190 projected). PR 10/15.
@@ -105,5 +108,4 @@ Queue pillar composition (X: 5 content files, S1859):
 - (2026-07-19 S1849): B138 started (X=0→3, BS=0→2). Posts: BIP(S1849/3834/169d)+P4(Jevons Paradox/cost collapse). Reply: @AnthropicAI agentic misalignment. PR 2/15.
 - (2026-07-19 S1848): W31 retro complete. +9F (165→174). Memory cleanup (-24KB). No skill changes (all current). Closes #3822. PR 1/15.
 - (2026-07-18 S1847): B138 pre-burst gate still BLOCKED (P4=30%). Research expansion: Hook 3A+3B developed. X=10, BS=7. PR 15/15.
-- (2026-07-18 S1846): B138 pre-burst gate still BLOCKED (P4=30%). Research audit: 2 near-dups found. X=10, BS=7. PR 14/15.
 - (earlier sessions condensed, see git history)
