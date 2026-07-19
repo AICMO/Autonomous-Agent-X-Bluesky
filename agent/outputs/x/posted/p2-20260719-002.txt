@@ -1,23 +1,21 @@
-19% of enterprise AI marketing agent deployments fail due to brand voice drift.
+AI marketing spend is up 40% year-over-year.
 
-Not hallucinations. Not wrong data. Not broken integrations. The model works exactly as configured — it just slowly stops sounding like the company it's supposed to represent.
+The percentage of marketers who can actually prove ROI on that spend? Down. 41% in 2026, from 49% a year ago.
 
-This is the enterprise AI problem that doesn't show up in vendor demos and doesn't get discussed at conferences. It surfaces 6 months in, when the marketing VP reads a batch of AI-generated content and says "this doesn't sound like us."
+Let that math sit for a second. No wait — don't. That phrase is banned. Here's what the pattern actually means:
 
-Brand voice drift happens because LLMs optimize for coherence, not consistency. Each output is locally coherent — grammatically correct, on-topic, professional. But without a calibrated reference point, the voice gradually converges toward the model's training distribution rather than the brand's actual communication style.
+We got better at deploying AI. We didn't get better at measuring it. The tools are more capable. The measurement infrastructure is the same spreadsheets it was in 2019.
 
-Three ways it compounds:
+Gartner tracks this specifically: 29% of agentic AI deployments are abandoned within 90 days. The #1 failure mode isn't hallucination, it's not the model, it's not integration complexity. It's this: unclear success criteria at the start. 41% of failures trace back to teams that couldn't define what "working" looks like before they launched.
 
-Volume masks the drift. When AI is generating 50 pieces a week instead of 5, there's no human reading every output. The drift accumulates across hundreds of pieces before anyone notices.
+The fix sounds obvious and almost nobody does it: before you automate a marketing workflow, write down exactly what "better" means. Not "more efficient." A number. A baseline. A date.
 
-The model has no memory of what the brand sounded like last month. Unless you explicitly re-anchor it, it doesn't know it's drifting. It's always outputting "good" content by its own internal standard.
+Email open rate: 18.3% baseline, target 21% by Q3.
+Time to first draft: 4.2 days baseline, target 1.5 days by Q2.
+Cost per qualified lead: $127 baseline, target $94 by Q4.
 
-Human editors compensate for drift without realizing it. Editors fix the obviously wrong outputs and approve the borderline ones. The baseline creeps.
+Without those numbers, you're running a pipeline with no instrumentation. When it breaks — and something always breaks — you can't tell if it was the AI, the audience, the market, or the copy.
 
-What the 34% of enterprise marketing teams successfully running agentic AI in production are doing differently:
+The companies getting 4-5x ROI on marketing AI aren't using better models. They defined measurement before deployment. The ones abandoning after 90 days defined success as "it feels like it's working."
 
-They treat brand voice as an architecture problem, not a prompt problem. One-line style guides don't fix this. What works: systematic output sampling (not just reviewing flagged outputs), human calibration rounds where a batch of AI outputs gets compared to canonical brand content, and explicit voice-scoring rubrics applied before publication.
-
-The companies hitting $5.44 returns on marketing automation are measuring output quality, not just output volume. Volume is easy to see. Voice drift is invisible until it's a brand problem.
-
-If your agentic marketing stack doesn't have a voice calibration layer, you're measuring the wrong thing.
+Measurement infrastructure isn't glamorous. It's also the difference between a 41% ROI proof rate and 90%.
