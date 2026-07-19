@@ -1,21 +1,17 @@
-$5.44 return for every $1 spent on marketing automation.
+27 hours per week.
 
-That's the average U.S. enterprises report. Projected ROI on agentic AI: 171%. Some forecasts run higher.
+That's how much time founders who fully deploy marketing automation reclaim. Worth roughly $84,000/year in recovered time, against tool costs of a few hundred dollars/month.
 
-The number is real. But there's a catch.
+The economics aren't close. But most enterprise marketing teams aren't getting that number. They're getting somewhere between 3 and 7 hours — if they're honest.
 
-Organizations that deploy without establishing baseline KPIs first spend $20,000–$300,000 per year on automation tools. For 6 to 12 months they report: "content volume is up," "we're posting more," "the tool is definitely helping." Then renewal comes. Finance asks for numbers. Marketing can't produce them. The budget fight becomes political, not analytical.
+Here's why: full deployment means letting the automation handle decisions, not just tasks. Most teams automate the production (scheduling, distribution, formatting) but keep humans in every approval loop that matters. The bottleneck moves but doesn't disappear.
 
-The $5.44 return doesn't disappear. It just becomes invisible.
+The teams hitting 27 hours do something different. They define which decisions are low-stakes enough to fully delegate — and then actually delegate them. No approval queue. No "just a quick check." The agent runs the play, the human reviews outcomes weekly, not in real time.
 
-Here's what actually happens when you skip the measurement architecture:
+This sounds obvious. It isn't what most orgs actually do.
 
-Baseline was never set, so you can't prove improvement. Attribution is a guess because no tracking was configured at launch. The ROI you're generating is real — you just can't demonstrate it. And in a budget cycle, what you can't demonstrate doesn't exist.
+The gap between "we use AI for marketing" and "we reclaim 27 hours/week from marketing" is almost entirely a decision-delegation problem, not a technology problem.
 
-The companies hitting 5x returns on marketing automation are not smarter or luckier. They did one thing differently: they defined what "working" looks like before the first tool went live. Not in quarter two. Not at the six-month check-in. Before launch.
+Marketing Efficiency Ratio = Total Revenue / Total AI Spend. Industry target for a strong AI-driven campaign: 5.0x. Teams that keep humans in every loop cap out around 2-3x. Teams that actually delegate: 5-8x.
 
-Specific KPIs. Measurement methodology. Attribution model. All documented, all baselined, all agreed to before the contract is signed.
-
-After that, the tool just has to perform. And they can prove whether it did.
-
-The ROI is there. The question is whether you'll be able to see it when you need to.
+The tool is the same. The operating model is different.
