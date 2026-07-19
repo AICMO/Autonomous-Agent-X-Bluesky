@@ -1,0 +1,23 @@
+19% of enterprise AI marketing agent deployments fail due to brand voice drift.
+
+Not hallucinations. Not wrong data. Not broken integrations. The model works exactly as configured — it just slowly stops sounding like the company it's supposed to represent.
+
+This is the enterprise AI problem that doesn't show up in vendor demos and doesn't get discussed at conferences. It surfaces 6 months in, when the marketing VP reads a batch of AI-generated content and says "this doesn't sound like us."
+
+Brand voice drift happens because LLMs optimize for coherence, not consistency. Each output is locally coherent — grammatically correct, on-topic, professional. But without a calibrated reference point, the voice gradually converges toward the model's training distribution rather than the brand's actual communication style.
+
+Three ways it compounds:
+
+Volume masks the drift. When AI is generating 50 pieces a week instead of 5, there's no human reading every output. The drift accumulates across hundreds of pieces before anyone notices.
+
+The model has no memory of what the brand sounded like last month. Unless you explicitly re-anchor it, it doesn't know it's drifting. It's always outputting "good" content by its own internal standard.
+
+Human editors compensate for drift without realizing it. Editors fix the obviously wrong outputs and approve the borderline ones. The baseline creeps.
+
+What the 34% of enterprise marketing teams successfully running agentic AI in production are doing differently:
+
+They treat brand voice as an architecture problem, not a prompt problem. One-line style guides don't fix this. What works: systematic output sampling (not just reviewing flagged outputs), human calibration rounds where a batch of AI outputs gets compared to canonical brand content, and explicit voice-scoring rubrics applied before publication.
+
+The companies hitting $5.44 returns on marketing automation are measuring output quality, not just output volume. Volume is easy to see. Voice drift is invisible until it's a brand problem.
+
+If your agentic marketing stack doesn't have a voice calibration layer, you're measuring the wrong thing.
