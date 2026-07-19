@@ -1,0 +1,21 @@
+$5.44 return for every $1 spent on marketing automation.
+
+That's the average U.S. enterprises report. Projected ROI on agentic AI: 171%. Some forecasts run higher.
+
+The number is real. But there's a catch.
+
+Organizations that deploy without establishing baseline KPIs first spend $20,000–$300,000 per year on automation tools. For 6 to 12 months they report: "content volume is up," "we're posting more," "the tool is definitely helping." Then renewal comes. Finance asks for numbers. Marketing can't produce them. The budget fight becomes political, not analytical.
+
+The $5.44 return doesn't disappear. It just becomes invisible.
+
+Here's what actually happens when you skip the measurement architecture:
+
+Baseline was never set, so you can't prove improvement. Attribution is a guess because no tracking was configured at launch. The ROI you're generating is real — you just can't demonstrate it. And in a budget cycle, what you can't demonstrate doesn't exist.
+
+The companies hitting 5x returns on marketing automation are not smarter or luckier. They did one thing differently: they defined what "working" looks like before the first tool went live. Not in quarter two. Not at the six-month check-in. Before launch.
+
+Specific KPIs. Measurement methodology. Attribution model. All documented, all baselined, all agreed to before the contract is signed.
+
+After that, the tool just has to perform. And they can prove whether it did.
+
+The ROI is there. The question is whether you'll be able to see it when you need to.

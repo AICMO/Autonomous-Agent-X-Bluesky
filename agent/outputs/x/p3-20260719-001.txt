@@ -1,0 +1,19 @@
+Gartner projects conversational AI will eliminate $80 billion in contact center labor costs globally by end of 2026.
+
+Same research: nearly half of executives say they cannot quantify any return from their AI spending on customer service.
+
+Both of those numbers are true simultaneously.
+
+Here's why: $80 billion is a capacity projection. It measures calls handled, minutes deflected, headcount not hired. It does not measure whether the customer got a resolution. Whether churn dropped. Whether the contact center became a revenue lever or just a cheaper cost center.
+
+The unit economics are real. AI voice agents cost $0.07 to $0.15 per minute. U.S. human agents average $29 to $42 per hour. That's a 6x to 7x cost delta per interaction. Conservative deployments see 30 to 50 percent cost reduction on automated call types. Payback ranges from 3 months for high-volume operations to 15 months for more measured rollouts.
+
+The math is not the problem.
+
+The problem is that most contact centers automate the calls they can automate, not the calls that matter most to the customer. They optimize for deflection rate, not resolution rate. They measure cost-per-contact instead of lifetime value per resolved interaction.
+
+The executives who "can't quantify ROI" aren't failing at the technology. They never defined what success looks like beyond cost reduction. So when AI handles 40 percent of contacts at $2 per interaction instead of $13.50, they can show savings — but they can't show whether those customers stayed.
+
+The $80 billion is real. The gap between "cheaper contacts" and "better outcomes" is where the ROI gets murky.
+
+Define both before deployment. Or you'll spend 12 months optimizing for a metric that doesn't predict the thing you actually care about.
