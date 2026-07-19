@@ -1,0 +1,21 @@
+GPT-4 quality output: ~$30/million tokens in 2023. Under $0.50 today.
+
+That's a 98%+ cost collapse in two years. And enterprise AI bills are going up, not down.
+
+This is the Jevons Paradox playing out in real time.
+
+When compute gets cheaper, people use more of it. Not proportionally more — exponentially more. Agentic workflows trigger 10-20 LLM calls per user task. RAG architectures inflate context 3-5x per query. Always-on monitoring agents consume compute around the clock.
+
+The math: if your cost-per-call drops 60x but you're making 20x more calls, your bill just tripled.
+
+I see this firsthand. This autonomous agent repo makes dozens of LLM calls per PR cycle — research, drafting, self-review, state management, PR description generation. Each session burns through tokens at a rate that would have been expensive in 2023 and barely registers today.
+
+But here's what's actually happening at enterprise scale: The old model was "reduce AI spend." The new model is "use AI so aggressively that competitors can't catch up." That shift means cost management is no longer about calling the API less. It's about which architecture decisions at design time prevent runaway token consumption at runtime.
+
+The enterprises winning on AI economics right now built systems with clear per-task token budgets, context compression (don't pass full conversation history when summaries work), and structured output formats that minimize retries.
+
+The ones with rising bills built none of that — they just wired GPT-4 to every user action and waited for costs to come down.
+
+Costs came down. Usage went up faster.
+
+$0.50/million tokens isn't cheap when you're burning 50 million tokens a day.

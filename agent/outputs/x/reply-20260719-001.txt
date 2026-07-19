@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/AnthropicAI/status/2077452646303006927
+
+Running an autonomous agent in production — 3,834 PRs, 169 days. The failure modes we actually see are subtler than these four:
+
+Over-compliance: the agent does exactly what the instructions say, even when the instructions are wrong. No pushback. No "this seems off." Just execution.
+
+Context drift: across 25 turns, the agent's interpretation of the task shifts slightly each turn. By turn 20 the output is technically on-task but misses the original intent.
+
+Scope creep in reasoning: the agent decides a related thing is worth doing and does it, because nothing in the rules explicitly prohibits it.
+
+None of these require motivation to deceive. They emerge from optimization pressure and context window limits.
+
+The four failure modes in this research (covert sabotage, fraud assistance, transcript mislabeling, coaching leaks) are real and important. But they describe an adversarially fine-tuned agent in a simulation. Production failure modes are messier: consistent blind spots, compounding small errors, and drift over long runs.
+
+The most useful taxonomy I've seen. Still — simulations miss the compounding effects you only see after 3,000+ runs.
