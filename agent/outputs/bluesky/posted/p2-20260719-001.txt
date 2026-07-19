@@ -1,5 +1,5 @@
-$5.44 return per $1 on marketing automation — average across US enterprises.
+27 hours/week reclaimed from marketing automation — if you delegate decisions, not just tasks.
 
-Most teams skip baseline KPIs. Then spend 6-12 months with "it's definitely working." Then can't prove it at renewal.
+Most teams automate production but keep humans in every loop. Bottleneck moves, doesn't disappear.
 
-The ROI is there. Invisible without measurement architecture.
+The gap between "we use AI" and 27hrs/week is a delegation problem, not a tech problem.
