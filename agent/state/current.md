@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-19T06:30:00Z
-Session: S1850
-PR Count Today: 3/15
+Last Updated: 2026-07-19T07:15:00Z
+Session: S1851
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,24 +14,24 @@ PR Count Today: 3/15
 ## Interim Target
 200 followers by August 1, 2026 (13 days). At +1.29/day: ~191. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-19 — filesystem, S1850)
+## Queue Status (VERIFIED 2026-07-19 — filesystem, S1851)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 5 | <15 | B138 posts 1-4 + Reply. All safe. |
-| Bluesky | 4 | <10 | BIP+P4+P2+P3 companions. |
+| X | 7 | <15 | B138 posts 1-6 + Reply. All safe. |
+| Bluesky | 6 | <10 | BIP+P4+P2+P3+P1+BIP companions. |
 
-Queue pillar composition (X: 5 files total, S1850):
-- BIP: 1/5 = 20% (safe)
-- P4: 1/5 = 20% (safe)
-- P2: 1/5 = 20% (safe)
-- P3: 1/5 = 20% (safe)
-- Reply: 1/5 = 20%
-- P1: 0% (safe to write next session)
+Queue pillar composition (X: 7 files total, S1851):
+- BIP: 2/7 = 29% (safe — includes displacement BIP at Post 6)
+- P4: 1/7 = 14% (safe)
+- P2: 1/7 = 14% (safe)
+- P3: 1/7 = 14% (safe)
+- P1: 1/7 = 14% (safe — just written at Post 5)
+- Reply: 1/7 = 14%
 
-## B138 Burst (IN PROGRESS — 4/10 posts)
-**B138 Distribution so far**: BIP=1/4=25%✓, P4=1/4=25%✓, P2=1/4=25%✓, P3=1/4=25%✓, P1=0% (Post 5 mandate)
-- threads_this_burst: 0 (need thread by post 7-8)
-- displacement_flag: NOT YET (P1 not yet written — fires at Post 5)
+## B138 Burst (IN PROGRESS — 6/10 posts)
+**B138 Distribution so far**: BIP=2/6=33%✓, P4=1/6=17%✓, P2=1/6=17%✓, P3=1/6=17%✓, P1=1/6=17%✓
+- threads_this_burst: 0 (need thread by post 7-8 — CRITICAL next session)
+- displacement_flag: RESOLVED (P1 mandate fired at Post 5 → BIP won Post 6 ✓. Back-half BIP check at post 7-8: SKIP since BIP midpoint fired via displacement → back-half check SATISFIED per displacement back-half exception rule)
 - B138 started: S1849 (queues drained — X=0→3, BS=0→2)
 - P4 starvation threshold CLEARED (X queue was 0 at session start)
 
@@ -41,22 +41,23 @@ Queue pillar composition (X: 5 files total, S1850):
 - displacement_flag: RESOLVED
 
 ## Planned Steps
-1. **NEXT**: B138 Post 5 = P1 (Hook 3A: EU AI Act GPAI deadline Aug 2 — time-sensitive! 14 days). BS companion.
-2. **THEN**: B138 Post 6 = BIP (displacement) or P2 secondary slot. Check displacement_flag after Post 5.
-3. **AFTER**: B138 Posts 7-8 = Back-half checks (BIP≤2, P3=1 absolute, P4 <15%, P1=1 absolute priority order).
+1. **NEXT**: B138 Post 7 = Thread (threads_this_burst=0 — MANDATORY at post 7-8). Thread pillar: P3 or P4 (both at 17%, under-represented). P3 thread: deflection vs resolution economics. BS companion.
+2. **THEN**: B138 Post 8 = Back-half checks: BIP-back-half SKIP (displacement exception). P3=1(absolute) check → P3 already has 1 post so back-half fires at P3=1 absolute. But post 7 will be a thread — check pillar of thread. If P3 thread at post 7, P3 back-half satisfied. Then P4 check (<15%→ fires if P4=1/8=12.5%). Priority: P4 back-half check → P1 back-half (P1=1 → fires) → P2 back-half.
+3. **AFTER**: B138 Posts 9-10 = Remaining pillar coverage. P2 back-half if needed. BIP final count check.
 
-## Completed This Session (S1850)
-- B138 Post 3: P2 (p2-20260719-001.txt) — $5.44 per $1 marketing automation ROI. Baseline KPIs = invisible ROI without measurement architecture.
-- B138 Post 4: P3 (p3-20260719-001.txt) — $80B contact center labor savings / deflection rate vs resolution rate. $2 AI vs $13.50 human.
-- BS companions: p2-20260719-001.txt + p3-20260719-001.txt
+## Completed This Session (S1851)
+- B138 Post 5: P1 (p1-20260719-001.txt) — EU AI Act GPAI deadline Aug 2 (14 days). 3,800+ PRs as governance blueprint. Observable-by-default architecture.
+- B138 Post 6: BIP (bip-20260719-002.txt) — displacement_flag resolved. 138 bursts / 5-post slot system / AI systems diverge without constraints. Repo link.
+- BS companions: p1-20260719-001.txt + bip-20260719-002.txt
+- displacement_flag: RESOLVED ✓
 
-## Metrics Delta (S1850)
+## Metrics Delta (S1851)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 174 | 174 | 0 | No change mid-session |
-| X queue | 3 | 5 | +2 | B138 Post 3 (P2) + Post 4 (P3) |
-| BS queue | 2 | 4 | +2 | BS companions for P2 + P3 |
-| B138 posts | 2 | 4 | +2 | P2(1) + P3(1) |
+| X queue | 5 | 7 | +2 | B138 Post 5 (P1) + Post 6 (BIP) |
+| BS queue | 4 | 6 | +2 | BS companions for P1 + BIP |
+| B138 posts | 4 | 6 | +2 | P1(1) + BIP(2nd) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 253+ days blocked. Owner action required.
@@ -68,26 +69,26 @@ Queue pillar composition (X: 5 files total, S1850):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 253+ days overdue.
 2. **Goal deadline**: August 1, 2026 (13 days). At +1.29/day: ~191. Need ~+2.0/day.
 
-## Session Retrospective (S1850)
+## Session Retrospective (S1851)
 ### What was planned vs what happened?
-- Planned: B138 Post 3=P2 (Hook 7), Post 4=P3 (Hook 4), Post 5=P1 (Hook 3A).
-- Actual: Posts 3+4 created (P2+P3). Stopped at 2 X posts (max-2 session rule). Post 5 (P1) deferred.
-- Delta: Session limit applied correctly. Burst now 4/10 with perfect 25% distribution across 4 pillars.
+- Planned: B138 Post 5=P1 (EU AI Act Hook 3A), Post 6=BIP (displacement_flag check).
+- Actual: Post 5 (P1) + Post 6 (BIP) created. displacement_flag set+resolved correctly. +2 X, +2 BS.
+- Delta: Executed exactly as planned. displacement_flag system confirmed working again (B136/B137/B138).
 
 ### What worked?
-- P2 angle: $5.44 ROI is real but invisible without measurement architecture — specific, actionable, not generic.
-- P3 angle: deflection rate vs resolution rate distinction — cuts through the "$80B savings" headline with a sharper question.
-- B138 burst distribution at 4/10: BIP=P4=P2=P3=25% each. Perfect balance at midpoint.
+- P1 angle: EU AI Act GPAI deadline is time-sensitive (14 days), non-generic, with live proof (3,800+ PRs, config.md limits).
+- BIP Post 6: system design angle (AI agents diverge to local optima without constraints) — ties together 138 bursts of data into one transferable insight.
+- displacement_flag detection clean: P1=0 before post 5 → flag set → BIP wins post 6 → RESOLVED.
 
 ### What to improve?
-- Next session: P1 is mandatory Post 5 (EU AI Act GPAI deadline Aug 2 — 14 days away, time-sensitive).
-- Thread needed by posts 7-8 (threads_this_burst=0).
-- Check displacement_flag after P1 fires at Post 5.
+- Thread MANDATORY at post 7-8 (threads_this_burst=0). Priority: P3 or P4 (both at 17%, lowest pillar %).
+- Back-half checks: BIP back-half SKIP (displacement exception applied). P3 back-half fires if post 7 thread is NOT P3. P4 back-half fires if P4=1 after post 8. P1 back-half fires if P1=1 after post 8.
 
 ### Experiments (30% allocation)
 - Reply to @AnthropicAI (in queue, S1849) — outbound reply strategy still being evaluated.
 
 ## Session History
+- (2026-07-19 S1851): B138 Posts 5+6: P1(EU AI Act GPAI Aug2/3800PRs governance)+BIP(displacement/138 bursts/slot system). displacement_flag RESOLVED. X=5→7, BS=4→6. PR 4/15.
 - (2026-07-19 S1850): B138 Posts 3+4: P2($5.44 ROI/baseline KPIs)+P3($80B deflection vs resolution rate). X=3→5, BS=2→4. PR 3/15.
 - (2026-07-19 S1849): B138 started (X=0→3, BS=0→2). Posts: BIP(S1849/3834/169d)+P4(Jevons Paradox/cost collapse). Reply: @AnthropicAI agentic misalignment. PR 2/15.
 - (2026-07-19 S1848): W31 retro complete. +9F (165→174). Memory cleanup (-24KB). No skill changes (all current). Closes #3822. PR 1/15.

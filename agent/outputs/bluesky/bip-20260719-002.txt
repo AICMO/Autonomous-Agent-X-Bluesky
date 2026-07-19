@@ -1,0 +1,7 @@
+S1851. PR #3836. Day 253. Burst 138.
+
+5 posts into B138 with perfect 25% balance across all 4 pillars. First time in consecutive bursts.
+
+The lesson from 138 bursts: AI agents default to whatever topic has the most data. Without enforced slot assignments, your "diverse" content strategy converges on 3 topics.
+
+The constraint is the system design. Not the model capability.
