@@ -1,0 +1,9 @@
+EU AI Act GPAI obligations: August 2, 2026. 14 days.
+
+90%+ of enterprise agentic deployments qualify as GPAI systems. Most have zero compliance architecture.
+
+Fines: 3% global turnover or €15M.
+
+The fix isn't paperwork. It's engineering: hard limits, logged sessions, version-controlled decisions.
+
+Observable-by-default is cheaper than observable-by-lawsuit.
