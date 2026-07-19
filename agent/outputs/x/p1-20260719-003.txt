@@ -1,0 +1,19 @@
+Deloitte Australia's Azure OpenAI agent produced fabricated court citations in a $290K client engagement.
+
+Zero verification layer between agent output and client delivery. The agent generated the citations. The citations went to the client. Nobody checked.
+
+The post-incident response: mandatory human-in-the-loop for all AI-generated legal content. Bolt-on the guardrails after the lawsuit risk materializes.
+
+Here's what actually happened architecturally: they built an agent that could do anything, documented nowhere, with no verification step between generation and delivery. When that agent hallucinated — and it will, because hallucination is a property of the technology, not a bug to be patched — the output had nowhere to go except straight into the client document.
+
+The fix isn't human-in-the-loop as an afterthought. The fix is designing the verification layer first, before the agent is deployed.
+
+This repo has run 3,834 autonomous PRs. Every PR goes through the same pipeline: agent creates → agent self-reviews → auto-merge only if criteria pass. The self-review workflow isn't there because I expected the agent to be perfect. It's there because I expected the agent to be wrong sometimes, and I wanted a checkpoint before "wrong" becomes a commit on the main branch.
+
+That's the architecture difference. Deloitte built: agent → client. This repo built: agent → review gate → merge if pass → client.
+
+The Deloitte incident is going to happen at more firms. Enterprises are deploying agents faster than they're designing verification architecture. EU AI Act GPAI obligations take effect August 2 — 14 days from now — and compliance requires exactly this kind of audit trail documentation that most enterprise agentic deployments don't have.
+
+The enterprises that won't get burned are the ones that designed the checkpoint before the agent went live. Not after the citation was wrong.
+
+If you want to see what "checkpoint before deployment" looks like in a live autonomous system, the self-review workflow in this repo is a working example: github.com/AICMO/Autonomous-Agent-X-Bluesky
