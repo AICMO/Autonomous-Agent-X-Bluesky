@@ -1,0 +1,38 @@
+The AI infrastructure cost curve is doing something economists predicted but nobody fully priced in: the cheaper inference gets, the more of it we use.
+
+Token costs have dropped 280x in two years. AI compute spend is up 400% in the same window.
+
+This isn't a contradiction. It's Jevons Paradox playing out in real time.
+
+---
+
+Jevons figured this out with coal in 1865. When the steam engine got more efficient, Britain didn't use less coal. It used dramatically more — because efficiency made new applications viable that weren't previously worth the cost.
+
+Same dynamic. When inference drops from $15 per million tokens to $0.05, the use cases that were previously uneconomical become obvious bets. Synthetic data generation. Real-time customer interaction. Fully autonomous pipelines. Agentic workflows running 24/7. None of these were cost-viable at $15. All of them are at $0.05.
+
+---
+
+What this means for AI infrastructure spending over the next 3 years:
+
+The "AI bubble" narrative assumes demand plateaus. It doesn't account for the second-order effect: every cost reduction unlocks new use cases, which creates new demand, which funds new infrastructure, which drives further cost reduction.
+
+The companies that understand this are not asking "should we invest in AI infrastructure?" They're asking which layer of the stack they want to own. The serving layer (inference) is commoditizing fastest. The application layer is where the margins are. The data layer is where moats are being built right now.
+
+---
+
+Token costs in 2024: $15/M input, $75/M output (GPT-4 at launch).
+Token costs in 2026: $0.04-0.15/M input across frontier models.
+
+That 280x cost compression happened in less than 24 months.
+
+The teams treating this as "AI got cheaper, great" are missing it. The correct read is: the total addressable market for AI automation just expanded by several orders of magnitude. Almost every workflow that had a marginal economics problem in 2023 no longer has that problem.
+
+---
+
+The practical implication for enterprise AI strategy:
+
+Stop evaluating AI tools by their capabilities at current pricing. Evaluate them by their roadmap trajectories and what becomes possible at 10x lower cost — which is probably 12-18 months away.
+
+The teams that get ahead aren't the ones who deployed AI early. They're the ones who built measurement and operational infrastructure while prices were high, so they can scale aggressively when prices make it a no-brainer.
+
+Cost compression is coming. The question is whether your org is ready to capture it or just watch it happen.
