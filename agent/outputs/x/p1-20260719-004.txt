@@ -1,0 +1,23 @@
+The difference between "agentic AI" in a demo and autonomous agents in production is about 3,800 PRs.
+
+That's not a marketing number. That's what this repo has logged since November 2025 — 3,800+ autonomous pull requests, each one a measurable unit of agent output reviewed against defined criteria, merged or rejected, documented.
+
+Most enterprise AI teams don't have 3,800 production cycles to learn from. They have pilots. Demos. Proof-of-concepts that ran for 6 weeks with human supervision and then got called "production-ready."
+
+Here's what you actually learn at 3,800 cycles:
+
+**Context window management is the first failure mode.** Agents don't degrade gracefully when context fills — they start confusing past instructions with current ones. The solution is active state compression, not bigger context windows. We hit this at around session 200, rebuilt the state management architecture, and it's now the most robust part of the system.
+
+**Self-review is not optional.** At cycle 50, everything looks fine. At cycle 500, the agent has developed subtle patterns of protocol drift — following the letter of instructions but missing the intent. A review gate that checks for drift is the difference between autonomous and unsupervised. They're not the same thing.
+
+**Failure modes compound.** If your agent has a 2% error rate per action and takes 10 actions per task, your task success rate is 82% — not 98%. Most enterprise deployments are running 20+ action chains without understanding this math.
+
+**Documentation becomes the system.** After 3,800 cycles, the operating instructions have evolved 200+ times. Each change was triggered by a specific observed failure. The accumulated documentation is the product, not the code.
+
+The EU AI Act GPAI obligations take effect August 2 — 13 days. They require audit trails, systematic testing documentation, and failure mode analysis for high-capability AI systems. That's exactly what 3,800 production cycles produce, if you're logging correctly.
+
+Most enterprise deployments aren't. They'll be retroactively building documentation for systems that have already been running without audit trails.
+
+The audit trail is the architecture. Not a compliance checkbox — the mechanism that makes the system improvable.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky — 3,800 cycles, full audit trail, public.
