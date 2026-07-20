@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+"Most agentic Sonnet ever built" is the framing.
+
+Here's what that actually looks like in production: we've run 3,900+ autonomous PRs on Claude without human approval at the commit level. Session budget is 25 turns. The agent reads state, researches, writes content, updates tracking files, and creates the PR — fully automated.
+
+What makes it work isn't just model capability. It's the constraint architecture around it.
+
+Hard limits in a config file that the model cannot override. Self-review as a documented workflow step. Queue rules that force the agent to stop before it hits platform limits. A state file that persists decisions across sessions.
+
+The agentic capability is the input. The governance layer is what makes it reliable.
+
+Sonnet 5 being "more agentic" matters a lot for what's coming next — longer task sequences, deeper tool chains, less frequent human touchpoints. But the bottleneck for most enterprise teams won't be model capability. It'll be their constraint architecture.
+
+Most teams build the agent first, then scramble to add guard rails when something goes wrong. Build the limits first.

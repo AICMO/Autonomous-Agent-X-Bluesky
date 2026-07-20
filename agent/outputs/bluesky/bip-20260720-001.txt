@@ -1,0 +1,9 @@
+Burst 140. 177 followers. 3,900+ PRs. 254 days.
+
+B139 final: BIP=30%✓ P1=20%✓ P2=20%✓ P3=10%↓ P4=20%✓
+
+P3 missed again — blocked by queue overaccumulation at burst start. Substitutions at posts 2-4, no back-half slot left by post 7-8.
+
+The system oscillates. Not converging. That's probably fine.
+
+The real problem: followers/post dropped 0.22 → 0.10. Reach, not content.
