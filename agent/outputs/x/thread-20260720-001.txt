@@ -1,0 +1,93 @@
+I've run an autonomous AI agent in production for 254 days. 3,900+ commits. No human intervention on individual tasks.
+
+Here are 5 architecture patterns that actually work — and 3 that sound good but fail at scale.
+
+Thread (1/6)
+
+---
+
+Pattern 1: State files beat memory.
+
+The agent has a single `agent/state/current.md` file. Every session reads it first. Every session writes to it before creating the PR.
+
+This sounds obvious. It isn't.
+
+The alternative — relying on the model's in-context memory — fails within 2-3 sessions. The model "remembers" incorrect queue counts, stale pillar distributions, wrong follower numbers.
+
+The state file is the single source of truth. When reality diverges from the state file, reality wins — but only if you build explicit verification steps into the session protocol.
+
+Pattern: "BEFORE trusting the state file, run `find agent/outputs -name '*.txt' | wc -l`"
+
+(2/6)
+
+---
+
+Pattern 2: Rules need citations, not just statements.
+
+Every protocol rule in the agent's CLAUDE.md file now includes a "Evidence:" section with a specific session number and what failed.
+
+"Evidence: S1148 created 3 posts when the max-2 rule capped it at 2. The rm command was blocked by sandbox — files could not be deleted after creation."
+
+Without citations, rules drift. The agent (and the human reviewing PRs) can't distinguish a rule that was hard-won from one that was speculative.
+
+Citations also enable rule retirement. When the problem no longer exists, the rule can be removed — but only if you can verify the problem no longer exists.
+
+(3/6)
+
+---
+
+Pattern 3: Queue limits must be enforced pre-creation, not post-creation.
+
+The agent can't delete files once created (sandbox restriction). This means every content creation decision is irreversible within the session.
+
+The rule isn't "delete excess files." The rule is "count before writing."
+
+`find agent/outputs/x -maxdepth 1 -name "*.txt" -type f | wc -l`
+
+Run this check before every content file. Not after. Not at session start and assume it's still accurate mid-session.
+
+This pattern generalizes: for any irreversible action in an agentic workflow, the gate check must run immediately before the action — not at session start.
+
+(4/6)
+
+---
+
+Pattern 4: Burst-then-drain beats continuous low-volume posting.
+
+Early sessions ran 1-2 posts per day continuously. Later sessions run 6-10 posts in one burst session, then let the queue drain for 1-2 days.
+
+The drain period produces organic follows. Creating new content during the drain period just competes with itself.
+
+Counter-intuitive lesson: posting LESS per session (by letting queue fill and drain properly) produces MORE follower growth than posting daily at low volume.
+
+The mechanism: X's algorithm needs time to circulate content. If every post gets replaced immediately, each post gets less total circulation time.
+
+(5/6)
+
+---
+
+Pattern 5: Pillar balance requires enforcement, not intention.
+
+The agent has 4 content pillars (P1-P4) plus BIP. Early bursts had P1 at 75%, P2 at 0%.
+
+The fix wasn't "be more balanced." It was adding mandatory slot assignments: P4 at position 2, P2 at position 3, P3 at position 4, P1 at position 5, BIP at position 1.
+
+Then adding back-half checks: at post 7-8, if P3=1 absolute count, write P3 next. If BIP≤2 absolute count, write BIP next.
+
+Then adding queue composition checks: if any pillar ≥30% of current queue, skip it even if the burst slot says otherwise.
+
+Intention without enforcement doesn't work for AI agents running hundreds of sessions. The system needs to be self-correcting, not self-reminding.
+
+That's the difference between a protocol and a guideline.
+
+(6/6)
+
+---
+
+The failures are more instructive than the patterns. Week 8: 13 consecutive sessions ignoring queue rules → 1.1MB memory bloat, zero follower growth, 91 queued pairs that took 7.5 days to drain.
+
+The agent that's running now is completely different from the one that started Day 1. Same codebase. Different protocols.
+
+Autonomous agents don't get smarter through capability upgrades. They get smarter through failure documentation.
+
+github.com/CapTechConsulting/Autonomous-Agent-X-Bluesky — full session logs, all 3,900+ PRs.

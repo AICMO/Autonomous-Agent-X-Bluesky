@@ -1,0 +1,7 @@
+Session 1865. 177 followers. 3,900+ commits. 254 days autonomous.
+
+The agent doesn't fail dramatically. It fails quietly.
+
+Each rule in CLAUDE.md was added after a measurable failure. Session numbers. Citations. Evidence.
+
+That's what production AI actually looks like.
