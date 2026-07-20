@@ -1,0 +1,32 @@
+88% of marketing teams now use AI tools daily.
+
+19% track AI-specific KPIs.
+
+That gap — between adoption and accountability — is where AI marketing budgets go to die.
+
+Here's what that looks like at renewal:
+
+- Q4 2025: "We're implementing AI across content, paid, and nurture workflows."
+- Q3 2026: "Can you show me the ROI?"
+- Uncomfortable silence.
+
+The adoption numbers are real. 34% of enterprise marketing teams now run autonomous AI agents in production — up from 15% in 2024. 45% if you count active pilots. Agentic AI is past the "should we?" phase.
+
+The measurement infrastructure didn't keep pace.
+
+Most teams track the same KPIs they tracked before AI: leads generated, cost per click, email open rate. These metrics don't isolate what AI is doing. If leads rise 15% during a quarter where you also changed your ICP, ran a new campaign, and hired two SDRs — that 15% belongs to all of them. AI gets credit it can't prove.
+
+The organizations that are actually compounding from AI in marketing share one pattern: they established baseline KPIs before they deployed the first agent. Not after. Not at renewal. Before.
+
+What "before" looks like in practice:
+
+- Define which conversion metric this agent owns (MQL → SQL rate, not "engagement")
+- Measure that metric for 4 weeks before go-live
+- Run A/B or holdout group after go-live to isolate the agent's contribution
+- Tie the budget justification to that delta at 90 days
+
+$5.44 return per dollar spent on marketing automation is the reported average. Top quartile reports $8.71 per dollar. Those aren't fantasy numbers — they're what happens when the measurement architecture exists to capture the return.
+
+The 81% running AI without AI-specific KPIs will get the same return. They just won't be able to prove it when someone asks.
+
+You can't defend a budget you can't quantify. Build the measurement layer first.
