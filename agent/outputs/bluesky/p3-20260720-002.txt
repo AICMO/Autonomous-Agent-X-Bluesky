@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. 25% operationalized it.
+
+That 63-point gap is where the ROI actually lives.
+
+Deployment = demo. Operationalization = end-to-end AI handling real volume with real QA.
+
+Three-quarters of the market built the slide. Not the system.

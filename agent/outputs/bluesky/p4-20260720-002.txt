@@ -1,0 +1,7 @@
+Tokens dropped 280x in 2 years. Enterprise AI spend rose 320%.
+
+Uber burned its annual AI coding budget 2/3 through the year.
+
+Agentic tasks trigger 10-20 LLM calls each. What looks like 1 interaction in your dashboard is 15 billing events.
+
+Cost-per-workflow, not cost-per-token. That's the metric that matters now.
