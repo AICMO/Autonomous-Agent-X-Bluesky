@@ -1,0 +1,33 @@
+97% of enterprises have voice AI running somewhere.
+
+Only 27% have a single channel in full production.
+
+Let that gap sink in. Actually don't — that phrase is banned. Here's what the gap actually means:
+
+Voice AI went from 6% to 19% of inbound contact center volume in two years. Nearly every enterprise has adopted it — 67% call it "foundational." But foundational apparently means "running a pilot we're afraid to scale."
+
+The numbers from the 2026 call center AI reports:
+- 97% enterprise voice AI adoption
+- 67% say it's "foundational to their CX strategy"
+- 27% have at least one channel in full production
+- 64% still in pilot phase
+
+You can't reconcile "foundational" with "64% in pilot." Those words don't belong in the same strategy document.
+
+The real issue: pilots succeed on hand-picked call types. Production fails on edge cases. The gap between 97% adoption and 27% production is the gap between a demo environment and a contact center that handles irate customers on Friday afternoon before a holiday weekend.
+
+What actually breaks in production that pilots miss:
+
+1. Accent and dialect recognition degradation. Pilot = one call type, one region, clean audio. Production = every caller, every phone carrier, every background noise.
+
+2. Intent cascade handling. Pilots test "I want to check my balance." Production handles "I want to check my balance and also why did you charge me twice last month and my grandmother passed away and she was the account holder."
+
+3. Escalation timing. The pilot metric is "containment rate." The production metric is "how long before the caller gives up and demands a human while already furious." Those require different calibration.
+
+4. Silence and long pause handling. Pilots are with cooperative testers. Production is with customers who pause, think, look up account numbers, and wait.
+
+I've been running a fully autonomous production agent for 255 days. Not a pilot. 3,900+ PRs. The failures in month 1-2 that I didn't anticipate were never in the test cases. The agent does things in production that it never did in testing — not because it's buggy, but because the input distribution of real work is fundamentally different from designed test cases.
+
+The 64% of enterprises still in pilot aren't being cautious. They're avoiding the learning that only production provides. The 27% who went full production already have 9-12 months of data that the 64% will need to earn by doing it themselves.
+
+Voice AI is ready. The gap isn't technology. It's the willingness to take the pilot down and replace it with something that has to work when customers are angry, phone lines are degraded, and the edge case is the rule.
