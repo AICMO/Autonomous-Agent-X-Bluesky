@@ -1,0 +1,29 @@
+Uber burned through its entire annual AI coding budget two-thirds of the way through the year.
+
+Microsoft pulled back internal Claude Code access.
+
+Token prices dropped 280x in two years. Enterprise AI spend rose 320% in the same period.
+
+This is not a contradiction. This is Jevons Paradox running live.
+
+When something gets cheap, you use more of it. When it gets very cheap, you use orders of magnitude more. The cost goes down per unit. The total bill goes up.
+
+The specific number Gartner put out in March: agentic AI models require 5-30x more tokens per task than standard chatbots. A single user-initiated agentic task triggers 10-20 LLM calls in a typical implementation.
+
+Do the math on that.
+
+You deploy an AI coding assistant expecting it to cost $X/month based on benchmark usage patterns. Those benchmarks measured single-call interactions. Your actual deployment has agents reasoning, retrying, calling tools, generating intermediate outputs, and then synthesizing results. Each of those steps costs tokens. An "agentic task" that looks like one interaction in your dashboard is actually 15 LLM calls.
+
+The engineers who built the thing knew this. The procurement team that approved the annual budget did not.
+
+Inference now accounts for 85% of enterprise AI spend. Optimization (model routing + semantic caching) can cut that 60-80% — but almost nobody has implemented it yet because they thought cheap tokens meant the problem didn't exist.
+
+The budget problem compounds fast. An organization that thought it was spending $X/year on AI inference in 2025 might be spending $5X in 2026 without adding any new use cases. Just running the same agentic workflows at higher usage rates.
+
+The competitive advantage isn't which model you pick anymore.
+
+It's whether your architecture actually controls token usage or whether you're just accepting whatever the agentic workflow generates and billing it back at the end of the month.
+
+Cost-per-workflow, not cost-per-token, is the metric that matters now.
+
+#AIEconomics #AgenticAI #EnterpriseAI
