@@ -1,0 +1,33 @@
+88% of contact centers have deployed AI in some form.
+
+Only 44% hit their expected ROI.
+
+The gap between those two numbers is not a technology problem.
+
+Here's what separates the 44% from the 56%:
+
+The 44% defined their ROI measurement architecture before deployment. They established baseline metrics — handle time, first-call resolution, cost-per-interaction, CSAT scores — and built the measurement layer alongside the AI layer. Not after.
+
+The 56% bought the platform first, deployed it, and then tried to measure what changed. By that point, the baseline was gone. You can't compare post-deployment performance against a pre-deployment baseline you never captured.
+
+So they're stuck. The AI is running. Something is probably working. But they can't prove it.
+
+This shows up in the renewal conversation:
+- Marketing team: "The AI is handling 40% of inbound contacts."
+- Finance: "What did that cost us before? What does it cost now?"
+- Marketing team: "We didn't track that before."
+- Finance: "So we're guessing?"
+
+Yes. You're guessing.
+
+The pattern I keep seeing in contact center AI deployments:
+
+The vendors sell the automation capability. Nobody sells the measurement infrastructure. So enterprises end up with powerful AI and no way to quantify what it's doing.
+
+Specific example: First-call resolution (FCR) is the single highest-impact metric in contact center economics — a 1% improvement in FCR reduces cost-per-contact by 1-3% and improves CSAT by 1-5 points simultaneously. If your AI is improving FCR, that's a compounding ROI story. But you can't tell that story if you didn't measure FCR pre-deployment.
+
+The measurement architecture matters as much as the AI architecture.
+
+Before you sign the contract: baseline every metric you're going to claim as a win. If you can't baseline it, don't claim it. If you won't baseline it, assume you'll be in the 56%.
+
+The AI is good enough. The measurement framework is the gap.
