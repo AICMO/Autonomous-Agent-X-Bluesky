@@ -1,0 +1,29 @@
+Everyone is scrambling for EU AI Act compliance on August 2.
+
+Most of them are scrambling for the wrong deadline.
+
+Here's what actually activates August 2 vs what got pushed to December 2027:
+
+**What's live now (August 2, 2026):**
+- Article 50 transparency obligations: if you deploy a chatbot, users must know it's AI
+- Deepfake and synthetic media labeling: mandatory disclosure on AI-generated content
+- GPAI enforcement: General Purpose AI model providers (think: companies building on frontier models at scale) are now subject to systemic risk protocols
+
+**What moved to December 2027:**
+- The entire Annex III high-risk AI system governance framework
+- Risk management documentation, technical file requirements, conformity assessments
+- Post-market monitoring obligations for high-risk applications in hiring, credit, education, critical infrastructure
+
+The Digital Omnibus provisionally agreed in May, formally endorsed by the EU Council on June 29. High-risk obligations delayed 16 months. Most compliance vendors kept marketing the August 2 high-risk deadline without updating their content.
+
+Result: organizations spent Q1-Q2 2026 building governance for August 2 obligations that won't be enforced until December 2027. And some of them still don't know that Article 50 transparency duties are live RIGHT NOW.
+
+The question worth asking before you brief your board on AI Act compliance status: which obligations does your counsel think are active today?
+
+Because if the answer is "we're tracking high-risk Annex III," your team is 16 months early on one thing and potentially in violation on another.
+
+For autonomous agent deployments specifically: the chatbot disclosure requirement is unambiguous. If an agent communicates with external users and they might reasonably believe they're talking to a human, Article 50 is live. No exemptions for enterprise internal use. The "it's an internal tool" defense doesn't hold once an agent is in any customer-facing workflow.
+
+Use the 16-month window. Build the governance architecture properly. The August 2026 deadline confusion is a signal — most organizations don't have clarity on what they're actually required to do right now vs what can wait. That gap is where compliance risk actually lives.
+
+Source: EU Digital Omnibus June 29 endorsement; insideglobaltech.com "EU AI Act Update: Timeline Relief"
