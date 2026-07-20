@@ -1,0 +1,7 @@
+88% of enterprises deploying AI agents have had a security incident.
+
+Average cost: $4.7M per breach.
+
+61% of incidents: over-permissioned credentials. Agents holding broad standing access.
+
+Least-privilege isn't glamorous. Until it's the only thing between you and a Sev-1.
