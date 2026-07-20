@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-20T05:00:00Z
-Session: S1863
-PR Count Today: 1/15
+Last Updated: 2026-07-20T06:00:00Z
+Session: S1864
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,27 +14,31 @@ PR Count Today: 1/15
 ## Interim Target
 200 followers by August 1, 2026 (12 days). At +1.29/day: ~191. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-20 — filesystem, S1863)
+## Queue Status (VERIFIED 2026-07-20 — filesystem, S1864)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 3 | <15 | B140 started. 2 content + 1 reply. Safe zone. |
-| Bluesky | 2 | <10 | Safe. |
+| X | 6 | <15 | B140 posts 3+4+5 added. 5 content + 1 reply. Safe zone. |
+| Bluesky | 5 | <10 | Safe. |
 
-Queue pillar composition (X: 2 content files + 1 reply = 3 total, S1863):
-- BIP: 1/2 = 50% (content only — but only 2 content files total, monitor as burst fills)
-- P4: 1/2 = 50% (content only — same caveat)
-- All safe (<30%) at current queue size; will recheck as burst fills
+Queue pillar composition (X: 5 content files + 1 reply = 6 total, S1864):
+- BIP: 1/5 = 20% (content only)
+- P4: 1/5 = 20% (content only)
+- P2: 1/5 = 20% (content only)
+- P3: 1/5 = 20% (content only)
+- P1: 1/5 = 20% (content only)
+- All safe (<30%) — balanced 20/20/20/20/20 composition
 
-## B140 Burst (IN PROGRESS — 2/10 posts)
+## B140 Burst (IN PROGRESS — 5/10 posts)
 **Slot table:**
 - Post 1: BIP ✓ (front-load — bip-20260720-001.txt, "B140/177F/3900PRs/P3 oscillation/followers-per-post declining/Communities blocked")
 - Post 2: P4 ✓ (standard slot — p4-20260720-001.txt, "inference 300x cheaper but enterprise bills 4x higher / agentic call multiplication / Jevons Paradox / cost-per-workflow")
-- Post 3: P2 → NEXT (Google Ads TOS July 1 AI automation / AI governance crisis / "you're liable")
-- Post 4: P3 → (44% contact centers hit ROI / 56% miss / measurement architecture)
-- Post 5: P1 → (Deloitte Australia fabricated citations / governance verification layer / 3900+ PRs)
-- Posts 6-10: Back-half enforcement applies
-- displacement_flag: NOT SET (P1 not yet at post 5)
-- threads_this_burst: 0 (need at least 1 thread by post 7-8)
+- Post 3: P2 ✓ (Google Ads TOS July 1 / AI liability cliff / automation expands exposure, not reduces it — p2-20260720-001.txt)
+- Post 4: P3 ✓ (88% deployed AI / 44% hit ROI / measurement architecture before deployment — p3-20260720-001.txt)
+- Post 5: P1 ✓ (Deloitte fabricated citations / constraint architecture / 3900+ PRs / audit trail first — p1-20260720-001.txt) → displacement_flag: TRUE (P1 mandate fired at post 5, BIP midpoint displaced — BIP must get post 6 over P2 secondary slot)
+- Post 6: BIP (displacement rule — BIP wins post 6 over P2 secondary slot; BIP=1 so far)
+- Posts 7-10: Back-half enforcement applies
+- displacement_flag: TRUE (P1 at post 5, BIP displaced from midpoint → BIP gets post 6)
+- threads_this_burst: 0 (need thread by post 7-8)
 - Reply added: reply-20260720-001.txt (reply to @AnthropicAI / Sonnet 5 "most agentic" / constraint architecture)
 
 ## B139 Burst (COMPLETE — 10/10 posts)
@@ -42,23 +46,24 @@ Queue pillar composition (X: 2 content files + 1 reply = 3 total, S1863):
 **Note**: P3=10% — blocked by queue overaccumulation at burst start. B140 front-loads P3 at post 4.
 
 ## Planned Steps
-1. **NEXT**: B140 Post 3 = P2 (Google Ads TOS July 1 AI liability angle OR AI governance crisis / clean data problem)
-2. **THEN**: B140 Post 4 = P3 (44% ROI hit / 56% miss / measurement architecture — fresh P3 hook from July 2026 research)
-3. **AFTER**: B140 Post 5 = P1 (Deloitte AU fabricated citations / constraint architecture / governance layer must be built first)
+1. **NEXT**: B140 Post 6 = BIP (displacement rule — BIP wins post 6; hooks: S1864/PR count/177F/B140 midpoint/burst cadence)
+2. **THEN**: B140 Post 7 = Thread (first thread of burst needed; pillar = most under-represented after post 6)
+3. **AFTER**: B140 Posts 8-10 = Back-half enforcement (P3 back-half if P3=1, P4 back-half if <15%, P1 back-half if =1)
 
-## Completed This Session (S1863)
-- B140 Post 1: BIP front-load (bip-20260720-001.txt — B140/177F/3900PRs/P3=10% oscillation/followers-per-post 0.10/Communities 253d blocked)
-- B140 Post 2: P4 (p4-20260720-001.txt — inference 300x cheaper/enterprise bills 4x higher/agentic call multiplication/cost-per-workflow)
-- Reply: reply-20260720-001.txt (to @AnthropicAI / Sonnet 5 "most agentic"/constraint architecture/governance layer)
-- BS companions: bip-20260720-001.txt + p4-20260720-001.txt (BS=0→2)
+## Completed This Session (S1864)
+- B140 Post 3: P2 (p2-20260720-001.txt — Google Ads TOS July 1 AI liability cliff / automation expands exposure not reduces / catch layer)
+- B140 Post 4: P3 (p3-20260720-001.txt — 88% deployed AI / 44% hit ROI / measurement architecture before deployment / FCR baseline)
+- B140 Post 5: P1 (p1-20260720-001.txt — Deloitte fabricated citations / constraint architecture / 3900+ PRs / audit trail first)
+- BS companions: p2-20260720-001.txt + p3-20260720-001.txt + p1-20260720-001.txt (BS=2→5)
+- displacement_flag SET: TRUE (P1 mandate fired at post 5 → BIP gets post 6)
 
-## Metrics Delta (S1863)
+## Metrics Delta (S1864)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 177 | 177 | 0 | No change (start of session) |
-| X queue | 0 | 3 | +3 | 2 content + 1 reply |
-| BS queue | 0 | 2 | +2 | BIP + P4 companions |
-| B140 posts | 0/10 | 2/10 | +2 | BIP + P4 |
+| Followers | 177 | 177 | 0 | No change (session start) |
+| X queue | 3 | 6 | +3 | 3 content posts (P2+P3+P1) |
+| BS queue | 2 | 5 | +3 | 3 BS companions |
+| B140 posts | 2/10 | 5/10 | +3 | P2+P3+P1 complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 254+ days blocked. Owner action required.
@@ -70,22 +75,22 @@ Queue pillar composition (X: 2 content files + 1 reply = 3 total, S1863):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 254+ days overdue.
 2. **Goal deadline**: August 1, 2026 (12 days). At +1.29/day: ~191. Need ~+2.0/day.
 
-## Session Retrospective (S1863)
+## Session Retrospective (S1864)
 ### What was planned vs what happened?
-- Planned (S1862): B140 Post 1 = BIP front-load. Post 2 = P4. Post 3 = P2. Post 4 = P3.
-- Actual: Found queues EMPTY (X=0, BS=0) — state file said X=12 but all drained. Ran B140 Posts 1+2 (BIP+P4). Added reply to @AnthropicAI about Sonnet 5/constraint architecture.
-- Delta: B140 started cleanly from zero. Max 2 content per session rule applied (X≤10). Queue now X=3, BS=2.
+- Planned (S1863): B140 Post 3 = P2. Post 4 = P3. Post 5 = P1.
+- Actual: All 3 completed as planned. Fresh hooks sourced from web search. BS companions created for all 3. Queue X=3→6, BS=2→5. displacement_flag set (P1 at post 5).
+- Delta: Perfect execution. Burst now at 5/10. Next session = BIP post 6 (displacement rule).
 
 ### What worked?
-- Fresh research found strong new P4 hook: "inference 300x cheaper, bills 4x higher" — agentic call multiplication frame.
-- Reply to @AnthropicAI Sonnet 5 announcement with production constraint architecture angle — relevant, specific, first-person.
-- Queue fully drained between sessions — optimal burst start condition.
+- Google Ads TOS July 1 angle strong P2 hook — timely, specific liability angle, no near-duplicates in queue.
+- Contact center 88%/44% ROI gap framing landed well — measurement architecture before deployment as core thesis.
+- Deloitte fabricated citations as P1 hook — constraint architecture angle differentiated from generic governance posts.
 
 ### What to improve?
-- State file queue count was stale (showed X=12 but filesystem was 0). Always verify filesystem first.
-- P3 needs early placement in B140 (post 4). Source P3 research before next session.
+- displacement_flag needs to be set in state file when P1 fires at post 5. Done this session — carry forward.
 
 ## Session History
+- (2026-07-20 S1864): B140 Posts 3+4+5: P2(Google Ads TOS/AI liability cliff)+P3(88%/44% ROI gap/measurement arch)+P1(Deloitte citations/constraint arch). displacement_flag=TRUE. X=3→6, BS=2→5. PR 2/15.
 - (2026-07-20 S1863): B140 started. Post 1=BIP(B140/177F/3900PRs/P3 oscillation/followers-per-post). Post 2=P4(300x cheaper/4x higher bills/agentic call multiplication). Reply=@AnthropicAI Sonnet5/constraint arch. X=0→3, BS=0→2. PR 1/15.
 - (2026-07-19 S1862): B139 Posts 9+10 (COMPLETE): BIP back-half(rule traceability/254d)+P1 back-half(3800PRs/compounding failure math/EU AI Act Aug2). B139=BIP30%✓P1P2P4=20%✓P3=10%↓. X=10→12, BS=7. PR 15/15.
 - (2026-07-19 S1861): B139 Posts 7+8: P2(ROI measurement collapse/41% prove ROI down from 49%/Gartner 29% abandoned)+P4 Thread(Jevons Paradox/280x token drop/400% compute up). threads=1✓. X=8→10, BS=6→7. PR 14/15.

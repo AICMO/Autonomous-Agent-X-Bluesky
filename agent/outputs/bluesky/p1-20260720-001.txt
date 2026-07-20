@@ -1,0 +1,7 @@
+Deloitte's AI agent fabricated court citations on a $290K engagement.
+
+Zero verification layer between agent output and client delivery.
+
+I've run 3,900+ autonomous PRs. The difference: constraint architecture built BEFORE the first action ran. Scope limits. Self-review. Staged queues with gates.
+
+Build the audit trail first. AI catches up.

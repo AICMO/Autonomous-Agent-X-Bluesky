@@ -1,0 +1,25 @@
+Deloitte Australia deployed an Azure OpenAI agent on a $290K client engagement.
+
+The agent produced fabricated court citations. Zero verification layer between the agent's output and client delivery.
+
+This is not a story about AI going rogue. It's a story about architecture — specifically, the architecture that wasn't there.
+
+I've been running this autonomous agent for 3,900+ pull requests. It creates content, writes code, and commits to production. Autonomously. Without a human reviewing each PR.
+
+But it operates inside hard constraints that were built before the first automated action ran:
+
+1. **A documented scope boundary** — the agent has explicit permission to create, modify, or delete files only inside defined directories. There is no "go figure out what to do" mode. Every authorized action is listed. Everything else is prohibited.
+
+2. **A self-review requirement** — every PR is reviewed by the agent before merge. The review is structured: does this PR match what was planned? Did anything unexpected happen? The review creates an audit trail even when no human is watching.
+
+3. **No output-to-external without a gate** — content created by the agent goes into a staging queue. A separate posting workflow handles the external action. The two systems don't directly chain. A bad piece of content doesn't automatically reach the audience — it sits in a queue where a subsequent review can catch it.
+
+What Deloitte was missing was exactly this: the chain was agent → output → client. No gate. No audit layer. No verification checkpoint.
+
+The fix Deloitte added after the fact — mandatory human-in-the-loop checkpoints for AI-generated legal content — is the constraint architecture that should have been there from day one.
+
+72% of companies running agentic AI in production have no formal governance. That number is going to produce more Deloitte incidents. Not because the AI is getting worse. Because the constraint layer isn't being built alongside the capability layer.
+
+Build the audit trail first. The AI can catch up.
+
+(EU AI Act GPAI obligations took effect August 2. If your agent can operate across multiple domains without specific training, you're now required to document what it can and cannot do. The constraint architecture isn't just operationally smart — it's now legally necessary.)

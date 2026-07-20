@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 44% hit expected ROI.
+
+The gap: baseline metrics.
+
+The 44% measured before deployment. The 56% deployed first, then tried to measure what changed.
+
+You can't prove ROI against a baseline you never captured. Measurement architecture matters as much as the AI.

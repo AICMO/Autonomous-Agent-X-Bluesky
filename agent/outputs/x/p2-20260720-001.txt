@@ -1,0 +1,30 @@
+Google just changed its Ads Terms of Service on July 1, 2026 — and most marketing teams missed what actually changed.
+
+The update authorizes Google to use automated features to format, select, and generate targets, ads, and destinations on your behalf. By default. Not opt-in. Default.
+
+Here's the part nobody's talking about:
+
+Your liability didn't change.
+
+If an AI-generated ad runs copy that violates your brand voice, makes a false claim, or targets an audience segment you intended to exclude — that's on you. The Terms of Service are explicit. Automation does not transfer responsibility. It expands the surface where you're exposed.
+
+This is the governance gap hiding inside every AI marketing tool:
+
+The platform automates the action. The brand owns the consequence.
+
+Google Ads. Meta Advantage+. Programmatic DSPs. They're all moving the same direction — more AI-generated creative, more automated targeting, more machine-driven bidding. And in every case, the accountability architecture hasn't moved with it.
+
+What that means in practice:
+- AI generates ad copy referencing a discount you discontinued
+- Automated targeting reaches a demographic your brand explicitly avoided
+- Platform-generated creative uses imagery that conflicts with current campaign guidelines
+
+None of these are hypothetical. They're the predictable output of automation without audit layers.
+
+The organizations that won't get burned aren't the ones turning off automation. They're the ones who added review architecture before scaling it. Brand voice documentation that the AI can actually reference. Exclusion lists maintained in real-time. Approval workflows for AI-generated assets above a spend threshold.
+
+Automation is expanding. Governance has to keep pace.
+
+The question isn't whether to use AI in your ad operations. It is: when the platform's AI generates something wrong, what's your catch layer?
+
+If your answer is "we'll notice when performance drops" — you need a different answer.
