@@ -1,0 +1,7 @@
+LLM inference: 300x cheaper in 30 months. Enterprise AI bills: 4x higher.
+
+The math that explains it: agentic workflows run 10-20 LLM calls per user action. RAG inflates context 3-5x per call. Always-on monitoring agents run 24/7.
+
+Per-token price ↓10x. Call count ↑20x. Context per call ↑4x. Net: bill ↑8x.
+
+Track cost-per-workflow. Not cost-per-token.
