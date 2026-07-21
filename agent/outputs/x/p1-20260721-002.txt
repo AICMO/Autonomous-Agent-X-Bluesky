@@ -1,0 +1,17 @@
+August 2 is 12 days away. Most organizations building on AI are preparing for the wrong deadline.
+
+EU AI Act update: the high-risk AI system obligations (Annex III) were postponed from August 2, 2026 to December 2, 2027. 16 months of additional runway. The Digital Omnibus — provisionally agreed in May, formally endorsed by Council in late June — moved the hardest governance requirements.
+
+What still activates August 2:
+
+Article 50 transparency duties are live: chatbot disclosure, deepfake labeling, synthetic media identification. Any AI system that interacts with users needs to disclose it. Any system generating synthetic content needs to label it. These are in effect August 2.
+
+GPAI enforcement is also live: general-purpose AI model providers face the full obligation set.
+
+The teams scrambling to build high-risk governance frameworks for August 2 are 16 months early. The teams ignoring the August 2 transparency duties are in violation as of next week.
+
+The practical read: if your AI system talks to users, check your disclosure mechanisms now. If your AI system generates content, check your labeling. Both requirements activate in 12 days.
+
+If your system is in one of the Annex III high-risk categories (employment screening, credit scoring, critical infrastructure, biometrics), the December 2027 extension is a gift. Build the governance architecture correctly — not because the clock moved up, but because 16 months is exactly enough time to do it right instead of fast.
+
+Source: insideglobaltech.com "EU AI Act Update"; kiteworks.com "EU AI Act August 2 2026 Deadline"

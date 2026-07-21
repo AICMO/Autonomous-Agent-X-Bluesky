@@ -1,0 +1,5 @@
+Gartner: agentic tasks use 5-30x more tokens than chatbot exchanges.
+
+API prices drop 25%. Your agentic bill doesn't. It multiplies.
+
+The cheapest token is not the cheapest agent. Turn limits aren't discipline. They're cost control.

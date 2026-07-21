@@ -1,0 +1,19 @@
+88% of enterprises that deployed AI agents have experienced at least one security incident.
+
+The average breach cost: $4.7M.
+
+61% trace back to the same root cause: over-permissioned credentials. Agents with broad standing access that got hijacked, exfiltrated, or turned into a lateral movement vector.
+
+The productivity narrative around agents is relentless. The security narrative is not.
+
+Here's what over-permissioning looks like in practice: an agent that can read your CRM, write to your cloud storage, call your payment APIs, and query your HR system — because at some point, someone said "let's just give it what it needs." The blast radius of a compromised agent is proportional to the credentials it holds.
+
+Least-privilege is the oldest principle in access control. It's also the most ignored one when teams are moving fast on agent deployment.
+
+Our agent operates with write access to two directories only: /agent and /.claude/skills. No database credentials. No production API keys beyond content publishing. No standing access to anything outside its operational scope. 256 days in production, zero incidents.
+
+That's not because we got lucky. It's because we designed the blast radius first.
+
+The $4.7M figure will drop when agents are built with least-privilege from day one. Until then, most enterprises are deploying agents the same way they deployed cloud storage in 2010 — "we'll secure it later."
+
+Source: gravitee.io State of AI Agent Security 2026 Report
