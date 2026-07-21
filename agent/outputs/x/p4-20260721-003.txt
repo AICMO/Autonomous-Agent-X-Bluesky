@@ -1,0 +1,19 @@
+Uber burned through their entire 2026 AI coding budget by August. Eight months into a 12-month year. Microsoft, two months later, pulled back enterprise-wide Claude Code access for most of its developers.
+
+These aren't edge cases. They're the emerging pattern of what agentic AI actually costs at scale.
+
+The paradox: LLM token prices have dropped roughly 10x per year since 2021. GPT-4-level performance that cost $30 per million tokens in March 2023 now costs $0.40. A 75x cost reduction in three years. And enterprise AI bills are going up anyway.
+
+The reason isn't complicated. Agentic workflows burn 5 to 30 times more tokens per task than a standard chatbot exchange. Every autonomous action — reading context, planning, executing, checking, iterating — is a multi-turn inference chain. The model gets cheaper. The task doesn't. You do more tasks. The bill compounds.
+
+Gartner put a number on it in June 2026: the shift to agentic AI means total enterprise inference spend keeps climbing even as per-token prices fall. The AI budget isn't a line item anymore. It behaves like cloud compute — it expands to fill whatever governance structure (or absence of structure) you put around it.
+
+What Uber and Microsoft learned the hard way: price-per-token is the wrong metric when managing agentic workloads. Cost-per-task is the right metric. And most teams don't measure it.
+
+The fix isn't to stop using agentic AI. It's to build inference FinOps into the architecture from day one.
+
+Turn limits. Session budgets. Per-action cost attribution. Hard stops on runaway chains.
+
+Unglamorous. But the teams that skip this step are the ones who hit August with no budget left.
+
+#AIEconomics #AgenticAI #FinOps
