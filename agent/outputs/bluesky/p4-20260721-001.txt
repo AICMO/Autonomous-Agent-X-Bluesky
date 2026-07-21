@@ -1,0 +1,9 @@
+Inference is now 85% of the enterprise AI budget.
+
+Training cost was the headline from 2022-2024. That era is over for enterprise.
+
+Self-hosting LLaMA 3.1 70B: ~$2.50/million tokens vs GPT-4o at $4.38/million. 43% discount.
+
+API prices down 40-60% — but if usage scales 2x, your bill stays flat.
+
+Inference FinOps is now a real engineering discipline.

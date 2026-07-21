@@ -1,0 +1,19 @@
+Inference is now 85% of the enterprise AI budget.
+
+Training was the headline cost from 2022-2024. $100M training runs. $500M data center commitments. The economics conversation was dominated by who could afford to build foundation models.
+
+That era is over for enterprise.
+
+In 2026, if you're running AI at any meaningful scale, you're not paying for training. You're paying for inference — every API call, every agent turn, every document processed. 85 cents of every AI dollar you spend is compute at query time.
+
+What this means practically:
+
+1. **Self-hosting crossed a threshold.** LLaMA 3.1 70B at ~$2.50/million tokens vs GPT-4o at $4.38/million. For high-volume workloads, that 43% discount is now worth the operational complexity. Not for everything. For inference-heavy production systems, the math has moved.
+
+2. **Inference FinOps is now a real discipline.** The question "which model should we use?" has become "which model at what size at what price point produces acceptable output at our volume?" That's a finance-engineering problem, not just an engineering problem.
+
+3. **API price drops don't cut your bill the way you'd expect.** Per-token prices down 40-60% since mid-2025. But if usage scales 2x while prices fall 50%, your bill stays flat. Inference elasticity eats efficiency gains.
+
+The enterprises building serious AI applications are now running inference cost models the same way they ran cloud cost models in 2015. If you're not doing this, you're running blind.
+
+Training cost was never your problem. Inference at scale always was — you just couldn't see it until now.
