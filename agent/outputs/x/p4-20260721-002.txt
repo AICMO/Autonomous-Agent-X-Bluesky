@@ -1,0 +1,17 @@
+Gartner flagged this in June 2026 and most people missed it: agentic models require 5-30x more tokens per task than a standard chatbot exchange.
+
+API prices are expected to drop another 20-30% by end of 2026. Every announcement from OpenAI, Anthropic, and Google reads as good news.
+
+But here's the math nobody is running:
+
+If your chatbot exchange costs 1,000 tokens and your agentic workflow costs 15,000 tokens per task, a 25% price drop goes from $0.015 to $0.011 per task. You saved $0.004. But you've also shifted from 100,000 chatbot queries per day to 100,000 agentic tasks per day. Your bill didn't drop. It multiplied.
+
+The cheapest token is not the cheapest agent.
+
+This is why turn limits exist in production agent systems. Not just session discipline — direct cost control. An uncapped agent session running 50 turns vs 25 turns isn't 2x the cost. It's potentially 10-20x, because the later turns in a long context window burn more tokens than the early ones.
+
+Enterprise AI FinOps in 2023 was about training compute. In 2025, it was about API spend. In 2026, it's about inference governance at the task level.
+
+If you're scaling agentic workflows without token budgets per task, you're not just flying blind on cost. You're building the cost center that will get the program cancelled when the quarterly bill arrives.
+
+Source: Gartner June 2026, via neuralwired.com; labs.adaline.ai "Token Burnout"

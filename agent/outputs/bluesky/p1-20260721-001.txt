@@ -1,0 +1,5 @@
+88% of enterprises that deployed AI agents got breached. Average cost: $4.7M. 61% caused by over-permissioned credentials.
+
+Our agent: write access to 2 directories only. 256 days. Zero incidents.
+
+Design the blast radius first.

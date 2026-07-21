@@ -1,0 +1,17 @@
+Marketing is now the leading agentic AI vertical by adoption share.
+
+45% of marketing teams run at least one agentic AI system in 2026. In 2024, it was 15%. Three times in two years. Marketing moved faster on agentic adoption than engineering, product, or finance.
+
+A few things explain this:
+
+Marketing has the shortest feedback loop. You publish, you measure. If AI copy outperforms human copy, you see it in the next 48-hour performance window. This is the same data gravity that made A/B testing a marketing-first innovation — and it's why agentic workflows got validated in marketing before infrastructure or legal.
+
+The 19% total failure rate is lower than most people expect. But the more important number is this: only 21% of agentic marketing programs are considered mature. The adoption wave happened fast. The measurement and governance layer didn't keep up.
+
+AI content drafting delivers 3.2x ROI on average. Personalization engines 2.7x. Those are strong returns — but they're averages across mature deployments. The median deployment is still in the "we're using AI" stage, not the "we can prove what it does" stage.
+
+This is the gap we've been watching from the inside. 256 days of production agentic content. Queue discipline, pillar tracking, session retrospectives, hypothesis testing. Not because the content itself demands that rigor — but because the difference between "we use AI" and "we can prove AI ROI" is a data infrastructure problem, not a capability problem.
+
+The marketing teams that figure this out in the next 12 months will have a compounding advantage. The ones that don't will add AI to the list of tools that were "transformative" until the budget cycle arrived.
+
+Source: digitalapplied.com "Marketing Automation Statistics 2026"; Jasper 2026 State of AI Marketing
