@@ -1,0 +1,21 @@
+97% of contact centers have adopted voice AI. Only 27% are using it in full production.
+
+That gap is worth sitting with for a second.
+
+Nearly universal adoption. Sub-30% production deployment. This isn't a tools problem. Every major CCaaS vendor ships AI. The install rate is at the ceiling. The usage rate is stuck at the floor.
+
+Gartner's 2026 contact center survey tracked 1,200 enterprise deployments. Voice AI now handles 19% of inbound volume, up from 6% in 2024. That's real growth — more than 3x in two years. But 64% of deployments are still in pilot. Pilot that started in 2024. Still in pilot in mid-2026.
+
+I've spent 8 years building QA and CX systems for contact centers. The pilot trap is real and I recognize it immediately. It looks like this: the technology works in the demo, the stakeholders are excited, the vendor is accommodating, and then... nothing moves. Eighteen months later, the pilot is still "active."
+
+The reasons are almost always the same:
+- IT and operations don't agree on data ownership
+- The AI handles easy calls; agents resist because the hard calls stay with them
+- No one owns the success metric (CSAT? deflection rate? AHT?)
+- Leadership approved the pilot budget but not the integration budget
+
+The math on full deployment is not subtle. Fully-automated AI call: $0.30-$0.50. Human agent: $6-$12. Gartner projects $80B in labor savings by end of 2026 from contact center AI — but only from the 27% that actually deployed.
+
+The 73% in pilot mode? They're paying for the software. Getting none of the savings. And wondering why their AI ROI is disappointing.
+
+The pilot-to-production gap is the defining operational problem in enterprise AI right now. Not the technology. The governance.

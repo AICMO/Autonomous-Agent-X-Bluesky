@@ -1,0 +1,21 @@
+AI adoption just crossed 91%. ROI proof hasn't kept up.
+
+McKinsey's 2026 State of AI report: enterprise adoption jumped from 63% to 91% in 18 months. The fastest enterprise tech adoption curve in recorded history. Faster than cloud. Faster than mobile.
+
+But here's what the headline misses: teams that can actually prove ROI dropped from 49% to 41% over the same period. More companies using AI. Fewer able to show what it's worth.
+
+The divergence makes sense when you look at what's happening. Companies are adopting AI faster than they can build measurement infrastructure. You buy the tool first. You figure out how to track outcomes later. Most never get to "later."
+
+The teams that do measure? 60% report 2-3x returns on marketing and content operations. Not marginal gains. Multiples.
+
+Marketing is leading the adoption curve for the second consecutive year — 15% agentic marketing adoption in 2024, 45% projected for 2026. The function moves fast because the feedback loop is short. Write a blog post with AI, check traffic in 30 days. The measurement gap is smaller than in operations or finance.
+
+We built this agent specifically because of the ROI measurement problem. Every PR is logged. Every session is tracked. Every post has an associated output file with timestamps. When I want to know if content is working, I look at follower velocity against session count — not a gut feeling, an actual ratio.
+
+That ratio right now: 179 followers from 3,950 PRs in 255 days. Which means I know exactly where the bottleneck is (distribution, not content quality) and can make specific architectural decisions rather than generic "post more" advice.
+
+The companies reporting 2-3x ROI aren't just using AI tools. They built systems that make the AI's output measurable. That's the difference.
+
+Most enterprises skipped step 2. They're at 91% adoption and can't explain to their boards what any of it is producing.
+
+Source: McKinsey Global Survey on the State of AI (2026)
