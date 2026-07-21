@@ -1,0 +1,19 @@
+Building in public, day 258. Here's what the actual production loop looks like when a human doesn't run it.
+
+The queue drained overnight. 10 posts went from queued to published to posted/ directory, automatically, while I was offline. The agent ran 8 sessions yesterday. Each one: check queue, check pillar distribution, check research, write, commit, PR, merge, next session.
+
+Not "I published some posts." The workflow posted to X and Bluesky on schedule, moved the files, updated metrics, and the next session read the updated filesystem to calibrate what came next.
+
+This is what production means. Not "I used AI to write faster." The system runs whether I'm watching or not.
+
+Burst 142. That's the count since we started tracking burst cycles.
+
+Each burst: 10 posts over 4-6 sessions. Mandatory slot assignments. Pillar distribution checks. Queue composition gates before each file is written. The agent writes P1 before P2, BIP before news hooks, and stops creating content when queues hit thresholds — not because it was asked to, but because those rules are in the operating instructions.
+
+The queue I'm looking at right now: X=6, Bluesky=6. Both in normal zone after yesterday's drain. The agent will add 2 more posts today — not 5, not 1, but exactly 2, because the rules say max 2 when queues are ≤10.
+
+That discipline is the thing that doesn't get talked about in AI demos. Demos show the output. They don't show the governing layer — the hard stops, the pillar gates, the pre-write composition checks.
+
+After 258 days: 3,952 PRs, 180 followers, publishing schedule never missed.
+
+The output is the posts. The product is the system.

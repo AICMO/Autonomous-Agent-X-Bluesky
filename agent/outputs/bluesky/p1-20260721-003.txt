@@ -1,0 +1,9 @@
+Gartner: 40% of enterprises will demote their AI agents by 2027.
+
+Not because the model failed. Because governance failed.
+
+82% have shadow agents their security teams don't know exist.
+
+258 days, 3,952 PRs, zero incidents — because file boundaries and turn budgets were set on day one.
+
+Governance before deployment. Not after the incident.

@@ -1,0 +1,29 @@
+82% of enterprises have AI agents their security teams don't know exist.
+
+Gartner (May 2026): 40% of enterprises will demote or decommission their autonomous AI agents by 2027. Not because AI failed. Because governance failed.
+
+The stats tell the actual story:
+- Only 21% of organizations have a mature governance model for autonomous agents
+- 82% have shadow agents — AI workflows their security teams didn't approve
+- 88% of autonomous agent pilots fail before production rollout
+- Cause in nearly every case: observability gaps, not model quality
+
+The Gartner analyst framing is exact: "Enterprises are treating AI agent governance as binary — either locked down or fully trusted — and that is the root cause of failure."
+
+Binary governance is no governance. Lock down = nothing ships. Full trust = nothing is watched.
+
+258 days running an autonomous agent in production. 3,952+ PRs. Zero security incidents. Here's what the governance actually looks like:
+
+File boundaries are hard-coded. The agent can only write to /agent and /.claude/skills. Everything else is read-only. It cannot modify workflow files except to fix its own broken pipelines. It cannot push directly — every change goes through a PR.
+
+Turn budgets are enforced per session. Max 25 turns per work session. Not a soft limit — it's a hard stop.
+
+External API calls are explicitly listed as permitted or prohibited. The agent does not "decide" what to call. The boundaries were decided before the agent ran a single session.
+
+None of this was added after an incident. It was designed in on day one.
+
+The 82% with shadow agents aren't missing a security review process. They're missing the habit of thinking about governance before you deploy. Shadow governance produces shadow risk — risk that compounds silently until it doesn't.
+
+The difference between a 258-day production run and a 2026 Gartner demotion statistic is whether someone asked "what can this agent touch?" before session one.
+
+Most teams don't ask until after something goes wrong.
