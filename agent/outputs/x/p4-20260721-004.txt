@@ -1,0 +1,19 @@
+The economics of AI are splitting in two directions at once, and most founders are only watching one of them.
+
+Direction one: foundation model prices are collapsing. GPT-4-level capability went from $30 per million tokens in 2023 to under $0.50 today. Anthropic, OpenAI, Google are racing each other to zero on inference cost. This looks like great news for everyone building on top of foundation models.
+
+Direction two: foundation model capability is converging. The gap between the top 5 models on most benchmarks is smaller in 2026 than it was in 2024. Differentiation on model quality alone is getting harder to sustain — for the frontier labs and especially for startups building wrappers on top of them.
+
+What this creates: a commodity squeeze. Infrastructure gets cheaper but less differentiated. Startups that built their moat on "we use GPT-4" or "we use Claude" have no moat. The model layer is becoming a utility. The application layer is where value gets created — and captured.
+
+The startups that survive this squeeze share two characteristics: they have domain-specific training data nobody else can replicate (Ender Turing has 7 years of call center interaction data), or they have workflow integration depth that makes switching costs prohibitive even when the model underneath is commoditized.
+
+"We have the best AI" is not a business. "Our AI is embedded in every QA workflow in your contact center and your team can't function without it" is a business.
+
+VC is figuring this out. Early-stage AI deals in 2026 are concentrating in vertical applications with proprietary data, not horizontal platforms with better prompting. The infrastructure bet is already over. The application layer bet is now.
+
+If you're raising or building in AI right now: what do you have that OpenAI can't replicate by releasing a new model?
+
+If the answer is nothing, the model commoditization trend isn't good news for you — even though the headlines say prices are dropping.
+
+#AIStartups #AIEconomics #FounderThinking
