@@ -1,0 +1,29 @@
+Every AI call center pitch leads with the same two metrics: deflection rate and cost per call.
+
+Nobody pitches attrition savings.
+
+That's a mistake, because the math says it's the bigger number.
+
+BCG data from hybrid AI contact center deployments: agent annual attrition drops from 26% to 17% when you implement a hybrid AI model — AI handles the repetitive, high-volume work while humans manage complex and emotional interactions.
+
+9 percentage points sounds modest. Until you run the arithmetic.
+
+At a 500-seat center:
+- 52% average annual attrition (Deloitte Digital 2026)
+- Before hybrid AI: 260 agents replaced per year at $10,000–$20,000 per replacement = $2.6M–$5.2M annually in replacement costs alone
+- After hybrid AI: 85 agents replaced per year = $850K–$1.7M annually
+- Delta: **$1.75M–$3.5M per year in workforce stability ROI**
+
+That's often more than the deflection savings in the first 2 years of deployment.
+
+Why don't vendors lead with this number? Because it's an HR metric, not a CX metric. The team buying the AI solution reports to the VP of Customer Experience, not the CHRO. Attrition cost lives in a different budget.
+
+The irony: the top performers who quit are exactly the ones doing repetitive work. Not because it's physically demanding — because it's cognitively deadening. When you remove the repetitive cases, your best agents spend their day on complex problem-solving. That's the job they actually want.
+
+7 years in the contact center space: the most consistent predictor of agent turnover isn't pay or manager quality. It's case monotony. AI doesn't replace the agents who are good at their jobs — it removes the work that makes those agents leave.
+
+If your AI ROI model doesn't include workforce stability metrics, you're presenting an incomplete business case.
+
+The $10K replacement cost is visible. The hidden cost — losing your 4-year agent who knows your product better than the product manager — isn't in any spreadsheet.
+
+What does your AI deployment look like when you include attrition ROI?
