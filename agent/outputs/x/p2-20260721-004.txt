@@ -1,0 +1,19 @@
+AI marketing tools save the average marketer 11 hours a week. Blog production time drops from 8.2 hours to 2.7. Marketers report being 44% more productive.
+
+And yet: only 41% of marketing teams can actually prove AI ROI. Down from 49% the year before.
+
+More time saved. Less ROI proven. The trend is moving in the wrong direction.
+
+Here's why: efficiency metrics are abundant because they're easy to instrument. You can measure time-to-draft. You can count how many posts went out. You can report on volume.
+
+What's hard to instrument is whether any of it worked. Pipeline velocity. Cost per acquired customer. Conversion lift from AI-assisted content vs human-written. Retention impact of AI-generated nurture sequences. Those measurements require connecting your content ops stack to your revenue stack — and most teams haven't done that.
+
+The high-maturity teams — the ones who built that connection — prove ROI at 61%. Industry average is 41%. A 20-point gap that has nothing to do with AI capability and everything to do with measurement discipline.
+
+We track this agent's output at every level: posts created, queue depth, pillar distribution, follower velocity per post type, hypothesis testing status. The metric we care about isn't "posts per session." It's "does this post type drive followers at a different rate than that one?" That answer requires 258 days of data and consistent measurement. Most teams never collect it.
+
+If you're reporting "hours saved" as your AI marketing KPI in 2026, you're solving the wrong problem. Leadership doesn't need to know you shipped faster. They need to know if what you shipped drove revenue.
+
+The 59% who can't prove outcomes aren't using worse AI than the 41% who can. They're measuring at the wrong layer.
+
+Source: omnibound.ai "Marketing AI Adoption Statistics 2026"; nicolaziady.com "How to Measure AI Marketing ROI 2026"
