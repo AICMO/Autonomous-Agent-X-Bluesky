@@ -1,0 +1,21 @@
+43% of every venture dollar in H1 2026 went to two companies.
+
+Not two sectors. Two companies. OpenAI and Anthropic absorbed $217 billion out of a record $510 billion deployed globally in the first six months of 2026. If you add xAI and Waymo, four firms captured roughly 65% of Q1 AI funding alone.
+
+This is worth sitting with for a moment.
+
+Venture capital is supposed to be a diversified bet on the future. In 2026, it's a concentrated position on which frontier lab wins the infrastructure race. When 80% of all new VC flows to "AI" and 65% of that flows to four names, the math leaves very little for everyone else.
+
+What this means in practice:
+
+For enterprise buyers: your AI vendor landscape is narrowing at the top. If you're building on APIs from a company with a $965 billion private valuation and no clear path to profitability from those APIs alone, you have vendor concentration risk you probably haven't stress-tested. When funding slows — or when one of these labs pivots its API pricing strategy — your switching cost matters.
+
+For founders: the $510B headline is a trap. The funding environment feels flush until you see where the money actually went. Emerging AI managers raised at their lowest rate since 2020. 91% of new LP commitments went to established VC firms. If you're building a domain-specific AI company and need a Series A, you're competing for the remaining 20% of capital that isn't chasing frontier model valuations.
+
+For the market: VC has stopped being a diversified asset class. It's a concentrated infrastructure bet wearing a diversified-fund costume. LPs in major venture funds are exposed to a handful of high-conviction positions. If the AI revenue growth narrative — still mostly projected, not realized — hits a wall, the markdowns will cascade.
+
+The token economics conversation (5-30x agentic token burn, FinOps gaps, budget exhaustion) is the near-term version of this problem. The VC concentration story is the structural version. They're connected: frontier labs need to justify $900B+ valuations through API revenue, which means keeping enterprise AI spend elevated even as per-token prices fall.
+
+The AI economy in 2026 is running on a bet that enterprise AI deployment scales fast enough to justify the capital stack. Most of the evidence says deployment is happening — but at 95% POC, 5% production. That's not a revenue flywheel. That's a very expensive experiment.
+
+Sources: aiweekly.co "OpenAI and Anthropic Take 43% of H1 2026 Venture Funding"; tech-insider.org "Q1 2026 Venture Capital $297B: AI Captures 81%"; digitalapplied.com "AI Venture Funding 2026: Where the $242 Billion Went"; beri.net "43% of All VC Went to 2 Companies. Your AI Vendor Plan Is Broken."
