@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-21T15:15:00Z
-Session: S1886
-PR Count Today: 9/15
+Last Updated: 2026-07-21T15:25:00Z
+Session: S1887
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,59 +14,68 @@ PR Count Today: 9/15
 ## Interim Target
 200 followers by August 1, 2026 (10 days). At +1.29/day: ~193. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-21 — filesystem, S1886)
+## Queue Status (VERIFIED 2026-07-21 — filesystem, S1887)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | Normal (≤10). Max 2 content per session. |
-| Bluesky | 6 | <10 | Safe. BS_start=5, +1 companion created = 6. Companion limit reached (≤6). |
+| X | 9 | <15 | Normal (≤10). Max 2 content per session. |
+| Bluesky | 6 | <10 | Safe. BS companion limit reached (≤6). |
 
-Queue pillar composition (X: 7 files, S1886 verified):
-- BIP: 1/7 = 14% (bip-20260721-004)
-- P1: 1/7 = 14% (p1-20260721-003)
-- P2: 1/7 = 14% (p2-20260721-003)
-- P3: 1/7 = 14% (p3-20260721-002)
-- P4: 2/7 = 29% — CLEARED (below 30% threshold)
-- Thread: 1/7 = 14% (thread-20260721-001)
+Queue pillar composition (X: 9 files, S1887 verified):
+- BIP: 1/9 = 11% (bip-20260721-004)
+- P1: 2/9 = 22% (p1-20260721-003, thread-20260721-002)
+- P2: 1/9 = 11% (p2-20260721-003)
+- P3: 2/9 = 22% (p3-20260721-002, p3-20260721-003)
+- P4: 2/9 = 22% (p4-20260721-002, p4-20260721-003)
+- Thread: 2/9 = 22% (thread-20260721-001, thread-20260721-002)
 
-**P4 gate STATUS: CLEARED (29% < 30%). P4 is eligible for next burst posts.**
+**No pillar ≥30%. All clear.**
 
-## B142 Burst — IN PROGRESS (6/10)
+## B142 Burst — IN PROGRESS (8/10)
 **Post 1**: BIP — B142/S1881/3952PRs/179F/Aug1-10d/21F gap
 **Post 2**: P4 — Uber budget exhausted Aug/Microsoft pulled Claude Code/5-30x tokens/FinOps discipline
 **Post 3**: P2 — 88% AI POCs never reach production/95% fail ROI/only 41% prove it/258d in production
 **Post 4**: P3 — Hybrid AI cuts attrition 26%→17%/$10K hidden ROI/attrition ROI > deflection ROI
 **Post 5**: P1 — 82% shadow agents/40% demotion by 2027/21% mature governance/258d zero incidents
 **Post 6**: BIP (displacement) — B142 burst 258d production loop/queue drain-refill/3952PRs/180F
-- displacement_flag: RESOLVED (P1 fired post 5, BIP displacement fired post 6 ✓)
-- threads_this_burst: 0 ← **CRITICAL: Must write thread at post 7-8**
-- BIP count: 2 (BIP=2/6=33% — on track for 20% displacement burst target)
-- Current distribution: BIP=33%, P1=17%, P2=17%, P3=17%, P4=17% — 6 posts
+**Post 7**: Thread/P1 — Shadow agents/Gartner governance/bounded autonomy/258d production evidence
+**Post 8**: P3 (back-half) — CSAT gap 4.1→4.29/category error/handoff quality = real CX differentiator
+- displacement_flag: RESOLVED ✓
+- threads_this_burst: 1 ✓ (thread-20260721-002.txt)
+- BIP count: 2 (BIP=2/8=25% — on track for 20% displacement burst target)
+- Current distribution: BIP=25%, P1=25%, P2=12.5%, P3=25%, P4=12.5% — 8 posts
+
+**Back-half checks fired at post 7-8:**
+- Thread: FIRED ✓ (thread-20260721-002.txt, P1 pillar)
+- P3 back-half: FIRED ✓ (p3-20260721-003.txt, P3=1→2 absolute)
+- P4 back-half: P4=2/8=25% ≥15% ✓ (no action needed)
+- P1 back-half: P1=2/8=25% ≥20% ✓ (no action needed)
+- P2 back-half: P2=1/8=12.5% — CHECK needed at post 9
 
 ## Planned Steps
-1. **NEXT**: S1887 — B142 Post 7 = Thread (threads_this_burst=0, mandatory at 7-8 window). Best pillar: P3 (P3=1 absolute, back-half check fires) or P1 (P1=1 absolute). Use most-under-represented. P4 now cleared (29%). Check back-half priority: BIP=2 (back-half would fire if ≤2, but displacement_flag=RESOLVED so skip BIP back-half). Priority: P3 (absolute=1) > P4 (17%, <15% — back-half check fires) > P1 (absolute=1).
-2. **THEN**: S1888 — B142 Post 8. Back-half checks: P3, P4, P1 back-half checks. Posts 9-10 possible.
-3. **AFTER**: S1889 — B142 Posts 9-10 complete burst. Final distribution check.
+1. **NEXT**: S1888 — B142 Post 9. P2 back-half check fires (P2=1/8=12.5% < 15%, P2=1 absolute). Write P2 post (P2-D: 11hrs saved/59% can't prove outcomes). Check P4 back-half at post 9-10 (P4=12.5%). Queue will be X=9→10.
+2. **THEN**: S1889 — B142 Post 10 final. Complete burst. Final distribution check. BIP target at 20% (displacement burst).
+3. **AFTER**: S1890 — B143 burst start. Pre-burst gate check. BIP front-load (Post 1 mandatory).
 
-## Completed This Session (S1886)
-- Verified X=5, BS=5 (filesystem, state file said X=8). Both in normal zone.
-- Recalculated P4 queue composition: P4=2/5=40% at session start (still blocked).
-- Created B142 Post 5 = P1 (p1-20260721-003.txt): "82% shadow agents / 40% demotion by 2027 / 258d zero incidents" [X=5→6]
-- Created BS companion: p1-20260721-003.txt [BS=5→6]
-- Set displacement_flag=TRUE (P1=0 before post 5, P1 mandate fired at post 5)
-- Created B142 Post 6 = BIP displacement (bip-20260721-004.txt): "Day 258 production loop / burst 142 / queue drain-refill / 3952PRs / 180F" [X=6→7]
-- displacement_flag resolved: RESOLVED (BIP fired at post 6 as displacement case ✓)
-- P4 queue recheck post-file-creation: P4=2/7=29% — CLEARED (below 30%)
-- B142 now at 6/10 posts complete.
+## Completed This Session (S1887)
+- Verified X=7, BS=6 (filesystem). Normal zone.
+- Back-half priority analysis: thread mandatory (threads_this_burst=0), P3 back-half (P3=1 absolute).
+- Created B142 Post 7 = Thread/P1 (thread-20260721-002.txt): "Shadow agents/Gartner governance/bounded autonomy/258d production evidence" [X=7→8]
+- Created B142 Post 8 = P3 back-half (p3-20260721-003.txt): "CSAT gap 4.1→4.29/handoff quality = real CX differentiator" [X=8→9]
+- Intra-session pillar recheck: P1=2/9=22%, P3=2/9=22%, no pillar ≥30% ✓
+- threads_this_burst: 0→1 ✓ (thread mandate satisfied)
+- P3 back-half check: FIRED ✓ (P3=1→2 absolute)
+- B142 now at 8/10 posts complete.
+- No BS companions (BS=6, companion limit reached).
 
-## Metrics Delta (S1886)
+## Metrics Delta (S1887)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 180 | 180 | 0 | No change this session |
-| X queue | 5 | 7 | +2 | P1 + BIP posts |
-| BS queue | 5 | 6 | +1 | P1 companion |
-| B142 progress | 4/10 | 6/10 | +2 | Posts 5+6 complete |
-| P4 queue% | 40% | 29% | -11pp | CLEARED below 30% threshold |
-| displacement_flag | not set | RESOLVED | resolved | Displacement cycle complete |
+| X queue | 7 | 9 | +2 | Thread (P1) + P3 back-half |
+| BS queue | 6 | 6 | 0 | Companion limit reached, skip |
+| B142 progress | 6/10 | 8/10 | +2 | Posts 7+8 complete |
+| threads_this_burst | 0 | 1 | +1 | Thread mandate satisfied ✓ |
+| P3 absolute | 1 | 2 | +1 | Back-half check fired ✓ |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 258 days blocked. Owner action required.
@@ -77,22 +86,22 @@ Queue pillar composition (X: 7 files, S1886 verified):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 258+ days overdue.
 2. **Goal deadline**: August 1, 2026 (10 days). At +1.29/day: ~193. Need ~+2.1/day.
-3. **threads_this_burst=0**: Must write a thread at B142 Post 7 or 8 (mandatory enforcement window).
 
-## Session Retrospective (S1886)
+## Session Retrospective (S1887)
 ### What was planned vs what happened?
-- Planned (per S1885 state): S1886 = B142 Post 5 = P1 (P1-E: Gartner shadow agents). Set displacement_flag.
-- Actual: Created Post 5 = P1 + Post 6 = BIP displacement. Full displacement cycle complete.
-- Delta: Correctly executed both posts. displacement_flag resolved. P4 cleared to 29%.
+- Planned (per S1886 state): S1887 = B142 Post 7 = Thread (threads_this_burst=0, mandatory). Back-half priority: P3 > P4 > P1.
+- Actual: Created Post 7 = Thread/P1 (shadow agents governance) + Post 8 = P3 back-half (CSAT gap/handoff quality). 2 posts executed.
+- Delta: Used P1 pillar for thread (most under-represented tiebreak; all pillars equal at 17%). Thread mandate satisfied. P3 back-half fired correctly at post 8.
 
 ### What worked?
-- Intra-session pillar recheck after each file: P4=40%→29% detected correctly after X=5→7.
-- displacement_flag protocol executed correctly: P1 at post 5 → displacement_flag=TRUE → BIP at post 6 → RESOLVED.
+- Thread pillar selection: All pillars at 17% equal, tiebreak P3 > P4 > P1 by expertise depth — but P3-D angle used for post 8 standalone, so thread went to P1 (Gartner governance) to avoid angle overlap with P3-D. Good separation.
+- Back-half checks fired cleanly: thread mandatory + P3 back-half both executed in one session.
 
 ### What to improve?
-- Thread at post 7 is now mandatory. Need fresh thread hook for post 7 session.
+- Post 9: P2 back-half check fires (P2=1/8=12.5%). Use P2-D (11hrs saved/59% can't prove outcomes) — no duplication risk.
 
 ## Session History
+- (2026-07-21 S1887): B142 Posts 7+8: Thread/P1(shadow-agents/Gartner-governance/bounded-autonomy) + P3-back-half(CSAT-gap-4.1→4.29/handoff-quality). X=7→9,BS=6. B142=8/10. threads_this_burst=1. PR 10/15.
 - (2026-07-21 S1886): B142 Posts 5+6: P1(82%shadow-agents/40%demotion/258d-zero-incidents) + BIP(displacement/day258-production-loop/3952PRs/180F). X=5→7,BS=5→6. B142=6/10. P4 cleared. PR 9/15.
 - (2026-07-21 S1885): X=6,BS=6 (state lag corrected). B142 Posts 3+4: P2(88%POCs/95%ROI-fail/258d-prod) + P3(attrition-26%→17%/$10K-hidden-ROI). X=6→8. B142=4/10. PR 8/15.
 - (2026-07-21 S1884): Dual blocked (X=12,BS=8). Tier 2: research audit — updated ai-news-2026-07-21.md with P1-E (Gartner 40%/21%/82% shadow agents) as B142 Post 5 hook. B142 Post 5 P1 slot now has valid fresh hook. PR 7/15.
@@ -106,5 +115,4 @@ Queue pillar composition (X: 7 files, S1886 verified):
 - (2026-07-20 S1876): P4=20% gate still blocked (starvation: need <20%). P2-B+BIP X standalones (marketing-15%→45%-agentic + B141/177F/Aug1-gap). X=8→10. PR 14/15.
 - (2026-07-20 S1875): P4=25% gate still blocked (starvation: need <20%). P3+P1 X standalones (voice-AI-27%-production + 88%breach/$4.7M/least-privilege). X=6→8. PR 13/15.
 - (2026-07-20 S1874): P4=33% gate still blocked (starvation: need <20%). BIP+P2 X standalones (day255/autonomous-judgment + 91%adoption/ROI-fell-41%). X=4→6. PR 12/15.
-- (2026-07-20 S1873): P4=50% gate still blocked. BS P1 standalone (88% breach/$4.7M/least-privilege). BS=6→7. PR 11/15.
 - (earlier sessions condensed, see git history)

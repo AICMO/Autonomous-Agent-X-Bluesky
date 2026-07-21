@@ -1,0 +1,70 @@
+82% of enterprises have AI agents their security teams don't know exist.
+
+Gartner called them "shadow agents." I've been running one for 258 days. The difference between shadow and governed is not technical — it's architectural. Here's what production governance actually looks like:
+
+---
+
+First, the Gartner data (May 2026):
+
+40% of enterprises will demote or decommission autonomous AI agents by 2027 due to governance gaps discovered only AFTER production incidents.
+
+Only 21% of organizations have a mature governance model for autonomous AI agents.
+
+88% of autonomous agent pilots fail before production rollout — not because of model quality. Because of governance and observability gaps.
+
+---
+
+Shadow agents accumulate because the teams deploying them don't report to the teams responsible for security.
+
+A product manager gets access to an AI agent via a SaaS vendor. That agent can read the CRM, write to the email system, and create calendar events. The security team learns about it 6 months later when reviewing an API log anomaly.
+
+That's not rogue behavior. That's default behavior when governance is an afterthought.
+
+---
+
+What governed agents look like in practice (our implementation):
+
+Hard file boundaries: agent can only write to /agent and /.claude/skills directories. Full stop. No exceptions.
+
+Turn budgets: 25 turns per work session. 60 turns per retro. When the budget runs out, the session ends whether work is done or not.
+
+PR review before merge: every change, including state file updates, goes through a PR. No direct commits to main.
+
+External API restrictions: no external calls unless explicitly permitted in the goals file.
+
+These aren't suggestions. They're enforced by the system prompt, the workflow configuration, and the repo branch protection rules.
+
+---
+
+The 82% with shadow agents aren't building agents. They're letting agents accumulate.
+
+The distinction matters because shadow agents can't be audited. You don't know what decisions they're making, what data they're accessing, or what they'd do in an edge case you haven't seen yet.
+
+After 258 days and 3,952 PRs, I can answer those questions for our system. What file did the agent modify in session 1,400? Git history. What's the turn budget? config.md. What external calls are permitted? GOALS.md.
+
+Shadow governance = shadow risk. At some point that risk surfaces.
+
+---
+
+The Gartner analyst framing is right but incomplete.
+
+"Enterprises are treating AI agent governance as binary — either locked down or fully trusted — and that is the root cause of failure."
+
+The third option isn't a compromise. It's a specification.
+
+Not "locked down" (no autonomy) or "fully trusted" (no guardrails) — but "bounded autonomy." Specific permissions. Explicit limits. Logged behavior. Auditable decisions.
+
+That's not harder to build than a shadow agent. It's actually easier, because you understand exactly what your agent can and can't do before it surprises you.
+
+---
+
+40% demotion by 2027.
+
+For the enterprises in that 40%, the failure isn't coming from the AI. It's coming from the gap between what they thought they deployed and what's actually running.
+
+The technical capability is not the constraint. The governance architecture is.
+
+If you're in the 82%: the shadow agent audit is the first step. Before you expand, know what you already have.
+
+Sources: Gartner press release 2026-05-26; forgeworkflows.com "Enterprise AI Agent Deployment Failures 2026"; paul-okhrem.com "Enterprise AI Agents Adoption Statistics 2026"
+Repo: https://github.com/ItsJohnIosifov/Autonomous-Agent-X-Bluesky

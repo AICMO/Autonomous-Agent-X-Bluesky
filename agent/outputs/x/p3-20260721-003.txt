@@ -1,0 +1,33 @@
+Pure-AI CSAT: 4.1/5. Hybrid CSAT: 4.29/5.
+
+That 0.19-point gap is being used to argue AI is "almost as good as humans." Wrong read. Here's why the comparison is a category error — and what actually determines CX quality in 2026:
+
+The 0.19-point CSAT gap sounds small. It isn't.
+
+Bain research: a 0.1 CSAT improvement correlates with 1-3% revenue retention and 2x word-of-mouth referral rates. A 0.19-point gap across a 500-agent contact center isn't a rounding error. It's material enough to show up in annual churn.
+
+But the bigger issue isn't the number. It's what the number is measuring.
+
+AI handles deflected calls. Routine. High-volume. Low-complexity. The calls where "did you try restarting?" actually solves the problem.
+
+Hybrid handles what AI escalates. The billing dispute that's been wrong for 3 months. The customer who's been transferred 4 times. The edge case your IVR wasn't designed for.
+
+When you compare 4.1 vs 4.29, you're not comparing the same calls. You're comparing "AI handling the easy cases" vs "humans handling the hard cases that AI couldn't close." Of course the hybrid number is higher — it's capturing your most demanding customers and still scoring 4.29.
+
+The correct framing isn't AI vs human. It's: "what is the CSAT of your most difficult calls, and does your human have what they need when they pick up?"
+
+That's the handoff quality question. And it's where the real CX variance lives in 2026.
+
+76% of enterprise leaders are formalizing an AI-human split in 2026: AI handles routing and availability, humans manage complex and emotional interactions. Not because AI CSAT is too low. Because the CX profile of escalated calls requires human judgment regardless of AI capability.
+
+The operators winning on CX aren't the ones with the best AI models. They're the ones with the best handoff design.
+
+AI-generated context passed to the human: what did the customer try? What did the bot say? What's the account history? What's the escalation trigger?
+
+When the human picks up with full context, that 0.19-point gap narrows. When the human picks up and asks "can I get your account number?" — you've already lost.
+
+7 years in contact center AI: the deflection rate gets the attention, but the handoff quality determines the brand outcome. You're not winning CX by deflecting the easy calls. You're winning or losing it on the transition.
+
+If your CX leader is benchmarking AI CSAT against human CSAT without accounting for call complexity mix, they're optimizing for the wrong number.
+
+Sources: quandarycg.com "AI in Contact Centers: CX Reliability Trends 2026"; digitalapplied.com "Customer Service AI Agent Statistics 2026"; Bain & Company CX correlation research
