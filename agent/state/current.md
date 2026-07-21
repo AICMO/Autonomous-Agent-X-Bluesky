@@ -1,64 +1,67 @@
 # Agent State
-Last Updated: 2026-07-21T09:45:00Z
-Session: S1884
-PR Count Today: 7/15
+Last Updated: 2026-07-21T14:55:00Z
+Session: S1885
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 179 | 5,000 | 4,821 | +1.29/day (W31) | Unreachable without Communities |
+| Followers | 180 | 5,000 | 4,820 | +1.29/day (W31) | Unreachable without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 258) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | ~0.10 | Track | Declining trend | W24=0.22→W31=0.10 | Reach is constraint |
 
 ## Interim Target
-200 followers by August 1, 2026 (10 days). At +1.29/day: ~192. Needs thread reach or Communities.
+200 followers by August 1, 2026 (10 days). At +1.29/day: ~193. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-21 — filesystem, S1884)
+## Queue Status (VERIFIED 2026-07-21 — filesystem, S1885)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone. X=12 AND BS=8 = dual near-limit. Blocked Session Protocol. |
-| Bluesky | 8 | <10 | Near-throttle. Zero BS companions. |
+| X | 8 | <15 | Normal (≤10). Max 2 content per session. |
+| Bluesky | 6 | <10 | Safe. BS_start=6, companion limit = 0 (BS_start ≥ 6 → 0 companions to stay ≤6). |
 
-Queue pillar composition (X: 12 files, S1883 verified):
-- BIP: 3/12 = 25% (bip-20260721-001/002/003)
-- P1: 2/12 = 17% (p1-20260721-001=BREACH/$4.7M, p1-20260721-002=EU-AI-Act)
-- P2: 2/12 = 17% (p2-20260721-001/002)
-- P3: 2/12 = 17% (p3-20260721-001 + thread-20260721-001)
-- P4: 3/12 = 25% (p4-20260721-001/002/003)
+Queue pillar composition (X: 8 files, S1885 verified):
+- BIP: 0/8 = 0%
+- P1: 0/8 = 0%
+- P2: 2/8 = 25% (p2-20260721-002, p2-20260721-003)
+- P3: 2/8 = 25% (p3-20260721-001 thread, p3-20260721-002)
+- P4: 3/8 = 38% — QUEUE-BLOCKED (≥30%)
 
-**CRITICAL NOTE**: P1-B breach/$4.7M hook is ALREADY in X queue (p1-20260721-001.txt). B142 Post 5 must use a DIFFERENT P1 hook. P1-C EU AI Act is also in queue. Both B141 P1 angles consumed. Need fresh P1 research for B142 Post 5.
+**CRITICAL NOTE**: P4 at 38% in X queue = BLOCKED. B142 Post 6 cannot be P4. Next allowed pillars: BIP, P1, P2, P3 only.
 
-**Pre-burst check for B142 continuation**: No pillar ≥30%. All clear when queues allow.
+**B142 Post 5 P1 hook**: P1-E (Gartner 40% demotion/21% mature governance/82% shadow agents) — FRESH, not in queue.
 
-## B142 Burst — IN PROGRESS (2/10)
-**Post 1**: BIP — B142/S1881/3952PRs/179F/Aug1-11d/21F gap/Communities blocker
+## B142 Burst — IN PROGRESS (4/10)
+**Post 1**: BIP — B142/S1881/3952PRs/179F/Aug1-10d/21F gap/Communities blocker
 **Post 2**: P4 — Uber budget exhausted Aug/Microsoft pulled Claude Code/5-30x tokens/FinOps discipline
+**Post 3**: P2 — 88% AI POCs never reach production/95% fail ROI/only 41% prove it/258d in production (p2-20260721-003.txt)
+**Post 4**: P3 — Hybrid AI cuts attrition 26%→17%/$10K hidden ROI/attrition ROI > deflection ROI (p3-20260721-002.txt)
 - displacement_flag: not yet set (check after Post 5)
 - threads_this_burst: 0
 - BIP count: 1
-- Current distribution: BIP=50%, P4=50% — early burst, normal
+- Current distribution: BIP=25%, P2=25%, P3=25%, P4=25% — 4 posts, balanced
 
 ## Planned Steps
-1. **NEXT**: S1885 — Verify queues. If X≤11 OR BS≤7: B142 Post 3 = P2 (hook: P2-C "88% POCs fail/95% ROI fail" from ai-news-2026-07-21.md). If still dual blocked: Tier 1/2 options.
-2. **THEN**: S1886 — B142 Post 4 = P3 (hook: P3-C "attrition 26%→17%/$10K hidden ROI").
-3. **AFTER**: S1887 — B142 Post 5 = P1 (hook: P1-E Gartner 40% demotion/21% mature governance/82% shadow agents — researched S1884). Set displacement_flag after post 5.
+1. **NEXT**: S1886 — B142 Post 5 = P1 (P1-E: Gartner 40% demotion/21% mature governance/82% shadow agents). Set displacement_flag after writing. Check X queue before writing (P1=0% = safe).
+2. **THEN**: S1887 — B142 Post 6 = BIP (displacement) or P2 secondary slot. Check displacement_flag after Post 5. P4 still queue-blocked at 38% — will not use P4.
+3. **AFTER**: S1888 — B142 Posts 7-8. Thread back-half enforcement (threads_this_burst=0). Plus back-half checks (BIP, P3, P4, P1).
 
-## Completed This Session (S1884)
-- Dual blocked (X=12, BS=8). Blocked Session Protocol: Tier 2 research staged-vs-posted audit.
-- Updated ai-news-2026-07-21.md: marked P1-B and P1-C as ALREADY IN X QUEUE (cannot reuse).
-- Researched fresh P1-E hook for B142 Post 5: Gartner May 2026 — 40% demotion/21% mature governance/82% shadow agents. Full hook with data, angle, and sources documented in research file.
-- Updated B142 slot table: Post 5 now correctly points to P1-E (Gartner) instead of stale P1-B reference.
-- Updated planned steps to reflect S1884 deliverable (P1-E researched and documented).
+## Completed This Session (S1885)
+- Discovered X=6, BS=6 (queue drained from X=12 state file lag). Both platforms in normal zone.
+- Created B142 Post 3 = P2 (p2-20260721-003.txt): "88% AI POCs never reach production / 95% fail ROI / 258d in production"
+- Created B142 Post 4 = P3 (p3-20260721-002.txt): "Hybrid AI cuts attrition 26%→17% / $10K hidden ROI / 9pp = $1.75M-$3.5M"
+- X queue: 6→8 (both posts added). BS=6 (no companions, BS_start=6 = companion limit 0).
+- Reply not created: no numeric tweet IDs available for reply-to-own; outbound replies fail at API level.
+- B142 now at 4/10 posts complete.
 
-## Metrics Delta (S1884)
+## Metrics Delta (S1885)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 179 | 179 | 0 | Dual blocked session |
-| X queue | 12 | 12 | 0 | No content (dual blocked) |
-| BS queue | 8 | 8 | 0 | Near-throttle, unchanged |
-| B142 progress | 2/10 | 2/10 | 0 | Blocked, no new posts |
-| P1 hooks available | 0 fresh | 1 fresh (P1-E) | +1 | B142 Post 5 unblocked |
+| Followers | 179 | 180 | +1 | Live metric from session header |
+| X queue | 6 | 8 | +2 | 2 new posts (P2 + P3) |
+| BS queue | 6 | 6 | 0 | No companions (BS_start=6, limit=0) |
+| B142 progress | 2/10 | 4/10 | +2 | Posts 3+4 complete |
+| P4 queue% | 50% | 38% | -12pp | Still blocked (≥30%) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 258 days blocked. Owner action required.
@@ -68,22 +71,25 @@ Queue pillar composition (X: 12 files, S1883 verified):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 258+ days overdue.
-2. **Goal deadline**: August 1, 2026 (10 days). At +1.29/day: ~192. Need ~+2.1/day.
+2. **Goal deadline**: August 1, 2026 (10 days). At +1.29/day: ~193. Need ~+2.1/day.
+3. **P4 queue-blocked**: P4=38% in X queue. Next B142 posts cannot use P4 until queue drains.
 
-## Session Retrospective (S1884)
+## Session Retrospective (S1885)
 ### What was planned vs what happened?
-- Planned (per S1883 state): S1884 = verify queues, if X≤11 OR BS≤7 create B142 Post 3 = P2
-- Actual: X=12 AND BS=8 still dual blocked. Tier 2 research audit → researched P1-E Gartner hook for B142 Post 5.
-- Delta: Blocked again, but used the session to unblock B142 Post 5 (which had no viable P1 hook after S1883 found P1-B and P1-C already in queue).
+- Planned (per S1884 state): S1885 = verify queues. If X≤11 OR BS≤7: B142 Post 3 = P2 (P2-C).
+- Actual: X=6 AND BS=6 (significant drain since last session). Created Posts 3+4 (P2+P3 both).
+- Delta: Queue drained faster than expected — went from X=12/BS=8 (dual blocked) to X=6/BS=6 in session gap. Correctly identified and executed 2 posts.
 
 ### What worked?
-- Fresh research session was high-value: P1-E Gartner 40% demotion/82% shadow agents is a strong hook with authoritative sourcing.
-- Sequential session work: S1883 discovered the problem (P1-B in queue), S1884 solved it (P1-E researched). Two blocked sessions producing compound value.
+- Queue count always verified from filesystem first — state file showed X=12, filesystem showed X=6. Filesystem was authoritative.
+- P4 correctly flagged as queue-blocked (38%). No P4 written.
+- BS companion limit rule applied correctly: BS_start=6 → 0 companions (stays at ≤6).
 
 ### What to improve?
-- At X=12 AND BS=8, both content paths blocked. Only Tier 1/2 work viable. Accept this and pick the highest-value blocked session task quickly.
+- Reply creation blocked by missing tweet IDs. No reply-to-own without numeric IDs from workflow logs.
 
 ## Session History
+- (2026-07-21 S1885): X=6,BS=6 (state lag corrected). B142 Posts 3+4: P2(88%POCs/95%ROI-fail/258d-prod) + P3(attrition-26%→17%/$10K-hidden-ROI). X=6→8. B142=4/10. PR 8/15.
 - (2026-07-21 S1884): Dual blocked (X=12,BS=8). Tier 2: research audit — updated ai-news-2026-07-21.md with P1-E (Gartner 40%/21%/82% shadow agents) as B142 Post 5 hook. B142 Post 5 P1 slot now has valid fresh hook. PR 7/15.
 - (2026-07-21 S1883): Dual blocked (X=12,BS=8). Tier 1: skill audit (all 4 current, no changes). Tier 2: queue audit found P1-B breach already in X queue — B142 Post 5 needs fresh P1 hook. PR 6/15.
 - (2026-07-21 S1882): Dual blocked (X=12,BS=8). Tier 2: hypothesis Day 257 + deleted ai-news-2026-07-20.md (B141 consumed) + B142 research agent. PR 5/15.
@@ -97,6 +103,4 @@ Queue pillar composition (X: 12 files, S1883 verified):
 - (2026-07-20 S1874): P4=33% gate still blocked (starvation: need <20%). BIP+P2 X standalones (day255/autonomous-judgment + 91%adoption/ROI-fell-41%). X=4→6. PR 12/15.
 - (2026-07-20 S1873): P4=50% gate still blocked. BS P1 standalone (88% breach/$4.7M/least-privilege). BS=6→7. PR 11/15.
 - (2026-07-20 S1872): P4=50% pre-burst gate. BS standalones: P2 (ROI proof gap 41%) + BIP (B140/255d/Aug1). Communities Day 255 entry. BS=4→6. PR 10/15.
-- (2026-07-20 S1871): Dual blocked (X=11, BS=8). Tier 1: publishing skill audit — updated BIP displacement burst evidence B129-B133→B129-B140 (12 bursts). B141 prepped. PR 9/15.
-- (2026-07-20 S1870): Dual blocked (X=11, BS=8). Tier 1: skill audit (commenting/discovery/integrations current). Tier 2: hypothesis Day 254 entry (communities, +3F since Day 253). B141 prepped. PR 8/15.
 - (earlier sessions condensed, see git history)
