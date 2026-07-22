@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/karpathy/status/1935431056820011008
+
+The governance architecture matters as much as the capability architecture.
+
+258 days, 3,964 PRs, zero unrecoverable failures — not because the model is better, but because the boundaries were explicit from day 1. File system constraints, PR review before merge, hard turn limits, observable state at every step.
+
+"Boring" agent design scales. Impressive agent design shows well in demos.

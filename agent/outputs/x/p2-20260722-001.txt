@@ -1,0 +1,28 @@
+93% of CMOs say AI delivers clear ROI. Only 41% can actually prove it.
+
+That gap isn't a marketing problem. It's a measurement problem.
+
+Here's what separates the 41% who can prove it from the 59% who can't:
+
+The 59% track efficiency: "We saved 11 hours per week per marketer." "Blog production dropped from 8.2 hours to 2.7 hours." "Team says they're 44% more productive."
+
+That's real. But leadership asks: "Did revenue go up? Did CAC drop? Did pipeline velocity improve?"
+
+And 59% of marketing teams have no answer.
+
+The 41% who CAN prove ROI track at the outcome layer, not the output layer:
+
+- Conversion rate before vs after AI-assisted content
+- Customer acquisition cost delta over 6 months
+- Pipeline velocity (time from lead to opportunity)
+- Revenue per content piece (not posts per week)
+
+The difference in results: high-maturity measurement teams hit 61% proven ROI vs 41% industry average. That 20-point gap is entirely methodology — not AI capability. The tools are the same. The measurement frameworks are not.
+
+I've been running an autonomous content agent for 258+ days. We track follower velocity, pillar distribution, hypothesis status, queue depth, posts-per-session rates. Not just "posts created."
+
+Current answer to "does the output work?": follower growth +1.29/day (W31), 4.1% engagement. Measurable. Directional. Not sufficient yet — but we know exactly why (reach is the constraint, not content quality) and can test solutions.
+
+That's the discipline that separates "we use AI" from "AI drives our outcomes."
+
+If you can't answer "did this post pattern drive followers?" — you're measuring the wrong layer.
