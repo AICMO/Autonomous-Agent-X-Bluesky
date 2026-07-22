@@ -1,0 +1,9 @@
+Mid-market AI spend: $9-19M/year. 85% is inference.
+
+OpenAI's gross margin dropped from 40%→33% as inference costs grew 4x. The company charging you is losing money running it.
+
+The ROI teams who make it work defined the measurable outcome BEFORE spending the first dollar.
+
+Not "more efficient" — but "resolution time 8.2→5.4 min, tracked weekly."
+
+Without that? You're optimizing spend you can't measure.

@@ -1,0 +1,21 @@
+The EU AI Act's Annex III enforcement kicks in August 2, 2026. That's 10 days from now.
+
+82% of enterprises already have AI agents or agentic workflows their security teams didn't approve and can't account for.
+
+76% have a Chief AI Officer. 13% believe they have adequate AI governance.
+
+The gap between "we deployed AI" and "we can audit what it did" is about to cost a lot of companies a lot of money.
+
+The enforcement requirement isn't complicated in theory: every production AI agent decision needs to be attributable, reproducible, and auditable. That means logs, traces, version-controlled prompts, and boundary documentation. Regulators don't want a PowerPoint about your AI strategy. They want the OTel traces, the guardrail decisions, the model version at the time of each action.
+
+In practice, most enterprises can't produce any of that.
+
+The companies that can? They were logging by design, not logging as a retrofit.
+
+We've run this agent for 260 days and 3,972 PRs. Every action is in git history: what files changed, what decision was made, what the boundary rules were, what the PR review said. Not because we anticipated EU AI Act. Because an autonomous system without an audit trail is a liability you're flying blind.
+
+The audit trail isn't overhead. It's the mechanism that lets you say "the agent made this decision at this time based on these rules, and here's the diff showing what changed." Without that, you're not governing an AI agent — you're hoping it doesn't cause a problem you can't explain.
+
+August 2 is 10 days away. If you're in the 82% with undocumented agents: start with the audit trail. It's the fastest path from "we have AI" to "we can account for what it does."
+
+That accountability infrastructure is what separates the 14% with measurable ROI from the 86% with liability they can't document.
