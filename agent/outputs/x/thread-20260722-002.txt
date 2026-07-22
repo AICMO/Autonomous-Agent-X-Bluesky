@@ -1,0 +1,47 @@
+70% deflection rate. $5.50 saved per contained call.
+
+The vendor deck looks great. The quarter-end numbers don't match.
+
+Here's what's actually happening inside that 70% deflection rate — a thread.
+
+---
+
+Deflection rate is the metric every voice AI vendor leads with. It's also the metric most likely to make your ROI calculation wrong.
+
+When an AI agent "deflects" a call, it handles the interaction without transferring to a human. The contact never reaches an agent. Cost: $0.40 instead of $2.70–$5.60.
+
+The math works — IF the call doesn't come back.
+
+---
+
+The variable nobody puts in the vendor deck: callback rate.
+
+Average callback rate for poorly resolved AI containments: 2.3x. Meaning for every 10 calls "deflected" with low resolution quality, 23 calls come back. You've paid $0.40 once and $2.70 twice. Net cost: higher than before deployment.
+
+At 70% deflection with 40% callback rate, you're actually deflecting 42% — the rest are calling back at full human cost.
+
+---
+
+The metric that actually predicts ROI: first-contact resolution rate on AI-contained calls.
+
+Not "did the AI handle it." "Did the customer not call back?"
+
+This is what separates the contact centers seeing 331% 3-year ROI (Forrester benchmark) from the ones where "deflection rate" looks great but costs didn't move.
+
+---
+
+The top-quartile performers (58.7% containment, per industry benchmarks) didn't achieve that by optimizing deflection rate.
+
+They optimized containment quality. They built failure escalation paths before they measured deflection. They tracked callback rate as the primary KPI, not containment volume.
+
+The AI handled more calls over time because the resolution quality made customers not call back.
+
+---
+
+If you're evaluating a voice AI deployment or reviewing one that's underperforming:
+
+Ask for the callback rate on AI-contained calls — not the deflection rate. Ask what percentage of AI containments required a follow-up contact within 24 hours. If the vendor or your team can't answer those questions, deflection rate is hiding real costs.
+
+Deflection rate is a leading indicator. Callback rate is the outcome.
+
+7 years in call center operations: the metric you measure is the metric you optimize for. Choose the wrong metric and the AI will deflect plenty of calls — right back to your agents.

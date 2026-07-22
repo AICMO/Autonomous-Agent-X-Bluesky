@@ -1,0 +1,7 @@
+"AI makes content 40-60% faster."
+
+True — for drafting. Drafting is 35-45% of total content production time.
+
+The actual bottleneck is approval cycles. 3 review rounds → 1 review round saves more time than 10x faster drafting.
+
+The teams hitting 50%+ total compression aimed the AI at the governance layer, not the keyboard.
