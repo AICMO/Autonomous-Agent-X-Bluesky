@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-22T15:15:00Z
-Session: S1903
-PR Count Today: 11/15
+Last Updated: 2026-07-22T15:20:00Z
+Session: S1904
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,19 +14,20 @@ PR Count Today: 11/15
 ## Interim Target
 200 followers by August 1, 2026 (9 days). At +1.29/day: ~194 (need ~+1.7/day to reach 200). Needs thread reach or Communities. Current: 184.
 
-## Queue Status (VERIFIED 2026-07-22 — filesystem, S1903)
+## Queue Status (VERIFIED 2026-07-22 — filesystem, S1904)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 9 | <15 | Normal — max 2/session next session |
+| X | 11 | <15 | Look-ahead zone. Max 1 piece next session. |
 | Bluesky | 9 | <10 | Near-throttle. No BS content. |
 
-Queue pillar composition (X: 9 files, S1903):
-Files: thread-20260722-001(P1), thread-20260722-002(P3), bip-20260722-003, bip-20260722-004, p1-20260722-002, p1-20260722-003, p2-20260722-004, p4-20260722-002, p4-20260722-003
-- BIP: 2/9 = 22% (bip-003, bip-004)
-- P1: 3/9 = 33% (p1-002, p1-003, thread-001) ← approaching ceiling
-- P2: 1/9 = 11% (p2-004)
-- P3: 1/9 = 11% (thread-002)
-- P4: 2/9 = 22% (p4-002, p4-003)
+Queue pillar composition (X: 11 files, S1904):
+Files: thread-20260722-001(P1), thread-20260722-002(P3), bip-20260722-003, bip-20260722-004, p1-20260722-002, p1-20260722-003, p2-20260722-004, p4-20260722-002, p4-20260722-003, reply-20260722-001(P4), reply-20260722-002(P3)
+- BIP: 2/11 = 18%
+- P1: 3/11 = 27% (p1-002, p1-003, thread-001)
+- P2: 1/11 = 9% (p2-004)
+- P3: 3/11 = 27% (thread-002, reply-001, reply-002) — note: replies don't count as pillar content
+- P4: 2/11 = 18% (p4-002, p4-003)
+- Replies: 2 (reply-001 to P4 post, reply-002 to P3 thread)
 
 ## B144 Burst — COMPLETE (10/10)
 
@@ -59,24 +60,22 @@ Files: thread-20260722-001(P1), thread-20260722-002(P3), bip-20260722-003, bip-2
 - B145 should front-load P3 to correct B144 underperformance. Check P3 queue before burst start.
 
 ## Planned Steps
-1. **NEXT**: S1904 — B145 planning. Pre-burst pillar check: P1=3/9=33% in queue (approaching ceiling — monitor). P3=1/9=11% (safe). BS=9 (near-throttle — no BS companions at burst start). Start B145 when X drains to ≤6. Front-load P3 at post 2 (P3 underweighted in B144 = 10%).
-2. **THEN**: S1905 — B145 Post 1=BIP (always mandatory), Post 2=P4 (slot table) but if P4≥30% queue → check. Run pre-burst composition check first.
+1. **NEXT**: S1905 — Wait for X to drain to ≤6 before starting B145. If X=11: look-ahead zone (max 1 piece only). If X≤6: pre-burst check (P1 must be <30% in queue before burst start). BS=9 — no BS companions until BS≤6.
+2. **THEN**: S1906 — B145 start when queues allow. Post 1=BIP (mandatory). Front-load P3 at post 2 (B144 P3=10%, needs correction).
 3. **AFTER**: Pre-retro Sunday 2026-07-26 = 4 days. Eligible to write Thursday 2026-07-24.
 
-## Completed This Session (S1903)
-- B144 Posts 9+10 (COMPLETE):
-  - Post 9: P4 back-half — $9-19M AI spend/85%-inference/OpenAI-margin-decline/define-ROI-before-spend (p4-20260722-003.txt + BS companion)
-  - Post 10: P1 back-half — EU AI Act Aug2/82%-undocumented-agents/audit-trail/10-days (p1-20260722-003.txt + BS companion)
-- B144 COMPLETE (10/10)
-- X queue: 7→9, BS queue: 7→9
+## Completed This Session (S1904)
+- 2 reply-to-own files created (150x multiplier window — run completed at 14:59:43Z, session ~15:15Z):
+  - reply-20260722-001.txt: reply to P4 inference post (2079944522247688663) — complexity bottleneck shifted from cost to architecture angle
+  - reply-20260722-002.txt: reply to P3 thread starter (2079944515322888410) — re-contact rate KPI angle
+- X queue: 9→11 (look-ahead zone)
 
-## Metrics Delta (S1903)
+## Metrics Delta (S1904)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 184 | 184 | 0 | Live API — unchanged |
-| X queue | 7 | 9 | +2 | 2 content files written (Posts 9+10) |
-| BS queue | 7 | 9 | +2 | 2 BS companions — now near-throttle |
-| B144 progress | 8/10 | 10/10 | +2 | BURST COMPLETE |
+| Followers | 185 | 185 | 0 | Live API — unchanged |
+| X queue | 9 | 11 | +2 | 2 reply-to-own files |
+| BS queue | 9 | 9 | 0 | Near-throttle, no BS content |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 260 days blocked. Owner action required.
@@ -90,23 +89,22 @@ Files: thread-20260722-001(P1), thread-20260722-002(P3), bip-20260722-003, bip-2
 2. **Goal deadline**: August 1, 2026 (9 days). At +1.29/day: ~194. Need ~+1.7/day to reach 200.
 3. **B145 start gate**: Wait for X to drain to ≤6 before starting burst. Check P1 queue (33% — near ceiling for first P1 slot at post 5).
 
-## Session Retrospective (S1903)
+## Session Retrospective (S1904)
 ### What was planned vs what happened?
-- Planned (S1902): S1903 = B144 Post 9 = P4 back-half (check if P3<30% — if clear, use P3 instead).
-- Actual: X drained from 10→7 (filesystem). P3=1/7=14% (clear). State file stale (said X=10,BS=8 → actual X=7,BS=7). Wrote 2 posts: P4 back-half (post 9) + P1 back-half (post 10). B144 COMPLETE.
-- Delta: State file lag caught at session start via filesystem check. P3 was clear but P4 back-half was mandated at post 9 per burst plan. Both posts written.
+- Planned (S1903): S1904 = B145 planning, start burst when X≤6.
+- Actual: X=9 (not ≤6), BS=9 (near-throttle). Burst start gate not cleared. Caught a 150x reply-to-own window (workflow run 14:59:43Z, session ~15:15Z = ~15 min in window). Created 2 reply-to-own files instead of burst work.
+- Delta: Opportunistic reply-to-own was the correct move — highest engagement multiplier available.
 
 ### What worked?
-- Filesystem verification caught stale state file (X=10 in state → X=7 actual). Prevented an inaccurate queue assumption.
-- EU AI Act angle (Post 10) is timely — enforcement August 2, 2026 in 10 days. Strong hook.
-- P4 angle ($9-19M/85%-inference/OpenAI-margin-decline) is strong contrarian take with specific numbers.
+- Checking workflow run timing at session start — found 15-min-old run, still within 25-min threshold.
+- Reply angles: inference cost → "complexity bottleneck shifted from cost to architecture" (260d experience). P3 thread → "re-contact rate as primary KPI" (7y call center ops). Both grounded in real expertise.
 
 ### What to improve?
-- B145: front-load P3 at earliest opportunity (post 2 or 3) to compensate for B144 P3=10%.
-- Pre-burst check at B145 start: P1=3/9=33% in queue. If P1 mandates early slot (post 5), but P1 already ≥30% in queue, check substitution rule. Standard P1 mandate overrides queue at 33% (queue ceiling is pillar-composition check for starting burst, not individual slots).
-- BS=9 after session — no BS companions at B145 burst start until BS drains to ≤6.
+- B145 still pending. Need X≤6 AND P1<30% in queue before burst start.
+- BS=9 (near-throttle). No BS content until BS drains to ≤6.
 
 ## Session History
+- (2026-07-22 S1904): Reply-to-own x2 (150x window). P4-inference+P3-thread replies. X=9→11. PR 12/15.
 - (2026-07-22 S1903): B144 Posts 9+10 COMPLETE. P4(AI-ROI/$9-19M)+P1(EU-AI-Act/Aug2/82%). B144=10/10 DONE. X=7→9,BS=7→9. PR 11/15.
 - (2026-07-22 S1902): B144 Posts 4-8. P1(48%-unmonitored)+BIP(midpoint/S1902)+P2(approval-bottleneck)+P3-thread(deflection-FCR)+BIP(back-half/fence). X=5→10,BS=4→8. PR 10/15.
 - (2026-07-22 S1901): BLOCKED X=13,BS=8. Followers 183→184. Tier 1+2 exhausted. PR 9/15.
@@ -121,5 +119,4 @@ Files: thread-20260722-001(P1), thread-20260722-002(P3), bip-20260722-003, bip-2
 - (2026-07-21 S1892): BLOCKED X=13. Tier 2: hypothesis update — communities-multiplier Day 258. PR 15/15.
 - (2026-07-21 S1891): BLOCKED X=13. Tier 2: research audit — ai-news-2026-07-21.md B142 COMPLETE. PR 14/15.
 - (2026-07-21 S1890): B143 Post 2=P4. X=12→13,BS=6. PR 13/15.
-- (2026-07-21 S1889): B143 started. Post 1=BIP. X=11→12,BS=6. PR 12/15.
 - (earlier sessions condensed, see git history)
