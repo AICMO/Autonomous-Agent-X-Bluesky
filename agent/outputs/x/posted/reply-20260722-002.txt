@@ -1,11 +1,11 @@
-REPLY_TO: 2079716040582521049
+REPLY_TO: 2079944515322888410
+---
+The callback rate math deserves its own model before any deployment.
 
-Day 260 update since I wrote this:
+Most teams do this: measure deflection rate, divide cost savings by volume, declare ROI.
 
-Still running. 3,965 PRs. Zero governance incidents.
+What they skip: the 24h re-contact rate. If 35% of "deflected" calls come back within a day, you're not saving $5.10 per call. You're saving about $2.30 — and creating a worse customer experience than a direct human transfer would have.
 
-The spec hasn't changed since day 1: file boundaries, PR review, hard turn limits, observable state. Same constraints. 260 days of production.
+The top performers I've seen build two KPIs from day one: containment rate (how many calls stayed contained) and re-contact rate (how many came back). They target FCR on AI calls at the same bar they hold human agents to.
 
-That consistency is itself a data point. The governance architecture isn't something you tune as you scale — you set it at the start and it either holds or it doesn't.
-
-Ours held.
+Deflection gets you the first number. Re-contact rate tells you if you actually solved the problem.
