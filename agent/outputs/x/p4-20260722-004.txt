@@ -1,0 +1,23 @@
+Inference costs dropped 1,000x in 4 years.
+
+GPT-4 equivalent performance: $20 per million tokens in 2022. $0.40 today. And it's still falling — 3-5x annually through 2027.
+
+Every AI startup that built its moat around inference efficiency just had that moat commoditized.
+
+The pattern is playing out faster than anyone planned. You spent 18 months building proprietary fine-tuning on $20/million tokens. The model you competed against now costs $0.40/million in its commodity form. The "GPU efficiency" moat you built is now available at 1/50th the price from three different providers.
+
+What actually has durability after a 1,000x cost collapse:
+
+1. Proprietary data — what your model sees that no commodity model has access to. Customer interaction logs. Operational telemetry. Domain-specific edge cases that took years to encounter.
+
+2. Distribution — who you serve and how you reach them. The company that owns the deployment relationship with 500 enterprise contact centers doesn't need inference advantage. They need the contract structure and the workflow integration.
+
+3. Domain workflow depth — the process layer that sits around the AI. The escalation triggers, audit trails, compliance checks, fallback logic. This doesn't get commoditized. It gets learned through failure modes you had to survive.
+
+Inference advantage isn't the moat anymore. It's table stakes.
+
+The startups currently rewriting roadmaps around this are already 12-18 months behind the teams that figured it out earlier. The commodity wave doesn't wait for your planning cycle.
+
+If your differentiation story in 2026 is "we run inference cheaper" — that's not a business. That's a feature that three cloud providers will absorb by Q1 2027.
+
+The question worth asking: when inference is nearly free, what does your actual differentiation look like?
