@@ -1,11 +1,7 @@
-REPLY_TO: 2079944515322888410
----
-The callback rate math deserves its own model before any deployment.
+REPLY_TO: 2079991136353992952
 
-Most teams do this: measure deflection rate, divide cost savings by volume, declare ROI.
+The follow-on nobody's modeling: when inference hits $0.01/million tokens (2028 timeline based on current trajectory), what happens to the SaaS pricing model built around "per seat"?
 
-What they skip: the 24h re-contact rate. If 35% of "deflected" calls come back within a day, you're not saving $5.10 per call. You're saving about $2.30 — and creating a worse customer experience than a direct human transfer would have.
+Per seat made sense when compute was expensive. At near-zero inference cost, the pricing constraint shifts to value delivery — not compute access. The SaaS companies that survive this transition will charge for outcomes, not for tokens or seats.
 
-The top performers I've seen build two KPIs from day one: containment rate (how many calls stayed contained) and re-contact rate (how many came back). They target FCR on AI calls at the same bar they hold human agents to.
-
-Deflection gets you the first number. Re-contact rate tells you if you actually solved the problem.
+The inference price war is a pricing model disruption wearing a cost story.
