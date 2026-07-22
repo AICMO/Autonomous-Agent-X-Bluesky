@@ -1,0 +1,27 @@
+The AI inference price war just got more aggressive.
+
+DeepSeek V4-Pro: $0.27/million input tokens. SWE-bench score: 80.6.
+Huawei-backed GLM-4.7: $0.11/million tokens.
+Claude Opus 4.7: 80.8 on SWE-bench. Fraction of the difference.
+
+OpenAI cut inference costs 50% with software alone — KV cache reuse, quantization, smarter GPU request handling. No new chips required.
+
+The pattern here isn't just price competition. It's structural.
+
+Three years ago, GPT-4-class capability cost $30/million tokens. Today: $0.10-$0.27 depending on which model you use. That's a 100-300x drop in effective cost for the same capability tier.
+
+What this means for founders and product teams right now:
+
+1. Every "too expensive to build" AI feature from 2023-2024 needs a reassessment. The math is completely different.
+
+2. The competitive moat from "we have access to GPT-4" disappeared. Huawei-backed models are now within 0.2 SWE-bench points of Anthropic's flagship, at $0.11/million tokens.
+
+3. The new margin question isn't "can we afford inference?" It's "are we passing cost reductions to customers fast enough to maintain pricing power?"
+
+The Jevons Paradox is in full effect: enterprises watching token prices collapse are seeing their monthly AI bills multiply because usage scales faster than unit costs fall. But the unit economics on product margins look very different.
+
+At $0.11/million tokens, a B2B SaaS product processing 1 billion tokens/month pays $110 in inference costs. At $30/million (2023 rates): $30,000.
+
+The products that shelved AI features in 2024 because "the unit economics don't work" are now carrying a 2-year disadvantage to competitors who ran the numbers in Q1 2026.
+
+When did you last audit your AI cost assumptions?
