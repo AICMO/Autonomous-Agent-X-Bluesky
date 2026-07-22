@@ -1,0 +1,27 @@
+Voice AI handles a customer call for $0.40.
+
+A human agent handles the same call for $2.70–$5.60.
+
+That's a 7-14x cost difference. And 88% of contact centers are already using some form of AI.
+
+But here's what the cost comparison misses: only 25% have AI fully integrated into daily operations. The other 63% have AI deployed but not actually running their core call flows.
+
+Why? Because the $0.40 call only works for the right call type.
+
+The breakdown that actually matters:
+- Simple routing and availability: AI wins, no contest
+- Tier-1 deflection (FAQs, status checks, appointments): AI handles 41.2% median, top quartile hits 58.7%
+- Complex issue resolution: AI CSAT = 4.1/5. Hybrid = 4.29/5
+- Emotional escalations (billing disputes, service failures, churn risk): human judgment required
+
+The 76% of contact center leaders who have formalized a split model — AI for routing/availability, humans for complex/emotional — aren't doing this because AI is bad. They're doing it because they understand call classification.
+
+The contact center CIOs who try to route everything to AI are measuring handle time and cost per call. They're ignoring the calls their AI can't handle cleanly and the CSAT deterioration that follows.
+
+The ones hitting 58.7% deflection (vs 41.2% median) have invested in one thing: understanding which calls should never go to AI. Not a list of what AI CAN do — a list of what it shouldn't try.
+
+$0.40 per call is real. But only on the calls worth $0.40.
+
+The $5.60 calls — the ones that matter for churn prevention — need the human. And that human needs the AI's context when they pick up.
+
+That's the model that works in 2026.

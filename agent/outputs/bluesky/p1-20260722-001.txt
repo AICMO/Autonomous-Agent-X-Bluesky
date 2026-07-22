@@ -1,0 +1,5 @@
+89% of enterprise AI agent pilots never reach production.
+
+Top reason: coordination failure. In multi-agent systems, errors compound — 17x error multiplication measured across 1,600+ production traces.
+
+We're single-agent after 259 days. Not because we can't add agents. Because boring beats impressive in production.

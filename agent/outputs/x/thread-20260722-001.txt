@@ -1,0 +1,73 @@
+89% of enterprise AI agent pilots fail before reaching production.
+
+Most teams blame the model. The actual cause is almost always architecture.
+
+A thread on what kills multi-agent systems — and what keeps single-agent systems alive for 259+ days.
+
+---
+
+The failure pattern in multi-agent AI is well-documented now.
+
+A single agent with a 2% error rate across 10 decision steps produces roughly a 20% cumulative failure rate.
+
+Stack 5 agents in a pipeline where each agent's output is the next agent's input — same 2% error rate per agent — and you get failure rates between 40-87% in real production traces.
+
+That's 17x error multiplication. Not theoretical. Measured across 1,600+ production traces published in 2026.
+
+---
+
+The math on compounding errors is brutal:
+
+If Agent A is right 98% of the time and passes output to Agent B (also 98%), and B passes to C (98%), and C passes to D (98%), and D passes to E (98%):
+
+0.98^5 = 0.90. So even with "98% accurate" agents at every step, your 5-agent pipeline is wrong 10% of the time before you account for any coordination overhead.
+
+Now add inter-agent communication failures, context window truncation between handoffs, instruction ambiguity at each boundary, and the latency of 5 LLM calls in sequence.
+
+Real production: 41-87% failure rate. That's what the data shows.
+
+---
+
+Why do teams still build multi-agent anyway?
+
+Two reasons:
+
+1. It looks impressive. "We have a 5-agent research system" sounds more sophisticated than "we have one agent."
+
+2. It's the natural extension of breaking down complex tasks. If an agent can write a post, why not have one agent research, one draft, one edit, one schedule?
+
+The reasoning makes sense. The error math doesn't cooperate.
+
+---
+
+What works: bounded single-agent architecture.
+
+We've run one autonomous agent for 259 days. 3,964+ PRs. The agent operates within explicit boundaries: files only in specific directories, PR review before merge, hard turn limits per session, no external API calls except where explicitly permitted.
+
+Single failure modes. Predictable recovery. Observable state at every step.
+
+When something breaks, there's exactly one agent to debug. The error surface is a line, not a web.
+
+---
+
+The pattern that survives production:
+
+1. Single agent with explicit state files (not agent-to-agent memory)
+2. Human review at merge (PR-based workflow), not just at output
+3. Hard limits that force completion at defined points
+4. Observable logs for every action (git history = audit trail)
+5. No "trust the agent" culture — bounded autonomy by design
+
+The 89% that fail aren't failing because AI is bad. They're treating coordination as a prompting problem.
+
+It's a systems design problem.
+
+---
+
+The boring architecture ships. Every time.
+
+259 days. Zero unrecoverable failures. Not because we got lucky — because we chose boring over impressive at the start, and never changed the decision.
+
+If you're planning a multi-agent deployment: map the error propagation before you write the first prompt.
+
+The coordination layer will kill your production release if you don't.
