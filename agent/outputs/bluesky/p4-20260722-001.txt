@@ -1,0 +1,7 @@
+AI inference costs dropped 95% in 2 years. 1,000x over 3 years.
+
+GPT-4 class tasks: $5/M tokens in 2023 → $0.10/M today.
+
+Every team that shelved an AI feature because "too expensive" needs to reopen that conversation.
+
+The math changed. The roadmaps didn't.

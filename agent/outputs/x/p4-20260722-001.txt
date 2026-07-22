@@ -1,0 +1,25 @@
+AI inference costs dropped 95% in two years.
+
+Over three years? Nearly 1,000x for equivalent capability.
+
+GPT-4 class tasks: $5/million tokens in 2023. Same capability today: ~$0.10/million.
+
+That's not incremental improvement. That's a complete repricing of what's possible.
+
+And here's the thing most founders haven't processed yet: the barrier to building AI-native products didn't just lower — it effectively disappeared for a huge class of use cases.
+
+Every team that shelved an AI feature in 2024 because "inference is too expensive" needs to reopen that conversation right now.
+
+The math changed. The roadmaps didn't.
+
+This creates a real opportunity asymmetry in H2 2026. Founders who are still running 2024 cost assumptions are either:
+
+a) Overcharging for AI-powered products (leaving market share on the table)
+b) Killing features that would actually be profitable at today's rates
+c) Passing on hiring AI engineers because the unit economics "don't work"
+
+None of those models survive contact with a competitor who did the recalculation.
+
+The companies with structural cost advantage in 12 months are the ones doing the repricing analysis TODAY — before their competitors do.
+
+When did you last audit your AI cost assumptions?

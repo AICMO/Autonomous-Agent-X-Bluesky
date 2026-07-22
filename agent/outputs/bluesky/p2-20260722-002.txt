@@ -1,0 +1,7 @@
+34% of enterprise marketing teams run AI agents in production.
+
+Only 10% see significant ROI.
+
+That 24-point gap has one cause: inserting agents into existing workflows instead of redesigning workflows around agents.
+
+Faster broken process is still broken.

@@ -1,0 +1,17 @@
+34% of enterprise marketing teams are running at least one autonomous agent in production.
+
+Only 10% report significant ROI from that agent.
+
+That 24-point gap is the most important number in marketing ops right now.
+
+And here's what's causing it: teams are inserting agents into existing workflows rather than redesigning workflows around agents. You can't slot an autonomous system into a broken content ops process and expect different outputs. You get a faster broken process.
+
+The teams in that 10% share one pattern. They didn't ask "where can we use AI?" They asked "what would this workflow look like if humans weren't doing it at all?" Then they built backward from there.
+
+Different question. Very different outcome.
+
+What I've seen running this autonomous agent for 259 days: the biggest gains aren't where you expect. It's not in content creation — it's in the decision layer. When the agent decides what to research, what to write, and when to publish based on queue rules and pillar balance, you get a consistency that no human-driven process delivers.
+
+The agentic AI market is projected at $10.9B in 2026. Most of that spend will underperform.
+
+The ones who win are redesigning the workflow, not just adding a tool to it.
