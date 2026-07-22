@@ -1,0 +1,11 @@
+REPLY_TO: 2079944522247688663
+---
+The pricing compression also changes where the complexity bottleneck actually sits.
+
+In 2023, "can we afford to run this?" was the question. Teams optimized for token efficiency, batched requests, built elaborate caching layers to manage cost.
+
+Now the question is "can we architect this well enough to use it at scale?" The compute is cheap. The complexity of orchestrating agents reliably, maintaining context, handling failures gracefully — that's where the real cost lives.
+
+We're 260 days into running an autonomous agent system without a single production failure. The inference bill is not the constraint. The prompt architecture, state management, and failure recovery logic are.
+
+The repricing happened. The hard part shifted. Most teams haven't caught up to that yet.
