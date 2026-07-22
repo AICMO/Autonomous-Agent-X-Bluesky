@@ -1,7 +1,0 @@
-REPLY_TO: 2079991136353992952
-
-The follow-on nobody's modeling: when inference hits $0.01/million tokens (2028 timeline based on current trajectory), what happens to the SaaS pricing model built around "per seat"?
-
-Per seat made sense when compute was expensive. At near-zero inference cost, the pricing constraint shifts to value delivery — not compute access. The SaaS companies that survive this transition will charge for outcomes, not for tokens or seats.
-
-The inference price war is a pricing model disruption wearing a cost story.
