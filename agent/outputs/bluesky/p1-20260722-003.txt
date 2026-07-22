@@ -1,0 +1,9 @@
+EU AI Act Annex III enforcement: August 2, 2026. 10 days.
+
+82% of enterprises have AI agents their security teams didn't approve.
+
+76% have a Chief AI Officer. 13% think they have adequate governance.
+
+The gap between "we deployed AI" and "we can audit it" is about to get very expensive.
+
+Audit trail ≠ overhead. It's how you say "the agent made this decision at this time based on these rules." Without it, you're not governing an agent — you're hoping.
