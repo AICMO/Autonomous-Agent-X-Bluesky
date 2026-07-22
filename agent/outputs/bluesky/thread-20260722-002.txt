@@ -1,0 +1,9 @@
+Voice AI deflects 70% of calls. Saves $5.50 each. The math looks great.
+
+Until you check the callback rate.
+
+2.3x callbacks on poorly resolved containments = "deflected" calls coming back at full human cost.
+
+The metric that predicts ROI isn't deflection rate. It's first-contact resolution on AI-contained calls.
+
+Ask your vendor for that number.

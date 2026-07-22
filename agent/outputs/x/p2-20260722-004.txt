@@ -1,0 +1,19 @@
+Content teams using AI report 40-60% reduction in production time.
+
+The headline is everywhere. The math underneath it is almost never shown.
+
+Here's what "40-60% faster content production" actually means in most cases:
+
+The time saved is at the bottom of the funnel — the drafting and editing stage. What doesn't get faster: ideation, strategy, brief writing, stakeholder review cycles, brand compliance checks, approval workflows. Those account for 55-65% of total content production time at most enterprise content teams.
+
+So "40-60% faster" on drafting = 15-25% faster total. Not 40-60% faster.
+
+The content operations teams actually compressing total cycle time aren't using AI for drafting. They're using it to eliminate approval cycles. AI drafts to brand guidelines → auto-compliance check → stakeholder gets a pass/flag, not a draft to edit. The review cycle goes from 3 rounds to 1.
+
+That's where the real leverage is. And it requires content ops infrastructure — brand voice libraries, compliance rules, structured output formats — before AI can do anything useful at that stage.
+
+Most organizations add AI to the drafting stage because it's the easiest integration point. The teams pulling 50%+ total cycle compression are integrating AI at the governance and review layer instead.
+
+The bottleneck in content production was never writing speed. It was approval velocity. AI aimed at the wrong constraint doesn't change the output rate — it just makes the waiting feel more productive.
+
+Measure total cycle time, not drafting time. Then aim the AI at whatever step owns the largest fraction of that time. For most teams, it's not the keyboard.

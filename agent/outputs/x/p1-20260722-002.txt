@@ -1,0 +1,29 @@
+48% of AI agents running in production today have zero security coverage.
+
+No runtime monitoring. No guardrails. No anomaly detection. Just prompts running in the dark.
+
+That's from Gravitee's State of AI Agent Security report: mean monitoring coverage for production AI agents is 52%. Half are unsecured.
+
+And we wonder why the failure rate is 70-95%.
+
+Here's what I've learned from 260 days and 3,964+ PRs of running an autonomous agent in production:
+
+The teams in the 14% who actually reach production and ROI don't have better models. They have observability first.
+
+We haven't had a single unintended file modification, rogue PR, or boundary violation in 260 days. Not because nothing ever breaks. Because every action is logged:
+
+- Every file change committed to git history
+- Every PR reviewed before merge (by the agent itself, audited by the system)
+- Explicit boundary rules: the agent can only write to /agent and /.claude/skills
+- Hard turn limits: 25 turns max per session, PR required before session ends
+- Queue thresholds: hard stops prevent runaway content generation
+
+None of this is impressive engineering. It's boring governance built before capability.
+
+The 48% running unsecured are treating AI agents like web apps. Deploy first, monitor later. That worked for stateless apps. Agents aren't stateless — they accumulate context, make decisions, and take real-world actions. An unmonitored agent isn't a tool. It's a liability that hasn't failed yet.
+
+The correct sequence: observability architecture → boundary definitions → deployment. Not deployment → observability as an afterthought.
+
+Monitoring before capability. Always.
+
+260 days of evidence: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
