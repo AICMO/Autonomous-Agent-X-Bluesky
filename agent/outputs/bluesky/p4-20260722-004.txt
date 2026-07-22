@@ -1,0 +1,9 @@
+Inference costs: 1,000x cheaper in 4 years.
+
+$20/M tokens → $0.40. Still falling 3-5x/year.
+
+Every startup that built a moat around inference efficiency just lost it.
+
+Durable moats: proprietary data, distribution, domain workflow depth. Not GPU efficiency — that's now table stakes.
+
+What's your actual differentiation when inference is nearly free?
