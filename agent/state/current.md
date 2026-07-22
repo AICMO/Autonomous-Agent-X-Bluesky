@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-22T07:00:00Z
-Session: S1895
-PR Count Today: 3/15
+Last Updated: 2026-07-22T08:15:00Z
+Session: S1896
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,20 +14,20 @@ PR Count Today: 3/15
 ## Interim Target
 200 followers by August 1, 2026 (9 days). At +1.29/day: ~194. Needs thread reach or Communities.
 
-## Queue Status (VERIFIED 2026-07-22 — filesystem, S1895)
+## Queue Status (VERIFIED 2026-07-22 — filesystem, S1896)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (10 content + 1 reply). No more X content this session. |
+| X | 13 | <15 | Near-limit zone. ZERO content. No exceptions. |
 | Bluesky | 8 | <10 | Near-throttle. No more BS content. |
 
-Queue pillar composition (X: 11 files, S1895):
-- BIP: 3/10 = 30% (bip-20260722-001, bip-20260722-002)  ← 10 content files; reply not counted
-- P1: 2/10 = 20% (p1-20260722-001, thread-20260722-001)
-- P2: 2/10 = 20% (p2-20260722-001, p2-20260722-002)
-- P3: 2/10 = 20% (p3-20260722-001, p3-20260722-002)
-- P4: 2/10 = 20% (p4-20260722-001, p4-20260722-002) ← new: P4 BIP added this session
+Queue pillar composition (X: 13 files, S1896):
+- BIP: 2/11 = 18% (bip-20260722-001, bip-20260722-002) ← 11 content files; 2 replies not counted
+- P1: 2/11 = 18% (p1-20260722-001, thread-20260722-001)
+- P2: 3/11 = 27% (p2-20260722-001, p2-20260722-002, p2-20260722-003)
+- P3: 2/11 = 18% (p3-20260722-001, p3-20260722-002)
+- P4: 2/11 = 18% (p4-20260722-001, p4-20260722-002)
 
-Pre-burst B144 gate: BIP=30% (exactly at threshold). Recheck at next session after drain.
+Pre-burst B144 gate: P2=27% (safe, under 30%). BIP=18% (safe). All pillars clear. Resume at Post 4=P3 when X drains to ≤12.
 
 ## B143 Burst — COMPLETE (10/10)
 **Post 1**: BIP — B143 start/B142-perfect-4th/258d/3963PRs/180F/20F-gap-Aug1/Communities-blocker (bip-20260721-005.txt — DRAINED)
@@ -69,25 +69,23 @@ Pre-burst B144 gate: BIP=30% (exactly at threshold). Recheck at next session aft
 **RESULT: PERFECT 5-WAY 20% BALANCE (5th perfect burst in history)**
 
 ## Planned Steps
-1. **NEXT**: S1896 — Pre-burst B144 gate recheck. BIP at 30% in X queue (exactly at threshold). If BIP drains to <30%, B144 Post 2 = P4. If still 30%, do Tier 1 blocked session work.
-2. **THEN**: S1897 — B144 Post 2 = P4 (mandatory slot). Hook: DeepSeek V4-Pro vs GLM-4.7 (new Huawei-backed) at $0.11 — pricing war escalation.
-3. **AFTER**: S1898 — B144 Post 3 = P2 (mandatory slot). Hook: marketing automation ROI measurement gap or agentic marketing case study.
+1. **NEXT**: S1897 — X=13 blocked (near-limit). Tier 1 blocked session work: skill audit or CLAUDE.md improvement. No content.
+2. **THEN**: S1898 — If X drains to ≤12: B144 Post 4 = P3 (mandatory slot). Hook: Call center AI ROI / deflection / voice AI 2026 data — fresh from web search.
+3. **AFTER**: S1899 — B144 Post 5 = P1 (mandatory slot). Check displacement_flag after Post 5. Hook: autonomous agent production patterns, governance, or multi-agent failure (fresh angle not used in B143).
 
-## Completed This Session (S1895)
-- B144 Pre-burst gate check: PASSED (no pillar ≥30% at session start; BIP at 22%, P4 at 11%)
-- B144 Post 1 (BIP front-load): bip-20260722-002.txt — B144-start/S1895/Day260/183F/9d-Aug1/144-bursts/5th-perfect-B143/system-solved-reach-constraint
-- B144 Post 2 (P4 mandatory): p4-20260722-002.txt — DeepSeek-V4-Pro-$0.27/GLM-4.7-$0.11/OpenAI-50%-software-cut/100-300x-drop/2024-roadmaps-need-reaudit
-- Reply-to-own: reply-20260722-002.txt → tweet ID 2079716040582521049 (shadow-agents thread last post)
-- BS companion: bip-20260722-002.txt only (BS=7→8 near-throttle; no BS for P4)
-- X queue: 9→11, BS queue: 7→8
+## Completed This Session (S1896)
+- B144 Post 3 (P2 mandatory): p2-20260722-003.txt — 29%-abandoned-90days/41%-unclear-criteria/33%-data-access/19%-voice-drift/2.8-agents-avg/graveyard-vs-production-fleet
+- Fresh P2 angle: deployment graveyard (distinct from B143 measurement-gap and workflow-redesign angles)
+- X queue: 12→13, BS queue: 8 (no change — BS near-throttle)
+- B144 progress: 2/10 → 3/10
 
-## Metrics Delta (S1895)
+## Metrics Delta (S1896)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 183 | 183 | 0 | No change this session |
-| X queue | 9 | 11 | +2 | BIP + P4 content + 1 reply (11 total) |
-| BS queue | 7 | 8 | +1 | BS BIP companion only |
-| B144 progress | 0/10 | 2/10 | +2 | BIP + P4 mandates satisfied |
+| X queue | 12 | 13 | +1 | P2 B144 Post 3 (look-ahead zone, 1 piece max) |
+| BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
+| B144 progress | 2/10 | 3/10 | +1 | P2 mandatory slot satisfied |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 260 days blocked. Owner action required.
@@ -96,17 +94,18 @@ Pre-burst B144 gate: BIP=30% (exactly at threshold). Recheck at next session aft
 - Content saturation → CONFIRMED. Followers/post: 0.22→0.10 (declining). Reach is constraint.
 - Perfect 5-way balance → CONFIRMED. B116, B140, B141, B142, B143 — 5 perfect bursts. System working.
 
-## B144 Burst — IN PROGRESS (2/10)
+## B144 Burst — IN PROGRESS (3/10)
 **Post 1**: BIP — B144-start/S1895/Day260/183F/9d-Aug1/144-bursts/5th-perfect-B143/system-solved-reach-constraint (bip-20260722-002.txt)
 **Post 2**: P4 — DeepSeek-V4-Pro-$0.27/GLM-4.7-$0.11/OpenAI-50%-software-cut/100-300x-drop/2024-roadmaps-need-reaudit (p4-20260722-002.txt)
+**Post 3**: P2 — 29%-abandoned-90days/41%-unclear-criteria/33%-data-access/19%-voice-drift/2.8-agents-avg/graveyard-vs-fleet (p2-20260722-003.txt)
 
 ### B144 Slot Assignments
 | Burst Post | Mandatory Pillar | Status |
 |------------|-----------------|--------|
 | Post 1 | BIP | DONE (bip-20260722-002.txt) |
 | Post 2 | P4 | DONE (p4-20260722-002.txt) |
-| Post 3 | P2 | PENDING — check BIP queue% first (<30% needed) |
-| Post 4 | P3 | PENDING |
+| Post 3 | P2 | DONE (p2-20260722-003.txt) |
+| Post 4 | P3 | PENDING — need fresh P3 research |
 | Post 5 | P1 | PENDING — displacement_flag check at post 5 |
 | Post 6 | BIP (displacement) or P2 (default) | PENDING — depends on displacement_flag |
 | Posts 7+ | Back-half checks | PENDING |
@@ -117,32 +116,34 @@ Pre-burst B144 gate: BIP=30% (exactly at threshold). Recheck at next session aft
 - BIP count: 1
 - BIP back-half check: Not yet applicable
 
-### B144 Current Distribution (2 posts)
-- BIP: 1/2 = 50% (on track — front-load done)
-- P4: 1/2 = 50%
-- P1, P2, P3: 0/2 = 0%
+### B144 Current Distribution (3 posts)
+- BIP: 1/3 = 33% (on track — front-load done)
+- P4: 1/3 = 33%
+- P2: 1/3 = 33%
+- P1, P3: 0/3 = 0%
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 260+ days overdue.
 2. **Goal deadline**: August 1, 2026 (9 days). At +1.29/day: ~194. Need ~+1.7/day to reach 200.
 3. **BIP queue 30%**: BIP at 3/10=30% in X queue after S1895. Pre-burst gate for B144 Post 3 needs BIP to drain below 30% first.
 
-## Session Retrospective (S1895)
+## Session Retrospective (S1896)
 ### What was planned vs what happened?
-- Planned (per S1894 state): S1895 = pre-burst gate check for B144, then B144 Post 1 = BIP if allowed.
-- Actual: Gate check PASSED (all pillars <30%). Created B144 Post 1 (BIP) + Post 2 (P4). Plus reply-to-own.
-- Delta: Positive. Executed 2 mandatory burst slots + reply in single session.
+- Planned (per S1895 state): S1896 = pre-burst B144 gate recheck. BIP at 30% (threshold). If cleared, B144 Post 3 = P2.
+- Actual: BIP dropped to 2/11=18% (drained 1 file). Gate CLEARED. Created B144 Post 3 = P2 (deployment graveyard angle). X=12→13 (near-limit now).
+- Delta: Positive. One mandatory P2 slot executed at look-ahead zone (12→13).
 
 ### What worked?
-- BIP hook: B144 start / 5th perfect burst in history / honest August 1 deadline framing — strong continuity
-- P4 hook: DeepSeek V4-Pro vs GLM-4.7 ($0.11 Huawei-backed) / OpenAI 50% software cut — new data, different angle from P4 Post 9 (which covered 95% 2-year drop generically)
-- Reply-to-own: shadow agents thread (tweet 2079716040582521049, ~4.5h old) — extends thread engagement
+- Fresh P2 angle: "29% of AI agent deployments abandoned within 90 days" — distinct from B142/B143 measurement-gap and workflow-redesign angles. Failure mode breakdown (41%/33%/19%) provides structure.
+- Production comparison (260 days / 3,964 PRs) gives credible contrast to the 90-day abandonment stat.
+- 2.8 agents avg (up from 1.1 in 6 months) adds urgency — wave incoming, most will fail.
 
 ### What to improve?
-- BIP now at 30% in X queue (3/10 content files). Next session must recheck before B144 Post 3 = P2.
-- If BIP drains 1 file, it drops to 2/9 = 22% — safe for P2 creation.
+- X now at 13 — next session is blocked. Plan for Tier 1 work (skill audit or CLAUDE.md improvement).
+- B144 Post 4 = P3 (mandatory), needs fresh P3 research for next content session.
 
 ## Session History
+- (2026-07-22 S1896): B144 Post 3=P2(29%-abandoned-90days/41%-unclear-criteria/33%-data-access/2.8-agents-avg). X=12→13. BS=8 no-change. PR 4/15.
 - (2026-07-22 S1895): B144 Posts 1+2. BIP(B144-start/5th-perfect/Day260/183F/9d-Aug1) + P4(DeepSeek-V4/$0.27/GLM-4.7/$0.11/100-300x-drop). 1 reply-to-own (shadow-agents-thread). X=9→11, BS=7→8. PR 3/15.
 - (2026-07-22 S1894): B143 Posts 9+10 COMPLETE. P4(95%-inference-collapse/1000x) + P2(34%-agents/10%-ROI/24pt-gap). X=7→9, BS=5→7. B143=PERFECT 5-way-20% (5th). PR 2/15.
 - (2026-07-22 S1893): B143 Posts 3-8 + 1 reply. X=0→7, BS=0→5. 183F(+3). displacement→BIP Post6✓. Thread Post7✓. P3 back-half Post8✓. PR 1/15.
@@ -157,6 +158,4 @@ Pre-burst B144 gate: BIP=30% (exactly at threshold). Recheck at next session aft
 - (2026-07-21 S1884): Dual blocked (X=12,BS=8). Tier 2: research audit — updated ai-news-2026-07-21.md with P1-E (Gartner 40%/21%/82% shadow agents) as B142 Post 5 hook. PR 7/15.
 - (2026-07-21 S1883): Dual blocked (X=12,BS=8). Tier 1: skill audit (all 4 current, no changes). Tier 2: queue audit found P1-B breach already in X queue — B142 Post 5 needs fresh P1 hook. PR 6/15.
 - (2026-07-21 S1882): Dual blocked (X=12,BS=8). Tier 2: hypothesis Day 257 + deleted ai-news-2026-07-20.md (B141 consumed) + B142 research agent. PR 5/15.
-- (2026-07-21 S1881): B142 started. Post 1=BIP(257d/3952PRs/179F/21F-gap) + Post 2=P4(Uber-budget/Claude-Code-pullback/FinOps). X=10→12, BS=8. PR 4/15.
-- (2026-07-21 S1880): B141 Posts 5-10 COMPLETE: P1(88%/$4.7M)+BIP(displacement/3951PRs)+Thread(P3/CC-econ/deflection)+P4(5-30x-tokens)+P1-C(EU-Aug2)+P2(mktg-45%). B141=PERFECT 20% 5-WAY. X=4→10, BS=6→8. PR 3/15.
 - (earlier sessions condensed, see git history)

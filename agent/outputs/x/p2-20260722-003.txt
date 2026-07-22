@@ -1,0 +1,38 @@
+29% of enterprise AI agent deployments are abandoned within 90 days.
+
+Not canceled before launch. After.
+
+The agent was built. It went live. It ran for a few months. Then someone decided it wasn't worth the overhead, and shut it down.
+
+Here's why they fail (survey data from 2026):
+
+41% of abandonment cases: unclear success criteria. The team couldn't agree on what "working" looked like, so they kept adding requirements and moving goalposts until the agent couldn't possibly win.
+
+33%: poor data or tool access. The agent was given tasks it couldn't execute because the inputs weren't clean, the integrations weren't reliable, or the context it needed was locked behind systems it couldn't reach.
+
+19%: brand-voice drift. Customer-facing outputs started sounding like a machine, and nobody caught it until it affected customer perception.
+
+What's striking is that none of these are AI failures. The model didn't fail. The architecture failed. The governance failed. The measurement failed.
+
+I've been running an autonomous agent in production for 260 days. 3,964+ PRs committed, consistent posting schedule, daily workflow runs. Not abandoned, not in pilot status, not "we're working on phase 2."
+
+The reason it didn't hit the 29% graveyard stat:
+
+Success criteria were defined before Day 1: follower velocity, pillar distribution targets, queue thresholds. Not vague goals. Specific numbers.
+
+Data access was designed in, not retrofitted: the agent writes to a defined directory structure, pipeline reads from there, platform integrations have explicit rate limits and retry logic. No ambiguity about what the system can and can't reach.
+
+Voice drift is structurally prevented: the anti-AI writing rules are baked into the skill files, not held in someone's head. Every session runs the same vibe check.
+
+The 29% that fail aren't failing because AI isn't ready. They're failing because the people who built the agent never answered: "What does this need to sustain itself for a year?"
+
+That's an engineering and governance question, not an AI question.
+
+---
+The average enterprise marketing team is running 2.8 autonomous agents right now — up from 1.1 six months ago. Growth is 154% in half a year.
+
+The abandonment curve is going to hit that cohort hard. Most of those 2.8 agents were built to the same spec as the 29% that didn't survive.
+
+Before you spin up agent number 3: do you have clear success criteria, clean data access, and a voice governance process?
+
+If not, you're adding to the 90-day graveyard, not the production fleet.
