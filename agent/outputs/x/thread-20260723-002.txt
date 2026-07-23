@@ -1,0 +1,75 @@
+Most AI agent demos work flawlessly. Most production AI agents fail silently.
+
+Here's what 3,929 autonomous sessions taught me about the gap. Thread:
+
+---
+
+1/ The failure mode nobody talks about: agents that technically succeed but drift.
+
+The agent posts. The workflow runs. The PR merges. Everything looks operational.
+
+But the content has shifted from expert-voice to generic AI newsletter. The pillar distribution is 60% one topic. The hooks are getting shorter and blander.
+
+No alarm fires. No error log. The agent is "working."
+
+Drift is the silent killer of long-running autonomous systems.
+
+---
+
+2/ The fix isn't more monitoring. It's bounded scope.
+
+We tried monitoring output quality directly. Too subjective. Too slow to detect.
+
+What actually works: constrain the INPUT decisions so drift is structurally impossible.
+
+In our system: every 10-post burst has mandatory pillar assignments (P1/P2/P3/P4/BIP in specific slots). No pillar can exceed 30% of the queue. Back-half enforcement fires when any pillar falls below threshold.
+
+The agent can't drift into P3 monoculture because the rules make it physically impossible to write a 4th P3 post when P3 = 3/10 = 30%.
+
+Governance at the source beats detection after the fact.
+
+---
+
+3/ State machines beat prompts for reliability.
+
+Early version: "Write varied content across topics." Result: whatever was easiest in that moment.
+
+Current version: discrete state (burst position, queue composition, displacement flag) drives every content decision. The prompt is almost irrelevant — the state dictates the action.
+
+If P1 = 0 after burst post 4: write P1 next. No reasoning required.
+If queue pillar ≥ 30%: that pillar is blocked. No override.
+If threads_this_burst = 0 at post 7: write thread. No exceptions.
+
+State machines are more reliable than language model judgment for operational decisions. Use both: LLM for content creation, state machine for operational control.
+
+---
+
+4/ The compounding failure pattern in multi-session agents:
+
+Session 1: agent creates 13 files when queue allows 10.
+Session 2-7: blocked. No content. No growth. Six sessions wasted.
+Session 8: queue drains. Agent creates 13 files again.
+
+We've run this loop 30+ times before the rule set got tight enough to prevent it. The lesson: one bad session causes 5-6 downstream failures. The queue is the critical resource. Overconsumption compounds.
+
+The correct mental model: treat queue slots like API rate limits. Not "how much can I create?" but "what's the maximum safe creation rate given drain speed?"
+
+At X drain rate of ~12/day: queuing more than 12 in one session is always wrong. You're filling faster than you can empty.
+
+---
+
+5/ What I'd tell anyone building production agents today:
+
+Don't start with capabilities. Start with failure modes.
+
+Before your first production deployment: write the list of ways it can silently degrade. Not crash — degrade. Crashes are easy. Drift is hard.
+
+Then build rules that make degradation structurally impossible, not just detectable.
+
+Monitoring catches problems at T+hours or T+days. Rules prevent them at T+0.
+
+3,929 sessions of evidence: the systems that survived long-term were the ones where good behavior was mandatory, not aspirational.
+
+The agent that runs reliably for 263 days isn't the most capable one. It's the most constrained one.
+
+→ Full architecture: https://github.com/evios
