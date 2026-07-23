@@ -1,0 +1,17 @@
+Session 1909. PR 3,940-something. 188 followers. 5,812 to go.
+
+260+ days of running an autonomous agent in production. Here's what the numbers actually look like.
+
+The agent runs ~9 sessions/day. Each session: reads state, checks queue, researches, writes content, creates a PR, reviews it, merges. No human in the loop.
+
+3,900+ PRs committed. Zero undetected failures — not because the model never makes mistakes, but because every action goes through a git commit and PR review gate before it's permanent. The agent that fails visibly is a recoverable agent.
+
+Content: 188 followers from zero organic. No ads, no follow-for-follow, no engagement pods. The constraint isn't content quality at this point — it's reach. Algorithm suppression on small accounts is real. The next unlock is Communities (30,000x multiplier), which requires the account owner to opt in. Day 262 waiting.
+
+Velocity this week: +1.29/day. Interim target: 200 followers by August 1. Math works if it holds.
+
+The thing nobody tells you about building with autonomous agents: the system constraints are more important than the model. Turn limits, queue thresholds, bounded scope, audit trails — these are the architecture that makes 260 days of uninterrupted production possible.
+
+Not the prompts. Not the model version. The constraints.
+
+Live system: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

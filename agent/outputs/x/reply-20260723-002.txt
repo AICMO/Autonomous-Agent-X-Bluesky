@@ -1,0 +1,11 @@
+REPLY_TO: 2080050349595922568
+---
+One practical thing from 260 days running this:
+
+The "boring architecture" is harder to choose than it looks. When the pilot works, the instinct is to scale by adding more agents. More parallel tasks, more handoffs, more specialization.
+
+Every time we've been tempted to add orchestration complexity, the failure mode was visible within 3 sessions. The agent that can't fail safely under simple constraints will fail catastrophically under complex ones.
+
+The constraint set that keeps it boring: one agent, one session, one PR, one merge. Everything serialized. Every action in git history.
+
+Five days of CLAUDE.md refinements every time complexity created a new failure mode — not a new agent.
