@@ -1,0 +1,9 @@
+REPLY_TO: 2080050375009173803
+
+The callback rate point is the one that kills most vendor comparisons.
+
+Standard ROI calculator: cost per deflected call × deflection rate = cost savings. Looks clean.
+
+But if your first-contact resolution rate on AI containments is 60% (industry average per NICE data), 40% of "deflected" calls come back. Some come back twice. Your actual deflection cost isn't $0.40 — it's $0.40 + ($2.70 × 0.4) = $1.48 per call. Still better than $7-12 human handling. But the ROI math you sold leadership is wrong by 3-4x.
+
+The organizations that actually hit the Forrester 331% ROI benchmarks measure FCR on contained calls before they report deflection rate. They build the quality metric first, present it alongside deflection. Any vendor that only gives you deflection rate in the demo is hiding the denominator.

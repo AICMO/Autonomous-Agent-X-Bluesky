@@ -1,0 +1,7 @@
+35% handling time reduction. 30% CSAT gain. Real numbers — but only with the 3-layer stack most teams skip:
+
+Layer 1: AI autonomous (40-60% of contacts)
+Layer 2: AI-assisted human (where the 35% lives)
+Layer 3: Human escalation with full AI context
+
+Skip Layer 2 → bimodal CSAT.

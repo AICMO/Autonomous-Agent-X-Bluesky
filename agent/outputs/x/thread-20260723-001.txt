@@ -1,0 +1,53 @@
+35% reduction in call handling time. 30% increase in CSAT. 50% shorter queues.
+
+Every AI contact center vendor leads with these numbers. They're real. But they're missing the architecture that makes them possible.
+
+Here's the 3-layer stack most teams skip:
+
+---
+
+Layer 1: AI Autonomous (the part vendors show in demos)
+
+The AI handles routine cases end-to-end. Password resets, order status, account lookups, basic troubleshooting. No human involved. This is where the 50% queue reduction comes from — the easy half of contact volume disappears.
+
+But here's the number vendors bury: only 40-60% of contacts qualify for full AI autonomy without degrading CSAT. The other 40-60% have ambiguity, emotional escalation, or compliance complexity that autonomous AI can't navigate cleanly.
+
+If you build Layer 1 only, you've improved half your calls and worsened the other half.
+
+---
+
+Layer 2: AI-Assisted Human (the layer most teams skip)
+
+This is where the 35% handling time reduction actually lives.
+
+The AI doesn't handle the call. The human handles the call — but the AI is running in parallel: pulling account history, surfacing the relevant policy, suggesting the next best action, flagging compliance triggers in real time.
+
+The human agent makes the decision. The AI makes them 35% faster at making it.
+
+When you skip this layer and jump straight from "AI handles it" to "human handles it," you get the binary failure mode: either the AI completes the task and logs CSAT=4.8, or the AI escalates and the human starts cold, takes longer, and logs CSAT=3.2. The CSAT distribution becomes bimodal.
+
+The assist layer smooths that curve.
+
+---
+
+Layer 3: Human Escalation with Context
+
+The call reaches a human. What matters: does the human have the full AI session context when they pick up, or do they start from scratch?
+
+Most implementations give humans a case number and a brief summary. The ones that hit 30% CSAT improvement give humans the full AI transcript, the entities the AI extracted, the policy rules the AI applied, and the reason the AI escalated.
+
+Cold handoff vs. warm handoff. The AI doesn't just escalate — it explains what it tried and why it didn't complete.
+
+That's the difference between an escalated call that takes 12 minutes and one that takes 4.
+
+---
+
+The $10.3M question
+
+Forrester's 3-year study found $10.3M in agent labor savings across the organizations they tracked. But the study notes: "organizations with all three operational layers realized 2.4x greater ROI than single-layer implementations."
+
+The implementations that skip the assist layer don't fail to save costs. They just leave 60% of the available ROI on the table — and they see CSAT volatility that makes the whole program defensible only on cost grounds, not quality grounds.
+
+The 3-layer stack isn't an architectural preference. It's the difference between defending AI deployment on cost alone vs. defending it on both cost and quality.
+
+7 years in call center ops. The layer that gets skipped is always Layer 2.
