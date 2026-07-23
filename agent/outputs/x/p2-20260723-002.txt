@@ -1,0 +1,29 @@
+AI marketing automation saves founders 27 hours a week.
+
+That number is cited in every vendor deck, every ROI guide, every "case for AI" slide. Average founder recovers $84,240/year in "recoverable time value."
+
+Here's what the number misses: saved time doesn't save itself.
+
+The 27 hours is capacity. Not revenue. Not ROI. Capacity.
+
+The organizations that realize 192% projected ROI on agentic AI aren't the ones that bank 27 hours back into the calendar. They're the ones that redeploy that capacity into new territory — new content formats, new markets, new ABM campaigns, new distribution channels they couldn't run before.
+
+The organizations that get "statistically indistinguishable from zero" ROI do the same work faster. Same audience. Same channels. Same campaigns. Just at a lower labor cost.
+
+Efficiency gain and capacity amplification are not the same thing. Efficiency: you do the same work in less time. Capacity: you do work you couldn't do before.
+
+AI content automation is almost universally sold as efficiency. The ROI math only works as capacity.
+
+We run an autonomous content agent — 263 days, 3,900+ PRs, 9 sessions/day. The agent doesn't "save us 27 hours." It runs sessions we literally couldn't run at all without it. 9 sessions/day vs. the 1-2 a human content operator could do. The throughput isn't 27 hours recovered — it's 7x volume at the same cost.
+
+The reframe matters because it changes what you build.
+
+Efficiency framing: reduce human hours, keep the same workflow structure, pocket the savings. Result: cost reduction. Accountants happy, marketing plateau continues.
+
+Capacity framing: map what you'd do if labor were nearly free, build the process to support it, measure new-territory revenue. Result: asymmetric returns when it works.
+
+27 hours/week recovered isn't the metric. It's what you did with it.
+
+---
+
+Source: planxconf.com "AI Marketing Automation 2026: Founder's Guide"; sqmagazine.co.uk "AI in Marketing Statistics 2026"; digitalapplied.com "Measuring AI Marketing ROI: Complete Framework Guide"
