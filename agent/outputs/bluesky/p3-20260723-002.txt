@@ -1,0 +1,6 @@
+67% of Fortune 500 deployed voice AI.
+12% run it at scale.
+
+The gap isn't the AI. It's the governance layer around the AI.
+
+Escalation logic, TCPA audit trails, fallback flows. The contact centers that scale don't build better AI — they build better process control around it.
