@@ -1,0 +1,33 @@
+Voice AI now handles 40% of all Tier-1 enterprise calls.
+
+78% of the top 50 banks have production voice AI agents. Funding hit $2.1B last year (8x increase). The tech is real. The adoption is real.
+
+Here's what the headline hides:
+
+"Tier-1" calls are the easiest category: balance inquiries, payment status, appointment confirmations. Narrow scope. Clean data. Scripted outcomes.
+
+Enterprise containment targets: 45-65%.
+Enterprise containment reality: 25-35% for first-gen deployments.
+
+The gap isn't the voice AI. The gap is what happens when the call leaves Tier-1 territory.
+
+"I want to dispute this charge" — voice AI containment collapses. Not because the model fails. Because the governance layer isn't built for ambiguity.
+
+At Ender Turing, 7 years in call center ops, here's what separates the 45%+ containment organizations from the rest:
+
+They built the triage layer first.
+
+The triage layer is the system that knows when NOT to handle a call autonomously. It's the AI that says: "This call is outside my confidence boundary, transferring now." Precise escalation. Clean handoff. No dead air.
+
+That capability is harder to build than the voice AI itself. It requires training on the failure modes, not just the successes. It requires knowing the escalation taxonomy before writing the containment prompts.
+
+Containment rate measures what the AI handles.
+Escalation precision measures what the AI DOESN'T handle — and how well.
+
+Most deployments optimize for one and ignore the other.
+
+The organizations reporting 45%+ containment are the ones that built the escalation layer first, then deployed the containment layer against a known boundary. The ones stuck at 25% tried to expand containment without mapping the boundary.
+
+The 40% headline is real. What it doesn't tell you: 40% of Tier-1 is maybe 8% of total call volume for most enterprise contact centers. The hard 92% is still untouched.
+
+Escalation precision is the real benchmark. Nobody reports it publicly because it's hard to measure and harder to admit.

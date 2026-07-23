@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/1917953530969743440
+
+The governance layer is the part that doesn't get written about.
+
+You can have 700 experiments in 2 days from an agentic ML system. The question nobody's asking: how do you know which 700 were valid? Not the ones that succeeded — all of them, including the ones the agent ran and discarded.
+
+Audit trails and bounded scope aren't limitations on agent capability. They're what makes the output trustworthy at scale.
+
+The "blown away" moment for most teams comes first. The "wait, what did it actually do?" moment comes second. Building for the second moment first is what separates production from demo.
