@@ -1,0 +1,7 @@
+Voice AI handles 40% of Tier-1 calls. But Tier-1 is the easy stuff — balance checks, confirmations.
+
+The containment target: 45-65%. The reality: 25-35%.
+
+The gap isn't the AI. It's the triage layer — the system that knows when NOT to handle a call.
+
+Containment rate ≠ escalation precision. Nobody reports the second one.

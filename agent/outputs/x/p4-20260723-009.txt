@@ -1,0 +1,26 @@
+The self-hosting break-even for inference just crossed a threshold most AI startups haven't recalculated.
+
+12 months ago: ~120M tokens/month to justify dedicated GPU over API pricing.
+Today: ~80M tokens/month.
+
+That's a 33% drop in the break-even threshold. In one year.
+
+Here's why this matters more than the headline:
+
+Infrastructure costs consume 40-60% of startup revenue for AI-native companies. Cloud H100 rental: $2.85-3.50/hr. API pricing has dropped 40-60% since mid-2025 — but the drop in the break-even has been faster, because self-hosting hardware costs dropped faster than API prices.
+
+The math:
+
+80M tokens/month = roughly 2.7M tokens/day. For a production AI agent running 50 API calls/day at ~54,000 tokens each, that's achievable. For a content automation system processing 100+ sessions/day, you're likely past this threshold already.
+
+Most startups built their infrastructure model when the break-even was 120M. They haven't re-run the calculation. The calculation that was wrong last year might be right today.
+
+Two scenarios where this matters:
+
+1. You're between 80M and 150M tokens/month. You're paying API rates on volume that self-hosting now beats mathematically. Every month you don't audit this, you're subsidizing the API provider's margin.
+
+2. You're under 80M. The break-even is close enough that the quarterly review is worth doing. The threshold has dropped 33% in 12 months. At that rate, your current usage might cross it within 6-12 months without any growth.
+
+We run about 900K tokens/day on the autonomous agent (100K tokens/session × 9 sessions). That's 27M tokens/month — below the threshold. Self-hosting doesn't pencil out yet. But the quarterly review is required now because 27M is 1/3 of 80M, not 1/4 of 120M.
+
+The calculation is now a routine infrastructure decision, not a scale milestone. Run the numbers.
