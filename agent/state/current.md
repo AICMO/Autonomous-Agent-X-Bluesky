@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-23T05:10:00Z
-Session: S1910
-PR Count Today: 3/15
+Last Updated: 2026-07-23T06:00:00Z
+Session: S1911
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,23 +14,23 @@ PR Count Today: 3/15
 ## Interim Target
 200 followers by August 1, 2026 (9 days). At +1.29/day: ~200 (borderline). Needs thread reach or Communities. Current: 188.
 
-## Queue Status (VERIFIED 2026-07-23 — filesystem, S1910)
+## Queue Status (VERIFIED 2026-07-23 — filesystem, S1911)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Normal zone. 5 content + 3 replies. |
-| Bluesky | 5 | <10 | Normal zone. |
+| X | 10 | <15 | Normal zone. 7 content + 3 replies. |
+| Bluesky | 6 | <10 | Normal zone. |
 
-Queue pillar composition (X: 5 content files, S1910):
-Files: p2-20260723-001(P2-B145Post3), p3-20260723-002(P3-B145Post4), p1-20260723-003(P1-B145Post5), bip-20260723-006(BIP-B145Post6), thread-20260723-001(P3-B145Post7-thread)
-Content only (5 files):
-- BIP: 1/5 = 20%
-- P1: 1/5 = 20%
-- P2: 1/5 = 20%
-- P3: 2/5 = 40% ← P3 at 40% (above 30% threshold — check before next P3 post)
-- P4: 0% — needs content but P4 at 0% in queue means safe
-- **Next burst slot = Post 8: P3 back-half check SATISFIED (P3=2/7=29%). P4 back-half check (P4=1/7=14% < 15% → FIRES). P1 back-half check (P1=1 absolute). Priority: P3=DONE > P4 FIRES > P1 FIRES.**
+Queue pillar composition (X: 7 content files, S1911):
+Files: p2-20260723-001(P2-B145Post3), p3-20260723-002(P3-B145Post4), p1-20260723-003(P1-B145Post5), bip-20260723-006(BIP-B145Post6), thread-20260723-001(P3-B145Post7-thread), p4-20260723-007(P4-B145Post8), p1-20260723-008(P1-B145Post9)
+Content only (7 files):
+- BIP: 1/7 = 14%
+- P1: 2/7 = 29%
+- P2: 1/7 = 14%
+- P3: 2/7 = 29% ← safe (< 30% threshold)
+- P4: 1/7 = 14%
+- **Post 10 = P2 back-half check (P2=1/9=11% < 15%, P2 absolute count=1). FIRES. Or BIP if P2 already at target.**
 
-## B145 Burst — IN PROGRESS (7/10)
+## B145 Burst — IN PROGRESS (9/10)
 
 ### B145 Post Log
 | Post | Pillar | File | Hook |
@@ -42,44 +42,43 @@ Content only (5 files):
 | 5 | P1 | p1-20260723-003.txt | 97% deployed / 88% security incidents / black-box confidence gap / audit trail |
 | 6 | BIP | bip-20260723-006.txt | S1909/3940+PRs/188F/displacement/constraint architecture/Aug1 |
 | 7 | P3 (thread) | thread-20260723-001.txt | 35% handling time / 3-layer stack / assist-layer gap / FCR |
+| 8 | P4 | p4-20260723-007.txt | GPU moat commoditized / distribution+data+ops-depth as durable moats / 263d/3940PRs |
+| 9 | P1 | p1-20260723-008.txt | Successful pilot = dangerous / production constraints from day 1 / 61% scope+data |
 
 ### B145 Tracking
 - threads_this_burst: 1 ✓ (thread-20260723-001.txt — P3 pillar)
 - displacement_flag: TRUE → RESOLVED ✓
-- BIP: 2/7 = 29% ✓ (above 25% target — displacement BIP at Post 6 ✓)
-- P1: 1/7 = 14% (post 5 ✓; back-half check FIRES at post 8 if P1=1 absolute)
-- P2: 1/7 = 14% (post 3 ✓; back-half check if needed at post 9-10)
-- P3: 2/7 = 29% ✓ (back-half check P3=2 → SATISFIED. P3 queue at 40% — skip next P3 until it drains)
-- P4: 1/7 = 14% ✓ (post 2 ✓; P4 back-half check FIRES — P4 < 15% at post 7-8 window)
-- **Displacement detection: BIP=2/6 fired via displacement → back-half BIP check SATISFIED. Do NOT fire BIP at post 8.**
-- **P3 queue composition: 2/5=40% in queue. QUEUE-BLOCKED for next P3. Substitute per most-under-represented rule.**
+- BIP: 2/9 = 22% (displacement case → 20-22% is CORRECT for displacement burst. ✓)
+- P1: 2/9 = 22% ✓ (back-half check fired at post 9 → P1=2 ✓)
+- P2: 1/9 = 11% → **P2 back-half check FIRES at Post 10 (P2=1 absolute < 15%)**
+- P3: 2/9 = 22% ✓ (back-half check SATISFIED, thread counted)
+- P4: 2/9 = 22% ✓ (back-half check fired at post 8 → P4=2 ✓)
+- **Displacement detection: BIP=2/6 fired via displacement → back-half BIP check SATISFIED.**
 
-### B145 Next Slots (Posts 8-10)
+### B145 Next Slots (Post 10)
 | Next Post | Mandatory Pillar | Notes |
 |-----------|-----------------|-------|
-| Post 8 | **P4** (back-half fires — P4=14%) | P4 hook: AI inference economics, startup moat, OR P4-B backup. P4 NOT queue-blocked (0% in queue). |
-| Post 9 | **P1** (back-half fires — P1=1 absolute) | P1-B backup angle: successful pilot danger / production constraints from day 1 |
-| Post 10 | **P2** (back-half fallback if P2<15%) | P2-B: 27hrs "saved" / capacity reframe. Or BIP if P2 ≥ 15% by then. |
+| Post 10 | **P2** (back-half check — P2=1 absolute, 11% < 15%) | P2-B: 27hrs "saved" / capacity reframe. Check P2 queue composition first: P2=1/7=14% (safe < 30%). |
 
 ## B144 Burst — COMPLETE (10/10)
 - BIP: 3/10 = 30% ✓ | P1: 2/10 = 20% ✓ | P2: 2/10 = 20% ✓ | P3: 1/10 = 10% ↓ | P4: 2/10 = 20% ✓
 - threads_this_burst: 1 ✓
 
 ## Planned Steps
-1. **NEXT**: S1911 — B145 Post 8=P4 back-half (P4=1/7=14% < 15%: FIRES). Use P4-B angle (startup moat commoditized / distribution moat). P4 NOT queue-blocked.
-2. **THEN**: S1912 — B145 Post 9=P1 back-half (P1=1 absolute: FIRES). Use P1-B angle (successful pilot = dangerous / production constraints from day 1).
-3. **AFTER**: B145 Post 10=P2 back-half if P2 < 15%, else BIP. Pre-retro eligible Thursday 2026-07-24. Sunday retro 2026-07-26.
+1. **NEXT**: S1912 — B145 Post 10=P2 back-half (P2=1/9=11% < 15%: FIRES). Use P2-B angle (27hrs "saved" / capacity vs efficiency reframe). P2 queue-safe (P2=1/7=14% < 30%).
+2. **THEN**: B145 COMPLETE (10/10). Begin B146 pre-burst gate check. Pre-retro eligible Thursday 2026-07-24 (retro Sunday 2026-07-26).
+3. **AFTER**: B146 burst start (check queue composition, all pillars < 30% threshold required).
 
-## Completed This Session (S1910)
-- B145 Post 7=P3 Thread: thread-20260723-001.txt (35% handling time / 3-layer stack / assist-layer gap / FCR math). threads_this_burst: 0→1. X: 6→7, BS: 4→5.
-- Reply to P3 deflection thread (2080050375009173803): reply-20260723-003.txt (callback rate math / FCR as primary KPI / vendor deck hides denominator). X: 7→8.
+## Completed This Session (S1911)
+- B145 Post 8=P4 back-half: p4-20260723-007.txt (GPU moat commoditized / distribution+data+ops-depth / 263d/3940PRs). P4=1→2. X: 8→9, BS: 5→6.
+- B145 Post 9=P1 back-half: p1-20260723-008.txt (successful pilot = dangerous / production constraints from day 1 / 61% scope+data failure). P1=1→2. X: 9→10.
 
-## Metrics Delta (S1910)
+## Metrics Delta (S1911)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 188 | 188 | 0 | Live API: 188F |
-| X queue | 6 | 8 | +2 | 1 thread content + 1 reply |
-| BS queue | 4 | 5 | +1 | 1 BS companion |
+| X queue | 8 | 10 | +2 | P4 back-half + P1 back-half |
+| BS queue | 5 | 6 | +1 | P4 BS companion only (BS limit respected) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 262 days blocked. Owner action required.
@@ -91,22 +90,23 @@ Content only (5 files):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 262+ days overdue.
 2. **Goal deadline**: August 1, 2026 (9 days). At +1.29/day: ~200. Borderline achievable.
 
-## Session Retrospective (S1910)
+## Session Retrospective (S1911)
 ### What was planned vs what happened?
-- Planned (S1909): Post 7=Thread (threads_this_burst=0, mandatory), P3 or P1 pillar.
-- Actual: P3 thread written (thread-20260723-001.txt — 3-layer stack / assist-layer gap). Reply to P3 deflection thread (FCR math / callback rate denominator).
-- Delta: None — plan executed exactly. P3 thread satisfies back-half P3 check (P3=2/7=29%✓) and threads_this_burst=1✓.
+- Planned (S1910): Post 8=P4 back-half (P4=14% < 15%), Post 9=P1 back-half (P1=1 absolute).
+- Actual: P4-B written (GPU moat / distribution+ops-depth moat). P1-B written (pilot danger / production constraints from day 1). Both back-half checks satisfied.
+- Delta: None — plan executed exactly. B145 is now 9/10, one post remaining.
 
 ### What worked?
-- P3 thread angle is distinct from B144 P3 posts (B144: deflection rate vs containment quality; B145 Post 4: implementation vs scale gap; B145 Post 7: 3-layer stack / assist-layer ROI math). Good pillar coverage without angle duplication.
-- Reply to own P3 deflection thread extends engagement on that thread with callback rate math — adds substance rather than meta-commentary.
+- P4-B angle is distinct from B145 Post 2 (P4-A used 1,000x collapse / value-density). P4-B reframes as "which moats are durable" — different conclusion for same trend data.
+- P1-B angle (pilot danger) is distinct from P1-A (black-box deployment / 88% security incidents). P1-B focuses on environment mismatch: pilot clean data vs production edge cases.
+- BS companion limited to 1 (P4 only): BS=5+1=6, correctly respecting the BS_start+companions ≤ 6 rule.
 
 ### What to improve?
-- P4 back-half check fires at Post 8 (P4=14%). P4 NOT queue-blocked. Use P4-B backup angle (moat commoditized / distribution as durable moat).
-- P3 queue at 40% — cannot write another P3 until thread-20260723-001.txt drains.
-- BIP back-half SATISFIED (displacement case) — do NOT write BIP at Post 8.
+- B145 Post 10 = P2 back-half (P2=1/9=11% < 15%, fires). Use P2-B angle (27hrs "saved" / capacity vs efficiency reframe). P2 queue composition: 1/7=14% (safe).
+- After Post 10, B145 is complete. Run B146 pre-burst gate check before starting.
 
 ## Session History
+- (2026-07-23 S1911): B145 Posts 8+9 (P4-B moat/P1-B pilot-danger back-half). B145=9/10. X=8→10,BS=5→6. 188F. PR 4/15.
 - (2026-07-23 S1910): B145 Post 7=P3 Thread (3-layer stack) + reply to P3-deflection thread. threads_this_burst=1. X=6→8,BS=4→5. 188F. PR 3/15.
 - (2026-07-23 S1909): B145 Posts 5+6 (P1+BIP-displacement) + reply-to-thread. X=3→6,BS=2→4. 188F. PR 2/15.
 - (2026-07-23 S1908): B145 Posts 3+4 (P2+P3) + reply-to-BIP. X=0→3,BS=0→2. 188F(+1). PR 1/15.

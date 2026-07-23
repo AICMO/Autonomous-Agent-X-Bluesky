@@ -1,0 +1,5 @@
+Inference costs dropped 50x since 2022. "GPU efficiency" is no longer a moat — it's table stakes.
+
+The durable AI startup moats in 2026: distribution, proprietary data, and operational depth.
+
+We have 263 days and 3,940+ PRs of operational depth. That doesn't commoditize.

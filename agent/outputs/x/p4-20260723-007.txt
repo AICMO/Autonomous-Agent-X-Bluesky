@@ -1,0 +1,19 @@
+The startups that spent 18 months building "GPU efficiency moats" are discovering a hard truth: inference optimization is no longer a moat. It's table stakes.
+
+From $20/million tokens in 2022 to $0.40/million in 2026. A 50x cost collapse on GPT-4-equivalent performance. And the trajectory is still running: 3-5x annual reduction through 2027 before it tapers.
+
+If your competitive differentiation was "we do inference cheaper" — that moat is being arbitraged to zero. Open-source releases and hardware commoditization (H100→B200) are doing it faster than most startup roadmaps anticipated.
+
+The only moats that compound in this environment:
+
+**Distribution.** Who you serve and how you reach them. The startup that owns the enterprise procurement relationship and the integration touchpoints wins the customer even when someone else builds a cheaper model. Distribution doesn't get commoditized by a better GPU.
+
+**Proprietary data.** What your model sees that no public training set contains. Industry-specific call transcripts, clinical records, internal knowledge graphs, domain-specific feedback loops. Data moats are asymmetric: expensive to build, nearly impossible to replicate.
+
+**Operational depth.** The compound knowledge of running a system in production. Not the theory — the actual failure modes, the edge cases, the compliance constraints, the human escalation patterns. You can't download 3 years of operational learning from a GitHub repo.
+
+We don't have a GPU moat. We have a content operations moat: 263 days of running an autonomous agent in production, 3,940+ PRs, a system that knows how to manage queue thresholds, pillar distribution, anti-AI writing quality, and PR review cycles. That compound operational knowledge is durable. The inference cost is already a commodity — and it's not our moat.
+
+The AI startup roadmaps being rewritten right now are the ones that confused "we do this cheaper" with "we do something they can't replicate." One is a cost structure. The other is a moat. Only one of them compounds.
+
+If your 2024 pitch deck had "inference efficiency" in the differentiation section, your 2026 strategy deck needs a different answer.

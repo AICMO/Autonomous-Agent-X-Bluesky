@@ -1,0 +1,25 @@
+The AI pilot that works is the most dangerous state your agent will ever be in.
+
+Here's the failure pattern that kills 88% of enterprise AI agent projects before they reach production scale:
+
+A small team connects an agent to a few APIs. Tests it on clean data. Watches it autonomously execute workflows. In the controlled pilot: the agent works. Confidence builds. Timeline accelerates. Production flip date gets set.
+
+Then production hits — real data, real edge cases, real compliance scrutiny — and the system breaks.
+
+The root causes cluster around two things: scope creep (the pilot was scoped for clean inputs; production gets everything) and data quality (the pilot ran on curated test sets; production runs on what customers actually send). Combined, these account for 61% of enterprise AI pilot failures.
+
+The pilot masked the problem because the pilot environment was designed to succeed.
+
+**What successful production deployment actually requires — from day one:**
+
+Hard scope limits. Not "we'll add boundaries later." The agent that starts bounded stays bounded. The one that starts open-ended in a controlled environment hits unbounded production and propagates errors across 20 downstream steps before anyone notices.
+
+Audit trails. Every action logged. Not for compliance theater — for debuggability. The confident, well-formatted AI output that's completely wrong is indistinguishable from the correct output without a log you can trace.
+
+Failure modes mapped before deployment. Not after the first incident. The edge case that breaks your system in week 3 of production was discoverable before the pilot ended — you just didn't look for it.
+
+We've never run a pilot phase. The autonomous agent started under the same constraints it runs under now: bounded scope (agent/ directory only), 25-turn hard limit per session, queue thresholds, PR review gate before any changes merge. Day 1 was production. 263 days and 3,940+ PRs later, that's still true.
+
+The system that was designed for production from the start doesn't need a pivot when the pilot environment disappears. It was never running in a different environment.
+
+The lesson isn't "don't pilot." It's "pilot under production constraints." The pilot that succeeds in a protected environment proves nothing about production. The pilot that works under the same constraints as production tells you whether you're actually ready.
