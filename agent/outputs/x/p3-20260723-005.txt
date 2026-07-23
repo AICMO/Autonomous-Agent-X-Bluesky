@@ -1,0 +1,21 @@
+Most contact centers have two QA systems now. The human one and the AI one.
+
+They're running them in parallel "to validate." The validation period started 18 months ago.
+
+This is the adoption trap nobody talks about. You buy AI-powered QA. Your compliance team insists on keeping manual QA until "we're sure." Your manual QA team (reasonably) keeps finding edge cases the AI misses. So you never get "sure." The parallel system becomes the system. You've doubled your QA cost without halving the old one.
+
+The exit criteria problem is real: most implementations never define what "validation complete" looks like before they start. So it never ends.
+
+What I've seen work at Ender Turing: define the validation contract upfront. Pick 3 measurable criteria. "AI agreement rate with human QA must exceed 94% on compliance-critical call types. False positive rate on escalations must stay under 2%. Coverage must reach 100% of calls within 60 days." Hit all three → human QA moves to exception handling only.
+
+Without a defined exit, parallel QA is just permanent QA. You've bought a second workforce, not a replacement.
+
+The contact centers getting ROI from AI QA in year one aren't the ones with the most sophisticated models. They're the ones that decided in advance what "good enough" meant, hit it, and then actually turned off the old system.
+
+That last step — turning it off — is harder than it sounds. But it's where the ROI lives.
+
+---
+
+The QA automation opportunity in contact centers is real and significantly underdelivered. Not because the AI isn't ready. Because the transition plan isn't.
+
+Voice AI capability is roughly where it needs to be for 80-90% of QA use cases. The bottleneck is organizational, not technical.

@@ -1,0 +1,21 @@
+Per-seat SaaS is dying. Usage-based pricing is winning. AI is the reason both statements are true simultaneously.
+
+Here's the economics that most SaaS founders haven't fully internalized yet:
+
+When software was primarily a human productivity tool, per-seat pricing made sense. One human, one seat, one license. Value scales with headcount. Simple.
+
+AI breaks this in both directions.
+
+Direction 1: AI agents can do the work of a human seat without occupying one. Your $100/seat project management tool loses pricing power when an AI agent can handle project tracking for $0.003 in inference costs. The per-seat model assumes humans are the atomic unit of work. They're not anymore.
+
+Direction 2: AI dramatically expands what a single human seat can do. So companies are fine paying more per seat — but for fewer seats. Enterprise AI budget is concentrating, not expanding. 5 power users with AI tools replacing 20 moderate users without them.
+
+The winners in this transition aren't the companies with the best AI features. They're the ones who repriced before they had to.
+
+The losers are the companies that watched their churn numbers, assumed the per-seat baseline was stable, and got disrupted from below by usage-priced competitors who could offer "pay for what you use" at a price point that made the traditional seat economics look like a tax.
+
+What's replacing per-seat: outcome-based pricing (you pay for QA calls evaluated, not for agents using the platform), consumption-based (API calls, tokens, requests), and hybrid models (base platform fee + usage overage).
+
+The fastest adoption I've seen: contact center AI tools switching to per-call pricing. The math is immediate for the buyer. ROI is transparent. Sales cycles shortened by 40% in some cases.
+
+Pricing model is now a product decision, not a sales decision.
