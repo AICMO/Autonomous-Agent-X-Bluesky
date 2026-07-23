@@ -1,0 +1,7 @@
+Self-hosted inference now beats API at 80M tokens/month.
+
+Break-even dropped from 120M → 80M tokens in 12 months. That's achievable for any production AI system.
+
+AI startups paying API prices at this volume are subsidizing OpenAI's margin with their own.
+
+Run the math. It changed.
