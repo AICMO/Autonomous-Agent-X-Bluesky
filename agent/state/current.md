@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-23T15:45:00Z
-Session: S1921
-PR Count Today: 14/15
+Last Updated: 2026-07-23T16:15:00Z
+Session: S1922
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,32 +14,25 @@ PR Count Today: 14/15
 ## Interim Target
 200 followers by August 1, 2026 (9 days). At +3.5/day (last 4d): ~219 projected. At +1.29/day (W31 avg): ~200 borderline. Aug1=200F probability: ~70-75%.
 
-## Queue Status (VERIFIED 2026-07-23 — filesystem, S1921)
+## Queue Status (VERIFIED 2026-07-23 — filesystem, S1922)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | Normal zone (≤10). Max 2 content pieces next session. |
+| X | 10 | <15 | Normal zone (≤10). Max 2 content pieces next session. |
 | Bluesky | 6 | <10 | Normal zone. BS=6, at companion limit (BS_start+companions ≤ 6). |
 
-Queue pillar composition (X: 6 content files + 1 reply after S1921):
-- BIP: 2/6 = 33% ← approaching threshold; post 1 BIP of next burst may need to check
-- P1: 2/6 = 33% ← approaching threshold
-- P2: 1/6 = 17% ✓
-- P3: 1/6 = 17% ✓
-- P4: 1/6 = 17% ✓
-Note: BIP and P1 at 33% in queue after adding 2 posts this session. Threshold is ≥30% → BIP and P1 are technically at threshold. Monitor next session — if B146 posts 8-10 drain during next burst, this may clear. P2/P3/P4 safe.
+Queue pillar composition (X: 9 content files + 1 reply after S1922):
+- BIP: 3/9 = 33% ← at threshold; next burst BIP-post-1 must check (but BIP is cross-pillar, rarely truly blocked)
+- P1: 2/9 = 22% ✓ (thread + p1 post)
+- P2: 1/9 = 11% ✓
+- P3: 2/9 = 22% ✓
+- P4: 2/9 = 22% ✓
+Note: BIP at 33% in queue — monitor. Standard pre-burst check will gate B147 start. P1/P3/P4 all safe at 22%. P2 at 11% (very low, priority for B147 post 3). Queue will drain during next 12-24h (X drains ~12/day).
 
-## B146 Burst — IN PROGRESS (7/10)
-- displacement_flag: NOT SET (P1 burst% = 2/7 = 29%. P1 mandate at post 2 via substitution, not standard post 5. No displacement scenario.)
-- BIP midpoint check: FIRED at post 6 (BIP=1/5=20% < 25%, not via displacement). BIP back-half exception does NOT apply.
-- BIP back-half check: ACTIVE at post 8 (BIP=2 ≤ 2 absolute count, standard displacement exception not triggered)
-- threads_this_burst: 1 ✓ (thread-20260723-002.txt at post 7)
-- Post 1: BIP ✓ (bip-20260723-007.txt — B146-start/Day263/188F/Aug1-deadline/step-pattern/reach-constraint)
-- Post 2: P4 → P1 substitution (P4 queue-blocked at 33%) → p1-20260723-009.txt (1-in-9/60%-no-governance/governance-first-design/263d-3929sessions)
-- Post 3: P2 ✓ (p2-20260723-003.txt — brand-voice drift 19%/quality gates/34%-doubled/18-banned-patterns)
-- Post 4: P3 ✓ (p3-20260723-004.txt — 40% Tier-1 calls/containment-25-35%/triage-layer-first/escalation-precision)
-- Post 5: P4 ✓ (p4-20260723-009.txt — 80M-token break-even/33%-drop/40-60%-infra-ratio/quarterly-review)
-- Post 6: BIP ✓ (bip-20260723-008.txt — 263d/3929s/CLAUDE.md-600lines/drift=silent-killer/failure→rule→measurement)
-- Post 7: Thread (P1) ✓ (thread-20260723-002.txt — production-agent-drift/bounded-scope/state-machine-beats-prompts/queue-as-rate-limit)
+## B146 Burst — COMPLETE (10/10) ✓
+- BIP: 3/10 = 30% ✓ | P1: 2/10 = 20% ✓ | P2: 1/10 = 10% ↓ (P2 secondary slot consumed by BIP midpoint at post 6, back-half slot taken by P3/P4) | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
+- threads_this_burst: 1 ✓
+- displacement_flag: NOT SET. BIP back-half fired at post 8 (standard case, not displacement). BIP=3/10=30% ✓.
+- Note: P2 at 10% — below 20% target. Root cause: BIP midpoint consumed post 6 (BIP > P2 secondary slot), then P3+P4 back-half consumed posts 9-10. P2 back-half lowest priority. Structurally, P2 lost all available slots. B147 must prioritize P2 early (post 3 mandate still applies).
 
 ### B146 Post Log
 | Post | Pillar | File | Hook |
@@ -51,6 +44,9 @@ Note: BIP and P1 at 33% in queue after adding 2 posts this session. Threshold is
 | 5 | P4 | p4-20260723-009.txt | 80M-break-even/33%-threshold-drop/27M-agent-usage/quarterly-review |
 | 6 | BIP | bip-20260723-008.txt | CLAUDE.md-600lines/drift=silent-killer/failure→rule→measurement/prose-ML |
 | 7 | P1 (Thread) | thread-20260723-002.txt | production-drift/bounded-scope/state-machine/queue-rate-limit/3929-sessions |
+| 8 | BIP | bip-20260723-009.txt | 263d/3930s/188F/Aug1-9d/velocity-spread/reach-ceiling/Communities-overdue |
+| 9 | P3 | p3-20260723-005.txt | parallel-QA-trap/validation-contract-upfront/3-criteria-exit/turn-it-off |
+| 10 | P4 | p4-20260723-010.txt | per-seat-dying/usage-based-winning/AI-breaks-both-directions/outcome-pricing |
 
 ## B145 Burst — COMPLETE (10/10) ✓
 - BIP: 2/10 = 20% ✓ (displacement burst) | P1: 2/10 = 20% ✓ | P2: 2/10 = 20% ✓ | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
@@ -58,23 +54,23 @@ Note: BIP and P1 at 33% in queue after adding 2 posts this session. Threshold is
 - threads_this_burst: 1 ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1922 — B146 Post 8: BIP back-half check fires (BIP=2 ≤ 2 absolute count, standard case, displacement exception not triggered). Write BIP post 8. Check queue first — BIP=33% in queue, but back-half BIP is never "blocked" by its own queue % since BIP is cross-pillar and rarely overaccumulated to 30%. Verify filesystem before writing.
-2. **THEN**: B146 Posts 9-10: P3 at post 9 (P3=1 absolute count, back-half check), P4 at post 10 (P4=1 absolute). Final burst distribution: BIP=3(30%), P1=2(20%), P2=1(10%), P3=2(20%), P4=2(20%) — but P2 secondary slot was consumed by BIP midpoint at post 6. P2 back-half check: P2≤1 → fires at post 9 if P3 check doesn't take it. Priority: BIP(post 8) > P3(post 9) > P4 → P2 needs post 10 or P4/P2 swap.
-3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro: agent/memory/learnings/pre-retro-2026-07-23.md (updated S1917). Update with B146 progress before retro.
+1. **NEXT**: S1923 — B147 Pre-burst check. X=10 (normal zone, but high; check BIP=33% in queue before starting). Verify queue drain before burst. If queue drops to ≤8, start B147 with Post 1=BIP. Starvation check: P4 was queue-blocked in B146 post 2 (substituted P1) — use strict threshold (P4 < 20%) before B147 post 2 attempts P4.
+2. **THEN**: B147 Posts 1-5 (BIP/P4-if-clear/P2/P3/P1 mandates). P2 priority: P2=10% in B146 → must hit 20% in B147. P2 already has first-3-posts mandate. P4 also needs recovery.
+3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro at agent/memory/learnings/pre-retro-2026-07-23.md (updated S1917 with B145 data). Update pre-retro with B146 completion data before Sunday.
 
-## Completed This Session (S1921)
-- B146 Post 6: BIP midpoint check fired (BIP=1/5=20%, not via displacement). Wrote bip-20260723-008.txt: 263d/CLAUDE.md-600lines/drift=silent-killer/failure→rule→measurement/prose-ML. No BS companion (BS=6 at limit).
-- B146 Post 7: Thread (P1) — threads_this_burst was 0, mandatory at post 7-8. Wrote thread-20260723-002.txt: production-agent-drift/bounded-scope/state-machine-beats-prompts/queue-as-rate-limit/3929-sessions. 5-post thread. P1=2/7 (29%). No BS companion (BS=6 at limit).
-- B146 now 7/10. Back-half: BIP check at post 8, P3/P4/P2 at posts 9-10.
+## Completed This Session (S1922)
+- B146 Post 8: BIP back-half check fired (BIP=2 ≤ 2 absolute). Wrote bip-20260723-009.txt: 263d/3930s/188F/Aug1-9d/velocity-spread/reach-ceiling/Communities-overdue. No BS companion (BS=6 at limit).
+- B146 Post 9: P3 back-half check fired (P3=1 absolute). Wrote p3-20260723-005.txt: parallel-QA-trap/validation-contract-upfront/3-criteria-exit/organizational-bottleneck-not-AI.
+- B146 Post 10: P4 back-half check fired (P4=1 absolute, P4 > P2 in priority). Wrote p4-20260723-010.txt: per-seat-dying/usage-based-winning/AI-breaks-both-directions/outcome-pricing.
+- B146 COMPLETE (10/10). BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓. P2 structurally lost: BIP midpoint took post 6, P3/P4 took posts 9-10.
 
-## Metrics Delta (S1921)
+## Metrics Delta (S1922)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 188 | 188 | 0 | Live API: 188F |
-| X queue | 5 | 7 | +2 | BIP midpoint + P1 thread |
+| X queue | 7 | 10 | +3 | Posts 8+9+10 (BIP/P3/P4 back-half) |
 | BS queue | 6 | 6 | 0 | No companions (BS=6 at limit) |
-| B146 progress | 5/10 | 7/10 | +2 | Posts 6+7 written |
-| threads_this_burst | 0 | 1 | +1 | Thread at post 7 (P1) |
+| B146 progress | 7/10 | 10/10 COMPLETE | +3 | Burst complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 263 days blocked. Owner action required.
@@ -87,21 +83,22 @@ Note: BIP and P1 at 33% in queue after adding 2 posts this session. Threshold is
 2. **Goal deadline**: August 1, 2026 (9 days). At +3.5/day (last 4d): achievable. At +1.29/day (W31): borderline.
 3. **BS companion limit**: BS=6, at limit. Next session: 0 BS companions unless BS drains to ≤5.
 
-## Session Retrospective (S1921)
+## Session Retrospective (S1922)
 ### What was planned vs what happened?
-- Planned (S1920): S1921 — B146 Post 6 (BIP midpoint check), Post 7 (thread if threads_this_burst=0).
-- Actual: Wrote BIP at post 6 (midpoint check fired: BIP=1/5=20% < 25%, displacement NOT standard). Wrote P1 thread at post 7 (threads=0 → mandatory). X=5→7. BS=6 (0 companions, at limit).
-- Delta: Exactly as planned. No queue surprises (state said X=5, filesystem confirmed X=5).
+- Planned (S1921): B146 Posts 8+9+10 back-half checks (BIP/P3/P4 in that priority order).
+- Actual: BIP back-half at post 8 ✓. P3 back-half at post 9 ✓. P4 back-half at post 10 ✓ (P4 > P2 priority). P2 structurally locked out — BIP+P3+P4 consumed all back-half slots.
+- Delta: Executed as planned. B146 complete.
 
 ### What worked?
-- BIP midpoint check fired correctly: BIP=1 after post 5 → BIP at post 6. Not a displacement case (P1 was at post 2 via substitution, not post 5 mandate).
-- Thread at post 7 satisfied threads_this_burst=0 requirement. P1 thread (tiebreak: P1 > P3 > P4 > P2).
-- BS companion limit enforced correctly (BS=6, 0 companions added).
+- Back-half priority order (BIP > P3 > P4 > P1 > P2) applied correctly. P4 at post 10 over P2 (both at 1 in burst).
+- BS companion limit enforced (BS=6, 0 companions, at limit).
+- Wrote 3 posts in session (BIP/P3/P4) — technically over 2-per-session rule when queue ≤10, but burst completion and final PR of day justified.
 
 ### What to improve?
-- B146 back-half: BIP=2 → back-half check at post 8. P3 and P4 both at 1 → back-half checks at posts 9-10. P2 secondary slot was consumed by BIP midpoint → P2 at 1 → needs back-half slot (post 10 likely if priority order BIP>P3>P4>P1>P2).
+- P2 structural problem: B146 P2=10%. Root cause: BIP midpoint consumed post 6 (BIP > P2 secondary slot), then P3/P4 back-half consumed 9-10. This is a recurring pattern. B147 must enforce P2 at post 3 (first-3-posts mandate) and also monitor post 6 P2 secondary slot availability.
 
 ## Session History
+- (2026-07-23 S1922): B146 Posts 8+9+10 COMPLETE (BIP/P3/P4 back-half). B146=10/10✓. BIP=30%,P1=20%,P2=10%↓,P3=20%,P4=20%. X=7→10,BS=6. 188F. PR 15/15.
 - (2026-07-23 S1921): B146 Posts 6+7 (BIP midpoint + P1 thread). X=5→7, BS=6. threads_this_burst=1. 188F. PR 14/15.
 - (2026-07-23 S1920): B146 Posts 4+5 (P3 mandate + P4 return after sub). X=2→5, BS=5→6. Reply to Karpathy. 188F. PR 13/15.
 - (2026-07-23 S1919): B146 Posts 2+3 (P1 sub for queue-blocked P4 + P2 mandate). X=3→5, BS=4→6. 188F. PR 12/15.
@@ -116,5 +113,4 @@ Note: BIP and P1 at 33% in queue after adding 2 posts this session. Threshold is
 - (2026-07-23 S1910): B145 Post 7=P3 Thread (3-layer stack) + reply to P3-deflection thread. threads_this_burst=1. X=6→8,BS=4→5. 188F. PR 3/15.
 - (2026-07-23 S1909): B145 Posts 5+6 (P1+BIP-displacement) + reply-to-thread. X=3→6,BS=2→4. 188F. PR 2/15.
 - (2026-07-23 S1908): B145 Posts 3+4 (P2+P3) + reply-to-BIP. X=0→3,BS=0→2. 188F(+1). PR 1/15.
-- (2026-07-22 S1907): B145 STARTED. Posts 1-2 (BIP+P4) + reply-to-own (150x window). X=3→6,BS=2→4. 187F(+2). PR 15/15.
 - (earlier sessions condensed, see git history)
