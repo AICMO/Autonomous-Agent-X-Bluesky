@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-23T12:05:00Z
-Session: S1918
-PR Count Today: 11/15
+Last Updated: 2026-07-23T15:10:00Z
+Session: S1919
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,29 +14,33 @@ PR Count Today: 11/15
 ## Interim Target
 200 followers by August 1, 2026 (9 days). At +3.5/day (last 4d): ~219 projected. At +1.29/day (W31 avg): ~200 borderline. Aug1=200F probability: ~70-75%.
 
-## Queue Status (VERIFIED 2026-07-23 — filesystem, S1916)
+## Queue Status (VERIFIED 2026-07-23 — filesystem, S1919)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). No X content until queue drains to ≤10. |
-| Bluesky | 8 | <10 | Near-throttle (BS=8). BS-only exception exhausted (required BS<8). |
+| X | 5 | <15 | Normal zone (≤10). Max 2 content pieces. |
+| Bluesky | 6 | <10 | Normal zone (≤7 for companions during burst). BS=6, companions OK. |
 
-Queue pillar composition (X: 9 content files after S1914 BIP added):
-- BIP: 2/9 = 22% ✓
-- P1: 2/9 = 22% ✓
-- P2: 2/9 = 22% ✓
-- P3: 2/9 = 22% ✓
-- P4: 1/9 = 11% ✓
-Note: All pillars <30%. B146 gate was OPEN at pre-burst check (S1914).
+Queue pillar composition (X: 5 files after S1919 posts — p3×2, p4×1, p1×1, p2×1):
+- BIP: 0/5 = 0% ✓
+- P1: 1/5 = 20% ✓
+- P2: 1/5 = 20% ✓
+- P3: 2/5 = 40% QUEUE-BLOCKED (≥30%)
+- P4: 1/5 = 20% QUEUE-BLOCKED (≥30% at time of writing — P4 file still in queue)
+Note: P3 at 40% blocks P3 next session. P4 was 33% (1/3) when this session's posts were chosen → P4 substituted with P1 at Post 2. With new P1+P2 added, P4=1/5=20% — now safe for next session if queue doesn't change. P3=40% — still blocked.
 
-## B146 Burst — IN PROGRESS (1/10)
-- displacement_flag: NOT SET (P1 mandate not yet fired)
+## B146 Burst — IN PROGRESS (3/10)
+- displacement_flag: NOT SET (P1 mandate fired at Post 2 substitution — but this was a SUBSTITUTION, not the standard P1-at-post-5 mandate. P1 burst% = 1/3 = 33%. P1 mandate for post 5 may still need to fire if P1 count is still 1 by then.)
 - threads_this_burst: 0
 - Post 1: BIP ✓ (bip-20260723-007.txt — B146-start/Day263/188F/Aug1-deadline/step-pattern/reach-constraint)
+- Post 2: P4 → P1 substitution (P4 queue-blocked at 33%) → p1-20260723-009.txt (1-in-9/60%-no-governance/governance-first-design/263d-3929sessions)
+- Post 3: P2 ✓ (p2-20260723-003.txt — brand-voice drift 19%/quality gates/34%-doubled/18-banned-patterns)
 
 ### B146 Post Log
 | Post | Pillar | File | Hook |
 |------|--------|------|------|
 | 1 | BIP | bip-20260723-007.txt | S1914/3929/188F/Aug1-9d/step-growth/1-in-9/reach-ceiling |
+| 2 | P1 (P4 sub) | p1-20260723-009.txt | 1-in-9/60%-no-governance/governance-first-design/bounded-scope |
+| 3 | P2 | p2-20260723-003.txt | 34%-doubled/19%-voice-drift/18-banned-patterns/quality-gate |
 
 ## B145 Burst — COMPLETE (10/10) ✓
 - BIP: 2/10 = 20% ✓ (displacement burst) | P1: 2/10 = 20% ✓ | P2: 2/10 = 20% ✓ | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
@@ -44,22 +48,23 @@ Note: All pillars <30%. B146 gate was OPEN at pre-burst check (S1914).
 - threads_this_burst: 1 ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1919 — Verify X queue from filesystem. If X≤10: B146 Post 2 (P4-A self-hosting/80M-tokens, use ai-news-2026-07-23-b146.md hook). If X=11-12 AND BS=8: Tier 1 Exhausted → check Tier 2 (hypothesis update). Else: no PR.
-2. **THEN**: B146 Posts 3-5 (P2 post 3, P3 post 4, P1 post 5). Hooks in ai-news-2026-07-23-b146.md.
-3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro updated (S1917): agent/memory/learnings/pre-retro-2026-07-23.md.
+1. **NEXT**: S1920 — B146 Posts 4-5 (P3 post 4: 40% Tier-1 calls/containment-vs-escalation hook; P1 post 5: check if P1 burst count = 1 still, if so P1 = mandate; otherwise P4-A self-hosting hook). Check queue pillar composition: P3=40% BLOCKED, verify P4 status. Max 2 posts.
+2. **THEN**: B146 Post 6 — Check displacement_flag. P1 burst% = 33% (already above 25%). If BIP=1 and midpoint check fires → BIP at post 6. Else P2 secondary slot.
+3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro: agent/memory/learnings/pre-retro-2026-07-23.md (updated S1917).
 
-## Completed This Session (S1918)
-- Tier 2 memory cleanup: Deleted agent/memory/research/ai-news-2026-07-23.md (B145 research, all 4 primary hooks consumed: P3-A, P2-A, P1-A, P4-A used in B145 Posts 1-10). B145 COMPLETE so file has no future value.
-- Graduate log: P3-A (67%/12% scale gap), P2-A (3.2x ROI/process adjustment), P1-A (97%/88% security/black-box), P4-A (1000x collapse/moat-erasure) — all used in B145, archived in git history.
-- Dual near-limit zone persists: X=12, BS=8. No content created.
+## Completed This Session (S1919)
+- B146 Post 2: P4 mandate → P4 queue-blocked (P4=33% in X queue of 3). Substituted with P1 (most under-represented safe pillar, 0% in queue). Wrote p1-20260723-009.txt: governance-first design / 1-in-9 / 60%-no-governance / bounded-scope architecture.
+- B146 Post 3: P2 mandate ✓. Wrote p2-20260723-003.txt: brand-voice drift 19% / quality gates / 18-banned-patterns / 34%-doubled.
+- BS companions: p1-20260723-009.txt (BS) + p2-20260723-003.txt (BS). BS=4→6.
+- B146 now 3/10. Next: P3 post 4 + P4/P1 assessment for post 5.
 
-## Metrics Delta (S1918)
+## Metrics Delta (S1919)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 188 | 188 | 0 | Live API: 188F stable |
-| X queue | 12 | 12 | 0 | Look-ahead zone. No change. |
-| BS queue | 8 | 8 | 0 | Near-throttle. No change. |
-| Memory | ~48.5KB research | -18.3KB | -38% | ai-news-2026-07-23.md deleted |
+| Followers | 188 | 188 | 0 | Live API: 188F |
+| X queue | 3 | 5 | +2 | 2 posts created (P1+P2) |
+| BS queue | 4 | 6 | +2 | 2 companions created |
+| B146 progress | 1/10 | 3/10 | +2 | Posts 2+3 written |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 263 days blocked. Owner action required.
@@ -70,24 +75,24 @@ Note: All pillars <30%. B146 gate was OPEN at pre-burst check (S1914).
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 263+ days overdue.
 2. **Goal deadline**: August 1, 2026 (9 days). At +3.5/day (last 4d): achievable. At +1.29/day (W31): borderline.
-3. **X look-ahead**: X=12 after S1914. Next session blocked from X content unless queue drains to ≤10.
+3. **P3 queue-blocked**: P3=2/5=40% in X queue. P3 mandate at B146 Post 4 will need substitution unless P3 drains before next session. Safe substition: P4 (at 20%, safe) or BIP (at 0%, safe).
 
-## Session Retrospective (S1918)
+## Session Retrospective (S1919)
 ### What was planned vs what happened?
-- Planned (S1917): S1918 — Check X queue. If X=11-12 AND BS=8: Tier 1 only.
-- Actual: X=12 AND BS=8 — dual near-limit zone confirmed. Tier 1 options: skill audit (pre-burst, eligible but S1913 found all current). Pre-retro FINAL→IN PROGRESS but was just updated in S1917 (nothing new to add). CLAUDE.md improvement (no 2+ recurrence found this session). → Tier 2: memory cleanup. Deleted ai-news-2026-07-23.md (B145 hooks all consumed, 18.3KB freed).
-- Delta: Correct protocol execution. Tier 1 exhausted → Tier 2 executed.
+- Planned (S1918): S1919 — Verify X queue from filesystem. If X≤10: B146 Post 2 (P4-A self-hosting).
+- Actual: X=3, BS=4 (queue drained from X=12 to X=3 during blocked sessions). Both well within limits. Could create 2 posts. P4 was queue-blocked at 33% (1 of 3 files in X queue) → substituted P1 at post 2. P2 mandate for post 3 fired normally.
+- Delta: State file lagged filesystem by 9 files (said X=12, actual was X=3). Queue check protocol worked correctly — filesystem is authoritative.
 
 ### What worked?
-- Memory cleanup was valid: B145 complete, file had zero remaining value.
-- CLAUDE.md's "never delete without reading first" rule followed. All hooks verified consumed.
-- git rm (not rm) used correctly per sandbox rule.
+- Queue check protocol correctly showed X=3 vs state file X=12. Dramatic draining during 5 blocked sessions.
+- P4 substitution rule applied correctly: P4=33% → substitute most under-represented safe pillar → P1 at 0% wins tiebreak.
+- 2 full X posts + 2 BS companions written within session limit.
 
 ### What to improve?
-- 5 consecutive blocked sessions (S1914-S1918). Queues need to drain. Need X≤10 AND BS≤7.
-- Tier 1 options are fully exhausted for this burst cycle. Next blocked session → state-update-only or no PR.
+- Need to check if P3=40% in queue will persist into next session. P3 is queue-blocked — post 4 of B146 (P3 mandate) may need substitution again next session.
 
 ## Session History
+- (2026-07-23 S1919): B146 Posts 2+3 (P1 sub for queue-blocked P4 + P2 mandate). X=3→5, BS=4→6. 188F. PR 12/15.
 - (2026-07-23 S1918): BLOCKED X=12,BS=8. Dual near-limit. Tier 2: memory cleanup (ai-news-2026-07-23.md deleted, B145 hooks consumed). 188F. PR 11/15.
 - (2026-07-23 S1917): BLOCKED X=12,BS=8. Dual near-limit. Tier 1: pre-retro updated (B146 start+BS-only data). 188F. PR 10/15.
 - (2026-07-23 S1916): BLOCKED X=12. BS-only P2 standalone (brand-voice-drift/34%-doubled). BS=7→8. 188F. PR 9/15.
@@ -102,5 +107,4 @@ Note: All pillars <30%. B146 gate was OPEN at pre-burst check (S1914).
 - (2026-07-22 S1907): B145 STARTED. Posts 1-2 (BIP+P4) + reply-to-own (150x window). X=3→6,BS=2→4. 187F(+2). PR 15/15.
 - (2026-07-22 S1906): BLOCKED X=6,BS=3. B145 gate CLOSED (P1=33%+P4=33%). Queue update. PR 14/15.
 - (2026-07-22 S1905): BLOCKED X=11,BS=9. Skill audit (no changes). B145 research. P1=33% gate found. PR 13/15.
-- (2026-07-22 S1904): Reply-to-own x2 (150x window). P4-inference+P3-thread replies. X=9→11. PR 12/15.
 - (earlier sessions condensed, see git history)

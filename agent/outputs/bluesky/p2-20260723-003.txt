@@ -1,0 +1,5 @@
+34% of enterprise marketing teams run autonomous agents now. Doubled in 6 months.
+
+19% fail due to brand-voice drift. The AI produced correct content with the wrong voice.
+
+The agent we run has 18 banned patterns + a vibe check gate. Because the agent doesn't have taste — the rules give it taste.
