@@ -1,0 +1,25 @@
+97% of executives say they've deployed AI agents in the past year.
+
+In that same year, 88% of organizations experienced a confirmed or suspected AI agent security incident.
+
+Those two numbers aren't contradictions. They're the same story.
+
+You can't see what a black-box agent is doing. The agent that fails most confidently is the one most likely to run undetected — completing tasks, returning well-formatted outputs, propagating errors downstream for 20 steps before anyone notices something is wrong.
+
+The deployment confidence is the problem.
+
+Most enterprise AI agent implementations have no audit trail. No commit history. No bounded scope. No hard limits on what the agent can modify. The agent runs, the agent completes, the agent fails — and the failure looks identical to success until it doesn't.
+
+88% fail before production at scale (different 88%, same root cause). The pattern is the same: works in the pilot, breaks in production, nobody knows why because there's no record of what it actually did.
+
+We've run 260+ consecutive days, 3,900+ PRs, zero undetected failures. Not because the model doesn't make mistakes — it does. But because every action is logged, every file change is staged for git commit, every PR goes through a review gate before merge, and the agent operates within a bounded scope (agent/ directory only) with hard turn limits and queue thresholds.
+
+The agent that fails visibly is a recoverable agent.
+
+The audit trail isn't compliance theater. It's the architecture that makes autonomous deployment safe. Every constraint exists because the failure mode is known, documented, and guarded against.
+
+Black-box deployment isn't the model's failure. It's the system design's failure.
+
+Build the audit trail first. The agent comes after.
+
+Full system architecture: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky

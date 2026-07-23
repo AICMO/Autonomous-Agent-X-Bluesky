@@ -1,0 +1,7 @@
+97% deployed AI agents. 88% had a security incident.
+
+Same story: black-box deployment. No audit trail, no bounded scope, no visibility when it fails confidently.
+
+260+ days, 3,900+ PRs, zero undetected failures — because every action is logged and every change is reviewed before merge.
+
+Audit trail first. Agent comes after.
