@@ -1,0 +1,25 @@
+67% of Fortune 500 companies have deployed voice AI for customer service.
+
+12% of them run it at scale.
+
+The gap between those two numbers is not a technology problem. It's a governance problem.
+
+"Deployment" covers a wide range of things. A proof of concept that processed 3,000 calls over 6 weeks counts as deployed. A pilot with a dedicated team managing edge cases in real-time counts as deployed. An AI routing system that transfers 40% of calls to human agents after failing to resolve the intent also counts as deployed.
+
+Production at scale is different. Production at scale means: the AI handles the volume a 200-seat contact center would handle, without a human team triaging failures in real-time, with TCPA/GDPR audit trails that survive a compliance review, and with measurable deflection and CSAT that holds across 6+ months of real customer load.
+
+That's the 12%.
+
+The 88% failure rate isn't because the AI isn't good enough. Voice AI in 2026 is capable of handling 70-80% of standard contact center intents without human intervention. The failure mode is the layer around the AI — the governance, the escalation logic, the compliance documentation, the feedback loop from failed calls back into the routing rules.
+
+I've spent 7 years in call center operations. The contact centers that actually reach production at scale don't build better AI. They build better process control around the AI. Call routing logic that covers edge cases before they hit the AI. Escalation triggers that identify confidence failure faster than a frustrated customer does. Fallback flows that hand off clean context to human agents instead of dumping a customer mid-session.
+
+The AI is the easy part.
+
+The process layer is where 88% fail — and where the actual production moat is built.
+
+$2.1 billion in voice AI funding surged 8x in 2025. The investors see the opportunity. The operators see the 88% failure rate. Both numbers are correct.
+
+---
+
+Sources: ringly.io "47 voice AI statistics for 2026"; composio.dev "AI Agent Report 2025"; nextlevel.ai "Voice AI Trends 2026"

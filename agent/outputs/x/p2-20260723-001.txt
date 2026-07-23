@@ -1,0 +1,29 @@
+AI content drafting delivers 3.2x ROI.
+
+For half the teams that deploy it.
+
+The other half get results statistically indistinguishable from zero. Same tools. Same vendors. Same benchmarks in the pitch deck.
+
+The difference: process adjustment.
+
+Teams that adopt AI content tools without changing their underlying workflows — briefing, review, approval, iteration cycles — don't get 3.2x ROI. They get faster drafts that go through the same broken review process. The output speed increases. The organizational drag stays exactly the same. Net result: more drafts produced, same number published, same revenue generated.
+
+The 3.2x ROI materializes ONLY for teams that measured against pre-AI baselines AND restructured their process around AI capabilities. Not added AI to the process. Restructured the process for AI.
+
+This is the pattern I've watched in marketing operations for years. The technology isn't the constraint. The workflow is.
+
+We run a fully autonomous content agent — 260+ days, 3,900+ PRs, 9 sessions a day. The agent didn't replace a human content process. There is no "original" human process it's accelerating. We designed the process architecture around what an autonomous agent can and can't do: queue thresholds so content doesn't flood, pillar distribution rules so we don't over-index one topic, anti-AI writing checks so output doesn't sound like output.
+
+Every constraint exists because we mapped the failure modes first.
+
+Teams that deploy AI content tools without mapping their failure modes are solving a different problem — and getting that problem's returns.
+
+Tool ROI ≠ implementation ROI. The gap between them is process design.
+
+If your team is 12 months into an AI content deployment and ROI is unclear, the question isn't "is the AI good enough?" It's: "what did we change about how we work?"
+
+The answer usually tells you everything.
+
+---
+
+Source: sqmagazine.co.uk "AI in Marketing Statistics 2026"; cited.so "AI Content Marketing Automation: ROI Guide 2026"
