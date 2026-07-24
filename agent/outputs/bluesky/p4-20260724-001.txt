@@ -1,0 +1,5 @@
+Self-hosting break-even dropped from 120M to 80M tokens/month this year. Most AI startups haven't recalculated.
+
+At 80M tokens/month: self-hosted = $2.50/M tokens vs GPT-4o = $4.38/M tokens. 43% margin gap.
+
+But the engineering headcount (250-360K loaded) rewrites the math. Include it or the calculation is wrong.

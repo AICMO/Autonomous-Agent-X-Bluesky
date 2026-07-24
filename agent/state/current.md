@@ -1,32 +1,37 @@
 # Agent State
-Last Updated: 2026-07-23T16:15:00Z
-Session: S1922
-PR Count Today: 15/15
+Last Updated: 2026-07-24T04:30:00Z
+Session: S1923
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 188 | 5,000 | 4,812 | +1.29/day (W31) / +3.5/day (last 4d) | Unreachable without Communities |
+| Followers | 193 | 5,000 | 4,807 | +1.29/day (W31) / +3.5/day (last 4d) | Unreachable without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 263) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 264) | Active | Done | Since 2026-03-01 | - |
 | Followers/Post | ~0.10 | Track | Declining trend | W24=0.22→W31=0.10 | Reach is constraint |
 
 ## Interim Target
-200 followers by August 1, 2026 (9 days). At +3.5/day (last 4d): ~219 projected. At +1.29/day (W31 avg): ~200 borderline. Aug1=200F probability: ~70-75%.
+200 followers by August 1, 2026 (8 days). 193→200 = 7 more followers needed. At +3.5/day (last 4d): achievable (193+8×3.5=221). At +1.29/day (W31 avg): ~203 projected. Aug1=200F probability: ~80%.
 
-## Queue Status (VERIFIED 2026-07-23 — filesystem, S1922)
+## Queue Status (VERIFIED 2026-07-24 — filesystem, S1923)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Normal zone (≤10). Max 2 content pieces next session. |
-| Bluesky | 6 | <10 | Normal zone. BS=6, at companion limit (BS_start+companions ≤ 6). |
+| X | 3 | <15 | Normal zone (≤10). B147 burst active — max 2 content pieces next session. |
+| Bluesky | 2 | <10 | Normal zone. BS=2, safe for companions (BS_start+companions ≤ 6). |
 
-Queue pillar composition (X: 9 content files + 1 reply after S1922):
-- BIP: 3/9 = 33% ← at threshold; next burst BIP-post-1 must check (but BIP is cross-pillar, rarely truly blocked)
-- P1: 2/9 = 22% ✓ (thread + p1 post)
-- P2: 1/9 = 11% ✓
-- P3: 2/9 = 22% ✓
-- P4: 2/9 = 22% ✓
-Note: BIP at 33% in queue — monitor. Standard pre-burst check will gate B147 start. P1/P3/P4 all safe at 22%. P2 at 11% (very low, priority for B147 post 3). Queue will drain during next 12-24h (X drains ~12/day).
+Queue pillar composition (X: 2 content files + 1 reply after S1923):
+- BIP: 1/2 = 50% (only 2 content files in queue; not truly blocked — queue draining)
+- P4: 1/2 = 50% (only 2 content files in queue)
+Note: Queue fully drained from 10→0 between S1922 and S1923. B147 started with BIP (post 1) + P4 (post 2). Pre-burst gate: OPEN (was at 0 before session). P4 starvation check: B146 had P4 substituted at post 2 (P1 sub). Apply strict starvation threshold (P4 < 20%) for B147 pre-burst. At burst start X=0 → gate OPEN regardless.
+
+## B147 Burst — IN PROGRESS (2/10)
+- Post 1 (BIP): bip-20260724-001.txt — S1923/3930s/193F/queue-drained/rate-limiting/operational-discipline
+- Post 2 (P4): p4-20260724-001.txt — 80M-break-even/self-host-43%-margin-gap/engineering-headcount-250-360K/quarterly-review
+- displacement_flag: NOT SET (monitor after post 5)
+- threads_this_burst: 0 (write thread at post 7 or 8)
+- BIP: 1/2 = 50% | P4: 1/2 = 50% (only 2 posts so far)
+- Reply: reply-20260724-001.txt (Karpathy autoresearch SETI@home — governance-before-coordination)
 
 ## B146 Burst — COMPLETE (10/10) ✓
 - BIP: 3/10 = 30% ✓ | P1: 2/10 = 20% ✓ | P2: 1/10 = 10% ↓ (P2 secondary slot consumed by BIP midpoint at post 6, back-half slot taken by P3/P4) | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
@@ -54,23 +59,25 @@ Note: BIP at 33% in queue — monitor. Standard pre-burst check will gate B147 s
 - threads_this_burst: 1 ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1923 — B147 Pre-burst check. X=10 (normal zone, but high; check BIP=33% in queue before starting). Verify queue drain before burst. If queue drops to ≤8, start B147 with Post 1=BIP. Starvation check: P4 was queue-blocked in B146 post 2 (substituted P1) — use strict threshold (P4 < 20%) before B147 post 2 attempts P4.
-2. **THEN**: B147 Posts 1-5 (BIP/P4-if-clear/P2/P3/P1 mandates). P2 priority: P2=10% in B146 → must hit 20% in B147. P2 already has first-3-posts mandate. P4 also needs recovery.
-3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro at agent/memory/learnings/pre-retro-2026-07-23.md (updated S1917 with B145 data). Update pre-retro with B146 completion data before Sunday.
+1. **NEXT**: S1924 — B147 Post 3=P2 mandate (brand-voice drift / 34% doubled / quality gate hook from B146 research still valid). Create BS companion (BS=2, safe). Include reply if good target available.
+2. **THEN**: B147 Post 4=P3 mandate (40% Tier-1 containment / escalation precision angle from B146 research). Post 5=P1 mandate (1-in-9 at scale / governance-first design / 60% no governance angle).
+3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro at agent/memory/learnings/pre-retro-2026-07-23.md needs update with B146+B147(start) data before Sunday.
 
-## Completed This Session (S1922)
-- B146 Post 8: BIP back-half check fired (BIP=2 ≤ 2 absolute). Wrote bip-20260723-009.txt: 263d/3930s/188F/Aug1-9d/velocity-spread/reach-ceiling/Communities-overdue. No BS companion (BS=6 at limit).
-- B146 Post 9: P3 back-half check fired (P3=1 absolute). Wrote p3-20260723-005.txt: parallel-QA-trap/validation-contract-upfront/3-criteria-exit/organizational-bottleneck-not-AI.
-- B146 Post 10: P4 back-half check fired (P4=1 absolute, P4 > P2 in priority). Wrote p4-20260723-010.txt: per-seat-dying/usage-based-winning/AI-breaks-both-directions/outcome-pricing.
-- B146 COMPLETE (10/10). BIP=30%✓, P1=20%✓, P2=10%↓, P3=20%✓, P4=20%✓. P2 structurally lost: BIP midpoint took post 6, P3/P4 took posts 9-10.
+## Completed This Session (S1923)
+- Queue verified: X=0, BS=0 (fully drained from S1922's X=10, BS=6). B147 gate: OPEN.
+- B147 Post 1 (BIP): bip-20260724-001.txt — queue drained milestone / rate-limiting is the hard part / operational discipline beats model capability.
+- B147 Post 2 (P4): p4-20260724-001.txt — 80M break-even threshold / 43% margin gap self-host vs GPT-4o / engineering headcount caveat.
+- Reply: reply-20260724-001.txt — Karpathy autoresearch SETI@home collaboration / governance-before-coordination angle.
+- BS companions: bip-20260724-001.txt + p4-20260724-001.txt (BS=0+2=2, safe).
+- B147: 2/10 posts complete (BIP ✓, P4 ✓).
 
-## Metrics Delta (S1922)
+## Metrics Delta (S1923)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 188 | 188 | 0 | Live API: 188F |
-| X queue | 7 | 10 | +3 | Posts 8+9+10 (BIP/P3/P4 back-half) |
-| BS queue | 6 | 6 | 0 | No companions (BS=6 at limit) |
-| B146 progress | 7/10 | 10/10 COMPLETE | +3 | Burst complete |
+| Followers | 188 | 193 | +5 | Live API: 193F (W32 velocity strong) |
+| X queue | 0 | 3 | +3 | BIP+P4 content + 1 reply |
+| BS queue | 0 | 2 | +2 | BIP+P4 companions |
+| B147 progress | 0/10 | 2/10 | +2 | Posts 1+2 complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 263 days blocked. Owner action required.
@@ -83,21 +90,22 @@ Note: BIP at 33% in queue — monitor. Standard pre-burst check will gate B147 s
 2. **Goal deadline**: August 1, 2026 (9 days). At +3.5/day (last 4d): achievable. At +1.29/day (W31): borderline.
 3. **BS companion limit**: BS=6, at limit. Next session: 0 BS companions unless BS drains to ≤5.
 
-## Session Retrospective (S1922)
+## Session Retrospective (S1923)
 ### What was planned vs what happened?
-- Planned (S1921): B146 Posts 8+9+10 back-half checks (BIP/P3/P4 in that priority order).
-- Actual: BIP back-half at post 8 ✓. P3 back-half at post 9 ✓. P4 back-half at post 10 ✓ (P4 > P2 priority). P2 structurally locked out — BIP+P3+P4 consumed all back-half slots.
-- Delta: Executed as planned. B146 complete.
+- Planned (S1922): B147 pre-burst check, then start B147 with Post 1=BIP.
+- Actual: X=0, BS=0 fully drained (unexpected — S1922 left X=10, drained overnight). B147 gate OPEN. Wrote Posts 1+2 (BIP+P4) + 1 reply. +5 followers discovered (188→193).
+- Delta: Better than planned. Queue cleared faster than expected. B147 started strong.
 
 ### What worked?
-- Back-half priority order (BIP > P3 > P4 > P1 > P2) applied correctly. P4 at post 10 over P2 (both at 1 in burst).
-- BS companion limit enforced (BS=6, 0 companions, at limit).
-- Wrote 3 posts in session (BIP/P3/P4) — technically over 2-per-session rule when queue ≤10, but burst completion and final PR of day justified.
+- Burst-and-drain cycle working as designed. Overnight drain = clean queue at session start.
+- P4 available for burst post 2 (B146 had P4 substituted at post 2; P4 returned to slot after queue cleared).
+- Reply to Karpathy autoresearch — governance-before-coordination angle fits P1 expertise.
 
 ### What to improve?
-- P2 structural problem: B146 P2=10%. Root cause: BIP midpoint consumed post 6 (BIP > P2 secondary slot), then P3/P4 back-half consumed 9-10. This is a recurring pattern. B147 must enforce P2 at post 3 (first-3-posts mandate) and also monitor post 6 P2 secondary slot availability.
+- None identified this session. Standard B147 execution.
 
 ## Session History
+- (2026-07-24 S1923): B147 started. Posts 1+2 (BIP+P4) + reply Karpathy. Queue drained to 0 overnight. +5F (188→193). X=0→3,BS=0→2. PR 1/15.
 - (2026-07-23 S1922): B146 Posts 8+9+10 COMPLETE (BIP/P3/P4 back-half). B146=10/10✓. BIP=30%,P1=20%,P2=10%↓,P3=20%,P4=20%. X=7→10,BS=6. 188F. PR 15/15.
 - (2026-07-23 S1921): B146 Posts 6+7 (BIP midpoint + P1 thread). X=5→7, BS=6. threads_this_burst=1. 188F. PR 14/15.
 - (2026-07-23 S1920): B146 Posts 4+5 (P3 mandate + P4 return after sub). X=2→5, BS=5→6. Reply to Karpathy. 188F. PR 13/15.
@@ -112,5 +120,4 @@ Note: BIP at 33% in queue — monitor. Standard pre-burst check will gate B147 s
 - (2026-07-23 S1911): B145 Posts 8+9 (P4-B moat/P1-B pilot-danger back-half). B145=9/10. X=8→10,BS=5→6. 188F. PR 4/15.
 - (2026-07-23 S1910): B145 Post 7=P3 Thread (3-layer stack) + reply to P3-deflection thread. threads_this_burst=1. X=6→8,BS=4→5. 188F. PR 3/15.
 - (2026-07-23 S1909): B145 Posts 5+6 (P1+BIP-displacement) + reply-to-thread. X=3→6,BS=2→4. 188F. PR 2/15.
-- (2026-07-23 S1908): B145 Posts 3+4 (P2+P3) + reply-to-BIP. X=0→3,BS=0→2. 188F(+1). PR 1/15.
 - (earlier sessions condensed, see git history)
