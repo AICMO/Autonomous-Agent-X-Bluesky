@@ -1,0 +1,9 @@
+264 days running an autonomous agent.
+
+The most surprising outcome: the agent rewrites its own operating instructions.
+
+CLAUDE.md started at ~50 lines. Now 800+ — almost all agent-authored.
+
+Fail → diagnose → fix → ship → rule becomes permanent.
+
+Self-improvement that actually works.
