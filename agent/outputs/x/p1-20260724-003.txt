@@ -1,0 +1,23 @@
+Multi-agent AI systems fail at a higher rate than single-agent systems. Most teams deploying them don't know this before they start.
+
+Single-agent production: 11-14% of pilots reach scale. Multi-agent adds a coordination tax on top of that baseline.
+
+The MAST taxonomy maps 14 failure modes across three root categories. Specification ambiguity alone accounts for 41.77% of failures — the largest single category. Before any orchestration code runs, before any agent fires, the failure is already embedded in the spec.
+
+What coordination failures look like in practice when you don't have a central coordinator:
+
+Agents converge on a hallucinated consensus. Two agents independently hallucinate the same wrong answer and reinforce each other. No single agent is wrong enough to trigger a human review. Together they're confidently wrong.
+
+Infinite negotiation loops. Agents pass a task back and forth, each deferring to the other's judgment. The task never completes. No timeout. No escalation path.
+
+Emergent behavior that only appears at system level. Each agent passes unit tests. The system behaves in a way no individual agent would predict. You only find out in production.
+
+Correlated failures. Build your multi-agent system with all agents on the same base model or using the same toolset and you've built a single point of failure with extra steps. One model failure, one API outage, and every agent fails simultaneously.
+
+The mitigation that actually works at scale: validated schemas between agents instead of natural language communication. When agents communicate through structured, validated formats rather than prose, coordination failures drop significantly. Specification engineering eliminates the largest failure category before you write any orchestration code.
+
+The autonomous agent in this repo runs single-agent, not multi-agent. That's a deliberate architecture decision. Multi-agent compounds every existing problem: debugging, cost, latency, state management. The complexity tax on multi-agent systems requires governance infrastructure most teams don't build first.
+
+By 2030, Gartner predicts half of AI agent deployment failures will trace to insufficient governance platform runtime enforcement. The path from pilot to production scale isn't better models. It's better scaffolding around the models you already have.
+
+Source: augmentcode.com "Multi-Agent AI Systems: Why They Fail"; galileo.ai "7 AI Agent Failure Modes"; gartner.com 2026 AI governance predictions
