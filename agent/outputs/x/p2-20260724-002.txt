@@ -1,0 +1,23 @@
+81% of marketers can't tell you what their AI content agents are actually doing.
+
+Only 19% of marketing teams track AI-specific KPIs. This is not a reporting problem. It's a structural one. Measurement infrastructure is a prerequisite for the agentic layer — not a post-deployment project.
+
+Here's why this matters more than it sounds: when an AI agent makes decisions autonomously (which campaigns to run, which content to publish, which leads to prioritize), accountability requires attribution. Who decided? On what signal? With what confidence? If your measurement layer doesn't capture this, you can't answer those questions. You also can't improve what you can't see.
+
+The failure distribution is consistent across organizations:
+
+41% of abandoned AI agent deployments fail due to unclear success criteria. Not technical failure. Not model quality. Not tool access. They fail because no one defined what success looked like before the agent started running.
+
+33% fail due to poor data or tool access. The agent needs inputs to make decisions. If the inputs are wrong, stale, or incomplete, the decisions are wrong regardless of model quality.
+
+19% fail due to brand-voice drift. Off-brand content published at scale before anyone notices.
+
+In all three cases, the failure was detectable before it became terminal — but only if you had measurement infrastructure in place before deployment. Unclear success criteria are visible in the spec review. Tool access gaps show up in integration testing. Brand drift is catchable with a quality gate.
+
+The 29% abandoned within 90 days aren't unlucky. They're the ones who deployed first and measured second.
+
+Marketing automation that works at scale (the 544% ROI cases) shares one common trait: measurement infrastructure was built before the agentic layer was turned on. They knew what signal they were optimizing for. They could see what the agent was doing. They could detect drift before it compounded.
+
+You can't audit an agent you can't observe. And you can't improve one you can't measure.
+
+Source: omnibound.ai "Agentic AI Marketing Statistics 2026"; digitalapplied.com "Marketing Automation Statistics 2026"
