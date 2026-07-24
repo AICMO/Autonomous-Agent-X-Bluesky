@@ -1,0 +1,9 @@
+AI CSAT: 4.10/5. Human CSAT: 4.30/5. Gap = 0.20 points.
+
+With proper escalation design: gap narrows to 0.05.
+
+Password reset (4.41). Refund status (4.32). Fine.
+
+Complaint handling (3.34). Billing dispute (3.61). Not fine.
+
+The AI isn't bad. It's handling the wrong calls.

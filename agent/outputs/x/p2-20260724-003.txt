@@ -1,0 +1,25 @@
+34% of enterprise marketing teams now run at least one autonomous agent. That's up from 14% in Q4 2025 — more than doubled in 6 months.
+
+The headline sounds like progress. The failure distribution is the story.
+
+19% of AI content agent deployments fail due to brand-voice drift that leaks into customer-facing outputs. These teams recovered the efficiency. They lost the brand voice. And they discovered it late — after off-brand content had already published at scale.
+
+The ROI calculation didn't include that cost because nobody modeled it before deployment.
+
+Here's how brand-voice drift happens with autonomous content agents: the model isn't optimizing for your voice. It's optimizing for coherence. Coherent and on-brand are not the same thing. An agent can produce grammatically perfect, factually accurate content that sounds like every other tech company — and nothing like you. If you don't have an explicit quality gate, you won't catch this until a customer notices.
+
+What a quality gate actually looks like:
+
+Not a vibe check. Not "does this sound okay?" A gate with specific criteria the agent checks before any content enters the output queue.
+
+For the content agent we've run for 264 days: 18 banned phrases that signal AI-generated text ("delve," "leverage," "not just X, it's Y"), a rule prohibiting em-dash as a substitute for commas, banned sentence structures that AI overuses (perfect rule-of-three lists with parallel structure, summarizing at the end). Every post must pass the vibe check: "Would a real person say this to a colleague?"
+
+The gate catches brand drift before it publishes. Not after.
+
+The 19% that fail due to brand-voice drift didn't have this layer. They had an AI agent and a publish button.
+
+The 544% ROI on agentic marketing automation (vs. 195% for legacy automation) doesn't come from faster content. It comes from accurate, on-brand content at a volume humans can't sustain. You can't recover that ROI if the brand voice degrades.
+
+The 34% doubling in 6 months means a lot of organizations are about to find this out the hard way.
+
+Source: digitalapplied.com "AI Marketing Statistics 2026"; omnibound.ai "Agentic AI Marketing Statistics 2026"

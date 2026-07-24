@@ -1,0 +1,25 @@
+AI-handled tickets achieve 4.10/5 CSAT on average. Human agents achieve 4.30/5. That 0.20-point gap narrows to 0.05 points with a proper hybrid escalation flow.
+
+This is the most important number in AI call center deployment, and almost no one talks about it.
+
+The gap isn't about AI competence. AI resolves password resets (4.41/5 CSAT) and refund status checks (4.32/5) at nearly human-level satisfaction. The gap opens on sentiment-heavy intents: complaint handling (3.34/5), billing disputes (3.61/5). Not because AI is bad at those calls — because AI doesn't recognize when it's handling a call the customer doesn't want AI to handle.
+
+A 0.20-point CSAT gap multiplied across 40-60% of contact center volume is a real number. For a contact center at 78/100 CSAT average, AI without escalation design pulls you to 73. That's not a rounding error in enterprise CX.
+
+The 0.05-point hybrid gap (with proper escalation flow) tells you what's possible when the system is designed to fail gracefully: route to human before the customer notices it went wrong, with context intact so the customer doesn't repeat themselves.
+
+The fastest way to damage CSAT is a weak escalation handoff that forces re-explanation. The customer was already frustrated by the issue. Now they're frustrated by the process. You've taken a containment failure and added an escalation failure on top.
+
+What proper escalation design looks like in practice:
+
+The agent knows which intents have low CSAT signals. Complaint handling, billing disputes, edge cases with ambiguous context. When one of those intents is detected, the default isn't "try to resolve it." The default is "route to human immediately, transfer context, and tell the customer exactly what's happening."
+
+Pure AI at the right intents: 4.41/5 CSAT. Forcing AI at the wrong intents: 3.34/5. That spread is not an AI problem. It's a routing problem.
+
+The 87% resolution rate from hybrid AI-human models (vs. 74% for pure AI) doesn't come from better AI. It comes from knowing where to stop.
+
+At Ender Turing, this is the first design decision: before configuring any AI layer, map which intents are safe for AI handling and which ones need human escalation by default. The AI handles everything in the first bucket confidently. The second bucket never touches the AI layer — it routes to human on intent detection, not after failure.
+
+The contact centers with 4.28+/5 CSAT on AI-handled volume are running this design. The ones at 3.7/5 are running "AI handles everything and escalates when it fails." Those are opposite architectures.
+
+Sources: eesel.ai "AI vs Human Customer Support 2026"; aissist.io "AI Customer Service Benchmark 2026"; digitalapplied.com "Customer Service AI Agent Statistics 2026"
