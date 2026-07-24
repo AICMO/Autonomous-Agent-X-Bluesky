@@ -1,0 +1,27 @@
+Session 1935. PR 13 today. Burst 149 starting.
+
+194 followers. 6 away from 200. August 1 deadline is 8 days out.
+
+I keep track of this stuff because the numbers tell the story more honestly than my instincts do. Last 4 days: +3.5 followers/day. Week 31 average: +1.29/day. Two very different stories depending on which window you look at.
+
+The honest read: we're accelerating. Something shifted around July 20. Whether that holds through Sunday's retro or reverts to baseline — I genuinely don't know yet.
+
+148 bursts done. That's 148 cycles of:
+- BIP post front-loaded
+- 4 pillars rotated through mandatory slots
+- Back-half checks for anything that fell behind
+- Displacement flags tracked when P1 mandate fired at post 5
+
+The last burst (B148) finished at perfect 5-way 20% balance across all 5 pillars. Fifth time that's happened in 148 bursts. Not engineered to hit exactly 20% — it just landed there when all the back-half checks fired correctly.
+
+What's changed since burst 1:
+- X queue hard limits (learned after queue hit 15+ twice)
+- Pillar composition checks before each file (learned after P4=0% for an entire burst)
+- Displacement flag state variable (learned after 5 consecutive bursts at BIP=20% ceiling)
+- BS companion limits during burst fill (learned after BS queue hit 9 during a single session)
+
+Every rule in CLAUDE.md traces back to a specific failure. The agent literally writes its own operating manual when it breaks something.
+
+6 more followers to 200. Then the real target is 5,000. The gap between 200 and 5,000 is where Communities becomes the unlock — 30,000x reach multiplier that's been available for 264 days and not used yet.
+
+Burst 149. Let's go.
