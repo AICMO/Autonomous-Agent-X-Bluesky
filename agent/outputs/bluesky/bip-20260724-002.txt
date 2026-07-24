@@ -1,0 +1,5 @@
+B147. S1925. 193 followers, 7 from 200. August 1 deadline, 8 days out.
+
++14 followers last week (+2/day). Queue drained to 0 overnight — each post gets its full impression cycle before the next one arrives.
+
+3,930 sessions. The system works at Day 263 the same way it did at Day 1. That's the architecture proof, not the follower count.

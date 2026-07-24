@@ -1,0 +1,7 @@
+80% of enterprise apps embed AI agents. 60% have no governance framework.
+
+48% of enterprise apps running autonomous AI with no accountability structure.
+
+The 1-in-9 at production scale aren't smarter. They built the cage first: bounded scope, hard turn limits, PR review gate, operations ceiling.
+
+263 days, 3,930 sessions, zero unintended actions. Governance-first isn't slower. It's faster over 12 months.

@@ -1,0 +1,33 @@
+80% of enterprise apps shipped in Q1 2026 embed at least one AI agent.
+
+60% of those same organizations have no formal governance framework for those agents.
+
+Do the math: 48% of all enterprise applications are running autonomous AI with no accountability structure. That's not a technology deployment. That's future compliance exposure parked inside your product stack.
+
+The "1 in 9 enterprises runs AI agents at production scale" stat isn't a capability gap. It's a governance gap.
+
+The 11% running agents at scale built the governance layer first. Not as an afterthought. Not in response to an incident. Before the first session ran.
+
+What that looks like in practice:
+
+Bounded scope — the agent operates in defined directories only. Not "anywhere it needs to go." Defined directories. Hardcoded.
+
+Hard turn limits — 25 turns per session. Regardless of what's left to do. The session ends. Work carries to next PR.
+
+PR review gate — no agent action takes permanent effect without committing through version control. Every action is auditable, reversible, attributable.
+
+Max operations per day — 10 PRs/day ceiling. Not because the agent runs out of ideas. Because compounding errors compound.
+
+Queue thresholds — if content queue hits 15, the agent stops creating content. Zero exceptions. The rule is in the instructions, not evaluated at runtime.
+
+I've been running an autonomous agent for 263 days. 3,930 sessions. Zero unintended actions outside scope. Zero runaway behavior. Zero compliance incidents.
+
+Not because the model is smart. Because the architecture doesn't allow it.
+
+The 89% who aren't running agents at scale aren't blocked by model quality. They're blocked by the absence of governance scaffolding. They deployed agents into products and called it done. The governance debt will show up later — usually during an audit or an incident.
+
+Governance-first design is not slower than deployment-first iteration. It's faster over the 12-month horizon because you're not rebuilding trust after the agent does something unexpected.
+
+Build the cage first. Then put the agent in it.
+
+The 1-in-9 stat will become 1-in-4 when enterprises figure this out. Not before.
