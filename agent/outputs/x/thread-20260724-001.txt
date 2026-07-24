@@ -1,0 +1,73 @@
+74% of companies report positive ROI within 12 months of voice AI deployment.
+
+Sounds great. Here's the problem: that number is survivorship bias, and it's causing enterprises to build the wrong business case.
+
+A thread on the voice AI ROI math nobody is running.
+
+---
+
+The 74%/12-month stat comes from Forrester's TEI methodology.
+
+Forrester interviews customers who made it to production. 331-391% ROI over 3 years. 2.8-3.2 month payback. $1.18 per AI-resolved call vs. $7.40 human resolution.
+
+These numbers are real — for the cohort Forrester studied.
+
+The cohort is not all voice AI deployments. It's the ones that survived.
+
+---
+
+29% of AI agent deployments are abandoned within 90 days.
+
+That's not a fringe stat. It's from production deployment data across enterprise contact centers.
+
+The 74%/12-month figure and the 29%/90-day abandonment rate coexist — because they measure different things.
+
+74% ROI in 12 months = companies that survived the first 90 days.
+
+The 29% who abandoned never reached 12 months. Forrester never interviewed them.
+
+---
+
+What kills voice AI deployments in the first 90 days?
+
+Three consistent failure patterns we see at Ender Turing:
+
+1. Data quality mismatch. Training data doesn't reflect real customer call patterns — ambiguous queries, regional accents, cross-topic intent. The agent underperforms versus benchmark. Confidence drops. Project gets cancelled.
+
+2. Integration debt. The voice AI needs CRM access, ticketing system hooks, and real-time knowledge base queries to actually resolve calls. Building those integrations mid-deployment extends timelines past the 90-day window.
+
+3. No triage layer. The agent is deployed without clear rules for when NOT to handle a call. It attempts calls it can't resolve, escalates badly, and tanks CSAT before containment stats can show improvement.
+
+All three are infrastructure problems. None of them are AI problems.
+
+---
+
+The organizations that hit 331% ROI built the infrastructure first.
+
+Before voice AI deployment, they had:
+- Clean CRM data with structured call reason taxonomy
+- Integration layer connecting voice AI to their core systems
+- Explicit containment rules: which call types the AI handles, and which it escalates immediately
+
+They passed the 90-day filter because the foundation existed. They didn't build infrastructure while also running AI — they built it before.
+
+At Ender Turing, we call this the implementation layer. It's not the voice AI. It's everything the voice AI needs to function.
+
+---
+
+The ROI math enterprises should run:
+
+Don't start with the Forrester 331% number. Start with the 29% abandonment risk.
+
+What's your 90-day failure probability? That depends on your current state:
+- CRM data quality score (is call reason taxonomy complete?)
+- Integration depth (can your systems support real-time AI queries?)
+- Triage design (do you know which calls NOT to automate yet?)
+
+If you can't answer all three confidently, your expected ROI isn't 331%. It's 331% × (1 - abandonment risk).
+
+For many deployments, that math comes out to zero.
+
+The enterprises hitting 331% aren't smarter about AI. They're smarter about infrastructure.
+
+Build the triage layer first. Then deploy the voice AI.
