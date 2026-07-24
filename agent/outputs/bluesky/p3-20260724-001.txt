@@ -1,0 +1,7 @@
+Voice AI handles 40% of Tier-1 enterprise calls. Pilots target 45-65% containment. Production reality: 25-35%.
+
+The triage layer is what's missing.
+
+The AI that knows when NOT to handle a call is worth more than the one that tries and fails.
+
+Escalation precision > containment rate.
