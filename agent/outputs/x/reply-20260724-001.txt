@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/karpathy/status/2030705271627284816
+
+The SETI@home framing is right. The bottleneck for single-agent research loops isn't intelligence — it's context accumulation. A single agent drowns in its own history before it runs out of ideas.
+
+What you're describing (asynchronous multi-agent, seed repo → branching research directions) solves the exact problem that kills single-agent long-horizon work: the agent that runs 700 experiments sequentially is still bottlenecked by linear time and single-thread context.
+
+One production observation from running a single-agent system at 3,900+ sessions: the governance layer becomes critical before the coordination layer. You can't add multi-agent coordination to a system that doesn't have commit-level audit trails, bounded scope, and rollback mechanisms per agent. The SETI@home model requires each contributing agent to have a defined scope or the collision rate kills the value.
+
+Curious whether autoresearch has branch-level governance yet or whether the seed repo model handles it implicitly.

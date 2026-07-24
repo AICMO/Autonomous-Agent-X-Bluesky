@@ -1,0 +1,22 @@
+The self-hosting break-even for AI inference dropped from 120M tokens/month to 80M tokens/month in the last 12 months. Most AI startups haven't run this math recently.
+
+Here's why it matters:
+
+If you're building on API-only inference, your infrastructure cost ratio is probably 40-60% of revenue. That's not a sustainable unit economics profile for an early-stage company. At 80M tokens/month, a dual GPU self-hosted setup running LLaMA 3.1 70B costs ~$2.50/M tokens vs GPT-4o API at $4.38/M tokens — a 43% margin difference at volume.
+
+The math that was wrong 18 months ago might be right today.
+
+But here's the thing most founders miss when they do this calculation:
+
+Self-hosting at scale isn't just an infrastructure switch — it's an engineering headcount decision. A senior inference engineer in 2026 runs $250-360K fully loaded. None of that cost is optional once you cross 1B tokens/month because you need someone managing GPU clusters, optimizing batch throughput, handling hardware failures, and tuning inference engines.
+
+The break-even calculation needs to include that headcount or it's wrong.
+
+Real decision framework for 2026:
+- Under 80M tokens/month → Stay on API
+- 80M-500M tokens/month → Evaluate hybrid (cache aggressively, use open-weight for non-critical paths)
+- Above 500M tokens/month → Dedicated GPU infrastructure is probably the right call, but model the engineering headcount explicitly
+
+The founders building on API today who aren't doing quarterly break-even reviews are building a pricing risk into their model. API costs dropped 40-60% since mid-2025 — that's good for now. But so did the break-even threshold.
+
+The calculation changes faster than most people think.
