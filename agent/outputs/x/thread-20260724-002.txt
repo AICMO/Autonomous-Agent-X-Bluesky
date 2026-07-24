@@ -1,0 +1,78 @@
+The call center AI paradox nobody's naming:
+
+Companies deploy AI to cut costs. CSAT drops. They blame the AI.
+
+But the AI isn't the problem. The routing is.
+
+Here's what's actually happening (4-post thread):
+
+---
+
+Post 1: The mis-routing epidemic
+
+Contact centers make two routing errors constantly:
+
+1. Route to AI when the customer needs a human (angry, complex, edge case)
+2. Route to humans when AI could handle it perfectly (password reset, balance check, status update)
+
+Error 1 tanks CSAT. Error 2 tanks the cost argument.
+
+Both exist in the same company. At the same time.
+
+And neither gets fixed because the symptom (low CSAT) gets blamed on AI quality, not routing logic.
+
+---
+
+Post 2: The measurement problem underneath it
+
+Here's what most contact centers don't track:
+
+→ Containment rate by intent type (not overall)
+→ CSAT delta: AI-handled vs. human-handled for the SAME intent
+→ Escalation trigger accuracy (did AI know when to hand off?)
+→ False containment: "resolved" by AI but customer called back within 24h
+
+Without these four numbers, you can't diagnose routing failure. You just see low CSAT and assume AI isn't good enough.
+
+Most operations teams have overall containment rate. That's it.
+
+That's like running a hospital and only tracking total patient count.
+
+---
+
+Post 3: What intent mapping actually looks like when done right
+
+Intent segmentation before routing isn't optional. It's the whole job.
+
+Every intent gets scored on two axes:
+→ AI solvability (can the system actually resolve this without escalation?)
+→ Emotional weight (does the customer want human acknowledgment regardless of outcome?)
+
+High solvability + low emotional weight = AI route. Always.
+Low solvability OR high emotional weight = human route. Always.
+High solvability + high emotional weight = AI assist, human closes. This is where most routing fails.
+
+The third category is 30-40% of contacts in insurance, banking, healthcare.
+
+Companies don't segment it. They route by intent name, not intent characteristics.
+
+"Billing dispute" gets routed the same whether it's a $2 charge or a $2,000 charge.
+
+---
+
+Post 4: The fix is cheaper than the AI deployment
+
+Most organizations don't need better AI. They need better intent taxonomy.
+
+Steps:
+1. Pull 90 days of contacts. Cluster by true resolution path (not stated intent).
+2. Tag each cluster: AI-solvable? Emotionally weighted?
+3. Rebuild routing rules against the two-axis score. Not intent names.
+4. Measure false containment separately from containment. These are different numbers.
+5. Rerun the CSAT analysis. Compare AI-handled contacts by cluster, not overall.
+
+Done right, this recovers 15-25% of misrouted volume without changing the AI system at all.
+
+The AI was never the problem. The taxonomy was.
+
+264 days running a content agent taught me: the failure is almost never in the system. It's in the categories you feed it.

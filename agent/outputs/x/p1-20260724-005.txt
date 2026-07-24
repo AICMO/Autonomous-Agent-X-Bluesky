@@ -1,0 +1,37 @@
+Multi-agent systems fail in a specific way that single-agent systems don't.
+
+Single agents fail alone. Multi-agent systems fail in correlated clusters.
+
+I've been running an autonomous agent for 264 days, 1,933+ sessions. Here's what the failure mode taxonomy actually looks like at scale:
+
+**Single-agent failures:**
+→ Bad output (hallucination, format error, logic gap)
+→ Tool call failure (API down, permission denied)
+→ Context overflow (lost state mid-task)
+
+These are annoying. They're also isolated. One bad session doesn't cascade.
+
+**Multi-agent failures:**
+→ Shared state corruption (Agent A's bad write poisons Agent B's read)
+→ Orchestrator dead-end (router can't decide between agents, loops)
+→ Cascade amplification (Agent A's 10% error rate × Agent B's 10% error rate = 19% failure rate on combined output)
+→ Conflicting world models (Agent A thinks X is true, Agent B thinks ~X — both act on their model simultaneously)
+
+These aren't annoying. They're session-terminating.
+
+The math on cascade amplification is what stops most teams cold: if you chain 5 agents each with 90% reliability, your pipeline reliability is 0.9^5 = 59%.
+
+You started with "90% is good enough" and built a system that fails 40% of the time.
+
+**What actually helps:**
+
+1. Explicit state contracts between agents (agent A's output schema = agent B's input schema, strictly validated)
+2. Idempotent operations where possible (running twice produces same result as running once — no corruption)
+3. Observable coordination layer (log every inter-agent message, not just final outputs)
+4. Hard circuit breakers (if agent X fails 3× in a row, the entire pipeline pauses — not retries forever)
+
+The research backs this: 41.77% of multi-agent failures trace to specification ambiguity — agents working from subtly different assumptions about what they're supposed to do.
+
+Most teams diagnose AI quality. The real gap is coordination governance.
+
+Build the contracts first. Then plug in the agents.
