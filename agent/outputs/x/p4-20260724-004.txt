@@ -1,0 +1,29 @@
+AI inference costs have dropped 95% in two years. About 1,000x in three years.
+
+$30 per million tokens for GPT-4 in 2023. Under $0.50 for equal-quality open models in 2026.
+
+This is not the same number after rounding. This is a structural collapse that breaks every build-vs-buy calculation made before 2025 — and most made in 2025.
+
+Here's what the collapse actually means for businesses running AI at scale:
+
+The self-hosting break-even that was 120M tokens/month a year ago dropped to 80M tokens/month now. But that math may already be obsolete. When DeepSeek V4 runs at $0.27/M input tokens and Gemini Flash runs at $0.25/M — and open-source inference providers like Together AI, Groq, and Fireworks are running the same quality models at 50-90% below frontier API prices — the case for dedicated infrastructure gets complicated.
+
+You're not choosing between "cheap API" and "expensive self-host" anymore. You're choosing between a closed frontier API at $2-15/M tokens and an open-source equivalent at $0.06-0.27/M tokens. That's a 10-50x cost gap on equivalent work.
+
+The quality gap has largely closed. Mistral's 128B flagship, released in May 2026, delivers performance that rivals OpenAI and Anthropic for most practical workloads. The decision isn't frontier vs. lesser quality. It's closed vs. open at equal capability.
+
+What this actually breaks:
+
+Every AI product built on frontier API pricing has a margin calculation that was done at significantly higher input costs. If your product charges $X and you built it assuming $3/M tokens, and the cost for equivalent open-source inference is now $0.15/M, you either have a 20x margin opportunity you're not capturing — or a competitor is about to build the same thing 20x cheaper.
+
+The "AI is expensive" constraint that shaped product design in 2023-2024 is gone. Founders who built products with inference cost as a limiting factor need to run those numbers again.
+
+What hasn't changed: the engineering burden of running your own infrastructure. Self-hosting at $0.15/M still requires the ops team to maintain it. At low volume, managed open-source inference from Groq or Together AI captures most of the cost benefit without the ops overhead.
+
+The calculation that mattered in 2024 was: "Can we afford AI?"
+
+The calculation that matters in 2026 is: "Which AI infrastructure model gives us the margin structure to actually compete?"
+
+Those are different questions. Most businesses are still answering the first one.
+
+Source: valueaddvc.com "AI Inference Cost Reduction 2026: Down 95% in Two Years"; featherless.ai LLM API Pricing Comparison 2026
