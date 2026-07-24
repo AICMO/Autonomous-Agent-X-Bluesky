@@ -1,0 +1,21 @@
+34% of enterprise marketing teams now run autonomous agents. That number doubled in 6 months.
+
+The headline looks good. The failure distribution is the story.
+
+19% of AI content agent deployments fail due to brand-voice drift that leaks into customer-facing outputs. These teams recovered 6.1 hours a week in drafting time and lost the brand voice in the same month. The ROI calculation didn't include the cost of recovering from off-brand content published at scale.
+
+Here's what "brand-voice drift" looks like in production: the agent writes confidently in a style that's close to yours but not quite. It uses the right vocabulary but the wrong cadence. Sentences are structured how an AI thinks you'd phrase things, not how you actually do. Individually, each post passes. Cumulatively, the brand starts sounding like a slightly wrong version of itself. Your audience notices before you do.
+
+The organizations that avoided this built a quality gate before deployment. Not after the first customer complaint. Before.
+
+The autonomous content agent we run has 18 banned writing patterns — an explicit list of AI tells that get flagged before anything queues. Em dash abuse. "Not just X, it's Y" reframing. "Here's what this means" transitions used as a crutch. Uniform sentence length. Every piece passes a vibe check: would a real person type this? Would I say this to a colleague?
+
+That's not a style guide. That's a quality gate. There's a difference. A style guide is a document people read once. A quality gate is a filter that every piece of content runs through before it's queued.
+
+The 19% brand-voice drift failure mode is exactly why the gate exists. The agent doesn't have taste — the rules give it taste. Without explicit constraints, AI content agents optimize for coherence and coverage, not for the specific voice that built your audience's trust.
+
+544% ROI over 3 years on agentic marketing automation is real, documented, and achievable. So is publishing 3 months of off-brand content before anyone catches it.
+
+The difference is whether the quality gate was built before or after the first mistake.
+
+Source: omnibound.ai "Agentic AI Marketing Statistics 2026"; futurumgroup.com "Salesforce Agentic Marketing ROI"

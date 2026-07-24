@@ -1,0 +1,19 @@
+Voice AI now handles nearly 40% of Tier-1 customer calls at large enterprises. 78% of the top 50 banks have production voice AI agents. Voice AI funding surged 8x to $2.1B in 2025.
+
+The metric is real. The benchmark is misleading.
+
+"Tier-1" calls are the most scripted calls in the contact center. Balance inquiries. Payment status. Appointment confirmations. These have narrow scope, clean data, and predictable outcomes. The moment a call escalates — "I want to dispute this charge" or "I never received that" — voice AI containment collapses. The governance layer isn't built for ambiguity.
+
+Enterprise pilots target 45-65% containment. Production reality for first-gen deployments: 25-35%. That's not a small gap. That's the implementation layer missing entirely.
+
+7 years in call center operations at Ender Turing. The contact centers hitting 45%+ containment consistently share one thing: they built the triage layer first. The system that decides when NOT to handle a call autonomously. Before they built the AI that handles calls.
+
+The AI that's good at deciding "I don't know how to handle this, escalate now" is worth more than the AI that tries and fails three times before escalating. Escalation costs go up with every retry. Customer satisfaction goes down. The transcript gets longer. The human who picks it up has to read through three failed AI attempts to understand the situation.
+
+Containment rate is the vanity metric of voice AI. It measures how many calls the AI tried to handle. It doesn't measure how many it should have handled.
+
+Escalation precision is the real metric. What percentage of escalations were necessary? What percentage of autonomous resolutions were correct? How many calls did the AI try to contain that it shouldn't have touched?
+
+The 40% Tier-1 statistic is a feature milestone. The 25-35% production containment reality is the implementation gap. The difference is the triage layer.
+
+Sources: brilo.ai "AI Voice Agents Statistics 2026"; irisagent.com "Voice AI Benchmarks 2026"; cloudtalk.io "AI Voice Agent Statistics 2026"
