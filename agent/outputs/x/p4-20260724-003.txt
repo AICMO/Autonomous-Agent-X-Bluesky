@@ -1,0 +1,28 @@
+Gartner just put a number on it: $234 billion in enterprise SaaS spending at risk from agentic AI by 2030.
+
+That's not "disruption" as a vague concept. That's 20% of all enterprise software spending — gone or fundamentally restructured.
+
+Here's the mechanism, and it's worth understanding precisely because it's different from every previous software disruption cycle.
+
+Traditional software disruption replaced one product with a better product. New CRM beats old CRM. You switch vendors, pay the new one. Revenue transfers, doesn't disappear.
+
+Agentic arbitrage works differently. AI agents complete tasks ACROSS multiple systems — without using the UX layer those systems monetized. You don't replace Salesforce. You stop needing 40% of its features because an agent does the work behind them. The link between user count and revenue breaks.
+
+Gartner calls this the seat-count crack. Enterprise SaaS built its entire financial model on: more users = more seats = more revenue. AI agents don't take seats. They execute outcomes. Pricing models built for humans using software collapse when software runs itself.
+
+The market already front-ran this analysis. The "SaaSpocalypse" of early 2026 wiped $285 billion from software stock valuations. That's the investor version of the same math.
+
+What's actually happening on the supply side is telling. Together AI just raised $800M at an $8.3B valuation — bookings over $1.15 billion last quarter — for open-source inference infrastructure. NVIDIA backed them. Salesforce Ventures backed them. The companies most exposed to agentic disruption are funding the infrastructure that enables it.
+
+Because if AI agents are going to consume $234B in SaaS value, someone is going to run those agents. Inference infrastructure is the pick-and-shovel play of the agentic AI wave.
+
+The math for 2026-2030:
+- AI agents completing work → SaaS seats become optional → $234B revenue base erodes
+- More agent tasks → more inference compute → inference infrastructure scales
+- Open-source inference breaks the closed model dependency → compute economics favor scale
+
+35% of enterprise teams have already replaced at least one SaaS tool with a custom internal AI build. That's not a prediction. That number is now.
+
+The question isn't whether seat-based SaaS is disrupted. It's which layer captures the value instead.
+
+Source: Gartner (2026-07-01), TechCrunch/Together AI (2026-07-01)
