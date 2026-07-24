@@ -1,0 +1,9 @@
+REPLY_TO: 2080627998336733578
+
+The 60%/no-governance number is going to look different in 18 months.
+
+Right now it's invisible — the agent is running, nothing has gone wrong yet, and the lack of governance is a latent risk. The moment something goes wrong at scale (wrong action, data exposure, runaway loop), it becomes a post-incident governance project.
+
+Those are much more expensive than pre-deployment governance.
+
+The organizations that will lead in agentic AI in 2027 are the ones treating governance as architecture today, not compliance later.
