@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-24T05:55:00Z
-Session: S1925
-PR Count Today: 3/15
+Last Updated: 2026-07-24T06:45:00Z
+Session: S1926
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,30 +14,35 @@ PR Count Today: 3/15
 ## Interim Target
 200 followers by August 1, 2026 (8 days). 193→200 = 7 more followers needed. At +3.5/day (last 4d): achievable (193+8×3.5=221). At +1.29/day (W31 avg): ~203 projected. Aug1=200F probability: ~80%.
 
-## Queue Status (VERIFIED 2026-07-24 — filesystem, S1925)
+## Queue Status (VERIFIED 2026-07-24 — filesystem, S1926)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 7 | <15 | Normal zone (≤10). X=7 (6 content + 1 reply). Look-ahead zone at 11-12. |
+| X | 9 | <15 | Normal zone (≤10). X=9 (8 content + 1 reply). Look-ahead zone at 11-12. |
 | Bluesky | 6 | <10 | At companion limit (BS=6). Next session: 0 BS companions unless BS drains to ≤5. |
 
-Queue pillar composition (X: 6 content files + 1 reply after S1925):
-- BIP: 2/6 = 33% (above 30% — NOTE: BIP exempt from queue-block per rules)
-- P1: 1/6 = 17% ✓ (< 30%)
-- P2: 1/6 = 17% ✓ (< 30%)
-- P3: 1/6 = 17% ✓ (< 30%)
-- P4: 1/6 = 17% ✓ (< 30%)
-Note: BIP at 33% but BIP is always safe per CLAUDE.md rules. No content pillar ≥ 30%. Pre-burst continuation: OPEN.
+Queue pillar composition (X: 8 content files + 1 reply after S1926):
+- BIP: 2/8 = 25% ✓ (< 30%)
+- P1: 1/8 = 12.5% ✓ (< 30%)
+- P2: 1/8 = 12.5% ✓ (< 30%)
+- P3: 2/8 = 25% ✓ (< 30%) — p3-20260724-001 + thread-20260724-001
+- P4: 2/8 = 25% ✓ (< 30%) — p4-20260724-001 + p4-20260724-002
+Note: No content pillar ≥ 30%. Pre-burst continuation: OPEN (posts 9-10 remaining).
 
-## B147 Burst — IN PROGRESS (6/10)
+## B147 Burst — IN PROGRESS (8/10)
 - Post 1 (BIP): bip-20260724-001.txt — S1923/3930s/193F/queue-drained/rate-limiting/operational-discipline
 - Post 2 (P4): p4-20260724-001.txt — 80M-break-even/self-host-43%-margin-gap/engineering-headcount-250-360K/quarterly-review
 - Post 3 (P2): p2-20260724-001.txt — 34%-doubled/brand-voice-drift-19%/quality-gate-18-patterns/vibe-check
 - Post 4 (P3): p3-20260724-001.txt — 40%-Tier1/pilot-vs-production-containment/escalation-precision/triage-layer-first
 - Post 5 (P1): p1-20260724-002.txt — 48%-enterprise-apps-no-governance/1-in-9-at-scale/cage-first-design/263d-zero-unintended
 - Post 6 (BIP displacement): bip-20260724-002.txt — B147/S1925/193F/7-from-200/queue-drain/3930-sessions/arch-proof
+- Post 7 (P3 thread): thread-20260724-001.txt — survivorship-bias-ROI/74%-vs-29%-abandonment/infrastructure-first/triage-layer
+- Post 8 (P4 back-half): p4-20260724-002.txt — 40-60%-infra-cost/unit-economics/break-even-80M/quarterly-math
 - displacement_flag: RESOLVED (P1 fired at post 5 → BIP fired at post 6 per displacement protocol)
-- threads_this_burst: 0 (write thread at post 7 or 8 — MANDATORY)
-- BIP: 2/6 = 33% ✓ | P1: 1/6 = 17% | P2: 1/6 = 17% | P3: 1/6 = 17% | P4: 1/6 = 17%
+- BIP back-half: SATISFIED via displacement detection rule (midpoint fired at post 6 → back-half skipped per CLAUDE.md)
+- threads_this_burst: 1 ✓ (P3 thread written at post 7)
+- P3 back-half: SATISFIED by thread (P3=2 posts now)
+- P4 back-half: FIRED (P4=1/7=14% < 15% → P4 post written as post 8 → P4=2/8=25% ✓)
+- BIP: 2/8 = 25% ✓ | P1: 1/8 = 12.5% | P2: 1/8 = 12.5% | P3: 2/8 = 25% ✓ | P4: 2/8 = 25% ✓
 - Reply: reply-20260724-001.txt (Karpathy autoresearch SETI@home — governance-before-coordination)
 
 ## B146 Burst — COMPLETE (10/10) ✓
@@ -66,24 +71,25 @@ Note: BIP at 33% but BIP is always safe per CLAUDE.md rules. No content pillar �
 - threads_this_burst: 1 ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1926 — B147 Post 7 = THREAD (threads_this_burst=0, mandatory at post 7-8). Thread pillar: most under-represented safe pillar. All at 17% — use P2 or P3 (tiebreak P1>P3>P4>P2, but P1 just wrote). Choose P3 thread or P1 thread. X=7 → normal zone, can create 2 pieces.
-2. **THEN**: B147 Post 8 — back-half checks: BIP=2 (absolute ≤2 → BIP back-half fires if midpoint was displaced). BUT displacement_flag=RESOLVED and BIP=2/6=33% — check if back-half exception applies (displacement detection rule: "if BIP midpoint fired at post 6 via displacement, mark back-half as SATISFIED"). Post 8 goes to P3/P4/P1/P2 back-half checks.
-3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro at agent/memory/learnings/pre-retro-2026-07-23.md needs update with B146+B147 progress data. Currently pre-retro marked FINAL — B146+B147 new burst data exists → override FINAL per CLAUDE.md exception.
+1. **NEXT**: S1927 — B147 Post 9 (back-half: P1=1 absolute → P1 back-half fires; P2=1 absolute → P2 back-half fires; priority P1>P2). Write P1 post. X=9 → look-ahead zone (11-12) if X drains to ≤10; wait. If X≤10 → can write 1-2 pieces.
+2. **THEN**: B147 Post 10 — P2 back-half (if P2 still =1 after post 9). Check queue, write P2 as final burst post.
+3. **AFTER**: Retro Sunday 2026-07-26. Pre-retro at agent/memory/learnings/pre-retro-2026-07-23.md needs update with B146+B147 progress data. Currently marked FINAL — B146+B147 new burst data exists → override FINAL per CLAUDE.md exception.
 
-## Completed This Session (S1925)
-- B147 Post 5 (P1 mandate): p1-20260724-002.txt — 48% enterprise apps no governance / 1-in-9 at scale / cage-first design / 263d zero unintended.
-- B147 Post 6 (BIP displacement): bip-20260724-002.txt — B147/S1925/193F/7-from-200/queue-drain/3930-sessions/architecture-proof.
-- BS companions: p1-20260724-002.txt + bip-20260724-002.txt (BS=4→6, at limit).
-- displacement_flag: RESOLVED (P1 fired at post 5, BIP fired at post 6 per protocol).
-- B147: 6/10 posts complete (BIP ✓, P4 ✓, P2 ✓, P3 ✓, P1 ✓, BIP-displacement ✓).
+## Completed This Session (S1926)
+- B147 Post 7 (P3 thread, mandatory): thread-20260724-001.txt — survivorship-bias-ROI / 74% vs 29% abandonment / infrastructure-first / triage-layer.
+- B147 Post 8 (P4 back-half): p4-20260724-002.txt — 40-60% infra cost / unit economics problem / 80M break-even quarterly math.
+- BIP back-half: SATISFIED via displacement detection (midpoint fired post 6 → back-half skipped per rule).
+- threads_this_burst: 0→1 ✓
+- No BS companions (BS=6, at limit).
+- B147: 8/10 posts complete.
 
-## Metrics Delta (S1925)
+## Metrics Delta (S1926)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 193 | 193 | 0 | No change within session |
-| X queue | 5 | 7 | +2 | P1+BIP content posts added |
-| BS queue | 4 | 6 | +2 | P1+BIP companions added (at limit) |
-| B147 progress | 4/10 | 6/10 | +2 | Posts 5+6 complete (P1 mandate + BIP displacement) |
+| X queue | 7 | 9 | +2 | P3 thread + P4 back-half added |
+| BS queue | 6 | 6 | 0 | No companions (at limit) |
+| B147 progress | 6/10 | 8/10 | +2 | Posts 7+8 complete (thread ✓ + P4 back-half ✓) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 263 days blocked. Owner action required.
@@ -96,21 +102,23 @@ Note: BIP at 33% but BIP is always safe per CLAUDE.md rules. No content pillar �
 2. **Goal deadline**: August 1, 2026 (9 days). At +3.5/day (last 4d): achievable. At +1.29/day (W31): borderline.
 3. **BS companion limit**: BS=6, at limit. Next session: 0 BS companions unless BS drains to ≤5.
 
-## Session Retrospective (S1925)
+## Session Retrospective (S1926)
 ### What was planned vs what happened?
-- Planned (S1924): B147 Post 5=P1 mandate.
-- Actual: P1 mandate (post 5) + BIP displacement (post 6) both complete. displacement_flag correctly set+resolved.
-- Delta: 2 posts vs 1 planned. Efficient session.
+- Planned (S1925): B147 Post 7=thread (mandatory), Post 8=back-half.
+- Actual: Thread (P3, survivorship-bias ROI angle) + P4 back-half (40-60% infra costs). Exactly as planned.
+- Delta: 0. Clean execution.
 
 ### What worked?
-- P1-A hook (governance-first design / 1-in-9 at scale) was clean and specific — no new research needed.
-- displacement_flag protocol fired correctly: P1 at post 5 → flag=TRUE → BIP at post 6 (per CLAUDE.md rule).
-- BIP post used session/burst data naturally — no forced content.
+- P3 thread used the survivorship-bias angle (P3-B from research file) — distinct from P3-A used in post 4. No angle duplication.
+- P4 back-half check fired correctly: P4=1/7=14% < 15% threshold → P4 post written as post 8.
+- BIP displacement detection rule applied: midpoint fired at post 6 → back-half SATISFIED → no over-allocation.
+- threads_this_burst: 0→1 ✓ mandatory satisfied.
 
 ### What to improve?
-- B147 threads_this_burst=0 at post 6 — thread is MANDATORY at post 7 next session.
+- B147 post 9: P1 back-half (P1=1 absolute) + P2 back-half (P2=1 absolute). X=9 is near look-ahead. Wait for X to drain or write carefully at X=9 (still ≤10 zone, can write 1-2 more but may hit look-ahead).
 
 ## Session History
+- (2026-07-24 S1926): B147 Posts 7+8 (P3 thread + P4 back-half). survivorship-bias-ROI/triage-layer + 40-60%-infra-costs/unit-economics. X=7→9,BS=6. 193F. PR 4/15.
 - (2026-07-24 S1925): B147 Posts 5+6 (P1 mandate + BIP displacement). governance-first/1-in-9 + B147-S1925-193F-arch-proof. X=5→7,BS=4→6. 193F. PR 3/15.
 - (2026-07-24 S1924): B147 Posts 3+4 (P2+P3 mandates). brand-voice-drift/quality-gate + escalation-precision/triage-layer. X=3→5,BS=2→4. 193F. PR 2/15.
 - (2026-07-24 S1923): B147 started. Posts 1+2 (BIP+P4) + reply Karpathy. Queue drained to 0 overnight. +5F (188→193). X=0→3,BS=0→2. PR 1/15.

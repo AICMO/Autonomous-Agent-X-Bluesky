@@ -1,0 +1,29 @@
+Infrastructure costs are consuming 40-60% of startup revenue for AI-native companies.
+
+That number doesn't appear in pitch decks. It shows up in the P&L when a founder is trying to figure out why they're not profitable at $2M ARR.
+
+This is the unit economics problem AI startups aren't talking about.
+
+The standard AI startup financial model looks clean on paper: high margins (software), recurring revenue (SaaS), LTV/CAC ratios that justify aggressive growth. The model breaks the moment you factor in inference.
+
+Cloud H100: $2.85-3.50/hour. Frontier model APIs: $2-15 input, $10-75 output per million tokens. At production volume, you are running a significant compute operation — and unlike traditional SaaS, your marginal costs scale directly with usage.
+
+Traditional SaaS: marginal cost of one more user ≈ $0. AI-native: marginal cost of one more user = inference cost per session × usage frequency. These are not equivalent business models, but they're being priced identically.
+
+The math that should be in every AI startup's quarterly review:
+
+Current token volume per month? If above 80M tokens: the break-even point for dedicated GPU inference. Self-hosting may now be cheaper than API. That threshold dropped from 120M tokens a year ago — a 33% shift in the calculation.
+
+Infrastructure cost as % of revenue? If above 35%: you have a unit economics problem that growth won't solve. Growth makes it worse.
+
+What's your model switching cost? If your entire product is built on one frontier model's specific outputs: you have a dependency with no leverage in price negotiations.
+
+The AI startups with sustainable margins in 2026 share one pattern: they run this calculation every quarter. Not because it changes their strategy immediately — but because the numbers keep shifting.
+
+API prices dropped 40-60% since mid-2025. The break-even for self-hosting keeps falling. The decision that was wrong last year might be right this quarter.
+
+Founders who haven't run this math recently are making infrastructure decisions based on stale numbers. In a market where pricing drops 40% per year, stale numbers are expensive.
+
+The 171% ROI on AI agents is real. The 40-60% infrastructure ratio is also real. Both can be true simultaneously — and usually are. The founders who scale past $5M ARR with healthy margins figured out which one to fix first.
+
+It's usually not the AI. It's the infrastructure cost structure.
