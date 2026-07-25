@@ -1,0 +1,22 @@
+74% of companies report positive ROI within 12 months of voice AI deployment. 331-391% ROI over 3 years. $1.18 per resolution (AI) vs. $7.40 (human). The ROI math looks compelling.
+
+29% of voice AI deployments are abandoned within 90 days.
+
+These two statistics coexist. And they're the most important thing to understand before signing a voice AI contract.
+
+The Forrester study interviewed companies who made it to production. The ones who abandoned in the first 90 days didn't get included. They had already cancelled. When you exclude the 29% who failed before they could report success, the ROI numbers look excellent — because you're only measuring the organizations that survived.
+
+This is survivorship bias. The benchmarks are true for the survivors. They're misleading for the buyers.
+
+Here's what I've seen from the contact center side at Ender Turing: The organizations that hit 331%+ ROI and $1.18/resolution had something in common before voice AI went live. They already had:
+
+- Clean intent taxonomy (what types of calls come in, at what volume, with what resolution expectations)
+- Escalation protocols that were documented and tested
+- QA infrastructure that could detect when the AI was handling calls incorrectly
+- A definition of "good containment" that wasn't just "call didn't escalate"
+
+The 29% who abandoned within 90 days typically did none of this. They expected the voice AI to work from day one with minimal integration. Voice AI surfaces the data quality and process gaps that already existed in the contact center — it doesn't fix them.
+
+The ROI of voice AI is real. The 74%/12-month figure is real for the companies that invest in the implementation layer first. If you're evaluating voice AI using Forrester benchmarks, build in the survivorship correction: assume you're not in the 74% until you've verified your implementation prerequisites.
+
+How many voice AI RFPs include a 90-day abandonment risk assessment? Almost none. That's the gap the 29% fall into.

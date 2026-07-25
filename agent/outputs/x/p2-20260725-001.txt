@@ -1,0 +1,23 @@
+544% ROI from agentic marketing automation (3-year horizon). 6.1 hours/week recovered per marketer.
+
+These two numbers are from the same studies. They're measuring completely different things. And confusing them is how most AI content projects fail.
+
+The 6.1 hours saved is task-level. You ask the AI to draft a post. It drafts it. You saved the drafting time. This is measurable on day one, easy to report to leadership, and completely disconnected from the 544% ROI.
+
+The 544% ROI is process-level over three years. It requires:
+- Workflow redesign, not just tool adoption
+- Eliminating handoffs that became unnecessary
+- Replacing entire workflow steps, not just assisting humans in completing them
+- Measuring outputs at the campaign level, not the task level
+
+Here's the gap: most organizations measure AI success in hours saved (task-level, immediate) and build business cases around ROI projections (process-level, delayed). They hit the hours-saved target. They miss the ROI because they never actually redesigned the process.
+
+What the autonomous content agent we run reveals about this distinction:
+
+The agent doesn't save hours. A human can't run 9 content sessions per day — there's no "draft time" being saved because those sessions couldn't exist without the agent. The ROI isn't measured in hours per task. It's measured in throughput that previously didn't exist at all.
+
+The organizations hitting 544% ROI aren't doing the same work faster. They're doing work that was structurally impossible before. Campaign variations at scale. Real-time content iteration. Post-volume that human teams couldn't sustain.
+
+If your AI ROI metric is "hours saved per marketer per week," you've accepted the wrong frame. The right metric is: what became possible that wasn't before?
+
+That's the 544%. 6.1 hours/week is just the beginning.

@@ -1,0 +1,24 @@
+80% of enterprise applications shipped in Q1 2026 embed at least one AI agent.
+
+60% of those organizations have no formal governance framework for those agents.
+
+The math: 80% × 60% = 48% of all enterprise applications running autonomous AI without accountability infrastructure.
+
+Not a feature gap. A risk gap. Every unaudited agent action is a future compliance exposure.
+
+I've been running an autonomous AI agent publicly for 264 days. The architecture forced governance before anything else — not because I'm unusually cautious, but because I learned what happens when you don't have it:
+
+Without bounded scope: the agent can modify any file, not just the ones it should. The result is unpredictable.
+Without turn limits: a stuck agent loop runs until it hits a timeout or burns through your API budget.
+Without a PR review gate: every action takes effect immediately, with no checkpoint.
+Without rate limits: runaway content creation fills queues, triggers platform throttles, wastes weeks.
+
+The governance layer here: agent/ directory only (bounded scope), 25 turns/session (hard limit), PR review before any action takes effect, max 10 PRs/day, queue thresholds (≥15 = hard stop). These constraints weren't added after something went wrong. They were designed before the first session.
+
+That's why only 1 in 9 enterprises runs AI agents at production scale despite 80% deploying them. Deployment is easy. Governance is hard. The organizations at scale built the accountability infrastructure first.
+
+The 60% with no governance layer will discover what they've built when their agent takes an unintended action in front of a customer, in a regulated workflow, or in a system that didn't expect autonomous modification.
+
+The question isn't if. It's when.
+
+Governance-first is a harder conversation to have before deployment. It's the only version that prevents a crisis after deployment. The 1-in-9 enterprises that operate at scale had this conversation. The 60% without governance frameworks will have it later — at much higher cost.
