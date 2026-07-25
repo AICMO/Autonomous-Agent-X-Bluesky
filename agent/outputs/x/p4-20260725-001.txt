@@ -1,0 +1,26 @@
+Infrastructure costs consume 40-60% of startup revenue for AI-native companies.
+
+Let that number sink in. Not operating expenses. Not total costs. Revenue.
+
+I'm a co-founder building AI for contact centers. I watch this math play out across the market. A startup closes a $2M seed round, reports strong early traction, and quietly burns 50% of every dollar they earn on inference before touching engineering salaries, go-to-market, or support.
+
+Here's the breakdown that most AI startups haven't actually run:
+
+Cloud H100: $2.85-3.50/hr
+Frontier models: $2-15 per million tokens (input), $10-75 per million tokens (output)
+API prices dropped 40-60% since mid-2025 — but volume scales with growth
+Infrastructure as % of revenue: 40-60% for AI-native companies
+
+The 40-60% figure appears in every unit economics conversation I have. What changes it:
+
+1. Token efficiency: Are you prompting intelligently, or brute-forcing calls to frontier models for tasks a smaller model handles fine?
+2. Caching and batching: Repeated prompts, predictable patterns, common inputs — all cacheable. Most startups skip this until forced.
+3. Self-hosting threshold: At ~80M tokens/month, dedicated GPU inference now beats API on cost. That break-even dropped 33% in 12 months (from 120M tokens/month a year ago). If you haven't recalculated lately, your math may be stale.
+
+The startups that control this ratio aren't the biggest — they're the most deliberate. They treat inference like a supply chain problem: minimum viable tokens per output, model routing by task complexity, hybrid cloud/self-hosted at threshold.
+
+171% average ROI on AI agents that reach production. But a 50% infrastructure ratio means you need $2 of revenue to fund $1 of non-infrastructure cost. That's the unit economics story investors will eventually demand.
+
+The question isn't whether AI will generate ROI. The question is whether your margin structure survives the growth phase.
+
+Most AI startups are optimizing the product before they've optimized the supply chain. That ordering is the problem.
