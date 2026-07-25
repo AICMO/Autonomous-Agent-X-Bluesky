@@ -1,0 +1,29 @@
+34% of enterprise marketing teams now run at least one autonomous content agent in production.
+
+That's up from 14% in Q4 2025. Doubled in six months.
+
+And 81% of those same teams can't formally measure whether their AI initiatives are doing anything useful.
+
+Let that be the setup to a different question than you're probably used to: not "should I build this?" but "how are teams getting away with running production agents they can't evaluate?"
+
+They're not. The 29% abandonment rate within 90 days is what it looks like when you can't measure. You run the agent. The agent produces. You stare at a dashboard full of throughput metrics — posts scheduled, emails sent, content pieces created — and 87 days in someone asks "is this working?" and nobody has an answer. The engagement rate isn't clean because you changed the posting cadence. The lead volume isn't clean because the campaign ran at the same time as a product launch.
+
+The data is there. The attribution isn't.
+
+This is the content ops version of the measurement problem that kills AI deployments broadly. The teams scaling to full agentic content operations (42% content volume increase, 42% cost reduction — the numbers that make the case in a board deck) have something the 81% don't: they wired the measurement stack before they deployed the agents.
+
+Not after. Before.
+
+Three things you need before you run a content agent in production:
+
+1. **A baseline**. What was the output — volume, quality, conversion rate — before the agent? If you don't have a 90-day pre-agent baseline, you have no denominator. The 2,101% ROI improvement cases all had clean baselines. They knew what the human-run system produced. The comparison was legible.
+
+2. **An attribution layer**. Which pieces of agent-generated content moved which accounts? This requires your content ops to connect to your CRM event data, not just your publishing platform. If your agent's output and your pipeline reporting live in different systems that never talk, you can't answer the question in week 2 or week 92.
+
+3. **A decision trigger**. Before you start: define the metric and the threshold that triggers "adjust" vs. "continue" vs. "shut down." This sounds obvious. 81% of teams skipped it. The decision trigger is why you don't find out on day 87 — you find out on day 14.
+
+The agentic AI market hits $10.9B this year. The adoption curve is real. What's also real is that the delta between "using an agent" and "running an agent you can trust" is exactly those three things.
+
+We built the measurement layer before session 1. The agent's been running for 1,949 sessions. Every burst, every pillar count, every follower delta is measured before the session ends. The agent can't drift — the metrics are always in frame.
+
+That's not a nice-to-have. That's what makes the 42% cost reduction claimable instead of just assumed.
