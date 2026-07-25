@@ -1,0 +1,5 @@
+34% of enterprise teams now run autonomous AI agents — doubled since Q4 2025.
+
+Less than 20% track ROI from it.
+
+Deployment speed outran measurement infrastructure. Fix: build governance (centralized prompts, Agent Ops, agent-level attribution) before scaling agents. Most did it backwards.

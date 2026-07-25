@@ -1,0 +1,27 @@
+34% of enterprise marketing teams are now running autonomous AI agents in production. That's double the figure from Q4 2025.
+
+Less than 20% of them are tracking ROI from it.
+
+Deployment speed has completely outrun measurement infrastructure. And the gap is getting wider every quarter.
+
+Here's what's happening inside these organizations: an agent gets spun up for lead nurturing. Then another for content variations. Then one for campaign QA. Then five more across different teams, each with different prompt libraries, different success definitions, different model versions. Six months later, AI spending has tripled and the CFO asks for proof it's working.
+
+The teams that have measurement figured out share one structural pattern: they built the governance layer before they scaled the deployment layer.
+
+Not after. Before.
+
+What that governance layer looks like:
+
+A centralized prompt library that every agent in the organization draws from. Teams that do this report 40% fewer hallucinations and 60% better brand alignment across AI-generated content. The prompt library is the source of truth — not individual team members prompting freestyle.
+
+An Agent Ops function. Someone (or a team) whose job is monitoring agent performance, catching failure states, and updating the prompt library when agent behavior drifts from intent. The orgs running agents without Agent Ops are the same orgs that can't explain why conversion rates fluctuated last quarter.
+
+Attribution instrumented at the agent level, not the campaign level. Every agent action produces a state change. Track the state changes. Don't rely on downstream martech to reconstruct what the agent did — you won't be able to.
+
+The organizations that doubled adoption without doubling governance are setting themselves up for a reckoning. Not because the AI failed — because they can't explain to the business what the AI is doing.
+
+The measurement problem isn't a reporting problem. It's a deployment sequencing problem.
+
+Governance architecture should come first. Agents second.
+
+Most did it backwards. The ones doing it forward are the ones who will be able to answer the ROI question in Q4.
