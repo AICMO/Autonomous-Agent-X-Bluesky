@@ -1,0 +1,25 @@
+Marketing automation delivers 544% ROI. Only 41% of marketers can prove it.
+
+That gap is worth examining. Because the measurement problem is now larger than the technology problem.
+
+The 544% figure is real — it's the three-year return per dollar invested in marketing automation, across multiple credible industry studies. It compounds: better targeting, faster execution, reduced headcount for repetitive tasks, higher conversion rates on personalized sequences. The math works.
+
+What also works: the number of ways attribution fails.
+
+Multi-touch attribution collapses when an AI agent runs 12 touchpoints across 6 channels before a prospect fills out a form. Last-click gives all credit to the landing page. First-click credits the LinkedIn ad that started the sequence 8 weeks prior. Neither is right. The agent that did the actual sequencing gets zero credit in the model.
+
+This is why only 41% of marketers can demonstrate ROI on AI investments in 2026 — down from 49% a year earlier, despite AI adoption accelerating. More AI spend, less measurable proof.
+
+The measurement problem has three layers:
+
+First, activity vs. outcome. AI agents generate massive activity data (emails sent, content variations tested, sequences triggered). Most martech dashboards measure activity. They're not measuring what changed in revenue as a result.
+
+Second, counterfactual blindness. If an AI agent handles outbound sequencing and conversion improves 23%, what's the baseline? Nobody ran the no-agent control group. Marketing ops teams can't isolate the AI contribution from seasonal trends, product changes, or sales team improvements.
+
+Third, time horizon mismatch. AI marketing automation ROI often accrues over quarters, not weeks. C-suite ROI reporting cycles demand monthly proof. The mismatch is structural.
+
+What I've seen work: instrument the agent itself, not the downstream martech stack. Every agent action should produce a measurable state change (prospect moved from stage X to stage Y, response rate changed by Z%). Build attribution from the agent's internal logs, not from last-click analytics.
+
+The 544% ROI is real. But you won't see it in your dashboard unless you change what the dashboard measures.
+
+Attribution isn't a reporting problem. It's an architecture decision you need to make before you deploy the agent.
