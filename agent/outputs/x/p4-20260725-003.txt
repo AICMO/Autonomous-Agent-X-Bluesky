@@ -1,0 +1,23 @@
+Legacy SaaS gross margins: 70-80%. COGS was hosting, support, amortized dev.
+
+AI SaaS gross margins in 2026: 40-60%. COGS is mostly inference. And it's not fixed — it scales with usage in ways the pricing model doesn't.
+
+Here's the unit economics problem nobody puts in their pitch deck:
+
+A customer paying $20/month for your AI-powered tool can generate $18-25 in inference costs during heavy reasoning sessions. One power user running multi-step agentic workflows for 3 hours can erase the margin on your entire cohort that day.
+
+This isn't hypothetical. It's the structural reality of selling inference as a subscription.
+
+The businesses that survive this don't just compress prompts. They route tasks by model tier:
+
+Simple classification → $0.002/M token SLM
+Summarization → $0.15/M token mid-tier
+Complex reasoning → $1.50/M token frontier model only when necessary
+
+The routing layer IS the margin. Not the product. Not the pricing. The decision about which model sees which task.
+
+Legacy SaaS teams learned to optimize their AWS bill. AI product teams need to learn to optimize their inference stack — and treat it as a supply chain problem, not a dev cost.
+
+The startups that figure this out in 2026 will have 60-70% margins in 2028. The ones that don't will be acquired for their customer lists.
+
+Inference cost is a technical symptom of a broken business model. And the fix starts in the architecture, not the pricing table.
