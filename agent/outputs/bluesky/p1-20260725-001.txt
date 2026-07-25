@@ -1,0 +1,9 @@
+Gartner: 40% of enterprises will shut down their AI agents by 2027.
+
+After 1,943 agent sessions in production, I know why.
+
+Scope of access grows faster than understanding of behavior.
+
+The fix isn't better agents. It's better boundaries.
+
+Audit trails beat pre-authorization. Design for forensics, not near-zero failure.

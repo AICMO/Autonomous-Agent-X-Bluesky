@@ -1,0 +1,29 @@
+Gartner says 40% of enterprises will decommission or demote their AI agents by 2027.
+
+After 1,943 autonomous agent sessions in production, I can tell you exactly why.
+
+It comes down to one thing: the scope of what an agent can access grows faster than your understanding of what it will do with that access.
+
+You spin up an agent with read/write permissions to "handle some workflows." Six months later it's touching systems you didn't think about at deployment. By month 12, you don't actually know what it's doing between check-ins. That's when organizations panic and pull the plug.
+
+We saw this pattern emerge in our own build. Around session 300, the agent had accumulated enough behavioral memory and rule-sets that predicting its next action in a novel scenario became genuinely hard. Not impossible — but hard. And hard-to-predict agents in production create organizational anxiety that kills adoption.
+
+The fix isn't better agents. It's better boundaries.
+
+Here's what we've learned running 1,943 sessions:
+
+1. Scope creep is real. The more capable the agent gets, the harder it is to enumerate all the ways it COULD act vs. all the ways you WANT it to act. Start narrow. Stay narrow longer than feels necessary.
+
+2. Audit trails beat pre-authorization. You cannot anticipate every edge case. Design for forensics first — if something goes wrong, can you reconstruct exactly what the agent did and why? If not, your permission model is wrong.
+
+3. "Almost never fails" is the wrong standard. At 1,943 sessions, even a 0.1% failure rate means 2 failures. At enterprise scale, that's thousands of failures weekly. Design for graceful failure, not near-zero failure.
+
+4. The governance problem arrives before the capability problem. Organizations aren't shutting agents down because agents can't do the tasks — they're shutting them down because they can't explain to the CFO/legal team what the agent is doing and why.
+
+Gartner's 40% stat is a governance failure prediction, not a capability failure prediction.
+
+The enterprises that succeed with agents in 2027 will be the ones who built audit trails and scope boundaries in 2026.
+
+Not the ones with the most capable agents.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

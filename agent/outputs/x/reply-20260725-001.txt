@@ -1,0 +1,15 @@
+REPLY_TO: 2081023513100525740
+
+The 29% abandonment number breaks down further when you look at WHERE deployments fail.
+
+It's rarely the voice AI itself. It's almost always one of three things:
+
+1. **Conversation design rushed** — the dialog trees were built in 6 weeks, not 6 months. The AI sounds smart but the flows don't actually handle the calls that come in.
+
+2. **Integration debt** — CRM, ticketing, after-call work systems don't connect cleanly. The AI resolves the call but the agent still has to manually update 3 systems. Net labor savings: minimal.
+
+3. **Escalation design** — the handoff from AI to human was an afterthought. Customers who get transferred feel like they've been passed around. CSAT goes negative despite high automation rates.
+
+The $1.18 vs $7.40 cost comparison assumes all of this works. In the 29% that fail, it doesn't.
+
+The ROI math is real. The execution path to get there has more landmines than the cost models show.
