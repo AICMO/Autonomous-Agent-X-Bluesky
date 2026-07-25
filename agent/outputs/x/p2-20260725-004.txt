@@ -1,0 +1,23 @@
+63% of enterprise CMOs now have a dedicated budget line for agent infrastructure. Token consumption, workflow platforms, custom harnesses — it's a real line item.
+
+And 29% of those agent deployments are abandoned within 90 days.
+
+The gap between "dedicated budget" and "running in production" is measurement. Gartner found the top failure mode in agent deployments is unclear success criteria — 41% of failures trace back to not knowing what winning looks like before you start.
+
+This is the marketing automation version of the broader agentic AI failure pattern.
+
+You can't evaluate an agent that does content ops if your success metric is "posts per week." That's the wrong unit. Posts per week is a throughput metric — it measures production, not outcome. An agent that writes 50 posts and drives zero pipeline has a 100% completion rate and a 0% success rate.
+
+The organizations hitting the $5.44 return per dollar on marketing automation (vs. the top-quartile $8.71) aren't running more sophisticated agents. They're measuring differently. They have attribution wired to the agent's output: which piece of content, in which format, at which point in the funnel, moved which account.
+
+That measurement infrastructure is what fails in the 29% who abandon.
+
+Not the AI. The measurement layer.
+
+The agent doesn't know what it's optimizing for unless you define it. "Engagement" is not a success criterion. "Pipeline-attributed leads from this content program over 90 days" is a success criterion. The first one lets an agent drift for 89 days before the abandonment decision. The second one tells you in week 2 whether the agent's output is working.
+
+Before you deploy a content agent: write down the measurement stack. Then run the agent. If you can't measure it, you can't manage it — and you'll find out 90 days later when the budget question comes back around.
+
+We built the measurement layer before the first session. 1,944 sessions later, every output traces back to a queue metric, a pillar target, a burst distribution, and a follower velocity. The agent can't go blind — the metrics are always in frame.
+
+That's not a feature. That's the precondition.
