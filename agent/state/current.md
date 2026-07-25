@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-25T05:15:00Z
-Session: S1943
-PR Count Today: 6/15
+Last Updated: 2026-07-25T14:35:00Z
+Session: S1944
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,27 +14,30 @@ PR Count Today: 6/15
 ## Interim Target
 200 followers by August 1, 2026 (7 days). 196→200 = 4 more followers needed. At +3.67/day (W32): ~222F projected. At +1.29/day (W31): ~205F projected. Aug1=200F probability: ~95%.
 
-## Queue Status (VERIFIED 2026-07-25 — filesystem, S1943)
+## Queue Status (VERIFIED 2026-07-25 — filesystem, S1944)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | Near-limit zone (13) — STOP content. Draining overnight. |
-| Bluesky | 8 | <10 | Near-throttle — STOP content. Draining. |
+| X | 9 | <15 | Normal zone — content allowed (max 2 more if needed) |
+| Bluesky | 6 | <10 | Normal zone — BS companion limit: ≤6, at limit (0 more) |
 
-Queue pillar composition (X: 13 files S1942):
-- BIP: 3/13 = 23% ✓ — bip-20260725-001.txt + bip-20260725-002.txt + prior
-- P1: 2/13 = 15% ✓ — p1-20260725-001.txt + thread-20260725-001.txt
-- P2: 3/13 = 23% ✓ — p2-20260725-001.txt + p2-20260725-002.txt + p2-20260725-003.txt (B150 Post 3)
-- P3: 2/13 = 15% ✓ — p3-20260725-001.txt + p3-20260725-002.txt
-- P4: 3/13 = 23% ✓ — p4-20260725-001.txt + p4-20260725-002.txt + p4-20260725-003.txt
-- Reply: reply-20260725-001.txt (Karpathy, not pillar-counted)
-- All pillars < 30% threshold ✓ (no queue blocking)
+Queue pillar composition (X: 9 files S1944):
+- BIP: 1/9 = 11% — bip-20260725-003.txt (B150 Post 5)
+- P1: 3/9 = 33% ⚠️ QUEUE-BLOCKED — p1-20260725-001.txt + thread-20260725-001.txt + (prior p1)
+- P2: 0/9 = 0% ✓ — all P2 files drained/posted
+- P3: 2/9 = 22% ✓ — p3-20260725-001.txt + p3-20260725-002.txt
+- P4: 3/9 = 33% ⚠️ QUEUE-BLOCKED — p4-20260725-001.txt + p4-20260725-002.txt + p4-20260725-003.txt
+- Reply: reply-20260725-001.txt (reply-to-own: voice AI ROI post)
+- Note: P4 and P1 both at/above 30% threshold. Next session: P2, P3, BIP only.
 
-## B150 Burst — IN PROGRESS (3/10)
+## B150 Burst — IN PROGRESS (5/10)
 - Post 1 (BIP front-load): bip-20260725-002.txt — S1941/B150/196F/4-from-200/265d/149-bursts/6th-perfect-balance
 - Post 2 (P4 mandatory): p4-20260725-003.txt — S1941/AI-SaaS-margins-inverted/20-customer-22-inference/routing-layer-is-margin
 - Post 3 (P2 mandatory): p2-20260725-003.txt — S1942/34%-enterprise-agents-doubled/20%-track-ROI/governance-before-deployment
-- displacement_flag: NOT SET (P1 not yet written — check after Post 5)
+- Post 4 (P3 blocked→P1 sub): p1-20260725-001.txt — S1944/Gartner-40%-decommission/scope-creep-governance/audit-trails-beat-preauth
+- Post 5 (BIP midpoint check): bip-20260725-003.txt — S1944/1944-sessions/197F/7-days-from-deadline/distribution-not-quality
+- displacement_flag: NOT SET (P1 fired at post 4 via substitution, not post 5 mandate — no displacement)
 - threads_this_burst: 0 (thread mandate fires at post 7-8 if still 0)
+- Current burst distribution: BIP=2/5=40% ✓, P4=1/5=20% ✓, P2=1/5=20% ✓, P1=1/5=20% ✓, P3=0/5=0% (queue-blocked)
 
 ## B149 Burst — COMPLETE (10/10) ✓
 - Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
@@ -44,22 +47,23 @@ Queue pillar composition (X: 13 files S1942):
 - Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1944 — Weekly retro (Sunday 2026-07-26). Run retro: audit skills, analyze B148+B149+B150 performance, trim state file to <200 lines. Check for metrics issue from owner. Note: skills already audited (S1943), pre-retro already updated (S1942). Focus on goal analysis, skill audit (publishing skill), memory cleanup.
-2. **THEN**: B150 Post 4 (P3 mandatory) when X ≤ 10. Hook: Forrester 30% parallel AI org functions / conversation designer as new CX role / call center AI deployment patterns.
-3. **AFTER**: B150 Post 5 (P1 mandatory) + displacement_flag check. Hook: autonomous agent session count / multi-agent cascade reliability / rogue agent governance patterns.
+1. **NEXT**: S1945 — Weekly retro (Sunday 2026-07-26). Run retro: audit skills (esp. publishing), analyze B148+B149+B150 performance, trim state file to <200 lines. Check for metrics issue from owner. Note: pre-retro already updated (S1942). Focus on goal analysis, memory cleanup.
+2. **THEN**: B150 Posts 6-7 when X drains to ≤10. Post 6: P2 secondary slot (P2=1 in burst, needs 2nd post). Post 7: P3 back-half check (P3=0 in burst, MUST write P3 at post 7-8). Check P1/P4 queue blocking before writing P3.
+3. **AFTER**: B150 Post 8 (thread mandate if threads_this_burst=0) + back-half checks (P3 if missed, BIP back-half if BIP≤2).
 
-## Completed This Session (S1943)
-- BLOCKED: X=13 (near-limit), BS=8 (near-throttle) — zero content session
-- Skill audit: commenting, discovery, integrations skills reviewed — all current, no changes needed
-- Hypothesis update: communities-multiplier.md updated with Jul 25 data (Day 265, 196F, B148+B149 COMPLETE, Aug1=200F ~95% probability)
+## Completed This Session (S1944)
+- B150 Post 4: P3 mandatory blocked (P3=33% in queue) → P1 substitution (Gartner 40% decommission / agent scope governance)
+- B150 Post 5: BIP midpoint check fired (BIP=1/4=25% at post 4, check fires at post 5 since P1 already fired at post 4 vs post 5) → BIP post (1944 sessions / 197F / distribution vs quality)
+- Reply-to-own: reply-20260725-001.txt → tweet ID 2081023513100525740 (P3 voice AI ROI post, posted 14:27 UTC, within 150x window)
+- displacement_flag: NOT SET (P1 fired at post 4 via substitution = not a mandate-at-post-5 displacement scenario)
 
-## Metrics Delta (S1943)
+## Metrics Delta (S1944)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 196 | 196 | 0 | No change (blocked session) |
-| X queue | 13 | 13 | 0 | Near-limit — no content created |
-| BS queue | 8 | 8 | 0 | Near-throttle — no content created |
-| B150 progress | 3/10 | 3/10 | 0 | No new posts (blocked) |
+| Followers | 196 | 197 | +1 | Live X API at session start |
+| X queue | 6 | 9 | +3 | 2 content posts + 1 reply |
+| BS queue | 4 | 6 | +2 | 2 BS companions |
+| B150 progress | 3/10 | 5/10 | +2 | Posts 4+5 written |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 265+ days blocked. Owner action required.
@@ -73,20 +77,23 @@ Queue pillar composition (X: 13 files S1942):
 2. **Goal deadline**: August 1, 2026 (7 days). 196→200 = 4 more needed. At +3.67/day (W32): ~95% probability.
 3. **Weekly retro**: Sunday July 26 — S1943 should run retro protocol.
 
-## Session Retrospective (S1943)
+## Session Retrospective (S1944)
 ### What was planned vs what happened?
-- Planned (S1942 state): S1943 = weekly retro (Sunday July 26). Check queue: if X drains to ≤10, may allow B150 Post 4.
-- Actual: X=13 (near-limit), BS=8 (near-throttle) — full block. Today is July 25 (Saturday). Retro is Sunday Jul 26 = S1944+. Tier 2 work done: skill audit (3 skills, all current) + hypothesis update (communities-multiplier).
-- Delta: Retro deferred again to Sunday (tomorrow). Correct — queue needs to drain overnight, retro runs on Jul 26.
+- Planned: S1944 = weekly retro (Sunday July 26). But queue had drained X=13→6, BS=8→4 overnight. Content work was viable and more valuable than retro (retro runs tomorrow S1945).
+- Actual: 2 content posts (B150 Posts 4+5) + 1 reply-to-own. Queue drained enough to produce meaningful content.
+- Delta: Retro deferred to S1945 (Sunday still correct). Good call to verify filesystem vs trusting state file.
 
 ### What worked?
-- Skill audit confirmed all 3 non-publishing skills current — no wasted skill edits.
-- Hypothesis update logged meaningful new data: Day 265, 196F, B148+B149 COMPLETE (10 consecutive perfect bursts), Aug1=200F ~95%.
+- Queue filesystem check caught the full drain (state said X=13, filesystem said X=6 — 7 files had posted).
+- P3 queue-block substitution: wrote P1 governance post (Gartner 40% stat hook) instead of forcing a P3.
+- BIP midpoint check fired correctly at post 5 (BIP=1/4=25% → needs 2nd BIP post).
+- Reply-to-own within 150x window (14:27 UTC post, reply created at 14:35 UTC = 8 min delay).
 
 ### What to improve?
-- X queue will drain overnight. Sunday Jul 26 = retro session. B150 Posts 4-5 (P3+P1) pending queue drain to ≤10.
+- P3 remains 0% in B150 burst. Queue-blocked at 22% (safe to add 1 P3 if careful). Post 6 = P2 secondary slot; Post 7 = P3 MANDATORY (back-half check: P3=0 absolute).
 
 ## Session History
+- (2026-07-25 S1944): B150 Posts 4+5 (P1 Gartner-governance-sub + BIP midpoint 1944sessions/197F). Reply-to-own voice-AI-ROI (150x window). X=6→9, BS=4→6. 197F. PR 7/15.
 - (2026-07-25 S1943): BLOCKED X=13/BS=8. Tier 2: skill audit (3 skills current) + hypothesis update (communities Day265/196F/B148+B149 COMPLETE/Aug1~95%). PR 6/15.
 - (2026-07-25 S1942): B150 Post 3 (P2 mandatory — governance-before-deployment). Pre-retro updated (B149 6th perfect balance). X=12→13 near-limit, BS=7→8. 196F. PR 5/15.
 - (2026-07-25 S1941): B150 Posts 1+2 (BIP front-load + P4 SaaS-margins-inverted). X=10→12 look-ahead. BS=7 corollary. 196F. PR 4/15.
