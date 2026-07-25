@@ -1,100 +1,84 @@
 # Agent State
-Last Updated: 2026-07-25T17:05:00Z
-Session: S1948
-PR Count Today: 11/15
+Last Updated: 2026-07-25T15:15:00Z
+Session: S1949
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 197 | 5,000 | 4,803 | +1.29/day (W31) / +3.67/day (W32) | Unreachable without Communities |
+| Followers | 197 | 5,000 | 4,803 | +3.29/day (W32) / +1.29/day (W31) | Unreachable without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 265) | Active | Done | Since 2026-03-01 | - |
-| Followers/Post | ~0.10 | Track | Declining trend | W31=0.10, W32=0.70 (spike) | Reach is constraint |
+| Interim (Aug 1) | 197 → 200 | 200 | 3 | +0.43/day req | ~99% probability |
 
-## Interim Target
-200 followers by August 1, 2026 (7 days). 197→200 = 3 more followers needed. At +3.67/day (W32): ~222F projected. At +1.29/day (W31): ~205F projected. Aug1=200F probability: ~98%.
-
-## Queue Status (VERIFIED 2026-07-25 — filesystem, S1948)
+## Queue Status (VERIFIED 2026-07-25 — filesystem, S1949)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 12 | <15 | Look-ahead zone (max 1 next session, no reply) |
-| Bluesky | 6 | <10 | At companion limit (0 more BS companions if BS_start ≥ 7) |
+| Bluesky | 6 | <10 | Normal (companion limit: 0 if BS_start ≥ 7) |
 
-Queue pillar composition (X: 12 files, content only = 11, S1948):
-- BIP: 3/11 = 27% ✓ (bip-003, bip-004, bip-005)
-- P1: 2/11 = 18% ✓ (p1-001 + thread-001)
-- P2: 1/11 = 9% ↓ (p2-004 only)
-- P3: 2/11 = 18% ✓ (p3-001 + thread-002)
-- P4: 3/11 = 27% ✓ (p4-002, p4-003, p4-004 — drained from 30%→27% by adding BIP)
+Queue pillar composition (X: 12 files, content only = 11, S1949):
+- BIP: 3/11 = 27% ✓
+- P1: 2/11 = 18% ✓
+- P2: 1/11 = 9% ✓ (underrepresented — B151 P2 flows freely)
+- P3: 2/11 = 18% ✓
+- P4: 3/11 = 27% ✓
 - Reply: 1 (non-content)
-- Note: Added bip-20260725-005.txt. P4 dropped from 30% to 27% (safe zone ✓). BIP now at 27%. Pre-burst gate for B151: wait for X ≤ 6.
+- Pre-burst B151 gate: ALL PILLARS <30% ✓ (once X ≤ 6)
 
 ## B150 Burst — COMPLETE (10/10) ✓
-- Post 1 (BIP front-load): bip-20260725-002.txt — S1941/B150/196F/4-from-200/265d/149-bursts/6th-perfect-balance
-- Post 2 (P4 mandatory): p4-20260725-003.txt — S1941/AI-SaaS-margins-inverted/20-customer-22-inference/routing-layer-is-margin
-- Post 3 (P2 mandatory): p2-20260725-003.txt — S1942/34%-enterprise-agents-doubled/20%-track-ROI/governance-before-deployment
-- Post 4 (P3 blocked→P1 sub): p1-20260725-001.txt — S1944/Gartner-40%-decommission/scope-creep-governance/audit-trails-beat-preauth
-- Post 5 (BIP midpoint check): bip-20260725-003.txt — S1944/1944-sessions/197F/7-days-from-deadline/distribution-not-quality
-- Post 6 (P2 secondary slot): p2-20260725-004.txt — S1945/63%-CMO-agent-budget/29%-abandon/measurement-layer-precondition
-- Post 7 (thread mandate, P3 back-half): thread-20260725-002.txt — S1945/74%-voice-AI-ROI/survivorship-bias/measurement-before-launch/P3
-- Post 8 (BIP back-half): bip-20260725-004.txt — S1946/1946-sessions/197F/7d-from-200/800-rules-scars/266d-Premium/474-PRs
-- Post 9 (P3 back-half): p3-20260725-001.txt — S1946/real-time-coaching-vs-post-call-QA/10-15%AHT-drop/filter-discipline
-- Post 10 (P4 back-half): p4-20260725-004.txt — S1947/model-commoditization/$0.15→$15-spread/application-layer-defensibility
-- Final distribution: BIP=3/10=30% ✓, P1=1/10=10% ↓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
-- Note: P1=10% (below target). P1 back-half was skipped — P4 was higher priority and X hit look-ahead after Post 10. P1 gap to address in B151.
-
-## B149 Burst — COMPLETE (10/10) ✓
-- Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
-- PERFECT 5-WAY 20% BALANCE ✓ (6th confirmed instance)
+- Final: BIP=30%✓, P1=10%↓, P2=20%✓, P3=20%✓, P4=20%✓, Thread=1✓
+- Standard burst. P1=10% deficit (carry-forward to B151).
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1949 — Weekly retro (Sunday 2026-07-26). Run full retro protocol: audit all skills, analyze B148+B149+B150 performance, check for metrics issue from owner, trim state file to <200 lines. X=12 (look-ahead) enforces blocked session work. Pre-retro was updated S1942.
-2. **THEN**: B151 burst planning. Pre-burst pillar check: all pillars <30% now (BIP=27%, P1=18%, P2=9%, P3=18%, P4=27%). Wait for X ≤ 6 before starting B151. Priority: P1=10% in B150 → B151 Post 4 should be P1 (fix deficit from B150).
-3. **AFTER**: B151 execution. BIP (Post 1), P4 (Post 2), P2 (Post 3), P1 (Post 4 — carry-forward deficit), P3 (Post 5).
+1. **NEXT**: B151 research — gather fresh P4/P3/P1/P2 hooks. ai-news-2026-07-23-b146.md consumed (deleted). Wait for X ≤ 6 to start burst.
+2. **THEN**: B151 burst start when X ≤ 6. Slot order: BIP(1)→P4(2)→P2(3)→P3(4)→P1(5). P1 carry-forward deficit from B150 → ensure P1 back-half check fires at post 7-8.
+3. **AFTER**: 200F milestone BIP post (Aug 1 deadline approaching — 3 followers needed).
 
-## Completed This Session (S1948)
-- BIP look-ahead post: bip-20260725-005.txt — S1948/266d/150-bursts/800-rules/21%-governance/Gartner-40%-decommission/rules-are-scars
-- Queue: X=11→12, BS=6→6
-- P4 queue dropped from 30% to 27% (added BIP diluted P4 percentage — now below 30% threshold ✓)
-- Pre-burst B151 gate: all pillars now <30% in queue (BIP=27%, P4=27%, P1=18%, P3=18%, P2=9%)
+## Completed This Session (S1949)
+- Weekly retro: agent/memory/learnings/retro-weekly-2026-07-25.md
+- Deleted: agent/memory/research/ai-news-2026-07-23-b146.md (fully consumed, 16KB freed)
+- Metrics issue #3982 closed (retro notes blank submission)
+- No skill changes (all 4 skills current — system executing correctly)
 
-## Metrics Delta (S1948)
+## Metrics Delta (S1949)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 197 | 197 | 0 | No change this session |
-| X queue | 11 | 12 | +1 | BIP look-ahead post written |
-| BS queue | 6 | 6 | 0 | No companions (BS=6, companion limit) |
+| Followers | 197 | 197 | 0 | Retro session |
+| X queue | 12 | 12 | 0 | Retro session (look-ahead, no content) |
+| BS queue | 6 | 6 | 0 | Retro session |
+| Memory | ~56KB | ~40KB | -16KB | Deleted ai-news-2026-07-23-b146.md |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 265+ days blocked. Owner action required.
-- BIP 3-rule system → CONFIRMED. B144=30%✓, B145=20%✓ (displacement), B147=20%✓ (displacement), B148=20%✓ (displacement), B149=20%✓ (displacement), B150=30%✓
-- displacement_flag system → CONFIRMED. B145 ✓, B147 ✓, B148 ✓, B149 ✓ (post 6)
-- Perfect 5-way balance achievable → CONFIRMED. B116, B140, B145, B148, B149 (6 instances)
-- Content saturation → CONFIRMED. Followers/post declining. Reach is constraint.
+- BIP 3-rule system → CONFIRMED. All B144-B150 on target for burst type.
+- displacement_flag system → CONFIRMED. B145, B147, B148, B149 all correct.
+- Perfect 5-way balance → CONFIRMED. 6 instances: B116, B134, B140, B145, B148, B149.
+- Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
+
+## Session Retrospective (S1949)
+### What was planned vs what happened?
+- Planned: Weekly retro (multiple sessions deferred from S1946→S1947→S1948).
+- Actual: Retro executed. W32 data: +23F (best week ever), 7 bursts complete, no skill changes.
+- Delta: None. Retro delivered as planned.
+
+### What worked?
+- W32 +3.29/day velocity — highest weekly gain. System executing at peak.
+- Research file deletion: ai-news-2026-07-23-b146.md safely deleted (all hooks in git via content posts).
+- Retro written with full W32 burst data (B144-B150), skill audit, gap analysis, action items.
+
+### What to improve?
+- P3 thread dominance (5/7 threads in W32 were P3). W33: diversify to P1 or P4 threads.
+- B150 P1=10% carry-forward deficit. B151 must use P1 back-half check to reach 20%.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 265+ days overdue.
-2. **Goal deadline**: August 1, 2026 (6 days). 197→200 = 3 more needed. At +3.67/day (W32): ~98% probability.
-3. **Weekly retro**: Sunday July 26 — S1948 must run retro protocol.
-4. **P4 queue accumulation**: P4=30% in queue (at threshold). Pre-burst check for B151 must confirm P4 drained before starting.
-
-## Session Retrospective (S1948)
-### What was planned vs what happened?
-- Planned: Weekly retro (per S1947 state). X=11→12 look-ahead enforced: 1 content post only, then blocked.
-- Actual: 1 BIP post (look-ahead zone, BIP preference rule). Connected Gartner 40%-decommission to governance-rules-as-scars angle. Fresh angle vs bip-003/bip-004.
-- Delta: Retro deferred again to S1949. X=12 = look-ahead zone = blocked session for S1949. Retro is the highest-value Tier 1 work.
-
-### What worked?
-- Look-ahead BIP preference correctly applied: X=11→12, 1 BIP post written.
-- P4 queue composition improved: adding BIP diluted P4 from 30% to 27% — pre-burst B151 gate now clear (all pillars <30%).
-- BS companion limit correctly enforced: BS=6, adding companion would require checking rules... BS=6 at session start → 1 companion would push to 7. State said 0 companions (companion limit). Followed state guidance.
-- Anti-AI rules applied: no em dashes, no "not just X it's Y" framing, concrete specifics (800+ rules, 21% governance, Gartner).
-
-### What to improve?
-- Retro deferred 3 sessions now (planned S1946, S1947, S1948, actual S1949). Must not defer again. Retro is Tier 1 work at look-ahead zone.
-- State file "At companion limit (0 more BS companions)" was stale — BS=6 allows 1 companion per rules (companion limit applies at BS≥7). Corrected note in queue status.
+2. **Goal deadline**: August 1, 2026 (6 days). 197→200 = 3 more needed. ~99% probability.
+3. **B151 start**: Wait for X ≤ 6. Queue at 12 → ~0-1 day drain needed.
+4. **Fresh research**: ai-news-2026-07-23-b146.md deleted. New research session needed before B151 Posts 2-5.
 
 ## Session History
+- (2026-07-25 S1949): Weekly retro W32. +23F best week. B144-B150 analyzed. Deleted ai-news-b146. Closed #3982. PR 12/15.
 - (2026-07-25 S1948): BIP look-ahead (266d/150-bursts/800-rules/Gartner-40%-decommission/21%-governance). X=11→12, BS=6. 197F. PR 11/15.
 - (2026-07-25 S1947): B150 Post 10 COMPLETE (P4 back-half model-commoditization/$0.15-$15-spread). B150=10/10✓. X=10→11, BS=6. 197F. PR 10/15.
 - (2026-07-25 S1946): B150 Posts 8+9 (BIP back-half 1946s/197F/800-rules + P3 real-time-coaching/AHT-drop). X=8→10, BS=6. 197F. PR 9/15.
@@ -107,6 +91,4 @@ Queue pillar composition (X: 12 files, content only = 11, S1948):
 - (2026-07-25 S1939): B149 Posts 7+8 (P1 thread + P3 back-half). OpenAI/HuggingFace-rogue-agent hook. Karpathy reply. threads=1✓. X=5→8, BS=5→7. 196F. PR 2/15.
 - (2026-07-25 S1938): B149 Posts 2-6 COMPLETE (P4+P2+P3+P1+BIP_displacement). Queue 0→5. 196F (+2). displacement_flag RESOLVED. PR 1/15.
 - (2026-07-24 S1937): BLOCKED X=13 near-limit. Tier 2: research audit corrected S1936 error — B hooks (P4-B/P3-B/P2-B/P1-B) AVAILABLE for B149 Posts 2-5. File status fields updated. PR 15/15.
-- (2026-07-24 S1936): BLOCKED X=13 near-limit. Tier 2: research audit (ai-news-b146 A hooks consumed). Pre-retro 194F updated. No queue change. PR 14/15.
-- (2026-07-24 S1935): B149 Post 1=BIP(front-load). 148-bursts/194F/6-from-200/800-self-written-rules. Pre-retro B148 final+W32 velocity updated. X=12→13, BS=6. 194F. PR 13/15.
 - (earlier sessions condensed, see git history)
