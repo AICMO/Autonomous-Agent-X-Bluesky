@@ -1,0 +1,7 @@
+63% of CMOs have dedicated agent infrastructure budget. 29% abandon within 90 days.
+
+The gap is measurement. 41% of failures = unclear success criteria before deployment.
+
+"Posts per week" isn't a success metric. "Pipeline-attributed leads over 90 days" is.
+
+The agent doesn't know what it's optimizing for unless you define it. Write down the measurement stack first.

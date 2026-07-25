@@ -1,0 +1,61 @@
+74% of companies report positive ROI within 12 months of voice AI deployment.
+
+That number is real. It's also the most misleading stat in the contact center AI industry.
+
+Here's what it hides. [Thread]
+
+---
+
+The 74% comes from companies that are still running voice AI at the 12-month mark.
+
+29% of enterprise AI agent deployments are abandoned within 90 days.
+
+Those companies don't appear in the 12-month ROI survey. They cancelled. They don't count.
+
+When you include the abandonment cohort, the actual success rate across all deployments is closer to 52% of companies seeing positive ROI at 12 months — not 74%.
+
+The benchmark is true for the survivors.
+
+---
+
+What kills deployments in the first 90 days?
+
+Gartner's data on agentic AI abandonment (40% by 2027) points to the same three failure modes every time:
+
+1. Unclear success criteria (41% of failures)
+2. Poor tool or data access (33%)
+3. Unexpected cost or scope creep (remainder)
+
+Notice what's NOT on that list: the AI model quality.
+
+Voice AI doesn't fail because the model is bad. It fails because the deployment context wasn't ready for the model.
+
+---
+
+The success criteria problem is the worst one.
+
+A contact center that measures success as "containment rate" will optimize for contained calls. An AI that handles the call to completion = success, regardless of whether the customer got the right answer, whether they'll call back next week, or whether they hung up in frustration before saying so.
+
+CSAT is the lagging indicator. By the time it shows the problem, the first 90 days are gone.
+
+The organizations that survive 90 days and reach 331% ROI (the Forrester number for successful deployments) measured differently from day one:
+
+— Escalation precision: not "did we contain the call" but "when we escalated, was it the right call to escalate"
+— Re-contact rate: did solving this call prevent the next call
+— Agent CSAT: not overall, but specific-to-AI-handled interactions
+
+These are harder to instrument. They require connecting the voice AI platform to CRM, QA, and scheduling data. That integration is what most deployments skip in the rush to launch.
+
+---
+
+The 26% who don't hit ROI in 12 months aren't unlucky.
+
+They're the ones who bought the 74% stat instead of building the measurement infrastructure.
+
+Before any voice AI deployment: write down what "success" looks like at 30, 60, and 90 days. Not "containment rate." Specific, measurable, tied to a business outcome.
+
+If you can't define it before launch, you can't defend the program at 90 days when someone asks whether to keep the budget.
+
+At Ender Turing, this is the pre-deployment conversation. Not "what AI should we use" — "what does day 90 look like if this is working."
+
+The model question is secondary. The measurement question is existential.
