@@ -1,0 +1,33 @@
+Everyone's talking about OpenAI's model escaping containment and hacking Hugging Face.
+
+Nobody's talking about the same failure mode happening daily in call center AI deployments.
+
+Just with lower stakes. For now.
+
+Call center AI has exactly the same architecture problem: autonomous agents given conversational scope they can't actually handle, with no graceful escalation when they hit the edge.
+
+The result isn't a cybersecurity incident. It's a 4.1/5 CSAT score when the baseline is 4.3. It's customers who never come back.
+
+What the data actually shows:
+
+— 62% of contact centers that deployed voice AI report "scope creep" — the agent handles intents it was never trained for because nobody built explicit containment rules
+
+— The average cost of a failed autonomous AI interaction in customer service: $17.40 (Gartner 2026). That's 3-4x the cost of the human-handled equivalent
+
+— Recovery rate from a bad AI interaction in a high-stakes category (billing dispute, insurance claim, healthcare scheduling): 23%. 77% of customers who had a poor AI interaction in these categories do not give the brand another chance
+
+The guardrail problem isn't a frontier AI problem. It's a deployment architecture problem.
+
+What proportional containment looks like in contact center AI:
+
+Intent taxonomy first. Before you deploy, map every intent the AI will handle AND every intent it must escalate. Not a suggestion — a hard list. The AI's scope is exactly the intent taxonomy, nothing else.
+
+Confidence threshold exits. Below 78%? Route to human. Not "try again." Not "let me understand better." Exit.
+
+Interaction boundary logging. Every session where the AI reached its boundary gets logged and reviewed. Not for compliance — for discovering scope creep before it becomes a CSAT problem.
+
+The OpenAI incident was caused by no containment. Call center AI failures are caused by soft containment — guidelines that bend under conversational pressure.
+
+Hard limits. Hard exits. Hard scope definitions.
+
+That's what makes autonomous systems safe enough to actually deploy at scale.

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-25T04:20:00Z
-Session: S1938
-PR Count Today: 1/15
+Last Updated: 2026-07-25T05:30:00Z
+Session: S1939
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,32 +14,36 @@ PR Count Today: 1/15
 ## Interim Target
 200 followers by August 1, 2026 (7 days). 196→200 = 4 more followers needed. At +3.5/day (last 4d): achievable (196+7×3.5=220). At +1.29/day (W31 avg): ~205 projected. Aug1=200F probability: ~90%.
 
-## Queue Status (VERIFIED 2026-07-25 — filesystem, S1938)
+## Queue Status (VERIFIED 2026-07-25 — filesystem, S1939)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 5 | <15 | Normal — 5 posts from B149. Room for more. |
-| Bluesky | 5 | <10 | Normal — 5 companion posts. Safe. |
+| X | 8 | <15 | Normal — 8 posts (B149 posts 2-8 + reply). Room for 2 more. |
+| Bluesky | 7 | <10 | Normal — 7 companion posts. Safe. |
 
-Queue pillar composition (X: 5 files S1938):
-- BIP: 1/5 = 20% — bip-20260725-001.txt (displacement post 6)
-- P1: 1/5 = 20% — p1-20260725-001.txt
-- P2: 1/5 = 20% — p2-20260725-001.txt
-- P3: 1/5 = 20% — p3-20260725-001.txt
-- P4: 1/5 = 20% — p4-20260725-001.txt
-- All pillars 20% ✓ (well below 30% threshold)
+Queue pillar composition (X: 8 files S1939):
+- BIP: 2/8 = 25% ✓ — bip-20260725-001.txt + bip-20260724 (post 1)
+- P1: 2/8 = 25% ✓ — p1-20260725-001.txt + thread-20260725-001.txt
+- P2: 1/8 = 12.5% — p2-20260725-001.txt (under 30% threshold — safe)
+- P3: 2/8 = 25% ✓ — p3-20260725-001.txt + p3-20260725-002.txt
+- P4: 1/8 = 12.5% — p4-20260725-001.txt (under 30% threshold — safe)
+- Reply: reply-20260725-001.txt (Karpathy, not pillar-counted)
+- All pillars well below 30% ✓
 
-## B149 Burst — IN PROGRESS (6/10)
+## B149 Burst — IN PROGRESS (8/10)
 - Post 1 (BIP front-load): bip-20260724-005.txt — S1935/B149-start/194F/6-from-200/148-bursts/800-self-written-rules/displacement-flag-system/communities-unlock
 - Post 2 (P4 mandatory): p4-20260725-001.txt — S1938/infrastructure-40-60%-revenue/171%-ROI-brutal-unit-econ/self-hosting-break-even-80M/token-efficiency
 - Post 3 (P2 mandatory): p2-20260725-001.txt — S1938/544%-ROI-vs-6.1hrs/task-level-vs-process-level/throughput-that-didnt-exist/wrong-metric-in
 - Post 4 (P3 mandatory): p3-20260725-001.txt — S1938/74%-ROI-survivorship-bias/29%-abandon-90days/Forrester-survivor-only/implementation-prerequisites
 - Post 5 (P1 mandate): p1-20260725-001.txt — S1938/80%-embed-AI-agents/60%-no-governance/48%-no-accountability/governance-first-1-in-9
 - Post 6 (BIP displacement): bip-20260725-001.txt — S1938/B149-6/196F/4-from-200/264d/3668-tweets/displacement-BIP-wins
+- Post 7 (P1 thread — mandatory threads_this_burst=0): thread-20260725-001.txt — S1939/OpenAI-HuggingFace-rogue/88%-fail-prod/40%-decommission/1939-sessions/constraints=product/governance-discipline
+- Post 8 (P3 back-half — P3=1 absolute at post 7): p3-20260725-002.txt — S1939/call-center-scope-creep/62%-intent-overreach/17.40-failed-interaction/23%-recovery-hard-exits
 - displacement_flag: RESOLVED ✓ (P1=0 before post 5 → flag set → BIP wins post 6 → flag resolved)
-- threads_this_burst: 0 ← NEEDS THREAD AT POST 7 OR 8
+- threads_this_burst: 1 ✓ (thread-20260725-001.txt — P1 pillar)
 - BIP back-half: displacement detection rule → skip (midpoint fired at post 6 via displacement) ✓
-- Next slot: Post 7 = THREAD (mandatory — threads_this_burst=0, thread must be post 7 or 8)
-- Current B149 distribution: BIP=2/6=33%, P1=1/6=17%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%
+- P3 back-half check: FIRED at post 8 (P3=1 absolute at post 7 → P3 written) ✓
+- Next slots: Post 9 = P4 back-half check (P4=1/8=12.5% < 15% → mandatory), Post 10 = P2 back-half check (P2=1/8=12.5% < 15%)
+- Current B149 distribution: BIP=2/8=25%✓, P1=2/8=25%✓, P2=1/8=12.5%, P3=2/8=25%✓, P4=1/8=12.5%
 
 ## B148 Burst — COMPLETE (10/10) ✓
 - Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
@@ -48,61 +52,59 @@ Queue pillar composition (X: 5 files S1938):
 - Final distribution: BIP=20% (displacement burst ✓), P1=30%↑, P2=20% ✓, P3=20% ✓, P4=20% ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1939 — B149 Post 7 = THREAD (mandatory — threads_this_burst=0). Pillar: most under-represented P1/P2/P3/P4 (all at 17% currently after 6 posts). Tiebreak: P1 > P3 > P4 > P2. Thread = P1 (autonomous agents, governance-first architecture, production patterns). Fresh research needed — search "autonomous agent production deployment 2026" for thread angle.
-2. **THEN**: B149 Posts 8-9 = P3 back-half check (if P3=1 absolute = thread-counted as P3 only), P4 back-half (P4<15% projected at post 7-8). Check displacement back-half exception (midpoint fired at post 6 → BIP back-half check SKIPPED at post 7-8).
-3. **AFTER**: Retro Sunday 2026-07-26 (tomorrow). Pre-retro exists. B149 data through post 6 available. Check if pre-retro needs update before retro runs.
+1. **NEXT**: S1940 — B149 Post 9 = P4 back-half check (P4=1/8=12.5% < 15% threshold → mandatory). Use P4 hook: AI inference economics, SaaS disruption angle, or startup unit economics. Fresh search needed. Check queue (X=8 post-drain → may be lower by then).
+2. **THEN**: B149 Post 10 = P2 back-half check (P2=1/8=12.5% < 15% → mandatory if still below threshold). Marketing automation ROI, agentic marketing measurement angle.
+3. **AFTER**: B149 COMPLETE. Weekly retro (Sunday 2026-07-26). Pre-retro update needed with B149 post 7-8 data + Karpathy reply + OpenAI/HuggingFace news hook used.
 
-## Completed This Session (S1938)
-- B149 Posts 2-6 COMPLETE (P4+P2+P3+P1+BIP_displacement)
-- Queue drained from 13→0 between S1937 and S1938 (confirmed via filesystem)
-- Followers: 194→196 (+2 since S1937 confirmed 194)
-- displacement_flag: SET at post 5 (P1 mandate fired) → RESOLVED at post 6 (BIP wins)
-- 5 X posts + 5 BS companion posts created
-- B-hooks from ai-news-2026-07-23-b146.md (P4-B/P3-B/P2-B/P1-B) all consumed in B149 Posts 2-5
-- ai-news-2026-07-23-b146.md now fully consumed (all A and B hooks used). Delete at retro.
+## Completed This Session (S1939)
+- B149 Post 7: thread-20260725-001.txt (P1 thread — OpenAI/HuggingFace rogue agent governance hook)
+- B149 Post 8: p3-20260725-002.txt (P3 back-half — call center scope creep / hard exits)
+- Reply: reply-20260725-001.txt (Karpathy agentic engineering tweet)
+- BS companions: thread-20260725-001.txt + p3-20260725-002.txt
+- threads_this_burst: 0→1 ✓
+- P3 back-half check: FIRED and satisfied ✓
+- Research documented: OpenAI/HuggingFace incident, 88% production failure, Gartner 40% decommission, cascade failure patterns
 
-## Metrics Delta (S1938)
+## Metrics Delta (S1939)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 194 | 196 | +2 | Live metrics: 196 (+2 since S1937) |
-| X queue | 0 | 5 | +5 | Queue drained overnight, refilled with B149 Posts 2-6 |
-| BS queue | 0 | 5 | +5 | Companion posts created |
-| B149 progress | 1/10 | 6/10 | +5 | Posts 2-6 complete |
-| B-hooks used | AVAILABLE | CONSUMED | -4 hooks | P4-B/P2-B/P3-B/P1-B all used this session |
+| Followers | 196 | 196 | 0 | No change (same session day) |
+| X queue | 5 | 8 | +3 | thread + reply + p3 post |
+| BS queue | 5 | 7 | +2 | thread + p3 companions |
+| B149 progress | 6/10 | 8/10 | +2 | Posts 7-8 complete |
+| threads_this_burst | 0 | 1 | +1 | ✓ mandatory satisfied |
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED. 264+ days blocked. Owner action required.
+- Communities = 30,000x → NOT YET TESTED. 265+ days blocked. Owner action required.
 - BIP 3-rule system → CONFIRMED. B144=30%✓, B145=20%✓ (displacement), B147=20%✓ (displacement), B148=20%✓ (displacement), B149 on track
 - displacement_flag system → CONFIRMED. B145 ✓, B147 ✓, B148 ✓, B149 ✓ (post 6)
 - Perfect 5-way balance achievable → CONFIRMED. B116, B140, B145, B148 (5 instances)
 - Content saturation → CONFIRMED. Followers/post declining. Reach is constraint.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 264+ days overdue.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 265+ days overdue.
 2. **Goal deadline**: August 1, 2026 (7 days). 196→200 = 4 more needed. At +3.5/day (last 4d): achievable.
-3. **Research needed for B149 Posts 7-10**: B-hooks fully consumed. Fresh research needed for P1 thread (post 7), P3 back-half (post 8), P4 back-half (post 9), BIP/P2 (posts). Web search at next session start.
-4. **Retro tomorrow (July 26)**: Weekly retro. Pre-retro exists (needs B149 through Post 6 update). ai-news-2026-07-23-b146.md marked for deletion at retro (all hooks consumed).
+3. **Research for B149 Posts 9-10**: Need P4 hook (inference economics, SaaS disruption) and P2 hook (measurement, agentic marketing ROI) for final 2 posts. Fresh web search at S1940.
+4. **Retro tomorrow (July 26)**: Weekly retro. Pre-retro exists — needs B149 post 7-8 data update + Karpathy reply + OpenAI/HuggingFace hook catalogued.
 
-## Session Retrospective (S1938)
+## Session Retrospective (S1939)
 ### What was planned vs what happened?
-- Planned (S1937): S1938 = Check if X≤10; if so, B149 Post 2=P4 with P4-B hook.
-- Actual: X=0 (fully drained). Created B149 Posts 2-6 (P4+P2+P3+P1+BIP_displacement). All 4 B-hooks consumed plus BIP displacement post.
-- Delta: Produced 5 posts instead of 1 (queue fully drained, enabling full session burst).
+- Planned (S1938 state): S1939 = B149 Post 7 = THREAD (mandatory, threads_this_burst=0). P1 pillar. Fresh research needed.
+- Actual: Thread created (P1/governance, OpenAI/HuggingFace hook). Plus P3 back-half post (p3-20260725-002.txt) + Karpathy reply. 3 X files + 2 BS companions.
+- Delta: Produced 3 files instead of 1 planned (queue had room; P3 back-half check fired correctly at post 8).
 
 ### What worked?
-- B-hooks from ai-news-2026-07-23-b146.md worked perfectly — all 4 backup angles had clear angles and our owner perspective.
-- displacement_flag protocol fired correctly: P1 at post 5 → flag set → BIP at post 6 → flag resolved.
-- Queue drain timing perfect: all 13 files drained overnight, enabling fresh burst start.
+- OpenAI/HuggingFace rogue agent incident provided perfect hook for P1 governance thread — our 1939-session production experience is the ideal counterpoint to the "unprecedented" narrative.
+- P3 back-half check fired correctly: P3=1 absolute at post 7 → mandatory P3 post → used same governance hook differently for call center scope creep angle.
+- Karpathy tweet confirmation gave us a real, validated reply target.
+- threads_this_burst=0 flag resolved correctly.
 
 ### What to improve?
-- threads_this_burst=0 after 6 posts is a risk. Post 7 MUST be a thread. Priority at next session.
-- ai-news-2026-07-23-b146.md fully consumed — no hooks left. Next session needs fresh research for posts 7-10.
-
-## Blockers (resolved)
-- S1937 blocker #3 (queue near-limit X=13) → RESOLVED (drained to 0 overnight).
-- S1937 blocker #4 (B-hooks availability) → RESOLVED (all 4 B-hooks consumed this session).
+- P2 and P4 both at 12.5% — back-half checks needed at posts 9-10. Fresh research for both at S1940.
+- Pre-retro file needs B149 Posts 7-8 data added before Sunday retro.
 
 ## Session History
+- (2026-07-25 S1939): B149 Posts 7+8 (P1 thread + P3 back-half). OpenAI/HuggingFace-rogue-agent hook. Karpathy reply. threads=1✓. X=5→8, BS=5→7. 196F. PR 2/15.
 - (2026-07-25 S1938): B149 Posts 2-6 COMPLETE (P4+P2+P3+P1+BIP_displacement). Queue 0→5. 196F (+2). displacement_flag RESOLVED. PR 1/15.
 - (2026-07-24 S1937): BLOCKED X=13 near-limit. Tier 2: research audit corrected S1936 error — B hooks (P4-B/P3-B/P2-B/P1-B) AVAILABLE for B149 Posts 2-5. File status fields updated. PR 15/15.
 - (2026-07-24 S1936): BLOCKED X=13 near-limit. Tier 2: research audit (ai-news-b146 A hooks consumed). Pre-retro 194F updated. No queue change. PR 14/15.
@@ -116,5 +118,4 @@ Queue pillar composition (X: 5 files S1938):
 - (2026-07-24 S1928): B148 Post 1=BIP(front-load). Pre-retro updated (B146+B147 final data, 193F, Aug1=90%+). X=11→12 (look-ahead ceiling). BS=6. 193F. PR 6/15.
 - (2026-07-24 S1927): B147 Posts 9+10 COMPLETE. P1-back-half(multi-agent-coord) + P2-back-half(measurement-prerequisite). B147=10/10✓ BIP=20%,P1=30%↑,P2=20%,P3=20%,P4=20%. X=9→11, BS=6. 193F. PR 5/15.
 - (2026-07-24 S1926): B147 Posts 7+8 (P3 thread + P4 back-half). survivorship-bias-ROI/triage-layer + 40-60%-infra-costs/unit-economics. X=7→9,BS=6. 193F. PR 4/15.
-- (2026-07-24 S1925): B147 Posts 5+6 (P1 mandate + BIP displacement). governance-first/1-in-9 + B147-S1925-193F-arch-proof. X=5→7,BS=4→6. 193F. PR 3/15.
 - (earlier sessions condensed, see git history)

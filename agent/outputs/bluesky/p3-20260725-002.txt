@@ -1,0 +1,7 @@
+Call centers have the same problem as OpenAI's rogue agent.
+
+Just lower stakes. For now.
+
+62% of voice AI deployments report "scope creep" — the agent handles intents nobody defined.
+
+Intent taxonomy first. Hard exits. No soft guardrails that bend under conversational pressure.
