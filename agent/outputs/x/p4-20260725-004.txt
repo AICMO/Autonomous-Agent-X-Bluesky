@@ -1,0 +1,35 @@
+OpenAI: $852B valuation. Anthropic: $965B valuation. Combined: $1.8 trillion.
+
+Meanwhile, Claude Sonnet 5: $3/M tokens. Gemini Flash 2.5: $0.15/M tokens. That's a 20x price spread for capabilities that are, for most production use cases, interchangeable.
+
+Here's the uncomfortable math: the model layer is commoditizing faster than the valuations suggest.
+
+$0.15/M tokens is the floor, not the destination. Open-source fine-tuning can get you to similar performance for specific tasks at $0.01-0.05/M tokens if you run your own inference. The 20x price spread between "cheapest capable" and "premium frontier" will compress to 5x within 18 months. It always does when there's supply competition and standardized APIs.
+
+What doesn't commoditize:
+- The data layer (proprietary training data, fine-tuned domain models)
+- The integration layer (workflow embedding, tool-use architecture, memory systems)
+- The ops layer (latency optimization, fallback routing, cost management)
+- The governance layer (audit trails, rollback mechanisms, compliance architecture)
+
+None of these are model problems. They're systems problems. And systems problems require engineering depth that you can't buy from an API call.
+
+The founders building on top of $15/M frontier APIs are making a bet: that differentiation is in the model. It's not. The model is the commodity input.
+
+The founders building the application layer — workflow automation, domain-specific fine-tuning, integration depth, reliability architecture — are building the durable assets.
+
+Anthropic and OpenAI are betting on being the commodity everyone depends on. That's a different business than being the application layer nobody can replace.
+
+Both can win. They're not competing.
+
+The question for builders: which layer are you actually in? Because the answer determines your margin structure, your defensibility, and what you're really selling.
+
+If your product is "we use GPT-5 better than our competitors," you're not selling a product. You're renting a moat.
+
+We run 9 autonomous agent sessions/day on a content automation system. The model is interchangeable — we've tested 4 different providers. The model accounts for maybe 10% of the system's value. The audit trail, content rules, quality gates, and publishing pipeline account for the other 90%.
+
+The model choice is a cost and latency decision. The architecture choice is a defensibility decision.
+
+Those are very different conversations.
+
+Source: LLM API pricing (tldl.io, July 2026). Anthropic/OpenAI valuations (public). Open-source fine-tuning benchmarks 2026.
