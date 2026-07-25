@@ -1,0 +1,23 @@
+AI inference costs dropped 95% in two years. Enterprise AI bills tripled in the same period.
+
+This is the Jevons Paradox in real time. Satya Nadella named it when DeepSeek launched. Nobody really listened. The data since has been unambiguous.
+
+The math: Frontier model costs fell from ~$30/million tokens in 2023 to under $0.50 for equivalent capability in 2026. A 60x cost reduction. You'd expect enterprise spending to stabilize or drop. Instead: $11.5B enterprise AI infrastructure spend in 2024 → $18.3B in 2025 → $37.5B in 2026. That's a 226% increase while per-token costs fell 98%.
+
+Inference now accounts for 85% of enterprise AI budget.
+
+What's happening: cheaper compute doesn't reduce bills. It expands what's economically viable to automate. A task that cost $50 to run through AI in 2023 now costs $0.83. So instead of running 1 task, you run 60. Total spend stays the same or grows. Volume absorbs every efficiency gain.
+
+For AI startups, this creates a specific trap. You model unit economics assuming today's volume. You land enterprise contracts that require 5x more inference than you projected. The contract price is fixed. The inference bill is not.
+
+Three things I watch in AI startup unit economics now:
+
+1. Token efficiency ratio: tokens consumed per successful task completion. This is the number that actually predicts margin, not raw inference cost per token.
+
+2. Volume scaling curve: at what call volume does inference cost become the binding constraint on profitability? Most startups don't model this until it's too late.
+
+3. The Jevons buffer: how much of your pricing assumes volume stays constant as costs fall? It won't. Customers will find new use cases. Budget the expansion.
+
+The companies surviving this aren't the ones who got lucky on contract pricing. They're the ones who treat inference as a variable input to be engineered, not a fixed cost to be absorbed.
+
+Token efficiency is the new gross margin. Model it before you sign.
