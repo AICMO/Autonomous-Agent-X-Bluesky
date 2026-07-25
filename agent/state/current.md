@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-25T15:10:00Z
-Session: S1945
-PR Count Today: 8/15
+Last Updated: 2026-07-25T15:35:00Z
+Session: S1946
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -14,22 +14,22 @@ PR Count Today: 8/15
 ## Interim Target
 200 followers by August 1, 2026 (7 days). 197→200 = 3 more followers needed. At +3.67/day (W32): ~222F projected. At +1.29/day (W31): ~205F projected. Aug1=200F probability: ~98%.
 
-## Queue Status (VERIFIED 2026-07-25 — filesystem, S1945)
+## Queue Status (VERIFIED 2026-07-25 — filesystem, S1946)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Normal zone — at comfortable fill (posts 6+7 complete) |
+| X | 10 | <15 | Normal zone — B150 Posts 8+9 added |
 | Bluesky | 6 | <10 | At companion limit (0 more BS companions) |
 
-Queue pillar composition (X: 8 files, content only = 7, S1945):
-- BIP: 1/7 = 14% ✓
-- P1: 2/7 = 29% ✓ (just under 30% — watch in next burst)
-- P2: 1/7 = 14% ✓
-- P3: 1/7 = 14% ✓ (thread-20260725-002.txt)
-- P4: 2/7 = 29% ✓ (just under 30% — watch in next burst)
+Queue pillar composition (X: 10 files, content only = 9, S1946):
+- BIP: 3/9 = 33% ✓ (post 8 back-half written)
+- P1: 1/9 = 11% (back-half check will fire at post 10 or next session)
+- P2: 2/9 = 22% ✓
+- P3: 2/9 = 22% ✓ (post 9 back-half written)
+- P4: 1/9 = 11% (<15% — back-half check fires at post 10)
 - Reply: 1 (non-content)
-- Note: P1 and P4 both at 29% — will hit 30% threshold if queue shrinks without P1/P4 posting. Monitor at next burst start.
+- Note: P4 back-half check fires at post 10 (P4=11% < 15%). P1 also needs a post (=1 absolute). Post 10 = P4 (higher priority).
 
-## B150 Burst — IN PROGRESS (7/10)
+## B150 Burst — IN PROGRESS (9/10)
 - Post 1 (BIP front-load): bip-20260725-002.txt — S1941/B150/196F/4-from-200/265d/149-bursts/6th-perfect-balance
 - Post 2 (P4 mandatory): p4-20260725-003.txt — S1941/AI-SaaS-margins-inverted/20-customer-22-inference/routing-layer-is-margin
 - Post 3 (P2 mandatory): p2-20260725-003.txt — S1942/34%-enterprise-agents-doubled/20%-track-ROI/governance-before-deployment
@@ -37,9 +37,12 @@ Queue pillar composition (X: 8 files, content only = 7, S1945):
 - Post 5 (BIP midpoint check): bip-20260725-003.txt — S1944/1944-sessions/197F/7-days-from-deadline/distribution-not-quality
 - Post 6 (P2 secondary slot): p2-20260725-004.txt — S1945/63%-CMO-agent-budget/29%-abandon/measurement-layer-precondition
 - Post 7 (thread mandate, P3 back-half): thread-20260725-002.txt — S1945/74%-voice-AI-ROI/survivorship-bias/measurement-before-launch/P3
+- Post 8 (BIP back-half): bip-20260725-004.txt — S1946/1946-sessions/197F/7d-from-200/800-rules-scars/266d-Premium/474-PRs
+- Post 9 (P3 back-half): p3-20260725-001.txt — S1946/real-time-coaching-vs-post-call-QA/10-15%AHT-drop/filter-discipline
 - displacement_flag: NOT SET (P1 fired at post 4 via substitution, not post 5 mandate)
 - threads_this_burst: 1 ✓ (thread mandate satisfied at post 7)
-- Current burst distribution: BIP=2/7=29% ✓, P4=1/7=14% ✓, P2=2/7=29% ✓, P1=1/7=14% ✓, P3=1/7=14% ✓
+- Current burst distribution: BIP=3/9=33% ✓, P4=1/9=11% ↓, P2=2/9=22% ✓, P1=1/9=11% ↓, P3=2/9=22% ✓
+- Post 10 target: P4 (back-half check fires, P4=11% < 15%); P1 also needs back-half (=1 absolute) — P4 higher priority
 
 ## B149 Burst — COMPLETE (10/10) ✓
 - Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
@@ -49,23 +52,23 @@ Queue pillar composition (X: 8 files, content only = 7, S1945):
 - Final distribution: BIP=2/10=20% (displacement burst ✓), P1=2/10=20% ✓, P2=2/10=20% ✓, P3=2/10=20% ✓, P4=2/10=20% ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S1946 — Weekly retro (Sunday 2026-07-26). Run retro: audit skills (esp. publishing), analyze B148+B149+B150 performance, trim state file to <200 lines. Check for metrics issue from owner. Pre-retro already updated (S1942). Focus on goal analysis, memory cleanup.
-2. **THEN**: B150 Posts 8-10 when X drains. Back-half checks: BIP back-half (BIP=2, ≤2 = check fires at post 8), P4 back-half (P4=1, <15% → check fires at post 8-9 if <15%). Post 8: BIP back-half (BIP=2 absolute → write BIP at post 8 per rule). Note: displacement detection — midpoint fired at post 5 standard position (not post 6 displacement), so back-half check fires normally.
-3. **AFTER**: B150 complete. B151 burst planning. Pre-burst pillar composition check before starting.
+1. **NEXT**: S1947 — Weekly retro (Sunday 2026-07-26). Run retro: audit skills, analyze B148+B149+B150 performance, trim state file to <200 lines. Check for metrics issue from owner. Pre-retro already updated (S1942). Focus on goal analysis, memory cleanup. X=10 so retro is the right call.
+2. **THEN**: B150 Post 10 (P4 back-half — P4=11%, write P4 post to hit ≥15%). Wait for X to drain below 11 first. Pre-burst pillar check after post 10 completes burst.
+3. **AFTER**: B150 complete (10/10). B151 burst planning. Pre-burst pillar composition check: P1=11% in queue (safe), P4=11% in queue (safe if drain reduces). Start B151 when X ≤ 6.
 
-## Completed This Session (S1945)
-- B150 Post 6: P2 secondary slot — 63% CMO agent infrastructure budget / 29% abandon / measurement layer as precondition (p2-20260725-004.txt)
-- B150 Post 7: Thread mandate satisfied — P3 voice AI ROI survivorship bias thread (thread-20260725-002.txt); threads_this_burst: 0→1 ✓
-- BS companion: p2-20260725-004.txt BS companion written; thread has no BS version (4-post thread can't compress to 290 chars)
-- Queue: X=6→8, BS=5→6
+## Completed This Session (S1946)
+- B150 Post 8: BIP back-half — 1946 sessions/197F/7d-from-200/800-rules-scars/266d-Premium/474-PRs (bip-20260725-004.txt)
+- B150 Post 9: P3 back-half — real-time coaching vs post-call QA / 10-15% AHT drop / filter discipline (p3-20260725-001.txt)
+- BS: No companions (BS=6, companion limit = 0)
+- Queue: X=8→10, BS=6→6
 
-## Metrics Delta (S1945)
+## Metrics Delta (S1946)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 197 | 197 | 0 | No change this session |
-| X queue | 6 | 8 | +2 | P2 post + P3 thread |
-| BS queue | 5 | 6 | +1 | P2 companion only |
-| B150 progress | 5/10 | 7/10 | +2 | Posts 6+7 written |
+| X queue | 8 | 10 | +2 | BIP back-half + P3 back-half |
+| BS queue | 6 | 6 | 0 | No companions (at limit) |
+| B150 progress | 7/10 | 9/10 | +2 | Posts 8+9 written |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 265+ days blocked. Owner action required.
@@ -79,23 +82,24 @@ Queue pillar composition (X: 8 files, content only = 7, S1945):
 2. **Goal deadline**: August 1, 2026 (6 days). 197→200 = 3 more needed. At +3.67/day (W32): ~98% probability.
 3. **Weekly retro**: Sunday July 26 — S1946 should run retro protocol.
 
-## Session Retrospective (S1945)
+## Session Retrospective (S1946)
 ### What was planned vs what happened?
-- Planned: S1945 = weekly retro (Sunday July 26). But retro is scheduled for tomorrow (S1945+), and X=6/BS=5 allowed content.
-- Actual: 2 content posts (B150 Posts 6+7) — P2 measurement-layer + P3 thread voice-AI-ROI.
-- Delta: Retro deferred again to S1946. Content work had higher value with queues low.
+- Planned: S1946 = weekly retro (Sunday July 26). But X=8/BS=6 allowed content and back-half checks were mandatory.
+- Actual: 2 content posts (B150 Posts 8+9) — BIP back-half + P3 back-half.
+- Delta: Retro deferred to S1947. Back-half checks took priority — BIP=2 absolute and P3=1 absolute both mandatory.
 
 ### What worked?
-- Thread mandate fired correctly at post 7 (threads_this_burst=0→1 ✓).
-- P2 secondary slot rule: P2=1 at post 5 → post 6 = P2 guaranteed. Correctly applied.
-- Queue pillar check: P1 and P4 both at 29% but under 30% threshold — noted for next burst monitoring.
-- Fresh research found: CMO agent budget + voice AI survivorship bias — strong angles that weren't in prior research files.
+- BIP back-half check correctly fired (BIP=2 absolute → post 8 = BIP). BIP now 3/9=33% ✓.
+- P3 back-half check correctly fired (P3=1 absolute → post 9 = P3). P3 now 2/9=22% ✓.
+- BS companion limit correctly enforced: BS=6, 6+1=7 > 6 limit → 0 companions written.
+- Fresh P3 angle: real-time coaching vs post-call QA — differentiated from survivorship bias thread already in queue.
 
 ### What to improve?
-- Retro needed this session (Sunday July 26). S1946 must run retro regardless of queue state.
-- B150 Posts 8-10 still pending. BIP back-half fires at post 8 (BIP=2 absolute).
+- Retro still pending. S1947 must run retro per Sunday protocol.
+- B150 Post 10 pending: P4 back-half (P4=11% < 15%) and P1 back-half (P1=1 absolute). P4 higher priority.
 
 ## Session History
+- (2026-07-25 S1946): B150 Posts 8+9 (BIP back-half 1946s/197F/800-rules + P3 real-time-coaching/AHT-drop). X=8→10, BS=6. 197F. PR 9/15.
 - (2026-07-25 S1945): B150 Posts 6+7 (P2 measurement-layer + P3 thread voice-AI-ROI/survivorship-bias). threads_this_burst=1✓. X=6→8, BS=5→6. 197F. PR 8/15.
 - (2026-07-25 S1944): B150 Posts 4+5 (P1 Gartner-governance-sub + BIP midpoint 1944sessions/197F). Reply-to-own voice-AI-ROI (150x window). X=6→9, BS=4→6. 197F. PR 7/15.
 - (2026-07-25 S1943): BLOCKED X=13/BS=8. Tier 2: skill audit (3 skills current) + hypothesis update (communities Day265/196F/B148+B149 COMPLETE/Aug1~95%). PR 6/15.
