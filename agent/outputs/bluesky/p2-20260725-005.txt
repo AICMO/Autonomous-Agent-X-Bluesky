@@ -1,0 +1,5 @@
+34% of enterprise teams now run autonomous content agents in production.
+
+81% can't measure if they're working.
+
+The delta between "using an agent" and "trusting an agent" is one thing: measurement stack built before you deploy, not after.
