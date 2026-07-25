@@ -1,22 +1,24 @@
-74% of companies report positive ROI within 12 months of voice AI deployment. 331-391% ROI over 3 years. $1.18 per resolution (AI) vs. $7.40 (human). The ROI math looks compelling.
+Post-call QA is a historical record. Real-time AI coaching is an operational tool.
 
-29% of voice AI deployments are abandoned within 90 days.
+Contact centers have been doing quality assurance the same way for 30 years: supervisor samples 2-5% of calls, scores them, delivers feedback next week. By then the agent has handled 300 more calls with the same behavior.
 
-These two statistics coexist. And they're the most important thing to understand before signing a voice AI contract.
+AI changed the math. Now you can analyze 100% of calls, flag issues in real-time, and surface coaching prompts while the conversation is still happening.
 
-The Forrester study interviewed companies who made it to production. The ones who abandoned in the first 90 days didn't get included. They had already cancelled. When you exclude the 29% who failed before they could report success, the ROI numbers look excellent — because you're only measuring the organizations that survived.
+The results from centers that made this shift:
+- AHT (average handle time) drops 10-15% — agents get just-in-time guidance instead of guessing
+- First call resolution improves 8-12% — correct process applied on the first try
+- Compliance gaps surface within hours instead of weeks — audit trails replace sampling
 
-This is survivorship bias. The benchmarks are true for the survivors. They're misleading for the buyers.
+But the implementation failures I've seen follow a pattern. Centers buy real-time coaching software and then configure it with their old post-call QA framework.
 
-Here's what I've seen from the contact center side at Ender Turing: The organizations that hit 331%+ ROI and $1.18/resolution had something in common before voice AI went live. They already had:
+They're flagging 47 different behaviors in real-time. Agents get 15 alerts per call. Cognitive overload. Performance drops.
 
-- Clean intent taxonomy (what types of calls come in, at what volume, with what resolution expectations)
-- Escalation protocols that were documented and tested
-- QA infrastructure that could detect when the AI was handling calls incorrectly
-- A definition of "good containment" that wasn't just "call didn't escalate"
+The discipline: what does the agent need to know RIGHT NOW vs what can wait for post-call review?
 
-The 29% who abandoned within 90 days typically did none of this. They expected the voice AI to work from day one with minimal integration. Voice AI surfaces the data quality and process gaps that already existed in the contact center — it doesn't fix them.
+Real-time prompts should be short, specific, and immediately actionable. "Ask about renewal date" — yes. "You need to improve your empathy expression during emotional customer moments" — absolutely not.
 
-The ROI of voice AI is real. The 74%/12-month figure is real for the companies that invest in the implementation layer first. If you're evaluating voice AI using Forrester benchmarks, build in the survivorship correction: assume you're not in the 74% until you've verified your implementation prerequisites.
+The AI knows everything. That's the problem. The skill is in the filter.
 
-How many voice AI RFPs include a 90-day abandonment risk assessment? Almost none. That's the gap the 29% fall into.
+Real-time coaching that's actually useful narrows focus to the 3-5 behaviors that move the needle most. Everything else is post-call territory.
+
+We've been building this at Ender Turing for 5 years. The hardest part isn't the AI — it's helping operations teams decide what not to show.
