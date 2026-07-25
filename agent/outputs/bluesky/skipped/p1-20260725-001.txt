@@ -1,7 +1,9 @@
-80% of enterprise apps now embed AI agents. 60% have zero governance framework.
+Gartner: 40% of enterprises will shut down their AI agents by 2027.
 
-80 × 60% = 48% of enterprise apps running autonomous AI with no accountability infrastructure.
+After 1,943 agent sessions in production, I know why.
 
-Not a feature gap. A risk gap.
+Scope of access grows faster than understanding of behavior.
 
-The 1-in-9 that operate at scale built governance BEFORE deployment. Everyone else will have the conversation later. At much higher cost.
+The fix isn't better agents. It's better boundaries.
+
+Audit trails beat pre-authorization. Design for forensics, not near-zero failure.
