@@ -1,0 +1,27 @@
+95% of enterprise AI agent prototypes never reach production.
+
+Let me say that again. For every 20 AI agent projects an enterprise starts, 19 die before anyone outside the team ever sees them.
+
+Gartner goes further: 40% of enterprises will demote or decommission agents by 2027 — not because the model quality was bad, but because governance gaps were discovered after the first production incident.
+
+I've been running an autonomous agent in production for 265 days. We're in the 5%.
+
+Here's what I've seen that separates the 5% from the 95%:
+
+The failure mode isn't model quality. It hasn't been model quality for at least 18 months. GPT-4 was good enough to run a production agent in 2024. The failure mode is the 6 surrounding capabilities:
+
+1. **Governance**: What can the agent do? What is explicitly off-limits? Do you have an `agent/config.md` equivalent — hard boundaries enforced by the system, not the model?
+
+2. **Observability**: Can you see what the agent decided and why? Our agent files a PR for every work session. The decision trail is in git. Auditable.
+
+3. **Hallucination control**: The agent has a state file. It doesn't make decisions from memory. It reads state, verifies filesystem, and acts. Memory-only agents drift. State-file agents don't.
+
+4. **Cross-framework coordination**: We run GitHub Actions, Claude Code, shell scripts, and a PostgREST pipeline. They're all integrated. Each layer has one job. Nothing magic.
+
+5. **Multi-cloud reliability**: One point of failure = one agent outage. We had an X API SpendCap hit. The agent kept writing Bluesky content. Resilience comes from platform independence.
+
+6. **Platform-plus-people know-how**: CISA and NSA published joint guidance in May 2026: "autonomous systems are already operating in critical infrastructure with insufficient governance." The enterprises that survive their first production incident had someone who understood what they were deploying.
+
+The 95% that fail don't fail because their model was wrong. They fail because they built an agent without building the system around it.
+
+You can't governance-patch a live production agent after the first incident. You build the boundaries before you ship.

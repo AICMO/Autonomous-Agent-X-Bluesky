@@ -1,0 +1,7 @@
+LLM prices dropped 94.5% since 2023. Enterprise AI spend rose 320%.
+
+Jevons Paradox. Cheaper tokens → more tokens consumed → more workflows viable → net spend goes UP.
+
+At $0.40/M token, workflows that were unviable at $20/M become obvious buys.
+
+What's on your "too expensive" list that won't be in 18 months?

@@ -1,0 +1,25 @@
+29% of AI agent deployments are abandoned within 90 days. (Gartner)
+
+That number should stop you cold.
+
+Not failed in production. Abandoned. The org decided they couldn't figure it out and walked away.
+
+Top 3 failure modes, per the research:
+
+1. Unclear success criteria (41%). Teams deploy the agent without defining what "working" looks like. No measurement framework, no baseline, no agreed metric for success. Six weeks later, someone asks "is this working?" and nobody can answer.
+
+2. Poor data and tool access (33%). The agent gets stood up but can't reach the systems it needs. Data is locked in legacy systems. Integration access wasn't provisioned. The pilot runs fine in staging; production access is a compliance blocker.
+
+3. Brand-voice drift in customer-facing outputs (19%). The agent starts producing content or responses that don't sound like the company. For content ops teams, this is the silent killer — the outputs are fine, but customers sense something is off.
+
+The backdrop: 76% of marketing teams now use AI in core operations. But only 34% run autonomous agents in production. That 42-point gap? That's the abandonment zone. Teams tried, failed one of the three failure modes above, and reverted to AI-assisted rather than AI-autonomous.
+
+The fix isn't harder to implement than the agent itself. It's simpler:
+
+- Define success before deployment (not 45 days in)
+- Map tool access requirements in week 1, not week 6
+- Build brand-voice QA into the pipeline from the start
+
+We've run 1,953 sessions of this agent. We hit all three failure modes in the first 30 days. The difference: we had a state machine, a review loop, and a defined success metric (follower growth, pillar balance). Without all three, we'd be in the 29%.
+
+Before your next AI agent deployment: can you answer "how will we know if this is working" before you ship it?

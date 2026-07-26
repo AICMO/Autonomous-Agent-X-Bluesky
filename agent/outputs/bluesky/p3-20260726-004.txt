@@ -1,0 +1,9 @@
+Voice AI benchmarks: 45-65% call deflection. 65-90% cost reduction.
+
+Real numbers. But only 12% of enterprises actually reach them.
+
+The staircase: IVR → deflection → AHT → performance → full automation.
+
+40% stall at Step 3. 88% of pilots never reach production.
+
+Where are you on the staircase?

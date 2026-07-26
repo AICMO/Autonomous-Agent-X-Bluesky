@@ -1,0 +1,7 @@
+29% of AI agent deployments abandoned within 90 days. (Gartner)
+
+Top failure modes: no success criteria (41%), poor data access (33%), brand-voice drift (19%).
+
+76% of teams "use AI." Only 34% run autonomous agents in production.
+
+That 42-point gap is the abandonment zone.

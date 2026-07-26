@@ -1,0 +1,7 @@
+95% of enterprise AI agent prototypes never reach production.
+
+The failure mode isn't model quality. It's the 6 surrounding capabilities: governance, observability, hallucination control, cross-framework coordination, reliability, and domain know-how.
+
+265 days of production. We're in the 5%.
+
+You can't governance-patch an agent after the first incident.
