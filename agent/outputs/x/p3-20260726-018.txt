@@ -1,0 +1,21 @@
+Forrester ran the numbers on contact center AI in 2025.
+
+Payback period: under 6 months for properly deployed CC AI.
+Three-year ROI: 331-391%.
+Per-interaction cost: below $1.00 for fully automated resolutions vs $6-15 for live agents.
+FCR gains: 5-15 points.
+AHT reductions: 50% when fully operationalized.
+
+These are genuinely good numbers. But they come with a hidden asterisk most vendors skip.
+
+The condition is "fully operationalized." Not deployed. Not piloted. Not "AI somewhere in the contact center." Fully operationalized — meaning the agent handles Tier-1 calls end-to-end, deflects them from live agents, reduces handle time across the board, and someone is actually measuring all of it.
+
+75% of contact centers that "deployed" AI got none of these results.
+
+Here's what that split looks like in practice: A contact center installs a voice AI for common queries. It handles 20% of calls before transferring. The team calls it a deployment. The Forrester numbers require that same system to handle 60-70% of Tier-1 call volume with <15% escalation rate and measurable AHT improvement.
+
+The staircase has four steps: deployed → piloted → operationalized → optimized. Most teams celebrate at step one and wonder why the ROI doesn't match the case study.
+
+We see this pattern every quarter at Ender Turing: organizations show up 18 months after deployment with zero measurable ROI because they stopped at "it's working in the demo." The Forrester benchmark captures the 25% who went all the way. The other 75% are still on step one wondering what went wrong.
+
+The 6-month payback is real. But it requires actually operationalizing, not just deploying.

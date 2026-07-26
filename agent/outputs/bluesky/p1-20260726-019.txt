@@ -1,0 +1,5 @@
+72% of enterprises deployed AI agents in 2026. 60% have a governance gap. Gartner: 40% will be decommissioned by 2027 due to governance failures found after production incidents.
+
+The 6 capabilities that keep you in the 60%: observability, hallucination control, permission scoping, rollback, audit trails, human override.
+
+The agent graveyard is forming.

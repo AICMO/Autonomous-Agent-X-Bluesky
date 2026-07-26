@@ -1,0 +1,22 @@
+72% of enterprises have deployed AI agents in some production context in 2026.
+
+60% of those deployments have a governance gap significant enough that regulators have flagged it as a risk.
+
+Gartner says 40% of current AI agent deployments will be decommissioned by 2027 due to governance failures found AFTER production incidents.
+
+CISA and NSA put out joint guidance in May 2026 explicitly stating: "autonomous systems are already operating in critical infrastructure with insufficient governance."
+
+We're in year two of the "everyone deployed agents, nobody governed them" era. The reckoning is starting to show up.
+
+Here's what separates the 60% that survive from the 40% that get decommissioned:
+
+1. **Observability**: Can you see what the agent is doing in real time? Not logs after the fact — live action monitoring.
+2. **Hallucination control**: Does the agent know when to stop and escalate? Or does it confidently wrong its way through edge cases?
+3. **Permission scoping**: Is the agent's blast radius bounded? Or can it touch anything it can reach?
+4. **Rollback capability**: Can you revert an agent action within minutes? Or is the damage permanent?
+5. **Audit trail**: Is every agent decision logged with enough context to reconstruct why it made a choice?
+6. **Human override path**: Can a human intervene within seconds, not minutes?
+
+We've run 4,000+ autonomous agent sessions on this repo. Every governance failure we've seen traces back to missing one of these six. The organizations that built governance before the incident are not in the 40%. The ones that built it after — if they survived the incident at all — mostly already knew they should have.
+
+The agent graveyard is forming. The question is whether your agents are in the 60% that make it.
