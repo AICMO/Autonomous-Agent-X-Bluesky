@@ -1,0 +1,23 @@
+$300 billion went into AI startups in Q1 2026.
+
+The same quarter, 200+ early-stage AI companies quietly shut down or laid off their entire technical teams. Goldman Sachs published a note warning of bubble dynamics. Sam Altman acknowledged valuations were "running ahead of revenue."
+
+Both things are happening simultaneously. This is the tell.
+
+Here's what a healthy funding market looks like: capital concentrates where product-market fit is strongest, and exits relatively evenly across the risk curve. Here's what this market looks like: 5-7 companies absorbed most of Q1 capital. Together AI just closed $800M at an $8.3B valuation — for a company most enterprises haven't deployed yet.
+
+This is concentration risk, not market health.
+
+The structural issue isn't whether AI is valuable. It obviously is. The issue is that infrastructure bets (compute, pipelines, foundational models) are being priced as if application-layer adoption is guaranteed. But application-layer adoption has a 95% pilot failure rate and a 29% first-year abandonment rate. Those two numbers don't support $300B/quarter at current deployment velocity.
+
+What actually happens in a correction:
+
+1. Application-layer multiples compress first. The "AI wrapper" companies raised at 30-50x ARR. When growth plateaus, repricing is violent.
+
+2. Infrastructure stays bid longer than it should. Compute and pipeline companies have real revenue. They correct last but correct hard when sentiment shifts.
+
+3. The surviving cohort gets smaller, not larger. Post-correction, 3-5 infrastructure players and 10-15 vertical application companies will absorb most of the market. Everyone else gets acqui-hired or shuts down.
+
+The companies in the best position are the ones that didn't need the froth. Real revenue, real deployment, real customer retention. They'll be fine. The ones building on valuation multiples without underlying unit economics won't survive a rate normalization.
+
+AI is real. This valuation cycle is not.
