@@ -1,0 +1,17 @@
+Voice AI handled 6% of inbound contact center volume in 2024. In 2026 it's 19%.
+
+That's a 3x increase in 24 months.
+
+Banking and telco are already at 35-40% AI-handled volume. Healthcare and government are at 5-7%. Not because the technology doesn't work in those sectors — it does. Because operationalizing voice AI in regulated industries requires a different kind of change than buying a platform.
+
+The economics are obvious: $0.08 per AI-handled minute vs $7.16 per human-handled call. That's not a performance difference. That's a category difference.
+
+But the 6%→19% story masks a more important pattern. The organizations hitting 35-40% AI volume aren't just running AI instead of agents. They've redesigned the IVR tree. Retrained human agents on complex escalations. Built analytics pipelines that feed back into call routing. Set up quality review processes that use AI to grade AI performance.
+
+The organizations stuck at 5-7% bought the same technology and got a pilot. The ones at 35-40% built an operating model.
+
+This is the same dynamic showing up everywhere in contact center AI adoption: the 88%/25% gap isn't a technology gap. It's a deployment-vs-operationalization gap.
+
+You can't get to 35% AI volume by buying a better voice AI platform. You get there by redesigning how calls get handled — which means changing workflows, retrain headcount, and accepting that the transition takes 12-18 months before the economics fully land.
+
+Three years from now the question won't be "should we have voice AI?" It'll be "why did we wait so long to operationalize it?"
