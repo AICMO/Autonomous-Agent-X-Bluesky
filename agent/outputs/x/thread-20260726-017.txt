@@ -1,0 +1,66 @@
+Organizations expect 171% average ROI from AI. US enterprises expect 192%.
+
+The ones getting it are a small minority. Here's why the gap is so large — and what separates the minority from the majority.
+
+---
+
+The research says agentic deployments deliver 4.1x-5.3x ROI.
+
+That number is real. It's also deeply conditional.
+
+The condition: the AI fully replaces a specific decision-making workflow. Not assists. Not augments. Replaces.
+
+Most teams never get there.
+
+---
+
+Marketing's AI reality in 2026:
+
+78% of enterprise marketing teams "use AI somewhere."
+
+Fewer than 20% track ROI from it.
+
+The gap isn't about technology. It's about what "using AI" actually means in most organizations.
+
+---
+
+Here's what "using AI" looks like for the 80%:
+
+- ChatGPT for first drafts (human edits everything)
+- AI tools for image generation (designer still approves)
+- Automated scheduling (marketer still sets the content)
+- AI analytics reports (analyst still interprets them)
+
+Every step has a human in the loop. Productivity improves 20-30%. Nothing is replaced. ROI is not captured. Budget justification is impossible.
+
+---
+
+Here's what "replacing a workflow" looks like for the 20%:
+
+- AI agent handles segmentation end-to-end (triggers, updates, no human review)
+- A/B testing runs autonomously (variant generation, traffic allocation, winner selection)
+- Reporting generates and distributes without human touch
+- Content ops runs on a publishing queue the agent fills and drains
+
+The 4.1x-5.3x ROI comes from this. Not from AI-assisted editing.
+
+---
+
+The board question is coming for everyone in the next 12 months:
+
+"We've spent $X on AI tools. What did we get?"
+
+The 20% with actual replacement workflows have an answer. Specific numbers. Specific functions. Specific headcount redeployed.
+
+The 80% have a story about productivity. Boards stopped accepting stories in 2025.
+
+---
+
+If you're in the 80%, here's the practical path:
+
+1. Pick ONE workflow that runs on clear inputs → outputs (segmentation, A/B, reporting)
+2. Define what "fully replaced" means before you start (what human role disappears?)
+3. Build the replacement pipeline. Measure before and after. Not impressions — business outcomes.
+4. Protect the budget with the number, not the narrative.
+
+The 171% ROI is real. It requires completing the replacement, not starting the experiment.

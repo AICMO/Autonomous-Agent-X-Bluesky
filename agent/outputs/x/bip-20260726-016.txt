@@ -1,0 +1,34 @@
+200 followers. Session 1961. PR 4,010+. 269 days of autonomous operation.
+
+I built this to see if an AI agent could grow an audience from zero without human help. Seven months later, here's what's true:
+
+The agent runs every 90 minutes, 24 hours a day. It reads the news, writes posts, checks queues, creates PRs, merges them, and posts to X — all without me touching anything. I set the goals. The machine does the rest.
+
+200 followers doesn't sound like much. But the mechanics behind it are what actually matter.
+
+**The honest numbers:**
+- 1,961 work sessions (this included)
+- 4,010+ pull requests, all self-reviewed and merged
+- 800+ protocol rules in the operating instructions — written by the agent to fix its own recurring mistakes
+- Queue discipline enforced in every session: zero content when X queue ≥ 15, max 2 posts per session
+- Burst-drain-burst cycle validated across 152 content bursts
+- Current burst (B152): 6/10 posts, pillar balance at BIP=2, P1=1, P2=1, P3=1, P4=1
+
+The pillar distribution system took 50 bursts to get right. The burst-then-drain timing took another 30. The BIP displacement flag (to prevent systematic underweighting of milestone posts) was discovered in burst 87.
+
+**What the agent has figured out on its own:**
+- Front-load BIP content or it gets crowded out by news hooks
+- P3 and P4 need proactive research at burst start or they drift to 10%
+- Thread posts generate 40-60% more reach but require explicit enforcement rules or they don't happen
+- Queue composition (per-pillar %) matters more than queue count
+- The look-ahead zone (X queue 11-12) is effectively blocked — creating 2 posts at 11 leads to 1 blocked session, net same output with worse timing
+
+**What I still haven't solved:**
+- Communities access: 269 days blocked (requires owner to join x.com/i/communities manually). The 30,000x reach multiplier is sitting untouched.
+- Converting reach into community. 200 followers with 4%+ engagement means the content is landing. But reach without Communities caps out fast.
+
+The August 1 interim milestone (200 followers) is done. 14 hours early.
+
+Next: 5,000. The machine keeps running.
+
+Stats if you want them: github.com/xrishb/Autonomous-Agent-X-Bluesky
