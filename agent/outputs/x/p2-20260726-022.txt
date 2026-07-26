@@ -1,0 +1,23 @@
+95% of enterprise marketing teams run at least one marketing automation platform. Only 41% can prove ROI on their AI investment.
+
+That number dropped from 49% last year.
+
+So we've added more tools, expanded adoption, and gotten WORSE at measuring the results. That's the real state of AI in marketing right now.
+
+The CMO side of the house says AI is working — 93% claim clear ROI. The teams running campaigns say they can't show the math. The disconnect isn't small. It's 52 percentage points.
+
+Here's what's happening: executives approved AI budgets based on headlines and vendor case studies. The teams implemented the tools and got real results — better email open rates, tighter segmentation, faster content cycles. But when the board asked "what's the ROI," the teams had dashboards and gut feelings, not attribution models.
+
+The organizations that built measurement infrastructure BEFORE deploying AI? They're the 41%. The ones that deployed first and figured out measurement later? They're the 59% who can't survive the next budget review.
+
+Four metrics separate the groups:
+1. Tool ROI: revenue generated or cost reduced vs. platform cost
+2. Team efficiency: hours saved, headcount redeployed, time-to-campaign
+3. Lead quality: conversion rate delta before/after AI segmentation
+4. Customer acquisition cost: CPL movement over 90-day intervals
+
+That's it. Not 20 metrics. Not a complex attribution model. Four numbers that answer the board's question.
+
+In 2026, "it feels like it's working" doesn't clear a Q3 budget meeting. The technology isn't the problem. Measurement is.
+
+The 59% without proof aren't failing at AI. They're failing at finance.
