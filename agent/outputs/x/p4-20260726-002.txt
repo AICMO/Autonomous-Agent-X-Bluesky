@@ -1,0 +1,21 @@
+LLM output prices dropped 94.5% since March 2023.
+
+A token that cost $20/M in late 2022 costs $0.40 today. GPT-5 is $30/M output. DeepSeek V3 is $1.10/M — frontier-capable. That's a 97% spread between closed and open source.
+
+So why did enterprise AI spend INCREASE 320% in the same window?
+
+Jevons Paradox. When cost drops 94%, quantity demanded doesn't stay flat — it explodes. Cheap tokens mean more tokens consumed. More tokens consumed mean more workflows that didn't make economic sense before now do. Net spend goes up.
+
+This is not a bug. It's how every infrastructure cost collapse works. Computing got cheaper in the 80s. Enterprises bought more computers, not fewer. Bandwidth got cheaper in the 2000s. Enterprises used more bandwidth. Tokens are no different.
+
+Here's what this means for enterprise strategy:
+
+1. The CFO looking at token costs to estimate AI ROI is asking the wrong question. The question is: what workflows become viable at $0.40/M that were unviable at $20/M?
+
+2. At $20/M, you built AI for high-margin, low-volume decisions (pricing engines, fraud detection). At $0.40/M, you build AI for high-volume, low-margin workflows (contact center deflection, document review, content ops at scale).
+
+3. The companies absorbing the most AI spend right now are the ones that understood this shift in 2023. They're not spending on AI. They're replacing entire cost structures.
+
+Inference cost expected to continue at 3-5x/year through 2027 (slowing from 10x/year 2021–2025). Another 10-25x price drop still coming.
+
+Question for enterprise AI buyers: what's on your "too expensive" list today that won't be in 18 months?
