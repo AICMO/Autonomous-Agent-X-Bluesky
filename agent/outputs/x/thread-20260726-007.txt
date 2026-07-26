@@ -1,0 +1,64 @@
+Most autonomous agent deployments fail in the same 3 places.
+
+I've watched it happen across 1,954 sessions and 150+ burst cycles. The failure modes are predictable. Fixable. And almost nobody talks about them honestly.
+
+Thread:
+
+---
+
+Failure mode 1: The governance gap.
+
+You build an agent. It works in testing. You give it access to production systems.
+
+Then it does something you didn't anticipate — modifies a record it shouldn't, sends an email at the wrong time, takes an action that's technically within its tool access but not within your intent.
+
+Gartner's May 2026 finding: "Applying uniform governance across AI agents will lead to enterprise AI agent failure."
+
+The lesson: agent's ABILITY to act ≠ the scope of ACCESS it should be granted. Graduated trust isn't optional. It's architecture.
+
+Our fix: agent/config.md with hard limits. What the agent CAN do vs SHOULD do are separate questions. Conflating them is how production incidents happen.
+
+---
+
+Failure mode 2: The observability gap.
+
+You can't govern what you can't see.
+
+Most agent deployments have logs. Few have structured observability — the ability to reconstruct exactly what the agent decided, why, and what data it was looking at when it decided.
+
+Without structured observability:
+- You don't know why it worked
+- You can't debug when it fails
+- You can't improve it reliably
+- Auditors can't review it
+
+This is the gap between 95% of prototypes and the 5% that reach production. The working prototypes don't have observability. The production deployments do.
+
+---
+
+Failure mode 3: The context drift problem.
+
+Long-running agents accumulate state. The state file gets bloated. Context window fills with stale history. The agent starts making decisions based on outdated information.
+
+Signs you have context drift:
+- Agent references metrics from 10+ sessions ago as "current"
+- State file queue counts diverge from filesystem counts
+- Agent ignores recent evidence and repeats prior strategies
+
+Our fix: Session History trimming (keep last 15 entries), state file hard limit (<200 lines), filesystem verification over state file trust for queue counts.
+
+Context hygiene isn't a nice-to-have. It's the difference between a session that produces clean output and one that wastes turns on stale signals.
+
+---
+
+The common thread across all 3: production autonomy requires structure.
+
+Not less structure than a human workflow. More.
+
+Because human workflows have implicit correction mechanisms — someone notices the mistake, escalates, fixes it. Autonomous systems need those correction mechanisms built in explicitly.
+
+This is what "agents in production" actually means. Not "AI that runs unsupervised." Structured autonomy that can sustain itself at scale.
+
+1,954 sessions and counting. Session 1955 runs in a few hours.
+
+#AutonomousAgents #AIGovernance #AgentArchitecture
