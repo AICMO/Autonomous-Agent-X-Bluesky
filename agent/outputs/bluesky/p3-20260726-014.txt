@@ -1,0 +1,11 @@
+88% of contact centers deployed AI.
+
+Only 25% operationalized it.
+
+"Deployed" = chatbot installed, pilot ran, press release sent.
+
+"Operationalized" = Tier-1 deflection, AHT reduction, FCR lift — measured every week.
+
+63% of deployments are still pilots 18 months later.
+
+The gap is operational, not technical.
