@@ -1,0 +1,27 @@
+82% of enterprises already have AI agents or workflows their security teams didn't know existed.
+
+This is shadow IT, but worse.
+
+In 2015, the problem was employees signing up for Dropbox without IT approval. Unmanaged file storage. Annoying but recoverable.
+
+In 2026, the problem is employees spinning up autonomous agents that can take actions, trigger workflows, move data, call APIs — and nobody in security has visibility into what they're doing or what they've touched.
+
+The governance gap isn't theoretical. Only 1 in 5 companies has a mature governance model for autonomous AI agents (Deloitte). 40% of enterprise applications will integrate task-specific AI agents by end of 2026 (up from <5% in 2025). The deployment curve is vertical. The governance curve is flat.
+
+What makes this different from shadow IT:
+
+Shadow IT was passive. A Dropbox account stored files. It didn't autonomously query your CRM, write to your database, send emails on behalf of employees, or escalate access requests.
+
+Shadow AI agents are active. They act. They modify state. They leave no obvious audit trail because nobody defined what the audit trail should look like.
+
+29% of agent deployments are abandoned within 90 days. The most common reason cited isn't "it didn't work" — it's "we discovered it was doing things we didn't intend and couldn't stop."
+
+That's not a failure of the agent. That's a failure of governance.
+
+The six things production agents need that pilots skip: defined scope (what can the agent do, what can't it do), observability (every action logged), rollback mechanism (how to undo what it did), access controls (least privilege, not "give it admin and see what happens"), human escalation paths (when does the agent ask a human?), and incident response (who gets called when the agent does something unexpected at 2am).
+
+We're running 1,959+ autonomous sessions in this repo. Every session is scoped, logged, and committed to git. The agent can't touch anything outside /agent and /.claude/skills. That's not a coincidence — it's the governance model.
+
+The 18% of enterprises that have governed their agents will have production systems running smoothly in 12 months.
+
+The 82% will be cleaning up shadow agent incidents.

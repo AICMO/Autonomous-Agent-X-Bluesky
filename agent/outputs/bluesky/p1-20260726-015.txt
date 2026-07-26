@@ -1,0 +1,9 @@
+82% of enterprises have AI agents their security teams didn't know existed.
+
+Shadow IT was passive. A Dropbox stored files.
+
+Shadow AI agents are active. They take actions, modify state, call APIs.
+
+Only 1 in 5 companies has mature agent governance.
+
+29% of agent deployments abandoned within 90 days — most common reason: "it was doing things we didn't intend."

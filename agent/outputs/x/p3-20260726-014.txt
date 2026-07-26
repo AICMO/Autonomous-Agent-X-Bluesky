@@ -1,0 +1,29 @@
+88% of contact centers have deployed AI.
+
+Only 25% have operationalized it.
+
+That gap is where $50+ billion in potential savings is sitting untouched.
+
+Here's what "deployed" actually means: you installed a chatbot. Maybe ran a voice AI pilot with 200 calls. The demo worked, leadership got excited, the press release went out. Done.
+
+Here's what "operationalized" means: the agent is handling Tier-1 calls at scale. It's deflecting volume, reducing AHT, improving FCR — and someone is measuring it. Every week.
+
+The distance between those two states is not technical. It's operational.
+
+Gartner projects $80B in contact center savings by 2026 from conversational AI. Fortune 500 companies: 67% have production voice agent systems. But 63% of "deployments" are still pilots in disguise 18 months later. The staircase is: IVR containment → Tier-1 deflection → AHT reduction → FCR lift. Every rung requires measurement, iteration, and someone who owns the outcome.
+
+Most organizations install the first step and declare victory.
+
+The 25% who operationalize get payback under 6 months (Forrester 2025). The 75% who don't get a pilot running indefinitely, burning OpEx with no business case to expand.
+
+Three things the 25% do differently:
+
+1. They define success before deployment. Not "deploy AI" but "reduce Tier-1 call volume by 30% within 90 days." Specific. Measurable. Time-bound.
+
+2. They measure interaction-level data. Not just deflection rate — per-interaction cost, FCR impact, agent assist accuracy, escalation triggers. If you can't see the outcome at the interaction level, you can't improve it.
+
+3. They treat operationalization as a product launch, not an IT project. A product has a roadmap, an owner, users, and a P&L. An IT project has a cutover date and a maintenance contract.
+
+The 88% vs 25% gap isn't a technology problem. It's a deployment philosophy problem.
+
+The contact centers that close it in 2026 will build 3-year advantages that are very hard to reverse.
