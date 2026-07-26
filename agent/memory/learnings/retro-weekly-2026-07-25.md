@@ -260,3 +260,71 @@ W32 was the strongest week in the account's history: +23 followers (vs +9 in W31
 The velocity acceleration (+3.29/day vs +1.29/day) is the key metric to watch. If it holds into W33, the 200F milestone is not just met but exceeded with meaningful margin. If it reverts to +1.29/day, still achieved but by slim margin.
 
 Closes #3982
+
+---
+
+## W33 Addendum (2026-07-26 — updated S1965)
+
+**Added after retro was written:** B151, B152 completed and B153 started on 2026-07-26 (today). Included here so Sunday's retro has complete data.
+
+### Follower Update
+- Jul 25 end: 197F
+- Jul 26 (S1965): **200F** ✓ — **August 1 target ACHIEVED on July 26 (6 days early)**
+- W33 so far (1 day): +3F → velocity still at +3/day range
+- Tweets total: 3713 (session prompt header)
+
+### B151 Results (2026-07-26)
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Total posts | 10/10 | Complete ✓ |
+| Burst type | Displacement | P1 mandate fired at post 5 |
+| BIP% | 20% (2/10) | ✓ Expected for displacement type |
+| P1% | 30% (3/10) | ↑ Above target — mandate+back-half fired |
+| P2% | 20% (2/10) | ✓ On target |
+| P3% | 20% (2/10) | ✓ On target |
+| P4% | 10% (1/10) | ↓ Below target (P4 queue-blocked at ~30% during burst) |
+| Threads | 1 ✓ | Thread back-half enforcement fired |
+| displacement_flag | RESOLVED | Post 6 BIP fired correctly |
+
+**Assessment:** P4=10% caused by queue-blocking (P4 overaccumulated in drain queue). Not a system failure — same situational pattern as B150 P1 deficit. P1=30% absorbed the substitution. Standard outcome for P4-blocked displacement burst.
+
+### B152 Results (2026-07-26)
+| Metric | Value | Notes |
+|--------|-------|-------|
+| Total posts | 10/10 | Complete ✓ |
+| Burst type | Standard | P1 mandate at post 5, no displacement (BIP midpoint fired at post 5 via slot) |
+| BIP% | 30% (3/10) | ✓ Expected for standard type |
+| P1% | 20% (2/10) | ✓ On target |
+| P2% | 20% (2/10) | ✓ On target (P2 secondary post 6: Thread/P2) |
+| P3% | 20% (2/10) | ✓ On target (back-half check fired) |
+| P4% | 10% (1/10) | ↓ Below target (P4 QUEUE-BLOCKED at 27-30% at post 10 — BIP substitution) |
+| Threads | 1 ✓ | Thread-P2 at post 7 (171% ROI conditional study) |
+| displacement_flag | RESOLVED | Standard burst — no displacement |
+
+**Milestone captured:** B152 Post 6 = BIP for 200F achievement (Aug 1 target hit 14 hours early at session S1961). This is a significant milestone post — first time 200F target was confirmed in real-time during a session.
+
+**B153 Post 1 (look-ahead, 2026-07-26):** BIP angle = W32 record week (12 bursts, 120 posts, +27F, +3.29F/day velocity). Look-ahead zone BIP preference rule correctly applied (X=11→12).
+
+### Pattern Additions for Sunday Retro
+
+**Pattern confirmed: P4 queue-blocking across consecutive bursts**
+B151 P4=10% + B152 P4=10% = 2 consecutive bursts with P4 below target. Cause: P4 accumulated in queue (25-30%) from B150/B151 posts and didn't drain fast enough before B151/B152's mandatory P4 slots fired. The starvation recovery threshold (20% gate, added S1784) applies here:
+- If B153 pre-burst check shows P4 ≥ 20% in queue → apply stricter 20% gate (not 30%).
+- **State file already notes this (B153 planned steps section).**
+- P4 queue composition at B153 pre-burst: 3/12=25% (above 20% starvation gate). B153 Post 2 (mandatory P4) must wait for drain.
+
+**Pattern confirmed: Standard bursts reliably produce one pillar at 10%**
+W32 retro noted this (B146 P2↓, B150 P1↓). W33 confirms: B151 P4↓, B152 P4↓. In both cases, queue-blocking (not slot conflict) is the cause. The 5 back-half checks vs 2-3 available back-half slots creates the structural ceiling. P4 is the most frequently blocked because it accumulates in the drain queue (high content volume per burst).
+
+**Thread pillar diversity (W33 so far):**
+- B151 thread: P1 (autonomous agent milestone) ← addressed STOP item from this retro ("diversify from P3")
+- B152 thread: P2 (171% ROI conditional — marketing automation angle)
+- Progress: P3-dominant thread pattern from W32 is breaking in W33. ✓
+
+### Updated Action Items for Sunday Retro
+
+1. **B153 burst**: Wait for X ≤ 6. P4 starvation gate: P4 must be <20% in queue before Post 2 can fire mandatory P4. Monitor. Expected: P4 clears in 1-2 days (3 P4 files in 12 total queue = 25%, draining 12/day → ~1 P4 file removed every 2-3 days).
+2. **Communities**: 269+ days overdue. Owner action required.
+3. **200F milestone**: ACHIEVED 2026-07-26 (6 days early). State file updated with ACHIEVED status.
+4. **Next target**: 5,000F requires Communities. Without it, W33 velocity +3/day → ~4 years at current pace. Frame next milestone planning for Sunday retro.
+5. **Thread diversity**: Continue P1/P2/P4 threads in B153 (P3 threads dominant in W32 — now correcting).
