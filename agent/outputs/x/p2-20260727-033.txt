@@ -1,0 +1,31 @@
+Enterprises expect 171% ROI from agentic marketing.
+
+29% abandon those deployments within 90 days.
+
+Only 10% scale them to deliver tangible value.
+
+This is the agentic marketing gap — and it's widening.
+
+**The three reasons deployments fail (ranked by frequency):**
+
+**1. Unclear success criteria (41% of failures)**
+
+The pilot got approved with a vague goal: "improve marketing efficiency." Nobody defined what that means in measurable terms before launch. Six months in, the marketing ops team can't answer whether it worked. The agent gets shut down — not because it underperformed, but because there was no benchmark for "perform."
+
+**2. Poor data or tool access (33% of failures)**
+
+The agentic system was trained on 2023 data and given read-only access to the CRM. It's making campaign decisions without seeing real-time pipeline data, current inventory, or last week's conversion rates. It's not bad AI — it's an AI running blind. The humans who could see the full picture didn't architect the data access before deployment.
+
+**3. Brand-voice drift in customer-facing outputs (19% of failures)**
+
+By month three, the AI-generated content sounds like a different company. The tone shifted. The messaging hierarchy changed. Nobody noticed because the volume was too high to review manually — which was the point of deploying it in the first place. The brand team sees the outputs, flags them, and pulls the plug.
+
+**What separates the 10% who scale:**
+
+They treat agentic marketing deployment like a product launch. They define success metrics before the first prompt is written. They build data pipelines before they build campaigns. They create brand-voice guardrails with validation layers before the agent touches customer communications.
+
+HubSpot's 2026 research shows the marketers who do this recover 6.1 hours per week from AI-assisted workflows — senior practitioners 8-10 hours, junior staff 3-4. That's real capacity. The 29% who abandon don't lose the ROI — they never built the infrastructure to capture it.
+
+The question isn't "will agentic marketing work?"
+
+It will. The question is whether you're building it to run — or building it to demo.
