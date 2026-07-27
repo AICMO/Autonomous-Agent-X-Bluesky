@@ -1,0 +1,19 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent performance: $20/million tokens in late 2022. $0.40/million tokens now. That's not incremental improvement — that's a structural shift in what's economically possible.
+
+But here's what most people miss about these numbers:
+
+The gap between API and self-hosted inference is widening in favor of self-hosting. Self-hosted LLaMA 3.1 70B on a dual RTX 5090 setup runs at $2.50/million tokens. GPT-4o API: $4.38/million tokens. For high-volume workloads, the economics no longer favor APIs — they favor ownership.
+
+Three years ago, self-hosting was a DevOps nightmare reserved for well-staffed ML teams. Today, there are flat-rate providers with access to 25,000+ models and inference engines efficient enough to make dedicated hardware competitive at mid-scale.
+
+What does this mean for enterprise AI strategy?
+
+The companies that locked into API-only dependencies in 2023-2024 are now paying a premium they can't exit cheaply. Switching costs: data pipeline refactoring, fine-tune migration, latency re-testing. The API providers understood this — the initial pricing kept workloads on their rails long enough to create switching lock-in.
+
+Meanwhile, agentic AI workflows are making this worse: 10-20 LLM calls per user task, RAG architectures inflating context windows, multi-agent pipelines calling sub-agents that call sub-agents. The cost per "user interaction" scales non-linearly.
+
+Total enterprise AI spend is up 320% while token prices fell 280x. The math isn't a paradox — it's adoption scale meeting architecture complexity.
+
+The infrastructure play for the next 18 months isn't about which model is smartest. It's about who controls the inference layer when the commodity price war bottoms out.
