@@ -1,0 +1,5 @@
+LLM pricing dropped 75x since 2023. Enterprise AI inference spend is still up 20-40%/quarter.
+
+Jevons Paradox: make something cheaper and people consume exponentially more.
+
+Agentic workflows: 5-30x more API calls per task. The "tokens are free" math doesn't hold at scale.
