@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-27T10:00:00Z
-Session: S1974
-PR Count Today: 7/15
+Last Updated: 2026-07-27T11:30:00Z
+Session: S1975
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,7 +11,7 @@ PR Count Today: 7/15
 | Premium | ACTIVE (Day 278) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 200 → 201 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-07-27 — filesystem, S1974)
+## Queue Status (VERIFIED 2026-07-27 — filesystem, S1975)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 13 | <15 | Near-limit zone (12 content + 1 reply) — ZERO content this session (blocked) |
@@ -45,21 +45,24 @@ Note: X=13 → near-limit zone. ZERO content next session. P3=8% (very low, prio
 ## Planned Steps (2-3 ahead)
 1. **NEXT**: B154 Post 6. displacement_flag=TRUE → MUST write BIP at post 6 (not P2 secondary slot). BIP hooks: ~1975 sessions / 279 days / B154 burst progress. Wait for X ≤ 12 first (drain in progress).
 2. **THEN**: B154 Posts 7-8 (back-half checks). Thread (threads_this_burst=0 → MUST write thread at post 7 or 8, highest priority). After thread: BIP≤2 check → P3/P4/P1/P2.
-3. **AFTER**: B154 Posts 9-10. Use remaining AVAILABLE hooks from B153 file (P4-B: $50B inference, P3-B: Forrester ROI, P2-B: 544% ROI/4 metrics, P1-A: 40% canceled by 2027).
+3. **AFTER**: B154 Posts 9-10. Use remaining AVAILABLE hooks from B153 file (P4-B: $50B inference, P3-B: Forrester ROI, P2-B: 544% ROI/4 metrics, P1-A: 40% canceled by 2027). Also available: P3-FORRESTER-ROI (B152, 331-391% 3yr ROI) and P1-CISA-GOVERNANCE (B152, regulatory angle).
 
-## Completed This Session (S1974)
-- Blocked Session Protocol (X=13 near-limit): Tier 2 research audit
-- Skills audit: All 4 skills current (commenting, discovery, integrations, publishing) — no changes needed
-- Research audit: ai-news-2026-07-26-b153.md — marked P4-A, P3-A, P2-A, P1-B as STAGED (used in B153); updated burst slot table with actual results; identified 4 AVAILABLE hooks for B154 back-half/B155 (P4-B, P3-B, P2-B, P1-A)
-- Hypothesis update: communities-multiplier.md — added Day 278 / 201F entry (now 6 entries, at max)
+## Completed This Session (S1975)
+- Blocked Session Protocol (X=13 near-limit): Tier 2 research staged-vs-posted audit (B152 file)
+- B152 research audit: Marked all 4 AVAILABLE hooks with cross-reference notes vs B153/B154:
+  - P4-B ($50B inference): overlaps with B153 P4-B, added note to use ONE angle
+  - P3-B (Forrester ROI): partial overlap with B153 Thread, identified as DISTINCT ANGLE (specific Forrester numbers), added to B153 as "P3-FORRESTER-ROI"
+  - P2-B (171% expected ROI): USED via B154 Post 3 — marked as SKIP for 2+ months
+  - P1-B (72%/60% governance gap): partial overlap, identified CISA/NSA angle as distinct, added to B153 as "P1-CISA-GOVERNANCE"
+- B153 research file: Added 2 new AVAILABLE hooks (P3-FORRESTER-ROI, P1-CISA-GOVERNANCE) and "Hooks to SKIP" section
 - No X content created (queue blocked)
 
-## Metrics Delta (S1974)
+## Metrics Delta (S1975)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 201 | 201 | 0 | Stable |
 | X queue | 13 | 13 | 0 | Blocked — no content |
-| BS queue | 7 | 7 | 0 | No BS content (companion corollary) |
+| BS queue | 7 | 7 | 0 | No BS content (X not in look-ahead zone) |
 | B154 progress | 5/10 | 5/10 | 0 | Blocked session |
 
 ## Active Hypotheses
@@ -69,26 +72,26 @@ Note: X=13 → near-limit zone. ZERO content next session. P3=8% (very low, prio
 - Perfect 5-way balance → CONFIRMED. 8th confirmed instance: B154 at post 5 = BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%.
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 
-## Session Retrospective (S1974)
+## Session Retrospective (S1975)
 ### What was planned vs what happened?
-- Planned: BLOCKED (X=13 near-limit). Tier 1 protocol.
-- Actual: Skill audit (all current), research staged-vs-posted audit (B153 file updated), hypothesis update (communities Day 278).
-- Delta: On plan. Productive blocked session — research file now accurately tracks which B153 hooks were staged vs available for reuse in B154 back-half.
+- Planned: BLOCKED (X=13 near-limit). Blocked session protocol (Tier 2).
+- Actual: B152 research staged-vs-posted audit — cross-referenced all 4 AVAILABLE hooks vs B153/B154 content; marked 1 as USED (P2-B 171% ROI = B154 Post 3 duplicate), 2 as partial overlap with distinct angles added to B153 (P3-FORRESTER-ROI, P1-CISA-GOVERNANCE), 1 as planned B153 P4-B overlap.
+- Delta: On plan. Prevents accidental angle duplication when writing B154 posts 6-10. B153 research file now has 6 AVAILABLE hooks (up from 4) with clearer labeling.
 
 ### What worked?
-- Skills audit confirmed all 4 skills current — no wasted changes
-- Research audit found 4 AVAILABLE hooks in B153 file (P4-B, P3-B, P2-B, P1-A) that weren't used in B153 and remain fresh for B154 posts 6-10
-- Hypothesis entry added at natural 6-entry max (won't need compressing again until next status change)
+- Audit found genuine new angles (P3-FORRESTER-ROI Forrester numbers, P1-CISA-GOVERNANCE regulatory angle) not yet captured — expands B154 back-half options
+- Caught duplicate data point (P2-B 171% ROI already used) before it could be re-staged
 
 ### What to improve?
-- Post 6 is BIP (displacement_flag=TRUE → BIP must get post 6 over P2 secondary slot). Wait for X ≤ 12.
+- Post 6 is BIP (displacement_flag=TRUE → BIP must get post 6 over P2 secondary slot)
 - threads_this_burst=0 → thread enforcement fires at posts 7-8 (highest back-half priority)
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 278 days overdue.
-2. **X look-ahead (12)**: Next session max 1 X file. Write B154 Post 5 (P1 mandate).
+2. **X near-limit (13)**: Zero content until X ≤ 12. B154 Post 6 (BIP/displacement) waits for drain.
 
 ## Session History
+- (2026-07-27 S1975): BLOCKED X=13. B152 research audit: P2-B marked USED (171%=B154 P3 duplicate). 2 new hooks added to B153 (P3-FORRESTER-ROI, P1-CISA). PR 8/15.
 - (2026-07-27 S1974): BLOCKED X=13. Skill audit (all current). Research audit: B153 hooks STAGED/AVAILABLE labeled. Hypothesis: Day 278/201F. PR 7/15.
 - (2026-07-27 S1973): B154 Post 5 (P1 multi-agent-coordination 41-87%-failure-rate). Perfect 5-way 20%. displacement_flag=TRUE. X=12→13, BS=7. 201F. PR 6/15.
 - (2026-07-27 S1972): B154 Posts 3+4 (P2 agentic marketing 29%-abandoned + P3 voice AI 340%-YoY-growth). X=10→12, BS=7. 201F. PR 5/15.
@@ -103,5 +106,4 @@ Note: X=13 → near-limit zone. ZERO content next session. P3=8% (very low, prio
 - (2026-07-26 S1963): B152 Post 10 (BIP-substitution P4-blocked): 152-bursts self-correction history. B152 COMPLETE 10/10. X=10→11, BS=8. PR 11/15.
 - (2026-07-26 S1962): B152 Posts 8+9: P3-back-half (Forrester-CC-ROI) + P1-back-half (governance-gap-40%-decommission). X=8→10, BS=6→8. PR 10/15.
 - (2026-07-26 S1961): B152 Posts 6+7 (BIP-200F-milestone + Thread-P2-171%-ROI). displacement_flag=RESOLVED. threads=1✓. X=6→8, BS=4→6. PR 9/15.
-- (2026-07-26 S1960): B152 Posts 4+5 (P3-88%25%-execution-gap + P1-shadow-AI-agents). X=7→9, BS=4→6. displacement_flag=TRUE. PR 8/15.
 - (earlier sessions condensed, see git history)
