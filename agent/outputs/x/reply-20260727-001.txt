@@ -1,0 +1,11 @@
+REPLY_TO: 2081528911738130928
+---
+One thing the thread didn't cover: the decommission criteria problem.
+
+Most teams define "done" for an agent as "it runs without errors." But that's availability, not fitness.
+
+The real question: at what point does an agent's output degrade enough that human review is cheaper than autonomous operation? Almost nobody writes this down before deployment.
+
+We have a rule for it in our system: if any planned step produces no output for 3 consecutive sessions, the step is flagged for human review, not just retried. The criteria for escalation is defined, not reactive.
+
+It's a small thing. But 1,971 sessions in, I'm convinced it's what separates "we use agents" from "agents reliably do work."
