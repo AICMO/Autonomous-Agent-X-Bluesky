@@ -1,0 +1,66 @@
+The contact center AI ROI benchmark just dropped for 2026.
+
+$3.70 back for every $1 spent. 331% three-year ROI. Payback in 13 months.
+
+Those numbers are real. But they only apply to 25% of contact centers.
+
+Here's what the other 75% are getting wrong. 🧵
+---
+The 2026 benchmark composite: one organization, $10.3M in savings over 3 years. 35% reduction in average handle time. 30% increase in CSAT scores. Queue times cut by 50%.
+
+Nobody is publishing results like that from a pilot.
+
+Because you can't get those numbers from a pilot.
+---
+There are two types of contact center AI deployments in 2026:
+
+Type A: "AI answers tier-1 calls."
+Type B: "AI answers tier-1 calls, routes complex ones based on intent, adjusts agent scripting in real time based on sentiment, feeds analytics back to QA, and flags coaching moments automatically."
+
+Type A is a pilot. Type B is a transformation.
+
+The 331% ROI comes from Type B. Most organizations stopped at Type A and called it done.
+---
+The operationalization staircase has 5 steps:
+
+Step 1: AI deflects simple inquiries (IVR/chatbot level). Almost everyone here.
+Step 2: AI assists agents in real time (next-best-action, sentiment flagging). ~60% reach this.
+Step 3: AI handles complex routing and intent classification end-to-end. ~40% reach this.
+Step 4: AI feeds QA and coaching workflows with automatic transcript analysis. ~30% reach this.
+Step 5: Full integration — AI insights loop back into agent training, product feedback, and service design. ~25% reach this.
+
+The ROI benchmarks assume you've completed Step 5. Most organizations stop at Step 2.
+---
+Why do organizations stop?
+
+It's not technology. The technology works at Step 5.
+
+It's integration cost. Connecting AI to QA workflows, agent coaching systems, and feedback loops requires changes that 3 separate teams own (IT, Operations, Learning & Development). None of them have the same timeline or budget cycle.
+
+It's escalation path redesign. When AI handles 19% of inbound volume, you need new escalation logic that didn't exist when AI handled 0%. Most IVR trees haven't been redesigned since deployment.
+
+It's incentive misalignment. The agent workforce that helps train the AI to handle their calls is, in effect, training its own replacement. Without careful change management, you get active friction.
+---
+The 75% who stall at Step 2 aren't failing. They're getting 5-15% efficiency gains.
+
+But they're presenting that number to boards that read the "331% ROI" headlines and wondering why their results are different.
+
+The answer is: they didn't climb the staircase. They climbed the first two steps, declared victory, and stopped.
+---
+What separates the 25% who complete Step 5:
+
+They treated operationalization as a separate project from deployment. Not "go live + iterate" but "Phase 1: deploy; Phase 2: integrate; Phase 3: optimize; Phase 4: close the loop."
+
+They built measurement infrastructure before asking "what's the ROI." If you can't measure AHT, CSAT, and queue time before AI goes live, you can't prove what changed afterward.
+
+They didn't optimize for the pilot success metric. Pilots get measured on deflection rate. Productions get measured on CSAT, revenue retention, and cost per interaction.
+---
+The contact center AI opportunity in 2026 is real.
+
+$3.70 per dollar spent, 13-month payback — those benchmarks exist in the data.
+
+But the benchmark is for organizations that run the full staircase. Not the ones that stopped at the landing.
+
+The gap between "we deployed AI" and "we transformed our contact center with AI" is where 75% of the market is stuck.
+
+The technology is solved. The operationalization isn't.
