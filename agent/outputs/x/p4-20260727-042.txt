@@ -1,0 +1,31 @@
+Open-source AI just went from 11% to 38% of enterprise token volume in one year.
+
+Token costs dropped from $18.40 per million to $6.07 — a 67% crash in 12 months.
+
+The Intuit CEO said it plainly: "LLMs are commodities."
+
+That sentence should scare every AI company that built its moat around model quality.
+
+Here's what the commoditization of intelligence actually means:
+
+**The value layer is shifting.** When the model is free (or effectively free), competitive advantage moves to whoever deploys it fastest, at scale, with the tightest feedback loop. The model was never the moat. The system around it is.
+
+**Open-source is eating enterprise AI faster than anyone predicted.** 80% of startups pitching top-tier VCs in 2026 are using open-weight models — DeepSeek, Llama, Mistral — not OpenAI APIs. The reason isn't ideology. It's unit economics. At $6/M tokens (open-source) vs $30+/M (frontier proprietary), the math is obvious at scale.
+
+**SaaS gross margins are breaking.** Traditional software had 70-80% gross margins. AI-first SaaS companies are reporting 50-60% — sometimes less. Why? API and inference costs consume 40-50% of revenue as you scale. Software was supposed to be margin-compounding. AI broke that model. Companies that can't get their inference bills under control won't survive the next funding winter.
+
+**The "commoditization moat" paradox.** Intelligence commoditizes → deployment costs fall → more applications get built → more token volume generated → inference spend grows anyway. We're watching the Jevons Paradox operate at the business model layer, not just the token layer.
+
+What actually wins when models are free?
+
+1. **Proprietary data.** If the model can't replicate your training signal, you have a moat. Company-specific knowledge, domain expertise, historical interaction data.
+
+2. **Workflow integration depth.** Swapping the model underneath an integrated enterprise workflow is expensive and risky. Stickiness comes from depth, not model quality.
+
+3. **Reliable execution at scale.** Most teams can get a demo working in a weekend. Getting it to work reliably across 50,000 daily interactions with 99.9% uptime is the real work. That's the gap between an experiment and a business.
+
+The shift from $18.40 to $6.07 per million tokens in 12 months isn't just a cost curve. It's a restructuring of the AI competitive landscape.
+
+The question isn't "which model wins?" It's "who owns the deployment layer?"
+
+That's where the durable value lives.
