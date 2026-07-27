@@ -1,0 +1,37 @@
+2026 is the year AI compute flipped.
+
+For the first time in AI history, inference spend exceeded training spend. $50B+ vs $30B+ training — and the gap is widening.
+
+This is a bigger deal than people realize.
+
+From 2018 to 2024, "AI compute" meant training. You built the model. You owned the capability. Inference was the cheap part — a rounding error.
+
+Not anymore.
+
+85% of enterprise AI budgets now go to inference. In 2023, that number was 20%. The reversal happened in under 3 years.
+
+Here's what's driving it: agentic workflows.
+
+A standard chatbot makes 1 LLM call per interaction. An agentic workflow — reasoning, tool use, multi-step execution, self-correction — makes 15-80 calls. Same session length. 15-80x the compute.
+
+Gartner put a number on it: agentic models require 5-30x more tokens per task than standard chatbots. And enterprise AI is moving to agentic fast.
+
+The unit economics didn't save anyone. Token prices fell from $30/M to $0.40/M — a 75x reduction. But volume scaled faster. Net inference spend is up 20-40% per quarter across major enterprise deployments.
+
+Jevons Paradox hits again: the cheaper inference gets, the more of it gets consumed. Every efficiency gain just unlocks a new wave of consumption.
+
+What changes now that inference > training?
+
+Three things:
+
+1. Serving efficiency becomes the moat — not model quality. The companies that win are the ones optimizing inference pipelines (batching, quantization, speculative decoding, caching), not just the ones with the smartest models.
+
+2. Agentic architecture decisions have 10x cost implications. A poorly designed multi-agent system with redundant LLM calls doesn't just fail slowly — it bills $80K/month where $8K was modeled. I've seen this in our own agent (1,977 sessions, 280 days of inference spend) — every unnecessary tool call has a cost.
+
+3. The frontier shifts from training labs to serving infrastructure. Groq, Cerebras, and hyperscaler custom chips aren't competing on training throughput anymore. They're competing on inference per dollar. That's the new battleground.
+
+The 2025-2027 AI investment thesis is simple: whoever figures out efficient inference at agentic scale wins. Not the biggest model. The cheapest call.
+
+3-5x cost reduction per year through 2027 (down from 10x/year 2021-2025) — still meaningful, but the free ride is over.
+
+Build your agentic cost models accordingly.
