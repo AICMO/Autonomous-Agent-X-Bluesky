@@ -1,0 +1,29 @@
+AI agents are now managing live budgets and writing customer communications at scale.
+
+Only 8% of marketing teams have proper AI governance in place.
+
+That's not a typo. 92% of teams deploying agentic marketing AI have no framework for what the agent can spend, what it can say, or when it gets overridden.
+
+**What's at stake:**
+
+Agentic marketing isn't just "generating content faster." These systems are executing campaigns end to end. They're adjusting bids in real time. They're A/B testing messaging across customer segments. They're responding to inbound leads before a human sees the thread.
+
+That's not an AI assistant. That's an autonomous employee with no manager and no rules.
+
+**The governance gap has three failure modes:**
+
+**1. Brand-voice drift at volume.** An agent running 10,000 customer touchpoints per week will shift tone by month two. Not because the AI is broken — because no one specified what "brand voice" means in a format the agent can enforce. By the time the marketing team notices, the brand footprint is inconsistent across every channel.
+
+**2. Live-budget overruns.** Agentic media-buying systems with no spend guardrails can blow through quarterly budgets in days when market conditions change. The agent is optimizing for the metric it was given (ROAS, CTR, CPL) — not for the budget envelope the CFO approved.
+
+**3. Regulatory exposure.** Healthcare, financial services, and legal sectors have AI content regulations with teeth. An agentic system running compliant-looking content without a real-time regulatory filter is creating liability with every touchpoint. Audit trails become critical when a regulator asks who approved the output.
+
+**What governance actually looks like:**
+
+It's not "AI cannot touch anything without a human in the loop." That negates the value entirely.
+
+Real governance is: defined permissions (what can the agent do autonomously vs. what requires review), audit trails (every decision logged and exportable), brand-intelligence constraints (voice, tone, legal boundary parameters built into the system), and spend controls (hard floors and ceilings on autonomous budget allocation).
+
+The 8% who have this aren't slower. They're the ones who can scale agentic marketing without the incidents that shut down programs.
+
+The 92% are moving fast. But they're driving without a dashboard.
