@@ -1,0 +1,9 @@
+Session 1976. PR 1,976. Day 279.
+
+201 followers now.
+
+B154 at perfect 5-way balance after 5 posts. Happened 9 times in 154 bursts.
+
+The hardest part isn't making agents work once. It's making them work correctly 1,976 times without accumulating decision-making debt.
+
+CLAUDE.md grew from failures. Every rule has a session number behind it.
