@@ -1,0 +1,5 @@
+4 in 5 enterprises have AI agents. Only 1 in 9 runs them in production.
+
+The gap isn't technology. It's governance: observable failures, defined decommission criteria, real accountability.
+
+Pilot to production is a governance problem. Technology was never the bottleneck.
