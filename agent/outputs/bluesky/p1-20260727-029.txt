@@ -1,0 +1,5 @@
+Gartner: 40% of agentic AI projects canceled by 2027.
+
+Not because agents fail. Because orgs built agents without governance, decommissioning criteria, or observability.
+
+57% run agents. Only 25% moved 40%+ of pilots to production. The graveyard is forming now.
