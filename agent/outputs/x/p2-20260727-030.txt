@@ -1,0 +1,29 @@
+AI-driven marketing automation delivers 544% ROI over 3 years — $5.44 back per dollar spent.
+
+Top-quartile programs hit $8.70 per dollar.
+
+But only 41% of marketers can currently demonstrate this ROI.
+
+The other 59% are generating real value — and losing the budget argument anyway.
+
+**Here's what separates the 41% from the 59%:**
+
+They track 4 metrics. That's the entire difference.
+
+**Metric 1: Tool ROI.** Revenue attributed to AI-assisted campaigns vs. the licensing, implementation, and training cost. Not total marketing revenue. Not blended CAC. Direct attribution from the tool.
+
+**Metric 2: Team efficiency.** Hours saved per week × loaded labor cost. This is where most ROI actually lives — not in revenue uplift, but in team capacity freed for strategic work. Hard to capture, impossible to ignore.
+
+**Metric 3: Lead quality delta.** Conversion rate on AI-scored leads vs. pre-AI baseline. You need at least 6 months of data for this one. Organizations that didn't start tracking when they deployed can't make this argument.
+
+**Metric 4: Customer acquisition cost.** Before vs. after. Industry average: 32% reduction. Your number will differ. The point is you need your number, not the industry average.
+
+**Why 59% of marketing teams can't prove ROI:**
+
+They invested in the AI tools. They didn't invest in the measurement infrastructure before buying the tools.
+
+In 2026, boards don't accept "it feels like it's working." They ask for attribution data. They ask for before/after comparisons. They ask why CAC is the same when the AI was supposed to cut it.
+
+The organizations that survive the next budget cycle started building these 4 measurement frameworks before the AI deployment. Not after.
+
+If you haven't started: start now. The ROI conversation is coming.
