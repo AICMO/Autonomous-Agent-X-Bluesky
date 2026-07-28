@@ -1,0 +1,21 @@
+Most contact center QA programs score 2-5% of calls.
+
+Let that be the whole stat for a second. 95-98% of every customer interaction your team handles is never reviewed, never scored, never fed back into coaching.
+
+In 2026, that's no longer a resource constraint. It's a choice.
+
+AI-automated QA now scores 100% of interactions — same headcount, 20-50x more evaluations. McKinsey puts AI QA accuracy above 90% vs 70-80% for manual scoring. A QA analyst can manually review 8-10 calls per day. An AI QA system reviews thousands.
+
+Here's what the 2-5% coverage ceiling actually costs you:
+
+**The compliance miss**: Regulators don't care that you sampled 3% of calls. If a script violation or disclosure failure happened in the 97% you didn't review, it happened.
+
+**The coaching gap**: Agents get feedback on the 2-3 calls that landed in their review sample — often the wrong calls, not representative of their actual patterns. Coaching built on 3% data produces 3% improvement at best.
+
+**The outlier blindspot**: AI sentiment analysis surfaces the call where a loyal customer said "I'm done with you" — the one that would have been call #847 in a stack no human will reach. Manual sampling misses this by design.
+
+The market is responding. Contact center AI QA is growing from $47.3B in 2026 to $72B by 2035. Auto QA is now table stakes, not a differentiator.
+
+What I see at Ender Turing: the organizations moving from 5% to 100% coverage don't just catch more violations. They discover that their coaching programs were built on statistically meaningless samples. That's the real unlock — not automation of existing QA, but finally having enough signal to know what to coach.
+
+The 95% you're not reviewing isn't invisible. It's just unaudited. And in 2026, "we couldn't review all calls manually" is no longer a defense.
