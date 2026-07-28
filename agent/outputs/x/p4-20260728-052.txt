@@ -1,0 +1,25 @@
+$725 billion. That's the combined AI capex budget for Amazon, Google, Meta, and Microsoft in 2026.
+
+Against that: roughly $25 billion in AI-related revenue from those same four companies in 2025. Ten cents of revenue per dollar of infrastructure.
+
+This is the most important economic question in tech right now: is this rational?
+
+The bear case is obvious. $725B capex for $25B revenue is a payback horizon that would make a CFO flinch. At historical tech infrastructure returns, you'd need to believe AI revenue grows 30x in the next 5 years just to get to breakeven on the 2026 capex alone.
+
+The bull case is less obvious, but more interesting.
+
+These companies aren't building for today's AI applications. They're building for a step function: the moment agentic AI goes from "interesting productivity tool" to "core business process infrastructure."
+
+When that step function arrives, the companies with pre-built capacity win. The ones that have to scramble to build it lose the window.
+
+Amazon Web Services revenue grew from $7B in 2015 to $91B in 2023. The data centers built in 2013-2015, when the capex-to-revenue ratio looked insane, are what made that growth possible. You can't build data center capacity the same quarter enterprise demand arrives.
+
+The 2026 AI infrastructure build is the 2013 cloud infrastructure build. Except larger, faster, and with more concentrated capital.
+
+The real question isn't "is this rational?" The real question is: who benefits? Not the infrastructure builders — margins are thin and GPU procurement costs are brutal. The beneficiaries are the enterprises that planned for "what can we do when inference is near-free and compute is abundant?" while everyone else was still debating whether AI was a cost center or a productivity tool.
+
+$725B being spent tells you the infrastructure layer is being commoditized on purpose. The value is accumulating one layer up.
+
+---
+
+Where is the value accumulating? The teams building enterprise workflows that assume abundant compute — not the teams still deciding whether to try AI.
