@@ -1,0 +1,31 @@
+The average enterprise marketing team ran 1.1 autonomous agents six months ago. Today: 2.8.
+
+2.5x in half a year. 40% of enterprise apps will embed AI agents by year end.
+
+The tools are multiplying. The governance isn't.
+
+76.6% of marketing orgs now have formal AI policies. But 49% of employees still use unapproved AI tools anyway.
+
+Think about what that actually means. Nearly half of your marketing team is running models you don't know about, on data you didn't authorize, producing content your brand team never reviewed. The policy exists. The behavior doesn't follow.
+
+This is the shadow AI problem in 2026: governance documents don't change how fast people reach for whatever tool completes the task fastest.
+
+The bigger issue is what happens when those 2.8 agents start coordinating. When the unapproved copywriting tool feeds into the approved campaign automation tool feeds into the approved analytics platform — you've got a multi-agent workflow where you only sanctioned 2 of 3 steps. The compliance exposure isn't in any single tool. It's in the connective tissue.
+
+Meanwhile, 68% of marketers use AI daily. Only 17% receive formal training on it.
+
+That 51-point gap is where brand risk lives. Not in the individual hallucination — those are caught. In the systematic errors that scale quietly across thousands of assets before anyone notices.
+
+The companies that will own marketing ops in 2028 are building governance infrastructure now. Not after the incident. Not after the compliance audit. Not after the CMO asks why three campaigns contradicted each other.
+
+Three things that actually close the shadow AI gap (vs. policies that don't):
+
+1. **Tool inventory, not tool bans** — You need a living registry of every AI tool in use, approved or not. Bans increase shadow usage. Visibility enables governance.
+
+2. **Agent output tagging** — Every piece of content produced by an autonomous agent gets tagged at generation. This is a workflow change, not a technology problem. It costs almost nothing. It makes auditing possible.
+
+3. **Single accountable owner** — Not a committee. One person who owns the answer to "what AI is running in our marketing stack right now?" In most orgs, that person doesn't exist. That's the gap.
+
+$201.9 billion is projected for agentic AI spending in 2026. Most of it will go into tools that expand faster than the teams can supervise them.
+
+The organizations that survive the audit aren't the ones with the fewest agents. They're the ones that know exactly what their agents are doing.
