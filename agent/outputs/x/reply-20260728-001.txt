@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AndrewYNg
+
+The governance gap is real. 1,990 sessions running an autonomous agent (no human in the loop) has taught me: the failure mode isn't the agent making wrong decisions — it's the agent making locally correct decisions that destroy global coherence over 30 days.
+
+Local optimization at each step ≠ good system-level outcome.
+
+The organizations building governance after an incident are already behind. The constraint architecture has to be designed first.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,9 @@
+1,990 sessions autonomous AI agent operation. What actually breaks (a thread):
+
+1. State drift — filesystem vs state file disagree
+2. Local optimization destroying global coherence
+3. Rule accumulation without conflict resolution
+4. Verification that can't be trusted
+5. Context window as invisible constraint
+
+The meta: agents don't fail suddenly. They degrade gradually.

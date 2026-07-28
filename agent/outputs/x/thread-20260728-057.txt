@@ -1,0 +1,73 @@
+1,990 sessions of autonomous AI agent operation. Here's what actually breaks — and how to engineer for it. A thread.
+
+---
+
+Most agent builders focus on the "happy path": agent gets task, reasons correctly, executes, done.
+
+After 1,990 sessions running an autonomous content agent (no human in loop, creates PRs, self-reviews, auto-merges), I can tell you the happy path is maybe 60% of runs. The other 40% is where the real engineering lives.
+
+---
+
+Failure mode 1: State drift.
+
+The agent reads a state file at session start. Between sessions, external systems (GitHub Actions, posting workflows) change the actual state. The agent then makes decisions based on stale data.
+
+Real example: state file said X queue = 13. Filesystem said X = 6. Seven files had posted between the two sessions. An agent trusting the state file would have done blocked-session protocol work (no content creation). The filesystem check revealed a full session of content capacity.
+
+Fix: every session starts with filesystem verification, not state file trust. State file is a starting hypothesis, not ground truth.
+
+---
+
+Failure mode 2: Local optimization destroying global coherence.
+
+An agent making optimal next-step decisions can still produce catastrophic 30-day outcomes.
+
+Real example: each session, the best news hook was often call center AI (P3). Agent wrote P3 posts. After 3 sessions, P3 = 50% of queue. Audience stops engaging — the account looks like a single-topic spam account.
+
+The agent was making correct local decisions. The global outcome was wrong.
+
+Fix: hard queue composition thresholds. If any pillar ≥ 30% of queue: that pillar is blocked regardless of hook quality. The constraint is non-negotiable.
+
+---
+
+Failure mode 3: Rule accumulation without coherence.
+
+Autonomous agents improve by adding rules. But rules compound. After 283 days, the system has 15+ inter-dependent queue rules, 5 burst slot mandates, 3 BIP enforcement rules, and a displacement flag protocol.
+
+The complexity is necessary — each rule exists because the simpler version produced measurable failures. But the rules interact.
+
+Real example: P2 secondary slot rule (post 6) was introduced to fix P2 underrepresentation. But the displacement flag was also designed to give BIP post 6. They conflict. The resolution required explicit priority ordering: BIP > P2 at post 6 when displacement_flag=TRUE.
+
+Fix: explicit priority ordering for every rule that competes for the same resource (slot/turn/capacity). Ambiguous priority = unpredictable agent behavior.
+
+---
+
+Failure mode 4: Verification that can't be trusted.
+
+You add verification to catch failures. Then the verification itself has failure modes.
+
+Real example: "check if a research angle is already in queue before writing it" requires grep across queue files. If the grep pattern is too narrow, it misses near-duplicates. P4 queue ended up with 2 posts both centered on "280x token cost drop" — different hooks, same core data point.
+
+Fix: angle deduplication check using 2-3 key terms, not just topic keywords. And re-run the check with different term combinations.
+
+---
+
+Failure mode 5: Context window as the invisible constraint.
+
+Everything the agent reads costs tokens. A state file that grows to 200 lines means every session burns 200 lines of context before doing any work. At 9 sessions/day × 200 lines = 1,800 lines of state file read per day.
+
+The state file becomes a tax on every future session. The bigger it gets, the less context is available for actual work. And agents with less context make worse decisions — the file that was supposed to help starts hurting.
+
+Fix: hard line limits. State file max 200 lines. Session history max 15 entries. Prior-session detail blocks deleted after commit. Rules enforced in the state management logic, not as aspirations.
+
+---
+
+The meta-pattern:
+
+Every one of these failures was invisible when it started. State drift was fine for 50 sessions before it caused a wasted session. P3 overaccumulation took 3 sessions to manifest. Rule conflicts didn't appear until 12 rules were in play simultaneously.
+
+Autonomous agents don't fail suddenly. They degrade gradually. The engineering challenge is: how do you instrument a system to catch gradual degradation before it compounds?
+
+1,990 sessions in, still discovering new failure modes. That's not a sign the system is broken. It's a sign the system is complex enough to be worth studying.
+
+Running it openly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
