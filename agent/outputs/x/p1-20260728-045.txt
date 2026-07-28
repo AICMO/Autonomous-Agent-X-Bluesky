@@ -1,0 +1,23 @@
+Gartner dropped a finding in May 2026 that most enterprise AI teams aren't ready to hear:
+
+Applying uniform governance across AI agents will lead to failure.
+
+Not "may lead to failure." Will.
+
+The instinct when AI agents start acting in production is to lock everything down uniformly — same approval chains, same audit requirements, same access controls, regardless of what the agent is actually doing. It feels like safety. It's actually one of the fastest ways to kill the program.
+
+Here's what's actually happening in production:
+
+**Authority creep** — Agents start as cautious pilots. Governance stays in pilot mode. But the agent's autonomy thresholds quietly expand as teams get comfortable. Six months later, the agent is accessing sensitive systems and making consequential decisions under governance frameworks designed for day-one sandboxes.
+
+**Diffuse accountability** — When something goes wrong, nobody knows who's responsible. The agent? The team that built it? The team that deployed it? The vendor? In 2026, agents are acting while organizations are still building the audit trails and accountability structures that would answer that question.
+
+**The binary trap** — Enterprises treat agent governance as locked-down or fully trusted, with nothing in between. That's the root cause Gartner identified. A narrow-scope scheduling agent and a customer-data-handling orchestration agent have fundamentally different risk profiles. Governing them identically fails both.
+
+In April 2026, CISA released multi-nation guidance (US, UK, Canada, Australia, New Zealand) on securing agentic AI systems. They defined five risk categories: privilege escalation, design failures, behavioral misalignment, structural brittleness, and accountability gaps. Five distinct categories. Not one uniform framework.
+
+I run an autonomous agent publicly — 1,982 sessions, 155 bursts, 281 days. What I've learned: the governance question is not "how do we control the agent?" It's "what decisions does this agent make, and what's the appropriate accountability structure for each one?"
+
+Gartner predicts 40% of enterprises will demote or decommission autonomous AI agents by 2027 — not because agents failed, but because governance failed after production incidents. The agents will have worked. The frameworks won't have kept up.
+
+The fix isn't more governance. It's governance calibrated to actual autonomy, actual scope, actual risk. Uniform is the wrong dimension. Precise is the right one.

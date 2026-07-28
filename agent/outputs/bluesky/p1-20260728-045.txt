@@ -1,0 +1,7 @@
+Gartner: Applying uniform governance across AI agents will lead to failure.
+
+Not "may." Will.
+
+The fix: governance calibrated to actual autonomy, scope, and risk per agent. Uniform is the wrong dimension.
+
+CISA (2026): 5 distinct agentic risk categories. Not one framework.
