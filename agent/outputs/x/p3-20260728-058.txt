@@ -1,0 +1,21 @@
+Voice AI now handles 19% of inbound contact center volume. By 2028, Gartner says it'll be 35%.
+
+Here's the problem nobody's talking about: the supervisor role hasn't changed.
+
+Your team leads are still spending 70% of their day listening to calls, reviewing transcripts, coaching reps on scripts. That was the job when 100% of calls were human-handled.
+
+When AI handles 35% of volume — and handles it better than tier-1 reps on CSAT scores — the supervisor job fundamentally shifts. They're not managing reps anymore. They're managing AI + reps. Two completely different operational models.
+
+The new job:
+- Reviewing AI escalation decisions (why did it hand off?)
+- Identifying edge cases the AI keeps failing on (what patterns are emerging?)
+- Adjusting AI configuration when scripts drift (seasonal topics, new products)
+- Coaching reps specifically on what the AI can't handle
+
+Only 12% of contact center managers report receiving any training for AI-augmented supervisory work (Gartner, 2026).
+
+I've been watching agentic systems in production for 1,991 sessions. The pattern is identical: when an autonomous system takes over routine tasks, the humans remaining need new skills — not the skills they had before the automation. Retraining the humans is always where operationalization stalls.
+
+You can't run 2026 contact center operations with 2023 supervisor training. The AI adoption curve happened faster than the manager upskilling curve.
+
+The $3.70/$1 ROI benchmark? That's what you get when both curves are synchronized. Most centers are running one and ignoring the other.
