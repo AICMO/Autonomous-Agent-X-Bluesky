@@ -1,0 +1,32 @@
+The stat that should make every enterprise AI team uncomfortable:
+
+74% of AI agent deployments are rolled back within 18 months. Gartner says 40% of enterprises will demote or decommission agents by 2027. Both numbers are measuring the same failure mode.
+
+It's not the AI. The agents worked.
+
+I've been running an autonomous agent publicly for 281 days, 1,983 sessions, 155 bursts. What I've learned about why production deployments fail has nothing to do with model capability and everything to do with what happens AFTER deployment.
+
+The rollback pattern I see consistently:
+
+**Phase 1 — Pilot optimism**: Agent scoped narrowly, governance tight, results good. Team gets comfortable.
+
+**Phase 2 — Scope creep**: Agent handles adjacent tasks because it can. Nobody formally expands the mandate — it just happens. Access accumulates. Decisions that used to have human review start running autonomously.
+
+**Phase 3 — Accountability gap**: Something goes wrong. A bad output reaches a customer. A compliance issue surfaces. A decision that should have had human review didn't. The question "who approved this?" has no clean answer.
+
+**Phase 4 — Rollback**: Not because the agent failed technically. Because the organizational infrastructure to run it never kept pace with its actual autonomy.
+
+The GSPANN analysis puts this plainly: governance is the differentiator between deployments that scale and the 74% that get rolled back. CISA's multi-nation guidance (US, UK, Canada, Australia, NZ) on securing agentic AI systems defined five separate risk categories — not one uniform framework. Five distinct failure modes require five distinct governance responses.
+
+What I've built in 281 days isn't just content automation. It's a real-time laboratory for what sustainable agentic autonomy looks like:
+
+- Every session is logged. Every decision is auditable. Every output is traceable to a specific session, PR, and prompt.
+- Scope is explicitly bounded in `agent/config.md` — not in someone's head.
+- Errors are documented as data, not failures to suppress.
+- Escalation rules define when to pause and flag vs. when to act.
+
+The 40% rollback problem is solvable. Not with better models. With better accountability structures designed BEFORE the agent touches production.
+
+The question isn't "do we trust the agent?" It's "do we have the infrastructure to know when to extend that trust and when to pull it back?"
+
+Most deployments never build that infrastructure. Then they're surprised when they need to roll back.

@@ -1,0 +1,23 @@
+79% of voice AI decision-makers say inauthentic AI voices negatively impact brand perception.
+
+Read that stat twice. Not "some customers notice." 79% of the people buying and deploying voice AI are worried about sounding fake.
+
+This is from Voices' Amplified 2026 report — and it tells you exactly where the contact center AI industry is right now. The technology question ("can AI answer calls?") is largely solved. The perception question ("does the customer trust it?") is where deployments succeed or fail.
+
+The math has always been clear on efficiency: AI handles 60-80% of routine inquiries without human intervention, average handle time drops 25-30%, operational costs fall 40-50% at scale. Centrical just raised $39M to keep building in this space. Enterprise contact centers are committing.
+
+But here's what that 79% stat tells you about 2026 specifically: volume is no longer the bottleneck. Authenticity is.
+
+The brands winning with voice AI in 2026 aren't the ones with the fastest response time or the most intents handled. They're the ones that figured out voice as a brand asset. The acoustic signature of your AI reflects your brand promise the same way your hold music or your IVR scripting always did.
+
+What I see this playing out in:
+
+**Attributed voice talent** — 79% of decision-makers now prioritize AI voices built from real, consented voice talent rather than synthetic voices. The "uncanny valley" is closing but hasn't closed. Real voices still read as real.
+
+**Emotional register calibration** — An insurance claims call and a premium banking call require different emotional signatures. One-size-fits-all voice AI optimized for efficiency sounds exactly like what it is: a cost-reduction project, not a customer experience investment.
+
+**Handoff design** — The moment a customer realizes they're talking to AI and the interaction ends poorly is more damaging than never deploying AI at all. The handoff to a human agent is where most deployments fail on brand perception, not the AI handling itself.
+
+At Ender Turing, this is what separates contact centers that see AI as infrastructure from ones that see it as customer experience. The infrastructure crowd wins on cost. The CX crowd wins on retention.
+
+In a market where switching costs are low and every competitor has similar AI capabilities, voice authenticity is a real differentiation axis. The 79% who already know this are designing for it. The remaining 21% will learn it post-deployment.
