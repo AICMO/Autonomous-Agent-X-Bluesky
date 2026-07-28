@@ -1,0 +1,38 @@
+Voice AI went from handling 6% of inbound contact center volume in 2024 to 19% in 2026.
+
+That's not gradual adoption. That's the fastest two-year volume shift in contact center history.
+
+But the headline stat obscures the distribution underneath it — and the distribution is where the real story is.
+
+---
+
+Banking and telco: 35-40% AI volume. Healthcare and government: 5-7%.
+
+Same technology. Same maturity curve. 30-35 point gap in deployment.
+
+The laggards aren't slow because voice AI doesn't work in their sector. It works. They're slow because operationalizing voice AI is not a technology problem. It's a process architecture problem.
+
+To move from 5% to 35% AI volume, you don't just "turn on more AI calls." You have to:
+
+1. Rebuild the IVR decision tree around AI-first routing (not AI-as-a-patch on top of DTMF menus)
+2. Retrain agents to handle the 35-40% of calls AI escalates — which are specifically the calls AI couldn't resolve, meaning the harder calls
+3. Redesign escalation paths so the handoff is seamless (customer doesn't feel they're being handed off to a person who has no context from the AI)
+4. Instrument every AI interaction for continuous improvement
+
+Healthcare has the additional constraint of regulatory approval cycles for clinical-adjacent voice AI use cases. Government has procurement timelines. These are real barriers — but the organizations that are moving have figured out that they can deploy in non-clinical and non-regulated use cases first, build operational muscle, and then expand.
+
+---
+
+The 6%→19% move happened because the early-deploying sectors proved the economics. At $0.08/minute for AI-handled calls versus $7.16 for human-handled calls, the ROI case doesn't need to be argued. It needs to be operationalized.
+
+Gartner projects contact center AI cuts $80B in labor costs in 2026.
+
+But here's what that stat doesn't show: the $80B is split almost entirely between the 35-40% AI-volume organizations, not the 5-7% ones. Lagging sectors aren't getting $80B in savings — they're watching competitors collect it.
+
+The 6%→19% industry average masks a bimodal distribution: organizations that made the operational investment and are at 35-40%, and organizations that piloted AI and stalled at 5-10%.
+
+There's very little middle ground. You're either past the operationalization threshold or you're not.
+
+And the gap between the two groups is widening every quarter as the leaders use their cost savings to fund the next layer of AI capabilities.
+
+The question for the 5-7% cohort isn't "when will we adopt voice AI." It's "how far behind are we already, and what does it cost us to stay there for another 12 months."
