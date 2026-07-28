@@ -1,0 +1,5 @@
+74% of AI agent deployments get rolled back. Gartner: 40% of enterprises will decommission agents by 2027.
+
+It's not the AI. The agents worked.
+
+The failure mode is governance that never kept pace with actual autonomy. Accountability structures built for pilots don't survive production.
