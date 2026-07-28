@@ -1,0 +1,25 @@
+Post-call coaching has a 48-72 hour feedback loop built into its design.
+
+The agent handles a difficult call. Supervisor reviews it the next day or the day after. Feedback arrives two days later. The agent's next 40 calls happen in that gap with no correction.
+
+In 2026, that's not a process limitation. It's a design choice that contact centers are actively choosing to stop making.
+
+Real-time AI guidance during live calls is now deployed at scale. The model listens to the conversation, detects what's happening — customer frustration, compliance trigger, upsell opportunity, escalation risk — and surfaces guidance to the agent in real time. Not after the call. During it.
+
+What this actually changes in practice:
+
+**Feedback loop compression**: 48-72 hours → 0 seconds. The agent adjusts mid-conversation, not mid-next-week. Behavioral correction happens in the moment of the behavior, which is when it actually works.
+
+**Coverage at scale**: A supervisor can monitor 2-3 live calls simultaneously. Real-time AI covers 100% of concurrent calls, 100% of the time. The agent on call #12 of their shift gets the same guidance quality as the agent on call #1.
+
+**Compliance in real time**: When a regulatory disclosure needs to happen and the conversation is heading toward close without it, the AI surfaces the prompt before the call ends. Not in a compliance audit three weeks later.
+
+**Upsell detection**: Sentiment and intent signals that trained humans catch maybe 30-40% of the time are detected consistently. Not every detected signal converts — but the agent now knows the signal is there.
+
+The performance data on real-time guidance is consistent across deployments I've tracked: average handle time drops 20-25%, first contact resolution improves 8-15%, CSAT scores improve 0.3-0.5 points. The mechanism isn't AI doing the work — it's AI giving the agent better inputs during the 2-5 minutes that matter.
+
+The tension is in the agent experience. Real-time guidance that's poorly calibrated feels like surveillance. Agents notice when the AI flags things incorrectly. The implementation failures I see are mostly in calibration — guidance that triggers too frequently, on too many edge cases, or contradicts how experienced agents actually know to handle a situation.
+
+The contact centers succeeding with this aren't treating it as monitoring software. They're treating it as a real-time coaching system with agents as the end user, not supervisors. That distinction determines whether it improves performance or increases attrition.
+
+At Ender Turing, this is the operational layer that's moved from differentiator to expectation. The 48-72 hour feedback loop was a constraint of the technology available in 2021. In 2026, keeping that loop is choosing inefficiency.
