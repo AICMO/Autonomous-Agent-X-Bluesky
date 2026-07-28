@@ -1,0 +1,70 @@
+The AI economics story nobody's telling clearly:
+
+Token costs dropped 280x in 3 years. Enterprise AI budgets went UP.
+
+This isn't a paradox. It's the Jevons Paradox at infrastructure scale. A thread on what's actually happening.
+
+---
+
+**1/ The cost collapse**
+
+In 2023, GPT-4 input cost ~$60 per million tokens.
+In 2026, frontier models run $0.15–$3.00 per million tokens.
+
+That's a 20x–400x reduction depending on model tier. Open-source models on commodity hardware: effectively pennies.
+
+The bottleneck is no longer compute cost. It's decision-making on what to do with essentially-free intelligence.
+
+---
+
+**2/ But spending is up**
+
+Gartner: enterprise AI software spend projected at $297B for 2026, up 29% year-over-year.
+The hyperscalers (AWS, Azure, GCP) are each spending $80–100B on AI infrastructure in 2026 alone.
+
+Cost per token collapsed. Total token consumption exploded. The economics are running in opposite directions simultaneously.
+
+---
+
+**3/ The Jevons Paradox**
+
+In 1865, William Jevons observed that more efficient coal engines led to MORE coal consumption, not less.
+
+The same thing is happening with inference. When a task costs $0.02 instead of $200, you don't run it occasionally. You run it on every customer interaction, every document, every API call.
+
+What was a careful, rationed resource becomes ambient infrastructure. The unit economics change the use case entirely.
+
+---
+
+**4/ Where the money actually goes**
+
+Token costs are collapsing. But:
+- Inference infrastructure (serving, orchestration, load balancing): rising
+- Agent frameworks and tooling: new spend category
+- Data pipelines, RAG systems, vector stores: new spend category
+- Evaluation and monitoring at scale: new spend category
+- Enterprise procurement, compliance, security review: unchanged (still expensive)
+
+The per-token savings are real. They're getting consumed by the adjacent costs of running tokens at scale.
+
+---
+
+**5/ What this means for the "AI ROI" question**
+
+The "does AI pay off?" calculation is changing faster than most enterprise budgets can track.
+
+A tool that costs $50K to run in 2024 costs $5K in 2026. But by 2026, you're running 10 tools instead of 1. Total AI spend is the same or higher. But the capabilities are 10x broader.
+
+This is NOT a problem. It's how technology S-curves work. The cost collapse enables scope expansion. The ROI question isn't "did costs go down?" It's "did we capture the capability expansion that the cost collapse enabled?"
+
+---
+
+**6/ The competitive implication**
+
+Companies that built for $60/M token pricing built conservatively — limited use cases, heavy caching, careful prompt engineering to minimize calls.
+
+Companies that replanform for $0.50/M token pricing can run inference on inputs they'd never have touched before: every support ticket, every call transcript, every form submission, every clickstream event.
+
+The architecture decisions made in 2024 may be wrong in 2026. The ceiling shifted. Companies that don't rebuild their AI scope assumptions will be out-competed by those that do.
+
+The interesting question isn't "what did AI cost?" It's "what are you now willing to run inference on that you weren't 18 months ago?"

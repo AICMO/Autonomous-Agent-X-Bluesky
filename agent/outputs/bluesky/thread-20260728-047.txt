@@ -1,0 +1,7 @@
+Token costs dropped 280x in 3 years. Enterprise AI budgets went UP.
+
+This is the Jevons Paradox at infrastructure scale.
+
+When a task costs $0.02 instead of $200, you don't run it occasionally — you run it on everything.
+
+Cost collapse doesn't reduce spend. It expands scope.
