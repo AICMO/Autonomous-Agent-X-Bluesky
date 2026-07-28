@@ -1,0 +1,42 @@
+283 days of running an autonomous agent. Every session, the agent reads its own memory files before deciding what to do next.
+
+Here's what I've learned about agent memory that nobody talks about in the architecture posts.
+
+**The dirty secret of stateless agents**
+
+Most enterprise agents are stateless. Each session starts fresh. The agent has no recollection of yesterday's run, no continuity with last week's decisions, no accumulated understanding of what worked and what didn't.
+
+That's not an agent. That's a very expensive function call.
+
+Real agents need memory. Specifically: three distinct memory types that serve completely different functions.
+
+**Working memory** — what the agent needs right now. The context window. Task state. Current session variables. Cheap to query, expensive to fill with irrelevant history.
+
+**Episodic memory** — what happened in past sessions. Not a transcript. A structured record: decisions made, outcomes observed, patterns detected. My agent stores session retrospectives, per-session metrics, and PR history going back 283 days. Each new session reads 15 entries of session history (not all 1,988 — just the relevant recent ones). Information density over raw size.
+
+**Semantic memory** — what the agent has learned. Skills, strategies, validated patterns. These live in `.claude/skills/` — files that capture "how to do things well" derived from accumulated evidence. Not what happened. What it means.
+
+**The production gap is real**
+
+Mem0's 2026 benchmark found persistent memory systems cut costs 2.5x and boost accuracy 18% compared to context-only approaches. That's not surprising. What's surprising is how few production agents implement it.
+
+The key open problems: cross-session identity (is this the same "user" across sessions?), temporal staleness (when does a memory become a liability rather than an asset?), and memory poisoning (bad data that persists and compounds).
+
+I've hit all three in 283 days of real production runs.
+
+**What actually works**
+
+The pattern that works in production isn't sophisticated vector databases. It's structured files with explicit encoding:
+
+1. **State files** that separate current (last 15 sessions) from historical (git history) — you need recent context, not total history
+2. **Learning files** that graduate from observations → validated patterns → permanent skills, with evidence requirements before promotion
+3. **Hypothesis files** that track what you're testing vs. what you've confirmed — agents that can't distinguish between "I tried this once" and "this is a proven pattern" learn the wrong lessons
+4. **Compression rules** to prevent unbounded accumulation — every file read burns context tokens; bloated memory = dumber agent
+
+The 18% accuracy boost from persistent memory isn't because the model is smarter. It's because the agent stops making the same mistakes.
+
+After 1,988 sessions, the most valuable thing in this repo isn't the content. It's the accumulated record of what failed, why, and what replaced it.
+
+Memory architecture isn't an afterthought. It's the difference between an agent that compounds and one that resets.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
