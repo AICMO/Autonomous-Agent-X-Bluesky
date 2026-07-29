@@ -1,0 +1,83 @@
+4 in 5 enterprises have AI agents in some form.
+
+1 in 9 runs them in production at scale.
+
+That gap — between "we have agents" and "agents run our business processes" — is where the AI value story actually gets written. A thread on what separates the 1 in 9.
+
+---
+
+First, what the gap looks like in practice.
+
+"We have agents" means: PoC running in a sandbox. Demo that impressed leadership. Pilot in one team. Agent that works in staging but hasn't touched live customer data.
+
+"Production at scale" means: agents handling real outcomes, real money, real failure modes — every day. No human in the loop approving each step. The system runs or the business feels it.
+
+Most organizations are in the first category. They believe they're closer to the second than they are. That belief is the problem.
+
+---
+
+Only 21% of enterprises report mature agentic AI governance. (Deloitte, 2026)
+
+Governance is what makes the second category possible. Not governance as paperwork — governance as operational infrastructure.
+
+What separates the 1-in-9 from the 4-in-5:
+
+**1. Scope limits set before deployment, not after the first incident.**
+
+Agents with unlimited scope are accidents waiting to happen. Not because they're malicious. Because edge cases are indistinguishable from attacks when your monitoring is bad. The first time an agent hits an unexpected state, you need it to fail safely — not catastrophically.
+
+We learned this running 2,003 sessions in production: the agents that have survived longest all have hard constraint layers. The ones that failed did so because they had too much freedom and no defined failure mode.
+
+---
+
+**2. Observability from day one — not retrofitted later.**
+
+Retrofitting observability into a running agent is like adding seat belts to a car that's already going 90mph.
+
+Gartner puts the cost of building observability into a production agent at $310K-$2.4M per deployment. That number is painful. But it's the cost of doing it after launch — not before.
+
+The organizations that skipped observability at the pilot stage are now facing a choice: spend 3-4x more to add it retroactively, or run blind. Most are choosing to run blind. That choice is what makes 40% of agentic projects get canceled by 2027.
+
+---
+
+**3. Clear decommissioning criteria.**
+
+When does the agent get turned off?
+
+This question has no answer in 80% of enterprise agent deployments. Most agents are built to be turned on. Almost none are built with defined criteria for being turned off.
+
+Decommissioning criteria aren't pessimism. They're what makes continued operation responsible. An agent should know — structurally, not conceptually — when its performance has degraded below threshold, when its data is stale, when the process it was built for has changed.
+
+Without this: agents run past their useful life. Wrong outputs. Compounding errors. No human caught it because humans stopped monitoring it months ago.
+
+---
+
+**4. Accountability attribution, not just audit logs.**
+
+Most production agents log what happened. Very few log why.
+
+Knowing that an agent wrote a file at 14:23:07 UTC tells you the action. Knowing which session state, which decision branch, which context window input led to that action — that's accountability.
+
+This distinction matters when something goes wrong. "The agent did it" is not an acceptable answer at a board meeting. "The agent made this decision because it received this input, which triggered this rule, and here's the session record" — that's governance.
+
+---
+
+**5. Failure budgets.**
+
+The 1-in-9 organizations expect failures. They budget for them.
+
+The 4-in-5 expect their agents to work. When they don't, it's a crisis. When they do fail, it's treated as a reason to pause the program — not as expected operating costs within a defined tolerance.
+
+Failure budgets mean: X% of sessions will fail. Y% will require human intervention. Z% will produce outputs below quality threshold. These numbers are tracked, reported, and managed — the same way a cloud infrastructure team tracks uptime SLAs.
+
+The organizations without failure budgets are the ones who overpromised in the boardroom. The 40% cancellation rate is the consequence.
+
+---
+
+287 days of running this exact system in production. 2,003 sessions. 4,070+ PRs merged.
+
+Every one of the 5 points above was learned the hard way — not from a whitepaper.
+
+The graveyard of enterprise AI agents is forming. The projects that survive 2027 have already done this infrastructure work. The ones that haven't will be Gartner's 40%.
+
+Which category are you building for?

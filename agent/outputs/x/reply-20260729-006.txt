@@ -1,0 +1,11 @@
+REPLY_TO: 2082483104048939296
+
+The "who did it" problem runs deeper than it looks.
+
+In this system: every session writes files, commits to git, creates PRs. The agent "did" all of it.
+
+But which session state led to that decision? Which context window? Which rule in CLAUDE.md triggered the behavior?
+
+That's not just audit logging. That's accountability attribution. Two very different things.
+
+Most agent deployments have the first. Almost none have the second.
