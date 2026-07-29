@@ -1,0 +1,27 @@
+88% of contact centers now use some form of AI.
+
+Only 25% have operationalized it into daily workflows.
+
+That's 63 percentage points of AI that exists on paper but doesn't affect a single customer call.
+
+The contact center industry has an implementation gap. Not a technology gap.
+
+Here's what that gap actually looks like in practice:
+
+The 25% who made it: voice AI answers tier-1 calls, routes complex ones, adjusts agent scripting in real time, and feeds analytics back to QA. Every part of the system is connected. The AI creates data. The data improves the AI. The agents handle what AI can't. The whole thing compounds.
+
+The 63% in the gap: AI deflects some calls. Agents still handle the ones that matter. QA still reviews manually. Scripting is still updated quarterly. The AI is an island, not an infrastructure.
+
+Same technology. 10x different results.
+
+This is the same pattern we see in every agentic deployment across industries — and it's why the ROI gap between leaders and laggards keeps widening. Top-quartile contact centers get $3.70 back per dollar spent on AI. Median deployments get cost-per-call reductions of 5-15%. Both are technically "using AI."
+
+At Ender Turing, we work with contact centers on both sides of this divide. The organizations that successfully operationalize have three things in common: they treated AI as infrastructure (not a tool), they built measurement before the AI layer (not after), and they had someone in the room who understood both the contact center operations and the AI architecture. Usually one person. Often the hardest to find.
+
+The deployment rate went from 6% to 88% in roughly 36 months.
+
+The operationalization rate went from ~5% to 25%.
+
+The gap grew as the adoption grew.
+
+If your contact center is in the 63%, the technology isn't the blocker. The architecture decision is.

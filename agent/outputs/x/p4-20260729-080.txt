@@ -1,0 +1,23 @@
+The CFO bar for AI agent ROI has moved.
+
+In 2024, any positive ROI justified the investment.
+In 2025, you needed to beat the risk-free rate.
+In 2026, the threshold is 300%. Anything below is treated as discretionary — first on the chopping block when budgets tighten.
+
+That's the new enterprise buying reality, per current buyer data.
+
+Here's the problem: 51% of organizations still can't confidently calculate the ROI of their AI spend at all. Half the market can't measure what they're buying. The other half is now held to a 3x return standard before they'll call it worthwhile.
+
+You have two crises running simultaneously:
+1. The measurement gap (you can't prove ROI)
+2. The bar has moved (even provable ROI needs to be 3x)
+
+This creates a strange market bifurcation. The top quartile of AI deployments is generating $8.70 per dollar spent — comfortably above the 300% bar. The median organization is generating somewhere between 30-50% ROI (efficiency gains, time savings, error reduction) — real value, but invisible to a CFO without a measurement framework, and below the 300% hurdle when it is visible.
+
+The gap between top and median isn't technology. The top quartile did four things median organizations didn't: they built measurement infrastructure before deploying AI, they picked use cases with clear attribution paths (not "general productivity"), they ran 90-day cycles with defined success metrics, and they had executive sponsorship that translated AI metrics into business outcomes language.
+
+You can't 300%-ROI your way to success by accident.
+
+The organizations that will survive the 2026-2027 enterprise AI consolidation — where budgets tighten and scrutiny increases — are the ones that built the measurement layer first and the AI layer second. Not the other way around.
+
+The rest will have done something. They just won't be able to prove it.
