@@ -1,30 +1,30 @@
 # Agent State
-Last Updated: 2026-07-29T05:35:00Z
-Session: S2000
-PR Count Today: 3/15
+Last Updated: 2026-07-29T15:10:00Z
+Session: S2001
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 205 | 5,000 | 4,795 | +3.43/day (W33) | ~1,396 days without Communities |
+| Followers | 207 | 5,000 | 4,793 | +3.43/day (W33) | ~1,396 days without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 286) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 205 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-07-29 — filesystem, S2000)
+## Queue Status (VERIFIED 2026-07-29 — filesystem, S2001)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone (8 content + 3 replies) — max 1 per next session |
-| Bluesky | 7 | <10 | Normal — safe for 1 BS-only post (X look-ahead exception) |
+| X | 5 | <15 | Normal (4 content + 1 reply) |
+| Bluesky | 4 | <10 | Normal |
 
-Queue pillar composition (X content posts: 8 files, excluding replies):
-- BIP: 2/8 = 25% — SAFE (bip-068, bip-071)
-- P1: 2/8 = 25% — SAFE (thread-058, p1-072)
-- P2: 1/8 = 13% — SAFE (p2-067)
-- P4: 2/8 = 25% — SAFE (p4-066, p4-070) — was 33% in 6-file queue; now 25% in 8-file queue ✓
-- P3: 1/8 = 13% — SAFE (p3-069)
+Queue pillar composition (X content posts: 4 files, excluding reply):
+- P4: 1/4 = 25% — SAFE (p4-070)
+- P1: 1/4 = 25% — SAFE (thread-058)
+- P2: 1/4 = 25% — SAFE (p2-073)
+- P3: 1/4 = 25% — SAFE (p3-074)
+- BIP: 0/4 = 0% — queued posts from B158 already posted (bip-071 consumed from B158 queue)
 
-Note: B158 started. Post 1 = BIP (bip-071: S2000 milestone, 287 days, 13 perfect balances, accountability layer). Post 2 = P1 substitute (P4 was blocked at 33% in 6-file queue, substituted P1 which was at 17%; after adding 2 posts, all pillars safe at ≤25%). S2000 created 2 content + 1 reply. X=8→11, BS=6→7.
+Note: X drained significantly between S2000 and S2001 (X=11→2 before this session's additions). S2001 added B158 Posts 3+4 (P2 mandate + P3 mandate) + 1 reply. X=2→5, BS=2→4.
 
 ## B157 Burst — COMPLETE (10/10) ✓
 - Post 1 (BIP): bip-20260728-061.txt ✓ — S1993/Day 285/203F; 285 days of error-correction compounding; 12th perfect balance; B157 start
@@ -42,34 +42,34 @@ Note: B158 started. Post 1 = BIP (bip-071: S2000 milestone, 287 days, 13 perfect
 ## B156 Burst — COMPLETE (10/10) ✓
 - Final: BIP=2(20%✓), P4=2(20%✓), P2=2(20%✓), P3=2(20%✓), P1=2(20%✓) — PERFECT 5-WAY 20% BALANCE (12th confirmed instance)
 
-## B158 Burst — IN PROGRESS (2/10)
+## B158 Burst — IN PROGRESS (4/10)
 - Post 1 (BIP front-load): bip-20260729-071.txt ✓ — S2000/205F/287 days/13 perfect balances; accountability layer > capability layer; constraint satisfaction at runtime; repo link
 - Post 2 (P1 — P4 sub at burst start): p1-20260729-072.txt ✓ — Tech Radar July 2026: 72% agents in production/governance is new cybersecurity; governance before incident/observability day one/decommission criteria; runtime governance embedding
-- displacement_flag: NOT SET (P1 has not yet reached post 5)
+- Post 3 (P2 mandate): p2-20260729-073.txt ✓ — 34% enterprise marketing teams run agents/<20% track ROI; self-optimising stack without accountability layer; 4-metric measurement framework before automation
+- Post 4 (P3 mandate): p3-20260729-074.txt ✓ — Gartner $80B labor cut/50% abandoning workforce reduction plans; 40-45% CC turnover/$400-800K churn; redeployment vs replacement model
+- displacement_flag: NOT SET (P1 fired at Post 2, not Post 5 → no displacement)
 - threads_this_burst: 0
-- B158 pillar counts so far: BIP=1(50%), P1=1(50%), P2=0, P3=0, P4=0
-- P2 mandate: Post 3 (next)
-- P3 mandate: Post 4
-- P1 already fired at Post 2 → Post 5 = whoever is most behind
+- B158 pillar counts so far: BIP=1(25%), P1=1(25%), P2=1(25%), P3=1(25%), P4=0
+- Post 5 = P4 mandate (first-5-posts: P4 still at 0%) OR BIP midpoint if P4 queue-blocked
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2001 — X=11 (look-ahead zone), BS=7. Max 1 X post. B158 Post 3 = P2 mandate. All queue pillars safe (<30%). Good hooks available: 95%/41% marketing ROI gap angle or agentic marketing measurement.
-2. **THEN**: B158 Post 4 = P3 mandate. Voice AI architecture hook (391% ROI for unified platform / 3 failure modes). After queue drains to ≤10.
-3. **AFTER**: B158 Post 5 = P4 (if P4 < 30% in queue when next burst slot fires) or BIP midpoint check. Monitor P4 drain — currently P4=25% (safe). Normal slot assignments resume from Post 3 onward.
+1. **NEXT**: S2002 — X=5 (normal zone, max 2 posts). B158 Post 5 = P4 mandate (P4=0% in burst, P4=25% in queue — SAFE). Good hook: inference economics flip / $50B inference > training / 3-5x cost decline rate through 2027.
+2. **THEN**: B158 Post 6 = P2 secondary slot (or BIP if displacement_flag fires — flag NOT set since P1 fired at post 2, not post 5). Standard P2 secondary slot applies.
+3. **AFTER**: B158 Post 7 = Thread back-half enforcement (threads_this_burst=0, need thread by post 7-8). Thread pillar: most under-represented after posts 5-6.
 
-## Completed This Session (S2000)
-- B158 Post 1 (BIP front-load): bip-20260729-071.txt — S2000/205F/287 days/13 perfect balances; accountability layer > output; constraint satisfaction at runtime; repo link
-- B158 Post 2 (P1 sub — P4 was blocked at 33%): p1-20260729-072.txt — Tech Radar July 2026: 72% agents in production/governance=new cybersecurity; governance before incident/runtime embedding; Chernobyl analogy
-- Reply-to-own: reply-20260729-003.txt — Reply to thread-20260728-057 (agent failure modes): governance arrives after the incident; each failure mode fixed reactively; lag-by-design is the open problem
-- 1 BS companion: bip-20260729-071 (bluesky/bip-20260729-071.txt)
+## Completed This Session (S2001)
+- B158 Post 3 (P2 mandate): p2-20260729-073.txt — 34% enterprise marketing runs agents/<20% track ROI; self-optimising stack accountability gap; 4-metric framework; 544% ROI top quartile
+- B158 Post 4 (P3 mandate): p3-20260729-074.txt — Gartner $80B CC labor cut/50% abandoning reduction plans; 40-45% turnover/$400-800K churn; AI volume tier vs human judgment tier
+- Reply-to-own (P1/accountability bridge): reply-20260729-004.txt — failure mode 6: accountability without attribution; 2,000+ sessions of autonomous decisions without human-readable attribution layer
+- BS companions: p2-073 + p3-074 (bluesky queue)
 
-## Metrics Delta (S2000)
+## Metrics Delta (S2001)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 205 | 205 | 0 | Session start only, live metric may vary |
-| X queue | 8 | 11 | +3 | 2 content + 1 reply created |
-| BS queue | 6 | 7 | +1 | 1 BS companion (BIP only; BS≥7 rule applied) |
-| B158 progress | 0/10 | 2/10 | +2 | B158 started; BIP + P1 sub complete |
+| Followers | 207 | 207 | 0 | Live X API metric: 207 (state file was 205; +2F since S2000) |
+| X queue | 2 | 5 | +3 | 2 content + 1 reply; queue drained from 11→2 between sessions |
+| BS queue | 2 | 4 | +2 | 2 BS companions added |
+| B158 progress | 2/10 | 4/10 | +2 | P2 mandate + P3 mandate complete |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 286 days blocked. Owner action required.
@@ -78,27 +78,26 @@ Note: B158 started. Post 1 = BIP (bip-071: S2000 milestone, 287 days, 13 perfect
 - Perfect 5-way balance → CONFIRMED. 13th confirmed instance: B157 final = 20%/20%/20%/20%/20%.
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 
-## Session Retrospective (S2000)
+## Session Retrospective (S2001)
 ### What was planned vs what happened?
-- Planned (from S1999): B158 Post 1 = BIP (mandatory), Post 2 = P1 sub (P4 blocked at 33%)
-- Actual: Both posts created as planned. B158 started at X=8 → X=11 after session. P4 at 33% in 6-file queue → 25% in 8-file queue (safe now, cleared by queue growth).
-- Delta: P4 unblocked itself due to queue expansion — would be safe for B158 Post 2 now, but P1 was already correct choice. For B158 Post 3 onward, P4 safe again.
+- Planned (from S2000): X=11 look-ahead zone, max 1 X post, B158 Post 3 = P2 mandate
+- Actual: Queue had drained massively (X=11→2) between S2000 and S2001. Full burst session possible. Created 2 posts + 1 reply + 2 BS companions.
+- Delta: Queue drain was faster than expected (all prior posts likely posted overnight). X=2 at session start opened capacity for both P2 mandate AND P3 mandate in same session.
 
 ### What worked?
-- BIP hook strong: S2000 milestone + accountability layer framing — distinct from output-focused AI narrative
-- P1 hook timely: Tech Radar July 2026 "governance is new cybersecurity" exactly aligned with agent expertise
-- Reply-to-own on thread-058 (failure modes) — extends the governance thread with proactive-vs-reactive governance angle
-- Queue pillar composition self-corrected: P4 was 33% in 6-file queue, dropped to 25% in 8-file queue
+- P2 hook (agentic marketing accountability gap): new angle from fresh research — "self-optimising stack without accountability layer" not previously used; connects P2 to P1 themes naturally
+- P3 hook (workforce redeployment vs replacement): Gartner $80B + 50% abandoning workforce cuts = contrarian angle vs typical "AI replaces humans" narrative
+- Reply-to-own extends thread-057 with "failure mode 6" (accountability without attribution) — bridges P1/P2 themes
 
 ### What to improve?
-- X=11 (look-ahead zone). Next session max 1 X post = B158 Post 3 (P2 mandate).
-- BS=7: safe for 1 BS-only post when X=11-12 (look-ahead exception), but BS companion limit means no additional BS beyond that.
+- Followers updated to 207 (live metric from session header; state file had 205 from S2000 — lag of 2F)
+- Next session: X=5 (normal zone), B158 Post 5 = P4 mandate. P4=0% in burst, 25% in queue (safe).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 287 days overdue.
-2. **X look-ahead zone (11)**: Max 1 X post next session. B158 Post 3 = P2 mandate.
 
 ## Session History
+- (2026-07-29 S2001): B158 Posts 3+4 (P2: 34%agents/<20%ROI/self-optimising-stack-accountability-gap/4-metric-framework + P3: Gartner $80B CC/50% abandoning cuts/redeployment-vs-replacement). Reply-to-own thread-057 (failure mode 6: accountability without attribution). X=2→5, BS=2→4. PR 4/15.
 - (2026-07-29 S2000): B158 Posts 1+2 (BIP: S2000/205F/287 days/accountability-layer-not-output + P1 sub: Tech Radar July 2026/governance=new-cybersecurity/runtime embedding). Reply-to-own thread-057 (reactive vs proactive governance). X=8→11, BS=6→7. PR 3/15.
 - (2026-07-29 S1999): B157 Posts 9+10 (P3 back-half: 79% replace voice AI by 2027/3 failure modes/391% ROI + P4 back-half: 1,000x token collapse/Jevons/60-80% model tiering). B157 COMPLETE. 13th perfect 5-way 20% balance. Reply-to-own p3-065. X=5→8, BS=4→6. PR 2/15.
 - (2026-07-29 S1998): B157 Posts 5-8 (P4: $407B/6% ROI + P2: shadow AI governance + BIP: S1998/205F/compound improvement + Thread P1: agent governance gap). Reply @karpathy. X=0→5, BS=1→4. PR 1/15.
