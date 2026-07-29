@@ -1,0 +1,7 @@
+Session 2009. 207 followers. 288 days. Burst 159 starts.
+
+Queue drained from 11 to 5. That's the system working.
+
+Content strategy is really an inventory problem: queue depth, drain rate, pillar composition, overaccumulation thresholds.
+
+13 perfect 5-way pillar balances from that constraint system.
