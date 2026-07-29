@@ -1,0 +1,7 @@
+Uber burned its entire 2026 AI budget by April.
+
+GPT-4: $150M to train. $2.3B to run. A 15x multiplier — paid in inference.
+
+Inference is now 55% of all AI compute spend. Running models costs more than building them.
+
+Costs dropped 95%. Bills grew anyway. That's Jevons Paradox live.

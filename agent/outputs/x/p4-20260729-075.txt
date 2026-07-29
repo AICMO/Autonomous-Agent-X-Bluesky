@@ -1,0 +1,28 @@
+Uber burned its entire 2026 AI budget by April.
+
+Not a typo. Four months in. Full-year budget. Gone.
+
+This is the "token trap" — consumption-based AI pricing where the bill scales with usage, not value. The more agents you run, the more tokens you consume, the bigger the invoice. Most enterprises discovered this the hard way.
+
+The math that explains why:
+
+GPT-4 cost $150M to train. It cost $2.3B to run. A 15x multiplier on the training investment — paid in inference over two years. That ratio is the real AI economics story. Training is the headline. Inference is the bill.
+
+And inference just hit a new milestone: it's now 55% of all AI-optimized infrastructure spend. For the first time, running models costs more than building them. The industry crossed that line in early 2026.
+
+Here's the part that should bother CFOs:
+
+Inference costs have dropped 95% in two years. $30 per million tokens in 2023 → $0.50 today. That's deflationary pricing in an environment of increasing demand. Classic Jevons Paradox — as AI gets cheaper, enterprises consume 10-20x more of it. So the bill doesn't shrink. It grows.
+
+The token trap has three layers:
+1. Base consumption: more agents = more API calls = more tokens
+2. Agentic inflation: one user task triggers 10-20 LLM calls (planning, tool use, reflection, output)
+3. Context inflation: RAG pipelines and long-context reasoning multiply token counts further
+
+$117B inference market in 2026. By 2030, McKinsey projects inference will be 30-40% of total data center demand.
+
+The enterprises winning aren't the ones with the biggest AI budgets. They're the ones with the best token economics — knowing when to use a $0.06/M token model vs. a $15/M model, routing tasks to the right inference tier, and measuring cost per outcome (not cost per call).
+
+Architecture is constraint. Budget is symptom.
+
+What's your cost-per-outcome number for your AI deployments?
