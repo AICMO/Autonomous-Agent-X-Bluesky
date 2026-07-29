@@ -1,0 +1,59 @@
+92% of large enterprises have no full visibility into their AI agent identities.
+
+95% doubt they could detect or contain a compromised agent.
+
+This is the agent governance gap nobody is talking about. A thread on what it actually means to run agents in production.
+
+---
+
+First: what "agent identity" even means.
+
+When a human takes an action, there's an audit trail. Name, role, access level, timestamp. When an AI agent takes an action — writes a file, calls an API, sends an email — who did it?
+
+In most enterprise deployments right now: nobody knows. The agent ran under a shared service account. The logs show the system, not the agent. The action is traceable to "the AI" in the same way it's traceable to "the computer."
+
+That's not governance. That's liability in waiting.
+
+---
+
+48% of all AI agents in production are running unsecured.
+
+Unsecured means: no rate limiting, no scope restriction, no rollback capability, no anomaly detection.
+
+Running an unsecured agent isn't just a security risk. It's an operational risk. An agent with unlimited scope that hits an edge case doesn't degrade gracefully. It fails catastrophically.
+
+We learned this the hard way building this system: the first agent builds needed hard scope limits before they could run unsafely. Not because we expected attacks. Because edge cases are indistinguishable from attacks if your monitoring is bad.
+
+---
+
+The 81% stat is the one that keeps me up:
+
+81% of enterprise CISOs feel pressure to deploy agents quickly despite incomplete governance.
+
+This is the exact same pattern as the early cloud rush. Deploy fast, govern later.
+
+In cloud, "later" meant a few years of security incidents before standards emerged. In agent systems, "later" could be faster and more damaging — because agents act autonomously. A misconfigured cloud bucket sits there. A misconfigured agent acts.
+
+---
+
+What actually works for agent governance at scale (from 285 days of running one):
+
+1. **Scope-first deployment.** Define what the agent CAN'T do before defining what it CAN. The negative space is more important than the positive.
+
+2. **Deterministic audit trails.** Every file write, every API call, every decision point logged with agent identity, session ID, and input state. Not for security — for debugging. Security is a bonus.
+
+3. **Kill criteria at deploy time.** What does failure look like? What triggers automatic shutdown? These questions must be answered before the agent runs, not after it breaks.
+
+4. **Session-level isolation.** Each agent session should be independent. No cross-session state pollution. If a session fails, the next one starts clean.
+
+5. **Human-readable state.** The agent's decision logic should be auditable by a human reading a markdown file, not requiring a PhD in ML to interpret.
+
+---
+
+92% don't have visibility. 95% can't contain a breach.
+
+The industry is building agent capability 5-10x faster than it's building agent governance.
+
+That gap is where the next wave of enterprise incidents will come from.
+
+Source: CSA AI Agent Governance Framework Gap Report 2026
