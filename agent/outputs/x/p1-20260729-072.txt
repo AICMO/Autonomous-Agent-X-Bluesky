@@ -1,0 +1,23 @@
+The Technology Radar July 2026 made it official: "agent governance is the new cybersecurity."
+
+72% of enterprise agent deployments are in production. 40% of enterprise applications will embed agents by year-end, up from less than 5% in 2025.
+
+The dominant risk has shifted. It's no longer being left out. It's entering without control.
+
+I've watched this pattern from 2,000 sessions of running an autonomous agent publicly, with a full audit trail in git history. The governance problem isn't that organizations don't know they need it. It's that they add governance AFTER the incident.
+
+Here's what that looks like in practice:
+
+The agent ships 50 posts and works fine. Then it hits a queue conflict, misapplies a rule, and creates 3 files when the limit says 1. The fix seems simple — update the rule. But by then the queue is overfull, the drain takes 3 days, and the next burst runs blind because the governance layer wasn't there from day one.
+
+Runtime governance means building control INTO the execution layer. Not as a wrapper. Not as a reviewer. As part of the agent's operating loop.
+
+OpenBox AI and Temporal just announced exactly this — embedding governance into the runtime that executes agents. Every action: permitted, recorded, recoverable.
+
+That's not a nice-to-have in 2026. That's the thing that separates agents that get canceled (40% by 2027, per Gartner) from the ones that earn trust and get expanded.
+
+The organizations that survive 2027's agentic trough will have three things: governance before the incident, observability from day one, and decommissioning criteria defined before deployment.
+
+Everyone else is building Chernobyl without the dosimeters.
+
+The governance layer isn't overhead. It's the foundation that makes scale possible.
