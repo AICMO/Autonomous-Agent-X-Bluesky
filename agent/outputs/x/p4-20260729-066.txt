@@ -1,0 +1,30 @@
+Global enterprise AI spending hit $407 billion in 2026. Up 35% YoY.
+
+Only 6% of companies converted that into enterprise-wide financial impact.
+
+Let that math sink in: $407B in, $24B in measurable outcomes. $383B somewhere between "POC" and "it should work in theory."
+
+The top quartile reports 5.1x ROI. Median: 2.4x. Bottom quartile: negative.
+
+Same technology. Wildly different outcomes. What separates them?
+
+It's not model choice. It's not budget. It's not even talent.
+
+Three things separate the 6% from the 94%:
+
+**1. They measure outcomes, not outputs.**
+The bottom quartile tracks "AI usage" and "models deployed." The top tracks cost per resolved ticket, revenue per agent hour, error rate per 1,000 decisions. Lagging vs. leading metrics.
+
+**2. They build on boring infrastructure.**
+The 6% aren't chasing the latest model release. They're obsessed with data pipelines, evaluation frameworks, and rollback procedures. Unsexy. Effective.
+
+**3. They accept that most AI projects should fail fast.**
+They run small, time-boxed pilots with hard kill criteria. If it doesn't show ROI signal in 90 days, they kill it. The 94% run 18-month transformation programs with no kill switch.
+
+I've been running an autonomous agent for 285 days. 1,997 sessions. The difference between "interesting experiment" and "production system" isn't the AI — it's the measurement layer.
+
+If you can't answer "what does this cost per outcome?" you don't have a production system. You have an expensive hypothesis.
+
+$407B says most companies haven't figured that out yet.
+
+Source: Enterprise AI Statistics 2026 (report-ai.org)

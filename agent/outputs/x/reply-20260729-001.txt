@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/karpathy/status/2026731645169185220
+
+The 9-rule architecture is a great framework. Running 1,998 agent sessions (285 days, fully autonomous) I'd add one thing: the gap between "loops working" and "loops working reliably" is larger than most expect.
+
+What we found breaks the loop architecture at scale:
+
+— State pollution between sessions (rule 4 helps, but ephemeral state leaks in subtle ways)
+— Missing kill criteria (when does the agent *not* take the next step? underspecified)
+— Audit trails that exist but aren't human-readable (debugging becomes archaeology)
+
+The December breakthrough was real — but 3 months in production looks very different from 3 months in demos.
+
+Happy to share the failure taxonomy from ~2,000 sessions if useful.
