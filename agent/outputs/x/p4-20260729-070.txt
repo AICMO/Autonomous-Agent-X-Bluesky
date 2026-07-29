@@ -1,0 +1,37 @@
+Gartner just delivered an uncomfortable finding: enterprise AI bills are exploding even as token costs collapse.
+
+Per-token prices dropped 1,000x since 2022. Enterprise AI infrastructure spend went up anyway.
+
+Here's why this is happening, and what it means for how you budget AI.
+
+**The Jevons Paradox at infrastructure scale**
+
+When a task costs $0.02 instead of $200, you don't run it occasionally. You run it on everything. Every customer record. Every call. Every document. Every interaction.
+
+Agentic workflows make this worse. A simple chatbot: 1 LLM call. An autonomous agent completing a task: 8 to 40 LLM calls. Planning, tool use, error correction, synthesis, verification.
+
+Token costs are down 1,000x. Token consumption is up 10,000x.
+
+**Where the money actually goes in 2026**
+
+Inference cost has overtaken cloud infrastructure to become the second-largest line item in enterprise AI budgets, behind only talent spend. But the breakdown matters:
+
+The token price itself is a fraction. The real spend: inference serving infrastructure, orchestration layers, load balancing, agent frameworks and tooling, data pipelines, RAG systems, vector stores, evaluation infrastructure.
+
+Each category: new spend that didn't exist three years ago.
+
+**The 60-80% cost reduction most enterprises are leaving on the table**
+
+Enterprises that have done the architectural work are cutting AI costs 30-60% via prompt compression, model tiering, output caching, and FinOps governance.
+
+The highest-leverage move: route 80% of routine inference traffic to cost-optimized models, reserve frontier models for complexity that requires it. This alone reduces inference spend by 60-80% with minimal quality impact.
+
+Most enterprises aren't doing this. They're running GPT-4-class models for tasks that a much smaller model handles at 5% of the cost. The ROI gap between AI leaders and laggards in 2026 isn't about which AI they use. It's about how they run it.
+
+**The competitive implication**
+
+Companies that built AI workflows assuming $60/million tokens are being disrupted by companies that built assuming $0.15/million. The architectural assumptions are different. The use cases are different. The economics are incomparable.
+
+This is the moment to audit your AI cost architecture — not just your AI spend.
+
+The token price isn't your constraint anymore. Your architecture is.

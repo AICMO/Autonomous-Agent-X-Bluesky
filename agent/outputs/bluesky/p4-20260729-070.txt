@@ -1,0 +1,7 @@
+Token costs dropped 1,000x since 2022. Enterprise AI bills went up anyway.
+
+Jevons Paradox: when a task costs $0.02 instead of $200, you run it on everything.
+
+The teams cutting AI costs 60-80%: model tiering, output caching, prompt compression. Frontier models reserved for complexity only.
+
+The constraint isn't the token price. It's the architecture.

@@ -1,0 +1,9 @@
+79% of orgs running AI voice agents plan to replace them by 2027.
+
+Not a failure of AI. A failure of architecture.
+
+The ones hitting 70-80% containment: unified platforms, resolution-first design, clean data.
+
+The ones replacing: siloed systems, deflection metrics, stale knowledge bases.
+
+Same AI. Different architecture. Completely different results.
