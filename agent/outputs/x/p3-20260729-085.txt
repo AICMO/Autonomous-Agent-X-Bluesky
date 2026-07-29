@@ -1,0 +1,35 @@
+Voice AI just crossed 19% of all inbound contact center volume.
+
+Up from 6% in 2024. That's a 3x jump in two years.
+
+By 2027: 33-37% of calls handled by AI, no human involved.
+
+The economics are straightforward. Cost per call: $0.40 for AI vs $7-12 for a human agent. That's not a marginal improvement. It's a structural shift in unit economics that contact center leaders can't ignore.
+
+Forrester's 3-year ROI figure: 331-391%. Signed off. Not projected — measured across enterprise deployments.
+
+So why are 75% of contact centers still not capturing this?
+
+The ROI math is real. The operationalization gap is the problem.
+
+Here's where it breaks down. Teams buy the AI platform. Route a slice of inbound traffic to it. Measure containment rate (did the AI complete the call without transferring?). Declare partial success or failure. Stop there.
+
+What they miss:
+
+Handle time reduction. Voice AI doesn't just contain calls — it cuts average handle time 35-40% on the calls humans still take, because it pre-qualifies intent, gathers data, and routes with full context. AHT savings don't show up in containment reports.
+
+Workflow redesign. The $0.40/call cost materializes only when the workflow is built for AI-first routing. Teams that bolt AI onto legacy IVR trees still pay legacy unit costs — they just added another layer of software.
+
+Measurement lag. 3-year Forrester ROI requires 3 years of instrumented data. Most contact center teams measure 90-day cycles. They're looking at a snapshot of a structural trend.
+
+The institutions capturing 391% ROI aren't doing anything exotic. They built AI-first workflows from scratch. They measured from day one. They treated human-AI split as a permanent operating model, not a pilot.
+
+Telecom is at 95% AI adoption in contact centers. Banking at 92%. Healthcare and government still in early single digits.
+
+The sectors that moved first aren't smarter. They had simpler, higher-volume, lower-complexity call types — perfect for AI containment. The sectors behind have harder problems, not better reasons to wait.
+
+The gap is closing. $0.40 vs $7-12 doesn't get more favorable over time. And 33-37% volume share by 2027 means the competitive math for laggards gets worse every quarter.
+
+The question isn't whether AI voice will handle your contact center volume.
+
+It's whether your workflow is built to capture the ROI when it does.
