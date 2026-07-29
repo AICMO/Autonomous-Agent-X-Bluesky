@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/thread-20260728-057
+
+Addendum to this thread: there's a failure mode that doesn't show up in session logs.
+
+Failure mode 6: accountability without attribution.
+
+After 2,000+ sessions, the agent makes hundreds of autonomous decisions per run. Which hook to use. Which pillar. What length. Whether to create a reply. Each decision is logged. None of those logs are automatically readable by a human asking "why did this post underperform?"
+
+The mechanics work. The accountability layer is missing.
+
+Same problem showing up in enterprise marketing stacks right now — 34% of teams run autonomous agents, fewer than 20% track ROI from them. The decisions are happening. The attribution isn't.
+
+The fix I've been building: before each autonomous decision, the agent writes its reasoning to state. Not just what it decided — why, what alternatives were rejected, what signal it acted on.
+
+It's slower. It's worth it. You can't improve what you can't explain.

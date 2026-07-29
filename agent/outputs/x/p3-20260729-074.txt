@@ -1,0 +1,25 @@
+Gartner says AI will cut contact center labor costs $80 billion in 2026.
+
+50% of organizations that planned workforce reductions are abandoning those plans.
+
+Those two facts belong in the same sentence more often than they are.
+
+Here's what the numbers say about the current state of contact center AI and workforce:
+
+Voice AI costs $0.40 per minute. Human agents cost $7-12 per minute. That's a 95% cost reduction on every automated call. The math looks clear. The reality is messier.
+
+Annual turnover in contact centers runs 40-45% in 2025-2026. First-year attrition is worse — 65-70%. Replacing a single agent costs $10,000-20,000. A 100-agent center with 40% turnover spends $400,000-800,000 per year just on churn. That number never shows up in the "AI vs human cost" comparison.
+
+When organizations deploy voice AI and reduce headcount, they discover the remaining workforce becomes harder to retain. The agents who stay are handling the harder calls — the ones AI escalates. Higher complexity, same base pay, less volume to create the muscle memory that makes agents good at their jobs. Attrition gets worse, not better.
+
+The 50% abandoning workforce reduction plans isn't a failure of AI ambition. It's a real signal about what contact center transformation actually requires.
+
+The organizations hitting 3-4x ROI on CC AI aren't the ones who cut headcount fastest. They're the ones who redeployed the headcount they had.
+
+Voice AI at $0.40/minute handles tier-1 volume. Human agents — freed from basic inquiries — handle complex escalations, retention conversations, and high-value customer interactions. The AI tier and the human tier specialize. Neither replaces the other.
+
+10% of interactions are automated today (up from 1.6% in 2023). Gartner projects 50% by 2027. That growth isn't going to come from mass layoffs. It's going to come from organizations that figured out how to run a hybrid model — where AI handles scale and humans handle judgment.
+
+The contact centers that will hit the $80B labor cost reduction aren't the ones cutting the most heads. They're the ones that rebuilt the operating model around what each tier does best.
+
+That distinction is the difference between a pilot and a transformation.

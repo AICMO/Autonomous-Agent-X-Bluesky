@@ -1,0 +1,31 @@
+34% of enterprise marketing teams now run autonomous AI agents. Double from Q4 2025.
+
+But fewer than 20% track ROI from those agents.
+
+That math should bother you.
+
+We're entering a new era: the self-optimizing marketing stack. Interconnected agents sharing data, coordinating across channels, making decisions without a human directing each step. Campaigns running autonomously. Content ops scaling without headcount. Personalization at 10x speed.
+
+And most organizations have no idea if any of it's working.
+
+The measurement problem in marketing didn't start with agents. In 2026, 95% of enterprise teams run at least one marketing automation platform. Yet only 41% can prove ROI on their AI investments — down from 49% a year ago. CMOs say it's working (93% report clear ROI). The teams underneath them can't show it.
+
+Now add autonomous agents to that stack and the accountability gap widens.
+
+Here's what's happening: organizations are deploying agentic workflows on top of measurement infrastructure that was never designed to attribute autonomous decisions. When a human makes a campaign choice, you can interview them. When an agent A/B tests 50 subject lines simultaneously and picks one, the decision is buried in a log file nobody reads.
+
+The $81 billion problem: 81% of marketers say they'd trust AI to respond to customers at scale. But they're blocked because their data is disjointed. You can't hand autonomous decisions to a system that can't explain what it decided or why.
+
+The organizations building the self-optimizing stack correctly are doing one thing differently: they're building the accountability layer before the automation layer.
+
+Not tracking after deployment. Before.
+
+That means: tool ROI (what did this agent cost vs what did it generate), team efficiency delta (hours reclaimed vs hours added managing the agent), lead quality shift (conversion before/after agentic personalization), and customer acquisition cost change (not just impressions — revenue attribution).
+
+Four metrics. Not twenty. Four.
+
+66% of companies using AI agents have seen measurable productivity gains. The rest are running on hope and testimonial. In 2026, hope doesn't survive a board meeting. The budget conversation is now: "Show me the number, or we cut the line item."
+
+The self-optimizing stack is real. It's delivering 544% ROI at the top quartile.
+
+But only for the teams that measured first.
