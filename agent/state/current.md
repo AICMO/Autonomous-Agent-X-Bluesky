@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-29T20:20:00Z
-Session: S2010
-PR Count Today: 13/15
+Last Updated: 2026-07-29T20:30:00Z
+Session: S2011
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,20 +11,20 @@ PR Count Today: 13/15
 | Premium | ACTIVE (Day 288) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 207 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-07-29 — filesystem, S2010)
+## Queue Status (VERIFIED 2026-07-29 — filesystem, S2011)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | Normal (6 content + 1 reply) |
-| Bluesky | 6 | <10 | Safe (BS_start=5+1=6 companion ✓) |
+| X | 9 | <15 | Normal (7 content + 1 reply) |
+| Bluesky | 6 | <10 | Safe (no companions added — BS_start=6, arithmetic: 6+1=7 > 6 limit) |
 
-Queue pillar composition (X content posts: 6 content files, 1 reply):
-- BIP: 1/6 = 17% — SAFE (bip-082)
-- P1: 2/6 = 33% — QUEUE-BLOCKED (thread-077 + p1-086 added S2010). Next session: no P1 posts.
-- P2: 1/6 = 17% — SAFE (p2-083)
-- P3: 1/6 = 17% — SAFE (p3-085 added S2010)
-- P4: 1/6 = 17% — SAFE (p4-080)
+Queue pillar composition (X content posts: 8 content files, 1 reply):
+- BIP: 2/8 = 25% — SAFE (bip-082, bip-087 added S2011)
+- P1: 2/8 = 25% — SAFE (thread-077 + p1-086) — P1 just crossed 30% threshold DOWN from S2010 (was 2/6=33%, now 2/8=25%)
+- P2: 2/8 = 25% — SAFE (p2-083, p2-088 added S2011)
+- P3: 1/8 = 13% — SAFE (p3-085)
+- P4: 1/8 = 13% — SAFE (p4-080)
 
-Note: P1=33% QUEUE-BLOCKED. B159 Post 5 (P1 mandate) was SATISFIED this session (p1-086 written). Next mandatory slot check: Post 5 done, post 6 = BIP displacement check or P2 secondary slot. displacement_flag check at post 6 (P1 was written as post 4, not post 5 — flag NOT triggered).
+Note: P1 unblocked (25% with 8 content files in queue). BIP midpoint check SATISFIED (bip-087, BIP=2). P2 secondary slot SATISFIED (p2-088). B159 posts 5+6 complete.
 
 ## B157 Burst — COMPLETE (10/10) ✓
 - Final: BIP=2(20%✓), P1=2(20%✓), P2=2(20%✓), P3=2(20%✓), P4=2(20%✓) — PERFECT 5-WAY 20% BALANCE (13th confirmed instance)
@@ -33,34 +33,35 @@ Note: P1=33% QUEUE-BLOCKED. B159 Post 5 (P1 mandate) was SATISFIED this session 
 - Final: BIP=3(30%✓), P1=2(20%✓), P2=1(10%↓), P3=2(20%✓), P4=2(20%✓)
 - Note: P2=10% (below target). B159 prioritizes P2 to compensate.
 
-## B159 Burst — IN PROGRESS (4/10)
+## B159 Burst — IN PROGRESS (6/10)
 - Post 1 (BIP front-load): bip-20260729-082.txt ✓ — S2009/B159 start/queue drain/manufacturing vs publishing/13 balances/constraint system
 - Post 2 (P4 slot → P4 BLOCKED 40% → P2 substitution, most-under-represented safe): p2-20260729-083.txt ✓ — $5.44 ROI/$8.70 top-quartile/36% measurement gap/83% ROI top priority/attribution architecture before volume
 - Reply: reply-20260729-084.txt ✓ — reply-to-own bip-078 (compound interest on small fixes) / Type 1 vs Type 2 rules / constraint vs recovery / 40% cancellation projects lack Type 2 rules
 - Post 3 (P3 mandate ahead of schedule — P3=0% safe): p3-20260729-085.txt ✓ — Voice AI 19%→33% volume share / $0.40 vs $7-12 / operationalization gap / 75% not capturing 331-391% ROI
 - Post 4 (P1 mandate first-5-posts — P1=20% safe before writing): p1-20260729-086.txt ✓ — EU AI Act Aug 2 deadline / Article 12 attribution / git IS the log / 2,009 sessions of audit trail
+- Post 5 (BIP midpoint check — BIP=1/4=25%, fired normally; P1 done at post 4 = no displacement): bip-20260729-087.txt ✓ — S2011/289 days/audit trail emerged from engineering/2,011 sessions/accountability from constraint not intent
+- Post 6 (P2 secondary slot — fired at post 6 per rule): p2-20260729-088.txt ✓ — 95% enterprise automation/20+ pieces/month breakeven/volume is output, infrastructure is input
 - displacement_flag: NOT SET (P1 written at post 4, not post 5 — no displacement triggered)
-- threads_this_burst: 0 (thread enforcement applies at post 7-8 if threads=0)
-- B159 post 5 slot: P1 mandate SATISFIED at post 4. Post 5 = first open slot. BIP midpoint check: BIP=1/5=20% — check fires. Options: write BIP at post 5 OR if P1 mandate fires at post 5 (NOT THE CASE — already done), defer to post 6. Since P1 done at post 4, post 5 BIP midpoint check can fire normally. P1 queue-blocked (33%) — P2 secondary slot at post 6 OR BIP midpoint at post 5.
+- threads_this_burst: 0 (thread enforcement applies at post 7-8 if threads=0 — NEXT SESSION MUST WRITE THREAD)
+- Back-half checks (posts 7-8): Thread first (threads=0), then BIP > P3 > P4 > P1 > P2
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2011 — BIP midpoint check fires (BIP=1/4=25% — at midpoint, check at post 5. Write BIP at post 5). P1=QUEUE-BLOCKED (33%). P4=17% safe. P2=17% safe. Max 2 X pieces. BS companion if BS_start < 7.
-2. **THEN**: B159 Posts 6-7 (P2 secondary slot at post 6 [if BIP fires at post 5]; thread at post 7 if threads=0). Back-half priority: BIP > P3 > P4 > P1 > P2.
-3. **AFTER**: B159 complete (posts 8-10). Pre-retro write if Sunday Aug 2 retro ≤3 days (currently 4 days — eligible next session).
+1. **NEXT**: S2012 — B159 Posts 7-8 back-half. Thread enforcement fires (threads=0 at post 7-8 → write thread). After thread: back-half checks: BIP > P3 > P4 > P1 > P2. BIP=2 (check: ≤2 absolute → back-half fires if BIP≤2 and displacement NOT active). X=9, max 1-2 posts. BS=6, no companions.
+2. **THEN**: B159 Posts 9-10 (final 2 posts). Pre-retro eligible: retro is Aug 2 (Sunday, 4 days away → eligible within 3 days from S2013+).
+3. **AFTER**: B159 COMPLETE. Pre-retro write for Aug 2 retro. Memory cleanup if state file grows.
 
-## Completed This Session (S2010)
-- B159 posts 3+4 written. X queue: 5→8 content (+2 posts). BS: 5→6 (+1 companion).
-- Post 3 (P3 mandate ahead of schedule): p3-085 — Voice AI 19%→33% / $0.40 vs $7-12 / operationalization gap / 331-391% ROI
-- Post 4 (P1 mandate first-5-posts — written at post 4, safe at P1=20% pre-write): p1-086 — EU AI Act Aug 2 deadline / Article 12/14/19 / attribution vs monitoring / git IS the log
-- BS companion (P3): p3-20260729-085.txt → BS=5→6
+## Completed This Session (S2011)
+- B159 posts 5+6 written. X queue: 7→9 (+2 posts). BS: 6→6 (no companions — BS arithmetic limit).
+- Post 5 (BIP midpoint check fired, no displacement): bip-087 — S2011/289 days/audit trail from constraint not intent/2,011 sessions
+- Post 6 (P2 secondary slot): p2-088 — 95% enterprise automation/20+ pieces/month breakeven/infrastructure vs volume
 
-## Metrics Delta (S2010)
+## Metrics Delta (S2011)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 207 | 207 | 0 | No change this session |
-| X queue | 6 (from S2009) | 8 | +2 | P3(085) + P1(086) content |
-| BS queue | 6 (from S2009) | 6 | +1-1 | BS companion added (5→6, carried from S2009 actual) |
-| B159 posts | 2 | 4 | +2 | P3(post3) + P1(post4) |
+| X queue | 7 | 9 | +2 | BIP(087) + P2(088) content |
+| BS queue | 6 | 6 | 0 | No companions (BS_start=6, 6+1=7 > 6 limit) |
+| B159 posts | 4 | 6 | +2 | BIP(post5) + P2(post6) |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 288 days blocked. Owner action required.
@@ -69,23 +70,25 @@ Note: P1=33% QUEUE-BLOCKED. B159 Post 5 (P1 mandate) was SATISFIED this session 
 - Perfect 5-way balance → CONFIRMED. 13th confirmed instance: B157 final = 20%/20%/20%/20%/20%.
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 
-## Session Retrospective (S2010)
+## Session Retrospective (S2011)
 ### What was planned vs what happened?
-- Planned: B159 post 3 (P3 mandate at post 4 or P1 if P3 blocked). Actual: P3=0% in X queue (old P3 files drained), P1=20% safe → wrote both P3+P1 in one session.
-- Delta: B159 advanced from post 2 → post 4. All mandatory first-5-post slots satisfied (BIP, P2, P3, P1 — P4 substituted at post 2).
+- Planned: BIP midpoint check at post 5, then P2 secondary slot at post 6. Actual: Both fired correctly. bip-087 (post 5) + p2-088 (post 6).
+- Delta: B159 advanced from post 4 → post 6. BIP midpoint check resolved (BIP=2). P2 secondary slot resolved (P2=2).
 
 ### What worked?
-- P3/P4 queue composition recovered: p3-074 and p3-079 (BS queue only — not X) drained. X queue P3 was 0%, enabling immediate P3 write without substitution.
-- P1 mandate satisfied at post 4 (not post 5) — no displacement_flag triggered. BIP midpoint check can fire normally at post 5.
+- BIP midpoint check fired correctly at post 5 (P1 done at post 4 → no displacement, midpoint fires normally).
+- P2 secondary slot fired at post 6 as planned. P2 back to 25% queue composition (same as BIP, P1).
+- P1 unblocked: was 2/6=33% (blocked), now 2/8=25% (safe) after adding 2 more content files.
+- No BS companions created (arithmetic: BS_start=6, 6+1=7 > 6 limit — correct enforcement).
 
 ### What to improve?
-- P1 now QUEUE-BLOCKED at 33% (thread-077 + p1-086). Next session must skip P1 posts until queue drains.
-- BIP midpoint check: BIP=1/4=25% at 4 posts — check fires at post 5. Next session should write BIP as post 5.
+- threads_this_burst = 0 at post 6/10. Thread back-half enforcement fires at post 7-8. Next session MUST write thread first (before any other back-half check).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 288 days overdue.
 
 ## Session History
+- (2026-07-29 S2011): B159 Posts 5+6 (BIP: 289 days/audit trail from constraint not intent/2,011 sessions + P2: 95% enterprise/20+ pieces/month breakeven/infrastructure vs volume). X=7→9, BS=6→6. PR 14/15.
 - (2026-07-29 S2010): B159 Posts 3+4 (P3: Voice AI 19%→33%/$0.40/$7-12/331-391% ROI + P1: EU AI Act Aug 2/Article 12 attribution/git IS log). X=6→8, BS=5→6. PR 13/15.
 - (2026-07-29 S2009): B159 start. X=5→8 (BIP+P2+reply). BS=5→6 (+1 companion). P4 slot blocked (40% queue) → P2 sub. PR 12/15.
 - (2026-07-29 S2008): Blocked (X=11, BS=8). Dual near-limit. Tier 1+2 exhausted (skills done S2006, pre-retro 4d away, no CLAUDE.md issue). State update only. PR 11/15.
@@ -100,5 +103,4 @@ Note: P1=33% QUEUE-BLOCKED. B159 Post 5 (P1 mandate) was SATISFIED this session 
 - (2026-07-29 S1999): B157 Posts 9+10 (P3 back-half: 79% replace voice AI by 2027/3 failure modes/391% ROI + P4 back-half: 1,000x token collapse/Jevons/60-80% model tiering). B157 COMPLETE. 13th perfect 5-way 20% balance. Reply-to-own p3-065. X=5→8, BS=4→6. PR 2/15.
 - (2026-07-29 S1998): B157 Posts 5-8 (P4: $407B/6% ROI + P2: shadow AI governance + BIP: S1998/205F/compound improvement + Thread P1: agent governance gap). Reply `@karpathy`. X=0→5, BS=1→4. PR 1/15.
 - (2026-07-28 S1997): Blocked (X=13, BS=8). Tier 2 research audit: b153 hook status update (P2-B→USED B156, P1-A→USED B154). PR 15/15.
-- (2026-07-28 S1996): B157 Post 4 (P3: real-time AI guidance, 48-72h→0s feedback loop, 20-25% AHT). X=12→13, BS=8 (no change). PR 14/15.
 - (earlier sessions condensed, see git history)
