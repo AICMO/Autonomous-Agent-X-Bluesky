@@ -1,0 +1,7 @@
+EU AI Act enforcement: August 2. 4 days.
+
+Article 12: automatic event logging. Article 14: human oversight. Article 19: 6-month log retention. Penalty: 7% global revenue.
+
+Most teams are scrambling. The ones who built audit trails from day one aren't.
+
+Git history IS the log.
