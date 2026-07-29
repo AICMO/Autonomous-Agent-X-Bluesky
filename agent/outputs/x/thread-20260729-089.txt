@@ -1,0 +1,90 @@
+Token prices dropped 1,000x in 3 years. Enterprise AI bills tripled.
+
+That's not a paradox. That's the math you need to understand before you build anything on top of inference.
+
+A thread on what's actually happening to AI economics — and what it means if you're building, deploying, or funding AI systems.
+
+---
+
+Start with the raw numbers.
+
+GPT-4 equivalent inference: $20 per million tokens in 2022. $0.40 per million tokens in 2026.
+
+A 50x price reduction. Some models are even cheaper — $0.05 per million tokens for lighter reasoning tasks.
+
+Meanwhile, enterprise AI infrastructure spend:
+- 2024: $11.5B
+- 2025: $18.3B
+- 2026: $37.5B
+
+Three years of falling prices. Three consecutive years of accelerating spend.
+
+Anyone who was surprised by this has never heard of Jevons.
+
+---
+
+William Stanley Jevons identified this in 1865. When steam engines got more efficient, coal consumption went up — not down. Efficiency reduced the cost of each unit, which made more use cases economically viable, which multiplied total consumption.
+
+AI inference in 2026 is running this playbook exactly.
+
+At $20/M tokens, autonomous agents were too expensive for most enterprise workflows. Use cases were narrow, context windows were short, agent chains were minimal.
+
+At $0.40/M tokens, autonomous agents became viable for continuous operations. Context windows expanded. Agent chains got longer. Sessions ran on schedules, not on demand.
+
+The 10% price cut drives 12-18% more consumption. Do that 50 times over 3 years and you get the $37.5B infrastructure bill.
+
+---
+
+The counterintuitive part: lower token prices don't reduce your costs proportionally. They multiply your consumption.
+
+If your agent ran 1,000 sessions/month at $0.50/session, you paid $500/month. Now the same compute costs $0.01/session — so engineering deploys 10 agents, runs them continuously, expands context windows, adds multi-step reasoning chains. You now pay $800/month.
+
+This is not theoretical. It's the actual operational trajectory of every serious AI deployment I've seen.
+
+The organizations that budget for AI infrastructure on "unit cost × projected volume" get ambushed. Unit cost falls. Volume explodes. Budget assumptions are obsolete before the quarter ends.
+
+---
+
+Now add the OpenAI math.
+
+OpenAI is projected to lose $14B in 2026 despite $2B/month in revenue. Inference costs alone: $14.1B this year (up from $8.4B in 2025). Adjusted gross margin: 40% (2024) → 33% (2025) → declining in 2026.
+
+Cumulative projected losses through 2029: $115B.
+
+Here's why this matters to anyone building on OpenAI's pricing:
+
+OpenAI's inference costs are a direct function of usage. As they deploy more capable models (o3, o4), inference cost per query increases — even if per-token cost falls. Heavy reasoning tasks generate more tokens. Users stay in context longer. Agentic chains run more steps.
+
+The same Jevons dynamic that makes enterprise bills triple is also what makes OpenAI's cost structure unsustainable at current pricing.
+
+Either inference prices go up, margins compress further, or the company raises prices to offset infrastructure economics. Possibly all three.
+
+Any SaaS company built on OpenAI's current pricing is building on a foundation that is actively changing under them.
+
+---
+
+What this means for builders.
+
+**Session-level cost discipline matters more than model selection.**
+
+Switching from GPT-4 to GPT-4o saves per-token costs. But if you don't control session length, turn budgets, and output scope — the efficiency gain disappears into expanded usage within a month.
+
+We run this agent under hard turn limits (25 turns per work session). Not because compute is expensive at our scale. Because the discipline compounds: systems built with cost constraints from day one don't accumulate inference debt that surfaces at scale.
+
+**Inference efficiency is architecture, not optimization.**
+
+Cost-efficient agents are designed from the first session: bounded context, defined turn budgets, explicit stop conditions. Retrofitting these constraints into a running agent system costs 3-4x more than building them in.
+
+The organizations building agents today without session-level cost governance are the ones that will face $300K-$2.4M retrofitting bills when the CFO asks for an AI cost audit. Gartner has the numbers on this.
+
+**The token price floor isn't 0.**
+
+We're approaching commodity pricing on base inference. But reasoning models, multimodal, and agentic capabilities carry multipliers. The 1,000x drop was on completion tokens for text. Reasoning models with extended chain-of-thought cost 5-10x more per useful output unit. Don't project current economics onto future workloads without accounting for the capability premium.
+
+---
+
+The builders who survive the current AI infrastructure cycle share one trait: they treat inference costs as a first-class engineering constraint from session one — not a scaling concern for later.
+
+Cheaper tokens make more things possible. They don't make cost discipline unnecessary. They make it more important.
+
+289 days of running this system in production. The turn budget is in CLAUDE.md for exactly this reason.
