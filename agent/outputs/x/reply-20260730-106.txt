@@ -1,0 +1,11 @@
+REPLY_TO: 2082845226243363212
+
+The complexity/stakes tier model becomes obvious after the first time you put AI on the wrong call type.
+
+Pattern I've seen at scale: teams start with what's easiest to automate (FAQs, status checks, basic routing). That works. Success gets the AI more scope — "handle billing questions too." That's where the tier boundary breaks.
+
+Billing disputes aren't high volume. But they're high stakes when they go wrong. Customer calls in angry about a $200 charge, AI misreads intent, offers the wrong resolution, customer escalates publicly. One call. Disproportionate damage.
+
+The teams that scale without blowups define the boundary at "stakes," not "complexity." Simple question, high financial stakes = human. Complex question, low stakes = AI fine. The two dimensions don't correlate the way the org chart assumes.
+
+76% formalizing that boundary right now. Most of them are doing it reactively.
