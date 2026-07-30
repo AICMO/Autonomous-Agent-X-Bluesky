@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-30T04:45:00Z
-Session: S2015
-PR Count Today: 3/15
+Last Updated: 2026-07-30T05:15:00Z
+Session: S2016
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,20 +11,20 @@ PR Count Today: 3/15
 | Premium | ACTIVE (Day 290) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 207 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-07-30 — filesystem, S2015)
+## Queue Status (VERIFIED 2026-07-30 — filesystem, S2016)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (bip-100 + reply-101 added this session) |
-| Bluesky | 6 | <10 | Safe (no companions — BS=6, companions would exceed ≤6 rule) |
+| X | 13 | <15 | Near-limit zone (thread-102 added this session) |
+| Bluesky | 6 | <10 | Safe (no companions — BS=6, adding 1 would push to 7) |
 
-Queue pillar composition (X: 7 content + 2 existing replies + bip-100 + reply-101 = 12 total):
-- BIP: 2/9 content+thread = 22% — SAFE (bip-093, bip-100)
-- P1: 2/9 = 22% — SAFE (p1-092, p1-098)
-- P2: 1/9 = 11% — SAFE (p2-095)
-- P3: 2/9 = 22% — SAFE (p3-091, p3-097)
-- P4: 2/9 = 22% — SAFE (p4-094 + thread-089; 2/9=22% < 30%)
+Queue pillar composition (X: 10 content+thread + 3 replies = 13 total):
+- BIP: 2/10 content+thread = 20% — SAFE (bip-093, bip-100)
+- P1: 2/10 = 20% — SAFE (p1-092, p1-098)
+- P2: 1/10 = 10% — SAFE (p2-095)
+- P3: 3/10 = 30% — NEAR LIMIT (p3-091, p3-097, thread-102)
+- P4: 2/10 = 20% — SAFE (p4-094 + thread-089)
 
-Note: X=12 (look-ahead zone). Next session: max 1 X file total (content + reply combined). No companions (BS=6, adding 1 would push to 7).
+Note: X=13 (near-limit zone). Next session: ZERO content, ZERO replies. Use Blocked Session Protocol. BS=6 (safe but no companions). P3 is at 30% in queue — P3 is QUEUE-BLOCKED next burst slot if still at ≥30%.
 
 ## B157 Burst — COMPLETE (10/10) ✓
 - Final: BIP=2(20%✓), P1=2(20%✓), P2=2(20%✓), P3=2(20%✓), P4=2(20%✓) — PERFECT 5-WAY 20% BALANCE (13th confirmed instance)
@@ -48,30 +48,32 @@ Note: X=12 (look-ahead zone). Next session: max 1 X file total (content + reply 
 - displacement_flag: RESOLVED (BIP written at post 6 as displacement rule requires)
 - threads_this_burst: 0
 - Back-half checks remaining (posts 7-10):
-  - Post 7: P3 back-half (P3=1 burst post count — post 4 is only P3 so far. Wait: p3-097 is burst post 4 = P3=1 → back-half check fires → write P3 at post 7)
-  - Post 8: P4 back-half check (P4=1 burst, 1/6=17% — may fire at post 8 if P4<15% at 70-80% point)
-  - Posts 9-10: BIP back-half (BIP=2 absolute → fires once at post 7-8 window; check if already resolved by post 7-8), P1 back-half (P1=2 absolute = P1 above 1 → check does NOT fire since P1=2 already)
-  - Note: BIP back-half check: BIP≤2 absolute fires at post 7-8. BIP=2 → check fires → but displacement back-half exception: "If BIP midpoint fired at post 6 (displacement case), mark back-half check as SATISFIED." Per state file, bip-100 was written at post 6 via displacement → BIP back-half at post 7-8 is SATISFIED (do not re-fire).
+  - Post 7 (DONE): thread-20260730-102.txt ✓ — P3 thread (voice AI pilot failure/88% fail before production/5 failure modes). Satisfies P3 back-half (P3=1→2 burst) AND thread back-half (threads_this_burst=0→1).
+  - threads_this_burst: 1 (thread-102 ✓)
+  - BIP back-half: SATISFIED (displacement exception — bip-100 fired at post 6 via displacement, back-half check marked done)
+  - P3 back-half: SATISFIED (thread-102 = P3 content, P3=2 burst posts ✓)
+  - Post 8: P4 back-half check (P4=1 burst, 1/7=14% < 15% → back-half check FIRES → write P4 at post 8)
+  - Posts 9-10: BIP/P1/P2 — no back-half checks remain. Free slots.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2016 — B160 Post 7 (P3 back-half — P3=1 burst total → mandatory P3 before any news hook). X=12 (look-ahead zone: max 1 file only). Also check: is a thread needed? threads_this_burst=0, at post 7-8 window → thread back-half check fires. Thread vs P3: back-half priority = BIP > P3 > P4 > P1 > P2 (and thread check fires alongside P3 at post 7). Decision: write thread as post 7 (thread IS P3 content, satisfies both checks). Verify BS count before any companion.
-2. **THEN**: S2017 — B160 Post 8 (P4 back-half — P4=1 burst, may be <15% at post 8 → write P4). X will be 11-12 (look-ahead), max 1 file.
-3. **AFTER**: Pre-retro analysis if blocked (retro Aug 2 = 3 days away → Tier 1 eligible during any blocked session).
+1. **NEXT**: S2017 — BLOCKED (X=13, near-limit). Use Blocked Session Protocol Tier 1. Pre-retro analysis (retro Aug 2 = 3 days away → Tier 1 eligible). Write agent/memory/learnings/pre-retro-2026-08-02.md.
+2. **THEN**: S2018 — Check if X has drained below 13. If X≤12: B160 Post 8 (P4 back-half — P4=1 burst, 14% < 15% → write P4). If X=13: continue blocked session work.
+3. **AFTER**: B160 Posts 9-10 (free slots — P1, P2, or BIP as needed).
 
-## Completed This Session (S2015)
-- B160 Post 6 (BIP displacement): bip-100 (2,015 sessions/PR milestones/queue discipline/velocity gap analysis)
-- Reply: reply-101 (reply-to-own ID 2082676272233382232/CFO 300%/Type 1 vs Type 2 AI investments)
-- displacement_flag RESOLVED (BIP correctly written at post 6)
-- X queue: 10→12 (+2 files). BS queue: 6→6 (no change — no companions, BS≤6 rule).
+## Completed This Session (S2016)
+- B160 Post 7 (P3 thread): thread-20260730-102.txt (voice AI pilot failure/88% fail before production/5 failure modes)
+- P3 back-half: SATISFIED (P3=1→2 burst posts ✓)
+- Thread back-half: SATISFIED (threads_this_burst=0→1 ✓)
+- X queue: 12→13 (+1 thread). BS queue: 6→6 (no change — no companions, BS would exceed ≤6 rule).
 
-## Metrics Delta (S2015)
+## Metrics Delta (S2016)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 207 | 207 | 0 | No change this session |
-| X queue | 10 | 12 | +2 | bip-100, reply-101 |
-| BS queue | 6 | 6 | 0 | No companions (BS≤6 rule) |
-| B160 posts | 5 | 6 | +1 | BIP displacement post 6 |
-| displacement_flag | TRUE | RESOLVED | resolved | BIP written at post 6 per displacement rule |
+| X queue | 12 | 13 | +1 | thread-102 (P3 thread, look-ahead zone max 1 ✓) |
+| BS queue | 6 | 6 | 0 | No companions (adding 1 would push to 7) |
+| B160 posts | 6 | 7 | +1 | P3 thread at post 7 |
+| threads_this_burst | 0 | 1 | +1 | thread-102 satisfies thread back-half check |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 290 days blocked. Owner action required.
@@ -80,24 +82,25 @@ Note: X=12 (look-ahead zone). Next session: max 1 X file total (content + reply 
 - Perfect 5-way balance → CONFIRMED. 13th confirmed instance: B157 final = 20%/20%/20%/20%/20%.
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 
-## Session Retrospective (S2015)
+## Session Retrospective (S2016)
 ### What was planned vs what happened?
-- Planned: S2015 = B160 Post 6 (BIP displacement check) + back-half setup
-- Actual: B160 Post 6 (bip-100 — 2,015 sessions/queue discipline/velocity gap) + reply-101 (reply-to-own ID 2082676272233382232/CFO 300%/Type 1 vs Type 2). displacement_flag RESOLVED. X=10→12.
-- Delta: Executed displacement rule correctly. Created 2 files from X=10 start (≤10 rule: max 2 pieces). X ends at 12 (look-ahead, within limits).
+- Planned: S2016 = B160 Post 7 (P3 thread — satisfies P3 back-half AND thread back-half simultaneously)
+- Actual: B160 Post 7 (thread-102 — voice AI pilot failure/5 failure modes/88% fail before production). X=12→13 (+1 thread). Both P3 back-half and thread check resolved.
+- Delta: Executed per plan. Used look-ahead zone max-1 file allocation correctly.
 
 ### What worked?
-- bip-100 used distinct angle from bip-093 (operational metrics/sessions/PRs vs creative constraint scaffolding). No angle duplication.
-- reply-101 targeting CFO 300% threshold post — Type 1 vs Type 2 AI investment framework adds genuine depth to original post.
-- displacement_flag correctly identified and resolved per CLAUDE.md protocol.
+- P3 thread written from fresh research (IrisAgent benchmarks + Gartner $80B data). Data-rich, specific failure modes not commonly discussed.
+- Satisfying two back-half checks (P3 + thread) with one file is efficient — saves 1 queue slot vs writing them separately.
+- Anti-AI vibe check: thread uses numbered sections, specific percentages, and direct prescriptions. No banned patterns.
 
 ### What to improve?
-- Thread enforcement fires at post 7-8: threads_this_burst=0 → must write thread at post 7. Plan post 7 as a P3 thread (satisfies both P3 back-half AND thread back-half simultaneously). Next session should confirm thread is post 7 to avoid back-half slot conflict.
+- X=13 is near-limit → next session must use Blocked Session Protocol. Pre-retro analysis is Tier 1 eligible (retro Aug 2 = 3 days away). Write pre-retro doc next session.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 290 days overdue.
 
 ## Session History
+- (2026-07-30 S2016): B160 Post 7 (P3 thread — voice AI pilot failure/88%/5 failure modes). X=12→13, BS=6→6. P3+thread back-half checks resolved. PR 4/15.
 - (2026-07-30 S2015): B160 Post 6 (BIP displacement — 2,015 sessions/queue discipline/velocity gap) + reply-101 (CFO 300%/Type 1 vs Type 2). X=10→12, BS=6→6. displacement_flag RESOLVED. PR 3/15.
 - (2026-07-30 S2014): B160 Posts 4+5 (P3 Telecom/Banking human-AI split + P1 Gartner 40%/governance). Reply-to-own p3-091. X=7→10, BS=6→6. displacement_flag=TRUE. PR 2/15.
 - (2026-07-30 S2013): B159 complete (P3 back-half p3-091/P1 back-half p1-092). B160 start (bip-093/p4-094/p2-095/reply-096). X=1→7, BS=3→6. PR 1/15.
