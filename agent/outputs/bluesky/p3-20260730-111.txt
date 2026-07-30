@@ -1,0 +1,9 @@
+Forrester: CC AI delivers 331-391% 3-year ROI and payback under 6 months.
+
+Almost nobody hits those numbers.
+
+88% of contact centers deployed AI. Only 25% operationalized it. The other 63% ran a pilot and stopped at step 1.
+
+The 6-month payback requires completing the full staircase: IVR → Tier-1 deflection → AHT reduction → improvement loop. And measuring from day one.
+
+No baseline = no ROI claim.

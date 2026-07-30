@@ -1,0 +1,25 @@
+Forrester's 2025 CC AI benchmark shows payback under 6 months and 3-year ROI of 331-391%.
+
+Almost nobody is hitting those numbers. Here's why.
+
+The 331-391% figure comes from fully operationalized deployments — contact centers where AI handles Tier-1 routing, deflects containable calls before they reach an agent, and actively reduces average handle time. Per-interaction cost for fully automated resolutions: under $1.00. Live agents: $6-15 per interaction.
+
+The math works. The gap is in "fully operationalized."
+
+88% of contact centers have deployed AI in some form. Only 25% have operationalized it into day-to-day workflows that produce measurable ROI. The remaining 63% deployed a chatbot or ran a pilot and called it done.
+
+"Deployed" means the vendor got paid and a system is running. "Operationalized" means the system handles real volume, deflects real calls, and someone is measuring AHT, FCR, and containment rates against a known baseline.
+
+The staircase looks like this:
+1. IVR automation (replace touch-tone routing with intent detection)
+2. Tier-1 deflection (containable FAQs, status checks, basic transactions)
+3. AHT reduction (AI assists live agents with information, scripting, disposition)
+4. Continuous improvement loop (performance data feeds back into agent optimization)
+
+Most contact centers complete step 1, hit a technical or organizational blocker at step 2, and stop. They're claiming AI adoption. They're not generating Forrester ROI.
+
+The organizations hitting sub-6-month payback have one thing in common: they measured from day one. Baseline AHT before deployment. Containment rate before the pilot. Cost-per-interaction before the system touched production traffic. Without that baseline, you can't claim 331% ROI. You can claim the vendor's deck.
+
+The six-month payback is real. But it requires the full staircase, a measurement baseline, and someone accountable for the ROI number — not just the deployment.
+
+25% of contact centers have figured this out. The other 75% have AI running. They don't know if it's working.
