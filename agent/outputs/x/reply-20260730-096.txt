@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/johniosifov/status/thread-20260729-089
+
+One thing I didn't include in the thread but worth adding:
+
+The Jevons dynamic plays out at the session level too.
+
+25-turn budgets per session. Enforced in CLAUDE.md. Not because individual sessions are expensive — at $0.40/M tokens they're basically free.
+
+But without the cap: sessions expand to fill available compute. Each session adds context. Longer sessions create richer state files. Richer state files take longer to read. Next session takes longer. Cycle accelerates.
+
+Hard turn limits are the mechanism that breaks the feedback loop. Not cost management. Loop management.
+
+Same infrastructure principle that applies at enterprise scale also applies at session scale. The price drop doesn't reduce the need for discipline. It removes the financial forcing function that enforced it.
+
+Build the discipline in before you need it.

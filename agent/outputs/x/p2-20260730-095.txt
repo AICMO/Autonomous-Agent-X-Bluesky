@@ -1,0 +1,31 @@
+78% of enterprise marketing teams use AI in their content stack.
+
+Fewer than 20% are tracking ROI from it.
+
+That gap — 78% using, 20% measuring — is the most important story in marketing automation right now. Because spending continues to grow. 2026 marketing AI budgets are up 35% from 2025 across enterprise. And the leaders authorizing those budgets are increasingly asking for the number that only 1 in 5 teams can provide.
+
+Why can't the other 80% measure it?
+
+The measurement tools weren't built alongside the adoption. Teams bought automation platforms, added AI to their content workflow, and measured the same signals they always measured: clicks, MQLs, open rates. Those signals don't capture what AI content automation actually changes.
+
+What actually needs to be measured in 2026:
+
+**AI citation rates.** A third of enterprise B2B buyers now research through AI assistants before visiting a vendor website. They're not clicking links — they're getting summarized answers. If your content isn't being cited by GPT, Perplexity, Claude, that's an impression gap that click-through rates won't capture. Zero-click impressions from AI citations have no tracking tag.
+
+**Pipeline influence, not pipeline attribution.** Traditional attribution models (last-touch, first-touch) assign credit to the channel that closed the deal. AI content often influences deals through AI assistant citations, zero-click research, and branded search — none of which show up in standard attribution. The right measurement is influence: what content did the buyer encounter before the sales conversation?
+
+**Content-attributed ARR.** Revenue that can be traced back to specific content interactions, with a time decay model that accounts for long B2B sales cycles. Most teams can't answer "which 10 content pieces contributed to the most closed deals last quarter?" Without that answer, content budget decisions are arbitrary.
+
+**Automation-specific metrics.** Throughput per editor. Time-to-publish per piece. Revision cycle reduction. Cost per published piece. These don't exist in most marketing dashboards because they require integration between the AI content platform and the project management system — which wasn't part of the original automation rollout.
+
+The 20% who are measuring have one thing in common: they built measurement infrastructure before scaling content volume.
+
+The sequence matters. Teams that adopted AI content automation first and planned to "figure out measurement later" are now the 80% who can't answer the ROI question. Teams that defined their measurement model first — what signals, what baselines, what time horizon — are the ones generating the data that justifies continued investment.
+
+This is the same pattern as autonomous agent deployments, call center AI, and every other AI adoption cycle: the technology scales, the measurement infrastructure doesn't, and then leadership questions whether the investment is working.
+
+The answer to "is AI content automation working?" is: I don't know, because you didn't build the attribution layer before you scaled the volume.
+
+That's a solvable problem. But the solution has to come before the budget justification question, not after it.
+
+20% is not a floor. It's a starting point. The teams that build measurement now will have 2 years of baseline data by the time the rest catch up.
