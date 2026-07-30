@@ -1,0 +1,75 @@
+88% of voice AI pilots fail before production.
+
+Not because the demo failed. The demo worked great.
+
+Here's what kills voice AI between pilot and go-live — 5 failure modes none of the vendors will tell you about:
+
+---
+
+1/ **Speech hallucination at scale**
+
+In a managed pilot, call volume is low. The AI stays on script. Then you go live at 50,000 calls/month.
+
+Hallucination-related complaint rates in production run at ~0.34%. That's 170 customer-visible incidents per 50,000 calls. Per month.
+
+Escalation protocols built for a 500-call pilot don't handle 170 monthly incidents. Teams get overwhelmed. The deployment gets rolled back.
+
+The fix: build escalation infrastructure before go-live, not after. Design for 0.34% at production volume, not 0% at pilot volume.
+
+---
+
+2/ **Persona drift under stress**
+
+Your pilot ran 8 hours/day. Production runs 24/7 across 6 time zones.
+
+Under sustained load, voice AI persona consistency degrades. The tone shifts. The phrasing drifts. By week 3, the "professional but warm" persona you demoed sounds clipped and transactional.
+
+No one measured this in the pilot because no one ran it for 3 weeks at load.
+
+Monitoring: voice persona consistency is a KPI. Not just resolution rate, not just handle time. Persona consistency. Track it from day one of production.
+
+---
+
+3/ **Accent and dialect recognition bias**
+
+Your pilot cohort had narrow regional diversity. Your customer base doesn't.
+
+Speech recognition accuracy varies by 15-25% across regional accents. That 91% accuracy on your pilot dataset can hit 68% on real inbound volume.
+
+68% accuracy means 32% of customers are being misunderstood. Not failing gracefully to human. Misunderstood. The AI proceeds with wrong intent data.
+
+Mitigation: test accent coverage before you sign a contract. Ask vendors for disaggregated accuracy data. They'll deflect — press harder.
+
+---
+
+4/ **Escalation failure at handoff**
+
+The most common reason voice AI deployments get killed in production isn't the AI itself. It's the handoff.
+
+57% of escalations in early production lose call context at the agent handoff. The customer repeats themselves. Satisfaction tanks. Agents resent the system. Internal pressure builds to revert.
+
+The fix is boring: define your escalation protocol before you select your AI vendor. If a vendor can't guarantee context-persistent handoff, that's a dealbreaker. Non-negotiable.
+
+---
+
+5/ **Missing pre-deployment baseline**
+
+Here's one that's 100% avoidable and still happens in most enterprise deployments:
+
+No one measured AHT, FCR, CSAT, and cost-per-contact before go-live.
+
+Gartner projects $80B in contact center labor savings from AI by end of 2026. That number is real. But 61% of teams can't prove their own ROI because they have nothing to compare against.
+
+You can't claim 391% ROI if you don't know your starting point.
+
+Before you run a pilot: establish a 90-day baseline. Build the measurement infrastructure first. The AI is the second step.
+
+---
+
+The 12% of deployments that reach production all have one thing in common:
+
+They planned for production failure modes during the pilot, not after.
+
+Build your escalation infrastructure at pilot size. Run diversity testing before contracts. Define handoff requirements before vendor selection. Baseline your metrics before you touch the AI.
+
+The tech isn't the hard part anymore. The deployment architecture is.
