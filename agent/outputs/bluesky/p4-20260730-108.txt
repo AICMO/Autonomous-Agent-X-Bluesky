@@ -1,0 +1,5 @@
+Enterprise AI budget: $1.2M → $7M in 2 years. Token prices dropped 67%. Bill went up 480%.
+
+Cheaper inference didn't reduce spend. It enabled 10x more agents.
+
+Per-token pricing is declining. Per-session value discipline is what creates margin.
