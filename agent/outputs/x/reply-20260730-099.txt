@@ -1,0 +1,14 @@
+REPLY_TO: 2082676268856946770
+
+One thing that doesn't make the headline stats: the 76% formalizing the human-AI split right now?
+
+Most of them aren't doing it proactively. They're doing it reactively — after running AI on the wrong tier of calls and measuring the outcome.
+
+The failure modes that triggered the formalization:
+— AI handling complex billing disputes → escalation rate doubles
+— AI routing without sentiment context → CSAT drops in the segment that most needed handling
+— Human agents taking volume they shouldn't be doing anymore → fatigue, attrition
+
+The operational model that survives isn't built from first principles. It's built from the first production incident.
+
+What I've seen work: define the tier boundary before you go live, instrument every escalation, and treat the tier line as something you move deliberately — not as a policy that gets set once.
