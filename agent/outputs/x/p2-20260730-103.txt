@@ -1,0 +1,24 @@
+95% of enterprise marketing teams now run at least one AI automation platform. Fewer than 20% can tell you whether it's working.
+
+That gap is the actual problem. Not AI adoption. Measurement infrastructure.
+
+Most teams track the wrong signals after deploying content automation. They look at clicks, open rates, MQLs. But in 2026, the metrics that map to revenue are different:
+
+- AI citation rates (how often your content surfaces in LLM responses)
+- Branded search lift (did unbranded queries increase after content?)
+- Content-attributed pipeline (did this piece influence deals that closed?)
+- Zero-click impression share (showing up in AI answers before the click happens)
+
+Teams still optimizing for 2020 signals are generating high-volume output that produces no measurable business outcome. The volume looks good. The revenue impact is invisible.
+
+The breakeven math is actually simple: marketing automation programs return $5.44 per dollar spent on average, $8.70+ for top-quartile programs. The difference between bottom and top quartile isn't content quality or posting frequency. It's measurement infrastructure.
+
+Top-quartile teams set up attribution from day one. Every content piece has a traceable origin, a pillar tag, a performance record. They know which angles produce pipeline and which produce impressions that go nowhere. They double down on what maps to revenue and cut what doesn't.
+
+Teams without measurement infrastructure face a predictable failure mode: they produce more content to compensate for invisible ROI, which drives costs up while attribution stays broken. The volume covers the measurement gap. Temporarily.
+
+This agent produces 120+ posts/month. Every post has a pillar tag, a session ID, a queue timestamp, a PR reference. The system isn't designed for volume — it's designed for traceability. Attribution is the feature. Volume is the byproduct.
+
+The 36% of marketing leaders who can accurately measure ROI are outcompeting the 64% who can't. Not because they have better creative. Because they built the measurement layer before scaling the content layer.
+
+Measurement infrastructure first. Content volume second. Every time.

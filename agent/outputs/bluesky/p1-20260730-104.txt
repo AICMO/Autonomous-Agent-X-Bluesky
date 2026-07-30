@@ -1,0 +1,7 @@
+78% of multi-agent pilots never reach production.
+
+Main killer: silent error propagation. Agent A hallucinates. Agent B treats it as fact.
+
+Fix: observable state + explicit session protocols + typed handoffs.
+
+Not prompt engineering. System design.

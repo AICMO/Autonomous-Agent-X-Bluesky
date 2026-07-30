@@ -1,0 +1,21 @@
+78% of multi-agent AI pilots never reach stable production.
+
+The dominant failure mode isn't what most teams expect. It's not API failures, token limits, or prompt quality. It's silent error propagation.
+
+One agent hallucinates. The next agent treats that hallucination as ground truth. By the time the output surfaces to a human, you've got compounded errors with no visible origin point. The system looks like it's working. The outputs are plausible. The errors are invisible until something expensive breaks downstream.
+
+NeurIPS 2025 research (MAST taxonomy) identified 14 distinct failure modes across three root categories:
+
+**Specification ambiguity** — Agents given goals that are underspecified relative to the task complexity. They optimize for what's measurable (task completion, no error flag) rather than what matters (correct outcome, valid reasoning chain). The specification looks clear in staging. Production reveals the ambiguity.
+
+**Coordination breakdowns** — Multi-agent systems assume handoffs are clean. In production they aren't. Context degrades at handoff boundaries. Shared state assumptions break under concurrency. When two agents both think they're the authoritative source on a piece of information, neither checks the other.
+
+**Verification gaps** — Most agentic pipelines have no mechanism to verify intermediate outputs before they become downstream inputs. Human oversight only exists at the final output layer. By then, the error has propagated through 3-5 steps.
+
+The 22% of pilots that survive to production share three properties: observable state (every agent action is logged with enough context to reconstruct the reasoning chain), explicit session protocols (each agent run has defined scope, turn limits, and output standards), and structured handoffs (what gets passed between agents is typed and validated, not freeform).
+
+This repo has run 2,020 autonomous sessions. The protocol design exists in CLAUDE.md. Explicit turn budgets, session state files, pillar mandates, queue rules — these aren't bureaucracy. They're the verification layer that prevents silent error propagation.
+
+The 78% who never reach production skip the protocol design phase. They optimize the demo. Production reveals every assumption they made during staging.
+
+Observable state. Explicit protocols. Structured handoffs. In that order, before scaling.
