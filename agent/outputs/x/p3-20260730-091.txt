@@ -1,0 +1,31 @@
+76% of contact center leaders are now formalizing the human-AI split.
+
+Not as a temporary workaround. As a permanent operating model.
+
+Telecom: 95% AI adoption in contact centers. Banking: 92%. These aren't pilot numbers — they're operational baselines. The sectors that moved first have passed the point of experimentation. AI handling volume and availability is the default. Humans handling complexity and emotion is the premium.
+
+What's changed in 2026 isn't the technology. It's the operational clarity.
+
+The "AI vs human" framing is dead in the sectors that actually moved. The working model is tiered:
+
+Tier 1 — AI owns: routine inquiries, account lookups, status checks, payment processing, appointment booking. Everything with a clear intent signal and defined resolution path. Containment rate target: 80%+.
+
+Tier 2 — AI augments: complex billing disputes, escalations, emotionally charged calls. AI handles routing context, intent pre-qualification, and post-call documentation. Human handles the conversation. AHT still drops 35-40% because the AI prep work is done before the human picks up.
+
+Tier 3 — Human owns: high-stakes decisions, VIP accounts, legal matters, situations with regulatory exposure. AI is observing and logging, not participating.
+
+The failure mode in lagging sectors isn't technology skepticism. It's governance confusion.
+
+Teams that haven't formalized the split have AI routing systems making decisions that weren't explicitly designed — and humans being held accountable for outcomes they didn't control. That's where CSAT scores collapse and attrition accelerates.
+
+The sectors at 92-95% AI adoption sorted out accountability before scaling. The call center AI ROI formula only works when it's clear who is responsible for what at every tier.
+
+One number that doesn't get enough attention: 37% of contact center leaders say their biggest 2026 challenge is measuring AI-human team performance at the tier boundary — not AI accuracy itself.
+
+The technology delivers. The operating model determines whether the technology actually improves outcomes or just changes where the friction shows up.
+
+Healthcare is still in single digits. Government is still in single digits. The gap isn't technology availability. It's governance readiness.
+
+When 76% are formalizing the split, the remaining 24% aren't being careful. They're building a longer timeline to solve the same problem the first-movers already worked through.
+
+The human-AI split isn't a philosophy question. It's an operating model design question. The answer is tiered, documented, and measurable. Or it's chaos dressed up as AI adoption.

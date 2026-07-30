@@ -1,0 +1,7 @@
+78% of multi-agent AI pilots never reach stable production.
+
+The leading failure mode: silent error propagation. Agent A hallucinates. Agent B processes the error as ground truth. By the time it surfaces, it's been through 4 pipeline stages.
+
+The fix isn't better models. It's observable state at every handoff.
+
+Production is when you can reproduce any failure. Monitoring is detecting it after. Not the same thing.

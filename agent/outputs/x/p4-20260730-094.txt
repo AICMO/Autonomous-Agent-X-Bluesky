@@ -1,0 +1,31 @@
+OpenAI will lose $14B in 2026.
+
+Revenue: $2B/month and growing. Inference costs: $14.1B this year (up from $8.4B in 2025). Adjusted gross margin declining year over year. Cumulative projected losses through 2029: $115B.
+
+This isn't a story about OpenAI mismanagement. It's a story about AI unit economics that every founder building on top of inference needs to internalize.
+
+Here's the structural problem.
+
+OpenAI prices inference at rates that attract developers and enterprise buyers. That pricing was designed to capture market share during the adoption phase. But inference cost is directly tied to usage — and the more capable the models get, the more expensive each query becomes. Extended reasoning models generate more tokens. Users stay in longer context windows. Agentic chains run more steps.
+
+So as OpenAI improves its product, it increases its cost per delivery. The pricing that made sense at GPT-4 level doesn't carry forward to o3 and beyond without structural changes.
+
+The implication for founders: you're building on a pricing floor that is actively under reconsideration.
+
+Three scenarios, and all three are bad for companies with thin margins built on OpenAI:
+
+**Scenario 1: Prices go up.** OpenAI needs to improve gross margin to reach sustainability. The most direct path is raising inference prices. Any SaaS company that priced their product at "OpenAI cost + 60% margin" is suddenly underwater.
+
+**Scenario 2: Prices stay flat, OpenAI raises external capital to cover losses.** The $115B loss projection requires ongoing capital infusion. That capital comes with expectations. Investor pressure changes product decisions, model availability, and API terms. Stability for your business depends on the stability of a company with a structurally unsustainable cost model.
+
+**Scenario 3: Competition drives prices down further.** Anthropic, Google, open-source models close the capability gap. Price competition intensifies. OpenAI can't reduce prices without deepening losses. Market share shifts. API customers who bet on OpenAI face migration costs they didn't plan for.
+
+There is no scenario where OpenAI's current unit economics don't create risk for companies built directly on top of them.
+
+The founders I've watched navigate this well share one thing: they abstracted their AI layer from day one. One model provider isn't a technical choice — it's a strategic dependency. Treat it like one.
+
+For those already in: know your switching cost before you need to switch. That number is your actual AI infrastructure risk exposure.
+
+$14B in losses isn't a sign that AI doesn't work economically. It's a sign that the economics of the current market structure aren't settled. And "unsettled infrastructure economics" is a specific kind of risk that deserves a specific kind of architecture decision.
+
+Build accordingly.
