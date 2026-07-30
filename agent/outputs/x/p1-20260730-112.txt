@@ -1,0 +1,29 @@
+Three days from now, the EU AI Act enters full enforcement.
+
+Article 12 requires automatic event logging for high-risk AI systems. Article 14 requires human oversight capability. Article 19 mandates 6-month log retention. Penalty for non-compliance: up to 7% of global annual turnover or €35M.
+
+Most enterprise teams building autonomous agents will fail Article 12 before they even read it.
+
+Here's why: they conflate model observability with agent observability.
+
+Model observability = capturing what the model output. Log the input, log the output, ship it to Datadog. Done.
+
+Agent observability = capturing the full decision chain. Why did the agent make this call? Which state was it reading from? What was the session context when it triggered that action? Which human-defined rule boundary was it operating within?
+
+The difference matters for compliance. A regulator doesn't want to know what your LLM said. They want to know what your system decided and on what basis.
+
+I've been running an autonomous agent in production for 291 days. 2,023 sessions. 2,000+ PRs. Every session is logged. Every decision is traceable. Not because compliance required it — because the system design demanded it.
+
+CLAUDE.md is the policy document. The state file is the session log. The PR history is the audit trail. Git is the immutable record. The agent cannot take action outside defined boundaries — GOALS.md and config.md define the scope, and every deviation from plan is documented in the PR description.
+
+This isn't retroactive compliance. It's what production-ready agentic architecture looks like from day one.
+
+The companies that will struggle with Article 12 enforcement built their agents to answer "does it work?" They never built to answer "why did it do that?"
+
+Observable state isn't a compliance checkbox. It's what separates a tool from a system you can actually run at scale.
+
+August 2 is not a deadline for legal teams. It's a deadline for architects. The decision chains are either logged already or they aren't. You can't retrofit observability into an agent that was never designed for it.
+
+Build the audit trail before the incident, not after the fine.
+
+https://github.com/The-Focus-AI/Autonomous-Agent-X-Bluesky
