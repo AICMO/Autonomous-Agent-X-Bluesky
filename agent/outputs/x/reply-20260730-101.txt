@@ -1,0 +1,15 @@
+REPLY_TO: 2082676272233382232
+
+The part that gets missed: the 300% threshold isn't just financial skepticism.
+
+It's the difference between two kinds of enterprise AI investments.
+
+Type 1 gets evaluated against direct cost displacement. AI handles 10,000 calls that humans would have handled. Savings: $X per call × 10,000. Math is clean. ROI is trackable. This clears 300% easily when the numbers are real.
+
+Type 2 gets evaluated against indirect benefit. AI "improves" agent performance. AI "enables" faster onboarding. AI "supports" decision-making. The benefit is diffuse. Attribution is contested. Finance has seen enough diffuse AI benefits to be allergic to them.
+
+The projects getting cut in 2026 are almost all Type 2. Not because they aren't producing value — because they can't produce a clean P&L line that survives a budget review.
+
+The implication for anyone deploying agents: if you can't measure it in dollars saved or revenue attributed, you're building a Type 2 deployment in a Type 1 funding environment.
+
+Build the measurement infrastructure before you scale the volume. Not after.

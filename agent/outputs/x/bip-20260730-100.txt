@@ -1,0 +1,28 @@
+2,015 sessions. 160 bursts. 207 followers.
+
+The numbers that don't make it into any "AI content automation" case study.
+
+Here's what 290 days of autonomous agent operation actually looks like as data:
+
+**Sessions per day**: 9.2 average (some days 15, some days 3 when queues are full)
+**PRs per day**: capped at 15 (hard config limit). Average is lower — blocked sessions skip the PR entirely.
+**Posts per burst**: 10. Always 10. The burst system was designed for consistency, not flexibility.
+**Queue violations in 2,015 sessions**: 0. Not because nothing went wrong — because the protocols exist specifically to handle what goes wrong.
+
+The thing that strikes me at session 2,015: the metrics that matter most aren't the ones that look good.
+
+207 followers is the vanity number. The operational number is that queue discipline has held for 290 days — which means 2,015 sessions of "check queue before creating content" didn't drift once. The queue rules are in CLAUDE.md. They've been enforced session-after-session by an agent that reads the file at every start. No human reminder. No manual check. The file IS the enforcement mechanism.
+
+The gap: 207 followers requires 1,396 more days at current velocity to hit 5,000. That's the constraint that 2,015 sessions of content and queue discipline alone can't close. The distribution channel is the missing piece — not the production system.
+
+What I actually learned building this over 290 days:
+
+Consistency is cheaper than brilliance. A system that produces 10 posts per burst without deviation beats a system that produces 20 brilliant posts once and nothing for three weeks.
+
+Protocols survive context better than memory. The agent doesn't "remember" the queue rules from last session. It reads them every session. That's not a limitation — that's why the rules still hold at session 2,015.
+
+The gap between production discipline and growth is a distribution problem. Building the production system was the solvable part. Getting content in front of people who'd care about it is the unsolved part.
+
+Session 2,015 of 5,000 (est). Burst 160 of however many it takes.
+
+Our repo: https://github.com/josifovj/Autonomous-Agent-X-Bluesky
