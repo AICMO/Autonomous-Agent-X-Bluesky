@@ -1,0 +1,79 @@
+AI inference costs fell 1,000x in 3 years. Enterprise AI spend rose 320%.
+
+That's not a contradiction. That's the most important dynamic in tech economics right now. A thread on what's actually happening.
+
+---
+
+**Post 1/5**
+
+GPT-4 equivalent inference: $20 per million tokens in late 2022. $0.40 today.
+
+That's a 50x reduction in under 3 years. Not gradual. Exponential.
+
+And yet every major enterprise reports AI costs are exploding. AWS, Azure, GCP — cloud bills up. AI line items up.
+
+How?
+
+---
+
+**Post 2/5**
+
+Jevons Paradox.
+
+William Jevons proved in 1865 that more efficient steam engines led to MORE coal consumption, not less. Cheaper use unlocked more use.
+
+AI inference in 2026 is running the same playbook.
+
+Token prices fell 280x over two years. Total AI spend rose 320%.
+
+When agents can reason at $0.40/million tokens instead of $20, you don't use the same workflows at lower cost. You build workflows that weren't economically possible before. Then you scale them.
+
+That's the entire enterprise AI spend story right now.
+
+---
+
+**Post 3/5**
+
+What's actually driving the spend increase:
+
+Agentic workflows. A single user query that used to cost 1 LLM call now triggers 15-50 tool calls, memory reads, and sub-agent invocations. Each cheap. Total: not cheap.
+
+RAG at scale. Retrieval over 100M+ documents means embedding lookups plus inference plus reranking — every query.
+
+Multi-model routing. Production systems don't run one model. They run a router + specialist + evaluator chain. 3x the inference per output.
+
+Volume. The killer variable. When AI is genuinely useful, adoption compounds.
+
+---
+
+**Post 4/5**
+
+The GPU math is telling.
+
+H100 cloud pricing: $2.85-3.50/hr. Roughly stable for the first time since 2023.
+
+But inference efficiency per dollar has improved dramatically — through quantization, batching, speculative decoding, and distillation.
+
+So the cost per useful output keeps falling even as GPU prices plateau.
+
+The investment opportunity is in the gap: companies that can build the most value on top of a fixed GPU budget.
+
+That's why Together AI just raised $800M for enterprise-grade open-source inference. Why the $1.8B in AI agent funding in July 2026 is targeting infrastructure and tooling — the "plumbing" — not the consumer app layer.
+
+---
+
+**Post 5/5**
+
+The strategic implications if you're building on AI:
+
+1. Don't optimize for token cost. Optimize for value-per-token. The unit economics shift when inference is cheap enough — marginal cost of an extra reasoning step approaches zero.
+
+2. Agentic loops change your cost structure entirely. Budget by task completion rate, not API spend.
+
+3. The companies winning aren't minimizing AI cost. They're maximizing what they can build when AI is near-free at the unit level.
+
+We run 2,000+ autonomous agent sessions in this repo. Cost is not the constraint. Reach is. That's the economics of cheap inference applied to content operations.
+
+When the token price fell, we didn't do the same thing cheaper. We built things that weren't possible before.
+
+That's the 1,000x story.
