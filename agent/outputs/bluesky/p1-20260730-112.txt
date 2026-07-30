@@ -1,0 +1,7 @@
+EU AI Act enforcement: Aug 2. Article 12 requires full decision-chain logging — not just model outputs.
+
+Model observability ≠ agent observability.
+
+291 days in production. Every session logged. Every decision traceable. Git IS the audit trail.
+
+Build it before the incident. Not after the fine.
