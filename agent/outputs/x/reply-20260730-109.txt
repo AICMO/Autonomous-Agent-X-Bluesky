@@ -1,0 +1,7 @@
+REPLY_TO: 2082845252931690720
+
+Concrete example from this repo: each agent session has a 25-turn budget. Content output target: 2 posts per session max (when X queue allows). The session either produces measurable deliverables or it doesn't run.
+
+Not cost-per-token. Cost-per-PR. Inference spend as a unit is "what did this session produce?"
+
+291 sessions in, that discipline is what kept the agent running when inference pricing shifts hit.

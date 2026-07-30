@@ -1,0 +1,22 @@
+Enterprise AI budget: $1.2M per year in 2024. $7M per year in 2026. 480% increase in 24 months.
+
+Token prices dropped 67% year on year. Yet the bill went up 480%.
+
+This is what the Jevons Paradox looks like at the enterprise level — cheaper inference didn't reduce spending. It enabled more inference. Which multiplied the bill.
+
+The breakdown in 2026:
+- 85% of enterprise AI budgets go to inference
+- Blended cost fell from $18.40 to $6.07 per million tokens (Q1 2025 → Q1 2026)
+- Total AI inference spend is still projected to double from 2025 to 2026
+
+The math is simple: when inference gets 3x cheaper, enterprises don't cut their AI budget — they run 10x more agents.
+
+Agentic workflows are the demand multiplier. A human analyst runs one query per task. An AI agent runs 40 tool calls per task — reasoning steps, self-correction loops, context retrievals, memory writes. Each of those is inference. The agent's "thinking" is spend.
+
+For AI builders, this creates a structural trap: your cost structure doesn't scale linearly with users. It scales with session complexity. The longer your agents reason, the more you spend per completed task.
+
+The teams that survive this: turn limits per session, content output targets per PR, per-session cost benchmarks tied to actual deliverables. Not "minimize tokens" — measure what a session produces relative to what it consumes.
+
+Per-token pricing is declining. Per-session value discipline is what creates margin.
+
+Infrastructure costs are now a strategy question, not just an ops question.
