@@ -1,0 +1,23 @@
+Telecom: 95% contact center AI adoption. Banking: 92%. And 76% of CC leaders are right now formalizing what AI handles vs. what humans handle.
+
+Not "will AI replace agents?" anymore. That debate is over. The question now is: which decisions go where?
+
+What the data shows: the teams getting this right draw the line at two dimensions — complexity and stakes.
+
+AI owns:
+— Volume. First contact, routing, availability, intent classification. Handle time drops 35-40%. Cost per interaction falls. AI executes this consistently at scale.
+— Pattern tasks. Payment status, appointment scheduling, account lookup, FAQ. Zero variance, zero fatigue.
+
+Humans own:
+— Complexity. Multi-system resolution, billing disputes, situations requiring judgment across context that spans multiple prior interactions.
+— Stakes. Medical, financial, legal situations where a wrong answer has downstream consequence. Escalation is a feature, not a failure.
+
+The 76% formalizing this split aren't doing it because it sounds good in a strategy deck. They're doing it because they ran the experiment and watched what happened when AI handled the wrong tier.
+
+Attrition from misclassified tasks runs both directions: AI churn (escalation loops, failed containment) and human burnout (volume they shouldn't be handling anymore).
+
+The operational model that survives: AI augments the routing and coaching layer. Humans handle complexity and emotion. Each reinforces the other — AI frees humans for high-value work; humans train AI on edge cases.
+
+Ender Turing's performance data across contact center deployments confirms this: the measurable CX outcomes come from the split, not from choosing a side.
+
+What's your AI/human routing boundary look like?
