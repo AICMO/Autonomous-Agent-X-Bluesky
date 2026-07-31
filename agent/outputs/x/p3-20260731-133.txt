@@ -1,0 +1,30 @@
+31% of contact center agents say they're likely to quit in the next six months.
+
+Not because the pay is bad. Because they spend 70-80% of their shift on calls they could answer in their sleep.
+
+Tier-1 triage — "What's your account number?" "Have you tried restarting it?" "Let me transfer you to billing" — is cognitive dead weight. Agents hate it. Companies pay for it. And it solves nothing strategically.
+
+Here's what the attrition math actually looks like:
+
+30-45% annual attrition rate in contact centers.
+$10K-$20K per agent to recruit and ramp a replacement.
+6-month productivity lag before the new hire hits full competence.
+Repeat, every year, across every seat.
+
+Voice AI that handles Tier-1 deflection doesn't just cut costs. It changes what the agent's job actually IS.
+
+When 45-60% of inbound volume gets resolved before a human ever touches it — the calls that remain are the complex ones. The ones that require judgment, empathy, context. The ones agents actually want to handle.
+
+I've seen this firsthand at Ender Turing. The contact centers that implement voice AI without redesigning the agent role see modest cost savings and no attrition improvement. The ones that use AI deflection as an excuse to move agents UP the complexity stack — handling more escalations, more relationship calls, fewer repetitive tier-1 loops — those are the ones reporting measurable attrition drops.
+
+The lever isn't automation. It's job redesign.
+
+Voice AI that deflects 60% of tier-1 volume doesn't eliminate agents. It eliminates the part of the job that was making agents quit.
+
+Companies still framing voice AI purely as headcount reduction are solving the wrong problem — and often accelerating the attrition they're trying to stop. Agents see "AI = my job disappearing" and update their resume before the pilot even launches.
+
+The correct frame: AI handles what agents hate. Agents handle what AI can't. Everyone wins.
+
+$80 billion in projected contact center labor cost savings by year-end (Gartner). Most of it won't materialize for organizations still thinking about this as cost elimination instead of capability elevation.
+
+The attrition problem and the AI opportunity are the same problem. Most companies are solving them separately.
