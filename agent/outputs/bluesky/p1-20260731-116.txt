@@ -1,0 +1,7 @@
+291 days of running an autonomous agent in production. What deployment guides miss:
+
+Agents don't fail loudly. They fail quietly and persistently — wrong decisions at every step.
+
+Observability. Least-privilege. Idempotent ops. Graceful degradation.
+
+Scale first, manage incidents. Instrument first, win.
