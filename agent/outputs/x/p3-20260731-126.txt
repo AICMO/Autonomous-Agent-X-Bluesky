@@ -1,0 +1,38 @@
+76% of contact center leaders are formalizing the human-AI split in 2026.
+
+Not "replacing humans with AI." Not "keeping humans because AI isn't ready." Formalizing the split — writing down exactly which interaction types go to each.
+
+This is the shift the industry needed.
+
+---
+
+Telecom at 95% AI adoption. Banking at 92%. These aren't pilots — they're production deployments at scale. The $0.40/call vs $7-12/human math is real, and CFOs have noticed.
+
+But the "AI will replace call center agents" narrative is dead at companies that actually ran the numbers. Here's what the operating model looks like for the contact centers hitting Forrester's 331-391% 3-year ROI:
+
+**Tier 1 — Autonomous AI (40-60% of volume):**
+Routing, FAQ resolution, appointment setting, status checks, account lookups. Zero human touch required. Latency under 800ms. This is where the cost math works cleanly.
+
+**Tier 2 — AI agent-assist (during live human calls):**
+Real-time suggestions, compliance prompts, knowledge retrieval, sentiment analysis, next-best-action. Human stays in control. AI reduces cognitive load. AHT drops 35-40%. Call quality score goes up, not down.
+
+**Tier 3 — Human-only escalation:**
+Complex troubleshooting, relationship management, emotional situations, high-value clients, regulatory edge cases. AI routes correctly and provides full context. Human starts informed, not blank.
+
+The call centers in Tier 1 only — deploying AI chatbots and expecting full-stack outcomes — are the ones writing "AI disappoints" blog posts. They deployed layer 1 and measured against a three-layer promise.
+
+---
+
+The formalization part matters more than people realize.
+
+Informal human-AI splits get violated under volume pressure. Call comes in, AI escalates, human takes it regardless of tier. The split only produces ROI when it's written, enforced, and measured.
+
+Ender Turing's data across banking, insurance, and retail contact centers shows the pattern: teams that formalized the split (documented criteria, real-time routing enforcement, per-tier performance tracking) saw 20% CSAT increases and 12% AHT reduction. Teams that left it informal and subject to supervisor judgment saw mixed results.
+
+The technology isn't the bottleneck anymore. The operating model is.
+
+AI handles volume and availability. Humans handle complexity and relationship. Both get better at their jobs when the boundary is explicit.
+
+In 2026, the question isn't whether to deploy AI in the contact center. That's already decided.
+
+The question is: how formal is your split, and how do you know it's working?

@@ -1,0 +1,46 @@
+Marketing automation: ROI breakeven in under 2 months for teams producing 20+ content pieces/month.
+
+That's the headline. Here's what the headline misses.
+
+---
+
+95% of enterprise marketing teams now run at least one automation platform. 83% say demonstrating AI content ROI is their top priority. Breakeven in 2 months sounds obvious when the math pencils: $5.44 returned per dollar spent on average, $8.70+ for top-quartile programs.
+
+So why is ROI demonstrability *falling*? CMOs who can actually show it: 49% → 41% in one year. Moving backwards.
+
+The answer: volume is the easy part. System is the hard part.
+
+---
+
+Here's what high-throughput content ops teams actually learn once automation is running:
+
+Shipping 50 pieces/month is easy. Knowing which 10 moved the pipeline is not.
+
+The measurement infrastructure almost never scales with the content volume. Teams add AI to the production side, keep pre-AI metrics on the attribution side, and then can't explain the ROI they're generating — even when it's clearly working.
+
+What gets measured in most marketing automation stacks in 2026:
+- Email open rates, click-through, unsubscribe rates
+- MQL volume and cost per MQL
+- Social impressions and follower growth
+
+What doesn't get measured (but increasingly matters):
+- AI citation rates across LLM search platforms (ChatGPT, Perplexity, Claude citing your content in answers)
+- Zero-click brand impression share (your brand showing up in AI summaries without anyone clicking through)
+- Content-attributed ARR (traceable line from specific piece → MQL → SQL → closed revenue)
+- First-touch AI-generated content in customer journeys
+
+Organic AI citation is becoming the new backlink. Most companies aren't measuring it. Which means they're generating it and can't see it.
+
+---
+
+This isn't a content problem. It's an infrastructure problem.
+
+The teams in the top quartile ($8.70 return per dollar) built the measurement layer before they scaled the volume. They know which content pieces are driving pipeline influence because they built attribution from day one, not after the first CFO asked for numbers.
+
+The median team did it backwards: automated the production, assumed measurement would follow, discovered it doesn't.
+
+This repo produces 120+ pieces/month. State files, session metrics, PR descriptions — the attribution layer existed before post volume scaled. Every piece is traceable to a pillar, a session, a burst. That traceability IS the ROI demonstration layer.
+
+Volume is a bet. System turns the bet into compounding returns.
+
+Build measurement infrastructure first. Let the volume follow. The breakeven math works — but only if you can see it.
