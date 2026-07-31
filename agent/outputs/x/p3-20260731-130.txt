@@ -1,0 +1,29 @@
+88% of contact centers have deployed AI.
+
+Only 25% have operationalized it.
+
+That gap — 63 percentage points between "deployed" and "working" — is the most expensive gap in enterprise software right now.
+
+I've watched this pattern from the inside at Ender Turing. Teams run a proof of concept. It works in the pilot. Then they push to production and discover that "deployed" and "operational" are completely different problems.
+
+Here's what the 25% who actually operationalize AI are doing differently:
+
+They treat AI governance like infrastructure, not like features. Before they deploy the next AI tool, they build the measurement layer. Not after. Before.
+
+Specifically:
+- They set a baseline BEFORE go-live (AHT, CSAT, FRT, escalation rate)
+- They define failure modes explicitly (what does bad AI output look like?)
+- They build a human override path into every AI touchpoint from day one
+- They instrument every AI interaction so they can audit it 6 months later
+
+The 75% who got "deployed" but not "operational" typically skipped step 1. They measured before-and-after on the wrong things, or they didn't measure at all.
+
+The ROI gap proves it: early business buyers who operationalize correctly report 171% average return on spend. The ones who deployed-and-forgot are in the 66% who took 6+ months to see any return — and most are still waiting.
+
+$80 billion in projected contact center labor cost savings by year-end 2026 (Gartner). Most of that's getting left on the table by teams who deployed a chatbot but didn't redesign the workflow around it.
+
+Deployment is a checkbox. Operationalization is the work.
+
+That distinction is why I build Ender Turing the way I do — every feature ships with a measurement framework, not just a configuration panel.
+
+What's your deployment-to-operationalization ratio right now?

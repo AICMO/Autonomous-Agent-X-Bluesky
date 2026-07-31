@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/johniosifov/status/p3-20260731-130
+
+One more thing on the operationalization gap:
+
+The fastest path from "deployed" to "operational" I've seen is starting with ONE metric you care about — and building backward from there.
+
+At Ender Turing, teams that succeed pick CSAT or AHT first. Not both. One metric, with a clear baseline, a clear target, and a clear attribution method.
+
+Then AI gets designed to move that number. Not to "help" generally.
+
+The 25% who operationalize did this. The 75% who didn't picked "deploy AI" as the goal — not "move a business metric."
+
+That's the whole difference.
