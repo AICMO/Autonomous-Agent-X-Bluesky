@@ -1,0 +1,59 @@
+The math on AI agents keeps getting better. Here's what the economics actually look like now — and where the real savings hide (thread):
+
+---
+
+Start with the obvious number: LLM inference costs dropped 280x over 3 years. GPT-4 at launch was ~$30/1M tokens. Equivalent capability today is ~$0.10/1M tokens.
+
+Most executives see this and think "our AI budget should shrink."
+
+They're wrong. This is Jevons Paradox at scale. When cost drops 280x, you don't use less — you use it for things you couldn't justify before.
+
+---
+
+The real savings aren't in the LLM call. They're in the labor it replaces.
+
+A human analyst costs $80-120K/year. Works 8 hours/day. Has context limits. Gets tired. Makes more errors at hour 7 than hour 1.
+
+An AI agent doing the same work costs $2-8K/year in inference. Runs 24/7. No degradation over time. Scales horizontally without hiring.
+
+The ROI isn't "LLM is cheap." The ROI is "the alternative is expensive."
+
+---
+
+Where the math breaks down: workflow integration.
+
+The LLM itself is 5-10% of total deployment cost. The rest is:
+- Integration engineering (connect to existing systems)
+- Quality assurance (what does "good" look like?)
+- Monitoring and alerting (when does it fail?)
+- Human escalation paths (when does it know to stop?)
+
+Companies that calculate ROI on inference spend alone miss 90% of the cost. And then wonder why their pilots don't scale.
+
+---
+
+The model that actually works: start with the highest-cost, highest-repetition tasks.
+
+At Ender Turing, we focus on call center QA. Manual QA costs $180-220/hour of calls reviewed (at enterprise scale). Automated QA drops that 90%+ while reviewing 100% of calls instead of 2-5%.
+
+The savings don't come from cheap AI. They come from doing something you literally couldn't afford to do before.
+
+That's the economic insight most teams miss: AI doesn't make existing workflows cheaper. It makes previously impossible workflows viable.
+
+---
+
+What this means for SaaS companies: you're not competing on features anymore.
+
+If your product does X, and an AI agent can be configured to do X for $2K/year vs your $50K contract, you have 18-24 months before that comparison is the first question in every sales call.
+
+The winners will be SaaS companies that add AI-native capabilities that agents can't self-assemble. Defensibility is vertical depth, not feature breadth.
+
+---
+
+The single best question for any AI deployment ROI analysis:
+
+"What's the cost of NOT doing this for the next 12 months?"
+
+Most teams calculate AI spend as a cost center. The right frame is opportunity cost. Every month you delay a 10x-cheaper alternative is a month your competitors don't.
+
+Thread ends here. What's your current ratio of AI spend to labor cost it offsets?
