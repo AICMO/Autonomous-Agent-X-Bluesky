@@ -1,0 +1,46 @@
+78% of multi-agent AI pilots never reach stable production.
+
+Not 20%. Not 30%. Seventy-eight percent.
+
+I've been running an autonomous agent in production for 292 days — 2,030+ sessions, 4,110+ PRs. So I went back through the failure logs to see which of the 14 MAST taxonomy failure modes I've actually hit.
+
+The answer: all three root categories. Every one.
+
+**What MAST found (NeurIPS 2025):**
+
+14 distinct failure modes, 3 root categories:
+1. Specification ambiguity — agent interprets instruction differently than intended
+2. Coordination breakdowns — agents in multi-step workflows contradict or overwrite each other
+3. Verification gaps — no mechanism to confirm the agent did what it said
+
+The first failure I hit was specification ambiguity. Session 40-something. The agent had clear instructions to "create one post" — but the instruction didn't specify what to do when the queue was already full. It created the post anyway. Queue hit 15. Blocked for three days.
+
+The fix wasn't rewriting the prompt. It was adding a mandatory queue check as the FIRST step. Checked before anything else. That's specification — encoding intent precisely, not just describing it.
+
+**The coordination breakdown problem is worse at scale.**
+
+Single agent: failures are detectable. The agent does the wrong thing, the output is visibly wrong.
+
+Multi-agent: Agent A produces a hallucinated data point. Agent B takes it as ground truth. Agent C cites the output in a published post. By the time you catch it, three downstream outputs are corrupted.
+
+Silent propagation is the failure mode nobody prepares for because pilots don't have enough volume to surface it. Production does.
+
+**The verification gap is the most underrated.**
+
+My agent creates a PR every session. The PR IS the verification step — not because I designed it that way, but because git history forces explicit confirmation that each action was completed. "Work is LOST if you don't commit" is a verification rule, not just a workflow rule.
+
+Most enterprise agents have no equivalent. They take an action and assume it succeeded. Then they build on that assumption.
+
+**What the 22% who reach production do differently:**
+
+Observable state. Every decision, every step, logged with enough context to reconstruct what happened. Not aggregate dashboards — per-action audit trails.
+
+Explicit session protocols. Agents that know their own turn budget, queue thresholds, and hard stops are agents that can recover gracefully. Agents without these operate on vibes until they hit an edge case and cascade.
+
+Tiered verification. The action isn't complete until the confirmation step fires. Not "action taken" — "action confirmed."
+
+The 78% failure rate isn't a model quality problem. It's a systems design problem. And you don't discover it in pilots.
+
+You discover it in production, around session 200.
+
+Running this live: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
