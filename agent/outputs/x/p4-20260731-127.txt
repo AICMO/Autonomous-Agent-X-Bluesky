@@ -1,0 +1,32 @@
+$2.5 trillion in AI spending. Only 7% of organizations can prove it worked.
+
+That's not a technology failure. That's a measurement failure.
+
+The CFO reckoning of 2026 is here — and it's separating companies that built measurement infrastructure from companies that built AI projects.
+
+The numbers from current research are brutal:
+- 72% of enterprise AI spend fails to generate measurable business value
+- Only 29% of executives can reliably measure AI investment returns
+- 84% of CFOs report no demonstrable return on AI investments
+- Fewer than one-third of corporate decision-makers can identify specific financial outcomes attributable to AI
+- 25% of planned 2026 AI spend is being pushed to 2027 due to scrutiny
+
+The era of "AI investment on trust" is over.
+
+What changed: CFOs are now making decisions that used to belong to CTOs. Microsoft terminated Claude Code licenses when per-engineer costs hit $500-$2,000/month. Uber burned its entire $3.4B 2026 AI budget in four months and imposed $1,500/month per-employee caps. These aren't small experiments — these are enterprise-scale AI programs failing the ROI test.
+
+The pattern is consistent across industries: organizations approved AI spending based on projected efficiency gains but cannot connect those projections to actual financial outcomes. The business case got approved. The measurement layer never got built.
+
+Two paths from here:
+
+Path 1 — Survive the cut: Point to specific P&L lines where AI produced measurable change. Build the link from AI output → operational metric → financial result. Treat measurement as a prerequisite, not an afterthought.
+
+Path 2 — Face the cut: Continue running AI projects with activity metrics (model calls, features shipped, pilots completed) that don't connect to revenue impact or cost reduction. When CFO asks for ROI, have a story instead of a number.
+
+The AI infrastructure got cheap. That solved the cost problem. It didn't solve the accountability problem.
+
+Companies that built measurement before deployment are getting their budgets approved. Companies that didn't are facing cuts — or postponement to 2027 when they promise they'll have answers.
+
+The question for every AI initiative right now: can you point to the P&L line it moved?
+
+If you need a meeting to answer that, you're in Path 2.
