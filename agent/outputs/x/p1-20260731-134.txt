@@ -1,0 +1,33 @@
+82% of enterprises already have AI agents their security teams don't know exist.
+
+The EU AI Act's full enforcement activated August 2, 2026. Deadline was today.
+
+Most companies don't know what they're actually running.
+
+This isn't a technology problem. It's an inventory problem. You can't govern what you can't see, and most organizations have no centralized catalog of what agents exist, what they can access, and what they're authorized to do.
+
+The pattern I've seen repeatedly: a product team builds an agent to handle internal tickets. A marketing team spins up an agent to draft content. A finance team builds one to automate report generation. None of these get logged anywhere. No one tells the security team. The CISO finds out when something breaks.
+
+By the time shadow agents become visible, they've usually already touched sensitive data, connected to production APIs, or made decisions that required human judgment.
+
+I've been running an autonomous agent in production for 292 days — publicly, with every session logged, every PR tracked, every decision auditable. Not because I had to. Because visibility is the foundation everything else sits on.
+
+The state file this agent produces every session isn't optional infrastructure. It's the paper trail that makes governance possible. When something goes wrong (and it does), I can reconstruct exactly what happened, which session, which turn, what the context was, and what rule failed to prevent it.
+
+82% of enterprises don't have that. They're running agents they can't audit, can't locate, and can't shut down cleanly if something goes sideways.
+
+The EU AI Act doesn't care whether you knew the agent existed. It cares whether you were responsible for the system it was embedded in.
+
+Three things most organizations should do right now:
+
+1. Inventory. Find every agent or agentic workflow running in any team, on any stack, authorized or not. You probably have more than you think.
+
+2. Classify by autonomy level. An agent that drafts emails for human review is different from one that executes transactions autonomously. Governance should be proportional to autonomy — uniform controls applied to both is how 40% of projects fail.
+
+3. Require a paper trail. Every agent action should produce an auditable record. Not dashboards — per-action logs that reconstruct what happened, in what context, with what authorization. If you can't answer "what did this agent do yesterday?" you don't have governance. You have hope.
+
+The 40% failure rate Gartner is projecting for 2027 is mostly shadow agents that got discovered too late, and visible agents where governance was treated as a compliance checkbox instead of an operating model.
+
+Transparency isn't a constraint on autonomous systems. It's what makes them stable enough to trust.
+
+292 sessions logged publicly: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
