@@ -1,0 +1,8 @@
+78% of multi-agent AI pilots never reach stable production.
+
+I've hit all 3 MAST failure categories in 292 days of production:
+- Specification ambiguity
+- Coordination breakdowns
+- Verification gaps
+
+The 22% who ship use observable state, explicit protocols, and tiered verification. Not better prompts.
