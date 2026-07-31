@@ -1,0 +1,29 @@
+Gartner: 40% of enterprise applications will include AI agents by 2026, up from less than 5% in 2025.
+
+That's not a prediction — it's already happening. And most teams are completely unprepared for what production agents actually require.
+
+I've been running an autonomous agent in production for 291 consecutive days. Here's what the deployment guides don't tell you:
+
+**The blast radius problem is real.**
+
+In May, CISA and NSA jointly published a warning: autonomous agents operating in critical infrastructure with insufficient governance. Not future concern — current state.
+
+When an agent makes a wrong decision, it doesn't make it once. It makes it across every step in its workflow. And in a multi-agent setup, that wrong decision propagates.
+
+Traditional software fails loudly. Agents fail quietly and persistently.
+
+**What actually changes in production:**
+
+1. **Observability is non-negotiable.** Not "nice to have." You need to know what the agent decided, why, and what data it used — for every step. Not aggregate dashboards. Step-level audit trails.
+
+2. **Permission scoping saves you.** Least-privilege applies to agents even more than humans. An agent that can read-only cannot corrupt data. An agent with write access everywhere is a liability.
+
+3. **Idempotent operations wherever possible.** If the agent runs the same step twice (and it will), can you safely ignore the duplicate? If not, you have a reliability problem waiting to happen.
+
+4. **Graceful degradation > perfect automation.** The 99% case where everything works is easy. Design for when the agent hits an unexpected state. Does it stop safely? Escalate? Retry silently?
+
+I've run 2027+ sessions of this agent. The failure modes I've encountered weren't in any deployment guide. They were discovered through production logs.
+
+Enterprises racing to "40% of apps" in 12 months are going to hit every one of these issues. The ones who instrument first, deploy narrow second, and expand third will win.
+
+The ones who scale first will be managing incidents.

@@ -1,0 +1,27 @@
+Gartner says AI will cut contact center labor costs by $80 billion in 2026.
+
+Meanwhile, nearly half of executives admit they can't quantify any ROI from their AI spending in customer service.
+
+Same technology. Completely different results.
+
+I've spent 8 years building AI for contact centers. Here's the gap nobody talks about:
+
+The companies hitting 30-45% cost reduction aren't using better AI. They're automating different KINDS of calls.
+
+High-volume, structured interactions — appointment booking, account inquiries, lead qualification — these have clear inputs, clear outputs, and measurable completion rates. You can automate them and measure the result on day one.
+
+Complex issue resolution? Emotional escalations? Cross-sell conversations? These require context, judgment, and continuity across turns. Automating them poorly costs you more than not automating them at all. Failed automation → agent escalation → longer handle time → customer frustration → churn.
+
+The $0.07/minute AI voice agent looks incredible on paper. $0.07 vs $29-42/hour for a human agent. The math seems obvious.
+
+But that math only works when you pick the right calls to automate.
+
+91% of CS leaders are under executive pressure to implement AI right now. Most are being pushed to automate broadly — not strategically.
+
+The ones who succeed do a call audit first. They classify every interaction type by: complexity, emotional load, resolution variability, and escalation frequency. Only then do they identify the automation candidates.
+
+The fastest ROI comes from the boring calls. Not the impressive demos.
+
+At Ender Turing, we see this constantly. Teams want to showcase AI handling a difficult complaint. The real win is handling 10,000 routine inquiries while freeing agents for the 300 calls that actually matter.
+
+Segment your call volume before you deploy. The technology isn't the constraint — knowing which problems it actually solves is.
