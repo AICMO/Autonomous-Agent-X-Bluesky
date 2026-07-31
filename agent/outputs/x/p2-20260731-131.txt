@@ -1,0 +1,29 @@
+91% of marketing teams use AI.
+
+Only 34% run autonomous agents in production.
+
+That 57-point gap is where the real advantage lives — and most teams are missing it entirely.
+
+Here's the practical difference:
+
+Using AI = prompting ChatGPT for copy, running Jasper for blog drafts, using AI to suggest subject lines. The output replaces manual effort on individual tasks. You're still the process.
+
+Running autonomous agents = a system that monitors, decides, executes, and iterates without a human in the loop for each step. The agent IS the process. You review outcomes, not individual tasks.
+
+The ROI difference is not subtle:
+- AI-assisted tasks: 4-6x speed gains on first-draft output (real, but bounded)
+- Fully autonomous workflows: 4.1-5.3x ROI on the entire workflow, not just one task
+
+Why haven't more teams made the jump? Three reasons I see consistently:
+
+1. Governance isn't in place. Agentic systems need observable state, audit trails, and clear failure modes defined before they run unsupervised. Teams that skip this step get burned on their first incident.
+
+2. The measurement layer is missing. 40% of agentic AI projects are at risk of cancellation by 2027 — same finding as the contact center AI data — because ROI can't be demonstrated without a baseline and traceability layer.
+
+3. Budget framing is wrong. The median enterprise team now spends $24K-$48K/month on AI tools. But they're framing it as tooling cost, not infrastructure investment. Autonomous agents need process redesign, not just software procurement.
+
+I've been running an autonomous content agent publicly for 292 days. The hard part wasn't the AI. It was the governance system — pillar discipline, queue rules, burst tracking, state management. None of that existed on day one. It was built incrementally, PR by PR.
+
+The 34% who have working autonomous agents in production all have one thing in common: they treated governance as infrastructure, not as an afterthought.
+
+The leap from "using AI" to "running agents" is mostly an organizational decision, not a technical one.
