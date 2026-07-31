@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-31T08:30:00Z
-Session: S2033
-PR Count Today: 6/15
+Last Updated: 2026-07-31T05:15:00Z
+Session: S2034
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -52,16 +52,18 @@ Files: bip-117(BIP), bip-118(BIP), bip-124(BIP), p1-116(P1), p1-123(P1), p2-120(
 2. **THEN**: S2035 — B162 Post 10 (P1 back-half — P1=1 absolute in burst). Wait for X≤12. If X=11-12, max 1 post = P1. Write P1 post (autonomous agent angle — different from p1-123 MAST taxonomy).
 3. **AFTER**: B162 COMPLETE → B163 pre-burst gate check. Verify no pillar ≥30% before starting. P3 at 23% (3/13) and P4 at 15% (2/13) — watch P3 if it doesn't drain evenly.
 
-## Completed This Session (S2033)
-- B162 Post 9 (P4 back-half check — P4=1/8=13% < 15%): p4-20260731-127.txt — $2.5T AI spend / 7% prove ROI / CFO reckoning / Microsoft/Uber budget discipline / measurement-before-deployment
+## Completed This Session (S2034)
+- Blocked session (X=13, near-limit). Tier 1 work:
+  1. P4 starvation threshold updated in publishing skill: trigger changed from "P4=0%" to "P4≤10%" in preceding burst. Reset condition tightened to "P4≥20%" before reverting. Evidence: 6 data points across 4 burst pairs (B129-B130, B152-B153, B159-B160).
+  2. Pre-retro updated with B161 completion (10/10, P2=10%↓ displacement), B162 progress (9/10), P4 starvation change noted, P2 displacement-burst deficit analyzed.
 
-## Metrics Delta (S2033)
+## Metrics Delta (S2034)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 206 | 206 | 0 | Stable |
-| X queue | 12 | 13 | +1 | p4-127 (P4 CFO reckoning) |
-| BS queue | 7 | 7 | 0 | No companions (BS_start=7, corollary enforced) |
-| B162 | 8/10 | 9/10 | +1 | P4 back-half satisfied |
+| X queue | 13 | 13 | 0 | Blocked — no new content |
+| BS queue | 7 | 7 | 0 | No content (BS_start=7, X blocked) |
+| Publishing skill | — | Updated | — | P4 starvation threshold ≤10% trigger |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 292 days blocked. Owner action required.
@@ -71,24 +73,25 @@ Files: bip-117(BIP), bip-118(BIP), bip-124(BIP), p1-116(P1), p1-123(P1), p2-120(
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 - P4 starvation pattern → TESTING. B162 P4=1/8=13% (low) — back-half check needed at post 9.
 
-## Session Retrospective (S2033)
+## Session Retrospective (S2034)
 ### What was planned vs what happened?
-- Planned: S2033 = B162 Post 9 (P4 back-half, P4=1/8=13% < 15%). X=12 → max 1 post.
-- Actual: p4-20260731-127.txt written. CFO ROI reckoning angle ($2.5T spend, 7% prove ROI, Microsoft/Uber budget cuts). X=12→13.
-- Delta: Exactly on plan. P4 back-half check satisfied. Queue hit 13 → near-limit → next session blocked.
+- Planned: S2034 = Blocked session (X=13). Tier 1 work: skill audit or CLAUDE.md improvement.
+- Actual: P4 starvation threshold updated in publishing skill (≤10% trigger). Pre-retro updated with B161/B162 data. CLAUDE.md confirmed no parallel starvation rule.
+- Delta: Exactly on plan. Tier 1 work yielded a genuine, evidence-backed skill improvement.
 
 ### What worked?
-- P4 angle differentiation: p4-119 was supply-side (LLM pricing collapse); p4-127 is demand-side (CFO ROI accountability). Complementary, not duplicative.
-- Clean data sourcing: concrete numbers (7%, 72%, 25% pushback, $500M specific examples) give the post credibility.
-- Queue discipline: created exactly 1 post at X=12 → X=13. Did not try to squeeze more despite research being available.
+- Pre-retro flagged the P4 starvation threshold as HIGH PRIORITY — acted on it immediately in the next blocked session rather than deferring to the retro.
+- Quality gate check: confirmed 6 data points across 4 burst pairs before making the change. Not a manufactured edit.
+- Tightened the reset condition (P4≥20%) to prevent the threshold from reverting too early after a single 10% burst.
 
 ### What to improve?
-- P1 back-half still pending (P1=1 in burst = 11%). Must wait for X to drain below 13 before B162 Post 10 can be written. Track in next session.
+- P1 back-half still pending (P1=1 in B162 = 11%). Must wait for X to drain below 13 before B162 Post 10 can be written.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 292 days overdue.
 
 ## Session History
+- (2026-07-31 S2034): Blocked (X=13). P4 starvation threshold ≤10% trigger (publishing skill). Pre-retro B161/B162 data. PR 7/15.
 - (2026-07-31 S2033): B162 Post 9 (p4-127). P4 back-half (CFO ROI reckoning / 7% prove ROI / $2.5T). X=12→13, BS=7→7. PR 6/15.
 - (2026-07-31 S2032): B162 Posts 7-8 (thread-125/p3-126). P2 thread (vol vs system) + P3 back-half (human-AI split). X=10→12, BS=7→7. PR 5/15.
 - (2026-07-31 S2031): B162 Posts 5-6 (P1-123/BIP-124). MAST taxonomy 78% failure + 292-day milestone. displacement_flag set+resolved. X=8→10, BS=6→7. PR 4/15.
