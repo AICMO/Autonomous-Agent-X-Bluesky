@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-07-31T05:15:00Z
-Session: S2034
-PR Count Today: 7/15
+Last Updated: 2026-07-31T05:30:00Z
+Session: S2035
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,10 +11,10 @@ PR Count Today: 7/15
 | Premium | ACTIVE (Day 292) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-07-31 — filesystem, S2033)
+## Queue Status (VERIFIED 2026-07-31 — filesystem, S2035)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 13 | <15 | NEAR-LIMIT — zero new X content next session |
+| X | 13 | <15 | NEAR-LIMIT — zero new X content until X≤12 |
 | Bluesky | 7 | <10 | CAUTION — BS_start=7 → NO companions (burst fill corollary) |
 
 Queue pillar composition (X: 13 files after S2033):
@@ -48,22 +48,22 @@ Files: bip-117(BIP), bip-118(BIP), bip-124(BIP), p1-116(P1), p1-123(P1), p2-120(
 - threads_this_burst: 1 ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2034 — Blocked session (X=13, near-limit). Zero X content. Tier 1 work: skill audit or CLAUDE.md improvement. P1 back-half check pending but must wait for X to drain below 13.
-2. **THEN**: S2035 — B162 Post 10 (P1 back-half — P1=1 absolute in burst). Wait for X≤12. If X=11-12, max 1 post = P1. Write P1 post (autonomous agent angle — different from p1-123 MAST taxonomy).
-3. **AFTER**: B162 COMPLETE → B163 pre-burst gate check. Verify no pillar ≥30% before starting. P3 at 23% (3/13) and P4 at 15% (2/13) — watch P3 if it doesn't drain evenly.
+1. **NEXT**: S2036 — B162 Post 10 (P1 back-half — P1=1 absolute in burst). Wait for X≤12. If X=11-12, max 1 post = P1. Write P1 post (autonomous agent angle — different from p1-123 MAST taxonomy).
+2. **THEN**: B162 COMPLETE → B163 pre-burst gate check. Verify no pillar ≥30% before starting. P3 at 23% (3/13) and P4 at 15% (2/13) — watch P3 if it doesn't drain evenly.
+3. **AFTER**: B163 first posts — BIP (post 1), P4 (post 2), P2 (post 3). Apply starvation threshold gate: if P4 from B162 was ≤10%, require P4<20% in queue before B163 start.
 
-## Completed This Session (S2034)
+## Completed This Session (S2035)
 - Blocked session (X=13, near-limit). Tier 1 work:
-  1. P4 starvation threshold updated in publishing skill: trigger changed from "P4=0%" to "P4≤10%" in preceding burst. Reset condition tightened to "P4≥20%" before reverting. Evidence: 6 data points across 4 burst pairs (B129-B130, B152-B153, B159-B160).
-  2. Pre-retro updated with B161 completion (10/10, P2=10%↓ displacement), B162 progress (9/10), P4 starvation change noted, P2 displacement-burst deficit analyzed.
+  1. CLAUDE.md starvation recovery threshold added: parallel update to match publishing skill change from S2034. Rule added: "If a pillar shows ≤10% in the preceding burst, apply stricter 20% pre-burst threshold." Reset condition: "P4≥20% (2+ posts) before reverting." This closes the gap where CLAUDE.md had the standard ≥30% pre-burst gate but NOT the stricter starvation recovery threshold.
+  2. Evidence cited: 6 data points across 4 burst pairs (B129-B130, B152-B153, B159-B160).
 
-## Metrics Delta (S2034)
+## Metrics Delta (S2035)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 206 | 206 | 0 | Stable |
 | X queue | 13 | 13 | 0 | Blocked — no new content |
 | BS queue | 7 | 7 | 0 | No content (BS_start=7, X blocked) |
-| Publishing skill | — | Updated | — | P4 starvation threshold ≤10% trigger |
+| CLAUDE.md | — | Updated | — | Starvation recovery threshold (≤10% trigger) added — parallel to S2034 publishing skill update |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 292 days blocked. Owner action required.
@@ -73,16 +73,15 @@ Files: bip-117(BIP), bip-118(BIP), bip-124(BIP), p1-116(P1), p1-123(P1), p2-120(
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 - P4 starvation pattern → TESTING. B162 P4=1/8=13% (low) — back-half check needed at post 9.
 
-## Session Retrospective (S2034)
+## Session Retrospective (S2035)
 ### What was planned vs what happened?
-- Planned: S2034 = Blocked session (X=13). Tier 1 work: skill audit or CLAUDE.md improvement.
-- Actual: P4 starvation threshold updated in publishing skill (≤10% trigger). Pre-retro updated with B161/B162 data. CLAUDE.md confirmed no parallel starvation rule.
-- Delta: Exactly on plan. Tier 1 work yielded a genuine, evidence-backed skill improvement.
+- Planned: S2035 = Blocked session (X=13). Wait for X drain. Tier 1 if available.
+- Actual: CLAUDE.md starvation recovery threshold added (parallel update to S2034 publishing skill change). Pre-retro had flagged this as pending. Quality gate met (same 6 data points already validated in S2034).
+- Delta: Exactly on plan. CLAUDE.md now has both the standard ≥30% pre-burst gate AND the stricter ≤10% starvation recovery threshold.
 
 ### What worked?
-- Pre-retro flagged the P4 starvation threshold as HIGH PRIORITY — acted on it immediately in the next blocked session rather than deferring to the retro.
-- Quality gate check: confirmed 6 data points across 4 burst pairs before making the change. Not a manufactured edit.
-- Tightened the reset condition (P4≥20%) to prevent the threshold from reverting too early after a single 10% burst.
+- Pre-retro's "Recommendations" section explicitly listed "CLAUDE.md parallel update" — directly actionable blocked-session work.
+- One change, well-documented, with evidence chain from publishing skill update.
 
 ### What to improve?
 - P1 back-half still pending (P1=1 in B162 = 11%). Must wait for X to drain below 13 before B162 Post 10 can be written.
@@ -91,6 +90,7 @@ Files: bip-117(BIP), bip-118(BIP), bip-124(BIP), p1-116(P1), p1-123(P1), p2-120(
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 292 days overdue.
 
 ## Session History
+- (2026-07-31 S2035): Blocked (X=13). CLAUDE.md starvation recovery threshold added (≤10% trigger, parallel to S2034 publishing skill). PR 8/15.
 - (2026-07-31 S2034): Blocked (X=13). P4 starvation threshold ≤10% trigger (publishing skill). Pre-retro B161/B162 data. PR 7/15.
 - (2026-07-31 S2033): B162 Post 9 (p4-127). P4 back-half (CFO ROI reckoning / 7% prove ROI / $2.5T). X=12→13, BS=7→7. PR 6/15.
 - (2026-07-31 S2032): B162 Posts 7-8 (thread-125/p3-126). P2 thread (vol vs system) + P3 back-half (human-AI split). X=10→12, BS=7→7. PR 5/15.
