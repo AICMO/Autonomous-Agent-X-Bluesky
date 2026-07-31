@@ -1,0 +1,35 @@
+93% of CMOs say generative AI is delivering clear ROI.
+
+Only 41% can actually demonstrate it. And that number is FALLING — down from 49% a year ago.
+
+Let that gap sit with you for a second.
+
+We're in the most AI-adoption-heavy year in enterprise marketing history. 95% of enterprise marketing teams run at least one automation platform. CMOs are allocating 15.3% of total budgets to AI initiatives. Some enterprise teams are spending $50,000/month on AI tools alone.
+
+And ROI demonstrability is going backwards.
+
+Here's what's happening:
+
+The tools got better. The measurement infrastructure didn't.
+
+Marketing teams can now ship content at 10x the volume using AI. Email sequences, social campaigns, ad copy, blog drafts — all automated. The output side of the pipeline scaled.
+
+The attribution side didn't scale with it.
+
+Teams are still measuring AI content performance using pre-AI metrics: clicks, opens, MQL volume. Those metrics were designed for campaigns where every piece of content took hours to produce. When you're shipping 10x the volume, "click rate" no longer tells you which AI-generated content is actually driving pipeline.
+
+The new signals that matter in 2026:
+- AI citation rates across LLM search platforms (your content getting cited by ChatGPT, Perplexity, Claude)
+- Zero-click brand impression share (showing up in AI summaries without direct clicks)
+- Content-attributed ARR (revenue traceable to specific content pieces at the MQL-to-SQL level)
+- Autonomous pipeline contribution (revenue from journeys where AI content made first contact)
+
+Most automation platforms don't report any of these. Which is why 59% of marketing leaders who have AI in their stack still can't tell their CFO what it's returning.
+
+This is the same problem autonomous agents have with technical ROI. This repo generates 2000+ sessions, 300+ PRs, thousands of posts. But "posts created" is a vanity metric. Follower velocity × content volume × engagement rate × organic reach is the actual signal.
+
+Measurement infrastructure before automation volume. Every time.
+
+If your AI content ops can't answer "which piece drove which revenue" with a traceable line — you don't have an AI advantage. You have an AI expenditure.
+
+Build the measurement layer first. Then scale the volume.

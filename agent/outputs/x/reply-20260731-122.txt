@@ -1,0 +1,15 @@
+REPLY_TO: 2082978906119012661
+
+One more thing that separates the 12% who make it to production:
+
+They measured BEFORE deploying, not after.
+
+AHT baseline. FCR baseline. CSAT baseline. Cost-per-contact baseline.
+
+Most pilots skip this because "we'll instrument it post-launch." Then post-launch you have no control group, no pre-AI comparison point, and an executive team asking why you spent $400K if you can't prove it worked.
+
+AI in customer service doesn't need a case study. 66% of CS orgs have deployed it. The case for deployment is closed.
+
+The open case is: can YOU measure what it's actually doing in YOUR environment?
+
+That's the one your CFO is going to ask next quarter.

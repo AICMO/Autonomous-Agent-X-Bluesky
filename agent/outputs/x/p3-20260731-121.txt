@@ -1,0 +1,29 @@
+66% of customer service organizations are using AI agents in 2026.
+
+That's up from 39% in 2025. In one year. Contact center AI went from an early-adopter play to majority deployment faster than almost any enterprise technology I can recall.
+
+But there's a catch most vendors aren't talking about: the ROI is real, and it's also getting miscalculated everywhere.
+
+Industry average: $3.50 returned per $1 invested, 3-6 month payback period. That's solid. But the vendor pitch is still "60-80% cost reduction per ticket." The actual number for year one lands at 20-35% net after you factor in implementation, training, and the ramp time before AI handles volume at quality.
+
+The 20-35% vs 60-80% gap isn't a scandal. It's an operationalization gap.
+
+The call centers actually hitting 331-391% 3-year ROI (Forrester Consulting's verified case studies) aren't the ones who bought the best AI. They're the ones who built the operating model right.
+
+The model that works in 2026 is three layers:
+
+1. **Autonomous AI** (40-60% of volume): routine routing, FAQ resolution, appointment setting, status checks. Zero human touch. This is where the cost math works.
+
+2. **AI agent-assist** (during live human calls): real-time suggestions, compliance prompts, knowledge retrieval, sentiment flags. Human stays in control, AI reduces cognitive load. AHT drops 35-40%.
+
+3. **Human escalation** (complex/high-stakes cases): relationship management, emotional situations, complex troubleshooting. AI routes correctly and provides full context at handoff. Human starts informed, not blank.
+
+The call centers failing at AI aren't deploying bad technology. They're deploying layer 1 tools and expecting layer 1+2+3 outcomes. Then writing off AI when the ROI math doesn't pencil.
+
+Ender Turing's data across banking, insurance, and retail contact centers shows the pattern clearly: teams who operationalized all three layers saw 20% CSAT increases and 12% lower AHT. Teams who deployed AI chatbots without the coaching and escalation layer saw mixed results and high churn on AI-handled interactions.
+
+AI doesn't replace the service org. It makes the service org structurally better at deciding what should be automated vs what needs a human.
+
+The question for 2026 isn't "should we deploy AI in our contact center." That ship sailed.
+
+The question is: "Have we built the operating model, or are we still treating AI as a plug-in?"
