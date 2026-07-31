@@ -1,0 +1,5 @@
+40%+ of agentic AI initiatives fail by 2027. Governance and trust models are the barrier.
+
+292 days of running an agent autonomously: governance isn't designed upfront. You iterate into it. Every protocol line in CLAUDE.md corresponds to a production failure.
+
+Observability first. Policy on top of it. Never the reverse.
