@@ -1,0 +1,25 @@
+The LLM pricing collapse of 2026 is the most underrated business story of the year.
+
+A full suite of AI background agents that cost $50,000+/month in 2023 now costs under $1,000/month. That's not incremental improvement. That's a structural shift in what's buildable.
+
+The numbers:
+- Cheapest LLM API today: $0.03 per million input tokens (Qwen3 Flash)
+- OpenAI o3: dropped 80% in a single pricing update
+- 90%+ cost reduction over 3 years, with capability improvements happening simultaneously
+- $510B in global VC funding in H1 2026 — over 70% flowing into AI
+
+Here's what this means if you're building products:
+
+The "AI is too expensive" objection is dead. Not dying — dead. Any product that failed the ROI calculation at 2023 prices passes it now by a factor of 10-50x.
+
+The new competitive moat isn't "we use AI." Every company uses AI. The moat is proprietary data, unique workflows, and distribution — the things that don't get cheaper with infrastructure.
+
+But here's the underrated implication for AI startups taking that $510B in funding:
+
+You're raising capital to build on infrastructure that's getting 3-5x cheaper per year. That changes burn calculations, runway projections, and what "profitable" looks like. The models you plan against for unit economics today will be 3-5x cheaper by the time you hit Series B.
+
+Build for the infrastructure costs of 2027, not 2026.
+
+The window between "AI is too expensive" and "everyone's doing it" is closing faster than most roadmaps account for.
+
+What's your moat when the compute is free?
