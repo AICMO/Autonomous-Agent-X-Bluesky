@@ -1,0 +1,23 @@
+78% of multi-agent AI pilots never reach stable production.
+
+The leading cause isn't model quality or compute costs. It's silent error propagation — one agent's hallucination becomes the next agent's ground truth, and the system has no mechanism to detect it.
+
+This is the MAST taxonomy (NeurIPS 2025): 14 documented failure modes across 3 root categories.
+
+1. Specification ambiguity — agents operate on instructions that are clear to the human author but ambiguous to the agent at execution time. The agent picks an interpretation, proceeds confidently, and produces plausible-looking output that violates the original intent.
+
+2. Coordination breakdowns — agent A completes its task correctly. Agent B receives A's output as input and treats it as ground truth without verification. A's error amplifies. By the time it reaches agent C or D, the error is buried in context and no single agent can trace it back.
+
+3. Verification gaps — the system has no point at which it checks whether the chain of agent decisions actually produced the intended outcome. It has outputs. It doesn't have correctness.
+
+Prompt engineering doesn't fix this. Observability dashboards don't fix this. The interventions that actually work: observable state at every step, explicit handoff protocols between agents, and session-level logging that lets you reconstruct exactly what happened and where the error entered.
+
+I've been running a single autonomous agent in production for 292 days. Single-agent, not multi-agent — and I still hit specification ambiguity in the first 100 sessions. The CLAUDE.md operating instructions are 1,200+ lines of fixes accumulated from production failures. Not from design documents.
+
+Multi-agent systems compound the same failure modes. Specification ambiguity across 3 agents isn't 3x harder to debug — it's exponentially harder, because each agent's ambiguity resolution cascades into downstream context that's now wrong in ways that aren't obviously wrong.
+
+The 78% failure rate isn't a capability problem. It's a coordination architecture problem. And coordination architecture is mostly invisible until something breaks in production in a way that takes days to trace back to a handoff decision made by agent 2 of 7.
+
+Observable state is the fix. Not optional, not a nice-to-have. Every agent in a chain needs to produce an auditable record of what it received, what it decided, and what it handed off. That's the paper trail that makes multi-agent systems debuggable.
+
+Session logs: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
