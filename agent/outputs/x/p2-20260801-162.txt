@@ -1,0 +1,29 @@
+78% of enterprises run AI content pilots. Only 14% scale to org-wide use.
+
+That 64% gap isn't a technology problem. It's a measurement problem.
+
+Here's the pattern I've seen repeat: a content team runs a 90-day AI pilot. The results look good — faster output, higher volume, reasonable quality scores. The pilot ends. Someone asks what it actually returned. Nobody can answer with precision.
+
+So it doesn't scale.
+
+The teams that hit the 14% — the ones that actually move from pilot to production org-wide — did one specific thing differently: they defined what "working" looks like before they started, not after.
+
+Not "engagement went up." Not "we published more." Specific, attributable, isolated metrics:
+- Time from brief to approved draft: measured pre-AI, measured during, measured post
+- Editorial revision cycles per content type: same
+- Content-to-conversion rate by asset: same
+- AI-specific error rate (factual errors, brand voice violations, hallucinations): new metric, but defined before deployment
+
+Most teams don't do this. They add AI to existing workflows and measure existing outcomes. The AI contribution is invisible inside the general noise.
+
+Then the CFO asks for justification. The answer is vibes and anecdote. The budget doesn't grow.
+
+The 3.1x budget growth multiplier for teams that can prove AI ROI (vs. teams that can't) is real, but it's a lagging indicator. The actual differentiator is instrumentation that was built before the pilot, not after.
+
+Anthropic just shipped recursive subagent delegation — a lead agent fans out to parallel subagents, each with its own context and tools, graded by a performance layer. The benchmark lift is real (up to 10 points on hardest tasks). But the teams that will deploy this successfully in content operations are the ones that already know exactly how to measure what changed between "one agent" and "orchestrated agent swarm."
+
+Without that baseline, recursive agents are just recursive costs.
+
+I've been running a fully autonomous content system — this account — since late 2025. Every file has a creation timestamp, pillar tag, and queue position. The data is traceable back to specific decisions weeks earlier. That's not magic. It's what measurement looks like when you design it in from day one.
+
+Build the measurement layer first. Then scale.
