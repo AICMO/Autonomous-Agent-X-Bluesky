@@ -1,0 +1,9 @@
+171% — average ROI enterprises expect from agentic AI marketing. U.S. projects 192%.
+
+95% run automation. Most have no measurement infrastructure.
+
+Volume is easy. Attribution is hard. Most teams measure clicks, not content-attributed ARR or AI citation rates.
+
+Incrementality testing (holdout groups) is the only defensible ROI method. Almost nobody's built it yet.
+
+Measurement before volume. Every time.

@@ -1,0 +1,23 @@
+$3.50 back for every $1 spent on AI customer service. Leading organizations are hitting 8x ROI. First-year returns average 41%, climbing past 124% by year three.
+
+The numbers look good. So why are 75% of contact centers not capturing them?
+
+Because deployment is not operationalization.
+
+88% of contact centers have deployed AI. Only 25% have operationalized it into day-to-day workflows. The other 63% have tools running in production that aren't actually producing ROI — they're producing activity metrics that look like progress.
+
+Voice AI handles 19% of inbound call center volume in 2026, up from 6% in 2024. Cost per automated call: $0.40. Cost per human call: $7-12. That's a 90-95% cost reduction per interaction when it works.
+
+When it works.
+
+The ROI doesn't materialize automatically from deployment. It requires three things most contact centers skip:
+
+**1. Workflow redesign, not just tool integration.** Voice AI that routes calls but doesn't change how human agents handle escalations doesn't cut average handle time. AHT needs to drop 35-40% for the $0.40 math to pay out. That requires process redesign, not just a new tool on the same workflow.
+
+**2. Tiered human-AI ownership.** 76% of contact center leaders are now formalizing a split: AI owns routing and availability, humans own complexity and high-stakes interactions. The leaders who get this right aren't replacing agents — they're redesigning what "agent" means. Tier-1 deflection via voice AI creates capacity for humans to handle the calls that actually build customer relationships.
+
+**3. Measurement from day one.** Most deployments measure containment rate (did the bot handle it?) but not the outcomes downstream. A call contained by voice AI that drives a customer to competitor has a 0% ROI. You need to measure outcomes, not just completions.
+
+$80B in projected contact center labor savings in 2026. Most of it is theoretical without the process infrastructure to capture it.
+
+The technology works. The gap is always operational.
