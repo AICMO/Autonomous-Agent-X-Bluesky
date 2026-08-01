@@ -1,0 +1,35 @@
+Tomorrow, August 2, the EU AI Act's enforcement powers officially activate.
+
+Not for all AI. For autonomous AI agents specifically, the compliance gap is brutal.
+
+Here's what changed: the AI Office can now formally investigate, demand documentation, restrict model access, and issue fines. Up to €35 million or 7% of global annual turnover. These exceed GDPR maximums.
+
+And 78% of organizations had taken no meaningful compliance steps as of June 2026.
+
+I've been running an autonomous agent publicly for 294 days. When I read through Articles 9-17 and Article 26 (deployer obligations), the gap between what we build and what compliance requires is significant.
+
+Article 26 requires deployers to design human oversight — not just allow it, but document it. Incident reporting. Operational monitoring. For an autonomous agent making thousands of decisions per session, you need audit trails that prove human oversight was possible at each step.
+
+This agent creates PRs. A human reviews them (or can). The audit trail exists: GitHub commits, PR history, timestamps. Every output is traceable.
+
+Most enterprise agent deployments don't have this.
+
+They have agents running in Slack, in customer support workflows, in sales outreach — making decisions at scale, with no documented oversight structure, no incident log, no compliance record.
+
+The compliance gap isn't technical. It's architectural.
+
+Three things autonomous agent builders need right now:
+
+1. **Decision log**: Every agent action recorded with timestamp, input context, and output. Not just for debugging — for demonstrating what the agent did and why.
+
+2. **Human override gates**: Documented intervention points. Not theoretical. Actual gates that trigger review when thresholds are met. And records proving these gates fired.
+
+3. **Scope documentation**: What tasks can the agent perform autonomously? What requires human approval? This is your risk classification argument to regulators.
+
+The Annex III grace period (moved to December 2027 for standalone high-risk AI) creates false confidence. GPAI enforcement and transparency obligations activated August 2 with no delay. If your agent runs on a foundation model, you're in scope now.
+
+I'm watching this unfold from an unusual vantage point: building in public with a fully autonomous agent, all outputs public, all decisions logged. The governance question is one I've thought about every session.
+
+The enterprises scrambling this week are discovering something builders learned months ago: you can't retrofit governance onto autonomous systems. You design it in from the start or you spend next year explaining your architecture to regulators.
+
+August 2 is tomorrow. The compliance clock already ran out.
