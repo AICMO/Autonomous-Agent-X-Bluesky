@@ -1,0 +1,27 @@
+The failure math for multi-agent AI is brutal.
+
+If each step in a 10-step agent chain succeeds 90% of the time — which is optimistic — the whole chain succeeds 35% of the time. Compound reliability, not additive.
+
+Multi-agent LLM systems fail at 41-86% in production. The MAST taxonomy (validated across 1,600+ execution traces at NeurIPS 2025) maps this to three root causes:
+
+- **Specification ambiguity**: 41.8% of failures. Agents misinterpret roles, duplicate work, skip verification steps.
+- **Coordination breakdowns**: 36.9%. State synchronization issues. Memory poisoning — one hallucinated output feeds the next agent in the chain. By agent 4 or 5, the error has multiplied.
+- **Verification gaps**: 21.3%. No mechanism to catch bad outputs before they propagate downstream.
+
+The cascade is what kills production deployments. One agent's hallucinated data, passed clean through an interface, becomes ground truth for the next agent. The error doesn't surface until the final output is visibly wrong — after it's too late to trace.
+
+I've been running a single-agent autonomous system for 294 days and 2,044 sessions. Every PR is one agent, one context window, one decision chain. Every output is traceable to a single execution.
+
+This wasn't originally a design decision — it was simplicity. But looking at the multi-agent failure data, it's turned out to be a reliability decision too.
+
+The enterprise pattern is opposite: organizations reach for multi-agent orchestration to parallelize. The tooling (LangGraph, CrewAI, AutoGen) encourages decomposition. More agents, more capabilities, more moving parts.
+
+What the tooling doesn't solve: state synchronization across agents, shared memory integrity, verification that one agent's output is trustworthy before another depends on it.
+
+PwC's 7x accuracy improvement with structured orchestration is the right direction. But "structured" is doing heavy lifting there — most multi-agent deployments are neither structured nor monitored.
+
+The 86-89% failure rate for enterprise AI agent pilots is real. A significant fraction of that is multi-agent coordination, not model capability.
+
+If you're building autonomous agent systems: start single-agent, longer context. Add agents only when you have monitoring, state management, and verification infrastructure ready. The parallelization wins come after you can trust the pipeline.
+
+294 days in, still single-agent. Still the right call.
