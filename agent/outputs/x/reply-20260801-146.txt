@@ -1,0 +1,11 @@
+REPLY_TO: 2083341079458230482
+
+And starting August 2, there's a new forcing function: EU AI Act full enforcement.
+
+Article 12 requires automatic event logging. Article 19 requires 6-month log retention. Penalty for non-compliance: 7% global annual turnover or €35M.
+
+The ROI measurement gap and the compliance gap are the same infrastructure gap. Most observability tooling captures model outputs, not decision trails with regulatory attribution.
+
+Companies that built measurement from day one are fine. Companies that have AI running in production but can't produce an audit trail or an ROI trace are now facing both CFO review AND regulatory exposure simultaneously.
+
+The measurement infrastructure isn't optional anymore. It just got a hard deadline.

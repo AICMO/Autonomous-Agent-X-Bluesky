@@ -1,0 +1,67 @@
+76% of contact center leaders say they're "formalizing the human-AI split."
+
+Most are doing it wrong.
+
+Not on the AI side. On the handoff side.
+
+Here's what the data says — and what it means for anyone building or running AI-augmented contact centers:
+
+---
+
+**The AI works. The handoff breaks it.**
+
+Voice AI now handles 19% of inbound CC volume (up from 6% two years ago). Telecom AI adoption: 95%. Banking: 92%. The automation is real and expanding.
+
+But 1 in 3 human agents lacks the customer context needed to deliver a good experience when the AI escalates.
+
+That's not an AI problem. That's an escalation design problem.
+
+---
+
+**Three failure modes that kill handoff ROI:**
+
+**1. Stateless transfer.** The AI completed 4 steps with the customer. Verified identity. Collected the issue. Tried two resolution paths. Then escalated.
+
+The human agent gets: "transfer from IVR."
+
+Context dropped. Customer repeats everything. AHT spikes. CSAT drops.
+
+Stateless transfers inflate enterprise CC operating costs 30-40% because agents spend the first 90 seconds reconstructing what the AI already captured. At scale, that's hundreds of thousands of dollars in wasted handle time annually.
+
+**2. Channel-locked memory.** Customer started on chat. Moved to voice. Chat history invisible to the voice agent.
+
+For voice AI specifically: warm transfers — where the receiving agent gets a live briefing before they join the call — matter more than almost any other design choice. Yet most deployments do cold transfers: agent picks up blind.
+
+**3. Escalation thresholds set too high.** AI keeps trying to resolve when the customer has already signaled frustration. Escalation should trigger on intent signals (tone, repeat questions, explicit requests), not just resolution failure.
+
+A high re-contact rate above 20-25% almost always traces back to bad escalation design: human agent started without context, customer gave up, called again.
+
+---
+
+**What good handoff design actually looks like:**
+
+Before configuration, not after: Define escalation logic, human handoff standards, and CRM integration requirements BEFORE touching the AI config. Every enterprise deployment that gets this right does it in that order.
+
+The context package on transfer should include: what the customer asked, what paths were attempted, what outcome was reached (or why it failed), and any frustration signals captured during the interaction. Not a summary. A structured handoff object.
+
+Real-time transcription during voice AI handling enables whisper briefing — the agent hears a 5-second summary before they join the call. This is now a standard capability in leading platforms. If yours doesn't have it, that's a capability gap, not a configuration setting.
+
+---
+
+**The framing that gets this wrong:**
+
+"AI replaces agents" or "AI handles tier-1, humans handle tier-2."
+
+Those are queue management strategies, not CX strategies.
+
+The framing that works: AI handles volume and availability. Humans handle complexity, emotion, and relationship. But — and this is the part most implementations miss — the AI's job doesn't end at containment. It ends when the human has everything they need to start from a position of strength.
+
+The handoff IS the product. Not an edge case.
+
+---
+
+Telecom at 95% adoption. Banking at 92%. The industry isn't debating whether to deploy voice AI.
+
+It's about to discover that deployment was the easy part.
+
+The revenue drag from broken escalations is real, measurable, and fixable. But only if you treat handoff design as a first-class engineering problem — not a configuration afterthought.
