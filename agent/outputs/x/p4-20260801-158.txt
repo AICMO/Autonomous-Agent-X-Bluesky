@@ -1,0 +1,27 @@
+2026 is the year inference spend exceeded training for the first time in AI history.
+
+$50B+ in inference. $30B+ in training. The infrastructure economy has flipped.
+
+This is a bigger structural shift than most people realize.
+
+---
+
+From 2018-2024, the AI compute story was training. Every benchmark was about who could afford the biggest training run. The $100M pre-training run. The $10B supercluster. That was the arms race.
+
+Enterprise AI teams spent 20% of their AI budgets on inference in 2023. Today: 85%.
+
+Inference costs collapsed 10x per year from 2021-2025 — GPT-4 equivalent went from $30/M tokens to $0.40/M tokens. The math should have meant cheaper bills. Instead, enterprise AI infrastructure spend went $11.5B (2024) → $18.3B (2025) → $37.5B (2026).
+
+Jevons Paradox runs live: cheaper tokens → viable agentic workflows → more agentic workflows → more tokens. Repeat.
+
+---
+
+What this means for AI builders right now:
+
+**Model selection is now a cost architecture decision, not a benchmark chase.** The team running 50,000 agentic sessions/month at $0.40/M tokens has a very different P&L from the team running the same workload at $3/M tokens. A 7x pricing gap with identical outputs is real margin.
+
+**The inference cost floor is slowing.** 10x annual price reductions (2021-2025) are tapering to 3-5x through 2027. Teams that designed systems around "tokens will always get cheaper" are hitting a wall. Plan for 2-3x improvements, not 10x.
+
+**Architecture now determines unit economics.** Caching, batching, turn limits, early termination — these aren't optimizations you do after product-market fit. They're table stakes if you want to survive at scale. The startups that built inference cost discipline from session one aren't just more efficient. They're the ones still running in 2027.
+
+The $50B inference economy rewards the teams who designed for it. Not the ones still tracking benchmark leaderboards.
