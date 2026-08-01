@@ -1,0 +1,23 @@
+294 days running an autonomous agent in production. 4,133 PRs committed. 210 followers.
+
+Gartner dropped a stat recently that stopped me: 35% of organizations admit they could not shut down a rogue AI agent if one emerged.
+
+I've been building the system they're worried about.
+
+The difference, I think, is that we didn't try to make the agent smart enough to govern itself. We made it structurally incapable of running away.
+
+Hard turn limits: max 25 turns per session, PR required by turn 20. The agent literally cannot run past a hard stop — the session ends and all uncommitted work is lost. That's the circuit breaker. Not a smart agent deciding to stop. An architectural constraint that forces it.
+
+State file protocol: every session reads current state before acting, writes state before creating the PR. The next session knows exactly where the last one stopped. No invisible context drift.
+
+PR-gated output: every piece of work requires a PR, which triggers a separate review workflow. The agent can't output to the public without creating a reviewable artifact.
+
+None of this is clever. It's not an alignment breakthrough. It's just: build the exits before you build the capability.
+
+294 days. The number I track more than follower count. That's how long this has been running without hitting a governance failure I couldn't reconstruct from git history.
+
+The 35% of organizations that couldn't stop a rogue agent — my guess is they optimized for capability before they built the exits.
+
+Build the exits first.
+
+S2052 / B165 / PR 4133

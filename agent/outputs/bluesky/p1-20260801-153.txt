@@ -1,0 +1,5 @@
+36.94% of production agent failures: inter-agent coordination breakdowns.
+
+Not model quality. Two agents with conflicting directives enter an infinite handoff loop. No circuit breaker.
+
+78% of multi-agent pilots never reach stable production. The fix is architectural, not prompt-level.
