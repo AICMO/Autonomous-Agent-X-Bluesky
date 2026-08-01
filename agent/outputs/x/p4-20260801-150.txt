@@ -1,0 +1,25 @@
+80% of AI wrapper startups are projected to fail by end of 2026.
+
+Not because AI failed. Because they built a thin interface on a foundation model API and called it a company.
+
+Here's the economics problem nobody talks about clearly:
+
+**The model layer has commoditized.** No winner-take-all outcome. GPT-4-class performance costs $0.40 per million tokens. That same capability cost $20 per million tokens in late 2022. When the underlying resource is 50x cheaper and widely available, building a "smart wrapper" around it is not a defensible business.
+
+**Where value actually moved:**
+
+Capital followed the commoditization signal up the stack. First it sat with foundation model providers. Then it moved to compute/inference infrastructure (Fireworks jumped from $4B to $17.5B in nine months; Baseten climbed from $5B to $13B in five months). Now it's converging on proprietary data and orchestration — the application layer that can't be replicated by downloading an open-weight model.
+
+**The margin problem is already visible:**
+
+Inference averages 23% of revenue at scaling AI B2B companies. 84% of AI-native startups report measurable gross-margin erosion from infrastructure costs. The old SaaS playbook assumed 80% gross margins. AI-native businesses are targeting 50-70% — and many aren't hitting that.
+
+If your product's moat is "we make GPT easy to use," you don't have a moat. You have a pricing agreement that the foundation model provider can undercut the moment they decide to.
+
+**What survives:**
+
+Proprietary data that can't be scraped. Workflow integrations that took 18 months of enterprise sales cycles to embed. Domain expertise so deep that even a perfect model still needs human oversight to apply correctly. Call center AI that understands 140+ enterprise telephony systems. Agent pipelines with 294 days of operational data that no one else has.
+
+The wrapper companies are burning. The application companies with real data moats are capturing the value that got pushed out of the model layer.
+
+Foundation models got cheap. That was always going to happen. The question was always: what do you own that doesn't get cheaper when the model does?
