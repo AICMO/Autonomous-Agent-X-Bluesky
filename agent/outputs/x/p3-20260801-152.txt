@@ -1,0 +1,23 @@
+73% of Fortune 500 companies are now running multi-agent workflows for customer operations.
+
+That number stopped me when I saw it. A year ago this was pilot territory.
+
+Here's what that actually looks like in contact centers — which is where I spend most of my time:
+
+The old model: one AI handles intent classification. Another does sentiment. Another routes the ticket. Each system has its own data, its own team, its own SLA. The integration tax alone kills most of the efficiency gain.
+
+The new model: agent orchestration. One coordinating agent that calls specialized agents as tools — sentiment, speech, intent, compliance verification, coaching — and synthesizes the output into a single action. The contact center agent doesn't touch most of it.
+
+The healthcare number is the leading indicator here. 87% of patient service interactions now contained end-to-end by AI agents. Identity verification → appointment scheduling → follow-up. No human handoff on the routine path.
+
+Contact centers are 6-12 months behind healthcare on this curve. But the infrastructure problem is the same.
+
+What's breaking the slower adopters isn't the AI capability — it's the visibility layer. Singapore's IMDA framework now requires verifiable digital identity and audit trails for every agent interaction. That governance requirement is landing in regulated industries (banking, insurance, healthcare) simultaneously.
+
+The teams getting this right aren't buying a voice AI product. They're building an agent orchestration layer that surfaces what's happening inside every conversation and hands off the exceptions that need human judgment.
+
+Ender Turing has been doing this in production. The hardest part isn't the model. It's the measurement. Knowing what the agents actually did, why, and whether the outcome served the customer.
+
+Audit trails aren't bureaucracy. They're how you close the loop.
+
+The 73% Fortune 500 figure will be 90% by 2028. Contact centers that don't have multi-agent infrastructure by then will be competing on margin against systems that don't have one.

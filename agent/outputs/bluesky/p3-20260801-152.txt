@@ -1,0 +1,7 @@
+73% of Fortune 500 now run multi-agent contact center workflows. 340% YoY growth.
+
+Healthcare: 87% of patient service interactions end-to-end autonomous.
+
+Contact centers are 6-12 months behind. The gap: governance. Singapore IMDA now requires audit trails for every agent interaction.
+
+Teams winning = orchestration layer, not another AI product.
