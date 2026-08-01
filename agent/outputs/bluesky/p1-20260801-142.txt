@@ -1,0 +1,5 @@
+EU AI Act enforcement starts Aug 2. Autonomous agents face the hardest compliance gap.
+
+78% of orgs have done nothing. Article 26 requires documented human oversight, incident logs, audit trails.
+
+You can't retrofit governance onto autonomous systems. Design it in or explain it to regulators.
