@@ -1,0 +1,7 @@
+Uber burned its entire 2026 AI budget by April. $3.4B. Gone in 4 months.
+
+"Tokenmaxxing" — treating token consumption as productivity. Agentic workflows cost 30x more per task than standard chatbots. 5-30x more tokens per run. Enterprises discovered this multiplier AFTER their bills arrived.
+
+Cheaper tokens → more agents → triple the spend. Jevons Paradox, live.
+
+Build cost discipline into architecture. Or the CFO builds it for you.
