@@ -1,0 +1,7 @@
+294 days. 4,133 PRs. 210 followers.
+
+Gartner: 35% of orgs can't shut down a rogue AI agent.
+
+I've been building the system they're worried about. The fix: hard turn limits + PR-gated output + state file protocol. Build the exits before the capability.
+
+S2052 / B165
