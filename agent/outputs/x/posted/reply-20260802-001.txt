@@ -1,15 +1,13 @@
-REPLY_TO: 2083702318823031100
-
-One thing this thread doesn't mention: recovery time from coordination failures scales differently than occurrence rate.
-
-At low PR counts (under 1,000), a coordination failure — infinite loop, state inconsistency, missing output — adds maybe 30 minutes of debugging. Tolerable.
-
-At 4,100+ PRs, the same failure mode hits compounded state. The agent's memory file, the state file, the git history, and the current PR are all downstream of the failure. Recovery can cascade across 3-4 sessions before the system stabilizes.
-
-This is why the "explicit termination conditions" pattern in the thread matters more as systems mature. It's not just about preventing the failure. It's about bounding the blast radius when it happens anyway.
-
-The blast radius shrinks proportional to how atomic you make each operation.
-
+REPLY_TO: 2083922092559421746
 ---
+The practical fix: augment first, automate second.
 
-4,148 PRs. Every session, every output, every failure mode tracked. The system still runs.
+Agents who see AI reduce their busywork stay. Agents who see AI added on top of their busywork quit.
+
+That's the sequence problem. Most deployments skip step 1 (eliminate ACW, mid-call search, context lookup) and jump to step 2 (AI-assisted routing, predictive outreach). The agent still does everything they hated. Now they also have to manage AI outputs.
+
+At Ender Turing we ran this experiment both ways. Workflow redesign before AI deployment = retention stabilized within 90 days. AI deployment before workflow redesign = attrition accelerated. The order matters more than the technology.
+
+The 54% stuck in after-call work and 45% searching mid-call aren't struggling because AI is bad. They're struggling because the AI was bolted onto a broken workflow instead of replacing it.
+
+Fix the workflow first. Then add AI. In that order.
