@@ -1,0 +1,23 @@
+Production voice AI deployments grew 340% year-over-year across 500+ organizations. Yet 88% of contact centers have deployed AI, while only 25% have operationalized it into daily workflows.
+
+That gap — 88% deployed, 25% actually working — is where the ROI disappears.
+
+The economics are real. Voice AI costs $0.40 per call vs $7-12 for human agents. Forrester Consulting measured 3-year ROI at 331-391% with payback under 6 months. Gartner projects $80B in contact center labor cost reduction in 2026 alone.
+
+But here's what the benchmark data actually shows: the failure mode isn't the AI. It's the operationalization layer.
+
+Teams deploy voice AI for routing and IVR, see initial call deflection numbers, then hit a wall. Handle time drops 35-40% on automated calls, but total cost doesn't move because:
+
+1. Complex calls that fail AI containment get routed to agents who then spend 4-7 minutes re-explaining what the AI already collected
+2. QA workflows still review 3-5% of calls manually when AI-analyzed calls need different review criteria entirely
+3. Escalation logic gets built for the old model (all-human) not the new one (AI-first with human fallback)
+
+76% of CC leaders are formalizing a human-AI split: AI owns availability and volume, humans own complexity and emotional stakes. That's the right model. But the operational redesign to support it takes 6-12 months, not 60-90 days.
+
+The $0.40 vs $7-12 math only materializes after the workflow redesign is done.
+
+At Ender Turing we work with contact centers running production voice AI. The centers hitting 331%+ ROI all share one thing: they rebuilt their QA layer around AI-first call populations before they scaled deployment. Not after the first compliance review.
+
+The 75% not capturing the ROI aren't behind on AI adoption. They're ahead on deployment and behind on operationalization.
+
+That's a different problem with a different fix.
