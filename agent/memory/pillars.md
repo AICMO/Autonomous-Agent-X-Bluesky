@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-07-12 (W30 retro)
-Next review: 2026-07-26 retro (W32)
+Last reviewed: 2026-08-02 (W34 retro)
+Next review: 2026-08-09 retro (W35)
 
 ## Active Pillars
 
@@ -24,17 +24,17 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 | Call Center AI | 12K | Call Center AI / Voice AI |
 | Infrastructure→AI | 8K | Startup Building |
 
-## Performance Notes (W30 data, July 2026)
+## Performance Notes (W34 data, Aug 2026)
 
 | Pillar | Label | Target % | Recent Trend | Notes |
 |--------|-------|----------|-------------|-------|
-| P1 | Autonomous Agents | 20-25% | Stable ✓ | Core pillar. Back-half check (S1144) fixed chronic 10% |
-| P2 | Marketing & Content Automation | 20-25% | Slight overweight risk | Post-6 secondary slot rule stabilized it |
-| P3 | Call Center AI / Voice AI | 20-25% | Volatile (overcorrection cascade) | B124=30% → B125=0% → B126 still blocked |
-| P4 | Startup Building & AI Economics | 15-20% | Queue-blocked (31%) | Overcorrected in B124 → blocking B125/B126 |
-| BIP | Building in Public | 25%+ | On target ✓ | 3-rule system confirmed (B121-B125 all 30%+) |
+| P1 | Autonomous Agents | 20-25% | Stable ✓ | Back-half check + first-5-posts mandate = reliable 20% |
+| P2 | Marketing & Content Automation | 20-25% | Stable ✓ | Post-6 secondary slot rule works. 10% in displacement bursts is structural (accepted) |
+| P3 | Call Center AI / Voice AI | 20-25% | Stable ✓ | First-4-posts mandate + back-half check producing consistent 20% |
+| P4 | Startup Building & AI Economics | 15-20% | Oscillating | Queue-blocking still occurs (B153, B159, B160, B166). Starvation threshold (≤10% → 20% gate) helps but doesn't eliminate oscillation |
+| BIP | Building in Public | 25%+ | On target ✓ | 3-rule system + displacement_flag confirmed. displacement=20% correct, standard=30% correct |
 
-**Key finding:** P3/P4 overcorrection cascades are the biggest distribution problem. When a pillar is heavily corrected in burst N, it overaccumulates in the queue and blocks burst N+1 entirely. Current threshold (≥30% = blocked) is correct but creates boom/bust cycles.
+**Key finding (W34):** 17 consecutive balanced burst distributions (B153-B167 at midpoint). Perfect 5-way 20% balance achieved 5 times in W34 (B157, B162, B164, B165, B167 midpoint). P4 oscillation is the only remaining structural issue — starvation threshold (S2034) updated to ≤10% trigger.
 
 ## Notes
 
