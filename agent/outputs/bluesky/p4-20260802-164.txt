@@ -1,0 +1,7 @@
+Agentic customer-service interaction cost: $0.04 (2023) → $1.20 (2026). 30x increase while token prices fell 80%.
+
+Per token: cheaper. Per task: 3x more expensive.
+
+Linear chat = 1 LLM call. Basic agent = 4-8. Multi-agent pipeline = 12-40+.
+
+Inference cost discipline = operational discipline. They're the same thing.

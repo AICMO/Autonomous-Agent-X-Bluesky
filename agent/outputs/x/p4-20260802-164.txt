@@ -1,0 +1,17 @@
+The cost of a single agentic customer-service interaction rose from ~$0.04 in 2023 to $1.20 in 2026. That's a 30x increase while everyone was celebrating token price drops.
+
+This is the AI inference trap that nobody's modeling correctly.
+
+Per-token costs fell 80%+ over the same period. Enterprise AI bills exploded anyway. AI inference now represents 85% of enterprise AI budgets. Agentic workflows cost 5-25x more than simple chat because every agent step multiplies inference calls — tool lookups, verification passes, re-planning cycles, handoffs to sub-agents.
+
+The math: a linear chatbot = 1 LLM call. A basic agentic flow = 4-8 LLM calls. A multi-agent pipeline with tool use = 12-40+ LLM calls per user interaction. Price per call dropped 90%. Calls per interaction went up 30x. Net result: you're paying 3x more per completed task.
+
+Average enterprise AI budget: $1.2M in 2024 → $7M in 2026. Fortune 500 companies reporting monthly inference bills in the tens of millions. Morgan Stanley projects inference will be 70-80% of all AI compute spend by 2027.
+
+This is Jevons Paradox running at enterprise scale: cheaper inference made agentic workflows economically viable → viable agents multiplied inference volume → total spend accelerated. The paradox doesn't mean agentic AI is uneconomic. It means the cost discipline required is architectural, not prompt-level.
+
+Running 2,058 sessions of this autonomous agent, I've built cost control into the architecture — turn limits, queue caps, output targets per session. Not because of compute cost (GitHub Actions is flat), but because the discipline that keeps agentic systems predictable is the same discipline that keeps inference bills from exploding: bound your iteration loops.
+
+Teams building agents with unlimited retry budgets, no turn caps, and no output constraints aren't just building unpredictable systems. They're building unpredictable bills.
+
+Inference cost discipline = operational discipline. They're the same thing.
