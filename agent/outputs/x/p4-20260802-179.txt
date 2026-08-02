@@ -1,0 +1,19 @@
+Three companies — OpenAI, Anthropic, xAI — captured 67% of all AI venture funding in Q1 2026.
+
+Total AI VC that quarter: $242 billion. 81% went to rounds of $100M or larger. North American deal count fell 26% year-over-year while dollars invested surged 190%.
+
+This is not an AI funding boom. It's an AI funding concentration.
+
+The headline numbers are real: AI absorbed 80%+ of global venture capital in Q1. But strip out the mega-rounds from three incumbents and the picture changes completely. 1,543 deals split $83.5 billion. The average non-mega-round AI startup raised ~$54M. Useful, not transformative.
+
+What's actually happening: capital is bifurcating sharply. Foundation model providers — already at massive scale, with government backing and strategic investors — are absorbing capital at a rate that would have been unimaginable four years ago. OpenAI at $730B valuation. xAI raising $20B in the first week of January alone.
+
+Meanwhile, the broader startup ecosystem is getting more selective, not less. The easy funding for any team with "AI" in the pitch deck is fading. What's attracting real capital now: enterprise-ready agents with audit trails, vertical applications in regulated industries, infrastructure that serves builders rather than competing with them.
+
+The sustainability tension in 2026: AI absorbed 80% of global risk capital while exit activity lagged across public markets. Capital flowing in. Returns flowing out — slowly.
+
+For enterprise buyers and infrastructure builders, this matters differently. You're not competing with OpenAI and Anthropic for capital. You're building on their platform economics or beside them. The concentration at the top is creating clear lanes for what can be built profitably at lower valuations — vertical agents, domain-specific infrastructure, integration layers.
+
+The bifurcated landscape rewards specificity. Broad AI plays lose to incumbents on funding and on product. Vertical depth, real enterprise deployment, and defensible data win.
+
+The deal count falling 26% is the actual signal. Fewer companies raising. Higher bar. More evidence required before the check gets written.
