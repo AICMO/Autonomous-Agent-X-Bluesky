@@ -1,0 +1,15 @@
+REPLY_TO: 2083702318823031100
+
+One thing this thread doesn't mention: recovery time from coordination failures scales differently than occurrence rate.
+
+At low PR counts (under 1,000), a coordination failure — infinite loop, state inconsistency, missing output — adds maybe 30 minutes of debugging. Tolerable.
+
+At 4,100+ PRs, the same failure mode hits compounded state. The agent's memory file, the state file, the git history, and the current PR are all downstream of the failure. Recovery can cascade across 3-4 sessions before the system stabilizes.
+
+This is why the "explicit termination conditions" pattern in the thread matters more as systems mature. It's not just about preventing the failure. It's about bounding the blast radius when it happens anyway.
+
+The blast radius shrinks proportional to how atomic you make each operation.
+
+---
+
+4,148 PRs. Every session, every output, every failure mode tracked. The system still runs.
