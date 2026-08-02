@@ -1,0 +1,21 @@
+31% of contact center agents plan to quit within 6 months.
+
+Not because AI replaced them. Because AI didn't actually help them.
+
+Verint surveyed 1,000 agents for their State of Agent Experience 2026 report. The numbers are specific:
+
+- 45% still search for answers mid-call manually
+- 54% still do after-call summarization by hand
+- 57% re-gather context at every escalation
+
+These are exactly the tasks AI was supposed to eliminate. Instead, most deployments automated the routing while leaving the hard parts to humans. Agents are doing the same cognitive work, plus learning to manage AI outputs on top of it.
+
+The economics compound in the wrong direction. A contact center with 31% annual attrition spends roughly $3,000-5,000 per agent replacement (recruiting, onboarding, training ramp). At 500 seats, that's $1.5-2.5M in attrition costs annually — before the service quality hit from constant ramp periods.
+
+Compare that to the AI ROI calculation most centers are running: cost per call handled automatically. That math looks great on the AI side. It ignores that the AI is running on a workforce burning out at 31%.
+
+The sequence matters. Most contact centers deployed AI as a cost play before fixing agent experience. The right sequence: augment agent capability first, automate volume second. Real-time coaching, sentiment alerts, next-best-action prompts during live calls — these make agents more effective and reduce the cognitive load that's driving attrition.
+
+AI that helps agents do their jobs well retains those agents. Retained agents build institutional knowledge. Institutional knowledge is what actually makes AI automation work better over time.
+
+The ROI math changes when you account for the full system.
