@@ -1,0 +1,7 @@
+CC AI ROI compounds: 5.4mo payback → 4.1x Y2 → 331-391% Y3.
+
+Most CCs are still in Y1 math (does it handle calls correctly?).
+
+The question that determines Y2/Y3: are you building AI-native QA, segmented handle time data, and deliberate human-AI split now?
+
+88% deployed. 25% operationalized. The 25% capture the compounding. The rest renew year 1 forever.

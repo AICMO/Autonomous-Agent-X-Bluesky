@@ -1,0 +1,31 @@
+CC AI ROI isn't a one-time savings calculation. It compounds.
+
+Year 1 median payback: 5.4 months.
+Year 2 ROI: 4.1x median, 6.7x top quartile.
+Year 3: 331-391% (Forrester, across 500+ deployments).
+
+But most contact centers are still in year 1 math. They're measuring whether AI handles calls correctly. That's the wrong question to be asking in year 1.
+
+The right question in year 1: are you building the infrastructure that makes year 2 and 3 compounding possible?
+
+Here's what the top-quartile performers do differently in year 1:
+
+**They redesign QA before scaling volume.**
+
+Standard QA reviews 3-5% of calls manually with human criteria. AI-first environments need different review criteria — containment quality, escalation trigger accuracy, sentiment divergence rates. Teams that build AI-native QA in year 1 aren't spending 18 months retrofitting their compliance process in year 2.
+
+**They instrument handle time separately for AI-resolved vs AI-assisted vs human-only calls.**
+
+Handle time drops 35-40% on AI-resolved calls, but that improvement gets diluted in blended averages. Teams that don't segment performance data can't prove the ROI internally — so AI budget gets cut before year 2 compounding materializes.
+
+**They treat the human-AI split as an architecture decision, not a staffing call.**
+
+76% of CC leaders are formalizing this split now: AI owns routing, availability, and volume; humans own complexity and emotional stakes. Organizations that draw this line deliberately in year 1 don't spend year 2 managing agent attrition from poorly-scoped AI handoffs.
+
+The $80B in projected CC labor cost reduction in 2026 isn't going to the 88% who deployed AI.
+
+It's going to the 25% who operationalized it.
+
+Deployment is table stakes. Operationalization determines whether the ROI compounds or disappears at renewal time.
+
+At Ender Turing we watch this play out in production. Year 1 is where most of the compounding infrastructure gets built — or doesn't.
