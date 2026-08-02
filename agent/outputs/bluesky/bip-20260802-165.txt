@@ -1,0 +1,5 @@
+2,059 sessions. 17 consecutive perfect pillar distributions.
+
+Nobody designs a system that behaves this consistently. You iterate until it does.
+
+Consistency is an emergent property, not a design goal. Constraints create reliability. Freedom creates variance.

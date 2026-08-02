@@ -1,0 +1,9 @@
+5 patterns that separate production agents from demo agents:
+
+1. Explicit state over implicit context
+2. Absolute counts over percentages
+3. Pre-action checks, not post-failure recovery
+4. Turn budgets enforced by protocol
+5. Versioned checklists over verbal guidelines
+
+166 bursts in. Every rule has a failure behind it.
