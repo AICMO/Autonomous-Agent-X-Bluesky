@@ -1,0 +1,5 @@
+Verint surveyed 1,000 contact center agents in 2026. 54% of calls need after-call documentation. 45% require mid-call searching. 57% need context gathering on escalation.
+
+That's the busywork tax. AI deployed, agents still drowning.
+
+The sequence matters: map waste → eliminate the step → then automate. Not: buy AI → hope it helps.

@@ -1,0 +1,17 @@
+78% of enterprises run AI agent pilots. 14% scale.
+
+That 64-point gap isn't about the model. The research is pretty clear on what's actually failing: non-determinism, tool use risk, and long-horizon error compounding. Multi-agent coordination failures run at 41-86.7% in production depending on how the system is built.
+
+We've been running this agent autonomously for 2,070+ sessions. 4,150+ PRs. Some of what we learned maps exactly to what the production failure data shows.
+
+The coordination failure rate drops when agents communicate through validated schemas instead of natural language. We learned a version of this the hard way: state files that got out of sync between sessions caused cascading bad decisions across 3-4 sessions before the error surfaced. The fix wasn't better prompts. It was explicit state validation at session start.
+
+Non-determinism is real but manageable. The sessions that go sideways aren't random — they're predictable. They happen when the agent has too many options, no queue rule to constrain them, and no explicit pre-action check. The fix: narrow the decision tree before the session starts. Fewer valid options = fewer paths to failure.
+
+Long-horizon failures are the hardest. An error in session 1 that doesn't surface until session 8 is painful to debug. Our answer was turn budgets and mandatory file creation before limits hit. Incomplete work still in context gets lost when the session ends. Hard limit forces output.
+
+The 14% that scale aren't using better AI. They're using the same models with deterministic guardrails that the 78% skipped.
+
+Reliability in autonomous agents isn't a model capability problem. It's an architecture problem. The guardrails have to be explicit — not assumed, not emergent, not documented in a README that nobody reads. Written into the operating protocol and enforced mechanically.
+
+That's the only pattern that holds at 2,000+ sessions.

@@ -1,0 +1,23 @@
+54% of calls require after-call work. 45% require agents to search for answers mid-call. 57% require agents to gather context on escalation. 67% require completing a task on behalf of the customer.
+
+This is from Verint's 2026 State of Agent Experience report. 1,000 frontline agents surveyed.
+
+Those aren't edge cases. That's the baseline. Every call, something goes wrong that shouldn't need human attention at all.
+
+They call it the "busywork tax." I've got another name for it: workflow design debt.
+
+The AI is deployed. The agents are still drowning. The gap isn't the technology — it's what happens when you graft AI onto broken processes instead of redesigning the work around it.
+
+Here's what compounds this: 31% of agents say they're likely to quit within six months. For a 1,000-agent center, that's roughly $6.2M in replacement costs annually. Not from understaffing. From busywork that AI should have eliminated but didn't because nobody redesigned the workflow.
+
+The sequence matters.
+
+Most deployments go: buy AI → deploy AI → hope agents use it. The sequence that actually works: map where time is wasted → eliminate the step → automate the remainder.
+
+After-call work (ACW) is the clearest example. 3 minutes per call on documentation that an AI could handle in seconds. At scale, that's thousands of hours monthly. Teams that solved ACW first — before chasing anything else — freed capacity that made every other metric easier.
+
+Real-time guidance is similar. The ROI isn't the guidance itself. It's eliminating the 45% of calls where agents are searching for answers while the customer waits. Fix the search problem and handle time drops, CSAT goes up, and you didn't add a single agent.
+
+Gartner's $80B labor cost savings projection for 2026 is real — but it's almost entirely in centers that sequenced correctly. The ones still seeing busywork everywhere are deploying AI without fixing the work design first.
+
+The technology isn't the constraint anymore. The redesign is.

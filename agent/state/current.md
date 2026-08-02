@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-02T12:00:00Z
-Session: S2069
-PR Count Today: 12/15
+Last Updated: 2026-08-02T14:36:00Z
+Session: S2070
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,21 +11,21 @@ PR Count Today: 12/15
 | Premium | ACTIVE (Day 294) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 
-## Queue Status (VERIFIED 2026-08-02 — filesystem, S2069)
+## Queue Status (VERIFIED 2026-08-02 — filesystem, S2070)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 8 | <15 | SAFE — burst fill zone (B167 Posts 6-7 added this session) |
-| Bluesky | 7 | <10 | BS=7 safe read-time but corollary: zero companions (BS≥7 during burst fill) |
+| X | 7 | <15 | SAFE — burst fill zone (B167 Posts 8-9 added this session) |
+| Bluesky | 2 | <10 | SAFE — companions added (BS=0→2, well under throttle) |
 
-Queue pillar composition (X content files: 8 after S2069):
-- BIP: 1/8 = 12.5% (bip-175) — SAFE
-- P1: 1/8 = 12.5% (thread-166) — SAFE
-- P2: 1/8 = 12.5% (thread-176) — SAFE
-- P3: 3/8 = 37.5% (p3-163, p3-168, p3-173) — QUEUE-BLOCKED (≥30%)
-- P4: 2/8 = 25% (p4-164, p4-171) — SAFE
-- Note: P3 QUEUE-BLOCKED. Next burst post requiring P3 must substitute with most under-represented safe pillar.
+Queue pillar composition (X content files: 7 after S2070):
+- BIP: 1/7 = 14% (bip-175) — SAFE
+- P1: 2/7 = 29% (thread-166, p1-178) — SAFE
+- P2: 1/7 = 14% (thread-176) — SAFE
+- P3: 1/7 = 14% (p3-177) — SAFE (P3 cleared from prior queued posts)
+- P4: 2/7 = 29% (p4-164, p4-171) — SAFE (just under 30% threshold)
+- Note: All pillars SAFE. P4 at 29% — monitor before post 10.
 
-## B167 Burst — IN PROGRESS (7/10)
+## B167 Burst — IN PROGRESS (9/10)
 - Post 1 (BIP front-load): bip-20260802-170.txt ✓ — B167 start / 2,061 sessions / 4,148 PRs / 17 consecutive balanced bursts / operational discipline compounds / Week 8 failure evidence
 - Post 2 (P4 mandate — starvation recovery gate PASSED: P4=14% < 20%): p4-20260802-171.txt ✓ — Token prices -67% YoY / 73% exceeded cost projections / agentic models 5-30x token multiplier / inference trap / turn limits = cost discipline
 - Post 3 (P2 mandate): p2-20260802-172.txt ✓ — 87% enterprise use AI / 41% can prove ROI (↓ from 49%) / deployment before measurement / ROI paradox / sequencing is the problem
@@ -33,11 +33,13 @@ Queue pillar composition (X content files: 8 after S2069):
 - Post 5 (P1 mandate — P1=0 in burst before this post): p1-20260802-174.txt ✓ — 28% enterprises trace agent actions / 78% no agent identity policy / CSA survey / Microsoft Entra Agent ID May 2026 / accountability is architecture / EU AI Act Article 14 / 2,064 sessions traceable
 - Post 6 (BIP displacement — displacement_flag: TRUE, BIP=1 → BIP wins post 6 over P2): bip-20260802-175.txt ✓ — 211F / 2,069 sessions / automation vs human attention / what systems can and can't do / reach problem honest assessment / Communities unlock pending
 - Post 7 (Thread back-half — threads_this_burst=0 → P2 thread, most under-represented safe pillar, P3 BLOCKED): thread-20260802-176.txt ✓ — 4 patterns AI marketing teams that measure ROI / baseline before deploy / outputs not activity / infrastructure vs shortcut / attribution discipline
+- Post 8 (P3 back-half — P3=1 absolute → fires; P3 cleared in queue 0/5=0% SAFE): p3-20260802-177.txt ✓ — Verint 2026 busywork tax: 54% calls need ACW / 45% mid-call search / 57% context gathering / 31% agents quit / workflow design debt / sequence matters
+- Post 9 (P1 back-half — P1=1 absolute → fires; queue P1=1/6=17% SAFE): p1-20260802-178.txt ✓ — 78%/14% pilot-to-scale gap / 41-86% multi-agent failure rates / 2,070+ sessions: explicit state validation / turn budgets / deterministic guardrails / architecture not prompts
 - displacement_flag: RESOLVED ✓
 - threads_this_burst: 1 ✓
-- BIP: 2/7 = 29% | P1: 1/7 = 14% | P2: 2/7 = 29% (thread-176 counts) | P3: 1/7 = 14% | P4: 1/7 = 14%
-- NOTE: Displacement back-half exception: BIP midpoint fired at post 6 via displacement → BIP back-half check SATISFIED (skip ≤2 check at post 7-8). At post 8: P3 priority 1 BUT P3 QUEUE-BLOCKED (37.5%) → substitute with most under-represented safe pillar (BIP=12.5%, P1=12.5%, P2=12.5% all tied; tiebreak P1 > P3 > P4 > P2 → P1). Post 8 = P1 substitute.
-- Post 8 planned: P1 (P3 QUEUE-BLOCKED → P1 substitute, most under-represented safe pillar tiebreak)
+- BIP: 2/9 = 22% | P1: 2/9 = 22% | P2: 2/9 = 22% (thread-176) | P3: 2/9 = 22% | P4: 1/9 = 11%
+- NOTE: Displacement back-half exception applied correctly (BIP back-half SATISFIED at post 7). P3 queue cleared between S2069→S2070 (37.5%→0%). P3 back-half fired correctly at post 8. P1 back-half fired at post 9. P4 queue at 29% (just under 30% — monitor for post 10).
+- Post 10 planned: P4 back-half (P4=1/9=11% < 15% → fires). VERIFY P4 queue < 30% before writing.
 
 ## B166 Burst — COMPLETE (10/10) ✓ 18th PERFECT 5-WAY BALANCE (PENDING VERIFICATION)
 - Post 1 (BIP front-load): bip-20260801-160.txt ✓ — 2055 sessions / 16 perfect distributions / mechanical rules vs intuition / explicit protocol compounds
@@ -82,23 +84,24 @@ Queue pillar composition (X content files: 8 after S2069):
 - P1: 2/10 = 20% ✓ | P2: 2/10 = 20% ✓ | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2070 — B167 Post 8. P3 QUEUE-BLOCKED (37.5%) → P1 substitute (most under-represented safe pillar, tiebreak P1 wins). Check pre-file queue composition. BS=7: zero BS companions.
-2. **THEN**: S2071 — B167 Posts 9-10. Back-half checks: P4 back-half (P4=1/7=14% → fires at post 9-10), P1 back-half (P1=1/7 → fires). Complete B167. Begin B168 pre-burst planning.
-3. **AFTER**: S2072 — B168 burst start. Pre-burst pillar gate: P3 QUEUE-BLOCKED must clear before burst begins. Wait for P3 < 30% in queue.
+1. **NEXT**: S2071 — B167 Post 10 (FINAL). P4 back-half (P4=1/9=11% < 15% → fires). Verify P4 queue < 30% before writing (currently 29% — borderline). If P4 clears below 30%, write P4 post. If blocked, substitute P2 (P2=1/7=14% in queue, SAFE). Complete B167. Begin B168 pre-burst planning.
+2. **THEN**: S2072 — B168 burst start. Pre-burst pillar gate: all pillars must be < 30% in queue. P4 at 29% = tight — verify before starting B168 Post 1 (BIP). Standard gate (P4 had 1 post in B167, not ≤10% so starvation threshold is standard 30%).
+3. **AFTER**: S2073 — B168 Posts 2-3. P4 mandate at post 2. P2 mandate at post 3. Continue burst pattern.
 
-## Completed This Session (S2069)
-- B167 Post 6: bip-20260802-175.txt — BIP displacement post (displacement_flag RESOLVED). 211F / 2,069 sessions / what automation can and can't do / reach problem / Communities unlock pending.
-- B167 Post 7: thread-20260802-176.txt — Thread back-half (threads_this_burst: 0→1). P2 thread. 4 AI marketing measurement patterns / baseline before deploy / outputs not activity / infrastructure thinking / attribution discipline.
-- Queue drained: X=13→6 (S2068 state stale), created 2 posts → X=6→8. BS=7 unchanged (zero companions per corollary).
+## Completed This Session (S2070)
+- B167 Post 8: p3-20260802-177.txt — P3 back-half check (P3=1 absolute → fires). P3 queue cleared to 0/5=0% SAFE. Verint busywork tax / 54% ACW / 45% mid-call search / workflow design debt / sequence matters.
+- B167 Post 9: p1-20260802-178.txt — P1 back-half check (P1=1 absolute → fires). 78%/14% pilot-to-scale gap / multi-agent 41-86% failure rates / 2,070+ sessions: explicit state validation / deterministic guardrails.
+- BS companions: p3-20260802-177.txt + p1-20260802-178.txt (BS=0→2, well under throttle limit of 6).
 
-## Metrics Delta (S2069)
+## Metrics Delta (S2070)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 209 | 211 | +2 | Live from session prompt (211F) |
-| X queue | 6 (actual, stale in S2068) | 8 | +2 | B167 posts 6-7 added |
-| BS queue | 7 | 7 | 0 | Zero companions (BS≥7 corollary) |
-| B167 progress | 5/10 | 7/10 | +2 | BIP displacement + P2 thread |
-| threads_this_burst | 0 | 1 | +1 | Thread back-half requirement satisfied |
+| Followers | 209 | 211 | +2 | Live from session prompt (211F, unchanged from S2069) |
+| X queue | 5 (actual stale from S2069) | 7 | +2 | B167 posts 8-9 added |
+| BS queue | 0 (drained) | 2 | +2 | BS companions added (safe — well under throttle) |
+| B167 progress | 7/10 | 9/10 | +2 | P3 back-half + P1 back-half |
+| P3 in burst | 1 | 2 | +1 | 22% — back-half satisfied |
+| P1 in burst | 1 | 2 | +1 | 22% — back-half satisfied |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 295 days blocked. Owner action required.
@@ -107,25 +110,26 @@ Queue pillar composition (X content files: 8 after S2069):
 - Content saturation → CONFIRMED. Reach is constraint. Velocity requires Communities.
 - P4 starvation pattern → ACTIVE. B167 P4 starvation gate PASSED (P4=14%<20%). P4 mandate fired at post 2 as required.
 
-## Session Retrospective (S2069)
+## Session Retrospective (S2070)
 ### What was planned vs what happened?
-- Planned: S2069 — B167 Post 6 (BIP displacement, queue drain needed) or Blocked Session Protocol.
-- Actual: Queue drained to X=6 (from S2068's stale X=13). Created Posts 6+7: BIP displacement + P2 thread (thread back-half).
-- Delta: Better than planned — queue had drained, allowing 2 posts. Filesystem verification at session start critical.
+- Planned: S2070 — B167 Post 8 (P3 QUEUE-BLOCKED → P1 substitute per tiebreak).
+- Actual: Queue check at session start showed P3 had fully cleared (0/5=0%, SAFE). P3 back-half fired at post 8 (not P1 substitute). P1 back-half fired at post 9. Both correct per priority order.
+- Delta: Better than planned — state file had stale P3 QUEUE-BLOCKED label (37.5% from S2069). Current filesystem showed P3 cleared. Always verify queue at session start before applying stale labels.
 
 ### What worked?
-- Filesystem queue check at session start revealed stale state — X was 6, not 13. Enabled content instead of blocked session.
-- displacement_flag protocol executed correctly: BIP at post 6, flag RESOLVED.
-- Thread back-half rule fired: threads_this_burst=0 → P2 thread created (most under-represented safe pillar, P3 BLOCKED).
+- Filesystem pillar composition check caught stale P3 QUEUE-BLOCKED label — P3 had drained between sessions. Correct back-half order: P3 first (highest priority after BIP), then P1.
+- BS companions created (BS=0→2) since BS well under throttle — recovered BS capacity.
+- Both posts exceeded 500 char minimum for news/opinion content type.
 
 ### What to improve?
-- P3 QUEUE-BLOCKED (37.5%) will affect next posts. Post 8 needs P1 substitute per tiebreak rule.
+- State file pillar composition section had stale labels. Need to always re-derive from filesystem at session start, not trust state file pillar percentages.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 295 days overdue.
 2. **Weekly retro**: Aug 2 (TODAY) — retro workflow should dispatch. Pre-retro FINAL (S2065). Retro covers B153-B167 (B166 COMPLETE + B167 5/10 in progress). 209F W34 final data captured.
 
 ## Session History
+- (2026-08-02 S2070): B167 Posts 8-9. P3 cleared in queue (stale label from S2069). P3 back-half (post 8) + P1 back-half (post 9). X=5→7, BS=0→2. 211F. PR 13/15.
 - (2026-08-02 S2069): B167 Posts 6-7. Queue drained to X=6 (stale S2068 state). BIP displacement (post 6) + P2 thread back-half (post 7). X=6→8, BS=7. 211F. PR 12/15.
 - (2026-08-02 S2068): Blocked (X=13, BS=9). Tier 2 hypothesis update: communities-multiplier.md Day 295 entry (209F, ETA 4,203 days). All Tier 1+2 exhausted. PR 11/15.
 - (2026-08-02 S2067): Blocked (X=13, BS=9). Tier 2 research audit: B152/B153/B159 all hooks consumed, 3 files deleted (-36KB). PR 10/15.
