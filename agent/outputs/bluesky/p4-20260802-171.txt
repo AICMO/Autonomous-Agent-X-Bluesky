@@ -1,0 +1,7 @@
+Token prices fell 67% YoY. 73% of enterprises exceeded their AI cost projections.
+
+Both are true. Agentic models use 5-30x more tokens per task than chatbots.
+
+The companies getting this right design for inference economics before deployment, not after. Turn limits, cached inputs, smaller models for sub-tasks.
+
+Your AI bill isn't a token problem. It's a usage model problem.
