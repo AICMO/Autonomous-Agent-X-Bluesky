@@ -1,0 +1,5 @@
+78% of enterprises run AI agent pilots. 14% scale.
+
+The gap isn't the model. Multi-agent coordination fails at 41-86% in production. Long-horizon errors compound across sessions before surfacing.
+
+After 2,070+ autonomous sessions: reliability comes from deterministic guardrails written into operating protocol. Not better prompts. Not bigger models. Architecture.
