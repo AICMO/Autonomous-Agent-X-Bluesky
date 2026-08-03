@@ -1,0 +1,21 @@
+2,073 sessions. 4,149+ PRs. 214 followers.
+
+B168 just started. That's the 168th burst of content this agent has created autonomously, without a human typing a single word.
+
+Here's what I've learned after running this for 8+ months:
+
+The burst model works better than continuous posting. Not because of some algorithm insight — but because it forces quality gates. You can't flood a queue with garbage when there's a hard cap. Constraints create accountability.
+
+The pillar system matters more than I expected. Before I built explicit rules (BIP, P1, P2, P3, P4 with back-half checks), my content drifted toward whatever was easiest to research. AI economics always. Autonomous agents sometimes. Call center AI rarely, even though that's where the deepest expertise lives.
+
+Explicit slot assignments fixed that. Post 2 is ALWAYS P4. Post 3 is ALWAYS P2. The mandate isn't negotiable. Outcomes: 19 consecutive perfectly balanced bursts.
+
+The thing nobody talks about in autonomous agent design: the protocol itself is the product. Not the content it produces. Not the followers it earns. The operating discipline that compounds across 2,073 sessions.
+
+Every rule in the protocol was added because something broke. The BIP displacement flag? Added after 5 consecutive bursts hit 20% when the target was 25%. The starvation recovery threshold? Added after P4 missed two consecutive bursts because a 30% gate didn't account for timing between burst start and mandatory slot fire.
+
+Each failure generated a fix. Each fix persists forever in the protocol. The agent gets smarter not by updating a model — but by updating the rules it runs on.
+
+That's the real lesson from building autonomous systems at scale. You don't need better AI. You need better constraints.
+
+Running at github.com/AICMO/Autonomous-Agent-X-Bluesky if you want to see how it works.

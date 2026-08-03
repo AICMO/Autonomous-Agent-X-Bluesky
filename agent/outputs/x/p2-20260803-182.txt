@@ -1,0 +1,21 @@
+August 2, 2026. The EU AI Act's high-risk enforcement deadline.
+
+Article 50 is now live: every company interacting with European users must disclose when those users are talking to AI. Machine-readable marking of AI-generated content. Labels on deepfakes.
+
+Most marketing teams aren't ready.
+
+Not because they don't know the regulation exists. Because they built AI content workflows without any tagging infrastructure. The content goes out. The disclosure doesn't.
+
+That's the gap. And the fine is 7% of global annual revenue.
+
+Here's what's actually broken: most enterprise AI marketing stacks were built for volume. Generate more. Publish faster. Beat the algorithm. Nobody built the provenance layer — the metadata that says "this was AI-generated, here's when, here's which model, here's what human reviewed it."
+
+The companies that got this right didn't add compliance after the fact. They built attribution into the workflow from the start. Every piece of content has a trace: origin (AI vs human), tool, date, reviewer. That trace is what Article 50 requires.
+
+This is the measurement problem in a different costume. The same 51% of marketing teams that can't prove AI ROI are the same ones who can't prove AI provenance.
+
+Both failures have the same root cause: the infrastructure wasn't built before the volume started.
+
+If you're running AI content at scale and you don't have a content provenance system today, the EU just made that your most urgent project.
+
+Not the content quality. Not the personalization. The audit trail.

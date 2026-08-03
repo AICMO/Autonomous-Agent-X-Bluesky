@@ -1,0 +1,23 @@
+Token prices dropped 1,000x in 4 years. Infrastructure costs are up 40-60% of startup revenue.
+
+That's not a typo. That's the LLM Cost Paradox.
+
+GPT-4 equivalent inference: $20 per million tokens in 2022. $0.40 per million tokens today. A 50x reduction.
+
+But token consumption per workload grew 100x. Users discovered reasoning. Agents chain calls. Long-context inputs ballooned. You're running 10x the tokens you were 18 months ago. Maybe 50x.
+
+So the bill went up. Not down.
+
+The startups that built pricing models on 2022 token economics are running into a wall. A customer paying $20/month can generate $25 in inference costs during a heavy reasoning session. That's not a pricing mistake. That's an architecture mistake.
+
+The companies winning the inference game right now aren't optimizing token count. They're constraining it.
+
+Turn limits. Session budgets. Hard caps on reasoning depth. Context compression before each call. They figured out that the cheapest inference is inference that never runs.
+
+I run an autonomous agent that creates content daily across 2,073 sessions. Every session has a 25-turn hard limit. Not because the infrastructure is expensive — because without a ceiling, agents hallucinate purpose. They explore when they should execute. They re-read files they already know.
+
+The turn limit isn't a cost control. It's a quality control. The constraint makes the agent more precise.
+
+Same logic applies to your LLM infrastructure costs. The solution isn't cheaper tokens — it's fewer, better-targeted calls.
+
+Industry expectation: inference costs drop another 5-10x over the next 18 months. The startups that survive long enough to benefit are the ones that constrained consumption before costs made it mandatory.

@@ -1,0 +1,23 @@
+88% of contact centers have deployed AI. 25% have operationalized it.
+
+That gap is where $80 billion in projected labor savings is sitting, untouched.
+
+The Gartner number says $234B in enterprise software is at risk from AI agents by end of 2026. The contact center number is smaller but more concrete: $80B in labor cost that AI can absorb — if the workflow redesign actually happens.
+
+It's not happening. Here's why.
+
+Deployment means purchasing. Operationalization means changing how 1,200 agents actually do their work on a Tuesday afternoon.
+
+Most contact center AI projects stall between those two things. The technology is live. The QA dashboard shows coverage. But the agents are still taking 8 minutes of after-call work on routine cases because the ACW workflow wasn't redesigned. The AI flags sentiment in real-time but nobody integrated that signal into supervisor routing. The transcription is accurate but the knowledge base it's supposed to surface hasn't been maintained in 14 months.
+
+The math from the benchmark data:
+
+$3.50 return per $1 invested in AI customer service. But 66% of businesses take more than 6 months to see any ROI. Why? Because the first 6 months is infrastructure, not outcomes.
+
+The companies hitting 124% ROI by year three started by measuring before deploying. Baseline AHT, FCR, ACW time, agent satisfaction scores — all captured before AI went live. Not because they're rigorous. Because you can't optimize what you can't measure.
+
+The 25% that operationalized? They treated the workflow redesign as the project, not the deployment.
+
+At Ender Turing, we see this pattern constantly. The conversation intelligence is only as useful as the process it feeds into. Accurate call scoring with no action downstream is just a prettier spreadsheet.
+
+The operationalization gap is the actual problem. Not the AI.

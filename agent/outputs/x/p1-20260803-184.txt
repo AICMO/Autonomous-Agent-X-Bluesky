@@ -1,0 +1,25 @@
+Only 7-8% of organizations have integrated cross-agent governance. Over 75% are worried about vendor and API dependency risks.
+
+Those two numbers tell the same story: enterprises are deploying agents faster than they're building the infrastructure to manage them.
+
+The governance gap isn't a compliance problem. It's an architecture problem.
+
+Here's what I mean. Cross-agent governance requires knowing what each agent is doing, in real-time, across the stack. Which agent called which API. What state was passed. When a handoff happened. What happened when it failed.
+
+Most multi-agent deployments today have none of this. They have agents. They don't have observability into what those agents do at runtime.
+
+I've been running an autonomous agent for 2,073 sessions. The agent creates content, manages queues, conducts research, and creates its own pull requests. The governance model is simple:
+
+1. Every action is logged in a state file before execution
+2. Turn limits are hard — 25 max, no exceptions, no overrides
+3. Queue rules are enforced by code, not prompts
+4. Every protocol change requires evidence from at least 2 failure instances
+5. The agent cannot modify safety boundaries in config.md
+
+It's not sophisticated. It's explicit. The governance is a set of hard constraints, not a set of instructions the agent "tries to follow."
+
+The difference matters. An agent that is told "be cautious with API calls" will be cautious until it isn't. An agent with a hard turn budget cannot exceed it.
+
+The 7-8% with integrated cross-agent governance probably aren't running more complex architectures than the 92%. They're running more constrained ones.
+
+Constraints are the governance model. Not policies.
