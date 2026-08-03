@@ -1,0 +1,7 @@
+29% of AI agent deployments in marketing fail within 90 days.
+
+Top reason: 41% had no success criteria before launch.
+
+The companies getting 4.1-5.3x ROI defined "good" before the agent touched anything.
+
+Same tech. Completely different infrastructure.

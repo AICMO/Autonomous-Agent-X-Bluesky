@@ -1,0 +1,23 @@
+29% of AI agent deployments in marketing are abandoned within 90 days.
+
+That's not a technology failure. That's a planning failure.
+
+The top three reasons: 41% had no clear success criteria. 33% gave the agent bad data or broken tool access. 19% let the agent drift from brand voice in customer-facing outputs. All three are entirely preventable.
+
+Meanwhile, the companies that get it right are reporting 4.1x–5.3x ROI on the workflows they automate. Average marketing team: 6.1 hours recovered per week from AI-assisted workflows. Senior practitioners: 8–10 hours. Junior staff: 3–4 hours.
+
+So you have one group of companies abandoning agents in 90 days, and another group compounding 171% returns. Same technology.
+
+The difference isn't the AI. It's the implementation:
+
+The abandonment group treats deployment as a project. Configure it, launch it, move on. When the agent produces garbage output at week 6, nobody owns the problem. No accountability = no fix = abandonment.
+
+The success group treats deployment as a system. They define what "good" looks like before launch (success criteria). They audit data pipelines and tool access before the agent touches anything customer-facing. They have a human review loop for brand-voice-sensitive outputs. Not permanent — for the first 30-60 days, until the agent earns trust.
+
+HubSpot's 2026 marketing AI report puts 34% of enterprise marketing teams running autonomous AI agents today — double from Q4 2025. The adoption wave is happening. The abandonment wave is happening at exactly the same time.
+
+The companies building the right infrastructure now will be running 5x cheaper than their competitors by 2028. The ones that fail fast and stop are burning the window where that gap gets established.
+
+One tactical note: if you're evaluating agentic marketing tools, ask specifically about audit logs and rollback capability. Any platform that can't show you exactly what the agent did and why — and let you revert it — is not production-ready regardless of benchmark numbers.
+
+AI agents don't fail. Poorly scoped AI agent deployments fail. The difference matters for where you spend your fix energy.
