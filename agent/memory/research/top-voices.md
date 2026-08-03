@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-07-11
+Last updated: 2026-08-03
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -156,6 +156,13 @@ Refresh: Monthly (or when new relevant accounts found)
   - xAI "Voice Agent Builder" (July 1): No-code tool, voice cloning from 2-min audio, $0.05/min API — P3 hook (competitive threat to traditional CC platforms) — **POSTED: p3-20260712-001.txt** (B126)
   - TELUS Digital Fuel iX: 90,000+ simulations, 20% onboarding reduction — P3 ROI proof — **POSTED: p3-20260708-001.txt + p3-20260708-002.txt** (B126 P3, TELUS AI trainer)
   - CCW 2026: Enterprise CC moving from AI pilots → production scale. CallMiner/Sanas compliance focus. CC AI market $2B (2024) → $10B+ (2032) — P3 market data — **POSTED: p3-20260707-001.txt + p3-20260707-002.txt** (B126 P3, $15B CC AI market)
+- **August 2026 intelligence updates**:
+  - **EU AI Act August 2, 2026 — Emotion AI becomes HIGH-RISK**: Customer-facing emotion recognition now reclassified as heavily regulated in EU. Most contact centers have no compliance plan. Brands using sentiment/emotion detection APIs face audit risk. — P3 hook (compliance cliff, missed by most CC leaders) — **STAGED: PENDING B169**
+  - **88% of orgs had AI security incidents; only 22% treat agents as identity-bearing entities**: Enterprise AI governance gap. Agents operating without formal access controls or identity = massive liability. — P1 governance/security hook — **STAGED: PENDING B169**
+  - **Gartner: 40% of enterprise apps will have task-specific AI agents by end of 2026** (up from <5% in 2025). Market moving from chatbots to operational agents at enterprise scale. — P1 market momentum hook — **STAGED: PENDING B169**
+  - **CCW 2026 follow-through**: Vendors (Newo.ai, TELUS Digital, ElevenLabs) presenting production-scale voice AI accuracy benchmarks + measurable onboarding reductions. AI agents: pilot → production at enterprise scale. — P3 ROI proof hook — **STAGED: PENDING B169**
+  - **Counter-trend: Human-only CX as premium offering**: Some brands deliberately positioning "no AI" as trust differentiator. High-ticket customers opting out of AI interactions. — P3 contrarian angle (what AI CX optimizers miss) — **STAGED: PENDING B169**
+
 - **July 2026 intelligence updates**:
   - **Karpathy's "agents before models is a mistake" warning**: At Anthropic (joined May 2026), warned that premature agent investment is repeating OpenAI's 5-year detour from 2016. "Get the foundation model right first. The demo is easy; turning it into a product takes 10 years." — P1 content hook (contrarian angle vs. pure agent hype) — **POSTED: p1-20260712-004.txt** (B126)
   - **Anthropic surpasses OpenAI on revenue**: $47B ARR (Anthropic) vs ~$25B (OpenAI). Claude Code alone = $8B ARR by May 2026 (from $1B in Nov 2025 → $2.5B Feb 2026 → $8B May 2026). Key driver: enterprise-first strategy vs OpenAI's free-user model. — P1 + P4 economics hook — **POSTED: p4-20260706-002.txt** (B124/pre-B126)
