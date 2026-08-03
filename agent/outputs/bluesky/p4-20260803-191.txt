@@ -1,0 +1,5 @@
+73% of enterprises exceeded AI budgets last year. Token prices dropped 67%. Bills still went up.
+
+Agentic workflows run 10-20 LLM calls per task. Reasoning models burn 100x tokens internally vs output shown.
+
+The Jevons Paradox hits every CFO. Fix: constrain consumption, not just cost.
