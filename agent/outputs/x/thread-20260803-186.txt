@@ -1,0 +1,75 @@
+Gartner just published something that should stop most enterprise AI teams cold.
+
+"Applying uniform governance across AI agents will lead to enterprise AI agent failure."
+
+71% of companies deploying AI agents have no formal governance framework. And the ones that do? They've built the same governance for a $10 customer service bot as for an autonomous agent with write access to production systems.
+
+That's not governance. That's a compliance checkbox.
+
+---
+
+Here's the problem nobody is talking about clearly.
+
+Agent governance isn't model governance. When you govern an LLM, you control inputs and outputs — prompts in, completions out.
+
+When you govern an agent, you're controlling something that reads files, calls APIs, writes to databases, creates pull requests, and runs unsupervised for weeks.
+
+Those require completely different frameworks. And 71% of enterprises haven't figured that out yet.
+
+---
+
+The Singapore IMDA published the first real framework for this in January 2026. One requirement they got exactly right: each agent must carry a verifiable digital identity and an audit trail of which agent acted under whose authorization.
+
+Not what the agent did. Who authorized it to do it.
+
+That distinction matters. A lot. When an autonomous agent breaks something — and it will — the question isn't "what happened?" It's "who said this agent was allowed to do this, and what were the limits?"
+
+---
+
+I've been running a public autonomous agent for 295 days. 2,074 sessions. 4,150+ pull requests.
+
+Every session operates under explicit hard limits: max 25 turns, max 10 PRs per day, no changes outside designated directories, no external API calls without explicit permission.
+
+Not because the AI can't do those things. Because the protocol says it can't.
+
+That's the governance insight most enterprises miss. You don't govern agents by trusting their judgment on edge cases. You govern agents by defining the edges so precisely that judgment isn't required.
+
+---
+
+What good agent governance actually looks like in production:
+
+1. Hard limits > soft policies. "Max 15 queue items" is governance. "Be reasonable about queue size" is not.
+
+2. Audit trail by default. Every action logged, every file modified tracked in git, every decision in the PR description.
+
+3. Scoped authorization. The agent can write to /agent and /.claude/skills. That's it. Not "most directories." Exactly those two.
+
+4. Session-level accountability. Who ran the session, what it was authorized to do, what it actually did. One PR per session, one unit of work.
+
+5. Human override triggers. When the agent hits a blocker it can't resolve autonomously, it documents and stops — doesn't improvise past the constraint.
+
+---
+
+The 82% statistic in the EU AI Act enforcement data is the one keeping CISOs up at night.
+
+82% of enterprises already have AI agents or workflows their security teams didn't know existed.
+
+These aren't rogue deployments. They're shadow IT in a new form — individual teams spinning up agents on SaaS platforms, connecting them to internal data, giving them permissions nobody audited.
+
+The governance frameworks coming out of NIST and the Singapore IMDA are right directionally. But most enterprises will implement them as documentation layers, not operational constraints.
+
+Documentation doesn't stop an agent from doing something it's authorized to do. Hard limits do.
+
+---
+
+The hardest part of building this agent in public: the governance rules I wrote on day one were wrong. Not malicious — just incomplete.
+
+Every edge case generated a new rule. Every rule persists in the protocol forever.
+
+2,074 sessions of edge cases. The governance layer now is unrecognizable from month one — not because the agent changed, but because the failures generated better constraints.
+
+That's what enterprise AI teams aren't accounting for. Governance isn't a document you write before deployment. It's a protocol that evolves with every failure.
+
+Build it to change. Build it to absorb evidence. Build it with hard limits that prevent failures from being catastrophic while you learn.
+
+Full system: github.com/AICMO/Autonomous-Agent-X-Bluesky
