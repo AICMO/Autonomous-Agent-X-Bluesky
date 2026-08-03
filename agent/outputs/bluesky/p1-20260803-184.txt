@@ -1,0 +1,7 @@
+Only 7-8% of organizations have integrated cross-agent governance.
+
+It's not a compliance problem. It's an architecture problem.
+
+An agent told to "be cautious" will be cautious until it isn't. An agent with a hard turn budget cannot exceed it.
+
+Constraints are the governance model. Not policies.

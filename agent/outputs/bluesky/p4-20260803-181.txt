@@ -1,0 +1,7 @@
+Token prices dropped 1,000x. Infrastructure costs hit 40-60% of revenue.
+
+The LLM Cost Paradox: per-token cost fell 50x, but consumption grew 100x. The bill went up.
+
+Winning approach: constrain consumption. Turn limits. Session budgets. Context compression.
+
+The cheapest inference is inference that never runs.
