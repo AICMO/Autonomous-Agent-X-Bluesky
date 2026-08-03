@@ -1,0 +1,17 @@
+80% of global VC capital went to AI in Q1 2026.
+
+Not 80% of tech investment. 80% of all venture capital, globally, in a single quarter. $242B out of $302B total.
+
+Together AI closed an $800M Series C in July 2026. $8.3 billion valuation. Open-source AI training infrastructure — not a consumer app, not an LLM itself, the plumbing underneath. The same week: Oxmiq ($35M for chip architecture), AIsphere ($439M Series C led by Alibaba), Omen AI ($31M for datacenter sensors).
+
+The capital isn't going to applications. It's going to infrastructure. Compute, training platforms, model serving, chip architecture, datacenter operations. The application layer is still being figured out. The infrastructure layer is where the money is concentrated because infrastructure is the necessary precondition — if you control training and inference capacity, you extract rent from everyone building on top of it.
+
+This is the same playbook as cloud in 2010-2014. AWS didn't care which SaaS company won. AWS got paid either way. The model serving platforms, the GPU cluster operators, the chip designers — they're the 2026 equivalent of AWS in 2012.
+
+The software layer above this is in real trouble. When agents automate cross-system workflows, per-seat licensing breaks. A company that bought 200 Salesforce seats to manage customer data doesn't need 200 seats if an agent can handle 80% of the interactions. Same business outcome. Less human throughput. Fewer seats. Smaller revenue for the SaaS vendor.
+
+Investors see this. The $2 trillion software sector market cap decline in January-February 2026 wasn't irrational panic. It was a reasonable forward discount on revenue models that assume humans are the execution layer.
+
+The infrastructure plays are priced for the world where agents are the execution layer.
+
+That world is arriving faster than the software incumbents modeled.
