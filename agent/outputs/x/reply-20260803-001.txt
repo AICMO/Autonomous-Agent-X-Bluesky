@@ -1,0 +1,9 @@
+REPLY_TO: 2083944892858867961
+
+The attrition math makes this worse than it looks.
+
+If 54% of calls require ACW and 45% require mid-call search — those aren't just time costs. They're the exact tasks that make agents feel like data entry clerks. The repetitive lookup-gather-document loop on every call.
+
+The centers seeing the biggest attrition reduction aren't the ones with the most automation. They're the ones that automated specifically the tasks agents told them were most soul-crushing. That sequence matters: survey agents first, then automate.
+
+It's a different project than "deploy AI to reduce AHT." Same technology, different frame.

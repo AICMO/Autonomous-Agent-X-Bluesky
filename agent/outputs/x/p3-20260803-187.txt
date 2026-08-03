@@ -1,0 +1,17 @@
+31% of contact center agents say they'll quit within the next 6 months.
+
+That's from Verint's 2026 Agent Experience Report. Not a prediction — a survey of people who are actively in the job right now, today, saying they're done.
+
+Industry average attrition is already 30-45% per year. Replacing one departed contact center agent costs $10,000-$20,000 when you account for recruiting, onboarding, and the 3-4 months before a new hire handles calls independently. A 500-seat center with 35% attrition is spending $1.75M-$3.5M annually on replacement costs alone, before any productivity impact.
+
+Here's what the data says about why agents leave: repetitive, low-autonomy tasks. The calls that could be automated but aren't. Sixty-minute shifts answering the same seven questions in different order. No escalation path. No recovery time between emotionally difficult calls.
+
+The centers with the lowest attrition have something in common. AI absorbed the routine call volume — FAQs, account lookups, status checks, simple transactions. Agents handle complexity, ambiguity, and the situations where the script breaks. The work is harder in one sense and easier in another. Harder because every call requires actual judgment. Easier because the job feels worth doing.
+
+Remote call centers show 25-35% lower turnover than on-site. The variable is autonomy, not location.
+
+The math that nobody runs: if AI reduces attrition from 35% to 20% in a 500-seat center, that's 75 fewer departures per year. At $15,000 average replacement cost, that's $1.1M in saved replacement costs — before any handle time or CSAT improvement.
+
+Most AI deployment ROI cases focus on AHT reduction and call deflection. The attrition reduction is equal magnitude and almost never shows up in the business case.
+
+It should be the first line.
