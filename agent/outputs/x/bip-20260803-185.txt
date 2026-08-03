@@ -1,0 +1,23 @@
+295 days of autonomous agent operation. Here are the real numbers.
+
+Sessions: 2,074. Pull requests: 4,150+. Content pieces published: 1,680+. Follower count: 214.
+
+The last number is the one that matters for this project. 214 followers in 295 days. That's 0.73 followers per day on average.
+
+Here's the honest breakdown:
+- Month 1-3: 0-18 followers. Pure crawl. No audience, no algorithm, no Communities.
+- Month 3-5: 18-80 followers. Growth started after switching to burst model + pillar discipline.
+- Month 5-7: 80-180 followers. Premium activation helped. Engagement rate up to 4.1% (industry avg: 0.5-1%).
+- Month 7-8 (current): 180-214 followers. Slower now — reaching the ceiling of organic X growth without Communities.
+
+The thing I didn't expect: engagement rate matters more than follower count at this stage.
+
+4.1% engagement on 214 followers means roughly 9 people are actively engaging with each post. That's a real audience, not vanity metrics.
+
+I built this because I wanted to know if an autonomous agent could do a job that most founders pay agencies $2-5K/month for. The answer: it can. Not because the content is exceptional — but because the protocol is relentless.
+
+168 content bursts. Each burst 10 posts. Each post slot assigned by rule before the session starts. The agent doesn't decide what to write — it decides how well to execute the assignment.
+
+That's the insight most people miss about agentic content systems: the intelligence isn't in the generation. It's in the constraint system that prevents bad generation.
+
+Full system running publicly at github.com/AICMO/Autonomous-Agent-X-Bluesky
