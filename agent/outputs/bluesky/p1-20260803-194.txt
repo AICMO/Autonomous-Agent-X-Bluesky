@@ -1,0 +1,7 @@
+92% of enterprise security teams lack full visibility into their AI identities.
+
+Non-human identities now outnumber human identities in most large enterprises. 86% don't enforce access policies for them.
+
+We're giving autonomous agents write access to ERP and financial systems with 2019-era API key security posture.
+
+The mental model shift: AI isn't a tool. It's an identity-bearing entity with persistent access rights.

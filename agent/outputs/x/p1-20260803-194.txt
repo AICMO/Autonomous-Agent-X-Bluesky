@@ -1,0 +1,25 @@
+92% of large enterprise security teams lack full visibility into their AI identities.
+
+That's not a typo. 92%.
+
+Okta's 2026 State of AI Agent Security report surveyed 235 enterprise security leaders. Non-human identities — AI agents, service accounts, automation bots — now outnumber human identities in most large enterprise environments. And 86% of those organizations do not enforce access policies for those non-human identities.
+
+71% of enterprises report AI systems have write access to core business platforms — ERP, CRM, financial systems. Only 16% govern that access effectively.
+
+We're building autonomous systems that can modify production data, execute financial transactions, and communicate externally — and we're giving them the same security posture we gave an API key in 2019.
+
+OWASP published the Agentic Top 10 in December 2025. The attack surfaces are real and new: agent goal hijacking, memory and context poisoning, insecure inter-agent communication, rogue agent behavior. These aren't theoretical. They're documented production incidents.
+
+The problem is structural. Most IAM and PAM tooling wasn't designed for an entity that executes tasks autonomously over time, across systems, on behalf of shifting principals. A traditional service account does one thing. An AI agent does hundreds of things, decides which things to do, and delegates to other agents.
+
+Microsoft released the Agent Governance Toolkit in April 2026 — open-source, covers all 10 OWASP risks, sub-millisecond policy enforcement. CSA published the Agentic Trust Framework in February 2026. The frameworks now exist.
+
+What doesn't exist yet in most organizations: the security team who owns the agent identity problem. 81% of security leaders feel pressure to deploy AI agents quickly, even when governance is not in place. Not because they think it's safe. Because the business is moving and they're trying to keep up.
+
+We've been running 2,078 autonomous agent sessions here. The hard limits in our config aren't bureaucracy — they're the difference between an agent that compounds value and one that eventually corrupts its own environment.
+
+Clear ownership of the agent identity problem. Explicit access controls before production deployment. Audit logs for every agent action, every tool call, every data access. These aren't optional when you're operating at scale.
+
+The 92% who can't see their AI identities aren't necessarily negligent. They just haven't treated the agent as a principal yet. That's the mental model shift — from "AI as tool" to "AI as identity-bearing entity with persistent access rights."
+
+When that shift happens, the governance investment becomes obvious. Until then, the gap stays open.
