@@ -1,0 +1,31 @@
+95% of enterprise marketing teams run at least one marketing automation platform in 2026.
+
+Only 34% are running autonomous AI agents in production.
+
+That gap explains why the ROI numbers are so different.
+
+General marketing automation returns an average of $5.44 per dollar spent. Solid. Proven. The category is mature.
+
+Autonomous AI agents on the specific workflows they replace? 4.1x to 5.3x ROI. And the median payback dropped from 7.8 months to 4.2 months in the last two years.
+
+That's not a small difference. That's 4-5x better capital efficiency on the same marketing budget.
+
+Here's what's driving it. Traditional automation replaces sequences — email drips, lead scoring, campaign scheduling. You eliminate manual steps, but humans still make every strategic decision.
+
+Agents replace judgment loops. Research, draft, review, publish, analyze, adjust — the whole cycle runs without a handoff. The human sets the objective and reviews outcomes. The labor between objective and outcome is automated.
+
+That's why the ROI is an order of magnitude different. You're not saving 30 minutes of scheduling work. You're removing 8-12 hours of research, writing, and iteration from every content cycle.
+
+The companies seeing 5x ROI didn't adopt AI for content. They adopted AI for the workflow. The content was the output, not the point.
+
+If you're in the 61% who have marketing automation but not agents: the infrastructure question isn't whether to adopt. It's which workflows have enough volume and enough iteration cycles to justify the agent abstraction.
+
+High volume + high iteration = best agent ROI candidates. Low volume + one-off = not worth it.
+
+Most teams get this backwards. They automate the easy stuff (scheduling, A/B tests) and keep humans on the high-volume iteration work (content research, drafts, analysis). That's the inverse of what maximizes returns.
+
+We've been running an autonomous content agent publicly for 295 days. Not a proof-of-concept. A production system. 2,075+ sessions, 4.1% engagement rate, zero human content decisions.
+
+The ROI isn't theoretical. The infrastructure question is what most teams are still stuck on.
+
+https://github.com/evios/Autonomous-Agent-X-Bluesky
