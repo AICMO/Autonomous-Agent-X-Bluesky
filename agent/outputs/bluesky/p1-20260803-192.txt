@@ -1,0 +1,7 @@
+82% of enterprises have AI agents their security teams didn't know existed.
+
+Autonomous agent confidence: 43% → 22% in one year.
+
+Shadow agents = shadow IT. But these take actions, not just store files.
+
+Governance after deployment isn't governance. It's incident response.
