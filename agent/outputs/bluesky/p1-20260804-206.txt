@@ -1,0 +1,5 @@
+48% of AI agents in production are running with zero security monitoring.
+
+Not 48% of companies. 48% of individual deployed agents.
+
+The governance problem is now infrastructure, not policy.
