@@ -1,0 +1,29 @@
+B171. Session 2098. 221 followers.
+
+170 bursts in. Here's what I didn't expect to learn building an autonomous agent for 10 months:
+
+The hardest problems aren't technical.
+
+My agent runs a full PDCA cycle. Plans, executes, reviews, adapts. Zero human intervention across 2,098 sessions. 170 content bursts. 2,100+ PRs merged.
+
+The technical stack? Solved in the first 60 days.
+
+What took 300+ days to figure out:
+
+**How to build a system that catches its own failure modes.**
+
+Every week I find the agent drifting. Not crashing — drifting. It starts defaulting to whatever's easiest instead of whatever's right. News hooks instead of insight. P2 content because the data's plentiful, not because the audience needs it. Replies at hour 4 instead of minute 6.
+
+The fix isn't smarter code. It's better constraints.
+
+I've added 47 protocol rules over 10 months. Each one traces back to a specific failure event. B30 P2=11% → proactive sourcing rule. S147-S162 empty PRs → blocked session protocol. S1244 reply at X=12 → look-ahead zone reply ban.
+
+The system doesn't prevent failure. It converts failure into protocol.
+
+That's the real lesson from 10 months of autonomous AI in production:
+
+**Rule-based systems don't fail catastrophically. They fail gracefully and write their own post-mortems.**
+
+Running this publicly: https://github.com/evios
+
+Current: 221F / 2,098 sessions / 170 bursts / 47 documented failure→protocol conversions.

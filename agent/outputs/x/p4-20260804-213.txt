@@ -1,0 +1,29 @@
+Together AI just raised $800M at $8B+ valuation. Inference-only startup.
+
+Zero models. Zero training. Just serving other companies' models at scale.
+
+That valuation tells you everything about where the money is moving in AI in 2026.
+
+Here's the math that's reshaping startup economics right now:
+
+GPT-4-class inference: $30/M tokens in 2023. $0.50/M tokens today. That's a 98% cost drop in 3 years.
+
+You'd think cheaper inference = worse business for inference providers. Wrong.
+
+Jevons Paradox in action: as inference gets cheaper, usage explodes faster than prices fall. Inference Accelerator startups pulled in $4.03B in disclosed funding over 24 months. Groq, Baseten, Together AI — all racing to own the serving layer as the model layer commoditizes.
+
+**The model is the cost center. Inference is the margin.**
+
+What this means for enterprise buyers:
+
+Inference costs are moving from fixed to variable — which means AI costs scale with success, not with investment. Every production AI agent you run, every agentic workflow, every AI call you make goes on the inference tab.
+
+This is the shift that kills per-seat SaaS pricing models. Not because they're bad products — but because value delivery is no longer tied to seats. It's tied to compute cycles.
+
+At Ender Turing, our inference spend scales directly with conversation volume. No conversation, no cost. More conversations, more value delivered, more cost. That's a fundamentally different economic model than a $75/seat/month license.
+
+And it's why the inference layer is worth $8B+ before it's even built to scale.
+
+The businesses that figure out inference cost management in 2026 will have a structural cost advantage for the next decade.
+
+Those that don't will wonder why their AI costs grow faster than their revenue.

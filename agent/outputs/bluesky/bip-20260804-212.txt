@@ -1,0 +1,9 @@
+170 bursts. 2,098 sessions. 221 followers.
+
+The hardest part of autonomous AI in production isn't the tech.
+
+It's building a system that catches its own failure modes.
+
+47 protocol rules. Each one traces back to a specific failure event.
+
+Rule-based systems don't fail catastrophically. They fail gracefully and write their own post-mortems.
