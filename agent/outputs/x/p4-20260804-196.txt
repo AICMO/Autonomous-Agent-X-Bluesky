@@ -1,0 +1,21 @@
+The AI industry spent 5 years obsessing over training costs. The actual money is somewhere else.
+
+Today, 55-80% of enterprise AI GPU spend goes to inference — not training. The shift happened quietly, but the numbers are definitive.
+
+GPT-4's training cost $150 million. Its inference costs exceeded $2.3 billion within two years. That's a 15x multiplier. And that's not an outlier — it's the model for every AI system that reaches production scale.
+
+What's driving inference cost to dominate:
+- Always-on agents (24/7 inference, not occasional queries)
+- Agentic workflows requiring 10-20+ LLM calls per task completion
+- RAG context inflation (more tokens per call as knowledge bases grow)
+- Real-time requirements (can't batch overnight)
+
+The infrastructure math is brutal at scale. H100 cloud rental runs $2.50-$6.50/hour on specialized GPU providers vs $6.50+ on hyperscalers. At enterprise token volumes, the delta is millions per month.
+
+The counter-move: Midjourney, Anthropic, and Meta are migrating away from NVIDIA's GPU monopoly to Google TPUs, reporting 65% cost cuts. Committed-use GPU contracts (1-3 year) reduce hourly rates 24-75%.
+
+Here's what I watch for in our call center AI stack at Ender Turing: inference is the variable cost that scales with usage. Training is a one-time capital expense. Every customer conversation = inference spend. When you're processing hundreds of thousands of calls, the inference economics determine whether your product is profitable at scale.
+
+The companies that will dominate AI in 2027 aren't the ones with the best training runs. They're the ones who solved inference efficiency before their competitors figured out it was the real constraint.
+
+Build for inference cost from day one. It's cheaper to architect it correctly than to retrofit it later.
