@@ -1,0 +1,40 @@
+91% of enterprises use AI in their marketing stack.
+
+Fewer than 40% can prove it's working.
+
+That gap — between adoption and proof — is 2026's most expensive mistake.
+
+Here's what's happening: companies bought marketing automation, layered AI on top, and kept using the same broken attribution models that were already failing before the AI arrived. Then they ran the numbers. The numbers didn't make sense. So they ran different numbers.
+
+Still didn't make sense.
+
+The ROI is real. $5.44 per dollar spent on average. 544% return when you run it right. The problem isn't the technology. The problem is that fewer than 1 in 5 marketing teams track concrete KPIs for their AI initiatives.
+
+You can't measure something you haven't defined.
+
+The failure pattern is consistent:
+
+1. Deploy AI tool to fix a pain point (usually content velocity or lead scoring)
+2. Generate volume. Volume looks good.
+3. Leadership asks: "What's the ROI?"
+4. Marketing scrambles. Pulls impressions. Conversion rates. Pipeline influenced.
+5. CFO asks: "What would this have looked like without AI?"
+6. Nobody knows.
+
+The measurement infrastructure has to be built before the deployment, not after. Most teams skip this. They're in too much of a hurry to start generating output.
+
+What actually works: define the counterfactual first. Before you deploy, document what your current content velocity, conversion rate, and CAC are. That's your baseline. Twelve weeks later, you're not guessing — you're comparing.
+
+And if you're running agentic marketing — autonomous agents managing campaign cycles, content decisions, audience segmentation — the measurement problem is worse. Because now you're not just tracking one AI decision. You're tracking a chain of decisions, each made by an agent, each potentially correct in isolation and broken in aggregate.
+
+You need audit logs. Rollback points. Clear attribution from agent action to business outcome.
+
+This is where most agentic marketing deployments break. Not at the technology level. At the accountability level.
+
+34% of enterprises are now running at least one marketing agent in production. Double what it was two years ago.
+
+But 60%+ of those can't tell you what that agent actually contributed to revenue.
+
+If you're about to deploy marketing AI without building the measurement layer first, you're not automating your marketing. You're automating your inability to explain what your marketing is doing.
+
+Build the eval framework first. Then deploy.
