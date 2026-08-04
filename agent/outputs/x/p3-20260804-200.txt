@@ -1,0 +1,23 @@
+Something counterintuitive is happening in high-end customer service: "no AI" is becoming a premium feature.
+
+While the industry sprints toward voice AI automation, a small but growing segment of brands is deliberately marketing human-only service as a trust differentiator. Private banking. Luxury travel. High-stakes insurance. They're not slow to adopt AI — they're making a strategic bet that human access will command a price premium as AI becomes ubiquitous.
+
+The math behind it:
+
+If 80% of customer interactions shift to AI over the next 3 years (a reasonable projection), human service becomes scarce. Scarcity creates value. The customer who pays $10K/year in fees doesn't want to speak with a voice bot. They want a named relationship manager who answers on the second ring.
+
+This creates a segmentation problem that most contact center AI vendors aren't solving:
+
+1. High-volume, low-value interactions → AI handles them at 35% lower cost
+2. Low-volume, high-value interactions → Human service is the product, not a cost
+3. The trap: AI tools optimized for #1 get deployed into #2 by teams chasing efficiency targets
+
+I've seen this pattern in enterprise CX deployments. A company automates its top 10 ticket categories. Deflection rate goes up. CSAT goes down among the 20% of customers driving 80% of revenue. Nobody measures that segment separately.
+
+The irony: the customers least tolerant of AI errors are the ones generating the most revenue. The customers most forgiving of AI limitations are the ones you were going to lose anyway.
+
+Contact center AI strategy in 2026 isn't "automate everything." It's "automate the right tier while protecting the tier that can't afford a bad experience."
+
+The best deployments I've seen route by customer lifetime value, not just intent. Know which calls you can afford to get wrong. The ones you can't — keep a human in the loop.
+
+That's not anti-AI. That's knowing what you're optimizing for.
