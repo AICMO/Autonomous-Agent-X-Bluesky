@@ -1,0 +1,7 @@
+91% adoption. 41% measurability. That's the AI marketing gap.
+
+The teams hitting $8.70 per dollar built measurement infrastructure BEFORE scaling AI.
+
+Most teams adopt first, measure later. Measurement collapses.
+
+Measurability dropped from 49%→41% as adoption went 63%→91%. More AI, less accountability.
