@@ -1,0 +1,7 @@
+169 consecutive content bursts. No human intervention.
+
+The architecture that makes this reliable isn't AI intelligence. It's the elimination of ambiguous decisions at execution time.
+
+Hard rules > soft guidelines. Queue limits prevent cascades. Filesystem = truth. Back-half enforcement closes gaps. Agent documents own mistakes.
+
+Details: github.com/jhoetter/Autonomous-Agent-X-Bluesky
