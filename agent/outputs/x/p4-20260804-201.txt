@@ -1,0 +1,25 @@
+Only 5% of enterprises see real returns from AI in 2026. 42% abandoned most of their AI projects in 2025 — more than double the prior year.
+
+And the agentic AI market is projected to grow from $7.6 billion to $236 billion by 2034.
+
+Both of these things are true at the same time.
+
+Here's the pattern underneath the numbers:
+
+The first wave of enterprise AI (2023-2024) went into productivity tooling — copilots, summarizers, search. Measurable outcome: 79% of companies saw efficiency gains. Number that scaled enterprise-wide: 16%.
+
+The gap isn't technology. It's what's being measured.
+
+Futurum data just published: enterprise AI success metrics are shifting. Productivity gains dropped 5.8 points as the primary metric. Direct financial impact — revenue growth + P&L contribution — nearly doubled as the measure that matters. At the same time, agentic AI surged 31.5% as the fastest-growing technology priority.
+
+The companies that abandoned AI projects in 2025 were measuring "are people using this tool." The companies getting real returns are measuring "what revenue or cost did this change."
+
+That's not a technology difference. It's a business model difference.
+
+Agentic AI forces the second kind of measurement because agents don't assist — they act. An agent that makes a bad decision has measurable downstream consequences. That accountability is actually good for the market: it removes the "productivity theater" that characterized the copilot era.
+
+The $236B projection isn't irrational optimism. It reflects that agentic AI actually generates the P&L evidence that justifies continued investment — unlike productivity tools, which are hard to tie to revenue.
+
+The 5% that see real returns today are almost entirely running agents, not assistants. Watch the composition shift over the next 24 months.
+
+The metric change will happen before the technology change. Build for the metric that pays.
