@@ -1,0 +1,7 @@
+AI voice agents: 50-87% containment in demos.
+
+What actually breaks at scale: CRM timeouts, IVR handoff failures, lost escalation context.
+
+67% of deployments lose all context when escalating to a human. Customer repeats everything. NPS tanks.
+
+Containment rate is a demo metric. Integration reliability is the real one.

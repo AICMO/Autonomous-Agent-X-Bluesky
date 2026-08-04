@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027 due to governance gaps found after production incidents.
+
+The failure: delegated authority moves faster than you can instrument it.
+
+Binary governance (locked/trusted) kills both: over-restrict simple agents → shadow dev. Under-restrict complex ones → breach.
+
+2,096 sessions running autonomously. Same 3 failure modes every time: governance, orchestration, reliability.

@@ -1,0 +1,21 @@
+Enterprise AI voice agents are hitting 50-87% containment rates. Gartner says 80% autonomous resolution by 2029.
+
+Here's what nobody says in those benchmarks: containment rate is a demo metric. It tells you nothing about what happens in production at scale.
+
+The real call center numbers that matter:
+
+**Containment rate**: 50-87% (targeted use cases only — order status, password reset, appointment booking). Falls to 20-35% when you expand scope.
+
+**Integration failure rate**: This is the hidden killer. Enterprise voice AI fails 40-60% of the time not because the conversation breaks down — because the CRM lookup fails, the ticketing system times out, or the legacy IVR won't hand off cleanly.
+
+**Escalation quality**: When AI escalates, does the human agent get context? In 67% of deployments, the context is lost — human starts from scratch. Customer repeats everything. NPS tanks.
+
+**Post-deployment reality**: Governance, reliability, and operational management become more important than conversational capability after deployment. This is the gap vendors don't advertise.
+
+What CCW 2026 showed: the industry is shifting from "AI experimentation" to "operational deployment." That's a different problem set. Experimentation asks "can it work?" Operational deployment asks "what breaks at 100,000 calls/day?"
+
+The vendors that survive this shift will win on integrations and SLAs — not demo scores.
+
+Ender Turing has been tracking actual deployment telemetry across enterprise contact centers. The pattern is clear: pilot wins are real. Scale is where the problems live.
+
+→ https://enderturing.com
