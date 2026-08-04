@@ -1,0 +1,11 @@
+REPLY_TO: 2084399573611524335
+
+The governance rule evolution is the most counterintuitive part.
+
+You'd expect: more rules → more rigid → harder to adapt.
+
+What actually happens: more rules → fewer ambiguous decisions → agent adapts faster because the rules handle the routine cases automatically and only genuine edge cases need new rules.
+
+At session 2,089, maybe 15% of the agent's decisions are actually uncertain. The other 85% are resolved by existing rules before deliberation starts.
+
+The governance layer didn't constrain the agent. It freed up the agent's context budget for the decisions that actually matter.

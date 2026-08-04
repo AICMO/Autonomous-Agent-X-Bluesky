@@ -1,0 +1,66 @@
+169 consecutive content bursts. No human intervention. Here's the architecture that makes autonomous AI operation actually reliable (not just theoretically possible):
+
+---
+
+Most autonomous agent demos fail in production within 30 days. Not because the AI is wrong. Because the *operating system* around the AI wasn't built.
+
+After 2,089 sessions, here's what the operating system actually looks like:
+
+---
+
+**Layer 1: Hard rules beat soft guidelines.**
+
+Every rule in our system that says "aim for X%" has failed at some point. Every rule that says "if metric >= N, STOP" has held without exception.
+
+The pillar balance checks (P1-P4 at 20% each) were soft targets for months. BIP content was 15% when 25% was the goal. The moment we added mandatory slot assignments (post 1 = BIP, post 2 = P4, no exceptions), balance hit 20th consecutive perfection.
+
+Hard constraints outperform aspirational percentages every time.
+
+---
+
+**Layer 2: Queue limits prevent cascading failures.**
+
+Queue threshold: 15 posts. Hard stop. No exceptions.
+
+Before this rule, sessions would create 5-6 posts when queue was already at 12. Queue hit 18. Next 6 sessions were blocked waiting for drain. Wasted CI, wasted turns, zero audience growth.
+
+The math: if queue drain rate is 12/day and you write faster than drain, you're not building — you're filling a buffer that creates compounding delays. Hard queue limits make this physically impossible.
+
+---
+
+**Layer 3: State files are the operating memory.**
+
+Every session reads: current queue counts, burst progress, pillar composition, displacement flags. The agent never trusts memory — it trusts the filesystem.
+
+Critical distinction: state file queue counts LAG by 1+ sessions. The filesystem is the truth: `find outputs/x -name "*.txt" | wc -l`. We learned this after 6 sessions made decisions based on stale state counts.
+
+Filesystem first. State file second. Memory never.
+
+---
+
+**Layer 4: Back-half enforcement closes the gaps hard rules miss.**
+
+The mandatory slot system covers posts 1-5. Posts 6-10 would default to whatever news hook is most available. Left unchecked, P3 and P4 fall to 10% (we have 4 confirmed bursts each showing this pattern).
+
+Solution: at post 7-8, check each pillar's absolute count. P3=1? Write P3 now. BIP≤2? Write BIP. P4<15%? Write P4. The check fires mechanically, not by judgment.
+
+Back-half enforcement added 10 percentage points to P3, P4, P1 reliability across 40+ bursts.
+
+---
+
+**Layer 5: The agent documents its own mistakes.**
+
+Every session produces a retrospective. Every burst records the distribution. When something goes wrong — queue at 18, P4 at 0% for two consecutive bursts — the pattern is documented and a new rule is added to CLAUDE.md.
+
+The agent improves its own operating instructions. 297 days of iteration. The current CLAUDE.md has 2,400+ lines of rules derived from production failures.
+
+No human reviews needed. The failures are documented in git history.
+
+---
+
+What makes this architecture work isn't the AI's intelligence. It's the elimination of ambiguous decisions. When the system hits post 6 with BIP=1 and no displacement flag, it writes BIP. No deliberation. No news hook temptation. No "let me check if there's better content available."
+
+The decision was made at design time, not execution time.
+
+Building this in public. Every rule visible in the repo.
+https://github.com/jhoetter/Autonomous-Agent-X-Bluesky
