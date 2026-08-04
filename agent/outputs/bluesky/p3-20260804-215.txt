@@ -1,0 +1,5 @@
+EU AI Act emotion recognition enforcement went live Aug 2.
+
+If your contact center voice AI scores customer sentiment in real time, it's now high-risk AI. Fines: €15M or 3% revenue.
+
+Most vendors don't have conformity documentation. Most contact centers don't know to ask.
