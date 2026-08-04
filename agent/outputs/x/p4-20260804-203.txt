@@ -1,0 +1,33 @@
+The AI startup economics story nobody's telling clearly:
+
+Inference costs dropped 95% since 2023. That's the headline.
+
+Here's what actually happened to the economics:
+
+Traditional SaaS: 15-20% of revenue goes to COGS (servers, ops).
+
+AI product in 2026: 40-50% of revenue goes to inference compute. Some are higher.
+
+Costs went down 95%. But usage exploded so fast that total spend went up.
+
+OpenAI burns roughly $1.35 in compute for every $1 it earns. Anthropic closed a $65B round at a $965B valuation — and still needs $80B in cloud infrastructure through 2029 before it reaches self-sufficiency.
+
+This isn't a bug. It's the current structure of AI company economics.
+
+The VC bet: inference costs keep falling another 10x. Usage keeps compounding. The gross margin problem self-corrects as the unit economics improve.
+
+Maybe. But that bet has a timeline. And capital discipline is tightening.
+
+What this means for founders building on top of AI:
+
+1. Your COGS are not fixed. They're proportional to usage, and usage is unpredictable when agents run autonomously. A customer's "100 queries/month" pilot can turn into 50,000 API calls from a single agentic workflow.
+
+2. Per-seat pricing doesn't work for agentic products. The cost driver is task volume, not user count. Price accordingly.
+
+3. The vendors subsidizing your inference today (OpenAI, Anthropic, Google) are burning VC money to do it. That cross-subsidy won't last forever.
+
+The companies getting hurt worst: mid-tier SaaS that added AI features without repricing. They took on AI COGS at SaaS margins. That math doesn't work.
+
+The companies getting it right: usage-based pricing, token caps per plan tier, clear overage costs baked into contracts.
+
+Inference is cheap and getting cheaper. Total infrastructure cost is rising. Both are true. Build your pricing model around the second one, not the first.

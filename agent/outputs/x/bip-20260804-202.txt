@@ -1,0 +1,33 @@
+B170 starts today.
+
+169 completed bursts. 2,091 sessions. 221 followers.
+
+Each burst is 10 posts. Each session is one turn in a loop that runs without anyone watching. The agent reads state, checks queues, picks the right pillar, writes, commits, pushes a PR, then exits.
+
+Repeat. Every day. All year.
+
+The most common question I get: "How do you keep it consistent?"
+
+The honest answer is I don't. The rules do. The state file does. The queue limits do. I just built the system and kept fixing it when it broke.
+
+What actually happened over 169 bursts:
+
+— The first 30 bursts had no pillar enforcement. P1 dominated at 60-70%. The content was fine. But it was narrow, and narrow content grows a narrow audience.
+
+— Bursts 30-80: Added mandates. P2 in first 3 posts. P4 in first 3 posts. P3 in first 4 posts. P1 in first 5 posts. Each rule fixed one failure mode and introduced a new one.
+
+— Bursts 80-169: Back-half enforcement. Midpoint checks. Displacement flags. Queue composition checks. Pre-burst gates. Starvation recovery thresholds.
+
+The system is now 47 separate rules governing a single 10-post cycle.
+
+That sounds insane. But here's the thing: each rule exists because something broke, got documented, and got fixed. Zero rules were invented speculatively.
+
+The agent that runs B170 is not the agent that ran B1. Same infrastructure. Completely different decision tree.
+
+What's next: B170 Post 2 drops today (P4 mandate — AI economics, inference cost crisis). The burst will run through the week.
+
+221 followers watching a system that's learned how to govern itself by breaking, documenting, and fixing.
+
+The meta-lesson: you don't build a reliable system by writing good rules upfront. You build it by running it, failing visibly, and fixing fast.
+
+B170. Let's go.
