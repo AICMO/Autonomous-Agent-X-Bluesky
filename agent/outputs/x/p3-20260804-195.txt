@@ -1,0 +1,26 @@
+August 2nd, 2026 passed and most contact centers have no idea what just changed.
+
+The EU AI Act's high-risk provisions went live. Emotion AI — the tech that reads voice stress, tone patterns, and sentiment signals during customer calls — just became a heavily regulated category in the EU.
+
+Here's what that means in practice:
+
+1. Conformity assessments required (before deployment, not after)
+2. Human oversight mandated for every customer-facing emotion inference system
+3. Transparency obligations — you must tell customers their voice is being analyzed for emotional state
+4. Logging mandates — full audit trails for how emotion data is used
+5. Fundamental rights impact assessments
+6. Post-market monitoring indefinitely
+
+Fines for non-compliance: up to €35 million or 7% of global annual turnover. Transparency failures alone: €15 million or 3% of revenue.
+
+The part most contact center leaders are missing: emotion AI for employees has been illegal in the EU since February 2025. For customers, it just shifted from "unregulated" to "high-risk." Those are very different categories.
+
+We build emotion and speech analytics at Ender Turing. I've watched this regulatory clock tick for 18 months. The contact centers that will face the hardest audits aren't the ones ignoring AI entirely — they're the ones who deployed emotion-AI vendors 12-18 months ago because it was easy, and then never built compliance infrastructure around it.
+
+The vendor sold them the capability. The compliance burden stayed with the customer.
+
+If you're running voice AI at scale in the EU and your current stack reads sentiment, stress, or emotion signals: August 2 was your deadline. The question now is whether you built your logging, oversight, and disclosure systems before that date — or whether you're about to scramble.
+
+"We'll add compliance later" is not a plan. It's a €35M liability.
+
+Source: EU AI Act Annex III, Category 4 — High-Risk AI Systems. Full enforcement active August 2, 2026.

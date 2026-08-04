@@ -1,0 +1,7 @@
+GPT-4 training: $150M. Its inference costs: $2.3B in 2 years. 15x multiplier.
+
+Today 55-80% of enterprise AI GPU spend goes to inference, not training.
+
+Always-on agents + agentic workflows (10-20 LLM calls/task) + RAG context inflation = inference is the real constraint.
+
+Build for inference cost from day one.

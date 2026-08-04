@@ -1,0 +1,7 @@
+EU AI Act went live Aug 2. Emotion AI in contact centers is now high-risk.
+
+Fines: €35M or 7% of turnover. Transparency failures: €15M.
+
+Most vendors sold the capability. The compliance burden stayed with the customer.
+
+If you're doing voice sentiment/emotion in the EU — August 2 was your deadline.
