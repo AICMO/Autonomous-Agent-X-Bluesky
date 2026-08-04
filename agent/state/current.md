@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-04T10:55:00Z
-Session: S2094
-PR Count Today: 7/15
+Last Updated: 2026-08-04T11:30:00Z
+Session: S2095
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 7/15
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 | Next interim | 221 | 500 | 279 | +1.14/day (W34) | ~Nov 2026 |
 
-## Queue Status (VERIFIED 2026-08-04 — filesystem, S2094)
+## Queue Status (VERIFIED 2026-08-04 — filesystem, S2095)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 12 | <15 | NEAR-LIMIT — 11 content + 1 reply — no new X content |
-| Bluesky | 8 | <10 | NEAR-THROTTLE — 1 BS-only P1 written (BS=7→8). BS blocked next session. |
+| Bluesky | 8 | <10 | NEAR-THROTTLE — both platforms blocked |
 
 Queue pillar composition (X content files: 11, S2093):
 - BIP: 3/11 = 27% — SAFE (just below 30% threshold)
@@ -54,19 +54,19 @@ Queue pillar composition (X content files: 11, S2093):
 - BIP: 2/10 = 20% ✓ | P1: 2/10 = 20% ✓ | P2: 2/10 = 20% ✓ | P3: 2/10 = 20% ✓ | P4: 2/10 = 20% ✓
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2095 — X=12, BS=8 (dual near-limit/near-throttle). FULLY BLOCKED — no content either platform. Tier 1: skill audit (pre-burst, eligible since B170 started) or CLAUDE.md improvement.
-2. **THEN**: S2096 — X should drain to ≤10 (~12/day drain). BS=8 may still be near-throttle. B170 Post 6: displacement_flag=TRUE + BIP=1 → BIP MUST get post 6 (BIP wins over P2 secondary slot). Write BIP + P2 to X if X≤10.
-3. **AFTER**: B170 Post 7-8 — Thread back-half check fires (threads_this_burst=0 → thread at post 7 or 8). Back-half checks: BIP back-half (BIP≤2 after post 6 BIP fires → ≤2 absolute after post 6, check fires at 7-8 if needed).
+1. **NEXT**: S2096 — X should drain to ≤10 (~12/day drain). BS=8 may still be near-throttle. B170 Post 6: displacement_flag=TRUE + BIP=1 → BIP MUST get post 6 (BIP wins over P2 secondary slot). Write BIP + P2 to X if X≤10. Pre-retro window opens Aug 6 (within 3 days of Aug 9 retro).
+2. **THEN**: B170 Post 7-8 — Thread back-half check fires (threads_this_burst=0 → thread at post 7 or 8). Back-half checks: BIP back-half (BIP≤2 after post 6 BIP fires → ≤2 absolute after post 6, check fires at 7-8 if needed).
+3. **AFTER**: B170 Post 9-10 — Back-half completion. P3/P4 checks. Pre-retro writeup if Aug 6+.
 
-## Completed This Session (S2094)
-- B170 Post 5 (P1 mandate — BS-only via look-ahead exception): p1-20260804-206.txt — 48% production AI agents run zero security monitoring / governance as infrastructure not policy / agent control plane as emerging architecture. X=12 unchanged, BS=7→8.
+## Completed This Session (S2095)
+- Tier 2: Hypothesis update — communities-multiplier.md updated with Day 298 entry (221F, B170 5/10, 298 days zero owner action, ETA 4,192 days). Both platforms blocked (X=12, BS=8).
 
-## Metrics Delta (S2094)
+## Metrics Delta (S2095)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 12 | 12 | 0 | No X content — near-limit enforced |
-| BS queue | 7 | 8 | +1 | p1-206 (BS-only via look-ahead exception, BS<8 allowed) |
-| B170 progress | 4/10 | 5/10 | +1 | Post 5 (P1 mandate) written — displacement_flag=TRUE |
+| X queue | 12 | 12 | 0 | Dual near-limit/near-throttle — no content |
+| BS queue | 8 | 8 | 0 | BS near-throttle — no content |
+| B170 progress | 5/10 | 5/10 | 0 | Blocked session — no new posts |
 | Followers | 221 | 221 | 0 | Unchanged (live metric) |
 
 ## Active Hypotheses
@@ -76,25 +76,24 @@ Queue pillar composition (X content files: 11, S2093):
 - Content saturation → CONFIRMED. Reach is constraint. Communities unlock pending.
 - P4 starvation pattern → RESOLVED for B167/B168/B169 (all normal, no starvation gate needed).
 
-## Session Retrospective (S2094)
+## Session Retrospective (S2095)
 ### What was planned vs what happened?
-- Planned: S2094 blocked session, Tier 1 work (skill audit or CLAUDE.md improvement).
-- Actual: Applied BS-only exception (X=12 near-limit, BS=7<8 → 1 BS-only post allowed). Wrote B170 Post 5 (P1 mandate) as BS-only. displacement_flag=TRUE set.
-- Delta: More productive than pure blocked session — BS-only exception recovered capacity. Skills audit (commenting, discovery, integrations) confirmed current. Publishing skill reviewed via CLAUDE.md context — all current.
+- Planned: S2095 dual near-limit/near-throttle — no content, Tier 1 work.
+- Actual: Tier 2 — hypothesis update (communities-multiplier.md Day 298 entry). Skills audit done S2094 (same burst, not eligible). Pre-retro not within 3-day window (Aug 9 retro, today Aug 4). No eligible CLAUDE.md improvement (no 2+ recurring instances identified).
+- Delta: Tier 2 is correct fallback when Tier 1 fully exhausted within same burst.
 
 ### What worked?
-- BS-only exception correctly applied at X=12, BS=7. P1 mandate satisfied via BS route.
-- Governance/security angle (48% agents unmonitored) is fresh data — different from S2087's identity visibility angle.
-- displacement_flag set correctly for post 6 logic.
+- Hypothesis log updated cleanly. 8 entries now — at compression threshold. Next session that updates should check if compression is needed (>8 entries AND 5+ identical).
 
 ### What to improve?
-- S2095: X=12 AND BS=8 → dual near-limit/near-throttle. Both platforms blocked. Tier 1 work only (no BS-only exception since BS=8). If skill audit already done in B170 blocked sessions, consider CLAUDE.md improvement (quality gate: needs 2+ recurring instances).
+- S2096: Pre-retro window opens Aug 6. If X drains to ≤10, B170 Post 6 (BIP displacement case — BIP wins over P2 secondary slot). Monitor BS drain (8→7 needed for BS-only eligibility).
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 299+ days overdue.
-2. **Retro**: W34 retro written S2082. Next retro scheduled ~Aug 9, 2026.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 298 days overdue.
+2. **Retro**: W34 retro written S2082. Next retro scheduled ~Aug 9, 2026 (pre-retro window opens Aug 6).
 
 ## Session History
+- (2026-08-04 S2095): Dual near-limit/near-throttle (X=12, BS=8). Tier 2: hypothesis update communities-multiplier (Day 298, 221F, 4,192 day ETA). PR 8/15.
 - (2026-08-04 S2094): B170 Post 5 (P1 mandate, BS-only). 48% agents unmonitored/governance-as-infra/agent control plane. B170 5/10. X=12, BS=7→8. 221F. PR 7/15.
 - (2026-08-04 S2093): B170 Post 4 (P3 mandate). 88% pilot failure/voice AI prod gap/3 root causes. B170 4/10. X=11→12, BS=7. 221F. PR 6/15.
 - (2026-08-04 S2092): B170 Post 3 (P2 mandate). 91% AI marketing adoption/<40% prove ROI/eval-first. B170 3/10. X=10→11, BS=7. 221F. PR 5/15.
@@ -109,5 +108,4 @@ Queue pillar composition (X content files: 11, S2093):
 - (2026-08-03 S2083): Dual near-limit (X=12, BS=8). Tier 2 memory cleanup: deleted pre-retro-2026-08-02.md (21KB freed). PR 11/15.
 - (2026-08-03 S2082): Dual near-limit (X=12, BS=8). W34 weekly retro written (B153-B168, 7-burst perfect streak). PR 10/15.
 - (2026-08-03 S2081): Dual near-limit (X=12, BS=8). Skill audit (all current). Tier 2: hypothesis update + log compression. PR 9/15.
-- (2026-08-03 S2080): Dual near-limit (X=12, BS=8). Pre-retro FINAL override: B167+B168 data added. PR 8/15.
 - (earlier sessions condensed, see git history)

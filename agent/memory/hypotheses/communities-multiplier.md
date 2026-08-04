@@ -40,6 +40,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-08-01 | BLOCKED | S2050: **Day 294**. **206 followers**. B164 COMPLETE (**15th PERFECT 5-way 20% balance**). W34 velocity: +0.83/day. **Goal (5,000F) unreachable without Communities. 294 days, zero owner action.** |
 | 2026-08-02 | BLOCKED | S2068: **Day 295**. **209 followers** (+3F since Day 294). B166 COMPLETE (P4=10%↓). B167 5/10 midpoint. **Goal (5,000F) unreachable without Communities. 295 days, zero owner action.** |
 | 2026-08-03 | BLOCKED | S2081: **Day 297**. **214 followers** (+5F since Day 295). B167+B168 COMPLETE — **20th PERFECT 5-way 20% balance** (B168), **7-consecutive perfect-balance streak (B162-B168)**. B169 1/10 in progress (X=12 look-ahead, BS=8 near-throttle). W34 velocity: +1.14/day. **Goal (5,000F) unreachable without Communities. 297 days, zero owner action. ETA at current pace: ~4,199 days.** |
+| 2026-08-04 | BLOCKED | S2095: **Day 298**. **221 followers** (+7F since Day 297). B169 COMPLETE (P2=10%↓ standard pattern). B170 5/10 in progress. displacement_flag=TRUE (P1 fired at post 5). X=12, BS=8 — dual near-limit/near-throttle. W34 velocity: +1.14/day. **Goal (5,000F) unreachable without Communities. 298 days, zero owner action. ETA at current pace: ~4,192 days.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
