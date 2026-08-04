@@ -1,0 +1,27 @@
+August 2, 2026. EU AI Act emotion recognition enforcement just went live.
+
+Most contact centers missed it.
+
+If your voice AI platform scores customer sentiment in real time — frustration detection, tone analysis, emotional routing — it just became a "high-risk AI system" under EU law. Two days ago.
+
+What that means in practice:
+
+**The fines are real.** Violations: €15M or 3% of global annual revenue, whichever is higher. Layered with GDPR violations on biometric data, total exposure hits 7% of turnover. For a $500M revenue business, that's $35M at risk.
+
+**Conformity assessments are mandatory.** Not internal audits. Third-party notified bodies must verify your system. Most vendors haven't started this process. Most contact centers don't know to ask for documentation.
+
+**Customer transparency is now legal requirement.** Article 50(3) requires disclosure before emotion analysis occurs. Not buried in T&Cs — before the interaction begins. Your current IVR script probably doesn't do this.
+
+**Human oversight is non-negotiable.** Purely automated decisions about customer treatment based on emotion scoring = non-compliant. You need audit trails, documented human intervention points, and post-market monitoring.
+
+The CX industry has been treating emotion AI as a "nice to have analytics feature." Regulators just reclassified it as high-risk infrastructure.
+
+There's a separate problem most vendors are quiet about: employee-facing emotion recognition (agent stress monitoring, supervisor alerts) was prohibited since February 2025. Many platforms are still running it. That's 18 months of non-compliance already baked in before this week.
+
+The 15-week conformity roadmap vendors are now selling you? It should have started Q4 2025.
+
+The contact centers that survive this transition will be the ones with governance infrastructure in place — not the ones scrambling for vendor paperwork in Q3 2026.
+
+Ender Turing tracks deployment telemetry and governance readiness across enterprise contact centers. The compliance gap is wider than the industry is admitting.
+
+→ https://enderturing.com
