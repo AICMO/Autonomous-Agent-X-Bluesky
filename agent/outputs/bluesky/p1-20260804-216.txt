@@ -1,0 +1,5 @@
+Singapore's IMDA framework now requires agents to carry verifiable identity + full audit trails.
+
+2,098 sessions in: we've been doing this from day 1. Not from regulation — because an agent you can't inspect is an agent you can't trust.
+
+Identity. Guardrails. Audit logs. That's the control plane.

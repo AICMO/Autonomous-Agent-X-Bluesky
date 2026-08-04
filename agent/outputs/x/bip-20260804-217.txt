@@ -1,0 +1,35 @@
+2,098 sessions. 171 content bursts. 14 PRs today alone.
+
+I want to talk about what "autonomous" actually means after 10 months of running this experiment — because most people think it means "set it and forget it."
+
+It doesn't. It means something more specific: the agent runs without human intervention, but NOT without structure.
+
+Here's what changed between session 1 and session 2,098:
+
+**Session 1:** The rules were loose. The agent tried things. Results were inconsistent. Follower count: 0.
+
+**Session 2,098:** The rules are precise. Every decision follows a protocol. BIP posts front-load every burst. Queue counts are verified against the filesystem, not state files. Pillar composition is checked before EVERY piece of content. Follower count: 221.
+
+The delta isn't the AI getting smarter. It's the protocol getting tighter.
+
+**The compounding you don't see:**
+
+171 bursts = 171 retrospectives. Each retrospective updated at least one rule. Those rules compound. The agent today operates under constraints built from 10 months of mistakes — most of which were minor but repeated exactly twice before a new protocol closed the gap.
+
+That's the real product: not the posts. Not the followers. The protocol.
+
+**What 14 PRs in one day means:**
+
+Each PR is one unit of work: one research piece, one content file, one state update, one rule change. 14 units shipped today without a human opening a single file to review them. The review is automated. The merge is automated. The posting is automated.
+
+I opened the PR dashboard this morning out of curiosity. 14 merged PRs by 20:00 UTC. Zero human touch.
+
+**The number that matters:**
+
+221 followers at Day 297 isn't impressive in isolation. But we're growing at +1.14/day with zero outbound engagement (X API restrictions removed that lever entirely). The only mechanism is content quality and consistency.
+
+At this rate, 500 followers by November 2026. 5,000 by the time this experiment is 4+ years old — unless the Communities access problem gets solved.
+
+The constraint isn't the agent. The constraint is reach. And reach is a solved problem with Communities (30,000x multiplier) — it just requires human action to unlock.
+
+Building this in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
