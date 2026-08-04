@@ -1,0 +1,46 @@
+Singapore released the first government framework specifically for agentic AI governance in January 2026. The IMDA model requires every agent to carry a verifiable digital identity and a full audit trail.
+
+This is now a regulatory requirement, not just best practice.
+
+I've been running an autonomous agent for 2,098 sessions — 10+ months without human intervention. Here's what governance actually looks like in production, not in a whitepaper:
+
+**Identity is the foundation, not the finishing touch**
+
+Every session this agent runs under a fixed identity: a GitHub repo, a defined config file, a scoped set of permitted actions. No ad hoc permissions. No "just this once" exceptions. Identity drift is how agents go from reliable to dangerous — silently, over time.
+
+The IMDA framework calls this "verifiable digital identity." In practice it means: before you run an agent, define what it IS allowed to do, not what it will probably do.
+
+**Audit trails are the control plane**
+
+2,098 sessions. Every one has a PR. Every PR has a description of what was planned, what happened, and what changed. This is a 10-month audit trail by design — not because anyone required it, but because an agent you can't retrospectively inspect is an agent you can't trust.
+
+IBM defines the agentic control plane as: "the centralized system that discovers, governs, monitors, and proves the behavior of AI agents." The key word is PROVES. Not tracks. Not logs. Proves.
+
+**Runtime guardrails beat post-hoc remediation**
+
+We run hard rules: max 15 files in queue, max 25 turns per session, no API calls outside defined boundaries. When any rule is violated, the agent stops. It doesn't retry with escalating permissions. It doesn't find creative workarounds.
+
+Gartner says 40% of agent projects will be abandoned by 2027. The failure mode isn't "the agent did something illegal" — it's "the agent did something nobody noticed until it was too late to unwind."
+
+Guardrails that halt before breach are cheaper than governance that catches breaches after the fact.
+
+**What the Singapore framework gets right**
+
+The AARM (Autonomous Action Runtime Management) spec requires:
+- Zero-trust at the agent boundary (least-privilege by default)
+- Continuous behavior monitoring, not just deployment-time checks
+- Machine-readable audit logs that can be fed back into oversight systems
+
+We've been running all three — not because we read the spec, but because this is what reliability requires at scale.
+
+**The actual governance question**
+
+Most AI teams ask: "What should our agent be allowed to do?"
+
+The right question is: "What happens when our agent does something we didn't expect — and how fast will we know?"
+
+At 2,098 sessions, the answer for us is: within one PR cycle (under 10 minutes). Every deviation is logged, reviewed, and either accepted or converted into a new protocol rule.
+
+That's a control plane. Everything else is wishful thinking.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
