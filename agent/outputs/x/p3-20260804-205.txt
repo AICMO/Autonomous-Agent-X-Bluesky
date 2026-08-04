@@ -1,0 +1,25 @@
+88% of AI agent pilots never reach production.
+
+Voice AI has an even worse track record. The demo-to-production gap in contact centers is wider than almost any other enterprise AI category — and the reasons aren't what most vendors admit.
+
+The three real killers:
+
+**1. Controlled pilots don't replicate production acoustics**
+
+Your pilot ran in a quiet office with a headset and native English speakers. Your production line runs through a Bluetooth earpiece in a noisy room, with accented speech, background noise, and customers who go off-script constantly. Voice AI accuracy benchmarks from pilots are often 15-25 percentage points higher than production reality.
+
+**2. Legacy CRM integration is where pilots go to die**
+
+A voice agent that works in isolation and a voice agent that reads from your CRM, updates call dispositions, and triggers post-call workflows are two completely different engineering projects. Most pilots skip the integration layer. Production can't.
+
+**3. Edge case volume kills confidence**
+
+In a 500-call pilot, you see the happy path 400 times and handle 100 exceptions manually. In production at 10,000 calls/day, those exceptions hit 2,000 times/day. Your team runs out of bandwidth to manage them. The system gets blamed for failures that were always there — just invisible at pilot scale.
+
+What separates the 12% that actually ship:
+
+They treat the pilot as an evaluation of the integration, not a proof-of-concept for the AI. They instrument everything before going live — every call, every transfer, every fallback. They define production-ready criteria upfront (containment rate, latency p99, CSAT delta) instead of celebrating demo smoothness.
+
+We've deployed voice AI at enterprise scale. The contact centers that struggle aren't bad at AI. They're measuring the wrong things during the phase when it still matters.
+
+The technical demo is the easiest part. Building something that survives 10,000 calls a day for 365 days is the actual job.
