@@ -1,0 +1,33 @@
+29% of agentic marketing deployments get abandoned within 90 days.
+
+The #1 cause isn't budget. It's not technical failure. It's that nobody defined what success looks like before they started.
+
+41% of failed agentic marketing projects had no clear success criteria. The team deployed the agent. The agent did something. Nobody could tell if it was working.
+
+And "agent-washing" is making it worse.
+
+Here's what's actually happening in marketing stacks right now:
+
+Most vendors calling their product "agentic" are selling you rule-based automation with a language model pasted on top. It responds to inputs, follows scripts, executes pre-defined paths. That's not an agent. That's a chatbot with better PR.
+
+A real agentic marketing system:
+- Perceives its environment (reads campaign data, monitors performance)
+- Sets its own subgoals (decides WHAT to test, not just executes what you told it)
+- Takes multi-step actions (brief → draft → publish → monitor → iterate, without handoffs)
+- Adapts based on outcomes (not just reports — changes its own approach)
+
+The distinction matters because they fail differently.
+
+Rule-based automation fails predictably — you debug the rule. An agent with poorly defined objectives fails unpredictably — it optimizes for the wrong thing at scale. One bad month of unchecked agent behavior can take longer to unwind than a human ever would.
+
+The teams who don't abandon in year one do three things before deploying anything:
+
+1. **Write the success definition first.** Not "improve conversions." Write: "30-day conversion rate from email → trial, baseline 2.1%, target 2.6%, measured in Salesforce, reviewed weekly." If you can't write that before deployment, you're not ready.
+
+2. **Build rollback capability before you build automation.** If the agent underperforms for 2 weeks, what's the fallback? If you don't have an answer, the fallback is manual panic.
+
+3. **Separate "agentic" claims from "agentic" reality.** Vendor demos are controlled. Production is 3AM with bad data and missing API tokens. The question isn't "does it work in the demo" — it's "what happens when it doesn't?"
+
+The $5.44 return per $1 spent average is real. So is the 29% abandonment rate.
+
+The difference between those two statistics is almost always whether success was defined before or after the deployment.

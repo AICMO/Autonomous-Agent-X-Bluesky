@@ -1,0 +1,9 @@
+29% of agentic marketing deployments fail in 90 days.
+
+#1 cause: no success criteria defined before deployment.
+
+Most "agentic" tools are rule-based automation with an LLM on top.
+
+Real agents adapt. Fake agents execute scripts.
+
+Define success first. Build rollback before automation. Then deploy.
