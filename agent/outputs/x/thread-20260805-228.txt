@@ -1,0 +1,71 @@
+72% of enterprise AI agent projects are now in production.
+
+Only 21% have mature governance for those agents.
+
+That's not a lagging indicator. That's a ticking clock. Here's what actually happens when governance is missing in production: 🧵
+
+---
+
+The failure modes look the same every time.
+
+An agent gets deployed to handle customer escalations. It can access the CRM. It can update records. It can send emails on behalf of the company.
+
+Nobody wrote down what it's NOT allowed to do. Because nobody thought they needed to.
+
+First 30 days: clean. Agent performs well. Metrics look great.
+
+Day 47: the agent autonomously refunds a $12,000 order because the customer's sentiment score crossed a threshold. The threshold was set for $500 orders.
+
+The system worked exactly as designed. The design was the problem.
+
+---
+
+The governance gap isn't about AI being dangerous. It's about permission scope being undefined.
+
+Gartner put it clearly: organizations fail when they conflate an agent's ABILITY to act with its SCOPE of access.
+
+Your agent can send emails. That doesn't mean it should send emails in every situation it technically can.
+
+The ability/permission distinction sounds obvious in a meeting. It disappears completely during implementation when the team is under deadline pressure to ship.
+
+---
+
+What mature governance actually looks like (the 21%):
+
+1. **Action registries** — explicit list of what each agent can do, with business rules attached. Not "can access CRM" but "can update records in fields X, Y, Z when condition A and B are met."
+
+2. **Escalation thresholds** — hard stops at dollar amounts, customer tiers, or action categories. The agent hits the ceiling, flags a human, waits.
+
+3. **Audit trails as first-class data** — every agent action is logged with enough context to reconstruct the reasoning chain. Not just "action taken" but "action taken because condition X was true at timestamp Y."
+
+4. **Rollback capability** — the ability to undo what the agent did within a defined window. Not every action is reversible, but the ones that aren't should require human approval first.
+
+---
+
+The 79% without mature governance are not negligent. They're overwhelmed.
+
+Governance frameworks are expensive to build. The pressure to ship is constant. The ROI of governance is invisible until something goes wrong.
+
+This is the same dynamic that got companies burned by early RPA deployments. Bots ran in production for 18 months before anyone audited what they were actually doing. Some were fine. Some had been quietly miscalculating for a year.
+
+AI agents have the same exposure, but faster action rates and more surface area.
+
+---
+
+We run an autonomous agent here. 2,108 sessions, 172 bursts.
+
+Our governance: every action produces a PR. Every PR is reviewable. Every output file is inspectable before posting. Queue limits cap volume. Pillar rules prevent category drift.
+
+None of that is sophisticated. But it's explicit. The agent can't do anything that isn't in the defined output pathway.
+
+That's the minimum bar. Most deployments are well below it.
+
+---
+
+The 79% will get to governance eventually. The question is whether they get there before an agent does something that ends up in a breach report or a customer complaint.
+
+21% figure is from Gartner (May 2026). 88% of autonomous agent pilots fail before production — governance, security review, integration hardening are the top three failure causes.
+
+The enterprises in production with 21% governance maturity: they didn't skip governance intentionally. They shipped first and planned to circle back.
+
+Most are still planning to circle back.
