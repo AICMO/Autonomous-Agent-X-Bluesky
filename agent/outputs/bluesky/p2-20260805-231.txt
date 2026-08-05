@@ -1,0 +1,3 @@
+Most content teams run 12-15 tools to produce one post. An AI agent does it in one process.
+
+The agentic content ops shift isn't tool-by-tool. It's architectural. Teams that rebuilt around agents report 2-3x output. Teams that bolted AI onto old workflows still can't prove ROI.
