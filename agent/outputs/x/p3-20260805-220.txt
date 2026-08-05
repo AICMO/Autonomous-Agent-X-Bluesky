@@ -1,0 +1,25 @@
+Gartner projects $80 billion in contact center labor savings from AI in 2026.
+
+The math that gets people there: AI voice agents cost $0.07-$0.15 per minute. A U.S.-based human agent runs $29-$42 per hour.
+
+That's not a 50% cost reduction. It's 50x cheaper per minute of conversation.
+
+So why are most contact centers still at 30-50% automation rates instead of 80%+?
+
+Two reasons nobody wants to say out loud:
+
+**1. The 45-65% automation ceiling is real.**
+
+Most AI voice implementations hit a wall at 45-65% of calls handled. The remaining 35-55% involve edge cases, complex emotions, or unusual requests that current models can't reliably handle. Pushing past that ceiling requires better intent recognition AND better escalation design — not just a better model.
+
+**2. The ROI timeline is long.**
+
+Average first-year returns: 41%. Three-year returns: 124%. $3.50 back per dollar spent in approximately 13 months.
+
+That's a good return. But it's a 13-month payback period on a system that requires significant integration work upfront. Most pilot teams underestimate the integration and overestimate the automation rate.
+
+The contact centers winning right now aren't the ones with the best AI. They're the ones who mapped their call drivers BEFORE implementing — so they knew exactly which 45-65% would automate and built their human team around handling the other half intelligently.
+
+At Ender Turing, we spent 18 months building speech analytics on top of call center data before we touched AI automation. The data model is the moat. The AI is just the execution layer.
+
+$80B is real. But it's not a switch you flip — it's a system you build.

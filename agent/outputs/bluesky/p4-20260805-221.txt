@@ -1,0 +1,7 @@
+GPT-4 at launch: $30/M tokens.
+DeepSeek V4-Flash today: $0.14/M tokens.
+214x cheaper in 40 months.
+
+Enterprise AI budgets went UP 483% in the same period ($1.2M → $7M/year).
+
+Jevons Paradox confirmed. When compute gets cheaper, you don't spend less — you build at 214x the scale.
