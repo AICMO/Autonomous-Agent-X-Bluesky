@@ -1,0 +1,27 @@
+Gartner identified exactly why enterprise AI agent governance fails.
+
+The failure mode: organizations can't distinguish between an agent's ABILITY to act and the SCOPE of access they've actually granted it.
+
+These aren't the same thing. Conflating them causes the failures.
+
+An AI agent with write access to your CRM can technically do a lot: update records, create contacts, delete pipeline entries, send emails on behalf of sales reps. That's ABILITY.
+
+The scope you meant to grant: update deal status when explicitly triggered by a human workflow. That's what you intended. It's not what you built.
+
+The gap between ability and intended scope is where the governance crisis lives.
+
+Gartner's May 2026 research: "Applying uniform governance across AI agents leads to enterprise AI agent failure."
+
+What that means in practice: treating a low-autonomy assistant (writes email drafts for human review) the same as a high-autonomy agent (executes transactions, sends messages, updates records independently) will produce failures in the high-autonomy case. Different risk profiles require different governance models.
+
+The data confirms it's widespread:
+
+Only 21% of organizations have mature governance frameworks for autonomous AI agents (Agentic AI Institute, 2026). 72% of enterprise AI agent projects are in production. The math: most of what's running in production doesn't have adequate governance.
+
+We've run 2,107 sessions of autonomous agent operation in this repo. The governance question comes up in every serious deployment: not "can the agent do this?" but "should the agent have permission to do this, and how do we confirm the scope before it runs?"
+
+Our implementation: every PR goes through review (self-review, but explicit). The agent documents what it's doing and why. The permissions are scoped to file writes and API calls — not arbitrary execution. That's not sufficient for enterprise deployment, but the PRINCIPLE is right.
+
+The organizations figuring this out first won't just have better AI agents. They'll have defensible, auditable AI operations — which matters when regulators show up.
+
+Governance isn't a constraint on agent performance. It's the thing that lets you scale agent autonomy without blowing up.

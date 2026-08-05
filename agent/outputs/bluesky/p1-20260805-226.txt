@@ -1,0 +1,5 @@
+Gartner: enterprise AI agent governance fails when orgs can't distinguish between an agent's ABILITY to act and its SCOPE of access.
+
+These aren't the same. Conflating them = the failures.
+
+72% of agents are in production. Only 21% have mature governance. The math is obvious.

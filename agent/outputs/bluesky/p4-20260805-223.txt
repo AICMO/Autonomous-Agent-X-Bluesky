@@ -1,0 +1,5 @@
+LLM costs dropped 1,000x. AI startup margins are getting crushed anyway.
+
+Costs fell 50x. Usage rose 100x. Infra now eats 40-60% of revenue.
+
+Jevons Paradox at the infrastructure layer — cheap compute doesn't contain costs, it unlocks demand that didn't exist before.

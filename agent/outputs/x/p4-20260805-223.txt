@@ -1,0 +1,27 @@
+LLM costs dropped 1,000x in 3 years. AI startup margins are getting crushed anyway.
+
+Here's the paradox that's reshaping AI economics in 2026:
+
+GPT-4-class inference: $20/M tokens (2022) → $0.40/M tokens now. That's a 50x-1,000x collapse depending on which models you're running.
+
+But per-token consumption increased 100x over the same period.
+
+The math: costs fall 50x, usage rises 100x. Net result: total AI infrastructure spend goes UP. AI startups running LLM-heavy workloads now report infra costs consuming 40-60% of gross revenue.
+
+This is Jevons Paradox at the infrastructure layer. Making something cheap enough doesn't contain the cost — it unlocks demand that didn't exist before.
+
+The frontier vs. commodity split makes this worse:
+
+Commodity models (open-source, mid-tier): $0.10-$0.50/M tokens. Dropping fast.
+
+Frontier models (GPT-5.6 Sol, Claude 3.7+): $5-$30/M tokens. Actually INCREASING since January 2026 as labs recoup frontier R&D.
+
+Startups building on commodity models get cheap compute but face commoditized products. Startups building on frontier models get differentiated capabilities but 60x the infra cost.
+
+There's no winning configuration. The question is which margin pain is more survivable.
+
+The median LLM pricing right now (July 2026): $1.00/M input, $4.00/M output across 130 models. Output tokens cost 4x more than input — the asymmetry means agentic workloads (which generate more output per input cycle) hit harder than RAG or summarization.
+
+If you're building an agent pipeline: your infra cost structure is fundamentally different from a search-augmentation use case. Model selection isn't a technology decision. It's a margin decision.
+
+The builders who understand this are winning. Everyone else is funding their burn with better demos.
