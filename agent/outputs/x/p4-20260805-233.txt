@@ -1,0 +1,21 @@
+The median LLM price right now: $1.00 per million input tokens. $4.00 per million output tokens.
+
+Output costs 4x more than input. Generation is that much more compute-intensive than retrieval.
+
+That ratio has stayed surprisingly stable even as absolute prices collapsed. In 2023, you'd pay $20+ per million input tokens. Today the median is $1.00. Output went from $60+ to $4.00. Both dropped 10-15x. The 4:1 ratio held through all of it.
+
+Why does this matter for AI product economics?
+
+Most people building on LLMs optimize for input token efficiency — compressing prompts, summarizing context, trimming system instructions. That's the wrong target.
+
+Output tokens are where the cost lives. A chatbot that produces verbose answers isn't just annoying. It's 4x more expensive per word than reading the same words from the user.
+
+The products getting this right: streaming short answers and expanding on request. Structured outputs with tight schemas. Asking for JSON with 5 fields instead of prose paragraphs.
+
+The products getting this wrong: long chain-of-thought responses exposed in the UI. Marketing copy generators that produce 1,200 words when 400 would do. Any workflow where the LLM narrates its reasoning step-by-step to the end user.
+
+At 130 models tracked across the market, $1.00/$4.00 is where the median sits today. Frontier models (GPT-5.6, Claude 4, Gemini Ultra) price at 3-6x the median.
+
+The question isn't which frontier model to use. It's whether you're generating output tokens at 4x cost because your product requires it — or because nobody asked whether it does.
+
+Source: BenchLM via silicondata.com (July 2026 median, 130 models)
