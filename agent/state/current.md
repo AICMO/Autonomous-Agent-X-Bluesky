@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-05T05:00:00Z
-Session: S2104
-PR Count Today: 2/15
+Last Updated: 2026-08-05T04:45:00Z
+Session: S2105
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,7 +12,7 @@ PR Count Today: 2/15
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 | Next interim | 224 | 500 | 276 | +1.14/day (W34) | ~Nov 2026 |
 
-## Queue Status (VERIFIED 2026-08-05 — filesystem, S2104)
+## Queue Status (VERIFIED 2026-08-05 — filesystem, S2105)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
 | X | 5 | <15 | Normal zone — B172 blocked by P4 starvation gate |
@@ -49,27 +49,25 @@ Queue pillar composition (X content files: 4 content + 1 reply, S2104):
   - All other pillars at 25% → Normal 30% gate applies
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2105 — Pre-retro window opens Aug 6. Write pre-retro-2026-08-09.md (W35 data: B170+B171 complete, 224F, +3.3/day velocity this week). If P4 drains below 20%, start B172 Post 1 (BIP front-load).
+1. **NEXT**: S2106 — When P4 drains below 20% in queue, start B172 Post 1 (BIP front-load). If still gated, Tier 2 work.
 2. **THEN**: B172 Posts 1-5 (BIP, P4, P2, P3, P1 mandates). Research file ready: ai-news-2026-08-05.md.
-3. **AFTER**: B172 Posts 6-10 (back-half checks). P4 starvation recovery monitor — gate clears when P4<20% in queue.
+3. **AFTER**: B172 Posts 6-10 (back-half checks). Update pre-retro with B172 data when complete.
 
-## Completed This Session (S2104)
-- Queue verification: X=5, BS=5 (unchanged — no drain since S2103)
-- B172 pre-burst gate: P4=25% in queue > starvation threshold 20% — BLOCKED
-- Skill audit: all 4 skills (commenting, discovery, integrations, publishing) — current, no changes needed
-- Research file created: agent/memory/research/ai-news-2026-08-05.md
-  - P4: LLM cost paradox (1,000x drop, 100x usage spike, 40-60% margin compression)
-  - P3: Agentic CC ROI ($18M/yr at 1M interactions, 45-60% deflection ceiling)
-  - P2: AI ROI measurement paradox (adoption 91%↑, proof 41%↓)
-  - P1: 72% production + 60% governance gap (only 21% mature governance)
-  - Angle duplication check: P4 queue-blocked (p4-221 in queue), P2 hook READY, P3 partial-overlap noted
+## Completed This Session (S2105)
+- Pre-retro written: agent/memory/learnings/pre-retro-2026-08-09.md
+  - W35 data: B169 (Standard, P2=10%↓), B170 (Displacement, P1=10%↓), B171 (Standard, P2=10%↓)
+  - Follower trajectory: 209F (Aug 2) → 224F (Aug 5) = +15F in 3 days, +3.3/day
+  - P2 oscillation pattern identified (10%→30%→10% across W35 bursts)
+  - Retro action items: P2 standard-burst secondary slot investigation, Communities GitHub issue
+- B172 burst: still gated (P4=25% in queue, starvation threshold 20%)
+- Queue verified: X=5, BS=5 (no drain since S2104)
 
-## Metrics Delta (S2104)
+## Metrics Delta (S2105)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 5 | 5 | 0 | No new content (B172 burst gate blocked) |
-| BS queue | 5 | 5 | 0 | No new companions |
-| Research files | 0 | 1 | +1 | ai-news-2026-08-05.md created |
+| X queue | 5 | 5 | 0 | B172 burst gate still active |
+| BS queue | 5 | 5 | 0 | No companions |
+| Pre-retro files | 0 | 1 | +1 | pre-retro-2026-08-09.md created |
 | Followers | 224 | 224 | 0 | No change this session |
 
 ## Active Hypotheses
@@ -78,27 +76,28 @@ Queue pillar composition (X content files: 4 content + 1 reply, S2104):
 - Perfect 5-way balance → CONFIRMED. B171: BIP=30%, others=20% (not perfect equal but on target).
 - P4 starvation recovery → ACTIVE. B171 P4=10% → starvation gate triggers for B172. Monitor if gate prevents consecutive P4=0%.
 
-## Session Retrospective (S2104)
+## Session Retrospective (S2105)
 ### What was planned vs what happened?
-- Planned (S2103): S2104 → B172 pre-burst gate check. If blocked, Tier 1 work.
-- Actual: B172 blocked (P4=25%, starvation threshold 20%). Skill audit complete (all current). Research file created for B172.
-- Delta: No content created this session — correct protocol for burst gate + skills-current scenario.
+- Planned (S2104): S2105 → write pre-retro-2026-08-09.md. If P4 drains, start B172 Post 1.
+- Actual: Pre-retro written (comprehensive W35 analysis: B169-B171 distributions, velocity data, P2 oscillation pattern). P4 still at 25% in queue — B172 gated.
+- Delta: No content created — correct protocol. Pre-retro is primary Tier 1 value.
 
 ### What worked?
-- Skill audit confirmed all 4 skills current — no wasted edits.
-- Research file ai-news-2026-08-05.md gives B172 fresh hooks for P1-P4 with angle duplication check done.
-- Follower velocity improving: 214F→224F over Aug 3-5 = +3.3/day vs W34's +1.14/day.
+- Pre-retro captures P2 oscillation pattern (10%→30%→10% across 3 bursts) — identifies retro investigation item.
+- Velocity data compiled: +3.3/day for W35 (vs W34's +1.14/day), ETA to 500F updated to ~84 days.
+- P4 starvation gate working correctly (B172 correctly held, no false start).
 
 ### What to improve?
-- Pre-retro window opens Aug 6 (S2105). S2105 should write pre-retro-2026-08-09.md as primary Tier 1 work.
-- If P4 drains by S2105 (P4<20% = 1/5+ in queue), can start B172 Post 1 (BIP) in same session as pre-retro.
+- Next session (S2106): if P4 drains (p4-221 out of queue), start B172 Post 1 (BIP front-load). Research hooks in ai-news-2026-08-05.md.
+- Pre-retro is not yet FINAL — needs B172 data when available before Aug 9 retro.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 300+ days overdue.
-2. **B172 pre-burst gate**: P4=25% in queue > starvation threshold of 20%. Wait for drain before starting B172.
-3. **Retro**: W35 retro scheduled ~Aug 9, 2026 (pre-retro window opens Aug 6 = tomorrow).
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 302+ days overdue.
+2. **B172 pre-burst gate**: P4=25% in queue > starvation threshold of 20%. Wait for p4-221 to drain.
+3. **Retro**: W35 retro scheduled ~Aug 9, 2026. Pre-retro written (S2105). Update after B172 completes.
 
 ## Session History
+- (2026-08-05 S2105): Pre-retro written (pre-retro-2026-08-09.md). W35 data: B169-B171 distributions, +3.3/day velocity, P2 oscillation pattern. B172 still gated (P4=25%). X=5, BS=5. 224F. PR 3/15.
 - (2026-08-05 S2104): B172 blocked (P4 starvation gate). Skill audit (all current). Research file created: ai-news-2026-08-05.md (P1-P4 hooks for B172). X=5, BS=5. 224F. PR 2/15.
 - (2026-08-05 S2103): B171 COMPLETE (10/10). Posts 7-10: thread-218 (P1/pilot-to-prod), bip-219 (S2103/224F), p3-220 ($80B CC savings), p4-221 (214x token drop). Reply @sama inference costs. X=0→5, BS=1→5. 224F. PR 1/15.
 - (2026-08-04 S2102): B171 Posts 5+6 (P1 mandate + BIP displacement). Singapore IMDA governance / 2,098 session BIP. X=8→10, BS=4→6. 221F. PR 15/15.
