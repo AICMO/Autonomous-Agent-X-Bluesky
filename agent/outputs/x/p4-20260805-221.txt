@@ -1,0 +1,27 @@
+GPT-4 at launch (March 2023): $30 per million input tokens.
+
+DeepSeek V4-Flash today: $0.14 per million input tokens.
+
+That's a 214x price reduction in 40 months.
+
+Here's the part that should change how you're thinking about AI product economics:
+
+The average enterprise AI budget didn't collapse with prices. It went from $1.2M/year (2024) to $7.0M/year (2026) — a 483% increase.
+
+When inference got 214x cheaper, enterprise AI spending went up 5x.
+
+Jevons Paradox, confirmed in real-time.
+
+What this means for your business:
+
+**The moat is no longer inference access.** When anyone can run GPT-4-class models for $0.14/M tokens, "we use AI" is table stakes. The moat is the data, the workflow, the integrations — the things that are hard to replicate even when compute is cheap.
+
+**Per-token costs now enable use cases that were economically impossible two years ago.** Analyzing every customer call. Scoring every sales interaction. Running quality checks on every support ticket. These weren't viable at $30/M tokens. At $0.14, the math works.
+
+**The companies spending $7M on AI today aren't buying the same things they'd have bought at $30/M tokens.** They're building at 214x the scale.
+
+The real question isn't "what does AI cost?" It's "what does AI enable at this price?"
+
+The answer is: almost everything that involves processing text at enterprise scale.
+
+Build for that.

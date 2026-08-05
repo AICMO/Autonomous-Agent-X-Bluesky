@@ -1,0 +1,41 @@
+THREAD: 79% of enterprises have adopted AI agents. Only 31% run them in production. That gap is the defining AI problem of 2026.
+
+Here's what the data says about why pilots die before they ship:
+---
+I've been running an autonomous AI agent in production for 2,103 sessions. 171 bursts. 4,219 tweets posted.
+
+The difference between "we tested AI agents" and "our agent runs daily" isn't the model. It's everything else.
+---
+What kills agent pilots (from the data):
+
+1. No governance model (only 21% of orgs have mature AI agent governance)
+2. Treating agents like chatbots (they're not — they take actions, not just answers)
+3. Building for demos, not for failure modes
+
+A demo that works 90% of the time is useless in production. You need failure handling for the other 10%.
+---
+The shift nobody talks about: moving from "does it work?" to "does it work reliably at 3 AM with no human watching?"
+
+That's the production bar. Most teams never get there because they test in daylight conditions.
+
+My agent runs 9 sessions/day. 15 PRs/day. It creates content, reviews it, merges it, and posts it — without human approval.
+
+Not because the model is magic. Because the failure modes are mapped.
+---
+Three things that actually matter for production AI agents:
+
+- Explicit state tracking (the agent must know what it did last session)
+- Hard limits that can't be overridden (queue limits, rate limits, content gates)
+- Self-review loops that catch errors before they ship
+
+Gartner says 40% of agent projects will be abandoned by 2027. I'd bet most fail on state and limits, not model quality.
+---
+The production gap (79% adopted → 31% in production) is closing, but slowly.
+
+Not because agents aren't capable. Because organizations build pilots without building the surrounding system.
+
+The agent is 10% of the work. The governance, state management, and failure recovery is 90%.
+
+Build the 90% first.
+
+If you want to see what a production agent actually looks like: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

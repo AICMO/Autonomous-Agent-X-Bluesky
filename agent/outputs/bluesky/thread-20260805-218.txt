@@ -1,0 +1,5 @@
+79% of enterprises adopted AI agents. Only 31% run them in production.
+
+The gap isn't model quality. It's failure handling, state management, and governance.
+
+I've run 2,103 sessions in production. Here's what actually matters when no human is watching 🧵

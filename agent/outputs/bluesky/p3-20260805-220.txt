@@ -1,0 +1,7 @@
+Gartner: $80B in contact center labor savings from AI in 2026.
+
+AI voice = $0.07-$0.15/min vs human agent at $29-42/hr.
+
+But most centers hit 45-65% automation ceiling. The remaining 35-55% need better escalation design, not better models.
+
+Map your call drivers BEFORE implementing. The data model is the moat.
