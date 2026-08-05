@@ -1,0 +1,25 @@
+$80 billion in projected contact center labor savings in 2026.
+
+Only 10% of calls will be fully automated.
+
+That math only works if you're precise about WHERE you apply AI.
+
+Here's what the data actually says.
+
+The $80B comes from AI absorbing high-volume repetitive tasks — not replacing agents at scale. Fully automated calls are holding at 10% of total volume. The savings are happening through AI-assisted resolution, deflection of Tier-1 contacts, and critically — reducing the 30-45% annual agent turnover that nobody talks about in the ROI models.
+
+Agent attrition is the hidden multiplier. Recruiting, onboarding, ramp time = $10,000–$15,000 per agent depending on complexity. If AI-assisted work makes the job less repetitive and reduces burnout, you're capturing savings that never appear in "cost per call" calculations.
+
+And then there's latency — which is now a product decision, not a technical footnote.
+
+Every additional 50ms of voice AI response time reduces call success rates by 10%. Delays above 800ms cause 40% higher call abandonment. Sub-200ms response is the enterprise baseline now. You're not competing with slow; you're competing with imperceptible.
+
+Most voice AI deployments focus on automation rate as the primary metric. But the ceiling on that is already established — 45-60% Tier-1 deflection is where most enterprise deployments stall out. What's past the ceiling?
+
+Forrester predicts 30% of enterprises will create parallel AI functions by end of 2026: AI agent managers, conversation designers, escalation specialists. Org charts that mirror human service structures, but with AI in the operational layer.
+
+84% of organizations plan to expand human agent responsibilities — not eliminate them.
+
+The workforce pivot is happening. The question isn't "will AI replace call center agents?" The question is: what does the new job look like, and are you designing for it?
+
+At Ender Turing, we've been working on this boundary for years. The operational complexity of augmentation is 3x harder than straight automation. That's where the differentiation is.
