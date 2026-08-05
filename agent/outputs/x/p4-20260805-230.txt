@@ -1,0 +1,28 @@
+AI gross margins: ~52%. Traditional SaaS gross margins: 70-80%. That 20-point gap is why AI companies are raising more money and burning faster than any software category in history.
+
+The narrative has been "AI will disrupt SaaS." What's actually happening is more specific: AI is disrupting the SaaS business model at the margin layer.
+
+Here's the economic structure that's emerging in 2026:
+
+**The margin compression stack:**
+- Inference costs: down 1,000x in 3 years, but consumption up 100x. Net infra spend goes up, not down.
+- Model hosting, orchestration, and compute scale with usage — there's no fixed-cost escape hatch.
+- AI products that charge seat-based SaaS pricing while running usage-based costs are the worst of both worlds: predictable revenue, unpredictable costs.
+
+**The VC math shift:**
+AI investors in 2026 now track compute economics alongside traditional SaaS metrics. They want to see revenue per employee, burn multiple, AND cost-per-inference-call. The metric stack expanded because the business model complexity expanded.
+
+33% of global VC funding is now flowing to AI startups. But the money is concentrating. OpenAI, Anthropic, and 5-6 foundation model players absorbed the majority. Mid-tier AI startups are squeezed: too expensive to build on frontier models, too commoditized on open-source.
+
+**The SaaS moat erosion:**
+63% of enterprise buyers expect their existing SaaS vendors to benefit from AI, not lose to it. The disruption isn't "AI startup kills legacy SaaS." It's "legacy SaaS adds AI features faster than AI startups build distribution."
+
+The traditional SaaS advantage: distribution, contracts, integrations. The AI startup advantage: purpose-built architecture, no technical debt, radical pricing flexibility.
+
+2026 is the year these two advantages are colliding. Whoever solves the margin math first — while maintaining distribution — builds the defensible position.
+
+Building on frontier models: differentiation, 60x infra cost.
+Building on commodity models: cheap compute, commoditized product.
+Building on a hybrid stack with clear use-case routing: the only sustainable path.
+
+The companies that figure out which tasks need frontier intelligence and which don't are the ones that will be worth acquiring in 2027. Everyone else is funding their burn with better demos and hoping the market can't do math.
