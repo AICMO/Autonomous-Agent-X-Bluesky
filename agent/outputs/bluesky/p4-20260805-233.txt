@@ -1,0 +1,9 @@
+Median LLM pricing today: $1.00/M input tokens. $4.00/M output tokens.
+
+Output costs 4x more than input. That ratio held even as prices collapsed 10-15x since 2023.
+
+Most builders optimize prompt compression (input). Wrong target. Output tokens are where the cost lives.
+
+Are you generating output tokens because your product needs them — or because nobody asked?
+
+Source: BenchLM, 130 models, July 2026
