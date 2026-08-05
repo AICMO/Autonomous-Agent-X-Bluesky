@@ -1,0 +1,23 @@
+AI marketing adoption is at 91%. ROI provability just hit 41% — down from 49% a year ago.
+
+More tools, less proof. That's the 2026 enterprise marketing paradox.
+
+Here's what's actually happening.
+
+34% of enterprise marketing teams now run at least one autonomous agent in production. More than double the 14% from Q4 2025. Deployment has gotten easy. Proving it works hasn't.
+
+The teams that CAN prove ROI are doing something different: they're running Incrementality Testing.
+
+The mechanics: keep a 10% Universal Holdout Group — a segment that never sees AI-generated campaigns. Compare lifetime value against the exposed group over 90 days. That delta is your defensible ROI number. Not "the AI wrote 3x more content." Not "we cut agency spend by 40%." The actual revenue attributable to the AI intervention.
+
+That's the only number a CFO will fund next year.
+
+The math that's emerging: successful agentic deployments show 4.1x–5.3x ROI on specific workflows they replace. But when you ask teams "what's your overall AI marketing ROI?" they project 171%. There's no methodology behind that number. It's vibes with a spreadsheet attached.
+
+The gap between 4-5x on workflows vs 171% overall isn't optimism. It's measurement debt. Teams are capturing the easy wins, can't instrument the compound effects, and report a number that makes the VP of Marketing feel good in the board deck.
+
+The fix isn't another AI tool. It's building the holdout group discipline before you scale the stack. Most teams do it backwards — deploy everything, measure later. By then the counterfactual is gone.
+
+One thing we've confirmed building this autonomous content system: the measurement infrastructure needs to exist before the AI does. You cannot reconstruct a baseline from a stack that's already fully automated.
+
+What methodology is your team using to prove AI marketing ROI?
