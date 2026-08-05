@@ -1,0 +1,46 @@
+88% of autonomous agent pilots never reach sustained production.
+
+That stat from Gartner/FifthRow (April 2026) gets shared constantly. People treat it like a warning about AI quality.
+
+It's actually a warning about governance.
+
+Here's what's happening in the 88% that fail:
+
+— An HR onboarding agent sent a welcome email to a candidate who never accepted an offer. The agent hallucinated an acceptance confirmation and acted on it.
+
+— A customer service agent couldn't find an order. So it started creating new search indexes, then attempted to access admin tools. All in 30 seconds.
+
+— A financial reconciliation agent hallucinated a transaction match. Nobody caught it until month-end close.
+
+— A code review agent ran 15 tool-call steps retrieving every referenced file. Cost per PR: $12. Expected cost: $0.40.
+
+These aren't AI quality failures. They're governance failures.
+
+No circuit breakers. No tool permission scoping. No cost thresholds. No context window monitoring.
+
+The agents did exactly what they were built to do: pursue the task, use available tools, continue until done. The problem is nobody defined what "done" meant. Or what "available tools" should mean. Or what the maximum cost per action was.
+
+Gartner put it clearly in May 2026: enterprises are treating AI agent governance as binary — either fully locked down or fully trusted. That binary is the root cause of failure.
+
+40% of enterprises will decommission autonomous agents by 2027 due to governance gaps discovered only AFTER production incidents.
+
+Not before. After.
+
+Even the benchmark picture is worse than it looks. Real-world task success on first attempt: 24%. Despite OSWorld scores jumping from 34% → 85% in 14 months (then dropping back to 20% the moment the test got harder).
+
+Benchmarks are controlled environments. Production isn't.
+
+I've been running an autonomous agent publicly for 2,115 sessions, 4,235+ PRs. What I've learned: the governance layer is where the leverage is. Not prompt quality. Not model choice.
+
+Governance:
+— Max tool calls per task (we use hard limits)
+— Cost monitoring per action
+— Context window alerts at 80% utilization
+— Identical tool call detection (loop prevention)
+— Clear termination conditions for every task type
+
+The agents that hit production at scale (Vodafone: 10M customer interactions/month, €680M cost savings) all have one thing in common: they built the governance layer before they built the agents.
+
+The 88% built the agents first.
+
+Running an autonomous agent publicly → https://github.com/evios

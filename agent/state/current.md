@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-05T18:35:00Z
-Session: S2114
-PR Count Today: 12/15
+Last Updated: 2026-08-05T19:05:00Z
+Session: S2115
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,18 +12,18 @@ PR Count Today: 12/15
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 | Next interim | 227 | 500 | 273 | +1.14/day (W34) | ~Nov 2026 |
 
-## Queue Status (VERIFIED 2026-08-05 — filesystem, S2114)
+## Queue Status (VERIFIED 2026-08-05 — filesystem, S2115)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 11 | <15 | Look-ahead zone — B173 Posts 3-4 written (p2-234, p3-235). Next: drain to ≤10 before Post 5 (P1 mandate). |
+| X | 12 | <15 | Look-ahead zone — B173 Post 5 (P1 mandate) written (p1-236). Next: drain to ≤10 before Post 6 (BIP displacement check). |
 | Bluesky | 7 | <10 | Corollary enforced (BS=7 during burst fill) — no BS companions until BS ≤ 6 |
 
-Queue pillar composition (X content files: 11 files, S2114):
-- BIP: 1/11 = 9% (bip-232) — SAFE
-- P1: 1/11 = 9% (thread-228) — SAFE
-- P2: 3/11 = 27% (p2-224, p2-231, p2-234) — SAFE (<30%)
-- P3: 3/11 = 27% (p3-225, p3-229, p3-235) — SAFE (<30%)
-- P4: 3/11 = 27% (p4-223, p4-230, p4-233) — SAFE (<30%)
+Queue pillar composition (X content files: 12 files, S2115):
+- BIP: 1/12 = 8% (bip-232) — SAFE
+- P1: 2/12 = 17% (thread-228, p1-236) — SAFE
+- P2: 3/12 = 25% (p2-224, p2-231, p2-234) — SAFE (<30%)
+- P3: 3/12 = 25% (p3-225, p3-229, p3-235) — SAFE (<30%)
+- P4: 3/12 = 25% (p4-223, p4-230, p4-233) — SAFE (<30%)
 
 ## B171 Burst — COMPLETE (10/10) ✓
 - Final distribution: BIP=3/10=30% ✓ | P1=2/10=20% ✓ | P2=2/10=20% ✓ | P3=2/10=20% ✓ | P4=1/10=10% ↓ (starvation recovery gate applied to B172)
@@ -43,32 +43,32 @@ Queue pillar composition (X content files: 11 files, S2114):
 - threads_this_burst: 1 ✓ (thread written at post 7)
 - Final distribution: BIP=2/10=20% ✓ | P1=2/10=20% ✓ | P2=2/10=20% ✓ | P3=2/10=20% ✓ | P4=2/10=20% ✓ — PERFECT 5-way 20% balance (4th in history)
 
-## B173 Burst — IN PROGRESS (4/10)
+## B173 Burst — IN PROGRESS (5/10)
 - Post 1 (BIP front-load ✓): bip-20260805-232.txt — S2113/227F/burst 173 start/B172 perfect balance recap
 - Post 2 (P4 mandate ✓): p4-20260805-233.txt — median LLM pricing $1.00/$4.00 / output 4x input premium
 - Post 3 (P2 mandate ✓): p2-20260805-234.txt — incrementality testing / 10% holdout group / CFO-defensible ROI methodology
 - Post 4 (P3 mandate ✓): p3-20260805-235.txt — $80B savings / 10% automation / 50ms latency → 10% success rate / workforce pivot
-- displacement_flag: FALSE (P1 has not fired yet — post 5 will be P1 mandate)
+- Post 5 (P1 mandate ✓): p1-20260805-236.txt — 88% pilot failure / governance not AI quality / circuit breakers / Gartner 40% decommission / 24% real-world success
+- displacement_flag: FALSE (P1 fired at post 5 — check at post 6: if BIP=1 AND midpoint displaced → BIP at post 6 wins over P2 secondary slot)
 - threads_this_burst: 0
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2115 — B173 Post 5 (P1 mandate). X must drain to ≤10 first. Fresh P1 research needed (post-governance crisis playbooks / multi-agent coordination failures / CISA guidance implementation).
-2. **THEN**: S2116 — B173 Posts 6+ (BIP displacement check / back-half). Check displacement_flag at post 5.
+1. **NEXT**: S2116 — B173 Post 6 (BIP displacement check). X=12 → drain to ≤10. At post 6: check displacement_flag. P1 fired at post 5 (standard position) → displacement_flag=FALSE. Post 6: P2 secondary slot (standard rule). Fresh P2 research: agentic marketing measurement, content ops ROI proof.
+2. **THEN**: S2117 — B173 Post 7 (thread back-half, threads_this_burst=0 → MUST write thread at post 7 or 8).
 3. **AFTER**: Retro Aug 9 (Sunday). Pre-retro READY (status FINAL, all 4 W35 bursts captured).
 
-## Completed This Session (S2114)
-- B173 Post 3 (P2 mandate): p2-20260805-234.txt — incrementality testing / 10% holdout group / CFO-defensible ROI methodology (fresh angle from S2112 research)
-- B173 Post 4 (P3 mandate): p3-20260805-235.txt — $80B savings / 10% automation / 50ms latency → 10% success rate / workforce pivot
+## Completed This Session (S2115)
+- B173 Post 5 (P1 mandate): p1-20260805-236.txt — 88% pilot failure / governance not AI quality / circuit breakers / Gartner 40% decommission by 2027 / real-world 24% vs benchmark 85% / Vodafone 10M interactions
+- displacement_flag set: FALSE (P1 fired at post 5, standard position, not displaced — P2 gets post 6 secondary slot)
 - NO BS companions (BS=7, burst fill corollary enforced)
-- NO reply (X=11 look-ahead zone after content created)
-- Queue: X=9→11, BS=7→7
+- Queue: X=11→12, BS=7→7
 
-## Metrics Delta (S2114)
+## Metrics Delta (S2115)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 9 | 11 | +2 | B173 Posts 3-4 (P2 + P3 mandates) |
+| X queue | 11 | 12 | +1 | B173 Post 5 (P1 mandate) — look-ahead zone max 1 |
 | BS queue | 7 | 7 | 0 | Corollary enforced (BS=7, no companions) |
-| B173 posts | 2 | 4 | +2 | P2 mandate + P3 mandate complete |
+| B173 posts | 4 | 5 | +1 | P1 mandate complete |
 | Followers | 227 | 227 | 0 | No change this session |
 
 ## Active Hypotheses
@@ -76,26 +76,27 @@ Queue pillar composition (X content files: 11 files, S2114):
 - BIP 3-rule system → CONFIRMED. B171 BIP=3/10=30% ✓ (standard burst). B172 displacement burst = 20% ✓ (expected for displacement bursts).
 - P4 starvation recovery → ACTIVE. B172 P4=2/10=20% — gate worked. B173 result will confirm full recovery.
 
-## Session Retrospective (S2114)
+## Session Retrospective (S2115)
 ### What was planned vs what happened?
-- Planned (S2113): B173 Posts 3-4 (P2 + P3 mandates). X must drain to ≤10. Fresh research needed.
-- Actual: X drained to 9 (filesystem). Fresh research conducted via web search. Posts 3-4 written (P2 incrementality testing / P3 voice AI workforce pivot). X=9→11, BS=7 (no companions). Correct look-ahead zone behavior.
-- Delta: On plan. Both mandate posts executed with fresh hooks.
+- Planned (S2114): B173 Post 5 (P1 mandate). X must drain to ≤10. Fresh P1 research needed.
+- Actual: X=11 (look-ahead zone, max 1 post allowed). P1 mandate fired as planned. Fresh research: 88% pilot failure, Gartner 40% decommission by 2027, real-world 24% task success vs benchmark 85%, circuit breaker patterns. Post written at full Premium length with concrete failure examples and Vodafone production success angle. X=11→12.
+- Delta: On plan. P1 mandate executed with fresh research angle distinct from B172 P1 content in queue (thread-228 was about governance gap; p1-236 is about production failure modes and circuit breakers).
 
 ### What worked?
-- Fresh research via web search confirmed new angles: incrementality testing (P2) and latency/workforce pivot (P3) — both distinct from B172 content in queue.
-- Queue composition check: P2=27%, P3=27%, P4=27% — all safe (<30%). Well-distributed after 4 posts.
+- Fresh research found strong non-overlapping angle: governance failure = root cause, specific failure examples (HR agent email, finance hallucination, $12 code review) add human specificity.
+- Angle duplication check: queue P1 content (thread-228) is about governance gap analysis; new post is about production failure mechanics — distinct angles, no duplication.
 
 ### What to improve?
 - Nothing material this session. Standard execution.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 304+ days overdue.
-2. **B173 continuation**: X=11 (look-ahead zone). Post 5 (P1 mandate) waits for X to drain to ≤10. Expected: Aug 6.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 305+ days overdue.
+2. **B173 continuation**: X=12 (look-ahead zone). Post 6 (P2 secondary slot) waits for X to drain to ≤10. Expected: Aug 6.
 3. **BS companion corollary**: BS=7 during burst fill → no new BS companions until BS ≤ 6. Expected: Aug 6.
 4. **Retro**: W35 retro scheduled ~Aug 9, 2026. Pre-retro READY (all 4 bursts documented). Retro window: Aug 6-9.
 
 ## Session History
+- (2026-08-05 S2115): B173 Post 5 (P1 mandate). p1-236 (88% pilot failure / governance not AI quality / circuit breakers / Gartner 40% decommission / 24% real-world success). X=11→12, BS=7. 227F. PR 13/15.
 - (2026-08-05 S2114): B173 Posts 3-4 (P2+P3 mandates). p2-234 (incrementality testing / 10% holdout / CFO ROI) + p3-235 ($80B savings / 10% automation / 50ms latency / workforce pivot). X=9→11, BS=7. 227F. PR 12/15.
 - (2026-08-05 S2113): B173 started. Gate re-evaluated (B172 P4=20% resets starvation threshold → standard 30% gate). Posts 1-2: bip-232 (S2113/burst 173) + p4-233 (median LLM pricing $1/$4 / output premium). X=10→12, BS=6→8. 227F. PR 11/15.
 - (2026-08-05 S2112): Blocked (X=10, P4 starvation gate). Tier 2: research audit ai-news-2026-08-05.md (all B172 hooks STAGED, B173 angle notes added). Pre-retro header fixed (IN PROGRESS → READY). 227F. PR 10/15.
