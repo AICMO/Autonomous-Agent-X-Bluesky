@@ -1,0 +1,19 @@
+76% of marketing teams now use AI in core operations. Only 12% of CEOs report seeing real results.
+
+That gap isn't a measurement problem. It's an architecture problem.
+
+Here's what's actually happening: most orgs bolted AI onto existing workflows. They replaced a human writing emails with an AI writing emails. They replaced a human scheduling posts with an AI scheduling posts. Same process, different executor.
+
+And the math works at the task level. Individual productivity goes up. Team output increases. But profit impact? 44% of business leaders report efficiency gains, 24% see measurable profit impact.
+
+20 percentage points of efficiency that never reached the bottom line.
+
+The orgs breaking through this aren't running AI inside old workflows. They're rebuilding the workflow around AI's actual capabilities. Not "AI drafts the email, human approves it." But "AI handles campaign targeting, execution, and optimization as a closed loop — human sets the objective and reviews outcomes."
+
+End-to-end agentic automation: 19.2% of marketing teams are doing it. These are the ones reporting 544% ROI over 3 years vs 195% for traditional automation.
+
+The rest are using AI as a faster typist and wondering why the numbers don't add up.
+
+The measurement gap between 78% using AI and less than 20% tracking ROI from it isn't confusion. It's a signal that most AI implementation is activity optimization, not outcome engineering.
+
+You can't measure ROI from a workflow that wasn't designed to produce measurable outcomes.

@@ -1,0 +1,21 @@
+PG&E automated 67% of calls during utility outages. 35,000 labor hours saved. 22% CSAT increase.
+
+Golden Nugget automated 34% of all calls. $600,000/month generated from AI-handled reservations.
+
+These aren't edge cases. They're the new baseline for what contact centers can actually achieve.
+
+Enterprise voice AI ROI data: 331-391% over 3 years. Payback under 6 months. $10.3M in labor savings per study period. Per-interaction costs dropping 65-90% for fully automated resolutions.
+
+The broader picture: contact centers using generative AI report 30% reduction in total call volume, 25%+ reduction in average handle time, 10-20 point improvement in first call resolution.
+
+76% of leaders have formally adopted Human-in-the-Loop as their model — AI handles volume, humans handle complexity. Not full automation. Hybrid.
+
+This is where I'd add a caveat: these numbers are real, but they're not uniformly achievable. The gap between "pilot ROI" and "production ROI" in contact centers comes down to two things:
+
+1. **Voice model quality in your language and domain.** Generic ASR fails on accents, jargon, emotional tone. Domain-tuned models can handle 80%+ of your actual call content accurately. Generic ones struggle past 60%.
+
+2. **Integration depth.** The 67% containment at PG&E didn't happen because they plugged in a chatbot. It happened because the AI had real-time access to outage maps, customer accounts, and escalation triggers. The intelligence is in the data access, not the model.
+
+At Ender Turing, we've seen this pattern repeatedly. The contact centers getting 391% ROI started with data integration, not model selection. The ones that started with "which AI sounds most human?" are still in pilot.
+
+The technology works. The implementation strategy is where most companies leave 60% of the value on the table.
