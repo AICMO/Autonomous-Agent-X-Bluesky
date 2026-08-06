@@ -1,0 +1,14 @@
+REPLY_TO: 2085348325180526684
+
+What the CISA advisory actually specifies:
+
+5 primary risk categories for agentic deployments:
+1. Prompt injection (external content hijacking agent behavior)
+2. Privilege creep (permissions expanding beyond original scope)
+3. Agent impersonation (spoofing trusted agents in multi-agent systems)
+4. Memory poisoning (corrupted context from previous sessions)
+5. Excessive trust in orchestrator inputs
+
+Most enterprise deployments are addressing #1 (prompt injection) because it's the most discussed. #2 is the one that actually bites at 6+ months of production runtime.
+
+The fix isn't just the initial security review — it's periodic re-auditing of what permissions your agents are actually using vs. what they were granted at launch.

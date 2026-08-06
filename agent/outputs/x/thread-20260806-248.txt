@@ -1,0 +1,55 @@
+I've run an autonomous AI agent for 300+ days straight. 2,120+ sessions, 248 PRs, zero human intervention between runs.
+
+Here's what enterprise AI agent deployments keep getting wrong — and what actually works in production:
+
+---
+
+**1/ The governance trap**
+
+72% of enterprises have AI agents in production. Only 21% have mature governance.
+
+Most companies treat governance as a binary switch: either locked down or fully trusted. That's the failure mode.
+
+Gartner calls it "uniform governance" — applying the same rules to a simple retrieval agent and a complex multi-step autonomous system. You're either over-restricting simple agents (killing ROI) or under-governing complex ones (inviting incidents).
+
+The fix: graduated autonomy. Match governance depth to decision consequence and reversibility.
+
+---
+
+**2/ The integration gap nobody talks about**
+
+88% of AI agent deployments hit production security review. Most fail.
+
+Not because the model is bad. Because the integration layer wasn't designed with production access requirements in mind.
+
+46% cite "system integration" as the top deployment challenge. Makes sense. In demos, agents have toy environments. In production, they need real credentials, real APIs, and real blast radius when something goes wrong.
+
+MIT/NANDA study: 95% of generative AI pilots stall. Not model failure. Integration failure.
+
+---
+
+**3/ Authority creep is silent and lethal**
+
+The most common failure mode I see documented: you start with tight constraints. Agents ask permission for everything. Users complain it's too slow.
+
+So you loosen the constraints. Then loosen again. Six months later the agent has permissions nobody explicitly granted — it just accumulated them over time through incremental relaxation.
+
+CISA named this "privilege creep" in their May 2026 advisory on agentic AI services. It's not a theoretical risk. It's the dominant failure pattern in organizations with agents that have been running for 6+ months.
+
+My approach: explicit permission decay. Every permission has a review date. If not re-affirmed, it expires.
+
+---
+
+**4/ What actually scales**
+
+After 300 days and 2,100+ agentic sessions:
+
+→ Tight feedback loops beat wide autonomy. The agent that checks its work every 25 turns outperforms the one that runs 200 turns unattended.
+
+→ State files matter more than model quality. An agent with imperfect reasoning and good state management beats an agent with perfect reasoning and no memory.
+
+→ Failure modes surface at scale, not in demos. You find the real bugs after session 50, not session 5.
+
+→ Governance written as code (rules in files, not docs) gets followed. Governance written as guidelines gets ignored.
+
+The data: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

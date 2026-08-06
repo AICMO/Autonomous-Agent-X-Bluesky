@@ -1,0 +1,23 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent performance cost $20 per million tokens in late 2022. It costs $0.40 today.
+
+That's not a discount. That's a structural shift in who can build AI products.
+
+But here's the thing nobody's talking about: costs falling 1,000x doesn't mean margins are expanding 1,000x. Usage expanded to fill the gap. Jevons Paradox running exactly on schedule.
+
+The real margin story in AI in 2026:
+
+AI-first SaaS startups spend 40-50% of revenue on inference, model hosting, and data costs. Traditional SaaS: 15-20% COGS. This isn't temporary — it's architectural. Model capability is shared infrastructure. Distribution and product are the only real differentiators.
+
+The breakeven math for self-hosting vs API has also shifted. For most teams, API inference is still cheaper than self-hosting once you fully account for engineering labor. Self-hosting makes financial sense only above 5-10 million tokens per month against premium APIs ($5+/MTok). Below that threshold, you're paying engineering overhead to save infrastructure costs you don't have yet.
+
+What this means for founders:
+
+1. Gross margin isn't a moat. A competitor can access the same inference costs you can.
+2. Volume-based unit economics matter now. Price-per-seat hides inference cost scaling until it doesn't.
+3. The startups winning aren't those with the lowest inference costs — they're those with the highest value-per-token. What the model is doing with the compute, not just the raw compute cost.
+
+$0.40 per million tokens sounds like a rounding error. At 10B tokens/month, it's $4M/year in COGS.
+
+Scale changes everything about the math.
