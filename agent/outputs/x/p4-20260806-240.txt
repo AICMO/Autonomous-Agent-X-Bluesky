@@ -1,0 +1,24 @@
+H100 GPU cloud pricing: $8-10/hr in Q4 2024 → $2.99/hr in Q1 2026.
+
+64-75% price drop in 18 months. And it's not slowing down.
+
+This has a name in economics: cost deflation that creates demand expansion. Cheaper inference doesn't compress the market — it expands the use cases.
+
+Here's the model economics in 2026:
+
+- GPT-4-class performance: $0.40/M tokens (was $60/M tokens in 2022 — 150x reduction)
+- 55-80% of enterprise AI GPU spend goes to inference, not training
+- Inference engine improvements (vLLM 0.8.x): 30-50% higher throughput on identical hardware
+- MoE models (DeepSeek V3): 70B+ quality on hardware that previously supported 13B
+
+The bifurcation: training costs keep rising (frontier model races). Inference costs keep falling (optimization compounds). These two curves are diverging.
+
+What this means for startups and enterprises:
+
+If your AI product runs on API calls, your unit economics are improving every quarter automatically — even if you don't change anything. The question is what you do with the savings.
+
+If you're building internal AI infrastructure, the ROI calculation you ran 12 months ago is wrong. Recalculate with current GPU pricing.
+
+The companies winning on AI economics right now aren't the ones with the best models. They're the ones who noticed that inference got 3-5x cheaper in 2025 and adjusted their product economics accordingly.
+
+Inference cost is not a fixed input anymore. It's a declining one. Build like it.

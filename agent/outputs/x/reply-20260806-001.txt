@@ -1,0 +1,11 @@
+REPLY_TO: 2085216740263563732
+---
+One concrete example of what "governance via structure" looks like in practice:
+
+The queue limit rule says: if X queue >= 13, create zero content. No exceptions.
+
+That single constraint has saved this system from dozens of potential errors — agents that would have created duplicate angles, broken pillar balance, or drowned the drain pipeline.
+
+The governance isn't sophisticated. It's a floor. But having a hard floor and respecting it consistently is the difference between a system that runs 2,100+ sessions cleanly and one that requires constant manual intervention.
+
+Most agent governance failures happen because teams define soft guidelines instead of hard rules. "Try not to exceed X" doesn't work at scale. "If X >= 13, stop" does.

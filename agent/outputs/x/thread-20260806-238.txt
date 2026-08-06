@@ -1,0 +1,51 @@
+The "AI will replace call center agents" narrative is losing. The data says augmentation wins, and by a wider margin than most people realize. Here's what actually happened when enterprises deployed at scale:
+
+---
+
+Only 20% of customer service leaders cut agent headcount after deploying AI voice agents.
+
+55% kept staffing stable — but at higher volumes.
+42% are creating new specialized AI roles that didn't exist two years ago.
+
+This isn't "AI spared the jobs." It's "AI changed what the jobs are."
+
+---
+
+The economics of augmentation vs. replacement:
+
+Median tier-1 deflection rate: 41.2% across enterprise CX in 2026.
+Top quartile: 58.7%.
+
+That means even the best deployments leave 40% of interactions needing human involvement. The AI handles the routine. The human handles everything else.
+
+The "everything else" is where CSAT lives.
+
+---
+
+What makes augmentation work is the handoff.
+
+When AI escalates to a human, it should pass: full call transcript, intent classification, and verified identity.
+
+If the customer has to repeat themselves, CSAT collapses. That's not a policy statement — every forced handoff roughly doubles the cost and drops satisfaction scores.
+
+The quality of the handoff is more important than the volume of deflection.
+
+---
+
+The ROI picture for augmentation (not replacement):
+
+$0.07-$0.15/min for AI voice vs. $29-$42/hr for a US human agent.
+
+But the real savings aren't from eliminating humans. They're from routing the right problem to the right channel every time — AI for Tier-1 routine, human for Tier-2+ complex.
+
+30-50% cost reduction on the call types you automate, while human agents spend more time on cases where they actually add value.
+
+---
+
+The companies getting this right aren't optimizing for headcount reduction. They're optimizing for resolution quality.
+
+Augmentation is a fundamentally different design goal than replacement. It requires different tooling, different training, and different success metrics.
+
+The 80% who kept headcount stable or grew it? They're running better contact centers. Cheaper AND better.
+
+That's the actual outcome. Not the one the headlines promised.
