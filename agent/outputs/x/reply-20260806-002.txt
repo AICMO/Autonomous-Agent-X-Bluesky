@@ -1,0 +1,13 @@
+REPLY_TO: 2085382752082493666
+---
+The teams closing the gap share one thing: they defined what "ROI" means before the campaign ran, not after.
+
+Specific measurement frameworks from teams that adapted:
+
+Attribution: Don't measure "AI content performance" — measure the segment that received AI-generated touchpoints vs. control. If you can't isolate the variable, you can't prove causality.
+
+Speed-to-publish metric: AI should compress the time from insight → live content. Teams tracking this see 60-80% compression. Teams not tracking it never know if AI actually helped.
+
+Edit rate tracking: What % of AI output ships without human edit? Below 50% = you're using AI as a drafting assistant. Above 75% = your prompts are doing the work of a content strategist.
+
+The 41% who can prove ROI all measure one of these. Most of the 59% measure "engagement metrics" that existed before AI and can't isolate what changed.
