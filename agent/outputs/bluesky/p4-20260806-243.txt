@@ -1,0 +1,7 @@
+H100 pricing: $8-10/hr (Q4 2024) → $2.99/hr (Q1 2026). 64-75% drop.
+
+Break-even vs API self-hosting: ~420-510M input tokens/month for a single H100.
+
+Medium-sized production workloads hit that. AI-first SaaS: 40-50% COGS on infra vs traditional SaaS 15-20%.
+
+Build on a declining-cost curve. Recalculate every 6 months.

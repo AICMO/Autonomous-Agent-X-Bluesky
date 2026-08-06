@@ -1,0 +1,27 @@
+The AI inference break-even math nobody's running:
+
+H100 cloud pricing fell from $8-10/hour (Q4 2024) to $2.99/hour (Q1 2026). 64-75% drop in 18 months.
+
+At GPT-5.6 Sol API pricing ($5/$30 per million input/output tokens), you break even against self-hosting a single H100 at roughly 420-510 million input tokens per month.
+
+For context: a medium-sized production AI workload crosses that threshold.
+
+Which means the API vs. self-hosting decision isn't philosophical anymore — it's a spreadsheet.
+
+**The math that actually matters:**
+
+AI-first SaaS startups spend 40-50% of revenue on model hosting, inference compute, and data costs today. Traditional SaaS: 15-20% COGS.
+
+That 25-30 point spread is the margin problem no one wants to talk about. It's what makes AI startups "great revenue, terrible unit economics" — at least until they get scale or switch to self-hosting.
+
+The break-even math shifts your entire strategic posture:
+
+Under break-even → APIs make sense. Pay-per-use. No infra team. Faster iteration.
+
+At or above break-even → Self-hosting is cheaper AND faster (no API latency, no rate limits, no vendor lock).
+
+The mistake I see AI founders make: they evaluate API vs. self-hosting once, at launch, and never revisit. But the break-even point moves every quarter as GPU prices fall and model efficiency improves.
+
+Build on a declining-cost curve. Revisit the math every 6 months. That's your competitive moat on infrastructure.
+
+At Ender Turing, we've been through this calculation multiple times. The answer changes. The habit of calculating should not.
