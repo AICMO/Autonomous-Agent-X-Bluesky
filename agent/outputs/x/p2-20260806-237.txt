@@ -1,0 +1,17 @@
+34% of enterprise marketing teams now run autonomous AI agents in production. Double the figure from Q4 2025.
+
+But here's the gap that kills the ROI story: less than 20% of those teams can actually track ROI from their AI investments.
+
+That's not a tech problem. That's a measurement infrastructure problem.
+
+The teams getting 4-5x returns share one pattern: they adapted their measurement approach before deploying the tools — not after. They built holdout groups, attribution models, and baseline benchmarks FIRST. Then they ran the AI.
+
+Everyone else is doing it backwards. Deploy the AI. Hope the numbers look better. Scramble to explain why they do.
+
+The 544% three-year ROI from agentic marketing isn't magic. It's the compound effect of: faster campaign launches (75% faster), lower cost per output (up to 80% reduction on automated workflows), and better targeting. But you can only see that compounding if you're measuring from day one.
+
+ROI from AI doesn't appear. It gets surfaced.
+
+If your marketing team adopted AI without changing how you measure marketing performance, you're flying blind. The technology is doing more. You just can't see it yet.
+
+The solution is boring and unsexy: define your measurement model before you expand the AI footprint. Not complicated. Just uncommon.
