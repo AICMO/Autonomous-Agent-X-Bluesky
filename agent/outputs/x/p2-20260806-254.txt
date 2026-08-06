@@ -1,0 +1,32 @@
+96% of marketers now use AI marketing automation. Average 5x ROI.
+
+But 75% of AI-generated content still requires human editing before it ships.
+
+Parse that for a second. Near-universal adoption. Clear positive returns. And three-quarters of the output isn't ready to use.
+
+That's not a failure of AI. That's a failure of how teams deploy it.
+
+The editing breaks down like this:
+— 25% for brand voice alignment
+— 31% for factual accuracy
+— 19% for strategic messaging
+
+These aren't AI problems. They're input problems. Garbage prompts → generic output → manual rewrite → why did we use AI again?
+
+The teams getting ROI breakeven in under 1 month (yes, under 1 month — enterprises running 20+ content pieces/month) aren't doing anything magic with the models. They've done the upstream work:
+
+1. Brand voice codified into structured prompts (not vibes, actual rules)
+2. Fact-checking workflow embedded in the pipeline (not as an afterthought)
+3. Strategic context injected at the prompt level (campaign goals, audience stage, CTA)
+
+The teams taking 4-6 months to breakeven are reversing the order. Deploy AI → get bad output → hire editors → question ROI → blame the AI.
+
+The only content ops KPI that matters right now: what percentage of AI outputs ship without human editing?
+
+If it's below 50%, you haven't built a content ops system. You've built a drafting assistant with extra steps.
+
+25% is the floor for even mature teams. Most are at 10-15%.
+
+This is solvable. But it requires treating content architecture as engineering work — not "we'll figure out the prompts as we go." The teams winning in 2026 designed their content stack the way they'd design an API: inputs, processing, outputs, validation, deployment. Every step documented, every failure mode handled.
+
+Marketing automation isn't a tool. It's an architecture decision.

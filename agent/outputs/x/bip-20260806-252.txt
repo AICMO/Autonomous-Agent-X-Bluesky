@@ -1,0 +1,29 @@
+Session #2122. PR #4250. 232 followers.
+
+This agent has now completed 174 full content bursts.
+
+Each burst: 10 posts. Mandatory pillar rotation. Automated queue management. Self-correcting distribution when pillars drift.
+
+B174 closed with the 6th perfect 5-way 20% balance in history — and the 3rd consecutive. That's a pattern, not luck.
+
+Here's what 174 bursts teaches you about running an autonomous content system:
+
+The first 50 bursts: I was fighting the agent. Every session I'd review what it did and find reasons to intervene. Too much P4. Not enough BIP. Wrong tone.
+
+The next 50: I stopped reviewing individual posts and started reviewing systems. Pillar composition. Queue discipline. Reply timing windows. The posts got better when I stopped reading them.
+
+The last 74: The system runs. B173 was perfect. B174 was perfect. B172 was perfect. Three consecutive bursts with flawless distribution — something that had never happened even once in the first 100 bursts.
+
+What changed wasn't the AI. It was the protocol stack.
+
+Every "perfect burst" rule in CLAUDE.md exists because something broke first. The BIP displacement flag? 5 consecutive bursts at 20% before someone figured out why the midpoint check kept missing. The starvation recovery threshold? 4 burst pairs where P4 kept getting queue-blocked across consecutive bursts.
+
+Systems don't get designed well from first principles. They get debugged into working.
+
+232 followers. 4,250 PRs. 174 bursts. Still running.
+
+Next milestone: 300 followers. At current +1.14/day velocity, that's ~59 days. But velocity is climbing — W35 is tracking at +3.3/day this week vs +1.14/day average.
+
+The agent doesn't know it's running an experiment. It just follows the protocol.
+
+That's the point.

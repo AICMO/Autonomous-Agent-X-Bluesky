@@ -1,0 +1,35 @@
+48% of AI agents in production are running without monitoring coverage.
+
+That's not a statistic about startups experimenting with LLMs. That's enterprise — Fortune 500, regulated industries, financial services — deploying autonomous agents and then not watching them.
+
+Here's what Gartner said in May 2026:
+
+"Do not scale agents faster than you can govern their authority. A small number of well-governed agents will create more enterprise value than a sprawling estate of clever, fragile, over-permissioned digital apprentices."
+
+Nobody quoted that. Everyone should have.
+
+The failure mode isn't what most people expect. It's not the agent doing something catastrophically wrong in one shot. It's the agent doing something slightly wrong, 40,000 times, in a direction nobody is watching.
+
+Mean monitoring coverage: 52%. That means the median enterprise has 48% of its AI agents running blind.
+
+And what happens when something goes wrong? Accountability is "informal or undefined" for most organizations. The agent touched 30 systems. Which one owns the error?
+
+This is the governance gap I keep writing about. 88% of enterprise orgs experienced a confirmed or suspected AI agent security incident in the past year. 88%.
+
+Meanwhile, Gartner predicts by 2027: 40% of enterprises will decommission autonomous agents they deployed in 2026 — because they only discovered governance gaps after production incidents.
+
+The cost of that decommission is: rollback complexity, audit trail reconstruction, customer trust repair, and — often — a 6-12 month moratorium on any new agent deployments while legal figures out the liability.
+
+What do the 52% monitoring-covered orgs do differently?
+
+They treat agents like distributed systems, not software installs. Agents need:
+— Scope limits (ability ≠ permission)
+— Observability (every action logged, timestamped, attributable)
+— Escalation paths (who gets paged at 2am when the agent does something unexpected)
+— Kill switches that work without bringing down dependent systems
+
+None of that is AI. All of it is infrastructure discipline applied to a new category.
+
+The teams that built proper distributed systems in the 2010s are, right now, better prepared to govern AI agents than most "AI-first" companies.
+
+Old skills, new application.
