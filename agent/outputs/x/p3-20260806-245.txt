@@ -1,0 +1,28 @@
+98% of contact centers say they've adopted AI.
+
+12% have a fully optimized strategy.
+
+That 86-point gap is the entire call center AI market right now.
+
+Here's what's actually in the 98%: chatbots from 2021, one voice IVR pilot that never scaled, a vendor pitch deck someone approved as "AI adoption," and maybe a transcription tool on the QA team's dashboard.
+
+Here's what's in the 12%: end-to-end workflow redesign, AI handling 19% of inbound volume (up from 6% in 2024), outcomes measured against SLA and CSAT — not just deflection rate.
+
+The numbers from 2026 deployments that actually work:
+
+Voice AI: 19% of inbound call volume now handled by AI. That's a 3x jump in two years. Banking and telco led. Most industries are still "exploring."
+
+Cost differential: AI voice = $0.07-$0.15/minute. Human agent = $29-$42/hour. At scale, that math is not close.
+
+ROI when measured correctly: Forrester's TEI study found $10.3M in labor cost savings per composite organization over 3 years. 331-391% ROI.
+
+But the ROI is conditional. It shows up only when:
+- Tier-1 deflection hits 45-60% (the current enterprise ceiling for routine inquiries)
+- Agents are augmented, not just replaced outright
+- Workflow redesign happens before deployment, not after
+
+The companies stuck at 98% adoption / 12% optimized are running AI on top of broken processes. The 12% redesigned the process first, then deployed the AI.
+
+That's the gap. It's not a technology gap. It's a strategy gap.
+
+In call centers, "AI adopted" and "AI working" are very different things.

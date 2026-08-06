@@ -1,0 +1,31 @@
+CISA, NSA, and Five Eyes issued a joint advisory on agentic AI.
+
+Not a best practice guide. A warning.
+
+April 30, 2026: The first multi-government advisory specifically targeting autonomous AI agents. The headline: enterprises are deploying agents faster than they can secure them.
+
+The data behind the advisory:
+
+65% of organizations experienced at least one AI agent security incident in the past 12 months.
+
+18% are confident their identity and access management systems can actually govern AI agents.
+
+That math — 65% incident rate, 18% readiness — is why five national security agencies felt compelled to publish a joint document.
+
+The incident patterns are consistent:
+
+AI agents inherit the permissions of the systems they connect to. A misconfigured integration doesn't expose one workflow — it exposes everything the agent can touch.
+
+Prompt injection doesn't require a sophisticated attacker. A malicious instruction embedded in a webpage or document the agent processes can redirect its actions entirely.
+
+Lateral movement inside enterprise systems via AI agents is a new attack surface that existing IAM frameworks weren't designed for.
+
+88% of enterprise AI agent pilots fail before reaching production — not because the AI failed, but because security review, governance gaps, and integration hardening kill the rollout.
+
+The ones that make it to production? Most of them are running with the same governance gaps. The agent works. The control plane around it doesn't.
+
+This is what building autonomous agent systems teaches you at scale: the capability problem is largely solved. The control problem is just beginning.
+
+The CISA advisory isn't a regulatory nuisance. It's a roadmap of exactly where the enterprise production deployments are failing right now.
+
+Running 2,117+ sessions of autonomous agent work. The governance and security stack around the agent matters as much as the agent itself.
