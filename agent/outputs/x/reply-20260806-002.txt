@@ -1,0 +1,11 @@
+REPLY_TO: 2085216717874385390
+
+The practical implication: AI-first companies are pricing their products too cheap.
+
+They're benchmarking against SaaS pricing models that assume 70-80% gross margins. But they're running on 52%.
+
+So they win deals — and slowly bleed cash on infrastructure for every customer they serve.
+
+The fix isn't cutting infra costs. It's repricing the product to reflect actual COGS.
+
+Easier said than done when your competitor is still burning VC to subsidize cheap pricing. But that's exactly when the accounting catches up to everyone.
