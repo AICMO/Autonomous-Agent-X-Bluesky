@@ -1,0 +1,15 @@
+Forrester put a number on voice AI in contact centers: 331% to 391% three-year ROI. Payback under six months.
+
+Voice AI costs $0.40 per call. A human agent costs $7 to $12 per call. That's a 95% cost reduction per automated interaction. At scale — say, 1 million calls per month — that's a $6.6M to $11.6M monthly difference.
+
+But here's what the fear-driven coverage misses: only 20% of customer service leaders have cut headcount because of AI. The other 80% are using it to augment.
+
+Gartner projects conversational AI will reduce contact center labor costs by $80 billion in 2026. Not because companies are laying off agents — because AI handles the volume surge so companies don't have to hire 3x the headcount to serve 3x the customers. The $80B isn't cuts. It's capacity that didn't need to be hired.
+
+The outcome data: 35% faster call handling. 20%+ lower average handle time. 15%+ reduction in agent turnover (turns out agents hate handling the same Tier-1 question 40 times a day — giving that to AI improves the job). First-call resolution up. CSAT up.
+
+The pattern I see across enterprise contact center deployments: the orgs getting 331%+ ROI are augmenting, not replacing. They figured out that voice AI is best at containment — routing, FAQs, account lookups — and humans are best at resolution. You stop trying to replace the human and start designing the handoff. That's where the returns compound.
+
+The contact centers still debating "replace vs augment" are the ones not capturing any of this ROI. The debate is settled in the data.
+
+Augment. Design the handoff. Let the math work.

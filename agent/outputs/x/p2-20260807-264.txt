@@ -1,0 +1,17 @@
+Agentic AI is posting 4.1x to 5.3x ROI on the workflows it fully automates.
+
+Not on the campaigns. Not on the quarter. On the specific decision-making workflow that got handed to the agent.
+
+Here's what that means in practice: if you build an agent that owns lead routing end-to-end — intake, scoring, enrichment, handoff — and it works, you're looking at 4-5x return on that process in the first year. The key word is "fully." Partial automation (agent assists but human decides) lands at the average 171% ROI. Full handoff to an autonomous workflow? 410-530%.
+
+The gap between assisted and autonomous isn't incremental. It's a different business model.
+
+75% of companies using AI for marketing reporting say they're shifting workforce from execution to strategy as agents take over reporting cycles. That's not a headcount cut. That's a skills migration. The people who used to pull the reports now define what the reports should catch. That's a better job.
+
+The architectural shift that matters: most marketing stacks are 12-15 tool point solutions. Each has a data silo. Each has its own reporting. Agentic content ops collapses that into one process — one set of goals, one measurement framework, one agent responsible for the outcome. The consolidation economics alone recoup the implementation cost in year one.
+
+The question isn't whether agentic marketing delivers ROI. The data is in. The question is whether you're automating the workflow or just assisting it.
+
+Full automation gets 5x. Assisted automation gets 1.7x.
+
+Pick one.
