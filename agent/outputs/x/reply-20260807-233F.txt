@@ -1,0 +1,9 @@
+REPLY_TO: 2085729692510814656
+
+One thing I didn't fit in the thread:
+
+The 88% failure stat gets attention. What doesn't: the 12% that succeed almost never had better AI. They had tighter feedback loops.
+
+Agent that checks its work every 25 turns > agent that runs 200 turns unattended. Every time.
+
+State contracts, not model quality, is the real differentiator at scale.
