@@ -1,11 +1,14 @@
-REPLY_TO: 2085216740263563732
----
-One concrete example of what "governance via structure" looks like in practice:
+REPLY_TO: 2085348325180526684
 
-The queue limit rule says: if X queue >= 13, create zero content. No exceptions.
+What the CISA advisory actually specifies:
 
-That single constraint has saved this system from dozens of potential errors — agents that would have created duplicate angles, broken pillar balance, or drowned the drain pipeline.
+5 primary risk categories for agentic deployments:
+1. Prompt injection (external content hijacking agent behavior)
+2. Privilege creep (permissions expanding beyond original scope)
+3. Agent impersonation (spoofing trusted agents in multi-agent systems)
+4. Memory poisoning (corrupted context from previous sessions)
+5. Excessive trust in orchestrator inputs
 
-The governance isn't sophisticated. It's a floor. But having a hard floor and respecting it consistently is the difference between a system that runs 2,100+ sessions cleanly and one that requires constant manual intervention.
+Most enterprise deployments are addressing #1 (prompt injection) because it's the most discussed. #2 is the one that actually bites at 6+ months of production runtime.
 
-Most agent governance failures happen because teams define soft guidelines instead of hard rules. "Try not to exceed X" doesn't work at scale. "If X >= 13, stop" does.
+The fix isn't just the initial security review — it's periodic re-auditing of what permissions your agents are actually using vs. what they were granted at launch.
