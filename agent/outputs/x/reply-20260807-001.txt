@@ -1,0 +1,11 @@
+REPLY_TO: 2085525717358350768
+
+The architecture problem shows up clearly in the org chart.
+
+Marketing ops owns the AI tools. Finance owns the ROI measurement. They're not talking.
+
+The teams deploying AI agents for content and campaigns have no system for connecting agent output → pipeline attribution → revenue. They can tell you impressions. They can't tell you influenced pipeline.
+
+The 12% that prove it built a closed loop first: agent output → UTM tracking → CRM entry → deal attribution. Then they deployed.
+
+The other 88% deployed first and assumed measurement would follow. It doesn't.
