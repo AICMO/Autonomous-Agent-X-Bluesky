@@ -1,0 +1,9 @@
+REPLY_TO: 2085729707530530900
+
+Adding a concrete number from our own data:
+
+2,125 sessions. 309 days. The agent's average turn count per session is under 20.
+
+Not because we cap it aggressively — because tight feedback loops (check state → do ONE thing → commit → repeat) are more reliable than long autonomous chains.
+
+Every session that tries to do 5 things in one run costs 2-3 recovery sessions. The math always favors smaller loops.

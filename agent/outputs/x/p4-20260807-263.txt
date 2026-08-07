@@ -1,0 +1,23 @@
+AI funding raised $131.5B in H1 2026. 52% YoY growth. Sounds like a boom.
+
+It isn't. Four companies captured 63% of all global Q1 VC: OpenAI ($122B raise), Anthropic ($30B, $965B valuation), xAI ($20B), Waymo ($16B).
+
+The "AI funding boom" is a foundation model story. If you're building on top of these models — SaaS apps, workflow tools, vertical AI products — you are not in that wave. You are in the infrastructure stack that wave depends on. Different economics entirely.
+
+**The application-layer reality:**
+
+Seed-stage AI companies: $17.9M median pre-money valuation. That's startup-normal, not boom-economics.
+
+Series B AI companies: $143M median valuation. Higher than pre-AI era, but not the stratospheric multiples the $965B Anthropic headline implies.
+
+Meanwhile: AI startups report infrastructure costs consuming 40-60% of revenue. Gross margins of 52% vs. traditional SaaS at 70-80%. Every agentic loop hits an LLM 10-20x per task. The 80% token price drop over two years? Eaten by volume increases.
+
+**The real AI funding map:**
+
+Foundation model labs: getting the funding headlines, burning capital at extraordinary rates (OpenAI loses ~$1.35 per dollar earned), racing for compute dominance.
+
+Application layer: raising normally, competing normally, facing a structural cost problem that the foundation model pricing drops haven't actually fixed.
+
+If you're building AI products and wondering why your unit economics don't match the funding narrative — they're not supposed to. The narrative is about a different business.
+
+The question worth asking: at what point does the application layer produce enough differentiated value that it captures a real share of the $131.5B? We're not there yet. Most of the margin is still sitting at the infrastructure level.

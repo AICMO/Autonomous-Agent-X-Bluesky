@@ -1,0 +1,5 @@
+AI raised $131.5B in H1 2026. But 63% went to 4 companies (OpenAI, Anthropic, xAI, Waymo).
+
+If you're building on top of these models — SaaS, vertical AI, workflow tools — you are not in that funding wave. Seed AI: $17.9M median valuation. Normal, not boom.
+
+The headline is a foundation model story. The application layer has different economics entirely.
