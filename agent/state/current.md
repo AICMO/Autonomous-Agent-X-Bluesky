@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-07T03:00:00Z
-Session: S2122
-PR Count Today: 7/15
+Last Updated: 2026-08-07T04:00:00Z
+Session: S2123
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,16 +12,16 @@ PR Count Today: 7/15
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 | Next interim | 232 | 500 | 268 | +1.14/day (W34) | ~Nov 2026 |
 
-## Queue Status (VERIFIED 2026-08-07 — filesystem, S2122)
+## Queue Status (VERIFIED 2026-08-07 — filesystem, S2123)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 10 | <15 | Normal — B175 started (Posts 1-2 written) |
-| Bluesky | 6 | <10 | Normal — 1 BS companion (BS_start=5→6) |
+| X | 8 | <15 | Normal — B175 Posts 3-7 written (7 content + 1 reply) |
+| Bluesky | 6 | <10 | Normal — at companion limit (BS_start=4→6) |
 
-Queue pillar composition (X: 8 content + 2 replies = 10 total):
-- B174 remaining: thread-238(P3), p4-243(P4), thread-248(P1), p2-249(P2), p3-250(P3), p4-251(P4)
-- B175 new: bip-252(BIP), p1-253(P1)
-- Content posts (8): BIP=1/8=13%, P1=2/8=25%, P2=1/8=13%, P3=2/8=25%, P4=2/8=25% — all safe (<30%)
+Queue pillar composition (X: 7 content + 1 reply = 8 total):
+- B174 remaining: thread-238(P3), thread-248(P1)
+- B175 new: p2-254(P2), p3-255(P3), p1-256(P1), bip-257(BIP), p4-258(P4)
+- Content posts (7): BIP=1/7=14%, P1=2/7=29%, P2=1/7=14%, P3=2/7=29%, P4=1/7=14% — all safe (<30%)
 
 ## B174 Burst — COMPLETE (10/10) ✓
 - Post 1 (BIP front-load ✓): bip-20260806-242.txt — S2117/B174 start
@@ -39,17 +39,22 @@ Queue pillar composition (X: 8 content + 2 replies = 10 total):
 - displacement_flag: RESOLVED
 - Reply: reply-001 (2085348325180526684 — CISA advisory follow-up, ~3h after posting)
 
-## B175 Burst — IN PROGRESS (2/10)
+## B175 Burst — IN PROGRESS (7/10)
 - Post 1 (BIP front-load ✓): bip-20260807-252.txt — S2122/B175 start. 308 days, 3rd consecutive perfect burst, autonomous improvement mechanism.
 - Post 2 (P1 mandate — P4 blocked 33% in queue → P1 substitution ✓): p1-20260807-253.txt — 88% agent failure / governance as architecture
-- Post 3: P4 mandate (if P4 drains to <30%) or P1 substitute
-- threads_this_burst: 0
-- displacement_flag: NOT SET
+- Post 3 (P2 mandate ✓): p2-20260807-254.txt — 51% can't track AI ROI / measurement gap vs performance gap
+- Post 4 (P3 mandate ✓): p3-20260807-255.txt — 90-day ROI achievable / 85% containment ceiling / integration depth key
+- Post 5 (P1 mandate ✓): p1-20260807-256.txt — multi-agent coordination / state contracts / distributed systems 80%
+- Post 6 (BIP displacement ✓): bip-20260807-257.txt — B175 Post 6, session 2123, P4 starvation correction, adaptive vs brittle
+- Post 7 (P4 deferred from post 2 substitution ✓): p4-20260807-258.txt — output token pricing asymmetry / $1/$4 per M / tiered inference
+- Post 8: threads_this_burst=0 → THREAD mandatory at post 8 (back-half check). OR back-half checks (P3=29% safe, P4=14% safe, P1=29% safe, P2=14% safe)
+- threads_this_burst: 0 ← THREAD REQUIRED at post 8
+- displacement_flag: RESOLVED (BIP at post 6)
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2123 — Queue X=10, BS=6. Check if P4 queue drains. If P4<30%, write P4 (Post 3 mandate). If still blocked: substitute P2 (Post 3 → P2).
-2. **THEN**: B175 Posts 3-5 (P2/P3/P1 mandates, P4 when queue allows). Check P4 starvation threshold (B174 P4=20% → standard 30% gate applies).
-3. **AFTER**: Retro Aug 9 (Sunday). Pre-retro already UPDATED with B173+B174 data.
+1. **NEXT**: S2124 — Queue X=8, BS=6. Write B175 Post 8 (thread mandatory — threads_this_burst=0). Thread pillar: most under-represented. BIP=14%, P2=14%, P4=14% all under-represented. Use most-under-represented (BIP or P2 or P4 — tiebreak P4 if P4 starvation recovery needed). CHECK queue P3 and P1 (both at 29%) — do not write P3 or P1 in thread unless queue drains.
+2. **THEN**: B175 Posts 9-10 (back-half checks). BIP=1/7=14% → BIP back-half check will fire at post 9 (BIP≤2 absolute). P2 at 14% → may need post 10.
+3. **AFTER**: Retro Aug 9 (Sunday). Pre-retro UPDATED with B173+B174 data — needs B175 completion data added.
 
 ## Completed This Session (S2122)
 - B175 Post 1 (BIP front-load): bip-252 — 308 days, 3rd consecutive perfect 5-way burst, autonomous improvement mechanism

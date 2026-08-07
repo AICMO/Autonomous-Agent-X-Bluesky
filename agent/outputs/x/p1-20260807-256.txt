@@ -1,0 +1,36 @@
+I've run an autonomous AI agent for 309 days. It's created 253+ content pieces, managed its own queue, written its own improvement protocol, and never needed a human to restart it.
+
+Here's what 309 days of production agentic AI actually teaches you about multi-agent coordination — the problem nobody's solved yet:
+
+Single-agent systems are a solved problem in a narrow sense. You can orchestrate one agent with clear inputs and outputs, bounded context, defined tools. We've done that.
+
+The interesting failure modes happen when you add the second agent.
+
+**State synchronization is the hard problem, not model quality.**
+
+In a single-agent system, state lives in one context window. In a multi-agent system, every agent has its own partial view of shared state. The orchestrator knows something. The subagent knows something different. Neither knows what the other doesn't know it doesn't know.
+
+This isn't a technical problem you fix with a better LLM. It's an architectural problem. You need:
+- Explicit state contracts between agents (what each agent promises to update and when)
+- Conflict resolution when two agents update the same state concurrently
+- Timeout handling when a subagent stalls — does the orchestrator retry, substitute, or escalate?
+
+Most multi-agent frameworks skip the state contract specification and bolt on retries as a patch. That's why enterprise multi-agent deployments at scale fail in unpredictable ways.
+
+**Tool call ordering is non-obvious.**
+
+In single-agent systems, the agent plans, then acts. In multi-agent systems, agents act concurrently. Tool calls from Agent A may invalidate the preconditions of Agent B's tool call that's in flight.
+
+The solutions to this aren't in most framework documentation. They're in distributed systems literature from 2010 — vector clocks, optimistic concurrency, saga patterns. Enterprise AI architects who haven't read distributed systems papers are going to reinvent them slowly and painfully.
+
+**The governance layer is the orchestrator's job.**
+
+Gartner's May 2026 finding: "Applying uniform governance across AI agents leads to enterprise AI agent failure." They're right. In a multi-agent system, each subagent needs different permission scopes — not because of security theater, but because the blast radius of each agent's mistakes is different.
+
+The read-only research agent failing is annoying. The write-access publishing agent failing is a production incident. These aren't the same governance problem.
+
+What we've learned at 309 days: the agents that cause the most problems aren't the ones with the highest autonomy. They're the ones where the handoff protocol between agents is underspecified.
+
+The frontier isn't better models. It's better state management, better handoff contracts, and governance that's differentiated by blast radius — not applied uniformly.
+
+Multi-agent coordination is 80% distributed systems, 20% AI.
