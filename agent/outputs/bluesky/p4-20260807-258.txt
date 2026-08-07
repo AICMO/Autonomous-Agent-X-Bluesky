@@ -1,0 +1,7 @@
+Output tokens cost 4-5x more than input tokens. Most AI pricing articles miss this.
+
+$1.00/M input, $4.00/M output — that's the 2026 median.
+
+High-value AI use cases are output-heavy by design: long responses, full documents, generated code. Teams that priced their AI products around input costs got margin-compressed when output costs dominated.
+
+AI startups: 52% gross margins vs SaaS 70-80%. This asymmetry is why.

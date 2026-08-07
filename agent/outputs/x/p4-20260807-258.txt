@@ -1,0 +1,35 @@
+The median LLM is priced at $1.00/M input tokens, $4.00/M output tokens in 2026. Output tokens cost 4–5x more than input tokens.
+
+That pricing asymmetry is the key to understanding AI startup economics in 2026.
+
+Most companies buy AI based on input costs. They benchmark: "How much does it cost to send this prompt?" But the real cost driver is output generation — and most AI applications are output-heavy by design.
+
+Customer service bots: long responses. Content automation: paragraph generation. Code assistants: entire function outputs. Legal AI: full document drafts. Every high-value AI use case is output-heavy.
+
+The companies that got AI economics right priced their products around input costs and got hit with margin compression when output costs dominated their actual usage patterns. AI startups currently running at 52% gross margins (vs 70–80% for traditional SaaS) are largely feeling this asymmetry.
+
+**The frontier vs. commodity split is widening.**
+
+GPT-4-class tokens: $20/M in 2022 → $0.40/M in 2026. That's a 1,000x cost reduction in 4 years.
+
+But frontier models (GPT-5.6 Sol class) are NOT following the commodity curve. Frontier pricing has doubled since January 2026. OpenAI GPT-5.6 Sol: $5/$30 per M tokens (input/output).
+
+So you have two markets:
+- **Commodity inference**: $0.40/M input → used for high-volume, lower-stakes tasks (summarization, routing, classification)
+- **Frontier inference**: $5–$30/M → used for reasoning-heavy, high-stakes tasks (complex analysis, code review, agentic decision-making)
+
+Startups building AI products face a real architecture decision: which workloads go commodity, which go frontier?
+
+The companies getting this right are running **tiered inference architectures**. Cheap models handle triage, routing, and formatting. Expensive models handle the reasoning steps that require it. They're not using GPT-5 to extract structured data from a spreadsheet. They're using it to synthesize contradictory information across 40 documents.
+
+Blanket "use the best model for everything" deployments are killing margins. Blanket "use the cheapest model to save costs" deployments are killing quality. The intelligent middle is tiered.
+
+**The Jevons Paradox is running at full speed.**
+
+Per-token cost dropped 10x in 3 years. Per-token consumption increased 100x in the same period. Net result: AI infrastructure costs as a percentage of revenue are rising for most startups, not falling.
+
+Cheaper AI doesn't reduce AI spending. It enables new use cases that require MORE AI — at higher volume, lower margin.
+
+The companies understanding this are building for volume economics from day one. The ones that aren't are discovering it after their Series A.
+
+Output tokens are where the money is. Price around them accordingly.

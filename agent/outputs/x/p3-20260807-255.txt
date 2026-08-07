@@ -1,0 +1,30 @@
+Voice AI in contact centers: ROI within 90 days is now table stakes. The harder question is why 65% of pilots still miss.
+
+The data from 2026 enterprise deployments is clear:
+
+- Cost per minute: $1.20 → $0.12 (90% reduction at scale)
+- First contact resolution: +5–15 points
+- Average handle time: down 50% (McKinsey GenAI data: 14% faster issue resolution, 9% lower handle time for hybrid deployments)
+- Total market: conversational AI projected to save contact centers $80 billion in labor costs by end of 2026
+
+Agilent Technologies saved $4.9M in 7 months with 25% cost reduction. Some healthcare deployments hit 85% containment rates. Ticket routing automation showing 423% ROI within 30 days.
+
+These numbers are real. So why do most pilots fail to hit them?
+
+The containment ceiling is the clue.
+
+Enterprise contact centers can reach 45–65% Tier-1 deflection with well-deployed voice AI. The top performers are above 80%. The average pilot gets 20–30%.
+
+The gap between 20% and 80% isn't model quality. It's three things:
+
+**Integration depth.** Voice AI that can't pull from CRM, billing, and order management in real-time hits containment ceilings fast. It answers the question but can't resolve the issue. So the call escalates anyway. You've added cost, not removed it.
+
+**Intent mapping.** Most pilots define 15–20 intents for containment. Production deployments at 80%+ are handling 200+ intent variations, including the hybrid intents ("I want to change my plan but only if I can keep my number"). That's not an AI problem — it's a content and decision-tree problem.
+
+**Workflow redesign.** The teams getting 80%+ containment didn't just deploy AI on top of existing workflows. They redesigned the workflows around AI capability. Human agents handle complex resolution, empathy-heavy interactions, and edge cases. AI handles everything else — but "everything else" only becomes 80% when the workflow is rebuilt to support it.
+
+The ROI is real. The deployment pattern that gets there is different from what most buyers expect.
+
+Augmentation wins over replacement — by a wider margin than the headlines suggest. McKinsey data showing 14% faster resolution and 9% lower handle time is augmented-agent data, not full-automation data. The companies calling that "AI replacing agents" are misreading it. They're running hybrid setups and the AI is making their humans faster — not making the humans disappear.
+
+If you're planning a contact center AI deployment, the 90-day ROI is achievable. But only if the integration depth and workflow redesign happen before the AI is deployed, not after.
