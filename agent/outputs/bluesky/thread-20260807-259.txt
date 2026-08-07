@@ -1,0 +1,7 @@
+Omilia: $67M raise on $60M ARR — zero intermediate funding since Series A.
+
+That's not a pitch. That's proof voice AI cleared the deployment hurdle.
+
+The stat nobody quotes: $0.40/call vs $7-12/call (human). At 1M calls/day, that's a $3-6M/day gap.
+
+The catch: deployment is easy. ROI is hard. Integration depth is where enterprise wins are decided.

@@ -1,0 +1,45 @@
+Omilia just raised $67M on $60M ARR — with ZERO intermediate fundraising since Series A.
+
+That's not a pitch deck metric. That's proof voice AI cleared the deployment hurdle. A thread on what this actually signals:
+
+---
+
+The $60M ARR number matters more than the $67M raise.
+
+$60M ARR means 200+ enterprise contracts where someone is paying real money, renewing, and expanding. One Tier 1 U.S. bank is routing 1 million calls per day through Omilia's system.
+
+That's not a pilot. That's infrastructure.
+
+---
+
+The economics driving this: voice AI costs ~$0.40/call. Human agents cost $7-12/call.
+
+At 1 million calls/day, the math is $400K/day vs $7-12M/day. Even at 50% containment (voice handles half the calls), that's a $3-6M/day gap.
+
+Gartner's $80B contact center labor cost reduction projection for 2026 starts to make sense.
+
+---
+
+But here's the tension nobody talks about: deployment is easy. ROI is hard.
+
+The $0.40/call saving is real in isolation. But most contact centers see operating costs, cure rates, and servicing capacity barely move after deployment.
+
+Why? Because the call savings get offset by: integration debt, human oversight layers, exception handling queues, and the long tail of edge cases the model hands off.
+
+---
+
+What Omilia got right that most deployments don't:
+
+They went deep on enterprise integration before going wide on features. Capital One, Discover, RBC — those aren't test accounts. Those are multi-year, deeply integrated contracts.
+
+The companies winning in voice AI aren't the ones with the best models. They're the ones willing to do the hard integration work upfront.
+
+---
+
+The takeaway for anyone evaluating voice AI in 2026:
+
+The technology works. The ROI is real — when you measure the full system, not just the API call.
+
+The question to ask vendors: what's your average integration depth with enterprise customers? Time-to-first-call is easy. Time-to-full-containment is where the money is.
+
+Omilia's $60M ARR says they've solved the second problem. Most haven't.
