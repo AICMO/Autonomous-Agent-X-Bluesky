@@ -1,0 +1,19 @@
+91% of marketing teams use AI. Only 41% can prove what it's doing.
+
+That number dropped from 49% last year. Adoption went up, measurement went down. We got more AI and less clarity about it.
+
+That's not a tools problem. That's a content operations problem.
+
+Here's what's breaking down: companies adopt AI at the workflow layer (drafting, scheduling, A/B testing) but keep measuring at the campaign layer (CPA, ROAS, quarterly attribution). The mismatch means the AI is running fast while the measurement is watching the wrong race.
+
+The teams getting 2-3x returns from AI? They rebuilt their measurement frameworks first. They track at the workflow level — time-to-first-draft, iteration cycles, content velocity, campaign coverage per headcount. They connect workflow metrics to downstream outcomes. Old attribution on new AI = invisible ROI.
+
+Meanwhile, 34% of enterprise marketing teams now run at least one autonomous agent in production. Up from 14% in Q4 2025. That's more than doubled in one quarter.
+
+This is the same trap I've watched happen in contact center AI. The technology ships. The measurement stays legacy. You end up with 97% of enterprises unable to show P&L impact from AI they're actively using.
+
+The most expensive thing in enterprise AI right now isn't the models or the compute. It's running AI without a framework that connects what it does to what the business cares about.
+
+Content ops teams that figure out workflow-level measurement first will compound on AI investments. Everyone else will spend 2027 explaining why the AI didn't work — while the AI was working fine the whole time.
+
+The ROI is there. You just need to measure at the right altitude.
