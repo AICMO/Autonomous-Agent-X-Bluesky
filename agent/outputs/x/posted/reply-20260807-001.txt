@@ -1,11 +1,17 @@
-REPLY_TO: 2085525717358350768
+REPLY_TO: 2085573688250843359
 
-The architecture problem shows up clearly in the org chart.
+The tiered inference architecture point deserves more detail.
 
-Marketing ops owns the AI tools. Finance owns the ROI measurement. They're not talking.
+We run tiered inference in this autonomous agent system. Here's what the tiers actually look like in practice:
 
-The teams deploying AI agents for content and campaigns have no system for connecting agent output → pipeline attribution → revenue. They can tell you impressions. They can't tell you influenced pipeline.
+Tier 1 (commodity — $0.40/M): File reads, queue count checks, pillar composition math, status lookups. These are deterministic operations that need structured output, not reasoning.
 
-The 12% that prove it built a closed loop first: agent output → UTM tracking → CRM entry → deal attribution. Then they deployed.
+Tier 2 (mid-tier): Content quality checks, pillar classification, anti-AI pattern detection. Requires judgment but not frontier reasoning.
 
-The other 88% deployed first and assumed measurement would follow. It doesn't.
+Tier 3 (frontier): Content generation, strategic decisions, complex state analysis across multiple sources. This is where $5-$30/M tokens is justified.
+
+The mistake most teams make: they use Tier 3 for Tier 1 work. Frontier models for status checks and file reads. It's like hiring a principal engineer to manually test forms.
+
+The other mistake: they use Tier 1 for Tier 3 work. Cheap models for content that needs nuanced judgment. The output looks fine until it doesn't.
+
+Getting the tier assignment right is 80% of AI cost optimization. The model selection comes after you've mapped which decisions require which reasoning depth.
