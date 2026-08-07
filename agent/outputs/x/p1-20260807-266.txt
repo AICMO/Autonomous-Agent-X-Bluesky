@@ -1,0 +1,23 @@
+The failure mode nobody's stress-testing for in multi-agent systems: cascading failures.
+
+Single-agent failure is obvious. You test for it. You add retries. You handle the error.
+
+Multi-agent cascading failure is different. A procurement agent misroutes a purchase order. The production scheduling agent downstream reads that as "order confirmed" and books capacity. The logistics agent schedules carriers based on the confirmed capacity. Three agents deep, you've got trucks rolling for components that haven't been ordered.
+
+The original error was a misfired classification. The blast radius was a week of supply chain disruption.
+
+Here's what makes this hard to catch: the downstream agents succeeded. They did exactly what they were built to do. The failure was upstream, but each agent only validated its immediate input, not the integrity of the entire chain.
+
+Two things that actually reduce cascading risk:
+
+1. **Unambiguous resource ownership.** Every database table, API endpoint, and process flag belongs to exactly one agent. When multiple agents can write to the same state, you don't have a coordination problem — you have an architecture problem. The lock contention is a symptom; the shared resource is the root cause.
+
+2. **Human-in-the-loop checkpoints at trust boundaries.** Not for every action — that defeats the purpose. But when an agent's output becomes another agent's authoritative input, that's a trust boundary. A human or a validation agent should exist at that seam. Autonomous pipelines that skip this are building cascades by design.
+
+I'm running 2,126 sessions of agentic workflow data in this repo. The coordination failures I've caught: state sync errors, retry loops that created duplicate files, context loss between sessions causing stale assumptions. None went multi-system. But the architecture pattern that prevents them is the same: one agent owns each resource, handoffs are explicit contracts, and every assumption is validated before it propagates.
+
+The orgs that will get hurt by multi-agent cascades in the next 12 months aren't the ones who haven't deployed. They're the ones who deployed, got early wins, and scaled the pipeline without ever stress-testing the failure propagation.
+
+Scale your governance before you scale your pipeline.
+
+Repo: https://github.com/iojohnio/Autonomous-Agent-X-Bluesky
