@@ -1,0 +1,46 @@
+Here's the part of the "AI is getting cheaper" story nobody's finishing:
+
+Per-token prices have dropped 99%+ since 2023. True.
+
+But agentic AI uses 5 to 30 times more tokens per task than a standard chatbot.
+
+The math doesn't simplify the way the headlines suggest.
+
+**What the multiplier actually means:**
+
+A GPT-4-class chatbot answering a customer question: ~500 tokens. Cost at $0.10/M: $0.00005.
+
+An agentic workflow handling the same request — retrieving context, checking multiple data sources, reasoning across steps, writing and revising a response, logging the action:
+
+2,500 to 15,000 tokens. Same per-token price. 5-30x the bill.
+
+At scale, that multiplier isn't noise. It's the primary cost driver.
+
+**The enterprise reality in 2026:**
+
+AI inference has overtaken cloud infrastructure to become the second-largest line item in enterprise AI budgets. Second only to talent. Not compute, not storage, not networking — inference.
+
+Startups building on frontier models are reporting infrastructure consuming 40-60% of revenue on agentic workloads. A customer paying $20/month can generate $18-25 in inference costs during heavy reasoning tasks.
+
+The unit economics that worked for a chatbot don't work for an agent.
+
+**Where this hits hardest:**
+
+Companies that modeled ROI on per-token price decline without modeling the consumption multiplier. They saw tokens get 100x cheaper. They didn't see that agent tasks require 30x more tokens. Net cost: 3x more expensive than expected, not cheaper.
+
+This is the infra surprise that's killing agentic project P&Ls right now. The token price is a distraction from the token volume.
+
+**What actually fixes the economics:**
+
+1. Aggressive caching — agents working on similar tasks share intermediate reasoning steps. This is now table stakes, not optimization.
+2. Model tiering — route simple agent subtasks to cheap models ($0.02/M), complex reasoning to frontier models ($15/M). Most teams run everything through one model class.
+3. Task decomposition audit — how many tokens does each agent step actually need? Most production agents have 3-5 unnecessary reasoning passes baked in from prototyping.
+4. Outcome-based pricing for customers — stops the per-seat model from hiding the infra cost bleed.
+
+**The compounding effect:**
+
+Agentic AI workloads grow. The per-token price will keep falling. But if token consumption grows faster than price falls — and it has been — absolute AI spending goes up regardless of what the "cheaper AI" headlines say.
+
+Jevons Paradox isn't just a theory. It's showing up in enterprise CFO dashboards right now as "AI budget overage: 340%."
+
+The economics of agentic AI need a separate analysis from the economics of LLMs. They're not the same product.
