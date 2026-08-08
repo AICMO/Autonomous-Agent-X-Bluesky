@@ -1,0 +1,7 @@
+Token prices fell 280x. AI spend rose 320%.
+
+Not a paradox — architecture.
+
+Agentic workflows: 10-20 LLM calls per task. RAG inflates context 3-5x. Always-on monitoring runs 24/7.
+
+40-60% of AI startup revenue = infra costs. Token budgets need to be designed in, not bolted on.

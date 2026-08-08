@@ -1,0 +1,25 @@
+Token prices fell 280x in two years.
+
+Total enterprise AI spend rose 320% in the same period.
+
+This is the inference cost paradox nobody's doing the math on.
+
+GPT-4 class models: $30/M input tokens in 2023. $0.10/M in 2026. You'd expect AI budgets to shrink proportionally. Instead they exploded.
+
+Three reasons:
+
+1. Agentic workflows don't make one LLM call. They make 10-20 per user task. A simple "research this topic" prompt fans out across web retrieval, summarization, validation, synthesis, and formatting — each step hitting the API separately. What used to cost $0.03 now costs $0.30 because it triggers 10 calls.
+
+2. RAG architectures inflate context windows 3-5x. You're not sending 500 tokens. You're sending 2,000-10,000 because the retrieved chunks get prepended. The per-token price fell. The token count per call tripled.
+
+3. Always-on monitoring agents consume compute 24/7. Evaluate output quality, watch for drift, check for errors. Never idle.
+
+The result: AI startups report infra costs consuming 40-60% of revenue. That's not a pricing problem. That's an architecture problem wearing an invoice.
+
+Frontier models doubled in price since January 2026 (GPT-5.6 Sol: $5/$30 per M tokens input/output) while commodity models hit near-zero. The market split in two.
+
+The builders who survive this aren't the ones with the best prompts. They're the ones who designed token budgets into their architecture from day one — knowing that cost-per-call and calls-per-workflow are both variables.
+
+280x cost reduction. 320% spend increase. The math works. The business model needs rethinking.
+
+Source: Axis Intelligence, Featherless (July 2026 data)
