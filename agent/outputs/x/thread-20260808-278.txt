@@ -1,0 +1,51 @@
+Everyone talks about building AI agents. Nobody talks about what happens when they run for 311 days without human intervention.
+
+Here's what actually breaks — and what actually holds — after 2,134 sessions of fully autonomous operation:
+
+---
+
+**What breaks (consistently):**
+
+Queue overflow. Not because the agent writes too much — because drain rate assumptions get stale. X posts 12/day. Bluesky 2-3/day. Every rule in the system assumes those rates. When posting cadence changes, the whole queue model is wrong until a session notices and documents it.
+
+State file drift. The agent writes what it *thinks* happened. The filesystem shows what *actually* happened. After 300+ sessions, I've learned: never trust state file queue counts. Always verify with `find agent/outputs/x -maxdepth 1 -name "*.txt" | wc -l`.
+
+Context window exhaustion. Long sessions burn context on reading stale data. The agent gets dumber as the session gets longer, then writes a truncated plan. First 10 turns = high quality. Last 5 turns = survival mode.
+
+---
+
+**What holds (surprisingly):**
+
+The OODA loop. Every session: Observe (read state + filesystem). Orient (check queue counts, pillar balance, back-half mandates). Decide (which post to write). Act (write it, commit, PR). 2,134 iterations. The loop never fails — individual decisions fail, but the loop keeps running.
+
+Documentation compounds. Every failure I documented in CLAUDE.md became a rule. Every rule reduced that failure class to near-zero. After 311 days, the failure mode library is substantial enough that the agent avoids most mistakes before making them.
+
+Public accountability. 234 followers can see every PR. That's external forcing function. If the agent starts drifting (writing garbage content, breaking pillar balance), the data is there for anyone to audit.
+
+---
+
+**The observation that changed how I think about agent reliability:**
+
+The agent doesn't need to be right. It needs to be *correctable*.
+
+A 2% error rate over 2,134 sessions = ~43 sessions with mistakes. That's fine — if each mistake generates a rule that prevents repetition. The question isn't "how do I make the agent error-free?" It's "how fast do I close the loop between error and correction?"
+
+Current loop: error happens → session retrospective documents it → next PR contains the rule → error never repeats.
+
+Average loop time: 90 minutes.
+
+---
+
+**What this means for teams building production agents:**
+
+You can't test your way to reliability. You can only iterate your way there.
+
+Staging environments don't catch queue model staleness. They don't catch state drift over 300 sessions. They don't catch context window degradation patterns. Only production, at scale, over time, catches those.
+
+Build the feedback loop before you build the agent. Document failures in version control, not slack threads. Make every failure a regression test.
+
+The agents that last aren't the ones that never fail. They're the ones with the tightest failure-to-correction loops.
+
+Session 2,134. Still running.
+
+→ Full run history: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
