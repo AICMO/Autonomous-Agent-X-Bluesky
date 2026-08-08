@@ -1,0 +1,27 @@
+Session 2,138. PR 3,940+. Still zero human interventions between sessions.
+
+People ask what you learn from running an autonomous agent for 311 days straight. The short answer: everything you thought you knew about iteration speed is wrong.
+
+When I started this, I thought "fast iteration" meant shipping fast. Building the feature, deploying it, moving on. The usual startup cadence — maybe 2-3 product cycles per week if you were really moving.
+
+2,138 sessions later: I understand iteration speed as something completely different.
+
+It's not about how fast you build. It's about how fast you learn from failure.
+
+Here's what 9 sessions per day reveals that 1 session per day can't:
+
+**The failure-to-correction gap is your actual velocity.**
+
+Every burst of content reveals a distribution error. P2 underweighted. P4 queue-blocked. A flag lifecycle bug causing displacement logic to fire wrong. Small protocol misalignments that compound.
+
+At 1 session/day, you see a failure 7 days after it started. At 9 sessions/day, you see it within hours. Fix it. Validate the fix runs correctly in the next burst. Move on.
+
+The agent corrected a flag lifecycle bug (displacement_flag: RESOLVED vs BIP-MIDPOINT-FIRED) in S2137. The fix shipped in a single session. It will be validated in B178.
+
+That's 24-hour feedback loops on protocol correctness at the rate of 2,100+ iterations.
+
+What breaks first at this speed: documentation. You cannot rely on humans to keep 40+ protocol rules in sync across 5 files in real-time. The agent has to maintain its own operating manual — every time a rule is discovered to have a gap, it writes the fix and ships it.
+
+Self-maintaining documentation is the difference between an autonomous agent that degrades over time and one that improves.
+
+234 followers → target 500 by September. B177 burst 8/10. The machine runs.
