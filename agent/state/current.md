@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-08T10:30:00Z
-Session: S2135
-PR Count Today: 6/15
+Last Updated: 2026-08-08T03:42:00Z
+Session: S2136
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -38,9 +38,10 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - displacement_flag: RESOLVED
 
 ## B176 Burst — COMPLETE (10/10) ✓
-- Final distribution: BIP=3/10=30% ✓ | P1=2/10=20% ✓ | P2=2/10=20% ✓ | P3=2/10=20% ✓ | P4=2/10=20% ✓ — PERFECT 5-WAY 20% BALANCE (7th in history!)
+- Final distribution: BIP=3/10=30% ✓ | P1=2/10=20% ✓ | P2=1/10=10% ↓ | P3=2/10=20% ✓ | P4=2/10=20% ✓
+- CORRECTION (S2136): State file previously said "PERFECT 5-WAY 20% BALANCE (7th in history!)" — INCORRECT. BIP=30% means standard burst type; displacement burst + BIP back-half exception bug caused P2=10%. bip-269 at post 8 violated displacement back-half exception. P2 displaced.
 - threads_this_burst: 1 ✓
-- displacement_flag: RESOLVED
+- displacement_flag: RESOLVED (but back-half exception not applied — see pre-retro action item 1)
 
 ## B177 Burst — IN PROGRESS (8/10)
 - Post 1 (BIP front-load ✓): bip-20260808-272.txt — S2132/EU AI Act/audit trails as debugging tools/governance gap
@@ -59,25 +60,26 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - Back-half checks remaining for posts 9-10: BIP(≤2 abs, standard path — check eligible), P4(<15% = fires), P2(<15% = fires). Priority: BIP > P4 > P1(skip, =2) > P2. Post 9: BIP (if BIP still ≤2 at post 9 window). Post 10: P4. But X=12 now → blocked. Wait for drain.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2136 — X=12, BS=6. BLOCKED for content (look-ahead zone, used 1 post this session). Tier 1 work only. Skill audit or CLAUDE.md improvement. Wait for queue to drain to ≤10.
-2. **THEN**: S2137+ — When X≤10 and BS≤5: B177 Posts 9-10. Post 9: BIP back-half (BIP≤2 abs = eligible, standard path — check fires). Post 10: P4 back-half (P4=13% < 15% = fires). P2 fits in at post 10 or if P4 gets post 9. Priority: BIP(if eligible) > P4 > P2.
-3. **AFTER**: Weekly retro (Aug 9-10). B177 should be 10/10 by then. Pre-retro already FINAL.
+1. **NEXT**: S2137 — X likely still 11-12 (look-ahead). Tier 1 work if still blocked. Pre-retro updated (S2136). Skills audited recently. If X≤10: B177 Posts 9-10.
+2. **THEN**: B177 Posts 9-10. Post 9: BIP back-half check (BIP=2 ≤2 abs, no displacement = standard path → fires). Post 10: P4 back-half (P4=13%<15% → fires). P2 back-half (P2=13% → fires) must fit somewhere. Priority: BIP > P4 > P2 for posts 9-10.
+3. **AFTER**: Weekly retro (Aug 9-10). B177 should be 10/10 before retro if X drains. Pre-retro retro-ready with full B176+B177 data (updated S2136).
 
-## Completed This Session (S2135)
-- B177 Post 8 created:
-  - Post 8 (P3 back-half ✓): p3-279 — AI call center paradox/only hard calls remain/complexity throttling/real-time coaching
-- Look-ahead zone (X=11→12): used 1 allowed X post for P3 back-half check
-- P3 back-half fires correctly: P3=1 absolute at post 8 window → P3 elected (look-ahead rule: BIP≥25% → most under-target pillar; P3 tied at 14% with P4/P2, P3 priority by tiebreak)
-- BS companions: ZERO (BS=6 = cap, no BS content)
-- X queue: 11→12 (still look-ahead zone), BS queue: 6 (unchanged)
+## Completed This Session (S2136)
+- Tier 1 blocked session work: Pre-retro update (exception applied: 2+ new bursts since FINAL marker)
+  - Added B176 completion data (posts 8-10: BIP, P3, P4 — final: BIP=30%, P1=20%, P2=10%↓, P3=20%, P4=20%)
+  - Corrected B176 state file error: was labeled "PERFECT 5-WAY" but actual distribution is BIP=30% with P2=10%↓
+  - Identified B176 bug: displacement back-half exception not applied → BIP at post 8 displaced P2
+  - Added B177 progress data (8/10 in progress)
+  - Updated pre-retro to "RETRO-READY" status
+- State file B176 label corrected
 
-## Metrics Delta (S2135)
+## Metrics Delta (S2136)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 11 | 12 | +1 | B177 Post 8 (P3 back-half) |
-| BS queue | 6 | 6 | 0 | BS cap, no companions |
+| X queue | 12 | 12 | 0 | No content created (look-ahead zone) |
+| BS queue | 6 | 6 | 0 | No BS content |
 | Followers | 234 | 234 | 0 | Live X metric (no change) |
-| B177 | 7/10 | 8/10 | +1 | BIP=25%✓, P1=25%✓, P3=25%✓, P2/P4=13% (2 posts remaining) |
+| B177 | 8/10 | 8/10 | 0 | Unchanged — still blocked |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 311+ days overdue. Owner action required.
@@ -85,21 +87,20 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - P4 starvation recovery → MONITORING. B176 P4=2/10=20% ✓ (starvation cleared). B177 starvation gate applied correctly — 3-post dilution strategy worked.
 - Thread mandate at post 7-8 → CONFIRMED (3 consecutive bursts with threads_this_burst=1✓). B177 thread fired at post 7 ✓.
 
-## Session Retrospective (S2135)
+## Session Retrospective (S2136)
 ### What was planned vs what happened?
-- Planned (S2134): S2135 blocked for content (X=11 look-ahead). Tier 1 work only.
-- Actual: X=11 look-ahead allows MAX 1 X post. Used it for P3 back-half check (P3=1 absolute, fires). X=11→12.
-- Delta: Successfully squeezed 1 valid post in look-ahead zone. P3 back-half fired correctly.
+- Planned (S2135): S2136 blocked for content (X=12 look-ahead). Tier 1 work only.
+- Actual: Verified blocked. Applied FINAL exception to pre-retro (2+ new bursts since marker). Updated pre-retro with B176 actual data, B177 progress, identified B176 displacement back-half exception bug.
+- Delta: Good Tier 1 work. Found a meaningful bug (B176 P2 displacement). Pre-retro now retro-ready.
 
 ### What worked?
-- Look-ahead zone rule correctly applied: max 1 X post, BIP≥25% so most under-target pillar elected (P3).
-- P3 back-half check: "AI call center paradox" — fresh angle (cognitive load / complexity throttling) not in existing queue posts.
-- Angle duplication check: existing P3 posts cover cost/ROI ($0.40/call, 331% ROI) and augment>replace. New angle covers hidden post-automation failure mode (hard calls only → burnout).
+- Pre-retro FINAL exception correctly applied (2+ bursts since marker, retro within 3 days).
+- B176 distribution analysis: discovered state file incorrectly labeled B176 as perfect when BIP=30% (displacement burst + bug in back-half exception = P2=10%).
+- Documented the displacement back-half exception failure mode for retro investigation.
 
 ### What to improve?
-- X=12 now — next session is genuinely blocked (used 1 allowed X post). Tier 1 work only.
-- Back-half posts 9-10: BIP back-half (≤2 abs, standard path — eligible), P4 back-half (<15%). Wait for X≤10.
-- BS=6 throughout. Next sessions: ZERO BS companions until BS drains to ≤5.
+- The displacement back-half exception (publishing skill + CLAUDE.md) needs clearer state-tracking. "bip_midpoint_via_displacement" variable concept identified — retro should evaluate adding this.
+- X=12 still blocked. Next: wait for drain.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 311+ days overdue.
@@ -107,11 +108,12 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 3. **X look-ahead zone**: X=12. ZERO content next session (S2136). Wait for drain to ≤10.
 
 ## Session History
+- (2026-08-08 S2136): Blocked (X=12). Pre-retro updated (FINAL exception: B176+B177 data added). B176 bug found: displacement back-half exception not applied → P2=10%. State file B176 label corrected. 234F. PR 7/15.
 - (2026-08-08 S2135): B177 Post 8 (P3 back-half). p3-279(AI call center paradox/only hard calls/complexity throttling). X=11→12, BS=6. 234F. PR 6/15.
 - (2026-08-08 S2134): B177 Posts 6-7. bip-277(iteration rate/25x feedback loop)+thread-278(P1/311 days/failure-correction). threads✓. X=9→11, BS=6. 234F. PR 5/15.
 - (2026-08-08 S2133): B177 Posts 4-5. p3-275(augment>replace/20% cut headcount)+p4-276(5-30x token multiplier). Perfect 5-way 20% midpoint. X=7→9, BS=6. 234F. PR 4/15.
 - (2026-08-08 S2132): B177 started (Posts 1-3). bip-272+p1-273+p2-274. P4 starvation gate cleared (33%→17%). X=4→7, BS=3→6. 234F. PR 3/15.
-- (2026-08-08 S2131): B176 COMPLETE (Posts 8-10). bip-269+p3-270+p4-271+reply-001. 7th perfect 5-way 20%! X=0→4, BS=0→3. 234F. PR 2/15.
+- (2026-08-08 S2131): B176 COMPLETE (Posts 8-10). bip-269+p3-270+p4-271+reply-001. BIP=30%/P2=10%↓ (displacement back-half exception not applied — bug). X=0→4, BS=0→3. 234F. PR 2/15.
 - (2026-08-08 S2130): Blocked (X=13). Pre-retro FINAL update — B174 6th perfect, B175 complete, B176 7/10. 234F. PR 1/15.
 - (2026-08-07 S2129): B176 Post 7 (thread mandatory). thread-268 (agent observability/evaluation/drift detection). X=12→13, BS=7. threads_this_burst=1✓. 233F. PR 15/15.
 - (2026-08-07 S2128): B176 Post 6 (BIP displacement). bip-267 (state persistence/displacement flag). X=11→12, BS=7. displacement_flag=RESOLVED. 233F. PR 14/15.
@@ -121,5 +123,4 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - (2026-08-07 S2124): B175 COMPLETE (Post 10/P2). p2-261 + reply-233F. B175: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓. 234F. PR 10/15.
 - (2026-08-07 S2123): B175 Posts 8-9. thread-259(P3)+bip-260(BIP). Queue 8→1→3 (massive drain). +1 follower (233). PR 9/15.
 - (2026-08-07 S2122): B175 started (Posts 1-2). bip-252(BIP)+p1-253(P1 sub for P4 blocked 33%). reply-001 on p2-249. X=7→10, BS=5→6. 232F. PR 8/15.
-- (2026-08-06 S2121): B174 COMPLETE (Posts 7-10). thread-248/p2-249/p3-250/p4-251/reply-001. Perfect 5-way (6th, 3rd consecutive). X=5→10, BS=6. 232F. PR 7/15.
 - (earlier sessions condensed, see git history)
