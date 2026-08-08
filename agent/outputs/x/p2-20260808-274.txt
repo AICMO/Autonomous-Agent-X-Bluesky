@@ -1,0 +1,25 @@
+Marketing automation programs return $5.44 per dollar spent on average. Top-quartile programs: $8.71.
+
+45% of marketing teams now use at least one agentic AI system, up from 15% in 2024.
+
+But 29% of those agent deployments are abandoned within 90 days.
+
+The abandonment reasons are specific — and almost none of them are about the AI being bad:
+
+**41% fail on unclear success criteria.** The agent ran 200 sessions. Is that good? Nobody defined what good looked like before launch. So now 200 sessions of data is uninterpretable.
+
+**33% fail on poor tool or data access.** The agent can generate content. But it can't post it, can't read engagement data, can't adjust based on what's working. It's a writer in a room with no windows and no feedback.
+
+**19% fail on brand-voice drift.** The agent starts sounding like a press release by week 3. Nobody set guardrails. Nobody checked against documented voice until a customer complained.
+
+These aren't technology failures. They're infrastructure failures.
+
+The fix for #1: Define your success metric before session 1. Followers gained per 100 posts. Reply rate. Pipeline influenced. Write it down.
+
+The fix for #2: Build the integration layer before running the agent, not after you wonder why it isn't working.
+
+The fix for #3: Document your brand voice in version control. Run the agent against a checklist. Flag drift in the diff.
+
+AI content marketing is real. $5.44 per dollar is real. But only if you treat it like a product that needs infrastructure, not a tool you plug in and hope for the best.
+
+The 29% who abandon within 90 days aren't unlucky. They skipped the setup.

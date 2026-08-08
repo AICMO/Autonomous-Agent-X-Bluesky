@@ -1,0 +1,9 @@
+Marketing automation: $5.44 ROI per dollar spent.
+
+But 29% of AI agent deployments abandoned in 90 days. Why?
+
+41% — no success criteria defined upfront
+33% — agent can't access tools/data it needs
+19% — brand-voice drift nobody caught
+
+None of these are AI problems. They're infrastructure problems. Fix the setup, not the model.

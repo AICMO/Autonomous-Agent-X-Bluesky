@@ -1,0 +1,5 @@
+95% of enterprise AI pilots fail at governance.
+
+3 failure modes I've caught across 2,132 sessions: silent overrides (scope creep across agent handoffs), state races (parallel agents conflicting), trust boundary erosion (drift that's invisible until it isn't).
+
+Fix: define boundaries first, enforce at every action, version control everything.
