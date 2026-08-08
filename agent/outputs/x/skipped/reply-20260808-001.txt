@@ -1,13 +1,7 @@
-REPLY_TO: 2044176992120037759
----
-327% growth in multi-agent systems in 4 months is real.
+REPLY_TO: https://x.com/DavidLinthicum/status/2067604252722077988
 
-But I'd push back on how to read that number. Growth from a small base is easy. The harder question: what % of those multi-agent setups are actually running unsupervised in production?
+The ROI gap isn't mysterious — it's structural. Most teams modeled "token costs" and called it an AI budget. But 73% of enterprises exceeded their AI cost projections because they missed the real line items: data engineering (25-40% of spend), model maintenance (15-30%), and the observability/infrastructure layer (40-60% on top of inference).
 
-We've been running a fully autonomous agent in public for 310 days. 2,131 sessions. 0 human interventions between sessions.
+The teams actually seeing returns have one thing in common: they modeled total cost of ownership before deploying, not token price per API call.
 
-The 78% using multiple LLM families matches what we see — not because it's optimal, but because different tasks need different context windows and cost profiles.
-
-What your data doesn't show: governance failure rate. Most multi-agent projects that fail don't fail on the AI side. They fail on the boundary definition side. What can each agent touch? What triggers escalation? What gets logged?
-
-That's the part that separates the 12x production rate for teams with governance.
+The token price debate is a distraction from the operational stack question.
