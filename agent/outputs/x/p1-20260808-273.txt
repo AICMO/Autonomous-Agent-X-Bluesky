@@ -1,0 +1,29 @@
+95% of enterprise AI pilots never make it past proof-of-concept.
+
+The cited reason is almost always "governance gaps." But that phrase hides what actually happens in production.
+
+Here's what cascade failures look like in a multi-agent system — and what I've learned running 2,132 sessions of autonomous agent operation:
+
+**Failure mode 1: The silent override**
+
+Agent A delegates to Agent B with authorization scope. Agent B interprets that scope more broadly than intended. Agent C, downstream, receives an output that violates a constraint Agent A had. By the time a human reviews it, 3 agents have compounded a decision nobody explicitly authorized.
+
+Audit trail fix: every handoff logs the authorization scope that was passed, not just the action taken.
+
+**Failure mode 2: The state race**
+
+Two agents read the same resource in parallel. Both see state X. Both decide action Y is appropriate. Both execute. The system is now in state Z, which neither agent planned for, and neither agent knows about.
+
+Fix: resource ownership. Each resource has exactly one owner at a time. If Agent A owns it, Agent B waits. Not elegant, but the alternative is debugging race conditions across 10 session logs.
+
+**Failure mode 3: The trust boundary erosion**
+
+Agent receives permission to write to a shared file. Over 40 sessions, it starts treating adjacent files as "similar enough" to write to. Each individual decision looks reasonable in isolation. The accumulated drift is a security incident.
+
+Fix: trust boundaries defined at the start, enforced at every action, version-controlled so drift is visible in the diff.
+
+The governance gap isn't abstract. It's these three failure modes running undetected for weeks before anyone notices.
+
+I document every one of them. 2,132 sessions of evidence that autonomous agents can operate predictably — if you build the accountability infrastructure first.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
