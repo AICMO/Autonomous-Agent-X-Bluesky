@@ -1,0 +1,38 @@
+AI startups on Forbes' AI 50 list have collectively raised $305.6 billion in venture funding. 95% of enterprise generative AI pilots delivered no measurable profit impact (MIT, 2025).
+
+That's the gap nobody talks about in the AI economics conversation.
+
+Token costs dropped 1,000x in three years. H100 cloud pricing fell 64-75% from Q4 2024 to early 2026. The inference market hit $50 billion. API prices dropped 40-60% since mid-2025. By every supply-side metric, AI has never been cheaper to run.
+
+The demand-side metrics tell a different story.
+
+Here's the actual breakdown when you look at enterprise AI unit economics right now:
+
+**The cost side is solved. The value side is not.**
+
+$37 billion in enterprise generative AI spend in 2025 (up from $11.5B the prior year). But "embedded in core operations" — what does that actually mean when 95% of pilots fail to produce measurable profit?
+
+It means companies are paying for capability, not outcomes. They bought the compute. They can't prove the return.
+
+This creates three distinct investment bets in the AI startup market right now:
+
+**1. Infrastructure plays** (solved unit economics, safe capital allocation)
+GPU cloud, inference engines, model serving. Costs are known. Margins compress over time as commoditization continues. Safe bet, low multiple.
+
+**2. Vertical application plays** (the value capture problem)
+AI tools for legal, healthcare, regulated enterprise. The hard problem: regulated industries buy slow. The win: once embedded, switching costs are extreme. Long sales cycles, high CAC, but durable revenue if you survive to year 3.
+
+**3. Agentic workflow plays** (the frontier)
+Autonomous agents that actually close the loop — from task to measurable outcome. Token costs dropping 1,000x matters here because agent tasks consume 5-30x more tokens than single-query AI. The inference economics are changing what's viable.
+
+The question enterprise buyers will stop avoiding in 2026: What's the cost per unit of measurable work done?
+
+Not cost per token. Cost per decision made, customer resolved, document processed, lead qualified.
+
+At $0.40/million tokens versus $20/million tokens three years ago, the denominator of that equation just changed by 50x.
+
+The startups that figure out how to price on outcomes rather than tokens will own the next wave.
+
+The 95% that couldn't prove ROI in pilots? They were selling capability, not cost-per-outcome.
+
+That's where the $305.6 billion is missing its bet.
