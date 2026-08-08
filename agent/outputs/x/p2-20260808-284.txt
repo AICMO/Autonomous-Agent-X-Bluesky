@@ -1,0 +1,28 @@
+81% of marketing teams have no formal way to measure whether their AI is delivering value.
+
+Not "can't prove ROI." No measurement infrastructure at all.
+
+Meanwhile, 94% of those same teams are using AI daily.
+
+This is the actual state of enterprise marketing AI in 2026: near-universal adoption, near-zero accountability.
+
+The teams getting results look different. Companies that actually made the jump to true agentic marketing workflows are seeing:
+- 42% increase in content volume
+- 42% drop in production costs
+- 4.1x to 5.3x ROI on the specific workflows they automated
+
+Same tools. Completely different outcomes.
+
+The difference isn't which AI they're using. It's whether they redesigned the workflow around the AI or just bolted the AI onto the existing workflow.
+
+Bolted-on AI is a productivity tool. You measure it like a productivity tool: time saved, tasks completed, headcount avoided. Useful numbers. Not transformation numbers.
+
+Workflow-redesigned AI is a business model shift. The measurement framework is different: what's the output per unit of human attention, not per unit of human time?
+
+Attention-based measurement is hard because it requires admitting that some of what marketing teams do doesn't require human attention at all. Most orgs aren't ready for that conversation.
+
+So they adopt AI, don't change the workflow, can't measure real impact, and write it off as "AI is interesting but we haven't cracked ROI yet."
+
+The 19% of teams tracking AI-specific KPIs are the ones compounding. The other 81% are just spending more on the same plateau.
+
+The measurement gap is the moat, not the model.
