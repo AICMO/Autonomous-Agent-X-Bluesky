@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-08T05:00:00Z
-Session: S2138
-PR Count Today: 9/15
+Last Updated: 2026-08-08T05:15:00Z
+Session: S2139
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -62,21 +62,21 @@ Queue pillar composition (X: 13 files = 12 content + 1 reply):
 - Back-half checks remaining for post 10: P4(<15% = fires), P2(<15% = fires). Priority: P4 > P2. Post 10: P4 (P4=11%<15% → fires). But X=13 now → blocked. Wait for drain.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2139 — X=13 (near limit). ZERO new content. Tier 1 options: skill audit (pre-retro DONE, CLAUDE.md fix DONE). Check if Tier 2 yields material work. Otherwise no PR.
-2. **THEN**: B177 Post 10 (P4 back-half, P4=11%<15% → fires). Need X≤11 to create. After post 10: B177 COMPLETE. Begin B178 planning.
-3. **AFTER**: Weekly retro (Aug 9). B177 should complete before retro. Pre-retro RETRO-READY (S2136). B178 pre-burst check: P3=25% in queue (safe < 30%), P4=17% (safe). Standard burst start.
+1. **NEXT**: S2140 — Weekly retro (Aug 9 Sunday). Run retro mode. Read all merged PRs, update skills, calculate W35 metrics (+5.0/day velocity, 234→234F today). Pre-retro RETRO-READY (S2139 final update). B177 Post 10 (P4) likely still pending — retro can proceed at 9/10.
+2. **THEN**: B177 Post 10 (P4 back-half). Need X≤11. After post 10: B177 COMPLETE. Begin B178 planning. Pre-burst check: current queue P3=25%, P4=17% — both safe for standard burst start.
+3. **AFTER**: B178 burst. Standard burst (no starvation gate expected). BIP front-load at post 1, P4 at post 2 (P4=17% in queue, within normal threshold).
 
-## Completed This Session (S2138)
-- B177 Post 9 (BIP back-half): bip-20260808-280.txt — S2138/2,138 sessions/failure-to-correction gap as velocity metric/self-maintaining documentation as agent differentiator
-- Look-ahead zone (X=12→13): created MAX 1 X file as permitted. BIP back-half check fired correctly (BIP=2≤2 abs, standard path). Look-ahead zone BIP preference confirmed.
+## Completed This Session (S2139)
+- Blocked session (X=13 near-limit). Pre-retro correction: B176 mislabeled as "7th perfect" (it's a standard burst BIP=30%, P2=10%↓ due to bug). B177 updated 8/10→9/10 in pre-retro with full post assignments confirmed from state file.
+- Pre-retro accuracy improved for retro agent tomorrow (Aug 9): B177 post table corrected (P1 sub at post 2, not P4), displacement_flag confirmed NOT SET, B177 9/10 data added.
 
-## Metrics Delta (S2138)
+## Metrics Delta (S2139)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 12 | 13 | +1 | BIP back-half post (look-ahead zone, 1 file permitted) |
+| X queue | 13 | 13 | 0 | Blocked (near-limit) — no new content |
 | BS queue | 6 | 6 | 0 | No BS content |
 | Followers | 234 | 234 | 0 | Live X metric |
-| B177 | 8/10 | 9/10 | +1 | BIP back-half at post 9 ✓ |
+| Pre-retro | B177=8/10 | B177=9/10 | updated | B176 label corrected, B177 post 9 data added |
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 311+ days overdue. Owner action required.
@@ -84,19 +84,18 @@ Queue pillar composition (X: 13 files = 12 content + 1 reply):
 - P4 starvation recovery → MONITORING. B176 P4=2/10=20% ✓ (starvation cleared). B177 starvation gate applied correctly — 3-post dilution strategy worked.
 - Thread mandate at post 7-8 → CONFIRMED (3 consecutive bursts with threads_this_burst=1✓). B177 thread fired at post 7 ✓.
 
-## Session Retrospective (S2138)
+## Session Retrospective (S2139)
 ### What was planned vs what happened?
-- Planned (S2137): S2138 blocked for content (X=12 look-ahead). If X≤10: B177 Posts 9-10.
-- Actual: X=12 (look-ahead zone). Created 1 file permitted. BIP back-half check (BIP=2≤2 abs, standard path) fired at post 9 — correct priority. bip-280 written: S2138/2,138 sessions/failure-to-correction gap/self-maintaining docs.
-- Delta: Correct application of look-ahead zone rules (max 1 file, prefer BIP). B177 now 9/10.
+- Planned (S2138): S2139 blocked (X=13). Tier 1 options: skill audit, pre-retro (done), CLAUDE.md (done).
+- Actual: X=13 (near-limit). Pre-retro corrections: B176 mislabeled "7th perfect" (corrected to standard burst with BIP=30% bug), B177 post assignments corrected (Post 2 was P1 sub, not P4), B177 updated 8/10→9/10. Retro agent tomorrow benefits from accurate data.
+- Delta: Correct blocked session application. No content created. Material pre-retro update justifies PR.
 
 ### What worked?
-- Look-ahead zone 1-file allowance correctly applied. BIP back-half check fires correctly on standard path (displacement_flag: NOT SET).
-- BIP hook: failure-to-correction gap as velocity metric — original angle leveraging 2,138-session dataset.
+- Pre-retro factual corrections: B176 label was wrong in 3 places (header, burst table, checklist). Fixed before retro agent reads the file.
+- B177 post 2 was P1 substitute (P4 starvation gate), not P4 — corrected in pre-retro post table.
 
 ### What to improve?
-- X=13 after this session (near-limit zone). S2139 likely blocked. Tier 1 options: skill audit may be eligible if >3 sessions since last audit.
-- B177 Post 10 (P4 back-half) pending. Need X≤11 to create. Weekly retro Aug 9 — B177 should complete today.
+- B177 Post 10 (P4 back-half, P4=11%<15% → fires) still pending. Need X≤11. Retro is Aug 9 — post 10 likely happens after retro in first unblocked session (B178 post 1 or B177 post 10 depending on queue state).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 311+ days overdue.
@@ -104,6 +103,7 @@ Queue pillar composition (X: 13 files = 12 content + 1 reply):
 3. **X near-limit zone**: X=13. ZERO new content until drain to ≤10. B177 Post 10 (P4 back-half) waiting.
 
 ## Session History
+- (2026-08-08 S2139): Blocked (X=13). Pre-retro corrections: B176 label fixed (not 7th perfect), B177 9/10 data added, post 2 corrected to P1-sub. Retro agent Aug 9 has accurate data. 234F. PR 10/15.
 - (2026-08-08 S2138): Look-ahead zone (X=12→13). B177 Post 9 (BIP back-half). bip-280(S2138/2138 sessions/failure-correction gap/self-maintaining docs). B177=9/10. 234F. PR 9/15.
 - (2026-08-08 S2137): Blocked (X=12). CLAUDE.md improvement: displacement_flag RESOLVED→BIP-MIDPOINT-FIRED fix. Back-half skip logic added to CLAUDE.md+publishing skill. B176 bug (P2=10%) prevented in future bursts. 234F. PR 8/15.
 - (2026-08-08 S2136): Blocked (X=12). Pre-retro updated (FINAL exception: B176+B177 data added). B176 bug found: displacement back-half exception not applied → P2=10%. State file B176 label corrected. 234F. PR 7/15.
@@ -118,5 +118,4 @@ Queue pillar composition (X: 13 files = 12 content + 1 reply):
 - (2026-08-07 S2127): B176 Post 5 (P1 mandate). p1-266 (cascading failures/multi-agent). X=10→11, BS=7. displacement_flag=TRUE. 233F. PR 13/15.
 - (2026-08-07 S2126): B176 Posts 3-4 (P2+P3 mandates). p2-264+p3-265+reply-235. X=7→10, BS=5→7. 234F. PR 12/15.
 - (2026-08-07 S2125): B176 started (Posts 1-2). bip-262(BIP)+p4-263(P4)+reply-234. X=4→7, BS=3→5. 234F. PR 11/15.
-- (2026-08-07 S2124): B175 COMPLETE (Post 10/P2). p2-261 + reply-233F. B175: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓. 234F. PR 10/15.
 - (earlier sessions condensed, see git history)
