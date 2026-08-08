@@ -1,0 +1,28 @@
+Gartner projects AI will cut contact center labor costs by $80 billion globally by 2026.
+
+That number gets quoted constantly. What doesn't get quoted: only 20% of customer service leaders actually cut headcount due to AI.
+
+The other 80% chose augmentation. And the ones who chose augmentation are seeing better results.
+
+Here's the contact center AI reality check, by the numbers:
+
+**What's working:**
+- 30-50% cost reduction on call types that get automated (structured, high-volume, predictable)
+- 20-40% call containment rates
+- 15%+ agent turnover reduction (AI takes the repetitive calls, agents handle complexity)
+- 3-6 month payback on outcome-based pricing deals
+
+**What's not working:**
+- Full automation of complex calls (empathy-required, high-stakes resolution, regulatory edge cases)
+- The "AI replaces your whole team" pitch — real production data doesn't support it
+- Organizations deploying AI without redesigning the agent role (AI adds tasks to existing workflows instead of removing them)
+
+The 60% automation ceiling is real. The ceiling isn't technical. Voice AI can handle 45-60% of Tier-1 volume today. The remaining 40% requires human judgment, relationship management, or regulatory discretion — things AI handles poorly under real-world variance.
+
+The smart play: design your contact center around the ceiling, not against it. Automate everything up to 60%, then invest aggressively in human agents who handle the harder 40% better.
+
+The contact centers losing money on AI didn't fail because the AI was bad. They failed because they measured success as "calls deflected" instead of "cost per successful resolution."
+
+Different success metrics. Completely different deployments.
+
+$80 billion in projected savings assumes the augmentation model works at scale. It does. But only if you stop treating AI as a headcount offset.
