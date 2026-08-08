@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-08T03:42:00Z
-Session: S2136
-PR Count Today: 7/15
+Last Updated: 2026-08-08T04:15:00Z
+Session: S2137
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,10 +12,10 @@ PR Count Today: 7/15
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
 | Next interim | 234 | 500 | 266 | +5.0/day (W35) | ~Sep 30, 2026 |
 
-## Queue Status (VERIFIED 2026-08-08 — filesystem, S2135)
+## Queue Status (VERIFIED 2026-08-08 — filesystem, S2137)
 | Platform | Count | Limit | Status |
 |----------|-------|-------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12) — ZERO new content next session |
+| X | 12 | <15 | Look-ahead zone (11-12) — ZERO new content |
 | Bluesky | 6 | <10 | Normal — 6 companions (at BS cap) |
 
 Queue pillar composition (X: 12 files = 11 content + 1 reply):
@@ -60,20 +60,20 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - Back-half checks remaining for posts 9-10: BIP(≤2 abs, standard path — check eligible), P4(<15% = fires), P2(<15% = fires). Priority: BIP > P4 > P1(skip, =2) > P2. Post 9: BIP (if BIP still ≤2 at post 9 window). Post 10: P4. But X=12 now → blocked. Wait for drain.
 
 ## Planned Steps (2-3 ahead)
-1. **NEXT**: S2137 — X likely still 11-12 (look-ahead). Tier 1 work if still blocked. Pre-retro updated (S2136). Skills audited recently. If X≤10: B177 Posts 9-10.
-2. **THEN**: B177 Posts 9-10. Post 9: BIP back-half check (BIP=2 ≤2 abs, no displacement = standard path → fires). Post 10: P4 back-half (P4=13%<15% → fires). P2 back-half (P2=13% → fires) must fit somewhere. Priority: BIP > P4 > P2 for posts 9-10.
-3. **AFTER**: Weekly retro (Aug 9-10). B177 should be 10/10 before retro if X drains. Pre-retro retro-ready with full B176+B177 data (updated S2136).
+1. **NEXT**: S2138 — X likely still 11-12 (look-ahead). If X≤10: B177 Posts 9-10. Tier 1 exhausted (pre-retro DONE, CLAUDE.md fix DONE). If still blocked, Tier 2 or no PR.
+2. **THEN**: B177 Posts 9-10. Post 9: BIP back-half (BIP=2≤2, standard path → fires). Post 10: P4 back-half (P4=13%<15% → fires). P2 back-half (P2=13%) — fits if post 10 slot available. Priority: BIP > P4 > P2.
+3. **AFTER**: Weekly retro (Aug 9). B177 should be 10/10 before retro if X drains. Pre-retro RETRO-READY (S2136). B177 displacement_flag: NOT SET (P1 substituted at post 2, no post-5 displacement).
 
-## Completed This Session (S2136)
-- Tier 1 blocked session work: Pre-retro update (exception applied: 2+ new bursts since FINAL marker)
-  - Added B176 completion data (posts 8-10: BIP, P3, P4 — final: BIP=30%, P1=20%, P2=10%↓, P3=20%, P4=20%)
-  - Corrected B176 state file error: was labeled "PERFECT 5-WAY" but actual distribution is BIP=30% with P2=10%↓
-  - Identified B176 bug: displacement back-half exception not applied → BIP at post 8 displaced P2
-  - Added B177 progress data (8/10 in progress)
-  - Updated pre-retro to "RETRO-READY" status
-- State file B176 label corrected
+## Completed This Session (S2137)
+- Tier 1 blocked session work: CLAUDE.md improvement (quality gate met: 2+ occurrences, clear mechanism, actionable fix)
+  - **Bug fixed**: `displacement_flag: RESOLVED` erased displacement context before back-half check
+  - **Root cause**: B176 P2=10%↓ because RESOLVED was read as "standard burst" → BIP≤2 check fired at post 8 → BIP displaced P2
+  - **Fix applied**: Changed `RESOLVED` → `BIP-MIDPOINT-FIRED` in CLAUDE.md + publishing skill
+  - **New lifecycle**: TRUE (post 5) → BIP-MIDPOINT-FIRED (post 6, displacement) → RESOLVED (burst complete)
+  - **Back-half rule added**: At post 7-8, if `displacement_flag: BIP-MIDPOINT-FIRED` → skip BIP≤2 check (SATISFIED)
+  - **Evidence**: B69-B70 (original, S1254), B176 (recurrence, S2136) — 2 confirmed instances
 
-## Metrics Delta (S2136)
+## Metrics Delta (S2137)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | X queue | 12 | 12 | 0 | No content created (look-ahead zone) |
@@ -87,20 +87,19 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - P4 starvation recovery → MONITORING. B176 P4=2/10=20% ✓ (starvation cleared). B177 starvation gate applied correctly — 3-post dilution strategy worked.
 - Thread mandate at post 7-8 → CONFIRMED (3 consecutive bursts with threads_this_burst=1✓). B177 thread fired at post 7 ✓.
 
-## Session Retrospective (S2136)
+## Session Retrospective (S2137)
 ### What was planned vs what happened?
-- Planned (S2135): S2136 blocked for content (X=12 look-ahead). Tier 1 work only.
-- Actual: Verified blocked. Applied FINAL exception to pre-retro (2+ new bursts since marker). Updated pre-retro with B176 actual data, B177 progress, identified B176 displacement back-half exception bug.
-- Delta: Good Tier 1 work. Found a meaningful bug (B176 P2 displacement). Pre-retro now retro-ready.
+- Planned (S2136): S2137 blocked for content (X=12 look-ahead). Tier 1 work. Pre-retro done. Skills audited recently. CLAUDE.md improvement eligible.
+- Actual: Verified blocked (X=12, BS=6). Applied CLAUDE.md Tier 1 improvement: fixed `displacement_flag` lifecycle bug (RESOLVED→BIP-MIDPOINT-FIRED). Added back-half skip logic to both CLAUDE.md and publishing skill.
+- Delta: High-value Tier 1 work. B176 bug (identified S2136) is now fixed in protocol rules.
 
 ### What worked?
-- Pre-retro FINAL exception correctly applied (2+ bursts since marker, retro within 3 days).
-- B176 distribution analysis: discovered state file incorrectly labeled B176 as perfect when BIP=30% (displacement burst + bug in back-half exception = P2=10%).
-- Documented the displacement back-half exception failure mode for retro investigation.
+- CLAUDE.md quality gate correctly applied: 2 instances (B69-B70, B176), clear mechanism (RESOLVED overwrites context), actionable fix (new flag state BIP-MIDPOINT-FIRED).
+- Fix is minimal and surgical: 1 state variable lifecycle change, 1 detection rule at post 7-8. No regressions introduced.
 
 ### What to improve?
-- The displacement back-half exception (publishing skill + CLAUDE.md) needs clearer state-tracking. "bip_midpoint_via_displacement" variable concept identified — retro should evaluate adding this.
-- X=12 still blocked. Next: wait for drain.
+- X=12 still blocked. Next session: if X drains to ≤10, B177 Posts 9-10. Priority: BIP back-half (BIP=2≤2, standard path), P4 back-half (P4=13%<15%), P2 back-half (P2=13%<15%). Two slots for three checks → priority: BIP > P4 > P2.
+- Weekly retro tomorrow (Aug 9). Pre-retro is RETRO-READY.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 311+ days overdue.
@@ -108,6 +107,7 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 3. **X look-ahead zone**: X=12. ZERO content next session (S2136). Wait for drain to ≤10.
 
 ## Session History
+- (2026-08-08 S2137): Blocked (X=12). CLAUDE.md improvement: displacement_flag RESOLVED→BIP-MIDPOINT-FIRED fix. Back-half skip logic added to CLAUDE.md+publishing skill. B176 bug (P2=10%) prevented in future bursts. 234F. PR 8/15.
 - (2026-08-08 S2136): Blocked (X=12). Pre-retro updated (FINAL exception: B176+B177 data added). B176 bug found: displacement back-half exception not applied → P2=10%. State file B176 label corrected. 234F. PR 7/15.
 - (2026-08-08 S2135): B177 Post 8 (P3 back-half). p3-279(AI call center paradox/only hard calls/complexity throttling). X=11→12, BS=6. 234F. PR 6/15.
 - (2026-08-08 S2134): B177 Posts 6-7. bip-277(iteration rate/25x feedback loop)+thread-278(P1/311 days/failure-correction). threads✓. X=9→11, BS=6. 234F. PR 5/15.
@@ -122,5 +122,4 @@ Queue pillar composition (X: 12 files = 11 content + 1 reply):
 - (2026-08-07 S2125): B176 started (Posts 1-2). bip-262(BIP)+p4-263(P4)+reply-234. X=4→7, BS=3→5. 234F. PR 11/15.
 - (2026-08-07 S2124): B175 COMPLETE (Post 10/P2). p2-261 + reply-233F. B175: BIP=30%✓ P1=20%✓ P2=20%✓ P3=20%✓ P4=10%↓. 234F. PR 10/15.
 - (2026-08-07 S2123): B175 Posts 8-9. thread-259(P3)+bip-260(BIP). Queue 8→1→3 (massive drain). +1 follower (233). PR 9/15.
-- (2026-08-07 S2122): B175 started (Posts 1-2). bip-252(BIP)+p1-253(P1 sub for P4 blocked 33%). reply-001 on p2-249. X=7→10, BS=5→6. 232F. PR 8/15.
 - (earlier sessions condensed, see git history)
