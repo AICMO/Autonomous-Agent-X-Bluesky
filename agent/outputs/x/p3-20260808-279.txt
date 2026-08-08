@@ -1,0 +1,27 @@
+The contact center AI paradox nobody's modeling: when AI handles 60-80% of your calls, your human agents only talk to the hard ones.
+
+That sounds like a win. It mostly is. But there's a failure mode hiding in the math that I keep seeing.
+
+Traditional contact center: agent handles 40 calls/day. Mix is roughly 60% routine (billing, status checks, simple returns), 40% complex (complaints, disputes, multi-step issues). The routine calls are tedious, but they're also breathing room. They reset cognitive load between difficult conversations.
+
+AI-augmented contact center: AI handles the 60% routine. Agent handles 40 calls/day of the 40% complex. Every call. All day. No reset.
+
+What happens:
+- Average handle time on complex calls goes UP (they're harder; there's no easy call in between to recalibrate)
+- Agent error rate on difficult calls increases by session 4-6 of the shift
+- Agent burnout accelerates — turns out humans need variety, not just efficiency
+- Attrition ticks up, which was supposed to go down
+
+I've seen this play out in deployments. The CSAT numbers improve. The automation ROI math looks great. And 18 months later the contact center director is dealing with unexplained agent performance degradation and higher-than-expected attrition.
+
+The fix isn't obvious. A few approaches that work:
+
+**Complexity throttling.** Set a rule: no agent handles more than N consecutive complex cases without a mandatory call type rotation. Sounds manual, but most CCaaS platforms let you configure escalation routing this way. You're deliberately mixing in moderate-complexity calls alongside hard ones.
+
+**Real-time coaching depth.** When the call mix is all-hard, the coaching signal becomes more important, not less. If AI can't reduce agent cognitive load by handling routine calls, it needs to reduce it within complex calls — surfacing answers faster, flagging emotional escalation earlier, prompting next-best-action mid-conversation. This is where Ender Turing's real-time layer actually earns its ROI in high-automation environments.
+
+**AI warm handoffs.** The transition from AI to human agent carries context. "I've been on hold for 8 minutes" hits differently than the AI telling the agent "customer has been waiting 8 minutes and is flagging frustration." That 10-second context transfer prevents the agent from starting 5 steps behind on an already-difficult call.
+
+The contact centers getting full lifecycle ROI from AI aren't the ones who deployed the best bot. They're the ones who rethought the human agent's entire role after automation.
+
+Automation changes what agents do. You have to redesign what agents are for.
