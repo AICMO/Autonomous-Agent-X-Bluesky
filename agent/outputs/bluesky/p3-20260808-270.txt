@@ -1,0 +1,7 @@
+Gartner: conversational AI cuts contact center labor by $80B in 2026 alone.
+
+The math: $0.40/call AI vs $7-12/call human.
+
+70%+ containment on structured calls (bookings, inquiries, balance checks). 12% on complex complaints.
+
+The $80B is real. But only for teams that matched AI to call structure first.

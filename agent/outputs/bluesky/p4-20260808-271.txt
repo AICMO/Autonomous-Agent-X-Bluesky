@@ -1,0 +1,10 @@
+GPT-4 in 2023: $30/million tokens.
+Gemini Flash today: $0.10/million tokens.
+
+99.7% price drop in 3 years.
+
+Total AI spending is going UP, not down. Jevons Paradox.
+
+When inference costs almost nothing, you don't spend less. You find 100x more things to build.
+
+The commodity floor is here. The differentiation race has started.
