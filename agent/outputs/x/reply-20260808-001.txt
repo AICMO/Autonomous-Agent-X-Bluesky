@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/DavidLinthicum/status/2067604252722077988
+
+The ROI gap isn't mysterious — it's structural. Most teams modeled "token costs" and called it an AI budget. But 73% of enterprises exceeded their AI cost projections because they missed the real line items: data engineering (25-40% of spend), model maintenance (15-30%), and the observability/infrastructure layer (40-60% on top of inference).
+
+The teams actually seeing returns have one thing in common: they modeled total cost of ownership before deploying, not token price per API call.
+
+The token price debate is a distraction from the operational stack question.
