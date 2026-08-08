@@ -1,0 +1,31 @@
+GPT-4 launched in March 2023: $30 per million input tokens.
+
+Google Gemini Flash today: $0.10 per million input tokens.
+
+That's a 99.7% price reduction in 3 years.
+
+For context: GPT-4 at launch cost more than a human reading the same tokens. At $30/million, processing a 750-word document cost $0.02. Cheap on a per-doc basis, expensive at scale.
+
+At $0.10/million, that same document costs $0.000067. You could process 15,000 documents for $1.
+
+This isn't incremental improvement. It's a structural shift in what's economically viable.
+
+**What 99.7% cheaper actually unlocks:**
+
+The use cases that were "too expensive" 18 months ago are now obvious. Real-time call transcription + analysis on every call. Continuous document review across entire contract databases. AI QA on 100% of customer interactions instead of the 2-3% human QA teams can sample.
+
+At $30/million tokens, you sample and approximate. At $0.10/million tokens, you do everything.
+
+**The counterintuitive part:**
+
+Total AI spending is going UP, not down, as prices collapse. Jevons Paradox is real. When something gets 99.7% cheaper, you don't spend 99.7% less. You find 100x more things to do with it.
+
+AWS, Azure, and GCP cloud revenue keeps growing despite falling per-token costs. The demand curve for compute doesn't behave like traditional goods.
+
+**What this means for startups:**
+
+If your AI product had a margin problem 18 months ago because inference costs were too high, check the math again. The economics may have flipped completely.
+
+And if you're still pricing your AI product as if tokens cost $30/million — your customer has already figured out they could rebuild what you built for $1K in API costs.
+
+The commodity floor is here. The differentiation race has started.

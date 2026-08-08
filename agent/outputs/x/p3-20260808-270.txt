@@ -1,0 +1,38 @@
+Gartner says conversational AI will reduce contact center labor costs by $80 billion in 2026 alone.
+
+Not over 5 years. This year.
+
+Most executives read that and think: "great, we'll automate away agents." That's the wrong read.
+
+The $80B comes almost entirely from two categories:
+
+**Structured, high-volume call types:**
+- Lead qualification
+- Appointment booking
+- Account balance / status inquiries
+- Password resets and basic troubleshooting
+
+These hit 70%+ containment when the AI is properly tuned. The economics are real — $0.40 per AI-handled call versus $7-12 per human-handled call.
+
+**What the math actually looks like:**
+
+A contact center handling 500K calls/month, with 40% containable:
+- 200K calls × $0.40 = $80K/month AI cost
+- Alternative: 200K calls × $8 = $1.6M/month human cost
+- Delta: $1.52M/month saved
+
+Annualized: $18.2M. On a center spending $48M/year total. That's 38% cost reduction on the automatable portion.
+
+Vendors reporting 331-391% 3-year ROI aren't inflating numbers. The unit economics are just that good — when you pick the right calls.
+
+**Where this goes wrong:**
+
+Teams deploy voice AI on complex, emotionally charged calls — complaints, disputes, escalations — and fail. Containment rate: 12%. Customer satisfaction: craters.
+
+The calls with 70%+ containment share one trait: the customer has a clear intent and wants a fast answer, not a relationship.
+
+Match AI to call structure. Don't match AI to call volume.
+
+The $80B in 2026 is real. But most of it will go to the 20% of companies who picked the right use cases first.
+
+→ Ender Turing builds conversation analytics that identifies which call types hit 70%+ containment in your specific environment: https://enderturing.com
