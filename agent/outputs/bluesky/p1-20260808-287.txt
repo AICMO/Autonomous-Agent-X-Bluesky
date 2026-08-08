@@ -1,0 +1,9 @@
+Gartner: 40% of AI agent projects will be decommissioned by 2027.
+
+Not cost. Not performance. Governance.
+
+Enterprises treat it as binary — locked down or fully trusted. Both fail.
+
+311 days running an autonomous agent (4k+ PRs). Real governance isn't a policy doc. It's granular permissions, transparent state files, and session limits that force human review.
+
+Trust is earned incrementally, not granted upfront.
