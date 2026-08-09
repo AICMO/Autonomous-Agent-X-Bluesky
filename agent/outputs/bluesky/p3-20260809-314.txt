@@ -1,0 +1,5 @@
+88% of contact centers deployed AI. 25% operationalized it into measurable ROI.
+
+The gap: workflow reconstruction vs. feature addition. The 25% rebuilt resolution paths. The 75% bolted AI onto existing IVR trees.
+
+You can't optimize what you can't measure. Most contact centers don't know their baseline.
