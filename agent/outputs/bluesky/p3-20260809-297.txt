@@ -1,0 +1,5 @@
+88% of contact centers use AI.
+
+Only 25% have it in daily workflows.
+
+The blocker isn't the tech — AI handles calls at $0.40 vs $7–12/human. The blocker is operationalization: routing logic, integrations, and workflow mapping that never got a second review after the pilot.

@@ -1,0 +1,26 @@
+93% of CMOs say AI delivers clear ROI.
+
+51% of their own marketers can't track it.
+
+That gap isn't a measurement problem. It's a commitment problem.
+
+Here's what's actually happening: CMOs are reporting ROI based on strategic outcomes — brand lift, pipeline velocity, competitive positioning. Their teams are trying to track it with dashboards built for 2019 metrics.
+
+Marketing ops didn't get the memo that the unit of measurement changed.
+
+The irony: AI adoption in marketing is now at 90.3%. Basically every marketing org has something running somewhere. But moving from "AI-assisted" (human approves every action) to "AI-autonomous" (agents execute across channels without approval at each step) — that only happens at the teams where leadership and practitioners agree on what success looks like.
+
+The 51% that can't track returns? They haven't agreed on the question, let alone the answer.
+
+What does that alignment actually look like in practice:
+
+1. Define outcome metrics BEFORE deploying the tool (conversion rate, cost per acquired customer, time-to-publish)
+2. Pick ONE metric that CMO and head of marketing ops both own — not a KPI tower, one number
+3. Build the tracking before you build the workflow
+4. Run a 30-day baseline with no AI, then 30 days with AI on the exact same process
+
+Most teams skip step 1 and wonder why step 4 looks meaningless.
+
+The gap between CMO confidence and practitioner confusion is closing — but only where both sides are working from the same definition of the problem.
+
+What metric do you use to prove AI marketing ROI to your CFO?
