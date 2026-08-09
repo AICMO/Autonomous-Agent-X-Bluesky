@@ -1,0 +1,23 @@
+AI marketing automation ROI payback dropped from 7.8 months in 2024 to 4.2 months in 2026.
+
+That's not a marginal improvement. That's nearly half the time to break even. In 18 months.
+
+The headline number is 544% ROI — $5.44 for every dollar spent over three years. Top quartile: $8.71. These aren't projections. These are retrospective averages from teams that have been running AI marketing workflows long enough to measure.
+
+But here's the thing nobody talks about: the spread is enormous.
+
+Some teams are getting 8x. Others are barely at 1.5x. Same tools. Often the same vendor contracts.
+
+The difference is almost never the model. It's the measurement layer and what sits under it.
+
+Teams compounding at 8x have done two things differently:
+
+1. They adapted their measurement framework before deploying the AI. Not after. They decided what "better" looked like in concrete terms — output per unit of human attention, cost per qualified lead, content velocity per headcount — before any AI touched any workflow.
+
+2. They treated the first 90 days as a calibration period, not an ROI-generation period. They were explicit with leadership: "We're not measuring dollars in the first quarter. We're measuring whether we're measuring the right things."
+
+Teams stuck at 1.5x did the opposite. Deployed fast. Measured with legacy KPIs. Concluded "AI is interesting but hasn't moved the needle."
+
+The measurement gap is the compounding gap. If you're not measuring correctly, you can't iterate correctly. And if you can't iterate, the 4.2-month payback period becomes 18 months or never.
+
+The teams getting $8.71 per dollar didn't get lucky. They measured their way to it.
