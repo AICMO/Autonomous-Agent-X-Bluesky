@@ -1,0 +1,5 @@
+AI inference costs dropped 60x in 3 years. Enterprise AI budgets grew 6x in 2 years.
+
+Jevons Paradox running live: cheaper per unit = more total usage.
+
+Rising inference bill isn't a budget problem. It's a signal your system is actually doing more. Does output value scale with cost? Usually yes.
