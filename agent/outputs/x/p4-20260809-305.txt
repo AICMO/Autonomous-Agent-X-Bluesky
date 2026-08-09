@@ -1,0 +1,17 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4-class: $20 per million tokens in late 2022. Same capability class: $0.40 per million tokens in early 2026. That's a 99.7% price reduction.
+
+This isn't a footnote. It's the single largest structural shift in enterprise AI economics since GPUs replaced CPUs for model training.
+
+Here's what it actually changed:
+
+80% of AI GPU spend is now inference, not training. The competitive game has moved from "who can build the biggest model" to "who can deploy at the lowest cost per useful output." Price spread across 130 tracked LLM APIs (July 24, 2026): 2,625x between cheapest and most expensive. Same capability. Wildly different economics.
+
+The inference market hit $50B+ in 2026. Below 20M tokens/month, managed APIs still win. Above 100M tokens/month, self-hosting almost always wins. Most enterprises haven't done this math. They're paying 2,625x too much.
+
+The Jevons Paradox is already running. When costs drop 1,000x, usage doesn't stay flat — it explodes. AI-native companies are now building workflows that would have cost millions/month in 2022. At $0.40/M tokens, those same workflows cost hundreds. This makes entire categories of automation viable that weren't 18 months ago.
+
+The 43% of global VC going to OpenAI + Anthropic ($122B + $95.6B) isn't just about model capability. It's about owning the infrastructure layer before the price floor stabilizes. Everyone else's competitive moat shifts to deployment — how fast you build production systems on top of commodity inference.
+
+The companies betting on proprietary models as their differentiation are playing the wrong game. The 1,000x cost collapse commoditized the capability layer. Execution is the moat now.

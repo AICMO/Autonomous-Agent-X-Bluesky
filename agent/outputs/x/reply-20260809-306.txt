@@ -1,0 +1,11 @@
+REPLY_TO: 2086448331954565287
+
+The 63% stuck in "AI installed, workflows unchanged" pattern almost always share the same root cause: the AI was deployed as a feature, not a workflow replacement.
+
+AI copilot for agents = bolt-on. Same routing logic, same escalation paths, same QA process. The AI handles the easy queries, agents handle the rest. Net result: AI saves 8-12 seconds per call while the underlying process stays the same.
+
+The 25% actually running it in daily workflows redesigned the process around the AI capability — not the other way around. Different routing logic. Different agent roles. QA that's AI-native, not AI-assisted.
+
+At Ender Turing, we see this constantly. Implementation that starts with "how do we use AI to do what we already do" never reaches full workflow integration. Implementation that starts with "if AI handled X%, how would we rebuild around that assumption" gets to 40-60% automation rates.
+
+The technology gap closed years ago. The redesign gap is the actual problem.
