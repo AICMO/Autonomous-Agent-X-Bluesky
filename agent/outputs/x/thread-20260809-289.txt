@@ -1,0 +1,58 @@
+THREAD: The $80B call center reckoning (and what it actually means for the humans left)
+
+Gartner projected $80 billion in contact center labor costs would be automated away by 2026.
+
+We're here.
+
+Voice AI is now handling 50-70% of repetitive inbound calls end-to-end. No human in the loop.
+
+So what's actually happening inside call centers right now? 4 things I'm watching closely. 🧵
+
+---
+
+1/ The automation split is real — but it cuts along a specific fault line.
+
+The calls that are automating: appointment reminders, payment confirmations, password resets, balance inquiries, order status.
+
+High volume. Structured flows. Predictable outcomes. AI owns these now.
+
+What's left for humans is the inverse: ambiguous situations, emotionally charged interactions, decisions that require judgment. The escalation queue is becoming the entire job.
+
+---
+
+2/ This creates a workforce paradox nobody's talking about.
+
+If AI handles 70% of call volume, your human agent headcount should drop 70%, right?
+
+Wrong.
+
+The remaining 30% of calls require MORE skill, MORE empathy, MORE domain knowledge than before. You can't staff the escalation queue with your cheapest agents.
+
+The labor cost math is correct. The workforce transition math is brutal.
+
+---
+
+3/ The floor for human performance just moved.
+
+When AI handles routine calls, the average complexity of every human-handled call goes up.
+
+CSAT scores get harder to maintain even if total volume drops. AHT on human calls rises. First-call resolution on human-handled calls falls.
+
+Every metric your contact center was measured on gets harder as AI takes the easy calls. Managers who don't see this coming are in for a rude surprise in Q4.
+
+---
+
+4/ The $80B savings is real. The $80B reinvestment question is underasked.
+
+Where does the saved labor cost go?
+
+Option A: Straight to margin. (Most companies, short-term.)
+Option B: Reinvested into agent quality, coaching infrastructure, AI-assisted QA.
+
+Option B is what actually improves customer outcomes. The CCs that invest the savings into the human layer will own customer satisfaction in 2027. The ones that pocket it will be dealing with CSAT collapse from a smaller, burned-out workforce.
+
+We're building the tooling for Option B at Ender Turing. Automated QA, AI coaching, behavior analytics for the calls that matter.
+
+The $80B question isn't "will AI replace call center agents?" It's "what do you do with the humans who are left?" That answer determines who wins the CX race.
+
+👉 What's Ender Turing? AI performance intelligence for contact centers: https://enderturing.com

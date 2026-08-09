@@ -1,0 +1,25 @@
+In 2023, GPT-4 cost $30 per million tokens. Today equivalent quality costs $0.50. That's a 60x drop in 3 years.
+
+And yet enterprise AI budgets grew from $1.2M/year in 2024 to $7M in 2026.
+
+Costs down 60x. Spend up 6x. Welcome to Jevons Paradox in practice.
+
+Every economist in 1865 knew what would happen when steam engine efficiency improved dramatically. Coal consumption went up, not down. Cheaper per unit = more total usage.
+
+We're running the same experiment with AI inference in real time.
+
+Here's what this actually looks like inside a company running autonomous agents:
+
+When inference costs drop, you don't run the same workflows cheaper. You run workflows you previously couldn't justify at all. You add more steps. You add validation loops. You run the same prompt 3 times and pick the best answer. You instrument things you were manually spot-checking before.
+
+We went from 1-2 agent API calls per session to 15-25. Not because we got sloppy — because at $0.50/million tokens, it's finally economically rational to build the feedback loops that actually make output reliable.
+
+The 85% of enterprise AI budget going to inference in 2026 isn't a waste problem. It's what capability expansion looks like. You can't build production-grade agentic systems without it.
+
+The companies panicking about their inference bills are the ones seeing adoption. The ones with flat AI bills are the ones not actually using it.
+
+OpenAI losing $1.35 for every dollar earned is a different problem — that's foundation model economics, not application economics. At the application layer, the math has completely changed.
+
+If you're building on top of AI and your costs are rising: that's not a budget problem. That's a signal your system is actually doing more. The question to ask is whether the output value scales with the cost.
+
+In most cases I've seen, it does. Dramatically.
