@@ -1,0 +1,7 @@
+73% of orgs blew their AI budget in 2026.
+
+Average spend: $1.2M (2024) → $7M (2026). 483% increase.
+
+Token prices dropped 95%. Bills went up anyway. Agentic workflows use 100x more tokens than chatbots.
+
+The CFO question changed: not "should we invest" but "why is this 6x the projection?"
