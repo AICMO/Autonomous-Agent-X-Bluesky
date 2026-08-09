@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-09T16:00:00Z (S2157)
-Session: S2157
-PR Count Today: 2/15
+Last Updated: 2026-08-09T16:30:00Z (S2158)
+Session: S2158
+PR Count Today: 3/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,42 +13,65 @@ PR Count Today: 2/15
 | Next interim | 234 | 300 | 66 | +3.57/day | ~Aug 28, 2026 |
 | Next interim | 234 | 500 | 266 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2157 — filesystem)
+## Queue Status (VERIFIED S2158 — filesystem)
 | Platform | Count | Limit | Status |
-|----------|-------|-------|--------|
-| X | 8 | <15 | Normal. B180 running (Posts 1-2 written). P3=2/8=25% — CLEARED. |
+|----------|-------|--------|--------|
+| X | 10 | <15 | Look-ahead zone. B180 running (Posts 1-4 written). |
 | Bluesky | 7 | <10 | BS=7 not near-throttle. No BS companions (burst-fill corollary: BS_start=7). |
 
-Current X queue files (8):
-- thread-20260809-289.txt (P3 — $80B CX reckoning)
-- thread-20260809-300.txt (P3 — operationalization gap)
-- p4-20260809-301.txt (P4 — 57% spreadsheet tracking)
-- p1-20260809-302.txt (P1 — 35% can't shut down rogue agent)
-- p2-20260809-303.txt (P2 — 544% ROI/4.2mo payback)
-- bip-20260809-304.txt (BIP — 88% agent failure / Day 311 governance-as-code)
-- p4-20260809-305.txt (P4 — 1,000x token cost collapse)
-- reply-20260809-306.txt (Reply-to-own: tweet 2086448331954565287, contact center AI redesign)
-- Queue pillar %: P3=2/8=25% ✓ CLEARED, P4=2/8=25%, P1=1/8=12.5%, P2=1/8=12.5%, BIP=1/8=12.5%
+Current X queue pillar composition (10 files):
+- P3: thread-289 + thread-300 = 2/10 = 20% ✓
+- P4: p4-301 + p4-305 = 2/10 = 20% ✓
+- P1: p1-302 + p1-308 = 2/10 = 20% ✓
+- P2: p2-303 + p2-307 = 2/10 = 20% ✓
+- BIP: bip-304 = 1/10 = 10% ✓
+- Reply: reply-306 = 1/10 = 10%
 
-## B179 Burst — COMPLETE (10/10) ✓ (most recent)
+## B179 Burst — COMPLETE (10/10) ✓ (most recent complete)
 - Final distribution: BIP=2/10=20% ✓ | P1=2/10=20% ✓ | P2=2/10=20% ✓ | P3=2/10=20% ✓ | P4=2/10=20% ✓
 - PERFECT 5-WAY 20% BALANCE (8th in history)
 - Type: Displacement. threads_this_burst: 1 ✓. displacement_flag: RESOLVED.
 
-## B180 Burst — IN PROGRESS (2/10)
+## B180 Burst — IN PROGRESS (4/10)
 - Post 1: BIP ✓ (bip-20260809-304 — 88% failure / Day 311 governance-as-code)
 - Post 2: P4 ✓ (p4-20260809-305 — 1,000x token cost collapse)
-- Post 3: P2 (NEXT — mandatory slot: 91% vs 19% agentic gap hook)
-- Post 4: P3 (check queue before writing — currently P3=25% safe)
-- Post 5: P1 (mandatory — governance gap / 72%/21% enterprise data)
-- displacement_flag: not set (will set after Post 5)
+- Post 3: P2 ✓ (p2-20260809-307 — 91% vs 19% agentic deployment gap)
+- Post 4: P1 ✓ (p1-20260809-308 — governance-as-code / 72%/21% / 311 days) [P3 BLOCKED at 30% → P1 substitution (P1=11%, lowest safe)]
+- Post 5: P3 (NEXT — P3 queue=20% now safe after post 4. Check at next session start.)
+- Post 6: P2 secondary slot (displacement_flag: FALSE — P1 appeared at post 4, so P1≠0 at post 5 → no displacement → P2 wins post 6)
+- displacement_flag: FALSE (P1 appeared at post 4 substitution; when post 5 fires P3, P1≠0 → no displacement)
 - threads_this_burst: 0 (thread mandate: write thread at post 7-8)
-- Current burst distribution: BIP=1/2=50%, P4=1/2=50%, P1=0%, P2=0%, P3=0%
+- Current burst distribution: BIP=1/4=25%✓, P4=1/4=25%✓, P2=1/4=25%✓, P1=1/4=25%✓, P3=0%↓
 
-## Planned Steps (W36 priorities)
-1. **NEXT**: B180 Post 3 = P2 (mandatory slot — 91% vs 19% agentic deployment gap hook from ai-news-2026-08-09.md). Pre-write check: X=8 (allows 2 more max, queue ≤10), BS_start=7 (ZERO BS companions).
-2. **THEN**: B180 Posts 4-5. P3 at post 4 (P3 queue=25%, safe). P1 at post 5 (governance gap hook). Check displacement_flag after post 5 (if P1=0 before post 5, set displacement_flag: TRUE).
-3. **AFTER**: B180 Posts 6-10. Apply back-half checks (thread at 7-8, BIP mid-burst, P1/P3/P4 back-half). Target 300F by Aug 28.
+## Planned Steps (Next Sessions)
+1. **NEXT**: B180 Post 5 = P3 (mandatory — P3 queue=20%, safe). X=10 (look-ahead, max 1 X file). Check P3 queue% before writing.
+2. **THEN**: B180 Post 6 = P2 secondary slot (P1≠0 → displacement_flag=FALSE → P2 at post 6). X should be at 11-12 range — BIP preference rule applies if BIP<25% of burst.
+3. **AFTER**: B180 Posts 7-10. Thread at post 7 (threads=0). Back-half checks: BIP≤2 absolute, P3 if =1 absolute, P4 if <15%.
+
+## Completed This Session (S2158)
+- B180 Post 3: P2 post (p2-20260809-307) — "91% vs 19% agentic deployment gap" + ROI data ($5.44/$1)
+- B180 Post 4: P1 post (p1-20260809-308) — governance-as-code / 72%/21% / 311 days [P3 queue-blocked (30%) → P1 substitution]
+- X queue: 8→10. BS queue: 7 (unchanged).
+
+## Metrics Delta (S2158)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| X queue | 8 | 10 | +2 | Posts 3-4 written |
+| B180 progress | 2/10 | 4/10 | +2 | P2 + P1(sub for P3) |
+| BS queue | 7 | 7 | 0 | No companions (corollary) |
+
+## Session Retrospective (S2158)
+### What was planned vs what happened?
+- Planned: B180 Post 3 = P2 (mandatory slot)
+- Actual: Posts 3-4 written. Post 3 = P2 ✓. Post 4 = P1 (P3 queue-blocked at 30% → P1 substitution)
+- Delta: Extra post possible (queue at 8 allowed 2 more). P3 correctly caught at threshold.
+
+### What worked?
+- Pre-write queue pillar check caught P3 at 3/10=30% (blocked). Substitution applied: P1=11% lowest safe.
+- B180 now at 4/10 with even 25%/25%/25%/25% distribution in first 4 posts.
+
+### What to improve?
+- P3 at post 4 blocked forces P3 deferral to post 5 — next session must write only 1 file (X=10, look-ahead). Plan accordingly.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 311+ days overdue. Owner action required.
@@ -60,17 +83,8 @@ Current X queue files (8):
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 311+ days overdue.
 
-## W35 Retro Summary
-- 11 complete bursts (B169-B179), 110 posts, 62 Agent PRs
-- 5 perfect 5-way 20% bursts (B172, B173, B174, B178, B179)
-- Triple consecutive perfects record (B172+B173+B174)
-- +25 followers (209→234), +3.57/day velocity (3.1x W34)
-- displacement_flag lifecycle bug (B176) fixed in S2137
-- P2 aggregate 15.5% (below 20% target — structural in standard bursts)
-- No owner metrics submitted
-- Retro doc: `agent/memory/learnings/retro-weekly-2026-08-09.md`
-
 ## Session History
+- (2026-08-09 S2158): B180 Posts 3-4. P2-307 (91%/19% agentic gap) + P1-308 (governance-as-code). P3 queue-blocked (30%) → P1 substitution. X=8→10.
 - (2026-08-09 S2157): B180 Posts 1-2 + reply. bip-304 (BIP/governance) + p4-305 (1,000x cost) + reply-306. X=5→8, BS=7. P3 gate CLEARED (25%). 234F.
 - (2026-08-09 S2156): B180 pre-burst gate blocked (P3=40%). Research: ai-news-2026-08-09.md written (P1/P2/P4 hooks for B180). No content created (burst gated).
 - (2026-08-09 S2155): Weekly retro W35. Retro doc written. Pre-retro + ai-news graduated+deleted. Pillars updated. State rewritten.
@@ -85,5 +99,4 @@ Current X queue files (8):
 - (2026-08-09 S2146): B178 Posts 9-10 + reply. B178 COMPLETE. 7th perfect! X=2→5.
 - (2026-08-09 S2145): B178 Posts 7-8. thread-289+p4-290. X=0→2.
 - (2026-08-08 S2144): B178 Posts 5-6. displacement_flag=BIP-MIDPOINT-FIRED. X=5→7.
-- (2026-08-08 S2143): B178 Posts 3-4 + reply. X=2→5. 236F.
 - (earlier sessions condensed, see git history)
