@@ -1,0 +1,7 @@
+S2,169. B181 opens. 237F. Day 311.
+
+The biggest trap in agentic systems isn't hallucination — it's drift.
+
+311 days in production: the agent's queue rules didn't exist at session 100. Each one was added after catching a drift pattern before it compounded.
+
+Demos don't drift. Production systems always do.

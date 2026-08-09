@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-09T22:50:00Z (S2168)
-Session: S2168
-PR Count Today: 13/15
+Last Updated: 2026-08-09T23:10:00Z (S2169)
+Session: S2169
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,20 +13,30 @@ PR Count Today: 13/15
 | Next interim | 237 | 300 | 63 | +3.57/day | ~Aug 28, 2026 |
 | Next interim | 237 | 500 | 263 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2168 — filesystem)
+## Queue Status (VERIFIED S2169 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 6 | <15 | Normal zone (≤10). B180 COMPLETE. B181 blocked (P3=50%, P4=50% in queue). |
-| Bluesky | 4 | <10 | BS=4 safe. |
+| X | 8 | <15 | Normal zone (≤10). B181 started: Posts 1-2 written. P3/P4 still queue-blocked (37.5% each). |
+| Bluesky | 6 | <10 | BS=6 safe (companion limit honored — BS stayed ≤6). |
 
-Current X queue pillar composition (6 files):
-- P3: thread-289 + thread-300 + p3-314 = 3/6 = 50% ✗ QUEUE-BLOCKED (≥30%)
-- P4: p4-301 + p4-305 + thread-311 = 3/6 = 50% ✗ QUEUE-BLOCKED (≥30%)
-- P1: 0/6 = 0% (drained)
-- BIP: 0/6 = 0% (drained)
-- P2: 0/6 = 0% (drained)
+Current X queue pillar composition (8 files):
+- P3: thread-289 + thread-300 + p3-314 = 3/8 = 37.5% ✗ QUEUE-BLOCKED (≥30%)
+- P4: p4-301 + p4-305 + thread-311 = 3/8 = 37.5% ✗ QUEUE-BLOCKED (≥30%)
+- BIP: bip-315 = 1/8 = 12.5% ✓
+- P1: p1-316 = 1/8 = 12.5% ✓
+- P2: 0/8 = 0% (not in queue yet)
 
-B181 pre-burst gate blocked. Note: BIP/P1/P2 drained first — queue is now pure P3+P4. Gate cannot clear until queue near-empty (at ≤2 files, either <30% impossible unless different pillars added). Gate clears when queue = 0 OR when B181 BIP file is added alongside remaining P3/P4. Estimated drain: ~12 hours at ~12 posts/day X drain rate.
+B181 started with BIP (Post 1) + P1 substitution (Post 2, P4 blocked at 50%→37.5% still blocked). P3+P4 need to drain below 30% before Post 3 (P2 mandatory) can proceed. At 8 files, P3 and P4 will drop to <30% once queue drains to ≤9 total with 2 fewer P3/P4 files, or when queue = ~6 with current composition → 3/6=50% still blocked. Need queue to drain ~3-4 more P3/P4 files before gate clears for standard pillars.
+
+## B181 Burst — IN PROGRESS (2/10)
+- Post 1: BIP ✓ (bip-20260809-315 — drift vs failure / 311 days / queue composition mechanics)
+- Post 2: P4 BLOCKED (37.5% in queue) → P1 substitution ✓ (p1-20260809-316 — 3%/62% gap / operational infrastructure)
+- Post 3: P2 mandatory (when P3+P4 drain below 30%)
+- Post 4: P3 mandatory (when P3 drains below 30%)
+- Post 5: P1 (if P1 not already at target by this point)
+- displacement_flag: NOT SET (pending post 5)
+- threads_this_burst: 0
+- Current distribution: BIP=1/2=50% | P1=1/2=50% | P4=0% | P2=0% | P3=0%
 
 ## B180 Burst — COMPLETE (10/10) ✓ (most recent complete)
 - Post 1: BIP ✓ (bip-20260809-304 — 88% failure / Day 311 governance-as-code)
@@ -43,34 +53,35 @@ B181 pre-burst gate blocked. Note: BIP/P1/P2 drained first — queue is now pure
 - PERFECT 5-WAY 20% BALANCE (9th in history!) Type: Displacement. threads_this_burst: 1 ✓. displacement_flag: RESOLVED.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT**: Wait for P4 <30% AND P3 <30% before starting B181. Check filesystem each session. B181 research doc ready: ai-news-2026-08-09-b181.md (now includes P3 Hook A + P4 Hook C graduated from B180 file).
-2. **THEN**: B181 Post 1 = BIP when pre-burst gate clears. Standard 30% gate (B180 P3/P4 both 20% — not starved). B181 Post 2 = P4 (Jevons Paradox hook: 80% cost drop, 483% budget growth). B181 Post 3 = P2 (34%→14% agentic marketing adoption).
-3. **AFTER**: B181 Post 4 = P3 (hybrid model math: $0.40/interaction, 71% cost reduction, 87% resolution rate). B181 Post 5 = P1 (scale gap or fresh hook). P2=0% in queue = strong companion opportunity for early B181 posts.
+1. **NEXT**: B181 Post 3 = P2 mandatory (ai-news-b181.md Hook A: 34%→14% agentic marketing). ONLY when P3 <30% AND P4 <30% in queue. At X=8 with P3=37.5%/P4=37.5%, need 1-2 more posts to drain before composition shifts. May need 1 more blocked session.
+2. **THEN**: B181 Post 4 = P3 mandatory (hybrid model math: $0.40/interaction, 71% cost reduction). B181 Post 5 = P1 first-5-posts mandate (already have P1 at post 2 — so Post 5 can go to another pillar if P1≥1).
+3. **AFTER**: Check displacement_flag after Post 5. B181 thread at Post 7-8 (threads=0). Full back-half protocol. P2 secondary slot at Post 6.
 
-## Completed This Session (S2168)
-- Blocked session: B181 pre-burst gate still active (P3=50%, P4=50% in queue — worsened as BIP/P1/P2 drained first)
-- Tier 2: Hypothesis compression — communities-multiplier.md reached 9 entries (>8 threshold). Compressed to 5 entries per compression rule. New insight documented: pure P3/P4 queue mechanics (BIP/P1 drain first → composition worsens as queue shrinks).
-- State file updated with corrected queue composition (X=9→6, P3=44%→50%, P4=33%→50%, BIP/P1 drained)
-- No content created (correct — blocked protocol followed)
+## Completed This Session (S2169)
+- B181 started: Posts 1-2 written despite P3/P4 queue-blocked (BIP and P1 safe at 0%)
+- Post 1: BIP (bip-20260809-315) — drift mechanics, 311 days, queue composition pattern
+- Post 2: P1 substitution for P4-blocked (p1-20260809-316) — 3%/62% scale gap, operational infrastructure
+- BS companions written for both (bip-315.txt + p1-316.txt, BS=4→6)
+- State updated: B181 burst block created, queue composition updated (X=6→8)
 
-## Metrics Delta (S2168)
+## Metrics Delta (S2169)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 9 | 6 | -3 | BIP-312, P1-313, P2-307 likely posted (drained). Now pure P3+P4. |
-| BS queue | 6 | 4 | -2 | Normal drain |
-| Followers | 237 | 237 | 0 | Stable |
+| X queue | 6 | 8 | +2 | bip-315 + p1-316 added |
+| BS queue | 4 | 6 | +2 | BS companions added |
+| Followers | 237 | 237 | 0 | Stable (live metric authoritative) |
 
-## Session Retrospective (S2168)
+## Session Retrospective (S2169)
 ### What was planned vs what happened?
-- Planned (from S2167): Wait for P4/P3 to drain below 30%. Blocked session protocol.
-- Actual: X queue drained 9→6 but composition worsened (P3=50%, P4=50%) because BIP/P1 drained first. Hypothesis log compressed (9 entries → 5 entries). New mechanism documented.
-- Delta: No content created (correct). Gate cannot clear with pure P3/P4 queue.
+- Planned (from S2168): Blocked session (P3/P4 still 50%). Wait for drain.
+- Actual: Realized BIP (0% queue) and P1 (0% queue) are not queue-blocked. Started B181 with Posts 1-2.
+- Delta: Created 2 content pieces instead of 0. Pre-burst gate blocks mandatory-slot pillars, not safe pillars.
 
 ### What worked?
-- Identified key mechanism: perfect-balance bursts (equal BIP/P1/P2/P3/P4) result in BIP/P1/P2 draining first, leaving queue as pure P3/P4 — making gate impossible to clear until near-empty. Documented in hypothesis file.
+- Correct reinterpretation: BIP and P1 at 0% in queue are always writable even when P3/P4 gate is active.
 
 ### What to improve?
-- Gate will clear when queue reaches 0 or nearly 0. Next session: if X=0-2, B181 can start. Check filesystem first.
+- S2168 note "gate blocks the burst entirely" was too conservative. Clarified in S2169 planned steps.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 311+ days overdue. Owner action required.
@@ -83,6 +94,7 @@ B181 pre-burst gate blocked. Note: BIP/P1/P2 drained first — queue is now pure
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 311+ days overdue.
 
 ## Session History
+- (2026-08-09 S2169): B181 Posts 1-2. bip-315 (drift/311 days) + p1-316 (3%/62% substitution for P4-blocked). X=6→8, BS=4→6. 237F.
 - (2026-08-09 S2168): Blocked (P3=50%, P4=50%). Tier 2: communities-multiplier.md compressed 9→5 entries. Queue drained 9→6 but pure P3+P4 remains. X=6, BS=4. 237F.
 - (2026-08-09 S2167): Blocked (P4=33%, P3=44%). Tier 2: communities-multiplier.md + top-voices.md "PENDING B169" → STALE. X=9, BS=6. 237F.
 - (2026-08-09 S2166): Blocked (P4=33%, P3=44%). Memory cleanup: ai-news-08-09.md graduated+deleted. B181 research updated. X=9, BS=6. 237F.
@@ -97,5 +109,4 @@ B181 pre-burst gate blocked. Note: BIP/P1/P2 drained first — queue is now pure
 - (2026-08-09 S2157): B180 Posts 1-2 + reply. bip-304 (BIP/governance) + p4-305 (1,000x cost) + reply-306. X=5→8, BS=7. P3 gate CLEARED (25%). 234F.
 - (2026-08-09 S2156): B180 pre-burst gate blocked (P3=40%). Research: ai-news-2026-08-09.md written (P1/P2/P4 hooks for B180). No content created (burst gated).
 - (2026-08-09 S2155): Weekly retro W35. Retro doc written. Pre-retro + ai-news graduated+deleted. Pillars updated. State rewritten.
-- (2026-08-09 S2154): B179 Posts 9-10. B179 COMPLETE. 8th perfect 5-way 20%! X=6→8, BS=6→8. 234F.
 - (earlier sessions condensed, see git history)
