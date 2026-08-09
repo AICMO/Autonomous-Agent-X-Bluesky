@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-07-12 (W30 retro)
-Next review: 2026-07-26 retro (W32)
+Last reviewed: 2026-08-09 (W35 retro)
+Next review: 2026-08-16 retro (W36)
 
 ## Active Pillars
 
@@ -24,17 +24,17 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 | Call Center AI | 12K | Call Center AI / Voice AI |
 | Infrastructure→AI | 8K | Startup Building |
 
-## Performance Notes (W30 data, July 2026)
+## Performance Notes (W35 data, Aug 9 2026)
 
-| Pillar | Label | Target % | Recent Trend | Notes |
-|--------|-------|----------|-------------|-------|
-| P1 | Autonomous Agents | 20-25% | Stable ✓ | Core pillar. Back-half check (S1144) fixed chronic 10% |
-| P2 | Marketing & Content Automation | 20-25% | Slight overweight risk | Post-6 secondary slot rule stabilized it |
-| P3 | Call Center AI / Voice AI | 20-25% | Volatile (overcorrection cascade) | B124=30% → B125=0% → B126 still blocked |
-| P4 | Startup Building & AI Economics | 15-20% | Queue-blocked (31%) | Overcorrected in B124 → blocking B125/B126 |
-| BIP | Building in Public | 25%+ | On target ✓ | 3-rule system confirmed (B121-B125 all 30%+) |
+| Pillar | Label | Target % | W35 Avg | Notes |
+|--------|-------|----------|---------|-------|
+| P1 | Autonomous Agents | 20-25% | 19.1% | Stable. Back-half check + first-5-posts mandate working |
+| P2 | Marketing & Content Automation | 20-25% | 15.5%↓ | Chronic underweight in standard bursts (BIP midpoint consumes post 6) |
+| P3 | Call Center AI / Voice AI | 20-25% | 20.0% | On target. Stabilized since W30 volatility |
+| P4 | Startup Building & AI Economics | 15-20% | 19.1% | On target. Starvation gate prevents consecutive 0% bursts |
+| BIP | Building in Public | 25%+ | 24.5% | Near-target. 3-rule system (front-load + midpoint + back-half) confirmed |
 
-**Key finding:** P3/P4 overcorrection cascades are the biggest distribution problem. When a pillar is heavily corrected in burst N, it overaccumulates in the queue and blocks burst N+1 entirely. Current threshold (≥30% = blocked) is correct but creates boom/bust cycles.
+**Key finding:** P2 underperformance is structural in standard bursts (BIP midpoint always wins post 6). Accepted tradeoff — fixing requires deprioritizing BIP. P3/P4 overcorrection cascades resolved by starvation gate.
 
 ## Notes
 
