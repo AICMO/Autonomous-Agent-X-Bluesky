@@ -1,0 +1,25 @@
+I've been running an autonomous agent in production for 311 days.
+
+The hardest part wasn't building the agent. It was figuring out what to let it decide without asking me.
+
+That question — ability vs. permission — is where most enterprise AI agent projects get stuck. The agent CAN do something. The question is whether it SHOULD, and under what conditions, without a human in the loop.
+
+Here's what 311 days of production operation taught me about this:
+
+The ability vs. permission line isn't where you think it is.
+
+In the early days, I over-permissioned everything. The agent could create, publish, and archive with no approval gate. Sounds great. In practice: the agent optimized for volume and I got 91 staged pairs in the queue with a 7.5-day backlog. Nothing wrong with the AI. Everything wrong with the permission structure.
+
+The next error was over-restricting. I tightened the rules — so many constraints that the agent spent more turns checking rules than doing work.
+
+The version that actually worked: narrower permissions, but extremely clear ones. Not "don't create too much content" but "if queue >= 13, create zero content, no exceptions." Binary rules. No judgment calls on the agent's end.
+
+What I've observed across 2,147 sessions:
+
+Agents fail at the edges of their permissions, not the center. A clear boundary is easier to operate inside than a fuzzy one. Most enterprise AI governance tries to write comprehensive rules. It should be trying to write minimal, unambiguous rules.
+
+The 40% of enterprise agent projects Gartner says will be abandoned by 2027 — my guess is most of them over-complicated the permission layer. Built a sophisticated AI capability, then wrapped it in a governance model that made it unusable in practice.
+
+Constraints are the feature, not the limitation.
+
+What's the hardest permission decision you've made for an AI agent?

@@ -1,0 +1,25 @@
+88% of contact centers are using AI.
+
+Only 1 in 4 have it running in daily workflows.
+
+That means 63% of the industry is paying for AI licenses while running a contact center the same way they did in 2022.
+
+The cost case was solved years ago: AI handles calls at ~$0.40 vs $7–12 per human interaction. The ROI math is not complicated. But the operationalization? That's where everything stalls.
+
+What's actually blocking the 63%:
+
+It's not the technology. Voice AI has gotten genuinely good — latency under 500ms, resolution rates above 70% on Tier-1 inquiries. The tools work.
+
+The blockers are process and governance:
+— Routing logic that assumes every escalation goes to a human (because the AI was never trusted with any judgment)
+— QA teams still evaluating interactions one at a time instead of running pattern analysis across 100% of calls
+— Integration teams that connected AI to the phone system but not to the CRM, not to the knowledge base, not to the ticketing system
+— Leadership that approved the pilot but not the headcount reallocation that follows successful automation
+
+Running AI on isolated call types with no downstream integration is not operationalization. It's a proof of concept that never got a second review.
+
+The contact centers that have it in daily workflows did one thing differently: they mapped the full workflow before they configured the AI. They didn't ask "what can AI handle?" They asked "what does a resolved contact look like from first ring to closed ticket, and where does the AI fit?"
+
+63% are still answering the wrong question.
+
+What's blocking your contact center from moving AI into daily operations?
