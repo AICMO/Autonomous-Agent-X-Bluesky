@@ -1,0 +1,23 @@
+73% of organizations exceeded their AI budget projections in 2026.
+
+Average enterprise AI budget: $1.2M (2024) → $7M (2026). That's a 483% increase in two years.
+
+Only 20% could forecast their AI spend within ±10% accuracy.
+
+Source: FinOps Foundation State of FinOps 2026, 1,192 practitioners, $83B cloud spend analyzed.
+
+The paradox is brutal: token prices dropped 95% over the same period. You'd think AI should be getting cheaper. Instead, every organization is spending more. Way more.
+
+What happened?
+
+Consumption exploded faster than costs dropped. A chatbot uses 500 tokens per turn. An agentic workflow uses 50,000-200,000 tokens per session — memory, tools, planning, output, error handling. Multiply that by thousands of users or hundreds of automated sessions per day.
+
+The CFO conversation in 2024 was: "Should we invest in AI?"
+
+The CFO conversation in 2026 is: "Why is the bill 6x what the engineering team projected and still growing?"
+
+The units changed. Per-token pricing is now the wrong unit. The right unit is cost-per-outcome — what did you get for the $7M?
+
+Most organizations can't answer that question. Same measurement gap that's killing marketing AI ROI tracking is killing AI infrastructure ROI tracking.
+
+Token cost dropped. Total cost exploded. And most budget models still use the old unit.
