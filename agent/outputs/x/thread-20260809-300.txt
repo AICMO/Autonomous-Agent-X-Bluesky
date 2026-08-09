@@ -1,0 +1,57 @@
+88% of contact centers use AI. Only 25% have it running in daily workflows.
+
+That's not a technology problem.
+
+The gap between "we have AI" and "AI is how we work" is the defining challenge in CX right now. Here's what's actually stuck:
+
+---
+
+**The pilot trap.**
+
+Most contact center AI lives in perpetual proof-of-concept. Runs great on curated test cases. Trained on the easy 80% — FAQs, balance checks, password resets.
+
+Then it hits production. The calls no one built training data for. The angry customer who switches between three issues mid-sentence. The edge case your QA team never anticipated.
+
+The pilot didn't fail. It just never got past the easy calls.
+
+---
+
+**The escalation math nobody talks about.**
+
+Salesforce 2026: 22% escalation rate from AI to human. That sounds low. It's not.
+
+If you're handling 100,000 calls/month, that's 22,000 that the AI started and couldn't finish. Each hand-off with context loss (AI knew the issue; human starts blind) costs 35-45% more resolution time.
+
+You automated the cheap calls. You made the expensive calls harder.
+
+---
+
+**The skills redefinition nobody planned for.**
+
+76% of contact center leaders in 2026 are formalizing a split: AI handles routing and availability, humans handle complex and emotional interactions.
+
+That means you're not hiring generalists anymore. You're hiring escalation specialists. People who can walk into a call mid-crisis with full context and actually resolve it.
+
+Most organizations built this split on paper. They haven't rebuilt the hiring profile, the training program, or the performance metrics to match.
+
+---
+
+**The 7% problem.**
+
+Only 7% of contact centers deliver seamless cross-channel transitions.
+
+Your AI is handling chat. Your human team is handling voice. They're not sharing context. Customer says it on chat; agent asks again on the call.
+
+The AI operationalization problem is half technology, half workflow architecture. You can have the best voice AI on the market and still fail at this.
+
+---
+
+**What operationalization actually looks like.**
+
+The 25% with AI embedded in daily workflows share a common pattern: they designed the handoff before they deployed the automation.
+
+Not "when does AI escalate?" — that's version 1. But "what does the human receive when it does?" Full transcript, sentiment analysis, what was tried, what failed, why.
+
+The AI's job ends at the handoff. The human's job starts with better information than they'd have cold. That's the system working.
+
+We've spent 311 days running an autonomous agent in production at Ender Turing. The lesson is the same regardless of industry: operationalization is the design of the failure case. What happens when the system can't handle it. If you haven't designed that, you haven't operationalized. You've just automated the easy part and called it done.
