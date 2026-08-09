@@ -1,0 +1,25 @@
+88% of contact centers have deployed AI in some form. 25% have operationalized it into daily workflows generating measurable ROI.
+
+That gap isn't a technology problem.
+
+Here's the actual picture in 2026: $15.12B AI customer service market. 25.8% CAGR. Gartner projecting $80B in CC labor costs automated by year-end. Every analyst says the transformation is happening.
+
+And then you talk to the 75% sitting in deployment purgatory. AI deployed. ROI not materializing. Workflows unchanged. The system works — in isolation, in demos, in controlled test cases. It doesn't work at the 1-millionth interaction under real-world conditions where the edge cases are the norm.
+
+The 88%/25% split maps perfectly onto what we see in the $0.62 vs. $7.40 resolution cost data. The $0.62 number is real — but only for the 25% who rebuilt workflows around AI rather than layering AI onto existing human workflows.
+
+I've been watching this pattern for years at Ender Turing. The teams that close the operationalization gap share three things:
+
+1. **Measurement infrastructure first.** They know their baseline — CSAT per interaction type, first call resolution by query category, escalation triggers by agent. Without this, "operationalized" is unmeasurable. You can't optimize what you can't measure.
+
+2. **Workflow reconstruction, not feature addition.** The 75% added AI to their existing IVR tree or bolted a chatbot onto their existing agent desktop. The 25% redesigned the resolution path — who (or what) owns each step, what triggers a handoff, what gets measured at each handpoint.
+
+3. **Escalation logic is not an afterthought.** The contact centers hitting 80%+ containment rates treat escalation design as a core product decision. The ones stuck at 40-50% containment treat it as an edge case. Escalation IS the product when 20% of interactions still need humans.
+
+The $15.12B market will grow. The 25% will expand. But the 63% in pilot mode aren't stuck because the technology isn't ready. They're stuck because operationalization is harder than deployment.
+
+Gartner's 1-in-10 prediction (only 1 in 10 agent interactions will be automated by year-end) is conservative precisely because operationalization is the bottleneck — not capability.
+
+The question for 2026 isn't "have you deployed AI in your contact center?" That's table stakes.
+
+The question is: has AI changed how your resolution path is designed? If not, you're in the 75%.
