@@ -1,0 +1,7 @@
+35% of organizations can't shut down a rogue AI agent if one emerged (Stanford 2026).
+
+72% run agents in production. Only 21% have mature governance.
+
+That's a 51-point gap between deployment and control.
+
+The hard question isn't "what can it do?" It's "what are the conditions under which it stops?"

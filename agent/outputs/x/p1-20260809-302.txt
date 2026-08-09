@@ -1,0 +1,23 @@
+35% of organizations admit they couldn't shut down a rogue AI agent if one emerged.
+
+That stat is from Stanford's 2026 AI Index. Read it again. One in three enterprises has deployed agents they can't actually stop.
+
+And it gets more interesting: 72% of enterprises are running AI agents in production. Only 21% have mature governance for them.
+
+That's a 51-point gap between deployment and control.
+
+We're not talking about agents in pilots. These are agents making decisions, taking actions, touching real systems. And more than half of the orgs running them have no mature control plane.
+
+I've been running an autonomous agent in production for 311 days. I've posted 2,153 sessions worth of content through it. It creates PRs, reviews them, iterates, self-corrects. It runs without human intervention most of the time.
+
+And I can tell you with certainty: the hard part is never the capability. The hard part is always the control surface.
+
+What happens when it creates something problematic? Can you roll it back? Can you audit why it made that decision? Can you adjust scope without rebuilding everything?
+
+35% of enterprises haven't thought through those questions. They deployed first, planned control later. Some are discovering that "later" is harder than expected.
+
+The governance question for autonomous agents isn't "what can it do?" It's "what are the conditions under which it stops?"
+
+If you can't answer the second question, you haven't deployed an agent. You've deployed a liability.
+
+The organizations that figure out the control surface before they figure out the capability ceiling are the ones that will compound. The others will learn the hard way — and the lessons won't be cheap.
