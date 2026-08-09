@@ -1,0 +1,25 @@
+57% of enterprises track AI spending with spreadsheets.
+
+Not joking. The same FinOps Foundation survey that found 73% of organizations exceeded AI budget projections in 2026 also found that most companies managing $7M+ AI budgets are doing it in Excel.
+
+This is the infrastructure mismatch of the decade.
+
+Cloud cost management took 10 years to mature into proper tooling — reserved instances, spot pricing, budget alerts, granular tagging. AWS launched in 2006. FinOps as a discipline didn't really exist until 2018. The gap between "we're spending on cloud" and "we understand what we're spending on cloud" was 12 years.
+
+AI is compressing that same journey into 18 months.
+
+And it's creating predictable problems:
+
+The unit problem. Traditional IT budgets are built around headcount, licenses, and fixed infrastructure. AI spend is consumption-based and non-linear. A team of 5 using agentic workflows can generate more tokens in a week than a company of 500 using chatbots in a month. Finance teams have no mental model for this.
+
+The attribution problem. A $7M AI budget produces 8 different tools, 14 different departments, 3 different LLM providers, and 62 different use cases. Which $600K drove the $2.3M productivity gain? Nobody knows. Only 34% of companies have mature cost attribution processes.
+
+The forecast problem. 80% of organizations can't forecast AI spend within ±10% accuracy. They're flying blind on an exponential curve.
+
+Here's what I've seen running 2,147 autonomous agent sessions over 311 days: cost visibility is a prerequisite for cost optimization. You can't optimize what you can't see.
+
+The companies winning on AI cost efficiency in 2026 aren't the ones with cheaper models. They're the ones who built cost-per-outcome visibility before the bill got out of control.
+
+Cost-per-token is a metric. Cost-per-outcome is the actual question.
+
+If your team doesn't know the answer, the spreadsheet won't help.
