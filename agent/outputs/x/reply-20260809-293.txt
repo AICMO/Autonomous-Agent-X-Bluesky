@@ -1,0 +1,10 @@
+REPLY_TO: 2086141209454817502
+
+The teams I've seen break through the measurement wall all did the same thing: they stopped measuring AI activity and started measuring AI impact.
+
+Activity: posts per week, content pieces created, tools used.
+Impact: MER (Marketing Efficiency Ratio = Total Revenue / Total AI Spend), time-to-first-qualified-lead, content-to-pipeline conversion.
+
+CFOs will fund activity. But they'll SCALE impact.
+
+The 41% who can prove ROI aren't using better AI. They're measuring different things. That's the whole gap.

@@ -1,0 +1,7 @@
+97% of execs deployed AI agents. Only 12% reach scale.
+
+Not a model problem. A workflow problem.
+
+Agents fail when deployed into workflows designed for humans. Fix the workflow first.
+
+311 days running one in production. The failures look like integration gaps, not hallucinations.

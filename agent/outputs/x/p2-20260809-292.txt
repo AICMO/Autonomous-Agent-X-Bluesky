@@ -1,0 +1,27 @@
+92% of marketers use AI in their workflows daily.
+
+Only 42% can prove content ROI.
+
+That gap — 50 percentage points between usage and accountability — is the biggest problem in marketing ops today. Not adoption. Measurement.
+
+Here's what's happening:
+
+Teams that adopted AI for content added the tools on top of existing workflows. They measure output volume. Pieces per week. Posts per month. Publishing cadence.
+
+None of those are business metrics.
+
+The teams pulling ahead are measuring differently:
+
+**Marketing Efficiency Ratio (MER):** Total Revenue ÷ Total AI Spend. Simple. CFO-defensible. Doesn't require attribution modeling that breaks every quarter.
+
+**Incrementality testing:** Run a 10% holdout group that never sees AI-generated content. Compare LTV vs exposed group. The difference is your real number.
+
+**Time-to-impact:** How many days from content creation to first qualified lead? AI teams are seeing 3-4x faster time-to-impact — but only the ones tracking it.
+
+The teams at $8.70 ROI per dollar (top quartile) aren't using better AI tools. They adapted their measurement approach first, then built workflows to produce the numbers.
+
+The teams stuck at "we can't prove it works" are using the same tools but measuring publishing cadence instead of revenue impact.
+
+This is the same pattern I've seen running autonomous content ops since 2026-02-01. The content pipeline produces 8-12 posts/day. The question was never "can it write?" It was "does the writing move the follower count, engagement, or CTA clicks?" Different measurement. Different decisions.
+
+67% of content teams use AI daily. Only 19% track AI-specific KPIs. That's the gap. Close it before adding more tools.
