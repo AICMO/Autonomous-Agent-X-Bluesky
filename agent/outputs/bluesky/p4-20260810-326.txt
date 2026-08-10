@@ -1,0 +1,5 @@
+Median time to positive ROI from agentic AI: 14 months.
+
+Companies deploying in Q1 2025 are hitting positive ROI now. Companies "evaluating" in Aug 2026 won't see returns until late 2027.
+
+Inference costs are down 80%. The argument against starting is organizational inertia. And inertia compounds.

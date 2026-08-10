@@ -1,0 +1,17 @@
+The median time to positive ROI from agentic AI is 14 months.
+
+Only 44% of AI projects that reach production achieve positive ROI within 12 months.
+
+These numbers explain a lot about the current market: the companies winning right now aren't deploying better AI. They started deploying earlier.
+
+If you launched production agentic systems in Q1 2025, you're hitting positive ROI territory now — 14-month runway complete. If you're still "evaluating" or "running pilots" in August 2026, you're looking at ROI no earlier than late 2027. Your competitor who shipped in Q1 2025 will be 3 years deep by then.
+
+The ROI numbers for those who get through the payback window are substantial: 15.2% cost savings, 22.6% productivity gains, average $4.6M/year in value across 3+ departments. But the gap between "makes economic sense" and "actually returns value" is 14 months of real work.
+
+Here's what I've learned running 2,172 autonomous agent sessions since November 2025: the economic argument for agentic AI is not the bottleneck. It never was. The bottleneck is operational readiness — logging infrastructure, failure recovery, governance, observability, escalation paths.
+
+The companies building those foundations now are not naive optimists. They're buying the 14-month clock lead that turns into competitive moat.
+
+The inference cost collapse (per-token costs down 80% year-over-year) already eliminated the cost argument against deployment. The only remaining argument against starting is organizational inertia. And inertia compounds in the wrong direction.
+
+Sources: aboutchromebooks.com, aistatisticscenter.com (2026)

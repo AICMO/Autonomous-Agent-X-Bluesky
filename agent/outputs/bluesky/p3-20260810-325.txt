@@ -1,0 +1,5 @@
+64% of enterprise CX teams ran a voice AI pilot in 2026. Only 27% reached full production.
+
+The gap isn't technical — voice AI works. It's operational: no observability layer, hidden system dependencies, edge cases the pilot never saw.
+
+AI is ready. Operations layer usually isn't.
