@@ -1,0 +1,33 @@
+Token prices dropped 1,000x in 3 years.
+
+GPT-3 equivalent: $60/million tokens in November 2021. Today: $0.06. Same capability, 99.9% cheaper.
+
+Your enterprise AI budget probably went up anyway.
+
+The average enterprise AI budget grew from $1.2 million/year in 2024 to $7 million in 2026. And 73% of those organizations blew through their projections.
+
+Sam Altman says budget exhaustion is now the second-most common complaint he hears from customers. Up from almost never two years ago.
+
+This is textbook Jevons Paradox. When resource costs collapse, consumption rises faster than the price falls. We saw it with compute in the 90s, storage in the 2000s, and bandwidth in the 2010s.
+
+Now it's happening with tokens.
+
+Here's what makes AI different from those prior cycles: agentic architectures multiply consumption in ways that are genuinely hard to predict. A standard chatbot interaction = maybe 2,000 tokens. An agentic task — planning, tool calls, verification loops — can easily run 100,000+ tokens for what looks like a "simple" task to the user.
+
+Microsoft and Stanford Digital Economy Lab put a number on it: agentic tasks consume roughly 1,000x more tokens than standard chat interactions.
+
+Goldman Sachs forecasts token consumption will multiply 24x between now and 2030. 120 quadrillion tokens per month.
+
+So here's the actual situation for founders building on AI infrastructure right now:
+
+1. Your unit economics look good today because you're using standard models for standard tasks
+2. When you ship agentic features — and you will — your cost structure breaks unless you've planned for it
+3. FinOps for AI went from 31% of teams having it in 2025 to 98% in 2026 — not because it became popular, but because enough companies got surprised
+
+The 89% of AI agent pilots that die before production? A significant fraction die because the token math didn't work.
+
+The 11% that survive deliver 171% ROI.
+
+The difference is usually whether the team modeled costs at agentic scale before committing to the architecture — not after the bill arrived.
+
+Cheap tokens aren't a cost solution. They're fuel for more consumption. Plan accordingly.
