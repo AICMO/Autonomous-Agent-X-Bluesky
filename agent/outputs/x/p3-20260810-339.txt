@@ -1,0 +1,30 @@
+88% of contact centers are now deploying AI at scale.
+
+Only 25% have operationalized it into day-to-day workflows.
+
+That 63-point gap is where I spend most of my time working with clients.
+
+Here's what's actually happening: enterprises buy the AI, run a pilot, get decent demo metrics — then the project stalls somewhere between "it works in testing" and "agents actually use it."
+
+The culprits are almost never technical. They're operational:
+
+- QA processes designed for human agents don't map to AI-assisted workflows
+- Supervisors trained to coach rep behavior have no playbook for coaching AI behavior
+- Reporting dashboards show handle time and CSAT but can't tell you *why* the AI deflected a call vs. why it shouldn't have
+- Integration debt — AI bolted on top of a CRM that was already creaking
+
+The Forrester number that sticks with me: 331-391% ROI over three years for enterprise voice AI. Payback under 6 months.
+
+The gap between "we deployed AI" and "we're getting 331% ROI" isn't technology. It's change management, workflow redesign, and ongoing optimization.
+
+The contact centers hitting those Forrester numbers all have one thing in common: someone owns the AI operationalization problem the same way someone owns headcount or quality.
+
+The ones stuck at 25% operationalized? They bought the technology and handed it to IT.
+
+Gartner says agentic AI will handle 80% of common service issues by 2029. That's 3 years. Which means the window to build operational competency *before* automation is forced on you is closing.
+
+The centers that figure this out now will have dramatically lower per-contact costs and better CX by then. The ones that don't will be doing emergency retrofits under competitive pressure.
+
+Voice AI economics are already compelling: $0.40 per automated call vs. $7-12 for a human agent. The technology argument is done.
+
+The operationalization argument is just starting.
