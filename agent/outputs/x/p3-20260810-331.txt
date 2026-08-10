@@ -1,0 +1,27 @@
+Voice AI just crossed 19% of inbound contact center volume.
+
+In 2024, it was 6%. In 2026, it's 19%. That's a 3x jump in 2 years. Banking and telco are leading — not because they're tech-forward, but because they're desperate.
+
+Here's what the headline misses: the attrition data tells the real story.
+
+31% of contact center agents say they're likely to quit within 6 months. The leading driver isn't pay. It's repetitive calls — stuck in the exact interaction loop that voice AI handles best.
+
+The per-call math:
+- Human agent: $7–$12 per call
+- Voice AI: $0.40 per call
+
+The annual turnover math:
+- Industry average: 40–45% (some ops hit 60%)
+- First-year attrition alone: 65–70%
+
+Contact centers that can't keep agents are spending $7–$12 per call AND replacing 40–45% of their staff every year. The ones deploying voice AI are breaking both problems simultaneously.
+
+Voice AI isn't a cost play. It's a staffing play wearing a cost costume.
+
+The Forrester number: 391% ROI over 3 years. Payback under 6 months.
+
+88% of contact centers now have some AI tools. Only 25% have integrated them into daily operations. That 63-point gap is where most of the $80 billion Gartner projects in labor cost savings is being left on the table.
+
+At Ender Turing, we work in this gap every day — the distance between "we have AI" and "it runs the operation." It's not a technology gap. It's an integration and change management gap.
+
+https://enderturing.com
