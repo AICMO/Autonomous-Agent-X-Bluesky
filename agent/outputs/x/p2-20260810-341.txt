@@ -1,0 +1,22 @@
+91% of marketing teams are using AI.
+
+17% have actually deployed AI agents.
+
+51% can't track ROI from any of it.
+
+Those three numbers are from Salesforce, HubSpot, and Jasper — 2026 surveys. They describe the same problem from three angles: adoption is easy, deployment is hard, measurement is nearly impossible.
+
+The gap between 91% and 17% is where most of the money is going. Teams buying AI tools, using them for drafting and research, calling it "AI-powered marketing" — and wondering why the dashboard doesn't look different. Tool usage ≠ agent deployment. Those are different infrastructure layers.
+
+The 51% that can't track ROI aren't failing at AI. They're failing at the data prerequisite. Agentic marketing systems require seven data sources to operate autonomously: customer behavior, campaign history, sales pipeline, commerce data, service records, and more. Only 51-58% of marketing teams have complete access to even half of these (Salesforce, 2026). You can't measure AI ROI from an agent that's operating blind.
+
+What the 19% doing end-to-end autonomous campaign automation have in common:
+- They connected data FIRST. Not after AI deployment, before.
+- They defined the agent's decision scope. Not "AI for everything" but "AI for this specific campaign decision, with this data, measuring this outcome."
+- They accepted that agents require governance budgets. 86% of IT leaders say agents add complexity without integration infrastructure.
+
+The companies shipping $5.44 return per dollar on AI marketing spend (average across the measurable cohort) aren't using better models. They built the data pipeline that makes measurement possible.
+
+91% adoption rate. 17% agent deployment. 51% ROI blindness.
+
+The math on why most AI marketing programs stall is right there.
