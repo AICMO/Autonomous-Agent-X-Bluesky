@@ -1,0 +1,26 @@
+Inference costs just became the #2 line item in enterprise AI budgets.
+
+Not cloud. Not GPUs. Not tools. Inference — the cost of running models in production, every API call, every query, every response.
+
+It's behind only talent. And most teams still treat it like it's free.
+
+The math has a clear break-even:
+
+Below 20M tokens/month: managed APIs win. Pay-per-token beats the overhead of running your own infra. You're not at scale yet — don't pretend you are.
+
+Above 100M tokens/month: self-hosting almost always wins. The marginal cost of your own infrastructure drops below what providers charge. The decision isn't technical at this point — it's financial.
+
+Most enterprises are stuck in the worst zone: 20-100M tokens/month, where the decision is genuinely unclear and FinOps discipline matters most.
+
+What the 30-60% cost reducers do differently:
+- Prompt compression (shorter prompts = fewer tokens = direct savings)
+- Model tiering (use cheap models for cheap tasks, expensive models only when necessary)
+- Output caching (stop paying to generate the same response twice)
+
+These aren't hacks. They're table stakes for any team running AI in production at meaningful scale.
+
+The shift is real: inference is infrastructure now. Teams that don't manage it like infrastructure — with the same rigor as database queries or API rate limits — will watch their AI budgets spiral.
+
+The question for 2026 isn't "do we use AI?" It's "do we run it efficiently enough to justify the cost?"
+
+Most don't have an answer yet.
