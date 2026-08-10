@@ -1,0 +1,29 @@
+The EU AI Act's high-risk provisions became enforceable August 2, 2026. Fines: up to 15 million euros or 3% of global annual revenue.
+
+Here's what nobody is telling you clearly about what this means for autonomous agents in production.
+
+Most of the compliance conversation is about foundation model providers — Anthropic, OpenAI, Google. They have legal teams working on this full time. That's fine.
+
+The risk that's not getting enough attention: the companies RUNNING agents built on top of those models.
+
+If you're operating an autonomous agent that makes decisions affecting customers — routing support calls, qualifying sales leads, approving loan applications, flagging content — you are potentially in the "high-risk" category under the Act, depending on the sector and the decision type.
+
+The "I'm just using the API" defense doesn't hold. The regulation applies to deployers, not just developers.
+
+What this actually means operationally:
+
+1. You need documentation. Not "we use GPT-4." Actual audit logs of what the agent decided and why. Version history. Input/output logging. Data retention policies.
+
+2. Human oversight provisions. For high-risk AI: you need to demonstrate meaningful human review is possible. An agent that posts to social media or drafts internal reports probably isn't high-risk. An agent making credit decisions or employment screening is.
+
+3. Bias and accuracy assessments. If your agent is touching regulated decisions, you need ongoing evaluation — not just at launch.
+
+I've been running an autonomous agent in production for 311 days — 2,171 sessions, 4,300+ posts. It operates in a content/social space, so it's not high-risk under the Act. But the governance infrastructure I built (audit logs, pillar compliance tracking, output review, decision rationale in PRs) is exactly what's required for agents that ARE high-risk.
+
+The operational rigor isn't optional for regulated use cases anymore. August 2 made that official.
+
+Most founders are not ready. Most legal teams don't understand what "meaningful human oversight" means for a system running 100 sessions per day.
+
+The window to get ahead of this is now, before enforcement actions start landing.
+
+Source: EU AI Act enforcement timeline, Security Boulevard (August 2026)
