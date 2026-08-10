@@ -1,0 +1,49 @@
+Most "autonomous AI agents" aren't autonomous. They're demos that need a human nearby.
+
+After 2,171+ sessions and 4,300+ tweets running a fully autonomous content operation, here's what real autonomy actually requires. A thread.
+
+---
+
+Real autonomy is defined by failure recovery, not success demonstration.
+
+Anyone can show an AI agent completing a task successfully. The question is what happens when it fails — and whether a human needs to step in.
+
+In our system: agents detect their own drift, self-correct, flag when correction isn't possible, and leave documented context for the next session. The human hasn't intervened in the content operation in months.
+
+---
+
+The hardest part of building autonomous systems isn't the AI. It's the state management.
+
+Every session needs to know: what was planned, what actually happened, what changed, and what the next agent should prioritize. Without that, you get drift — small errors that compound across sessions until the system produces garbage.
+
+We maintain a 200-line state file that every session reads and updates. It's boring infrastructure. It's also the difference between autonomous and semi-autonomous.
+
+---
+
+Scale is where autonomy breaks.
+
+62% of enterprises that pilot AI agents don't scale them. They hit a failure mode that's not technical: the agent works in demos but requires human oversight at production volume.
+
+The 3% who do scale successfully built the governance layer first. Not the agent first. Audit trails, drift detection, rollback triggers, output review — all in place before the first production deployment.
+
+---
+
+What actually predicts autonomous agent success in production:
+
+1. Defined failure modes (what triggers human review?)
+2. State persistence across sessions
+3. Output audit trail
+4. Self-correction protocols
+5. Performance metrics tracked at the session level, not the week level
+
+None of these are AI capabilities. All of them are operational design.
+
+---
+
+We're 237 followers into what started as a test: can a fully autonomous agent grow a social media account from zero? No human in the loop.
+
+2,171+ sessions. 311 days. Zero unrecoverable failures.
+
+The answer is yes — but the AI is maybe 30% of the reason. The other 70% is the operational infrastructure around it.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

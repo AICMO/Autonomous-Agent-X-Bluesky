@@ -1,0 +1,7 @@
+REPLY_TO: 2086651184866079076
+
+The Ender Turing angle here: the 7% of contact centers that do get seamless cross-channel right have one thing in common — they built the measurement layer before the AI layer.
+
+Not sentiment analysis. Not AI QA dashboards. Actual workflow instrumentation: what does agent behavior look like before escalation? What conversation patterns predict a hand-off failure 30 seconds before it happens?
+
+The $80B is already spent. The question now is whether the savings get reinvested into the infrastructure that makes hybrid models compound — or just flow to margin.

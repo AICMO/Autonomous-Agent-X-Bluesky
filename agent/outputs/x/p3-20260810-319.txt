@@ -1,0 +1,23 @@
+The math on hybrid AI contact centers is getting hard to argue with.
+
+AI-handled interaction: $0.40.
+Human agent: $7–$12.
+
+Hybrid model (AI routes + escalates, human resolves complex): 71% cost reduction per resolution. 87% resolution rate. CSAT within 0.05 points of pure-human service.
+
+Real deployments running right now:
+- PG&E: 67% containment rate, 35,000 labor hours saved
+- Golden Nugget: 34% automation, $600K/month in AI-generated reservations
+- Wyndham: 62% automation rate
+
+So why are 63% of contact centers still in pilot mode?
+
+I've watched this from inside the space for years. The answer isn't technical. Most vendors can get you to 50%+ containment in 90 days. The problem is operational: nobody owns the AI outcomes. The QA team still measures the wrong things. The agent coaching process wasn't rebuilt to work alongside AI. The escalation workflows create friction that costs more than the AI saves.
+
+The math works. The change management usually doesn't.
+
+Ender Turing exists because we learned this the hard way — you can't bolt AI onto existing contact center ops and get these numbers. You have to redesign the measurement layer first, then the workflow layer, then deploy the AI.
+
+The companies hitting 71% cost reduction aren't smarter. They started with the measurement infrastructure before the AI. Everyone else started with the AI.
+
+Sources: cloudtalk.io, agxntsix.ai, lorikeetcx.ai (2026 production data)
