@@ -1,0 +1,9 @@
+87% of companies use GenAI for marketing.
+66% say they're seeing gains.
+Only 20% can trace gains to revenue.
+
+That 67-point gap is where marketing AI investments go to die.
+
+The fix: define the metric BEFORE deployment. Isolate the variable. Track the full chain.
+
+It's not an AI problem. It's a measurement problem.

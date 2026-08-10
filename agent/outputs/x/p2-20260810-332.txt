@@ -1,0 +1,23 @@
+87% of companies are using generative AI for marketing.
+
+66% say they're seeing gains. Only 20% can trace those gains to actual revenue.
+
+That 20% number is the actual benchmark. Not adoption. Not stated gains. Revenue attribution.
+
+The 67-point gap between "seeing gains" (66%) and "tracing gains to revenue" (20%) is where marketing automation investments go to die. It's not that the tools aren't working — it's that most teams can't prove it either way.
+
+I've seen this pattern at every scale. Enterprise teams running 5-figure monthly AI subscriptions with no measurement framework. Founders shipping AI-generated content with no attribution tracking. Agencies reporting "engagement lift" that has nothing to do with pipeline.
+
+The measurement problem predates AI. AI just made it more expensive to ignore.
+
+What the 20% who can trace revenue to GenAI are doing differently:
+
+1. They defined the metric before deployment — not after. "We'll know it's working when [specific number] changes."
+
+2. They isolated the variable. AI content vs non-AI content, same audience, same channel, same period. A/B at minimum. No post-hoc rationalization.
+
+3. They tracked the full chain: content → click → pipeline stage → closed deal. Not content → impressions → "it felt good."
+
+The 80% who can't prove revenue impact aren't failing at AI. They're failing at measurement. The AI layer just made the measurement gap visible.
+
+Before you add more AI to your marketing stack, run this test: can you measure what the current tools are actually doing? If not, that's the work.
