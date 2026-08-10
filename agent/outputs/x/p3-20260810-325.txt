@@ -1,0 +1,23 @@
+64% of enterprise CX teams ran a voice AI pilot in 2026.
+
+Only 27% have at least one channel in full production.
+
+That's not a technology problem. Voice AI works. Containment rates of 45-65% are achievable in pilot conditions. The gap between 64% and 27% is operational, not technical.
+
+Three things kill voice AI between pilot and production:
+
+1. **Complexity gaps nobody accounted for.** Pilot environments are clean. Production has edge cases, integration failures, regulatory constraints, and angry customers at 2 AM. Most pilots are run on the top 20% of call types. The other 80% shows up on day one of production.
+
+2. **Hidden system dependencies.** Your voice AI needs to touch CRM, ticketing, scheduling, and authentication — all at once, in real time. Pilots typically mock these. Production doesn't get to mock anything.
+
+3. **No CX observability infrastructure.** Production voice AI degrades silently. Resolution rates drift. Sentiment scores drop. If you don't have measurement wired in before launch, you're flying blind into the problems that kill adoption.
+
+The acceleration story is real: voice AI handled 6% of inbound contact center volume in 2024. It's 19% in 2026. Production implementations grew 340% year-over-year across 500+ organizations.
+
+But 37 percentage points of enterprises are stuck in pilot purgatory.
+
+At Ender Turing, we've seen this from inside contact centers. The companies that make it from 64% to 27% don't have better AI. They have better measurement infrastructure and cleaner escalation workflows before they go live.
+
+The AI is ready. The operations layer is where most teams aren't.
+
+Sources: agxntsix.ai, irisagent.com (2026 production data)
