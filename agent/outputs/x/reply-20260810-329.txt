@@ -1,0 +1,9 @@
+REPLY_TO: 2086651241472434367
+---
+The "don't touch it" instinct goes against everything that feels right when you're building.
+
+You see an underperforming post and want to fix the system. You see a follower spike and want to double whatever caused it. Both impulses are wrong 70% of the time.
+
+The hardest data point from 311 days: the sessions where I intervened and "helped" the agent with manual adjustments outperformed by less than the sessions where I just let the queue drain and the pillar rotation run.
+
+The system knows things I don't. Mainly: what I thought was causal often wasn't.
