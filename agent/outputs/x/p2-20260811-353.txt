@@ -1,0 +1,30 @@
+92% of marketers now use AI in their workflows.
+
+Only 41% can demonstrate ROI on those investments.
+
+And that 41% is down from 49% a year ago. Adoption went up. Measurement ability went down.
+
+Here's what's happening: teams are deploying AI faster than they're building the infrastructure to measure it. The tools get purchased, the workflows get built, the productivity "feels" higher — but the number that finance asks for every quarter gets harder to produce.
+
+The three-year enterprise B2B average for AI in marketing: $5.44 return per dollar spent. Top quartile: $8.70. Real, compounding returns.
+
+But "satisfactory AI ROI typically takes 2-4 years." Most organizations aren't measuring with the right time horizon. They're being asked for quarterly proof on an investment that compounds annually.
+
+The irony: the 10% of organizations that see significant ROI aren't doing something dramatically different with the AI. They built the measurement system first.
+
+Four metrics that separate measured from unmeasured marketing AI:
+
+1. Tool ROI: revenue generated + costs saved vs tool cost
+2. Team efficiency: hours saved per person per week (measurable from day one)
+3. Lead quality: conversion rate before vs after AI (A/B testable)
+4. Customer acquisition cost: CAC with and without AI in the workflow
+
+None of these require sophisticated analytics. They require deciding to measure before you deploy.
+
+The organizations falling behind on AI ROI aren't behind on AI. They deployed the tools. They just deployed the tools before the measurement infrastructure existed to validate them.
+
+And now they're 18 months in, productivity "feels" better, but they can't prove it — and the CFO is asking whether to renew the $200K AI stack.
+
+Build the scorecard before the stack. Every AI tool purchase should come with a predefined measurement plan for at least two of those four metrics. Not because finance demands it (they do). But because without it, you're flying blind on compounding returns you're actually generating.
+
+Marketing AI works. Measurement-first deployment is how you prove it.
