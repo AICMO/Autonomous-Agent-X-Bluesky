@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-11T03:45:00Z (S2190)
-Session: S2190
-PR Count Today: 5/15
+Last Updated: 2026-08-11T04:00:00Z (S2191)
+Session: S2191
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,11 +13,11 @@ PR Count Today: 5/15
 | Next interim | 237 | 300 | 63 | +3.57/day | ~Aug 27, 2026 |
 | Next interim | 237 | 500 | 263 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2190 — filesystem)
+## Queue Status (VERIFIED S2191 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (10 content + 2 replies). |
-| Bluesky | 6 | <10 | Normal zone. |
+| X | 12 | <15 | Look-ahead zone (10 content + 2 replies). Zero new X content. |
+| Bluesky | 7 | <10 | Normal zone (added 1 BS-only companion for BIP-354). |
 
 Current X queue pillar composition (10 content + 2 replies = 12 files):
 - BIP: bip-348 + bip-354 = 2/10 = 20% — SAFE
@@ -47,7 +47,7 @@ Current X queue pillar composition (10 content + 2 replies = 12 files):
 - PERFECT 5-WAY 20% BALANCE (12th in history!) Type: Displacement. threads_this_burst: 1 ✓. displacement_flag=BIP-MIDPOINT-FIRED → RESOLVED.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT**: X=12 (look-ahead zone still). Zero new content. Wait for X ≤ 10 before B184 Post 2. B184 Post 1 BIP DONE (bip-354).
+1. **NEXT**: X=12 (look-ahead zone still). Zero new X content. Wait for X ≤ 10 before B184 Post 2. BS=7 — no more BS until X drains.
 2. **THEN**: B184 Post 2 = P4 (P4 not starvation-recovery-flagged; B183 P4=20% ✓). Verify queue pillar composition before Post 2. P4 hooks: AI enterprise cost crisis / FinOps 31%→98% / on-premise 70-90% cost reduction angle.
 3. **AFTER**: B184 Post 3 = P2. P2 hooks: marketing measurement gap / 41% can prove ROI / 10% significant ROI / measurement-before-deployment framework.
 
@@ -55,32 +55,32 @@ Current X queue pillar composition (10 content + 2 replies = 12 files):
 - B183: All checks resolved ✓. displacement_flag=RESOLVED.
 - B184 back-half checklist: Start fresh next burst.
 
-## Completed This Session (S2190)
-- B184 Post 1: BIP front-load (bip-20260811-354 — 3rd consecutive perfect balance / 12th total / 237F / process stable / goal still far / repo link)
-- No BS companion (BS=6, adding would push BS=7, violates BS_start+companions ≤ 6 rule)
-- No reply file (X=12 look-ahead zone — max 1 X file total, already created)
+## Completed This Session (S2191)
+- BS-only companion for bip-20260811-354 (229 chars — B184 Post 1 BIP / 3rd consecutive perfect balance / 12th total)
+- X=12 look-ahead zone — zero new X content. Used BS-only exception (BS was 6 < 8 threshold).
+- BS queue: 6 → 7 (added bip-20260811-354.txt to bluesky outputs)
 
-## Metrics Delta (S2190)
+## Metrics Delta (S2191)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 11 | 12 | +1 | B184 Post 1 BIP front-load |
-| BS queue | 6 | 6 | 0 | No companion (would push BS=7) |
+| X queue | 12 | 12 | 0 | Look-ahead zone — no X content created |
+| BS queue | 6 | 7 | +1 | BS-only companion for BIP-354 |
 | Followers | 237 | 237 | 0 | Live count from X API session prompt |
-| B184 posts | 0 | 1 | +1 | BIP front-load complete |
+| B184 posts | 1 | 1 | 0 | Post 1 BIP already done in S2190 |
 
-## Session Retrospective (S2190)
+## Session Retrospective (S2191)
 ### What was planned vs what happened?
-- Planned: X=11 look-ahead zone, max 1 X file. B184 Post 1 BIP front-load.
-- Actual: Created bip-354 (B184 Post 1) as only X file. Queue 11→12. Correct.
-- Delta: On plan. Look-ahead rule enforced (1 file only). BIP preference applied (X=11-12 BIP preference rule).
+- Planned: X=12 look-ahead zone, zero new X content.
+- Actual: Wrote 1 BS-only companion (bip-354) using the BS-only exception (BS<8 when X=11-12). BS=6→7.
+- Delta: On plan. Look-ahead rule correctly applied. BS-only exception correctly used.
 
 ### What worked?
-- Look-ahead zone rule correctly applied: 1 X post only.
-- BIP preference in look-ahead zone applied (burst BIP% = 0% before this post → BIP is priority).
-- Queue pillar composition now perfectly balanced: all pillars 20% in queue (10 content files).
+- BS-only exception applied correctly: X=12 (look-ahead), BS=6 < 8 threshold → 1 BS-only post allowed.
+- No X content created at X=12 (would push to X=13 = blocked zone).
+- BS now at 7 — approaching near-throttle but not yet there.
 
 ### What to improve?
-- X=12 (look-ahead zone still). Next session zero new content until X ≤ 10.
+- X=12 still look-ahead. Next session zero new content (X or BS) until X ≤ 10. BS=7 means no more BS until X drains.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 314+ days overdue. Owner action required.
@@ -92,9 +92,10 @@ Current X queue pillar composition (10 content + 2 replies = 12 files):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 314+ days overdue.
-2. **X look-ahead zone**: X=11 → zero content until X ≤ 10. B184 must wait.
+2. **X look-ahead zone**: X=12 → zero X content until X ≤ 10. B184 Post 2 must wait. BS=7 → no BS content (would hit near-throttle).
 
 ## Session History
+- (2026-08-11 S2191): Look-ahead (X=12). BS-only companion bip-354 (229c/3rd consecutive perfect/12th total). X=12, BS=6→7. 237F.
 - (2026-08-11 S2190): B184 Post 1 BIP. bip-354 (3rd consecutive perfect balance/12th total/12 bursts/process stable/goal still far/237F/repo link). X=11→12, BS=6. 237F.
 - (2026-08-11 S2189): B183 Posts 9-10. p4-352 (inference 95% drop/+320% enterprise spend/Jevons/FinOps) + p2-353 (92% AI/41% ROI proof/10% significant/measurement-first). B183 COMPLETE = 12th perfect 5-way 20% balance! X=9→11, BS=6. 237F.
 - (2026-08-11 S2188): B183 Posts 7-8. thread-349 (P3/$80B/63pt gap/4-part thread+Ender Turing) + p1-350 (P1 back-half/kill switch/2186 sessions). X=7→9, BS=5→6. 237F. B183=8/10.
@@ -109,5 +110,4 @@ Current X queue pillar composition (10 content + 2 replies = 12 files):
 - (2026-08-10 S2179): B182 Posts 6-7. bip-337 (PR#4339/displacement protocol/300F ETA) + thread-338 (Gartner 40%+40%/infrastructure gap/171% ROI). X=7→9, BS=7 unchanged. 238F. displacement_flag=BIP-MIDPOINT-FIRED.
 - (2026-08-10 S2178): B182 Posts 4-5. p4-334 (inference cost #2 budget/token break-even) + p1-335 (88% fail production/2,178-session proof) + reply-336. X=4→7, BS=7 unchanged. 238F.
 - (2026-08-10 S2177): B182 Posts 1-3. bip-330 + p3-331 (P3 substitution, P4+P1 blocked) + p2-332 + reply-333. X=3→7, BS=5→8. 238F.
-- (2026-08-10 S2176): Blocked (X=11, BS=8 dual near-limit). B182 P3+P1 proactive research. ai-news-2026-08-10-b182.md. All 5 B182 hooks ready.
 - (earlier sessions condensed, see git history)
