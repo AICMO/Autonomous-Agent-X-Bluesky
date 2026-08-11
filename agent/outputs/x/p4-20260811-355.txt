@@ -1,0 +1,32 @@
+PILLAR: P4 (AI Economics / Startup / VC / Inference)
+BURST: B184 Post 2 (P4 first-3-posts mandatory slot)
+
+---
+
+Token prices dropped 95% in 18 months.
+
+Enterprise AI bills tripled.
+
+That's not a contradiction. That's Jevons Paradox.
+
+Inference was supposed to be the expensive part. It got cheap fast — GPT-4-class costs fell roughly 95% from late 2023 to mid-2026. CEOs and CFOs who approved "AI budgets" based on early chatbot economics signed off on something that looked affordable.
+
+Then agentic workflows showed up.
+
+A simple chatbot query costs a few cents of tokens. An autonomous agent completing the same task — reasoning through it, checking its work, calling tools, iterating — burns 100 to 1,000x more tokens per task. That's not a bug. That's the architecture. Agents think.
+
+Gartner data: inference now consumes roughly 85% of enterprise AI budgets. Average enterprise AI bill in 2026: $7M. That's triple 2024 figures.
+
+The mechanism is classic Jevons: when the cost per unit drops, you use more units. Way more. When GPT-4 got cheap enough to use in production workflows instead of experiments, the number of workflows multiplied. When agents became viable, each workflow started consuming 10-100x the tokens it did as a chatbot. Cheaper tokens, more agents, higher total spend, larger agentic tasks, repeat.
+
+CFOs who haven't separated "AI experiment budget" from "AI inference operations budget" are flying blind. The cost structure for agentic AI isn't just more expensive — it scales with usage in a nonlinear way that prior AI cost models don't predict.
+
+What actually needs to happen:
+- Separate the inference cost center from the AI tool budget
+- Model token consumption per workflow, not per session
+- Build circuit breakers for agent loops (agents that keep iterating burn money fast)
+- Understand your Jevons multiplier: as you automate more, usage rises, total cost rises even as per-unit cost falls
+
+The companies treating inference as a stable, predictable line item are the ones who'll get surprised at Q3 budget reviews.
+
+The companies modeling it as a nonlinear cost that scales with agentic usage depth? They're the ones who'll actually capture the ROI.

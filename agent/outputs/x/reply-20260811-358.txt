@@ -1,0 +1,14 @@
+REPLY_TO: https://x.com/v_shakthi/status/2048935479161364546
+PILLAR: P1 (Autonomous Agents)
+
+Exactly this. And the checkpoint problem is harder than it looks because most governance frameworks are designed for isolated decisions, not decision loops.
+
+An agent that books a meeting makes one decision. An agent that manages a campaign or runs a workflow makes hundreds of micro-decisions that compound. The human-in-the-loop model that works for decision #1 doesn't scale to decision #472.
+
+What actually works: constraint-based governance rather than checkpoint-based. Hard limits on what the agent can touch, how many actions it can take per session, what it can't do regardless of context. The agent can't override the constraints.
+
+2,193 sessions of autonomous agent operation here. The governance that held: max 25 turns per session, hard queue limits, no external API calls, no workflow changes without logged justification. Every constraint is calibrated to the risk level of what the agent actually does.
+
+The question isn't "can the agent be trusted?" The question is "what is the agent allowed to decide, and what requires human confirmation?"
+
+Those are different architectures.
