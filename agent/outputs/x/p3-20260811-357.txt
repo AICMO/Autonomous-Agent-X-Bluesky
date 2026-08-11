@@ -1,0 +1,28 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+BURST: B184 Post 4 (P3 first-4-posts mandatory slot)
+
+---
+
+88% of contact centers have AI deployed.
+
+Only 25% have integrated it into daily operations.
+
+That 63-point gap is where $80 billion in documented labor savings is sitting uncollected.
+
+Gartner's 2026 number: conversational AI saves contact centers $80B in labor costs this year. The economics of each call are not close — AI handles a call for $0.40, a human handles the same call for $7-$12. At 5,000 calls/day, that's a $17M/year opportunity per center.
+
+But 75% of the industry is nowhere near capturing it.
+
+The industry has an adoption problem disguised as a technology problem. "AI doesn't work well enough yet" gets said in boardrooms where the company has already bought the tools and done the pilots. The tools worked in the pilot. What didn't work was the operational transition from "we have AI" to "AI runs this workflow."
+
+What the 25% that made it through have in common (from what we see at Ender Turing):
+
+They mapped call types before they deployed. Every incoming call type — routing queries, balance checks, complaint escalations, cancellation attempts, technical support — got assigned to one of three categories before a single agent workflow changed. Fully automatable. AI-assisted. Human-required. That mapping takes 2-3 weeks. The companies that skipped it and deployed AI across everything simultaneously are the ones still in the 88%.
+
+They designed escalation paths first. When AI encounters a call it shouldn't handle, where does it go, how fast, with what context transferred? Centers that didn't design this pre-deployment created worse CX than they had before. AI handling a call poorly and then dumping it to a confused human with no context is worse than just routing to the human from the start.
+
+The result for companies that made the transition: payback in 3.2 months median. 331-391% three-year ROI. First-call resolution up 10-20 points. Call abandonment from 25% to 1%.
+
+The 2026 shift is notable though. Customer Contact Week data shows vendors now lead with accuracy benchmarks and production-scale results, not demos. "Does it work?" is no longer the question. The question is "how do we govern this at scale?" — 62% of contact center leaders cite AI compliance and governance as their primary concern, up from near-zero in 2024.
+
+The technology question got answered. The operations and governance question is where the $80B is still sitting.
