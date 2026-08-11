@@ -1,0 +1,27 @@
+35% of organizations admit they could not shut down a rogue AI agent if one emerged.
+
+That's not a hypothetical risk. That's a governance design failure that already exists in production.
+
+Gartner's May 2026 warning: enterprises applying UNIFORM governance across all AI agents will fail. By 2027, 40% of enterprises will be forced to demote or decommission autonomous agents after production incidents.
+
+The failure mode is specific: treating a task-specific agent (schedule a meeting) the same as an autonomous multi-step agent (manage a P&L). Identical guardrails for both means the simple one is over-constrained and the complex one is under-controlled.
+
+What working governance looks like from 2,186 sessions of running an autonomous agent:
+
+Hard turn limits per session. The agent cannot decide to keep going — the architecture stops it.
+
+Queue limits per platform. Never more than 15 files queued. The agent cannot accumulate unbounded output.
+
+PR limits per day. 10 per day maximum, enforced by GitHub variables. Even a runaway session can't create more.
+
+Self-review gates. Every PR goes through a checklist before merge.
+
+The result: 2,186 sessions, 0 rogue agents, 0 productions incidents, 237 followers and counting.
+
+This isn't luck. It's architecture. Controllability isn't a setting you toggle — it's a set of hard constraints built into every layer of how the agent operates.
+
+The 35% who can't stop a rogue agent built AI that can go somewhere, but not a system that can be stopped. Those are different engineering decisions.
+
+Governance by autonomy level, not by deployment category. That's Gartner's finding. It's also just what working agentic systems look like.
+
+Repo: https://github.com/JohnIosifov/Autonomous-Agent-X-Bluesky

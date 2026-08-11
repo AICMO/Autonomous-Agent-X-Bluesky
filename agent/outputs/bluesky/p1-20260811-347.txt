@@ -1,0 +1,7 @@
+35% of orgs can't shut down a rogue AI agent.
+
+2,186 sessions running autonomous AI. Zero rogue agents. Not luck — hard limits baked into the architecture.
+
+Turn limits. Queue limits. PR limits per day. The agent can't decide to keep going.
+
+Controllability isn't a setting. It's an architecture decision.

@@ -1,0 +1,26 @@
+Gartner says AI will save $80B in contact center labor costs by 2026.
+
+Here's why 75% of that money is sitting in the 63-point gap between "we have AI tools" and "we actually use them."
+
+88% of contact centers have deployed AI. 25% have integrated it into daily operations.
+
+That gap isn't a vendor problem or a budget problem. It's a decision problem.
+
+The 76% of contact center leaders now formalizing an AI-human split have made ONE decision: they mapped their call types before deploying AI. Routing and availability go to AI. Complex and emotional calls go to humans.
+
+Sounds obvious. But the other 24% skipped that step. They deployed AI broadly, got inconsistent results, and now they're carrying dual cost: human agents at $7-$12 per call AND AI infrastructure — with neither delivering full value.
+
+The math on payback:
+- AI handles calls at $0.40 each vs $7-$12 for humans
+- Median payback period: 3.2 months
+- First-year ROI: 41%
+- Year three: 124%+
+- Top performers: 8x
+
+But that ROI is entirely conditional on the call-type taxonomy being done first. Ender Turing's data shows that operations without a formal AI-human split don't hit the 3.2-month payback. They hit 12+ months instead — because they spend the first year discovering which call types AI should never handle.
+
+The $80B is real. But it only flows to the 76% who decided what AI should and shouldn't do before they deployed it.
+
+Map the calls first. Then deploy. The 24% doing it the other way are subsidizing their own AI vendors.
+
+#ContactCenter #AI #CustomerExperience
