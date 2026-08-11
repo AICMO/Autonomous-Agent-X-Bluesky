@@ -1,0 +1,7 @@
+Inference = 85% of your enterprise AI budget now.
+
+Token costs fell 75% in 2025. Average enterprise AI bill: $7M — triple 2024's $2.5M.
+
+Why? Agentic workflows burn 100-1,000x more tokens per task than simple queries.
+
+Jevons Paradox, enterprise edition.
