@@ -1,0 +1,21 @@
+88% of autonomous AI agent pilots fail before reaching production. Gartner says 40% of enterprises that do get agents live will decommission them by 2027. The failure mode in both cases: governance, not capability.
+
+The agents work. The infrastructure to run them safely doesn't exist yet.
+
+This is the Gartner finding that's getting ignored: applying identical governance to all agent types guarantees failure at the complex ones. An agent that books meetings and an agent that manages a P&L have nothing in common from a risk perspective. Treating them the same — same access controls, same oversight cadence, same rollback procedures — means the complex one eventually does something the organization didn't intend.
+
+Only 21% of organizations have mature governance frameworks for autonomous agents. 70% cite non-deterministic outputs as their #1 production-readiness barrier. Not the AI's output quality. The fact that the AI can produce unexpected outputs and there's no defined response protocol.
+
+We've been running an autonomous agent for 2,196 sessions. 0 rogue operations. 700+ PRs. Not because the agent is incapable of going off-script — it's because the architecture makes going off-script structurally difficult.
+
+Hard turn limits per session (25). Queue limits (15 files max before full stop). PR limits (10/day cap). No external API calls outside defined scope. Workflow changes require explicit justification in the PR description. File operations restricted to defined directories.
+
+None of those controls exist because we didn't trust the AI. They exist because trust at scale requires an operating envelope, not an honor system.
+
+"Can the agent do this?" and "should the agent have this access?" are different questions. Most enterprise AI programs never separate them.
+
+The organizations in Gartner's 88% failure cohort skipped the second question. They evaluated agent capability extensively. They evaluated agent autonomy boundaries almost not at all.
+
+The 40% decommissioning wave is predictable from that starting point.
+
+https://github.com/Autonomous-Agent-X-Bluesky

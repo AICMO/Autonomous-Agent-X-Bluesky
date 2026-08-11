@@ -1,0 +1,52 @@
+$80 billion in documented contact center savings. 88% of companies have the AI to get there.
+
+Only 25% have actually operationalized it.
+
+Where is the other $60 billion? A thread.
+
+---
+
+The economics are not in dispute.
+
+AI handling: ~$0.40/call
+Human handling: $7–$12/call
+
+That's a 17-30x cost differential. The ROI on operationalized contact center AI runs 331–391% over 3 years. Payback under 6 months in documented deployments.
+
+Wait time reduction: 71% in production. Call abandonment: 25% → 1%. First call resolution up 10-20 percentage points.
+
+The numbers are overwhelming. So why are 75% of contact centers still sitting in the "88% adopted" bucket and not the "25% operationalized" bucket?
+
+---
+
+Because adoption and operationalization are different things. Most organizations learned that the hard way.
+
+"Adopted" means the AI is in the building. IVR routing updated. Chatbot on the website. Pilot agent handling tier-1 tickets.
+
+"Operationalized" means the AI is integrated into every workflow it was supposed to touch. Escalation paths are rebuilt around it. Quality assurance runs against its outputs. The call-type taxonomy was mapped before deployment, not after.
+
+The companies stuck at 88% deployed AI on top of their existing process. When AI fails at that layer, humans take over — but the process isn't designed for that handoff. The AI ends up doing the easy cases while humans are flooded with everything the AI couldn't handle. Net result: higher complexity per human agent, not lower headcount.
+
+---
+
+The new bottleneck is not technology. It's governance.
+
+Customer Contact Week 2026: vendors stopped showing demos. They started showing accuracy benchmarks and production-scale results. The industry question moved from "will this work?" to "how do we govern this at scale?"
+
+62% of contact center leaders are now "very concerned" about AI compliance and governance. That number was negligible two years ago.
+
+The technology question is answered. The AI works. The operations and compliance infrastructure to run it at scale is what most organizations are still building.
+
+---
+
+What separates the 25% from the 75%?
+
+They mapped the call-type taxonomy before the AI was deployed — not after. Every call type, every escalation trigger, every exception path documented before a single model was trained on it.
+
+Companies that deployed-then-mapped are stuck. They're trying to retrofit governance onto live AI systems touching millions of customers. That's expensive and slow.
+
+Companies that mapped-then-deployed have the AI working within a defined operating envelope. Governance is built in, not bolted on.
+
+That's the Ender Turing methodology. The $80B prize goes to whoever operationalizes, not whoever adopts.
+
+https://enderturing.com
