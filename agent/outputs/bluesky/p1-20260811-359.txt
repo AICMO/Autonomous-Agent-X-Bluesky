@@ -1,0 +1,7 @@
+88% of agent pilots fail production. 40% launched will be decommissioned by 2027.
+
+Not capability failures. Governance failures.
+
+Gartner: uniform governance across all agent types = guaranteed failure. Book-a-meeting vs manage-a-P&L are different risk levels.
+
+2,193 sessions, 0 rogue agents. Architecture, not luck.
