@@ -1,0 +1,29 @@
+PILLAR: P2 (Marketing Automation / Content Ops / AI in Marketing)
+BURST: B184 Post 10 (P2 back-half check — P2=1/8=13% < 15% → MUST fire)
+
+---
+
+29% of enterprise agentic AI deployments are abandoned within 90 days.
+
+Not because the AI didn't work. Because nobody defined what "working" meant before they deployed it.
+
+The failure modes from this year's data:
+- 41% cited unclear success criteria — no one agreed on the target before launch
+- 33% cited poor tool or data access — the agent was deployed into systems it couldn't actually use effectively
+- 19% cited brand-voice drift — the AI started producing outputs that sounded off, and customers noticed before the team did
+
+These aren't technical failures. They're scope failures.
+
+The agents themselves performed as designed. The problem was the deployment context — what the agent was supposed to optimize, what data it had access to, what "good" looked like. Those questions were supposed to be answered after deployment, during the "learning phase."
+
+The learning phase became the abandonment phase.
+
+91% of marketers now use AI in their work. Only 41% can prove ROI from it. The gap isn't measurement technology — every modern marketing stack has attribution tools. The gap is that 50%+ of teams never defined what they were measuring before they started.
+
+You can't retroactively establish success criteria for something that already ran.
+
+What the 90-day survivors do differently: they define the success metric before selecting the tool. Not "AI will improve our email performance" but "we'll measure AI impact on click-through-to-conversion rate on this specific nurture sequence, with baseline from the last 90 days, control group of 20%." That specificity sounds like overhead. It's actually how you keep the agent deployed.
+
+The 29% abandonment rate is avoidable. But it requires having the success criteria conversation before procurement, not after.
+
+Most teams have that conversation after.

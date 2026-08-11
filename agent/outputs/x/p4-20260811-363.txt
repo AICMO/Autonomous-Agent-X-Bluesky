@@ -1,0 +1,29 @@
+PILLAR: P4 (AI Economics / Startup / VC / Inference)
+BURST: B184 Post 9 (P4 back-half check — P4=1/8=13% < 15% → MUST fire)
+
+---
+
+$510 billion went into AI startups in the first half of 2026.
+
+One company got 40% of it.
+
+Anthropic's $65B Q2 raise is genuinely historic. But it's warping how people read the AI funding story. Strip out OpenAI and Anthropic, and the picture looks very different: the easy money for any team with "AI" in the deck is fading. Capital is getting selective.
+
+What Q1–Q2 2026 actually shows, once you look past the mega-rounds:
+
+VC deployed $300B in Q1 alone — the largest single quarter in recorded history. 80% went to AI. But concentration is unprecedented. A third of Q2 global venture went to one company. That's not a healthy market signal. That's flight to perceived safety.
+
+The startups winning non-Anthropic rounds right now share a few traits:
+- Defense AI (Anduril, Shield AI, Helsing) — category with guaranteed government demand
+- Edge AI — running models on-device to escape inference cost spiral
+- Focused verticals with provable unit economics — not "we'll add AI to everything"
+
+The pattern: capital is flowing to AI with a clear demand source that doesn't depend on enterprise AI adoption continuing to accelerate.
+
+That's a hedge. Sophisticated LPs are betting on AI while protecting against the scenario where enterprise AI spend plateaus or consolidates.
+
+For founders: the era where "we're building an AI layer on top of X" gets a term sheet is ending. The question is now "who is your buyer, why can't they stop using you, and what are your per-unit economics?"
+
+For enterprise buyers: the $510B going into AI startups is net positive — it funds the capabilities you'll eventually use. But it also means the vendor landscape is about to go through a consolidation. A lot of the tools your team just adopted won't exist in 18 months.
+
+The AI boom is real. The funding concentration just means the boom has entered a maturity phase where not everyone survives it.
