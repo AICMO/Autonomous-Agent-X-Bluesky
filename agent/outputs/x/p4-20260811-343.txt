@@ -1,0 +1,25 @@
+Agentic AI VC funding just surged 2.4x to $2.66B in H1 2026. Average rounds hit $155M. The money is flowing hard.
+
+Meanwhile, tokens dropped 214x in price — from $30/M to $0.14/M — in 18 months.
+
+You'd expect budgets to shrink. They went the other direction.
+
+Enterprise AI budgets grew 483%. From $1.2M average to $7.0M.
+
+This is Jevons Paradox playing out in real time, at venture scale. When a resource gets cheap enough, consumption explodes faster than the price drop. The total spend goes UP, not down.
+
+What this means for founders:
+
+The "AI is getting cheaper so we'll spend less" thesis is dead. Cheaper inference doesn't compress markets — it expands them. New use cases unlock at $0.14/M that were impossible at $30/M. Usage volume follows price down, then past it.
+
+The $155M average round size tells the same story. These aren't incremental bets. Investors are funding platform plays — companies that can absorb massive inference costs at scale and still generate economics that justify the round.
+
+Three implications if you're building:
+
+1. Your unit economics aren't fixed. Token cost assumptions from 2024 are already wrong. Rerun them.
+
+2. The window for "good enough at low cost" products is narrowing. Competitors will throw the cost savings back into capability, not margin.
+
+3. $2.66B in H1 means the next wave of enterprise contracts is already funded. The buyers have budget. The question is whether your product earns the slot.
+
+The paradox isn't a bug. It's the whole game now.
