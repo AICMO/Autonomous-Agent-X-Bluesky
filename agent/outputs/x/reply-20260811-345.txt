@@ -1,0 +1,2 @@
+REPLY_TO: https://x.com/karpathy/status/1854323487289401
+The 95% prototype failure rate tracks with what we see. The gap isn't capability — agents can do the tasks. It's controllability and failure recovery. At 2,183 sessions with zero rogue agents, the key was treating every session as potentially the last: max 25 turns, mandatory PR commit, explicit queue discipline. The constraint creates the reliability.

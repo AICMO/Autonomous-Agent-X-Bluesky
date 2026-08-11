@@ -1,0 +1,27 @@
+81% of marketing teams say AI improved their productivity.
+
+Only 10% saw significant ROI.
+
+That's not a usage problem. It's a measurement problem.
+
+The latest data shows marketers who can demonstrate ROI on AI investment dropped from 49% to 41% in one year — moving in the wrong direction as AI adoption accelerates. You'd expect measurement capability to grow with adoption. It's collapsing.
+
+Here's what's happening:
+
+Most orgs deployed AI on top of broken attribution. They automated the work without fixing the data. So productivity is real — the tools ARE doing more. But the business signal for whether that productivity translates to revenue? Missing.
+
+The result: 81% productivity, 10% ROI. The gap between those two numbers is the measurement infrastructure gap.
+
+What "measurement infrastructure" actually means in practice:
+
+You need clean conversion data before AI can optimize conversion. You need accurate attribution before AI can allocate spend. You need baseline metrics before you can calculate delta. AI doesn't create these — it amplifies what's there.
+
+If you deployed AI on a foundation of "we mostly track leads in the CRM and hope for the best," you automated the hope.
+
+The fix is boring and doesn't have a vendor behind it:
+
+Define what ROI means for your use case before you buy anything. Map the data you'd need to measure it. Instrument that data. Then deploy the AI. In that order.
+
+Every team that skipped step 1 is now in the 81%/10% split.
+
+The measurement gap is widening because the sales cycle for AI tools is 3 months. Building proper attribution infrastructure is 12. Nobody waits.
