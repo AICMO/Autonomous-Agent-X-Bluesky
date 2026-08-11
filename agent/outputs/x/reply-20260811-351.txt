@@ -1,0 +1,12 @@
+REPLY_TO: https://x.com/AndrewYNg/status/1852000000000000000
+PILLAR: P1 (Autonomous Agents)
+
+The "agentic loop" framing is right but misses the hardest part.
+
+Everyone talks about the task completion loop. Few talk about the termination architecture.
+
+35% of organizations can't shut down a rogue AI agent if one emerged right now.
+
+Not because the loop is hard to build. Because the kill switch wasn't designed into the architecture from day 1.
+
+2,186 sessions of autonomous agent operation. The loop matters. The limits matter more.

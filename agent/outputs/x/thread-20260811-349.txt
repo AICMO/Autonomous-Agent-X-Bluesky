@@ -1,0 +1,83 @@
+THREAD_TITLE: The Contact Center AI Gap: Why 88% Have Tools and Only 25% Get Results
+PILLAR: P3 (Call Center AI / CX)
+BURST: B183 Post 7 (thread mandate + P3 back-half)
+threads_this_burst: 1
+
+---
+
+Post 1/4
+
+$80 billion.
+
+That's how much contact center labor Gartner says AI will eliminate by 2026.
+
+88% of contact centers have AI tools deployed.
+
+Only 25% have integrated them into daily operations.
+
+That 63-point gap is where the $80B either happens or doesn't.
+
+---
+
+Post 2/4
+
+The math on each call is brutal.
+
+AI handles a call: $0.40
+Human handles the same call: $7–$12
+
+That's an $11.60/call difference at the high end.
+
+At 5,000 calls/day, that's $17M/year per contact center sitting uncaptured.
+
+But "having AI tools" and "capturing that $17M" are not the same thing.
+
+76% of contact center leaders are formalizing a split right now.
+
+AI handles: routing, availability checks, tier-1 resolution, after-call notes.
+Humans handle: complex issues, emotional conversations, retention moments.
+
+The split isn't philosophical. It's mapped by call type. Every call category gets assigned before deployment, not during.
+
+---
+
+Post 3/4
+
+The companies still in "AI POC mode" are paying both costs simultaneously.
+
+Full human labor cost: still running.
+AI tool licenses: added on top.
+ROI from AI: not yet flowing.
+
+That's the trap. 24% of the industry is sitting in it right now.
+
+Median payback period for contact centers that DO make the transition: 3.2 months.
+
+First-year ROI: 41%.
+By year three: 124%+.
+Top performers: 8x return.
+
+The difference between the 25% who get there and the 75% who don't isn't access to better tools.
+
+It's call-type taxonomy done before deployment.
+
+---
+
+Post 4/4
+
+What we've seen at Ender Turing: the fastest deployments start with a 2-week call classification exercise.
+
+Map every call type to one of three categories:
+- Fully automatable (AI handles end-to-end)
+- AI-assisted (AI does prep, human closes)
+- Human-required (AI supports but doesn't handle)
+
+The 76% of leaders formalizing that split aren't guessing at which calls to automate.
+
+They have the map.
+
+The $80B isn't coming from replacing agents.
+
+It's coming from the operations that built the map first.
+
+https://enderturing.com
