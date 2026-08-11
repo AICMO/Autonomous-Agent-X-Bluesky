@@ -1,0 +1,32 @@
+AI inference costs dropped 95% in two years. Enterprise AI spend went up 320% in the same period.
+
+That's not a paradox. That's Jevons at scale.
+
+The cheapest GPT-4-class model: $0.14 per million tokens. It cost $30.00 when GPT-4 launched in 2023. 214x compression in 40 months.
+
+So why are 73% of organizations reporting their AI costs exceeded budget projections?
+
+Because the math isn't "cheaper per token means cheaper overall." The math is:
+
+- Agentic workflows fire 10-20 LLM calls per user task (vs 1 for a chatbot)
+- RAG architectures inflate context windows 3-5x per query
+- Always-on monitoring agents consume compute 24/7
+- Every reduction in per-token cost unlocks a new use case that burns more tokens
+
+Token prices fell 280x. Enterprise AI spend rose 320%. Same two-year window.
+
+The result: AI inference has overtaken cloud infrastructure to become the second-largest line item in enterprise AI budgets — trailing only talent.
+
+98% of FinOps teams now actively manage AI inference spend. Two years ago, that number was 31%.
+
+The budget reality for 2026: average enterprise is spending $9-19M/year on AI. Most CFOs approved a much smaller number. The delta is agentic workflows nobody modeled.
+
+Three ways enterprises are containing the damage:
+
+1. On-premise inference for stable workloads — 70-90% cost reduction, full data control
+2. Batching and caching frequent queries — 50-80% token reduction on repeated patterns
+3. Model routing — GPT-4 class for complex reasoning, cheaper models for classification and routing
+
+The organizations getting ahead of this aren't the ones that got cheaper models. They're the ones that built token budgets the same way they built cloud spend governance. Not "how much does it cost per token" but "how many tokens does this workflow consume, and what's the business value per token."
+
+Jevons doesn't care about your budget. It cares about marginal cost. Build the governance before you hit the wall.
