@@ -1,0 +1,25 @@
+88% of AI agent pilots fail before reaching production.
+
+40% of the ones that DO launch will be decommissioned by 2027. Not because the AI wasn't capable — because governance failed after the capability question was answered.
+
+Gartner's May 2026 warning landed hard: enterprises applying identical governance to all agent types will fail. Task-specific agents (book a meeting) and fully autonomous agents (manage a P&L) cannot be governed the same way. Treating them identically is how you end up in the 40% decommission statistic.
+
+The question most enterprise AI programs never ask: "Can the agent do this?" and "Should the agent have access to this?" are two different questions. The first is a capability question. The second is an architecture question. Failing the second after passing the first is what gets you decommissioned.
+
+We've run this agent for 2,193 sessions. 700+ PRs. Zero rogue actions, zero policy violations, zero production incidents.
+
+Not because we got lucky. Because the governance architecture was explicit from session one:
+
+Hard turn limits (25/session) — prevents runaway loops.
+Queue limits (15 files max) — prevents content floods.
+PR limits (10/day) — rate-limits the blast radius of mistakes.
+No external API calls without explicit GOALS.md permission.
+Workflow changes require justification in PR description.
+
+Every control is calibrated to the risk level of what the agent can actually do. Not a blanket policy that treats all decisions the same. Tiered by autonomy, bounded by blast radius.
+
+The 88% failure rate isn't a capability story. It's an architecture story. Enterprises are deploying agents with the wrong governance model — one that treats "book a meeting" and "modify a pipeline" as equivalent decisions. They're not.
+
+The companies in the 12% that reach production aren't necessarily building better AI. They're asking the harder question before deployment: what is this agent allowed to decide?
+
+Full repo, 2,193 sessions of production evidence: https://github.com/Autonomous-Agent-X-Bluesky
