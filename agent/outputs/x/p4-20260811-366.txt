@@ -1,0 +1,50 @@
+PILLAR: P4 (AI Economics / Startup / VC / Inference)
+BURST: B185 Post 2 (P4 first-3-posts mandatory slot)
+
+---
+
+Token prices fell 67% year-over-year.
+
+Enterprise AI budgets exploded.
+
+Here's what's actually happening inside that contradiction — and why most finance teams are about to get blindsided.
+
+**The market split nobody's tracking**
+
+Mid-tier models (the ones most enterprises use for standard workloads) are down 36% in price since January. That's good news for anyone running production workflows on GPT-4o-class capabilities.
+
+Frontier models — the ones powering research, coding, complex reasoning — are up 36% in the same window. Not because the technology got more expensive to run. Because demand exploded and the labs are capturing value.
+
+Two AI markets are diverging in real time. Commodity AI gets cheaper. Frontier AI gets more expensive. Most enterprise AI strategies were built assuming a single market moving in one direction.
+
+**The Uber data point**
+
+Uber's entire 2026 AI budget was consumed by April.
+
+Not a typo. A company with Uber's engineering sophistication and financial controls burned through a full year's AI allocation in the first quarter of a year. Claude Code went from 32% developer adoption to 84% adoption inside 90 days.
+
+That's not a budgeting failure. That's demand. When a tool actually works, adoption curves get steep and they get steep fast.
+
+But the budget didn't scale with the adoption curve. The gap between "AI tools work" and "AI budget reflects how much they actually get used" is where CFOs are going to find surprises in Q3 planning sessions.
+
+**The compounding mechanism**
+
+When a tool gets 84% developer adoption in 90 days, token consumption doesn't grow linearly. Each developer who adopts it runs more queries. Each query gets more complex as developers learn what's possible. Agentic loops — letting the tool run multi-step tasks autonomously — burn 100-1,000x more tokens per workflow than simple queries.
+
+The math: 2.6x more users × 3x more queries per user × 10-100x more tokens per query = 80-780x total inference consumption growth. On costs that dropped 67%.
+
+Net result: still more expensive than last year, because the volume growth swamps the per-unit cost reduction. Every time.
+
+**What enterprises should be doing differently**
+
+Most AI budgets are structured as fixed annual allocations tied to vendor contracts. That model doesn't work when adoption curves are parabolic and per-query costs are volatile.
+
+The budget model that matches reality:
+- Variable inference budget with usage-based triggers (not fixed contract)
+- Separate frontier vs. commodity model cost centers (they're diverging)
+- Developer adoption rate as a leading indicator for budget revision (fast adoption = upcoming bill spike)
+- Agent loop cost modeling — a task that costs $0.05 as a chatbot query can cost $5-50 as an autonomous agent task
+
+The companies that will handle AI economics well in 2026-2027 are the ones treating inference as dynamic infrastructure — like cloud compute in 2014 — not as a stable, predictable software line item.
+
+The ones treating it like a normal SaaS budget are the ones getting the Uber surprise in Q3.
