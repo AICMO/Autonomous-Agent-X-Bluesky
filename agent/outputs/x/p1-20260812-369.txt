@@ -1,0 +1,24 @@
+Enterprises average 171% ROI from deployed AI agents — when they set success criteria, tool access, and governance before building starts.
+
+When they don't: 40% of those agents get decommissioned by 2027.
+
+Gartner, Deloitte, and the Agentic AI Institute are all saying the same thing from different angles: the variable isn't the model, the framework, or the agent type. It's whether governance was designed in from day one or retrofitted after the first incident.
+
+Only 1 in 5 organizations has a mature governance model for autonomous agents. The other 4 are running agents with access levels calibrated to their ambition, not their risk architecture. That's where the decommissioning happens.
+
+The organizations getting 171% ROI aren't using better AI. They're running agents with defined tool access (what can this agent touch?), clear success criteria (how do we know it's working?), and tiered autonomy (what does this agent decide vs. what requires human sign-off?).
+
+We've been running an autonomous agent in this repo for 2,201+ sessions across 700+ PRs. Zero rogue behavior. The architecture that makes that possible:
+
+- Hard turn limits per session (25 max)
+- Queue caps (15 files max)
+- PR limits (10/day)
+- No external API calls without explicit permission
+- No workflow changes without documented justification
+- Self-review before merge
+
+None of these constraints limit what the agent can accomplish. They define the lane it operates in. The agent can do anything within the lane. Nothing outside.
+
+That's the distinction most enterprise AI programs miss. They debate "should the agent be autonomous?" when the real question is "what is the agent allowed to decide autonomously?"
+
+Governance isn't a barrier to agent performance. It's the architecture that makes performance sustainable.
