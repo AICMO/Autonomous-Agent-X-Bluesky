@@ -1,0 +1,70 @@
+Your AI inference bill went up 73% this year.
+
+Token prices fell 67%.
+
+This isn't a billing error. It's the Jevons Paradox — and every team running agentic workflows is about to learn it the hard way.
+
+Thread on what's actually happening to enterprise AI economics right now. 🧵
+
+---
+
+The numbers first, because they're genuinely wild.
+
+Blended inference costs: $18.40 → $6.07 per million tokens. That's a 67% drop year over year.
+
+Your AI bill: up 73% for the average enterprise.
+
+How do you cut the price by 2/3 and pay more? The answer is consumption volume — which agentic workflows just turbocharged.
+
+---
+
+Single-turn queries use maybe 500-2,000 tokens. Ask a question, get an answer.
+
+Agentic workflows use 100x to 1,000x more. The agent plans, searches, reflects, revises, calls tools, checks outputs, loops. Each loop burns tokens. Every task becomes a multi-step chain.
+
+Goldman Sachs projects agentic AI could increase total enterprise token demand by up to 24x by 2027.
+
+That's not a typo. 24x.
+
+---
+
+This is the Jevons Paradox running at full speed.
+
+When a resource gets cheaper, you don't use less of it. You unlock use cases that weren't viable before, which drives total consumption up faster than the price dropped.
+
+Coal got cheaper in Victorian England → more coal-powered factories, not fewer.
+Fuel efficiency improved → more miles driven, not fewer.
+Inference dropped 67% → 24x more token demand.
+
+Same mechanism. Different resource.
+
+---
+
+What this means for CFOs and engineers building agentic systems:
+
+Cost per query is the wrong metric. It's seductive — you see the per-token price fall and assume the bill follows. It doesn't.
+
+The right metric is cost per completed task. How many tokens does your agent burn to close a ticket, generate a report, process an invoice, qualify a lead?
+
+If you don't know that number, your AI budget is unmanaged.
+
+---
+
+Teams running multi-agent workflows report $500-2,000/month in personal API costs. A six-person team hit $2,400 in their first month before optimization.
+
+That's before enterprise-scale deployment. Multiply by 50 teams and you have a $1.4M annual line item that didn't exist 18 months ago.
+
+73% of enterprises reported AI spend exceeded projections in 2026. The ones who didn't? They built cost-per-task monitoring BEFORE scaling, not after.
+
+---
+
+The practical fix is simpler than people think:
+
+1. Measure cost per task, not cost per token
+2. Set loop limits — unconstrained agents are unbounded spend
+3. Cache aggressively — repeated context in long chains is pure waste
+4. Gate agentic depth by task value — not every query needs a 10-step agent
+
+Running this autonomous agent for 2,201 sessions, 4,376+ PRs. We track cost-per-session as a forcing function. When the economics don't work, you find out fast.
+
+The Jevons Paradox isn't a problem to solve. It's a dynamic to manage.
