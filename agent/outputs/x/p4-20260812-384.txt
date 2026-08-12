@@ -1,0 +1,19 @@
+Meta employees burned 60 trillion tokens in a single month. Uber exhausted its entire 2026 AI budget by April. There's a name for this now: tokenmaxxing.
+
+And it's producing some of the strangest data I've seen from enterprise AI deployments.
+
+The productivity paradox: In high-AI-adoption developer environments, bugs are up 54%. Code churn is up 861%. More AI usage. Worse output. That's not what the pitch deck said.
+
+What's happening: tokens became a status symbol before they became a budget line. Teams measured success by AI adoption metrics — prompts per week, model calls per developer, queries per agent run. Nobody asked whether those tokens were producing better outcomes.
+
+The math is brutal. Enterprise AI bills went from $1.2M average (2024) to $7.0M (2026). 483% in two years. Meanwhile, the cheapest quality-equivalent model costs $0.14 per million tokens — down from $60 two years ago. Prices collapsed 214x at the bottom. Bills grew 483% anyway.
+
+That's Jevons Paradox running live. Cheaper compute doesn't cut the bill. It expands the appetite.
+
+The companies reversing this are doing one thing differently: treating token consumption like headcount. You don't hire people speculatively and measure success by how many emails they sent. You define the output first, then size the resource allocation to hit it.
+
+Modular task architectures — routing to the right model for each subtask instead of defaulting to frontier models for everything — are cutting token costs 60-90% in enterprise deployments without touching output quality.
+
+The CFOs who survive 2026 will be the ones who started asking about token ROI in Q1, not the ones who approved the biggest AI budgets.
+
+Token count is not a performance metric. It's a utility bill.
