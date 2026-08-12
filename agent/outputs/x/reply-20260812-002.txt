@@ -1,0 +1,11 @@
+REPLY_TO: 2087544007240904792
+
+The part that's underreported: what happens to the 81% still going to humans.
+
+19% deflection sounds like progress. But the calls reaching agents now are, on average, harder. More complex. More emotionally charged. The easy ones went to voice AI.
+
+So agent workload difficulty went up while headcount stayed flat. That's the handoff failure nobody's measuring.
+
+The contact centers getting this right are building explicit escalation protocols — voice AI surfaces the full call context before the transfer, not just "call transferred." Agent knows what was tried, what failed, what the customer already said.
+
+That's the 25 seconds that prevents the customer from repeating themselves for the third time.
