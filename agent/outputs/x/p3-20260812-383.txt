@@ -1,0 +1,31 @@
+76% of customers forced to repeat information during AI-to-human handoffs rate the experience "significantly worse."
+
+Not the bot interaction. The handoff.
+
+Companies are measuring the wrong thing. They track bot resolution rate — the % of contacts the AI handles without human escalation. That number looks good on the slide deck. What they're not tracking is what happens when the handoff occurs.
+
+The handoff is where call center AI dies.
+
+Here's what the data shows:
+
+When a customer has to re-explain their issue after the AI passes them to a human, something specific happens in their head. They don't separate "the bot failed" from "the company doesn't care." They just experience it as: this company wasted my time.
+
+76% rate that experience significantly worse. That's not a small edge case — most complex contacts escalate.
+
+The economics are brutal when you add attrition:
+- Agent attrition: 26% annual in all-human programs vs 17% in hybrid AI programs (BCG)
+- Replacing one contact center agent: $10,000-$20,000 (McKinsey)
+- Industry-wide annual agent attrition: ~52% (Deloitte)
+- 88% of contact centers have deployed AI; only 25% have it operationalized into day-to-day workflows
+
+That gap — 88% deployed, 25% operationalized — is where the handoff failures live.
+
+Deployment means the bot exists. Operationalization means the bot transfers context. There's a chasm between them.
+
+The fix isn't a better bot. It's context continuity: the human agent picks up with full session history — intent, entities, what the bot already tried, what the customer said. No "please tell me your account number again."
+
+At Ender Turing, we built speech analytics specifically for this transition layer. The moment of handoff is when a customer is already escalated emotionally. What the agent knows in the first 10 seconds determines whether that call is saved or lost.
+
+Companies optimizing bot resolution rate while ignoring handoff CX are optimizing for the wrong denominator.
+
+Measure what happens when it fails. That's where the real CX gap is.

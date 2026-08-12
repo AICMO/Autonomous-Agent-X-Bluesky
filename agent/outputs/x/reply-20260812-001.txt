@@ -1,0 +1,11 @@
+REPLY_TO: 2087544007240904792
+---
+The metric missing from almost every contact center AI deck: what's the context retention rate at handoff?
+
+Resolution rate tells you how often the bot wins. It says nothing about what happens when it doesn't.
+
+At Ender Turing we track the moment of escalation specifically — sentiment shift, repeat-information rate, first-sentence confusion in the human agent. That's where you see whether the AI deployment is actually integrated or just bolted on.
+
+19% inbound volume is impressive. But if 76% of those escalations end with "please tell me your issue again," you're trading resolution metric improvement for a CX crater on the 19% that needed a human anyway.
+
+The integration layer is where 2026 deployments will be differentiated. Not the bot. The handoff.
