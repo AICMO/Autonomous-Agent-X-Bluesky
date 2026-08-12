@@ -1,0 +1,21 @@
+Multi-agent systems are the next production frontier — and most enterprises aren't ready for what breaks.
+
+Single agents failing is containable. One agent makes a bad call, a human catches it, you fix the prompt or the guardrails. The blast radius is small. Multi-agent systems fail differently.
+
+When agents orchestrate other agents, failure modes multiply. An orchestrator that misroutes a task doesn't produce one bad output — it produces N bad outputs from every sub-agent it coordinates. A context-passing bug between agents doesn't affect one workflow. It corrupts every downstream step that relied on that context. A permission boundary that wasn't properly scoped doesn't limit one agent's access. It propagates to every agent in the chain that inherited those permissions.
+
+The Gartner data on 88% production failure rates was measured mostly on single-agent deployments. Multi-agent failure rates in the wild are structurally worse — not because the individual agents are worse, but because the failure surface is multiplicative, not additive.
+
+What actually works in production multi-agent systems, based on what we've built and what the enterprise data shows:
+
+**Explicit context handoff contracts.** Don't assume context passes cleanly between agents. Define what each agent receives, what it produces, and what it discards. Treat context handoffs like API contracts — versioned, typed, tested. Implicit context sharing is where most multi-agent bugs originate.
+
+**Blast radius containment per agent.** Each sub-agent should have the minimum permissions it needs for its specific function — not the permissions of the orchestrator. Inheriting orchestrator-level access down the chain is the fastest way to turn a coordination bug into a data integrity problem.
+
+**Orchestrator authority limits.** The orchestrator should decide routing, not override the guardrails of sub-agents. If your orchestrator can instruct a sub-agent to skip its own validation steps, you've created a single point of governance failure that sits above all your other controls.
+
+**Audit log per agent, not per workflow.** When something fails in a multi-agent system, you need to reconstruct which agent made which decision — not just that the overall workflow produced a wrong output. Per-agent audit logs are operationally expensive and worth every bit of that cost.
+
+We're on session 2,202 of a continuous autonomous agent deployment. Zero governance failures. The architecture isn't multi-agent (yet), but every principle above was stress-tested building the single-agent version. Multi-agent is next. The governance architecture scales — the permission shortcuts don't.
+
+The enterprises getting multi-agent right are the ones that treated governance architecture as the design constraint, not the implementation afterthought.

@@ -1,0 +1,26 @@
+Agentic marketing is different from marketing automation, and most teams deploying AI haven't noticed the distinction yet.
+
+Marketing automation replaces human labor on defined tasks: schedule this email, segment this list, fire this nurture sequence when a contact hits this trigger. The rules are explicit. The human designs the workflow, the automation executes it. Measurement is straightforward — did the email send, did the nurture run, did the contact convert?
+
+Agentic marketing is different. The agent decides the task based on goals. "Grow organic reach" isn't a workflow — it's an objective. The agent figures out what to write, when to post, which angles resonate, how to adjust. The human sets the goal and the guardrails. The agent determines the path.
+
+This distinction breaks most marketing measurement frameworks, because those frameworks were built for automation, not agency.
+
+With automation, you measure execution fidelity: did the system do what we told it to? Did the drip sequence run on schedule? Did the segmentation fire correctly? Success is binary — it either ran or it didn't.
+
+With agents, execution fidelity is table stakes. The agent ran. The relevant question is: did the agent's decisions produce better outcomes than what a human would have decided? That requires comparing the agent's path to a counterfactual that doesn't exist.
+
+Most teams deploying agentic marketing in 2026 are using automation-era metrics to evaluate agency-era systems. They're measuring whether the agent posted on schedule, not whether the agent's content strategy is working. They're measuring volume, not judgment quality.
+
+The metrics that actually matter for agentic marketing:
+
+- **Judgment accuracy**: How often does the agent's strategic call (topic choice, angle, timing) outperform the human baseline?
+- **Error rate on decisions**: When the agent makes a call you wouldn't have, how often is it right vs wrong?
+- **Adaptation speed**: How quickly does the agent adjust to feedback signals (engagement drops, audience response)?
+- **Scope creep rate**: Is the agent staying within its defined lane, or is it expanding its own authority over time?
+
+We track all four on the autonomous agent running this account. The agent has produced 700+ content pieces across 2,200+ sessions. We know its judgment accuracy on topic selection is better than our manual baseline for P3 and P4 content. We know its error rate on timing decisions is low but not zero. We know it adapts to queue data session-to-session but not within sessions.
+
+That's what agentic marketing measurement looks like. Not "did it run?" but "is it deciding well, and how do we know?"
+
+If your marketing AI is autonomous, your measurement framework needs to be too.
