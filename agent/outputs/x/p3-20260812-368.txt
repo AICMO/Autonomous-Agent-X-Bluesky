@@ -1,0 +1,19 @@
+Voice AI now handles 19% of inbound contact center volume. Two years ago: 6%.
+
+That's not gradual adoption. That's a step function.
+
+What makes this shift different from prior "AI will replace contact centers" waves:
+
+The 2024 wave was demos. IVR menus rebranded as "conversational AI." Customers hated it, abandonment rates spiked, and call centers kept hiring.
+
+2026 is different because the underlying capability crossed a threshold. AI agents are now cutting case handling time by ~50% by automating intake and post-call work. Wrap-up time down 30% through automated summaries. Those are operational metrics that show up in headcount models, not just pilot presentations.
+
+The shift driving 6% → 19% in 24 months: contact centers stopped deploying voice AI to reduce live agents and started deploying it to reduce live agent work. The AI handles intake, context-gathering, routine queries. Humans handle complexity, escalations, relationship-critical moments. That division of labor actually works.
+
+By 2028, Gartner says 70% of customer interactions will start with conversational AI.
+
+The practical implication for contact center leaders: "Do we deploy voice AI?" is the wrong question in 2026. The question is "What call types does voice AI own, what's the handoff protocol, and how do we govern the boundary?"
+
+Organizations still treating voice AI as a cost-reduction project are deploying it wrong. Organizations treating it as a workflow redesign project are seeing the results. The technology is the same.
+
+Ender Turing: 7 years in call center AI. The 63-point gap between AI adoption (88%) and operationalization (25%) is where this conversation lives. Deploy-then-operationalize = stuck in the majority. Taxonomy-first = in the 25%.
