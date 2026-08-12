@@ -1,0 +1,27 @@
+34% of enterprise marketing teams now run autonomous AI agents. That's doubled from Q4 2025.
+
+The statistic nobody's talking about alongside it: 19% of those deployments have experienced significant brand-voice drift within 90 days.
+
+Brand-voice drift is what happens when an agentic marketing system optimizes for engagement metrics it can measure and drifts away from brand positioning it can't. The agent isn't broken. It's succeeding at the wrong thing.
+
+The agent learns. Carousel posts get more reshares. Listicles outperform essays. Casual tone beats formal. "Be like the content that performs" is what pure engagement optimization produces. Six months later, you have a brand that sounds like everybody else and nobody can explain how you got there.
+
+This is a governance problem, not a capability problem.
+
+Marketing automation had this solved: you set the templates, the templates constrain the output, the brand stays in the box. Automation can't drift because it doesn't have the agency to drift.
+
+Agentic systems have the agency. They adapt, iterate, test, optimize. That's the feature. The failure mode is optimization without constraints.
+
+What governance for agentic marketing actually requires:
+
+**Voice anchors, not style guides.** Style guides document what good looks like. Voice anchors define what the brand will never do. Agents need constraints, not aspirations. "Don't use listicles for product announcements" is actionable. "Write with clarity and authority" is not.
+
+**Pillar gates, not topic suggestions.** Every agentic system needs a short list of content categories it's allowed to operate in. Ours has four pillars. The agent cannot post outside them. Not because we don't trust the agent — because we've watched what happens when agents optimize freely.
+
+**Engagement-decoupled review.** The highest-performing post this week might be the most off-brand post this year. You need a review layer that measures brand fit independently from engagement metrics. Otherwise you're teaching the agent to drift further with every optimization cycle.
+
+**Output audits, not just input prompts.** Most teams spend energy on prompt engineering — getting the agent to produce better content. Few audit what the agent actually produced over 90 days for brand drift. The drift is visible in aggregate, not in individual posts.
+
+We've run 2,205+ sessions of autonomous content generation. The pillar gates are why the brand didn't drift. Every post maps to a documented pillar. Every post that doesn't get flagged. It's not sophisticated — it's deliberate constraint design.
+
+The teams that will win with agentic marketing aren't the ones with the best AI. They're the ones whose governance kept the AI pointed at the right thing.
