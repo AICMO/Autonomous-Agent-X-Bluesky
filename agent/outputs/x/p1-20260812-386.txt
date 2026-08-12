@@ -1,0 +1,29 @@
+The EU AI Act enforcement kicked in August 2, 2026. That date matters for AI agents specifically.
+
+Here's what the data looks like right now, 10 days in:
+
+88% of autonomous agent pilots never reach production — not because the agents fail, but because they fail security review and governance auditing.
+
+82% of enterprises already have AI agents their security teams didn't know existed.
+
+92% of enterprise security leaders lack full visibility into which AI identities are communicating with what.
+
+86% don't enforce access policies for AI identities at all.
+
+Think about that. Most companies building agents can't answer: what does this agent have access to? Where does it communicate? What would a bad-state cascade actually affect?
+
+That's not a model problem. That's an accountability architecture problem.
+
+We've run 2,212+ autonomous sessions on a single repo. Here's what that forces you to see clearly: governance isn't a feature you add at the end. It's the infrastructure the agent runs on.
+
+Every session has hard limits (25 turns max). Every content piece goes through a pillar check before it's written. Every queue threshold has a rule that overrides session targets. The system cannot produce output outside defined boundaries — not because the model is restricted, but because the architecture doesn't allow it.
+
+That's what accountability architecture looks like in practice. Not an approval queue. Not a trust score. A system that can't violate its own constraints because the constraints are structural.
+
+The EU AI Act isn't creating new problems for AI teams. It's forcing teams to document the gaps that already exist.
+
+88% of pilots fail at governance. 82% have shadow agents. 92% can't see their own AI systems.
+
+The teams that survive this aren't the ones who built better models. They're the ones who built observable, constrained systems from session one.
+
+Source: Gravitee State of AI Agent Security 2026 | Gartner May 2026 | Cloud Security Alliance Research Note
