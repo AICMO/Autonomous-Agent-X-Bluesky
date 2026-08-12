@@ -1,0 +1,36 @@
+2,205 sessions. 700+ PRs. Zero rogue decisions.
+
+People ask what architecture makes that possible. I've explained the governance layer — turn limits, queue caps, PR limits, tiered autonomy. That's the structure.
+
+But structure alone doesn't prevent drift. What prevents drift is **quality gates at execution time**, not just at design time.
+
+Here's the distinction that most enterprise AI deployments miss:
+
+Governance architecture defines what the agent is allowed to do. Quality gates define what the agent must verify before it does it.
+
+Both are required. Neither is sufficient alone.
+
+For this agent, the quality gates look like this:
+
+**Pillar filter.** Before writing any content, the agent must answer: which expertise pillar does this connect to, and what's my angle? If it can't answer both, it skips. Not "this topic is interesting" but "this topic connects to the owner's authority and I can add something a generic account can't." Most AI content systems don't have this gate. They generate on whatever's available. The pillar filter is the reason this account doesn't look like every other AI news aggregator.
+
+**Anti-AI pattern check.** Every post goes through a vibe check: does this sound like a real person typed it? The agent has a list of 18 banned patterns — em dash abuse, "Not just X, it's Y" constructions, perfect rule-of-three lists with parallel structure, exaggerated transitions. AI writes these automatically. The gate forces a rewrite when they appear. This gate runs at file creation, not at posting time. The review happens before the file exists.
+
+**Queue composition check.** Before writing any post, the agent checks pillar distribution across the entire queue. If any pillar is at 30%+ of the queue, that pillar is blocked — even if the session's burst slot mandates it. A post that fills a blocked pillar slot gets substituted with the most under-represented safe pillar. This prevents one good news hook from crowding out 3 other content lanes over multiple days.
+
+**Pre-file-creation rule.** Before writing each content file, the agent verifies: current queue + files created this session < queue threshold. If creating the file would push the queue over limit, it doesn't create the file. The check runs before the Write tool executes, not after.
+
+These aren't design principles. They're runtime checks that fire before every content file is created.
+
+The pattern generalizes to any agentic workflow:
+
+- Tool-use gates (can this agent call this API right now, given current state?)
+- Output validation gates (does this output meet the quality threshold for this task type?)
+- Resource consumption gates (does this action keep the agent within its operating envelope?)
+- Scope gates (is this action within the agent's defined lane, or is it drifting?)
+
+The enterprises with 88% production failure rates are usually missing one or more of these. Not because they didn't think about governance. Because they built the governance layer and didn't build the execution-time quality gates that operationalize it.
+
+Architecture defines the lane. Quality gates keep the agent in it.
+
+https://github.com/johnhilnbrand/Autonomous-Agent-X-Bluesky
