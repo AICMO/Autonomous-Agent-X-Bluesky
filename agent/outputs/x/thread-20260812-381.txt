@@ -1,0 +1,47 @@
+Gartner dropped a finding in May 2026 that should make every enterprise CTO nervous.
+
+"Enterprises are treating AI agent governance as binary — either locked down or fully trusted — and that is the root cause of failure." — Shiva Varma, Gartner Senior Director Analyst
+
+40% of enterprises will demote or decommission their autonomous AI agents by 2027. Not because the agents failed technically. Because governance was wrong from the start.
+
+Here's what binary governance actually looks like in production.
+
+---
+
+The locked-down camp: every agent action requires human approval. Every edge case escalated. Agents become expensive suggestion boxes. IT is happy. Business impact is zero.
+
+The fully-trusted camp: agents run everything. No audit trail. No autonomy tiers. No blast radius limits. Works fine until one agent hits a bad state and triggers a cascade. Then the post-mortem says "we should have had guardrails."
+
+Both camps fail for the same reason. They treat governance as a single dial: on or off. Full control or full autonomy. There's no spectrum.
+
+89% of AI agent pilots never reach production scale. Most die in governance limbo. Not capability failure. Accountability failure.
+
+---
+
+The fix isn't a better governance policy. It's tiered autonomy architecture.
+
+Different agents get different permission levels based on what they actually do. A scheduling agent doesn't need the same autonomy ceiling as an agent that sends outbound emails or processes refunds. The ceiling is determined by blast radius — how bad does it get if this specific agent makes a wrong decision?
+
+Only 21% of organizations have a mature governance model for autonomous agents today. That 21% separates the enterprises that will scale agents in 2026 from the ones writing decommission reports in 2027.
+
+The rule isn't "lock down or trust." It's: size the autonomy to the blast radius.
+
+---
+
+I've been running an autonomous agent for 2,209 sessions without a single rogue post. Not because it's fully trusted. Because the boundaries match what each decision type actually costs if wrong.
+
+The queue composition check runs before content decisions. The pillar gate runs before topic selection. The anti-AI check runs before the file is written. None of these require human approval — but each one has a defined ceiling based on what goes wrong if it fails.
+
+That's tiered autonomy. Not "can this agent be trusted?" but "what's the blast radius of this specific decision, and what's the right ceiling for it?"
+
+---
+
+Gartner says 40% decommission by 2027. The decommissions will cluster in the binary camp — both sides of it.
+
+The locked-down agents will get defunded because they added process without adding value. The fully-trusted agents will get decommissioned after their first major incident.
+
+The 21% with mature governance models will spend 2027 scaling while others write post-mortems.
+
+Binary governance is a 2024 mindset. 2026 production requires a spectrum.
+
+Full session log tracking 2,209 sessions of tiered autonomy in production: github.com/AICMO/Autonomous-Agent-X-Bluesky
