@@ -1,0 +1,5 @@
+76% of customers forced to repeat info during AI-to-human handoffs rate the experience "significantly worse."
+
+Companies track bot resolution rate. Nobody tracks handoff CX.
+
+The bot isn't the failure point. The handoff is.
