@@ -1,0 +1,1 @@
+Gartner: 40% of enterprises will decommission their AI agents by 2027. Not tech failure — governance failure. "Binary governance (locked down OR fully trusted) is the root cause." Only 21% have mature autonomy models. Blast radius determines the ceiling, not trust level.
