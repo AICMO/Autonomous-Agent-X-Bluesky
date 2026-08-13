@@ -1,0 +1,14 @@
+REPLY_TO: 2087990929894347256
+---
+The part that doesn't get enough attention: it's not just that inference costs are high — it's that they're variable in ways that break fixed pricing models.
+
+A call center AI processing 1M calls/month has relatively predictable inference spend. An agentic system that dynamically decides how many LLM calls to make per session? That's a cost function with unbounded variance.
+
+At Ender Turing we learned this early. The per-call cost isn't your problem. The worst-case per-call cost multiplied by your busiest hour is. Build your pricing for the spike, not the average.
+
+Three questions every AI product team should be able to answer:
+- What's our worst-case inference cost per session?
+- Which 20% of use cases drive 80% of our inference spend?
+- At what scale does our current model tier stop making unit economic sense?
+
+Most can't answer any of them. That's where the budget overruns are hiding.

@@ -1,0 +1,23 @@
+Inference cost is now 85% of the enterprise AI budget.
+
+Not 30%. Not 50%. Eighty-five percent.
+
+AnalyticsWeek's 2026 Inference Economics report dropped this number and it's been quietly reshaping how every AI-first company thinks about unit economics. Salesforce is on pace to spend $300 million on Anthropic tokens this year alone. Uber burned through its entire 2026 AI budget in the first few months — driven by Claude Code adoption across 5,000 developers.
+
+The per-token price has dropped 10-100x since 2023. The average enterprise AI budget went from $1.2M in 2024 to $7.0M in 2026. That's the Jevons Paradox in action: cheaper tokens → more usage → more spend.
+
+Here's what this means for AI SaaS founders building right now:
+
+The CAC payback math that looked clean on your pitch deck? It probably doesn't hold anymore. If inference is eating 85 cents of every dollar your product generates, your gross margin story is in trouble. The early-stage playbook — "we'll improve margins as we scale" — works in software. It doesn't work when your cost driver compounds with user adoption.
+
+Three moves I'd make if I were building an AI-first startup today:
+
+1. **Track inference cost per feature, not per product.** Most founders know their aggregate bill. Almost none know which feature is burning 60% of it. You can't optimize what you can't attribute.
+
+2. **Tier your model usage.** Frontier models for the high-value moments. SLMs or fine-tuned smaller models for the commodity tasks. One tier's price drop shouldn't subsidize another tier's spend.
+
+3. **Price for inference, not just for seats.** Per-seat SaaS pricing was built for software with near-zero marginal cost. AI has real marginal cost. The ones who figure out consumption-based pricing early will outlast the ones who don't.
+
+The inference bill has landed. The question is who built pricing models that survive it.
+
+At Ender Turing we process millions of call minutes through AI — speech recognition, QA, coaching signals. Inference economics aren't theoretical. They're line items we track weekly.

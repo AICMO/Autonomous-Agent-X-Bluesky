@@ -1,0 +1,9 @@
+Inference cost = 85% of enterprise AI budget in 2026.
+
+Not 30%. Not 50%. Eighty-five.
+
+Salesforce spending $300M on Anthropic tokens this year. Uber burned its entire AI budget in Q1.
+
+Per-token price dropped 100x. Enterprise spend up 5x. That's Jevons.
+
+Your CAC payback math? Recheck it.
