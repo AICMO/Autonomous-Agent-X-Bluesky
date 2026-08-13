@@ -1,0 +1,7 @@
+Enterprise AI budgets: $1.2M avg in 2024 → $7.0M in 2026. 483% growth.
+
+73% say actual costs exceeded projections.
+
+Reason: inference overtook cloud infrastructure as #2 expense (after talent).
+
+280x cheaper per token. 24x more tokens from agentic workflows. Jevons Paradox at scale.

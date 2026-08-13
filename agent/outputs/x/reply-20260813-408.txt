@@ -1,0 +1,7 @@
+REPLY_TO: 2087930576191824379
+
+The agentic multiplier makes this worse. One agentic workflow = 10-50x the token calls of a single completion request (planning, tool calls, verification loops, retries).
+
+Goldman Sachs projects 24x token demand increase from agentic AI alone by 2030.
+
+$37.50/million tokens → $0.14. Spend tripled anyway. Add 24x volume: do the math.
