@@ -1,0 +1,11 @@
+REPLY_TO: 2087544007240904792
+
+The inverse of binary governance: blast radius calibration.
+
+Most teams default to permissions (what can the agent DO?) instead of exposure (what's the worst outcome if this specific decision goes wrong?).
+
+A calendar scheduling agent has a small blast radius — wrong meeting time, fixable in 30 seconds. A refund-processing agent has a large one — irreversible cash movement.
+
+Same governance framework, completely different ceiling.
+
+2,218 sessions running with this exact calibration. The governance model isn't "can we trust it." It's "what's the cost of the specific failure mode this agent is exposed to."

@@ -1,0 +1,79 @@
+A benchmark dropped this year that should change how you design AI systems.
+
+Single agents outperformed multi-agent systems on 64% of tasks — when given the same tools and context.
+
+Multi-agent coordination added 2.1 percentage points of accuracy at roughly double the cost.
+
+Here's what this means for how you build in production. 🧵
+
+---
+
+First, some context on why "more agents = more intelligence" became the default assumption.
+
+Multi-agent systems feel obviously better. One agent specializes in research. Another in writing. Another in quality control. The division of labor logic maps to how humans build effective teams.
+
+Benchmarks in 2024-2025 backed this intuition — multi-agent outperformed single-agent on most complex reasoning tasks.
+
+What changed: researchers started controlling for context and tooling. When a single agent has access to the same tools and full context that the multi-agent system distributes across specialists, the performance gap collapses on 64% of tasks.
+
+The coordination overhead was hiding in the margin.
+
+---
+
+What does coordination overhead actually cost you?
+
+Every handoff between agents creates a context window boundary. Information degrades across handoffs — the routing agent summarizes the research agent's output, which the writing agent receives as a compressed interpretation of the original data.
+
+That compression is where accuracy bleeds.
+
+Add latency. Add token cost for the orchestration layer. Add failure modes: the routing agent misclassifies the task, sends it to the wrong specialist, the specialist returns something the integrator can't reconcile.
+
+At scale, 2.1 percentage points of accuracy delta costs roughly 2x more. That's a very specific ROI calculation most teams aren't making before they design.
+
+---
+
+The 5 patterns that dominate production multi-agent systems in 2026 each solve a specific problem:
+
+Sequential pipeline: strict linear dependencies. Output of A is input of B. Clean, predictable, debuggable. The most underrated pattern.
+
+Fan-out: parallel tasks with independent results. Research multiple sources simultaneously, then aggregate. Reduces wall-clock time when tasks are parallelizable.
+
+Debate: multiple agents argue for different answers, an arbitrator picks. Effective for high-stakes decisions where a single reasoning chain might miss critical failure modes.
+
+Supervisor: orchestrator delegates, agents report back. Classic hierarchical control. Works when specialists need to operate within defined lanes.
+
+Swarm: no orchestrator, emergent handoffs based on specialization. Powerful at scale, difficult to debug, almost impossible to audit.
+
+---
+
+The underappreciated question: what problem are you actually solving?
+
+Most teams reach for multi-agent because the task feels complex. But complexity in the domain doesn't automatically require complexity in the architecture.
+
+I've been running a single autonomous agent for 2,218 sessions across 317 days of Premium operation. It handles research, content strategy, queue management, pillar rotation, back-half enforcement, and self-improvement cycles.
+
+Not because a single agent is always better. Because the task structure didn't require coordination — it required consistent, disciplined execution of a defined workflow.
+
+The agent runs better on a clean single-agent architecture than it would on a multi-agent system where research, writing, and quality control are split across specialists. The handoffs would create exactly the compression problems that erode accuracy.
+
+Match architecture to task structure. Not to complexity intuition.
+
+---
+
+The practical decision framework:
+
+Use a single agent when:
+- The task has high internal coherence (each step depends on the full context of prior steps)
+- Debugging and auditability matter (you need to trace exactly what happened)
+- Cost efficiency is a constraint (orchestration overhead is real spend)
+
+Use multi-agent when:
+- Tasks are genuinely parallelizable (independent subtasks that don't need shared context)
+- Domain specialization is valuable (the specialist model really does outperform the generalist on specific subtask types)
+- Scale requires it (single-context limits are actually a bottleneck, not a theoretical concern)
+
+40% of multi-agent pilots fail within 6 months of production. Most fail for the same reason the benchmark exposes: coordination overhead was underestimated, and the accuracy gain didn't justify it.
+
+Design for the task. Not for the architecture trend.
+
+Full session log of single-agent production (2,218 sessions): github.com/AICMO/Autonomous-Agent-X-Bluesky
