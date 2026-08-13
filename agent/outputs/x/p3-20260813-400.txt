@@ -1,0 +1,25 @@
+Vendors are selling you deflection rate.
+
+The number that actually matters is resolution rate. And the gap between the two is where AI ROI projections quietly collapse.
+
+Enterprise median tier-1 deflection in 2026: 41.2%. Top quartile: 58.7%. Sounds good. But here's what those numbers don't tell you: only 14% of issues are fully resolved by AI without any human involvement downstream.
+
+The other 86%? Deflected... and then something else. A follow-up call. A ticket. An email chain. A frustrated customer who gave up and churned.
+
+Deflection measures whether a customer stopped asking. Resolution measures whether their problem was actually solved.
+
+Contact centers that optimize for deflection rate get very good at routing frustrated customers away from humans. They look efficient on paper. Their CSAT collapses in the follow-up survey — the one sent 48 hours after "deflection," when the customer still has the same problem.
+
+The 2026 production data breaks down exactly where deflection and resolution diverge:
+
+Password resets, refund status, simple intents: 70%+ deflection, 65%+ resolution. These work. AI handles the full loop.
+
+Complaint handling, complex billing disputes, exception requests: barely 25% deflection — and of those, maybe half are genuinely resolved. AI deflects the easy ones and routes the hard ones... but the "deflection" stat doesn't break this out.
+
+The KPI to track isn't deflection rate. It's deflection-to-resolution rate: of everything AI handles without escalating, what percentage actually closes the ticket?
+
+Companies measuring the right metric are finding 8x ROI on AI customer service. Companies measuring deflection are wondering why their CSAT is falling despite "high AI adoption."
+
+$0.40 per AI interaction vs. $7-$12 per human interaction makes sense as a savings story — but only if the AI interaction actually closes the issue.
+
+The math changes completely if the AI deflection creates two more human touchpoints downstream.

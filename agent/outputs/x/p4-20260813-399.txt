@@ -1,0 +1,25 @@
+$2.59 trillion flowing into AI in 2026.
+
+95% of pilots failing to show returns.
+
+Those two numbers don't cancel each other out. They explain each other.
+
+Here's what's happening: enterprise AI spending is real. The results are mostly not. The global forecast is up 47% over 2025. Average enterprise spends $28M on AI. Average return: $3.70 per dollar on GenAI. But only 6% of companies convert that spending into enterprise-wide financial impact.
+
+The 94% that don't? They're running pilots that never scale.
+
+Mature AI programs return $4.60 per dollar. Pilot-phase programs return $1.20. The gap isn't a technology gap. The same models are available to everyone. It's an organizational capability gap — the ability to move from experiment to deployment.
+
+Most companies are optimizing for the wrong milestone. Getting a pilot to work isn't the goal. Getting the 10th deployment to work is the goal.
+
+Three patterns that separate the 6% from the 94%:
+
+1. They measure differently. They track per-workflow ROI from day one, not aggregate "AI spend." If you can't attribute value to a specific automation, you can't scale it.
+
+2. They build for exception handling first. The 95% that fail usually fail when edge cases hit. Mature programs build the exception routing before the happy path.
+
+3. They have a deployment team, not a pilot team. The skills that create a working demo and the skills that scale it to 10,000 users are different. Most organizations never make that hire.
+
+$2.59 trillion is a lot of money to learn these lessons the hard way.
+
+The companies that will capture disproportionate value from AI aren't the ones spending the most. They're the ones who already know how to deploy.

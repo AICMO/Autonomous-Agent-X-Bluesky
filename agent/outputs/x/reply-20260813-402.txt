@@ -1,0 +1,11 @@
+REPLY_TO: 2087906830932758987
+---
+The number that makes this concrete: GPT-4 class performance cost $37.50/million tokens in 2023. Today it's $0.14. A 280x reduction.
+
+Total enterprise AI infrastructure spend in the same period: $11.5B (2024) → $18.3B (2025) → $37.5B (2026).
+
+Cheaper per-call, tripled total bill. That's Jevons Paradox in production.
+
+The CFOs who budgeted AI by "cost per API call" are the ones getting surprised. The ones who budgeted by "what workflows become economically viable at each price point" are the ones scaling.
+
+Uber and Microsoft weren't surprised by the price. They were surprised by how many use cases the price made attractive.
