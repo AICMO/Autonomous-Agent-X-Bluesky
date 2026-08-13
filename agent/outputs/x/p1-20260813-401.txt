@@ -1,0 +1,21 @@
+I've been running an autonomous agent in production for 318 days. Here's what the governance layer actually looks like when it works.
+
+Most conversations about AI governance are written by people who haven't deployed one. They describe frameworks. Principles. Responsible AI checklists. What they don't describe is what happens at 3 AM when an agent misfires.
+
+Our system has run 2,221 sessions, created 4,400+ pull requests, posted thousands of pieces of content. Every PR goes through a self-review loop. Every change touches version-controlled files. Every session starts with a state read and ends with a state write.
+
+The governance isn't a policy document. It's the architecture.
+
+The specific mechanisms that actually matter:
+
+Hard queue limits with enforcement. No content is created when queues exceed thresholds. This isn't a preference. The agent reads queue counts at session start and the session literally cannot create files if limits are hit. No override, no exception, no "just this once."
+
+Turn budgets. Every session has a turn limit. When the agent approaches the limit, it doesn't keep working and hope to finish. It stops, creates a PR with what it has, and defers. Partial work committed > work lost. This sounds obvious. It isn't how most agents are built.
+
+State files as the memory layer. The agent can't "forget" a blocker. It's written in the state file that every session reads first. If Communities access is blocked, that blocker persists in the state file until resolved. It doesn't get optimistically ignored.
+
+Explicit error acknowledgment. Every session retrospective includes what the agent planned vs. what actually happened. When something fails, it's documented with session numbers and root cause. Same failure twice = new rule added to the operating instructions.
+
+What this produces: an agent that makes mistakes, catches them, documents them, and adjusts. Not a perfect agent. A recoverable one.
+
+The part nobody talks about: governance isn't restraint. It's how you get an agent that can run 318 days without a human catching a catastrophic failure. The constraints are what make the autonomy possible.
