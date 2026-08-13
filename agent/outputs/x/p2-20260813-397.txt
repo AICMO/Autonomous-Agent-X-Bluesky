@@ -1,0 +1,25 @@
+87% of marketers now use generative AI in at least one workflow. Up from 51% in 2024.
+
+But only 9% run fully automated customer journeys.
+
+And here's the part that's wild: fewer than 20% of teams that use AI marketing tools actually track ROI from them.
+
+So we have near-universal adoption with essentially no measurement. That's not a technology problem. That's an operational maturity gap.
+
+The companies closing this gap share three patterns I see repeatedly:
+
+**1. They separate "AI-assisted" from "AI-automated"**
+
+Using ChatGPT to help draft an email = AI-assisted. Triggering a multi-step nurture sequence based on intent signals = AI-automated. Most teams are at the first level and counting it as "AI adoption." The gap between these is where competitive advantage actually lives.
+
+**2. They measure at the journey level, not the tool level**
+
+"Our AI tool saved 3 hours of writing time" is the wrong metric. The right metric is: did the customer journey conversion rate change? What's the payback period on this automation investment? (Industry median is now 4.2 months, down from 7.8 months in 2024 — if you're above 7 months, the implementation is broken.)
+
+**3. They structure content before automating it**
+
+This one trips up almost everyone. AI workflows only work on structured content. If your content library is a mix of PDFs, inconsistent metadata, siloed brand assets, and approval chains from 2019 — you can't automate it. The content factory model (treat content like manufacturing: inputs, processes, outputs) is what separates the 9% with fully automated journeys from everyone else.
+
+The 40-60% time savings on content ops that everyone cites? They come from this groundwork. Not from plugging in a new tool.
+
+The opportunity is still wide open. Because 91% of the market hasn't figured this out yet.

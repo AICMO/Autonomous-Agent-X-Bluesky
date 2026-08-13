@@ -1,0 +1,9 @@
+REPLY_TO: 2087867063314588032
+
+The tiered architecture point deserves more attention.
+
+Most teams are still running all workloads on the same model tier they started with. Which made sense in 2024 when there weren't meaningful quality differences. Now there are 130 models with 35x price spread between tiers.
+
+A contact center running 50,000 calls/month on frontier pricing vs budget routing for classification/transcription = $60K+ annual difference. Same quality on the parts that matter. Worse economics on the parts that don't.
+
+The discipline isn't "use cheaper models." It's "know which tasks need frontier capability and which don't." Most orgs don't have that map yet.
