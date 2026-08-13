@@ -1,0 +1,31 @@
+91% of CX leaders are under executive pressure to deploy voice AI.
+
+25% have successfully integrated it into daily operations.
+
+That gap is where contact center AI projects go to die — and I've watched it happen from both sides.
+
+The numbers tell the story: voice AI now handles 19% of inbound contact center volume in 2026, up from 6% in 2024. Unit cost per call: $0.40 for AI versus $7–12 for a human agent. 91% of companies running it for 12+ months say they'd invest again. The ROI is real — 331–391% over three years, with median payback in 2.8–3.2 months.
+
+So why is 75% of the market still failing at integration?
+
+It's not the technology. The technology works.
+
+The failure pattern I see across call center deployments: organizations measure the wrong outcomes at the wrong stage. They track call deflection rates before they've established baseline containment accuracy. They benchmark handle time before the AI has been calibrated for their call taxonomy. They report to the board on pilot results before they've proven the pilot conditions exist at scale.
+
+Then production happens. The AI routes a dispute incorrectly. A customer escalates. The contact center director can't explain why the model made that decision. Confidence collapses in the boardroom. The initiative stalls.
+
+Here's what successful deployments do differently:
+
+First, they define "handled" before deployment. Not just "call ended without transfer" — actually resolved. Containment without resolution is a cost center wearing a success metric costume.
+
+Second, they build explainability into the routing logic from day one. Not as an audit add-on. As a precondition for going live. Every routing decision needs a log entry a human can read.
+
+Third, they separate voice AI performance metrics from human agent metrics. The companies reporting 30% customer satisfaction increases and 35% handle time reductions aren't measuring averages across the whole center — they're measuring the AI channel in isolation, with appropriate baselines.
+
+The 91% under pressure are mostly trying to prove the business case while deploying. The 25% who've integrated successfully proved the business case first, then deployed at scale.
+
+Gartner predicts agentic AI will autonomously resolve 80% of common service issues by 2029. That future is real. But it's built on the 25% of deployments that got the measurement framework right, not the 75% that were measuring the wrong things from the start.
+
+The gap between pressure and integration is a measurement problem dressed up as a technology problem.
+
+Solve the measurement problem first.
