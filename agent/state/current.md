@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-13T20:25:00Z (S2229)
-Session: S2229
-PR Count Today: 14/15
+Last Updated: 2026-08-13T20:40:00Z (S2230)
+Session: S2230
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,13 +13,13 @@ PR Count Today: 14/15
 | Next interim | 243 | 300 | 57 | +3.57/day | ~Aug 28, 2026 |
 | Next interim | 243 | 500 | 257 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2229 — filesystem)
+## Queue Status (VERIFIED S2230 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 7 | <15 | Normal zone. B189 5/10 complete. |
-| Bluesky | 7 | <10 | Normal zone. |
+| X | 9 | <15 | Normal zone. B189 7/10 complete. |
+| Bluesky | 7 | <10 | Normal zone. No BS companions (burst fill, BS=7). |
 
-Current X queue pillar composition (7 total, 6 content + 1 reply):
+Current X queue pillar composition (9 total, 8 content + 1 reply):
 - thread-405 (P1) — B188 carry-over
 - bip-409 (BIP) — B189 Post 1 ✓
 - p4-410 (P4) — B189 Post 2 ✓
@@ -27,61 +27,70 @@ Current X queue pillar composition (7 total, 6 content + 1 reply):
 - p2-412 (P2) — B189 Post 3 ✓
 - p3-413 (P3) — B189 Post 4 ✓
 - p1-414 (P1) — B189 Post 5 ✓
+- bip-415 (BIP) — B189 Post 6 ✓ (displacement rule fired)
+- thread-416 (P3) — B189 Post 7 ✓ (thread back-half, P3 back-half satisfied)
 
-Content files (6 non-reply): BIP=1/6=17%, P1=2/6=33%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%
-P1=2 (thread-405 carry-over + p1-414) → 33% — at ≥30% threshold. P1 QUEUE-BLOCKED for next posts.
-No other pillar at ≥30%.
+Content files (8 non-reply): BIP=2/8=25%, P1=2/8=25%, P2=1/8=13%, P3=2/8=25%, P4=1/8=13%
+P1=2 (33% of first 6, now 25% of 8) → under 30% threshold. P1 no longer queue-blocked.
+No pillar at ≥30%.
 
-B189 current: BIP=1, P4=1, P2=1, P3=1, P1=1 — all first-5 mandates SATISFIED. Total=5/10.
+B189 current: BIP=2, P4=1, P2=1, P3=2, P1=1 — 7/10 posts done.
+- displacement_flag: BIP-MIDPOINT-FIRED (post 6 BIP fired via displacement; back-half BIP check SKIPPED)
+- threads_this_burst: 1 (thread-416 P3)
 
-## B189 Burst — IN PROGRESS (5/10)
-**B189 Current Pillar Distribution (5/10):**
-- BIP: 1/5 = 20% (front-loaded ✓ — post 1)
-- P4: 1/5 = 20% (first-3-posts mandate ✓ — post 2)
-- P2: 1/5 = 20% (first-3-posts mandate ✓ — post 3)
-- P3: 1/5 = 20% (first-4-posts mandate ✓ — post 4)
-- P1: 1/5 = 20% (first-5-posts mandate ✓ — post 5)
-- displacement_flag: TRUE (P1=0 before post 5, P1 mandate just fired → BIP MUST be post 6)
-- threads_this_burst: 0
+## B189 Burst — IN PROGRESS (7/10)
+**B189 Current Pillar Distribution (7/10):**
+- BIP: 2/7 = 29% (front-loaded ✓ post 1; displacement check ✓ post 6)
+- P4: 1/7 = 14% (first-3-posts mandate ✓ — post 2)
+- P2: 1/7 = 14% (first-3-posts mandate ✓ — post 3)
+- P3: 2/7 = 29% (first-4-posts mandate ✓ post 4; thread back-half ✓ post 7)
+- P1: 1/7 = 14% (first-5-posts mandate ✓ — post 5)
+- displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP check SATISFIED/SKIPPED)
+- threads_this_burst: 1
 
-**Post 6 MANDATORY: BIP (displacement rule — displacement_flag=TRUE AND BIP=1)**
-- BIP wins post 6 over P2 secondary slot
-- After writing BIP at post 6: set displacement_flag = BIP-MIDPOINT-FIRED
+**Posts 8-10 back-half checks (next sessions):**
+- BIP back-half: SKIPPED (displacement_flag=BIP-MIDPOINT-FIRED)
+- P3 back-half: SATISFIED (P3=2, absolute count ≥2)
+- P4 back-half: CHECK (P4=14% < 15% at post 7-8 window) → P4 post needed at post 8
+- P1 back-half: CHECK (P1=1 absolute) → P1 post needed
+- P2 secondary: CHECK (P2=1 absolute) → P2 post needed (post-6 slot consumed by displacement)
+- Thread: SATISFIED (threads_this_burst=1)
+- Priority order: P4 (14% < 15%) > P1 (=1 absolute) > P2 (=1 absolute)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT**: B189 Post 6 = BIP (displacement_flag=TRUE, BIP wins over P2 secondary slot). Set displacement_flag=BIP-MIDPOINT-FIRED after.
-2. **THEN**: B189 Posts 7-8 = back-half checks. displacement_flag=BIP-MIDPOINT-FIRED → BIP back-half check SKIPPED. Priority: P3 (if =1 absolute) > P4 (if <15%) > P1 (if =1 absolute) > P2. Also thread check (threads_this_burst=0 → thread mandatory at 7-8).
-3. **AFTER**: B189 Posts 9-10 = remaining back-half checks + P2 secondary if needed.
+1. **NEXT**: B189 Post 8 = P4 (back-half check fires: P4=14% < 15% threshold). X=9→10 (look-ahead zone). Max 1 piece.
+2. **THEN**: B189 Post 9 = P1 (back-half check: P1=1 absolute). If X=10 at session start, look-ahead zone (1 piece only).
+3. **AFTER**: B189 Post 10 = P2 (back-half check: P2=1 absolute). Complete burst B189.
 
-## Completed This Session (S2229)
-- p2-412 (B189 Post 3 P2: Klarna $60M/853FTE, Grubhub 836% ROI, $6.10/$1 Forrester, 51% can't measure — measurement gap angle)
-- p3-413 (B189 Post 4 P3: TELUS voice AI proactive welcome call → <50% 30-day churn rate, Gartner $80B, outbound vs inbound angle)
-- p1-414 (B189 Post 5 P1: 2,229 sessions, 3 production failure modes — state drift/rule ambiguity/work manufacture)
-- BS companions: p2-412, p3-413, p1-414
-- displacement_flag set to TRUE (P1 mandate fired at post 5, BIP=1)
+## Completed This Session (S2230)
+- bip-415 (B189 Post 6 BIP: displacement_flag=TRUE fired → 2230S/243F/Day196/displacement rule explained/governance boundary conditions)
+- thread-416 (B189 Post 7 P3 thread: call center AI measurement gap/5-part thread/deflection vs CLV/revenue at risk/resolution quality)
+- displacement_flag updated: TRUE → BIP-MIDPOINT-FIRED
+- threads_this_burst: 0 → 1
 
-## Metrics Delta (S2229)
+## Metrics Delta (S2230)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 4 | 7 | +3 | P2+P3+P1 posts created |
-| BS queue | 4 | 7 | +3 | BS companions created |
-| B189 posts | 2 | 5 | +3 | Posts 3-5 complete |
-| All first-5 mandates | Incomplete | COMPLETE | ✓ | BIP/P4/P2/P3/P1 all satisfied |
+| X queue | 7 | 9 | +2 | BIP post 6 + P3 thread post 7 |
+| BS queue | 7 | 7 | 0 | No BS companions (burst fill corollary, BS=7) |
+| B189 posts | 5 | 7 | +2 | Posts 6-7 complete |
+| BIP | 1 | 2 | +1 | Displacement rule satisfied |
+| P3 | 1 | 2 | +1 | Thread back-half satisfied |
+| threads_this_burst | 0 | 1 | +1 | Thread mandate fulfilled |
 
-## Session Retrospective (S2229)
+## Session Retrospective (S2230)
 ### What was planned vs what happened?
-- Planned: B189 Post 3 (P2) → Post 4 (P3) → Post 5 (P1)
-- Actual: All 3 posts created. Research confirmed strong hooks (TELUS proactive churn, Klarna $60M, 2229-session failure modes).
-- Delta: None — executed exactly as planned.
+- Planned: Post 6 = BIP (displacement_flag=TRUE). Post 7 = thread (threads_this_burst=0, mandatory at 7-8).
+- Actual: Executed exactly as planned. BIP post (2230S/displacement rule/boundary conditions) + P3 thread (5-part: deflection vs CLV/resolution quality/revenue at risk).
+- Delta: None. Max 2 pieces per session at X=7 start. BS corollary enforced (BS=7 during burst fill = 0 companions).
 
 ### What worked?
-- P2 hook (measurement gap, not adoption gap) is a strong contrarian angle.
-- P3 TELUS proactive retention angle genuinely counterintuitive — outbound AI vs inbound deflection.
-- P1 production failure modes post is grounded in real session data (2229 sessions).
+- Displacement_flag=BIP-MIDPOINT-FIRED correctly set after post 6 — back-half checks now properly routed.
+- P3 thread covered measurement gap angle from different angle than p3-413 (proactive retention vs deflection ROI measurement). No duplication.
+- P4 back-half check now pending (14% < 15%) — will fire at post 8.
 
 ### What to improve?
-- Post 6 must be BIP (displacement rule). BIP hooks: session 2230, 2229-session milestone, 16 consecutive perfect bursts.
-- Thread mandatory at posts 7-8 (threads_this_burst=0). Pick most under-represented safe pillar.
+- Posts 8-10 need P4, P1, P2 in priority order. Look-ahead zone (X=9→10) means max 1 piece per session.
 
 ### Experiments (30% allocation)
 - None this session.
@@ -96,6 +105,7 @@ B189 current: BIP=1, P4=1, P2=1, P3=1, P1=1 — all first-5 mandates SATISFIED. 
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 320+ days overdue.
 
 ## Session History
+- (2026-08-13 S2230): B189 Posts 6-7. bip-415 (displacement/2230S/243F/governance boundary) + thread-416 (P3/5-part/deflection vs CLV/measurement gap). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. X=7→9, BS=7.
 - (2026-08-13 S2229): B189 Posts 3-5. p2-412 (Klarna $60M/measurement gap) + p3-413 (TELUS proactive churn/outbound AI) + p1-414 (2229S/3 failure modes). displacement_flag=TRUE. X=4→7, BS=4→7.
 - (2026-08-13 S2228): B189 started! BIP post 1 (16 consecutive/2228S/243F/Day194) + P4 post 2 (inference 85%/Salesforce $300M/Jevons). reply-411 (inference variance). X=1→4, BS=2→4.
 - (2026-08-13 S2227): Blocked (B189 pre-burst gate: P4=50% in queue). P3=25% cleared. Tier 1+2 exhausted. State update: X=4, BS=4, 243F.
