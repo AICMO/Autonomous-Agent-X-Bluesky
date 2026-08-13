@@ -1,0 +1,47 @@
+Call centers have been "transforming with AI" for 3 years. Most are measuring it wrong. Here's the gap nobody talks about:
+
+---
+
+The default metric is deflection rate. How many calls did AI handle without a human?
+
+Gartner projects $80B in contact center AI spend by 2026. A significant chunk of that budget is being justified by deflection numbers that don't connect to revenue.
+
+Deflection is a cost metric. Customer lifetime value is a revenue metric. Almost no one is connecting the two.
+
+---
+
+The math that actually matters:
+
+A call deflected = $7-12 saved (fully loaded human agent cost)
+A call resolved badly by AI = 23% higher churn probability (Qualtrics 2025)
+A churned customer = $300-500 lost CLV in B2C, $15,000+ in B2B
+
+At scale: if your AI deflects 40% of calls but misresolves 15% of those, you're potentially destroying more value than you're saving. The deflection numbers look great. The P&L doesn't.
+
+---
+
+Three things contact center leaders are measuring instead of deflection:
+
+**1. Resolution quality score** — Did the customer's problem actually get solved? Not "was the call ended" but "did the issue recur within 7 days?"
+
+**2. Post-interaction sentiment delta** — How did the customer feel after AI vs. human? TELUS found that proactive AI outreach (before the customer calls to cancel) had sentiment scores 34% higher than reactive deflection.
+
+**3. Revenue at risk per interaction** — Tag calls by customer segment. A 3-year enterprise contract holder calling about billing deserves a different AI routing decision than a trial user with a password reset.
+
+---
+
+The companies getting ROI from call center AI all have the same characteristic: they defined success in revenue terms before they bought anything.
+
+"We want to reduce churn in the top 20% of accounts by 10%" is a different procurement decision than "we want to deflect 40% of volume."
+
+Same technology. Different question at the start. Completely different outcome 18 months later.
+
+---
+
+This isn't a technology gap. Every major CCaaS vendor has the hooks to measure resolution quality, sentiment, and segment value.
+
+It's a measurement gap. The AI team reports to ops. Ops owns cost metrics. Nobody owns the revenue connection.
+
+Until the person buying the AI is also accountable for customer lifetime value, deflection rate will stay the headline metric.
+
+And the ROI conversation will stay frustratingly circular.
