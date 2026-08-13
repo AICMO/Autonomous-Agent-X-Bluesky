@@ -1,0 +1,7 @@
+Klarna: $60M saved, 853 employee-equivalents. Grubhub: 836% ROI.
+
+Yet 51% of marketing teams still can't measure their AI returns.
+
+The problem isn't the AI. It's no measurement layer.
+
+Outcome-first → tool-second. Decide what success looks like before you deploy anything.
