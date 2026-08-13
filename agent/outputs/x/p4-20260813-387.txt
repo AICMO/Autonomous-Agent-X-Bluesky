@@ -1,0 +1,23 @@
+The AI inference market just split in two and almost nobody is talking about it.
+
+Budget tier models: down 35.8% year-over-year. Median price across 130 models in July 2026 — $1.00 per million input tokens, $4.00 output.
+
+Frontier models: doubled since January 2026. GPT-5.6 Sol is now $5 input / $30 output.
+
+This is not a pricing story. It's a strategic story.
+
+Here's what the split means in practice:
+
+The companies winning on AI cost are running tiered architectures. Simple classification, intent detection, data normalization — that's budget tier. Complex reasoning, generation, edge cases — that's frontier. You don't use a $30 output token to extract an email address. You don't use a $0.10 token to diagnose why a customer's contract is disputed.
+
+The companies losing are running everything through one model because it's "good enough." They're paying frontier prices for budget-tier tasks, then wondering why their AI bill scaled 5x without obvious ROI improvement.
+
+I build AI systems for call centers. The economics here are brutal: a tier-1 contact center runs 1,000 concurrent interactions. Every $1 wasted per interaction is $1,000 per minute of operations. Token routing decisions are not theoretical — they're P&L decisions at the second level.
+
+The stat that should terrify every AI buyer: OpenAI loses $1.35 for every $1 it earns on inference. The company selling you AI at these prices is losing money on the transaction. What happens to your roadmap when frontier pricing has to become sustainable?
+
+The budget tier is a hedge. The companies running tiered inference now are building cost floors that frontier pricing can't touch.
+
+Most teams haven't made this architectural decision yet. They're still picking "which model do we use." The better question is: which tasks get which tier, and who governs that routing decision?
+
+That answer has a real dollar amount attached to it.
