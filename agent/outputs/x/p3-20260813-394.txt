@@ -1,0 +1,19 @@
+NIB Health saved $22M and cut customer service costs 60% with AI. Not a pilot. Production, at scale.
+
+That number stopped me. $22M isn't a rounding error for an insurer. That's a structural cost shift — the kind that changes how a whole industry thinks about headcount planning.
+
+Here's what's buried in that story: the 60% cost reduction came alongside a 15% drop in phone-agent call volume. That last number is the real tell.
+
+A 15% drop in calls isn't automation doing the easy stuff. Easy stuff is the first 5-10% — FAQ handling, hours, account lookups. Once you're at 15%, you're resolving real issues: billing disputes, policy changes, multi-step enrollments.
+
+That's where call center AI has been for the past 18 months and most of the industry hasn't noticed.
+
+The industry pattern I keep seeing at Ender Turing: companies measure automation rates, not deflection quality. "We deflected 40% of contacts" sounds great until you look at what was deflected. If it's all low-stakes queries, your CSAT hasn't moved and your AHT hasn't moved on the calls that still come through.
+
+NIB's outcome is different because the AI resolved hard contacts, not just easy ones. That shifts the cost curve in a fundamentally different way than routing improvements.
+
+For anyone building call center AI right now: the metric that matters isn't deflection rate. It's cost per resolved issue across all channels combined — AI + human. NIB's $22M is the benchmark to beat.
+
+Gartner is projecting $80B in global contact center labor displacement by end of 2026. I think that number is conservative if companies start measuring the right thing.
+
+The companies that nail CX-level resolution quality on AI first will own the next 3 years of customer service economics. The window is about 18 months.

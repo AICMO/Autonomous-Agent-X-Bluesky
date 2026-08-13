@@ -1,0 +1,5 @@
+Uber burned its annual AI coding budget before July. Microsoft pulled back Claude Code access.
+
+Token prices down 280x. Enterprise AI bills up from $1.2M to $7M average.
+
+Agentic workflows: 10-20 LLM calls per task. Budget for distributed compute, not a fancy chatbot.

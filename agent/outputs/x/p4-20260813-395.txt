@@ -1,0 +1,26 @@
+Uber burned through its entire annual AI coding budget before July. Microsoft pulled back internal Claude Code access over the same cost problem.
+
+Two of the largest engineering orgs in the world. Both surprised by the same thing.
+
+This is what agentic AI economics actually look like in production: you budget for chatbot usage, then you deploy agents, and the cost multiplier hits you like a wall.
+
+Here's the mechanism: a single agentic workflow triggers 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Monitoring agents run 24/7 even when nothing's happening. Token prices dropped 280x over two years — and enterprise AI bills grew from $1.2M average (2024) to $7M average (2026). 73% of enterprises exceeded their AI cost projections.
+
+The math is simple. Per-unit cost down 280x. Per-task call volume up 15-20x. Always-on compute that doesn't scale to zero. You need token prices to drop 280x just to break even on the architectural change.
+
+OpenAI cut o3 pricing 80% in a single announcement (from $10 to $2 per million tokens). Same quarter, frontier models doubled their ceiling to $5-30 per output token. Commodity tier collapsing, frontier tier expanding.
+
+What the Uber and Microsoft stories actually signal: this isn't a pricing problem. It's an architecture problem.
+
+Companies that model agentic workflows as "fancy chatbots with more tokens" will keep getting surprised. The correct mental model: a deployed agent is a distributed compute system that happens to use language models. Budget for it accordingly.
+
+Three things that actually help:
+1. Tiered routing: budget models for classification and retrieval, frontier only for final generation
+2. Context window discipline: pre-filter before passing to LLM, not after
+3. Async vs sync separation: batch non-urgent tasks to off-peak compute
+
+The teams that figure out agentic cost architecture in the next 12 months will have a structural advantage. Everyone else will be explaining budget overruns to their CFO.
+
+$510B went into AI startups in H1 2026. OpenAI and Anthropic alone absorbed $217B — 43% of all global startup capital. That concentration means the cost structure is getting priced at frontier margins, not commodity margins.
+
+Build your agent architecture like the bill matters. Because it does.
