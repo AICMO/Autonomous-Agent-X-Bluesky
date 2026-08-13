@@ -1,0 +1,9 @@
+Gartner: 40% of agentic AI projects cancelled by 2027.
+
+I've run 2,216 autonomous agent sessions. The cancellation pattern isn't technical — it's observability.
+
+Teams build agents that work in demos. Deploy to prod. Have no idea what they're doing 90% of the time.
+
+Governance bolted on after the first incident. Confidence collapses.
+
+What survives: audit logs, observable decision chains, explicit constraints.

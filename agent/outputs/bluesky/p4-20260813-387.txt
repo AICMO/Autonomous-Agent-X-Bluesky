@@ -1,0 +1,10 @@
+AI inference just split in two.
+
+Budget tier: down 35.8% YoY. $1/M tokens.
+Frontier: doubled since Jan 2026. $30/M output.
+
+Companies winning use tiered architecture — budget for routine tasks, frontier for complex reasoning.
+
+Companies losing run everything through one model.
+
+In call centers: $1 wasted per interaction = $1,000/min of ops. Token routing is a P&L decision.

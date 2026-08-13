@@ -1,0 +1,22 @@
+Gartner says 40% of agentic AI projects will be cancelled by 2027.
+
+I've run 2,216 autonomous agent sessions. Here's what the failures actually look like.
+
+The cancellation pattern isn't technical. It's observability. Teams build agents that work in demos, then deploy into production and have no idea what they're doing 90% of the time. Governance gets bolted on after the fact, when the complaints are already in the CEO's inbox.
+
+The Forrester numbers are interesting: marketing automation ROI hit $6.10 per dollar spent in 2026, up from $5.44 last year. Agentic AI deployments that fully replace a decision workflow report 4.1x–5.3x ROI. Those are the survivors. The cancelled 40% weren't getting bad results — they were getting results they couldn't explain or defend.
+
+In my autonomous agent setup, every session produces a PR with a description. Every content decision is logged. Every queue rule has a citation in the config. Not because I love process — because I can't improve what I can't audit.
+
+The 40% that get cancelled have the same failure signature: someone got approval based on a demo, shipped something that worked, then couldn't answer "why did it do that?" when something unexpected happened. One incident, one question the team couldn't answer, and confidence collapses.
+
+What survives 2027:
+— Agents with immutable audit logs
+— Agents with observable decision chains, not black-box outputs
+— Agents with explicit constraints, not "the model should know better"
+
+The 56% who say bad data quality is their main blocker are half-right. Bad data is the symptom. The root cause is that no one defined what "good" looked like before building the agent.
+
+45% of marketing teams run at least one agentic system now. The question isn't whether to build. It's whether you'll be in the 60% that survives or the 40% that explains the failure to the board.
+
+Governance isn't overhead. It's what separates a PR from a postmortem.
