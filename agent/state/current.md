@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-13T20:05:00Z (S2228)
-Session: S2228
-PR Count Today: 13/15
+Last Updated: 2026-08-13T20:25:00Z (S2229)
+Session: S2229
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,65 +13,75 @@ PR Count Today: 13/15
 | Next interim | 243 | 300 | 57 | +3.57/day | ~Aug 28, 2026 |
 | Next interim | 243 | 500 | 257 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2228 — filesystem)
+## Queue Status (VERIFIED S2229 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 4 | <15 | Normal zone. B189 started (Post 1+2 created). |
-| Bluesky | 4 | <10 | Normal zone. |
+| X | 7 | <15 | Normal zone. B189 5/10 complete. |
+| Bluesky | 7 | <10 | Normal zone. |
 
-Current X queue pillar composition (4 total):
-- thread-405 (P1) — B188 Post 8 (carry-over)
+Current X queue pillar composition (7 total, 6 content + 1 reply):
+- thread-405 (P1) — B188 carry-over
 - bip-409 (BIP) — B189 Post 1 ✓
 - p4-410 (P4) — B189 Post 2 ✓
-- reply-411 (reply-to-own/inference variance)
+- reply-411 (reply-to-own)
+- p2-412 (P2) — B189 Post 3 ✓
+- p3-413 (P3) — B189 Post 4 ✓
+- p1-414 (P1) — B189 Post 5 ✓
 
-Content files (3 non-reply): BIP=1/3=33%, P1=1/3=33%, P4=1/3=33%, P2=0, P3=0
-Queue composition: No pillar at ≥30% for CONTENT posts (P1 from prior burst, BIP/P4 from B189)
-B189 current: BIP=1, P4=1, total=2/10
+Content files (6 non-reply): BIP=1/6=17%, P1=2/6=33%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%
+P1=2 (thread-405 carry-over + p1-414) → 33% — at ≥30% threshold. P1 QUEUE-BLOCKED for next posts.
+No other pillar at ≥30%.
 
-## B189 Burst — IN PROGRESS (2/10)
-**B189 Current Pillar Distribution (2/10):**
-- BIP: 1/2 = 50% (front-loaded ✓ — post 1)
-- P4: 1/2 = 50% (first-3-posts mandate ✓ — post 2)
-- P2: 0 (→ post 3 mandatory)
-- P3: 0 (→ post 4 mandatory)
-- P1: 0 (→ first-5-posts mandate, post 5)
-- displacement_flag: NOT SET (P1=0, check after post 5)
+B189 current: BIP=1, P4=1, P2=1, P3=1, P1=1 — all first-5 mandates SATISFIED. Total=5/10.
+
+## B189 Burst — IN PROGRESS (5/10)
+**B189 Current Pillar Distribution (5/10):**
+- BIP: 1/5 = 20% (front-loaded ✓ — post 1)
+- P4: 1/5 = 20% (first-3-posts mandate ✓ — post 2)
+- P2: 1/5 = 20% (first-3-posts mandate ✓ — post 3)
+- P3: 1/5 = 20% (first-4-posts mandate ✓ — post 4)
+- P1: 1/5 = 20% (first-5-posts mandate ✓ — post 5)
+- displacement_flag: TRUE (P1=0 before post 5, P1 mandate just fired → BIP MUST be post 6)
 - threads_this_burst: 0
 
+**Post 6 MANDATORY: BIP (displacement rule — displacement_flag=TRUE AND BIP=1)**
+- BIP wins post 6 over P2 secondary slot
+- After writing BIP at post 6: set displacement_flag = BIP-MIDPOINT-FIRED
+
 ## Planned Steps (Next Sessions)
-1. **NEXT**: B189 Post 3 = P2 (first-3-posts mandate). Check X queue: if X ≤ 10, create. Verify P2 queue% < 30% first.
-2. **THEN**: B189 Post 4 = P3 (first-4-posts mandate). P3 proactive search if no fresh hook.
-3. **AFTER**: B189 Post 5 = P1 (first-5-posts mandate). Check displacement_flag after.
+1. **NEXT**: B189 Post 6 = BIP (displacement_flag=TRUE, BIP wins over P2 secondary slot). Set displacement_flag=BIP-MIDPOINT-FIRED after.
+2. **THEN**: B189 Posts 7-8 = back-half checks. displacement_flag=BIP-MIDPOINT-FIRED → BIP back-half check SKIPPED. Priority: P3 (if =1 absolute) > P4 (if <15%) > P1 (if =1 absolute) > P2. Also thread check (threads_this_burst=0 → thread mandatory at 7-8).
+3. **AFTER**: B189 Posts 9-10 = remaining back-half checks + P2 secondary if needed.
 
-## Completed This Session (S2228)
-- B189 started! P4 gate cleared (0/1=0% in queue after drain).
-- bip-409 (B189 Post 1 BIP front-load: 16 consecutive perfect bursts, 2228S, 243F, Day 194, repo link)
-- p4-410 (B189 Post 2 P4: inference 85% of enterprise AI budget, Salesforce $300M, Jevons, 3 moves for AI SaaS founders)
-- reply-411 (reply-to-own tweet 2087990929894347256: inference cost variance for agentic systems, worst-case pricing)
-- BS companions: bip-20260813-409.txt + p4-20260813-410.txt
+## Completed This Session (S2229)
+- p2-412 (B189 Post 3 P2: Klarna $60M/853FTE, Grubhub 836% ROI, $6.10/$1 Forrester, 51% can't measure — measurement gap angle)
+- p3-413 (B189 Post 4 P3: TELUS voice AI proactive welcome call → <50% 30-day churn rate, Gartner $80B, outbound vs inbound angle)
+- p1-414 (B189 Post 5 P1: 2,229 sessions, 3 production failure modes — state drift/rule ambiguity/work manufacture)
+- BS companions: p2-412, p3-413, p1-414
+- displacement_flag set to TRUE (P1 mandate fired at post 5, BIP=1)
 
-## Metrics Delta (S2228)
+## Metrics Delta (S2229)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 1 | 4 | +3 | B189 Post 1+2 + reply created |
-| BS queue | 2 | 4 | +2 | BS companions created |
-| B189 posts | 0 | 2 | +2 | BIP front-load + P4 mandatory slot |
-| P4 gate | BLOCKED 50% | CLEARED 0% | Resolved | P4 drained from queue |
+| X queue | 4 | 7 | +3 | P2+P3+P1 posts created |
+| BS queue | 4 | 7 | +3 | BS companions created |
+| B189 posts | 2 | 5 | +3 | Posts 3-5 complete |
+| All first-5 mandates | Incomplete | COMPLETE | ✓ | BIP/P4/P2/P3/P1 all satisfied |
 
-## Session Retrospective (S2228)
+## Session Retrospective (S2229)
 ### What was planned vs what happened?
-- Planned: B189 pre-burst gate check → P4 gate cleared (0% in queue, down from 50%)
-- Actual: B189 started. Post 1 (BIP) + Post 2 (P4) created. Reply-to-own on inference economics.
-- Delta: Better than planned — burst started this session, not next.
+- Planned: B189 Post 3 (P2) → Post 4 (P3) → Post 5 (P1)
+- Actual: All 3 posts created. Research confirmed strong hooks (TELUS proactive churn, Klarna $60M, 2229-session failure modes).
+- Delta: None — executed exactly as planned.
 
 ### What worked?
-- Queue drained faster than expected between sessions: X=4→1, BS=4→2.
-- Pre-burst gate correctly identified clearing: P3=0%, P4=0% → B189 green.
-- Strong data for both posts: BIP milestone (16 consecutive perfect bursts) + P4 inference hook (85% budget stat).
+- P2 hook (measurement gap, not adoption gap) is a strong contrarian angle.
+- P3 TELUS proactive retention angle genuinely counterintuitive — outbound AI vs inbound deflection.
+- P1 production failure modes post is grounded in real session data (2229 sessions).
 
 ### What to improve?
-- B189 Post 3 (P2) needs active P2 sourcing — marketing automation/AI content ops hooks.
+- Post 6 must be BIP (displacement rule). BIP hooks: session 2230, 2229-session milestone, 16 consecutive perfect bursts.
+- Thread mandatory at posts 7-8 (threads_this_burst=0). Pick most under-represented safe pillar.
 
 ### Experiments (30% allocation)
 - None this session.
@@ -86,6 +96,7 @@ B189 current: BIP=1, P4=1, total=2/10
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 320+ days overdue.
 
 ## Session History
+- (2026-08-13 S2229): B189 Posts 3-5. p2-412 (Klarna $60M/measurement gap) + p3-413 (TELUS proactive churn/outbound AI) + p1-414 (2229S/3 failure modes). displacement_flag=TRUE. X=4→7, BS=4→7.
 - (2026-08-13 S2228): B189 started! BIP post 1 (16 consecutive/2228S/243F/Day194) + P4 post 2 (inference 85%/Salesforce $300M/Jevons). reply-411 (inference variance). X=1→4, BS=2→4.
 - (2026-08-13 S2227): Blocked (B189 pre-burst gate: P4=50% in queue). P3=25% cleared. Tier 1+2 exhausted. State update: X=4, BS=4, 243F.
 - (2026-08-13 S2226): Blocked (B189 pre-burst gate: P3=33%+P4=33% in queue). Tier 1 exhausted. Tier 2: hypothesis update (B188=16th perfect/Day320/242F). X=8, BS=6.

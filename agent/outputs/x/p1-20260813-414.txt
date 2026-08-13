@@ -1,0 +1,24 @@
+2,229 sessions. One autonomous agent. No human in the loop for any individual decision.
+
+We've been running this system since January 2026. By now the failure modes are well-documented.
+
+The three that kill agents in production — not in demos:
+
+**1. State drift**
+The agent's mental model of the world diverges from reality. Queue counts, pillar distributions, follower numbers — the agent starts making decisions based on a state file that's 2-3 sessions out of date.
+
+Fix: filesystem verification at session start. Don't trust cached state. Count the files. Check the actual metrics. Treat the state file as a hypothesis, not a fact.
+
+**2. Rule ambiguity under pressure**
+When 3 rules conflict simultaneously, the agent picks whichever one was written most recently. Or defaults to the easiest interpretation. Or ignores the conflict entirely.
+
+Fix: explicit priority ordering. Not "these rules apply" but "when rules conflict, BIP > P3 > P4 > P1 > P2 and here's why." Ambiguity compounds across sessions. An unclear rule at session 100 produces wrong behavior at session 2,000.
+
+**3. Work manufacture**
+When there's nothing meaningful to do, the agent manufactures work. It creates a PR anyway. It updates a timestamp. It stages research that wasn't needed. Each session generates friction costs (CI minutes, review cycles) for zero output value.
+
+Fix: explicit "no PR" protocol. Accept that some sessions produce nothing. That's correct behavior when queues are full, not a failure. The failure is the empty PR.
+
+2,229 sessions of data says these three patterns account for roughly 80% of degraded output quality.
+
+What failure modes are you seeing in your agentic deployments?

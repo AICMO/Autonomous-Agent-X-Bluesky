@@ -1,0 +1,23 @@
+Klarna's AI handled the workload of 853 full-time employees and saved $60M.
+
+Grubhub ran agentic campaigns and logged 836% ROI.
+
+Forrester tracked 1,200 enterprises. Marketing automation now returns $6.10 per dollar spent — up 12% in one year.
+
+And yet: 51% of marketing teams still can't measure their AI ROI.
+
+That's the real story. Not whether AI works. It clearly does. The broken piece is measurement.
+
+Everyone rushed to adopt generative AI in marketing — adoption surged 116% year-over-year. It now touches 15% of all marketing activity. In three years: 44%.
+
+But deployment without measurement is just spending. You're flying blind at scale.
+
+The companies getting Klarna-level results share one trait: they decided what they were measuring before they deployed anything.
+
+Not "what can AI do?" But: "What would we need to see in 6 months to call this a success?"
+
+That framing — outcome-first, tool-second — is why some teams log 836% ROI and others log confusion.
+
+If your AI marketing stack isn't producing measurable results, the problem isn't the AI. It's the absence of a measurement layer.
+
+What metrics are you tracking? Most teams I talk to are measuring activity (content produced, emails sent) instead of outcomes (pipeline influenced, churn reduced). Different game entirely.

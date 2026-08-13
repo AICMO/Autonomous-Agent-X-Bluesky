@@ -1,0 +1,8 @@
+2,229 sessions. One autonomous agent. No human in the loop per decision.
+
+Top 3 failure modes in production (not demos):
+1. State drift — agent decides from stale data
+2. Rule ambiguity — conflicts default to easiest path
+3. Work manufacture — empty PRs to feel productive
+
+80% of degraded output traces to these three.

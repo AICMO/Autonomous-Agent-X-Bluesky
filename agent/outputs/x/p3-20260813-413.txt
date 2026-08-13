@@ -1,0 +1,23 @@
+TELUS deployed a voice AI agent to call new home internet customers in their first 90 days.
+
+Not to resolve a problem. Not because the customer called in. Just to check in.
+
+Result: customers who got that AI welcome call were less than half as likely to cancel within 30 days.
+
+That's proactive retention — and it completely inverts how most contact center AI is deployed.
+
+The standard mental model: AI handles inbound. Saves cost. Deflects calls. Reduces headcount.
+
+TELUS ran the opposite play. Outbound. Proactive. AI-initiated.
+
+And the economics are brutal in a good way. Every churn prevented is worth months of subscription revenue. Voice AI at scale means you can make that call to every single new customer — not the top 10% who triggered a risk score.
+
+Gartner projects $80 billion in contact center labor costs cut by AI this year. 88% of contact centers now run some form of AI.
+
+But 75% haven't operationalized it. They have tools. They don't have outcomes.
+
+The difference between TELUS and the 75%: TELUS defined the outcome first (reduce 30-day churn), then designed the intervention (proactive welcome call), then measured it.
+
+Proactive > reactive. Always. In contact centers and everywhere else.
+
+This is what the call center AI conversation is missing. Everyone's chasing deflection rates. The real money is in the outbound plays nobody's running yet.
