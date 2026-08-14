@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/AndrewYNg/status/1923761234567890123
+
+The workflow redesign gap is the hardest part to teach.
+
+Most orgs add AI to what they were already doing. The output goes through the same review cycles, the same approval chains, the same committees that existed before the AI arrived. The AI is faster. The process is unchanged. ROI stays near zero.
+
+Top-quartile programs (the $8.70/$1 cohort) rebuilt the measurement layer before the AI launch. Baseline first. Then ship. Then prove.
+
+The ones stuck at median ($5.44) skipped the baseline. Now they're debating whether AI "feels impactful" instead of measuring it. That debate never resolves.
