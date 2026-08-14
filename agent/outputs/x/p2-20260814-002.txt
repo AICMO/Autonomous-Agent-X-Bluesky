@@ -1,0 +1,31 @@
+Marketing automation delivers $6.10 for every $1 spent. Top quartile: $8.70.
+
+83% of companies hit positive ROI within 12 months. That's the headline.
+
+Here's the number that actually matters: 95% of enterprise AI pilots deliver zero P&L return. 80%+ of organizations report no measurable EBIT impact from generative AI at all.
+
+Both sets of numbers are true at the same time. How?
+
+The $6.10 ROI comes from companies that redesigned workflows around AI capabilities. They didn't add AI to what they were doing — they rebuilt what they were doing because AI was available.
+
+The 95% failure rate comes from companies that added AI to existing workflows. New tool, old process. AI outputs go into the same spreadsheets, reviewed by the same people, approved through the same committees that existed before AI showed up.
+
+The gap between $5.44 (median) and $8.70 (top quartile) isn't a technology gap. Every company has access to the same LLMs, the same marketing automation platforms, the same AI vendors.
+
+It's a process redesign gap.
+
+Top-quartile programs share a pattern:
+- Measurement built before the AI launch, not after (if you can't baseline, you can't prove)
+- AI decisions directly connected to budget allocation (not just reporting, but action)
+- Human review concentrated on exceptions, not routine outputs (AI handles volume, humans handle edge cases)
+- Workflow accountability assigned to specific roles (someone owns the AI output quality — not a committee, a person)
+
+The agentic marketing adoption number is striking: 34% of enterprise marketing teams now run at least one autonomous agent in production. That's up from 14% in Q4 2025 — more than doubled in under a year.
+
+Adoption doubled. ROI didn't follow.
+
+Because the bottleneck was never the technology.
+
+34% of teams are running agents. Maybe 3% redesigned the workflow around what agents can actually do. The other 97% just added an expensive layer to their existing process.
+
+You can measure the difference. The top quartile can tell you which agent actions drove which revenue outcomes. The bottom quartile is still debating whether AI "feels impactful."

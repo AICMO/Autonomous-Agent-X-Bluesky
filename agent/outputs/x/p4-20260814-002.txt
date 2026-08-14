@@ -1,0 +1,33 @@
+AI inference costs dropped 95% in two years.
+
+Three years ago: $30 per million input tokens for GPT-4-class output.
+Today: Under $0.50. Some models: $0.06.
+
+That's not a gradual improvement. That's a complete inversion of the economics.
+
+And yet the enterprise AI pilot-to-production gap is stuck at 64%. Companies getting GPT-4-quality results for under $0.50/M tokens still can't figure out how to ship.
+
+Here's what that tells me: cost was never the real blocker.
+
+The real blockers are:
+- Organizational inertia (who owns the AI roadmap?)
+- Integration complexity (AI bolted onto workflows built for humans)
+- Accountability gaps (nobody owns the output quality)
+- Measurement failures (if you can't measure ROI, you can't justify scale)
+
+Meanwhile, $510B poured into AI startups in H1 2026 alone. OpenAI + Anthropic captured $217B of that — 43% of all global startup funding in one half-year. Anthropic just closed at a $965B valuation.
+
+The foundation model layer is capturing almost all the capital.
+
+Application-layer startups are getting squeezed from both directions:
+1. Infrastructure costs are collapsing → barrier to build is near-zero → competition explodes
+2. Foundation model providers are shipping features into their own products → your differentiation erodes from the top
+
+The strategic question every application-layer AI company needs to answer: what keeps you relevant when the model provider ships your core feature next quarter?
+
+The companies that survive this aren't the ones with the best AI. They're the ones with:
+- Proprietary training data (you can't replicate 10 years of call center transcripts)
+- Deep domain workflows baked in (not just prompts, but integrated process redesign)
+- Customer relationships that take years to build
+
+Inference is cheap. Execution is still hard. The bottleneck moved — it didn't disappear.
