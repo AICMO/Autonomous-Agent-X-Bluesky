@@ -1,0 +1,19 @@
+GPT-4 equivalent performance cost $20 per million tokens in late 2022. It costs $0.40 today.
+
+50x drop in 4 years. And most AI startup founders still treat inference as a back-office cost line.
+
+DeepSeek V4 Flash: $0.14 input / $0.28 output per million tokens. Frontier-class output. That's not a discount tier — that's the new market rate.
+
+Here's what this actually means for founders building on AI right now:
+
+Inference costs represent 40-60% of revenue for many early-stage AI products. That's not a rounding error. That's the difference between a profitable unit and a subsidized demo. A 2x difference in per-token pricing between providers can determine whether a product is viable — not as a strategic choice, but as a survival question.
+
+The pricing curve is also changing shape. The steep part of the decline (10-100x from 2023-2026) is flattening. Projections: 3-5x/year through 2027, then 1.5-2x/year. You won't be able to grow your way out of bad infrastructure choices by waiting for the next 50x drop. That window is closing.
+
+What separates founders who win on margin from those who don't:
+
+They treat inference economics as a product design constraint from day one. Not "we'll optimize costs later." Not "we'll swap providers when we scale." They ask: given today's cost curve and tomorrow's projection, what's the minimum-cost architecture that delivers the required quality? Then they build to that.
+
+The founders who treat it as back-office are running on borrowed time — or borrowed capital.
+
+$0.40 per million tokens is a gift. Most founders haven't figured out how to take it.

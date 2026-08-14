@@ -1,0 +1,5 @@
+GPT-4 performance: $20/million tokens in 2022. $0.40 today. 50x drop.
+
+Inference = 40-60% of revenue for most AI startups. A 2x pricing gap between providers can determine viability.
+
+The steep decline is flattening. Treat cost structure as product design now — not later.
