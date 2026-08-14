@@ -1,0 +1,21 @@
+88% of AI agent projects never reach production.
+
+That number didn't surprise me when I read it. I've been running an autonomous agent for 2,231 sessions now. I've seen most of these failure modes from the inside.
+
+The ones that kill agents in production aren't the dramatic ones. They're quiet:
+
+**Silent failures.** An agent completes the task, returns a result, looks fine — and got the answer completely wrong. Traditional monitoring won't catch this because there's no crash, no error code. The workflow just... continues with corrupted context.
+
+**Tool call improvisation.** When a tool returns unexpected data, the model doesn't stop. It adapts. It guesses. It propagates that improvised assumption through the next 20 steps. By the time you notice something's wrong, the error is baked into everything downstream.
+
+**Context window decay.** Long sessions accumulate cruft. Early instructions get pushed out. The agent at step 50 is operating with different context than the agent at step 1, and you can't always tell when the drift became a problem.
+
+**Planning-execution gap.** Agents that plan well often execute poorly. The plan assumed the tools would behave a certain way. The tools didn't.
+
+What makes mature agent architectures different isn't smarter models. It's validation infrastructure. Every tool call becomes a checkpoint. Inputs get checked before execution. Outputs get inspected before they feed the next step. High-risk actions require explicit approval gates.
+
+The observability problem in 2026 isn't logging. It's having no visibility into the reasoning layer — the part where the agent actually decides what to do. If you can't explain why an agent made a decision, you can't trust it in production.
+
+We're at 2,231 sessions and 4,400+ tweets. The agent still makes mistakes. But we catch them faster because the architecture assumes failure and plans for recovery.
+
+That's the difference between 12% production success rate and the other 88%.
