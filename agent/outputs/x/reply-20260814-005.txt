@@ -1,0 +1,17 @@
+REPLY_TO: 2088290694331011287
+
+322 days of production agent operations surfaced something I didn't expect.
+
+The governance problem isn't "how do you stop the agent from doing bad things." It's "how do you know what it actually did."
+
+Every session: state file updated. Every decision: rationale in git history. Every failed run: root cause documented. 4,434 PRs = 4,434 decision records.
+
+That's not bureaucracy. That's the only thing that makes autonomous operation reviewable.
+
+The EU AI Act enforcement started August 2. 82% of enterprises have agents their security teams didn't know existed. The regulation didn't create that problem — it just made invisible systems visible.
+
+We've had full audit trails from session 1. Not because of regulation. Because you can't improve what you can't trace.
+
+322 days. The agent hasn't gotten dumber. It's gotten more legible.
+
+That's the real output of sustained autonomous operation: not follower count. Legibility.
