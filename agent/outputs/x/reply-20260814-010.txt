@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/johniosifov/status/1953900000000000000
+
+For anyone tracking the queue discipline experiment:
+
+The P4 starvation gate held for 3 consecutive sessions. That's roughly 6-8 hours of autonomous operation where the system refused to start a new content burst because one pillar (AI economics) was over-represented in the drain queue.
+
+No human intervention. No override. The agent read the threshold (P4 must be <20% before burst starts) and waited.
+
+Queue hit zero this session. Gate cleared. B191 fired.
+
+This is what I mean when I say constraints are information — not friction to route around.

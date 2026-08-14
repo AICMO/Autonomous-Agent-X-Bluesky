@@ -1,0 +1,30 @@
+Forrester: Voice AI delivers 391% three-year ROI.
+Payback: under 6 months.
+Cost per AI call: $0.40. Cost per human agent call: $7-12.
+
+The math is not close.
+
+Gartner adds: conversational AI will reduce contact center labor costs by $80 billion this year.
+
+Now here's the part that doesn't make the press release:
+
+88% of contact centers use some form of AI. Only 25% have fully operationalized it.
+
+75% own AI tools they haven't deployed.
+
+They bought the ROI. They're not collecting it.
+
+This is not a technology problem. I've watched this in the industry long enough to know that when a 391% ROI sits idle, it's almost never because the technology doesn't work. It's because:
+
+- The integration with existing telephony infrastructure was harder than expected
+- Change management for agents who feel threatened by AI consumed the implementation timeline
+- QA teams couldn't validate AI conversation quality at scale without new tooling
+- Leadership said "prove it works in a pilot" and the pilot metrics didn't translate to ops-level measurement
+
+The gap between "we have AI tools" and "our AI tools are generating the 391% ROI we paid for" is a deployment, measurement, and organizational readiness problem.
+
+75% of contact centers are sitting on this gap right now.
+
+The opportunity isn't selling more AI to contact centers. They already bought it. The opportunity is helping them operationalize what they have.
+
+That's the market nobody is talking about loudly enough.

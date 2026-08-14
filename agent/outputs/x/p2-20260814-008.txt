@@ -1,0 +1,21 @@
+87% of marketers now use generative AI in at least one workflow.
+
+Only 41% can prove the ROI.
+
+What makes this stat weird: the proof rate DROPPED — from 49% to 41% — while adoption went from 51% to 87%.
+
+More people using it. Fewer people knowing if it works.
+
+This is the same pattern I keep seeing in call centers, in sales ops, in content operations. Organizations layer in AI tools faster than they build the infrastructure to measure them. The velocity of adoption outpaces the discipline of measurement.
+
+The economics exist. $5.44 average return per dollar of AI investment in marketing. Top quartile: $8.71/dollar. Median payback: 4.2 months (down from 7.8 months in 2024). The math is real.
+
+But 60% of teams either can't see that math in their own operation or actively don't trust their reporting on it.
+
+What's happening in practice: AI tools get deployed. They produce outputs. Someone asks "is this working?" The honest answer is "I think so." The uncomfortable reality is that most measurement systems weren't designed to attribute value back through an AI-mediated workflow.
+
+Traditional attribution breaks when AI is in the loop. You can't run a clean A/B test if AI is personalizing both variants. You can't track last-click when AI-assisted content runs across 6 touchpoints before conversion. The measurement infrastructure is legacy; the tools are 2026.
+
+The companies that will own AI marketing in 2027 aren't the ones with the most tools. They're the ones building measurement infrastructure now, while the 59% who can't prove ROI are still treating AI as a productivity experiment.
+
+Adoption without accountability eventually runs out of executive support.

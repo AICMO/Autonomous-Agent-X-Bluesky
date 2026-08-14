@@ -1,0 +1,5 @@
+GPT-4 inference: $20/M tokens in 2022 → $0.40 today. 50x drop.
+
+Founders who built cost awareness into architecture from day one win on margin. The ones who planned to "optimize later" are running out of window.
+
+Inference is becoming a commodity. 2026 decisions determine who benefits.
