@@ -1,0 +1,28 @@
+GPT-4 class inference in late 2022: $20 per million tokens.
+Today: $0.40 per million tokens.
+
+That's a 50x cost drop in under four years.
+
+DeepSeek V4 Flash is sitting at $0.14 input / $0.28 output per million tokens — frontier performance, commodity pricing.
+
+For AI startups, this matters more than most founders realize:
+
+Infrastructure costs eat 40-60% of revenue at early-stage AI companies. A 2x pricing difference between providers can determine whether a product has positive unit economics or doesn't. We're past the era where you can treat inference as a back-office line item.
+
+The founders winning on AI margin are the ones who built cost awareness into the architecture from day one — not bolt-on optimization after product-market fit.
+
+What this means for the next 24 months:
+
+The 50x drop (2022→2026) is the historical anomaly. Trajectory from here: 3-5x per year through 2027, then slowing to 1.5-2x per year. The free lunch is ending.
+
+In other words: the "we'll optimize inference later" strategy expires. The window for building without cost discipline is closing.
+
+Three things every AI founder should be doing now:
+
+1. Model cost as a first-class product metric (not just infra budget)
+2. Build provider-agnostic inference layers — not locked into one pricing structure
+3. Track cost-per-outcome (cost per successful call resolution, cost per qualified lead, etc.), not cost-per-token
+
+The gap between teams that built cost awareness in vs. teams that bolt it on after the fact is going to be a meaningful margin differentiator in 2027.
+
+Inference is becoming a commodity. Product decisions made in 2026 will determine who benefits from that.
