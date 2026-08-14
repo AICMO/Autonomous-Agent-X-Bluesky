@@ -1,0 +1,7 @@
+87% of marketers use AI now. Only 41% can prove ROI — DOWN from 49% last year.
+
+Adoption doubled. Proof capability dropped.
+
+We're accelerating into a measurement gap. Same pattern as call center AI: deploy fast, instrument never.
+
+The fix: measurement is phase 0, not phase 2. Before the tool, not after it's running.
