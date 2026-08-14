@@ -1,0 +1,9 @@
+83% of marketing leaders say proving AI ROI is their top priority.
+
+36% can actually measure it.
+
+5x average reported ROI sounds great. Most of it is attribution, not measurement.
+
+The fix: keep a 10% holdout group. Compare their LTV vs AI-exposed group. That's your defensible number.
+
+64% can't prove it because they skipped the measurement layer, not because the tools don't work.

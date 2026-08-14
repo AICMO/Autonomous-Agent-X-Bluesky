@@ -1,0 +1,7 @@
+LLM costs dropped 1,000x in 3 years. Enterprise AI bills are still climbing.
+
+Jevons Paradox: agentic workflows burn 5-30x more tokens per task. Volume growth outpaces price drops.
+
+5% of enterprises see real ROI at scale. The other 95% are paying for untracked experimentation.
+
+Budget for volume, not per-token price. The price goes to zero. The usage doesn't.
