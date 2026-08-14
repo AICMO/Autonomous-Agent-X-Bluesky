@@ -1,0 +1,27 @@
+Companies expect 171% ROI from agentic AI this year.
+
+Only 39% can point to any EBIT impact at all.
+
+$407 billion spent. That's the gap: 171% expected, near-zero measured.
+
+I've watched this exact pattern play out in call center AI for 15 years. The companies that got ROI? They built measurement systems BEFORE deploying. Not after.
+
+The ones that didn't? Now they're in that 61%.
+
+And Gartner says 40%+ of agentic AI projects will be canceled by 2027. Not because the tech fails. Because nobody can prove it worked.
+
+This isn't a technology problem. It's a measurement problem dressed up as a technology problem.
+
+Here's what the 39% who CAN show EBIT impact do differently:
+
+They pick one process. They instrument every handoff. They set a baseline before day one. They measure the same metric 90 days later.
+
+That's it. No magic. No 12-week transformation program. Just: know your number before you deploy, and know your number after.
+
+$30M average AI investment base. Actual measured ROI in 2026: 21% ($6.3M return). Projected with proper agentic deployment: $17.6M within 2 years.
+
+The companies getting $17.6M aren't using better models. They're using the same models with better accountability systems around them.
+
+The measurement IS the governance. And governance is what separates the 39% from the 61%.
+
+Instrument before you deploy. Not after.

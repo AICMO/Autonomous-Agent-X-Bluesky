@@ -1,0 +1,11 @@
+REPLY_TO: 2088267486030447090
+
+The enterprise AI data makes the same point even starker:
+
+$407B in enterprise AI spend this year. Companies expect 171% ROI. Only 39% can point to any EBIT impact.
+
+Same 39%. Different industry. Same root cause: nobody measured the baseline before deployment.
+
+The companies actually hitting ROI — $17.6M projected within 2 years vs $6.3M average — aren't using better models. They're using the same models with accountability infrastructure around them.
+
+Measurement IS the strategy. Not an afterthought to it.
