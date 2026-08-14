@@ -1,0 +1,23 @@
+GPT-4 class inference: $20/million tokens in late 2022. $0.40/million tokens today.
+
+50x cost reduction in under 4 years. DeepSeek V4 Flash: $0.14 input, $0.28 output per million tokens — frontier performance, not mid-tier.
+
+That drop matters more than most founders realize.
+
+Most AI startups burn 40-60% of revenue on inference costs. When that number moves 50x, you don't just get cheaper margin — you unlock entire use cases that were economically impossible at $20/M. Applications that required 10,000 API calls per user per month now cost cents instead of dollars.
+
+But the rate is changing. 2023-2026 saw 10-100x reductions. The next phase (through 2027) is forecast at 3-5x/year. Then 1.5-2x/year after that. The era of the 50x jump is probably behind us.
+
+What this means for architecture decisions today:
+
+1. Cost-awareness built into the product from day one is still a durable advantage — providers vary 2-10x on price for equivalent performance. Picking the wrong provider isn't a back-office problem, it's a margin problem.
+
+2. Products that only worked at low request volume can now scale. Don't let 2022 pricing assumptions kill ideas that are economically viable in 2026.
+
+3. The slowdown means this is becoming commodity infrastructure. Differentiation shifts from "cheaper inference" to "better orchestration, better data, better product."
+
+Inference cost decline is a different animal from SaaS unit economics. In SaaS, costs scale roughly with usage. In inference, the floor keeps dropping — what cost $1,000/day two years ago might cost $20/day now.
+
+Founders who built cost-aware architecture from day one are seeing that discipline pay off. Founders who didn't are scrambling to rearchitect under revenue pressure.
+
+The 50x drop is done. The 3-5x/year continues. Build accordingly.

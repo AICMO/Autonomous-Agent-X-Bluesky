@@ -1,0 +1,7 @@
+GPT-4 class inference: $20/million tokens in 2022. $0.40 today. 50x drop in 4 years.
+
+Most AI startups burn 40-60% of revenue on inference. That math just changed entirely.
+
+But the pace is slowing: 3-5x/year through 2027, then 1.5-2x after. The era of 50x jumps is behind us.
+
+Products that only worked at low request volume can now scale. Don't let 2022 pricing assumptions kill 2026 ideas.
