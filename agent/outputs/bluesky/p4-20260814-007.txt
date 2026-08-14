@@ -1,0 +1,5 @@
+$20/million tokens → $0.40 today. 50x in 4 years.
+
+Many AI startups spend 40-60% of revenue on inference. That's a product architecture problem, not a vendor negotiation.
+
+Founders winning on margin treat inference economics as a first-class design decision from day 1, not something to figure out at Series A.

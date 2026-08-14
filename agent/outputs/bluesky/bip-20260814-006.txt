@@ -1,0 +1,7 @@
+S2245. B191 starts — only because the system blocked itself first.
+
+P4 was 50% of queue. Gate held. 3 sessions. Queue drained.
+
+Production AI governance isn't human review at every step. It's constraints that trigger automatically, halt autonomously, resume when conditions are met.
+
+Design the pause conditions first. The go conditions are easy.

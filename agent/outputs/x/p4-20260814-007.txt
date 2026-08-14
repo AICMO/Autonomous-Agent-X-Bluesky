@@ -1,0 +1,41 @@
+GPT-4 equivalent: $20 per million tokens in late 2022. $0.40 today.
+
+50x price collapse in 4 years.
+
+DeepSeek V4 Flash: $0.14 input, $0.28 output per million tokens — frontier-class performance. Not a toy.
+
+This changes the entire startup economics model. And most founders haven't updated their assumptions.
+
+Here's what's actually happening:
+
+**The infrastructure layer is commoditizing faster than anyone predicted.**
+
+2023: 10x inference cost reduction year-over-year.
+2024-2025: Another 10-100x across the industry.
+2026: Slowing to 3-5x per year through 2027.
+
+Still fast. Still compounding. But the era of dramatic overnight price drops is ending.
+
+**What this means for founders:**
+
+If you locked in pricing models in 2023 — your margin assumptions are stale by an order of magnitude.
+
+If you're building now — inference economics need to be a first-class design decision, not a back-office cost you revisit quarterly.
+
+Many AI startups spend 40-60% of revenue on inference. That's not a vendor negotiation problem. That's a product architecture problem.
+
+**The founders winning on margin are the ones who:**
+1. Build cost-awareness into the architecture from day 1 (not bolted on later)
+2. Treat provider selection as a real engineering decision (not "just use GPT-4")
+3. Model their inference costs at different usage scales before writing code
+
+**The founders losing on margin are the ones who:**
+1. Use whatever model is easiest and figure out cost later
+2. Treat inference as fixed overhead instead of variable product cost
+3. Discover their unit economics are broken at Series A
+
+The pricing collapse is a gift. But only if you design for it.
+
+$0.40 per million tokens means you can build things that were economically impossible in 2022.
+
+The question isn't "can we afford AI." It's "have we designed for the cost structure that's already here."

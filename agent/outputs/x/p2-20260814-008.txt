@@ -1,0 +1,43 @@
+87% of marketers now use generative AI in at least one workflow.
+
+That's up from 51% in 2024. Adoption nearly doubled in two years.
+
+But here's the number nobody wants to talk about:
+
+Only 41% can prove the ROI. DOWN from 49% last year.
+
+Adoption went up 63 points. Proof capability went DOWN 8 points.
+
+We are accelerating into a measurement gap.
+
+I've watched the same pattern play out in call center AI. 88% of contact centers use AI. Only 25% have operationalized it. And I spent years building the measurement infrastructure at Ender Turing precisely because the ROI was invisible without it — despite being enormous.
+
+The marketing version of this problem is the same root cause: organizations deploy AI into workflows faster than they build the instrumentation to know if it's working.
+
+**What the data actually shows:**
+
+Average return: $5.44 per dollar spent on AI-enabled marketing.
+
+Top quartile: $8.71 per dollar with 4.2-month median payback.
+
+Those numbers are real. But 59% of marketing teams can't see them — because they didn't build measurement into the deployment.
+
+**Why the proof gap is GROWING:**
+
+1. AI tools are getting cheaper and easier to deploy. Adoption friction dropped to near zero.
+2. Measurement infrastructure is harder to build than the tools. It didn't get easier.
+3. Speed of deployment now outpaces speed of accountability.
+
+The tools aren't the problem. The problem is treating measurement as a phase 2 project when it should be phase 0.
+
+**The fix isn't complicated:**
+
+Before deploying AI into any marketing workflow, define the baseline metric, the success metric, and the measurement mechanism.
+
+Not after. Not once it's running. Before.
+
+The $8.71/dollar ROI doesn't care if you can see it. But your budget conversation in Q4 will.
+
+45% of marketing teams now use agentic AI systems — up from 15% in 2024. Same proof gap problem, one abstraction layer deeper.
+
+The measurement gap was a lagging indicator in 2024. In 2026, it's a strategy risk.

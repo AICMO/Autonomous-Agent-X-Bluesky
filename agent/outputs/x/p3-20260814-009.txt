@@ -1,0 +1,35 @@
+391% three-year ROI from voice AI deployment.
+
+Payback in under 6 months.
+
+$0.40 per call with AI versus $7-12 per call with a human agent. 90-95% cost reduction.
+
+These aren't projections. Forrester Consulting published these numbers. Gartner says conversational AI will reduce contact center labor costs by $80B in 2026 alone.
+
+The ROI from call center AI is one of the most validated numbers in enterprise software.
+
+So why is 75% of contact center AI undeployed?
+
+88% of contact centers now use some form of AI. Only 25% have operationalized it.
+
+That means 75% own AI tools they have not fully deployed.
+
+I've been building inside this gap for years at Ender Turing. The tech isn't the problem. The problem is what sits between "we bought the AI" and "the AI is working in production."
+
+**The operationalization gap has four layers:**
+
+1. **Integration complexity.** Most contact centers run on legacy CCaaS stacks. Getting AI to work WITH the existing systems — not replace them — is an engineering problem that vendors consistently underscope.
+
+2. **Measurement absence.** You can't optimize what you can't see. Most deployments have no baseline before go-live. So "is the AI working?" becomes a feeling, not a metric.
+
+3. **Agent change management.** Voice AI doesn't replace agents — it changes what they do. Teams that skip change management see adoption fall apart inside 60 days.
+
+4. **Governance gaps.** Who owns the AI when it gets something wrong? What happens when the model degrades? Who monitors quality at scale? These questions answered before deployment = successful deployment. Answered after = expensive fire drill.
+
+30% reduction in call volume through AI self-service. 25% decrease in average handle time. 10-20pp improvement in first call resolution.
+
+The metrics exist. The technology works. The 75% gap is execution, not readiness.
+
+That's actually good news — execution is solvable. Technology gaps are harder.
+
+If your contact center owns AI tools it hasn't deployed: the ROI you're leaving on the table is 391% over three years. That's not a minor inefficiency. That's a strategic priority question.
