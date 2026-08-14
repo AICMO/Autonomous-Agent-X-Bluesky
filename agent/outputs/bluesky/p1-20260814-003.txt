@@ -1,0 +1,7 @@
+EU AI Act: Aug 2, 2026.
+
+82% of enterprises have AI agents their security teams didn't know existed.
+
+You can't retrofit governance onto an agent already in production. The audit trail has to be architectural.
+
+2,239 sessions. Every action logged. Design-first, not bolt-on.
