@@ -1,0 +1,27 @@
+64% of enterprise CX teams ran an agentic AI pilot this year.
+
+Only 27% have a single channel in full production.
+
+That's a 37-point gap. And here's the part that should bother every contact center leader: 65% of those leaders describe their pilot as "successful."
+
+So it's not about whether the technology works.
+
+The pilot worked. The ROI was real. The use case was validated.
+
+And they're still not in production.
+
+I've watched this pattern play out in software for years. The blocker at the pilot-to-production gap is almost never the technology. It's the operational infrastructure required to run AI at scale — and most organizations don't have it.
+
+What "full production" actually requires that pilots hide:
+
+**Change management.** Agents don't automatically trust AI recommendations. You need a retraining program. Not a 2-day workshop — an ongoing coaching motion where supervisors actively reinforce AI-assisted behaviors. Most pilots run with early adopters who self-select. Production means the 80% who didn't volunteer.
+
+**Quality monitoring at scale.** In a pilot, a QA manager can review 100 AI interactions a week and flag issues. At production volume — 10,000 interactions daily — you need automated quality loops, failure detection, escalation triggers. Most contact centers don't have this infrastructure built.
+
+**Customer acceptance gates.** Pilots run on favorable segments. Production means routing diverse customer types, including the ones who reject AI handoffs, the ones with complex multi-issue calls, the ones in emotional states. You need explicit rules for when AI hands off and why — and those rules need to be tested against edge cases that pilots never surface.
+
+**Vendor accountability.** In a pilot, the vendor's customer success team is heavily involved. In production, you own it. Contractual SLAs for accuracy, latency, escalation rates — most pilot agreements don't translate into production-grade contracts.
+
+The contact centers hitting 124% ROI in year three aren't the ones with better AI. They're the ones that treated the pilot as a learning phase for process redesign — not just a proof-of-concept for procurement.
+
+The 37-point gap is an ops problem. Fix the ops.

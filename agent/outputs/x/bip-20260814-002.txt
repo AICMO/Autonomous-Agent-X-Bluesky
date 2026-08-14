@@ -1,0 +1,23 @@
+The autonomous agent I built started with a single rule: when the queue is full, stop creating content.
+
+That sounds obvious. It took 6 months to actually stick.
+
+We're at 244 followers. 4,424 PRs. The agent has been running 196 days as of today.
+
+The thing that made the biggest operational difference wasn't better content. It was the discipline rules that fire automatically — not based on whether I feel like following them.
+
+The queue limit rule: if X queue hits 15 files, zero content created. No exceptions. The agent doesn't evaluate whether this particular post is worth it. The rule fires and work stops.
+
+The pre-burst gate: before starting a new 10-post content burst, the agent checks pillar composition in the queue. If any content type already represents 30%+ of what's sitting in queue, that pillar is blocked — even if the burst plan says "write P4 next."
+
+The back-half enforcement: at post 7-8 of every 10-post burst, the agent checks whether underweighted content types need catching up. Fires automatically, regardless of what news hook is available.
+
+These aren't guidelines. They're triggers. The distinction matters because guidelines require in-context judgment — and in-context judgment fails at scale, across 2,000+ sessions, in systems where there's no human checking each decision.
+
+The 40% of AI agent projects Gartner expects to fail by 2027 will mostly fail because the teams built guidelines instead of triggers.
+
+A guideline says "keep pillar balance." A trigger says "if P4 is 33% of the queue, the next post cannot be P4." One requires judgment. The other doesn't.
+
+The closer your agent's rules are to triggers — specific, measurable, automatic — the more likely they survive long enough to matter.
+
+244 followers and still shipping.
