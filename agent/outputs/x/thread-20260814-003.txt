@@ -1,0 +1,79 @@
+95% of AI pilots in call centers fail to deliver measurable results.
+
+But here's the contradiction: 80%+ of executives say their AI deployment is "working."
+
+Both numbers are true. That's the measurement gap killing contact center AI ROI — and most leaders don't know they have it.
+
+5 reasons why call center AI ROI disappears before you can count it:
+
+---
+
+1/ The cost comparison is wrong from day one.
+
+Human agents: $0.65–$1.20/minute. $3.50 per inbound call on average.
+
+AI voice agents: $0.12–$0.50/minute. $0.50–$1.30 per call.
+
+Looks like an 80% cost reduction. Easy math, right?
+
+The problem: that's not how call centers account for costs. You're paying loaded salary + benefits + attrition + training + QA staff + supervisor overhead. The AI number is just compute. You're not comparing the same cost base.
+
+When I see a contact center claim "50% cost savings," the first question I ask is: what denominator are you using? If it's blended seat cost vs. AI compute cost alone, the math is theater.
+
+Real savings require a full TCO comparison: AI infrastructure + integration overhead + QA automation + exception handling + vendor management. That's still significantly cheaper — but it's not the 80% headline number.
+
+---
+
+2/ The metrics were designed for human agents and haven't been updated.
+
+AHT. FCR. CSAT. These are the benchmarks that run most contact center scorecards.
+
+They were built when every interaction was handled by a person. They measure human performance against human-scale expectations.
+
+When AI handles the interaction, AHT drops — but so does the complexity ceiling. AI deflects the easy calls. That means AHT for remaining human calls goes UP, even as overall volume drops.
+
+If you're measuring AHT across both human and AI without segmenting, your numbers look worse in the channels you care about most. Leaders see a regression and pull the AI budget. The actual performance was improving.
+
+The right metrics for AI-augmented contact centers: resolution rate by complexity tier, containment without human escalation, post-interaction CSAT by AI vs. human path, and cost-per-resolution (not cost-per-call).
+
+---
+
+3/ 88% of organizations have deployed AI. Only 25% have operationalized it into daily workflows.
+
+That 63-point gap is not a technology problem.
+
+When AI operates in a silo — handling deflection in one channel while humans handle everything else — it can't create system-level ROI. It's solving a local problem.
+
+Contact centers that achieve the $80B labor cost reduction Gartner projects are doing something different: they're redesigning the workflow around AI capabilities, not plugging AI into the existing workflow.
+
+What that looks like in practice: AI handles triage and resolution for tiers 1-2 autonomously. Human agents handle escalations with full AI-generated context in real time. QA is automated for AI interactions. Supervisors move from monitoring calls to coaching and exception handling.
+
+That's not a deployment. That's a transformation. And 75% of contact centers haven't started it.
+
+---
+
+4/ Attrition accounting breaks the business case before launch.
+
+Contact centers average 60% annual agent turnover. Replacing an agent costs $10,000–$20,000. That's $60K–$120K per seat per year in a 100-seat center, in attrition costs alone.
+
+Most AI business cases ignore this. They show AI as a cost reduction on active agent headcount, not as an offset against the attrition spiral.
+
+Here's the real number: AI reduces the total agent headcount required to handle your call volume. Fewer seats = fewer replacements. A center that goes from 100 agents to 60 — same call volume, AI handles the rest — doesn't just save 40 seats. It saves the attrition replacement cost for 40 seats continuously.
+
+At $15K average replacement cost and 60% annual turnover, that's 40 × 60% × $15K = $360,000/year in avoided attrition. That number rarely appears in the AI business case. It should always be line one.
+
+---
+
+5/ Measurement cadence doesn't match AI's compounding curve.
+
+AI voice agents improve through feedback loops. Early performance — weeks 1-8 — is often mediocre. Error rates are higher, edge case handling is rough, containment rates are below human parity.
+
+Most organizations measure at 90 days and declare success or failure.
+
+The contact centers with 2-3x ROI are measuring at month 6 and beyond, after the model has processed enough real interaction data to tune properly. Ticket routing AI shows 423% ROI within 30 days — that's an exception. Most CX AI has a 4-6 month learning curve before it outperforms.
+
+If your measurement window doesn't account for the compounding curve, you'll pull funding right before the inflection point.
+
+The 5% of contact centers getting real AI ROI aren't smarter. They're measuring differently, on a longer timeline, with the right cost base, and with metrics designed for AI — not humans.
+
+Fix the measurement. The ROI is already there.

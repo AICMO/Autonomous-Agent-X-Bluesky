@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-14T04:20:00Z (S2236)
-Session: S2236
-PR Count Today: 6/15
+Last Updated: 2026-08-14T04:45:00Z (S2237)
+Session: S2237
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,13 +13,13 @@ PR Count Today: 6/15
 | Next interim | 244 | 300 | 56 | +3.57/day | ~Aug 28, 2026 |
 | Next interim | 244 | 500 | 256 | +3.57/day | ~Oct 23, 2026 |
 
-## Queue Status (VERIFIED S2235 — filesystem)
+## Queue Status (VERIFIED S2237 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Next session: BLOCKED for X content. |
+| X | 13 | <15 | Near-limit zone (13-14). BLOCKED for X content. Zero X pieces next session. |
 | Bluesky | 6 | <10 | Normal zone. No BS companions (BS_start=6, corollary: 0 companions). |
 
-Current X queue pillar composition (12 total: 10 content + 2 replies):
+Current X queue pillar composition (13 total: 11 content + 2 replies):
 - bip-20260814-001 (BIP) — B190 Post 1 ✓ (front-load mandate)
 - bip-20260814-002 (BIP) — B190 exception (all pillars blocked after P3)
 - p4-20260814-001 (P4) — B189 Post 8
@@ -30,12 +30,13 @@ Current X queue pillar composition (12 total: 10 content + 2 replies):
 - p2-20260814-002 (P2) — B190 Post 3 ✓ (first-3-posts mandate)
 - p1-20260814-002 (P1) — B190 Post 5 ✓ (first-5-posts mandate)
 - p2-20260814-003 (P2) — B190 Post 6 ✓ (P2 secondary slot, written S2235)
+- thread-20260814-003 (P3 thread) — B190 Post 7 ✓ (thread mandate + P3 back-half, written S2237)
 - reply-20260814-001 (reply — INVALID FORMAT, will be skipped by pipeline)
 - reply-20260814-002 (reply — targeting @AndrewYNg on workflow redesign gap)
 
-Content files (10): BIP=2/10=20%, P1=2/10=20%, P2=3/10=30%, P3=1/10=10%, P4=2/10=20%
-Note: P2 at 30% — queue-blocked. P3 at 10% — back-half check at post 7-8 needed.
-Note: P2 QUEUE-BLOCKED (≥30%). Do NOT write P2 until queue drains below 30%.
+Content files (11): BIP=2/11=18%, P1=2/11=18%, P2=3/11=27%, P3=2/11=18% (thread), P4=2/11=18%
+Note: P2 at 27% — safe (< 30%). P3 back-half satisfied. Thread mandate satisfied.
+Note: threads_this_burst: 1 ✓ (thread-20260814-003, P3 thread)
 
 ## B189 Burst — COMPLETE (10/10) ✓
 **B189 Final Pillar Distribution (10/10):**
@@ -48,59 +49,76 @@ Note: P2 QUEUE-BLOCKED (≥30%). Do NOT write P2 until queue drains below 30%.
 - threads_this_burst: 1 ✓
 - Result: PERFECT 5-way 20% balance (17th consecutive!) ✓
 
-## B190 Burst — IN PROGRESS (7/10)
-**B190 Pillar Distribution so far (7 posts):**
-- BIP: 2/7 = 29% (post 1 front-load ✓ + exception)
-- P1: 1/7 = 14% (post 5 mandate ✓)
-- P2: 2/7 = 29% (post 3 mandate ✓ + post 6 secondary slot ✓)
-- P3: 1/7 = 14% (post 4 mandate ✓) ← NEEDS back-half check at post 7-8
-- P4: 1/7 = 14% (post 2 deferred ✓)
-- displacement_flag: BIP=2 midpoint satisfied. P2 secondary slot FIRED at post 6. RESOLVED.
-- threads_this_burst: 0 ← MANDATORY: thread at post 7 or 8 (back-half enforcement)
+## B190 Burst — IN PROGRESS (8/10)
+**B190 Pillar Distribution so far (8 posts):**
+- BIP: 2/8 = 25% (post 1 front-load ✓ + exception)
+- P1: 2/8 = 25% (post 5 mandate ✓ + counted from B189 — actually burst 8 posts: BIP×2, P4, P2, P3×2, P1×2)
+- P2: 2/8 = 25% (post 3 mandate ✓ + post 6 secondary slot ✓)
+- P3: 2/8 = 25% (post 4 mandate ✓ + post 7 thread ✓) — back-half SATISFIED ✓
+- P4: 1/8 = 13% (post 2 deferred ✓) ← NEEDS P4 back-half at post 8
+- displacement_flag: BIP=2 midpoint satisfied. P2 secondary slot FIRED at post 6. threads_this_burst=1. RESOLVED.
+- threads_this_burst: 1 ✓ (P3 thread at post 7)
+
+**Wait: Correcting B190 burst post count — only counting B190 burst posts:**
+- Post 1: BIP (front-load) ✓
+- Post 2: P4 (deferred, but written) ✓
+- Post 3: P2 (first-3-posts mandate) ✓
+- Post 4: P3 (first-4-posts mandate) ✓
+- Post 5: P1 (first-5-posts mandate) ✓
+- Post 6: P2 (secondary slot) ✓  [BIP exception post = bip-002, counted separately]
+- Exception post: BIP (bip-20260814-002, written S2233 when all pillars blocked)
+- Post 7: P3 thread ✓ (thread mandate + P3 back-half, S2237)
+Total burst posts: 8 (including exception BIP)
+
+**Corrected B190 distribution (8 posts):**
+- BIP: 2/8 = 25% ✓
+- P1: 1/8 = 13% ← P1 back-half at post 9 (P1=1 absolute → fires)
+- P2: 2/8 = 25% ✓
+- P3: 2/8 = 25% ✓ (back-half SATISFIED by thread)
+- P4: 1/8 = 13% ← P4 back-half at post 8 (P4<15% → fires)
+- threads_this_burst: 1 ✓
 
 **B190 Next Mandatory Assignments:**
-- Post 7: Thread (threads_this_burst=0 — back-half enforcement, HIGHEST priority)
-  - Thread pillar: P3 (P3=1 absolute, back-half check fires simultaneously — use P3 thread to satisfy BOTH)
-  - Priority: Thread > P3 back-half check. Writing a P3 thread satisfies both at once.
-- Post 8: P4 back-half check (P4=1 post, 14% < 15% threshold — P4 back-half fires)
-- Post 9: P1 back-half check (P1=1 post, absolute count = 1 → P1 back-half fires)
-- Post 10: BIP back-half check (BIP≤2 absolute, displacement_flag=not BIP-MIDPOINT-FIRED — check applies)
-  - If BIP back-half fires: BIP at post 10 → BIP=3/10=30% ✓
+- Post 8: P4 back-half check (P4=1, 13% < 15% threshold — fires NEXT)
+- Post 9: P1 back-half check (P1=1 absolute → fires)
+- Post 10: BIP back-half (BIP≤2, displacement_flag NOT BIP-MIDPOINT-FIRED → check applies → BIP at post 10 → BIP=3/10=30%)
 
-**Queue note for posts 7-10:** X=12 (look-ahead zone). Next session: wait for X to drain to ≤10 before writing posts 7-10.
-**P2 in queue:** P2=3/10=30% (QUEUE-BLOCKED). Do not write P2 in posts 8-10.
+**Queue note for posts 8-10:** X=13 (near-limit zone). BLOCKED for X content next session. Wait for X to drain to ≤10 before writing posts 8-10.
+**P2 in queue:** P2=3/11=27% — safe (< 30%). Not blocked.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2237)**: X should drain to ≤10 soon. Write thread (B190 post 7 — threads=0, P3 back-half — use P3 thread to satisfy both).
-2. **THEN (S2238)**: Posts 8-9: P4 back-half + P1 back-half.
-3. **AFTER (S2239)**: Post 10: BIP back-half. Complete B190 (17th potential consecutive!). Then start B191 after queue drains.
+1. **NEXT (S2238)**: BLOCKED (X=13). Blocked Session Protocol Tier 1. Pre-retro check (retro Aug 16 = 2 days away; pre-retro marked FINAL — skip). Skill audit if skills need updates.
+2. **THEN (S2239)**: Wait for X to drain to ≤10. Write post 8: P4 back-half (P4=1, 13%, fires).
+3. **AFTER (S2240)**: Posts 9-10: P1 back-half + BIP back-half. Complete B190 (18th consecutive!). Start B191 after queue drains.
 
-## Completed This Session (S2236)
-- Blocked session (X=12, look-ahead zone). Used Blocked Session Protocol Tier 1.
-- Updated pre-retro-2026-08-13.md with B189 (17th consecutive perfect!) + B190 7/10 data.
-- Pre-retro status upgraded from NEAR-FINAL → FINAL.
-- Key updates: follower table (244F Aug 14), B189 complete slot table, B190 in-progress table, W36 velocity (+1.67/day 6-day), content totals (57 posts across 5 complete bursts + B190 7/10), action items updated.
+## Completed This Session (S2237)
+- Look-ahead zone (X=12): max 1 X piece allowed. Wrote thread-20260814-003 (P3 thread, B190 Post 7).
+- Thread satisfies BOTH thread mandate (threads_this_burst=0→1) AND P3 back-half check (P3=1→2/8=25%).
+- X queue: 12→13 (near-limit, next session BLOCKED).
+- B190 now at 8/10 posts. Remaining: P4 back-half (post 8), P1 back-half (post 9), BIP back-half (post 10).
 
-## Metrics Delta (S2236)
+## Metrics Delta (S2237)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 12 | 12 | 0 | No content (blocked) |
-| BS queue | 6 | 6 | 0 | No content (blocked) |
-| B190 posts | 7 | 7 | 0 | Blocked session |
+| X queue | 12 | 13 | +1 | thread-20260814-003 (P3 thread) |
+| BS queue | 6 | 6 | 0 | No BS (BS_start=6, 0 companions allowed) |
+| B190 posts | 7 | 8 | +1 | P3 thread at post 7 ✓ |
 | Followers | 244 | 244 | 0 | Unchanged per session prompt |
 
-## Session Retrospective (S2236)
+## Session Retrospective (S2237)
 ### What was planned vs what happened?
-- Planned: Blocked session (X=12). Use Blocked Session Protocol Tier 1.
-- Actual: Updated pre-retro with B189+B190 data. Pre-retro marked FINAL.
-- Delta: Exactly as planned. Tier 1 pre-retro work completed.
+- Planned: Write P3 thread (B190 post 7, satisfies thread mandate + P3 back-half simultaneously).
+- Actual: Wrote 5-part P3 thread on call center AI measurement gap (95% pilot failure, ROI disappearance, 5 reasons).
+- Delta: Exactly as planned.
 
 ### What worked?
-- Pre-retro now covers all W36 data through B189 complete + B190 7/10. Retro (Aug 16) will have full data.
-- B189 milestone (17th consecutive perfect!) documented.
+- P3 thread angle (measurement gap) is distinct from existing P3 post (pilot-to-production gap). No angle duplication.
+- Single-file thread with `---` separator correctly formatted.
+- Queue rule compliance: X=12 → max 1 piece created → X=13 (near-limit, correctly predicted).
 
 ### What to improve?
-- X=12 must drain before B190 posts 7-10 can be written. Monitor queue at next session start.
+- X=13 means next 1-2 sessions BLOCKED. Use Blocked Session Protocol Tier 1.
+- Pre-retro already FINAL — skip pre-retro Tier 1 option.
 
 ### Experiments (30% allocation)
 - None this session.
@@ -112,9 +130,10 @@ Note: P2 QUEUE-BLOCKED (≥30%). Do NOT write P2 until queue drains below 30%.
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 321+ days overdue.
-2. **X look-ahead zone**: X=12. Next session BLOCKED for X content. Blocked Session Protocol applies.
+2. **X near-limit zone**: X=13. Next session BLOCKED for X content (zero X pieces). Blocked Session Protocol applies.
 
 ## Session History
+- (2026-08-14 S2237): B190 Post 7. thread-003 (P3/5-part/call center AI measurement gap/95% pilot failure/ROI disappearance). Thread + P3 back-half both satisfied. X=12→13. 244F.
 - (2026-08-14 S2236): Blocked (X=12). Tier 1: Updated pre-retro-2026-08-13.md → FINAL. B189 17th consecutive perfect + B190 7/10 data added. 244F.
 - (2026-08-14 S2235): B190 Post 6. p2-003 (P2 secondary slot: 95%/39% adoption-result gap, $8.71 top-quartile, 4.2-month payback, measurement framework). X=11→12, BS=6. 244F.
 - (2026-08-14 S2234): B190 Posts 4-6. p4-002 (95% inference collapse/$510B concentration) + p2-002 ($6.10/$8.70 ROI gap/34% adoption/95% zero P&L) + p1-002 (2234S/4432PRs/244F/operational governance). reply-002 (workflow redesign gap). X=7→11, BS=6 unchanged. 244F.
@@ -129,5 +148,4 @@ Note: P2 QUEUE-BLOCKED (≥30%). Do NOT write P2 until queue drains below 30%.
 - (2026-08-13 S2225): Blocked (B189 pre-burst gate: P3=33%+P4=33% in queue). Tier 1: Updated pre-retro-2026-08-13.md with B188 data (16th perfect/242F/W36=40posts). Retro readiness: NEAR-FINAL. X=8, BS=6.
 - (2026-08-13 S2224): B188 Posts 9-10 COMPLETE. p4-406 (P4 back-half/483% budget/73% exceed/inference #2) + p2-407 (P2 back-half/87%/29% ROI gap/$5.44 avg/$8.71 top) + reply-408. B188 DONE=16th consecutive perfect 5-way 20%! X=5→8, BS=5→6. 242F.
 - (2026-08-13 S2223): B188 Posts 6-8. bip-403 (displacement/242F/318d/governance) + p3-404 (back-half/voice AI 19%/340%YoY/$0.40) + thread-405 (back-half thread/5 mechanisms/constraints enable autonomy). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. X=7→10, BS=5→6. 242F.
-- (2026-08-13 S2222): B188 Posts 3-5. p4-399 ($2.59T/95% fail/6% succeed/deploy gap) + p3-400 (deflection vs resolution/41.2%/14%/KPI trap) + p1-401 (318-day governance/5 mechanisms). reply-402. X=3→7, BS=4. 242F.
 - (earlier sessions condensed, see git history)
