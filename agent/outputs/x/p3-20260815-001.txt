@@ -1,0 +1,24 @@
+Forrester measured 391% three-year ROI from voice AI deployment. Payback under 6 months.
+
+88% of contact centers now USE AI.
+
+Only 25% have operationalized it.
+
+That's the gap. 63 percentage points. Two-thirds of contact centers are paying for AI they haven't deployed.
+
+The 391% ROI exists — it's documented, it's reproducible. The failure isn't in the technology. It's in the operationalization. And operationalization failures always come down to the same three problems:
+
+**Problem 1: Measurement missing from day one.** Most contact centers implement AI tools and then try to reverse-engineer the ROI afterward. It doesn't work. You need the baseline before deployment, not after. AHT, FCR, CSAT — measured pre-AI, post-AI, controlled for channel and call type. Without that structure, you can't attribute the 391%.
+
+**Problem 2: AI handles easy calls; humans handle hard ones.** The AI routes simple queries. Human agents get the escalations — the angry customers, the complex issues. AHT goes UP for humans after AI implementation because they're only seeing the hard stuff. Leadership sees this, panics, and concludes AI isn't working. It's working. The measurement model is wrong.
+
+**Problem 3: Agents aren't prepared for the workflow change.** 70%+ of enterprise contact centers use AI routing. But most agents still operate in pre-AI mental models. They're not using the AI assist tools available to them. The operationalization gap is as much a human behavior problem as a technology problem.
+
+The cost numbers:
+- AI-handled call: $0.40
+- Human agent call: $7-12
+- That's 90-95% cost reduction at scale
+
+Gartner forecasts contact center AI will reduce labor costs by $80B in 2026. That's not a forecast about technology capability — it's a forecast about operationalization. The technology works. The $80B is contingent on the 75% who haven't operationalized actually doing it.
+
+The ROI is there. The operationalization is the product.

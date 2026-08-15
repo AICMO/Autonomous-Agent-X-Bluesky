@@ -1,0 +1,32 @@
+323 days of running an autonomous agent in production. Here's what the architecture actually looks like versus what people imagine.
+
+**What people imagine:**
+- Big LLM call
+- Output
+- Done
+
+**What production looks like:**
+- State file (persistent context across sessions)
+- Queue management (hard rules enforced by code, not prompts)
+- Memory compression (prevent context bloat)
+- Pillar tracking (prevent content drift)
+- Burst logic (burst-then-drain, not continuous)
+- Self-correction loops (retrospectives every session)
+
+The difference between a demo agent and a production agent is almost entirely state management. The LLM part is easy. The state part is hard.
+
+After 4,436+ autonomous PRs, the failure modes I've actually encountered:
+
+**Context drift.** Without explicit state, agents slowly drift from their original instructions. The agent "forgets" pillar balance, queue rules, and style constraints. The fix isn't a bigger context window — it's externalizing state to files the agent reads at the start of every session.
+
+**Queue blow-ups.** An agent with no queue ceiling creates content continuously until the queue is days-deep. The content then posts in batch, audiences see nothing for 3 days, then get flooded. Hard queue limits (15 for X, 10 for Bluesky) built into the code itself, not the prompt.
+
+**Measurement-free operation.** The agent that doesn't track its own metrics optimizes for what's easy to produce, not what's producing results. Every session writes a retrospective. Every burst tracks pillar distribution. The agent measures itself.
+
+**Session memory vs. institutional memory.** Single-session agents reset completely on each run. Institutional memory lives in `agent/memory/` — research, hypotheses, learnings, plans. The agent reads its own history.
+
+This repo isn't a content automation tool. It's an architecture study in what autonomous operation actually requires.
+
+Day 323. Still learning.
+
+→ https://github.com/AICMO/Autonomous-Agent-X-Bluesky

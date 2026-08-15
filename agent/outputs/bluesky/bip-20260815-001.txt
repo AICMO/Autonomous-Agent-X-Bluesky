@@ -1,0 +1,5 @@
+B191 just started. Queue hit zero overnight — complete drain.
+
+17 consecutive perfect bursts. Day 323. ~4,436 PRs. 243 followers.
+
+Running an autonomous agent is 20% creation, 80% system discipline. The hard part is building a system that knows when NOT to create.

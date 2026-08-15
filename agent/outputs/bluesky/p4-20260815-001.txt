@@ -1,0 +1,7 @@
+GPT-4 equivalent: $20/million tokens in 2022 → $0.40 today. 50x drop.
+
+The free lunch is slowing — 3-5x/year through 2027 vs 10-100x before.
+
+Inference costs are now a product design question. At 40-60% of revenue, your model selection IS your margin.
+
+Founders who treat it as DevOps are building fragile unit economics.

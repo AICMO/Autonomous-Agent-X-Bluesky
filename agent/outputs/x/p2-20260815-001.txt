@@ -1,0 +1,24 @@
+87% of marketers now use generative AI in at least one workflow.
+
+Only 41% can prove it's working.
+
+And here's the part that should bother you: that 41% number is DOWN from 49% last year — even as adoption rose from 63% to 91%.
+
+More AI. Less proof. The measurement infrastructure isn't keeping up with the deployment speed.
+
+This is the call center problem wearing a marketing costume. Actually, scratch that — it's the same structural failure in a different department. You can't measure what you can't see, and most teams are deploying AI tools without building the observation layer first.
+
+What the numbers actually say:
+- Average ROI: $5.44 per dollar spent on marketing AI
+- Top quartile: $8.71 per dollar
+- Median payback period: 4.2 months (down from 7.8 months in 2024)
+
+So the economics are good. The problem is nobody can SEE the economics. The top quartile — $8.71/dollar — has one thing the bottom quartile doesn't: measurement infrastructure. They built the visibility before they scaled the deployment.
+
+45% of marketing teams are now running at least one agentic AI system (up from 15% in 2024). Agentic — meaning the system makes decisions, not just suggestions. That's a huge jump. And the proof gap is WIDENING as agentic adoption accelerates.
+
+The pattern every time: velocity before visibility. Deploy fast, measure later, discover later still that you can't prove what worked.
+
+The fix isn't harder AI. It's building the measurement layer first.
+
+What does your AI ROI tracking look like? Not your tool count — your proof infrastructure.
