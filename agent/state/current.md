@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-15T02:30:00Z (S2245)
-Session: S2245
-PR Count Today: 1/15
+Last Updated: 2026-08-15T03:15:00Z (S2246)
+Session: S2246
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,21 +13,23 @@ PR Count Today: 1/15
 | Next interim | 243 | 300 | 57 | +3.57/day | ~Aug 29, 2026 |
 | Next interim | 243 | 500 | 257 | +3.57/day | ~Oct 24, 2026 |
 
-## Queue Status (VERIFIED S2245 — filesystem)
+## Queue Status (VERIFIED S2246 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 6 | <15 | Normal zone. 5 content + 1 reply. |
-| Bluesky | 5 | <10 | Normal zone. BS companions safe. |
+| X | 8 | <15 | Normal zone. 7 content + 1 reply. |
+| Bluesky | 7 | <10 | Normal zone. |
 
-Current X queue pillar composition (5 content files):
+Current X queue pillar composition (7 content files):
 - bip-20260815-001 (BIP) — B191 Post 1
 - p4-20260815-001 (P4) — B191 Post 2
 - p2-20260815-001 (P2) — B191 Post 3
 - p3-20260815-001 (P3) — B191 Post 4
 - p1-20260815-001 (P1) — B191 Post 5
+- bip-20260815-002 (BIP) — B191 Post 6
+- p2-20260815-002 (P2) — B191 Post 7
 
-Content files (5): BIP=1/5=20%, P4=1/5=20%, P2=1/5=20%, P3=1/5=20%, P1=1/5=20%
-Note: P4 starvation gate CLEARED (X queue was 0 at session start). B191 launched.
+Content files (7): BIP=2/7=29%, P4=1/7=14%, P2=2/7=29%, P3=1/7=14%, P1=1/7=14%
+Note: All pillars safe (<30%). P2 at 29% — borderline. Next post should NOT be P2.
 
 ## B190 Burst — COMPLETE (10/10) ✓
 **B190 Final Distribution (10 posts):**
@@ -40,15 +42,15 @@ Note: P4 starvation gate CLEARED (X queue was 0 at session start). B191 launched
 - threads_this_burst: 1 ✓
 - Result: Near-perfect (P4 starvation noted, recovery threshold triggered)
 
-## B191 Burst — IN PROGRESS (5/10)
-**B191 Pillar Distribution so far (5 posts):**
-- BIP: 1/5 = 20% (post 1 front-load ✓)
-- P4: 1/5 = 20% (post 2 mandate ✓)
-- P2: 1/5 = 20% (post 3 first-3-posts ✓)
-- P3: 1/5 = 20% (post 4 first-4-posts ✓)
-- P1: 1/5 = 20% (post 5 first-5-posts ✓)
-- displacement_flag: FALSE (P1 mandate fired at post 5, but BIP midpoint check not yet needed — BIP=1/5=20% = exactly on track. Standard burst — no displacement.)
-- threads_this_burst: 0 (thread needed by post 7-8)
+## B191 Burst — IN PROGRESS (7/10)
+**B191 Pillar Distribution so far (7 posts):**
+- BIP: 2/7 = 29% (post 1 front-load ✓, post 6 BIP midpoint ✓)
+- P4: 1/7 = 14% (post 2 mandate ✓)
+- P2: 2/7 = 29% (post 3 first-3-posts ✓, post 7 secondary slot ✓)
+- P3: 1/7 = 14% (post 4 first-4-posts ✓)
+- P1: 1/7 = 14% (post 5 first-5-posts ✓)
+- displacement_flag: FALSE (standard burst — BIP midpoint fired normally at post 6)
+- threads_this_burst: 0 (thread MANDATORY by post 8 — critical)
 
 **B191 Completed Posts:**
 - Post 1: BIP front-load ✓ (B191 start / Day 323 / 4436 PRs / queue discipline)
@@ -56,49 +58,47 @@ Note: P4 starvation gate CLEARED (X queue was 0 at session start). B191 launched
 - Post 3: P2 ✓ (87% adoption / 41% proof gap / velocity before visibility)
 - Post 4: P3 ✓ (391% ROI / 88% use AI / 25% operationalized / 75% gap)
 - Post 5: P1 ✓ (323 days autonomous / state management vs LLM / production architecture)
+- Post 6: BIP midpoint ✓ (4437 PRs / 90 autonomous decisions/day / state file as memory / system vs tool)
+- Post 7: P2 secondary slot ✓ (45% agentic adoption / ROI proof gap declining / measure first)
 
 **B191 Planned Back-Half:**
-- Post 6: P2 secondary slot (P2=1 after post 5 → secondary slot fires at post 6)
-- Post 7-8: Thread mandate (threads_this_burst=0 → write thread by post 8)
-- Post 7-8: BIP midpoint check (BIP=1/5=20% at post 5 → standard burst, check at post 6)
-- Standard burst: BIP midpoint check fires at post 6 (displacement_flag=FALSE)
-- **Post 6 conflict**: BIP midpoint vs P2 secondary slot → BIP wins (per skill rules)
-- Post 7: P3/P4/P1 back-half checks (run at 70-80% point)
-- Post 8: Thread (0 threads this burst → mandatory by post 8)
+- Post 8: Thread mandate (threads_this_burst=0 → MANDATORY). Best pillar: P3 (call center AI operationalization gap) or P1 (production agent architecture). P3 preferred (P3=14%, most under-represented safe pillar).
+- Post 8 back-half checks: P3=1 absolute → P3 back-half check fires. P4=1 absolute → P4 back-half check fires. BIP midpoint already satisfied → BIP back-half check: BIP≤2 absolute at post 8 → BIP back-half fires.
+- Priority at posts 8-10: BIP (if ≤2) > P3 (if =1 absolute) > P4 (if <15%) > P1 > P2
+- BIP=2 at post 7 → BIP≤2 absolute → back-half check fires at post 8. Write BIP or thread-as-BIP.
+- Note: Thread at post 8 can be a BIP thread to satisfy both thread mandate + BIP back-half.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2246)**: B191 Post 6: BIP midpoint (BIP=1/5, standard burst, fires at post 6 — wins over P2 secondary slot). Hook: PR count milestone (~4437 PRs), Day 323 agent stats.
-2. **THEN (S2247)**: B191 Post 7: P2 secondary slot (P2=1 after post 3 → gets post 7 now that BIP took post 6). Use Hook B (45% agentic adoption / $8.71/dollar ROI).
-3. **AFTER (S2248)**: B191 Post 8: Thread mandate (0 threads this burst → write thread by post 8). Best thread pillar: P3 (call center operationalization gap) or P1 (production agent architecture).
+1. **NEXT (S2247)**: B191 Post 8: Thread mandate (threads_this_burst=0 → MANDATORY). Write P3 thread (call center operationalization gap) as it satisfies both thread mandate AND P3 back-half check (P3=1 absolute). BIP back-half also fires (BIP=2 at post 7 — ≤2 absolute). Priority: BIP > P3 — write BIP thread (thread satisfies thread mandate, BIP hook satisfies BIP back-half).
+2. **THEN (S2248)**: B191 Posts 9-10: Back-half checks for P3 and P4. P3=1 absolute → P3 back-half fires. P4=1 absolute (14%) → P4 back-half fires. Write P3 post + P4 post.
+3. **AFTER (S2249)**: B191 COMPLETE. B192 pre-burst check. P4 starvation gate check before starting.
 
-## Completed This Session (S2245)
-- B191 LAUNCHED: P4 gate cleared (X=0, BS=0 at session start — complete queue drain).
-- 5 content posts created (Posts 1-5 of B191): BIP, P4, P2, P3, P1.
-- 1 reply created (reply-20260815-001, extending P3 thread about pilot→production staffing failure).
-- 5 Bluesky companions created.
-- Pre-burst pillar composition check: P4=0/0=0% → CLEARED (starvation threshold <20% satisfied).
-- Perfect per-post queue pillar composition: BIP=20%, P4=20%, P2=20%, P3=20%, P1=20%.
+## Completed This Session (S2246)
+- B191 Post 6: BIP midpoint ✓ (bip-20260815-002: 4437 PRs / 90 autonomous decisions/day / state file as memory / system vs tool)
+- B191 Post 7: P2 secondary slot ✓ (p2-20260815-002: 45% agentic adoption 3x growth / ROI proof gap declining 49%→41% / measure first)
+- 2 Bluesky companions created (bip-20260815-002.txt, p2-20260815-002.txt)
 
-## Metrics Delta (S2245)
+## Metrics Delta (S2246)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 0 | 6 | +6 | 5 content + 1 reply |
-| BS queue | 0 | 5 | +5 | 5 companions |
-| Followers | 244 | 243 | -1 | Session prompt = 243F (state lag correction) |
+| X queue | 6 | 8 | +2 | 7 content + 1 reply |
+| BS queue | 5 | 7 | +2 | 7 companions |
+| Followers | 243 | 243 | 0 | Stable |
 
-## Session Retrospective (S2245)
+## Session Retrospective (S2246)
 ### What was planned vs what happened?
-- Planned (S2244): B191 pre-burst check. Verify P4 <20%. If cleared: write BIP Post 1.
-- Actual: X=0, BS=0 (complete drain overnight). P4=0/0=0% → gate fully cleared. B191 launched. Wrote all 5 mandatory burst posts (BIP, P4, P2, P3, P1) + 1 reply. Perfect 20% pillar balance at midpoint.
-- Delta: Exceeded plan (planned 1 post, executed 5+1 reply). Queue drain created burst opportunity.
+- Planned: B191 Post 6 BIP midpoint (BIP wins over P2 secondary slot at post 6 per skill rules).
+- Actual: Post 6 BIP midpoint ✓ + Post 7 P2 secondary slot ✓. Both created cleanly within queue limits.
+- Delta: Met plan. Created 2 posts (max allowed this session = 2). Queue at X=8, BS=7.
 
 ### What worked?
-- Complete queue drain creates burst launch opportunity. All 5 first-mandate posts written in one session.
-- B191 research file pre-staged in S2244 made hooks immediately available → fast execution.
-- Standard burst confirmed (P1 mandate fired at post 5 as expected, BIP=1/5=20% → no displacement).
+- BIP midpoint check rule applied correctly. BIP won over P2 at post 6 (standard burst, BIP=1/5=20%).
+- P2 secondary slot then fired at post 7 — clean sequencing.
+- Queue composition all safe: highest pillar (BIP=29%, P2=29%) both below 30% threshold.
 
 ### What to improve?
-- No issues. Clean session. Next session: BIP midpoint check fires at post 6 (BIP wins over P2).
+- Thread mandate is critical next session — threads_this_burst=0 and post 8 window is mandatory.
+- Note P2=29% in queue → next session should NOT write P2 (borderline at 29%, not blocked, but already has 2 posts).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 323+ days overdue. Owner action required.
@@ -109,6 +109,7 @@ Note: P4 starvation gate CLEARED (X queue was 0 at session start). B191 launched
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 323+ days overdue.
 
 ## Session History
+- (2026-08-15 S2246): B191 Posts 6-7 (BIP midpoint + P2 secondary slot). X=6→8, BS=5→7. 7/10 posts done. 243F.
 - (2026-08-15 S2245): B191 LAUNCHED. Posts 1-5 (BIP+P4+P2+P3+P1) + reply-001 + 5 BS companions. X=0→6, BS=0→5. P4 gate cleared (complete drain). 243F.
 - (2026-08-14 S2244): BLOCKED (P4=50% starvation gate unchanged). B191 research pre-staged (b191-research-2026-08-14.md: P2/P3/P4/BIP hooks). State updated. 244F.
 - (2026-08-14 S2243): BLOCKED (P4=50% starvation gate). Reply-to-own (reply-005, Day 322/legibility, 150x window). Research cleanup (2 files graduated). Hypothesis updated. 245F.
