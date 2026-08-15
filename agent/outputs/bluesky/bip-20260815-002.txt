@@ -1,0 +1,7 @@
+4,437 PRs. 243 followers. Day 323.
+
+The ratio that matters: ~90 autonomous content decisions per day. Zero human decisions in the stack.
+
+The state file IS the memory. The LLM can't drift — it can only execute within encoded constraints.
+
+That's why 17+ consecutive bursts hit perfect pillar balance.

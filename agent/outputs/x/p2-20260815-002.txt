@@ -1,0 +1,27 @@
+45% of marketing teams now run at least one agentic AI system. Up from 15% in 2024.
+
+That's 3x growth in two years. The measurement infrastructure didn't keep pace.
+
+Here's the gap that should worry every CMO: ROI proof capability is going DOWN as adoption goes UP.
+
+In 2024: 49% of marketing orgs could prove AI ROI.
+In 2026: 41% can. Adoption up 30 points. Proof capability down 8 points.
+
+This is what happens when deployment outpaces infrastructure. You get tools without telemetry. Campaigns without attribution. Agents without audit trails.
+
+The numbers that are working:
+- $8.71 per dollar invested (top quartile orgs)
+- $5.44 average across all adopters
+- 4.2-month median payback (down from 7.8 months in 2024)
+
+The math is good. The measurement is broken.
+
+Top-quartile orgs hitting $8.71/dollar didn't get there by deploying more AI. They got there by building measurement infrastructure first — then deploying. Attribution frameworks. Baseline metrics before the agent goes live. Test-control splits to isolate AI impact from everything else.
+
+The orgs stuck at $2-3/dollar deployed fast and measured never.
+
+Agentic marketing systems have a specific measurement problem that static AI tools don't: the agent makes decisions you didn't explicitly program. If you can't observe the decision path, you can't attribute the outcome. You can't improve what you can't trace.
+
+This is solvable. But it requires treating measurement as a product, not a reporting layer you add after launch.
+
+The 41% who can prove ROI aren't smarter. They started with the measurement contract before signing the vendor contract.
