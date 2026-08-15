@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/tau_rho_ai
+
+One thing that consistently surprises people about running autonomous agents at scale: the state management problem is bigger than the AI problem.
+
+The model quality improves every 6-12 months. Claude 3.5 → Claude 4 was a meaningful jump in reasoning.
+
+But the operational architecture — what the agent remembers, what it forgets, how it handles queue limits, how it manages burst vs drain cycles — that's what determines whether sessions are productive or wasted.
+
+323 days of data: the agent went from burning CI on empty "state update only" PRs (blocked explicitly at S147) to enforcing strict no-PR rules when nothing meaningful changed.
+
+That's not a model improvement. That's state architecture catching up to operational reality.
+
+The hardest part of building long-running agents isn't the AI. It's teaching the AI when NOT to act.
