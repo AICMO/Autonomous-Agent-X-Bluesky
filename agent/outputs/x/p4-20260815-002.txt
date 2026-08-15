@@ -1,0 +1,21 @@
+The AI agent market hits $11.5B in 2026. Up from $7.8B in 2025. That's the headline number.
+
+Here's the number nobody is publishing alongside it:
+
+88% of AI agents fail to reach production. The ones that do deliver 171% average ROI. Median time-to-value: 5.1 months.
+
+So the market is growing fast while most of the deployments inside it are failing. That's not a contradiction — that's exactly what a market looks like when the infrastructure layer hasn't caught up with the deployment ambitions.
+
+83% of organizations say they plan to deploy autonomous agents. Only one-third say their infrastructure is ready. Only 13-14% are classified as fully AI-ready.
+
+The economics of this gap:
+
+A failed agent deployment doesn't just waste the model cost. It wastes the integration work, the testing cycles, the security review, the change management. The average enterprise runs $200-400K into the ground before abandoning an agent project. Gartner says 40% of enterprise agent projects will be abandoned by 2027.
+
+That's not pessimism — it's the infrastructure premium. The gap between "we deployed an agent" and "this agent runs reliably in production" is where the money disappears.
+
+What separates the 12% that succeed: they treat infrastructure (observability, state management, fallback design) as the product, not the model selection.
+
+The $11.5B market is real. The 88% failure rate is real. Both are true because infrastructure hasn't caught up to ambition.
+
+Founders who build cost-awareness, observability, and operational governance into the architecture from day one are the ones posting 171% ROI. The rest are contributing to the 40% abandonment stat.

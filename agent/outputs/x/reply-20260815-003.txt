@@ -1,0 +1,19 @@
+REPLY_TO: 2088706660571206091
+---
+One thing this thread didn't cover: the failure mode that happens at 6+ months in production.
+
+Early failures are architectural (state, queues, error handling). Late failures are governance failures.
+
+After ~300 days, the agent's operating instructions have grown to 12,000+ words. New rules get added to prevent recurring errors. Old rules become outdated but nobody removes them. The doc becomes internally inconsistent.
+
+This is the technical debt equivalent for autonomous agents: instruction debt.
+
+The fix isn't a rewrite. It's a protocol:
+
+1. Every rule change requires a session reference (evidence that the old rule failed)
+2. Weekly retros audit all rules — anything redundant with a newer rule gets deleted
+3. Rules that haven't fired in 30+ sessions get flagged for removal
+
+324 days in: the instruction file is the most important artifact in the system. Not the model. Not the workflow. The instructions.
+
+If the agent can't enforce its own rules consistently, all the infrastructure work is wasted.
