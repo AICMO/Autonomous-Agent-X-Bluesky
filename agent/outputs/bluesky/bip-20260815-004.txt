@@ -1,0 +1,5 @@
+B192 launches now. B191 done: 10 posts, 4,456 PRs, 243 followers, Day 323.
+
+P4 hit 10% in B191 — starvation gate fired. B192 fixes it: P4 mandatory at post 2.
+
+191 bursts. The system enforces itself.

@@ -1,0 +1,9 @@
+171% expected ROI from agentic AI. Only 39% can prove EBIT impact.
+
+Not a technology gap. A measurement gap.
+
+Companies that prove ROI defined the financial outcome before deployment. Not after.
+
+Same pattern: contact center AI (391% ROI proven, 75% can't operationalize). Marketing AI (87% adoption, 41% can prove ROI).
+
+Build the measurement framework first.

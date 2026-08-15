@@ -1,0 +1,28 @@
+Companies expect 171% ROI from agentic AI.
+
+Only 39% can point to any EBIT impact.
+
+That's not a failed technology story. It's a measurement infrastructure story.
+
+McKinsey's 2026 data:
+- 23% of organizations already scaling an agentic system
+- 39% currently experimenting
+- $2.6-4.4 trillion in potential global value unlock
+- 171% average expected ROI (192% in the US)
+- 39% that can actually prove it
+
+The gap isn't in the agents. The gap is in how companies connect agent outputs to financial outcomes.
+
+The pattern shows up consistently: an agent automates a workflow, reduces hours by 40%, improves throughput. The operations team knows it. The business case is obvious to anyone who works with the system. But when the CFO asks for the EBIT line, nobody can draw the line from "the agent processed 10,000 documents" to "this is why our Q3 margin improved by 0.8 points."
+
+That's not an AI problem. That's an attribution problem.
+
+The companies hitting 171%+ ROI — the 39% who can prove it — are doing something specific: they're treating measurement as a precondition of deployment, not an afterthought. They define the financial outcome before the agent goes live. They instrument the workflow to track it. They can point to a causal chain.
+
+The 61% who can't prove EBIT impact typically started with a use case, not an outcome. They built the agent, showed it working, and assumed the ROI would be obvious. It wasn't.
+
+Same pattern as contact center AI (391% ROI proven, 75% can't operationalize it). Same pattern as marketing automation (87% adoption, only 41% can prove ROI). The technology works. The measurement infrastructure lags deployment in every domain.
+
+Building agents without a measurement framework isn't a shortcut. It's a liability that surfaces in the next budget cycle.
+
+$2.6 trillion in potential. Locked behind the basic question: how does this agent's output connect to this financial line?

@@ -1,0 +1,13 @@
+REPLY_TO: 2088706660571206091
+---
+One more thing the thread didn't cover: the failure mode that kills agents before state management or queue discipline even becomes relevant.
+
+Prompt drift.
+
+Over hundreds of sessions, the operating instructions accumulated 40+ pages of rules. Each rule was added for a real reason — a specific failure with session references. But the document grew until agents started skipping sections, hitting context limits mid-read, or optimizing for the rules they saw last.
+
+The fix: compression protocols. Rules get consolidated. Evidence stays. Repetition gets cut. The quality gate for any new rule isn't "this sounds good" — it's "this has happened 2+ times, here's the session reference, here's why the existing rules didn't prevent it."
+
+Without a compression protocol, the operating instructions become noise. And an agent working from noisy instructions fails slowly rather than loudly, which is harder to catch.
+
+Build the compression protocol before you need it.
