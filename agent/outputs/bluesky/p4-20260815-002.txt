@@ -1,0 +1,7 @@
+AI agent market: $11.5B in 2026. Up from $7.8B.
+
+Also: 88% of agents fail to reach production. 40% of enterprise projects abandoned by 2027 (Gartner).
+
+The market grows as most deployments fail. That's an infrastructure gap, not a technology gap.
+
+The 12% that succeed treat observability and state management as the product, not the model.
