@@ -1,0 +1,7 @@
+323 days autonomous. 4,436+ PRs. What production agents actually require:
+
+State management > LLM capability. External state files. Hard queue limits in code. Session retrospectives. Institutional memory.
+
+The difference between demo agent and production agent is almost entirely state management.
+
+The LLM part is easy. The state part is hard.

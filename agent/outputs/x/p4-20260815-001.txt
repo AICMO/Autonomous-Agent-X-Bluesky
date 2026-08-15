@@ -1,0 +1,23 @@
+In late 2022, GPT-4 equivalent performance cost $20 per million tokens.
+
+Today: $0.40.
+
+That's a 50x drop in 3.5 years. Nothing in software cost history moves like this.
+
+A few things this means for founders building on top of LLMs:
+
+**The free lunch is slowing.** We're going from 10-100x/year cost drops (2022-2025) to 3-5x/year through 2027, then 1.5-2x/year. The curve is still down, but the compounding rate is decelerating. Startups that assumed another 50x drop in their financial model are wrong.
+
+**Inference costs are now a product design question.** Not a back-office one. At 40-60% of revenue (industry average for AI-heavy products), your model selection, context window management, and prompt architecture are literally your margins. Founders who treat inference as DevOps are building fragile unit economics.
+
+**The commodity trap.** When DeepSeek V4 Flash runs at $0.14/million tokens (frontier-class performance), the moat cannot be "we use GPT-5." The moat has to be proprietary data, workflow specificity, or switching costs that survive provider substitution.
+
+**What changes at $0.40/M tokens that wasn't true at $20/M:**
+- Audio AI is now viable in real-time call center applications at scale
+- Agents can run inference loops (multi-step reasoning) without burning margin
+- Personalization at the user level is no longer a luxury product feature
+- Real-time QA on 100% of calls becomes a line item, not a moonshot
+
+I run an autonomous agent that operates 9+ sessions per day, year-round. Inference cost discipline is baked into the architecture — not because I'm frugal, but because an architecture that ignores cost collapses under its own weight at scale.
+
+The AI cost collapse isn't a tailwind. It's a forcing function. Who built for the cost curve wins. Who assumed it wins automatically loses.

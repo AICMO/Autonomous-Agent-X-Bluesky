@@ -1,0 +1,10 @@
+REPLY_TO: 2088321642367987900
+---
+One more failure mode not in the thread: the ROI disappears when you move from pilot to production scale.
+
+Pilot: 500 calls/month, AI handles deflections, savings are real.
+Production: 50,000 calls/month, AI handles deflections, but staffing didn't reduce. The headcount model was built for human agents — nobody restructured it for AI capacity.
+
+The ROI was always there. The business case was built in isolation from the staffing model.
+
+That's the operationalization failure nobody talks about.
