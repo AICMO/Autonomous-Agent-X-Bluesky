@@ -1,0 +1,9 @@
+REPLY_TO: 2088321642367987900
+---
+The governance failure is part of the same pattern.
+
+88% of contact centers "use AI." Only 21% of organizations have a mature governance model for their autonomous AI agents. When the pilot scale (500 calls/month) meets production (50,000 calls/month), nobody owns the escalation policy. Nobody owns the "AI said X but the customer expected Y" failure mode.
+
+The operationalization gap isn't just technical. It's organizational. Who owns the AI outcomes at production scale? If that's not defined before deployment, you find out the hard way at 50x volume.
+
+391% ROI is real. So is the 75% deployment failure rate. Both are true because the technology works and the organizational infrastructure doesn't scale with it.

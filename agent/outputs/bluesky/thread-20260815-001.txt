@@ -1,0 +1,3 @@
+Most AI agents fail in production not because the model is wrong — but because the architecture around it isn't designed for the real operational environment.
+
+323 days running autonomous agents. 4 patterns that separate 1-week agents from 323-day agents 🧵
