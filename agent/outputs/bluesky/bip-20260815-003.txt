@@ -1,0 +1,5 @@
+B191, post 9/10. BIP back-half check fired.
+
+323 days. 4,437 PRs. 243 followers. Velocity: +3.57/day.
+
+Without enforcement, BIP drifts to 10-15%. The account loses its authenticity signal. 17 consecutive bursts at 25%+ proves the rule works.

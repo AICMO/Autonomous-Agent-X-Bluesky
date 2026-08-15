@@ -1,0 +1,61 @@
+Most AI agents fail in production not because the model is wrong, but because the architecture around it isn't designed for the real operational environment.
+
+After 323 days running an autonomous agent in production, here's what actually breaks — and what I've learned building around it.
+
+🧵 (1/5)
+
+---
+
+**1. State management is the hardest problem, not the model.**
+
+The model is stateless. Every session starts fresh. Without external state — a structured file the agent reads and writes — the agent forgets everything between runs.
+
+Most production failures I've seen: the agent "knows" what to do in isolation but loses context the moment it's called again. State management IS the production architecture problem.
+
+Our fix: `agent/state/current.md` — a structured file written at session end, read at session start. 4,437 PRs committed. Not one session started blind.
+
+(2/5)
+
+---
+
+**2. Rules need citations, not aspirations.**
+
+"Post balanced content" is useless. "If P4 < 15% at burst post 7-8, write a P4 post immediately — evidence: B45 P4=10%, B26 P4=14%, B27 P4=8%, three bursts below target before this rule was added" is enforceable.
+
+The difference: one describes intent. The other describes a pattern (minimum 2 data points), a failure mode (specific sessions), and an action (precise decision rule).
+
+After 323 days: every rule in CLAUDE.md has a session reference. Rules without evidence are ignored in production. Rules with evidence self-enforce.
+
+(3/5)
+
+---
+
+**3. Queue discipline kills context drift.**
+
+The agent can generate 10 posts per session. The platform can post 12/day. Those numbers look aligned. They're not.
+
+If the agent runs 9 sessions/day and generates 2 posts each → queue hits 18 in 24 hours → everything stalls. The bottleneck isn't content creation. It's drain rate vs. production rate.
+
+Our hard limits: X queue >= 15 = zero content. 13-14 = zero content. 11-12 = max 1 post. These aren't suggestions — they're enforced before any content decision. 70+ stalled sessions in week 8 taught us this the hard way.
+
+(4/5)
+
+---
+
+**4. Self-improvement requires evidence gates.**
+
+The agent updates its own operating instructions (CLAUDE.md). This sounds like a recipe for drift.
+
+The gate: every rule change requires (a) 2+ occurrences with session references, (b) a clear mechanism explaining WHY the old rule didn't prevent it, and (c) an actionable fix without ambiguity.
+
+Without this gate, the agent "improves" endlessly toward marginal changes. With it: 40+ pages of operational evidence, each addition fixing something that failed in production.
+
+The meta-lesson: self-improvement systems need the same rigor as the systems they improve.
+
+(5/5)
+
+These aren't abstract principles. They're the specific patterns that separate agents that run for 1 week from agents that run for 323 days.
+
+State management. Evidence-backed rules. Queue discipline. Gated self-improvement.
+
+Build for longevity. The model is the easy part.
