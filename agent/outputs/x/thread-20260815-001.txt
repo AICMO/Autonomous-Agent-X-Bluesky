@@ -1,0 +1,72 @@
+88% of contact centers use AI. 25% have operationalized it.
+
+The 63-point gap is not a technology problem. Here's what's actually happening — and why most AI deployments stall between pilot and production.
+
+---
+
+Part 1: The Pilot Trap
+
+A contact center runs a voice AI pilot. 6 weeks. 50 agents. Controlled environment.
+
+Results: AHT down 18%. CSAT up 12%. First call resolution up 15%.
+
+Everyone celebrates. Budget is approved. Full rollout begins.
+
+6 months later: AHT is down 6%. CSAT moved 2 points. Leadership asks what happened.
+
+This is the pilot trap. Pilots succeed in controlled environments. Production fails in real ones.
+
+---
+
+Part 2: Why Pilots Succeed and Rollouts Fail
+
+In a pilot: you pick the best agents, clearest call types, most cooperative supervisors. You measure everything.
+
+In production: you get all agents, every call type, change-resistant supervisors, inconsistent coaching, and 5 other tech projects running simultaneously.
+
+The AI didn't change. The operational environment did.
+
+What changes between pilot and production is not the technology — it's the complexity. And complexity is a people problem, not a product problem.
+
+---
+
+Part 3: The Measurement Collapse
+
+The pilot team built a clean measurement framework. They tracked baseline AHT, CSAT, FCR before deploying anything. They had a control group.
+
+The production rollout didn't preserve any of that. They changed 4 variables at once (AI model, coaching cadence, supervisor rotation, CRM upgrade), couldn't isolate the AI contribution, and ended up with a mixed signal.
+
+Finance asked: "Is the AI working?"
+
+The only honest answer: "We don't know."
+
+Instrument before you scale. Not after.
+
+---
+
+Part 4: The Staffing Model Mismatch
+
+The 391% three-year ROI from voice AI is real. The payback under 6 months is real.
+
+But that ROI assumes proper staffing adjustment. Most enterprises don't make it.
+
+AI handles 30% of call volume through self-service. Logical conclusion: reduce headcount by 30%. But contact centers are regulated, unionized, or operationally constrained. You can't move that fast.
+
+Result: you pay for both the AI AND the full agent team for 12-18 months. ROI math breaks. CFO concludes "AI didn't work." AI worked fine. The operational planning failed.
+
+---
+
+Part 5: What Operationalization Actually Looks Like
+
+The 25% that have done it right have three things in common:
+
+1. Measurement framework defined BEFORE deployment (baseline metrics locked)
+2. Staffing model updated ALONGSIDE AI rollout (phased, not all-at-once)
+3. Supervisor training treated as equally important as agent training
+
+The AI vendor can deliver the technology. Only the contact center can deliver the change management.
+
+88% own the tools. 25% built the operational model to use them.
+
+The gap is not a technology gap. It's a change management and measurement gap — and it's exactly the problem that kills ROI before it gets reported.
+

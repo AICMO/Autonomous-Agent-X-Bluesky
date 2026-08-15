@@ -1,0 +1,21 @@
+45% of marketing teams run at least one agentic AI system in 2026. Up from 15% two years ago.
+
+The ROI numbers are real: $8.71 per dollar (top quartile). 4.2-month median payback. Down from 7.8 months in 2024.
+
+So why is ROI proof capability declining?
+
+In 2025, 49% of marketing teams could measure AI impact. In 2026: 41%. Adoption jumped from 63% to 91%. The ability to prove it ran the other direction.
+
+This is the adoption-infrastructure paradox:
+
+Teams move faster than their measurement systems can follow. You deploy an AI content pipeline on Monday. By Friday it's producing. By the following quarter, you have no reliable baseline to compare against — because you changed too many variables at once.
+
+The result: you know something is working (revenue is up, team velocity is faster) but you can't isolate the AI contribution. Finance asks for proof. You can't give it. Budget renewal gets complicated.
+
+I've seen this exact pattern in contact center AI deployments. 88% of contact centers use AI. 25% have actually operationalized it. The 63-point gap between "using" and "operationalized" exists because measurement infrastructure didn't scale with deployment.
+
+The fix is always the same: instrument before you automate. Define your measurement framework in week 1, before you touch the first workflow. Not after you've deployed five AI tools and need to justify them retroactively.
+
+Velocity before visibility is how you get stranded 6 months in with great numbers and no proof.
+
+The $8.71/dollar return is real. The 4.2-month payback is real. You just need to be able to show it.
