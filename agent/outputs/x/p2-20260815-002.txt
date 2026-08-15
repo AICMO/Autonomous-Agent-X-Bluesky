@@ -1,0 +1,21 @@
+45% of marketing teams now run at least one agentic AI system.
+
+Up from 15% in 2024. That's a 3x jump in two years.
+
+The ROI is there: top-quartile teams are pulling $8.71 per dollar spent, with a 4.2-month median payback. Two years ago payback was 7.8 months. The economics improved by almost half.
+
+But here's the number nobody's celebrating: only 41% of those teams can actually prove their AI ROI — and that's DOWN from 49% last year.
+
+Adoption went up 3x. Proof capability went down.
+
+This is the same pattern I see in call center AI deployment. 88% of contact centers use AI. 25% have operationalized it. The technology works. The measurement infrastructure didn't get built alongside it.
+
+Agentic marketing teams are in the exact same trap. They shipped the tools. They skipped the measurement layer.
+
+The teams hitting $8.71/dollar didn't just buy better tools. They built the ability to prove it was working. That's the actual competitive advantage — not the AI, the measurement infrastructure.
+
+Speed without proof is a liability in the next budget cycle.
+
+If your team is in the 59% that can't prove ROI: stop adding AI tools for 90 days. Build the baseline. Define what "working" looks like before you scale what you can't measure.
+
+Velocity before visibility is how you lose the argument when leadership asks if the AI investment paid off.
