@@ -1,0 +1,21 @@
+87% of marketers use generative AI in at least one workflow in 2026.
+
+Only 41% can prove AI ROI.
+
+That number is DOWN from 49% last year, even though adoption went up 36 points.
+
+Think about what that actually means: companies are running faster toward AI while their ability to measure outcomes is moving backward. Adoption is outpacing measurement infrastructure.
+
+I've watched this exact pattern in contact center AI. Years of "we're using AI" followed by inability to answer "what did it change." The technology shipped. The measurement framework didn't.
+
+The numbers that do break through are meaningful. $5.44 average return per dollar spent on AI marketing. Top quartile: $8.71/dollar. Median payback now 4.2 months, down from 7.8 months in 2024. Those are real business outcomes.
+
+But most marketing teams can't report them. They can't tell you which campaigns AI improved. They can't show attribution. They have dashboards but not answers.
+
+The measurement gap is structural, not laziness. Most orgs deployed AI tools one workflow at a time without building unified measurement infrastructure. Each tool has its own metrics. None of them talk to each other.
+
+This is a product problem, not a strategy problem. Teams that build measurement infrastructure BEFORE scaling AI deployment close the gap. Teams that wait until they're at 87% adoption are retrofitting.
+
+The adoption curve is irreversible now. The question is whether you build the infrastructure to capture value from it.
+
+If you're running AI across marketing and you can't prove ROI, the gap isn't the AI — it's the scaffolding around it.
