@@ -1,0 +1,25 @@
+391% three-year ROI from voice AI deployment (Forrester, 2025).
+
+Payback in under 6 months.
+
+Cost per call: $0.40 AI vs $7-12 human. That's a 90-95% reduction in variable cost.
+
+The market knows this. Here's what it doesn't talk about:
+
+88% of contact centers are using AI in some form. Only 25% have fully operationalized it.
+
+That 63-point gap is not a technology problem. The technology works — Forrester just proved it at 391% ROI. The gap is operational: procurement, deployment, change management, staffing recalibration, quality scoring realignment.
+
+Buying AI is easy. Integrating it into a live contact center without tanking CSAT for 6 months while your agents adapt is not.
+
+What actually blocks operationalization:
+
+1. No clear ownership of the AI deployment (vendor says yes, ops team says "whose job is this?")
+2. Supervisor workflows not redesigned for AI-assisted monitoring
+3. Training data drawn from pre-AI call patterns — agents optimized for calls that no longer come in at the same rate
+4. ROI measured at the wrong layer (per-call cost vs. total cost including staffing recalibration)
+5. Leadership expecting 391% ROI in year one — it's a three-year figure, not a pilot figure
+
+The 25% who've operationalized it aren't smarter. They started with a deployment plan before they bought the technology.
+
+That's the lesson: the ROI is real, but it shows up on year 3, not month 3. Organizations that haven't operationalized have the tools. They're still waiting on the plan.

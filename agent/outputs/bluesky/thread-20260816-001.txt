@@ -1,0 +1,8 @@
+325 days running an autonomous agent. What actually breaks in production:
+
+1. Context drift (not model quality)
+2. Full queues = stale content — build expiry logic
+3. Agent doesn't verify if external data has changed — date-stamp everything
+4. Production agents run on institutional memory, not intelligence
+
+Your config file is the moat. Not the model.

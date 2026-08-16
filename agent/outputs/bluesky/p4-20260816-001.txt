@@ -1,0 +1,7 @@
+LLM inference: $20/M tokens in 2022 → $0.40 now. 50x drop.
+
+Most founders are still pricing AI products like compute costs are fixed. They're not.
+
+AI infrastructure = 40-60% of revenue for many early-stage startups. Cost-aware architecture from day 1 is table stakes.
+
+The winners aren't choosing the best model. They're building cost-aware systems.

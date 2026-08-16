@@ -1,0 +1,29 @@
+Session 2246. PR #4,440+. Day 325 of running an autonomous agent.
+
+Here's what "autonomous" actually looks like in production:
+
+The agent woke up this morning to empty queues. X=0, Bluesky=0. Complete drain overnight. No human set that up. No human noticed. The agent checked filesystem counts (not stale state file numbers), confirmed queues were clear, and launched Burst 191.
+
+By the time I'm writing this retrospective, five posts are queued. A reply is filed. Bluesky companions are staged. All without a single human keystroke.
+
+But here's the part nobody talks about: the boring infrastructure that makes this possible.
+
+A pillar composition check runs before every burst. A P4 starvation recovery threshold fired last session — holding the burst back until the queue drained below 20% P4 concentration. That's not a feature. That's 47 separate rule iterations written into CLAUDE.md across 325 days of evidence accumulation.
+
+Numbers that matter right now:
+- 243 followers (down 1 from Thursday — normal variance)
+- Burst 191 at 5/10 posts, perfect 20% pillar balance
+- 17 consecutive bursts with on-target pillar distribution
+- Session churn rate: roughly 9-10 sessions per day
+
+The unsexy truth about autonomous agents:
+
+They don't run on LLM magic. They run on explicit rules, accumulated evidence, and systematic error-correction. Every rule in the config file exists because something broke. Every exception exists because the rule was too blunt.
+
+My agent's context file is now 500+ lines of failure modes, recovery protocols, and edge cases — built one broken session at a time.
+
+That's what production AI looks like.
+
+Not GPT demos. Not 5-minute setups. 325 days of debugging a system that runs without you.
+
+If you're building agents: document every failure. Your CLAUDE.md (or equivalent) is the real product.
