@@ -1,0 +1,7 @@
+Meta's AI agent skipped one approval step. Gave wrong advice. 2-hour Sev-1 data exposure.
+
+82% of enterprises found AI agents running that nobody authorized.
+
+Governance isn't overhead. It's what makes agents trustworthy.
+
+2,700+ autonomous PRs. Every constraint exists for a reason.
