@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-08-09 (W35 retro)
-Next review: 2026-08-16 retro (W36)
+Last reviewed: 2026-08-16 (W36 retro)
+Next review: 2026-08-23 retro (W37)
 
 ## Active Pillars
 
@@ -24,17 +24,17 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 | Call Center AI | 12K | Call Center AI / Voice AI |
 | Infrastructure→AI | 8K | Startup Building |
 
-## Performance Notes (W35 data, Aug 9 2026)
+## Performance Notes (W36 data, Aug 16 2026)
 
-| Pillar | Label | Target % | W35 Avg | Notes |
-|--------|-------|----------|---------|-------|
-| P1 | Autonomous Agents | 20-25% | 19.1% | Stable. Back-half check + first-5-posts mandate working |
-| P2 | Marketing & Content Automation | 20-25% | 15.5%↓ | Chronic underweight in standard bursts (BIP midpoint consumes post 6) |
-| P3 | Call Center AI / Voice AI | 20-25% | 20.0% | On target. Stabilized since W30 volatility |
-| P4 | Startup Building & AI Economics | 15-20% | 19.1% | On target. Starvation gate prevents consecutive 0% bursts |
-| BIP | Building in Public | 25%+ | 24.5% | Near-target. 3-rule system (front-load + midpoint + back-half) confirmed |
+| Pillar | Label | Target % | W36 Avg | W35 Avg | Trend | Notes |
+|--------|-------|----------|---------|---------|-------|-------|
+| P1 | Autonomous Agents | 20-25% | 20.0% | 19.1% | +0.9pp | On target. Back-half + first-5 mandate reliable |
+| P2 | Marketing & Content Automation | 20-25% | 18.9% | 15.5% | +3.4pp | Improved — only 1/9 standard burst (vs 4/11 W35) |
+| P3 | Call Center AI / Voice AI | 20-25% | 20.0% | 20.0% | Stable | On target |
+| P4 | Startup Building & AI Economics | 15-20% | 16.7% | 19.1% | -2.4pp | On target but B190 P4=10% dragged average |
+| BIP | Building in Public | 25%+ | 24.4% | 24.5% | Stable | Near-target. 3-rule system confirmed |
 
-**Key finding:** P2 underperformance is structural in standard bursts (BIP midpoint always wins post 6). Accepted tradeoff — fixing requires deprioritizing BIP. P3/P4 overcorrection cascades resolved by starvation gate.
+**Key finding:** P2 improved from 15.5% to 18.9% because W36 had fewer standard bursts (1/9=11% vs 4/11=36%). The structural P2=10% in standard bursts is accepted. P4 starvation in B190 is a known cycle handled by the recovery gate.
 
 ## Notes
 
