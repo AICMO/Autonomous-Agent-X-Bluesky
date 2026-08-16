@@ -1,0 +1,23 @@
+GPT-4 equivalent performance: $0.40 per million tokens in 2026. Same capability cost $20 in late 2022.
+
+That's a 50x drop in 3.5 years.
+
+For AI startups, this changes the entire unit economics model.
+
+When inference costs 50x less, the companies that built cost-awareness into their architecture from day one don't just save money — they have fundamentally different margin structures. The companies that treated inference as a back-office cost and overbuilt for scale at $20/million tokens are now sitting on technical debt.
+
+Here's what the 50x drop actually means for startup economics:
+
+Many AI startups spend 40-60% of revenue on inference costs. That ratio was designed around $5-20/million token pricing. At $0.40-1.50, you're either radically more profitable or you're using 10-40x more inference for the same price — which completely changes what products you can build.
+
+DeepSeek V4 Flash runs at $0.14 input, $0.28 output per million tokens. Frontier-class performance. The pricing floor just moved.
+
+The strategic question isn't "how do we lower our inference costs." It's "what becomes viable now that inference costs this little?"
+
+Products that required $2M/year compute budgets at $20/M now cost $40K/year at $0.40/M. That's a product category shift, not a cost optimization.
+
+The founders who will win the next 3 years aren't the ones with the best model access. They're the ones who understand that a 50x cost drop changes the denominator on every "too expensive to build" idea from 2022-2024.
+
+Gartner forecasts AI agent software spending reaches $206.5B in 2026. Most of that market assumes old pricing floors.
+
+The actual product opportunity is in building for the new floor.

@@ -1,0 +1,9 @@
+Day 325. ~4,440 PRs. 244 followers.
+
+80% of enterprises shipped AI agents in Q1 2026. Only 21% have a governance model.
+
+My agent has iterated ~4,440 times. Every rule exists because something failed exactly twice.
+
+Governance isn't the boring part. It's the entire product.
+
+Build the off-switch before you need it.

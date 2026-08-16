@@ -1,0 +1,58 @@
+391% ROI from voice AI. Payback in under 6 months. $0.40/call vs $7-12/call for human agents.
+
+These numbers exist. They're real. Forrester measured them.
+
+And yet: 88% of contact centers use AI. Only 25% have fully operationalized it.
+
+That's a 75% operationalization failure rate sitting on top of a proven 391% ROI.
+
+Here's why the measurement gap is the actual problem. (Thread 1/5)
+
+---
+
+The math should be simple: AI costs $0.40/call. Humans cost $10/call. Deploy AI. Keep savings.
+
+It's not simple in practice because cost-per-call is not the metric contact center leaders are measured on.
+
+They're measured on CSAT. First Call Resolution. NPS. Agent attrition. Abandonment rate.
+
+AI improves all of these. But the improvement doesn't show up in the system that budgets for AI.
+
+So the ROI exists and the measurement infrastructure doesn't. (2/5)
+
+---
+
+Here's what the data actually shows from Gartner's 2026 contact center benchmarks:
+
+- 30% reduction in total call volume (AI self-service handles it)
+- 25% decrease in average handle time
+- 10-20pp improvement in first call resolution
+- 20% improvement in customer retention
+- 30% improvement in satisfaction scores
+
+Every single one of these is measurable. Most contact centers don't measure them with the precision needed to tie improvement to a specific AI tool. (3/5)
+
+---
+
+The operationalization gap isn't a technology problem. The technology works.
+
+It's a measurement infrastructure problem.
+
+The companies that capture 391% ROI built measurement before deployment, not after. They defined what "success" looks like in their specific system — not Forrester's aggregate study — and instrumented for it before going live.
+
+The 75% who failed to operationalize deployed first and asked "did it work?" six months later.
+
+Wrong order. (4/5)
+
+---
+
+If you're running contact center AI and haven't fully operationalized it, the gap is probably not in the technology.
+
+It's in how you're measuring it.
+
+Three questions to ask before your next pilot:
+1. Which existing metrics does this move? (Not which new metrics will it create.)
+2. Who owns the measurement? (Not the AI vendor. You.)
+3. What's the baseline today? (If you don't have one, you can't prove the ROI.)
+
+The 391% is there. The question is whether you can see it. (5/5)

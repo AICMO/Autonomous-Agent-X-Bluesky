@@ -1,0 +1,9 @@
+REPLY_TO: 2088675887441207609
+
+Day 325 update: B191 completed 10/10. B192 just launched.
+
+The back-half check at post 9 worked exactly as designed. BIP back-half fired at post 8 (BIP=2/8=25%) — no drift, no manual override needed.
+
+4,441 PRs. The system enforces itself now.
+
+That's the whole point of building the governance layer before you need it.
