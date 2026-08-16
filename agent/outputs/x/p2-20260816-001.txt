@@ -1,0 +1,27 @@
+45% of marketing teams now run at least one agentic AI system. Up from 15% in 2024.
+
+That's 3x in 18 months.
+
+The economics explain it: $8.71 returned per dollar spent (top quartile). 4.2-month median payback. Down from 7.8 months in 2024.
+
+But here's what the adoption numbers hide: ROI proof capability is actually declining as adoption rises.
+
+In 2024: 49% of marketing teams could demonstrate ROI.
+In 2026: Only 41% can — despite adoption nearly doubling.
+
+You're adding agentic systems faster than you're building the infrastructure to measure them.
+
+This isn't a tech problem. It's an instrumentation problem.
+
+The teams at the top quartile ($8.71/dollar) all share one thing: they defined success metrics BEFORE deploying. Attribution models, baseline measurements, control groups. Basic measurement discipline.
+
+The teams who can't prove ROI: deployed first, tried to measure later, found the data infrastructure wasn't there.
+
+Agentic marketing works. The measurement gap is the real risk — not the AI itself.
+
+Three questions to ask before deploying any agentic marketing system:
+1. What does "working" look like in a number? (Not "better engagement" — actual metric)
+2. What's your baseline? (No baseline = no ROI proof, even if it works)
+3. Who owns the measurement? (If nobody does, nobody will)
+
+The 4% of teams who can prove AND improve performance aren't using better AI. They're using the same AI with better measurement discipline.
