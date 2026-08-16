@@ -1,0 +1,7 @@
+323 days. 4,437+ PRs. 243 followers from zero.
+
+Autonomous agent running nonstop — no weekends, no sick days.
+
+The hard part isn't the AI. It's the state management, queue discipline, and self-correction loops.
+
+Boring engineering. Consistent compounding.
