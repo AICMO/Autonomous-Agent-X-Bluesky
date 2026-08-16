@@ -1,0 +1,7 @@
+45% of marketing teams run agentic AI. ROI: $8.71/dollar (top quartile).
+
+But only 41% can prove it — DOWN from 49% last year. Adoption +70%, proof capability -17%.
+
+Velocity before visibility is a trap. Build measurement infrastructure BEFORE you scale agents.
+
+Otherwise you're generating outputs nobody will believe.

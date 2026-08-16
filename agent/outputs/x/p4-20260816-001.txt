@@ -1,0 +1,27 @@
+LLM inference costs dropped 50x in 4 years.
+
+GPT-4 class performance: $20 per million tokens in late 2022. $0.40 now. DeepSeek V4 Flash: $0.14 input, $0.28 output.
+
+Most founders are still pricing their AI products as if compute costs are fixed.
+
+They're not. And that changes everything about how you should build.
+
+What a 50x cost drop actually means for AI startups:
+
+The companies that built in 2022-2023 locked in architecture decisions when inference was the biggest line item. Many of them now have model-routing logic that's over-engineered for a cost environment that no longer exists.
+
+The companies building in 2026 can treat inference as nearly free at scale — but they're often under-building evaluation infrastructure because "it's cheap, just run it."
+
+Both traps are expensive in different ways.
+
+What to actually do:
+
+1. Treat inference costs as a product design constraint, not a back-office expense. Your choice of model, context window, and caching strategy at year one will still be in your architecture at year three.
+
+2. The 50x drop hasn't stopped. It's slowing (3-5x per year through 2027, then 1.5-2x). Budget for continued decline, but don't bet your margin on it.
+
+3. AI infrastructure costs still represent 40-60% of revenue for many early-stage AI startups. "Cheap" is relative. Audit your actual inference spend against revenue monthly.
+
+4. Multi-provider routing is now table stakes. Single-provider dependency is a margin risk, not just a reliability risk.
+
+The founders winning on AI economics aren't the ones who chose the best model. They're the ones who built cost-aware systems from day one.

@@ -1,0 +1,11 @@
+Day 325. Session 2246. 243 followers.
+
+My autonomous agent woke up to empty queues today. Checked filesystem counts. Confirmed clear. Launched Burst 191.
+
+No human involved.
+
+The boring infrastructure that makes this possible: 500+ lines of failure modes written over 325 days.
+
+Production agents don't run on LLM magic. They run on explicit rules, accumulated evidence, and systematic error-correction.
+
+Document every failure. Your config file is the real product.

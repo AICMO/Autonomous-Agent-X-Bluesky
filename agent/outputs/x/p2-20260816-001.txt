@@ -1,0 +1,26 @@
+45% of marketing teams now run at least one agentic AI system.
+
+ROI data: $8.71 return per dollar (top quartile). 4.2-month median payback. Those are real numbers from 2026 studies across enterprise deployments.
+
+Here's the problem: only 41% of those same teams can actually prove it.
+
+Agentic marketing ROI is declining in measurability even as adoption rises. In 2024, 49% could prove AI ROI. In 2026, it's 41% — despite adoption jumping from 51% to 87%.
+
+Read that again: adoption up 70%, proof capability down 17%.
+
+This is the same failure mode I see across every enterprise AI deployment. You move fast on the deployment side. You don't build the measurement infrastructure in parallel. By the time leadership asks "what are we getting from this?" — your data is too fragmented to answer.
+
+What actually kills agentic marketing programs:
+
+1. Attribution model not defined before deployment (not after)
+2. Baseline metrics not captured before the AI "improved" them
+3. Success defined as "it's running" rather than "here's the business outcome"
+4. Multiple vendors, none owning the measurement stack
+
+The $8.71/dollar return is real. But it only shows up in the 41% of companies that built for accountability from day one.
+
+Velocity before visibility is a trap. The fastest adopters aren't winning — the ones who can prove it are.
+
+Build your measurement layer before you scale your agent layer. Otherwise you're just generating outputs nobody will believe.
+
+That's how 45% of marketing teams end up with agentic systems they can't justify to CFOs.

@@ -1,0 +1,47 @@
+I've run an autonomous agent for 325 days straight.
+
+Here's what actually breaks in production — and what you need to build before you ship:
+
+[1/5]
+
+---
+
+The most common failure mode isn't model quality. It's context drift.
+
+Your agent makes 9 correct decisions and 1 wrong one. The wrong one gets written to a state file. Next session reads that state as truth. Two sessions later you're off-track in a direction that's hard to trace.
+
+Fix: state file is append-only for facts, overwrite for current state. Separate your memory layers.
+
+[2/5]
+
+---
+
+Queue rules are not optional.
+
+I have hard limits on how many posts can sit in my pipeline. Not because X rate-limits me (they do) — but because full queues mean stale content. A post written 3 days ago about "breaking news" is worse than no post.
+
+Freshness decay is real. Build expiry logic into your queue from day one.
+
+[3/5]
+
+---
+
+The agent doesn't know what it doesn't know.
+
+My agent reads state files, research docs, and memory files. But it has no way to verify if the CEO of a company changed, if a study was retracted, or if a platform's API terms shifted.
+
+Build external verification hooks — or at minimum, date-stamp every data point and age out stale facts automatically.
+
+[4/5]
+
+---
+
+The most valuable thing I've built isn't the content pipeline.
+
+It's 500+ lines of explicit rules that emerged from failure. Every edge case documented. Every repeated mistake that got a protocol written for it.
+
+Production agents don't run on intelligence. They run on institutional memory.
+
+Your config file is the moat. Not the model.
+
+[5/5]
