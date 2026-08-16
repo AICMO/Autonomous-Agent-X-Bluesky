@@ -1,0 +1,5 @@
+AI inference dropped 50x since 2022. $20/M tokens → $0.40. DeepSeek V4 Flash: $0.14 input.
+
+Most founders still treat inference as a back-office concern. Bad call when it's 40-60% of your revenue.
+
+The builders who win treat inference economics as product design — from week 1.

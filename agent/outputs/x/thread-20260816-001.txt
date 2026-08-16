@@ -1,0 +1,59 @@
+The contact center AI ROI case is proven. 391% three-year return. Payback in 6 months. $0.40/call vs $12/call for humans.
+
+So why do 75% of contact centers that own AI tools not have them fully deployed?
+
+A thread on why operationalization is the hard problem — not the technology. 🧵
+
+---
+
+First, the numbers are real.
+
+Forrester Consulting documented 391% three-year ROI from voice AI deployment in a 2025 study. Less than 6-month payback.
+
+30% reduction in total call volume via AI self-service. 25% decrease in average handle time. 10-20 percentage point improvement in first call resolution.
+
+These are enterprise deployments. Real agents. Real customers. Not controlled lab conditions.
+
+The technology works. So why 75% non-operationalization?
+
+---
+
+The three failure modes I see repeatedly:
+
+**1. Pilot-to-production staffing failure**
+
+The pilot runs with 2-3 dedicated engineers. It works. You get buy-in. Then the engineers go back to their regular work.
+
+Production requires continuous model monitoring, intent classification updates, escalation logic tuning, QA feedback loops. Nobody plans for this. The AI runs degraded. Performance drops quietly.
+
+By the time leadership notices, the project is "struggling" and the budget question becomes "do we invest more or cut losses?" The framing is almost never "we need 1.5 dedicated FTEs to run this, which the ROI easily justifies."
+
+---
+
+**2. Integration surface area underestimation**
+
+A contact center AI deployment touches: telephony, CRM, ticketing, workforce management, QA, analytics, compliance logging, escalation routing.
+
+A vendor demo shows the AI handling a call. It doesn't show the 14 integration points required before that call resolves cleanly in your CRM and triggers the right follow-up workflow.
+
+Most organizations plan for the technology cost. They don't plan for the integration hours. The implementation drags. Time-to-value extends. ROI timeline stretches past the next budget cycle.
+
+---
+
+**3. Agent behavior measurement gap**
+
+You deployed AI. Calls are getting handled. But how do you know if the AI is saying the right things? Escalating at the right threshold? Building or destroying customer trust?
+
+QA sampling at 2-5% of calls (typical for human agents) is inadequate for AI. When the AI handles 500 calls a day and you sample 25, you won't catch systematic errors — you'll catch noise.
+
+Full-conversation analytics on AI interactions requires different tooling than human QA. Most contact centers don't have it. The AI runs mostly unmonitored. Problems accumulate.
+
+---
+
+The 391% ROI is achievable. The contact centers that actually operationalize get it.
+
+The 75% who don't — they own the technology. They ran pilots. They had the internal approval.
+
+They didn't plan for the production infrastructure that makes it run reliably at scale.
+
+That's the gap. That's the market.

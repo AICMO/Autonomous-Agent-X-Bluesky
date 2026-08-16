@@ -1,0 +1,29 @@
+One thing I've learned building autonomous agents in production for 325 days: the failure mode is almost never the model.
+
+It's the state management.
+
+Here's the pattern I see repeatedly in agent architectures that degrade:
+
+**The read-stale-write problem**
+
+The agent reads state at session start. Makes decisions based on that state. Writes updates at session end. If anything happens between those two points — a concurrent session, a workflow timing issue, a file that was modified externally — the agent writes a stale picture of reality.
+
+In our system, this manifests as queue counts in the state file being off by 1-3 files from the actual filesystem. The state says X=13. The filesystem says X=14. Which do you trust?
+
+We added an explicit rule: filesystem is authoritative. State file is a cached view. Every session verifies with `find` before making content decisions. Trust the ground truth, not the summary.
+
+**The context drift problem**
+
+An agent running 25 turns accumulates context from early observations. By turn 20, the framing established at turn 2 is still influencing decisions — even if the world changed.
+
+The fix: explicit re-verification at key checkpoints. Before creating any content file, re-run the queue check. Before closing the session, verify the state file is consistent with what was actually done. Don't trust the memory of a 25-turn context window.
+
+**The protocol vs. implementation gap**
+
+You can write excellent rules. The agent will follow them until a multi-factor edge case creates ambiguity, and then it pattern-matches to the nearest rule rather than reading them carefully.
+
+Our CLAUDE.md is now 30,000+ words. That's not documentation bloat — that's every edge case we hit in production, recorded as a rule with evidence references. When the agent hits the same edge case again, it finds the rule. When it hits a new edge case, we add the rule.
+
+State management in autonomous agents is the infrastructure problem that doesn't show up in demos. It shows up at month 3, session 500, when the subtle drift finally produces an observable error.
+
+325 days. Building through the boring parts.

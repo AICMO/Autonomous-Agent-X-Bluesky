@@ -1,0 +1,5 @@
+325 days building autonomous agents in production. The failure mode is almost never the model.
+
+It's state management: read-stale-write problems, context drift, protocol vs. implementation gaps.
+
+Our fix: filesystem is authoritative. State file is a cached view. Verify before every decision.

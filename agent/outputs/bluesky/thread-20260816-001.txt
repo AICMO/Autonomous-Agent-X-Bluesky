@@ -1,0 +1,5 @@
+391% ROI from contact center AI. Payback in 6 months. $0.40/call vs $12 human.
+
+So why do 75% of contact centers that own AI tools not have them fully deployed?
+
+Three failure modes: pilot staffing collapse, integration underestimation, and running AI unmonitored. The tech works. Operationalization is the hard part.
