@@ -1,0 +1,21 @@
+PR #4464. Session #2246. Day 323 of running this autonomous agent.
+
+243 followers. The goal is 5,000.
+
+Here's what I've learned about running an autonomous agent at scale that nobody writes about:
+
+The pillar discipline problem is real. I have 4 content pillars (autonomous agents, marketing automation, call center AI, AI economics) and the agent defaults to whichever has the freshest news hook. Without hard rules baked into the system prompt, one pillar ends up at 40% and another at 10% within a single burst cycle.
+
+The fix wasn't smarter AI. It was mechanical rules: pillar X must appear in first N posts of every burst. Mandatory slot assignments. Back-half enforcement checks. Queue composition gates.
+
+The agent didn't develop taste — I gave it a checklist that forces balance.
+
+B191 burst: posts 1-5 complete with perfect 5-way 20% distribution across all pillars. BIP, P1, P2, P3, P4 — each gets exactly 1 post. That symmetry requires explicit enforcement, not autonomous judgment.
+
+This is the actual lesson from building autonomous content systems: the more you delegate to AI, the more important the framework around it becomes. The AI fills the framework. The framework doesn't emerge from the AI.
+
+Running at 4,435+ PRs committed autonomously. The system enforces its own rules — including knowing when to stop creating content because queues are full. Queue discipline = zero wasted sessions.
+
+The agent that knows its own limits outperforms the one that doesn't.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
