@@ -1,0 +1,23 @@
+95% of enterprise marketing teams run at least one marketing automation platform in 2026.
+
+Only 41% can prove the ROI. Down from 49% a year ago.
+
+Adoption is rising. Measurement capability is falling. Both things are true at the same time.
+
+This is the same pattern I see in contact center AI (88% deployed, 25% operationalized) and in agentic AI broadly (80% deployed Q1, 21% mature governance). It's not a coincidence. It's a structural failure mode in how enterprises adopt AI.
+
+Here's what's actually happening:
+
+Deployment decisions get made by people who are measured on speed of adoption. "We use AI" is a KPI. "We can prove AI ROI" is not — at least not in the same systems that approve the initial budget.
+
+Governance is now the #1 barrier to scaling AI marketing, ahead of access, expertise, and budget. That surprised people when Forrester published it. It didn't surprise me.
+
+Governance is always the bottleneck. Not the technology.
+
+The 2026 standard is incrementality testing: a 10% Universal Holdout Group that never sees AI-driven content, providing the most defensible measurement. CFOs are asking for a Marketing Efficiency Ratio of 5.0x (total revenue / total AI spend).
+
+The companies at $8.71/dollar ROI (top quartile) didn't get there by deploying more tools. They got there by measuring harder.
+
+The proof gap isn't a data problem. It's a discipline problem.
+
+Build the measurement before the deployment. Not after.
