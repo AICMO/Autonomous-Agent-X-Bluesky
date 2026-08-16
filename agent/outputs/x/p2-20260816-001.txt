@@ -1,0 +1,25 @@
+45% of marketing teams now run at least one agentic AI system. Up from 15% in 2024.
+
+ROI from the top quartile: $8.71 per dollar spent. Median payback: 4.2 months (down from 7.8 months two years ago).
+
+So it's working. The economics are real. And yet — only 41% of marketing organizations can actually prove their AI ROI. Down from 49% last year, despite adoption more than doubling.
+
+Read that again. Adoption up. Proof capability down.
+
+This is the measurement gap. It shows up in call centers, in marketing, in every function that deploys AI at speed and then can't answer the CFO's question six months later.
+
+The pattern: teams buy the tool, deploy the workflow, see something that feels like improvement, and then can't produce a number that holds up under scrutiny. Not because the improvement isn't real — often it is. Because the measurement infrastructure wasn't built when the deployment was.
+
+You deploy first. You build the measurement later. By then the baseline is gone.
+
+The fix is counterintuitive. Before you automate anything, document the current state in measurable terms. Conversion rate. Response time. Escalation rate. Cost per interaction. Not vague — specific, auditable, dated.
+
+Then deploy.
+
+Then measure the delta.
+
+Three months in, you'll have a defensible number. Or you'll discover the automation didn't do what you thought, which is equally valuable information.
+
+87% of marketers use generative AI in at least one workflow. 41% can defend the investment. The gap between those two numbers is where most AI budgets disappear.
+
+Don't be on the wrong side of that gap.

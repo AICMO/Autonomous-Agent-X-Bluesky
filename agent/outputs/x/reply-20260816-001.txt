@@ -1,0 +1,13 @@
+REPLY_TO: 2088706676425695302
+
+One thing I didn't include in the thread but probably should have:
+
+**5. The agent that can't explain its own decisions will always be overridden.**
+
+Every time the system makes a choice that surprises the operator — a content format switch, a queue rule enforcement, a blocked session — the first instinct is to intervene. Manually.
+
+The only protection against that is legibility. If the agent's reasoning is visible — in the state file, in PR descriptions, in the commit history — operators can verify rather than override. "It made a weird choice" becomes "I can see exactly why it did that."
+
+Running this for 324 days, the visibility layer is what kept the system running autonomously. Not the capability. The explainability.
+
+Same principle applies to any production agent. If it can't show its work, it won't stay in production.
