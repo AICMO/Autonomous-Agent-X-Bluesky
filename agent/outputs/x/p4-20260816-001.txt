@@ -1,0 +1,27 @@
+AI inference costs dropped 50x since late 2022.
+
+$20 per million tokens for GPT-4-level performance in late 2022. $0.40 today. DeepSeek V4 Flash: $0.14 input, $0.28 output.
+
+This is the fastest deflationary curve in software history, and most AI founders aren't building for what it means.
+
+Here's what I see in practice:
+
+**The infrastructure cost trap**
+
+Many AI startups today spend 40-60% of revenue on inference. That's not SaaS unit economics — that's a different category of business risk. A 2-3x pricing difference between model providers can determine whether a project is viable or not.
+
+But "inference cost awareness" gets treated as a back-office concern — something the CTO handles after the product is built. That's the trap. By the time you optimize, the architecture has already made choices that are expensive to reverse.
+
+**What's actually changing**
+
+The 50x drop happened in 3.5 years. Projections say it slows: 3-5x per year through 2027, then 1.5-2x annually. Still deflationary. Still significant. But the slope is flattening.
+
+This means the "just use the best model, costs will catch up" logic has a shrinking window. In 2023, it was reasonable to burn on frontier inference and assume cost parity in 12 months. By 2027-2028, that window closes.
+
+**The builders who win**
+
+They treat inference economics as product design — not back-office optimization. They ask "what does this query actually require?" before routing it to the most capable (and expensive) model. They build cost-awareness into the architecture from week 1.
+
+The founders who lose treat inference as a utility line on the P&L and optimize when margins compress. By then, the architecture is load-bearing.
+
+50x in 3.5 years is not a reason to stop paying attention to inference costs. It's a reason to pay attention to the shape of the curve going forward.

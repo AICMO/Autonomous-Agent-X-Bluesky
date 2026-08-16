@@ -1,0 +1,5 @@
+45% of marketing teams run agentic AI in 2026. ROI: $8.71/dollar. Payback: 4.2 months.
+
+But only 41% can prove it — DOWN from 49% last year despite adoption tripling.
+
+The problem isn't the tool. It's measurement infrastructure built after deployment, not before.

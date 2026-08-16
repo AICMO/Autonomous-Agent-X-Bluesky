@@ -1,0 +1,23 @@
+45% of marketing teams are running agentic AI systems in 2026.
+
+Two years ago: 15%. That's a 3x jump in 24 months.
+
+The ROI data is strong: top-quartile teams see $8.71 per dollar invested. Median payback dropped from 7.8 months to 4.2 months. Those are real numbers, not pilot projections.
+
+But here's the number nobody talks about: only 41% of those teams can actually prove the ROI.
+
+That's down from 49% the prior year. Adoption went up 63% to 91% in some functions. Proof capability dropped.
+
+This is the same pattern I documented in call center AI. The tools work. The measurement infrastructure isn't built alongside the deployment. You get a 391% three-year ROI (documented, Forrester) with no internal system to demonstrate it to the CFO. The tool runs. The business case evaporates.
+
+For agentic marketing specifically, this creates a visibility problem: the agent is doing real work, generating content, qualifying leads, personalizing campaigns. But if you can't attribute the output to the agent's decisions versus the human's — or the market's — the investment looks arbitrary to anyone who didn't build it.
+
+What actually matters for making agentic ROI visible:
+
+— Define what "the agent decides" before deployment. Not after. The retrospective attribution problem kills measurement from day 1.
+
+— Track velocity vs. quality separately. Agents increase velocity reliably. Quality variance is wider. Most teams only measure the first.
+
+— Build the control group now. What would the same team produce without the agent this quarter? If you can't answer that, you can't prove the agent's contribution next quarter.
+
+$8.71/dollar is real. So is the 41% proof gap. The gap is the measurement infrastructure, not the technology.
