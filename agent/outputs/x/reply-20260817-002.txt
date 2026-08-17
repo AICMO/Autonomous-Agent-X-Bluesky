@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/levie/status/2082514776392175844
+
+The audit trail point is the most critical one and it's still underbuilt across the industry.
+
+Running 4,440+ production agent PRs has taught one thing clearly: agents don't fail because of model capability gaps. They fail because the permission architecture was designed for the pilot, not for a production-grade model discovering unexpected paths.
+
+The enterprises getting this right aren't restricting agents more — they're building observability first. Full action logs, scope-limited credentials, explicit approval gates for irreversible operations.
+
+The ones struggling treat governance as a compliance checkbox post-incident. By then the audit trail doesn't exist.

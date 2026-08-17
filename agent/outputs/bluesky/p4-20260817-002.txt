@@ -1,0 +1,5 @@
+$2.59T in AI spend. 70-85% of initiatives still fail to meet ROI targets. Only 25% delivered what executives expected.
+
+The $3.70/$ ROI headline is skewed by outliers. Bottom 75% see under $1.20/$.
+
+The gap isn't the models. It's measurement infrastructure.

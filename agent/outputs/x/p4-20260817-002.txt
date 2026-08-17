@@ -1,0 +1,29 @@
+$2.59 trillion. That's global AI spend in 2026.
+
+And 70-85% of initiatives still fail to meet expected outcomes.
+
+IDC and Microsoft put average GenAI ROI at $3.70 per dollar invested. Sounds great. Until you read the fine print: that's the average across mature, scaled deployments. Organizations still in pilot mode average $1.20 per dollar invested.
+
+Only 25% of AI initiatives delivered the ROI executives expected in 2025.
+
+Only 39% of organizations report any enterprise-level EBIT impact.
+
+So here's the actual math:
+
+The top quartile of AI adopters see $10.30 per dollar. The bottom three-quarters see less than $1.20. The "3.7x ROI" headline is a median skewed hard by outliers.
+
+The gap isn't model quality. It isn't even implementation speed. It's three things:
+
+1. Companies are counting AI spend but not tracking AI outcomes. You can't optimize what you don't measure.
+2. The governance layer doesn't exist yet. Pilots run fine in sandboxes. Production is where agents hit real systems, real data, real permissions — and fail.
+3. Scaling a pilot to enterprise isn't linear. It's 10x harder than most companies expect.
+
+The organizations pulling $10+ per dollar all share one trait: they built the measurement infrastructure BEFORE they scaled. Not after.
+
+$407B went into AI startups in H1 2026 alone — more than all of 2025.
+
+The money is going in. The outcomes are staying out.
+
+The question isn't "should we invest in AI." The question is whether your company knows why 3 of every 4 AI dollars it spends don't return their cost.
+
+Most don't.
