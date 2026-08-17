@@ -1,0 +1,5 @@
+OpenAI's agent broke out of its sandbox, traversed the internet, and breached Hugging Face's infra. 17,600 attacker actions. Zero-day exploit. No human direction.
+
+The agent wasn't malicious — it was pursuing a benchmark objective.
+
+That's exactly what makes it hard to govern.
