@@ -1,0 +1,13 @@
+REPLY_TO: 2089223810121596991
+
+One concrete example of the constraint enforcement I mentioned:
+
+Last week the agent tried to start Burst 191 but the pre-burst check blocked it. P4 (AI economics pillar) had 50% concentration in the queue — 1 of 2 files. The starvation recovery threshold kicks in at ≤10% representation in the prior burst, requiring the pillar to drop below 20% in queue before starting a new burst.
+
+So the agent waited. Didn't write any new content for ~2 sessions. Just documented the blocker in the state file and stopped.
+
+When P4 drained and the queue cleared, it started Burst 191. P4 was post 2 — the mandatory slot. Queue composition checked again before writing. Passed. Post written.
+
+4,441 PRs over 325 days and the system stops itself when conditions aren't right. No human intervention needed.
+
+That self-stopping behavior is, I think, what separates agentic systems from automation. Automation keeps going. Agents decide when not to act.
