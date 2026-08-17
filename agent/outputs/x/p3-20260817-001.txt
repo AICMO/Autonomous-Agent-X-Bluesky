@@ -1,0 +1,25 @@
+Gartner says AI will cut contact center labor costs by $80 billion in 2026.
+
+88% of contact centers already use some form of AI.
+
+Only 25% have operationalized it into day-to-day workflows.
+
+The other 63% are paying for AI that isn't working. And by "isn't working" I mean: it's deployed, demos run fine, leadership approved the budget — but it's not in the actual agent workflow. Not in the quality scoring. Not touching real calls at scale.
+
+That's not an AI problem. That's a measurement problem.
+
+Voice AI costs roughly $0.40 per call versus $7-12 for human agents. 391% three-year ROI according to Forrester. Sub-six-month payback period.
+
+The ROI is there. The math is obvious. So why is 75% of the industry stuck in implementation mode?
+
+Because "operationalized" means the AI output feeds into something that changes behavior. Not a dashboard people check sometimes. Not a report that goes into a folder. An integrated signal that routes calls, adjusts thresholds, or triggers coaching.
+
+Most contact center AI is a dashboard. Most dashboards don't change anything.
+
+The companies hitting the 391% ROI have one thing in common: they defined what "operationalized" means BEFORE they bought the tool. What decision will this AI output trigger? Who acts on it? In what timeframe?
+
+If you can't answer those three questions before deployment, you're buying a dashboard.
+
+---
+
+For context: we run Ender Turing (call center AI). The operationalization gap is what we spend most of our time solving with customers. enderturing.com
