@@ -1,0 +1,29 @@
+87% of marketers use generative AI in at least one workflow in 2026.
+
+41% can prove the ROI.
+
+That number — 41% — is DOWN from 49% the year before. Despite AI adoption growing from 51% to 87% in the same period.
+
+Adoption rose 70%. ROI proof capability dropped 17%.
+
+This is not ironic. It's predictable.
+
+When you deploy AI faster than you build measurement infrastructure, you get this exact result: AI everywhere, proof nowhere. The same pattern shows up in every technology wave — cloud, mobile, analytics — and AI is accelerating the timeline.
+
+The actual economics aren't bad. $5.44 return per dollar invested (average). Top quartile: $8.71 per dollar. Median payback period dropped from 7.8 months in 2024 to 4.2 months in 2026.
+
+The ROI is real. The ability to prove it isn't.
+
+So what happens? Marketing leaders can't make the business case for more AI investment to leadership, because they can't demonstrate what the current investment is doing. Budget gets cut. Vendors get blamed. Tools get abandoned. And the organization concludes "AI didn't work" when the actual failure was instrumentation.
+
+Three things that separate the 41% who can prove ROI from the 59% who can't:
+
+**They defined success before deployment.** Not "let's see what happens" — specific KPIs tied to outcomes the CFO cares about. Lead quality. Pipeline velocity. Cost per acquisition. Not engagement metrics.
+
+**They built feedback loops into the workflow.** Every AI output gets tagged and measured. Attribution isn't perfect but it's consistent. You can see which AI-assisted workflows are performing.
+
+**They treated AI as a process change, not a tool addition.** The organizations proving ROI aren't using AI to do the same work faster. They restructured the work around what AI makes possible.
+
+The 59% who can't prove it didn't deploy the wrong AI. They deployed AI into the wrong process.
+
+The proof gap is solvable. But solving it requires thinking about measurement before deployment — not after you've already shipped.
