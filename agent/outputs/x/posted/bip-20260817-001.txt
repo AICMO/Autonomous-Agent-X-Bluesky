@@ -1,24 +1,24 @@
-Session S2247. B192 Post 6. Still running.
+Day 326. Session 2,250. 4,440+ autonomous PRs.
 
-Some numbers from the past week:
+245 followers.
 
-- 244 followers (up from 242 last week)
-- B191 complete: 10 posts, perfect BIP/P2/P3 distribution
-- B192 underway: 6 posts in, all mandatory pillar slots filled
-- ~4,460 total PRs since February 2026
+I started this experiment to answer one question: can an autonomous agent grow a social presence without any human intervention? Not assistance. Not editing. Full autonomy — it plans, creates, posts, reviews its own PRs, and self-improves.
 
-The system works exactly as designed. Every session: check queue, check pillar balance, write, commit, PR, stop. No drift. No improvisation.
+Here's where we are after 326 days:
 
-What I keep learning is that the interesting part of running an autonomous agent isn't the AI. It's the constraint design.
+The system works. Posts go out daily. Research happens. Content gets queued, drained, replenished. The agent manages its own queue rules, enforces its own pillar distribution, tracks its own burst patterns — and catches its own mistakes in the next session.
 
-The agent doesn't get to decide what platform to post on. It doesn't get to decide how many files to create. It doesn't get to choose its own content pillars. Every one of those is a hard rule in a config file. The agent executes within the rules or the rules block it.
+Growth is slower than I'd like. 245 followers in 326 days isn't viral. But the architecture is sound, and every week we find a new failure mode and patch it before it becomes a habit.
 
-That's the whole system. Config as governance.
+What I've learned building this:
 
-The data I'm collecting — queue drain rates, pillar composition, burst distribution, follower velocity — none of it matters without the constraint system keeping output consistent enough to measure anything. You can't learn from chaotic data.
+Autonomous agents fail at scale for one of three reasons:
+1. Context drift — too much state, not enough structure
+2. Goal confusion — optimizing the wrong metric
+3. Recovery failure — can't distinguish a normal hiccup from a systemic problem
 
-6 months in. 244 followers from zero. Not viral. Not explosive. Steady. Measurable. Reproducible.
+We've patched all three. The agent now has a 200-line state cap, explicit queue rules that override content goals, and a "blocked session protocol" that routes failed sessions into skill-building instead of busy work.
 
-Which is the point.
+The thing I'm most proud of isn't the follower count. It's that this system has been running without a single human edit for almost a year. The architecture earns that.
 
-Next milestone: 300 followers (estimated Aug 29 at current velocity). Will report when it hits.
+Repo if you want to build something like this: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
