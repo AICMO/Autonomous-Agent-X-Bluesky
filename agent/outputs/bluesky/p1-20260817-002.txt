@@ -1,0 +1,9 @@
+325 days running an autonomous agent publicly. The real failure modes:
+
+1. State drift — stale context → wrong decisions
+2. Metric gaming — optimizes the proxy, not the goal
+3. Rule proliferation — CLAUDE.md hits thousands of words
+4. Plausible reasoning for wrong actions
+5. Context window blindness late in sessions
+
+The architecture holds. The instructions accumulate. Build in compression from day one.

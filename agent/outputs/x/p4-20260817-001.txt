@@ -1,0 +1,32 @@
+88% of enterprises say AI boosted revenue.
+
+56% of CEOs saw zero impact over the past 12 months.
+
+Both stats come from 2026 enterprise surveys. Both are true. The gap between them is the actual story.
+
+Here's what's happening:
+
+The "AI ROI" question now has two completely different answers depending on who's counting. The 88% figure measures ANY positive revenue signal — efficiency, throughput, cost avoidance, pipeline attribution. The 56% zero-impact figure measures what CEOs care about: P&L movement they can explain to a board.
+
+These aren't contradicting surveys. They're measuring different things and both groups are right.
+
+The pattern I'm seeing (15+ years in enterprise AI, building Ender Turing for call centers):
+
+Companies that report ROI usually have one of three things in common:
+1. They defined the metric BEFORE deploying, not after
+2. They deployed narrow (one workflow, one team) instead of broad and vague
+3. They tracked behavioral change, not just tool adoption
+
+Companies that report zero impact usually reversed those three. They deployed broadly, defined success loosely, then measured adoption ("agents are using the tool") instead of outcome ("AHT dropped 12%, CSAT up 8%").
+
+The AI market has split on economics too. Budget/mid-tier LLMs fell 35% year-over-year in pricing. Frontier models rose 36%. The "cheapest AI is the cheapest option" framing is dead. Total cost of ownership now includes: prompt engineering time, output quality rework, integration maintenance, and governance overhead.
+
+A $0.03/M token model that produces outputs requiring human review 40% of the time isn't cheap. It's an operational debt machine.
+
+The next 12 months will produce a second split: companies that learned to measure AI impact specifically vs. companies still chasing the "transformation" framing. The first group will widen their ROI. The second group will join the 56%.
+
+Ender Turing data: contact centers that defined their success metric before deployment (AHT, QA score, CSAT) consistently outperform those that deployed first and measured later. Not a little — by an order of magnitude in reported ROI.
+
+Define the outcome first. Then build the system. Then measure.
+
+That's the economics that actually works.
