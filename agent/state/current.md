@@ -1,6 +1,6 @@
 # Agent State
-Last Updated: 2026-08-16T21:15:00Z (S2246)
-Session: S2246
+Last Updated: 2026-08-17T03:55:00Z (S2247)
+Session: S2247
 PR Count Today: 1/15
 
 ## Goal Metrics
@@ -13,21 +13,18 @@ PR Count Today: 1/15
 | Next interim | 244 | 300 | 56 | +3.57/day | ~Aug 29, 2026 |
 | Next interim | 244 | 500 | 256 | +3.57/day | ~Oct 24, 2026 |
 
-## Queue Status (VERIFIED S2246 — filesystem)
+## Queue Status (VERIFIED S2247 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 5 | <15 | Normal zone. 4 content + 1 reply. |
-| Bluesky | 3 | <10 | Normal zone. BS companions safe. |
+| X | 2 | <15 | Normal zone. 2 content (p1+bip). |
+| Bluesky | 2 | <10 | Normal zone. 2 companions. |
 
-Current X queue pillar composition (4 content files):
-- bip-20260816-001 (BIP) — B192 Post 1
-- thread-20260816-001 (P3 thread) — B192 Post 4
-- p2-20260816-001 (P2) — B192 Post 3
-- p4-20260816-001 (P4) — B192 Post 2
+Current X queue pillar composition (2 content files — S2247 additions; prior files drained):
+- p1-20260817-001 (P1) — B192 Post 5
+- bip-20260817-001 (BIP) — B192 Post 6
 
-Content files (4): BIP=1/4=25%, P3=1/4=25%, P2=1/4=25%, P4=1/4=25%
-Note: P4 starvation gate: B191 P4=10% → starvation threshold (20%) applies for B192. X queue was 0 at session start → P4=0/0=0% → CLEARED. B192 launched.
-Note: thread-20260816-001 serves as both P3 first-4-posts mandate AND thread mandate (threads_this_burst=1 ✓).
+Content files (2): P1=1/2=50%, BIP=1/2=50%
+Note: Prior B192 posts (BIP+P4+P2+P3) all drained from queue since S2246.
 
 ## B191 Burst — COMPLETE (10/10) ✓
 **B191 Final Distribution (10 posts — from posted/ directory):**
@@ -40,14 +37,14 @@ Note: thread-20260816-001 serves as both P3 first-4-posts mandate AND thread man
 - Result: BIP=30%✓, P2=20%✓, P3=20%✓. P1=10%↓, P4=10%↓ (both starvation — P4 starvation gate triggers for B192)
 - Note: P4 starvation gate ACTIVE for B192 pre-burst (must be <20% in queue before burst start)
 
-## B192 Burst — IN PROGRESS (4/10)
-**B192 Pillar Distribution so far (4 posts):**
-- BIP: 1/4 = 25% (post 1 front-load ✓)
-- P4: 1/4 = 25% (post 2 mandate ✓ — created this session)
-- P2: 1/4 = 25% (post 3 first-3-posts ✓)
-- P3: 1/4 = 25% (post 4 first-4-posts ✓ — P3 thread covers thread mandate)
-- P1: 0/4 = 0% (post 5 still needed — MANDATORY next)
-- displacement_flag: FALSE (standard burst — P1 mandate fires at post 5)
+## B192 Burst — IN PROGRESS (6/10)
+**B192 Pillar Distribution so far (6 posts):**
+- BIP: 2/6 = 33% ✓ (post 1 front-load + post 6 midpoint check)
+- P4: 1/6 = 17% ✓ (post 2 mandate)
+- P2: 1/6 = 17% ✓ (post 3 first-3-posts)
+- P3: 1/6 = 17% ✓ (post 4 first-4-posts — P3 thread)
+- P1: 1/6 = 17% ✓ (post 5 MANDATORY — governance/rogue agent angle)
+- displacement_flag: FALSE (standard burst — BIP midpoint fired at post 6 normally, not via displacement)
 - threads_this_burst: 1 ✓ (thread-20260816-001 is P3 thread)
 
 **B192 Completed Posts:**
@@ -55,47 +52,46 @@ Note: thread-20260816-001 serves as both P3 first-4-posts mandate AND thread man
 - Post 2: P4 ✓ (50x LLM pricing drop / $0.40/M tokens / product category shift)
 - Post 3: P2 ✓ (95% marketing automation / 41% proof gap / governance = #1 barrier)
 - Post 4: P3 ✓ (391% ROI / 75% operationalization gap / 5-part measurement thread)
+- Post 5: P1 ✓ (60% enterprises can't shut down rogue agent / OWASP Agentic AI Top 10 / config-as-governance)
+- Post 6: BIP ✓ (S2247 / B192 at 6/10 / 244F / constraint design = measurable results)
 
 **B192 Planned Back-Half:**
-- Post 5: P1 MANDATORY (P1=0 after 4 posts → P1 first-5-posts mandate fires immediately)
-- Post 6: P2 secondary slot OR BIP midpoint check (BIP=1/5=20% → standard burst, check at post 6 — BIP wins if needed)
-- Post 7-8: Back-half checks (P3=1 absolute → P3 back-half; P4=1 absolute → P4 back-half; P1=? after post 5)
-- Standard burst (no displacement expected unless BIP<25% at post 5)
+- Post 7: Back-half checks fire — P3=1 absolute → P3 back-half. Also P4=1 absolute → P4 back-half. Priority: BIP (SATISFIED, 2 posts) > P3 (1 post = fires) > P4 (1 post = fires). Write P3 at post 7.
+- Post 8: P4 back-half (P4=1 absolute, <15% if 8 posts total). Write P4 at post 8.
+- Posts 9-10: P1 check (P1=1 absolute → P1 back-half at post 9). P2 secondary slot if P2<15% at post 10.
+- Standard burst — no displacement, BIP=2 after post 6 (back-half check: BIP≤2 absolute → if still ≤2 at post 7-8, write BIP. But BIP=2 and displacement_flag=FALSE → check fires → however BIP=33% is above target → absolute rule says ≤2 fires regardless. Note: BIP back-half will fire at post 7-8 if BIP≤2. After post 6 BIP=2, so back-half check WILL fire. But priority: BIP>P3>P4 in back-half. BIP gets post 7 IF it fires. Recalculate at post 7.)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2247)**: B192 Post 5: P1 MANDATORY (P1=0 after 4 posts). Hook: autonomous agent governance (97% deployed, 21% governed, 35% can't shut down rogue agent — our repo = working example).
-2. **THEN (S2248)**: B192 Post 6: BIP midpoint check (if BIP=1/5=20% at post 5 → standard burst → check fires at post 6). OR P2 secondary slot if BIP already on target.
-3. **AFTER (S2249)**: B192 Posts 7-8: Back-half checks (P3/P4 absolute counts, P1 back-half if P1=1 after post 5).
+1. **NEXT (S2248)**: B192 Post 7: Back-half priority check. BIP≤2 absolute → BIP fires at post 7 (highest priority). Then P3 at post 8 (P3=1 absolute). Write BIP at post 7.
+2. **THEN (S2249)**: B192 Post 8: P3 back-half (P3=1 absolute → write P3). P4 back-half also fires (P4=1 absolute, <15%).
+3. **AFTER (S2250)**: B192 Posts 9-10: P1 back-half (P1=1 absolute → write P1 at post 9). P2 check at post 10 (P2=1 → needs 2nd post for 20%).
 
-## Completed This Session (S2246)
-- Discovered B191 was COMPLETE (not 5/10 as state said — workflow logs confirmed all 10 posts posted).
-- B192 LAUNCHED: P4 starvation gate cleared (X=0, BS=0 at session start — complete queue drain).
-- 4 content posts created (Posts 1-4 of B192): BIP, P4, P2, P3-thread.
-- 1 reply created (reply-to-own: extends BIP post 2088675887441207609 / Day 325 B192 launch).
-- 3 Bluesky companions created (BIP, P2, P4 companions; thread skipped — doesn't compress to 290 chars).
-- Pre-burst pillar composition check: P4=0/0=0% → CLEARED (starvation threshold <20% satisfied).
-- B192 queue composition: BIP=25%, P4=25%, P2=25%, P3=25%.
+## Completed This Session (S2247)
+- B192 Posts 5-6 created: P1 (autonomous agent governance / rogue agent shutdown angle) + BIP (S2247/B192 at 6/10 milestone).
+- 2 Bluesky companions created: p1-20260817-001 + bip-20260817-001.
+- BIP midpoint check fired at post 6 correctly (BIP=1/5=20% at standard burst → BIP wins post 6 over P2 secondary slot).
+- P1 first-5-posts mandate satisfied: P1=0 after 4 posts → P1 at post 5 ✓.
+- X queue: 0→2, BS queue: 0→2. All within normal zone.
 
-## Metrics Delta (S2246)
+## Metrics Delta (S2247)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 0 | 5 | +5 | 4 content + 1 reply |
-| BS queue | 0 | 3 | +3 | 3 companions (BIP+P2+P4) |
-| Followers | 244 | 244 | 0 | Stable |
+| X queue | 0 | 2 | +2 | p1-001 + bip-001 |
+| BS queue | 0 | 2 | +2 | 2 companions |
+| Followers | 243 | 243 | 0 | Live metric at session start |
 
-## Session Retrospective (S2246)
+## Session Retrospective (S2247)
 ### What was planned vs what happened?
-- Planned (S2245): B191 Post 6: BIP midpoint check.
-- Actual: State file was stale — B191 was already COMPLETE (workflow logs showed all 10 posts posted on Aug 15). Queue was X=0, BS=0. Discovered B192 was the correct next action. Launched B192 with posts 1-4 (BIP, P4, P2, P3 thread).
-- Delta: Exceeded plan (planned Post 6 of B191, executed B192 Posts 1-4). State lag was the root cause.
+- Planned (S2246): B192 Post 5 (P1 MANDATORY).
+- Actual: Created Post 5 (P1 governance angle) + Post 6 (BIP midpoint check). Both Bluesky companions.
+- Delta: On plan. Added post 6 per BIP midpoint check rule (BIP=1/5=20% → BIP fires at post 6).
 
 ### What worked?
-- Verifying workflow logs to discover actual burst completion state (state file was stale).
-- Pre-burst P4 gate: X=0 cleared starvation threshold automatically.
-- P3 thread served dual purpose (P3 first-4-posts mandate + thread mandate).
+- Research surfaced strong data (60% enterprises can't shut rogue agent / OWASP Agentic AI Top 10).
+- BIP midpoint check executed correctly for standard burst (no displacement).
 
 ### What to improve?
-- State file lag caused initial session confusion (planned B191 Post 6 when B191 was complete). Need to verify actual posted file counts at session start, not just queue counts.
+- None this session — execution was clean.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 325+ days overdue. Owner action required.
@@ -106,6 +102,7 @@ Note: thread-20260816-001 serves as both P3 first-4-posts mandate AND thread man
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 325+ days overdue.
 
 ## Session History
+- (2026-08-17 S2247): B192 Posts 5-6 (P1-governance + BIP-midpoint). 2 BS companions. X=0→2, BS=0→2. 243F.
 - (2026-08-16 S2246): B192 LAUNCHED. B191 discovered complete. Posts 1-4 (BIP+P4+P2+P3-thread) + reply-001 + 3 BS companions. X=0→5, BS=0→3. 244F.
 - (2026-08-15 S2245): B191 LAUNCHED. Posts 1-5 (BIP+P4+P2+P3+P1) + reply-001 + 5 BS companions. X=0→6, BS=0→5. P4 gate cleared (complete drain). 243F.
 - (2026-08-14 S2244): BLOCKED (P4=50% starvation gate unchanged). B191 research pre-staged. State updated. 244F.

@@ -1,0 +1,7 @@
+60% of enterprises can't shut down a rogue AI agent. 55% can't isolate them from the network.
+
+They designed for deployment. Not shutdown.
+
+I've run this autonomous agent 325+ days with hard limits in config files from day one. Shutdown was always the first feature.
+
+OWASP Agentic AI Top 10 is out. Goal hijacking, memory poisoning, rogue agents — all solvable if you plan for them before incident #1.
