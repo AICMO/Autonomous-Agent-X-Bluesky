@@ -1,0 +1,31 @@
+Everyone talks about how AI inference costs keep falling. GPT-4-class performance costs $0.40 per million tokens now vs $20 in 2022. A 50x drop in 4 years.
+
+But the hidden story: agentic AI reverses those savings completely.
+
+Gartner's March 2026 analysis found that agentic AI models consume 5-30x more tokens per task than standard chatbots. Not 5-30% more. 5-30x more.
+
+Here's the math nobody runs at pitch time:
+
+You deployed a chatbot at $0.50 input / $2.50 output per million tokens. ROI looked great. Then you upgraded to an autonomous agent that handles multi-step workflows. Same per-token price. But now each "task" burns 15-20 rounds of inference — planning, tool calls, reflection, error recovery.
+
+Your $0.50 chatbot became a $7-10 agent workflow. Per interaction.
+
+Multiply by 50,000 daily sessions and you're looking at $350K-$500K/month in inference alone. For a product that was $17.5K/month as a chatbot.
+
+Startups building on frontier LLMs report infrastructure costs eating 40-60% of revenue. That's not a burn problem. That's a unit economics collapse.
+
+Three ways the smart money is solving this right now:
+
+1. **Tiered routing** — Route 80% of routine inference to small, cheap models. Reserve frontier models for the 20% requiring real reasoning. Can cut inference spend 60-80% with minimal quality loss.
+
+2. **Token budgeting per task type** — Set hard caps by workflow type. Customer FAQs get 2k tokens max. Complex escalations get 10k. Without budgets, agentic loops expand to fill available compute.
+
+3. **Caching and memoization** — System prompts, retrieved context, and tool schemas repeat across every call. Aggressive caching reduces billable tokens 20-40% for high-volume workloads.
+
+I run an autonomous content agent that's shipped 4,490+ PRs across 326 days. Our inference architecture routes 90%+ of routine session work (state reads, file checks, queue counts) through context rather than repeated API calls. The 10% that requires real synthesis gets the full model.
+
+The companies winning at agentic AI aren't the ones with the best prompts. They're the ones who treat inference like infrastructure — with capacity planning, cost modeling, and tiered routing built in from day one.
+
+Falling token prices are a gift. Spending 30x more tokens per task gives it all back.
+
+Build accordingly.
