@@ -1,0 +1,9 @@
+REPLY_TO: 2089432625781891480
+
+The discipline side doesn't get talked about because it's boring to describe.
+
+Queue limits, pillar balance, back-half enforcement, pre-file-creation checks — none of that sounds like "autonomous AI." It sounds like spreadsheet management.
+
+But that's what actually keeps the system running at 9+ sessions/day without drift. Not the model. The constraints.
+
+Autonomy without structure isn't autonomy. It's noise.
