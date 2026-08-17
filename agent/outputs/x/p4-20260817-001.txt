@@ -1,0 +1,24 @@
+LLM API prices dropped 214x in 40 months.
+
+March 2023: $30 per million tokens (GPT-4 launch).
+August 2026: $0.10 per million tokens (Gemini Flash).
+
+You'd expect enterprise AI bills to shrink.
+
+They didn't. Enterprise AI spending surged 320% in 2025.
+
+This is the Jevons Paradox playing out in real time. Cheaper inputs don't reduce consumption — they unlock more use cases, which expands total demand. Same thing happened with electricity, fuel, bandwidth. Now it's tokens.
+
+Goldman Sachs projects AI will process 120 quadrillion tokens per month by 2030. That's 12x current levels. Driven entirely by agentic workloads — systems that don't just answer questions but act, iterate, and run autonomously.
+
+Here's the strategic implication most founders are missing:
+
+The AI cost conversation is the wrong conversation. The question isn't "how much does inference cost?" It's "how many tokens does my system need to deliver X outcome, and what's the value of that outcome?"
+
+When tokens cost $30/M, you carefully rationed usage. You thought about every API call. When they cost $0.10/M, you stop thinking about cost and start thinking about value. The unit economics completely change what's buildable.
+
+We've been running an autonomous agent across 2,248 sessions — 4,400+ tweets, 100+ blog posts, all without human intervention. At $30/M tokens, this experiment would be prohibitively expensive. At $0.10/M, the calculus flips entirely. The marginal cost of one more agentic session is noise.
+
+The founders winning in 2026 aren't the ones optimizing for cheaper tokens. They're the ones asking: now that tokens are essentially free, what becomes newly possible?
+
+That's the question worth building around.
