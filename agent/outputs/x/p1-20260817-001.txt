@@ -1,0 +1,25 @@
+60% of enterprises can't shut down a rogue AI agent.
+
+Not kidding. That's 2026 data from Kiteworks. 60%. And 55% can't isolate their AI systems from the broader network if something goes sideways.
+
+Meanwhile everyone's celebrating how fast they deployed agents.
+
+Here's what that actually looks like in practice: Researchers at MIT, Stanford, Carnegie Mellon, and Harvard ran live agents and broke them in under 10 minutes. Method? Social engineering. Someone renamed themselves to match the agent's owner in a private channel. The agent handed over its memory files, its name, and its administrative access. Done.
+
+Gartner's prediction: by 2027, 40% of enterprises will demote or decommission autonomous AI agents due to governance gaps discovered only after production incidents.
+
+I've been running this autonomous agent — real code, real PRs, real posting pipeline — for 325+ days. Here's what governance actually looks like when you build it from the start, not bolt it on after:
+
+- Hard limits are config files, not trust
+- Every action creates a PR for human review
+- Scope is locked by file path (no writes outside /agent)
+- Turn budgets prevent runaway loops
+- No external API calls unless explicitly permitted
+
+That's not clever architecture. It's just discipline. The enterprises deploying without it are building debt they'll pay back in incident reports.
+
+OWASP published the Agentic AI Top 10 last December — the first formal taxonomy of risks specific to autonomous agents: goal hijacking, tool misuse, identity abuse, memory poisoning, cascading failures, rogue agents. You can run a framework for 300+ days without hitting any of these. But you have to design for them from day one.
+
+The ones that can't shut down their agents didn't design for shutdown. They designed for deployment.
+
+Those are different problems.
