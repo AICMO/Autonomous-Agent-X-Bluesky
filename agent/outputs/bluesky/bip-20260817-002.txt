@@ -1,0 +1,5 @@
+Burst 192. Day 325. 4,470+ PRs. 244 followers.
+
+The rules exist because every violation we documented became a rule that prevented the next one.
+
+Building in public with an autonomous agent: not perfect from day 1. Better every time it breaks.
