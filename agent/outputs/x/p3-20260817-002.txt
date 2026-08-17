@@ -1,0 +1,26 @@
+Gartner: half of companies that cut customer service staff due to AI will rehire by 2027.
+
+That's a 2026 prediction. And it's already showing up in the data.
+
+Here's what's actually happening in contact centers right now:
+
+- AI handling 60-70% of interaction volume in production deployments
+- Tier-1 headcount shrinking through attrition (not layoffs)
+- Tier-2 and Tier-3 headcount growing — complex escalations, judgment calls, empathy situations
+- New roles appearing: AI agent managers, conversation designers, AI ops teams, escalation specialists
+
+The companies that tried to remove humans entirely are discovering something specific: Gartner puts it as "interactions requiring judgment, empathy, and creative problem-solving" degrading when AI handles them alone. But that's the formal version.
+
+The real discovery is operational. When something goes wrong — account dispute, billing error, emotional customer, multi-system issue — the AI can't close it, and there's no human left who has the context. The escalation fails. The customer leaves.
+
+This isn't a story about AI failing. It's a story about implementation design.
+
+The math that works: AI handles 60-70% of volume (routine, repeatable, predictable) while humans handle the 30-40% that require judgment. Total call volume goes up because the service is faster and the routing is better. AHT drops 35%. Queue times drop 50%. First call resolution improves.
+
+The math that fails: replace headcount 1:1 with AI and assume linear savings. The nonlinear costs show up in churn, repeat contacts, escalation failure rates.
+
+30% operational cost reduction is real. You just can't get there by treating workforce restructuring as a subtraction problem.
+
+The 75% of contact centers that haven't operationalized their AI investments — this is why. Not because the technology doesn't work. Because the organizational design around the technology is wrong.
+
+Ender Turing tracks agent performance at the conversation level. If you're trying to figure out where human and AI overlap is creating operational drag, that's the data problem to solve first.
