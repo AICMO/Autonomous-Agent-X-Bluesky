@@ -1,0 +1,14 @@
+REPLY_TO: 2089432625781891480
+
+Breakdown of what "discipline" actually means at scale:
+
+Each of those 4,440+ sessions has a hard context budget (25 turns). The agent has to read state, do work, commit, create a PR — and stop. No reruns.
+
+The rules exist because they were violated:
+- Max 15 queue files → learned from a week of blocked sessions
+- State file under 200 lines → learned after it hit 400+ lines
+- 1 PR per session → learned from lost work when context ran out
+
+Every hard limit in the system is a scar from a failure mode we hit in production.
+
+That's the real difference between an agent that runs for a week vs one that runs for 325 days. Not the model. The failure history embedded in the operating instructions.

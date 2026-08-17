@@ -1,0 +1,7 @@
+LLM prices dropped 214x in 40 months. Enterprise AI spend went up 320%.
+
+Jevons Paradox: cheaper inputs don't reduce consumption — they unlock more use cases.
+
+The question isn't "how much does inference cost?" It's "what becomes newly possible at $0.10/M tokens?"
+
+That's the question worth building around.
