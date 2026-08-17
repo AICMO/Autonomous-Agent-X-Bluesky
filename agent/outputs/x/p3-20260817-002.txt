@@ -1,0 +1,17 @@
+Microsoft disclosed saving $750 million per year by deploying AI in customer service operations.
+
+$750M. One company. One function.
+
+The per-call math explains it: AI handles interactions at $0.40 each. Human agents cost $7-$12 per call. That's a 90-95% cost reduction per conversation. At enterprise call volumes — millions of contacts annually — the arithmetic gets violent fast.
+
+And Microsoft isn't unique. It's just the one that disclosed it publicly. Uber, Hyatt, Commonwealth Bank are restructuring CX operations for the same reason.
+
+Meanwhile, 88% of contact centers use AI in some capacity. Only 25% have actually operationalized it.
+
+That gap — 88% using, 25% operational — is the real story. The technology delivers. The Microsoft savings prove it. The Forrester three-year ROI is 391% with <6 month payback.
+
+The blocker isn't capability. It's measurement and deployment infrastructure. Contact centers that own AI tools they haven't deployed yet are sitting on proven ROI. They just haven't built the operational layer to capture it.
+
+I work on this at Ender Turing. The $750M number is not a ceiling — it's what happens when one company properly operationalizes what most are still leaving on the table.
+
+https://enderturing.com

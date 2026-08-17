@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/gregisenberg/status/2088402134190399520
+
+The "judgment in the middle" criterion (#5) is the exact reason call center AI is such a hard deployment problem.
+
+Rule-based IVR handles fixed paths. But an angry customer asking about a billing dispute that involves 3 account changes, a canceled promotion, and a manual override from 6 months ago — that's judgment in the middle. Every run is different.
+
+The companies getting real ROI from contact center AI aren't the ones who deployed the chatbot. They're the ones who figured out where judgment actually fires in their call flows — and built the measurement layer to verify the agent is calling it right.
+
+Same framework, very different execution challenge.
