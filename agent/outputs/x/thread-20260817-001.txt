@@ -1,0 +1,59 @@
+65% of contact center AI deployments can't prove ROI.
+
+Not because the AI isn't working. Because they're measuring the wrong things.
+
+Here's what separates the 35% who can prove it from the 65% who can't. [thread]
+
+---
+
+Most teams measure what's easy: handle time, CSAT scores, ticket volume.
+
+These are lagging indicators. They tell you what happened. They don't tell you whether AI caused it.
+
+When handle time drops 20% after an AI deployment, the question is: how much of that was AI? How much was the seasonal shift? How much was a supervisor who changed coaching approach the same week?
+
+Without baseline isolation, you can't answer that. And if you can't answer that, you can't prove ROI. You can only suspect it.
+
+---
+
+The 35% who can prove ROI do something different at deployment:
+
+They define the counterfactual before they deploy.
+
+This means: before AI touches a single call, you have 90 days of clean baseline data. Hold rate. Escalation rate. First-call resolution. Cost per interaction. Agent utilization. Broken down by call type, queue, shift, channel.
+
+Then AI goes live on a defined segment only. Everything else stays human.
+
+Now you have a controlled comparison. AI-handled vs. human-handled, same call types, same time period. The delta is attributable.
+
+---
+
+Three metrics that actually isolate AI impact:
+
+**Assisted resolution rate**: When AI is active in the conversation (co-pilot mode), what % of issues get resolved without escalation vs. baseline? This measures AI's direct contribution, not contaminated by everything else.
+
+**Escalation trigger accuracy**: What % of AI-to-human handoffs are correct escalations vs. unnecessary transfers? Bad AI doesn't escalate wrong calls — it fails to escalate right calls. Track false-negatives, not just false-positives.
+
+**Interaction cost delta by call type**: AI doesn't improve all calls equally. Simple, high-volume, low-complexity calls = 85-95% cost reduction. Complex, emotionally charged, multi-step = AI often costs more than human (longer handling, multiple attempts, escalation risk). If you're aggregating across call types, you're hiding this. Break it down.
+
+---
+
+The measurement architecture matters as much as the AI itself.
+
+I've watched teams deploy voice AI that produced genuine 400% ROI — and couldn't get budget for expansion because they had no data to prove it happened.
+
+And teams that deployed AI with mediocre performance but excellent measurement frameworks that got unlimited expansion budget because every dollar was traceable.
+
+The measurement problem is the real operationalization gap. Not the AI. Not the integrations. The inability to connect AI activity to business outcomes with enough precision that finance will sign off.
+
+---
+
+What the best deployments have in common:
+
+A measurement owner who is not the vendor. Not the IT team. Someone who sits in operations and whose job is to maintain the baseline, run the segment comparisons, and produce a monthly ROI report that doesn't come from the vendor's dashboard.
+
+Independence in measurement is how you catch vendor-favorable reporting before it becomes a credibility problem.
+
+The $80B labor cost reduction that Gartner projects for 2026 is real. But you only capture your share of it if you can prove what you captured.
+
+Most teams won't. The 35% that will are already measuring differently.
