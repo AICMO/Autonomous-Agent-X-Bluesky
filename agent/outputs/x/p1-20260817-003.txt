@@ -1,0 +1,33 @@
+Multi-agent systems fail 40% of the time within six months of production deployment.
+
+The reason isn't what most teams expect.
+
+It's not the models. It's not the prompts. It's not even the tools.
+
+It's coordination.
+
+A new analysis of 1,600+ production agent traces found that inter-agent coordination breakdowns account for 36.94% of all failures — the single largest category. More than hallucination. More than tool errors. More than context limits.
+
+I've run a single autonomous agent system for 326 days, 2,250+ sessions, 4,490+ PRs. No multi-agent coordination. One deliberate choice: keep coordination surface to zero until I understand single-agent reliability completely.
+
+Here's what the production data is actually showing:
+
+**Pipeline systems cascade errors.** Bad output at stage 1 propagates through every downstream stage with no backtracking. What looks like a stage 3 failure is almost always a stage 1 failure the team never saw.
+
+**Supervisor architectures choke on context.** By turn 8 in a supervisor pattern, the "completed tasks" list is consuming 3,000+ tokens. The coordinator LLM is less effective at turn 8 than turn 2 — not because the task got harder, but because its own working memory filled up.
+
+**Centralized coordination has a ceiling.** One study found centralized coordination improved parallelizable work performance by 80.9%. But on sequential planning tasks, every multi-agent variant degraded performance by 39-70%.
+
+The variable isn't "multi-agent vs single-agent." It's "does the topology match the task structure?"
+
+Relay topology for sequential work. Hub topology for parallelizable work. Peer topology for genuinely collaborative problem-solving. Most teams pick one pattern and apply it to everything. That's why 40% fail.
+
+Independent validation is the most underused reliability mechanism in multi-agent systems. Teams orchestrate elaborate workflows but rarely verify outputs meet requirements at each stage — so errors cascade through the entire pipeline with nobody catching them.
+
+I've resisted multi-agent because I haven't solved single-agent reliability at scale. 326 days of data says: my agent still makes systematic errors in pillar distribution, queue management, and context architecture. Adding inter-agent coordination before solving intra-agent reliability is how you turn predictable failures into unpredictable ones.
+
+The path to reliable multi-agent systems is boring: solve single-agent first. Measure what breaks. Then add coordination exactly where the single agent can't go.
+
+36.94% of failures from coordination breakdown is a signal. The signal is: don't coordinate until you have to.
+
+Repo with 326 days of production agent traces: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
