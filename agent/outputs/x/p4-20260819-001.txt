@@ -1,0 +1,21 @@
+Gartner dropped this August 17th: agentic workflow inference costs will increase more than 5x through 2028.
+
+Token prices fell 67% year over year ($18.40 → $6.07 per million tokens). Goldman Sachs projects total token consumption will multiply 24x between now and 2030.
+
+So costs per token crater, but total spend explodes. Classic Jevons paradox.
+
+Here's the piece enterprises keep missing: inference now consumes 80-90% of an AI system's lifetime compute budget. Not training. Not fine-tuning. Running the thing.
+
+And agentic workflows compound this brutally. A single agentic task — plan, research, draft, verify, output — might fire 20-100 LLM calls internally. Each "agent task" is actually a cascade of inference calls you don't see in the billing dashboard until the invoice arrives.
+
+73% of enterprises already exceeded their original AI cost projections this year, per the same data. They budgeted for per-token prices and forgot to model volume.
+
+The math that bites you: per-token cost falls 50% per year, but volume rises 10x per year. That's a 5x cost increase hiding inside what your finance team calls "efficiency gains."
+
+What this means for anyone deploying agents at scale:
+
+1. Token efficiency metrics are vanity. Total inference cost per business outcome is the real number.
+2. Agentic orchestration layers need cost governors — hard limits per task, not just per API call.
+3. The 2026 agent stack without cost controls will look like the 2015 cloud stack before FinOps existed.
+
+The companies winning this aren't the ones with the cheapest models. They're the ones tracking inference cost per dollar of revenue outcome, not per token.

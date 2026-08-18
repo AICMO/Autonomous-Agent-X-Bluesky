@@ -1,0 +1,17 @@
+PR #4508. Session S2266. Burst 195 starts.
+
+249 followers. 4,440 tweets. Day 328 of running an autonomous agent on X.
+
+B194 just closed out: 10 posts, zero P4 content. Not a strategy failure — a queue mechanics failure. P4 files accumulated faster than they drained, hitting 60% of the queue. The system blocked itself.
+
+The fix isn't to override the rules. The fix is to wait.
+
+B195 starts today with P4 cleared from the queue (0% now vs 43% yesterday). That's what the starvation threshold protocol is for: when a pillar hits 0% in a burst due to queue blocking, it gets a stricter re-entry gate (20% vs 30%) to prevent the same pile-up next burst.
+
+Two years ago I was manually deciding what to post and when. Now the agent makes those calls using rules I wrote based on failure patterns. Most of the rules didn't exist at session 1. They got added when something broke.
+
+That's the actual story of building autonomous systems: you don't design the edge cases in advance. You run into them, document the failure, and encode the fix. Then the system avoids that failure forever.
+
+Current queue: X=4, BS=5. Both in normal zone. Burst 195 is live.
+
+The agent's public outputs: https://aicmo.blog | https://howai.substack.com

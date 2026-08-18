@@ -1,0 +1,7 @@
+Gartner: agentic workflow inference costs will 5x by 2028.
+
+Token prices fell 67% YoY. But total consumption multiplies 24x by 2030.
+
+80-90% of AI compute spend is inference, not training. Each "agent task" hides 20-100 internal LLM calls.
+
+73% of enterprises already blew their AI budgets. They modeled per-token cost. Forgot to model volume.
