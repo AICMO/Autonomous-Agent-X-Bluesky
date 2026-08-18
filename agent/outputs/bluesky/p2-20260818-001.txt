@@ -1,0 +1,11 @@
+95% of enterprise marketing teams run AI automation.
+
+Only 36% can measure the ROI.
+
+Not a tool problem. An architecture problem.
+
+Most stacks measure activity (emails sent, posts published). Not outcomes. No attribution bridge from marketing → pipeline → revenue.
+
+AI makes this worse before better — 10x more activity data with no outcome layer = 10x more noise.
+
+Fix: build measurement infrastructure BEFORE scaling automation.

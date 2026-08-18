@@ -1,0 +1,11 @@
+REPLY_TO: 2089536249438900322
+---
+The measurement gap has a specific pattern I see over and over:
+
+Companies buy automation tools in Q1. By Q3 the CMO is presenting "we sent 2.3M emails and published 400 pieces." The CFO asks "what did that generate in revenue?" Silence.
+
+The missing piece is always attribution — not fancy attribution, just the basics: which leads touched which content, which of those converted, what was the average deal size. Most CRMs have this data. It just never gets connected to the marketing layer.
+
+Three months to build it. Then you have the number. Then the whole conversation changes.
+
+The teams that can answer the ROI question get more budget. The teams that can't get cut. The tools are irrelevant to that outcome.
