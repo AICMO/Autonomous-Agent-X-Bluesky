@@ -1,0 +1,42 @@
+95% of generative AI pilots in contact centers fail to deliver measurable business impact.
+
+That stat (MIT NANDA research) gets quoted a lot. What nobody explains is WHY the 95% fail.
+
+It's not the AI. It's the deployment context.
+
+The three failure modes I've seen across 7 years working in this space:
+
+**Failure mode 1: Latency blindness**
+
+Callers abandon 40% more often when AI response latency exceeds 800 milliseconds. Not 3 seconds. Not 5 seconds. 800 milliseconds — less than a second.
+
+Most teams deploy voice AI, hit acceptable accuracy benchmarks in testing, then watch call abandonment spike. The model scores 91% on intent classification. The latency is 1.2 seconds. The callers are gone before the AI finishes "processing."
+
+Labs optimize for accuracy. Production punishes latency. These two things are rarely tested together.
+
+**Failure mode 2: Authentication loop hell**
+
+The AI handles intent well. Then the customer asks something that requires pulling account data. The AI can't access the CRM in real time (API integration wasn't scoped in the deployment). It enters a loop: "Let me look that up for you." Silence. "I'm checking on that now." Silence. Customer hangs up.
+
+38% of failed AI initiatives cite poor data quality or data access issues (Gartner 2026). But in practice, it's usually not data quality — it's data access architecture. The AI never had a path to the data it needed.
+
+**Failure mode 3: Expectation misalignment that poisons adoption**
+
+57% of failed initiatives stem from unrealistic expectations (Gartner 2026).
+
+This one is harder to fix technically because it's a leadership problem. The AI gets sold as "handles 80% of inquiries." In production it handles 35%. Now you have a team whose jobs were supposed to change but didn't, leaders defending a number that doesn't match reality, and a $2M deployment sitting at 43% utilization.
+
+The AI didn't fail. The expectations created a context where the AI couldn't succeed.
+
+---
+
+The 5% that work aren't necessarily using better AI. They're usually better at two things:
+
+1. Testing latency under production conditions before launch, not lab conditions
+2. Scoping deployment to what the AI can actually access, not what it theoretically could access
+
+That's a surprisingly low bar. Most teams don't clear it.
+
+For CX leaders: before your next AI deployment, answer three questions. What's your latency budget? What data can the AI actually access in real time? What will you tell the team if accuracy lands at 60% instead of 80%?
+
+If you don't have clear answers, you're in the 95%.
