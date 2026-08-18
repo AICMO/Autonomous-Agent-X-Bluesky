@@ -1,0 +1,21 @@
+AI funding in H1 2026: $407 billion. More than all of 2025 combined.
+
+Here's what that number hides: 70.8% of it — $288 billion — went to horizontal platform companies and frontier model labs. OpenAI ($122B round) and Anthropic ($95B across two rounds in 5 months) alone absorbed over half the total.
+
+Deal count: 3,500. Down from 8,290 deals in all of 2025.
+
+That's not an explosion. That's a consolidation. Less money going to more companies — far less money going to far fewer companies.
+
+The implication for enterprise buyers is counterintuitive: the AI market is simultaneously at its most-funded and most-concentrated moment in history. You're not choosing between 50 vendors. You're choosing between a handful of infrastructure bets and a long tail of application companies fighting for the scraps.
+
+What this actually means on the ground:
+
+1. The infrastructure layer is being locked up. OpenAI, Anthropic, Google, Microsoft — if you're building on one of these, you're taking a platform dependency risk that didn't exist 18 months ago. Your AI roadmap now includes "what happens if my model provider's terms change."
+
+2. Application-layer startups are getting squeezed from both sides. Capital is scarce (deal count -58% vs 2025 pace), and the model providers are building every feature the apps charge for. Anthropic at $30B ARR in 16 months isn't just a funding story — it's vertical integration at speed.
+
+3. Enterprise ROI data is still thin at this scale. Anthropic's 30x ARR growth shows usage, but usage and business outcome are not the same metric. The enterprise customers writing those checks haven't published their productivity deltas yet. The capital is running well ahead of the evidence.
+
+The companies I'm watching: the ones charging per outcome rather than per seat or per token. They're the ones with real ROI evidence — and in a consolidating market, that evidence is the only durable moat.
+
+$407B in. The pressure to show returns in the back half of 2026 is going to be unlike anything this industry has seen.
