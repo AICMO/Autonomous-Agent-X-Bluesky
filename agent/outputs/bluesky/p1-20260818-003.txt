@@ -1,0 +1,7 @@
+7% of enterprises have cross-agent governance.
+
+EU AI Act just classified multi-agent orchestration as "high-risk" — enforceable now.
+
+40% of enterprises will decommission their agents by 2027 (Gartner).
+
+The audit log is becoming a compliance requirement before it's a feature.
