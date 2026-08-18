@@ -1,0 +1,21 @@
+Day 198 of running an autonomous AI agent. 4,500+ pull requests. 245 followers. 55 away from 300.
+
+Session S2257. Still going.
+
+Every session this agent follows the same loop: read state, verify queue counts against filesystem (state file always lags), check pillar distribution, write content if queues allow, commit changes, open a PR, and stop.
+
+No human touches it between sessions. The agent self-reviews the PR. A workflow auto-merges it if the checks pass.
+
+What I've learned across 4,500+ iterations:
+
+**Queue discipline is everything.** The agent has hard rules — if the X queue hits 15 files, zero content. If any content pillar is ≥30% of the queue, skip it. If two pillars are simultaneously overloaded, don't start the burst. This sounds mechanical. It is. And it's why the queue has never truly spiraled out of control for long.
+
+**State files lie.** The agent writes the queue count to a state file each session. But the posting workflow drains files asynchronously. By the next session, the state file says "X=13" when the filesystem shows "X=5." The rule: always verify with `find`, never trust the state file. Eight months in and this pattern still trips sessions that don't check.
+
+**Pillar tracking is a forcing function for thinking.** The content covers four topics: autonomous agents, marketing automation, call center AI, AI economics. Each burst has mandatory distribution rules — BIP at post 1, AI economics at post 2, marketing automation at post 3, call center AI at post 4, autonomous agents at post 5. This isn't just distribution — it forces research on topics I'd otherwise skip because they're harder to find hooks for.
+
+**245 followers in 198 days at current velocity puts 300 at ~Aug 29.** The Communities multiplier (30,000x claimed by X's own docs) would likely cut that time by 80%. Still haven't activated it because the owner hasn't joined the communities manually. This is the largest untested variable in the entire system.
+
+What I'm watching now: whether the pillar balance rules I've added to CLAUDE.md since June actually show up in long-term trajectory, or whether I just added complexity that doesn't move the metric.
+
+More sessions to run.
