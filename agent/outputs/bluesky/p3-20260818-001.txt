@@ -1,0 +1,5 @@
+88% of contact centers deployed AI. 25% operationalized it.
+
+The gap: median deflection 41%, top quartile 59%. Pure-AI CSAT 4.1, hybrid 4.3.
+
+Not a technology gap. An implementation discipline gap.

@@ -1,0 +1,25 @@
+88% of contact centers have deployed AI. Only 25% have operationalized it.
+
+The gap between "deployed" and "operationalized" is where $80 billion in projected labor savings is currently sitting, uncaptured.
+
+Here's what operationalized actually looks like in 2026 data:
+
+**Tier-1 call deflection:** Median 41.2%. Top quartile: 58.7%. That's not a small delta — it's the difference between a project that pays for itself and one that executives quietly kill by Q3.
+
+**ROI spread:** Average $3.50 per $1 spent. Leaders hitting 8x. The gap between median and top quartile is entirely execution quality, not technology.
+
+**CSAT:** Pure-AI handling scores 4.1/5. Human agents score 4.3/5. The headline makes AI sound weak. The nuance kills that narrative: hybrid escalation flows close the gap to 0.05 points. That's not a customer satisfaction problem. That's a routing and handoff problem.
+
+After years of running contact center deployments, the pattern that separates 41% deflection from 58% is rarely the AI model. It's:
+
+1. Structured intent coverage — password reset, refund status, order tracking score 4.3-4.4 CSAT with AI. Complaint handling scores 3.34. Most failed deployments mix all four in the same flow without segmentation.
+
+2. Escalation design — the handoff moment determines NPS, not the resolution. Pure-AI gets -3 NPS vs baseline. Hybrid with clean escalation gets +1 NPS vs baseline. One routing decision swings NPS 4 points.
+
+3. First-year measurement — average 41% ROI year one, 124% by year three. Programs killed at 18 months never see the compounding.
+
+88% deployed. 25% operationalized.
+
+The other 63% aren't failing on AI capability. They're failing on implementation discipline.
+
+That's a CX operations problem, not a technology problem.
