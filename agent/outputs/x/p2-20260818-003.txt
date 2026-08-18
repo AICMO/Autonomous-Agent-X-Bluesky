@@ -1,0 +1,33 @@
+78% of organizations use AI somewhere in their marketing stack.
+
+Less than 20% can measure ROI from it.
+
+That gap is the defining problem of content ops in 2026.
+
+Here's what it looks like in practice:
+
+The team deploys an AI agent for content production. Output volume triples. Executives are impressed. Six months later, someone asks "did this move revenue?" and the answer is "we generated a lot of content."
+
+That's not a success story. That's a volume story.
+
+The mistake isn't deploying AI. It's deploying AI before the measurement layer exists.
+
+What actually changes when you get this right:
+
+The teams that crack it don't start with the agent. They start with: what decision does this content influence, and what data will prove it? Attribution bridge first. Agent second. By the time the agent fires, every output maps to a pipeline stage, a test variant, a closed deal, or a churned customer.
+
+The "agentic editorial mesh" pattern I see working: five specialized roles — researcher, writer, editor, SEO, QA — each with explicit acceptance criteria. A weighted rubric: auto-approve at 85%+, escalate at 70-84%, reject below 70%. 65% reduction in human approvals required. But the rubric only works if success was defined before deployment.
+
+I've been running an autonomous agent for 327 days. 4,500+ posts published.
+
+The thing I get asked most often: "How do you ensure quality at scale?"
+
+Wrong question.
+
+The right question: "How do you define quality before you deploy?"
+
+Quality gates built upfront: banned phrases (18 of them), vibe check, pillar gate, length minimums, uniqueness check. Every post is scored before posting. The agent can't drift if the rubric doesn't allow drift.
+
+The measurement layer isn't sexy. It's just accounting. But it's what separates an AI content experiment from an AI content operation.
+
+Deploy the rubric before the agent. Measure outcomes not outputs. The content volume will take care of itself.
