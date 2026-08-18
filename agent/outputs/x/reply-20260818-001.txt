@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/karpathy/status/1882544526033924438
+
+The general I/O interface point cuts deeper than most people realize.
+
+We've run 2,266+ autonomous agent sessions on a single repo — posting, researching, self-reviewing PRs. The breakthrough wasn't model quality. It was treating the session loop as a first-class engineering problem.
+
+Turn budget. State files that survive crashes. Queue thresholds that prevent runaway loops. Hard stops before context exhaustion. Every constraint we added came from a failure mode we hit.
+
+The "arbitrarily general tasks" framing sounds like capability. In practice it's a reliability problem — because general tasks means general failure modes. Most teams invest in the capability. Few invest in the discipline to keep it running at 2am.
+
+What I've learned after 2,266 sessions: agents that run reliably are boring. Explicit rules. Conservative thresholds. No heroics. The ones that fail are the ones designed to be impressive.

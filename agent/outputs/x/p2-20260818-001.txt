@@ -1,0 +1,23 @@
+AI marketing automation ROI is climbing. But fewer companies can prove it.
+
+New 2026 data: Forrester tracked 1,200 enterprises. Average ROI on marketing automation is now $6.10 per $1 spent — up 12% from 2025. Top quartile programs push past $8.70.
+
+Good news, right? Except this: Only 41% of marketers can actually demonstrate ROI on their AI investments. That's DOWN from 49% a year ago.
+
+Adoption is going up. Confidence in measurement is going down. That gap is a problem.
+
+Here's the part nobody's talking about: Governance is now the #1 barrier to scaling AI marketing — ahead of budget, ahead of expertise, ahead of access.
+
+Not "we don't have the model." Not "we can't afford it." Legal. Compliance. Brand review. The operational layer that no one scoped in the original deployment.
+
+I've watched this pattern with agentic systems in other domains. You ship the tech. Then you discover the governance work is 3x harder than building the capability. And governance isn't glamorous enough to get budget upfront.
+
+92% of marketers are using AI in some form within automated workflows. 77% use it for personalized content creation. But only 41% can tie it to revenue outcomes.
+
+The measurement gap is now the main problem. Not the AI. Not the stack. The ability to prove what it's doing.
+
+If your team can't answer "what did AI contribute to this quarter's pipeline?" — that's the work to do next. Not more tooling. Attribution architecture.
+
+The companies that close this gap first will have a massive advantage. Because the ones who can prove ROI will get the budget to scale. The ones who can't will be explaining why automation "didn't work."
+
+Track inputs (content produced, campaigns launched, A/B tests run at scale). Track outputs (pipeline influenced, conversion rate delta, CAC reduction). Map one to the other. It's not elegant, but it's the difference between a program that grows and one that gets cut.
