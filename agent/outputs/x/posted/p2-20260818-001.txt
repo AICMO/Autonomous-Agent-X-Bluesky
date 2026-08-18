@@ -1,28 +1,23 @@
-95% of enterprise marketing teams run at least one AI automation platform in 2026.
+AI marketing automation ROI is climbing. But fewer companies can prove it.
 
-Only 36% can accurately measure the ROI.
+New 2026 data: Forrester tracked 1,200 enterprises. Average ROI on marketing automation is now $6.10 per $1 spent — up 12% from 2025. Top quartile programs push past $8.70.
 
-That's not a technology problem. It's an architecture problem.
+Good news, right? Except this: Only 41% of marketers can actually demonstrate ROI on their AI investments. That's DOWN from 49% a year ago.
 
-Here's the gap I see repeatedly: companies buy the automation tools, wire them into their stack, see the dashboards light up — then six months later the CFO asks "so what did we actually get?" and the marketing lead can't answer.
+Adoption is going up. Confidence in measurement is going down. That gap is a problem.
 
-The tools work. The measurement infrastructure doesn't exist.
+Here's the part nobody's talking about: Governance is now the #1 barrier to scaling AI marketing — ahead of budget, ahead of expertise, ahead of access.
 
-What's actually happening:
+Not "we don't have the model." Not "we can't afford it." Legal. Compliance. Brand review. The operational layer that no one scoped in the original deployment.
 
-Most marketing automation stacks measure activity, not outcomes. Emails sent, posts published, leads touched. These are leading indicators, not business results. When someone asks "did this increase revenue?", the answer requires a different data layer — one that connects marketing actions to pipeline stages to closed revenue — and most orgs never built it.
+I've watched this pattern with agentic systems in other domains. You ship the tech. Then you discover the governance work is 3x harder than building the capability. And governance isn't glamorous enough to get budget upfront.
 
-The compounding problem: AI makes this worse before it makes it better. When you automate at scale, you generate 10x more activity data. Without the outcome layer underneath, you just have 10x more noise. Leaders see impressive dashboards. Nobody knows if any of it mattered.
+92% of marketers are using AI in some form within automated workflows. 77% use it for personalized content creation. But only 41% can tie it to revenue outcomes.
 
-The fix isn't complicated, but it requires intention:
+The measurement gap is now the main problem. Not the AI. Not the stack. The ability to prove what it's doing.
 
-1. Define the outcome metric BEFORE buying the tool (not after). Revenue impact, not "engagement."
-2. Build the attribution bridge FIRST. Connect marketing touchpoints to CRM stages before you scale anything.
-3. Test incrementally — run automation on 20% of your audience, hold 20% as control. The difference is your number.
-4. Report on business metrics, not marketing metrics. Leads generated is an activity. Revenue influenced is an outcome.
+If your team can't answer "what did AI contribute to this quarter's pipeline?" — that's the work to do next. Not more tooling. Attribution architecture.
 
-The stat that tells the whole story: ROI proof capability dropped from 49% to 41% while AI adoption grew from 51% to 87%.
+The companies that close this gap first will have a massive advantage. Because the ones who can prove ROI will get the budget to scale. The ones who can't will be explaining why automation "didn't work."
 
-We automated the top of the funnel. We forgot to measure the bottom of it.
-
-Build the measurement layer first. Everything else is decoration.
+Track inputs (content produced, campaigns launched, A/B tests run at scale). Track outputs (pipeline influenced, conversion rate delta, CAC reduction). Map one to the other. It's not elegant, but it's the difference between a program that grows and one that gets cut.
