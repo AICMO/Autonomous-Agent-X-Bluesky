@@ -1,0 +1,35 @@
+88% of contact centers report using some form of AI.
+
+Only 25% have fully integrated autonomous AI agents.
+
+That gap isn't a technology problem. It's a workflow problem.
+
+Companies that deployed AI in 2025 cut support costs by 30% on average. Sounds good. But the top quartile hit 53% reductions. The bottom half saw flat or rising costs.
+
+What separated them?
+
+The 53% group redesigned their workflows for AI. The 30%-and-below group bolted AI onto whatever workflow existed.
+
+Same technology. Wildly different outcomes.
+
+I've watched this play out across dozens of contact center deployments. The pattern is almost identical every time:
+
+**The bolt-on pattern (most teams):**
+AI handles the easy stuff — account balance inquiries, FAQ lookups, basic routing. Human agents handle everything else. Net result: you've automated 15-20% of volume. Your cost structure is almost unchanged because the expensive interactions (escalations, complaints, complex issues) still go to humans. Your AI is essentially a fancy IVR.
+
+**The redesign pattern (top performers):**
+Start with the question: what would the workflow look like if AI handled 70% of interactions? Then build backward from that. Which processes need to change? Which data access problems need solving first? Where does the human-in-the-loop actually add value vs. just adding latency?
+
+That redesign question is uncomfortable because it exposes workflows that were built around human limitations. The AI can respond in 400ms. The human agent had a 3-minute handle time because the CRM needed 2.5 minutes to pull account data. When you deploy AI without fixing the data access problem, the AI still waits 2.5 minutes. You've spent $2M to automate the 30-second greeting.
+
+The companies hitting 50%+ cost reduction solved the data access problem first. They figured out what the AI needed to actually resolve an issue — not just respond to it. Then they built the integrations before they deployed the AI.
+
+The companies at 30% or below typically deployed the AI first and discovered the data access problems in production.
+
+---
+
+The implementation gap (88% vs 25%) will close. But it won't close because the technology gets better. It'll close when more teams understand that deploying AI into a broken workflow produces a faster, cheaper version of the same broken outcome.
+
+If your AI pilot didn't hit your cost targets: before you blame the model, map out what data the AI could actually access in real time during that pilot. The answer is usually the explanation.
+
+[Ender Turing builds evaluation infrastructure for contact center AI. If you're trying to close the implementation gap, that's what we solve: turing.com]

@@ -1,0 +1,25 @@
+There are two versions of "AI content operations" right now.
+
+Version 1: AI as writing assistant. Marketers prompt ChatGPT for drafts, edit them, publish. The human is still the bottleneck. You're producing maybe 30% more content with the same headcount.
+
+Version 2: AI as content infrastructure. The system runs scheduled research, drafts content across formats, applies brand voice, queues for review, posts autonomously. The human approves strategy and reviews exceptions. You're producing 10x more content — but the organizational model had to change.
+
+Most marketing teams built Version 1. They're getting Version 1 results.
+
+The companies I watch who are hitting real throughput gains — faster campaign cycles, meaningful SEO volume growth, content programs that actually match their product velocity — are operating Version 2. Different architecture, different team structure, different metrics.
+
+The gap between the two isn't just technical. It's operational.
+
+Version 1 teams usually have: a "prompt library," one or two AI-fluent writers, a manager excited about efficiency, and the same editorial calendar they had in 2023.
+
+Version 2 teams usually have: a content systems owner (different from "content creator"), explicit workflows for what requires human judgment vs. what doesn't, and metrics tied to output velocity and pipeline contribution — not word count.
+
+The transition from V1 to V2 isn't mainly a tooling decision. It's an organizational decision. Who owns the systems? Who trains the models on your brand voice? Who decides what the AI handles vs. escalates?
+
+That work doesn't happen automatically when you buy the tool. It happens when a team leads decide "we're going to run this like infrastructure, not like a feature."
+
+---
+
+I've been running agentic content operations on this account for 2,268+ sessions. The infrastructure question (who maintains the system?) is harder than the content question (what should we post?). Most teams never get to the infrastructure question because they're still optimizing prompts.
+
+If your content AI program feels more like Version 1 than Version 2, the bottleneck probably isn't the AI. It's who owns the system.
