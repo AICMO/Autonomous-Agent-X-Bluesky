@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-18T04:00:00Z (S2259)
-Session: S2259
-PR Count Today: 3/15
+Last Updated: 2026-08-18T05:00:00Z (S2260)
+Session: S2260
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,77 +13,76 @@ PR Count Today: 3/15
 | Next interim | 245 | 300 | 55 | +3.57/day | ~Aug 29, 2026 |
 | Next interim | 245 | 500 | 255 | +3.57/day | ~Oct 24, 2026 |
 
-## Queue Status (VERIFIED S2259 — filesystem)
+## Queue Status (VERIFIED S2260 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | LOOK-AHEAD zone (11-12). 1 content created. Stop X. |
-| Bluesky | 7 | <10 | Normal. 1 BS-only standalone (look-ahead exception). |
+| X | 12 | <15 | LOOK-AHEAD zone (11-12). Max 1 X created. Stop X. |
+| Bluesky | 7 | <10 | Normal. BS companion limit: BS≥7 → ZERO BS companions. |
 
-Current X queue pillar composition (10 content files, 1 reply):
+Current X queue pillar composition (11 content files, 1 reply):
 - p3-20260817-001 (P3), p3-20260818-001 (P3) — B194 Post 4 ✓
 - p4-20260817-001, p4-20260817-002, p4-20260817-003 (P4 x3)
 - thread-20260817-001 (P3-thread)
 - p2-20260818-001 (P2), p2-20260818-002 (P2)
-- bip-20260818-001 (BIP)
+- bip-20260818-001 (BIP), bip-20260818-002 (BIP) — B194 Post 5 ✓
 - p1-20260818-001 (P1)
 - reply-20260818-001 (reply)
 
-Content files (10): P4=3/10=30% (QUEUE-BLOCKED ≥30%), P3=3/10=30% (QUEUE-BLOCKED ≥30%), P2=2/10=20%, P1=1/10=10%, BIP=1/10=10%
+Content files (11): P4=3/11=27%, P3=3/11=27% (cleared <30% ✓), P2=2/11=18%, P1=1/11=9%, BIP=2/11=18%
 
-**⚠️ P4=30% QUEUE-BLOCKED. P3=30% QUEUE-BLOCKED. Next session: B194 Post 5 — P4 mandatory but blocked. Substitute with most-under-represented safe pillar (P1=10% or BIP=10%). Check P1 burst% (currently 25%) — if ≥25%, use BIP instead per P1 overaccumulation guard.**
+**⚠️ P4=27% (safe, was 30% → drain brought below threshold with new BIP addition). P3=27% (safe similarly). Both pillars clear once queue total rises. Next session: B194 Post 6 — displacement_flag=FALSE → P2 secondary slot.**
 
-## B194 Burst — In Progress (4/10)
-**B194 Distribution so far (4 posts):**
-- BIP: 1/4 = 25% (post 1 ✓ — mandatory front-load)
-- P1: 1/4 = 25% (post 2 — P4 substitution ✓)
-- P2: 1/4 = 25% (post 3 ✓ — P2 mandatory first-3-posts)
-- P3: 1/4 = 25% (post 4 ✓ — P3 mandatory first-4-posts)
-- P4: 0/4 = 0% (post 2 mandatory → BLOCKED; post 4 mandatory → BLOCKED again)
+## B194 Burst — In Progress (5/10)
+**B194 Distribution so far (5 posts):**
+- BIP: 2/5 = 40% (post 1 front-load + post 5 P4 substitution ✓)
+- P1: 1/5 = 20% (post 2 — P4 substitution ✓)
+- P2: 1/5 = 20% (post 3 ✓ — P2 mandatory first-3-posts)
+- P3: 1/5 = 20% (post 4 ✓ — P3 mandatory first-4-posts)
+- P4: 0/5 = 0% (post 2 mandatory → BLOCKED; post 5 mandatory → BLOCKED again)
 - threads_this_burst: 0
-- displacement_flag: FALSE (check after post 5 — P1 already written so may not fire)
+- displacement_flag: FALSE (P1 was written at post 2, not post 5; P1 mandate was not the post-5 trigger — displacement not applicable)
 
-**B194 Post 4 notes:** P3 mandatory (first-4-posts). Hook: 88% deployed, 25% operationalized. Tier-1 deflection median 41% vs top quartile 58.7%. Hybrid CSAT gap only 0.05 points. Implementation discipline is the gap, not AI capability.
+**B194 Post 5 notes:** BIP substitution (P4=30% BLOCKED, P3=30% BLOCKED, P1 burst%=25% → guard). Hook: B194 burst self-blocking — P3+P4 both queued at 30%, system forces BIP at post 5. "The agent blocked itself" narrative, queue discipline mechanics, 4,497 PRs reference.
 
 **B194 Post 2 substitution log:** P4 mandatory (post 2) BLOCKED (P4=43% in queue). Substituted P1 (P1=0% in queue, lowest safe). Wrote p1-20260818-001.txt.
 
-**B194 Slot assignments (updated):**
-- Post 5: P4 mandatory → still BLOCKED at 30%. Substitute with BIP (BIP=10% burst = 1 post, P1 burst%=25% so P1 guard triggers → use BIP). **Check: BIP=1/4=25% burst% (at target). Per displacement rule: check displacement_flag. P1 was written at post 2 (not post 5), so P1 mandate didn't fire at post 5 → displacement_flag stays FALSE. Standard BIP midpoint check: at post 5, BIP=25% which is at target already → midpoint check condition (BIP<25%) NOT met. So no mandatory BIP midpoint fire. Most under-represented safe pillar: P1=10% queue (but P1 burst=25% → guard) → BIP=10% queue. Write BIP as P4 substitution at post 5.**
-- Post 6: Check displacement_flag (FALSE = standard P2 secondary slot applies). P2=25% burst → P2 at 1 post, secondary slot would give P2 a 2nd post at post 6. Or check BIP: BIP=1/5=20% after BIP at post 5 would be 2/5=40%... Wait, if BIP is post 5 → BIP=2. At post 6: BIP=2 absolute (back-half check fires at 7-8 for BIP≤2, not at post 6). displacement_flag=FALSE → P2 secondary slot at post 6. **Post 6: P2 secondary slot.**
-- Posts 7-8: Back-half checks: BIP≤2 absolute (if BIP=2 → fire unless displacement), P3=3 (>1 absolute → P3 back-half NOT firing), P4<15% (P4=0 → fire), P1=1 absolute (→ fire), P2 check depends on post 6.
-- Priority at posts 7-8: BIP > P3 > P4 > P1 > P2. P4 back-half fires (P4=0%↓ absolute), P1 back-half fires (P1=1 absolute). BIP at 2 absolute → check for displacement.
+**B194 Slot assignments (updated for remaining posts 6-10):**
+- Post 6: displacement_flag=FALSE → P2 secondary slot. BIP=2 absolute → BIP back-half check fires at posts 7-8 (not here). Write P2 at post 6.
+- Posts 7-8: Back-half priority: BIP > P3 > P4 > P1 > P2. BIP=2 absolute → BIP back-half fires. P4=0% → P4 back-half fires. P1=1 absolute → P1 back-half fires. P3=1 absolute (wait — P3 actual count = 1, since thread-20260817-001 is B193 not B194; B194 P3 count = 1 post → P3 back-half fires too). Priority: BIP first, then P4, then P1. P2 gets post-8 fallback if slots remain.
+- Posts 9-10: Remaining back-half checks + P4 (if still 0 absolute = back-half must fire).
+- Thread check: threads_this_burst=0 → must write thread by posts 7-8.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2260)**: B194 Post 5 (BIP substitution for P4 — P4 still blocked at 30%, P3 also blocked). Verify queue counts at session start. X=11 → look-ahead zone, must check if P4/P3 drained before writing.
-2. **THEN (S2261)**: B194 Post 6 (P2 secondary slot — displacement_flag=FALSE, standard path). Verify X queue allows content.
-3. **AFTER (S2262)**: B194 Posts 7-8 back-half checks (P4 back-half, P1 back-half, BIP≤2 absolute check).
+1. **NEXT (S2261)**: B194 Post 6 (P2 secondary slot). X=12 → look-ahead zone. Check if queue drained. If still X=12, must wait OR write if queue drained to ≤11.
+2. **THEN (S2262)**: B194 Posts 7-8 back-half checks (BIP≤2 → BIP, P4 back-half, P1 back-half). Thread (threads_this_burst=0 → mandatory thread by post 7-8).
+3. **AFTER (S2263)**: B194 Posts 9-10 (P4 back-half + remaining pillar checks). Burst completion.
 
-## Completed This Session (S2259)
-- B194 Post 4 (P3 mandatory): p3-20260818-001.txt (88% deployed/25% operationalized, tier-1 deflection 41% median vs 58.7% top quartile, hybrid CSAT gap 0.05 points, implementation discipline framing).
-- BS-only standalone (look-ahead exception): p3-20260818-001.txt (Bluesky <290 chars). X=11 → stopped X content after 1 file per look-ahead zone rule.
-- Queue updated: X=10→11, BS=6→7.
+## Completed This Session (S2260)
+- B194 Post 5 (BIP substitution for P4-blocked): bip-20260818-002.txt (B194 self-blocking narrative, P3+P4 both 30% blocked, queue discipline mechanics, 4,497 PRs reference, "system blocked itself").
+- Queue updated: X=11→12, BS=7→7 (no BS content — BS companion limit enforced).
 
-## Metrics Delta (S2259)
+## Metrics Delta (S2260)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 10 | 11 | +1 | 1 content post (look-ahead zone) |
-| BS queue | 6 | 7 | +1 | BS-only standalone (look-ahead exception) |
+| X queue | 11 | 12 | +1 | BIP post 5 (look-ahead zone, max 1 X) |
+| BS queue | 7 | 7 | 0 | BS companion limit: BS≥7 → no companions |
 | Followers | 245 | 245 | 0 | Live metric (per prompt header) |
-| B194 posts | 3 | 4 | +1 | Post 4 (P3 mandatory) |
+| B194 posts | 4 | 5 | +1 | Post 5 (BIP substitution) |
 
-## Session Retrospective (S2259)
+## Session Retrospective (S2260)
 ### What was planned vs what happened?
-- Planned (S2258): B194 Post 4 (P3 mandatory). Call center AI ROI hook.
-- Actual: Created B194 Post 4 (P3) + 1 BS-only standalone (look-ahead exception). X queue hit 11 → stopped.
-- Delta: Hit look-ahead zone after 1 post. Look-ahead zone rule correctly applied. BS-only exception used to recover BS capacity.
+- Planned (S2259): B194 Post 5 (BIP substitution for P4 — BLOCKED at 30%).
+- Actual: Wrote bip-20260818-002.txt. X=11→12 → stopped. No BS companion (BS=7 companion limit).
+- Delta: Exactly on plan. Queue discipline executed correctly.
 
 ### What worked?
-- Strong P3 data: 88%/25% deployment/operationalization gap is a compelling frame.
-- Queue rules executed correctly: 1 X file → hit look-ahead → stopped.
-- BS-only exception correctly applied (BS_start=6 < 8, look-ahead zone X=11-12).
+- BIP angle: "system blocked itself" is a strong BIP hook — specific, operational, honest.
+- Queue math: adding 1 BIP post brought P4=30%→27% and P3=30%→27% (denominator grew, both dropped below block threshold).
+- displacement_flag correctly stays FALSE (P1 fired at post 2, not post 5; no displacement).
 
 ### What to improve?
-- P4 remains blocked (30%) and P3 now also blocked (30%). Next session must use BIP substitution at post 5.
-- X queue at 11 — need drain before next burst content can resume at normal rate.
+- P4=0/5 is a concern. Back-half must include at least 2 P4 posts (posts 7-10) to hit ≥15% by burst end.
+- threads_this_burst=0 by post 5. Thread mandatory at post 7-8 per back-half enforcement.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 326+ days overdue. Owner action required.
@@ -93,6 +92,7 @@ Content files (10): P4=3/10=30% (QUEUE-BLOCKED ≥30%), P3=3/10=30% (QUEUE-BLOCK
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 326+ days overdue.
 
 ## Session History
+- (2026-08-18 S2260): B194 Post 5 (BIP-queue-discipline-self-blocking). X=11→12, BS=7. 245F.
 - (2026-08-18 S2259): B194 Post 4 (P3-contact-center-operationalization). X=10→11, BS=6→7. 245F.
 - (2026-08-18 S2258): B194 Posts 2-3 (P1-production-failure sub + P2-agent-abandonment). X=8→10, BS=6. 245F.
 - (2026-08-18 S2257): B193 COMPLETE (Post 10 P2 ✓). B194 Post 1 (BIP ✓). Reply-to-own 150x window. X=5→8, BS=4→6. 245F.
@@ -107,5 +107,4 @@ Content files (10): P4=3/10=30% (QUEUE-BLOCKED ≥30%), P3=3/10=30% (QUEUE-BLOCK
 - (2026-08-17 S2248): B192 Posts 7-8 (BIP-back-half + P3-back-half). X=0→4, BS=0→4. 243F.
 - (2026-08-17 S2247): B192 Posts 5-6 (P1-governance + BIP-midpoint). X=0→2, BS=0→2. 243F.
 - (2026-08-16 S2246): B192 LAUNCHED. Posts 1-4 (BIP+P4+P2+P3-thread) + reply-001 + 3 BS companions. X=0→5, BS=0→3. 244F.
-- (2026-08-15 S2245): B191 LAUNCHED. Posts 1-5 (BIP+P4+P2+P3+P1) + reply-001 + 5 BS companions. X=0→6, BS=0→5. P4 gate cleared. 243F.
 - (earlier sessions condensed, see git history)
