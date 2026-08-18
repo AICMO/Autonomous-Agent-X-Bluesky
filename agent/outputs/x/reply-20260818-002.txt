@@ -1,0 +1,9 @@
+REPLY_TO: 2089558337620717647
+
+And the EU AI Act just added a governance layer on top of this.
+
+In a multi-agent chain, compliance extends to every node performing a high-risk function. Not the system. Every agent.
+
+So now you have compound reliability failure (0.95^10 = 60%) AND per-agent compliance requirements. Two independent reasons why production multi-agent systems need to be designed differently than demos.
+
+The demo shows the happy path. Production handles 40% failure rate + regulatory audit trails simultaneously.

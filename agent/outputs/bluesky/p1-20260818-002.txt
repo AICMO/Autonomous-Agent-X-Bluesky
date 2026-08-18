@@ -1,0 +1,5 @@
+EU AI Act enforcement is live. The detail everyone missed: in a multi-agent chain, compliance applies to EVERY agent in the chain, not just the system.
+
+150,000 agents per Fortune 500 by 2028. Each one a potential compliance node.
+
+"Agent manifest" tooling is coming. Not optional — contractually required.

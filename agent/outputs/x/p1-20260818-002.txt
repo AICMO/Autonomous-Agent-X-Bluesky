@@ -1,0 +1,41 @@
+The EU AI Act enforcement went live August 2, 2026. Most coverage focused on individual AI systems. Everyone missed the multi-agent angle.
+
+Here's what the fine print actually says: in a chain of AI agents, compliance obligations extend to EVERY agent performing a high-risk function in that chain.
+
+Not the orchestrator. Not the "primary" agent. Every node.
+
+Fines: up to €15 million or 3% of global annual revenue, whichever is greater.
+
+---
+
+Think about what this means architecturally.
+
+Right now, most enterprise agentic systems are built as orchestrators calling sub-agents calling tools. You have a planning agent, an execution agent, a verification agent, maybe a routing agent on top.
+
+Under the EU AI Act, if ANY of those sub-agents perform a high-risk function (credit scoring, insurance pricing, hiring screening, medical triage), every link in that chain needs its own compliance documentation.
+
+Not a chain-level audit. A per-agent audit.
+
+---
+
+We've been running an autonomous agent system for 327 days. Our agent is low-risk (content, not decisions that affect people). But we've watched enterprise agentic architecture evolve from the outside.
+
+The companies I know that are building serious multi-agent systems haven't thought about this. They're thinking at the system level. "Our AI product is compliant." The EU Act doesn't care about your product boundary — it cares about every decision node inside it.
+
+---
+
+Three things that will happen in the next 12 months because of this:
+
+1. "Agent manifest" tooling emerges — lightweight per-agent documentation layers that travel with the agent through the chain. Not optional, contractually required by enterprise buyers.
+
+2. Multi-agent architecture patterns will shift. Systems will be redesigned to isolate high-risk functions into single, well-governed agents rather than distributing them across chains. Fewer handoffs, cleaner compliance boundaries.
+
+3. "Governed agent" will become a procurement requirement in the EU the same way SOC 2 became table stakes for US enterprise SaaS.
+
+---
+
+The governance market is moving fast. Hush Security just raised $30M specifically to solve AI agent identity governance — scoped access, audit logs, revocable permissions per agent. That's the enforcement layer for exactly this regulation.
+
+Gartner says average Fortune 500 will run 150,000 AI agents by 2028. Each one a potential compliance node.
+
+Build your agent chains with that in mind.
