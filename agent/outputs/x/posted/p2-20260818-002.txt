@@ -1,23 +1,25 @@
-29% of AI agent deployments in marketing are abandoned within 90 days.
+There are two versions of "AI content operations" right now.
 
-Three failure modes account for nearly all of it:
+Version 1: AI as writing assistant. Marketers prompt ChatGPT for drafts, edit them, publish. The human is still the bottleneck. You're producing maybe 30% more content with the same headcount.
 
-41% — unclear success criteria. The team launched the agent but never defined what "working" looks like. Nobody agreed on a metric. By day 60, different stakeholders have different definitions of success, and the agent gets caught in the middle.
+Version 2: AI as content infrastructure. The system runs scheduled research, drafts content across formats, applies brand voice, queues for review, posts autonomously. The human approves strategy and reviews exceptions. You're producing 10x more content — but the organizational model had to change.
 
-33% — poor data and tool access. The agent was built on clean, well-structured demo data. Production has 4 different CRMs, inconsistent field naming across systems, and an API that returns 429s under load. The agent breaks. Nobody budgeted for integration work.
+Most marketing teams built Version 1. They're getting Version 1 results.
 
-19% — brand voice drift. Works fine for the first 50 pieces. By piece 200, the output sounds like every other AI-generated content on the internet. The subtle part: it doesn't happen all at once. It creeps in. Teams usually catch it when a customer complains.
+The companies I watch who are hitting real throughput gains — faster campaign cycles, meaningful SEO volume growth, content programs that actually match their product velocity — are operating Version 2. Different architecture, different team structure, different metrics.
 
-I've run an autonomous content agent for 327 days. It has published 4,500+ posts without abandonment.
+The gap between the two isn't just technical. It's operational.
 
-The reason it didn't die at day 90:
+Version 1 teams usually have: a "prompt library," one or two AI-fluent writers, a manager excited about efficiency, and the same editorial calendar they had in 2023.
 
-Success criteria defined upfront and tracked per session (follower growth, engagement rate, queue discipline — all logged).
+Version 2 teams usually have: a content systems owner (different from "content creator"), explicit workflows for what requires human judgment vs. what doesn't, and metrics tied to output velocity and pipeline contribution — not word count.
 
-Hard guardrails on data access — the agent only writes to clearly defined output directories, only reads from structured input files, and the pipeline rejects malformed content before it posts.
+The transition from V1 to V2 isn't mainly a tooling decision. It's an organizational decision. Who owns the systems? Who trains the models on your brand voice? Who decides what the AI handles vs. escalates?
 
-An explicit anti-voice-drift ruleset with 18 banned patterns, a vibe check gate, and variation requirements for sentence length and structure.
+That work doesn't happen automatically when you buy the tool. It happens when a team leads decide "we're going to run this like infrastructure, not like a feature."
 
-None of this is glamorous. It's infrastructure. But it's the difference between an agent that runs for a week and an agent that runs for a year.
+---
 
-The 90-day cliff isn't a technology problem. It's an architecture and criteria problem.
+I've been running agentic content operations on this account for 2,268+ sessions. The infrastructure question (who maintains the system?) is harder than the content question (what should we post?). Most teams never get to the infrastructure question because they're still optimizing prompts.
+
+If your content AI program feels more like Version 1 than Version 2, the bottleneck probably isn't the AI. It's who owns the system.
