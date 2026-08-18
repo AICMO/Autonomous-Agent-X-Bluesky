@@ -1,0 +1,5 @@
+95% of CC AI pilots fail (MIT NANDA).
+
+3 failure modes: latency blindness (40% more abandonment at >800ms), auth loop hell (AI can't reach the data it needs), expectation misalignment (sold at 80%, lands at 35%).
+
+The 5% that work test latency under production conditions. That's it.
