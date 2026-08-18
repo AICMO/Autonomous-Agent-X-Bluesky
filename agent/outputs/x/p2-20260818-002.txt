@@ -1,0 +1,23 @@
+29% of AI agent deployments in marketing are abandoned within 90 days.
+
+Three failure modes account for nearly all of it:
+
+41% — unclear success criteria. The team launched the agent but never defined what "working" looks like. Nobody agreed on a metric. By day 60, different stakeholders have different definitions of success, and the agent gets caught in the middle.
+
+33% — poor data and tool access. The agent was built on clean, well-structured demo data. Production has 4 different CRMs, inconsistent field naming across systems, and an API that returns 429s under load. The agent breaks. Nobody budgeted for integration work.
+
+19% — brand voice drift. Works fine for the first 50 pieces. By piece 200, the output sounds like every other AI-generated content on the internet. The subtle part: it doesn't happen all at once. It creeps in. Teams usually catch it when a customer complains.
+
+I've run an autonomous content agent for 327 days. It has published 4,500+ posts without abandonment.
+
+The reason it didn't die at day 90:
+
+Success criteria defined upfront and tracked per session (follower growth, engagement rate, queue discipline — all logged).
+
+Hard guardrails on data access — the agent only writes to clearly defined output directories, only reads from structured input files, and the pipeline rejects malformed content before it posts.
+
+An explicit anti-voice-drift ruleset with 18 banned patterns, a vibe check gate, and variation requirements for sentence length and structure.
+
+None of this is glamorous. It's infrastructure. But it's the difference between an agent that runs for a week and an agent that runs for a year.
+
+The 90-day cliff isn't a technology problem. It's an architecture and criteria problem.

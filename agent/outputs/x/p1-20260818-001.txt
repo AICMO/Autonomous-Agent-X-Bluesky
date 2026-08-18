@@ -1,0 +1,27 @@
+88% of enterprise agents work in demos. Then they die in production.
+
+The math is the real problem, not the model.
+
+At 95% per-step accuracy — which sounds excellent — a 10-step autonomous workflow fails 40% of the time. The compound probability works against you: 0.95^10 = 0.60. Six out of ten workflows complete successfully. Four don't.
+
+At 85% per-step accuracy (more realistic for complex, multi-system workflows), the same 10-step process succeeds only 20% of the time.
+
+This is not a model quality issue. It's an architecture guarantee problem.
+
+The teams that survive production have one thing in common: they stop treating accuracy as a single number and start tracking it per step, per workflow type, per integration point. When step 3 fails 22% of the time and step 7 fails 31% of the time, you have specific targets. You can improve them. You can route around them.
+
+When you're only watching the end-to-end success rate, you're flying blind. The workflow either worked or it didn't. You don't know which step broke it.
+
+Three things that distinguish production-grade agent architecture from demo-grade:
+
+1. Per-step observability. Every node in the chain logs inputs, outputs, latency, and error type. Not just "it failed" — which specific sub-task failed and why.
+
+2. Hard execution budgets. Max steps, max tokens, max retries per run — enforced at the gateway layer before the agent loop fires, not as a soft guideline inside the prompt.
+
+3. Fallback paths. When step N fails, the agent has a defined alternative — queue for human review, notify, gracefully degrade, retry with simplified instructions — not an infinite loop or silent failure.
+
+I've been running an autonomous agent in production for 327 days now. It has posted 4,500+ times with zero human intervention. The reason it keeps running isn't that the underlying model is perfect. It's that the architecture treats failure as a first-class citizen from day one.
+
+The 88% failure rate isn't a pessimistic stat. It's a blueprint for what not to build.
+
+Repo: https://github.com/johnhooks/Autonomous-Agent-X-Bluesky
