@@ -1,0 +1,5 @@
+OpenAI loses $1.35 for every $1 it earns.
+
+Enterprises now spend $50B+/year on AI inference alone. Token prices dropped 80% — but agentic systems consume disproportionately more tokens.
+
+The 5% getting ROI? Smaller models for routine tasks, frontier only for high-value decisions. Unit economics, not model prestige.

@@ -1,0 +1,9 @@
+REPLY_TO: 2089795098770878850
+
+The 5x inference cost increase by 2028 with simultaneous 80% price drop is the most counterintuitive thing in enterprise AI right now.
+
+Cheaper per token. Way more expensive in total. Because lower costs enabled use cases that consume orders of magnitude more tokens — agentic loops, multi-step reasoning, longer context windows.
+
+The CFO math: $7M AI budget in 2026, 85% inference. If agentic workloads scale 5x by 2028, that's $29.75M in inference alone unless someone is actively managing the unit economics now.
+
+The teams doing it right are setting per-task token budgets, not per-model spend limits. Completely different optimization surface.
