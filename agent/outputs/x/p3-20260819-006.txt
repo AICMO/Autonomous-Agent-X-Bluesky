@@ -1,0 +1,39 @@
+88% of contact centers have deployed AI.
+
+Only 25% have operationalized it.
+
+That gap — the distance between "we bought the tool" and "it runs our workflows" — is where the $75 billion in annual US customer service losses lives.
+
+Let me break down what operationalization actually means vs. what most companies are doing:
+
+**What most companies call "deployed AI":**
+— AI summarization tool installed on agent desktops
+— A chatbot that handles FAQs and escalates everything else
+— Sentiment analysis dashboard nobody reads
+— A vendor relationship and an invoice
+
+**What operationalized AI looks like:**
+— AI handles 50%+ of incoming contacts autonomously with <5% re-contact rate
+— Agent-assist surfaces the right knowledge at the right step, not just "here are some articles"
+— Supervisors are reviewing AI performance data, not just agent performance data
+— QA is automated at 100% conversation coverage, not 3% sample review
+
+The math for operationalized AI is compelling. A 50,000 monthly conversation contact center that shifts 60% to AI at $0.99 per resolution (vs. $8.00 human interaction) saves ~$2.5 million annually. But that result requires the "only 25%" version — not the "88% deployed" version.
+
+The deployment-to-operationalization failure pattern is consistent across the contact centers I've worked with at Ender Turing:
+
+1. Go-live without a success metric definition. Teams debate ROI 6 months later because nobody defined it upfront.
+
+2. Agent training treated as one-time. AI changes the job. Training is now continuous — the agents who succeed in AI-assisted centers learn to handle only the hard stuff, and they need coaching for that.
+
+3. AI-resolved rate as the only KPI. That's a throughput metric. The customer metric is: did FCR go up or down after AI deployment? Most centers see FCR drop initially — because the AI handles easy contacts and routes harder ones to agents who aren't re-trained for them.
+
+4. No integration with workforce management. You can't staff correctly if you don't know which contact types AI is handling and which it isn't — by hour, by channel, by complexity tier.
+
+Only 44% of contact centers meet their expected ROI from AI implementations. The primary culprit isn't the AI. It's integration failure.
+
+The difference between the 25% who operationalize and the 63% who don't: they define outcomes before go-live, not after.
+
+Specific metrics. Targets. Measurement cadences. Ownership.
+
+The technology is ready. The operating model usually isn't.
