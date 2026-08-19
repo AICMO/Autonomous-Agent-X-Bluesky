@@ -1,0 +1,11 @@
+88% of contact centers use AI.
+
+Only 25% have operationalized it.
+
+The 63-point gap is the most expensive line item in enterprise CX right now.
+
+The gap isn't capability. It's integration depth.
+
+Wyndham automated 40K password resets/month + 80% of booking cancellations. Less than 1% abandon rate. It worked because they started with one bounded workflow — not a platform rollout.
+
+That's the playbook. Start small. Redesign before you deploy. The 25% who operationalized figured this out.
