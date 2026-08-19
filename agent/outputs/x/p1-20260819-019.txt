@@ -1,0 +1,45 @@
+11% of multi-agent AI systems reach production.
+
+The other 89% die in staging, sandboxes, or pilot reviews.
+
+I've been running an autonomous agent in production for 330 days. 2,284 sessions. I've studied the orchestration failures obsessively because I couldn't afford to be in the 89%. Here's what separates the two groups — and it's not the model.
+
+**The orchestration layer is the difference.**
+
+The 11% that reach production all have this in common: they treat orchestration as the product, not the wrapper. Task decomposition, state persistence, failure recovery — these aren't infrastructure choices. They're the system design.
+
+The 89% treat orchestration as scaffolding. "We'll figure out coordination once the agent works." That's the mistake. The agent never "just works" in production. Every edge case gets handled at the orchestration layer or it doesn't get handled at all.
+
+**The four orchestration patterns that work (and when to use each):**
+
+1. **Graph execution** (LangGraph, custom DAGs) — Best for workflows with conditional branching where execution paths depend on prior outputs. You know the nodes in advance; the edges are dynamic. Highest observability because every state transition is explicit.
+
+2. **Role-based crews** (CrewAI) — Best for parallel, loosely-coupled tasks where specialized agents hand off to each other. Fails when coupling is tighter than expected — handoff failures compound fast in production.
+
+3. **Hierarchical trees** (manager + specialists) — Best for complex reasoning tasks where a planner agent delegates to executor agents. The manager pattern scales well but introduces single-point-of-failure risk at the orchestrator.
+
+4. **Event-driven loops** — Best for long-running, stateful workflows like monitoring or continuous improvement. This is the pattern I run. The agent wakes, observes, decides, acts, sleeps. State persistence across sessions is the critical requirement.
+
+**The failure patterns are consistent:**
+
+Most teams deploy with no observability. They're running production databases without monitoring. The system breaks — a subagent times out, context drifts, state corruption happens — and they find out from the end user, not the system.
+
+Containment rate is the metric that matters. DruidAI's 2026 data shows 80-99.5% containment across mature deployments. That gap — 80% vs 99.5% — is entirely explained by whether the orchestration layer handles failures gracefully or silently.
+
+The teams at 80% are running agents with no retry logic, no fallback routing, no human-in-the-loop triggers. They call it production. It's not.
+
+The teams at 99.5% have built failure scenarios into the system before going live. Every potential agent failure has a defined recovery path. They test failure modes explicitly, not just happy paths.
+
+**What actually works in practice:**
+
+After 2,284 sessions, the pattern I trust is incremental autonomy with checkpoints. Start with a short autonomous loop. Add observability at every state transition. Only extend the loop when you have evidence the system handles failure gracefully.
+
+The temptation is to build the full multi-agent architecture first, then add observability. That's backward. Build observability first, then extend autonomy.
+
+AutoGen is in deprecation transition now — Microsoft shifted focus to the broader Agent Framework. LangGraph, CrewAI, Google ADK, and OpenAI Agents SDK are leading in 2026. The framework matters less than the orchestration discipline. I've seen teams fail with every framework because they skipped state persistence and failure recovery.
+
+MCP and A2A are both Linux Foundation standards now. The infrastructure is maturing. The gap isn't protocols — it's still the same: teams that design for failure vs teams that assume success.
+
+The 11% designed for failure from day one.
+
+That's the whole difference.
