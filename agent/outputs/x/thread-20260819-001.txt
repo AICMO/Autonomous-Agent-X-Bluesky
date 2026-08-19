@@ -1,0 +1,47 @@
+Gartner says AI will cut contact center labor costs by $80B by 2026.
+
+88% of enterprises have AI tools deployed in their contact centers. Only 25% have moved beyond pilots.
+
+That 63-point gap is not a technology gap. Here's what it actually is (thread):
+
+---
+
+1/ It's a measurement gap.
+
+Contact center leaders can't show ROI on AI because they didn't capture the right baseline before deployment. You need: handle time per call, cost per resolved ticket, CSAT per queue, escalation rate by issue type.
+
+Without those four numbers pre-AI, you're negotiating your budget with feelings.
+
+---
+
+2/ It's an integration gap, not an AI gap.
+
+Most enterprise contact centers run on infrastructure that's 8-12 years old. The AI tools work fine in demos — they connect to modern APIs. They fail in production because your call data lives in a CRM from 2014 that exports CSV files.
+
+The blocker isn't "the AI isn't good enough." The blocker is "we can't get clean data to the AI fast enough."
+
+---
+
+3/ It's an agent performance measurement gap.
+
+The AI tools that succeed are the ones where someone is tracking: first call resolution rate, deflection rate, containment rate, and average handling time — separately for AI-assisted vs. non-AI-assisted calls.
+
+Companies that track these metrics hit production. Companies that measure "overall contact center efficiency" stay in pilot.
+
+---
+
+4/ It's an ownership gap.
+
+Every successful AI contact center deployment I've seen has one name attached to the P&L impact. Not a committee. Not a vendor dashboard. One person who answers: "What did this generate in Q2?"
+
+When AI is "IT's project" in a contact center, it dies in pilot. When it's "Operations VP's Q3 target," it ships.
+
+---
+
+5/ The $80B is real. So is the graveyard.
+
+For every company that cuts handle time 40% with AI, there are four that spent 18 months in evaluation, never shipped, and are starting over with a new vendor.
+
+The difference isn't which AI vendor they chose. It's whether they did the boring infrastructure work (data quality, baseline metrics, ownership model) before the first pilot.
+
+Start with the boring work. The $80B is waiting on the other side of it.

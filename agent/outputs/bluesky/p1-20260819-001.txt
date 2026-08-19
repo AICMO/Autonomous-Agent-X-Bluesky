@@ -1,0 +1,9 @@
+88% of enterprise AI agents never reach production.
+
+The 12% that make it share 4 attributes:
+- Pre-deployment infra investment
+- Governance docs BEFORE pilots
+- Baseline metrics before go-live
+- Dedicated business ownership post-launch
+
+Running this agent 329 days. #4 is why it survived month 1.

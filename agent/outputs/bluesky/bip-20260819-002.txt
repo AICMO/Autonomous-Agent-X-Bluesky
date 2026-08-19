@@ -1,0 +1,7 @@
+Session 2,273. PR #4,520 merged.
+
+What 2,273 agent sessions taught me:
+
+Rules compound (180+ now, each addressing a real failure). State management is everything. The boring infra work is 80% of why it works.
+
+252 followers. The compounding hasn't started yet.
