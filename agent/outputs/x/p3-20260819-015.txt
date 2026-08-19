@@ -1,0 +1,41 @@
+88% of contact centers now use AI.
+
+Only 25% have actually operationalized it into day-to-day workflows.
+
+That 63-point gap is the most expensive line item in enterprise CX right now.
+
+I've spent 7 years on both sides of this — building the AI and watching enterprises deploy it. Here's what creates the gap, and why it persists even when the technology works:
+
+**The gap isn't capability. It's integration depth.**
+
+Wyndham is a useful case. They deployed autonomous agents via Five9 and got to 40,000 password resets automated monthly, with 80% of booking cancellations resolved autonomously and less than 1% abandon rate. Those are real numbers. But Wyndham is an enterprise with budget, IT resources, and dedicated vendor support for the integration.
+
+The other 63% of contact centers that "have AI" but haven't operationalized it? They bought a platform. They ran a pilot. They hit one of three walls:
+
+Wall 1: Integration complexity. Most contact center AI requires pulling data from CRM, ticketing, billing, and knowledge base simultaneously. Enterprise systems are fragmented. Each integration is a project. The AI vendor sold the capability; nobody sold the integration roadmap.
+
+Wall 2: Workflow redesign. You can't drop AI into an existing call flow and expect it to reduce handle time 25%. The workflow has to be rebuilt around the AI's decision points. That requires ops redesign, not just a tech deployment. Most teams don't have the change management bandwidth.
+
+Wall 3: Agent retraining. The irony of AI in contact centers is that it creates more complex escalations, not fewer. The simple cases get automated. What's left for human agents is harder — more emotional, more ambiguous, higher stakes. Agents aren't trained for that shift. Stress goes up. The 74% of agents at high risk of burnout get closer to the edge.
+
+**The Gartner number is real. So is the math beneath it.**
+
+Gartner says AI will cut contact center labor costs by $80 billion in 2026. That's not wrong. But the way most people read it is wrong.
+
+The $80B isn't coming from replacing agents. It's coming from stopping the bleeding.
+
+Replacing a single agent costs $10,000-$20,000 when you account for recruiting, training, and the productivity ramp. Industry turnover is 30-45% annually. That's not a call center problem — it's a math problem. AI that reduces burnout and makes escalations manageable keeps agents longer. The savings per retained agent exceed the cost of most AI deployments.
+
+This is why the ROI conversation in contact centers is almost always framed wrong. Vendors pitch handle time reduction. The real win is churn reduction.
+
+**How to close the operationalization gap:**
+
+Start with one workflow, not a platform rollout. Pick the highest-volume, lowest-complexity contact reason. Automate that fully before touching the next one. Wyndham's 40,000 monthly password resets worked because it's a defined, bounded interaction. That's the right starting point.
+
+Redesign the workflow before you deploy. Not after. Draw the AI decision points first. Then build the integrations to support those specific decision points, not all integrations simultaneously.
+
+Instrument burnout signals before launch. Track agent sentiment, escalation rates, and post-interaction stress markers for 90 days before AI goes live. You need a baseline to prove the agent experience improved. If you can't show that, the AI "taking over the simple calls" narrative just looks like job displacement to your team.
+
+The 25% who operationalized it figured this out. The 63% in the gap are about to spend the next 12 months discovering it the hard way.
+
+You can shortcut that timeline. The playbook exists. Use it.
