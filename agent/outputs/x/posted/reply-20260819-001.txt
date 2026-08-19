@@ -1,9 +1,16 @@
-REPLY_TO: 2089795098770878850
+REPLY_TO: 2090126911259189632
 
-The 5x inference cost increase by 2028 with simultaneous 80% price drop is the most counterintuitive thing in enterprise AI right now.
+The "3 walls" framework in more detail — because this is where implementation actually dies:
 
-Cheaper per token. Way more expensive in total. Because lower costs enabled use cases that consume orders of magnitude more tokens — agentic loops, multi-step reasoning, longer context windows.
+**Wall 1: Data Integration**
+Most contact centers have voice on one system, chat on another, CRM in a third. AI can't analyze what it can't see. The companies that break through wall 1 first usually do it by picking ONE conversation type and going deep — not trying to integrate everything at once.
 
-The CFO math: $7M AI budget in 2026, 85% inference. If agentic workloads scale 5x by 2028, that's $29.75M in inference alone unless someone is actively managing the unit economics now.
+**Wall 2: Workflow Fit**
+Supervisors get an AI dashboard and nobody tells them how it changes their job. 6 weeks later, they're still using the old scorecard. The fix: redesign the supervisor workflow BEFORE deploying the AI, not after.
 
-The teams doing it right are setting per-task token budgets, not per-model spend limits. Completely different optimization surface.
+**Wall 3: Agent Behavior Change**
+The AI flags an issue. The agent knows. And still doesn't change.
+
+This is the wall that separates deployed from operational. Behavior change requires real-time feedback loops, not weekly reports. The Wyndham case worked because coaching happened in the flow of work — not in a Monday debrief.
+
+The 88% → 25% operationalization gap exists almost entirely because of Wall 3.
