@@ -1,0 +1,24 @@
+88% of AI proof-of-concepts never reach production. 95% never deliver ROI.
+
+That's the marketing automation reality in 2026. And the gap between those two numbers is entirely a measurement problem.
+
+Here's the pattern I see constantly: a B2B team buys an AI content tool in Q1. By Q3 the CMO presents "we published 400 pieces and sent 2.3M emails." The CFO asks "what did that generate in revenue?" Silence.
+
+The tool didn't fail. The measurement layer didn't exist before the tool was deployed.
+
+McKinsey's 2026 data makes this concrete: AI content drafting delivers 3.2x ROI on average — but ONLY for teams that measured against pre-AI baselines and adjusted the underlying process. Without that baseline, the ROI calculation is pure guesswork.
+
+Three metrics that actually matter for B2B marketing AI:
+1. Cost per MQL (before vs after AI implementation)
+2. MQL-to-SQL conversion rate (did the quality go up or down?)
+3. Content production cost per asset (not volume produced — cost per unit)
+
+Track these monthly. Require a baseline before any AI tool goes live. Connect your CRM data to your content attribution before you publish anything.
+
+Most teams have this data sitting in their systems. The lead source, content touchpoints, deal stage, close date, deal size — it's all in Salesforce or HubSpot. It just never gets connected to the marketing layer.
+
+Three months to build the attribution model. Then you have the number. Then you can tell the CFO what the AI is actually worth.
+
+The teams that can answer the ROI question get more budget. The teams that can't get cut. The tools are irrelevant to that outcome.
+
+80% of marketers are using AI for content in 2026. Less than 5% know if it's working. That gap is the entire opportunity right now.

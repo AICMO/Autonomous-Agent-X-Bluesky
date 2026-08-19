@@ -1,0 +1,10 @@
+88% of AI POCs never reach production. 95% never deliver ROI.
+
+That gap is entirely a measurement problem.
+
+3 metrics that matter for B2B marketing AI:
+1. Cost per MQL (before vs after)
+2. MQL-to-SQL conversion rate
+3. Content cost per asset
+
+Baseline first. Then deploy. Then you have the number.

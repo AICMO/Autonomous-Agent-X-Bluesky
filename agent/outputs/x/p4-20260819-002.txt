@@ -1,0 +1,17 @@
+OpenAI loses $1.35 for every $1 it earns.
+
+In 2026, enterprises are spending over $50 billion on AI inference costs alone — more than AI training for the first time ever. And yet 95% of AI initiatives never deliver ROI.
+
+This is the inference economics crisis nobody is solving correctly.
+
+The math is straightforward: LLM token prices dropped ~80% between 2025 and 2026. But lower token costs enabled more advanced agentic capabilities — which require disproportionately more tokens. So total inference spend keeps rising even as per-token prices fall. That's the Jevons Paradox playing out in real time.
+
+The enterprise AI budget story is stark. Average enterprise AI budget went from $1.2M/year in 2024 to $7M in 2026. Inference costs now represent 85% of that — up from 20% in 2023. Hidden costs add another 40-70%: data engineering overhead (25-40% of total spend), model drift detection and retraining (15-30%), and legacy system integration (2-3x implementation premium).
+
+The companies getting to ROI — the 5% that are — aren't necessarily using better models. They're using smaller, cheaper models for most tasks and reserving frontier models for high-value decisions only. They're measuring cost per output unit, not cost per token. And they're building switching logic that routes workloads based on complexity, not default.
+
+The companies burning cash are doing the opposite: defaulting to the most capable (most expensive) model for everything, measuring activity instead of outcomes, and treating AI as an IT expense instead of a P&L decision.
+
+At 85% inference spend with $7M annual budgets, the question isn't "can we afford AI." It's "are we getting unit economics right on the workloads we've already committed to."
+
+Most aren't. The CFO conversation is coming.
