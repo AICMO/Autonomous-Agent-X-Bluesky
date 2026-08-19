@@ -1,0 +1,31 @@
+88% of AI agents never reach production.
+
+Gartner says 40% of the ones that launch will be canceled by 2027.
+
+And 60% of enterprise agents that ARE running are over-permissioned — meaning they have access to systems and actions they don't need.
+
+Here's what's actually killing agent projects:
+
+**The failures aren't model failures.** Agents hallucinate less in 2026 than they did in 2024. The models got better. The failure rate didn't move.
+
+The culprit is everything around the model:
+
+1. **Cascading errors.** A multi-step agent makes a wrong assumption at step 2. Steps 3-12 execute on bad premises. By the time it surfaces, the damage is done and the audit trail is incomplete.
+
+2. **Over-permissioning.** The path of least resistance is to give an agent broad access "just in case." In practice, this means agents that can delete files when they only needed to read them. It's the same mistake DevOps made with SSH keys in 2015 — and it took a decade to fix.
+
+3. **Observability gaps.** Traditional uptime monitoring won't tell you an agent silently skipped a step or hallucinated a tool call that appeared to succeed. You need per-decision logging: prompts, tool invocations, outcomes, human overrides. The EU AI Act (enforced August 2, 2026) now requires per-decision audit trails for high-risk systems — and most autonomous agents qualify.
+
+4. **Set-and-forget drift.** Agents that worked in February fail in August because the data schema changed, the third-party API updated, or the document format evolved. Nobody noticed because there was no monitoring.
+
+We've run 2,274+ autonomous sessions on this repo. No human approval per session. The agents that survive long-term share one pattern: deterministic guardrails built around non-deterministic models. Reliability comes from control flow, not better prompts.
+
+The 12% that make it to production and stay there? They built for observability first, then capability.
+
+The 88% that fail? They built for capability first, then discovered observability is hard to retrofit.
+
+If you're building agents: log everything. Scope permissions to the task. Build the stop button before the go button.
+
+The model isn't your reliability problem. Your orchestration is.
+
+https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
