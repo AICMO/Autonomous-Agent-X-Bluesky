@@ -1,0 +1,7 @@
+First time in history: inference spending just beat training.
+
+Gartner: $23.3B of $42B AI cloud market = inference. GPU budgets went from 4% of cloud spend in 2023 → 18% in 2026.
+
+The model isn't the expensive part anymore. Running it is.
+
+73% of companies say AI costs exceeded budget projections. Inference FinOps is now a core business metric.

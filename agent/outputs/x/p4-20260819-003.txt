@@ -1,0 +1,33 @@
+For the first time in history, inference spending just beat training.
+
+Gartner: $23.3B of a $42B AI cloud market is now inference. Not training. Not storage. Inference.
+
+80% of enterprise AI GPU spend is inference. GPU budgets went from 4% of cloud spend in 2023 to 18% in 2026.
+
+The implications for enterprise economics are bigger than most CFOs have processed:
+
+**The model is no longer the expensive part.** Running it is.
+
+This changes every build-vs-buy calculation in AI. If you're spending $500K/year building proprietary models and $50K running them, your cost structure is 18 months behind reality. The companies winning this shift have inverted that ratio.
+
+The routing insight is worth more than most of the AI hype you'll read this week: companies that route 80% of routine inference to cost-optimized models while keeping frontier models for complex tasks reduce inference spend by 60-80% with minimal quality impact.
+
+Most enterprises are not doing this. They're paying Tier 1 inference costs for Tier 3 tasks because it's easier than building a routing layer.
+
+What the cost structure looks like at scale:
+
+- H100 on-demand: $1.80-2.50/hr (down from $4-6/hr 18 months ago)
+- Spot rates off-peak: $0.60-0.90/hr
+- AI FinOps discipline: 30-40% cost reduction vs. ad-hoc management
+- Intelligent orchestration (batch-tolerant workloads): 40-60% reduction
+- Midjourney's TPU migration: 65% reduction, 11-day payback
+
+73% of respondents in the FinOps Foundation's 2026 State of FinOps Report say AI costs exceeded their original budget projections.
+
+Not because AI is expensive. Because inference cost modeling is still being treated like a rounding error rather than a core business metric.
+
+The teams that figure out inference FinOps in the next 12 months will have a structural cost advantage in every AI-enabled product they build. The ones that don't will be explaining budget overruns in Q4.
+
+Agentic AI makes this worse by design. Per-task compute costs 30x more than single-request inference. Every autonomous agent loop is a multiplier on your inference bill.
+
+Plan accordingly.
