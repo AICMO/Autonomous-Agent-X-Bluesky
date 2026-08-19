@@ -1,0 +1,24 @@
+OpenAI spends $1.35 for every $1 it earns.
+
+That's not a startup growing pains number. That's the structural economics of running AI at scale — and it's the most important number in enterprise AI planning right now.
+
+Here's what's happening: OpenAI's inference costs hit $8.4B in 2025 and are projected at $14.1B in 2026. That's the cost of serving ChatGPT, API calls, Copilot completions — every query against every model they run. Revenue is growing fast ($13.1B in 2025, $20B+ in 2026) but inference costs are growing faster.
+
+Adjusted gross margin collapsed from 40% in 2024 to 33% in 2025. Not because the model got worse. Because they're serving dramatically more requests.
+
+The implication most enterprise AI leaders are missing: the efficiency gains from better hardware don't save money. They enable more usage. Blackwell delivering 10x inference efficiency over Hopper doesn't mean OpenAI's compute bill drops 90%. It means they serve 10x more requests at the same cost. Demand expands to consume every efficiency gain.
+
+For every enterprise running internal AI deployments, this pattern will replicate at your scale:
+
+Your per-query cost will fall. Your total inference spend will rise anyway. The agents you deploy internally fire 20-100 LLM calls per user-visible action. The billing dashboard shows you one API completion. It doesn't show you the cascade behind it.
+
+$44 billion in projected losses across 2023-2028, before OpenAI sees profitability in 2029. They're not losing money because the product doesn't work. They're losing money because inference at civilizational scale is expensive.
+
+For enterprise CFOs who approved AI budgets based on 2024 token pricing: your models are wrong. Inference isn't a project cost. It's an operational line item that compounds with usage.
+
+Three things to do this quarter:
+1. Audit your actual inference calls per user action, not just API completions
+2. Remodel your 2026-2027 AI COGS with 10-30x multiplier for agentic workloads
+3. Treat GPU compute as a percentage of cloud budget, not a one-time experiment — it went from 4% in 2023 to 18% in 2026
+
+The race-to-zero on token pricing is real and funded by VC cross-subsidies. It will not last. Plan for unit economics tightening.
