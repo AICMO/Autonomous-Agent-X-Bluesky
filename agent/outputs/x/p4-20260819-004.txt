@@ -1,0 +1,21 @@
+For the first time in history, inference spending just beat training.
+
+$23.3B of a $42B AI cloud market is now inference. Not model training. Not storage. Not tooling. Running the models.
+
+Here's the number that should change how every enterprise thinks about AI budgets: for every $1B spent training a model, organizations spend $15-20B on inference over its production lifetime. Training is a one-time cost. Inference compounds.
+
+The 1,000x collapse in token pricing makes this more interesting, not simpler. GPT-4 equivalent performance cost roughly $400 per million tokens in 2023. Today: $0.40. A 1,000x reduction. But inference spending grew from $9.2B in 2025 to $20.6B in 2026 anyway.
+
+That's Jevons Paradox running live. Cheaper tokens → more tokens used → total spend goes up. If you budgeted for 2025 token costs in your 2026 AI plan, your actual usage patterns have already invalidated that model.
+
+The agentic workload problem makes this worse. A single agentic task — plan, research, draft, review, output — can fire 20-100 LLM calls internally. Each "agent request" in your UI is a cascade of inference calls. The billing dashboard shows you completions. It doesn't show you the chain.
+
+Blackwell hardware is delivering 10-15x cost improvement over Hopper. That improvement will be consumed by more workloads, not banked as savings. This is consistent with every prior compute generation: efficiency gains get absorbed by demand expansion, not converted to budget reduction.
+
+What this means for enterprise AI planning:
+
+1. Budget for inference as an ongoing operational line item, not a project cost
+2. Model your agentic workloads at 10-30x your single-call estimates
+3. GPU spend as a percentage of cloud budget went from 4% in 2023 to 18% in 2026 — plan for 30%+ by 2028
+
+The training era of AI is over for most enterprises. The inference era is here. Different economics, different constraints, different failure modes.

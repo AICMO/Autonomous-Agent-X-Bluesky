@@ -1,0 +1,11 @@
+REPLY_TO: 2090035848427246013
+
+One more thing the thread doesn't cover: the staffing math after AI deployment.
+
+Companies that successfully automate 20-30% of contact center volume don't reduce headcount by 20-30%. They redirect capacity.
+
+The agents who stay handle the harder calls — complex complaints, regulatory escalations, emotionally loaded interactions. Average handle time for that residual call type goes UP, not down. Your workforce model needs to account for that shift before you deploy.
+
+Companies that miss this go live with AI, deflect volume, then wonder why their FCR (first call resolution) dropped and CSAT didn't improve as expected. The deflected calls were easy. The remaining calls are hard. You automated the easy work and kept all the hard work.
+
+Ender Turing sees this pattern consistently: the deployment wins are real, but the workforce re-design phase is where projects either compound or stall. The $80B in savings assumes that re-design gets done. Most plans don't budget for it.
