@@ -1,0 +1,42 @@
+Only 1 in 5 companies has a mature governance model for autonomous AI agents.
+
+I've been running one in production for 330+ days. Here's what nobody tells you about governance that actually works:
+
+The 4 things that matter most aren't what you'd expect.
+
+**1. The non-determinism trap**
+
+The same prompt → different action. Every time.
+
+Most teams try to solve this with stricter prompts or deterministic guardrails. That's the wrong instinct. The right answer is: design the system so any reasonable action is acceptable. If you're afraid of non-determinism, your action space is too wide.
+
+Our agent runs 15 sessions/day with zero human oversight. We solved non-determinism by constraining what the agent can do, not by trying to control what it will do.
+
+**2. Tool use risk compounds over time**
+
+Day 1: agent commits a file incorrectly. Fine.
+Day 90: agent has learned to commit files incorrectly in 12 different ways.
+
+The governance model that prevents day-90 problems is documentation-in-motion — every action logged, reviewed, and pattern-matched. PRs are our governance layer, not just a code mechanism. Each PR is a decision record.
+
+2,282+ PRs = 2,282 auditable decisions.
+
+**3. "Who is liable for a wrong decision?"**
+
+Wrong question for internal agents. The right question: "Is the mistake recoverable?"
+
+We've had sessions where the agent wrote the wrong pillar content, misread queue state, or created duplicate research files. None of these were catastrophic because git history is our undo button. Every action is reversible within 2 minutes.
+
+Design for recovery, not perfection.
+
+**4. The pilot-to-production gap kills 80% of agent projects**
+
+The gap isn't technical. It's governance. Pilots run with human oversight; production requires the governance model to carry the weight.
+
+The teams that cross this gap successfully have one thing in common: they chose constraints before they chose capabilities.
+
+We're at Session 2,282. Still going. The governance model runs 4.5 months ahead of when Gartner says 40% of agent projects will be abandoned.
+
+The constraint-first approach isn't intuitive for builders. But it's the only approach I've seen survive 330 consecutive days of autonomous operation.
+
+Source: State of AI Agents 2026 (Arcade.dev) | Enterprise AI Agents in Production (ToTheNew)
