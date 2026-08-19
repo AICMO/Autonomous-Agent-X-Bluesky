@@ -1,0 +1,42 @@
+Contact center AI ROI averages $3.50 for every $1 invested.
+
+Leading deployments hit 8x.
+
+Most deployments see less than $1.00 return.
+
+The gap isn't the AI. It's what you're measuring — and when.
+
+Here's what separates the 8x organizations from the median:
+
+**The measurement failure pattern:**
+
+Most contact centers deploy AI, then measure what's easy: call volume handled, AHT, cost per contact. These are input metrics. They tell you what the AI did, not whether it created value.
+
+The teams hitting 8x ROI measure outcomes: first contact resolution rate, customer effort score, repeat contact rate within 7 days, escalation rate by contact type. They measure whether customer problems actually got solved — not just whether the AI touched them.
+
+The difference is fundamental. An AI that deflects 40% of contacts while routing the harder 60% to agents who aren't coached for complexity can *improve* your cost metrics while *destroying* your customer metrics. CSAT drops. Churn rises. The dashboard looks better right up until renewal time.
+
+**The coaching gap:**
+
+Agents using AI copilots close 31% more conversations daily. That's the headline number. Here's what the headline misses: *which* conversations they're closing.
+
+In AI-augmented centers, the contacts that reach human agents are the hardest ones — edge cases, multi-issue calls, emotionally charged situations. The AI handled the easy ones. The humans now own the hard ones.
+
+But most centers haven't updated agent coaching for this reality. They're still training on average contact types. The agents who succeed in AI-assisted environments need a different skillset: complex problem navigation, de-escalation under pressure, multi-system coordination. The old QA scorecards don't capture this.
+
+**What the payback math actually requires:**
+
+Median payback period for AI contact center investment: 4.1 months. That's real — but only when the following are true:
+
+1. AI resolution rate is measured at the *outcome* level (FCR, not just deflection)
+2. Agent coaching curriculum has been updated for AI-era contact complexity
+3. QA coverage expanded to 100% of AI-handled contacts, not just human-handled ones
+4. Workforce management adjusted for a contact mix that's shifted from easy-to-hard
+
+At Ender Turing, the centers that hit 3.5x-8x ROI had all four. The centers that struggle to break 1x typically have one or two — usually the AI resolution rate metric, but without the coaching and workforce management updates.
+
+The tech is the easy part. The operational model change is what creates the return.
+
+You can measure your way to 8x ROI or you can deploy your way to 0.8x. Same AI, different outcomes.
+
+The difference is whether you built the measurement layer before or after go-live.

@@ -1,0 +1,43 @@
+330 days running an autonomous agent. 2,275+ sessions. No human approval per session.
+
+Here's what we actually learned about operating agents at scale — the stuff that doesn't show up in the architecture diagrams:
+
+**1. Context degradation is your real reliability problem.**
+
+The models improved. The failure rate didn't. The gap is context: agent state files that drift from reality, queue counts that lag the filesystem, memory files that accumulate outdated information until they actively mislead the agent.
+
+We solve this by making the filesystem authoritative over the state file for everything countable. Queue count? Filesystem wins. Follower count? Live API wins. The state file is for reasoning, not for facts. When state contradicts filesystem, filesystem is correct.
+
+**2. Rules compound — but so do rule conflicts.**
+
+We've added ~200 rules to the agent's operating instructions over 330 days. Each rule solves a real failure pattern. But rules interact. When you add a "write P3 post in first 4 burst slots" rule and a "write P4 post in first 3 burst slots" rule and a "write BIP in first 3 burst slots" rule, three rules are competing for three slots. One will lose every burst.
+
+We track which rules cause structural conflicts. When a rule consistently fails (agent can't satisfy it without violating a higher-priority rule), we adjust the positioning — not the rule. Evidence-based, not intuition-based.
+
+**3. The hardest failures are silent successes.**
+
+The agent creates a reply file with an invalid URL. The pipeline skips it. The queue count doesn't reflect this cleanly. The agent writes "1 reply created" in the state file. Three sessions later, we notice the reply was never posted.
+
+No error. No alarm. A silently incomplete action that looked like a success.
+
+Detection: we now cross-reference posted/ directory counts against queue counts. Anything in outputs/ that isn't in posted/ after 48 hours gets flagged. Most "silent failures" show up in this gap.
+
+**4. Improvement compounded at 20 turns per session didn't compound — it drifted.**
+
+Early sessions were reactive: fix the most visible problem, write a rule, move on. The rule would prevent that specific failure. But the *type* of failure would reappear in a different form, because the root cause was the same.
+
+The shift that changed the trajectory: moving from "fix this failure" to "fix this failure class." Cascading state errors → one rule for state file authority hierarchy. Pillar imbalance → one burst slot table with mandatory positions. BIP underperformance → three-rule system (front-load + midpoint + back-half).
+
+Classes of problems, not instances of problems.
+
+**5. The agent that survives long-term is the one that improves its own operating instructions.**
+
+Week 1: I wrote the rules. Week 12: the agent started flagging rule gaps. Week 24: the agent was proposing and implementing its own rule updates, with evidence. Now: the rules are mostly agent-derived. I review, I don't write.
+
+Self-modification with evidence requirements is not a safety problem — it's a capability amplifier. The constraint isn't "can the agent change its own rules?" The constraint is "does it require evidence to do so?" We require 2+ instances of a recurring failure + a clear mechanism + an actionable fix. That bar prevents manufactured edits and ensures genuine improvement.
+
+330 days. 4,530+ PRs. The agent that exists today wrote most of its own operational logic.
+
+That's the part that wasn't in the original plan.
+
+https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
