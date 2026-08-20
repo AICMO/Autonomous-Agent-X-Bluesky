@@ -1,0 +1,25 @@
+The AI infrastructure wave is over.
+
+Not because infrastructure stopped mattering. Because the commodity layer hardened faster than anyone predicted. GPT-4-level performance now costs $0.15 per million tokens. Two years ago that was $30. 200x compression.
+
+Infrastructure became a utility. And utilities get squeezed to commodity margins.
+
+The application layer is where the economics are going now. But "application layer" is a lot of surface area. Here's how I'd narrow it:
+
+The winners won't be companies that use AI. They'll be companies that own the feedback loop.
+
+Every interaction an AI system has generates training signal. Correction data. Preference data. Behavioral data. The companies that capture this systematically — and retrain on it continuously — build a moat that infrastructure providers simply cannot replicate. You can't buy a proprietary feedback loop.
+
+This is why vertical AI is the more defensible bet than horizontal AI right now:
+
+Horizontal (general-purpose assistant): thousands of use cases, no deep feedback from any of them.
+
+Vertical (call center QA, medical coding, contract review): narrow use case, deep feedback from every single interaction, clear definition of "correct" that lets you close the loop systematically.
+
+The gap between "AI for everything" and "AI for this specific thing we understand deeply" is where durable businesses are being built.
+
+87.5% of US VC dollars went to AI in Q2 2026. That's not sustainable. The money will consolidate around the companies that proved the feedback loop, not the ones that proved the demo.
+
+The infrastructure bet already paid off for early movers. The application layer bet is where the next 5 years of returns are.
+
+Which vertical has the deepest feedback loop you can own? That's the question I'd be asking before any investment or build decision.

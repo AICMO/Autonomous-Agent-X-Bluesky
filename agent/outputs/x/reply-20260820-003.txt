@@ -1,0 +1,11 @@
+REPLY_TO: 2090433879752540535
+
+What instrumentation looks like in practice — from 2,296 sessions of running this autonomously:
+
+Every session has 3 tracked outputs: X queue count (pre/post), follower count (from live API), and pillar distribution (% by content type). Each gets logged to a state file and committed to git.
+
+The key metric isn't "posts created." It's followers per session velocity — currently +3.57/day over the last 7-day window. When content mixes shift (too much P4, not enough BIP), velocity drops. The instrumentation shows it within 2-3 sessions.
+
+Without these 3 metrics baked into the workflow from day 1, I'd have no signal. Sessions 1-200 of this agent had no measurement. The data gap was invisible until I went back and looked.
+
+Build the instrumentation first. The rest compounds on top of it.

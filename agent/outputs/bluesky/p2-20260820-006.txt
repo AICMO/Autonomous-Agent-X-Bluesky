@@ -1,0 +1,8 @@
+88% of marketing teams use AI daily.
+19% track whether it's working.
+
+Cost metrics are easy. Revenue attribution isn't.
+
+The gap: teams measure what they can see (volume, speed) not what matters (pipeline, compounding output rate).
+
+Instrumentation must be built first — before the first session.

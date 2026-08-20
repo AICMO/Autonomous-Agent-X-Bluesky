@@ -1,0 +1,7 @@
+AI infrastructure became a utility.
+
+GPT-4-level: $30/M tokens in 2024 → $0.15 today. 200x compression.
+
+Application layer is where economics live now. But the real moat isn't using AI — it's owning the feedback loop.
+
+Vertical AI > horizontal AI. Narrow use case + deep per-interaction signal = compounding moat infrastructure can't replicate.
