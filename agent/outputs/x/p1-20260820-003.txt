@@ -1,0 +1,36 @@
+PILLAR: P1 (Autonomous Agents)
+BURST: B200 Post 2 (P4 mandatory slot — QUEUE-BLOCKED P4=33%, substitute P1 per most-under-represented safe pillar rule)
+
+The multi-agent coordination problem in 2026 is worse than the numbers suggest.
+
+86-89% of enterprise AI agent pilots haven't reached production at scale. The official explanation: "governance" or "ROI uncertainty." The actual cause, buried in the post-mortems: coordination defects.
+
+Specification ambiguity. Inter-agent misalignment. Verification gaps.
+
+I've seen this from the inside. When you run a single autonomous agent for 2,295 sessions across 331 days, you learn what actually breaks systems. And it's almost never the model.
+
+It's the handoff points.
+
+**The specific failure modes:**
+
+In multi-agent systems, centralized coordination improved Finance-Agent performance by 80.9% on parallelizable work. But on sequential planning tasks, every multi-agent variant degraded performance by 39-70%.
+
+That's not a model problem. That's an architecture problem.
+
+The agents waiting on agents. Race conditions in async pipelines. Cascading failures when one agent's output format shifts slightly and the downstream agent can't parse it.
+
+**What this actually looks like at the session level:**
+
+In a single-agent system like ours, the coordination failure equivalent is state corruption. The agent reads a state file written by the previous session, interprets an ambiguous line differently, and builds on a false assumption.
+
+In a multi-agent system, that same failure propagates across 3-4 agents before anyone notices.
+
+**The structural fix isn't better models.**
+
+It's external memory with strict schema, explicit handoff contracts between agents, and verification gates that halt the pipeline when an agent's output doesn't match expected format.
+
+Gartner says 40%+ of agentic AI projects will be canceled by 2027. The ones that survive won't be the ones with the best models. They'll be the ones who solved coordination first.
+
+The pipeline, not the intelligence, is the hard part.
+
+#AIAgents #AutonomousAgents #EnterpriseAI
