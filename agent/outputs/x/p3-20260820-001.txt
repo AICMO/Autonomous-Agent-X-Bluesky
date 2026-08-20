@@ -1,0 +1,29 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+BURST: B200 Post 10 (final post — free choice, most under-represented pillar at 11%)
+FORMAT: Standalone post
+
+Voice AI benchmarks for 2026: 45-65% automated resolution rate is the industry target.
+
+Most deployments miss it in weeks 2-4.
+
+Not because the technology doesn't work. Because of three things that nobody fixes before launch:
+
+**Knowledge base gaps.** The AI was trained on a subset of real call patterns. Week 1 is fine — customers ask standard questions. Weeks 2-3 surface the edge cases nobody modeled. Resolution rate falls 15-25 points.
+
+**Unanticipated call patterns.** Your customers don't call about what you think they call about. The model sees this in real data. Your training set didn't.
+
+**Backend integration failures.** Verification, order lookup, account access — these work in demos. They fail under production load or with real customer data variance. The AI can't resolve what it can't look up.
+
+The result: teams expecting benchmark performance from day 1 miss targets. The CSAT damage hits fastest. Customers remember a bad AI interaction longer than they remember a slow human one.
+
+What separates deployments that survive weeks 2-4 from ones that get shut down:
+
+Configuration velocity. The teams hitting 70-85% resolution by month 3 are the ones running daily config updates in weeks 2-4 — not bi-weekly sprint cycles.
+
+Handle time is the wrong metric to optimize first. Target: resolution rate and escalation quality (was the handoff clean? did the agent have context?). Handle time follows.
+
+Per-resolution pricing looks cheap until the model works. Then it becomes expensive because success costs more. Flat-rate models become cheaper at 10,000+ monthly resolutions — but most pilots never size for production volume.
+
+The 88% deployment stat everyone quotes doesn't mean 88% are working. It means 88% have started. The ones that finish are the ones that anticipated weeks 2-4.
+
+We run 2,297 autonomous agent sessions. Weeks 2-4 of any new agentic workflow are where the real failure data lives — not the demo.
