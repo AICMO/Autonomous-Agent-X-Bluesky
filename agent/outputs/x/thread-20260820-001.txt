@@ -1,0 +1,89 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+BURST: B199 Post 7 (Thread — threads_this_burst=0, mandatory by posts 7-8. P3 tiebreak winner: deepest owner expertise)
+FORMAT: Thread (4 posts, --- separator)
+
+---
+
+The call center AI pitch sounds clean: replace expensive agents with AI, cut cost per call from $6 to $0.30.
+
+Here's what the pitch leaves out — and why 75% of pilots never reach production.
+
+Thread on the pilot-to-production gap that nobody talks about.
+
+---
+
+**Post 1 of 4:**
+
+88% of contact centers say they're "using AI." Only 25% have integrated it across their actual workflows.
+
+That gap — 88% vs 25% — is the most important number in enterprise AI right now.
+
+Not because AI doesn't work. Because "using AI" almost always means one thing: a chatbot tacked onto the front door. Handle the easy stuff, escalate everything else.
+
+That's not AI in the contact center. That's AI at the edge of the contact center.
+
+The actual intelligence problem — what happens during 30% of conversations where the real business risk lives — stays untouched. The messy, ambiguous, high-stakes calls where a wrong response costs you a customer or creates a compliance incident. AI can't touch those yet. Not because of model capability. Because of data infrastructure.
+
+Every high-value call category requires labeled training data from your specific call flows. And building that labeling pipeline is the work that kills pilots.
+
+---
+
+**Post 2 of 4:**
+
+Here's what the $0.30/call economics actually require to work:
+
+1. You need deflection rates above 60% — or the math collapses. Handle 40% of volume with AI, and your blended cost doesn't move much. It's a rounding error.
+
+2. You need first-call resolution rates that match your human agents — or you're just creating callback volume. AI that resolves calls at 70% when your agents resolve at 85% generates 15% extra contacts. Your cost per resolved inquiry goes up.
+
+3. You need integration with your CRM, your ticketing system, your policy database. Live. Not batch synced, live. Because AI can't handle "what's the status of my claim" if it can't pull your claim system in real time.
+
+Most pilots fail here. The demo environment has clean, integrated data. Production has 6 siloed systems that don't talk to each other.
+
+The gap isn't the model. The gap is data infrastructure.
+
+---
+
+**Post 3 of 4:**
+
+The call centers that are actually succeeding with AI in 2026 are doing something different.
+
+They didn't start with deflection. They started with agent assist.
+
+Specifically: real-time transcription + in-call guidance. The human agent stays on the call. The AI listens, surfaces the next best action, pulls the relevant policy, flags compliance risks.
+
+This is a fundamentally different ROI case than deflection:
+- No deflection rate dependency
+- No first-call-resolution risk
+- Data infrastructure requirements are lower (AI reads what the agent sees)
+- Training data comes from existing call recordings
+
+And the results compound. Every good AI-assisted call generates labeled data for the next model iteration. Deflection-first pilots generate unlabeled escalation data — you learn what AI can't handle, not what it can.
+
+Agent assist is the wedge. Deflection comes after 18-24 months of data flywheel.
+
+I've watched this play out at 30+ contact centers through Ender Turing. The successful ones all used the same wedge.
+
+---
+
+**Post 4 of 4:**
+
+The operational readiness gap that kills call center AI:
+
+Pilot success rate: high. Go-live 12 months later with the same solution: 40% don't make it.
+
+What changes in 12 months?
+
+Your call volume changes. Your products change. Your policies change. Your agents change.
+
+The AI model trained on last year's calls doesn't know about this year's pricing change that's causing 300 calls/day. It doesn't know the new policy you rolled out last quarter. It's confident and wrong in precisely the category of calls that spiked.
+
+This is the maintenance problem that gets skipped in every pilot business case.
+
+Successful deployments build ongoing retraining pipelines before go-live. They define the retraining trigger: "When model accuracy drops below X% on a 30-day rolling window, trigger a retraining cycle." They allocate the labeling budget. They name the person responsible.
+
+Pilots that don't do this are making a bet that the world won't change. Contact centers change every quarter.
+
+The ones hitting $0.30/call economics have been at it for 2+ years. The economics aren't in the model. They're in the operations around the model.
+
+That's the gap. And it's solvable — if you stop treating go-live as the finish line.

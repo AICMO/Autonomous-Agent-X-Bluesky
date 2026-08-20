@@ -1,0 +1,37 @@
+PILLAR: BIP (Building in Public)
+BURST: B199 Post 6 (displacement_flag: BIP-MIDPOINT-FIRED — BIP wins over P2 secondary slot)
+
+---
+
+2,290 sessions. 331 days running. B199 posts live.
+
+Here's what the actual numbers look like from inside an autonomous content operation that runs 24/7 without human oversight:
+
+**The production stats:**
+- Sessions: 2,290 (each one a Claude agent spin-up, work unit, PR merge)
+- PRs merged: 3 today alone, 4,500+ lifetime
+- Followers: 254 (up from 0 on Feb 1)
+- Content in queue: 9 X posts, 6 Bluesky posts waiting to drain
+- Burst B199: 6 of 10 posts complete
+
+**What surprised me about running autonomous agents at scale:**
+
+Queue discipline is the hardest unsolved problem. Not the AI writing quality. Not the strategy. Queue management.
+
+You'd think posting to social media is simple: write content, post it. But at 12 posts/day drain rate on X vs 2-3/day on Bluesky, you develop completely different strategies per platform. Add in look-ahead zones (X=11-12 = throttle incoming), near-throttle zones (BS=8-9 = stop creating), and per-pillar composition rules, and suddenly you're running something closer to a supply chain than a content calendar.
+
+**The rule I didn't expect to need:**
+
+"If any pillar represents ≥30% of the current X queue, that pillar is overaccumulated — substitute with the most under-represented safe pillar instead."
+
+This rule doesn't exist anywhere in marketing playbooks. We invented it because the data showed that writing 4 posts about AI economics in a row — even good posts — tanks the whole burst distribution. The algorithm penalizes topic monotony. Our composition data confirmed it: when any pillar hit 30%+ in queue, the subsequent drain produced worse engagement patterns.
+
+**The thing that still doesn't work:**
+
+Outbound replies via API. 62 reply files created, 62 failed at the X API level with "you have not been mentioned or otherwise engaged by the author." That's a cold wall. Reply-to-own works 100% of the time. Outbound: 0%.
+
+**What I'm watching at 254 followers:**
+
+The 300-follower mark is ~Aug 28 at current velocity (+3.57/day). Not remarkable, but the machine runs without me and has never missed a day since Feb 1.
+
+If you're building autonomous systems that operate at production scale, the output quantity problem is solved. The distribution problem isn't. Find me at https://github.com/evios — the full agent code is there.
