@@ -1,47 +1,84 @@
-Gartner says AI will cut contact center labor costs by $80B by 2026.
+AI inference just crossed a threshold most founders haven't internalized yet.
 
-88% of enterprises have AI tools deployed in their contact centers. Only 25% have moved beyond pilots.
+GPT-4 cost $30 per million tokens in March 2023.
 
-That 63-point gap is not a technology gap. Here's what it actually is (thread):
+The same capability level costs $0.14 per million tokens today. That's a 214x reduction in 40 months.
 
----
-
-1/ It's a measurement gap.
-
-Contact center leaders can't show ROI on AI because they didn't capture the right baseline before deployment. You need: handle time per call, cost per resolved ticket, CSAT per queue, escalation rate by issue type.
-
-Without those four numbers pre-AI, you're negotiating your budget with feelings.
+Here's what that actually means for building AI products — and why most business models built on "AI is expensive" are about to break:
 
 ---
 
-2/ It's an integration gap, not an AI gap.
+First, a correction on the narrative.
 
-Most enterprise contact centers run on infrastructure that's 8-12 years old. The AI tools work fine in demos — they connect to modern APIs. They fail in production because your call data lives in a CRM from 2014 that exports CSV files.
+Everyone talks about "AI getting cheaper." What they miss: the *capability per dollar* is what dropped 214x — not just cost.
 
-The blocker isn't "the AI isn't good enough." The blocker is "we can't get clean data to the AI fast enough."
+In 2023, GPT-4 at $30/million tokens was the only way to get frontier reasoning. In 2026, you get the same reasoning for $0.14 with DeepSeek V4-Flash. You don't sacrifice quality to save 99.5% of the cost.
 
----
+This isn't commodity pricing. This is capability deflation.
 
-3/ It's an agent performance measurement gap.
-
-The AI tools that succeed are the ones where someone is tracking: first call resolution rate, deflection rate, containment rate, and average handling time — separately for AI-assisted vs. non-AI-assisted calls.
-
-Companies that track these metrics hit production. Companies that measure "overall contact center efficiency" stay in pilot.
+The difference matters enormously for what products are now viable.
 
 ---
 
-4/ It's an ownership gap.
+Let me make the math real.
 
-Every successful AI contact center deployment I've seen has one name attached to the P&L impact. Not a committee. Not a vendor dashboard. One person who answers: "What did this generate in Q2?"
+In 2023: Running 10 million tokens/day through GPT-4 cost $300/day. $9,000/month. Most early-stage teams couldn't justify it.
 
-When AI is "IT's project" in a contact center, it dies in pilot. When it's "Operations VP's Q3 target," it ships.
+In 2026: Same workload, equivalent capability. $1.40/day. $42/month.
+
+You just went from "burn rate item" to "rounding error."
+
+What does that unlock? Every workflow you couldn't automate because the ROI math didn't work. Every agent that needed human review because per-interaction AI cost was too high. Every analytics pass you ran monthly instead of daily because compute was the bottleneck.
+
+At $0.14/million tokens, the constraint isn't cost. It's workflow design.
 
 ---
 
-5/ The $80B is real. So is the graveyard.
+Here's where it gets complicated: Jevons Paradox.
 
-For every company that cuts handle time 40% with AI, there are four that spent 18 months in evaluation, never shipped, and are starting over with a new vendor.
+When efficiency doubles, consumption more than doubles. Every documented case of energy efficiency improvement — electricity, oil, steam — resulted in MORE total consumption, not less.
 
-The difference isn't which AI vendor they chose. It's whether they did the boring infrastructure work (data quality, baseline metrics, ownership model) before the first pilot.
+AI inference is following the same pattern. Costs dropped 214x. API call volume grew roughly 1,000x.
 
-Start with the boring work. The $80B is waiting on the other side of it.
+Total AI spending is up — massively — even as per-token cost collapsed. Companies aren't pocketing the savings. They're deploying AI at 50x the previous volume.
+
+For infrastructure and cloud providers: this is existential pressure on margins. For product companies: this is tailwind. Every dollar of AI spend now does 214x the work it did in 2023.
+
+The opportunity isn't to save money on AI. It's to do 200x more with the same budget.
+
+---
+
+What this means for product strategy:
+
+The products that fail next: AI tools built on premium pricing for "GPT-4 quality" that's now available at commodity rates. If your pitch was "best AI quality available," your moat just eroded.
+
+The products that win next: Those that use cheap inference to do things that were previously cost-prohibitive at scale.
+
+Examples of what's now viable that wasn't in 2023:
+— Real-time AI QA on 100% of customer conversations (not 3% sampling)
+— Per-interaction personalization at contact center scale
+— Autonomous agents that run 2,000+ sessions without human sign-off
+— AI analysis on every sales call, not just flagged ones
+
+At Ender Turing, we've seen this directly. The contact centers we work with aren't replacing their AI infrastructure. They're expanding it — into channels, into workflows, into coaching loops that didn't exist 18 months ago.
+
+The bottleneck moved from compute to process. That's a fundamental shift.
+
+---
+
+The projection nobody wants to say out loud: at current trajectory, GPT-4-equivalent inference hits under $0.01 per million tokens by 2028.
+
+The business model implications of that are larger than most people have modeled.
+
+When inference is essentially free, the value isn't in the model. It's in:
+— What data you're running through it
+— What workflows you've built around it
+— What proprietary context you've accumulated
+
+This is the actual AI moat in 2026: not "we use AI" — everyone does. Not "our AI is better" — costs are converging. The moat is: "We've been running AI workflows long enough to accumulate operational data that makes our AI decisions better than anyone starting today."
+
+That's a compounding advantage. And it's available to any company that started building in 2023-2024 and is still at it.
+
+The 214x cost drop didn't commoditize AI. It raised the stakes for everyone who isn't already running.
+
+If you're waiting to "justify the investment" — the cost is no longer the investment. The delay is.
