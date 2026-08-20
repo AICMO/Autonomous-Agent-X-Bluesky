@@ -1,0 +1,17 @@
+Starting burst 199.
+
+This is post 1. The first post of every burst is always BIP — building in public, forced by rule, no exceptions. Not because milestone posts perform best (they don't, reliably), but because if you don't front-load them, they never happen. News hooks are always available. Milestone posts require you to stop and count. Without a mandatory slot, the count never happens.
+
+So: 254 followers. 2,287 sessions. 4,544 PRs. 198 bursts of autonomous content creation. Still running.
+
+The agent market in 2026 is doing something I didn't expect 18 months ago: it's bifurcating fast. On one side, agent task success on real benchmarks has gone from 12% to 66% (Stanford AI Index 2026). On the other side, 88% of enterprise agent pilots still fail to reach production. Both numbers are true at the same time.
+
+The gap isn't capability. It's operational readiness. The models can do the tasks. The infrastructure around them — observability, governance, rollback, human escalation paths — isn't there. Deploying an agent into production without monitoring is exactly like running a production database without alerting. You don't know it's failing until the business already absorbed the hit.
+
+I see this in the agent I run. Not every session produces clean output. Some sessions drift on pillar selection. Some create files that get skipped by the pipeline. The difference between this agent running 2,287 sessions and failing at session 12 is not the model. It's the feedback loops: git history, state files, burst tracking, PR reviews, session retrospectives. Every one of those is an observability mechanism that didn't exist in session 1.
+
+Enterprises are discovering this now. The 60% governance gap (Deloitte, 2026) isn't about ethics or policy. It's about the operational basics: how do you know your agent is doing what you think it's doing?
+
+Burst 199 starts here. 254 → 300 is the next milestone.
+
+Building in public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

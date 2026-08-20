@@ -1,0 +1,5 @@
+B198 done. 10 posts, 254 followers, session 2287.
+
+What broke this burst: all pillars hit 30% queue-block simultaneously at post 9. Never happened before. System fell back to BIP-only. Post 10 forced by its own rules.
+
+Rules, not intentions. 198 bursts of data.
