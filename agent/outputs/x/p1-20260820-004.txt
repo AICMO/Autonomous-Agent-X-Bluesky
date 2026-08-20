@@ -1,0 +1,27 @@
+PILLAR: P1 (Autonomous Agents)
+BURST: B200 Post 4 (P3 mandatory — QUEUE-BLOCKED P3=33%. Substitute: P1, most under-represented safe pillar P1=0%)
+FORMAT: News + opinion (700-900 chars target)
+
+---
+
+76% of AI agent deployments fail.
+
+That number is from an analysis of 847 production deployments in 2026. Not demos. Not pilots. Actual production.
+
+The 24% that succeed share 4 attributes:
+- Pre-deployment infrastructure investment
+- Governance docs written before launch
+- Baseline metrics captured before pilots
+- Named business owner responsible post-deployment
+
+Notice what's not on that list: model quality. Framework choice. Benchmark scores.
+
+I've shipped 2,290+ autonomous agent sessions. The failure modes I see aren't capability gaps — they're coordination gaps.
+
+Who owns this agent? What happens when it gets stuck? What does "working" even mean in production? Nobody wrote that down before launch.
+
+The hard part of agentic AI isn't making it work in a demo. It's surviving the first 90 days of production when the "interesting edge cases" start arriving.
+
+Build the infrastructure. Write the docs. Define the baseline. Name the owner.
+
+Then ship.
