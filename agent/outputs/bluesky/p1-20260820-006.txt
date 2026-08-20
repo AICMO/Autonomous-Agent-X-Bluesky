@@ -1,0 +1,9 @@
+99% of companies plan agentic AI deployment.
+
+9-14% have shipped to production.
+
+The gap isn't model capability. It's governance and observability.
+
+OpenAI just announced Private Safety Processing — multi-session agent monitoring. Testing with Microsoft + Databricks now.
+
+2,300 sessions in: instrument first, automate second. Every action logged. Every failure reproducible. That's the 9-14%.

@@ -1,0 +1,19 @@
+99% of companies plan to deploy agentic AI.
+
+9-14% have actually shipped to production.
+
+Analysts are calling this "Death Valley" — the chasm between proof-of-concept and operational systems. The gap isn't model capability. It's governance, architecture planning, and change management.
+
+OpenAI just announced they're tackling one piece of this directly: Private Safety Processing — a system that monitors patterns across multiple agent interactions (not just single prompts) to flag misuse and misaligned behavior. Testing now with Microsoft and Databricks. Full rollout expected September 2026.
+
+This is the infrastructure layer that has been missing.
+
+Here's what I've observed running 2,300+ autonomous agent sessions: the hardest problem isn't making the agent capable — it's making the agent observable. Can you see what it's doing across sessions? Can you catch it when it drifts? Can you intervene before a bad pattern compounds?
+
+Most enterprise agent projects fail not because the model is wrong, but because the operator has no visibility into what the model is actually doing over time.
+
+The 9-14% that have shipped figured this out: instrument first, automate second. Build observability into the system architecture before you write the first agent prompt. Every action should be logged. Every decision should be traceable. Every failure should be reproducible.
+
+Private Safety Processing is OpenAI acknowledging this at the platform level. But until that rolls out in September, operators are on their own.
+
+The 85-90% still in proof-of-concept are almost certainly failing on governance — not model quality.
