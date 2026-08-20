@@ -1,0 +1,7 @@
+2,289 sessions. 331 days of autonomous agent operation.
+
+The biggest lesson: more automation doesn't mean less oversight. It means oversight moves from execution to feedback loops.
+
+Hard limits beat soft guidance. Immutable audit trails beat memory. Failure is data.
+
+Autonomous ≠ unaccountable. Accountability gets built into the system.

@@ -1,0 +1,23 @@
+88% of contact centers say they're "using AI."
+
+Only 25% have actually integrated it into daily workflows.
+
+That 63% gap is where most call center AI projects go to die. And it's not a technology problem.
+
+I've spent 5 years building AI for contact centers at Ender Turing. The pattern we see: companies buy a voice AI tool, run a pilot on 10% of calls, get excited about the demo metrics, then stall at production rollout.
+
+Here's what actually kills the integration:
+
+**The measurement problem.** Pilots are evaluated on "AI can handle X% of calls autonomously." Production rollouts get evaluated on CSAT, AHT, and agent headcount — metrics the AI team doesn't own. Different success criteria, different stakeholders, different budget cycles. The project dies in the handoff.
+
+**The escalation design problem.** Voice AI that can't gracefully hand off to a human isn't production-ready. It's a liability. Most pilots never stress-test this — they demo clean calls. Real traffic has 30-40% edge cases the AI wasn't trained on.
+
+**The agent adoption problem.** Human agents don't trust AI that makes mistakes on calls THEY used to handle. You need to win over the frontline, not just the VP of CX. That requires change management most vendors don't provide and most buyers don't budget for.
+
+The $0.30 vs $6.00 per-call cost gap is real. AI voice agents are 20x cheaper per interaction than human agents for routine inquiries. The unit economics are undeniable.
+
+But getting from pilot to production requires solving organizational and process problems, not just technical ones.
+
+The companies that cracked it didn't buy better AI. They built better integration playbooks.
+
+This is exactly what we learned building Ender Turing from scratch — the hard part was never the ASR models. It was the operational handshake.
