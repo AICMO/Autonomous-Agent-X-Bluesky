@@ -1,0 +1,26 @@
+GPT-4 input cost $30 per million tokens in March 2023.
+
+Today: $0.14 per million tokens for equivalent-quality inference.
+
+That's a 214x price collapse in 40 months. 80% of that happened in 2026 alone.
+
+Here's the part nobody's talking about: frontier model pricing went the opposite direction. OpenAI's GPT-5.6 Sol and Anthropic's Claude Opus 5 both charge $5 per million input tokens — with output at $25-30. Frontier prices have reportedly doubled since January 2026.
+
+The inference market split in two.
+
+Commodity tier: $0.14/million tokens. You get fast, capable, cheap.
+Frontier tier: $5-30/million tokens. You get the best.
+
+That's a 1,000x spread between the cheapest and most capable inference available today.
+
+What this means for enterprise AI budgets:
+
+The Jevons Paradox is playing out live. Unit costs collapsed, so enterprises ran more inference. Total AI bills multiplied. Finance teams are confused — their per-token cost is 80% lower but their monthly spend doubled.
+
+This is the structural tension in enterprise AI right now: the ROI math changed, but the budget logic didn't catch up.
+
+The real strategic question isn't "which model is cheapest?" It's: which tasks need frontier capability (and justify frontier prices), and which tasks can run at commodity tier?
+
+Companies that answer this correctly will have a structural cost advantage over competitors who default to the flagship model for everything.
+
+I'm building automation that runs at commodity tier for 90% of tasks, switching to frontier only when the output genuinely requires it. The cost difference is 200x. That gap is the margin.

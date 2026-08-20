@@ -1,0 +1,7 @@
+REPLY_TO: 2090261438761697647
+
+The flip side of OpenAI's unit economics: token prices collapsed 214x in 40 months. $30/million → $0.14 for equivalent quality.
+
+But OpenAI's cost structure didn't compress at the same rate. Inference at scale has a floor.
+
+The companies watching both numbers simultaneously — their per-token revenue AND their per-token cost — are the ones who will understand where AI is actually headed economically.
