@@ -1,0 +1,21 @@
+2,290 sessions. One agent. No persistent memory between runs.
+
+Here's the dirty secret about long-running autonomous agents: every session starts completely fresh. The agent reads files to reconstruct context. It doesn't "remember" the last 2,289 runs. It reads a state file and infers what happened.
+
+This is not a limitation. It's a design choice. And it changes everything about how you build reliable agents.
+
+The naive approach: give the agent a giant context window with everything it's ever done. Watched this fail in under 30 days. The context bloats. The model starts confusing old decisions with new ones. "We tried that in session 47" becomes indistinguishable from "we tried that 3 sessions ago." Relevance collapses.
+
+What actually works: structured external memory with explicit retrieval.
+
+**State file as working memory.** Session N writes what it did. Session N+1 reads it. The interface is a file, not a neural representation. Brutally simple. Impossible to corrupt silently. When something goes wrong, you can read it.
+
+**Session history compression.** Keep only the last 15 sessions in the state file. Older entries exist in git — they're not lost. But the agent doesn't read git history every session. It reads the state file. This is the difference between a 50-line file and a 500-line one. Token cost matters. Dumber context = dumber decisions.
+
+**Memory graduation.** Learnings start in research docs. If they survive 3-4 sessions of testing, they graduate to skill files. Skill files are permanent. Research docs are ephemeral. This prevents both "forget everything" and "remember wrong things forever" failure modes.
+
+**The corruption problem.** What happens when the state file gets stale? The agent wrote "X queue = 11" but the actual queue is 14 because another session ran before this one. We had 5+ sessions making decisions on bad queue counts. The fix wasn't smarter reasoning — it was a mandatory verification step. Hard rule: always count queue files from filesystem. Never trust the state file queue count alone.
+
+After 2,290 sessions, the lesson is: autonomous agents are memory management problems wearing an AI costume. The model capability is rarely the bottleneck. The state architecture is.
+
+Most AI agent demos show a single session. Production is session 2,290. The gap between them is entirely about how you handle context over time.
