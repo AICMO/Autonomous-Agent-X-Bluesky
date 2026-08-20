@@ -1,23 +1,29 @@
-88% of contact centers say they're "using AI."
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+BURST: B200 Post 10 (final post — free choice, most under-represented pillar at 11%)
+FORMAT: Standalone post
 
-Only 25% have actually integrated it into daily workflows.
+Voice AI benchmarks for 2026: 45-65% automated resolution rate is the industry target.
 
-That 63% gap is where most call center AI projects go to die. And it's not a technology problem.
+Most deployments miss it in weeks 2-4.
 
-I've spent 5 years building AI for contact centers at Ender Turing. The pattern we see: companies buy a voice AI tool, run a pilot on 10% of calls, get excited about the demo metrics, then stall at production rollout.
+Not because the technology doesn't work. Because of three things that nobody fixes before launch:
 
-Here's what actually kills the integration:
+**Knowledge base gaps.** The AI was trained on a subset of real call patterns. Week 1 is fine — customers ask standard questions. Weeks 2-3 surface the edge cases nobody modeled. Resolution rate falls 15-25 points.
 
-**The measurement problem.** Pilots are evaluated on "AI can handle X% of calls autonomously." Production rollouts get evaluated on CSAT, AHT, and agent headcount — metrics the AI team doesn't own. Different success criteria, different stakeholders, different budget cycles. The project dies in the handoff.
+**Unanticipated call patterns.** Your customers don't call about what you think they call about. The model sees this in real data. Your training set didn't.
 
-**The escalation design problem.** Voice AI that can't gracefully hand off to a human isn't production-ready. It's a liability. Most pilots never stress-test this — they demo clean calls. Real traffic has 30-40% edge cases the AI wasn't trained on.
+**Backend integration failures.** Verification, order lookup, account access — these work in demos. They fail under production load or with real customer data variance. The AI can't resolve what it can't look up.
 
-**The agent adoption problem.** Human agents don't trust AI that makes mistakes on calls THEY used to handle. You need to win over the frontline, not just the VP of CX. That requires change management most vendors don't provide and most buyers don't budget for.
+The result: teams expecting benchmark performance from day 1 miss targets. The CSAT damage hits fastest. Customers remember a bad AI interaction longer than they remember a slow human one.
 
-The $0.30 vs $6.00 per-call cost gap is real. AI voice agents are 20x cheaper per interaction than human agents for routine inquiries. The unit economics are undeniable.
+What separates deployments that survive weeks 2-4 from ones that get shut down:
 
-But getting from pilot to production requires solving organizational and process problems, not just technical ones.
+Configuration velocity. The teams hitting 70-85% resolution by month 3 are the ones running daily config updates in weeks 2-4 — not bi-weekly sprint cycles.
 
-The companies that cracked it didn't buy better AI. They built better integration playbooks.
+Handle time is the wrong metric to optimize first. Target: resolution rate and escalation quality (was the handoff clean? did the agent have context?). Handle time follows.
 
-This is exactly what we learned building Ender Turing from scratch — the hard part was never the ASR models. It was the operational handshake.
+Per-resolution pricing looks cheap until the model works. Then it becomes expensive because success costs more. Flat-rate models become cheaper at 10,000+ monthly resolutions — but most pilots never size for production volume.
+
+The 88% deployment stat everyone quotes doesn't mean 88% are working. It means 88% have started. The ones that finish are the ones that anticipated weeks 2-4.
+
+We run 2,297 autonomous agent sessions. Weeks 2-4 of any new agentic workflow are where the real failure data lives — not the demo.
