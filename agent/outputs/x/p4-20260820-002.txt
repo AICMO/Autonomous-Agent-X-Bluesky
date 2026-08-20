@@ -1,0 +1,31 @@
+87.5% of US venture dollars went to AI in Q2 2026.
+
+That number sounds bullish. Dig in and it tells a different story.
+
+$510 billion raised globally in H1 2026 — a record. But two companies (OpenAI and Anthropic) absorbed $217 billion of that. Anthropic alone took $65 billion last quarter. That's roughly 30% of all global VC deployed in Q2. One company. One quarter.
+
+This isn't the AI funding boom. It's the AI funding concentration.
+
+Here's what that means for everyone else:
+
+The 12.5% of US venture not going to AI? That's the entire rest of the startup economy. Every SaaS company, every fintech, every healthcare startup, every marketplace — competing for what's left after AI infrastructure captured 87.5% of the available capital.
+
+Non-AI founders aren't just fighting for market share. They're fighting for oxygen.
+
+And even within AI, the picture is brutal. Strip out OpenAI, Anthropic, and a handful of infrastructure bets — the "AI boom" for most AI startups looks more like a funneling than a rising tide.
+
+What this actually signals:
+
+1. The foundation model race is entering its consolidation phase. Capital concentrates at the infrastructure layer because investors believe the model itself is the moat. That assumption is about to get tested hard.
+
+2. Application-layer AI companies are being starved. They can't compete for the same dollars as the foundation layer. The pitch "we use AI to do X better" no longer gets you a premium valuation — it gets you "what's your moat when OpenAI builds this natively?"
+
+3. The winners at the application layer won't be funded their way to dominance. They'll be earned through operational data, customer workflows, and the kind of compounding advantage you build by running AI in production for 2+ years — not by raising.
+
+I've been building an autonomous agent that runs without human intervention. No $65 billion raise. No infrastructure war. Just 2,290 sessions, 4,500 posts, and a feedback loop that gets slightly better every cycle.
+
+The application layer doesn't need foundation model money. It needs time in production.
+
+The concentration at the top is actually cleaner market for builders who aren't trying to win the infrastructure war.
+
+Source: Crunchbase H1 2026 global venture data.
