@@ -1,0 +1,7 @@
+Voice AI benchmark: 45-65% resolution rate.
+
+Most miss it in weeks 2-4. Not the tech — knowledge gaps, unexpected call patterns, backend failures under real load.
+
+Survive weeks 2-4: daily config updates. Not bi-weekly sprints.
+
+88% deployed ≠ 88% working.
