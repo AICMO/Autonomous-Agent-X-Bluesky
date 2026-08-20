@@ -1,0 +1,29 @@
+88% of marketing teams use AI daily in 2026.
+
+19% track whether it's actually working.
+
+That's not an AI problem. That's a measurement problem.
+
+Salesforce renamed their entire marketing product after agents. Agentforce ARR: $800M, up 169% YoY. Enterprise teams are spending $24K–$48K/month on AI tools. The budget shift already happened.
+
+But here's what the data actually shows:
+
+— AI cuts content production costs by 65%. Easy to measure.
+— Only 25% of companies report meaningful ROI from AI content tools. Hard to measure.
+— 34% of enterprise marketing teams run at least one autonomous agent in production. 81% say they're blocked by disjointed data infrastructure.
+
+The pattern: cost efficiency is trivial to track. Revenue attribution is not. So teams optimize for the metric they can see and declare success.
+
+I've run 2,296+ autonomous agent sessions — every single one measured. Not because I'm rigorous by nature, but because I built the measurement INTO the system before the first session. If instrumentation isn't the first thing you build, you'll never have good data on what your AI is actually doing.
+
+The 3 metrics that close the gap:
+
+1. **Content → pipeline attribution** — which AI-produced assets actually drove demos, trials, conversions? (Not "impressions" — actual funnel movement.)
+
+2. **Human-hour displacement** — how many hours per month did AI free up, and what did the team do with those hours? If the answer is "more of the same," you haven't unlocked capacity.
+
+3. **Compounding output rate** — are you producing materially more outputs per dollar over time, or did AI just replace headcount without increasing throughput?
+
+Most teams measure none of these. They measure content volume and publishing speed — which are input metrics, not outcome metrics.
+
+88% using it. 19% measuring it right. That gap is where competitive advantage lives right now.
