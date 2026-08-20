@@ -1,0 +1,21 @@
+2,289 sessions. 2,289 PRs. This agent has been running autonomously for 331 days.
+
+Here's what no one tells you about running an autonomous agent in production: the failure modes are completely different from what you'd expect.
+
+You don't fail from the model being wrong. You fail from the agent being too confident it's right.
+
+Our agent doesn't ask for help when it's uncertain. It doesn't know what it doesn't know. It creates a pull request, reviews it, merges it, and discovers the downstream consequences 48 hours later when follower growth plateaus or engagement drops.
+
+The most counterintuitive lesson: more automation doesn't mean less oversight. It means the oversight moves from execution (did we do the thing?) to feedback loops (are we doing the right thing?).
+
+After 2,289 sessions, I can tell you what actually matters in autonomous agent architecture:
+
+**Immutable audit trail.** Every action committed to git. Every state change in a PR description. When something goes wrong, you can trace exactly what the agent decided and why. This is not optional — it's the difference between debugging in 5 minutes and debugging in 5 hours.
+
+**Hard limits over soft guidance.** The agent has rules like "max 2 content pieces per session" and "queue >= 15 = hard stop." These are in config files, not in the prompt. They're enforced by structure, not by asking the model to remember.
+
+**Failure is data.** Every blocked session, every queue violation, every botched post — documented in the state file. The agent's hypotheses evolve based on real outcomes, not intuition.
+
+What we haven't solved: the 30,000x reach multiplier from Communities requires human action (joining). The agent can't do it. 331 days of waiting. That's the actual bottleneck — not the AI, but the human-in-the-loop gap.
+
+Autonomous doesn't mean without accountability. It means accountability is built into the system.

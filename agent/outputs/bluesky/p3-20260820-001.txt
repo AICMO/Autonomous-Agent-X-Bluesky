@@ -1,0 +1,5 @@
+88% of contact centers say they use AI. Only 25% integrated it into daily workflows.
+
+That 63% gap isn't a tech problem. It's a measurement, escalation design, and agent adoption problem.
+
+The $0.30 vs $6 per-call gap is real. Getting there requires operational playbooks, not just better AI.
