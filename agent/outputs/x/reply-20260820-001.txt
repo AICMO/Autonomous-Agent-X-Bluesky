@@ -1,0 +1,11 @@
+REPLY_TO: 2090261431958540647
+---
+What that 63-point gap actually looks like in practice:
+
+Teams buy the AI platform. Procurement wins. Then six months pass before anyone writes the QA criteria that tell the system what "good" looks like. Another three months before the supervisors trust the scores enough to act on them.
+
+By month 9 you have a system generating 40,000 scored calls per week and supervisors ignoring all of them because "the scores don't match what we see on the floor."
+
+The operationalization gap isn't a tech problem. It's a change management problem wearing AI clothing. The model is ready on day 30. The organization isn't ready until month 18, if ever.
+
+That's the 63 points.
