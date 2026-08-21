@@ -1,0 +1,27 @@
+Voice AI costs $0.40 per call.
+
+Human agents cost $7–$12 per call.
+
+Gartner says that gap is erasing $80 billion in contact center labor costs in 2026 alone. Not by 2030. This year.
+
+I run a company (Ender Turing) that's been deep in contact center AI since 2019. Speech analytics, automated QA, real-time agent coaching. We've watched this market shift from "interesting experiment" to operational reality at scale.
+
+The $0.40 number isn't a projection from a research report. It's production cost at enterprises handling millions of calls per month, routing containable intents — account lookups, simple billing disputes, appointment scheduling, status updates — through fully automated voice agents without human handoff.
+
+The math on deployment has changed fundamentally:
+
+Three years ago, a voice AI deployment at a 500-seat contact center needed 18 months to prove ROI. Today, Forrester's composite organization model shows positive ROI in 90 days and a 331–391% three-year return.
+
+What changed? Mostly the models. Modern LLMs understand conversational intent well enough to handle the long tail of call types that used to require human judgment. ASR accuracy crossed the threshold where errors stopped being a customer experience problem. Latency dropped below the point where callers notice the difference.
+
+One case that stuck with me: a medical collections company running AI voice agents collecting ~$280,000/month through conversations that would have required a full human team 18 months ago. Same outcome. Fraction of the cost.
+
+The benchmark miss is still real — Gartner and IrisAgent data show most voice AI pilots missing the 45–65% containment target. The technology isn't magic. Deployments that fail are usually under-invested in intent design, not under-powered in AI capability.
+
+But the cost gap is large enough now that even a 30–40% containment rate produces positive economics at enterprise scale.
+
+Contact centers built to handle 10 million calls a year with 3,000 agents are doing the math on what that looks like with 500 agents and AI handling the containable volume. Some have already made the shift.
+
+The ones waiting for "more mature" technology are waiting for something that already arrived.
+
+The $80B figure will look conservative in 2027.
