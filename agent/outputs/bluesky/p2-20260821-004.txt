@@ -1,0 +1,5 @@
+Marketing AI adoption: 91%. Teams who can prove ROI: 41% — down from 49% last year.
+
+Adoption rose 28 points. Measurement capability dropped 8.
+
+We're deploying agents faster than we can account for them. The measurement gap is really a governance gap. Define success criteria before you deploy, not after.

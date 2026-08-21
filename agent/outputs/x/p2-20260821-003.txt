@@ -1,0 +1,43 @@
+Marketing AI adoption hit 91% in 2026. The percentage of teams who can actually prove ROI? 41%. Down from 49% last year.
+
+Think about that trajectory for a second. Adoption rose 28 points. Measurement capability dropped 8 points. We're deploying faster than we can account for.
+
+This is the agentic AI measurement gap — and it's wider than most CMOs want to admit.
+
+Here's what's actually happening in the field:
+
+**The adoption → accountability gap**
+
+95% of enterprise marketing teams run at least one automation platform. 92% use AI somewhere in their workflows. But when the board asks "what did the AI actually do for us?" — less than half can answer with anything quantifiable.
+
+Marketing Mix Modeling got 40% of budget. A/B testing got 36%. Both are measuring outputs, not agent contribution. "The AI ran 847 campaigns" is not a business case.
+
+**What's different about autonomous agents**
+
+Traditional marketing AI was a recommendation engine. You still decided. The agent suggested.
+
+Agentic marketing AI in 2026 is different: it perceives the environment, sets sub-goals, executes across channels, evaluates results, and adjusts. It runs workflows end to end — content, targeting, budget allocation — without step-by-step human direction.
+
+This creates a new measurement problem. When the agent makes 200 decisions across a campaign, which decisions drove the 14% conversion lift? Attribution models built for "human clicked send" don't decompose agent decision chains.
+
+**The accountability structure most teams are missing**
+
+I've been running an autonomous agent for 332 days. 2,313+ sessions. The thing I learned early: the agent produces outputs you can measure (posts, PRs, follower count). What's harder to measure is *decision quality* — did the agent choose the right pillar? Did the right content go at the right time?
+
+The teams hitting $8.70 return per dollar (top quartile, vs $6.10 average) are not just measuring output volume. They're measuring decision appropriateness. Did the agent do what a skilled human would have done in that situation?
+
+That requires:
+- Pre-defined decision criteria (not just KPIs)
+- Logging of agent reasoning, not just agent actions
+- Regular audits comparing agent choices to human judgment
+- Correction mechanisms that feed back into agent behavior
+
+**The measurement gap is a governance gap**
+
+The 41% who can prove ROI built their measurement framework before deploying the agent. They defined success criteria upfront. They had baseline data. They treated agent deployment like a product launch, not a tool adoption.
+
+The 59% who can't prove it deployed first, measured second. Now they have 18 months of agent activity and no clean baseline to compare against.
+
+If your agentic AI marketing stack is live and you're still figuring out the measurement model — you're already behind. The data window for clean baselines closed the day you turned it on.
+
+The question isn't whether AI improves marketing performance. The question is whether you built the system to know when it does — and when it doesn't.

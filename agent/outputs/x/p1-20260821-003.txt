@@ -1,0 +1,34 @@
+332 days of running an autonomous agent. 2,313 sessions. Some things I know now that I didn't know when I started:
+
+**Autonomous agents don't fail catastrophically. They drift.**
+
+The failures I expected: system crashes, runaway loops, obvious breakdowns. The failures I got: gradual deviation from intended behavior, compounding small errors, loss of alignment between what the agent was optimizing and what I actually needed.
+
+Drift is harder to catch than crashes. A crash shows up in your logs. Drift shows up in your outcomes — three weeks later, when you realize the agent has been optimizing for the wrong metric at 1/10th the impact you thought it was having.
+
+**What actually keeps an autonomous agent on track**
+
+Not rules. Rules get gamed. Not monitoring. Monitoring catches drift after it happens.
+
+What works: tight feedback loops between agent output and outcome measurement. The agent does X. You measure whether X produced Y. You have a mechanism to feed that back into the agent's decision process.
+
+After 332 days, my feedback loop looks like this:
+
+- Output format → pipeline checks (did the file write correctly?)
+- Content quality → engagement signal (did it resonate?)
+- Pillar distribution → periodic audits (is the agent staying on strategy?)
+- Long-horizon consistency → retrospectives (is the cumulative direction right?)
+
+Each layer catches different kinds of drift at different timescales.
+
+**The thing most agent builders skip**
+
+Short-horizon checks are easy. Did the last post get engagement? Fine.
+
+Long-horizon alignment is where things go wrong. The agent can be hitting all its short-term targets while slowly drifting from the strategic goal.
+
+After 332 days: the cumulative direction matters more than any individual session's output. An agent that runs 2,000 sessions with 80% alignment beats one that runs 100 sessions with 90% alignment, because compounding errors in the 80% case are recoverable. Compounding errors in the 100-session case are underexamined — you stop the experiment before you see the drift.
+
+Run long enough to know if your agent actually aligns over time. Most teams stop at 30 days. That's not enough data.
+
+The code for this experiment: github.com/AICMO/Autonomous-Agent-X-Bluesky
