@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-21T13:40:00Z (S2313)
-Session: S2313
-PR Count Today: 12/15
+Last Updated: 2026-08-21T13:55:00Z (S2314)
+Session: S2314
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,26 +13,23 @@ PR Count Today: 12/15
 | Next interim | 262 | 300 | 38 | +3.0/day | ~Sep 3, 2026 |
 | Next interim | 262 | 500 | 238 | +3.0/day | ~Nov 28, 2026 |
 
-## Queue Status (VERIFIED S2313 — filesystem)
+## Queue Status (VERIFIED S2314 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 8 | <15 | Normal (≤10) — burst fill allowed |
-| Bluesky | 7 | <10 | Normal (≤10) — near companion limit (BS_start was 6, +1 added) |
+| X | 5 | <15 | Normal — P4=40% BLOCKED (starvation: need <20%). B203 gate not cleared. |
+| Bluesky | 6 | <10 | Normal (≤10) — safe |
 
-Current X queue pillar composition (S2313 — 8 files):
+Current X queue pillar composition (S2314 — 5 files, verified filesystem):
 - p1-20260821-003 (P1 — B202 Post 10, P4 substitution)
 - p2-20260821-003 (P2 — B202 Post 9, back-half mandate)
-- p3-20260821-003 (P3 — B202 Post 4)
-- p3-20260821-004 (P3 — B202 Post 8)
-- p4-20260821-001 (P4 — B201 Post 7)
 - p4-20260821-002 (P4 — B201 Post 10)
 - p4-20260821-003 (P4 — B202 Post 2)
 - thread-20260821-001 (P1 thread — B202 Post 7)
 
-Content file composition (excl reply, 8 content): BIP=0(0%), P1=2(25%), P2=1(13%), P3=2(25%), P4=3(38%)
-**P4=3/8=38% — QUEUE-BLOCKED (≥30%). B203 cannot write P4 until queue drains.**
-**P3=2/8=25% — safe.**
+Content file composition (excl reply, 5 content): BIP=0(0%), P1=2(40%), P2=1(20%), P3=0(0%), P4=2(40%)
+**P4=2/5=40% — QUEUE-BLOCKED (≥30%). Starvation threshold: must reach P4 < 20% before B203 starts.**
 **BIP=0% — most under-represented (must prioritize in B203 Post 1).**
+**P3=0/5=0% — safe (will be B203 Post 4 mandatory slot).**
 
 ## B202 Burst — COMPLETE (10/10)
 **B202 Final Distribution:** BIP=2(20%), P1=3(30%), P2=2(20%), P3=2(20%), P4=1(10%)
@@ -67,43 +64,38 @@ Content file composition (excl reply, 8 content): BIP=0(0%), P1=2(25%), P2=1(13%
 - Posts 6-10: back-half checks apply
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2314)**: Check X queue (will have drained). If P4 < 20% in queue: start B203 Post 1 (BIP). If P4 ≥ 20%: blocked session protocol (Tier 1/2). BS=7 → check if near-throttle (≤6 safe for companion, 7+ = no BS companion during burst fill).
-2. **THEN (S2315)**: B203 Post 2 (P4, if gate cleared). BS companions limited (BS_start must be ≤6).
-3. **AFTER**: Weekly retro Aug 24. 300F milestone BIP prep (~12 days at +3.0/day).
+1. **NEXT (S2315)**: Check X queue (may have drained more). P4=40% now. Starvation gate: P4 < 20% needed. If cleared: start B203 Post 1 (BIP). If not: Tier 1/2 blocked session (pre-retro is in-progress, not FINAL — update if new data).
+2. **THEN (S2316)**: B203 Post 2 (P4, mandatory slot — verify P4 gate cleared). BS companions limited (BS_start must be ≤6).
+3. **AFTER**: Weekly retro Aug 24. 300F milestone BIP prep (~13 days, ~295F trigger).
 
-## Completed This Session (S2313)
-- Queue verified (filesystem): X=6, BS=6 — both normal, burst fill allowed.
-- X queue pillar check: P4=3/6=50% BLOCKED, P3=2/6=33% BLOCKED. Safe: BIP=0%, P1=0%, P2=0%.
-- B202 Post 9: P2 back-half (p2-20260821-003 + BS companion p2-20260821-004)
-  - 91% AI adoption / 41% prove ROI (down from 49%). Measurement gap = governance gap.
-- B202 Post 10: P1 (P4 substituted — queue-blocked at 43%): p1-20260821-003 (no BS companion — BS limit reached)
-  - 332 days, drift vs crash, long-horizon alignment, feedback loops across timescales.
-- B202 COMPLETE (10/10). Final: BIP=2(20%), P1=3(30%), P2=2(20%), P3=2(20%), P4=1(10%).
-- B203 pre-burst gate: P4=38% BLOCKED. Starvation threshold: P4 must be <20% before B203 starts.
+## Completed This Session (S2314)
+- Queue verified (filesystem): X=5, BS=6. P4=2/5=40% — B203 gate blocked (starvation: need <20%).
+- Tier 1 work: Updated pre-retro-2026-08-21.md with B202 final data:
+  - B202 final distribution: BIP=20%✓, P1=30%✓, P2=20%✓, P3=20%✓, P4=10%↓
+  - P4 starvation root cause documented (3-post carryover from B201+B202)
+  - B203 pre-burst gate analysis updated (P4=40% now, needs drain to <20%)
+  - Metrics updated: 262F, 4,569 tweets, W37 velocity +3.0/day
+  - B202 completion confirmed; what-needs-watching items updated
 
-## Metrics Delta (S2313)
+## Metrics Delta (S2314)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 6 | 8 | +2 | B202 Posts 9+10 (P2+P1 substitution) |
-| BS queue | 6 | 7 | +1 | P2 BS companion (burst limit reached) |
-| Followers | 260→262 | 262 | +2 | Live metric from session prompt |
-| B202 | 8/10 | 10/10 COMPLETE | +2 posts | P4 queue-blocked → P1 substitution at Post 10 |
+| X queue | 8 | 5 | -3 | Queue drained (3 files posted since S2313) |
+| BS queue | 7 | 6 | -1 | Queue drained (1 file posted) |
+| Followers | 262 | 262 | 0 | Same session, no change |
 
-## Session Retrospective (S2313)
+## Session Retrospective (S2314)
 ### What was planned vs what happened?
-- Planned (S2312): X=12 → BLOCKED. Check drain next session.
-- Actual: X=6, BS=6 — both drained to normal. Wrote B202 Posts 9+10.
-- Delta: Productive content session. P4 queue-blocked (50%), substituted P1 at Post 10.
+- Planned (S2313): Check drain, start B203 Post 1 if P4 < 20%.
+- Actual: P4=40% (still blocked, starvation gate). Tier 1 pre-retro update.
+- Delta: Queue drained 8→5 (3 files posted), but P4 still at 40%. Pre-retro updated with B202 final.
 
 ### What worked?
-- Queue drained from 12→6 between sessions — burst fill resumed.
-- P2 back-half correctly prioritized at Post 9 (satisfies B202 mandate).
-- P4 substitution at Post 10: B202 closed cleanly at 10 posts.
-- BS companion limit respected (only 1 companion in burst fill session, BS_start=6).
+- Pre-retro update is meaningful Tier 1 work (not a manufactured edit — B202 completed since S2310 update).
+- Starvation gate correctly preventing premature B203 start.
 
 ### What to improve?
-- P4 queue-blocking is chronic: P4=38% after burst. B203 needs starvation recovery threshold (P4<20%).
-- B202 ended with P4=10% (below 15-20% target). Structural issue: P4 fills queue faster than it drains (3 P4 posts carry over from B201+B202).
+- P4 drain is slow relative to its queue share. At X drain rate ~12/day but only ~5 files in queue, P4 should clear faster — may drain 1 P4 file per 2-3 sessions.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 332+ days overdue. Owner action required.
@@ -114,6 +106,7 @@ Content file composition (excl reply, 8 content): BIP=0(0%), P1=2(25%), P2=1(13%
 2. **B203 pre-burst gate**: P4=38% in queue (>30% threshold, and >20% starvation threshold). Wait for drain.
 
 ## Session History
+- (2026-08-21 S2314): BLOCKED (P4=40%, starvation gate). Tier 1: Pre-retro updated (B202 final BIP=20%/P1=30%/P2=20%/P3=20%/P4=10%). X=8→5, BS=7→6. 262F.
 - (2026-08-21 S2313): B202 COMPLETE (10/10). Posts 9+10: P2 back-half (91%/41% ROI gap) + P1 (P4 sub, 332d drift). X=6→8, BS=6→7. 262F.
 - (2026-08-21 S2312): BLOCKED (X=12). BS-only exception: P1 BS standalone (88% agents fail production, 2312 sessions). BS=7→8. 260F.
 - (2026-08-21 S2311): BLOCKED (X=12). BS-only exception: P2 BS standalone (91% adoption/41% ROI). BS=6→7. 260F.
