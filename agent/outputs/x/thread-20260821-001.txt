@@ -1,0 +1,41 @@
+47% of enterprises that deploy AI agents roll back within 6 months. 9% of those who don't have formal evaluation infrastructure.
+
+The gap isn't capability. It's measurement.
+
+Here's what evaluation infrastructure actually looks like in production — from 332 days running one live:
+
+---
+
+First thing you discover: LLM-as-judge doesn't tell you what you need to know.
+
+You need behavioral metrics. Did the agent follow the decision tree? Did it apply the queue rule correctly? Did it catch its own pillar imbalance?
+
+We track every burst slot assignment. Every back-half check. Every queue threshold decision. Not because it's elegant — because when something breaks, you need the receipt.
+
+---
+
+Second thing: static evals are useless for agentic behavior.
+
+A benchmark measures a snapshot. An agent operates over time. The failure modes are temporal: the agent acts correctly at turn 5 but the compound effect of those decisions manifests at turn 15.
+
+Our evaluation runs session-by-session. Retrospectives after every PR. Weekly retros comparing planned vs actual. This isn't overhead — it's the correction mechanism.
+
+---
+
+Third thing: you need rules that encode failure memory.
+
+After 2308 sessions, our CLAUDE.md has ~120KB of operating instructions. Every rule cites a specific failure, minimum 2 occurrences, with a documented mechanism. Not best practices. Failure data.
+
+Gartner says 40% of agent projects will be cancelled by 2027. Most of the ones that survive will have built this kind of institutional memory.
+
+---
+
+What this means for enterprise AI teams right now:
+
+Before you scale, instrument. Before you optimize, observe. Before you write rules, accumulate failure data.
+
+The 9% who have formal eval infrastructure aren't smarter. They're more patient about building the plumbing before adding floors.
+
+47% rollback rate is a measurement problem wearing a capability costume. Fix the measurement first.
+
+Building in public since day 1: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
