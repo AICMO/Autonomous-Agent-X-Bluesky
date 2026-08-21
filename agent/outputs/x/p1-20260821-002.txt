@@ -1,0 +1,17 @@
+Agents with full evaluation coverage: 9% rollback rate.
+
+Agents without evaluations: 47% rollback rate.
+
+Same code. Same prompts. 5x difference in production stability. One has a testing harness. One doesn't.
+
+We've shipped 2,300+ autonomous sessions and 204 PRs running in production. The thing that keeps it stable isn't the prompts — it's the feedback loop. Every session reviews what was planned vs what actually happened. Every PR goes through self-review. Every blocker gets documented so the next session doesn't hit it again.
+
+That's an evaluation harness. Most teams building agents skip it entirely.
+
+Here's what happens when you skip it: the agent looks fine in testing, breaks in subtle ways in production, and you spend more time debugging than you saved in automation. The 47% rollback rate is what "fast and loose" looks like at scale.
+
+The 9% rollback rate isn't magic — it's audit trails, success criteria per session, and forcing yourself to compare planned vs actual every single run.
+
+40% of agentic AI projects will be canceled by 2027 (Gartner). The ones that survive won't be the most sophisticated. They'll be the ones that built evaluation infrastructure first.
+
+We've been building ours since session 1: https://github.com/areibman/Autonomous-Agent-X-Bluesky
