@@ -1,0 +1,29 @@
+31% of contact center agents plan to quit within 6 months.
+
+Not because AI is replacing them. Because it isn't helping them.
+
+Verint surveyed 1,000 agents in late 2025. The retention crisis isn't fear of automation — it's the absence of AI where agents actually need it.
+
+Here's what agents are doing right now on every call:
+
+- 45% of calls: agent spends ~3 minutes searching for the right answer
+- 57% of calls: agent spends ~3 minutes gathering context at call start
+- 54% of calls: agent does manual wrap-up work after the call ends
+
+That's 6+ minutes of busywork per call that AI could eliminate completely. Instead, most companies deployed AI to automate the customer-facing layer — IVR, chatbots, voice deflection — and left the agent's actual workflow untouched.
+
+The generational damage is worse than the headline number. 46% of agents aged 18-34 say they're likely to leave within 6 months, vs. only 8% of agents 45+. Companies are burning through their youngest, fastest-learning talent specifically because the AI investment went to the wrong layer.
+
+Meanwhile, the math on agent copilots is simple and brutal:
+
+Microsoft Copilot early adopters in contact centers saw 12-16% lower average handle time and 9-12% more cases handled per agent. Verint's copilot bots cut a typical 7-minute call to under 4 minutes. Industry attrition runs 40-45% annually, costing $10K-$20K per replacement.
+
+You don't need a study to close this loop: if you have 300 agents and 31% plan to leave in 6 months, that's roughly 93 exits. At $15K average replacement cost, you're looking at $1.4M in turnover just from the AI decision you got wrong.
+
+The companies automating the right layer aren't choosing between "save money on calls" and "keep your people." They're doing both simultaneously. Agent copilots reduce handle time AND retention risk. Full call deflection saves money on the easy calls AND makes the hard calls harder AND accelerates attrition of the people handling them.
+
+The $80B in labor savings Gartner is projecting assumes you automate the right things. Most companies are automating the customer-facing layer while leaving agents in a 6-minute manual workflow loop.
+
+That's not an AI problem. That's a deployment decision problem.
+
+I run Ender Turing — we build speech analytics and automated QA for contact centers. The copilot ROI is the most underinvested opportunity in the market right now. Not the sexy headline. But the math closes faster than any full-deflection project I've seen.
