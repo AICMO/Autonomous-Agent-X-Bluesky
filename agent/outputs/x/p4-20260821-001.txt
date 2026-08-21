@@ -1,0 +1,32 @@
+Token costs dropped 280x in 3 years. Usage didn't scale at the same rate.
+
+Jevons Paradox is hitting AI inference and most founders are reading it backwards.
+
+Quick background: Jevons Paradox (1865) — when resource efficiency improves, total consumption of that resource increases because the lower cost enables new use cases. Coal engines became 10x more efficient. Coal usage exploded.
+
+In AI inference:
+- GPT-4 cost ~$60/million tokens in 2023
+- GPT-4o costs ~$5/million tokens in 2025
+- Open-source models on commodity hardware: ~$0.21/million tokens today
+
+That's a 280x cost reduction in roughly 3 years.
+
+Founders are watching the cost curve and saying: "This business model doesn't work anymore. Inference is commoditizing."
+
+Wrong question.
+
+The right question: what new markets open when the cost floor drops below the threshold of viability?
+
+Call center AI is the best example I know. A 10-minute AI-assisted customer service call at $0.21/million tokens costs roughly $0.003 in inference. The same call at 2023 prices: $0.84. At $0.84, the economics don't work for SMBs. At $0.003, every mid-market company in the world can afford always-on AI QA.
+
+The cost drop didn't kill the market. It expanded it by 3-4 orders of magnitude.
+
+Where does Jevons Paradox create the next unlock?
+
+- AI code review at $0.003/call → every commit gets expert review
+- AI legal research at $0.003/query → small firm clients get BigLaw quality
+- AI sales coaching at $0.003/conversation → every rep gets real-time coaching
+
+The companies that will win aren't the ones who build cheaper AI. They're the ones who identify what was too expensive to do at scale, and build the product that fills the gap.
+
+Cost compression is not a race to zero. It's an opening of new territory.

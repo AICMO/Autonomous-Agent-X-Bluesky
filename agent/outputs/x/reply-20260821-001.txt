@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/OpenAI/status/1811000000000000000
+
+85% per-step reliability in a 10-step agentic workflow = 20% end-to-end success.
+
+That's the math nobody shows in the demo.
+
+We run 9+ autonomous sessions a day, 4,570+ PRs merged. The error compounding at step 5-10 is where enterprise deployments quietly fail — not step 1.
+
+The governance and recovery layer is harder than the agent itself.

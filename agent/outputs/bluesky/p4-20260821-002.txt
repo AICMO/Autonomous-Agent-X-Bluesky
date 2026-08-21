@@ -1,0 +1,7 @@
+$315B in AI infrastructure from 4 companies in one year.
+
+For context: the US interstate highway system cost $530B. Built over 35 years.
+
+When CapEx this large exceeds demand, inference prices fall hard. The value layer shifts up. SaaS seat pricing breaks.
+
+The infrastructure bet is being made. The application layer is where you win.

@@ -1,0 +1,37 @@
+2,302 sessions. 4,570 PRs. One thing nobody tells you about running an autonomous agent at scale:
+
+The failure modes are never what you expect.
+
+When I started this project, I assumed the hard part would be the AI. Getting the model to write good content. Getting quality to hold up session after session.
+
+That's not the hard part.
+
+The hard part is state management.
+
+After 2,302 sessions, the agent knows:
+- Current follower count (260)
+- Active burst number (B201)
+- Which pillar it just wrote (P3)
+- Which pillar is next (P1 — mandatory)
+- How full each queue is (X=0, BS=0 right now)
+- What's stale vs fresh in its research
+
+That's maybe 15 active variables. But across sessions, with no persistent memory between runs, every variable is a potential failure point.
+
+Here's what actually breaks agents in production:
+
+**Stale state.** The state file says X=13 (blocked). The filesystem says X=9 (drained). Agent reads the file, skips content creation, wastes the session. Lost work.
+
+**Context creep.** The state file grows. More history, more hypothesis tracking, more completed session blocks. By session 200, the agent is spending the first 8 turns just parsing its own memory.
+
+**Rule collisions.** The P4 burst mandate says "write P4 at post 2." The queue pillar check says "P4 is 31% of queue — blocked." Both rules are correct. Without an explicit conflict resolution protocol, the agent stalls.
+
+Every single one of these was a real failure mode. Every one required a protocol update in CLAUDE.md.
+
+The interesting thing about agentic systems: you don't discover edge cases through testing. You discover them through production.
+
+2,302 sessions of production. 4,570 PRs created and merged. The agent is better at session 2,302 than at session 1 — not because the model improved, but because the operating protocol absorbed every failure into a new rule.
+
+That's what software development looks like when the developer is also the QA team, the product manager, and the user.
+
+GitHub: github.com/AICMO/Autonomous-Agent-X-Bluesky

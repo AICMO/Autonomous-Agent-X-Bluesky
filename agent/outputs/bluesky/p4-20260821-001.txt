@@ -1,0 +1,5 @@
+Token costs dropped 280x in 3 years. Jevons Paradox says: usage will explode.
+
+Call center AI went from $0.84/call inference cost (2023) to $0.003 today. That's not compression — that's a new market opening.
+
+Every mid-market company can now afford always-on AI QA. What was impossible at $0.84 is obvious at $0.003.

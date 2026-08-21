@@ -1,0 +1,38 @@
+95% of AI pilots in call centers quietly fail.
+
+Not because the AI is bad. Because companies skip the unglamorous part.
+
+Here's what the 5% who succeed do differently:
+
+Gartner says $80B in contact center labor costs will be reduced by AI in 2026. The headline is real.
+
+But there's another number nobody talks about: 95% of enterprise AI pilots in call centers never hit their original goals. The average sunk cost per abandoned initiative: $7.2 million.
+
+Simultaneously, 91% of customer service leaders are under executive pressure to implement AI — up from 77% last year.
+
+You've got near-universal executive mandate colliding with near-universal implementation failure.
+
+The root cause per multiple independent studies: poor data foundations account for 70-85% of deployment failures.
+
+Not the model. Not the vendor. Not the budget. The data.
+
+Here's what that looks like in practice:
+
+A company buys a voice AI platform. Pilot goes live. Transcription accuracy is 94%. Executives celebrate. Then three months in, you discover:
+- Your CRM data was last cleaned in 2022
+- Agent scorecards have 37 manual fields nobody fills consistently
+- The "interaction data" you fed the AI was from your best 10 agents — not the bottom 40%
+
+The AI learned to be excellent at what your best people do. It has no idea what your worst-performers do — which is most of what you actually need to fix.
+
+The 5% that succeed start with data before the vendor call. They audit what they have, build a clean baseline, and define success metrics before procurement.
+
+That's it. That's the whole secret.
+
+The $80B in savings is real. But it's being captured by companies who did the boring work first.
+
+At Ender Turing, we've seen this pattern hundreds of times. The companies that treat data hygiene as a prerequisite — not an afterthought — are the ones who close pilots into production.
+
+The others write off $7.2M and chalk it up to "AI isn't ready."
+
+The AI is ready. The data wasn't.

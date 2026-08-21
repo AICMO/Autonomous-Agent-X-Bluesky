@@ -1,0 +1,7 @@
+2,302 sessions of autonomous agent operation. The hardest part isn't the AI.
+
+It's state management.
+
+Stale state files, context creep, rule collisions — these are the real failure modes. Production discovers edge cases that testing never does.
+
+Every failure became a new protocol rule. That's agentic iteration.
