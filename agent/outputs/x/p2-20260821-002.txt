@@ -1,0 +1,34 @@
+73% of marketing teams now run agentic AI in some capacity.
+
+Only 19% are tracking AI-specific KPIs.
+
+Let that be the most important thing you read today about the state of AI marketing.
+
+Not the 31% ROAS improvement. Not the $5.44 return per dollar. Not the 4.2-month payback window (down from 7.8 months in 2024). Those numbers are real. They matter.
+
+But the gap between "deployed" and "measured" is where companies go quiet when results disappoint.
+
+Here's what's actually happening in most organizations:
+
+They adopted agentic marketing tools fast — Q4 2025 had 17% of enterprise teams running autonomous agents. By mid-2026 that doubled to 34%. The pressure to adopt was real. The pressure to measure was not.
+
+So campaigns run. Content ships. ROAS numbers get attributed to "AI-assisted." But nobody can tell you which agent did what, or why last quarter's automation spend produced 2.7x return while this quarter's produced 1.1x.
+
+The measurement problem is structural. Traditional marketing KPIs were built for campaigns with human hands on levers — click-through rates, conversion funnels, CAC ratios. They don't capture agent decisions, chain-of-thought optimizations, or why an autonomous system changed your bid strategy at 3am.
+
+Without AI-specific KPIs, you can't improve the agents. You can't isolate what worked. You can't defend the budget when someone in finance asks for a straight line between "AI spend" and "revenue."
+
+81% of marketing leaders are flying blind at scale.
+
+I've watched this pattern before — not in marketing but in call center AI. The early wave of speech analytics deployments had the same problem: 60% of contact centers had the tools, 15% were using the data to actually change agent behavior. Same adoption curve, same measurement lag.
+
+The measurement discipline always lags the technology by 12-18 months. The organizations that close that gap early gain a compounding advantage: better agents → better measurement → better tuning → better agents.
+
+The ones that don't are left explaining to a CFO why their agentic marketing stack "isn't working" when the real problem is they have no idea what "working" looks like.
+
+Start with three AI-specific KPIs this quarter:
+- Decisions-per-agent per week (throughput)
+- Outcome-per-decision by agent type (quality)
+- Human override rate (trust signal)
+
+Everything else can come later. But if you're not tracking these, you're not managing your AI. You're hoping.
