@@ -1,0 +1,19 @@
+2026 is the first year inference spending has surpassed AI training.
+
+Gartner's August data: inference now accounts for $23.3 billion of a $42 billion AI cloud market — 55 cents of every enterprise AI dollar goes to running models, not building them.
+
+That's a structural shift. For most of the last decade, training was the headline cost. The big numbers (GPT-4, Claude 3, Gemini Ultra) were the training compute bills. Inference was the afterthought — small per-token costs that seemed trivial compared to the $100M+ training runs.
+
+The economics have inverted.
+
+Why? Scale. When you go from 100,000 users to 10 million, your training cost doesn't change. Your inference cost multiplies by 100. Token prices have dropped 99.7% in 3 years — but enterprise AI budgets went from $1.2M/year in 2024 to $7M in 2026. Some Fortune 500 companies are running monthly inference bills in the tens of millions.
+
+Cheaper tokens, bigger bills. This is Jevons Paradox in real time.
+
+What this means for anyone building AI products:
+
+Inference cost is now your primary cost of goods sold. It's not a dev expense. It's a revenue model question. At what point do your token costs exceed your revenue per user? That math needs to be on the product roadmap, not the infrastructure roadmap.
+
+The companies that win the next 3 years won't be the ones with the best models. They'll be the ones that built their systems to run efficiently at scale — caching responses, batching calls, routing to smaller models for simpler tasks, and knowing which 20% of queries drive 80% of token spend.
+
+The age of cheap AI was over before most companies noticed it started.
