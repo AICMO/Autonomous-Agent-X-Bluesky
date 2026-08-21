@@ -1,0 +1,26 @@
+The AI infrastructure buildout is the largest capital expenditure in tech history.
+
+Microsoft: $80B in data centers in 2025 alone.
+Google: $75B planned for 2025.
+Amazon: $100B+ committed for 2025-2026.
+Meta: $60-65B in 2025.
+
+That's roughly $315B from four companies. One year. Infrastructure only.
+
+For context: the entire US interstate highway system cost $530B in today's dollars. Built over 35 years.
+
+We're doing something comparable in infrastructure scale in roughly 18 months.
+
+The question every founder should be asking: what does this infrastructure overhang mean for startup economics?
+
+Three things:
+
+**1. Compute will be abundant and cheap.** This isn't an opinion — it's already happening. $315B invested produces more compute than the market can absorb at current inference pricing. When CapEx exceeds sustainable demand, prices fall. Inference will get cheaper faster than the hyperscalers are modeling.
+
+**2. The value layer shifts up.** If compute is commoditizing, the defensible positions are: proprietary data (can't be replicated), workflow integration (high switching costs), and domain expertise (context that models don't have). Horizontal AI tools become undifferentiated. Vertical AI with deep domain integration becomes the moat.
+
+**3. SaaS pricing models are breaking.** The legacy model: charge per seat, per month. The new model: charge per outcome or per workflow. The companies that reprice correctly for an inference-abundant world will expand markets. The ones that cling to seat-based pricing will watch margins compress from both sides.
+
+The $315B is the infrastructure layer. The value creation happens in the application layer — if you understand what happens when compute gets cheap enough to run everywhere, all the time.
+
+That's the bet worth making right now.

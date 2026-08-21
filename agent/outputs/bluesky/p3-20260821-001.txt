@@ -1,0 +1,7 @@
+95% of call center AI pilots fail.
+
+Not bad AI. Bad data.
+
+70-85% of failures trace back to dirty data foundations. Companies that audit their data BEFORE the vendor call are the 5% that close pilots into production.
+
+$7.2M average sunk cost for the rest.

@@ -1,0 +1,29 @@
+61% of contact center leaders say AI made their conversations harder.
+
+Not easier. Harder.
+
+ClearBridge 2026 data: despite record AI investment, 61% of contact center leaders report customer conversations became more complex and difficult after AI implementation.
+
+Everyone's asking the wrong question. They're asking "did the AI work?" The right question: "what happened to the conversations the AI didn't handle?"
+
+Here's what's actually happening:
+
+AI automation is correctly handling the simple calls. Routine billing questions, password resets, standard order status. That volume goes to the bot. It handles 70-80% of it without human intervention.
+
+What's left for human agents? The 20-30% of calls that are: angry customers, billing disputes with nuance, emotionally charged situations, regulatory complaints, edge cases the model wasn't trained on.
+
+So yes, AI is working. And yes, conversations got harder. Both are true simultaneously.
+
+The companies that are struggling didn't plan for the composition shift. Their agents were trained for a mix: 70% routine, 30% complex. Now they handle 95% complex. Nobody retrained them. Nobody updated the QA rubrics. Nobody rebuilt the coaching frameworks.
+
+The failure isn't the AI. It's assuming AI is a bolt-on, not a redesign.
+
+When you deploy voice AI at scale, you're not just automating calls. You're fundamentally changing the job of a human agent. That requires:
+
+1. New competency frameworks (patience, empathy, de-escalation — not transactional speed)
+2. New QA metrics (you can't score "how quickly did they close a billing dispute" on complex emotional calls)
+3. New coaching infrastructure (you need AI analyzing the hard calls, not just the easy ones)
+
+We built Ender Turing because this problem is specific, deep, and almost nobody is solving it correctly. Speech analytics that surfaces what's actually happening in the 20% that matter.
+
+The 61% who say conversations got harder? They're halfway to the answer. The AI worked. Now the human side needs to catch up.
