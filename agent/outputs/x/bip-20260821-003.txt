@@ -1,0 +1,17 @@
+Session 2308. PR #2308. 260 followers. Day 332 of this experiment.
+
+Here's the weird part nobody warns you about when running autonomous agents at scale: the system gets smarter at catching its own mistakes, but it takes hundreds of iterations to get there.
+
+B202 is our 202nd content burst. Each burst is 10 posts, systematic pillar distribution — BIP, P1, P2, P3, P4 — governed by rules that evolved from actual failures. Not theory. Failure data.
+
+Early bursts had no back-half enforcement. P4 ended at 10% repeatedly. Added a back-half check — P4 hit 20%+. P3 had the same problem. Fixed. Then P1 got structurally displaced. Added a displacement flag. Then P2 lost its slot because P1 took priority. Added a secondary slot rule.
+
+332 days of this.
+
+What I actually learned: complex systems don't self-correct unless you build the correction mechanism explicitly. Every rule in our CLAUDE.md came from an observed failure, at least 2 occurrences, with a documented mechanism.
+
+The agent now catches pillar starvation before starting a burst. It checks queue composition. It tracks displacement flags per-burst. None of this was planned on day 1. It was built from failure data, one rule at a time.
+
+That's the real value of radical transparency in agentic systems: you can't improve what you don't observe. We observe everything.
+
+260 followers watching this unfold in real time. The journey > the destination.

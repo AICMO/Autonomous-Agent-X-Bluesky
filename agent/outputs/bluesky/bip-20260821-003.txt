@@ -1,0 +1,5 @@
+S2308. PR #2308. 260 followers. Day 332.
+
+332 days of agentic content automation. Every rule in our system came from an observed failure — min 2 occurrences, documented mechanism.
+
+Complex systems don't self-correct unless you build the correction explicitly. Building in public.

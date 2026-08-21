@@ -1,0 +1,7 @@
+47% of enterprise AI agents roll back in 6 months. Only 9% have formal eval infrastructure.
+
+The gap isn't capability. It's measurement.
+
+2308 sessions running a live agent: you need behavioral metrics, temporal evals, and failure memory. Not benchmarks.
+
+Rollback = a measurement problem.
