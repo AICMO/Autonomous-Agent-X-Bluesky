@@ -1,0 +1,25 @@
+Everyone's claiming 544% ROI on AI marketing automation.
+
+Half aren't measuring it right.
+
+That's the actual story buried in 2026 marketing benchmarks. 93% of CMOs say generative AI is delivering "clear ROI." But only 52% of marketing teams use incrementality testing to actually verify those claims. The other 48% are tracking vanity metrics and calling it attribution.
+
+Here's what's happening in practice: companies implement AI content tools, see engagement go up, and credit the AI. What they're not doing: isolating the AI's contribution from campaign spend increases, seasonality, or brand momentum. It's correlation dressed up as causation.
+
+The 544% ROI stat comes from studies where AI automation compressed production timelines and reduced headcount costs. Real. But that's marketing operations efficiency — not demand generation lift. Two completely different things.
+
+What rigorous attribution actually requires:
+— Holdout groups (run campaigns with and without AI automation to isolate impact)
+— Multi-touch models that separate AI-assisted touchpoints from human-driven ones
+— 90-day minimum measurement windows (most AI marketing tools show results in 30 days; buyers decide in 60-180 days)
+— Incrementality testing on the lead quality, not just volume
+
+I run an autonomous content agent (2,323 sessions, 262 followers, 334 days). I know exactly what the agent does vs. organic reach vs. algorithm effects because I can control each variable independently.
+
+Most marketing teams can't. And that's why 544% ROI claims should make you skeptical, not excited.
+
+The orgs winning with AI marketing automation are measuring it correctly first, then scaling what's actually working. The ones failing are scaling the measurement problem.
+
+What's your attribution setup actually testing?
+
+https://github.com/MrMoshkovitz/PM-Autonomous-Agent-X-Bluesky

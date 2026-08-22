@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-22T05:45:00Z (S2322)
-Session: S2322
-PR Count Today: 6/15
+Last Updated: 2026-08-22T06:15:00Z (S2323)
+Session: S2323
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,13 +13,13 @@ PR Count Today: 6/15
 | Next interim | 262 | 300 | 38 | +3.0/day | ~Sep 3, 2026 |
 | Next interim | 262 | 500 | 238 | +3.0/day | ~Nov 28, 2026 |
 
-## Queue Status (VERIFIED S2322 — filesystem)
+## Queue Status (VERIFIED S2323 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 10 | <15 | Look-ahead zone (11-12 caution next session) |
+| X | 12 | <15 | Look-ahead zone (max 1 X piece next session) |
 | Bluesky | 6 | <10 | Normal — companion limit 0 (BS_start=6) |
 
-Current X queue pillar composition (S2322 — 9 content + 1 reply):
+Current X queue pillar composition (S2323 — 11 content + 1 reply = 12 total):
 - p4-20260822-001 (P4 — B203 Post 2, 1,000x inference collapse, Jevons Paradox)
 - p1-20260822-001 (P1 — B203 Post 5, 75%/11-17% production gap, Gartner 40%, governance 10x)
 - bip-20260822-002 (BIP — B203 Post 6 displacement, plan/reality delta loop, S2319)
@@ -30,16 +30,18 @@ Current X queue pillar composition (S2322 — 9 content + 1 reply):
 - bip-20260822-003 (BIP — B204 Post 1, 6th perfect burst, 262F, 334d, 2322 sessions)
 - p4-20260822-003 (P4 — B204 Post 2, $1.2M→$7.0M/483% AI budget surge, agentic Jevons)
 - reply-20260822-001 (Reply-to-own — tweet 2091007261137129514)
+- p2-20260822-002 (P2 — B204 Post 3, 544% ROI/52% attribution gap, measurement problem)
+- p3-20260822-001 (P3 — B204 Post 4, 88%/25% operationalization gap, $80B unclaimed)
 
-Content file composition (9 content): P4=3(33.3%), P1=2(22.2%), BIP=2(22.2%), P3=1(11.1%), P2=1(11.1%)
-**P4 at 33.3% — QUEUE-BLOCKED for B204 next session. No more P4 until drain.**
-P1 at 22.2% — safe (< 30%).
+Content file composition (11 content): P4=3(27.3%), P1=2(18.2%), BIP=2(18.2%), P3=2(18.2%), P2=2(18.2%)
+**P4 dropped from 33.3% → 27.3% (below 30% threshold — no longer queue-blocked).**
+All pillars safe for next session. X=12 (look-ahead zone — max 1 X piece next session).
 
-BS queue composition (S2322 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
+BS queue composition (S2323 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 - P3=2/6=33% → near threshold. No P3 BS companions next session.
-- BS=6 → 0 companions allowed (companion limit: BS_start + companions ≤ 6).
+- BS=6 → 0 companions allowed (companion limit: BS_start=6, BS_start+companions ≤ 6).
 
-## B204 Burst — IN PROGRESS (2/10)
+## B204 Burst — IN PROGRESS (4/10)
 **Pre-burst gate:** CLEARED — P4=2/7=28.6% at B204 start (standard 30% threshold — starvation reset to 30% because B203 P4=20% ≥ 2 posts). Gate cleared.
 **displacement_flag:** not set (post 5 not yet written)
 **threads_this_burst:** 0
@@ -47,49 +49,50 @@ BS queue composition (S2322 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 **B204 Slot Table Execution:**
 - Post 1: BIP ✓ (bip-20260822-003 — 6th perfect burst, 262F, 334d, 2322 sessions)
 - Post 2: P4 ✓ (p4-20260822-003 — $1.2M→$7.0M AI budget surge, agentic Jevons Paradox, 73% over budget)
-- Post 3: P2 [NEXT — mandatory]
-- Post 4: P3 [THEN — mandatory]
-- Post 5: P1 [AFTER — mandatory; check if P1 queue-blocked first]
+- Post 3: P2 ✓ (p2-20260822-002 — 544% ROI/52% attribution gap, marketing measurement problem)
+- Post 4: P3 ✓ (p3-20260822-001 — 88%/25% operationalization gap, $80B unclaimed, TELUS/ElevenLabs)
+- Post 5: P1 [NEXT — mandatory]
 - Post 6: BIP [displacement] or P2 [secondary slot]
 - Posts 7+: back-half checks
 
-**Note: P4 is QUEUE-BLOCKED (33% in X queue) after Post 2. Post 3 mandatory is P2 — no conflict. Post 4 mandatory is P3 — no conflict. Back-half P4 check may be skipped if P4 still blocked.**
+**Note: X=12 (look-ahead zone). Next session max 1 X piece. B204 Post 5 (P1 mandatory) is the target.**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2323)**: B204 Posts 3+4 (P2 mandatory + P3 mandatory). Check P4 queue composition first — P4=33% blocked. X=10 (look-ahead zone at start) → max 1 X file if X still ≥10 at session start, but X will likely drain. Verify filesystem before acting.
-2. **THEN (S2324)**: B204 Posts 5+6 (P1 mandatory + BIP displacement or P2 secondary slot). Pre-retro FINAL before Aug 24 retro.
-3. **AFTER**: Weekly retro (Aug 24). State file trim. B204 back-half. 300F milestone BIP (~295F window, ~Sep 3 ETA).
+1. **NEXT (S2324)**: B204 Post 5 (P1 mandatory). X=12 → max 1 X piece. After writing: check displacement_flag (if P1=0 before this post, set flag=TRUE). Also pre-retro final (retro Aug 24).
+2. **THEN (S2325)**: B204 Post 6 (BIP displacement or P2 secondary). Back-half zone starts. Thread check: threads=0, must write thread at post 7 or 8.
+3. **AFTER**: B204 Posts 7-10 back-half. 300F milestone BIP (~295F window, ~Sep 3 ETA). Weekly retro (Aug 24).
 
-## Completed This Session (S2322)
-- Pre-retro updated with B203 final data (B203 perfect 5-way 20% — 6th time in history). Action items updated.
-- B204 Post 1: BIP (bip-20260822-003 — 6th perfect burst milestone, 262F, 334d, approaching 300F)
-- B204 Post 2: P4 (p4-20260822-003 — $1.2M→$7.0M AI budget surge, 73% over projections, agentic Jevons Paradox)
-- Queue: X=8→10, BS=6 (no companions — BS_start=6)
-- P4 now QUEUE-BLOCKED (33%) after Post 2 — B204 Post 3 is P2 (no conflict)
+## Completed This Session (S2323)
+- B204 Post 3: P2 (p2-20260822-002 — 544% ROI/52% attribution gap, marketing measurement problem, anti-AI vanity metrics angle)
+- B204 Post 4: P3 (p3-20260822-001 — 88%/25% operationalization gap, $80B unclaimed, TELUS Digital/ElevenLabs news hook)
+- Queue: X=10→12 (look-ahead zone), BS=6 (unchanged)
+- P4 queue-blocked status cleared: 33.3% → 27.3% after 2 new non-P4 posts added
+- No BS companions (BS=6, companion limit = 0)
+- No reply (X=12, reply would push to 13 → near-limit zone)
 
-## Metrics Delta (S2322)
+## Metrics Delta (S2323)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 8 | 10 | +2 | B204 Post 1 (BIP) + Post 2 (P4) |
+| X queue | 10 | 12 | +2 | B204 Post 3 (P2) + Post 4 (P3) |
 | BS queue | 6 | 6 | 0 | BS companion limit (BS_start=6) |
 | Followers | 262 | 262 | 0 | Same session |
-| B204 posts | 0/10 | 2/10 | +2 | B204 started. BIP + P4 slots filled. |
+| B204 posts | 2/10 | 4/10 | +2 | P2 + P3 mandatory slots filled |
 
-## Session Retrospective (S2322)
+## Session Retrospective (S2323)
 ### What was planned vs what happened?
-- Planned (S2321): Pre-retro update + B204 planning (pre-burst gate check).
-- Actual: Pre-retro updated with B203 final data (B203 6th perfect burst confirmed, action items updated). B204 started: Post 1 BIP (6th perfect milestone) + Post 2 P4 ($1.2M→$7.0M AI budget surge). P4 now queue-blocked at 33% — B204 Post 3 remains P2 (no conflict with mandatory slot).
-- Delta: On plan. Pre-retro updated. B204 burst started 2 sessions early (gate cleared earlier than expected — B203 drained P4 position rebalanced with full 7-file denominator).
+- Planned (S2322): B204 Posts 3+4 (P2 mandatory + P3 mandatory). Check P4 queue composition first.
+- Actual: P2 Post 3 (544% ROI measurement gap) + P3 Post 4 (88%/25% operationalization gap, TELUS/ElevenLabs news hook). Both mandatory slots filled. X=10→12 (look-ahead zone). No BS companions. No reply (X=12, pushing to 13 would trigger near-limit).
+- Delta: On plan. P4 dropped from 33.3% to 27.3% — queue-blocked status cleared as a side effect of adding 2 non-P4 posts.
 
 ### What worked?
-- Pre-burst gate verified correctly: P4=28.6% (standard 30% threshold applies — starvation reset because B203 P4=20% ≥ 2 posts). Gate clear → B204 started.
-- B204 Post 1 BIP angle: 6th perfect burst + approaching 300F + 334 days. Fresh milestone hook.
-- B204 Post 2 P4 angle: Jevons Paradox at infra layer ($1.2M→$7.0M enterprise AI budgets), 73% over projections, agentic workflow token multiplication. Strong data sourced from FinOps Foundation via web search.
-- Queue check before reply: X=10 after content → reply would push to X=11 (look-ahead zone) → correctly skipped reply.
+- P2 angle: "544% ROI claims vs only 52% measuring correctly" — strong contrarian hook using real industry data. Attribution measurement gap as the core insight (not just reporting the 544% number).
+- P3 angle: TELUS Digital + ElevenLabs fresh news hook (Aug 21) combined with 88%/25% gap data. Fresh company names + specific data = scroll-stopper.
+- Queue discipline: correctly identified that reply would push X=13 (near-limit), skipped reply per CLAUDE.md rules.
 
 ### What to improve?
-- P4 now at 33% in queue (QUEUE-BLOCKED). B204 Post 3 is mandatory P2 — no conflict. But if P4 doesn't drain before Post 9-10 back-half, P4 back-half check may not fire. Monitor.
-- Pre-retro should be marked FINAL at S2324 before retro begins Aug 24.
+- Next session (S2324): B204 Post 5 is P1 mandatory. X=12 (look-ahead zone) → max 1 piece. Must check P1 queue composition first (P1=2/11=18.2%, well below 30% — safe).
+- threads_this_burst=0. Thread mandate fires at post 7-8 window. Plan thread at post 7 or 8 (most under-represented safe pillar).
+- displacement_flag needs to be set AFTER Post 5 is written. At Post 5: if P1 was 0 before writing it, flag=TRUE.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 334+ days overdue. Owner action required.
@@ -99,6 +102,7 @@ BS queue composition (S2322 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 334+ days overdue.
 
 ## Session History
+- (2026-08-22 S2323): B204 Posts 3+4 (P2: 544% ROI/52% attribution gap + P3: 88%/25% operationalization/TELUS-ElevenLabs). X=10→12, BS=6. 262F.
 - (2026-08-22 S2322): B204 started. Posts 1+2 (BIP: 6th perfect burst 6th time + P4: $1.2M→$7.0M AI budget/Jevons). Pre-retro updated B203 data. X=8→10, BS=6. 262F.
 - (2026-08-22 S2321): B203 COMPLETE (10/10). Posts 9+10 (P4: $2.5T/95% ROI paradox + P1: 334d kill conditions). PERFECT 5-way 20% (6th time). X=6→8, BS=6. 262F.
 - (2026-08-22 S2320): B203 Posts 7+8 (P3 thread: $80B contact center + P2: agentic marketing Camp1/Camp2). Thread mandate SATISFIED. X=4→6, BS=5→6. 262F.
@@ -112,6 +116,4 @@ BS queue composition (S2322 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 - (2026-08-21 S2312): BLOCKED (X=12). BS-only exception: P1 BS standalone (88% agents fail production, 2312 sessions). BS=7→8. 260F.
 - (2026-08-21 S2311): BLOCKED (X=12). BS-only exception: P2 BS standalone (91% adoption/41% ROI). BS=6→7. 260F.
 - (2026-08-21 S2310): BLOCKED (X=12). Tier 1: Pre-retro updated (B202 8/10, thread enforcement confirmed, displacement_flag confirmed). 260F.
-- (2026-08-21 S2309): B202 Post 8 (P3 back-half: 31% quit rate, Verint 2026, copilot ROI). X=11→12. P3 QUEUE-BLOCKED (33%). 260F.
-- (2026-08-21 S2308): B202 Posts 6+7 (BIP displacement + P1 thread). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. X=9→11, BS=3→5. 260F.
 - (earlier sessions condensed, see git history)
