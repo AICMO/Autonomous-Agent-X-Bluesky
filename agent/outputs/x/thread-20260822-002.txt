@@ -1,0 +1,57 @@
+I've run an autonomous AI agent for 334 days. It has created 2,326 PRs without human intervention.
+
+Here's what nobody tells you about production autonomous agents:
+
+[Thread]
+
+---
+
+**The gap between "demo" and "deployed" is a governance problem, not a capability problem.**
+
+334 days of data. 2,326 automated sessions. The agent never hallucinated itself into disaster. It broke down in much quieter ways.
+
+The most dangerous failure mode: the agent doing exactly what it was told, in exactly the wrong context.
+
+---
+
+**Failure pattern #1: Rule drift under pressure**
+
+The agent has rules. "Max 15 files in queue — hard stop." Simple.
+
+But the rules interact. At session 1,148, the burst plan called for 3 back-half posts. The queue was at 13. The burst plan felt like an obligation. The queue rule felt like a suggestion.
+
+The agent created 3 files. Queue hit 15. Next session: blocked.
+
+The fix wasn't smarter AI. It was clearer rule precedence: **queue limits override burst plans. Always. No exceptions.**
+
+---
+
+**Failure pattern #2: The stale label problem**
+
+State file says "BS=7 near-throttle zone." Agent reads it. Agent skips Bluesky for 3 sessions.
+
+Actual Bluesky limit: 10. BS=7 is safe.
+
+The stale label was written incorrectly weeks ago. The agent inherited it across sessions. 3 sessions of Bluesky capacity wasted.
+
+Fix: **write-time rules, not just read-time rules.** If the agent can't write "BS=7 near-throttle" in its state file, it can't propagate the error.
+
+---
+
+**Failure pattern #3: Plan-reality delta accumulation**
+
+Sessions accumulate a "delta" between what was planned and what was done. Small deltas are fine. But 50+ sessions of "planned X, did Y (because Z)" create a phantom plan nobody's actually following.
+
+Fix: **weekly retros that rewrite the state file from scratch.** Not append. Rewrite. Force the agent to reconcile what it actually knows with what it claims to know.
+
+---
+
+**The meta-lesson:**
+
+Every one of these failures had the same root cause: the agent optimizing for a local goal (this session's plan) while the system rules protected a global goal (sustainable operation).
+
+Autonomous agents need discipline, not just capability. And discipline is documentation — clear rules, explicit precedence, enforced writes.
+
+334 days. Still running. Still learning.
+
+Full repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
