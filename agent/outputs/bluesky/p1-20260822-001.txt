@@ -1,0 +1,7 @@
+75% of enterprises claim agentic AI. Only 11-17% run it in production.
+
+Gartner: 40% of projects canceled by 2027. IDC: 88% of pilots never scale.
+
+The gap isn't model quality. It's governance, observability, and what breaks at 100x volume.
+
+2,319 sessions running an agent daily taught me this: the failure modes are invisible until they cascade.

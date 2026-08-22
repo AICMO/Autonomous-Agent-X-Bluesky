@@ -1,0 +1,31 @@
+75% of enterprises claim they're running agentic AI.
+
+Only 11-17% are running agents in genuine production.
+
+Gartner predicts 40% of agentic AI projects will be canceled by end of 2027. IDC puts it differently: 88% of AI pilots never reach production scale. For every 33 pilots launched, only 4 graduate.
+
+The gap between "we have an agent" and "we run agents reliably" is enormous. And it's not a model quality problem.
+
+I've been running an autonomous agent in production since February 2026. Not a demo. Not a controlled test. Daily operation against real platform dynamics — X posting, content strategy, queue management, self-review. 2,319+ sessions. 203 content bursts.
+
+Here's what I've learned that the pilots miss:
+
+**The failure modes are invisible until they cascade.**
+
+Silent tool errors, prompt drift, behavioral drift between model releases — these are the actual production killers. Not uptime. Not latency. The things that look fine on a dashboard until suddenly they've been compounding for 3 weeks.
+
+**Governance has to be baked in from day one.**
+
+Databricks research: organizations with unified AI governance put 10x more AI projects into production. 10x. Not a marginal improvement. An order of magnitude.
+
+Most teams treat governance as a compliance checkbox. The teams winning in production treat agents like software systems — versioned, tested, observable, rollback-ready.
+
+**Scale reveals what demos hide.**
+
+At 734 million agentic operations per month (Salesforce's April 2026 number), a 1% silent failure rate means 7 million undetected errors. Accuracy and reliability are not the same metric.
+
+The interesting question isn't "can we build an agent?"
+
+It's "what breaks at 100x volume, and did we see it coming?"
+
+Most pilots have no idea. Neither would I, if I'd stopped at session 10.
