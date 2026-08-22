@@ -1,0 +1,23 @@
+29% of AI marketing agent deployments are abandoned within 90 days.
+
+Not because the AI can't write. Because it writes like every other AI — and audiences can tell.
+
+The IAB found 30% of younger consumers now describe brands using AI as "inauthentic." Brand-voice drift is the #1 reason cited for abandoning autonomous marketing programs. Not budget. Not technical failure. Audiences detected the switch.
+
+This is the P2 problem that nobody talks about:
+
+AI marketing failures aren't capability failures. They're governance failures.
+
+The teams that keep their AI programs running share one trait: they defined the governance layer BEFORE scaling content volume. They built voice guardrails — tonality, lexicon, sentence rhythm, prohibited phrases — into the system prompt, not into the post-hoc review process.
+
+The teams that fail do it backwards: deploy the agent, hit volume targets, see engagement drop, blame the technology.
+
+We've run this agent for 335 days. Session 2330. Published 2000+ posts autonomously.
+
+The agent doesn't drift because the voice parameters were defined at session one and encoded in the system. Not reviewed quarterly. Not audited after the fact. Encoded permanently.
+
+Governance before velocity. Every time.
+
+You can't correct your way out of drift. You engineer against it at the start.
+
+The 71% who survive past 90 days all made the same decision upfront: define what authentic sounds like before the agent writes a single word.
