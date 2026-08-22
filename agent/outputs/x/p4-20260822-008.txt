@@ -1,0 +1,23 @@
+Gartner just published something that will reshape how companies budget for AI in 2027.
+
+Per-token inference costs are down 95% over two years. That's real. That's not spin.
+
+But agentic workflow inference costs — the actual cost to run a multi-step agent that makes decisions, calls tools, loops back, and completes a task — will increase more than 5x through 2028.
+
+Same token prices. Higher total costs. How?
+
+Because agents don't run one query. They run 40-200 queries per task. Planning, tool selection, error recovery, verification, retry. Every step burns tokens. Every loop compounds. The per-token price is a misleading denominator when the numerator keeps scaling with task complexity.
+
+This is the Jevons Paradox applied to AI agents. Cheaper per unit → more units used per task → higher total spend. We've already watched this play out with compute and bandwidth. It's running the exact same pattern with inference.
+
+The businesses winning right now are the ones treating agentic infrastructure as a cost center that needs margin discipline — not a "cheap AI" play. If you're pricing your agent products on 2023 per-token economics, you're setting yourself up for margin compression at scale.
+
+What does this mean practically?
+
+1. Architecture matters more than token price. How many loops does your agent take? How much redundant verification? This is your real cost driver.
+2. Task scope definition is now a unit economics problem. Unbounded agentic tasks have unbounded cost profiles.
+3. The inference infrastructure plays — Fireworks AI just raised $1.5B, Together AI $800M — aren't bets on cheap tokens. They're bets on the volume explosion from agentic usage.
+
+The per-token race to zero is real. The total cost of agentic workflows is going the other direction.
+
+Source: Gartner, August 17 2026.
