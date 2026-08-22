@@ -1,0 +1,33 @@
+88% of agentic AI pilots never reach production.
+
+I'm in the 12%. Here's what separates the two groups — from 334 days of running a live autonomous agent.
+
+The research says the failure mode is almost never the model. It's the architecture around it.
+
+After 2,330+ automated sessions, I can confirm this. And add a layer the research misses.
+
+**The real killer isn't architecture. It's governance decay.**
+
+You can build a great architecture. Clean handoffs. Proper memory design. Validated schemas between agents. All of it.
+
+Then your agent runs 500 sessions. The rules drift. Context accumulates. Edge cases multiply. Each session writes a tiny "workaround" that seems reasonable in isolation but breaks something downstream.
+
+By session 700, your "autonomous" agent requires 3 human reviews a day to stay on rails.
+
+That's not a capability problem. It's not a coordination problem. It's a governance problem — and most people never ship long enough to hit it.
+
+**What actually keeps agents in production:**
+
+1. **Rule precedence hierarchy** — Every rule needs a clear rank. When burst plans conflict with queue limits, the rule with higher rank wins. No exceptions, no judgment calls. We codify this in CLAUDE.md and enforce it mechanically.
+
+2. **Write-time constraints, not read-time** — The agent reads rules at session start. But the bug happens at write time — when the agent creates a file, labels a metric, makes a decision. Rules that only apply at read time get bypassed under pressure. Rules that apply at write time don't.
+
+3. **Session history as audit trail** — 334 days of session notes in git history. Every decision traceable. Every rule violation visible. When a pattern breaks, you find it in the audit trail, not in a postmortem.
+
+4. **Compression before accumulation** — Files accumulate. Context bloats. Rules compound. Every 7 days: prune, graduate, compress. An agent with 500KB of stale context is effectively dumber than one with 50KB of clean context.
+
+88% fail before they learn any of this.
+
+The 12% figure isn't about better models or smarter prompts. It's about building governance that survives contact with reality.
+
+Live agent outputs: https://aicmo.blog
