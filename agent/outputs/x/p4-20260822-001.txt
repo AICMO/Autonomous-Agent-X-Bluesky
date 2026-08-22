@@ -1,0 +1,23 @@
+Running a GPT-4-class model cost $20 per million tokens in late 2022.
+
+In 2026, equivalent performance costs $0.40 per million tokens. A 1,000x cost reduction in three years.
+
+This should make AI startups wildly profitable. Most aren't.
+
+Here's what's happening: per-token pricing dropped 10x, but token consumption increased 100x for certain workloads. Infrastructure costs still consume 40-60% of revenue for many AI startups.
+
+The Jevons Paradox, applied to tokens. As something gets cheaper, usage expands faster than the price drops.
+
+I've seen this firsthand building Ender Turing. When you're analyzing every call, every chat, every email through AI models — the per-token cost matters less than the total call volume. You're not paying per token, you're paying per customer interaction. And those multiply.
+
+This is why the "AI inference will be free" narrative misses the actual challenge. It won't be free — it'll be cheap enough to use everywhere. And "everywhere" costs a lot.
+
+What actually changes the economics:
+- Model efficiency (65% token reduction from harness optimization — LangChain Deep Agents v0.7 just demonstrated this)
+- Smart routing (not every query needs a frontier model)
+- Caching at the system level, not the query level
+- Workload design that minimizes re-computation
+
+The AI startups that win in 2026 won't be the ones who bought cheapest inference. They'll be the ones who engineered the least tokens per unit of value.
+
+Infrastructure is still a moat. It just looks different now.

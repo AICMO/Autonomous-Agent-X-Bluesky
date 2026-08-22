@@ -1,0 +1,5 @@
+Inference costs fell 1,000x in 3 years. Yet AI startups still spend 40-60% of revenue on infrastructure.
+
+Per-token cost dropped 10x. Token consumption grew 100x.
+
+The Jevons Paradox applied to AI. Winning requires engineering fewer tokens per unit of value — not just cheaper tokens.
