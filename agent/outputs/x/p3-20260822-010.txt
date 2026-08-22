@@ -1,0 +1,27 @@
+Contact center agents quit at 30-45% annually. Some floors hit 60%.
+
+Replacing one agent costs $10,000-$20,000. A 100-seat center losing 35% a year spends $350,000-$700,000 just replacing people who left.
+
+That's before the productivity drop during the 8-12 week ramp. Before the quality variance during training. Before the tribal knowledge that walks out the door with every resignation.
+
+Most operators treat this as an HR problem. It's not. It's a CX problem disguised as HR.
+
+The agents who quit first are the ones handling the worst calls — high-volume, repetitive, emotionally exhausting. Password resets. Order status. Same question, 200 times a day. No complexity, no growth, no reason to stay.
+
+Voice AI grew from 6% to 19% of inbound contact center volume between 2024 and 2026. The centers driving that growth aren't primarily trying to cut costs. They're absorbing the calls that burn agents out fastest.
+
+The math works two ways:
+
+**Direct:** $1-2 per AI-handled call vs $6-12 per human call = 5-10x cost reduction on routine volume.
+
+**Indirect:** Agents who stop doing robotic work have lower burnout. Lower burnout = lower attrition. Lower attrition = less replacement cost, faster knowledge accumulation, better customer outcomes.
+
+A center that drops attrition from 40% to 25% on 100 seats saves $150,000-$300,000 a year in replacement costs alone. Before any AI call-handling savings.
+
+At Ender Turing, I've watched companies focus exclusively on "how much can AI handle" while ignoring "what happens to the humans who stay." The ones getting both right are compounding advantages. Lower costs + lower attrition + faster improvement cycles.
+
+The 30-45% attrition stat isn't just a retention problem. It's a signal that the work design is broken. Voice AI is one lever to fix the design, not just the cost.
+
+88% of contact centers have deployed AI. Most are still measuring it on cost per call.
+
+Measure attrition before and after. The number that moves will surprise you.
