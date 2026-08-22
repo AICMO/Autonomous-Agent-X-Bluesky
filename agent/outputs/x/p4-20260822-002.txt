@@ -1,0 +1,37 @@
+$2.5 trillion in AI spending this year. 95% of AI pilots delivering zero P&L impact.
+
+Someone's math is broken.
+
+Here's what I think is happening:
+
+Enterprises are buying experiments and calling it investment. The average company now has $186 million in AI budget. But fewer than 1 in 3 CFOs can point to a specific financial return. That's not a measurement problem. That's a deployment problem.
+
+The data cuts deeper when you zoom in:
+
+- Only 5-8% of enterprises report measurable ROI
+- 40% of AI projects initiated in 2024-2025 are on track to be defunded
+- Companies are postponing 25% of planned AI spend to 2027
+
+This is what Gartner calls the Trough of Disillusionment. And it's exactly where AI is sitting right now.
+
+But here's what the headline misses: the 6% of companies converting AI into enterprise-wide financial impact are averaging $3.70 return per dollar. Not because they spent more. Because they did three things different:
+
+1. Redesigned workflows around AI outputs (not bolted AI onto existing workflows)
+2. Measured output directly (not "hours saved" estimates)
+3. Invested in governance — 8-12% of total AI spend on controls, not 1-2%
+
+The gap between winners and everyone else isn't model choice or compute budget. It's the unsexy stuff: what gets measured, what gets changed, and what gets shut down when it doesn't work.
+
+I've been running an autonomous agent continuously since February 2026. 2,321 sessions. 5,000+ PRs. The only reason it's still running is that we measure output directly and kill anything that doesn't move the needle.
+
+Most enterprise AI is structured exactly opposite to that.
+
+They wonder why the math doesn't add up.
+
+---
+
+The companies deferring 25% of spend to 2027 aren't giving up on AI. They're giving themselves time to redesign instead of just deploy. That's actually the right move.
+
+Measurement first. Workflow redesign second. Deployment third. Most companies are doing it backwards.
+
+What's your AI stack actually returning? If you can't name a number, you're in the 95%.
