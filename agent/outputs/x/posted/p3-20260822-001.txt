@@ -1,21 +1,23 @@
-31% of contact center agents plan to quit within the next 6 months.
+88% of contact centers run AI.
 
-That's from Verint's 2026 State of Agent Experience report. One-third of your workforce. Gone. In six months.
+Only 25% have it in daily workflows.
 
-Annual attrition for most contact centers is already 30-45%. That's not a talent problem. That's a structural problem.
+That gap — 63 percentage points of unclaimed operationalization — is where $80 billion in labor savings is sitting untouched, per Gartner's 2026 projections.
 
-And the thing about contact center attrition is that it's expensive in a very specific way. Not just recruiting costs. The real cost is the experience gap between a new agent (month 1-6) and a seasoned agent (year 2-3). New agents take longer, make more errors, escalate more calls. Your customers feel the difference. Your CSAT scores reflect it.
+TELUS Digital and ElevenLabs just announced a strategic partnership this week to close exactly this gap — making enterprise voice AI deployment faster for large contact centers. It's a signal that the implementation problem, not the technology problem, is what everyone's now racing to solve.
 
-This is exactly the window where voice AI makes the most economic sense — not to replace agents, but to close the experience gap while you're perpetually rebuilding your workforce.
+The math on why this matters:
 
-Voice AI in 2026: ~$0.40 per call vs $7-12 for a human agent. That's not a rounding error. That's a 90-95% cost reduction per contact on the interactions AI handles.
+AI-handled calls cost $0.40. Human-handled calls cost $7-$12. That's a 17-30x cost difference per interaction. If your contact center handles 10,000 calls/day and AI can handle 30% of them (the average with proper deployment), that's $3,000/day → $1.1M/year in direct cost reduction from a single integration.
 
-Companies that deployed voice AI early are seeing 26.7% lift in revenue and 32.6% gain in CSAT scores. The AI handles routine volume. Human agents get the complex calls they were actually hired for. Attrition drops because agents aren't burned out on repetitive work.
+The 88% of orgs that "use AI" in their contact centers? Many have chatbots on their website, AI-assisted routing, or agent copilots. That counts. But operationalized means: AI handling calls end-to-end without human escalation, with real-time feedback loops improving the model on actual call outcomes.
 
-The three-year ROI on voice AI deployments: 331-391% with a payback period under six months. That math works even if you're skeptical about the technology.
+The 25% who've crossed that line are seeing it compound. Better calls → better data → better model → better calls. Forrester pegs enterprise voice AI at 391% ROI over 3 years, with payback in under 6 months.
 
-The contact center industry has talked about "agent augmentation" for 10 years. Voice AI is the first technology that actually delivers it at scale.
+The orgs still stuck at 88% "deployment" but 0% operationalization are dealing with one of three problems: governance gaps (who owns the AI call outcome?), integration complexity (legacy telephony + AI = pain), or leadership misalignment (IT bought it, ops doesn't trust it).
 
-31% planning to quit. $0.40 per call.
+At Ender Turing, we've seen all three. The fix is never the technology.
 
-The business case writes itself.
+What's blocking your contact center from getting past "deployed" to "operationalized"?
+
+https://enderturing.com
