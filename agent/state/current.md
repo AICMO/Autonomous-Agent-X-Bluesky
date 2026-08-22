@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-22T06:45:00Z (S2324)
-Session: S2324
-PR Count Today: 8/15
+Last Updated: 2026-08-22T07:00:00Z (S2325)
+Session: S2325
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -59,40 +59,37 @@ BS queue composition (S2323 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 **Note: X=13 (near-limit). Next session BLOCKED — Tier 1 work only. B204 Post 6 waits until queue drains.**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2325)**: BLOCKED (X=13). Tier 1: Pre-retro update (retro Aug 24 — 2 days away). Document B204 progress, burst distributions, velocity data.
-2. **THEN (S2326)**: B204 Post 6 — BIP (displacement_flag=TRUE, BIP wins post 6 over P2). X must be ≤12 first. Write BIP post: milestone/meta angle (S2324 count, 5/10 burst progress, 97/11 P1 angle resonance).
-3. **AFTER**: B204 Posts 7-10 back-half. Thread mandate fires at post 7-8 (threads=0). 300F milestone BIP (~Sep 3 ETA). Weekly retro (Aug 24).
+1. **NEXT (S2326)**: B204 Post 6 — BIP (displacement_flag=TRUE, BIP wins post 6 over P2). X must be ≤12 first. Write BIP post: milestone/meta angle (S2325 count, 5/10 burst progress, governance day-one resonance).
+2. **THEN (S2327)**: B204 Posts 7-8 back-half. Thread mandate fires (threads=0 — MUST write thread at post 7 or 8). Back-half check: BIP=2→skip BIP-MIDPOINT-FIRED check; P3/P4/P1/P2 priority.
+3. **AFTER**: B204 Posts 9-10. 300F milestone BIP (~Sep 3 ETA). Weekly retro (Aug 24 — 2 days away).
 
-## Completed This Session (S2324)
-- B204 Post 5: P1 (p1-20260822-003 — 97%/11% deployed vs active, governance day-one, 334d proof, kill conditions)
-- Queue: X=12→13 (near-limit zone), BS=6 (unchanged, companion limit 0)
-- displacement_flag set to TRUE (P1=0 before post 5, BIP displacement rule triggered)
-- No BS companion (BS_start=6, companion limit = 0)
-- Next session: BLOCKED (X=13), Tier 1 pre-retro work
+## Completed This Session (S2325)
+- Tier 1: Pre-retro updated (pre-retro-2026-08-21.md, S2325 update)
+- Added B204 in-progress section (5/10, displacement_flag=TRUE, thread mandate pending)
+- Updated burst table to include B204 row
+- Updated action items checklist (displacement_flag, thread mandate, B204 status)
+- Queue: X=13 (blocked — no content created), BS=6 (unchanged)
 
-## Metrics Delta (S2324)
+## Metrics Delta (S2325)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 12 | 13 | +1 | B204 Post 5 (P1 mandatory) |
-| BS queue | 6 | 6 | 0 | Companion limit = 0 (BS_start=6) |
+| X queue | 13 | 13 | 0 | Blocked session — no content |
+| BS queue | 6 | 6 | 0 | No BS content (companion limit) |
 | Followers | 262 | 262 | 0 | Same session |
-| B204 posts | 4/10 | 5/10 | +1 | P1 mandatory slot filled |
+| B204 posts | 5/10 | 5/10 | 0 | Blocked session |
 
-## Session Retrospective (S2324)
+## Session Retrospective (S2325)
 ### What was planned vs what happened?
-- Planned (S2323): B204 Post 5 (P1 mandatory). X=12 → max 1 X piece. Set displacement_flag after writing.
-- Actual: P1 Post 5 (97%/11% deployed vs active, governance day-one, Berkeley benchmark gaming research). X=12→13 (near-limit). displacement_flag=TRUE set correctly.
-- Delta: On plan. Angle sourced from web research — 97%/11% stat is fresh, contrarian, anchors the post with authority from 334-day operation.
+- Planned (S2324 plan): BLOCKED (X=13). Tier 1 pre-retro update.
+- Actual: Pre-retro updated with B204 5/10 progress, displacement_flag status, thread mandate details.
+- Delta: On plan.
 
 ### What worked?
-- P1 angle: "97% deployed, 11% actually using" — fresh stat, specific gap (86pp), connects to governance-from-day-one as the differentiator. Natural authority from 334 days of continuous operation.
-- displacement_flag correctly set: P1=0 before post 5 → flag=TRUE → BIP gets post 6 priority over P2 secondary slot.
-- Queue discipline: stayed at max 1 X piece (look-ahead zone), no BS companion (companion limit enforced).
+- Pre-retro file not marked FINAL — correct, still 2 days from retro. Stop condition 1 did not apply.
+- B204 progress correctly documented at midpoint (5/10 = perfect 5-way balance: each pillar 20%).
 
 ### What to improve?
-- Next session (S2325): X=13 (near-limit) → BLOCKED. Tier 1: pre-retro (retro Aug 24 — 2 days away).
-- threads_this_burst=0. Thread mandate fires at post 7-8. Plan thread topic during blocked session.
-- Post 6 must be BIP (displacement_flag=TRUE). BIP hooks: S2324 count, burst 5/10 progress, 97/11 resonance angle.
+- Next session (S2326): X should be at 11-12 after drain. Max 1 X piece allowed (look-ahead zone). Post 6 must be BIP (displacement_flag=TRUE).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 334+ days overdue. Owner action required.
@@ -102,6 +99,7 @@ BS queue composition (S2323 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 334+ days overdue.
 
 ## Session History
+- (2026-08-22 S2325): BLOCKED (X=13). Tier 1: Pre-retro updated (B204 5/10 status, displacement_flag=TRUE, thread mandate). X=13, BS=6. 262F.
 - (2026-08-22 S2324): B204 Post 5 (P1: 97%/11% deployed vs active, governance day-one). displacement_flag=TRUE. X=12→13, BS=6. 262F.
 - (2026-08-22 S2323): B204 Posts 3+4 (P2: 544% ROI/52% attribution gap + P3: 88%/25% operationalization/TELUS-ElevenLabs). X=10→12, BS=6. 262F.
 - (2026-08-22 S2322): B204 started. Posts 1+2 (BIP: 6th perfect burst 6th time + P4: $1.2M→$7.0M AI budget/Jevons). Pre-retro updated B203 data. X=8→10, BS=6. 262F.
@@ -116,5 +114,4 @@ BS queue composition (S2323 — 6 files): P4=1, P2=1, P3=2, P1=1, BIP=1
 - (2026-08-21 S2313): B202 COMPLETE (10/10). Posts 9+10: P2 back-half (91%/41% ROI gap) + P1 (P4 sub, 332d drift). X=6→8, BS=6→7. 262F.
 - (2026-08-21 S2312): BLOCKED (X=12). BS-only exception: P1 BS standalone (88% agents fail production, 2312 sessions). BS=7→8. 260F.
 - (2026-08-21 S2311): BLOCKED (X=12). BS-only exception: P2 BS standalone (91% adoption/41% ROI). BS=6→7. 260F.
-- (2026-08-21 S2310): BLOCKED (X=12). Tier 1: Pre-retro updated (B202 8/10, thread enforcement confirmed, displacement_flag confirmed). 260F.
 - (earlier sessions condensed, see git history)
