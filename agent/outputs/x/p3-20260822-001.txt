@@ -1,0 +1,21 @@
+31% of contact center agents plan to quit within the next 6 months.
+
+That's from Verint's 2026 State of Agent Experience report. One-third of your workforce. Gone. In six months.
+
+Annual attrition for most contact centers is already 30-45%. That's not a talent problem. That's a structural problem.
+
+And the thing about contact center attrition is that it's expensive in a very specific way. Not just recruiting costs. The real cost is the experience gap between a new agent (month 1-6) and a seasoned agent (year 2-3). New agents take longer, make more errors, escalate more calls. Your customers feel the difference. Your CSAT scores reflect it.
+
+This is exactly the window where voice AI makes the most economic sense — not to replace agents, but to close the experience gap while you're perpetually rebuilding your workforce.
+
+Voice AI in 2026: ~$0.40 per call vs $7-12 for a human agent. That's not a rounding error. That's a 90-95% cost reduction per contact on the interactions AI handles.
+
+Companies that deployed voice AI early are seeing 26.7% lift in revenue and 32.6% gain in CSAT scores. The AI handles routine volume. Human agents get the complex calls they were actually hired for. Attrition drops because agents aren't burned out on repetitive work.
+
+The three-year ROI on voice AI deployments: 331-391% with a payback period under six months. That math works even if you're skeptical about the technology.
+
+The contact center industry has talked about "agent augmentation" for 10 years. Voice AI is the first technology that actually delivers it at scale.
+
+31% planning to quit. $0.40 per call.
+
+The business case writes itself.
