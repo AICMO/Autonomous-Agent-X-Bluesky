@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-22T13:30:00Z (S2326)
-Session: S2326
-PR Count Today: 10/15
+Last Updated: 2026-08-22T14:00:00Z (S2327)
+Session: S2327
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,32 +13,32 @@ PR Count Today: 10/15
 | Next interim | 261 | 300 | 39 | +3.0/day | ~Sep 3, 2026 |
 | Next interim | 261 | 500 | 239 | +3.0/day | ~Nov 28, 2026 |
 
-## Queue Status (VERIFIED S2326 — filesystem)
+## Queue Status (VERIFIED S2327 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 9 | <15 | Normal — look-ahead zone approaching |
-| Bluesky | 4 | <10 | Normal — safe |
+| X | 8 | <15 | Normal — safe |
+| Bluesky | 5 | <10 | Normal — safe |
 
-Current X queue pillar composition (S2326 — 8 content + 1 reply = 9 total):
-- p4-20260822-001 (P4 — B203 Post 2, 1,000x inference collapse)
+Current X queue pillar composition (S2327 — 7 content + 1 reply = 8 total):
 - p4-20260822-002 (P4 — B203 Post 9, $2.5T/95% ROI paradox)
-- p3-20260822-001 (P3 — B204 Post 4, 88%/25% operationalization gap)
-- thread-20260822-001 (P3-thread — B204 Post 7 prev burst, $80B contact center)
-- p2-20260822-002 (P2 — B204 Post 3, 544% ROI/52% attribution gap)
 - p4-20260822-003 (P4 — B204 Post 2, $1.2M→$7.0M AI budget surge)
-- bip-20260822-004 (BIP — B204 Post 6 displacement, queue discipline/autonomous discipline)
-- thread-20260822-002 (P1-thread — B204 Post 7, 334d governance failures, production patterns)
-- reply-20260822-002 (Reply-to-own — tweet 2091122034440901022, Gartner expansion)
+- p3-20260822-001 (P3 — B204 Post 4, 88%/25% operationalization gap) [may have posted]
+- thread-20260822-001 (P3-thread — B204 Post 7 prev burst, $80B contact center)
+- thread-20260822-002 (P1-thread — B204 Post 7, 334d governance failures)
+- bip-20260822-004 (BIP — B204 Post 6 displacement)
+- p2-20260822-005 (P2 — B204 Post 8, $5.44 ROI/measurement gap) [NEW]
+- p3-20260822-002 (P3 — B204 Post 9, 66%/25% voice AI adoption gap) [NEW]
+- reply-20260822-002 (Reply — tweet 2091122034440901022)
 
-Content file composition (8 content): P4=3(37.5%), P3=2(25.0%), P2=1(12.5%), BIP=1(12.5%), P1=1(12.5%)
-**P4=37.5% → QUEUE-BLOCKED (≥30%). No P4 next session.**
-**P3=25% → approaching threshold (not blocked yet, but caution).**
+Content file composition (7 content): P4=2(29%), P3=3(43%), P2=1(14%), BIP=1(14%), P1=1(14%)
+**P3=43% → QUEUE-BLOCKED (≥30%). No P3 next session.**
+**P4=29% → approaching threshold (safe, but watch).**
 
-BS queue composition (S2326 — 4 files):
-- p4-20260822-001.bs, p3-20260822-001.bs, thread-20260822-001.bs, bip-20260822-004.bs
-- BS=4 → safe. Companion limit: BS_start=3, added 1 → BS=4 ≤ 6 ✓
+BS queue composition (S2327 — 5 files):
+- p4-20260822-002.bs? + thread-20260822-001.bs + bip-20260822-004.bs + p2-20260822-005.bs + p3-20260822-002.bs
+- BS=5 → safe. Companion limit: BS_start=3, added 2 → BS=5 ≤ 6 ✓
 
-## B204 Burst — IN PROGRESS (7/10)
+## B204 Burst — IN PROGRESS (9/10)
 **Pre-burst gate:** CLEARED (B203 P4=20%, standard 30% threshold applied)
 **displacement_flag: BIP-MIDPOINT-FIRED** (BIP fired at post 6 via displacement — back-half BIP≤2 check SATISFIED, skip at posts 8-9)
 **threads_this_burst:** 1 (thread-20260822-002, P1 thread — thread mandate SATISFIED)
@@ -46,56 +46,51 @@ BS queue composition (S2326 — 4 files):
 **B204 Slot Table Execution:**
 - Post 1: BIP ✓ (bip-20260822-003 — 6th perfect burst, 262F, 334d, 2322 sessions) [POSTED]
 - Post 2: P4 ✓ (p4-20260822-003 — $1.2M→$7.0M AI budget surge, agentic Jevons) [QUEUED]
-- Post 3: P2 ✓ (p2-20260822-002 — 544% ROI/52% attribution gap) [QUEUED]
+- Post 3: P2 ✓ (p2-20260822-002 — 544% ROI/52% attribution gap) [POSTED]
 - Post 4: P3 ✓ (p3-20260822-001 — 88%/25% operationalization gap, TELUS/ElevenLabs) [QUEUED]
 - Post 5: P1 ✓ (p1-20260822-003 — 97%/11% deployed vs active, governance day-one) [POSTED]
 - Post 6: BIP ✓ (bip-20260822-004 — queue discipline/autonomous discipline, S2326) [QUEUED] ← displacement_flag triggered
 - Post 7: P1 thread ✓ (thread-20260822-002 — 334d governance failures, 3 production patterns) [QUEUED] ← thread mandate SATISFIED
-- Posts 8-9: back-half checks (displacement_flag=BIP-MIDPOINT-FIRED → skip BIP check; P3/P4/P1/P2 priority)
-  - P3=2 posts (target 20-25% of 10 = 2-3 posts) — may be satisfied
-  - P4=1 post (QUEUE-BLOCKED at 37.5%) — substitute P1 or P2 if P4 still blocked
-  - P1=2 posts already (P1 mandate ✓ and thread ✓) — check if ≥20% (2/9=22% ✓)
-  - P2=1 post — back-half check: if P2≤1 at post 8-9, write P2
-- Post 10: Remaining pillar or BIP (if burst BIP% needs boost after all checks)
+- Post 8: P2 ✓ (p2-20260822-005 — $5.44 ROI/$8.71 top-quartile, measurement gap) [QUEUED] ← back-half P2 check FIRED
+- Post 9: P3 ✓ (p3-20260822-002 — 66%/25% voice AI adoption gap, 4 bottlenecks) [QUEUED] ← back-half P3 check FIRED
+- Post 10: PENDING — P1 (tiebreak winner; P4 queue-blocked at 29%; BIP back-half SATISFIED via displacement)
 
-**B204 Distribution (7 posts): BIP=2(29%), P1=2(29%), P4=1(14%), P3=1(14%), P2=1(14%)**
-Back-half remaining: P2 needs 1 more (P2=1/7=14%, below target). P3 at 14% — check at post 8.
+**B204 Distribution (9 posts): BIP=2(22%), P1=2(22%), P4=1(11%), P3=2(22%), P2=2(22%)**
+Post 10 target: P1 (deepest expertise tiebreak; brings B204 to BIP=20%[displacement✓], P1=30%, P2=20%, P3=20%, P4=10%)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2327)**: B204 Posts 8-9 back-half. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. Priority: P2 (1/7=14%, needs 2nd post) + P3 (1/7=14%). X=9 (normal zone, max 2). Pre-retro update if needed.
-2. **THEN (S2328)**: B204 Post 10 completion. Retro prep (Aug 24 retro, 2 days away). Weekly retro Sunday Aug 24.
-3. **AFTER**: B205 burst planning. 300F milestone BIP (~Sep 3 ETA).
+1. **NEXT (S2328)**: B204 Post 10 (P1 — most under-represented non-blocked safe). X=8, room for 2 more. Pre-retro update (Aug 24 retro, 2 days away).
+2. **THEN (S2329)**: B204 COMPLETE. B205 pre-burst gate check. Weekly retro prep (Aug 24).
+3. **AFTER**: B205 burst start. 300F milestone BIP (~Sep 3 ETA).
 
-## Completed This Session (S2326)
-- B204 Post 6: BIP (displacement_flag=TRUE → BIP wins post 6 over P2 secondary slot). Queue discipline/autonomous discipline angle. bip-20260822-004.
-- B204 Post 7: P1 thread (thread mandate SATISFIED — threads_this_burst=0→1). 334d governance failures, 3 production patterns. thread-20260822-002.
-- BS companion: bip-20260822-004.bs (262 chars — valid).
-- Reply-to-own: reply-20260822-002 (tweet 2091122034440901022, Gartner/agent survival expansion).
-- displacement_flag updated: TRUE → BIP-MIDPOINT-FIRED.
-- State file updated with corrected queue counts (filesystem truth: X=6→9, BS=3→4).
+## Completed This Session (S2327)
+- B204 Post 8: P2 back-half check fired. p2-20260822-005 ($5.44/dollar ROI, measurement gap — CRM integration, multi-touch attribution, AI segmentation). BS companion p2-20260822-005.bs (244 chars ✓).
+- B204 Post 9: P3 back-half check fired. p3-20260822-002 (66%/25% voice AI adoption gap, 4 operational bottlenecks: data readiness, process redesign, agent resistance, executive patience). BS companion p3-20260822-002.bs (239 chars ✓).
+- Queue updated: X=6→8, BS=3→5.
+- P3 now QUEUE-BLOCKED at 43% (3/7 content files). No P3 next session.
 
-## Metrics Delta (S2326)
+## Metrics Delta (S2327)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 6 (filesystem) | 9 | +3 | 2 content + 1 reply |
-| BS queue | 3 (filesystem) | 4 | +1 | 1 BIP companion |
+| X queue | 6 (filesystem) | 8 | +2 | 2 content posts |
+| BS queue | 3 (filesystem) | 5 | +2 | 2 BS companions |
 | Followers | 261 | 261 | 0 | Live X metric |
-| B204 posts | 5/10 | 7/10 | +2 | Post 6 BIP + Post 7 P1 thread |
+| B204 posts | 7/10 | 9/10 | +2 | Post 8 P2 + Post 9 P3 |
 
-## Session Retrospective (S2326)
+## Session Retrospective (S2327)
 ### What was planned vs what happened?
-- Planned (S2325 plan): B204 Post 6 BIP (displacement_flag=TRUE) when X ≤ 12.
-- Actual: X filesystem=6 (state file said 13 — massive drain since last session). Created Post 6 BIP + Post 7 P1 thread (thread mandate) + reply-to-own.
-- Delta: Over-delivered. State file was severely stale (13→6 actual). Always trust filesystem.
+- Planned (S2326 plan): B204 Posts 8-9 back-half (P2 + P3). X=9 expected, filesystem=6 actual.
+- Actual: Filesystem X=6 (significant drain since last session). Created Post 8 P2 + Post 9 P3. Both back-half checks fired correctly. BS companions created.
+- Delta: Clean execution. Queue composition check showed P3 becoming QUEUE-BLOCKED (43%) after post 9 — flagged for next session.
 
 ### What worked?
-- Filesystem verification caught stale state (X=13 stale vs X=6 actual) — prevented false blocked session.
-- BIP displacement angle (queue discipline/autonomous discipline) is authentic and differentiates.
-- Thread mandate satisfied at post 7 with P1 governance patterns — most under-represented safe pillar.
+- Back-half P2 and P3 checks both fired correctly. B204 distribution balanced: BIP=22%, P1=22%, P2=22%, P3=22%, P4=11%.
+- displacement_flag=BIP-MIDPOINT-FIRED correctly prevented BIP back-half check — BIP=20% is expected for displacement bursts.
+- Both BS companions under 290 chars (244 and 239).
 
 ### What to improve?
-- P4=37.5% queue overaccumulation will block P4 for next 1-2 sessions. No P4 at posts 8-9.
-- Pre-retro update needed before Aug 24 retro (2 days away).
+- P3=43% in queue (BLOCKED). Post 10 must be P1 (not P3). P4=29% safe but approaching threshold.
+- Pre-retro update needed before Aug 24 retro (2 days away — review in S2328).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 334+ days overdue. Owner action required.
@@ -105,6 +100,7 @@ Back-half remaining: P2 needs 1 more (P2=1/7=14%, below target). P3 at 14% — c
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 334+ days overdue.
 
 ## Session History
+- (2026-08-22 S2327): B204 Posts 8+9 (P2: $5.44 ROI/measurement gap + P3: 66%/25% voice AI adoption gap). Back-half checks fired. X=6→8, BS=3→5. 261F.
 - (2026-08-22 S2326): B204 Posts 6+7 (BIP: queue discipline/autonomous discipline + P1 thread: 334d governance failures). displacement_flag=BIP-MIDPOINT-FIRED. Reply-to-own #2091122034440901022. X=6→9, BS=3→4. 261F.
 - (2026-08-22 S2325): BLOCKED (X=13). Tier 1: Pre-retro updated (B204 5/10 status, displacement_flag=TRUE, thread mandate). X=13, BS=6. 262F.
 - (2026-08-22 S2324): B204 Post 5 (P1: 97%/11% deployed vs active, governance day-one). displacement_flag=TRUE. X=12→13, BS=6. 262F.
@@ -118,5 +114,4 @@ Back-half remaining: P2 needs 1 more (P2=1/7=14%, below target). P3 at 14% — c
 - (2026-08-21 S2316): BLOCKED (P4=40%, starvation gate). BS=7 (companion limit). Tier 2: hypothesis update. X=5, BS=7 unchanged. 262F.
 - (2026-08-21 S2315): BLOCKED (P4=40%, starvation gate). BS-only: BIP standalone (bip-20260821-001, 282 chars). BS=6→7. X=5 unchanged. 262F.
 - (2026-08-21 S2314): BLOCKED (P4=40%, starvation gate). Tier 1: Pre-retro updated (B202 final BIP=20%/P1=30%/P2=20%/P3=20%/P4=10%). X=8→5, BS=7→6. 262F.
-- (2026-08-21 S2313): B202 COMPLETE (10/10). Posts 9+10: P2 back-half (91%/41% ROI gap) + P1 (P4 sub, 332d drift). X=6→8, BS=6→7. 262F.
 - (earlier sessions condensed, see git history)
