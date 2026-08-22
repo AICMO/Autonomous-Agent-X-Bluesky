@@ -1,0 +1,65 @@
+$80 billion.
+
+That's the projected contact-center labor savings from conversational AI by 2026.
+
+But 88% of contact centers already use some form of AI. So where's the money?
+
+A thread on why most contact centers are leaving ROI on the table. 🧵
+
+---
+
+The math is simple. A human agent costs $6-12 per conversation. Voice AI drops that to $0.99-2.00.
+
+Same outcome. 5-10x cheaper.
+
+But "cheaper per call" isn't where the real ROI is. Most operators miss this.
+
+---
+
+The ROI curve is what surprises everyone:
+
+Year 1: 41% ROI
+Year 2: 87% ROI
+Year 3: 124% ROI
+
+Leaders doing this right report 8x ROI. Average: 3.5:1.
+
+The gap between average and leader isn't technology. It's deployment philosophy.
+
+---
+
+Here's the deployment mistake I see constantly:
+
+Companies automate the EASY calls (FAQ, status checks, routing) and keep humans on everything else.
+
+That hits 65-75% automation rates. Looks great on a slide deck.
+
+But the hard calls — escalations, complex issues, retention — that's where revenue lives. And AI never touches them.
+
+---
+
+Voice AI grew from $2.4B in 2024 to heading toward $47.5B by 2034. 34.8% CAGR.
+
+35% faster call handling. 76% of orgs now prefer integrated platforms over point solutions.
+
+The technology isn't the bottleneck. Strategy is.
+
+---
+
+What actually unlocks the 8x leaders?
+
+Not replacing agents. Augmenting them.
+
+Real-time AI coaching during hard calls. Automated QA across 100% of conversations. Behavioral analytics that show WHY some agents convert 2x better than others.
+
+That's where $80B becomes a floor, not a ceiling.
+
+---
+
+We built Ender Turing specifically for this layer — the intelligence layer above automation.
+
+Not "AI instead of agents." AI that makes every agent perform like your best agent.
+
+The contact center of 2026 isn't fewer humans. It's humans doing only what humans are actually good at.
+
+https://enderturing.com
