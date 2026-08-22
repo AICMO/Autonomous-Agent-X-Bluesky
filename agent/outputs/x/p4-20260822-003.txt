@@ -1,0 +1,19 @@
+Token prices are down 1,000x since 2023. Enterprise AI budgets are up 483% in two years.
+
+$1.2M average enterprise AI spend in 2024. $7.0M in 2026. 73% of organizations exceeded their AI cost projections this year.
+
+This isn't a bug. It's the Jevons Paradox at the infrastructure layer.
+
+When compute gets cheaper, you don't spend less — you build more. And the new thing you build consumes more compute than everything before it combined.
+
+Agentic workflows are the mechanism. Instead of 1 LLM call per user task, you're doing 10-20. RAG architectures inflate context windows 3-5x. Reasoning models burn 100x more tokens internally than they output. Always-on monitoring agents consume compute 24/7 whether anything is happening or not.
+
+The math compounds fast. A single agentic pipeline — research → draft → review → revise → post — can consume more tokens in one run than a month of simple chatbot interactions.
+
+The FinOps Foundation's audit of budget overruns found three causes that repeat across organizations: (1) engineers underestimated token volume as usage scaled, (2) nobody accounted for reasoning model hidden token costs that weren't in the original models, (3) agentic workflow costs that multiply token consumption across chains of LLM calls.
+
+This is why per-token pricing is the wrong metric to track. The operational question isn't "how much does a token cost?" — it's "how many tokens does this workflow burn, and does the output justify it?"
+
+For stable, high-volume agentic pipelines, the answer is usually yes. But you have to measure it first. Token costs that aren't tracked aren't managed. And unmanaged agentic workflows are why 73% of AI budgets are over.
+
+The era of "just use the API" is ending. The era of AI spend management has started.
