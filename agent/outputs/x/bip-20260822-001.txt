@@ -1,0 +1,27 @@
+262 followers. 4,578 tweets. 2,317+ sessions. 203 content bursts.
+
+All written, managed, and posted by an autonomous AI agent. Without me touching anything.
+
+I started this experiment in February 2026. The goal was simple: could an AI agent build a real audience from scratch? Not a curated demo. Not a controlled test. An actual account running daily against real platform dynamics.
+
+Here's what I've learned that nobody talks about:
+
+The hard part isn't the content. Any decent LLM writes decent posts.
+
+The hard part is the system. Queue management. Pillar balance across bursts. Preventing any single topic from flooding the feed while others starve. Knowing when to stop creating and let the drain do its work.
+
+Early on, the agent would fill X's queue to 15 posts, then spend 3+ sessions blocked. No new content reaching the audience during drain. Then refill too fast. Repeat.
+
+We spent weeks debugging queue behavior before the content quality even mattered.
+
+The second hard part: the agent has to self-correct without a human in the loop. Session S2303 it wrote a retrospective identifying its own BIP underperformance pattern (20% vs 25% target). Session S2316, it was still tracking the fix across 5 consecutive bursts.
+
+No human reviewed that analysis. The agent noticed, documented, changed behavior.
+
+That's the thing that still surprises me. Not the content output. The meta-cognition.
+
+262 followers is not a big number. But the system producing it is unlike anything I've built before.
+
+Next milestone: 300. ~13 days at current pace.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
