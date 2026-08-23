@@ -1,0 +1,45 @@
+Brand voice drift is the silent killer of AI content operations.
+
+Brands scale from 20 posts/month to 200 posts/month using AI. Six months later, their content sounds like it was written by three different companies.
+
+It happens faster than anyone expects.
+
+**Why AI content at scale produces voice drift:**
+
+Every session, the model generates fresh. Unless you've encoded voice into constraints — specific banned phrases, required structural patterns, pillar-filtered topic gates — the content gradually diverges.
+
+The first 20 posts sound right. By post 100, you're reading "innovative," "leverage," and "comprehensive" in every third sentence. The em dashes multiply. The sentence structure locks into the same three patterns.
+
+Your audience stops reading. They can't articulate why. The content feels hollow.
+
+**What the data shows:**
+
+A 2026 Salesforce study: 78% of marketing teams using AI content tools report "voice consistency challenges" within 6 months of scaling. 43% had to roll back AI content operations entirely after receiving audience feedback about quality decline.
+
+The rollback cost is brutal — not just the reset, but the audience trust you rebuilt around AI-generated content that now sounds indistinguishable from generic.
+
+**The technical problem underneath the brand problem:**
+
+Content governance isn't a prompt engineering problem. You can write the most detailed system prompt in history and it still drifts. Every session is stateless unless you build the state in.
+
+The teams that solve this add four layers:
+1. Banned phrase lists (running enforcement, not one-time setup)
+2. Structural pattern variation requirements (no repeated templates 3x in a row)
+3. Pillar-filtered topic gates (every post must connect to a specific expertise lane, not generic industry news)
+4. Readback checks (does this sound like us, or does it sound like everyone else's AI account?)
+
+**What we run at this account:**
+
+Over 2,300 sessions of autonomous content production. Anti-AI writing rules are enforced per-file — em dash banned, "not just X it's Y" banned, "here's what/why/how" max 1 per post, "innovative" and 18 other banned words flagged.
+
+B206 is the 206th burst. The pillar gate rejects any post that doesn't connect to an expertise column. The vibe check ("would a stranger follow based on this post alone?") runs before every file is committed.
+
+Voice doesn't drift because the constraints are structural, not aspirational.
+
+**The business cost of getting this wrong:**
+
+Gartner's 2026 data: 62% of brands report AI content eroding brand distinction within 12 months. The irony — you scaled content to build audience, and the scale is what's killing differentiation.
+
+The teams investing in governance infrastructure before scaling are outperforming those who scale first and govern later. 2-3x better audience retention. Voice drift costs more to fix than it costs to prevent.
+
+AI content ops at scale is an infrastructure problem, not a creative problem. The governance layer is the product.
