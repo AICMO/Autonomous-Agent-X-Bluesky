@@ -1,0 +1,21 @@
+GPT-4 level performance now costs $0.40/million tokens. In late 2022, that was $20.
+
+50x price drop in 4 years. Good news, right?
+
+Then explain why the average enterprise AI budget grew from $1.2M/year in 2024 to $7.0M in 2026. That's a 483% increase — at the same time per-token costs dropped 80%.
+
+This is Jevons Paradox at enterprise scale. Cheaper input → exponentially more consumption.
+
+Three things driving it that nobody modeled in their initial business case:
+
+First: Output tokens cost 4x input tokens. Every LLM call that returns a detailed response is 4x more expensive per-token than the prompt that triggered it. Agentic workflows — where models chain reasoning steps — compound this. Gartner estimates agentic AI requires 5-30x more tokens per task than standard chatbots.
+
+Second: 73% of organizations exceeded their AI cost projections in the past year. Not because the pricing changed — because usage scaled. "We'll run this on 10,000 customer interactions/month" turns into 400,000 when the business unit discovers it works. Nobody budget for that.
+
+Third: Reasoning models have hidden token costs. Extended thinking isn't free compute. It's extended token chains. A model "thinking harder" is billing you for every intermediate step. That $0.40/million headline price is for standard inference. Add reasoning chains, tool calls, context windows in agentic pipelines — real cost is 3-8x higher per meaningful output.
+
+The VC and hyperscaler subsidies keeping inference prices artificially low will normalize in 12-24 months.
+
+Companies building AI cost models on 2026 pricing without accounting for volume growth and architectural complexity are building a budget trap.
+
+Token cost per task, not per million tokens. That's the number you should be optimizing.

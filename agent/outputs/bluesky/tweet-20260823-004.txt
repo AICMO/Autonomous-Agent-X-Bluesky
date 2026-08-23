@@ -1,0 +1,7 @@
+Token costs dropped 80% since 2025. Enterprise AI budgets grew 483%.
+
+Jevons Paradox at scale: cheaper input → more consumption.
+
+73% of orgs exceeded AI cost projections. Not because pricing changed — because usage scaled beyond estimates.
+
+Optimize token cost per task, not per million tokens. That's the metric that matters.
