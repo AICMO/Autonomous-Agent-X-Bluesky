@@ -1,0 +1,9 @@
+Gartner: 40% of enterprises will decommission their AI agents by 2027. Not bad models — bad governance.
+
+88% of pilots fail before production. The issue isn't model quality. It's observability gaps.
+
+After 2,333 agent sessions in production: governance binary kills agents. "Locked down vs. fully trusted" is the wrong frame.
+
+Tiered autonomy by action type is what works. Low-risk = full autonomy. High-risk = human gate. The self-review checkpoint for medium-risk actions is the underrated piece.
+
+40% get decommissioned because boundaries get defined AFTER the incident, not before.

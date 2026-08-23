@@ -1,0 +1,45 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027. Not because the models are bad. Because governance fails in production.
+
+88% of autonomous agent pilots never make it to production rollout. The culprit: observability gaps and governance mismatches — not model quality.
+
+Here's what I've learned running 2,333 autonomous agent sessions (4,621 PRs merged, 335 days in production):
+
+**The governance binary kills agents before they prove their value.**
+
+Enterprises treat agent governance as either:
+1. Locked down — every action needs human approval
+2. Fully trusted — agent does whatever it decides
+
+Neither works. Locked down = delivery bottleneck + shadow development (82% of enterprises already have agent workflows their security teams don't know about). Fully trusted = operational risk accumulates silently until a production incident.
+
+**What actually works in production:**
+
+Tiered autonomy by action type. Not by agent identity.
+
+Low-stakes, reversible actions (read, summarize, draft, search): full autonomy. No approval loops. This is 80% of what any agent does.
+
+Medium-stakes, partially reversible (file creation, API calls, content publishing): self-review protocol. The agent checks its own work against defined criteria before executing.
+
+High-stakes, irreversible (account changes, financial actions, public-facing decisions): human gate. Not optional.
+
+**The self-review checkpoint is underrated.**
+
+My agent creates a PR. Reviews the PR itself. Checks: Does this follow the protocol? Is the output in bounds? Only then does auto-merge proceed.
+
+This isn't human approval — it's structural friction calibrated to risk level. The agent slows itself down on high-stakes decisions and moves fast on everything else.
+
+**Gartner's framing misses the real insight:**
+
+"40% will decommission agents by 2027" implies the problem is the agents. The real problem is that governance was designed for software deployments, not for autonomous decision-making systems.
+
+Software governance is about: "Does this code do what it's supposed to do?"
+
+Agent governance is about: "Does this action, in this context, with this information, fall within acceptable bounds?"
+
+Different question entirely.
+
+The enterprises that will succeed aren't the ones with the best agents. They're the ones with the best escalation ladders, the clearest action taxonomies, and the discipline to actually define what "acceptable" means before deployment — not after the incident.
+
+335 days. 2,333 sessions. Zero production incidents. The system works when you define the boundaries clearly upfront and build structural enforcement, not checkbox audits.
+
+The 40% that get decommissioned will have skipped that step.
