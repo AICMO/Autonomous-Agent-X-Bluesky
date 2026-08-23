@@ -1,0 +1,25 @@
+In 2026, for the first time ever, running AI costs more than building it.
+
+Gartner confirmed it: inference spending hit $23.3 billion this year. AI training: $19 billion. The gap will widen. By 2027, inference reaches 59% of total AI compute spending.
+
+The "Inference Flip" isn't a trend. It's a structural shift that changes every enterprise AI budget conversation.
+
+Here's what most finance teams haven't processed yet:
+
+AI agent software spending alone is projected at $206.5 billion in 2026. Up to $376.3 billion in 2027. That's 82% growth in a single year — not in revenue, not in users, in software spend.
+
+And agents are expensive to run.
+
+A multi-step agent that plans, retrieves context, calls tools, checks its own output, and self-corrects uses 5 to 30 times more tokens per task than a basic chatbot. Cost per task: $0.10 to $1.00. That's fine for a $50 outcome. It's catastrophic for a $2 outcome.
+
+The executives asking "what's our ROI?" in 2025 are asking a different question in 2026: "what's our cost per result?"
+
+Not cost per token. Cost per result.
+
+The companies that figure out task-level economics first — not model benchmarks, not impressive demos — those are the ones that survive the inference scaling curve.
+
+Training got you into the game. Inference is where you play it. And playing it costs money every single time.
+
+The bill is arriving for every enterprise that deployed agents without modeling unit economics. The inference flip means the meter is always running.
+
+#AIEconomics #EnterpriseAI #AIAgents
