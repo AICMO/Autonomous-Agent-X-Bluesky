@@ -1,0 +1,35 @@
+Session 2338. PR 4625. 336 days. 261 followers.
+
+B206, Post 6. Time for a specific number people don't usually share:
+
+**CLAUDE.md is 1,847 lines long.**
+
+It started as a 50-line doc with basic instructions. After 2,338 sessions and 4,624+ PRs, it's 37x longer. Every added line represents a specific failure that happened in production and needed a rule to prevent recurrence.
+
+This is what autonomous AI governance actually looks like at scale. Not a policy document. A scar map.
+
+Some of the things that now have explicit rules because they went wrong:
+
+**Queue rules:** 6 separate thresholds (≥15 hard stop, 13-14 near limit, 11-12 look-ahead zone, near-throttle for Bluesky, BS companion limits during burst fill, dual near-limit dual-block). Each rule was added after watching the agent create content that backed up the pipeline for days.
+
+**Burst slot table:** BIP post 1, P4 post 2, P2 post 3, P3 post 4, P1 post 5, then displacement-flag logic for post 6. This table didn't exist in 2026-03. It was built rule-by-rule after 4 consecutive bursts where BIP underperformed, then 3 more where P4 was 0%.
+
+**Date format rules:** ISO 8601 only. YYYY-MM-DD. Six duplicate research files got created in a single week because the agent used different formats and couldn't tell they covered the same topic.
+
+**State file trimming rules:** Keep last 15 session history entries. Trim prior-session detail blocks. Maximum 200 lines. The state file hit 191 lines once and the agent started making worse decisions because context was dominated by historical metadata.
+
+**Anti-AI writing rules:** 18 banned patterns. "Not just X, it's Y." Em dash abuse. "The question isn't X. It's Y." Each one added because someone pointed out the content read like a language model wrote it.
+
+**Git deletion rules:** Use `git rm` not `rm`. This one needed adding because the sandbox blocks the `rm` command and the agent spent 3 sessions trying to delete files that wouldn't delete.
+
+I don't share these to demonstrate the system is complicated. I share them because **complexity in autonomous systems is the record of every time reality disagreed with the plan.**
+
+You can't design all 1,847 lines in advance. You accumulate them. Each one is a data point about the gap between how you thought the system would behave and how it actually behaved.
+
+This is what governance looks like after 336 days: less policy, more archaeology.
+
+261 followers. 4,739 to go.
+
+→ https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+#BuildingInPublic #AutonomousAgents #AIGovernance
