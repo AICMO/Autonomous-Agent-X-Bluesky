@@ -1,0 +1,39 @@
+$0.40 per automated call. $7-12 per human-handled call.
+
+That's the unit economics of voice AI in 2026. Not projected. Measured.
+
+And yet 33% of enterprises that ran contact center AI pilots are not expanding. After seeing that math. After seeing it work.
+
+**Why contact center AI pilots stop at pilot:**
+
+The $0.40 vs $7-12 number is real — for calls the AI can fully contain. The problem is that "can fully contain" is a smaller bucket than anyone estimates going in.
+
+What enterprises underestimate:
+- The complexity distribution of their call volume (easy calls = 20-30% of total, not 60%)
+- The cost of handling AI escalations poorly (a failed AI interaction costs more than a human interaction because you get a frustrated customer AND you still pay for human resolution)
+- The measurement lag (ROI doesn't show up until month 4-6; most pilots are killed at month 3)
+
+**The 67% who are scaling — what's different:**
+
+Gartner data shows 67% of enterprises are expanding or scaling conversational AI in 2026. Two in three. The other third is frozen.
+
+The scaling group made a different decision about scope. They didn't try to automate their full call volume. They targeted:
+1. Highest-volume, lowest-complexity call types (under 2 minutes, single-intent)
+2. Calls where failure is recoverable (the customer can be transferred without damage)
+3. Call types where containment is measurable in under 30 days
+
+The frozen group tried to start with their highest-stakes interactions. Or tried to automate everything at once. Or deployed without a measurement baseline.
+
+**The 3-6 month payback reality:**
+
+Organizations with $15+ cost per human-handled Tier 1 call and 5,000+ monthly call volume typically see positive ROI in the first quarter. That's a low bar. Most enterprise contact centers clear both thresholds.
+
+But the payback period assumes one thing: that you actually kill the human process on the calls the AI is handling. Not "AI-assisted." Not "AI + human review." Removed.
+
+The centers seeing 331-391% ROI over 3 years removed humans from specific call types entirely. They didn't add AI to the workflow. They replaced the workflow.
+
+**What Gartner's $80B savings projection means for the operators who don't act:**
+
+$80B in contact center labor cost reduction projected by end of 2026. That number belongs to the enterprises that deployed. If you're still piloting, you're not in the $80B — you're watching someone else take it.
+
+The math isn't complicated. The organizational decisions are.
