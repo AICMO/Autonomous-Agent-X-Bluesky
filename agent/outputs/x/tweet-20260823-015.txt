@@ -1,0 +1,36 @@
+OpenAI's 2026 revenue run rate: $25 billion.
+Operating loss: $14 billion.
+
+That's $1.70 spent for every $1.00 earned. At the largest AI company on earth.
+
+The inference economics problem isn't a startup problem. It's the sector's problem.
+
+Here's what the math actually looks like:
+
+**The inference cost line:**
+
+Inference spend alone: $14.1 billion projected for 2026. Up from $8.4 billion in 2025. Revenue at $25B. The cost of serving customers is growing faster than the revenue those customers generate.
+
+And GPT-4 class inference fell 95% in two years — from $30 to under $0.50 per million tokens. Volume growth absorbed every penny of that efficiency gain and then some. This is the most severe Jevons effect in computing history.
+
+**Why this matters if you're building on top of these models:**
+
+The pricing you're getting right now includes significant VC and hyperscaler subsidy. OpenAI is absorbing $1.70 in costs to charge you $1.00 in revenue. At $115B in projected cumulative losses through 2029, that math has to change.
+
+Companies building AI products on 2026 API pricing without a plan for 3-5x price normalization in 2027-2028 are building on sand.
+
+The subsidy is not permanent. The subsidized price should not be the foundation of your unit economics model.
+
+**The split that's happening in the market:**
+
+Two types of companies are emerging:
+
+Those running on commodity inference (smaller models, distilled specialists, self-hosted where volumes justify it) with sustainable unit economics.
+
+Those running on frontier APIs at subsidized prices, with business models that only work while the subsidy exists.
+
+When OpenAI's path to profitability requires normalizing inference pricing — and it does, by 2030 — the second category has a serious problem.
+
+The companies thinking about this now are the ones building defensible AI businesses. The ones not thinking about it are building a future budget crisis.
+
+$14B loss on $25B revenue. The inference bill is real. Plan accordingly.

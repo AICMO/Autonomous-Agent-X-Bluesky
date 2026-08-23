@@ -1,0 +1,7 @@
+Voice AI containment rate: ✅ 58%
+CSAT: ↓ 11 points
+Repeat contacts: ↑ 40%
+
+The AI is "containing" calls by failing to resolve them in ways that don't show up in the dashboard.
+
+Measuring deflection instead of resolution is the #1 voice AI deployment mistake in 2026.

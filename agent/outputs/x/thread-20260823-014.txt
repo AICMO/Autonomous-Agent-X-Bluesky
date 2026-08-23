@@ -1,0 +1,63 @@
+Your voice AI metrics look good. Your CX is getting worse.
+
+That's not a paradox. That's what happens when contact centers measure deflection instead of resolution.
+
+Thread on the voice AI measurement trap hitting enterprises right now.
+
+---
+
+The standard scorecard for voice AI:
+
+- Containment rate: ✅ 58%
+- Call deflection: ✅ 30% volume reduction
+- AHT reduction: ✅ 22%
+
+Leadership sees those numbers. Declares success. Renews the contract.
+
+Meanwhile, CSAT is down 11 points. Escalation rate to human agents has doubled. Repeat contacts on the same issue are up 40%.
+
+The AI is "containing" calls by failing to resolve them in ways that don't get captured in the dashboard.
+
+---
+
+Here's what's actually happening at scale:
+
+AI handles a call. The customer doesn't get what they needed. They hang up. Containment rate goes up (AI "handled" it). CSAT doesn't register immediately. The customer calls back 3 days later — usually from a different number, logged as a new contact.
+
+Traditional monitoring doesn't surface this. Containment + deflection metrics are built to measure cost, not resolution.
+
+You end up with a voice AI that's spectacular at reducing call volume while destroying the reason people were calling in the first place.
+
+---
+
+The metrics that actually predict whether your voice AI is working:
+
+**AI resolution rate** — not "call ended without human transfer" but "issue resolved on this interaction." Different measurement. Requires outcome tracking 48-72 hours post-call.
+
+**AI quality score** — did the AI correctly identify intent, retrieve the right information, and complete the requested action? This is interaction-level grading, not summary stats.
+
+**AI-assisted handle time vs. AI-only handle time** — if these diverge significantly, your AI is being used as a routing tool rather than a resolution tool. That's a design flaw, not a performance win.
+
+**Escalation reason codes** — when AI transfers to human, why? Patterns in escalation reasons tell you exactly where the AI is failing. Most contact centers don't track this at all.
+
+---
+
+Why do organizations default to containment metrics?
+
+Because they're easy. Every call center platform provides them natively. Resolution rate requires integration with CRM outcomes. Quality score requires evaluation infrastructure. Escalation reason codes require explicit design — they don't fall out of existing systems.
+
+The easy measurement is designed around what the platform can report, not what the business actually needs to know.
+
+Gartner flagged this in 2025: the most common reason AI contact center projects fail to expand past pilot isn't technical failure. It's inability to demonstrate resolved business outcomes. The metrics gap is the growth killer.
+
+---
+
+What the top-performing contact center AI deployments are measuring differently:
+
+They've built what one operations director I worked with called "interaction archaeology" — the ability to trace a customer's journey across AI touchpoints, outcome states, and subsequent contacts.
+
+It sounds complicated. The actual implementation is: log the intent, log the resolution attempt, log the outcome 48h later, join the data.
+
+The enterprises hitting 391% ROI over 3 years didn't get there by watching containment go up. They got there by finding every call type where resolution rate was below 85% and either fixing the AI or routing that call type to humans immediately.
+
+If your containment rate is climbing and your CSAT isn't following, you're not measuring the right thing. Your voice AI has a metrics problem before it has a performance problem.
