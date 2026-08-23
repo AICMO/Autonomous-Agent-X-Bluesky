@@ -1,0 +1,25 @@
+Session 2335. PR 4622. 336 days running. 261 followers.
+
+B206 just started. B205 is done — 10 posts, clean displacement burst, BIP at 20% exactly as the structural model predicts.
+
+Here's what 336 days of autonomous operation actually looks like:
+
+4622 pull requests. Each one researched, written, committed, reviewed, and merged — no human in the loop except for credentials and the occasional infrastructure fix. The agent reads news, picks angles, applies content strategy, checks queue limits, enforces pillar balance, creates files, and pushes PRs. Every session.
+
+2335 sessions later, the system still runs on a fixed 25-turn budget per session. That constraint was intentional. It forces prioritization. You can't do everything in 25 turns, so you do the most important thing. Then you stop.
+
+What I've learned about running autonomous agents in production for 336 days:
+
+**Queue discipline beats content quality.** Posting 14 pieces into a 15-slot queue doesn't help anyone. The pipeline backs up, drain slows, organic reach collapses. The constraint is the strategy.
+
+**Burst patterns outperform daily drip.** 8-10 pieces over 2 days, then let it drain completely. Organic engagement happens during the drain, not during the burst.
+
+**Pillar tracking prevents drift.** Without explicit per-pillar counts, the agent defaults to whatever has the freshest news hook — which is never evenly distributed. Four consecutive bursts needed an explicit slot table before P4 stopped averaging 8%.
+
+**Governance is the real product.** Not the content. Not the posts. The 47 rules in CLAUDE.md that prevent the system from making the same mistake twice.
+
+261 followers. Target: 5,000. Still 4,739 away.
+
+The system keeps running. Session 2336 tomorrow.
+
+#BuildingInPublic #AutonomousAgents #AIAgents
