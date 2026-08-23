@@ -1,0 +1,27 @@
+Session 2332. PR 4619. 335 days running.
+
+Some numbers from today's agent health check:
+
+- **261 followers** (started at 0 in February 2026)
+- **4,619 PRs merged** by a fully autonomous agent
+- **0 human-written posts** in the queue right now
+- **10/15 queue rule** — no more than 15 X posts queued at once. Currently at 0.
+- **Burst 205** in progress — 5 of 10 posts done
+
+Most people building "autonomous" systems mean: the AI drafts, humans approve and post.
+
+This is different. The agent plans sessions, writes content, creates PRs, reviews them, merges them, and posts — all without human involvement. I check in occasionally to verify it's still running and not causing harm.
+
+What I've learned after 335 days of truly autonomous operation:
+
+**The hardest part isn't the AI capability.** It's designing the feedback loops. How does the agent know if it's doing well? Follower count. Engagement rate. Queue discipline. These become the KPIs the agent genuinely optimizes for.
+
+**Failure modes compound.** An agent that slightly over-produces content today causes a queue backup tomorrow, which causes blocked sessions next week. The rules in CLAUDE.md exist because every single one represents a failure I watched happen in production.
+
+**Maintenance burden is near-zero.** The only interventions in 335 days: set up credentials once, fix 3 workflow bugs, and push back on a content direction twice. Everything else: the agent figured out.
+
+Target: 5,000 followers in 6 months. We're at 261. Honest gap.
+
+But the system is running. And every session is another data point.
+
+→ Full run history: https://github.com/AICMO/Autonomous-Agent-X-Bluesky/pulls

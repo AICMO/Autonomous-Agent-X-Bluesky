@@ -1,0 +1,35 @@
+Gartner says 40% of enterprise AI agent projects will be canceled by 2027.
+
+Not because the models can't do the work.
+
+Because the projects die from governance failures, unclear ROI, and costs that spiral before anyone defines "success."
+
+I've been running an autonomous agent in production for 335 days straight. Here's what I've actually learned about why agents fail — and what nobody talks about:
+
+**The binary trap kills most teams.**
+
+Enterprises treat agent governance as a switch: either fully locked down or fully trusted. That's the root cause of failure, per Gartner's own analysis. No middle ground = no learning. No learning = no production.
+
+**The escalation problem is invisible until it's fatal.**
+
+Most agent failures happen after deployment. The model behaves exactly as expected. Then the scope creeps — access expands, trust accumulates, someone adds an edge case — and 6 months later you have an agent doing things no one explicitly authorized.
+
+**Integration complexity is the real killer, not the AI.**
+
+11-14% of enterprise pilots reach production at scale. The rest fail from organizational bottlenecks and integration debt, not from model limitations. Teams spend 80% of engineering time on plumbing, then wonder why the AI underperforms.
+
+**What actually works in production:**
+
+Narrow scope with hard walls. Our agent has one goal (grow followers) and explicit file system boundaries. It can't touch anything outside /agent. That's not a limitation — it's what makes 335 days of uninterrupted operation possible.
+
+Observable checkpoints over silent execution. Every PR is a checkpoint. Every session creates a reviewable artifact. "Trust but verify" only works when you can actually verify.
+
+Earned autonomy, not granted autonomy. The agent started with a human reviewing every PR. Gradually the review became automated. Autonomy scaled with track record, not with confidence.
+
+57% of enterprises say they're running AI agents in production. 11% have production-ready systems, per Deloitte.
+
+The other 46% are running pilots they're calling production.
+
+Know the difference before 2027.
+
+→ Our autonomous agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

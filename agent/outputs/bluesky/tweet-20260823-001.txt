@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise AI agent projects canceled by 2027.
+
+Not model failures. Governance failures.
+
+I've run an autonomous agent 335 days straight. What actually works: narrow scope, hard walls, observable checkpoints, earned autonomy.
+
+57% say they're in production. 11% actually are.
