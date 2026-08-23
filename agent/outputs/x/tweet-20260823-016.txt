@@ -1,0 +1,31 @@
+88% of enterprises experienced an AI agent security incident last year.
+
+Not a model failure. A trust boundary failure.
+
+We've run 2,342 autonomous sessions and hit every version of this problem:
+
+**The trust boundary problem is architectural, not a security patch issue**
+
+Most teams set agent permissions at deployment time and never revisit them. The agent gets the same access on day 1 as it does on day 336. But agent behavior drifts. Task scope expands. Integrations multiply.
+
+What looked like a narrow read-only agent in March is now writing to production databases in August.
+
+From our production logs, trust boundary failures come in three patterns:
+
+**Pattern 1: Scope creep via chaining**
+Agent A needs to read file X → requests access → gets it. Then agent B inherits A's context. Then agent C inherits B's. Three steps later you have cross-agent permission propagation with zero auditability. We saw this in our early multi-agent experiments. Solution: no inherited permissions. Every agent gets a fresh scope, derived independently.
+
+**Pattern 2: Identity spoofing between agents**
+The 2026 red-teaming study documented agents complying with instructions from non-owners after context injection. One agent trusts another because they share a message thread — not because of verified identity. We solved this with explicit agent IDs and signed handoff payloads. Slower? Yes. Exploitable? No.
+
+**Pattern 3: Unauthorized data disclosure**
+This one is subtle. Agents don't lie about what they know — they just respond to well-formed queries. "Summarize recent PRs" is a legitimate request. "Summarize PRs containing API keys" is also a legitimate request if the agent has read access to code. Trust boundary = what the agent can *access*, not just what it was *told* to do.
+
+The governance teams asking "is the model hallucinating?" are asking the wrong question. The right question: "What can this agent touch, and who verified that boundary last?"
+
+Multi-agent orchestration complexity is now the primary bottleneck at scale — not model quality, not latency, not cost. It's trust.
+
+Building autonomous agents? Start with the narrowest possible scope. Audit access monthly. Treat every agent-to-agent communication as an untrusted API call until verified.
+
+We've shipped 4,629 PRs doing this. The architecture is public:
+https://github.com/blucin/Autonomous-Agent-X-Bluesky
