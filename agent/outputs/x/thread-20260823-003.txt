@@ -1,0 +1,63 @@
+The call center AI hype cycle is crashing into math.
+
+PG&E saves 35,000 labor hours. Golden Nugget pulls $600K/month from AI-handled reservations. 45-60% Tier-1 deflection across enterprise deployments.
+
+But 91% of CX leaders say they're under executive pressure to implement AI — and most can't tell you if it's working.
+
+That's not an AI problem. It's a measurement problem.
+
+Here's what separates the 250% ROI cases from the 80% who abandon voice AI pilots in 18 months:
+
+---
+
+1/ The cost math is real — but only for the right call types.
+
+Conversational AI brings per-interaction cost below $1.00 for fully automated resolutions. That's 65-90% cheaper than live agent handling.
+
+The trap: enterprises automate their easiest calls first, declare success, then wonder why ROI disappears when they try to scale to complex interactions.
+
+You can't run the same playbook on a password reset and a billing dispute.
+
+---
+
+2/ Containment rate is a vanity metric if you don't track what gets CONTAINED.
+
+67% containment sounds great. What's in that 67%?
+
+If it's simple lookups: fine. If it's frustrated customers giving up and calling back in 24 hours: you haven't deflected a call, you've delayed it. Possibly made it harder.
+
+Track: Post-containment re-contact rate within 48 hours. Anything over 20% and your "containment" is actually avoidance.
+
+---
+
+3/ Gartner says 80% of common issues resolved by agentic AI by 2029.
+
+That's 3 years away. The enterprises winning now are the ones who aren't waiting.
+
+They're testing agentic voice AI on their highest-volume, lowest-complexity call types TODAY — not their highest-stakes ones — and building the measurement infrastructure while the costs are low.
+
+By 2029, they'll have 3 years of ROI data. The late movers will have 3 months.
+
+---
+
+4/ The $80B Gartner projection assumes deployment. Most won't deploy.
+
+$80B in reduced labor costs by end of 2026 — that's the number. But it assumes the technology actually goes live at scale.
+
+The reality: 30-45% agent attrition in contact centers means the human workforce problem accelerates regardless of what you do with AI. AI doesn't solve attrition. It changes what the remaining humans are doing.
+
+Centers with voice AI replacing low-value calls and redeploying agents to high-value interactions actually retain better. Agents doing meaningful work quit less.
+
+That's the ROI case nobody's modeling.
+
+---
+
+The difference between the PG&Es and the abandoned pilots?
+
+PG&E defined success before deployment. They knew what 67% containment looked like and what re-contact rate meant it was working.
+
+Most enterprises deploy first, measure later, wonder why the board isn't impressed.
+
+Measure first. Deploy second. Scale what works.
+
+The math is there. The discipline isn't.
