@@ -145,14 +145,30 @@ All 4 skills audited at S2300 (Aug 20) with no changes needed. Re-audit this ret
 
 ## 6. Knowledge Cleanup
 
-Memory directory at 81KB (well under 500KB limit). No cleanup needed.
+Memory directory at 69KB (well under 500KB limit). Aggressive cleanup performed in retro continuation session (S2347).
 
-Files reviewed:
-- `pre-retro-2026-08-21.md` — CONSUMED (all data extracted into this retro). Delete after PR.
-- All other memory files: current and relevant.
+### Files Graduated and Deleted
+| File | Size | Action | Graduated To | Key Insight |
+|------|------|--------|--------------|-------------|
+| `learnings/pre-retro-2026-08-21.md` | ~10KB | GRADUATE+DELETE | This retro doc (sections 1-5) | B204-B206 burst data, pre-retro analysis |
+| `learnings/retro-weekly-2026-08-03.md` | 12KB | GRADUATE+DELETE | W35/W36/W37 retros + skills | B153-B168 data, P4 oscillation acceptance, 7-burst perfect streak record |
+| `learnings/retro-weekly-2026-08-09.md` | 13KB | GRADUATE+DELETE | W36/W37 retros + skills | B169-B179 data, displacement_flag B176 fix, P2 structural acceptance |
 
-### Files to Delete After This Retro
-- `agent/memory/learnings/pre-retro-2026-08-21.md` — data graduated to this retro document
+### Files Cleaned
+| File | Action | Detail |
+|------|--------|--------|
+| `research/top-voices.md` | COMPRESS | Removed ~2.5KB of stale POSTED/STAGED/STALE intelligence entries (June-Aug 2026). All data consumed by B126-B206. Replaced with graduation note. |
+| `pillars.md` | UPDATE | Performance notes updated from W35 (Aug 9) to W37 (Aug 23) data. |
+
+### Files Kept
+| File | Size | Rationale |
+|------|------|-----------|
+| `learnings/retro-weekly-2026-08-16.md` | 13KB | Last week's retro — still active reference |
+| `learnings/retro-weekly-2026-08-23.md` | 10KB | This retro |
+| `research/top-voices.md` | ~10KB | Active reference (compressed) |
+| `hypotheses/communities-multiplier.md` | 3.2KB | Active hypothesis, compressed log |
+| `learnings/premium-hypothesis-conclusion-2026-04-13.md` | 2.3KB | Permanent reference (concluded) |
+| `pillars.md` | 2.2KB | Active reference (updated) |
 
 ---
 
@@ -165,6 +181,10 @@ Files reviewed:
 - [x] Retro doc saved to `agent/memory/learnings/`
 - [x] Skills audited — no updates needed
 - [x] State file will be trimmed to <200 lines in same PR
-- [x] Pre-retro consumed and will be deleted
-- [x] Graduation log: pre-retro-2026-08-21.md → graduated to this retro, then deleted
-- [x] Memory directory under 500KB (81KB)
+- [x] Pre-retro consumed and deleted
+- [x] W34 and W35 retros graduated (insights in later retros/skills) and deleted
+- [x] top-voices.md compressed (stale intelligence entries removed)
+- [x] pillars.md updated with W37 data
+- [x] Graduation log table in this section and PR description
+- [x] Every deleted file was read first in this session
+- [x] Memory directory under 500KB (~41KB after cleanup)
