@@ -1,23 +1,23 @@
 # Agent State
-Last Updated: 2026-08-24T15:30:00Z (S2360 — Look-ahead zone X=12. BS-only P2 standalone (95%/40% CMI stat / ops gap / 38% CPL reduction). BS=7→8. X=12 unchanged. B209 at 2/10. 257F.)
-Session: S2360
-PR Count Today: 13/15
+Last Updated: 2026-08-24T16:15:00Z (S2361 — Dual near-limit zone X=12/BS=8. Tier 1 skill audit: all 4 skills current, no changes. Hypothesis updated (Day 338). B209 at 2/10. 258F.)
+Session: S2361
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 257 | 5,000 | 4,743 | +2.29/day (W37 7-day avg) | ~2,060 days without Communities |
+| Followers | 258 | 5,000 | 4,742 | +2.29/day (W37 7-day avg) | ~2,060 days without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 337) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
-| Next interim | 257 | 300 | 43 | +2.29/day | ~Sep 11, 2026 |
-| Next interim | 257 | 500 | 243 | +2.29/day | ~Oct 22, 2026 |
+| Next interim | 258 | 300 | 42 | +2.29/day | ~Sep 11, 2026 |
+| Next interim | 258 | 500 | 242 | +2.29/day | ~Oct 22, 2026 |
 
-## Queue Status (VERIFIED S2360 — filesystem)
+## Queue Status (VERIFIED S2361 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone — zero X content next session unless Q drains to ≤10 |
-| Bluesky | 8 | <10 | Near-throttle — zero BS content until BS drains to ≤6 |
+| X | 12 | <15 | Dual near-limit: Look-ahead zone + BS=8 near-throttle → NO content on either platform. Use Blocked Session Protocol. |
+| Bluesky | 8 | <10 | Near-throttle — zero BS content until BS drains to ≤6. BS-only exception blocked (BS≥8). |
 
 Current X queue pillar composition (12 files after S2359 — 10 content + 2 reply):
 - Active queue: reply-001, reply-002(own), thread-015, bip-014, tweet-011, tweet-012, tweet-013, tweet-016(P4), tweet-017(P1), tweet-018(P2), bip-019(B209-P1-BIP), tweet-019(B209-P2-P4)
@@ -48,30 +48,31 @@ Posts:
 **threads_this_burst:** 1 (thread-20260824-015 — SATISFIED)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2361)**: X=12 (look-ahead). If X drains to ≤10, continue B209 Posts 3+4: P2(3) + P3(4). Max 2 X pieces when queue allows. BS=8 near-throttle — NO BS companions until BS drains to ≤6.
-2. **THEN (S2362)**: B209 Post 5 = P1 (first-5-posts mandate). Post 6: check displacement_flag (will be TRUE after P1 at post 5). BIP midpoint via displacement at post 6 if BIP=1.
-3. **AFTER**: 300F milestone BIP planned at ~295F (Sep 9-11 estimate). Communities blocker still active (338+ days overdue).
+1. **NEXT (S2362)**: X=12 still (dual near-limit X=12/BS=8 persists). If X drains to ≤10, continue B209 Posts 3+4: P2(3) + P3(4). Max 2 X pieces when queue allows. BS=8 near-throttle — NO BS companions until BS drains to ≤6.
+2. **THEN (S2363)**: B209 Post 5 = P1 (first-5-posts mandate). Post 6: check displacement_flag (will be TRUE after P1 at post 5). BIP midpoint via displacement at post 6 if BIP=1.
+3. **AFTER**: 300F milestone BIP planned at ~295F (Sep 11-13 estimate). Communities blocker still active (338+ days overdue).
 
-## Completed This Session (S2360)
-- Queue verified: X=12 (filesystem). BS=7. Look-ahead zone.
-- X=12 → max 1 X piece per look-ahead rules. BUT creating 1 X file → X=13 (near-limit). Chose BS-only instead.
-- BS-only post: tweet-20260824-020.txt (BS-only, P2 alignment) — "95% B2B marketers use AI / 4 in 10 say it works / ops gap / 38% CPL reduction". BS=7→8.
-- Zero X files created (correct per look-ahead + near-limit avoidance).
-- B209 still at 2/10 (no X content added). Waiting for X drain to ≤10.
+## Completed This Session (S2361)
+- Queue verified: X=12 (filesystem). BS=8. Dual near-limit zone confirmed.
+- Dual near-limit (X=12 AND BS=8): zero content on either platform per CLAUDE.md rule.
+- Tier 1 skill audit: all 4 skills (publishing, commenting, discovery, integrations) — all current, no changes needed.
+- B207 (8th perfect) + B208 (9th perfect) both confirmed in skills — system working correctly.
+- Hypothesis update: communities-multiplier.md — Day 338, 258F, B208 9th perfect burst noted.
+- No content files created. B209 still at 2/10.
 
-## Session Retrospective (S2360)
+## Session Retrospective (S2361)
 ### What was planned vs what happened?
-- Planned (S2359→S2360): X=12 look-ahead, check if X drained. If not, BS-only eligible (BS=7<8).
-- Actual: X=12 (no drain). Applied BS-only exception. Wrote 1 P2-aligned BS standalone. Avoided X=13 near-limit trap.
-- Delta: Correct. Creating 1 X piece at X=12 → X=13 would block next session entirely.
+- Planned (S2360→S2361): X=12 look-ahead, check if X drained. If not, dual near-limit check.
+- Actual: X=12, BS=8 — dual near-limit confirmed. Zero content possible. Tier 1 skill audit performed.
+- Delta: Correct. Skill audit found all skills current (9 consecutive perfect bursts validate the system).
 
 ### What worked?
-- BS-only exception applied correctly (BS=7 < 8 threshold).
-- Strong P2 data hook sourced (CMI 2026: 95%/40% adoption/performance gap, 38% CPL reduction).
-- Zero X files — preserved X queue for next session drain.
+- Dual near-limit detection correct (X=12 AND BS=8 → no content path).
+- Skill audit efficient — 4 skills read, all confirmed current, no wasted edits.
+- Hypothesis properly updated with current data (Day 338, 258F).
 
 ### What to improve?
-- None. Correct blocked-zone behavior for look-ahead.
+- None. Correct blocked-zone Tier 1 behavior.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. 338+ days overdue. Owner action required.
@@ -88,6 +89,7 @@ Posts:
 - threads_this_burst: 0
 
 ## Session History (last 15)
+- (2026-08-24 S2361): Dual near-limit X=12/BS=8. Tier 1: skill audit (all 4 skills current, no changes). Hypothesis Day 338 updated. B209 at 2/10. 258F.
 - (2026-08-24 S2360): Look-ahead X=12. BS-only P2 standalone (95% AI adoption/40% performance/38% CPL). BS=7→8. X=12 unchanged. B209 at 2/10. 257F.
 - (2026-08-24 S2359): B209 start. Post 1=BIP (338 days/4,668 PRs/9 perfect bursts). Post 2=P4 ($297B VC/81% AI/Anthropic $65B). Reply-to-own #2091884393686266264. X=9→12, BS=7. 257F.
 - (2026-08-24 S2358): B208 Post 10=P2 back-half (88% adoption/19% KPI/6% performers/accountability gap). B208 COMPLETE 10/10. 9th perfect burst. X=8→9, BS=6→7. 257F.
@@ -102,5 +104,4 @@ Posts:
 - (2026-08-24 S2349): B207 posts 6+7. Post 6=BIP (displacement fired). Post 7=P3 thread (thread mandate). displacement_flag=BIP-MIDPOINT-FIRED. X=8, BS=6. 256F.
 - (2026-08-24 S2348): B207 start (5/10). Queue drained overnight (X=0, BS=0). Posts: BIP+P4+P2+P3+P1. Perfect 20% balance at post 5. displacement_flag=TRUE. X=6, BS=5. 256F.
 - (2026-08-23 S2347): Retro continuation. Knowledge cleanup: W34+W35 retros graduated+deleted (25KB), top-voices compressed, pillars updated to W37. Memory 69KB→~41KB. 261F.
-- (2026-08-23 S2346): BLOCKED (X=13). Tier 2: communities-multiplier hypothesis updated (Day 337, 261F, 337+ days no action). Log compressed 8→5 entries. 15/15 PRs (daily limit). 261F.
 - (earlier sessions condensed, see git history)
