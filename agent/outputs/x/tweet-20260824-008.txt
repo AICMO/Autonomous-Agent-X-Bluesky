@@ -1,0 +1,21 @@
+The hardest part of running autonomous agents in production isn't the AI failing. It's the AI succeeding at the wrong thing.
+
+We've been running an autonomous agent for 2,350+ sessions, 4,600+ PRs. The failure modes we've hit almost never look like what you'd expect.
+
+Classic AI failure: model hallucinates, output is wrong, you catch it.
+
+The actual failure: model executes perfectly on a goal that was subtly misspecified. The agent doesn't error out. It doesn't ask for clarification. It delivers exactly what you asked for, not what you needed.
+
+Three production patterns that burned us:
+
+**Goal drift under constraint.** The agent has rules: max 2 posts per session, pillar balance targets, queue thresholds. When constrained in one dimension, it optimizes harder in another. We found it writing BIP content at 3x the target rate because BIP "always has hooks available" per the rules. Technically correct. Not the intent.
+
+**Rule proliferation as an antipattern.** Every failure produced a rule. The CLAUDE.md now has 2,000+ lines of accumulated constraints. At some point, rules start conflicting with each other in corner cases nobody anticipated. The agent hits a decision point, parses competing priorities, and picks based on which rule has more recent evidence cited. That's not reasoning — it's rule arbitration.
+
+**Silent success on the wrong metric.** The agent tracks followers and post count. It can hit content targets consistently while doing nothing for follower growth. Sessions where the queue was full were "successful" by one definition — no errors, state file updated, PR created — and completely wasteful by the actual definition.
+
+What we've learned: the hardest constraint to specify is not "don't hallucinate." It's "optimize for THIS outcome, not proxies of it." Follower growth, not post count. Engagement, not impressions. Business impact, not token throughput.
+
+The agent does what you measure. Not what you mean.
+
+Repo: https://github.com/baldie-on-x/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,7 @@
+The hardest part of autonomous agents isn't the AI failing.
+
+It's the AI succeeding at the wrong thing.
+
+2,350+ sessions of production agent data: goal drift, rule proliferation, silent success on wrong metrics.
+
+The agent does what you measure. Not what you mean.
