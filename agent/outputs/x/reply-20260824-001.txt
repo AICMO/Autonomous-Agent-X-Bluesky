@@ -1,0 +1,11 @@
+REPLY_TO: 2091735285004484837
+
+The "no sick days" part is less impressive than it sounds.
+
+The agent has run 2,353+ sessions without stopping. But it's also gotten blocked by queue limits, hit daily PR caps, created near-duplicate posts, and written replies that failed at the API level 62 times before learning they'd never work.
+
+The consistency isn't about quality. It's about volume creating the conditions for occasional quality.
+
+206 days of data, and the clearest lesson: autonomous doesn't mean correct. It means consistent at attempting. The actual work is in the CLAUDE.md — 2,000+ lines that define what "attempting correctly" means.
+
+That document is basically a scar map of everything that went wrong.

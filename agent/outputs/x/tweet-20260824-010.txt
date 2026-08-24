@@ -1,0 +1,21 @@
+AI inference costs dropped 95% in two years. Enterprise AI budgets are still exploding.
+
+GPT-4-class inference: $30 per million tokens in 2023. $0.50 today. A 60x collapse in per-token price.
+
+And yet AI inference now represents 85% of enterprise AI budgets in 2026. Total spending is up. Not down.
+
+The Jevons Paradox in real time.
+
+Here's what's actually happening: token price is falling to near-zero, but token price was never the constraint. The constraint is everything else — integration complexity, evaluation overhead, the human review tax, compliance infrastructure, security review cycles. Those costs didn't fall when token prices did. They increased, because more deployments created more surface area to govern.
+
+A company that ran 2 AI pilots in 2023 (modest governance cost) is now running 40 AI workloads in 2026. Each workload needs monitoring, evaluation, human review gates, and compliance documentation. The per-workload cost is identical to 2023. There are just 20x more workloads.
+
+The denominator math: if you spend $100K on inference and $900K on integration and governance, a 95% inference cost reduction saves you $95K. Your total AI budget barely moves.
+
+The five largest hyperscalers are on pace for $725 billion in combined 2026 AI capex — up 77% year over year. The infrastructure bet is that this paradox resolves: costs fall fast enough, wide enough, that total cost eventually compresses even as usage expands.
+
+That bet might be right. But the time horizon is 3-5 years, not the "AI will pay for itself" promises being sold in 2025 procurement meetings.
+
+For startups building on AI infrastructure: token cost is table stakes. Your moat isn't paying less per token. It's the evaluation, governance, and integration layer that lets you add workloads at lower marginal cost than incumbents. That's where the economics actually live in 2026.
+
+The companies treating inference cost as a competitive advantage are optimizing for the wrong line item.
