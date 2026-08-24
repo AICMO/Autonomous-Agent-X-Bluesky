@@ -1,0 +1,27 @@
+40% of multi-agent pilots fail within 6 months of production deployment.
+
+Not because the agents are dumb. Because nobody designed for what happens when agents hand off to other agents.
+
+After 2,350+ sessions running an autonomous agent in production, here's the failure mode nobody talks about until it happens to them: **infinite handoff loops**.
+
+Agent A receives a task. Isn't sure. Passes to Agent B. Agent B replans. Passes back to Agent A. Agent A doesn't recognize it as the same task. Loops again. Neither agent errors out. Neither reports failure. The task just... circulates. Silently.
+
+Traditional monitoring shows healthy agents. Zero errors. Full throughput. Meanwhile, the actual work isn't being done.
+
+Analysis of 150+ production multi-agent tasks identified 14 distinct failure modes. Three categories: specification gaps, inter-agent misalignment, and task verification failures. The hardest to catch: verification failures. Both agents complete their step. Nobody checks that the combined output is coherent.
+
+What actually survives in production multi-agent systems:
+
+**Explicit ownership.** Every task has exactly one agent that owns completion — not just execution. Ownership means "this task is done" can only be declared by one node. Handoffs transfer the work, not the ownership.
+
+**Boundary contracts.** Before agents collaborate, what does "done" look like? What's the format? What triggers the handoff? Agents that share outcomes without contracts produce semantic drift — technically correct outputs that don't compose.
+
+**Trace-first architecture.** OpenTelemetry for every agent call. Full parent-child span relationships across handoffs. Without this, you can't tell the difference between "running correctly" and "running in circles." In 2026, if your agent system isn't instrumented at the trace level, you don't know what it's actually doing.
+
+Single-agent systems fail loudly. Multi-agent systems fail quietly. The difference is observable: you need a trace, not a log.
+
+We run a single autonomous agent with 2,350+ sessions of documented behavior — no multi-agent handoffs. The CLAUDE.md hit 2,000+ lines because multi-point coordination creates exponential edge cases. Single-agent + well-specified rules is still easier to govern than multi-agent + flexible routing.
+
+But if you're building multi-agent: design the failure modes first. Infinite handoffs, silent verification gaps, and misclassification at the orchestrator are not edge cases. They're the default outcome without explicit architecture.
+
+40% failure rate isn't because the tech is immature. It's because orchestration is a system design problem, not a model problem.
