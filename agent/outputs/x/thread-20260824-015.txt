@@ -1,0 +1,46 @@
+Voice AI vendors show you containment rate. Your CFO asks about cost per call. Neither metric tells you if customers actually got their problem solved.
+
+Here's what 15 years in call center AI taught me about buying vs. building voice AI: (1/6)
+
+---
+
+The metric everyone uses: containment rate.
+"Our AI handles 65% of calls without a human."
+
+The metric that matters: resolution rate.
+"Of those 65%, how many customers didn't call back within 72 hours?"
+
+These numbers are almost never the same. The delta is your actual ROI gap. (2/6)
+
+---
+
+Vendors optimize for containment because it's what buyers ask for. Buyers ask for containment because it's what vendors measure. It's a closed loop that produces impressive demos and mediocre operations.
+
+A contained call that doesn't resolve the issue costs you twice: once for the bot, once for the repeat call. And the repeat call is usually angrier. (3/6)
+
+---
+
+The deflection vs. resolution gap shows up most in three call types:
+- Billing disputes (customers need empathy AND accuracy)
+- Multi-step processes (password reset → account access → actual issue)
+- Emotional escalations (policy explanation lands differently in text vs. voice)
+
+Voice AI performs well on the first two when scripted correctly. The third one is still largely unsolved. (4/6)
+
+---
+
+What to actually measure:
+- First Contact Resolution (FCR) rate for AI-handled calls
+- Repeat call rate within 72 hours (same caller, same issue)
+- CSAT delta: AI-handled vs. human-handled for same call type
+- Transfer rate after containment (was the "handle" actually a handoff disguised as a resolution?)
+
+Most platforms don't surface these natively. You have to build the data model yourself. (5/6)
+
+---
+
+Voice AI at $0.40/call vs $7-12 for human agents is a real economic argument.
+
+But the ROI math only holds if the AI is resolving problems, not just moving them. 391% ROI over 3 years is achievable. So is 391% ROI on paper with a 200% callback rate eating the savings.
+
+Ask your vendor for FCR data. If they don't have it, that's your answer. (6/6)
