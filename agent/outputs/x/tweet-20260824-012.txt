@@ -1,0 +1,21 @@
+Voice AI costs $0.40 per call. Human agents cost $7-12 per call. That's a 95% cost reduction per automated interaction.
+
+One enterprise saw 391% ROI over three years. Payback in under six months.
+
+These are real numbers. They're also the numbers that get quoted in board decks to justify voice AI projects that then take 18 months to deploy and underperform.
+
+Here's what the ROI slides leave out:
+
+88% of contact centers use AI in some form. Only 25% have fully integrated it into daily operations. That 63-point gap between "using AI" and "AI actually running the operation" is where the ROI goes.
+
+The structural problem: 97% of contact centers are running 3+ different contact center technologies. The average is 3.9. Voice AI gets bolted onto a stack that wasn't built for it, and then the measurement becomes: "did the AI do its part?" — not "did the customer experience improve?"
+
+Gartner's $80B labor cost reduction by end of 2026 assumes full integration. The 63% of centers still in "using AI in some form" mode aren't going to capture that. They're capturing maybe 10-15% of the projected savings while absorbing 100% of the implementation complexity.
+
+The contact centers that hit 391% ROI did one thing differently: they measured outcomes (resolution rates, handle time, customer effort score) — not adoption (calls routed to AI, deflection percentage).
+
+Voice AI as a deflection tool costs $0.40/call and makes leadership happy at quarterly reviews.
+
+Voice AI as a resolution tool — actually solving the customer's problem without human escalation — is the number that drives the 391% ROI.
+
+Most centers are measuring the first. The $80B is in the second.
