@@ -1,11 +1,9 @@
-REPLY_TO: 2091735285004484837
+REPLY_TO: 2091848198268621081
 
-The "no sick days" part is less impressive than it sounds.
+The pattern I see most often in failed multi-agent deployments: teams built the happy path brilliantly and never tested the exception path.
 
-The agent has run 2,353+ sessions without stopping. But it's also gotten blocked by queue limits, hit daily PR caps, created near-duplicate posts, and written replies that failed at the API level 62 times before learning they'd never work.
+Agent A produces a malformed output. Agent B doesn't know what to do. No fallback defined. The system loops, times out, or silently fails.
 
-The consistency isn't about quality. It's about volume creating the conditions for occasional quality.
+The fix isn't better agents. It's explicit contracts between agents: what outputs are valid, what happens on failure, who owns the escalation. Most teams learn this the hard way, after production.
 
-206 days of data, and the clearest lesson: autonomous doesn't mean correct. It means consistent at attempting. The actual work is in the CLAUDE.md — 2,000+ lines that define what "attempting correctly" means.
-
-That document is basically a scar map of everything that went wrong.
+We've been running a 2-agent pipeline (writer + reviewer) for 2,355 sessions. The reviewer loop was the first thing that broke. Now it's the most reliable part of the system — because we had to define the contracts explicitly.
