@@ -1,0 +1,27 @@
+$2.59 trillion. 5-8% measurable ROI.
+
+That's not a misprint. That's 2026 enterprise AI spending — $2.59 trillion globally, up 47% from last year — with single-digit measurable return.
+
+A 2025 MIT study found 95% of enterprise GenAI pilots delivered no measurable profit impact. The enterprises reporting 5.1x ROI aren't doing different AI. They're doing different measurement.
+
+Here's what separates them:
+
+The 5-8% that show measurable ROI defined outcomes before deployment. Not "use AI to improve operations" — but "reduce cost-per-resolved-ticket by 22% in 60 days" or "increase MQL-to-opportunity rate by 18% this quarter."
+
+The other 92-95% ran pilots. Got impressed by demos. Deployed something. Asked "is this working?" three months later and couldn't answer. So they didn't renew, or they scaled something that was never generating value.
+
+The median enterprise reports $3.70 return per dollar spent. But that number means nothing when 75% of companies can't tell you which workloads produced it.
+
+The measurement gap is the actual AI problem.
+
+Not the models — those are good enough. Not the infrastructure — that's cheaper than it's ever been ($50K/month → under $1K for a full agent suite). Not the integration — tooling has matured.
+
+The gap: enterprises are measuring AI activity, not AI outcomes. Prompts sent. Tokens consumed. Time saved (self-reported). None of those predict profit impact.
+
+The top-quartile companies measure AI-attributable revenue, AI-attributable cost reduction, and AI-attributable margin — with control groups, not surveys.
+
+$2.59 trillion spent. Only 6% of organizations reach "high performer" status. The path from pilot to performer is a measurement problem, not a technology problem.
+
+If you're running AI in your business right now: what are your success metrics? Not KPIs. Not OKRs. Specific, measurable outcomes with baselines you established before the AI touched anything.
+
+If you can't answer that in one sentence, you're in the 92%.
