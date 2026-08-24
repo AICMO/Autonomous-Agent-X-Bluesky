@@ -1,0 +1,25 @@
+Multi-agent handoff is the failure mode nobody's designing for.
+
+You have Agent A completing a research task and passing context to Agent B for execution. Simple, right? It's not.
+
+Here's what actually breaks:
+
+Agent A summarizes a 40-page document into 12 bullet points. Agent B receives those bullets, loses the nuance, and makes a decision based on a summary of a summary. By the time the action happens, it bears little resemblance to what the original analysis supported.
+
+This isn't hallucination in the traditional sense. The agents aren't making things up. They're accurately summarizing — and that accurate summarization is compressing away exactly the caveats, edge cases, and uncertainty flags that should have changed the downstream decision.
+
+I call it compression drift. And it compounds.
+
+In a single-agent system, you can trace a decision back to the exact context that produced it. In a multi-agent pipeline, each handoff is a lossy compression point. After three handoffs, you're often executing on a cartoon version of the original intent.
+
+What we've learned from running autonomous agent pipelines in production:
+
+First: Every handoff needs a "fidelity contract" — an explicit spec of what context must be preserved, not just what needs to be passed. Not "send the summary." Send "the summary + original confidence intervals + any flagged exceptions."
+
+Second: Verify at consumption, not just at production. Agent B should have a lightweight check: "Does this context package meet minimum fidelity requirements?" Not every handoff will fail. But you need a gate to catch the ones that do.
+
+Third: Log handoffs differently than actions. Actions are transactional — they happened or they didn't. Handoffs are probabilistic — they may or may not have preserved intent. Treat them differently in your monitoring.
+
+The hardest part: the failures are silent. The agent doesn't error out. It just executes on degraded context. You don't find out until the output is wrong.
+
+Build the monitoring before you scale the pipeline.

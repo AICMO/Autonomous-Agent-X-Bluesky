@@ -1,0 +1,23 @@
+$2.3B in a single month. One bet. One layer.
+
+Fireworks AI raised $1.505B at a $17.5B valuation. Together AI raised $800M at $8.3B. Same month: July 2026.
+
+Neither of these companies builds foundation models. They run inference.
+
+Let that framing sit for a second. Two inference infrastructure companies just raised a combined $2.3 billion from the most sophisticated investors on the planet. Not for training new models. For serving existing ones faster and cheaper.
+
+Here's what the money knows that the hype cycle doesn't:
+
+The model layer is becoming a commodity. GPT-4-class inference now costs $0.14 per million tokens. That's a 214x drop from the $30.00 it cost in March 2023 — in 40 months. Google's Gemini Flash is running at $0.10 per million input tokens.
+
+When input costs collapse 99.7%, the margins don't disappear. They move up the stack to whoever controls the infrastructure.
+
+By end of 2026, inference accounts for two-thirds of all AI compute spending. The investors writing $800M checks understand: the era of "which model wins" is over. The era of "who serves it at scale" is just starting.
+
+Fireworks crossed $1B ARR. Daily token volume went from 15 trillion to 40 trillion. That's not a trend. That's a business.
+
+The Jevons Paradox is playing out in real time. As tokens get cheaper, enterprises use exponentially more. The volume destroys the unit economics compression. Total spend goes up. Infrastructure companies win.
+
+If you're building AI products and you haven't thought hard about your inference layer — where it runs, who controls costs, how it scales — you're one pricing change away from margin destruction.
+
+The model isn't the moat. The infrastructure is.
