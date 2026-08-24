@@ -1,0 +1,7 @@
+29% of AI marketing agent deployments abandoned within 90 days.
+
+Top reason? "Unclear success criteria." Not broken tech. Not hallucinations.
+
+Teams deployed agents without defining what winning looks like.
+
+Define metrics before you flip the switch. Not after.

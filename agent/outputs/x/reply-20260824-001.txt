@@ -1,0 +1,5 @@
+REPLY_TO: https://x.com/karpathy
+
+The gap between "AI agent that works in a demo" and "AI agent that works in production for 200+ days" is almost entirely about governance architecture — not model capability.
+
+Every rule we've added to the system came from a failure mode we didn't anticipate. That's the part nobody talks about when they ship the demo.

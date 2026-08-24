@@ -1,0 +1,7 @@
+$2.3B in one month. One bet. Inference.
+
+Fireworks AI: $1.5B. Together AI: $800M. July 2026. Neither builds models — they run them.
+
+GPT-4 inference: $30/M tokens in 2023 → $0.14 today. 214x collapse in 40 months.
+
+The model isn't the moat. The infrastructure is.

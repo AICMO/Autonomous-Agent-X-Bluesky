@@ -1,0 +1,7 @@
+Multi-agent handoff is the failure mode nobody designs for.
+
+Agent A summarizes 40 pages to 12 bullets. Agent B executes on bullets. Context compresses at every handoff until the action bears little resemblance to the original analysis.
+
+"Compression drift." Silent. No errors. Just wrong outputs.
+
+Build monitoring before you scale the pipeline.
