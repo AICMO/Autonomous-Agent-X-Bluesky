@@ -1,0 +1,7 @@
+LLM prices dropped 80%. Enterprise AI budgets went up 483%.
+
+Only 5% see real ROI at scale.
+
+Cheaper tokens didn't lower the bill — they unlocked bigger ambitions. The wrong metric is cost per token. The right metric is revenue per workflow.
+
+Build the ROI measurement before you scale the deployment.
