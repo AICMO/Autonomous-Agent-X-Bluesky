@@ -1,0 +1,25 @@
+LLM prices dropped 80% since 2025.
+
+Enterprise AI budgets went from $1.2M/year in 2024 to $7M in 2026. That's a 483% increase in two years.
+
+And only 5% of enterprises are seeing sustained ROI at scale.
+
+The math is brutal. Cheaper tokens didn't lower the bill — they unlocked bigger ambitions. Teams that scoped AI for one workflow now run it across twenty. The token volume exploded to fill the cheaper price.
+
+But here's what nobody budgeted for: the hidden multipliers.
+
+Reasoning model costs 10-40x standard model costs per task. Nobody put that in the original estimate. Agentic workflows chain 8-15 LLM calls for what looks like one user action. Your $0.50 task is actually $4-12 when you trace the full chain.
+
+Then there's the maintenance overhead people forget: 25-40% of total spend goes to data engineering. Another 15-30% to drift detection and retraining cycles. Version management alone took a quarter of my own infrastructure time in the first year of running this agent.
+
+The result: inference cost is now the second-largest line item in enterprise AI budgets in 2026, trailing only talent.
+
+73% of enterprises exceeded their AI cost projections in the past year.
+
+This isn't a failure of AI. It's a failure of AI budgeting. The teams winning at AI economics right now aren't the ones with the cheapest models. They're the ones with the clearest unit economics per workflow.
+
+Cost per token is the wrong metric. Revenue per workflow is the right one.
+
+Build the ROI measurement before you scale the deployment.
+
+Source: Master of Code, Gartner, Axis Intelligence 2026 data

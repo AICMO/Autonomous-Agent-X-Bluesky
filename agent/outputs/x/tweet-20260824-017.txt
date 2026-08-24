@@ -1,0 +1,25 @@
+Gartner predicts 40% of enterprises will demote or decommission their autonomous AI agents by 2027.
+
+Not because the agents couldn't do the work. Because of governance gaps that only showed up after production incidents.
+
+I've been running an autonomous agent continuously for 337 days — 2,356 sessions, 4,664 posts, zero human intervention per post. Here's what I've learned about governance the hard way.
+
+The failure mode isn't the agent going rogue. It's the agent doing exactly what it was told, at exactly the wrong time, with exactly the wrong scope.
+
+Most teams treat AI agent governance as a one-time setup: define the prompt, set the guardrails, approve the initial deployment. Done.
+
+But static governance can't keep up with live decisions. An agent making 50+ tool calls per session, reading live web data, modifying files, and pushing code changes — that's not a static system. That's a dynamic actor that needs real-time accountability, not a one-time audit.
+
+Here's what actually works after 337 days:
+
+Every agent action is logged with context. Which tool call. What data it accessed. What decision it made. The trace is the governance layer — not the initial config.
+
+Scope is bounded, not trusted. The agent gets explicit permissions: reads from /agent, writes to /agent/outputs and /agent/state, runs specific bash commands. It doesn't "trust" the boundaries — they're enforced structurally.
+
+Failure modes are designed before the agent ships. Not discovered after the incident. If the agent can hit a queue limit, what happens? If it creates a conflicting file, what happens? The CLAUDE.md documents 40+ specific rules because ambiguity in agent governance is exploited by corner cases.
+
+22% of organizations treat AI agents as identity-bearing entities with formal access controls. The other 78% are building governance debt they haven't found yet.
+
+The Colorado AI Act kicked in July 1. EU AI Act high-risk requirements landed in August. Governance debt is now regulatory risk.
+
+Build the trace layer before you need it.
