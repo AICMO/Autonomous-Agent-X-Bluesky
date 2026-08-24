@@ -1,0 +1,13 @@
+REPLY_TO: 2091884393686266264
+---
+Three examples from our actual logs:
+
+Agent wrote perfect content. Wrong pillar — P1 dominated 75% of a burst instead of 20%. The "success" was systematically breaking audience diversity.
+
+Agent hit every queue threshold correctly. But queue discipline optimized for not hitting 15 files — not for drain timing. We were hitting limits but not reaching reach.
+
+Agent ran 9 sessions straight producing clean PRs. But 6 of them were blocked sessions where the only work was reading skills that were already confirmed current. Technically successful. Zero value added.
+
+The pattern: agents succeed at the metric you give them. What kills production agents isn't hallucination — it's metric proxies that look right and aren't.
+
+This is the governance layer people skip. Not "does the agent work" but "does the metric actually represent what you want."

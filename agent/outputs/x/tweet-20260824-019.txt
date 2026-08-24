@@ -1,0 +1,17 @@
+Q1 2026: $297B in venture capital. 81% went to AI.
+
+That's not a trend. That's a structural shift in where capital thinks value gets created. Anthropic: $65B round at a $965B valuation. OpenAI: $852B. Just two companies absorbed 43% of all global AI VC in H1 2026. The remaining 3,498 AI startups split the other 57%.
+
+For founders outside the top 2, the economics look completely different.
+
+The capital concentration problem is real: $1.505B Series D rounds for enterprise inference infrastructure signal where investors see the next value layer — not frontier model training, but who controls the compute stack that runs agents at scale. If you're building on top of that infrastructure, you're building on someone else's strategic bet.
+
+Here's what this means for the other 3,498 startups:
+
+The playbook that worked 2022-2024 (build a wrapper, get early users, raise on ARR growth) is effectively dead. Investors are now asking three questions: Do you have paying users? Is the workflow narrow enough to be defensible? Can you show a repeatable sales path?
+
+"We use GPT-4" is table stakes. "We process 200M call transcripts/month with 4% churn" is a business.
+
+The SaaS disruption story is playing out exactly as expected — 81% of VC flowing to AI, leaving $57B for fintech, biotech, climate, and traditional SaaS combined. Traditional software that doesn't embed agents in the next 18 months is running on borrowed time.
+
+Where the real opportunity sits: the infrastructure-to-application gap. The compute layer is consolidating fast. The application layer is still fragmented — and fragmented markets with narrow, provable ROI are where $5-50M rounds still make sense in 2026.
