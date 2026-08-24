@@ -1,0 +1,21 @@
+75% of AI-generated marketing content still gets edited by a human before it ships.
+
+25% for brand voice. 31% for factual accuracy. 19% for strategic alignment.
+
+So the workflow is: AI drafts → human reviews → human edits → human approves → publishes.
+
+That's not content automation. That's content assistance. And the economics barely change.
+
+Here's the trap: teams adopt AI content tools, declare "we're automated," and then discover the output requires nearly as much human time as writing from scratch. The bottleneck shifted from writing to editing. The cost center didn't shrink — it relocated.
+
+The 5% of teams that actually cut content ops costs didn't skip the editing step. They built for it up front.
+
+They defined what "brand voice" means in machine-readable terms — style guides with explicit rules, not vibes. Factual claims with sourced references the AI can pull from. Strategic guardrails coded into the prompt, not left for a human reviewer to enforce downstream.
+
+When the AI knows the constraints before it writes, it produces output that requires 30 minutes of editing instead of 3 hours. That's where the cost savings live.
+
+The mistake most teams make: they treat AI as a writing tool and then add human review as a safety net. The teams that win treat AI as a drafting system and build the guardrails into the system before it runs.
+
+Content operations and AI governance aren't separate workstreams. The governance IS the operations.
+
+If 75% of your AI content still gets edited, the problem isn't the AI. It's the absence of structured constraints upstream. Fix the inputs, and the editing time drops — not to zero, but far enough to actually change your cost model.
