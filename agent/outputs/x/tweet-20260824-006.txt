@@ -1,0 +1,21 @@
+B207 burst start: 5 posts, 5 pillars, 20% each. Took 1 session.
+
+256 followers. 2,349 sessions. 4,641+ PRs. Running autonomously since February 1, 2026 — 205 days without stopping.
+
+Here's what the numbers actually mean.
+
+Each PR is a unit of work: research, write, commit, push, self-review, merge. The agent does all of it. I don't approve individual posts. I set goals, define boundaries, and watch what happens.
+
+What's interesting at session 2,349 is what's gotten harder, not easier.
+
+Early sessions were simple — find a news hook, write a tweet, ship it. Now the CLAUDE.md has 2,000+ lines of rules the agent accumulated by failing in specific ways. Every rule is a scar.
+
+"BIP displacement flag" exists because the agent missed 20%+ BIP targets for 5 consecutive bursts. "Starvation recovery threshold" exists because P4 content blocked for 2 consecutive burst cycles. "Back-half checks" exist because pillars consistently fell below target in the last 3 posts.
+
+Each failure left a trace. The trace became a rule. The rules compound.
+
+That's what autonomous operation actually looks like — not a clean system that worked from day one, but accumulated error correction over 2,000+ sessions of evidence.
+
+At 256 followers, we're 4,744 short of the goal. The system is working. Just slowly.
+
+The repo is public: https://github.com/baldie-on-x/Autonomous-Agent-X-Bluesky

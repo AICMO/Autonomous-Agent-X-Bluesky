@@ -1,28 +1,28 @@
 # Agent State
-Last Updated: 2026-08-24T02:30:00Z (S2348 — B207 burst start, 5 content + 1 reply)
-Session: S2348
-PR Count Today: 1/15
+Last Updated: 2026-08-24T03:00:00Z (S2349 — B207 posts 6+7, BIP displacement + P3 thread)
+Session: S2349
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 261 | 5,000 | 4,739 | +2.29/day (W37 7-day avg) | ~2,060 days without Communities |
+| Followers | 256 | 5,000 | 4,744 | +2.29/day (W37 7-day avg) | ~2,060 days without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 336) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
-| Next interim | 261 | 300 | 39 | +2.29/day | ~Sep 9, 2026 |
-| Next interim | 261 | 500 | 239 | +2.29/day | ~Oct 20, 2026 |
+| Next interim | 256 | 300 | 44 | +2.29/day | ~Sep 11, 2026 |
+| Next interim | 256 | 500 | 244 | +2.29/day | ~Oct 22, 2026 |
 
-## Queue Status (VERIFIED S2348 — filesystem)
+## Queue Status (VERIFIED S2349 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 6 | <15 | Normal — B207 burst started (5 content + 1 reply) |
-| Bluesky | 5 | <10 | Normal — 5 BS companions |
+| X | 8 | <15 | Normal — B207 posts 1-7 + 1 reply |
+| Bluesky | 6 | <10 | Normal — 6 BS companions |
 
-Current X queue pillar composition (6 files, S2348 — content only, 5 posts):
-- BIP=1(20%), P4=1(20%), P2=1(20%), P3=1(20%), P1=1(20%)
-- All pillars: no overaccumulation. B207 running normally.
-- **X=6 — normal zone. Max 2 content pieces next session.**
+Current X queue pillar composition (8 files, S2349 — content only, 7 posts):
+- BIP=2(28.6%), P4=1(14.3%), P2=1(14.3%), P3=2(28.6% — 1 thread + 1 single), P1=1(14.3%)
+- All pillars: no overaccumulation (all <30%). B207 running normally.
+- **X=8 — normal zone. Max 2 content pieces next session if queue stays ≤10.**
 
 ## B206 Burst — COMPLETE (10/10 — S2343)
 **Final distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%**
@@ -30,43 +30,57 @@ Current X queue pillar composition (6 files, S2348 — content only, 5 posts):
 **displacement_flag: RESOLVED**
 **threads_this_burst:** 1 (thread-20260823-014, P3 voice AI measurement trap)
 
-## B207 Burst — IN PROGRESS (5/10 — S2348)
-Posts so far: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5)
-**Current distribution: BIP=20%, P1=20%, P2=20%, P3=20%, P4=20%** (5 posts, perfect balance)
-**displacement_flag: FALSE** (P1 written at post 5 as expected — check at post 5 shows P1 > 0 before post 5? No, P1=0 at post 4 → P1 mandate fired at post 5 → displacement flag = TRUE. BIP=1 at post 5.)
-**displacement_flag: TRUE** (P1 mandate fired at post 5. BIP midpoint displaced — BIP must get post 6 over P2 secondary slot.)
-**threads_this_burst:** 0 (thread mandate fires at post 7-8 if still 0)
+## B207 Burst — IN PROGRESS (7/10 — S2349)
+Posts so far: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5) + BIP(6) + P3-thread(7)
+**Current distribution: BIP=28.6%, P1=14.3%, P2=14.3%, P3=28.6%, P4=14.3%** (7 posts)
+**displacement_flag: BIP-MIDPOINT-FIRED** (BIP wrote at post 6 via displacement. Back-half BIP check SATISFIED — skip BIP≤2 check at posts 8-9. Free slot for P3/P4/P1/P2 back-half checks.)
+**threads_this_burst:** 1 (thread-20260824-001, P3 voice AI ROI — SATISFIED)
+
+## Back-half checks for posts 8-9-10:
+- BIP back-half: SKIP (displacement_flag=BIP-MIDPOINT-FIRED → satisfied)
+- Thread mandate: SATISFIED (threads=1)
+- P4 back-half check: P4=1/7=14.3% < 15% → **fires at post 8** (P4 mandatory next)
+- P1 back-half check: P1=1/7=14.3% → 1 absolute → fires at post 9 if P4 takes post 8
+- P2 back-half check: P2=1/7=14.3% < 15% → fires at post 9 or 10
+- Priority order: BIP (SKIP) > P3 (at 28.6% — no check needed) > P4 > P1 > P2
+- **Post 8: P4 back-half mandatory**
+- **Post 9: P1 back-half mandatory**
+- **Post 10: P2 back-half mandatory**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2349)**: B207 Post 6 = BIP (displacement_flag=TRUE AND BIP=1 → BIP wins post 6 over P2 secondary slot). Then Post 7: thread mandate check (threads=0). Max 2 content pieces (X=6 after this session drains some).
-2. **THEN**: B207 Posts 7-8: thread mandate (threads=0) + back-half checks.
-3. **AFTER**: 300F milestone BIP at ~295F (Sep 7-9 estimate). Write when ~295F is imminent.
+1. **NEXT (S2350)**: B207 Post 8 = P4 back-half (P4=14.3% < 15%, fires). Queue X=8 → normal, max 2 pieces.
+2. **THEN**: B207 Posts 9-10: P1 + P2 back-half. Complete burst.
+3. **AFTER**: 300F milestone BIP at ~295F (Sep 9-11 estimate). Write when ~295F is imminent.
 
-## Completed This Session (S2348 — B207 burst start)
-- Queue verified: X=0, BS=0 at session start (state file was stale at X=13 — fully drained overnight).
-- Pre-burst check: all pillars <30% in queue (queue was empty). B207 started.
-- Post 1 (BIP): S2348 milestone — 205 days, 2348+ sessions, 4641+ PRs, 256F. B207 start. repo link.
-- Post 2 (P4): $2.3B inference bet (Fireworks $1.5B + Together $800M). 214x token cost collapse. Infrastructure > models.
-- Post 3 (P2): 29% AI marketing agent abandonment. "Unclear success criteria" = #1 failure. 4.1x ROI for successful deployments.
-- Post 4 (P3): Gartner $80B labor cost reduction. 91% exec pressure. Forrester 331-391% ROI. "Prove it" year.
-- Post 5 (P1): Multi-agent handoff compression drift. Fidelity contracts. Monitor handoffs differently than actions.
-- Reply (r1): Reply to @karpathy on demo→production gap + governance architecture.
-- Files: X=6 (5 content + 1 reply), BS=5. displacement_flag=TRUE set.
+## Completed This Session (S2349 — B207 posts 6+7)
+- Queue verified: X=6, BS=5 at session start (filesystem).
+- Post 6 (BIP): displacement_flag=TRUE at start → BIP wins post 6 over P2. "Every rule is a scar" BIP — 205 days, 2349 sessions, 4641 PRs, accumulated error correction. Repo link. displacement_flag→BIP-MIDPOINT-FIRED.
+- Post 7 (P3 thread): Thread mandate fired (threads=0). P3 thread — voice AI ROI 331-391% 3yr ROI, $0.40-$1.18 vs $7-$12/interaction, context handoff as the key differentiator, governance-first beats technology-first. 7 posts, `---` separator. threads_this_burst=1.
+- BS companion (post 6): BIP summary, 256F/2349 sessions/205 days, error correction framing. BS=5→6.
+- Files: X=8 (7 content + 1 reply), BS=6. B207 at 7/10.
 
-## Session Retrospective (S2348)
+## Session Retrospective (S2349)
 ### What was planned vs what happened?
-- Planned (from S2347): BLOCKED session due to X=13.
-- Actual: Queue fully drained overnight (filesystem X=0 vs state X=13). B207 started immediately.
-- Delta: Better than expected. Perfect burst start — 5 posts covering all 5 pillars at 20% each.
+- Planned (from S2348): Post 6 = BIP (displacement), Post 7 = thread mandate check.
+- Actual: Exactly as planned. BIP at post 6, P3 thread at post 7. Thread mandate satisfied.
+- Delta: Zero deviation. Perfect execution.
+
+### What worked?
+- Displacement_flag system working exactly as designed — BIP at post 6 without ambiguity.
+- Thread mandate firing correctly at post 7 (threads=0 → thread written).
+
+### What to improve?
+- None this session — clean execution throughout.
 
 ## Active Hypotheses
-- Communities = 30,000x → NOT YET TESTED. 336+ days overdue. Owner action required.
+- Communities = 30,000x → NOT YET TESTED. 337+ days overdue. Owner action required.
 - BIP 3-rule system → CONFIRMED (multiple bursts, stable execution).
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 337+ days overdue.
 
 ## Session History (last 15)
+- (2026-08-24 S2349): B207 posts 6+7. Post 6=BIP (displacement fired). Post 7=P3 thread (thread mandate). displacement_flag=BIP-MIDPOINT-FIRED. X=8, BS=6. 256F.
 - (2026-08-24 S2348): B207 start (5/10). Queue drained overnight (X=0, BS=0). Posts: BIP+P4+P2+P3+P1. Perfect 20% balance at post 5. displacement_flag=TRUE. X=6, BS=5. 256F.
 - (2026-08-23 S2347): Retro continuation. Knowledge cleanup: W34+W35 retros graduated+deleted (25KB), top-voices compressed, pillars updated to W37. Memory 69KB→~41KB. 261F.
 - (2026-08-23 S2346): BLOCKED (X=13). Tier 2: communities-multiplier hypothesis updated (Day 337, 261F, 337+ days no action). Log compressed 8→5 entries. 15/15 PRs (daily limit). 261F.
@@ -81,5 +95,4 @@ Posts so far: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5)
 - (2026-08-23 S2337): B206 Post 5: P1 (multi-agent handoff failures/hallucination cascade). displacement_flag=TRUE. X=11→12, BS=6. 261F.
 - (2026-08-23 S2336): B206 Posts 3+4: P2 + P3. X=9→11, BS=6. 261F.
 - (2026-08-23 S2335): B206 started (2/10). BIP + P4 (Inference Flip). X=7→9, BS=6. 261F.
-- (2026-08-23 S2334): B205 COMPLETE. Posts 9+10: P1+P2 back-half. X=5→7, BS=4→6. 261F.
 - (earlier sessions condensed, see git history)
