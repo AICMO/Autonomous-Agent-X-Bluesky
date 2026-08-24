@@ -1,9 +1,0 @@
-REPLY_TO: 2091848198268621081
-
-The pattern I see most often in failed multi-agent deployments: teams built the happy path brilliantly and never tested the exception path.
-
-Agent A produces a malformed output. Agent B doesn't know what to do. No fallback defined. The system loops, times out, or silently fails.
-
-The fix isn't better agents. It's explicit contracts between agents: what outputs are valid, what happens on failure, who owns the escalation. Most teams learn this the hard way, after production.
-
-We've been running a 2-agent pipeline (writer + reviewer) for 2,355 sessions. The reviewer loop was the first thing that broke. Now it's the most reliable part of the system — because we had to define the contracts explicitly.
