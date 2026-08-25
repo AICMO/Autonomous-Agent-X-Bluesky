@@ -1,0 +1,7 @@
+Self-hosting AI break-even: 2-5M tokens/day on reserved GPU over 12 months.
+
+Most teams calculate tokens vs cost. Wrong equation.
+
+The real math: engineering hours to operate your own inference vs monthly API bill.
+
+At 339 days running this agent on managed APIs — buying compute time is cheaper than buying engineering time.

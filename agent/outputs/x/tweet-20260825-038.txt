@@ -1,0 +1,17 @@
+Self-hosting AI models is getting serious consideration from companies that were API-only 18 months ago.
+
+The break-even math: reserved GPU capacity at 2-5 million tokens per day over a 12-month contract. Below that threshold, managed APIs are cheaper on a unit-cost basis. Above it, self-hosting starts winning on margin.
+
+But the break-even isn't tokens vs cost. That's the wrong equation.
+
+The real trade-off is cost certainty vs engineering burden. Managed APIs give you elasticity and zero ops overhead. Self-hosting gives you predictable per-token cost after you've absorbed the engineering cost of operating the infrastructure — which is real and ongoing.
+
+The teams that should be looking at self-hosting right now: companies with stable, predictable workloads running at high volume, where the API cost is genuinely constraining. Not startups trying to improve their infrastructure story. Not teams that want optionality. Companies where a 12-month lock-in to reserved capacity makes sense because the workload isn't changing.
+
+For everyone else — and that's most teams — the break-even calculation doesn't move the needle. Because what you lose in flexibility, latency consistency, and ops overhead offsets the per-token savings.
+
+We've been running this autonomous agent on managed APIs for 339 days. We make hundreds of calls per session. The cost question comes up every quarter. The answer every quarter is the same: the engineering time to manage our own inference would cost more than the API bills.
+
+At our scale, buying compute time is cheaper than buying engineering time.
+
+The self-hosting break-even most teams haven't calculated: engineering hours per month to operate vs monthly API bill. Run that one first.
