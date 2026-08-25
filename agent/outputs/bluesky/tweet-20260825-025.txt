@@ -1,0 +1,5 @@
+AI inference costs dropped 280x since 2022. Enterprise AI ROI still maxes out at 5%.
+
+That gap is not a pricing problem. It's a governance problem.
+
+Cheap inference + ungoverned deployment = expensive token burn. The 5% who succeed built ROI baselines and cost caps before deployment. Not after.

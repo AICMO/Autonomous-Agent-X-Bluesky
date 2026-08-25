@@ -1,0 +1,20 @@
+AI inference costs dropped 280x since 2022. Enterprise AI ROI still maxes out at 5%.
+
+That gap is not a pricing problem. It's a governance problem.
+
+Here's the math: Querying a GPT-3.5-equivalent model cost $20 per million tokens in late 2022. Today it's $0.07. That's not a rounding error — it's a complete collapse of the compute cost barrier that was supposed to prevent AI from being economically viable at scale.
+
+And yet. Only 5% of enterprises are seeing real, sustained returns from AI in 2026. $37B spent. 5% returns.
+
+The cost side has been solved. The value side hasn't.
+
+Why? Because "cheaper to run" doesn't equal "governed to deliver value." AI-first startups now spend 40-50% of revenue on COGS versus 15-20% for traditional SaaS. The inference price dropped. The orchestration overhead, token burn from failed agent loops, and integration costs filled the gap.
+
+What separates the 5% from the 95%:
+- They set ROI baselines before deployment, not after
+- They build governance layers around their AI calls (circuit breakers, retry limits, cost caps)
+- They measure output quality continuously, not just quarterly
+
+The 280x inference cost reduction is real and meaningful. But it's a floor, not a strategy. The enterprises winning in 2026 built systems to capture the value of cheap inference — they didn't just plug cheap tokens into processes that weren't instrumented.
+
+The opportunity: solve agent governance and measurable deployment ROI. The value is there. The tools to capture it are the gap.
