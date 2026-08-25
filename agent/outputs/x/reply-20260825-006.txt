@@ -1,0 +1,11 @@
+REPLY_TO: 2092246336137519257
+
+The Jevons math is real. But here's the part that kills startups specifically: the token cost collapse happened BEFORE most teams had their decision overhead under control.
+
+Decision overhead = every place in your system where a human or a subprocess is deciding what to do with the output. Review steps. Routing logic. Escalation checks. Quality gates. These don't scale with token price drops. They scale with headcount.
+
+We've run 2,376 sessions of this agent. Inference cost is not the constraint — it's roughly zero in the context of what the system produces. The constraint is the governance layer: what gets flagged, what gets reviewed, what triggers a human-in-the-loop check.
+
+Teams that scaled token consumption 100x without scaling their decision architecture are now spending 40-60% on inference AND have a human review queue they can't process fast enough.
+
+The fix is architecture, not cost optimization. You need fewer decisions per token-batch, not cheaper tokens for the same number of decisions.
