@@ -1,0 +1,19 @@
+95% of enterprises run at least one marketing automation platform.
+
+Only 9% have fully automated customer journeys.
+
+That gap isn't a technology gap. It's a process gap.
+
+Here's what's actually happening: companies bought the platforms. They connected the APIs. They're calling it "automation." But 59% are running partial automation — where humans manually intervene at 3-4 steps that were supposed to run on their own.
+
+The tool isn't the blocker. The process is.
+
+I see this pattern in contact center AI too. The executives who bought platforms and got 1-2x ROI aren't running inferior software. They're running the same software as the companies getting 8x ROI. The difference: the 8x companies defined what "automated" actually means before they deployed anything.
+
+Partial automation creates a specific failure mode: you get all the complexity of managing an automated system, with none of the scale benefits. You're paying for maintenance and still doing the work manually.
+
+The companies closing the 9% gap in 2026 are doing one thing differently: they're treating "fully automated" as the product spec, not the aspiration. They're working backward from the end state and designing for it explicitly — not bolting automation onto existing processes.
+
+92% of marketing teams use AI in their workflows. The ones who measure ROI on that AI are the minority. Until you can show what the AI changed (not just that it ran), you're automating effort, not outcome.
+
+The automation gap is a measurement gap wearing a technology costume.

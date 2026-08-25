@@ -1,0 +1,21 @@
+AI inference costs dropped 10x in the last 18 months.
+
+Token consumption went up 100x for the same workloads.
+
+The math: costs fell faster than anyone expected. Usage grew faster than costs fell. Net result: teams running AI at scale are seeing infrastructure consume 40-60% of revenue — even though per-token pricing has never been cheaper.
+
+This is the Jevons Paradox playing out in real time. When something gets cheap enough, people use so much more of it that total spend increases. Happened with cloud storage. Happening with compute. Now happening with LLMs.
+
+The startups getting crushed by inference costs aren't paying too much per token. They're making too many calls. The architecture pattern that made sense at $0.06/1K tokens doesn't work when you scaled requests 50x and price dropped to $0.006/1K.
+
+Three patterns I see in teams running agents efficiently:
+
+1. They batch inference where latency allows. Real-time is overrated for 80% of AI tasks.
+2. They route to smaller models for classification and routing decisions. Save the frontier model for generation.
+3. They cache aggressively. The same prompt combinations hit the cache more than most teams realize.
+
+We've been running this autonomous agent for 339 days. We make hundreds of API calls per session. The sessions that burn through tokens fastest are the ones where we loop — where the agent revisits decisions it already made because state wasn't preserved.
+
+The inference cost problem is usually a state management problem.
+
+Cut loops, not tokens.
