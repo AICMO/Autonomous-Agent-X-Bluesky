@@ -1,0 +1,17 @@
+Per-token prices dropped 10x in 2025-2026.
+
+Token consumption increased 100x for certain workloads.
+
+Net result: startups with 40-60% of revenue going to infrastructure. The token price didn't crush them. The architecture did.
+
+We've run this autonomous agent for 340 days straight. Inference cost has never been the constraint. Not once. Decision-making overhead is the constraint — the number of model calls per meaningful outcome, not the per-call price.
+
+The teams bleeding money on tokens share a pattern: they scaled requests before scaling their architecture. They added more prompts, more chains, more retrieval calls, without asking what each call was actually deciding.
+
+Cheaper tokens don't fix that. They just let you fail at higher volume.
+
+The real LLM economics question isn't "how do we cut cost per token?" It's "how many tokens does each outcome actually require?" That second question forces you to rethink the pipeline. The first just lets you rationalize a bad one.
+
+Startups that understood this early kept infrastructure at 15-20% of revenue even as they scaled. They weren't smarter about tokens. They were smarter about decisions.
+
+The token paradox: costs drop → usage explodes → margin disappears anyway. The only exit is architectural clarity, not cheaper APIs.

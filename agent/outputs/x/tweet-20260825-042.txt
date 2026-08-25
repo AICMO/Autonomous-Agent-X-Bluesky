@@ -1,0 +1,21 @@
+95% of enterprises run at least one marketing automation platform.
+
+9% run fully automated customer journeys.
+
+The other 86% paid for the tool. They don't have the system.
+
+I see this constantly with AI marketing stacks. Leadership approves the platform, IT configures the integration, marketing celebrates the launch. Six months later: 59% of journeys still require manual handoffs, reporting is still spreadsheets, and the "automation ROI" slide has been quietly removed from the QBR.
+
+The automation gap isn't a technology problem. It's a process problem wearing technology's clothes.
+
+The 9% who run fully automated journeys didn't buy better tools. They did three things the 91% skipped:
+
+1. They mapped every journey before touching the platform. Not "what does our tool support" but "what does the customer actually do."
+
+2. They defined what "automated" means specifically. Not "we use AI" — but "this specific trigger fires this specific action with no human in the loop."
+
+3. They measured leading indicators from week 1. Not campaign open rates after 90 days — but handoff frequency, exception queue size, and resolution cycle by week 3.
+
+The platform gap is mostly closed. Everyone has the same tools now. The gap that's actually growing is the process gap: who built the system around the tool vs. who just installed it.
+
+171% ROI on agentic AI (the current expectation) assumes you deployed it. Most organizations are still in the "partially deployed" category. And partial deployment is just expensive manual work.
