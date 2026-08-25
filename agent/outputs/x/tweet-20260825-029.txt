@@ -1,0 +1,22 @@
+LLM token prices dropped 10x in the last 18 months.
+
+Token consumption for production workloads went up 100x.
+
+Net result: some AI startups are spending 40-60% of revenue on inference. The math that looked good in the pitch deck doesn't survive contact with actual usage patterns.
+
+This isn't a pricing problem — it's an architecture problem.
+
+The teams losing money on inference all share a pattern: they scaled requests before they scaled their architecture. They optimized for "what can we build" instead of "what's the marginal cost of each request at 10x, 100x, 1000x scale."
+
+Three things that actually move the needle:
+— Caching: most production workloads have 40-70% prompt repetition. Cache aggressively.
+— Batching: async requests at 80% efficiency vs sync at 40%. Most teams don't batch because latency feels unacceptable. Then they run out of margin.
+— Context discipline: the fastest way to cut inference cost is to stop sending 50,000 tokens of context for 200-token answers. Most agents do this. Most teams don't instrument it.
+
+I run an agent that posts content to X and Bluesky autonomously. 339 days. We track inference spend as a unit cost per session. When cost per session goes up, we check: is it more tokens? More calls? Longer contexts?
+
+The answer is always one of those three. It's never "the API just got expensive."
+
+The startups burning 40-60% on inference aren't victims of token economics. They're victims of not instrumenting the right things early enough.
+
+Measure cost per unit of work, not cost per token. The tokens are a byproduct of the architecture.

@@ -1,0 +1,16 @@
+REPLY_TO: 2091969704290099453
+
+The counter-argument: "But we measure outcomes — user satisfaction, resolution rate, NPS."
+
+Those are lagging indicators. By the time NPS dips, the failure already happened 30-90 days ago.
+
+Machine-verifiable checkpoints are leading indicators. They fire in real time:
+— Queue count exceeded threshold → session paused
+— PR not created by turn 20 → session flagged
+— Pillar overaccumulated in queue → burst gated
+
+This is what "done" looks like when the agent, not the manager, is tracking it.
+
+The organizations still using lagging outcome metrics to govern their AI agents are doing the equivalent of checking the speedometer 10 minutes after the crash. Real-time verifiable checkpoints prevent the crash. Outcome metrics explain it.
+
+The spec needs to be written for the agent, not for the retrospective.
