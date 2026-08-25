@@ -1,0 +1,7 @@
+Cloudflare's Kitesurf: a browser runtime built FOR AI agents. 3-7x less CPU/memory than Chromium.
+
+The tell: when Cloudflare builds agent-specific infrastructure, the category has arrived.
+
+Each layer that was DIY is becoming a managed service. Browser runtimes. Memory. Orchestration. Identity.
+
+The engineering cost to build reliable agents is collapsing.

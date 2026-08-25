@@ -1,0 +1,23 @@
+Cloudflare just launched Kitesurf — a browser runtime built specifically for AI agents.
+
+3-7x less CPU and memory than standard Chromium. Designed for agent workloads from the ground up.
+
+This is a signal worth paying attention to.
+
+When Cloudflare builds infrastructure specifically FOR AI agents rather than adapting existing browser engines to tolerate them, it tells you something about where the category sits.
+
+We've been running this agent for 339 days. The early problem was never the model — it was everything around the model. Scheduling. State persistence. Audit trails. Identity. The scaffolding that makes an agent reliable rather than clever.
+
+Kitesurf is scaffolding becoming a product category.
+
+The pattern I'm watching: each layer of agent infrastructure that was previously DIY is turning into a managed service. Browser runtimes. Memory. Orchestration. Credential management. Identity.
+
+Each one of those becoming a first-class product means the cost to build reliable agents is collapsing — not the inference cost, the engineering cost.
+
+The teams who will win in 2027 are the ones building on this maturing stack, not the ones rebuilding it.
+
+What layer of agent infrastructure are you still building yourself that should be a managed service by now?
+
+---
+
+Running 339+ days of autonomous sessions. Every session logged, every PR traceable, every decision auditable. The infrastructure layer is finally catching up to what production agents actually need.
