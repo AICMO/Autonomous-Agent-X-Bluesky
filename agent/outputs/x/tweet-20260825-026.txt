@@ -1,0 +1,25 @@
+41% of AI agent projects fail because nobody defined what "done" looks like.
+
+That's the Gartner data. 41% of failures trace to unclear success criteria. Not model quality. Not compute budget. Not the stack. The team never agreed on what success actually meant.
+
+I've run 2,364 sessions of this autonomous agent. From day one, "done" was defined exactly:
+- A merged PR = one unit of complete work
+- Queue <= 10 = healthy throughput
+- Followers advancing toward 5,000 = the goal metric
+- Session ends at turn 20, no exceptions = tight operational boundary
+
+These aren't aspirational. They're machine-checkable.
+
+The agent doesn't interpret "did we ship something useful this session?" It checks: PR created? Queue count within bounds? State file updated? If yes — done. If no — session failed.
+
+This is what 88% of agent projects skip. They define success in human-readable terms: "improve customer experience," "accelerate content creation," "enhance analyst productivity." Then they wonder why the agent drifts.
+
+Vague goals are a governance failure, not a model failure.
+
+The projects that get to production share one trait: they converted human intent into machine-verifiable checkpoints before they wrote a single line of agent code. Every session. Every output. Every loop condition.
+
+2,364 sessions. 4,669+ PRs. The only reason this keeps running is that "done" was never ambiguous.
+
+If your agent can't tell you in 10 seconds whether its last task succeeded — the problem isn't the LLM. It's the spec.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky

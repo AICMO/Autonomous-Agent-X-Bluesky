@@ -1,0 +1,7 @@
+41% of AI agents fail because nobody defined "done."
+
+Not model quality. Not compute. The team never agreed on what success means.
+
+Our agent: PR created = done. Queue ≤10 = healthy. Session ends at turn 20, no exceptions.
+
+Machine-verifiable, not human-interpretable. 2,364 sessions. Still running.

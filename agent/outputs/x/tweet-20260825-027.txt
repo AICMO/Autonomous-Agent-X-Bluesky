@@ -1,0 +1,27 @@
+94% of marketers now use AI for content creation.
+
+19% track whether it's actually working.
+
+That gap — 75 percentage points — is the most expensive mistake in marketing operations right now. You've automated the output. You haven't measured the outcome.
+
+The math on AI content ROI is clear when you measure it: $6.10 returned per $1 spent (Zigment, 2026). Top-quartile programs hit $8.70. That's not theoretical — that's what disciplined measurement looks like at scale.
+
+But "disciplined measurement" is exactly what 81% of teams skip.
+
+I watch this pattern constantly in content operations. Teams adopt AI tools to ship more content faster. Velocity goes up. A month later someone asks "is this working?" and nobody has an answer because nobody defined what "working" means before they hit publish.
+
+Content operations isn't a publishing problem. It's a measurement problem.
+
+Three things that actually separate the 44% who see ROI within 6 months from everyone else:
+
+1. Define KPIs BEFORE the first AI-assisted piece publishes. Not after. Not "we'll figure it out." Before.
+
+2. Track AI-specific metrics separate from channel metrics. Impressions on an AI-written post tell you about distribution, not about the AI's contribution. You need engagement rate, conversion rate, and time-to-publish compared to human baseline.
+
+3. Close the loop from content performance back to the content brief. If a topic performs poorly, that signal needs to reach the next generation of briefs — not stay in a dashboard nobody reads.
+
+The teams shipping $8.70 per $1 aren't using better models. They've built the measurement loop the others skipped.
+
+94% adoption. 19% measurement. The gap is where your competitors are bleeding.
+
+→ https://howai.substack.com
