@@ -1,0 +1,3 @@
+Token prices dropped 10x. Usage jumped 100x. Some AI startups now spend 40-60% of revenue on inference.
+
+Not a pricing problem. An architecture problem.

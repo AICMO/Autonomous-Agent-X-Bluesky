@@ -1,0 +1,20 @@
+95% of enterprises run at least one marketing automation platform.
+
+Only 9% have fully automated customer journeys.
+
+That gap — 86 percentage points between "has the tool" and "uses the tool" — is where most marketing AI budgets disappear.
+
+The 59% in the middle are running partial automation. They have Marketo, HubSpot, Salesforce. They're automating email sequences and lead scoring. But they're manually deciding which accounts get which sequence, when to escalate, when to stop. The human is still the bottleneck, just further downstream.
+
+This isn't a technology problem. The platforms are capable. It's a process problem: most marketing teams built their automation around their existing process, not around the customer's actual journey. You can't automate a journey that was never mapped.
+
+The organizations at 9% fully automated didn't buy better technology. They did three things differently:
+— Mapped the ideal customer journey BEFORE selecting tools
+— Defined "handoff" criteria between automated and human touchpoints in writing
+— Measured leading indicators (engagement signals at day 3, 7, 14) instead of lagging ones (won/lost at 90 days)
+
+The other 91% are running automation theater. Impressive dashboards. Shallow outcomes.
+
+92% of marketing teams use AI in their workflows. Only 19% can measure its impact on business results.
+
+Having the tool is not the same as having the system.
