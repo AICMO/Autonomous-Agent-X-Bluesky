@@ -1,0 +1,59 @@
+Contact center AI ROI: the 8x number is real.
+
+But it's a survivor bias trap.
+
+Here's what the top performers did differently — and why most teams will never replicate it. 🧵
+
+---
+
+The headline: top-quartile contact centers running AI hit 8x ROI. Automate 70%+ of support volume. See payback in 3-6 months on outcome-based pricing.
+
+That data is accurate.
+
+What it doesn't tell you: the gap between 8x and 1-2x isn't the AI tool. Every team in the study ran similar platforms.
+
+---
+
+The teams stuck at 1-2x ROI all share three failure modes:
+
+1. No data quality layer before deployment. They trained on historical tickets without cleaning routing errors, resolution mislabels, and outlier contacts. The model learned the noise.
+
+2. No routing architecture. They pointed AI at the full inbound queue. Top performers carved out a specific contact type, proved the model, then expanded.
+
+3. No success criteria defined pre-deployment. They measured AHT post-launch. AHT tells you workload. It doesn't tell you value.
+
+---
+
+AHT is the most common contact center AI metric. It's also the most misleading.
+
+AHT going down means contacts are shorter. That's it.
+
+It doesn't tell you if the problem was solved. It doesn't tell you if the customer came back. It doesn't tell you if you deflected the issue or just delayed it.
+
+The metric you actually need: resolution rate at 48 hours post-contact.
+
+If CSAT goes up but re-contact rate stays flat, you handled it. If re-contact spikes, AHT went down because the AI ended calls faster — not because it solved anything.
+
+---
+
+The 8x ROI contact centers defined three things before go-live:
+
+1. Which contact types AI would own (not "everything" — specific intents with clean data)
+2. What "resolved" meant in measurable terms (not CSAT — re-contact rate within 48h)
+3. What failure looked like and what would trigger a rollback
+
+The teams at 1-2x ROI skipped all three. They deployed, measured AHT, declared success, and scaled.
+
+Scaling a measurement gap doesn't create value. It creates a bigger measurement gap.
+
+---
+
+If you're in a contact center AI rollout and someone says "we're seeing great results," ask two questions:
+
+What's your re-contact rate vs 6 months ago?
+
+What's your FCR on the intents AI is handling vs human agents?
+
+If they can't answer both within 30 seconds, the 8x ROI isn't coming. They don't have the instrumentation to find it — let alone prove it.
+
+The tools are good enough. The measurement is the problem.
