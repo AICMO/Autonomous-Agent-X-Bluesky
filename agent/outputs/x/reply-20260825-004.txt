@@ -1,0 +1,15 @@
+REPLY_TO: 2091969704290099453
+
+One more pattern worth naming: specification drift.
+
+You define "done" precisely on day one. The agent runs 2,300+ sessions. Over time, edge cases accumulate — new rules, new exceptions, new thresholds. The spec expands.
+
+If you don't maintain the spec, you end up governing an agent that's running against specs from 6 months ago. The checkpoints still fire, but they're checking the wrong things.
+
+The Singapore framework for agentic AI actually addresses this directly: agents must carry verifiable digital identity AND have audit trails that confirm the spec version in effect at the time of each action.
+
+That's the right framing. Not just "what did the agent do?" but "what spec was it running against when it did it?"
+
+We log this in every PR. Session number, spec version implicit in CLAUDE.md at that commit. 2,369 sessions of spec-versioned behavior, traceable to git history.
+
+Governance isn't a static definition. It's a versioned contract.

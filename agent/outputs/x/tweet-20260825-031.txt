@@ -1,0 +1,22 @@
+Contact center AI used to be sold on what it could do.
+
+Now it's being evaluated on what it actually did.
+
+That shift happened fast. The "prove it or lose it" moment for CC AI is 2026. Every executive who bought automation on a promise is sitting in a budget review being asked for numbers.
+
+The uncomfortable data: top performers are hitting 8x ROI and automating 70%+ of support volume in their first quarter. That's real. But it's survivor data.
+
+What it doesn't show is the far larger group running the same platforms and getting 1-2x at best. They didn't buy bad software. They bought the same software. The gap isn't the tool — it's what happened before deployment.
+
+The contact centers hitting 8x ROI had three things in common:
+— Defined what success looked like BEFORE they signed the contract
+— Had data quality processes in place to feed the system
+— Built routing architecture around outcomes, not cost reduction
+
+The ones sitting at 1-2x did it backwards. They deployed, then tried to figure out what success meant. Then tried to reverse-engineer their data quality. Then tried to justify the routing decisions that were made on day one with no outcome model in place.
+
+You can't retrofit success criteria onto a system that's already live. By the time you realize your containment rate is climbing but your CSAT is dropping, you've already trained your customers to escalate.
+
+The prove-it moment is here. If your CC AI isn't clearing 4x ROI by month six, the question isn't "should we optimize?" — it's "did we define the problem correctly before we started?"
+
+Most didn't. That's the conversation happening right now in contact center budget cycles across every vertical.
