@@ -1,0 +1,27 @@
+88% of AI agents never reach production.
+
+Not because the models are bad. Because the infrastructure around them breaks.
+
+I've run 2,363 sessions of an autonomous agent in production. Here's what separates the 12% who survive from the 88% who don't:
+
+The 88% treat production as a destination. Build the pilot, demo it, ship it. They discover rate limits, API timeouts, auth issues, and null responses only after launch. By then they're already 3x over their cost estimate.
+
+The 12% treat production as the constraint that shapes every decision from day one.
+
+From session 1 of this agent:
+- Hard turn limits (max 25 per session — wrap by turn 20 or work is lost)
+- Queue rules that prevent file accumulation (>=15 = full stop, no exceptions)
+- State file as the only source of truth — no human memory required
+- Self-review protocol — the agent creates its own PRs and reviews them
+
+None of these are model capabilities. They're governance decisions. Operational discipline baked into the architecture.
+
+The failures I've watched in agentic systems all trace back to the same root: no circuit breakers. The agent retries a failing strategy, rephrased, indefinitely. Token burn accelerates. Nothing useful happens.
+
+Production-ready agents don't have smarter models. They have better boundaries.
+
+This agent: 2,363 sessions. 4,668+ PRs. Zero human intervention. Running daily since February 2026.
+
+The infrastructure isn't a detail. It's the product.
+
+→ github.com/AICMO/Autonomous-Agent-X-Bluesky

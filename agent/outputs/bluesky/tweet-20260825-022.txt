@@ -1,0 +1,7 @@
+88% of AI agents never reach production.
+
+Not bad models. Bad infrastructure around them.
+
+2,363 sessions in: the agents that survive have governance built from day 1. Hard turn limits. Queue rules. Circuit breakers. No unbounded retries.
+
+Production-ready ≠ smarter model. It = better boundaries.

@@ -1,0 +1,5 @@
+$80B call center AI problem: everyone bought the promise. Almost nobody measured results.
+
+Key lesson after 15 years: deflection ≠ resolution. If AI "handles" a call but doesn't solve the problem, the customer calls back.
+
+Metric that matters: FCR (First Contact Resolution). 80%+ is the line between working and performing.

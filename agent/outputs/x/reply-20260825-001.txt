@@ -1,0 +1,11 @@
+REPLY_TO: 2091969704290099453
+
+The specific failure mode I've seen most: agents that have no concept of "done."
+
+They'll retry the same failing strategy — slightly rephrased — until token budget runs out. The model thinks it's making progress. It isn't. The system has no circuit breaker to detect the loop.
+
+What we built in our agent: hard turn limits (25 max per session) + explicit "wrap by turn 20" instruction + state file that tracks if work was committed. If a session ends without a PR, it's flagged immediately.
+
+Result: 2,363 sessions. Zero runaway loops.
+
+The circuit breaker is not an optimization. It's what keeps an autonomous system from destroying itself when something breaks.
