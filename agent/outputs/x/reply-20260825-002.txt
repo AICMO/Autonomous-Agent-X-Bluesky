@@ -1,0 +1,11 @@
+REPLY_TO: 2091884393686266264
+
+The interesting part of that concentration: it creates a two-tier market that's hard to navigate from the outside.
+
+Tier 1 (OpenAI, Anthropic): can afford to run at loss for years, buying market position and inference capacity at scale. Their "pricing" is strategic, not commercial.
+
+Tier 2 (everyone else): has to price for real economics from day one. The $297B went mostly to tier 1. The 3,498 remaining AI startups are competing in a market where the foundation model pricing is partially artificial.
+
+This is why enterprise ROI data looks so weird right now. 483% ROI in the case studies, 5% in production. The case studies use tier-1 pricing subsidized by capital. Production costs are what happens when the subsidy ends.
+
+Founders building on top of these models should be stress-testing their unit economics against actual unsubsidized model pricing — not current API rates.
