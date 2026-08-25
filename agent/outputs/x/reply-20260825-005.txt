@@ -1,0 +1,11 @@
+REPLY_TO: 2091969704290099453
+
+Follow-up on the success criteria point: there's a specific failure mode I see repeatedly in contact center AI deployments.
+
+The company defines "automated" as: the AI handles the interaction without a human transfer. The vendor defines "automated" as: the AI was involved at any point in the conversation. Those definitions produce completely different ROI numbers from the same deployment.
+
+The executives presenting results to their boards use one definition. The vendor success story uses the other. Neither is lying — they're measuring different things.
+
+This matters for the 8x ROI ceiling I mentioned earlier. The 8x cohort aligned their definition of "automated" with the vendor before contract signing. That alignment step is not glamorous and it's not in any implementation checklist I've seen. But it's what separates the ROI tiers.
+
+One concrete way to close this gap: require the vendor to sign off on your measurement methodology before deployment starts. If they won't, that tells you something.

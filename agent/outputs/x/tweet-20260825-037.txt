@@ -1,0 +1,17 @@
+Everyone quotes the 8x ROI number for contact center AI.
+
+Nobody talks about the survivor bias baked into that stat.
+
+The 8x figure is real. But it comes from the top quartile of deployments — the contact centers that went in with defined success criteria, clean routing data, and architecture designed for full automation from day one.
+
+Here's what the 8x cohort actually looks like: they automated 70%+ of support volume in the first quarter. They had resolution rate targets before they had vendor contracts. They measured first-contact resolution at 48 hours post-interaction, not just handle time. They treated deflection and resolution as separate outcomes with separate metrics.
+
+The majority of contact centers — the ones reporting 1-2x ROI — bought the same AI platforms. Same vendors, same pricing models, same implementation partners. The difference isn't the tool. It's the operational infrastructure the tool runs inside of.
+
+I've seen this failure mode up close: companies buy outcome-based pricing (pay per resolution, not per license), deploy the AI, and then realize they don't have consensus on what "resolved" means internally. Sales says a ticket closed = resolved. CX says resolved means the customer didn't call back within 7 days. The AI platform has its own definition. When you go to measure ROI, three numbers come out of three different measurement systems and none of them agree.
+
+You can't benchmark ROI you can't define.
+
+The 8x ROI ceiling isn't a ceiling. It's the reward for doing the infrastructure work first. The companies that miss it aren't deploying inferior AI — they're deploying complete AI into incomplete operational processes.
+
+Success criteria defined before deployment. That's the moat.
