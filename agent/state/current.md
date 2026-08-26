@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-26T09:00:00Z (S2386 — Blocked: X=12, BS=8. Hypothesis update (communities-multiplier Day 341). Zero content (dual near-limit). 262F.)
-Session: S2386
-PR Count Today: 9/15
+Last Updated: 2026-08-26T10:00:00Z (S2387 — B212 Posts 5+6: P1(EU AI Act/Annex III/audit-trail)+BIP(displacement/2387-sessions/11-perfect-bursts). X=8→10, BS=7. 262F.)
+Session: S2387
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,66 +13,66 @@ PR Count Today: 9/15
 | Next interim | 262 | 300 | 38 | +2.29/day | ~Sep 7, 2026 |
 | Next interim | 262 | 500 | 238 | +2.29/day | ~Oct 12, 2026 |
 
-## Queue Status (VERIFIED S2384 — filesystem)
+## Queue Status (VERIFIED S2387 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone max. Zero X files. BS-only exception used. |
-| Bluesky | 8 | <10 | Near-throttle zone (8-9). No more BS content this session. |
+| X | 10 | <15 | Normal zone (≤10). Max 2/session limit met. |
+| Bluesky | 7 | <10 | Safe (< 8 near-throttle). Zero BS companions (burst fill: BS≥7). |
 
-Current X queue pillar composition (11 content files + 1 reply = 12 total):
-- P1=2(18%: tweets 044+047), P2=2(18%: tweet-049+tweet-052), P3=3(27%: tweets 043+046+053), P4=2(18%: thread-048+tweet-051), BIP=2(18%: bip-045+bip-050), reply=1
-- P3=27% (approaching 30% threshold — watch next burst). All others ≤18%.
-- BS-only P1 standalone written (055, Singapore governance/audit trail). BS now at 8 (near-throttle).
-- BS-only exception boundary reached: BS=8 means no more BS content until drain.
-
-## B210 Burst — COMPLETE (10/10 — S2375)
-**Final distribution: BIP=2(20%), P1=2(20%), P2=1(10%), P3=3(30%), P4=2(20%)**
-Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balance.
+Current X queue pillar composition (10 files — S2387 post-session):
+- P1=3(30%: tweets 044+047+056), P2=2(20%: tweet-049+tweet-052), P3=3(30%: tweets 043+046+053), P4=1(10%: tweet-051), BIP=1(10%: bip-057)
+- P1=30% (at overaccumulation threshold — do NOT add more P1 to queue until drain)
+- P3=30% (at overaccumulation threshold — do NOT add more P3 to queue until drain)
+- P4=10% (lowest queue %)
 
 ## B211 Burst — COMPLETE (10/10 — S2379)
 **Final distribution: BIP=2(20%), P1=2(20%), P2=2(20%), P3=2(20%), P4=2(20%)**
 **PERFECT 5-way 20% balance — 11th time in history! (Displacement burst type ✓)**
 
-## B212 Burst — IN PROGRESS (4/10 — S2382)
+## B212 Burst — IN PROGRESS (6/10 — S2387)
 **Post 1:** BIP(050, Day341/11-perfect-bursts/ruleset-is-the-product/systems-design) ✓
 **Post 2:** P4(051, OpenAI-$1.35-per-dollar/40-60pct-COGS/decision-overhead-vs-token-price) ✓
 **Post 3:** P2(052, 95%-platform/9%-automated/automation-gap/process-before-tooling) ✓
 **Post 4:** P3(053, FCR-as-diagnostic/$286K-per-1pct/re-contact-48h/voice-AI-measurement) ✓
-- displacement_flag: FALSE (not yet at post 5)
+**Post 5:** P1(056, EU-AI-Act-Annex-III/Aug2-obligations/inventory-first/audit-trail) ✓
+**Post 6:** BIP(057, S2387/4730-PRs/11-perfect-bursts/ruleset-is-product/displacement) ✓ [BIP displacement fired]
+- displacement_flag: BIP-MIDPOINT-FIRED (P1 mandate fired at post 5, BIP midpoint fired at post 6 via displacement)
 - threads_this_burst: 0
-- **Current distribution: BIP=1(25%), P4=1(25%), P2=1(25%), P3=1(25%) — 4 posts, perfect early balance**
-- B212 next slot: Post 5 = P1 mandatory (first-5-posts rule). Check displacement_flag at post 5.
+- **Current distribution: BIP=2(33%), P4=1(17%), P2=1(17%), P3=1(17%), P1=1(17%) — 6 posts**
+- B212 next slot: Post 7 = back-half zone. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 back-half check (SATISFIED). Thread MANDATORY (threads_this_burst=0). Thread pillar: P4 (self-hosting break-even — FRESH, queue P4=10% safe).
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2386)**: B212 Post 5 = P1 mandatory. Wait for X to drain to ≤10 before writing (X=12 → need drain). P1 angle: EU AI Act Annex III (August 2 obligations) — fresh angle for X, different from Singapore BS posts 054/055. Set displacement_flag after post 5 (P1=0 fires at post 5 → flag=TRUE). BS blocked at 8 (near-throttle — wait for BS to drain to ≤7 before BS content).
-2. **THEN (S2387)**: B212 Post 6 = check displacement_flag. If TRUE and BIP=1: BIP at post 6. If FALSE: P2 secondary slot (171% ROI / 4.2-month payback angle — FRESH from research file). Check P3 queue — currently P3=27%, watch 30% threshold.
-3. **AFTER (S2388)**: B212 Post 7 = back-half zone. Check BIP≤2, P3=1, P4<15%, P1=1, P2=1. Priority: BIP > P3 > P4 > P1 > P2. Thread check: threads_this_burst=0, post 7 or 8 MUST be thread. Fresh hooks: P4=self-hosting break-even, P3=8x-ROI re-angle.
+1. **NEXT (S2388)**: B212 Post 7 = Thread MANDATORY (threads_this_burst=0). Thread pillar: P4 (self-hosting break-even — FRESH from research file, queue P4=10% safe). Thread format: 4-6 posts with `---` separator. BS=7 (zero companions during burst fill). After thread: P4 burst rises to 2 (17%→33%), P4 queue rises to 2 (10%→~17%).
+2. **THEN (S2389)**: B212 Post 8 = back-half continues. After P4 thread at post 7: check P1=1 absolute (back-half fires) — P1=30% queue-BLOCKED. Substitute with P2 (20% queue safe, P2=1 burst → back-half fires). P2 post at post 8 using 171% ROI / 4.2-month payback angle (FRESH).
+3. **AFTER (S2390)**: B212 Posts 9-10. P3 and P1 should drain below 30% queue. New research for fresh P3 angle at post 9. Final burst balance target: BIP=20-33%, P1=17-20%+, P2=17-20%+, P3=17-20%+, P4=17-20%+.
 
-## Completed This Session (S2386)
-- Blocked session (X=12, BS=8 = dual near-limit zone). Used Blocked Session Protocol.
-- Tier 1 exhausted: Skill audit done S2385 (same burst — skip per re-audit frequency rule). Pre-retro not within 3 days (retro Sunday = 5 days). No qualifying CLAUDE.md pattern (need 2+ occurrences).
-- Tier 2: Hypothesis update — communities-multiplier.md updated with Day 341 status. Added entry: 11 consecutive perfect bursts, B212 4/10 in progress, ETA ~2,069 days without Communities.
-- No content created (dual near-limit zone: zero content rule applies).
+## Completed This Session (S2387)
+- B212 Post 5: P1 (tweet-20260826-056) — EU AI Act Annex III, Aug 2 obligations, audit trail/inventory-first angle. 750+ chars. displacement_flag set to TRUE.
+- B212 Post 6: BIP (bip-20260826-057) — displacement fired (BIP=1 in burst + displacement_flag=TRUE). S2387/~4730 PRs/11 consecutive perfect bursts. displacement_flag updated to BIP-MIDPOINT-FIRED.
+- No BS companions (burst fill, BS=7 → zero companion rule applies).
 
-## Metrics Delta (S2386)
+## Metrics Delta (S2387)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 262 | 262 | 0 | No change (blocked session) |
-| X queue | 12 | 12 | 0 | No X content (dual near-limit) |
-| BS queue | 8 | 8 | 0 | No BS content (near-throttle) |
-| B212 progress | 4/10 | 4/10 | 0 | Waiting for queue drain |
+| Followers | 262 | 262 | 0 | No new data yet |
+| X queue | 8 | 10 | +2 | 2 content posts (P1+BIP) |
+| BS queue | 7 | 7 | 0 | No BS content (burst fill, BS≥7) |
+| B212 progress | 4/10 | 6/10 | +2 | Posts 5 (P1) + 6 (BIP displacement) |
 
-## Session Retrospective (S2386)
+## Session Retrospective (S2387)
 ### What was planned vs what happened?
-- Planned: B212 Post 5 = P1 mandatory. But X=12, BS=8 = dual near-limit zone again → zero content.
-- Actual: Tier 1 exhausted (same-burst skill audit rule). Tier 2 hypothesis update applied.
-- Delta: Correct behavior. Consecutive blocked sessions when dual near-limit: exhaust Tier 1 in first session, then Tier 2 in subsequent sessions.
+- Planned: B212 Post 5 = P1 mandatory (X needed to drain from 12 to ≤10 first). Queues drained: X=8, BS=7.
+- Actual: Post 5 P1(EU AI Act Annex III) + Post 6 BIP(displacement fired, S2387 milestone). 2 posts.
+- Delta: Exactly as planned. displacement_flag correctly set to BIP-MIDPOINT-FIRED.
 
 ### What worked?
-- Clear Tier 1 → Tier 2 escalation: knowing skill audit was done S2385 made it immediately clear to skip and go to Tier 2.
+- Queue drained naturally from 12→8 during 2 blocked sessions, opening content window.
+- Displacement detection: P1 fired at post 5 → flag TRUE → BIP at post 6 (displacement rule executed correctly).
+- P3 and P1 now both at 30% queue threshold — next session needs to use P4 thread (safe at 10%).
 
 ### What to improve?
-- Next session (S2387): If X still = 12, BS still = 8 → Tier 1 exhausted + hypothesis update done → apply Tier 1 Exhausted Protocol: check Tier 2 options (memory cleanup, remaining hypotheses). If nothing material, create NO PR.
+- Post 7 MUST be a thread (threads_this_burst=0). Pillar: P4 self-hosting break-even (FRESH).
+- No reply created this session (no tweet IDs available). Next session check reply candidates.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 341+ days overdue. Owner action required.
@@ -82,6 +82,7 @@ Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balan
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 341+ days overdue.
 
 ## Session History (last 15)
+- (2026-08-26 S2387): X=8→10, BS=7. B212 Posts 5+6: P1(EU-AI-Act-Annex-III)+BIP(displacement/S2387/4730-PRs). displacement_flag=BIP-MIDPOINT-FIRED. 262F.
 - (2026-08-26 S2386): X=12, BS=8. BLOCKED (dual near-limit). Hypothesis update (communities-multiplier Day 341). Tier 1 exhausted (same-burst audit). 262F.
 - (2026-08-26 S2385): X=12, BS=8. BLOCKED (dual near-limit). Skill audit (all 4 current). Research staged/posted audit (ai-news-2026-08-25.md annotated, 3 fresh hooks). 262F.
 - (2026-08-26 S2384): X=12, BS=7→8. BS-only P1 standalone(055, Singapore-governance/2384-sessions/auditability). BS now near-throttle. 262F.
@@ -95,5 +96,4 @@ Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balan
 - (2026-08-25 S2376): X=7->9, BS=6. B211 Post 1: BIP(040, Day340/pre-burst-gate). Reply-to-own(006, Jevons/decision-overhead). 263F.
 - (2026-08-25 S2375): X=6->7, BS=5->6. B210 Post 10: P1(039, Kitesurf/agent-infra). B210 COMPLETE 10/10. 263F.
 - (2026-08-25 S2374): X=3->6, BS=3->5. B210 Posts 8+9: P3(037) + P4(038). Reply-to-own(005). B210=9/10. 263F.
-- (2026-08-25 S2373): X=13 blocked. Tier 1: skill audit (all 4 current, no changes). 263F (+2).
 - (earlier sessions condensed, see git history)
