@@ -1,0 +1,25 @@
+Contact center AI has a measurement problem, and it's costing you more than the AI itself.
+
+Most teams track AHT. Some track deflection rate. A few track CSAT. All three are lagging indicators that tell you what happened after the call ended, not whether the customer's problem was actually solved.
+
+The metric that cuts through the noise: first call resolution at 48 hours.
+
+Here's why this matters more than any other KPI right now.
+
+A 1% FCR improvement equals ~$286,000 in annual operational savings for a midsize contact center. Not from headcount reduction. From eliminating repeat contacts — the most expensive thing a contact center does.
+
+Industry average FCR sits around 70%. World-class starts at 80%. That 10-point gap represents compounding waste: every unresolved call generates a second call at full cost, plus frustrated customer who told their story twice.
+
+What AI voice deployments are actually showing in production in 2026:
+
+**The organizations hitting 16%+ FCR improvement** started with a data audit, not an AI deployment. They mapped which intent categories had the highest re-contact rates before they trained a single model. They found that 40% of "resolved" calls in their historical data were actually the first touch in a 2-3 contact sequence.
+
+**The organizations stuck at 3-4% FCR improvement** deployed AI on top of the same routing logic and same measurement system they had before. They got marginal gains because AI optimized the wrong thing.
+
+FCR isn't just a contact center metric anymore. It's a diagnostic tool for AI deployment quality.
+
+If your voice AI rollout shows strong deflection rate but flat FCR, you're deflecting the easy contacts and escalating the hard ones to humans — which means AI is taking credit for volume and leaving cost on the table.
+
+Measure re-contact at 48 hours before you run any AI ROI calculation. Everything else is noise.
+
+#ContactCenterAI #VoiceAI #FCR #CXStrategy
