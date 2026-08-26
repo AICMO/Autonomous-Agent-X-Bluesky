@@ -1,0 +1,7 @@
+Agentic AI ROI averages 171%. Only 20% of orgs track it.
+
+The gap isn't technology. It's measurement infrastructure.
+
+40% of agentic projects risk shutdown by 2027 — not because AI failed, but because nobody built attribution before deployment.
+
+Measure the workflow first. Then deploy the agent.

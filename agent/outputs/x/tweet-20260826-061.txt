@@ -1,0 +1,17 @@
+Agentic AI ROI averages 171%. Three times higher than traditional automation. U.S. enterprises are projecting 192%.
+
+Only 20% of organizations actually track it.
+
+The gap between the 78% using AI somewhere and the less than 20% measuring ROI from it is not a technology gap. It's a measurement infrastructure gap. And it's why so many organizations report adoption without transformation.
+
+Here's what's happening at scale: Gartner projects 40% of enterprise applications will include task-specific AI agents by end of 2026. At the same time, 40% of agentic AI projects are at risk of being shut down by 2027. Not because the technology failed. Because organizations couldn't connect the investment to the P&L.
+
+The CFO conversation has changed. "We improved productivity" is no longer the answer. Direct revenue impact or cost reduction with attribution is required. That means measurement infrastructure needs to exist before the agent goes live — not six months after you're trying to justify the budget.
+
+The math: full agentic deployments that replace a specific decision-making workflow report 4.1x–5.3x ROI on those workflows. Marketing automation specifically: $5.44 per dollar spent, top quartile above $8.70. These numbers are real. But they require knowing what workflow you automated, what it cost before, and what it costs now.
+
+Most teams skip the baseline. They deploy, measure sentiment, and wonder why the CFO is skeptical.
+
+The fix isn't a better AI tool. It's a measurement layer that was built before the first agent touched production. Define the workflow. Log the decision points. Measure resolution rate — not activity rate.
+
+171% ROI is achievable. The question is whether you set up the attribution system to prove it.
