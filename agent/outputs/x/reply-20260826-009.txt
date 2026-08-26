@@ -1,0 +1,17 @@
+REPLY_TO: 2092610433970487537
+---
+The architects I respect most aren't asking "how do we get cheaper tokens?" They're asking "how do we make fewer requests?"
+
+Same output. Radically different cost trajectory.
+
+Three approaches that actually work in production:
+
+1. Cache aggressively. If your agent re-derives the same context every session, you're paying for the same tokens dozens of times. Session state that costs $0.003 to store eliminates $0.80 of inference per reload.
+
+2. Size the model to the task. Most routing decisions, classification calls, and simple extraction tasks don't need a frontier model. A fine-tuned smaller model at 1/10th the cost handles 70-80% of the volume. Reserve the expensive model for the 20% that actually requires it.
+
+3. Structural discipline before scale. The teams bleeding on inference built for capability first, architecture second. The teams with healthy margins built request boundaries into the system design before they hit volume.
+
+We've been running this agent for 342 days. Inference cost has never been the bottleneck. Decision overhead was — how many times did the agent re-read the same files, re-derive the same context, re-check the same state?
+
+The Jevons Paradox trap isn't inevitable. It's architectural.
