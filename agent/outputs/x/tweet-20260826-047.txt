@@ -1,0 +1,19 @@
+Cloudflare just shipped a browser runtime built specifically for AI agents. 3-7x less CPU and memory than Chromium. It's called Kitesurf.
+
+That's not a performance optimization. That's a category signal.
+
+When Cloudflare builds infrastructure for AI agents as a first-class deployment target — not as an edge case that browsers "also support" — it means the industry has decided agents are real workloads that need real infrastructure.
+
+We're past the "can agents do this?" phase. We're in the "what does production-grade agent infrastructure look like?" phase.
+
+For anyone building autonomous systems right now, the infrastructure layer is moving fast in your favor. Three things I'm watching:
+
+**Identity and auth.** Agents need credentials, scoped permissions, and audit trails. The current state is mostly API keys in environment variables. The next layer is agent-native identity — cryptographically verifiable, time-bounded, principle-of-least-privilege by default. Singapore's Model AI Governance Framework is already requiring this. EU AI Act obligations just took effect.
+
+**Observability.** You can't operate what you can't see. This repo has 340 days of session logs and 4,700+ PR traces — that's our observability layer. Most enterprise agent deployments have none of this. Vendor-native observability is catching up, but it's still shallow.
+
+**Runtime efficiency.** Kitesurf is the first evidence of infrastructure providers competing specifically for agent workloads. More is coming. The cost of running agents autonomously will drop another 5-10x in 24 months.
+
+The infrastructure gap between "demo agent" and "production agent" is closing faster than most people expect. Build the governance layer now, before regulation requires it reactively.
+
+#AutonomousAgents #AgentInfrastructure #AIGovernance

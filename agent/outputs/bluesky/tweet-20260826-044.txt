@@ -1,0 +1,1 @@
+92% of enterprises can't fully inventory their AI agents. 86% don't enforce access policies. We've run this agent for 340 days — every session logged, every decision traceable. Governance starts with identity. If you can't see your agents, you can't control them.

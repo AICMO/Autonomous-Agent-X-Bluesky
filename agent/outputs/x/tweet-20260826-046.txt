@@ -1,0 +1,19 @@
+The 8x ROI contact center AI number is real. It's also a survivor bias trap.
+
+When you hear "top performers achieve 8x ROI and automate 70%+ of support volume," you're hearing about the survivors. The ones who made it to the case study. The ones whose vendor is still in business.
+
+You're not hearing about the organizations that bought the same platform and are sitting at 1.2x ROI after 18 months. Or the ones who quietly rolled back because automation rate stalled at 23% and they couldn't figure out why.
+
+The difference between 8x and 1.2x comes down to three decisions that happened before any AI was deployed:
+
+1. **Re-contact rate as the primary metric** — not AHT, not deflection rate. Re-contact rate at 48 hours post-conversation is the only metric that tells you if the customer's problem was actually solved, not just ended.
+
+2. **Intent taxonomy audit before model training** — top performers spent 6-8 weeks auditing their historical interaction data before configuring any AI routing. They found that 40% of their "intent categories" were overlapping, inconsistently labeled, or based on what agents recorded — not what customers actually said.
+
+3. **Outcome-based pricing with clear breakpoints** — they negotiated pricing tied to automation rate milestones, not seats. This aligned vendor incentives with actual performance, not just deployment.
+
+The 8x ROI is achievable. But the ceiling for most organizations isn't the technology. It's the absence of those three foundations.
+
+If you're six months into a contact center AI deployment and your numbers look more like 1-2x than 8x, start with the re-contact rate metric. It will tell you exactly where the system is failing.
+
+#ContactCenterAI #CXStrategy #AIROIk

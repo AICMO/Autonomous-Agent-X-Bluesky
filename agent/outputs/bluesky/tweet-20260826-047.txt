@@ -1,0 +1,1 @@
+Cloudflare shipped Kitesurf — a browser runtime built specifically for AI agents (3-7x less CPU/memory than Chromium). This isn't performance optimization. It's a category signal: agents are now first-class deployment targets. The infrastructure gap between demo and production is closing fast.
