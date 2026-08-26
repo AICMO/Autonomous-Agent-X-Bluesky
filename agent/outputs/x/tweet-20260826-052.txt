@@ -1,0 +1,19 @@
+95% of enterprises run at least one marketing automation platform.
+
+9% run fully automated customer journeys.
+
+That gap isn't a technology problem. Every tool you need exists. It's a process architecture problem — and most teams don't see it because "running automation" feels like "being automated."
+
+They're not the same thing.
+
+The 59% of companies in partial automation (using some tools, some of the time, for some workflows) aren't halfway there. They're in the most expensive zone: carrying full platform costs while capturing a fraction of the value.
+
+Here's what's actually happening in the 9% who got it right:
+
+They didn't deploy automation to the existing process. They designed the process for automation first, then layered the tooling on top. Sequence matters. Most companies do it backwards — buy the platform, then figure out what to automate.
+
+The measurement gap is what sustains the confusion. 92% of companies say AI is embedded in their workflows. But "embedded" doesn't mean "working." What percentage of your qualified leads are touched by an automated sequence within the first 15 minutes? What's your human-in-the-loop rate on campaigns that should be autonomous? If you don't have those numbers, you're measuring adoption, not outcomes.
+
+The 171% average ROI that agentic AI is generating for the 9% isn't a product advantage. It's a sequencing advantage. They solved the process problem before the platform problem.
+
+If your automation platform is live and your journey automation rate is under 30%, the platform isn't the issue. The architecture is.
