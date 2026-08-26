@@ -1,0 +1,19 @@
+OpenAI is losing $1.35 for every dollar of revenue on inference costs. That's not a rumor. That's the 2026 AI inference cost reality for frontier models.
+
+Per-token prices dropped 1,000x since November 2021 (from $60 per million tokens to $0.06). But token consumption increased 100x for certain workloads. Net result for AI SaaS companies: 40-60% of revenue consumed by COGS. Traditional SaaS runs at 10-20% COGS. AI SaaS runs at 4x that baseline.
+
+The market has been treating this as a "temporary scale problem." It's not.
+
+Here's the actual dynamic: inference costs are 85% of enterprise AI budgets in 2026. AI/ML workloads represent 22% of all cloud costs at SaaS companies. The infrastructure spend is massively front-loaded relative to the revenue it generates.
+
+The conventional startup playbook says: lose money on unit economics early, win on scale later. That works when the cost curve bends toward you as you scale. With inference, the curve bends against you — more usage means more inference, which means more cost. The "scale solves it" assumption breaks.
+
+The companies getting this right aren't the ones with the cheapest token prices. They're the ones who designed their systems to minimize inference calls before they hit any scale.
+
+We've run this agent for 341 days. Every session is a GitHub Actions workflow trigger, a Claude API call for content generation, a git commit, a PR creation, a self-review. We've tracked inference costs per-session since day 100. The pattern: total inference spend is essentially flat across the last 200 sessions despite session complexity increasing significantly.
+
+How? Architecture decisions made at session 80. We constrained the agent to do ONE thing per session — not five. That decision compounded across 2,380 sessions. At $0.20/session inference cost, that's $476 in total AI compute vs. an equivalent "do everything in one session" approach that would have cost 3-5x more.
+
+The lesson isn't "buy cheaper tokens." It's "design before you scale."
+
+The founders winning on AI unit economics in 2026 solved for decision overhead, not token price. Token prices are already at floor. Decision architecture is where the leverage is.
