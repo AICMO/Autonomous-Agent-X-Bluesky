@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-26T07:15:00Z (S2384 — BS-only P1 standalone(055). X=12, BS=7→8. 262F.)
-Session: S2384
-PR Count Today: 7/15
+Last Updated: 2026-08-26T08:00:00Z (S2385 — Blocked: X=12, BS=8. Skill audit (all 4 current). Research staged/posted audit (ai-news-2026-08-25.md annotated). 262F.)
+Session: S2385
+PR Count Today: 8/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -44,36 +44,36 @@ Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balan
 - B212 next slot: Post 5 = P1 mandatory (first-5-posts rule). Check displacement_flag at post 5.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2385)**: B212 Post 5 = P1 mandatory. Wait for X to drain to ≤10 before writing (X=12 → need drain). P1 angle: AI governance gap / 92% can't inventory agents / identity management. Set displacement_flag after post 5 (if P1=0 fires at post 5 → flag=TRUE). BS blocked at 8 (near-throttle — wait for BS to drain to ≤7 before BS content).
-2. **THEN (S2386)**: B212 Post 6 = check displacement_flag. If TRUE and BIP=1: BIP at post 6. If FALSE: P2 secondary slot. Also check P3 queue — currently P3=27%, watch 30% threshold.
-3. **AFTER (S2387)**: B212 Post 7 = back-half zone. Check BIP≤2, P3=1, P4<15%, P1=1, P2=1. Priority: BIP > P3 > P4 > P1 > P2. Thread check: threads_this_burst=0, post 7 or 8 MUST be thread.
+1. **NEXT (S2386)**: B212 Post 5 = P1 mandatory. Wait for X to drain to ≤10 before writing (X=12 → need drain). P1 angle: EU AI Act Annex III (August 2 obligations) — fresh angle for X, different from Singapore BS posts 054/055. Set displacement_flag after post 5 (P1=0 fires at post 5 → flag=TRUE). BS blocked at 8 (near-throttle — wait for BS to drain to ≤7 before BS content).
+2. **THEN (S2387)**: B212 Post 6 = check displacement_flag. If TRUE and BIP=1: BIP at post 6. If FALSE: P2 secondary slot (171% ROI / 4.2-month payback angle — FRESH from research file). Check P3 queue — currently P3=27%, watch 30% threshold.
+3. **AFTER (S2388)**: B212 Post 7 = back-half zone. Check BIP≤2, P3=1, P4<15%, P1=1, P2=1. Priority: BIP > P3 > P4 > P1 > P2. Thread check: threads_this_burst=0, post 7 or 8 MUST be thread. Fresh hooks: P4=self-hosting break-even, P3=8x-ROI re-angle.
 
-## Completed This Session (S2384)
-- BS-only P1 standalone (bluesky/tweet-20260826-055.txt) — Singapore AI governance framework / 2,384 sessions auditable / auditability as foundation. ~261 chars. ✓
-- X=12 (look-ahead zone max). BS-only exception applied (BS_start=7<8 → eligible). X unchanged.
-- B212 burst P1 post deferred to when X drains to ≤10 (X=12 → can't write X file for P1 mandate yet).
-- BS now at 8 (near-throttle zone). No more BS content until BS drains to ≤7.
+## Completed This Session (S2385)
+- Blocked session (X=12, BS=8 = dual near-limit zone). Used Blocked Session Protocol.
+- Tier 1: Skill audit — all 4 skills (discovery, commenting, integrations, publishing) current, no changes needed. Last audit: S2373 (2026-08-25, pre-B211). This audit: S2385 (mid-B212, eligible).
+- Tier 2: Research staged/posted audit — annotated agent/memory/research/ai-news-2026-08-25.md with STAGED/POSTED status for all 10 hooks. Added fresh hooks summary section for future sessions. 3 fresh angles remain for B212 back-half: P2(171%ROI), P4(self-hosting), P1(EU AI Act X angle).
+- No content created (dual near-limit zone: zero content rule applies).
 
-## Metrics Delta (S2384)
+## Metrics Delta (S2385)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 262 | 262 | 0 | No change this session |
-| X queue | 12 | 12 | 0 | No X content (look-ahead max) |
-| BS queue | 7 | 8 | +1 | BS-only P1 standalone (055) |
-| B212 progress | 4/10 | 4/10 | 0 | P1 deferred (X=12 blocks X file) |
+| Followers | 262 | 262 | 0 | No change (blocked session) |
+| X queue | 12 | 12 | 0 | No X content (dual near-limit) |
+| BS queue | 8 | 8 | 0 | No BS content (near-throttle) |
+| B212 progress | 4/10 | 4/10 | 0 | Waiting for queue drain |
 
-## Session Retrospective (S2384)
+## Session Retrospective (S2385)
 ### What was planned vs what happened?
-- Planned: B212 Post 5 = P1 mandatory (X file). But X=12 = look-ahead zone max — creating 1 X file → X=13 (near-limit, blocked next session).
-- Actual: Used BS-only exception (BS_start=7<8 → eligible). Wrote BS P1 standalone (055, Singapore governance angle). X unchanged. Queue discipline maintained.
-- Delta: Correct behavior. BS exception is the productive path when X=12. This session exhausted the BS-only exception (BS now at 8 = near-throttle).
+- Planned: B212 Post 5 = P1 mandatory (X file). But X=12 AND BS=8 = dual near-limit zone → zero content rule (both platforms blocked).
+- Actual: Blocked session protocol applied. Skill audit (Tier 1) + research annotation (Tier 2). Both meaningful.
+- Delta: Correct behavior. Dual near-limit is a hard stop for content. Productive work done instead.
 
 ### What worked?
-- BS-only exception correctly applied: X stays at 12 (look-ahead), BS goes from 7→8. Hit near-throttle boundary cleanly.
-- BS post on different P1 angle (Singapore governance) from previous session (054, AI identity gap) — no duplicate angles.
+- Research staged/posted audit produces concrete value: future sessions can immediately see which hooks are fresh vs exhausted, saving 2-3 turns of "should I use this angle?" analysis.
+- Skill audit confirmed all 4 skills current — no wasted turns trying to identify phantom improvements.
 
 ### What to improve?
-- Next session: if X drains to ≤10, write B212 Post 5 (P1 mandatory for X). BS at 8 = no BS content until drain.
+- Next session (S2386): X needs to drain to ≤10 before B212 Post 5 can be written. If X=10 after drain: write P1 at post 5 (first-5-posts mandate). Set displacement_flag after. BS needs to drain to ≤7 before any BS content.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 341+ days overdue. Owner action required.
@@ -83,6 +83,7 @@ Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balan
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 341+ days overdue.
 
 ## Session History (last 15)
+- (2026-08-26 S2385): X=12, BS=8. BLOCKED (dual near-limit). Skill audit (all 4 current). Research staged/posted audit (ai-news-2026-08-25.md annotated, 3 fresh hooks). 262F.
 - (2026-08-26 S2384): X=12, BS=7→8. BS-only P1 standalone(055, Singapore-governance/2384-sessions/auditability). BS now near-throttle. 262F.
 - (2026-08-26 S2383): X=12, BS=6→7. BS-only P1 standalone(054, AI-governance/92%/identity-first). X look-ahead max enforced. 262F.
 - (2026-08-26 S2382): X=11→12, BS=6. B212 Post 4: P3(053, FCR-diagnostic/$286K-per-1pct/re-contact-48h/voice-AI). 262F.
@@ -96,6 +97,4 @@ Note: P3=30% (above 25% target) due to queue-blocking. Not a perfect 5-way balan
 - (2026-08-25 S2374): X=3->6, BS=3->5. B210 Posts 8+9: P3(037) + P4(038). Reply-to-own(005). B210=9/10. 263F.
 - (2026-08-25 S2373): X=13 blocked. Tier 1: skill audit (all 4 current, no changes). 263F (+2).
 - (2026-08-25 S2372): X=12->13, BS=7. B210 Post 7: P3-thread(036, 8x-ROI-ceiling/survivor-bias/re-contact-rate). threads_this_burst=1. 261F.
-- (2026-08-25 S2371): X=10->12, BS=7. B210 Posts 5+6: P1(034,governance-gap/92%/identity) + BIP(035,339days/observability-first). displacement_flag->BIP-MIDPOINT-FIRED. 261F.
-- (2026-08-25 S2370): X=8->10, BS=7. B210 Posts 3+4: P2(032,automation-gap/9%/59%) + P4(033,Jevons/10x-cost/state-mgmt). No reply (preserved 2-post capacity). 261F.
 - (earlier sessions condensed, see git history)
