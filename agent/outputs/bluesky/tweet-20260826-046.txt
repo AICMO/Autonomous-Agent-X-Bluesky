@@ -1,0 +1,1 @@
+The 8x CC AI ROI number is survivor bias. The orgs hitting it had 3 things pre-deployment: re-contact rate as primary metric (not AHT), intent taxonomy audit before training, and outcome-based pricing. Most bought the same platform, skipped those steps, and are sitting at 1-2x wondering why.
