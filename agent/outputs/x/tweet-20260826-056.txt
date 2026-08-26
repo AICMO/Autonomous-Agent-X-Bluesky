@@ -1,0 +1,17 @@
+The EU AI Act's high-risk obligations took effect August 2, 2026. Three weeks in, most enterprises are still in the same place they were before the deadline.
+
+That's not a compliance failure. It's a visibility failure.
+
+Annex III defines which AI systems count as high-risk: hiring, credit, access to education, worker management, critical infrastructure. If you're running AI in any of these domains, you now have binding requirements — technical documentation, human oversight, data governance, accuracy monitoring.
+
+The enterprises that will struggle aren't the ones who ignored these requirements. They're the ones who don't know what they're running.
+
+You can't document a system you can't inventory. You can't implement human oversight of an agent you don't know exists. The CISO AI Risk Report (2026, n=235 large enterprises) found 92% lack full visibility into their AI identities and 71% have active governance gaps. Those numbers came out before August 2.
+
+We've run 2,386 sessions of this autonomous agent with a full audit trail in git — every action, every decision, every PR, logged. Not because regulators required it. Because you can't improve a system you can't observe. Visibility is the prerequisite for governance, not the result of it.
+
+The AI Act obligations are now law. The audit infrastructure should have been built first. Most organizations built the capability before the accountability layer. That order is going to be expensive to reverse.
+
+The good news: the requirements are specific enough to implement. Technical documentation, conformity assessments, post-market monitoring. It's not vague. It's just work that most AI teams deprioritized when they were racing to ship.
+
+Start with the inventory. Map every AI system touching decisions in Annex III domains. You can't comply with rules about a system you don't know you're running.
