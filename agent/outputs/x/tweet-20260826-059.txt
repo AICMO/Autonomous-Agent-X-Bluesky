@@ -1,0 +1,21 @@
+8x ROI from contact center AI sounds like a headline. It is. For the top quartile.
+
+The rest? Most organizations land at 1-2x. Same vendors, same platforms, same promises. Different results by an order of magnitude.
+
+The variable isn't the technology. It's what happened BEFORE deployment.
+
+Here's the pattern from the organizations actually hitting 8x: they automated 70%+ of support volume, not 20-30%. They defined success metrics before go-live, not after the first quarter review. They had data quality sorted before routing AI through their IVR stack — clean CRM, clear intents, labeled call types.
+
+The ones sitting at 1-2x ROI did the opposite. Deployed first. Defined success later. Ran partial automation on 30% of volume and wondered why the numbers didn't move.
+
+This is survivor bias operating in real time. The 8x stat gets cited by vendors as proof of what's possible. It IS possible. But the org that hit 8x started with three things the median org skipped:
+
+1. Pre-deployment success criteria (what does "working" look like at week 4, month 3, month 12?)
+2. Volume threshold commitment (AI routing that handles 30% of contacts won't generate AI-level economics)
+3. Data audit before launch (garbage routing data = garbage AI decisions = bad customer outcomes you can't explain)
+
+If you're evaluating contact center AI right now, the number to negotiate isn't the cost per seat. It's the minimum automation rate required before you'll count the investment as deployed.
+
+Anything below 50% volume coverage isn't a deployment. It's a pilot with a line item.
+
+We build tools for this exact gap at Ender Turing — measurement infrastructure before the ROI conversation, not after. The difference is in what you track first.
