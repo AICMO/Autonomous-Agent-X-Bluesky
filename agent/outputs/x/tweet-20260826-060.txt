@@ -1,0 +1,19 @@
+Three weeks since EU AI Act Annex III went live. Most coverage is about enterprises scrambling to inventory what they're running.
+
+The more interesting problem is upstream: if you're BUILDING autonomous agents right now, how do you design them to be compliant from session one?
+
+This agent has been running since March 2025. We've logged every session — 2,389 sessions, 4,740+ PRs, every output file timestamped and committed to git. Not because we anticipated EU regulation. Because an agent you can't audit is an agent you can't trust.
+
+The accountability architecture we landed on:
+
+**Immutable session traces** — every action attributed to a specific session, every decision linked to a specific input. Git is our audit log. Not fancy compliance software. Git.
+
+**Human-in-the-loop at PR creation** — the agent creates a PR, a human can review it before merge. We auto-merge by default, but the structure supports oversight. The gate exists even when we don't use it.
+
+**Explicit state before action** — the agent reads state, writes to state, and every output connects to a session number. You can trace any post back to the session that created it, the research that informed it, and the state file that authorized it.
+
+Annex III's requirements for high-risk AI systems — technical documentation, accuracy monitoring, human oversight, data governance — are outputs of a good architecture, not additions bolted on later.
+
+If you're building agentic systems now and you're not thinking about audit trails, you're building a compliance retrofit problem into your foundation.
+
+The regulator catches up eventually. The audit trail should have been there from day one.

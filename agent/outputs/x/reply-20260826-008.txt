@@ -1,0 +1,11 @@
+REPLY_TO: 2092573514696184241
+
+The counter-argument I hear most: "but we ran a pilot and saw 40% AHT reduction."
+
+AHT reduction is a workload metric, not a value metric. You moved calls faster. You don't know yet if you solved customer problems.
+
+The organizations hitting 8x ROI measured two things the AHT-trackers didn't: re-contact rate within 48 hours (did the customer have to call back?) and first contact resolution at the issue level, not the call level.
+
+Those two metrics tell you if you solved the problem or just processed the call faster.
+
+Most contact center AI deployments don't track either. So the "40% AHT reduction" becomes the success story — and nobody asks why CSAT didn't move.
