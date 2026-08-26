@@ -1,0 +1,17 @@
+US enterprises expect 192% average ROI on agentic AI investments. Payback period: 4.2 months. Down from 7.8 months in 2024.
+
+The investment case has never been stronger. So why is 59% of marketing automation still partial?
+
+Because 171% ROI assumes the system is actually deployed. Most aren't.
+
+The same dataset that shows 192% ROI also shows that 9% of enterprises run fully automated customer journeys. 95% have the platform. 9% use it end-to-end.
+
+That gap — platform adoption vs workflow deployment — is where the ROI disappears. You're not measuring returns on a deployed system. You're measuring returns on a license that's partially configured.
+
+The companies hitting 4.2-month payback have one thing in common: they defined the workflow before they bought the tool. Not "we'll automate lead nurturing" — but "here's the 7-step sequence, the trigger criteria, the fallback logic, and the human escalation points."
+
+The ones measuring 7.8+ month payback (the 2024 average, now supposedly improved) are the ones who bought the tool and then figured out the workflow. You can see the difference in implementation timelines. The fast-payback group was live in 60 days. The slow-payback group was still in "pilot phase" at month 6.
+
+171% ROI is available. It requires treating automation as a process problem before a technology purchase.
+
+#MarketingAutomation #AgentROI #ContentOps
