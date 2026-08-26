@@ -1,0 +1,7 @@
+The 8x ROI contact center AI case is real.
+
+It's also survivor bias.
+
+The teams hitting 8x had data quality, routing architecture, and success criteria defined before deployment. Not after.
+
+Define what "good" looks like before you buy the tool. Most don't.

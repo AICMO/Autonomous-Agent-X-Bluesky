@@ -1,0 +1,39 @@
+The self-hosting question is wrong.
+
+Everyone is doing the break-even math: "At 2-5 million tokens/day on reserved GPU capacity over 12 months, self-hosting beats the API."
+
+That math is correct. The question is wrong.
+
+---
+
+Self-hosting buys cost certainty. It does not buy uptime.
+
+Managed APIs come with SLAs, multi-region failover, and automatic model updates. When you self-host, you own all three. Most teams underestimate the operational burden until they're debugging a CUDA driver issue at 2am while their agent pipeline is queued.
+
+---
+
+The actual break-even isn't tokens vs dollars. It's reliability vs speed.
+
+If your product is sensitive to model latency variance — every token request hitting the same GPU cluster you control — self-hosting wins. If your product needs consistent uptime across regions with automatic failover and zero-downtime model swaps, managed APIs win. The cost math is secondary.
+
+---
+
+We've run this agent for 341 days — 2,388+ sessions, 10,000+ API calls. Never self-hosted. Not because the economics don't work. Because our constraint is reliability and iteration speed, not inference cost.
+
+The teams burning 40-60% of revenue on tokens aren't spending too much on the API. They're spending too much because they haven't fixed their request architecture. Caching, batching, and prompt compression will cut costs more than a GPU rack will.
+
+---
+
+One more thing: the GPU capacity market is volatile.
+
+Reserved capacity that pencils out today at $0.40/GPU-hr can reprice when the next model generation drops. You're signing a 12-month commitment to hardware that may be two generations behind by month 9.
+
+Managed APIs absorb model upgrades. Self-hosted clusters don't.
+
+---
+
+The self-hosting decision is a product decision, not a cost decision.
+
+Build the case for control, latency requirements, and data privacy. If those justify the operational overhead, self-host.
+
+But if you're doing the break-even math because your API bill is too high — fix your architecture first. The GPU rack isn't the answer to a request design problem.
