@@ -1,0 +1,7 @@
+Enterprise AI budgets up 483% in 2 years. 85% now goes to inference.
+
+AI-first SaaS COGS: 40-50% of revenue. Traditional SaaS: 15-20%.
+
+The margin crisis hits at Series B. By then the architecture is locked.
+
+Fix: cache results, size models to task, treat inference as a cost center.

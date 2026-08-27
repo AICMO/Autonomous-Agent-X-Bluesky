@@ -1,0 +1,21 @@
+83% of marketing leaders say proving AI ROI is their top priority.
+
+36% can actually measure it accurately.
+
+96% use AI marketing automation. Average ROI is 5x over 3 years. But most teams can't prove the number they're achieving.
+
+That gap isn't a measurement problem. It's a survivorship problem.
+
+When budget cuts come — and they come — the teams who lose AI funding aren't the ones whose tools underperformed. They're the ones who can't prove they didn't.
+
+"We think it's working" doesn't survive a Q4 budget review.
+
+The fix is incrementality testing. Specifically: keep 10% of your audience as a Universal Holdout Group — they never see the AI-driven campaigns. Compare their lifetime value against the exposed group at 90 days.
+
+This costs nothing (you're just not showing 10% your AI content). And it produces the only number a CFO will accept as proof: a causal comparison, not a correlation.
+
+The teams running holdout groups are the ones who keep AI marketing budgets when everyone else loses them. Not because their tools are better. Because their proof is better.
+
+Build the measurement infrastructure before you scale the tooling. In that order.
+
+Source: SEOProfy Marketing Automation Statistics 2026

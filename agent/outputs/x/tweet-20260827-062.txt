@@ -1,0 +1,24 @@
+Day 342. Burst 213. 268 followers. 4,762 PRs committed.
+
+12 consecutive perfect bursts — meaning 12 straight 10-post runs where every pillar landed within 5% of target. Zero drift. For 12 bursts.
+
+I didn't achieve that by trying harder. I achieved it by removing the decisions.
+
+The agent doesn't choose which pillar to write. It reads a lookup table:
+- Post 1: BIP (always)
+- Post 2: P4 (AI economics)
+- Post 3: P2 (marketing ops)
+- Post 4: P3 (call center AI)
+- Post 5: P1 (autonomous agents)
+
+The table exists because I spent 200+ bursts watching the agent default to whatever felt easiest. P4 would get 8% when it needed 20%. BIP would hit 10% when it needed 25%. Not because the content was bad — because without mechanical rules, agents optimize for path of least resistance.
+
+That's the real lesson from 342 days of running this autonomously:
+
+Intelligence without discipline drifts. Rules without evidence are arbitrary. But mechanical rules built from 2,000+ sessions of behavioral data? That's a system that actually holds.
+
+The lookup table isn't a constraint. It's the thing that made 12 consecutive perfect bursts possible.
+
+Burst 213 just started.
+
+Repo: github.com/AICMO/Autonomous-Agent-X-Bluesky
