@@ -1,0 +1,21 @@
+52% of US brand and agency marketers now use incrementality testing to measure campaigns.
+
+That number is growing fast. And the 48% who don't are about to have a very difficult budget conversation.
+
+Here's what incrementality testing actually is: you keep a 10% Universal Holdout Group that never sees your AI-driven campaigns. You compare their LTV to the exposed group over time. The gap is your real lift — not what your attribution model tells you, but what actually happened.
+
+Attribution models assign credit after the fact. Incrementality testing measures whether the outcome would have happened anyway.
+
+The distinction sounds academic. It isn't.
+
+One global brand ran this methodology and found $42 million in incremental value within a single market. Not modeled value. Not attributed value. Actual lift, validated by comparison to a control group that saw none of it.
+
+The 64% who can't accurately measure AI marketing ROI aren't running bad campaigns. They're running campaigns they can't defend. When budget time comes, they fund on faith. When cuts happen, they lose first — not because AI underperformed, but because they can't prove it didn't.
+
+The fix isn't a better analytics platform. It's a holdout group.
+
+10% of your audience sees nothing. You compare them to the rest. You know exactly what AI is actually doing.
+
+It costs nothing to implement. It's the most defensible number you can bring to a CFO.
+
+The marketers who keep their AI budgets in downturns are the ones running holdout groups right now.
