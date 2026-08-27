@@ -1,0 +1,22 @@
+Top performers in contact center AI automate 70%+ of support volume in the first quarter.
+
+Median performers: 20-30%.
+
+The difference isn't the tool. They're often using the same platforms.
+
+The difference is what happened before deployment:
+
+Top performers had three things in place before signing the contract:
+1. Clean taxonomy of contact reasons (not "other" eating 40% of volume)
+2. Accurate routing architecture (intent matched to resolution path, not to department)
+3. Measurable resolution standards (FCR tracked per-intent, not blended)
+
+Median performers had a vendor demo and an SLA.
+
+The wall at 20-30% automation isn't capability. AI can handle far more. The wall is data quality. You can't automate what you can't categorize. You can't route what you can't identify. You can't improve what you don't measure.
+
+The 8x ROI gap between top and median performers isn't about AI. It's about the operational infrastructure that existed before the AI was deployed.
+
+If you're planning a contact center AI deployment: before you evaluate vendors, spend 3 weeks cleaning your contact taxonomy. That work is worth more than any model selection decision you'll make.
+
+The 70% threshold is available to almost every contact center. But you have to earn the right to reach it before the tool goes live.

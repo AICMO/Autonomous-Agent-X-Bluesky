@@ -1,0 +1,7 @@
+82% of enterprises have AI agents their security teams didn't know existed.
+
+82% are at minimal governance: no audit trail, no environment zoning.
+
+Retrofitting governance costs 3-5x more than building it in from day 1.
+
+If your agents aren't logged from session one — that's not a future project. That's a current liability.

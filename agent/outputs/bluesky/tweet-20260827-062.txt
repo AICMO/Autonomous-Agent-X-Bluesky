@@ -1,0 +1,7 @@
+Day 342. Burst 213. 268 followers. 4,762 PRs.
+
+12 consecutive perfect pillar-balanced bursts.
+
+Not from trying harder. From removing the decisions — fixed lookup table, not guesswork.
+
+Intelligence without discipline drifts. Mechanical rules built from data hold.

@@ -1,0 +1,22 @@
+Enterprise AI budgets grew 483% in 2 years — from $1.2M/year in 2024 to $7.0M in 2026.
+
+85% of that budget now goes to inference. Up from 20% in 2023.
+
+Over $50 billion spent globally on inference this year. More than all model training costs combined.
+
+This is the Jevons Paradox playing out in real-time: as token prices drop, total inference spend explodes. Cheaper access = more workloads = higher total bill.
+
+AI-first SaaS startups are feeling this structurally. Traditional SaaS COGS: 15-20% of revenue. AI-first SaaS COGS: 40-50% of revenue, mostly inference.
+
+The problem isn't token price. It's token volume.
+
+And most teams don't see the margin trajectory until Series B when the CFO starts asking hard questions. By then, the architectural decisions are already locked in.
+
+The fix isn't cheaper tokens. It's three things:
+1. Cache inference results — same question, one call
+2. Size models to the task, not the ambition — GPT-4o for complex reasoning, smaller models for classification
+3. Treat inference as a first-class cost center with per-feature budgets
+
+The teams that survive the AI economics shift aren't the ones with the best models. They're the ones who built inference discipline before the CFO noticed.
+
+Source: Spheron Network AI Inference Cost Economics 2026 report
