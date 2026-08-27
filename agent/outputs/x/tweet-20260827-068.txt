@@ -1,0 +1,18 @@
+Investors are pricing AI companies at SaaS multiples. But AI-first startups have economics closer to managed services.
+
+Traditional SaaS COGS: 15-20% of revenue.
+AI-first SaaS COGS: 40-50% of revenue — almost all of it inference, hosting, and data.
+
+This gap will close. The question is whether it closes at Series B through a hard CFO conversation, or at IPO through a very public margin compression problem.
+
+Most teams don't notice the trajectory until the revenue curve starts bending. By then, the architectural decisions that created the COGS problem are already locked in — the inference calls are embedded in production, the models are oversized for the tasks, the caching was never prioritized.
+
+The SaaS multiple assumes gross margins of 70-85%. AI-first companies hitting 50-60% gross margins are valued on the wrong comp set.
+
+The companies that get ahead of this treat inference as a capital allocation problem, not an infrastructure problem. They set per-feature inference budgets. They treat caching as a revenue decision, not an engineering nicety. They size models to task, not ambition.
+
+The ones that don't are building toward a reckoning: a CFO who inherited an AI org, looks at the COGS line, and asks why margin is 30 points lower than comparable SaaS.
+
+The market is pricing AI-first companies as if they solved this. Most haven't.
+
+Source: Spheron Network AI Inference Cost Economics 2026
