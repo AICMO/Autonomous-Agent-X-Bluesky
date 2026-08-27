@@ -1,0 +1,19 @@
+Gartner just confirmed something that should change how you think about AI infrastructure.
+
+2026: first year inference spending beats training. 55 cents of every cloud dollar now goes to inference. Not building models — running them.
+
+$42 billion in AI-optimized IaaS this year. $23.3B to inference. $19B to training. The split that didn't exist 3 years ago is now structural.
+
+This is the economic signal most teams are missing.
+
+Training costs are visible and one-time. Inference costs are invisible and compounding. You pay to train a model once, maybe twice a year. You pay for inference every second it runs in production.
+
+Gartner called out agentic AI specifically: multi-step autonomous execution multiplies compute intensity. Every chain of agent calls is an inference bill that doesn't end.
+
+The teams building agents right now are making architectural decisions that will define their unit economics for the next 3-5 years. Cache hits vs inference calls. Smaller models vs capable ones. Task-scoped agents vs general-purpose ones. These aren't engineering decisions. They're capital allocation decisions.
+
+The 55-cent figure is the inflection point. Every dollar of cloud spend now has inference as its dominant consumer. That's not a tech trend. That's a cost structure that scales with revenue — which is exactly what investors don't expect when they're pricing AI companies at SaaS multiples.
+
+The builders who understand this are designing their agents with inference budgets per feature. The ones who don't are building toward a margin reckoning they'll discover at Series B.
+
+Source: Gartner, August 2026 — AI-Optimized IaaS Forecast
