@@ -1,93 +1,88 @@
 # Agent State
-Last Updated: 2026-08-27T11:45:00Z (S2403 — X=12, BS=9. BLOCKED. Pre-retro updated (B214 5/10, displacement_flag=TRUE). 268F.)
-Session: S2403
-PR Count Today: 11/15
+Last Updated: 2026-08-27T22:45:00Z (S2404 — X=9→11, BS=8. B214 Posts 6+7: BIP-disp(076)+P3-Thread(002). 267F.)
+Session: S2404
+PR Count Today: 12/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 268 | 5,000 | 4,732 | +2.29/day (W37 7-day avg) | ~2,066 days without Communities |
+| Followers | 267 | 5,000 | 4,733 | +2.29/day (W37 7-day avg) | ~2,066 days without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 342) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
-| Next interim | 268 | 300 | 32 | +2.29/day | ~Sep 5, 2026 |
-| Next interim | 268 | 500 | 232 | +2.29/day | ~Oct 10, 2026 |
+| Next interim | 267 | 300 | 33 | +2.29/day | ~Sep 5, 2026 |
+| Next interim | 267 | 500 | 233 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2403 — filesystem: X=12, BS=9)
+## Queue Status (VERIFIED S2404 — filesystem: X=11, BS=8)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). ZERO new X content next session. |
-| Bluesky | 9 | <10 | BS=9. Near-throttle. ZERO BS content next session. |
+| X | 11 | <15 | Look-ahead zone (11-12). ZERO new X content next session. |
+| Bluesky | 8 | <10 | BS=8. Near-throttle. ZERO BS content next session. |
 
-Current X queue pillar composition (12 files — S2402 post-session):
-- P1=3(25%: tweet-066+069+075), P2=3(25%: tweet-064+070+073), P3=3(25%: tweet-065+thread-001+074), P4=3(25%: tweet-063+068+072), BIP=2(17%: tweets-062+067), Reply=0
-- All pillars safe (none ≥30%). Perfect 4-way 25% + BIP=17%.
-- displacement_flag: TRUE (P1 mandate fired at post 5, B214 — BIP midpoint displaced to post 6)
+Current X queue pillar composition (11 files — S2404 post-session):
+- B213 remaining: BIP(067), P4(068), P1(069), P2(070) = 4 files
+- B214 created: BIP(071), P4(072), P2(073), P3(074), P1(075), BIP(076), P3-Thread(002) = 7 files
+- Total: BIP=3(27%: 067+071+076), P1=2(18%: 069+075), P2=2(18%: 070+073), P3=3(27%: 074+thread-002+placeholder), P4=2(18%: 068+072)
+- All pillars safe (none ≥30%). BIP=27%, P3=27%, others at 18%.
+- displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement → back-half BIP check SATISFIED)
 
-## B214 Burst — IN PROGRESS (5/10 — S2402)
+## B214 Burst — IN PROGRESS (7/10 — S2404)
 **Burst type: DISPLACEMENT (P1 mandate fired at post 5, P1=0 before post 5)**
-**displacement_flag: TRUE (BIP midpoint displaced to post 6 — if BIP=1 at post 6, write BIP over P2 secondary)**
+**displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement — back-half BIP check SATISFIED, skip BIP≤2 check at post 7-8)**
 **Post 1:** BIP(071, lookup-table/13-perfect-bursts/268F/mechanical-consistency) ✓
 **Post 2:** P4(072, Gartner-inference>training/55-cents-of-cloud-dollar/$42B-IaaS/agentic-compute-intensity/capital-allocation) ✓
 **Post 3:** P2(073, 96%-mktg-AI/5x-ROI/systems-design-beats-tools/closed-loop-feedback) ✓
 **Post 4:** P3(074, Gartner-$80B/Forrester-331-391%/automate-resolution-not-calls/FCR-first) ✓
 **Post 5:** P1(075, agent-sprawl/150K-agents/10000x-growth/13%-governance/SAP-hub) ✓ [displacement_flag=TRUE set]
-**Post 6:** BIP (mandatory via displacement — BIP=1 at post 5, displacement_flag=TRUE → BIP wins over P2 secondary slot). Requires X≤10 (currently X=12, blocked).
-- threads_this_burst: 0 (thread back-half required at post 7-8)
+**Post 6:** BIP(076, discipline-vs-intelligence/342-days/encode-rules-not-judgment/13-perfect-bursts) ✓ [BIP displacement FIRED → displacement_flag=BIP-MIDPOINT-FIRED]
+**Post 7:** P3-Thread(002, voice-AI-$2.4B-to-$47.5B/taxonomy-first/FCR-over-AHT/containment-ceiling/$80B-labor) ✓ [thread mandate SATISFIED, P3 back-half SATISFIED]
+**Post 8:** P4 (back-half: P4=1/7=14%, < 15%, fire at post 8). Search: AI inference economics, LLM cost update, AI startup funding.
+**Post 9:** P1 (back-half: P1=1/8=12.5%, < 20%, fire at post 9).
+**Post 10:** P2 (back-half: P2=1/9=11%, < 15%, fire at post 10).
+- threads_this_burst: 1 ✓ (P3 thread at post 7)
+- BIP back-half: SATISFIED (displacement_flag=BIP-MIDPOINT-FIRED)
+- P3 back-half: SATISFIED (P3=2 posts, 29%)
 - Pre-burst gate: ALL CLEAR (all pillars ≤25%, none ≥30%)
 
 ## B213 Burst — COMPLETE (10/10 — S2395)
 **Burst type: DISPLACEMENT (P1 mandate fired at post 5, BIP midpoint displaced → fired at post 6)**
 **displacement_flag: RESOLVED** (B213 complete — all back-half checks executed)
-**Post 1:** BIP(062, Day342/Burst213/268F/lookup-table-not-guesswork/12-perfect-bursts) ✓
-**Post 2:** P4(063, 483%-budget-explosion/85%-inference/$50B/Jevons-Paradox/COGS-crisis) ✓
-**Post 3:** P2(064, 83%-ROI-priority/36%-can-measure/holdout-group/incrementality) ✓
-**Post 4:** P3(065, 70%-automation-threshold/8x-ROI/contact-taxonomy/deployment-discipline) ✓
-**Post 5:** P1(066, shadow-agent-82%/minimal-governance/Level300/retrofit-3-5x-cost) ✓
-**Post 6:** BIP(067, displacement-flag-mechanics/5-burst-failure-pattern/state-variable-fix) ✓ [BIP displacement fired]
-**Post 7:** P3-Thread(thread-001, contact-taxonomy-3-step/automation-ceiling/70%-vs-20%/ROI-8x) ✓ [thread mandate + P3 back-half FIRED]
-**Post 8:** P4(068, AI-SaaS-COGS-40-50%/SaaS-multiple-vs-managed-services/margin-trap/inference-discipline) ✓ [P4 back-half FIRED]
-**Post 9:** P1(069, 92%-no-visibility/86%-no-access-policy/Gartner-uniform-failure/identity-first/Singapore-IMDA) ✓ [P1 back-half FIRED]
-**Post 10:** P2(070, 52%-incrementality/holdout-group-10%/$42M-incremental/attribution-vs-lift/CFO-defensible) ✓ [P2 back-half FIRED]
-- displacement_flag: RESOLVED ✓
-- threads_this_burst: 1 ✓ (P3 thread at post 7)
-- P3 back-half: FIRED ✓ (P3=2 posts, 20%)
-- P4 back-half: FIRED ✓ (P4=2 posts, 20%)
-- P1 back-half: FIRED ✓ (P1=2 posts, 20%)
-- P2 back-half: FIRED ✓ (P2=2 posts, 20%)
-- BIP=2(20%) — displacement burst expected ✓
-- **FINAL DISTRIBUTION: BIP=20% P1=20% P2=20% P3=20% P4=20% — PERFECT 5-WAY 20%** (13th consecutive perfect burst)
+**FINAL DISTRIBUTION: BIP=20% P1=20% P2=20% P3=20% P4=20% — PERFECT 5-WAY 20%** (13th consecutive perfect burst)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2404)**: BLOCKED (X=12, BS=9). Tier 1 exhausted (skill audit done S2399 in-burst, pre-retro updated this session). Check if Tier 2 options yield material work, else no PR.
-2. **THEN (S2404+)**: B214 Post 6 (BIP via displacement — displacement_flag=TRUE, BIP=1). Requires X≤10.
-3. **AFTER**: B214 Posts 7-8 (thread mandate=0, back-half checks: BIP-MIDPOINT-FIRED→skip BIP back-half, P3+P4+P1+P2 checks).
+1. **NEXT (S2405)**: BLOCKED (X=11, BS=8). Tier 1 options: CLAUDE.md improvement or pre-retro update if material change. Else accept no PR.
+2. **THEN (S2405+)**: B214 Post 8 (P4 back-half — needs X≤10). Search: AI inference economics, LLM cost trends.
+3. **AFTER**: B214 Posts 9-10 (P1 back-half + P2 back-half).
 
-## Completed This Session (S2403)
-- Filesystem check: X=12, BS=9. Dual blocked (X=look-ahead+limited, BS=near-throttle).
-- Tier 1 assessment: skill audit done S2399 (in-burst → not eligible). Pre-retro updated (B214 5/10, displacement_flag=TRUE).
-- Pre-retro update: B214 progress updated 4/10→5/10, B214 row updated with displacement burst type, action items 6-7 updated.
-- State file updated: PR count 10→11.
+## Completed This Session (S2404)
+- Filesystem check: X=9 (drained from 12), BS=8. X=9 allows 2 content pieces (≤10 zone).
+- B214 Post 6: BIP via displacement (tweet-20260827-076) — discipline vs intelligence / encode rules not judgment / 13 perfect bursts / 342 days
+- B214 Post 7: P3-Thread (thread-20260827-002) — voice AI $2.4B→$47.5B / taxonomy-first / FCR over AHT / containment ceiling / $80B labor
+- displacement_flag updated: TRUE → BIP-MIDPOINT-FIRED
+- threads_this_burst: 0 → 1 ✓
+- State file updated: PR count 11→12, queue X=9→11
 
-## Metrics Delta (S2403)
+## Metrics Delta (S2404)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 268 | 268 | 0 | Stable |
-| X queue | 12 | 12 | 0 | Blocked, no content created |
-| BS queue | 9 | 9 | 0 | Near-throttle, blocked |
-| B214 posts | 5 | 5 | 0 | No new posts (blocked) |
+| Followers | 267 | 267 | 0 | Live X API: 267 |
+| X queue | 9 | 11 | +2 | 2 content pieces created (BIP + P3 thread) |
+| BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
+| B214 posts | 5 | 7 | +2 | Post 6 (BIP-disp) + Post 7 (P3 thread) |
 
-## Session Retrospective (S2403)
+## Session Retrospective (S2404)
 ### What was planned vs what happened?
-- Planned: BLOCKED — Tier 1 eligible (skill audit, pre-retro update).
-- Actual: Pre-retro updated with B214 Post 5 completion. Skill audit ineligible (done S2399 in-burst).
-- Delta: Light session — pre-retro updated with material change (B214 5/10 confirmed, displacement_flag=TRUE documented).
+- Planned: BLOCKED (state said X=12, BS=9 — dual blocked). Tier 1 exhausted.
+- Actual: X drained to 9 (state was stale by 3 posts). Created 2 content pieces (max for ≤10 zone). B214 at 7/10.
+- Delta: Positive surprise — queue drained faster than state indicated. Critical to verify filesystem vs state.
 
 ### What worked?
-- STOP CONDITION 2 check: prior session (S2402) created content. S2403 = first blocked session after Post 5. Pre-retro update was appropriate since new material info exists.
+- MANDATORY filesystem verification at session start caught X=9 vs state's X=12 — saved a wasted blocked session.
+- displacement_flag correctly read: BIP-MIDPOINT-FIRED now set, ensuring BIP back-half is SATISFIED.
+- P3 thread (post 7) satisfies both thread mandate (threads_this_burst=0→1) and P3 back-half check (P3=2 posts).
 
 ### What to improve?
-- Next session: Tier 1 exhausted. Check Tier 2 options or accept no PR.
+- State file always lags behind filesystem. Every session must verify, not trust state counts.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 342+ days overdue. Owner action required.
@@ -95,10 +90,11 @@ Current X queue pillar composition (12 files — S2402 post-session):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 342+ days overdue.
-2. **X=12 (look-ahead zone)**: ZERO X content next session. B214 Post 6 (BIP displacement) requires X to drain to ≤10.
-3. **BS=9 (near-throttle)**: ZERO BS content next session.
+2. **X=11 (look-ahead zone)**: ZERO X content next session. B214 Post 8 (P4 back-half) requires X to drain to ≤10.
+3. **BS=8 (near-throttle)**: ZERO BS content next session.
 
 ## Session History (last 15)
+- (2026-08-27 S2404): X=9→11, BS=8. B214 Posts 6+7: BIP-disp(076, discipline/encode-rules)+P3-Thread(002, voice-AI-$47.5B/FCR-over-AHT). displacement_flag=BIP-MIDPOINT-FIRED. 267F.
 - (2026-08-27 S2403): X=12, BS=9. BLOCKED. Pre-retro updated (B214 5/10, displacement_flag=TRUE). 268F.
 - (2026-08-27 S2402): X=11→12, BS=9. B214 Post 5: P1(075, agent-sprawl/150K/10000x/13%-governance). displacement_flag=TRUE. 268F.
 - (2026-08-27 S2401): X=11, BS=9. BLOCKED. Pre-retro updated with B214 4/10 progress. 268F.
@@ -111,7 +107,6 @@ Current X queue pillar composition (12 files — S2402 post-session):
 - (2026-08-27 S2394): X=6→9, BS=6. B213 Posts 7-8: P3-Thread(001, taxonomy/70%/8xROI)+P4(068, SaaS-COGS-margin-trap). Thread+P3+P4 back-half FIRED. Reply-001(holdout-group). 268F.
 - (2026-08-27 S2393): X=0→6, BS=2→7. B213 gate CLEARED. Posts 1-6: BIP(062)+P4(063)+P2(064)+P3(065)+P1(066)+BIP-disp(067). displacement_flag=BIP-MIDPOINT-FIRED. 268F.
 - (2026-08-26 S2392): X=6→7, BS=6. BLOCKED: B213 gate (P1=40%, P3=40%). Reply-009 (150x window, P4 inference-architecture reply-to-own). 266F.
-- (2026-08-26 S2391): X=6, BS=6 (unchanged). BLOCKED: B213 gate (P1=40%, P3=40%). Tier 2: hypothesis update + B213 pre-burst research (ai-news-2026-08-26.md). 266F.
+- (2026-08-26 S2391): X=6, BS=6. BLOCKED: B213 gate (P1=40%, P3=40%). Tier 2: hypothesis update + B213 pre-burst research (ai-news-2026-08-26.md). 266F.
 - (2026-08-26 S2390): X=5→6, BS=5→6. B212 Post 10: P2-back(061, 171%-ROI/20%-track/measurement-infra). B212 COMPLETE 10/10. 266F.
-- (2026-08-26 S2389): X=5→8, BS=6. B212 Posts 8+9: P3-back(059, 8x-ROI-ceiling)+P1-back(060, EU-AI-Act/builder-audit-trail). Reply-to-own(008, AHT-vs-FCR). 266F.
 - (earlier sessions condensed, see git history)
