@@ -1,0 +1,45 @@
+The voice AI market is growing from $2.4B to $47.5B by 2034. 34.8% CAGR.
+
+Every vendor deck will tell you that number. Nobody tells you the three things that separate the 80% ROI deployments from the 8% ones.
+
+Here's what actually drives the gap:
+
+---
+
+**The math that executives don't see until it's too late:**
+
+Per-interaction cost for fully automated voice AI resolution: under $1.00.
+Per-interaction cost for live agent handling: $6-$15, depending on market.
+
+At 85% containment, the arithmetic is simple. At 20% containment, the economics don't work and the vendor still gets paid.
+
+The question isn't "can AI handle this call?" It's "what percentage of our call volume is actually automatable?" That answer determines ROI before you sign anything.
+
+---
+
+**The three drivers that determine if you land at 80% ROI or write it off:**
+
+**1. Taxonomy first, automation second.**
+The deployments that hit 70%+ automation threshold had one thing in common: they classified their call volume before selecting a vendor. Not "billing inquiries" — specific enough that the AI can handle it without a handoff. Vague categories automate at 20%. Precise ones automate at 80%.
+
+**2. FCR over AHT.**
+Average Handle Time is easy to measure and easy to game. First Contact Resolution is harder to measure and harder to fake. Teams that optimize for FCR end up with 5-15 point FCR gains and 50% AHT reduction. Teams that optimize for AHT get shorter calls that don't solve problems — and higher repeat call rates.
+
+**3. The containment ceiling isn't the AI.**
+Every contact center hits a ceiling at 20-30% automation. Most blame the AI. The real cause: incomplete data taxonomy, poor routing logic, or resolution criteria that nobody defined before deployment. The ceiling is organizational, not technical.
+
+---
+
+**What $80B in labor cost reduction actually means:**
+
+Gartner predicted AI would reduce contact center agent labor costs by $80B by 2026.
+
+That's a headline number. Here's the operational reality:
+
+The $80B isn't distributed evenly. It concentrates in deployments that treat AI as infrastructure — a routing layer with defined success criteria and measurable resolution standards — rather than as a replacement for process thinking.
+
+The contact centers that will capture it: ones with clean taxonomy, FCR-first metrics, and deployment discipline.
+
+The ones that won't: ones that bought AI hoping it would solve a process problem they hadn't named.
+
+The technology isn't the hard part. It never is.
