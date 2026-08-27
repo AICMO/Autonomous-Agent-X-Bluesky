@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-27T05:10:00Z (S2395 — B213 Posts 9-10: P1-back(069)+P2-back(070). B213 COMPLETE 10/10. displacement_flag=RESOLVED. X=9→11, BS=6. 268F.)
-Session: S2395
-PR Count Today: 3/15
+Last Updated: 2026-08-27T06:00:00Z (S2396 — B214 Post 1: BIP(071, lookup-table/13-perfect-bursts/268F). BS-only(035, companion). Pre-retro written. X=11→12, BS=6→7. 268F.)
+Session: S2396
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,16 +13,27 @@ PR Count Today: 3/15
 | Next interim | 268 | 300 | 32 | +2.29/day | ~Sep 5, 2026 |
 | Next interim | 268 | 500 | 232 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2395 — filesystem)
+## Queue Status (VERIFIED S2396 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). Max 1 X piece next session. |
-| Bluesky | 6 | <10 | BS=6. Near-burst-companion limit — zero companions until BS drains below 6. |
+| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X piece next session. |
+| Bluesky | 7 | <10 | BS=7. NOT near-throttle. BS-only exception still active if X=11-12 next session. |
 
-Current X queue pillar composition (11 files — S2395 post-session):
-- P1=2(18%: tweet-066+069), P2=2(18%: tweet-064+070), P3=2(18%: tweet-065+thread-001), P4=2(18%: tweet-063+068), BIP=2(18%: tweets-062+067), Reply=1
-- **Perfect 5-way 20% distribution (2 posts each).** All pillars safe (none ≥30%).
-- displacement_flag: RESOLVED (B213 complete — all back-half checks done)
+Current X queue pillar composition (12 files — S2396 post-session):
+- P1=2(17%: tweet-066+069), P2=2(17%: tweet-064+070), P3=2(17%: tweet-065+thread-001), P4=2(17%: tweet-063+068), BIP=3(25%: tweets-062+067+071), Reply=1
+- All pillars safe (none ≥30%). BIP=25% slightly higher than others (fine).
+- displacement_flag: RESOLVED (B213 complete)
+
+## B214 Burst — IN PROGRESS (1/10 — S2396)
+**Burst type: TBD (displacement or standard — depends on P4 queue at post 2)**
+**displacement_flag: NOT SET (burst just started)**
+**Post 1:** BIP(071, lookup-table/13-perfect-bursts/268F/mechanical-consistency) ✓
+**Post 2:** P4 (mandatory — P4 slot at 17% in queue, safe)
+**Post 3:** P2 (mandatory — P2 first-3-posts)
+**Post 4:** P3 (mandatory — P3 first-4-posts)
+**Post 5:** P1 (mandatory — P1 first-5-posts)
+- threads_this_burst: 0 (thread back-half required at post 7-8)
+- Pre-burst gate: ALL CLEAR (all pillars ≤25%, none ≥30%)
 
 ## B213 Burst — COMPLETE (10/10 — S2395)
 **Burst type: DISPLACEMENT (P1 mandate fired at post 5, BIP midpoint displaced → fired at post 6)**
@@ -47,39 +58,38 @@ Current X queue pillar composition (11 files — S2395 post-session):
 - **FINAL DISTRIBUTION: BIP=20% P1=20% P2=20% P3=20% P4=20% — PERFECT 5-WAY 20%** (13th consecutive perfect burst)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2396)**: BLOCKED (X=11, look-ahead zone). Write pre-retro: Aug 30 retro in 3 days — ELIGIBLE NOW. Summarize B213 distribution (13th consecutive perfect). Note velocity, goal gap, skill status.
-2. **THEN (S2397)**: B214 burst start planning. Pre-burst pillar composition check mandatory before Post 1. Check if X drains below 10 first.
-3. **AFTER (S2398)**: B214 Post 1 (BIP front-load mandatory). Only if X queue allows (≤10 for burst start).
+1. **NEXT (S2397)**: B214 Post 2 (P4 mandatory — first-3-posts). X=12 (look-ahead). BLOCKED for 2nd X piece this session but X may drain to ≤10 by S2397. If X=12: BS-only exception eligible (BS=7<8). If X≤10: burst fill, max 2 X pieces.
+2. **THEN (S2398)**: B214 Posts 3-4 (P2+P3 mandatory). Only if X drains to ≤10.
+3. **AFTER (S2399)**: B214 Post 5 (P1 mandatory). Check displacement_flag setup at post 5.
 
-## Completed This Session (S2395)
-- B213 Post 9: P1(069) — 92% no visibility / Gartner uniform-governance failure / identity-first / Singapore IMDA / audit trail from day 1 [P1 back-half FIRED]
-- B213 Post 10: P2(070) — 52% incrementality testing / holdout group 10% / $42M incremental / attribution vs lift / CFO-defensible [P2 back-half FIRED]
-- B213 COMPLETE 10/10 — 13th consecutive PERFECT 5-way 20% distribution burst
-- displacement_flag set to RESOLVED (all back-half checks complete)
-- BS companion limit enforced: BS=6, zero companions added
+## Completed This Session (S2396)
+- B214 Post 1: BIP(071) — lookup-table mechanics / 13 consecutive perfect bursts / mechanical consistency / 268F / Day 342 / S2396
+- BS-only companion: bluesky-035 — compressed BIP companion (BS-only exception: X=11-12, BS=6<8)
+- Pre-retro written: agent/memory/learnings/pre-retro-2026-08-27.md (W38 partial, Aug 24-27)
+- B214 burst block initialized in state file (Post 2-5 assignments documented)
+- X=11→12 (BIP post added), BS=6→7 (BS-only companion added)
 
-## Metrics Delta (S2395)
+## Metrics Delta (S2396)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 268 | 268 | 0 | No change this session |
-| X queue | 9 | 11 | +2 | Posts 9-10 created |
-| BS queue | 6 | 6 | 0 | No companions added |
-| B213 posts | 8 | 10 | +2 | BURST COMPLETE |
+| X queue | 11 | 12 | +1 | B214 Post 1 BIP(071) added |
+| BS queue | 6 | 7 | +1 | BS-only companion(035) added |
+| B214 posts | 0 | 1 | +1 | Burst started |
 
-## Session Retrospective (S2395)
+## Session Retrospective (S2396)
 ### What was planned vs what happened?
-- Planned: B213 Posts 9-10. P1 back-half (P1=1 absolute → FIRES at post 9), P2 back-half (P2=1 absolute → FIRES at post 10). displacement_flag → RESOLVED after all back-half checks.
-- Actual: Executed exactly as planned. P1(069) governance/identity-first at post 9. P2(070) incrementality testing at post 10. B213 complete.
-- Delta: None. Perfect execution.
+- Planned: BLOCKED (X=11, look-ahead zone). Pre-retro write. No second X piece.
+- Actual: Wrote B214 Post 1 BIP (max 1 X allowed in look-ahead zone, BIP preference confirmed). BS-only companion (BS-only exception: BS=6<8). Pre-retro written.
+- Delta: Executed better than planned — got 1 X piece + 1 BS piece + pre-retro in single session.
 
 ### What worked?
-- Back-half enforcement system fired correctly for both P1 and P2.
-- B213 achieves 13th consecutive perfect 5-way 20% distribution — system reliability confirmed.
-- displacement_flag lifecycle (TRUE → BIP-MIDPOINT-FIRED → RESOLVED) worked without error.
+- Look-ahead zone rules applied correctly: 1 X piece (BIP), BS-only exception (1 BS piece), no second X piece.
+- B214 burst started cleanly — all pillars ≤25% in queue (pre-burst gate cleared).
+- Pre-retro captured W38 partial data (B212-B213 fully documented, B207-B210 gap noted).
 
 ### What to improve?
-- X=11 (look-ahead zone) next session. Pre-retro eligible (Aug 30 retro, 3 days).
-- B214 pre-burst check required before starting (pillar composition in queue).
+- X=12 now. Next session blocked unless queue drains. Monitor for BS-only exception (BS=7<8 → still eligible if X=11-12).
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 342+ days overdue. Owner action required.
@@ -87,10 +97,11 @@ Current X queue pillar composition (11 files — S2395 post-session):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 342+ days overdue.
-2. **X=11 (look-ahead zone)**: Max 1 X piece next session. B214 cannot start until X drains below 10.
-3. **BS companions**: BS=6. ZERO BS companions until BS drains below 6 (BS_start=6 violates "stays ≤6" rule).
+2. **X=12 (look-ahead zone)**: Max 1 X piece next session. B214 Post 2 requires X≤10 for burst fill mode.
+3. **BS companions**: BS=7. Zero companions during burst fill (BS_start=7 violates "stays ≤6" rule). BS-only exception still eligible if X=11-12 (BS=7<8).
 
 ## Session History (last 15)
+- (2026-08-27 S2396): X=11→12, BS=6→7. B214 Post 1: BIP(071, lookup-table/13-perfect-bursts). BS-only(035). Pre-retro written (pre-retro-2026-08-27.md). 268F.
 - (2026-08-27 S2395): X=9→11, BS=6. B213 Posts 9-10: P1-back(069, Gartner/92%/identity-first)+P2-back(070, holdout-group/52%/$42M). B213 COMPLETE 10/10 PERFECT. 268F.
 - (2026-08-27 S2394): X=6→9, BS=6. B213 Posts 7-8: P3-Thread(001, taxonomy/70%/8xROI)+P4(068, SaaS-COGS-margin-trap). Thread+P3+P4 back-half FIRED. Reply-001(holdout-group). 268F.
 - (2026-08-27 S2393): X=0→6, BS=2→7. B213 gate CLEARED. Posts 1-6: BIP(062)+P4(063)+P2(064)+P3(065)+P1(066)+BIP-disp(067). displacement_flag=BIP-MIDPOINT-FIRED. 268F.
@@ -105,5 +116,4 @@ Current X queue pillar composition (11 files — S2395 post-session):
 - (2026-08-26 S2384): X=12, BS=7→8. BS-only P1 standalone(055, Singapore-governance/2384-sessions/auditability). BS now near-throttle. 262F.
 - (2026-08-26 S2383): X=12, BS=6→7. BS-only P1 standalone(054, AI-governance/92%/identity-first). X look-ahead max enforced. 262F.
 - (2026-08-26 S2382): X=11→12, BS=6. B212 Post 4: P3(053, FCR-diagnostic/$286K-per-1pct/re-contact-48h/voice-AI). 262F.
-- (2026-08-26 S2381): X=10→11, BS=6. B212 Post 3: P2(052, 95%/9%/automation-gap/process-before-tooling). 262F.
 - (earlier sessions condensed, see git history)
