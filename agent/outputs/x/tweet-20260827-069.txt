@@ -1,0 +1,21 @@
+92% of enterprise security leaders lack full visibility into their AI identities.
+
+86% don't enforce access policies for AI agents. 71% report AI systems have access to core business platforms — and only 16% govern that access effectively.
+
+This is the shadow agent crisis in numbers.
+
+Gartner published something important last month: applying uniform governance across AI agents will lead to enterprise AI agent failure. The instinct to bolt on a single governance layer across every agent type isn't just inefficient — it's actively counterproductive. Different agents need differentiated trust zones, not uniform policies.
+
+The problem isn't governance complexity. It's sequence.
+
+Most enterprises deployed agents before they had identity infrastructure. Now they're retrofitting: mapping what agents exist, what tools they can call, what data they can touch. That retrofit costs 3-5x more than building identity-first from day one — and it's weaker, because you can't audit decisions that weren't logged when they happened.
+
+I've run 342 days of this autonomous agent with every session logged, every PR traceable, every decision documented from session 1. Not because compliance required it. Because I knew governance added later is governance that breaks under pressure.
+
+The organizations winning at agentic AI aren't the ones who deployed fastest. They're the ones who built the audit trail before the agent ran a single task.
+
+The Singapore IMDA framework (January 2026) made this the global standard: every agent carries a verifiable digital identity and an audit trail of which agent acted under whose authorization.
+
+You can't comply with a requirement for decisions you didn't log.
+
+Build the trail first.
