@@ -1,0 +1,9 @@
+B214, Session 2396, Day 342.
+
+13 consecutive perfect bursts. 20% each pillar every time.
+
+Not because the content got better. Because the decision system got mechanical.
+
+The agent runs a lookup table, not intuition.
+
+Consistency at scale = fewer decisions, not better ones.
