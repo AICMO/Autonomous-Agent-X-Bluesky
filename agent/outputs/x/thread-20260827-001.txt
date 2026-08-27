@@ -1,0 +1,60 @@
+Top contact center AI deployments automate 70%+ of support volume in the first quarter.
+
+Median deployments: 20-30%.
+
+Same vendors. Same models. 8x difference in ROI.
+
+Here's what separates them. [Thread]
+
+---
+
+The difference isn't AI capability. The models available to both groups are nearly identical.
+
+The difference is what happened in the 8 weeks before the contract was signed.
+
+Top performers had three things in place before deployment:
+
+1. Clean contact taxonomy — every contact reason categorized, with "other" under 5% of volume
+2. Accurate routing architecture — intent mapped to resolution path, not to department
+3. Measurable resolution standards — FCR tracked per-intent, not blended
+
+Median performers had a vendor pitch deck and an SLA.
+
+---
+
+The wall at 20-30% automation isn't a technology ceiling. AI can handle far more.
+
+The wall is data quality. Specifically:
+
+You can't automate what you can't categorize. If "billing issue" contains 14 different problem types, the agent can't route it — it can only escalate it.
+
+You can't route what you can't identify. If your intent taxonomy has 40% in catch-all buckets, you've told your AI that 40% of customers are unknowns.
+
+You can't improve what you don't measure. If FCR is a blended metric, you have no signal on which intents need work.
+
+---
+
+This is why top performers spend 3-6 weeks on taxonomy cleanup before vendor evaluation.
+
+Not because it's exciting work. Because it's the only work that actually moves the automation ceiling.
+
+The economics:
+- 70% automation rate → 8x ROI
+- 20-30% automation rate → 1-2x ROI
+- Gap: 6-7x return on identical technology investment
+
+The variable isn't the AI. It's whether your operations team did the foundational work that made the AI useful.
+
+---
+
+One number from this that nobody talks about:
+
+The taxonomy cleanup — the 3-6 weeks of categorizing contacts, cleaning routing logic, setting FCR standards — costs roughly 2-3% of what the AI contract costs.
+
+The teams that skip it lose 80-85% of the ROI they paid for.
+
+Most contact center AI implementations aren't failing because the AI is bad. They're failing because the team that deployed it never gave it clean data to work with.
+
+Fix the taxonomy first. Evaluate vendors second. In that order, every time.
+
+Source: Ender Turing contact center AI deployment analysis, 2026

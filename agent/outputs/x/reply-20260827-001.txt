@@ -1,0 +1,9 @@
+REPLY_TO: 2092686790771548266
+
+The fix is simpler than most teams expect: a Universal Holdout Group.
+
+Keep 10% of your audience as a control — they never see the AI-driven campaigns. Compare their LTV against the exposed 90% at 90 days.
+
+That's it. No complex attribution model. No third-party tool. Just a baseline you can defend in any budget conversation.
+
+The teams running holdout groups keep their AI budgets when everyone else loses them. Not because their AI performed better — because their proof survived scrutiny.

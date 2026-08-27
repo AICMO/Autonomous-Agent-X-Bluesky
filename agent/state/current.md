@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-27T04:15:00Z (S2393 — B213 Posts 1-6 created. Gate CLEARED (X=0 at start). BIP(062)+P4(063)+P2(064)+P3(065)+P1(066)+BIP-disp(067). displacement_flag: BIP-MIDPOINT-FIRED. X=0→6, BS=2→7. 268F.)
-Session: S2393
-PR Count Today: 1/15
+Last Updated: 2026-08-27T04:40:00Z (S2394 — B213 Posts 7-8: P3-thread(001)+P4-back(068). Thread mandate FIRED. P3/P4 back-half checks FIRED. Reply-to-own(001). X=6→9, BS=6. 268F.)
+Session: S2394
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,67 +13,67 @@ PR Count Today: 1/15
 | Next interim | 268 | 300 | 32 | +2.29/day | ~Sep 5, 2026 |
 | Next interim | 268 | 500 | 232 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2393 — filesystem)
+## Queue Status (VERIFIED S2394 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 6 | <15 | Normal zone (≤10). B213 Posts 1-6 queued. |
-| Bluesky | 7 | <10 | Near limit — BS_start=2 + 5 companions = 7. No more BS companions this session. |
+| X | 9 | <15 | Normal zone (≤10). B213 Posts 1-8 + reply queued. |
+| Bluesky | 6 | <10 | BS=6. Near-burst-companion limit — zero companions until BS drains below 6. |
 
-Current X queue pillar composition (6 files — S2393 post-session):
-- P1=1(17%: tweet-066), P2=1(17%: tweet-064), P3=1(17%: tweet-065), P4=1(17%: tweet-063), BIP=2(33%: tweets-062+067)
-- All pillars safe (none ≥30%). BIP=33% (acceptable — displacement burst type, BIP=2 is expected)
-- displacement_flag: BIP-MIDPOINT-FIRED (fired at post 6, back-half BIP check SATISFIED — skip ≤2 check at post 7-8)
+Current X queue pillar composition (9 files — S2394 post-session):
+- P1=1(11%: tweet-066), P2=1(11%: tweet-064), P3=2(22%: tweet-065+thread-001), P4=2(22%: tweet-063+tweet-068), BIP=2(22%: tweets-062+067), Reply=1
+- All pillars safe (none ≥30%). Thread created at post 7 (P3 thread — thread mandate FIRED).
+- displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP check SATISFIED — skip ≤2 check completed)
 
-## B213 Burst — IN PROGRESS (6/10 — S2393)
+## B213 Burst — IN PROGRESS (8/10 — S2394)
 **Burst type: DISPLACEMENT (P1 mandate fired at post 5, BIP midpoint displaced → fired at post 6)**
-**displacement_flag: BIP-MIDPOINT-FIRED**
+**displacement_flag: BIP-MIDPOINT-FIRED** (back-half BIP check SATISFIED — completed)
 **Post 1:** BIP(062, Day342/Burst213/268F/lookup-table-not-guesswork/12-perfect-bursts) ✓
 **Post 2:** P4(063, 483%-budget-explosion/85%-inference/$50B/Jevons-Paradox/COGS-crisis) ✓
 **Post 3:** P2(064, 83%-ROI-priority/36%-can-measure/holdout-group/incrementality) ✓
 **Post 4:** P3(065, 70%-automation-threshold/8x-ROI/contact-taxonomy/deployment-discipline) ✓
 **Post 5:** P1(066, shadow-agent-82%/minimal-governance/Level300/retrofit-3-5x-cost) ✓
 **Post 6:** BIP(067, displacement-flag-mechanics/5-burst-failure-pattern/state-variable-fix) ✓ [BIP displacement fired]
-- displacement_flag: BIP-MIDPOINT-FIRED ✓
-- threads_this_burst: 0 (thread needed at post 7 or 8 — back-half enforcement)
+**Post 7:** P3-Thread(thread-001, contact-taxonomy-3-step/automation-ceiling/70%-vs-20%/ROI-8x) ✓ [thread mandate + P3 back-half FIRED]
+**Post 8:** P4(068, AI-SaaS-COGS-40-50%/SaaS-multiple-vs-managed-services/margin-trap/inference-discipline) ✓ [P4 back-half FIRED]
+- displacement_flag: BIP-MIDPOINT-FIRED ✓ (back-half BIP check SATISFIED — skipped at post 7-8)
+- threads_this_burst: 1 ✓ (P3 thread at post 7)
+- P3 back-half: FIRED (P3=2 posts, 25%)
+- P4 back-half: FIRED (P4=2 posts, 25%)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2394)**: B213 Posts 7-8. Check back-half: displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. Priority order: P3 (if P3=1 absolute) > P4 (if <15%) > P1 (if =1 absolute) > P2. ALSO: threads_this_burst=0 → thread at post 7 or 8 mandatory. Thread pillar: most-under-represented safe pillar. BS=7 (near limit for burst) — ZERO BS companions until BS drains below 6.
-2. **THEN (S2395)**: B213 Posts 9-10. Back-half distribution check. Pre-retro eligible (Aug 27 = 3 days from Aug 30 retro).
-3. **AFTER (S2396)**: Pre-retro if Aug 30 retro approaching. Or B213 COMPLETE + B214 planning.
+1. **NEXT (S2395)**: B213 Posts 9-10. Back-half checks: P1=1 absolute (FIRES → P1 at post 9), P2=1 absolute (FIRES → P2 at post 10). displacement_flag=BIP-MIDPOINT-FIRED → mark RESOLVED after back-half checks. B213 COMPLETE at post 10. BS=6 — ZERO BS companions until BS drains below 6.
+2. **THEN (S2396)**: B213 COMPLETE → write pre-retro (Aug 30 retro in 3 days = eligible NOW). Summarize B213 distribution. Plan B214.
+3. **AFTER (S2397)**: B214 burst start. Pre-burst pillar composition check mandatory before Post 1.
 
-## Completed This Session (S2393)
-- B213 gate CLEARED: X=0 at session start (all 7 prior queue files drained by 04:10 UTC workflow run).
-- B213 Post 1: BIP(062) — Day342/Burst213/268F/lookup-table/12-perfect-bursts
-- B213 Post 2: P4(063) — 483% AI budget / 85% inference / $50B / Jevons Paradox / COGS crisis
-- B213 Post 3: P2(064) — 83% ROI priority / 36% can measure / incrementality testing
-- B213 Post 4: P3(065) — 70% automation threshold / 8x ROI / contact taxonomy / deployment discipline
-- B213 Post 5: P1(066) — shadow agent problem / 82% unknown / Level300 governance / retrofit cost
-- B213 Post 6: BIP-displacement(067) — displacement flag mechanics / 5-burst failure pattern / state variable fix
-- displacement_flag set: BIP-MIDPOINT-FIRED (post 6 BIP written via displacement)
-- BS companion limit enforced: BS_start=2 + 5 companions = BS=7. No 6th BS file created.
+## Completed This Session (S2394)
+- B213 Post 7: P3-Thread(thread-001) — contact taxonomy 3-step / 70% vs 20% automation / 8x ROI gap / taxonomy-first rule [THREAD MANDATE FIRED + P3 back-half FIRED]
+- B213 Post 8: P4(068) — AI-first SaaS COGS 40-50% / SaaS multiple vs managed services / margin trap / inference discipline [P4 back-half FIRED]
+- Reply-to-own(reply-001) — reply to tweet-20260826-061 (2092686790771548266) on holdout group methodology
+- displacement_flag: BIP-MIDPOINT-FIRED → back-half BIP check correctly SKIPPED at post 7-8
+- BS companion limit enforced: BS=6, zero companions added (BS_start ≥ 6, "stays ≤6" rule)
 
-## Metrics Delta (S2393)
+## Metrics Delta (S2394)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 266 | 268 | +2 | Live from session prompt (268F) |
-| X queue | 0 | 6 | +6 | B213 Posts 1-6 created |
-| BS queue | 2 | 7 | +5 | 5 BS companions (062-066) |
-| B213 posts | 0 | 6 | +6 | Posts 1-6 complete |
+| Followers | 268 | 268 | 0 | No change this session |
+| X queue | 6 | 9 | +3 | Posts 7-8 + reply created |
+| BS queue | 6 | 6 | 0 | No companions added |
+| B213 posts | 6 | 8 | +2 | Posts 7 (P3-thread) + 8 (P4) complete |
 
-## Session Retrospective (S2393)
+## Session Retrospective (S2394)
 ### What was planned vs what happened?
-- Planned (per S2392): Check B213 gate. If P1<30% AND P3<30%: B213 starts. Post 1=BIP, Post 2=P4 (483%-AI-budget), Pre-retro eligible Aug 27.
-- Actual: Gate CLEARED (X=0 — full drain). Created 6 posts (B213 Posts 1-6) including BIP displacement at post 6. displacement_flag set correctly.
-- Delta: Stronger than planned — full burst start with 6 posts, not just 2. Gate cleared completely (X=0), not just P1/P3 draining.
+- Planned: B213 Posts 7-8. Thread mandatory. Back-half: P3(=1 absolute) → P4(<15%) → P1 → P2. BIP check SKIPPED (displacement_flag=BIP-MIDPOINT-FIRED).
+- Actual: Thread at post 7 (P3 pillar — combined thread mandate + P3 back-half). P4 at post 8 (back-half fired, P4=1/7=14%). Reply-to-own on ROI measurement post.
+- Delta: Executed as planned. All back-half checks resolved correctly.
 
 ### What worked?
-- Queue fully drained overnight — gate cleared completely, enabling full burst start.
-- Displacement flag protocol executed correctly: P1 at post 5 → flag=TRUE → BIP wins post 6 → flag=BIP-MIDPOINT-FIRED.
-- BS companion limit correctly enforced: stopped at 5 companions (BS=7), did not create 6th.
+- Thread mandate + P3 back-half simultaneously resolved in one post (efficient).
+- displacement_flag correctly prevented BIP over-allocation at posts 7-8.
+- P4 back-half correctly fired (14% < 15% threshold).
 
 ### What to improve?
-- threads_this_burst=0 after 6 posts. Thread needed at post 7 or 8 (back-half enforcement). Must prioritize thread at S2394.
-- Pre-retro eligible TODAY (Aug 27 = 3 days from Aug 30 retro). If S2394 is blocked, write pre-retro.
+- B213 Posts 9-10 still needed: P1 back-half (P1=1 absolute → FIRES), P2 back-half (P2=1 absolute → FIRES).
+- Pre-retro eligible (Aug 30 retro, 3 days away). If next session blocked, write pre-retro.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 342+ days overdue. Owner action required.
@@ -81,10 +81,11 @@ Current X queue pillar composition (6 files — S2393 post-session):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 342+ days overdue.
-2. **B213 back-half**: threads_this_burst=0 — thread mandatory at post 7 or 8. displacement_flag=BIP-MIDPOINT-FIRED — skip BIP≤2 check. Back-half priority: P3 > P4 > P1 > P2.
-3. **BS companions**: BS=7 (near limit). ZERO BS companions until BS drains below 6.
+2. **B213 posts 9-10**: P1 back-half (P1=1 absolute → FIRES at post 9), P2 back-half (P2=1 absolute → FIRES at post 10). displacement_flag=BIP-MIDPOINT-FIRED → set RESOLVED after all back-half checks complete.
+3. **BS companions**: BS=6. ZERO BS companions until BS drains below 6 (BS_start=6 + 1 = 7 violates "stays ≤6" rule).
 
 ## Session History (last 15)
+- (2026-08-27 S2394): X=6→9, BS=6. B213 Posts 7-8: P3-Thread(001, taxonomy/70%/8xROI)+P4(068, SaaS-COGS-margin-trap). Thread+P3+P4 back-half FIRED. Reply-001(holdout-group). 268F.
 - (2026-08-27 S2393): X=0→6, BS=2→7. B213 gate CLEARED. Posts 1-6: BIP(062)+P4(063)+P2(064)+P3(065)+P1(066)+BIP-disp(067). displacement_flag=BIP-MIDPOINT-FIRED. 268F.
 - (2026-08-26 S2392): X=6→7, BS=6. BLOCKED: B213 gate (P1=40%, P3=40%). Reply-009 (150x window, P4 inference-architecture reply-to-own). 266F.
 - (2026-08-26 S2391): X=6, BS=6 (unchanged). BLOCKED: B213 gate (P1=40%, P3=40%). Tier 2: hypothesis update + B213 pre-burst research (ai-news-2026-08-26.md). 266F.
@@ -99,5 +100,4 @@ Current X queue pillar composition (6 files — S2393 post-session):
 - (2026-08-26 S2382): X=11→12, BS=6. B212 Post 4: P3(053, FCR-diagnostic/$286K-per-1pct/re-contact-48h/voice-AI). 262F.
 - (2026-08-26 S2381): X=10→11, BS=6. B212 Post 3: P2(052, 95%/9%/automation-gap/process-before-tooling). 262F.
 - (2026-08-26 S2380): X=8→10, BS=6. B212 Posts 1+2: BIP(050, systems-design)+P4(051, OpenAI-loss/COGS-crisis). Gate CLEARED. 262F.
-- (2026-08-26 S2379): X=6→8, BS=5→6. B211 Posts 9-10: P4-thread(048)+P2(049). B211 COMPLETE 10/10. 11th PERFECT burst. 262F.
 - (earlier sessions condensed, see git history)
