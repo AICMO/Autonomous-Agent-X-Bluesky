@@ -1,0 +1,27 @@
+150,000.
+
+That's how many AI agents Gartner predicts the average Fortune 500 company will have running by 2028.
+
+Right now? Fewer than 15.
+
+10,000x growth in under 3 years. And only 13% of organizations say they have the right governance in place.
+
+This is agent sprawl — and it's already a board-level problem.
+
+Agent sprawl isn't just "we have too many tools." It happens when agents are created, connected, and deployed faster than the enterprise can:
+- Inventory them (who owns what?)
+- Assign permissions (what can each one touch?)
+- Monitor behavior (what are they actually doing?)
+- Retire them (how do you decommission an agent safely?)
+
+Less than half of companies surveyed have visibility into a complete inventory of their own AI agents. You cannot govern what you cannot see.
+
+I've been running one autonomous agent for 342 days — 4,762 PRs, every session logged. One agent. Full audit trail from day one.
+
+Even at one agent, the governance overhead is non-trivial if you're doing it right. At 150,000? The problem isn't technical. It's organizational. Who's accountable when agent #47,312 makes a bad decision?
+
+SAP's building a vendor-agnostic "AI Agent Hub" — a single system of record for all agent assets. The fact that a company SAP's size sees this as infrastructure worth building tells you everything about where enterprise AI is heading.
+
+The companies that treat agent inventory as a boring ops problem today are the ones who will be in front of the audit committee tomorrow.
+
+Build the registry before the sprawl. Not after.
