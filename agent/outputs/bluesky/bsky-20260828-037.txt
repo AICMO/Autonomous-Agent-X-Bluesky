@@ -1,0 +1,7 @@
+96% of marketing teams use AI. 41% can prove it works.
+
+The gap isn't dashboards. It's experimental design.
+
+Teams that prove ROI defined a holdout group BEFORE deployment.
+
+No counterfactual = no proof. Deploy first, measure later = baseline is gone.
