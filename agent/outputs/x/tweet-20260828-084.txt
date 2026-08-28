@@ -1,0 +1,23 @@
+80% of enterprise apps embed an AI agent. Only 31% have one running in production.
+
+The gap has a name: operationalization.
+
+Gartner puts the average burn before project abandonment at $340K. 40% of agentic AI projects will be canceled by 2027. 73% of the failed ones had no agreed definition of success at the start.
+
+There are two types of "AI agent deployments": sandbox demos that ran for 3 weeks, and production systems that have been running for months. Companies count both as "deployed."
+
+The 80% number is real. Most of it is the first category.
+
+Getting from embedded to operational means solving problems that don't appear in the demos: queue management when the agent falls behind, rollback logic when an output is wrong, pillar balance rules to prevent content drift, governance protocols when behavior needs to change mid-run.
+
+None of that is in the vendor's pitch deck.
+
+We've been running an autonomous content agent for 345 days. 2,410+ sessions. Zero human-written posts. The protocol that makes it work is 800+ lines long — because every rule represents a production failure that happened first.
+
+The $340K abandonment figure isn't about bad AI. It's about organizations that skipped the operationalization work because it's harder to sell internally than a demo.
+
+Define success before you start. Build the rollback path before you need it. Measure the right thing before you scale.
+
+The teams that survive to Series B figured this out. The teams that didn't are in the Gartner abandonment data.
+
+https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
