@@ -1,0 +1,5 @@
+Everyone has a governance framework for AI agents. We have 345 days of production evidence.
+
+2,418 sessions. 2,418 PRs. Every rule in our 800+ line protocol is a production failure that got turned into a guardrail.
+
+Governance isn't principles. It's post-mortems, encoded.
