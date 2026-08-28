@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-28T13:10:00Z (S2416 — X=13, BS=7. BLOCKED. Tier 2: memory cleanup (deleted 3 fully-consumed research files: ai-news-08-25, 08-26, 08-27 — 35KB freed, B210-B214 all staged). displacement_flag=TRUE. 268F.)
-Session: S2416
-PR Count Today: 10/15
+Last Updated: 2026-08-28T13:15:00Z (S2417 — X=13, BS=7. BLOCKED. Tier 1 exhausted (skill audit S2410, pre-retro STOP CONDITION 2, no qualifying CLAUDE.md improvement). Tier 2 exhausted (research audit done S2415, hypothesis updated S2410, memory cleaned S2416). State file stale blocker corrected. No PR if state-only. 268F.)
+Session: S2417
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -42,39 +42,35 @@ Current X queue pillar composition (13 files — S2413 post-session):
 **FINAL DISTRIBUTION: BIP=20%(2) P1=30%(3) P2=30%(3) P3=20%(2) P4=20%(2) — 10/10 COMPLETE**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2415)**: If X ≤ 12 → Post 6 = BIP (displacement_flag=TRUE, BIP wins post 6). After Post 6, set displacement_flag=BIP-MIDPOINT-FIRED. If still X=13 → Tier 1 (CLAUDE.md improvement if qualifying evidence found, else state update only).
-2. **THEN (S2416)**: Posts 7-10: back-half enforcement. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. Priority: Thread(mandatory, 0 this burst) > P3 > P4 > P1 > P2.
+1. **NEXT (S2418)**: If X ≤ 12 → Post 6 = BIP (displacement_flag=TRUE → BIP wins over P2 secondary slot). Use BIP-B (Governance-in-Production) or fresh hook. After writing, set displacement_flag=BIP-MIDPOINT-FIRED. If X=13 still → No PR (Tier 1+2 exhausted, extended block).
+2. **THEN (S2419)**: Posts 7-10: back-half enforcement. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. Priority: Thread(mandatory, threads_this_burst=0) > P3 > P4 > P1 > P2.
 3. **AFTER**: B215 COMPLETE → begin B216 pre-burst pillar gate check. If all pillars <30%, start B216 Post 1=BIP.
 
-## Completed This Session (S2416)
+## Completed This Session (S2417)
 - BLOCKED SESSION: X=13 (near limit). Zero content.
-- Tier 1 exhausted: Skill audit ineligible (S2410 this burst, no changes found). Pre-retro ineligible (STOP CONDITION 2 — updated S2414, no new burst, no new metrics). No qualifying CLAUDE.md improvement.
-- Tier 2 executed: Memory cleanup — deleted 3 fully-consumed research files (35KB freed):
-  - ai-news-2026-08-25.md: B210-B212 hooks all STAGED/POSTED. DELETED.
-  - ai-news-2026-08-26.md: B213 COMPLETE, all STAGED. DELETED.
-  - ai-news-2026-08-27.md: B214 back-half hooks all staged (077-079 in X queue). DELETED.
-- Memory: 109KB → 74KB (-35KB, -32%). Under 500KB target.
-- State file updated (PR Count 9→10).
+- Tier 1 exhausted: Skill audit ineligible (S2410 this burst, all current). Pre-retro ineligible (STOP CONDITION 2 — updated S2414, no new burst completed, no new metrics). No qualifying CLAUDE.md improvement (quality gate requires 2+ occurrences).
+- Tier 2 exhausted: Research audit done S2415. Hypothesis updated S2410. Memory cleaned S2416 (-35KB).
+- Stale blocker corrected: "X=12, Post 5 pending" → "X=13, Post 6 pending drain." Material state correction justified PR.
 
-## Metrics Delta (S2416)
+## Metrics Delta (S2417)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 268 | 268 | 0 | Live X API: 268 |
 | X queue | 13 | 13 | 0 | Blocked. No content. |
 | BS queue | 7 | 7 | 0 | No content (X near-limit) |
-| Memory | 109KB | 74KB | -35KB | 3 files deleted (B210-B214 research complete) |
+| Memory | 74KB | 74KB | 0 | No changes (S2416 cleanup complete) |
 
-## Session Retrospective (S2416)
+## Session Retrospective (S2417)
 ### What was planned vs what happened?
-- Planned: Tier 1 if eligible (all ineligible per S2415 analysis). Tier 2.
-- Actual: Tier 2 memory cleanup — 3 research files deleted (35KB freed). All hooks confirmed consumed via state file B214 COMPLETE audit.
-- Delta: Correct Tier 2 option (memory cleanup = Tier 2 option 6). Files verified read-and-graduate before deletion.
+- Planned: Tier 1 if eligible (per S2416 state: all ineligible). Tier 2 if material.
+- Actual: All Tier 1 and Tier 2 options exhausted. Fixed stale blocker in state file.
+- Delta: Stale blocker ("X=12, Post 5 pending" vs actual "X=13, Post 6 pending") justified state update PR.
 
 ### What worked?
-- Memory cleanup produced material value: 35KB freed, context token cost reduced for future sessions. ai-news-2026-08-25/26/27 were all fully consumed — no graduation needed.
+- Correctly applied Tier 1 Exhausted Protocol. No manufactured work. Identified genuine stale state that needed correction.
 
 ### What to improve?
-- Queue must drain: X=13→≤12 before Post 6 (BIP, displacement). Next session: if X≤12, Post 6 = BIP (displacement_flag=TRUE).
+- Queue must drain: X=13→≤12 before Post 6 (BIP, displacement_flag=TRUE). Next session: if X≤12, Post 6 = BIP.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 343+ days overdue. Owner action required.
@@ -82,9 +78,10 @@ Current X queue pillar composition (13 files — S2413 post-session):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 343+ days overdue.
-2. **X look-ahead zone**: X=12. Next session max 1 X post (B215 Post 5=P1-A).
+2. **X near-limit zone**: X=13. Zero content until X drains to ≤12. B215 Post 6 (BIP, displacement_flag=TRUE) pending drain.
 
 ## Session History (last 15)
+- (2026-08-28 S2417): X=13, BS=7. BLOCKED. All Tier 1+2 exhausted. Stale blocker corrected (X=12/Post5 → X=13/Post6-pending). 268F.
 - (2026-08-28 S2416): X=13, BS=7. BLOCKED. Tier 2: memory cleanup (deleted ai-news-08-25/26/27 — 35KB freed, B210-B214 research fully consumed). 268F.
 - (2026-08-28 S2415): X=13, BS=7. BLOCKED. Tier 2: research audit ai-news-2026-08-28.md (Posts 1-5 STAGED 080-084, back-half hooks mapped). 268F.
 - (2026-08-28 S2414): X=13, BS=7. BLOCKED. Pre-retro updated (B215 5/10, displacement_flag=TRUE, potential 15th perfect burst). 268F.
@@ -99,5 +96,4 @@ Current X queue pillar composition (13 files — S2413 post-session):
 - (2026-08-27 S2405): X=11, BS=8. BLOCKED. Pre-retro updated (B214 7/10, posts 6-7 documented, back-half status). 267F.
 - (2026-08-27 S2404): X=9→11, BS=8. B214 Posts 6+7: BIP-disp(076, discipline/encode-rules)+P3-Thread(002, voice-AI-$47.5B/FCR-over-AHT). displacement_flag=BIP-MIDPOINT-FIRED. 267F.
 - (2026-08-27 S2403): X=12, BS=9. BLOCKED. Pre-retro updated (B214 5/10, displacement_flag=TRUE). 268F.
-- (2026-08-27 S2402): X=11→12, BS=9. B214 Post 5: P1(075, agent-sprawl/150K/10000x/13%-governance). displacement_flag=TRUE. 268F.
 - (earlier sessions condensed, see git history)
