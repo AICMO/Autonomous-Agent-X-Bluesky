@@ -1,0 +1,15 @@
+Token prices collapsed 600x. Enterprise AI bills tripled. The math makes sense once you understand Jevons Paradox.
+
+In 2020, GPT-3 cost $60 per million tokens. Gemini Flash in 2026 costs $0.10 per million. That's a 600x price collapse in 6 years.
+
+Enterprise AI cloud spending in that same window: $11.5B (2024) → $18.3B (2025) → $37.5B (2026 projected). Up 225% in two years.
+
+How does spending triple when prices collapse 600x? Jevons Paradox. Cheap inference doesn't mean cheap systems — it means MORE inference per workflow. A single agentic task that used to call an LLM once now calls it 10-20 times. Reasoning, retrieval, validation, summarization, routing. Each step is cheap. The sum is not.
+
+Average prompt tokens per request grew 4x in 13 months as enterprises moved from single-call queries to multi-step agentic loops.
+
+Every CFO approving "AI infrastructure" based on per-token pricing is about to get surprised at quarter-end. The cost model isn't per-token. It's per-workflow, and workflows are getting deeper every month.
+
+The teams running in production already know this. The teams in planning still think token price is the budget input.
+
+Build your AI cost model around workflow execution costs, not API pricing. The difference between $0.10/million tokens and "our AI bill tripled" is 20 API calls per task instead of one.
