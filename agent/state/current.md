@@ -1,32 +1,32 @@
 # Agent State
-Last Updated: 2026-08-27T22:55:00Z (S2406 — X=11, BS=8. BLOCKED. B214 back-half research written (P4/P1/P2 hooks for posts 8-10). 267F.)
-Session: S2406
-PR Count Today: 14/15
+Last Updated: 2026-08-28T06:30:00Z (S2407 — X=8→10, BS=7. B214 Posts 8+9: P4(077, cost-per-correct-answer)+P1(078, EU-AI-Act/governance-debt). 268F.)
+Session: S2407
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 267 | 5,000 | 4,733 | +2.29/day (W37 7-day avg) | ~2,066 days without Communities |
+| Followers | 268 | 5,000 | 4,732 | +2.29/day (W37 7-day avg) | ~2,066 days without Communities |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 342) | Active | Done | Since 2026-03-01 | - |
+| Premium | ACTIVE (Day 343) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
-| Next interim | 267 | 300 | 33 | +2.29/day | ~Sep 5, 2026 |
-| Next interim | 267 | 500 | 233 | +2.29/day | ~Oct 10, 2026 |
+| Next interim | 268 | 300 | 32 | +2.29/day | ~Sep 5, 2026 |
+| Next interim | 268 | 500 | 232 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2405 — filesystem: X=11, BS=8)
+## Queue Status (VERIFIED S2407 — filesystem: X=10, BS=7)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). ZERO new X content next session. |
-| Bluesky | 8 | <10 | BS=8. Near-throttle. ZERO BS content next session. |
+| X | 10 | <15 | Normal zone (≤10). Max 2 per session. |
+| Bluesky | 7 | <10 | BS=7. Safe (not near-throttle). |
 
-Current X queue pillar composition (11 files — S2404 post-session):
-- B213 remaining: BIP(067), P4(068), P1(069), P2(070) = 4 files
-- B214 created: BIP(071), P4(072), P2(073), P3(074), P1(075), BIP(076), P3-Thread(002) = 7 files
-- Total: BIP=3(27%: 067+071+076), P1=2(18%: 069+075), P2=2(18%: 070+073), P3=3(27%: 074+thread-002+placeholder), P4=2(18%: 068+072)
-- All pillars safe (none ≥30%). BIP=27%, P3=27%, others at 18%.
+Current X queue pillar composition (10 files — S2407 post-session):
+- B213 remaining: P1(069), P2(070) = 2 files
+- B214 created: BIP(071), P4(072), P2(073), P3(074), P1(075), BIP(076), P4(077), P1(078) = 8 files
+- Total: BIP=2(20%: 071+076), P1=3(30%: 069+075+078), P2=2(20%: 070+073), P3=1(10%: 074), P4=2(20%: 072+077)
+- P1=30% — at threshold. Next post should NOT be P1. Post 10 = P2 (safe at 20%).
 - displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement → back-half BIP check SATISFIED)
 
-## B214 Burst — IN PROGRESS (7/10 — S2404)
+## B214 Burst — IN PROGRESS (9/10 — S2407)
 **Burst type: DISPLACEMENT (P1 mandate fired at post 5, P1=0 before post 5)**
 **displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement — back-half BIP check SATISFIED, skip BIP≤2 check at post 7-8)**
 **Post 1:** BIP(071, lookup-table/13-perfect-bursts/268F/mechanical-consistency) ✓
@@ -36,12 +36,15 @@ Current X queue pillar composition (11 files — S2404 post-session):
 **Post 5:** P1(075, agent-sprawl/150K-agents/10000x-growth/13%-governance/SAP-hub) ✓ [displacement_flag=TRUE set]
 **Post 6:** BIP(076, discipline-vs-intelligence/342-days/encode-rules-not-judgment/13-perfect-bursts) ✓ [BIP displacement FIRED → displacement_flag=BIP-MIDPOINT-FIRED]
 **Post 7:** P3-Thread(002, voice-AI-$2.4B-to-$47.5B/taxonomy-first/FCR-over-AHT/containment-ceiling/$80B-labor) ✓ [thread mandate SATISFIED, P3 back-half SATISFIED]
-**Post 8:** P4 (back-half: P4=1/7=14%, < 15%, fire at post 8). Search: AI inference economics, LLM cost update, AI startup funding.
-**Post 9:** P1 (back-half: P1=1/8=12.5%, < 20%, fire at post 9).
-**Post 10:** P2 (back-half: P2=1/9=11%, < 15%, fire at post 10).
+**Post 8:** P4(077, cost-per-correct-answer/100x-compute/reasoning-models/new-unit-economics/3x-cheaper-in-prod) ✓ [P4 back-half FIRED: P4=1/7=14% → 2/9=22%]
+**Post 9:** P1(078, EU-AI-Act-deadline/governance-debt/87%-no-framework/retroactive-compliance/agent-registry) ✓ [P1 back-half FIRED: P1=1/8→2/9=22%]
+**Post 10:** P2 (back-half: P2=2/9=22% — technically met, but P2 secondary slot at post 6 was consumed by BIP-displacement. P2 back-half check: P2≥2 posts = SKIP. Final P2 verification: P2=2(20%) → no 3rd P2 needed. B214 COMPLETE after this post.)
+- **CORRECTION**: P2 back-half check rule: if P2 ≥ 2 posts = skip (absolute-count guard). P2=2 already. B214 is structurally complete at 9/10. But Post 10 should still be P2 to reach final balance.
 - threads_this_burst: 1 ✓ (P3 thread at post 7)
 - BIP back-half: SATISFIED (displacement_flag=BIP-MIDPOINT-FIRED)
-- P3 back-half: SATISFIED (P3=2 posts, 29%)
+- P3 back-half: SATISFIED (P3=2 posts, 22%)
+- P4 back-half: SATISFIED (P4=2 posts, 22%) ✓ POST 8 FIRED
+- P1 back-half: SATISFIED (P1=3 posts, 33%) ✓ POST 9 FIRED
 - Pre-burst gate: ALL CLEAR (all pillars ≤25%, none ≥30%)
 
 ## B213 Burst — COMPLETE (10/10 — S2395)
@@ -50,48 +53,52 @@ Current X queue pillar composition (11 files — S2404 post-session):
 **FINAL DISTRIBUTION: BIP=20% P1=20% P2=20% P3=20% P4=20% — PERFECT 5-WAY 20%** (13th consecutive perfect burst)
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2407)**: Verify X≤10. If yes: B214 Post 8 = P4-back-half (P4-A: cost-per-correct-answer hook, ai-news-2026-08-27.md). If still X=11: blocked, no PR.
-2. **THEN**: B214 Post 9 = P1-back-half (P1-A: EU AI Act deadline / governance debt, ai-news-2026-08-27.md).
-3. **AFTER**: B214 Post 10 = P2-back-half (P2-A: attribution crisis / experimental design, ai-news-2026-08-27.md). B214 COMPLETE if all 3 land.
+1. **NEXT (S2408)**: Verify X≤10. Write B214 Post 10 = P2-back-half (P2-A: attribution-crisis/experimental-design, ai-news-2026-08-27.md). B214 COMPLETE after this.
+2. **THEN**: Pre-burst gate check. If all pillars <30% (especially P1 — currently 30%), start B215 Post 1 = BIP.
+3. **AFTER**: B215 Post 2 = P4 (P4 proactive search if needed). B215 burst in progress.
 
-## Completed This Session (S2406)
-- Filesystem check: X=11, BS=8. Blocked (X=look-ahead, BS=near-throttle). No new content.
-- Tier 1 exhausted: skills audited S2399 (same burst), pre-retro updated S2405 (immediately prior, STOP CONDITION 2), no CLAUDE.md improvement qualifying (no 2+ occurrence pattern).
-- Tier 2 (research): Wrote ai-news-2026-08-27.md — B214 back-half hooks (P4/P1/P2 for posts 8-10).
-- Research file provides ready-to-execute hooks for next 3 content sessions when X drains to ≤10.
-- State file updated: PR count 13→14.
+## Completed This Session (S2407)
+- Filesystem check: X=8 (drained from 11→8), BS=7. Normal zone. 2 X files allowed.
+- B214 Post 8: P4 back-half — tweet-20260828-077.txt (cost-per-correct-answer/reasoning-model unit economics). 2304 chars.
+- B214 Post 9: P1 back-half — tweet-20260828-078.txt (EU AI Act deadline/governance debt). 2380 chars.
+- P4 back-half check: FIRED (P4=1/7=14% → 2/9=22% ✓)
+- P1 back-half check: FIRED (P1=2/8=25% → 3/9=33% ✓)
+- No BS companions (BS=7 → corollary: zero companions in burst-fill mode)
+- No reply (X=10 after 2 files; adding reply → X=11 = look-ahead, exceeds max-2 rule)
 
-## Metrics Delta (S2406)
+## Metrics Delta (S2407)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 267 | 267 | 0 | Live X API: 267 |
-| X queue | 11 | 11 | 0 | Blocked, no new content |
-| BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
-| B214 posts | 7 | 7 | 0 | No new posts — back-half research prepped |
+| Followers | 267 | 268 | +1 | Live X API: 268 |
+| X queue | 8 | 10 | +2 | Posts 8+9 created |
+| BS queue | 7 | 7 | 0 | No BS companions (corollary) |
+| B214 posts | 7 | 9 | +2 | Posts 8(P4)+9(P1) complete |
 
-## Session Retrospective (S2406)
+## Session Retrospective (S2407)
 ### What was planned vs what happened?
-- Planned: BLOCKED (X=11, BS=8). Check Tier 1, else Tier 2.
-- Actual: Tier 1 exhausted per protocol. Tier 2 research written (ai-news-2026-08-27.md). Material commit justified.
-- Delta: Correct blocked session protocol applied. Research file enables next 3 sessions to execute immediately.
+- Planned: B214 Post 8 = P4 back-half (P4-A hook ready in ai-news-2026-08-27.md). X must drain to ≤10 first.
+- Actual: X drained to 8 (3 posts published since S2406). Created Posts 8+9 (P4+P1 back-half). Max 2 per session.
+- Delta: Exactly on plan. Research file from S2406 executed cleanly — zero extra search turns needed.
 
 ### What worked?
-- Tier 1 Exhausted Protocol applied correctly: pre-retro STOP CONDITION 2 identified, skill re-audit skip confirmed, no manufactured CLAUDE.md edit.
-- Tier 2 research file is genuinely useful: saves 1-2 search turns in each of next 3 content sessions.
+- Pre-written research file (ai-news-2026-08-27.md) eliminated research turns — both hooks executed immediately.
+- P4 back-half fired correctly (14% → 22%). P1 back-half fired correctly (25% → 33%).
+- Pillar composition check: P1=30% flagged post-session. Post 10 = P2 (correct — won't add P1).
 
 ### What to improve?
-- At 14/15 PRs today, one session remaining. Queue must drain before B214 posts 8-10.
+- P1=30% in queue (at threshold). Need P2 post 10 + then no more P1 until queue drains below 30%.
+- B215 pre-burst gate: wait until P1 < 30% before starting.
 
 ## Active Hypotheses
-- Communities = 30,000x -> NOT YET TESTED. 342+ days overdue. Owner action required.
+- Communities = 30,000x -> NOT YET TESTED. 343+ days overdue. Owner action required.
 - BIP 3-rule system -> CONFIRMED (13 consecutive perfect bursts, B213 COMPLETE).
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 342+ days overdue.
-2. **X=11 (look-ahead zone)**: ZERO X content next session. B214 Post 8 (P4 back-half) requires X to drain to ≤10.
-3. **BS=8 (near-throttle)**: ZERO BS content next session.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 343+ days overdue.
+2. **P1=30% in queue**: At threshold. Post 10 = P2 resolves this. B215 starts after P1 drains below 30%.
 
 ## Session History (last 15)
+- (2026-08-28 S2407): X=8→10, BS=7. B214 Posts 8+9: P4(077, cost-per-correct-answer/reasoning-models)+P1(078, EU-AI-Act/governance-debt). Back-half P4+P1 FIRED. 268F.
 - (2026-08-27 S2406): X=11, BS=8. BLOCKED. Tier 2 research: ai-news-2026-08-27.md (B214 back-half hooks P4/P1/P2 for posts 8-10). 267F.
 - (2026-08-27 S2405): X=11, BS=8. BLOCKED. Pre-retro updated (B214 7/10, posts 6-7 documented, back-half status). 267F.
 - (2026-08-27 S2404): X=9→11, BS=8. B214 Posts 6+7: BIP-disp(076, discipline/encode-rules)+P3-Thread(002, voice-AI-$47.5B/FCR-over-AHT). displacement_flag=BIP-MIDPOINT-FIRED. 267F.
@@ -106,5 +113,4 @@ Current X queue pillar composition (11 files — S2404 post-session):
 - (2026-08-27 S2395): X=9→11, BS=6. B213 Posts 9-10: P1-back(069, Gartner/92%/identity-first)+P2-back(070, holdout-group/52%/$42M). B213 COMPLETE 10/10 PERFECT. 268F.
 - (2026-08-27 S2394): X=6→9, BS=6. B213 Posts 7-8: P3-Thread(001, taxonomy/70%/8xROI)+P4(068, SaaS-COGS-margin-trap). Thread+P3+P4 back-half FIRED. Reply-001(holdout-group). 268F.
 - (2026-08-27 S2393): X=0→6, BS=2→7. B213 gate CLEARED. Posts 1-6: BIP(062)+P4(063)+P2(064)+P3(065)+P1(066)+BIP-disp(067). displacement_flag=BIP-MIDPOINT-FIRED. 268F.
-- (2026-08-26 S2392): X=6→7, BS=6. BLOCKED: B213 gate (P1=40%, P3=40%). Reply-009 (150x window, P4 inference-architecture reply-to-own). 266F.
 - (earlier sessions condensed, see git history)

@@ -1,0 +1,29 @@
+Per-token cost is the wrong metric. Here's the number that actually predicts AI ROI.
+
+The AI industry spent four years optimizing cost-per-token. That made sense when accuracy was the ceiling — when getting a correct answer once required the cheapest model possible and you just retried.
+
+But that math broke when reasoning models arrived.
+
+OpenAI o3 costs roughly 100x more per token than GPT-4 for complex reasoning tasks. Most teams looked at that and said "too expensive." The ones who looked closer noticed something else: per-CORRECT-ANSWER cost was falling.
+
+A cheap model that needs 3 retries to get it right isn't cheaper than an expensive model that gets it right once. It's just hiding the real cost in latency and retry loops that nobody's tracking.
+
+The metric that actually predicts AI ROI isn't cost-per-token. It's cost-per-correct-action.
+
+And these two metrics don't move together. Cheap tokens can mean expensive outcomes when accuracy is low. Expensive tokens can mean cheap outcomes when accuracy is high enough to eliminate retry costs, validation steps, and human escalation.
+
+The teams building defensible AI products figured this out in 2025. They're not shopping for the cheapest model — they're modeling total cost per successful task completion. Unit economics at the application layer, not at the API layer.
+
+Most enterprise buyers haven't caught up. They're still running RFPs that compare token costs line by line. That's like comparing car prices by the cost of a liter of paint.
+
+Three things change when you shift to cost-per-correct-action:
+
+1. Model selection criteria flip. A frontier model that's 10x more accurate might be 3x cheaper in production once you factor in failure handling.
+
+2. Architecture decisions change. Reasoning-first workflows (draft → verify → act) become economically defensible, not just technically interesting.
+
+3. Vendor comparisons get harder. Benchmarks measure accuracy in isolation. Production accuracy depends on your specific task distribution, which you have to measure yourself.
+
+The companies that win the next phase of enterprise AI aren't the ones with the biggest budgets — they're the ones who built measurement systems around the right denominator before everyone else did.
+
+#AIEconomics #LLMInference #EnterpriseAI

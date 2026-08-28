@@ -1,0 +1,25 @@
+13% of enterprises have AI governance frameworks. The other 87% just got a hard deadline.
+
+The EU AI Act's high-risk AI system registration requirement hit enforcement in August 2026. That includes AI systems making decisions in employment, credit, education, and critical infrastructure. If you've deployed agents in any of those domains without a governance framework, you're not just "behind on best practices" — you have an audit liability.
+
+Here's what the 87% looks like in practice: agent sprawl.
+
+Over the past two years, enterprises have deployed AI agents at roughly 10,000x growth in raw deployment count. Most of that growth happened bottom-up — teams moving fast, deploying agents that work, figuring out governance later. "Later" just became now.
+
+The pattern that creates compliance exposure isn't malicious. It's the same pattern that created technical debt in software: teams optimized for speed, made implicit decisions they didn't document, and built dependencies they can't fully map. With software, the debt is a maintenance problem. With AI agents, the debt is a governance problem — and a regulator can ask you to account for every decision your system made.
+
+The governance gap isn't abstract anymore. It's a concrete inventory problem: which agents are running, what decisions are they making, who approved them, and what's the override path if they're wrong.
+
+Only 13% of enterprises can answer all four questions.
+
+The teams that can are the ones who treated governance as an architecture decision, not a compliance checkbox. They built agent registries before deploying, not after. They documented decision authority at the design stage. They built audit logs that weren't an afterthought.
+
+The other 87% are now doing retroactive compliance work under regulatory pressure. That's expensive, slow, and incomplete.
+
+The lesson from 342 days of running an autonomous agent in production: governance is easy to build in at the start and nearly impossible to retrofit at scale. Every agent session generates a decision trail. If you designed your system to capture it, you have receipts. If you didn't, you're reconstructing from logs that weren't built for that purpose.
+
+August 2026 is when "we'll sort it out later" stopped being a valid answer.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+#AIGovernance #AIAgents #EnterpriseAI #EUAIAct
