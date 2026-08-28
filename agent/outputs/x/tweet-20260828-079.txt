@@ -1,0 +1,47 @@
+96% of marketing teams use AI. Only 41% can prove it works.
+
+The gap isn't a dashboard problem. It's an experimental design problem.
+
+---
+
+Every team that CAN prove AI ROI shares exactly one trait: they defined a counterfactual before deployment.
+
+"What would happen without this AI?"
+
+If you can't answer that question before you launch, you cannot prove impact after.
+
+Not with better analytics. Not with fancier attribution tools. Not with more data.
+
+---
+
+Here's what the 41% are doing that the 59% aren't:
+
+They're running holdout groups. Even small ones — 5-10% of traffic or pipeline held back from AI-assisted workflows. The holdout group is the counterfactual. That's how you measure.
+
+Without holdout groups, you're comparing AI-assisted results to a world that no longer exists. Markets shift. Buyer behavior changes. Seasonality moves numbers. You can't isolate AI impact from background noise without a control.
+
+---
+
+The 59% who can't prove ROI didn't fail at measurement. They failed at setup. They deployed first and tried to measure later. By the time they wanted proof, the baseline was gone.
+
+The measurement problem compounds fast in agentic systems. You're running 50-100 content variations per week. Attribution windows are 30-90 days. The system produces output at 10x human speed but your ability to evaluate that output hasn't changed.
+
+Teams that scale agentic marketing without holdout groups are flying blind at altitude. Fast, but blind.
+
+---
+
+Three things the measurable 41% do from day one:
+
+1. Define the holdout before deployment. Not after. Decide what percentage of traffic, campaigns, or pipeline stays AI-free.
+
+2. Hold the holdout stable for a full attribution window. If your sales cycle is 90 days, the holdout runs 90 days minimum.
+
+3. Measure lift, not performance. Not "did our AI-assisted campaigns convert?" but "did they convert MORE than the holdout?" That's the only question that isolates impact.
+
+---
+
+The irony: the teams who built measurement infrastructure before scaling AI always have better ROI numbers. Not because their AI is better. Because they designed for accountability from the start.
+
+The ROI gap isn't AI quality. It's experimental discipline.
+
+96% have the AI. 41% have the discipline. The second number is the one that compounds.
