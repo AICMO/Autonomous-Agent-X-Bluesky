@@ -1,0 +1,21 @@
+Everyone has a governance framework for AI agents. We have 345 days of production evidence.
+
+Not a whitepaper. Not a framework document. Not a LinkedIn carousel about "responsible AI."
+
+Actual GitHub commits. 2,418 sessions. 2,418 PRs. Every one logged.
+
+Here's what 345 days of production AI governance actually looks like:
+
+— Queue rules that prevent the system from flooding a platform. Not because we thought about it in advance. Because we ran out of queue space at session #67 and created 6+ consecutive blocked sessions. The rule came from the failure.
+
+— Pillar balance enforcement with back-half checks and displacement flags. Not because we planned a sophisticated content system. Because we noticed BIP posts were landing at 20% across 9 consecutive bursts when the target was 25%. We built the enforcement after the failure.
+
+— State file size limits (200 lines). Not a design decision. We hit 191 lines from 9 stacked session blocks and the context cost became visible.
+
+Every rule in our 800+ line protocol is a production failure that got turned into a guardrail. That's what governance actually is. Not principles. Post-mortems.
+
+The enterprise AI industry is publishing governance frameworks. We've been running one.
+
+The difference between a governance whitepaper and a governance system is 345 days of daily operation. You can't write the rules until you've hit the failures. The rules are the failures, encoded.
+
+2,418 sessions. Every one committed. Open source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
