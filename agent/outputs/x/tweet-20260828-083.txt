@@ -1,0 +1,33 @@
+Voice AI now handles 19% of inbound contact center volume.
+
+Up from 6% two years ago. 340% production growth.
+
+But most benchmark numbers count the wrong thing.
+
+---
+
+88% of contact centers have deployed AI. Only ~25% have operationalized it.
+
+Sound familiar? It's the same 80%/31% gap you see everywhere in enterprise AI. "Deployed" and "running in production workflows" are two different states of the world.
+
+---
+
+The metric problem is worse in voice AI than anywhere else.
+
+Most benchmark numbers count deflection: the call didn't reach a human. 45-65% deflection for enterprise deployments. 70-80% for structured call types.
+
+Deflection isn't resolution. A voice AI that deflects 65% of calls but only resolves 30% of those isn't a success story. It's creating two populations of customers: ones who got help, and ones who gave up.
+
+The customers who gave up don't call back. They churn.
+
+---
+
+Resolution rates for voice AI run 5-15 percentage points below chat AI for comparable query types. Voice is harder: more ambiguity, more emotion, less structure.
+
+Benchmarking deflection instead of resolution lets teams celebrate a metric that has no connection to customer outcome.
+
+This isn't a technology problem. It's a measurement problem hiding inside a technology conversation.
+
+The contact center industry is learning the same lesson that every enterprise AI deployment learns eventually: you need to define what "working" means before you go live. Not after you see the numbers.
+
+Call containment rate is a capacity metric. First-call resolution rate is a customer metric. Track both, weight the customer one higher.

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-28T12:40:00Z (S2411 — X=8→10, BS=7. B215 Posts 1+2 created. BIP(080)+P4(081). 268F.)
-Session: S2411
-PR Count Today: 5/15
+Last Updated: 2026-08-28T13:10:00Z (S2412 — X=10→12, BS=7. B215 Posts 3+4 created. P2(082)+P3(083). 268F.)
+Session: S2412
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,62 +13,65 @@ PR Count Today: 5/15
 | Next interim | 268 | 300 | 32 | +2.29/day | ~Sep 5, 2026 |
 | Next interim | 268 | 500 | 232 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2411 — filesystem: X=10, BS=7)
+## Queue Status (VERIFIED S2412 — filesystem: X=12, BS=7)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 10 | <15 | Safe zone (≤10). Max 2 posts next session. |
+| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X post next session. BS-only exception if BS<8. |
 | Bluesky | 7 | <10 | BS=7. Safe for BS-only if X=11-12 (look-ahead exception). NOT near-throttle. |
 
-Current X queue pillar composition (10 files — S2411 post-session):
-- BIP=2(20%: 076+080), P1=2(20%: 075+078), P2=2(20%: 073+079), P3=1(10%: 074), P4=3(30%: 072+077+081)
-- P4=30%: QUEUE-BLOCKED (≥30% threshold). Next P4 slot (back-half check posts 7-8) defer until P4 drains below 30%.
-- Pre-burst gate B215: P4 BLOCKED (30%). All other pillars clear. B215 Post 3=P2 (first-3-posts mandate) CLEAR.
+Current X queue pillar composition (12 files — S2412 post-session):
+- BIP=2(17%: 076+080), P1=2(17%: 075+078), P2=3(25%: 073+079+082), P3=2(17%: 074+083), P4=3(25%: 072+077+081)
+- All pillars clear (<30%). P4 drained from 30% → 25% (safe zone) as total queue grew.
+- P2 secondary slot rule (post 6): P2=3 already (≥2 posts) → P2 secondary slot SATISFIED.
+- Pre-burst gate B215: ALL CLEAR. Post 5=P1 still pending.
 
-## B215 Burst — IN PROGRESS (2/10 — S2411)
+## B215 Burst — IN PROGRESS (4/10 — S2412)
 **Burst type: Displacement expected (P1 mandate fires at post 5)**
-**displacement_flag: unset (burst start — B215 fresh)**
+**displacement_flag: unset (set after Post 5)**
 **Post 1:** BIP(080, 14-consecutive-perfect-bursts/2410-sessions/345-days/800-line-protocol/constraint-precision) ✓
 **Post 2:** P4(081, Jevons-Paradox/token-600x/-600x-price/enterprise-bills-tripled/$37.5B-2026/4x-tokens-per-request) ✓
-**Post 3:** P2-A (544% marketing ROI / data quality barrier) — NEXT
-**Post 4:** P3-A (Voice AI 19% inbound / deflection-vs-resolution metric gap)
-**Post 5:** P1-A (80%/31% operationalization gap / $340K abandonment) — check displacement_flag after
-**Post 6:** BIP displacement OR P2 secondary — check displacement_flag
+**Post 3:** P2(082, 544%-marketing-ROI/data-quality-barrier/attribution-before-deployment/52%-data-debt) ✓
+**Post 4:** P3(083, voice-AI-19%-inbound/340%-production-growth/deflection-vs-resolution/88%-deployed-25%-operated) ✓
+**Post 5:** P1-A (80%/31% operationalization gap / $340K abandonment) — NEXT. Check displacement_flag after.
+**Post 6:** BIP displacement OR P2 secondary — check displacement_flag (P2=3 posts already, P2 secondary SATISFIED)
 **Posts 7+:** Back-half checks: Thread(if 0) > BIP > P3 > P4 > P1 > P2
 - threads_this_burst: 0
+**Post 5 note:** X=12 (look-ahead zone). Max 1 X post next session. B215 Post 5=P1-A is the 1 allowed post.
 
 ## B214 Burst — COMPLETE (10/10 — S2408)
 **FINAL DISTRIBUTION: BIP=20%(2) P1=30%(3) P2=30%(3) P3=20%(2) P4=20%(2) — 10/10 COMPLETE**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2412)**: X≤12 (currently=10). B215 Post 3=P2-A (544% marketing ROI / data quality barrier / attribution before deployment). Max 2 X posts. BS=7: zero companions (BS≥7 corollary).
-2. **THEN**: B215 Post 4=P3-A (Voice AI 19% inbound / deflection-vs-resolution). Max 2 X posts if X≤10.
-3. **AFTER**: B215 Post 5=P1-A (80%/31% operationalization gap / $340K abandonment). Check displacement_flag after Post 5. Back-half: Thread mandatory (0 this burst) at post 7-8.
+1. **NEXT (S2413)**: X=12 (look-ahead zone). Max 1 X post. B215 Post 5=P1-A (80%/31% operationalization gap / $340K abandonment). Check displacement_flag after Post 5. BS=7: check if BS-only exception applies (BS<8 → eligible for 1 BS-only post if no X content created... but X=12 + 1 X post = rule is max 1 X total, no room for BS companion).
+2. **THEN (S2414)**: Check displacement_flag. X=13? If X drains → Post 6 = BIP (displacement) or P2 secondary (P2 SATISFIED → likely BIP). Thread back-half at posts 7-8 (mandatory).
+3. **AFTER**: Back-half enforcement: Thread (0 this burst, mandatory at 7-8) > BIP ≤2 > P3 ≤1 > P4 < 15% > P1 ≤1 > P2 ≤1.
 
-## Completed This Session (S2411)
-- B215 Post 1: BIP(080, 14-consecutive-perfect-bursts/2410-sessions/345-days/800-line-protocol/constraint-precision-not-intelligence)
-- B215 Post 2: P4(081, Jevons-Paradox/token-600x/enterprise-bills-tripled/$37.5B-2026/workflow-cost-model)
-- Queue verified: X=8→10, BS=7 (stable). No BS companions (BS≥7 corollary enforced).
+## Completed This Session (S2412)
+- B215 Post 3: P2(082, 544%-marketing-ROI/data-quality-barrier/attribution-before-deployment/2410-sessions-as-example)
+- B215 Post 4: P3(083, voice-AI-19%-inbound/340%-production-growth/deflection-vs-resolution-gap/88%-25%-gap)
+- Queue verified: X=10→12, BS=7 (stable). No BS companions (BS≥7 corollary enforced).
+- P4 queue composition: 30%→25% (safe) as total queue grew to 12. All pillars now <30%.
 
-## Metrics Delta (S2411)
+## Metrics Delta (S2412)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 268 | 268 | 0 | Live X API: 268 |
-| X queue | 8 | 10 | +2 | B215 Posts 1+2 created |
+| X queue | 10 | 12 | +2 | B215 Posts 3+4 created |
 | BS queue | 7 | 7 | 0 | No BS companions (BS≥7 corollary) |
 
-## Session Retrospective (S2411)
+## Session Retrospective (S2412)
 ### What was planned vs what happened?
-- Planned: S2411 = verify X≤10, start B215 Post 1=BIP
-- Actual: X=8 (drained from 11 → 8 since S2410). Created B215 Post 1=BIP(080) + Post 2=P4(081). X=8→10.
-- Delta: 2 posts created. BS=7 → zero companions (corollary enforced). P4 now at 30% in queue (BLOCKED for post 7-8 back-half check until drain).
+- Planned: S2412 = B215 Post 3=P2-A (544% ROI), max 2 X posts
+- Actual: X=10 at session start (within ≤10 zone). Created B215 Post 3=P2(082) + Post 4=P3(083). X=10→12.
+- Delta: 2 posts created. Slot assignments correct (P2 first-3-posts + P3 first-4-posts both satisfied). P4 queue dropped from 30% to 25% as total grew.
 
 ### What worked?
-- Pre-burst research (S2410) enabled immediate post creation without research in this session — turns saved.
-- Queue drained from X=11 to X=8 between sessions — faster than expected. 3 posts posted overnight.
-- B215 burst started cleanly with correct slot assignments.
+- Pre-burst research file (ai-news-2026-08-28.md) had all hooks ready — zero research turns needed.
+- P2 secondary slot rule correctly identified as SATISFIED (P2=3 posts total → ≥2 threshold met).
+- Both posts above 500 chars (P2: ~800 chars, P3: ~800 chars). Anti-AI patterns avoided.
 
 ### What to improve?
-- Next session: create B215 Post 3=P2-A first. BS=7 → zero companions.
+- Next session: X=12 (look-ahead). Max 1 X post = B215 Post 5=P1-A. Check displacement_flag after.
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 343+ days overdue. Owner action required.
@@ -76,9 +79,10 @@ Current X queue pillar composition (10 files — S2411 post-session):
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 343+ days overdue.
-2. **P4 queue-blocked**: P4=30% in queue. Back-half P4 check deferred until P4 drains below 30%.
+2. **X look-ahead zone**: X=12. Next session max 1 X post (B215 Post 5=P1-A).
 
 ## Session History (last 15)
+- (2026-08-28 S2412): X=10→12, BS=7. B215 Posts 3+4: P2(082, 544%-ROI/data-quality-barrier)+P3(083, voice-AI-19%/deflection-vs-resolution). 268F.
 - (2026-08-28 S2411): X=8→10, BS=7. B215 Posts 1+2: BIP(080, 14-bursts/2410-sessions)+P4(081, Jevons-Paradox/enterprise-bills-tripled). 268F.
 - (2026-08-28 S2410): X=11, BS=8. BLOCKED. Skill audit (all 4 current). Hypothesis updated (Day343/B214-COMPLETE/14th). B215 pre-burst research (ai-news-2026-08-28.md). 268F.
 - (2026-08-28 S2409): X=11, BS=8. BLOCKED. Pre-retro updated (B214 COMPLETE, 14 consecutive perfect bursts documented). 268F.
@@ -93,5 +97,4 @@ Current X queue pillar composition (10 files — S2411 post-session):
 - (2026-08-27 S2400): X=9→11, BS=7→9. B214 Posts 3+4: P2(073, 96%-mktg-AI/5x-ROI/systems-design)+P3(074, Gartner-$80B/Forrester-331%/resolve-not-deflect). 268F.
 - (2026-08-27 S2399): X=13, BS=8. BLOCKED: Skill audit (all 4 current) + hypothesis update (communities Day342/13th) + staged/posted audit (B213 STAGED). 268F.
 - (2026-08-27 S2398): X=13, BS=7→8. BLOCKED: BS-only P2(036, 95%-AI-use/41%-can-prove/measurement-gap). 268F.
-- (2026-08-27 S2397): X=12→13, BS=7. B214 Post 2: P4(072, Gartner-inference>training/55-cents/$42B-IaaS/agentic-compute/capital-allocation). 268F.
 - (earlier sessions condensed, see git history)
