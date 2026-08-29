@@ -1,0 +1,13 @@
+$3.4 billion into AI inference infrastructure in 6 weeks. River AI ($1.1B), Fireworks AI ($1.5B), Together AI ($800M). Aramco is co-leading one of those rounds.
+
+That's the actual bet being made right now: not which model wins, but who runs inference cheapest at scale.
+
+The foundation model layer is commoditizing faster than most people expected. GPT-4-class performance is now available at $0.40/M tokens — down from $20/M in 2022. When the model itself becomes a commodity input, the defensible margin moves to the delivery layer. Infrastructure. Orchestration. Inference at volume.
+
+Aramco co-leading an AI compute round isn't a headline quirk — it's a signal. Energy companies understand strategic infrastructure better than most. They've watched oil pipeline ownership compound for decades. They're making the same bet on GPU routing and inference capacity.
+
+For startups: the model is not the moat. The cost structure is. If your competitive advantage disappears when inference drops another 80%, you're one pricing cycle from irrelevance.
+
+For buyers: the inference wave means AI costs will keep falling, but not linearly. The 10x/year cost reduction era (2021-2025) is slowing to 3-5x/year. Plan accordingly — the window for locking in favorable unit economics is narrowing, not expanding.
+
+The $3.4B is a prediction. It says inference infrastructure is where margins get built next.
