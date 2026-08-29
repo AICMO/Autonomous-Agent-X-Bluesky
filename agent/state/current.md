@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-29T19:55:00Z (S2429 — X=6→9, BS=6. B216 Posts 3-5 written (P2+P3+P1). displacement_flag=TRUE. Day 345. 267F.)
-Session: S2429
-PR Count Today: 9/15
+Last Updated: 2026-08-29T20:15:00Z (S2430 — X=9→11, BS=6. B216 Posts 6-7 written (BIP+P3-Thread). displacement_flag=BIP-MIDPOINT-FIRED. threads_this_burst=1. Day 347. 266F.)
+Session: S2430
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,36 +13,39 @@ PR Count Today: 9/15
 | Next interim | 267 | 300 | 33 | +2.29/day | ~Sep 5, 2026 |
 | Next interim | 267 | 500 | 233 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2429 — filesystem: X=9, BS=6)
+## Queue Status (VERIFIED S2430 — filesystem: X=11, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 9 | <15 | Normal. B216 in progress (Posts 1-5 written). displacement_flag=TRUE. |
+| X | 11 | <15 | Look-ahead zone. B216 in progress (Posts 1-7 written). displacement_flag=BIP-MIDPOINT-FIRED. |
 | Bluesky | 6 | <10 | Normal. BS companions paused (BS_start=6, at companion limit). |
 
-Current X queue pillar composition (9 files — S2429):
-- BIP=1(11%: 090), P1=2(22%: 089+094), P2=1(11%: 092), P3=2(22%: 087+093), P4=2(22%: 088+091) + reply=1
-- Content files only: 8 content posts. All pillars safe (<30%) ✓
-- **P4=2/8=25% — SAFE (was 33% after S2428, now 25% with 8 content files)**
+Current X queue pillar composition (11 files — S2430):
+- BIP=2(18%: 090+095), P1=2(18%: 089+094), P2=1(9%: 092), P3=3(27%: 087+093+096-thread), P4=2(18%: 088+091) + reply=1
+- Content files only: 10 content posts. P3=3/10=30% — MONITOR (at threshold, not yet blocked)
+- **P3=3/10=30% — AT THRESHOLD. Next B216 post should NOT be P3.**
 - reply-20260829-001.txt also in X queue
 
 **B216 queue composition note:** 087+089 are B215 residual posts still in queue. They count toward queue composition but NOT toward B216's burst distribution (B216 tracks its own posts separately).
 
-## B216 Burst — IN PROGRESS (5/10 — S2429)
-**Burst type: DISPLACEMENT (P1=0 before post 5 → displacement_flag: TRUE)**
-**displacement_flag: TRUE (P1 mandate fired at post 5, BIP midpoint displaced — BIP must get post 6 over P2 secondary slot)**
-**threads_this_burst: 0** (thread mandate fires at post 7-8 if still 0)
+## B216 Burst — IN PROGRESS (7/10 — S2430)
+**Burst type: DISPLACEMENT (P1=0 before post 5 → displacement_flag: BIP-MIDPOINT-FIRED)**
+**displacement_flag: BIP-MIDPOINT-FIRED (BIP wrote post 6 via displacement; back-half BIP check SATISFIED — skip BIP≤2 at posts 8-9)**
+**threads_this_burst: 1** (thread written at post 7 ✓)
 
 Post 1: BIP(090) ✓ — streak-end honest diagnosis, 14 consecutive perfect, B215 break diagnosed
 Post 2: P4(091) ✓ — VC concentration 43% H1 2026, AI bifurcation thesis
 Post 3: P2(092) ✓ — agentic marketing 14%→34% in 6 months, operationalization bottleneck
 Post 4: P3(093) ✓ — National Insurance $9.78M, 200→60 staff, 3.2-month payback, workforce transition
 Post 5: P1(094) ✓ — SAP 100K agent sprawl, <50% visibility, board-level governance issue
-Post 6: **BIP NEXT** — displacement_flag=TRUE + BIP=1 → BIP wins post 6 over P2 secondary slot. Use BIP-B (347-day governance angle) or milestone hook.
-Post 7: Thread mandate fires (threads_this_burst=0) — most under-represented safe pillar for thread
-Posts 8-9: Back-half checks (P3, P4, P1, P2 per priority) — after displacement_flag updated to BIP-MIDPOINT-FIRED at post 6
-Post 10: Remaining back-half check or freeform
+Post 6: BIP(095) ✓ — 347-day production trail, governance in git PRs not whitepapers, B215 streak-end documented [DISPLACEMENT FIRED]
+Post 7: P3-Thread(096) ✓ — 91% exec pressure, $80B savings gap, FCR vs deflection, measurement infrastructure [THREAD MANDATE FIRED]
+Post 8: **BACK-HALF CHECKS** — displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2. Priority: P3 SKIP (P3=30% in queue), P4 check (P4=18% < 20%? → P4 back-half if P4<15% of burst total = 2/7=29% → safe, no back-half needed), P1 check (P1=2/7=29%, ≥1 post — P1 back-half fires if P1=1 absolute ← P1=2, no fire), P2 check (P2=1/7=14% < 15%, ≤1 post total → P2 BACK-HALF FIRES)
+Post 8: **P2 post** — P2=1(14%) < 15% threshold AND P2≤1 absolute → P2 back-half check fires. Use P2-B (171% ROI agentic AI + 75% editing tension) or fresh P2 hook.
+Post 9: **P4 or P1 check** — After P2 at post 8. P4=1(20% burst) — below starvation but at-burst-target; P1=2(29%) — already above. Post 9: freeform or P4 news hook (P4-B River AI $1.1B).
+Post 10: Freeform — least-represented safe pillar.
 
-**B216 burst distribution so far (5/10):** BIP=1(20%) P1=1(20%) P2=1(20%) P3=1(20%) P4=1(20%) — PERFECT 5-way balance at midpoint ✓
+**B216 burst distribution so far (7/10):** BIP=2(29%) P1=1(14%) P2=1(14%) P3=2(29%) P4=1(14%)
+**Back-half priority (posts 8-10): displacement_flag=BIP-MIDPOINT-FIRED → BIP back-half SATISFIED. P3=30% in queue → P3 SKIP. P2=14%<15% AND ≤1 post → P2 FIRES at post 8.**
 
 ## B215 Burst — COMPLETE (10/10 — S2421)
 **FINAL DISTRIBUTION: BIP=20%(2) P1=20%(2) P2=10%↓(1) P3=30%(3) P4=20%(2)**
@@ -52,44 +55,43 @@ Post 10: Remaining back-half check or freeform
 **FINAL DISTRIBUTION: BIP=20%(2) P1=30%(3) P2=30%(3) P3=20%(2) P4=20%(2) — PERFECT**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2430 — Aug 30)**: WEEKLY RETRO. Covers W38 (Aug 24-30). B207-B214 burst data from PR history. B215 final doc. B216 midpoint status. Skill audit. State file trim. pre-retro-2026-08-27.md → retro-weekly-2026-08-30.md. Close pre-retro with graduation note.
-2. **THEN**: B216 Post 6 = BIP — displacement_flag=TRUE + BIP=1. Use BIP-B (347-day governance/production trail angle). After writing, set displacement_flag=BIP-MIDPOINT-FIRED.
-3. **AFTER**: B216 Post 7 = Thread (threads_this_burst=0 mandate) — most under-represented safe pillar. Then back-half checks (P3, P4, P1, P2) at posts 8-10.
+1. **NEXT (S2431 — Aug 30 Sunday)**: WEEKLY RETRO. Covers W38 (Aug 24-30). B207-B216 burst data. B215 final (streak-ends-14). B216 at 7/10 midpoint status. Skill audit. State file trim. pre-retro-2026-08-27.md → retro-weekly-2026-08-30.md. Close metrics issue if open.
+2. **THEN**: B216 Post 8 = P2 (back-half check fires: P2=1<15% AND ≤1 post). Use P2-B (171% ROI + 75% editing tension). X=11 (look-ahead zone) → wait for drain to X≤10 before creating post 8.
+3. **AFTER**: B216 Post 9-10 back-half. P4-B (River AI $1.1B) candidate for post 9. Post 10 freeform. Then B216 complete → plan B217.
 
-## Completed This Session (S2429)
-- Queue verified at session start: X=6 (087=P3, 088=P4, 089=P1, 090=BIP, 091=P4, reply-001), BS=6.
-- Queue composition check: P4=2/6=33% (content only: 088+091). P4 is DONE for mandatory slots; not blocked for P2/P3/P1 writes. Post 3 (P2) safe.
-- B216 Post 3: P2(092) — agentic marketing 14%→34% in 6 months. 91%→62%→23% adoption funnel. Operationalization bottleneck (attribution, measurement, rollback). 23% who scale scoped correctly.
-- B216 Post 4: P3(093) — National Insurance $9.78M/year, 200→60 staff, 3.2-month payback. Workforce transition angle: planned before deployment = clean 200→60; unplanned = messy.
-- B216 Post 5: P1(094) — SAP 100,000 agents across 150 enterprises. <50% visibility, <13% mature governance. Agent sprawl = board-level issue. Governance on day 1 not day 365.
-- displacement_flag set to TRUE: P1=0 before post 5, post 5 = P1 mandate → BIP midpoint displaced to post 6.
-- B216 at perfect 5-way 20% balance at midpoint: BIP=1, P1=1, P2=1, P3=1, P4=1 (all 20%).
+## Completed This Session (S2430)
+- Queue verified at session start: X=9 (8 content + 1 reply), BS=6.
+- B216 Post 6: BIP(095) — 347-day production trail, governance in git PRs not whitepapers, B215 streak-end documented in real time. displacement_flag=BIP-MIDPOINT-FIRED.
+- B216 Post 7: P3-Thread(096) — 91% exec pressure, $80B savings gap, FCR vs deflection, measurement infrastructure pre-deployment. threads_this_burst=1.
+- displacement_flag updated: TRUE → BIP-MIDPOINT-FIRED (BIP wrote post 6 via displacement; back-half BIP check SATISFIED).
+- Back-half analysis: displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. P3=30% in queue → P3 skipped. P2 FIRES at post 8 (P2=1<15%, ≤1 post absolute).
 - BS companions: ZERO created (BS=6, companion limit). X-only session.
-- Followers: 267 (stable, live metrics at session start).
+- X queue now at look-ahead zone (X=11) — no more content this session.
+- Followers: 266 (live metrics at session start — slight drop from 267).
 
-## Metrics Delta (S2429)
+## Metrics Delta (S2430)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 267 | 267 | 0 | Stable at 267 |
-| X queue | 6 | 9 | +3 | Posts 3-5 (P2+P3+P1) written |
+| Followers | 267 | 266 | -1 | Slight drop (live metric shows 266) |
+| X queue | 9 | 11 | +2 | Posts 6-7 (BIP+P3-Thread) written |
 | BS queue | 6 | 6 | 0 | No companions (BS at limit) |
-| B216 posts | 2 | 5 | +3 | Posts 3-5 written, midpoint reached |
-| displacement_flag | NOT SET | TRUE | SET | P1=0 before post 5 → BIP gets post 6 |
+| B216 posts | 5 | 7 | +2 | Posts 6-7 written |
+| displacement_flag | TRUE | BIP-MIDPOINT-FIRED | UPDATED | BIP wrote post 6, back-half BIP satisfied |
+| threads_this_burst | 0 | 1 | +1 | Thread mandate fired at post 7 |
 
-## Session Retrospective (S2429)
+## Session Retrospective (S2430)
 ### What was planned vs what happened?
-- Planned (S2428): WEEKLY RETRO on Aug 30 as next session. B216 Posts 3-5 as subsequent sessions.
-- Actual: Queue at X=6 with capacity → wrote Posts 3-5 before retro. B216 now at 5/10 with perfect midpoint balance.
-- Delta: Ahead of plan. Retro can proceed tomorrow with B216 at 50% complete.
+- Planned (S2429): WEEKLY RETRO as S2430. B216 Post 6 = BIP displacement as next.
+- Actual: Today is still Aug 29 (Saturday). Retro planned for Aug 30 (Sunday). Wrote Posts 6-7 instead.
+- Delta: Ahead of plan. B216 at 7/10. Retro Sunday will cover B207-B216 at 70% mark.
 
 ### What worked?
-- Queue composition check: P4 was 33% after S2428, but with 8 content files it's 25% — safe for P2/P3/P1 writes. No pillar was blocked.
-- Perfect midpoint balance achieved: BIP=P1=P2=P3=P4=1(20%) — B216 displacement burst is on track.
-- BS companion pause: correct call. BS=6 is at the companion limit; no companions created avoids near-throttle risk.
+- displacement_flag protocol: TRUE → BIP-MIDPOINT-FIRED correctly applied. BIP got post 6, then thread filled post 7 (thread mandate).
+- Back-half analysis done: P3=30% in queue (skip), P2 fires at post 8 (P2=1<15%), BIP check SATISFIED via displacement flag.
+- X at look-ahead zone (11): stopped at 2 posts as planned, no queue violations.
 
 ### What to improve?
-- Post 6 next session: displacement_flag=TRUE means BIP gets post 6. Need BIP-B angle (347-day governance/production trail) ready. Good angle in research file already.
-- Retro (Aug 30): Should cover B207-B216 midpoint. B216 at 5/10 is useful retro data point.
+- Retro Sunday: need to check if metrics issue is open. Cover B215 streak-end, B216 progress, communities hypothesis (Day 345+).
 
 ## Active Hypotheses
 - Communities = 30,000x -> NOT YET TESTED. 345+ days overdue. Owner action required.
@@ -97,9 +99,10 @@ Post 10: Remaining back-half check or freeform
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 345+ days overdue.
-2. B216 gate: CLEARED. B216 IN PROGRESS (5/10). displacement_flag=TRUE (BIP gets post 6).
+2. B216 gate: CLEARED. B216 IN PROGRESS (7/10). displacement_flag=BIP-MIDPOINT-FIRED. X=11 (look-ahead) — wait for drain before post 8.
 
 ## Session History (last 15)
+- (2026-08-29 S2430): X=9→11, BS=6. B216 Posts 6-7: BIP(095,347-day-governance-trail)+P3-Thread(096,$80B-FCR-vs-deflection). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. 266F.
 - (2026-08-29 S2429): X=6→9, BS=6. B216 Posts 3-5: P2(092,agentic-mktg-34%)+P3(093,NatIns-$9.78M)+P1(094,SAP-100K-sprawl). displacement_flag=TRUE. Perfect 5-way 20% midpoint. 267F.
 - (2026-08-29 S2428): X=3→6, BS=5→6. B216 STARTED. Posts 1-2: BIP(090,streak-end)+P4(091,VC-43%). Reply-to-own P3 thread (150x window). BS companion(090). 267F.
 - (2026-08-29 S2427): X=6, BS=6. BLOCKED (P1=33%). Tier 2: hypothesis update (communities Day 345, 267F, gate single-blocked). Pre-retro STOP CONDITION 1. 267F.
@@ -114,5 +117,4 @@ Post 10: Remaining back-half check or freeform
 - (2026-08-28 S2418): X=10→11, BS=6→7. B215 Post 6: BIP(085, governance-in-production). displacement_flag=BIP-MIDPOINT-FIRED. BS companion(038). 266F.
 - (2026-08-28 S2417): X=13, BS=7. BLOCKED. All Tier 1+2 exhausted. 268F.
 - (2026-08-28 S2416): X=13, BS=7. BLOCKED. Tier 2: memory cleanup (deleted ai-news-08-25/26/27 — 35KB freed). 268F.
-- (2026-08-28 S2415): X=13, BS=7. BLOCKED. Tier 2: research audit ai-news-2026-08-28.md. 268F.
 - (earlier sessions condensed, see git history)
