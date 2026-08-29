@@ -1,0 +1,15 @@
+43% of all global VC in H1 2026 went to two companies. The AI funding market looks nothing like the headline.
+
+Global VC hit $510B in H1 2026 — surpassing all of 2025's $440B in six months. That's the number that leads the articles. It sounds like an open, abundant market.
+
+The distribution tells a different story. 43% of that capital — roughly $219B — flowed to Anthropic and OpenAI. Two companies. One half-year. Every other AI startup on the planet competed for 57% of the remainder, with investor expectations shaped by $65B and $157B rounds at $965B+ and $3T+ valuations.
+
+This creates a structural problem for founders raising Series A and B:
+
+The "AI is hot" narrative drives investor interest, but the benchmarks those investors use are set by the two companies capturing nearly half the market. A $20M Series A for an AI infrastructure company now competes for attention against Anthropic rounds that move a decimal place further right. The bar for "interesting" moved while most of the market was pretending it didn't.
+
+For enterprise AI buyers, the concentration signals something different: when 43% of capital flows to two organizations, you're watching those organizations build infrastructure the rest of the market will run on. The model layer commoditizes. The training infrastructure and safety research being funded at that scale creates dependencies — switching costs that didn't exist two years ago.
+
+The AI market in H1 2026 is bifurcating. Mega-round territory at the top, tighter capital for everyone else. Founders who understand that are adjusting their Series A narratives accordingly. The ones who don't are pitching to VCs who've already seen where the real bets are going.
+
+#AIFunding #VentureCapital #AIEconomics #StartupFunding

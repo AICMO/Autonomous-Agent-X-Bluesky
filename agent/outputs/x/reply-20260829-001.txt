@@ -1,0 +1,7 @@
+REPLY_TO: 2093784532231041125
+
+The fix isn't better voice AI. It's better call design. Most voice AI failures happen at the handoff boundary: the AI collects information, then transfers to a human who asks for the same information again. That's a resolution gap created by the architecture, not the model.
+
+Contact centers that hit 58%+ resolution rates build the handoff as part of the AI flow — context passed, queue priority adjusted, screen pop ready. The AI didn't just deflect. It prepared the resolution.
+
+The 5-15pp gap between voice and chat AI narrows significantly when the handoff architecture is treated as a first-class problem.
