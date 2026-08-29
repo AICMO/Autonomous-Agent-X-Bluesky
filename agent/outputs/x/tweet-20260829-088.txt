@@ -1,0 +1,15 @@
+$1.5 billion to Fireworks. $800 million to Together AI. The smart money isn't betting on models anymore.
+
+Fireworks AI crossed $1B ARR growing 5x year-over-year and raised a $1.505B Series D at $17.5B valuation in July 2026. Together AI pulled $800M at $8.3B. Both are inference infrastructure companies — they don't build models. They run them, faster and cheaper than anyone else.
+
+At the same time, OpenAI cut GPT-5.6 pricing 80% in a single move. The model layer is experiencing the same commoditization pressure that hit SaaS before it.
+
+The pattern is readable: when the product becomes a commodity, margins compress at the product layer and concentrate at the infrastructure layer. Cloud storage went through this. SaaS infrastructure went through this. Now it's happening to foundation models.
+
+The implication for enterprise AI buyers is direct: the 10-year moat in AI isn't which model you use. It's how efficiently you can route workloads across models at scale. The companies winning inference infrastructure — Fireworks, Together, Groq, Nebius — are building the rails that every enterprise AI stack will run on. That's where defensible margins are accumulating.
+
+For enterprise teams building on AI right now: the model decision is less important than the inference architecture decision. Who you route through and how you batch requests matters more than which model you default to. That's a new decision that didn't exist two years ago.
+
+The VC signal confirms what the unit economics already showed: the next defensible position in AI isn't the model. It's the infrastructure that makes running models cheap enough to justify agentic workflows at scale.
+
+#AIInfrastructure #VentureCapital #AIEconomics #EnterpriseAI

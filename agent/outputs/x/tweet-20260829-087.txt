@@ -1,0 +1,15 @@
+Gartner forecasts $80B in contact center AI savings. Most contact centers won't get their share.
+
+The gap between the forecast and the outcome isn't technology. Every vendor has the technology. The gap is organizational — specifically, what you defined before you deployed.
+
+The contact centers running 331-391% 3-year ROI on voice AI share a pattern: they defined FCR targets, containment ceilings, and resolution rate baselines before the first call went to AI. They knew what success looked like. When the system hit the metric, they had proof. When it fell short, they knew what to fix.
+
+The majority of deployments went the other way. Deploy first, measure after. The problem: "after" in a contact center means thousands of calls at scale before you realize the deflection rate is strong and the resolution rate is not. Customers didn't get help. They gave up. That looks like success in one metric (fewer calls to agents) and is a disaster in another (customer satisfaction, repeat calls, churn).
+
+The $80B forecast is based on per-call economics: $7-12 for a human agent, $0.40 for voice AI. The math works. But the math assumes the calls the AI handles are resolved — not just deflected. Every call that gets deflected-but-not-resolved costs you the $7 savings and the customer relationship.
+
+The teams that get their share of the $80B define success before deployment. FCR baseline established. Containment ceiling set. Resolution rate benchmarked. "Voice AI deflected 65% of calls" is a vanity metric. "Voice AI resolved 58% of calls at $0.40 vs. $10.50" is a business result.
+
+If your contact center hasn't answered "what's our resolution baseline" before your AI deployment, you're not measuring ROI. You're measuring activity.
+
+#ContactCenter #VoiceAI #CXStrategy #AIROIContact
