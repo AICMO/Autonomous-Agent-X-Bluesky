@@ -1,0 +1,5 @@
+88% of AI agents never reach production.
+
+Infrastructure (41%), governance (38%), ROI measurement (33%).
+
+347 days running one in production. The 12% that ship start with operational constraints before strategy — not after three months of problems.
