@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-29T09:30:00Z (S2424 — X=9, BS=6. BLOCKED (P1=33%+P2-starvation). Tier 2: hypothesis update (communities-multiplier Day 344 entry) + pre-retro update (S2424 status). 265F.)
-Session: S2424
-PR Count Today: 4/15
+Last Updated: 2026-08-29T10:30:00Z (S2425 — X=9, BS=6. BLOCKED (P1=33%+P2-starvation). Queue correction: BIP fully drained (0/9=0%). Day 345. 265F.)
+Session: S2425
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,22 +13,24 @@ PR Count Today: 4/15
 | Next interim | 265 | 300 | 35 | +2.29/day | ~Sep 5, 2026 |
 | Next interim | 265 | 500 | 235 | +2.29/day | ~Oct 10, 2026 |
 
-## Queue Status (VERIFIED S2424 — filesystem: X=9, BS=6)
+## Queue Status (VERIFIED S2425 — filesystem: X=9, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
 | X | 9 | <15 | BLOCKED for B216 (P1=33% pillar gate). Normal zone overall. |
 | Bluesky | 6 | <10 | Normal. BS_start=6 → 0 BS companions this session (6+1=7 > 6 limit). |
 
-Current X queue pillar composition (9 files — S2422, unchanged from S2421):
-- BIP=2(22%: 076+085), P1=3(33%: 078+084+089), P2=2(22%: 079+082), P3=2(22%: 083+087), P4=2(22%: 081+088)
+Current X queue pillar composition (9 files — S2425, corrected from S2424):
+- **BIP=0(0%)** — 076+085 both POSTED (drained from queue). BIP fully absent from queue.
+- P1=3(33%: 078+084+089), P2=2(22%: 079+082), P3=2(22%: 083+087), P4=2(22%: 081+088)
 - **P1=33% — QUEUE-BLOCKED (≥30%). B216 pre-burst gate BLOCKED.**
 - **P2=22% — Starvation gate check: P2=10% in B215 (≤10% trigger). Stricter 20% gate applies. P2=22% FAILS starvation gate.**
-- All others < 30% ✓
+- BIP=0% is critical context: B216 Post 1 BIP front-load is even more essential (BIP has 0 files in queue).
 
 ## B216 Pre-Burst Gate — BLOCKED (2 conditions unmet)
 1. P1=3/9=33% — must drop to <30%. Need 1 P1 file to drain: P1=2/8=25% → CLEAR.
 2. P2=2/9=22% — starvation gate (P2=10% in B215 triggers stricter 20% threshold). P2 must be <20%. Need 1 P2 to drain: P2=1/7=14% → CLEAR.
 **B216 start requires BOTH conditions simultaneously: P1<30% AND P2<20%.**
+**BIP context (S2425): BIP=0 in queue (076+085 both posted). B216 Post 1 BIP front-load is critical — zero BIP buffer in queue.**
 
 ## B215 Burst — COMPLETE (10/10 — S2421)
 **Burst type: Displacement (P1 mandate fired at post 5)**
@@ -47,49 +49,50 @@ Post 10: P1(089) ✓ — P1 back-half fired
 **FINAL DISTRIBUTION: BIP=20%(2) P1=30%(3) P2=30%(3) P3=20%(2) P4=20%(2) — PERFECT**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2425)**: Monitor queue. B216 pre-burst gate: verify P1<30% AND P2<20% simultaneously. If CLEAR → B216 Post 1 = BIP (streak-ends-at-14/B216-reset angle). If still blocked → retro tomorrow (Aug 30) is primary work.
-2. **THEN (S2426)**: If B216 started → Post 2 = P4 (first-3-posts mandate). P4 hooks in ai-news-2026-08-29.md: River AI ($150M/inference stack), VC concentration ($265B H1 2026, 43% to 2 companies).
-3. **AFTER (S2427 or retro)**: Aug 30 = weekly retro session. Retro covers W38 (Aug 24-30). Extract B207-B210 burst data from PR history. Skill audit (4+ days since S2422 audit). State file trim.
+1. **NEXT (S2426)**: Aug 30 = WEEKLY RETRO (primary work). Covers W38 (Aug 24-30). B207-B210 burst data from PR history. Skill audit. State file trim. If retro session runs, queue monitoring is secondary.
+2. **THEN**: B216 gate: verify P1<30% AND P2<20% simultaneously. If CLEAR → B216 Post 1 = BIP (streak-end angle, BIP=0 in queue makes this critical). ai-news-2026-08-29.md ready.
+3. **AFTER**: If B216 started → Post 2 = P4. P4 hooks: VC concentration (43% H1 2026 to 2 companies), River AI ($1.1B inference infrastructure).
 
-## Completed This Session (S2424)
-- Queue verified: X=9 (unchanged from S2423), BS=6. B216 still dual-blocked (P1=33%, P2=22% starvation gate).
-- Tier 2 hypothesis update: communities-multiplier.md — added Day 344 / 265F / B215-streak-ends-at-14 / B216-dual-blocked entry.
-- Tier 2 pre-retro update: pre-retro-2026-08-27.md — added S2424 final status note (retro tomorrow Aug 30, pre-retro COMPLETE).
-- Blocked session: Tier 1 exhausted (skills current S2422, pre-retro updated S2422+S2424, no CLAUDE.md quality-gate failures). Tier 2 hypothesis/pre-retro updates executed.
+## Completed This Session (S2425)
+- Queue verified: X=9 (unchanged), BS=6. B216 dual-blocked (P1=33%, P2=22% starvation gate).
+- **Key discovery: BIP=0 in queue.** 076+085 (both BIP) have been posted (drained). S2424 state said BIP=2(22%) — this was stale. Corrected in this session.
+- State file corrected: BIP=0(0%), P1=3(33%), P2=2(22%), P3=2(22%), P4=2(22%) — total 9 files verified.
+- All Tier 1 exhausted (skills audited S2422, pre-retro COMPLETE S2424, no CLAUDE.md quality-gate issues).
+- State file correction qualifies as material change (BIP composition was wrong — affects B216 planning).
 
-## Metrics Delta (S2424)
+## Metrics Delta (S2425)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 265 | 265 | 0 | Stable (265 per live X API) |
+| Followers | 265 | 265 | 0 | Stable (265 per live X API — Day 345) |
 | X queue | 9 | 9 | 0 | No content created — BLOCKED |
 | BS queue | 6 | 6 | 0 | No companions — BS_start=6 at limit |
-| Memory | ~76KB | ~76KB | ~0 | Hypothesis + pre-retro text edits only |
+| BIP in queue | 2 (stale) | 0 | −2 | 076+085 posted. State corrected. |
 
-## Session Retrospective (S2424)
+## Session Retrospective (S2425)
 ### What was planned vs what happened?
-- Planned (S2423): Monitor queue. B216 pre-burst gate. B216 research already prepared.
-- Actual: Pre-burst gate still BLOCKED (P1=33%, P2=22% starvation). Tier 1 exhausted. Tier 2: hypothesis update + pre-retro finalization.
-- Delta: No content created. B216 still waiting for drain. Retro tomorrow (Aug 30) — pre-retro is COMPLETE.
+- Planned (S2424): Monitor queue. B216 pre-burst gate verification.
+- Actual: Gate still BLOCKED. Discovered BIP=0 in queue (BIP files drained). State correction was the material work.
+- Delta: No content created. BIP correction ensures accurate B216 planning.
 
 ### What worked?
-- Hypothesis update provides evidence trail for retro analysis of communities blocker.
-- Pre-retro finalization ensures retro has complete W38 data including B215 streak-end analysis.
+- Filesystem verification caught stale BIP count (S2424 said BIP=2, actual BIP=0). Two BIP posts had been posted by the drain workflow between sessions.
 
 ### What to improve?
-- B216 dual gate still waiting. Need P1 to drain: P1=3/9=33% → 1 file drains → P1=2/8=25% (CLEAR). AND P2=2/9=22% starvation gate → 1 file drains → P2=1/7=14% (CLEAR). Next session should re-verify queue counts — if P1 and P2 have cleared, B216 can start immediately with Post 1=BIP.
+- Tomorrow (Aug 30) is the weekly retro. This is the primary session objective. B216 will start when gates clear.
 
 ## Active Hypotheses
-- Communities = 30,000x -> NOT YET TESTED. 344+ days overdue. Owner action required.
+- Communities = 30,000x -> NOT YET TESTED. 345+ days overdue. Owner action required.
 - BIP 3-rule system -> CONFIRMED (B201-B214 = 14 consecutive displacement bursts with BIP=20% expected). B215 = streak-end (P2 queue-block). B216 pending.
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 344+ days overdue.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 345+ days overdue.
 2. **B216 pre-burst gate — DUAL BLOCK**:
    - P1=33% in X queue (078+084+089). Need 1 P1 to drain: P1=2/8=25% → CLEAR.
    - P2=22% starvation gate (P2=10% in B215 triggers stricter 20% threshold). Need 1 P2 to drain: P2=1/7=14% → CLEAR.
    - Both conditions must be met simultaneously. Check queue pillar composition at next session start.
 
 ## Session History (last 15)
+- (2026-08-29 S2425): X=9, BS=6. BLOCKED (P1=33%+P2-starvation). BIP=0 correction (076+085 posted). Day 345. 265F.
 - (2026-08-29 S2424): X=9, BS=6. BLOCKED (P1=33%+P2-starvation). Tier 2: hypothesis update (communities Day 344) + pre-retro finalized. 265F.
 - (2026-08-29 S2423): X=9, BS=6. BLOCKED (P1=33%+P2-starvation). Tier 2: memory cleanup (ai-news-2026-08-28.md graduated, 19KB freed). 265F.
 - (2026-08-29 S2422): X=9, BS=6. BLOCKED (P1=33%+P2-starvation). B216 research (ai-news-2026-08-29.md). Pre-retro updated (B215-COMPLETE/streak-ends-14). 265F.
