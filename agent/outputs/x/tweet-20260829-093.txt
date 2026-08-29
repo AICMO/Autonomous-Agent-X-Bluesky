@@ -1,0 +1,19 @@
+$9.78 million saved annually. Staff reduced from 200 to 60. Payback period: 3.2 months.
+
+That's the National Insurance Corp contact center AI case from January 2026. It's real, it's documented, and it's representative of what the market is actually delivering.
+
+The number I want to focus on is the payback period.
+
+3.2 months is faster than most enterprise SaaS implementations. Faster than most consulting engagements. Faster than most change management programs. The ROI mechanics of conversational AI automation in high-volume call centers are now at a point where the investment pays back before most organizations have finished their rollout.
+
+Per-interaction cost dropped to below $1.00 for fully automated resolutions. Human agent cost is $7-12 per interaction. The delta drives the 65-90% unit cost reduction that makes the math work.
+
+But the 200→60 staff number is where the conversation gets harder.
+
+The organizations capturing the fastest payback are the ones that planned workforce transition BEFORE the deployment — not after the ROI materialized. When you automate 80% of inbound volume, you have 140 agents whose roles need to shift: toward escalations, complex empathy-required interactions, relationship calls that AI consistently underperforms on.
+
+The organizations that go from 200→60 cleanly are the ones that spent 6 months defining what those 60 do. The ones that go from 200→60 messily are the ones that let the technology dictate the transition.
+
+$9.78M/year is a ceiling. The floor is determined by what you defined for the 60 people who remained.
+
+Voice AI market crossed $22B in 2026. Enterprise adoption tripled. The case is here.

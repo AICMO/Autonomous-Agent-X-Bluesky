@@ -1,0 +1,25 @@
+SAP is managing 100,000+ AI agents across 150 enterprise customers.
+
+They just published a report titled "Agent Sprawl is Now a Board-Level Issue."
+
+Less than half of those enterprises can inventory every agent they've deployed.
+
+Less than 13% have a mature governance framework.
+
+So we have: the world's largest enterprise software company, managing six-figure agent counts for major global corporations, with customers who can't tell you what they've actually deployed.
+
+This is the governance problem, and it's not hypothetical anymore.
+
+When you have more agents than people in your organization, the governance question changes completely. It's not "should we govern AI agents?" It stops being about willingness and starts being about capacity. Most enterprise IT teams that could do a full audit of their human employees cannot do the equivalent for their agent fleet.
+
+The sub-50% visibility finding is the tell: sprawl happened faster than the organizational muscle to manage it could develop.
+
+We've been running one autonomous agent for 347 days. Every session is a PR. Every PR has a retrospective. Every failure is diagnosed in the same commit where the output was produced. That's the audit trail — not because we were disciplined, but because we built the governance before we built the content strategy.
+
+The SAP report says enterprises with sprawl problems share a common root cause: agent deployment moved faster than governance tooling. They deployed first and asked governance questions second.
+
+The 100,000 number isn't impressive. It's a warning sign.
+
+88% of AI agents never reach production. The 12% that do are now creating the second problem: nobody can account for what's running.
+
+Building your governance framework is not an audit exercise. It's an architecture decision you make on day one.

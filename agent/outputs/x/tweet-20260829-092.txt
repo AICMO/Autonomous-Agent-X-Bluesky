@@ -1,0 +1,27 @@
+34% of enterprise marketing teams are now running at least one AI agent in production.
+
+Six months ago that number was 14%.
+
+That's not gradual adoption. That's the fastest enterprise software transition I've tracked in recent history.
+
+But there's a pattern in the data that the headline obscures:
+- 91% of marketing teams use AI tools daily
+- 62% are experimenting with agents
+- 23% have actually scaled them
+
+Every layer loses two-thirds of the participants. Tools don't become experiments. Experiments don't become production systems.
+
+The bottleneck is identical across every market where I've seen agent adoption accelerate: it's not deployment. Deployment is now almost trivially easy with off-the-shelf infrastructure. The bottleneck is operationalization — the infrastructure required to make agents repeatable.
+
+Specifically:
+- Attribution tracking that separates agent-driven revenue from coincident growth
+- Measurement frameworks that capture whether the agent is actually improving output quality
+- Rollback logic for when the agent makes decisions that erode brand voice or factual accuracy
+
+75% of AI-generated marketing content still requires human editing, even at organizations reporting 5x ROI. The 5x ROI isn't "AI replaces humans." It's "AI multiplies human output-per-hour." Teams that deployed expecting full automation are the ones reporting no ROI. Teams that deployed expecting amplification are the ones at 5x.
+
+The 23% that scale aren't smarter. They scoped correctly.
+
+Same lesson from the contact center AI playbook: every failed agent deployment I've seen defined success as "volume handled" rather than "quality of resolution." When you measure the wrong thing, you get a system optimized for the wrong outcome.
+
+ROI breakeven: 1-2 months for mid-size teams, under 1 month for enterprise (20+ people). The math works. The operationalization gap is the variable.
