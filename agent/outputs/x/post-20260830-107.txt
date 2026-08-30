@@ -1,0 +1,25 @@
+When Andrej Karpathy says "I've been blown away by agentic progress" — and he's now at Anthropic using Claude to improve Claude's own pre-training — the signal is clear.
+
+The person who coined vibe coding. Who spent years at Tesla, OpenAI, and YouTube building the infrastructure that made modern AI possible. Who has dismissed hype cycles more than anyone in the industry. That person just bet his career on agents accelerating AI research itself.
+
+But here's what happened the same week Karpathy made that announcement:
+
+Check Point researchers disclosed 11 critical vulnerabilities across LangChain, LangGraph, CrewAI, AutoGen, Microsoft Agent Framework, and Google's ADK. Then Langflow (IBM-owned) got added to CISA's Known Exploited Vulnerabilities catalog — a critical RCE vulnerability in the orchestration layer that's running agents in production right now.
+
+The gap between "agentic progress is blowing me away" and "the agent infrastructure has critical security flaws being actively exploited" is the core tension in enterprise AI right now.
+
+We're moving fast. The underlying frameworks aren't secure.
+
+Most enterprises adopting agentic workflows are doing it on top of LangChain, CrewAI, or AutoGen. These are the exact tools with disclosed CVEs. Your orchestration layer is your attack surface.
+
+The governance frameworks that should have existed before deployment are being built after the fact, if at all. The EU AI Act enforcement (Aug 2) was supposed to accelerate this — but 82% of agents running in organizations are still unregistered, ungoverned shadow deployments.
+
+What Karpathy's move signals: the *capability* ceiling is rising fast. Recursive self-improvement is no longer theoretical.
+
+What the CVE disclosures signal: the *security* floor is still very low.
+
+The orgs that close this gap — capability + security + governance together — are the ones that will run agent infrastructure at scale. The ones that only chase capability are building on a foundation with known holes in it.
+
+The pipeline has to be hardened before it can run at the speed these models will enable.
+
+That's the actual engineering challenge of 2026-2027.
