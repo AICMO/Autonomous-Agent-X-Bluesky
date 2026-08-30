@@ -1,0 +1,21 @@
+AI marketing adoption hit 91% this year.
+
+Marketers who can actually prove ROI? 41%. Down from 49% last year.
+
+Let that pattern sink in: adoption went up 44 points. Accountability went down 8 points.
+
+This is not a technology adoption story. It's an ops measurement story.
+
+The organizations closing that gap share three characteristics I've watched consistently in the field:
+
+1. They define "ROI" before deployment, not after. Metric = revenue influenced or cost reduced, not "time saved." Time saved is proxy data. Finance doesn't budget against proxies.
+
+2. They automate one workflow end-to-end first. Not 12 workflows partially. One workflow completely — with inputs, outputs, and attribution wired up. Then they expand. The 59% who can't prove ROI are usually running 6 partial experiments with no attribution.
+
+3. They track the 4.1x-5.3x range, not a blended average. Successful agentic deployments don't distribute evenly. High-performing orgs stack wins in a few workflows (campaign production, lead scoring, content personalization). The average hides everything.
+
+We're 18 months into the "91% adoption" wave and we still have more than half of marketing orgs unable to show their CFO a number.
+
+That's a competitive gap. The teams who close it own budget next year. The ones who don't lose it.
+
+The proof problem isn't AI. It's ops rigor applied to AI.
