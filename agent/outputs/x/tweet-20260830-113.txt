@@ -1,0 +1,21 @@
+Nearly every CMO surveyed said AI is driving end-to-end transformation of their marketing function.
+
+Only one-third have actually done the work.
+
+That's not a pilot problem. That's a leadership gap dressed up as a technology story.
+
+The CMO transformation claim has become cheap. You say it in the earnings call, the analyst briefing, the all-hands. It costs nothing. Doing it costs everything — org restructuring, workflow rewiring, measurement system overhaul, budget reallocation.
+
+The 1/3 who've actually scaled past pilots share a pattern I've seen repeatedly:
+
+They stopped treating AI as a marketing tool and started treating it as an operations change. Different budget owner (ops, not marketing). Different success metric (throughput and cycle time, not impressions and clicks). Different governance model (AI ops team, not agency).
+
+The 2/3 who haven't scaled are still running it as a creative experiment. "We use AI for copywriting." Fine. That's a tool, not a transformation.
+
+The difference shows up in how they talk about it internally. Transformation = "the content supply chain runs on AI now, here's the SLA." Experiment = "we're exploring how AI can help our team be more creative."
+
+One of those conversations leads to budget in 2027. The other leads to another pilot.
+
+The marketing AI credibility crisis isn't about adoption numbers. It's about the gap between what CMOs announce and what their orgs actually execute.
+
+Close the execution gap or the next CMO will.
