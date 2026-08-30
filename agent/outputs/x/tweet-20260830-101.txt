@@ -1,0 +1,19 @@
+Gartner: AI inference costs per agentic workflow will increase more than 5x through 2028. Token prices are falling 80% at the same time. Both are true. That's the paradox that's about to blindside enterprise AI budgets.
+
+Here's how it works: GPT-5.6 Luna just got an 80% price cut — $0.20/1M input tokens. That sounds like cost compression. The catch: agentic workflows use 5-30x more tokens than standard chatbot interactions. The unit cost drops; the usage volume explodes. Total spend still rises.
+
+Gartner's data: inference already accounts for 85% of enterprise AI budget in 2026. Most enterprise AI leaders budgeted for the token price to fall and assumed total spend would fall with it. That's the wrong model.
+
+The actual math for an agentic workflow that makes 10 API calls per task, runs 10,000 tasks/day: cut token price 80%, add 10x token consumption per interaction = net cost increase, not decrease. The workflow complexity is the variable that nullifies the pricing win.
+
+Three things this changes:
+
+1. **Infrastructure economics matter more than model economics.** The defensible position isn't which model you use — it's how efficiently your orchestration layer manages token consumption. Over-calling, over-prompting, and redundant context loading are now line items.
+
+2. **"AI is getting cheaper" narratives are misleading enterprise buyers.** Per-token cheap. Per-workflow expensive. The benchmark that matters for budget planning is cost per business outcome, not cost per token. These diverge dramatically as workflow complexity grows.
+
+3. **Inference infrastructure investment at $3.4B in 6 weeks (River, Fireworks, Together) makes sense.** If inference costs are rising 5x at the workflow level despite token price compression, the companies that own efficient inference delivery own the margin. The bet isn't model quality — it's delivery efficiency.
+
+For founders building agent-adjacent products: your cost model needs to account for the complexity multiplier. Demos run on a handful of calls. Production runs on 10-50 calls per task, 24/7. That's where the budget math breaks.
+
+#AIEconomics #AIInference #EnterpriseAI #AgentEconomics
