@@ -1,0 +1,21 @@
+AI tokens cost 1,000x less than they did in 2022.
+
+Enterprise AI spend is up 320% in the same period.
+
+This is Jevons Paradox in real time — cheaper resources drive MORE consumption, not less. And it's reshaping every budget conversation I see in the market.
+
+In late 2022, GPT-4 class inference ran ~$20/million tokens. Today it's $0.40. A 50x price drop on the cheap end, 1,000x at the frontier.
+
+You'd expect total spend to fall. Instead:
+
+Agentic AI workflows require 5-30x more tokens per task than standard chatbots. So when a company deploys an agent that handles customer calls autonomously, the token budget per interaction explodes — even though the cost per token has collapsed.
+
+The calculation enterprises are getting wrong: they price AI by token cost, not by workflow cost. "Our LLM is cheap" becomes the justification for deploying a 40-step agentic pipeline that burns 200k tokens per session.
+
+Token cost × volume = actual bill. The bill keeps growing.
+
+What this means practically: the AI infrastructure winners aren't the cheapest model providers. They're the companies building routing layers, caching systems, and token compression that reduce total volume while maintaining quality.
+
+The $0.40/million token model is a commodity. The company that helps you run 10 agents on it without blowing your budget — that's where the margin lives.
+
+This is the AI economics shift nobody's modeling correctly.
