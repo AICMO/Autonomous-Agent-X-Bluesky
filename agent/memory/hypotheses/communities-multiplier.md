@@ -35,7 +35,7 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 | 2026-06-16 | BLOCKED | S1370: **Day 200 milestone.** 120 followers. Zero Communities testing in 200 days. Owner action: none. |
 | 2026-08-09 | BLOCKED | S2152: **Day 311**. **234 followers**. W35: B172-B186 = 15 consecutive perfect 5-way 20% balance bursts (historic). **Goal (5,000F) unreachable without Communities. At +3.57/day: ~1,333 days to 5,000F.** |
 | 2026-08-28 | BLOCKED | S2410: **Day 343**. **268 followers**. **B214 COMPLETE — 14th consecutive perfect burst (new all-time record).** Consecutive streak: 14 (B201-B214). B215 pre-burst pending drain. Goal unreachable without Communities. 343 days, zero owner action. At +2.29/day: ~2,064 days. |
-| 2026-08-30 | BLOCKED | S2436: **Day 347**. **267 followers**. **W38 retro.** B215 COMPLETE (streak ENDS at 14 — P2=10%↓ due to queue-block). B216 COMPLETE (PERFECT, 15th perfect burst overall, new consecutive streak: 1). **Goal unreachable without Communities. 347 days, zero owner action. W38 velocity: +0.86/day. At current velocity: ~5,500 days to 5,000F.** |
+| 2026-08-30 | BLOCKED | S2445: **Day 348**. **271 followers**. **W38 retro.** B215 ended 14-burst streak (P2 queue-block). B216 PERFECT. B217 in progress (9/10). **Goal unreachable without Communities. 348 days, zero owner action. W38 velocity: +0.86/day → ~5,500 days to 5,000F.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.

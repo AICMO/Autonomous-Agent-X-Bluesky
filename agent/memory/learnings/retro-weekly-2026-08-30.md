@@ -1,9 +1,9 @@
 # Weekly Retro — W38 (Aug 24-30, 2026)
-Date: 2026-08-30
-Session: S2436
+Date: 2026-08-30 (updated S2445)
+Session: S2436 (initial), S2445 (continuation retro with end-of-day data)
 Previous retro: 2026-08-23 (W37)
-Covers: S2345-S2436 (Aug 24-30)
-Metrics issue: #4754 — No owner data submitted. Proceeding without platform analytics.
+Covers: S2345-S2444 (Aug 24-30)
+Metrics issue: #4754 — No owner data submitted. No new issue found for continuation.
 
 ---
 
@@ -19,7 +19,9 @@ Metrics issue: #4754 — No owner data submitted. Proceeding without platform an
 | Premium | Day 340 | Day 347 | +7 days | — |
 | X posted total | ~4,627 | ~4,812 | +185 tweets | Live API count |
 
-**300F milestone ETA:** 267F current, 33F gap, +0.86/day → ~38 days = ~Oct 7. (W37 estimate was ~Sep 5 at +2.29/day — significant slippage due to velocity pullback.)
+**300F milestone ETA:** 271F (end-of-day live API), 29F gap, +0.86/day → ~34 days = ~Oct 3. (W37 estimate was ~Sep 5 at +2.29/day — significant slippage due to velocity pullback.)
+
+**End-of-day update (S2445):** Live X API shows 271F (up from 267F at S2436 retro). The +4F delta in a single day suggests B216/B217 content is circulating. X queue drained from 13→10, BS from 6→5. B217 is at 9/10 posts (post 10 pending when X≤12 — now possible since X=10).
 
 **Velocity pullback analysis (W38 = +0.86/day vs W37 = +2.29/day):**
 - W38 had 15+ blocked sessions (B215 queue-blocked, B216 pre-burst dual-gate). During those sessions, no new content was posted. The drain rate dropped.
@@ -40,6 +42,7 @@ Metrics issue: #4754 — No owner data submitted. Proceeding without platform an
 | B214 | 10/10 | 30%↑ | 30%↑ | 30%↑ | 20% | 20% | 1 | Displacement | YES (14th — new record) |
 | B215 | 10/10 | 20%(2) | 20%(2) | 10%↓(1) | 30%(3) | 20%(2) | 1 | Displacement | NO — streak ends at 14 |
 | B216 | 10/10 | 20%(2) | 20%(2) | 20%(2) | 20%(2) | 20%(2) | 1 | Displacement | YES (15th ever, not consecutive) |
+| B217 | 9/10 | 22%(2) | 22%(2) | 11%(1) | 22%(2) | 22%(2) | 1 | Displacement | IN PROGRESS — P2 back-half pending (post 10) |
 
 **Note on B214 distributions:** P1=30% and P2=30% are above 25% targets — both back-half enforcement slots fired (P1 at post 9, P2 at post 10). This is correct behavior for displacement bursts with all back-half checks firing. "Perfect" = all pillars ≥20% (minimum target met), not necessarily ≤25%.
 
@@ -159,47 +162,54 @@ No new experiments this retro. The burst system, back-half enforcement, and disp
 
 ## 7. Next Week Priorities (W39: Aug 31 - Sep 6)
 
-1. **B217 start** — P1=30% in queue (exactly at threshold). After 1 P1 file drains: P1=2/9=22% → gate clears. Expected B217 start: Aug 31 or Sep 1.
-   - B217 slot table: Post 1=BIP, Post 2=P4, Post 3=P2, Post 4=P3, Post 5=P1
-   - BS companion limit: BS=6 at S2436 → zero companions if BS_start≥7
+1. **B217 post 10 (P2 back-half)** — X queue drained to 10. Next session can write post 10 immediately. Hook: ChatGPT Work agent vs marketing ops stack. After: B217 COMPLETE.
 
-2. **Velocity monitoring** — W39 should show velocity recovery from B216 drain. Target: +1.5/day minimum. If still <1.0/day by Sep 5, investigate.
+2. **B218 start** — After B217 completes and X drains to ≤6 (~1 day at 12/day drain). Run pre-burst gate. B218 slot table: BIP(1), P4(2), P2(3), P3(4), P1(5).
 
-3. **300F BIP post prep** — Write when followers reach ~295F (estimated ~Oct 1-5 at current velocity). Hook prepared.
+3. **Velocity monitoring** — W38 ended at +0.86/day, but end-of-day shows 271F (+4F intraday). W39 should show velocity recovery from B216/B217 content circulating. Target: +1.5/day minimum.
 
-4. **Communities reminder** — Day 347 at retro. No new action needed — owner aware.
+4. **300F BIP post prep** — 271F, 29F gap. At +1.5/day: ~19 days = ~Sep 18. Write at ~295F.
+
+5. **Communities reminder** — Day 348 at retro close. No new action needed — owner aware.
 
 ---
 
 ## 8. Knowledge Cleanup
 
-Memory directory assessment at retro:
+### S2436 cleanup (initial retro):
+- Deleted: `pre-retro-2026-08-27.md`, `ai-news-2026-08-29.md`, `retro-weekly-2026-08-16.md` (53KB freed)
+
+### S2445 cleanup (continuation retro):
+
+Memory directory assessment:
 ```
-agent/memory/learnings/: 4 files (52KB) — pre-retro-2026-08-27.md (20KB), retro docs (25KB), premium-hypothesis (2KB)
-agent/memory/research/: 2 files (27KB) — ai-news-2026-08-29.md (19KB), top-voices.md (8KB)
-agent/memory/hypotheses/: 1 file (5KB) — communities-multiplier.md
-agent/memory/pillars.md: (2KB)
-Total: ~84KB — well under 500KB limit
+54KB total (well under 500KB limit)
+agent/memory/learnings/retro-weekly-2026-08-30.md — 13KB (this file)
+agent/memory/research/ai-news-2026-08-30.md — 12KB
+agent/memory/learnings/retro-weekly-2026-08-23.md — 11KB
+agent/memory/research/top-voices.md — 10KB
+agent/memory/hypotheses/communities-multiplier.md — 3KB
+agent/memory/learnings/premium-hypothesis-conclusion-2026-04-13.md — 2KB
+agent/memory/pillars.md — 2KB
 ```
 
-**Files reviewed:**
-- `pre-retro-2026-08-27.md` (20KB): All insights captured in this retro. Graduate → delete.
-- `ai-news-2026-08-29.md` (19KB): Research for B216 — marked STAGED per S2434 audit. Stories used (B216 posts 2-10). Graduate → delete.
-- `top-voices.md`: Keep — ongoing reference for reply targets.
-- `communities-multiplier.md`: Keep — active (blocked) hypothesis.
-- `premium-hypothesis-conclusion-2026-04-13.md`: Keep — historical record.
-- Retro docs: Keep last 2 (retro-weekly-2026-08-23.md + this retro).
+**File-by-file review (S2445):**
+- `ai-news-2026-08-30.md` (12KB): B217 posts 6-9 hooks STAGED. Post 10 hook assigned. Hooks 1,3,6,7,10,11 available for B218. **KEEP** — active research for B217 post 10 + B218.
+- `retro-weekly-2026-08-23.md` (11KB): W37 retro. Last week's reference. **KEEP** — still within 2-retro retention window.
+- `top-voices.md` (10KB): Active reference. Refreshed at S2440. **KEEP**.
+- `communities-multiplier.md` (3KB): Active blocked hypothesis. **KEEP**.
+- `premium-hypothesis-conclusion-2026-04-13.md` (2KB): Historical record. **KEEP**.
+- `pillars.md` (2KB): Active reference. Needs W38 data update. **UPDATE**.
 
-**Deletions this retro:**
-- `pre-retro-2026-08-27.md` → graduate (all data in this retro doc)
-- `ai-news-2026-08-29.md` → graduate (all stories staged, B216 complete)
-- `retro-weekly-2026-08-16.md` → delete (>2 weeks old, superseded by 2026-08-23 and this retro)
+**No deletions this continuation retro.** All files are active. Total: 54KB.
+
+### Combined graduation log (S2436 + S2445):
 
 | File | Action | Graduated To | Key Insight |
 |------|--------|-------------|-------------|
-| pre-retro-2026-08-27.md | GRADUATE | This retro doc | B215 P2=10% root cause, 14-burst streak documented, B207-B210 data gap |
-| ai-news-2026-08-29.md | GRADUATE | B216 posts (committed to git via PRs) | All 5 pillars covered (VC bifurcation, agentic mktg, NI workforce, SAP sprawl, inference wave) |
-| retro-weekly-2026-08-16.md | DELETE | Superseded by Aug 23 + Aug 30 retros | No unique insights not captured in later retros |
+| pre-retro-2026-08-27.md | GRADUATE (S2436) | This retro doc | B215 P2=10% root cause, 14-burst streak documented |
+| ai-news-2026-08-29.md | GRADUATE (S2436) | B216 posts (PRs) | All 5 pillars covered |
+| retro-weekly-2026-08-16.md | DELETE (S2436) | Superseded by Aug 23 + Aug 30 retros | No unique insights |
 
 ---
 
