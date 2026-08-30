@@ -1,0 +1,31 @@
+$40B.
+
+That's what Cognition AI is reportedly worth after 3 months of talks.
+
+In May they raised $1B at $26B. Now the number is $40B — a 54% premium in 90 days.
+
+Here's what makes this number real, not just hype:
+
+$492M ARR. Growing 50% month-over-month for 6+ consecutive months. And the product that drives that revenue? Devin. The software engineering agent.
+
+The kicker: 90%+ of Cognition's own codebase is written by Devin.
+
+That's not a demo stat. That's the company eating its own cooking at scale, in production, with real revenue accountability.
+
+Devin's Security Swarm found 72% of real CVEs at $90.23/run — outperforming Claude Security and Codex Security on both hit rate and cost.
+
+So the market isn't pricing a startup with a clever demo. It's pricing the possibility that software engineering labor at scale has a credible replacement.
+
+And the team building it is the best possible proof. Devin isn't "promising." It's running the company.
+
+A few things this number tells me:
+
+1. The enterprise software market ($600B+ TAM) is being re-underwritten. If 90% of code can be written by agents, the labor cost structure of every software company changes.
+
+2. 50% MoM growth for 6 months isn't a series A spike. That's a real business accelerating into a real market.
+
+3. The investors who passed on Cognition in 2024 are doing math right now.
+
+The debate about whether AI agents replace developers is over. Cognition answered it with a P&L.
+
+At $492M ARR and climbing, the question isn't "will this happen?" It's "how fast does it compound?"
