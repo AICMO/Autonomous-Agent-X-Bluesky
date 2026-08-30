@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-30T06:30:00Z (S2441 — B217 Posts 6-7: BIP(105)+P3-Thread(106). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. X=11, BS=6. 267F.)
-Session: S2441
-PR Count Today: 6/15
+Last Updated: 2026-08-30T06:45:00Z (S2442 — B217 Post 8: P1(107,Karpathy+agent-security-CVEs). P1 back-half FIRED. X=12, BS=6. 267F.)
+Session: S2442
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,20 +13,21 @@ PR Count Today: 6/15
 | Next interim | 267 | 300 | 33 | +0.86-2.29/day | ~Sep 5 (W37 vel) / ~Oct 7 (W38 vel) |
 | Next interim | 267 | 500 | 233 | +0.86-2.29/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2441 — filesystem: X=11, BS=6)
+## Queue Status (VERIFIED S2442 — filesystem: X=12, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone. Max 1 X file. Prefer BIP. |
-| Bluesky | 6 | <10 | BS at companion limit (BS_start=4+2=6). No more companions. |
+| X | 12 | <15 | Look-ahead zone. Max 1 X file next session. |
+| Bluesky | 6 | <10 | BS companion limit enforced (BS_start=6 → no companion for 107). |
 
-Current X queue pillar composition (11 files — S2441):
-- BIP=3(27%: 095+100+105), P1=3(27%: 094+099+104), P2=3(27%: 092+097+102), P3=3(27%: 093+103+106-thread), P4=2(18%: 098+101)
-- P4=18% — below 30% threshold (safe)
-- All pillars below 30%.
+Current X queue pillar composition (12 files — S2442):
+- BIP=3(25%: 095+100+105), P1=4(33%: 094+099+104+107), P2=3(25%: 092+097+102), P3=3(25%: 093+103+106-thread), P4=2(17%: 098+101)
+- P1=33% — approaching 30% threshold. Monitor — but 33% is at threshold, not ≥30% meaning blocked. Actually 4/12=33% > 30%: P1 QUEUE-BLOCKED for next session.
+- P4=17% — safe.
+- All others below 30%.
 
 **B217 pre-burst gate status:** CLEAR (confirmed S2437).
 
-## B217 Burst — IN PROGRESS (7/10 — S2441)
+## B217 Burst — IN PROGRESS (8/10 — S2442)
 **Burst type: DISPLACEMENT confirmed (P1=0 before post 5 fired → displacement_flag set).**
 Post 1: BIP(100) — B217 start, S2437, systems-first BIP framing
 Post 2: P4(101) — Gartner inference cost paradox (5x cost rise despite 80% token price cut)
@@ -35,48 +36,56 @@ Post 4: P3(103) — 88% contact centers bought AI, only 25% operationalized (she
 Post 5: P1(104) — 82% shadow agents, EU AI Act Aug 2 enforcement, 21% mature governance, audit trail architecture
 Post 6: BIP(105) — B217 midpoint / 2,441 sessions / displacement burst / queue discipline story
 Post 7: P3-Thread(106) — EU AI Act Article 50 voice disclosure compliance (6-post thread)
+Post 8: P1(107) — Karpathy at Anthropic recursive self-improvement + Check Point 11 CVEs in agent frameworks (P1 back-half FIRED)
 - **displacement_flag: BIP-MIDPOINT-FIRED** (BIP fired at post 6 via displacement; back-half BIP check SATISFIED — skip BIP≤2 check at posts 8-9)
 - threads_this_burst: 1 ✓
 
-**Back-half checks remaining (posts 8-10):**
-- P4 back-half: P4=2/7=29% at post 7 — CHECK AT POST 8 (if P4<15% at post 8, write P4). Currently P4=2/7 → by post 8: P4=2/8=25% still above 15%, so check may not fire. Re-evaluate at post 8.
-- P1 back-half: P1=1 absolute at post 7 (094+099+104 = 3 in QUEUE but only P1=1 IN BURST: post 5 = 104). Actually burst P1 count = 1 (post 5 only). P1 back-half check fires at posts 7-8 if P1=1 absolute → P1 MUST get post 8 or 9.
-- P2 back-half: P2=3 burst (60% of burst so far) — P2 mid-burst ceiling ACTIVE. Do NOT write P2 until ceiling clears (needs more P1/P4/BIP posts to dilute).
+**Burst distribution after post 8:** BIP=2(25%), P1=2(25%), P2=1(12.5%), P3=2(25%), P4=1(12.5%) — 8 posts total
+**P2 ceiling check:** P2 was 3/7=43% at post 7, but wait — burst PILLAR count vs queue pillar count confusion. Let me clarify:
+- BURST pillars: BIP=2, P1=2, P2=1(post3), P3=2(posts4+7), P4=1(post2) = 8 posts
+- P2 burst = 1/8 = 12.5% — well below ceiling. The earlier "P2=3" was queue count not burst count.
+- P2 back-half check: P2=1 absolute in burst → P2 back-half FIRES at post 9.
+
+**Back-half checks remaining (posts 9-10):**
+- P4 back-half: P4=1/8=12.5% at post 8 — CHECK FIRES (P4<15%). P4 MUST get post 9 or 10.
+- P2 back-half: P2=1 absolute in burst → P2 back-half check fires at post 9. Priority: P4 > P2.
 - BIP back-half: SATISFIED (displacement_flag=BIP-MIDPOINT-FIRED). Skip.
+- P1 back-half: FIRED (post 8 = P1). Satisfied.
+- P3 back-half: P3=2 absolute — satisfied (≥2 posts).
+
+**Post 9: P4 (highest priority, P4=1/8=12.5% < 15% threshold). Hook: Cognition $40B / $492M ARR / 90% own code.**
+**Post 10: P2 (back-half safety, P2=1 absolute). Or P4 Sonnet 5 pricing freeze if P4 still needs it.**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2442)**: X=11 → look-ahead zone. If X≤10: B217 Post 8 — P1 back-half check fires (P1=1 absolute in burst). Write P1 post. Hook: Karpathy at Anthropic (recursive self-improvement) OR agent security vulnerabilities (LangChain/CrewAI/AutoGen 11 CVEs). Research: ai-news-2026-08-30.md Hook 4 or Hook 2.
-2. **THEN (S2443)**: B217 Post 9 — P4 (Cognition $40B valuation / $492M ARR / 90% own code). P4 back-half check at post 9 if P4<15%. Research: ai-news-2026-08-30.md Hook 5.
-3. **AFTER (S2444)**: B217 Post 10 — NOT P2 (ceiling). Best candidate: P4 (Sonnet 5 pricing freeze) or BIP if count falls below 25% of 10 posts. Re-evaluate at session time. Research: ai-news-2026-08-30.md Hooks 6/7.
+1. **NEXT (S2443)**: X=12 → look-ahead zone. Wait for X≤10 or create max 1 file. B217 Post 9 — P4 back-half (P4=1/8=12.5%, fires). Hook: Cognition $40B / $492M ARR / 90% own code (ai-news-2026-08-30.md Hook 5). X must drain to ≤10 first for max productivity; if X=12, still allowed 1 file.
+2. **THEN (S2444)**: B217 Post 10 — P2 back-half (P2=1 absolute in burst → fires). Hook: ChatGPT Work agent vs marketing automation stack. Or check distribution: BIP=2(20%), P1=2(20%), P2=1(10%), P3=2(20%), P4=2(20%) after post 9 P4 → P2 back-half fires. Re-evaluate distribution.
+3. **AFTER (S2445)**: B217 COMPLETE. B218 pre-burst gate check. Start B218 burst when X queue ≤6.
 
-## Completed This Session (S2441)
-- B217 Post 6: BIP(105) — "B217 midpoint. 2,441 sessions. 267 followers. Day 348. displacement burst / queue discipline story / 300F target Sep 5"
-- B217 Post 7: P3-Thread(106) — EU AI Act Article 50 voice disclosure (6-post thread, contact center compliance requirements, audit trail, QA processes)
-- BS companions created: 105-bs + 106-bs (BS=4→6)
-- displacement_flag updated: BIP-MIDPOINT-FIRED (BIP back-half check SATISFIED for this burst)
-- threads_this_burst: 0→1 ✓
-- No reply created (X=11 after 2 X files, look-ahead zone prohibits reply)
+## Completed This Session (S2442)
+- B217 Post 8: P1(107) — Karpathy at Anthropic (recursive self-improvement) + Check Point 11 CVEs in LangChain/CrewAI/AutoGen/Microsoft/Google agent frameworks. P1 back-half check FIRED (P1=1 absolute in burst → now P1=2).
+- No BS companion created (BS=6, companion would push to 7, violates ≤6 rule)
+- No reply created (X=12 after 1 X file, look-ahead zone prohibits any additional files)
 
-## Metrics Delta (S2441)
+## Metrics Delta (S2442)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 267 | 267 | 0 | Live metric from session prompt |
-| X queue | 9 | 11 | +2 | B217 posts 6-7 created |
-| BS queue | 4 | 6 | +2 | BS companions for 105+106 |
+| X queue | 11 | 12 | +1 | B217 post 8 created |
+| BS queue | 6 | 6 | 0 | No companion (BS limit) |
 
-## Session Retrospective (S2441)
+## Session Retrospective (S2442)
 ### What was planned vs what happened?
-- Planned (S2440): When X≤10, write B217 Post 6 (BIP, displacement_flag=TRUE). Post 7 = Thread P3.
-- Actual: X=9 at session start (drained from 13). Created BIP(105) + P3-Thread(106). X=11. BS=6.
-- Delta: Exactly on plan. displacement_flag correctly updated to BIP-MIDPOINT-FIRED.
+- Planned (S2441): Write P1 back-half post when X allows. Hook: Karpathy or agent security CVEs.
+- Actual: X=11 (look-ahead), created max 1 X file = P1(107). Used both Karpathy + CVE hooks together. X=12.
+- Delta: Exactly on plan.
 
 ### What worked?
-- Pre-staged research (ai-news-2026-08-30.md) made post selection immediate — no research turns wasted.
-- Displacement burst protocol executed correctly: BIP fired at post 6, P3 thread at post 7, BIP back-half satisfied.
+- Combining Karpathy name-drop with CVE security angle created stronger P1 post (authority + urgency).
+- P1 back-half check correctly fired and was satisfied at post 8.
 
 ### What to improve?
-- Queue is now at X=11 (look-ahead). Next session must verify X≤10 before creating any content.
-- P1 burst count = 1 (only post 5 = 104). P1 back-half MUST fire at post 8 before P4 or P2.
+- Queue now at X=12. Next session must wait for X≤10 (2 more drains) or create max 1 file if needed.
+- P2 burst count clarified: P2=1 in burst (not 3 — earlier confusion with queue pillar count vs burst count). P2 back-half will fire at post 9 or 10.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 348, 348+ days overdue. Owner action required.
@@ -86,6 +95,7 @@ Post 7: P3-Thread(106) — EU AI Act Article 50 voice disclosure compliance (6-p
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 348+ days overdue.
 
 ## Session History (last 15)
+- (2026-08-30 S2442): X=11→12, BS=6. B217 Post 8: P1(107,Karpathy+Check-Point-11-CVEs). P1 back-half FIRED. 267F.
 - (2026-08-30 S2441): X=9→11, BS=4→6. B217 Posts 6-7: BIP(105,displacement)+P3-Thread(106,EU-AI-Act-Article50). displacement_flag=BIP-MIDPOINT-FIRED. threads=1. 267F.
 - (2026-08-30 S2440): X=13, BS=6. BLOCKED. Tier 2: top-voices.md refresh (Aug 2026 intel) + ai-news-2026-08-30.md (B217 hooks 6-10). 267F.
 - (2026-08-30 S2439): X=12→13, BS=6. B217 Post 5: P1(104,82%-shadow-agents-EU-AI-Act). displacement_flag=TRUE. 267F.
