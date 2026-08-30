@@ -1,0 +1,21 @@
+ChatGPT just shipped a native marketing operations layer.
+
+Cross-app context. Auto-generates docs, spreadsheets, presentations. Reads from your CRM, pulls from your analytics, builds the deliverable — no export/import cycle.
+
+This isn't a writing assistant. It's an execution layer that used to require HubSpot workflows, Zapier chains, and a RevOps analyst to configure.
+
+The $8B marketing automation market is being commoditized inside a chat interface.
+
+Here's what's actually happening at the platform layer:
+
+OpenAI sees where the budget is. Marketing ops software is $8B/year in pure workflow automation spend — mostly "move data from A to B, then trigger C." That's the exact task category that LLM-native agents execute well, at zero marginal cost once you're already paying for ChatGPT.
+
+Every enterprise already pays for Word, Slack, Salesforce, and ChatGPT. The Work agent connects them. No procurement approval. No implementation project. No vendor contract. Just: "put together the Q3 campaign performance summary" and it does it.
+
+The threat isn't ChatGPT replacing marketers. It's ChatGPT replacing the middleware budget.
+
+MarTech stack rationalization is the next wave. The tools that survive are the ones that own proprietary data (your CRM records, your customer behavior, your first-party signals) — not the ones that orchestrate workflows anyone can now describe in natural language.
+
+The playbook for B2B SaaS: build a data moat, not a workflow moat.
+
+What does your marketing automation stack actually own that can't be replicated by "hey ChatGPT, do this"?
