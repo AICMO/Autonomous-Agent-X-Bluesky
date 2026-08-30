@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-08-03
+Last updated: 2026-08-30 (S2440 — refreshed with August 2026 intelligence)
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -16,7 +16,8 @@ Refresh: Monthly (or when new relevant accounts found)
 - Platform: X
 - Focus: Autonomous agents, LLMs, agentic ML experimentation
 - Why: Coined "vibe coding", released autoresearch (agentic ML framework). 8M+ view posts. Foundational voice in agents space.
-- Recent: **May 2026 — Joined Anthropic** (pre-training team under Nick Joseph). Demonstrated AI agent conducting 700 experiments in 2 days → 11% training speedup. Said he was "blown away" by agentic coding progress after dismissing it months earlier — major credibility signal for agent autonomy.
+- Recent: **May 2026 — Joined Anthropic** (pre-training team under Nick Joseph). Demonstrated AI agent conducting 700 experiments in 2 days → 11% training speedup. His team's goal: use Claude to autonomously accelerate Anthropic's own pre-training research — recursive self-improvement at production scale. His arrival triggered talent cascade: Nobel laureate John Jumper (June), Berkeley CS chair Jelani Nelson (July), Monzo co-founder Tom Blomfield (compute team, July). Anthropic assembling pre-IPO brain trust.
+- Content hook: "Karpathy's team is using Claude to improve Claude. That's not a demo — that's production recursive self-improvement." → P1 angle.
 - Pillar fit: Autonomous Agents (P1)
 
 ### @ylecun — Yann LeCun
@@ -71,9 +72,10 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @cognition_labs — Cognition AI (Devin)
 - Platform: X
 - Focus: Software engineering agents, Devin autonomous coder
-- Why: $25-26B valuation (up from $10.2B Sep 2025), $492M ARR (up from $73M). 89% of Cognition's own code written by Devin. Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz (cut 8-month project to 8 days). AI coding agents growing 50% MoM for 6 straight months.
-- Recent: May 2026 — $1B funding round at $25B pre-money valuation.
-- Pillar fit: Autonomous Agents (P1)
+- Why: $25-26B valuation (up from $10.2B Sep 2025), $492M ARR (up from $73M). 90%+ of Cognition's own code written by Devin (up from 89%). Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz. AI coding agents growing 50% MoM for 6 straight months.
+- Recent: **August 12, 2026 — In talks to raise at $40B valuation** (up from $26B in May), driven by $492M ARR. July 2026: Devin Security Swarm launched (found 72% of real CVEs at $90.23/run, beating Claude Security and Codex Security). Acquired TierZero (SRE automation) July 20. FedRAMP High certification in process.
+- Content hook: "$40B valuation at $492M ARR. 90% of their own code written by their own AI. Devin isn't a coding assistant — it IS the engineering team." → P4 + P1 dual hook.
+- Pillar fit: Autonomous Agents (P1), AI Economics (P4)
 
 ### @drfeifei — Fei-Fei Li
 - Platform: X
@@ -91,8 +93,9 @@ Refresh: Monthly (or when new relevant accounts found)
 - Platform: X
 - Focus: Claude, Constitutional AI, model safety, agent capabilities
 - Why: Posts about Claude agents directly relevant. Good content inspiration source.
-- Recent: **June 30, 2026 — Claude Sonnet 5 launched.** Most agentic model yet. Autonomously uses browsers/terminals. Near-Opus 4.8 performance at lower cost. Karpathy (now Anthropic) joining pre-training team is a major signal. Agentic capability now the price-tier baseline — differentiator shifting to cost + reliability.
-- Pillar fit: Autonomous Agents (P1)
+- Recent: **July 24, 2026 — Claude Opus 5 launched.** 1M token context, 128K output, adaptive thinking by default, five-level effort settings, priced $5/$25/M tokens. Built specifically for long-running autonomous agent workloads. **August 10: Sonnet 5 pricing permanently frozen at $2/$10** (was going to rise to $3/$15 on Sept 1 — cancelled). Competing on cost, not just capability. In talks to acquire Decart (Israeli compute efficiency startup) for ~$6B (August 13). Claude Code: added restricted mode, cross-session messaging, Enterprise usage credits.
+- Content hook: "Anthropic just froze Sonnet 5 pricing permanently. $2/M input. That's half what they planned to charge. Agent economics are moving faster than anyone modeled." → P4 angle.
+- Pillar fit: Autonomous Agents (P1), AI Economics (P4)
 - Note: Outbound API replies do NOT work (same 403 restriction as all other accounts). Use for inspiration only.
 
 ### @LoganKilpatrick — Logan Kilpatrick
@@ -125,10 +128,10 @@ Refresh: Monthly (or when new relevant accounts found)
 
 | Account | Company | Why watch |
 |---------|---------|-----------|
-| @bland_ai | Bland AI | Voice AI for phone calls, building in public |
-| @retellai | Retell AI | Developer-first voice agent infrastructure — key April 2026 voice AI player |
+| @bland_ai | Bland AI | **$50M Series C June 2026 (180 investor rejections story). 3.5M+ calls/week. Built own voice models. $100M+ total funding.** Voice AI for complex high-stakes calls (healthcare, financial services). Pillar: P3 |
+| @retellai | Retell AI | **$50M+ ARR at 25-40 people** — extraordinary unit economics. ~600ms latency, $0.07/min all-in, HIPAA standard. Post-call analytics: sentiment scores, failed handoff flags. Pillar: P3/P4 |
 | @regalvoice | Regal.ai | Outbound voice AI sales |
-| @lindyai | Lindy (Flo Crivello) | Voice AI platform, founder-led, ex-Teamflow/Uber PM. High-signal voice AI infrastructure posts. Pillar: P3 |
+| @lindyai | Lindy (Flo Crivello) | SMB/mid-market voice AI. Handles inbound + outbound, automates post-call workflows (CRM updates, follow-ups, transcripts). Integrates voice + email + calendar. Pillar: P3 |
 | @voicerun | VoiceRun | Developer-first voice AI, $5.5M seed (Flybridge). Infrastructure focus. Pillar: P3 |
 
 ---
@@ -149,4 +152,4 @@ Refresh: Monthly (or when new relevant accounts found)
 - **Only working strategy: Reply-to-own** (100% success — requires numeric tweet ID from workflow logs)
 - Best use of this list: Content inspiration and intelligence, not reply target generation
 - **Voice AI founders** (Lindy, VoiceRun, Retell): High-signal P3 content hooks — monitor for product launches, funding news, benchmark data
-*(June-August 2026 intelligence entries graduated to retro docs and deleted. Key data points (Karpathy→Anthropic, Claude Sonnet 5, Cognition $25B, JADEPUFFER, EU AI Act, CCW 2026) all POSTED/STAGED/STALE by B206. See git history for full entries. Refresh with current research at next burst start.)*
+*(S2440 refresh — August 2026 intelligence updated inline above. Key new data points: Cognition $40B valuation talks + 90% own code (Aug 12), Claude Opus 5 launch (Jul 24) + Sonnet 5 pricing frozen (Aug 10), Bland AI $50M Series C after 180 rejections (Jun 16), EU AI Act Article 50 enforcement live (Aug 2), AAIF agent standards (Aug 20), GPT-5.6 + ChatGPT Work (Jul 9), agent security vulnerabilities (LangChain/CrewAI/AutoGen, early Aug). All hooks pre-staged in ai-news-2026-08-30.md.)*

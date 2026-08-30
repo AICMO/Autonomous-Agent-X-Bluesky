@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-08-30T01:25:00Z (S2439 — B217 Post 5: P1(104,82%-shadow-agents-EU-AI-Act). X=12→13, BS=6. displacement_flag=TRUE. 267F.)
-Session: S2439
-PR Count Today: 4/15
+Last Updated: 2026-08-30T02:15:00Z (S2440 — BLOCKED (X=13). Tier 2: top-voices.md refreshed (Aug 2026 intel) + ai-news-2026-08-30.md created (B217 Posts 6-10 hooks). 267F.)
+Session: S2440
+PR Count Today: 5/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,7 +13,7 @@ PR Count Today: 4/15
 | Next interim | 267 | 300 | 33 | +0.86-2.29/day | ~Sep 5 (W37 vel) / ~Oct 7 (W38 vel) |
 | Next interim | 267 | 500 | 233 | +0.86-2.29/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2439 — filesystem: X=13, BS=6)
+## Queue Status (VERIFIED S2440 — filesystem: X=13, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
 | X | 13 | <15 | Near-limit zone. ZERO content next session. |
@@ -38,35 +38,35 @@ Post 5: P1(104) — 82% shadow agents, EU AI Act Aug 2 enforcement, 21% mature g
 - threads_this_burst: 0
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2440)**: BLOCKED — X=13 near-limit. Zero content. Blocked session protocol (Tier 1 work).
-2. **THEN (S2441)**: When X drains to ≤10 → B217 Post 6. **displacement_flag=TRUE AND BIP=1 → BIP wins post 6 over P2 secondary slot.** Write BIP at post 6. Set displacement_flag=BIP-MIDPOINT-FIRED after writing.
-3. **AFTER (S2442)**: B217 Post 7 — thread (threads_this_burst=0, thread back-half rule). Thread pillar: most under-represented safe pillar. Check queue composition first.
+1. **NEXT (S2441)**: When X drains to ≤10 → B217 Post 6. **displacement_flag=TRUE AND BIP=1 → BIP wins post 6 over P2 secondary slot.** Write BIP at post 6. Set displacement_flag=BIP-MIDPOINT-FIRED after writing. Research hooks: see ai-news-2026-08-30.md.
+2. **THEN (S2442)**: B217 Post 7 — thread (threads_this_burst=0, thread back-half rule). Best thread angle: EU AI Act Article 50 voice disclosure (P3) — timely, compliance implications for EU call centers. See ai-news-2026-08-30.md Hook 9.
+3. **AFTER (S2443)**: B217 Post 8 — P4 (Cognition $40B valuation, $492M ARR, 90% own code) + P1 back-half check (P1=1 → P1 post needed at 8 or 9). See ai-news-2026-08-30.md Hooks 5 and 2.
 
-## Completed This Session (S2439)
-- B217 Post 5: P1(104) — 82% shadow AI agents / EU AI Act enforcement / 21% mature governance / audit trail architecture. X=12→13.
-- displacement_flag set to TRUE (P1=0 before post 5 → BIP displaced to post 6)
-- No reply created (X=13 after content — at near-limit)
-- No BS companions (BS=6, at companion limit)
+## Completed This Session (S2440)
+- BLOCKED session (X=13 near-limit). Zero content created.
+- Tier 2 work: top-voices.md refreshed with August 2026 intelligence (Cognition $40B, Claude Opus 5, Bland AI $50M, EU Act enforcement, AAIF agent standards, GPT-5.6).
+- Created ai-news-2026-08-30.md: pre-staged hooks for B217 Posts 6-10 with angle duplication check and recommended sequence.
+- Skills and pre-retro not eligible (same-burst audit at S2434, W38 retro ran today S2436).
 
-## Metrics Delta (S2439)
+## Metrics Delta (S2440)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 267 | 267 | 0 | Same (live X API) |
-| X queue | 12 | 13 | +1 | 1 P1 content post added (104) |
-| BS queue | 6 | 6 | 0 | No change (at companion limit) |
+| Followers | 267 | 267 | 0 | No change (blocked session) |
+| X queue | 13 | 13 | 0 | No content created (BLOCKED) |
+| BS queue | 6 | 6 | 0 | No change |
 
-## Session Retrospective (S2439)
+## Session Retrospective (S2440)
 ### What was planned vs what happened?
-- Planned: B217 Post 5=P1 (first-5-posts mandate). X=12 look-ahead, max 1 post.
-- Actual: P1(104) written — 82% shadow agents / EU AI Act / 21% governance / audit trail angle. Distinct from existing P1 posts (094=SAP governance, 099=88% failure/blockers). X=12→13.
-- Delta: Exactly as planned. displacement_flag=TRUE set correctly.
+- Planned: BLOCKED (X=13 near-limit). Tier 1 work.
+- Actual: Tier 1 options exhausted (skills audited same burst S2434, W38 retro ran today S2436, no CLAUDE.md improvement with 2+ confirmed recurrences). Moved to Tier 2: memory refresh (top-voices.md + new research file).
+- Delta: Productive Tier 2 session — research ready for B217 Posts 6-10.
 
 ### What worked?
-- Fresh P1 angle: shadow AI agents + EU AI Act enforcement (Aug 2) + 21% mature governance — distinct from both existing P1 queue posts.
-- 82% discovery stat is specific and alarming — strong hook potential.
+- Top-voices.md refresh uncovered strong hooks: Cognition $40B, Bland AI 180 rejections, EU AI Act Article 50 compliance, Anthropic Sonnet 5 pricing freeze.
+- Pre-staged sequence prevents angle duplication (104 already covers EU Act governance; Post 7 thread uses EU Act compliance/disclosure angle — distinct).
 
 ### What to improve?
-- X=13 means next session is blocked. Use Tier 1 protocol.
+- P2 mid-burst ceiling ACTIVE (P2=3 of 5 burst posts = 60%). Posts 6-9 must avoid P2 to dilute ceiling before post 10.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 348, 348+ days overdue. Owner action required.
@@ -76,6 +76,7 @@ Post 5: P1(104) — 82% shadow agents, EU AI Act Aug 2 enforcement, 21% mature g
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 348+ days overdue.
 
 ## Session History (last 15)
+- (2026-08-30 S2440): X=13, BS=6. BLOCKED. Tier 2: top-voices.md refresh (Aug 2026 intel) + ai-news-2026-08-30.md (B217 hooks 6-10). 267F.
 - (2026-08-30 S2439): X=12→13, BS=6. B217 Post 5: P1(104,82%-shadow-agents-EU-AI-Act). displacement_flag=TRUE. 267F.
 - (2026-08-30 S2438): X=10→12, BS=6. B217 Posts 3-4: P2(102,marketing-ROI-proof-gap)+P3(103,88%-shelfware). 267F.
 - (2026-08-30 S2437): X=7→9, BS=5→6. B217 Posts 1-2: BIP(100)+P4(101,Gartner-5x-inference). Reply+BS companion. Gate cleared. 267F.
@@ -90,4 +91,3 @@ Post 5: P1(104) — 82% shadow agents, EU AI Act Aug 2 enforcement, 21% mature g
 - (2026-08-29 S2428): X=1→4, BS=2→4. B216 started. Posts 1-2: BIP(090)+P4(091). Day 345. 267F.
 - (2026-08-29 S2427): X=6, BS=6. BLOCKED. B216 gate single-blocked (P1 only). Hypothesis update. 267F.
 - (2026-08-29 S2426): X=9→6. B216 dual→single-blocked. P2 starvation gate cleared. 266F.
-- (2026-08-29 S2425): X=13. BLOCKED. BIP queue correction (076+085 confirmed posted). 266F.
