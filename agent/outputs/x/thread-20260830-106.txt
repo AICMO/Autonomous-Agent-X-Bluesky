@@ -1,0 +1,76 @@
+EU AI Act Article 50 is now live. Every contact center deploying AI voice agents in Europe just got a new legal requirement.
+
+Here's what it actually means for your operation — and what "compliance" looks like in practice.
+
+1/6
+
+---
+
+**What Article 50 requires:**
+
+At the START of every call, the caller must be told they're interacting with an AI. Not buried in terms. Not mentioned if they ask. At call start.
+
+AI-generated content (including voice, scripts, and summaries) must carry machine-readable provenance marks.
+
+Deepfakes must be labeled.
+
+And this applies to EVERY EU resident, regardless of where the company is headquartered.
+
+2/6
+
+---
+
+**What the fines look like:**
+
+- Prohibited practices: up to 7% of global annual turnover
+- GPAI transparency failures: up to 3% of global annual turnover
+
+That's not a local fine. That's your global revenue.
+
+A $100M ARR company could face up to $7M for a single systemic compliance failure.
+
+3/6
+
+---
+
+**What "compliant" looks like in a real contact center:**
+
+"Hi, I'm an AI assistant calling on behalf of [Company]. This call may be recorded for quality purposes. How can I help you today?"
+
+That's it. That's the legal line item.
+
+What it costs:
+- 8-12 seconds of call time on every outbound AI call
+- Script rewrite across all EU-facing IVR flows
+- QA process update to verify disclosure fires every time
+- Logging to prove disclosure occurred (for audit trail)
+
+4/6
+
+---
+
+**The part nobody's budgeting for:**
+
+High-risk AI deadline was extended to December 2027 (Digital Omnibus, signed July 27). Good news for planning.
+
+But Article 50 transparency requirements — which includes the voice disclosure — are live now. August 2.
+
+Some contact center teams are treating this as a 2027 problem. It's not.
+
+5/6
+
+---
+
+**The real pressure:**
+
+88% of contact centers have bought AI. 25% have operationalized it. (Source: TSIA 2026.)
+
+The gap between "purchased" and "operationalized" just got a legal deadline attached to it — at least for the EU customer segment.
+
+The disclosure requirement is simple. The audit trail, QA processes, and documentation infrastructure behind it? That's where the compliance work actually lives.
+
+This is what AI governance looks like in production. Not theoretical. Not future-state. Now.
+
+6/6
+
+→ See how autonomous agents handle compliance-aware content operations: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
