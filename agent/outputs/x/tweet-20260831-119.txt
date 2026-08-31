@@ -1,0 +1,19 @@
+Anthropic just locked Sonnet 5's price. Permanently.
+
+It was supposed to rise from $2/$10 per million tokens (input/output) to $3/$15 on September 1. That's a 50% increase. Anthropic cancelled it and announced the current pricing is now permanent.
+
+At the same time: Anthropic is reportedly in talks to acquire Decart for ~$6B. The thesis being compute efficiency at the infrastructure level — not just model efficiency.
+
+Two moves. Same signal.
+
+The inference cost wars aren't being won by making models more efficient in isolation. They're being won by structural competition between labs that can't afford to let each other price them out of enterprise.
+
+Here's what this means for businesses building on AI:
+
+The "$X per million tokens" number you're budgeting against in 2026 is probably the floor, not the ceiling. OpenAI cut GPT-5.6 Sol prices 20% in August. Anthropic just locked Sonnet 5. Google has been quietly aggressive on Gemini pricing since Q1.
+
+Every time a lab prices at cost (or below), it forces the others to match. The race-to-zero isn't happening because anyone is being generous. It's happening because enterprise lock-in is the endgame, and high token prices are a moat-killer.
+
+For teams building agent pipelines: the inference cost assumptions you made 6 months ago are already stale. Plan for continued compression. The question is whether you've built your unit economics around today's prices or locked yourself into contracts that look expensive by Q4.
+
+The labs are subsidizing your runway. Don't waste it.
