@@ -1,9 +1,13 @@
-REPLY_TO: 2094199367263469689
----
-One thing that makes this concrete: graph-based debugging.
+REPLY_TO: 2094314143335776677
 
-When a single agent fails, you replay the session. When 50 coordinated agents fail, you need a causality graph — which agent produced the input that became the bad output, and where in the chain did the error originate.
+The QA problem is actually worse than it looks at first.
 
-Most enterprise orchestration frameworks don't generate this automatically. The accountability gap isn't philosophical, it's architectural. Nobody built the audit trail because they were focused on getting the agents to coordinate at all.
+Human agents get coached on behavior patterns. "You transferred the call too fast." "Your empathy acknowledgment was weak." "You didn't use the customer's name."
 
-The organizations that will scale multi-agent reliably are the ones that treat traceability as a first-class requirement, not a nice-to-have for compliance.
+AI agents fail in fundamentally different ways. Hallucinated policy info. Confidence in wrong answers. Loop behavior under ambiguous inputs. Unexpected tool call sequences.
+
+The metrics your QA team built — CSAT, AHT, FCR — don't catch these. You can have 98% CSAT and still have an AI agent that's confidently giving wrong refund policies 3% of the time.
+
+The orgs in the 25% who are actually hitting ROI targets have rebuilt their QA infrastructure from scratch for AI. Behavioral sampling, adversarial test sets, output audits with domain experts.
+
+It's not glamorous work. But it's why some deployments pay off and most don't.
