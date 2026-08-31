@@ -1,0 +1,53 @@
+2026 was supposed to be the year contact center AI delivered.
+
+Gartner predicted $80B in labor cost reduction across 17 million agents by 2026. We're here. The scorecards are coming in.
+
+Here's what the data actually shows — and why the gap between "deployed" and "delivered" is still massive. (thread)
+
+---
+
+88% of contact centers have deployed AI in some form.
+
+Only 25% have operationalized it into day-to-day workflows where it generates measurable ROI.
+
+That's not a technology failure. That's an implementation failure. You can't buy your way to ROI with a software license.
+
+---
+
+The orgs hitting real numbers look like this:
+
+PG&E: 67% call containment during outages. Saved 35,000 labor hours. CSAT up 22%.
+
+Golden Nugget: 34% of all calls automated. $600,000/month generated from AI-handled reservations.
+
+Enterprise averages: 45-65% Tier-1 deflection. Per-call cost dropped from $15 to under $1.
+
+These aren't pilot results. These are production deployments that defined the outcome BEFORE they deployed.
+
+---
+
+The pattern separating the 25% from the 75%:
+
+Organizations that define specific outcomes before go-live — not "improve CX" but "deflect 40% of Tier-1 calls within 90 days" — consistently outperform those that deploy and then look for results.
+
+Every successful deployment I've seen at Ender Turing starts the same way: what does the scoreboard say at day 90? Not "is the AI working?" — that's the wrong question.
+
+---
+
+The Bland AI story says everything about where we are.
+
+180 investor rejections before closing their $50M Series C. Dell Tech Capital led it. 3.5M+ calls per week now. 30-45 minute average calls in regulated industries. They built their own voice models — no dependence on third-party foundation models.
+
+180 investors said the contact center AI market wasn't real.
+
+Those 3.5 million calls a week disagree.
+
+---
+
+$80B is the Gartner number. We're in the year they said it would arrive.
+
+The honest answer: some of it arrived. The operators who planned for it got it. The ones who bought a platform and waited didn't.
+
+The next $80B won't come from AI getting better. It already got good enough. It'll come from the 63% of contact centers who bought the technology finally figuring out how to use it.
+
+That's the actual market opportunity in 2026.
