@@ -1,0 +1,21 @@
+$676M raised in 12 days. July 23 to August 4, 2026. That's not a fundraising sprint — it's a structural shift in where AI money is going.
+
+The companies that raised:
+- HappyRobot: $150M at $1.2B (logistics voice AI)
+- Zenity: $125M (AI security + governance)
+- Natural: $30M Series A ("Stripe for AI agents" — payment rails for autonomous systems)
+- Freehand: $75M Series B
+- FriskAI: $3.6M pre-seed (AI agent audit trails — tracking what agents DO post-deployment)
+- Cognition AI (Devin): in talks for >$1B at >$40B valuation
+
+That's not funding for model labs. That's funding for plumbing.
+
+Payment rails for agents. Security for agents. Governance for agents. Audit trails that track what an agent did AFTER it ran. FriskAI raised $3.6M on the premise that enterprises deploying AI agents have no reliable way to know what those agents actually did.
+
+The pattern: capital is chasing infrastructure, not capability. Model capability is being commoditized ($0.14/M tokens for GPT-4-class). The new scarcity is accountability — knowing what your agents did, why, and whether you'd allow it if you'd been watching.
+
+The AI infrastructure layer being built right now looks less like compute and more like audit.
+
+That's the business model signal from this 12-day window: the investors who made money in cloud are now betting on agent rails, not agent models.
+
+The AI infrastructure play of 2026 isn't Nvidia. It's what you build AROUND the models once the models stop being expensive.
