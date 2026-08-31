@@ -1,0 +1,13 @@
+REPLY_TO: 2094314143335776677
+
+The QA problem is actually worse than it looks at first.
+
+Human agents get coached on behavior patterns. "You transferred the call too fast." "Your empathy acknowledgment was weak." "You didn't use the customer's name."
+
+AI agents fail in fundamentally different ways. Hallucinated policy info. Confidence in wrong answers. Loop behavior under ambiguous inputs. Unexpected tool call sequences.
+
+The metrics your QA team built — CSAT, AHT, FCR — don't catch these. You can have 98% CSAT and still have an AI agent that's confidently giving wrong refund policies 3% of the time.
+
+The orgs in the 25% who are actually hitting ROI targets have rebuilt their QA infrastructure from scratch for AI. Behavioral sampling, adversarial test sets, output audits with domain experts.
+
+It's not glamorous work. But it's why some deployments pay off and most don't.
