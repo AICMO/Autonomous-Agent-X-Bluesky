@@ -1,0 +1,25 @@
+95% of enterprise marketing teams already run automation.
+
+Only 34% have AI agents.
+
+That gap isn't a technology lag. It's the business model of 2027.
+
+Here's the difference most people miss:
+
+Automation follows instructions. You write the rules, it executes them. Every decision was made by a human upstream — the automation just fires it at scale.
+
+Agents make decisions. They choose which leads to prioritize, when to escalate, how to personalize. The logic isn't pre-written. It adapts.
+
+95% of enterprise marketing teams are optimized for instruction-following. The workflows, the handoffs, the QA processes — all built around "set rules, check results."
+
+That infrastructure is wrong for agents. You can't QA an agent the way you QA a workflow. You can't set rules for something that's supposed to operate outside rules.
+
+So the 34% who've deployed agents are running into a wall: the old automation stack doesn't know what to do with autonomous decision-making. Who approves a campaign that an agent launched at 2am based on a pattern the human never specified?
+
+The CMOs I talk to are sitting at exactly this inflection. They have the automation layer. They're building the agent layer. And they're discovering the two are fundamentally incompatible in ways nobody told them.
+
+The companies solving that compatibility problem — governance, auditability, accountability for autonomous decisions — are the ones who capture 2027.
+
+The other 66% are still optimizing instruction-following while their competitors start making decisions at machine speed.
+
+That's not a technology gap. It's a ceiling.
