@@ -1,0 +1,37 @@
+$0.08/min vs. $7.16 per call.
+
+That's the cost difference between AI voice and human agents at a contact center right now, in 2026. Not a projection. Actual production data from deployed systems.
+
+Let me translate that to annual staffing math:
+
+A human agent costs $127,500–$240,000/year fully loaded. Salary, benefits, training, turnover. An AI voice agent runs $3,650–$53,000/year depending on volume. Same work output. 24/7 availability. No sick days, no attrition, no new-hire ramp.
+
+Three-year ROI: 391%.
+
+Break-even: 60–90 days.
+
+That's not a hypothesis. Those are production deployment numbers from contact centers that made the bet in 2024–2025.
+
+What does the 391% look like in practice? Here's what the data shows:
+
+— First contact resolution improves 5–15 percentage points. The AI doesn't get distracted, doesn't transfer incorrectly, doesn't have a bad day.
+
+— Average handle time drops 20–50%. AI knows the system, retrieves context instantly, never puts you on hold to look something up.
+
+— Agent ramp time eliminated 50–85%. No 6-week new hire training. The AI is trained once, scaled infinitely.
+
+— Collections improvement: 20–30%. Consistent phrasing, no emotion, no negotiating against itself.
+
+The question I keep seeing from operators who haven't deployed is: "But what about complex calls?"
+
+The real answer: the AI handles 60–70% of volume autonomously. The complex calls go to human agents who now have MORE time because they're not handling routine ones. Net result: human agents handle harder problems at higher quality. The math holds both ways.
+
+Here's what I think the next 18 months look like:
+
+This isn't a cost conversation anymore. It's a competitive positioning conversation. If your competitors are achieving 391% ROI and 60–90 day payback while you're running full human staffing models, you're not saving money by waiting. You're losing margin every quarter.
+
+The decision isn't "can we afford voice AI?" The decision is "can we afford to be the last in our vertical to deploy?"
+
+The data is in. The case has been made. 2026 is when the laggards become visible.
+
+Ender Turing has been in the contact center AI space since before this was a consensus view. The ROI conversation is one we've had hundreds of times. The numbers move. The math direction doesn't.
