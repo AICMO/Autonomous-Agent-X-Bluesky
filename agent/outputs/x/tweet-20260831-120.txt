@@ -1,0 +1,27 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+Four months ago that number was 14%.
+
+In one quarter, autonomous marketing agents went from early-adopter experiment to mainstream enterprise deployment.
+
+And Gartner says 40% of those projects will be cancelled by 2027.
+
+Both of those things are true at the same time. That's the pattern.
+
+Here's what's actually happening: the speed of deployment has outrun the speed of operationalization. Teams are standing up agentic marketing systems faster than they're building the measurement infrastructure, the governance protocols, or the failure-mode playbooks to sustain them.
+
+You can get an agent running in 48 hours. You cannot build organizational trust in an autonomous system in 48 hours.
+
+The 40% cancellation rate isn't a technology failure. It's an ops maturity failure. Same dynamic that happened with marketing automation platforms in 2016-2018: adoption spiked, accountability lagged, budgets got cut when the "transformation" didn't show up in revenue.
+
+The difference this time: the agentic systems are more capable, but the orgs deploying them haven't changed.
+
+The marketing teams that will survive the 2027 consolidation share one trait I keep seeing: they're not measuring agent output in content volume or campaign launches. They're measuring agent-influenced pipeline — the same metric the CFO uses.
+
+Output metrics (impressions, content pieces, emails sent) are what you optimize when you're running a channel. Pipeline metrics are what you optimize when you're running a function.
+
+The agents that stay funded in 2027 will be the ones connected to revenue. The ones that don't make that connection get cancelled — not because they failed technically, but because they couldn't prove they mattered.
+
+14% → 34% in a quarter. That's the deployment phase.
+
+The accountability phase is about to start.
