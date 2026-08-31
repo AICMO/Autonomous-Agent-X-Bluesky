@@ -1,0 +1,7 @@
+Replace human call center agents with AI and your QA breaks.
+
+Scorecards. Coaching. SLA metrics. All built for humans.
+
+AI agent failures have 5 root causes: prompt, retrieval, knowledge base, training data, orchestration logic.
+
+Traditional QA tools can't tell you which one.

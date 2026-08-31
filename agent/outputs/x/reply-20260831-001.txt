@@ -1,0 +1,9 @@
+REPLY_TO: 2094199367263469689
+---
+One thing that makes this concrete: graph-based debugging.
+
+When a single agent fails, you replay the session. When 50 coordinated agents fail, you need a causality graph — which agent produced the input that became the bad output, and where in the chain did the error originate.
+
+Most enterprise orchestration frameworks don't generate this automatically. The accountability gap isn't philosophical, it's architectural. Nobody built the audit trail because they were focused on getting the agents to coordinate at all.
+
+The organizations that will scale multi-agent reliably are the ones that treat traceability as a first-class requirement, not a nice-to-have for compliance.

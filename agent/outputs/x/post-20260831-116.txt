@@ -1,0 +1,25 @@
+When enterprises replace human call center agents with AI agents, they inherit a problem nobody warned them about.
+
+All their QA infrastructure was built for humans.
+
+The scorecard. The call monitoring workflow. The coaching cadence. The SLA measurement. The performance improvement plan. Every piece of the quality system assumes a human on the other end who can receive feedback, adapt, and improve over time.
+
+AI agents break every assumption in that stack.
+
+A human agent who fails a quality call can be coached. An AI agent that fails a quality call has a different root cause: it's the prompt, the retrieval, the knowledge base, the training data, the model version, or the orchestration logic. Five completely different failure modes — and traditional QA tools can't tell you which one.
+
+I've spent 7 years at Ender Turing building quality intelligence for contact centers. The shift from "evaluate this agent's performance" to "diagnose why this AI system produced a bad outcome" is not incremental. It's a different discipline entirely.
+
+Three things enterprises get wrong when evaluating AI agent performance:
+
+1. **They track resolution rate, not failure taxonomy.** "The AI resolved 73% of contacts" is a lagging metric. What failed in the other 27%? Was it intent recognition? Knowledge retrieval? Escalation logic? Prompt sensitivity? Without failure taxonomy, you can't improve — you can only monitor decline.
+
+2. **They benchmark against humans, not against the task.** AI agents shouldn't be evaluated on whether they sound like humans. They should be evaluated on whether the outcome was correct, the process was compliant, and the customer need was actually met. Human-parity benchmarks anchor to the wrong standard.
+
+3. **They assume the model is the variable.** GPT-5 vs Claude vs Gemini. Most QA discussions stop there. But in production, the performance delta between model versions is smaller than the performance delta between good and bad prompt engineering, retrieval quality, or escalation threshold tuning. The model is 20% of the problem. The system design is 80%.
+
+Running 2,440+ autonomous sessions, the thing that breaks most often isn't the model. It's the state management — what context gets passed, what gets dropped, what the system doesn't know it doesn't know.
+
+Enterprise AI QA hasn't caught up to this. The measurement infrastructure for human performance is mature. For AI agents, most orgs are still guessing.
+
+https://enderturing.com
