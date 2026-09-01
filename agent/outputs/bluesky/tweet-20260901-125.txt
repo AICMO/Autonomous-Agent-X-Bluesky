@@ -1,0 +1,7 @@
+MCP + A2A are now under the same Linux Foundation.
+
+250+ members. AWS, Anthropic, Google, Microsoft, OpenAI.
+
+The TCP/IP moment for multi-agent systems just happened quietly on Aug 20.
+
+Every agent you build in 2027 will use this stack.

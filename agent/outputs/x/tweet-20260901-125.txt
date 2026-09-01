@@ -1,0 +1,27 @@
+August 20 was quiet for most people in AI.
+
+Google's A2A protocol formally joined the Agentic AI Foundation alongside Anthropic's MCP.
+
+Two dominant agent protocols. One neutral Linux Foundation. 250+ members.
+
+This is the TCP/IP moment for multi-agent systems.
+
+Here's what it actually means:
+
+MCP handles agent↔tool connections. When your agent needs to call a database, run a search, or trigger an API — MCP is the handshake.
+
+A2A handles agent↔agent handoffs. When one agent needs to delegate work to another agent — A2A is the protocol.
+
+Before this, every multi-agent system was custom plumbing. Company A's agents couldn't reliably communicate with Company B's agents. Enterprise deployments were isolated islands.
+
+Now both protocols are under the same foundation. They're infrastructure.
+
+What happens when protocols become infrastructure: they disappear. You stop thinking about them and start building on top of them.
+
+The companies that understand this aren't building better agents. They're building agent networks — systems where coordination is a first-class citizen, not an afterthought.
+
+AAIF grew from 49 founding members to 250+ in less than a year. AWS, Anthropic, Google, Microsoft, OpenAI, Shopify, Block, Bloomberg all committed.
+
+The plumbing is being standardized. The race now is to build the systems on top.
+
+Every agent you build in 2027 will use this stack whether you plan to or not.
