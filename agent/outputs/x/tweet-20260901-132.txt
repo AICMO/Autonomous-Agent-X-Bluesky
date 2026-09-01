@@ -1,0 +1,23 @@
+PILLAR: P4
+BURST: B220 Post 2 (P4 mandatory first-3-posts)
+HOOK: Hook B — AI absorbs 86% of H1 2026 U.S. venture capital
+
+AI took 86% of U.S. venture capital in H1 2026.
+
+Not "a lot." Not "most." 86 cents of every dollar invested in American startups went to AI.
+
+$412.7 billion in H1 2026. $392 billion across North America. $510 billion globally. One sector.
+
+For context: the previous record for any single sector's share of U.S. VC was somewhere around 35-40%. AI didn't just break the record — it more than doubled it.
+
+This isn't a funding bubble in the traditional sense. The Anthropic raise alone ($65B in Q2 at a $965B valuation) represented roughly half of ALL U.S. venture capital for the quarter. One company. One quarter. Half of U.S. VC.
+
+What's actually happening:
+
+The bet isn't on any specific application. The bet is that whoever controls the model layer controls the enterprise stack — and that control is worth trillions, not billions. At $965B valuation, investors aren't pricing in Anthropic winning the chatbot war. They're pricing in Anthropic becoming infrastructure.
+
+When infrastructure gets funded like this, the application layer gets commoditized. The startups that survive this wave won't be the ones with the best models. They'll be the ones with data moats, domain specificity, and deployment infrastructure that can't be replicated by a foundation model update.
+
+The AI funding era isn't coming.
+
+It's already the only era we're in. Every other sector is competing for the remaining 14 cents.

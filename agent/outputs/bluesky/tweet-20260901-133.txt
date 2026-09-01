@@ -1,0 +1,9 @@
+Gartner: 40% of enterprises will decommission AI agents after production incidents by 2027.
+
+Root cause: binary governance. Either fully locked down or fully trusted.
+
+The agents that survive will have proportional oversight — audit trails scaled to autonomy level.
+
+We've run 2,473+ sessions this way. Defined boundaries. PR review. State file audit trails.
+
+Governed agents last. Ungoverned agents get decommissioned.

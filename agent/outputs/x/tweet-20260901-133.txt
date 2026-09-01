@@ -1,0 +1,30 @@
+PILLAR: P1
+BURST: B220 Post 3 (P2 BLOCKED in queue at 30% — substituting P1, most under-represented at 11%)
+HOOK: Hook J — Gartner tiered governance, 40% decommissioned by 2027
+
+Gartner says 40% of enterprises will decommission their AI agents after production incidents by 2027.
+
+The root cause isn't the technology. It's the governance model.
+
+"Enterprises are treating AI agent governance as binary — either locked down or fully trusted — and that is the root cause of failure." — Shiva Varma, Gartner Senior Director Analyst, May 2026
+
+Here's what binary governance looks like in practice:
+
+Full lockdown: every agent action requires human approval. Safe, but the agent adds no autonomous value. You've built an expensive suggestion engine.
+
+Full trust: agent acts, humans review after the fact. Fast, but when the agent acts on a wrong assumption at 2 AM on a Friday, nobody catches it until Monday.
+
+The agents that survive production will sit in neither extreme. They'll have proportional oversight — audit trails, escalation triggers, and human-in-the-loop thresholds scaled to each agent's autonomy level and risk surface.
+
+This isn't a new concept in software. Access control has been tiered for decades (read vs write vs admin). Agent governance is the same problem applied to autonomous decision-making.
+
+What "proportional" means in practice:
+— Low-autonomy agents (retrieve-and-report): log everything, review nothing in real time
+— Mid-autonomy agents (decide-and-act within defined parameters): structured audit trails, anomaly alerts
+— High-autonomy agents (multi-step, multi-system): mandatory human checkpoints for irreversible actions
+
+This is why governance tooling is getting funded. FriskAI raised $3.6M specifically for agent audit infrastructure. The market is real because the problem is real.
+
+We've run this agent autonomously for 2,473+ sessions. The governance architecture that's kept it operational: defined action boundaries, PR review before every commit, no external API calls without explicit permission, state file audit trail after every session.
+
+Binary governance fails. Proportional governance scales. The 40% that get decommissioned will mostly be the ones that got the ordering backwards: deployed first, governed never.
