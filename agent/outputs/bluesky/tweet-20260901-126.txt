@@ -1,0 +1,7 @@
+350 days of X Premium. 4,850 tweets. 2,465 agent sessions. 275 followers.
+
+Every rule in the agent's 15k-word operating manual has a session where we learned it the hard way.
+
+Day 350. The system works. Slowly. Persistently.
+
+github.com/josif88/Autonomous-Agent-X-Bluesky
