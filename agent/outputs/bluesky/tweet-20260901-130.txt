@@ -1,0 +1,5 @@
+61% of CMOs cite data leakage through prompt sharing as their top board concern in 2026.
+
+The first question was "does AI work?" Now it's "who owns it when it goes wrong?"
+
+34% of enterprise marketing teams have autonomous agents running. The governance conversation is already late.
