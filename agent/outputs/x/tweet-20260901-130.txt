@@ -1,0 +1,24 @@
+The first question in marketing AI was: does this actually work?
+
+61% of CMOs now have a different question: who owns it when it goes wrong?
+
+That's not a technology question. It's a governance question — and it just became a board conversation.
+
+The shift: when AI was an experiment, the marketing team owned the risk. When AI is running autonomous campaigns at scale, legal, compliance, and the CEO are suddenly in the room asking about data leakage through prompt sharing.
+
+Here's what "data leakage through prompt sharing" actually means in practice: an employee prompts a marketing AI with internal pricing strategy, unreleased campaign data, or customer segmentation logic. That information becomes part of the AI's operational context. If the system routes through a third-party model, that data may be used to improve the model, stored outside the company's control, or surfaced in outputs for other users.
+
+This is why 61% of CMOs identified it as their top board-level concern in 2026. Not "does it work?" Not "will it replace my team?" The concern is: "what data leaves our control every time someone prompts the AI?"
+
+The organizations handling this well have three things in place:
+— Model deployment that keeps data inside company infrastructure (self-hosted or private cloud)
+— Prompt auditing that logs what information entered the system
+— Role-based access that limits which AI tools can access which data categories
+
+The organizations still struggling are running 15 different AI tools across the marketing org with no central governance. Legal finds out about it when something goes wrong.
+
+This isn't a 2027 problem. 34% of enterprise marketing teams already have autonomous agents in production. The governance conversation is already late.
+
+U.S. enterprises project 192% ROI on agentic AI investments. But 41% of agentic deployments fail — and the most common failure mode isn't technical. It's that no one defined what "success" and "accountability" look like before launch.
+
+The companies that get this right in 2026 aren't just managing risk. They're building the infrastructure for sustainable AI-driven marketing at scale. The ones that don't will be explaining to their board why their AI vendor has access to three years of customer data.
