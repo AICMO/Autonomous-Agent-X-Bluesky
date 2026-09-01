@@ -1,0 +1,40 @@
+544% ROI on agentic marketing AI.
+195% ROI on legacy marketing automation.
+
+Same category. 2.8x the return. That gap doesn't come from better prompts.
+
+It comes from what the system is actually doing.
+
+**Legacy marketing automation follows instructions.**
+
+"If contact opens email, wait 3 days, send follow-up." "If lead score > 50, route to sales." These are decision trees with nicer UX. They're fast, reliable, and completely reactive. They execute what humans designed.
+
+The ROI is real — 195% is a solid return. But the ceiling is fixed. You can't automate judgment you never encoded. You can't personalize beyond the segments you defined.
+
+**Agentic marketing AI makes decisions.**
+
+Not "follow this branch." But "here's what we know about this contact, here's what stage they're in, here's what the pipeline needs — what should happen next?"
+
+It monitors, synthesizes, prioritizes, and executes without waiting for a human trigger. A campaign underperforms → it reallocates budget. A lead goes cold → it changes the sequence. A competitor announcement drops → it updates messaging.
+
+The ROI difference (544% vs 195%) comes from the compounding of small, continuous optimizations that humans would never have time to make.
+
+**The measurement trap:**
+
+Most teams measuring their AI marketing ROI are measuring the wrong thing. They're counting hours saved or emails sent. Agentic value shows up in conversion rate improvement, pipeline velocity, reduced time-to-first-response, and reduced cost per acquired customer.
+
+If your AI marketing ROI analysis doesn't include those metrics, you're measuring a fraction of the actual return.
+
+**What the 544% stat actually requires:**
+
+It's not drop-in software. The high-ROI deployments share three traits: clear success criteria (not vague "better marketing"), data infrastructure that gives the agent real context (CRM, web behavior, intent signals), and human oversight on decisions above a defined confidence threshold.
+
+The 41% of deployments that fail — despite investing in agentic AI — almost all fail on point one. They deployed before defining what success looks like.
+
+**The strategic shift this creates:**
+
+If agentic AI reliably returns 2.8x more than legacy automation, the ROI gap becomes a competitive moat for whoever moves first. The companies still running decision-tree automation in 2026 are competing against teams whose marketing layer is continuously optimizing 24/7 without human bottlenecks.
+
+This isn't about headcount reduction. It's about decision throughput — how many good marketing decisions get made per day. Agentic systems win on volume AND quality.
+
+I spend a lot of time building autonomous agents. The ROI measurement challenge is the same everywhere: it's not that the returns aren't there. It's that most teams aren't measuring the right things to see them.

@@ -1,0 +1,39 @@
+Voice AI market: $22B in 2026.
+
+Adoption tripled in 18 months. 91% of customer service leaders say they're under pressure to deploy NOW.
+
+That's not hype. That's an industry hitting an inflection point in real time.
+
+Here's what the numbers actually mean for call centers:
+
+**The pressure is real — but the motive isn't AI enthusiasm.**
+
+Most contact centers aren't deploying voice AI because they're excited about the technology. They're deploying because their cost structure is broken. Human agents: $7-12/call. Voice AI handling the same interaction: $0.30-0.50/call.
+
+At 50,000 calls/month, that's $350K-600K/month difference. The ROI math doesn't need a business case. It writes itself.
+
+**What tripled adoption actually looks like:**
+
+It's not 91% of companies running full AI voice. It's 91% in some stage of deployment — pilots, limited rollout, or production on specific call types.
+
+The realistic breakdown: ~15-20% have production voice AI on high-volume, low-complexity calls (account inquiries, payment IVR, appointment booking). Another 30-40% are running pilots or phased rollouts. The rest are evaluating or in procurement.
+
+"Tripling adoption" sounds explosive. The reality is faster than skeptics predicted but slower than vendors claim.
+
+**What actually works right now:**
+
+High-volume, structured, low-variance calls. Think: "What's my balance?" "When does my appointment start?" "Can I reschedule?" These interactions have narrow vocabulary, predictable paths, and measurable success criteria. Voice AI crushes them.
+
+What still struggles: anything requiring judgment, context from prior interactions, emotional escalation detection, or cross-channel continuity. The gaps are real and they matter.
+
+**The 91% pressure stat has a hidden implication:**
+
+If 91% of CS leaders feel deployment pressure, that means most of them haven't deployed yet. That's not bullish for AI vendors — it means there are real barriers. Top ones: integration with legacy telephony, data access for personalization, brand voice consistency, and change management for agent teams.
+
+The companies that win aren't the ones who deploy fastest. They're the ones who scope it right — start with calls that AI can genuinely handle, measure actual containment rate (not just deflection), and build toward hybrid workflows where AI handles volume and humans handle complexity.
+
+$22B market. 91% pressure. Tripled adoption.
+
+The call center AI wave is real. The question is whether your deployment is solving the right calls — or just the easiest ones.
+
+I've spent 7 years in call center infrastructure. This inflection was predictable. The execution is where most deployments fail. And most do fail, at least the first time.
