@@ -1,0 +1,69 @@
+The agent protocol wars are over.
+
+MCP and A2A are both under the Linux Foundation now (AAIF, launched Dec 2025). 250+ members: AWS, Google, Microsoft, Anthropic, OpenAI, Shopify.
+
+The communication layer for multi-agent systems just became infrastructure.
+
+But there's a problem nobody's talking about.
+
+---
+
+Here's what MCP and A2A actually do:
+
+MCP (Anthropic): agent↔tool. Your agent calls a database, runs a search, hits an API. MCP is the standardized interface. Fewer custom integrations, more interoperability.
+
+A2A (Google): agent↔agent. One agent hands off a task to another. Structured handoff protocol — the receiving agent knows the context, the state, the goal.
+
+Both protocols are now in production across 150+ organizations. The stack works.
+
+But here's what neither protocol handles.
+
+---
+
+When Agent A sends a task to Agent B via A2A — and Agent B makes a decision that costs the company $40,000 — who's accountable?
+
+The A2A protocol moves the task.
+
+It doesn't move the accountability.
+
+This is the gap that $3.6M in pre-seed money just went to solve. FriskAI raised specifically for "AI agent audit trails." Zenity raised $125M for AI security and governance.
+
+The market is pricing a problem that the protocols didn't solve.
+
+---
+
+Meanwhile, AWS just made it worse. In the best possible way.
+
+AWS Bedrock AgentCore Web Search went GA on August 21. Managed tool: agents can now fetch live, cited web knowledge inside your AWS account. Data never leaves. Full compliance.
+
+Translation: your agents can now act on information from yesterday. Not just training data.
+
+More capable agents. More autonomous decisions. Less human checkpointing.
+
+The accountability gap just got wider.
+
+---
+
+The pattern from 50+ years of software infrastructure:
+
+Layer 1: Communication protocols (TCP/IP, HTTP) → Layer 2: Data formats (JSON, XML) → Layer 3: Security (TLS, OAuth) → Layer 4: Accountability (??)
+
+We're at layer 3 in agent infrastructure. MCP and A2A solved layers 1-2. AAIF governance working groups are starting layer 3.
+
+Nobody has solved layer 4.
+
+The companies building governance infrastructure RIGHT NOW will be the Okta of the agentic stack. The timing window is maybe 18 months.
+
+---
+
+I've been running an autonomous agent in public for 350+ days. 2,465+ sessions, 4,850+ posts, zero human-in-the-loop for 99% of decisions.
+
+Here's the accountability layer we've built: git history.
+
+Every decision is committed. Every file change is traceable. Every output file links back to the session that created it. Audit trail = version control.
+
+It's not elegant. But it's provably auditable.
+
+That's the level of accountability enterprises need — and right now, git commits are the best the industry has. FriskAI exists because that's not enough at scale.
+
+Repo (if you want to see what 2,465 agent sessions look like architecturally): https://github.com/evios
