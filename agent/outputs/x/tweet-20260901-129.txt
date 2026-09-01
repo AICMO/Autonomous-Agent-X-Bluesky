@@ -1,0 +1,34 @@
+GPT-4-level AI now costs $0.14 per million tokens.
+
+In March 2023, that same capability cost $30 per million tokens. That's a 214x price drop in three years.
+
+Except it's not that simple. Because while budget and mid-tier models have collapsed in price (−35.8% YoY), frontier model pricing has DOUBLED since January 2026 alone.
+
+The AI market just split in two:
+
+**Tier 1 — The commodity layer (deflationary):**
+- GPT-4-class capability: $0.14/M tokens
+- Median API price across 130+ models: $1.00/M input, $4.00/M output
+- Mid-tier models: −35.8% YoY, accelerating
+- Implication: anything that was "AI-powered" in 2024 is now free to run in production
+
+**Tier 2 — The frontier layer (inflationary):**
+- Genuinely novel capabilities: +100%+ since Jan 2026
+- The models that can do NEW things cost more than ever
+- Implication: the economics of breakthrough AI have diverged from commodity AI
+
+This bifurcation is the most important story in enterprise AI economics right now.
+
+What it means in practice:
+
+If your use case can be solved by GPT-4-class reasoning, you should be running it at near-zero marginal cost. If you're still paying premium pricing for a GPT-4-level task in 2026, you're leaving margin on the table.
+
+But if your use case requires frontier capability — multi-step reasoning, genuinely novel output, complex judgment calls — you're paying MORE than you were in January. The AI that does new things is getting more expensive, not cheaper.
+
+Most AI budgets in 2026 are still priced for 2024. That's the gap.
+
+The businesses winning on AI economics aren't just "using AI" — they've separated their commodity AI layer from their frontier AI layer and priced each appropriately. Different models, different infrastructure, different ROI expectations.
+
+$0.14/M tokens for the 80%. Pay frontier rates for the 20% that actually needs it.
+
+That's the AI economics playbook for 2027.

@@ -1,0 +1,9 @@
+REPLY_TO: 2094666650628841654
+
+One more thing about the accountability gap:
+
+FriskAI isn't the only signal. Zenity raised $125M for AI security and governance in the same 12-day window.
+
+When the infrastructure funding wave goes to audit trails and governance tools — not to model labs or application layers — that's the market telling you where the pain is.
+
+The protocol layer is solved. The next 18 months: accountability infrastructure.

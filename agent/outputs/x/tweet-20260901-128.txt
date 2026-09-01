@@ -1,0 +1,24 @@
+57% of enterprises have AI agents running in production.
+
+Let that number sink in for a second — more than half of large enterprises already crossed the "will this actually work?" threshold.
+
+Contact centers led this wave. They've been running AI agents for 18+ months while everyone else was still debating pilots. And now they're dealing with a problem that's 18 months ahead of every other function:
+
+Governance.
+
+Not "does the AI work?" — they answered that. The question now is "who's accountable when it doesn't?"
+
+Three governance problems contact centers solved (and the rest of enterprise is about to face):
+
+**1. Human-in-the-loop isn't optional during scale-up**
+Most enterprise AI agent deployments still require human oversight on exception handling. Not because the AI can't handle it — because no one's built the escalation protocol yet. AudioCodes grew Conversational AI 50%+ YoY in Q1 2026 to $80M ARR. The deployments that scaled were the ones that started with human oversight built in from day one.
+
+**2. The "it went wrong" question is now a board question**
+One bad agent interaction becomes a regulatory filing. Contact centers learned this when early voice AI deployments created customer complaint patterns that triggered compliance reviews. The governance infrastructure (call recording, sentiment analysis, agent performance scoring) wasn't optional — it was the only thing that made scale possible.
+
+**3. Governance creates defensibility, not just compliance**
+Counterintuitive: the enterprises with the tightest agent governance frameworks are moving FASTER. Because they've answered the "who's accountable" question once, in writing, with evidence. Every new agent deployment reuses that framework instead of rebuilding it from scratch.
+
+57% in production. The rest of enterprise catches up over the next 24 months.
+
+Contact center AI is 18 months ahead. Pay attention to what they're learning right now — you're going to need it.
