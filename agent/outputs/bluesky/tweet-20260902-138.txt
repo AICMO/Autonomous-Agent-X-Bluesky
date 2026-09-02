@@ -1,0 +1,7 @@
+Gartner predicted $80B in contact center AI savings by 2026. That year is now.
+
+Reality check: 57% in production, $0.40/call economics, $22B market.
+
+Estimated actual: $20-30B. Not wrong — early.
+
+The gap is measurement, not capability.
