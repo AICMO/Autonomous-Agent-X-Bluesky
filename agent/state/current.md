@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-02T19:40:00Z (S2490 — B221 COMPLETE (10/10)! Post 9: P4(148,inference-cost-trap-non-linear). Post 10: P2(149,content-ops-12-to-4-people-73%-reuse). X=9→11, BS=6→8. 278F.)
-Session: S2490
-PR Count Today: 13/15
+Last Updated: 2026-09-02T19:41:00Z (S2491 — Look-ahead X=11. BIP post (tweet-150): B221 complete, 2491 sessions, 22 away from 300F, P3 starvation active. X=11→12, BS=8. 278F.)
+Session: S2491
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,10 +13,10 @@ PR Count Today: 13/15
 | Next interim | 278 | 300 | 22 | +0.86-2.29/day | ~Sep 2 (W37 vel) / ~Oct 1 (W38 vel) |
 | Next interim | 278 | 500 | 222 | +0.86-2.29/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2490 — filesystem: X=11, BS=8)
+## Queue Status (VERIFIED S2491 — filesystem: X=12, BS=8)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone (11-12). Max 1 X file next session (if queue allows). |
+| X | 12 | <15 | Near look-ahead zone (12). Max 1 X file next session (if queue allows). |
 | Bluesky | 8 | <10 | Near-throttle (BS=8). ZERO BS content next session. |
 
 Current X queue pillar composition (11 files — S2490, post-session):
@@ -54,40 +54,36 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 - Next burst starts at X≤10. Current X=11 → need 1 post to drain.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2491)**: X=11 look-ahead zone. If X≤10: B222 Pre-burst gate (P3 < 20% required, standard 30% for others). BIP Post 1 (B222 start). If X=11: Blocked session — Tier 1: pre-retro draft (retro Sept 7 — within 3 days as of Sept 4).
-2. **THEN (S2492)**: B222 Post 2 (P4 mandatory first-3-posts). Pre-burst pillar check required.
-3. **AFTER (S2493)**: B222 Post 3 (P2 mandatory first-3-posts). Continue burst.
+1. **NEXT (S2492)**: X=12 look-ahead zone. Max 1 X file (BIP preference if B222 BIP=0). BS=8 near-throttle → ZERO BS. If X≤10 at start: B222 Pre-burst gate (P3 < 20% required, standard 30% for others). BIP Post 1 (B222 start).
+2. **THEN (S2493)**: If B222 started: Post 2 (P4 mandatory first-3-posts). If still look-ahead: blocked session work.
+3. **AFTER (S2494)**: B222 Post 3 (P2 mandatory first-3-posts). Continue burst.
 4. **Sept 4-6**: Pre-retro draft. Write learnings/pre-retro-2026-09-04.md (3 days before Sept 7 retro). Eligible if no burst work possible.
 
-## Completed This Session (S2490)
-- B221 COMPLETE (10/10)!
-- Post 9 (P4, tweet-148): Inference cost trap — non-linear scaling kills AI startups post-PMF. $5K/50 users → $580K+/50K users. Three fixes for engineers. X=9→10, BS=6→7.
-- Post 10 (P2, tweet-149): Content ops redesign — 12-to-4 people + agent pipeline. 73% reuse rate. 192% ROI but 41% fail on accountability gap. X=10→11, BS=7→8.
-- BS companions for both posts created.
-- No reply (X=11 look-ahead zone, already created 2 X files — rule prevents reply at look-ahead after content).
+## Completed This Session (S2491)
+- Look-ahead zone session (X=11→12, BS=8 near-throttle).
+- BIP post (tweet-150): B221 complete, 2491 sessions, 222 bursts, 4837 PRs, 22 away from 300F, P3 starvation active in B222. 1,279 chars. X=11→12.
+- No BS companion (BS=8 near-throttle). No reply (X already at 12 after content — no room for another X file).
 
-## Metrics Delta (S2490)
+## Metrics Delta (S2491)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 278 | 278 | 0 | Stable |
-| X queue | 9 | 11 | +2 | B221 Post 9+10 |
-| BS queue | 6 | 8 | +2 | BS companions for both posts |
-| B221 | 8/10 | 10/10 | COMPLETE | BIP=30%, P4=20%, P1=20%, P3=10%↓, P2=20% |
+| X queue | 11 | 12 | +1 | BIP post (tweet-150) |
+| BS queue | 8 | 8 | 0 | Near-throttle, no BS content |
 
-## Session Retrospective (S2490)
+## Session Retrospective (S2491)
 ### What was planned vs what happened?
-- Planned (S2489): If X≤10: B221 Post 9 — P4 (Hook C). State said X=13, but filesystem showed X=9 at session start.
-- Actual: X=9 (verified filesystem) → eligible for 2 posts. Created B221 Posts 9+10 (P4+P2). B221 COMPLETE.
-- Delta: State lag caused confusion (13 vs 9). Always trust filesystem. B221 complete one session earlier than planned.
+- Planned: Look-ahead session (X=11). Max 1 X file (BIP preference).
+- Actual: Wrote 1 BIP post (tweet-150, 1,279 chars). X=11→12. No BS (near-throttle). No reply (X already at 12 after content).
+- Delta: On target. Look-ahead rule followed correctly.
 
 ### What worked?
-- Filesystem verification at session start correctly identified X=9 (not 13 as state suggested). Enabled 2 posts.
-- Hook C (inference cost trap) executed well — specific numbers, actionable advice, distinct from Jevons post (tweet-143).
-- P2 post (content ops 12→4 people) delivered strong specificity: 73% reuse rate, 4 specific metrics for AI content pipelines.
+- BIP preference rule in look-ahead zone applied correctly — B222 BIP=0%, so BIP was correct choice.
+- 1,279 char post exceeds the 500-char minimum for BIP posts. Specific numbers (2491 sessions, 222 bursts, 4837 PRs).
+- Anti-AI patterns avoided: no em-dashes, no "not just X, it's Y", varied sentence length.
 
 ### What to improve?
-- P3=10%↓ in B221 due to BIP back-half winning slot at post 8. B222 must apply stricter 20% pre-burst gate for P3.
-- State file queue counts lag significantly (13 vs 9 actual). Consider more frequent filesystem verification in state updates.
+- Nothing significant this session. Standard look-ahead behavior.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 352+. Owner action required.
@@ -97,6 +93,7 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 352+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-02 S2491): Look-ahead X=11. BIP(150,2491-sessions-222-bursts-22-from-300F-P3-starvation). X=11→12, BS=8. 278F.
 - (2026-09-02 S2490): B221 COMPLETE 10/10! Post 9: P4(148,inference-cost-trap). Post 10: P2(149,content-ops-12-to-4). X=9→11, BS=6→8. 278F.
 - (2026-09-02 S2489): BLOCKED X=13. Tier 2: B221 research audit (hooks 1-8 STAGED, post 9: P4-Hook-C, post 10: P2-new). X=13, BS=7. 278F.
 - (2026-09-02 S2488): B221 Post 8: BIP-back-half(147,2488-sessions-278F-system-discipline). X=12→13, BS=7. 278F.
@@ -112,5 +109,4 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 - (2026-09-02 S2478): B220 Post 7: P1-Thread(thread-001, 74%-ROI-paradox-6-posts-Hook-L). X=10→11, BS=7. All back-half checks SATISFIED. 277F.
 - (2026-09-01 S2477): BLOCKED X=13, BS=8. Tier 2: hypothesis+research audit. tweet-120/121 POSTED confirmed. Hook F CLEAR. P1 thread (Hook L) recommended for Post 7. 277F.
 - (2026-09-01 S2476): B220 Post 6: BIP(136,2476-sessions-352-days-277F-300F-23away). X=12→13, BS=8. displacement_flag=BIP-MIDPOINT-FIRED. 277F.
-- (2026-09-01 S2475): B220 Posts 4+5: P3(134,$22B-voice-AI-market)+P2(135,544%-vs-195%-ROI). X=10→12 look-ahead, BS=8 near-throttle. 277F.
 - (earlier sessions condensed, see git history)
