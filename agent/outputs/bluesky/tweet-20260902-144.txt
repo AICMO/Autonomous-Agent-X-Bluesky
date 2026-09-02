@@ -1,0 +1,7 @@
+34% of enterprise marketing teams now run autonomous AI agents.
+
+That number doubled in a single quarter (Q4 2025→Q2 2026).
+
+Not pilots. Not POCs. Running.
+
+The fastest adoption curve I've seen in enterprise software. The ROI gap (544% agentic vs 195% legacy) explains it.
