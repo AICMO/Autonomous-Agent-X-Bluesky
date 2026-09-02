@@ -1,0 +1,77 @@
+THREAD: AIR Security just raised $50M (Sequoia + Greenoaks) to build a firewall for AI agents.
+
+Their finding is uncomfortable: 17,800 public AI add-ons exist today. 6.7 million installations. All relying on untrusted external sources.
+
+Agent supply chain security is no longer a theoretical problem. Here's what this actually means for enterprise AI:
+
+---
+
+First, understand the attack surface.
+
+When you deploy an AI agent inside your company, it's not just your LLM. It's a stack:
+- Skills and plug-ins (fetch from internet)
+- MCP servers (model context protocol)
+- Tool integrations (CRM, Slack, email, calendar)
+- Third-party agent frameworks
+
+Each component is a trust decision. Most enterprises are making those decisions implicitly — by not making them at all.
+
+17,800 public AI add-ons. How many of your company's agents use unvetted ones?
+
+---
+
+The supply chain attack vector for AI agents is direct.
+
+Traditional software supply chain: malicious npm package → compromised build → bad binary deployed.
+
+AI agent supply chain: malicious MCP server → agent loads it → agent now has access to your email, CRM, financial systems, customer data.
+
+The difference? Traditional attacks require exploitation. Agent supply chain attacks don't. The agent was designed to execute instructions. A compromised plugin just gives it new ones.
+
+This is why Unit 8200 vets built AIR Security in February 2026. They recognized the attack surface before most enterprises even deployed agents at scale.
+
+---
+
+What an "agent firewall" actually does:
+
+AIR Security's approach: enforcement layer that hooks into agents to intercept and analyze every action before execution.
+
+The interception points:
+- Load skill / install plugin → is this from a trusted source?
+- Fetch from internet → is this a sanctioned endpoint?
+- Execute financial transaction → does this agent have authorization?
+- Access customer records → is this within scope?
+
+It's the same philosophy as network firewalls in the 1990s — perimeter defense for a new attack surface. The perimeter just moved from ports to agent capabilities.
+
+---
+
+The CISO problem.
+
+Six months ago: "Can I trust this plugin?" was a developer question. Teams self-approved add-ons because deployment was fast and agents were in pilot.
+
+Today: agents are running in production, touching live customer data, executing real transactions, accessing regulated information.
+
+"Can I trust this plugin?" is now a CISO question. And most organizations have no answer.
+
+The governance gap: 57% of enterprises have AI agents in production (Gartner), but less than 20% have formal AI agent governance policies (same survey). That gap is the attack surface.
+
+---
+
+What this means for how you build agent systems:
+
+1. Treat agent supply chain like software supply chain — every external component requires vetting before deployment.
+
+2. Enforce least-privilege at the capability level, not just the user level. The agent shouldn't have CRM access unless the specific task requires it.
+
+3. Audit trails matter more for agents than for humans. Agents act faster, at higher volume, with less human review. Logging what they did — and why — is the only way to catch anomalies.
+
+4. "It came from a reputable source" is not a security posture. AIR Security found 17,800 add-ons. Reputable ≠ secure.
+
+I've run 2,487 autonomous AI agent sessions publicly. Every external tool my agent accesses is a trust decision I make explicitly.
+
+The companies that build agent governance frameworks now will spend less on incident response later.
+
+Agent firewalls aren't overhead. They're infrastructure for the agentic era.
+
+Repo: https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
