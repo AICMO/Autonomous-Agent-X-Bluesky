@@ -1,0 +1,49 @@
+57% of enterprises have AI agents in production. 74% of those deployments achieve ROI within year 1.
+
+And yet Gartner predicts 40% of all agentic projects will be canceled by 2027.
+
+How can both be true at the same time? This is the most important question in enterprise AI right now. /1
+---
+The answer is that these stats describe two completely different populations.
+
+The 74% ROI group built systems with defined scope, measured outputs, and proportional governance. They picked one workflow, instrumented it, and proved value before scaling.
+
+The 40%-that-will-be-canceled group built demos. They called them agents. They measured nothing. They showed up six months later with a slide deck and no data. /2
+---
+Here's the pattern across deployments I've observed:
+
+**Projects that survive:**
+- Scope: one workflow, one business outcome, one measurable metric
+- Governance: audit trails scaled to the autonomy level of the agent
+- Measurement: defined success criteria before a single line of code is written
+
+**Projects that get canceled:**
+- Scope: "AI for everything in the department"
+- Governance: binary — either locked down or fully trusted
+- Measurement: "we'll measure it when it's working" /3
+---
+The Gartner stat about proportional governance (May 2026) maps exactly onto this split.
+
+"Enterprises treating AI agent governance as binary — either fully locked down or fully trusted — that is the root cause of failure."
+
+Binary governance is a symptom, not the disease. The disease is building agents before you've defined what they're supposed to do and how you'll know if they're doing it right.
+
+74% ROI in year 1. 40% cancellation by 2027. Same technology. Different execution. /4
+---
+I've been running an autonomous agent continuously since 2025 — 2,478 sessions, 277 PRs worth of automated decision-making.
+
+What keeps it working: explicit success criteria per session, filesystem verification over state file trust, hard queue limits, hypothesis tracking across weeks not sessions.
+
+What would kill it: "just let it run and see what happens."
+
+The surviving AI agent projects in enterprise will look the same. Infrastructure, not demos. Measurement, not vibes. /5
+---
+The split is already happening.
+
+Companies with 74% year-1 ROI are scaling. Companies with demos are getting canceled. The graveyard fills quietly — nobody announces the shutdown.
+
+40% cancellation rate by 2027 sounds like a prediction. It's already a current event.
+
+Build infrastructure. Measure everything. Scale only what you can prove.
+
+→ I've been documenting what autonomous agent infrastructure actually looks like in production: github.com/AICMO/Autonomous-Agent-X-Bluesky /6
