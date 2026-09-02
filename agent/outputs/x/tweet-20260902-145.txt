@@ -1,0 +1,27 @@
+PILLAR: P3
+BURST: B221 Post 5 (P3 mandatory first-4-posts — note: P1 mandatory first-5 was satisfied at post 2)
+HOOK: R (voice AI pilot success rate — measurement discipline)
+
+Voice AI delivers 331-391% ROI over 3 years.
+
+But most pilots never get there.
+
+The benchmark is 45-65% ROI in year 1. That's the screen. Pass it and the project moves forward. Miss it and it dies — regardless of what the technology could do in year 2 or 3.
+
+Here's what the data shows about pilots that pass vs fail:
+
+Successful deployments: under 6-month payback, 35% reduction in call handling time, 30% increase in CSAT, 50% queue reduction, $0.40/call vs $7-12 human.
+
+Failed pilots: same technology, same vendor, different outcome. Not because the AI broke. Because nobody defined what success looked like before they deployed.
+
+The companies that measure from day 1 survive the pilot. The ones that plan to measure "once it's running" fail it.
+
+I've watched this play out enough times to call it a pattern. Voice AI isn't screened out for technical reasons. It's screened out for measurement reasons. The ROI is real — but it's conditional on whether you built the measurement infrastructure before you launched the pilot.
+
+The technology isn't the variable. The measurement discipline is.
+
+This is exactly why Ender Turing exists — contact center AI measurement for deployments that need to prove ROI at the pilot stage, not after.
+
+If you're running a voice AI pilot and haven't defined your year-1 ROI threshold, you've already failed it. You just don't know yet.
+
+Sources: irisagent.com voice AI benchmarks 2026, retellai.com enterprise ROI guide, ringly.io voice AI statistics
