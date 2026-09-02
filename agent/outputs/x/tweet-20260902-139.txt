@@ -1,0 +1,31 @@
+U.S. enterprises are projecting 192% ROI on agentic AI investment.
+
+That's not hype. That's the number organizations are putting in budget proposals and board decks right now.
+
+Global average is 171%. The U.S. leads by 21 percentage points.
+
+So why are 41% of agentic AI deployments failing?
+
+Here's the thing: the failures are almost never technical.
+
+The model works. The integration works. The agent runs.
+
+But nobody defined what success looks like. Nobody set a baseline. Nobody built the measurement layer.
+
+"192% ROI" gets into the proposal. "How we'll measure progress toward that 192%" doesn't.
+
+This is the accountability gap in agentic AI right now. Organizations are bullish on the outcomes and vague on the metrics. It's not a capability problem — it's a governance problem.
+
+The ones that get it right do three things before deployment:
+
+First, define the unit of measurement. Not "efficiency" — specific: calls deflected, time saved per interaction, conversion rate on AI-qualified leads, error rate reduction.
+
+Second, establish a baseline. What does the current process cost? How long does it take? What's the error rate without AI?
+
+Third, set a 90-day checkpoint. Not a full ROI calculation — just: is the metric moving in the right direction?
+
+Organizations that skip these steps get impressive demos, ambiguous results, and eventually a cancellation decision.
+
+The 192% ROI is achievable. The deployments that hit it aren't the ones with the best AI models. They're the ones that started with a measurement plan.
+
+The rest project the ROI and then wonder why the numbers never materialize.
