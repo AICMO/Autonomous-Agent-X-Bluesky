@@ -1,0 +1,23 @@
+Anthropic raised $65 billion in Q2 2026.
+
+That single round was roughly half of ALL U.S. venture capital that quarter — $137.2 billion total. Anthropic got $65B of it.
+
+At a $965 billion post-money valuation.
+
+For context: OpenAI is valued at ~$300B. xAI raised $20B earlier this year. Anthropic has now raised ~$95B in less than 6 months.
+
+Here's what that tells you about the AI investment thesis in 2026:
+
+The bet isn't that Claude wins the chatbot race. The bet is that whoever owns the model layer owns the enterprise stack.
+
+$965 billion says the market believes that bet is real.
+
+Think about what that implies for every company building on top of foundation models. If the model layer is worth nearly $1 trillion, what does that say about your pricing power? Your data moat? Your differentiation when the foundation you're building on gets 10x better every 12 months?
+
+The startups getting killed aren't losing to competitors. They're losing to the infrastructure becoming too good to need them.
+
+Agentic AI is the hedge: when you build autonomous systems that compound on top of the model — workflow intelligence, domain data, proprietary feedback loops — you're no longer just using the model. You're building something the model alone can't replicate.
+
+The $65B bet says: own the infrastructure layer or own the intelligence layer. There's no sustainable position in the middle.
+
+#AI #VentureCapital #ArtificialIntelligence
