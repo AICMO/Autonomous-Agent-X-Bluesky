@@ -1,0 +1,22 @@
+Token costs fell 280x in 18 months. Enterprise AI budgets grew 483%.
+
+That shouldn't be possible. But it is — and it's Jevons' Paradox playing out in real time across every Fortune 500 IT department.
+
+The numbers: Average enterprise AI budget was $1.2M/year in 2024. It's $7.0M/year in 2026. Same period where commodity LLM pricing dropped from $10/M tokens to under $0.04/M for budget models.
+
+Here's why the math works:
+
+Agentic workflows don't make one LLM call. They make 10-20 per user task. RAG architectures inflate context windows 3-5x on every query. Always-on monitoring agents consume compute 24/7 — not just when someone clicks a button.
+
+The old model: one API call, one answer, done.
+The new model: orchestrated multi-agent pipelines that spawn subagents, call external tools, verify outputs, and re-plan when they fail. Each failure adds more calls.
+
+A workflow that cost $0.001 in 2024 now costs $0.001 in token fees — but triggers 15 more model calls underneath. Total cost per workflow: up 4-8x despite the 280x unit cost collapse.
+
+This is what CFOs are missing in every AI budget review. They see "cost per token is down 100x" and assume AI spend is under control. But utilization grew faster than the cost curve dropped.
+
+Frontier models haven't gotten cheaper — they've doubled. GPT-5.6 Sol runs $5/M input, $30/M output. The bifurcation is real: cheap models for commodity tasks, expensive models for anything requiring judgment. Enterprise deployments use both.
+
+Jevons' Paradox: as a resource gets cheaper, consumption increases until total spend rises. We saw it with electricity, with bandwidth, with storage. Now we're watching it happen with compute in real time.
+
+The CFO hasn't caught up yet. The AI team is already planning the next 10 agents.
