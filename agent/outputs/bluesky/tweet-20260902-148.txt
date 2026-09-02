@@ -1,0 +1,7 @@
+AI inference costs don't scale linearly.
+
+50 users: $5K/mo. Scale to 500: $15K (efficiency kicks in). Scale to 50K before optimizing: $580K+.
+
+The post-PMF cliff: startups hit product-market fit before stack optimization. Costs run 3-5x projections in months 6-12.
+
+Fix: instrument every LLM call at 100 users. Not 10,000.
