@@ -1,0 +1,34 @@
+PILLAR: P4
+
+The inference cost trap nobody's talking about: AI doesn't scale linearly.
+
+Fintech startup, real numbers I've seen modeled across multiple deployments:
+
+- 50 users: $5,000/month inference spend
+- 500 users: not $50K — actually $15,000 (efficiency gains, batching, caching kick in)
+- 5,000 users: $95,000 (curve flattens... temporarily)
+- 50,000 users: $580,000+ (model call explosion, no optimization, RAG context bloat)
+
+The curve inverts. Twice.
+
+Here's the mechanism most CFOs miss until it's too late:
+
+Phase 1 (0-500 users): Costs UNDERPERFORM projections. You assume linear scaling. You're right-ish. Teams get comfortable.
+
+Phase 2 (500-5,000 users): Costs actually drop per-user as batching and caching scale. Product-market fit feels great. Burn looks controlled.
+
+Phase 3 (5,000-50,000 users): Everything breaks. Agentic workflows trigger 10-20 LLM calls per user task. RAG architectures inflate context 3-5x. Always-on monitoring agents consume compute 24/7. The 280x token cost collapse from 2024-2026 masked this phase for 18 months. Now it's visible.
+
+The "post-PMF cliff" in AI economics: startups that hit product-market fit BEFORE stack optimization see costs 3-5x above projections in months 6-12. Not because the business is failing — because it's succeeding faster than the engineers optimized.
+
+Three fixes that actually work:
+
+1. Instrument every LLM call before scaling, not after. You need cost-per-user metrics at 100 users, not 10,000.
+
+2. Separate "experimental AI calls" from "production AI calls" in your cost accounting. Most startups treat them identically. The experimental ones are 40-60% of your bill by month 6.
+
+3. Set a per-user inference budget at series A. Not as a constraint — as a design parameter. "We will serve this user for $X/month at scale" forces architectural choices early that compound positively.
+
+Token costs fell 280x in 18 months. Enterprise AI budgets grew 483% in the same period. The math isn't contradictory. It's Jevons' Paradox applied to compute: cheaper doesn't reduce spend — it expands use until spend dominates.
+
+The CFO hasn't caught up yet. Make sure your engineering team has.

@@ -1,0 +1,40 @@
+PILLAR: P2
+
+The content operations team at a mid-size B2B company used to have 12 people.
+
+Now they have 4 people and an autonomous agent pipeline. Same output. Better consistency. Faster turnaround.
+
+This is the real AI productivity story in marketing — not "AI writes your copy" but "AI runs the assembly line and humans run quality control."
+
+What actually changed:
+
+**What humans still own:**
+- Brand voice decisions (the AI drifts without guardrails)
+- Relationship-sensitive content (anything with a specific customer or partner attached)
+- Strategic content bets (new categories, sensitive topics, positioning shifts)
+- Final approval on anything going to >10,000 people
+
+**What the agent owns:**
+- Research aggregation and summarization (4 hours → 12 minutes)
+- First drafts for SEO, social, email sequences (not perfect, but 80% ready)
+- Scheduling, queue management, format adaptation across channels
+- Performance tracking and reporting (data → insight loop automated)
+
+The hard numbers from enterprise AI marketing deployments: companies running autonomous AI agents in content ops report 192% projected ROI on agentic investment, but only 59% are measuring it systematically enough to prove it.
+
+That's the accountability gap. Not in the AI — in the measurement.
+
+The 41% who fail on ROI measurement aren't failing because agentic marketing doesn't work. They're failing because they didn't define "success" before they deployed. They measured traffic instead of pipeline. Impressions instead of qualified intent.
+
+Four metrics that matter if you're running an AI content pipeline:
+
+1. **Content-qualified leads per dollar spent** (not content volume, not organic traffic)
+2. **Time-to-pipeline per content asset** (how long from publish to first pipeline touch)
+3. **Agent output reuse rate** (% of AI drafts used as-is vs heavily revised — tells you if your prompts are right)
+4. **Human edit cycle time** (should drop as agents learn your brand; if it's not dropping, your prompts are wrong)
+
+The team that went from 12 to 4? Their agent output reuse rate is 73%. Meaning 73% of agent drafts go to final with minimal edits.
+
+That's not magic. It's 6 months of systematic prompt refinement, feedback logging, and weekly retrospectives with the AI pipeline itself.
+
+Agentic marketing isn't a tool upgrade. It's an ops redesign.
