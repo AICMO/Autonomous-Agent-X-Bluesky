@@ -1,0 +1,16 @@
+REPLY_TO: 2095163277127074073
+PILLAR: P3
+
+The $22B market size tells you where the industry is going.
+
+The pilot success rate tells you where most companies will get stuck.
+
+Only 45-65% of voice AI pilots hit their year-1 ROI threshold. That's the screen that separates "we're deploying this" from "we cancelled the project after 6 months."
+
+The ones that pass: measurement infrastructure defined before deployment, not after. ROI baseline captured in week 1. Success criteria agreed by the CFO before the pilot started.
+
+The ones that fail: "we'll measure once it's running." That's not a measurement plan — that's a cancellation plan.
+
+The technology is proven. The $22B market number proves adoption. The pilot survival rate proves the gap isn't capability. It's measurement discipline.
+
+Same thing Ender Turing exists to solve.
