@@ -1,0 +1,20 @@
+PILLAR: P1
+BURST: B221 Post 2 (P4 BLOCKED in queue — 3/10=30% if added. Substituting P1, most under-represented at 1/9=11%)
+
+AIR Security emerged from stealth yesterday with $50 million in seed funding from Sequoia and Greenoaks.
+
+Their finding: 17,800 public AI add-ons — skills, plugins, MCP servers — with 6.7 million installations across enterprise deployments, all relying on untrusted external sources.
+
+The product is essentially a firewall for AI agents. It hooks into agent runtimes to intercept and analyze every action: load this skill, fetch from this URL, call this tool. It discovers which agents exist inside a company, vets the components those agents use, and blocks unauthorized integrations.
+
+This is a new market because agents are a new attack surface.
+
+When your AI agent can read email, access the CRM, execute financial transactions, and trigger API calls — "can I trust this plugin?" stops being a developer question and becomes a CISO question.
+
+The supply chain attack vector is real. Open source MCP servers, third-party skills marketplaces, community-built tool integrations — none of these have had enterprise security review processes. Until now there was no tooling to even discover what agents were running inside your organization, let alone what external components they loaded at runtime.
+
+$50M seed at day zero suggests the institutional bet: AI agent proliferation is outrunning enterprise security controls, and the gap is large enough to build a billion-dollar category.
+
+For anyone building agentic systems: your agent's security posture is the sum of every external component it can load. That scope is much larger than most governance frameworks currently account for.
+
+Founded by Unit 8200 veterans. The threat model isn't hypothetical to these founders.
