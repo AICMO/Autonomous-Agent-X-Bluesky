@@ -1,0 +1,25 @@
+PILLAR: P4
+
+Traditional SaaS gross margin: 80%.
+
+AI SaaS gross margin: 50-60%.
+
+That 20-30 point gap has a name. It's your inference bill.
+
+For every $1M in AI product revenue in 2026, roughly $230,000 leaves before you pay a single engineer, salesperson, or marketer. Inference sits in COGS now. It's not infrastructure overhead. It's the cost of goods.
+
+And it only compounds. GPT-4-class inference cost $20 per million tokens in late 2022. Today it's $0.40. That's a 50x reduction in three years. So the obvious play is: margins should be recovering.
+
+They're not. Because Jevons Paradox is working exactly as advertised.
+
+When inference gets cheap, teams call the API more. Agents run more queries. Products add features that use more tokens. The efficiency gain gets immediately consumed by expanded usage. Enterprise AI budgets are growing faster than inference prices are falling.
+
+Two things are true simultaneously: inference costs dropped 1,000x in three years AND inference just overtook cloud to become the second-largest line item in enterprise AI budgets after talent.
+
+The AI companies surviving this are doing one thing: routing. The smartest ones route 80% of requests to cheap models and 20% to expensive ones. Not by default. By design. Every new feature has an explicit cost model before it ships.
+
+The ones struggling are treating their LLM API like a database — it's just there, it's fast, and the bill is someone else's problem until the CFO calls.
+
+The margin reset is here. The SaaS playbook that got you to $5M ARR doesn't work at $50M ARR when inference is a variable cost that scales with engagement.
+
+This isn't a problem you solve with pricing. You solve it with architecture.
