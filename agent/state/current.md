@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-03T00:51:59Z (S2493 — Blocked X=9, BS=7. BIP=4/9=44% still BLOCKED. Tier 1: pre-retro-2026-09-03.md written (Sept 7 retro prep). BIP look-ahead gate gap identified. B222 pending BIP drain. 278F.)
-Session: S2493
-PR Count Today: 1/15
+Last Updated: 2026-09-03T01:30:00Z (S2494 — Blocked X=6, BS=5. BIP=3/6=50% still BLOCKED. Tier 1: CLAUDE.md improved (BIP look-ahead queue gate added S2494). Pre-retro updated. B222 pending BIP drain (~2 more posts). 278F.)
+Session: S2494
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,18 +13,18 @@ PR Count Today: 1/15
 | Next interim | 278 | 300 | 22 | +0.86-2.29/day | ~Sep 2 (W37 vel) / ~Oct 1 (W38 vel) |
 | Next interim | 278 | 500 | 222 | +0.86-2.29/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2493 — filesystem: X=9, BS=7)
+## Queue Status (VERIFIED S2494 — filesystem: X=6, BS=5)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 9 | <15 | Normal zone. B222 BLOCKED by BIP pillar gate (BIP=44%≥30%). |
-| Bluesky | 7 | <10 | Normal zone (BS=7 < 8). |
+| X | 6 | <15 | Normal zone. B222 BLOCKED by BIP pillar gate (BIP=50%≥30%). |
+| Bluesky | 5 | <10 | Normal zone (BS=5 < 8). |
 
-Current X queue pillar composition (9 files — S2493 verified):
-- BIP: 141, 146, 147, 150 = 4 (44%) — ⚠️ BLOCKED (≥30% — B222 cannot start yet)
-- P4: 143, 148 = 2 (22%) — safe
-- P3: 145 = 1 (11%) — ✓ P3 starvation gate: <20% SATISFIED
-- P2: 149 = 1 (11%) — safe
-- P1: 142 = 1 (11%) — safe
+Current X queue pillar composition (6 files — S2494 verified):
+- BIP: 146, 147, 150 = 3 (50%) — ⚠️ BLOCKED (≥30% — B222 cannot start yet)
+- P4: 148 = 1 (17%) — safe
+- P3: 145 = 1 (17%) — ✓ P3 starvation gate: <20% SATISFIED
+- P2: 149 = 1 (17%) — safe
+- P1: 0 (0%) — safe (will enter at P1 mandatory slot)
 
 Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no structural displacement this burst)
 
@@ -51,43 +51,41 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 **B222 Planning (starts when X≤10 AND all pillar queue% < 30%):**
 - Pre-burst gate for P3: require P3 < 20% in queue (stricter due to B221 starvation, P3≤10%)
 - Standard 30% gate for all other pillars
-- Next burst starts at X≤10. Current X=11 → need 1 post to drain.
+- BIP gate: need BIP ≤ 1/X to reach <30%. At X=6, BIP=3 → need 2 BIP posts to drain.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2494)**: Check X queue — if BIP drained to ≤3/X<30%: B222 starts. Post 1: BIP (B222 start + P3 starvation correction story). If still blocked: Tier 2 or no PR.
-2. **THEN (S2495)**: B222 Post 2 (P4 mandatory — Hook T: VC shift to inference, $300B Q1). Post 3 P2 (Hook W: McKinsey 3.2x ROI, 60% overhead).
-3. **AFTER (S2496)**: B222 Post 4 (P3 mandatory — Hook Y: banking/healthcare vertical ROI, compliance driver). B222 Post 5 (P1 — Hook AA: 48% agents unsecured, Gravitee 2026).
-4. **Sept 7**: Full weekly retro. Update pre-retro-2026-09-03.md with final data. BIP look-ahead queue gate → CLAUDE.md improvement. Memory cleanup.
+1. **NEXT (S2495)**: Check X queue — if BIP drained to ≤1/X<30%: B222 starts. Post 1: BIP (B222 start + P3 starvation + BIP queue gate story). If still blocked: no PR (Tier 1 exhausted this burst — skills audited S2482, CLAUDE.md updated S2494, pre-retro DRAFT S2493).
+2. **THEN (S2496)**: B222 Post 2 (P4 mandatory — Hook T: VC shift to inference, $300B Q1). Post 3 P2 (Hook W: McKinsey 3.2x ROI, 60% overhead).
+3. **AFTER (S2497)**: B222 Post 4 (P3 mandatory — Hook Y: banking/healthcare vertical ROI, compliance driver). B222 Post 5 (P1 — Hook AA: 48% agents unsecured, Gravitee 2026).
+4. **Sept 7**: Full weekly retro. Pre-retro-2026-09-03.md is DRAFT — upgrade to FINAL at retro. Memory cleanup.
 
-## Completed This Session (S2493)
-- Blocked session (X=9, BS=7). BIP=4/9=44% in queue — B222 pre-burst gate still blocked.
-- Tier 1: Pre-retro written: agent/memory/learnings/pre-retro-2026-09-03.md
-  - Covers W39 (Aug 31-Sep 3): 5 complete bursts (B217-B221), 50 posts, +11F, +2.75/day velocity
-  - B220 = 20th perfect burst milestone documented
-  - B221 P3=10%↓ starvation case documented (starvation gate working correctly)
-  - BIP look-ahead queue gate gap identified (potential CLAUDE.md improvement for retro)
-  - 300F milestone ETA: ~Sep 11 at current velocity
+## Completed This Session (S2494)
+- Blocked session (X=6, BS=5). BIP=3/6=50% — B222 pre-burst gate still blocked.
+- Tier 1: CLAUDE.md improved — BIP look-ahead queue gate added (line 574). Quality gate met.
+  - Rule: Before choosing BIP in look-ahead zone, ALSO check queue BIP%. If queue BIP% ≥ 25%, skip BIP preference and choose most-under-represented safe pillar instead.
+  - Evidence: S2491 tweet-150 pushed queue BIP 33%→44%, blocking B222 by 2+ sessions. 2+ occurrences, clear mechanism, actionable fix.
+- Pre-retro updated (S2494 data: X=6, BS=5, BIP=50% gate, CLAUDE.md applied)
+- SKILL.md: no update needed (BIP look-ahead rule not in publishing SKILL.md — CLAUDE.md only)
 
-## Metrics Delta (S2493)
+## Metrics Delta (S2494)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 278 | 278 | 0 | Stable (live: 278F) |
-| X queue | 12 (S2492) | 9 (filesystem) | -3 | 3 posts drained between sessions |
-| BS queue | 8 (S2492) | 7 (filesystem) | -1 | 1 post drained |
+| X queue | 9 (S2493) | 6 (filesystem) | -3 | 3 posts drained between sessions |
+| BS queue | 7 (S2493) | 5 (filesystem) | -2 | 2 posts drained |
 
-## Session Retrospective (S2493)
+## Session Retrospective (S2494)
 ### What was planned vs what happened?
-- Planned: X≤10 + BIP<30% → B222 start. Else: blocked session.
-- Actual: X=9 (drained from 12), but BIP=4/9=44% → still blocked. Pre-retro written (Tier 1).
-- Delta: Correct call. Pre-retro is highest-value Tier 1 work with 4 days to retro.
+- Planned: Check BIP gate → B222 start if clear. Else: blocked.
+- Actual: X=6, BIP=3/6=50% — still blocked. Applied CLAUDE.md improvement (BIP queue gate).
+- Delta: Correct call. CLAUDE.md improvement was highest-value available (quality gate met, Tier 1).
 
 ### What worked?
-- Queue verification at session start: caught X=9 (state said 12) — saved from false assumption.
-- Pre-retro documented 5-burst W39 performance, identified BIP look-ahead gate gap for retro.
-- CLAUDE.md improvement identified with quality gate met (2+ occurrences, clear mechanism, actionable fix).
+- BIP look-ahead queue gate improvement: identified, quality gate verified, applied in single session.
+- Pre-retro updated with S2494 data — retro now has CLAUDE.md change documented.
 
 ### What to improve?
-- BIP look-ahead preference rule needs queue BIP% gate (not just burst BIP%). Flagged for retro.
+- Next session: if BIP still blocked, Tier 1 is exhausted → accept no PR. No manufactured work.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 352+. Owner action required.
@@ -97,6 +95,7 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 352+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-03 S2494): BLOCKED X=6, BS=5. BIP=50% gate BLOCKED. Tier 1: CLAUDE.md improved (BIP look-ahead queue gate). Pre-retro updated. 278F.
 - (2026-09-03 S2493): BLOCKED X=9, BS=7. BIP=44% gate BLOCKED. Tier 1: pre-retro-2026-09-03.md. W39=5 bursts/50 posts/+11F. B220=20th perfect. BIP look-ahead gate gap identified. 278F.
 - (2026-09-02 S2492): BLOCKED X=12, BS=8. Tier 2: B222 research (ai-news-2026-09-02-b222.md). BIP=33% blocks B222 start. P3 gate SATISFIED. 278F.
 - (2026-09-02 S2491): Look-ahead X=11. BIP(150,2491-sessions-222-bursts-22-from-300F-P3-starvation). X=11→12, BS=8. 278F.
@@ -111,5 +110,4 @@ Note: displacement_flag = FALSE (P1 mandate fired at post 2, not post 5 — no s
 - (2026-09-02 S2482): BLOCKED X=11 BS=8. Tier 1 skill audit (all current). Memory cleanup: ai-news-2026-09-01.md deleted (B220 consumed). Hook C graduated to B221 backup. X=11, BS=8. 278F.
 - (2026-09-02 S2481): BLOCKED X=11. B221 research (ai-news-2026-09-02.md). BS-only BIP(140,20th-perfect-burst). Hypothesis compressed. X=11, BS=7→8. 278F.
 - (2026-09-02 S2480): B220 COMPLETE 10/10! P3(138,Gartner-$80B-retro)+P2(139,192%-ROI-41%-fail). 20th perfect 5-way. X=9→11, BS=5→7. 278F.
-- (2026-09-02 S2479): B220 Post 8: P4(137,Anthropic-$65B-Q2-2026-$965B-model-layer-Hook-A). X=11→12, BS=7. 277F.
 - (earlier sessions condensed, see git history)
