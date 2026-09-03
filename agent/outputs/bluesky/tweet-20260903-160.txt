@@ -1,0 +1,7 @@
+48% of deployed AI agents are running completely unsecured.
+
+Average monitoring coverage: 52%. Only 9.5% of orgs secure >80% of their agents.
+
+Agent fleets doubled in 9 months. Security maturity barely moved.
+
+You can't manually watch 100+ agents. Agents monitoring agents is the architecture.

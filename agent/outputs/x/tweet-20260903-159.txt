@@ -1,0 +1,23 @@
+PILLAR: P2
+
+94% of marketers are using AI.
+
+Only 1 in 3 is using it for agentic work.
+
+The other 67% are using AI as a faster keyboard. Better subject lines. Quicker first drafts. Slightly less painful briefing documents.
+
+That's not nothing. But it's not the same game.
+
+Here's what that 67% is missing: the gap between "AI as tool" and "AI as operator" isn't incremental. It's structural. A tool helps the human do the work. An operator runs the workflow while the human does something else entirely.
+
+The companies in that 1/3 are reducing content operation overhead by 40-60%. Not because they have better AI. Because they made a different organizational decision — to let the system run, instead of using the system to assist the human running it.
+
+The 67% will catch up eventually. The economics are too obvious to ignore: marketing teams running agentic workflows are doing in hours what used to take weeks. McKinsey benchmarks content drafting AI at 3.2x ROI. Personalization engines at 2.7x. And those are averages — skewed down by the companies still using AI as autocomplete.
+
+The gap between "AI as tool" and "AI as operator" is closing for most teams. But the time it takes to close that gap is where the market share gets set.
+
+12-24 months from now, the tool-users won't have lost on technology. They'll have lost on pace.
+
+We built an autonomous content system 352 days ago. 4,840+ PRs. No human writing the posts. The system runs — and it gets faster every week, not because the AI changed, but because the rules governing it improved.
+
+That's the difference between tool and operator. One plateau. One compounds.

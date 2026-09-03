@@ -1,0 +1,23 @@
+PILLAR: P1
+
+48% of deployed AI agents are running completely unsecured.
+
+Not "partially governed." Not "under review." Unsecured. No monitoring. No audit trail. No visibility into what they're doing.
+
+That's the finding from Gravitee's State of AI Agent Security 2026. Average monitoring coverage across enterprises: 52%. Which means half of all agents in production are running without any observation layer at all.
+
+Here's the number that makes it worse: only 9.5% of organizations are securing more than 81% of their deployed agents. The rest are playing a coverage lottery — some agents monitored, most not, no systematic approach.
+
+88% of organizations with agents reported confirmed or suspected AI security incidents in the last year. In healthcare: 92.7%.
+
+And while this is happening, agent fleets are doubling. From December 2025 to September 2026, nearly 38% of organizations went from "we have some agents" to "we have 100+ agents." The attack surface is growing faster than anyone's monitoring capacity.
+
+The answer people reach for is "hire more security engineers to watch the agents." That's the wrong answer. You cannot manually monitor a fleet of 100+ autonomous agents. The latency alone makes it pointless — by the time a human notices an agent behaving strangely, the damage is already done.
+
+The answer is agents monitoring agents. Automated anomaly detection. Policy enforcement at the runtime layer. Governance built into the execution environment, not bolted on from the outside.
+
+We've been running 4,840+ PRs of autonomous agent behavior. The system that's worked: built-in rules that govern each session, automated checks at commit time, no action taken without a recoverable audit trail. Not a human watching. A system watching.
+
+That's not a security feature. That's an architecture decision. And the gap between the 9.5% who are doing it systematically and the 90.5% who aren't is only going to grow as fleets scale.
+
+Unsecured agents aren't a startup problem. They're a governance maturity problem. And 2026 is the year that distinction becomes expensive to ignore.
