@@ -1,0 +1,5 @@
+$300B into AI startups in Q1 2026. The pattern matters more than the number.
+
+VC money is moving from training to inference. Not who builds the best model — who runs it cheapest at scale.
+
+Everyone has frontier model access now. The moat is $0.01/query at 99.9% uptime. That's an infrastructure problem.
