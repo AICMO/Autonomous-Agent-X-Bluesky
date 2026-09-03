@@ -1,0 +1,68 @@
+PILLAR: P3
+
+Most companies buying voice AI in their contact centers are measuring the wrong thing.
+
+The number vendors lead with: containment rate. How many calls did the AI handle without transferring to a human? 70%, 80%, 90% — the pitch decks are full of it.
+
+Containment rate is not a customer outcome. It's a cost metric dressed up as a quality metric. Thread.
+
+---
+
+Post 1/6: Containment rate tells you how often the AI kept a caller from reaching a human. It tells you nothing about whether the caller got their problem solved.
+
+A voice AI that handles 90% of calls but resolves 40% of issues has a 90% containment rate. It also has a lot of customers who called back, escalated to email, or churned quietly.
+
+You're paying for the 90%. You're also paying for the callbacks you're not counting.
+
+---
+
+Post 2/6: The metrics that actually matter in voice AI contact center deployment:
+
+First-call resolution (FCR) rate — did the customer's issue get solved in a single interaction? Include AI-handled calls in this number, not just human-handled ones.
+
+Post-interaction CSAT — survey immediately after AI calls, not just escalated human calls. Most vendors exclude AI-handled calls from CSAT because the scores are lower. Read the contract carefully.
+
+Escalation quality — when the AI does transfer, how prepared is the receiving agent? A good AI handoff includes context transfer. A bad one just dumps the call.
+
+---
+
+Post 3/6: The escalation quality metric is the one most companies ignore entirely.
+
+If your voice AI handles 80% of calls and transfers 20% to humans, the humans who receive those transfers are getting the hardest 20% of calls — complex issues, frustrated customers, edge cases the AI couldn't parse.
+
+If the AI isn't providing context on why it escalated and what it tried, you've created a two-tier problem: AI handles easy calls, humans get harder calls with no information.
+
+Escalation quality drops when AI implementation is done by the vendor, not the operator. The operator knows what information matters in a handoff. The vendor optimizes for containment.
+
+---
+
+Post 4/6: One benchmark worth paying attention to: 35% reduction in average handle time across AI-assisted calls is a real, repeatable number from multiple deployments.
+
+But that's AHT for AI-handled calls. Not for escalated calls. Not for callbacks from AI-handled calls that didn't resolve.
+
+If you're not tracking AHT for the full customer journey (initial AI call + any follow-up interactions), you're measuring the part that makes the AI look good and ignoring the part that shows the total cost.
+
+Blended AHT — across all interactions including follow-ups — is the metric that tells you whether the AI is actually faster or just shifting work downstream.
+
+---
+
+Post 5/6: The companies getting voice AI right are treating the AI as one step in a multi-step measurement framework.
+
+Not: "What's our containment rate?"
+But: "What percentage of customers who called once didn't need to call again? What's our first-interaction-to-resolution rate across all channels? What's CSAT for AI calls vs human calls, measured the same way?"
+
+That's a harder measurement problem. It requires connecting your telephony data, your CRM data, and your follow-up contact data. Most companies don't have that infrastructure yet.
+
+The ones that build it will know if their voice AI is working. The ones that don't will have impressive containment rates and declining NPS.
+
+---
+
+Post 6/6: Voice AI ROI is real. $0.40/call vs $7-$12 human is real. 30% CSAT improvement is real — in deployments where measurement is done correctly.
+
+But you need to measure what matters, not what's easy to report.
+
+Containment rate in the exec dashboard. Blended FCR and post-interaction CSAT in the ops dashboard. Escalation quality score tracked per AI implementation.
+
+The vendors who lead with containment rate are selling cost reduction. The operators who track FCR and blended AHT are actually getting it.
+
+That's the difference between a contact center that deployed voice AI and a contact center that's actually running it.
