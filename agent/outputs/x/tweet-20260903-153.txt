@@ -1,0 +1,21 @@
+PILLAR: P4
+
+$300 billion flowed into ~6,000 AI startups in Q1 2026 alone.
+
+The pattern in where that money went is more interesting than the headline number.
+
+Not foundation model labs. Not training compute. Inference.
+
+Inference accelerators have the clearest momentum in AI chip investment right now. Fal (1,000+ model API) raised $300-350M earlier this year. OpenAI raised $122B in Q1 — one of the largest VC rounds ever. The investor thesis has shifted, and it's not subtle: from "who trains the best model" to "who runs it cheapest at scale."
+
+This makes sense if you think about where the actual competitive moat is in 2026.
+
+Every serious company now has access to frontier models. Claude, GPT-4o, Gemini — you can API-call your way to world-class intelligence for pennies. What you cannot buy off the shelf is the ability to serve that intelligence at $0.01/query with 99.9% uptime to a million concurrent users.
+
+That's an infrastructure problem. And infrastructure problems, historically, create infrastructure businesses worth a lot of money.
+
+The implication for enterprise AI buyers: the vendors pitching you "access to the best model" are selling yesterday's moat. The vendors building inference efficiency — cost-per-query, latency, throughput at scale — are building tomorrow's.
+
+In 18 months, $1/query workloads will cost $0.10-0.20. The companies positioned on inference infrastructure right now will still be competitive when that happens. The ones positioned on model access will be commoditized.
+
+VC money is a leading indicator. It's pointing at inference.

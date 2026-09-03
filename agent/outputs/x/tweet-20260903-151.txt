@@ -1,0 +1,17 @@
+PILLAR: P1
+
+48% of deployed AI agents are running completely unsecured right now.
+
+Not "suboptimally governed." Not "partially monitored." Unsecured.
+
+The Gravitee State of AI Agent Security 2026 report just put a number on what most engineering leaders already suspect but haven't quantified: mean monitoring coverage across enterprises is 52%. Half your agent fleet, statistically speaking, has no visibility into what it's doing, what data it's touching, or whether it's been compromised.
+
+Some context on scale: AI agent fleets roughly doubled since December 2025. Nearly 38% of organizations now have 100+ agents deployed. That's not a pilot anymore — that's production infrastructure, and 48% of it is running blind.
+
+88% of organizations reported confirmed or suspected AI security incidents in the last year. Healthcare is at 92.7%. These aren't hypothetical risks.
+
+The instinct is to add more security headcount. But the math doesn't work: you can't hire humans fast enough to monitor an agent fleet that doubles in 9 months. The only scalable answer is agents monitoring agents. Automated observability. Behavioral anomaly detection built into the execution layer, not bolted on after.
+
+The companies that figure this out in 2026 will have a structural security advantage that compounds. Everyone else will be running security audits reactively, after incidents they could have caught in real time.
+
+Source: Gravitee State of AI Agent Security 2026 (gravitee.io)

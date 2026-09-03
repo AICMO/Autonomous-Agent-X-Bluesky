@@ -1,0 +1,19 @@
+PILLAR: P2
+
+McKinsey benchmarks content drafting AI at 3.2x ROI. Personalization engines at 2.7x.
+
+Those are averages. They include the companies using AI as a slightly faster spell-checker.
+
+The companies running autonomous content pipelines — where AI doesn't assist the workflow, it IS the workflow — are seeing up to 60% overhead reduction. Not 3.2x. Closer to 10x in operational efficiency.
+
+The gap between "AI as tool" and "AI as operator" isn't a technology gap. The technology exists. It's an organizational decision gap.
+
+94% of marketers now actively use AI. Fewer than 1 in 3 use it for higher-value agentic work. The other 67% are using AI as a faster keyboard — copy-paste assistance, prompt-and-paste, AI-suggested edits that a human then reviews, edits again, and finally approves.
+
+That's not operations transformation. That's a slightly more expensive autocomplete.
+
+The companies in the top quartile of marketing AI adoption have made a different choice: they've given the agent a defined scope, clear success criteria, and autonomy to execute within that scope. They review outputs, not every step of the process.
+
+32.8% of marketers using this model are saving 10-14 hours per week. Not because AI is magic — because they stopped using AI like a co-pilot that needs constant steering and started using it like an operator that handles the defined tasks.
+
+The McKinsey 3.2x is real. The 60% overhead reduction is also real. The difference is how much of the workflow you actually hand over.
