@@ -1,0 +1,23 @@
+PILLAR: P4
+
+$186 million.
+
+That's the average enterprise AI budget in 2026. And 94% of enterprises are getting no measurable ROI from it.
+
+Not "disappointing" ROI. Not "hard to measure" ROI. No EBIT impact attributable to AI at all.
+
+Here's the number that makes that interesting: 88% of enterprises that adopted agentic AI report ROI within the first year. And early adopters report returns between 1.7x and 10x per dollar invested.
+
+Two data points. Same year. Same category. Completely different outcomes.
+
+The difference isn't industry. It isn't budget. It isn't which foundation model they chose. It's the decision between using AI as a tool (faster keyboard, better autocomplete, slightly less painful research) versus deploying AI as an autonomous operator.
+
+The gap is structural, not technical. A human agent handling a routine query costs $20-25 fully loaded. An AI agent handling the same query costs $0.50-0.70. That's a 30-40x cost difference. That ROI shows up instantly — but only if you actually let the agent run the workflow instead of assisting the human running the workflow.
+
+40% of enterprises above $1B revenue are now scaling autonomous agents, up from 27% a year ago. They're not measuring "AI adoption." They're measuring resolved queries per dollar, per hour, per workflow. The measurement shift is what unlocks the ROI.
+
+The 94% getting nothing back aren't bad at AI. They're measuring inputs (budget, models, seats) instead of outcomes (cost per decision, hours recovered, errors prevented).
+
+You can spend $186M on a faster keyboard. Or you can build a system that runs.
+
+The companies that figure out the difference first are going to be very hard to catch.
