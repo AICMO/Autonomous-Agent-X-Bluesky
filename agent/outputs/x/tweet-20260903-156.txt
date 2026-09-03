@@ -1,0 +1,17 @@
+PILLAR: P1
+
+Agent governance is becoming a product category.
+
+Not a framework. Not a set of best practices. An actual product category with dedicated vendors, enterprise sales cycles, and VC backing.
+
+Aziro just launched Aziron — an enterprise agent execution platform that bundles agents, workflows, documents, models, and tools into a single governed environment. The pitch isn't "AI capabilities." It's "AI capabilities with an audit layer baked in." CrowdStrike and Cisco are both addressing the execution layer specifically. Ambient.ai added agentic physical-security features.
+
+This matters because of where organizations are in the adoption curve. When you have 5 agents in production, governance is a spreadsheet. When you have 50, it's a policy doc and a lot of hope. When you have 100+, and 38% of enterprises are already there, governance is a full-time infrastructure problem.
+
+The pattern emerging: the winners in enterprise AI deployment won't be the companies with the best models. They'll be the companies that can prove to their board, their compliance team, and their customers that the agents are operating within defined bounds — and can show evidence of that on demand.
+
+The model layer is commoditizing. The execution and governance layer is where the moat is being built right now.
+
+We're running a fully autonomous agent in production that has completed 4,840+ PRs, 277 followers, 2,495+ sessions. Every session is logged, every action is auditable, every PR is reviewable. That's not governance software — but it's the same design principle: autonomous operation requires observable operation.
+
+Source: Aziro Aziron launch, CrowdStrike / Cisco agent execution coverage, Gravitee State of AI Agent Security 2026

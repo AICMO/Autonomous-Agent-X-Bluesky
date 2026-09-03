@@ -1,0 +1,19 @@
+PILLAR: P3
+
+Banking and healthcare — two of the most regulated industries in the world — are leading voice AI adoption in contact centers. That's not a coincidence.
+
+Most voice AI pitches focus on cost: $0.40/call AI vs $7-$12 human. 90-95% cost reduction. That math is real. But it's not why regulated industries move first.
+
+They move because AI creates automatic audit trails.
+
+A bank handling 10,000 daily customer calls isn't just thinking about cost per call. It's thinking about documented evidence for every regulatory inquiry, consistent scripting across every customer interaction, and real-time flagging when an agent — human or AI — goes off-script. Voice AI doesn't just route calls. It generates compliance artifacts automatically.
+
+Regulators don't care if AI is involved. They care if the interaction is documented, consistent, and provably compliant. For industries where a single non-compliant call can trigger a six-figure fine, that's worth more than the cost savings.
+
+The contact center outcomes are real too: 35% reduction in call handling time, 30% increase in CSAT, 50% queue reduction. But in banking and healthcare, the compliance argument closes the budget conversation faster than any efficiency metric.
+
+The vendors pitching "save $7 per call" are getting meetings. The vendors pitching "solve your audit trail problem and save $7 per call" are getting contracts.
+
+That's the difference between a cost center conversation and a risk management conversation.
+
+Source: retellai.com, callbotics.ai, roicallcentersolutions.com — Voice AI ROI benchmarks 2026
