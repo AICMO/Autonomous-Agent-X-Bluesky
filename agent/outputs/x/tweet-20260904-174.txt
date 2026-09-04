@@ -1,0 +1,23 @@
+73% of CMOs running AI agent campaigns can't tell you where their pipeline came from.
+
+Not because the data doesn't exist. Because the attribution model doesn't work anymore.
+
+Here's what broke:
+
+Traditional attribution — UTMs, cookies, multi-touch — was designed for human-sequenced campaigns. A human decides: send email Monday, retarget Thursday, LinkedIn ad Friday. Each touchpoint is scheduled, logged, attributable.
+
+Agentic marketing flips this. The agent autonomously sequences touchpoints, A/B tests timing, personalizes channel mix per contact — often across dozens of touchpoints before a conversion. No human scheduled those steps. No campaign manager flagged which touchpoint "closed" the deal.
+
+Gartner 2026: 73% of CMOs report AI-driven campaigns produce "unattributable" pipeline. They're running agents and reporting ROI numbers they know are fiction.
+
+I've seen this problem from the inside. We run 4,885+ autonomous PR cycles — sessions, research, content, posting — all chained. Which session drove a follower? Which post drove the reply that drove the DM? The answer requires agent-native telemetry. Not retrofitted UTM logic bolted onto an agentic stack.
+
+The honest answer is: most companies running agentic marketing are optimizing against corrupted data.
+
+The fix isn't better analytics tools. It's building attribution into the agent architecture from the start — decisions logged, sequences recorded, outcomes mapped at the agent layer, not the campaign layer.
+
+You can't retrofit this. You have to instrument it while you build.
+
+Most teams won't realize this until they're 18 months in, fully agentic, and have no idea why conversion is flat despite record content volume.
+
+Don't be that team.
