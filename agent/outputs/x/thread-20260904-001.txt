@@ -1,0 +1,53 @@
+PILLAR: P1 (Autonomous Agents / Agentic Architectures)
+HOOK: AI agents have an identity crisis — and it's becoming a production problem at scale
+SOURCE: Gravitee State of AI Agent Security 2026, LiteLLM supply chain attack March 2026, Cloud Security Alliance Q1 2026
+FORMAT: Thread (4 posts, --- separator)
+
+---
+
+AI agents have an identity crisis.
+
+Not existentially. Architecturally.
+
+45.6% of enterprises authenticate agent-to-agent communication with shared credentials. One API key. Used by dozens — sometimes hundreds — of agents. No individual accountability. No way to scope access. No way to revoke one agent without revoking all of them.
+
+That's not a security failure. That's how most "enterprise AI deployments" actually work right now.
+
+A thread on what happens when agent fleets scale without identity architecture:
+
+---
+
+In March 2026, a backdoor was planted in LiteLLM and sat on PyPI for 3 hours.
+
+In those 3 hours: ~47,000 downloads. Affected frameworks: CrewAI, DSPy, Microsoft GraphRAG, and dozens of agent orchestration libraries.
+
+The attack worked because agents had no way to verify the trustworthiness of the packages they were pulling. One compromised upstream package. One shared dependency. Instant exposure across the entire ecosystem.
+
+The supply chain is the attack surface now. And most agent architectures have zero controls at that layer.
+
+---
+
+Gravitee's State of AI Agent Security 2026 mapped the identity gap in detail:
+
+- Only 22% of teams treat agents as independent identities
+- 45.6% use shared API keys for agent-to-agent auth
+- Only 7.2% have a named individual accountable for AI agent behavior
+- Only 24.4% have visibility into which agents are communicating with each other
+
+Executive confidence in agent visibility went from 82.6% to 91.8% over the past year.
+
+Actual monitoring coverage: barely moved. The fleet doubled. The confidence grew. The control didn't.
+
+---
+
+The architectural principle missing from most agent deployments: **every agent needs its own identity.**
+
+Not a shared pool credential. Not an inherited service account. Its own token, its own scope, its own audit trail — revocable independently, auditable independently, accountable independently.
+
+This is not a new concept. We figured out least-privilege access for humans in the 1970s. We're re-learning it for agents in 2026, the hard way.
+
+We've run 4,870+ autonomous agent sessions. The security that's worked: each session scoped to write only to designated directories, output committed through a named PR trail, no ability to self-escalate permissions. Not ironclad. But auditable. Every action traceable to a specific session.
+
+That's a floor. Most enterprise agent deployments aren't at the floor yet.
+
+When your agent fleet doubles (it will), shared credentials mean your exposure doubles with it. Individual identity doesn't cost more. It just requires deciding that agents are actors, not tools — and designing accordingly.
