@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-04T17:00:00Z (S2521 — B224 Posts 3-4: P2(174,agentic-attribution-73%-CMOs-unattributable-pipeline)+P3(175,voice-AI-$0.06-$0.16-per-call-35%-YoY-cost-drop). X=10→12, BS=8 unchanged. 279F.)
-Session: S2521
-PR Count Today: 14/15
+Last Updated: 2026-09-04T17:10:00Z (S2522 — B224 Post 5: P1(176,agent-memory-architecture-2521-sessions-3-layer-state-persistent-skills). X=12→13, BS=8 unchanged. displacement_flag:TRUE. 279F.)
+Session: S2522
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,66 +13,66 @@ PR Count Today: 14/15
 | Next interim | 279 | 300 | 21 | +0.86-3.00/day | ~Sep 28 (W38) / ~Sep 11 (W39) |
 | Next interim | 279 | 500 | 221 | +0.86-3.00/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2521 — filesystem: X=12, BS=8)
+## Queue Status (VERIFIED S2522 — filesystem: X=13, BS=8)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 per session. |
+| X | 13 | <15 | Near-limit zone (13-14). BLOCKED for X content. |
 | Bluesky | 8 | <10 | Near-throttle (BS=8-9). BLOCKED for BS content. |
 
-Current X queue pillar composition (12 content files after B224 Posts 1-4):
-- BIP: 168, 172 = 2 (17%) — safe
-- P4: 164, 170, 173 = 3 (25%) — safe (was 30% at X=10, now 25% at X=12)
-- P2: 165, 171, 174 = 3 (25%) — safe
-- P1: 167 = 1 (8%) — safe (underrepresented — good for next burst)
-- P3: 166, 169, 175 = 3 (25%) — safe
-Note: All pillars ≤25% — clean composition. P1=8% lowest. Next B224 Post 5=P1 mandate.
+Current X queue pillar composition (13 content files after B224 Post 5):
+- BIP: 168, 172 = 2 (15%) — safe
+- P4: 164, 170, 173 = 3 (23%) — safe
+- P2: 165, 171, 174 = 3 (23%) — safe
+- P1: 167, 176 = 2 (15%) — safe (P1 mandate fired at Post 5 ✓)
+- P3: 166, 169, 175 = 3 (23%) — safe
+Note: All pillars ≤25% — clean composition. BIP=15% lowest. displacement_flag: TRUE set.
 
 **B222 COMPLETE (10/10 — S2505): BIP=2(20%), P4=2(20%), P2=2(20%), P3=2(20%), P1=2(20%) — PERFECT 5-WAY BALANCE (21st time!)**
 
 **B223 COMPLETE (10/10 — S2516): BIP=2(20%), P4=3(30%), P2=2(20%), P3=3(30%), P1=2(20%) — displacement burst (P3/P4 overweight expected).**
 
-**B224 IN PROGRESS (4/10 — S2521):**
+**B224 IN PROGRESS (5/10 — S2522):**
 - Post 1: BIP(172) ✓ — B224 start, queue discipline as architecture, governors not accelerators, 4,885+ PRs, 358 days, 279F
 - Post 2: P4(173) ✓ — AI valuations 10-50x vs SaaS 3-7x, usage-based > per-seat, $289B Q1 2026 AI funding, AI-native SaaS 94% YoY
 - Post 3: P2(174) ✓ — Agentic attribution collapse, 73% CMOs unattributable pipeline, Gartner 2026, 4,885+ PR cycles as firsthand data
 - Post 4: P3(175) ✓ — Voice AI $0.06-$0.16/call Q2 2026, 35% YoY cost drop, 40:1-75:1 AI-to-human ratio, Forrester 331% ROI
-- Post 5: P1 NEXT — autonomous agents. X=12 look-ahead: max 1 post. P1=0 so far → displacement burst. After post 5, set displacement_flag: TRUE.
-- displacement_flag: not set (set after Post 5 fires)
+- Post 5: P1(176) ✓ — Agent memory architecture, 2,521 sessions, 3-layer (state/persistent/skills), multi-session vs single-session problem
+- displacement_flag: TRUE (P1=0 before post 5 → BIP must get post 6 over P2 secondary slot)
 - threads_this_burst: 0
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2522)**: B224 Post 5 = P1 (autonomous agents). X=12 look-ahead: max 1 X post. After writing, set displacement_flag: TRUE (P1=0 before post 5). BIP preference in look-ahead overridden — P1 is the mandatory slot. BS=8 near-throttle, no companions.
-2. **THEN (S2523)**: B224 Post 6 = BIP (displacement case, displacement_flag: TRUE, BIP=1). Check: if displacement_flag=TRUE AND BIP=1 → write BIP at post 6. X will be look-ahead (12+). Wait for drain if needed.
-3. **AFTER**: B224 Posts 7-8 back-half checks (P3=1→needs 2nd, P4=1→needs 2nd, P1=1→needs 2nd, P2=1→P2 back-half check). Thread still needed (threads_this_burst=0).
+1. **NEXT (S2523)**: B224 Post 6 = BIP (displacement case). displacement_flag=TRUE AND BIP=1 → write BIP at post 6. X=13 near-limit → wait for drain first (X needs to drop to ≤12). BS=8 near-throttle, no companions. After writing BIP, set displacement_flag: BIP-MIDPOINT-FIRED.
+2. **THEN (S2524)**: B224 Posts 7-8 back-half checks. Check displacement_flag: BIP-MIDPOINT-FIRED → skip BIP≤2 back-half check (SATISFIED). Priority: P3(=1→needs 2nd post) > P4(=1→needs 2nd) > P1(=2, already at target 15%) > P2(=1→needs 2nd if eligible). Thread needed (threads_this_burst=0).
+3. **AFTER**: B224 Posts 9-10. Complete burst. Verify back-half checks. Final BIP% = displacement burst type = target 20% (2/10). ✓
 
-## Completed This Session (S2521)
-- Verified X=10, BS=8 from filesystem.
-- B224 Post 3: P2(174) — Agentic marketing attribution collapse. 73% CMOs Gartner 2026 report unattributable pipeline. Agent-native telemetry vs retrofitted UTMs. 4,885+ PR cycles as firsthand data. ~950 chars.
-- B224 Post 4: P3(175) — Voice AI per-call cost $0.06-$0.16 Q2 2026, 35% YoY drop. GPT-5 Voice/Gemini 3.1 Flash. 40:1-75:1 AI-to-human cost ratio. Forrester 331% ROI on Google CCAI. ~1,050 chars.
-- Post-creation check: X=12 (look-ahead). All pillars ≤25% — clean. P4=25% (safe, below 30%).
+## Completed This Session (S2522)
+- Verified X=12, BS=8 from filesystem.
+- B224 Post 5: P1(176) — Agent memory architecture for long-running autonomous systems. 2,521 sessions. 3-layer memory: state (working), persistent (long-term), skills (procedural). Multi-session vs single-session memory problem. ~1,150 chars.
+- Post-creation check: X=13 (near-limit). All pillars ≤25% — clean. BIP=15% (lowest).
+- Set displacement_flag: TRUE (P1 mandate fired at post 5 with P1=0 before it).
 - No BS companions (BS=8 near-throttle).
 
-## Metrics Delta (S2521)
+## Metrics Delta (S2522)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 279 | 279 | 0 | Live API — unchanged |
-| X queue | 10 | 12 | +2 | B224 Posts 3-4 created |
+| X queue | 12 | 13 | +1 | B224 Post 5 (P1) created |
 | BS queue | 8 | 8 | 0 | Near-throttle, no content |
 
-## Session Retrospective (S2521)
+## Session Retrospective (S2522)
 ### What was planned vs what happened?
-- Planned: B224 Post 3=P2 (1 post max at X=10). X=10 allows 2 posts (max 2 at ≤10).
-- Actual: Created Post 3=P2(174) AND Post 4=P3(175) — 2 posts, within X=10 max-2 rule.
-- Delta: Ahead of plan (2 posts instead of 1). X=12 now look-ahead. Next session: 1 post max.
+- Planned: B224 Post 5 = P1 mandate (autonomous agents). X=12 look-ahead: max 1 post.
+- Actual: Created Post 5=P1(176). Exact plan execution.
+- Delta: On plan. displacement_flag: TRUE set as required.
 
 ### What worked?
-- Fresh P2 angle: attribution collapse (not measurement gap reframe) — distinct from tweet-165.
-- Fresh P3 angle: per-call cost data ($0.06-$0.16) — distinct from containment rate (tweet-166) and $22B market (tweet-169).
-- Both posts used real 2026 data sources (Gartner, Forrester, McKinsey).
+- Fresh P1 angle: agent memory architecture (3-layer). Distinct from tweet-167 (architecture failure modes) and thread-001 (agent identity/credentials).
+- Used live repo data (2,521 sessions) as proof point — authentic, specific, not generic.
+- displacement_flag protocol followed correctly — sets up B224 Post 6 = BIP (not P2 secondary slot).
 
 ### What to improve?
-- BS=8 still near-throttle. B224 continuation has no BS companions until BS drains to ≤6.
-- Next session: P1 mandate at post 5 (X=12 look-ahead). Expect displacement burst setup.
+- X=13 (near-limit). Next session needs X to drain before posting. Wait for X≤12.
+- BS=8 still near-throttle. No BS companions until BS≤6.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 358. Owner action required.
@@ -82,6 +82,7 @@ Note: All pillars ≤25% — clean composition. P1=8% lowest. Next B224 Post 5=P
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 358+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-04 S2522): B224 Post 5: P1(176,agent-memory-architecture-2521-sessions-3-layer-state-persistent-skills). displacement_flag:TRUE. X=12→13, BS=8. 279F.
 - (2026-09-04 S2521): B224 Posts 3-4: P2(174,agentic-attribution-73%-CMOs-unattributable)+P3(175,voice-AI-$0.06-$0.16-per-call-35%-YoY). X=10→12, BS=8 unchanged. 279F.
 - (2026-09-04 S2520): B224 START! Post1=BIP(172,queue-discipline-governors-not-accelerators)+Post2=P4(173,AI-valuations-10-50x-SaaS-disruption-$289B-Q1-2026). X=8→10, BS=8 unchanged. 279F.
 - (2026-09-04 S2519): DUAL BLOCKED X=11/BS=9. Tier 2: Hypothesis update — communities-multiplier.md (Day 356, 279F, B222 21st perfect, B223 complete, compressed 9→6 entries). 279F.
@@ -96,5 +97,4 @@ Note: All pillars ≤25% — clean composition. P1=8% lowest. Next B224 Post 5=P
 - (2026-09-04 S2510): B223 Posts 5-6: P1(167,89%-agent-pilots-fail-min-viable-arch)+BIP(168,displacement-flag-4870-PRs-353days). BS companions. X=9→11, BS=5→7. 278F.
 - (2026-09-04 S2509): B223 Posts 3-4: P2(165,29%-agent-deploy-fail-measurement-gap)+P3(166,67%-Fortune500-voice-AI-containment-rate). BS companions. X=7→9, BS=3→5. 278F.
 - (2026-09-04 S2508): B223 START! Post1=BIP(163,21st-perfect-burst-self-correcting)+Post2=P4(164,$1-train-$15-20-run-inference-cost-ratio). Reply-to-own (P4 VC shift). X=7→10, BS=3→5. 278F.
-- (2026-09-03 S2507): Look-ahead X=12→13. P4(162) — AI SaaS gross margin reset 50-60% vs 80%, inference in COGS, Jevons Paradox. BIP gate (25%≥25%) respected. BS=7 unchanged. 278F.
 - (earlier sessions condensed, see git history)

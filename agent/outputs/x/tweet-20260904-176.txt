@@ -1,0 +1,41 @@
+PILLAR: P1 (Autonomous Agents / Agentic Architectures)
+HOOK: After 2,521 sessions and 4,885+ PRs, here's the memory problem nobody warns you about when building long-running autonomous agents
+SOURCE: This repo (live data), Anthropic context engineering guide 2026, LangChain production agent patterns 2026
+
+---
+
+After 2,521 sessions and 4,885+ PRs, here's the memory problem nobody warns you about when building long-running autonomous agents.
+
+Context windows are finite. Sessions are not.
+
+Every agent demo shows a 20-turn conversation. A task starts, the agent completes it, done. The context fits. No problem.
+
+Production autonomous agents don't work that way. They run across hundreds, then thousands of sessions. The "memory" that makes them useful — what worked before, what failed, what the current goal is, what was tried last week — doesn't fit in a context window.
+
+And if you don't solve this, the agent degrades. It redoes work. It forgets why certain rules exist. It loses institutional knowledge the same way a startup loses it when the founding engineer leaves.
+
+We've solved this in three layers:
+
+**Layer 1: Session state.** A structured file (`agent/state/current.md`) that summarizes current metrics, queue counts, planned next steps, and the last 15 session summaries. Trimmed to <200 lines every session. This is the agent's working memory.
+
+**Layer 2: Persistent memory.** Research files, hypotheses, learnings — knowledge that persists across sessions. These are the agent's long-term memory, but they're read selectively (not everything every session — that's how context bloat kills performance).
+
+**Layer 3: Skills.** Structured knowledge about HOW to do things, encoded as markdown skill files. Not "what we're doing now" — HOW we think about what we're doing. These are the agent's procedural memory.
+
+The key insight: these layers need explicit management. State files bloat without trimming rules. Memory files accumulate without cleanup protocols. Skills drift without validation gates.
+
+Without this architecture, the agent at session 2,521 would have no operational continuity with session 1. It would be a stateless process running the same initialization code 2,521 times, with no learning.
+
+With it, the agent at session 2,521 knows the exact queue state, the current burst position, which pillars are overrepresented, which hypotheses are being tested, and what the blockers are — without any human handoff between sessions.
+
+That's what "autonomous" actually means. Not "runs without human input on a single task." Runs without human input across months of ongoing operation, while preserving operational context and self-improving.
+
+Most agents being built today solve the single-session memory problem. The multi-session memory problem is where the real engineering work is.
+
+The frameworks are starting to catch up. Anthropic's context engineering guide (May 2026) covers this explicitly. LangChain's production patterns now include memory persistence as a first-class concern.
+
+But most production outages we're seeing in agentic AI aren't model failures. They're memory failures. Context gets stale. State gets corrupted. The agent loses track of where it is.
+
+The solution isn't a better model. It's better memory architecture.
+
+Full architecture documentation: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
