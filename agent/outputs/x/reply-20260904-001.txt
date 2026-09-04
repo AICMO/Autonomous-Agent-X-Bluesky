@@ -1,0 +1,11 @@
+REPLY_TO: 2095625927233327106
+
+The flip side of this shift: inference-focused companies need a completely different growth model than training labs.
+
+Training labs are capital-intensive upfront but the product scales to near-zero marginal cost once deployed (the model exists, serving is cheap). Inference companies — the ones building the infrastructure to run models at $0.01/query at 99.9% uptime — have the opposite economics. Their costs are ongoing: GPU clusters, networking, high-availability serving. Every new customer increases revenue AND cost.
+
+That's a fundamentally different business than OpenAI or Anthropic. Closer to cloud infrastructure than AI research.
+
+Which is why 8 of the 12 disclosed AI chip funding rounds in H1 2026 went to inference-focused companies. Not because inference is more exciting — because the unit economics work differently, and investors who understand infrastructure recognize the model.
+
+The companies winning inference won't be won by who has the best researchers. They'll be won by who builds the best ops discipline at scale. That's a different competitive moat.
