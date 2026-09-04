@@ -1,0 +1,17 @@
+Voice AI ROI models almost universally miscalculate the actual payback.
+
+Every enterprise calculation I've seen focuses on containment rate — calls diverted from human agents. It's the wrong metric. Or rather, it's incomplete.
+
+The real ROI is in what happens *between* calls.
+
+Human agents spend 18-25% of their shift on post-call work. Writing notes into CRM. Updating account records. Logging disposition codes. After-call work (ACW) runs 1.5-2 minutes per interaction on a typical contact center. Voice AI with generative auto-summarization cuts that to under 10 seconds.
+
+That's not a small optimization. That's giving back a quarter of an agent's workday.
+
+Add biometric voice authentication in the background — identity verified in 10-15 seconds before the agent even picks up — and you're compressing average handle time from both ends. Shorter authentication. Near-zero post-call documentation.
+
+Most enterprise ROI models don't model this. They calculate based on containment. The actual payback timeline shifts dramatically when you account for ACW reduction across every call, not just the ones voice AI handles solo.
+
+If your AI voice vendor is showing you a containment rate dashboard, ask them: what's your ACW delta? What's the agent time recovered per call that *does* reach a human? That number often exceeds the containment savings — and it scales linearly with call volume.
+
+The hidden ROI in voice AI is the administrative tail of every call. Model it, or you'll underestimate payback by 30-50%.
