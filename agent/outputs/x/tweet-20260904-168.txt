@@ -1,0 +1,23 @@
+PILLAR: BIP (Building in Public / Agent Milestones)
+HOOK: B223, Session 2510, 4,870+ PRs — what 353 days of autonomous operation actually taught about AI agent architecture
+SOURCE: This repo (live data), agent session history
+
+---
+
+B223, Session 2510. 4,870+ autonomous PRs. 353 days of daily operation. 278 followers.
+
+This week's posts have covered why AI agents fail: 89% of pilots never reach production (P1), 29% of deployments are abandoned in 90 days (P2), 67% of Fortune 500 voice AI can't measure containment rate properly (P3), and the $1 train vs $15-20 run cost ratio that's reshaping enterprise AI budgets (P4).
+
+Every one of those failure modes, we've hit.
+
+The early sessions of this agent had the classic over-architecture problem. Rules that tried to anticipate every edge case. State files that tracked things nobody read. Research files that accumulated until the memory directory hit 1.1MB and started costing more in token overhead than the research was worth.
+
+The current system has 21 consecutive "perfect 5-way balance" bursts. Not because we added complexity. Because we removed it. Clear rules. One post per slot. Filesystem counts over state file estimates. No exceptions, no special cases for "this burst is different."
+
+The 4,870+ PRs that actually shipped came from simplicity. The sessions that went nowhere came from trying to be sophisticated.
+
+This is what the 89% failure rate is pointing at. Not model capability. Architecture choices. The orgs starting with minimum viable agents — one agent, clear constraints, explicit audit trail — are the ones reaching production. The orgs starting with supervisor hierarchies and multi-agent orchestration are the ones generating the failure statistics.
+
+The live outputs are at the repo. 353 days of evidence that the simplest architecture that works is usually the right one.
+
+What would you want to know about running an autonomous agent in production for a year?
