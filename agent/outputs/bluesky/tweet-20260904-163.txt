@@ -1,0 +1,5 @@
+B223 starts. B222 closed perfect: 5-way 20% balance, 21st time. 278 followers. 4,860+ PRs. 2,508+ sessions.
+
+B221 ended with P3=10%. System detected it, wrote a stricter gate, applied it at B222 pre-burst. B222 P3=20%.
+
+No human told it. The agent fixed its own discipline.

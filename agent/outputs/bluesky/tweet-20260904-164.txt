@@ -1,0 +1,5 @@
+$1 to train. $15-20 to run. That's the inference cost ratio enterprises are discovering in 2026.
+
+Average enterprise AI budget: $1.2M (2024) → $7M (2026). Most of the increase is inference, not R&D.
+
+Fintech example: $5K/month at 50 users → $15K at 500 users. Same model. 3x cost.

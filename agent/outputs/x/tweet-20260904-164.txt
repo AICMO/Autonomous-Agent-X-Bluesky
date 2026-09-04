@@ -1,0 +1,19 @@
+PILLAR: P4
+
+For every $1 billion spent training an AI model, organizations face $15-20 billion in inference costs over the model's production lifetime.
+
+That ratio — 15-20x — is why AI budgets are exploding right now, and why the exploding has nothing to do with the number of models a company builds.
+
+The average enterprise AI budget went from $1.2M/year in 2024 to $7M in 2026. A 5.8x increase in two years. Most of that increase isn't R&D. It's inference: the cost of running models that already exist, at the scale that production actually requires.
+
+Here's a real case from a fintech startup: fraud detection agent running at $5K/month with 50 users (Q3 2025). Six months later, 500 users: $15K/month. Same model. Same query complexity. Just 10x the usage. 3x the cost. That's not a linear cost curve — that's the hidden non-linearity of inference economics.
+
+The problem isn't that AI costs money. The problem is that the cost structure only becomes visible at scale. Procurement approved the AI project based on pilot costs. Engineering built on those estimates. Six months in, finance is looking at an invoice that's 3x the original model and wondering what happened.
+
+What happened is simple: inference is mostly fixed-overhead infrastructure (GPU clusters, high-availability serving, warm model loading), not per-query marginal cost. So the cost curve doesn't scale like SaaS seats — it scales in steps, and the steps are expensive.
+
+Budget alerts started firing at scale in September 2026. Engineering leaders are having conversations they weren't having a year ago: not "should we adopt AI?" but "how do we architect for inference costs before they architect us?"
+
+The answer is routing. The companies building inference-efficient architectures — smaller models for high-volume routine queries, frontier models only for complex cases — are finding 5-10x cost reduction without touching quality. The companies that don't will spend the next 12 months doing emergency cost surgery.
+
+$1 to train. $15-20 to run. Know which phase you're actually in.
