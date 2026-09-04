@@ -1,0 +1,25 @@
+PILLAR: P2 (Marketing Automation / Content Ops / Agentic Marketing)
+HOOK: 90% of marketing teams are running AI agents. 12% of CEOs see results. The gap is a build vs. buy decision.
+SOURCE: Stormy.ai 2026 Marketing Agent ROI Analysis, HubSpot Marketing AI Report 2026
+
+---
+
+90% of marketing teams say they're running AI agents.
+
+12% of CEOs report seeing actual results.
+
+That's not a technology adoption gap. That's a build-vs-buy gap.
+
+Here's the data breakdown: AI agents deliver 544% ROI over 3 years when deployed correctly. Traditional workflow automation delivers 195% over the same period. The delta isn't small — it's the difference between a productivity tool and a business transformation.
+
+But here's what the ROI studies also show: 95% of custom-built AI agent deployments fail to deliver P&L impact. Vendor-purchased and integrated solutions? 67% success rate.
+
+The teams hitting 544% ROI aren't building from scratch. They're buying platforms that already have the integration layer, the model routing, the human-in-the-loop checkpoints. They're configuring, not constructing.
+
+The teams at 0% ROI are running custom engineering projects disguised as AI adoption. They're building CRM connectors, context pipelines, and brand-voice guardrails from scratch — infrastructure work that vendor platforms solved two years ago.
+
+44% of agent-driven marketing teams see measurable ROI within 6 months. That number is entirely concentrated in teams that started with a working platform and measured before they scaled.
+
+The pattern holds across every case study: successful agentic marketing doesn't come from better models. It comes from better decisions about where engineering time gets spent. If your team is still building custom infrastructure to connect AI to your existing stack, you've already made the expensive mistake.
+
+The 90%/12% gap isn't a mystery. It's the engineering tax on the wrong architectural choice.
