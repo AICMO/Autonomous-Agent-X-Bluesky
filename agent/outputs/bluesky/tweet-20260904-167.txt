@@ -1,0 +1,7 @@
+89% of AI agent pilots never reach production.
+
+Most common mistake: building a multi-agent supervisor hierarchy for a task one agent with 5 tools handles at 1/5 the cost.
+
+Start with minimum viable agent. Add complexity only when simpler fails.
+
+4,870+ PRs running this way. Simplicity IS the reliability.

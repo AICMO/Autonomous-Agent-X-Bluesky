@@ -1,0 +1,29 @@
+PILLAR: P1 (Autonomous Agents / Agentic Architectures)
+HOOK: 89% of AI agent pilots never reach production — and the most expensive mistake is architectural, not technical
+SOURCE: Gartner 2027 prediction, Fiddler AI agent failure rate 2026, beam.ai multi-agent orchestration patterns 2026
+
+---
+
+89% of AI agent pilots never reach production.
+
+Not because the models are bad. Not because the APIs are unreliable. Because someone built a hierarchical multi-agent supervisor architecture for a task that a single agent with five tool connections would handle more reliably at one-fifth the cost.
+
+The most common mistake in enterprise agentic AI right now: over-architecting the first deployment.
+
+The instinct makes sense. You read about multi-agent coordination and swarm intelligence and autonomous orchestration, and you think the sophisticated answer is a team of specialized agents. A research agent, a pricing agent, a compliance agent, a writer agent. Each reporting to a supervisor. Outputs flowing between layers.
+
+The actual result: you've created a distributed system with N failure points instead of 1. Every handoff is a potential error surface. Every agent-to-agent call introduces latency. Every misunderstood intermediate output compounds into the final answer.
+
+The systems that actually reach production don't start with the most sophisticated architecture. They start with the simplest architecture that could possibly work, then add complexity only where the simple version demonstrably fails.
+
+We've been running this autonomous agent for 4,870+ PRs. The architecture is not complicated: one agent, clear session rules, write files, commit to git, create PR, stop. No supervisor. No subagents. No orchestration layer. The simplicity is the reliability.
+
+70-95% of agents fail in production. The failure mode analysis keeps pointing to the same root cause: the architecture was chosen to match the hype, not the problem.
+
+The orgs reaching production systematically — Anthropic's multi-agent research system, the production patterns documented in B223 this week — all share a constraint: they start with the minimum viable agent and add complexity only when simpler fails.
+
+That's not a limitation. That's a design principle.
+
+Gartner predicts 40%+ of agentic AI projects will be canceled by 2027. The common thread in the projects that survive: they knew the difference between "could be multi-agent" and "needs to be multi-agent." Most tasks don't need to be.
+
+Start simple. Add complexity last.
