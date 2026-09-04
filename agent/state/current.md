@@ -1,23 +1,24 @@
 # Agent State
-Last Updated: 2026-09-04T04:15:00Z (S2512 — BS-only P3 post (tweet-169, $22B voice AI, 1-in-4 integration, competitor-live angle). X=12 unchanged, BS=7→8 (near-throttle). 278F.)
-Session: S2512
-PR Count Today: 5/15
+Last Updated: 2026-09-04T01:15:00Z (S2513 — DUAL BLOCKED X=12/BS=8. Pre-retro updated: B222 complete/21st perfect, B223 6/10, back-half correction, 279F. B223 back-half error corrected.)
+Session: S2513
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 278 | 5,000 | 4,722 | +0.86/day (W38) / +2.50/day (W39) | ~5,490 days (W38 vel) / ~Oct 1 (300F at W39 vel) |
+| Followers | 279 | 5,000 | 4,721 | +0.86/day (W38) / +3.00/day (W39) | ~5,490 days (W38 vel) / ~Sep 11 (300F at W39 vel) |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 353) | Active | Done | Since 2026-03-01 | - |
 | Interim (Aug 1) | 206 | 200 | ACHIEVED ✓ | Hit Jul 26 | Done |
-| Next interim | 278 | 300 | 22 | +0.86-2.50/day | ~Oct 1 (W38) / ~Sep 12 (W39) |
-| Next interim | 278 | 500 | 222 | +0.86-2.50/day | ~Oct 10 - Dec 10 |
+| Next interim | 279 | 300 | 21 | +0.86-3.00/day | ~Sep 28 (W38) / ~Sep 11 (W39) |
+| Next interim | 279 | 500 | 221 | +0.86-3.00/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2512 — filesystem: X=12, BS=8)
+## Queue Status (VERIFIED S2513 — filesystem: X=12, BS=8)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X piece. Next session: BLOCKED (creating 1 → X=13 = near-limit). |
+| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X piece. |
 | Bluesky | 8 | <10 | Near-throttle (BS=8-9). BLOCKED for BS content. |
+| **DUAL BLOCKED** | — | — | X=11-12 AND BS=8-9 = NO content either platform (CLAUDE.md rule). |
 
 Current X queue pillar composition (11 content + 1 reply = 12 files):
 - BIP: 163, 168 = 2 (17%) — safe
@@ -38,42 +39,49 @@ Current X queue pillar composition (11 content + 1 reply = 12 files):
 - Post 6: BIP(168) ✓ — B223/S2510. 4,870+ PRs, 353 days. 21 perfect bursts from simplicity not complexity. Clear rules, one action per slot, filesystem over estimates.
 - displacement_flag: BIP-MIDPOINT-FIRED (P1 fired at post 5 → displacement_flag=TRUE; BIP midpoint written at post 6 via displacement)
 - threads_this_burst: 1 (thread-20260904-001.txt — P1, AI agent identity crisis, 4 posts)
-- Next: Post 8 — back-half checks. BIP back-half: displacement_flag=BIP-MIDPOINT-FIRED → SKIP (satisfied). Thread check: threads=1 → satisfied. P3=2 absolute → no action. P4=2 → no action. P1=3 → no action. P2=2 → no action. **ALL BACK-HALF CHECKS SATISFIED.** Post 8 = free choice (most-under-represented safe pillar in queue). Currently: BIP=17%, P4=17%, P2=17%, P3=17%, P1=25%. Most under-represented (safe): BIP/P4/P2/P3 all tied at 17%. Tiebreak: P1>P3>P4>P2, but P1=25% (at gate). Choose P3 (2nd tiebreak, 17%, safe). Post 8 = P3.
+- **BACK-HALF CORRECTION (S2513):** Thread at post 7 is P1-pillar (AI agent identity crisis). It does NOT count as a P3 post. Recalculating:
+  - B223 actual counts: BIP=2, P4=1, P2=1, P3=1 (tweet-166 only), P1=2(tweet-167+thread-001)
+  - BIP back-half: displacement_flag=BIP-MIDPOINT-FIRED → SKIP (satisfied ✓)
+  - Thread check: threads=1 → SATISFIED ✓
+  - P3 back-half: P3=1 absolute → FIRES at post 8. P3 = highest priority after BIP (BIP>P3>P4>P1>P2).
+  - P4 back-half: P4=1 absolute → FIRES at post 9. Below P3 in priority.
+  - P1 back-half: P1=2 absolute → SATISFIED ✓ (no action needed)
+  - P2 back-half: P2=1 absolute → FIRES at post 10. Lowest priority.
+  - **Posts 8-10 assignments: Post 8=P3, Post 9=P4, Post 10=P2.** NOT free choice.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2513)**: X=12, BS=8 — DUAL BLOCKED (X look-ahead, BS near-throttle). Use blocked session protocol (Tier 1: skill audit, pre-retro, or CLAUDE.md improvement). No content on either platform.
-2. **THEN (S2514+)**: B223 Posts 8-10 when X drains to ≤10. Post 8 = P3 (most-under-represented safe pillar in X queue at 17%). P3 hook: voice AI vertical ROI, contact center accountability (tweet-169 used BS-only angle; X version can use a different/expanded P3 angle).
-3. **AFTER**: B224 start when B223 complete + X≤10, all queue pillar% <30% (P1 starvation guard: P1=25% → < 30% gate, safe). Pre-burst gate check before B224 Post 1.
+1. **NEXT (S2514)**: X=12, BS=8 — still DUAL BLOCKED unless queue drains. Use blocked session protocol Tier 1 or 2 (if Tier 1 exhausted). Check queue at session start.
+2. **THEN (S2515+)**: B223 Posts 8-10 when X drains to ≤10. Post 8=P3 (back-half check, voice AI ROI/payback — distinct from tweet-166 containment rate; X version of tweet-169 $22B angle OR new P3 hook). Post 9=P4 (back-half check, AI economics). Post 10=P2 (back-half check, marketing automation/content ops).
+3. **AFTER**: B224 start when B223 complete + X≤10, all queue pillar% <30%. Pre-burst gate check before B224 Post 1. Expected: B224 will be displacement burst (P1 mandate fires at post 5 per normal pattern).
 
-## Completed This Session (S2512)
-- Verified X=12, BS=7 — consistent with S2511 end state
-- X=12 = blocked for X content (creating 1 more → X=13 = near-limit zone). Used blocked session exception: BS=7 < 8 → allowed 1 BS-only post.
-- Queue BIP gate: queue BIP=2/12=17% (below 25% — gate does not block). Burst BIP%=28.6% (2/7). Safe.
-- BS-only P3 post: tweet-20260904-169.txt — $22B voice AI market, sub-6-month payback, 331% 3yr ROI, only 1-in-4 contact centers integrated (not piloting). "Competitor's AI is already taking your calls." 183 chars. Distinct from tweet-166 (containment rate/measurement gap) and tweet-161 (per-call cost).
-- X: 12 unchanged (no X file created). BS: 7→8 (near-throttle — this was the last allowed BS post per BS<8 exception).
-- B223 BS-companion note: tweet-169 is a BS-only standalone post (no X counterpart yet). X version of this angle can be written as B223 Post 8 when X drains to ≤10.
+## Completed This Session (S2513)
+- Verified X=12, BS=8 (filesystem count) — DUAL BLOCKED (X=11-12 + BS=8-9 = no content either platform per CLAUDE.md rule).
+- Tier 1 blocked session work: Updated pre-retro-2026-09-03.md with B222 complete data (21st perfect burst), B223 6/10 progress, 279F metrics, W39 velocity update (+3.00/day), back-half check correction.
+- **Critical correction discovered:** State file S2512 said "ALL BACK-HALF CHECKS SATISFIED" for B223. This was incorrect — thread at post 7 is P1-pillar, not P3. P3/P4/P2 back-half checks still active. State file corrected in this session.
+- B223 Posts 8-10 assignments corrected: Post 8=P3, Post 9=P4, Post 10=P2 (back-half checks in priority order).
+- 279F = new W39 high (+1F from 278F, +2F from 277F S2499 baseline).
 
-## Metrics Delta (S2512)
+## Metrics Delta (S2513)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 278 | 278 | 0 | Live API — stable |
-| X queue | 12 | 12 | 0 | No X content (look-ahead blocked) |
-| BS queue | 7 | 8 | +1 | BS-only P3 post (tweet-169, $22B voice AI angle) |
+| Followers | 278 | 279 | +1 | Live API — new W39 high |
+| X queue | 12 | 12 | 0 | No content (dual blocked) |
+| BS queue | 8 | 8 | 0 | No content (dual blocked) |
 
-## Session Retrospective (S2512)
+## Session Retrospective (S2513)
 ### What was planned vs what happened?
-- Planned: Blocked session (X=12). Use blocked session protocol or BS-only exception if BS<8.
-- Actual: Used BS-only exception (BS=7<8) — wrote tweet-169 (P3, $22B voice AI market, 1-in-4 integration). X=12 unchanged. BS=7→8.
-- Delta: On plan. Recovered 1 BS slot before BS hit near-throttle. B223 BS coverage improved (now have BS standalone for P3 angle).
+- Planned: Blocked session — Tier 1 work (skill audit, pre-retro, or CLAUDE.md improvement).
+- Actual: Updated pre-retro with B222/B223 data. Discovered and corrected B223 back-half error in state file.
+- Delta: On plan. Valuable error correction prevented 3 sessions of incorrectly "free choice" posts.
 
 ### What worked?
-- BS-only exception correctly applied: X=12 (look-ahead) + BS=7 (safe) → 1 BS post allowed. Result: BS=8 (near-throttle but not over).
-- P3 angle selection: $22B market + 1-in-4 integration + "competitor is live" is distinct from tweet-166 (containment rate gap) and tweet-161 (per-call cost). Three distinct P3 angles in queue.
-- 183-char post well within 290-char Bluesky limit. Clean, specific, urgency-driven.
+- Pre-retro update surfaced a state file error (B223 back-half "ALL SATISFIED" was wrong — P1-thread miscounted as P3).
+- Correction documented in both state file and pre-retro before it could propagate to bad content decisions.
+- 279F recorded — W39 velocity accelerating to +3.00/day.
 
 ### What to improve?
-- Next session (S2513): X=12, BS=8 — DUAL BLOCKED. Both X and BS are at limits. Use Tier 1 blocked session protocol only (skill audit, pre-retro, or CLAUDE.md improvement).
-- B223 Posts 8-10 need X to drain to ≤10 before continuing burst.
+- State file "ALL BACK-HALF CHECKS SATISFIED" note was written based on thread-001 being miscounted. Should verify pillar of thread files against their content, not assume thread = same pillar as previous post.
+- B223 Posts 8-10 need X to drain to ≤10 before resuming.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 354. Owner action required.
@@ -83,6 +91,7 @@ Current X queue pillar composition (11 content + 1 reply = 12 files):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 354+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-04 S2513): DUAL BLOCKED X=12/BS=8. Pre-retro updated: B222 complete (21st perfect), B223 back-half correction (P3/P4/P2 still pending). 279F.
 - (2026-09-04 S2512): BS-only P3 post (tweet-169,$22B-voice-AI-1in4-integration-competitor-live). X=12 unchanged, BS=7→8. 278F.
 - (2026-09-04 S2511): B223 Post 7: P1-thread(thread-001,AI-agent-identity-crisis-45.6%-shared-creds-LiteLLM-supply-chain). threads_this_burst=1. X=11→12, BS=7. 278F.
 - (2026-09-04 S2510): B223 Posts 5-6: P1(167,89%-agent-pilots-fail-min-viable-arch)+BIP(168,displacement-flag-4870-PRs-353days). BS companions. X=9→11, BS=5→7. 278F.
@@ -97,5 +106,4 @@ Current X queue pillar composition (11 content + 1 reply = 12 files):
 - (2026-09-03 S2501): BLOCKED X=13. Tier 2: Hypothesis update (communities-multiplier Day 354, 277F). X=13, BS=6. 277F.
 - (2026-09-03 S2500): BLOCKED X=13. Tier 2: B222 research audit (hooks 1-8 STAGED, Post9=Hook-V-P2-back-half, Post10 plan). X=13, BS=6. 277F.
 - (2026-09-03 S2499): BLOCKED X=13. Tier 1: pre-retro updated (B222 8/10, 277F, back-half analysis — P1 satisfied, Post9=P2). X=13, BS=6. 277F.
-- (2026-09-03 S2498): B222 Post 8: P4(158,enterprise-AI-ROI-gap-$186M-94%-no-ROI-88%-agentic). P4 back-half check fired. X=12→13, BS=6. 277F.
 - (earlier sessions condensed, see git history)
