@@ -1,0 +1,7 @@
+Voice AI ROI is miscalculated. Containment rate misses the real payback.
+
+18-25% of agent shifts: post-call documentation. Voice AI cuts ACW from 2min to 10sec.
+
+That's a quarter of an agent's day recovered — per call that *reaches* a human.
+
+Most enterprise ROI models don't even count it. Ask your vendor: what's the ACW delta?

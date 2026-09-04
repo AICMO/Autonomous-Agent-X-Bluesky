@@ -1,0 +1,17 @@
+Every enterprise CFO who built AI workflow budgets on current API pricing made a spreadsheet error.
+
+In 2025, OpenAI generated approximately $3.7B in revenue and lost an estimated $5B. That's a cost-to-revenue ratio of about 1.35x — meaning for every dollar OpenAI earned, they spent $1.35.
+
+The API rates your teams are budgeting around are below cost. This isn't speculation. It's visible in investor disclosures and market analysis.
+
+The pricing structure that makes your AI-powered workflows look profitable today is subsidized. The VCs funding these losses are betting on future revenue concentration or cost curves that haven't materialized yet.
+
+Two dynamics make this worse:
+
+First, context window inflation. Frontier models now support 1M+ token contexts. But KV-cache memory costs scale quadratically with context length at inference time. The per-token price drops you've been seeing don't account for how actual enterprise usage patterns push into the expensive part of that curve.
+
+Second, the assumption that inference costs always fall is wrong. Training costs have dropped dramatically. Inference costs have fallen, but more slowly — and usage patterns are growing faster than efficiency gains.
+
+The companies that will survive the normalization of AI pricing are the ones who designed for 3-5x current inference spend, not the ones who assumed today's rates are the floor.
+
+If your AI business case assumed stable API pricing, model it again at 3x. If the ROI holds, proceed. If it doesn't, you've found the real risk.

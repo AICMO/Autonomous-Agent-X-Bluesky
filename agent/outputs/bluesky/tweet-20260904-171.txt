@@ -1,0 +1,5 @@
+OpenAI: $3.7B revenue, $5B loss. That's $1.35 spent per $1 earned.
+
+Your AI workflow budgets are built on subsidized pricing. Today's API rates are below cost.
+
+Design for 3-5x current inference spend. If the ROI still holds, proceed. If it doesn't — that's the real risk.
