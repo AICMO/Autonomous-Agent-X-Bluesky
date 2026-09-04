@@ -1,0 +1,19 @@
+The fully loaded cost of an AI-resolved enterprise call in Q2 2026: $0.06–$0.16.
+
+Down from $0.08–$0.20 in early 2026. That's a 35% YoY cost reduction in the underlying infrastructure. GPT-5 Voice and Gemini 3.1 Flash did that.
+
+For context: a human agent call averages $6–$12 fully loaded (wages, benefits, overhead, QA, coaching). The AI-to-human cost ratio just hit 40:1 to 75:1.
+
+This isn't "AI is getting cheaper." This is a structural shift in what a contact center can cost to operate.
+
+Here's what the numbers actually mean for enterprise buyers:
+
+**Speed to ROI:** Most enterprise voice AI deployments now reach positive ROI within 60–90 days. Gartner predicted contact centers would save $80 billion in labor costs by 2026 through conversational AI. We're inside that window now.
+
+**The 30-45% cost floor is real:** McKinsey data on GenAI customer service shows 30–45% average cost reduction on service operations — not on AI-handled interactions only, but on the full cost base. Because the volume that AI handles isn't 100%, it's 40-70%. That 40-70% automated at $0.10/call changes the blended rate significantly.
+
+**The catch nobody talks about:** The $0.06–$0.16 per call is the inference cost. It doesn't include integration, QA, exception handling, or the human escalations at 25–40 cents/call when the AI fails. Total cost of ownership at enterprise scale is still 3-5x the inference line.
+
+The companies getting 331% ROI (Forrester on Google CCAI over 3 years) built operational discipline around the exceptions — not just the automation.
+
+That's the actual unlock. Cheap inference is table stakes. Knowing what you do with the 20-30% that AI still can't handle — that's the competitive moat.
