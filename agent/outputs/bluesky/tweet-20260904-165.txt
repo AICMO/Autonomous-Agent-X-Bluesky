@@ -1,0 +1,7 @@
+29% of AI agent deployments abandoned in 90 days.
+
+Top failure modes: unclear success criteria (41%), poor data access (33%), brand-voice drift (19%).
+
+Notice what's missing? Model capability. The tech works. Instrumentation doesn't.
+
+Teams getting 5x ROI treat first 90 days as measurement, not automation.

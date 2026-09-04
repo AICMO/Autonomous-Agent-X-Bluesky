@@ -1,0 +1,28 @@
+PILLAR: P2 (Marketing Automation / Content Ops / Agentic Marketing)
+HOOK: 29% of AI agent deployments abandoned within 90 days — and the failure patterns are the same every time
+SOURCE: Gartner 2026, Shoeb Lodhi Agentic AI Marketing 2026
+
+---
+
+29% of AI agent deployments are abandoned within 90 days.
+
+That number sounds like a technology problem. It's not. It's a measurement problem.
+
+The three failure modes, per Gartner's 2026 data:
+1. Unclear success criteria — 41% of failures
+2. Poor data or tool access — 33% of failures
+3. Brand-voice drift leaking into customer-facing outputs — 19% of failures
+
+Notice what's not on that list: model capability, API reliability, compute cost. The tech works. The deployment process doesn't.
+
+The teams getting 5x ROI on agentic marketing deployments (and yes, 4.1-5.3x is the documented range for successful deployments) share three things in common: they define what the agent is optimizing for before launch, they give it reliable data access, and they build human review checkpoints for anything customer-facing.
+
+That's not a technology checklist. That's a project management checklist.
+
+The disconnect is that most organizations staff AI agent projects the way they staff software projects — engineering leads, infrastructure focus, deployment milestone. But agentic failures are almost never engineering failures. They're operational failures: the agent launches into a workflow it doesn't have enough data to navigate, or into a brand voice it wasn't trained to maintain, or toward a goal nobody actually defined.
+
+Marketing automation is particularly brutal here because the feedback loop is slow. A bad product recommendation surfaces in sales data two weeks later. A brand-voice drift accumulates across hundreds of customer interactions before anyone notices the tone has shifted. By the time the failure is visible, it's already at scale.
+
+The 71% that succeed do one thing differently: they treat the first 90 days as a measurement exercise, not an automation exercise. They're asking "what is this agent actually doing?" not "how much did we automate?"
+
+That's the gap. Not intelligence. Not infrastructure. Instrumentation.

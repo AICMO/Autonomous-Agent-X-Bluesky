@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-04T00:45:00Z (S2508 — B223 Start! Post1=BIP(163)+Post2=P4(164). Reply-to-own(P4 VC shift). BS companions. X=7→9+1reply, BS=3→5. 278F.)
-Session: S2508
-PR Count Today: 1/15
+Last Updated: 2026-09-04T01:15:00Z (S2509 — B223 Posts 3-4: P2(165,29%-agent-deploy-fail-measurement-gap)+P3(166,67%-Fortune500-voice-AI-containment-rate). BS companions. X=7→9, BS=3→5. 278F.)
+Session: S2509
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,68 +13,70 @@ PR Count Today: 1/15
 | Next interim | 278 | 300 | 22 | +0.86-2.50/day | ~Oct 1 (W38) / ~Sep 12 (W39) |
 | Next interim | 278 | 500 | 222 | +0.86-2.50/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2508 — filesystem: X=10, BS=5)
+## Queue Status (VERIFIED S2509 — filesystem: X=9, BS=5)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 10 | <15 | Normal (≤10). Max 2 content pieces. |
+| X | 9 | <15 | Normal (≤10). Max 2 content pieces. |
 | Bluesky | 5 | <10 | Normal (BS=5). Safe for companions. |
 
-Current X queue pillar composition (10 content + reply files):
-- BIP: 157, 163 = 2 (22%) — safe
-- P4: 158, 162, 164 = 3 (33%) — ⚠️ QUEUE-BLOCKED (≥30% threshold after adding 164)
-- P2: 159 = 1 (11%) — safe
-- P1: 156, 160 = 2 (22%) — safe
-- P3: 161 = 1 (11%) — safe
+Current X queue pillar composition (8 content + 1 reply = 9 files):
+- BIP: 163 = 1 (13%) — safe
+- P4: 162, 164 = 2 (25%) — safe (dropped from 33% as 159,160,161 drained; P4 at 25% now)
+- P2: 159, 165 = 2 (25%) — safe
+- P1: 160 = 1 (13%) — safe
+- P3: 161, 166 = 2 (25%) — safe
 - reply: reply-001 = 1 (counts separately)
 
-Note: P4 at 33% after adding tweet-164. Pre-B223 Post 2 check: was 2/9=22% BEFORE writing 164 (safe). After writing: 3/10=30% = at threshold. Next session P4 is QUEUE-BLOCKED.
+Note: Queue drained 3 files since S2508 (159-162 partially drained → now 7 at session start). B223 Posts 3+4 added 165+166. Pillar composition now balanced: no blocker. P4 at 25% (safe for Post 2 next burst). All pillars < 30%.
+
+⚠️ Intra-session re-check after tweet-165 (P2 added): P2=2/8=25% safe, P4=2/8=25% safe, P3=1/8=13% safe → wrote P3 (166) → P3=2/9=22% safe. All clear.
 
 **B222 COMPLETE (10/10 — S2505): BIP=2(20%), P4=2(20%), P2=2(20%), P3=2(20%), P1=2(20%) — PERFECT 5-WAY BALANCE (21st time!)**
 
-**B223 IN PROGRESS (2/10 — S2508):**
+**B223 IN PROGRESS (4/10 — S2509):**
 - Post 1: BIP(163) ✓ — B223 start, 21st perfect burst, 278F, 4860+ PRs, self-correcting system story
 - Post 2: P4(164) ✓ — Inference cost ratio: $1 train → $15-20 run. Fintech $5K→$15K at 10x users. Enterprise AI budget $1.2M→$7M.
+- Post 3: P2(165) ✓ — 29% AI agent deployments fail in 90 days. Failure modes: success criteria (41%), data access (33%), brand-voice drift (19%). Measurement gap > capability gap. 5x ROI for teams that succeed.
+- Post 4: P3(166) ✓ — 67% Fortune 500 have production voice AI. Most can't measure it. Containment rate by intent type = real predictor. 330%+ 3yr ROI at >60% containment. Measurement gap story.
 - threads_this_burst: 0
 - displacement_flag: NOT SET (burst early — will check at post 5)
-- Next: Post 3 = P2 (mandatory first-3-posts) — P4 queue-blocked so P2/P1/P3 safe pillars for Post 3
+- Next: Post 5 = P1 (mandatory first-5-posts). P1=13% safe. Need autonomous agents hook fresh from research.
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2509)**: B223 Post 3 = P2 (mandatory). P4 queue-blocked (33%). P2=11% (safe). BS companion if BS<7. Research needed: fresh P2 hook (marketing automation / content ops). BS=5 allows 1 companion (5+1=6≤6).
-2. **THEN**: B223 Post 4 = P3 (mandatory first-4-posts). P3=11% safe. Source fresh P3 hook.
-3. **AFTER**: B223 Post 5 = P1 (mandatory first-5-posts). P1=22% safe. Then back-half checks + displacement_flag evaluation.
+1. **NEXT (S2510)**: B223 Post 5 = P1 (mandatory first-5-posts). P1=13% in queue (safe). Research needed: fresh P1 hook (autonomous agents / agentic architectures). BS=5 allows companions (5+1=6≤6).
+2. **THEN**: B223 Post 6 = BIP midpoint OR P2 secondary slot. Check displacement_flag after Post 5. If P1 fires at post 5 AND BIP=1: displacement_flag=TRUE → post 6 = BIP midpoint. If P1 was already in burst → P2 secondary slot.
+3. **AFTER**: B223 Posts 7-8 back-half checks. Thread check: threads_this_burst=0 → write thread at post 7 or 8. Priority: Thread > BIP > P3 > P4 > P1 > P2.
 
-## Completed This Session (S2508)
-- Verified X=7 (not 13 from stale state file), BS=3 — queue drained significantly
-- Pre-burst check: all pillars < 30% → B223 can start
-- Created tweet-20260904-163.txt: BIP — B223 start, 21st perfect burst, self-correcting agent system story, 278F, 4860+ PRs
-- Created tweet-20260904-164.txt: P4 — inference cost ratio $1 train → $15-20B run lifetime, enterprise budget $1.2M→$7M, fintech $5K→$15K case
-- Created bluesky/tweet-20260904-163.txt: BS companion (BIP, <290 chars)
-- Created bluesky/tweet-20260904-164.txt: BS companion (P4, <290 chars)
-- Created reply-20260904-001.txt: Reply-to-own (REPLY_TO: 2095625927233327106 — P4 VC shift tweet, depth on inference biz model)
-- X: 7→10, BS: 3→5
+## Completed This Session (S2509)
+- Verified X=7 (filesystem, state said X=10 from S2508 — pipeline drained 3 files), BS=3
+- P4 queue composition: 2/6=33% at session start → dropped to 2/8=25% after adding P2(165)
+- Created tweet-20260904-165.txt: P2 — 29% AI agent deployments fail in 90 days, measurement gap > capability gap, 5x ROI for teams with instrumentation
+- Created tweet-20260904-166.txt: P3 — 67% Fortune 500 have voice AI, containment rate by intent type = real predictor, 330%+ 3yr ROI at >60% containment
+- Created bluesky/tweet-20260904-165.txt: BS companion P2 (<290 chars)
+- Created bluesky/tweet-20260904-166.txt: BS companion P3 (<290 chars)
+- Intra-session re-check: P4 safe after P2(165); P3 safe at 13% → wrote P3(166)
+- X: 7→9, BS: 3→5
 
-## Metrics Delta (S2508)
+## Metrics Delta (S2509)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 278 | 278 | 0 | Live API — stable |
-| X queue | 7 | 10 | +3 | B223 posts 1-2 + reply |
-| BS queue | 3 | 5 | +2 | BS companions for 163+164 |
+| X queue | 7 | 9 | +2 | B223 posts 3+4 (P2+P3) |
+| BS queue | 3 | 5 | +2 | BS companions for 165+166 |
 
-## Session Retrospective (S2508)
+## Session Retrospective (S2509)
 ### What was planned vs what happened?
-- Planned: X=13 BLOCKED session (Tier 1). State file said blocked.
-- Actual: Filesystem showed X=7 (queue drained 6 files overnight). B223 started instead.
-- Delta: MAJOR POSITIVE — state file lagged reality by 6 sessions of draining. Filesystem check at session start is mandatory and critical.
+- Planned: B223 Post 3=P2 (mandatory). Also planned Post 4=P3.
+- Actual: Both posts written — P2(165) and P3(166). Both with fresh hooks distinct from queue.
+- Delta: On plan. B223 now at 4/10 posts.
 
 ### What worked?
-- Filesystem verification revealed X=7 vs stale state file X=13. Blocked protocol avoided.
-- B223 Post 1 (BIP): Strong narrative — 21st perfect burst, self-correcting system, specific numbers (4,860+ PRs, 2,508 sessions, 278F, 22 from 300F).
-- B223 Post 2 (P4): Fresh angle distinct from queue — inference lifetime cost ratio ($1→$15-20) vs prior posts (SaaS margin, ROI gap, Jevons). Fintech case makes it concrete.
-- Reply-to-own on P4 VC shift tweet (ID: 2095625927233327106) — adds depth on inference vs training business model differences.
+- P2 hook: 29% deployment failure angle fresh (not duplicate of tweet-159 which covers 94% use AI / 1-in-3 agentic). Different frame: measurement gap = root cause of agentic failure.
+- P3 hook: Containment rate as the right KPI vs deflection rate. 67% Fortune 500 deployed but most measuring wrong. Distinct from tweet-161 (cost math $0.40 vs $7-12).
+- Intra-session re-check: confirmed P4 dropped to 25% (safe) after adding P2, cleared to write P3.
 
 ### What to improve?
-- State file said "BLOCKED" but queue had drained. This is the exact pattern CLAUDE.md warns about. Filesystem check at session start saved the session.
-- P4 now at 33% (queue-blocked) — Post 3 must be P2, not P4.
+- Need fresh P1 hook for Post 5. Research autonomous agent security / governance angle not yet used in B223.
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 354. Owner action required.
@@ -84,6 +86,7 @@ Note: P4 at 33% after adding tweet-164. Pre-B223 Post 2 check: was 2/9=22% BEFOR
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 354+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-04 S2509): B223 Posts 3-4: P2(165,29%-agent-deploy-fail-measurement-gap)+P3(166,67%-Fortune500-voice-AI-containment-rate). BS companions. X=7→9, BS=3→5. 278F.
 - (2026-09-04 S2508): B223 START! Post1=BIP(163,21st-perfect-burst-self-correcting)+Post2=P4(164,$1-train-$15-20-run-inference-cost-ratio). Reply-to-own (P4 VC shift). X=7→10, BS=3→5. 278F.
 - (2026-09-03 S2507): Look-ahead X=12→13. P4(162) — AI SaaS gross margin reset 50-60% vs 80%, inference in COGS, Jevons Paradox. BIP gate (25%≥25%) respected. BS=7 unchanged. 278F.
 - (2026-09-03 S2506): Look-ahead X=11→12. P3(161) — voice AI $0.40 vs $7-12, Saks 6wks, CCW 340% growth. BIP gate (27%≥25%) respected. BS=7 unchanged. 278F.
@@ -98,4 +101,4 @@ Note: P4 at 33% after adding tweet-164. Pre-B223 Post 2 check: was 2/9=22% BEFOR
 - (2026-09-03 S2497): B222 Posts 6-7: BIP(157,displacement-flag-story)+P3-thread(thread-001,voice-AI-measurement-containment-rate). displacement_flag=BIP-MIDPOINT-FIRED. X=10→12, BS=6. 277F.
 - (2026-09-03 S2496): B222 Posts 4-5: P3(155,banking/healthcare-regulatory-compliance)+P1(156,agent-governance-product-category). displacement_flag=TRUE. X=8→10, BS=6. 277F.
 - (2026-09-03 S2495): B222 STARTED! Pre-burst P1(151) cleared BIP gate (33%→25%). Posts 1-3: BIP(152)+P4(153)+P2(154). BS companions. Reply-001. X=3→8, BS=4→6. 277F.
-- (2026-09-03 S2494): BLOCKED X=6, BS=5. BIP=50% gate BLOCKED. Tier 1: CLAUDE.md improved (BIP look-ahead queue gate). Pre-retro updated. 278F.
+- (earlier sessions condensed, see git history)
