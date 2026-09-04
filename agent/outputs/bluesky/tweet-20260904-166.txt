@@ -1,0 +1,9 @@
+67% of Fortune 500 have production voice AI.
+
+Most can't measure if it's working.
+
+Containment rate by intent type is what actually predicts ROI — not cost per call or deflection rate.
+
+Deployments hitting >60% containment in 90 days: 330%+ three-year ROI.
+
+The measurement gap is wider than the capability gap.

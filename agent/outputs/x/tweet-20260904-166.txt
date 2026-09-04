@@ -1,0 +1,29 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+HOOK: 67% of Fortune 500 deployed production voice AI — but most can't measure if it's working
+SOURCE: RetellAI Enterprise Deployment Guide 2026, fin.ai ROI benchmarks 2026
+
+---
+
+67% of Fortune 500 companies have production voice AI systems deployed as of early 2026.
+
+Most of them don't know if it's working.
+
+Not because the technology is unclear. Because the measurement framework is wrong.
+
+The standard contact center metrics — handle time, cost per call, CSAT score — were designed to measure humans. When you run them against AI voice agents, you get a number that looks fine and tells you nothing useful.
+
+Here's what actually predicts whether a voice AI deployment succeeds or fails:
+
+**Containment rate**: What percentage of callers complete their issue within the AI system without requesting a human transfer? This is not call deflection rate (which measures reach) — it's resolution rate within the AI channel. Deployments with containment rate >60% in the first 90 days consistently hit 330%+ three-year ROI. Below 40% containment, most deployments stall.
+
+**Transfer ratio by intent type**: Not all transfers are equal. A caller transferring because the AI couldn't authenticate them is a different failure than a caller transferring because they're frustrated. Most deployments report one transfer number. The successful ones report it broken down by why.
+
+**Cost per resolved call, not cost per handled call**: The numerator looks great (AI is cheap). The denominator hides the problem (AI resolves fewer issue types than humans do). At $0.40/interaction vs $7-12/human interaction, even a 60% resolution rate looks good on cost. Until you calculate what happens to the 40% escalation volume.
+
+The enterprises hitting 331-391% three-year ROI (documented range in the 2026 benchmarks) all share one operational pattern: they baselined human performance before deploying AI, defined resolution success at the intent level, and built feedback loops that calibrated the system weekly.
+
+Most contact center AI deployments don't do this. They launch, report deflection, and call it a win.
+
+The measurement gap is wider than the capability gap. Voice AI that's actually deployed but incorrectly measured is worse than no AI — it creates organizational confidence in a system nobody's actually evaluating.
+
+If you're in contact center leadership: when did you last check containment rate by intent type?
