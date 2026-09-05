@@ -1,0 +1,7 @@
+Token prices fell 80% since 2023. Your AI bill went up 320%.
+
+Agents don't use tokens like chatbots do. Every step re-sends the full context. 12 steps = 12 interactions, each including everything from the prior 11.
+
+Gartner: agentic workloads burn 5-30x more tokens per task.
+
+Price falling ≠ bill falling. Fix the architecture.

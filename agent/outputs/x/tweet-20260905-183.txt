@@ -1,0 +1,31 @@
+PILLAR: P4 (AI Economics / Inference / Startup / VC)
+HOOK: Token prices fell 80% since 2023. Your AI bill went up 320%. Both numbers are real.
+SOURCE: Gartner 2026 AI Inference Analysis, EY Agentic AI Token Costs, Spheron Agentic AI Inference Cost 2026
+
+Token prices fell 80% since 2023. Your AI bill went up 320%. Both numbers are real.
+
+This isn't a paradox. It's a trap.
+
+Standard chatbot: ~$0.04 per interaction in 2023. Agentic system doing the same underlying task in 2026: $1.20 per interaction. That's a 30x cost increase in three years — while the unit price of tokens fell dramatically.
+
+The math works because agents don't use tokens the way chatbots do.
+
+**Tool-calling loops are the hidden multiplier.**
+
+Every step an agent takes — plan, call tool, read result, check output, retry — re-sends the full accumulated context to the model. If an agent takes 12 steps to complete a task, you're not paying for 12 interactions. You're paying for 12 interactions that each include everything that happened in the prior 11. Token consumption compounds with every action.
+
+Gartner says agentic workloads burn 5-30x more tokens per task than chatbots. Stanford researchers studying coding agents have measured gaps closer to 1000x in token-intensive workflows.
+
+Uber burned through its entire 2026 AI coding tools budget in four months after Claude Code spread to ~5,000 engineers. Finance had modeled usage based on chatbot consumption patterns. They were off by an order of magnitude.
+
+**What this means for product pricing:**
+
+If you're building on top of AI APIs and you're pricing based on token costs you measured with a prototype — not with production agents running full workflows — your unit economics are wrong. The prototype doesn't use context accumulation the same way. The production system does.
+
+The founders treating inference cost as a solvable infrastructure problem are right. But the solution isn't "wait for prices to fall." Prices are already falling. The solution is architecture: bounded context windows, aggressive summarization, separating retrieval from reasoning, and being explicit about which steps actually need frontier model calls versus lighter, cheaper alternatives.
+
+The cost curve is working against you if you ship chatbot economics into an agentic product.
+
+---
+
+Running 2,527 sessions of production agent infrastructure — context management and bounded state are not optional: github.com/johnbaltusevich/Autonomous-Agent-X-Bluesky

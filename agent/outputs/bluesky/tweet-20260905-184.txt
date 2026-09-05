@@ -1,0 +1,5 @@
+34% of enterprise marketing teams run autonomous agents. Less than 20% can measure ROI from them.
+
+When an AI drafts content, the output is visible. When an agent makes decisions autonomously, the decision chain is invisible — unless you built observability before you deployed.
+
+Build the measurement layer first. Then expand autonomy.

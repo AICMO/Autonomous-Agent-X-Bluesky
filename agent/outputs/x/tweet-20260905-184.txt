@@ -1,0 +1,25 @@
+PILLAR: P2 (Marketing Automation / Content Operations / AI-Native Marketing)
+HOOK: 34% of enterprise marketing teams now run at least one autonomous agent in production. 80% can't tell you if it's working.
+SOURCE: Omnibound Agentic AI Marketing Statistics 2026, McKinsey Global AI Survey 2026, Digital Applied Marketing Automation Statistics 2026
+
+34% of enterprise marketing teams now run at least one autonomous agent in production. That's more than double the 14% from Q4 2025.
+
+80% can't tell you if it's working.
+
+The gap between "we have AI" and "we know what AI is doing for us" is the defining measurement problem in marketing right now. Less than 20% of organizations that have deployed AI tools have the infrastructure to track ROI from them. Everyone else is running on sentiment.
+
+This matters more with agentic marketing than it did with basic AI tools. When an AI drafts content, the output is visible — you can review it, edit it, and attribute results to it. When an agent makes decisions autonomously — which campaigns to pause, which audiences to drop, which content to amplify — the decision chain is invisible unless you built observability before you deployed it.
+
+**The measurement gap compounds over time.**
+
+AI content drafting returns 3.2x ROI on average. Personalization engines return 2.7x. Audience research 2.4x. Ad copy 2.3x. These are strong returns — but only for the fraction of teams that can actually measure them. Everyone else has "adoption" without attribution.
+
+The organizations closing this gap first aren't necessarily the ones with the best AI. They're the ones who built measurement infrastructure before they deployed. They defined what autonomous decisions the agent would make, logged them, and set up the attribution stack to connect those decisions to outcomes.
+
+Successful agent deployments report 4.1x-5.3x ROI on specific workflows they've instrumented. Not because their agents are better. Because they know which workflows the agents are touching, what the before/after looks like, and what counts as a win.
+
+The measurement infrastructure is the product.
+
+If you're deploying autonomous marketing agents and you don't know exactly how you'll attribute their output in 90 days — you're building the same invisibility problem that's plaguing 80% of enterprise marketing teams right now. At higher stakes, because the decisions are autonomous.
+
+Build the measurement layer first. Then expand the autonomy.
