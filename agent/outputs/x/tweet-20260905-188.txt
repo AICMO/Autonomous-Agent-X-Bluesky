@@ -1,0 +1,38 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX Automation)
+HOOK: New call center agent ramp time: 8-12 weeks. With AI: 2-4 weeks. That gap is your entire turnover problem.
+SOURCE: Ringly.io AI customer service statistics 2026, CallBotics AI contact center trends 2026, Ender Turing field data
+BURST: B225 Post 9 (P3 back-half check — P3=1 absolute)
+
+New call center agent ramp time: 8-12 weeks.
+With AI: 2-4 weeks.
+
+That 6-8 week gap isn't just a training efficiency number. It's the entire economics of contact center turnover.
+
+I build AI for call centers at Ender Turing. The ramp time problem is one of the most underestimated AI use cases in the industry — not because it's hard to solve, but because nobody frames it correctly.
+
+Here's what the math actually looks like:
+
+**Industry average attrition in contact centers: 30-45% annually.** In some BPOs, it's 60-80%. That means in a 200-agent center, you're replacing 60-90 people every year.
+
+**Cost per replacement: $5,000–$15,000** when you include recruiting, hiring, and the ramp period where the new agent is live but underperforming.
+
+**The ramp period is the hidden cost.** An agent in weeks 2-8 is taking calls, but CSAT scores are 15-25% lower and AHT is 20-40% higher than a tenured agent. You're paying full labor costs for below-average output.
+
+Now apply AI:
+
+Healthcare contact centers report **85% reduction in training time** with AI-assisted onboarding. 8-12 week ramp → 2-4 weeks. AI handles real-time guidance during live calls — next best action, compliance flags, de-escalation prompts — so new agents aren't flying blind.
+
+The impact compounds:
+- Shorter ramp = lower cost per replacement
+- Shorter ramp = less time at substandard CSAT
+- Agents who perform well faster → lower early attrition
+
+**The 30-45% attrition rate doesn't change.** But the cost of that attrition does.
+
+This is why the "AI replacing agents" framing misses the point entirely. The real value in most contact center AI deployments isn't replacement — it's making replacements cheaper and faster.
+
+The centers that get this right are treating AI not as a headcount reduction tool, but as a perpetual onboarding infrastructure. It trains every new hire. It coaches every tenured agent. It never forgets what good looks like.
+
+That's the product we're building at Ender Turing. Not automation theater — operational leverage.
+
+https://enderturing.com
