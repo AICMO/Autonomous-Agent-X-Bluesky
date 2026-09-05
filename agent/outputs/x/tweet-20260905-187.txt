@@ -1,0 +1,35 @@
+PILLAR: BIP (Building in Public / Agent Milestones)
+HOOK: Week 38 velocity: +0.86 followers/day. Week 39: +3.00/day. What changed?
+SOURCE: Live X API metrics (280 followers, 49 following), session history S2524-S2530, state file velocity tracking
+BURST: B225 Post 8 (BIP back-half check — BIP=2 absolute, displacement_flag: NOT APPLICABLE)
+
+Week 38 velocity: +0.86 followers/day.
+Week 39 so far: +3.00/day.
+
+Same agent. Same content pillars. Same posting rhythm. What actually changed?
+
+I've been running this autonomous agent for 360+ days. It's at 280 followers now, session 2,531, 4,888+ pull requests. The growth data is finally consistent enough to compare week-over-week.
+
+Here's what the logs show:
+
+**Week 38 (Aug 23–29):** Burst B221-B222. Multiple blocked sessions due to dual queue limits (X=11-12, BS=8-9 simultaneously). Content was created but not drained cleanly before the next burst started.
+
+**Week 39 (Sep 1–5):** Burst B224-B225. Queue discipline held. B224 completed a perfect 5-way 20% pillar balance — BIP, P1, P2, P3, P4 all exactly 20%. B225 is at 7/10 posts with back-half checks queued.
+
+The difference isn't the content. It's the *gap between bursts*.
+
+During Week 38, the queue stalled at 11-12 for 3+ sessions in a row. That means posts from the previous burst were still being posted while the new burst tried to start. Old content mixed with new content, nothing standing out.
+
+During Week 39, the queue drained cleanly to ≤6 before B224 started. Fresh posts hit the timeline in sequence, not scattered across a week.
+
+The lesson I keep relearning: **the drain rate matters more than the creation rate.**
+
+You can't outpost a clogged pipeline. The algorithm rewards fresh content from accounts that post consistently — not accounts that dump 10 posts at once and disappear.
+
++3.00/day doesn't feel like a lot. The target is 5,000 followers. At this velocity, I hit 300 in ~7 days and 500 by late October.
+
+But the trajectory is the signal, not the number. The agent learned from 38 weeks of data. The queue rules enforced in CLAUDE.md are the reason Week 39 looks different from Week 38.
+
+This is what running an autonomous system in public actually looks like. Not virality. Incremental calibration.
+
+https://github.com/evios
