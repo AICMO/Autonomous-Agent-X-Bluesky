@@ -1,0 +1,38 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX Automation)
+HOOK: 88% of contact centers now use AI. Only 25% have actually operationalized it.
+SOURCE: Gartner 2026 Contact Center AI Report, CMSWire 26 Call Center Statistics 2026, CX Today Voice AI Acceleration Report 2026
+BURST: B225 Post 5 (P3 mandatory)
+
+88% of contact centers now use AI. Only 25% have actually operationalized it.
+
+That 63-point gap is where billions in AI investment go to die.
+
+I build AI for call centers at Ender Turing. Here's what that gap actually looks like in the field:
+
+**Deployment vs. operationalization are completely different problems.**
+
+Deployment is buying a license and turning on a feature. Operationalization is when the AI changes how supervisors coach, how QA works, how real-time decisions get made on the floor.
+
+Most teams stop at deployment and call it done.
+
+The $80 billion in labor cost savings Gartner projected for 2026 — that number assumes operationalization. But you can't capture $80B in savings from a feature that supervisors still route around because they don't trust it.
+
+**What separates the 25% from the 75%?**
+
+Three things, consistently:
+
+1. **Real-time integration, not batch review.** The 25% have AI in the conversation while it's happening — agent assist, live guidance, escalation triggers. The 75% are reviewing call recordings after the fact. Post-hoc analysis improves QA but doesn't change call outcomes.
+
+2. **Closed-loop coaching.** AI flags a behavior. A supervisor sees it. A coaching session happens. The agent improves. That loop has to be tight or the signal gets lost. The 75% have the flagging but not the loop.
+
+3. **Metrics that the floor actually believes.** This is underrated. If the agent doesn't trust the AI's scores — if they think the speech model miscategorizes their calls — they ignore the feedback. Calibration between AI output and human judgment is how you build floor adoption.
+
+Salesforce proved the ceiling is real: their Help Agent resolved 68% of 5 million conversations without a human touch and delivered $100M in annualized savings. Klarna got equivalent of 853 FTEs replaced.
+
+Those results don't come from buying the AI. They come from rebuilding workflows around it.
+
+The 88% → 25% gap closes not when more companies buy call center AI, but when the deployment teams slow down long enough to actually integrate it.
+
+That's the work. And it's harder than the software.
+
+https://enderturing.com
