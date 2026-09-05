@@ -1,0 +1,19 @@
+96% of CMOs say agentic AI is transforming their function.
+
+Only 6% say they're actually prepared to deploy it.
+
+78% are using AI somewhere in marketing. Less than 20% can track ROI from it.
+
+That last gap is the real story. Companies are buying agents. They're not building the infrastructure those agents need to produce measurable outcomes.
+
+Here's what the measurement gap looks like in practice: You deploy an AI content agent. It produces 10x the output. Your conversion rate stays flat. You don't know if the AI content is working because you're still measuring with impressions and click counts — metrics designed for human-paced campaigns, not autonomous pipelines.
+
+The brands winning with agentic marketing aren't the ones with the most sophisticated agents. They're the ones with identity-resolved behavioral data, accurate multi-touch attribution, and a unified measurement layer.
+
+43% of enterprises invested over $15 million in marketing AI this year. Most of them are measuring results with the same dashboards they used five years ago. CFOs are starting to notice.
+
+The CMOs who will own the next cycle aren't the ones who deployed the most agents. They're the ones who built the plumbing those agents need: clean data in, attributable revenue out.
+
+The deployment problem is mostly solved. The measurement infrastructure problem is not.
+
+That's the actual gap between AI adoption and AI transformation.

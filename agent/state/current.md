@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-05T19:00:00Z (S2535 — B226 Post 2 = P4(191,AI-startup-margin-squeeze-30-50pct-vs-75-85pct-$230K-inference-$3.5M-Series-A-bar). BIP queue=27% → P4 substitution. X=11→12, BS=1→2. 280F.)
-Session: S2535
-PR Count Today: 13/15
+Last Updated: 2026-09-05T19:30:00Z (S2536 — B226 Post 3 = P2(192,agentic-marketing-measurement-gap-96%-CMO-6%-prepared-78%-using-<20%-ROI). BIP=25% queue gate blocked → P2. X=12→13, BS=2→3. 280F.)
+Session: S2536
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -13,18 +13,18 @@ PR Count Today: 13/15
 | Next interim | 280 | 300 | 20 | +0.86-3.00/day | ~Sep 28 (W38) / ~Sep 11 (W39) |
 | Next interim | 280 | 500 | 220 | +0.86-3.00/day | ~Oct 10 - Dec 10 |
 
-## Queue Status (VERIFIED S2535 — filesystem: X=12, BS=2)
+## Queue Status (VERIFIED S2536 — filesystem: X=13, BS=3)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). MAX 1 X file per session. NO more X content this session (B226 Post 2 used slot). |
-| Bluesky | 2 | <10 | Safe. BS companion created (post-191). |
+| X | 13 | <15 | Near limit (13-14). ZERO X content next session. |
+| Bluesky | 3 | <10 | Safe. BS companion created (post-192). |
 
-Current X queue pillar composition (12 files after S2535):
-- BIP: 181, 186, 187 = 3 (25%) — At 25% queue gate. BIP eligible when queue drains to ≤11 (BIP=3/11=27%→ safe at X≤11 when non-BIP drain first).
-- P1: 182, 190 = 2 (17%) — recovering from 10% B225 deficit
-- P4: 183, 189, 191 = 3 (25%) — B226 Post 2 written here; now at 25%
-- P2: 184, 180 = 2 (17%) — safe
-- P3: 185, 188 = 2 (17%) — safe
+Current X queue pillar composition (13 files after S2536):
+- BIP: 181, 186, 187 = 3 (23%) — Below 25% gate (3/13=23%). BIP eligible at post 4 if queue allows.
+- P1: 182, 190 = 2 (15%) — safe
+- P4: 183, 189, 191 = 3 (23%) — safe
+- P2: 184, 180, 192 = 3 (23%) — B226 Post 3 written here
+- P3: 185, 188 = 2 (15%) — safe
 
 **B224 COMPLETE (10/10 — S2524): BIP=2(20%), P4=2(20%), P2=2(20%), P3=2(20%+thread), P1=2(20%) — displacement burst. displacement_flag: RESOLVED.**
 
@@ -44,52 +44,54 @@ Current X queue pillar composition (12 files after S2535):
 
 **B225 FINAL DISTRIBUTION:** BIP=3(30%), P1=1(10%), P4=2(20%), P2=2(20%), P3=2(20%). Standard burst (no displacement) — BIP=30%✓, P4=20%✓, P2=20%✓, P3=20%✓, P1=10%↓ (P1 back-half DEFERRED — P4 had higher priority at post 10).
 
-**B226 IN PROGRESS (2/10 — S2535):**
+**B226 IN PROGRESS (3/10 — S2536):**
 - Post 1: P1(190) ✓ — BIP=30% queue overaccumulated → P1 substitution. Agent memory 3-layer architecture. 95% prototypes fail. State/skill/archive separation.
 - Post 2: P4(191) ✓ — BIP=27% queue (≥25% gate) → P4 substitution (burst slot 2 mandate). AI startup margin squeeze: 30-50% vs 75-85% expected. $230K inference per $1M revenue. $3.5M ARR Series A bar.
-- displacement_flag: NOT SET (P1 already satisfied early at post 1; BIP mandate eligible at post 3 IF queue BIP% drops below 25%)
+- Post 3: P2(192) ✓ — BIP=25% queue gate (3/12=25% = blocked) → P2. Agentic marketing measurement gap: 96% CMO adoption awareness, 6% prepared, 78% using AI, <20% tracking ROI. $15M investment measured with 5-year-old dashboards.
+- displacement_flag: NOT SET (P1 already satisfied early at post 1)
 - threads_this_burst: 0
 
-**B226 SLOT ASSIGNMENTS (updated S2535):**
+**B226 SLOT ASSIGNMENTS (updated S2536):**
 - Post 1: P1 ✓ (substituted — BIP overaccumulated at 30% queue)
 - Post 2: P4 ✓ (substituted — BIP overaccumulated at 27% queue; P4 is burst slot 2 fallback)
-- Post 3: BIP (BIP mandatory first-3-posts; VERIFY queue BIP% < 25% before writing — currently BIP=3/12=25%, borderline. May need P2 substitution if BIP stays at ≥25%)
-- Post 4: P2 (first-3-posts mandate; may shift to post 3 if BIP claims post 3)
-- Post 5: P3 (first-4-posts mandate)
+- Post 3: P2 ✓ (substituted — BIP=3/12=25% still at gate; P2 burst mandate)
+- Post 4: BIP or P3 (BIP=3/13=23% now below gate — BIP eligible at post 4 IF X drains to allow content; P3 first-4-posts mandate also due)
+- Post 5: P3 (if not post 4)
 - Post 6+: Back-half checks per priority order
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2536)**: X=12 (look-ahead). If X drains to ≤10: B226 Post 3. Check BIP queue% — if BIP=3/11=27% still (≥25%), substitute with P2. If BIP=3/10=30% also blocked → P2. Only write BIP at post 3 if BIP/total < 25%.
-2. **THEN**: B226 Posts 4-5: P3 and remaining mandates. Check queue composition before each.
+1. **NEXT (S2537)**: X=13 BLOCKED (near limit). Tier 1: skill audit or pre-retro prep. ZERO X content. Wait for drain.
+2. **THEN**: When X≤10: B226 Posts 4-5. Post 4 = BIP (queue BIP=23%, eligible) + P3 (first-4-posts mandate). Check composition before each.
 3. **AFTER**: B226 back-half checks (posts 7-8): BIP > P3 > P4 > P1 > P2 priority. Thread check at post 7 (threads_this_burst=0 → thread needed).
 
-## Completed This Session (S2535)
-- Queue verified: X=11, BS=1 (consistent with S2534 output).
-- B226 Post 2 = P4(191): BIP queue=27% (≥25% gate) → P4 burst slot 2 substitution. AI startup margin squeeze topic.
-- BS companion created (post-191.txt): 268 chars, inference economics theme.
-- X=11→12, BS=1→2.
-- Session budget: 1 X file created (X=12 = look-ahead zone after creation). NO more X content this session.
+## Completed This Session (S2536)
+- Queue verified: X=12, BS=2 (consistent with S2535 output).
+- B226 Post 3 = P2(192): BIP=3/12=25% (≥25% gate) → P2 burst slot 3 substitution. Agentic marketing measurement gap.
+- BS companion created (post-192.txt): 268 chars, measurement infrastructure theme.
+- X=12→13, BS=2→3.
+- Session budget: 1 X file created (look-ahead zone used). NO more X content this session.
 
-## Metrics Delta (S2535)
+## Metrics Delta (S2536)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 280 | 280 | 0 | Live API 280F (session prompt header) |
-| X queue | 11 | 12 | +1 | B226 Post 2 created (P4 substitution for BIP-blocked) |
-| BS queue | 1 | 2 | +1 | BS companion for post 191 |
-| B226 | 1/10 | 2/10 | +1 | P4 at burst slot 2 |
+| X queue | 12 | 13 | +1 | B226 Post 3 created (P2 substitution for BIP-blocked) |
+| BS queue | 2 | 3 | +1 | BS companion for post 192 |
+| B226 | 2/10 | 3/10 | +1 | P2 at burst slot 3 |
 
-## Session Retrospective (S2535)
+## Session Retrospective (S2536)
 ### What was planned vs what happened?
-- Planned: Check if X drained to ≤10. If yes, write BIP. If no, look-ahead zone rules apply.
-- Actual: X=11 still (no drain between sessions). BIP queue=27% → still blocked. P4 written as burst slot 2 substitution.
-- Delta: Plan adapted correctly. BIP will be eligible when queue drains enough.
+- Planned: Check BIP queue% — if BIP=3/11=27% still (≥25%), substitute with P2.
+- Actual: X=12 still. BIP=3/12=25% — at gate, blocked. P2 written as substitution.
+- Delta: Plan followed correctly. BIP gate applied precisely (25% = blocked by rule).
 
 ### What worked?
-- Queue gate correctly applied: BIP=3/11=27% → blocked; P4 substituted at burst slot 2.
-- Clean research → strong P4 post on AI startup margin squeeze with specific data points.
+- Queue gate correctly applied: BIP=3/12=25% → blocked; P2 at burst slot 3.
+- Strong research → 96%/6%/78%/<20% data points make compelling P2 post.
+- BIP now at 3/13=23% — eligible for next content session (when X≤10).
 
 ### What to improve?
-- BIP now at 25% of a 12-file queue. Next session: if X drains to ≤11 (non-BIP files drain first), BIP=3/11=27% still blocked. Need ≥3 non-BIP files to drain before BIP is eligible.
+- Next: X=13 means blocked next session. Tier 1 work needed (skill audit or pre-retro).
 
 ## Active Hypotheses
 - Communities = 30,000x → NOT YET TESTED. Day 360. Owner action required.
@@ -99,6 +101,7 @@ Current X queue pillar composition (12 files after S2535):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 360+ days overdue.
 
 ## Session History (last 15)
+- (2026-09-05 S2536): B226 Post3=P2(192,agentic-marketing-measurement-gap-96%-CMO-6%-prepared-78%-using-<20%-ROI). BIP=25%→blocked. X=12→13, BS=2→3. 280F. PR 14/15.
 - (2026-09-05 S2535): B226 Post2=P4(191,AI-startup-margin-30-50pct-vs-75-85pct-$230K-inference-$3.5M-ARR-bar). BIP queue=27%→blocked. X=11→12, BS=1→2. 280F. PR 13/15.
 - (2026-09-05 S2534): B226 START! Post1=P1(190,agent-memory-3-layers-95%-prototypes-fail-BIP-substitution). X=10→11, BS=0→1. 280F. PR 12/15.
 - (2026-09-05 S2533): BLOCKED X=13/BS=8. Tier 1: Pre-retro updated (B225 10/10 COMPLETE, 280F, W39=9 bursts/90 posts, +2.17F/day). Retro NEAR-COMPLETE. PR 11/15.
@@ -113,5 +116,4 @@ Current X queue pillar composition (12 files after S2535):
 - (2026-09-05 S2524): B224 COMPLETE(Post10=P2-180)+B225 START(Post1=BIP-181)+B225 Post2=P1-182(P4 slot miscalc). X=8→11, BS=5→8. 280F.
 - (2026-09-05 S2523): B224 Posts 6-9: BIP(177,displacement-BIP-MIDPOINT-FIRED)+P3-thread(thread-001,voice-AI-ROI)+P4(178,Jevons-inference-moat)+P1(179,89%-pilot-fail-3-failure-modes). X=7→11, BS=3→6. 280F.
 - (2026-09-04 S2522): B224 Post 5: P1(176,agent-memory-architecture-2521-sessions-3-layer-state-persistent-skills). displacement_flag:TRUE. X=12→13, BS=8. 279F.
-- (2026-09-04 S2521): B224 Posts 3-4: P2(174,agentic-attribution-73%-CMOs-unattributable)+P3(175,voice-AI-$0.06-$0.16-per-call-35%-YoY). X=10→12, BS=8 unchanged. 279F.
 - (earlier sessions condensed, see git history)
