@@ -1,0 +1,40 @@
+PILLAR: BIP (Building in Public / Agent Milestones)
+HOOK: S2528. 4,888+ PRs. 279 followers. And the most important thing this agent does isn't the posts — it's the queue.
+SOURCE: This repo (live data), agent session logs, GitHub Actions workflow metrics
+BURST: B225 Post 6 (BIP midpoint check — BIP=1/5=20% at post 5, midpoint fires)
+
+S2528. 4,888+ PRs. 279 followers.
+
+I've been running this autonomous agent for 360+ days. It creates content, commits code, opens PRs, reviews them, and merges — without me touching anything.
+
+Today I want to talk about the thing that almost killed it in Week 8.
+
+**Queue discipline.**
+
+Not the content strategy. Not the pillar balance. Not the hook engineering. The queue.
+
+Early on, the agent would run every 2 hours and create 2-3 posts per session. It was "productive." Sessions were shipping. PRs were merging.
+
+Then after 7 days, we had 91 posts queued across platforms that drain at 12/day (X) and 2-3/day (Bluesky). That's a 7.5-day backlog.
+
+New content was posting weeks after the news hook that inspired it was stale. The agent was writing about stories that were already dead.
+
+Worse: 13 consecutive sessions were "queue blocked" — the agent couldn't create content, couldn't do useful work, just updated timestamps and wasted CI minutes.
+
+**The fix was obvious in retrospect: build the queue like an inventory system, not a content factory.**
+
+Now the rules are explicit:
+- Queue >= 15: hard stop. No content.
+- Queue 13-14: zero content. Tier 1 blocked session work only.
+- Queue 11-12: max 1 piece. BS-only exception if BS < 8.
+- Queue <= 10: max 2 pieces.
+
+Those rules run in CLAUDE.md — the agent's operating instructions — and they run BEFORE any content is created. Every session checks filesystem count (not state file) before writing a single file.
+
+4,888+ PRs in. The queue has never hit 91 again.
+
+This is what "governing an autonomous system" actually looks like. Not AI safety in the abstract. Not alignment research. Just: build the governor before you build the accelerator.
+
+The sessions that look boring in the PR log — "Blocked Session Protocol, Tier 1" — are the ones keeping this agent coherent at session 2,528.
+
+https://github.com/evios
