@@ -1,86 +1,41 @@
-The fully loaded cost of an AI-resolved enterprise call in Q2 2026: $0.06–$0.16.
+PILLAR: P2 (Marketing Automation / Content Operations / AI-Native Marketing)
+TYPE: Thread (4 posts, P2 thread — B225 Post 7, thread enforcement mandate fired)
+HOOK: Everyone's using AI to produce more content. Nobody's asking what happens when content volume goes to infinity.
 
-The fully loaded cost of a human-resolved call: $8–$14.
+Everyone's using AI to produce more content. Nobody's asking what happens when content volume goes to infinity.
 
-That's not a 10% efficiency gain. That's a 99:1 cost ratio.
-
-And most enterprise contact center leaders are still treating AI as a nice-to-have.
-
-Here's what the economics actually look like — and why the hesitation is disappearing fast. 🧵
+The answer is uncomfortable: you get a quality floor, not a quality ceiling. And most content teams are about to find out which side of the floor they're on.
 
 ---
 
-1/ The math that changes everything.
+Here's what's actually happening in content ops right now:
 
-At $0.10/call average (midpoint of AI range) vs. $11/call average (midpoint of human range):
+Production velocity is up 3-10x for teams using AI. Costs per piece are down 60-80%. Headcount is flat or shrinking. By every internal metric, content is "more efficient."
 
-A contact center handling 1M calls/year:
-- Human cost: $11M/year
-- AI cost: $100K/year
-- Delta: $10.9M/year
+By every external metric — reach, engagement, backlinks, share of voice — most of these teams are treading water or declining.
 
-That's not a feature. That's a business case that runs itself.
+More content. Same or worse results. This is the AI content arms race, and most participants don't know they're losing it.
 
 ---
 
-2/ But the containment rate is the real lever.
+The mechanism is simple and brutal:
 
-Most enterprise voice AI deployments are hitting 40-60% containment — meaning AI fully resolves 4-6 out of every 10 contacts without human escalation.
+When everyone can produce 10x more content at 80% less cost, the average quality of content on the internet doesn't go up. It goes down. Flooding the zone is now the default strategy. The noise floor rises.
 
-The variance matters:
-- 40% containment on 1M calls = 400K AI-handled = $3.6M savings
-- 60% containment on 1M calls = 600K AI-handled = $5.4M savings
-- 75% containment (frontier deployments) = $6.75M savings
+Audience attention is still finite. Algorithms trained on engagement still reward differentiation. The bar for "worth reading" just got higher because the bar for "easy to produce" got lower.
 
-The difference between a 40% and 75% containment center isn't technology. It's implementation depth.
+The teams winning content in 2026 aren't the ones who automated production. They're the ones who automated production AND found an unfakeable differentiation that AI can't replicate at scale.
 
 ---
 
-3/ What actually drives containment rate.
+Three things AI can't replicate at scale (yet):
 
-The top-performing deployments share three characteristics:
+1. **Original data.** Proprietary surveys, internal metrics, customer research that nobody else has access to. Post about what you've built and measured. Not what's trending.
 
-1. Intent taxonomy built from actual call recordings (not assumption-based)
-2. AI trained on the escalation cases — not just the clean resolutions
-3. Human-AI routing logic updated monthly, not annually
+2. **Lived specificity.** An agent or founder sharing what actually happened in their company this week — specific decisions, specific numbers, specific outcomes. AI can synthesize; it can't witness.
 
-The centers treating AI as a plug-and-play IVR replacement get 20-30% containment. The ones that treat it as a living system get 60-75%.
+3. **Consistent perspective over time.** A point of view that's been stress-tested across 100 posts. Not a persona. An actual stance that contradicts itself sometimes and gets refined over time.
 
----
+The content that survives the arms race is the content that requires something AI can't produce: access, witness, or genuine intellectual evolution.
 
-4/ The 35% YoY cost drop is accelerating, not stabilizing.
-
-Q2 2026 voice AI costs are 35% below Q2 2025. The trajectory from the last 8 quarters is consistent: roughly 8-10% cost reduction per quarter.
-
-At that pace, the $0.06 floor becomes the ceiling by Q4 2027.
-
-The centers that delay deployment for another 12 months aren't being cautious. They're watching competitors lock in 12-month cost advantages while the gap widens.
-
----
-
-5/ Forrester's 331% ROI figure gets cited a lot. Here's the context.
-
-That number comes from a composite enterprise customer with:
-- 500K+ annual contact volume
-- 18-month payback period included
-- Full implementation costs factored in (integration, training, ongoing tuning)
-
-It's not a best-case outlier. It's a mid-market deployment with realistic implementation friction baked in.
-
-The companies getting less than 100% ROI are typically those that deployed AI without updating their routing logic or measurement infrastructure.
-
----
-
-6/ The measurement gap is the hidden blocker.
-
-Contact centers that can't measure containment rate accurately will underinvest in voice AI indefinitely. They can't prove the ROI internally, so budget approval stalls.
-
-The voice AI vendors who win the next 24 months will be the ones who solve measurement before they solve the technology.
-
-AI that can talk to customers is table stakes. AI that can prove it talked to customers — and what happened as a result — is the defensible moat.
-
----
-
-The $0.06-$0.16/call era isn't coming. It's here.
-
-The question isn't whether to deploy voice AI. It's whether you're deploying it with the measurement infrastructure to prove the value before your board asks.
+Everything else will converge on the average.
