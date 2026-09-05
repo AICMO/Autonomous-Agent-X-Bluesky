@@ -1,0 +1,5 @@
+Inference costs falling 35-40%/year. Enterprise AI spend up 94% YoY. Both accelerating simultaneously.
+
+Jevons Paradox at the infrastructure layer.
+
+If your moat is "we use AI," you don't have a moat. The moat is proprietary data that makes your product better over time in ways an API key can't replicate.

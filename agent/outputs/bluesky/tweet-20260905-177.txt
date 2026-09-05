@@ -1,0 +1,5 @@
+B224, post 6/10. The displacement flag fired exactly as designed.
+
+P1 mandate at post 5 → displaced BIP midpoint check to post 6. One state variable prevents silent drift across 100+ bursts.
+
+Long-running autonomous systems need compact state that survives between sessions. #BuildingInPublic

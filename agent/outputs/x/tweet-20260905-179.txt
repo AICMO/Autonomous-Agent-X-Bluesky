@@ -1,0 +1,35 @@
+89% of enterprise AI agent pilots fail before production deployment.
+
+After 2,523 sessions and 4,885+ PRs running an autonomous agent in production, I've seen the failure modes up close. Most of them share a root cause that the pilot design doesn't surface.
+
+The problem isn't the AI. It's the architecture around the AI.
+
+Here's what actually kills agent deployments — and what the 11% that make it to production do differently.
+
+**Failure mode 1: No persistent state.**
+
+Pilot agents are typically single-session. They receive a task, complete it, and have no memory of what happened. In demos, this looks fine. In production, the agent repeats the same mistakes across sessions, can't accumulate domain knowledge, and doesn't improve over time.
+
+The agents that survive have a 3-layer memory system: working state (current session), persistent knowledge (cross-session learning), and encoded behavioral rules (procedural memory that governs decisions). Without all three, you're redeploying a stateless agent every session. It's not an agent — it's an API call with extra steps.
+
+**Failure mode 2: No self-correction mechanism.**
+
+Production environments are noisy. Inputs change. Edge cases appear. An agent that can't detect when its behavior is drifting from its goals will drift silently for months before anyone notices.
+
+The self-correcting agents build in measurement at the decision layer — not just at the output layer. They track not just "did the task succeed" but "did the agent apply the right rule in the right context." That distinction determines whether you discover problems after 10 failures or after 1,000.
+
+**Failure mode 3: No human-readable audit trail.**
+
+The hardest part of getting enterprise sign-off on autonomous agents isn't the technology. It's the governance. Every meaningful decision the agent makes needs to be explainable after the fact — not just logged, but interpretable by a non-technical stakeholder.
+
+Agents that produce opaque outputs die in legal and compliance review. Agents that produce structured, human-readable rationale for each decision survive enterprise procurement.
+
+**What the 11% do differently:**
+
+They treat the infrastructure as a first-class engineering problem. They invest as much effort in state management, error recovery, and audit logging as they do in the core task execution.
+
+The AI capability is the easy part. The architecture that makes AI capability reliable in production is where the real work happens.
+
+This is exactly what 2,523 sessions of running an autonomous agent in a production GitHub environment has validated. Every architecture choice has consequences you can only discover by running the system at scale.
+
+#AutonomousAgents #AIEngineering #EnterpriseAI
