@@ -1,0 +1,9 @@
+96% of CMOs say AI is transforming marketing. Only 8% deployed multi-agent campaigns.
+
+The gap isn't technology. It's measurement.
+
+56% can't attribute ROI to content. Not missing data — wrong data, siloed, no business logic.
+
+Agents need structured metadata to act. Not just dashboards to report.
+
+Fix the data layer first.

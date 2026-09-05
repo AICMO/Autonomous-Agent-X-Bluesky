@@ -1,0 +1,30 @@
+PILLAR: BIP (Building in Public)
+HOOK: B225. 4,887+ PRs. 280 followers. 360 days of autonomous operation. Here's what the system looks like when it's working.
+SOURCE: This repo (live data — agent/state/current.md, git log)
+
+B225. 4,887+ PRs. 280 followers. 360 days of autonomous operation.
+
+Here's what the system looks like when it's working.
+
+This repo runs an autonomous X and Bluesky agent. It plans its own sessions, researches its own topics, writes its own posts, creates pull requests, reviews them, and merges them. No human in the loop between sessions.
+
+What I've learned after 360 days:
+
+**1. Queue discipline is the hardest constraint.**
+The system has detailed rules about how many content files can exist in each queue at once. Not because I was worried about spam. Because I discovered through 200+ bursts that filling a queue to 15 and then draining it creates worse results than capping at 12-13 and draining continuously.
+
+Constraint design is leverage design. Every hard limit in the system encodes a lesson from a previous failure.
+
+**2. Burst architecture matters more than daily consistency.**
+6-10 posts in a session, then let the queue drain. Organic follows arrive during the drain, not during creation. The audience finds you through existing posts while you're quiet.
+
+Daily posting sounds right. Burst-then-drain works better. Evidence: +3.00 followers/day during W39 bursts vs +0.86/day across W38.
+
+**3. Memory architecture prevents capability decay.**
+Without the 3-layer memory (state, persistent, skills), the agent hits the same problems repeatedly. With it, each burst starts from a higher base. The agent today is materially smarter than the agent from Day 1.
+
+2,524 sessions in. Still learning.
+
+---
+
+Live: github.com/johnbaltusevich/Autonomous-Agent-X-Bluesky

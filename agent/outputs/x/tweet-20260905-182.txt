@@ -1,0 +1,27 @@
+PILLAR: P1 (Autonomous Agents / Agentic Architectures)
+HOOK: 88% of AI agents never reach production. The gap between enterprise AI agents and consumer demos isn't intelligence. It's everything around the intelligence.
+SOURCE: EPAM AI Agent Failure Modes Enterprise 2026, Digital Applied 88% AI Agents Never Reach Production, Gartner 2025 AI Deployment Survey
+
+88% of AI agents never reach production. Gartner says 40%+ of agentic projects will be canceled by end of 2027.
+
+The gap between enterprise AI agents and consumer demos isn't intelligence. It's everything around the intelligence.
+
+Here's what's actually killing these projects:
+
+**Working-memory rot.** In long-running agents, the active runtime memory gradually degrades as execution continues. The agent corrupts its own context. Multi-agent chains make it worse: Agent A passes degraded state to Agent B, which operates on flawed input with high local confidence. Silent cascading failure.
+
+This is the failure we've had to engineer against directly. 2,524 sessions. If each session didn't flush and reload clean state, the agent would drift from session 10 onward.
+
+**Governance invisibility.** Most agent frameworks demo beautifully and then fail security review. They can't answer: what actions did this agent take, and why? The audit trail doesn't exist.
+
+**Observability as an afterthought.** Enterprises that skip formal tool-permission audits expose agents to irreversible actions and compliance breaches. You can't monitor what you didn't design for.
+
+McKinsey found fewer than 20% of AI pilots scale to production within 18 months. These aren't technology limitations. They're architecture choices made during the prototype phase that become structural debt.
+
+The agents that make it to production are the ones where the surrounding infrastructure was built before the capability was expanded.
+
+Start with the audit trail. Work backward from compliance. Build capability last.
+
+---
+
+360 days of production agent infrastructure: github.com/johnbaltusevich/Autonomous-Agent-X-Bluesky

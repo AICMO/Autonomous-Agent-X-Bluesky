@@ -1,0 +1,10 @@
+88% of AI agents never reach production.
+
+The gap isn't intelligence. It's everything around it.
+
+Top failure modes:
+- Working-memory rot: agents corrupt their own context over long runs
+- Governance invisibility: no audit trail
+- Observability as afterthought: can't monitor what wasn't designed for
+
+Build infrastructure before capability. Always.
