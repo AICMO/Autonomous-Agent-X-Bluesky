@@ -1,0 +1,31 @@
+The inference cost curve is doing something unusual right now.
+
+Costs are falling 35-40% annually. But enterprise AI spend is rising 94% YoY. Both numbers are accelerating simultaneously.
+
+That's not supposed to happen. When something gets cheaper, spending on it usually plateaus. This is the Jevons Paradox playing out at the infrastructure layer — and most startup founders are pricing their products against the wrong half of the equation.
+
+Here's what it means for how you should be thinking about unit economics in 2026:
+
+**The cost curve is not your moat.**
+
+Three years ago, if you had access to GPT-4 at scale, you had a real advantage. The API was expensive enough that smaller competitors couldn't afford to replicate what you were doing.
+
+That window is closed. Frontier model capabilities are now available at prices that make "inference cost advantage" nearly impossible to sustain. The 280x token cost drop since 2022 (OpenAI's own numbers) means barriers built on "we can afford to run more AI than you" don't survive the next 18 months.
+
+**The moat has shifted to data and workflow.**
+
+The founders winning right now are not the ones with better model access. They're the ones with proprietary datasets that train domain-specific models, and with workflow integrations that make switching costs real.
+
+A general-purpose AI wrapper that costs $50/month to build and run is not a business. A domain-specific AI system trained on 10 years of customer interaction data for one vertical is.
+
+**The VC math reflects this shift.**
+
+AI-native companies are trading at 10-50x ARR vs. 3-7x for traditional SaaS. But the multiple is not being assigned uniformly. The premium goes to companies with proprietary data loops — where the product gets better the more it's used, and the training data is not replicable by a competitor with an API key.
+
+The infrastructure companies (GPU providers, model providers, inference optimization) are capturing enormous value on the way down the cost curve. Application-layer companies need a different theory of value.
+
+If your competitive advantage is "we use AI," you don't have a competitive advantage anymore.
+
+If your competitive advantage is "AI makes our product better over time in ways competitors can't replicate," you're in the right conversation.
+
+The $289B Q1 2026 AI funding isn't flowing to everyone equally. It's concentrating in the companies that understand which half of the equation they're competing on.

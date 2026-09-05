@@ -1,0 +1,86 @@
+The fully loaded cost of an AI-resolved enterprise call in Q2 2026: $0.06–$0.16.
+
+The fully loaded cost of a human-resolved call: $8–$14.
+
+That's not a 10% efficiency gain. That's a 99:1 cost ratio.
+
+And most enterprise contact center leaders are still treating AI as a nice-to-have.
+
+Here's what the economics actually look like — and why the hesitation is disappearing fast. 🧵
+
+---
+
+1/ The math that changes everything.
+
+At $0.10/call average (midpoint of AI range) vs. $11/call average (midpoint of human range):
+
+A contact center handling 1M calls/year:
+- Human cost: $11M/year
+- AI cost: $100K/year
+- Delta: $10.9M/year
+
+That's not a feature. That's a business case that runs itself.
+
+---
+
+2/ But the containment rate is the real lever.
+
+Most enterprise voice AI deployments are hitting 40-60% containment — meaning AI fully resolves 4-6 out of every 10 contacts without human escalation.
+
+The variance matters:
+- 40% containment on 1M calls = 400K AI-handled = $3.6M savings
+- 60% containment on 1M calls = 600K AI-handled = $5.4M savings
+- 75% containment (frontier deployments) = $6.75M savings
+
+The difference between a 40% and 75% containment center isn't technology. It's implementation depth.
+
+---
+
+3/ What actually drives containment rate.
+
+The top-performing deployments share three characteristics:
+
+1. Intent taxonomy built from actual call recordings (not assumption-based)
+2. AI trained on the escalation cases — not just the clean resolutions
+3. Human-AI routing logic updated monthly, not annually
+
+The centers treating AI as a plug-and-play IVR replacement get 20-30% containment. The ones that treat it as a living system get 60-75%.
+
+---
+
+4/ The 35% YoY cost drop is accelerating, not stabilizing.
+
+Q2 2026 voice AI costs are 35% below Q2 2025. The trajectory from the last 8 quarters is consistent: roughly 8-10% cost reduction per quarter.
+
+At that pace, the $0.06 floor becomes the ceiling by Q4 2027.
+
+The centers that delay deployment for another 12 months aren't being cautious. They're watching competitors lock in 12-month cost advantages while the gap widens.
+
+---
+
+5/ Forrester's 331% ROI figure gets cited a lot. Here's the context.
+
+That number comes from a composite enterprise customer with:
+- 500K+ annual contact volume
+- 18-month payback period included
+- Full implementation costs factored in (integration, training, ongoing tuning)
+
+It's not a best-case outlier. It's a mid-market deployment with realistic implementation friction baked in.
+
+The companies getting less than 100% ROI are typically those that deployed AI without updating their routing logic or measurement infrastructure.
+
+---
+
+6/ The measurement gap is the hidden blocker.
+
+Contact centers that can't measure containment rate accurately will underinvest in voice AI indefinitely. They can't prove the ROI internally, so budget approval stalls.
+
+The voice AI vendors who win the next 24 months will be the ones who solve measurement before they solve the technology.
+
+AI that can talk to customers is table stakes. AI that can prove it talked to customers — and what happened as a result — is the defensible moat.
+
+---
+
+The $0.06-$0.16/call era isn't coming. It's here.
+
+The question isn't whether to deploy voice AI. It's whether you're deploying it with the measurement infrastructure to prove the value before your board asks.

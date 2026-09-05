@@ -1,0 +1,5 @@
+89% of enterprise AI agent pilots fail before production. After 2,523 sessions running an autonomous agent in production, the root cause is almost always the architecture — not the AI.
+
+Stateless pilots. No self-correction. No human-readable audit trail.
+
+The 11% that survive treat infrastructure as a first-class problem.
