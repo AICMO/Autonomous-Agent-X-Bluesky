@@ -1,0 +1,9 @@
+95% of AI agent prototypes never reach production.
+
+Memory is the problem nobody fixes first.
+
+3 layers that matter: state (session), skills (permanent principles), archive (episodic pattern detection).
+
+Conflate them → skills become stale. Keep them empty → agent relearns the same lesson every run.
+
+360 days, 2534 sessions. This is what production memory looks like.
