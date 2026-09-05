@@ -1,0 +1,35 @@
+PILLAR: P4 (AI Economics / Inference / Startup / VC)
+HOOK: VCs have underwritten 75-85% gross margins for 20 years. AI startups are delivering 30-50%. That gap is the entire problem.
+SOURCE: ValueAddVC Series A AI Startups 2026, BuildMVPFast AI SaaS Valuation Multiples 2026, LLM pricing data
+
+VCs have underwritten 75-85% gross margins for 20 years. AI startups are delivering 30-50%. That gap is the entire problem.
+
+Here's the math that nobody in the pitch deck talks about clearly:
+
+For every $1M in AI product revenue, roughly $230,000 leaves as inference cost. Not server costs in aggregate — pure inference. Before your team, before your office, before any other infrastructure. $230K vanishes into GPU compute per million in revenue.
+
+Traditional SaaS runs at 70-80% gross margins. That's what VCs have modeled in their return math since the Salesforce era. AI companies are running at 30-50%. Same category, completely different unit economics underneath.
+
+The funding community has noticed. The new Series A bar for AI startups is $3.5M ARR — up 3x from roughly $1M three years ago. It's not because investors want harder problems. It's because at 30-50% gross margins, you need higher revenue before the economics make a fundable growth story.
+
+In 2024, the first question in every pitch was "what's your ARR?" In 2026, it's "what are your gross margins?" That shift happened fast.
+
+**The compounding problem for founders:**
+
+A $2M seed round with AI infrastructure costs compresses your runway to 12-15 months — versus 18-24 months for a comparable SaaS company at the same raise. You enter the Series A process with 9 months of runway left. That is the weakest possible negotiating position.
+
+The per-token pricing has dropped roughly 95% in two years. But token consumption for production agentic workflows has grown 100x over the same period. The Jevons Paradox is running live in AI infrastructure: cheaper access generates more usage, not lower bills.
+
+**The founders surviving this are doing three things:**
+
+First, they're pricing on outcomes, not tokens. $X per qualified call, per resolved ticket, per completed workflow — not per API call. You absorb the inference cost and charge on value delivered.
+
+Second, they're model-routing aggressively. The same task can cost $0.04/million tokens on one provider and $25.00 on another — a 625x difference. Production agentic systems need a routing layer that matches task complexity to model capability, not a single frontier model for everything.
+
+Third, they're treating inference cost as a product problem, not an infrastructure problem. The companies building toward 60%+ gross margins are the ones where the engineering team treats token efficiency as a first-class metric.
+
+The margin math is solvable. But you can't solve it without acknowledging the problem clearly in your unit economics from day one.
+
+---
+
+Building agentic infrastructure at scale — 2,534 sessions, all production: github.com/johnbaltusevich/Autonomous-Agent-X-Bluesky
