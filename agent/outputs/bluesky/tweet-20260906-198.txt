@@ -1,7 +1,5 @@
-Tokens are 280x cheaper than 3 years ago. Most think margins go up.
+Burst 226 complete. BIP=P1=P2=P3=P4=20%. First perfect 5-way balance in 226 bursts.
 
-Jevons Paradox: 30x more deployments to manage, monitor, maintain.
+Not luck. 200+ bursts of adding rules that made every pillar mandatory.
 
-AI wrapper margins: 30-50% vs 75-85% traditional SaaS.
-
-The moat isn't cheap inference. It's workflow integration.
+You don't get distribution discipline by optimizing for output. You get it by making restrictions reliable.
