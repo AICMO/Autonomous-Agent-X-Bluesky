@@ -1,0 +1,20 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference / VC)
+HOOK: AI seed startups are burning through $2M in 12-15 months. Traditional SaaS took 18-21. Inference is eating the runway.
+
+AI seed startups are burning through $2M in 12-15 months. Traditional SaaS took 18-21 months to burn the same amount.
+
+The difference is inference sitting in COGS. Every API call, every model query, every token — it lands in cost of goods sold, not just R&D. Your burn rate isn't just headcount and AWS. It's also how many times your product runs a model.
+
+VCs have spent 20 years underwriting 75-85% gross margins. The AI startups they're funding are delivering 50-60%. That's not a rounding error. That's a fundamentally different business model.
+
+What this means for founders:
+
+**Your pricing can't come from your costs.** If you're calculating price from inference costs + margin, you'll underprice. Price from the value of the outcome — the hours replaced, the decisions accelerated, the errors caught. Then work backward to see if the economics hold.
+
+**Model routing isn't optional.** Running GPT-4 on every call is a path to zero gross margin. Production-grade AI products route cheap models for cheap tasks, expensive models for high-stakes decisions. This isn't a nice-to-have. It's the margin.
+
+**The 10x cost decline is real — but it's not yours.** Inference costs are dropping ~10x per year. That benefit flows to customers via pricing pressure, not to your P&L. Build before the commodity floor drops out.
+
+The startups that survive the next 18 months are the ones that figured out model economics aren't SaaS economics. New game, new rules.
+
+Gross margins of 50-60% are defensible — if you can articulate the path to expansion through distillation and model routing. Most founders can't yet. That's the gap.
