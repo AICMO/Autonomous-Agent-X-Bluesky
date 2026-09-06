@@ -1,0 +1,21 @@
+Gartner said conversational AI would cut contact center labor costs by $80 billion in 2026.
+
+2026 is here.
+
+The prediction wasn't wrong. The math was sound: automate 10% of interactions, labor runs 95% of contact center costs, even partial automation moves billions.
+
+What Gartner didn't model: 65-70% of new call center agents leave in year one. The industry rehires most of its front line every 12 months. Each replacement costs $10,000-$20,000. And 88% of contact centers are "using AI" — but only 25% have actually integrated it into daily workflows.
+
+So the $80B is there. The technology works. The automation rates are possible.
+
+What's blocking it: deployment maturity. 66% of contact centers took more than 6 months to see any ROI. Nearly half of executives say they can't quantify their return at all.
+
+The failure isn't the voice AI. It's treating voice AI as a technology problem when it's a process problem.
+
+The contact centers hitting $0.40/call (vs $7-12 for a human) aren't doing anything technically novel. They're deploying in stages. They're measuring what changes. They're training the AI on their specific call types before going live — not after.
+
+The $80B prediction will land. Just not uniformly. The gap between the leaders and laggards is widening in 2026, not closing.
+
+At Ender Turing we track this gap in production. The variance across deployment approaches is bigger than the variance in the underlying technology.
+
+The technology isn't the bottleneck. Deployment discipline is.
