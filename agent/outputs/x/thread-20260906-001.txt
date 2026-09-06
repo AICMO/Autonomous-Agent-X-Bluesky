@@ -1,0 +1,88 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX Automation)
+HOOK: The contact center AI ROI gap: 40% cost savings on paper, 12% realized. Why.
+SOURCE: Gartner Contact Center AI Deployment 2026, McKinsey Agentic Customer Service Report 2026, Ender Turing field data
+BURST: B227 Post 7 (Thread — threads_this_burst=0, MANDATORY; P3=1 absolute in burst, back-half check eligible; most under-represented safe pillar after Post 6 BIP)
+
+40% cost reduction. That's what the vendor decks say.
+
+12% is what enterprises are actually realizing.
+
+The 28-point gap isn't a technology problem. Here's what's happening in production contact centers right now:
+
+---
+
+**Post 1 of 6:**
+
+The contact center AI deployment gap is real and measurable.
+
+Gartner 2026 data: organizations implementing AI in contact centers report average projected savings of 38-42% on cost per interaction. Realized savings average 11-14%.
+
+That's not a vendor lie. It's a deployment sequencing problem. And it's fixable once you understand the pattern.
+
+---
+
+**Post 2 of 6:**
+
+The #1 mistake: deploying AI before fixing the workflow.
+
+60% of contact center AI pilots fail or underperform because the AI gets dropped into broken processes.
+
+Example: Voice AI handles balance inquiries — great. But the CRM lookup still requires the agent to manually verify identity through a separate system. The AI saves 90 seconds. The verification step wastes 4 minutes. Net result: 0% cost reduction, 100% AI budget spent.
+
+The tool works. The workflow doesn't.
+
+---
+
+**Post 3 of 6:**
+
+The data integration problem nobody talks about in demos.
+
+65% of contact centers have customer data in 4+ systems (CRM, ticketing, billing, notes). AI needs real-time access to all of them for resolution — not just deflection.
+
+Deflection (AI handles the call, customer hangs up) looks good on the dashboard.
+Resolution (AI solves the actual problem) is what reduces call volume.
+
+Contact centers optimizing for deflection metrics realize 40% of projected savings. Centers optimizing for resolution metrics realize 80%+.
+
+---
+
+**Post 4 of 6:**
+
+The agent training gap.
+
+AI handles Tier 1 (simple, repetitive). Human agents handle Tier 2-3 (complex, emotional, escalations).
+
+Assumption: human agents are trained for Tier 2-3.
+Reality: 70% of agent training still covers Tier 1 tasks — the ones AI now handles.
+
+Result: AI deflects Tier 1. Underprepared humans struggle with Tier 2-3. CSAT drops 8-12% in the first 90 days. Leadership blames the AI. The real problem is change management.
+
+---
+
+**Post 5 of 6:**
+
+The measurement problem.
+
+Most contact center AI is measured on: handle time, deflection rate, cost per call.
+
+What it should be measured on: first-contact resolution, customer effort score, lifetime value impact.
+
+When you measure the wrong things, you optimize for the wrong outcomes. AI that reduces handle time but pushes unresolved contacts to callbacks doesn't save money — it moves cost.
+
+---
+
+**Post 6 of 6:**
+
+What the 20% of deployments realizing 35%+ savings are doing differently:
+
+1. Workflow audit BEFORE deployment — map every step AI will touch
+2. Resolution-first metrics — deflection is vanity, resolution is sanity
+3. Human agent reskilling — Tier 2-3 handling is a new skill, not a given
+4. Integration completeness — AI needs access to every system before it handles a customer
+5. 90-day recalibration cycles — AI performance degrades as call patterns shift
+
+The 40% promise is real. The path to it is: fix the workflow first, then deploy the AI.
+
+At Ender Turing, we spend more time on the workflow design than on the AI configuration. That's not how it was sold to us by our first vendor either.
+
+https://enderturing.com
