@@ -1,0 +1,7 @@
+88% of enterprise AI agents that work in demos fail in real workflows.
+
+The 12% who succeed all share one thing: governance before deployment.
+
+Not architecture. Not the model. Governance.
+
+That's the gap.
