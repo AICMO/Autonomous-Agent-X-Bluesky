@@ -1,0 +1,26 @@
+Voice AI costs $0.40 per call. Human agents cost $7-12.
+
+That's a 90-95% cost reduction per automated interaction. Gartner says it adds up to $80 billion in contact center savings in 2026 alone.
+
+67% of Fortune 500 companies have production voice AI systems. 3-year ROI: 331-391%. Payback period: 60-90 days.
+
+And yet most voice AI pilots miss the 45-65% call deflection benchmark that makes the math work.
+
+Here's why.
+
+The $0.40/call number assumes the agent actually handles the call. When it doesn't — when it escalates to a human because the AI couldn't resolve it — you've paid for both the AI attempt AND the human agent. Your cost goes up, not down.
+
+The pilots that fail share a pattern: they measure deflection rate but not resolution rate. A voice agent that deflects 70% of calls but only resolves 40% of issues creates more human work downstream. Customers call back. Escalations spike. NPS drops.
+
+The pilots that work measure: Did the customer's problem actually get solved? Not just: did the AI respond?
+
+Production math that actually holds:
+- Resolution rate ≥ 85% on automated calls
+- First-contact resolution (FCR) stable or improving
+- Re-contact rate within 24 hours trending down
+
+Most deployments optimize for deflection. The ones generating 380%+ ROI optimize for resolution.
+
+The 90-95% cost reduction is real. But it requires building the AI against actual resolution outcomes, not call routing metrics.
+
+This is the gap between a voice AI pilot and a voice AI deployment.

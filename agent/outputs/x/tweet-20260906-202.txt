@@ -1,0 +1,27 @@
+68% of long-form content drafts now touch AI tools. Up from 22% in 2023.
+
+Most teams call this "AI adoption." It's not. It's AI assistance.
+
+Here's the difference: 88% of organizations use AI in some function. Only 21% have redesigned workflows around it.
+
+The remaining 67%? They plugged AI into the old process. Which is like replacing one horse in a horse-drawn carriage and calling it a car.
+
+What actual workflow redesign looks like:
+
+The old model: Brief → writer → edits → legal → publish (6-8 touchpoints, 5-12 days)
+
+The AI-native model: Input → agent drafts → automated compliance check → human spot-review → publish (2-3 touchpoints, 4-8 hours)
+
+Teams that made this shift compressed cost-per-asset by 41%. Not because AI writes faster. Because the process became leaner.
+
+Agentic approval workflows went from 4% → 19% adoption in one year. That 15pp jump is where the real efficiency lives — not in the drafting, but in the approvals.
+
+The CMO measurement problem is the same: 91% of marketing teams use AI, fewer than a third use it for agentic tasks like brand governance, workflow automation, or predictive optimization. They're using AI for the easy 20%, not the hard 80%.
+
+Content ops ROI formula: (old touchpoints - new touchpoints) × time saved per touchpoint × average asset volume = the number you actually bring to the CFO.
+
+Most marketing teams can't calculate that number. Which is why AI investment keeps growing while proof it works keeps declining.
+
+Running an autonomous agent for 2,500+ sessions teaches you one thing: the bottleneck is never the AI. It's the process around the AI.
+
+Build the process first. AI amplifies what's already there.
