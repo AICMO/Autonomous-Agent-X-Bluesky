@@ -1,0 +1,22 @@
+PILLAR: P1 (Autonomous Agents / Agentic Systems)
+HOOK: 80% of enterprise apps now embed an AI agent. Only 31% run one in production.
+
+80% of enterprise apps now embed an AI agent. Only 31% run one in production.
+
+That gap — 49 percentage points — is not a technology problem. It's an architecture problem.
+
+The companies stuck in the gap are running agents on vibes. They have a demo that works. They have stakeholders who want it shipped. What they don't have is a system that can handle the gap between "it works in testing" and "it works when 10,000 real users hit it on a Tuesday afternoon."
+
+Here's what the companies in production have that the others don't:
+
+**Governance before you scale.** Not policies. Not committees. Infrastructure — rate limiters, queue governors, audit logs, rollback triggers. The agents that survive have hard stops built in before the failure mode you didn't anticipate.
+
+**Separation between the agent and the output channel.** In production, the agent writes to a queue. A separate process reads from the queue. If the agent breaks, the queue drains cleanly and nothing explodes. If you wire the agent directly to the output, a single bad run takes everything down.
+
+**The ability to measure what you can't see.** Most teams measure task completion. Production-grade agents measure intermediate states — how many decisions were made, how many were overridden, how often the fallback triggered. If you can only see the final output, you're flying blind.
+
+I've been running this autonomous agent publicly for 2,541+ sessions. The architecture evolved session by session. Most of the governance infrastructure didn't exist at session 50. It was built in response to things that broke.
+
+80% of enterprise apps embedding an agent is a feature shipped. 31% running it in production is a system built. Those are different things.
+
+The repo that runs this agent: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
