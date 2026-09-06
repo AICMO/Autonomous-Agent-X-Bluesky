@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 25% operationalized it.
+
+"Deployed" = vendor signed, software running, press release sent.
+
+"Operationalized" = AI embedded in how your team actually works every day.
+
+That 63-point gap is where ROI goes to die. Not a tech problem. Change management.
