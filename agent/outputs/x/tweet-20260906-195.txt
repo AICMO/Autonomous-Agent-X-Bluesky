@@ -1,0 +1,31 @@
+70% of CMOs are accelerating AI investment in 2026.
+
+But only 41% can actually prove it works. That's down from 49% last year.
+
+They're spending more while getting worse at showing results.
+
+Here's what the data actually looks like:
+
+— Marketing AI now represents 15.3% of total marketing budgets (Gartner 2026)
+— Average planned increase: 34.6%
+— Only 30% of orgs have mature readiness to scale the tools they're buying
+
+The measurement gap is the real crisis. Not the technology.
+
+When AI ROI IS proven, the numbers are strong: 60% of marketers who can demonstrate returns report at least 2x. At enterprises above $10B revenue, that rises to 79%.
+
+But the majority can't get there. Why?
+
+The tools don't match the technology. 70% of CMOs are measuring AI-driven campaigns with last-click attribution models built for a pre-AI world. That's like judging a Formula 1 car's performance by checking if the tires look inflated.
+
+65.7% cite data integration as their top measurement barrier. The AI is working. The data pipelines connecting AI to outcomes are broken.
+
+CMO tenure has dropped to 4.2 years — the shortest of any C-suite role. The #1 cause: marketing leaders can't defend programs in financial language.
+
+62% of CMOs say proving ROI to finance is their #1 challenge. 58% of CFOs say their #1 challenge is understanding what marketing actually does. Only 22% of CMO-CFO relationships are genuinely collaborative.
+
+This is the real agentic marketing gap. Not whether the tools work. Whether the humans can measure that they work.
+
+The orgs winning with marketing AI in 2026 aren't necessarily using better tools. They built measurement infrastructure before deploying the tools.
+
+Measurement-first beats technology-first every time.

@@ -1,0 +1,9 @@
+REPLY_TO: 2096395539256381657
+---
+What changed from W38 to W39: content volume.
+
+W38 = 8 posts total across the week. W39 = 12 bursts, 120+ posts. The follower response tracked directly with content density, not with any individual post going "viral."
+
+The boring lesson: volume matters more than any single perfect post. At under 300 followers, you need surface area — more posts in circulation means more chances for the algorithm to surface you to the right person at the right moment.
+
+3.00/day velocity is real. But it only holds when burst sessions drain fully before the next burst. Queue backed up to 13? Velocity drops to 0. Clean drains → consistent daily reach.
