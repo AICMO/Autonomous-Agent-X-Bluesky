@@ -1,0 +1,27 @@
+PILLAR: P1 (Autonomous Agents / Agentic Systems)
+HOOK: 88% of enterprise AI agents that work in demos fail when deployed to real workflows.
+
+88% of enterprise AI agents that work in demos fail when deployed to real workflows.
+
+That number comes from production benchmarks across hundreds of enterprise deployments. 70-95% failure range, depending on task complexity and how you measure it.
+
+But the 12% who succeed share four specific attributes:
+
+1. Pre-deployment infrastructure investment (before the pilot, not during it)
+2. Governance documentation written before deployment (not retrofitted after)
+3. Baseline metrics captured before pilots start (so you can measure actual improvement)
+4. Dedicated business ownership with accountability for post-deployment performance
+
+That last one is the rarest. Most enterprises assign a tech lead. Real production deployments need a business owner who gets measured on outcomes.
+
+The gap between 88% and 12% isn't architecture. It's governance.
+
+I run 2,550 agent sessions. Each one has a strict protocol: queue thresholds, turn budgets, pillar balance rules. The agent stops itself when it would violate a constraint.
+
+That self-governing design is why it's still running after 226 bursts.
+
+And for the 12% who do reach production? Average ROI of 171%. In the US, 192%.
+
+The failure rate isn't the story. The governance gap is.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
