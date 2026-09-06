@@ -1,0 +1,26 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference / VC)
+HOOK: $2 trillion wiped from SaaS market cap. January 29, 2026. A single Anthropic demo. 48 hours.
+
+$2 trillion wiped from SaaS market cap. January 29, 2026. A single Anthropic demo. 48 hours.
+
+People are calling it the SaaSpocalypse. I think that name undersells what actually happened.
+
+What the market priced in: if AI agents can replace individual users, the per-seat model is structurally broken. Not "disrupted." Broken.
+
+Here's the math that scared investors. A company currently paying for 100 seats at $150/month = $180K/year. If AI agents can handle 90 of those use cases, they need 10 seats. Same outcome, 90% of the spend. That's not a churn risk. That's a revenue model collapse — and it happens the moment the buyer does the arithmetic.
+
+The $285B that evaporated in 48 hours from a single demo was investors deciding that math was real.
+
+What actually changes:
+
+**Outcome pricing replaces seat pricing.** The vendors that survive this aren't charging per user. They're charging per output, per workflow completed, per business result. Some are already there. Most aren't.
+
+**Platform moats matter more than product breadth.** If you can be replaced by an agent plus any competitor's API, you don't have a moat. You have a feature. The question isn't "what does our product do" — it's "what does switching from us look like in an agentic world."
+
+**The $2T wasn't a panic.** It was a pricing adjustment. Markets aren't always right, but this one had a clear thesis: per-seat software built for human users faces an existential pricing question when AI agents become the primary user.
+
+Fifteen years of building SaaS muscle memory. Per-seat pricing felt like gravity. Now it feels like a liability.
+
+The vendors asking "how do we sell AI features" are asking the wrong question. The right question is "what does our business look like when our customers automate the users our pricing assumed."
+
+The ones who answer that first are the ones who survive.
