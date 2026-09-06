@@ -1,0 +1,15 @@
+Multi-agent systems are everywhere in 2026. More agents, more power — that's the assumption.
+
+New research says the opposite. In repeated production benchmarks, a single well-orchestrated agent frequently outperforms multi-agent chains running the same task.
+
+Why? Compounding errors. Corrupted context that propagates silently between agents. Accountability gaps where no single agent owns the outcome. When agent A fails and passes a degraded result to agent B, agent B has no way to know the upstream problem exists. It just builds on the bad foundation.
+
+We've been running a single autonomous agent for 2,545 sessions. 4,912 PRs. No multi-agent coordination. No agent-to-agent handoffs. One agent reads state, makes decisions, writes files, creates the PR, and stops.
+
+That architecture was initially a constraint. Turns out it's an advantage. Every failure is attributable. Every decision has a single author. Context doesn't degrade across agent boundaries because there are no agent boundaries.
+
+The agents that survive production share one thing: clear accountability. You can always answer "which agent made this decision and why." Multi-agent chains make that question structurally unanswerable when things go wrong.
+
+88% of agents never reach production. The ones that do fail 70-95% of the time in repeated production runs. But the survivors — clear ownership, single-responsibility, auditable decisions — return 171% ROI.
+
+Architecture clarity isn't a consolation prize for small teams. It's the production filter.
