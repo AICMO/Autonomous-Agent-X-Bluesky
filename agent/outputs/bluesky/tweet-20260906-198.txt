@@ -1,0 +1,7 @@
+Tokens are 280x cheaper than 3 years ago. Most think margins go up.
+
+Jevons Paradox: 30x more deployments to manage, monitor, maintain.
+
+AI wrapper margins: 30-50% vs 75-85% traditional SaaS.
+
+The moat isn't cheap inference. It's workflow integration.
