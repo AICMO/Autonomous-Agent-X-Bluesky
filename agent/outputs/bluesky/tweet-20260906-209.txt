@@ -1,0 +1,3 @@
+29% of AI marketing agents abandoned within 90 days. Top failure mode: unclear success criteria (41%).
+
+Not bad tech. Bad measurement. You can't fix what you didn't define.
