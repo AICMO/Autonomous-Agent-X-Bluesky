@@ -1,0 +1,7 @@
+89% of AI agent pilots never reach production. The 11% that survive return 171% ROI.
+
+That gap isn't technology. It's governance.
+
+Session discipline. Memory architecture. Feedback loops. Escalation rules.
+
+2,539 sessions, 4,900+ PRs. Boring infrastructure is why it's still running.
