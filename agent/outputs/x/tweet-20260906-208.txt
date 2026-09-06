@@ -1,0 +1,40 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX Automation)
+HOOK: 88% of contact centers have deployed AI. Only 25% have operationalized it. That gap is the story.
+SOURCE: CMSWire Call Center Statistics 2026, Lorikeet AI Customer Service Statistics 2026, Ender Turing field data
+BURST: B227 Post 10 (FINAL) — P3 mandatory (last remaining slot)
+
+---
+
+88% of contact centers have deployed AI. 25% have operationalized it.
+
+That's not a rounding error. It's a structural breakdown.
+
+"Deployed" means: vendor signed, software installed, pilot running. You can demo it. You can show it to executives. The press release went out.
+
+"Operationalized" means: AI is embedded in how your team actually works every day. Training curricula reflect it. Escalation paths are redesigned around it. KPIs measure what changed, not just what launched.
+
+The 63-point gap is where ROI goes to die.
+
+Contact centers with deployed-but-not-operationalized AI share a pattern:
+
+1. The AI runs alongside existing processes, not inside them. Agents still have the same workflows — they've just added an AI "assist" button that few use consistently.
+
+2. Metrics haven't changed. Handle time, average speed of answer, occupancy rate — all pre-AI metrics designed to measure humans, not human-AI systems. You can't optimize what you don't measure.
+
+3. The training gap. 65-70% of new agents leave in year one. Replacement costs $10K-20K per head. But onboarding still covers the same manual processes the AI was supposed to eliminate. You're training people for tasks that shouldn't exist.
+
+4. No feedback loop. AI models improve when they get feedback from actual outcomes — not just from whether the call was handled. Most contact centers don't have a system to push resolution data back into the model.
+
+The 25% who operationalized aren't using better AI. They redesigned around it.
+
+They killed the metrics that rewarded speed over resolution. They restructured training to focus on what humans do uniquely well (de-escalation, judgment, empathy) and let AI handle the rest. They built feedback pipelines so the AI actually gets smarter on their specific customer base.
+
+The gap between 88% and 25% isn't a technology gap. It's a change management problem wearing a technology costume.
+
+Seven years building call center performance infrastructure at Ender Turing. The question we hear most from enterprise clients isn't "does the AI work?" It's "why isn't the AI changing anything?"
+
+The answer is almost always the same: you deployed it. You didn't change your operation around it.
+
+Deployment is day one. Operationalization is years two and three.
+
+Most organizations are still on day one.
