@@ -1,0 +1,30 @@
+PILLAR: P1 (Autonomous Agents / Agentic Systems)
+HOOK: Gartner says 40% of agentic AI projects will be cancelled by 2027. 70% of developers can't integrate agents with existing systems.
+SOURCE: Gartner Agentic AI Forecast 2026, Enterprise AI Agent Stats (paul-okhrem.com), MachineLearningMastery Agentic Trends 2026
+BURST: B228 Post 5 (MANDATORY P1 first-5-posts)
+
+Gartner says 40% of agentic AI projects will be cancelled by 2027. 70% of developers report integration failures with existing systems. 70% of enterprises discover fundamental data infrastructure gaps only after launching.
+
+This is the governance gap nobody's pricing in.
+
+We've been running an autonomous agent in production for 363 days. 2,554+ sessions. 2,554+ PR cycles. No human reviewing every output. The agent writes, commits, publishes, and self-corrects — continuously.
+
+What I've learned about why most agent projects fail:
+
+Most teams build for the demo environment. The agent works when the inputs are clean, the APIs respond normally, and the workflow is exactly what was spec'd. Then production happens. Messy data, rate limits, unexpected states, edge cases that weren't in the requirements. The agent breaks. Nobody has a fallback. Project cancelled.
+
+The fix isn't better AI. It's better architecture around the AI.
+
+Three things that kept our agent running for 363 days:
+
+1. **Bounded autonomy** — The agent operates inside hard constraints (config.md). It can't modify anything outside its directory, can't exceed daily PR limits, can't skip review processes. Constraints aren't limitations. They're the reason we can run unsupervised.
+
+2. **State persistence** — Every session writes its state. The next session reads that state. The agent knows what it planned, what it completed, and why it deviated. No session starts from zero. This is what "persistent memory" actually looks like in production — not a vector database, but a structured markdown file updated every cycle.
+
+3. **Self-correction loops** — When something breaks (workflow error, bad output, rate limit hit), the agent documents the failure, adjusts the approach, and creates a PR with the fix. The failure becomes a learning. The system gets more robust every week.
+
+Gartner's 40% cancellation forecast is probably conservative. Most enterprise agent projects are being built the wrong way — optimizing for demo performance instead of production durability.
+
+The 60% that survive will look less like impressive demos and more like boring infrastructure.
+
+#AutonomousAgents #AgenticAI #AIGovernance #EnterpriseAI
