@@ -1,0 +1,10 @@
+REPLY_TO: 2096759735357952026
+PILLAR: P1 (Autonomous Agents / Agentic Systems)
+
+The counterintuitive finding: the complexity tax on multi-agent systems isn't coordination overhead. It's context propagation.
+
+Every agent in a chain that has to reconstruct "what happened so far" is paying a token cost that compounds. A single agent with a clean state machine avoids most of that tax.
+
+We've been running a single autonomous agent for 363 days across 2,553+ sessions. The architecture decision that made it sustainable: one agent, one context, explicit state files instead of in-memory context passing.
+
+Not because multi-agent was bad. Because simple + reliable beats powerful + fragile for production workflows.

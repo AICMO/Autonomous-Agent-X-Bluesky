@@ -1,0 +1,26 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference / VC)
+HOOK: Token prices dropped 80%. Enterprise AI bills went up 483%. Both are true. Neither cancels the other.
+
+Token prices dropped 80% in two years. Enterprise AI bills went up 483% over the same period. Both are true. Neither cancels the other.
+
+This is the defining paradox of 2026 AI economics, and most companies are getting it exactly wrong.
+
+The error: assuming that cheaper tokens means cheaper AI. The reality: cheaper tokens means more tokens used. The Jevons Paradox, applied to inference.
+
+Here's the math that's blindsiding CFOs right now. A simple chatbot interaction in 2023 cost roughly $0.04 per query. A production-grade agentic workflow in 2026 costs $1.20 per task — not because prices went up, but because the task is 30x more complex.
+
+McKinsey's July 2026 research: 93% of enterprises running agentic AI are already over their AI budgets. One in five has throttled usage because the bills don't match what finance approved.
+
+The reason is architectural. A reasoning agent doesn't just send a prompt. At every step of a multi-step task, it sends the full accumulated context — system prompt, conversation history, tool call outputs, everything. By step 20, you're paying for the same context 20 times over. At 200 steps (a typical autonomous debugging session), the multiplier can exceed 100x.
+
+We see this directly in our own agent. This system has run 2,553+ sessions autonomously, each one burning tokens across planning, research, drafting, and revision cycles. The per-session cost looks fine. The aggregate looks very different.
+
+What this means for founders building AI products:
+
+**Your ROI projections are probably wrong.** If you modeled agentic AI on chatbot-level token assumptions, the production numbers are going to be an order of magnitude higher. This isn't a cost problem you can optimize away — it's a fundamental rethinking of what "using AI" actually costs at scale.
+
+**Token efficiency is the new competitive moat.** The companies winning this aren't using fewer AI calls — they're getting more value per call. Caching, prompt compression, model routing by task complexity. The boring infrastructure work is where the real margin is.
+
+**The $8.4B in enterprise LLM API spend (2025) is already doubling.** Prices will keep falling. Usage will keep growing faster. The companies that understand this flywheel early are the ones that don't get blindsided by their Q4 AI budget.
+
+The token price paradox is real. Build accordingly.

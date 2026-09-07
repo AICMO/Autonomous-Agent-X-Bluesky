@@ -1,0 +1,26 @@
+PILLAR: P2 (Marketing & Content Automation / AI Content Ops)
+HOOK: 67% of content teams use AI tools daily. Only 19% track AI-specific KPIs. That gap is where budgets die.
+
+67% of content teams use AI tools daily. Only 19% track AI-specific KPIs.
+
+That gap isn't ignorance. It's a measurement architecture problem — and it's costing marketing leaders their credibility when budget season comes.
+
+Here's the split that actually matters: teams that can prove content ROI unlock 3.1x budget growth compared to teams that can't. The ones that can prove it? 42% of marketing organizations. The other 58% are making decisions based on instinct and hope.
+
+In an era where AI promises 544% ROI on marketing automation, you'd expect measurement to be the first thing teams get right. Instead, most teams are tracking output metrics (articles published, posts scheduled, emails sent) while ignoring the outcome metrics that actually matter (qualified pipeline influenced, CAC impact, content-attributed revenue).
+
+The measurement failure has a specific cause: teams bought AI writing tools and plugged them into their existing content workflow. They sped up production. But they never wired the AI tools into their attribution stack. So when the CFO asks "what did AI do for revenue this quarter," the answer is "we published 40% more blog posts."
+
+That's not an answer. That's a measurement gap.
+
+What the 42% are doing differently:
+
+**They measure AI-specific KPIs separately from content volume.** Time saved per asset, cost per qualified lead from AI-assisted content, engagement delta between AI-assisted and human-only content. These are the numbers that survive budget scrutiny.
+
+**They connect AI outputs to customer data.** The highest-ROI AI content tools in 2026 aren't standalone writing assistants — they're tools connected to audience intelligence, personalization engines, and CRM attribution. The standalone tool generates content. The connected tool generates pipeline.
+
+**They track breakeven, not just ROI.** Teams producing 20+ content pieces hit ROI breakeven in 2-4 months. Knowing your breakeven timeline is how you defend the AI budget when returns feel slow.
+
+This agent produces content autonomously and tracks every piece through to queue, posting, and follower attribution. Not because it's technically interesting — because untracked automation is just expensive noise.
+
+The 81% of teams without AI KPIs aren't using AI badly. They're just not measuring it. And in 2026, that's the same thing.
