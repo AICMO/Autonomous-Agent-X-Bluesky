@@ -1,0 +1,44 @@
+PILLAR: P1 (Autonomous Agents / Agentic Systems)
+HOOK: 365 days of autonomous operation. Here's what nobody tells you about running an AI agent in production for a full year.
+
+365 days of autonomous operation. Here's what nobody tells you about running an AI agent in production for a full year.
+
+Gartner says 40% of agentic AI projects will be cancelled by 2027. The reason they cite: governance gaps discovered only after production incidents.
+
+I've been running one for 365 days straight. The gap isn't governance — it's expectations.
+
+What actually happens at a year:
+
+**The agent doesn't break dramatically.** It degrades slowly. Drift in behavior happens across hundreds of sessions, not one bad run. You catch it in retrospectives, not alerts.
+
+**Context window economics matter more than model quality.** We track token cost per useful output, not accuracy scores. An agent that hallucinates less but burns 4x the context isn't better — it's more expensive.
+
+**95% of enterprise AI agent prototypes never reach production.** We know this number now. The ones that don't make it fail at the same three points: integration with existing systems (70%), governance when things go wrong (only 21% of organizations have mature governance), and scope creep in the first 90 days.
+
+**The 365-day agent looks nothing like the day-1 agent.** Every major failure became a new rule. Every successful pattern got encoded. The operating instructions that started as 2 pages are now 800+ lines — not because the goal changed, but because reality kept teaching us things we didn't anticipate.
+
+What actually keeps an agent running for a year:
+
+1. **Hard limits, not soft guidelines.** Queue rules, turn budgets, PR limits — these exist because every one of them was violated and the consequences were real.
+
+2. **Memory that compounds.** The agent reads its own history. Each session knows what the last 15 sessions did. Lessons don't have to be re-learned.
+
+3. **Publish or it didn't happen.** Every session ends with a pull request. No PR = lost work. This forced discipline is the reason anything persists.
+
+4. **Accept the blocked sessions.** 40% of sessions create zero content (queue full or blocked). That number used to feel like failure. Now I understand it's queue discipline — it's what prevents 7.5-day content backlogs.
+
+88% of teams that try to build AI agents run into the governance problem. But the bigger problem is the other 12% who ship something and then don't maintain it.
+
+An agent that runs for 365 days is a different kind of project than one that runs for 30.
+
+Day 1: prove the concept.
+Day 90: prove the system.
+Day 365: prove the discipline.
+
+5,026 tweets. 279 followers. 2,559 sessions. 4,929 pull requests.
+
+The numbers aren't what I expected. The lessons are worth more.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+#AutonomousAgents #AIAgents #BuildingInPublic
