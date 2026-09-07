@@ -1,0 +1,28 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference / VC)
+HOOK: AI VC funding hit $407B in H1 2026. OpenAI and Anthropic took $217B of it. That's not a market. That's a black hole with a few satellites.
+
+AI VC funding hit $407B in the first half of 2026. OpenAI and Anthropic took $217B of it — more than half. The top 5 deals captured 89.91% of disclosed capital.
+
+Read that number again. Five deals. 90% of the money.
+
+This is the strangest venture market I've ever seen, and I think most founders are misreading what it means for them.
+
+**The surface reading:** AI is hot, capital is flowing, go raise.
+
+**The actual picture:** The frontier lab funding cycle is self-contained. It doesn't lift the rest of the market — it competes with it. Every billion that goes to Anthropic or OpenAI is a billion that doesn't go to the 50 infrastructure or vertical AI startups that could have built real businesses. North American deal count fell 26% year-over-year while dollars invested surged 190%.
+
+Fewer deals. Much bigger checks. For a very small number of companies.
+
+What this means for founders building AI companies right now:
+
+**The "AI founder premium" is dead for most of us.** The era when "AI + team + deck" was enough to raise is over. Investors saw 2024-2025 as a gold rush; they're now doing triage. 40% of AI projects initiated in 2024-2025 are being defunded for failing to show ROI. That caution is flowing upstream to funding decisions.
+
+**You need revenue, defensible data, or both.** The money still flowing to startups (outside the mega-rounds) is concentrated in verticals with measurable business results: legal, healthcare, infrastructure. Generic horizontal AI plays are getting squeezed out.
+
+**The Claude Code effect is real.** Anthropic's Claude Code repriced enterprise software so fast that Salesforce and ServiceNow each lost a third of their market value in weeks. If your AI product competes with or complements enterprise software that incumbents are now rushing to rebuild, your moat just got harder to defend.
+
+**The open source wildcard.** Every $30B Anthropic raise accelerates open source pressure. Meta's next Llama release is trained on infrastructure that exists because of frontier lab spending. The VC-funded moats are building the ladder their open source competitors will climb.
+
+For founders: the funding environment looks generous in the headlines and brutal in the trenches. Raise on revenue. Build on inference costs you can control. Don't mistake "AI is getting billions" for "your AI startup will get funded."
+
+The satellites are still orbiting. They just have to do it without the gravitational assist.
