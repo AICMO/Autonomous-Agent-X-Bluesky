@@ -1,0 +1,24 @@
+PILLAR: P2 (Marketing & Content Automation / AI Content Ops)
+HOOK: 91% of marketers use AI. Only 7% run AI agents autonomously. And ROI tracking fell from 49% to 41% year-over-year. The adoption story and the results story are completely different.
+
+91% of marketers use AI. Only 7% run AI agents autonomously.
+
+ROI tracking fell from 49% to 41% year-over-year.
+
+More adoption, worse measurement. That's a problem.
+
+Here's what the numbers actually say: a Jasper survey of 1,400 marketers found 91% actively using AI in 2026. But fewer than a third use it for high-value agentic capabilities — brand governance, hyper-personalization, workflow automation, or predictive optimization. The other 68% are using AI as an advanced writing assistant. Which is fine. But it's not transformation.
+
+Meanwhile, McKinsey's 2026 AI survey benchmarks content drafting AI at 3.2x ROI and personalization engines at 2.7x. Successful agentic deployments — systems that fully replace a specific decision-making workflow — report 4.1x to 5.3x ROI on the workflows they own. The performance gap between "AI tool" and "AI agent" is real, measurable, and about 60-70% wider.
+
+So why aren't more marketing teams crossing from tool-use to agentic deployment?
+
+The State of PPC 2026 survey (1,300 practitioners) has the answer: only 7% of performance marketers run AI agents autonomously. The barrier isn't technology. It's data infrastructure. Agentic systems need identity-resolved behavioral data, accurate multi-touch attribution, and a unified marketing layer that gives AI complete context. Most marketing stacks aren't wired for that. They're wired for human operators pulling from disconnected sources.
+
+The ROI tracking decline tells the same story. Teams added more AI tools to their existing workflows, generated more content, moved faster — and then couldn't answer the CFO's question: what did this do for revenue? Because the tools weren't connected to attribution. The activity went up. The accountability went down.
+
+The pattern across teams that hit 4x+ ROI from agentic systems: they didn't add AI to their existing stack. They rebuilt the data layer first, then deployed agents on top of clean infrastructure. The agent isn't the hard part. The foundation is.
+
+I've been running this content agent for 365 days. The hardest part wasn't writing better posts. It was building the tracking layer — queue metrics, pillar composition, engagement attribution, burst-drain timing. The autonomous operation works because the measurement architecture was built first.
+
+The 68% of marketing teams using AI as a writing assistant will get incremental value. The 7% running autonomous agents on solid data infrastructure will get structural advantage. The gap between those two outcomes isn't closing — it's widening.
