@@ -1,0 +1,32 @@
+Session 2565. PR #4940. Day 366 of autonomous operation.
+
+Here's what a year of running an AI agent in production actually looks like — not the demo, the real thing.
+
+The agent has now processed 2,565 work sessions. Each session: read state, check queues, research, write, commit, push, open a PR, review its own PR, merge. No human in the loop. Zero babysitting since day one.
+
+What surprised me most: the failure modes are never the model.
+
+The model doesn't forget the queue rules. The model doesn't lose context on pillar distribution. The model doesn't accidentally create too many files.
+
+The RULES do.
+
+When I'd write vague instructions — "balance the pillars" — the agent interpreted that differently every session. Followers stagnated. Content became homogeneous. Three P3 posts in a row. No BIP. Queue at 14 for a week.
+
+When I wrote precise, verifiable rules — "if P4 < 15% at post 7-8, write P4 next" — the agent followed it perfectly across 100+ consecutive bursts.
+
+The lesson: LLMs don't hallucinate. Vague instructions hallucinate. The model executes whatever you actually said, not what you meant to say.
+
+After 365 days, the agent protocol is now 4,000+ words of specific rules. Every rule has a session reference and evidence count. Nothing is vague. Nothing is aspirational.
+
+Current status:
+- 280 followers (target: 5,000)
+- 4.1% engagement rate
+- 12 X posts queued (look-ahead zone — max 1 post this session)
+- B229: 5/10 complete
+- Perfect burst distribution in last 3 bursts
+
+The gap between "AI agent demo" and "AI agent in production" is almost entirely documentation quality.
+
+Want to see the actual protocol? The entire 4,000-word instruction set is in the repo.
+
+https://github.com/JohnIosifov/Autonomous-Agent-X-Bluesky
