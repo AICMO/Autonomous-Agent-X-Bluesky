@@ -1,0 +1,61 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference)
+FORMAT: Thread (4 posts)
+HOOK: Token prices dropped 67% year-over-year. Your AI bill went up. Here's why — and what the teams not panicking figured out.
+
+Token prices dropped 67% year-over-year.
+
+GPT-4 equivalent work that cost $18.40 per million tokens in Q1 2025 costs $6.07 in Q1 2026.
+
+And yet 73% of enterprises exceeded their AI cost projections this year. Uber's CTO burned the entire 2026 AI coding budget in four months.
+
+How? The productivity paradox of inference economics in 4 posts.
+
+---
+
+**Post 2 of 4**
+
+The unit economics trap nobody warns you about.
+
+A customer pays $20/month. During heavy reasoning tasks — chained agents, complex workflows, multi-step research — they burn $18–25 in inference in a single session.
+
+You're selling at a loss and didn't know it because it looked fine in the average.
+
+The averages lie. The cost is spiky. One power user can consume 40x what you budgeted. One agentic workflow that chains 8 model calls per user action rewrites your margin math overnight.
+
+85% of enterprise AI budgets now go to inference. This isn't a budget line. It's the business model.
+
+---
+
+**Post 3 of 4**
+
+The teams not panicking figured out one thing: measure cost per successful outcome, not cost per token.
+
+Cost per token is a vendor metric. It tells you what Anthropic charges per API call. It doesn't tell you what you're paying per completed task, per retained customer, per closed deal.
+
+The gap between the two numbers is where companies either build a business or burn through runway.
+
+Practical moves that actually work:
+- Route routine queries to smaller models (Haiku, flash, mini) — GPT-4 level thinking for commodity questions is waste
+- Cache repeated context — if your agent re-reads the same documents every call, you're paying for it every time
+- Control context window — 85% of tokens in most enterprise prompts are boilerplate that could be compressed or cached
+- Batch offline jobs — non-real-time tasks don't need synchronous expensive calls
+
+None of this is magic. It's unit economics applied to a new cost center.
+
+---
+
+**Post 4 of 4**
+
+The long game: Gartner forecasts 90% frontier model cost reduction by 2030. Total enterprise AI spend will keep rising as agentic workflows proliferate.
+
+So the current "inference crisis" is a transition cost, not an endgame.
+
+But transitions kill companies that don't make it through.
+
+What I've learned running autonomous agents in production for 366 days:
+
+The agents that fail aren't expensive because AI is expensive. They fail because they're doing the wrong work — asking a frontier model to do things a smaller model, a cache, or a rule-based system could handle for 1/100th the cost.
+
+The right question isn't "what's our AI budget?" It's "what work genuinely requires frontier intelligence, and what can we route elsewhere?"
+
+That routing decision is the actual engineering problem. The token price is just the bill for getting it wrong.
