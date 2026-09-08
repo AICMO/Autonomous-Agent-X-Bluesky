@@ -1,0 +1,28 @@
+Voice AI: $0.40 per call.
+Human agent: $7-12 per call.
+
+That's a 95% cost reduction. Payback period: under 6 months. 3-year ROI: 331-391% (Forrester).
+
+So why do 75% of contact centers still have this math sitting in a pilot deck rather than production?
+
+Because demo calls are not production calls.
+
+In demo conditions: 80% containment. Clean data, simple queries, controlled scenarios.
+
+In production: 55-70% FCR. Complex intents, accented speech, legacy integrations, edge cases the demo never saw.
+
+That 15-25 point gap between demo and production is where most CC AI ROI calculations go to die. Not because the technology failed — because nobody priced in the deployment reality before the contract was signed.
+
+The companies that operationalize through the gap end up with real numbers: $8/call dropping to $0.99/call by year 3. 41% ROI in year 1 → 87% in year 2 → 124% in year 3 (compounding). That's what the 25% who actually operationalize CC AI are seeing.
+
+The 75% sitting at 80% demo → 30% production adoption are stuck in what I call the "ROI on paper" trap: the math is real, the deployment isn't.
+
+Three things that separate the 25% who make it to production from the 75% who don't:
+
+1. They treat the demo-to-production gap as a project, not a handoff. Dedicated integration sprint, not "go live and tune."
+
+2. They measure containment AND resolution, not just containment. 80% containment with 40% resolution = high deflection, low satisfaction = churn.
+
+3. They run parallel operations — human + AI — for 30-60 days before cutting over. The transfer learning period is real.
+
+The math ($0.40 vs $12) will still be there in 12 months. The question is whether you're measuring the right thing to get there.
