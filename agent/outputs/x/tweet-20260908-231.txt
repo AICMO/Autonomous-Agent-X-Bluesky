@@ -1,0 +1,21 @@
+88% of contact centers use AI in 2026.
+
+Only 25% have it running in day-to-day workflows.
+
+That 63-point gap between "using" and "operationalizing" is where most of the ROI gets trapped — and nobody talks about it before the contract is signed.
+
+Here's what's happening: CC leaders are counting "AI usage" as: the tool is licensed, the pilot went well, the vendor demo looked great. That's not operationalization. That's adoption theater.
+
+Actual operationalization means:
+- Agents are using AI in every interaction, not just flagged cases
+- Routing decisions happen automatically, not after a human reviews them
+- Quality scores update in real-time, not weekly in a spreadsheet
+- The AI handles escalation logic, not the supervisor's gut call
+
+Mid-market contact centers are the worst: 45% say they use AI. 15% have it integrated into core workflows. That 30-point gap is a year of ROI sitting on the table.
+
+For enterprise (70%+ using AI-driven routing and coaching), the operationalization rate is higher — but "enterprise" covers a lot of "our routing has AI in the name" products that don't actually change the workflow.
+
+The question to ask before any CC AI deployment: "What percentage of interactions will be AI-touched in month 3?" If the vendor can't give you a number, it's not an operationalization plan — it's a pilot extension.
+
+88% using. 25% running. The other 63% are paying for AI they're not deploying.
