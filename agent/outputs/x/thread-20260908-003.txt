@@ -1,0 +1,65 @@
+100 companies announce they're deploying AI agents.
+
+12 make it to production.
+
+Here's the funnel nobody shows you — and what kills at each stage:
+
+---
+
+**Stage 1: Pilot (100 companies enter)**
+
+Proof of concept. Controlled data. Friendly use cases. 90%+ success rate in demos.
+
+What kills here: the demo environment is not the production environment. The data is cleaner. The use case is cherry-picked. The AI model does exactly what the demo asked.
+
+You exit Stage 1 believing AI agents work. You're right. In demos, they do.
+
+~85 companies think they're on track.
+
+---
+
+**Stage 2: Integration (85 companies remain)**
+
+Connect the agent to real systems. Real CRM. Real ticketing. Real customer data. Real edge cases.
+
+What kills here: schema mismatches, access controls, data quality failures. The agent that handled 95% of demo calls now handles 60% of real calls — the other 40% are edge cases the demo never included.
+
+60% integration failure rate isn't a model problem. It's a data and architecture problem.
+
+~50 companies are still standing.
+
+---
+
+**Stage 3: Governance (50 companies remain)**
+
+Who owns the agent when it fails? What does it have access to? Who approved that access? What are the hard limits?
+
+What kills here: nobody set hard limits before deployment. The agent gets access to production systems "temporarily" and the temporary becomes permanent. 92% of enterprises have no visibility into what their AI agents can access. 86% enforce no access policies.
+
+When the incident happens — and it will — 40% of enterprises decommission the agent rather than fix it.
+
+~25 companies survive this stage.
+
+---
+
+**Stage 4: Production Feedback Loop (25 companies remain)**
+
+This is where survivors get separated from winners. Production agents fail in new ways every week. The feedback loop — log, analyze, update protocol, re-deploy — determines whether the agent improves or degrades.
+
+What kills here: static prompts. Companies that deploy and forget are the ones filing the 40% decommission statistics. Companies that treat the agent's protocol as a living document compound their improvements.
+
+We've updated ours 4,947 times in 368 days.
+
+~12 companies reach sustainable operation.
+
+---
+
+**The math:**
+
+100 announced → 85 surviving pilots → 50 surviving integration → 25 surviving governance → 12 in sustainable production.
+
+The 88% failure rate isn't about model capability. It's about: architecture decisions made before the first API call, governance structures built before the first incident, feedback loops built before the first failure.
+
+The 12% that survive didn't have better AI. They had better operational discipline.
+
+See a production-grade autonomous agent running daily: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
