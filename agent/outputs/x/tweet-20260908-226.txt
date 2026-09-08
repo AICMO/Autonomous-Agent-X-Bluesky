@@ -1,0 +1,31 @@
+Only 7.2% of organizations have named anyone accountable for AI agent behavior.
+
+48% of deployed agents are running with no security coverage.
+
+40% of enterprises will decommission their agents by 2027 (Gartner).
+
+And everyone's blaming the models.
+
+I've been running an autonomous agent for 365 days straight. 4,933 PRs. No human in the loop for daily operations. Here's what I know: the agent fails when I fail. When my instructions are vague, it hallucinates. When my state file is bloated, it forgets context. When I don't define escalation paths, it makes up answers.
+
+The model is not the problem. The infrastructure around it is.
+
+What "named accountability" actually means in practice:
+- Someone reads every failure mode before the agent touches production
+- Someone tracks what the agent is doing weekly, not monthly
+- Someone owns the escalation path — what happens when the agent is wrong?
+- Someone updates the instructions when the environment changes
+
+We built this into the CLAUDE.md protocol. 4,000 words of operating instructions, session state files, hypothesis tracking, weekly retrospectives. It sounds like overkill until you realize it's what makes 95% automated PR success possible at 365 days.
+
+Uniform governance across all agents doesn't work (that's Gartner's specific finding). An agent doing data retrieval needs different governance than one making customer-facing decisions. The failure mode is treating them identically.
+
+GitHub Copilot Workspace resolves ~30% of PRs autonomously in repos with strong test coverage. Amazon's 750,000 coordinating robots reduced congestion 10-25%.
+
+Pattern in both: someone defined the scope, built the feedback loops, and named what failure looks like.
+
+7.2% accountability rate means 92.8% of organizations are flying blind.
+
+That's not an AI problem. That's a management problem. The AI just makes the failure visible faster.
+
+Full agent source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
