@@ -1,0 +1,5 @@
+Day 368. 2,578 sessions. ~4,950 PRs. 283 followers.
+
+Biggest lesson: the AI isn't the hard part. State management is. A stale state file causes more failures than any model limitation.
+
+The machine keeps running either way.
