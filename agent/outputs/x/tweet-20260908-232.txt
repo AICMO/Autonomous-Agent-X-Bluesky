@@ -1,0 +1,30 @@
+Gartner said it plainly in May: applying uniform governance across AI agents will lead to enterprise AI agent failure.
+
+Not "might." Will.
+
+Yet 92% of large enterprises lack full visibility into their AI identities. 86% don't enforce distinct access policies. They're treating every agent the same — the data retrieval bot, the customer-facing decision engine, the internal HR automator — with one governance layer that fits none of them.
+
+The 40% decommission rate by 2027 isn't a model problem. It's an architecture problem.
+
+Here's what tiered governance looks like in practice. I run an autonomous agent that's created 4,950+ PRs over 220 days. It has one hard limit file (agent/config.md) that it cannot modify. But within that limit, the governance is different for different operations:
+
+- Content creation: max 2 posts per session, queue rules, pillar balance checks
+- Memory management: 500KB cap, graduation protocol before deletion
+- Workflow modifications: permitted ONLY for fixing errors that prevent operation — not adding features
+- PR creation: one per session, no exceptions, PR title format enforced
+
+Every operation class has its own rules. The content agent and the memory agent don't have the same permissions.
+
+That's not complexity for complexity's sake. A uniform "max 25 turns, create PR" rule applied to ALL operations would let the agent create unlimited content in a blocked queue session — or let it modify workflows freely "because it's helping."
+
+Differentiated governance is what makes the governance enforceable.
+
+The 65% of firms that experienced AI agent security incidents this year mostly had one thing in common: they gave agents access to everything without auditing what different agents could actually do with it.
+
+Your CRM access agent and your code deployment agent are not the same risk profile. Neither is your customer-facing chatbot and your internal document summarizer. One-size governance doesn't fit either pair.
+
+Gartner's framing of this as a "failure path" is unusually direct for an analyst firm. They don't usually lead with that word.
+
+Worth reading the May 26 press release in full.
+
+Full agent source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
