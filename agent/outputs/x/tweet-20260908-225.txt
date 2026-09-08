@@ -1,0 +1,31 @@
+Contact center AI ROI doesn't work like a light switch.
+
+Year 1: 41% ROI.
+Year 2: 87% ROI.
+Year 3: 124%+.
+
+We've seen this curve play out at Ender Turing across dozens of deployments. The companies that bail after year 1 because "the numbers aren't there yet" are making the worst possible decision at the worst possible time.
+
+What's actually happening in year 1:
+- System is learning your conversation patterns
+- QA coverage scales from 5% manual sample to 100% automated
+- Coaching loops start closing (agents get feedback, improve, churn drops)
+- Baseline is established so year 2 comparisons are meaningful
+
+Year 2 is when containment rates stabilize and the cost math gets undeniable. Year 3 is when the compounding kicks in — you're not just saving on labor, you're running a better operation that attracts better agents because the job is less soul-crushing.
+
+The other thing nobody talks about: vendor demo rates vs production reality.
+
+Vendors demo 90%+ automation. Production reality is 55-70%.
+
+That gap isn't failure. That's where the actual work happens. The companies hitting 70% containment in production are outperforming 90% of the market — they've just been conditioned to feel disappointed because the demo said 95%.
+
+We track this explicitly. Our clients know their production containment rate weekly, monthly, and YoY. The delta between demo and production shrinks as the system adapts. By month 8-12, many clients are surpassing the demo rate because the demo was a generic model and theirs is tuned on actual conversation data.
+
+$8/human interaction → $0.99/AI resolution.
+
+At 50,000 monthly conversations and 60% AI shift, that's $2.5M annually. That's the year 1 number. Year 3, you're at 80% shift and the AI is handling edge cases the year 1 system couldn't touch.
+
+The ROI curve isn't linear. Don't measure it like it is.
+
+→ Ender Turing: https://enderturing.com
