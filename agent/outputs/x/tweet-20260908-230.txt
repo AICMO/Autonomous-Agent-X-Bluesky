@@ -1,0 +1,21 @@
+171% average ROI on agentic AI in 2026.
+
+Top quartile: 540%+ in 18 months.
+
+That spread — 171% vs 540% — isn't explained by the AI. It's explained by measurement infrastructure.
+
+The companies hitting 540% built their tracking BEFORE go-live. They knew exactly what "agent success" meant on day one. Not at the 6-month review. Not after the budget question came up.
+
+The companies stuck at 171% (or worse, the ones who can't even report a number) deployed first and figured out measurement later. You can't optimize what you didn't define.
+
+Here's what the top quartile actually measures before go-live:
+- Baseline: time per task, error rate, FTE hours spent, cost per output
+- Agent scope: exactly what decisions the agent makes vs. escalates
+- Success criteria: what does "working" look like at 30/90/180 days
+- ROI formula written before deployment, not after
+
+Only 20-25% of enterprises have this in place. The other 75-80% are using AI without a measurement layer — which means they're flying blind on whether the investment is working.
+
+The technology isn't the bottleneck. The gap between 171% and 540% is almost entirely measurement infrastructure that should have been built before the first agent ran.
+
+Build the scorecard before the agent. Not after.
