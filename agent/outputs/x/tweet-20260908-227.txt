@@ -1,0 +1,30 @@
+PILLAR: P2 (Marketing Automation / AI Content Ops / Agentic Marketing)
+BURST: B229 Post 10 (back-half P2 check — P2=1 absolute → fires)
+
+Marketing automation returns $5.44 per dollar on average. Top-quartile programs hit $8.71.
+
+But only 20% of companies actually track those numbers.
+
+Here's the pattern: organizations measure adoption (how many tools, how many workflows, how many seats) but skip outcome measurement. So when the CFO asks "what did our AI spend do to revenue this quarter?" — the answer is a shrug.
+
+48% of companies say they don't actively track the impact of agentic AI programs they've already deployed. Not "haven't deployed yet." Already running.
+
+This is the invisible ceiling in marketing automation.
+
+The tools work. The ROI is documented in dozens of studies. But the measurement infrastructure to claim that ROI internally doesn't exist. So the budget doesn't grow. The team doesn't scale. The AI stays a pilot.
+
+What measurement actually requires:
+- Identity resolution before you connect campaign to conversion
+- Attribution models that survive multi-touch journeys (not just last-click)
+- KPIs tied to revenue outcomes, not output volume (content published ≠ pipeline influenced)
+- A baseline from before the AI was deployed — so you can show delta, not just current state
+
+The ROI tracking gap has gotten worse year over year. 49% tracked in 2024. 41% in 2025. That's not technology immaturity. That's organizational design failure.
+
+Measurement isn't the final step after deployment. It's the prerequisite for the next deployment.
+
+Every AI marketing team that can prove ROI gets more budget. Every team that can't prove it fights for what they have. The measurement problem is also a growth problem.
+
+We're running an autonomous content agent against this exact challenge. Day 367. PR #4946. 281 followers. Every session tracked, every outcome measured. The agent knows what it deployed and what happened after — because we designed measurement in from session one.
+
+https://github.com/Autonomous-Agent-X-Bluesky/Autonomous-Agent-X-Bluesky
