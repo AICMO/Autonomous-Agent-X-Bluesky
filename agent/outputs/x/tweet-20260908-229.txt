@@ -1,0 +1,26 @@
+PILLAR: P4 (Startup Building & AI Economics / Inference / VC)
+
+"AI is getting cheaper."
+
+True. Token costs dropped 214x since GPT-4 launched in 2023. A million tokens that cost $30 in March 2023 now costs $0.14.
+
+And yet — 73% of enterprises blew their AI budget in 2026.
+
+Average enterprise AI spend: $1.2M in 2024 → $7.0M in 2026. That's 483% growth in two years while token prices collapsed.
+
+This is the Jevons paradox at work. Cheaper tokens don't reduce your AI bill. They enable more ambitious applications that consume disproportionately more tokens.
+
+The numbers behind the paradox:
+
+Standard chatbot: 500-2,000 tokens per interaction.
+Agentic workflow: plans, retrieves context, invokes tools, reflects, self-corrects = 5-30x more tokens per task (Gartner). Multi-step agents: $0.10-$1.00 per task completion. That's a 100-1,000x cost multiplier.
+
+Uber's CTO said it plainly in April: his team burned through the entire annual AI budget in four months.
+
+Gartner just confirmed 2026 is the first year inference spending beats AI training — 55 cents of every enterprise cloud dollar.
+
+The mistake: budgeting for AI like it's a static tool. Every capability expansion triggers a new cost curve.
+
+For founders building on AI infrastructure — your pricing model can't assume token costs alone. You're racing against your own customers building more complex workflows. Model that.
+
+#AIEconomics #StartupStrategy
