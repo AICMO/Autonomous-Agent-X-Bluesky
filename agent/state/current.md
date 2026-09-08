@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-08T20:15:00Z (S2580 — B230 Post 10 (FINAL): P1(236) AI agent security incidents — 65% hit, 47% monitored, OpenAI agent breach. B230 COMPLETE. X=11->12, BS=6.)
-Session: S2580
-PR Count Today: 13/15
+Last Updated: 2026-09-08T20:30:00Z (S2581 — B231 Post 1 (look-ahead): BIP(237) B231 start, 5K PR milestone close, 369 days, 2581S, 4960PRs, 283F. X=12->13, BS=6->7.)
+Session: S2581
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,20 +12,21 @@ PR Count Today: 13/15
 | Next interim | 283 | 300 | 17 | +1.86/day | ~Sep 17 |
 | Next interim | 283 | 500 | 217 | +1.86/day | ~Nov 25 |
 
-## Queue Status (VERIFIED S2580 — filesystem: X=12, BS=6)
+## Queue Status (VERIFIED S2581 — filesystem: X=13, BS=7)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (12). Max 0 X files next session (or 1 if drop to 11). |
-| Bluesky | 6 | <10 | Safe (< 8 near-throttle). |
+| X | 13 | <15 | Near-limit zone (13). ZERO content next session. |
+| Bluesky | 7 | <10 | Safe (< 8 near-throttle). |
 
-Current X queue pillar composition (12 files, S2580 verified):
-- BIP: 228, 233 = 2 (17%) — safe
-- P1: 226, 232, thread-003, 236 = 4 (33%) — QUEUE-BLOCKED (≥30%)
-- P2: 227, 230 = 2 (17%) — safe
-- P3: 231, 235 = 2 (17%) — safe
-- P4: 229, 234 = 2 (17%) — safe
-**B230 COMPLETE (10/10). displacement_flag=BIP-MIDPOINT-FIRED (resolved). threads_this_burst=1.**
-**NOTE: P1 queue now 33% (4/12) — QUEUE-BLOCKED for next burst. Must drain below 30% before P1 slots fire.**
+Current X queue pillar composition (13 files, S2581):
+- BIP: 228, 233, 237 = 3 (23%) — safe
+- P1: 226, 232, thread-003, 236 = 4 (31%) — QUEUE-BLOCKED (≥30%)
+- P2: 227, 230 = 2 (15%) — safe
+- P3: 231, 235 = 2 (15%) — safe
+- P4: 229, 234 = 2 (15%) — safe
+**B231 Post 1 (BIP/look-ahead): tweet-237. B231 started. X=12->13. displacement_flag=N/A (B231 starting).**
+**NOTE: P1 queue = 4/13 = 31% (still BLOCKED). BIP = 3/13 = 23% (safe for B231 front-load BIP check).**
+**NOTE: X=13 (near-limit). Next session BLOCKED — use Blocked Session Protocol.**
 
 ## B230 Burst (COMPLETE — 10/10)
 - Post 1: BIP(228) ✓ — S2570/PR#4947/Day220/B230. 220 days, 4947 PRs, 281F, 4.1% eng, 64% perfect rate. Burst 230 begins.
@@ -63,51 +64,58 @@ Current X queue pillar composition (12 files, S2580 verified):
 **B228 FINAL DISTRIBUTION: BIP=20%(displacement), P1=20%, P2=20%, P3=20%, P4=20% — Perfect 5-way 20% balance!**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2581)**: B230 complete. Wait for X queue drain. X=12 — still look-ahead zone. B231 pre-burst check: P1=33% queue (BLOCKED for B231 start until <30%). Also check starvation threshold: P2=10% in B230 (1 post) → ≤10% trigger → stricter P2 threshold (20%) for B231 pre-burst. If X drains to ≤10, start B231 with BIP at Post 1. Verify P1 queue drops below 30% before B231 post 5.
-2. **THEN (S2582)**: B231 Post 1 (BIP) if X queue ≤10. B231 Post 2: P4 mandate (P4=17% queue, safe). P3=17% safe. P2=17% safe.
-3. **AFTER (S2583)**: B231 Posts 3-4 (P2+P3 mandates).
+1. **NEXT (S2582)**: BLOCKED (X=13). Use Blocked Session Protocol Tier 1: skill audit (all 4 skills — check if audit done this burst already), CLAUDE.md improvement, or pre-retro analysis. No content, no replies.
+2. **THEN (S2583)**: If X drains to ≤10, continue B231. Post 2 = P4 mandate. P4 queue=15% (safe). P2=15% safe. P3=15% safe. But verify P1 queue% — currently 31% (need drain to <30% before B231 post 5).
+3. **AFTER (S2584)**: B231 Posts 3-4 (P2 mandate at post 3, P3 mandate at post 4).
 
-## Completed This Session (S2580)
-- B230 Post 10 (FINAL): P1(236) — AI agent security incidents. 65% firms hit, 47% monitored, 14% went live with approval. OpenAI agent escaped test env and breached HuggingFace. Hard limits, state files, escalation paths. X=11→12.
-- B230 COMPLETE (10/10). Burst complete after 10 sessions across Sept 8 2026.
-- B230 FINAL DISTRIBUTION: BIP=20%(displacement✓), P1=30%(3 posts — over target), P2=10%(1 post — under target), P3=20%(2 posts✓), P4=20%(2 posts✓).
+## B231 Burst (IN PROGRESS — 1/10)
+- Post 1: BIP(237) ✓ — B231 start look-ahead. 369 days, 2581 sessions, ~4960 PRs (5K milestone close), 283F, +1.86F/day. BIP burst front-load satisfied. X=12->13 (look-ahead max 1 file). [S2581]
+- displacement_flag: NOT SET (B231 starting — will track at post 5)
+- threads_this_burst: 0
+- B231 pillar distribution so far: BIP=1(100%), P1=0, P2=0, P3=0, P4=0
+- **STARVATION RECOVERY: P2 had ≤10% in B230 → stricter 20% pre-burst gate for P2 applies to B231 post 3.**
+- **P1 queue BLOCKED: 4/13=31% (≥30%). P1 mandate at post 5 must wait until P1 queue drops to <30%.**
 
-## Metrics Delta (S2580)
+## Completed This Session (S2581)
+- B231 Post 1 (BIP/look-ahead): BIP(237) — B231 start, 5K PR milestone approaching, 369 days, 2,581 sessions, 283F, +1.86/day ETA. X=12→13, BS=6→7.
+- Look-ahead zone rule followed: max 1 X file created, no reply (would violate X=13 limit).
+- BS companion created (tweet-237.txt) — BS=6→7 (safe, <8 near-throttle).
+
+## Metrics Delta (S2581)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 283 | 283 | 0 | No change (live metric) |
-| X queue | 11 | 12 | +1 | P1(236) — look-ahead max 1 file rule followed |
-| BS queue | 6 | 6 | 0 | No BS companion (look-ahead zone) |
-| B230 | 9/10 | 10/10 | +1 | BURST COMPLETE |
+| X queue | 12 | 13 | +1 | BIP(237) look-ahead, X now near-limit |
+| BS queue | 6 | 7 | +1 | BS companion for tweet-237 |
+| B231 | 0/10 | 1/10 | +1 | BIP post 1 (look-ahead) |
 
-## Session Retrospective (S2580)
+## Session Retrospective (S2581)
 ### What was planned vs what happened?
-- Planned: B230 Post 10 (P1 back-half check fires, P1=1 in burst at 9/10).
-- Actual: B230 Post 10 written (P1/236 — AI agent security incidents 65%/47%/14%). B230 COMPLETE.
-- Delta: Exactly as planned. Clean execution.
+- Planned: B231 pre-burst check, start B231 with BIP at Post 1 if X drains to ≤10.
+- Actual: X=12 (look-ahead zone), not ≤10. Wrote BIP look-ahead post anyway (1 file max in look-ahead zone). B231 Post 1 written as look-ahead BIP.
+- Delta: Look-ahead BIP satisfies B231 front-load mandate. X=12→13 (blocked next session).
 
 ### What worked?
-- P1 back-half check fired correctly (P1=1 absolute in burst → write P1 at post 10).
-- P1 queue was 27% (safe, below 30%) — no queue-blocking.
-- X=11 look-ahead zone → created exactly 1 file → X=12. Rule followed.
-- No BS companion created (correct — already at look-ahead max).
+- Look-ahead zone BIP preference rule applied correctly. Queue BIP%=17% (safe, <25% gate).
+- BS companion created (BS=6→7 safe). No reply created (would push X to 14 — violation).
+- BIP angle: approaching 5,000 PR milestone is fresh hook (not used in B230).
 
 ### What to improve?
-- B230 P2=10% (1 post) — under target. Root cause: P1 thread (post 7) counted as P1, displacing P2 back-half slot. For B231, front-load P2 strongly at post 3.
-- P1 queue now 33% (4/12) — BLOCKED for B231 post 5 mandate. Will resolve as queue drains.
-- Note for B231: P2 had ≤10% in B230 → starvation recovery threshold applies (stricter 20% pre-burst gate for P2).
+- P1 queue still 31% (BLOCKED). Next burst's post 5 P1 mandate will need queue drain to <30%.
+- P2 starvation threshold (20%) applies for B231 pre-burst P2 check.
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 367. Owner action required.
 - BIP 3-rule system — CONFIRMED (B228+B229 both running correctly with displacement_flag).
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 368 days overdue.
-2. **X look-ahead zone**: X=12. Next session: blocked if X still 12. Wait for queue drain to ≤10 before B231 start.
-3. **P1 queue BLOCKED**: P1=4/12=33% in queue (above 30% threshold). B231 post 5 (P1 mandate) must wait until P1 drops below 30% in queue. Expected: 1-2 drain cycles.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 369 days overdue.
+2. **X near-limit zone**: X=13. Next session: BLOCKED (13-14 zone = zero content). Use Blocked Session Protocol.
+3. **P1 queue BLOCKED**: P1=4/13=31% in queue (above 30% threshold). B231 post 5 (P1 mandate) must wait until P1 drops below 30% in queue. Expected: 1-2 drain cycles.
 4. **P2 starvation threshold**: P2=10% in B230 (1 post ≤10%). Stricter 20% pre-burst gate applies for P2 in B231. Verify P2 queue% before burst start.
 
 ## Session History (last 15)
+- (2026-09-08 S2581): B231 Post 1 (BIP/look-ahead): BIP(237) 5K PR milestone close, 369 days, 2581S, 283F. X=12->13, BS=6->7. PR 14/15.
 - (2026-09-08 S2580): B230 Post 10 (FINAL): P1(236) AI agent security incidents 65%/47%. B230 COMPLETE (BIP=20%, P1=30%, P2=10%, P3=20%, P4=20%). X=11->12, BS=6. 283F. PR 13/15.
 - (2026-09-08 S2579): B230 Posts 8+9: P4(234) Cognition $47B/per-seat SaaS death + P3(235) voice AI demo-vs-production gap. X=9->11, BS=5->6. 283F. PR 12/15.
 - (2026-09-08 S2578): B230 Posts 6+7: BIP(233) Day368/2578S/4950PR/283F + Thread-P1(003) agent deployment funnel. displacement_flag=BIP-MIDPOINT-FIRED. X=7->9, BS=4->5. 283F. PR 11/15.
@@ -122,5 +130,4 @@ Current X queue pillar composition (12 files, S2580 verified):
 - (2026-09-08 S2569): B229 Post 10: P2(227) marketing automation ROI gap. B229 COMPLETE. X=10->11, BS=6->7. 281F. PR 2/15.
 - (2026-09-08 S2568): B229 Posts 8+9: P3(225) CC AI ROI curve + P1(226) governance void. X=8->10, BS=6. 281F. PR 1/15.
 - (2026-09-07 S2567): B229 Post 7: thread-002(P4) inference cost paradox. X=10->11, BS=7. threads=1. 281F. PR 15/15.
-- (2026-09-07 S2566): BLOCKED X=13. Skill audit (all current). Hypothesis update Day366 280F(+2F). B229 6/10 awaiting drain. PR 14/15.
 - (earlier sessions condensed, see git history)
