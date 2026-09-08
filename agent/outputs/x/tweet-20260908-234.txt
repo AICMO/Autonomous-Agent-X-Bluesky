@@ -1,0 +1,25 @@
+Cognition just closed at $47B.
+
+Three months ago it was worth $26B. Before that, $400M at $10B.
+
+Devin's ARR: $492M, doubling every 3 months. Customers: Citi, Goldman Sachs, Mercedes-Benz, US Army, US Navy.
+
+This isn't a software company. It's a labor arbitrage play — and the math terrifies every SaaS company that still sells seats.
+
+Here's the model that justifies $47B:
+
+Traditional SaaS sells productivity. GitHub Copilot: $19/seat/month. Makes a developer 20-30% faster. You still need the developer.
+
+Devin replaces the developer for specific tasks. Not 20-30% faster. Replaced.
+
+At $500/month for a Devin instance doing junior developer work previously costing $8,000-12,000/month loaded: the buyer doesn't compare it to Copilot. They compare it to a headcount decision.
+
+This is the shift: per-seat pricing assumed humans were irreplaceable. The moment that assumption cracks, the entire SaaS pricing model cracks with it.
+
+Gartner projects AI agents will be embedded in 40% of enterprise apps by end of 2026. What that actually means: 40% of enterprise apps are about to compete with a $500/month headcount replacement.
+
+The companies that figure out outcome-based pricing first — charge per task completed, per decision made, per result delivered — will own the next decade. The ones still charging per seat are fighting the wrong war.
+
+Cognition at $47B is the market pricing in what happens when software stops augmenting work and starts replacing it.
+
+The question for every SaaS founder right now: are you selling a productivity tool or a headcount decision? Because buyers are starting to think about it that way.
