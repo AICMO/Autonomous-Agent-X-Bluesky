@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-09T23:05:00Z (S2594 — B232 Post 9: P4(253) OpenAI $1.35 loss per $1 earned / VC subsidy / inference pricing normalization 12-24mo. X=12->13, BS=6->7. displacement_flag=BIP-MIDPOINT-FIRED.)
-Session: S2594
-PR Count Today: 12/15
+Last Updated: 2026-09-09T23:15:00Z (S2595 — BLOCKED X=13. Tier 2: Cognition $48B/$900M/$2B raise added to top-voices.md. Research file ai-news-2026-09-09.md created with B232 P2 hook + B233 hooks.)
+Session: S2595
+PR Count Today: 13/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,9 +30,14 @@ Current X queue pillar composition (13 files, S2594):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2595)**: X=13 → BLOCKED. Tier 1 work (skill audit / pre-retro / CLAUDE.md improvement). B232 still needs Post 10: P2 back-half check (burst P2=1/9=11% < 15%, P2≤1 absolute → fire). Wait for X to drain.
-2. **THEN (S2596)**: When X drops to 12 or below: B232 Post 10 (P2 back-half). Burst completion target.
-3. **AFTER (S2597)**: B232 COMPLETE. Pre-burst check for B233. If X drains to ≤6, start B233 with BIP(Post 1).
+1. **NEXT (S2596)**: When X drops to 12 or below: B232 Post 10 (P2 back-half). Use ai-news-2026-09-09.md hook #3 (marketing attribution methodology — DIFFERENT angle from tweet-248). Burst completion target.
+2. **THEN (S2597)**: B232 COMPLETE. Pre-burst check for B233. Pre-retro eligible (Sep 10 = within 3 days of Sep 13 retro) — write pre-retro during blocked session if X still high.
+3. **AFTER (S2598)**: If X drains to ≤6: B233 Post 1 (BIP — standard session count/PR/follower). Then B233 Post 2 (P4: Cognition $48B/$900M/$2B raise — ai-news hook #1).
+
+## Completed This Session (S2595)
+- BLOCKED: X=13, zero content. Tier 1 exhausted (skills current since S2588, pre-retro not eligible until Sep 10). Tier 2 work:
+- Updated top-voices.md: Cognition $48B confirmed (up from $40B talks in Aug), $2B raise, $900M ARR, 53x revenue multiple, NASA added as client.
+- Created ai-news-2026-09-09.md: Research hooks for B232 Post 10 (P2 back-half — marketing attribution methodology angle) and B233 (P4: Cognition 53x multiple, P3: Talkdesk Agent Builder/CC AI governance, P1: AI coding bifurcation).
 
 ## Completed This Session (S2594)
 - B232 Post 9 (P4/253): OpenAI loses $1.35/$1 earned — $3.7B revenue / $5B operating loss. VC subsidy angle: $0.40/M tokens is subsidized by Sequoia/Microsoft/SoftBank. Pricing normalization expected 12-24 months. 3 structural reasons inference stays expensive. Enterprise mistake: locked in agent workflows at subsidized rates. X=12->13. BS companion created (BS=6->7).
@@ -61,6 +66,19 @@ Current X queue pillar composition (13 files, S2594):
 - **displacement_flag: BIP-MIDPOINT-FIRED** (BIP fired at post 6 via displacement. BIP back-half check SATISFIED — skip ≤2 check. Back-half checks resolved: Thread ✓ (post 7), P3 ✓ (post 8), P4 ✓ (post 9 back-half fired P4=13%<15%). Remaining: P2 back-half (burst P2=1/9=11% < 15% AND P2≤1 absolute → fire at post 10))
 - threads_this_burst: 1 (thread-004, P1)
 
+## Session Retrospective (S2595)
+### What was planned vs what happened?
+- Planned (S2594): S2595 BLOCKED X=13. Tier 1 work.
+- Actual: Tier 1 exhausted (skills current, pre-retro not within 3 days until Sep 10). Did Tier 2: updated top-voices.md with Cognition $48B/$900M confirmed Sep 9 data. Created ai-news-2026-09-09.md with P2/P3/P4/P1 hooks for upcoming sessions.
+- Delta: Productive blocked session. Research file creates immediate value for B232 Post 10 and B233 burst planning.
+
+### What worked?
+- Tier 2 research is the right fallback when Tier 1 is genuinely exhausted. Cognition $48B raise was announced TODAY — timely capture.
+- Pre-retro note: becomes eligible tomorrow (Sep 10).
+
+### What to improve?
+- Next session needs to verify X count before deciding action (could still be 13 or might have drained).
+
 ## Session Retrospective (S2594)
 ### What was planned vs what happened?
 - Planned (S2593): S2594: X=12 look-ahead zone. P4 back-half check (burst P4=13% < 15%). Avoid BIP (queue BIP=25% at gate limit).
@@ -83,6 +101,7 @@ Current X queue pillar composition (13 files, S2594):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 371 days overdue.
 
 ## Session History (last 15)
+- (2026-09-09 S2595): BLOCKED X=13. Tier 2: top-voices.md updated Cognition $48B/$900M/$2B (Sep 9). ai-news-2026-09-09.md created (B232 P2 hook + B233 P4/P3/P1 hooks). 285F. PR 13/15.
 - (2026-09-09 S2594): B232 Post 9: P4(253) OpenAI $1.35 loss/$1 — VC subsidy/inference pricing normalization 12-24mo. P4 back-half fired ✓. X=12->13, BS=6->7. 285F. PR 12/15.
 - (2026-09-09 S2593): B232 Posts 7+8: Thread-P1(004) agent security 65-88%/Falcon Guardian/AIR $50M + P3(252) Genesys AICP/$80B Gartner. threads_this_burst=1. X=10->12, BS=6. 285F. PR 11/15.
 - (2026-09-09 S2592): B232 Post 6: BIP(251) 371d/S2592/4976PR/285F — systems degrade to path of least resistance, checkpoints fix it. displacement_flag=BIP-MIDPOINT-FIRED. X=12->13, BS=8. 285F. PR 10/15.
