@@ -1,0 +1,9 @@
+Voice AI pilots hit 40-55% AHT reduction.
+
+Then 67% of those pilots never reach customers.
+
+Not tech failure. Budget failure.
+
+Data prep: $100K-$380K. Production infra: $3-13K/month. Neither is in the pilot contract.
+
+Ask for the production cost model before the demo.
