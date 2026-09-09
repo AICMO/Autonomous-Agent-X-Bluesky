@@ -1,0 +1,7 @@
+34% of enterprise marketing teams now run autonomous AI agents in production.
+
+29% abandon their AI agent deployments within 90 days.
+
+Top failure mode: unclear success criteria (41% of failures).
+
+The 71% who stick: they built the measurement scorecard BEFORE deploying the agent. Not after.
