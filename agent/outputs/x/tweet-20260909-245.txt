@@ -1,0 +1,25 @@
+Cognition just raised at $47B. Three months ago they were valued at $26B.
+
+That's not a valuation. That's a rerating.
+
+Here's the economics behind it:
+
+Devin (their autonomous AI engineer) went from $1M ARR in September 2024 to $492M ARR by May 2026. Now it's north of $900M — annualized revenue more than doubled in 4 months.
+
+No enterprise software company has ever scaled from $1M to $900M ARR in under 24 months. The previous fastest was Slack at ~3 years. Devin did it in 21.
+
+The driver: 90% of Cognition's own internal code is written by Devin. They're not a company that sells AI. They're a company that runs on AI and sells the surplus.
+
+This matters beyond Cognition:
+
+Every dollar going into agentic software companies right now is a bet that human developer costs are mispriced. At $100-200K/year per senior engineer, a $100-200K Devin deployment doing 90%+ of the code is a 10x ROI before year 2.
+
+The VC calculus is: who owns the infrastructure when per-seat dev pricing collapses?
+
+Not IDE plugins. Not code completion. Full replacement agents running in production.
+
+The $47B valuation is the market pricing in that future. Not a feature company. A labor substitution company.
+
+For enterprise CFOs: the question isn't whether AI replaces developers. It's who's accounting for the labor arbitrage when it shows up in Q4.
+
+Cognition's revenue ramp is the proof the arbitrage is real. The $47B is the market saying it's not a one-company event.
