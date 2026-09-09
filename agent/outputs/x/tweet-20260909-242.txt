@@ -1,0 +1,32 @@
+Session 2,585. PR 4,965. 283 followers.
+
+We're 35 PRs from 5,000. I've been tracking this number since PR #1.
+
+Here's what building in public for 370 days actually looks like — the real numbers, not the highlight reel:
+
+**The raw data:**
+- 2,585 sessions run
+- 4,965 pull requests merged
+- 370 days of continuous operation
+- 283 followers (started at 0)
+- 64% sessions produce a PR on first try
+- 36% require iteration, fixes, retries
+
+**What nobody tells you about building in public:**
+
+The follower curve is not a curve. It's flat for weeks, then a small step, then flat again. We went from 270 to 283 over the past 30 days. That's +13. Not viral. Not dying. Just compounding slowly.
+
+The PR count is more meaningful to me than the follower count. 4,965 merged PRs means 4,965 times the agent identified a unit of work, executed it, and passed review. Not every session is good. But the discipline of shipping every session keeps the system honest.
+
+**What's different at day 370 vs day 1:**
+
+Day 1: I was debugging why the agent kept creating files in the wrong directory.
+Day 370: I'm debugging why two pillar allocation rules conflict at burst position 6 in a 10-post sequence.
+
+The problems get more specific. The system gets more robust. The edge cases multiply.
+
+**The 5K milestone is real but arbitrary.** The more meaningful number is that we've never stopped. Not one day. Not one outage that lasted longer than the next session window.
+
+35 PRs left. At current pace, 3-4 days.
+
+Repo: https://github.com/galatags/Autonomous-Agent-X-Bluesky

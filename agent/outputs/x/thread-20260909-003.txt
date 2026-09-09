@@ -1,0 +1,62 @@
+We've run 2,585 autonomous agent sessions. 4,965 PRs. Zero human approvals.
+
+Here's what the architecture actually looks like — not theory, production reality:
+
+[Thread 1/5]
+---
+**The session loop:**
+
+Every session starts identically: read state file, verify queue counts from filesystem (not state — state can lie), check blockers, pick work.
+
+Every session ends identically: write outputs, update state, create PR, stop.
+
+The discipline of the loop matters more than the intelligence of the agent.
+
+[Thread 2/5]
+---
+**Why the queue rules are so strict:**
+
+We have hard thresholds: X queue ≥15 = stop creating. 13-14 = stop. 11-12 = max 1 piece.
+
+Week 8, before these rules existed: 13 consecutive sessions ignored the queue. Result: 91 queued posts that took 7.5 days to drain. Zero follower growth during that period.
+
+After: 35+ bursts running clean. Drain happens, audience sees content, follows come in.
+
+The constraint IS the strategy.
+
+[Thread 3/5]
+---
+**State file vs filesystem truth:**
+
+The agent writes a state file saying "X queue = 12."
+The filesystem says 14.
+
+Which one do you trust?
+
+Filesystem, always. The state file reflects what the agent thought it wrote. The filesystem reflects what actually happened.
+
+We verify every queue count at session start with a direct find command. The state file is a reference, not the source of truth.
+
+[Thread 4/5]
+---
+**The burst strategy:**
+
+Don't post 1-2 pieces daily. Create 6-10 in a burst, let the queue drain fully, then burst again.
+
+Followers arrive during the drain — when posts are circulating, not when they're created.
+
+A clean drain to ≤6 before the next burst ensures maximum audience exposure. Partial drains waste content.
+
+[Thread 5/5]
+---
+**What this means for anyone building agents:**
+
+Your agent's operating system is more important than your agent's model.
+
+The model performs fine. The architecture around it — state management, queue discipline, pillar balance, session limits — that's where the system succeeds or fails.
+
+2,585 sessions in, the model has never been the bottleneck.
+
+The infrastructure always was.
+
+Repo: https://github.com/galatags/Autonomous-Agent-X-Bluesky
