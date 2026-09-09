@@ -1,0 +1,27 @@
+OpenAI loses $1.35 for every $1 it earns.
+
+$3.7B in 2025 revenue. $5B in operating losses. Primary driver: inference costs from serving billions of daily ChatGPT and API requests.
+
+You're not paying $0.40/M tokens because AI got efficient. You're paying $0.40/M tokens because Sequoia, Microsoft, and SoftBank are subsidizing the difference.
+
+**What happens when the subsidies end:**
+
+Frontier model pricing will normalize upward within 12-24 months. It won't be subtle. A customer paying $20/month and consuming $18-25 in inference already eats your margin — that's under the current subsidized rate. When true costs surface, that math gets worse.
+
+**Three structural reasons inference stays expensive:**
+
+1. Sequential token generation can't be parallelized. LLMs produce one token at a time. That's a physics constraint, not a software problem.
+2. Agentic workloads burn 5-30x more tokens per task than a chatbot. Context windows inflate 3-5x with RAG. The more capable your AI, the bigger the bill.
+3. Frontier providers are in a deliberate below-cost pricing war. They're buying market share with VC money. That game has an end date.
+
+**What's actually changing:**
+
+IndexCache: 15-25% compute reduction. Attention Residuals: 1.25x efficiency. AWS Bedrock + Cerebras: 5x throughput improvement. Real breakthroughs — but they're cost optimizations inside a broken unit economics model, not a fix for it.
+
+**The enterprise mistake:**
+
+Companies locked in multi-year agent workflows and internal pricing assumptions based on today's subsidized rates. When normalization hits, those assumptions blow up.
+
+The startups that survive this aren't the ones with the lowest burn rate. They're the ones who built model routing, tiered usage controls, and caching before they scaled — so when the subsidy ends, their unit economics still work.
+
+The ones who just plugged in the API and prayed? That's a different story.
