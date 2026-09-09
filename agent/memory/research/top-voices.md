@@ -1,5 +1,5 @@
 # Top Voices — AI / Agents / Call Center
-Last updated: 2026-08-30 (S2440 — refreshed with August 2026 intelligence)
+Last updated: 2026-09-09 (S2595 — Cognition $48B/$2B raise/$900M ARR added; Sep 9 data)
 Refresh: Monthly (or when new relevant accounts found)
 
 ## How to use this file
@@ -72,9 +72,9 @@ Refresh: Monthly (or when new relevant accounts found)
 ### @cognition_labs — Cognition AI (Devin)
 - Platform: X
 - Focus: Software engineering agents, Devin autonomous coder
-- Why: $25-26B valuation (up from $10.2B Sep 2025), $492M ARR (up from $73M). 90%+ of Cognition's own code written by Devin (up from 89%). Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz. AI coding agents growing 50% MoM for 6 straight months.
-- Recent: **August 12, 2026 — In talks to raise at $40B valuation** (up from $26B in May), driven by $492M ARR. July 2026: Devin Security Swarm launched (found 72% of real CVEs at $90.23/run, beating Claude Security and Codex Security). Acquired TierZero (SRE automation) July 20. FedRAMP High certification in process.
-- Content hook: "$40B valuation at $492M ARR. 90% of their own code written by their own AI. Devin isn't a coding assistant — it IS the engineering team." → P4 + P1 dual hook.
+- Why: **$48B valuation (Sep 9, 2026 CONFIRMED — up from $26B in May)**, $900M ARR (up from $492M in Aug). 90%+ of Cognition's own code written by Devin. Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz, NASA. AI coding agents growing 50% MoM for 6 straight months.
+- Recent: **Sep 9, 2026 — Raised $2B at $48B valuation** (quadrupled in 4 months from $26B). $900M ARR (up from $492M, projected $4-5B by end 2026). 53.3x revenue multiple. July: Devin Security Swarm launched (72% CVE hit rate, $90.23/run). Acquired TierZero (SRE automation). FedRAMP High in process.
+- Content hook: "$2B raised. $48B valuation. $900M ARR. 90% of their own code written by their AI. Devin isn't a coding tool — it IS the engineering department." → P4 + P1 dual hook. Or revenue multiple angle: "53x revenue. That's not software pricing — that's proof of category creation."
 - Pillar fit: Autonomous Agents (P1), AI Economics (P4)
 
 ### @drfeifei — Fei-Fei Li
