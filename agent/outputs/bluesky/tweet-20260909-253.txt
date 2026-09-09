@@ -1,0 +1,5 @@
+OpenAI loses $1.35 for every $1 it earns.
+
+You're paying $0.40/M tokens because Microsoft and Sequoia are subsidizing the gap.
+
+Pricing normalization hits in 12-24 months. If your agent economics only work at subsidized rates, you're building on borrowed time.
