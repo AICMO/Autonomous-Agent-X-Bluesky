@@ -1,0 +1,28 @@
+Per-token AI prices collapsed 98% since GPT-4 launched in March 2023.
+
+Enterprise AI bills tripled over the same period.
+
+Both statements are true. That's the actual story of AI infrastructure economics in 2026.
+
+Here's what happened:
+
+Blended token prices fell 67% year-over-year — from $18.40 to $6.07 per million tokens between Q1 2025 and Q1 2026. GPT-4o input pricing dropped from $5.00 to $2.50/M. The numbers look like wins.
+
+But the average enterprise AI budget went from $1.2M/year in 2024 to $7M in 2026. And inference now eats 85% of that budget, up from 40% in 2023.
+
+This is Jevons Paradox in real time. Cheaper tokens don't mean lower bills. They mean more tokens consumed, more use cases activated, more agents spun up.
+
+The math that actually matters for 2026:
+
+At 500M tokens/month, self-hosted 70B FP16 on an 8x H100 pod: ~$950/month.
+Same volume via OpenAI GPT-4o: ~$5,000/month.
+
+That 5x gap is why enterprise architecture decisions — not prompt optimization — are the real lever.
+
+73% of enterprises already report AI inference costs exceeding budget projections. The fix isn't negotiating API pricing. It's deciding which workloads belong on which infrastructure.
+
+Frontier models for complex reasoning. Mid-tier for structured tasks. Fine-tuned small models for high-volume repetitive calls. Cached responses for repeated queries.
+
+The enterprises getting this right aren't spending less. They're spending the same money 5x more effectively — and scaling 5-10x more workloads on the same budget.
+
+The token bill has come due. Infrastructure decisions made in 2026 will determine AI economics for the next 3 years.

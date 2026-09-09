@@ -1,0 +1,9 @@
+Per-token AI prices collapsed 98% since GPT-4 launched.
+
+Enterprise AI bills tripled.
+
+Both true. That's Jevons Paradox live: cheaper tokens = more consumption, not lower cost.
+
+Average enterprise AI budget: $1.2M (2024) → $7M (2026). Inference = 85% of that.
+
+Infrastructure decisions, not prompt tweaks, are the real lever.

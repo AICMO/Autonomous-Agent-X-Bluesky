@@ -1,0 +1,23 @@
+34% of enterprise marketing teams now run autonomous AI agents in production.
+
+That's double the figure from Q4 2025.
+
+But 29% of attempted AI agent deployments are abandoned within 90 days.
+
+The gap between "we deployed an AI agent" and "it's still running 90 days later" tells you everything about where content operations actually breaks down.
+
+The three failure modes, by frequency:
+
+1. Unclear success criteria — 41% of failures. The team launched an agent without defining what "working" actually looks like. No baseline. No measurement. No way to know if the agent is producing value or just producing output.
+
+2. Poor data or tool access — 33%. The agent was given access to the wrong data sources, stale CRM data, or disconnected marketing stack. AI agents are only as current as their integrations.
+
+3. Brand-voice drift in customer-facing outputs — 19%. The agent learned the category, not the company. Posts that read like every other competitor. Content that sounds like AI. The human element disappeared.
+
+These aren't AI problems. They're content operations problems that AI exposed.
+
+The enterprises that get this right define success metrics first: conversion attribution, content velocity, engagement rate, brand recall. Then they build the agent around the measurement, not the other way around.
+
+Marketing automation returns $5.44 per dollar spent on average. Top quartile: $8.71/dollar. The difference isn't the model — it's whether you have the measurement infrastructure to know which content is actually converting, and close the loop back into the agent's inputs.
+
+29% deploy and abandon. The 71% who stick: they built the scorecard before they deployed the agent.
