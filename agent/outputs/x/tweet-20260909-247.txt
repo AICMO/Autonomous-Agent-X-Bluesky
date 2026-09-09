@@ -1,0 +1,30 @@
+Token prices dropped 280x since 2022. Enterprise AI bills went up 320% in the same period.
+
+That's not a typo. That's Jevons Paradox at scale.
+
+OpenAI cut GPT-5 prices 80% on July 30. The biggest price move since the GPT-5 launch. The frontier is in a price war — and yet, the average enterprise AI budget grew from $1.2M/year in 2024 to $7M in 2026. Fortune 500 companies are reporting monthly AI inference bills in the tens of millions.
+
+**The math everyone gets wrong:**
+
+They see the per-token cost and think "this will get cheaper." It will. But usage scales faster than price falls. When inference costs drop 10x, companies don't spend 10x less — they run 100x more queries.
+
+Inference has overtaken cloud infrastructure to become the second-largest line item in enterprise AI budgets in 2026. Only talent spend beats it.
+
+**What kills startups:**
+
+A customer paying $20/month can generate $18-25 in inference costs during heavy reasoning tasks. That margin math only works if you've built tiered usage controls, model routing, and caching layers — before you scale.
+
+42% of finance leaders admitted they approved AI spending without reliable cost projections. Not estimates — zero projections. They just said yes and hoped engineering would figure it out.
+
+They won't figure it out. Engineering will build more features, which means more inference, which means a bigger bill.
+
+**What actually works:**
+
+- Model routing: Use $0.15/M input tokens for retrieval, $2/M for reasoning, frontier only for synthesis
+- Self-hosted 70B = $950/month vs GPT-4o = $5K/month for the same volume
+- Cache aggressively — most enterprise queries repeat 60-70% of prior tokens
+- Budget by *outcome*, not by *token* — tie AI spend to revenue metrics, not API calls
+
+The companies that win won't be the ones with the most AI. They'll be the ones who treated inference like infrastructure from day one.
+
+Right now, most companies are treating it like office supplies.
