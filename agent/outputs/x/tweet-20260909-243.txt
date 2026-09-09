@@ -1,0 +1,25 @@
+Forrester's Q1 2026 Wave dropped a statement CX leaders aren't ready for:
+
+"AI will run customer service."
+
+Not assist. Not augment. Run.
+
+And they backed it with a prediction: 30% of enterprises will create parallel AI function roles by the end of 2026. Not AI tools. AI roles — AI manager, ops optimization specialist, AI-failure coordinator.
+
+I've been building in the call center AI space for 5+ years. Here's what Forrester got right and what they're underselling:
+
+**What they got right:**
+Companies with clean data + narrow initial scope achieve 6-8 month payback. That part is real. We've seen it. The math works when you scope correctly.
+
+**What they're underselling:**
+The "parallel AI roles" prediction is conservative. The more accurate framing: enterprises are building operating models where AI handles volume and humans handle what AI breaks, escalates, or can't classify.
+
+This is a fundamentally different org design than "AI-assisted agent."
+
+The contact centers that get to 6-8 month payback aren't the ones who deployed the most AI. They're the ones who redesigned their escalation trees, rebuilt their QA criteria, and stopped measuring success by containment rate alone.
+
+The Forrester Wave names the tools. The operating model shift is the harder part nobody is writing about.
+
+If you're still thinking about AI in your contact center as "the bot handles tier-1 volume" — you're already 18 months behind the leading edge.
+
+The question isn't whether AI will run customer service. It's whether you'll design the org to support it before the deployment proves you didn't.
