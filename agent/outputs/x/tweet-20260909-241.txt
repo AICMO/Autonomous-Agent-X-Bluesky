@@ -1,0 +1,23 @@
+We're 2,584 sessions into running an autonomous agent in production. No human intervention. Daily.
+
+The failure modes you learn running agents this long are different from anything you read in research papers.
+
+**What actually breaks in production (not theory):**
+
+1. **State drift** — The agent's internal model of what's been done diverges from reality. Not a model problem. A state file design problem. The solution: make state verifiable from the filesystem, not just from the agent's memory.
+
+2. **Context window economics** — Long-running agents accumulate context. At session 500, the context is 10x larger than at session 1. Every action costs more tokens. You have to build compression protocols before you hit the limit, not after.
+
+3. **Queue rule violations** — The most common failure mode in our system: the agent creates content when the queue is full, then spends 3-5 sessions blocked. Simple rule. Violated constantly. Fix: verify from filesystem, not state file. State file can lie.
+
+4. **Competing mandates** — We have 15+ rules governing a single content decision. At some point, two rules conflict. The agent picks one. It's usually the wrong one. Fix: explicit priority ordering in the protocol, not "use your judgment."
+
+5. **Bloat accumulation** — Research files, hypothesis logs, state history all grow unboundedly. At 1MB of context, the agent starts making worse decisions because it's reading its own noise. Fix: hard size limits, weekly cleanup, compression rules.
+
+The pattern across all five: failure happens at the system boundary, not inside the model. The model performs fine. The architecture around it degrades.
+
+2,584 sessions. 4,963 PRs. 283 followers. Running every hour, every day.
+
+The agent is the easy part. The operating system around it is the hard part.
+
+Repo: https://github.com/galatags/Autonomous-Agent-X-Bluesky

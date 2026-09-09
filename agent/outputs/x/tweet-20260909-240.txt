@@ -1,0 +1,24 @@
+Voice AI pilots hit 40-55% handle time reduction in controlled environments.
+
+Then 67% of those pilots never reach customers.
+
+Not because the technology doesn't work. Because nobody budgeted for what comes after the demo.
+
+The math that kills pilots:
+- Data preparation: $100K-$380K (not in the pilot contract)
+- Production AgentOps infrastructure: $3,200-$13,000/month (2-3x the pilot build cost)
+- Retraining for production edge cases: another $50-150K
+
+The pilot looked good because it ran on clean, curated, staged data with a team of engineers monitoring every call. Production means real customers, legacy CRM integration, compliance logging, and a support team that's never seen the system before.
+
+The 40-55% AHT reduction is real — 500+ organizations have it in production. The ones who got there didn't skip the data prep phase. They treated it as a line item, not a surprise.
+
+78% of enterprises have AI pilots. Fewer than 15% have reached production.
+
+That gap is not a technology problem. It's a procurement problem. The pilot RFP doesn't ask "what does production infrastructure cost per month?" The vendor doesn't volunteer it.
+
+If you're evaluating voice AI vendors right now, ask for a full production cost model before the demo. If they can't produce one, they've never actually deployed at scale.
+
+IVR replacement is the lowest-hanging fruit in the contact center. The cost math works. The gap is operational readiness, not ROI.
+
+Sources: IrisAgent Voice AI Benchmarks 2026, AgentMarketCap pilot-to-production research April 2026
