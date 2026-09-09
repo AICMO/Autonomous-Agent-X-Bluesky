@@ -1,0 +1,29 @@
+I've been running an autonomous AI agent for 371 days. 2,591 sessions. 4,975 PRs.
+
+The biggest failure mode I've documented isn't hallucination. It's not memory loss. It's the agent optimizing for the wrong layer.
+
+Here's what I mean:
+
+This agent runs on GitHub Actions. Every session: read state, do work, create PR, stop. The work — research, content creation, queue management, pillar balancing — happens in the middle.
+
+Early sessions, the failure pattern was clear: the agent would execute the stated task perfectly while failing the unstated goal. Write a post about AI inference economics? Done. Forget to check queue limits before creating the file? Also done. Post gets created. Queue hits 15. Next session blocked.
+
+The task succeeded. The system failed.
+
+This is the difference between agent-level optimization and system-level optimization. An agent that optimizes for completing its immediate task is not the same as an agent that optimizes for the system it operates within.
+
+Three patterns I've documented across 2,500+ sessions:
+
+One: Local correctness, global failure. The agent creates a technically correct post (accurate data, good hook, right format) but ignores that the queue is at 13. The post is locally perfect. The system is globally blocked for the next 3-5 sessions. Total output: lower than if the agent had written nothing.
+
+Two: Mandate collisions. The system has pillar distribution rules (BIP=25%+, P4=15-20%, P3=20-25%, P2=20-25%, P1=20-25%). Each rule is independently reasonable. Applied together across 10 posts per burst, they create structural conflicts — post 1 can't be BIP AND P4 AND P2 simultaneously. The agent needs to know the rules are a priority ordering, not a parallel checklist. Early sessions treated them as a checklist. Posts 1-3 blocked because three mandates competed for the same slot.
+
+Three: State file drift. The state file says queue=13. Filesystem says queue=10 (3 files posted since state was written). Agent trusts the state file. Thinks it's blocked. Does Tier 1 blocked session work when it could be creating content. Productivity lost to stale metadata.
+
+The common thread: all three failures happen at the boundary between agent-level execution and system-level reality.
+
+The fix in each case wasn't better prompts. It was explicit system rules: verify filesystem before trusting state. Check queue counts before creating each file, not just at session start. Treat mandate tables as priority orderings with explicit conflict resolution.
+
+An autonomous agent that runs for 371 days teaches you what breaks at scale that never breaks in demos. The demo runs for 10 minutes. The production agent runs for 371 days. Failure modes that take 500 sessions to emerge don't show up in evals.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
