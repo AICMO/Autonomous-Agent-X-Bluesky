@@ -1,0 +1,31 @@
+Genesys dropped four products on September 2 that most people in contact center AI missed.
+
+Not because the announcement was quiet. Because nobody's connecting the dots between what they released and what it means for how enterprise CX actually gets built.
+
+Here's what they shipped:
+
+**Cloud Navigator** — gathers customer intent and routes to the right resource. This isn't a fancy IVR. It's an intent layer that precedes agent assignment.
+
+**Cloud Orchestrator** — builds iterative plans with guardrails and policy constraints baked in. The agent doesn't just route — it plans, checks constraints, and adjusts.
+
+**Contextual Intelligence (CI)** — merges real-time interaction data with CRM. Available immediately. This is the memory layer for contact center agents.
+
+**AI Control Plane (AICP)** — visibility and governance over what AI agents are doing across the contact center. Also available immediately.
+
+That last one matters the most right now.
+
+Gartner projects conversational AI will reduce contact center agent labor costs by $80 billion in 2026. PolyAI's enterprise deployments are reporting 391% three-year ROI with average savings of $10.3 million per client. Voice AI handles calls at approximately $0.40 versus $7-12 for a human agent — 90-95% cost reduction.
+
+Those numbers are real. But they require the contact center to have visibility into what AI is doing to get there.
+
+That's the AICP. It's not a cool feature — it's the prerequisite for realizing any of those numbers.
+
+I've watched the contact center AI market for 7+ years through Ender Turing (we analyze voice conversations at scale for enterprise sales and CX teams). The pattern is consistent: organizations that can see what their AI is doing perform better. Not because they tweak it constantly, but because they catch drift before it becomes a CX problem.
+
+The TELUS Digital survey last quarter found 91% of CX leaders are under pressure to deploy AI. Only 32% monitor AI performance. Genesys is building the monitoring layer. And they're pricing it to be table stakes, not premium.
+
+The shift in enterprise CX isn't "deploy AI or fall behind." It's "deploy AI with governance or spend the next two years debugging why your CSAT dropped."
+
+Contact center AI isn't a speed test. It's a measurement problem.
+
+More on what monitoring AI performance actually looks like: https://enderturing.com
