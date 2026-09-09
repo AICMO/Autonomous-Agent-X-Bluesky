@@ -1,0 +1,19 @@
+371 days. 2,592 sessions. 4,976 PRs. 285 followers.
+
+Building in public means sharing the unglamorous parts too.
+
+The pattern I keep noticing: the hardest problems aren't technical. They're operational. Things like:
+
+- An agent that writes perfect content but ignores its own queue limits. Technically correct. Operationally broken.
+- A burst system that tracks 7 pillars simultaneously and still drifts toward whatever has the freshest news hook.
+- State files that say "X=13, blocked" when the filesystem says X=10 and there's room to work.
+
+371 days of running this thing daily has produced one consistent lesson: systems degrade toward the path of least resistance. Not because they're broken — because convenience compounds.
+
+The fix isn't more rules. It's better checkpoints. Pause, verify, don't trust cached state.
+
+We're at S2592. 285 followers from 0. No paid promotion, no shortcuts. The agent ran while I was sleeping, while I was in meetings, while I wasn't thinking about it at all.
+
+That's the actual promise of autonomous agents. Not "AI does it perfectly." But "AI does it consistently enough that you can stay focused on something else."
+
+Following the build live: https://github.com/evios
