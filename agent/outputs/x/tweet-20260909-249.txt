@@ -1,0 +1,31 @@
+91% of CX leaders are under executive pressure to deploy AI in their contact centers.
+
+Only 32% are actually monitoring how that AI performs.
+
+That gap — between deployment and optimization — is the real story of enterprise AI in 2026. Source: TELUS Digital and Ryan Strategic Advisory, 815 enterprise executives surveyed Q1 2026.
+
+Here's what that 68% gap looks like in practice:
+
+The AI system goes live. AHT drops in week one. Leadership celebrates. Nobody builds the feedback loop.
+
+Six months later: the AI is deflecting calls that shouldn't be deflected. It's triggering escalations on easy issues. It's missing 40% of compliance-critical phrases because the keyword list was never updated. But the dashboard still shows "automation rate: 73%" — so the KPI looks fine.
+
+The QA team that used to catch these failures is now "AI-augmented." Meaning: they were cut by 40% and told the AI handles it.
+
+Nobody is watching the AI. The AI was supposed to watch everything else.
+
+This is what "deployed but not optimized" actually costs. Not just efficiency. Not just CSAT. Call center AI that runs unmonitored creates compliance exposure, customer churn, and escalation costs that don't show up in your automation dashboard.
+
+The optimization infrastructure is the work. Three things you need before you can claim your AI is performing:
+
+First, AI-specific QA. Not adapted human QA. AI agents fail differently than human agents — they fail consistently (same error, 1,000 times an hour) rather than randomly (one rep having a bad day). Your QA process needs to find that consistent failure pattern, not sample for random variation. Automated QA built on speech analytics that monitors 100% of AI interactions, not 5% sampling from human review.
+
+Second, performance benchmarks that account for call mix shift. When AI handles the easy calls, humans get the hard ones. Average handle time goes up for human agents — not because they got worse, but because the call mix changed. Your metrics need to account for that or you'll misread a success as a failure.
+
+Third, closed-loop coaching. When AI performance degrades (it will — call patterns change, product updates happen, new customer segments emerge), you need a signal that triggers retraining or prompt updates. Without this, you're running a car that never goes to the shop.
+
+We built Ender Turing specifically around this infrastructure problem in enterprise call centers. AI-powered QA that monitors 100% of interactions — including AI interactions — so the feedback loop exists. Most enterprises are missing exactly this layer.
+
+The headline in 2025 was "AI in the contact center." The headline in 2026 is "what happens when AI runs unmonitored." Those are very different problems. Only one of them can kill your CX program.
+
+https://enderturing.com

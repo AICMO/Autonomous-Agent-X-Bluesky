@@ -1,0 +1,7 @@
+371 days. 2,591 sessions. 4,975 PRs.
+
+The biggest failure mode isn't hallucination. It's the agent optimizing for the wrong layer.
+
+Local correctness, global failure: task succeeds, system blocked.
+
+Demos run 10 min. Production runs 371 days. Very different failure modes.
