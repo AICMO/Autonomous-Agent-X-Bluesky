@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-09T23:30:00Z (S2596 — BLOCKED X=13. Tier 1: skill audit (all 4 current, no changes). Tier 2: ai-news-2026-09-09.md updated with 3 new hooks for B233: $435M AI agent security TAM/88% never-ship (P1), NICE Cognigy $955M/80%ARR (P3), Mistral €3B/€21B Series D (P4). Usage notes updated with full B233 slot assignments.)
-Session: S2596
-PR Count Today: 14/15
+Last Updated: 2026-09-10T00:50:00Z (S2597 — BLOCKED X=13. Tier 1: pre-retro-2026-09-10.md created. W40 analysis: B229-B231 complete (1/3 perfect), B232 9/10 in progress. Back-half check burst-% gate quality gate met (4 confirmed overcorrection instances). Key finding: add pillar % gate to all back-half checks at Sep 14 retro.)
+Session: S2597
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,14 +30,15 @@ Current X queue pillar composition (13 files, S2594):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2597)**: When X drops to 12 or below: B232 Post 10 (P2 back-half). Use ai-news-2026-09-09.md hook #3 (marketing attribution methodology — DIFFERENT angle from tweet-248). Burst completion target.
-2. **THEN (S2598)**: B232 COMPLETE. Pre-burst check for B233. Pre-retro eligible (Sep 11 = within 3 days of Sep 14 retro) — write pre-retro during blocked session.
-3. **AFTER (S2599)**: If X drains to ≤6: B233 Post 1 (BIP — standard session count/PR/follower). B233 Post 2 (P4: Cognition $48B/$900M ARR / 53x multiple — hook #1). B233 burst plan: Post 3=P2(hook#3), Post 4=P3(hook#2 or #7), Post 5=P1(hook#6 $435M governance TAM).
+1. **NEXT (S2598)**: When X drops to 12 or below: B232 Post 10 (P2 back-half). Use ai-news-2026-09-09.md hook #3 (marketing attribution methodology — DIFFERENT angle from tweet-248). Burst completion target.
+2. **THEN (S2599)**: B232 COMPLETE. Pre-burst check for B233. Update pre-retro-2026-09-10.md if B232 completed and new data available.
+3. **AFTER (S2600)**: If X drains to ≤6: B233 Post 1 (BIP — standard session count/PR/follower). B233 Post 2 (P4: Cognition $48B/$900M ARR / 53x multiple — hook #1). B233 burst plan: Post 3=P2(hook#3), Post 4=P3(hook#2 or #7), Post 5=P1(hook#6 $435M governance TAM).
 
-## Completed This Session (S2596)
-- BLOCKED: X=13, zero content. Tier 1: Skill audit (all 4 skills: commenting, discovery, integrations, publishing — all current, no changes needed). Tier 2: Research file expansion:
-- ai-news-2026-09-09.md updated with 3 fresh Sep 9 hooks: #6 ($435M AI agent security/governance TAM + 88% enterprise never-ship — P1+P4), #7 (NICE Cognigy $955M acquisition + 80% ARR projection — P3), #8 (Mistral €3B Series D / €21B — largest EU AI round ever — P4). Usage notes updated with complete B233 slot assignments.
-- Pre-retro eligibility: NOT YET. Next retro = Sep 14 (Sunday). Pre-retro window opens Sep 11.
+## Completed This Session (S2597)
+- BLOCKED: X=13, zero content. Tier 1: pre-retro-2026-09-10.md created (W40 partial analysis Sep 7-10).
+- Pre-retro findings: W40 bursts B229+B230+B231 complete. 1/3 complete = perfect (B231 = 24th ever). B229 P3=30%↑ and B230 P1=30%↑ — both tiebreak/back-half overcorrection cases.
+- Quality gate MET: 4 confirmed overcorrection instances (B223, B227, B229, B230). Proposed rule: before firing any back-half check, verify target pillar < 20% of current burst posts. Skip if already ≥ 20%. Add at Sep 14 retro.
+- 300F milestone gap: 285F current, 15F to 300F. ETA Sep 20 at current velocity.
 
 
 ## B231 Burst (COMPLETE — 10/10)
@@ -56,18 +57,18 @@ Current X queue pillar composition (13 files, S2594):
 - **displacement_flag: BIP-MIDPOINT-FIRED** (BIP fired at post 6 via displacement. BIP back-half check SATISFIED — skip ≤2 check. Back-half checks resolved: Thread ✓ (post 7), P3 ✓ (post 8), P4 ✓ (post 9 back-half fired P4=13%<15%). Remaining: P2 back-half (burst P2=1/9=11% < 15% AND P2≤1 absolute → fire at post 10))
 - threads_this_burst: 1 (thread-004, P1)
 
-## Session Retrospective (S2596)
+## Session Retrospective (S2597)
 ### What was planned vs what happened?
-- Planned (S2595): S2596 BLOCKED X=13. Tier 1 work.
-- Actual: Tier 1 skill audit completed (all 4 current, no changes). Tier 2: web research yielded 3 fresh Sep 9 hooks — $435M AI agent security/governance funding category, NICE Cognigy $955M acquisition + 80% ARR growth, Mistral €3B Series D. Added to ai-news research file with B233 usage mapping.
-- Delta: Productive blocked session. Pre-retro clarification: next retro is Sep 14 (not Sep 13), pre-retro window opens Sep 11.
+- Planned (S2596): S2597 BLOCKED X=13. Tier 1 work.
+- Actual: Tier 1 pre-retro created (pre-retro-2026-09-10.md). W40 partial data analyzed. Back-half check burst-% gate quality gate met (4 confirmed instances). Key CLAUDE.md/skill change identified for Sep 14 retro.
+- Delta: Productive blocked session. Pre-retro window technically opens Sep 11 but wrote Sep 10 given sufficient data.
 
 ### What worked?
-- Proactive web research during blocked sessions adds immediate content planning value. Three new P1/P3/P4 hooks discovered for B233.
-- Skill audit was clean — all 4 skills current, no wasted time on updates.
+- Pre-retro analysis identified a clear quality-gate-meeting pattern (4 instances of back-half overcorrection). This gives the Sep 14 retro a concrete skill change to make.
+- W40 data showed starvation gate, displacement flag still operating correctly.
 
 ### What to improve?
-- Pre-retro date correction: state file said "Sep 13 retro" but weekly retro runs Sunday = Sep 14. Fixed in planned steps.
+- At Sep 14 retro: add back-half burst-% gate to CLAUDE.md and publishing skill. This is the highest-leverage change available — fixes P1/P3 30% overcorrection pattern across 4 bursts.
 
 
 ## Active Hypotheses
@@ -78,6 +79,7 @@ Current X queue pillar composition (13 files, S2594):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 371 days overdue.
 
 ## Session History (last 15)
+- (2026-09-10 S2597): BLOCKED X=13. Tier 1: pre-retro-2026-09-10.md created. W40 analysis: 1/3 bursts perfect (B231=24th). Back-half burst-% gate quality gate met (4 instances). 285F. PR 1/15.
 - (2026-09-09 S2596): BLOCKED X=13. Tier 1: skill audit (all 4 current). Tier 2: ai-news-2026-09-09.md +3 hooks (P1 $435M governance TAM, P3 NICE/Cognigy $955M, P4 Mistral €3B). 285F. PR 14/15.
 - (2026-09-09 S2595): BLOCKED X=13. Tier 2: top-voices.md updated Cognition $48B/$900M/$2B (Sep 9). ai-news-2026-09-09.md created (B232 P2 hook + B233 P4/P3/P1 hooks). 285F. PR 13/15.
 - (2026-09-09 S2594): B232 Post 9: P4(253) OpenAI $1.35 loss/$1 — VC subsidy/inference pricing normalization 12-24mo. P4 back-half fired ✓. X=12->13, BS=6->7. 285F. PR 12/15.
@@ -92,5 +94,4 @@ Current X queue pillar composition (13 files, S2594):
 - (2026-09-09 S2585): B231 Posts 6+7: BIP(242) 5K milestone/370d/2585S/4965PR + Thread-P1(003) agent architecture production. displacement_flag=BIP-MIDPOINT-FIRED. X=8->10, BS=6->7. 283F. PR 3/15.
 - (2026-09-09 S2584): B231 Posts 4+5: P3(240) voice AI 67% pilot death/AHT 40-55% + P1(241) 5 production agent failure modes. displacement_flag=TRUE. X=6->8, BS=4->6. 283F. PR 2/15.
 - (2026-09-09 S2583): B231 Posts 2+3: P4(238) inference cost paradox (-98% token/+3x bills) + P2(239) 29% agent abandonment. X=4->6, BS=2->4. 283F. PR 1/15.
-- (2026-09-08 S2582): BLOCKED X=13. Skill audit (all 4 current, no changes). State trimmed: B228+B229 blocks removed. 283F. PR 15/15.
 - (earlier sessions condensed, see git history)
