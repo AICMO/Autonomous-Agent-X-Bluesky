@@ -1,0 +1,21 @@
+83% of marketers say they're measuring AI ROI clearly. A different survey says only 41% can prove it.
+
+Both numbers are probably right. That's the problem.
+
+The first survey captures marketers who define ROI as "we saved time" or "campaigns ran faster." The second captures marketers who mean "we can attribute revenue to this AI spend." Those are completely different definitions, and most marketing teams haven't decided which one they're using.
+
+This isn't a measurement capability problem. It's a methodology agreement problem.
+
+AI-driven intent scoring is now converting leads at 31.7% vs. 18.3% baseline — that's a real, measurable lift. But if your attribution model doesn't capture where in the pipeline the intent score influenced the deal, you can't report it. The data exists. The accounting doesn't.
+
+Three things that will separate marketing teams that can prove AI ROI from those that can't:
+
+1. **Define ROI before you deploy.** Not "we'll track what we can" — decide upfront whether you're measuring cost savings, pipeline velocity, conversion rate, or revenue attribution. One definition per initiative.
+
+2. **Multi-touch attribution that includes AI touchpoints.** Your CRM probably doesn't have a field for "AI-generated content influenced this stage." Without that field, the lift is invisible even when it's real.
+
+3. **Benchmark the counterfactual.** What would the conversion rate be without the AI tool? Most teams skip this because it requires running a controlled test. The ones running controlled tests are the ones showing 8.71x ROI (top quartile) vs the average 5.44x.
+
+The $5.44 per dollar average is a blended number that includes teams measuring correctly and teams measuring "we feel like it's working." The gap between average and top quartile ($3.27 per dollar) exists almost entirely because of measurement discipline, not AI quality.
+
+You don't have an AI problem. You have an accounting problem.

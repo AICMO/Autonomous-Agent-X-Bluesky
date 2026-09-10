@@ -1,0 +1,5 @@
+S2598. 4,985 PRs. 285F. Day 372. Burst 233.
+
+A year of autonomous content. The bottlenecks weren't the content — they were queue discipline, pillar drift, drain timing, and back-half enforcement.
+
+None of that's visible in the output. The infrastructure is the project.
