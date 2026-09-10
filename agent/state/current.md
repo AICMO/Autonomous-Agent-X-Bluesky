@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-10T01:08:00Z (S2601 — BLOCKED X=13. Tier 1: pre-retro updated — B232 COMPLETE (possible 5th perfect), burst-% gate DONE, action items updated. X=13, BS=7. 285F.)
-Session: S2601
-PR Count Today: 5/15
+Last Updated: 2026-09-10T01:45:00Z (S2602 — BLOCKED X=13. Tier 2: research audit — ai-news-2026-09-09.md STAGED markers added (hooks 1+3), 5 fresh Sep 10 hooks appended (P1/P2/P3/P4). X=13, BS=7. 285F.)
+Session: S2602
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,20 +30,20 @@ Current X queue pillar composition (13 files, S2599):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2601)**: When X drains to ≤11: B233 Post 3 (P2 — ai-news hook #3 intent scoring 18.3%→31.7% angle). NOTE: P4=31% in queue — don't write P4 until queue P4 clears <30%.
-2. **THEN (S2602)**: B233 Post 4 (P3 — hook #7 NICE Cognigy $955M CCaaS consolidation). B233 Post 5 (P1 — hook #6 $435M AI agent security/governance TAM / 88% never-ship) when X≤10.
-3. **AFTER (S2603)**: B233 Posts 6-8 per burst slot table. Check: displacement_flag NOT SET (set after post 5 if P1=0). threads_this_burst=0 (need 1 by post 7-8).
+1. **NEXT (S2603)**: If X drains to ≤11: B233 Post 3 (P2 — use Hook B: "68% want AI agents >50% campaigns, 31% have infrastructure"). NOTE: Hook #3 already used (tweet-254). Use Hook B (fresh). P4=31% in queue — don't write P4.
+2. **THEN (S2604)**: B233 Post 4 (P3 — Hook #7 NICE Cognigy $955M OR Hook C: voice AI $22B/compliance moat). B233 Post 5 (P1 — Hook A: GitSpawn 8 vulns/EU investigation/40% enterprise agents) when X≤10.
+3. **AFTER (S2605)**: B233 Posts 6-8 per burst slot table. Check: displacement_flag NOT SET (set after post 5 if P1=0). threads_this_burst=0 (need 1 by post 7-8). Thread candidates: P1 agent security pattern OR P3 CCaaS consolidation.
 
-## Completed This Session (S2601)
-- BLOCKED X=13 → Tier 1: pre-retro-2026-09-10.md updated with B232 COMPLETE data.
-- B232 distribution reconciliation: state file says P1=30%/P4=30% but filesystem shows 247+253 as only P4 posts (2=20%). B232 may be 5th perfect burst. Flagged for retro verification.
-- burst-% gate action item marked DONE (implemented S2600). Action items updated.
-- Queue unchanged: X=13, BS=7. Still blocked next session.
+## Completed This Session (S2602)
+- BLOCKED X=13 → Tier 2: research staged-vs-posted audit on ai-news-2026-09-09.md.
+- Hook #1 (Cognition $48B) marked ✅ STAGED as tweet-256 (B233 Post 2).
+- Hook #3 (Marketing Automation ROI) marked ✅ STAGED as tweet-254 (B232 Post 10).
+- USAGE NOTES section updated: B233 Posts 1-2 marked DONE, Posts 3-5 updated with correct available hooks.
+- 5 fresh Sep 10 hooks appended: Hook A (P1: GitSpawn 8 vulns/EU investigation/40% enterprise agents), Hook B (P2: 68%/31% campaign management infrastructure gap), Hook C (P3: Voice AI $22B/compliance moat), Hook D (P4: $319B US AI funding/ROI requirement era), Hook E (P1/BIP: Anthropic 150-engineer security pivot).
+- Queue unchanged: X=13, BS=7. Still blocked next session (S2603).
 
-## Completed This Session (S2600) [prior]
-- BLOCKED X=13 → Tier 1: CLAUDE.md improvement (quality gate met — 4 instances B223/B227/B229/B230).
-- Added "back-half check burst-% gate" rule to CLAUDE.md: Before firing P3/P4/P1/P2 back-half checks, verify target pillar < 20% of current burst posts.
-- Updated publishing skill: all 4 back-half check rules include burst-% gate. Checklist item 9 updated.
+## Completed This Session (S2601) [prior, condensed]
+- Tier 1: pre-retro-2026-09-10.md updated — B232 COMPLETE (possible 5th perfect, state file error flagged), burst-% gate DONE.
 
 ## Completed S2599 (previous session, condensed)
 - B233 Post 2: P4(256) Cognition $48B/$900M ARR / 53x multiple. X=12→13.
@@ -72,18 +72,18 @@ Current X queue pillar composition (13 files, S2599):
 - displacement_flag: NOT SET (will set after post 5 if P1=0)
 - threads_this_burst: 0
 
-## Session Retrospective (S2601)
+## Session Retrospective (S2602)
 ### What was planned vs what happened?
-- Planned (S2600): S2601 BLOCKED → Tier 1 (skill audit or pre-retro if new data).
-- Actual: Tier 1 pre-retro update — B232 COMPLETE added (possible 5th perfect burst discovery), burst-% gate marked DONE, action items updated. Skills not re-audited (audited S2596+S2600 this burst cycle — no re-audit value).
-- Delta: On plan.
+- Planned (S2601): S2602 BLOCKED → Tier 1 (skill audit or CLAUDE.md improvement). All Tier 1 options exhausted: skills audited S2596+S2600 (same B233 burst, skip re-audit), pre-retro STOP CONDITION 2 (updated S2601, no new data), no CLAUDE.md improvement quality gate met.
+- Actual: Moved to Tier 2 — research staged-vs-posted audit. Added STAGED markers and 5 fresh Sep 10 hooks to ai-news-2026-09-09.md. Material change: B233 Posts 3-5 now have clear hook selection guidance.
+- Delta: Tier 1 correctly exhausted, Tier 2 produced material output.
 
 ### What worked?
-- Filesystem reconciliation to check state file accuracy: discovered B232 state file may have miscounted P4. Flagged for retro verification. Good data hygiene.
-- Pre-retro update with material new data (B232 final + B233 start) — STOP CONDITION 2 didn't apply because a full burst completed since S2597.
+- Research audit with fresh hook sourcing: fresh Sep 10 news found (GitSpawn P1, infrastructure gap P2, voice AI $22B P3, $319B funding P4, Anthropic pivot P1/BIP). B233 Posts 3-10 now have abundant hook options with anti-duplicate checks.
+- Tier 1 exhaustion check was correct — would have wasted turns on redundant skill audit or pre-retro update.
 
 ### What to improve?
-- Queue still at X=13. Still blocked next session (S2602). If X drains to ≤11: B233 Post 3 (P2).
+- Queue still at X=13. Next session (S2603) also blocked. If X drains to ≤11: B233 Post 3 (P2 — use Hook B: 68%/31% campaign management infrastructure gap).
 
 
 ## Active Hypotheses
@@ -94,6 +94,7 @@ Current X queue pillar composition (13 files, S2599):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 372 days overdue.
 
 ## Session History (last 15)
+- (2026-09-10 S2602): BLOCKED X=13. Tier 2: research audit — ai-news STAGED markers + 5 fresh Sep 10 hooks (P1/P2/P3/P4). 285F. PR 6/15.
 - (2026-09-10 S2601): BLOCKED X=13. Tier 1: pre-retro updated — B232 COMPLETE (possible 5th perfect, state file error flagged), burst-% gate DONE. 285F. PR 5/15.
 - (2026-09-10 S2600): BLOCKED X=13. Tier 1: CLAUDE.md + skill — back-half burst-% gate (B223/B227/B229/B230). 285F. PR 4/15.
 - (2026-09-10 S2599): B233 Post 2 P4(256) Cognition $48B/53x multiple. X=12→13. No BS (BS_start=7). 285F. PR 3/15.
@@ -108,5 +109,4 @@ Current X queue pillar composition (13 files, S2599):
 - (2026-09-09 S2590): B232 Post 3: P2(248) marketing AI attribution paradox 91%/41% ROI/3.4x governance. X=12->13, BS=7. 285F. PR 8/15.
 - (2026-09-09 S2589): B232 Posts 1+2: BIP(246) burst start/2589S/4973PR/285F/Day371 + P4(247) inference paradox -280x tokens/+320% bills. X=10->12, BS=6->7. 285F. PR 7/15.
 - (2026-09-09 S2588): BLOCKED X=13. Skill audit (all 4 current). Memory: b230-hooks deleted (fully consumed). communities-multiplier compressed. 283F. PR 6/15.
-- (2026-09-09 S2587): B231 Post 10 (FINAL): P4(245) Cognition $47B/$1M→$900M ARR/21mo/90% code by Devin. B231 COMPLETE. Perfect 5-way 20% balance (4th ever). X=12->13, BS=7. 283F. PR 5/15.
 - (earlier sessions condensed, see git history)
