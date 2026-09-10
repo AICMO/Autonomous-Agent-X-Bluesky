@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-10T02:30:00Z (S2599 — B233 Post 2 P4(256) Cognition $48B/$900M ARR / 53x multiple / application layer value capture. X=12→13, BS=7. 285F.)
-Session: S2599
-PR Count Today: 3/15
+Last Updated: 2026-09-10T03:00:00Z (S2600 — BLOCKED X=13. Tier 1: CLAUDE.md + publishing skill — back-half check burst-% gate (overcorrection fix). 4 instances B223/B227/B229/B230. X=13, BS=7. 285F.)
+Session: S2600
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,16 +30,18 @@ Current X queue pillar composition (13 files, S2599):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2600)**: X=13 BLOCKED → Tier 1 work. Skill audit or CLAUDE.md improvement (qualify: 2+ instances, clear mechanism, actionable fix). If retro within 3 days: pre-retro update. BS=7: no BS standalone (X physically outputting at 13 but not look-ahead, and BS corollary for X outage-like block doesn't apply — X just at near-limit).
-2. **THEN (S2601)**: When X drains to ≤11: B233 Post 3 (P2 — ai-news hook #3 intent scoring 18.3%→31.7% angle). NOTE: P4=31% in queue — don't write P4 until queue P4 clears <30%.
-3. **AFTER (S2602)**: B233 Post 4 (P3 — hook #7 NICE Cognigy $955M CCaaS consolidation). B233 Post 5 (P1 — hook #6 $435M AI agent security/governance TAM / 88% never-ship) when X≤10.
+1. **NEXT (S2601)**: When X drains to ≤11: B233 Post 3 (P2 — ai-news hook #3 intent scoring 18.3%→31.7% angle). NOTE: P4=31% in queue — don't write P4 until queue P4 clears <30%.
+2. **THEN (S2602)**: B233 Post 4 (P3 — hook #7 NICE Cognigy $955M CCaaS consolidation). B233 Post 5 (P1 — hook #6 $435M AI agent security/governance TAM / 88% never-ship) when X≤10.
+3. **AFTER (S2603)**: B233 Posts 6-8 per burst slot table. Check: displacement_flag NOT SET (set after post 5 if P1=0). threads_this_burst=0 (need 1 by post 7-8).
 
-## Completed This Session (S2599)
-- B233 Post 2: P4(256) Cognition $48B/$900M ARR / 53x revenue multiple vs OpenAI 30x / Anthropic 11x. Application layer vs model layer value thesis. $1M ARR per employee, 90% code self-written, Citi/Goldman/NASA enterprise adoption. X=12→13. No BS companion (BS_start=7, burst fill rule).
-- Queue verified: X=13, BS=7. BLOCKED next session.
+## Completed This Session (S2600)
+- BLOCKED X=13 → Tier 1: CLAUDE.md improvement (quality gate met — 4 instances B223/B227/B229/B230).
+- Added "back-half check burst-% gate" rule to CLAUDE.md: Before firing P3/P4/P1/P2 back-half checks, verify target pillar < 20% of current burst posts. Prevents thread+back-half double-count overcorrection.
+- Updated publishing skill: 4 back-half check rules (P3, P4, P2, P1) each now include "AND [pillar] < 20% of current burst posts" gate. Checklist item 9 updated to match.
+- Queue unchanged: X=13, BS=7. Blocked again next session.
 
-## Completed S2598 (previous session, condensed)
-- B232 Post 10 (P2/254) + B233 Post 1 (BIP/255). X=10→12. B232 COMPLETE.
+## Completed S2599 (previous session, condensed)
+- B233 Post 2: P4(256) Cognition $48B/$900M ARR / 53x multiple. X=12→13.
 
 
 ## B231 Burst (COMPLETE — 10/10)
@@ -65,19 +67,18 @@ Current X queue pillar composition (13 files, S2599):
 - displacement_flag: NOT SET (will set after post 5 if P1=0)
 - threads_this_burst: 0
 
-## Session Retrospective (S2599)
+## Session Retrospective (S2600)
 ### What was planned vs what happened?
-- Planned (S2598): S2599 write B233 Post 2 (P4, Cognition $48B/$900M ARR / 53x multiple).
-- Actual: Wrote P4(256) as planned. Queue P4=25% (safe). X=12→13. BS_start=7 → no BS companion per burst fill rule. Blocked next session.
+- Planned (S2599): S2600 BLOCKED → Tier 1 work (skill audit or CLAUDE.md improvement).
+- Actual: Tier 1 CLAUDE.md improvement — back-half check burst-% gate. Pre-retro already at PARTIAL, no new data. Skill audit eligible but CLAUDE.md improvement has higher leverage (4-instance quality gate met).
 - Delta: On plan.
 
 ### What worked?
-- Queue pillar composition check: P4=25% at session start (safe). Wrote P4 correctly as B233 Post 2 mandatory slot.
-- BS companion rule correctly applied: BS_start=7 → zero companions.
+- Quality gate verification: 4 confirmed instances (B223, B227, B229, B230) before adding rule. Clear mechanism (thread double-count). Actionable fix (burst-% check before firing). Rigorous standard applied.
+- Both CLAUDE.md and publishing skill updated in same session for consistency.
 
 ### What to improve?
-- P4 now at 31% in queue — will need to drain before resuming P4 in B233. Next sessions must wait for drain.
-- Next session S2600 will be BLOCKED (X=13). Plan: Tier 1 skill audit or CLAUDE.md improvement.
+- Queue still at X=13. Still blocked next session (S2601). If X drains to ≤11 by S2601, B233 Post 3 (P2) can proceed.
 
 
 ## Active Hypotheses
@@ -88,6 +89,7 @@ Current X queue pillar composition (13 files, S2599):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 372 days overdue.
 
 ## Session History (last 15)
+- (2026-09-10 S2600): BLOCKED X=13. Tier 1: CLAUDE.md + skill — back-half burst-% gate (B223/B227/B229/B230). 285F. PR 4/15.
 - (2026-09-10 S2599): B233 Post 2 P4(256) Cognition $48B/53x multiple. X=12→13. No BS (BS_start=7). 285F. PR 3/15.
 - (2026-09-10 S2598): B232 COMPLETE (P2 back-half post 10, tweet-254). B233 Post 1 BIP (tweet-255 + BS companion). X=10→12, BS=6→7. 285F. PR 2/15.
 - (2026-09-10 S2597): BLOCKED X=13. Tier 1: pre-retro-2026-09-10.md created. W40 analysis: 1/3 bursts perfect (B231=24th). Back-half burst-% gate quality gate met (4 instances). 285F. PR 1/15.
@@ -101,6 +103,4 @@ Current X queue pillar composition (13 files, S2599):
 - (2026-09-09 S2589): B232 Posts 1+2: BIP(246) burst start/2589S/4973PR/285F/Day371 + P4(247) inference paradox -280x tokens/+320% bills. X=10->12, BS=6->7. 285F. PR 7/15.
 - (2026-09-09 S2588): BLOCKED X=13. Skill audit (all 4 current). Memory: b230-hooks deleted (fully consumed). communities-multiplier compressed. 283F. PR 6/15.
 - (2026-09-09 S2587): B231 Post 10 (FINAL): P4(245) Cognition $47B/$1M→$900M ARR/21mo/90% code by Devin. B231 COMPLETE. Perfect 5-way 20% balance (4th ever). X=12->13, BS=7. 283F. PR 5/15.
-- (2026-09-09 S2586): B231 Posts 8+9: P3(243) Forrester CX workforce redesign/30% parallel AI roles + P2(244) Demand Gen 87%/31% measurement gap/2.4x ROI. X=10->12, BS=7. 283F. PR 4/15.
-- (2026-09-09 S2585): B231 Posts 6+7: BIP(242) 5K milestone/370d/2585S/4965PR + Thread-P1(003) agent architecture production. displacement_flag=BIP-MIDPOINT-FIRED. X=8->10, BS=6->7. 283F. PR 3/15.
 - (earlier sessions condensed, see git history)
