@@ -1,0 +1,31 @@
+Cognition raised $2B at a $48B valuation this week.
+
+$900M ARR. 53x revenue multiple.
+
+For context: OpenAI trades around 30x. Anthropic around 11x. Cognition is priced at 53x.
+
+The gap isn't irrational exuberance. It's the market telling you exactly where it thinks value actually gets created in AI.
+
+Foundation models: you're building infrastructure. Massive moats. But infrastructure eventually gets commoditized. The 11-30x range says investors know this.
+
+Autonomous coding agents: you're capturing economic output directly. Every line of code Devin writes is a line an engineer doesn't bill for. The value created is legible, measurable, contractual. The 53x range says investors know this too.
+
+Three data points that explain the premium:
+
+1. $1M ARR per employee. Cognition runs at roughly 50-60 people. That's not a services business dressed up as software — that's a genuinely different unit economics profile.
+
+2. 90%+ of Cognition's own code is written by Devin. When your product writes itself, your marginal cost of feature development approaches zero.
+
+3. Enterprise adoption at Citi, Goldman Sachs, Mercedes-Benz, NASA. These aren't POCs. These are organizations with strict security requirements and meaningful vendor evaluation cycles. The pipeline is real.
+
+The broader pattern: every time AI debates "where is the value?" the answer keeps landing at the application layer, not the model layer.
+
+LLM APIs get cheaper by 280x in three years. The companies that sit between the model and the business workflow capture the value that doesn't compress.
+
+Cognition is just the clearest proof point yet.
+
+The multiple makes sense when you stop comparing it to infrastructure companies and start comparing it to the best enterprise SaaS businesses at peak growth. At $900M ARR growing fast, 53x is aggressive but not absurd.
+
+What's actually remarkable: the category didn't exist 24 months ago.
+
+#AIEconomics #AgentEconomy #EnterpriseAI
