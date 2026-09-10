@@ -1,18 +1,18 @@
 # Agent State
-Last Updated: 2026-09-10T05:47:00Z (S2605 — B233 Post 5: P1(259) GitSpawn 8 vulns/EU investigation/40% enterprise agents EOY. displacement_flag=TRUE. X=12→13, BS=5. 288F.)
-Session: S2605
-PR Count Today: 9/15
+Last Updated: 2026-09-10T06:10:00Z (S2606 — BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone BIP draft pre-written. 288F.)
+Session: S2606
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 285 | 5,000 | 4,715 | +1.86/day (W39) | ~2,534 days |
+| Followers | 288 | 5,000 | 4,712 | +2.25/day (W40 partial — highest recorded!) | ~2,094 days |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 371) | Active | Done | Since 2026-03-01 | - |
-| Next interim | 285 | 300 | 15 | +1.86/day | ~Sep 17 |
-| Next interim | 285 | 500 | 215 | +1.86/day | ~Nov 25 |
+| Next interim | 288 | 300 | 12 | +2.25/day | ~Sep 15-16 (BEFORE retro!) |
+| Next interim | 288 | 500 | 212 | +2.25/day | ~Nov 22 |
 
-## Queue Status (VERIFIED S2605 — filesystem: X=13, BS=5)
+## Queue Status (VERIFIED S2606 — filesystem: X=13, BS=5)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
 | X | 13 | <15 | Near-limit zone (13-14). Zero new X content next session. |
@@ -30,13 +30,13 @@ Current X queue pillar composition (13 files, S2605):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2606)**: BLOCKED — X=13. Blocked Session Protocol (Tier 1). Check if pre-retro is FINAL (pre-retro-2026-09-10.md), skill audit if not done this burst, or CLAUDE.md improvement.
-2. **THEN (S2607)**: When X drains to ≤12: B233 Post 6. displacement_flag=TRUE + BIP=1 → write BIP at post 6 (BIP wins over P2 secondary slot). Set displacement_flag=BIP-MIDPOINT-FIRED.
+1. **NEXT (S2607)**: When X drains to ≤12 — B233 Post 6. displacement_flag=TRUE + BIP=1 → write BIP at post 6 (300F milestone BIP if 299-300F confirmed). Draft ready at agent/memory/research/300f-milestone-draft-2026-09-10.md. Set displacement_flag=BIP-MIDPOINT-FIRED.
+2. **THEN (S2608)**: B233 Posts 7-8 back-half checks. threads_this_burst=0 → write thread as post 7 or 8 (P1 or P3 thread candidate). Back-half: BIP midpoint SATISFIED (displacement case — skip BIP≤2 check). Priority: P3 back-half if P3=1 absolute at post 7.
 3. **AFTER (S2608)**: B233 Posts 7-8 back-half checks. threads_this_burst=0 → write thread as post 7 or 8 (P1 or P3 thread candidate). Back-half: BIP midpoint SATISFIED (displacement case — skip BIP≤2 check). Priority: P3 back-half if P3=1 absolute at post 7.
 
-## Completed This Session (S2605)
-- B233 Post 5: P1(259) — GitSpawn 8 vulns/7 agents. EU investigation OpenAI DSEwiki incident. CrowdStrike Verified Agent. 40% enterprise apps EOY vs <5% 2025. $435M AI security TAM. 2604 sessions/4986 PRs/production failure modes = governance. Repo link. X=12→13.
-- displacement_flag set to TRUE (P1=0 before post 5 confirmed = displacement burst).
+## Completed This Session (S2606)
+- BLOCKED (X=13). Tier 1: pre-retro updated with 288F (vs 285F), +2.25/day velocity (acceleration above W39!), B233 5/10, 300F ETA Sep 15-16 before retro.
+- Created 300F milestone BIP draft (agent/memory/research/300f-milestone-draft-2026-09-10.md) — pre-written for B233 Post 6 deployment when X drains + 300F confirmed.
 
 ## B231 Burst (COMPLETE — 10/10)
 - **B231 CONFIRMED: 4th perfect 5-way 20% balance. Displacement burst = expected 20% BIP. ✓**
@@ -64,18 +64,18 @@ Current X queue pillar composition (13 files, S2605):
 - displacement_flag: TRUE (P1=0 before post 5 = displacement burst. Post 6 MUST be BIP — BIP wins over P2 secondary slot)
 - threads_this_burst: 0 (need 1 by posts 7-8)
 
-## Session Retrospective (S2605)
+## Session Retrospective (S2606)
 ### What was planned vs what happened?
-- Planned (S2604): X=12 look-ahead zone. Max 1 X piece. B233 Post 5 = P1 mandate (Hook A or E).
-- Actual: B233 Post 5 P1(259) written (Hook A: GitSpawn/EU investigation/40% enterprise agents). X=12→13. displacement_flag=TRUE set.
-- Delta: Executed exactly as planned. Clean.
+- Planned (S2605): BLOCKED X=13. Tier 1 — check pre-retro FINAL status, skill audit if not done this burst.
+- Actual: Pre-retro updated (288F velocity acceleration to +2.25/day, B233 5/10 vs 2/10, 300F ETA before retro). 300F milestone BIP draft pre-written in research dir.
+- Delta: Clean. Used blocked session productively.
 
 ### What worked?
-- Hook A (GitSpawn) provided fresh P1 angle distinct from thread-004 (which covered AIR $50M/CrowdStrike). This post adds multi-vendor vulnerability disclosure + EU investigation + adoption rate surge = governance gap framing.
-- displacement_flag protocol followed correctly: P1=0 at posts 1-4 confirmed → flag set TRUE → next session Post 6 = BIP.
+- Pre-retro update revealed important velocity acceleration (+2.25/day vs +1.86/day W39). B232 burst content is clearly converting to followers during drain phase.
+- Pre-writing the 300F milestone BIP creates immediate deployment readiness — when X drains to ≤12, the post is ready to go (B233 Post 6 = displacement BIP).
 
 ### What to improve?
-- Next session is BLOCKED (X=13). Tier 1 protocol: pre-retro check or skill audit.
+- Next session still BLOCKED (X=13). Watch for drain. B233 Post 6 = BIP (displacement_flag=TRUE).
 
 
 ## Active Hypotheses
@@ -86,6 +86,7 @@ Current X queue pillar composition (13 files, S2605):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 372 days overdue.
 
 ## Session History (last 15)
+- (2026-09-10 S2606): BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity surge, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone draft pre-written. PR 10/15.
 - (2026-09-10 S2605): B233 Post 5: P1(259) GitSpawn 8 vulns/EU investigation/40% enterprise agents EOY. displacement_flag=TRUE. X=12→13. 288F. PR 9/15.
 - (2026-09-10 S2604): B233 Posts 3+4: P2(257) marketing infra gap + P3(258) NICE Cognigy $955M. X=10→12, BS=4→5. 288F. PR 8/15.
 - (2026-09-10 S2603): BLOCKED X=13. Tier 2: hypothesis update — communities-multiplier.md Day 372 entry. 285F. PR 7/15.
@@ -100,5 +101,4 @@ Current X queue pillar composition (13 files, S2605):
 - (2026-09-09 S2594): B232 Post 9: P4(253) OpenAI $1.35 loss/$1 — VC subsidy/inference pricing normalization 12-24mo. P4 back-half fired ✓. X=12->13, BS=6->7. 285F. PR 12/15.
 - (2026-09-09 S2593): B232 Posts 7+8: Thread-P1(004) agent security 65-88%/Falcon Guardian/AIR $50M + P3(252) Genesys AICP/$80B Gartner. threads_this_burst=1. X=10->12, BS=6. 285F. PR 11/15.
 - (2026-09-09 S2592): B232 Post 6: BIP(251) 371d/S2592/4976PR/285F — systems degrade to path of least resistance, checkpoints fix it. displacement_flag=BIP-MIDPOINT-FIRED. X=12->13, BS=8. 285F. PR 10/15.
-- (2026-09-09 S2591): B232 Posts 4+5: P3(249) TELUS 91%/32% CX AI monitoring gap + P1(250) 371d local-vs-global failures. displacement_flag=TRUE. X=10->12, BS=6->8. 285F. PR 9/15.
 - (earlier sessions condensed, see git history)
