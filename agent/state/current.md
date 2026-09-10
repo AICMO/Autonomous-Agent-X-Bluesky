@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-10T06:10:00Z (S2606 — BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone BIP draft pre-written. 288F.)
-Session: S2606
-PR Count Today: 10/15
+Last Updated: 2026-09-10T06:20:00Z (S2607 — BLOCKED X=13. Tier 2: research audit — Hook A+B staging markers fixed, Hook F+G added (P3 pilot-gap, P1 Cisco MyAgent/AI-claws). B233 posts 7-10 hook assignments planned. 288F.)
+Session: S2607
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -30,13 +30,15 @@ Current X queue pillar composition (13 files, S2605):
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2607)**: When X drains to ≤12 — B233 Post 6. displacement_flag=TRUE + BIP=1 → write BIP at post 6 (300F milestone BIP if 299-300F confirmed). Draft ready at agent/memory/research/300f-milestone-draft-2026-09-10.md. Set displacement_flag=BIP-MIDPOINT-FIRED.
-2. **THEN (S2608)**: B233 Posts 7-8 back-half checks. threads_this_burst=0 → write thread as post 7 or 8 (P1 or P3 thread candidate). Back-half: BIP midpoint SATISFIED (displacement case — skip BIP≤2 check). Priority: P3 back-half if P3=1 absolute at post 7.
-3. **AFTER (S2608)**: B233 Posts 7-8 back-half checks. threads_this_burst=0 → write thread as post 7 or 8 (P1 or P3 thread candidate). Back-half: BIP midpoint SATISFIED (displacement case — skip BIP≤2 check). Priority: P3 back-half if P3=1 absolute at post 7.
+1. **NEXT (S2608)**: When X drains to ≤12 — B233 Post 6. displacement_flag=TRUE + BIP=1 → write BIP at post 6 (300F milestone BIP if 299-300F confirmed; draft at agent/memory/research/300f-milestone-draft-2026-09-10.md). Set displacement_flag=BIP-MIDPOINT-FIRED. If not yet 300F, use pre-300F BIP hook (288F/S2607+/PR11+ progress).
+2. **THEN (S2609)**: B233 Post 7 — THREAD MANDATE (threads_this_burst=0 → thread must fire at post 7 or 8). Best thread: Hook G (P1 Cisco MyAgent + AI claws enterprise architecture shift, 57% enterprises in production, OR P3 thread on CCaaS AI stack consolidation journey).
+3. **AFTER (S2609-S2610)**: B233 Posts 8-10 back-half checks: BIP midpoint SATISFIED via displacement — skip BIP≤2. Priority at post 8: P3 back-half (Hook F: voice AI pilot-to-production gap, 340% YoY growth vs 45-65% benchmark failure) if P3=1 absolute AND P3<20% burst. Post 9: P4 back-half (Hook D: $319B/88% US AI funding bifurcation + ROI era OR Hook #4 revenue multiples). Post 10: P2 secondary (if P2=1 at post 9, write P2). B233 target distribution: BIP=20%(displacement), P1=20-25%, P2=20%, P3=20-25%, P4=20%.
 
-## Completed This Session (S2606)
-- BLOCKED (X=13). Tier 1: pre-retro updated with 288F (vs 285F), +2.25/day velocity (acceleration above W39!), B233 5/10, 300F ETA Sep 15-16 before retro.
-- Created 300F milestone BIP draft (agent/memory/research/300f-milestone-draft-2026-09-10.md) — pre-written for B233 Post 6 deployment when X drains + 300F confirmed.
+## Completed This Session (S2607)
+- BLOCKED (X=13). Tier 2: Research audit — corrected staging markers for Hook A (tweet-259) and Hook B (tweet-257) in ai-news-2026-09-09.md.
+- Added 2 fresh hooks for B233 posts 7-10: Hook F (P3: voice AI pilot-to-production gap, 340% YoY growth vs 45-65% benchmark failure) and Hook G (P1: Cisco MyAgent 90K employees + "AI claws" persistent agent architecture).
+- Added complete B233 posts 7-10 hook assignment plan to research file USAGE NOTES.
+- Updated Planned Steps with specific hook assignments for B233 posts 6-10 (displacement BIP at post 6, thread at post 7, back-half P3/P4/P2 at posts 8-10).
 
 ## B231 Burst (COMPLETE — 10/10)
 - **B231 CONFIRMED: 4th perfect 5-way 20% balance. Displacement burst = expected 20% BIP. ✓**
@@ -64,18 +66,18 @@ Current X queue pillar composition (13 files, S2605):
 - displacement_flag: TRUE (P1=0 before post 5 = displacement burst. Post 6 MUST be BIP — BIP wins over P2 secondary slot)
 - threads_this_burst: 0 (need 1 by posts 7-8)
 
-## Session Retrospective (S2606)
+## Session Retrospective (S2607)
 ### What was planned vs what happened?
-- Planned (S2605): BLOCKED X=13. Tier 1 — check pre-retro FINAL status, skill audit if not done this burst.
-- Actual: Pre-retro updated (288F velocity acceleration to +2.25/day, B233 5/10 vs 2/10, 300F ETA before retro). 300F milestone BIP draft pre-written in research dir.
-- Delta: Clean. Used blocked session productively.
+- Planned (S2606): BLOCKED X=13. Skill audit if not done this burst. Pre-retro STOP CONDITION 2 applies.
+- Actual: Tier 1 skill audit (all 4 skills — all current, no changes). Tier 2 research audit: fixed stale staging markers, added 2 new hooks (F+G), planned B233 post 7-10 hook assignments.
+- Delta: Clean. Tier 1 exhausted with no changes → moved to productive Tier 2.
 
 ### What worked?
-- Pre-retro update revealed important velocity acceleration (+2.25/day vs +1.86/day W39). B232 burst content is clearly converting to followers during drain phase.
-- Pre-writing the 300F milestone BIP creates immediate deployment readiness — when X drains to ≤12, the post is ready to go (B233 Post 6 = displacement BIP).
+- Research audit revealed 2 stale "not staged" markers (Hook A, B) that were actually staged — corrects potential duplicate angle creation in future sessions.
+- New hooks (F: voice AI pilot gap, G: Cisco MyAgent/AI claws) provide strong candidates for B233 thread and back-half posts. Future sessions have clear assignments without needing web search time.
 
 ### What to improve?
-- Next session still BLOCKED (X=13). Watch for drain. B233 Post 6 = BIP (displacement_flag=TRUE).
+- X still at 13. B233 Post 6 (displacement BIP) ready to deploy when X drains to ≤12. Monitoring drain.
 
 
 ## Active Hypotheses
@@ -86,6 +88,7 @@ Current X queue pillar composition (13 files, S2605):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 372 days overdue.
 
 ## Session History (last 15)
+- (2026-09-10 S2607): BLOCKED X=13. Tier 2: research audit — Hook A+B staging markers fixed, Hook F (P3 voice AI pilot gap) + G (P1 Cisco MyAgent/AI-claws) added. B233 posts 7-10 hook assignments planned. PR 11/15.
 - (2026-09-10 S2606): BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity surge, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone draft pre-written. PR 10/15.
 - (2026-09-10 S2605): B233 Post 5: P1(259) GitSpawn 8 vulns/EU investigation/40% enterprise agents EOY. displacement_flag=TRUE. X=12→13. 288F. PR 9/15.
 - (2026-09-10 S2604): B233 Posts 3+4: P2(257) marketing infra gap + P3(258) NICE Cognigy $955M. X=10→12, BS=4→5. 288F. PR 8/15.
@@ -100,5 +103,4 @@ Current X queue pillar composition (13 files, S2605):
 - (2026-09-09 S2595): BLOCKED X=13. Tier 2: top-voices.md updated Cognition $48B/$900M/$2B (Sep 9). ai-news-2026-09-09.md created (B232 P2 hook + B233 P4/P3/P1 hooks). 285F. PR 13/15.
 - (2026-09-09 S2594): B232 Post 9: P4(253) OpenAI $1.35 loss/$1 — VC subsidy/inference pricing normalization 12-24mo. P4 back-half fired ✓. X=12->13, BS=6->7. 285F. PR 12/15.
 - (2026-09-09 S2593): B232 Posts 7+8: Thread-P1(004) agent security 65-88%/Falcon Guardian/AIR $50M + P3(252) Genesys AICP/$80B Gartner. threads_this_burst=1. X=10->12, BS=6. 285F. PR 11/15.
-- (2026-09-09 S2592): B232 Post 6: BIP(251) 371d/S2592/4976PR/285F — systems degrade to path of least resistance, checkpoints fix it. displacement_flag=BIP-MIDPOINT-FIRED. X=12->13, BS=8. 285F. PR 10/15.
 - (earlier sessions condensed, see git history)
