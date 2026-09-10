@@ -1,0 +1,7 @@
+68% of marketing execs want AI running >50% of campaigns. 31% have the data infrastructure for it.
+
+The gap isn't ambition. It's architecture.
+
+Self-adjusting campaigns need real-time behavioral data, a unified data layer, and agent orchestration. Most teams have one of three.
+
+The 23% conversion lift? Comes from the 31% who built the infrastructure first.
