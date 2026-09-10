@@ -1,0 +1,17 @@
+NICE paid $955M for Cognigy last year.
+
+Not to add AI capabilities to their platform. To own their AI stack outright.
+
+That distinction matters more than the deal size.
+
+For the previous decade, the standard CX tech architecture looked like this: a CCaaS platform (NICE, Genesys, Five9) on top, with AI capabilities licensed from a separate vendor. You bought conversational AI from one company and connected it to your contact center software from another. Margins got compressed. Switching costs were shared. Neither side fully controlled the roadmap.
+
+What the consolidation cycle of 2025-2026 is doing is collapsing that architecture. NICE with Cognigy. Genesys building its own AI Control Plane (four products, Sep 2). Avaya partnering with Google Vertex rather than building — which is increasingly the exception, not the rule.
+
+The math is simple: Cognigy's 80% ARR growth in 2026 is now NICE's 80% ARR growth. The margin on AI capability that used to go to a third-party now stays inside the platform.
+
+For enterprise buyers, this means something important: the AI your contact center runs will increasingly be inseparable from the platform you're locked into. Portability of AI logic, training data, and performance benchmarks across vendors is becoming harder, not easier.
+
+The vendors that don't own their AI by 2027 face a structural problem. They're selling a platform on top of someone else's intelligence layer. When that intelligence layer raises prices, the platform absorbs it. When the AI vendor pivots strategy, the platform inherits the risk.
+
+"Partner ecosystem" was never a moat. The $955M says so.

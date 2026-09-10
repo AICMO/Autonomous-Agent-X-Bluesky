@@ -1,0 +1,22 @@
+68% of marketing executives expect AI to handle more than half their campaign management by late 2026.
+
+31% have the data infrastructure to make that happen.
+
+This isn't a technology problem. It's an architecture problem, and most marketing orgs don't know they have it yet.
+
+The mental model most teams have of "AI-powered marketing" is still campaign scheduling, content generation, A/B test variants. Tools that assist humans who remain in the loop.
+
+The shift happening now is different: self-adjusting customer journeys. Systems that modify message, channel, and timing in real-time based on behavioral signals. No human approval step. No campaign cycle. Continuous optimization that runs itself.
+
+To support that, you need:
+- Real-time behavioral data (not batch-processed overnight analytics)
+- A clean, unified data layer (not siloed CRM + CDP + ad platform + email tool)
+- Agent orchestration that can route decisions across channels without human handoffs
+
+Most marketing teams have one of these. Very few have all three.
+
+The 23% average lift in lead conversion that organizations report when they successfully integrate AI agents? That number comes from the 31% who built the infrastructure first. Not from buying the tools and bolting them onto the existing stack.
+
+The 68% who want AI running their campaigns are not wrong about the destination. They're just underestimating what the road requires.
+
+"We already have AI in our martech stack" is not the same as "we have the infrastructure to run autonomous campaigns." The gap between those two statements is where the next 18 months of marketing transformation is going to happen.
