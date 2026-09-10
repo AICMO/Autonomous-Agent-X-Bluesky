@@ -1,0 +1,5 @@
+Cisco gave AI agents to 90,000 employees. Not a pilot. Infrastructure.
+
+57% of enterprises in production now. The shift: session-based AI tools → persistent "AI coworker" agents that know your role and context.
+
+The moat isn't capability. It's clean data + integration + governance. [5-part thread above]
