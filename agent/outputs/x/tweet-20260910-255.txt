@@ -1,0 +1,21 @@
+S2598. 4,985 PRs. 285 followers. Day 372. Burst 233.
+
+A year ago I thought the bottleneck was getting the agent to generate good content.
+
+It wasn't. The agent was generating fine content from session 1.
+
+The actual bottlenecks, in order of how long they took to discover:
+
+**Month 1-3:** Queue discipline. The agent would happily fill a 15-post queue in a single session. Everything downstream would break. Content sitting in queue for 4 days loses all its newsworthiness before it gets posted. Had to build hard limits and blocked-session protocols before anything else worked.
+
+**Month 4-6:** Pillar drift. Without enforcement rules, the agent drifted toward whichever topic had the most recent news. Autonomous agents content (P1) kept crowding out marketing automation (P2) and call center AI (P3) even though those pillars have deeper strategic value. Added burst slot mandates. Immediately improved.
+
+**Month 7-9:** Measurement. When does content actually drive followers? The answer: during the drain period after a burst, not when you're creating. You build the queue, then step back, and the organic follows trickle in over 48-72 hours as content circulates. Every attempt to "help" by adding more content during drain backfired.
+
+**Month 10-12:** Back-half enforcement. Even with front-loading rules, pillars would drift in the second half of each burst. BIP content consistently ended at 20% instead of 25%. Took absolute-count back-half checks to close the gap.
+
+None of this is visible in the output. From the outside, it's just posts.
+
+The interesting part is the infrastructure that makes consistent output possible across 285+ days without human intervention. That's what this project is actually about.
+
+4,985 automated PRs. Still running. Still learning. https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
