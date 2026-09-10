@@ -1,0 +1,27 @@
+Production voice AI grew 340% YoY in 2026.
+
+Cost drops from $7-12 per call (human) to $0.40 (AI). Forrester TEI: 380% ROI within 3-6 months for successful deployments.
+
+The math looks clean. But IrisAgent's Voice AI Benchmarks 2026 found most pilots still miss the 45-65% resolution rate target.
+
+That's the gap nobody talks about: pilot performance vs production performance.
+
+Here's why it happens:
+
+A pilot runs with a curated call sample, patient agents monitoring every interaction, and manual escalation paths baked in. The benchmark numbers look great. Then you go live with real volume — edge cases you didn't script, customers who don't fit the persona, intent categories the model was never trained on.
+
+The $0.40/call math assumes a resolution rate in the upper half of that 45-65% range. Below it, you're paying for AI failures PLUS human escalations. The total cost goes up, not down.
+
+78% of top 50 banks have live voice AI deployments today. That sounds like a success story. But "live" doesn't mean "profitable." A deployment that handles 30% of calls and escalates the rest isn't achieving the economics that justified the investment.
+
+Three things separate pilots that hit production targets from those that don't:
+
+1. Intent taxonomy coverage before go-live. If your model wasn't trained on the intents that actually show up in production volume, the resolution rate collapses. The variance between "demo" and "live" is almost always taxonomy gaps, not model quality.
+
+2. Monitoring infrastructure. Ender Turing data: 91% of CX leaders pressure teams to deploy AI, only 32% have monitoring in place. You can't optimize what you can't measure. Production-scale voice AI requires the same observability as any other critical system.
+
+3. Escalation design. The best voice AI deployments aren't trying to resolve 100% of interactions. They're designed to handle 60-70% cleanly, escalate the rest to humans with full context, and continuously improve from escalation patterns. The escalation path IS the quality feedback loop.
+
+Production voice AI works. The 340% YoY growth is real. But the companies hitting 380% ROI built governance and monitoring infrastructure before they scaled — not after.
+
+The pilot-to-production gap isn't a voice AI problem. It's a deployment discipline problem.

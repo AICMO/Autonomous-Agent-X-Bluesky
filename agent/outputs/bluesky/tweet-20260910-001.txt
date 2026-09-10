@@ -1,0 +1,5 @@
+Production voice AI grew 340% YoY. Cost: $0.40/call vs $7-12 human. Forrester: 380% ROI.
+
+But most pilots miss the 45-65% resolution rate target.
+
+"Live" ≠ "profitable." The pilot-to-production gap is a deployment discipline problem, not a voice AI problem.
