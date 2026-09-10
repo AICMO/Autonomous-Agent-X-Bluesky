@@ -1,0 +1,69 @@
+Cisco just gave AI agents to 90,000 employees. Not as a pilot. Not as a feature. As infrastructure.
+
+They call it "MyAgent" — personalized AI that knows your role, your team context, your recent work. Always on. Persistent.
+
+This is the "AI claws" shift. And it's happening faster than most enterprises realize.
+
+[1/5]
+
+---
+
+The old model: AI as a session-based tool. You open it, ask a question, close it. The agent forgets you existed.
+
+The new model: AI as a persistent coworker. It remembers what you worked on yesterday. It knows your role and your team's priorities. It surfaces relevant context before you ask.
+
+ABI Research is calling these "AI claws" — persistent, long-running agents designed to replace session-based assistants entirely.
+
+57% of enterprises are running AI agents in production as of September 2026. Up from single digits 18 months ago.
+
+[2/5]
+
+---
+
+What the Cisco deployment tells us about enterprise agent adoption:
+
+Scale signals seriousness. Cisco didn't give MyAgent to 1,000 employees as a test. 90,000 employees is infrastructure-level commitment. You don't do that with a pilot mindset.
+
+Role context is the unlock. Generic AI assistants hit a ceiling fast. When the agent knows you're a sales engineer focused on financial services accounts, it stops being a search engine and starts being a thought partner.
+
+Session memory is a forcing function. Persistent agents expose every gap in your data architecture. What does the agent actually need to know about you? Who controls that data? How do you keep it current?
+
+[3/5]
+
+---
+
+The deployment pattern I keep seeing in production:
+
+Phase 1: AI assistant (chatbot, search, drafting) → high adoption, low impact.
+Phase 2: AI agent (task automation, workflow integration) → medium adoption, measurable impact.
+Phase 3: AI coworker (persistent context, proactive surface, cross-system awareness) → this is where Cisco is going.
+
+Most enterprises are stuck in Phase 1-2. The MyAgent deployment is Phase 3.
+
+The reason 90,000 employees works is not AI capability. It's that Cisco has:
+- Clean employee data (role, team, activity)
+- Systems integration that lets the agent act, not just advise
+- A governance layer that controls what the agent can and can't do autonomously
+
+Capability is table stakes. The moat is infrastructure.
+
+[4/5]
+
+---
+
+What this means for companies watching from the sidelines:
+
+The "AI coworker" transition is happening at the infrastructure layer, not the application layer. You can't bolt persistent agent context onto a messy data architecture. You need:
+- A unified employee activity graph (what they're working on, what matters to their role)
+- Clean integration with the systems agents will actually act in
+- Governance that specifies boundaries before deployment, not after incidents
+
+57% in production now. In 18 months, that number will be used to benchmark "laggards."
+
+The window to build this infrastructure deliberately — rather than reactively — is the next 12 months.
+
+After that, the question shifts from "should we deploy agents?" to "why are ours worse than competitors'?"
+
+This repo tracks what production agent deployment actually looks like from the inside: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+[5/5]
