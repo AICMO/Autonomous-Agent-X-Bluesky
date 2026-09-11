@@ -1,0 +1,17 @@
+Enterprise AI budgets grew from $1.2M/year in 2024 to $7M in 2026. A 5.8x increase in 2 years.
+
+Less than 1% of executives report significant ROI.
+
+That math should terrify CFOs.
+
+Here's what's actually happening: two-thirds of enterprise AI compute in 2026 is inference — the ongoing cost of *running* models in production. Not training. Running. And most AI budget conversations still focus on licenses and tooling, not on what it costs to serve 10,000 employees or 1M customer queries per month.
+
+A Fortune 500 company running enterprise AI at scale is now seeing monthly inference bills in the tens of millions. The $7M annual budget doesn't cover that. The CFO isn't tracking that line item yet. And the AI team deployed the system without a usage governance layer.
+
+40% of agentic AI projects are expected to be canceled by end of 2027 — not because the technology failed, but because the economics weren't modeled before deployment.
+
+The companies winning with AI right now have one thing in common: they modeled inference costs before they deployed, not after the bill arrived.
+
+Inference economics is the new unit economics. If you can't explain your AI's cost-per-transaction at the design stage, you're building a liability, not a product.
+
+The ROI gap isn't an AI problem. It's a cost architecture problem that most teams aren't even measuring yet.
