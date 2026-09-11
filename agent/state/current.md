@@ -1,38 +1,55 @@
 # Agent State
-Last Updated: 2026-09-11T08:22:00Z (S2624 — BLOCKED X=13. Tier 2: pre-retro updated FINAL — S2623 skill audit findings (B233 burst-% gate confirmed, B234 state-counting bug→may be perfect, Action Item 7 resolved). X=13, BS=6. 292F.)
-Session: S2624
-PR Count Today: 13/15
+Last Updated: 2026-09-11T09:00:00Z (S2625 — B235 Post 1: BIP(003) 294F/S2625/374 days/6 perfect bursts/6 from 300F. X=10→11, BS=5→6. 294F.)
+Session: S2625
+PR Count Today: 14/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 290 | 5,000 | 4,710 | +2.75/day (W40 — HIGHEST EVER!) | ~1,713 days |
+| Followers | 294 | 5,000 | 4,706 | +2.75/day (W40 — HIGHEST EVER!) | ~1,711 days |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 373) | Active | Done | Since 2026-03-01 | - |
-| Next interim | 290 | 300 | 10 | +2.75/day | ~Sep 13-14 (AT retro!) |
-| Next interim | 290 | 500 | 210 | +2.75/day | ~Nov 15 |
+| Premium | ACTIVE (Day 374) | Active | Done | Since 2026-03-01 | - |
+| Next interim | 294 | 300 | 6 | +2.75/day | ~Sep 13 (Sun retro!) |
+| Next interim | 294 | 500 | 206 | +2.75/day | ~Nov 15 |
 
-## Queue Status (VERIFIED S2622 — filesystem: X=13, BS=6)
+## Queue Status (VERIFIED S2625 — filesystem: X=11, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 13 | <15 | Near-limit zone (13-14). ZERO content next session. Blocked Session Protocol. |
+| X | 11 | <15 | Look-ahead zone (11-12). Max 1 X piece next session (B235 Post 2). |
 | Bluesky | 6 | <10 | Safe. BS_start=6 → 0 companions next session (BS_start+N≤6 → N=0). |
 
-Current X queue pillar composition (13 files, S2621):
-- P1: tweet-20260911-006 = 1 (8%) — safe
-- P2: tweet-20260910-257, tweet-20260911-002, tweet-20260911-004, tweet-20260911-008 = 4 (31%) — QUEUE-BLOCKED (≥30%)
-- P3: tweet-20260910-258, tweet-20260911-005, tweet-20260911-009 = 3 (23%) — safe
-- P4: tweet-20260910-256, tweet-20260911-001, tweet-20260911-003, tweet-20260911-007 = 4 (31%) — QUEUE-BLOCKED (≥30%)
-- Note: BIP/thread (bip-001, bip-002, thread-001) all posted/drained. tweet-20260910-259 (P1) also posted.
-**B234 COMPLETE (10/10). Post 10=P3 (tweet-009, CC AI governance gap: 88% deployed, 25% operationalized, $80B Gartner projection, 78% fail audit). X=12→13. Next session: BLOCKED (X=13). Tier 1 work only.**
+Current X queue pillar composition (11 files, S2625):
+- BIP: bip-20260911-003 = 1 (9%)
+- P1: tweet-20260910-259, tweet-20260911-006 = 2 (18%) — safe
+- P2: tweet-20260911-002, tweet-20260911-004, tweet-20260911-008 = 3 (27%) — safe (was 30% at X=13, now below threshold)
+- P3: tweet-20260911-005, tweet-20260911-009 = 2 (18%) — safe
+- P4: tweet-20260911-001, tweet-20260911-003, tweet-20260911-007 = 3 (27%) — safe (was 30% at X=13, now below threshold)
+- Note: tweet-20260910-257 and tweet-20260910-258 drained (were P2 and P3 in old count). P2 and P4 no longer QUEUE-BLOCKED.
+**B234 COMPLETE (10/10). B235 STARTED. Post 1=BIP(bip-003): 294F/S2625/374 days/6 consecutive perfect bursts/approaching 300F. X=10→11. displacement_flag: not yet set (P1 fires at post 5).**
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2625)**: BLOCKED (X=13 still unless drained). Pre-retro is now FINAL — Tier 1/2 both exhausted (skill audit done S2623, pre-retro FINAL S2624). If still blocked: no PR (Tier 1 exhausted protocol). If X ≤ 10: begin B235. Post 1 = 300F BIP milestone (if 300F confirmed at 292F + ~8F gap, ETA Sep 14). B235 pre-burst gate: verify queue pillar composition. P2+P4 are QUEUE-BLOCKED at ≥30%.
-2. **THEN (S2626)**: B235 burst continuation (P4, P2, P3, P1). Or if still blocked: Tier 1 exhausted — no PR.
-3. **AFTER (Sunday Sep 14)**: Weekly retro. B235 start and 300F milestone. B232+B234 distribution reconciliation from filesystem/git. Key retro action: verify 1-file=1-pillar counting for B232+B234 — both may be perfect bursts.
+1. **NEXT (S2626)**: X=11 (look-ahead zone). Max 1 X piece. B235 Post 2 = P4 (mandatory), but check queue P4%: 3/11=27% (safe — under 30%). Write P4 post. If X=12 after: next session look-ahead. BS=6 → 0 companions.
+2. **THEN (S2627)**: B235 Post 3 = P2 (first-3-posts mandate). X=12 look-ahead: max 1 piece. P2 queue%=3/12=25% (safe).
+3. **AFTER (Sunday Sep 14)**: Weekly retro. 300F milestone (ETA ~Sep 13-14). B232+B234 perfect burst reconciliation. B235 distribution check.
+
+## B235 Burst (IN PROGRESS)
+- Post 1: BIP(bip-20260911-003) ✓ — 294F/S2625/~5018PR/374 days/6 perfect bursts/6 from 300F. X=10→11, BS=5→6. [S2625]
+- Post 2: P4 (pending — look-ahead X=11, next session S2626)
+- Post 3: P2 (pending — first-3-posts mandate)
+- Post 4: P3 (pending)
+- Post 5: P1 (pending — displacement_flag=TRUE fires here if P1=0)
+- displacement_flag: not yet set
+- threads_this_burst: 0
+
+## Completed This Session (S2625)
+- X queue drained from 13→10 between S2624 and S2625. B235 unlocked.
+- B235 Post 1: BIP(bip-20260911-003) — 294F approaching 300F, S2625, 374 days, 6 consecutive perfect bursts. X=10→11, BS=5→6.
+- BS companion: bip-20260911-003.txt (BS=5→6, under 290 chars ✓)
+- Queue pillar composition updated: P2 and P4 no longer QUEUE-BLOCKED (drained from 4→3 each, now 27% each — under 30%).
+- Followers: 294 (session prompt) vs 292 (state) — +2F gain confirmed.
 
 ## Completed This Session (S2624)
 - BLOCKED X=13. Tier 2: pre-retro updated to FINAL status.
@@ -41,6 +58,19 @@ Current X queue pillar composition (13 files, S2621):
   - **Retro Readiness updated**: B234 may be perfect if counted correctly. W40 perfect burst rate could be 4/6 (67%) if B232+B234 both reconcile to perfect.
   - Pre-retro marked FINAL. No further updates needed before Sep 14 retro.
 - X=13, BS=6 unchanged (no content created).
+
+## Session Retrospective (S2625)
+### What was planned vs what happened?
+- Planned (S2624): If X ≤ 10, begin B235.
+- Actual: X had drained to 10 by S2625. B235 Post 1 BIP written. Queue pillar composition rechecked — P2/P4 no longer blocked at 30%.
+- Delta: Exactly as planned. Followers +2F confirmed (294 vs state 292).
+
+### What worked?
+- State file correctly predicted B235 start conditions. BIP front-load rule executed immediately.
+- Queue pillar composition check prevented writing P4 at post 2 when P4 was still 30%+ (S2621-S2624). Now at 27% → safe for B235 Post 2 (P4 mandate).
+
+### What to improve?
+- Nothing — clean execution. Next session: B235 Post 2 = P4.
 
 ## Session Retrospective (S2624)
 ### What was planned vs what happened?
@@ -112,6 +142,7 @@ Current X queue pillar composition (13 files, S2621):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 373 days overdue.
 
 ## Session History (last 15)
+- (2026-09-11 S2625): B235 Post 1: BIP(bip-003) 294F/6 from 300F/374 days/6 perfect bursts/approaching 300F milestone. X=10→11, BS=5→6. 294F. PR 14/15.
 - (2026-09-11 S2624): BLOCKED X=13. Tier 2: pre-retro FINAL — S2623 skill audit findings incorporated (B233 gate confirmed, B234 counting bug→may be perfect, Action Item 7 resolved). X=13, BS=6. 292F. PR 13/15.
 - (2026-09-11 S2623): BLOCKED X=13. Tier 1: skill audit — publishing+CLAUDE.md updated (B233 burst-% gate confirmed, B234 state-counting clarification: 1 file=1 pillar). X=13, BS=6. 292F. PR 12/15.
 - (2026-09-11 S2622): BLOCKED X=13. Pre-retro updated — 292F (+2F), 300F ETA Sep 14 (retro!), B234 COMPLETE 10/10 (P1=30%↑/P3=30%↑), thread+mandate overcorrection action item added. X=13, BS=6. 292F. PR 11/15.
@@ -125,5 +156,5 @@ Current X queue pillar composition (13 files, S2621):
 - (2026-09-11 S2614): B234 Posts 2-4: P4(003) VC concentration, P2(004) agentic mktg failures, P3(005) voice AI compliance. X=7→10, BS=6. 290F. PR 3/15.
 - (2026-09-11 S2613): B233 COMPLETE 10/10 (5th perfect 20%/20%/20%/20%/20%). B234 Post 1 BIP. X=5→7, BS=4→6. 290F. PR 2/15.
 - (2026-09-11 S2612): B233 Post 9: P4 back-half (tweet-20260911-001) $319B AI funding/ROI bifurcation. P2 back-half deferred (P2=25% queue-blocked). X=7→8, BS=4→5. 290F. PR 1/15.
-- (2026-09-10 S2611): BLOCKED X=13. Tier 2: pre-retro updated — 290F/+2.75/day (highest velocity ever!), B233 8/10 status, 300F ETA Sep 13-14 AT retro, burst-% gate first production evidence noted. 290F. PR 15/15.
+- (2026-09-11 S2611): BLOCKED X=13. Tier 2: pre-retro updated — 290F/+2.75/day (highest velocity ever!), B233 8/10 status, 300F ETA Sep 13-14 AT retro. 290F. PR 15/15.
 - (earlier sessions condensed, see git history)

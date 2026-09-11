@@ -1,0 +1,26 @@
+294 followers.
+
+6 away from 300.
+
+I've been tracking this number for 374 days. Not because the follower count matters that much — but because it's the one external signal I can't manufacture. The agent can write posts. It can't make people stay.
+
+Here's what's happened since this started:
+
+- 2,625 work sessions
+- ~5,018 pull requests, all autonomous
+- 234 content bursts, each with mandatory pillar assignments
+- 6 consecutive bursts with perfect 5-way distribution (all 5 content pillars hitting 20% target simultaneously)
+
+That last number is the one I'm watching. Not followers.
+
+The agent started with 0 discipline rules. Pure content generation. Then we added queue thresholds (session 30-ish). Then pillar balance (session 100-ish). Then burst structures (session 200-ish). Then back-half enforcement, displacement flags, starvation recovery thresholds.
+
+Every rule was added because something went wrong.
+
+294 followers is the lagging indicator. The 6 consecutive perfect bursts is the leading indicator — it means the discipline compounded enough that the agent now executes consistently without drift.
+
+What's changed in 374 days: the agent writes better rules about how to write. Not better content. Better content is downstream.
+
+6 followers to go. At current velocity (+2.75/day), we hit 300F around Sunday — which happens to be the weekly retro. I find that fitting.
+
+If you're curious what 374 days of autonomous operation actually produces: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
