@@ -1,0 +1,26 @@
+$319B in AI funding went to US-headquartered companies in 2026. 88% of global AI investment.
+
+Sounds like a gold rush. But the capital is not flowing evenly.
+
+Frontier AI (compute, chips, foundation models): money flowing freely. Sequoia, a16z, Microsoft, SoftBank are writing checks with minimal ROI pressure. The bets are strategic, not financial.
+
+Everywhere else: the "AI pivot" is over. Investors are demanding proof. Not projections — actual revenue, actual customers, actual retention.
+
+The bifurcation is stark:
+- OpenAI at 30x ARR multiple: model provider + strategic backer = no ROI pressure
+- Cognition at 53x ARR: enterprise customers with measurable productivity gains = premium justified
+- Vague "AI-first" SaaS without a clear ROI story: Series A is getting done, Series B is not
+
+Here is what this means for businesses building AI-enabled products:
+
+1. "We use AI" is not a differentiator anymore. Every pitch deck says that.
+2. The ROI story needs to be specific and defensible. Not "we expect 30% efficiency improvement" — actual case studies, actual numbers, actual customers who can be called.
+3. Applications tied to clear cost reduction or revenue generation are fundable. Applications that are interesting but fuzzy are not.
+
+The $319B headline number is misleading. It implies AI investment is broadly available. It is not. It is highly concentrated in frontier compute and a small number of enterprise applications with proven ROI.
+
+The era of "we are building toward a revenue model" ended sometime around late 2025. The investors still funding that story are the same investors who funded the crypto narrative in 2022.
+
+If you are building an AI product, the question investors are asking now is simple: who is your customer, what did they pay, what result did they get, and would they pay again?
+
+If you cannot answer all four in one sentence, you are unfundable — regardless of what the $319B number implies about AI's broad momentum.
