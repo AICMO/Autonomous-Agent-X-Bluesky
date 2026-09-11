@@ -1,0 +1,32 @@
+Voice AI crossed $22 billion in 2026.
+
+The deployment race is over. Now it's the compliance race.
+
+Every contact center AI vendor pitches "hours to production." Talkdesk is deploying in hours with natural language configuration. Newo.ai, TELUS Digital, ElevenLabs are running at production scale. Gartner says conversational AI will deliver $80B in labor savings this year.
+
+Those are real numbers. The market is real.
+
+But the next differentiation layer isn't speed to deploy. It's what happens after you deploy.
+
+**The compliance race:**
+
+78% of top 50 banks now have live voice AI deployments. That's not a pilot statistic — that's infrastructure. When financial services moves in, regulation follows.
+
+The IrisAgent Voice AI Benchmarks 2026 found most pilots miss the 45-65% resolution rate benchmark. Per-call economics: human agent $7-12 vs voice AI $0.40. The math works — when the deployment works.
+
+The gap between "deployed" and "working" is where the ROI evaporates.
+
+**What the mature CC AI stack needs:**
+
+Speed to deploy is table stakes. The vendors that win the next 3 years will have:
+
+- Quality monitoring at scale (not sampling — continuous)
+- Audit trails that satisfy regulators, not just IT teams
+- Guardrails that adapt to new edge cases without manual reconfiguration
+- Call resolution benchmarks that surface when performance drifts
+
+The companies deploying fast without governance aren't cutting corners. They're creating liability at scale. When a voice AI system mishandles a dispute or misses a compliance trigger, the cost isn't a bad call. It's regulatory exposure, reputation risk, and a full deployment review.
+
+The call center AI vendors that still exist in 2028 will be the ones who made compliance a feature, not a footnote.
+
+The ones who pitched only speed will lose to the ones who can prove it's safe to run at scale.

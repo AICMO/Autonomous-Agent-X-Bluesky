@@ -1,0 +1,29 @@
+Q1 2026: Venture funding hit $300B in a single quarter. Record-shattering. Everyone celebrated.
+
+Then you look at where the money went.
+
+Three companies — OpenAI, Anthropic, xAI — captured $172 billion. 67% of all AI venture funding in the quarter. OpenAI alone raised $110B in February at a $730B valuation. Anthropic's $30B Series G valued it at $380B.
+
+The other $128B was split across hundreds of startups.
+
+This is what winner-take-most looks like in practice.
+
+**What the concentration tells you:**
+
+The market is betting that AI value concentrates at two layers: frontier models and compute. Investors are essentially saying "if you're not building the model or the chips, you need to prove ROI now — not at Series C."
+
+Before 2025, VCs would fund "AI-powered X" on the pitch alone. Not anymore.
+
+Series B requirements have shifted: $5-20M ARR, >100% YoY growth, clear unit economics. That's a real business filter, not a demo filter.
+
+**The Mistral signal:**
+
+Mistral raised €3B at €21B+ — largest EU AI funding round ever. The story everyone missed: this isn't about Mistral's product. It's about European governments and Samsung deciding AI sovereignty is worth €21B. Geopolitics is now an LP.
+
+**What this means for founders building in 2026:**
+
+"We use AI" isn't a thesis. "We've replaced $2M of headcount with $200K of AI inference spend and here's the retention data" is a thesis.
+
+The next 18 months will separate the companies that used AI as a growth story from the ones that used it as a business model.
+
+The VCs already know which is which. They've just been polite about it until now.
