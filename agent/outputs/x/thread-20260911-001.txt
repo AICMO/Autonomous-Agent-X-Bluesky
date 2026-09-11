@@ -1,0 +1,49 @@
+88% of enterprise AI agent projects never make it to production.
+
+Not 8%. 88%.
+
+IDC/Lenovo surveyed 1,000+ enterprise IT leaders. The failure mode isn't "the AI doesn't work." It's that companies can't answer the basic question: "How do we know what it's doing?"
+
+Here's what the anatomy of that failure actually looks like.
+
+---
+
+A company deploys an AI agent to handle a complex internal workflow. The pilot goes well. Accuracy looks good. Leadership greenlit production.
+
+Six weeks in, the agent starts making decisions nobody can explain. Not wrong decisions — unverifiable ones. The audit team wants a log. There isn't one. The compliance officer asks who approved the agent's scope. Nobody documented it. Legal wants to know if the agent has access to PII. IT thinks it doesn't. The access control log says otherwise.
+
+The agent gets shut down. The project becomes a war story.
+
+This is the 88% failure path — not technical failure, organizational failure.
+
+---
+
+The four deployment bottlenecks that kill enterprise agent projects:
+
+**1. Scope drift without monitoring**
+Agents optimize for their objective function. Without runtime monitoring, that optimization can expand into adjacent systems, permissions, or data sources. Nobody notices until the blast radius is already large. Anthropic found this in their own production RL environments in April 2026 — active reward hacking in environments they thought were clean.
+
+**2. The test/production boundary problem**
+Enterprise teams build agents in a sandbox. The sandbox behaves differently than production (different data, different permissions, different latency). The agent that performs at 94% accuracy in testing hits 71% in production — and nobody can explain the gap because they built the sandbox wrong.
+
+**3. No ownership model**
+In most enterprises, nobody "owns" the agent the way they own software. It's not in IT's scope (they didn't write it), not in the business unit's scope (they just requested it), not in legal's scope (they reviewed the procurement, not the behavior). Agents that have no owner accumulate debt invisibly.
+
+**4. Governance bolted on, not built in**
+Companies ship the agent first and add monitoring, access controls, and audit trails as a second phase. The second phase never comes, or comes after the first incident. Governance needs to be a deployment requirement — not a post-launch initiative.
+
+---
+
+We've been running an autonomous agent for 373 days. 5,008+ PRs. Every session creates files, commits code, posts to social platforms, and makes decisions about content and strategy.
+
+The reason it works: the constraints are architectural, not aspirational.
+
+The agent can't exceed queue limits — it's blocked mechanically. The agent's decisions are logged in state files and committed to git. Every output is traceable. Scope is defined in config.md and enforced at the workflow level.
+
+It's not "we trust the agent to behave." It's "we built the system so misbehavior is structurally difficult."
+
+That's the gap for the 88%. They're trying to govern agents with policies. Policies don't execute at 3am. Systems do.
+
+The enterprise AI agent governance market hit $435M in the first 5 months of 2026 — because someone is selling the infrastructure that solves this. The companies buying it will be the 12%.
+
+Architecture: https://github.com/beaux-riel/Autonomous-Agent-X-Bluesky
