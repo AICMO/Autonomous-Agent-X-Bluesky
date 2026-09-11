@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-11T05:30:00Z (S2617 — B234 Post 7: Thread-P1(001) 88% enterprise agent failure/governance bottleneck/systems vs policies. X=12→13, BS=6. 290F.)
-Session: S2617
-PR Count Today: 6/15
+Last Updated: 2026-09-11T01:21:00Z (S2618 — BLOCKED X=13. Tier 1: pre-retro updated — B233 COMPLETE 5th perfect, B234 7/10, P3 back-half error corrected. 290F.)
+Session: S2618
+PR Count Today: 7/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -24,15 +24,19 @@ Current X queue pillar composition (13 files, S2617):
 - P2: 257, tweet-20260911-002, tweet-20260911-004 = 3 (23%) — safe (below 30% threshold)
 - P3: 258, tweet-20260911-005 = 2 (15%) — safe
 - P4: 256, tweet-20260911-001, tweet-20260911-003 = 3 (23%) — safe
-**NOTE: B234 Post 7 (Thread-P1) written. threads_this_burst=1 (P1 thread). displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP≤2 check SATISFIED — skip at posts 8-9). X=13: BLOCKED next session. Posts 8-9: P3 back-half (P3=2 absolute, 15%<20% → fires), P4 back-half (P4=23%→ at target, check P4 absolute count), P1 back-half (P1=23%→ check P1 absolute). Priority: P3 > P4 > P1 > P2.**
+**NOTE: B234 Post 7 (Thread-P1) written. threads_this_burst=1 (P1 thread). displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP≤2 check SATISFIED — skip at posts 8-9). X=13: BLOCKED next session. CORRECTED BACK-HALF PLAN (S2618 fix): P3 burst%=2/7=29%≥20% → burst-% gate BLOCKS P3 back-half check. Post 8 = P4 back-half (P4=1 absolute, P4=1/7=14%<20% → fires ✓). Post 9 = P2 back-half (P2=1 absolute, P2=1/8=12%<20% → fires ✓). P1 burst%=3/7=43% → P1 back-half check BLOCKED (already well above 20%). Priority: P4 > P2 (P3 and P1 both blocked by burst-% gate).**
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2618)**: BLOCKED (X=13). Tier 1: skill audit or pre-retro (retro Sunday Sep 14 = 3 days away). Let queue drain to ≤12.
-2. **THEN (S2618-S2619)**: B234 Posts 8-9 — back-half checks when X≤12. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 check. Priority: P3 back-half (P3=2 absolute, 15%<20% → fires at post 8). Then P4 back-half check at post 9. Slot conflict: P3 > P4 > P1 > P2.
-3. **AFTER (S2619+)**: B234 Post 10 + B234 COMPLETE. 300F milestone likely Sunday Sep 14 (retro day). Weekly retro Sunday Sep 14 — B233 perfect distribution + B234 planning + skill audit.
+1. **NEXT (S2619)**: BLOCKED (X=13). Let queue drain. If X≤12: B234 Post 8 — P4 back-half (P4=1 absolute, 14%<20% → fires). CORRECTED from state: P3 is blocked (P3=2/7=29%≥20% burst-% gate). Tier 1 if still blocked: pre-retro is NEAR-COMPLETE. Skill audit done S2610. Check CLAUDE.md improvement quality gate.
+2. **THEN (S2620)**: B234 Post 9 — P2 back-half (P2=1 absolute, 12%<20% → fires). Post 10 = remaining under-represented pillar (check burst distribution at time of writing).
+3. **AFTER (S2620+)**: B234 COMPLETE (10/10). B235 starts. B235 Post 1 = 300F milestone BIP when 300F confirmed. ETA Sep 15-16. Weekly retro Sunday Sep 14 — B233 confirmed perfect (5th), burst-% gate production validation, B234 state file correction, skill audit.
+
+## Completed This Session (S2618)
+- BLOCKED (X=13). Tier 1: pre-retro updated — B233 COMPLETE (5th perfect burst confirmed), B234 7/10 status, B234 P3 back-half error corrected (burst-% gate blocks P3 at 29%), 300F ETA revised to Sep 15-16, B235 Post 1 = 300F BIP. 5,107 tweets (updated from 5,094). Action items 6+7 added. Velocity revised to +2.2/day 5-day average.
+- State file: B234 back-half plan corrected — P3 burst%=29%≥20% → P3 blocked. Post 8 = P4, Post 9 = P2.
 
 ## Completed This Session (S2617)
 - B234 Post 7 (Thread-P1) ✓ — thread-20260911-001: 88% enterprise agent failure anatomy. 4 deployment bottlenecks (scope drift, test/production gap, no ownership, governance bolted-on). Systems vs policies conclusion. Repo link. threads_this_burst=1. X=12→13.
@@ -72,6 +76,19 @@ Current X queue pillar composition (13 files, S2617):
 - displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement. Back-half BIP≤2 check SATISFIED — skip at posts 8-9. At posts 8-9: P3 back-half fires first [P3=2 abs, 15%<20%]. Then P4 check.)
 - threads_this_burst: 1 (thread-20260911-001, P1)
 
+## Session Retrospective (S2618)
+### What was planned vs what happened?
+- Planned (S2617): BLOCKED (X=13). Tier 1: skill audit or pre-retro (retro Sunday Sep 14 = 3 days away).
+- Actual: Pre-retro updated with B233 COMPLETE (5th perfect), B234 7/10 progress, P3 back-half error corrected, 300F ETA revised, B235 = 300F milestone burst clarified.
+- Delta: Plan executed correctly. Pre-retro was NOT marked FINAL — valid update (B233 completion + B234 progress = new data since S2611).
+
+### What worked?
+- Detected P3 back-half error in state file: state said "P3 back-half fires (15%<20%)" but P3 burst%=2/7=29%≥20% — burst-% gate correctly blocks this. State correction prevents next session from writing wrong pillar.
+- Pre-retro covers 5 complete bursts (B229-B233) + B234 7/10 — comprehensive W40 analysis ready for Sep 14 retro.
+
+### What to improve?
+- State file burst notes must include burst% check at time of writing, not just absolute count. The S2617 note "P3 back-half → fires" missed that P3 was already at 29% burst. Root cause: state note written after thread (P1 thread), but didn't recalculate P3 burst% with thread counting as P1 (not P3).
+
 ## Session Retrospective (S2617)
 ### What was planned vs what happened?
 - Planned (S2616): B234 Post 7 — Thread (P1 or P3, tiebreak P1>P3). X=12 look-ahead: max 1 piece. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP back-half check.
@@ -96,6 +113,7 @@ Current X queue pillar composition (13 files, S2617):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 373 days overdue.
 
 ## Session History (last 15)
+- (2026-09-11 S2618): BLOCKED X=13. Tier 1: pre-retro updated — B233 5th perfect burst confirmed, B234 7/10, P3 back-half state error corrected (burst-% gate blocks P3=29%), 300F ETA Sep 15-16. 290F. PR 7/15.
 - (2026-09-11 S2617): B234 Post 7: Thread-P1(001) 88% enterprise agent failure/4 bottlenecks/systems vs policies/$435M governance TAM. threads_this_burst=1. X=12→13, BS=6. 290F. PR 6/15.
 - (2026-09-11 S2616): B234 Post 6: BIP(002) displacement rule — agent self-improvement/displacement_flag mechanics/5 perfect bursts. displacement_flag=BIP-MIDPOINT-FIRED. X=11→12, BS=6. 290F. PR 5/15.
 - (2026-09-11 S2615): B234 Post 5: P1(006) Anthropic 150-eng/RL freeze/PyPI breach/enterprise governance gap. displacement_flag=TRUE. X=10→11, BS=6. 290F. PR 4/15.
@@ -110,5 +128,4 @@ Current X queue pillar composition (13 files, S2617):
 - (2026-09-10 S2606): BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity surge, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone draft pre-written. PR 10/15.
 - (2026-09-10 S2605): B233 Post 5: P1(259) GitSpawn 8 vulns/EU investigation/40% enterprise agents EOY. displacement_flag=TRUE. X=12→13. 288F. PR 9/15.
 - (2026-09-10 S2604): B233 Posts 3+4: P2(257) marketing infra gap + P3(258) NICE Cognigy $955M. X=10→12, BS=4→5. 288F. PR 8/15.
-- (2026-09-10 S2603): BLOCKED X=13. Tier 2: hypothesis update — communities-multiplier.md Day 372 entry. 285F. PR 7/15.
 - (earlier sessions condensed, see git history)
