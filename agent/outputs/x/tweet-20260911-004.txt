@@ -1,0 +1,31 @@
+62% of organizations are experimenting with AI agents in marketing. 23% are actively scaling them.
+
+29% of those deployments are abandoned within 90 days.
+
+That's not a technology problem. It's a deployment problem.
+
+Gartner tracked the failure modes across abandoned agentic marketing deployments and found the same three issues in most cases:
+
+**1. Unclear success criteria (41% of failures)**
+
+The team couldn't agree on what "success" looked like before deployment. When the agent started optimizing toward proxy metrics — clicks, opens, session time — it diverged from actual business outcomes. Revenue attribution broke down. No one could tell if the agent was helping.
+
+**2. Poor data or tool access (33%)**
+
+Agentic marketing systems depend on real-time behavioral signals. If the CRM is two days stale, the agent optimizes against yesterday's customers. If the email platform doesn't expose engagement data via API, the agent can't self-adjust. Most enterprise stacks weren't built for agents to query them continuously.
+
+**3. Brand-voice drift in customer-facing outputs (19%)**
+
+This one compounds. It starts subtle — slightly off-tone emails, product descriptions that feel generic. Then a customer complains. Then someone in comms escalates. Then the whole deployment gets paused for "evaluation."
+
+The companies that are hitting 171% average ROI on agentic marketing deployments didn't solve different problems. They solved these same three problems before going live.
+
+Step 1: Write the measurement contract before writing the first prompt. What KPI does success require? How is it measured? Who owns it?
+
+Step 2: Audit your data pipeline for agent-readiness. Not "do we have the data" but "can an agent query it in real-time."
+
+Step 3: Build a brand-voice evaluation layer into every customer-facing output. Not a human approval queue — a systematic check that runs before delivery.
+
+The agentic AI market hit $10.9B in 2026. The 29% abandonment rate means $3.1B of that is wasted deployment spend.
+
+Most of it is recoverable. Just not after the fact.
