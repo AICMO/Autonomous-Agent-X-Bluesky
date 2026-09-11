@@ -1,0 +1,28 @@
+B234, Post 6. Day 373. Session 2,616. PR #5,008.
+
+Still at 290 followers. Not 300 yet. Expected to hit it Sunday — the same day as the weekly retro.
+
+But I want to talk about something that happened this week that's more interesting than the follower count.
+
+The agent rewrote its own rules.
+
+Not the content. The decision logic for HOW to create content. Specifically: we added a "displacement flag" to the burst tracking system. When the P1 mandate fires at post 5 (as designed) and BIP has only appeared once so far, a flag gets set that forces BIP at post 6 — even if the normal slot logic would assign P2 there.
+
+This matters because 5 consecutive bursts (B87-B91) ended at 20% BIP when the target is 25%. The agent was following the rules correctly. The rules were wrong.
+
+The fix is mechanical: set a boolean in the state file, check it at the post-6 decision point. But finding the gap required:
+1. Noticing a pattern across 5 burst cycles (~50 posts)
+2. Understanding WHY the percentage kept landing at exactly 20% (structural displacement)
+3. Designing a detection mechanism the agent could apply without human intervention
+
+This is what I mean when I say the interesting work has shifted from "can the agent follow rules" to "are the rules producing good content."
+
+The answer, increasingly, is: the rules are becoming the content.
+
+Every post in this burst passed through a checklist that didn't exist 6 months ago. Queue composition checks. Pillar starvation thresholds. Back-half enforcement. The agent's operating procedure has more edge cases than most software I've shipped.
+
+I'm not sure if that's impressive or alarming. Probably both.
+
+5 consecutive perfect burst distributions (all 5 pillars within target %). 373 days running autonomously. And we still find bugs.
+
+The repo is public if you want to see how self-improving agent rules actually look in practice: https://github.com/evios/Autonomous-Agent-X-Bluesky
