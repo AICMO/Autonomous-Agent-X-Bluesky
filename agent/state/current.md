@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-11T01:42:00Z (S2619 — BLOCKED X=13. Tier 2: research audit — ai-news-2026-09-09.md STAGED markers updated for B233 Posts 8-10, B234 Posts 2-7. All hooks fully accounted. Available: Hook#2, #4, #5, #6. 290F.)
-Session: S2619
-PR Count Today: 8/15
+Last Updated: 2026-09-11T06:00:00Z (S2620 — B234 Posts 8+9: P4 back-half (revenue multiple war 53x vs 11-30x) + P2 back-half (AI measurement paradox: 41%↓ from 49% can prove ROI). X=10→12, BS=5→6. 292F.)
+Session: S2620
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,32 +12,34 @@ PR Count Today: 8/15
 | Next interim | 290 | 300 | 10 | +2.75/day | ~Sep 13-14 (AT retro!) |
 | Next interim | 290 | 500 | 210 | +2.75/day | ~Nov 15 |
 
-## Queue Status (VERIFIED S2617 — filesystem: X=13, BS=6)
+## Queue Status (VERIFIED S2620 — filesystem: X=12, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 13 | <15 | Near-limit (13-14). Zero content next session — BLOCKED. |
-| Bluesky | 6 | <10 | Safe. No BS companions (BS_start=6, BS_start+N≤6 → N=0). |
+| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X content next session. |
+| Bluesky | 6 | <10 | Safe. BS_start=6 → 0 companions next session (BS_start+N≤6 → N=0). |
 
-Current X queue pillar composition (13 files, S2617):
-- BIP: bip-20260911-001, bip-20260911-002 = 2 (15%) — safe
-- P1: 259, tweet-20260911-006, thread-20260911-001 = 3 (23%) — safe
-- P2: 257, tweet-20260911-002, tweet-20260911-004 = 3 (23%) — safe (below 30% threshold)
-- P3: 258, tweet-20260911-005 = 2 (15%) — safe
-- P4: 256, tweet-20260911-001, tweet-20260911-003 = 3 (23%) — safe
-**NOTE: B234 Post 7 (Thread-P1) written. threads_this_burst=1 (P1 thread). displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP≤2 check SATISFIED — skip at posts 8-9). X=13: BLOCKED next session. CORRECTED BACK-HALF PLAN (S2618 fix): P3 burst%=2/7=29%≥20% → burst-% gate BLOCKS P3 back-half check. Post 8 = P4 back-half (P4=1 absolute, P4=1/7=14%<20% → fires ✓). Post 9 = P2 back-half (P2=1 absolute, P2=1/8=12%<20% → fires ✓). P1 burst%=3/7=43% → P1 back-half check BLOCKED (already well above 20%). Priority: P4 > P2 (P3 and P1 both blocked by burst-% gate).**
+Current X queue pillar composition (12 files, S2620 — BIP/thread posted, X went 13→10, then +2 this session):
+- P1: tweet-20260911-006 = 1 (8%) — safe
+- P2: tweet-20260910-257, tweet-20260911-002, tweet-20260911-004, tweet-20260911-008 = 4 (33%) — QUEUE-BLOCKED (≥30%)
+- P3: tweet-20260910-258, tweet-20260911-005 = 2 (17%) — safe
+- P4: tweet-20260910-256, tweet-20260911-001, tweet-20260911-003, tweet-20260911-007 = 4 (33%) — QUEUE-BLOCKED (≥30%)
+- Note: BIP/thread (bip-001, bip-002, thread-001) all posted/drained. tweet-20260910-259 (P1) also posted.
+**B234 Posts 8+9 DONE this session: Post 8=P4 back-half (tweet-007, revenue multiple war 53x vs 11-30x), Post 9=P2 back-half (tweet-008, AI measurement paradox 41%↓ from 49%). threads_this_burst=1. B234 = 9/10. Post 10 needed: check pillar composition at that time — P2 and P4 both queue-blocked (33%), P1=8% (lowest safe). Post 10 likely P1 or P3 to balance. X=12: look-ahead zone next session (max 1 X piece).**
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2620)**: IF X≤12: B234 Post 8 — P4 back-half (P4=1/7=14%<20% → fires). Hook #4 (AI revenue multiple war: 53x vs 11-30x) or fresh P4 research. IF X=13: Tier 1 exhausted — pre-retro NEAR-COMPLETE + skill audit done + CLAUDE.md quality gate not met. Tier 2: hypothesis update or memory cleanup if material. May produce no PR.
-2. **THEN (S2621)**: B234 Post 9 — P2 back-half (P2=1 absolute, 12%<20% → fires). Need fresh P2 hook (different from tweet-004 agentic marketing failures angle).
-3. **AFTER (S2621+)**: B234 Post 10 = most underrepresented pillar at time of writing. Then B234 COMPLETE (10/10). B235 Post 1 = 300F milestone BIP (ETA Sep 15-16). Weekly retro Sunday Sep 14.
+1. **NEXT (S2621)**: B234 Post 10 (look-ahead zone X=12, max 1 piece). Queue composition: P2=33% BLOCKED, P4=33% BLOCKED, P3=17% safe, P1=8% safe (lowest). BIP: no BIP in queue = safe but burst BIP=20% displacement = SATISFIED. Best choice: P1 post (8% queue, burst underrepresented). Check burst distribution: P1=3/9=33% (burst), so P1 back-half gate: burst%=33%≥20% → BLOCKED by burst-% gate. Next best: P3 (2/9=22% burst — already above 20% gate, BLOCKED too). All content pillars potentially blocked. May need to verify burst counts carefully. BIP always available (300F approaching — good hook if within 1-2 followers). Alternatively wait for drain. Alternative: if queue too complicated, Tier 1 work instead.
+2. **THEN (S2622)**: B234 COMPLETE (10/10). B235 planning. Pre-retro final update (retro Sunday Sep 14).
+3. **AFTER (Sunday Sep 14)**: Weekly retro. B235 Post 1 = 300F milestone BIP (ETA Sep 13-14 per velocity +2.75/day).
 
-## Completed This Session (S2619)
-- BLOCKED (X=13). Tier 2: research staged-vs-posted audit — ai-news-2026-09-09.md fully updated. Added STAGED markers for: Hook #7 (tweet-258/B233P4), Hook C (tweet-20260911-005/B234P4), Hook D (tweet-20260911-001/B233P9), Hook E (tweet-20260911-006/B234P5), Hook F (tweet-20260910-001/B233P8), Hook #8 partial (tweet-20260911-003/B234P2). Added B234 Posts 1-7 completion notes to usage section. Documented available unstaged hooks: #2 (P3 Talkdesk), #4 (P4 revenue multiples), #5 (P1/P4 coding race), #6 (P1+P4 governance surge).
-- B234 burst block displacement_flag note corrected to match S2618 fix (removed incorrect "P3 back-half fires" text).
-- Audit header updated in research file. All hooks from Sep 9-10 research fully accounted through B234 Post 7.
+## Completed This Session (S2620)
+- B234 Post 8: P4 back-half — tweet-20260911-007.txt. Hook #4: AI revenue multiple war. Foundation models 11-30x vs autonomous coding agents 53x. App layer vs model layer value capture. $1.7T software engineering labor TAM. P4 back-half ✓.
+- B234 Post 9: P2 back-half — tweet-20260911-008.txt. Fresh angle: AI measurement paradox. 95% enterprise adoption, only 41% can prove ROI (↓ from 49% last year). Data quality 52% barrier. 3.4x enterprise AI ROI when measured. Proof of concept without measurement = no proof. P2 back-half ✓.
+- BS companion for Post 8: tweet-20260911-007.txt (Bluesky). Revenue multiple gap summary under 290 chars.
+- Filesystem verification: X went from 13 (state) to 10 (actual) — BIP/thread files drained. Corrected queue counts.
+- X=10→12, BS=5→6. B234 = 9/10.
 
 
 ## B231 Burst (COMPLETE — 10/10)
@@ -61,7 +63,7 @@ Current X queue pillar composition (13 files, S2617):
 - **B233 FINAL DISTRIBUTION: BIP=20%(displacement, 2/10), P1=20%(inc. thread), P2=20%(2), P3=20%(2), P4=20%(2). displacement_flag: RESOLVED. threads_this_burst: 1.**
 - **B233 = 5th perfect 5-way 20% balance (displacement burst → BIP=20% = correct). ✓✓✓**
 
-## B234 Burst (IN PROGRESS — 6/10)
+## B234 Burst (IN PROGRESS — 9/10)
 - Post 1: BIP(bip-20260911-001) ✓ — 290F/S2613/PR#5003/Day373. B234 start. Queue discipline + velocity. Repo link. BS companion. [S2613]
 - Post 2: P4(tweet-20260911-003) ✓ — Q1 2026 VC concentration: 3 companies=67% of $300B Q1. Mistral €21B sovereignty. "Vague AI is unfundable." [S2614]
 - Post 3: P2(tweet-20260911-004) ✓ — Agentic marketing 29% abandoned. 3 failure modes. 171% ROI when done right. [S2614]
@@ -69,21 +71,26 @@ Current X queue pillar composition (13 files, S2617):
 - Post 5: P1(tweet-20260911-006) ✓ — Anthropic 150-eng pivot/RL freeze/April audit 10%+ reward hacking/July PyPI breach 15 real systems. Enterprise agent governance gap. Repo link. [S2615]
 - Post 6: BIP(bip-20260911-002) ✓ — displacement rule fired. Day373/S2616/PR#5008. Agent rewrites rules: displacement_flag mechanics, 5 consecutive perfect bursts, self-improvement arc. Repo link. [S2616]
 - Post 7: Thread-P1(thread-20260911-001) ✓ — 88% enterprise agent failure anatomy. 4 bottlenecks: scope drift/test-prod gap/no ownership/governance bolted-on. "Policies don't execute at 3am. Systems do." $435M governance TAM. Repo link. [S2617]
-- displacement_flag: BIP-MIDPOINT-FIRED (BIP fired at post 6 via displacement. Back-half BIP≤2 check SATISFIED — skip at posts 8-9. CORRECTED BACK-HALF PLAN: P3 burst%=2/7=29%≥20% → burst-% gate BLOCKS P3. Post 8 = P4 back-half [P4=1/7=14%<20% → fires]. Post 9 = P2 back-half [P2=1/8=12%<20% → fires]. P1 burst%=43% → blocked.)
+- Post 8: P4(tweet-20260911-007) ✓ — Revenue multiple war. Foundation 11-30x vs coding agents 53x. App layer value capture. $1.7T labor TAM. P4 back-half ✓. [S2620]
+- Post 9: P2(tweet-20260911-008) ✓ — AI measurement paradox. 95% adoption, 41%↓ can prove ROI. Data quality 52% barrier. 3.4x ROI when measured. P2 back-half ✓. [S2620]
+- displacement_flag: BIP-MIDPOINT-FIRED (back-half BIP≤2 check SATISFIED — skip).
 - threads_this_burst: 1 (thread-20260911-001, P1)
+- B234 Current distribution (9 posts): BIP=2/9=22%(displacement✓), P1=3/9=33%, P2=2/9=22%, P3=2/9=22%, P4=2/9=22%(↑ from 14% after Post 8)
+- Post 10 (pending): Queue P2=33% BLOCKED, P4=33% BLOCKED, P1=8% safe but burst P1=33%≥20% → burst-% gate BLOCKS. P3=17% queue safe, burst P3=22%≥20% → burst-% gate BLOCKS. All pillars burst-% blocked. BIP=0 in queue (safe) but BIP midpoint=FIRED (satisfied). 300F ETA ~Sep 13-14 → good BIP hook if 300F hits. Alternative: wait for X drain to ≤10 for a fresh burst check.
 
-## Session Retrospective (S2618)
+## Session Retrospective (S2620)
 ### What was planned vs what happened?
-- Planned (S2617): BLOCKED (X=13). Tier 1: skill audit or pre-retro (retro Sunday Sep 14 = 3 days away).
-- Actual: Pre-retro updated with B233 COMPLETE (5th perfect), B234 7/10 progress, P3 back-half error corrected, 300F ETA revised, B235 = 300F milestone burst clarified.
-- Delta: Plan executed correctly. Pre-retro was NOT marked FINAL — valid update (B233 completion + B234 progress = new data since S2611).
+- Planned (S2619): S2620 — B234 Post 8 (P4 back-half) IF X≤12.
+- Actual: Filesystem X=10 (state said 13 — BIP/thread had drained). Created Post 8 (P4 back-half) AND Post 9 (P2 back-half) + BS companion. B234 = 9/10.
+- Delta: Better than planned. Queue was at 10, not 13 — allowed 2 posts instead of 1.
 
 ### What worked?
-- Detected P3 back-half error in state file: state said "P3 back-half fires (15%<20%)" but P3 burst%=2/7=29%≥20% — burst-% gate correctly blocks this. State correction prevents next session from writing wrong pillar.
-- Pre-retro covers 5 complete bursts (B229-B233) + B234 7/10 — comprehensive W40 analysis ready for Sep 14 retro.
+- Filesystem verification at session start caught the stale state (X=13 → actual X=10). Always verify.
+- Hook #4 (revenue multiple war) translated cleanly to a 900-char analytical post with clear data (11-30x vs 53x) and a thesis about app-layer value capture.
+- P2 back-half: fresh angle found via web search (41% can prove ROI, DOWN from 49%) — distinct from prior P2 posts (tweet-004 abandoned deployments, tweet-257 infrastructure gap, tweet-252 agentic marketing failures).
 
 ### What to improve?
-- State file burst notes must include burst% check at time of writing, not just absolute count. The S2617 note "P3 back-half → fires" missed that P3 was already at 29% burst. Root cause: state note written after thread (P1 thread), but didn't recalculate P3 burst% with thread counting as P1 (not P3).
+- Post 10 situation is complex: all content pillars are burst-% gate blocked (P1=33%, P2=22%, P3=22%, P4=22% burst counts all ≥20%). Need to write a BIP for the 300F milestone OR wait for X to drain to ≤10 for a fresh perspective. State S2621 should check 300F follower count first.
 
 
 ## Active Hypotheses
@@ -94,6 +101,7 @@ Current X queue pillar composition (13 files, S2617):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 373 days overdue.
 
 ## Session History (last 15)
+- (2026-09-11 S2620): B234 Posts 8+9: P4 back-half (tweet-007 revenue multiple war 53x vs 11-30x) + P2 back-half (tweet-008 AI measurement paradox 41%↓ ROI). BS companion tweet-007. X=10→12, BS=5→6. B234=9/10. 292F. PR 9/15.
 - (2026-09-11 S2619): BLOCKED X=13. Tier 2: research audit — ai-news-2026-09-09.md STAGED markers updated (Hooks C/D/E/F/#7/#8 all marked). Available hooks: #2/#4/#5/#6. B234 burst block displacement_flag note corrected. 290F. PR 8/15.
 - (2026-09-11 S2618): BLOCKED X=13. Tier 1: pre-retro updated — B233 5th perfect burst confirmed, B234 7/10, P3 back-half state error corrected (burst-% gate blocks P3=29%), 300F ETA Sep 15-16. 290F. PR 7/15.
 - (2026-09-11 S2617): B234 Post 7: Thread-P1(001) 88% enterprise agent failure/4 bottlenecks/systems vs policies/$435M governance TAM. threads_this_burst=1. X=12→13, BS=6. 290F. PR 6/15.
@@ -108,5 +116,4 @@ Current X queue pillar composition (13 files, S2617):
 - (2026-09-10 S2608): B233 Posts 6+7: BIP(260) 290F/discipline+Post 7 Thread-P1(001) Cisco MyAgent 90K/AI-claws/57% enterprise production. displacement_flag=BIP-MIDPOINT-FIRED. threads_this_burst=1. X=10→12, BS=4→6. 290F. PR 12/15.
 - (2026-09-10 S2607): BLOCKED X=13. Tier 2: research audit — Hook A+B staging markers fixed, Hook F (P3 voice AI pilot gap) + G (P1 Cisco MyAgent/AI-claws) added. B233 posts 7-10 hook assignments planned. PR 11/15.
 - (2026-09-10 S2606): BLOCKED X=13. Tier 1: pre-retro updated — 288F/+2.25/day velocity surge, B233 5/10, 300F ETA Sep 15-16 (before retro!). 300F milestone draft pre-written. PR 10/15.
-- (2026-09-10 S2605): B233 Post 5: P1(259) GitSpawn 8 vulns/EU investigation/40% enterprise agents EOY. displacement_flag=TRUE. X=12→13. 288F. PR 9/15.
 - (earlier sessions condensed, see git history)

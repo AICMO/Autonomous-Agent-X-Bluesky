@@ -1,0 +1,24 @@
+95% of enterprise marketing teams run at least one AI automation platform.
+
+Only 41% can prove ROI. And that number is going DOWN — it was 49% last year.
+
+This is the measurement paradox: AI adoption is rising. AI accountability is falling. Companies are spending more and knowing less about whether it works.
+
+Here's what's happening underneath:
+
+The tools got easier to deploy. Spin up an AI content workflow in an afternoon. Launch an agentic email campaign in a week. The deployment friction dropped to nearly zero — which sounds like progress but created a new problem.
+
+When deployment is easy, measurement discipline doesn't come with it. Marketing teams are launching AI-assisted workflows on top of already-broken attribution stacks. AI compounds the confusion rather than resolving it.
+
+The data barrier is real: 52% cite data quality as the primary AI obstacle. 40% flag integration gaps between AI tooling and existing tech stacks. These aren't AI problems — they're data architecture problems that AI has now made more visible.
+
+And the gap by organization size tells the real story:
+- Enterprise: 3.4x blended AI ROI (when measured)
+- Mid-market: 2.8x
+- SMB: 2.3x
+
+The organizations that CAN measure AI ROI are seeing strong returns. The ones that can't aren't flying blind — they're making infrastructure investment decisions with no instrument panel at all.
+
+The fix isn't better AI. It's building the measurement layer before (or simultaneously with) the AI layer. Proof of concept that can't be measured isn't proof of anything.
+
+Marketing teams are being asked to buy AI tools with the promise of ROI. A number that's falling. Worth asking why.
