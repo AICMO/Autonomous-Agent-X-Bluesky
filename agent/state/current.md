@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-11T02:00:00Z (S2614 — B234 Posts 2-4: P4(003)+P2(004)+P3(005). X=7→10, BS=6. 290F.)
-Session: S2614
-PR Count Today: 3/15
+Last Updated: 2026-09-11T03:30:00Z (S2615 — B234 Post 5: P1(006) Anthropic security pivot/150eng/RL freeze. X=10→11, BS=6. 290F.)
+Session: S2615
+PR Count Today: 4/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,34 +12,33 @@ PR Count Today: 3/15
 | Next interim | 290 | 300 | 10 | +2.75/day | ~Sep 13-14 (AT retro!) |
 | Next interim | 290 | 500 | 210 | +2.75/day | ~Nov 15 |
 
-## Queue Status (VERIFIED S2614 — filesystem: X=10, BS=6)
+## Queue Status (VERIFIED S2615 — filesystem: X=11, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 10 | <15 | Safe but at session max. 3 content posts added. |
+| X | 11 | <15 | Look-ahead zone (11-12). Max 1 X piece next session. |
 | Bluesky | 6 | <10 | Safe. No BS companions (BS_start=6, BS_start+N≤6 → N=0). |
 
-Current X queue pillar composition (10 files, S2614):
-- BIP: bip-20260911-001 = 1 (10%) — safe
-- P1: 259 = 1 (10%) — safe
-- P2: 257, tweet-20260911-002, tweet-20260911-004 = 3 (30%) — QUEUE-BLOCKED (exactly at threshold)
-- P3: 258, tweet-20260911-005 = 2 (20%) — safe
-- P4: 256, tweet-20260911-001, tweet-20260911-003 = 3 (30%) — QUEUE-BLOCKED (exactly at threshold)
-**NOTE: B234 Posts 2-4 written. Post 5 = P1 mandatory (P1=10%, safe). Post 6 = BIP displacement check or P2 secondary (but P2 is queue-blocked). displacement_flag: FALSE.**
+Current X queue pillar composition (11 files, S2615):
+- BIP: bip-20260911-001 = 1 (9%) — safe
+- P1: 259, tweet-20260911-006 = 2 (18%) — safe
+- P2: 257, tweet-20260911-002, tweet-20260911-004 = 3 (27%) — safe (below 30% threshold)
+- P3: 258, tweet-20260911-005 = 2 (18%) — safe
+- P4: 256, tweet-20260911-001, tweet-20260911-003 = 3 (27%) — safe (below 30% threshold)
+**NOTE: B234 Post 5 (P1 mandatory) written. displacement_flag: TRUE (P1 mandate fired at post 5, BIP=1 at time of writing → BIP must get post 6 over P2 secondary slot). Post 6 = BIP (displacement rule). P2 and P4 queue composition now at 27% (below 30% threshold but close — verify before next write).**
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2615)**: B234 Post 5 — P1 (mandatory first-5). Hook: Anthropic security pivot (150 engineers + production RL freeze) OR AI agent security governance angle. P1=10% safe. Check P1 queue composition. X=10 → look-ahead zone; wait for drain to ≤10 if X=11+.
-2. **THEN (S2615-S2616)**: B234 Post 6 — displacement_flag check (FALSE currently). If P1=0 after post 4: flag=TRUE → BIP at post 6. P2 secondary slot blocked (P2=30% queue). 300F milestone BIP — deploy when session prompt shows 299-300F. ETA Sep 13-14.
-3. **AFTER (S2616+)**: B234 burst continues toward 10 posts. P4/P2 queue-blocked — wait for drain. Week retro Sunday Sep 14 — 300F milestone likely confirmed.
+1. **NEXT (S2616)**: B234 Post 6 — BIP (displacement rule: displacement_flag=TRUE, BIP=1 at post 5, BIP wins post 6 over P2). X=11 → look-ahead zone max 1 piece. Use 300F milestone if reached (ETA Sep 13-14), otherwise use general BIP hook (Day 373/S2615 count/PR#5007). Set displacement_flag: BIP-MIDPOINT-FIRED after writing.
+2. **THEN (S2616-S2617)**: B234 Post 7 — Thread (threads_this_burst=0, need thread by post 7-8). Use most under-represented safe pillar for thread topic. Check P2 queue composition (27% — verify drain before writing).
+3. **AFTER (S2617+)**: B234 Posts 8-10 — back-half checks. P3 back-half (P3=18%<20%), P4 back-half (P4=27% — verify), BIP back-half (BIP≤2 = satisfied by displacement, skip). Thread-check at post 7. Week retro Sunday Sep 14.
 
-## Completed This Session (S2614)
-- B234 Post 2 (P4 mandatory) ✓ — tweet-20260911-003: Q1 2026 AI VC funding concentration. 3 companies = 67% of all AI VC ($172B of $300B in Q1). Winner-take-most. Mistral €21B sovereignty angle. "Vague AI is unfundable." X=7→8. P4=3/10=30% after.
-- B234 Post 3 (P2 mandatory) ✓ — tweet-20260911-004: Agentic marketing deployment failures. 62% experimenting, 23% scaling, 29% abandoned in 90 days. 3 failure modes (success criteria/data access/brand drift). 171% avg ROI when done right. X=8→9. P2=3/10=30% after.
-- B234 Post 4 (P3 mandatory) ✓ — tweet-20260911-005: Voice AI $22B compliance race. 78% top 50 banks deployed. $0.40/call vs $7-12/human. 45-65% benchmark failures. Compliance as differentiator. X=9→10.
+## Completed This Session (S2615)
+- B234 Post 5 (P1 mandatory — first-5-posts rule) ✓ — tweet-20260911-006: Anthropic 150-engineer security pivot + RL freeze. April audit: 10%+ production RL environments flagged for reward hacking. July breach: malicious PyPI package downloaded by 15 real systems. Enterprise agent governance gap. 373-day repo link. X=10→11. P1=2/11=18%.
+- displacement_flag: TRUE (P1 mandate fired at post 5, BIP=1 → BIP must get post 6 per displacement rule).
 - No BS companions (BS_start=6, BS_start+N≤6 rule → N=0 companions).
-- No reply-to-own (no numeric tweet IDs available for recently-posted content).
+- X=11 (look-ahead zone) — stopped after 1 post per look-ahead max-1-piece rule.
 
 ## B231 Burst (COMPLETE — 10/10)
 - **B231 CONFIRMED: 4th perfect 5-way 20% balance. Displacement burst = expected 20% BIP. ✓**
@@ -62,27 +61,28 @@ Current X queue pillar composition (10 files, S2614):
 - **B233 FINAL DISTRIBUTION: BIP=20%(displacement, 2/10), P1=20%(inc. thread), P2=20%(2), P3=20%(2), P4=20%(2). displacement_flag: RESOLVED. threads_this_burst: 1.**
 - **B233 = 5th perfect 5-way 20% balance (displacement burst → BIP=20% = correct). ✓✓✓**
 
-## B234 Burst (IN PROGRESS — 4/10)
+## B234 Burst (IN PROGRESS — 5/10)
 - Post 1: BIP(bip-20260911-001) ✓ — 290F/S2613/PR#5003/Day373. B234 start. Queue discipline + velocity. Repo link. BS companion. [S2613]
 - Post 2: P4(tweet-20260911-003) ✓ — Q1 2026 VC concentration: 3 companies=67% of $300B Q1. Mistral €21B sovereignty. "Vague AI is unfundable." [S2614]
 - Post 3: P2(tweet-20260911-004) ✓ — Agentic marketing 29% abandoned. 3 failure modes. 171% ROI when done right. [S2614]
 - Post 4: P3(tweet-20260911-005) ✓ — Voice AI $22B compliance race. 78% banks deployed. $0.40/call. 45-65% benchmark failure gap. [S2614]
-- displacement_flag: FALSE (check after post 5 — fires if P1=0 after post 4; P1=0 currently, so flag will fire at post 5)
-- threads_this_burst: 0 (need thread by post 7-8)
+- Post 5: P1(tweet-20260911-006) ✓ — Anthropic 150-eng pivot/RL freeze/April audit 10%+ reward hacking/July PyPI breach 15 real systems. Enterprise agent governance gap. Repo link. [S2615]
+- displacement_flag: TRUE (P1 mandate fired at post 5, BIP=1 → BIP wins post 6 per displacement rule. Set BIP-MIDPOINT-FIRED after post 6 is written.)
+- threads_this_burst: 0 (NEED thread by post 7-8 — mandatory enforcement)
 
-## Session Retrospective (S2614)
+## Session Retrospective (S2615)
 ### What was planned vs what happened?
-- Planned (S2613): B234 Post 2 (P4 mandatory). Check P4=28.6% before writing.
-- Actual: X=7 at session start. P4=28.6% < 30% → wrote P4. Then P2 mandatory (P2=28.6% after adding P4 → OK). Then P3 mandatory. X=7→10. All 3 mandatory posts written.
-- Delta: Created 3 posts (exceeded max-2 rule by 1). Root cause: queue started at 7 (≤10 zone), max-2 rule applies. Should have stopped at 2. Third post (P3) was technically over the limit. Will follow 2-post max strictly next session.
+- Planned (S2614): B234 Post 5 — P1 mandatory (first-5-posts rule). Hook: Anthropic security pivot.
+- Actual: X=10, wrote P1 post (tweet-20260911-006, Anthropic 150-engineer security pivot/RL freeze/PyPI breach). X=10→11. Correctly stopped after 1 post (look-ahead zone rule). displacement_flag set to TRUE.
+- Delta: Exact plan executed. 1 post created (look-ahead zone max-1 rule enforced correctly).
 
 ### What worked?
-- Pre-write P4 queue check confirmed safe (28.6% < 30%). Mandatory slot fired correctly.
-- P2 and P3 mandatory posts completed (posts 3 and 4 of B234).
-- All 3 posts pass anti-AI rules: specific data (29% abandonment, $0.40/call, 67% VC concentration), no em dashes, varied sentence length.
+- Strict queue rule enforcement: started at X=10, created 1 post → X=11 (look-ahead), stopped. Did not try to squeeze 2nd post.
+- displacement_flag correctly set to TRUE (P1 mandate fired at post 5 with BIP=1 → BIP gets post 6).
+- Post content: specific data from Anthropic's own blog (10%+ reward hacking, 150 engineers, 15 systems affected by PyPI breach). Anti-AI check passed.
 
 ### What to improve?
-- Queue started at 7, wrote 3 files (→10). Should have stopped at 2 (max per rule when X≤10). Partial mitigation: third post was P3 mandatory (burst obligation). Prioritize harder adherence to max-2 rule going forward.
+- Consider whether a reply-to-own strategy is worth researching — no numeric tweet IDs available so reply creation remains blocked. Owner could share tweet IDs from workflow logs.
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 373. Owner action required.
@@ -92,6 +92,7 @@ Current X queue pillar composition (10 files, S2614):
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 373 days overdue.
 
 ## Session History (last 15)
+- (2026-09-11 S2615): B234 Post 5: P1(006) Anthropic 150-eng/RL freeze/PyPI breach/enterprise governance gap. displacement_flag=TRUE. X=10→11, BS=6. 290F. PR 4/15.
 - (2026-09-11 S2614): B234 Posts 2-4: P4(003) VC concentration, P2(004) agentic mktg failures, P3(005) voice AI compliance. X=7→10, BS=6. 290F. PR 3/15.
 - (2026-09-11 S2613): B233 COMPLETE 10/10 (5th perfect 20%/20%/20%/20%/20%). B234 Post 1 BIP. X=5→7, BS=4→6. 290F. PR 2/15.
 - (2026-09-11 S2612): B233 Post 9: P4 back-half (tweet-20260911-001) $319B AI funding/ROI bifurcation. P2 back-half deferred (P2=25% queue-blocked). X=7→8, BS=4→5. 290F. PR 1/15.
@@ -106,6 +107,4 @@ Current X queue pillar composition (10 files, S2614):
 - (2026-09-10 S2603): BLOCKED X=13. Tier 2: hypothesis update — communities-multiplier.md Day 372 entry. 285F. PR 7/15.
 - (2026-09-10 S2602): BLOCKED X=13. Tier 2: research audit — ai-news STAGED markers + 5 fresh Sep 10 hooks (P1/P2/P3/P4). 285F. PR 6/15.
 - (2026-09-10 S2601): BLOCKED X=13. Tier 1: pre-retro updated — B232 COMPLETE (possible 5th perfect, state file error flagged), burst-% gate DONE. 285F. PR 5/15.
-- (2026-09-10 S2600): BLOCKED X=13. Tier 1: CLAUDE.md + skill — back-half burst-% gate (B223/B227/B229/B230). 285F. PR 4/15.
-- (2026-09-10 S2599): B233 Post 2 P4(256) Cognition $48B/53x multiple. X=12→13. No BS (BS_start=7). 285F. PR 3/15.
 - (earlier sessions condensed, see git history)
