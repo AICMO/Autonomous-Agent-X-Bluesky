@@ -1,0 +1,20 @@
+Foundation models trade at 11-30x revenue. Autonomous coding agents trade at 53x.
+
+That gap isn't a valuation anomaly. It's the market answering a question most people haven't asked yet: where does AI value actually get captured?
+
+Here's the breakdown:
+- Anthropic: ~$3.5B ARR / $40B valuation = 11x
+- OpenAI: ~$10B ARR / $300B valuation = 30x
+- Cognition (Devin): $900M ARR / $48B valuation = 53x
+
+Foundation model providers sell picks and shovels. They compete on capability benchmarks, burn billions on compute, and face commoditization pressure every time a new model drops. The margin compression is structural.
+
+Autonomous coding agents do something different. They don't just respond to prompts — they execute complete software engineering tasks end to end. Write the code. Open the PR. Run the tests. Fix the failures. 90%+ of Cognition's own codebase is now written by Devin.
+
+When an AI system can replace a $200K/year engineer (not assist, replace), the revenue multiple math changes entirely. You're not buying a tool. You're buying a worker.
+
+That's why the market prices coding agents differently. The TAM isn't "enterprise software." It's "global software engineering labor" — a $1.7T market.
+
+The question isn't whether foundation model multiples will compress. They will. The question is which application-layer AI companies capture the productivity delta before the next model release flattens their moat.
+
+App layer. Not model layer. That's where the revenue multiple premium is being priced in.
