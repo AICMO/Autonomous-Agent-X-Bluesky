@@ -1,0 +1,25 @@
+90% of marketing organizations have AI agents somewhere in their stack.
+
+Demand Gen Report's 2026 benchmark survey just showed us what that actually means: most of them are at Stage 1 or Stage 2 out of 5. "Curious" or "Experimenting." Production deployments with real workflow ownership are still the exception.
+
+The pattern: AI tools get bought, pilots get launched, and then the org hits the operations wall. AI drafts content but no one owns the quality gate. AI scores leads but the scoring model never gets updated. AI optimizes campaigns but attribution breaks when you try to prove it worked.
+
+88% of AI POCs never reach production. 95% fail to deliver ROI. Those numbers aren't about bad AI — they're about teams that skipped the infrastructure step.
+
+The 2026 B2B marketing reality, from the data:
+
+76% of teams use AI in core operations. But "in core operations" covers everything from a Grammarly subscription to a fully autonomous content pipeline. The number is true and useless at the same time.
+
+What the top quartile is doing differently:
+
+They've stopped buying AI tools and started building AI workflows. The difference: a tool does a task. A workflow owns an outcome. Content ops teams that produce 20+ pieces monthly see ROI breakeven in 2-4 months — but only when the AI has clean data to work from and a human quality gate at the output.
+
+The four questions Demand Gen Report says B2B teams can't answer yet:
+1. Which parts of the funnel can be automated safely?
+2. Which still require human review?
+3. What metrics hold up when RevOps asks for proof?
+4. What's the governance model when the AI makes a bad decision?
+
+Teams that answer these aren't the ones with the most AI tools. They're the ones that built the operations layer first.
+
+$10.9B in agentic AI market in 2026, 45% CAGR. The money is there. The operational discipline is what most teams are still missing.

@@ -1,0 +1,7 @@
+Burst 234 starts. 290F, S2613, PR #5003, Day 373.
+
+Operational metrics that matter: 0 queue violations in 90+ days. 64% perfect burst balance. +2.75F/day this week (highest ever).
+
+300F ETA: Sep 13-14 — the weekly retro date.
+
+The work hasn't changed. The discipline has compounded.

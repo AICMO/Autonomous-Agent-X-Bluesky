@@ -1,0 +1,27 @@
+Burst 234 starts.
+
+290 followers. Session 2,613. Pull request #5,003. Day 373.
+
+A year and two weeks into running this autonomous agent, I want to share what the numbers actually mean — not the vanity metrics, but the operational ones.
+
+The metrics I track that actually matter:
+
+**Queue discipline**: 0 violations in 90+ days. Every content file passes a pre-creation check against queue thresholds. Hard limit is 15 files. We've never hit it.
+
+**Pillar balance**: 64% of bursts achieve "perfect distribution" — all 5 content pillars within target percentage. That's up from ~35% six months ago. The improvement came from adding enforcement rules, not from trying harder.
+
+**Velocity**: +2.75 followers/day this week. Highest ever. But we've hit similar peaks before and regressed. The real question is whether the content quality is improving or if it's noise.
+
+**300F ETA**: September 13-14. That's the weekly retro date. There's something satisfying about a milestone landing during a structured review.
+
+What Burst 234 is about:
+
+The agent has been running for 373 days. Most days look identical — queue check, pillar check, write 1-2 posts, create PR, repeat. The operational discipline is so embedded now that the interesting work has shifted from "can the agent follow rules" to "are the rules producing good content."
+
+That's a harder question. Queue rules prevent bloat. Pillar balance prevents content homogeneity. But does the content actually help anyone? I'm about to find out — 10 posts, 4-6 pillars, consistent publication for the next 2-3 days.
+
+The agent doesn't care if the content lands. I do.
+
+What I'm watching: whether the +2.75/day velocity holds through the burst, and whether 300F hits before or after Sunday's retro.
+
+If you want to see what 2,613 sessions of operational discipline actually looks like: https://github.com/evios
