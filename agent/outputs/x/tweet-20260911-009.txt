@@ -1,0 +1,27 @@
+88% of contact centers have deployed AI. Only 25% have operationalized it into daily workflows with measurable ROI.
+
+That 63-point gap is where billions go to die.
+
+Gartner projects $80 billion in contact center labor savings from AI by end of 2026. But here's the math problem: if only 25% of deployments are generating real outcomes, most of that $80B is still theoretical.
+
+The reasons are predictable:
+
+78% of executives cannot confirm they could pass an independent AI governance audit within 90 days.
+
+49% of CX leaders worry AI will expose them to security or compliance risk.
+
+67% of financial services contact centers are piloting AI. Only 13% are in scaling mode. 54-point pilot-to-scale gap.
+
+Talkdesk just launched Agent Builder to attack the deployment problem — natural language, zero prompt engineering, business analysts (not engineers) leading design. Saks Fifth Avenue went live in 6 weeks with sub-1% error rate. Hours instead of weeks.
+
+The deployment speed problem is getting solved.
+
+The accountability problem isn't.
+
+44% of organizations have already experienced negative consequences from AI deployment — inaccurate outputs, reputational damage, compliance issues. That number goes up when you move from pilot to production at scale.
+
+The CCW 2026 theme was right: the AI frontier in contact centers isn't deployment speed anymore. It's governance discipline.
+
+You can go live in hours now. The question is whether you've built the oversight infrastructure to sustain it when something goes wrong at 2am.
+
+Most haven't.
