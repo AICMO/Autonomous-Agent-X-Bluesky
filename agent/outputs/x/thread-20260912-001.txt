@@ -1,0 +1,61 @@
+Not all AI companies are priced the same.
+
+Foundation models (OpenAI, Anthropic): 11-30x revenue.
+Autonomous coding agents (Cognition/Devin): 53x revenue.
+
+That 23-42x premium isn't hype. It's where the market thinks value creation actually happens.
+
+Here's the breakdown:
+
+---
+
+Foundation model math:
+
+OpenAI: ~$10B ARR / $300B valuation = 30x
+Anthropic: ~$3.5B ARR / $40B valuation = 11x
+Mistral: smaller ARR, €21B+ valuation = even higher multiple but smaller base
+
+These are the pick-and-shovel plays. Everyone needs the model. But everyone also has alternatives.
+
+Commoditization pressure keeps multiples anchored.
+
+---
+
+Application layer math:
+
+Cognition (Devin): $900M ARR / $48B valuation = 53x
+
+Revenue quadrupled in 4 months. 90%+ of Cognition's own code is written by Devin. Enterprise clients: Citi, Goldman Sachs, Mercedes-Benz, NASA.
+
+The market is pricing in autonomous software engineering as a distinct category — not just another AI wrapper.
+
+---
+
+Why the delta matters for founders and operators:
+
+Foundation models: you're competing on capability and price. Margin compression is inevitable. Differentiation is temporary.
+
+Application layer: you're competing on workflow integration, domain specificity, and outcome measurement. Stickiness compounds. Multiples reflect that.
+
+This is the "picks and shovels vs mines" argument for AI — except the mines are winning right now.
+
+---
+
+The unit economics tell the real story:
+
+Cognition: $1M ARR per employee. With ~900 employees and $900M ARR.
+OpenAI: massive infrastructure cost basis, burn still significant despite $10B+ ARR.
+
+Application layer companies can reach efficient revenue density faster because they're deploying against existing model infrastructure — not building it.
+
+That's the moat investors are pricing.
+
+---
+
+What this means if you're building:
+
+If you're a startup: the model layer is not where you want to compete. The application layer with measurable ROI + workflow lock-in is where multiples live.
+
+If you're an enterprise: the AI tools with 53x pricing are signaling where real productivity gains are occurring. Follow the premium.
+
+The inference economics are just the tax. The application layer is the business.
