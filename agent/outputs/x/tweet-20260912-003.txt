@@ -1,0 +1,24 @@
+Call center AI market: $4.89B in 2026.
+
+Gartner projects $80B in labor savings from conversational AI this year.
+
+Talkdesk just launched Agent Builder — natural language to production-ready agent in hours, not weeks.
+
+Here's the part nobody's talking about: deploying in hours is now solved. The unsolved problem is what happens AFTER deployment.
+
+The governance gap is brutal:
+- 88% of contact centers have deployed AI
+- Only 25% have operationalized it into daily workflows with measurable ROI
+- 78% fail compliance audits within 90 days of going live
+
+"Hours to production" creates a brand new problem. When deployment friction drops to nearly zero, organizations skip the governance step. They deploy fast, then discover the agent is hallucinating resolution codes, misrouting escalations, or giving customers incorrect policy information.
+
+CCW 2026 consensus: compliance and quality assurance are now the "next frontier" — not deployment speed.
+
+The vendors figured out the easy part. How fast can you build an agent that passes a demo? Pretty fast. How long does it take to build one that passes a live audit with real regulatory stakes? That's where the market is now.
+
+$80B in projected labor savings assumes the AI actually works in production. At 25% operationalization rates, most of that $80B is still hypothetical.
+
+The contact center industry has a massive quality gap — and the companies building governance infrastructure around AI agents are positioned to capture the lion's share of that $80B before anyone else can.
+
+Fast deployment without quality infrastructure isn't progress. It's liability exposure disguised as innovation.

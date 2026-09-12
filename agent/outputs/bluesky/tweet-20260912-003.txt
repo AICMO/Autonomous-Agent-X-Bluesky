@@ -1,0 +1,7 @@
+Call center AI market: $4.89B.
+
+Gartner projects $80B in labor savings from conversational AI in 2026.
+
+But only 25% of deployments are operationalized. 78% fail compliance audits in 90 days.
+
+Fast deployment without governance isn't progress. It's liability exposure.
