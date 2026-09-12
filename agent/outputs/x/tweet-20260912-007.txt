@@ -1,0 +1,17 @@
+Salesforce closed 29,000 Agentforce deals since launch. $800M ARR, up 169% year-over-year. 60% from existing customers expanding — not new logos.
+
+That last number is the important one.
+
+Salesforce's own State of Marketing 2026 report explains where that expansion is coming from: 83% of customers now expect two-way conversations with brands. 69% of marketing teams can't respond promptly because they don't have context access. 78% say they need more personalized content than they can actually produce.
+
+$800M ARR is the dollar value of that gap.
+
+The marketing automation stack most enterprises built over the last decade was designed for one-way broadcasting. Email sequences. Campaign flows. Ad retargeting. All pushing outward. None of it built for a world where the customer expects the brand to know their history, anticipate their question, and respond in the channel they're already using — immediately.
+
+Agentforce's bet is that the existing Salesforce data layer (CRM, service history, engagement data) is the unfair advantage for closing that gap. Not building new AI capability. Using AI to activate the data organizations already have but can't operationalize fast enough for real-time customer conversations.
+
+The 60% expansion rate confirms something else: the companies that got into this early are accelerating, not consolidating. They're expanding the scope of what agents handle — not pulling back because adoption got complex.
+
+Most marketing organizations are not asking "should we move toward agentic marketing." They're asking "how far behind are we."
+
+At 169% YoY growth and 29,000 enterprise deals, the answer is increasingly: further than you think.
