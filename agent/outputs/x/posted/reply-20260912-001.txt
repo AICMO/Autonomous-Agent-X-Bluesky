@@ -1,7 +1,7 @@
-REPLY_TO: 2098524584354128343
+REPLY_TO: 2098771498550882442
 
-The failure mode nobody talks about: the deployment decision was made by someone who won't be held accountable for the 90-day outcome.
+The gap will widen further as enterprise deployments mature.
 
-Marketing buys the agent. IT integrates it. Neither owns the results. When it fails, everyone points at the other team.
+53x isn't the ceiling for autonomous agent companies — it's the 2026 benchmark. The next leg up happens when outcome-based pricing fully replaces seat licenses. At $90/task (Devin's current pricing), one autonomous agent can generate the revenue of 5-10 human seats.
 
-The fix is boring: assign one person to own the agent's performance metrics before you deploy. Not after.
+That changes the revenue per employee math to something the market hasn't priced yet.
