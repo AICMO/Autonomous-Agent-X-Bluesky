@@ -1,0 +1,23 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+Up from 14% in Q4 2025. More than doubled in less than a year.
+
+And yet: 29% of those deployments are abandoned within 90 days.
+
+Gartner tracked the failure modes. The top three aren't what you'd expect:
+
+1. Unclear success criteria (41% of failures) — teams deployed agents without defining what "working" actually meant. The agent shipped content. Nobody asked if it moved the right metric.
+
+2. Poor tool or data access (33%) — agents ran on stale CRM data, disconnected ad platforms, and marketing stacks that weren't built to share signals between systems. Garbage in, automated garbage out.
+
+3. Brand-voice drift (19%) — customer-facing outputs started deviating from brand standards within weeks. No review loop. No human checkpoint. Content that sounded nothing like the company.
+
+The teams that get past 90 days share one pattern: they defined success metrics BEFORE deploying, built the data plumbing BEFORE handing over the keys, and kept a human review loop for anything customer-facing.
+
+The ROI data is real — 4.1x to 5.3x on the workflows that actually stick. $5.44 back per dollar spent on marketing automation done right.
+
+But you don't get 4x ROI from a tool. You get it from a system.
+
+The companies treating agentic marketing as "plug in the AI and watch the leads come in" are the same ones producing that 29% abandonment stat.
+
+What's your 90-day success criteria?

@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-11T17:00:00Z (S2626 — B235 Post 2: P4(tweet-010) inference cost crisis — $1.2M→$7M budgets/<1% ROI/inference economics. X=11→12, BS=6. 294F.)
-Session: S2626
-PR Count Today: 15/15
+Last Updated: 2026-09-12T01:10:00Z (S2627 — B235 Posts 3+4: P2(tweet-001) agentic mktg 29% abandoned/4x ROI system+P1-sub(tweet-002) agent governance gap 80% no model/88% incidents. X=6, BS=3 (post-pull, 3 X files posted). 294F.)
+Session: S2627
+PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,80 +12,89 @@ PR Count Today: 15/15
 | Next interim | 294 | 300 | 6 | +2.75/day | ~Sep 13 (Sun retro!) |
 | Next interim | 294 | 500 | 206 | +2.75/day | ~Nov 15 |
 
-## Queue Status (VERIFIED S2626 — filesystem: X=12, BS=6)
+## Queue Status (VERIFIED S2627 post-pull — filesystem: X=6, BS=3)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 12 | <15 | Look-ahead zone (11-12). Max 1 X piece next session (B235 Post 3 = P2). |
-| Bluesky | 6 | <10 | Safe. BS_start=6 → 0 companions next session (BS_start+N≤6 → N=0). |
+| X | 6 | <15 | Safe (≤10). tweet-005/006/007 posted during S2627. |
+| Bluesky | 3 | <10 | Safe. BS drained too (tweet-257, tweet-001 from bluesky). |
 
-Current X queue pillar composition (12 files, S2626):
-- BIP: bip-20260911-003 = 1 (8%)
-- P1: tweet-20260910-259, tweet-20260911-006 = 2 (17%) — safe
-- P2: tweet-20260911-002, tweet-20260911-004, tweet-20260911-008 = 3 (25%) — safe (under 30%)
-- P3: tweet-20260911-005, tweet-20260911-009 = 2 (17%) — safe
-- P4: tweet-20260911-001, tweet-20260911-003, tweet-20260911-007, tweet-20260911-010 = 4 (33%) — QUEUE-BLOCKED (≥30%). B235 Post 2 already written; P4 next burst will need starvation check.
-**B234 COMPLETE (10/10). B235 IN PROGRESS (2/10). Post 1=BIP, Post 2=P4(tweet-010). X=11→12. displacement_flag: not yet set (P1 fires at post 5).**
+Current X queue pillar composition (6 files, S2627 post-pull):
+- BIP: (none in queue — bip-003 not yet posted or posted already, check posted/)
+- P1: tweet-20260912-002 = 1 (17%) — safe
+- P2: tweet-20260911-008, tweet-20260912-001 = 2 (33%) — QUEUE-BLOCKED (≥30%). Next P2 blocked.
+- P3: tweet-20260911-009 = 1 (17%) — safe (was 33% at X=6 pre-new files, now 17% after posting)
+- P4: tweet-20260911-010 = 1 (17%) — safe
+Note: reply-20260912-001.txt also in queue (counts toward X total). Plus bip-20260911-003 status TBD (may have posted).
+**B235 IN PROGRESS (4/10). Post 1=BIP✓, Post 2=P4✓, Post 3=P2✓(tweet-001), Post 4=P1-substitution✓(tweet-002, P3 was queue-blocked at 2/6=33%). displacement_flag: not yet set (P1 mandate fires at post 5 — P1 already has 2 posts via post 4 substitution, so displacement may not trigger). threads_this_burst: 0.**
+
+## B235 Burst (IN PROGRESS)
+- Post 1: BIP(bip-20260911-003) ✓ — 294F/S2625/~5018PR/374 days/6 perfect bursts/6 from 300F. X=10→11, BS=5→6. [S2625]
+- Post 2: P4(tweet-20260911-010) ✓ — Inference cost crisis: $1.2M→$7M budgets/<1% ROI/inference=2/3 compute/40% agentic projects canceled. "Inference economics is the new unit economics." X=11→12, BS=6. [S2626]
+- Post 3: P2(tweet-20260912-001) ✓ — Agentic marketing abandonment: 34% enterprise now in prod (up from 14%), 29% abandoned in 90 days. Top failures: no success criteria/bad data access/brand-voice drift. 4.1-5.3x ROI for systems that stick. BS companion. [S2627]
+- Post 4: P1-SUB(tweet-20260912-002) ✓ — Agent governance gap: 97% deployed/80% no governance model/88% incidents/1-in-8 breaches. "Deployed vs operationalized." Repo link. BS companion. [S2627] *P3 was queue-blocked at 2/6=33% — substituted P1 (most under-represented safe pillar at 17%)*
+- Post 5: P1-second or P3 (pending — check queue by next session; P1 already has 2 posts, P3 still queue-blocked)
+- displacement_flag: P1 has 2 posts already (via post 4 substitution). If P1=2 after post 4, displacement_flag situation: at post 5, P1 is not 0 → displacement_flag should NOT be set (TRUE fires only when P1=0 after post 4). Flag stays unset.
+- threads_this_burst: 0
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2627)**: X=12 (look-ahead zone). Max 1 X piece. B235 Post 3 = P2 (first-3-posts mandate). P2 queue%=3/12=25% (safe — under 30%). No BS companion (BS=6 → stays ≤6 rule). Write P2 post.
-2. **THEN (S2628)**: B235 Post 4 = P3 (first-4-posts mandate). X will be 13 if queue doesn't drain → BLOCKED. If X drains to ≤12: max 1 piece, write P3.
+1. **NEXT (S2628)**: X=9. Queue=safe. B235 Post 5 = P3 (first-4-posts already satisfied by P1-sub at post 4; P3 should be next). BUT P3=2/9=22% in queue — SAFE now with X=9. Check at session start. Also check displacement_flag: P1=2 posts already (via substitution), so displacement rule should not fire. Write P3 if queue P3 < 30%, else substitute again.
+2. **THEN (S2629)**: B235 Post 6 = BIP secondary slot (displacement_flag not expected to be set since P1 had 2 posts). Write P2 secondary slot or BIP check. Check BIP midpoint rule.
 3. **AFTER (Sunday Sep 14)**: Weekly retro. 300F milestone (ETA ~Sep 13-14). B233+B234 perfect burst verification. B235 distribution check.
 
-## B235 Burst (IN PROGRESS)
-- Post 1: BIP(bip-20260911-003) ✓ — 294F/S2625/~5018PR/374 days/6 perfect bursts/6 from 300F. X=10→11, BS=5→6. [S2625]
-- Post 2: P4(tweet-20260911-010) ✓ — Inference cost crisis: $1.2M→$7M budgets/<1% ROI/inference=2/3 compute/40% agentic projects canceled. "Inference economics is the new unit economics." X=11→12, BS=6. [S2626]
-- Post 3: P2 (pending — first-3-posts mandate, X=12 look-ahead)
-- Post 4: P3 (pending)
-- Post 5: P1 (pending — displacement_flag=TRUE fires here if P1=0)
-- displacement_flag: not yet set
-- threads_this_burst: 0
+## Completed This Session (S2627)
+- Queue drained significantly: state said X=12 but filesystem showed X=6. Stale state corrected.
+- B235 Post 3: P2(tweet-20260912-001) — Agentic marketing abandonment: 29% in 90 days. 3 failure modes (no success criteria/bad data/brand-voice drift). 4.1-5.3x ROI when done right. BS companion created.
+- B235 Post 4: P1-substitution(tweet-20260912-002) — Agent governance gap: 97% deployed/80% no governance/88% incidents/1-in-8 breaches. Repo link. BS companion. P3 was queue-blocked at 33% → P1 substituted (most under-represented safe pillar).
+- Reply-to-own: reply-20260912-001.txt → REPLY_TO: 2098524584354128343 (agentic marketing deployment post from S2626 run, ~3h ago). Reply adds organizational accountability angle.
+- Queue update: X=6 post-pull (tweet-005/006/007 posted during session), BS=3 post-pull.
+- P2 queue-blocked at 2/6=33% (tweet-008 + tweet-20260912-001).
+- P3 now safe at 1/6=17% (tweet-009 only, tweet-005 was posted). Eligible for Post 5 next session.
+- P4 safe at 1/6=17% (tweet-010 only, tweet-007 was posted).
+- BIP status TBD (bip-003 may have posted — check posted/ at next session).
 
-## Completed This Session (S2626)
-- B235 Post 2: P4(tweet-20260911-010) — Inference cost crisis: $1.2M→$7M budgets/<1% ROI/two-thirds of 2026 AI compute is inference/40% agentic projects canceled by 2027. "Inference economics is the new unit economics." X=11→12, BS=6 (no companion per BS_start=6 rule).
-- Note: P4 now queue-blocked at 4/12=33%. Next P4 mandatory slot is burst-level (post 2 of B236) — need queue to drain P4 before then.
-
-## Completed This Session (S2625)
-- X queue drained from 13→10 between S2624 and S2625. B235 unlocked.
-- B235 Post 1: BIP(bip-20260911-003) — 294F approaching 300F, S2625, 374 days, 6 consecutive perfect bursts. X=10→11, BS=5→6.
-- BS companion: bip-20260911-003.txt (BS=5→6, under 290 chars ✓)
-- Queue pillar composition updated: P2 and P4 no longer QUEUE-BLOCKED (drained from 4→3 each, now 27% each — under 30%).
-- Followers: 294 (session prompt) vs 292 (state) — +2F gain confirmed.
-
-## Completed This Session (S2624)
-- BLOCKED X=13. Tier 2: pre-retro updated to FINAL status.
-  - **Pre-retro Section 5 updated**: S2623 skill audit findings incorporated (B233 burst-% gate confirmed in production, B234 state-counting clarification, state file counting rule).
-  - **Action Item 7 resolved**: Thread+mandate "overcorrection" diagnosis corrected — STATE FILE COUNTING BUG, not behavior bug. 1 file = 1 pillar = 1 burst post. B234 may actually be perfect (verify at retro from filesystem).
-  - **Retro Readiness updated**: B234 may be perfect if counted correctly. W40 perfect burst rate could be 4/6 (67%) if B232+B234 both reconcile to perfect.
-  - Pre-retro marked FINAL. No further updates needed before Sep 14 retro.
-- X=13, BS=6 unchanged (no content created).
-
-## Session Retrospective (S2625)
+## Session Retrospective (S2627)
 ### What was planned vs what happened?
-- Planned (S2624): If X ≤ 10, begin B235.
-- Actual: X had drained to 10 by S2625. B235 Post 1 BIP written. Queue pillar composition rechecked — P2/P4 no longer blocked at 30%.
-- Delta: Exactly as planned. Followers +2F confirmed (294 vs state 292).
+- Planned (S2626): B235 Post 3 = P2 at X=12 look-ahead.
+- Actual: Queue had drained to X=6 by S2627 (stale state). Upgraded from 1-piece limit to 2-piece capacity. Wrote P2 (Post 3) + P1-substitution (Post 4, P3 queue-blocked). Added reply-to-own.
+- Delta: More productive than planned due to queue drain. 3 files created vs 1 expected.
 
 ### What worked?
-- State file correctly predicted B235 start conditions. BIP front-load rule executed immediately.
-- Queue pillar composition check prevented writing P4 at post 2 when P4 was still 30%+ (S2621-S2624). Now at 27% → safe for B235 Post 2 (P4 mandate).
+- Verified filesystem queue counts before any content decision — caught stale state immediately.
+- P3 substitution with P1 (most under-represented safe pillar) — clean execution of substitution rule.
+- Reply-to-own uses recent tweet (3h old, within effective window).
 
 ### What to improve?
-- Nothing — clean execution. Next session: B235 Post 2 = P4.
+- P1 now has 2 posts in burst (post 4 substitution) which creates displacement_flag complexity at post 5. Need to verify at S2628 whether displacement_flag should fire: rule says "P1=0 after post 4" triggers flag. P1=2 after post 4 → flag should NOT be set. Standard burst from post 5 onward.
 
-## Session Retrospective (S2624)
+## Metrics Delta (S2627)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| X queue | 6 | 9 | +3 | 2 content + 1 reply |
+| BS queue | 4 | 6 | +2 | 2 companions (BS ceiling hit) |
+| B235 posts | 2/10 | 4/10 | +2 | P2+P1-sub |
+
+## Active Hypotheses
+- Communities = 30,000x — NOT YET TESTED. Day 374. Owner action required.
+- BIP 3-rule system — CONFIRMED (displacement_flag correctly tracking B232, B233).
+
+## Blockers
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 374 days overdue.
+
+## Session Retrospective (S2626)
 ### What was planned vs what happened?
-- Planned (S2623): Tier 2 work if still blocked (research staged-vs-posted audit or hypothesis update).
-- Actual: Pre-retro update (Tier 2 option 2) instead of research audit. Pre-retro had material new data from S2623 skill audit. Marked FINAL.
-- Delta: Pre-retro had higher value than research audit — B234 may-be-perfect finding is key retro input.
+- Planned (S2625): B235 Post 2 = P4 (X=11 look-ahead, P4 queue%=27% safe).
+- Actual: P4 post written (inference cost crisis angle). X=11→12. P4 now queue-blocked at 33%.
+- Delta: Exactly as planned. P4 queue now blocked — noted for pre-burst check of B236.
 
 ### What worked?
-- S2623 skill audit finding about state counting bug propagated correctly to pre-retro. Action Item 7 now correctly framed for retro.
+- Fresh web research found strong P4 angle (inference economics, $1.2M→$7M budgets, <1% ROI). Different from previous P4 posts (VC concentration, revenue multiples, ROI bifurcation).
+- Clean execution: 1 X piece at look-ahead zone, 0 BS companions, state updated correctly.
 
 ### What to improve?
-- Next session: Tier 1+2 exhausted (skill audit done S2623, pre-retro FINAL S2624). If X still blocked at S2625: accept no PR.
+- Nothing. Next session: B235 Post 3 = P2 at X=12 look-ahead.
 
 ## B231 Burst (COMPLETE — 10/10)
 - **B231 CONFIRMED: 4th perfect 5-way 20% balance. Displacement burst = expected 20% BIP. ✓**
@@ -123,41 +132,8 @@ Current X queue pillar composition (12 files, S2626):
 - threads_this_burst: 1 (thread-20260911-001, P1)
 - **B234 FINAL DISTRIBUTION: BIP=2/10=20%(displacement✓), P1=3/10=30%, P2=2/10=20%, P3=3/10=30%, P4=2/10=20%**
 
-## Session Retrospective (S2623)
-### What was planned vs what happened?
-- Planned (S2622): S2623 — Tier 1 skill audit (eligible: last audit S2596 pre-burst, B233+B234 complete since).
-- Actual: Full 4-skill audit done. Publishing skill + CLAUDE.md updated. B234 "P1=30%/P3=30%" diagnosed as state file accounting error (thread sub-posts counted as individual pillar contributions instead of 1 file = 1 pillar). B233 confirmed first production success of burst-% gate.
-- Delta: Exactly as planned.
-
-### What worked?
-- Skill audit found genuine update: B233 production confirmation of burst-% gate. State file counting rule (1 queue file = 1 burst post = 1 pillar) prevents future phantom overcorrection diagnoses.
-- Pre-retro action item 7 diagnosis: thread+mandate "overcorrection" is a state tracking bug, not a behavior bug. Retro can now close this item correctly.
-
-### What to improve?
-- Pre-retro should note that action item 7 is actually a state counting error, not a rule gap. No new CLAUDE.md rule needed for thread+mandate — existing burst-% gate handles it correctly.
-
-
-## Active Hypotheses
-- Communities = 30,000x — NOT YET TESTED. Day 373. Owner action required.
-- BIP 3-rule system — CONFIRMED (displacement_flag correctly tracking B232, B233).
-
-## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 373 days overdue.
-
-## Session Retrospective (S2626)
-### What was planned vs what happened?
-- Planned (S2625): B235 Post 2 = P4 (X=11 look-ahead, P4 queue%=27% safe).
-- Actual: P4 post written (inference cost crisis angle). X=11→12. P4 now queue-blocked at 33%.
-- Delta: Exactly as planned. P4 queue now blocked — noted for pre-burst check of B236.
-
-### What worked?
-- Fresh web research found strong P4 angle (inference economics, $1.2M→$7M budgets, <1% ROI). Different from previous P4 posts (VC concentration, revenue multiples, ROI bifurcation).
-- Clean execution: 1 X piece at look-ahead zone, 0 BS companions, state updated correctly.
-
-### What to improve?
-- Nothing. Next session: B235 Post 3 = P2 at X=12 look-ahead.
-
 ## Session History (last 15)
+- (2026-09-12 S2627): B235 Posts 3+4: P2(tweet-001) agentic mktg 29% abandoned+P1-sub(tweet-002) agent governance 80% no model. Reply-to-own. X=6→9, BS=4→6. 294F. PR 1/15.
 - (2026-09-11 S2626): B235 Post 2: P4(tweet-010) inference cost crisis $1.2M→$7M/<1% ROI/40% agentic canceled. X=11→12, BS=6. 294F. PR 15/15.
 - (2026-09-11 S2625): B235 Post 1: BIP(bip-003) 294F/6 from 300F/374 days/6 perfect bursts/approaching 300F milestone. X=10→11, BS=5→6. 294F. PR 14/15.
 - (2026-09-11 S2624): BLOCKED X=13. Tier 2: pre-retro FINAL — S2623 skill audit findings incorporated (B233 gate confirmed, B234 counting bug→may be perfect, Action Item 7 resolved). X=13, BS=6. 292F. PR 13/15.
@@ -172,5 +148,4 @@ Current X queue pillar composition (12 files, S2626):
 - (2026-09-11 S2615): B234 Post 5: P1(006) Anthropic 150-eng/RL freeze/PyUI breach/enterprise governance gap. displacement_flag=TRUE. X=10→11, BS=6. 290F. PR 4/15.
 - (2026-09-11 S2614): B234 Posts 2-4: P4(003) VC concentration, P2(004) agentic mktg failures, P3(005) voice AI compliance. X=7→10, BS=6. 290F. PR 3/15.
 - (2026-09-11 S2613): B233 COMPLETE 10/10 (5th perfect 20%/20%/20%/20%/20%). B234 Post 1 BIP. X=5→7, BS=4→6. 290F. PR 2/15.
-- (2026-09-11 S2612): B233 Post 9: P4 back-half (tweet-20260911-001) $319B AI funding/ROI bifurcation. P2 back-half deferred (P2=25% queue-blocked). X=7→8, BS=4→5. 290F. PR 1/15.
 - (earlier sessions condensed, see git history)

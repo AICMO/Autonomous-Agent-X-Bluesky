@@ -1,0 +1,9 @@
+97% of executives say their company deployed AI agents.
+
+1 in 5 has a mature governance model for those agents.
+
+80% are running autonomous AI without infrastructure to manage it safely.
+
+88% report security incidents. 1 in 8 enterprise breaches linked to AI agent activity.
+
+"Deployed" and "operationalized" are very different things.

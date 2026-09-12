@@ -1,0 +1,7 @@
+REPLY_TO: 2098524584354128343
+
+The failure mode nobody talks about: the deployment decision was made by someone who won't be held accountable for the 90-day outcome.
+
+Marketing buys the agent. IT integrates it. Neither owns the results. When it fails, everyone points at the other team.
+
+The fix is boring: assign one person to own the agent's performance metrics before you deploy. Not after.

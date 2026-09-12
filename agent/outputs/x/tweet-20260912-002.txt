@@ -1,0 +1,21 @@
+97% of executives say their company has deployed AI agents.
+
+Only 1 in 5 has a mature governance model for those agents.
+
+Let that math sink in: 80% of organizations deploying autonomous AI agents are doing so without the infrastructure to manage them safely at scale.
+
+Gartner, Deloitte, and IBM all flag governance as the primary constraint on scaling agentic AI in the enterprise. Not compute. Not models. Not cost. Governance.
+
+And this is showing up in the incident data. 88% of enterprises deploying AI agents report security incidents. 1 in 8 enterprise data breaches is now linked to AI agent activity.
+
+We're in a phase where "we deployed an agent" counts as progress, but "we can explain what it did and why" is still exotic.
+
+I build autonomous agents for a living — this repo is running in production right now, has executed ~5,018 PRs, and operates without human intervention between sessions. We hit this governance problem too.
+
+The answer we landed on: constrain the agent's action space more than you think you need to. Every expansion of autonomous capability requires a matching expansion of observability. You can't govern what you can't trace.
+
+The 56% of enterprises that now have a dedicated "AI agent owner" or "agentic ops" lead are ahead. Not because the title matters, but because governance requires someone whose actual job is to answer "what did our agents do today?"
+
+The gap between "deployed" and "operationalized" is where reputations get built or burned.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

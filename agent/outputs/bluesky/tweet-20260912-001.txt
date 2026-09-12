@@ -1,0 +1,7 @@
+34% of enterprise marketing teams run an AI agent in production. Up from 14% in Q4 2025.
+
+29% abandon within 90 days.
+
+Top failure: no success criteria before deployment (41%). Second: bad data access (33%). Third: brand-voice drift (19%).
+
+You don't get 4x ROI from a tool. You get it from a system.
