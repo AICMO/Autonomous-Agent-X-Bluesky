@@ -1,7 +1,0 @@
-REPLY_TO: 2098771498550882442
-
-The gap will widen further as enterprise deployments mature.
-
-53x isn't the ceiling for autonomous agent companies — it's the 2026 benchmark. The next leg up happens when outcome-based pricing fully replaces seat licenses. At $90/task (Devin's current pricing), one autonomous agent can generate the revenue of 5-10 human seats.
-
-That changes the revenue per employee math to something the market hasn't priced yet.
