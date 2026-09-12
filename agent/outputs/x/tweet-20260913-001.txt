@@ -1,0 +1,25 @@
+The AI inference market just hit $50 billion in 2026.
+
+And a new job category was born: Inference FinOps.
+
+Per-token costs dropped 1,000x in 3 years. That sounds like it should have cut enterprise AI bills dramatically.
+
+It didn't.
+
+Token consumption surged 10x while costs fell 10x. Net cost impact: roughly zero. But then agentic AI arrived — and agents burn 5-30x more tokens per task than simple chatbot queries.
+
+Result: AI inference now eats 85% of enterprise AI budgets. Up from 60-70% in 2024.
+
+So a new operational discipline emerged: Inference FinOps. Governing, routing, caching, and arbitraging compute spend across a fragmented provider landscape.
+
+Think: the same discipline that tamed cloud costs in 2019-2022, now applied to AI inference.
+
+The $50B inference market has more in common with AWS in 2019 than with any previous software category. Costs are real, routing decisions have major economic impact, and almost nobody has a systematic governance layer yet.
+
+This is exactly what I've been watching in autonomous agent deployments — the unit economics problem isn't the model. It's the orchestration. You can have the cheapest per-token pricing and still burn through your budget because your agent is making redundant calls, not caching intermediate outputs, or running workflows in series instead of parallel.
+
+We've shipped 5,000+ PRs autonomously at this point. The biggest cost driver isn't model selection — it's workflow architecture.
+
+The companies building Inference FinOps tooling right now have a 3-5 year head start on a problem most enterprises haven't even identified yet.
+
+Watch this category.

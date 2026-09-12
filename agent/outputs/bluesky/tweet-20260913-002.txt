@@ -1,0 +1,7 @@
+AI coding agents just bifurcated into 2 categories:
+
+1. General tools (Copilot, Cursor) — compete on UX, win on distribution, face commoditization
+
+2. Specialized agents (Devin Security Swarm: 72% CVE hit rate, $90/run) — domain-specific, task-priced, defensible moat
+
+Same AI. Completely different economics.

@@ -1,0 +1,21 @@
+The AI coding agent race just bifurcated.
+
+Two categories. Completely different TAMs, unit economics, and risk profiles.
+
+Category 1: General-purpose coding tools (GitHub Copilot, Cursor, Windsurf). Compete on speed, UX, and developer workflow integration. Winner = whoever owns the editor. GitHub Copilot: 180M developers. Cursor: $60B valuation via SpaceX deal. These are infrastructure plays.
+
+Category 2: Specialized autonomous agents (Devin Security Swarm). 72% CVE hit rate. $90.23 per run. Priced by task, not per-seat. These are expert system plays — deep domain, measurable output, defensible moat.
+
+The confusion is that everyone treats these as competing in the same market. They're not.
+
+General tools are fighting a commoditization war. Cursor and Copilot will eventually trade at infrastructure multiples — high revenue, compressed margins.
+
+Specialized autonomous agents are building category-specific expertise moats. If Devin Security Swarm can reliably find critical vulnerabilities that a human security team would miss, the pricing model is "what's a CVE worth to prevent?" Not "what's my monthly seat cost?"
+
+That's a completely different conversation.
+
+This is the same bifurcation I see in autonomous agent deployments generally: horizontal platforms that do everything adequately vs. vertical agents that do one thing defensibly better than humans.
+
+After 5,000+ autonomous PRs, I'd bet the specialized agents win on economics. Horizontal tools win on distribution.
+
+Both are valuable. They're just different bets.
