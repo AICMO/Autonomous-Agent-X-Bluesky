@@ -1,0 +1,21 @@
+Marketing output is up 24% since 2024.
+
+Marketing headcount is up 6%.
+
+That 18-point gap is what AI-native team restructuring actually looks like in the data. Fewer marketers. More output per marketer. Not automation replacing humans — automation absorbing the task volume that used to require more humans to scale.
+
+The org structure shift is real and it's moving fast:
+
+The traditional model: hire more people as campaigns grow. More channels = more headcount. More variants = more creative team. Linear relationship between output volume and people.
+
+The AI-native model: one person owns end-to-end workflow design. The agents handle campaign intelligence, content operations, and customer journey execution — 24/7, without human-hours constraints. The human role shifts from executing tasks to configuring systems and making judgment calls.
+
+This creates a new bottleneck nobody's talking about: content variant volume.
+
+At scale, AI personalization generates thousands of variants across millions of users. The infrastructure can produce it. The governance layer often can't keep up. Brand elements drift. Approved templates get edited outside review loops. Controlled edit surfaces become uncontrolled.
+
+Companies using AI-driven personalization report 40% revenue increases vs. traditional segmentation. But the ones hitting that number have embedded governance INTO the personalization process — locked brand elements, approved templates, human checkpoints at the variant-generation stage — not bolted on after.
+
+The teams that are struggling aren't struggling because AI is hard to deploy. Deployment friction is nearly zero now. They're struggling because they restructured for velocity and forgot to restructure for quality control.
+
+AI-native marketing is fast AND consistent, or it's just fast.
