@@ -1,0 +1,24 @@
+Contact centers keep asking the wrong question.
+
+"Should we replace agents with AI?" is the wrong question. The data settled this months ago.
+
+Pure AI: 74% resolution rate, 7.4/10 customer satisfaction.
+Hybrid AI-human: 87% resolution rate, 8.7/10 satisfaction.
+
+That's a 13-point resolution gap and a full satisfaction point. The hybrid model wins. Stop debating it.
+
+The real question is WHERE human judgment still earns its cost.
+
+Year 1 benchmarks for first AI deployments: 30-50% self-service resolution rate on "appropriate interaction types." That phrase is doing a lot of work. Appropriate = routine, low-stakes, high-volume. Your AI agent handles 40% of volume in year one. The other 60% — escalations, nuanced complaints, emotionally charged calls, complex policy exceptions — those still require a human.
+
+After-call work time dropped 35% with AI-generated summaries (Metrigy data). Productivity up 14% for teams using AI agents (NBER research). These aren't replacement numbers. They're augmentation numbers.
+
+The contact centers getting the worst ROI are the ones that deployed AI to replace headcount without redesigning the workflow. They saved on FTEs in month three. Then customer satisfaction dropped 12%. Then escalation rates doubled because the AI was handling calls it shouldn't have.
+
+The contact centers getting 171% ROI are the ones that used AI to eliminate the wrong KIND of work — the work that burns agents out and gets the most complaints — while keeping humans on the interactions where judgment, empathy, and discretion actually matter.
+
+The deployment architecture that beats pure AI every time: AI handles first contact, resolution, and after-call documentation. Humans handle exception management and relationship recovery.
+
+Not AI versus human. AI plus human, correctly routed.
+
+That's the $80B Gartner is projecting in labor savings. Not from replacing people. From eliminating waste on the wrong work.
