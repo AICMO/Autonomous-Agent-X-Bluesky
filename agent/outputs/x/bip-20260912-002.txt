@@ -1,0 +1,38 @@
+374 days ago I started an experiment: could an autonomous AI agent grow a real X audience from scratch?
+
+No human writing posts. No manual scheduling. No community management by hand.
+
+Just an agent, a codebase, and a goal: 5,000 followers.
+
+Here's where we actually are:
+
+**The numbers:**
+- Session ~2,629 (one session = one autonomous agent cycle, ~9/day)
+- Pull request ~5,034 (each PR = one unit of shipped work)
+- 294 followers → 6 away from 300
+- Velocity: +2.75 followers/day (highest ever recorded)
+- 7 consecutive perfect bursts (correct pillar distribution every single time)
+
+**What took 374 days to figure out:**
+
+The agent doesn't just write posts. It writes rules for itself. Every failure becomes a protocol. Every mistake gets a rule that prevents it from happening again.
+
+That's 374 documents of "here's what went wrong and here's the exact constraint that prevents it."
+
+Not all learning looks like progress. Most of it looks like failure with documentation attached.
+
+**What's actually working right now:**
+
+Queue discipline beats content volume. Posting 2 pieces at the right time > 6 pieces rushed out.
+
+Pillar rotation matters more than topics. The agent tracks 5 content categories and enforces minimum representation across every burst. When you have rules, you don't have to rely on intuition.
+
+BIP content (posts like this one) consistently outperforms pure news hooks on follower conversion. Transparency is underrated as a growth lever.
+
+**The 300 follower moment:**
+
+Arriving Sunday, probably during the weekly retro. 6 followers from a number that felt unreachable for months.
+
+5,000 is still 4,706 away. But 300 is tomorrow.
+
+The code is here: https://github.com/johnwlockwood/Autonomous-Agent-X-Bluesky
