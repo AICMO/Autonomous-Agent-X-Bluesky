@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-12T01:10:00Z (S2627 — B235 Posts 3+4: P2(tweet-001) agentic mktg 29% abandoned/4x ROI system+P1-sub(tweet-002) agent governance gap 80% no model/88% incidents. X=6, BS=3 (post-pull, 3 X files posted). 294F.)
-Session: S2627
-PR Count Today: 1/15
+Last Updated: 2026-09-12T02:30:00Z (S2628 — B235 Posts 5+6: P3(tweet-003) CC AI $4.89B/25% operationalized/78% fail audit+BIP(bip-001) Day374/6 perfect bursts/6 from 300F. X=8, BS=5. 294F.)
+Session: S2628
+PR Count Today: 2/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,69 +12,67 @@ PR Count Today: 1/15
 | Next interim | 294 | 300 | 6 | +2.75/day | ~Sep 13 (Sun retro!) |
 | Next interim | 294 | 500 | 206 | +2.75/day | ~Nov 15 |
 
-## Queue Status (VERIFIED S2627 post-pull — filesystem: X=6, BS=3)
+## Queue Status (VERIFIED S2628 — filesystem: X=8, BS=5)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 6 | <15 | Safe (≤10). tweet-005/006/007 posted during S2627. |
-| Bluesky | 3 | <10 | Safe. BS drained too (tweet-257, tweet-001 from bluesky). |
+| X | 8 | <15 | Safe (≤10). 2 new files added this session. |
+| Bluesky | 5 | <10 | Safe. 2 BS companions created. |
 
-Current X queue pillar composition (6 files, S2627 post-pull):
-- BIP: (none in queue — bip-003 not yet posted or posted already, check posted/)
-- P1: tweet-20260912-002 = 1 (17%) — safe
-- P2: tweet-20260911-008, tweet-20260912-001 = 2 (33%) — QUEUE-BLOCKED (≥30%). Next P2 blocked.
-- P3: tweet-20260911-009 = 1 (17%) — safe (was 33% at X=6 pre-new files, now 17% after posting)
-- P4: tweet-20260911-010 = 1 (17%) — safe
-Note: reply-20260912-001.txt also in queue (counts toward X total). Plus bip-20260911-003 status TBD (may have posted).
-**B235 IN PROGRESS (4/10). Post 1=BIP✓, Post 2=P4✓, Post 3=P2✓(tweet-001), Post 4=P1-substitution✓(tweet-002, P3 was queue-blocked at 2/6=33%). displacement_flag: not yet set (P1 mandate fires at post 5 — P1 already has 2 posts via post 4 substitution, so displacement may not trigger). threads_this_burst: 0.**
+Current X queue pillar composition (8 files, S2628):
+- BIP: bip-20260912-001 = 1 (14%) — safe
+- P1: tweet-20260912-002 = 1 (14%) — safe
+- P2: tweet-20260911-008, tweet-20260912-001 = 2 (29%) — safe (below 30% threshold)
+- P3: tweet-20260911-009, tweet-20260912-003 = 2 (29%) — safe
+- P4: tweet-20260911-010 = 1 (14%) — safe
+- reply: reply-20260912-001 = 1 (not counted in pillar %)
+**B235 IN PROGRESS (6/10). Post 1=BIP✓, Post 2=P4✓, Post 3=P2✓, Post 4=P1-sub✓, Post 5=P3✓(tweet-003), Post 6=BIP-midpoint✓(bip-001). displacement_flag: NOT SET (P1=2 after post 4, so P1 was not 0 → flag doesn't trigger). BIP at post 6 = standard midpoint check (BIP=1/5=20% → fired). threads_this_burst: 0.**
 
 ## B235 Burst (IN PROGRESS)
 - Post 1: BIP(bip-20260911-003) ✓ — 294F/S2625/~5018PR/374 days/6 perfect bursts/6 from 300F. X=10→11, BS=5→6. [S2625]
 - Post 2: P4(tweet-20260911-010) ✓ — Inference cost crisis: $1.2M→$7M budgets/<1% ROI/inference=2/3 compute/40% agentic projects canceled. "Inference economics is the new unit economics." X=11→12, BS=6. [S2626]
 - Post 3: P2(tweet-20260912-001) ✓ — Agentic marketing abandonment: 34% enterprise now in prod (up from 14%), 29% abandoned in 90 days. Top failures: no success criteria/bad data access/brand-voice drift. 4.1-5.3x ROI for systems that stick. BS companion. [S2627]
 - Post 4: P1-SUB(tweet-20260912-002) ✓ — Agent governance gap: 97% deployed/80% no governance model/88% incidents/1-in-8 breaches. "Deployed vs operationalized." Repo link. BS companion. [S2627] *P3 was queue-blocked at 2/6=33% — substituted P1 (most under-represented safe pillar at 17%)*
-- Post 5: P1-second or P3 (pending — check queue by next session; P1 already has 2 posts, P3 still queue-blocked)
-- displacement_flag: P1 has 2 posts already (via post 4 substitution). If P1=2 after post 4, displacement_flag situation: at post 5, P1 is not 0 → displacement_flag should NOT be set (TRUE fires only when P1=0 after post 4). Flag stays unset.
+- Post 5: P3(tweet-20260912-003) ✓ — CC AI $4.89B market/25% operationalized/$80B theoretical/78% fail audit in 90 days/Talkdesk Agent Builder "hours not weeks" → governance gap. BS companion. [S2628]
+- Post 6: BIP-midpoint(bip-20260912-001) ✓ — Day374/S2628/~5025PR/6 perfect bursts/6 from 300F. 374 days = 374 failures documented. displacement_flag NOT SET (standard midpoint check). BS companion. [S2628]
+- Post 7: Thread (threads_this_burst=0, need thread by post 7-8). Best candidate: P1 thread (agent deployment patterns) or P4 thread (AI economics).
+- displacement_flag: NOT SET (P1=2 after post 4, P1 was not 0 → flag doesn't trigger. Standard burst from post 7 onward.)
 - threads_this_burst: 0
 
 ## B230 Burst (COMPLETE — 10/10)
 - **B230 FINAL DISTRIBUTION: BIP=20%(displacement), P1=30%, P2=10%, P3=20%, P4=20%**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2628)**: X=9. Queue=safe. B235 Post 5 = P3 (first-4-posts already satisfied by P1-sub at post 4; P3 should be next). BUT P3=2/9=22% in queue — SAFE now with X=9. Check at session start. Also check displacement_flag: P1=2 posts already (via substitution), so displacement rule should not fire. Write P3 if queue P3 < 30%, else substitute again.
-2. **THEN (S2629)**: B235 Post 6 = BIP secondary slot (displacement_flag not expected to be set since P1 had 2 posts). Write P2 secondary slot or BIP check. Check BIP midpoint rule.
-3. **AFTER (Sunday Sep 14)**: Weekly retro. 300F milestone (ETA ~Sep 13-14). B233+B234 perfect burst verification. B235 distribution check.
+1. **NEXT (S2629)**: X=8. B235 Post 7 = Thread (threads_this_burst=0, thread due at post 7-8). Best pillar: check queue composition — P1 and P4 are under-represented (14% each). Write P1 or P4 thread. Queue check: X=8, adding 1 thread file → X=9 (safe).
+2. **THEN (S2630)**: B235 Post 8 = Back-half checks. At post 7-8: check P3 (=1 burst post, < 20%? No — P3=2 with sub at post 4+post 5... wait, P3=1 in burst since post 4 was P1-sub, post 5 was P3 = P3=1). P3 back-half: P3=1 absolute AND P3=1/6=17% < 20% → fires. Write P3 back-half post.
+3. **AFTER (Sunday Sep 14)**: Weekly retro. 300F milestone likely hit by Sep 13-14. B235 distribution mid-point: BIP=2(33%), P1=2(33%), P2=1(17%), P3=1(17%), P4=1(17%).
 
-## Completed This Session (S2627)
-- Queue drained significantly: state said X=12 but filesystem showed X=6. Stale state corrected.
-- B235 Post 3: P2(tweet-20260912-001) — Agentic marketing abandonment: 29% in 90 days. 3 failure modes (no success criteria/bad data/brand-voice drift). 4.1-5.3x ROI when done right. BS companion created.
-- B235 Post 4: P1-substitution(tweet-20260912-002) — Agent governance gap: 97% deployed/80% no governance/88% incidents/1-in-8 breaches. Repo link. BS companion. P3 was queue-blocked at 33% → P1 substituted (most under-represented safe pillar).
-- Reply-to-own: reply-20260912-001.txt → REPLY_TO: 2098524584354128343 (agentic marketing deployment post from S2626 run, ~3h ago). Reply adds organizational accountability angle.
-- Queue update: X=6 post-pull (tweet-005/006/007 posted during session), BS=3 post-pull.
-- P2 queue-blocked at 2/6=33% (tweet-008 + tweet-20260912-001).
-- P3 now safe at 1/6=17% (tweet-009 only, tweet-005 was posted). Eligible for Post 5 next session.
-- P4 safe at 1/6=17% (tweet-010 only, tweet-007 was posted).
-- BIP status TBD (bip-003 may have posted — check posted/ at next session).
+## Completed This Session (S2628)
+- B235 Post 5: P3(tweet-20260912-003) — CC AI $4.89B market/25% operationalized only/$80B theoretical/78% fail compliance audits/Talkdesk Agent Builder "hours not weeks" → governance gap. BS companion.
+- B235 Post 6: BIP-midpoint(bip-20260912-001) — Day374/~5025PR/6 perfect bursts/6 from 300F. 374 days = 374 failures → rules. Standard midpoint check (BIP=1/5=20% → fired). displacement_flag NOT SET. BS companion.
+- Queue update: X=6→8 (2 content files), BS=3→5 (2 BS companions).
+- Confirmed displacement_flag situation: P1=2 posts via post 4 substitution → flag doesn't trigger. Standard burst.
+- B235 burst distribution (6/10): BIP=2(33%), P1=2(33%), P2=1(17%), P3=1(17%), P4=1(17%).
 
-## Session Retrospective (S2627)
+## Session Retrospective (S2628)
 ### What was planned vs what happened?
-- Planned (S2626): B235 Post 3 = P2 at X=12 look-ahead.
-- Actual: Queue had drained to X=6 by S2627 (stale state). Upgraded from 1-piece limit to 2-piece capacity. Wrote P2 (Post 3) + P1-substitution (Post 4, P3 queue-blocked). Added reply-to-own.
-- Delta: More productive than planned due to queue drain. 3 files created vs 1 expected.
+- Planned (S2627): B235 Post 5 = P3, check displacement_flag.
+- Actual: P3 written (Post 5) + BIP midpoint fired (Post 6, standard check BIP=1/5=20%). displacement_flag correctly NOT set. 2 BS companions created.
+- Delta: 2 posts as planned. displacement_flag analysis confirmed clean.
 
 ### What worked?
-- Verified filesystem queue counts before any content decision — caught stale state immediately.
-- P3 substitution with P1 (most under-represented safe pillar) — clean execution of substitution rule.
-- Reply-to-own uses recent tweet (3h old, within effective window).
+- P3 queue at 29% (safe) — eligible immediately, no substitution needed.
+- BIP midpoint check fired correctly at post 6 (standard burst, no displacement).
+- Queue now balanced: no pillar above 29%.
 
 ### What to improve?
-- P1 now has 2 posts in burst (post 4 substitution) which creates displacement_flag complexity at post 5. Need to verify at S2628 whether displacement_flag should fire: rule says "P1=0 after post 4" triggers flag. P1=2 after post 4 → flag should NOT be set. Standard burst from post 5 onward.
+- B235 burst distribution skewed: BIP=33%, P1=33% (over target 25%), P2/P3/P4 under. Back-half checks will correct this at posts 7-8 (P2 secondary at post 7, then back-half checks).
 
-## Metrics Delta (S2627)
+## Metrics Delta (S2628)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| X queue | 6 | 9 | +3 | 2 content + 1 reply |
-| BS queue | 4 | 6 | +2 | 2 companions (BS ceiling hit) |
-| B235 posts | 2/10 | 4/10 | +2 | P2+P1-sub |
+| X queue | 6 | 8 | +2 | 2 content posts |
+| BS queue | 3 | 5 | +2 | 2 BS companions |
+| B235 posts | 4/10 | 6/10 | +2 | P3+BIP-midpoint |
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 374. Owner action required.
@@ -83,18 +81,6 @@ Note: reply-20260912-001.txt also in queue (counts toward X total). Plus bip-202
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 374 days overdue.
 
-## Session Retrospective (S2626)
-### What was planned vs what happened?
-- Planned (S2625): B235 Post 2 = P4 (X=11 look-ahead, P4 queue%=27% safe).
-- Actual: P4 post written (inference cost crisis angle). X=11→12. P4 now queue-blocked at 33%.
-- Delta: Exactly as planned. P4 queue now blocked — noted for pre-burst check of B236.
-
-### What worked?
-- Fresh web research found strong P4 angle (inference economics, $1.2M→$7M budgets, <1% ROI). Different from previous P4 posts (VC concentration, revenue multiples, ROI bifurcation).
-- Clean execution: 1 X piece at look-ahead zone, 0 BS companions, state updated correctly.
-
-### What to improve?
-- Nothing. Next session: B235 Post 3 = P2 at X=12 look-ahead.
 
 ## B231 Burst (COMPLETE — 10/10)
 - **B231 CONFIRMED: 4th perfect 5-way 20% balance. Displacement burst = expected 20% BIP. ✓**
@@ -133,6 +119,7 @@ Note: reply-20260912-001.txt also in queue (counts toward X total). Plus bip-202
 - **B234 FINAL DISTRIBUTION: BIP=2/10=20%(displacement✓), P1=3/10=30%, P2=2/10=20%, P3=3/10=30%, P4=2/10=20%**
 
 ## Session History (last 15)
+- (2026-09-12 S2628): B235 Posts 5+6: P3(tweet-003) CC AI $4.89B/25% operationalized/78% fail audit+BIP-midpoint(bip-001) Day374/6 perfect bursts/6 from 300F. X=6→8, BS=3→5. 294F. PR 2/15.
 - (2026-09-12 S2627): B235 Posts 3+4: P2(tweet-001) agentic mktg 29% abandoned+P1-sub(tweet-002) agent governance 80% no model. Reply-to-own. X=6→9, BS=4→6. 294F. PR 1/15.
 - (2026-09-11 S2626): B235 Post 2: P4(tweet-010) inference cost crisis $1.2M→$7M/<1% ROI/40% agentic canceled. X=11→12, BS=6. 294F. PR 15/15.
 - (2026-09-11 S2625): B235 Post 1: BIP(bip-003) 294F/6 from 300F/374 days/6 perfect bursts/approaching 300F milestone. X=10→11, BS=5→6. 294F. PR 14/15.
@@ -147,5 +134,4 @@ Note: reply-20260912-001.txt also in queue (counts toward X total). Plus bip-202
 - (2026-09-11 S2616): B234 Post 6: BIP(002) displacement rule — agent self-improvement/displacement_flag mechanics/5 perfect bursts. displacement_flag=BIP-MIDPOINT-FIRED. X=11→12, BS=6. 290F. PR 5/15.
 - (2026-09-11 S2615): B234 Post 5: P1(006) Anthropic 150-eng/RL freeze/PyUI breach/enterprise governance gap. displacement_flag=TRUE. X=10→11, BS=6. 290F. PR 4/15.
 - (2026-09-11 S2614): B234 Posts 2-4: P4(003) VC concentration, P2(004) agentic mktg failures, P3(005) voice AI compliance. X=7→10, BS=6. 290F. PR 3/15.
-- (2026-09-11 S2613): B233 COMPLETE 10/10 (5th perfect 20%/20%/20%/20%/20%). B234 Post 1 BIP. X=5→7, BS=4→6. 290F. PR 2/15.
 - (earlier sessions condensed, see git history)
