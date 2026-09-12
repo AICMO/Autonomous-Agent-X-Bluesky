@@ -1,0 +1,7 @@
+Inference FinOps is the new cloud FinOps.
+
+Per-token costs dropped 1,000x. Bills didn't drop. Because agents burn 5-30x more tokens per task.
+
+AI inference = 85% of enterprise AI budgets now. Up from 60-70% in 2024.
+
+The $50B inference market needs cost governance. That's the next category.
