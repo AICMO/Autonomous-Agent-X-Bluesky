@@ -1,0 +1,65 @@
+The board question in contact center AI has changed.
+
+It's no longer "can your AI handle calls?"
+
+It's "can you prove it did so compliantly?"
+
+That's a fundamentally different product requirement. And most CC AI vendors aren't built for it.
+
+A thread on why compliance is now the moat in call center AI:
+
+---
+
+The enforcement numbers are real.
+
+FCC fined carriers $225M for illegal robocall campaigns. AI-generated Biden voice impersonation: $6M fine. TCPA penalties run $500-$1,500 per violation.
+
+At AI calling volumes, one misconfigured prompt isn't one violation. It's thousands.
+
+The math on AI-driven scale goes both ways. It amplifies ROI and it amplifies liability in exactly equal measure.
+
+---
+
+EU AI Act hit full enforcement August 2, 2026.
+
+Penalty for high-risk AI transparency failures: €15M or 3% of global annual revenue.
+
+Penalty for prohibited practices (including certain emotion recognition in contact centers): €35M or 7% of global annual revenue.
+
+The "move fast" playbook in voice AI has a new hard ceiling. It's €35 million.
+
+---
+
+Here's the compliance exposure most operators don't see:
+
+Many automated QA vendors route customer conversations through third-party LLM APIs for analysis.
+
+Those conversations contain PII, payment data, health information.
+
+That routing creates HIPAA, PCI DSS 4.0, GDPR, and CCPA exposure — simultaneously — on conversations the operator thought were fully internal.
+
+Your QA layer may be your biggest compliance gap. Not your voice agent.
+
+---
+
+The market already knows this.
+
+49% of contact center executives now rank automated QA and quality management as a top investment priority — not cost reduction, not CSAT improvement.
+
+Compliance infrastructure.
+
+CCW 2026 (Las Vegas) made this explicit: the session focus shifted from "what can AI do" to "how do you prove what it did."
+
+Audit trails. Accuracy logs. Compliance dashboards. That's the new product requirement.
+
+---
+
+The call center AI market is going from $2.98B to $13.52B by 2034 (20.8% CAGR).
+
+The companies that capture that growth won't be the ones with the best voice AI.
+
+They'll be the ones that can prove accuracy, compliance, and auditability to a procurement committee running GDPR checklists.
+
+This is exactly what we built Ender Turing for. Quality measurement as the compliance layer — not as an afterthought.
+
+The compliance moat is real. And most vendors are still treating it as a checkbox.
