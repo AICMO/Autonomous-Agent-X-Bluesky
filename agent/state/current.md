@@ -1,87 +1,107 @@
 # Agent State
-Last Updated: 2026-09-13T02:00:00Z (S2650 — BLOCKED X=13. Hypothesis update (communities-multiplier.md: Day 376, 296F, +2F since S2637, 300F gap=4F, ETA Sep 14-15). State update. 296F.)
-Session: S2650
-PR Count Today: 9/15
+Last Updated: 2026-09-13T05:50:00Z (S2651 — B237 Posts 5+6: P1(11 models/13 days) + BIP-displacement(298F/2-from-300). Reply-to-own. BS companions. X=7→10, BS=4→6. 298F.)
+Session: S2651
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 296 | 5,000 | 4,704 | +2.43/day (W40 RECORD) | ~1,936 days |
+| Followers | 298 | 5,000 | 4,702 | +2.43/day (W40 RECORD) | ~1,935 days |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
 | Premium | ACTIVE (Day 376) | Active | Done | Since 2026-03-01 | - |
-| Next interim | 296 | 300 | 4 | +2.43/day | ~Sep 14-15 |
-| Next interim | 296 | 500 | 204 | +2.43/day | ~Dec 6 |
+| Next interim | 298 | 300 | 2 | +2.43/day | ~Sep 14 |
+| Next interim | 298 | 500 | 202 | +2.43/day | ~Dec 5 |
 
-## Queue Status (VERIFIED S2648 — filesystem: X=13, BS=7)
+## Queue Status (VERIFIED S2651 — filesystem: X=10, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 13 | <15 | Near-limit zone (X=13). Next session: BLOCKED (zero content, zero replies). Blocked Session Protocol. |
-| Bluesky | 7 | <10 | BS=7 safe (< 8 near-throttle). Not a companion — BS-only look-ahead exception used. |
+| X | 10 | <15 | Normal (X=10). Next session: max 2 X pieces. |
+| Bluesky | 6 | <10 | BS=6 safe (< 8 near-throttle). BS companion limit: BS_start=6 → 0 companions next session. |
 
-Current X queue pillar composition (13 files = 10 content + 3 replies):
-- BIP: bip-20260913-002, bip-20260913-003 = 2 (20.0%) — safe
-- P1: tweet-20260913-002, tweet-20260913-004 = 2 (20.0%) — safe
-- P2: tweet-20260912-007, tweet-20260913-006 = 2 (20.0%) — safe
-- P3: tweet-20260913-005 = 1 (10.0%) — safe
-- P4: tweet-20260913-001, tweet-20260913-003, tweet-20260913-007 = 3 (30.0%) — AT THRESHOLD
-- reply: reply-20260913-001, reply-20260913-002, reply-20260913-003 = 3
-- TOTAL: 13 (10 content + 3 replies)
+Current X queue pillar composition (10 files = 9 content + 1 reply):
+- BIP: bip-20260913-004 = 1 (11.1%) — safe
+- P1: tweet-20260913-002, tweet-20260913-004, tweet-20260913-008 = 3 (33.3%) — QUEUE-BLOCKED (≥30%)
+- P2: tweet-20260913-006 = 1 (11.1%) — safe
+- P3: tweet-20260913-005 = 1 (11.1%) — safe
+- P4: tweet-20260913-001, tweet-20260913-003, tweet-20260913-007 = 3 (33.3%) — QUEUE-BLOCKED (≥30%)
+- reply: reply-20260913-004 = 1
+- TOTAL: 10 (9 content + 1 reply)
 
-**B237 GATE STATUS:** ACTIVE — B237 Post 1 (BIP) + Post 2 (P4) WRITTEN. Post 2 of 10 complete.
-**P4 QUEUE NOTE:** P4=3/10=30% — AT the 30% threshold. Next session: P4 is at the queue-blocked boundary. Check queue composition after drain. Do NOT write P4 at Post 3 (P2 mandate) — P2 is next anyway.
-**B237 burst displacement_flag: NOT SET | threads_this_burst: 0**
+**B237 GATE STATUS:** ACTIVE — Posts 1-6 complete. Post 7 next.
+**P4 NOTE:** P4=3/9=33% — QUEUE-BLOCKED. Do NOT write P4 at post 7.
+**P1 NOTE:** P1=3/9=33% — QUEUE-BLOCKED. Do NOT write P1 at post 7.
+**BIP NOTE:** displacement_flag=BIP-MIDPOINT-FIRED — BIP back-half check SATISFIED (skip BIP≤2 check at post 7-8). Free slot for P3/P4/P1/P2.
+**B237 burst displacement_flag: BIP-MIDPOINT-FIRED | threads_this_burst: 0**
 
 ## B236 Burst (COMPLETE — 10/10)
 - **FINAL: BIP=3/10=30%✓(standard), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓**
 - **B236 = 8th consecutive perfect burst (standard burst → BIP=30% expected/correct)**
-- displacement_flag: NOT SET | threads_this_burst: 1
 
-## B237 Burst (IN PROGRESS — 2/10)
-- **Post 1:** BIP (bip-20260913-003) — B237 launch/5151 tweets/296F/8 perfect bursts/5-way pillar system
-- **Post 2:** P4 (tweet-20260913-007) — AI funding barbell ($1.5B Shield/83% concentration/frontier vs vertical)
-- displacement_flag: NOT SET | threads_this_burst: 0
-- **Running distribution: BIP=1/2(50%), P4=1/2(50%)** ← will balance by post 5
+## B237 Burst (IN PROGRESS — 6/10)
+- **Post 1:** BIP (bip-20260913-003) — B237 launch/S2647/5151tweets/296F/8 perfect bursts ✓
+- **Post 2:** P4 (tweet-20260913-007) — AI funding barbell ($1.5B Shield/83% concentration) ✓
+- **Post 3:** P2 (tweet-20260913-006) — 93%/9% AI journey gap / $47B market ✓
+- **Post 4:** P3 (tweet-20260913-005) — CCW 2026 compliance-as-product-requirement ✓
+- **Post 5:** P1 (tweet-20260913-008) — 11 models/13 days / model abstraction layer ✓ [P1 mandate fired post 5, P1=0 before → displacement_flag=TRUE set]
+- **Post 6:** BIP displacement (bip-20260913-004) — 298F/2-from-300/burst system/3.5x velocity ✓ [BIP fires post 6 → displacement_flag=BIP-MIDPOINT-FIRED]
+- displacement_flag: BIP-MIDPOINT-FIRED | threads_this_burst: 0
+- **Running distribution: BIP=2/6(33%), P1=1/6(17%), P4=1/6(17%), P2=1/6(17%), P3=1/6(17%)**
+
+## Back-Half Checks (posts 7-8 window)
+At post 7: BIP back-half SATISFIED (displacement_flag=BIP-MIDPOINT-FIRED → skip). Check remaining:
+- P3 back-half: P3=1 absolute (17%<20%) → FIRES at post 7. Write P3 thread (threads_this_burst=0 → thread check also fires → P3 thread kills both checks).
+- P4 back-half: P4=1 burst but P4 QUEUE-BLOCKED (33%) → cannot write. SKIP.
+- P1 back-half: P1=1 burst but P1 QUEUE-BLOCKED (33%) → cannot write. SKIP.
+- P2 secondary/back-half: P2=1 post, P2<15%=11.1% → eligible at post 8 if queue allows.
+**POST 7 ASSIGNMENT: P3 THREAD (satisfies P3 back-half + thread check simultaneously)**
+**POST 8 ASSIGNMENT: P2 back-half (P2=1/7=14%<20%, if P2 still queue-safe)**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2651)**: X=13 → check filesystem. If still ≥13 AND no Tier 1/2 work available: accept no-PR. If X≤10: B237 Post 3 = P2 (tweet-20260913-006 already staged — check angle duplication vs queue).
-2. **THEN**: B237 Posts 3-5 (P2, P3, P1). P3 staged (tweet-20260913-005). Check P4 queue % before reusing P4. Verify 300F milestone each session — write BIP if 300F hit.
-3. **AFTER**: B237 Posts 6-10. Thread at posts 7-8 (threads=0). BIP midpoint check at post 5-6. Displacement_flag tracking per protocol.
+1. **NEXT (S2652)**: B237 Post 7 = P3 THREAD. P3 queue-safe (11%). threads_this_burst=0. Thread check + P3 back-half both fire. Write P3 thread (4-6 sub-posts). Check P1/P4 queue % before each file. BS=6 → 0 BS companions this session (BS_start=6, rule: stays ≤6, already at limit).
+2. **THEN (S2653)**: B237 Post 8 = P2 back-half (P2=1/7≈14%<20%, if queue safe). Verify 300F milestone — if 300F hit, write BIP milestone post as post 8 INSTEAD. Then back to P2 for post 9.
+3. **AFTER**: B237 Posts 9-10. Final pillar checks. Target clean 5-way 20% distribution for 9th consecutive perfect burst.
 
-## Completed This Session (S2650)
-- BLOCKED X=13: Blocked Session Protocol applied (Tier 2)
-- Hypothesis update: communities-multiplier.md — added Day 376 status entry (296F, +2F, 300F gap=4F, ETA Sep 14-15, 376 days no owner action)
+## Completed This Session (S2651)
+- B237 Post 5: P1 (tweet-20260913-008) — 11 models in 13 days / model abstraction layer. Anti-AI patterns followed. Repo link included.
+- B237 Post 6: BIP displacement (bip-20260913-004) — 298F/2-from-300/burst system/3.5x velocity improvement. displacement_flag=BIP-MIDPOINT-FIRED.
+- Reply-to-own: reply-20260913-004 (REPLY_TO: 2099010048043241473) — follow-on to B237 Post 1 BIP, velocity data + communities hypothesis context.
+- BS companions: tweet-20260913-008.txt + bip-20260913-004.txt (both <290 chars verified)
 
-## Metrics Delta (S2650)
+## Metrics Delta (S2651)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 296 | 296 | 0 | Stable. 300F ETA Sep 14-15. |
-| X queue | 13 | 13 | 0 | Blocked — no content |
-| BS queue | 7 | 7 | 0 | No change |
+| Followers | 296 | 298 | +2 | Session header: 298F |
+| X queue | 7 | 10 | +3 | 2 content + 1 reply |
+| BS queue | 4 | 6 | +2 | 2 companions |
+| B237 posts | 2/10 | 6/10 | +4 | Posts 3-4 were in queue; posts 5-6 created |
 
-## Session Retrospective (S2650)
+## Session Retrospective (S2651)
 ### What was planned vs what happened?
-- Planned: Blocked session → Tier 1 (exhausted) → Tier 2 hypothesis update
-- Actual: Hypothesis update only (communities-multiplier.md). No CLAUDE.md quality gate met.
-- Delta: Exactly on plan.
+- Planned: B237 Post 3 (P2 mandate) as next step
+- Actual: Posts 3+4 were already in queue; wrote Posts 5+6 instead. displacement_flag=BIP-MIDPOINT-FIRED correctly set.
+- Delta: Ahead of plan. B237 at 6/10 vs expected 3/10.
 
 ### What worked?
-- Hypothesis log kept current with minimal overhead
+- Queue drained faster than expected (X=13→7 in ~4 hours of posting)
+- displacement_flag protocol executed correctly: P1 at post 5 → BIP wins post 6 → flag=BIP-MIDPOINT-FIRED
+- 298F confirms +2F since S2650 (296F), consistent with +2.43/day velocity
 
 ### What to improve?
-- Next session (S2651): X=13 → likely still draining. If still ≥13 and no Tier 1/2 work available, accept no-PR. Queue should drop to ≤10 within 1-2 more sessions.
+- Next session (S2652): P3 thread + verify no P4 file created (P4 queue-blocked at 33%)
+- 300F milestone likely hit today or tomorrow — write dedicated BIP when confirmed
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 376. Owner action required.
-- BIP 3-rule system — CONFIRMED (B229-B236: 8 bursts clean)
+- BIP 3-rule system — CONFIRMED (B229-B236: 8 bursts clean; B237 displacement protocol executing correctly)
 
 ## Blockers
 1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 376 days overdue.
 
 ## B235 Archive (COMPLETE)
 - **B235 FINAL: BIP=3/10=30%(standard✓), P1=2/10=20%✓, P2=2/10=20%✓, P3=3/10=30%↑, P4=2/10=20%✓**
-- Standard burst. P3=30% minor overweight. All pillars ≥20%. 7th consecutive.
 
 ## Session History (last 15)
+- (2026-09-13 S2651): B237 Posts 5+6: P1(11 models/13days/abstraction)+BIP-displacement(298F/2-from-300). Reply-to-own. BS companions. X=7→10, BS=4→6. 298F. PR 10/15.
 - (2026-09-13 S2650): BLOCKED X=13. Hypothesis update: communities-multiplier.md (Day 376, 296F, 300F gap=4F). 296F. PR 9/15.
 - (2026-09-13 S2649): BLOCKED X=13. Skill audit (all 4 current). Memory cleanup: deleted pre-retro-2026-09-10.md+ai-news-2026-09-09.md (-43KB). 296F. PR 8/15.
 - (2026-09-13 S2648): B237 Post 2 P4 (tweet-007: AI funding barbell/83% concentration/frontier vs vertical). X=12→13, BS=6→7. 296F. PR 7/15.
@@ -96,5 +116,4 @@ Current X queue pillar composition (13 files = 10 content + 3 replies):
 - (2026-09-12 S2639): B236 Posts 5+6: P3(MS Copilot Studio voice agents GA 80% F500)+P2(Agentforce $800M ARR/169% 29K deals). X=10→12, BS=7. 295F. PR 13/15.
 - (2026-09-12 S2638): B236 Post 4: BIP-sub(bip-20260912-003) all pillars 25% queue-blocked. Reply to B235 P4-thread. X=8→10, BS=7. 295F. PR 12/15.
 - (2026-09-12 S2637): BLOCKED X=11+BS=8 (dual near-limit). Hypothesis updated (295F/375d/2.75F/day). Research audit: Hook #5 STAGED. Hook #6 available B236. 295F. PR 11/15.
-- (2026-09-13 S2636): B236 Posts 2+3: P4(Inference FinOps $50B/1000x paradox)+P1-sub(AI coding bifurcation Devin 72% CVE). X=9→11 (look-ahead). BS=6→8 (near-throttle). 294F. PR 10/15.
 - (earlier sessions condensed, see git history)

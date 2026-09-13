@@ -1,0 +1,7 @@
+11 new AI models in 13 days.
+
+At this release cadence, agents built as tight model integrations are accumulating technical debt they haven't noticed yet.
+
+We've run 5,157 posts across model version changes. The architecture decision that mattered: agent logic is model-agnostic. Swap the model, keep the system.
+
+Design for model swaps, not model permanence. The upgrade cycle is now faster than your release cycle.
