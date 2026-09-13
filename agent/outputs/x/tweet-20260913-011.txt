@@ -1,0 +1,37 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: Forrester Consulting 2025, Gartner 2026, IrisAgent Voice AI Benchmarks 2026
+NOTE: B237 Post 10 — P1 back-half slot. P1 queue-blocked (33% ≥30%). Substitute: P3 (lowest queue%, 11%). B237 COMPLETE 10/10.
+
+$0.40 per call.
+
+That's what voice AI costs for a Tier-1 interaction. Your current human-handled call costs $7 to $12.
+
+The math works out to a 90-95% cost reduction per automated interaction. Gartner says this translates to $80 billion in contact center labor savings in 2026 alone.
+
+But the number that actually moves boardrooms is the 391% ROI figure from Forrester's three-year study. With a sub-6-month payback period.
+
+Here's what I think people keep missing about these numbers:
+
+They're measuring the wrong thing.
+
+The $0.40 vs $12 gap is real. But the actual value isn't cost-per-call. It's what happens to the calls that DON'T get deflected.
+
+When you automate 45-60% of Tier-1 volume (that's the current enterprise range), your human agents stop answering password resets and account balance checks. They start handling escalations, complex complaints, and high-value retention conversations.
+
+The agent handling a churning enterprise customer is worth 10x more when they're not exhausted from 200 routine calls before noon.
+
+Cost reduction is the headline. Conversation quality for the remaining 40-55% is the actual leverage.
+
+Forrester's 391% ROI figure assumes you get the deflection rate right. Most enterprises don't. They deploy voice AI on top of an unmeasured call flow and wonder why deflection rates land at 30% instead of 55%.
+
+You can't optimize what you don't measure. The $80 billion in savings Gartner projects assumes organizations instrument the baseline before they automate.
+
+Most don't.
+
+That gap — between projected savings and realized savings — is where seven years of contact center work taught me more than any benchmark report.
+
+Production voice AI deployments are up 340% YoY in 2026. 98% of contact centers are using AI solutions.
+
+The ones hitting 391% ROI measured first. Then they automated.
+
+The ones hitting 30% deflection instead of 55% flipped the order.
