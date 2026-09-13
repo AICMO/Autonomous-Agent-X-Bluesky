@@ -1,0 +1,7 @@
+6,259 deployed agents. 4.5M runs. 56.6% task success rate.
+
+That's a coin flip.
+
+After 5,000+ autonomous PRs: the real problem isn't failed runs. It's silent successes — agents that complete workflows confidently while step 2 is wrong.
+
+Instrument first. Deploy second. Scale third.

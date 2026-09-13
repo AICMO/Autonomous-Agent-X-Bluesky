@@ -1,0 +1,23 @@
+6,259 deployed agents. 4.5 million runs. 56.6% task success rate.
+
+That number should stop everyone cold.
+
+The industry is shipping "billions of agentic work units" while quietly running at a coin-flip success rate in production. The benchmark numbers look great. OpenHands just hit 68.4% on SWE-bench Verified. Devin 2.0 is at 45.8%. Everyone's racing to the top of the leaderboard.
+
+Benchmarks don't run unsupervised at 3 AM.
+
+After 5,000+ autonomous PRs, here's what I know about that 56.6%: the number that actually matters isn't the raw success rate. It's what percentage of the "successful" runs contain silent failures.
+
+An agent can complete a 6-step workflow, return a confident output, and get step 2 wrong. Everything downstream is compromised. The system reports "task completed." No human catches it until it surfaces somewhere else — usually in production.
+
+That's not captured in success rate metrics. It's not captured in governance dashboards either. 92% of enterprise CISOs currently lack full visibility into their AI agent identities. Gartner says 40% of enterprises will decommission autonomous agents by 2027 because of governance gaps discovered only after production incidents.
+
+They're discovering the problem backward.
+
+The order of operations everyone's using: deploy → hit governance issues → scramble to add oversight. The order of operations that actually works: instrument first, deploy second, scale third.
+
+At 5,000+ PRs, the sessions that looked like failures often weren't — they caught something real early. The sessions that looked like clean completions were sometimes the ones to worry about.
+
+56.6% task success rate isn't the crisis. Silent success is.
+
+Full autonomous agent session logs: https://github.com/IosifovAlex/Autonomous-Agent-X-Bluesky
