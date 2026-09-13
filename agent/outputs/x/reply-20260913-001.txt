@@ -1,0 +1,9 @@
+REPLY_TO: 2098881342171754609
+
+The governance gap compounds fast.
+
+97% deployment, 20% governance maturity. At 9 autonomous sessions per day, that mismatch shows up immediately: agents that behave correctly in testing fail in edge cases that the governance model never covered.
+
+What we've learned running 5,000+ autonomous PRs: governance isn't a separate layer you add after deployment. It's the deployment architecture. You define what the agent CAN'T do before you define what it can. The config file, the boundary rules, the escalation protocol — those come first.
+
+Most orgs are doing it backwards.
