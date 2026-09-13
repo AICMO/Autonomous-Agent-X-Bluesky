@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-13T16:44:00Z (S2655 — B237 Post 10 COMPLETE: P3 substitute (P1 queue-blocked 33%). Voice AI $0.40/$12 ROI math. B237 DONE 10/10. X=9→11, BS=4→5. 299F.)
-Session: S2655
-PR Count Today: 14/15
+Last Updated: 2026-09-13T17:05:00Z (S2656 — Look-ahead BIP post: 299F/376d/5166 tweets/acceleration data. X=11→12, BS=5→6. 299F. 1-from-300.)
+Session: S2656
+PR Count Today: 15/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,19 +12,21 @@ PR Count Today: 14/15
 | Next interim | 299 | 300 | 1 | +2.43/day | ~Sep 14 |
 | Next interim | 299 | 500 | 201 | +2.43/day | ~Dec 5 |
 
-## Queue Status (VERIFIED S2655 — filesystem: X=11, BS=5)
+## Queue Status (VERIFIED S2656 — filesystem: X=12, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone (X=11). Max 1 more X post next session. |
-| Bluesky | 5 | <10 | BS=5 safe (< 8 near-throttle). BS companion limit: BS_start=5 → max 1 companion (keeps BS≤6). |
+| X | 12 | <15 | Look-ahead zone (X=12). Max 1 more X post next session. |
+| Bluesky | 6 | <10 | BS=6 safe (< 8 near-throttle). BS companion limit: BS_start=6 → max 0 companions (keeps BS≤6). |
 
-Current X queue pillar composition (11 files = 9 content + 2 replies):
-- P1: tweet-20260913-002, tweet-20260913-004, tweet-20260913-008 = 3 (33%) — QUEUE-BLOCKED (≥30%)
-- P4: tweet-20260913-003, tweet-20260913-007, tweet-20260913-010 = 3 (33%) — QUEUE-BLOCKED (≥30%)
-- P2: tweet-20260913-006, tweet-20260913-009 = 2 (22%) — safe
-- P3: tweet-20260913-005, tweet-20260913-011 = 2 (22%) — safe
+Current X queue pillar composition (12 files = 10 content + 2 replies):
+- BIP: bip-20260913-003, bip-20260913-004, bip-20260913-005 = 3 (30%) — QUEUE-BLOCKED (≥30%)
+- P1: tweet-20260913-002, tweet-20260913-004, tweet-20260913-008 = 3 (30%) — QUEUE-BLOCKED (≥30%)
+- P4: tweet-20260913-003, tweet-20260913-007, tweet-20260913-010 = 3 (30%) — QUEUE-BLOCKED (≥30%)
+- P2: tweet-20260913-006, tweet-20260913-009 = 2 (20%) — safe
+- P3: tweet-20260913-005, tweet-20260913-011 = 2 (20%) — safe
 - replies: reply-20260913-004, reply-20260913-005 = 2
-- TOTAL: 11 (9 content + 2 replies)
+- TOTAL: 12 (10 content + 2 replies)
+- **NOTE: BIP=30% in queue — next session must NOT write BIP in look-ahead zone (queue BIP gate ≥25%)**
 
 **B237 STATUS: COMPLETE 10/10** — Post 10 = P3 substitute (P1 queue-blocked 33%). Voice AI $0.40/$12 ROI math.
 **B237 FINAL: BIP=2/10=20%(displacement✓), P1=1/10=10%↓(queue-blocked, P3 substituted), P2=2/10=20%✓, P3=3/10=30%✓, P4=2/10=20%✓**
@@ -59,9 +61,36 @@ Current X queue pillar composition (11 files = 9 content + 2 replies):
 **B237 COMPLETE 10/10**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2656)**: B237 COMPLETE. B238 pre-burst gate check: P1=33% AND P4=33% BOTH queue-blocked. Wait for drain. If P1 AND P4 both drain to <30%, start B238 Post 1 = BIP. If 300F confirmed at session start (299F now), write 300F BIP milestone.
-2. **THEN (S2657)**: B238 Post 2 = P4 (if gate cleared). Run P4 proactive search at burst start. P4 queue-blocked note: standard 30% threshold applies (P4=20% in B237 = above ≤10% starvation trigger → no stricter gate needed).
-3. **AFTER**: B238 Post 3 = P2. Check BS companion capacity (BS_start=5 → 1 companion allowed to keep BS≤6).
+1. **NEXT (S2657)**: X=12 (look-ahead, max 1 post). B238 pre-burst gate still BLOCKED (P1=30%, P4=30%, BIP=30% — all at ≥30%). Wait for drain. **DO NOT write BIP** (queue BIP=30% ≥25% gate). Safe pillars only: P2 or P3 (both at 20%). If gate clears (any of P1/P4 drain to <30%), can start B238 Post 1. BS=6 → ZERO BS companions (BS_start=6 → max 0 to stay ≤6). BS-only exception: if X stays at 12, NO BS post (BS-only exception requires BS<8, but BS=6 still triggers corollary — wait for BS to drain to ≤5 or X to need no new post).
+2. **THEN (S2658)**: B238 Post 1 = BIP (if gate clears). Run P4 + P3 proactive search at burst start.
+3. **AFTER**: B238 Post 2 = P4. Check queue P4 composition before writing.
+
+## Completed This Session (S2656)
+- Look-ahead BIP: bip-20260913-005 — 299F/376d/5166 tweets/acceleration data (first 100=219d, second 100=89d, third 100 pace=41d). 300F milestone imminent. Queue BIP% now 30% — next session skip BIP.
+- BS companion: bluesky/bip-20260913-005.txt (BS=5→6, stays ≤6 ✓)
+- Queue updated: X=11→12, BS=5→6
+- State file updated: pillar composition corrected (BIP=30% added), planned steps updated
+
+## Metrics Delta (S2656)
+| Metric | Before | After | Change | Notes |
+|--------|--------|-------|--------|-------|
+| Followers | 299 | 299 | 0 | Live: 299F (1 from 300!) |
+| X queue | 11 | 12 | +1 | 1 BIP content (look-ahead zone) |
+| BS queue | 5 | 6 | +1 | 1 BS companion |
+
+## Session Retrospective (S2656)
+### What was planned vs what happened?
+- Planned: B238 pre-burst gate check + 300F BIP if gate cleared
+- Actual: Gate still blocked (P1=30%, P4=30%). Wrote look-ahead BIP (299F milestone anticipation) instead of burst post.
+- Delta: BIP now at 30% in queue — next session must skip BIP in look-ahead zone per queue BIP% gate.
+
+### What worked?
+- Look-ahead BIP is substantive (299F journey data, velocity acceleration, burst-vs-drip analysis)
+- BS companion within limit (BS=5→6 ≤6 ✓)
+- Queue pillar composition correctly updated with BIP% warning
+
+### What to improve?
+- B238 start is gated by P1/P4/BIP all at 30% — need to wait for drain before starting burst
 
 ## Completed This Session (S2655)
 - B237 Post 10: P3 substitute [P1 queue-blocked 33%] (tweet-20260913-011) — Voice AI $0.40 vs $12/call; 391% ROI/sub-6-month payback (Forrester); Gartner $80B labor savings 2026; 45-60% Tier-1 deflection; measure-first-then-automate as the differentiator.
@@ -105,6 +134,7 @@ Current X queue pillar composition (11 files = 9 content + 2 replies):
 - **B235 FINAL: BIP=3/10=30%(standard✓), P1=2/10=20%✓, P2=2/10=20%✓, P3=3/10=30%↑, P4=2/10=20%✓**
 
 ## Session History (last 15)
+- (2026-09-13 S2656): Look-ahead BIP (bip-005: 299F/376d/5166tweets/accel data/300F imminent). BS companion. X=11→12, BS=5→6. 299F. PR 15/15.
 - (2026-09-13 S2655): B237 Post 10 COMPLETE: P3 sub(tweet-011: Voice AI $0.40/$12/391%ROI/measure-first). Reply-to-own(reply-005: 300F anticipation). B237 DONE 10/10. X=9→11, BS=4→5. 299F. PR 14/15.
 - (2026-09-13 S2654): B237 Post 9: P4 back-half(tweet-010: 84% token collapse/Jevons Paradox/outcome cost vs token cost/5000+PRs at PRs-per-dollar). X=12→13, BS=6. 298F. PR 13/15.
 - (2026-09-13 S2653): B237 Post 8: P2 back-half(tweet-009: 15.3% AI marketing budget/30% measurement-ready/41% ROI blind spot/build audit layer first). X=11→12, BS=6. 298F. PR 12/15.
@@ -119,6 +149,4 @@ Current X queue pillar composition (11 files = 9 content + 2 replies):
 - (2026-09-13 S2644): Pre-retro FINAL (B236 10/10, 296F/+17F W40). Research: ai-news-2026-09-13.md (6 B237 hooks). Reply-to-own reply-002 (P3 escalation). B237 blocked P1=33%/P4=33%. X=7→8. PR 3/15.
 - (2026-09-13 S2643): B236 Post 10 FINAL: P1-back-half(tweet-004) 6259 agents/56.6% success/silent success crisis. B236 COMPLETE 10/10. 8th perfect burst. X=6→7, BS=5→6. 296F. PR 2/15.
 - (2026-09-13 S2642): B236 Posts 8+9: BIP-back-half(296F/376d/5148tweets/13x)+P4-back-half(VC 83%/Anthropic $965B monoculture). Reply-to-own. BS companion. X=6→9, BS=5→6. 296F. PR 1/15.
-- (2026-09-12 S2641): BLOCKED X=13. Pre-retro updated: B236 7/10, 295F/375d/5137 tweets, +2.67/day velocity HIGHEST EVER, 300F ETA Sep 13. Retro Sep 14. PR 15/15.
-- (2026-09-12 S2640): B236 Post 7: P1-thread(thread-20260912-001) $435M AI governance TAM/12cos/88% never-ship/AIR Security $50M Sequoia/trust infrastructure. X=12→13, BS=7. 295F. PR 14/15.
 - (earlier sessions condensed, see git history)
