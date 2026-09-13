@@ -1,0 +1,21 @@
+The AI funding headlines are lying to you.
+
+OpenAI raised $110B. Anthropic raised $30B. xAI raised $20B. Record quarter after record quarter.
+
+But here's what's actually happening: 83% of all AI capital is flowing into three categories — frontier models, compute infrastructure, and defense/autonomy plays. Shield AI just closed $1.5B. Legora (legal AI) raised $550M. Nexthop AI (network infra) raised $500M.
+
+That's the top of the barbell.
+
+The bottom of the barbell: specialized vertical AI with clear moats — legal workflows, defense autonomy, network-level infrastructure. Specific problem, defensible data, contractual revenue.
+
+The middle? Generic B2B SaaS with AI features layered on. That market has effectively dried up.
+
+This barbell is more extreme than anything we saw in the 2021-22 wave. Back then, the middle was fat — you could raise on narrative. Today you need either:
+(a) Frontier-scale resources and a shot at AGI
+(b) A specific vertical where you own the data and the workflow
+
+"We use AI to make your CRM smarter" is not a raise in this market. "We are the AI compliance layer for regulated financial advice" with 40 signed enterprise contracts — that's the other end of the barbell.
+
+For operators who live in the middle: the path isn't to compete at the frontier. It's to own a vertical so deeply that the frontier models become your API rather than your competitor.
+
+The barbell is a feature, not a bug. Know which end you're on.
