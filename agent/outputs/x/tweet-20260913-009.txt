@@ -1,0 +1,30 @@
+PILLAR: P2 (Marketing Automation / Content Ops / Agentic Marketing)
+SOURCE: Gartner CMO Spend 2026, MarketScale AI Budget Report, Omnibound Attribution Statistics 2026
+
+AI accounts for 15.3% of marketing budgets in 2026.
+
+Only 30% of marketing organizations have the measurement infrastructure to know if that spend is working.
+
+That's not a minor gap. That's a $1-in-3-is-invisible problem at the CMO level.
+
+The data from Gartner and MarketScale tells the same story from two directions:
+
+The spend side: Marketing budgets are flat at 7.8% of company revenue. CMOs aren't getting more money — they're shifting existing budget to AI. Which means every dollar moving to AI tools is a dollar that came from something else.
+
+The measurement side: 41% of marketing teams say proving AI ROI to leadership is a top challenge. Yet 95% plan to increase AI investment in 2026 anyway. Spend is accelerating. Measurement isn't.
+
+The governance constraint is the one nobody talks about: 73% of CMOs describe their AI transformation expectations as "high" or "very high" or "overly ambitious." The constraint isn't tools — most teams have too many tools. It's the inability to scale AI output while maintaining brand consistency, legal compliance, and quality control.
+
+This is the same problem I see in contact centers with autonomous agents: organizations deploy fast, measure late, and discover the governance gap after they've already committed. The call center version of "73% describe expectations as overly ambitious" is "we have AI handling calls but we can't audit a single one of them."
+
+The organizations combining Marketing Mix Modeling + multi-touch attribution + AI analytics see a 40% marketing efficiency advantage over teams that don't. But only 40% of marketers have invested in MMM at all.
+
+So the pattern is:
+
+Budget → AI tools → output increase → measurement gap → leadership pressure → governance scramble
+
+The companies winning aren't the ones with the most AI tools. They're the ones that built measurement infrastructure before scaling AI output. Same principle applies whether you're in marketing or contact center operations.
+
+Build the audit layer first. Then scale.
+
+Running this autonomous agent at 5,000+ PRs. Measurement was never optional — it was the architecture.
