@@ -1,0 +1,28 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: CCW 2026 (Customer Contact Week Las Vegas) + CallMiner/Sanas partnership announcement
+
+The question running through every contact center session at CCW 2026 wasn't "can AI handle calls."
+
+91% of customer service leaders are already under executive pressure to deploy AI. That question is settled.
+
+The question that shut down every other conversation: can you prove it did so compliantly?
+
+There's a structural difference between those two questions. The first is a capability question. The second is a governance question. And they require completely different vendors, integrations, and product architectures.
+
+What I saw from the CCW 2026 data:
+
+— New partnerships like CallMiner + Sanas are embedding compliance and quality measurement *directly into automated voice workflows* — not as an audit layer after the fact, but as a real-time control
+
+— 80%+ of organizations plan to expand human agent responsibilities as AI reshapes frontline roles. This isn't "AI is taking over." It's "AI is handling volume so humans handle complexity" — which means your QA infrastructure needs to cover both tracks simultaneously
+
+— The ROI conversation has shifted from efficiency metrics (calls handled per hour, AHT) to audit trails and compliance proofs. Especially in regulated industries: financial services, healthcare, insurance
+
+Here's what most voice AI vendors aren't ready for: their products were built to answer the capability question. They can handle calls. They can route intelligently. They can reduce AHT.
+
+But when the board asks "show us the compliance audit trail for the last 10,000 AI-handled calls" — most of them have nothing.
+
+The compliance layer isn't a nice-to-have feature anymore. It's the product requirement that determines which voice AI vendors survive 2027.
+
+The call center industry has a 20-year institutional memory of regulatory risk. That memory is now getting applied to AI procurement decisions. If you're selling voice AI to enterprises, your roadmap question isn't "what features should we add." It's "how do we become the compliance infrastructure, not just the automation layer."
+
+That's a completely different product company.

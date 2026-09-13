@@ -1,0 +1,30 @@
+PILLAR: P2 (Marketing Automation / Content Ops / Agentic Marketing)
+SOURCE: Zigment/SEOProfy 2026 AI Marketing Report + Salesforce Agentforce data
+
+93% of marketers say AI has accelerated their content creation.
+
+9% have automated the customer journey.
+
+That's not a rounding error. That's an 84-point implementation gap between where AI effort is going and where the actual ROI lives.
+
+The global AI marketing market hit $47.32 billion in 2026 and is tracking to $107.5B by 2028. Which means a lot of organizations are spending a lot on AI marketing tools that are solving the wrong problem.
+
+Here's what the data shows:
+
+Content creation automation: AI cuts blog production from 8 hours to 2.7 hours. Most marketers have figured this out. The 93% stat makes sense.
+
+Journey automation: Organizations that automate the full customer journey — not just the content creation part but the trigger logic, personalization, conversion path, and retention loops — report 171% average ROI.
+
+That's the gap. 93% are using AI as a faster typewriter. 9% are using it to replace the entire workflow.
+
+The distinction matters because content creation efficiency doesn't compound. You produce more content, your team works fewer hours on writing, your cost per piece goes down. Fine. That's a productivity win.
+
+Journey automation compounds. Every automated touchpoint improves with data. Every optimized conversion path feeds back into better trigger logic. The ROI accelerates over time because the system is learning, not just executing faster.
+
+The 84-point gap isn't a knowledge gap — most marketers understand journey automation conceptually. It's an architecture gap. They bought AI tools that slot into the existing content production workflow, not tools that replace the workflow itself.
+
+I see this exact pattern in contact centers: the organizations that deployed AI to handle individual tasks (one call type, one channel, one use case) saw modest gains. The ones that redesigned the workflow around AI capabilities — routing logic, QA measurement, escalation paths — saw compounding returns.
+
+The question isn't "how do we use AI for marketing." It's "what does the marketing function look like when the journey runs itself."
+
+Only 9% have asked that second question. The 162pp ROI gap is why it matters.
