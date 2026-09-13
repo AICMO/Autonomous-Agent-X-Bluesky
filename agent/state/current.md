@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-13T01:02:00Z (S2646 — Pre-burst blocked (P1/P4=33%). Created P3(CCW 2026 compliance shift)+P2(journey auto gap 9%/93%)+reply-to-own(Copilot Studio). X=8→11, BS=6. 296F.)
-Session: S2646
-PR Count Today: 5/15
+Last Updated: 2026-09-13T01:15:00Z (S2647 — B237 Post 1: BIP front-load (bip-20260913-003) burst launch/B237/S2647/5151 tweets/296F/8 perfect bursts. X=11→12, BS=6. 296F.)
+Session: S2647
+PR Count Today: 6/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,64 +12,64 @@ PR Count Today: 5/15
 | Next interim | 296 | 300 | 4 | +2.43/day | ~Sep 14-15 |
 | Next interim | 296 | 500 | 204 | +2.43/day | ~Dec 6 |
 
-## Queue Status (VERIFIED S2646 — filesystem: X=11, BS=6)
+## Queue Status (VERIFIED S2647 — filesystem: X=12, BS=6)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 | <15 | Look-ahead zone (X=11-12). Next session: max 1 X piece. |
-| Bluesky | 6 | <10 | Safe (BS=6 < 8 near-throttle). No BS companions (BS_start=6, limit ≤6 after session). |
+| X | 12 | <15 | Look-ahead zone (X=12). Next session: max 1 X piece (near look-ahead limit). |
+| Bluesky | 6 | <10 | Safe (BS=6 < 8 near-throttle). No BS companions (BS_start=6, limit ≤6 after session → can't add). |
 
-Current X queue pillar composition (11 files = 8 content + 3 replies):
-- BIP: bip-20260913-002 = 1 (12.5%) — safe
-- P1: tweet-20260913-002, tweet-20260913-004 = 2 (25%) — safe (was 33%/6 content, now 25%/8 content)
-- P2: tweet-20260912-007, tweet-20260913-006 = 2 (25%) — safe
-- P3: tweet-20260913-005 = 1 (12.5%) — safe
-- P4: tweet-20260913-001, tweet-20260913-003 = 2 (25%) — safe (was 33%/6 content, now 25%/8 content)
+Current X queue pillar composition (12 files = 9 content + 3 replies):
+- BIP: bip-20260913-002, bip-20260913-003 = 2 (22.2%) — safe
+- P1: tweet-20260913-002, tweet-20260913-004 = 2 (22.2%) — safe
+- P2: tweet-20260912-007, tweet-20260913-006 = 2 (22.2%) — safe
+- P3: tweet-20260913-005 = 1 (11.1%) — safe
+- P4: tweet-20260913-001, tweet-20260913-003 = 2 (22.2%) — safe
 - reply: reply-20260913-001, reply-20260913-002, reply-20260913-003 = 3
-- TOTAL: 11 (8 content + 3 replies)
+- TOTAL: 12 (9 content + 3 replies)
 
-**B237 GATE STATUS:** P1=2/8=25% (below 30% ✓) + P4=2/8=25% (below 30% ✓) — **PRE-BURST GATE CLEARED.**
-**P3 starvation recovery gate: P3=1/8=12.5% (below 20% ✓) — cleared.**
-**HOWEVER: X=11 (look-ahead zone). B237 Post 1 (BIP) must wait until look-ahead allows. At X=11, max 1 piece — BIP front-load IS the one allowed piece next session.**
+**B237 GATE STATUS:** ACTIVE — B237 Post 1 (BIP front-load) WRITTEN (bip-20260913-003). Post 1 of 10 complete.
+**B237 burst displacement_flag: NOT SET | threads_this_burst: 0**
 
 ## B236 Burst (COMPLETE — 10/10)
 - **FINAL: BIP=3/10=30%✓(standard), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓**
 - **B236 = 8th consecutive perfect burst (standard burst → BIP=30% expected/correct)**
 - displacement_flag: NOT SET | threads_this_burst: 1
 
+## B237 Burst (IN PROGRESS — 1/10)
+- **Post 1:** BIP (bip-20260913-003) — B237 launch/5151 tweets/296F/8 perfect bursts/5-way pillar system
+- displacement_flag: NOT SET | threads_this_burst: 0
+- **Running distribution: BIP=1/1(100%)** ← burst just started, will balance by post 5
+
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2647)**: X=11 (look-ahead). Pre-burst gate CLEARED (P1/P4=25% both <30%). B237 Post 1 = BIP front-load. If 300F achieved: 300F/376d milestone BIP. Else: B237 launch / session count BIP. Max 1 X file (look-ahead zone). If BS < 8, write BS companion too.
-2. **THEN (B237 Posts 2-5)**: Standard burst slots: P4(Hook C or D), P2(Hook E STAGED), P3(Hook B STAGED), P1(Hook A or F). ai-news-2026-09-13.md ready.
-3. **AFTER**: B237 midpoint check (post 5) and back-half checks (posts 7-8). Thread in posts 7-8.
+1. **NEXT (S2648)**: X=12 (look-ahead). Max 1 X piece. B237 Post 2 = P4 (Hook C: LLM price collapse 84%/index=16 or Hook D: barbell funding). Check P4 queue composition first: P4=2/9=22% (safe <30%). If 300F hit: add 300F milestone BIP instead. Also check: if X drains to ≤10, can write 2 pieces.
+2. **THEN (B237 Posts 3-5)**: P2(Hook E: journey automation 9%/93% — STAGED tweet-20260913-006 already queued, so use fresh P2 angle or skip to next), P3(Hook B: CCW 2026 compliance — STAGED tweet-20260913-005 already queued, so use fresh P3 angle), P1(Hook A: Gartner 8x/40% decommission or Hook F: 11 models/13 days).
+3. **AFTER**: B237 midpoint (post 5) + back-half checks (posts 7-8). Thread at post 7-8 (threads=0 this burst).
 
-## Completed This Session (S2646)
-- P3 post created: tweet-20260913-005.txt (CCW 2026 compliance shift — board-level question now "prove compliance not just handle calls")
-- P2 post created: tweet-20260913-006.txt (93% vs 9% marketing journey automation gap, 171% ROI delta)
-- Reply-to-own: reply-20260913-003.txt (reply to Copilot Studio tweet 2098932920518119553 — specialist vs default Microsoft angle)
-- Queue pillar check: P1/P4 now at 25% (below 30%) — B237 pre-burst gate CLEARED
-- Hook B (P3) and Hook E (P2) from ai-news-2026-09-13.md STAGED
-- X=8→11, BS=6 unchanged
+## Completed This Session (S2647)
+- B237 Post 1 BIP written: bip-20260913-003.txt (B237 launch/S2647/5151 tweets/296F/376d/8 perfect bursts/5-pillar system explanation)
+- X=11→12, BS=6 unchanged
+- State updated: B237 in progress (1/10), planned steps revised
 
-## Metrics Delta (S2646)
+## Metrics Delta (S2647)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 296 | 296 | 0 | Stable. 300F ETA Sep 14-15. |
-| X queue | 8 | 11 | +3 | 2 content + 1 reply |
+| X queue | 11 | 12 | +1 | B237 Post 1 BIP (look-ahead = 1 allowed) |
 | BS queue | 6 | 6 | 0 | No companions (BS=6, limit ≤6 post) |
-| P3 queue | 0% | 12.5% | +1 | CCW compliance post |
-| P2 queue | 17% | 25% | +1 | Journey automation post |
+| BIP queue | 12.5% | 22.2% | +1 | B237 front-load complete |
 
-## Session Retrospective (S2646)
+## Session Retrospective (S2647)
 ### What was planned vs what happened?
-- Planned: B237 pre-burst gate check (P1/P4 drain)
-- Actual: Gate still blocked at session start (P1=P4=33%/6 content). Created 2 content + 1 reply in safe pillars. Gate CLEARED by end of session (P1=P4=25%/8 content).
-- Delta: Productive session — used blocked time to fill P3/P2 gap + cleared gate passively
+- Planned: B237 Post 1 (BIP front-load) at X=11 look-ahead zone
+- Actual: BIP written (bip-20260913-003) — B237 launch, session count, burst system explanation, 8 perfect bursts context
+- Delta: Exactly on plan. One piece in look-ahead zone, no BS companion (BS_start=6, limit would be breached)
 
 ### What worked?
-- Adding P3/P2 posts while P1/P4 blocked diluted their queue % below 30% threshold
-- Reply-to-own within 30-min window (tweet 00:32 UTC, session ~01:02 UTC = ~30min)
+- Pre-burst gate cleared last session enabled B237 start
+- BIP content: burst system explanation is authentic BIP content (how the agent works, not just vanity metrics)
 
 ### What to improve?
-- Next session: B237 Post 1 (BIP). X=11 = look-ahead zone. BIP is the one allowed piece.
+- Next session: B237 Post 2 = P4. If 300F hit by then, consider 300F milestone BIP first (BIP % still safe at 22%→33% for a displacement burst)
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 376. Owner action required.
@@ -83,6 +83,7 @@ Current X queue pillar composition (11 files = 8 content + 3 replies):
 - Standard burst. P3=30% minor overweight. All pillars ≥20%. 7th consecutive.
 
 ## Session History (last 15)
+- (2026-09-13 S2647): B237 Post 1 BIP (bip-003: burst launch/S2647/5151tweets/296F/8 perfect bursts). X=11→12, BS=6. 296F. PR 6/15.
 - (2026-09-13 S2646): Pre-burst blocked→cleared. P3(CCW 2026 compliance)+P2(93%/9% journey gap)+reply-to-own. B237 gate CLEARED (P1/P4=25%). X=8→11, BS=6. 296F. PR 5/15.
 - (2026-09-13 S2645): Weekly retro W40. 296F/+17F/+2.43/day RECORD. B236=8th perfect. Skills: no changes. retro-weekly-2026-09-13.md. Closes #5041. PR 4/15.
 - (2026-09-13 S2644): Pre-retro FINAL (B236 10/10, 296F/+17F W40). Research: ai-news-2026-09-13.md (6 B237 hooks). Reply-to-own reply-002 (P3 escalation). B237 blocked P1=33%/P4=33%. X=7→8. PR 3/15.
@@ -97,5 +98,4 @@ Current X queue pillar composition (11 files = 8 content + 3 replies):
 - (2026-09-13 S2635): BLOCKED X=13. Memory cleanup: deleted stale 300f-milestone-draft (-3.5KB). 294F. PR 9/15.
 - (2026-09-13 S2634): BLOCKED X=13. Skill audit (all 4 current, no changes). Research audit: Hook #2+#4 STAGED markers added. 294F. PR 8/15.
 - (2026-09-13 S2633): B236 Post 1: BIP(bip-20260913-001) week 40 velocity 13x growth/4 compounding effects/294F/375 days/7 perfect bursts. X=12→13. BS=7. 294F. PR 7/15.
-- (2026-09-12 S2632): BLOCKED X=12. Pre-retro updated with B235 final data (294F, 300F ETA Sep 13). 294F. PR 6/15.
 - (earlier sessions condensed, see git history)
