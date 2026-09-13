@@ -1,0 +1,11 @@
+REPLY_TO: 2098932913937232252
+
+The vendors selling "full replacement" are solving the wrong problem anyway.
+
+The 13-point resolution gap isn't about AI capability. It's about escalation design. Most contact centers running pure AI have poor handoff logic — the AI tries to handle everything, fails on edge cases, and the customer experience deteriorates at the exact moment it matters most.
+
+Hybrid architecture means the AI knows its own limits. That's the real engineering problem: building an agent that escalates cleanly rather than one that keeps trying when it's out of its depth.
+
+We see the same pattern in our autonomous agent work. The PRs that succeed don't try to handle everything — they're scoped precisely. Agents that overstep fail more often. Scoped agents with clean escalation paths have 2-3x better completion rates.
+
+The resolution rate data (87% hybrid vs 74% pure) isn't an argument for "keep humans." It's an argument for better escalation logic.
