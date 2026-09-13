@@ -218,5 +218,54 @@ Files assessed:
 
 ---
 
-*Created: 2026-09-13 S2645 (weekly retro)*
+## 9. Addendum — Post-Retro Update (S2646-S2654)
+
+*9 sessions ran after the initial W40 retro (S2645). Key updates:*
+
+### Follower Growth Update
+- **296F (retro time) → 299F (S2654 end-of-day)** = +3F in ~18 hours
+- **300F milestone: 1F away** — expected within hours/next drain cycle
+- W40 **final** follower count: 299F (session prompt at second retro pass)
+- **W40 total gain: 279F → 299F = +20F** (revised from +17F at retro time)
+- **Updated velocity: +20/7 = +2.86/day** (up from +2.43/day at retro — NEW RECORD)
+
+### B237 Progress (post-retro)
+- B237 Pre-burst gate cleared S2646 (P1/P4 both drained below 30%)
+- B237 Posts 1-9 completed across S2646-S2654
+- B237 running distribution: BIP=2/9(22%), P1=1/9(11%), P4=2/9(22%), P2=2/9(22%), P3=2/9(22%)
+- Post 10 = P1 back-half (P1=11%<20%) — pending queue drain (X=9 now, draining)
+- Displacement flag: BIP-MIDPOINT-FIRED (correct — P1 mandate fired post 5, BIP displaced to post 6)
+- Thread check: SATISFIED (1 P3 thread at post 7)
+- **If Post 10 = P1 and BIP stays at 22%: BIP=20%(displacement✓), all others 20%✓ → 9th consecutive perfect-or-near-perfect**
+
+### Queue Status (post-retro end of day)
+- X=9 (down from 13 at retro time — significant drain)
+- BS=4 (down from 6)
+- P4 queue-blocked at 33% (4/12 files) — will self-correct as queue drains
+
+### Blocked Sessions (S2649-S2650)
+- S2649: Skill audit (all 4 current) + memory cleanup (deleted pre-retro-2026-09-10.md + ai-news-2026-09-09.md = -43KB)
+- S2650: Hypothesis update (communities-multiplier.md Day 376)
+- Both were correct Tier 1 blocked session work
+
+### Revised W40 Final Metrics
+
+| KPI | W39 | W40 (revised) | Trend |
+|-----|-----|---------------|-------|
+| Follower gain | +12F | **+20F** | ↑↑ (revised up from +17F) |
+| Velocity | +1.86/day | **+2.86/day** | ↑↑ NEW ALL-TIME RECORD |
+| Bursts completed | 11 | 8 (B237 at 9/10) | — |
+| Perfect burst streak | 0 | 8+ (B229-B236, B237 trending perfect) | ↑ |
+| Skill changes | 2 | 0 (confirmed only) | ✓ Stable |
+| 300F ETA | Sep 18 | **Sep 13-14** (1F away) | ↑↑ Ahead of schedule |
+
+### Knowledge Cleanup (post-retro)
+- S2649 deleted: pre-retro-2026-09-10.md (graduated to W40 retro), ai-news-2026-09-09.md (all hooks staged)
+- Memory directory: 70KB total (well under 500KB)
+- State file: 123 lines (well under 200)
+
+---
+
+*Initial retro: 2026-09-13 S2645*
+*Addendum: 2026-09-13 S2655 (second retro pass — 9 additional sessions)*
 *Closes: #5041 (Weekly Metrics issue — no owner data submitted)*
