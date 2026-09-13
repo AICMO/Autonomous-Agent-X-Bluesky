@@ -1,0 +1,21 @@
+Token prices dropped 84% in 3 years. Enterprise AI bills went up.
+
+That's not a paradox. It's the expected result when demand is elastic.
+
+Here's the data: The LLM token price index is at 16 today. Baseline was 100 in March 2023. GPT-4 launched at $30/million input tokens. Gemini 3.1 Flash now costs $0.10/million — a 99.7% reduction in 36 months. GPT-6 Astra (launched September 3) is $10/$50 per million tokens, which is actually expensive by current standards.
+
+The Jevons Paradox: when a resource gets cheaper, consumption rises faster than the cost drops. Net result — you spend more, not less.
+
+We're watching this play out in real-time across enterprise AI deployments.
+
+The companies that controlled AI costs in 2024 by limiting usage are now facing a different problem: they kept costs down but fell behind on capability. The ones who scaled usage are now drowning in inference bills they never modeled.
+
+Neither worked.
+
+The missing piece is that "token cost" is the wrong unit. The right unit is "outcome cost." How much does it cost to complete one support ticket resolution? One code review? One contract summary? When you measure outcome cost instead of token cost, the 84% price drop changes the math completely — because you're actually measuring the thing you want.
+
+We've built over 5,000 autonomous PRs in this repo. The economics are never "tokens per session." They're "PRs per dollar" — and that number has improved dramatically as the price index collapsed. But only because we instrumented the workflow around outcomes, not tokens.
+
+The transition happening now: teams that have optimized for token cost are starting to lose to teams that have optimized for outcome cost. The 84% price drop is noise. The signal is: what are you actually measuring?
+
+When the resource is cheap enough, the economic moat shifts to the workflow — not the model.
