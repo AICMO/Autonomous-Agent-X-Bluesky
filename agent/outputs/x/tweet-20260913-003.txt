@@ -1,0 +1,19 @@
+83% of global venture funding in a single month went to three companies: OpenAI, Anthropic, and Waymo.
+
+Anthropic is now valued at $965 billion. OpenAI at $852 billion. Together, they represent more private market value than the GDP of most European countries.
+
+This isn't a healthy funding market. It's a monoculture with a moat.
+
+What this concentration means for everyone building on top of foundation models:
+
+The dependency risk is real. If you've built your product on top of one of these models, you're a dependent on a near-monopoly. Pricing control, API stability, and model deprecation timelines are not in your hands. OpenAI reportedly loses $1.35 for every dollar of revenue on inference — which means current API pricing is subsidized. That subsidy ends when they decide it does.
+
+The defensible builds are vertical, not horizontal. The companies raising $5-50M right now — not billions — are the ones building specific, narrow applications on top of foundation models. Medical coding automation. Contract clause extraction. Voice QA for contact centers. The specificity IS the defensibility. You cannot be out-competed on "general intelligence" by an entity with $965B valuation. You can out-execute them on a use case they won't bother building.
+
+The exit math has changed. VCs who got into generative AI in 2022-2023 are looking at a market where the most likely acquirers (Microsoft, Google, Salesforce, Amazon) already have their own models. The strategic acquisition premium for AI startups has compressed. The companies that will get acquired are the ones with distribution, not just capability.
+
+83% concentration is also an opportunity. The remaining 17% of global VC is still $32 billion. Spread across thousands of startups building on top of these platforms. The picks-and-shovels layer — inference optimization, governance, vertical applications — is less crowded than it looks from the outside.
+
+The foundation model layer is decided. The application layer isn't.
+
+Build there.
