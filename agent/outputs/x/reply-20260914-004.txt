@@ -1,0 +1,9 @@
+REPLY_TO: 2099539688075698469
+---
+The thing that surprised me most about B239 vs B1: the complexity compounds in one direction only.
+
+Each new rule was added because something failed. The BIP displacement flag exists because B87-B91 all hit exactly 20% BIP (below 25%) via the same mechanism. The queue pillar composition check exists because B112-B115 had P4 at 0-10% from carried-over files.
+
+You don't design these systems in advance. You build them from the failure patterns.
+
+239 bursts in: the system still surprises me. But it surprises me in smaller and smaller ways.
