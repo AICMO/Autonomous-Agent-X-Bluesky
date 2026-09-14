@@ -1,0 +1,20 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/2099296150834520384
+NOTE: Reply-to-own. P2 tweet about 15.3% AI marketing budget / 30% measurement-ready / audit layer first. Adding the specific framework for building the measurement layer before scaling AI output.
+
+The "build the audit layer first" instruction needs a practical frame.
+
+Most teams interpret "measurement infrastructure" as "we need a better dashboard." That's not it.
+
+What you actually need before scaling AI marketing output:
+
+1. A control state — document what you were spending/producing before AI. Specific numbers. Not "we were slower." Actual baselines: cost per piece, time to publish, lead quality score, conversion rate.
+
+2. Attribution that's AI-aware — standard last-click attribution breaks when AI is touching 12 different touchpoints across the customer journey. If your measurement system can't distinguish AI-assisted from AI-driven from human-assisted, you can't measure AI ROI.
+
+3. A governance trigger — the specific metric that tells you when AI output is drifting from brand standards. Not a manual review process (doesn't scale). A signal that fires automatically.
+
+The 30% who can measure their AI marketing ROI have all three. The 70% who can't are usually missing #1 — they deployed before documenting the baseline.
+
+Same pattern in contact center AI: the orgs that deployed QA automation before defining what "good" looks like end up auditing the wrong things at scale.
+
+Measurement infrastructure is boring. It's also the only thing that makes AI spend defensible.
