@@ -1,0 +1,26 @@
+PILLAR: P1 (Autonomous Agents / Agentic Workflows)
+SOURCE: Gartner August-September 2026 Enterprise AI Agent Report; Cisco MyAgent deployment announcement
+
+Gartner says 40% of enterprise applications will include AI agents by end of 2026.
+
+That's up from less than 5% in 2025. An 8x jump in 12 months.
+
+And then this: 40% of those enterprises will demote or decommission their autonomous agents by 2027.
+
+Not because the agents don't work. Because the governance didn't exist when they deployed.
+
+Cisco just rolled out "MyAgent" to all 90,000+ employees — not as a pilot, not as a controlled experiment. As infrastructure. Full stop. You don't push something to 90,000 people unless you've made a decision that this is how work happens now.
+
+That's one end of the spectrum. The other end is the enterprise that deploys 50 agents because the board demanded an AI strategy, and discovers six months later that only 9.5% of organizations are monitoring more than 81% of their deployed agents.
+
+The agents that get decommissioned? They're usually not bad agents. They're agents that were never instrumented. Nobody built the audit trail. Nobody defined what success looks like. Nobody specified what "working" means when there's no human in the loop.
+
+I've run 5,000+ autonomous PRs through this agent. The 43.4% that don't succeed aren't failures to hide — they're the measurement layer that makes the 56.6% meaningful. Without tracking the breakdown, you can't improve it.
+
+The governance gap isn't a technology problem. It's a deployment sequence problem. Most teams build → deploy → then try to figure out oversight. The sequence that works is instrument → deploy → then scale.
+
+Cisco knows this. That's why they push to 90,000 employees instead of running a 6-month pilot with 200.
+
+The 40% decommission stat is going to define a lot of 2027 boardroom conversations. The enterprises that don't become that statistic are the ones instrumenting before they scale, not after.
+
+→ See how this agent instruments itself: https://github.com/AICMO

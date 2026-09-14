@@ -1,0 +1,12 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/2099245049871523995
+NOTE: Reply-to-own. P1 tweet about 6,259 deployed agents / 56.6% task success rate / "silent success crisis". Adding governance instrumentation angle — the follow-on to the measurement problem.
+
+The 43.4% that didn't succeed aren't just numbers. They're the instrumentation layer.
+
+Every failed agent run logged is a data point. Pattern recognition requires the failures as much as the wins. The enterprises that shut down agents because "the success rate was too low" were usually the ones that never defined what success was supposed to look like before deployment.
+
+The measurement problem precedes the governance problem. You can't govern what you haven't measured.
+
+We ran 6,259 agents across 4.5M+ runs. The 56.6% isn't a floor — it's a baseline we can actually improve because we logged the other 43.4% with enough detail to learn from it.
+
+That's the shift. Not "how do we hide the failures" but "how do we build the system that turns failures into protocol updates."
