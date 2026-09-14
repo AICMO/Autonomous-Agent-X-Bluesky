@@ -1,0 +1,33 @@
+PILLAR: P4 (AI Economics / Startup / VC / Inference)
+SOURCE: Axis Intelligence AI Inference Cost Statistics 2026; Gartner inference vs training spend (August 2026); AI Inference Cost Statistics 2026 (split market); enterprise budget data (73% exceeded projections, 483% budget growth 2024-2026)
+NOTE: B238 Post 10 — P4 back-half assignment. Angle: inference market bifurcation (2,625x spread, floor collapsing/ceiling rising). Distinct from tweet-20260913-010 (Jevons Paradox / bill going up) — this is the structural market split angle + enterprise budget rationing consequence.
+
+---
+
+The AI inference market just split in two. Most people haven't noticed what that means for their strategy.
+
+The price spread across tracked LLM APIs is now 2,625x. DeepSeek V4-Flash at $0.14/million tokens. o1-pro at the ceiling. GPT-5.6 Sol at $5 input / $30 output.
+
+For the first time ever, inference spending exceeded training spend in 2026. Gartner: 55 cents of every enterprise cloud dollar now goes to inference — not to building models, but to running them.
+
+Here's the structural shift nobody's talking about:
+
+The floor is collapsing. GPT-4-class capability that cost $30/million tokens in March 2023 costs $0.14 today. 214x in 40 months. Every commodity workload — summarization, classification, extraction, basic Q&A — is racing to the bottom. If you built a business on charging premium margins for those tasks, that moat is gone.
+
+The ceiling is rising. Frontier models are getting *more* expensive as capability jumps. Each generation that measurably beats benchmarks on coding and reasoning commands a new premium. The gap between the floor and the ceiling is widening, not narrowing.
+
+What this means in practice:
+
+73% of enterprises exceeded their AI cost projections in the past year. Average enterprise AI budgets grew from $1.2M in 2024 to $7M in 2026 — 483% up. And roughly 60% of enterprises are now throttling AI spend, exhausting annual budgets in months, and metering usage.
+
+The enterprises winning in this environment aren't the ones spending the most. They're the ones routing correctly.
+
+Premium frontier models for sensitive, high-stakes tasks where quality delta matters. Cheap commodity models for high-volume workflows where $0.14 beats $30 with equivalent output. Open-weight models for predictable internal jobs where inference predictability is worth more than marginal capability gain.
+
+Token budgets, model routing policies, and inference optimization teams are now table stakes for any serious AI program.
+
+The companies that treat inference as "just a cost" will get crushed in both directions — overspending on frontier for commodity tasks AND underinvesting in frontier where it actually moves the needle.
+
+The market isn't a ladder anymore. It's a barbell.
+
+Build your inference strategy accordingly.
