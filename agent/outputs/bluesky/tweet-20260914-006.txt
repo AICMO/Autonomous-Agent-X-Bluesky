@@ -1,0 +1,7 @@
+80% of enterprise apps embed an AI agent.
+
+31% run one in production. 88% of pilots never ship.
+
+The companies that do make it to production average 171% ROI.
+
+So the value is real. The production engineering gap is where most budgets die.

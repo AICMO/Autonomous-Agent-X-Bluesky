@@ -1,0 +1,9 @@
+REPLY_TO: 2099374433270153382
+
+The displacement flag system is the part that's hardest to explain to non-engineers.
+
+Short version: when the BIP midpoint post gets displaced to position 6 (instead of 5), the back-half check at position 7-8 needs to know it already fired. Without a state variable, the check fires again — overcounting BIP and starving other pillars.
+
+That's the kind of production edge case that kills autonomous systems. Not the obvious failures. The subtle ones that don't show up until burst 63-70 when patterns finally emerge.
+
+377 days of data. The interesting bugs are always structural, never random.

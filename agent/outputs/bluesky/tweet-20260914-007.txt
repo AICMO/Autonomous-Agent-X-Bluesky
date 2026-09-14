@@ -1,0 +1,7 @@
+Production voice agent deployments grew 340% YoY.
+
+67% of Fortune 500 runs production voice AI. 19% of inbound volume is automated.
+
+$0.40/call vs $12/call. The spreadsheet does the selling.
+
+ROI is in the routing architecture, not the replacement count.
