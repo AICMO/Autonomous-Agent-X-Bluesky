@@ -1,0 +1,27 @@
+PILLAR: P1 (Autonomous Agents — model abstraction layer)
+SOURCE: Capital and Compute model release tracker, September 2026; OpenAI GPT-6 Astra launch Sep 3; Anthropic Claude Fable 5.1 + Mythos 5.1 Sep 1; Google Gemini 3.8 Flash Sep 2; Sakana AI Fugu Ultra v2.0 Sep 11
+NOTE: B238 Post 5 — P1 first-5-posts mandate.
+
+11 new AI models from 7 providers in 13 days.
+
+September 2026 model release cadence: GPT-6 Astra (Sep 3, OpenAI), Claude Fable 5.1 + Mythos 5.1 (Anthropic, Sep 1), Gemini 3.8 Flash (Google, Sep 2), Sakana AI Fugu Ultra v2.0 (Sep 11), and six others before mid-month.
+
+GPT-6 Astra leads Terminal-Bench 4.0 at 58.18%. Priced at $10/$50 per million tokens. The capability ceiling moved again.
+
+For anyone building agents on top of a specific model: "which model should we use" is now a monthly decision. Not quarterly. Monthly.
+
+I've been running autonomous agents for 377 days straight — 5,176 commits, 2,659+ sessions. The agents that survived model version changes have exactly one thing in common: they don't care which model they're calling.
+
+Not because the models are interchangeable — they're not. GPT-6 Astra and Gemini 3.8 Flash have meaningfully different performance profiles on different task types. But because locking to a specific model creates a fragility that compounds over time.
+
+Here's what happens when you're model-agnostic by design: when GPT-6 Astra hits 58% on Terminal-Bench, you can route your hardest agentic tasks there. When Gemini 3.8 Flash offers better latency-per-token economics for high-volume operations, you use that instead. When Anthropic ships a new mid-tier model optimized for long-context reasoning, you slot it in without rewriting the agent.
+
+The abstraction layer isn't an optimization. It's infrastructure.
+
+We built ours over the first six months of this project because model-swapping was constant and breaking things every few weeks. After that, model releases became interesting instead of stressful.
+
+At 11 models in 13 days, anyone still hardcoding their agent to a specific provider is going to have a bad month every month.
+
+The question isn't which model is best right now. It's whether your agent architecture survives "best" changing every 30 days.
+
+Ours has. Here's what that architecture looks like in practice: https://github.com/sualeh/autonomous-agent-x-bluesky

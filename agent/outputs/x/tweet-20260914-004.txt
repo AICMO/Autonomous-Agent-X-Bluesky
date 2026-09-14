@@ -1,0 +1,29 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: Gartner Feb 2026 (320+ CS leaders), Forrester May 2026 (Leggett/Ramos), CX Dive coverage
+NOTE: B238 Post 4 — P3 first-4-posts mandate.
+
+Gartner surveyed 320+ customer service leaders in February. 91% are under executive pressure to deploy AI.
+
+Here's the number nobody talks about: only 1 in 10 customer interactions is currently fully automated.
+
+Gartner still projects $80 billion in contact center labor cost savings for 2026 alone.
+
+How do you get $80 billion in savings from 10% automation? The math doesn't look right until you understand what's actually happening.
+
+It's not that AI is doing 10% of the work and saving 10% of the cost. It's that AI is changing the economics of the 90% it doesn't touch.
+
+When you deploy voice AI on Tier-1 volume — password resets, account balances, appointment scheduling — you don't cut headcount. 55% of organizations report steady agent headcount while serving meaningfully more customers. They're not laying off agents. They're freezing backfills and letting attrition do the math.
+
+Forrester's deployment data makes this concrete: real production benchmarks show 68-96% AI containment rates already live at scale. Anthropic's own support operation runs at 96% AI containment. Heathrow Airport: 90%. Rocket Money: 80%.
+
+The tech works. The question is whether your organization is actually running it at that level.
+
+Here's what I've seen across seven years in contact center operations: the gap isn't capability. It's measurement. Organizations hit 30% containment instead of 70% not because the AI can't handle the calls — it can — but because they don't know which calls to route to it.
+
+Gartner's $80B projection assumes 10% of interactions fully automated. That 10% is the highest-value, highest-volume, most-contained 10% of your call flow.
+
+The other 90%? That's where the 84% of organizations revising agent skill requirements are focused. They're not replacing people. They're rebuilding what a contact center agent does when AI handles everything routine.
+
+91% under executive pressure. 1 in 10 interactions automated. $80 billion in savings.
+
+If those numbers seem contradictory, you haven't looked at your call deflection data yet.
