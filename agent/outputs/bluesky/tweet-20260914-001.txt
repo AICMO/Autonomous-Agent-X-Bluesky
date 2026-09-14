@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission their AI agents by 2027.
+
+Not because agents don't work. Because governance didn't exist when they deployed.
+
+The sequence that works: instrument → deploy → scale.
+
+Most teams do it backwards. The 40% stat will define a lot of 2027 boardrooms.
