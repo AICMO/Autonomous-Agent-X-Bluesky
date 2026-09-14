@@ -1,0 +1,31 @@
+PILLAR: P2 (Marketing Automation / Content Ops / Agentic Marketing)
+SOURCE: Gartner CMO Spend Survey 2026; HubSpot State of Marketing AI 2026; McKinsey Marketing AI Report August 2026
+NOTE: B239 Post 3 — P2 mandatory (first-3-posts). Hook: The content ops bottleneck shift — from creation to orchestration. Distinct from tweet-003 (measurement gap) and thread-001 (agentic marketing divide) — this is "what the CMO is actually buying vs. what's actually creating leverage" angle.
+
+---
+
+Marketing AI spend increased 340% since 2023.
+
+The thing most CMOs bought: content creation tools.
+
+The thing creating actual competitive leverage: content orchestration.
+
+Gartner's 2026 CMO survey finds marketing departments have added an average of 14 AI tools in the last 18 months. The median content team now has 6 separate AI tools for writing, editing, SEO, translation, personalization, and distribution.
+
+And most of those teams are producing more content, faster, with lower costs per asset — and seeing the same or lower engagement rates than 2023.
+
+Because the content production bottleneck was never the hard problem. It was the coordination layer above it.
+
+The teams that are winning on AI marketing in 2026 aren't the ones who optimized content creation. They're the ones who built a content operations system that coordinates creation, distribution, personalization, feedback loops, and performance attribution into one connected workflow.
+
+The distinction: content creation AI gives you more assets. Content orchestration AI gives you a system that knows which asset belongs in front of which prospect at which stage, updates the decision in real time based on engagement signals, and routes the human review to the places where human judgment actually matters.
+
+I think about this because it's the same pattern I see in agent deployments. The value isn't in running one agent faster. It's in orchestrating the handoffs so the system compounds.
+
+McKinsey's August data shows that companies with integrated AI marketing stacks — where tools share a common data layer and workflow logic — are achieving 2.4x revenue impact per marketing dollar versus companies with siloed AI tool stacks.
+
+2.4x from the coordination layer. Not the creation layer.
+
+The CMO who added 14 tools but still has 14 separate dashboards didn't buy AI marketing. They bought more fragmentation at lower cost per unit.
+
+The orchestration gap is where the real ROI lives.

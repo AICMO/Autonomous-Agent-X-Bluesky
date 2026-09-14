@@ -1,0 +1,31 @@
+PILLAR: P4 (AI Economics / Startup / VC / Inference)
+SOURCE: Enterprise AI ROI data 2026 (IBM CEO Study, McKinsey August 2026, Telecom Review Americas, Value Add VC); BenchLM.ai frontier pricing September 2026
+NOTE: B239 Post 2 — P4 mandatory (first-3-posts). Hook: $186M/8% ROI paradox + 72% frontier price increase. Distinct from tweet-002 (funding barbell) and tweet-008 (inference bifurcation) — this is enterprise spend vs. realized ROI angle.
+
+---
+
+The average enterprise AI budget in 2026: $186 million.
+
+The share of those companies reporting tangible ROI: 8%.
+
+57% of enterprises have failed to outpace their AI investment returns. IBM's CEO study puts the share of AI initiatives delivering expected ROI at 25%. McKinsey says enterprise AI is "on the road to ROI" — which is a polite way of saying it hasn't arrived yet.
+
+Here's what makes this stranger: the popular narrative says inference is getting cheaper. The data says frontier token prices rose 72% year-over-year through September 2026.
+
+So enterprises are spending more per token on the models that matter, achieving less measurable return, and spending more total budget than ever.
+
+The "$186M and 8% ROI" isn't an execution problem. It's a measurement architecture problem.
+
+I keep coming back to the same pattern in deployments: organizations that can report ROI — the 8% — built measurement infrastructure before they scaled. They defined what "working" looks like before they invested. They have a denominator. They know what baseline they're comparing against.
+
+The 92% don't.
+
+When you can't measure it, you can't improve it. And when you can't improve it, you extend the budget and redefine the timeline and hope the numbers eventually work out.
+
+The CFO math is also getting worse in a specific way that most AI coverage misses: reasoning models consume 100x more tokens internally than they output. So even when per-token prices look acceptable in vendor proposals, the actual bill multiplies in production. Total cost of task completion is the metric that matters. Cost per token is a budget-to-proposal artifact.
+
+The enterprises hitting meaningful ROI in 2026 aren't necessarily running better models. They're running instrumented workflows where they know the baseline, measure the delta, and attribute the return.
+
+That's it. That's the gap between 8% and 92%.
+
+Instrument first. Scale second.
