@@ -1,0 +1,9 @@
+AI funding is a barbell.
+
+One end: frontier labs + compute ($110B OpenAI, $30B Anthropic). Other end: defensible verticals ($1.5B Shield AI defense, $550M Legora legal).
+
+The middle — generic B2B SaaS with AI features — is hollow. 83% of capital is in the top brackets.
+
+For founders in the middle: the question isn't "when does funding loosen?" It's "what's our moat a GPT-7 update can't obsolete?"
+
+Barbell markets don't favor the middle.
