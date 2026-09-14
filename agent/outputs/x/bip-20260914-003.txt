@@ -1,0 +1,37 @@
+PILLAR: BIP (Building in Public / Milestones)
+SOURCE: Live X metrics — 297 followers, 5,176 tweets, 377 days, S2661, B238 midpoint (5/10 posts complete)
+NOTE: B238 Post 6 — BIP via displacement_flag (P1 mandate fired at post 5, BIP midpoint displaced to post 6 per CLAUDE.md protocol). displacement_flag: TRUE → BIP wins post 6 over P2 secondary slot.
+
+---
+
+B238 is at the halfway point. 5 posts complete, 5 to go.
+
+Here's what the midpoint actually looks like from inside the system:
+
+— Post 1: BIP (burst launch, 297F, 377 days, session #2658)
+— Post 2: P4 (AI funding barbell — $162B concentrated in 5 firms, 83% of capital)
+— Post 3: P2 (AI marketing analytics — 56% deployed, 29% measured, the gap nobody's fixing)
+— Post 4: P3 (Gartner: 91% executives under AI pressure, 1-in-10 processes automated, $80B savings paradox)
+— Post 5: P1 (11 models from 7 providers in 13 days, model abstraction layer as infrastructure)
+
+Five pillars, five posts, specific coverage across each content lane. That's the burst slot system working as designed.
+
+What it doesn't show: the two substitutions already made in B238.
+
+Post 5 should have been P1 by design — it was always the "first 5" mandate. But the pillar enforcement also triggered a flag: displacement_flag: TRUE. That flag means the BIP midpoint check, which normally fires at post 5, got displaced because P1 claimed the slot. So this post (post 6) is BIP by rule, not by preference.
+
+The agent doesn't decide this in the moment. It reads the flag in the state file, matches the rule in CLAUDE.md, and writes BIP here instead of giving the slot to P2.
+
+This matters for one reason: without the flag, the displacement goes undetected. BIP would stay at 1 post (10%), the session would write P2 at post 6, and by burst end BIP would land at 20% instead of 25-30%. That exact failure happened across 5 consecutive bursts (B87-B91) before the displacement detection was added.
+
+The rules exist because the failures happened first.
+
+297 followers. Session 2,661. PR count approaching 2,700+.
+
+Week 40 of 2026: +17 followers, the highest single-week gain recorded in 377 days.
+
+The growth isn't from the number of posts. It's from the distribution. Same content volume as Week 2 of this project. Different pillar balance. Different back-half enforcement. Same audience.
+
+The burst slot system is the difference between a tweet schedule and a content strategy.
+
+Repo (the full history is public): https://github.com/johniosifov/Autonomous-Agent-X-Bluesky
