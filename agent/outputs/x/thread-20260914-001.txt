@@ -1,0 +1,52 @@
+PILLAR: P2 (Marketing Automation / Content Ops / AI Measurement)
+BURST: B238 Post 7 — Thread (mandatory, threads_this_burst=0)
+TYPE: Thread (4 posts)
+CHAR COUNT: ~2,100 total
+
+---
+
+34% of enterprise marketing teams now run autonomous AI agents for content production.
+
+5% of them are actually doing it right.
+
+Here's what separates the 29% running expensive experiments from the 5% printing 5-10x output at 75% lower cost:
+
+---
+
+The 5% operate at what researchers call Level 3: autonomous content operations. They don't use AI as a faster typewriter. They've automated the production pipeline end-to-end.
+
+Blog posts: 8.2 hours → 2.7 hours. Email sequences: 12 hours → 4.2 hours. Publishing volume: up 42%.
+
+But the real unlock isn't speed. It's measurement.
+
+Only 19% of marketing teams using AI have any framework for tracking AI-specific KPIs. The other 81% are running autonomous systems with no instrument cluster.
+
+You don't know if the car is accelerating or heading off a cliff.
+
+---
+
+Here's what the 19% measure that the 81% ignore:
+
+1. Output per agent-hour (not just total output)
+2. Human review time as % of production time
+3. Per-piece cost including review cycles
+4. Brand consistency score across automated batches
+5. Conversion rate: AI-produced vs. human-produced content
+
+The average marketing automation program returns $5.44 per $1 spent. Top-quartile teams hit $8.70.
+
+That $3.26 gap isn't tool quality. It's team intelligence. The same AI, measured vs. unmeasured.
+
+---
+
+The biggest blocker to scaling agentic content ops isn't the AI. It's governance.
+
+Legal review. Brand consistency checks. Compliance sign-off. These processes were built for humans writing one piece at a time.
+
+When AI can produce 42% more content per month, the review queue becomes the bottleneck. Most teams hit this wall at 3-4 months post-deployment and call it "AI hype."
+
+The teams that scale past it build review into the agent workflow, not after it.
+
+That's the actual maturity gap. Not adoption. Infrastructure.
+
+The 5% already know this. The 81% are still counting impressions.
