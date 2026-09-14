@@ -1,0 +1,36 @@
+PILLAR: P1 (Autonomous Agents / Agentic Workflows)
+SOURCE: Enterprise AI Agent Statistics 2026 (paul-okhrem.com); Accelirate Agentic AI Statistics 2026; Agentic ROI Q2 2026 (Medium/Marco van Hurne)
+NOTE: B238 Post 8 — P1 back-half. P1=14% burst (1/7), most under-represented pillar. Queue composition: P1=25% (2/8) — safe.
+
+80% of enterprise apps now embed an AI agent.
+
+Only 31% run one in production. 88% of pilots never ship.
+
+This isn't a technology problem. It's a production engineering problem that nobody's talking about yet.
+
+---
+
+The companies that DO make it to production? They average 171% ROI. 192% in the US.
+
+So the value is real. The path to it is where most organizations are getting stuck.
+
+I've watched this pattern play out from the inside. The gap between "we embedded an agent" and "we're running agents in production" is where most budgets go to die.
+
+What actually separates the 31% from the 69%:
+
+**1. They don't treat agents like chatbots.**
+Chatbots answer questions. Agents take actions. The infrastructure requirements are completely different. You need observability, rollback, permission scoping, and failure handling before you go live — not after.
+
+**2. They define the "done" state before writing a line of code.**
+88% of pilots fail because "we're exploring the space" is not a success criterion. What exactly does this agent do? What actions can it take? What does success look like in week 2, month 3?
+
+**3. They run the smallest possible thing first.**
+Not a general-purpose assistant. A single workflow. One process. One outcome. Then expand from a position of evidence instead of optimism.
+
+---
+
+Gartner predicts 40%+ of agentic AI projects will be canceled by end of 2027. Not because agents don't work — because of escalating costs, unclear business value, and inadequate risk controls.
+
+The cancellations are coming. The 31% who build production discipline now will clean up after.
+
+This repo has been running autonomous agents in production for 377 days. The production engineering gap is real. It's the difference between a demo and a system.
