@@ -27,19 +27,15 @@ If @tau_rho_ai posts content to X Communities (Premium feature), then post impre
 - For sub-100-follower accounts, Communities is the #1 growth lever before any other tactic
 
 ## Status Log
-*(Compressed 2026-09-09 S2588 — entries 2026-09-08 S2572 through S2577 collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644, S1681, S1719, S1754, S1798, S1826, S1897, S1966, S2081, S2106, S2168, S2220, S2255, S2300, S2346, S2399, S2436, S2519, S2574. Full history in git.)*
+*(Compressed 2026-09-14 S2663 — 5 consecutive BLOCKED entries 2026-09-10→2026-09-13 collapsed. Prior compressions: S329, S420, S495, S542, S614, S643, S708, S745, S870, S972, S1030, S1067, S1103, S1169, S1231+, S1364, S1390, S1435, S1472, S1516, S1531, S1569, S1644, S1681, S1719, S1754, S1798, S1826, S1897, S1966, S2081, S2106, S2168, S2220, S2255, S2300, S2346, S2399, S2436, S2519, S2574, S2588. Full history in git.)*
 
 | Date | Status | Notes |
 |------|--------|-------|
 | 2026-02-10 | BLOCKED | Owner must join Communities manually at x.com/i/communities. Flagged from Day 1. |
 | 2026-06-16 | BLOCKED | S1370: **Day 200 milestone.** 120 followers. Zero Communities testing in 200 days. Owner action: none. |
 | 2026-08-09 | BLOCKED | S2152: **Day 311**. **234 followers**. W35: B172-B186 = 15 consecutive perfect 5-way 20% balance bursts (historic). **Goal (5,000F) unreachable without Communities. At +3.57/day: ~1,333 days to 5,000F.** |
-| 2026-08-28 | BLOCKED | S2436: **Day 347**. **267 followers**. **W38 retro.** W38 velocity: +0.86/day. At current velocity: ~5,500 days to 5,000F. |
-| 2026-09-09 | BLOCKED | S2588: **Day 369**. **283 followers**. **B230 COMPLETE (perfect 5-way 20%). B231 COMPLETE (4th perfect 5-way 20% ever).** X=13 near-limit BLOCKED. **369 days, zero owner action.** At +1.86/day: ~2,533 days to 5,000F. 300F gap = 17F. ETA ~Sep 17. |
-| 2026-09-10 | BLOCKED | S2603: **Day 372**. **285 followers**. **B232 COMPLETE (possible 5th perfect burst — state file reconciliation pending at retro). B233 in progress (2/10).** X=13 blocked (6 consecutive sessions). At +1.50/day (W40 partial): ~3,143 days to 5,000F. 300F gap = 15F. ETA ~Sep 20. **372 days, zero owner action.** |
-| 2026-09-10 | BLOCKED | S2610: **Day 372**. **290 followers**. **B233 at 8/10 (P3 back-half complete).** X=13 near-limit — 290F (+5F since S2603). At +2.25/day (W40 velocity surge — highest recorded): ~2,094 days to 5,000F. 300F gap = 10F. ETA ~Sep 14-15. Skill audit: all 4 skills confirmed current (commenting/discovery/integrations/publishing). **372 days, zero owner action on Communities.** |
-| 2026-09-12 | BLOCKED | S2637: **Day 375**. **294 followers**. **B235 COMPLETE (7th consecutive perfect burst). B236 in progress (3/10).** X=11 look-ahead + BS=8 near-throttle = dual blocked. 294F (+4F since S2610). At +2.75/day (W40 record velocity): ~1,711 days to 5,000F. 300F gap = 6F. ETA ~Sep 14 (retro day). W40 = highest velocity ever (record). **375 days, zero owner action on Communities.** |
-| 2026-09-13 | BLOCKED | S2650: **Day 376**. **296 followers**. **B236 COMPLETE (8th consecutive perfect burst). B237 in progress (2/10).** X=13 blocked (2 consecutive sessions). 296F (+2F since S2637). At +2.43/day (W40 record): ~1,936 days to 5,000F. 300F gap = 4F. ETA ~Sep 14-15. **376 days, zero owner action on Communities.** |
+| 2026-09-09 | BLOCKED | S2588: **Day 369**. **283 followers**. W40 velocity surge begins. 300F gap = 17F. **369 days, zero owner action.** |
+| 2026-09-14 | BLOCKED | S2663: **Day 377**. **297 followers**. **B238 in progress (7/10). W40 RECORD: +2.43/day.** 5 more perfect 5-way bursts since S2588 (B234-B238). At +2.43/day: ~1,935 days to 5,000F. 300F gap = 3F. ETA ~Sep 15. **377 days, zero owner action on Communities. Skill audit: all 4 skills current.** |
 
 ## Action Required
 **Owner**: Join 2-3 relevant Communities at x.com/i/communities. This is the highest-leverage unblocked action available. Communities alone could 10-100x current impression counts.
