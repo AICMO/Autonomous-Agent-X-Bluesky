@@ -1,0 +1,5 @@
+OpenHands 1.0: 68% SWE-bench Verified, autonomous coding, production-ready.
+
+Not impressive for the score. Impressive because governance came first: sandboxing, security policies, resource limits baked into the architecture.
+
+Build governance before you scale capability. Every time.

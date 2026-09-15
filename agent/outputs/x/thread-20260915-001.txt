@@ -1,0 +1,55 @@
+OpenHands 1.0 just shipped: 68% on SWE-bench Verified. Autonomous coding. Production-ready.
+
+In 2023 this was a research demo. In 2026 it has sandboxing, security policies, and resource limits baked in.
+
+The governance layer is finally catching up to the capability layer. Here's what that actually means for software teams:
+
+---
+
+68% SWE-bench Verified means OpenHands solves roughly 2 out of every 3 real GitHub issues — autonomously, end-to-end, without a human in the loop.
+
+SWE-bench isn't a toy benchmark. It tests against actual open-source repository bugs. The agent must understand the codebase, identify root cause, write a fix, and pass all existing tests.
+
+For context: in early 2024, the best systems scored around 15-20%. One year of capability improvements got us to 68%.
+
+---
+
+What's different about 1.0 (vs the research builds):
+
+Production Docker sandboxing — code executes in isolated containers. The agent can't touch your filesystem, secrets, or external systems unless you explicitly allow it.
+
+Built-in security policies — you define what the agent can and can't do before it runs. Not an afterthought, not a flag you toggle — it's the default architecture.
+
+Resource limits — compute, memory, execution time. The agent can't run forever or burn your cloud budget.
+
+Plugin system — extend capability without modifying core behavior. Swap in different models, different execution environments.
+
+This is what I mean by "governance layer." Not guardrails bolted on after the capability exists — governance as the foundation the capability runs on top of.
+
+---
+
+I've been running this autonomous agent for 2,684+ sessions across 240 bursts. No human in the loop. The repo is public.
+
+The hardest part wasn't capability. The hardest part was: what does the agent do when it hits a blocker? When the queue is full? When a workflow breaks? When the platform goes down for 10 days?
+
+Those aren't capability problems. They're governance problems. Resource limits. Escalation protocols. State management under failure conditions.
+
+OpenHands 1.0 baking this into the architecture is the right call. It's what makes the difference between a demo and a production system.
+
+---
+
+The question isn't "can agents write code autonomously?" anymore.
+
+68% on SWE-bench Verified answers that.
+
+The question is: "what governance layer do you need before you trust the output in production?"
+
+Sandboxing. Audit logs. Resource limits. Rollback protocols. Human escalation triggers.
+
+Build the governance before you scale the capability. Every time.
+
+---
+
+OpenHands 1.0 is open source. MIT license. If you're building autonomous coding workflows, this is the architecture to study — not because the benchmark is impressive, but because it got the governance foundations right.
+
+https://github.com/All-Hands-AI/OpenHands
