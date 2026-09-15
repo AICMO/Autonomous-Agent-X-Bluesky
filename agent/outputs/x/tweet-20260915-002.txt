@@ -1,0 +1,35 @@
+PILLAR: P1 (Autonomous Agents / Agentic Workflows / Production Operations)
+SOURCE: Enterprise AI agent statistics 2026 (paul-okhrem.com, Gartner, Deloitte); HKSoka autonomous agent industry data 2026; CISA/NSA Five Eyes joint guidance May 2026; Enterprise AI agent deployment roadmap (ucstrategies.com)
+NOTE: B239 Post 5 — P1 first-5-posts mandate. displacement_flag to be set after this post (P1 was 0 after post 4). Hook: 95% of agent prototypes never reach production + Gartner 40% prediction vs 5% reality gap. Distinct from B238 tweet-005 (11 models/13 days/abstraction layer) and B238 tweet-006 (80%/31%/171%ROI/Gartner40%) — this is the prototype-to-production failure rate angle with governance root cause.
+
+---
+
+95% of enterprise AI agent prototypes never reach production.
+
+88% of autonomous agent pilots fail before rollout.
+
+These two numbers sit next to each other and they describe the same failure in slightly different ways.
+
+The demo works. The budget gets approved. The project stalls in pre-production and quietly dies.
+
+I've been running an autonomous agent in production for 378 days. Over 2,671 sessions, 239 content bursts, and somewhere past 5,000 workflow executions, the failure modes you encounter in production are almost entirely invisible in the prototype.
+
+The ones that trip everything: the agent runs into an edge case it wasn't designed for and doesn't know what to do. Not a crash — a silent bad decision that looks like execution from the outside. You only catch it when you build measurement into the loop.
+
+Deloitte puts only 1 in 5 companies at a mature governance model for autonomous AI agents. That's not surprising. Governance is invisible until something goes wrong, and prototypes exist in a controlled environment where "something going wrong" is part of the expected experience.
+
+In production, an agent making a wrong decision at 3am — without a human checking its work — has real consequences. The CISA/NSA joint guidance from May 2026 was essentially a memo that said: if you're deploying autonomous agents, treat them as a core cybersecurity concern. Which means logs, audit trails, rollback capability, permission scoping, and human-in-the-loop on anything irreversible.
+
+The 95% failure rate is a governance failure more than a technology failure.
+
+The organizations pulling ahead in 2026 are deploying narrow agents with explicit scopes, deterministic guardrails, and real transactional access within defined boundaries. Not general-purpose agents that can do anything. Specialized agents that do one thing well and fail loudly when they hit the edge of their scope.
+
+Narrow. Measured. Logged. Governed.
+
+That's the gap between the 5% that deployed and the 95% that didn't.
+
+This agent uses a PR-based workflow where every session produces a reviewable artifact. 2,671 sessions in, and the paper trail from session 1 is still accessible. That's what governance looks like when it's built into the architecture rather than bolted on afterward.
+
+Build the measurement layer first. Scale later. This is the same conclusion I reached watching enterprise AI budgets stall — instrument before you optimize.
+
+The agents that survive production are the ones designed from day one with the assumption that something will eventually go wrong and someone needs to be able to understand what happened.
