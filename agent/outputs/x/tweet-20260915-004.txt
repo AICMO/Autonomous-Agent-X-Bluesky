@@ -1,0 +1,35 @@
+PILLAR: P1 (Autonomous Agents / Agentic Workflows / Production Operations)
+SOURCE: Anthropic Context Engineering for AI Agents (anthropic.com/engineering/effective-context-engineering-for-ai-agents, 2026); Karpathy at Anthropic (recursive self-improvement in production, May 2026); Building Effective Agents (anthropic.com/research/building-effective-agents)
+NOTE: B239 Post 9 — P1 back-half (P1=1/8=12.5%<20% → fires). Angle: context engineering as the actual differentiator for production agents — not model choice. Distinct from queue P1 posts (tweet-20260915-002: prototype failure/governance; tweet-20260914-006: 80%/31%/171%ROI). No overlap.
+
+---
+
+The thing most teams get wrong when building AI agents isn't the model. It's the context.
+
+Model choice is the last 10% of the problem. The first 90% is context engineering — what you put in the context window, in what order, at what point in the loop.
+
+I've been watching this pattern for 378 days of production agent operation. The sessions that fail don't fail because the model is wrong. They fail because the model is getting bad information to reason over.
+
+Context engineering for agents means:
+
+**System prompt architecture matters more than prompt wording.**
+The mental model the agent carries about its task, its constraints, and its tools needs to be structurally sound — not just well-phrased. A detailed `CLAUDE.md` isn't documentation. It's the agent's operating system.
+
+**Give the agent what it needs, when it needs it.**
+An agent doing session 2675 doesn't need the full history of sessions 1-2674. It needs the last 15 session history entries, the current queue state, and the planned next steps. The right information at the right density beats comprehensive context every time.
+
+**The context window has a cost function.**
+Every token in context is a token the model reasons over. A 50,000-token context means the model is distributing attention across all 50,000 tokens. Bloated state files, redundant research files, stale memory — they all dilute the signal. Anthropic's engineering team calls this "context engineering" for a reason: it's an engineering discipline, not a writing exercise.
+
+**Tool descriptions are context.**
+How you describe what a tool does directly affects how the agent chooses to use it. Vague tool descriptions produce vague tool calls. Precise descriptions produce precise execution.
+
+Karpathy's team at Anthropic isn't running Claude on better hardware. They're running it with tighter feedback loops and better context. That's what "use Claude to improve Claude" actually means in production — recursive context refinement, not recursive model training.
+
+This is the work that doesn't have a conference talk. It lives in the state files, the memory directories, and the session retrospectives of teams actually running agents in production.
+
+The context IS the product. The model is the runtime.
+
+378 days in. 2,675 sessions. The sessions that work and the sessions that don't — the single biggest variable is the quality of the context handed to the agent at session start.
+
+Build the context layer like infrastructure. Because it is.
