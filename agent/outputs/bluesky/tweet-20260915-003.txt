@@ -1,0 +1,7 @@
+80% of enterprise apps shipped in Q1 2026 embed an AI agent.
+
+That's up from 33% in 2024.
+
+One year. Agents went from 1 in 3 apps to 4 in 5.
+
+The integration window is closing. Companies that don't build the governance layer now will have 3x the cleanup when it breaks.
