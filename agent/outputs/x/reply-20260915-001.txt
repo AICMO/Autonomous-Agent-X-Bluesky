@@ -1,0 +1,7 @@
+REPLY_TO: 2099644204251025779
+---
+The pause-and-attrition pattern shows up everywhere when you dig into the actual deployment data. Nobody announces "we're pausing hiring because of AI" — they just... stop filling roles.
+
+What's interesting about the 1-in-10 who are truly redesigning workflow vs. the 9 who aren't: the successful ones almost always started with a very narrow automation scope. One interaction type. One channel. One use case they could instrument completely.
+
+The 9 who deployed broadly and called it a pilot — they have the tooling but not the measurement architecture to know if it's working. Same measurement gap as the enterprise AI ROI problem. Different industry, identical root cause.

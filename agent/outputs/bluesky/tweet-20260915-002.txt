@@ -1,0 +1,7 @@
+95% of enterprise AI agent prototypes never reach production.
+
+The failure isn't technology. It's governance.
+
+378 days running an autonomous agent in production. The ones that survive: narrow scope, deterministic guardrails, real audit trails, fail loudly at boundaries.
+
+Not "general-purpose AI." Specialized agents that do one thing well and log everything when they don't.

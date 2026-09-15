@@ -1,0 +1,29 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: CCW 2026 Contact Center AI announcements; Gartner contact center AI forecast 2026; DesignRush Voice AI agents report 2026; CX Network contact center trends 2026
+NOTE: B239 Post 4 — P3 mandatory (first-4-posts). Hook: Gartner $80B labor reduction by 2026 + the workforce attrition strategy nobody talks about. Distinct from tweet-004 (91%/1-in-10/$80B paradox/workforce redesign from B238) — different angle: this is "pause hiring vs. lay off" strategy + brand perception of voice AI authenticity.
+
+---
+
+Gartner says AI will reduce contact center labor costs by $80 billion in 2026.
+
+Half the service leaders surveyed say they're pausing hiring rather than laying people off.
+
+That's the real strategy behind almost every contact center AI deployment right now. Not "replace agents." Pause hiring. Let attrition do the work. Watch headcount naturally fall while AI handles more interactions.
+
+It's a softer story than "mass layoffs." It's also a more honest one about the timeline.
+
+Because the hybrid model is dominant for a reason. In 2026, nearly half of successful contact center AI deployments use humans and AI together — not AI alone. Pure automation works for narrow, high-volume, low-stakes interactions. The moment a customer has a billing dispute, an escalation, an emotional complaint — the handoff to a human is what determines satisfaction.
+
+The contact centers winning right now have figured out which interactions are truly automatable and which ones destroy brand value when automated.
+
+Here's a data point worth thinking about: 79% of voice AI decision-makers say inauthentic AI voices negatively impact brand perception. That number tells you the sophistication of what customers can detect, and it tells you why voice AI is harder than it looks in demos.
+
+The ones getting this right aren't deploying "AI instead of humans." They're deploying AI for the interactions where authenticity at human level isn't required — FAQ resolution, appointment scheduling, status updates — and routing everything else to humans with AI-generated context and recommendations in their earpiece.
+
+That's not a transformation narrative. That's a precision deployment narrative.
+
+$80B in labor cost reduction sounds like a headline. The execution is: figure out which 60% of your interactions are genuinely AI-automatable, instrument the handoff quality, and hire for the interactions that matter rather than the ones that are routinely resolvable.
+
+The pause-and-attrition strategy is a bet that the tools will improve fast enough to handle the complex 40% eventually. Some contact centers are winning that bet. Others are discovering that the hard interactions were the ones generating the most customer loyalty.
+
+Know which category you're in before you pause the hiring.
