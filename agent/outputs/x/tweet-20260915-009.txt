@@ -1,0 +1,25 @@
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: SiliconANGLE, Sept 11, 2026 — "Knowledge management decides contact center AI ROI" (TheCUBE Research AI ROI in Contact Centers Summit); Lorikeet 2026 Contact Center Benchmarks; Digital Applied 2026 Self-Service Knowledge Base Design
+NOTE: B240 Post 7 — P3 back-half zone. Angle: knowledge management as real AI ROI bottleneck, distinct from existing P3 posts (pause-attrition strategy, prove-it measurement era).
+
+---
+
+The contact center AI bottleneck isn't the AI.
+
+80% of contact center leaders say existing databases and systems prevent the success of their AI investments.
+
+That number is brutal. Because the AI is ready. The models can handle tier-1 resolution, intelligent routing, agent assist, sentiment detection. The capability gap closed 12-18 months ago. The knowledge gap didn't.
+
+If the knowledge base is full of outdated policies, duplicate articles, and conflicting information — the AI serves up bad answers faster. It doesn't improve bad data. It scales it.
+
+The pattern that shows up across failed deployments: organizations invested heavily in the AI layer and almost nothing in the knowledge layer. The AI is only as good as the information it can access. When that information is fragmented across 40 different systems, manually maintained, updated quarterly if at all — you don't have an AI problem. You have a documentation problem that AI is now exposing at speed and volume.
+
+The fix is not glamorous. It's knowledge architecture work. Structured, maintained, single-source-of-truth knowledge bases. Clear tagging, consistent taxonomy, regular audit cycles. Self-service knowledge base design is the single biggest lever on AI agent resolution rates — bigger than which model you choose.
+
+The analysts at the September 2026 TheCUBE Research summit said it plainly: knowledge management is the constraint deciding contact center AI ROI.
+
+First-year AI ROI averages 41%. Year three: 124%. The delta comes almost entirely from organizations learning to maintain the knowledge layer alongside the AI layer.
+
+The contact centers getting 3x ROI by year three aren't running different AI. They're running better knowledge management.
+
+That's the work nobody talks about in the demo. It's also the work that actually determines whether your deployment makes money or burns it.
