@@ -1,0 +1,22 @@
+Per-token AI costs dropped 1,000x in three years.
+
+Enterprise AI budgets rose 483% in the same period.
+
+The Jevons Paradox is running live in the AI market — cheaper inference creates more demand, not less spend.
+
+The math:
+- GPT-4 equivalent compute: $20/million tokens in 2023 → $0.40 today
+- Average enterprise AI budget: $1.2M/year in 2024 → $7.0M in 2026
+
+But here's what nobody's accounting for correctly: the cost curve isn't uniform.
+
+Frontier model pricing rose 36.4% year-over-year through July 2026.
+Mid-tier pricing fell 35.8% in the same window.
+
+Two completely opposite pricing trends happening simultaneously in one market. Commoditization is real — but it only applies to yesterday's models. The moment a model becomes commodity, the frontier has already moved.
+
+And agentic workloads are the wildcard. Multi-step AI agents cost $0.10–$1.00 per task completion. That's 100x to 1,000x higher than a simple API call. Inference is now 85% of the enterprise AI budget at companies running production agents.
+
+The CFOs who budgeted for "AI as a search-and-summarize tool" are about to get a very different bill.
+
+The inference market isn't collapsing. It's bifurcating. Plan accordingly.
