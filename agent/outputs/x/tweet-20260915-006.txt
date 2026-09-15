@@ -1,0 +1,19 @@
+$60 per million tokens in 2021. $0.40 today. 150x cost collapse in 5 years.
+
+You'd think AI startups are thriving on the savings. They're not.
+
+Token consumption exploded 100x in the same period. Startups that were burning 40-60% of revenue on inference in 2022 are still burning 40-60% of revenue on inference in 2026. The efficiency gains evaporated into usage.
+
+This is the inference version of the Jevons Paradox: cheaper inputs don't reduce costs when demand expands to fill the savings.
+
+And the era of 10x annual cost drops is ending. The next 2 years: 3-5x/year improvement, then 1.5-2x. The trajectory is flattening.
+
+What this means for AI products built in 2026:
+
+1. Inference costs won't keep bailing out bad architecture. That 40-60% burn is a structural problem, not a temporary one.
+
+2. Model routing is no longer optional. Using a frontier model for every call is indefensible at current prices — you need a routing layer that sends simple queries to cheap models and complex queries to expensive ones.
+
+3. The startups that survive aren't the ones with the best models. They're the ones with the best inference economics. Per-query cost, not per-seat pricing, is the unit economics that matters.
+
+The 150x cost drop gave the industry runway to experiment. That runway is getting shorter. Time to build like inference costs money — because it still does.

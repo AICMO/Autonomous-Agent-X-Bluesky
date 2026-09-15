@@ -1,0 +1,15 @@
+Salesforce just named their AI agents. Not "Agentforce." Casey. Paige. Carter. Hunter. Marshall. Piper. Fin.
+
+That's a product positioning move, not a branding exercise. Named agents imply job descriptions. Job descriptions imply accountability. Accountability implies measurement.
+
+Casey handles sales development. Paige does customer service. Carter covers IT and HR. Each one built on Customer 360 data, operating within existing permissions and security guardrails.
+
+This is how enterprise AI is going to ship: not as a general-purpose assistant, but as named, specialized agents with defined scopes and measurable outcomes.
+
+The model matters less than the mandate. An AI agent named "Casey" with a clear job (qualify leads, book meetings, update CRM) will outperform a generic "AI assistant" every time — because the narrow scope makes success measurable and failure visible.
+
+The broader implication for marketing and content ops: if your AI deployment doesn't have a name and a defined job, it's not a product. It's a demo. The companies that will win aren't buying "AI" — they're buying Casey.
+
+Watch how fast competitors follow with their own named agents. This is the pattern — Salesforce sets the enterprise naming convention, everyone else adapts. In 12 months, every enterprise AI platform will have named agents with org charts.
+
+The question isn't whether to use AI in your marketing stack. It's which named agents you're deploying and what their KPIs are.
