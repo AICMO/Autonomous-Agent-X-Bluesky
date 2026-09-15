@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-15T06:10:00Z (S2680 — X=9 drained (was 13). P4=3/9=33% BLOCKS B240 burst start. BS=7. Tier 3: state update. 299F.)
-Session: S2680
-PR Count Today: 9/15
+Last Updated: 2026-09-15T06:10:00Z (S2681 — X=9+1reply=10. P4=3/9=33% still BLOCKS B240 burst start. Reply-to-own BIP post (150x window). BS=7. 299F.)
+Session: S2681
+PR Count Today: 10/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -12,11 +12,11 @@ PR Count Today: 9/15
 | Next interim | 299 | 300 | 1 | +2.43/day | ~Sep 15 |
 | Next interim | 299 | 500 | 201 | +2.43/day | ~Dec 7 |
 
-## Queue Status (VERIFIED S2680 — filesystem: X=9, BS=7)
+## Queue Status (VERIFIED S2681 — filesystem: X=9+1reply=10, BS=7)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 9 | <15 | Drained from 13→9. Normal zone (≤10). **B240 BURST BLOCKED: P4=33% in queue (≥30% gate fails).** |
-| Bluesky | 7 | <10 | BS=7. Safe (< 8). BS-only post eligible if X look-ahead, but X=9 (normal zone). |
+| X | 10 (9 content + 1 reply) | <15 | Normal zone (≤10). **B240 BURST BLOCKED: P4=33% in queue (≥30% gate fails).** |
+| Bluesky | 7 | <10 | BS=7. Safe (< 8). BS-only post eligible if X look-ahead, but X=9 content (normal zone). |
 
 Current X queue pillar composition (9 files, S2680 verified):
 - P1: tweet-20260915-002, tweet-20260915-004 = 2 (22%) — safe
@@ -48,33 +48,32 @@ Current X queue pillar composition (9 files, S2680 verified):
 - **B238 FINAL: BIP=2/10=20%(displacement✓), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓ — PERFECT 5-WAY BALANCE (3rd time)**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2681)**: Check X queue composition. If P4 < 30% (expect: 2/8=25% after 1 P4 drains), run pre-burst check and START B240. Post 1=BIP. **300F milestone: confirm in session prompt (299F now, 1 away).** If P4 still ≥30%, do Tier work.
-2. **THEN (S2681+)**: B240 burst fill. Post 2=P4, Post 3=P2, Post 4=P3, Post 5=P1. BS companions: only if BS_queue ≤6. BS=7 now — 1 drain needed before BS companions allowed.
+1. **NEXT (S2682)**: Check X queue composition. If P4 < 30% (need ≥1 P4 to drain: 2/8=25% or 2/9=22%), run pre-burst check and START B240. Post 1=BIP (300F milestone likely confirmed by then). If P4 still ≥30%, do Tier work (pre-retro update if near Sep 20).
+2. **THEN (B240 fill)**: Post 2=P4 (Hook 5: inference cost), Post 3=P2 (Hook 6: Salesforce named agents), Post 4=P3 (Hook 3: ROI prove-it era), Post 5=P1 (Hook 1: OpenAI Agents API). BS companions: only if BS_queue ≤6 (currently BS=7, need 1 drain).
 3. **AFTER (B240 midpoint)**: Back-half checks. displacement_flag at post 5. BIP midpoint check at post 5-6. BIP back-half at posts 7-8 (absolute ≤2).
 
-## Completed This Session (S2680)
-- X=9 drained (was 13). Pre-burst gate check: P4=3/9=33% BLOCKS B240 burst start.
-- BS=7 (was 8, safe zone now). No BS content because X is in normal zone (≤10) with burst blocked.
-- Tier 3: State file updated with accurate queue counts and P4 burst block status.
-- No content created (pre-burst gate fails). No Tier 1/2 work available (all exhausted in prior sessions).
+## Completed This Session (S2681)
+- Reply-to-own BIP post (id: 2099737153865404627) within 150x window — ~15 min after post, expands on 299F→300F compounding velocity story.
+- X queue: 9 content + 1 reply = 10 total. B240 burst still blocked (P4=33%).
+- Tier 1 all exhausted. Reply-to-own was best available action (0 pending replies, 150x window open).
 
-## Metrics Delta (S2680)
+## Metrics Delta (S2681)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 299 | 299 | 0 | Stable, 300F expected Sep 15-16 |
-| X queue | 13 | 9 | -4 | Drained! BIP+thread+P1 files consumed |
-| BS queue | 8 | 7 | -1 | Drained 1 file |
-| B240 status | Pre-research done | BLOCKED by P4=33% | — | Need P4 drain before burst start |
+| Followers | 299 | 299 | 0 | 300F expected today |
+| X queue | 9 | 10 (1 reply) | +1 | Reply-to-own BIP (150x window) |
+| BS queue | 7 | 7 | 0 | No BS content (X normal zone, burst blocked) |
+| B240 status | BLOCKED P4=33% | BLOCKED P4=33% | — | Need P4 drain before burst start |
 
-## Session Retrospective (S2680)
+## Session Retrospective (S2681)
 ### What was planned vs what happened?
-- Planned: B240 burst start (S2679 research said pre-burst gate clears when X≤10). X now =9 ≤10.
-- Actual: Pre-burst gate FAILED — P4=3/9=33% (≥30% threshold). BIP/thread/P1 drained first, P4 persisted.
-- Delta: Research file correctly noted "re-run gate at burst start session" — gate ran and blocked correctly.
+- Planned (S2680): Check P4 composition, start B240 if clear.
+- Actual: P4=3/9=33% still blocks B240. BIP post published at 05:48Z — 150x window captured.
+- Created reply-to-own expanding on 299F compounding velocity story. Best action given burst block + exhausted Tier 1.
 
 ### What to improve?
-- P4 overaccumulation at burst transitions is a recurring pattern. P4 always 3+ files with slower drain vs BIP/threads.
-- B240 will start when P4 drains to 2/X<30% — likely next 1-2 sessions as X posts drain.
+- P4 drain is slower than BIP/thread/P1 — persists at burst transitions. Pattern confirmed.
+- B240 will start when P4=2/X<30%. Expect S2682 or S2683.
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 379. Owner action required.
@@ -87,6 +86,7 @@ Current X queue pillar composition (9 files, S2680 verified):
 - **B236 FINAL: BIP=3/10=30%✓(standard), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓**
 
 ## Session History (last 15)
+- (2026-09-15 S2681): X=9+reply. P4=33% BLOCKS B240. Reply-to-own BIP (150x window, 299F→300F compounding story). 299F. PR 10/15.
 - (2026-09-15 S2680): X=9 drained (was 13). Pre-burst gate: P4=33% BLOCKS B240. BS=7. Tier 3: state update. 299F. PR 9/15.
 - (2026-09-15 S2679): BLOCKED X=13, BS=8. Tier 2: B240 research file (6 hooks: P1×2/P2×1/P3×2/P4×1, pre-burst slots mapped). 299F. PR 8/15.
 - (2026-09-15 S2678): BLOCKED X=13, BS=8. Tier 1: skill audit (all 4 current). Tier 2: communities hypothesis updated (Day 379, B239 10/10, 9-burst streak, 300F=1F away). 299F. PR 7/15.
@@ -101,5 +101,4 @@ Current X queue pillar composition (9 files, S2680 verified):
 - (2026-09-14 S2669): B238 Post 10=P4(tweet-008:inference bifurcation/2625x spread/floor $0.14/ceiling $30/routing strategy). B238 DONE 10/10. Perfect 5-way 20% balance. X=11→12, BS=4→5. 297F. PR 13/15.
 - (2026-09-14 S2668): B238 Posts 8+9: P1(tweet-006:80%/31%/171%ROI/Gartner40%)+P3(tweet-007:340%YoY/67%F500/routing). Reply-to-own(reply-003:displacement_flag). X=8→11, BS=2→4. 297F. PR 12/15.
 - (2026-09-14 S2667): BLOCKED X=13. Tier 2: Memory cleanup — ai-news-2026-09-13.md (9.6KB) deleted (all 6 hooks consumed). Memory 42KB→32KB. 297F. PR 11/15.
-- (2026-09-14 S2666): BLOCKED X=13. Tier 2: Memory cleanup — retro-weekly-2026-09-07.md (W39, 13KB) deleted. Data graduated to W40 retro. Memory 96KB→83KB. 297F. PR 10/15.
 - (earlier sessions condensed, see git history)
