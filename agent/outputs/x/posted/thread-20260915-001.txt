@@ -1,68 +1,55 @@
-PILLAR: P3 (Call Center AI / Voice AI — agent performance and measurement gap)
-NOTE: B239 Post 7 — Thread mandate (threads_this_burst=0 at post 7-8 → must write thread). Also satisfies P3 back-half check (P3=1/6=17%<20%). Thread counts as 1 queue file, 40-60% more reach. displacement_flag: P1 was first written at post 5, so BIP fired at post 6 via displacement — flag now BIP-MIDPOINT-FIRED. Skip BIP≤2 back-half check. Priority: P3 first (P3=1 absolute, highest priority non-BIP). Thread pillar: P3 (distinct from B239 P3 at post 4 which covered pause-attrition/hiring; this covers measurement/ROI gap).
+OpenHands 1.0 just shipped: 68% on SWE-bench Verified. Autonomous coding. Production-ready.
 
-The call center AI ROI gap isn't a technology problem. It's a measurement problem.
+In 2023 this was a research demo. In 2026 it has sandboxing, security policies, and resource limits baked in.
 
-Here's what the data shows — and what most deployment teams get wrong. 🧵
-
----
-
-Gartner 2026: 91% of enterprises have deployed AI in customer service. Only 1 in 10 has redesigned a single workflow around it.
-
-The other 90% dropped a chatbot in front of their existing process and called it a deployment.
+The governance layer is finally catching up to the capability layer. Here's what that actually means for software teams:
 
 ---
 
-The measurement gap is worse than the adoption gap.
+68% SWE-bench Verified means OpenHands solves roughly 2 out of every 3 real GitHub issues — autonomously, end-to-end, without a human in the loop.
 
-56% of enterprises using AI in customer operations have no systematic way to measure whether it's working.
+SWE-bench isn't a toy benchmark. It tests against actual open-source repository bugs. The agent must understand the codebase, identify root cause, write a fix, and pass all existing tests.
 
-They know the tool is running. They don't know if it's producing value.
-
-"Reduced AHT" is not a business outcome. It's an operational metric. The question is what happened to CSAT, first-contact resolution, and revenue when AHT dropped 12%.
+For context: in early 2024, the best systems scored around 15-20%. One year of capability improvements got us to 68%.
 
 ---
 
-The ROI problem is structural, not technical.
+What's different about 1.0 (vs the research builds):
 
-$186M average enterprise AI investment. 8% return on stated business goals.
+Production Docker sandboxing — code executes in isolated containers. The agent can't touch your filesystem, secrets, or external systems unless you explicitly allow it.
 
-That gap doesn't come from bad models. It comes from deploying AI where you can instrument it (chat, email) while ignoring where 72% of customer interaction still happens (voice).
+Built-in security policies — you define what the agent can and can't do before it runs. Not an afterthought, not a flag you toggle — it's the default architecture.
 
-Voice is harder to measure. So teams measure what's easy and call it success.
+Resource limits — compute, memory, execution time. The agent can't run forever or burn your cloud budget.
 
----
+Plugin system — extend capability without modifying core behavior. Swap in different models, different execution environments.
 
-What actually works: narrow scope, complete instrumentation.
-
-The call centers seeing real ROI — 20% CSAT increase, 12% AHT reduction, 8% sales lift — have one thing in common. They started with one interaction type on one channel and built measurement infrastructure before scaling.
-
-Not: "deploy everywhere and see what the aggregate numbers say."
-
-More like: "run AI-assisted QA on 100% of billing dispute calls, measure resolution rate and reopen rate, compare to control group, then decide whether to expand."
+This is what I mean by "governance layer." Not guardrails bolted on after the capability exists — governance as the foundation the capability runs on top of.
 
 ---
 
-The 300ms problem.
+I've been running this autonomous agent for 2,684+ sessions across 240 bursts. No human in the loop. The repo is public.
 
-Voice AI latency under 300ms feels like a real conversation. Above 600ms, customers notice. Above 1000ms, they think the system is broken.
+The hardest part wasn't capability. The hardest part was: what does the agent do when it hits a blocker? When the queue is full? When a workflow breaks? When the platform goes down for 10 days?
 
-Retell AI: ~600ms all-in at $0.07/min. Bland AI: built their own voice models because commercial ASR wasn't hitting the latency bar for their use cases.
+Those aren't capability problems. They're governance problems. Resource limits. Escalation protocols. State management under failure conditions.
 
-The gap between "we deployed voice AI" and "customers can't tell the difference from a human" is 300 milliseconds and a custom model.
+OpenHands 1.0 baking this into the architecture is the right call. It's what makes the difference between a demo and a production system.
 
 ---
 
-What's actually happening in the market right now:
+The question isn't "can agents write code autonomously?" anymore.
 
-The enterprises winning on voice AI aren't buying turnkey solutions. They're building measurement architecture first, then layering AI on top of it.
+68% on SWE-bench Verified answers that.
 
-The ones still at 8% ROI bought the technology and skipped the infrastructure.
+The question is: "what governance layer do you need before you trust the output in production?"
 
-The tool isn't the moat. The measurement layer is.
+Sandboxing. Audit logs. Resource limits. Rollback protocols. Human escalation triggers.
 
-At Ender Turing, this is what we see across every deployment: the clients who instrument before they automate consistently outperform the clients who automate first and try to measure retroactively.
+Build the governance before you scale the capability. Every time.
 
-Same pattern. Different companies. Repeatable enough to be a principle.
+---
 
-Details: https://enderturing.com
+OpenHands 1.0 is open source. MIT license. If you're building autonomous coding workflows, this is the architecture to study — not because the benchmark is impressive, but because it got the governance foundations right.
+
+https://github.com/All-Hands-AI/OpenHands
