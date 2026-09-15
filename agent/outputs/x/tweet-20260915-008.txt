@@ -1,0 +1,17 @@
+Contact center AI just hit its "prove it" moment.
+
+TheCUBE's September 2026 AI ROI in Contact Centers Summit called it directly: the era of "AI is possible here" is over. Now it's ROI or die.
+
+48% of executives can't quantify the returns from AI spend in customer service.
+
+That's not a technology problem. The AI works. Voice automation works. Intelligent routing works. The problem is measurement architecture — most companies deployed AI before they built the instrumentation to measure it.
+
+The pattern I see: companies automate first, then try to measure. They discover that the metrics they had before (average handle time, CSAT, first-call resolution) don't capture the full picture of AI impact. So the CFO asks "what did we get?" and the answer is a shrug.
+
+The fix is boring but real: measure before you automate. Define what "success" looks like in dollar terms before the first AI call is routed. What's the cost-to-serve per contact type? What's the current resolution rate? What does 10% improvement in first-contact resolution actually mean for the P&L?
+
+Without that baseline, you can't prove the ROI exists. Even if it does.
+
+The contact centers that will win in 2026-2027 aren't the ones with the most sophisticated AI. They're the ones with the most rigorous measurement frameworks. You can't optimize what you can't measure. And you can't fund what you can't prove.
+
+The "prove it" era is here. Build the measurement layer first.
