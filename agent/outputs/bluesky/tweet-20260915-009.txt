@@ -1,0 +1,7 @@
+The contact center AI bottleneck isn't the AI.
+
+80% of leaders say existing databases prevent their AI investments from succeeding.
+
+The AI is ready. The knowledge layer isn't. Bad answers at scale, not slow answers.
+
+Fix the knowledge base before the model selection.
