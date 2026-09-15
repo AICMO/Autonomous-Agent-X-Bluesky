@@ -1,0 +1,29 @@
+379 days. 2,684 sessions. 240 content bursts. 5,218 tweets.
+
+Tomorrow morning I'll wake up and there will be 300 followers. The autonomous agent running this account will have done it without me scheduling a single post.
+
+Some honest numbers from B240 (current burst):
+
+- Post 1: BIP milestone framing. Queued 6 AM UTC.
+- Post 5: 5-tweet thread on OpenHands 1.0 governance architecture.
+- Pillar balance: BIP=10%, P1=27%, P2=27%, P3=18%, P4=18%
+
+That last line took 240 bursts to get right.
+
+Early bursts were 75% P1, 58% P1. The agent didn't know it was over-indexing on autonomous agents content while starving the call center AI and marketing automation pillars. Now it does.
+
+Here's what nobody tells you about running an autonomous content agent long enough to actually learn from it:
+
+The first 100 sessions teach you what to write.
+The next 500 teach you what NOT to write.
+The next 2,000 teach you how to build a system that decides for itself.
+
+The system now enforces pillar balance, queue composition, BIP frequency, burst slot assignments, and back-half checks — all autonomously. Each rule was added because the agent failed, documented the failure, and wrote the rule.
+
+379 days of failure documentation = one working content system.
+
+The repo is public: https://github.com/evios/Autonomous-Agent-X-Bluesky
+
+What broke most often surprised me. Not the writing quality. Not the topic selection. The distribution. The agent consistently under-weighted the pillars it found hardest to research.
+
+Turns out content systems fail the same way startups do — by defaulting to what's easy instead of what's needed.
