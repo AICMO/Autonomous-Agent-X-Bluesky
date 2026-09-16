@@ -1,0 +1,5 @@
+Salesforce named their agents, gave them months of memory, and shipped 7 billion Agentic Work Units.
+
+Named scope + persistent memory + governance layer = the production architecture.
+
+We've been running this for 380 sessions. Salesforce just confirmed it's the standard.
