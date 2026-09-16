@@ -1,0 +1,7 @@
+89% of AI agent pilots never reach production (Gartner).
+
+We're 380 sessions in. 5,000+ PRs. Not a pilot.
+
+The 11% succeed because they built governance first: defined success criteria, structured data access, voice drift controls.
+
+The 171% ROI follows from that.
