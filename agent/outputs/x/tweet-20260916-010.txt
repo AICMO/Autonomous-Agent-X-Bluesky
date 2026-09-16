@@ -1,0 +1,27 @@
+91% of contact center leaders are under explicit executive pressure to implement AI.
+
+Gartner 2026. 72% are increasing AI investment before end of year.
+
+The era of "we're evaluating" is over. The board already decided. The question is no longer whether. It's how fast, how governed, and how do we avoid the 90-day abandonment cliff that's killing half these deployments.
+
+Here's what the pressure is actually measuring — and what it misses.
+
+The 91% figure tells you something important: AI in the contact center stopped being a technology decision. It's now a board-level mandate. That changes how decisions get made and, critically, what gets measured.
+
+When the CEO says "AI in the contact center by Q4," the instinct is to deploy. Pick a vendor, run a pilot, show deflection rates to the board, call it done.
+
+But the 72% increasing investment aren't all building the same thing. There's a split:
+
+**The teams that will succeed:** Enterprise Tier-1 deflection rates of 45%–60%. Fully automated resolution below $1.00/interaction. Measurable CSAT improvement (PG&E: 22% up, same deployment that saved 35,000 labor hours).
+
+**The teams that won't:** Deployed under board pressure, no defined success criteria, no governance layer for when the AI makes a wrong call, no baseline to compare against. They'll show the board a deflection rate that looks good for one quarter and means nothing.
+
+The 45–60% deflection range is still wide. That gap — 15 percentage points between top and bottom performers — is entirely explained by pre-deployment decisions: prompt architecture, escalation rules, voice/tone governance, and what happens when the agent encounters something it hasn't seen.
+
+The deflection rate the board sees in the dashboard? That's the output. The governance architecture you built before day one is the input.
+
+Companies under executive pressure skip the input. They buy vendor SLAs and call it governance.
+
+The AI is table stakes. The governance layer is the differentiator.
+
+Ender Turing builds the governance infrastructure for contact center AI deployments: https://enderturing.com

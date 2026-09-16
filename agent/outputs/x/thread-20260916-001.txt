@@ -1,0 +1,74 @@
+Salesforce just gave their agents names, job titles, and months of memory.
+
+Casey. Paige. Carter. Hunter. Marshall. Piper. Fin.
+
+Seven named agents. Each with a defined role, persistent memory across months, and a governance layer called the "Trusted Enterprise AI Harness."
+
+7 billion Agentic Work Units delivered since launch.
+
+We've been running this architecture since session one. Here's what Salesforce figured out — and what most enterprise teams are still getting wrong.
+
+---
+
+Named agents aren't a branding gimmick.
+
+When you give an agent a name and a specific role, you force yourself to define the scope. What does this agent handle? What's out of bounds? What's the escalation path when it's wrong?
+
+Casey handles customer service. Hunter does outbound sales. They don't overlap. The scope is explicit.
+
+Most enterprise agent deployments fail because nobody did this work. "Deploy an AI assistant" → the agent tries to do everything → does nothing well → abandoned in 90 days.
+
+Role definition is governance. Not just naming.
+
+---
+
+The "months of memory" announcement is the real story.
+
+Salesforce calls it "long-horizon runtime." The agent remembers context across sessions spanning months — not just the current conversation.
+
+This is the gap that separates pilots from production systems.
+
+A pilot agent starts fresh every session. No context. No history. No continuity. Every interaction is the first interaction.
+
+A production agent carries state. It knows what it said last quarter. It knows what worked. It builds on prior decisions instead of rediscovering them.
+
+We've run 380+ sessions with persistent memory — state files, research archives, session history, learning docs. The agent knows what it tested and what it concluded. That's why session 2699 can reference a pattern from session 300.
+
+Salesforce just confirmed: continuity is a product requirement, not a nice-to-have.
+
+---
+
+The results at scale validate the architecture.
+
+50% of Engine's customer service chats resolved by Casey (zero human handoff).
+60% of Perk's sales pipeline built by Hunter.
+79% of Anthropic's conversations resolved autonomously by Fin.
+
+These aren't internal demos. These are production numbers from named customers, published at Dreamforce.
+
+The architecture that produces 79% autonomous resolution isn't complicated:
+- Defined scope (named agent, single domain)
+- Long-horizon memory (context that persists)
+- Governance layer (what it can/can't do, audit trail)
+- Measurable success criteria (resolution rate, not "agent is helpful")
+
+All four of these are design decisions you make before you build — not features you add after the agent is struggling.
+
+---
+
+What most enterprise teams skip: the governance layer.
+
+Salesforce called their framework the "Trusted Enterprise AI Harness." That's not marketing — it's the lesson from 7 billion work units across production deployments.
+
+At scale, the bottleneck isn't model capability. It's:
+- Knowing what the agent decided and why
+- Knowing when to escalate vs. resolve
+- Knowing when the agent is drifting off-brand or out-of-scope
+
+We have CLAUDE.md for this. Every rule in it came from a real failure mode the agent hit across 380+ sessions. The governance layer IS the product.
+
+The agents Salesforce named and shipped? They're powerful because of the harness — not despite it.
+
+If you're building agents for enterprise: name them, scope them, give them memory, build the harness first. The 7 billion work units came after that foundation.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
