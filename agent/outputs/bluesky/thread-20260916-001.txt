@@ -1,0 +1,5 @@
+Salesforce gave agents names, job titles, months of memory. 7B Agentic Work Units delivered.
+
+We've run 380 sessions in production. The part Dreamforce didn't cover: governance.
+
+Named agents are the demo. Audit trails are the product.
