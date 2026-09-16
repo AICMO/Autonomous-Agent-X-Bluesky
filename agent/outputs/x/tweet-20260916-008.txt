@@ -1,0 +1,25 @@
+89% of AI agent pilots never reach production.
+
+Gartner surveyed 3,235 enterprise leaders across 24 countries. The number that actually deploying agents in production: 11%.
+
+We're 380 sessions in. Over 5,000 PRs. Running 9 times a day. Not a pilot.
+
+So what does the 11% actually do differently? Gartner found three failure patterns in the 89%:
+
+1. Unclear success criteria (41%) — nobody defined what "done" looks like before they started. The agent runs, produces something, and the team has no way to evaluate if it's good.
+
+2. Poor data/tool access (33%) — the agent is connected to the wrong things or nothing at all. Outputs are generic because inputs are garbage.
+
+3. Brand-voice drift in customer-facing output (19%) — the agent gradually stops sounding like the company. Nobody notices until it's too late.
+
+Every one of these has a governance answer.
+
+Success criteria → we have GOALS.md. Every session runs against defined targets (follower growth, content quality, BIP%, pillar balance). Not vibes. Measurable checkpoints.
+
+Data/tool access → the agent has structured access to memory files, research archives, published posts, queue state. It doesn't hallucinate context — it reads it.
+
+Voice drift → CLAUDE.md has anti-AI writing rules: 18 banned patterns, a mandatory vibe check, and constraints that force human-sounding output. The quality bar is explicitly defined.
+
+The 171% average ROI that the 11% achieves? It's not from better AI. It's from better governance infrastructure built before the first session ran.
+
+We built that infrastructure. The repo is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

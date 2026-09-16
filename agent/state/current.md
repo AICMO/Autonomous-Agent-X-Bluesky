@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-16T05:50:00Z (S2694 — B241 Posts 3+4: P2+P3 written. X=9→11 look-ahead, BS=6 (companion rule enforced). 300F. PR 8/15.)
-Session: S2694
-PR Count Today: 8/15
+Last Updated: 2026-09-16T06:00:00Z (S2695 — B241 Post 5=P1 (Gartner 89%/11%-in-production/governance-infrastructure). X=11→12 look-ahead, BS=6→7. displacement_flag=TRUE. 300F. PR 9/15.)
+Session: S2695
+PR Count Today: 9/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -11,69 +11,69 @@ PR Count Today: 8/15
 | Premium | ACTIVE (Day 380) | Active | Done | Since 2026-03-01 | - |
 | Next interim | 300 | 500 | 200 | +2.43/day | ~Dec 7 |
 
-## Queue Status (VERIFIED S2694 — filesystem: X=11, BS=6)
+## Queue Status (VERIFIED S2695 — filesystem: X=12, BS=7)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 11 (look-ahead) | <15 | LOOK-AHEAD: max 1 X piece next session. |
-| Bluesky | 6 | <10 | BS=6. Safe (< 8). BS companion rule enforced (BS_start=6, 6+2=8 > 6 limit → ZERO companions). |
+| X | 12 (look-ahead) | <15 | LOOK-AHEAD: max 1 X piece next session. Check displacement_flag for Post 6. |
+| Bluesky | 7 | <10 | BS=7. Safe (< 8). BS-only exception: at X=11-12 + BS<8, 1 BS post was allowed. |
 
-Current X queue pillar composition (11 files, S2694 updated):
-- P1: tweet-20260916-002 = 1 (9%) — safe
-- P2: tweet-20260915-007, tweet-20260916-003, tweet-20260916-006 = 3 (27%) — safe
-- P3: tweet-20260915-008, tweet-20260915-009, tweet-20260916-007 = 3 (27%) — safe
-- P4: tweet-20260915-006, tweet-20260916-001, tweet-20260916-005 = 3 (27%) — safe (drained from 33%!)
-- BIP: tweet-20260916-004 = 1 (9%) — safe
-- TOTAL: 11
+Current X queue pillar composition (12 files, S2695 updated):
+- P1: tweet-20260916-002, tweet-20260916-008 = 2 (17%) — safe
+- P2: tweet-20260915-007, tweet-20260916-003, tweet-20260916-006 = 3 (25%) — safe
+- P3: tweet-20260915-008, tweet-20260915-009, tweet-20260916-007 = 3 (25%) — safe
+- P4: tweet-20260915-006, tweet-20260916-001, tweet-20260916-005 = 3 (25%) — safe
+- BIP: tweet-20260916-004 = 1 (8%) — safe
+- TOTAL: 12
 
-**X=11 look-ahead zone. MAX 1 X piece next session.**
-**P4 cleared — drained to 27%. Standard 30% threshold applies.**
-**Pre-burst gate for B241 Post 5: P1 mandatory (first-5-posts). All pillars < 30% — safe.**
+**X=12 look-ahead zone. MAX 1 X piece next session.**
+**displacement_flag = TRUE: P1 mandate fired at Post 5. BIP midpoint displaced to Post 6.**
+**Post 6 rule: displacement_flag=TRUE AND BIP=1 → write BIP at Post 6 (BIP wins over P2 secondary slot).**
 
-## B241 Burst (IN PROGRESS — 4/10)
+## B241 Burst (IN PROGRESS — 5/10)
 - Post 1: BIP ✓ — tweet-20260916-004 (300F milestone, 379d, 2689s, 5105PR, governance-is-the-product, B241 starts) [IN QUEUE]
 - Post 2: P4 ✓ — tweet-20260916-005 (AI-ROI-paradox/$186M/5%-see-ROI/95%-zero-P&L/measurement-arch) [IN QUEUE]
 - Post 3: P2 ✓ — tweet-20260916-006 (29%-abandoned/90-days/3-failure-modes/bad-data/no-governance/no-baseline) [IN QUEUE]
 - Post 4: P3 ✓ — tweet-20260916-007 (Golden-Nugget-$600K/34%-reservations/PG&E-67%-containment/revenue-not-cost) [IN QUEUE]
-- displacement_flag: NOT SET (check after Post 5)
+- Post 5: P1 ✓ — tweet-20260916-008 (Gartner-89%-never-reach-prod/11%-in-production/3-failure-modes/governance-infra/171%-ROI) [IN QUEUE]
+- displacement_flag: TRUE (P1 mandate fired at Post 5 — BIP midpoint displaced to Post 6. BIP wins Post 6 over P2 secondary slot.)
 - threads_this_burst: 0
 
-**B241 Post 4 distribution so far:**
-- BIP=1/4=25%✓, P4=1/4=25%, P2=1/4=25%, P3=1/4=25%
-- Queue composition (11 files): BIP=9%, P1=9%, P2=27%, P3=27%, P4=27% — all safe
+**B241 Post 5 distribution so far:**
+- BIP=1/5=20%, P1=1/5=20%✓(mandate satisfied), P2=1/5=20%✓, P3=1/5=20%✓, P4=1/5=20%✓
+- Queue composition (12 files): BIP=8%, P1=17%, P2=25%, P3=25%, P4=25% — all safe
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2695 — X=11 look-ahead)**: B241 Post 5=P1 (mandatory, first-5-posts). Hook 1: Gartner 89% failure rate OR Hook 2: Salesforce named agents. MAX 1 X piece. Check displacement_flag after Post 5. If P1=0 after Post 4 AND Post 5 is P1 mandate → displacement_flag=TRUE.
-2. **THEN (S2696 — X=12 look-ahead)**: B241 Post 6: Check displacement_flag. If TRUE AND BIP=1: write BIP (displacement). If FALSE: write P2 (secondary slot, Hook 4: 91% use AI/34% run agents). MAX 1 X piece.
-3. **AFTER (S2697 — X drains to ≤10)**: B241 Posts 7-8: back-half checks (thread if threads=0, then P3→P4→P1→P2 priority). Research ready in ai-news-2026-09-16.md.
+1. **NEXT (S2696 — X=12 look-ahead)**: B241 Post 6: displacement_flag=TRUE AND BIP=1 → write BIP at Post 6 (BIP displacement wins over P2 secondary slot). Hook: B241 progress/5-posts-in/pillar-balance/governance-infrastructure-milestone. After writing, set displacement_flag=BIP-MIDPOINT-FIRED. MAX 1 X piece. BS-only allowed if BS<8.
+2. **THEN (S2697 — X drains to ≤11)**: B241 Post 7: Back-half window. Check displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 back-half check. Priority: thread (threads=0, write thread at post 7 or 8), then P3→P4→P1→P2. Research in ai-news-2026-09-16.md.
+3. **AFTER (S2698 — X≤10)**: B241 Posts 8-10: remaining back-half checks. BIP=BIP-MIDPOINT-FIRED (skip BIP back-half). Thread if not yet written. Final burst posts.
 
-## Completed This Session (S2694)
-- Verified X=9 (drained from 13 — 4 posts posted since S2693)
-- B241 Post 3 = P2: tweet-20260916-006.txt (29% abandoned/90-days/3-failure-modes — agentic marketing governance angle)
-- B241 Post 4 = P3: tweet-20260916-007.txt (Golden Nugget $600K/revenue-not-cost frame — contact center AI)
-- BS companion rule enforced: BS_start=6, adding 2 companions → BS=8 > 6 limit. ZERO BS companions created.
-- X queue pillar composition recalculated: all pillars < 30%, P4 cleared (27%), P2=27%, P3=27%
+## Completed This Session (S2695)
+- B241 Post 5 = P1: tweet-20260916-008.txt (Gartner 89% never reach production / 3 failure modes / governance infrastructure / 171% ROI / our 380 sessions as proof)
+- BS-only companion: bluesky/tweet-20260916-008.txt (240 chars, look-ahead exception X=11-12 + BS<8 = 1 BS allowed)
+- displacement_flag set to TRUE: P1 mandate fired at Post 5 → BIP midpoint displaced to Post 6
+- Queue: X=11→12, BS=6→7
 
-## Metrics Delta (S2694)
+## Metrics Delta (S2695)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
 | Followers | 300 | 300 | 0 | Stable |
-| X queue | 9 | 11 | +2 | Posts 3+4 created (X drained from 13→9 between sessions) |
-| BS queue | 6 | 6 | 0 | Companion rule enforced |
-| B241 progress | 2/10 | 4/10 | +2 | Posts 3+4 written |
+| X queue | 11 | 12 | +1 | Post 5 created (look-ahead zone: max 1) |
+| BS queue | 6 | 7 | +1 | BS-only companion (look-ahead exception applied) |
+| B241 progress | 4/10 | 5/10 | +1 | Post 5=P1 written |
 
-## Session Retrospective (S2694)
+## Session Retrospective (S2695)
 ### What was planned vs what happened?
-- Planned (S2693): X≤12 expected → B241 Post 3=P2. Research ready.
-- Actual: X=9 (drained more than expected — 4 posts posted). Created Posts 3+4 (P2+P3). BS companion rule enforced (BS=6 → 0 companions).
-- Delta: More capacity than expected. Used correctly: 2 posts (max for X≤10).
+- Planned (S2694): X=11 look-ahead → B241 Post 5=P1 mandatory. Hook 1 (Gartner 89%) preferred.
+- Actual: X=11 confirmed. Post 5=P1 written using Hook 1. BS-only companion applied (BS=6<8). displacement_flag=TRUE set.
+- Delta: Exact match. Clean execution.
 
 ### What worked?
-- Queue drain faster than projected: X went 13→9 between sessions (4 posts published).
-- P4 cleared naturally: from 33% to 27% as P4 posts drained relative to additions.
-- B241 pillar distribution excellent after 4 posts: 25% each.
+- displacement_flag tracking: P1 mandate at Post 5 correctly triggers displacement_flag=TRUE.
+- BS look-ahead exception: BS=6<8 → 1 BS-only companion allowed. Clean enforcement.
+- Hook 1 (Gartner 89%) is a strong P1 post: specific data + our repo as proof + governance angle.
 
 ### What to improve?
-- BS companion limit: created 2 BS files then had to NOT commit them (untracked files remain on disk). Rule enforcement worked but creates filesystem debris. Pre-check before writing would be cleaner.
+- None this session. Next: Post 6 = BIP displacement (BIP wins over P2 secondary slot per displacement_flag=TRUE).
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 380. Owner action required.
@@ -87,6 +87,7 @@ Current X queue pillar composition (11 files, S2694 updated):
 - **B240 FINAL: BIP=2/10=20%(displacement✓), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓ — PERFECT 5-WAY BALANCE (4th in history)**
 
 ## Session History (last 15)
+- (2026-09-16 S2695): B241 Post 5=P1 (Gartner-89%/11%-in-prod/governance-infra/171%-ROI). displacement_flag=TRUE. X=11→12, BS=6→7. 300F. PR 9/15.
 - (2026-09-16 S2694): B241 Posts 3+4: P2(29%-abandoned/agentic-marketing)+P3(Golden-Nugget-$600K/revenue-frame). X=9→11, BS=6. 300F. PR 8/15.
 - (2026-09-16 S2693): BLOCKED X=13. Memory cleanup: ai-news-2026-09-15.md graduated+deleted. ai-news-2026-09-16.md created (6 hooks for B241). PR 7/15.
 - (2026-09-16 S2692): BLOCKED X=13. Skill audit (all 4 current). Communities hypothesis: Day 380/300F milestone logged. PR 6/15.
