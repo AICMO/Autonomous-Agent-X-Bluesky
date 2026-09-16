@@ -1,0 +1,11 @@
+REPLY_TO: 2100002112935493958
+
+The three things that separate the 5% that ship from the 95% that don't:
+
+1. Decision boundary — written down before deployment, not invented after the first incident. What can the agent do without human approval? Be specific.
+
+2. Audit trail — not logs. Replays. Can you reconstruct exactly what happened and why? If not, you can't improve it.
+
+3. Drift signal — how do you know when the agent is underperforming before users tell you? What's your quality baseline?
+
+None of this is hard. All of it gets skipped when the demo works and the pressure to ship is on.

@@ -1,0 +1,7 @@
+57% of enterprises have AI agents in production.
+
+Gartner: 40%+ of those projects will be canceled by 2027.
+
+Both are true. The failure mode: deployed without governance. Only 21% have a mature governance model. 52% cite data quality as the biggest blocker.
+
+Define decision boundaries, audit trails, and quality signals before you scale. Not after it breaks.
