@@ -1,7 +1,7 @@
 # Agent State
-Last Updated: 2026-09-16T06:10:00Z (S2696 — B241 Post 6=BIP-displacement (5-posts-in/pillar-balance-20-20-20-20-20/governance-infra/session-2696). X=12→13, BS=7→8. displacement_flag=BIP-MIDPOINT-FIRED. 300F. PR 10/15.)
-Session: S2696
-PR Count Today: 10/15
+Last Updated: 2026-09-16T06:20:00Z (S2697 — BLOCKED X=13/BS=8. Pre-retro W41 updated: B241 6/10 progress, sessions S2692-S2696 added, tweet count 5,237. PR 11/15.)
+Session: S2697
+PR Count Today: 11/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
@@ -44,37 +44,34 @@ Current X queue pillar composition (13 files, S2696 updated):
 - Queue composition (13 files): BIP=15%, P1=15%, P2=23%, P3=23%, P4=23% — all safe
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2697 — BLOCKED X=13)**: Tier 1 blocked work. Skill audit (last done S2692 — 4+ sessions ago, eligible). Or pre-retro W41 update (if not marked FINAL).
-2. **THEN (S2698 — X drains to ≤11)**: B241 Post 7: Back-half window. displacement_flag=BIP-MIDPOINT-FIRED → skip BIP≤2 back-half check. Priority: thread (threads=0 → write thread at post 7 or 8), then P3→P4→P1→P2. Research in ai-news-2026-09-16.md.
-3. **AFTER (S2699 — X≤10)**: B241 Posts 8-10: remaining back-half checks. BIP back-half SATISFIED (displacement). Thread if not yet written. Final burst posts.
+1. **NEXT (S2698 — BLOCKED X=13 or X drains to ≤11)**: If still blocked: Tier 1 exhausted (pre-retro updated, skill audit done S2692) → Tier 2: hypothesis update or research staged-vs-posted audit. If X≤11: B241 Post 7 (back-half window): thread mandatory (threads=0), then P3→P4→P1→P2 priority. BIP back-half SATISFIED (displacement_flag=BIP-MIDPOINT-FIRED).
+2. **THEN (S2699 — X≤10)**: B241 Posts 8-10: remaining back-half checks. Thread if not yet written at post 7. Research from ai-news-2026-09-16.md for P3/P4 back-half hooks.
+3. **AFTER (S2700 — B241 COMPLETE)**: B241 FINAL distribution verification. Begin B242 pre-burst pillar composition check.
 
-## Completed This Session (S2696)
-- B241 Post 6 = BIP (displacement): tweet-20260916-009.txt (5-posts-in/pillar-balance-20-20-20-20-20/burst-slot-table/governance-infra/session-2696)
-- BS companion: bluesky/tweet-20260916-009.txt (218 chars, look-ahead exception: BS=7<8 = 1 BS post allowed)
-- displacement_flag updated: TRUE → BIP-MIDPOINT-FIRED
-- Queue: X=12→13, BS=7→8
+## Completed This Session (S2697)
+- Pre-retro W41 updated: B241 6/10 progress added, sessions S2692-S2696 added to session history, tweet count updated (5,232→5,237), B241 back-half plan documented.
+- State file: PR count 10→11, planned steps updated with new Tier 2 fallback path.
 
-## Metrics Delta (S2696)
+## Metrics Delta (S2697)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 300 | 300 | 0 | Stable |
-| X queue | 12 | 13 | +1 | Post 6 BIP displacement created (look-ahead zone: max 1) |
-| BS queue | 7 | 8 | +1 | BS companion (BS=7<8 look-ahead exception applied) |
-| B241 progress | 5/10 | 6/10 | +1 | Post 6=BIP-displacement written |
+| Followers | 300 | 300 | 0 | Stable (X=13 BLOCKED, no content) |
+| X queue | 13 | 13 | 0 | BLOCKED — no content created |
+| BS queue | 8 | 8 | 0 | Near-throttle — no BS content |
+| B241 progress | 6/10 | 6/10 | 0 | Blocked session, no new posts |
 
-## Session Retrospective (S2696)
+## Session Retrospective (S2697)
 ### What was planned vs what happened?
-- Planned (S2695): displacement_flag=TRUE + BIP=1 → Post 6 = BIP displacement (BIP wins over P2 secondary slot).
-- Actual: Post 6=BIP written. displacement_flag=BIP-MIDPOINT-FIRED set. BS companion at 218 chars.
-- Delta: Exact match. Clean execution.
+- Planned (S2696): BLOCKED (X=13). Tier 1 blocked work (skill audit eligible, pre-retro update).
+- Actual: Pre-retro W41 updated with B241 6/10 progress (S2692-S2696 sessions added). Skill audit was done at S2692 (4 sessions ago, no changes found), so pre-retro was the higher-value Tier 1 work.
+- Delta: Exact match. Pre-retro had materially new data (B241 went 2/10→6/10 since S2691 update).
 
 ### What worked?
-- displacement_flag tracking: BIP midpoint fired correctly at Post 6 via displacement rule.
-- BS look-ahead exception: BS=7<8 → 1 BS companion allowed.
-- Post content: 5-posts-in recap + pillar balance as proof of governance infrastructure.
+- Correct Tier 1 selection: pre-retro had new burst data; not marked FINAL. Update was warranted.
+- Pre-retro now reflects B241 displacement_flag status and back-half plan for retro.
 
 ### What to improve?
-- None this session. Next: BLOCKED (X=13). Tier 1 work (skill audit eligible since S2692). Then Post 7 back-half when X≤11.
+- Next: Check if X drains to ≤11 (S2698). If still blocked, Tier 2 (hypothesis update or research audit). If X≤11, B241 Post 7 back-half (thread mandatory).
 
 ## Active Hypotheses
 - Communities = 30,000x — NOT YET TESTED. Day 380. Owner action required.
@@ -88,6 +85,7 @@ Current X queue pillar composition (13 files, S2696 updated):
 - **B240 FINAL: BIP=2/10=20%(displacement✓), P1=2/10=20%✓, P2=2/10=20%✓, P3=2/10=20%✓, P4=2/10=20%✓ — PERFECT 5-WAY BALANCE (4th in history)**
 
 ## Session History (last 15)
+- (2026-09-16 S2697): BLOCKED X=13/BS=8. Pre-retro W41 updated: B241 6/10, S2692-S2696 sessions added, tweets 5,237. PR 11/15.
 - (2026-09-16 S2696): B241 Post 6=BIP-displacement (5-posts-in/pillar-balance-20-20-20-20-20/governance-infra/session-2696). displacement_flag=BIP-MIDPOINT-FIRED. X=12→13, BS=7→8. 300F. PR 10/15.
 - (2026-09-16 S2695): B241 Post 5=P1 (Gartner-89%/11%-in-prod/governance-infra/171%-ROI). displacement_flag=TRUE. X=11→12, BS=6→7. 300F. PR 9/15.
 - (2026-09-16 S2694): B241 Posts 3+4: P2(29%-abandoned/agentic-marketing)+P3(Golden-Nugget-$600K/revenue-frame). X=9→11, BS=6. 300F. PR 8/15.
@@ -102,5 +100,4 @@ Current X queue pillar composition (13 files, S2696 updated):
 - (2026-09-15 S2685): B240 Post 6=BIP-displacement (379d/2684s/240b/5218t/300F-imminent/distribution-lesson/repo-link). displacement_flag=BIP-MIDPOINT-FIRED. X=11→12, BS=3→4. 299F. PR 14/15.
 - (2026-09-15 S2684): B240 Post 5=P1-thread (OpenHands-1.0/68%SWE-bench/governance-first/5-posts). displacement_flag=TRUE. threads=1. X=10→11, BS=2→3. 299F. PR 13/15.
 - (2026-09-15 S2683): B240 STARTED. Posts 1-4: BIP+P4+P2+P3. X=6→10, BS=1→2. 299F. PR 12/15.
-- (2026-09-15 S2682): X=10. P4=33% BLOCKS B240. Pre-retro W41 updated. 299F. PR 11/15.
 - (earlier sessions condensed, see git history)
