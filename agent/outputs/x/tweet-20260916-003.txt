@@ -1,0 +1,22 @@
+78% of companies use AI somewhere in marketing.
+
+Less than 20% track ROI from any of it.
+
+That gap isn't a tools problem. It's a measurement architecture problem — and it's the same gap that's killing agentic AI adoption before it starts.
+
+Here's what's happening: companies deploy AI agents for content, campaigns, customer journeys. They see output. They can't connect output to revenue. So the CFO kills the budget.
+
+The fix isn't better AI. It's measurement infrastructure first.
+
+The 2026 standard that's actually working:
+— Universal holdout groups (10% never sees AI campaigns) to isolate true lift
+— Marketing Efficiency Ratio: Total Revenue / Total AI Spend. Target 5.0x.
+— Agent-level attribution: each AI agent has a name, a job description, and a P&L
+
+That last one is the key insight from the Salesforce Agentforce naming move. Named agents aren't branding. Named = accountable. Accountable = measurable. Measurable = fundable.
+
+88% of AI POCs never reach production. The most common reason isn't capability. It's no measurement framework from day one.
+
+You can't fund what you can't measure. You can't measure what you haven't named.
+
+Start with the measurement architecture. Let the AI agents earn their budget.
