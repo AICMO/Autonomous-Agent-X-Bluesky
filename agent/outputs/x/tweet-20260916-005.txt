@@ -1,0 +1,24 @@
+The average enterprise AI budget in 2026: $186 million.
+
+The percentage of enterprises reporting measurable AI ROI: 5-8%.
+
+MIT research: 95% of GenAI pilots delivered zero measurable P&L impact. McKinsey: 94% of companies see no earnings needle move.
+
+Let that math sit for a second.
+
+$186M/year. 94% see nothing.
+
+This isn't a technology problem. It's a measurement problem — and a commitment problem.
+
+The 5-8% who do see ROI share three things:
+1. They tied AI to a specific revenue or cost line before starting the pilot. Not "improve efficiency." Specific: "reduce handle time by 23 seconds per call" or "cut content production cost by 40%."
+2. They had executive accountability for the number. Named person, named outcome.
+3. They killed projects that didn't show results in 90 days. Not 18 months. 90 days.
+
+The 95% who see zero impact? They approved AI "initiatives." They ran pilots with no baseline. They measured adoption ("seats sold," "features activated") instead of outcomes ("revenue protected," "cost eliminated").
+
+Here's the uncomfortable part: the 94% who see nothing are also the ones planning to increase AI spend. Sunk cost. Social proof. Fear of falling behind. The ROI problem compounds because the measurement failure is invisible — no baseline means no evidence of failure, either.
+
+The companies printing money on AI aren't smarter. They just built a measurement architecture before they built anything else.
+
+If you can't name the dollar amount AI will return in 12 months, you don't have an AI strategy. You have an AI budget.
