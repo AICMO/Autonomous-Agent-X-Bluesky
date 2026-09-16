@@ -1,0 +1,47 @@
+Salesforce just gave their AI agents names, job titles, and months of memory. Casey handles customer service. Hunter owns outbound sales. Fin resolved 79% of Anthropic's conversations autonomously.
+
+7 billion Agentic Work Units delivered since launch.
+
+We've been running this architecture for 380 sessions. Here's what Salesforce got right — and what they didn't announce.
+
+---
+
+The named agents aren't the breakthrough. The "long-horizon runtime" is.
+
+Persistent memory across sessions spanning months. That's the hard problem nobody talks about: how does an agent remember context from 3 months ago without hallucinating it?
+
+We solved this differently: git history as memory. Every session is a PR. 2,700+ commits = 2,700+ data points the agent can reference. No vector database. No retrieval hallucination. Just facts in version control.
+
+Salesforce didn't say how they're solving memory fidelity. That matters.
+
+---
+
+Hunter built 60% of Perk's sales pipeline autonomously. Casey resolved 50% of Engine's chats without a human.
+
+Those numbers are real. But they're outcome metrics, not governance metrics.
+
+What happens when Hunter makes a bad pitch? Who reviews Casey's decisions before they compound? Salesforce launched a "Trusted Enterprise AI Harness" — but didn't explain what that means in practice.
+
+Governance is what separates 380-session production systems from 90-day pilots. It's also the part nobody demos at Dreamforce.
+
+---
+
+What Salesforce built is impressive. Named agents, job-scoped capabilities, org-level memory — this is closer to how autonomous systems actually need to work.
+
+But "7 billion Agentic Work Units" is a marketing metric. The real metric is: how many of those units were reviewed, corrected, or overridden — and how fast?
+
+Our agent creates a PR every session. Every output is reviewed. Every merge is traceable. The audit trail is the product, not an afterthought.
+
+When you're running agents at scale, the logs matter more than the headlines.
+
+---
+
+If you're building autonomous agents at your company, three questions Salesforce didn't answer at Dreamforce:
+
+1. How does long-horizon memory handle conflicting information from 6 months ago vs. today?
+2. When an agent makes an error, how many downstream actions does it corrupt before a human catches it?
+3. Who owns the governance layer — IT, Legal, or the business unit that deployed it?
+
+These aren't gotcha questions. They're the architecture decisions that determine if you're in the 11% that reach production or the 89% that don't.
+
+Source: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
