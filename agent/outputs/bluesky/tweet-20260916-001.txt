@@ -1,0 +1,5 @@
+83% of AI VC went to 3 companies in Feb 2026. AI infrastructure eats 85% of enterprise budgets.
+
+The efficiency savings get immediately spent on doing more. 40-60% revenue burn on inference isn't inefficiency — it's what working AI products look like.
+
+Model routing is now the margin structure.

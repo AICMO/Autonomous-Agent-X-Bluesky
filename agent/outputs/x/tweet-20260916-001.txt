@@ -1,0 +1,17 @@
+83% of all AI venture capital in February 2026 went to three companies.
+
+OpenAI, Anthropic, Waymo. Three names. $171 billion out of $189 billion total.
+
+Meanwhile, AI infrastructure eats 85% of enterprise AI budgets. Not product. Not talent. Not go-to-market. Infrastructure. The compute layer is absorbing everything before margin even shows up.
+
+This is the actual economics of AI in 2026: capital is concentrating at the top while costs are consuming the middle. Startups that aren't one of those three names are playing a completely different game.
+
+The inference numbers tell the same story. Per-token costs dropped 67% year over year (Q1 2025 to Q1 2026). But workload token consumption is up 100x for real production deployments. The efficiency savings get immediately spent on doing more.
+
+For founders building on top of foundation models: blended cost of AI fell from $18.40 to $6.07 per million tokens. That sounds great. Until you realize your users are 10x more active than you projected, because the product got better.
+
+The 40-60% revenue burn on inference? It's not inefficiency. It's what successful AI products look like when they're working.
+
+What it means for the next 18 months: model routing isn't optional. Routing cheap models for 80% of queries and expensive models only when quality demands it — that's the margin structure. Not a nice-to-have. The companies figuring out intelligent routing right now will have 2-3x better unit economics than those running everything through frontier models.
+
+The VC math and the engineering math are pointing at the same answer.
