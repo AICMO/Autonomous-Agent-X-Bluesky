@@ -1,0 +1,27 @@
+Golden Nugget's AI handles 34% of all reservation calls and generates $600,000/month in attributed revenue.
+
+PG&E used voice AI during utility outages: 67% call containment, 35,000 labor hours saved, 22% CSAT increase.
+
+Fully automated resolution now costs under $1.00 per interaction.
+
+This is no longer a cost story. It's a revenue story.
+
+The contact center AI pitch used to be: "We'll reduce your labor costs." That worked for CFOs but not for business leaders. Cost reduction has a ceiling. There's only so much you can cut.
+
+Revenue generation doesn't have a ceiling.
+
+When Golden Nugget's AI handles a reservation that would have gone to voicemail at 2am, that's not cost avoidance — that's a booking that didn't exist before. $600K/month is incremental revenue, not recovered efficiency.
+
+The business case that actually moves budget in 2026: AI that creates revenue streams humans couldn't scale to.
+
+Forrester put a number on it: 250% ROI, payback under 6 months at scale. Gartner's projecting $80B in global contact center labor cost reduction by end of 2026.
+
+Both are right. Cost reduction funds the deployment. Revenue generation justifies the next one.
+
+The call centers asking "how do we reduce headcount with AI" are one cycle behind. The ones asking "what revenue can AI capture that our current team can't" are playing the 2027 game.
+
+---
+
+PILLAR: P3 (Call Center AI / Voice AI / CX)
+SOURCE: PolyAI case studies (Golden Nugget, PG&E), UseFini AI Voice Agents ROI 2026, Forrester 2025, Gartner 2026 contact center projections
+NOTE: B241 Post 4 — P3 mandatory (first-4-posts). Hook: revenue generation frame vs. cost reduction. $600K/month Golden Nugget case study. Angle distinct from existing P3 posts (prove-it moment, knowledge mgmt bottleneck).
