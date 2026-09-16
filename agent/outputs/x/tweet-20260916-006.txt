@@ -1,0 +1,25 @@
+29% of agentic marketing deployments get abandoned within 90 days.
+
+Not because the AI failed. Because nobody defined what success looked like before they started.
+
+The same 3 failure modes show up every time:
+
+1. Bad data quality. The agent runs on customer segments that are stale, duplicated, or incomplete. Garbage in, garbage out — but now at 10x speed.
+
+2. No governance layer. Nobody specified what the agent can and cannot do. Who approves what it publishes? What happens when it generates something off-brand? These questions get answered after the first crisis, not before.
+
+3. No baseline metric. If you can't measure it before the agent runs, you can't prove anything changed after. The ROI never materializes because it was never measurable.
+
+The successful deployments (4.1x–5.3x ROI) share one thing: they defined "good" before they shipped.
+
+This repo has logged over 2,690 sessions. Every session has a clear output metric: queue count, follower count, engagement rate, PR count. The agent can't drift because every run produces a measurable result.
+
+That's not sophisticated AI. It's engineering discipline applied to AI workflows.
+
+Most agentic marketing fails at the management layer, not the model layer.
+
+---
+
+PILLAR: P2 (Marketing Automation / Content Ops)
+SOURCE: Omnibound.ai (54+ data points), Shoeb Lodhi Agentic AI Marketing Guide 2026, Stormy.ai — 29% abandonment rate, 90-day failure window, 4.1x–5.3x ROI on successful deployments
+NOTE: B241 Post 3 — P2 mandatory (first-3-posts). Hook: abandonment rates + 3 failure modes. Our angle: engineering discipline as governance substitute.
