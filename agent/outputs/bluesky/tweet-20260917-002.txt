@@ -1,0 +1,7 @@
+Token costs dropped 1,000x in 3 years.
+
+Enterprise AI bills 6x'd in the same period.
+
+Jevons Paradox running live: cheaper tokens don't reduce spend. They enable more tokens.
+
+The fix isn't a cheaper model. It's a smarter consumption architecture.

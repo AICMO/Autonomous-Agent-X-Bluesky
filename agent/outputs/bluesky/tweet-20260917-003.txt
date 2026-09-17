@@ -1,0 +1,7 @@
+91% of marketers use AI daily. Only 34% run agents.
+
+That gap is everything.
+
+Using AI = better search. Running agents = a workflow that executes without you, 9x/day, creates files, opens PRs, self-reviews.
+
+The ROI difference: 4.1x–5.3x for agents vs marginal lift for AI tools.
