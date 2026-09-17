@@ -1,0 +1,17 @@
+91% of contact center leaders are under direct executive pressure to implement AI. 72% are increasing AI investment before year-end.
+
+The era of "we're evaluating AI" is over. The era of "we deployed it but it doesn't work" has begun.
+
+Here's the conversation that's actually happening in boardrooms right now.
+
+The pressure is real. The mandates are real. What's not real is the readiness. Gartner's latest data: 91% of leaders under executive pressure + only 21% have mature governance frameworks. That's a math problem with a painful solution curve.
+
+The contact centers that will navigate this well share three characteristics: they defined what "good" looks like before deployment (a baseline call resolution rate, a CSAT score, a containment threshold), they assigned an accountable owner (not "the AI team" — a person with a number to hit), and they built incrementally instead of replacing everything at once.
+
+Golden Nugget didn't start by automating all reservations. They started with a defined scope (inbound reservation calls), a measurable outcome ($600K/month revenue attributed to AI-handled bookings), and a governance layer that a human reviewed weekly.
+
+That's the repeatable pattern. Not "deploy AI and measure impact later." That's how you end up in the 72% that increased investment without clarity on what they bought.
+
+The 45-60% Tier-1 deflection range tells the story: the gap is 15 percentage points. The difference between 45% and 60% deflection isn't the AI vendor — it's the governance architecture, the prompt design, and the continuous improvement cycle. Same tools. 30% difference in output.
+
+If you're in that boardroom conversation and you don't yet have a baseline metric and an accountable owner, those are the two things to fix before committing budget.

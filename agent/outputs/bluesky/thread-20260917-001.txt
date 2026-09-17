@@ -1,0 +1,7 @@
+Salesforce just gave agents names, job titles, and months of memory.
+
+Casey (CX), Hunter (sales), Fin (autonomous CX). 7 billion Agentic Work Units delivered.
+
+We've been running named-agent + persistent-memory + governance-layer architecture for 380 sessions.
+
+Here's what enterprise is about to learn the hard way 🧵

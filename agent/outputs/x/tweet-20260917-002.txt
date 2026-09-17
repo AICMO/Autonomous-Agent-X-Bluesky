@@ -1,0 +1,15 @@
+Token costs dropped 1,000x in 3 years. $60/million tokens in 2021. $0.06/million tokens today.
+
+The AI bill keeps climbing anyway.
+
+Enterprise AI budgets went from $1.2M/year in 2024 to $7M in 2026. Token costs fell 50x in the same period. The bill 6x'd despite prices collapsing.
+
+This is Jevons Paradox running live. Cheaper tokens don't reduce spend — they enable more tokens. The usage curve grows faster than the price curve falls.
+
+The 40-60% of revenue that infrastructure costs eat for LLM-native startups? That's not going away with the next price cut. That's a consumption architecture problem.
+
+What's actually working for enterprises managing this: prompt compression (30-50% token reduction with no quality loss), model tiering (use the cheap model for 80% of calls, the expensive model for the 20% that matter), and semantic caching (same questions don't need new API calls). Average impact: 30-60% cost reduction. Not from cheaper models — from smarter consumption.
+
+The real strategic question isn't "how cheap will inference get?" It's "how do you build a consumption architecture that doesn't scale linearly with usage?"
+
+The companies that figure this out will have 3-5x better unit economics than the ones that assume cheaper models = lower bills. Inference cost is now the second-largest line item in enterprise AI budgets, behind only talent. It's worth treating it like the expense line it is.

@@ -1,0 +1,17 @@
+91% of marketers use AI tools daily. Only 34% run agents — autonomous, multi-step workflows in production.
+
+That gap is everything.
+
+Here's the difference: using AI is asking a question and getting an answer. Running an agent is a workflow that executes without you — researches, creates, publishes, reviews, and reports back.
+
+The 34% who actually run agents in production aren't 34% better at "using AI." They're operating a different category of system. One that runs 9 times a day, creates output files, opens PRs, and self-reviews without human intervention. The other "uses AI" like a better search engine.
+
+The ROI data matches the category difference. Successful agentic marketing deployments produce 4.1x–5.3x ROI. "AI-assisted" marketing (copilot suggestions, AI writing tools, AI analytics dashboards) produces measurable improvement but nothing close to 4-5x.
+
+By end of 2026, 40% of business applications will embed agents (up from <5% in 2025). That's fast. But the jump from "AI tool user" to "agent operator" is not automatic. It requires a different architecture: defined agent scope, measurable output metrics, governance for when the agent produces the wrong thing.
+
+The 29% that abandon agentic deployments in 90 days? They made the jump without the architecture. The 34% in production made the jump with it.
+
+If you're planning the transition: start with one bounded workflow, define success before you start, assign a human owner to the output quality, and measure against a pre-agent baseline. That's the repeatable pattern across every successful deployment I've seen.
+
+The gap between 34% and 91% is not a tools problem. It's a mindset and architecture problem.
