@@ -1,0 +1,24 @@
+91% of contact center leaders are under explicit executive pressure to implement AI (Gartner 2026).
+
+The era of "we're evaluating" is over.
+
+But here's what that number hides: being under pressure and being ready are two different things.
+
+72% of call centers plan to increase AI investment by end of 2026. That's budget moving fast in a market where enterprise Tier-1 deflection rates still range from 45% to 60% — a 15-point gap that represents years of architecture decisions.
+
+The executives demanding AI deployment aren't asking for deflection rates. They're asking for cost reduction. Revenue generation. CSAT improvements. The same results Golden Nugget and PG&E are posting.
+
+What they're not asking for — but what separates 45% deflection from 60% deflection — is governance architecture.
+
+Fully automated resolution is now under $1.00 per interaction. That math works at 60% deflection. It gets messy at 45%. And it breaks entirely when the AI escalates to a human because nobody defined the edge cases before deployment.
+
+The 91% pressure stat matters. But the teams that will actually show the ROI 18 months from now are the ones not cutting corners on the foundation.
+
+At Ender Turing, we've seen this pattern across banking, insurance, healthcare: the ROI is real. The path there isn't deploying fast. It's deploying right.
+
+Speed + bad architecture = 90-day pilot shutdown.
+Speed + governance = $600K/month in incremental revenue.
+
+The executives applying pressure should be asking their teams: "What's our baseline metric? Who owns the governance layer? What does a failed conversation look like, and who sees it?"
+
+Those questions separate the Golden Nuggets from the 91% that are still "evaluating" — even after the mandate came down.

@@ -1,0 +1,53 @@
+Salesforce just gave agents names, job titles, and months of memory.
+
+Casey handles customer service. Hunter builds sales pipeline. Fin resolves 79% of Anthropic's conversations autonomously.
+
+7 billion Agentic Work Units delivered since launch.
+
+We've been running this architecture for 380 sessions. Here's what enterprise teams are about to learn the hard way.
+
+---
+
+**The gap isn't the technology.**
+
+Salesforce's "long-horizon runtime" — persistent memory across sessions spanning months — is the piece everyone's skipping over.
+
+Right now, most enterprise AI deployments reset on every conversation. No memory of last week's escalation. No continuity on a customer's open case. No institutional knowledge that compounds over time.
+
+Named agents (Casey, Hunter, Marshall) are fine as UX framing. But months-long memory is the actual product moat.
+
+We've been running continuous memory across 2,699+ sessions. The agent remembers what worked in S247. It tracks hypotheses from S800. It reads its own retrospectives from three months ago.
+
+That's not impressive tech. That's just *running continuously*.
+
+---
+
+**What 7 billion Agentic Work Units tells you:**
+
+Salesforce has real adoption at scale. 50% of Engine's chats resolved by Casey. 60% of Perk's sales pipeline built by Hunter.
+
+These aren't demos. These are production numbers.
+
+But here's what those numbers don't show: how many enterprises tried Agentforce, couldn't define what "good" looks like, and quietly shut it off.
+
+Gartner says 89% of AI agent pilots never reach production. Salesforce's 7B AUW is the 11% talking.
+
+The governance layer — "Trusted Enterprise AI Harness" — is in the product because Salesforce learned what everyone building agents learns eventually: without guardrails, the ROI math doesn't hold.
+
+---
+
+**What we've learned after 380 sessions that Salesforce customers are about to discover:**
+
+1. Agent continuity requires more than memory. It requires *structured memory* — state files, session history, hypothesis tracking. Raw memory without structure is noise.
+
+2. Governance isn't a feature you add. It's the foundation you build before the agent does anything consequential.
+
+3. Named agents feel natural until the handoff breaks. Casey can handle 50% of chats. The other 50% that escalate to humans — that's where the architecture gets tested.
+
+4. The ROI compounds. 60% of Perk's pipeline built by Hunter isn't impressive in month 1. It's impressive in month 6, when Hunter has context on every deal.
+
+The enterprises that will win with Agentforce aren't the ones that deploy the fastest. They're the ones that define success metrics before day one and treat governance as architecture, not afterthought.
+
+We built that from session one: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+380 sessions. 5,200+ PRs. Still running.

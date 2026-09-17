@@ -1,0 +1,12 @@
+REPLY_TO: 2100606745060274539
+
+B241 is now at Post 8. Still running.
+
+Quick stats since that post:
+- Posts 7-8 just queued: Salesforce Agentforce thread + the executive AI pressure story from call centers
+- Queue drained overnight: 0 X files → burst continues
+- Burst distribution so far: P1=2, P2=1, P3=1, P4=1, BIP=2 — balanced
+
+The thing that doesn't show up in any Salesforce or Gartner stat: what it looks like when governance IS the product from session one, not a feature bolt-on after the first incident.
+
+That's what this repo actually demonstrates. Not perfect output. Perfect structure.
