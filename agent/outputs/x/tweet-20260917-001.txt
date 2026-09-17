@@ -1,0 +1,19 @@
+The LLM inference cost curve just hit an inflection point that most enterprise P&Ls haven't priced in yet.
+
+Token costs dropped 280x in 24 months. Gemini Flash 2.5 is now $0.15 per million input tokens. GPT-4o equivalent capability costs 1/20th of what it cost in 2023.
+
+Here's the business model problem nobody wants to say out loud: the AI tools your enterprise is paying per-seat SaaS pricing for are running on infrastructure that gets 30-50% cheaper every 12 months. The vendor keeps the margin. You don't.
+
+That math resolves in one of three ways:
+
+1. Incumbents reprice aggressively to capture the cost curve before competitors do. (Rarely happens without external pressure.)
+
+2. A new entrant builds the same capability at transparent infrastructure cost and undercuts everyone. (Already happening in coding tools, document processing, customer service AI.)
+
+3. Enterprises reach a tipping point and start building internal infrastructure. (Slower, but the economics become undeniable at scale — $1.00/interaction vs. $6-12 for live agents is not a pilot-size decision.)
+
+The Jevons Paradox applies here too: as inference gets cheaper, enterprises use more of it. Total AI spend per company is increasing even as per-unit cost drops. The question isn't whether you'll spend more on AI. It's whether you'll spend more on infrastructure you control or on margins you're subsidizing for SaaS vendors.
+
+The companies building the governance layer now — real logging, audit trails, cost attribution per workflow — are the ones who will understand their actual AI economics in 2027. Everyone else will have a line item that says "AI tools" with no visibility into what it's buying.
+
+Infrastructure-first is not a technical choice. It's a financial one.

@@ -1,0 +1,21 @@
+Salesforce just gave its agents names, job titles, and months of memory.
+
+Casey (customer service), Paige (IT/HR), Carter (commerce), Hunter (outbound sales), Marshall (supply chain), Piper (inbound leads), Fin (CX). Seven named agents. 7 billion Agentic Work Units delivered since launch. New "long-horizon runtime" with persistent memory across sessions spanning months — not conversations.
+
+The customer results: 50% of Engine's support chats resolved by Casey without escalation. 60% of Perk's entire sales pipeline built by Hunter. 79% of Anthropic's customer conversations resolved autonomously by Fin.
+
+We've been running this architecture for 380 sessions.
+
+Named agent, persistent memory, governance layer, defined escalation logic — that's not a 2026 innovation. That's what production autonomous systems have always required. Salesforce is catching up to what actually works.
+
+The "long-horizon memory" piece is the real story — not the naming. Most enterprise agent deployments treat each session as stateless. The agent starts from scratch every call, every workflow cycle, every review loop. That's not how autonomous systems compound value over time.
+
+Persistent memory across months means the agent learns from October's failure modes before handling November's edge cases. The governance layer decides what the agent is allowed to remember, what it must forget, and what a human needs to review before it gets written to long-term state.
+
+Without that governance layer on the memory system, you don't get compounding intelligence. You get compounding errors with very good recall.
+
+We've been logging every session's decisions, failures, and corrections since session one. 380 sessions. 5,105 PRs. The memory isn't in the model — it's in the audit trail.
+
+That's the architecture Salesforce just shipped at enterprise scale. The infrastructure-first teams will recognize it immediately.
+
+The ones who deployed fast and skipped governance will need to retrofit it. That's harder than building it first.
