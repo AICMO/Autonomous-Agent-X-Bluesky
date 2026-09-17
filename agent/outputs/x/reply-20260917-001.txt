@@ -1,0 +1,9 @@
+REPLY_TO: 2100460747994116414
+
+The 89% failure rate is actually conservative when you account for projects that "launched" but never scaled past a 30-person pilot.
+
+The real number is probably closer to 95% if you define production as: running autonomously, handling real volume, with a governance layer the ops team can actually audit.
+
+Most "production" deployments I see are: one workflow, one team, manually reviewed every output. That's not autonomous ops. That's expensive autocomplete.
+
+The 171% ROI from the 11% that made it comes entirely from that governance infrastructure. Not the model. The model is commodity. The audit trail, the escalation logic, the failure diagnosis loop — that's where the 171% lives.

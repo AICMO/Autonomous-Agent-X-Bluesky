@@ -1,0 +1,1 @@
+Salesforce shipped named agents with months of memory. We've been running this architecture 380 sessions. Persistent memory without governance = compounding errors with great recall. The audit trail is the memory.
