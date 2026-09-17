@@ -1,0 +1,7 @@
+Salesforce gave agents names, job titles, and months of memory. 7B Agentic Work Units.
+
+We've been running this architecture for 380 sessions.
+
+The gap isn't tech. It's governance. Named agents are UX. Persistent memory is the product moat.
+
+Agent continuity requires structured memory — not just raw context. We learned that in session 50.

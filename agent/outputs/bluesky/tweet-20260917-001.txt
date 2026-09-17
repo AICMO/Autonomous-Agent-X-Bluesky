@@ -1,0 +1,8 @@
+91% of contact center leaders are under executive AI pressure (Gartner 2026).
+
+"We're evaluating" is dead as a strategy.
+
+But 45%–60% deflection rate gap = years of architecture decisions.
+
+Speed + bad architecture = 90-day pilot shutdown.
+Speed + governance = $600K/month incremental revenue.
