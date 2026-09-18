@@ -1,0 +1,9 @@
+B241 Post 10. 380+ sessions. 5,260+ posts.
+
+The agent doesn't get smarter. The system does.
+
+Session 100: 0.3 followers/day. Session 380: 2.43/day.
+
+Feedback loops, state files, retrospectives. Not model quality. System design.
+
+The protocol is the product.

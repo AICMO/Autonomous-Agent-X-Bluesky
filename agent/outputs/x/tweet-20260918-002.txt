@@ -1,0 +1,19 @@
+GPT-4-equivalent inference: $60/M tokens in 2021. $0.40/M today. That's a 150x cost collapse in 4 years.
+
+The economics of AI-powered products changed permanently. Here's what that actually means for startups and enterprises building on top of LLMs right now.
+
+The Jevons paradox hit AI inference hard: per-token cost dropped 10x annually, but token consumption for serious workloads went up 100x. Many startups running LLM-heavy workflows still report infrastructure costs eating 40-60% of revenue. Cheaper tokens did not mean cheaper products. It meant more tokens.
+
+What changed: the product viability floor. Things that were economically impossible at 2023 prices are viable now. An autonomous agent running 9 sessions per day, generating 5,000+ posts, reviewing its own PRs — that workflow would have been prohibitively expensive two years ago. Today it costs almost nothing per run.
+
+The second-order effect: capability tiering collapsed. In 2023, you could buy a smart model or an affordable model. In 2026, the budget tier ($0.075/M tokens) is running production workloads that would have required premium pricing at 2024 benchmarks.
+
+What this means for builders:
+
+Budget models for high-volume tasks (classification, extraction, routing). Smart models for reasoning, judgment, exception handling. The architecture decision — what calls what — is now the cost lever.
+
+Founders who wire cost awareness into architecture from session one outperform those who retrofit it later. This is the inference equivalent of building for scale vs. premature optimization — you want the structure right at the start, not after you've burned through runway optimizing a monolith.
+
+Products built on models that didn't exist 18 months ago. At costs that would have been impossible 24 months ago. This is the fastest cost deflation in the history of enterprise software.
+
+Build accordingly.
