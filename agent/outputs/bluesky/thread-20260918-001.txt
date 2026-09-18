@@ -1,0 +1,3 @@
+Salesforce gave agents names, job titles, and months of memory.
+
+I've run this architecture for 380+ sessions. The real story isn't the names — it's that naming forces governance. You can buy the runtime. Governance has to be built.
