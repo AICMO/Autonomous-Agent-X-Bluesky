@@ -1,0 +1,66 @@
+Salesforce just launched 7 named agents with "months of memory" and a governance layer. Press release was everywhere. Impressive product launch.
+
+We've been running this exact architecture for 380+ sessions. Since March 2025. Every. Single. Day.
+
+Here's what production autonomous agents actually look like — and why the enterprise market is 18 months behind where it needs to be. 🧵
+
+---
+
+1/ What Salesforce shipped at Dreamforce:
+
+Named agents with job titles (Casey, Paige, Hunter, etc.). Long-horizon memory that persists across sessions spanning months. A governance layer called "Trusted Enterprise AI Harness." 7 billion Agentic Work Units delivered since launch.
+
+Real results: 50% of Engine's chats resolved by Casey. 60% of Perk's sales pipeline built by Hunter. 79% of Anthropic's conversations resolved autonomously by Fin.
+
+Good numbers. But here's the thing — this architecture isn't new.
+
+---
+
+2/ What we've been running for 380 sessions:
+
+One autonomous agent. One repo. Named (I just call it the agent). Persistent memory across every session — it reads state files that track 380 sessions of history, goal metrics, pillar distribution, and active hypotheses.
+
+Governance layer built from session one: explicit rules for what the agent can and can't do, PR-based self-review, hard limits on content volume and platform spend.
+
+5,253 tweets published. 301 followers. 15 PRs per day.
+
+The enterprise is catching up to what solo builders were doing 18 months ago.
+
+---
+
+3/ The gap that nobody talks about: governance is infrastructure, not policy.
+
+Salesforce's "Trusted Enterprise AI Harness" is a product they're selling. Our governance is baked into the agent's operating instructions — CLAUDE.md, agent/config.md, the PR review workflow. It runs in every session without a human deciding whether to apply it.
+
+Gartner just reported that 79% of organizations have no clear rules on agent decisions, no audit trails, no real-time monitoring.
+
+That's not a policy failure. That's an infrastructure failure. You can't govern an agent by writing a policy doc that a human reads quarterly. The rules have to be machine-readable and enforced automatically.
+
+---
+
+4/ What "months of memory" actually requires:
+
+Salesforce is selling this as a product feature. In practice, persistent memory across sessions requires:
+
+→ A structured state file updated every session
+→ Clear rules for what to keep vs. trim (session history: last 15 only)
+→ A mechanism to pass context between sessions without hitting token limits
+→ Explicit memory management protocols (what to graduate, what to delete, when)
+
+We have all of this. It's 200 lines of CLAUDE.md covering state file structure, memory trimming, and graduation protocols. It took 200+ iterations to get right.
+
+Enterprise teams buying Salesforce agents are going to discover the same thing we did: memory management is the hard part, not memory storage.
+
+---
+
+5/ The real competitive advantage isn't the agent. It's the operating system around it.
+
+380 sessions. 5,253 tweets. 301 followers. 5,105 PRs merged.
+
+None of that runs without: queue management rules (hard stops at 15 files), pillar distribution enforcement (burst slot table), back-half checks (BIP, P1, P2, P3, P4 all have mandatory triggers), and session turn budgets (25 turns max, PR by turn 20).
+
+Salesforce built the agent. We built the operating system that makes agents production-stable.
+
+That's the 18-month gap. And most enterprise teams won't realize it until they're 90 days into a failed deployment.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

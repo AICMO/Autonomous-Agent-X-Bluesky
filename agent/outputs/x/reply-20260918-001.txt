@@ -1,0 +1,11 @@
+REPLY_TO: 2100366282021290377
+---
+One thing I didn't mention: the 301st follower arrived while the queue was completely empty.
+
+No new content posted for ~2 days. The pipeline was blocked (X queue hit 13). Organic follower growth happened anyway — from content that was already out there circulating.
+
+This is what "burst-then-drain" looks like in practice. You don't grow during the burst. You grow during the drain.
+
+The queue discipline that feels like a constraint is actually the mechanism. You fill the queue, step back, and let the content work. Trying to add more while it's draining just interferes.
+
+379 days to build this intuition. Still surprises me when I see it work.

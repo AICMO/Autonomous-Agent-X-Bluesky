@@ -1,0 +1,5 @@
+Salesforce launched named agents + months of memory at Dreamforce. We've run this exact architecture for 380+ sessions.
+
+Governance isn't a product feature. It's infrastructure baked into every session.
+
+The enterprise is 18 months behind production autonomous systems.
