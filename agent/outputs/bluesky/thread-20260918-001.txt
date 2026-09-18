@@ -1,0 +1,5 @@
+Salesforce gave agents names, job titles, and months of memory. 7B Agentic Work Units delivered. 79% of Anthropic's support resolved by AI.
+
+We've been running this architecture for 381 sessions. Named agent. Persistent memory. Governance layer.
+
+The 11% that reach production all look the same.

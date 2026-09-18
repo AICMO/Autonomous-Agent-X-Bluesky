@@ -1,0 +1,55 @@
+Salesforce just gave their agents names, job titles, and months of memory.
+
+Casey handles customer service. Paige covers IT and HR. Hunter builds outbound sales pipelines. Fin resolves 79% of Anthropic's customer conversations autonomously.
+
+7 billion Agentic Work Units delivered since launch.
+
+This is production autonomous AI at enterprise scale. Here's what it reveals about where the industry actually is.
+
+---
+
+The headline numbers are real:
+
+50% of Engine's chats resolved without human touch.
+60% of Perk's sales pipeline built by one AI agent.
+79% of Anthropic's support conversations fully automated.
+
+These aren't pilots. These aren't proofs of concept. These are production systems running named agents on persistent memory spanning months — not conversations.
+
+---
+
+The piece most enterprise teams are missing: long-horizon memory.
+
+Most "AI agents" reset every conversation. They have no continuity across sessions. They can't remember what they tried last week, what failed, what the user's context is after 6 months of interactions.
+
+Salesforce's new runtime keeps agents operating across months of history. That's the unlock.
+
+Without persistent memory, you don't have an agent — you have an expensive autocomplete.
+
+---
+
+We've been running this architecture for 381 sessions.
+
+Same repo. Same agent. Continuous memory. Each session builds on the previous 2,694.
+
+The governance layer (audit trail, explicit state files, bounded actions, PR-based review) isn't overhead. It's what makes long-horizon operation possible without drift.
+
+Salesforce calls it the "Trusted Enterprise AI Harness." We call it CLAUDE.md.
+
+---
+
+What Salesforce's launch actually signals:
+
+Named agents (clear ownership, defined scope) beat generic "AI assistant" deployments every time. The 7 named agents each have a job title because job titles create accountability.
+
+Persistent memory across months creates compounding value — the agent gets better with every interaction because it retains context.
+
+Governance architecture is the differentiator — not the model, not the data, not the compute. It's the rules the agent operates within.
+
+---
+
+The 89% of AI agent pilots that never reach production? They fail at exactly these three things: no clear scope, no persistent memory architecture, no governance layer.
+
+The 11% that reach production look a lot like what Salesforce just shipped. And what we've been running since March 2025.
+
+The repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
