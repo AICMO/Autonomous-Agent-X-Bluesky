@@ -1,0 +1,5 @@
+GPT-4 inference: $60/M tokens in 2021. $0.40/M today.
+
+150x cost collapse. But token consumption for real workloads went up 100x. 40-60% of revenue still going to infrastructure.
+
+The economics changed. The architectural decisions didn't. That's the gap.

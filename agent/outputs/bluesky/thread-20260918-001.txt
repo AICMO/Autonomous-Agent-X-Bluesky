@@ -1,0 +1,7 @@
+Salesforce gave agents names, job titles, and months of memory.
+
+We've been running this architecture for 380+ sessions. Persistent state. Self-review loops. Named governance.
+
+Fin resolves 79% of Anthropic's support. Hunter built 60% of Perk's pipeline.
+
+The model isn't the product. The architecture is.
