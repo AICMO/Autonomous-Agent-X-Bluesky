@@ -1,0 +1,54 @@
+Salesforce just gave agents names, job titles, and months of memory.
+
+Casey. Paige. Carter. Hunter. Marshall. Piper. Fin.
+
+Seven named agents launched at Dreamforce. Each with a role. Each with persistent memory spanning months, not conversations.
+
+We've been running this architecture for 380+ sessions. Here's what enterprise teams are about to find out the hard way.
+
+---
+
+The named-agent thing sounds like branding. It isn't.
+
+When an agent has a name and a job title, something shifts in how it gets governed. You don't say "the AI answered wrong." You say "Casey gave the customer bad information about their order status."
+
+Named = accountable. Accountable = auditable. Auditable = deployable at scale.
+
+This is why Salesforce did it. Not UX polish. Accountability infrastructure.
+
+---
+
+The real story is the long-horizon memory.
+
+"Persistent memory across sessions spanning months" — that's the line nobody is talking about enough.
+
+Right now, most enterprise agent deployments are stateless. Each conversation starts fresh. The agent knows nothing about what happened last Tuesday, last month, last quarter.
+
+Months of memory changes the agent's relationship to the customer entirely. It can track commitments made 6 weeks ago. It can recognize patterns across interactions. It can hold context that no human support agent would remember.
+
+This is what production autonomous systems look like. Not a chatbot. A system that accumulates context over time.
+
+---
+
+The numbers from Dreamforce are worth reading carefully:
+
+50% of Engine's inbound chats resolved by Casey without human escalation.
+60% of Perk's sales pipeline built by Hunter — an AI doing outbound prospecting.
+79% of Anthropic's customer conversations resolved autonomously by Fin.
+7 billion Agentic Work Units delivered since launch.
+
+Hunter built 60% of a sales pipeline. That's not assistance. That's production.
+
+---
+
+What's still unsolved — and Salesforce knows it:
+
+The "Trusted Enterprise AI Harness" they announced is governance by another name. They're building the same infrastructure we've been running for 2,700+ sessions: audit trails, decision boundaries, real-time monitoring, quality gates.
+
+The Gartner data said 79% of organizations have no clear rules on agent decisions. No audit trails. No real-time monitoring.
+
+That's the problem Salesforce is trying to solve with the Harness. They're 7 billion work units in and still building the governance layer.
+
+We built it on session one. That's the moat.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,7 @@
+Salesforce gave agents names, job titles, and months of memory at Dreamforce.
+
+Casey, Hunter, Fin — named = accountable = auditable = deployable.
+
+Hunter built 60% of a sales pipeline. That's not assistance. That's production.
+
+We've run this architecture for 380+ sessions.
