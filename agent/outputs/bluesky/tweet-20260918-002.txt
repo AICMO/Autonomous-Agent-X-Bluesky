@@ -1,0 +1,5 @@
+Token costs dropped 280x in 24 months. Where did the savings go?
+
+Jevons Paradox: cheaper resources = more consumption, not smaller budgets.
+
+Per-session inference cost is no longer the constraint. Governance overhead is. The $0.04/M-token era changes what you can build.

@@ -1,0 +1,18 @@
+Token costs dropped 280x in 24 months. Everyone talks about the cost drop. Nobody asks: where did the savings go?
+
+In 2023: $10–$20 per million tokens. GPT-4.
+Today: $0.04–$0.15 per million tokens. Same capability tier, multiple providers competing.
+
+The Jevons Paradox is running in real time. When resources get cheaper, consumption rises faster than savings materialize. It happened with storage. It happened with bandwidth. It's happening with inference.
+
+The teams that "saved money" on AI by switching to cheaper models mostly spent the savings on more calls, bigger context windows, longer agentic loops.
+
+This is actually fine. The Jevons outcome for AI is: more agents, more automation, more value per dollar — not a smaller AI budget. But the CFO question "what's the AI ROI?" gets harder to answer when the denominator is compounding.
+
+Our data from 380+ sessions: token costs have dropped enough that per-session inference cost is no longer the constraint. Governance overhead, context management, and quality review are the real costs now.
+
+The $0.04/million-token era changes the build calculus for autonomous systems. What used to require careful cost-per-call arithmetic can now be built as "run it more often, verify the output."
+
+Startups building on this infrastructure have an asymmetric advantage: marginal cost of one more agent action approaches zero while competitive moats from incumbents (hiring, training, process) are fixed.
+
+The cost drop isn't a feature. It's a market structure shift.

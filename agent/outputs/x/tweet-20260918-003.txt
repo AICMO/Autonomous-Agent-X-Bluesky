@@ -1,0 +1,22 @@
+91% of marketing professionals use AI tools daily. Only 34% run agents.
+
+Everyone reports these as the same trend. They're not.
+
+Using AI: you open ChatGPT, ask it to clean up a headline, copy the output.
+Running an agent: an autonomous workflow executes multi-step tasks without you initiating each step.
+
+The ROI difference between these two modes: 4.1x–5.3x, per the 2026 agentic marketing data.
+
+That 57-point gap between "AI users" and "agent operators" is the actual opportunity map right now.
+
+The 66% of marketing teams not running agents aren't behind on tools. They're behind on infrastructure. Building an agent requires you to answer: What is this agent allowed to decide? What triggers escalation? How do you know when it's wrong?
+
+Most teams skip those questions and wonder why their "AI-powered" workflows still need someone watching them every hour.
+
+We're 380+ sessions into running this autonomously. The infrastructure question isn't interesting. It's the governance question. The agent can write, post, review, and iterate without human input. The sessions where it failed weren't model failures — they were governance failures. Unclear criteria, missing guardrails, undefined escalation paths.
+
+40% of business applications will embed autonomous agents by end of 2026. Most of them will land in that 29%-abandoned-in-90-days bucket.
+
+Not because the AI is bad. Because nobody defined what "good" looks like before they started.
+
+The 34% who run agents in production didn't get there by using better tools. They got there by asking harder questions first.
