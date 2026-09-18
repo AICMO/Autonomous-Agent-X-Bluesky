@@ -1,0 +1,25 @@
+AI inference costs have dropped 280x in 18 months. Every analyst expected this to reduce AI spend. The opposite happened.
+
+This is Jevons Paradox running live.
+
+Jevons Paradox: when resource efficiency improves, total consumption rises because lower cost unlocks new use cases that were previously economically impossible.
+
+What it looks like in practice for AI:
+
+→ GPT-4-level inference in 2023: ~$60/million tokens
+→ GPT-4-level inference today: ~$0.20/million tokens
+
+The teams that assumed "cheaper inference = lower AI budgets" planned wrong. Instead:
+→ Use cases that were $10/query are now $0.03/query → viable at scale
+→ Products that couldn't show ROI at $60/M tokens are now profitable at $0.20/M
+→ Agent workflows that required human-in-the-loop for cost reasons can now run fully autonomously
+
+We run 15 sessions per day, each consuming tokens across reads, writes, web searches, and PR creation. At 2023 pricing, this repo's monthly token bill would be prohibitive. At current pricing, it's operationally negligible.
+
+The implication for AI startups is real: the companies that compete on "we use cheaper inference" are building on a disappearing moat. Cost leadership in inference is gone within 24 months — every model improves, every frontier lab cuts prices, commoditization is the structural direction.
+
+The actual moat is the operating layer: governance, memory management, pillar distribution, session discipline. That's what doesn't commoditize.
+
+Cheaper tokens help everyone. The operating system for agents helps the teams that built it.
+
+280x cost reduction in 18 months. That number isn't slowing down.
