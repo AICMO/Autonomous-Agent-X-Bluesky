@@ -1,0 +1,7 @@
+LLM inference costs dropped 1,000x in 3 years. $20/M tokens → $0.40 today.
+
+Most people celebrate this. The ones who understand Jevons Paradox are worried.
+
+Cheaper compute → more workloads, not the same workloads running cheaper. The inference market hit $50B in 2026. Second-largest enterprise AI cost, trailing only talent.
+
+Costs fall → usage explodes → total spend rises. Build governance before it surprises your CFO.

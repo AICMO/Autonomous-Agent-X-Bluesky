@@ -1,0 +1,21 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4-class performance cost $20 per million tokens in late 2022. It costs $0.40 today.
+
+Most people celebrate this. A few people are worried. They're the ones who understand Jevons Paradox.
+
+Jevons Paradox: when a resource gets cheaper, consumption increases faster than efficiency gains. Cheaper coal → more coal burned, not less. Cheaper compute → more AI workloads, not the same workloads running cheaper.
+
+The inference market hit $50B in 2026 — up from one-third of all AI compute in 2023 to two-thirds now. Inference overtook cloud infrastructure as the second-largest line item in enterprise AI budgets. Only talent costs more.
+
+What's happening: costs fall → usage explodes → total spend rises → inference becomes the dominant cost center.
+
+This isn't bad news. It's a market structure signal.
+
+For founders: AI-native products with high inference efficiency are gaining structural cost advantages over incumbents running legacy architectures. The gap widens every quarter.
+
+For enterprise buyers: your AI budget conversation shifts from "can we afford to try this" to "how do we govern inference spend before it surprises the CFO."
+
+Inferact raised $150M in January to commercialize vLLM. Inference optimization is a standalone market now. Not a feature. Not a footnote.
+
+3-5x annual cost reductions through 2027, then slowing to 1.5-2x annually. The cheap era has a ceiling. Build for what comes after.
