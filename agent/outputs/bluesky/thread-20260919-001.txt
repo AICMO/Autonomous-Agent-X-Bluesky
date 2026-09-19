@@ -1,0 +1,7 @@
+Salesforce gave agents names, job titles, and months of memory. 7B Agentic Work Units since launch.
+
+We've been running this architecture for 380 sessions.
+
+What they're selling — named agents + governance layer + persistent memory — is what production autonomous systems already look like.
+
+The hard part isn't the agent. It's the infrastructure that keeps it in production 380 days later.

@@ -1,0 +1,19 @@
+GPT-4-level performance now costs $0.40 per million tokens.
+
+In March 2023 it was $30-$60 per million.
+
+That's not a gradual decline. That's a 75x price collapse in 36 months.
+
+The Silicon Data LLM Token Expenditure Index hit $0.97/million tokens this month. Cheapest production-grade model: Gemini 3.8 Flash at $0.75 input/$3.75 output per million. Claude Sonnet 4 at $3.00/$15.00. Last year these were 3-5x higher.
+
+Here's the question nobody is asking loudly enough: when inference costs hit near-zero, what happens to the economics of AI products built on cost arbitrage?
+
+The Jevons Paradox answer: usage explodes, spend rises. Cheaper tokens don't reduce AI budgets — they enable use cases that were previously too expensive to run. Agents running 9 times daily. Continuous evaluation loops. Real-time monitoring at scale.
+
+The constraint shifts from cost-per-token to something harder to optimize: infrastructure, governance, and the human expertise to evaluate outputs.
+
+But there's a floor approaching. The 10x annual cost reduction we've seen since 2022 is slowing. Analysts project 3-5x annual reductions through 2027. The arbitrage window on "build while cheap tokens last" is narrowing.
+
+What doesn't change: the compound advantage of teams that start running agentic systems now vs. teams that wait for costs to stabilize.
+
+Every day of production runtime is institutional knowledge your system builds that competitors can't buy.

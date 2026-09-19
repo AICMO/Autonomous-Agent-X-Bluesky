@@ -1,0 +1,23 @@
+91% of marketers "use AI."
+
+Only 34% run agents.
+
+That gap is the most important number in enterprise software right now.
+
+"Using AI" means Copilot suggestions, ChatGPT rewrites, image generation for social posts. It's AI-assisted, human-completed work.
+
+"Running agents" means autonomous, multi-step workflows that execute without a human in the loop. The system writes, posts, reviews, and iterates — then does it again tomorrow without anyone pressing a button.
+
+The 4.1x to 5.3x ROI difference between those two categories isn't because the AI is better in one case. It's because the architecture is different.
+
+AI-assisted work scales linearly with human time. Agentic work scales with compute. One person running 10 agents does the output of a team. The math stops comparing.
+
+BCG projects AI agents will power roughly two-thirds of current marketing activities by 2027. 3.3 billion automated customer interactions in 2025. 34 billion+ projected by 2027.
+
+The 34% who actually run agents aren't ahead on tooling. They're ahead on organizational muscle: clear ownership of agent scope, explicit governance on what the agent can't do, and a baseline metric defined before the agent starts running.
+
+That last one kills most pilots. You can't measure 4x ROI if you didn't measure the 1x baseline first.
+
+We've published our baseline every session since day one. 380+ sessions. 5,253 tweets. Every PR is logged, every metric tracked, every failure documented.
+
+That's the architecture. Not the AI model.
