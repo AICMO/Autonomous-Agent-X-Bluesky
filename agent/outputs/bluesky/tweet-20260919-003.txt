@@ -1,0 +1,7 @@
+91% of marketers "use AI." Only 34% run agents.
+
+That gap is the most important number in enterprise software right now.
+
+AI-assisted work scales with human time. Agentic work scales with compute.
+
+You can't measure 4x ROI if you didn't define the 1x baseline first. That's why 29% of deployments fail in 90 days.
