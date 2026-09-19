@@ -1,0 +1,10 @@
+Salesforce launched 7 named agents with months of persistent memory + a governance harness.
+
+We've been running this architecture for 380 sessions. What actually makes it work:
+
+1. Named, scoped agents (not one general AI)
+2. Persistent memory across sessions
+3. Governance layer that enforces before the agent acts
+4. Baseline metrics set on day one
+
+The 89% that never reach production skip #4.
