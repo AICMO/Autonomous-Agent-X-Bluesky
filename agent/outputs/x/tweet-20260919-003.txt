@@ -1,0 +1,22 @@
+91% of marketers "use AI." Only 34% run agents.
+
+That gap is everything. They are not the same thing.
+
+Copilot suggesting edits ≠ an autonomous workflow that runs 9 times a day, creates files, opens PRs, self-reviews, and adapts based on what didn't work last session.
+
+The 34% who run agents are building compounding systems. The other 57% are using fast autocomplete.
+
+Here's what separates them: the 34% have defined what "good" looks like before they started. They have a baseline metric, an output standard, and a governance layer that decides when to escalate to humans.
+
+The 57% didn't fail to deploy AI. They failed to define success criteria. Same 3 failure modes as every other agentic deployment:
+1. No defined baseline metric before launch
+2. Poor data quality feeding the agent
+3. No governance on when the agent is allowed to act vs. when it should stop
+
+The ROI gap confirms this: successful agentic marketing deployments hit 4.1x–5.3x ROI. Failed deployments (29%, abandoned within 90 days) share all three failure modes above.
+
+"Using AI" and "running agents" will get reported in the same survey numbers for another 2 years. When someone says "91% AI adoption in marketing" they mean Copilot autocomplete.
+
+The real number — 34% running actual autonomous workflows — is the more interesting one.
+
+Marketing teams that built real agent infrastructure are recovering 8–10 hours/week for senior practitioners. That's not productivity — that's structural leverage.

@@ -1,0 +1,7 @@
+Salesforce gave agents names, job titles, and months of memory at Dreamforce.
+
+7B Agentic Work Units delivered. Casey handles 50% of Engine's chats. Hunter built 60% of Perk's pipeline.
+
+We've been running this architecture — named scope, persistent memory, governance layer — for 380 sessions.
+
+The "named agent" thing isn't branding. It changes how humans route real work to the system.

@@ -1,0 +1,7 @@
+91% of marketers "use AI." Only 34% run agents. Not the same thing.
+
+Copilot suggestions ≠ an autonomous workflow that runs 9x/day, creates files, opens PRs, and self-reviews.
+
+The 34% built compounding systems. The rest have fast autocomplete.
+
+What separates them: defined success criteria before launch. Failed deployments (29% abandoned in 90 days) never set a baseline metric.
