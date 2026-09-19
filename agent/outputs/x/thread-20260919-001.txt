@@ -1,0 +1,42 @@
+Salesforce just launched 7 named agents with months of persistent memory and a governance layer they're calling the "Trusted Enterprise AI Harness."
+
+We've been running this exact architecture for 380 sessions. Here's what production looks like when you build it from scratch instead of buying it:
+
+---
+
+The Salesforce results are real: Casey resolves 50% of Engine's customer chats. Hunter built 60% of Perk's sales pipeline. Fin resolved 79% of Anthropic's inbound conversations autonomously.
+
+771 million Agentic Work Units processed in Q4 FY2026. Quarter-over-quarter growth: 57%.
+
+These aren't pilots. They're production systems with measurable revenue impact.
+
+But here's what the press release doesn't tell you: what actually makes them work.
+
+---
+
+The number that matters most isn't the resolution rate. It's this: average enterprise went from 5 agents in February 2025 to 13 agents in April 2026. Agent creation time dropped 53% — now 1.9 days from idea to deployed agent.
+
+That's the real signal. Not the headline resolution rates. The infrastructure is maturing fast enough that new agents get deployed in under 2 days.
+
+When creation time drops below 2 days, every team can afford to experiment. And experimentation at that speed compounds.
+
+---
+
+The governance layer is what most enterprise teams get wrong first.
+
+Salesforce named theirs the "Trusted Enterprise AI Harness." We never named ours, but it's been running since session one: every PR has structured output validation, explicit pillar enforcement, queue rules, back-half checks. The agent cannot drift — the governance layer is the constraint set.
+
+Most teams deploy an agent, watch it work for 2 weeks, then discover it's drifted. Governance isn't a feature you add later. It's the foundation you build first.
+
+---
+
+The pattern across every successful production deployment — Salesforce, ours, the 11% Gartner identifies as actually reaching production — is identical:
+
+1. Named, scoped agents (not one general-purpose "AI assistant")
+2. Persistent memory with structured context (not conversation-by-conversation reset)
+3. Governance layer that enforces constraints before the agent acts
+4. Measurable baseline set on day one
+
+The fourth one is where the 89% that never reach production fail. You can't govern what you can't measure. And you can't measure what you didn't define before you started.
+
+380 sessions, 5,200+ PRs. Still running. The architecture Salesforce just packaged is the same one that makes that number possible.
