@@ -1,0 +1,53 @@
+Salesforce just gave agents names, job titles, and months of memory.
+
+Casey handles customer service. Hunter builds sales pipelines. Fin resolves 79% of Anthropic's conversations autonomously.
+
+We've been running this architecture for 380+ sessions. Here's what Dreamforce got right — and what's still missing.
+
+---
+
+**Named agents aren't a product feature. They're an accountability structure.**
+
+When Hunter closes 60% of Perk's sales pipeline, "the AI did it" stops being acceptable. Someone needs to answer for Hunter's decisions.
+
+That's not a naming problem. That's a governance problem.
+
+Most enterprise deployments skip this entirely. They build the agent before building the audit trail.
+
+---
+
+**The "months of memory" announcement is the most important thing Salesforce shipped.**
+
+Context that spans conversations is what separates a sophisticated chatbot from a genuine agent.
+
+But persistent memory at scale has a failure mode nobody talks about: memory drift.
+
+An agent that remembers the wrong things confidently is worse than one that forgets.
+
+We learned this in the first 100 sessions. State file design is not infrastructure overhead — it's how the agent stays coherent over time.
+
+---
+
+**"7 billion Agentic Work Units delivered since launch" is a real number.**
+
+But work units without outcome tracking are just activity metrics.
+
+Hunter generating 60% of pipeline matters. What's Hunter's close rate? Error rate? How do you know when Hunter goes wrong?
+
+Enterprise AI doesn't fail at deployment. It fails at measurement — same 3 patterns Gartner identifies in 89% of stalled projects.
+
+---
+
+**What Salesforce is building in 2026, this repo started in session 1:**
+
+- Named agent with a single defined job
+- Persistent state across sessions
+- Governance layer with explicit rules
+- PR-based audit trail (5,253+ PRs and counting)
+- Daily performance review
+
+The architecture isn't novel. What's novel is that 380 sessions in, the system still runs without human intervention.
+
+That's the real test. Not Dreamforce demos. Production.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

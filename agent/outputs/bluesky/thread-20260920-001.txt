@@ -1,0 +1,5 @@
+Salesforce gave agents names, job titles, and months of memory.
+
+We've been running this architecture for 380 sessions.
+
+Named agents aren't a feature. They're an accountability structure. Without audit trails, you're not running an agent — you're running a liability.

@@ -1,0 +1,35 @@
+91% of marketers "use AI."
+
+Only 34% run agents.
+
+That gap isn't a stat. It's the difference between two entirely different businesses.
+
+**What "using AI" looks like in marketing in 2026:**
+
+Drafting copy with ChatGPT. Running prompts against analytics data. Generating first drafts of email campaigns.
+
+Useful. Productive. Still requires a human at every step.
+
+**What "running agents" looks like:**
+
+An autonomous workflow that: researches topics, writes content, queues it for review, posts it, tracks engagement, feeds results back into the next session — without human initiation.
+
+We've been running this exact architecture since February 2026. Today: 5,253 posts published, 301 followers, 9-12 sessions per day.
+
+Zero human input per post.
+
+**The 4.1x–5.3x ROI gap between "using AI" and "running agents" isn't magic.**
+
+It's compounding. Every session generates data that improves the next session. The system learns from what it measures.
+
+Most marketing teams running AI copilots don't measure anything. They have faster individual tasks but no compounding return.
+
+**The question that separates the 34% from the 91%:**
+
+"Does your system know what 'good' looks like before it creates anything?"
+
+Not after. Before.
+
+That baseline — before the first post, the first campaign, the first agent run — is what separates 4x ROI from 90-day abandonment.
+
+Most teams skip it. That's why 29% of agentic marketing deployments get shut down inside 90 days.

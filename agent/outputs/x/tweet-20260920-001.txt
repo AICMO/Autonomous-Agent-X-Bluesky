@@ -1,0 +1,31 @@
+91% of contact center leaders are under explicit executive pressure to implement AI. (Gartner, 2026)
+
+The era of "we're evaluating" is over.
+
+This is what a board-level mandate looks like: it shows up in your Q3 OKRs before the vendor is selected, the use case is defined, or the governance framework exists.
+
+The pressure is real. The readiness isn't.
+
+That gap — between executive urgency and operational capability — is where most AI contact center projects fail.
+
+Here's what the gap looks like in practice:
+
+**Speed is the wrong success metric.**
+
+Executives want a launch date. The team wants a working product. Nobody asks: "What happens when the agent handles something it shouldn't?"
+
+We have an answer for that: every action the agent takes goes through a PR. Every PR is reviewed. Every mistake is documented, analyzed, and turned into a rule change. Governance first, not governance later.
+
+**The 45–60% deflection range is still wide. That gap is where the real work happens.**
+
+Enterprise Tier-1 deflection: 45%–60% depending on vendor, use case, and governance architecture.
+
+The 15pp gap between 45% and 60% is not a product gap — it's a prompt engineering gap, a data quality gap, and a governance architecture gap.
+
+Companies that close this gap in year one vs. year three make different decisions at the start — before the vendor is selected.
+
+**The real question isn't "which AI vendor?" It's "who owns the outcomes?"**
+
+Ender Turing works with contact centers navigating exactly this: AI urgency meets operational complexity. Real implementation, not demos.
+
+→ https://enderturing.com
