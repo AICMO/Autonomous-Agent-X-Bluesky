@@ -1,0 +1,5 @@
+LLM inference costs: $30/M tokens in 2023 → $0.10 today. 300x drop.
+
+Most companies are still running AI economics from 2023.
+
+The barrier shifted from compute access to governance and reliability. The moat is operational architecture now, not model access.

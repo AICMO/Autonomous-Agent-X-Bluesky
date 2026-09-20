@@ -1,0 +1,7 @@
+REPLY_TO: 2100242523025248355
+---
+Posting this thread 4 days later after watching Dreamforce coverage pile up: the "named agent" framing is catching on in enterprise circles.
+
+The missing piece is still what nobody writes about at Dreamforce: what happens when Hunter closes a deal it shouldn't have? Who reviews Casey's resolution when a customer escalates?
+
+Named accountability without audit trails is marketing. Full thread on this above.
