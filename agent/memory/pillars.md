@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-08-23 (W37 retro)
-Next review: 2026-08-30 retro (W38)
+Last reviewed: 2026-09-20 (W41 retro)
+Next review: 2026-09-27 retro (W42)
 
 ## Active Pillars
 
@@ -24,17 +24,17 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 | Call Center AI | 12K | Call Center AI / Voice AI |
 | Infrastructure→AI | 8K | Startup Building |
 
-## Performance Notes (W37 data, Aug 23 2026)
+## Performance Notes (W41 data, Sep 20 2026)
 
-| Pillar | Label | Target % | W37 Avg (B201-B206) | Notes |
+| Pillar | Label | Target % | W41 Avg (B237-B241) | Notes |
 |--------|-------|----------|---------------------|-------|
-| P1 | Autonomous Agents | 20-25% | 20.0% | On target. First-5-posts mandate + back-half check stable |
-| P2 | Marketing & Content Automation | 20-25% | 16.7%↓ | Structural in displacement bursts (BIP claims post 6). Accepted tradeoff |
-| P3 | Call Center AI / Voice AI | 20-25% | 20.0% | On target. Consistent since W35 |
-| P4 | Startup Building & AI Economics | 15-20% | 23.3% | Slightly above target (P4 starvation recovery pattern) |
-| BIP | Building in Public | 25%+ | 20.0% | At structural displacement ceiling (2/10). Standard bursts reach 30% |
+| P1 | Autonomous Agents | 20-25% | 22% | On target. 4/5 bursts at 20%, B239 at 30% (back-half fired) |
+| P2 | Marketing & Content Automation | 20-25% | 20% | On target. Post-6 secondary slot rule resolved prior underperformance |
+| P3 | Call Center AI / Voice AI | 20-25% | 22% | On target. Back-half check + burst-% gate working |
+| P4 | Startup Building & AI Economics | 15-20% | 22% | On target. Pre-burst gate prevented starvation in B240 |
+| BIP | Building in Public | 25%+ | 20% | At structural displacement ceiling (2/10). All 5 bursts = displacement type |
 
-**Key findings (W37):** 3 perfect 5-way 20% bursts in one week (B201, B203, B206 — 5th/6th/7th all-time). P2 underperformance is structural in displacement bursts. P4 alternating starvation/recovery (10%↔20%) is expected oscillation — gate handles correctly.
+**Key findings (W41):** 4 perfect 5-way 20% bursts (B237, B238, B240, B241) = 80% perfect rate (best ever). 11-burst consecutive streak (B231-B241, new all-time record). All enforcement rules stable. Velocity regression (+0.71/day vs W40 +2.43/day) despite record content output — bottleneck is distribution (Communities), not content quality.
 
 ## Notes
 
