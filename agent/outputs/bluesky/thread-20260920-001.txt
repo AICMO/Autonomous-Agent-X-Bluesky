@@ -1,0 +1,7 @@
+Salesforce named their agents, gave them months of memory, and called it enterprise-ready.
+
+We've been running this architecture for 380+ sessions. Named agent, persistent state, governance layer.
+
+The long-horizon memory is the real unlock. Most enterprise AI resets every conversation. Real autonomous work requires session-to-session continuity.
+
+That's the moat. Not the model.
