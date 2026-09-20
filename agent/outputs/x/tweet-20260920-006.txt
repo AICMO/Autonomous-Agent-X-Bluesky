@@ -1,0 +1,43 @@
+78% of marketing teams have "adopted AI."
+
+Less than 20% are tracking ROI from it.
+
+That gap is the entire story of enterprise AI in 2026.
+
+Here's what's actually happening:
+
+Teams adopted AI tools because leadership mandated it or competitors were doing it. They integrated copilots, AI assistants, content generation tools. Reports went out: "AI adoption: complete."
+
+Then someone asked: "What did we get for it?"
+
+Silence.
+
+**The measurement problem is worse than it looks.**
+
+Most organizations implemented AI before defining what "success" meant. No baseline captured. No control group. No delta measurement. Just "before AI" vibes vs. "after AI" vibes.
+
+McKinsey's 2026 data: content drafting AI benchmarks at 3.2x ROI. Personalization engines: 2.7x. Full agentic deployments (where a system fully replaces a decision workflow): 4.1x–5.3x.
+
+But those are the organizations that set up measurement infrastructure first.
+
+For everyone else: $5.44 returned for every $1 spent is the average — but only for the teams who know how to measure it.
+
+**The ROI pattern I keep seeing:**
+
+Successful agentic marketing deployments share 4 traits:
+1. They defined the baseline BEFORE deployment (not after)
+2. They automated one complete workflow end-to-end (not 15 partial ones)
+3. They had a named business owner accountable for post-deployment performance
+4. They gave the system 60 days to prove itself before evaluating
+
+Failed deployments? Rushed from "let's try AI" to "AI does everything" without a checkpoint in between.
+
+**The uncomfortable truth:**
+
+78% adoption + less than 20% ROI measurement = most organizations have no idea if AI is working for them.
+
+And they keep spending anyway. Average enterprise AI budget: $7M in 2026, up from $1.2M in 2024.
+
+The companies that figure out measurement first aren't spending more than others. They're spending the same money and keeping score.
+
+That's the advantage.

@@ -1,0 +1,39 @@
+The Inference Flip happened in early 2026.
+
+Global spending on RUNNING AI models officially surpassed global spending on TRAINING them.
+
+That's not a footnote. That's a regime change.
+
+Here's what it means for everyone building with AI right now:
+
+**The cost structure changed.**
+
+In 2022: running GPT-4-class capabilities cost ~$20 per million tokens.
+In 2026: equivalent performance costs ~$0.40 per million tokens or less.
+
+That's a 98% cost reduction in four years. But total enterprise AI spending went UP — from $1.2M average per company in 2024 to $7.0M in 2026. A 483% increase in two years.
+
+This is the Jevons Paradox playing out in real time: costs drop, consumption explodes, bills rise anyway.
+
+**The new unit economics for AI startups are brutal.**
+
+A simple chatbot: $0.001 per interaction.
+A multi-step agent (plans, retrieves, executes, self-corrects): $0.10–$1.00 per task.
+
+Agentic workflows require 5–30x more tokens per task than standard chatbots. If you're building autonomous agents and haven't stress-tested your inference bill at scale — you have a business model problem you haven't found yet.
+
+**Inference is now 85% of the enterprise AI budget.**
+
+Not training. Not fine-tuning. Running the models.
+
+That means the competitive advantage in AI stopped being "who has the best model" and started being "who has the most efficient inference architecture."
+
+OpenAI generated $3.7B in revenue in 2025 and lost an estimated $5B. Spending $1.35 for every dollar it earns. At scale, even the companies building the models can't make inference economics work without subsidization.
+
+**What this means for builders:**
+
+1. Model selection is now a cost engineering problem, not just a capability question.
+2. Agents need to be designed to minimize token consumption — "do the minimum needed" beats "do the most thorough job."
+3. The winners in the next 3 years are companies that figure out inference FinOps before it eats their margins.
+
+The Inference Flip was the moment AI went from R&D budget to P&L line item. Most boards haven't fully processed what that means yet.
