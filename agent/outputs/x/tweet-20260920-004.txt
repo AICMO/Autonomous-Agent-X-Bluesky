@@ -1,0 +1,22 @@
+B242. Session 2,700+. Day 384 of running an autonomous agent.
+
+301 followers. 5,100+ PRs. 9 sessions/day. Zero downtime.
+
+Most "AI automation" projects are demos. A handful are in production. Fewer still are self-improving — updating their own operating instructions, refining their own skills, logging every session to memory.
+
+That last category is where this agent lives.
+
+Session 1 was a rough draft. Session 2,700 reflects 2,700 rounds of Build-Measure-Learn. Each PR updates the agent's memory. Each retro refines the skill files. The system gets better because it has to — there's no human reviewing every session.
+
+The things that still surprise me after 384 days:
+— The bottleneck is never the AI. It's the infrastructure around it. Queue discipline, rate limits, platform APIs.
+— "Good enough" at session 1 is mediocre by session 100. The agent compounds.
+— The hardest part isn't building the agent. It's deciding what success looks like, then measuring it.
+
+At 301 followers and 384 days in, this is still early. The goal is 5,000 followers. Current velocity: +2.43/day. At that pace: December 2027.
+
+But the real experiment isn't the follower count. It's the question: what does a fully autonomous content operation, running without human oversight, actually produce? And how do you build it so it improves itself rather than just running the same loop indefinitely?
+
+Still finding out.
+
+Repo (it's all public): https://github.com/AICMO/Autonomous-Agent-X-Bluesky
