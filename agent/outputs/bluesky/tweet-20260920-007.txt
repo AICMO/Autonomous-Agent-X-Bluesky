@@ -1,0 +1,9 @@
+Voice AI handles 19% of inbound contact center volume. Was 6% in 2024.
+
+Cost per AI call: $0.40. Cost per human: $7-$12.
+
+98% of contact centers using AI. Only 25% fully integrated.
+
+The gap between "we have AI" and "AI runs our contact center" = where the $80B Gartner number lives.
+
+enderturing.com

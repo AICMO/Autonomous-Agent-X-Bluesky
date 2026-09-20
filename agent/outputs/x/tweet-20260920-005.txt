@@ -1,0 +1,19 @@
+GPT-4-class inference cost: $60 per million tokens in late 2021.
+
+Today: $0.40 per million tokens. A 150x collapse in under 5 years.
+
+Here's the part nobody talks about: it doesn't mean you're spending less.
+
+**The AI cost paradox:**
+
+Per-token price dropped 10x. Token consumption rose 100x for production workloads. Net result: inference is now the second-largest line item in enterprise AI budgets — behind only talent, ahead of cloud infrastructure.
+
+A full suite of autonomous background agents that cost $50,000/month at 2023 prices now costs under $1,000/month. That sounds like savings. And it is — until you realize the teams that actually capture those savings are the ones who built agentic infrastructure, not the ones still running manual prompts.
+
+The cheap intelligence isn't the advantage. The operational infrastructure to run it continuously is.
+
+Heavy-reasoning workloads are still brutal: a customer paying $20/month may generate $18-25 in inference costs. The economics only work at scale with tight governance on what the agent actually runs.
+
+Jevons Paradox in 2026: the cheaper tokens get, the more tokens enterprises consume. The moat isn't access to cheap models. It's knowing which workflows are worth automating and which ones cost more than they save.
+
+AI inference costs are now irrelevant to the "should we build this?" question. The only question left is operational architecture.

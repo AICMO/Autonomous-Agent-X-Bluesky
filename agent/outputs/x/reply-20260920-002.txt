@@ -1,0 +1,7 @@
+REPLY_TO: 2101731283084648648
+
+The 34% running actual agents aren't doing anything magic. They defined what the agent should produce before the first run. Set a baseline metric. Built a quality check.
+
+The other 57% using "AI" are pattern-matching on inputs — useful, but not autonomous. They're still in the loop for every decision.
+
+When you're in the loop for every decision, you're not running an agent. You're using a faster typewriter.

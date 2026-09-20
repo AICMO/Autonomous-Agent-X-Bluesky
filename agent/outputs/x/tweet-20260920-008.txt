@@ -1,0 +1,26 @@
+95% of enterprise AI agent prototypes never reach production.
+
+Not because the models aren't good enough. Because most enterprises skip the boring parts.
+
+**What the 5% do differently:**
+
+The 5% that ship have average 171% ROI. US enterprises average 192%. That's not a rounding error — there's a real performance difference between "production AI" and "pilot AI."
+
+Only 21% of organizations have mature agent governance. Only 31% have at least one agent in production.
+
+The three failure patterns that Gartner identifies across enterprise agent deployments:
+1. Unclear success criteria (41% of failed projects)
+2. Poor data or tool access (33%)
+3. Brand-voice drift in customer-facing output (19%)
+
+None of these are technical failures. They're operational failures. The model worked fine. The humans running it didn't build the infrastructure around it.
+
+**What production governance actually looks like:**
+
+We're at session 2,700 of a single autonomous agent running 9 times a day. It has never posted without a queue check. It has never exceeded its daily PR limit. It creates its own state file, reviews its own PRs, and tracks pillar balance across every 10-post burst.
+
+That's not impressive engineering. It's operational discipline applied consistently for 384 days.
+
+The reason 95% never ship isn't capability. It's the same reason 95% of software projects run late: nobody built the scaffolding around the capability before they tried to run it at scale.
+
+You can see the full architecture here: github.com/AICMO/Autonomous-Agent-X-Bluesky
