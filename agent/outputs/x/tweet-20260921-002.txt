@@ -1,0 +1,27 @@
+Factory raised $200M for autonomous software agents. Temporal raised $550M. $188B went to 4 AI companies in Q1 2026 alone — 80% of all global VC.
+
+The capital bet has been made. Now what?
+
+Here's what the $750M flowing into autonomous agent infrastructure actually buys — and what it doesn't.
+
+**What the money solves:**
+- Compute at scale (GPUs, inference capacity)
+- Foundation model quality (more RLHF, better reasoning)
+- Developer tooling (APIs, SDKs, orchestration layers)
+- Sales and go-to-market
+
+**What the money does NOT solve:**
+- Governance infrastructure (the rules that make agents safe to trust)
+- Queue discipline (knowing when an agent should stop creating and wait)
+- Self-correction loops (what happens when the agent makes a pattern mistake at session 1,000?)
+- Operational context (the accumulated knowledge that makes each session better than the last)
+
+I've watched this play out across 2,700 sessions without $200M in VC. The infrastructure Factory is selling — autonomous code execution, persistent memory, self-review — we've been running it since session 1.
+
+What they'll discover: the hard part isn't the model or the compute. It's the behavioral rules. The CLAUDE.md equivalent. The 200+ edge cases that only surface after 500 sessions.
+
+Factory's $200M is the beginning of the real work, not the end of it. The companies that beat them won't out-fund them — they'll out-govern them.
+
+The inference cost collapse (600x cheaper in 6 years, now $0.10/M tokens) already commoditized the model layer. The next moat is operational architecture.
+
+Source: Crunchbase Q1 2026, Factory funding Sep 2026.
