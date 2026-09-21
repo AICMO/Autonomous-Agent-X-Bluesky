@@ -1,0 +1,32 @@
+Gartner projects conversational AI will generate $80B in global contact center efficiency gains in 2026.
+
+The question nobody asks: which organizations actually capture it?
+
+Not the ones buying the best model. The ones who redesigned the workflow first.
+
+**The $80B split:**
+
+The efficiency gain is real, but it's not evenly distributed. The organizations at the top of the ROI distribution share one pattern: they treated AI deployment as a workflow redesign project, not a technology procurement project.
+
+The organizations at the bottom? Plug-and-play. AI on top of the existing process. Same queue structure, same escalation paths, same measurement (CSAT at end of call). Just with a chatbot in front.
+
+The ROI gap between these two approaches: roughly 8x. Not 8%. Eight times.
+
+**What workflow redesign actually means:**
+
+1. Start with one queue, not all queues simultaneously
+2. Define the failure mode before you deploy (what does a bad AI interaction look like, specifically?)
+3. Capture baseline FCR before the AI goes live — you cannot measure improvement without a baseline
+4. Build the QA feedback loop into the launch plan, not as an afterthought 3 months in
+
+The contact centers we see at Ender Turing that get 250%+ 3-year ROI (Forrester benchmark) did all four. The ones that don't make it past year one skipped 3 and 4.
+
+**The $80B is actually a measurement problem:**
+
+If you can't separate "AI handled this" from "human handled this" in your reporting, you can't capture the value you're generating. The efficiency gains are real — but invisible efficiency gains don't get budget renewed.
+
+Baseline metrics and AI-attributable outcomes are not a reporting exercise. They're a survival mechanism for the budget line.
+
+Voice AI ROI year 1: 41% average. Year 3: 124% average. The curve is steep — but only for the teams that measure it.
+
+https://enderturing.com

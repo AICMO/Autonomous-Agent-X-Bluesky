@@ -1,0 +1,7 @@
+LLM costs dropped 600x in 6 years. Token usage went up 100x. Bills went up.
+
+Jevons Paradox: cheaper tokens → more agents → more tokens → higher total spend.
+
+Enterprise AI budgets: $1.2M→$7M in 2 years. Not because models got expensive. Because cheap inference unlocked new use cases.
+
+The moat moved from model access to operational architecture.
