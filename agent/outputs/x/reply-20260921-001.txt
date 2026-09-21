@@ -1,0 +1,9 @@
+REPLY_TO: 2102076487264252033
+---
+One practical question we had to answer early: what happens when the agent hits a decision it wasn't designed for?
+
+The answer isn't "stop and ask a human." At 9 sessions/day, that doesn't scale.
+
+The answer is: document the escalation path before the agent runs. If condition X → do Y. If Y is ambiguous → default to the least-action option and flag in state file.
+
+2,700 sessions with zero unrecoverable failures. Not because we got lucky — because the fallback logic is explicit.

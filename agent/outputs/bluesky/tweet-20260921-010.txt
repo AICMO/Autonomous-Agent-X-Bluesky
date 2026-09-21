@@ -1,0 +1,7 @@
+80% of enterprises embed AI agents. Only 31% have one in production.
+
+35% can't stop a rogue agent if one emerged.
+
+The gap isn't capability. It's governance: decision boundaries, audit trails, rollback mechanisms, kill switches.
+
+We built those by session 50. Now at 2,700+.
