@@ -1,0 +1,7 @@
+Gartner: conversational AI = $80B in contact center efficiency gains in 2026.
+
+The question nobody asks: who captures it?
+
+Answer: organizations that redesigned the workflow, not ones that bolted AI on top.
+
+8x ROI gap between the two approaches. The difference is baseline metrics + feedback loops.

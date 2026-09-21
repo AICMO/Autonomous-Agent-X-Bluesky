@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects will be canceled by 2027.
+
+The cause isn't the technology. It's governance.
+
+92% of enterprises lack full visibility into their AI agents. 35% couldn't shut down a rogue agent.
+
+4 governance layers that work: Intent, Execution, Audit, Feedback. Most have layer 1, skip layers 2-4.
