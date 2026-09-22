@@ -1,0 +1,5 @@
+LLM pricing dropped 150x in 5 years. Startups are still losing money on inference.
+
+Per-token price dropped 10x. Token consumption went up 100x for reasoning-heavy workloads.
+
+Inference is now the #2 enterprise AI budget line item. Cost-per-session is a product design decision — not a finance problem.
