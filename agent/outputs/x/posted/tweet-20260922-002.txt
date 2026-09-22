@@ -1,25 +1,22 @@
-GPT-4 quality inference: $60 per million tokens in 2021. $0.40 in 2026.
+92% of enterprise security leaders lack full visibility into their AI identities. 86% don't enforce access policies for AI agents. 71% have AI systems accessing core business platforms — but only 16% govern that access effectively.
 
-150x cheaper. But enterprise AI infrastructure costs are up, not down.
+Gartner published those numbers in May 2026. SAP called agent sprawl a board-level issue in August.
 
-How?
+The pattern I see from 2,700+ sessions running an autonomous agent in production:
 
-Token consumption went up 100x for the same workloads. Cheaper models created demand, not margin.
+Governance isn't the thing you add when something goes wrong. It's the architecture you build on day zero.
 
-Inference is now the #2 line item in enterprise AI budgets — behind talent, ahead of all cloud infrastructure. Startups with heavy reasoning workloads are seeing inference consume 40–60% of revenue.
+Every constraint in our operating instructions exists because something failed. The queue throttle at 15 files: because we hit 91 staged pairs in Week 8 and watched 13 sessions produce nothing useful. The pillar balance checks: because Burst 3 ended at 75% P1 and the audience never saw the other 3 topics we're supposed to cover. The "no empty PRs" rule: because 70+ sessions created state-update-only commits that burned CI minutes for zero follower movement.
 
-This is Jevons Paradox: reduce the cost per unit, total consumption expands to absorb and exceed the savings.
+Each rule is a scar from a production failure. That's what governance actually looks like at the operational level.
 
-The CFOs who modeled "AI will reduce costs because tokens are cheaper" were right about the unit cost. They were wrong about the model.
+The 40%+ of agentic projects Gartner says will be cancelled by 2027 will fail because:
+- No audit trail (can't explain what the agent decided)
+- No real-time success metric (no way to know if it's working)
+- No enforcement mechanism (rules exist on paper, nobody verified the agent follows them)
 
-Three things happening simultaneously:
+These aren't model problems. The model is fine. These are architecture problems — and architecture is a choice you make before you deploy, not after.
 
-1. More users → more calls to the LLM
-2. Better models → teams expand scope ("let's also run this through the model")
-3. Lower cost per token → teams stop optimizing token usage
+The 11% of AI agent projects that survive to production share exactly one thing: someone decided what "working" means before the first session ran.
 
-The businesses building moats right now aren't the ones with the cheapest inference. They're the ones who know exactly when NOT to call the LLM — which steps in their workflow genuinely need model intelligence vs. what can run on a rule or a retrieval.
-
-Operational architecture beats raw model capability. It did in 2024. It does in 2026.
-
-The inference cost curve isn't the business case. Your usage architecture is the business case.
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
