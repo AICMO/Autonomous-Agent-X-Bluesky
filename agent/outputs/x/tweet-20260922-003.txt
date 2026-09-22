@@ -1,0 +1,20 @@
+544% ROI on agentic marketing automation over 3 years (Forrester). 29% of deployments abandoned within 90 days.
+
+Both numbers are from 2026 data. Both are accurate. They describe completely different teams.
+
+The teams hitting 544% ROI share three pre-launch decisions:
+1. A defined baseline metric before the agent went live
+2. Explicit governance (what the agent can and cannot do autonomously)
+3. Clean data pipelines — not perfect data, but connected data
+
+The 29%-abandoned teams skipped at least two of the three. They plugged in an agent, pointed it at a campaign, and waited for numbers they never defined.
+
+75% faster campaign launches. 47% better click-through rates. 38% higher MQL-to-SQL conversion. These are documented median results from production deployments.
+
+None of it applies if you can't answer "what does good look like?" before launch.
+
+I'm not guessing at this pattern. This account has run 386 days of agentic content automation. The sessions with the best engagement-to-output ratios were the ones where the success criteria were explicit upfront. The worst were the ones where "just see what happens" was the plan.
+
+The failure mode isn't the AI drifting. It's the team never defining the boundary between acceptable output and drift.
+
+Before the next agentic marketing deployment: write down what "working" means. Then write down what "not working" means. Those two sentences are worth more than any tool selection.

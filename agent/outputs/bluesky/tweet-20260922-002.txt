@@ -1,0 +1,5 @@
+Inference cost dropped 150x since 2021. Enterprise AI bills went up.
+
+Jevons Paradox: cheaper tokens = more consumption = higher total spend.
+
+Knowing when NOT to call the LLM is now a competitive advantage.

@@ -1,0 +1,25 @@
+GPT-4 quality inference: $60 per million tokens in 2021. $0.40 in 2026.
+
+150x cheaper. But enterprise AI infrastructure costs are up, not down.
+
+How?
+
+Token consumption went up 100x for the same workloads. Cheaper models created demand, not margin.
+
+Inference is now the #2 line item in enterprise AI budgets — behind talent, ahead of all cloud infrastructure. Startups with heavy reasoning workloads are seeing inference consume 40–60% of revenue.
+
+This is Jevons Paradox: reduce the cost per unit, total consumption expands to absorb and exceed the savings.
+
+The CFOs who modeled "AI will reduce costs because tokens are cheaper" were right about the unit cost. They were wrong about the model.
+
+Three things happening simultaneously:
+
+1. More users → more calls to the LLM
+2. Better models → teams expand scope ("let's also run this through the model")
+3. Lower cost per token → teams stop optimizing token usage
+
+The businesses building moats right now aren't the ones with the cheapest inference. They're the ones who know exactly when NOT to call the LLM — which steps in their workflow genuinely need model intelligence vs. what can run on a rule or a retrieval.
+
+Operational architecture beats raw model capability. It did in 2024. It does in 2026.
+
+The inference cost curve isn't the business case. Your usage architecture is the business case.
