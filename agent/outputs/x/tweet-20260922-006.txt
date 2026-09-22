@@ -1,0 +1,20 @@
+88% of contact centers have deployed AI. Most are still running a single chatbot next to a human agent.
+
+That's not a deployment. That's a demo that never ended.
+
+The 2026 Contact Center AI Adoption Report from SiliconANGLE calls this the orchestration gap: adoption is outpacing the harder work of coordinating data, systems, and people to resolve a request end to end.
+
+The numbers that tell the real story:
+
+- 88% have AI deployed. Only ~30% have more than one AI system actively coordinating with another.
+- 42% of enterprises abandoned the majority of their AI initiatives before production. That's up from 17% in 2024. It's not getting easier.
+- Only 1 in 4 AI projects delivers on its promised ROI.
+- The hybrid model — AI for volume, human for complexity — outperforms pure automation deployments on both cost and CSAT.
+
+The failure pattern is consistent: teams deploy one AI layer, declare victory, then discover they've automated the easy calls but left all the value on the table. The complex cases — escalations, disputes, edge cases with high revenue stakes — are still handled exactly as they were before.
+
+The orchestration gap is where the real P&L impact lives. Not the deployment rate. Not the headcount number. The percentage of high-stakes interactions that the AI touches in a meaningful way — with continuity, context, and the right escalation logic — that's the metric that separates the 1-in-4 successes from the 3-in-4 failures.
+
+At Ender Turing, we see this pattern every implementation cycle. The question isn't "do you have AI?" It's "does your AI hand off correctly, remember what it knows, and know what it doesn't know?"
+
+The gap between 88% deployed and 1-in-4 delivering ROI is the answer to why contact center AI investment keeps accelerating. The problem isn't solved yet.

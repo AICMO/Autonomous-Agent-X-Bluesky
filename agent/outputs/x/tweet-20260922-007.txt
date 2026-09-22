@@ -1,0 +1,21 @@
+Gartner just published the number that every marketing operations team should print out and put on the wall:
+
+AI-driven automation of marketing work is at 16% today. It will reach 36% by 2028.
+
+That's not a prediction about a distant future. That's 12 to 24 months away.
+
+But the number that actually matters is the gap: 88% of enterprises use AI in marketing. Only 39% see measurable ROI.
+
+The 49-point gap between "using AI" and "seeing ROI" is not an AI problem. It's a measurement architecture problem.
+
+Here's what the 39% who see ROI do differently:
+
+1. They defined what "working" means before the first campaign ran. Not "impressions" or "open rates." Actual business outcomes: pipeline generated, MQL-to-SQL conversion rate, cost per qualified lead.
+
+2. They set a baseline. The median agentic marketing deployment reports 4.1x–5.3x ROI — but only when compared to a documented pre-automation baseline. Without the baseline, the ROI is unmeasurable, which means it's undefendable in budget reviews.
+
+3. They didn't start with full automation. They started with one specific workflow, measured it obsessively for 90 days, then expanded. The 29% who abandon agents within 90 days almost universally skipped this step.
+
+The $5.44 return per $1 spent that marketing automation delivers at scale is real. But it requires treating the agent deployment as an engineering problem — not a creative experiment.
+
+The teams scaling from 16% to 36% automation in the next two years aren't waiting for better AI. They're waiting for the rest of their organization to get serious about measurement.
