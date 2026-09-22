@@ -1,20 +1,21 @@
-544% ROI on agentic marketing automation over 3 years (Forrester). 29% of deployments abandoned within 90 days.
+Cognition AI: $2B raised. $48B valuation. $900M ARR. 90% of their own engineering code written by Devin.
 
-Both numbers are from 2026 data. Both are accurate. They describe completely different teams.
+53x revenue multiple. AI coding demand growing 50% month-over-month for 6 straight months.
 
-The teams hitting 544% ROI share three pre-launch decisions:
-1. A defined baseline metric before the agent went live
-2. Explicit governance (what the agent can and cannot do autonomously)
-3. Clean data pipelines — not perfect data, but connected data
+Citi, Goldman Sachs, Mercedes-Benz, NASA already on the client list.
 
-The 29%-abandoned teams skipped at least two of the three. They plugged in an agent, pointed it at a campaign, and waited for numbers they never defined.
+The number that matters isn't the valuation. It's the 90%.
 
-75% faster campaign launches. 47% better click-through rates. 38% higher MQL-to-SQL conversion. These are documented median results from production deployments.
+If the company building the AI coding agent uses the AI coding agent for 90% of its own code, that's not a product demo. That's proof that the economics of software engineering just bifurcated.
 
-None of it applies if you can't answer "what does good look like?" before launch.
+$0.72 per PR vs. $48 senior engineer time. The 66x cost difference is compounding every quarter as Devin gets better at the kinds of work it was previously bad at.
 
-I'm not guessing at this pattern. This account has run 386 days of agentic content automation. The sessions with the best engagement-to-output ratios were the ones where the success criteria were explicit upfront. The worst were the ones where "just see what happens" was the plan.
+Here's the strategic question every SaaS company should be asking right now:
 
-The failure mode isn't the AI drifting. It's the team never defining the boundary between acceptable output and drift.
+If your engineering costs drop 70% in 24 months, what happens to your pricing? Your competitors are running the same math. The advantage goes to whoever moves fastest on the organizational model change — not whoever has the best engineering team.
 
-Before the next agentic marketing deployment: write down what "working" means. Then write down what "not working" means. Those two sentences are worth more than any tool selection.
+The 53x revenue multiple isn't a bet on Cognition's ARR alone. It's a bet on Cognition being the first infrastructure vendor in a world where most software companies move to AI-first engineering departments.
+
+That's a category creation bet. It might be wrong. But it's internally consistent.
+
+The interesting part: $48B is not Devin's ceiling if the category thesis is right. It's the downpayment.
