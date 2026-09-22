@@ -1,0 +1,9 @@
+REPLY_TO: 2100242523025248355
+---
+Update on this: 5 days later, the B242 burst completed with a 6th perfect 5-way balance. Same governance infrastructure. Same protocol enforcement.
+
+The governance layer you build for 10 sessions ends up running for 2,702 sessions. The marginal cost of getting it right on day one is nearly zero. The compounding value is enormous.
+
+The accountability problem for named agents (from this thread) is still unsolved at most enterprises. Agentforce has the governance harness in the product. Fewer than 5% of enterprise deployments are actually using it.
+
+The tooling exists. The operational discipline doesn't yet.

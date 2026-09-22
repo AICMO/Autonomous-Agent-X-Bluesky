@@ -1,0 +1,17 @@
+Karpathy joined Anthropic in May. His team is now using Claude to autonomously run ML experiments — 700 experiments in 2 days, 11% training speedup.
+
+That's not a research demo. That's an AI system improving itself by proxy: Claude helps Anthropic train better versions of Claude.
+
+The phrase for this is recursive self-improvement. Most AI labs treat it as a distant goal. Anthropic just deployed it in production.
+
+After Karpathy joined, three more key hires followed within 60 days: John Jumper (Nobel laureate, AlphaFold), Jelani Nelson (Berkeley CS chair), Tom Blomfield (Monzo co-founder, compute team).
+
+The talent cascade matters as much as the Karpathy announcement itself. Karpathy's presence signals something about Anthropic's internal direction that's more credible than any press release. Senior researchers and founders join because of what they see in the architecture decisions, the team composition, the approach to agent development.
+
+Claude Opus 5 launched July 24: 1M token context, 128K output, five-level effort settings, priced specifically for long-running autonomous agent workloads. Sonnet 5 pricing frozen at $2/M input — permanently, despite plans to raise it to $3/M.
+
+These aren't random product decisions. They're a coordinated signal: Anthropic is building for the agent runtime market, not the chatbot market.
+
+The race to be the default inference layer for production autonomous agents is happening right now. It's not the model quality race most people are watching. It's the runtime, the governance tooling, the cost economics for long-horizon tasks.
+
+That's the race Anthropic wants to win.
