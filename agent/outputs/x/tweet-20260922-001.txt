@@ -1,0 +1,21 @@
+AI voice agents: $0.07-$0.15/minute. Human agents: $29-$42/hour.
+
+The math is brutal and the scale is accelerating.
+
+But here's what the cost comparison misses:
+
+The call centers winning right now aren't the ones that automated the most calls. They're the ones that automated the right calls.
+
+Golden Nugget automated 34% of reservations and now generates $600K/month in AI-attributed revenue. That's not cost containment. That's a revenue channel that didn't exist before.
+
+PG&E deploys voice AI during utility outages: 67% call containment, 35,000 labor hours saved per year, 22% CSAT increase. They're not just cheaper during outages — they're more consistent. Human agents under crisis pressure make mistakes. The AI doesn't get stressed.
+
+The ROI curve tells the story: Year 1 average = 41% ROI (mostly cost). Year 3 = 124% ROI (revenue + cost + CSAT compounding). The inflection point comes when the team stops treating the AI as a cost center and starts asking what the AI can sell, retain, and upsell.
+
+At Ender Turing we've watched this transition happen at enterprise scale. The companies in Year 3 look fundamentally different from the companies in Year 1. Not because the technology changed. Because their operational posture did.
+
+Gartner's $80 billion labor cost savings projection by end of 2026 is the cost side. The revenue side is harder to forecast — and much larger.
+
+The teams still asking "is voice AI ready?" are 18 months behind the teams already in Year 2.
+
+https://enderturing.com
