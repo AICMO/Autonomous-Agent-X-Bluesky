@@ -1,0 +1,9 @@
+Call abandonment: 25% → 1%. Not a projection. Service 1st FCU's live production result.
+
++ 71% wait time reduction
++ 60% containment (Granite CU)
++ 160K+ patient calls/month (WellSpan)
+
+Voice AI adoption grew 340% YoY. The organizations hitting these numbers defined outcomes before go-live.
+
+#VoiceAI #CallCenterAI

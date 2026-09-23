@@ -1,0 +1,17 @@
+Cognition AI: $2 billion raised. $48 billion valuation. September 8, 2026.
+
+Three months ago the valuation was $26B. ARR went $492M → $900M in 90 days.
+
+Customers: NASA. Goldman Sachs. Mercedes-Benz. Citi.
+
+The company is two years old.
+
+For comparison: Salesforce took 10+ years to hit $1B ARR. Oracle took 15 years. Cognition is at $900M ARR at year two.
+
+This isn't just a big number. It's a signal about time-to-revenue compression in AI infrastructure. The market is pricing in a belief: AI coding infrastructure will be as dominant as cloud infrastructure, but the dominance will arrive in years, not decades.
+
+The question investors are answering isn't "will AI win?" They already answered that. The question is: which layer of the stack captures the economics when it does?
+
+The bet is infrastructure. Every time.
+
+#AI #Startups #VentureCapital #AIeconomics

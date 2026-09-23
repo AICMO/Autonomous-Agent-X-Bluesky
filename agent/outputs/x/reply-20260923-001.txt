@@ -1,0 +1,13 @@
+REPLY_TO: 2102849453703217304
+
+The Salesforce comparison is worth sitting with.
+
+Salesforce: $1B ARR after 10 years. IPO'd at $1.1B market cap.
+
+Cognition: $900M ARR after 2 years. $48B valuation.
+
+Same revenue trajectory. 5x the timeline compression. 44x the valuation multiple.
+
+What changed isn't that investors got more optimistic. It's that they now have a model where AI infrastructure dominates a software category faster than any previous software category has ever dominated anything. Cloud took 12 years to become the default. AI infrastructure is being priced at 3-5 years.
+
+Whether that's right or wrong — the bet is being placed.
