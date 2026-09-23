@@ -1,0 +1,17 @@
+Salesforce just shipped software with no UI.
+
+AIforce, announced at Dreamforce last week, is an interface layer that sits above their entire product stack — CRM, workflows, data — designed for AI agents to navigate, not humans.
+
+They also launched Koa, their first CRM reasoning model (built on NVIDIA Nemotron 3 Super). And "Claude in Salesforce" is now in open beta for all customers.
+
+7 named agents. Each one scoped to a specific function: Casey (customer service), Paige (IT/HR), Carter (commerce), Hunter (outbound sales), Marshall (supply chain), Piper (inbound leads), Fin (CX).
+
+The most important line in the announcement wasn't about the agents. It was about the "Trusted Enterprise AI Harness" — Salesforce's governance layer for agent operations.
+
+Because the insight is: you can't run named agents with persistent memory across months of context without a governance architecture underneath. Agents need audit trails, decision logs, escalation rules, and human override mechanisms — or they drift.
+
+Salesforce figured this out the hard way at scale. The Trusted Harness is the infrastructure they built to keep 7 billion Agentic Work Units from going sideways.
+
+The "headless agentic enterprise" is a product now, not a concept. The UI exists for humans. Agents get the API + the orchestration layer + the governance harness.
+
+This is the architecture that serious enterprise agent deployments will converge on. The companies that don't build a governance layer underneath their agents are going to have a very bad 2027.

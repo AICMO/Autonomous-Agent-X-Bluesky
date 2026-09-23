@@ -1,0 +1,7 @@
+AI tokens are 280x cheaper. Enterprise AI spend is up 320%.
+
+That's the Jevons Paradox in production.
+
+Cheaper tokens don't lower bills — they enable use cases that consume 10-20x more tokens per task.
+
+Model token cost per workflow, not per user.

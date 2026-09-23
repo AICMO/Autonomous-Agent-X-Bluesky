@@ -1,0 +1,25 @@
+In 2022, Gartner made a specific prediction: conversational AI would reduce global contact center labor costs by $80 billion by end of 2026.
+
+That year ends in 3 months.
+
+Is the $80B real?
+
+The arithmetic of the prediction: AI voice agents now cost $0.07–$0.15 per minute. US-based human agents cost $29–$42 per hour. That's a 170-350x cost ratio per interaction.
+
+67% of Fortune 500 companies have voice agents in production. Production deployments are up 340% year-over-year.
+
+Forrester's 2026 data on enterprise voice AI deployments: 331–391% ROI over 3 years. Most see measurable return within 90 days.
+
+So the $80B is directionally real. The math works.
+
+But here's the part nobody talks about: the companies realizing that ROI today deployed 2 years ago. The economics they're capturing are the economics of a decision made in 2023-2024 — when most boards were still asking "should we evaluate this?"
+
+The companies deploying today? They're 2-3 years late to the math.
+
+Contact center AI isn't a competitive advantage anymore. It's table stakes. The question isn't whether to deploy — it's whether your workflows are documented well enough for an agent to execute them, and whether you have the measurement baseline to know if it's working.
+
+Gartner's $80B prediction is probably right. But the value has already been captured by early movers.
+
+What's left is the governance problem. That's where Ender Turing works.
+
+→ endturing.ai

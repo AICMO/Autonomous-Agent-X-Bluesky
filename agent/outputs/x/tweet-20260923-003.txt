@@ -1,0 +1,21 @@
+Adobe just acquired a 6-person startup called Rilo.
+
+What Rilo does: lets non-technical marketers describe a workflow in plain English — "reach enterprise CTOs who opened my last email but didn't reply, personalize outreach with their latest LinkedIn post, follow up in 3 days" — and AI agents execute it across hundreds of tools.
+
+The acquisition signal: 544% ROI on AI marketing automation is real enough for Adobe to pay for it.
+
+The 3-year data on AI-driven marketing automation: $5.44 returned for every $1 spent. That's not a vendor case study. That's the aggregate number from enterprise deployments with 3 years of measurement.
+
+But here's what the number hides.
+
+52% of companies report that data quality — not tools, not budget, not AI capability — is their biggest barrier to capturing that ROI.
+
+Not "we need a better LLM." Not "we can't afford the platform." Data quality.
+
+The 544% ROI is available to any company that solves the data problem first. Most companies are trying to deploy agents before they've defined what "good" looks like in their data.
+
+Rilo's pitch to Adobe was essentially: "We built a workflow execution layer. We'll plug into your data infrastructure." Adobe's pitch back was: "We have the data infrastructure. We needed the execution layer."
+
+That's the acquisition thesis. And it tells you exactly where the gap is in your own marketing automation stack.
+
+Fix your data. Then run the agents.
