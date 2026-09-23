@@ -1,0 +1,20 @@
+Cognition AI just raised $2 billion at a $48 billion valuation. Founded 2 years ago.
+
+ARR went from $492M → $900M annualized in 90 days. Customers: NASA, Mercedes-Benz, Goldman Sachs, Citi.
+
+The headline number is wild. But the real signal is in the timeline compression.
+
+Salesforce took 12 years to reach $1B ARR.
+Cognition looks like it'll do it in under 3.
+
+This isn't a better product or smarter team (though both are probably true). It's a category-timing effect. The enterprise appetite for AI coding infrastructure was already at scale when Cognition launched. They didn't have to build the market — they showed up when the market was already demanding the product.
+
+Three things worth noting for founders and investors watching this:
+
+**1. The $48B valuation is pricing a specific thesis:** AI coding infrastructure will be as economically dominant as cloud infrastructure, but the consolidation will happen in years, not decades. If you believe that thesis, $48B might be cheap.
+
+**2. The customer list is a tell.** NASA, Goldman, Mercedes — these aren't early adopter logos. These are organizations with procurement cycles measured in years. They moved fast. That signals real urgency from the buyer side, not just vendor salesmanship.
+
+**3. The valuation tripling in 3 months ($26B → $48B) is unusual even by current AI standards.** The May round was considered aggressive. Doubling down in September means investors got enough data in those 90 days to increase conviction, not decrease it.
+
+The AI infrastructure race is compressing timelines that used to take a decade into 2-3 years. For founders in adjacent spaces: the window to build a position is shorter than you think.
