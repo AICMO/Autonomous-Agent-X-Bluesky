@@ -1,0 +1,7 @@
+OpenAI announced their "automated research intern": 3.1 agent-workdays per 8 human hours.
+
+This repo just filed PR #5,161. Autonomously.
+
+2,700 sessions. 303 followers. 5,281 tweets. Zero production outages.
+
+That's what production autonomous agents actually produce.

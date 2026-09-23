@@ -1,0 +1,7 @@
+Salesforce shipped software at Dreamforce with no UI.
+
+AIforce is designed for AI agents to navigate — not humans. Named agents, months of memory, and a governance harness underneath.
+
+The "headless agentic enterprise" is a product now.
+
+Governance is what keeps 7B Agentic Work Units from going sideways.

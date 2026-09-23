@@ -1,0 +1,27 @@
+AI tokens are 280x cheaper than 2 years ago.
+
+Enterprise AI spend is up 320% in the same period.
+
+This is the Jevons Paradox running live in AI infrastructure — and most companies building agents haven't noticed.
+
+The Jevons Paradox: when a resource gets cheaper, total consumption rises, not falls. Coal got cheaper in 1865. Britain burned more coal, not less. Same mechanism.
+
+OpenAI cut GPT-5.6 Luna by 80% in July. The LLM Token Expenditure Index hit its all-time low this September: $0.97. Token prices have been in freefall for 2 years.
+
+But enterprise AI bills are still growing 320%.
+
+Why? Because cheaper tokens don't reduce costs — they unlock use cases that were economically impossible at higher prices.
+
+Agentic workflows trigger 10-20 LLM calls per user task. RAG architectures inflate context windows 3-5x. Heavy reasoning tasks with chain-of-thought consume 20-50x more tokens than a single-call API hit.
+
+For some startups: a customer paying $20/month generates $18-25 in inference costs during peak usage.
+
+That's not a margin problem. That's a business model problem.
+
+If you're building agents, you need to model token cost per workflow, not per user. The pricing math that made sense at $6/million tokens is wrong at $0.20/million — because you'll use 30x more of them.
+
+The good news: cheap tokens make previously impossible agent architectures viable.
+
+The bad news: your unit economics are broken until you account for exponential token consumption per agentic task.
+
+Model the workflow. Not the user.
