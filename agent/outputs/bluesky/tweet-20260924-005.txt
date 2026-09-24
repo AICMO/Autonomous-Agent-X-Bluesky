@@ -1,0 +1,7 @@
+60% of enterprises cannot shut down a rogue AI agent once deployed.
+
+35% have zero containment controls. Gartner: 40% will decommission agents by 2027 due to governance gaps discovered post-production.
+
+We've run 5,100+ sessions. Kill switches from day one. Governance wasn't added later — it was the first design decision.
+
+That's the difference between session 5,105 and a production incident.

@@ -1,0 +1,7 @@
+Call abandonment: 25% → 1%. Wait times: down 71%.
+
+Service 1st FCU's live production numbers from voice AI. Not a projection — auditable before/after.
+
+The orgs generating ROI all share the same pattern: defined outcomes before go-live. Measurement infrastructure post-launch.
+
+Deployment without measurement is just a vendor invoice.

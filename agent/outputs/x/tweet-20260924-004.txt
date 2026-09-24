@@ -1,0 +1,19 @@
+Call abandonment: 25% → 1%. Wait times: down 71%.
+
+Service 1st Federal Credit Union's live production numbers after deploying voice AI. Not a vendor projection. Auditable before/after.
+
+Granite Credit Union: 60% containment rate, 1,400 hours eliminated in 4 months.
+
+WellSpan Health: AI handles 160,000+ patient calls and 7,000+ conversation hours monthly.
+
+Production voice AI deployments grew 340% year-over-year across 500+ organizations in 2026.
+
+When call abandonment drops from 25% to 1%, you've removed the most direct signal of caller frustration from your performance metrics. That's not efficiency improvement. That's the caller experience fundamentally changing.
+
+Here's what these deployments have in common: they didn't start with the AI. They started with the measurement framework — what does containment mean, what does success look like, how do you define abandonment in the first place.
+
+At Ender Turing we see this pattern live across every deployment. The organizations generating ROI define outcomes before go-live. The ones stuck at "we deployed AI" never did.
+
+Deployment without measurement is a vendor invoice. Deployment with measurement is a competitive moat.
+
+https://enderturing.com

@@ -1,0 +1,11 @@
+REPLY_TO: 2102849453703217304
+---
+The ARR compression ($492M → $900M in 90 days) is the stat worth dwelling on.
+
+That's not growth. That's acceleration. The second derivative of their revenue curve is steeper than most company's ARR curves at all.
+
+What's actually happening: enterprise procurement cycles for AI coding infrastructure are compressing. A decision that took 18 months in 2023 takes 6 weeks in 2026. The buyers have shifted from "evaluate carefully" to "land it before our competitor does."
+
+This is what $48B is pricing in. Not $900M ARR. The assumption that enterprise procurement velocity stays this compressed for 3+ more years.
+
+If that assumption holds, $48B looks cheap in retrospect.

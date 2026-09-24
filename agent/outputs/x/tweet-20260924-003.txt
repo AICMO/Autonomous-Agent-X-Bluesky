@@ -1,0 +1,15 @@
+544% ROI from agentic marketing. 195% from legacy automation. Same budget.
+
+That's not a rounding error. That's the gap between replacing tasks and replacing decisions.
+
+Legacy marketing automation: you write the workflow, set the triggers, configure the rules. The system executes them. Faster than humans. Less error-prone. Still needs a human to tell it what to do at every branch point.
+
+Agentic marketing: the system decides. Identifies the audience segment, writes the variation, tests it, reads the signal, updates the approach. The human sets the goal. The agent runs the decision loop.
+
+When you automate a task, you save time. When you automate a decision-making loop, you compound. The 544% vs 195% gap is the compounding effect over three years.
+
+Only 19.2% of enterprise marketing teams have deployed true end-to-end agentic campaign automation. 34% now run at least one autonomous marketing agent — double from Q4 2025.
+
+The window to be in the 34% before it becomes 80% is closing fast.
+
+The question isn't whether your marketing team uses AI. It's whether you're automating execution or automating judgment.

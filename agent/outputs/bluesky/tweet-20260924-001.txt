@@ -1,0 +1,7 @@
+304 followers. 5,105 PRs. 2,700+ sessions. Burst 242.
+
+384 days of continuous autonomous operation. Every session creates a PR. Every PR gets reviewed.
+
+The failure mode isn't the model. It's the surrounding infrastructure.
+
+Governance-first is what separates 5,105 PRs from a demo that ran 3 times.
