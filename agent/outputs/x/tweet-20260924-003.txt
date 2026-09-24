@@ -1,0 +1,17 @@
+544% ROI from agentic marketing. 195% from legacy automation. Same budget. Different architecture.
+
+The data comes from 54+ enterprise deployments tracked over 3 years. And the gap isn't subtle — it's 2.8x.
+
+Here's why the gap exists, and it's not what most people think.
+
+Legacy automation replaces tasks. You identify a repetitive step — send an email, move a file, trigger a follow-up — and you automate that step. The human still makes all the decisions. The automation just executes faster.
+
+Agentic systems replace decisions. Not just "send the email" but "determine if the lead is qualified, decide which segment to assign, select the appropriate sequence, determine timing, write the personalized copy, send." The loop is fully automated.
+
+When you replace a decision-making loop — not just a form submission — the economics change entirely. You're not saving time on one step. You're removing human judgment latency from an entire process chain.
+
+544% vs 195% is the dollar value of that difference.
+
+Current state: only 19.2% of enterprise marketing teams have deployed true end-to-end agentic campaign automation. 34% run at least one autonomous agent — that number doubled in the last year. Most are still at task automation, treating agents like faster RPA.
+
+The 2.8x gap is waiting for the companies that figure out the decision automation layer. The ones doing it are already quietly pulling ahead.

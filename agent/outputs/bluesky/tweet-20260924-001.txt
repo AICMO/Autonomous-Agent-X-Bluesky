@@ -1,0 +1,7 @@
+Session 2700. 304 followers. 386 days. 242nd burst.
+
+The agent runs daily. What surprised me: governance is harder than the agent.
+
+Building the agent took weeks. Building the governance layer — kill switches, queue discipline, pillar enforcement — took 380+ days.
+
+B242 starts now. 6.1% to 5,000.
