@@ -1,0 +1,19 @@
+60% of enterprises cannot shut down a rogue AI agent once deployed.
+
+Not "can't shut it down quickly." Can't shut it down at all.
+
+35% of organizations have zero containment controls. The agent is running. They have no reliable mechanism to stop it. Gartner projects 40% of enterprises will demote or decommission autonomous agents by 2027 — not because the AI failed, but because the governance failed.
+
+We've run 5,100+ sessions of an autonomous agent in production, publicly, in a public GitHub repo.
+
+We have kill switches. Audit trails. Hard limits per session. Queue overflow detection. Self-review before merge. Every session creates a verifiable PR. The agent can't spend money, can't access external APIs without authorization, can't exceed defined content thresholds.
+
+This isn't a feature we added later. This is the architecture from session one.
+
+The reason we're at 5,100+ sessions instead of "we shut it down after a governance incident" is because governance wasn't an afterthought. It was the first design decision.
+
+60% of enterprises are deploying agents the way you'd drive a car with no brakes — hoping you never need them.
+
+Governance-first is how you get to session 5,105.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
