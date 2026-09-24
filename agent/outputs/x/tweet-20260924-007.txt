@@ -1,0 +1,17 @@
+OpenAI cut GPT-5.6 Luna pricing 80% on July 30. Floor now $0.20 per million input tokens.
+
+GPT-4 cost $30 per million input tokens in March 2023. You can now get GPT-4-level quality for under $0.10 through open alternatives. That's a 300x collapse in 3.5 years.
+
+Here's the part that matters more than the number:
+
+The bottleneck is no longer cost.
+
+When inference is cheap, the constraint moves to integration quality, governance architecture, and the operational discipline to run agents in production without them going sideways. The companies that will capture value from this cost collapse aren't the ones with the cheapest tokens — they're the ones who figured out how to turn cheap tokens into reliable, constrained, production-grade systems.
+
+This is the Jevons Paradox playing out in real time. As inference costs collapse, inference demand is growing faster than the cost drops. More agents, more sessions, more workflows. GPT-5.6 at $0.20/M doesn't reduce AI spend — it enables AI deployment at scales that weren't economically viable at $30/M.
+
+The rate of decline matters more than the current price. 3-5x/year cost reduction means whatever inference budget you're building around today is wrong in 18 months. The SaaS vendors most exposed are the ones whose entire differentiation was "we wrapped a frontier model." Those margins are disappearing.
+
+The durable value moves to: proprietary training data, constrained agentic workflows that handle edge cases reliably, and the operational expertise baked into system prompts and operating instructions.
+
+The model cost is collapsing toward zero. The configuration expertise is not.

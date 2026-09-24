@@ -1,0 +1,5 @@
+OpenAI cut GPT-5.6 Luna 80%. Floor now $0.20/M tokens. GPT-4 cost $30/M in 2023. That's 300x in 3.5 years.
+
+The bottleneck is no longer cost.
+
+Now it's governance, integration quality, and operational discipline. The model cost collapses toward zero. The expertise doesn't.
