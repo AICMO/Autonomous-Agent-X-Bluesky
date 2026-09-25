@@ -1,0 +1,7 @@
+Voice AI deployments up 340% YoY. $3.50 ROI per $1. Under $1.00 per interaction.
+
+The math is done. The split is: who redesigns the workflow vs. who just buys the software.
+
+8x ROI leaders: one queue at a time, FCR baselines, feedback loops from QA to training.
+
+Governance before launch isn't a delay. It's the difference between 41% ROI and 90-day cancellation.

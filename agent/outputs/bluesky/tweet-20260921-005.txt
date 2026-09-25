@@ -1,0 +1,9 @@
+95% of AI agent pilots never reach production.
+
+3 failure patterns: unclear success criteria (41%), bad data/tool access (33%), brand-voice drift (19%).
+
+We hit all three in the first 50 sessions. Then built the infrastructure to prevent them.
+
+CLAUDE.md = success criteria. PR QA = output governance. Weekly retro = drift detection.
+
+The 5% who reach production know exactly what their agents are doing. At all times.

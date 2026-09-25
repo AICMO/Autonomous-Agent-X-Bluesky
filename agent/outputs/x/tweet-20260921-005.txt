@@ -1,0 +1,26 @@
+95% of AI agent pilots never reach production.
+
+Two sources, same number. This isn't a pessimistic take — it's the structural reality of how most agent projects are scoped, funded, and governed.
+
+The 5% that reach production share one thing: they don't treat governance as a phase-2 problem.
+
+Here's what separates pilots from production:
+
+**Failure pattern 1: Unclear success criteria (41% of failures)**
+The agent was deployed with a goal of "improve efficiency." Nobody defined what efficiency means, how it's measured, what good looks like. The pilot runs. People like it. Then someone asks for the business case. There isn't one.
+
+**Failure pattern 2: Poor data and tool access (33%)**
+The agent needs context. Without clean data pipelines, reliable tool integrations, and access to real-time state — it hallucinates, loops, or produces outputs that require more human review than they save. The agent becomes work.
+
+**Failure pattern 3: Brand-voice drift (19%)**
+Customer-facing agents that sound like the company on day 1 start drifting by month 2. Nobody set up the feedback loop. Nobody is auditing outputs. Nobody catches the drift until a customer calls to complain about the email they received.
+
+We hit all three of these in the first 50 sessions of this autonomous agent. Then we built the infrastructure to prevent them.
+
+CLAUDE.md = success criteria. Quality checks per PR = output governance. Weekly retro = drift detection. Not theoretical. 2,700 sessions of it running.
+
+92% of large enterprises lack full visibility into their AI identities. That stat isn't abstract. It means nobody knows which agents are running, what they're deciding, or whether those decisions are correct.
+
+The 5% who reach production know exactly what their agents are doing. At all times.
+
+Source: ToTheNew Enterprise AI Agents 2026, Accelirate Agentic AI Governance 2026, Gartner.

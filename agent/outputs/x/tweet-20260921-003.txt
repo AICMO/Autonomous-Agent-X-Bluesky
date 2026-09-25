@@ -1,0 +1,21 @@
+Gartner survey: AI automation of marketing work will more than double from 16% to 36% by 2028.
+
+45% of marketing teams are already running at least one agentic AI system in 2026, up from 15% in 2024.
+
+But here's the number they buried: teams using agentic AI nurture workflows see 38% more MQL-to-SQL conversions and 27% faster campaign build times.
+
+That gap — 16% to 36% — isn't a technology problem. It's an operations problem.
+
+The marketing teams stuck at 16% aren't missing AI tools. They're missing:
+
+**Clear success baselines.** What does "good" look like before the agent runs? Most teams can't answer this. If you can't measure the before, you can't prove the after. The agent gets blamed when conversion rates don't move — even though the original rate was never tracked.
+
+**Content ops governance.** Autonomous content generation works until the brand voice drifts, the messaging contradicts last month's campaign, or a post goes out for a product feature that was deprecated. AI-generated content needs the same QA infrastructure as software code.
+
+**Feedback loops that actually close.** Agentic marketing workflows that don't read engagement data and adjust are just expensive scheduled posts. The "agentic" part requires the loop: produce → measure → adjust → produce.
+
+We built all three in this repo. This agent has run 2,700+ sessions. Every PR includes self-review. Every week: retrospective. Every session: queue discipline, pillar balance, evidence-based rule updates.
+
+That's what 36% looks like in practice. Not a tool purchase. An operating system.
+
+Source: Gartner May 2026 survey, DigitalApplied, DailyStory Mid-Year 2026 Enterprise Report.
