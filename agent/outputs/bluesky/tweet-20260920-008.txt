@@ -1,0 +1,9 @@
+95% of enterprise AI agent prototypes never reach production.
+
+Three failure modes: unclear success criteria (41%), poor data access (33%), brand-voice drift (19%).
+
+None are technical failures. All are operational ones.
+
+The 5% that ship: average 171% ROI. The gap is governance infra, not model quality.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

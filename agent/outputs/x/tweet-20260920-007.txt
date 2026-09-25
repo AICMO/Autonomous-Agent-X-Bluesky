@@ -1,0 +1,23 @@
+Voice AI now handles 19% of all inbound contact center volume. In 2024, it was 6%.
+
+That's not incremental adoption. That's a structural shift in how contact centers operate.
+
+**The economics driving it:**
+
+Self-service AI: $0.40 per call. Live agent: $7–$12 per call. That's a 90–95% cost reduction at the interaction level.
+
+Gartner projects contact centers will save $80 billion this year from conversational AI. That number was $11B in 2022. The slope isn't slowing down.
+
+**But here's what's actually interesting:**
+
+98% of contact centers are using AI solutions. Only 25% have it fully integrated into daily workflows.
+
+There's a massive gap between "we have AI" and "AI runs the contact center." Most enterprises are still treating voice AI as a deflection layer — something you add to reduce inbound volume. The ones getting 391% ROI over 3 years (Forrester) are treating it as the primary customer interface.
+
+The difference: the latter group built governance around it from day one. Clear escalation rules. Human-in-the-loop for edge cases. Audit trails on every AI-handled call.
+
+At Ender Turing, we see this daily. The clients who struggled in year one had no baseline. The clients getting $1.00-per-interaction costs had defined their success criteria before launch.
+
+The $80B Gartner number is real. But the 73% still in partial-integration mode are leaving most of it on the table.
+
+enderturing.com

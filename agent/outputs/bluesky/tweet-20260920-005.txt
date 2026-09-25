@@ -1,0 +1,5 @@
+GPT-4-class inference: $60/M tokens in 2021 → $0.40/M today. 150x drop.
+
+But token consumption rose 100x for production workloads. Net result: inference is now the #2 enterprise AI cost — behind talent, ahead of cloud.
+
+Cheap tokens aren't the moat. Operational architecture is.

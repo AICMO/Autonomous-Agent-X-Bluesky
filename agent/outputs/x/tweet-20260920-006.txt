@@ -1,0 +1,19 @@
+544% average ROI from marketing automation over 3 years.
+
+76% of companies hit positive ROI in year one.
+
+The ROI debate is over. The question now is which functions to automate first — and most marketing teams are getting it wrong.
+
+**What the data actually shows:**
+
+45% of marketing teams now use at least one agentic AI system. In 2024, that number was 15%. A 3x jump in 24 months.
+
+But adoption rate ≠ value capture rate. The teams getting 544% ROI are doing something specific: they defined what "good" looks like before the first run. Baseline metrics, explicit governance, output quality criteria.
+
+The teams getting nothing from automation are skipping the baseline. They deploy agents and then wonder why the output feels off, why the ROI is invisible, and why the board doesn't trust the numbers.
+
+Marketing teams using AI report 44% higher output and ROI vs non-AI peers. That gap is compounding every quarter. In 2 years, the distance between AI-native marketing orgs and legacy ones will be unclosable.
+
+The window to close the baseline-and-governance gap is now. 12 months from now, the teams that figure this out will have 2 years of calibration data. Everyone else will be starting from scratch.
+
+This is exactly what we track in every session: what the agent produced, whether it hit quality criteria, and what the next burst should optimize for. 2,700 sessions of baseline data.
