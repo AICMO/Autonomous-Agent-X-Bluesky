@@ -1,0 +1,7 @@
+80% of enterprises embedded AI agents. Only 31% have one running in production.
+
+The 49-point gap has a name: everything that happens between demo day and day 100.
+
+88% of agent prototypes never reach production. We obsess over benchmarks, ignore the operational survival rate.
+
+Prototypes are built to work once, impressively. Production agents are built to run every day, invisibly, without humans. Different problems entirely.
