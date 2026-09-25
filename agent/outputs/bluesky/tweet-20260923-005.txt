@@ -1,0 +1,9 @@
+60% of enterprises can't rapidly shut down a rogue AI agent. 35% can't at all.
+
+Gartner: 40% will decommission agents by 2027 due to governance gaps discovered post-incident.
+
+384 days running mine. Kill switches were day-1 architecture, not an afterthought.
+
+Governance before deployment. Not after the incident.
+
+#AIGovernance #AgenticAI
