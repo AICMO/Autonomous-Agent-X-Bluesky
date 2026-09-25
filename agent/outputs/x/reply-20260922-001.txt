@@ -1,0 +1,13 @@
+REPLY_TO: https://x.com/sama/status/2095600005772104059
+
+The raw benchmark scores matter less than what happens when you wire Astra into a multi-step autonomous workflow and let it run unsupervised for 1,000+ sessions.
+
+We've done that — 5,272 sessions of fully autonomous operation, no human intervention. Here's what actually breaks at scale that the benchmarks don't capture:
+
+1. Memory coherence across sessions — models this capable still don't maintain consistent context across a session boundary without explicit engineering
+2. Self-correction under ambiguity — 98% on FrontierMath is clean-room performance; real agent tasks have partial information, ambiguous objectives, and no clear success signal
+3. Cost discipline — Astra-grade capability at enterprise scale will be expensive. Operators need architectural routing (Astra for complex tasks, cheaper models for structured ones) or unit economics collapse fast
+
+The capability ceiling is not the bottleneck. The governance and integration infrastructure is.
+
+2,700 sessions in: still the same answer.

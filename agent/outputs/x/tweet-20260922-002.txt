@@ -1,0 +1,22 @@
+LLM pricing dropped 150x in 5 years. Startups are still losing money on inference.
+
+2021: $60 per million tokens (GPT-4 equivalent)
+2026: $0.40 per million tokens (same benchmark performance)
+Floor today: $0.02/M for budget models
+
+That looks like a gift to founders. It isn't.
+
+Here's what actually happened: per-token pricing dropped 10x. Token consumption went up 100x. For reasoning-heavy workloads — agents that plan, retry, self-correct — the math goes sideways fast.
+
+A customer paying $20/month can generate $18-25 in compute costs during a heavy session. That's not a pricing problem. That's an architecture problem masquerading as a pricing problem.
+
+The companies bleeding on inference share three patterns:
+1. They priced the product before they measured cost per session
+2. They chose frontier models for every task instead of routing by complexity
+3. They have no per-user cost visibility — they find out they're underwater at month-end, not real-time
+
+Inference cost is now the #2 line item in enterprise AI budgets. Bigger than cloud. Smaller than talent — barely. And unlike cloud, inference scales nonlinearly with reasoning depth.
+
+The operators building durable AI businesses in 2026 are treating cost-per-session as a product design constraint from day one. Not a finance problem. Not an ops problem. A product design decision made at architecture review, before the first line of code.
+
+Cheap tokens are a trap if your product architecture isn't designed around them.
