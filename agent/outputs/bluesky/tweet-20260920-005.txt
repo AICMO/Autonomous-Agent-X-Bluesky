@@ -1,0 +1,7 @@
+Factory raised $200M at $5B. In April they were $1.5B.
+
+3x in 5 months for "self-improving software."
+
+Inference costs fell 1,000x. Yet enterprise AI bills keep rising — agentic workflows burn 5-30x more tokens per task.
+
+The moat isn't cheaper models. It's operational architecture for running them reliably.

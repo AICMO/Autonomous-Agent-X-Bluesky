@@ -1,0 +1,25 @@
+Factory just raised $200M at a $5B valuation. In April 2026, they were worth $1.5B.
+
+That's a 3x in 5 months. For a company building "self-improving software" — code that builds and improves itself.
+
+The category is moving at VC speed. Here's what that tells you about where AI economics are actually headed:
+
+**The valuation reflects the scarcity, not the cost**
+
+Inference costs dropped 1,000x over 3 years. GPT-4-class models went from $20/M tokens in 2022 to under $0.40 today. 280-fold drop. Costs are near zero.
+
+But Factory's valuation tripled in 5 months. Anthropic is at $965B. The infrastructure for *building and running* autonomous systems is worth more as the compute gets cheaper, not less.
+
+Why?
+
+Because the bottleneck shifts from compute to architecture. When tokens are cheap, the constraint becomes: do you have the infrastructure to run agents reliably at scale? Do you have governance? Memory management? Audit trails?
+
+Cheap compute is a commodity. Production-grade autonomous systems infrastructure is not.
+
+**The Jevons Paradox is real**
+
+Enterprise AI bills keep rising despite the 1,000x cost collapse. Agentic workflows burn 5-30x more tokens per task than simple chatbot queries. Lower per-token cost → more complex tasks → more tokens → higher total bill.
+
+The companies winning this market are not the ones who made tokens cheap. They're the ones who made using tokens at scale reliable and governable.
+
+That's why Factory tripled. That's why "self-improving software" is worth $5B. The moat isn't the model — it's the operational architecture.
