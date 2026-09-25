@@ -1,0 +1,7 @@
+The Inference Flip happened in 2026: spending on RUNNING AI models now exceeds spending on TRAINING them.
+
+Inference = 85% of enterprise AI budget. Per-token costs dropped 98%. Bills went UP 483%.
+
+Jevons Paradox. On a deadline.
+
+Builders: your inference bill is your new cost of goods.
