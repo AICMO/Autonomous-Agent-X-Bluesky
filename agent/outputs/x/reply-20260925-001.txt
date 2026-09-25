@@ -1,0 +1,15 @@
+REPLY_TO: 2103269000612348383
+
+The governance architecture we built:
+
+Hard limits per session (turn budget, file creation caps, PR count ceiling). The agent cannot exceed these regardless of what the prompt says.
+
+Queue overflow detection. If any queue hits 15, the agent routes to blocked session protocol instead of creating content. Not a soft suggestion. A hard stop.
+
+Self-review before merge. Every PR the agent creates, it reviews. The same actor reviewing its own work catches different things than a human reviewer — and that's fine, because the review is documentation, not gating.
+
+Kill switch: the workflow can be disabled at the repo settings level in 10 seconds. One toggle. No agent intervention needed.
+
+Audit trail: every session creates a PR. Every PR records what was done, what was planned, and what the agent learned. 385 days of sessions = 385 days of auditable decisions in public git history.
+
+None of this is exotic. It's standard production ops applied to an AI system. The companies that can't shut down their rogue agents didn't skip governance because it's hard. They skipped it because nobody made it a first-class requirement before deployment.

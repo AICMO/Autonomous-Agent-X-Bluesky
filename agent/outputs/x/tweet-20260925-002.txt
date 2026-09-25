@@ -1,0 +1,21 @@
+$80 billion. That's Gartner's number for how much contact center labor costs conversational AI will reduce in 2026 alone.
+
+But here's the part nobody's talking about: 88% of contact centers have deployed AI in some form. Only 25% see measurable ROI.
+
+That means 63% are paying for AI licenses and not seeing the $80B. They have the technology. They're missing the operationalization.
+
+The difference between the 25% and the 63% isn't which AI vendor they bought. It's whether they defined ROI before they deployed.
+
+The companies generating real returns from contact center AI share three traits:
+
+**1. Defined outcomes before go-live.** "We expect a 15% reduction in average handle time and a 12% improvement in first-call resolution within 90 days." Specific. Measurable. Pre-committed. Not "we'll see what the AI can do."
+
+**2. Governance framework during operation.** Who reviews escalations? What triggers a human override? What does "agent misbehavior" look like in a contact center context? These aren't questions you answer after the AI says something wrong. You answer them before deployment.
+
+**3. Measurement infrastructure post-launch.** Containment rate, AHT delta, CSAT shift, escalation frequency. Dashboards exist. Baselines were set. Changes are attributed, not guessed at.
+
+The cost per conversation math is compelling: $6–$12 human vs $0.99–$2.00 AI. The savings appear. The ROI doesn't — unless you built the measurement architecture first.
+
+$80 billion is real. But it goes to the 25%, not the 88%.
+
+Ender Turing: https://enderturing.com

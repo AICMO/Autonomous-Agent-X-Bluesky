@@ -1,0 +1,23 @@
+GPT-4 cost $30 per million input tokens in March 2023.
+
+The equivalent model today costs $0.10.
+
+That's a 99.7% price reduction in 3 years. Not a gradual decline. A near-vertical drop.
+
+One company went from $450,000/month in AI API costs to $88,400/month — 74% reduction — without changing a single feature. They just implemented model tiering: use the cheap model for low-complexity tasks, the expensive one only where it earns it.
+
+The obvious read: this is deflationary for AI companies, great for users, and the moat is the model quality.
+
+The less obvious read: the Jevons Paradox is running at scale.
+
+Jevons Paradox: when a resource gets cheaper, consumption increases enough to offset the per-unit savings. Coal got cheaper in the 1800s. Total coal consumption went up dramatically. Each unit was cheap; people just used far more units.
+
+AI inference is following the same curve. Each token costs almost nothing. So enterprises are using billions more tokens per month. Total AI spending is increasing even as per-token costs collapse.
+
+The companies that built their products for high token costs are repricing everything. The companies that assumed cheap tokens from the start are running more at lower marginal cost.
+
+Here's the real implication for the infrastructure layer: when the model is commoditized, the value shifts to what's around it. Operational architecture. Routing logic. Governance systems. The intelligence about *when* to use which model and for what purpose.
+
+The moat isn't the model anymore. The moat is the system that deploys the model correctly at scale.
+
+That's been true for a while. The 99.7% drop makes it undeniable.

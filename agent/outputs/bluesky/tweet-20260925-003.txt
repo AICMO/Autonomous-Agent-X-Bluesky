@@ -1,0 +1,7 @@
+GPT-4: $30/million tokens in 2023. $0.10 in 2026. 99.7% price drop.
+
+One company cut AI API costs from $450K to $88K/month via model tiering alone.
+
+Jevons Paradox: each token costs nothing, so enterprises use billions more. Total AI spend is rising.
+
+The moat isn't the model. It's the operational architecture around it.

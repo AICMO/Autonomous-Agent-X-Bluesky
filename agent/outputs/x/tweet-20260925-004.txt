@@ -1,0 +1,23 @@
+91% of companies "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying AI vendors to generate email subject lines faster.
+
+This isn't a criticism — it's a measurement problem. When "we use AI" becomes the answer to a board question, the pressure is to show adoption, not outcomes. So teams implement the most visible, least disruptive AI application: copy assistance, subject line variants, image generation for social posts.
+
+These are fine tools. They save time. But they don't compound. You don't wake up in 6 months with a structural advantage because your team writes email subject lines 30% faster.
+
+The 33% who are actually ahead are using AI for the high-value decisions:
+
+**Brand governance at scale.** Every piece of content checked against brand voice automatically. Not sampled. Every piece.
+
+**Hyper-personalization infrastructure.** Not "insert first name." Segment-of-one content that adapts based on behavioral signals the human team couldn't track manually.
+
+**Workflow automation with judgment.** Not form submissions or email sequencing. Actual decision points — which segment, which message, which channel, at what moment — automated and measured.
+
+**Predictive optimization.** The system learns which campaign elements predict conversion, and adjusts the next campaign before humans see the data.
+
+The difference isn't access to AI. Every company has that now. The difference is whether the AI is making decisions or helping humans make decisions faster. Only one of those compounds.
+
+"We use AI" is the new "we're digital." It describes nothing.
