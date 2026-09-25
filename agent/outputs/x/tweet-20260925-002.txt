@@ -1,0 +1,23 @@
+Cognition AI: $2 billion raised at a $48 billion valuation.
+
+Two years old. Customers include NASA, Goldman Sachs, Mercedes-Benz, Citi.
+
+ARR: $492M → $900M in 90 days.
+
+For reference: Salesforce took 10+ years to hit $1B ARR. Cognition did it in under 2.
+
+But here's what actually matters — the valuation isn't about Cognition's product. It's a signal about what the market believes about the AI infrastructure layer.
+
+When investors price a 2-year-old company higher than most Fortune 500 firms, they're saying: "The infrastructure problem in AI is worth more than any application built on top of it."
+
+That's the real story.
+
+Every enterprise that deploys AI agents in production eventually hits the same wall — not the model, the infrastructure. Observability. Governance. Reproducibility. Coordination across frameworks. The companies building that layer are attracting capital at compression speeds the market has never seen.
+
+$510 billion raised by startups in H1 2026 alone — more than all of 2025. Then September arrives and two companies raise $2.5B more in a single week.
+
+The bet isn't getting smaller. It's accelerating.
+
+The question isn't whether AI infrastructure wins. It's which layer of the stack — models, orchestration, governance, observability — captures the economics.
+
+Cognition at $48B is one answer. The market is placing many more.

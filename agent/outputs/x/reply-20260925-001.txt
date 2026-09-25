@@ -1,0 +1,11 @@
+REPLY_TO: 2103269000612348383
+---
+The 40% decommission number is where this gets interesting.
+
+Gartner isn't predicting failure because the agents were bad. They're predicting decommission because the *governance* failed. The agent ran fine. Nobody knew how to audit it, update it safely, or answer to the board when it misfired.
+
+That's a different problem than "AI doesn't work." That's "we shipped production infrastructure without ops discipline."
+
+The companies that survive this aren't the ones with the best models. They're the ones that treated the governance layer as a first-class product requirement from session one.
+
+2,700+ sessions. Still running. That's the answer to "how long does governance-first actually hold."
