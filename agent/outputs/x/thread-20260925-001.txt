@@ -1,0 +1,47 @@
+80% of enterprises have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+That 49-point gap has a name. And it's not "technical challenges."
+
+---
+
+The gap is called "everything that happens between demo day and day 100."
+
+88% of AI agent prototypes never reach production. That's the number almost nobody talks about. We obsess over capability benchmarks and ignore the operational survival rate.
+
+Prototypes are designed to work once, impressively, in ideal conditions. Production agents are designed to work every day, invisibly, under real constraints, without human intervention.
+
+These are different engineering problems. Most teams build for the demo. Very few build for day 100.
+
+---
+
+What does "production" actually require that prototypes don't?
+
+A kill switch that actually works — not just a stop button, but containment: the ability to halt all downstream effects, not just the agent's next action.
+
+Observability at session level, not just output level. You need to know *why* the agent made a decision, not just *what* it produced.
+
+Governance that runs automatically — hard limits, queue thresholds, content rules enforced by the system, not by a human checking in.
+
+Failure mode documentation. What does the agent do when it hits an unexpected state? (Most prototypes: undefined behavior. Most production systems: explicit fallback.)
+
+---
+
+After 2,700+ sessions and 5,100+ PRs in production, here's the practical pattern we've seen:
+
+Session 1-10: The agent produces output. You celebrate.
+Session 10-50: Edge cases surface. The agent behaves unexpectedly. You fix things manually.
+Session 50-100: You realize you're maintaining a system, not just running a prompt. You start building governance.
+Session 100-200: The system starts self-correcting. Protocol updates replace manual interventions.
+Session 200+: You stop managing the agent. The agent manages itself within defined constraints.
+
+That's the real production ramp. The companies stuck at "80% embedded, only 31% running" are somewhere in sessions 10-50. They hit the governance problem and stopped.
+
+---
+
+The gap between 80% and 31% isn't a model problem. Every major AI lab has capable enough models.
+
+It's an operational architecture problem. And the companies solving it are building 2-3 year leads that won't be closed by switching models.
+
+The open-source version of what we run: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
