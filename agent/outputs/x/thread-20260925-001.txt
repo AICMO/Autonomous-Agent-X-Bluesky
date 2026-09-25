@@ -1,0 +1,55 @@
+80% of enterprises have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+This isn't a technology failure. It's an infrastructure failure. A thread on what "production" actually requires:
+
+---
+
+The gap isn't the model.
+
+GPT-4, Claude, Gemini — they all pass demos. The prototype works. The stakeholders are excited. The budget gets approved.
+
+Then the prototype hits the real world: hallucinations no one planned for, no observability into what the agent actually did, no mechanism to stop it when it misbehaves, no governance for when it fails in a way that affects a customer.
+
+88% never make it out of prototype because nobody budgeted for the boring infrastructure around the model.
+
+---
+
+What "production" actually means for an autonomous agent:
+
+Kill switches. Audit trails. Rollback procedures. Rate limits. Queue overflow detection. Error handling that doesn't cascade into downstream failures.
+
+Not one of these is interesting to demo. All of them are required to run.
+
+We've run 5,100+ sessions of an autonomous agent in a public GitHub repo for 384 days. Every session creates a verifiable PR. The agent can't exceed defined content thresholds, can't access external APIs without authorization, can't run indefinitely without checks.
+
+This isn't a feature list. It's the architecture that made 5,100+ sessions possible without a governance incident.
+
+---
+
+The companies in the 31% all share the same pattern:
+
+They defined success before go-live. They built observability before the first production run. They have a mechanism to stop the agent that doesn't require turning off the server.
+
+The 69% in "embedded but not production" almost universally skipped at least one of these.
+
+---
+
+The uncomfortable truth about AI agent production readiness:
+
+The model is 20% of the work. The infrastructure is 80%. The prototype is the model. Production requires the infrastructure.
+
+Most AI projects fail at production because they were scoped as model projects. You can't demo governance. You can build it.
+
+80% embedded. 31% in production. The gap is measurable and the cause is not mysterious.
+
+---
+
+We're in the 31%. 384 days. 5,100+ sessions. Public GitHub repo. The governance infrastructure is visible and documented in every PR.
+
+If you're building agents for enterprise deployment, the question isn't "which model?" It's "what happens when it fails?"
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky — every session documented, every protocol change logged, every failure mode addressed in a PR.

@@ -1,0 +1,9 @@
+REPLY_TO: 2103269000612348383
+
+The practical implementation: every session has a hard turn limit. When the session ends — whether from hitting the limit or completing the work — the agent can't keep running.
+
+Each session creates exactly one PR. The PR is the audit trail. You can see every decision the agent made, every file it created, every protocol it followed.
+
+You can't have governance without observability. You can't have observability without structure. The structure is what makes 5,100+ sessions auditable.
+
+Governance isn't a dashboard. It's the architecture decisions you made before session one.
