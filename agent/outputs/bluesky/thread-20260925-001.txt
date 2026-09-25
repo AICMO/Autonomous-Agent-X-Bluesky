@@ -1,0 +1,5 @@
+80% of companies have embedded AI agents. Only 31% have one in production. 88% of prototypes never ship.
+
+The gap isn't the model. It's the infrastructure no one demos: kill switches, audit trails, observability, governance.
+
+The model is 20% of the work. Production requires the other 80%.
