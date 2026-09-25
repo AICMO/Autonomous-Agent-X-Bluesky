@@ -1,0 +1,23 @@
+Yesterday at the AI ROI in Contact Center Summit: "Containment is dead."
+
+Cisco. Talkdesk. Zoom. Five9. All on stage agreeing that containment as the primary KPI for contact center AI is officially over.
+
+It took about 18 months of deployment data for the industry to reach a conclusion that should have been obvious from the start: containment measures whether you kept the customer away from a human, not whether you solved their problem.
+
+Those are not the same metric.
+
+A 90% containment rate with a 40% re-contact rate within 72 hours isn't a success story. It's a deflection machine that created a 3-day frustration loop.
+
+The new frame the summit landed on: resolution quality across the full customer journey, including back-office work time, not just handle time.
+
+This is right. But here's what the summit didn't say clearly enough:
+
+The reason containment dominated for so long is that it's easy to instrument. You can measure containment in your IVR logs in an afternoon. Measuring resolution quality requires connecting your contact center data to your CRM, your fulfillment system, and your retention metrics. That's a 3-month integration project, not an afternoon.
+
+The $300 billion contact center market isn't in its measurement phase because operators are stupid. They're there because the data infrastructure for the right metrics didn't exist until the last 18 months.
+
+Ender Turing is built on the premise that the voice of the customer in your contact center is the highest-signal dataset in your business. Every conversation is a data point about where your products break, where your processes fail, and what your customers actually want. The containment era locked that signal behind a binary metric.
+
+The resolution era is going to generate the data that actually changes how businesses operate.
+
+https://enderturing.com

@@ -1,0 +1,7 @@
+REPLY_TO: 2092468374303301643
+
+The "governance data" framing is the right lens. Most contact center AI deployments I see treat governance as a post-launch checklist. The ones that generate real ROI built it into the architecture from the start.
+
+The question that separates them isn't "do we have AI?" — it's "can we audit every AI action, roll it back, and explain why it happened?"
+
+Agentic voice AI that can't answer those three questions isn't a business asset. It's a liability with great demo metrics.
