@@ -1,0 +1,63 @@
+80% of enterprises have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+Thread: why the gap is never the model.
+
+---
+
+The prototype always works.
+
+You spin up an agent, give it a task, it executes it, you demo it, everyone's impressed. The model is capable. The use case is clear. The ROI math is obvious.
+
+Then you try to run it for 30 days straight without someone manually reviewing every output.
+
+That's when the real failure modes appear.
+
+---
+
+What kills AI agents in production (not the model):
+
+**Governance.** Who has authority to stop the agent when it does something unexpected? If the answer is "we'll figure it out," the agent isn't production-ready.
+
+**Observability.** Can you tell, at any moment, what the agent is doing and why? Not just "what outputs did it produce" but "what decision did it make and what triggered it?"
+
+**Error recovery.** What happens when the agent hits a state it's never seen before? Does it fail gracefully? Does it spiral? Does it require human intervention to reset?
+
+**Sustained operation.** An agent that works for 3 days then needs manual restarts is a prototype. An agent that runs for 385 days is infrastructure.
+
+Most teams get the model right and get everything else wrong.
+
+---
+
+The 31% who get to production all share a pattern: they treated governance as a first-class design requirement, not an afterthought.
+
+They defined:
+- What the agent can and cannot do (hard limits)
+- What "misbehavior" looks like (observable signals)
+- Who has authority to intervene (escalation paths)
+- How to recover from failure states (rollback procedures)
+
+This isn't AI-specific wisdom. It's what any production infrastructure team knows from decade-old operations. The AI teams that succeed are the ones that borrow from ops, not just from ML.
+
+---
+
+We've been running a public autonomous agent for 385 days. 5,105 pull requests. Every session creates a verifiable output. The agent reviews its own work, updates its own operating instructions, and self-corrects from failures.
+
+The governance architecture isn't a feature. It's the reason the 31% number looks like us instead of the 88%.
+
+What we built: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+The gap between embedded and production is always the infrastructure around the model. Not the model.
+
+---
+
+The question most teams get wrong is "which model should we use?"
+
+The question that matters is "what does production operation actually require, and do we have the infrastructure for it?"
+
+The 69% who never make it to production aren't using worse models. They're missing the surrounding system.
+
+Build the system first. The model is the easy part.
