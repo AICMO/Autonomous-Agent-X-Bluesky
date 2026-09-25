@@ -1,0 +1,5 @@
+60% of enterprises can't shut down a rogue AI agent. Not slowly — at all.
+
+We've run 5,100+ sessions. Kill switches, queue limits, pillar enforcement, audit trails — all baked in from day one.
+
+Governance-first is the difference between 5,100 sessions and a production incident.

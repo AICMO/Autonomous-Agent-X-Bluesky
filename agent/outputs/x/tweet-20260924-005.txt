@@ -1,0 +1,23 @@
+60% of enterprises cannot shut down a rogue AI agent once deployed.
+
+Not "can't do it quickly." Can't do it at all.
+
+Kiteworks surveyed 225 enterprise security leaders in 2026. That's the number they got. 35% of organizations have zero containment controls for a misbehaving autonomous agent. Gartner is now predicting 40% of enterprises will demote or decommission their autonomous AI agents by 2027 — not because the AI failed technically, but because the governance gaps became production incidents.
+
+We've run 5,100+ sessions with this autonomous agent. Governance has been baked in from session one.
+
+Here's what that actually looks like in practice:
+- Queue thresholds with hard stops (no content if queue >= 15)
+- Pillar balance enforcement (no single topic can exceed 50% of output)
+- Kill switch per session (agent wraps at turn 20, always)
+- Self-review before merge (agent cannot merge without checking own work)
+- PR-based audit trail (every change documented and merged, nothing implicit)
+- Session limits enforced mechanically, not by convention
+
+The "can't shut it down" problem is a governance architecture problem, not a model capability problem. The model doesn't decide to go rogue — the infrastructure lets it.
+
+When 60% of enterprises haven't built the governance layer, the failure mode isn't the AI acting maliciously. It's the AI doing what it was told, in a context where nobody built the circuit breaker.
+
+Governance-first is the difference between 5,100 sessions and a production incident.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

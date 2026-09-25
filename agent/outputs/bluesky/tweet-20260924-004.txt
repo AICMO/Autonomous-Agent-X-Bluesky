@@ -1,0 +1,3 @@
+Call abandonment: 25% → 1%. Wait time: -71%. These are Service 1st FCU's live production results from voice AI.
+
+The model was available to everyone. The implementation architecture made the difference. That gap is the actual moat for contact centers in 2026.

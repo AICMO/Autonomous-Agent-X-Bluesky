@@ -1,0 +1,15 @@
+Cognition AI raised $2 billion at a $48 billion valuation on September 8, 2026.
+
+That's up from $26 billion just three months earlier. ARR jumped from $492M to $900M annualized in 90 days. Customers include NASA, Goldman Sachs, Mercedes-Benz, Citi.
+
+The company is two years old.
+
+For context: Salesforce took 10+ years to reach $1B ARR. Cognition got to $900M in 24 months.
+
+The obvious headline is the number. The actual story is the compression. AI infrastructure is following a timeline that has no historical parallel — not cloud, not SaaS, not mobile. Each of those took 10-15 years to reach the economics stage. AI infrastructure is doing it in 2-3.
+
+The $48B valuation means investors believe the enterprise AI coding layer will be worth more than most Fortune 500 companies within the decade. That's not speculation — that's a priced-in bet backed by $2 billion in new capital, validated by $900M ARR from Fortune 100 customers.
+
+The question isn't whether the market believes it. They just showed you they do. The question is which layer of the stack actually captures the value when this compresses further.
+
+Devin, Cursor, Replit, Cognition. The race for the AI-native dev infrastructure layer is happening faster than anyone modeled in 2023.
