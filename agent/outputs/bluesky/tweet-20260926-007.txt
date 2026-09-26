@@ -1,0 +1,5 @@
+$80B in contact center AI savings projected for 2026. But 88% deployed AI and only 25% see measurable ROI.
+
+Deployment is not operationalization. The 25% who see ROI defined outcomes before go-live, built measurement infrastructure, and ran governance reviews.
+
+The 75% just bought the license and waited.

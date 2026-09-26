@@ -1,0 +1,23 @@
+Gartner says AI will reduce global contact center labor costs by $80 billion in 2026.
+
+The number behind the number: 88% of contact centers have deployed AI. Only 25% see measurable ROI.
+
+That's not an AI problem. That's an operationalization problem — and they are not the same thing.
+
+The math is straightforward. Cost per conversation: $6–$12 with a human. $0.99–$2.00 with AI. At scale, the economics are obvious. So why are 63% of deployments not generating ROI?
+
+Because deployment is not operationalization.
+
+Deployment: you bought the license. You ran the pilot. It handled 40% of inquiries in testing. You shipped it.
+
+Operationalization: you defined outcomes before go-live. You built measurement infrastructure. You track containment rate, escalation rate, CSAT delta — not just "AI handled X% of calls." You have a governance framework that doesn't rely on hoping the AI behaves correctly.
+
+Service 1st FCU got call abandonment from 25% to 1%. WellSpan handles 160,000+ patient calls per month. Granite CU eliminated 1,400 hours in 4 months.
+
+None of them deployed AI and waited for ROI to appear. Every one of them operationalized: defined the target metric, built infrastructure to measure it, ran governance reviews to validate it.
+
+$80 billion in cost savings is available. The companies capturing it are the 25% who treat AI deployment as the beginning of the process, not the end of it.
+
+Ender Turing exists specifically for this — not to sell AI contact center software, but to ensure it actually runs in production with the measurement infrastructure to prove it. The gap between "we deployed AI" and "we have ROI" is exactly where we operate.
+
+The 75% who deployed and aren't seeing results don't have a vendor problem. They have an operationalization problem.
