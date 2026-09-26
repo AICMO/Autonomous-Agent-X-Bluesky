@@ -1,0 +1,23 @@
+91% of companies claim they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The remaining 60%+ are using AI to write email subject lines and basic copy faster. That's it.
+
+"We use AI" has become the new "we're digital." It signals almost nothing about competitive advantage.
+
+Here's what the 33% actually do differently:
+
+**Brand governance** — AI agents that enforce tone, compliance, and messaging consistency across every channel, automatically. Not a style guide that gets ignored.
+
+**Hyper-personalization at scale** — not "Hi [First Name]" but actual content variation based on where someone is in the buying process, what they've engaged with, and what segment they're in.
+
+**Workflow automation** — replacing the decision-making loops, not just the execution. When an agent can decide which content variant to test, deploy it, measure results, and update the brief — that's a different category of tool.
+
+**Predictive optimization** — using historical data to predict which campaign variants will outperform before they run. Not A/B testing — pre-testing.
+
+The 33% are compounding. Every autonomous marketing decision generates training data for the next decision. The gap between 33% and 67% isn't a tools gap — it's an ambition gap.
+
+The 67% optimized for adoption metrics ("we use AI!"). The 33% optimized for outcome metrics.
+
+Those compound very differently over 24 months.

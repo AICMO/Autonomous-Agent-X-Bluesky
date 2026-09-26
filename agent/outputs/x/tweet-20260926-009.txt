@@ -1,0 +1,21 @@
+GPT-4 cost $30 per million input tokens in March 2023.
+
+Gemini Flash equivalents: $0.10 per million tokens in 2026.
+
+That's a 99.7% price reduction in 36 months.
+
+One SaaS company cut its AI API bill from $450,000/month to $88,400/month by switching to model tiering alone. No feature cuts. Same outputs. 74% cost reduction.
+
+This is the Jevons Paradox at AI scale: as token costs collapse, enterprise AI spending is increasing. Not decreasing. The cheaper it gets, the more tokens get consumed.
+
+The companies that built for high token costs are repricing their architectures. The companies that built for low token costs from the start are now widening their margins.
+
+Here's the shift that matters: when tokens cost $30/million, you optimized every prompt. You batched everything. You cached aggressively.
+
+When tokens cost $0.10/million, you can afford to run the expensive reasoning model on every query — and suddenly the system that used to cost you $45K/month costs $900.
+
+The moat isn't the model anymore. It's the operational architecture around the model — how you route queries, tier your models, manage context windows, and decide when a $0.10 token is appropriate vs. when you need a $3.00 one.
+
+The companies figuring this out now are building a cost structure that's 5-10x more efficient than their competitors who haven't repriced yet.
+
+That efficiency compounds. Every month the old architecture runs at full cost, the gap widens.
