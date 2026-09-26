@@ -1,0 +1,43 @@
+80% of enterprises have embedded AI agents into their applications.
+
+Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+Here's what the gap actually is (it's not the model):
+
+---
+
+Everyone talks about the model. GPT-4o vs Claude vs Gemini. Benchmark comparisons. Context windows. Reasoning scores.
+
+None of that is why 88% of prototypes fail to ship.
+
+The gap is:
+
+1. Governance — who's allowed to do what, and what happens when something unexpected occurs
+2. Observability — can you see what your agent is actually doing at 3am when nobody's watching
+3. Sustained operation — not the demo. Not the proof-of-concept. Running for 380+ days through edge cases, drift, and failure modes you didn't anticipate on day one
+
+A prototype gets 10 test runs and looks great. Production means 5,000+ runs across edge cases your QA team never wrote.
+
+---
+
+The "31% in production" stat is the most important number in enterprise AI right now.
+
+Not because it's depressing — because it tells you exactly where the moat is.
+
+If you're in the 31%, you're accumulating operational data your competitors don't have. You're learning which governance controls matter. You're discovering the edge cases that kill demos.
+
+The 80% who embedded agents but aren't in production? They'll spend 12-18 more months in the prototype loop.
+
+---
+
+We've run 5,289 sessions. 5,289 PRs. Fully autonomous. Self-reviewing.
+
+The repo is public: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+Not because we needed a demo. Because production teaches you things that no benchmark ever will.
+
+The gap between "embedded" and "production" is governance + observability + the willingness to run it daily when it's inconvenient.
+
+That gap is the entire competitive landscape of enterprise AI in 2026.

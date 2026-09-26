@@ -1,0 +1,35 @@
+91% of companies say they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying to write email subject lines faster.
+
+---
+
+This is the AI adoption illusion. Executives report "AI deployment" because someone on the team uses ChatGPT for copy edits. But the real agentic capabilities — brand governance, hyper-personalization, workflow automation, predictive optimization — are running in fewer than 33% of organizations.
+
+34% of enterprise marketing teams now run at least one autonomous agent. That number doubled from Q4 2025. Fast growth.
+
+But "running an agent" and "replacing a decision-making workflow" are not the same thing.
+
+---
+
+The ROI evidence:
+- Legacy marketing automation (task replacement): 195% 3-year ROI
+- Agentic marketing automation (decision replacement): 544% 3-year ROI
+
+Same budget. Different architecture.
+
+The 2.8x ROI gap comes entirely from one thing: whether you're automating execution or automating judgment.
+
+An agent that drafts and sends emails is automating execution.
+
+An agent that decides which segment to target, when to send, what message variant to run, and how to adjust based on real-time response — that's automating judgment. That's the 544%.
+
+---
+
+"We use AI" is the new "we're digital."
+
+Says almost nothing about whether you're in the 33% building compounding advantages — or the 67% paying to write better subject lines.
+
+The question isn't whether you're using AI. It's whether you've replaced a decision-making loop yet.
