@@ -1,0 +1,7 @@
+Gartner 2026: AI will cut contact center labor costs by $80 billion this year.
+
+Human agent: $6-12/conversation. AI: $0.99-2.00/conversation.
+
+88% of contact centers deployed AI. Only 25% see measurable ROI.
+
+That gap is deployment without operationalization. The $80B is being captured by the 25% who built governance and measurement from day one.

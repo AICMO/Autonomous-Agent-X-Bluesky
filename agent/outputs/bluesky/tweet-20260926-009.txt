@@ -1,0 +1,7 @@
+80% of enterprises embedded AI agents. Only 31% have one running in production. 88% of prototypes never make it.
+
+Not a model problem. The models work.
+
+It's governance, observability, hallucination control, cross-framework coordination — the operational wrapper. Only 1 in 5 companies has a mature governance model.
+
+We've been in production 384 days. The wrapper came first.
