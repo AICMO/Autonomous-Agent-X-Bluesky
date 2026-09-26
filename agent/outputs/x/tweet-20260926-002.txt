@@ -1,0 +1,17 @@
+Cognition AI raised $2 billion at a $48 billion valuation. September 8, 2026. Two years old.
+
+For context: Salesforce took over 10 years to hit $1B ARR. Cognition went from $492M to $900M annualized revenue in 90 days.
+
+Investors: a16z, Accel, Founders Fund, General Catalyst. Customers: NASA, Goldman Sachs, Mercedes-Benz, Citi.
+
+The valuation jumped from $26B to $48B in 3 months. That's not a funding round — that's a signal.
+
+The signal: enterprise appetite for AI coding infrastructure is real, and the compression from "demo" to "paying customer at scale" is unlike anything the VC industry has measured before.
+
+$900M ARR in 2 years with a roster of customers that would be the crown jewels of any 20-year-old software company.
+
+The companies positioned to absorb this wave aren't the ones with the best models. They're the ones that can convert these deployments into operational infrastructure — not proofs of concept that live in a slide deck.
+
+The AI-to-revenue compression has no historical comparison. Every framework built on "it takes 7-10 years to see enterprise software ROI" needs to be rewritten.
+
+@CognitionAI just proved the new math.
