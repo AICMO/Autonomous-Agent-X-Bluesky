@@ -1,0 +1,5 @@
+80% of enterprises embedded AI agents. Only 31% run in production.
+
+The gap isn't the model. It's governance, observability, and the willingness to run daily for 380+ days through edge cases.
+
+5,289 sessions in. The gap is the entire competitive landscape.

@@ -1,0 +1,41 @@
+$80 billion.
+
+Gartner's number for contact center labor cost reduction by AI in 2026. Not a projection for 2030. This year.
+
+The obvious take: AI is eating call center jobs.
+
+The actual story: 88% of contact centers have deployed AI. Only 25% see measurable ROI.
+
+That gap should not exist.
+
+---
+
+Cost per conversation:
+- Human agent: $6–$12
+- AI: $0.99–$2.00
+
+McKinsey and IBM data: 50% cost-per-call reduction in some deployments.
+
+The math is simple. The deployment is not.
+
+---
+
+The 63% who deployed AI without measurable ROI made the same mistake in different ways.
+
+They bought a product. They didn't build an operation.
+
+The difference:
+
+**Deployment** = you install the AI, train it on your knowledge base, set it live.
+
+**Operationalization** = you define what success looks like before go-live, build measurement infrastructure, create governance processes for when the AI fails (because it will), track containment rates, AHT changes, CSAT impact weekly.
+
+One gives you a vendor invoice. The other gives you the $80B.
+
+---
+
+The 25% seeing measurable ROI all share the same pattern: they defined outcomes before launch, built governance during operation, and measured continuously post-launch.
+
+Not because they had better AI. Because they treated it like an operation, not a product.
+
+$80 billion in 2026. Most of it going to the 25% who knew that difference before they started.
