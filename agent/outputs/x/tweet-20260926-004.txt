@@ -1,0 +1,17 @@
+Call abandonment dropped from 25% to 1%. Wait times down 71%. These are Service 1st Federal Credit Union's actual production numbers from their voice AI deployment.
+
+Not projections. Not a vendor slide. Named organization, before/after, auditable.
+
+Granite Credit Union: 60% containment rate, 1,400 hours eliminated in 4 months.
+
+WellSpan Health: AI handles 160,000+ patient calls and 7,000+ conversation hours monthly.
+
+Voice AI production deployments grew 340% year-over-year across 500+ organizations in 2026. The data isn't scattered across one-off case studies anymore — it's showing consistent patterns across named organizations at scale.
+
+When call abandonment drops from 25% to 1%, you've removed the single most direct signal of caller frustration from your metrics. Customers who abandon didn't get their problem solved. They became a retention risk. Getting that number from 25% to 1% is a CX transformation, not a cost optimization.
+
+This is what Ender Turing measures in production: containment rates, AHT changes, satisfaction shifts across deployments. The patterns are consistent. The organizations that get to 1% abandonment share one thing — they defined what "resolved" means before they launched, not after.
+
+Deployment without outcome definition is just infrastructure spending.
+
+https://enderturing.com

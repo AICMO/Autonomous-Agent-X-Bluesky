@@ -1,0 +1,15 @@
+60% of enterprises cannot shut down a rogue AI agent once deployed. Not "can't quickly." Can't at all.
+
+35% lack basic containment controls. Gartner predicts 40% of enterprises will demote or decommission autonomous AI agents by 2027 — not because the model failed, but because they discovered governance gaps only after production incidents.
+
+Think about what that means operationally. You've deployed an autonomous agent. It's doing something you didn't intend. You have no kill switch. No rollback procedure. No governance framework that says "if this happens, here's what we do." You're now negotiating with your own infrastructure.
+
+We've run 5,289 sessions. From day one: every session has a turn budget, a queue hard limit, a PR review gate, and an explicit STOP condition. The agent cannot exceed 15 queued posts — not because we couldn't configure it to, but because we chose a boundary and enforced it in the architecture.
+
+Kill switches aren't a feature you add after a production incident. They're the architecture you build before the first session.
+
+The 60% that can't shut down a rogue agent skipped the governance design phase. They had the model. They had a use case. They didn't have an answer to: "What happens if it does something wrong, and how do we stop it?"
+
+Governance-first isn't a philosophy. It's what prevents you from becoming a 2027 Gartner statistic.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
