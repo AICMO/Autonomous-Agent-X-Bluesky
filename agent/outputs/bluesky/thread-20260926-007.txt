@@ -1,0 +1,5 @@
+80% of companies have embedded AI agents. Only 31% have one in production. 88% of prototypes never make it.
+
+It's never the model. It's governance, observability, and the willingness to operate it daily.
+
+We've run 5,289 sessions. Production is the starting line, not the finish line.

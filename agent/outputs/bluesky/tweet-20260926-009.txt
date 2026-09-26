@@ -1,0 +1,5 @@
+$30 per million tokens in 2023. $0.10 in 2026. 99.7% price drop.
+
+One company cut its AI bill from $450K to $88K/month via model tiering alone.
+
+The moat isn't the model. It's the operational architecture — how you route, tier, and manage context at scale.
