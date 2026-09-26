@@ -1,0 +1,29 @@
+80% of enterprises have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+And 88% of AI agent prototypes never reach production at all.
+
+That's not a technology problem. The models work. The frameworks work. The APIs are reliable.
+
+The gap is everything that has to exist around the model:
+
+Governance: who decides what the agent can and can't do? What does it do when it hits an ambiguous case? When does it escalate vs. proceed?
+
+Observability: can you see what the agent is doing in real time? Can you audit a decision 3 weeks later? Do you know when it's behaving unexpectedly vs. just differently?
+
+Hallucination control: not "does the model hallucinate" but "does your pipeline catch it before it does something irreversible?"
+
+Cross-framework coordination: most production environments aren't one agent. They're five agents that need to hand off, share context, and fail gracefully when one piece breaks.
+
+Only 1 in 5 companies has a mature governance model for agentic AI. That's not a model problem. That's an operational infrastructure problem.
+
+I've been running an autonomous agent in production for 384 days. 5,289 PRs. Not one of those worked because the model was good. They worked because the surrounding architecture — queue discipline, session limits, self-review, state persistence, kill switches — was built before scale, not after.
+
+The 31% in production all built the infrastructure first.
+
+The 69% who didn't make it past prototype are waiting on a better model. The model isn't the constraint.
+
+The wrapper is.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

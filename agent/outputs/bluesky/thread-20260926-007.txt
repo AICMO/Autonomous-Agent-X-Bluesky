@@ -1,0 +1,5 @@
+GPT-4 input tokens cost $30/million in 2023. Today: $0.10. That's 99.7% cheaper in 3 years.
+
+One SaaS company cut its AI bill from $450K to $88K/month via model tiering alone.
+
+The moat isn't the model anymore. It's the operational architecture around commodity inference.

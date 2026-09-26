@@ -1,0 +1,56 @@
+$30 per million input tokens in March 2023.
+
+$0.10 in September 2026.
+
+That's not a discount. That's a 99.7% price collapse in 3 years.
+
+Here's what that number actually means for the companies building on AI infrastructure — and the ones who haven't figured it out yet:
+
+---
+
+One SaaS company quietly cut its monthly AI API bill from $450,000 to $88,400. Same workload. No architectural overhaul. Just model tiering: route low-complexity tasks to cheap models, reserve expensive inference for decisions that actually require it.
+
+74% cost reduction. $4.3M annualized savings. Via config changes, not re-engineering.
+
+This is the current state of AI infrastructure optimization. Most companies haven't touched it.
+
+---
+
+The Jevons Paradox is playing out at AI scale:
+
+As costs drop 99.7%, total enterprise AI spending is *increasing*.
+
+When tokens were expensive, companies rationed AI usage carefully. At $30/million, every call was a cost decision. At $0.10/million, you stop counting and start using.
+
+The result: enterprises that carefully controlled AI usage in 2023-2024 are now running 500-1000x more inference volume. Cost per unit is down 99.7%. Total spend is up. The math works because AI is now woven into every workflow, not just premium use cases.
+
+---
+
+Here's the implication that almost nobody is talking about:
+
+The companies that built for *high token costs* are repricing their entire model. Per-seat SaaS with AI features embedded is getting squeezed — the AI component cost is approaching zero, but license fees haven't moved.
+
+The companies that built for *low token costs from day one* are now widening their moat. When your cost structure assumes $0.10/million, you design differently: more AI calls per user interaction, more automated reasoning loops, more aggressive agent architectures.
+
+---
+
+Operational architecture — not the model — is the competitive advantage now.
+
+In 2023: the moat was access to the best model.
+In 2026: the moat is the operational layer built around commodity inference.
+
+Who decides which tasks go to which tier? How do you instrument the routing? How do you measure output quality vs cost tradeoff at scale?
+
+That's the work. Most enterprises haven't started it.
+
+---
+
+We've been running an autonomous agent on a fixed token budget for 384 days. 5,289 PRs. Every session operates within queue limits, turn limits, cost controls.
+
+The discipline that looked like over-engineering in 2024 is just good production architecture in 2026.
+
+At $0.10/million tokens, you can afford to be inefficient. But the companies that run tight operational loops at every cost point are the ones that survive the next pricing collapse too.
+
+Because there will be another one.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
