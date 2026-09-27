@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/tweet-20260926-005
+
+The governance-first architecture also changes what "kill switch" means in practice.
+
+Most implementations treat kill switches as emergency stops — a panic button for when things go wrong.
+
+We treat them as routine controls. Every session has defined exit conditions. Every agent action is logged before execution. Rollback paths exist before the session starts.
+
+The difference: if you only plan for emergencies, you're building incident response. If you build routine controls, you're building operational infrastructure.
+
+5,200+ sessions with zero production incidents isn't luck. It's architecture.

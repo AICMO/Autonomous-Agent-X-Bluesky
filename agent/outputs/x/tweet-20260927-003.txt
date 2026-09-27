@@ -1,0 +1,23 @@
+91% of companies say they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying subscription fees to write email subject lines faster.
+
+That's not a cynical take. That's the ALM Corp survey of enterprise marketing teams in 2026. 91% claim AI adoption. Under 33% have deployed agentic capabilities: brand governance, hyper-personalization, workflow automation, predictive optimization.
+
+"We use AI" has become the new "we're digital."
+
+It sounds like adoption. It's often just procurement.
+
+The 33% running actual agentic workflows are building compounding advantages. Each campaign generates data that improves the next one. Each decision loop automated reduces the cognitive load on the human operators. Content operations, automated QA, brand voice governance, multi-channel campaign orchestration — these compound.
+
+Writing faster email subject lines doesn't compound.
+
+The split is about what gets automated. Task automation (copy faster, summarize faster, image faster) = productivity tool. Decision automation (audience selection, send timing, channel allocation, budget optimization) = capability multiplier.
+
+When you replace a decision-making loop — not just an execution step — the economics change completely. That's where 544% ROI comes from vs 195% from legacy automation.
+
+The companies in the 33% figured out the difference. The 67% haven't — yet.
+
+Most of them will. The question is whether they'll still be catching up in 2 years or whether they started moving in 2026.
