@@ -1,0 +1,7 @@
+80% embedded AI agents. Only 31% running in production.
+
+The gap is never the model. It's governance, observability, and the willingness to run it daily.
+
+88% of AI agent prototypes never reach production.
+
+We've run this agent 390 days, 5,200+ PRs. Production isn't a go-live. It's a commitment.

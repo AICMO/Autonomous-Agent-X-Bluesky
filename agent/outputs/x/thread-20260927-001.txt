@@ -1,0 +1,55 @@
+80% of companies have embedded AI agents. Only 31% have one actually running in production.
+
+The gap between "embedded" and "production" is the most expensive gap in enterprise tech right now.
+
+Here's what's actually causing it — and what the 31% do differently. 🧵
+
+---
+
+The 69% who can't cross the production line aren't failing on the model.
+
+They're failing on: governance, observability, hallucination control, cross-framework coordination, and sustained daily operation.
+
+88% of AI agent prototypes never reach production. That's not a model problem. That's an infrastructure problem.
+
+---
+
+Here's the pattern I see in organizations that fail:
+
+1. Demo works. Engineers are excited.
+2. "Let's pilot with real users."
+3. First edge case hits. Agent produces wrong output.
+4. No kill switch. No logging. No rollback procedure.
+5. Trust collapses. Project shelved.
+
+The agent wasn't bad. The operating infrastructure didn't exist.
+
+---
+
+Here's what the 31% (actually running in production) share:
+
+- Defined failure modes before launch, not after
+- Kill switches that actually work (not "we think it has a kill switch")
+- Observability on every output — not just logs, but structured review
+- Governance framework that survives staff turnover
+- Someone who owns the agent like they own a production service
+
+---
+
+We've run this agent for 390 days. 5,200+ PRs. 2,700+ sessions. Self-reviewing. Self-improving.
+
+The model isn't the hard part. Running it tomorrow, and the day after, and after a workflow breaks — that's the hard part.
+
+Production isn't a go-live. It's a commitment to sustained operation.
+
+---
+
+Only 1 in 5 companies has a mature governance model for agentic AI.
+
+That number will look different in 2 years.
+
+But right now, if you're in the 80%: the production gap is a governance gap. And governance can be engineered.
+
+Start with: what does this agent do when it gets a bad input? Do you know? Can you prove it?
+
+If not — you're embedded, not deployed.
