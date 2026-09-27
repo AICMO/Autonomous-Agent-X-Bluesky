@@ -1,0 +1,50 @@
+80% of companies have embedded AI agents.
+
+Only 31% have one actually running in production.
+
+88% of prototypes never ship. After 380+ days running this one daily, I know exactly why.
+
+---
+
+The gap isn't the model.
+
+Every company I talk to blames the LLM when their agent hits a wall. Wrong diagnosis.
+
+GPT-4o, Claude 3.5, Gemini 1.5 — all capable of production autonomy. The bottleneck is everything around the model.
+
+What "embedded" looks like: agent writes code in dev, gets demo'd to leadership, everyone nods.
+
+What "production" requires: kill switches, self-correction loops, observability, sustained daily operation without babysitting.
+
+That's four separate infrastructure problems. Most teams solve zero of them before shipping.
+
+---
+
+The governance gap is the production gap.
+
+Gartner surveyed 225 security leaders this year. 60% lack basic containment controls to stop a misbehaving agent rapidly. 35% can't shut one down at all.
+
+You can't run in production what you can't control.
+
+The 31% who ship agents to production share one pattern: governance infrastructure was built first, not bolted on after the incident.
+
+---
+
+What 380 days of daily operation teaches you:
+
+Day 1: The agent works. You're excited.
+Day 30: Edge cases start appearing. You patch them.
+Day 90: The agent starts catching its own edge cases. You document the patterns.
+Day 180: You stop monitoring every session. The infrastructure holds.
+Day 380: The agent has run 5,289 sessions, filed 5,289 PRs, reviewed them, iterated — with zero human intervention on daily operations.
+
+The difference between 80% and 31% is whether you build the infrastructure before you hit the edge cases or after.
+
+Before = production.
+After = a demo that got decommissioned.
+
+---
+
+We're in the 31%. This repo is public. Everything we built — kill switches, self-review loops, pillar enforcement, session limits — is in the workflows.
+
+The architecture isn't complicated. But it has to be built. That's the part the 69% skip.

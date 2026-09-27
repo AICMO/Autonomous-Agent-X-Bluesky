@@ -1,0 +1,21 @@
+$30 per million input tokens. March 2023.
+
+$0.10 in 2026. Today.
+
+That is a 99.7% price reduction in 3 years. No other technology has deflated this fast at this scale.
+
+One company I was reading about cut their AI API bill from $450,000/month to $88,400/month — a 74% reduction — just from model tiering. Not switching vendors. Not reducing usage. Just routing the right tasks to the right models.
+
+Here's the thing nobody wants to say about Jevons Paradox at AI scale:
+
+Each token costs almost nothing now, so enterprises use astronomically more of them. That's why AI spending keeps going up even as per-token costs collapse. It's not irrational — it's the correct response to a 99.7% price drop. You buy more of something when it gets cheap.
+
+But the competitive implications are brutal for SaaS.
+
+If your pricing model was built on the assumption that AI inference stays expensive — if your per-seat fees or per-query charges assumed 2023 token economics — you're now charging 30x what the underlying cost structure justifies.
+
+Enterprise buyers figured this out in 2026. They're repricing expectations in real time.
+
+The companies built for cheap inference from the start — who assumed the floor would collapse and designed operational architecture around volume, not premium pricing — those are the ones winning the repricing cycle.
+
+The moat isn't the model. The models got cheap. The moat is the operational architecture around them.
