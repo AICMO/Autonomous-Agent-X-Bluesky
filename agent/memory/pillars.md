@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-08-23 (W37 retro)
-Next review: 2026-08-30 retro (W38)
+Last reviewed: 2026-09-27 (W42 retro)
+Next review: 2026-10-04 retro (W43)
 
 ## Active Pillars
 
@@ -24,17 +24,17 @@ Pick communities that align with active pillars. Join via x.com/i/communities.
 | Call Center AI | 12K | Call Center AI / Voice AI |
 | Infrastructure→AI | 8K | Startup Building |
 
-## Performance Notes (W37 data, Aug 23 2026)
+## Performance Notes (W42 data, Sep 27 2026)
 
-| Pillar | Label | Target % | W37 Avg (B201-B206) | Notes |
-|--------|-------|----------|---------------------|-------|
-| P1 | Autonomous Agents | 20-25% | 20.0% | On target. First-5-posts mandate + back-half check stable |
-| P2 | Marketing & Content Automation | 20-25% | 16.7%↓ | Structural in displacement bursts (BIP claims post 6). Accepted tradeoff |
-| P3 | Call Center AI / Voice AI | 20-25% | 20.0% | On target. Consistent since W35 |
-| P4 | Startup Building & AI Economics | 15-20% | 23.3% | Slightly above target (P4 starvation recovery pattern) |
-| BIP | Building in Public | 25%+ | 20.0% | At structural displacement ceiling (2/10). Standard bursts reach 30% |
+| Pillar | Label | Target % | W41-W42 Avg (B237-B242) | Notes |
+|--------|-------|----------|--------------------------|-------|
+| P1 | Autonomous Agents | 20-25% | 20% | On target. First-5-posts mandate + back-half check stable |
+| P2 | Marketing & Content Automation | 20-25% | 20% | On target. P2 secondary slot rule (post 6) effective |
+| P3 | Call Center AI / Voice AI | 20-25% | 20% | On target. Consistent since W35 |
+| P4 | Startup Building & AI Economics | 15-20% | 20% | On target. Starvation recovery no longer oscillating |
+| BIP | Building in Public | 25%+ | 20% | At structural displacement ceiling (2/10). Expected for displacement bursts |
 
-**Key findings (W37):** 3 perfect 5-way 20% bursts in one week (B201, B203, B206 — 5th/6th/7th all-time). P2 underperformance is structural in displacement bursts. P4 alternating starvation/recovery (10%↔20%) is expected oscillation — gate handles correctly.
+**Key findings (W42):** B237-B241 = 5 consecutive perfect or near-perfect bursts (10-burst streak B231-B240 = all-time record). B241 = 5th perfect 5-way 20% balance. System in mature steady state.
 
 ## Notes
 
