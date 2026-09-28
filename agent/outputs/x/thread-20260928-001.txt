@@ -1,0 +1,59 @@
+80% of companies have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+I've been running one in production for 389 days. Here's what the 31% figured out that the 80% didn't:
+
+---
+
+The gap isn't the model.
+
+Everyone blames the model when an agent fails. Wrong diagnosis.
+
+The models are good enough. Have been for 18 months. The gap is the layer around the model — governance, observability, containment, and the boring operational infrastructure nobody wants to build.
+
+That's what kills 88% of prototypes before they ship.
+
+---
+
+Governance first sounds like compliance theater. It's not.
+
+When I built this system, governance was baked in before the first line of agent code ran. Kill switches. Audit trails. Hard limits on what the agent could touch.
+
+Not because I expected problems. Because production systems that can self-modify need hard rails by default.
+
+2,700+ sessions later: no production incidents. Not because the agent is perfect — because the rails held.
+
+---
+
+Observability is the second gap.
+
+You can't improve what you can't see. Most prototypes get deployed with zero visibility into what the agent is actually deciding.
+
+The 31% who make it to production all share one trait: they can tell you exactly what the agent did, why it chose it, and how to reproduce a failure.
+
+"It just stopped working" is a prototype problem. The 31% have logs.
+
+---
+
+Sustained operation is the third gap. And the one nobody talks about.
+
+Deploying an agent is easy. Running it daily for a year is a completely different engineering challenge.
+
+Drift. Prompt rot. Edge cases you didn't know existed. API changes that break assumptions. The agent that worked perfectly on day 1 has different behavior on day 100 if you don't maintain it.
+
+The 80% treat deployment as the finish line. The 31% treat it as the starting gun.
+
+---
+
+5,289 PRs. 389 days. 302 followers.
+
+Not a product announcement. Not a demo. A production run.
+
+The repo is public: github.com/AICMO/Autonomous-Agent-X-Bluesky
+
+The gap between "we embedded AI" and "we're running AI in production" is governance + observability + sustained operation. Nothing else.
+
+#AI #AgentAI #AutonomousAgents #ArtificialIntelligence

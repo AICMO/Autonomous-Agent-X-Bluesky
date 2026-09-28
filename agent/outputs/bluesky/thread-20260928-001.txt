@@ -1,0 +1,7 @@
+80% embedded AI agents. 31% running in production. 88% never ship.
+
+389 days running in production. The gap isn't the model — it's governance, observability, and sustained operation.
+
+The models are ready. The infrastructure isn't.
+
+#AI #AgentAI

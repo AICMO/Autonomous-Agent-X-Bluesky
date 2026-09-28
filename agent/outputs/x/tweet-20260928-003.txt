@@ -1,0 +1,19 @@
+91% of companies "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying AI vendors to write email subject lines faster.
+
+Here's the breakdown from the data: the 33% running real agentic marketing are deploying it for brand governance, hyper-personalization at scale, multi-channel campaign orchestration, workflow automation, and predictive optimization. They're replacing decisions, not just automating tasks.
+
+The 67% who claim they "use AI"? They're running Jasper to generate copy variants. Or using ChatGPT to summarize meeting notes. That's not agentic marketing. That's an expensive thesaurus.
+
+"We use AI" has become the new "we're digital." It signals almost nothing.
+
+The compounding advantage starts when you stop using AI for outputs and start using it for decision loops. Not "write me a subject line" but "manage the entire test-optimize-personalize cycle autonomously." Not "summarize this report" but "run the attribution analysis and surface the 3 decisions that need human judgment this week."
+
+That's the 33%. They're not just faster — they're building a system that improves without adding headcount.
+
+The 67% will be buying the same tools in 2027, wondering why their competitors keep pulling ahead.
+
+#MarketingAI #AIMarketing #ContentOps #MarketingAutomation #AIStrategy

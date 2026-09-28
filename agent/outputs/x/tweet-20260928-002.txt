@@ -1,0 +1,19 @@
+GPT-4 cost $30 per million input tokens in March 2023.
+
+The equivalent model costs $0.10 in September 2026.
+
+That's a 99.7% price drop in 3 years.
+
+One company cut its AI API bill from $450,000/month to $88,400/month — a 74% reduction — just by implementing model tiering. No architectural overhaul. No new models. Just routing the right requests to the right tier.
+
+This is Jevons Paradox at AI scale. As the cost of each token approaches zero, enterprises use exponentially more of them. AI spending is going up, not down, even as per-token costs collapse.
+
+The companies winning right now aren't the ones with access to the best models — everyone has access to the same APIs. The winners are the ones who built their operational architecture assuming low token costs from day one.
+
+Routing logic. Caching layers. Prompt compression. Model tiering. The infrastructure decisions that felt like micro-optimizations three years ago are now the moat.
+
+When everyone runs on the same base models at near-zero cost, the operational layer is the only differentiator left.
+
+The model isn't the moat. It never was. The architecture around it is.
+
+#AI #LLM #AIEconomics #MachineLearning #Startups
