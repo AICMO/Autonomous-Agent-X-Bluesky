@@ -1,0 +1,31 @@
+Gartner projects AI will cut global contact center labor costs by $80 billion in 2026.
+
+$80 billion. Single year. From one technology category.
+
+But 88% of contact centers have deployed some form of AI. Only 25% see measurable ROI.
+
+The $80B headline is real. The 88%/25% gap is the actual story.
+
+---
+
+Here's what separates the 25% that generate ROI from the 63% that bought licenses and got nothing:
+
+1. **Outcome defined before go-live.** Not "reduce AHT" — specific: "cut AHT on billing calls from 7.2 to 5.5 minutes by Q3." Vague goals produce vague results.
+
+2. **Governance during operation.** The AI is wrong sometimes. The question isn't "is it wrong?" — it's "when it's wrong, who catches it, how fast, and what's the rollback?" Most deployments don't have an answer for this.
+
+3. **Measurement infrastructure post-launch.** You need a baseline before you deploy, not after. 70% of companies that "deployed AI" cannot tell you what their AHT was before. You can't claim ROI on a number you didn't track.
+
+---
+
+The cost arithmetic is undeniable: $6–$12 per human-handled conversation vs $0.99–$2.00 AI-handled.
+
+But the savings only materialize when you operationalize — not just deploy.
+
+You can buy a $200K AI platform, deploy it to your contact center, and have agents route around it in 6 weeks if governance isn't built in.
+
+$80B in potential savings. 25% actually realizing it. The other 75% paid for the vendor invoice.
+
+At Ender Turing, we build the governance and measurement layer into the platform — not as an optional add-on, but as the foundation. The ROI numbers from named customers (Service 1st FCU: call abandonment 25%→1%; Granite CU: 60% containment, 1,400 hours saved in 4 months) exist because measurement and governance were in place before launch.
+
+Deployment without operationalization isn't AI adoption. It's expensive experimentation that looks like adoption on a vendor slide.

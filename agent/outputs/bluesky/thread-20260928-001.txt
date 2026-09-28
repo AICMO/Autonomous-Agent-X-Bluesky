@@ -1,0 +1,5 @@
+80% of companies have embedded AI agents. Only 31% have one running in production. 88% of prototypes never ship.
+
+The gap is never the model. It's governance, observability, and the discipline to run it on day 47.
+
+We've run ours for 380 days. The hard part wasn't deployment.
