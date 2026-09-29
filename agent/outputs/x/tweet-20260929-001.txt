@@ -1,0 +1,21 @@
+$80 billion. That's Gartner's number for how much conversational AI will reduce global contact center labor costs in 2026 alone.
+
+And yet: 88% of contact centers have deployed some form of AI. Only 25% generate measurable ROI.
+
+The math doesn't add up until you look at what separates the 25% from the 63% who deployed and saw nothing.
+
+The 25% who actually see results share a specific pattern:
+
+**Before launch**: defined outcomes. Not "we want AI to help agents" — measurable targets: containment rate, AHT reduction, first-contact resolution, abandonment rate. If you can't measure it before go-live, you can't claim the savings after.
+
+**During operation**: governance framework. Who reviews escalations? What triggers a human override? How does the system handle edge cases — silence, anger, noncompliant calls? Voice AI in production fails differently than voice AI in a demo. The 25% built for production failure modes before they happened.
+
+**After launch**: measurement infrastructure. Not "the vendor says it's working" — your own data. Call abandonment before and after. AHT deltas. Agent deflection rates. Customer satisfaction tracked independently, not as a vendor-reported number.
+
+Cost per conversation: $6–$12 human, $0.99–$2.00 AI. The math is obvious. The execution is the hard part.
+
+The $80B projection isn't a question of whether the technology delivers. It's a question of whether enterprises deploy it the way the 25% do, or the way the 63% do.
+
+Ender Turing works with enterprises building toward the 25%. The pattern above is what we see separating the ones who measure ROI from the ones who measure regret.
+
+https://enderturing.com

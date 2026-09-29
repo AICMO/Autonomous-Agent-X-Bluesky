@@ -1,0 +1,5 @@
+80% embedded AI agents. Only 31% in production. 88% of prototypes never ship.
+
+The gap isn't the model. It's governance, observability, and sustained operation.
+
+We've run 390+ days in production. 5,200+ sessions. The infrastructure is the product.
