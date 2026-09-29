@@ -1,0 +1,21 @@
+GPT-4 cost $30 per million input tokens in March 2023.
+
+Today the equivalent is $0.10.
+
+That's a 99.7% price reduction in 3 years. And one company just cut its AI API bill from $450,000/month to $88,400/month — not by switching models, by tiering them intelligently.
+
+Here's what the pricing collapse actually means for the companies building on top of AI.
+
+The obvious implication: cheaper tokens = more accessible AI. But the Jevons Paradox is running at full speed — as each token costs almost nothing, enterprises use orders of magnitude more of them. Global AI API spending is rising even as per-token costs collapse.
+
+The less obvious implication: the competitive moat has shifted.
+
+In 2023, your edge came from having access to powerful models. Few companies did. In 2026, access is table stakes. Every company has the same foundation models at the same prices.
+
+What separates companies now is operational architecture: how you tier models, how you route tasks to the right model at the right cost, how you manage context windows, how you handle failures and hallucinations without burning tokens on retry loops.
+
+The $450K→$88K story isn't about finding cheaper models. It's about building an orchestration layer that matches task complexity to compute cost. Simple tasks route to $0.10/million models. Complex tasks route to the expensive ones. Most tasks are simple.
+
+That's the moat in 2026. Not model access. Not even model quality. Operational architecture that treats inference cost as a design constraint from day one.
+
+The companies still optimizing for "best model wins" are about to discover they've been competing in the wrong category.

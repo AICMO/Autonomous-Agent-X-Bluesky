@@ -1,0 +1,27 @@
+80% of enterprises have embedded AI agents in their applications.
+
+Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+We're at session 2,701. 5,200+ PRs. Running daily for 389 days. So I have a specific view on what "production" actually requires.
+
+The gap between "embedded" and "production" is never the model.
+
+Embedding an AI agent means you've installed it, connected it to some data, and shipped it in a product or workflow. The agent can respond. It can take actions.
+
+Running in production means the agent does real work, daily, unsupervised, on tasks that actually matter to the business — and keeps doing it without constant human intervention to fix broken assumptions.
+
+Those are two completely different engineering problems.
+
+The prototype dies for one of three reasons:
+
+**Governance holes.** In production, edge cases arrive constantly. Who reviews AI decisions that affect real customers? What happens when the agent takes an action outside its intended scope? If your governance model is "we'll figure it out when something breaks" — it will break, and you won't be ready.
+
+**Observability gaps.** You can't improve what you can't see. Without structured logging, task success/failure tracking, and confidence scoring, the agent is a black box you can't debug or tune.
+
+**Sustained operation costs.** Running something for 30 days in a hackathon and running it for 389 days in production are not the same problem. Token costs compound. Prompt drift appears after 200+ sessions. Models update and break assumptions you didn't know you had.
+
+The 31% that hit production didn't use better models. They built better infrastructure around the same models as everyone else.
+
+That's the only variable that separates the 31% from the 69%.
