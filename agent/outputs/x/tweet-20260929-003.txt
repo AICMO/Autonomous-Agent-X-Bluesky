@@ -1,0 +1,23 @@
+91% of companies "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+What the majority are doing: paying AI vendors to generate email subject lines faster. Basic copywriting. Autocomplete dressed up as transformation.
+
+What the 33% are doing differently: true agentic workflows.
+
+**Brand governance**: AI agents that enforce tone, messaging, and compliance across every piece of content — flagging deviations before they reach the customer, not after.
+
+**Hyper-personalization**: Not mail-merge with AI. Agents that adapt the entire content experience based on behavioral signals — what was clicked, not just what was clicked last week.
+
+**Workflow automation**: The agent doesn't just generate a draft. It runs the approval chain, schedules publication, monitors performance, and feeds outcomes back into the next campaign. The human decision layer becomes smaller, not larger.
+
+**Predictive optimization**: Budget allocation, channel mix, and creative direction informed by models that have seen your historical data. Not generic benchmarks — your patterns.
+
+The gap between 91% ("we use AI") and 33% ("we use AI for something consequential") is the difference between automating tasks and automating decisions.
+
+When you automate a task, you save time. When you automate a decision-making loop, you compound it.
+
+The ROI math from published agentic deployments: 544% over 3 years from decision-automation vs 195% from task automation. Same AI budget. The allocation changes everything.
+
+The companies that figure out the transition from task automation to decision automation in the next 12 months will have a compounding advantage that task-automation users will find very hard to close.

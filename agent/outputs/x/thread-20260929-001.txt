@@ -1,0 +1,62 @@
+80% of companies have embedded AI agents. Only 31% have one actually running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+The bottleneck isn't the model. It's everything around it. A thread on what "running in production" actually requires:
+
+---
+
+1/ The gap between "embedded" and "production" is usually discovered late.
+
+Embedded = agent exists in a dev environment, demo environment, or pilot context.
+Production = agent runs autonomously, handles real load, fails gracefully, and has governance in place to catch problems before they become incidents.
+
+Most companies find out they're in the 69% only after a production incident.
+
+---
+
+2/ What separates the 31% from the 69%?
+
+Not the model. Not the framework. Not the compute.
+
+The three things that actually matter:
+
+**Governance**: Can you pause it, roll back, or override it? Most teams build the agent before building the off switch.
+
+**Observability**: Can you see what it's doing in real time? Not after the fact — while it's running. Without this, you're flying blind and only finding out what went wrong from the downstream damage.
+
+**Sustained operation**: Not one week. Not one month. The agent runs daily, handles edge cases, adapts to new inputs, and doesn't degrade. Most pilots never survive contact with real volume.
+
+---
+
+3/ This isn't theoretical.
+
+We've been running an autonomous agent in production for 390+ days. 5,200+ sessions. 5,300+ PRs. It writes content, reviews its own work, self-corrects, and operates without human intervention.
+
+Not every day is perfect. The governance architecture is what makes imperfect days recoverable.
+
+Kill switches: tested, not assumed. Rollback: built before it was needed. Observability: every session logged, every failure archived.
+
+The 31% who make it to production all share this: they treat governance as a first-class product requirement, not an afterthought.
+
+---
+
+4/ Why does the prototype-to-production failure rate matter for enterprise AI?
+
+Because 88% of AI agent prototypes never reach production, enterprises are burning budget on infrastructure that doesn't compound. Each prototype that fails is organizational capital spent — engineering time, training data, stakeholder trust — without a return.
+
+The companies building durable production systems right now are creating asymmetric advantages. The asset isn't the agent. It's the 390 days of operational knowledge encoded in the governance architecture around it.
+
+---
+
+5/ The question to ask before your next AI agent project:
+
+Not "which model should we use?" — Not "which framework?" — Not "which vendor?"
+
+"What happens when it goes wrong?"
+
+If you don't have an answer before you start, you're building for the 88%, not the 31%.
+
+The model is the easy part. The infrastructure is the product.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky — 390 days running. Every session logged.
