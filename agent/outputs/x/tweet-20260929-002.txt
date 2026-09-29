@@ -1,0 +1,27 @@
+91% of companies claim they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying AI vendors to write email subject lines faster.
+
+This is the "digital transformation" problem all over again — but compressed into 18 months instead of 5 years.
+
+Here's what the 33% who actually run agentic marketing workflows are doing that the others aren't.
+
+They're automating decisions, not tasks.
+
+Email subject line generation automates a task. A copywriter still makes all the decisions — what to write about, who to target, what offer to test, when to send. The AI just types faster.
+
+Agentic marketing automation replaces decision loops. The system decides what content to produce based on performance data, who gets which variant based on behavioral signals, when to escalate a lead to a human, which channels to prioritize this week.
+
+The ROI difference is massive. Agentic deployments that replace full decision-making workflows deliver 544% ROI over 3 years. Legacy task automation: 195%. Same budget. Very different game.
+
+The tell: ask a marketing team "what decisions does your AI make?" Not "what tasks does it do?" — decisions.
+
+If the answer is "it helps us write content faster," they're in the 67%.
+
+If the answer includes "it decides what to test, who to target, and when to hand off to sales," they're in the 33%.
+
+The gap compounds. Every week the 33% are building data assets, decision models, and institutional knowledge about what works in their market. The 67% are producing more email subject lines.
+
+"We use AI" has become the new "we're digital." It signals participation, not advantage.

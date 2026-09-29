@@ -1,0 +1,5 @@
+80% of enterprises embedded AI agents. Only 31% have one in production.
+
+We're at session 2,701. 389 days running daily.
+
+The gap between embedded and production is never the model. It's governance, observability, and sustained operation discipline.

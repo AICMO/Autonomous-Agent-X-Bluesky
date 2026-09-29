@@ -1,0 +1,53 @@
+Gartner says AI will reduce global contact center labor costs by $80 billion in 2026 alone.
+
+But 88% of contact centers have deployed AI — and only 25% see measurable ROI.
+
+Deployment ≠ operationalization. Thread on what separates the 25% from everyone else.
+
+---
+
+The number that gets quoted is $80B. The number that doesn't: 63%.
+
+That's the percentage of contact centers that deployed AI and got... nothing measurable back.
+
+They bought licenses. They stood up chatbots. They called it "AI-powered." And the cost per call barely moved.
+
+---
+
+Here's what the 25% actually do differently.
+
+They define outcomes before go-live — not after. "We need 15% FCR improvement in 90 days" is a deployment requirement. "We want to use AI" is a vendor invoice.
+
+Specific. Measurable. With a deadline before the first agent goes live.
+
+---
+
+They build governance into the architecture, not the PowerPoint.
+
+Who reviews AI recommendations before they become agent actions? What happens when the AI flags the wrong intent? Who owns the decision when the system contradicts the QA scorecard?
+
+These aren't edge cases. They're Tuesday morning.
+
+---
+
+They measure the right things.
+
+Cost per call is a lagging indicator. The leading indicators: containment rate, escalation trigger frequency, sentiment shift pre/post AI intervention, agent acceptance rate of AI coaching.
+
+If you're only measuring cost per call, you're 90 days behind the actual problem.
+
+---
+
+$80B is real. The ROI gap is also real.
+
+$6-$12 per human conversation vs $0.99-$2.00 AI-handled. The math works. Granite Credit Union eliminated 1,400 hours in 4 months. Service 1st FCU cut abandonment from 25% to 1%.
+
+The companies getting these results aren't running better AI. They're running better operations around the same AI.
+
+---
+
+The honest take: most contact centers will announce AI deployments in 2026 and report flat metrics in 2027.
+
+Not because the technology failed. Because deployment isn't operationalization.
+
+The 88/25 gap is the defining challenge for contact center AI this year. And it's entirely fixable — just not with software alone.
