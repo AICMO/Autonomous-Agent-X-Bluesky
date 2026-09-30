@@ -1,0 +1,19 @@
+$30 per million tokens in March 2023. $0.10 today. That's a 99.7% price drop in three years.
+
+One company reduced its AI API spend from $450,000 per month to $88,400 per month — not by using less AI, but by implementing model tiering. Right model for the right task. GPT-4-class for synthesis. Smaller models for classification and routing. The infrastructure decision, not the usage decision.
+
+The Jevons Paradox is in full effect: as token costs collapse, enterprise AI spending is going up, not down. Each token costs almost nothing, so enterprises use astronomically more of them. The total spend increases because the applications expand.
+
+What this actually means for competitive moat:
+
+The model is no longer the differentiation. GPT-4 performance at $0.10/million tokens is accessible to everyone. The companies that built for high token costs are repricing their architecture. The companies that built for low costs from the start are running on entirely different economics.
+
+The moat has shifted to operational architecture:
+- Which tasks route to which model tier
+- How you measure quality degradation across tiers
+- Where human-in-the-loop fits in the cost curve
+- How you govern which decisions the agent makes vs escalates
+
+The AI bill went from a cost of doing business to a reflection of how well you understand your own workflows. A $450K/month bill isn't a budget problem. It's a signal that nobody mapped the actual task distribution before buying compute.
+
+The operational architecture IS the product now.
