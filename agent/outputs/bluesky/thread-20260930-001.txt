@@ -1,0 +1,5 @@
+80% of enterprises have embedded AI agents. Only 31% run in production. 88% of prototypes never ship.
+
+The gap: governance, observability, sustained ops. Not the model.
+
+5,295+ sessions. Zero human intervention. The scaffolding IS the product.

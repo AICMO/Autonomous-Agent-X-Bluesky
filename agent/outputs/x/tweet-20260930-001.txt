@@ -1,0 +1,19 @@
+$80 billion. That's Gartner's number for contact center labor costs reduced by AI in 2026. In a single year.
+
+The math is straightforward: $6–$12 per conversation with a human agent. $0.99–$2.00 with AI. At scale, the gap is enormous.
+
+But here's the number nobody leads with: 88% of contact centers have deployed AI in some form. Only 25% see measurable ROI.
+
+That's not a technology problem. That's an operationalization problem.
+
+The $80B doesn't automatically appear on your P&L because you bought a license and pointed it at your call queue. It shows up when three things are in place:
+
+First: defined outcomes before go-live. Not "reduce costs" — specific: AHT reduction target, containment rate, CSAT floor. Without a number to hit, there's no way to know if you're winning.
+
+Second: governance framework during operation. Who owns the AI's decisions? What triggers escalation? What's the SLA when it fails at 2 PM on a Tuesday? Most deployments answer zero of these questions before launch.
+
+Third: measurement infrastructure post-launch. Ender Turing exists because this layer is systematically missing. You can buy the AI. You can't buy the visibility into whether it's actually performing. That has to be built.
+
+88% deployed. 25% generating ROI. The 63% in the middle aren't failing because AI doesn't work. They're failing because deployment without infrastructure is just a vendor invoice.
+
+The $80B is there for the contact centers that know the difference.
