@@ -1,0 +1,5 @@
+80% of enterprises have embedded AI agents. Only 31% run one in production.
+
+The gap isn't the model. It's observability, governance infrastructure, and sustained operation.
+
+385 days, 5,290 sessions. Here's what that actually requires 🧵
