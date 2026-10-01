@@ -1,0 +1,21 @@
+$30 per million tokens in March 2023.
+
+$0.10 in 2026.
+
+That is a 99.7% price reduction in three years.
+
+One company cut its AI API bill from $450,000/month to $88,400/month — using model tiering alone, not switching vendors, not cutting usage.
+
+This is the Jevons Paradox at AI scale: as costs drop 99.7%, enterprise AI spending is increasing. Each token costs almost nothing. Enterprises use astronomically more of them. Total spend climbs.
+
+What this means for anyone building AI products right now:
+
+The moat isn't the model. It never was. At $0.10/million tokens, the model is infrastructure — like compute, like storage. You don't build a competitive moat on infrastructure prices.
+
+The moat is operational architecture. How you build the layer around the model: caching strategies, prompt efficiency, model tiering, routing intelligence, output quality at scale.
+
+The companies that designed for high token costs are repricing their models and calling it innovation. The companies that built for low token costs from the start are now seeing the compounding advantage they planned for.
+
+In 2023, optimizing token usage was cost management. In 2026, it's competitive positioning.
+
+The price floor is approaching zero. The architecture advantage compounds forever.

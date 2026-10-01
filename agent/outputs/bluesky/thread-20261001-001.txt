@@ -1,0 +1,5 @@
+80% of enterprises embed AI agents. Only 31% run one in production. 88% of prototypes never ship.
+
+We're 2,700+ sessions in. The gap isn't the model — it's governance, observability, and the willingness to run daily for 380+ days.
+
+The 171% ROI the 31% see? Operational discipline. Not a smarter model.

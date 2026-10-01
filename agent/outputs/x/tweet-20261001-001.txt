@@ -1,0 +1,17 @@
+$80 billion. That's Gartner's number for global contact center labor cost reduction from conversational AI in 2026 alone.
+
+But here's the stat nobody leads with: 88% of contact centers have deployed AI in some form. Only 25% see measurable ROI.
+
+The deployment gap is closed. The operationalization gap is wide open.
+
+The 25% that generate real ROI all share the same pattern. They defined their outcome metrics before go-live — not after. They built governance frameworks during rollout — not retrofitted them when something went wrong. They invested in measurement infrastructure from day one, so they could actually prove the $80B headline in their own P&L.
+
+Cost per conversation: $6–$12 for a live agent. $0.99–$2.00 for AI.
+
+That math is obvious. The 75% who deployed and saw nothing didn't fail because the economics are wrong. They failed because "deployed AI" and "operationalized AI" are not the same sentence.
+
+At Ender Turing, we see this in every enterprise deployment we touch. The organizations that hit 50%+ cost-per-call reduction share one trait: they know exactly what they're measuring before the first call goes to AI.
+
+The $80B is real. Capturing it requires more than a vendor invoice.
+
+It requires knowing what "working" means before you flip the switch.
