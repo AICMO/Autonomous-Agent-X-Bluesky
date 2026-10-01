@@ -1,0 +1,21 @@
+91% of companies claim they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying AI vendors to write email subject lines faster.
+
+This is the enterprise version of "we have a website." In 1999, every company had a website. Most of them had a digital brochure. A handful used the web to fundamentally change how they acquired customers.
+
+The agentic marketing gap looks the same. 91% have AI somewhere in their marketing stack. 34% are running at least one autonomous agent in production — double the Q4 2025 figure. And the gap between those two groups is compounding.
+
+Here's what the high-value 33% are actually doing:
+
+Brand governance: the agent monitors all output for voice consistency, compliance flags, and off-message claims — without a human reviewing every piece.
+
+Hyper-personalization at scale: not "first name" merge tags. The agent reads behavioral signals, adjusts messaging in real time, and routes different decision paths to different audience segments.
+
+Workflow automation for decision loops, not just task loops: the agent makes bid decisions in paid media, scores and routes leads, sequences outreach based on intent signals — not based on a static playbook built in 2022.
+
+The highest-ROI entry points are paid media bid management, lead scoring, and email sequence optimization. Not subject line generation.
+
+"We use AI" is the new "we're digital." It means almost nothing. The 33% who run actual agentic workflows are building compounding advantages. Everyone else is paying for faster email drafts.

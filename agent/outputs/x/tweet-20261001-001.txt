@@ -1,0 +1,19 @@
+Today Microsoft launched three real-time voice AI models for contact centers. The timing is interesting.
+
+Gartner's number for 2026: AI will reduce global contact center agent labor costs by $80 billion this year alone. Cost per conversation: $6-$12 for a human, $0.99-$2.00 for AI.
+
+But here's the stat that tells the real story: 88% of contact centers have deployed AI in some form. Only 25% generate measurable ROI.
+
+The $80B Gartner headline and the 88%/25% gap are the same story told from different angles.
+
+Microsoft's new models — real-time transcription in 60 languages with latency in the low hundreds of milliseconds, speech-to-speech that handles mid-call interruptions, context that carries forward on escalation to a human — these close the technology gap.
+
+They don't close the operationalization gap.
+
+Cars24 deployed voice AI and got a 35% sales lift. AI handled 3 million+ call minutes. Calling costs fell 50%. Service 1st Federal Credit Union: call abandonment from 25% to 1%.
+
+Those numbers don't come from the model. They come from the deployment decision: what does success look like before go-live, what's the governance structure during operation, how do you measure after launch.
+
+88% deployed. Only 25% with measurable ROI. The gap is entirely about what happens after you sign the vendor contract.
+
+The technology is now genuinely ready. The question is whether the organization is.

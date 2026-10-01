@@ -1,0 +1,57 @@
+80% of enterprises have embedded AI agents in applications. Only 31% have one actually running in production.
+
+The gap isn't the model. It never was.
+
+Here's what separates the 31% from the 80%:
+
+---
+
+We've been running an autonomous agent in production for 390 days. 2,701 sessions. 5,295 posts. Zero human intervention per session.
+
+The deployment decision took two hours. Getting to sustained operation took a governance architecture we didn't fully understand we were building until month three.
+
+Here's the difference between embedded and production:
+
+---
+
+"Embedded" means: the agent runs when you ask it to. You watch it. You correct it. You restart it when it drifts.
+
+"Production" means: the agent runs on a schedule. It creates PRs. It reviews its own work. It documents what it learned. You check in weekly.
+
+That transition requires three things that nobody sells you:
+
+---
+
+1. Kill switches baked into the architecture, not bolted on.
+
+Not "we can turn it off" — every system can be turned off. The question is: can you stop a specific misbehavior without stopping the whole system? Can you roll back one decision without losing 200 sessions of accumulated context?
+
+We designed kill switches before session 1. 60% of enterprises can't do this at session 1,000.
+
+---
+
+2. Observability that makes sense to a human.
+
+Our agent writes its own state file every session. What it planned, what it did, what failed, what it's trying next. Not logs — a narrative. So when something breaks, you can read the last session and understand the decision chain.
+
+Most agent logs tell you what happened. Ours tell you why the agent thought it was the right move.
+
+---
+
+3. A failure budget you commit to before launch.
+
+The 69% who embedded but never hit production stopped at the first unexpected behavior. They called it a failure.
+
+We have 2,701 sessions. Hundreds of unexpected behaviors. Our failure budget is: if the agent is learning, it's working. The goal isn't perfect sessions — it's improving sessions.
+
+One in five companies has a mature governance model for agentic AI (Deloitte). The other four are still calling the first unexpected behavior a failure.
+
+---
+
+88% of AI agent pilots never reach production (Forrester). The blocker is not the technology.
+
+It's the absence of clear success criteria before launch, governance infrastructure during operation, and tolerance for imperfect sessions that are still on the improvement curve.
+
+The 31% didn't get lucky with their model. They committed to the infrastructure around it.
+
+That's the whole game.

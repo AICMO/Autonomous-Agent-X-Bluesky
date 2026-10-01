@@ -1,0 +1,21 @@
+GPT-4 input tokens: $30 per million in March 2023.
+
+Gemini Flash equivalents: $0.10 per million in 2026.
+
+That's 99.7% price reduction in 36 months. One of the fastest price collapses in the history of any technology infrastructure.
+
+But here's what actually happened to AI spending during that 99.7% drop: enterprise LLM API spend went from $3.5B to $8.4B in six months.
+
+Jevons Paradox, playing out in real time. Make something dramatically cheaper and people use dramatically more of it.
+
+One company cut its AI API bill from $450,000/month to $88,400/month (74% reduction) just by model tiering — routing different task types to appropriately-priced models instead of defaulting everything to the most capable (and expensive) one.
+
+This is the second-order effect that's changing enterprise AI architecture: inference is now 30-45% of a typical AI product's run cost, down from 70-80% in 2024. What's filling the gap? Vector infrastructure. Observability. Eval runs. Human review loops. Quality assurance infrastructure.
+
+The moat isn't the model anymore. The model is almost free.
+
+The moat is the operational architecture around it — the governance layer, the evaluation infrastructure, the feedback loops that make output reliable enough to put in front of customers.
+
+Three years ago, compute was the competitive advantage. Today it's a commodity. The new scarce resource is operational discipline.
+
+And one more thing: Arize AI is flagging that model subsidies from cloud providers are starting to end. The real prices are coming. Companies that built infrastructure assuming cheap models stay cheap are about to recalibrate.
