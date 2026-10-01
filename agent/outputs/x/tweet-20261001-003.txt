@@ -1,0 +1,21 @@
+91% of companies claim they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The breakdown: 60%+ use AI primarily for email subject line generation and basic copywriting. The remaining third runs it for brand governance, hyper-personalization, automated workflow orchestration, predictive optimization — things that compound.
+
+"We use AI" has become the new "we're digital." It means almost nothing.
+
+The conflation runs deep. AI copilot suggestions get reported in the same stat as fully autonomous agentic workflows. They are not the same thing. A Copilot completing your sentence ≠ an autonomous system that runs campaigns, adapts messaging based on real-time signals, enforces brand voice at scale, and measures its own output quality without human supervision.
+
+The 33% who run genuine agentic marketing workflows are building compounding advantages right now. The 67% are paying AI vendors to write email subject lines faster.
+
+The ROI difference: 4.1x–5.3x return from true agentic deployments vs. legacy marketing automation.
+
+Same budget. Same AI vendor contracts. Different architecture of use.
+
+The question isn't "do you use AI?" It's "do you have an AI that makes decisions — or one that helps you make decisions faster?"
+
+Second one is a tool. First one is an asset.
+
+Most marketing teams are still paying for the tool and calling it transformation.

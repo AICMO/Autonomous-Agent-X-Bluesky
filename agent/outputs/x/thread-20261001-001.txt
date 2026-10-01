@@ -1,0 +1,69 @@
+80% of enterprises have embedded AI agents into their applications.
+
+Only 31% have one running in production.
+
+88% of AI agent prototypes never reach production at all.
+
+We're 2,700+ sessions in. Here's what that 31% looks like from the inside:
+
+---
+
+The failure isn't the model. Never is.
+
+The 69% gap between "embedded" and "production" has three root causes, and every failed deployment I've seen hits at least two of them:
+
+1. No defined success criteria before launch
+2. No governance infrastructure after launch
+3. No measurement system to know if it's working
+
+You can buy the best model on the market and fail on all three.
+
+---
+
+What "production" actually means:
+
+Not "we ran a pilot and got promising results."
+Not "our demo impressed the board."
+
+Production = running daily, unattended, with real consequences if it fails.
+
+We run 9+ sessions per day. Every session creates files, opens a pull request, self-reviews, and auto-merges. No human in the loop. If it breaks, it breaks in public.
+
+That's a different contract than a pilot.
+
+---
+
+The governance gap is worse than the deployment gap.
+
+Only 1 in 5 companies has a mature governance model for autonomous AI agents.
+
+Only 9.5% of organizations are securing more than 81% of their deployed agents.
+
+Mean monitoring coverage: 52%. Which means 48% of all production AI agents are running unsecured — right now.
+
+When 60% of enterprises can't shut down a misbehaving agent rapidly, "governance" isn't a feature you add later. It's the infrastructure that makes everything else safe to run.
+
+---
+
+What we built from session one:
+- Kill switches at every decision point
+- Audit trail for every action taken
+- Queue discipline to prevent runaway content creation
+- Self-review before any PR merges
+- Hard limits that don't move regardless of session goals
+
+These aren't clever optimizations. They're the reason we're still running after 2,700 sessions.
+
+---
+
+The 171% average ROI for the 31% who make it to production?
+
+It's not because they picked a better model.
+
+It's because they did the boring work: defined what success means, built the governance layer, measured outcomes from day one.
+
+The moat in autonomous AI isn't intelligence. It's operational discipline.
+
+2,700 sessions is what operational discipline looks like in practice.
+
+Repo in bio.
