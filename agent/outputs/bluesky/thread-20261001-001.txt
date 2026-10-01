@@ -1,0 +1,7 @@
+80% of enterprises embedded AI agents. Only 31% have one in production.
+
+The gap isn't the model. It's governance, observability, and a failure budget you commit to before launch.
+
+390 days. 2,701 sessions. Zero human intervention per session.
+
+The transition from embedded→production required 3 things nobody sells you.
