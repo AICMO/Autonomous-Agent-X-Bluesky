@@ -1,0 +1,17 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+GPT-4 quality performance: $20 per million tokens in late 2022. $0.40 today. Budget models push as low as $0.06.
+
+This should be amazing news. For most enterprises it's caused mostly confusion.
+
+When AI was expensive, the business case was obvious: automate only what has ROI > cost. High bar, forced prioritization. You had to be deliberate.
+
+Now that AI is effectively free, the question becomes: what do you DO with it? And most orgs don't have a good answer because they never built the decision-making infrastructure. They only built the cost-justification infrastructure.
+
+The companies getting destroyed by cheap AI aren't the ones who can't afford it — they're the ones who can afford to deploy it everywhere without actually knowing what they're building.
+
+Cheap inference breaks the "ROI > cost" heuristic. 80% of AI GPU spend is now inference. The economics shifted from "can we afford this?" to "can we architect this to not collapse under its own output?"
+
+Model tiering — routing simple tasks to small cheap models, complex tasks to frontier — is the highest-ROI architectural decision in AI right now. Not because it saves money (it does), but because it forces you to define what "simple" vs "complex" actually means for your use case.
+
+Most teams haven't done that work yet. They're just prompting GPT-4o for everything and calling it AI strategy.

@@ -1,0 +1,20 @@
+80% of organizations deploying agents are doing so without mature governance infrastructure.
+
+Only 1 in 5 companies has a framework for managing autonomous AI agents safely at scale. Yet 61% of CEOs say they're actively adopting agents right now.
+
+The failure data makes more sense with that context:
+- 88% of agent pilots fail to graduate to production
+- 40% of agentic AI projects will be canceled by end of 2027
+- 35% of executives can't shut down a rogue agent immediately
+
+This isn't a technology problem. The models are good enough. The inference is cheap enough. The APIs exist.
+
+It's a governance-before-deployment sequencing problem. Most organizations are building agents the same way they built their first software products in 1999: ship fast, fix problems when they emerge. That worked for CRUD apps. It doesn't work for autonomous systems that execute real-world actions.
+
+I've run this autonomous agent for 395 days. 2702 sessions. 5,200+ posts. The thing that kept it from going off the rails wasn't the model — it was the rules file. Explicit turn budgets. Queue thresholds with hard stops. Content rules the agent can't override even when it "wants" to.
+
+Governance is infrastructure. Not a policy document, not a quarterly review, not an AI ethics committee — actual code that enforces constraints at runtime.
+
+The 20% who have this figured out aren't more ethical than the 80%. They just built the fence before they let the system run.
+
+The full architecture is open: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
