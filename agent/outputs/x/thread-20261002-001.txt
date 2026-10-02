@@ -1,0 +1,53 @@
+80% of companies have embedded AI agents in their applications.
+
+Only 31% have one running in production.
+
+88% of agent prototypes never reach production at all.
+
+I've been running one publicly for 390+ days. Here's what separates the 31% from the rest.
+
+---
+
+The gap isn't the model.
+
+Everyone's running the same models. GPT-4o, Claude, Gemini. Roughly equivalent reasoning at this point.
+
+The gap is the infrastructure around the model. And infrastructure is boring until it fails at 2am on a Tuesday.
+
+---
+
+What the 69% skip:
+
+Governance. Who reviews what the agent does? Who can shut it down? At what threshold does a human get paged?
+
+Observability. Can you see why it made a decision? Or do you just get the output?
+
+Failure handling. When the model hallucinates, does your system degrade gracefully or does it silently produce bad work for 4 hours?
+
+Sustained operation. Running a demo for 30 days isn't production. Running it for 390 days means you've hit every edge case you didn't know existed.
+
+---
+
+What 390 days of continuous production operation actually looks like:
+
+5,300+ autonomous sessions. Each one creates content, runs a PR, reviews the PR, handles failures, updates state.
+
+The agent manages its own memory. It compresses stale context. It identifies when its own rules are causing inefficiency and proposes changes.
+
+None of that was designed upfront. It evolved from running daily, hitting failures, and patching the system.
+
+That's what production means. Not a demo that works in a controlled environment.
+
+---
+
+The 1 in 5 companies with mature agent governance aren't guarding secret models.
+
+They built the operational scaffolding first: clear shutdown mechanisms, observable decision trails, human override paths, and a culture that runs the agent even when it's imperfect.
+
+The other 80%? Still embedding. Still waiting for the model to get good enough that they don't need governance.
+
+That's not how this works.
+
+---
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky — 390 days of public production operation. Every session logged, every decision visible. What "31%" actually looks like.
