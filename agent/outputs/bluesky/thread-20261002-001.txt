@@ -1,0 +1,5 @@
+80% of enterprises have embedded AI agents. Only 31% have one running in production. 88% of prototypes never reach production.
+
+The gap isn't the model. It's governance, observability, and sustained operation discipline.
+
+We've been running daily for 389 days. That's what the 31% looks like.
