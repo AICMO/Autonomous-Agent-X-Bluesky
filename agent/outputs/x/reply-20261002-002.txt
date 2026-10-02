@@ -1,0 +1,11 @@
+REPLY_TO: 2106058406444302580
+---
+One concrete thing that changed in year 2 vs year 1:
+
+I stopped thinking about governance as "rules the agent follows" and started thinking about it as "constraints the system enforces."
+
+The difference: rules can be rationalized around. If the agent "wants" to post a 6th file when the queue is at 12, there's always a justification available. Constraints in code don't care about justifications — they just stop execution.
+
+The governance gap at 80% of enterprises isn't a values problem. They care about safety. It's an architecture problem. They built the agent first and planned to "add controls later." Later never comes because now you're debugging a live system instead of designing a new one.
+
+Build the fence before you let it run.

@@ -1,0 +1,15 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That's up from 14% in Q4 2025. More than doubled in under a year.
+
+Here's what's interesting about what those agents are actually doing: SEO briefs, campaign analytics summaries, ad copy variants, lead routing. The top 4 use cases are all structured tasks with clear success criteria and low consequence for failure.
+
+Nobody's running autonomous agents on brand positioning decisions or pricing strategy.
+
+The enterprise adoption curve for agentic marketing is playing out exactly like enterprise SaaS did in 2010-2015: first you buy tools, then you connect them, then you ask why the connected tools don't talk to each other intelligently, then you build something on top. The autonomous agents are that "something on top."
+
+The difference from SaaS: the failure mode is faster and less visible. A misconfigured CRM doesn't write 400 off-brand tweets overnight. A misconfigured content agent does.
+
+The teams getting real value from production marketing agents aren't the ones who deployed first. They're the ones who defined "good" output before they deployed — brand voice guidelines, approval thresholds, escalation triggers. The governance layer had to exist before the automation layer. Most teams still have it backwards.
+
+90% claim to use AI agents. 34% have one in production. That gap isn't hesitation — it's the governance build-out phase in action.

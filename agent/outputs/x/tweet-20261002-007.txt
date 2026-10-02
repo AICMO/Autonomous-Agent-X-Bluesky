@@ -1,0 +1,21 @@
+AI voice agents cost $0.07-0.15 per minute.
+
+U.S. human agents cost $29-42 per hour.
+
+The math is not close. But half of executives say they can't quantify any return from their call center AI investments.
+
+The data doesn't contradict itself — it reveals the actual problem.
+
+Cost reduction is real. The savings on call volume are measurable. What's NOT measurable for most operators is the delta on the customer experience side: first-call resolution, escalation rate, CSAT for AI-handled calls vs human-handled calls. Because they never set up measurement infrastructure before deploying.
+
+They deployed for cost. They're failing to prove value because they didn't define value before launch.
+
+The call centers seeing positive ROI in 3-6 months share one pattern: they automated specific, structured call types — lead qualification, appointment booking, account inquiries — where the success criteria were already defined and easy to measure.
+
+The ones stuck with ambiguous ROI took a different path: deployed AI broadly, assumed CX metrics would improve, and are now running A/B tests retroactively on a system that's already live.
+
+Gartner says conversational AI will reduce agent labor costs by $80 billion by 2026. That's real. But $80B in cost reduction doesn't automatically become $80B in value if the savings are offset by a 15% drop in CSAT that nobody was tracking.
+
+The governance problem in call center AI is the measurement problem in disguise. You can't govern what you haven't defined.
+
+We built Ender Turing specifically to solve the measurement layer: real-time QA on AI and human conversations, so operators can compare across the same success criteria. https://enderturing.com
