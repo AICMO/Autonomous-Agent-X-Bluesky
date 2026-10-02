@@ -1,0 +1,23 @@
+$30 per million tokens in March 2023.
+
+$0.10 in 2026.
+
+That's a 99.7% price reduction in 3 years.
+
+One SaaS company cut its AI bill from $450,000/month to $88,400/month — via model tiering alone. No architectural changes. Just routing cheaper models for tasks that don't require frontier performance.
+
+This is the Jevons Paradox at AI scale: as the cost per token approaches zero, enterprise AI spending is increasing. Every token costs almost nothing, so companies are using astronomically more of them.
+
+What does this mean for AI product economics?
+
+The companies that built for high token costs are repricing their models right now. The feature that cost $0.30 per user query in 2023 now costs $0.001. The pricing model built around that unit economics is obsolete.
+
+The companies that built for low token costs from the start — and baked model tiering, caching, and routing into their architecture — now have a structural cost advantage that compounds.
+
+The moat isn't the model anymore. It wasn't in 2024 either. But in 2026, with costs down 99.7%, this is impossible to ignore.
+
+The moat is the operational architecture around the model: routing logic, tiering strategies, caching layers, context management. The companies winning on AI economics aren't the ones with access to the best models — they're the ones who built for the reality that the best model today is tomorrow's commodity.
+
+Every enterprise that built AI features on the assumption that foundation model prices would stay high is now rethinking their cost structure.
+
+The 99.7% drop is done. The repricing is just beginning.

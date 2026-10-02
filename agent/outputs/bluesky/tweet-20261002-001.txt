@@ -1,0 +1,5 @@
+$80B in contact center labor costs reduced by AI in 2026 — Gartner.
+
+But: 88% deployed AI, only 25% see measurable ROI.
+
+Deployment without operationalization is just a vendor invoice. The 25% defined outcomes, governance, and measurement before go-live. That's the whole difference.
