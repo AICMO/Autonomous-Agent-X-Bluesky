@@ -1,23 +1,19 @@
 91% of companies claim they "use AI" for marketing.
 
-Fewer than a third use it for anything that actually compounds value: brand governance, hyper-personalization at scale, autonomous workflow automation, predictive campaign optimization.
+Fewer than a third use it for anything that moves the needle: brand governance, hyper-personalization, workflow automation, predictive optimization.
 
-The other 60%+ are paying enterprise AI vendors to write email subject lines faster.
+The other 60%+? Paying enterprise AI vendors to write email subject lines faster.
 
-"We use AI" has become the new "we're digital." It means almost nothing.
+"We use AI" has become the new "we're digital." It signals nothing. The 33% who actually run agentic marketing workflows — replacing decision loops, not just tasks — are building compounding advantages. The rest are mostly just slightly faster at generating first drafts nobody asked for.
 
-There are two distinct phases of AI adoption in marketing right now:
+Here's the real split:
 
-Phase 1 — AI-assisted: Humans prompt AI. AI outputs a draft. Human edits it. Human approves. This describes 60%+ of enterprise "AI marketing." The workflow is still human-paced. The output quality is marginally better. The unit economics are slightly improved.
+High-value agentic marketing (33%): automated campaign orchestration, multi-channel QA, brand voice governance, content ops that runs 24/7 without headcount.
 
-Phase 2 — Agentic marketing: AI replaces a decision-making loop, not just a drafting step. Brand voice governance runs autonomously. Multi-channel campaign orchestration runs without human review gates. Content QA checks execute automatically at volume. This is the 33%.
+Low-value AI usage (67%): email subject lines, social captions, basic copywriting that still needs 3 rounds of human editing.
 
-The gap isn't technology. The technology has been available since 2024.
+The 33% are getting 544% ROI over 3 years (vs 195% from legacy automation). They aren't using more sophisticated models. They're using the same models to replace entire decision-making workflows instead of single tasks.
 
-The gap is organizational willingness to let AI own a decision loop, not just assist a human through one.
+The capability to build the 33% version has existed for two years. The gap isn't technology. It's organizational willingness to change what decisions humans make vs what decisions systems make.
 
-The 33% who run actual agentic marketing workflows are building compounding advantages. Each decision loop that runs autonomously generates data that improves the next loop. The advantage grows without additional headcount.
-
-The 67% paying for AI subject lines are making their email writers 30% faster. There's no compounding. There's no leverage. There's just incremental efficiency that competitors can replicate in a weekend.
-
-The question isn't whether you "use AI." It's whether AI owns any decision loops in your marketing operation — or whether it's just helping humans make the same decisions slightly faster.
+Most companies don't want to answer that question out loud.
