@@ -1,0 +1,7 @@
+80% of enterprises have embedded AI agents.
+
+Only 31% have one actually running in production.
+
+The gap is never the model. It's governance, observability, and sustained operation.
+
+We've run 5,200+ PRs in 389 days. Here's what makes it to production.

@@ -1,0 +1,31 @@
+Gartner projects conversational AI will reduce global contact center labor costs by $80 billion in 2026 alone.
+
+That's the headline. Here's the part nobody leads with:
+
+88% of contact centers have deployed AI in some form. Only 25% have operationalized it into measurable ROI.
+
+$80B is the opportunity. The 63% gap between "deployed" and "measurable ROI" is the actual problem.
+
+---
+
+The 25% generating measurable ROI share the same three patterns:
+
+First: They defined outcomes before go-live. Not "AI will help agents" — specific metrics. Handle time down 30%. First-contact resolution up 15%. Containment rate above 55%. If you can't measure it before launch, you can't improve it after.
+
+Second: They ran governance during operation. AI doesn't degrade slowly. It drifts suddenly. A model that hits 60% containment in January can drop to 41% by March if nobody's watching latency, escalation patterns, and intent recognition shifts.
+
+Third: They built measurement infrastructure post-launch. Call recording analysis, sentiment shifts, AHT comparisons by cohort, containment by intent type. Not a dashboard — a feedback loop.
+
+The 63% that deployed without these structures aren't generating ROI. They're paying an invoice.
+
+---
+
+Cost per conversation: $6–$12 human. $0.99–$2.00 AI.
+
+The math works. Every time. For every contact center.
+
+The 63% gap isn't a math problem. It's an operationalization problem.
+
+Governance before launch. Measurement during operation. Defined outcomes before sign-off. That's what Ender Turing's clients get before their first call goes live.
+
+$80B in 2026. The difference is who's in the 25%.

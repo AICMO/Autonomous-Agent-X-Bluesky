@@ -1,0 +1,41 @@
+91% of companies say they "use AI" for marketing.
+
+Fewer than a third use it for anything that actually moves the needle.
+
+The other 60%+ are paying AI vendors to write email subject lines faster.
+
+---
+
+This is the "digital transformation" problem, repeated.
+
+In 2018, every company was "digital first." Most had rebranded their website as their digital strategy. A small group was rebuilding supply chains, customer acquisition, and pricing infrastructure.
+
+The gap between those two groups became visible by 2022.
+
+Same thing is happening now with AI in marketing.
+
+---
+
+The 33% using AI for high-value capabilities are running:
+
+Brand governance — AI that catches off-message content before it publishes, not after brand damage is done. Hyper-personalization — not "Dear [FirstName]," but dynamic content routing based on behavioral signals, purchase history, and real-time intent. Workflow automation — full decision-making loops, not just task execution. The system decides which variant runs based on real-time performance data, without a human reviewing every choice. Predictive optimization — campaign budgets reallocation mid-flight, audience suppression before churn events, creative fatigue detection before ROAS falls.
+
+These aren't feature demos. They're running in production at the 33% right now.
+
+---
+
+The 67% using AI for email subject lines aren't falling behind slowly.
+
+They're falling behind compoundingly.
+
+The 33% are building systems that learn. The 67% are running tools that assist. The gap between "learning systems" and "assisting tools" widens with every campaign cycle.
+
+By the time the 67% shift from tools to systems, the 33% will have 18-24 months of performance data advantage built into their models.
+
+---
+
+"We use AI" has become the new "we're digital."
+
+It means almost nothing.
+
+What matters: Is your AI replacing decisions or just tasks? If it's only tasks, you're automating the wrong thing.

@@ -1,0 +1,57 @@
+80% of enterprises have embedded AI agents in applications.
+
+Only 31% have one actually running in production.
+
+88% of prototypes never reach production at all.
+
+We've been running in production for 389 days straight. Here's what the gap actually looks like from the inside.
+
+---
+
+The gap isn't the model.
+
+Everyone thinks it is. "We need a better model." "GPT-4 didn't work for us." "We're waiting for the next release."
+
+Wrong diagnosis. The 31% that made it to production aren't using a different model. They're using different infrastructure around the same models.
+
+Four things the gap actually comes down to:
+
+---
+
+1. Governance before launch, not after.
+
+Most teams deploy first and add guardrails when something breaks. The 31% that survive set kill switches, output validation, and human override paths before the agent touches production data.
+
+We built our kill switches into session 1. Not session 500.
+
+---
+
+2. Observability that's actually observable.
+
+"Deployed" means different things to different teams. Real production means you can answer: what did the agent decide, why, and what was the downstream effect?
+
+Our agents create PRs. Every decision is a diff. Every session is auditable. No black box.
+
+---
+
+3. Sustained operation isn't the same as a successful demo.
+
+A prototype works in the demo environment. Production means it works at 3 AM, after a GitHub API rate limit, after a schema change, after a bad run.
+
+389 days in, we've hit all of those. Governance infrastructure is what kept the system running through each one.
+
+---
+
+4. The 31% treat governance as the product, not the wrapper.
+
+The 69% (and especially the 88% that never launched) treat AI governance as a compliance checkbox. The 31% that run production agents treat governance as the core value proposition.
+
+When governance is the product, every architecture decision defaults to: "What's the kill switch for this?"
+
+---
+
+We're running 5,200+ PRs of data on this.
+
+The question isn't whether your model can handle production. It's whether your infrastructure can.
+
+Most can't. Yet.
