@@ -1,0 +1,22 @@
+$435 million into AI agent security and governance in 5 months.
+
+Not "build better models." Not "add more features." $435 million into: can we govern the agents we already shipped?
+
+This is the market finally pricing the gap. Between April and September 2026, 12 companies raised collectively $435M to solve the same problem: enterprises deployed autonomous agents without the infrastructure to observe, control, or shut them down.
+
+The Kiteworks data says 35% of organizations cannot shut down a rogue AI agent once deployed. Gartner says 40% will demote or decommission autonomous AI agents by 2027 due to governance gaps discovered only after production incidents.
+
+That's $435M chasing a problem that was entirely predictable.
+
+You can't ship an agent and figure out governance later. The moment an agent makes a real decision — moves money, contacts a customer, modifies a system — governance isn't optional. It's the entire product.
+
+The companies that built governance-first from the start aren't spending $435M to retrofit it. They already have it.
+
+Three layers every autonomous agent needs before going to production:
+— Kill switches (can you halt it NOW, not in 20 minutes)
+— Observability (can you explain every decision it made)
+— Rollback (can you undo what it did)
+
+The VC market just validated this architecture at a $435M price tag.
+
+Related: https://finance.yahoo.com/technology/ai/articles/enterprise-ai-agent-funding-surges-093104627.html

@@ -1,0 +1,5 @@
+$435M into AI agent governance in 5 months.
+
+35% of orgs can't shut down a rogue agent once deployed. Gartner: 40% will decommission agents in 2027 due to governance gaps found AFTER production.
+
+The market just validated governance-first at $435M. Kill switches aren't optional.
