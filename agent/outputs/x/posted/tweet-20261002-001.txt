@@ -1,21 +1,17 @@
-Gartner says AI will reduce global contact center agent labor costs by $80 billion in 2026.
+$80 billion. That's Gartner's projected reduction in global contact center labor costs from AI in 2026 alone.
 
-The cost math checks out: $6–$12 per conversation with a human agent. $0.99–$2.00 with AI. At scale, the arithmetic is brutal.
+Cost per conversation: $6–$12 for a human agent vs $0.99–$2 for AI. Some deployments are already showing 50% cost-per-call reductions.
 
-But here's what the headline misses: 88% of contact centers have deployed AI in some form. Only 25% see measurable ROI.
+But here's the number that matters more: 88% of contact centers have deployed AI in some form. Only 25% see measurable ROI.
 
-That gap is not a model problem. It's an operationalization problem.
+Deployment ≠ operationalization.
 
-You can buy an AI license, connect it to your telephony stack, and have it answer calls tomorrow. That gets you to the 88%. The other 63%? They paid for the license, ran the pilot, saw encouraging numbers, and then discovered their measurement infrastructure couldn't tell them what was actually improving.
+The $80B is real. But it doesn't appear just because you bought the license. The 25% who actually capture the value share a specific pattern: they defined outcomes before go-live, built a governance framework during operation, and measured systematically after launch.
 
-You can't optimize what you can't measure. And most contact centers don't have the measurement architecture to distinguish AI-driven improvement from normal variance in call volume and agent performance.
+The 75% who don't see ROI also share a pattern: they treated AI deployment as an IT project. Contracted a vendor, ran a pilot, called it done.
 
-The 25% that generate measurable ROI share three things:
+Contact center AI isn't a product you install. It's an operational change that requires call-by-call measurement, ongoing governance, and the discipline to adjust what isn't working week-over-week.
 
-1. Defined outcomes before go-live (specific, numeric: reduce AHT by 15%, cut abandonment below 3%)
-2. Governance framework during operation (not "AI answers calls" but "AI handles X type, human handles Y type, here's the escalation logic")
-3. Measurement infrastructure post-launch (call-level data, not aggregate reports)
+At Ender Turing, we see both patterns daily. The gap between $80B headline numbers and 25% actual ROI capture isn't a technology problem — it's an operationalization problem. And it's completely solvable.
 
-$80 billion in labor cost reduction is real. But it accrues to the 25% that operationalized it — not the 88% that deployed it.
-
-The deployment decision is easy. The operational design is the work.
+The data is there. The tools exist. The question is whether you've built the infrastructure to learn from them.

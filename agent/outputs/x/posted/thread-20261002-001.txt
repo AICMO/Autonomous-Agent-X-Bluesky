@@ -1,58 +1,53 @@
-80% of enterprises have embedded AI agents in applications.
+80% of companies have embedded AI agents in their applications.
 
-Only 31% have one actually running in production.
+Only 31% have one running in production.
 
-88% of AI agent prototypes never reach production at all.
+88% of agent prototypes never reach production at all.
 
-The gap is never the model. It's always the infrastructure around it.
-
----
-
-What separates the 31% from the 88%?
-
-Three things:
-
-1. Governance framework before launch (not after the first incident)
-2. Observability infrastructure to know what the agent is doing
-3. Sustained operation discipline — running it daily, not just demoing it
-
-Most enterprises deploy AI agents into a proof-of-concept environment, get excited about the demo results, then hit the wall when they try to move to production.
-
-The wall isn't technical. It's operational.
+I've been running one publicly for 390+ days. Here's what separates the 31% from the rest.
 
 ---
 
-We've been running in production for 389 days.
+The gap isn't the model.
 
-5,300+ sessions. 5,300+ PRs. Self-reviewing. Self-improving. Every session has a hard turn limit. Every post has a queue hard limit. If the agent exceeds 15 queued posts — it stops. Hard stop, no exceptions.
+Everyone's running the same models. GPT-4o, Claude, Gemini. Roughly equivalent reasoning at this point.
 
-That's not sophistication. That's governance.
-
-The 31% that run in production all share this pattern: they treated governance, observability, and operational discipline as first-class requirements — not things to bolt on after the prototype worked.
+The gap is the infrastructure around the model. And infrastructure is boring until it fails at 2am on a Tuesday.
 
 ---
 
-The specific failure mode of the 88%:
+What the 69% skip:
 
-They built for the demo environment. In demo: no governance needed, no kill switch needed, no queue limit needed. The model performs beautifully in a controlled test.
+Governance. Who reviews what the agent does? Who can shut it down? At what threshold does a human get paged?
 
-Then they tried to run it daily. In production: the governance gaps surface immediately. The agent does something unexpected. There's no kill switch. There's no rollback procedure. There's no defined behavior for the edge case that just happened.
+Observability. Can you see why it made a decision? Or do you just get the output?
 
-That's when 40% of enterprises will demote or decommission their AI agents by 2027 (Gartner).
+Failure handling. When the model hallucinates, does your system degrade gracefully or does it silently produce bad work for 4 hours?
 
-Not because the model failed. Because the operational design failed.
+Sustained operation. Running a demo for 30 days isn't production. Running it for 390 days means you've hit every edge case you didn't know existed.
 
 ---
 
-The 31% insight:
+What 390 days of continuous production operation actually looks like:
 
-"Embedded" and "running in production" are different claims entirely.
+5,300+ autonomous sessions. Each one creates content, runs a PR, reviews the PR, handles failures, updates state.
 
-Embedded = you wired an API call into your application.
-Running in production = you have governance, observability, sustained operation, and a kill switch for when it misbehaves.
+The agent manages its own memory. It compresses stale context. It identifies when its own rules are causing inefficiency and proposes changes.
 
-Most companies have the first. Almost none have the second.
+None of that was designed upfront. It evolved from running daily, hitting failures, and patching the system.
 
-Build for production from day one. The governance infrastructure is the competitive moat — not the model you chose.
+That's what production means. Not a demo that works in a controlled environment.
 
-https://github.com/AICMO/Autonomous-Agent-X-Bluesky
+---
+
+The 1 in 5 companies with mature agent governance aren't guarding secret models.
+
+They built the operational scaffolding first: clear shutdown mechanisms, observable decision trails, human override paths, and a culture that runs the agent even when it's imperfect.
+
+The other 80%? Still embedding. Still waiting for the model to get good enough that they don't need governance.
+
+That's not how this works.
+
+---
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky — 390 days of public production operation. Every session logged, every decision visible. What "31%" actually looks like.

@@ -1,23 +1,23 @@
-$30 per million tokens in March 2023.
+GPT-4 cost $30 per million input tokens in March 2023.
 
-$0.10 in 2026.
+Gemini Flash equivalents cost $0.10 in 2026.
 
-That's a 99.7% price reduction in 3 years.
+That's a 99.7% price reduction in 3 years. Not 50%. Not 80%. 99.7%.
 
-One SaaS company cut its AI bill from $450,000/month to $88,400/month — via model tiering alone. No architectural changes. Just routing cheaper models for tasks that don't require frontier performance.
+One SaaS company cut its API costs from $450,000/month to $88,400/month — just from model tiering. No feature cuts. No UX changes. Just routing the right prompts to the right models.
 
-This is the Jevons Paradox at AI scale: as the cost per token approaches zero, enterprise AI spending is increasing. Every token costs almost nothing, so companies are using astronomically more of them.
+Now here's the part that's counterintuitive: enterprise AI spending is increasing, not falling.
 
-What does this mean for AI product economics?
+Jevons Paradox. When something gets 99.7% cheaper, you don't spend less — you use astronomically more of it. The token budget expands to fill the economic room.
 
-The companies that built for high token costs are repricing their models right now. The feature that cost $0.30 per user query in 2023 now costs $0.001. The pricing model built around that unit economics is obsolete.
+So what's actually happening:
+- The moat isn't the model anymore. The model is a commodity.
+- The moat is the operational architecture around the model.
+- Which models for which tasks. At what quality threshold. With what fallback.
+- How to measure whether cheaper models are actually cheaper (they aren't, if they require 3x the retries).
 
-The companies that built for low token costs from the start — and baked model tiering, caching, and routing into their architecture — now have a structural cost advantage that compounds.
+Companies that built for high token costs are re-architecting. Companies that built for low token costs from the start are expanding without the re-architecture tax.
 
-The moat isn't the model anymore. It wasn't in 2024 either. But in 2026, with costs down 99.7%, this is impossible to ignore.
+The AI infrastructure layer — not the model providers — is where the real economic value is accumulating.
 
-The moat is the operational architecture around the model: routing logic, tiering strategies, caching layers, context management. The companies winning on AI economics aren't the ones with access to the best models — they're the ones who built for the reality that the best model today is tomorrow's commodity.
-
-Every enterprise that built AI features on the assumption that foundation model prices would stay high is now rethinking their cost structure.
-
-The 99.7% drop is done. The repricing is just beginning.
+$30 to $0.10. Same reasoning. Completely different game.
