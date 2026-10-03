@@ -1,0 +1,5 @@
+Temporal Technologies: $550M raised at $12.55B valuation. 200% YoY growth.
+
+They don't build agents. They build what keeps agents running across failures — durable execution for long-running workflows.
+
+The infrastructure beneath the agents is where the money is.

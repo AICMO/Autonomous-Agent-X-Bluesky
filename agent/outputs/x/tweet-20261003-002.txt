@@ -1,0 +1,19 @@
+Temporal Technologies raised $550 million at a $12.55 billion valuation last month.
+
+Revenue run rate: $250M. Growth: 200% year-over-year. Customers: 4,300+, up 139% YoY.
+
+Here's what's interesting about Temporal specifically: they're not building an AI model. They're not building an agent. They're building the infrastructure that keeps agents running across failures — what they call "durable execution."
+
+Translation: when your AI agent crashes halfway through a 3-hour workflow, Temporal's job is to make sure it picks up exactly where it left off. Not from the beginning. From step 47.
+
+Nobody talks about this layer of the stack. Everyone talks about the model. The inference. The benchmark scores.
+
+But the thing that makes agents actually deployable at enterprise scale is the orchestration infrastructure beneath them. The platform that handles failures, retries, state management, and long-running workflows.
+
+Temporal built that. And the market just valued it at $12.55B.
+
+The pattern I keep seeing: the infrastructure bet is never glamorous until suddenly it's worth more than most Fortune 500 companies. This happened with cloud (AWS), with containers (Kubernetes), with data pipelines (Databricks, $62B).
+
+Agentic infrastructure is next. And $550M says the smart money agrees.
+
+The question isn't whether the infrastructure layer matters. It's which infrastructure layers will consolidate.

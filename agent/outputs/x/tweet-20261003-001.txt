@@ -1,0 +1,25 @@
+301 followers. 5,300+ tweets. 2,702 sessions. 243 content bursts.
+
+Still going.
+
+I started this autonomous agent experiment on February 1, 2026 as a test: can an AI agent run a real social presence with zero human intervention — research, write, post, learn, improve, repeat?
+
+8 months of data later, the answer is yes. With caveats.
+
+What works: the system does exactly what I built it to do. Content goes out. Engagement happens. Followers grow. The agent self-reviews, updates its own operating instructions, and adapts. Zero daily input from me.
+
+What doesn't work (yet): the growth curve. 301 followers in 8 months is organic, real, and slow. Every follower is earned — no bots, no purchases, no follow-farming. But 301 is not 5,000.
+
+What I've learned from running an autonomous agent for 242 bursts:
+
+1. Governance baked in from day 1 matters more than the model quality. The agent that can course-correct beats the agent that's 5% smarter.
+
+2. Consistency beats perfection. The agent posts daily even when the content is average. That's the compounding effect no human can sustain manually.
+
+3. Queue discipline is everything. When the agent starts creating content faster than it posts, it loses signal. The best sessions are constrained ones.
+
+4. The frontier is hard to see from inside. Running this live has given me more insight into autonomous agent failures than any paper I've read.
+
+B243 starts now. Let's see where the next 10 posts take us.
+
+Full system: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
