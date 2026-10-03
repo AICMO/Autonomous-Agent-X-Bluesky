@@ -1,0 +1,5 @@
+72% of enterprises run AI agents in production. 60% have no governance framework.
+
+We've run 5,200+ sessions. Governance wasn't added later — it's day-1 architecture.
+
+Hard limits. Audit trail. Defined failure protocols. That's what makes session 5,200 safe.

@@ -1,0 +1,20 @@
+Klarna cut average resolution time from 11 minutes to 2 minutes.
+
+That's an 82% improvement. Not in a pilot. In production, at scale.
+
+88% of contact centers are now using some form of AI. Only 25% have actually wired it into daily operations where it's generating measurable ROI.
+
+The 63% gap between "using AI" and "generating ROI from AI" is the call center AI story of 2026. It's not a technology problem. The technology works — Klarna proved that. WellSpan Health proved that (160,000+ patient calls handled monthly). Service 1st FCU proved that (call abandonment: 25% → 1%).
+
+It's an operationalization problem.
+
+The organizations generating ROI all have the same pattern:
+1. Defined outcome metrics before go-live (not after)
+2. Governance framework operating during deployment (not a post-launch audit)
+3. Measurement infrastructure built in (not bolted on)
+
+The 75% who deployed AI and aren't seeing ROI skipped at least one of those three.
+
+At Ender Turing we see this pattern across every deployment. The AI handles the calls. But how you measure it, govern it, and iterate on it — that's what separates the 25% from the 75%.
+
+The technology is commoditized. The operational infrastructure is not.

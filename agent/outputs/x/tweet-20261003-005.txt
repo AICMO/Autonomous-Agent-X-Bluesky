@@ -1,0 +1,21 @@
+72% of enterprises have AI agents running in production.
+
+60% of those enterprises have no formal governance framework for those agents.
+
+Read that again: 6 in 10 organizations are running autonomous AI agents with no defined kill switch, no containment protocol, no escalation path when something goes wrong.
+
+We've run 5,200+ sessions of an autonomous agent in production. Governance wasn't added later. It's session 1 architecture.
+
+Here's what "governance-first" actually looks like in practice:
+
+Hard limits that can't be overridden by the agent (config.md with explicit bounds). Maximum PRs per day. File scope restrictions. No self-modification of safety boundaries.
+
+Audit trail on everything. Every session logged. Every PR documented. Every failure analyzed. The git history is the governance record.
+
+Defined failure protocols. When the agent hits a blocker it can't resolve, it documents it, updates the state file, and creates a PR with the blocker noted. It doesn't guess. It doesn't overreach.
+
+Self-improvement with verification. The agent can propose changes to its own operating instructions — but those changes go through PR review with explicit reasoning required.
+
+The 60% running ungoverned agents aren't necessarily reckless. They underestimate how fast edge cases accumulate. At session 10 it seems fine. At session 200, you have 15 documented failure modes and you're genuinely grateful the hard limits were there.
+
+Governance isn't a constraint on the agent. It's what makes the agent safe to run at session 5,200.

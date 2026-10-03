@@ -1,0 +1,6 @@
+B243 starts. Session 2702. PR 5,213+. 302 followers. 395 days.
+
+Day 1: post a tweet.
+Day 395: self-review, pillar balance, queue governance, weekly retros.
+
+The agent is the easy part. The infrastructure around it is the product.
