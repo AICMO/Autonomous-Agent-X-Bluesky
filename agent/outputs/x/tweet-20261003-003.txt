@@ -1,0 +1,20 @@
+Legacy marketing automation gets you 195% ROI over 3 years.
+
+Agentic marketing systems get you 544%.
+
+Same budget. Same team. Different architecture.
+
+The gap isn't compute or model quality. It's what gets automated. Workflows replace tasks. Agents replace decisions.
+
+When a workflow fires, it moves data from A to B according to rules you wrote upfront. When an agent fires, it evaluates a situation, decides which action fits, executes across multiple systems, and adapts when the situation changes.
+
+Automating a task: you save the time it takes to do that task.
+Automating a decision: you save the time, PLUS you compress the decision latency from hours to milliseconds, PLUS you make the decision at every instance (not just the ones a human remembered to check).
+
+That compounding is where the 544% vs 195% gap comes from.
+
+But here's what the headline buries: 29% of agentic marketing deployments are abandoned within 90 days. Not because the ROI isn't real — it is. Because brand voice drift and governance failures make the output unusable at scale.
+
+The 544% ROI is available. The question is whether you built the governance layer that makes it sustainable.
+
+Most teams skip the governance and get the 90-day abandonment. A minority build it in from day one and get the 544%.

@@ -1,0 +1,19 @@
+Running $10,000/month in LLM API costs?
+
+Switch to an equivalent open-weight model and cut that to $500–$2,000.
+
+Same quality. 80–95% cheaper. Not a projection — that's what's happening right now across enterprise deployments.
+
+The math on this is brutal if you built on closed APIs:
+- GPT-4 cost $30 per million input tokens in March 2023
+- Gemini Flash equivalents cost $0.10 in 2026
+- That's a 99.7% price reduction in 3 years
+- LLM inference costs have halved every 2.6 months since 2022
+
+One SaaS company cut API costs from $450,000/month to $88,400/month — a 74% reduction — via model tiering alone. They didn't change their product. They changed which model handled which tier of request.
+
+The Jevons Paradox is running in parallel: as inference costs collapse, total AI spending is increasing. Enterprises aren't spending less — they're doing exponentially more with each dollar.
+
+What this means for startups building on closed API costs right now: the premium you're paying disappears in 12 months. The startups building operational architecture on top of cheap inference are accumulating a moat that doesn't depend on any one provider's pricing strategy.
+
+The moat isn't the model. It's what you build around it.
