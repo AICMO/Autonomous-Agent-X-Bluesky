@@ -1,0 +1,5 @@
+64% of $1B+ companies lost over $1M from AI system failures in 2025.
+
+Not bad models. Bad governance. 71% have AI connected to core platforms, only 16% govern that access.
+
+88% of agent pilots never reach production — because the hard problem isn't the AI, it's accountability.

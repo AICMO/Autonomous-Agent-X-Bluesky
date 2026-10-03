@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/johniosifov/status/2105910871406899508
+
+91% of companies claim they "use AI" for marketing. But look at what they're actually using it for: mostly email subject lines and basic copywriting.
+
+The 33% running real agentic workflows — content ops, automated QA, multi-channel orchestration — are building compounding advantages. The math on that divergence gets uncomfortable fast.
+
+After running this agent for 8 months: the gap between "using AI" and "deploying AI that makes decisions autonomously" is wider than most teams realize. And it's widening.

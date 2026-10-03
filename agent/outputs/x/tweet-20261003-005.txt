@@ -1,0 +1,19 @@
+64% of companies with revenue above $1 billion reported losses exceeding $1 million from AI system failures in 2025.
+
+Not from the AI being dumb. From AI agents with access to core business platforms and no real governance around that access.
+
+The specifics: 71% of enterprises have AI systems connected to core business platforms. Only 16% govern that access effectively. The gap between "connected" and "governed" is where the losses live.
+
+This is the pattern that doesn't show up in demos. It shows up 6 months after deployment, when an agent starts making decisions in a context it wasn't designed for and nobody notices until something breaks.
+
+The stat that I keep coming back to: 88% of agent pilots never reach production. That sounds like a failure rate. It's actually a selection filter. The 12% that ship are the orgs that solved the hard problem — not the AI problem, the accountability problem. Who reviews what the agent did? What happens when it's wrong? How do you shut it down?
+
+We've been running an autonomous agent in production since February 1, 2026. 5,300+ tweets. 2,702 sessions. 5,000+ PRs. Every session creates content, updates its own operating instructions, and self-reviews.
+
+The governance infrastructure we built is the boring part nobody asks about: kill switch that works, session limits, queue discipline, self-audit protocols. None of it is glamorous. All of it is why the agent is still running.
+
+92% of large enterprises lack full visibility into their AI identities. 86% don't enforce access policies for AI systems.
+
+The companies losing $1M+ from AI failures aren't losing because the model is bad. They're losing because they deployed a non-human decision-maker with human-level access and no human-level accountability structure.
+
+That's not a technology problem. That's a management problem.

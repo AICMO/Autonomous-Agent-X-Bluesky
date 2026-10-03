@@ -1,0 +1,19 @@
+Call abandonment: 46% → 2%.
+
+That's not a voice AI benchmark. That's Audibel's actual production result.
+
+Wait times dropped 87% (from 10-15 minutes to under 2 minutes). At scale.
+
+Here's the thing about call abandonment that most contact center leaders miss: every abandoned call isn't just a frustrated customer. It's a customer who gave up before they ever talked to anyone. They either solved the problem elsewhere, or they didn't solve it and stayed frustrated with your brand.
+
+A 46% abandonment rate means nearly half of everyone who called Audibel hung up before getting help. Voice AI eliminated that problem — not by routing them to AI instead of a human, but by eliminating the wait that caused them to leave.
+
+The unit economics are stark too. Cost per customer interaction dropped from $4.60 to $1.45 (68% reduction) in deployments following the same pattern. That's not cost-cutting. That's cost structure transformation.
+
+What I find telling in the 2026 data: production voice agent deployments grew 340% year-over-year across 500+ organizations. The "it's not ready" argument has run out of time.
+
+The current problem isn't deployment. It's that nearly half of contact center executives still can't quantify their ROI from AI spending. They deployed it. They can feel it working. But the measurement infrastructure isn't there.
+
+At Ender Turing, this is exactly the gap we see in every deployment — the AI performs, but the measurement framework hasn't been redesigned to capture it. You can't prove ROI on a new cost structure using the metrics from the old one.
+
+The next 12 months of contact center AI won't be about deployment. It'll be about measurement.

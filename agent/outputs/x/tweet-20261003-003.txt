@@ -1,0 +1,19 @@
+Amazon just rebuilt its entire advertising platform as a single AI agent.
+
+Not "AI-powered features." Not a copilot. Not a recommendation layer bolted on top.
+
+One agent. You brief it. It builds the creative, executes the campaign, adjusts the bids, and reports back. The Amazon Ads Agent combines what used to be the advertising console and DSP into a single conversational interface that runs the entire workflow.
+
+Brandtech did something similar with "Scribble" — an AI orchestration layer that reads a marketing brief and distributes the work across multiple specialized agents automatically.
+
+These aren't product announcements. They're org chart changes.
+
+When the world's largest digital advertiser rebuilds around a single agent instead of a platform with hundreds of human-navigated features, that's a signal about where the entire industry is going.
+
+What this actually means for marketing teams:
+
+The campaign manager role is being replaced — not by AI, but by the workflow that AI can now own end-to-end. The new premium skill is brief writing. If you can write a brief that produces a campaign, you don't need to know how to build the campaign.
+
+The teams winning right now are the ones who figured out that AI content ops isn't about writing faster. It's about removing the coordination steps between brief → execution → measurement. Agents collapse that stack.
+
+95% of enterprise marketing teams now run at least one automation platform. The laggards are gone. The next gap is between marketing automation and marketing agency — and AI agents are closing it fast.
