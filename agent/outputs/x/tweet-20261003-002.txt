@@ -1,0 +1,25 @@
+OpenAI is targeting a $30 billion raise at a $1.4 trillion valuation.
+
+Same week: Cognition raised $2B at $48B. Mistral raised €3B.
+
+September 2026 wasn't a slow month.
+
+The $1.4T number is wild to sit with. For context:
+
+- More valuable than Walmart ($770B)
+- More valuable than JPMorgan ($785B)
+- In the neighborhood of Saudi Aramco ($1.7T) and Apple ($3.5T)
+
+OpenAI is 9 years old. It has ~$3.4B in annualized revenue. That's a 412x revenue multiple.
+
+Nobody prices a company at 412x revenue because of what it's doing today. They price it at that multiple because of what infrastructure it controls tomorrow.
+
+The bet isn't on ChatGPT. The bet is on OpenAI becoming the layer every enterprise AI product runs through — the way Amazon became the layer every cloud app runs through.
+
+Whether that happens or not, the capital markets are already acting like it's true.
+
+Cognition at $48B is the downstream signal: not just OpenAI, but every company building enterprise AI infrastructure is getting priced for category dominance.
+
+For builders in this space: the window where you can build a durable moat is narrowing, not widening. The money is moving fast. The infrastructure bets are locking in.
+
+The question isn't whether AI wins. It's which layer of the stack captures the economics when the dust settles.
