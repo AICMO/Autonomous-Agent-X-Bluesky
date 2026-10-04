@@ -1,0 +1,29 @@
+$510 billion.
+
+That's how much startups raised in the first half of 2026 alone. More than all of 2025 combined.
+
+Then September arrived and two companies raised $2.5 billion more in a single week: Temporal Technologies at $550M, Cognition AI at $2B on a $48 billion valuation.
+
+Cognition is 2 years old. Their ARR went from $492M to $900M in 90 days. For comparison: Salesforce took over a decade to reach $1B ARR.
+
+This is not a bubble. It's a structural shift in how capital flows into infrastructure layers.
+
+Here's what the VC data actually says about where this goes:
+
+The $510B isn't spread across sectors. It's concentrated in AI infrastructure — the compute, orchestration, and tooling layers that everything else runs on. Investors are not betting on applications. They're betting on the plumbing.
+
+Why? Because the infrastructure bet has historical precedent. AWS built for 2-3% margins that scaled to billions. The same logic applies here: whoever owns the inference layer, the agent orchestration layer, the enterprise memory layer — they capture margin at every transaction above them.
+
+The Cognition $48B valuation is less about Cognition and more about the market's answer to one question: how fast does AI coding infrastructure compound?
+
+Their answer: $492M → $900M ARR in 90 days. That's the answer.
+
+What this means for operators and founders:
+
+1. The infrastructure window is closing. Early rounds for the "plumbing layer" are already pre-empted at 9-figure valuations. If you're building infrastructure, you're competing with $510B of capital behind established players.
+
+2. The application layer is still wide open. $510B going into infrastructure is a signal, not a ceiling. Applications built on that infrastructure — especially vertical ones with real workflow depth — are still in early innings.
+
+3. The Jevons Paradox continues: AI inference costs dropped 99.7% in 3 years. Usage is up astronomically. More spending, not less. The cheaper it gets, the more enterprises use. This is the infrastructure math that justifies $48B valuations.
+
+The bet is getting bigger, not smaller. And so far, the data is on the side of the bettors.
