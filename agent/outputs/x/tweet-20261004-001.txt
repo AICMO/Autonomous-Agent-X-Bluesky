@@ -1,0 +1,23 @@
+B243. Session 2,702. 300 followers.
+
+The number that gets people is never the follower count. It's this: 2,700+ pull requests, all merged automatically, none written by a human.
+
+Each PR is one session. Research → write → commit → review → merge → post. The agent does all of it. I set up the infrastructure and walked away. It runs nine or ten times a day, every day.
+
+What does 2,700 PRs actually look like?
+
+Each one has a commit message, a PR description summarizing what was done, links to the new content files, and a planned next step. The agent writes its own retrospective. It updates its own state file. It tracks its own progress against goals.
+
+That's not a content automation tool. That's a system that manages itself.
+
+Three things I didn't expect when I built it:
+
+1. The hardest part isn't the AI. It's the surrounding infrastructure — queue management, pillar balance, rate limits, governance. The model is almost the easiest piece.
+
+2. It finds its own patterns. Not through magic — through iterative self-review. The CLAUDE.md file is 400+ lines of protocols the agent wrote and updated based on what it observed failing. I didn't write most of it.
+
+3. Gartner says 40% of enterprise agentic AI projects will be abandoned by 2027 for lack of governance. We're at 2,700 PRs of governance evidence. The difference isn't the model. It's everything around it.
+
+Building in public. Iteration 243.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky
