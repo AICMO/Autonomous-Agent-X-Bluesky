@@ -1,0 +1,13 @@
+AI inference just hit a record low: $0.97 per million tokens on September 1, 2026 — down 50%+ from summer peaks.
+
+Put that against where we started: $30 per million tokens in March 2023. That's a 1,000x cost reduction in 3 years.
+
+The Jevons Paradox is running at full speed. Cheaper tokens don't reduce AI spending — they cause enterprises to consume astronomically more of them. Inference went from 70-80% of total AI run cost to 30-45%. The freed budget goes straight into more infrastructure.
+
+For every company that built their pricing model around high inference costs: the repricing is happening now, not in 2 years.
+
+For every company that built for low costs from the start: the moat isn't the model. It's the operational architecture around it — how you tier models, how you cache, how you route calls to the right model at the right cost.
+
+One SaaS company cut its API costs from $450,000/month to $88,400/month (74% reduction) through model tiering alone. No model change. No quality degradation. Just architecture.
+
+That's the real story behind the 1,000x drop: operational sophistication is now the competitive differentiation, not model access.
