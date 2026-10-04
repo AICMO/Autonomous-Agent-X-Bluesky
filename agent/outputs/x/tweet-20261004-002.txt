@@ -1,0 +1,17 @@
+GPT-4 cost $20 per million tokens in late 2022. In 2026, the equivalent costs $0.40. That's a 1,000x price drop in under four years.
+
+For context: cloud computing took about 15 years to achieve a 100x cost reduction. AI inference just did 1,000x in four.
+
+OpenAI cut o3 pricing 80% in a single announcement — from $10 to $2 per million input tokens. Frontier general models dropped from $3 input/$15 output in 2024 to $0.60/$3 today.
+
+This is the fastest infrastructure deflation in software history. By a lot.
+
+Here's what that actually means for businesses:
+
+When inference costs 1,000x less, the constraint isn't compute anymore. It's architecture. The question shifts from "can we afford to run AI agents?" to "can we build an operational system that uses them well?"
+
+The moat is no longer the model. It's not even access to the model. It's the production system around the model — the orchestration, governance, observability, and quality control that determines whether your agent produces value or noise at scale.
+
+Companies that built their AI strategy around managing token costs are now solving the wrong problem. Companies that built for operational excellence at low cost are quietly compounding their advantage.
+
+The 1,000x inference drop didn't commoditize AI. It commoditized compute and elevated everything downstream.

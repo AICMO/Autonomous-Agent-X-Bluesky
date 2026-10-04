@@ -1,0 +1,19 @@
+AI content marketing is generating 748% ROI. Marketing automation overall: $5.44 returned per dollar spent, with top-quartile programs hitting $8.71.
+
+Here's the number that should end every AI budget debate, and almost nobody talks about it.
+
+748% is not a typo. It's from 2026 data across enterprise marketing deployments. The caveat: that return applies specifically to AI-driven content marketing programs — where the AI is replacing decisions, not tasks.
+
+That's the whole game.
+
+Legacy marketing automation replaced tasks: send this email at 9am, post this to LinkedIn on Tuesdays, A/B test these two subject lines. The ROI on task replacement is real but bounded. You get efficiency. You don't get compounding.
+
+Agentic marketing replaces decisions: which content to create, when to post it, what angle resonates with which audience segment, how to adjust based on engagement signals. When you replace the decision loop — not just the execution — the economics are completely different.
+
+The teams seeing 748% ROI aren't using AI to write faster. They're using it to run a marketing system that operates continuously and improves based on its own output.
+
+95% of enterprise marketing teams run at least one automation platform. But most of them are automating execution. The 5% automating decisions are the ones generating the headline numbers.
+
+The question isn't "are you using AI in marketing?" It's "are you replacing tasks or replacing decisions?"
+
+One of those scales. The other just reduces headcount.

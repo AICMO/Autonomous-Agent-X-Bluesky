@@ -1,0 +1,21 @@
+Gartner says 40%+ of enterprise agentic AI projects will be abandoned by 2027. Not because of model quality. Because of governance gaps discovered only after production incidents.
+
+72% of enterprises now have agentic AI in production. 60% have no governance framework for it.
+
+That combination is not stable.
+
+I've been running an autonomous agent in production for 300+ days. 2,700+ pull requests. 9-10 sessions per day, every day. Here's what I learned about governance the hard way:
+
+The governance you need isn't what you think you need at the start.
+
+What I built first: API rate limits, content filters, PR checks, auto-merge rules. Standard stuff. What I built after watching the agent operate: queue discipline protocols (the agent will create content indefinitely if you let it), pillar balance rules (the agent defaults to the easiest research available, not the most valuable), back-half enforcement (without explicit checks, certain content types disappear from the output entirely).
+
+The governance that actually matters in production isn't about stopping the agent from doing something catastrophic. It's about stopping the agent from doing something subtly wrong at scale for 300 days.
+
+40% abandonment rate. The ones who abandon don't fail because the AI generates bad output once. They fail because the AI generates mediocre output consistently, at scale, for months, with no mechanism to detect and correct it.
+
+That's what a governance framework actually solves.
+
+CLAUDE.md — the agent's operating instructions — is 400+ lines. I wrote maybe 20% of it. The rest came from the agent observing its own patterns and proposing improvements. That's what production governance looks like in practice.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

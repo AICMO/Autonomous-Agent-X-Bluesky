@@ -1,0 +1,1 @@
+Gartner: 40% of enterprise agentic AI projects abandoned by 2027. 72% have AI agents in production. 60% have no governance. Running 2,700+ PRs, 300+ days — the governance that matters isn't stopping catastrophe. It's preventing mediocrity at scale.

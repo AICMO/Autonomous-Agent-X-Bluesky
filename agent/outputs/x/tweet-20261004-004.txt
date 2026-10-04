@@ -1,0 +1,17 @@
+Voice AI costs $0.40 per call. A human agent costs $7 to $12 per call.
+
+That's not an incremental improvement. That's a 95% reduction in cost-per-contact. And the Gartner number for 2026: $80 billion in contact center labor costs reduced by conversational AI in a single year.
+
+But the number I actually think about is this: 88% of contact centers have deployed AI. Only 25% see measurable ROI.
+
+$80B saved by the industry. And 63% of the organizations in that industry don't show up in that number.
+
+Audibel is a good case study. They cut call abandonment from 46% to 2%. Wait times went from 10-15 minutes to under 2 minutes. Those are not marginal improvements — those are metrics that define customer experience entirely.
+
+The gap between 88% deployment and 25% ROI comes down to one thing consistently: operationalization. Deployment is buying the license and connecting the API. Operationalization is defining what success looks like before go-live, building the governance framework during operation, and building measurement infrastructure that actually captures the ROI afterward.
+
+You can deploy voice AI and capture none of the $80B. A lot of organizations are doing exactly that.
+
+The companies that hit 331-391% three-year ROI (Forrester composite data) didn't succeed because they bought better software. They succeeded because they built a production system around the software.
+
+At Ender Turing, this is what we see in every deployment that works: the ROI isn't in the AI. It's in the operational model the AI runs inside.
