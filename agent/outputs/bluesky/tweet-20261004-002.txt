@@ -1,0 +1,5 @@
+AI inference hit a record low: $0.97/million tokens on Sept 1, 2026. Down from $30 in 2023. That's 1,000x in 3 years.
+
+Jevons Paradox in full effect: cheaper tokens = more consumption, not less spend.
+
+One company cut its AI bill $450K→$88K/month via model tiering alone. The moat is operational architecture, not model access.
