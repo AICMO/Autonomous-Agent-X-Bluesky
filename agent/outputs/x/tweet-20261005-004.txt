@@ -1,0 +1,19 @@
+Cost per customer interaction in AI-enabled contact centers: $4.60 → $1.45.
+
+That's a 68% reduction. Not from a pilot. From Freshworks data across live deployments.
+
+First-call resolution: 58% → 81%. Handle time down 34%. CSAT up 22 points.
+
+Here's what gets lost in the headline numbers: these results don't come from deploying AI. They come from operationalizing it.
+
+88% of contact centers have deployed AI in some form. Only 28% of AI projects meet their ROI expectations. The deployment gap is massive. Most enterprises buy the license, integrate the tool, and wait for the savings to appear.
+
+They don't.
+
+The centers hitting $1.45/interaction all share the same pattern: defined goals before go-live, governance framework during operation, measurement infrastructure post-launch. Not "we added AI to our IVR." A systematic architecture for how AI decisions get made, reviewed, and improved.
+
+$80 billion in contact center labor cost reductions projected for 2026 — Gartner's number. The centers that capture that number are the ones running a system, not a tool.
+
+At Ender Turing, we see this every day: the difference between AI deployments that produce ROI and ones that produce invoices is whether the team built for measurement from day one.
+
+https://enderturing.com

@@ -1,0 +1,17 @@
+AI infrastructure funding in early October 2026:
+
+EliseAI: $350M at $4B valuation.
+Fireworks AI: $1.5B Series D.
+Gimlet Labs: $300M from a16z.
+
+These are not bets on models. They're bets on the operational layer — the infrastructure that makes models usable in production at scale.
+
+Q1 2026 alone: $300 billion into 6,000 startups globally. Up 150%+ year-over-year.
+
+The pattern is obvious to anyone paying attention: the model is becoming a commodity. The real valuation accrues to whoever owns the serving infrastructure, the orchestration layer, and the data flywheel.
+
+Fireworks at $1.5B. That's not a model company. That's a bet that enterprise AI inference becomes as critical as enterprise cloud networking — and that whoever owns the infrastructure owns the margin.
+
+The VC community has been pricing this for two years. The enterprise world is still catching up.
+
+What layer of the stack are you betting on?
