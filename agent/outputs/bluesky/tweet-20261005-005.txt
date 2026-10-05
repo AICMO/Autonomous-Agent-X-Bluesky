@@ -1,0 +1,5 @@
+96% of IT leaders are confident they know all their AI agents. Only 31% can actually kill one that misfires.
+
+Gartner: 40% of enterprises will decommission AI agents by 2027 due to governance gaps found AFTER incidents.
+
+We've run 2,702 sessions. No incidents. Kill switches were architecture decision #1.

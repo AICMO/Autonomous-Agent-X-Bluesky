@@ -1,0 +1,5 @@
+51% of marketing teams can't measure whether their AI is working.
+
+The 22% with negative ROI didn't fail because the model was bad. No eval layer, no owner, no scope definition.
+
+AI content agents delivering 3.2x ROI use the same models. The difference is measurement architecture.
