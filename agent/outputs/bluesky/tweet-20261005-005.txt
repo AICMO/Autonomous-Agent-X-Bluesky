@@ -1,0 +1,7 @@
+88% of AI agent pilots fail to reach production.
+
+Top blockers: evaluation gaps (64%), governance friction (57%), model reliability (51%).
+
+Model problems rank third. The first two can't be solved by switching models.
+
+Governance first. Always.

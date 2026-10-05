@@ -1,0 +1,16 @@
+29% of enterprise AI agent deployments are abandoned within 90 days.
+
+The top reasons aren't technical:
+- Unclear success criteria: 41% of failures
+- Poor tool or data access: 33%
+- Brand-voice drift: 19%
+
+Notice what's not on the list: model quality, context length, response latency. The infrastructure is good enough. The problem is operational.
+
+"Unclear success criteria" means nobody defined what winning looks like before they launched. So when the agent does something unexpected, nobody knows if it's a failure or a feature.
+
+This is the same problem every new software category has faced, but AI agents compress the timeline. You don't have 12 months to figure it out. You have 90 days before the executive team pulls the budget.
+
+The companies that don't fail in 90 days share one trait: they defined outcomes before launch, not after.
+
+What does your agent need to do to be considered successful? If you don't have a number for that, you're in the 29%.
