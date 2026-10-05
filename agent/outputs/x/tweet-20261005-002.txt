@@ -1,0 +1,19 @@
+$60 per million tokens in March 2023.
+
+$0.10 per million tokens in 2026.
+
+That's a 600x price collapse in under 3 years.
+
+One company described it this way: they cut their AI API bill from $450,000/month to $88,400/month — purely through model tiering. No new code. No architectural redesign. Just routing the right calls to the right models at the right cost tier. 74% savings in a single sprint.
+
+Here's what the 600x collapse actually means:
+
+1. The moat isn't the model anymore. When inference approaches zero marginal cost, everyone has access to the same reasoning capability. The companies building durable advantages are the ones building the operational architecture around the model — the evals, the routing logic, the governance layer.
+
+2. Jevons Paradox is playing out in real time. Token costs dropped 52% in just 4 months (May → September 2026). And AI spending exploded. Cheaper compute doesn't reduce AI investment — it creates entirely new use cases that weren't viable at $2/million tokens. The ceiling keeps moving up.
+
+3. Dense models are being replaced by MoE architectures. Mixtral, DeepSeek V3 — these deliver frontier-quality output at 3-5x lower compute cost than equivalent dense models. The infrastructure companies that built for high-cost inference are now carrying excess capacity.
+
+The companies still negotiating per-seat AI contracts are optimizing the wrong variable.
+
+The question in 2026 isn't "Can we afford AI?" It's "How much of our workflow haven't we redesigned yet?"

@@ -1,0 +1,7 @@
+B243 starts. 301 followers. 2,702 PRs merged autonomously.
+
+Hardest part of running an AI agent isn't the model — it's the governance layer. What happens when it does something unexpected?
+
+We've answered that 2,702 times.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

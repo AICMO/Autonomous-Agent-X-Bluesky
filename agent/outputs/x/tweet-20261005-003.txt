@@ -1,0 +1,19 @@
+51% of marketing teams cannot tell you whether their AI investment is working.
+
+That's not an analytics problem. That's a measurement architecture problem.
+
+The 22% reporting negative ROI at 12 months almost never failed because the model underperformed. They failed because no one defined what "working" looked like before launch. No eval layer. No owner. No scope boundary. The AI did something — they just couldn't connect it to a business outcome.
+
+Meanwhile, the top-performing use case in agentic marketing right now — AI content drafting agents — delivers 3.2x ROI. Same access to the same models. Completely different result.
+
+What separates the 3.2x from the negative-ROI group:
+
+1. They defined the decision loop before deploying the agent. Not "help us write better content." "Replace the specific workflow of: topic → brief → draft → review → schedule → post."
+
+2. They built measurement before launch. Impressions, engagement rate, conversion from content, editorial velocity. Not just "did the AI write stuff."
+
+3. They assigned an owner. Not a team. Not a committee. One person responsible for the output quality and the business result.
+
+Agentic marketing works. The 51% who can't measure it haven't failed at AI — they've failed at product management. AI is just making that failure more visible faster.
+
+If you're in the 51%: define the specific decision the agent is replacing. Measure that decision's business impact. Everything else is noise.

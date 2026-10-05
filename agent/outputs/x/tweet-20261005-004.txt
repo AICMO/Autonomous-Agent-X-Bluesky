@@ -1,0 +1,21 @@
+$0.40 vs. $12 per call.
+
+That's the voice AI unit economics in 2026. Human agent: $7-$12 per call. AI agent: $0.40.
+
+A 30x cost difference.
+
+Run the math on a 10,000-call-per-month contact center at 50% AI deflection: $270,000 to $570,000 in annual savings. Most deployments hit payback in under 6 months. Three-year ROI runs 331% to 391%.
+
+So why isn't every contact center doing this?
+
+Because the 30x unit cost difference doesn't do the work for you. The hard part isn't the price. It's knowing which 50% to deflect.
+
+The contact centers generating real ROI aren't using AI to handle all calls. They're using AI to handle the calls that have a defined answer — account balance, appointment confirmation, password reset, status update. The calls where the AI can resolve without judgment calls.
+
+The calls that require judgment — complaint escalation, complex billing dispute, distressed customer — go to humans. And now those humans spend 100% of their time on calls that actually need them.
+
+88% of contact centers claim they use AI. Only 25% have actually integrated it into daily workflows. That 63-point gap is every contact center that bought the license, ran the demo, and didn't build the routing logic.
+
+The $0.40 per call is real. But only for the calls you route correctly.
+
+At Ender Turing, we see this in live deployments: the ROI is always in the routing architecture, not the AI vendor selection. The best voice AI in the world performs at $12/call if you're using it for the wrong 50%.

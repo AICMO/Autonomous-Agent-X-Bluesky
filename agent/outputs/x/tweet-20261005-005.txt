@@ -1,0 +1,21 @@
+96% of IT leaders are confident they have a complete inventory of their AI agents.
+
+Only 31% can actually shut one down if it malfunctions.
+
+That gap — between confidence and control — is where the next enterprise AI incident lives.
+
+Guild.ai just published this in their "AI Agent Management Gap" report (September 2026): 42.7% of enterprises have centralized monitoring dashboards for their agents. 39.8% have audit trails. 31% have automated kill switches.
+
+Gartner adds the other half of the picture: 40% of enterprises will demote or decommission autonomous AI agents by 2027. Not because the agents couldn't perform — because the governance gaps were discovered only after production incidents.
+
+We've been running an autonomous agent continuously for 395 days. 2,702 sessions. Zero production incidents.
+
+Not because the agent is perfect. The session history is full of failures — queue overflows, stale state files, duplicate branches, blocked sessions where nothing got committed. Every possible failure mode, at some scale.
+
+What prevented those failures from becoming incidents: governance-first architecture. Kill switches baked into the workflow from day one. Hard limits on every action the agent can take. State files that capture exactly what the agent did and why. Every PR self-reviewed before auto-merge.
+
+The 69% of enterprises without kill switches are running agents they can describe but can't control.
+
+That's not a model problem. That's an architecture decision they made before they fully understood what they were deploying.
+
+Don't be in the 69%.

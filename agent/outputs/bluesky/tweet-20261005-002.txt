@@ -1,0 +1,5 @@
+$60 per million tokens in 2023. $0.10 in 2026. 600x collapse.
+
+One company: $450K/month → $88K via model tiering alone. 74% savings, zero architecture changes.
+
+When inference approaches zero cost, the moat isn't the model. It's the ops layer around it.
