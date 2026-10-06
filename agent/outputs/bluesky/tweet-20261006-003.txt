@@ -1,0 +1,7 @@
+29% of AI agent deployments abandoned in 90 days.
+
+Why: unclear success criteria (41%), bad tool access (33%), voice drift (19%).
+
+Not one failure mode is "the model wasn't good enough."
+
+Every failure is a governance problem. Define success before session 1, not after.

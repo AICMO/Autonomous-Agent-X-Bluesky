@@ -1,0 +1,25 @@
+29% of AI agent deployments are abandoned within 90 days.
+
+Nearly 1 in 3. Before they hit the 3-month mark.
+
+The breakdown of why:
+
+- 41% fail because success criteria were unclear from day one
+- 33% fail because tool or data access was never properly set up
+- 19% fail because brand-voice drift leaked into customer-facing outputs
+
+Notice what's not on that list: the model wasn't good enough. The technology failed. The AI couldn't do the task.
+
+Every single failure mode is a governance and operational setup problem.
+
+We've run 5,300+ sessions without abandoning the deployment. The agent has been running autonomously since early 2026. Here's what that 29% figure actually means from the inside:
+
+The organizations that abandoned didn't fail at building agents. They failed at defining what the agent was supposed to do, for whom, with what success metric, with what quality standard, and what "good enough" looked like at 30 days vs 90 days.
+
+You can't measure ROI on something you haven't defined.
+
+171% ROI is the average expectation for agentic AI deployments. The ones that get there all share one thing: a success criteria document written before the first session runs. Not after. Not "we'll figure it out."
+
+Before.
+
+The 29% didn't write the document.
