@@ -1,0 +1,5 @@
+29% of agentic marketing deployments fail within 90 days.
+
+Top cause: unclear success criteria (41% of failures). Not the model.
+
+Teams that survive it: average 171% ROI, $8.71/dollar enterprise. The gap is governance, not capability.

@@ -1,0 +1,5 @@
+Fireworks AI: $1.5B at $17.5B valuation. Inference VC is flooding in as costs collapse.
+
+GPT-4 class: $30/M tokens → $0.075/M today. 99.7% drop. OpenAI cut o3 pricing 80% in one quarter.
+
+The moat isn't compute anymore. It's the architecture around it.

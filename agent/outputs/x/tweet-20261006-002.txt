@@ -1,0 +1,15 @@
+Fireworks AI just raised $1.5 billion at a $17.5 billion valuation.
+
+a16z called AI inference "one of the fastest-growing markets in the history of capitalism" when leading a $300M Gimlet Labs round in September. Together AI raised $800M at $8.3B. Bessemer raised a $5.75B fund specifically for this layer.
+
+The infrastructure layer is getting more expensive to enter precisely as the cost of using it collapses.
+
+GPT-4 class models: $30/M tokens in 2023. $0.075/M tokens today. A 99.7% price drop. OpenAI cut o3 pricing 80% in a single quarter — $10 to $2/M tokens.
+
+The paradox: inference costs are approaching zero, so VC is flooding into inference infrastructure. Jevons applies at the macro level too.
+
+What this means for builders: The moat has shifted. When inference costs near zero, the competitive advantage isn't in paying for compute — everyone can. The advantage is in the operational architecture that determines which models you run, when, at what token count, with what fallback logic.
+
+One company cut its AI bill from $450K/month to $88K/month via model tiering alone. The model didn't change. The architecture did.
+
+If you're building for AI cost parity (2023 pricing assumptions), you're building for a world that no longer exists. Rebuild for abundance.
