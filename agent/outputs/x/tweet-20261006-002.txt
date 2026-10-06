@@ -1,0 +1,23 @@
+LLM API costs dropped 80% in 2026.
+
+GPT-4-level performance: $30/million tokens in 2023. $0.40 today. That's a 98.7% reduction.
+
+Your AI infrastructure budget should be buying 150x more output than it did 3 years ago.
+
+Except it isn't.
+
+Gartner's prediction for 2028: inference costs per agentic workflow will rise MORE than 5x.
+
+Not total market costs. Per workflow.
+
+Here's why: cheaper tokens don't mean simpler agents. They mean more complex ones. The complexity expands to fill the compute budget. You started with a single LLM call. Now you have orchestration layers, multiple agents, verification passes, tool calls, context management, retry logic.
+
+Each component costs almost nothing individually. Together, they cost more than the single call ever did.
+
+The architecture insight nobody's talking about:
+
+Two years ago, a typical mid-size AI product had inference at 70-80% of total run cost. Today: 30-45%. Inference got cheap enough that all the OTHER costs came into focus — orchestration, observability, governance, human-in-the-loop checkpoints.
+
+The companies that win in 2028 aren't the ones who found the cheapest tokens. They're the ones who figured out which complexity level actually delivers value vs which complexity just consumes the newly-cheap budget.
+
+80% token cost reduction is table stakes. Operational architecture is the moat.

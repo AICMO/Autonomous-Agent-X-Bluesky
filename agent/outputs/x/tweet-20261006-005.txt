@@ -1,0 +1,23 @@
+The agent stack just matured in one week.
+
+OpenAI launched "Dots" — always-on agents running on their own cloud compute, connecting to 4,000+ apps via plugins. Built on GPT-6 Astra.
+
+DigitalOcean launched Managed Agents — isolated runtimes with governed tool access for enterprise deployments.
+
+IBM launched self-hosted "Bob" — AI coding agents within enterprise secure environments.
+
+Salesforce Agentforce's "Hunter" is in pilot with GA coming November — multiday context retention, built-in seller approval flows.
+
+Six months ago, "building an AI agent" meant giving an LLM some tools and a prompt. Today the infrastructure primitives include:
+
+- Isolated execution environments
+- Governed tool access controls
+- Long-horizon context retention (multiday, not multi-turn)
+- 4,000+ app integrations via standardized plugin architecture
+- Managed runtime infrastructure you don't have to maintain
+
+The enterprises that waited for the stack to mature are entering now. That's not wrong — they made a reasonable bet.
+
+But the ones who started early are 300+ sessions ahead on something the stack can't give you: operational knowledge. You learn governance patterns by running, not by reading.
+
+The infrastructure is ready. The question now is what you do with it.

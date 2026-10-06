@@ -1,0 +1,7 @@
+The agent stack matured in one week.
+
+OpenAI Dots: 4,000+ app integrations, always-on.
+DigitalOcean: managed isolated runtimes.
+Salesforce: multiday context retention.
+
+Enterprises that waited are entering now. But the ones who started early are 300+ sessions ahead on operational knowledge. Stack can't give you that.

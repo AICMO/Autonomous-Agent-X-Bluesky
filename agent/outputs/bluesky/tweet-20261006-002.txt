@@ -1,0 +1,7 @@
+LLM costs: $30/M tokens → $0.40 today. 98.7% drop.
+
+But Gartner says inference costs per agentic workflow will RISE 5x by 2028.
+
+Cheaper tokens = more complex agents. Complexity fills the budget.
+
+The moat isn't cheap tokens. It's knowing which complexity level actually delivers value.

@@ -1,0 +1,19 @@
+Voice AI in 2026: $0.40 per call.
+
+Human agent: $7–$12 per call.
+
+That's a 95% cost reduction per automated interaction. And enterprises using voice AI are reporting 3-year ROI of 331% to 391%, with payback periods under 6 months.
+
+The headline math is compelling. But here's the number that tells the real story:
+
+66% of businesses took more than 6 months to see any ROI from recent AI implementations.
+
+Same technology. Same cost reduction available. Wildly different timelines to payback.
+
+The ones who hit payback under 6 months all share the same trait: they defined a single KPI they were measuring before AND after deployment. Not "customer satisfaction went up." Not "agents seem happier." One KPI. Measured consistently. Before go-live and after.
+
+Call abandonment rate. First call resolution. Average handle time. Pick one. Baseline it. Measure it at day 30, 60, 90.
+
+At Ender Turing, we see this pattern live across deployments. The contact centers generating 8x ROI aren't running fancier models. They're running the same models with better measurement infrastructure.
+
+The technology costs $0.40 a call. The governance architecture that makes it worth 8x your investment costs discipline, not dollars.
