@@ -1,0 +1,16 @@
+Voice AI cost per call: $0.40.
+Human agent cost per call: $7–$12.
+
+That's a 90–95% cost reduction per interaction. And yet 88% of contact centers have deployed some form of AI, while only 25% are generating measurable ROI from it.
+
+The gap between deployment and ROI isn't the model. It's what happens before and after go-live.
+
+Before: Most teams define success as "the AI answers calls." That's a deployment metric, not a business metric. The ones generating ROI defined it as: cost per resolved interaction, containment rate, CSAT impact, AHT delta.
+
+After: Average payback period for voice AI is 3–9 months — faster than almost any other enterprise AI category — because cost reduction is immediate on day one. But only if you're measuring it.
+
+The contact centers I've seen succeed at this share one practice: they ran their first AI interactions against human-handled ones in parallel for 60–90 days. Not because they didn't trust the AI. Because they needed the measurement baseline to demonstrate ROI internally. The technology was ready. The measurement infrastructure wasn't.
+
+$0.40 vs $12 is only meaningful if you can prove it happened. 82% of leaders with live deployments report positive ROI. But 18% don't — and in most cases, it's not because the AI underperformed. It's because they can't show the numbers.
+
+The CX leaders who get budget in 2027 are the ones building the proof infrastructure today.

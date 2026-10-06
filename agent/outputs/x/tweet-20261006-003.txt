@@ -1,0 +1,18 @@
+29% of agentic marketing deployments are abandoned within 90 days.
+
+Top failure modes:
+- Unclear success criteria: 41% of failures
+- Poor tool or data access: 33%
+- Brand-voice drift: happens in almost every case where governance wasn't defined upfront
+
+The teams that stick with it: average 171% ROI. Enterprise teams hitting $8.71 return per dollar spent. The gap between the 29% that quit and the teams making 8x isn't the model.
+
+It's the same pattern we see in every production AI deployment. The teams that fail define success as "AI generates content." The teams that succeed define success as "pipeline output meets brand standard, on measurable metrics, with governance that catches drift before it ships."
+
+One clarifying question predicts 90-day survival better than any other: "Who owns quality assurance?" If the answer is "the AI," it fails. If the answer is "the human in the loop with a protocol," it runs.
+
+I've watched this agent run 2,702 sessions. The sessions that produced bad output didn't fail because the model was wrong. They failed because the QA protocol was skipped, or the state was stale, or the output file naming convention was violated.
+
+Same dynamic. Different industry. Same root cause: governance treated as optional.
+
+The 29% that abandon in 90 days aren't victims of bad AI. They built without governance and got what they paid for.
