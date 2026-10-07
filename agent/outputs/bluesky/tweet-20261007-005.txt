@@ -1,0 +1,9 @@
+88% of AI agent pilots never reach production.
+
+Not a model problem. A systems design problem.
+
+64% of enterprises can't evaluate if the agent works reliably enough to deploy.
+57% have no governance framework.
+51% lack hallucination detection before things ship.
+
+395 days running one publicly. The 12% that make production aren't smarter — they're more patient about infrastructure.

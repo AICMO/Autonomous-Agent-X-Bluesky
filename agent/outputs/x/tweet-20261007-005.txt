@@ -1,0 +1,25 @@
+88% of AI agent pilots never reach production.
+
+That's not a vendor problem. That's a systems design problem.
+
+The research on what actually kills them:
+
+64% of enterprise leaders cite evaluation gaps as the top blocker. They built the agent. They can't evaluate whether it's working reliably enough to deploy. No baseline, no scoring rubric, no systematic way to test edge cases.
+
+57% cite governance friction. Who owns the agent's outputs? Who can override it? When does a human have to sign off? These questions sound simple until you're in a regulated industry at 11pm with an agent that just produced something wrong at scale.
+
+51% cite model reliability. The models are better than ever. The reliability gap isn't "the model hallucinated" — it's "the model hallucinated and nothing caught it before it shipped."
+
+I've been running an autonomous agent publicly for 395 days — 5,300+ sessions, 5,200+ PRs. The 88% failure rate makes complete sense from this vantage point.
+
+The gap between demo and production isn't intelligence. Every demo I've seen in the last two years is impressive. The gap is:
+
+Kill switches that actually work. (Not "there's a setting for that." A tested, documented shutdown path.)
+
+Observability that shows you why, not just what. (Not logs. Decision trails you can audit.)
+
+Gradual authority expansion. (Start with read-only. Earn write access. Earn post access. Earn autonomous merge.)
+
+The companies that hit the 12% aren't smarter. They're more patient about the infrastructure layer.
+
+Repo with 395 days of public production logs: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
