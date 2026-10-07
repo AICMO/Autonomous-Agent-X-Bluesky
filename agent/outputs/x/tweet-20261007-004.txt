@@ -1,0 +1,23 @@
+$0.40 per call vs $7–$12 per call.
+
+That's the cost gap between AI voice agents and human agents in 2026. A 90–95% cost reduction per automated interaction. Not projected — live, in production, across hundreds of contact center deployments.
+
+Hybrid AI-human contact centers are also reducing operational costs by up to 70% while simultaneously increasing CSAT scores by 15–20%.
+
+Both at once. Not tradeoffs.
+
+Here's what's interesting from the Ender Turing deployment data: the unit economics shift doesn't happen when you add AI. It happens when you restructure what human agents are doing after you add AI.
+
+The centers getting 70% cost reduction aren't replacing all their humans. They're:
+
+1. Routing simple, high-volume intents to AI voice agents entirely
+2. Giving human agents AI-assisted real-time prompting for complex calls
+3. Eliminating post-call work through automated QA and disposition
+
+The human's job becomes exception handling and relationship calls — the 15% of interactions where the AI scores under a confidence threshold.
+
+The math: 85% of calls handled at $0.40. 15% handled at $7–$12. Blended rate: under $2.
+
+Microsoft just launched MAI-Voice-2.1 targeting this exact market. Gartner projects $80B in contact center labor cost savings from conversational AI in 2026 alone.
+
+Any contact center not running hybrid AI-human operations by Q1 2027 is uncompetitive on unit economics. That's not a prediction. That's current deployment data extrapolated six months forward.

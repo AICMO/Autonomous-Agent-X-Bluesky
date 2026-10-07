@@ -1,0 +1,7 @@
+79% claim AI agent adoption. 11% run them in production.
+
+68-point gap. Three reasons: no evaluation loop, no confidence threshold, governance bolted on after.
+
+Governance isn't a feature. It's the architecture. Design it in from session zero.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

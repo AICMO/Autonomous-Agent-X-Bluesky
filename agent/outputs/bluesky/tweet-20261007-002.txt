@@ -1,0 +1,7 @@
+AI inference costs fell 280x. Enterprises spend 320% more anyway.
+
+Jevons Paradox. Costs drop → usage explodes → total spend rises.
+
+85% of enterprise AI budgets go to inference. Only 37% see measurable earnings impact.
+
+The model is the commodity. Deployment architecture is the moat.

@@ -1,0 +1,21 @@
+Per-token AI inference costs fell 280x in two years.
+
+A task costing $30/million tokens in 2023 now costs $0.10.
+
+And yet enterprises are spending 320% MORE on AI overall.
+
+This is textbook Jevons Paradox: prices drop → demand explodes → total spend rises. It happened with electricity. It happened with cloud compute. It's happening with AI inference right now.
+
+What this actually means for companies:
+
+**Inference now eats 85% of enterprise AI budgets.** Up from ~60% last year. The "AI will get cheaper so we should wait" strategy burned everyone who tried it. Costs dropped but usage exploded faster.
+
+**Only 37% of organizations report measurable earnings impact from AI spending** (McKinsey 2026). MIT's Project NANDA found 95% of enterprise GenAI pilots delivered little or no P&L return despite $30B–$40B in total investment.
+
+The math is brutal: $9M–$19M/year for a mid-market company to run AI at scale, with most of the value still theoretical.
+
+The companies pulling ahead aren't spending less. They're spending differently — on operational architecture instead of model experiments.
+
+A model is a commodity. How you deploy, govern, and scale it is the moat.
+
+The inference pricing collapse is over. The operational architecture race is just starting.
