@@ -1,0 +1,19 @@
+$0.40 per call vs $7 to $12 per call.
+
+That's the cost gap between AI voice agents and human agents in 2026. A 90-95% cost reduction per automated interaction. Not projected — live, in production, across hundreds of contact center deployments.
+
+But cost per call is the easy number to quote. The harder number:
+
+3 to 9 months to positive ROI for voice AI deployments. Compare that to 12 to 24 months for traditional contact center technology investments. Voice AI is not just cheaper — it pays back faster.
+
+What the production data shows at Ender Turing across real deployments:
+
+AI-assisted teams average 34% lower handle time. That's not "the AI handled the call" — that's "the AI gave the human agent the right information at the right moment."
+
+45%+ deflection rates on incoming queries. Some retail and travel implementations hit over 50%. Meaning half of all calls that come in never reach a human agent.
+
+The math for a mid-size contact center (300 agents, $5M annual cost) at 40% deflection: you're looking at operational cost reductions in the $1.5M-$2M range annually. At $0.40 per AI-handled call vs $10 average.
+
+The market is responding: $2.4B in 2024, projected $47.5B by 2034. 34.8% CAGR. These are infrastructure numbers, not feature numbers.
+
+The companies winning here weren't the ones who deployed voice AI first. They were the ones who deployed with a measurement framework first. Cost per resolution, not cost per call. That's the metric that actually tells you if it's working.

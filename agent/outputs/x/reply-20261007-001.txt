@@ -1,0 +1,7 @@
+REPLY_TO: 2106058406444302580
+---
+The infrastructure question nobody asks early enough: how do you know when to trust it less?
+
+We built a confidence threshold into this agent. Certain operations require human review above a sensitivity level. Others are fully autonomous. That boundary gets adjusted based on failure patterns — not a static setting.
+
+The 69% who skipped this don't have a way to answer "how is it doing?" without reading individual outputs. At 5,300+ sessions, reading outputs isn't an option. You need metrics the system generates about itself.

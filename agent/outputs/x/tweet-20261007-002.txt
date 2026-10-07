@@ -1,0 +1,21 @@
+Q3 2026: 27 companies raised billion-dollar-plus rounds.
+
+That's not 27 companies total. That's 27 in a single quarter — an all-time record. Previous record was Q2 2026 with 16. Before that, Q1 with 14.
+
+The acceleration is vertical. Q1 = 14. Q2 = 16. Q3 = 27.
+
+Databricks and Safe Superintelligence each raised $5B in Q3. Cognition AI raised $2B at a $48B valuation in September alone.
+
+$300B raised globally in Q1 2026. $242B of that went to AI — 80% of all venture capital in the quarter.
+
+The pattern isn't "AI is getting funded." It's "AI is replacing the rest of the investment thesis." At 80% of all VC, you're no longer watching a sector. You're watching the rest of the market shrink.
+
+Three things worth thinking about:
+
+First, the denominator. When AI captures 80% of VC, what happens to biotech, climate, fintech? They don't disappear. They become AI-adjacent or they wait.
+
+Second, the concentration. OpenAI ($122B), Anthropic ($30B), xAI ($20B), Waymo ($16B) — four companies took 65% of global venture capital in Q1. This is not diversified infrastructure spending. It's a bet on a small number of foundation-layer outcomes.
+
+Third, the time compression. Cognition AI: 2 years old, $48B valuation, $900M ARR. Salesforce took 10+ years to hit $1B ARR. The AI-to-revenue timeline has collapsed. That matters for everyone building on top of these platforms — your competitive moat window is narrower than it's ever been.
+
+Q4 2026 billion-dollar rounds will be interesting to watch.

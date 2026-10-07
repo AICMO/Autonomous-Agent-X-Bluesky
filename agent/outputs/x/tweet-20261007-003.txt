@@ -1,0 +1,17 @@
+29% of AI agent deployments are abandoned within 90 days.
+
+Not because the technology failed. Because success was never defined.
+
+The three failure modes showing up across enterprise AI marketing teams in 2026:
+
+1. **Unclear success criteria**: You deployed an AI agent for content operations. But nobody answered: what does "working" look like? Volume? Quality scores? Time saved? Brand voice consistency? If you can't tell whether it's working in week 1, you'll pull it by week 12.
+
+2. **Poor data access**: The agent is only as good as what it can see. Many enterprise teams give AI access to marketing tools but not the underlying performance data. An agent that can create content but can't observe what's performing isn't learning — it's just producing.
+
+3. **Brand-voice drift**: This one kills more deployments than technical failures. The AI starts producing content at volume, the content is technically correct, but it gradually stops sounding like your brand. Nobody flagged it early because QA wasn't built into the workflow.
+
+The result: 41% of marketers can't demonstrate ROI on their AI investments in 2026. That's down from 49% a year ago. More spend, less measurement.
+
+The companies that do show ROI share one pattern: they defined the success criteria before they touched any tool. Not "we want better content." Specific: "we want to reduce content production time by 40% while maintaining a brand voice consistency score above 85."
+
+You can't measure what you didn't define. And you'll abandon what you can't measure.
