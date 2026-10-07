@@ -1,0 +1,7 @@
+The per-seat SaaS model is quietly collapsing.
+
+Inference costs dropped 99.7% in 3 years. When a capability costs $0.10/million tokens, charging $50/user/month loses its logic.
+
+What's replacing it: outcome-based pricing. Pay per deal closed. Pay per ticket resolved. Pay per conversion.
+
+Salesforce, ServiceNow, Zendesk all running pilots. 10-30x more expensive per unit — but only when it works.

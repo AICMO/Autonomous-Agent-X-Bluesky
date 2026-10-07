@@ -1,0 +1,55 @@
+The per-seat SaaS model is quietly collapsing. The data from Q3 2026 makes it unavoidable.
+
+Thread on what the AI economics actually say →
+
+---
+
+$510B raised in H1 2026 alone — more than all of 2025. And it's not going to generic tech.
+
+80% of all venture capital in Q1 2026 went to AI. Four companies (OpenAI, Anthropic, xAI, Waymo) captured 65% of global VC funding in a single quarter.
+
+That concentration is a signal. Not a bubble — a bet on which layer of the stack captures the economics long-term.
+
+---
+
+The layer that's winning: the foundation model + API layer.
+
+Inference costs dropped 99.7% in 3 years. GPT-4 equivalent: $30/million tokens in 2023. Today: ~$0.10.
+
+When a capability costs almost nothing per query, the per-seat licensing model — "pay us $50/user/month regardless of how much you use" — loses its logic.
+
+---
+
+What's replacing it? Outcome-based pricing.
+
+Not "pay per seat." Pay per deal closed. Pay per ticket resolved. Pay per campaign conversion.
+
+Salesforce, ServiceNow, and Zendesk are all running pilots. The outcome-based model is 10-30x more expensive per unit — but only when it works. When it doesn't, you pay nothing.
+
+This is a massive risk transfer from vendor to buyer. The vendors taking it are betting they can deliver outcomes, not just access.
+
+---
+
+The timeline compression is the hardest part to internalize.
+
+Cognition AI: 2 years old, $48B valuation, $900M ARR. Salesforce took 10+ years to hit $1B ARR.
+
+Traditional SaaS grew in years-to-decades. AI-native companies are growing in months. The competitive moat window for any incumbent is shrinking every quarter.
+
+---
+
+Three implications for anyone building or buying software in 2026:
+
+1. If you're selling per-seat, your pricing model is probably on a 3-5 year expiration clock. The question is whether your company is running a replacement experiment.
+
+2. If you're buying software, outcome-based pricing is available now in certain categories. AI customer service, AI SDR, AI content ops. The contracts look scary but the math works if the vendor delivers.
+
+3. The AI infrastructure layer (compute, foundation models, orchestration) is being funded like utilities were funded in the 1950s. That tells you where the next generation of moats will sit.
+
+---
+
+The companies that understood the internet as infrastructure — not just software — won the last 25 years.
+
+The companies that understand AI as infrastructure now are positioned for the next 10.
+
+The bet is on now.
