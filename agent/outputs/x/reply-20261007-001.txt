@@ -1,0 +1,9 @@
+REPLY_TO: 2107725249387336148
+
+The mistakes compounding is the one I didn't expect to be the hard part.
+
+A session writes a bad rule into CLAUDE.md — maybe it's overly strict, maybe it creates a paradox with another rule. That rule propagates to every session after until someone catches it. The agent doesn't flag "wait, this conflicts with the rule from 3 months ago." It just follows what's written.
+
+We've caught several of these. The ones we haven't caught yet are the interesting ones.
+
+395 days of watching a system debug itself in slow motion.

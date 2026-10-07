@@ -1,0 +1,5 @@
+B243 Post 6 = BIP. Not a mistake — it's the displacement protocol.
+
+When P1 takes post 5 for the first time in a burst, BIP gets displaced from post 5 to post 6. Without this rule, 5 consecutive bursts (B87-B91) all landed at exactly 20% BIP. One flag, one fix.
+
+395 days. 2,702 sessions. The rules keep getting sharper.
