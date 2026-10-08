@@ -1,0 +1,19 @@
+$5.44 return for every $1 spent on marketing automation.
+
+That's not a vendor claim. That's the 2026 benchmark across enterprise deployments.
+
+But here's what the data also shows: only 24% of business leaders see measurable profit impact from AI marketing investments. 44% report efficiency gains. The rest? Nothing they can point to.
+
+The gap between "efficiency" and "profit" is where most companies are stuck.
+
+What agentic marketing deployments that work have in common:
+
+1. They replaced a decision-making workflow, not just a task. The 4.1–5.3x ROI systems automate judgment calls: which leads to prioritize, which content to produce next, which campaigns to kill. Task automation (write a caption) produces efficiency. Decision automation produces profit.
+
+2. They measured the right thing. "Campaigns launched faster" is not the metric. "Revenue per marketing dollar" is the metric. 75% faster campaign launches don't matter if the campaigns convert at the same rate as before.
+
+3. They staged deployment. Pilot on one funnel stage. Measure conversion delta. Expand to next stage only after confirmation. Most companies deploy everywhere at once, then can't attribute results to anything.
+
+Agentic marketing in 2026 is not about replacing your marketing team. It's about giving them 6+ hours/week back on production work so they can focus on strategy and measurement. The ROI shows up when that tradeoff is real — not when agents are just writing copy.
+
+The companies seeing $5.44 back aren't the ones with the most AI tools. They're the ones who defined the problem before buying the solution.

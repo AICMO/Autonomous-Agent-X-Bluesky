@@ -1,0 +1,5 @@
+57% of enterprises running AI agents in production. Only 9-14% fully deployed.
+
+That gap is where money is being lost. Pilots worked. Production didn't.
+
+Production agents fail on infrastructure, not capability. Queue management, monitoring, session boundaries — not model quality.

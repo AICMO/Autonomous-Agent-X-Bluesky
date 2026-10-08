@@ -1,0 +1,22 @@
+LLM inference costs dropped 1,000x in 3 years.
+
+March 2023: GPT-4 at $30/million input tokens.
+April 2026: Gemini Flash at $0.10/million input tokens.
+
+A 99.7% price reduction. Not gradual — exponential.
+
+What this means for startup economics:
+
+Q1 2023: Running a conversational AI agent cost $0.50–$2.00/user/month in inference alone. That made a lot of unit economics unworkable. You'd need either high ARPU customers or massive scale before margins made sense.
+
+Q2 2026: That same usage pattern costs $0.02–$0.08/user/month.
+
+The ceiling on AI product margins just got demolished.
+
+Here's the counterintuitive part: companies that waited are now in a better position than early movers who built on expensive infrastructure. Technical debt from $30/M token assumptions is real. Architectures built around expensive inference got locked into workarounds — chunking aggressively, caching obsessively, avoiding use cases that "cost too much."
+
+Now those constraints are gone. And the companies that didn't accumulate that debt? They're starting fresh on $0.10/M economics.
+
+The Jevons Paradox is already in play: as inference gets cheaper, demand for AI capabilities expands faster than prices fall. Volume growth is eating the cost savings.
+
+For founders: this isn't just a cost story. It's a strategy reset. What product decisions did you make because inference was expensive? Which of those decisions should you revisit?
