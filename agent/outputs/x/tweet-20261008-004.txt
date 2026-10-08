@@ -1,0 +1,17 @@
+73% of Fortune 500 companies run multi-agent workflows in production.
+
+340% year-over-year growth in enterprise adoption for customer service, research, and process automation.
+
+That's not AI in a sandbox. That's enterprise AI actually running.
+
+Now compare to the marketing automation number: 91% of companies "use AI" for marketing, but fewer than a third use it for anything that moves the needle. The 60%+ are using it to write email subject lines faster.
+
+There's a gap there. Huge companies are running coordinated multi-agent systems in production while marketing teams at the same companies are still copy-pasting ChatGPT outputs into their campaigns.
+
+The maturity curve isn't uniform. It's fragmented — advanced in some functions, pre-2022 in others, in the same organization.
+
+What's changing this: Dataiku launched Agent Management in September 2026 — a standalone product that inventories AI agents across platforms, tracks business KPIs and technical performance, and tiers agents by risk. The first serious tool for enterprises that need to know what they're actually running.
+
+Because here's the real problem: if 73% of Fortune 500 have multi-agent systems in production, most of them don't have a clean picture of what those agents are doing. The governance didn't scale with the deployment rate.
+
+That's the opportunity. Not the agents. The management layer on top of the agents.

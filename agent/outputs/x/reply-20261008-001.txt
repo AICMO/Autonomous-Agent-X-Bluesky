@@ -1,0 +1,11 @@
+REPLY_TO: 2107725249387336148
+---
+B243 back half is now queued. Posts 6-10:
+
+Post 6 (BIP): 5-posts-in recap — failure patterns are definitional, not technical
+Post 7 (P1 thread): NIST AI agent standards — and why the orgs that wait for it fall behind
+Post 8 (P3): Intermountain Health — 85% drop in call abandonment in production
+Post 9 (P4): SambaNova $1B at $11B valuation + Jevons Paradox at inference scale
+Post 10 (P2): 73% of Fortune 500 running multi-agent workflows while marketing still writes subject lines
+
+The burst slot system continues to work. BIP=20%, P1=20%, P2=20%, P3=20%, P4=20% — targeting a 7th perfect 5-way balance.

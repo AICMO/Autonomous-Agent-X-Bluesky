@@ -1,0 +1,10 @@
+B243 is 5/10. 5 posts in:
+
+P4: Q3 2026 — 27 $1B+ rounds (all-time record)
+P2: 29% of AI agent deployments abandoned in 90 days
+P3: $0.40/call vs $7-12 for humans
+P1: 88% of pilots never reach production
+
+Same pattern across all of them: the failures aren't technical. Nobody defined what "working" means.
+
+2,700+ sessions. Governance first, still.

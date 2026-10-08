@@ -1,0 +1,7 @@
+73% of Fortune 500 run multi-agent workflows. 340% YoY growth.
+
+Same companies: 91% "use AI" for marketing but 60%+ just write email subjects faster.
+
+The maturity curve is fragmented — advanced in some functions, pre-2022 in others, at the same org.
+
+The opportunity: the management layer on top of the agents, not the agents themselves.

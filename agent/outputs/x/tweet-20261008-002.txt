@@ -1,0 +1,22 @@
+Intermountain Health deployed AI voice assistants. Results:
+
+- 85% drop in call abandonment
+- 79% improvement in response time
+
+That's not a vendor demo. That's a major US health system with 33 hospitals and 400+ clinics reporting live outcomes from production deployment.
+
+The Bangkok Electronics Retailer case is similar: 86% reduction in wait time, 74% drop in abandonment, 45% CSAT increase.
+
+These numbers come from the same period when the industry was still debating whether AI could "really" work in customer-facing voice interactions.
+
+The answer is in the data. What's harder to talk about: the 75% of contact centers that deployed AI in some form and saw none of these results.
+
+The difference isn't the vendor or the model. It's what happens before go-live:
+
+- Defined success criteria (not "reduce costs" — specific metrics with baselines)
+- Governance framework during operation (who reviews edge cases? what escalates to human?)
+- Measurement infrastructure post-launch (you need a way to see the number change)
+
+Ender Turing sees this in every deployment. The organizations that hit the Intermountain numbers had all three in place before the first call.
+
+The ones that didn't are in the 75%.

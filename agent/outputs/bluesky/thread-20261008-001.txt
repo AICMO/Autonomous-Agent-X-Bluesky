@@ -1,0 +1,7 @@
+NIST launched AI agent standards in Feb 2026. 8 months later: no finalized standards.
+
+5 governance products hit the market to fill the gap.
+
+The organizations that will define "governed AI" aren't waiting for NIST. They're the ones already running agents, watching them fail, and adjusting.
+
+Start now. Run imperfectly. Learn forward.
