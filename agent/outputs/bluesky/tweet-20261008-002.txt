@@ -1,0 +1,7 @@
+Intermountain Health: 85% drop in call abandonment, 79% faster response after AI voice deployment.
+
+75% of contact centers deployed AI and saw none of this.
+
+The diff: defined success criteria + governance framework + measurement infrastructure — all in place BEFORE go-live.
+
+The technology isn't the variable.

@@ -1,0 +1,22 @@
+SambaNova: $1 billion Series F. $11 billion valuation. July 2026.
+
+Five months earlier they raised $350M. The $11B valuation in a single year is the kind of number that requires context.
+
+The AI chip market is currently estimated at $251 billion. Projected to hit $672 billion by 2029. That's a 28% CAGR — faster than cloud infrastructure grew at its peak.
+
+But here's the part the headlines miss: the inference economics are inverting simultaneously.
+
+- Token costs dropped 80% in 2026
+- Frontier model input prices: $15/M tokens in 2024 → $3/M in 2026
+- One economy-tier model (Gemini 2.0 Flash): $0.10/M tokens — down 600x in under 6 years
+- A typical mid-size AI product: inference was 70-80% of total run cost in 2024, now 30-45%
+
+So chip companies raise billions while the cost per token collapses. Both things are true.
+
+The resolution: Jevons Paradox at infrastructure scale. As inference gets cheaper, the volume of inference explodes. SambaNova at $11B isn't a bet on per-token pricing — it's a bet on total inference volume increasing 1000x.
+
+That's the actual thesis behind every chip round. Not the price per token. The total number of tokens.
+
+Companies building for high token costs are repricing. Companies that assumed tokens would stay cheap from the start are seeing their architectural decisions validated.
+
+The moat isn't the model. It's the operational stack you built when costs were still high enough to force discipline.
