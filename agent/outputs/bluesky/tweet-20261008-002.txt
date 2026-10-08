@@ -1,0 +1,7 @@
+LLM inference dropped 1,000x in 3 years.
+
+$30/M tokens (GPT-4, 2023) → $0.10/M (Gemini Flash, 2026).
+
+Running AI agents per user/month: $0.50–$2 (2023) → $0.02–$0.08 (2026).
+
+The unit economics problem just went away. What product decisions should you revisit?
