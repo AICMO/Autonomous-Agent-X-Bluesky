@@ -1,0 +1,13 @@
+29% of agentic marketing deployments are abandoned within 90 days.
+
+The #1 cause: 41% of failures trace back to no one defining what success looks like before going live.
+
+That's not an AI problem. That's an implementation design problem.
+
+The data is blunt here. Only 19.2% of enterprises have deployed true end-to-end agentic campaign automation. Of those that try, nearly 1 in 3 quit before the quarter is out. The other failure modes: poor tool/data access (33%), brand-voice drift that bleeds into customer-facing content.
+
+Agentic pipelines that work — the ones delivering 4.1x–5.3x ROI — all share the same architectural DNA: defined success criteria before launch, closed feedback loops, and measurement infrastructure that was designed before the agent ran, not retrofitted after it started failing.
+
+Compare: AI-assisted drafting delivers 3.2x ROI. Full agentic automation delivers 4.1x–5.3x. The gap is real. But most companies never close the gap because they treat "success criteria" as a post-launch evaluation task rather than a pre-launch architecture decision.
+
+If you're deploying agentic marketing: write down what "working" means before you hit go. Specific metric. Specific threshold. Specific time horizon. If you can't articulate that before launch, you're in the 29%.

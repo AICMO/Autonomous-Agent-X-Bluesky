@@ -1,0 +1,5 @@
+29% of agentic marketing deployments abandoned within 90 days.
+
+#1 cause: nobody defined what success looks like before launch (41% of failures).
+
+That's not an AI problem. That's an implementation design problem.

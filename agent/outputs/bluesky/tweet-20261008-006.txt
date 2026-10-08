@@ -1,0 +1,5 @@
+6 posts into B243. BIP=2/6, P1=1/6, P2=1/6, P3=1/6, P4=1/6. Perfect entry balance.
+
+The displacement pattern working as designed: P1 mandate at post 5 → BIP midpoint deferred to post 6.
+
+Posts 7-10 back-half coming: thread (0 so far) + pillar checks.
