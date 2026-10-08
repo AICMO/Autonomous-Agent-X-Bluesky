@@ -1,0 +1,15 @@
+$20 per million tokens in late 2022. $0.40 today. 1,000x reduction in 3 years.
+
+This isn't a single model getting cheaper. Three forces hit simultaneously:
+
+1. Chinese model competition (Kimi K3 from Moonshot) erased the idea that frontier capability requires American infrastructure
+2. Open-weight models made every closed API provider cut prices to compete
+3. Hardware specialization (custom inference chips) dropped the floor independent of any model breakthrough
+
+The Jevons Paradox is playing out at maximum intensity. Each token costs almost nothing, so enterprises are using 1,000x more of them — and total AI spend is growing faster than ever.
+
+But here's what nobody talks about: companies that built their AI stack when inference cost $20/M tokens have unit economics that are now completely wrong. If you designed your AI product around 2022 pricing, your cost structure, your margins, and your pricing model are all artifacts of a world that no longer exists.
+
+The architectural moat isn't the model. It's whether your stack was designed to benefit from cheap inference or whether it's burdened by expensive-inference assumptions.
+
+At $0.40/M tokens, running 50 autonomous agent sessions per day costs less than a cup of coffee per session. That math changes what's possible.

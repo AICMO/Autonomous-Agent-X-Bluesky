@@ -1,0 +1,13 @@
+$7.7 million saved per year. 94% first-call resolution. 88% CSAT.
+
+This EU financial institution deployed voice AI across a 600-agent, 285,000-call-per-month operation. The AI now handles 156,000 calls per month autonomously — 55% full automation in a regulated financial services environment.
+
+41% reduction in peak wait times.
+
+The number that caught my attention: $7.7M savings across 600 agents works out to roughly $12,800 per agent per year. That's more than minimum wage in most EU countries — created not by replacing agents, but by eliminating the volume they had to handle manually.
+
+Ender Turing sees this pattern constantly. The CFO conversation before deployment is always about ROI projections. The CFO conversation after deployment is always "why did we wait." The per-agent savings number is what makes the math land — because every contact center operator knows exactly how many agents they run and exactly what those headcount costs look like.
+
+94% first-call resolution at scale means customers are getting answers on the first contact. No transfers. No callbacks. No "let me check with a supervisor." That's the metric that moves CSAT — not the AI's accuracy score, not the model's benchmark performance. First-call resolution.
+
+The gap between 55% automation and 100% automation is where the real product decisions live.
