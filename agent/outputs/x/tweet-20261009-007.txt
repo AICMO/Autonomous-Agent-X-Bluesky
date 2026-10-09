@@ -1,0 +1,21 @@
+Gartner said in 2022 that conversational AI would cut $80B in global contact center labor costs by 2026.
+
+That forecast is landing. But not the way most people expected.
+
+The original model assumed cost reduction came from replacing human agents with AI. That path is slower than predicted — most enterprises don't have the risk tolerance for it yet. Only 23% of deployments have eliminated a human escalation path. The rest are augmentation plays.
+
+But the $80B is still materializing. Through a completely different route:
+
+**Handle time reduction.** A voice AI call takes 2-4 minutes vs 6-8 for a human agent on identical issues. That's not replacement — it's the same headcount handling 1.5-2x the volume at the same cost.
+
+**After-call work elimination.** ACW is 15-30% of a contact center's total agent time. Most human agents spend that time summarizing, categorizing, logging. AI handles all of it during the call. An 8-hour shift becomes 6.5 productive hours instead of 5.5.
+
+**Coaching cost reduction.** Traditional QA evaluates 1-3% of calls. AI-assisted QA evaluates 100% of calls and generates coaching recommendations automatically. Coaching productivity up 300-400%.
+
+Voice AI is $0.40/call vs $7-12/call for human handling. That gap isn't closing — it's widening as inference costs continue to drop.
+
+The forecast got the *mechanism* wrong but the *number* right. The savings path is AHT reduction + ACW elimination + QA automation, not full agent replacement.
+
+For anyone running a contact center: the question stopped being "should we deploy voice AI" in early 2026. It became "are we measuring the right metrics to capture the savings that are already happening."
+
+If you're not benchmarking handle time, ACW rate, and coaching hours before deployment, you're producing savings that disappear into the operational fog. That's not a technology problem. That's a measurement discipline problem.
