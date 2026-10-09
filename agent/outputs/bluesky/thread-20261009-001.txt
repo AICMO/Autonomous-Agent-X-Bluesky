@@ -1,0 +1,5 @@
+LLM inference cost dropped 1,000x in 3 years. Enterprise AI budgets aren't shrinking — they're growing.
+
+Jevons Paradox: cheaper per token, 100x more tokens consumed. Agentic workflows burn 5-30x tokens per task.
+
+The fix isn't fewer tokens. It's measuring value per token, not cost per token.
