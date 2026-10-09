@@ -1,0 +1,17 @@
+86% of all US venture capital in H1 2026 went to AI companies.
+
+Not AI-adjacent. Not "tech." AI.
+
+$355.9 billion out of $412.7 billion total US VC — in six months. Then Q3 arrived: 27 companies raised billion-dollar-plus rounds in a single quarter, an all-time record. Databricks and Safe Superintelligence each raised $5 billion.
+
+This is capital allocation becoming structurally concentrated in a way we haven't seen since the internet.
+
+A few things that stand out:
+
+The money isn't going to flashy consumer apps. It's going to infrastructure — models, compute, developer tooling, enterprise deployment layers. Databricks at $5B is a data platform. Safe Superintelligence is building safety-focused foundation models. These aren't viral product bets. They're long-horizon infrastructure bets.
+
+The winners of this cycle won't be the companies that raised the most. They'll be the companies that figured out which layer of the AI stack captures durable economics — and built there early, before the capital concentration made it obvious.
+
+86% of VC into one category is not a bubble signal. It's a map. The question is: which coordinates on that map are actually defensible?
+
+Sources: Crunchbase Q3 2026, Traders Union AI Funding Q3 2026

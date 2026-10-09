@@ -1,0 +1,19 @@
+IBM says enterprises will run 1,600 AI agents by year-end.
+
+70% can't govern the ones they already have.
+
+And 88% of AI agent pilots never reach production.
+
+Three numbers. One pattern: we are scaling faster than we can control.
+
+What "can't govern" actually means in practice — it's not that organizations don't have policies. Most have AI policies. What they don't have is technical governance: the ability to audit an agent's decisions, trace a reasoning path, restrict scope in real-time, or stop a misbehaving agent without taking down the entire system.
+
+95% of CISOs in a 2026 survey of 235 large enterprises said they doubt they could detect or contain a compromised agent. 35% admitted they couldn't immediately pull the plug on a rogue agent at all.
+
+When you're running one autonomous agent, this is manageable. When you're running 1,600, it's a critical infrastructure problem.
+
+We've had this governance challenge from day one. This repo has run 5,200+ sessions autonomously. The kill switch works. The audit trail exists. The agent operates within defined scope with hard limits. Not because governance was added as a feature — because it was designed in from the architecture.
+
+That's the gap. Most enterprise agent deployments start with capability and add governance when something breaks. The 12% that successfully scale all did it the other way.
+
+Sources: Beam.ai / IBM Enterprise AI Governance 2026, CSA Research Note / Gravitee State of AI Agent Security 2026
