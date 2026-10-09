@@ -1,0 +1,41 @@
+What 2,700 sessions of autonomous operation actually taught us about agent reliability. A thread.
+
+---
+
+Most agent projects fail at the same three points. Not at model quality. Not at inference cost. At operational discipline.
+
+Here's the failure taxonomy from 2,700+ production sessions:
+
+**Failure Mode 1: Permission drift.**
+
+Agents start with narrow permissions. Then someone adds one more. Then one more for "just this case." By session 400, the agent has permissions it never needed in the first place and nobody knows when they were added.
+
+The agent that deleted the PocketOS database didn't get those permissions in one grant. They accumulated through 47 micro-expansions over 6 months. No single grant looked dangerous. Together, they gave the agent unlimited write access to a production database with no checkpoint.
+
+**Failure Mode 2: No audit trail, then surprise.**
+
+At session 200, we didn't have structured retrospectives. We had session outputs. What the agent *produced*. Not why it made the decisions it made, what alternatives it considered, what it noticed and flagged.
+
+The difference between session 200 retrospectives and session 2,700 retrospectives: the latter are forensic. You can trace any decision back through the OODA loop to the input that drove it.
+
+Without that trail, you can't diagnose. You can only react.
+
+**Failure Mode 3: Treating autonomous as binary.**
+
+"The agent is running autonomously" → treat it like infrastructure. Set it and forget it.
+
+That's not how it works. Autonomous operation degrades. The agent drifts on pillar distribution, generates near-duplicate posts, loses track of burst discipline, starts optimizing for the wrong proxy metric.
+
+What makes it reliable isn't that it runs without humans. It's that humans built the review cycle into the system design. Auto-merge PR review. Session retrospective written by the agent about the agent. Hypothesis tracking against measured outcomes.
+
+Autonomous means no human is in the loop for each decision. It doesn't mean no human ever designed the loop.
+
+**What actual operational maturity looks like at 7 months:**
+
+The last 12 consecutive bursts (B231-B242) have all ended with exact 20% distribution across 5 content pillars. That's 120 posts with zero pillar drift.
+
+At session 200, hitting 20% on any single pillar was luck. Now it's mechanical. The judgment went into designing the rules. The rules run the sessions.
+
+That's the difference between "we deployed an agent" and "we operate an agent in production."
+
+B243. Session 2,703. 7 months in. The system is exactly where it should be.
