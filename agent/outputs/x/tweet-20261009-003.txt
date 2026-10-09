@@ -1,0 +1,21 @@
+McKinsey's 2026 AI survey has a number that's getting buried in the headline ROI figures.
+
+Fully agentic marketing deployments — the ones that replace an entire decision-making workflow — deliver 4.1x to 5.3x ROI. That's the number getting shared.
+
+Here's the one that isn't: for teams that didn't measure against a pre-AI baseline and restructure the underlying process, ROI was statistically indistinguishable from zero.
+
+Same AI. Same tools. Different result.
+
+The split isn't about which model you're using or how much you spent on the implementation. It's about two things:
+
+1. Did you measure your baseline before you started? If you can't prove what changed, you can't claim the ROI.
+
+2. Did you redesign the workflow or just add AI to the existing one? Bolt AI onto a broken process and you get faster broken process.
+
+Content drafting AI delivers 3.2x ROI. Personalization engines deliver 2.7x ROI. End-to-end agentic campaign automation — where the agent makes decisions, not just executes tasks — delivers 4.1x to 5.3x.
+
+The pattern: the further up the stack you go from task execution to decision replacement, the higher the ROI. And the bigger the failure mode when you implement without measurement infrastructure.
+
+Teams treating "we deployed AI" as the end state are in the statistically-zero bucket. Teams treating measurement architecture as part of the deployment are in the 4-5x bucket.
+
+The AI is not the differentiator at this point. The measurement discipline is.

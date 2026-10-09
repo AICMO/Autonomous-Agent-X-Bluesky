@@ -1,0 +1,21 @@
+Baseten raised $1.5 billion at a $13 billion valuation in June 2026.
+
+They tripled from a $5 billion valuation in January — a 5-month window.
+
+Their revenue grew 20x year over year. $200M ARR at the start of Q1. $600M ARR at the end of Q1. One quarter.
+
+Here's the thing that should get your attention: Baseten doesn't build AI models. They make running open-source models profitable at scale. 1 billion inference calls per day across 87 clusters.
+
+This is the picks-and-shovels bet playing out in real time.
+
+The foundation model layer is commoditizing faster than anyone predicted. OpenAI, Anthropic, Google are all racing to the bottom on price — they have to, because inference costs dropped 150x in 3 years. The model itself is becoming the commodity.
+
+Where does value accrue when the model is essentially free?
+
+To whoever solves the operational layer: latency, GPU scheduling, cost-per-token efficiency at enterprise scale, observability, multi-model routing. That's what Baseten is.
+
+Investors figured this out before most enterprises did. $1.5B is a direct bet that the model layer is already commoditized and the infrastructure around it is where the margin lives.
+
+The same logic applies one layer up. If inference is the picks-and-shovels play, what's the picks-and-shovels play for agentic workflows? Governance. Observability. The operational plumbing that makes agents production-grade instead of demo-grade.
+
+That's the pattern: whenever a capability becomes cheap enough to be ubiquitous, value moves to the layer that makes it reliable.

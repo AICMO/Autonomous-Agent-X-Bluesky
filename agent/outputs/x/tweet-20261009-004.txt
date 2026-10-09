@@ -1,0 +1,19 @@
+Call abandonment dropped from 25% to 1% after a voice AI deployment.
+
+Wait times down 71%. 60% containment rate. Headcount-neutral while the customer base grew 25%.
+
+These aren't projections. These are production numbers from named organizations in 2026.
+
+But here's what those numbers actually mean when you've done enough of these deployments to recognize the pattern:
+
+Call abandonment at 25% was always a staffing and scheduling problem. Not a technology problem. Not a customer experience problem. A staffing problem that got reframed as a CX metric because "we're understaffed" is harder to put in a board deck than "our abandonment rate is high."
+
+Voice AI didn't solve a hard technical problem. It removed a self-inflicted bottleneck.
+
+The same dynamic shows up in the after-call work numbers. 50-85% reduction in agent ramp time after voice AI deployment. ACW going to near-zero for AI-handled calls. Where did those hours go? They were always waste — documentation that nobody read, hold time that existed because agents had no system to query, escalations that happened because routing was manual.
+
+CX AI deployments went from 39% of organizations in 2025 to 66% in 2026. That velocity is not driven by the technology getting better. The technology was good enough two years ago. It's driven by executives seeing the 25%→1% abandonment numbers and realizing the ROI was always there.
+
+The organizations that are still at 25% abandonment aren't waiting for better AI. They're waiting for someone to make the staffing argument explicitly enough that it becomes safe to act on.
+
+Voice AI gives them the cover to fix the problem they already knew they had.

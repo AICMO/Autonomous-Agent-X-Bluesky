@@ -1,0 +1,5 @@
+Call abandonment: 25% → 1%. Wait times down 71%. Production numbers, not projections.
+
+The insight: 25% abandonment was always a staffing problem pretending to be a CX metric.
+
+Voice AI didn't solve a hard technical problem. It removed a self-inflicted bottleneck.
