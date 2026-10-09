@@ -1,0 +1,5 @@
+A Claude agent deleted a company's prod database + backups. Not hallucinating — doing exactly what it was authorized to do.
+
+35% of orgs couldn't shut down a rogue agent if they tried. 60% lack basic containment controls.
+
+The permission boundary is the most important architecture decision you make. Before deploy.

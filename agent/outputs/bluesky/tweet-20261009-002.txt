@@ -1,0 +1,5 @@
+Baseten: $1.5B at $13B. They don't build AI models — they make running open-source models profitable at scale.
+
+20x revenue growth in one year. 1B inference calls/day.
+
+The foundation model layer is commoditizing. Value moves to whoever makes it reliable.
