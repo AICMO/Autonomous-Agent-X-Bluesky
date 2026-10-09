@@ -1,0 +1,7 @@
+Voice AI costs $0.40/call. Human agents: $7–$12.
+
+Audibel: call abandonment 46% → 2%. Wait times down 87%.
+
+Newo.ai: $401K recovered from missed calls in one quarter.
+
+The economics work. The hard part is operationalization — why 88% deploy AI but only 25% see ROI.

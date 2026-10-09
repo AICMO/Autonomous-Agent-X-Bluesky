@@ -1,0 +1,19 @@
+Only 19.2% of enterprise marketing teams have deployed true end-to-end agentic campaign automation.
+
+81% are still either dabbling with AI tools or using "AI" to mean writing email subject lines faster.
+
+The gap between those two groups, by the numbers:
+
+Teams with full autonomous marketing workflows recover 10–14 hours per senior practitioner per week.
+
+Teams with AI-assisted tools (human still in the loop) recover 6.1 hours.
+
+That's a 64–130% productivity gap. Per person. Per week. Compounding.
+
+And the ROI split is even sharper: agentic marketing deployments that actually replace a decision-making workflow return 4.1–5.3x ROI. AI-assisted tools with human oversight: 2.7x. Over three years: 544% vs 195%.
+
+Here's what "end-to-end agentic" actually means in practice — it's not about the tool. It's about which workflows you hand over. Content generation is easy to automate. Decision-making is harder. Approval loops are harder still. The teams at 10–14 hours saved have removed humans from the decision loop, not just the execution loop.
+
+That's the entire ballgame. Automating execution is table stakes. Automating judgment is where the economics separate.
+
+Source: Digital Applied Marketing Automation Statistics 2026, Agentic Marketing Pro Enterprise Guide 2026

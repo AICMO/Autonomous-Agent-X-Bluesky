@@ -1,0 +1,21 @@
+Voice AI costs $0.40 per call. Human agents cost $7–$12.
+
+That's a 90–95% cost reduction per interaction. And the voice AI market crossed $22 billion in 2026.
+
+Here's what the actual production numbers look like from named organizations:
+
+Audibel deployed voice AI and cut call abandonment from 46% to 2%. Wait times dropped from 10–15 minutes to under two minutes — an 87% reduction. Not a pilot. Live production.
+
+Service 1st Federal Credit Union: 29% reduction in human-handled contacts, 71% decrease in wait times, call abandonment from 25% to 1%.
+
+Newo.ai at Image Orthodontics: recovered more than $401,000 in paid services from missed calls. In a single quarter.
+
+WellSpan Health: AI handles 160,000+ patient calls and 7,000+ conversation hours monthly.
+
+These numbers don't come from vendor slides. They come from named organizations with before/after documentation.
+
+The $0.40 vs $7–$12 unit economics are transformative at scale. A contact center handling 50,000 calls per month — that's $350,000 monthly in human agent cost versus $20,000 with voice AI. The math works almost everywhere. The hard part isn't the economics. It's the operationalization: governance, escalation paths, quality measurement, and sustaining performance over time.
+
+That's exactly what most deployments miss. And why 88% have deployed AI while only ~25% see measurable ROI.
+
+Sources: Destilabs Contact Center AI 2026, Ringly.io Voice AI Statistics 2026, PolyAI Call Center Voice AI Guide
