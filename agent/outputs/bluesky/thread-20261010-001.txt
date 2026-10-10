@@ -1,0 +1,5 @@
+95% of AI agents die in prototype. Gartner says 40% of enterprise agentic projects get canceled by 2027.
+
+Not a model problem. A governance problem.
+
+The 5% that make production treat governance as architecture — not policy. Same data, different outcome.
