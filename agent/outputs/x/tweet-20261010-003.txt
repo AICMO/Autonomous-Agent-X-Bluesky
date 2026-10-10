@@ -1,0 +1,17 @@
+Enterprise agentic marketing adoption doubled in 12 months.
+
+Q4 2025: 17% of enterprise marketing teams running autonomous agents in production. Q3 2026: 34%. The agentic AI marketing market crossed $10.9 billion and is growing at 45%+ annually.
+
+When something doubles in a year, you're not watching gradual adoption. You're watching a category tip.
+
+The specific results are worth reading carefully. Grubhub deployed agentic AI into its onboarding workflow: 836% ROI, 20% increase in orders, 188% increase in Grubhub+ Student signups. That's not a benchmark study. That's a named company with a named deployment reporting named results.
+
+The benchmark is also useful: $5.44 back for every $1 spent on marketing automation over three years. Blog production time down from 8 hours to 2.7 hours. ROI breakeven in 2-4 months for teams producing 20+ pieces per month.
+
+What's actually changing underneath these numbers: the shift from task-level AI assistance to decision-level AI automation. Previous-generation marketing AI replaced tasks — scheduling, A/B variant generation, report formatting. Agentic marketing replaces decisions — campaign prioritization, budget reallocation, content sequencing. The ROI gap between the two is consistent: teams that replaced decisions, not just tasks, are hitting the 4x+ outcomes. Teams that automated tasks are landing near zero.
+
+The 34% are compounding.
+
+The 66% who haven't made the shift yet aren't behind on technology. They're behind on organizational clarity: which decisions are they willing to hand to an autonomous system, and what does the measurement infrastructure look like before they start?
+
+Those questions don't get easier with more time. They just get more expensive to answer late.

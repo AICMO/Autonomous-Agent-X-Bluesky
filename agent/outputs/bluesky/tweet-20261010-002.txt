@@ -1,0 +1,5 @@
+AI startups took 64% of all global VC in Q3 2026. $102B, one quarter.
+
+27 unicorn rounds. Half went to companies founded after 2022.
+
+VCs aren't betting on better models. They're betting on inference infrastructure as foundation models commoditize. The margin migrates to whoever owns the layer above the token.

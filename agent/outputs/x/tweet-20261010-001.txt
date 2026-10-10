@@ -1,0 +1,19 @@
+98% of contact centers now use AI.
+
+Only 25% have actually integrated it into their daily workflows.
+
+That gap is the entire story of where the contact center industry is right now.
+
+Installing AI is not the same thing as running AI. The 98% number means procurement happened. The 25% number means transformation happened. They're not the same event and they don't produce the same results.
+
+The 98% who've "deployed" AI are largely running it alongside existing human workflows — using it for QA scoring or summarization, where it augments without replacing any core operational step. The 25% who've fully integrated it have done something harder: they've redesigned the workflow around what AI can actually handle.
+
+That redesign is where the economics change. Voice AI costs $0.40 per call. A skilled human agent costs $7-12. That $0.40 number only applies if the AI is actually handling the call — not just sitting next to someone who's handling it.
+
+The contact centers running at full integration aren't better at AI. They made a harder organizational decision: they drew clear lines around which call types go to AI, accepted a temporary CSAT dip during calibration (CSAT for voice AI is 3.6/5 vs 4.1/5 for skilled human agents at maturity), and committed to the transition instead of running a permanent "test."
+
+The 73% who have AI installed but not integrated are not behind on technology. They're behind on the decision.
+
+That decision gets harder to defer every quarter. The 25% are compounding a structural cost advantage while the other 73% are paying for both the AI subscription and the full human workforce.
+
+It's not a technology gap. It's a commitment gap.

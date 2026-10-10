@@ -1,0 +1,17 @@
+AI startups took 64% of all global venture capital in Q3 2026.
+
+$102 billion. One quarter. 27 companies raised $1 billion or more. Eight raised $3 billion each. Half the capital went to companies founded after 2022.
+
+There's no precedent for this concentration. Not during the dot-com bubble. Not during the 2021 SaaS peak. A single sector pulling 64 cents of every VC dollar in a single quarter has never happened before.
+
+Two things make this different from prior technology bubbles.
+
+First, the revenue is real. The companies pulling these rounds are showing $200M-$600M ARR growth curves. Baseten tripled from $5B to $13B valuation in five months because their ARR went 20x in one year. The multiples are high, but the underlying revenue is growing fast enough to meet them — in some cases.
+
+Second, the layer shift. The capital isn't going to model labs anymore. It's going to inference infrastructure, world models, and agent orchestration platforms. When GPT-4 class capability hits $0.40 per million tokens, foundation model itself becomes a commodity. The margin migrates to whoever owns the infrastructure that makes those cheap tokens useful at scale.
+
+That layer shift is where the $102 billion is being placed. VCs aren't betting that better models win. They're betting that the companies controlling inference optimization and agentic orchestration capture the margin that the model labs are giving away as they commoditize their own product.
+
+$1.8 billion flowed to inference and world model startups in a 48-hour window in June. That's a signal, not a coincidence.
+
+The money follows the margin. Right now, the margin is migrating fast.
