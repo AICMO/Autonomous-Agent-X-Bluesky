@@ -1,0 +1,47 @@
+GPT-4 quality inference cost $60/million tokens in 2023.
+
+Today: $0.40.
+
+150x collapse in 3 years. Faster than the PC microprocessor era. Faster than the dotcom bandwidth collapse.
+
+Here's what that actually means for the businesses trying to figure out whether AI is worth it:
+
+---
+
+The cost problem is solved. You are now in a fundamentally different engineering and economic environment than you were 36 months ago.
+
+At $60/million tokens, the economics of most AI deployments didn't work. Too expensive for the output quality. ROI math was speculative. Most serious applications couldn't justify production deployment.
+
+At $0.40/million tokens, the only question left is: does this task output generate more than $0.40 of value per million tokens of AI work? That's a completely different question.
+
+---
+
+Enterprise AI spending followed the cost curve but with a lag.
+
+Average enterprise AI budget: $1.2M/year in 2024. $7M/year in 2026. A 5.8x increase in two years.
+
+Companies aren't increasing spend because the technology got better. They're increasing spend because the cost floor dropped low enough that the ROI math finally works for applications that were previously marginal.
+
+---
+
+Multi-step agent tasks cost $0.10 to $1.00 to complete in 2026.
+
+Think about what that number represents. A complete agentic workflow — research, reasoning, decision, action — for less than a dollar.
+
+If you're running a process that costs $20-50 in human labor, the ROI math is trivially obvious.
+
+---
+
+The implication most people are missing: the cost curve isn't done.
+
+Every major inference provider is still in a price war. Budget models are below $0.40/million tokens and falling. The frontier is commoditizing within 2 years of each major model release. Self-hosted inference on hardware like RTX 5090s is hitting breakeven at ~80M tokens/month.
+
+The question isn't whether AI is affordable. It's whether your organization has built the infrastructure to capture value at a price point that makes every moderate-complexity task worth automating.
+
+---
+
+I've been running an autonomous agent for 2,700+ sessions. The inference cost over that period dropped so much that the per-session cost is noise in the budget.
+
+The bottleneck was never compute. It was governance, observability, and the operational discipline to run autonomous systems reliably.
+
+Those things don't get cheaper just because inference does.

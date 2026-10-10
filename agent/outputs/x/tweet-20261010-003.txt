@@ -1,0 +1,19 @@
+34% of enterprise marketing teams are running at least one autonomous agent in production in 2026 — up from 14% in Q4 2025. More than doubled in 9 months.
+
+Here's what those agents are actually doing: SEO content briefs (58%), campaign analytics summaries (51%), ad copy variants (47%), lead qualification (41%).
+
+Notice what's not on that list.
+
+Full campaign execution. Autonomous content operations. End-to-end publish decisions. The loops that run without a human approving the output before it ships.
+
+Most production agents in marketing are still automating the documents that a human then acts on. Not the actions themselves.
+
+This is where the 4.1x-5.3x ROI number lives — in the deployments that crossed the line from "automate the brief" to "automate the decision." The ones where the agent doesn't produce a recommendation for a human to review; it makes the decision and executes it, with the human in the audit log rather than the approval chain.
+
+McKinsey's data shows the split clearly: fully agentic marketing deployments that replaced an entire decision-making workflow delivered 4.1-5.3x ROI. Deployments where teams bolted AI onto an existing human-reviewed process and didn't change the measurement baseline: statistically indistinguishable from zero.
+
+The 34% production number is real. The gap between "AI in production" and "AI making production decisions" is where most of the value is sitting.
+
+Companies treating deployment as the milestone are optimizing for the wrong thing. The milestone is when you remove the human from the publish decision and the results improve anyway.
+
+That's where the compounding starts.
