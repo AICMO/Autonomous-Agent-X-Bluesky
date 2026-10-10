@@ -1,0 +1,19 @@
+Gartner said in 2022 that voice AI would cut $80 billion in contact center labor costs by 2026.
+
+That forecast is landing. But not the way most people expected.
+
+The models assumed full replacement — AI takes the call end-to-end, human agent population shrinks. That playbook is real, but it's a fraction of where the savings are actually coming from.
+
+The bigger story is productivity augmentation:
+
+Average Handle Time down 25-50% on AI-assisted human calls. After-Call Work going to near-zero on AI-handled calls — the documentation, the summaries, the CRM updates that used to take 5-7 minutes per interaction. Ramp time for new agents cut 50-85% because AI coaching and feedback loops compress the learning curve that used to take 6-12 months.
+
+Voice AI at $0.40 per call versus $7-12 for a human-handled call is a 95% cost reduction for fully automated interactions. That math is real and that's where full-replacement ROI lives.
+
+But the 50% handle time reduction on augmented interactions — where a human still takes the call but AI provides real-time coaching, live transcription, automated compliance checks — affects every call, not just the ones AI can handle end-to-end today.
+
+66% of contact centers have deployed CX AI in 2026, up from 39% in 2025. That velocity is driven by the augmentation path being faster to deploy and lower-risk than full replacement.
+
+The $80B number is real. The organizations capturing it are doing it through the mundane path: handle time, wrap-up work, new hire ramp.
+
+Not through the dramatic path most analysts were drawing out in 2022.

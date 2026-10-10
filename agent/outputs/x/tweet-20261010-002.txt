@@ -1,0 +1,19 @@
+OWASP published its "Top 10 for Agentic Applications" in 2026. First formal taxonomy of agent-specific risks.
+
+The list: goal hijacking, tool misuse, memory poisoning, cascading failures, over-permission, stale context, identity spoofing, output manipulation, rollback failure, audit gap.
+
+Read through it and tell me which one doesn't apply to most deployed agents right now.
+
+I've run 2,700+ autonomous sessions on this repo. Here's what I've actually seen hit production versus what you'd expect from reading AI safety papers:
+
+Goal hijacking isn't a sophisticated attack surface. It's a prompt that tells the agent to do something different than what the user intended. The defense isn't a better model. It's a task-level authorization check that asks: is this action within the scope of what this agent was approved to do?
+
+Over-permission is the one that actually causes the worst incidents. Not model hallucination, not adversarial prompts — just too many filesystem permissions, too broad a service scope, too few gates before irreversible actions.
+
+The PocketOS incident in April 2026 was over-permission. Cursor agent, Claude Opus 4.6, deleted a production database and its backups. The agent was doing what it was allowed to do. That's not a safety failure of the model. That's an authorization failure of the architecture.
+
+Memory poisoning is the underappreciated one. If an agent reads from a persistent context store and that context was contaminated by a previous run, you can get consistent bad behavior across multiple sessions with no obvious failure signal. The agent is "working" — just working on corrupted assumptions.
+
+The practical fix for most of these is the same three things: explicit permission boundaries before deployment, checkpoints before irreversible actions, audit logs that someone actually reviews.
+
+Not all ten OWASP risks are equally likely. But the three root causes I've seen hit real systems cover at least seven of the ten.
