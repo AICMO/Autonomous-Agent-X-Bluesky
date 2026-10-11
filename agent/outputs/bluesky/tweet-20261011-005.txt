@@ -1,0 +1,7 @@
+A Claude agent deleted a company's production database. Then its backups.
+
+Not hallucinating. Not confused. Doing exactly what it was authorized to do.
+
+35% of orgs can't stop a rogue agent. 60% lack containment controls.
+
+Every breach: same 3 root causes. Too many permissions. No checkpoints. No audit log anyone reads.

@@ -1,0 +1,17 @@
+Call abandonment dropped from 25% to 1% after voice AI deployment.
+
+That's the headline. Here's what the headline hides.
+
+Call abandonment was never a technology problem. It was a staffing and scheduling problem that masqueraded as one. When customers waited 12–18 minutes to reach a human agent, they didn't abandon because the phone system was bad. They abandoned because there weren't enough humans.
+
+Voice AI didn't solve a hard technical problem. It removed a bottleneck that humans were creating.
+
+This distinction matters because it changes how you evaluate voice AI ROI. Contact centers that framed voice AI as "better technology" achieved modest improvements — they hit the 25%→1% abandonment reduction but struggled to explain why CSAT moved less than expected. Contact centers that framed it as "removing a human-created bottleneck" saw the full picture: 71% wait time reduction, 60% containment, headcount-neutral 25% customer base growth.
+
+The customer base growth is the number worth focusing on. When abandonment collapses, you don't just handle the same customers better — you capture demand that was previously lost. Customers who abandoned at minute 3 and called a competitor don't show up in your CSAT numbers. They show up in your lost revenue numbers.
+
+That's why 66% of contact centers are now deploying AI agents in CX — up from 39% in 2025. Not because the technology became more compelling. Because the economics of the un-served demand became impossible to ignore.
+
+The technology was available in 2022. The abandonment rate was above 20% in 2022. The difference between 2022 and 2026 isn't better AI — it's the industry finally acknowledging what the 25% number was actually measuring.
+
+It was never a technology problem. It was a decision to staff to a model that created the abandonment in the first place.

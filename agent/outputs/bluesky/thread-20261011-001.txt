@@ -1,0 +1,3 @@
+95% of enterprise AI agents die in prototype. The 5% that make production do one thing differently: they build governance around action risk, not model safety.
+
+PocketOS, Hugging Face, Australia health portal — every breach had the same root cause. The model was working correctly. The permission architecture wasn't.
