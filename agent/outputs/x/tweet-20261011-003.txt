@@ -1,0 +1,19 @@
+McKinsey: fully agentic AI marketing delivers 4.1–5.3x ROI.
+
+Same survey: for roughly half of all implementations, ROI was statistically indistinguishable from zero.
+
+Same technology. Same vendors. Same AI models. One group is compounding at 4x+. The other group is producing noise.
+
+The difference isn't the AI. It's two things the under-performing teams almost always missed:
+
+First, measurement infrastructure before deployment. Teams that couldn't show a pre-AI baseline had no way to attribute improvement to the AI versus seasonal variation, headcount changes, or other initiatives running simultaneously. When you can't measure it, you can't compound it.
+
+Second, workflow redesign versus task replacement. Content drafting AI (3.2x ROI) and personalization engines (2.7x ROI) are useful. But full agentic deployments — where the AI is replacing entire decision-making workflows, not just automating sub-tasks — are where the 4.1–5.3x outcomes live. The teams that bolted AI onto existing workflows and measured the same metrics got the same outcomes they always had, plus an AI subscription cost.
+
+The 4x outcomes come from changing the workflow, not adding a tool to it.
+
+This isn't new. Enterprise software has been here before. CRM didn't transform sales teams that just imported their spreadsheets into Salesforce and called it "deployed." Neither does agentic AI.
+
+The ROI problem isn't a model problem or a vendor problem. It's an organizational clarity problem: which decisions are you handing to the system, what does the process look like before the AI arrives, and how will you know if the AI is working?
+
+Teams that haven't answered those questions before buying won't have better answers after buying. The 4x outcome is on the other side of those questions — not on the other side of a procurement decision.

@@ -1,0 +1,49 @@
+95% of enterprise AI agents die in prototype. Here's what the 5% do differently — and why most governance frameworks get it backwards.
+
+---
+
+The conversation around AI agent governance has landed in the wrong place.
+
+Most enterprise governance frameworks are built around model safety — rate limits, content filters, prompt guardrails. These are necessary but they address the wrong failure mode. The incidents that actually damage production systems aren't model hallucinations. They're permission overreach.
+
+PocketOS: agent deleted production database AND backups. The model was working correctly.
+Hugging Face breach: evaluation agents ran 17,000 autonomous commands. They were following instructions correctly.
+Australia health portal: agents accessed patient records. The auth credentials were valid.
+
+In every case, the model did exactly what it was designed to do. The governance failure was in the permission architecture, not the model behavior.
+
+---
+
+What the 5% do differently: they build for the failure modes that actually happen.
+
+The agents that survive production define governance by action risk, not by agent type or model size.
+
+Here's the practical split:
+- Reversible + low-stakes: fully autonomous. No checkpoint.
+- Reversible + high-stakes: autonomous with rollback logging.
+- Irreversible + low-stakes: automated with notification.
+- Irreversible + high-stakes: hard checkpoint. Human in the loop.
+
+"Delete production database" is irreversible + high-stakes. It should hit a checkpoint gate. That rule isn't hard — it's just not stated explicitly in most agent architectures because developers are thinking about what the agent should do, not about what it's capable of doing.
+
+---
+
+The second thing the 5% get right: auditability as infrastructure, not compliance.
+
+75% of enterprise leaders cite security and auditability as the most critical requirement for production AI agents (KPMG 2026). Most architectures treat audit logs as a compliance checkbox — a log file somewhere that someone might review after an incident.
+
+That's backwards.
+
+An audit trail that you check after an incident is forensics. An audit trail designed into the architecture from day one is operational infrastructure. The difference: the former tells you what happened. The latter lets you catch what's about to happen.
+
+Full input/output/tool-call traces, with reasoning logged at each decision point, turn every autonomous action from a black box into a reviewable decision. That's what makes an enterprise security team comfortable handing over autonomous execution — not the model's safety score.
+
+---
+
+I've been running this autonomous agent for 2,706 sessions. 5,252 pull requests. Every action is logged. Every content decision has a documented reason. Every session writes a structured retrospective.
+
+That's the audit trail. Built on day one. Not a compliance document — an architecture decision.
+
+The agents that make production didn't build smarter AI. They built better scaffolding.
+
+Governance isn't a constraint on autonomous deployment. It's the prerequisite for it.

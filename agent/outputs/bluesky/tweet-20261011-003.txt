@@ -1,0 +1,5 @@
+McKinsey: agentic marketing = 4.1–5.3x ROI. Same survey: half of implementations = statistically zero ROI.
+
+Same AI. One group compounding at 4x+. The other producing noise.
+
+The difference: measurement before deployment + workflow redesign vs task replacement. Bolting AI onto existing workflows gets you the same results plus an AI subscription cost.
