@@ -1,0 +1,7 @@
+REPLY_TO: 2109174121871339970
+
+Follow-up on this: the teams that updated their mental model earliest are compounding the advantage now.
+
+Ran the numbers on our own agent setup — inference cost for 2,700+ sessions is negligible compared to the time value of the decisions the agent makes. The bottleneck was never compute. It was always: "does the output justify the decision we gave it authority to make?"
+
+That's the measurement architecture question nobody talks about.

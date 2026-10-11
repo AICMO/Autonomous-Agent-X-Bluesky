@@ -1,0 +1,17 @@
+Baseten raised $1.5B at $13B. They don't build AI models. They make running open-source models profitable at scale.
+
+That is exactly the right bet for what comes next.
+
+Some numbers: ARR went from $200M to $600M in a single quarter. Revenue grew 20x year-over-year. They process 1 billion inference calls per day across 87 clusters. Valuation tripled from $5B to $13B in 5 months.
+
+They are not competing with OpenAI or Anthropic. They're building the infrastructure layer that makes open-source models economically viable for enterprises that won't send their data to a third-party API.
+
+This is the picks-and-shovels moment for AI.
+
+The foundation model layer is commoditizing. GPT-4 class models are now open-source. The value question has shifted: not "which model is best" but "who can serve it cheapest, fastest, and most reliably at scale?"
+
+Baseten's answer: GPU scheduling, latency optimization, and cost-per-token economics at a scale no enterprise can replicate internally.
+
+Three years ago this was a moonshot. Today it's a $13B company growing 20x/year.
+
+The infrastructure bet almost always wins when the application layer is fragmenting.

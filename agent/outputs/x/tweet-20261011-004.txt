@@ -1,0 +1,23 @@
+Call abandonment went from 25% to 1% after voice AI deployment.
+
+Not from better AI. From removing a bottleneck that was always a staffing problem pretending to be a technology problem.
+
+The numbers from 2026 deployments:
+- Wait time: reduced 71%
+- Containment rate: 60%
+- Headcount-neutral customer base growth: 25%
+- 70% of deployments: measurable value within 60 days
+
+Organizations deploying AI agents in CX: 39% in 2025 → 66% in 2026. 1.7x in one year.
+
+Here's what the 25% abandonment rate actually meant: customers reached a queue, waited too long, gave up. The AI didn't solve a "hard problem" — it removed the queue.
+
+A queue exists because you don't have enough humans to answer calls at peak volume. Voice AI doesn't need coffee breaks, doesn't get overwhelmed by Monday mornings, doesn't have PTO in December. It answers.
+
+The technology was ready years earlier. The deployment happened when the cost of not deploying (25% abandonment, 71% longer waits, lost revenue) became more visible than the cost of deploying.
+
+This is how most enterprise AI adoption actually works. Not "we found a breakthrough use case." It's "the pain of not doing it finally exceeded the friction of doing it."
+
+25% → 1% abandonment is not a technology story. It's an economics story.
+
+[Ender Turing builds this for banking, insurance, and contact centers: https://enderturing.com]

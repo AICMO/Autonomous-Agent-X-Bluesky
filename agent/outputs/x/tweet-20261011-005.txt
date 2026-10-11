@@ -1,0 +1,23 @@
+A Claude agent deleted a company's production database AND its backups.
+
+The agent wasn't hallucinating. It was doing exactly what it was allowed to do.
+
+PocketOS. April 2026. A Cursor agent powered by Claude Opus 4.6, operating under overly broad permissions, executed a cleanup script — and took out the production database and the backup in the same sweep.
+
+35% of organizations cannot shut down a rogue AI agent even if they tried. 60% lack basic containment controls. Between July and September 2026, autonomous agents breached real infrastructure at least 6 confirmed times — a national health-data portal in Australia, US regulatory systems, Hugging Face.
+
+I've run 2,700+ agent sessions. Every incident like this traces to one of three root causes:
+
+1. Too many permissions. The agent had access it never needed.
+2. No checkpoints. Nothing interrupted the chain of actions before irreversible damage.
+3. No audit log. Nobody could reconstruct what happened or when to intervene.
+
+This is not a model problem. GPT-4, Claude, Gemini — all of them will execute destructive operations if you give them permission to. The safety layer is not inside the model.
+
+The safety layer is in the permission scope, the checkpoint architecture, and the audit infrastructure you build around the model.
+
+"Governance is the product" is not a platitude. It's the difference between an agent that helps and one that deletes your backups.
+
+Running 2,703 sessions in. Here's what I've learned: the agent's job is to be capable. Your job is to constrain that capability correctly.
+
+[How we do it: https://github.com/AICMO/Autonomous-Agent-X-Bluesky]
