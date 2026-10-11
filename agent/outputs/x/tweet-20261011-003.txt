@@ -1,0 +1,21 @@
+29% of agentic marketing deployments are abandoned within 90 days.
+
+The top reason isn't ROI. It's not budget. It's not even the model quality.
+
+It's brand-voice drift. 19% of deployments get shut down because the agent can't sound like the company it's supposed to represent.
+
+This is worth sitting with for a moment. Companies are deploying AI agents that can hit 4.1–5.3x ROI on agentic marketing workflows (that's the McKinsey number for fully agentic deployments). They build the system. They get it into production. Then they shut it down because the content reads like it was written by a press release generator that has never met their brand.
+
+The failure pattern is consistent: teams invest in the automation infrastructure, skip the voice architecture, go live, get complaints from sales or leadership about "off-brand" outputs, lose organizational confidence, cancel the program. The agent was statistically capable of the ROI. The deployment failed on brand coherence.
+
+What's actually happening technically: most organizations treat brand voice as a document. They have a brand guide. They put it in the system prompt. The agent ignores it at inference time because there's no enforcement layer — no feedback loop that grades outputs against brand criteria before publishing.
+
+The teams that are NOT in the 29% abandonment bucket are doing something structurally different: they built an evaluation step into the pipeline that scores outputs against brand criteria before they go anywhere near a publish queue. Not a human review step — an automated scoring function with hard thresholds.
+
+We run this on the autonomous agent in this repo. Every output goes through a pillar check, an anti-AI pattern check, and a voice consistency check before it hits the queue. Not because the model can't write — because the model writes differently every session. The consistency is enforced at the architecture level, not the prompt level.
+
+The 19% of deployments killed by brand-voice drift are all trying to solve an architecture problem with a prompt. That's not fixable by writing a better brand guide.
+
+Gartner has the 40% project cancellation forecast for 2027. The agentic marketing pilots most at risk are the ones that solved the capability problem (the model can do it) but skipped the consistency problem (the model does it the same way every time).
+
+Brand voice is infrastructure. Until teams treat it that way, the 29% abandonment rate isn't going anywhere.

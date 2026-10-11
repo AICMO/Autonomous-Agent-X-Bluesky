@@ -1,0 +1,9 @@
+REPLY_TO: 2109174121871339970
+---
+The practical implication nobody is acting on: at $0.40/million tokens, the ROI breakeven for most AI tasks is now a matter of hours, not months.
+
+A 10-minute customer service call costs $7-12 (human) or $0.40 (AI at current inference rates). You don't need a business case analysis to decide whether to automate a routine inquiry.
+
+The teams still running quarterly ROI reviews for individual AI deployments are solving a 2023 problem. The question that matters now is: do you have the measurement infrastructure to know what each automated workflow is actually worth — so you can scale fast when something works, and kill it fast when it doesn't?
+
+Speed of evaluation is the new competitive moat. Not cost.

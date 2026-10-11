@@ -1,0 +1,21 @@
+331% to 391% ROI. Payback in under 6 months. 91% of organizations using voice AI for 12+ months say they'd invest again.
+
+The voice AI data in contact centers is not ambiguous anymore.
+
+Forrester's composite org model — built from real deployment data, not projections — shows $10.3M in agent labor cost savings over three years for a mid-size contact center. Call abandonment rates cut in half. Wait time down 70%+. CSAT stable or improving at mature deployments.
+
+91% reinvestment rate is the number that matters most. It's the highest ROI confidence signal you can get from enterprise survey data. When 9 out of 10 companies that have lived with a technology for a year say they'd do it again, that's a resolved question. Not a question with promising early indicators. A resolved question.
+
+The voice AI market crossed $22 billion in 2026. Growth is accelerating. Best-in-class deployments are now handling 80–99.5% of inbound service interactions before a human joins. That's not a demo. That's production, 24/7, across hundreds of organizations.
+
+The contact center math is simple: AI handles a call for $0.40. A skilled human handles it for $7–$12. At any meaningful volume, the ROI is structural — not marginal. The question isn't whether the economics work. They demonstrably work.
+
+Here's what's interesting: the 26% of organizations that still haven't deployed voice AI aren't behind on data. The data has been clear for three years. They're behind on the organizational decision to commit — which customer intents to hand fully to AI, which KPIs to hold the deployment accountable to, what CSAT floor they're willing to accept during calibration.
+
+That's the actual barrier. It was always a decision problem, not a technology problem.
+
+The companies at 80–99.5% containment didn't get there because they had better AI than everyone else. They got there because they decided to commit to the transition early, defined what "success" meant before go-live, and built measurement infrastructure that could actually track whether the deployment was performing.
+
+The 74% of companies reporting positive ROI within 12 months made a commitment. The 26% that haven't are still waiting for a different signal.
+
+The signal isn't coming. The data is already there.
