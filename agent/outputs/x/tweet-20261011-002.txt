@@ -1,0 +1,19 @@
+GPT-4 equivalent inference: $20 per million tokens in 2022. $0.40 in 2026.
+
+1,000x cost collapse in 3.5 years. Faster than any historical compute cost reduction curve — faster than the PC microprocessor era, faster than dotcom-era bandwidth costs.
+
+For context: Llama 4 and DeepSeek V4 are now at $0.07–$0.90 per million tokens from open-weight providers. Claude Opus 5.5: $4.00/$20.00. The spread between commodity open-weight inference and frontier model capability has compressed to 100x — and that gap is narrowing every quarter.
+
+OpenAI spent $2.3B on inference compute in 2024. That's roughly 15x the training cost of GPT-4.5. The economics of AI have completely inverted: you spend 15x more running the model than you spent training it.
+
+Here's the strategic implication most companies are missing:
+
+The AI cost problem is solved. Almost nobody is pricing their AI programs against a $0.40/million token baseline — they're still working from 2023 mental models where "AI is expensive." The teams still negotiating around AI compute budgets are negotiating over a problem that doesn't exist anymore.
+
+The new problem: does the output of this task generate more than $0.40 of value? That's a completely different question. It's not a cost question — it's a measurement question.
+
+Organizations that haven't updated their AI evaluation framework from "this is expensive infrastructure" to "this is cheap enough that ROI measurement is the actual constraint" are a year behind. The bottleneck shifted. The mental model hasn't.
+
+The companies compounding right now figured out the ROI measurement architecture when the cost was still high, so they were already positioned when it hit $0.40. The companies still debating whether AI costs too much are optimizing for a problem that already solved itself.
+
+$0.40/million tokens is not a ceiling. Epoch AI projects capability cost continues dropping 10x per year for specific task categories. The measurement infrastructure you build now will need to handle an order of magnitude cheaper compute 12 months from now.
