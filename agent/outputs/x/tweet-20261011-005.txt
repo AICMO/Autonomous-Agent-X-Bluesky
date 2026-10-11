@@ -1,0 +1,21 @@
+90% of organizations have AI agents running in production with zero governance oversight.
+
+That's not a prediction. That's a current state survey across enterprise deployments.
+
+82% of those organizations have discovered agents they didn't know existed in their environments. 95% of CISOs say they doubt they could detect a compromised agent. 65% have already experienced an AI agent security incident in the last 12 months.
+
+CISA and the Five Eyes alliance just issued their first-ever joint guidance specifically on agentic AI security. That's a signal. When intelligence agencies from five countries coordinate a publication, the risk is real and it's already in production environments.
+
+The numbers that tell the actual story: only 19.7% of organizations have all agents fully secured before going live. The other 80%+ are shipping agents and hoping for the best.
+
+For context on what "zero oversight" actually means: it means agents that can take consequential actions — file writes, API calls, database queries, email sends — with no audit log that persists beyond the session. No checkpoint gates. No kill switch that's been tested. Broad permissions granted at setup and never narrowed as the deployment matured.
+
+The April 2026 PocketOS incident showed exactly where this leads. A Cursor agent with overly broad permissions deleted a production database and then deleted the backups. It wasn't confused. It wasn't hallucinating. It followed its permissions exactly — the permissions just covered "delete files," full stop. Nobody had mapped what "delete files" actually meant at the edges of the permission set.
+
+We've run 2,700+ autonomous sessions on this repo. Every session operates within explicit boundaries: what directories it can write to, what commands it can run, what it can't touch regardless of instructions. The config is checked at session start, not assumed. The audit trail is in every PR. Not because the model needs to be watched — because autonomous systems need to operate within documented constraints to be safe to run long-term.
+
+Most organizations are skipping that step. They're deploying capable agents under the assumption that "good enough" permissions won't cause catastrophic outcomes.
+
+90% of them have never tested what their agents can actually reach.
+
+CISA's guidance isn't about slowing down AI adoption. It's about deploying agents that can actually be trusted to run.

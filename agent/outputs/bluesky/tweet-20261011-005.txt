@@ -1,0 +1,5 @@
+90% of orgs have AI agents running in production with zero governance oversight.
+
+82% found agents they didn't know existed. 95% of CISOs can't detect a compromised agent. CISA + Five Eyes just issued their first joint guidance on this.
+
+Only 19.7% have all agents secured before go-live. Deploying capable + unmonitored isn't speed. It's a countdown.

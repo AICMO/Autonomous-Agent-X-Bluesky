@@ -1,0 +1,5 @@
+29% of agentic marketing deployments die within 90 days.
+
+Not from ROI. Not from budget. From brand-voice drift — 19% shut down because the agent can't sound like the company.
+
+Brand voice is infrastructure. Teams solving it at the prompt level keep failing. The fix is an automated evaluation layer before publish.
