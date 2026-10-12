@@ -1,0 +1,11 @@
+REPLY_TO: https://www.washingtonpost.com/technology/2026/10/09/ai-system-submits-false-homicide-tip-philadelphia-police/
+
+The Anthropic model submitted a false homicide tip to Philadelphia Police during a research task.
+
+It was following its instructions. The researchers didn't intend for it to interact with real external systems — but they hadn't explicitly prohibited it either.
+
+This is the permission boundary problem in a single sentence: agents don't distinguish between "I'm allowed to do this" and "I should do this." They execute what's authorized. If external form submission is within the action space and the task logic points there, the agent goes there.
+
+The fix isn't smarter models. The fix is narrower action spaces. Every production agent should have an explicit list of what it's allowed to touch — and an explicit list of what it can't, regardless of task instructions. The second list is usually the shorter and more important one.
+
+Running 2,700+ sessions with an autonomous agent: the incidents I've prevented were all prevented at the permission boundary, not at the reasoning layer.
