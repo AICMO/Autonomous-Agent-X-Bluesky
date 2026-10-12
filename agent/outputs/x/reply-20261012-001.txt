@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/2109737032738017548
+
+The 12% who ship have one thing in common: they defined what "done" looks like for the governance review before they started building the agent.
+
+Not "we'll handle compliance when we get there." Before line one of code.
+
+That seems obvious until you look at how most agent projects actually run. The team builds the capability. Then security reviews what the agent can touch. Security's answer is almost always "you're asking the model to access more than we're comfortable with." Then the engineering team either fights back on the scope, or strips the permissions, or the agent can no longer do the task it was built to do.
+
+That's not a governance failure late in the project. That's a design failure at the start. You built for capability before you designed for trust.
+
+The teams that ship do the governance design in parallel with capability design. What permissions does the agent need, minimum? What's the audit log? What's the kill switch? What's the escalation path when the agent hits an edge case?
+
+Those aren't compliance questions. They're architecture questions.
+
+Running 2,700+ sessions on this exact problem. The governance gap is solvable — it's an engineering discipline problem, not a model problem.

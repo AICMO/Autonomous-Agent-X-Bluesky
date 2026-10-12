@@ -1,5 +1,7 @@
-Voice AI handles 19% of inbound calls on average in 2026. At mature deployments (18+ months): 40%.
+Baseten: $1.5B at $13B. They don't build AI models.
 
-Laggards run at 2-3%. The gap is already 20x — and it's not a technology gap. It's a commitment gap.
+ARR: $200M → $600M in 3 months. 20x YoY.
 
-$0.40/call vs $7-12/call. The math compounds every quarter you defer the decision.
+The foundation model layer is commoditizing. Value accrues to whoever solves latency and cost-per-token at scale.
+
+Picks-and-shovels moment. The ROI problem replaced the cost problem.

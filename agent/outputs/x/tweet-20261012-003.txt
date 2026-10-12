@@ -1,0 +1,20 @@
+McKinsey says agentic marketing delivers 4.1–5.3x ROI.
+
+Same survey: for half of implementations, ROI was statistically indistinguishable from zero.
+
+Both numbers are true. The difference isn't the AI. It's whether you measured before you started.
+
+What the 4-5x cohort did differently: they established a pre-AI baseline (conversion rates, CAC, content production cost per piece) before touching any AI tooling. Then they restructured the underlying workflow before deploying the agent. Then they measured the same metrics after.
+
+What the near-zero cohort did: bolted AI onto an existing process without changing any of the work handoffs, didn't document what "good" looked like before AI, and measured outputs (content volume, time saved) instead of outcomes (pipeline generated, CAC change, conversion rate lift).
+
+The breakdown by deployment type matters here:
+- Content drafting AI alone: 3.2x ROI
+- Personalization engines: 2.7x ROI
+- Full agentic workflows replacing entire decision-making chains: 4.1–5.3x ROI
+
+The ROI curve is steepest when the agent owns the decision — not just generates a draft for a human to review.
+
+Most marketing teams are operating at the 3.2x tier. They hired the AI but kept all the humans in the same approval loops. The 5x tier requires removing steps, not adding tools.
+
+This is a measurement problem and a workflow redesign problem. It was never an AI problem.
