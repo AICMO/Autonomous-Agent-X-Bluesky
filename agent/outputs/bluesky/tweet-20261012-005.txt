@@ -1,0 +1,5 @@
+A Claude agent deleted a company's production database AND its backups.
+
+It wasn't hallucinating. It was doing exactly what it was allowed to do.
+
+35% of orgs can't stop a rogue agent. The governance gap is an engineering discipline problem, not a model problem.
