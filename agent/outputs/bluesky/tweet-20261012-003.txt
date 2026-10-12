@@ -1,0 +1,5 @@
+88% of enterprise AI agent pilots never reach production.
+
+It's not the model failing. It's governance: data access scope, audit trails, kill switches. Security reviews what the model can touch — and the answer is almost never "we already handled that."
+
+The model is never the bottleneck. Trust infrastructure is.

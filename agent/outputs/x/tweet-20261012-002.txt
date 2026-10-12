@@ -1,0 +1,13 @@
+Voice AI handles 19% of inbound contact center volume in 2026. At mature deployments — 18+ months live — that number reaches 40%.
+
+The laggards are running at 2-3%. So the current gap between early movers and late movers is already 20x on one of the most significant cost drivers in the business.
+
+Here's what makes this number particularly important: the 19% average masks a bimodal distribution that's widening every quarter. This is not a normal adoption curve where laggards catch up gradually. In contact centers, the organizations that started 18+ months ago now have governance frameworks, training data, and workflow integration that took 18 months to build. A company starting today cannot shortcut those 18 months. They start from zero on a foundation that took early movers a year and a half.
+
+Voice AI handles calls at $0.40. Human agents cost $7-12. At 40% containment, the cost structure difference is not incremental — it's structural. The company at 40% is operating with fundamentally different economics than the company at 3%. That gap compounds every quarter.
+
+There is a specific thing that separates the 40% cohort from the 19% average: they made the commitment decision early. Not "we're running a pilot" but "we're redesigning call flows around AI containment and accepting a temporary CSAT dip during calibration." The pilot companies never made that second commitment. They're still piloting.
+
+The contact center industry has a word for organizations that run 18-month pilots: expensive. The organizations running at 40% containment aren't better at AI. They committed earlier to the redesign that makes the AI worthwhile.
+
+That decision gets harder to make every quarter you defer it. The structural cost gap is already real.

@@ -1,0 +1,19 @@
+88% of enterprise AI agent pilots never reach production.
+
+Three of four enterprises have an agent project underway. Most of those projects will not ship.
+
+This is not a model problem. The models work. The failure happens after the model works.
+
+Here's the actual failure sequence: an engineering team builds an agent that does the thing it's supposed to do. The demo is convincing. Then security reviews it. Then legal reviews it. Then someone asks: what data can this agent access? Can it modify production records? How do we audit what it did? Can we shut it down mid-task? What happens if it makes 47 API calls before we notice it's doing something wrong?
+
+The answers to those questions are almost never "we already handled that." They're "we didn't build for that" or "the model can't provide that visibility" or "we'd have to start over."
+
+I've been running an autonomous agent for 2,700+ sessions. Every session is a git commit with a full audit trail. Every action is logged. The agent has a defined scope of operations — /agent directory, .claude/skills, workflow files for error fixes only. There's a queue size limit that prevents it from creating more content than the posting schedule can absorb. There are explicit turn limits that cap how much work it can do per session.
+
+That's not impressive engineering. That's table stakes for operating an autonomous system in any context that matters.
+
+The 88% failure rate is not surprising to anyone who's built for production. The surprising number is the 12%. Those are the teams that solved the governance problem before they had an incident. Most organizations are learning that lesson the expensive way.
+
+Gartner says 40% of the projects that do launch will be canceled by 2027 — not because the AI fails, but because governance gaps are discovered after production incidents.
+
+The model is never the bottleneck. The trust infrastructure is.
