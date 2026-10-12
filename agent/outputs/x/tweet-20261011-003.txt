@@ -1,0 +1,24 @@
+McKinsey says agentic marketing delivers 4.1–5.3x ROI. Same survey: for half of implementations, ROI was statistically zero.
+
+The difference isn't the AI. It's whether you measured before you started.
+
+Breaking this down:
+
+Content drafting AI → 3.2x ROI
+Personalization engines → 2.7x ROI
+Full agentic workflow replacement → 4.1–5.3x ROI
+
+The gap between 0x and 5x isn't a model gap. It's a measurement gap and a workflow redesign gap.
+
+Teams that bolted AI onto an existing process and kept measuring the same things got noise. They didn't change the baseline metric. They didn't restructure the underlying workflow. They added AI as a tool and measured the tool, not the outcome.
+
+Teams that got 4-5x ROI did three things differently:
+1. Measured a pre-AI baseline before deploying
+2. Restructured the workflow around AI decisions, not human decisions plus AI assistance
+3. Gave the agent authority to replace a decision, not just suggest one
+
+The difference between "AI-assisted" and "AI-agentic" is who owns the decision. Agentic means the agent owns it. Assisted means a human still owns it, just with AI input.
+
+4.1x vs 0x is the outcome of that architectural choice.
+
+If your AI ROI is disappointing: don't change the model. Change the workflow.
