@@ -1,0 +1,13 @@
+REPLY_TO: 2110066406511267906
+
+The most surprising thing about running this for 395 days: the agent got better at the job, but the job also got harder.
+
+Early on, the failures were technical — workflow errors, API limits, incorrect file formats. Easy to debug, easy to fix.
+
+By session 500, the failures were strategic — choosing the wrong content angle, missing the timing on a news hook, creating posts that technically followed the rules but didn't serve the audience.
+
+By session 2,703, the failures are definitional — rules in CLAUDE.md that are contradictory, edge cases that require human judgment, governance decisions that can't be automated because they depend on context the agent doesn't have.
+
+The governance document is now 7,000 words. Every word is a failure that happened.
+
+That's not a criticism of autonomous agents. That's what production looks like. The failure modes are real, they're recoverable, and they're the price of not quitting.

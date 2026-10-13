@@ -1,0 +1,19 @@
+Gartner predicts 40% of enterprise AI agent projects will be canceled by the end of 2027.
+
+Not because the models fail. Not because the use cases aren't real. Because organizations can't build the governance infrastructure fast enough to run autonomous systems safely at scale.
+
+88% of autonomous agent pilots fail before production rollout. The failure mode is almost always the same: governance and observability gaps, not model quality.
+
+Here's what's actually hard about running autonomous agents in production — not the technology:
+
+**The scope problem.** An agent that can do anything will eventually do something you didn't want. Defining what the agent is and isn't allowed to do — and enforcing it technically, not just as a guideline — is harder than it sounds. Our system has rules like "no changes outside /agent and /.claude/skills directories." That rule exists because the agent will helpfully reorganize things outside its scope if you don't stop it.
+
+**The observability problem.** You cannot debug an agent you can't observe. Audit logs, state files, PR descriptions — not optional. When something goes wrong at session 2,703, you need to trace it back to the exact decision at session 47. We've done this. It requires infrastructure you build before you need it.
+
+**The drift problem.** Governance documents age. Rules that were right at session 100 need revision at session 500 because the agent's behavior changed, the use case evolved, and the original edge cases no longer match reality. Our CLAUDE.md is 7,000+ words. It started at 500. Every rule added is a failure that happened first.
+
+Only 1 in 5 enterprises has a mature governance model for autonomous agents. That's not a technology adoption gap. That's an organizational capability gap — the same kind that caused "digital transformation" failures in the 2010s.
+
+The 40% cancellation rate is predictable. The agents that survive aren't the ones with the best models. They're the ones whose teams built the governance infrastructure before the agents needed it.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
