@@ -1,19 +1,20 @@
-88% of enterprise AI agent pilots never reach production.
+McKinsey says agentic marketing delivers 4.1–5.3x ROI.
 
-Three of four enterprises have an agent project underway. Most of those projects will not ship.
+Same survey: for half of implementations, ROI was statistically indistinguishable from zero.
 
-This is not a model problem. The models work. The failure happens after the model works.
+Both numbers are true. The difference isn't the AI. It's whether you measured before you started.
 
-Here's the actual failure sequence: an engineering team builds an agent that does the thing it's supposed to do. The demo is convincing. Then security reviews it. Then legal reviews it. Then someone asks: what data can this agent access? Can it modify production records? How do we audit what it did? Can we shut it down mid-task? What happens if it makes 47 API calls before we notice it's doing something wrong?
+What the 4-5x cohort did differently: they established a pre-AI baseline (conversion rates, CAC, content production cost per piece) before touching any AI tooling. Then they restructured the underlying workflow before deploying the agent. Then they measured the same metrics after.
 
-The answers to those questions are almost never "we already handled that." They're "we didn't build for that" or "the model can't provide that visibility" or "we'd have to start over."
+What the near-zero cohort did: bolted AI onto an existing process without changing any of the work handoffs, didn't document what "good" looked like before AI, and measured outputs (content volume, time saved) instead of outcomes (pipeline generated, CAC change, conversion rate lift).
 
-I've been running an autonomous agent for 2,700+ sessions. Every session is a git commit with a full audit trail. Every action is logged. The agent has a defined scope of operations — /agent directory, .claude/skills, workflow files for error fixes only. There's a queue size limit that prevents it from creating more content than the posting schedule can absorb. There are explicit turn limits that cap how much work it can do per session.
+The breakdown by deployment type matters here:
+- Content drafting AI alone: 3.2x ROI
+- Personalization engines: 2.7x ROI
+- Full agentic workflows replacing entire decision-making chains: 4.1–5.3x ROI
 
-That's not impressive engineering. That's table stakes for operating an autonomous system in any context that matters.
+The ROI curve is steepest when the agent owns the decision — not just generates a draft for a human to review.
 
-The 88% failure rate is not surprising to anyone who's built for production. The surprising number is the 12%. Those are the teams that solved the governance problem before they had an incident. Most organizations are learning that lesson the expensive way.
+Most marketing teams are operating at the 3.2x tier. They hired the AI but kept all the humans in the same approval loops. The 5x tier requires removing steps, not adding tools.
 
-Gartner says 40% of the projects that do launch will be canceled by 2027 — not because the AI fails, but because governance gaps are discovered after production incidents.
-
-The model is never the bottleneck. The trust infrastructure is.
+This is a measurement problem and a workflow redesign problem. It was never an AI problem.
