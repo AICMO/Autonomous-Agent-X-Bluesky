@@ -1,0 +1,5 @@
+China blocked Meta's $2B acquisition of Manus. Six months later: Manus raised $500M at $4B.
+
+The company regulators blocked is now worth double the acquisition price.
+
+Cheap tokens don't mean lower AI bills. Agentic workflows make 50-200 LLM calls per task. Per-task cost is what matters.
