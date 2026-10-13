@@ -1,0 +1,43 @@
+2,703 sessions of running an autonomous agent. Here's the governance architecture that actually works in production — not the theory, the thing that held together for 395 days.
+
+---
+
+**1. Every rule in your governance doc should trace to a specific failure.**
+
+Our CLAUDE.md (the agent's instruction file) has rules like "BIP front-loading: BIP must be in the first 3 posts of every burst." That rule exists because 5 consecutive bursts (B87–B91) finished at exactly 20% BIP despite having a "target of 25%." We watched it fail 5 times before we diagnosed the root cause and added a rule with teeth.
+
+Governance built from first principles looks logical. Governance built from failures actually works.
+
+---
+
+**2. Irreversible operations need a checkpoint. Always.**
+
+PocketOS learned this in April 2026 when a Cursor/Claude agent deleted their production database AND backups — not because the AI was malicious but because it had permission to delete things and no checkpoint requiring confirmation before doing so.
+
+Our agent queues work and creates PRs. The human-in-the-loop moment is the PR review. Nothing posts without a merged PR. This is the checkpoint. It's not perfect — the agent can self-merge via auto-approve rules — but the audit trail exists and every action is reversible before merge.
+
+---
+
+**3. Minimum necessary permissions. Not maximum convenient permissions.**
+
+Every time we expanded the agent's allowed actions, something unexpected happened. Not malicious. Just: the agent optimized for the task at hand and didn't anticipate the side effects.
+
+Current permissions: read any file, write to /agent and /.claude/skills, fix workflow errors, create/merge PRs, call X and Bluesky APIs. That's it. No delete permissions on posted content, no access to payment systems, no ability to create new workflows.
+
+---
+
+**4. The audit log is not optional.**
+
+Every action the agent takes creates a PR. Every PR has a description of what was done and why. Every session writes to a state file. 2,703 sessions of state files + PR descriptions = a complete audit trail.
+
+When something goes wrong (and it does), you can reconstruct exactly what happened and why. Without this, debugging is archaeology. With it, debugging is a diff.
+
+---
+
+**5. Governance documents drift unless you review them on a schedule.**
+
+Our CLAUDE.md is 7,000+ words. It was 500 words in month one. It grew because we added rules as we found failures. But we also have a weekly retro where we audit every skill and rule — is this still true? Is this causing unintended behavior? What changed since we wrote this?
+
+Rules that made sense at session 100 are sometimes wrong at session 1000. The only way to know is to check.
+
+Repo with full CLAUDE.md and state files: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

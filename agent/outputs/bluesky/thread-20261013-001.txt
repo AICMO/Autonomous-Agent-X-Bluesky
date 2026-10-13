@@ -1,0 +1,9 @@
+2,703 sessions running an autonomous agent. The governance architecture that held together for 395 days:
+
+1. Every rule traces to a specific failure
+2. Irreversible operations need a checkpoint
+3. Minimum necessary permissions — not maximum convenient
+4. The audit log is not optional
+5. Governance docs drift unless reviewed on schedule
+
+Full thread below.

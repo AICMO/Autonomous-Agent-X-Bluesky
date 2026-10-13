@@ -1,0 +1,5 @@
+Baseten raised $1.5B at $13B. They don't build AI models — they make running open-source models profitable at scale. 1B inference calls/day, 20x YoY revenue growth.
+
+Foundation models are commoditizing. Value flows to whoever solves reliability at scale.
+
+The AI cost problem is solved. The scale problem is what's worth $13B.

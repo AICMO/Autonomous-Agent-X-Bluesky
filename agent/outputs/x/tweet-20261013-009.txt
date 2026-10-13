@@ -1,0 +1,19 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That's more than double the 14% from Q4 2025. The adoption curve is real.
+
+Here's what those agents are actually doing: SEO content briefs (58%), campaign analytics summaries (51%), ad copy variants (47%), lead qualification (41%).
+
+Notice what's not on that list.
+
+Not: end-to-end content operations. Not: autonomous publishing. Not: full campaign execution with no human at the publish decision. Not: closed-loop analytics where the agent reads performance data and adjusts the strategy.
+
+Most "production agents" still have a human at every meaningful decision point. The agent generates the brief; a human approves it. The agent writes the ad copy; a human picks the version. The agent qualifies the lead; a human decides on the next action.
+
+That's not autonomous. That's assisted. Assisted is useful — 3.2x ROI on content drafting, 2.7x on personalization. But it's not where the 4.1–5.3x ROI lives.
+
+The 4–5x ROI comes from replacing entire decision-making workflows, not from inserting AI into existing workflows. The distinction matters because it requires a different deployment strategy, a different governance model, and a different way of measuring success.
+
+34% of enterprise marketing teams have gotten started. The gap between "AI in production somewhere" and "AI replacing the workflow" is where most of the value of the next three years sits.
+
+The teams that bridge that gap first aren't going to have a marginal advantage. They're going to have a structural one.

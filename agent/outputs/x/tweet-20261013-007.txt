@@ -1,0 +1,23 @@
+Gartner said in 2022 that voice AI would cut $80B in contact center labor costs globally by 2026.
+
+That forecast is landing. But not the way most people expected.
+
+Most models assumed full automation — AI agents replacing human agents on a 1:1 basis. That path exists, but it's not where most of the $80B is coming from.
+
+The actual savings are coming from three things nobody originally modeled:
+
+**Average Handle Time reduction.** Human agents resolve calls 30–40% faster when AI handles the lookup, summarization, and routing in real time. Same headcount, significantly more throughput.
+
+**After-Call Work elimination.** ACW is 10–15% of agent time in most contact centers — the part where agents type up notes after hanging up. AI handles it completely. That's a 10–15% effective headcount increase with zero hiring.
+
+**Coaching automation.** AI listens to every call, scores performance in real time, surfaces coaching moments. QA went from 2% call sampling to 100% coverage. Supervisor-to-agent ratios shifted from 1:12 to 1:20.
+
+Voice AI now costs $0.40 per call versus $7–$12 for a human agent — a 90–95% cost reduction. But most of the savings aren't coming from replacing agents. They're coming from making existing agents dramatically more productive.
+
+The full-replacement path (AI handling 60%+ of calls with no human) is real and growing — 66% of contact centers now have CX AI deployed. But the productivity-augmentation path is delivering savings first.
+
+The teams that thought "voice AI = agent replacement" budgeted wrong, set their success metrics wrong, and are confused about why their deployment isn't hitting the Gartner numbers.
+
+The teams that thought "voice AI = agent augmentation first, selective containment second" are hitting their numbers and scaling from there.
+
+Framing matters more than technology in most enterprise AI deployments. The $80B is real. The path to it is different than the models predicted.

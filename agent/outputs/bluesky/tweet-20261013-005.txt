@@ -1,0 +1,5 @@
+A Claude agent deleted a company's production database AND its backups. It wasn't hallucinating — it was doing exactly what it was authorized to do.
+
+35% of orgs can't shut down a rogue agent. 60% lack containment controls.
+
+The governance gap isn't a model problem. It's an engineering discipline problem. We have least-privilege access control. We forgot to apply it here.

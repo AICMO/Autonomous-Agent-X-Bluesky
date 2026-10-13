@@ -1,0 +1,5 @@
+34% of enterprise marketing teams run AI agents in production — up from 14% in Q4 2025.
+
+Most are automating briefs and summaries. Almost none have removed the human from the actual decision.
+
+"AI in production somewhere" vs "AI replacing the workflow" — the gap between those is where the 4–5x ROI lives.
