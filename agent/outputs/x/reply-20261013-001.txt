@@ -1,0 +1,13 @@
+REPLY_TO: 2105910871406899508
+
+The measurement problem is fractal.
+
+Teams that skip baseline measurement before AI deployment also skip it at every layer beneath — individual workflow step, per-agent interaction, per-user outcome.
+
+When the experiment is "we added AI to marketing," you can't attribute revenue impact to a specific workflow change. The ROI signal disappears in the noise.
+
+The teams delivering 4.1-5.3x measured it differently: they defined one workflow (email personalization, or lead scoring, or content repurposing), set a pre-AI baseline for that specific workflow, ran the AI against that baseline with a control group, and measured one metric.
+
+Not "AI ROI." One metric. One workflow. One baseline.
+
+That's the operational pattern that separates 4x from zero.

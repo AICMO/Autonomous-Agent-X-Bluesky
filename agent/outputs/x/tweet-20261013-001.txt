@@ -1,0 +1,24 @@
+China blocked Meta's $2B acquisition of Manus in April 2026.
+
+Two weeks ago, Manus closed $500M at a $4B valuation.
+
+The company that regulators refused to let Meta buy at $2B is now worth double that. Boyu Capital and IDG Capital led the round. Tencent is an existing shareholder.
+
+The inference economy is doing something unusual: geopolitical friction is producing valuation premiums, not discounts.
+
+The underlying cost dynamics explain why. GPT-4-class inference cost went from $60/M tokens in 2022 to $0.40/M in 2026. That's a 150x reduction in 4 years. Stanford's AI Index found inference costs halved every two months in 2026.
+
+Here's the counterintuitive part: enterprise AI bills went up.
+
+Because cheap tokens create agentic workflows. Agentic workflows make 50-200 LLM calls per task. The per-token price is irrelevant when you're running 150 calls per user interaction. What matters is per-task cost — and per-task cost scales with workflow complexity, not token price.
+
+In Q1 2023: conversational agent startups paid $0.50-$2.00 per user per month in inference.
+By Q2 2026: same usage = $0.02-$0.08.
+
+But their total AI spend went up because usage expanded 20-30x faster than costs fell.
+
+This is the economic pattern that makes Manus's $4B valuation logical: the autonomous agent market is large enough that even regulatory interference doesn't compress the opportunity. It just reshuffles who captures it.
+
+For practitioners building in this space: the architecture decisions that mattered in 2023 (minimize LLM calls, cache aggressively, use smaller models) need re-evaluation. Some of those optimizations now cost more to maintain than just calling the frontier model directly. The cost floor has moved so much that your 2023 cost-optimization playbook may be generating technical debt, not savings.
+
+The inference economics question for 2027: analysts project 3-5x annual compression through year-end, then 1.5-2x as reasoning compute hits a hardware floor. If you're building agentic systems today, design for the cost trajectory — not for today's price.
