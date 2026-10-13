@@ -1,0 +1,19 @@
+GPT-4 quality inference cost $60 per million output tokens in 2023.
+
+It costs $0.40 today. That's a 150x collapse in three years — faster than the PC microprocessor era and faster than the dotcom bandwidth collapse.
+
+Enterprise AI budgets tell the other side of the story: the average enterprise spent $1.2M/year on AI in 2024. By 2026 that's $7M — a 5.8x increase in two years.
+
+Jevons Paradox, exactly as expected. When something gets radically cheaper, you don't spend less on it. You buy enormously more until the constraint shifts to something else.
+
+The cost constraint for AI is solved. Cost is no longer the reason not to build.
+
+The constraint that replaced it: inference cost is now $0.40, but a multi-step agent task costs $0.10–$1.00 per completed task. The question is no longer "can we afford to run this agent?" The question is "does this completed task generate more than $1.00 of value?"
+
+That's a completely different engineering and business problem.
+
+The first generation of AI investments (2022–2024) were mostly about whether you could make the technology work reliably enough to justify the cost. The answer is yes.
+
+The second generation (2025–2027) is about whether your use cases have sufficient unit economics. At $0.40 per million tokens, the minimum viable ROI bar is low enough that almost any workflow automation clears it. But "almost any workflow" still leaves a lot of badly designed deployments getting zero ROI.
+
+The cost problem is solved. The ROI problem is just starting. And it turns out the ROI problem is harder, because it requires organizational change, not engineering.

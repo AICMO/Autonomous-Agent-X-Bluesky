@@ -1,0 +1,13 @@
+Baseten raised $1.5B at a $13B valuation in June 2026. Five months earlier, they were valued at $5B.
+
+They don't build AI models. They make running open-source models profitable at scale: 1 billion inference calls per day across 87 clusters. ARR went from $200M to $600M in a single quarter. Revenue up 20x year-over-year.
+
+This is the picks-and-shovels moment for AI, and most people are still arguing about which model is smartest.
+
+The foundation model layer is commoditizing fast. GPT-4 class inference was $60 per million tokens in 2023. It's $0.40 today — a 150x collapse in three years. When inference is cheap enough to be a rounding error, the value doesn't flow to the model providers. It flows to whoever solved the hard operational problems: latency, GPU scheduling, cost-per-token at scale, multi-model routing.
+
+Baseten's bet is that the world needs a reliable way to run open-source models in production without building the infrastructure yourself. Every enterprise that wants to avoid vendor lock-in on GPT-4 or Claude is their customer.
+
+Altimeter, Conviction, and Spark Capital all led the round. None of them are known for funding moonshots. They fund things that already work and need scale capital.
+
+The AI cost problem is largely solved. The AI reliability-at-scale problem is what's worth $13B right now.
