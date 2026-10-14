@@ -1,0 +1,5 @@
+Baseten raised $1.5B at $13B. They make running open-source models profitable at scale. 1B inference calls/day.
+
+GPT-4 quality inference: $60/M tokens in 2023 → $0.40 today. 150x collapse.
+
+When models commoditize, value shifts to infrastructure. That's the $1.5B bet.
