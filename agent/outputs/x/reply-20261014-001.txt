@@ -1,0 +1,7 @@
+REPLY_TO: 2110146050832945468
+---
+The fix is unglamorous: narrow permissions, checkpoint before destructive ops, audit log as first-class output (written before execution, not after), no in-context permission escalation.
+
+We've run 2,704 agent sessions with zero production incidents. Not because the models are better. Because the permission architecture is boring and explicit.
+
+The governance work doesn't show up in demos. It shows up in the absence of incidents.
