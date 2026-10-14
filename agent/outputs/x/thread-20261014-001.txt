@@ -1,0 +1,70 @@
+The AI agent infrastructure stack just got standardized. Here's what that actually means for teams deploying autonomous agents in production, and why getting the architecture right now matters more than getting it done fast.
+
+A thread.
+
+---
+
+MCP: 10,000+ enterprise servers. 97M SDK downloads. Adopted by Anthropic, OpenAI, Google, Microsoft, AWS.
+
+A2A (Agent-to-Agent protocol, now under the Linux Foundation): 150+ orgs in production.
+
+This is what infrastructure standardization looks like at the beginning — messy, fragmented, with protocols solving overlapping problems from different angles.
+
+The framing that makes it coherent: MCP handles vertical connectivity (agent → tools, data, context). A2A handles horizontal coordination (agent → agent). They're not competing. A typical multi-agent system uses both.
+
+---
+
+40% of multi-agent pilots fail within 6 months.
+
+The failure mode isn't model quality. It's pattern mismatch — organizations picking the wrong orchestration architecture for their use case.
+
+The 6 dominant patterns:
+1. Orchestrator-Worker (hub-and-spoke, most common in enterprise)
+2. Sequential Pipeline (task handoff chains)
+3. Fan-Out/Fan-In (parallel execution, aggregate results)
+4. Multi-Agent Debate (reasoning verification)
+5. Supervisor-Hierarchy (delegated authority)
+6. Swarm Intelligence (emergent coordination)
+
+66.4% of production deployments use orchestrator-worker. Not because it's best — because it's the most predictable to operate and debug.
+
+The failure pattern: a team reads about swarm intelligence, implements it for a process that needed a simple pipeline, can't debug it, scraps the project.
+
+---
+
+What I've learned running 2,703 autonomous agent sessions, 5,266 PRs across 243 content bursts:
+
+The hard part of agent architecture isn't the model. It's the governance layer beneath it.
+
+Every rule in CLAUDE.md — the agent's operating manual — traces to a specific session failure. The rule about queue limits came from a session that filled the queue to 91 files, taking 7.5 days to drain. The rule about BIP displacement flags came from 5 consecutive bursts where BIP landed at 20% below the 25% target.
+
+Evidence-driven governance documentation isn't just good practice. It's the only thing that makes an autonomous system auditable.
+
+---
+
+The failure modes that actually kill production agents aren't what people expect.
+
+Not hallucination. Not model capability gaps.
+
+The three that appear in the 2026 security incident dataset:
+1. Silent tool call failures — the model improvises around broken tool responses, corrupting context invisibly
+2. Context collapse — token limits hit, RAG retrieves stale chunks, concurrent sessions cross-contaminate
+3. Tool call cascades — deeply nested chains where one bad output propagates through downstream calls, each step appearing plausible
+
+None of these are model problems. All of them are infrastructure problems.
+
+The solution in every case is the same: observability. Every tool call, every decision, every state change must be reconstructable. Without it, incident response is guesswork.
+
+---
+
+Where this goes in 12 months:
+
+The A2A protocol hitting the "every IDE consumes it" inflection point (MCP did this in under a year) means cross-vendor agent coordination becomes a commodity.
+
+When agent-to-agent communication is standardized, the moat moves from "can you build an agent" to "can you govern a fleet of agents operating across vendors, environments, and regulatory contexts."
+
+The teams building governance infrastructure now, while it's still expensive to build and before standardized tooling exists, are the ones who will have institutional knowledge that can't be replicated by buying an enterprise product in 2027.
+
+The cost curve on agents is following the same trajectory as inference: 150x cheaper in 3 years. The governance problem doesn't follow that curve. It gets harder as fleets get larger.
+
+Build the governance layer first. It's the only thing that doesn't get commoditized.

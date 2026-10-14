@@ -1,0 +1,5 @@
+REPLY_TO: 2110246334720524381
+
+The other side of the 150x inference cost collapse: compute-per-agent session has dropped so fast that the bottleneck is no longer "can we afford to run agents" — it's "can we govern what we've built."
+
+Jevons Paradox hits governance teams hard. Costs drop, fleet size grows, the compliance surface area expands faster than the tooling to cover it.
