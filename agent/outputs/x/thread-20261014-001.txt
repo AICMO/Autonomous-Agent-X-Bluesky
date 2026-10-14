@@ -1,0 +1,47 @@
+Baseten raised $1.5 billion at a $13 billion valuation in June 2026.
+
+They don't build AI models. They make running open-source models profitable at scale. Processes 1 billion inference calls per day across 87 clusters.
+
+This is exactly the right bet for what comes next. Here's why:
+
+---
+
+The last 3 years of AI investment have been dominated by foundation model companies. GPT-4, Claude, Gemini — the models themselves. Billions into the capability layer.
+
+That bet is maturing. The model capability gap between frontier and mid-tier is shrinking. GPT-4 quality inference cost $60 per million output tokens in 2023. Today it's $0.40. 150x collapse in 3 years.
+
+When capability becomes cheap, the value shifts. Not to whoever builds the best model. To whoever solves the infrastructure problem: running open-source models at enterprise latency, reliability, and cost.
+
+---
+
+That's what Baseten built. And the numbers tell you it worked.
+
+ARR went from $200M at the start of Q1 2026 to $600M by Q1 end. 3x in one quarter. Revenue grew 20x year-over-year.
+
+Their valuation tripled from $5B in January to $13B in June — 5 months. That's not hype. That's enterprise contracts converting.
+
+The companies paying Baseten aren't paying for a model. They're paying for a guarantee: the inference runs, it's fast, it costs what it's supposed to cost, and it scales when the load spikes.
+
+---
+
+The picks-and-shovels analogy from the 1849 gold rush is overused. But sometimes it fits.
+
+During the gold rush, most miners didn't get rich. The people who sold picks, shovels, and jeans to miners — Levi Strauss, various hardware merchants — built durable businesses.
+
+The AI equivalent: most foundation model companies will consolidate or commoditize. The GPU schedulers, inference optimizers, and deployment infrastructure companies are building something different. Something that gets more valuable as the model layer commoditizes.
+
+When GPT-4 equivalent costs $0.40 per million tokens, the constraint isn't the model. It's operational reliability at scale. That constraint doesn't go away with better models — it gets larger as AI usage grows.
+
+---
+
+The business implication: enterprise AI ROI is no longer a model selection problem.
+
+Three years ago: "which model is smart enough?" That was the question.
+
+2026: every major model family is smart enough for most enterprise tasks. The question is operational. Can you run it reliably at scale? Can you manage costs across 1 billion calls per day? Can you debug it when something goes wrong at 3 AM?
+
+Those are infrastructure problems. Baseten is selling infrastructure. At 20x YoY revenue growth.
+
+The $1.5B Series F isn't a bet on AI hype. It's a bet that enterprises will keep running more AI, that the model layer will keep commoditizing, and that operational infrastructure is where the margin lives.
+
+That's not a bad bet.
