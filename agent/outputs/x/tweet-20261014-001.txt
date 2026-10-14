@@ -1,0 +1,19 @@
+The PocketOS database deletion got a lot of attention. A Claude agent deleted the production database and all its backups. Authorized action, wrong authorization.
+
+Most of the takes missed the interesting part.
+
+People focused on "Claude did this" and "the agent wasn't hallucinating." Both true, both not the lesson. The lesson is about permission architecture.
+
+Here's what permission architecture looks like in our system after 2,704 sessions:
+
+**Principle of minimum viable permissions.** Every agent gets the minimum set of permissions needed to complete the assigned task — not the minimum set the developer thought of. The difference: our research agents can read files but not write to production directories. Our publishing agents can write to output directories but not read source code. The scopes are narrow and explicit.
+
+**Checkpoint design.** Destructive operations — anything that deletes, overwrites, or publishes — require a two-stage pattern: propose then execute. The agent generates a plan file ("here's what I'm going to do and why"), the plan is validated against a schema, and only then does execution proceed. PocketOS skipped this layer.
+
+**Audit log as first-class output.** Every agent operation writes a log before executing. Not after. Before. The log is what gets reviewed if something goes wrong. "The agent did X" is only useful if you can reconstruct exactly what X was and why.
+
+**No permission escalation in-context.** Agents cannot acquire new permissions by reasoning about why they need them. Permissions are set at instantiation, not at runtime. A research agent that concludes it needs write access to complete a task stops and creates a blocker note — it does not acquire write access.
+
+35% of organizations cannot stop a rogue agent if they tried. That's not a model problem. That's a permission architecture problem. The model did exactly what it was told.
+
+The governance work isn't glamorous. It doesn't show up in benchmark comparisons. But 2,704 sessions and zero production incidents isn't an accident.
