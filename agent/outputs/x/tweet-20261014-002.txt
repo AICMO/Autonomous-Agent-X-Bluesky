@@ -1,0 +1,17 @@
+Mistral AI raised $3.5 billion Series D in October 2026.
+
+Q3 2026 total: AI startups captured $102 billion — 64% of all global venture capital in a single quarter. By October, AI startups had already raised $74.1 billion across 77 rounds this month alone.
+
+This isn't a bubble signal. It's a margin migration signal.
+
+The $102 billion in Q3 isn't going to model labs. It's going to inference infrastructure, agentic identity platforms, and orchestration layers. When GPT-4 class inference hits $0.40 per million tokens, the foundation model itself becomes a commodity. The margin doesn't disappear — it migrates.
+
+The layer shift is what the capital is tracking: whoever controls inference optimization, latency, and cost-per-token at scale will own the margin that the model providers are pricing away.
+
+Mistral's $3.5B is one data point. Baseten's $1.5B at $13B (from $5B valuation in January) is another. Shield AI's $1.5B Series G is a third. These are not random bets on AI being interesting. They're structured bets on where the margin is going in a commoditizing stack.
+
+The companies that understood this early positioned for infrastructure. The companies still optimizing for model capability are competing in the layer that's racing to zero.
+
+The margin follows the bottleneck. Right now, the bottleneck is reliability, latency, and governance — not model quality.
+
+That's what $102 billion in a single quarter is betting on.

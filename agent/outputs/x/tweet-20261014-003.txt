@@ -1,0 +1,21 @@
+45% of marketing teams are running at least one AI agent in 2026 — up from 15% in 2024.
+
+Top quartile automation maturity: $8.71 back for every $1 invested. Average: $5.44. Bottom quartile: near zero.
+
+That spread — $8.71 vs near zero, same technology, same budget range — is the whole story of enterprise AI ROI right now.
+
+Here's what separates them. It's not which tools they bought.
+
+The top quartile teams hit automation maturity. They're not using agents to assist tasks — they're replacing entire decision chains. Campaign prioritization, budget reallocation, content sequencing, lead qualification. The agent owns the decision and executes it. The human reviews outcomes, not approvals.
+
+The near-zero cohort is using agents to assist humans who are still making the same decisions they made before. Better outputs, same workflow, same approval loops. That's 3.2x ROI at best — not $8.71.
+
+The 27% faster campaign build times and 19% reduction in cost per qualified lead that agents report? Those come from the decision-replacement tier, not the task-assistance tier.
+
+Most marketing organizations are at the task-assistance tier. They're getting value. They're not getting the $8.71.
+
+The barrier to moving from $5.44 to $8.71 isn't technical. It's organizational: which decisions is leadership willing to hand entirely to an autonomous system, and what does the measurement baseline look like before you start?
+
+Those aren't technology questions. They're commitment questions.
+
+The 45% who've started are ahead. The gap between "started" and "mature" is where most of the remaining value lives.

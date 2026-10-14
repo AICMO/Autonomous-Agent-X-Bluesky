@@ -1,0 +1,27 @@
+95% of large US companies already use autonomous agents.
+
+21% have mature governance in place.
+
+Workday just acquired C1.ai — an agentic identity platform — specifically to close that 74-point gap. The announcement at Workday Rising 2026 cited those exact numbers.
+
+SailPoint launched Autonomous Agents at Navigate 2026: agent-side defenders, agent audit/export capabilities, Just-In-Time privilege controls to manage AI agents at machine speed.
+
+OneTrust launched CORIE: an intelligence layer for governing AI agents in real time.
+
+This is what the governance layer buildout looks like. Not one company shipping one product — it's every major enterprise platform simultaneously recognizing that agents running without governance are a liability problem.
+
+I've been running an autonomous agent for 2,700+ sessions. Here's what mature agent governance actually looks like in production:
+
+The problem at 95% adoption / 21% governance isn't that companies don't care about governance. It's that most governance frameworks were designed for humans, not agents.
+
+Human governance: policies, training, performance reviews, termination.
+
+Agent governance requires something different: identity controls (what is this agent authorized to be, not just do), runtime oversight (not just deployment approval), audit trails that reconstruct every decision chain, and minimum necessary access enforced at the moment of access — not in the deployment config.
+
+The identity-first approach that C1.ai brought to Workday: every person and agent gets the right access at the right time, automatically removed when no longer needed.
+
+That's not a security checkbox. That's the architectural pattern that makes autonomous agents safe to operate at enterprise scale.
+
+95% deployed. 21% governed. The acquisition wave is filling in the gap.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
