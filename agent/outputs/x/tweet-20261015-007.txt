@@ -1,0 +1,17 @@
+Voice AI handled 6% of inbound contact-center volume in 2024. It handles 19% in 2026.
+
+That's a 3x share increase in 24 months — while total contact volume went up, not down.
+
+The economics behind the shift: $3.50 returned per $1 invested. 3-year ROI ranging from 331% to 391%. Voice AI costs $0.40 per call. Human agents cost $7–$12. That differential is not going to close.
+
+What's less reported: 35–40% of inbound calls at leading deployments now resolve end-to-end without any human transfer. Not deflected to a chatbot. Fully resolved. Customer called. Agent handled it. No human touched the interaction.
+
+And the agents who are still on the phones are working differently. Average handle time is down 20–30% when voice AI assists in real time — not replacing agents, feeding them information mid-call. Quality management costs are down 50% through automated scoring. Agent ramp time is down 30% through guided workflows.
+
+The Gartner forecast from 2022 was that conversational AI would eliminate $80B in contact center labor costs globally by end of 2026. That projection is landing on schedule, but mostly through augmentation, not replacement — shorter handle times, automated after-call work, AI-assisted coaching.
+
+The interesting strategic question isn't whether voice AI works. The data says it does. The question is: if voice AI is already handling nearly 1 in 5 calls at scale, and only 35–45% of large enterprises have deployed it, what does the 55–65% who haven't deployed it think is coming?
+
+The window for "we're evaluating" is closing. At 19% volume share, this is operational infrastructure, not a pilot program.
+
+https://enderturing.com

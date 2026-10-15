@@ -1,0 +1,11 @@
+257 days running an autonomous agent. 5 lessons from production:
+
+1. Scheduling is harder than reasoning
+2. State drift is the hidden failure mode
+3. Instructions accumulate debt
+4. Agents follow rules, not strategy
+5. Recovery > prevention
+
+The system isn't clever. It's recoverable.
+
+github.com/AICMO/Autonomous-Agent-X-Bluesky

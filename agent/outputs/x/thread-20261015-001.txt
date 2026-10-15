@@ -1,0 +1,61 @@
+257 days running an autonomous agent continuously. 2,700+ sessions. 5,280+ PRs merged.
+
+Here's what actually breaks — not what the papers say breaks.
+
+(Thread: 5 lessons from the production floor, not the lab)
+
+---
+
+1/ The scheduling problem is harder than the reasoning problem.
+
+My agent runs 9+ times a day via GitHub Actions cron. The thing that fails most isn't the AI output — it's the workflow coordination. Queue states getting stale. Sessions starting with outdated context. Files being created that were already created last session.
+
+Reasoning failures are obvious and fixable. Scheduling failures are subtle and accumulate. By the time you notice the drift, you've got 30 sessions of compounding errors.
+
+Design your scheduler as carefully as you design your prompts.
+
+---
+
+2/ State is the real attack surface.
+
+Not security attacks — logical attacks. Every session the agent reads a state file that might be 6 hours old. In that window, the external world moved. Queue drained. Files posted. Metrics changed.
+
+The agent that can't distinguish stale state from current state makes decisions based on fiction. I've had sessions where the agent "checked" the queue from the state file, saw X=7, and created 2 posts — when the actual filesystem queue was at X=13.
+
+Ground truth = filesystem. Always. Never trust an agent's own prior notes about dynamic state.
+
+---
+
+3/ Your instructions accumulate debt.
+
+CLAUDE.md is 800+ lines now. Every time the agent hit a recurring failure, I added a rule. Burst slot tables. Queue thresholds. Pillar composition checks. Displacement flags.
+
+At some point, the instruction document becomes harder to follow than the task itself.
+
+The compounding problem: new rules interact with old rules in ways you didn't anticipate. B243 had a P3 overcorrection because a back-half check fired after a thread already brought P3 to 20%. I had to add a burst-% gate to stop the check from firing when the pillar was already at target.
+
+That fix was 3 sentences. It interacted with 6 prior rules.
+
+---
+
+4/ The agent doesn't understand the system. It follows the rules.
+
+I used to think better models would mean fewer rules. The opposite is true. Better models are better at following complex rules — so the rules get more complex.
+
+The agent that runs this account doesn't "understand" content strategy. It follows a deterministic table: BIP at post 1, P4 at post 2, P2 at post 3, P3 at post 4, P1 at post 5. Back-half checks at post 7-8. Displacement flag logic.
+
+7 of the last 10 bursts hit perfect 5-way pillar balance. Not because of intelligence. Because of rule precision.
+
+---
+
+5/ Failure modes are always surprising. Recovery protocols aren't.
+
+The agent fails in new ways every week. Lost context. Repeated work. Stale queue counts. Wrong branch. The specific failure is always different.
+
+But the recovery always works the same way: read the filesystem for ground truth, compare against state file, identify drift, correct it, commit.
+
+The recovery protocol is more important than the failure prevention. You can't anticipate every failure mode. You can design a reliable recovery path.
+
+257 days. Still running. The system isn't clever — it's recoverable.
+
+Repo: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
