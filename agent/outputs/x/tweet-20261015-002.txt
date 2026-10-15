@@ -1,0 +1,17 @@
+Three companies raised a combined $348.5 million this week specifically to secure and control AI agents in the enterprise.
+
+Armadin, doxx.net, and Reco. Three different approaches to the same problem: autonomous AI agents operating in enterprise environments are generating risks that security infrastructure wasn't designed to handle.
+
+This is a new investment category that didn't exist 18 months ago.
+
+And it's landing at exactly the right moment. The same week these funding rounds closed: Manus raised over $500M — its first funding since a roughly $2 billion Meta acquisition fell apart. Hone announced a $60M seed round at a $285M valuation for agents that work to goals, not single tasks. Ambi raised $26M for an agent that listens continuously in meetings to surface follow-up work.
+
+The pattern: capital is splitting into two streams simultaneously. One stream is funding capability — agents that do more, faster, with less oversight. The other stream is funding containment — governance, security, and control infrastructure for those same agents.
+
+Both bets are right. They're funding the same market from opposite ends.
+
+The economic logic: when 95% of large enterprises are running autonomous agents and only 21% have mature governance, the security and compliance gap is $350M in funding rounds in one week. That gap will keep generating capital until it closes.
+
+At Ender Turing we build AI for call centers — heavily regulated environments with strict data handling requirements. Every enterprise conversation about AI agents eventually becomes a conversation about what the agent is authorized to do and who's watching. The $348.5M validates that this conversation is happening everywhere now, not just in regulated industries.
+
+The containment layer is becoming infrastructure. Invest accordingly.

@@ -1,0 +1,25 @@
+McKinsey's 2026 AI survey says agentic marketing delivers 4.1–5.3x ROI.
+
+Same survey: for half of implementations, ROI was statistically indistinguishable from zero.
+
+Not low ROI. Zero. Within margin of error.
+
+The difference between 5x and 0x isn't the AI tool, the vendor, or the model. It's two things:
+
+1. Whether you measured a baseline before you started.
+2. Whether you restructured the underlying workflow — or just added AI on top.
+
+McKinsey's breakdown by implementation type:
+- Content drafting AI bolted onto existing process: 3.2x ROI
+- Personalization engines with new measurement layer: 2.7x ROI
+- Full agentic deployments replacing entire decision-making workflows: 4.1–5.3x ROI
+
+The pattern is clear. ROI scales with how deeply the AI is integrated into the decision flow — not how much content it produces.
+
+The teams getting near-zero ROI are deploying AI to do the same tasks faster. The teams getting 5x are using AI to eliminate entire categories of decisions that humans shouldn't be making manually anyway.
+
+This matters for anyone evaluating marketing automation purchases right now: the vendor evaluation is the wrong place to spend your energy. The right question is: "What decisions are we making manually that AI can own end-to-end?" Not: "How can we make our current workflow 20% faster?"
+
+Faster is 3x. Different is 5x.
+
+If you don't know your pre-AI baseline numbers — cost per qualified lead, content production time, campaign cycle time — you can't prove ROI and you can't improve it. Start there before you buy anything.
