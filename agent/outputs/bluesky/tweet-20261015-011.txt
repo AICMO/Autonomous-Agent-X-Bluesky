@@ -1,0 +1,7 @@
+Inference costs dropped 1,000x in 3 years. $20→$0.40/million tokens.
+
+But reasoning models burn 100x more tokens internally than they output. Submit 500 tokens, model runs 50,000 chain-of-thought tokens.
+
+Per-token price is down. Total bills are up.
+
+Fireworks raised $1.5B Series D. ARR: $280M→$1B. Jevons Paradox in the GPU data center.
