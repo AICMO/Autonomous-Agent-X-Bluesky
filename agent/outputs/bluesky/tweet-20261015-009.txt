@@ -1,0 +1,5 @@
+34% of enterprise marketing teams run AI agents in production. Doubled from 14% in Q4 2025.
+
+But most are automating briefs and summaries — subtasks, not workflows. Almost none removed the human from the publish decision.
+
+That's why McKinsey gets 3.2x for task automation vs 4.1-5.3x for full workflow automation. The value is in the decision loop, not the content generation.

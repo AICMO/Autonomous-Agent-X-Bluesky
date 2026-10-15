@@ -1,0 +1,5 @@
+85% of enterprises are experimenting with AI agents. 5% are in production.
+
+This week: SailPoint, OneTrust, and Oracle all shipped AI agent governance infrastructure.
+
+The 5% got there by building governance first, not last. Audit trail, privilege controls, kill switches — before deployment. That's the gap.
