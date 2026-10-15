@@ -1,0 +1,21 @@
+AI self-service costs $1.84 per contact.
+
+Agent-assisted costs $13.50.
+
+That's a 634% cost differential, not a rounding error.
+
+The voice AI ROI data for 2026 now has enough production cases to be definitive: 3-year ROI between 331% and 391%, payback period under six months.
+
+This is no longer a "could AI work here?" question. It's a "how fast can we deploy?" question.
+
+The math that changed everything: at 88% AI containment, your 12% escalations still need human agents — but those agents spend 100% of their time on complex, high-value conversations instead of routing calls and answering "what's my balance." You don't reduce headcount. You change what your headcount does.
+
+That's the actual business case. Not "fire your agents." It's "stop wasting your best agents on work that doesn't need them."
+
+At Ender Turing, this is the conversation we have repeatedly with contact center leaders who are skeptical: you're not deciding between AI and humans. You're deciding how to allocate humans. AI handles the routine. Humans handle the escalations that actually require judgment.
+
+The ROI case now has 3+ years of production data. $1.84 vs $13.50 isn't vendor math — it's audited deployment economics from real organizations.
+
+The companies still running purely human-staffed contact centers are making a structural cost choice, not just an operational one. At the current adoption rate (39%→66% in 2025–2026), being in the last third is a competitive disadvantage, not a preference.
+
+https://enderturing.com

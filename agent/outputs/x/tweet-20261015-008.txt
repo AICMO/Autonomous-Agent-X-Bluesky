@@ -1,0 +1,21 @@
+Fireworks raised $1.5 billion Series D.
+
+ARR went from $280 million to over $1 billion.
+
+a16z described inference as "one of the fastest-growing markets in the history of capitalism."
+
+This is the economics of what happens when your product costs 1/5th to 1/7th of the closed-model alternatives.
+
+The inference infrastructure bet is becoming the clearest value capture in the AI stack. Not models — the layer that runs them.
+
+Here's the logic: foundation models are commoditizing. GPT-4 quality inference cost $60/million tokens in 2023. It costs $0.40 today. When the model itself approaches zero cost, the company that routes workloads efficiently, cuts latency, and manages GPU clusters at scale is who captures margin.
+
+Fireworks isn't competing with OpenAI on model quality. It's competing on operational economics. And those economics are separating fast: $280M ARR to $1B+ ARR in less than a year.
+
+For companies building AI products: the model selection conversation is mostly over. The infrastructure selection conversation is just starting.
+
+The question isn't which foundation model gives you the best accuracy. It's which inference layer gives you the best cost-per-call at the throughput you need, with the latency your product requires.
+
+Q3 2026 was a record for billion-dollar funding rounds. The market is concentrating capital around infrastructure, not capability.
+
+That's the bet: capability is abundant. Infrastructure that makes capability economically viable at scale is scarce.
