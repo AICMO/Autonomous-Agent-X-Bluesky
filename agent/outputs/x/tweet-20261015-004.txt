@@ -1,0 +1,19 @@
+Call abandonment dropped from 25% to 1% after voice AI deployment.
+
+Not from better AI. From removing a bottleneck that was always a staffing problem pretending to be a technology problem.
+
+Wait time down 71%. 60% containment rates. 25% headcount-neutral customer base growth. 70% of voice AI deployments report measurable value within 60 days.
+
+The data from Kore.ai and CX Today for 2026: organizations deploying AI agents in CX went from 39% (2025) to 66% (2026). 1.7x in one year.
+
+Here's the framing most people miss: 25% call abandonment was never a normal operating condition. It was a symptom — the system was telling you that demand was consistently exceeding human capacity. The response for 20 years was "hire more agents." Voice AI is the first technology that breaks that linear equation.
+
+At Ender Turing, we've seen this pattern repeatedly. The contacts centers that get the most value from AI aren't the ones that deploy it to automate routine calls. They're the ones that redeploy their best human agents to the contacts where human judgment is irreplaceable — escalations, complex problem resolution, high-value retention conversations.
+
+Call abandonment going to 1% is a headline number. The real story is what happens when your 50 best agents stop spending 40% of their time on calls that should never have reached them.
+
+Voice AI costs $0.40 per call vs. $7–12 for a human agent. At scale, that's not optimization. That's structural change in the unit economics of customer service.
+
+The 39%→66% adoption jump tells you this crossed from early adopter to mainstream in 12 months. If your contact center isn't running a voice AI pilot, you're running a real risk of being the last one in your market to figure this out.
+
+https://enderturing.com
