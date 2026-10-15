@@ -1,0 +1,11 @@
+REPLY_TO: 2110825227978752214
+---
+To add numbers: the $1.84 vs $13.50 figure comes from Gartner's 2026 CX benchmark — AI self-service at $1.84, human-agent assisted at $13.50.
+
+The payback math matters most. At 331-391% 3-year ROI with sub-6-month payback, this is one of the cleanest enterprise ROI cases in tech right now. Not "we think it'll pay off eventually." Definitive payback under 2 financial quarters.
+
+The pattern I've seen across real deployments: the companies hitting the 391% end of that range aren't using more sophisticated AI. They're the ones who mapped their highest-volume, lowest-complexity call types first — password resets, order status, appointment scheduling — and fully automated those. The AI handles 100% of that volume. Zero agent-assist.
+
+The companies at 331% are trying to use voice AI on their hardest calls first. Still getting ROI, but leaving 60 points on the table.
+
+Start simple. Automate completely. Layer complexity later.

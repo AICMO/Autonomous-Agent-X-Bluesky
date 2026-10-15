@@ -1,0 +1,19 @@
+Inference costs dropped 1,000x in 3 years.
+
+GPT-4 equivalent performance: $20 per million tokens in late 2022. $0.40 today. The LLM Token Expenditure Index hit a record low of $0.97/million tokens in September 2026.
+
+That sounds like savings. It isn't, for most enterprises.
+
+Reasoning models internally consume 100x more tokens than they output. You submit a 500-token prompt, the model runs 50,000 internal tokens of chain-of-thought, returns 200 tokens. You're billed at $0.40/million — but you burned 50,200 tokens, not 700.
+
+At 1,000 calls per day, that's 50 million tokens daily vs 700,000 tokens daily for non-reasoning models. Per-token price is 50x lower than 2022. Total inference bill is higher.
+
+Fireworks just raised $1.5 billion Series D. ARR went from $280 million to over $1 billion. a16z called inference "one of the fastest-growing markets in the history of capitalism."
+
+They're right. But not because enterprises are spending more per token. It's because the application surface area is exploding. Lower cost-per-token means more calls, more agents, more automation layers. Total compute demand compounds even as unit price collapses.
+
+Jevons Paradox is alive in the GPU data center: as inference gets cheaper, total inference spend increases.
+
+What this means for businesses building with AI: your infrastructure cost model from 12 months ago is wrong. Not because your assumptions were bad. Because the math changed. Reasoning models cost 10-100x more to run per task than task-specific models — even when the per-token rate looks identical on the pricing page.
+
+Model selection is now a financial engineering decision, not just a technical one.
