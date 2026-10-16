@@ -1,0 +1,17 @@
+$44.5 billion in contact center fraud exposure. Vishing attacks up 442% year-over-year. $128 million specifically from AI impersonating businesses.
+
+At the same moment: 55% of organizations already use AI voice agents. 92% plan to within two years. Zendesk shipped GA voice AI this month — 53 languages, autonomous call handling for 40% of contact center volume.
+
+We are accelerating both sides of the same attack surface simultaneously.
+
+Here's the operational reality: your authorized AI voice agent and a fraudulent AI impersonating your brand now sound identical to the customer. The same advances that let you deploy a voice agent that handles 40% of inbound volume are available to attackers building the synthetic version.
+
+72% of CX leaders say AI fraud is a top operational challenge. 87% report rising AI-related vulnerabilities. The majority of organizations are deploying without answering the authentication question.
+
+For voice AI in the contact center, the authentication problem is: how do you prove to the customer that they reached you and not a synthetic impersonation? And how do you verify incoming voice data isn't a deepfake when the customer makes a fraud claim?
+
+Vishing — voice phishing — is up 442% YoY. Americans lost $665M to phone call fraud in H1 2026 alone. The attack is not theoretical.
+
+The deployment decision and the security decision can't be separate conversations anymore. Voice AI that doesn't include behavioral authentication and anomaly detection isn't production-ready — it's a half-built perimeter.
+
+Sources: KTVZ/Stacker (Oct 14), Telecom Reseller (Oct 9), CX Today (Oct 2026), Zendesk Voice GA (Oct 2026).
