@@ -1,0 +1,11 @@
+Agentic marketing deployments that fully replace a decision-making workflow: 4.1x–5.3x ROI.
+
+Deployments that bolt AI onto an existing process without restructuring the workflow or measuring against a baseline: ROI statistically indistinguishable from zero. Same survey. Same year.
+
+The difference isn't the model. It's not the vendor. It's whether you redesigned the underlying process — and whether you measured what you were doing before you started.
+
+95% of enterprise marketing teams now run at least one automation platform. But fully agentic deployments (the ones replacing entire decision loops, not just generating draft copy) are still a small fraction. One documented case: 40% lift in campaign response rates, 25% reduction in deployment costs, by moving from broad audience segments to 150 personalized segments — fully agentic decision-making at each step.
+
+The ROI gap between "AI-assisted" and "AI-replaced" workflows is one of the most consistent findings in enterprise AI right now. Teams adding AI to their existing process are buying a faster horse. Teams redesigning around AI output are building a different machine.
+
+The question to ask before any AI deployment: what is the baseline, and does this process even need to exist after AI handles the decision loop?

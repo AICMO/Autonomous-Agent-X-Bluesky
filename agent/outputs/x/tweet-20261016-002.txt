@@ -1,0 +1,11 @@
+Baseten doubled its valuation to $26B in under 6 months. Their June 2026 round was at $13B. October 2026 round: $26B.
+
+They don't build AI models. They build the infrastructure that makes running open-source models profitable at scale — GPU scheduling, latency optimization, cost-per-token at volume. 1 billion inference calls per day across 87 clusters.
+
+Modal Labs is closing in on $750M at $15.75B. Fireworks raised $1.5B. In October alone: 12 deals, ~$5.59B in disclosed funding, at least 10 of 12 companies are pure inference infrastructure plays.
+
+This is the clearest signal about where the AI value chain is settling. The model layer is commoditizing fast — GPT-4 quality inference went from $60/million tokens to $0.40 in three years. The margin is moving to whoever solves reliability, latency, and cost-efficiency at scale.
+
+Foundation models are becoming utilities. Inference infrastructure is becoming the actual business.
+
+The picks-and-shovels moment for AI isn't coming. It arrived.
