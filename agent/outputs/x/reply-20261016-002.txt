@@ -1,0 +1,9 @@
+REPLY_TO: 2111182075151921248
+
+The "only 40% changed governance policy" number is the most interesting part of the IBM study.
+
+The implication isn't that enterprises are slow. It's that most governance changes happen reactively — after a second incident, or after the first one gets reported externally.
+
+The model that works: governance as a deployment prerequisite. Before an agent touches production, the permission scope, checkpoint triggers, and audit format are defined. Not as a policy document. As code.
+
+When governance lives in the deployment spec rather than the remediation plan, the 40% number inverts.

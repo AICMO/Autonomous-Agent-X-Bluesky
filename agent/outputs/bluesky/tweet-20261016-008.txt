@@ -1,0 +1,7 @@
+GPT-4 inference: $60/million tokens (2023) → $0.40 today.
+
+150x in 3 years. Faster than semiconductors, faster than bandwidth.
+
+The AI cost problem is solved. The only question left: does each task generate more than $1 of value?
+
+That's a completely different product problem than 18 months ago.

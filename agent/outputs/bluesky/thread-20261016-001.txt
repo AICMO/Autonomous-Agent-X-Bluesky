@@ -1,0 +1,29 @@
+40% of enterprises will decommission AI agents by 2027. Not because AI failed — because governance did.
+
+After 2,705 autonomous sessions: every production incident traces to the same 3 root causes.
+
+🧵
+---
+1/ Too many permissions.
+
+Most agents inherit credentials from the prototype dev account. 78% run under borrowed credentials (IBM).
+
+The boundary between read/write/execute that seemed clear in the architecture doc disappears in implementation.
+---
+2/ No checkpoints.
+
+An agent running 10 steps with zero review windows isn't the same risk as one with a pause at step 5.
+
+Real example: customer support agent issued unapproved credit to corporate client. Discovered 3 days later. Agent had permission. No checkpoint existed.
+---
+3/ No audit trail.
+
+You need decision logs — not just input/output, but what the agent saw, decided, and did at each step.
+
+Without it: 3-day gap between incident and discovery. 88% of enterprises had AI security incidents last year. 80% escalated to board. Only 40% changed policy.
+---
+Fix: treat agents as identity-bearing entities with scoped permissions, checkpoints before irreversible actions, and full decision logs per run.
+
+Engineering discipline, not AI policy.
+
+246 bursts running. Nothing unreviewed in production. That's the only interesting governance stat.
