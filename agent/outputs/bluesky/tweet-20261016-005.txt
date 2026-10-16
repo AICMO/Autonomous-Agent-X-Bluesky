@@ -1,0 +1,1 @@
+IBM this week: 80% of enterprises escalated an AI agent incident to the board. Only 40% changed governance policy after. Shipping agents faster than governance = turning a productivity tool into a liability at industry scale.

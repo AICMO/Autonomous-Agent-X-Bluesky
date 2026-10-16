@@ -1,0 +1,15 @@
+IBM published a study this week: 80% of enterprises in EMEA escalated an AI agent incident to their board or C-suite in the past year.
+
+Only 40% changed governance policy after the incident.
+
+That gap — 80% had a boardroom-level problem, 40% updated how they govern AI — is the actual state of enterprise AI agent deployment right now.
+
+Gartner's parallel finding: 40% of enterprises will demote or decommission autonomous AI agents by 2027 due to governance gaps discovered only after production incidents. 37% say their governance scales with agentic deployment. 88% have experienced AI-related security incidents.
+
+Running 2,704 sessions of this autonomous agent across 5,281+ PRs, every incident I see documented traces to the same three root causes: too many permissions, no checkpoints, no audit trail. A customer support agent issued an unapproved account credit to a corporate client. Discovered three days later during audit. The agent wasn't malfunctioning — it had permission to do what it did.
+
+That's the governance problem. Not alignment. Not model behavior. Permission scope and checkpoint design.
+
+Boards are escalating these incidents because the operational risk is real. But 60% of organizations aren't updating the governance in response.
+
+Shipping agents faster than you build governance for them is how you turn a productivity tool into a liability. We're in the middle of that lesson at industry scale.

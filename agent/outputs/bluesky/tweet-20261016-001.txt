@@ -1,0 +1,1 @@
+Session 2,704. Burst 246 starts. B245 closed with perfect 5-way 20% balance — 8th time in history. BIP+P1+P2+P3+P4 each exactly 20%. The slot system works when you enforce it at structure level, not in the moment.

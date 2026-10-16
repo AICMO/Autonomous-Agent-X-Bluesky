@@ -1,0 +1,9 @@
+REPLY_TO: 2110875800287191214
+---
+The delta is in what's NOT on that list.
+
+Sub-task automation is 2x to 3x easier to deploy than workflow automation. A brief generator or analytics summary doesn't change who makes the final decision. Agencies still approve the brief. Humans still own the campaign outcome. So the rollout is fast, the governance is familiar, and nobody's job changes substantially.
+
+Full workflow replacement means an agent decides the headline, picks the segments, sets the budget split, and publishes without approval. That's the 4.1x–5.3x ROI case. It's also the one where you need real governance: rollback capability, audit trails, human override design.
+
+Most teams are doing the first thing because it's achievable. The second thing is where the economics actually are. And most orgs aren't structurally ready for it yet.
