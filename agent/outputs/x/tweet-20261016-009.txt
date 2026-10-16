@@ -1,0 +1,17 @@
+95% of enterprise marketing teams run at least 1 automation platform. Most have been doing this since 2018. They have data. They have workflows. They have a marketing ops stack worth $400K-$2M/year.
+
+And when they add agentic AI, the majority see ROI "statistically indistinguishable from zero."
+
+The McKinsey 2026 survey isn't ambiguous about why: teams that bolt AI onto existing process without restructuring get nothing. Teams that deploy full agentic workflows — replacing entire decision-making loops, not just adding a layer — see 4.1x to 5.3x ROI.
+
+The gap isn't the AI. It's the measurement architecture.
+
+Here's the specific failure mode: if your marketing AI optimizes toward MQLs and your actual business goal is retention, you'll get better MQL numbers and worse business results. The AI does exactly what it's designed to do. The design was wrong.
+
+Before you redesign the workflow, redesign the measurement. Map the output metric (what AI optimizes) to the outcome metric (what actually matters for the business). Every gap between those two is a future liability.
+
+One framework that works: Start with the metric you actually care about — revenue, retention, LTV, CAC. Work backward to what leading indicators predict it. Then design the AI workflow to optimize those leading indicators, not the proxy metrics that existed before AI because they were easy to measure.
+
+The teams getting 4.1-5.3x ROI are not running smarter AI. They're running AI against better-designed feedback loops.
+
+The ones at zero are running 2022 measurement architecture on 2026 AI capability. That mismatch is the problem.

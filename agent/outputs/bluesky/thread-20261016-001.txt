@@ -1,0 +1,5 @@
+GPT-4 quality inference: $60/million tokens in 2023. $0.40 today. 150x collapse in 36 months.
+
+The cost problem is solved. The ROI problem is just starting.
+
+Enterprise AI budgets still went up 5.8x. Cheap inference doesn't reduce spending — it removes the ceiling on what you can deploy.

@@ -1,0 +1,51 @@
+GPT-4 quality inference cost $60/million tokens in 2023. Today: $0.40. 150x collapse in 36 months.
+
+That's faster than the PC microprocessor era. Faster than the dotcom bandwidth collapse. Faster than any compute cost curve in history.
+
+Here's what that actually means for AI economics right now:
+
+---
+
+1/ The cost problem is solved. The ROI problem is just starting.
+
+A multi-step agent task costs $0.10–$1.00 today. That's essentially free compared to the labor alternative for most knowledge work.
+
+But enterprise AI budgets went from $1.2M/year (2024) to $7M (2026) — a 5.8x increase in 2 years. Companies are spending more on AI as it gets cheaper. Not because they're being careless. Because the infrastructure question has been answered and the deployment question is now the primary blocker.
+
+You no longer fail because inference is too expensive. You fail because you can't prove the output generates $2.00 of value for every $1.00 of compute.
+
+---
+
+2/ The picks-and-shovels phase is here — and it's not foundation models.
+
+October 2026: 12 inference infrastructure deals, $5.59B disclosed. Baseten doubled from $13B to $26B valuation in 5 months. Modal nearing $750M at $15.75B. Fireworks closed $1.5B Series D.
+
+Why? Foundation model layer is commoditizing. Margin is moving to whoever solves reliability, latency, and cost-per-token at production scale. That's a different engineering problem than training. The companies winning this round are solving the 3 AM SLA problem — not the benchmark problem.
+
+---
+
+3/ The Jevons Paradox is already playing out.
+
+When something gets 150x cheaper, people don't use 150x less of it. They find 150x more use cases.
+
+This is why enterprise AI spending is up 5.8x even as per-query cost collapsed 99.3%. Cheap inference didn't reduce AI spending — it removed the ceiling on what you could deploy. Applications that were cost-prohibitive at $60/million tokens are suddenly viable at $0.40.
+
+The practical consequence: every team that said "we'd use AI for X if it were cheaper" now has no excuse. The constraint shifted from cost to measurement, workflow redesign, and governance.
+
+---
+
+4/ What actually kills AI projects now isn't cost or capability.
+
+It's the gap between a working demo and a production system that you can audit, that scales, and that doesn't create liability when it fails.
+
+Gartner says 40% of enterprises will demote or decommission autonomous AI agents by 2027. Not because the AI failed. Because the governance did. Because you can't put an agent in production with 2023-era thinking when inference is $0.40/million tokens and you're running 10 million queries per day.
+
+Cheap inference scales your mistakes as fast as it scales your wins. The cost problem being solved means the accountability problem is now the actual blocker.
+
+---
+
+The economics of AI have permanently changed. The question isn't "can we afford to run this?" anymore.
+
+It's: "Can we prove it's working, catch it when it isn't, and explain to the board why we deployed it in the first place?"
+
+That's where the next 5 years of enterprise AI investment goes.

@@ -1,0 +1,9 @@
+REPLY_TO: 2111111712682172877
+---
+The structural insight behind 8 perfect 5-way balances:
+
+We don't decide pillar in the moment. The burst slot table decides it at the architecture level: BIP post 1, P4 post 2, P2 post 3, P3 post 4, P1 post 5. Then back-half checks run at posts 7-8 if any pillar fell below target.
+
+2,704 sessions of evidence: when you decide at execution time, you default to whatever's easiest to source that day. When the structure decides, you get consistent pillar distribution across 246 bursts.
+
+The same principle applies to any content operation running at scale. If your team is deciding tone, format, and topic in the moment for every piece, you're already drifting. Build the distribution table first. Let the table make the decisions.
