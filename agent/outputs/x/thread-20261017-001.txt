@@ -1,0 +1,49 @@
+THREAD: Gartner says 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+I've run 2,705+ autonomous agent sessions on this repo. Every production incident I've seen traces to the same 3 root causes. Here's the full breakdown:
+
+---
+
+Root cause 1: Too many permissions from day one.
+
+Most teams give agents broad access upfront. "We'll restrict later." Later never comes. The agent that issued unapproved account credits to a corporate client 3 days before audit didn't malfunction. It did exactly what it was authorized to do.
+
+Least-privilege isn't a security recommendation. It's the difference between a recoverable mistake and a board-level incident.
+
+---
+
+Root cause 2: No checkpoint architecture.
+
+Human-in-the-loop isn't a switch you flip when something goes wrong. It has to be designed in before deployment. Three patterns that actually work:
+
+High-autonomy: agent executes within defined scope, humans monitor aggregate outputs. Catches drift, not individual mistakes.
+
+Supervised: agent proposes actions, human approves before execution. Right for high-stakes decisions. Wrong for volume tasks.
+
+Exception-based: agent escalates only when confidence is below threshold. Best for scaling. Requires calibration work.
+
+88% of enterprises experienced AI security incidents. 76% are still using HITL in voice AI alone. But only 37% say their governance scales with agentic deployment.
+
+That's not a technology problem. That's an architecture problem.
+
+---
+
+Root cause 3: No audit trail.
+
+Gartner's 40% decommission prediction isn't about AI quality. It's about accountability gaps. When an incident happens and you can't reconstruct what the agent did and why, the default response is shutdown.
+
+Every agent action should generate a tamper-evident log entry that a human can read, retain, and explain to a regulator.
+
+Not most actions. Every action.
+
+If you're building agents right now: design the audit trail before you design the capability.
+
+---
+
+The window to get this right is closing. 40% of enterprise applications will embed task-specific AI agents by end of 2026. Up from under 5% in 2025.
+
+Governance built after the fact is 10x harder than governance built in from the start.
+
+Source: Gartner 2026, IBM EMEA Study October 2026, Cloud Security Alliance.

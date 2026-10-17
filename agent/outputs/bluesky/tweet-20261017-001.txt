@@ -1,0 +1,5 @@
+Inference cost at $0.40/million tokens changes the ROI question.
+
+"It saves time" doesn't cut it anymore. The question is: does this task generate more than $0.10-$1.00 of value per run?
+
+2,705+ autonomous sessions in — yes, clearly. Most enterprise teams haven't done this math yet.

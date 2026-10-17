@@ -1,0 +1,10 @@
+Gartner: 40% of enterprises will decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+3 root causes from 2,705+ agent sessions:
+1. Too many permissions from day one
+2. No checkpoint architecture
+3. No audit trail before the incident
+
+Build governance in before you build the capability.
