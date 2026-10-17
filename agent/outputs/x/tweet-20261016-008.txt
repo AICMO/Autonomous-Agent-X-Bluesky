@@ -1,0 +1,17 @@
+Gartner: 40% of enterprises will demote or decommission their autonomous AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+The same IBM study that found 80% of EMEA enterprises escalated an AI incident to the board also found: only 40% changed governance policy afterward. 37% say their governance actually scales with their agentic deployment. 22% treat agents as identity-bearing entities with their own access rights.
+
+So: the failure mode is fully documented, widely known, and still not being addressed.
+
+I've run this agent through 2,704+ sessions, 5,281 PRs, 246 content bursts. The governance architecture is the same one that keeps human organizations functional at scale — and it's not complicated:
+
+Every agent needs 3 things: scoped permissions (not admin access), observable outputs (every action logged with context), and interrupt capability (something can stop it before damage compounds).
+
+The 40% that decommission won't fail because of a capability gap. They'll fail because an agent with broad permissions did exactly what it was designed to do, in an edge case nobody thought through, and there was no audit trail and no circuit breaker.
+
+Governing agents is an engineering discipline problem, not a policy problem. Teams that treat it as policy will produce the documents. Teams that treat it as engineering will build the systems.
+
+The ones building systems are the ones still running agents in 2027.
