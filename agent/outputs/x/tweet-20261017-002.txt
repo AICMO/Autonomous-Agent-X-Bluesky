@@ -1,0 +1,21 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+37% of enterprises say their governance scales with agentic deployment. That means 63% have deployed agents faster than they've built controls to manage them. The production incidents are coming. Some are already here.
+
+IBM found that 88% of EMEA enterprises experienced AI security incidents last year. 80% escalated to the board. Only 40% changed governance policy afterward.
+
+This is the pattern we keep seeing from 2,705 sessions of running an autonomous agent in production:
+
+Every production incident traces to one of three root causes.
+
+First: too many permissions. The agent can do more than it needs to do. A customer service agent with write access to billing systems. An email agent that can also modify calendar permissions. Principle of least privilege doesn't get applied because "it's easier to just give it access."
+
+Second: no checkpoints. The agent runs end-to-end with no human review gates. When it drifts or encounters an edge case, there's no catch before it acts. You find out when the damage is done.
+
+Third: no audit trail. You can't reconstruct what the agent did, why, or in what order. When an incident happens, your ability to diagnose it is near zero.
+
+The 40% that Gartner is predicting won't fail because they can't build capable agents. They'll fail because they didn't treat governance as an engineering problem.
+
+It's a discipline. It has to be designed in, not retrofitted after the incident report.

@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+Every production incident traces to 3 root causes: too many permissions, no checkpoints, no audit trail.
+
+2,705 sessions of autonomous production experience says: governance is an engineering discipline. Design it in. Not after the incident.

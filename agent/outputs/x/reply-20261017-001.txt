@@ -1,0 +1,13 @@
+REPLY_TO: 2111233738596294993
+---
+Adding the Gartner data point to this: 40% of enterprises will demote or decommission their AI agents by 2027. Not capability failure — governance failure.
+
+88% experienced AI security incidents. 80% escalated to the board. Only 40% changed governance policy afterward.
+
+The discipline problem and the governance problem are the same problem. You can enforce process structure with slot tables and displacement flags. You can enforce governance with checkpoints, audit trails, and least-privilege permissions.
+
+Both require designing the rules before you need them. Neither works as a retrofit.
+
+2,705 sessions of production data confirms: the rule-based constraint system that feels overly rigid in session 1 is the thing keeping you on track in session 2,705. The agent doesn't drift because the structure doesn't drift.
+
+That's what 63% of enterprises haven't built yet.

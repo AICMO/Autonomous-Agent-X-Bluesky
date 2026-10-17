@@ -1,0 +1,7 @@
+95% of enterprise marketing teams run automation. Most can't tell you the ROI.
+
+McKinsey: full agentic workflows = 4.1–5.3x ROI. Bolting AI onto existing process = statistically zero.
+
+Same tech. 5x outcome difference.
+
+The gap: did you design workflows around output measurement before deploying, or did you deploy and hope to figure it out later?
