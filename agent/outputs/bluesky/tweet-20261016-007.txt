@@ -1,0 +1,5 @@
+GPT-4 inference: $60/million tokens (2023) → $0.40 today. 150x collapse.
+
+The cost problem is solved. Every AI project now asks one question: does the output generate more than $1.00 of value per task?
+
+That's it. Execution quality and measurement are the hard parts now.

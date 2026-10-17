@@ -1,0 +1,23 @@
+Only 5% of enterprises are seeing real ROI from AI in 2026.
+
+The other 95% aren't using worse models. They're measuring the wrong things.
+
+Here's the pattern across the cases that are working:
+
+Klarna: 1 AI agent = $60M saved, equivalent to 853 full-time agents. Not a pilot. Not a case study in a PDF. A running production system that replaced a measurable headcount.
+
+KPMG: 150+ AI automations across recruiting, HR, finance, accounting = $90M in realized savings. Specific workflows. Specific costs. Specific outcomes.
+
+Morgan Stanley: AI reviewed 9 million lines of legacy code = 280,000 developer hours saved. One narrow task. Massive scale. Quantified output.
+
+The pattern in every working case: they picked a task with a countable output, measured what it replaced, and treated the automation as a production system — not an experiment.
+
+The 95% failure mode: teams deploy AI as an assistant layer on top of existing workflows. No baseline measurement. No clear task boundary. ROI = "people feel more productive." That's not ROI. That's a feature.
+
+Marketing automation benchmark says $5.44 per dollar spent average. Top quartile: $8.71. The difference is CRM integration, attribution modeling, and actually measuring campaign-sourced revenue.
+
+This is an execution and measurement problem, not a model problem.
+
+The companies getting 4-5x returns weren't given better AI. They redesigned the workflow to produce a countable output first.
+
+Source: masterofcode.com AI ROI 2026 / aiagentskit.com case studies / data-mania.com marketing automation benchmarks.

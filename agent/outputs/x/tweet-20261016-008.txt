@@ -1,0 +1,21 @@
+GPT-4 quality inference cost $60 per million output tokens in 2023.
+
+$0.40 today. 150x collapse in three years. Faster than PC microprocessors. Faster than dotcom bandwidth.
+
+Here's what that actually means for businesses building with AI right now.
+
+The cost question — "can we afford to run this?" — is settled. Completely. A multi-step agent task costs $0.10–$1.00 end to end. The only live question is whether the task output generates more than a dollar of value.
+
+That shift changes everything about how you evaluate AI projects.
+
+Old model: feasibility study, infrastructure cost analysis, "is the ROI positive if we run 100 calls/day?"
+
+New model: scope the task, measure the output value, ship it. The compute is a rounding error.
+
+Enterprise AI budgets are already moving this direction. $1.2M/year in 2024. $7M in 2026. 5.8x in two years. That growth isn't companies spending on infrastructure — it's companies deciding the ROI question is obvious enough to act on.
+
+The teams still doing cost-per-query feasibility studies for automation projects are optimizing for the wrong constraint. The inference layer is solved.
+
+The question is execution quality, measurement precision, and workflow integration. Those still take real work.
+
+Source: Presenc.ai / Value Add VC / Zylos AI Inference Economics 2026.
