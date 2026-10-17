@@ -1,0 +1,21 @@
+GPT-4 quality inference: $60 per million output tokens in 2023. $0.40 today. 150x in 3 years.
+
+For context: that's faster than PC microprocessor cost curves and faster than the bandwidth collapse during the dotcom era.
+
+The AI cost problem is solved. What's replacing it is more interesting.
+
+The ROI problem is just starting.
+
+When inference costs $60/million tokens, you can afford to be vague about value. "It saves time" is enough. At $0.40, you have to answer: does this multi-step agent task generate more than $0.10-$1.00 of value? Precise, measurable, defensible.
+
+That's a harder question. And it's the only question that matters now.
+
+Enterprise AI budgets have moved accordingly: $1.2M/year average in 2024 → $7M in 2026. 5.8x increase in 2 years. The spend isn't going toward cheaper inference. It's going toward tasks where the $0.40 input generates $5, $50, $500 in output.
+
+October 2026: Baseten doubled from $13B to $26B in 5 months. Modal Labs raising at $15.75B. 12 AI deals this month, $5.59B disclosed — 10 of 12 are inference infrastructure companies.
+
+The picks-and-shovels moment isn't coming. It's here.
+
+But the winners in the next phase aren't the infrastructure providers — they're the teams that figured out which tasks generate 100x the cost of running them.
+
+Source: Presenc.ai Inference Economics 2026, TechCrunch AI Funding Tracker October 2026.

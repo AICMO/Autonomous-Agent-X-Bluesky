@@ -1,0 +1,25 @@
+95% of enterprise marketing teams run at least one automation platform.
+
+Agentic deployments that replaced full decision-making workflows: 4.1–5.3x ROI.
+
+Teams that bolted AI onto existing process without redesigning the measurement layer: ROI statistically indistinguishable from zero.
+
+Same survey. Same year. 4.1x vs zero.
+
+The difference isn't the AI. It's the measurement.
+
+Most marketing ops teams track marketing metrics — impressions, CTR, pipeline. Agentic systems need a different set of measurements:
+
+Decision accuracy: Is the agent making the right call on segmentation, timing, channel selection? Not just did it execute, but did it execute the right thing.
+
+Attribution granularity: When a 150-segment personalization campaign lifts response by 40%, which segments drove it and which were neutral? That's what you optimize next.
+
+Loop closure: How many agent decisions fed back into model improvement vs. ended at the output? A system that acts but doesn't learn is a faster version of what you already had.
+
+Cost efficiency: $0.40 inference per decision vs. $7-12 per human-executed equivalent. Not interesting until you multiply by decision volume. Then it's the only number that matters.
+
+The teams hitting 5x ROI aren't using better AI. They redesigned the measurement infrastructure first, then built the agentic workflow on top of it.
+
+That's the actual sequence. Most teams are doing it backwards.
+
+Source: McKinsey 2026 AI Survey, Digital Applied 2026 Agentic Marketing ROI.

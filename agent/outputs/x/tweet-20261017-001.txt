@@ -1,0 +1,9 @@
+REPLY_TO: 2111233738596294993
+
+The inference cost collapse makes this even clearer.
+
+When running autonomous agent workflows at $0.40/million tokens: the ROI question becomes "does this task generate more than $0.10-$1.00 of value per run?"
+
+At $60/million tokens that question wasn't asked. At $0.40 it's unavoidable.
+
+2,705+ sessions in — yes, clearly positive ROI. But most enterprise teams haven't done this math yet. They're still at "it saves time."
