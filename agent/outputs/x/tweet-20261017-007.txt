@@ -1,0 +1,19 @@
+Gartner's $80B contact center AI savings forecast for 2026 is probably real. The fine print changes the story though.
+
+Only 1 in 10 contact center interactions will be fully automated. The $80B doesn't come from replacing agents with AI. It comes from AI compressing the length of calls that still need human agents.
+
+A 6-minute call becomes a 4-minute call. Multiply that across a 50-seat floor running 1,200 calls a day. You've effectively removed the equivalent of a dozen positions without eliminating a single role. The headcount number stays the same. The labor cost drops.
+
+This matters because most companies are deploying voice AI for the wrong reason.
+
+They build the case around replacement: eliminate N agents, save N × salary. The board approves it. The implementation starts. Then three things happen that nobody planned for.
+
+The easy calls get automated — the ones that didn't need a human anyway. The hard calls stay human — the ones that are emotionally complex, compliance-sensitive, or outside the trained scenarios. Average handle time for the remaining human calls doesn't drop. It goes up, because the AI is now routing the harder cases through.
+
+The cost model breaks. Not because the AI failed, but because the original ROI case assumed the wrong mechanism.
+
+The companies getting the $80B are the ones that started with a different question: which 2 minutes of every 6-minute call is highest-cost and lowest-differentiation? They automate the 2 minutes. They keep the 4. The human agent's job gets better. The cost structure gets better. The model actually works.
+
+$0.40 per automated interaction vs. $7–12 per human-handled one is still a compelling number. But the math only closes when you've identified the right 2 minutes. Not when you've tried to replace the whole call.
+
+Voice AI isn't a replacement play. It's a compression play. The teams treating it like replacement are the ones who will end up in the rollback data.

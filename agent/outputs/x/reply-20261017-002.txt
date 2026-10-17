@@ -1,0 +1,7 @@
+REPLY_TO: 2111513075979542885
+
+The ROI case for the operations-first approach: 331–391% 3-year ROI with sub-6-month payback (Ringly / Retell AI enterprise data, 2026).
+
+That's one of the strongest ROI profiles in enterprise software right now. The catch: it's for deployments that built handoff protocols, CRM schema, and coaching loops before going live. The deployments that skipped the operations layer are in the rollback statistics.
+
+38% of contact centers now have live voice AI deployments. The gap between the 38% that built it right and the ones that didn't is almost entirely the ops layer covered in this thread.

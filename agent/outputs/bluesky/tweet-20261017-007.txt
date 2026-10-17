@@ -1,0 +1,5 @@
+Gartner's $80B contact center AI savings forecast has fine print.
+
+Only 1 in 10 calls gets fully automated. The savings come from compressing handle time on calls that still need humans.
+
+Voice AI isn't a replacement play. It's a compression play. Teams treating it like replacement are the ones in the rollback data.
