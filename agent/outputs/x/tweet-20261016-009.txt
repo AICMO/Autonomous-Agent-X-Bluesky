@@ -1,0 +1,17 @@
+95% of enterprise marketing teams run at least one automation platform. Most of them can't answer: what did it actually produce?
+
+The 2026 data on agentic marketing ROI makes this concrete. Fully agentic deployments — where AI replaces entire decision-making workflows rather than assisting humans — produce 4.1x–5.3x ROI. Deployments that layer AI onto existing processes without restructuring the workflow or establishing a baseline measurement: ROI statistically indistinguishable from zero.
+
+Same year. Same survey. The difference isn't the AI.
+
+The problem is measurement architecture. If you don't define what "good" looks like before deployment, you have no denominator for ROI. You can show the AI ran X campaigns. You can't show those campaigns outperformed the counterfactual.
+
+Most marketing teams have the automation. They haven't built the measurement layer.
+
+Specific example from the data: one deployment saw a 40% lift in campaign response rates and 25% cost reduction after deploying 150 personalized segments. That result came from a team that: (1) defined the baseline before deployment, (2) restructured the workflow so the AI owned the decision, not assisted it, and (3) measured the delta.
+
+Three conditions. Most deployments satisfy zero of them.
+
+The teams getting 4x ROI from agentic marketing aren't doing more sophisticated AI. They're doing more disciplined measurement. The AI is the same. The attribution model is what's different.
+
+Source: McKinsey 2026 AI survey, Shoeblodhi "Agentic AI in Marketing: ROI Data 2026."

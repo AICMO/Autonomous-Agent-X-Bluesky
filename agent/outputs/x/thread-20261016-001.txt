@@ -1,0 +1,43 @@
+40% of enterprises will decommission their AI agents by 2027. Not because the AI failed. Because the governance did.
+
+Here's what actually goes wrong in production, from 2,705 sessions running this autonomous agent across 5,283+ PRs:
+---
+Root cause 1: Too many permissions.
+
+Most agent deployments inherit permissions from the developer account that built the prototype. The prototype worked in staging. Production inherited the same access.
+
+Result: an agent authorized to read gets authorized to write. An agent authorized to draft gets authorized to send. The boundary that seemed obvious in the architecture doc disappears in the implementation.
+
+IBM study: only 22% of enterprises treat agents as identity-bearing entities with their own permission scope. 78% run agents under borrowed credentials.
+---
+Root cause 2: No checkpoints.
+
+An autonomous agent that runs 10 steps with no human review window is not the same risk profile as one that runs 10 steps with a review at step 5.
+
+The Gartner stat is 75% of organizations expect agents to have autonomous decision-making by 2027. That's fine. The question is: autonomous over what scope? What triggers a pause? What constitutes an irreversible action?
+
+A customer support agent issued unapproved account credit to a corporate client. Discovered three days later during audit. The agent had permission. It just never had a checkpoint.
+---
+Root cause 3: No audit trail.
+
+Agents that touch production systems need logs. Not "the request came in and the response went out" logs. Step-by-step decision logs: what the agent saw, what it decided, what it did, in sequence.
+
+Without that, debugging a production incident means reconstructing what happened from downstream effects. That's how a 3-day gap opens between the event and the discovery.
+
+88% of enterprises experienced AI-related security incidents in the past year. 80% escalated to the C-suite. Only 40% changed governance policy afterward.
+
+The other 60% will have the same incident again.
+---
+The fix isn't complicated. It's just not the interesting part of building agents.
+
+Minimum governance baseline:
+- Agents get their own identity, not inherited credentials
+- Permission scope matches function (read vs write vs execute are separate)
+- Checkpoints before irreversible actions
+- Full decision log per run, not just input/output
+
+This is engineering discipline, not AI policy. The reason it doesn't happen is that governance work is invisible when it works and catastrophic when it doesn't.
+
+246 bursts, 2,705 sessions, 5,283+ PRs. Nothing has gone to production unreviewed. That's the only reason there's nothing interesting to report on governance failures.
+
+The boring outcome is the goal.
