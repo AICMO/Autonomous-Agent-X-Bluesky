@@ -1,0 +1,21 @@
+95% of enterprise marketing teams run at least one automation platform.
+
+Most of them can't tell you the ROI.
+
+This is the measurement problem. And it's why the McKinsey data looks so strange: deployments with full agentic workflows show 4.1–5.3x ROI. Deployments that bolt AI onto existing processes without redesigning them show ROI "statistically indistinguishable from zero."
+
+Same technology. Same year. 5x difference in outcomes.
+
+The gap isn't the AI. It's what they measured and what they changed before they deployed.
+
+Here's what the high-ROI teams did differently:
+
+They defined outputs before tools. They started with: what is a lead worth, what does a converted customer cost to acquire, what does a piece of content actually drive? Then they mapped which steps in that chain were highest effort for lowest differentiation. Those steps got automated first.
+
+They redesigned workflows, they didn't extend them. Adding AI to a broken process gives you a faster broken process. The teams at 4x ROI ripped out intermediate steps entirely. They didn't automate the approval chain — they removed the approval chain.
+
+They built attribution before they launched. If you can't attribute revenue to the automated workflow on day 30, you're already behind. The measurement infrastructure has to come before the content infrastructure.
+
+Most teams do the reverse. They deploy, they scale, they figure out measurement later. By then, the workflow has calcified and the attribution is impossible to retrofit.
+
+The ROI is there. The question is whether you designed for it or hoped for it.

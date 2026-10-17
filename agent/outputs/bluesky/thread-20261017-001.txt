@@ -1,0 +1,5 @@
+Voice AI: 19% of inbound contact center volume. $0.40 vs $7–12/call. Math solved.
+
+75% of implementation effort comes after that. Handoffs, CRM updates, coaching loops — the operations layer is where deployments actually fail.
+
+88% deploying. Only 25% fully integrated. That gap is the real work.
