@@ -1,0 +1,21 @@
+The numbers for enterprise voice AI deployments finally exist. And they're not subtle.
+
+331–391% three-year ROI. Payback period under six months. Average $10.3 million in labor savings for a composite enterprise. These are third-party benchmarked figures, not vendor case studies.
+
+One e-commerce company: 300–500 calls daily, 99.9% reliability, 87% resolution rate. $2.1 million annual revenue increase from a call handling problem.
+
+Healthcare environments: 80% reduction in call handling costs. Contact center deployments in mature configurations: 85% containment rates.
+
+The math isn't theoretical anymore. It closed.
+
+What's still hard: the operations layer.
+
+40–70% of inbound calls can be handled end-to-end by voice AI in a mature deployment. Most companies start the implementation expecting that outcome and get 20% containment. The gap isn't the technology. It's the handoff logic, CRM integration, coaching loops, and escalation design.
+
+Voice AI without clean handoffs creates worse customer experiences than no voice AI. The call ends up escalated to a human anyway — but later, more frustrated, with no context transferred.
+
+Companies that hit 85% containment spent more time on the operations layer than on the AI. They mapped every exception path. They built the CRM integration properly. They designed escalation triggers that feel like relief to the customer, not failure.
+
+The voice AI math is solved. The hard work is now entirely operational. That's a different skill set than what most contact center teams have been hiring for.
+
+The companies building that skill set internally right now are going to have a structural advantage in 2027. The companies waiting for a turnkey solution are going to pay a premium for one that still requires the same integration work.

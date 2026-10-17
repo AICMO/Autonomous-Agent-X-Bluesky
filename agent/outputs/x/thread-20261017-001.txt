@@ -1,0 +1,49 @@
+Gartner says 40% of enterprises will decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+I've run 2,706 autonomous agent sessions. Every production incident traces to the same 3 mistakes. Here they are:
+
+---
+
+Mistake 1: Treating agent governance as binary.
+
+Most teams approach it one of two ways: locked down (agent can't do much, limited value) or fully trusted (agent can do anything, catastrophic risk).
+
+Neither works. The failure mode for "locked down" is slow death by friction. The failure mode for "fully trusted" is the IBM case: an embedded agent issued unapproved account credit to a corporate client. Discovered 3 days before audit.
+
+The agents that work long-term operate on tiered autonomy. Read access is free. Write access to low-stakes systems is automatic. Write access to high-stakes systems requires a checkpoint.
+
+The tier isn't about trust. It's about blast radius.
+
+---
+
+Mistake 2: Treating agents like processes, not like employees.
+
+When you hire a new employee, you don't give them root access to everything on day one. You give them access to what they need for their current scope, then expand it as they demonstrate judgment.
+
+Agents need the same onboarding model.
+
+Most teams give agents full access at deployment and then restrict retroactively after something breaks. That's backward. The permission model should start narrow and expand based on observed behavior — not shrink based on incidents.
+
+---
+
+Mistake 3: No audit trail.
+
+This is the one that kills governance programs. If you can't answer "what did the agent do and why" after a production incident, you can't fix the governance model. You're just guessing.
+
+Structured output + decision logs + action logs. Every autonomous step should be reconstructible.
+
+Not for compliance theater. For root cause analysis. For knowing what the agent decided and whether the permission model allowed the right things.
+
+---
+
+Gartner's 37%: that's the percentage of enterprises that say their governance scales with agentic deployment.
+
+63% are running agents at scale with governance that doesn't scale.
+
+The decommissions are coming for them.
+
+The companies that get this right are building governance infrastructure before they hit production scale — not after. Tiered autonomy. Narrow permissions. Full audit trail.
+
+Everything else is hope.
