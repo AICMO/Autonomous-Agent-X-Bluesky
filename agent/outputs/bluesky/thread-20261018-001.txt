@@ -1,0 +1,5 @@
+Voice AI: 19% of inbound calls, $0.40 vs $7–12 per call. Math is solved.
+
+75% of implementation effort goes to handoffs, CRM integration, and coaching loops — the operations layer most teams underestimate.
+
+That's what separates production from pilot.
