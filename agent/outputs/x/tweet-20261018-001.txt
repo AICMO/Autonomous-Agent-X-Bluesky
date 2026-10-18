@@ -1,0 +1,21 @@
+Gartner said in 2022 that voice AI would cut $80B in contact center labor costs globally by 2026.
+
+That forecast is landing. But not the way most people expected.
+
+The model assumed full automation: AI replaces human agents at scale, headcount drops, labor cost falls. That's the headline version.
+
+The actual story is messier and more interesting.
+
+CX AI deployments went from 39% to 66% of organizations in a single year. But in most of those deployments, the humans are still there. The AI isn't replacing them — it's removing the parts of the job that shouldn't require a human in the first place.
+
+Average handle time is down. After-call work is being eliminated. Coaching loops that used to take a supervisor an hour per agent per week now run automatically. Call abandonment dropped from 25% to 1%.
+
+The savings aren't coming from a smaller headcount. They're coming from the same headcount doing 30–40% more with the same hours.
+
+The productivity-augmentation path is delivering the forecast faster than the full-replacement path would have.
+
+Here's what that means for anyone planning a contact center AI deployment in 2026:
+
+The question isn't "how many agents can I eliminate?" It's "what percentage of my handle time is spent on tasks that don't require a human decision?"
+
+Start there. The $80B was always in that gap.

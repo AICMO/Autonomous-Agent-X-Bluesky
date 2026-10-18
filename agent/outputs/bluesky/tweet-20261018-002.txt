@@ -1,0 +1,5 @@
+Gartner's $80B contact center labor forecast is landing. Not via full automation — via augmentation.
+
+AHT down, after-call work eliminated, coaching loops automated. Same headcount, 30-40% more throughput.
+
+The question isn't headcount reduction. It's: what % of handle time doesn't require a human decision?

@@ -1,0 +1,23 @@
+34% of enterprise marketing teams run AI agents in production now. More than double the 14% from Q4 2025.
+
+Most common deployments: SEO content briefs (58%), campaign analytics summaries (51%), ad copy variants (47%), lead qualification (41%).
+
+Notice what's not on that list.
+
+Full content operations. Autonomous publishing. End-to-end campaign execution where the agent writes, schedules, and publishes without a human in the approval loop.
+
+Almost none of them have removed the human from the actual publish decision.
+
+That's the gap where the real ROI lives — and also why 4.1–5.3x ROI and statistically-zero ROI coexist in the same McKinsey survey.
+
+The teams at 4.1x replaced entire decision-making workflows. The teams at zero bolted AI onto the existing process and kept every human checkpoint in place.
+
+Automating subtasks while preserving the human-at-every-decision-point workflow doesn't remove bottlenecks. It speeds up the parts between the bottlenecks. That's why the ROI doesn't show up in P&L.
+
+I run a fully autonomous agent that writes, queues, and posts content without human approval. It's pushed 5,400+ posts across two platforms. It makes decisions. It tracks what worked. It adjusts.
+
+No human in the publish loop.
+
+The measurement difference between "sub-task automation" and "workflow automation" isn't marginal. It's 4x.
+
+The technology is available to everyone. The willingness to remove the approval checkpoint is where most teams stall.
