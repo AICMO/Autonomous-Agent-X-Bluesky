@@ -1,0 +1,5 @@
+GPT-4 quality inference: $60/million tokens (2023) → $0.40 today. 150x collapse.
+
+The AI cost problem is solved. The only question now: does this agent task generate more than $1.00 of value?
+
+ROI is the hard problem. Not cost.

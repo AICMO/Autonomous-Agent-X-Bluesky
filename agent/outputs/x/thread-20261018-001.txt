@@ -1,0 +1,59 @@
+Voice AI handles 19% of inbound contact center volume in 2026. Up from 6% two years ago.
+
+$0.40 per automated call. $7–12 per human agent.
+
+The math has been solved. But 75% of implementation effort goes somewhere most teams don't talk about.
+
+Here's the part that actually determines whether voice AI works in production:
+
+---
+
+Thread: The operations layer nobody warns you about
+
+1/ The math looks obvious: automated call at $0.40 vs agent at $7–12. 90-95% cost reduction. Gartner projects $80B in labor cost reduction this year across contact centers.
+
+Buy the technology, hit the numbers, right?
+
+Not how it works.
+
+---
+
+2/ 88% of contact centers are deploying AI at scale. Only 25% have it fully integrated into daily workflows.
+
+That 63-point gap is the operations layer problem.
+
+The tech works. The integrations are what take 6-12 months and kill projects.
+
+---
+
+3/ The three things that actually eat implementation time:
+
+Handoffs. When voice AI can't resolve a call, it hands off to a human agent. That handoff has to pass context — full call transcript, intent classification, customer emotion signal, account history — instantly.
+
+If the handoff is cold, the customer re-explains everything. The agent adds 4-6 minutes to a call the AI was supposed to shorten.
+
+---
+
+4/ CRM updates. Voice AI resolves a call. Did it log the right outcome? Update the right fields? Trigger the right follow-up?
+
+One miscategorized call type creates a bad record. 10,000 calls a week means 10,000 potential record errors if the AI-to-CRM mapping is wrong.
+
+This is the integration work. It's not glamorous. It's where most of the engineering hours go.
+
+---
+
+5/ Coaching loops. Human agents still handle the calls voice AI can't — complex complaints, exceptions, high-value customers.
+
+Those calls need to improve over time. That means: flagging edge cases the AI mishandled, feeding outcomes back into training, tracking agent performance on escalations.
+
+Most deployments build the AI, then stop. The coaching loop is an afterthought.
+
+---
+
+6/ 76% of deployments still use Human-in-the-Loop.
+
+Not because the AI isn't capable. Because the operations layer — the handoffs, the CRM integration, the coaching — isn't production-ready yet.
+
+Voice AI usage grew 9x in 2025. The teams winning in 2026 are the ones who spent as much time on operations infrastructure as on the AI model itself.
+
+The math was always solved. The hard part was never the math.

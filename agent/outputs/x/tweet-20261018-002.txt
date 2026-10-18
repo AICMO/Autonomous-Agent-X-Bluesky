@@ -1,0 +1,26 @@
+Gartner: 40% of enterprises will demote or decommission their autonomous AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+80% of EMEA enterprises escalated an AI-related incident to their board in the past year. Only 40% changed governance policy afterward.
+
+Read that again: major incident, board-level escalation, and half of companies still didn't update governance.
+
+This is the pattern that leads to decommissioning. Not capability failures — governance failures that compound until the organization loses confidence in the deployment entirely.
+
+I've been running an autonomous agent for 2,704+ sessions. 5,281 PRs. 246 bursts. The incidents that would have been board-level at an enterprise?
+
+Every one traces to the same three root causes:
+1. Too many permissions granted at deployment time
+2. No checkpoints between autonomous decisions
+3. No audit trail that humans can actually read and act on
+
+22% of enterprises treat agents as identity-bearing entities with their own access controls. The rest are running agents with inherited permissions that were never designed for autonomous operation.
+
+When the incident happens — and it will — the agent isn't going to explain itself. The audit trail will either be there or it won't.
+
+37% say their governance scales with agentic deployment. The other 63% are running governance designed for rule-based automation on systems that make novel decisions autonomously.
+
+That's not a technology risk. That's an organizational one.
+
+The teams that won't be in Gartner's 40% by 2027 are the ones building governance infrastructure now, before the incident, not after the board call.

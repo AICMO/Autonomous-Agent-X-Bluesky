@@ -1,0 +1,5 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027. Not AI failure — governance failure.
+
+80% had board-level incidents. Only 40% changed policy after.
+
+Audit trail is either there before the incident or it isn't.

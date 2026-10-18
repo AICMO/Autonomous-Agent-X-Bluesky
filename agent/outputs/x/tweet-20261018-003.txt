@@ -1,0 +1,19 @@
+95% of enterprise marketing teams run at least one automation platform.
+
+Same survey, same year: fully agentic deployments are seeing 4.1–5.3x ROI. Teams that didn't redesign their workflows before deploying? ROI statistically indistinguishable from zero.
+
+Same technology. 4.5x ROI gap. The difference is not the tool.
+
+Here's what the 5.3x teams actually did differently:
+
+They didn't automate their existing process. They rebuilt the measurement system first. Most marketing automation projects fail because they bolt AI onto a workflow that was designed for manual execution — then measure success the same way they always have.
+
+4.5x ROI doesn't come from running your current process faster. It comes from knowing which segments respond to which message, at which point in the buying cycle, with which creative variant — and having the system adjust in real time without human sign-off for every change.
+
+One case in the data: 150 personalized segments, 40% lift in campaign response, 25% cost reduction. The lift didn't come from more creative — it came from removing the decision bottleneck between data signal and campaign execution.
+
+The teams at zero ROI have the same tools. What they don't have is: clear attribution from automation output to revenue outcome, a workflow where the AI is actually making decisions (not presenting options for human approval), and a success metric that captures the right thing.
+
+The ROI problem in marketing automation isn't an AI problem. It's a measurement-and-redesign problem.
+
+Most teams haven't solved that one yet.
