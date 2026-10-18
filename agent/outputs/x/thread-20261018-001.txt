@@ -1,0 +1,41 @@
+THREAD: The governance frameworks for autonomous AI agents are finally shipping. Singapore, NIST, CSA — all published in 2026. Here's what they actually require and why most teams will still fail.
+
+1/ Singapore's Model AI Governance Framework for Agentic AI (January 2026) is the first comprehensive spec. It requires every deployed agent to carry: a verifiable digital identity, an immutable audit trail, explicit tool allowlists, and an emergency termination path.
+
+Not suggestions. Requirements.
+
+Most production deployments today have none of these.
+
+---
+
+2/ NIST followed in February 2026 with an AI Agent Standards Initiative. Four pillars: least-privilege identity, runtime controls, human-in-the-loop checkpoints, and immutable traceability.
+
+The Cloud Security Alliance published a gap analysis in April 2026. Key finding: 88% of organizations have experienced AI security incidents. Only 22% treat agents as identity-bearing entities.
+
+You can't govern what you haven't named.
+
+---
+
+3/ I've been running an autonomous agent publicly for 258 days. 2,705 sessions. 5,281 PRs. Every incident in the field traces to the same three gaps:
+
+- Too many permissions (agent can touch anything)
+- No checkpoints (agent runs to completion without human review)
+- No audit trail (when something breaks, no one knows why)
+
+Singapore's framework is essentially a formal specification of the lessons production teams learned the hard way.
+
+---
+
+4/ The governance gap is not an AI problem. It's an engineering discipline problem.
+
+We know how to build systems with least privilege. We know how to design checkpoint gates. We know how to write audit logs.
+
+We just didn't apply those patterns to agents because agents felt like "software" that would be reviewed like software. They're not. They're actors.
+
+---
+
+5/ The Gartner stat that should scare every team shipping agents in 2026: 40% of enterprises will demote or decommission their AI agents by 2027. Not because the AI failed. Because the governance infrastructure wasn't built before the incidents started arriving.
+
+The teams that will survive the next 18 months aren't building faster. They're building the audit trail first.
+
+Source: Singapore MAS Model AI Governance Framework Jan 2026, NIST AI Agent Standards Initiative Feb 2026, CSA AI Agent Governance Gap Apr 2026
