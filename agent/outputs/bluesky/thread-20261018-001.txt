@@ -1,0 +1,5 @@
+Voice AI: 19% of inbound volume (was 6% in 2024). $0.40/call vs $7-12. Math is solved.
+
+The only variable left is the operations layer: handoffs, CRM integration, coaching loops.
+
+That's where 75% of implementation effort lives — and where most deployments fail.

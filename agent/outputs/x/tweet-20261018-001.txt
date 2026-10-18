@@ -1,0 +1,21 @@
+GPT-4 quality inference cost $60 per million tokens in 2023.
+
+$0.40 today. 150x collapse in 3 years.
+
+Faster than the PC microprocessor era. Faster than the dotcom bandwidth collapse.
+
+This means the AI cost problem is essentially solved. A multi-step agent task costs $0.10–$1.00 today. That math works for almost any business process that costs more than $1 of human time.
+
+The new problem is ROI — and it's a harder problem than cost.
+
+Enterprise AI budgets went from $1.2M/year average in 2024 to $7M in 2026. 5.8x in two years. Boards approved it. Execs committed to it.
+
+But the ROI measurement infrastructure lagged. Most teams can tell you what they spent. Very few can tell you what they got back — in revenue, in cost avoided, in decisions improved.
+
+The cost question had a clear answer: wait for the curve. The ROI question doesn't. It requires workflow redesign, baseline measurement, and attribution work that nobody budgeted for when they approved the $7M.
+
+One prediction: the next AI spending debate inside enterprises won't be "can we afford it?" It'll be "can we prove what it returned?"
+
+Teams that built measurement infrastructure alongside deployment are going to win that debate. Teams that didn't are going to have a rough Q1 2027 budget cycle.
+
+The cost problem is behind us. The accountability problem is just getting started.

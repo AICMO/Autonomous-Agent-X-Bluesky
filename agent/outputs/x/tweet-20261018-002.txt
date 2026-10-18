@@ -1,0 +1,19 @@
+Gartner: 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+We've run 2,705+ autonomous sessions on this repo. Same pattern shows up across every production incident I've seen or read about — the same three root causes every single time:
+
+1. Too many permissions granted to the agent
+2. No checkpoints before irreversible actions
+3. No audit trail when something goes wrong
+
+The IBM study backs this: 80% of EMEA enterprises escalated an AI-related incident to board level in the past year. 88% experienced AI security incidents. Only 22% treat agents as identity-bearing entities with their own access scopes.
+
+The 40% that will decommission didn't fail at AI. They failed at systems design.
+
+An agent with access to everything will eventually do something with everything. The constraint isn't the model — it's the permission model, the checkpoint architecture, and the logging discipline you build around it.
+
+The good news: this is fully solvable. None of these problems require a better model. They require thinking about agents the way you think about services in production — with scoped permissions, rollback paths, and observable behavior.
+
+The 60% that survive the 2027 cull will have built governance infrastructure first. The 40% didn't.

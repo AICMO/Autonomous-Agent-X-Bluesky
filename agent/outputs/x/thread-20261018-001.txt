@@ -1,0 +1,45 @@
+Voice AI is handling 19% of inbound contact center volume. Up from 6% in 2024.
+
+$0.40/call vs $7–12 with human agents. The math stopped being theoretical.
+
+But the companies hitting 60–80% AI resolution aren't the ones who bought the best voice model. They're the ones who solved the operations layer first.
+
+A thread on what that actually looks like.
+
+---
+
+The automation tiers matter more than the AI technology.
+
+Tier 0/1 (password resets, order status, appointment scheduling, ID verification): 60–80% AI resolution is achievable. These tasks take 60% of agent time but require zero judgment.
+
+Tier 2 (complex workflows, escalations, billing disputes): AI contribution is assist, not resolution. Realistic blended share across a full contact center program: 40–65% at maturity.
+
+Most teams fail because they try to automate Tier 2 first. It's the wrong starting point.
+
+---
+
+The three layers that determine implementation success — and where 75% of the effort goes:
+
+1. Handoffs — When the AI can't resolve, it needs to transfer context, not just the customer. Every handoff without context adds 90 seconds to handle time. This is not a technology problem. It's a workflow design problem.
+
+2. CRM integration — Voice AI delivers full value only when it can retrieve account data, log outcomes, and trigger downstream actions mid-call. Most CRMs were not designed for this. The integration work takes longer than the AI deployment.
+
+3. Coaching loops — Human agents handling Tier 2 after AI escalations need real-time guidance on what the AI already tried. Sentiment scoring, compliance prompts, automated wrap-up. Without this, the AI assists nobody effectively.
+
+---
+
+One healthcare client built this properly. Result: 4x operational efficiency. 45% of incoming calls resolved completely by AI.
+
+Not because they had the best voice model. Because they designed the handoffs, integrated the CRM, and built the coaching layer before going live.
+
+The voice AI math is solved. $0.40 vs $7–12 isn't a debate anymore.
+
+The operations layer is the only variable left. That's where the implementation work actually lives.
+
+---
+
+If you're running a contact center and evaluating voice AI vendors right now: the technology question is mostly solved.
+
+Ask them about Tier 0/1 scoping, handoff protocols, and CRM integration depth. Those answers will tell you more than any benchmark.
+
+Building exactly this at https://enderturing.com — the operations layer is our entire product.

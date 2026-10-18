@@ -1,0 +1,5 @@
+GPT-4 inference: $60/M tokens (2023) → $0.40 today. 150x collapse.
+
+The cost problem is solved. A multi-step agent task costs $0.10-$1.00.
+
+The new hard problem: proving what it returned. Q1 2027 budget cycles will be brutal for teams that skipped measurement infrastructure.
