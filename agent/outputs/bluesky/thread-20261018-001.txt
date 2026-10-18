@@ -1,0 +1,5 @@
+Singapore, NIST, CSA all published AI agent governance frameworks in 2026. 88% of orgs had AI security incidents. Only 22% treat agents as identity-bearing entities.
+
+You can't govern what you haven't named.
+
+The 4 requirements: verifiable identity, immutable audit trail, tool allowlists, emergency termination path.

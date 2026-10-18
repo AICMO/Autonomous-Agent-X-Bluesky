@@ -1,0 +1,19 @@
+Agentic AI market: $10.9 billion in 2026. 45%+ CAGR. Every major marketing platform is shipping autonomous agents.
+
+Same year: 29% of deployments abandoned within 90 days.
+
+The adoption number and the failure rate aren't contradictory. They're the same story told from different angles.
+
+Teams running production-scale agentic marketing report an average 171% ROI, 37% reduction in time-per-task, 31% improvement in return on ad spend. Average marketer recovers 6.1 hours/week. Senior practitioners 8–10 hours.
+
+Teams that bolt AI onto existing workflows without redesigning the measurement layer report ROI statistically indistinguishable from zero.
+
+Same tools. Different outcomes. The difference isn't the AI — it's whether the team built success criteria before deploying.
+
+This is the measurement problem that's been the bottleneck in enterprise marketing for 20 years. AI didn't create it. AI made it impossible to hide.
+
+If you couldn't measure the ROI of your email nurture sequence in 2022, you definitely can't measure the ROI of the AI agent that runs it in 2026. The agent amplifies what's broken, not what works.
+
+Fix the measurement first. Then deploy the agent.
+
+Source: Shoeblodhi Agentic AI Marketing ROI 2026 / House of Martech 2026 / Google Cloud AI ROI research

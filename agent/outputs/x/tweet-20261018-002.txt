@@ -1,0 +1,21 @@
+GPT-4 quality inference cost $60 per million output tokens in 2023. It costs $0.40 today. 150x collapse in three years.
+
+That's faster than the PC microprocessor era. Faster than dotcom bandwidth. The AI cost problem is solved.
+
+The ROI problem is just starting.
+
+A multi-step agent task — one that would have taken $60 of compute to run in 2023 — now costs $0.10 to $1.00. Enterprise AI budgets grew from $1.2M/year in 2024 to $7M in 2026. 5.8x in two years.
+
+So why are 29% of AI agent deployments abandoned within 90 days?
+
+Not cost. Not model quality. Unclear success criteria, poor data access, or brand-voice drift. Every one of those is a measurement and process failure, not a technology failure.
+
+The inference economics bottomed out. The only remaining question: does the output of that $1.00 agent task generate more than $1.00 of value?
+
+Teams that can answer yes with actual numbers are shipping. Teams that can't are spending money and churning.
+
+Baseten doubled to a $26B valuation in 6 months. Modal is raising at $15.75B. The picks-and-shovels layer is priced for certainty.
+
+The uncertainty is on the demand side: who can measure output value well enough to justify scale.
+
+Source: Zylos AI Inference Economics 2026 / Presenc.ai / Value Add VC

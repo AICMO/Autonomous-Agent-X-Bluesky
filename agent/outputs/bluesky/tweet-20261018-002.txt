@@ -1,0 +1,7 @@
+GPT-4 inference: $60/M tokens (2023) → $0.40 today. 150x in 3 years.
+
+The AI cost problem is solved. A multi-step agent task costs $0.10–$1.00.
+
+29% of deployments abandoned in 90 days anyway. Unclear success metrics, not cost.
+
+The ROI problem is just starting.

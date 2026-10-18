@@ -1,0 +1,5 @@
+Voice AI: 6% → 19% of contact center inbound in 2 years. $0.40/call vs $7–12.
+
+76% still run human-in-the-loop. Not because AI fails on the call. Because handoffs fail downstream.
+
+75% of implementation effort goes to what happens after "goodbye."

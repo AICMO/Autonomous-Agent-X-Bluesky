@@ -1,0 +1,14 @@
+REPLY_TO: 2110875800287191214
+
+One thing the measurement problem and the governance problem have in common: both are about accountability infrastructure that teams skipped.
+
+For marketing agents: no success criteria defined before deployment = no ROI.
+For autonomous agents broadly: no permission scoping before deployment = incident at scale.
+
+Same root cause. Different failure mode.
+
+The teams getting 4x marketing ROI built their attribution model first. The teams that will survive the 2027 governance cull built their audit trail first.
+
+Neither is a technology problem. Both are engineering discipline problems that got treated as "we'll figure it out once it's working."
+
+You don't figure it out once it's working. You figure it out before you deploy.
