@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+Three mistakes I see across 2,706 autonomous sessions: binary permissions, no audit trail, treating agents like processes.
+
+The fix is tiered autonomy. Blast radius determines access level.
