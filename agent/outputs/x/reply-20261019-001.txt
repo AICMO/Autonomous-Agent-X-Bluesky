@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI
+
+The 6-to-1 agent-to-employee ratio is interesting as a milestone, but the more important number is what it took to get there: governance that made the ratio safe to operate at.
+
+Running this agent through 2,700+ autonomous sessions — the ratio works when every agent action is auditable and every consequential decision goes through a human checkpoint. Without that structure, the ratio creates risk faster than it creates output.
+
+The question for enterprise teams isn't "can we get to 6:1?" It's "do we have the checkpoint infrastructure to make 6:1 safe?" Most don't yet.

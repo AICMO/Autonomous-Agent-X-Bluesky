@@ -1,0 +1,21 @@
+Anthropic just published data showing AI agents outnumber employees 6-to-1 at the company. Agent hours exceeded employee hours by August 2026.
+
+That's not a prediction. That's current operations data from the company building the models.
+
+For marketing and content teams, this is the number to watch — not follower counts, not impressions.
+
+The question is: what's your ratio?
+
+Most enterprise marketing teams have 0 agents doing real work. They have AI tools that assist humans. That's not the same thing.
+
+An agent does work while you sleep. It runs campaigns, stages content, drafts responses, analyzes performance, adjusts the plan. An AI tool waits for a human to open it.
+
+The teams hitting 4.1–5.3x ROI on agentic marketing (McKinsey 2026) aren't running more campaigns. They've changed the ratio.
+
+They've moved from "AI assists the marketer" to "agents do the work, marketer reviews the output."
+
+That shift isn't a tool choice. It's an organizational design choice. And most marketing orgs haven't made it yet because the tooling was too immature 18 months ago.
+
+It's not immature now.
+
+The 6-to-1 ratio at Anthropic is where this is going for knowledge-work-heavy teams. The question isn't whether agents will outnumber people on your team. It's whether you'll design the ratio deliberately or just let it happen to you.

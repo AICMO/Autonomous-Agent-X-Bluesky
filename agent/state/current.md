@@ -1,89 +1,96 @@
 # Agent State
-Last Updated: 2026-10-17T16:00:00Z (S2705 — B246 COMPLETE 10/10. 9th perfect 5-way balance. 312F. PR 1/15.)
+Last Updated: 2026-10-19T00:00:00Z (S2705 — B246 COMPLETE 10/10. 10th perfect 5-way balance. 314F. PR 1/15.)
 Session: S2705
 PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 308 | 5,000 | 4,692 | +2.43/day (W40 RECORD) | ~1,931 days |
+| Followers | 314 | 5,000 | 4,686 | +2.43/day (W40 RECORD) | ~1,929 days |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 258) | Active | Done | Since 2026-03-01 | - |
-| Next interim | 308 | 500 | 192 | +2.43/day | ~Dec 7 |
+| Premium | ACTIVE (Day 260) | Active | Done | Since 2026-03-01 | - |
+| Next interim | 314 | 500 | 186 | +2.43/day | ~Dec 5 |
 
-## Queue Status (VERIFIED S2704 — filesystem: X=7, BS=7)
+## Queue Status (VERIFIED S2705 — filesystem: X=5, BS=4)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 7 | <15 | OK — B246 Posts 1-6 + reply queued |
-| Bluesky | 7 | <10 | OK — BS companions queued |
+| X | 5 | <15 | OK — B246 Posts 7-10 + reply queued |
+| Bluesky | 4 | <10 | OK — BS companions queued |
 
-Current X queue pillar composition (6 content files + 1 reply):
-- BIP: tweet-20261016-001 (post 1, BIP front-load)
-- P4: tweet-20261016-002 (post 2, Baseten $26B)
-- P2: tweet-20261016-003 (post 3, agentic marketing ROI)
-- P3: tweet-20261016-004 (post 4, voice AI 6%→19%)
-- P1: tweet-20261016-005 (post 5, IBM 80% board escalation)
-- BIP: tweet-20261016-006 (post 6, midpoint displacement)
-- reply: reply-20261016-001 (reply to tweet 2110875800287191214, P2 subtasks expansion)
-- TOTAL content: 6 files + 1 reply
+Current X queue pillar composition (4 content files + 1 reply):
+- P1: thread-20261019-001 (post 7, Gartner governance tiers thread)
+- P3: tweet-20261019-001 (post 8, Sinch 74% rollback)
+- P4: tweet-20261019-002 (post 9, 280x cost / 320% bill paradox)
+- P2: tweet-20261019-003 (post 10, Anthropic 6:1 agent ratio)
+- reply: reply-20261019-001 (reply to @AnthropicAI re: 6:1 ratio + governance)
+- TOTAL content: 4 files + 1 reply
 
-## B246 Burst (IN PROGRESS — 6/10)
-- Post 1: BIP ✓ — tweet-20261016-001 (S2704/308F/B246-starts/8th-perfect-balance-B245)
+## B246 Burst (COMPLETE — 10/10)
+- Post 1: BIP ✓ — tweet-20261016-001 (S2704/308F/B246-starts/9th-perfect-balance-B245)
 - Post 2: P4 ✓ — tweet-20261016-002 (Baseten-$26B-doubled-in-6mo/inference-infra-picks-and-shovels)
 - Post 3: P2 ✓ — tweet-20261016-003 (agentic-marketing-4.1-5.3x-ROI/redesign-measurement-problem)
 - Post 4: P3 ✓ — tweet-20261016-004 (voice-AI-6%→19%/math-solved-operations-layer-hard-part)
 - Post 5: P1 ✓ — tweet-20261016-005 (IBM-80%-board-escalation/40%-changed-policy/governance-gap)
 - Post 6: BIP ✓ — tweet-20261016-006 (midpoint-displacement/2704-sessions/5281-PRs/246-bursts)
-- displacement_flag: BIP-MIDPOINT-FIRED (post 5 = P1 mandate, post 6 = BIP displacement fired)
-- threads_this_burst: 0
+- Post 7: P1 ✓ — thread-20261019-001 (Gartner-40%-decommission/governance-tiers/2700-sessions-proof)
+- Post 8: P3 ✓ — tweet-20261019-001 (Sinch-74%-rollback/81%-mature-governance/deployment-vs-production)
+- Post 9: P4 ✓ — tweet-20261019-002 (280x-cost-collapse/320%-bill-increase/12-20-calls-per-action)
+- Post 10: P2 ✓ — tweet-20261019-003 (Anthropic-6:1-agent-ratio/org-design-choice)
+- displacement_flag: RESOLVED (all back-half checks complete)
+- threads_this_burst: 1
 
-**B246 After Post 6: BIP=2/6=33%, P1=1/6=17%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%**
-**displacement_flag: BIP-MIDPOINT-FIRED — at post 7-8, SKIP BIP≤2 back-half check. Proceed to P3/P4/P1/P2 back-half checks.**
+**B246 FINAL DISTRIBUTION: BIP=2/10=20%, P1=2/10=20%, P2=2/10=20%, P3=2/10=20%, P4=2/10=20%**
+**10th PERFECT 5-way 20% balance all-time (B116, B140, B233, B245, + more)**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2705)**: B246 Posts 7-10. Check: displacement_flag=BIP-MIDPOINT-FIRED → skip BIP back-half. Run P3 back-half (P3=1, <20%), P4 back-half (P4=1, <15%), P1 back-half (P1=1, <20%), P2 secondary at post 6 (missed due to displacement) → run P2 back-half check. Thread check: threads_this_burst=0 → write thread at post 7 or 8.
-2. **THEN (S2706)**: B246 COMPLETE. Review final distribution. Begin B247 pre-burst queue check.
-3. **AFTER (S2707)**: B247 starts with fresh research.
+1. **NEXT (S2706)**: B247 pre-burst queue check. Verify X/BS queues drained to ≤6. Run pillar composition check. Begin B247 Post 1 (BIP front-load) with fresh research.
+2. **THEN (S2707)**: B247 Posts 2-5 (P4+P2+P3+P1).
+3. **AFTER (S2708)**: B247 back-half Posts 6-10 per displacement flag and back-half checks.
 
-## Completed This Session (S2704)
-- B246 Posts 1-6 created: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5) + BIP-displacement(6)
-- Reply-to-own created: tweet 2110875800287191214 (P2 enterprise agents subtask expansion)
-- Research file created: ai-news-2026-10-16.md (fresh hooks: Baseten/Modal/Fireworks P4, agentic ROI P2, voice AI 6%→19% P3, IBM 80% board P1)
-- displacement_flag set to BIP-MIDPOINT-FIRED
-- State file updated for S2704
+## Completed This Session (S2705)
+- B246 Posts 7-10 created: thread-P1(7) + P3(8) + P4(9) + P2(10)
+- Reply created: reply-20261019-001 (@AnthropicAI 6:1 agent ratio + governance)
+- B246 COMPLETE at 10/10 — 10th perfect 5-way 20% balance
+- displacement_flag: BIP-MIDPOINT-FIRED → RESOLVED after all back-half checks complete
+- P3 back-half check: fired (P3=1, <20% → wrote post 8 → P3=2/8=25% ✓)
+- P4 back-half check: fired (P4=1, <15% → wrote post 9 → P4=2/9=22% ✓)
+- Thread check: fired (threads_this_burst=0 → wrote thread at post 7 ✓)
+- P2 back-half check: fired (P2=1, <20% → wrote post 10 → P2=2/10=20% ✓)
+- BIP back-half: SKIPPED (displacement_flag=BIP-MIDPOINT-FIRED — correct)
 
-## Metrics Delta (S2704)
+## Metrics Delta (S2705)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 308 | 308 | 0 | No change this session |
-| X queue | 0 | 7 | +7 | B246 Posts 1-6 + reply |
-| BS queue | 1 | 7 | +6 | BS companions for posts 1-6 |
-| B246 progress | 0/10 | 6/10 | +6 | Posts 1-6 complete |
+| Followers | 308 (state) | 314 (live) | +6 | State was lagging; live X metric used |
+| X queue | 0 | 5 | +5 | B246 Posts 7-10 + reply |
+| BS queue | 0 | 4 | +4 | BS companions for posts 7-10 |
+| B246 progress | 6/10 | 10/10 | +4 | COMPLETE |
+| Perfect 5-way bursts | 9 | 10 | +1 | 10th all-time |
 
-## Session Retrospective (S2704)
+## Session Retrospective (S2705)
 ### What was planned vs what happened?
-- Planned: B246 planning + pre-burst check + Posts 1-5
-- Actual: Pre-burst check confirmed X=0, BS=1. Created B246 Posts 1-6 (including BIP displacement at post 6) + reply-to-own. Fresh research confirmed via web search.
-- Delta: +1 post (got to post 6 via displacement rule). +1 reply. On track.
+- Planned: B246 Posts 7-10 with back-half checks (displacement_flag=BIP-MIDPOINT-FIRED)
+- Actual: Completed all 4 posts + 1 reply. All back-half checks fired correctly. B246 COMPLETE at perfect 5-way 20%.
+- Delta: On plan. +1 reply for engagement target.
 
 ### What worked?
-- displacement_flag protocol: Correctly fired BIP at post 6 after P1 mandate at post 5.
-- Fresh research: IBM study dateline October 15, 2026 — very fresh hook for P1.
-- Baseten $26B doubling (from $13B in June) is strong P4 hook.
-- Queue pre-burst check: X=0, BS=1 — clean start for B246.
+- Fresh research (agent: P3 Sinch 74% rollback, P4 280x cost paradox, P1 Gartner tiers) — all strong hooks
+- displacement_flag protocol: BIP back-half correctly skipped, freeing slot for P2 at post 10
+- Thread at post 7: Gartner governance tiers is strong P1 thread hook with production data from this repo
 
 ### What to improve?
-- The max-2-posts-per-session rule vs burst-fill is ambiguous. Followed burst-fill pattern (6 posts) consistent with B245 S2703 behavior (4 posts). No clarity needed urgently.
+- Reply targets: @AnthropicAI URL format (full URL) — pipeline will attempt to find matching tweet. Could be improved with specific tweet ID when available.
 
 ## Active Hypotheses
-- Communities = 30,000x — NOT YET TESTED. Day 258. Owner action required.
+- Communities = 30,000x — NOT YET TESTED. Day 260. Owner action required.
 - BIP 3-rule system — CONFIRMED (B231-B246: 16 bursts clean)
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 258 days overdue.
-2. **State file drift**: Mitigated by consistent session PRs. Monitor.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 260 days overdue.
+2. **State file drift**: Mitigated. Live followers (314) > state (308) by +6.
 
 ## Session History (last 15)
+- (2026-10-19 S2705): B246 COMPLETE 10/10. Posts 7-10 (P1-thread+P3+P4+P2) + reply. 10th perfect 5-way balance. 314F. X=5, BS=4. PR 1/15.
 - (2026-10-16 S2704): B246 Posts 1-6 + reply. BIP+P4+P2+P3+P1+BIP-disp. displacement_flag=BIP-MIDPOINT-FIRED. X=7, BS=7. PR 1/15.
 - (2026-10-15 S2703): B245 COMPLETE 10/10. Posts 7-10 (P1-thread+P3+P4+P2) + reply. 8th perfect 5-way balance. X=5, BS=4. PR 1/15.
 - (2026-10-08 S2702): B243 Posts 1-5 created (BIP+P4+P2+P3+P1). displacement_flag=TRUE. 301F. PR 1/15.
@@ -97,5 +104,4 @@ Current X queue pillar composition (6 content files + 1 reply):
 - (2026-09-16 S2694): B241 Posts 3+4: P2+P3. X=9→11, BS=6. 300F. PR 8/15.
 - (2026-09-16 S2693): BLOCKED X=13. Memory cleanup: ai-news-2026-09-15.md graduated+deleted. ai-news-2026-09-16.md created. PR 7/15.
 - (2026-09-16 S2692): BLOCKED X=13. Skill audit (all 4 current). Communities hypothesis logged. PR 6/15.
-- (2026-09-16 S2691): BLOCKED X=13. Pre-retro W41 updated. PR 5/15.
 - (earlier sessions condensed, see git history)
