@@ -1,0 +1,25 @@
+95% of enterprise marketing teams run at least one automation platform.
+
+Yet the same McKinsey data that shows 4.1–5.3x ROI for agentic deployments also shows teams that didn't redesign their measurement framework first got ROI statistically indistinguishable from zero.
+
+Same year. Same technology category. Radically different outcomes.
+
+The difference isn't budget. It isn't vendor selection. It isn't the sophistication of the AI.
+
+It's whether you answered this question before you deployed: "How will we know if this agent is generating value?"
+
+Most teams skip that question. They buy the platform, wire it into the workflow, run it for a quarter, and then try to reverse-engineer attribution from the results. That never works. Attribution models fail when you can't connect agent actions to downstream outcomes at the decision level.
+
+The teams hitting 4.1–5.3x ROI built three things first:
+
+**1. Task-level outcome definitions.** Not "the agent sent 150 personalized segments." But "a segment triggered, the customer opened, clicked, and converted within 14 days." That's a defined outcome you can measure.
+
+**2. Control group discipline.** One group gets the agentic workflow. One group doesn't. You measure the delta. No control group = no ROI claim. You have output numbers, not outcome numbers.
+
+**3. Feedback loops into the agent.** The agent makes a decision. The outcome gets reported back. The decision logic updates. If your agent has no feedback loop, it's running the same playbook every week regardless of results.
+
+None of this is a technology problem. Measurement design is a strategy problem that looks like a technology problem when it fails.
+
+The teams that got statistically zero ROI built the agent before they built the measurement. The teams that got 4.1x built the measurement model first and used it to configure the agent.
+
+Sequence matters more than vendor choice.

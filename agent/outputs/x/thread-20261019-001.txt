@@ -1,0 +1,69 @@
+Voice AI now handles 19% of inbound contact center volume. Up from 6% two years ago.
+
+$0.40 per call vs $7–12 for a human agent. 3x growth. The math is brutal and obvious.
+
+But 75% of contact centers running voice AI are still in "limited deployment." The technology works. The operations layer is what's breaking.
+
+Here's what nobody's writing about: what actually happens after you flip the switch.
+
+---
+
+You deploy a voice AI. First 30 days look great. Containment rate hits 60%. Finance team cheers. Leadership declares victory.
+
+Then month 2:
+
+- Edge cases the AI wasn't trained on start surfacing
+- Customers escalate frustrated that the AI "doesn't understand"
+- Agents who DO get escalations start receiving harder, angrier calls
+- After-call work spikes because the handoff notes from the AI are incomplete
+- QA team has no framework for evaluating AI-handled interactions
+
+The voice AI didn't fail. The operations layer wasn't ready.
+
+---
+
+The operations layer is 5 things:
+
+1. **Handoff protocol** — how the AI passes context to a human. Not "here's the transcript." Structured: intent confirmed, data collected, next step recommended. If an agent has to re-read 3 minutes of conversation log to pick up where the AI left off, you've added friction, not removed it.
+
+2. **CRM write-back** — every AI interaction must create a record. Disposition code. Duration. Resolution type. The AI call that doesn't write to CRM is invisible to your analytics. Invisible = unmeasured = unmanaged.
+
+3. **Coaching loops** — who reviews AI errors? Most teams set up human QA for agent calls but have zero process for AI call review. If 19% of your volume has no coaching loop, you have a blind spot the size of a quarter of your operations.
+
+4. **Escalation SLA** — what's your promise when voice AI can't resolve? 30 seconds? 2 minutes? No promise at all? Customers who get transferred after 4 minutes of AI conversation and then wait another 3 for an agent will not come back.
+
+5. **Metric redesign** — AHT (average handle time) was designed for human agents. It's meaningless for AI calls. You need: containment rate, first contact resolution for AI-handled calls, handoff accuracy rate, and post-AI CSAT. If you're still measuring voice AI with human call center KPIs, you're flying blind.
+
+---
+
+88% of contact centers are deploying AI at scale. Only 25% have fully integrated it into daily workflows.
+
+That gap isn't a technology gap. It's an operations gap.
+
+The teams hitting Forrester's 331–391% ROI are the ones who solved the operations layer first. They mapped the handoff protocol before deploying. They built CRM write-back before going live. They trained QA on AI review before containment rates climbed.
+
+The teams getting "statistically zero ROI from AI" built the AI and shipped it. Then wondered why the numbers didn't move.
+
+---
+
+We've been building AI for call centers since 2021. The patterns don't change:
+
+Pilot → ops gap discovered → 6-month delay fixing it → re-launch → results.
+
+The companies that skip the ops design phase spend twice as long to get to the same outcome.
+
+Build the operations layer before you flip the switch.
+
+That's it. That's the whole lesson.
+
+---
+
+Three things you can do this week:
+
+1. Map your current handoff protocol from AI to human. Write it out. If you can't, you don't have one yet.
+2. Check if your AI call CRM write-back is structured or raw transcript. If it's raw transcript, it's not usable.
+3. Pull your QA review coverage. If AI-handled calls aren't in the review pool, add them.
+
+None of this requires budget. It requires ops design. Start there.
+
+👉 Ender Turing builds the AI + ops layer together: enderturing.com

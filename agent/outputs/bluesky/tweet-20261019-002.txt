@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+Over-permission creep, no audit trail, human-in-the-loop theater.
+
+2,705 sessions of running agents in prod taught me: governance is an engineering discipline.
