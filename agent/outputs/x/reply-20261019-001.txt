@@ -1,0 +1,7 @@
+REPLY_TO: 2110875800287191214
+
+Following up on the enterprise agents subtask point — the governance data from IBM makes this concrete.
+
+88% of enterprises had an AI agent security incident last year. In most cases the root cause wasn't the AI model making a wrong decision. It was the task scope being too wide at deployment and never scoped back down.
+
+Subtask decomposition is actually a governance mechanism: smaller tasks = narrower permissions = audit trail that's legible when something goes wrong. The teams treating subtask granularity as a UX concern are missing the risk management angle entirely.

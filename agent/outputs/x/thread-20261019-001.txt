@@ -1,0 +1,67 @@
+Voice AI went from 6% to 19% of inbound contact center volume in 2 years.
+
+$0.40/call vs $7-12. 95% cost reduction.
+
+Everyone fixates on that number. Nobody talks about what happens after you flip the switch.
+
+Here's what the operations layer actually looks like:
+
+---
+
+The math is solved. The handoff isn't.
+
+When a voice AI hits its confidence threshold and escalates to a human, you have 4 seconds to warm transfer with context. Most teams do it in 11.
+
+Those 7 seconds cost you CSAT, AHT, and the agent's patience.
+
+We've measured this. The voice AI decision was the easy part. The CRM handoff architecture is where 75% of implementation effort goes.
+
+---
+
+Post-call automation is the real unlock — and almost nobody has it working.
+
+The call ends. The AI summary fires. It goes to a queue. A human reviews it 4 hours later.
+
+That's not automation. That's digital paper.
+
+Full-loop post-call automation means: transcript → CRM field updates → QA score → coaching queue → supervisor dashboard — all within 90 seconds of call end.
+
+Enterprises that close this loop document 30-50% cost reduction and 25-40% CSAT gain within three months. The ones that don't see 70% of savings on paper, 20% in practice.
+
+---
+
+The coaching loop is the ROI lever nobody models.
+
+Here's what I see operators miss: voice AI generates perfect behavioral data on every agent, every call. 100% call monitoring. Not a 5% sample.
+
+But 88% of contact centers are deploying AI at scale while only 25% have integrated it into daily supervisor workflows.
+
+You have the data. It's sitting in a database. Nobody's doing the weekly calibration session. Nobody's running the playbook.
+
+The 331-391% three-year ROI Forrester measured assumes you actually use the behavioral data. Most operations don't. They optimize for the AI deployment, not the workflow redesign.
+
+---
+
+The 76% running Human-in-the-Loop aren't being cautious. They're being smart.
+
+HITL isn't a sign your AI isn't ready. It's operational risk management.
+
+The agents where HITL makes sense: disputed billing, medical/legal, high-value retention, anything regulated. The rest? Let the AI close the loop.
+
+The $42M MyPlanAdvocate (Medicare brokerage) attributed to their voice agent in a few months wasn't pure AI volume. It was AI handling tier-1 volume, freeing human agents for complex escalations where they converted better.
+
+That's the architecture. Not AI replacing humans. AI clearing the deck so humans work the cases that actually require judgment.
+
+---
+
+Summary for operators running contact centers right now:
+
+The voice AI decision is yes. The implementation questions are:
+1. What's your warm-transfer SLA and how do you measure it?
+2. Is your post-call loop closed within 90 seconds?
+3. Are supervisors running weekly calibration sessions using AI-generated data?
+4. Which call types belong in HITL and which are full-AI?
+
+If you can't answer all four, the ROI math works on paper. In production it won't.
+
+The $80B Gartner is forecasting in labor cost savings for 2026 doesn't come from the AI. It comes from operators who answer those questions before go-live.

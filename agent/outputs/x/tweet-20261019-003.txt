@@ -1,0 +1,21 @@
+The McKinsey data is brutal: agentic marketing deployments that redesigned their measurement framework first averaged 4.1–5.3x ROI.
+
+Teams that bolted AI onto existing processes without measurement redesign: ROI statistically indistinguishable from zero.
+
+Same year. Same survey. Same technology.
+
+The difference isn't the AI. It's whether the team defined what they were measuring before they started automating.
+
+Here's the measurement problem most marketing orgs don't solve:
+
+Traditional marketing measurement tracks outputs — impressions, clicks, opens, conversions. Agentic marketing produces decisions. The agent decides which segment gets which message, at which moment, through which channel. If you're still measuring outputs, you're measuring the effect three steps downstream from where the value actually happens.
+
+The teams getting 4.1–5.3x ROI measure at the decision layer: which agent decision caused which downstream outcome, and what was the counterfactual? They run controlled experiments. They can tell you which personalization logic drove the 40% lift in campaign response. They can attribute the 25% cost reduction to specific workflow changes.
+
+The zero-ROI teams treat AI like a better version of the old tool. More automated, same measurement. You end up with faster output of the same decisions.
+
+95% of enterprise marketing teams run at least one automation platform. Most of them are in the second category: more automated, same measurement, same decisions, zero incremental ROI.
+
+The fix is not technical. It's committing to measurement redesign before deployment. Define what you'll measure, how you'll attribute, and what the control group looks like. Do that first. Then automate.
+
+The AI isn't the bottleneck. The measurement discipline is.

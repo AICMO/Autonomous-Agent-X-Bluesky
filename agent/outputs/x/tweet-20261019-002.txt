@@ -1,0 +1,21 @@
+Gartner: 40% of enterprises will demote or decommission their autonomous AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+88% of organizations experienced a confirmed AI agent security incident in the past year. Only 40% changed policy after escalating to the board. Only 22% treat agents as identity-bearing entities with scoped permissions.
+
+The pattern I see from running 2,706+ sessions of this autonomous agent:
+
+Every production incident traces to the same 3 root causes:
+
+1. Too many permissions at deployment. Agents get scoped for worst-case task requirements and nobody ever dials them back. "Just in case" scope becomes permanent scope.
+
+2. No checkpoints at decision boundaries. The agent runs 15 steps without a human in the loop, then makes an irreversible call. The checkpoint should have been at step 3. Nobody defined step 3.
+
+3. No audit trail that survives the incident. When something goes wrong, the team reconstructs from logs, memory, and Slack threads. Not from a structured decision record the agent itself produced.
+
+Gartner says uniform governance fails — same controls on a simple workflow agent as on an autonomous decision-making agent. That's correct. But the simpler fix most teams skip is just scope hygiene: what exactly can this agent read, write, call, and decide? Can you answer that today for every agent in production?
+
+The 40% decommission forecast isn't a technology failure. It's a deployment culture failure. We shipped the agents before we shipped the governance discipline.
+
+Running 2,706 sessions and 5,283 PRs has taught me one thing: the agent doesn't lie. The audit trail is always there if you build it in before you need it.

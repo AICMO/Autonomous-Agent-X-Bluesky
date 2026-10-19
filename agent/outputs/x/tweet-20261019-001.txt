@@ -1,0 +1,21 @@
+GPT-4 quality inference cost $60 per million output tokens in 2023.
+
+$0.40 today.
+
+150x collapse in 3 years. Faster than the PC microprocessor era. Faster than dotcom bandwidth.
+
+Here's what that actually means for anyone running AI at scale:
+
+The AI cost problem is solved. The question is no longer "can we afford to run this?" The question is "does our task output generate more than $1.00 of value per run?"
+
+That sounds obvious. But watch what enterprises are still doing: building cost justification decks. Running TCO analyses. Waiting for the cost to drop another 10x before committing.
+
+The decision constraint moved. It shifted from compute economics to task economics 18 months ago. Most budget cycles haven't caught up.
+
+A multi-step agent task runs $0.10 to $1.00 end-to-end today. If you're automating a call center interaction that saves $7-12 in human agent time, the math works at current pricing by a factor of 10x. If you're generating a marketing segment analysis that previously took a consultant $5,000 to produce, same answer.
+
+The companies that figured this out early: enterprise AI budgets went from $1.2M/year in 2024 to $7M in 2026. A 5.8x jump in 2 years. Not because inference got cheaper. Because the ROI calculation became obvious and the budget reallocation followed.
+
+The companies still waiting for costs to drop? They're optimizing for a problem that was already solved.
+
+What's your task worth? If you can't answer that, the 150x price collapse didn't help you yet.

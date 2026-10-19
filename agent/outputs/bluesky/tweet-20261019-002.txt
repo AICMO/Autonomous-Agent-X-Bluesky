@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027.
+
+Not because the AI failed. Because governance did.
+
+88% experienced a security incident. Only 22% treat agents as identity-bearing entities with scoped permissions.
+
+3 root causes: too many permissions, no checkpoints, no audit trail.
