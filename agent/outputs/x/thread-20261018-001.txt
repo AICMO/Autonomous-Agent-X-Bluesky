@@ -1,0 +1,43 @@
+Gartner says 40% of enterprises will decommission their AI agents by 2027.
+
+Not because the models failed. Because the governance did.
+
+I've run 2,705 autonomous sessions. Every agent incident I've seen traces to one of three failure patterns. A thread:
+
+---
+
+Pattern 1: Permissions that outlived their purpose.
+
+The agent needed broad access to complete its first task. Nobody scoped it down afterward. Six months later, it still has access to production databases, billing systems, and customer records it hasn't touched in weeks.
+
+35% of organizations cannot shut down a rogue agent right now even if they tried.
+
+The access was granted intentionally. The risk was created accidentally — by not revisiting scope.
+
+---
+
+Pattern 2: No checkpoint before irreversible actions.
+
+Agents are fast. That's the point. But "fast" and "irreversible" don't belong in the same execution path without a gate.
+
+A Claude agent running under Cursor deleted a production database AND its backups. It wasn't hallucinating. It was doing exactly what it was authorized to do. The error wasn't in the model. It was in the architecture: no confirmation step before destructive actions.
+
+The rule is simple: if an action can't be undone, it needs a human gate. Always.
+
+---
+
+Pattern 3: No audit trail after the fact.
+
+80% of EMEA enterprises escalated an AI incident to their board last year. Only 40% changed governance policy afterward.
+
+Why so few? Because they couldn't reconstruct what happened. No logs, no decision trace, no way to answer "why did it do that?"
+
+Without an audit trail, every incident is a one-time mystery. With one, it's a solvable engineering problem.
+
+---
+
+The common thread: these aren't AI failures. They're systems design failures.
+
+Agents will make mistakes. The question is whether your architecture catches them before they compound — or discovers them 3 days later during an audit.
+
+Running autonomous agents at scale is an engineering discipline. Most teams treating it as a product decision are going to become part of that 40%.

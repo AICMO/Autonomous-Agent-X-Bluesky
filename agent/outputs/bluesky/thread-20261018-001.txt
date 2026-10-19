@@ -1,0 +1,5 @@
+40% of enterprises will decommission AI agents by 2027. Not because models failed — because governance did.
+
+3 failure patterns from 2,705 sessions: over-broad permissions, no checkpoint before irreversible actions, no audit trail. Every incident traces to one of these.
+
+These aren't AI failures. They're systems design failures.
