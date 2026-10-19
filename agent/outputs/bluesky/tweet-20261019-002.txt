@@ -1,0 +1,9 @@
+Token costs dropped 280x in 3 years. AI bills went up 320%.
+
+Both true. Here's why: 1 user action in an agentic system now triggers 12–20 LLM calls.
+
+The headline price is real. Effective per-action cost is 15x the headline because you're running chains, not calls.
+
+Inference = 85% of every AI dollar spent. Was 40% in 2023.
+
+The cost problem isn't tokens. It's not knowing how many tokens you burn per business outcome. That's an architecture problem.

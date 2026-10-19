@@ -1,0 +1,25 @@
+Token costs dropped 280x in 3 years. Your AI bill went up 320% in the same period.
+
+Both numbers are true. Here's why they coexist:
+
+1 user action in an agentic system now triggers 12–20 LLM calls.
+
+Not 1. Not 3. 12 to 20 on average.
+
+The headline token price is real. The effective per-action cost is 15x the headline price because you're not running 1 call per interaction — you're running a chain.
+
+This is the inference math most AI roadmaps don't have a line for. Then it becomes the biggest line on the P&L.
+
+Quick timeline:
+- GPT-4 quality inference: $60/million tokens (2023) → $0.40 (2026). 150x on the budget tier.
+- Budget-tier tokens: $30/million (early 2023) → $0.40 (May 2026). 280x cheaper.
+- Enterprise AI bills: up 320% over the same period.
+- Inference now represents 85% of every AI dollar spent. Was 40% in 2023.
+
+OpenAI just cut Luna pricing by 80% (July 2026). That's good news. But the math only changes when you also address how many times per user action you're calling the API.
+
+The cost problem used to be "tokens are too expensive."
+
+The cost problem now is "we have no idea how many tokens we're actually burning per business outcome."
+
+That's not an inference problem. That's an architecture problem.

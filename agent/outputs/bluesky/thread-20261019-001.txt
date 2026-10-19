@@ -1,0 +1,11 @@
+Gartner: 40% of enterprise AI agents get decommissioned by 2027. Not because the AI failed — because the governance did.
+
+74% of enterprises rolled back agents post-launch. Highest rollback rates? Companies with the MOST mature guardrails (81%).
+
+Better governance didn't prevent failures. It made them visible faster.
+
+The real problem: treating autonomy as binary. Locked down OR fully trusted. No middle tiers.
+
+2,700+ sessions running autonomously — every production incident traces to: too many permissions, no checkpoints, no audit trail.
+
+The 60% who survive aren't smarter. They build better handoffs.

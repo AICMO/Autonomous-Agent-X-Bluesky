@@ -1,0 +1,21 @@
+74% of enterprises rolled back their AI customer service agents after going live.
+
+The companies with the MOST mature governance had an 81% rollback rate.
+
+That's not a governance problem. It's a deployment problem dressed up as one.
+
+Here's what the Sinch data (2,527 decision-makers, 10 countries) actually says:
+
+Rollback reasons: evaluation gaps (64%), governance friction (57%), model reliability (51%).
+
+Notice what's not there: "the AI was too good." Nobody is rolling back because agents outperformed expectations.
+
+The 81% rollback rate among mature-governance companies means one thing: they had the infrastructure to catch failures fast. Companies without mature guardrails didn't roll back — they just didn't know when they should have.
+
+98% of these same organizations increased their AI investment after the rollback.
+
+So the question isn't "are enterprises abandoning AI agents?" They're not. It's "why do so many enterprises think deployment = production?" when those are two completely different engineering problems.
+
+Deployment is getting the agent running. Production is getting the agent right.
+
+Most teams are still confusing the two.

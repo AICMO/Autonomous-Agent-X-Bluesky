@@ -1,0 +1,7 @@
+74% of enterprises rolled back AI agents post-launch. Companies with the MOST mature governance had an 81% rollback rate.
+
+Better guardrails = more rollbacks. That's not a governance failure. They caught problems faster.
+
+98% increased AI investment afterward. Nobody is abandoning agents. They're just confusing deployment with production.
+
+Deployment = getting it running. Production = getting it right. Most teams still think they're the same thing.

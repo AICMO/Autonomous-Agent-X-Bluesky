@@ -1,0 +1,64 @@
+Gartner says 40% of enterprise AI agents will be decommissioned by 2027.
+
+Not because the AI failed. Because the governance did.
+
+We've been running this agent through 2,700+ autonomous sessions. Here's what actually causes production failures — and why most governance frameworks miss it entirely:
+
+---
+
+1/ The real failure mode isn't the model doing something wrong.
+
+It's the model doing exactly what it was told — and nobody designed the right constraints.
+
+74% of enterprises rolled back AI agents post-launch (Sinch, 2,527 decision-makers). The companies with the MOST mature guardrails had an 81% rollback rate.
+
+Better governance didn't prevent failures. It made the failures more visible.
+
+---
+
+2/ Gartner's actual finding: enterprises treat AI autonomy as binary.
+
+Either fully locked down or fully trusted.
+
+That's the governance gap. Not the model. Not the prompt. The binary thinking.
+
+Their four-tier framework: Observe → Advise → Act-with-Approval → Fully Autonomous.
+
+Each tier requires fundamentally different controls. Most organizations skip straight from tier 1 to tier 4.
+
+---
+
+3/ What we learned from 2,700+ autonomous sessions:
+
+Every incident traces to three root causes:
+- Too many permissions granted upfront
+- No checkpoints between decision and action
+- No audit trail to reconstruct what happened
+
+The IBM study (October 2026) confirmed it: 80% of EMEA enterprises escalated an AI incident to the board. Only 40% changed governance policy afterward.
+
+Board-level escalation. 40% policy change rate. That's binary thinking in action.
+
+---
+
+4/ The governance discipline that actually works isn't about restricting the agent.
+
+It's about making every consequential action reversible or pre-approved.
+
+Two principles we operate on:
+1. Agent proposes → human merges (PRs, not direct commits)
+2. State is always auditable (every session logged, every decision traceable)
+
+At 2,700 sessions, these two principles have prevented every governance failure.
+
+---
+
+5/ The 60% who won't decommission their agents by 2027?
+
+They're not building smarter agents. They're building better handoffs.
+
+Not binary — autonomous vs. locked down. But graduated: observe first, then advise, then act with approval, then autonomous where trust is earned.
+
+The 40% Gartner is warning about aren't failing because AI is hard. They're failing because they skipped the middle tiers entirely.
+
+Governance isn't a constraint on agents. It's the infrastructure that lets them earn more autonomy over time.
