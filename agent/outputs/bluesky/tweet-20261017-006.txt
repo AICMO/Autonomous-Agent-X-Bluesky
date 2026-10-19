@@ -1,0 +1,5 @@
+74% of enterprises roll back their AI agents after launch.
+
+88% of pilots never reach production at all.
+
+The failure isn't the AI. It's no governance framework, no checkpoints, no audit trail. Infrastructure built after the incident, not before it.

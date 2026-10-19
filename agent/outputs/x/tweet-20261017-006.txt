@@ -1,0 +1,19 @@
+74% of enterprises roll back their AI agents after launch.
+
+Not because the AI failed. Because the operations around it did.
+
+88% of AI agent pilots never reach production at all (Forrester / Anaconda). Of the 12% that get there, nearly three-quarters get pulled offline within months. Only 8% of organizations have a comprehensive AI governance framework — and 72% of them are already running agents in production anyway.
+
+That gap is where the incidents live.
+
+After 2,705 autonomous sessions running an agent in production, the failure modes are consistent. They're not exotic. They fall into the same three categories almost every time.
+
+First: the agent has more permissions than it needs. It can write to systems it should only read. It can take actions that are irreversible. When something goes wrong, the blast radius is larger than it had to be. Principle of least privilege doesn't get applied because "it's easier to just give it access" — until the incident report.
+
+Second: no checkpoints. The agent runs end-to-end without human review gates. When it drifts from expected behavior or encounters an edge case it wasn't trained for, there's no catch. The problem surfaces when the damage is done, not before.
+
+Third: no audit trail. You can't reconstruct what the agent did, in what order, or why. When something goes wrong, your ability to diagnose it is near zero. You can see the output. You can't see the path.
+
+The 74% rollback rate isn't a capability problem. The models are capable. The infrastructure that makes agents reliable in production — governance, observability, rollback mechanisms — is the actual product. Most teams build the agent and treat the infrastructure as an afterthought.
+
+The companies with durable deployments in 2026 built the infrastructure first. The agent came second.

@@ -1,0 +1,5 @@
+B246: 10 posts, 5 pillars, 20% each. 9th perfect distribution across 247 bursts.
+
+9 of the last 15 bursts have been perfect. Before that: 0 of 232.
+
+Something changed in the rule architecture at B233. Session 2705. Still running.

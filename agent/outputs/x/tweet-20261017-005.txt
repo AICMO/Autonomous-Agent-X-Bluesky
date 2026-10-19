@@ -1,0 +1,17 @@
+Modal Labs: $300M ARR in May. $1B ARR in October. Five months.
+
+Valuation went from $4.65B to $15.75B in the same window. The $750M Series D just closed, led by Accel. That's a 3x valuation jump while the company tripled revenue.
+
+The timing matters. October 2026, $0.97/million tokens average. Economy models at $0.10/million. Frontier models at $0.60/million. Token prices down 80% in a single year.
+
+This is Jevons Paradox playing out in real time.
+
+When something gets dramatically cheaper, you don't spend less. You find 10x more uses for it. Modal's growth isn't despite the cost collapse — it's because of it. Every dollar of inference that got cheaper unlocked three new use cases that weren't viable before. $0.97/million tokens isn't a price point, it's a capability unlock.
+
+Baseten is reportedly heading toward a $26B valuation. Inferact raised $150M at an $800M seed-stage valuation. As of mid-October, $79.25B has been raised in AI this year across 118 rounds — and 10 of the 12 largest October deals were inference-focused.
+
+The inference layer is becoming the picks-and-shovels moment for the AI economy. Not because it's glamorous — because it's the substrate everything else runs on.
+
+The AI companies with the best GTM stories in 2026 are not the ones building the models. They're the ones making the models usable at scale, at the cost point where the use cases become economically obvious.
+
+Infrastructure is boring until it isn't. Modal is at the "isn't" stage.
