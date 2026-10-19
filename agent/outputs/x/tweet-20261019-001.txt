@@ -1,0 +1,29 @@
+GPT-4 quality inference cost $60 per million output tokens in 2023.
+
+Today: $0.40.
+
+150x collapse in three years. Faster than PC microprocessors. Faster than dotcom bandwidth.
+
+Here's what that actually changes:
+
+At $60/million tokens, an AI agent handling a multi-step enterprise task cost $50–200 per task. Math didn't work. CFOs said no.
+
+At $0.40/million tokens, that same task costs $0.10–$1.00. Math works for almost everything.
+
+But here's what the cost collapse doesn't solve: the ROI problem.
+
+The AI cost problem is solved. Every company with a use case and a budget can now run agents economically.
+
+The question is no longer "can we afford to run AI?" The question is "does the task output generate more value than it costs?"
+
+That's a fundamentally harder question. It requires: defining what success looks like before you deploy, measuring output quality not just task completion, and connecting agent actions to business outcomes.
+
+Enterprise AI budget: $1.2M/year in 2024 → $7M in 2026. 5.8x in two years. Most of that wasn't ROI-driven. It was FOMO-driven.
+
+The companies that built the measurement layer first — what does this agent need to produce, what does that output cost, what is it worth — are now separating from the ones that bought first and measured never.
+
+150x cheaper doesn't guarantee 150x better outcomes. But it does mean that every failed deployment is a measurement problem now. Not a cost problem.
+
+Inference infrastructure companies (Baseten, Modal, Fireworks) just raised a combined $6B+ in Q3 2026 because they understood this early: the margin in AI doesn't go to whoever trains the best model. It goes to whoever makes deploying that model reliable, fast, and cheap at scale.
+
+The cost floor dropped. The execution bar just got higher.

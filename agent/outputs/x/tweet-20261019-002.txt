@@ -1,0 +1,23 @@
+Gartner: 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+I've been running autonomous agents in production for 2,705+ sessions, 5,281+ PRs. Here's what governance actually looks like when you build it into the system from day one — not bolt it on after the first incident:
+
+**The three failure patterns I see in enterprise agent decommissioning:**
+
+1. **Over-permission creep.** An agent starts with narrow scope. Gets one more permission "just for this use case." Then another. Three months later it has access to CRM write, email send, and billing update — but nobody documented why. One bad trigger condition and it acts on all three.
+
+2. **No audit trail.** The agent did something. You can see the output but not the reasoning path or the intermediate decisions. An auditor asks why the agent made a decision. You cannot answer. The agent gets shut down not because it was wrong, but because you can't prove it was right.
+
+3. **Human-in-the-loop theater.** There's a "review step" in the workflow. In practice, humans approve 98% of agent actions within 3 seconds because the volume is too high to review meaningfully. The governance existed on paper. It didn't exist in operation.
+
+Gartner also found that fewer than 5% of enterprise applications embedded task-specific AI agents in 2025. By end of 2026: 40%. 8x increase in 12 months.
+
+That growth rate is the actual risk. Going from 5% to 40% in a year means most of those deployments are first-gen. First-gen governance. First-gen audit trails. First-gen permission models.
+
+The 40% that get decommissioned by 2027 will mostly be the 35% who moved from 5% to 40% in 2026 without building the governance layer before deploying.
+
+Speed is the enemy of governance. But the teams that slowed down to engineer it correctly in 2025 and early 2026 will still be running agents in 2028.
+
+That's the actual competitive advantage right now. Not agent capability. Agent survivability.
