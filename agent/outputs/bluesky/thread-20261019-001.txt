@@ -1,0 +1,5 @@
+Voice AI: 6%→19% inbound volume in 2 years. $0.40 vs $7-12/call.
+
+Everyone fixates on that. Nobody talks about what happens after you flip the switch.
+
+The operations layer is where 75% of implementation effort actually goes. Thread 🧵
