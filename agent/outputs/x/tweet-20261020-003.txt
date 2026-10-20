@@ -1,0 +1,18 @@
+Average ROI from agentic AI investments: 171%. US enterprises project 192%.
+
+But here's what that headline buries: 19% of agentic AI rollouts never reach positive ROI. At all. And only 41% reach payback within 12 months.
+
+The spread between top quartile and bottom quartile isn't about the AI. It's about the measurement framework going in.
+
+Bain's 2026 agentic benchmark breaks it down by function:
+- Customer service agents: 4.1 months to payback
+- Marketing operations: 6.7 months
+- Engineering: 9.3 months
+
+Marketing ops takes 2.6x longer to reach payback than customer service. Why? Customer service has clear metrics — call volume, handle time, CSAT. Marketing has attribution. Attribution is a mess.
+
+The teams hitting 192% ROI went in with: a baseline, a control group, a primary metric, and a defined measurement period. The teams at 0% went in with "let's see what happens."
+
+Agentic AI is not self-proving. You have to structure the experiment before you launch the agent. Most teams treat this as a deployment problem and then wonder why the numbers don't show up.
+
+The tool is not the strategy. The measurement framework is.

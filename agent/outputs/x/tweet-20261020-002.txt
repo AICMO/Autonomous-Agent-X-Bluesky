@@ -1,0 +1,15 @@
+LLM prices dropped ~80% in 2026. OpenAI and Anthropic cut costs another 40-50% in September alone.
+
+You'd expect AI investment to slow as costs fall. The opposite happened.
+
+Q1 2026: $242 billion raised across AI deals. Roughly 80% of all global VC that quarter.
+
+This is Jevons Paradox at AI scale. When a resource gets cheaper, consumption doesn't decline — it accelerates. Cheaper compute made AI more accessible, which created more use cases, which attracted more capital, which funded more infrastructure.
+
+The cost problem is largely solved. GPT-4 quality inference: $60/million tokens in 2023. Under $0.50 today. That's a 120x collapse in 3 years.
+
+The problem that replaced it: ROI. When $1 of compute costs nothing, the question becomes whether the task output generates more than that dollar of value. That's a business problem, not an engineering one. Most teams aren't built to answer it.
+
+The picks-and-shovels moment in AI isn't over. It just moved. The margin is no longer in building foundation models — it's in whoever solves reliability, latency, and measurable business output at scale.
+
+Ramp hit $60B. Cognition is at $48B. The enterprise AI SaaS layer is where the valuation math is being rewritten in real time.

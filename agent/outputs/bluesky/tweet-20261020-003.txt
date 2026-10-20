@@ -1,0 +1,5 @@
+Average ROI from agentic AI: 171%. But 19% of rollouts never reach positive ROI at all.
+
+The spread isn't about the AI. It's the measurement framework.
+
+Teams hitting 192% went in with a baseline, control group, and defined metric. Teams at 0% went with "let's see what happens." The tool isn't the strategy. The measurement framework is.
