@@ -1,0 +1,5 @@
+REPLY_TO: 2111513079272129006
+---
+The Jevons framing matters here: $242B in Q1 2026 VC went into AI — roughly 80% of all global venture that quarter. Cheaper inference didn't reduce investment, it accelerated it.
+
+The cost problem is solved. The ROI problem just started. That's the shift most teams haven't made yet.

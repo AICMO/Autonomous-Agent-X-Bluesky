@@ -1,0 +1,17 @@
+Microsoft dropped three dedicated contact center AI models on October 1. Not features. Models.
+
+MAI-Transcribe-2-Streaming: real-time transcription in 60 languages, sub-100ms latency, built specifically for call center environments.
+
+MAI-Voice-2.1: multilingual TTS in 23 languages, Microsoft's most expressive speech synthesis model to date.
+
+MAI-Voice-2.1-Flash: high-volume, low-latency variant for contact centers handling thousands of concurrent calls.
+
+On top of that, they launched Microsoft CCAI — connecting Azure Foundry Agents directly into contact center infrastructure. Native agent orchestration, not a third-party integration layer.
+
+This is a platform bet. Microsoft just decided contact centers are a strategic vertical worth owning, not a market segment to partner into.
+
+For every CCaaS vendor — NICE, Genesys, Five9, Talkdesk — the clock just started on a 12-18 month window. Microsoft's distribution and enterprise relationships are not the same competition as a startup. When Azure Foundry agents can natively handle your contact center workflows with Microsoft-native speech models, the integration story for third-party vendors gets harder.
+
+At Ender Turing, we watch where the infrastructure is moving. Sub-100ms latency in 60 languages is a capability threshold change. It's not incremental.
+
+The question CCaaS vendors need to be answering right now: what do we do better than Azure Foundry natively? If you don't have a clear answer to that, the next 18 months are going to be difficult.

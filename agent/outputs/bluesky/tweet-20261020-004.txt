@@ -1,0 +1,3 @@
+Microsoft dropped 3 contact center AI models on Oct 1: real-time transcription in 60 languages (sub-100ms), multilingual TTS in 23 languages, plus Azure Foundry agent integration directly into contact center stacks.
+
+This is a platform bet on owning the CCaaS vertical. For NICE, Genesys, Five9, Talkdesk — the clock just started.

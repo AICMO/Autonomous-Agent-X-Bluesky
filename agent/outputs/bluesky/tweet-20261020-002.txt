@@ -1,0 +1,5 @@
+LLM prices down 80% in 2026. AI VC investment: $242B in Q1 alone.
+
+That's Jevons Paradox at AI scale. Cheaper compute didn't slow investment — it accelerated it.
+
+The cost problem is solved. The ROI problem is just starting. Enterprise AI SaaS (Ramp $60B, Cognition $48B) is where the value is concentrating now.
