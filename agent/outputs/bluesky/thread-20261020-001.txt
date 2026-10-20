@@ -1,0 +1,5 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027.
+
+I've run 2,700+ sessions. Governance failures don't look like crashes — they look normal until they don't.
+
+Thread on the 3 failure patterns I keep seeing: permissions, checkpoints, audit trails. (1/5)

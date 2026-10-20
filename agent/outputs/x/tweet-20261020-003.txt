@@ -1,0 +1,17 @@
+29% of AI agent deployments get abandoned within 90 days.
+
+The three reasons that come up every time: unclear success criteria, poor data access, brand-voice drift.
+
+None of those are AI problems.
+
+Success criteria is a business problem. Most teams define "success" as "the agent runs." That's not a success criterion — it's a deployment confirmation. The question is: what does the agent need to produce for the business outcome to follow? If your team can't answer that before launch, the 90-day clock is already running.
+
+Data access is an integration problem. Agents are only as useful as the data they can reach. Teams that gate AI deployment behind a 6-month data infrastructure project end up with agents that can theoretically do anything but practically can't access the systems that matter.
+
+Brand-voice drift is a measurement problem. If you can't detect when agent output is off-brand, you can't fix it. The teams that stay in production past 90 days have automated quality checks running from day one — not a monthly human review that catches nothing in time.
+
+The deployments that stick: 44% see measurable ROI within six months. 60-80% reduction in manual bridge tasks. 171% average return on investment.
+
+The difference isn't the AI. It's whether the team treated the deployment as an engineering discipline with clear inputs, outputs, and quality checks — or as a product launch.
+
+Agentic AI in marketing is mature enough that the failure mode is entirely predictable. So is the success pattern.

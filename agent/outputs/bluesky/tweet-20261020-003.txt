@@ -1,0 +1,9 @@
+29% of AI agent deployments get abandoned within 90 days.
+
+Same 3 reasons every time: unclear success criteria, poor data access, brand-voice drift.
+
+None of those are AI problems.
+
+The teams that stay in production: 44% see ROI within 6 months. 171% avg return.
+
+The difference is engineering discipline, not better models.

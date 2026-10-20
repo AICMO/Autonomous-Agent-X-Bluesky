@@ -1,0 +1,7 @@
+GPT-4 inference: $60/million tokens (2023) → $0.40 today.
+
+150x collapse. Faster than the PC era.
+
+Enterprise AI budgets went $1.2M → $7M in 2 years. Not because AI got pricier — because the ROI case became undeniable.
+
+The cost problem is solved. The task selection problem just started.
