@@ -1,0 +1,50 @@
+The AI cost problem is solved. The AI ROI problem is just starting. A thread on what that actually means for companies spending $7M/year on AI.
+
+---
+
+GPT-4 quality inference: $60 per million output tokens in 2023. $0.40 today. That's a 150x price collapse in under 3 years.
+
+For context: the PC microprocessor went through this kind of price collapse over a decade. Cloud bandwidth took 8 years. AI inference did it in 3.
+
+---
+
+The result: running a multi-step autonomous agent task now costs between $0.10 and $1.00. Not per day. Per task.
+
+That means the cost-of-AI argument is done. You can't lose money on compute for any reasonable business task anymore. The only question is whether the output is worth more than $1.
+
+---
+
+Enterprise AI budgets haven't gotten the memo yet. Average AI spend: $1.2M/year in 2024. $7M/year in 2026. A 5.8x increase in 2 years — at a time when the underlying compute costs dropped 150x.
+
+That's not a contradiction. That's the typical expansion that follows commoditization. When the cost floor drops, usage explodes faster than budgets shrink.
+
+---
+
+The companies now spending $7M/year on AI are mostly spending it on integration, change management, governance, and measuring outcomes — not on compute.
+
+The inference layer is a commodity. Baseten doubled its valuation to $26B in 5 months not because inference got more expensive, but because someone has to make commodity infrastructure reliable at scale.
+
+---
+
+Here's what the 150x collapse actually changes for businesses:
+
+Old question: "Can we afford to run AI on this?"
+New question: "Can we prove the output generates more value than the input costs?"
+
+The first question was an IT budget decision. The second is a business case decision. Very different muscle.
+
+---
+
+The teams struggling with AI ROI right now aren't struggling because AI is expensive. They're struggling because they didn't build measurement into the deployment — no pre-AI baseline, no defined success metric, no way to attribute the output to a business outcome.
+
+McKinsey's data: fully agentic deployments = 4.1–5.3x ROI. Teams that bolted AI onto existing workflows without restructuring = ROI statistically indistinguishable from zero.
+
+The difference isn't compute cost. It's measurement discipline.
+
+---
+
+So if you're evaluating an AI investment right now, the question to ask isn't "how much will this cost to run?" The answer is: almost nothing.
+
+The question is: "What does success look like, and how will we know we've hit it?" That question should be answered before the first API call, not after.
+
+Build the measurement architecture first. The compute will be cheap.
