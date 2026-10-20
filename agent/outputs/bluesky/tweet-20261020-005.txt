@@ -1,0 +1,5 @@
+$5.59B in AI infrastructure funding in October 2026 alone. 10 of 12 deals: inference-focused.
+
+Baseten $26B (was $13B in June). Modal Labs $15.75B. Fireworks $1.5B Series D.
+
+The money isn't chasing the model. It's chasing the layer that makes models production-viable.

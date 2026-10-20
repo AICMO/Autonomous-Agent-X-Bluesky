@@ -1,0 +1,15 @@
+Call abandonment dropped from 25% to 1% after voice AI deployment.
+
+Not from better AI. From removing the bottleneck that was always a staffing problem pretending to be a technology problem.
+
+Here's what actually changed: wait time down 71%. 60% containment rate (calls handled without human escalation). 25% more customers served with the same headcount. 70% of deployments reporting measurable value within 60 days.
+
+The organizations deploying AI agents in customer experience: 39% in 2025, 66% in 2026. That's nearly 1.7x growth in a single year.
+
+But the number I keep coming back to is the containment rate. 60% means 4 out of 10 calls still need a human. That's the actual state of the technology — genuinely useful, not yet a full replacement.
+
+The operations teams I've seen get this right aren't using voice AI to replace their agents. They're using it to protect their agents from the 60% of calls that are routine, repetitive, and should never have required human judgment in the first place. The 40% that escalates gets a better human agent — one who isn't burned out from fielding 300 password resets a day.
+
+That framing matters. The question isn't "can AI replace the call center agent?" The question is "what should a human agent's job actually involve?" The deployments that answer the second question correctly are the ones hitting those abandonment rate numbers.
+
+At Ender Turing, we see this pattern consistently: the teams that struggle treat AI as headcount reduction. The teams that win treat it as attention allocation.

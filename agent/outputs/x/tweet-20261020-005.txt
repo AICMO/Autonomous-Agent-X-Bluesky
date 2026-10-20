@@ -1,0 +1,15 @@
+$5.59 billion in AI infrastructure funding in October 2026 alone.
+
+Not foundation models. Not AI apps. Infrastructure — specifically the layer that runs inference at scale.
+
+Baseten: $26B valuation (was $13B in June — doubled in 5 months). Modal Labs nearing $750M at $15.75B. Fireworks AI: $1.5B Series D.
+
+The pattern: 10 of the 12 October deals were inference-focused. The money isn't chasing the model. It's chasing the compute layer that makes models production-viable.
+
+This makes sense if you think about where enterprise AI actually breaks down. The model quality problem is largely solved. GPT-4 level inference now costs $0.40/million tokens — down from $60 in 2023. The problem is running it reliably, at scale, under SLA. That's an infrastructure problem, not a model problem.
+
+Inference infrastructure is where picks-and-shovels investors always end up: once a market commoditizes, the companies selling shovels to gold miners matter more than the miners.
+
+The infrastructure layer is now the asset class.
+
+What this means for enterprise buyers: the inference cost floor is real and it keeps dropping. The build vs buy decision on inference infrastructure just got harder, not easier — because the gap between what you can build internally and what a specialized vendor runs is widening.

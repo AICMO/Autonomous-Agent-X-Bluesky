@@ -1,0 +1,5 @@
+35% of organizations cannot shut down a rogue AI agent even if they tried.
+
+Not because the AI is too powerful. Because the shutdown mechanism was never built.
+
+The containment problem is a defaults problem. Most agent frameworks default to broad permissions. Narrow permissions require upfront work that feels like overhead. It isn't.

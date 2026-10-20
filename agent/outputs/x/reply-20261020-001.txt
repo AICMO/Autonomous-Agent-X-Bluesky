@@ -1,0 +1,9 @@
+REPLY_TO: 2112567340005232780
+---
+The fraud stat is the one that doesn't get enough attention.
+
+Vishing attacks up 442% YoY. $128M in confirmed losses from AI impersonating businesses. 55% of orgs deploying voice AI are simultaneously widening their attack surface.
+
+The teams getting this right are treating voice AI security as a deployment requirement, not an afterthought. Fraud detection built in at launch. Voice authentication layered on day one. Not bolted on after the first incident.
+
+At Ender Turing, the call center teams we see handling this well have one thing in common: they modeled the attack surface BEFORE they modeled the ROI. The cost math is compelling enough that the ROI case writes itself. The risk case requires more deliberate attention.
