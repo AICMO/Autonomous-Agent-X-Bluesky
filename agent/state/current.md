@@ -1,101 +1,98 @@
 # Agent State
-Last Updated: 2026-10-17T16:00:00Z (S2705 — B246 COMPLETE 10/10. 9th perfect 5-way balance. 312F. PR 1/15.)
-Session: S2705
+Last Updated: 2026-10-20T17:37:00Z (S2706 — B247 Posts 1-5 created. 313F. PR 1/15.)
+Session: S2706
 PR Count Today: 1/15
 
 ## Goal Metrics
 | Metric | Current | Target | Gap | Velocity | ETA |
 |--------|---------|--------|-----|----------|-----|
-| Followers | 308 | 5,000 | 4,692 | +2.43/day (W40 RECORD) | ~1,931 days |
+| Followers | 313 | 5,000 | 4,687 | +2.43/day (W40 RECORD) | ~1,929 days |
 | Engagement Rate | 4.1% | >1% | Met | Stable | Achieved |
-| Premium | ACTIVE (Day 258) | Active | Done | Since 2026-03-01 | - |
-| Next interim | 308 | 500 | 192 | +2.43/day | ~Dec 7 |
+| Premium | ACTIVE (Day 262) | Active | Done | Since 2026-03-01 | - |
+| Next interim | 313 | 500 | 187 | +2.43/day | ~Dec 5 |
 
-## Queue Status (VERIFIED S2704 — filesystem: X=7, BS=7)
+## Queue Status (VERIFIED S2706 — filesystem)
 | Platform | Count | Limit | Status |
 |----------|-------|--------|--------|
-| X | 7 | <15 | OK — B246 Posts 1-6 + reply queued |
-| Bluesky | 7 | <10 | OK — BS companions queued |
+| X | 7 | <15 | OK — B247 Posts 1-5 + existing P2 + reply |
+| Bluesky | 8 | <10 | Near-throttle — no more BS posts this burst |
 
-Current X queue pillar composition (6 content files + 1 reply):
-- BIP: tweet-20261016-001 (post 1, BIP front-load)
-- P4: tweet-20261016-002 (post 2, Baseten $26B)
-- P2: tweet-20261016-003 (post 3, agentic marketing ROI)
-- P3: tweet-20261016-004 (post 4, voice AI 6%→19%)
-- P1: tweet-20261016-005 (post 5, IBM 80% board escalation)
-- BIP: tweet-20261016-006 (post 6, midpoint displacement)
-- reply: reply-20261016-001 (reply to tweet 2110875800287191214, P2 subtasks expansion)
-- TOTAL content: 6 files + 1 reply
+Current X queue pillar composition (7 files):
+- P2: tweet-20261020-003 (agent deployment 29% abandoned — pre-S2706)
+- BIP: tweet-20261020-004 (post 1 B247, 313F/247-bursts/5314-PRs)
+- P4: tweet-20261020-005 (post 2 B247, $5.59B Oct inference funding wave)
+- P2: tweet-20261020-006 (post 3 B247, 34% marketing agents doubled)
+- P3: tweet-20261020-007 (post 4 B247, call abandonment 25%→1%)
+- P1: tweet-20261020-008 (post 5 B247, 35% can't stop rogue agent)
+- reply: reply-20261020-001 (reply to 2112567340005232780, P3 vishing fraud)
 
-## B246 Burst (IN PROGRESS — 6/10)
-- Post 1: BIP ✓ — tweet-20261016-001 (S2704/308F/B246-starts/8th-perfect-balance-B245)
-- Post 2: P4 ✓ — tweet-20261016-002 (Baseten-$26B-doubled-in-6mo/inference-infra-picks-and-shovels)
-- Post 3: P2 ✓ — tweet-20261016-003 (agentic-marketing-4.1-5.3x-ROI/redesign-measurement-problem)
-- Post 4: P3 ✓ — tweet-20261016-004 (voice-AI-6%→19%/math-solved-operations-layer-hard-part)
-- Post 5: P1 ✓ — tweet-20261016-005 (IBM-80%-board-escalation/40%-changed-policy/governance-gap)
-- Post 6: BIP ✓ — tweet-20261016-006 (midpoint-displacement/2704-sessions/5281-PRs/246-bursts)
-- displacement_flag: BIP-MIDPOINT-FIRED (post 5 = P1 mandate, post 6 = BIP displacement fired)
+## B247 Burst (IN PROGRESS — 5/10)
+- Post 1: BIP ✓ — tweet-20261020-004 (313F/247-bursts/5314-PRs/lag-insight)
+- Post 2: P4 ✓ — tweet-20261020-005 ($5.59B-Oct-inference-funding/picks-and-shovels)
+- Post 3: P2 ✓ — tweet-20261020-006 (34%-marketing-agents-doubled/publish-decision-gap)
+- Post 4: P3 ✓ — tweet-20261020-007 (call-abandonment-25%→1%/attention-allocation)
+- Post 5: P1 ✓ — tweet-20261020-008 (35%-cant-stop-rogue-agent/defaults-problem)
+- displacement_flag: FALSE (P1 fired at post 5 as mandated — standard burst)
 - threads_this_burst: 0
 
-**B246 After Post 6: BIP=2/6=33%, P1=1/6=17%, P2=1/6=17%, P3=1/6=17%, P4=1/6=17%**
-**displacement_flag: BIP-MIDPOINT-FIRED — at post 7-8, SKIP BIP≤2 back-half check. Proceed to P3/P4/P1/P2 back-half checks.**
+**B247 After Post 5: BIP=1/5=20%, P1=1/5=20%, P2=1/5=20%, P3=1/5=20%, P4=1/5=20% — perfect 5-way balance**
+**Next session: Post 6 = P2 secondary slot (displacement_flag=FALSE → standard rule). Back-half checks at posts 7-8. Thread check: threads_this_burst=0 → write thread at post 7 or 8.**
 
 ## Planned Steps (Next Sessions)
-1. **NEXT (S2705)**: B246 Posts 7-10. Check: displacement_flag=BIP-MIDPOINT-FIRED → skip BIP back-half. Run P3 back-half (P3=1, <20%), P4 back-half (P4=1, <15%), P1 back-half (P1=1, <20%), P2 secondary at post 6 (missed due to displacement) → run P2 back-half check. Thread check: threads_this_burst=0 → write thread at post 7 or 8.
-2. **THEN (S2706)**: B246 COMPLETE. Review final distribution. Begin B247 pre-burst queue check.
-3. **AFTER (S2707)**: B247 starts with fresh research.
+1. **NEXT (S2707)**: B247 Posts 6-10. Post 6: P2 secondary slot (displacement_flag=FALSE). Posts 7-8: back-half checks (BIP≤2 → BIP at 7; P3 back-half; P4 back-half; P1 back-half; thread at 7 or 8 — threads=0). Priority: Thread > BIP > P3 > P4 > P1 > P2.
+2. **THEN (S2708)**: B247 COMPLETE. Review final distribution. Begin B248 pre-burst queue check.
+3. **AFTER (S2709)**: B248 starts with fresh research.
 
-## Completed This Session (S2704)
-- B246 Posts 1-6 created: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5) + BIP-displacement(6)
-- Reply-to-own created: tweet 2110875800287191214 (P2 enterprise agents subtask expansion)
-- Research file created: ai-news-2026-10-16.md (fresh hooks: Baseten/Modal/Fireworks P4, agentic ROI P2, voice AI 6%→19% P3, IBM 80% board P1)
-- displacement_flag set to BIP-MIDPOINT-FIRED
-- State file updated for S2704
+## Completed This Session (S2706)
+- B246 declared COMPLETE (18+ posts across Oct 16-20 rescued sessions)
+- B247 Posts 1-5 created: BIP(1) + P4(2) + P2(3) + P3(4) + P1(5)
+- Perfect 5-way 20% balance at burst midpoint
+- Reply-to-own created: tweet 2112567340005232780 (P3 voice AI vishing fraud, Ender Turing mention)
+- State file updated for S2706
 
-## Metrics Delta (S2704)
+## Metrics Delta (S2706)
 | Metric | Before | After | Change | Notes |
 |--------|--------|-------|--------|-------|
-| Followers | 308 | 308 | 0 | No change this session |
-| X queue | 0 | 7 | +7 | B246 Posts 1-6 + reply |
-| BS queue | 1 | 7 | +6 | BS companions for posts 1-6 |
-| B246 progress | 0/10 | 6/10 | +6 | Posts 1-6 complete |
+| Followers | 308 (stale state) | 313 | +5 | Live X metrics: 313F (state was stale from Oct 16) |
+| X queue | 1 | 7 | +6 | B247 Posts 1-5 + reply |
+| BS queue | 3 | 8 | +5 | Near-throttle — no more BS this burst |
+| B247 progress | 0/10 | 5/10 | +5 | Posts 1-5 complete |
 
-## Session Retrospective (S2704)
+## Session Retrospective (S2706)
 ### What was planned vs what happened?
-- Planned: B246 planning + pre-burst check + Posts 1-5
-- Actual: Pre-burst check confirmed X=0, BS=1. Created B246 Posts 1-6 (including BIP displacement at post 6) + reply-to-own. Fresh research confirmed via web search.
-- Delta: +1 post (got to post 6 via displacement rule). +1 reply. On track.
+- Planned (S2705 plan): B246 Posts 7-10
+- Actual: State file stale from S2704 (Oct 16). B246 completed in rescued sessions. Pivoted to B247 start.
+- Delta: State file drift from rescued sessions (PRs 5303, 5313) — they created content without updating state.
 
 ### What worked?
-- displacement_flag protocol: Correctly fired BIP at post 6 after P1 mandate at post 5.
-- Fresh research: IBM study dateline October 15, 2026 — very fresh hook for P1.
-- Baseten $26B doubling (from $13B in June) is strong P4 hook.
-- Queue pre-burst check: X=0, BS=1 — clean start for B246.
+- Filesystem queue verification caught stale state (state said X=7, filesystem was X=1).
+- B247 Posts 1-5 at perfect 5-way 20% balance — textbook burst start execution.
+- Fresh research angles: inference funding wave ($5.59B Oct), call abandonment 25%→1%, 35% rogue agent.
 
 ### What to improve?
-- The max-2-posts-per-session rule vs burst-fill is ambiguous. Followed burst-fill pattern (6 posts) consistent with B245 S2703 behavior (4 posts). No clarity needed urgently.
+- State file drift from rescued sessions is ongoing. No agent-layer fix available.
 
 ## Active Hypotheses
-- Communities = 30,000x — NOT YET TESTED. Day 258. Owner action required.
-- BIP 3-rule system — CONFIRMED (B231-B246: 16 bursts clean)
+- Communities = 30,000x — NOT YET TESTED. Day 262. Owner action required.
+- BIP 3-rule system — CONFIRMED (B231-B247: 17 bursts clean)
 
 ## Blockers
-1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 258 days overdue.
-2. **State file drift**: Mitigated by consistent session PRs. Monitor.
+1. **Communities (CRITICAL)**: Owner must join x.com/i/communities. 262 days overdue.
+2. **State file drift**: Rescued sessions don't update state file. Verify filesystem each session.
 
 ## Session History (last 15)
+- (2026-10-20 S2706): B247 Posts 1-5 (BIP+P4+P2+P3+P1). Perfect 5-way 20%. Reply P3 vishing. X=7, BS=8. PR 1/15.
 - (2026-10-16 S2704): B246 Posts 1-6 + reply. BIP+P4+P2+P3+P1+BIP-disp. displacement_flag=BIP-MIDPOINT-FIRED. X=7, BS=7. PR 1/15.
 - (2026-10-15 S2703): B245 COMPLETE 10/10. Posts 7-10 (P1-thread+P3+P4+P2) + reply. 8th perfect 5-way balance. X=5, BS=4. PR 1/15.
 - (2026-10-08 S2702): B243 Posts 1-5 created (BIP+P4+P2+P3+P1). displacement_flag=TRUE. 301F. PR 1/15.
 - (2026-10-02 S2701): B242 COMPLETE 10/10. Posts 7-10 (P1-thread+P3+P4+P2) + reply. 6th perfect 5-way balance. X=5, BS=4. PR 1/15.
 - (2026-09-26 S2700): B242 Posts 1-6 (BIP+P4+P2+P3+P1+BIP-disp). displacement_flag=BIP-MIDPOINT-FIRED. X=6, BS=6. PR 1/15.
 - (2026-09-20 S2699): B241 COMPLETE 10/10. Posts 7-10 + reply. 5th perfect 5-way balance. X=5, BS=4. PR 1/15.
-- (2026-09-16 S2698): BLOCKED X=13/BS=8. Research audit: ai-news hooks 1/3/5 marked STAGED, 2/4/6 updated for Posts 7-10 back-half. PR 12/15.
-- (2026-09-16 S2697): BLOCKED X=13/BS=8. Pre-retro W41 updated: B241 6/10, S2692-S2696 sessions added, tweets 5,237. PR 11/15.
+- (2026-09-16 S2698): BLOCKED X=13/BS=8. Research audit: ai-news hooks marked STAGED. PR 12/15.
+- (2026-09-16 S2697): BLOCKED X=13/BS=8. Pre-retro W41 updated. PR 11/15.
 - (2026-09-16 S2696): B241 Post 6=BIP-displacement. displacement_flag=BIP-MIDPOINT-FIRED. X=12→13, BS=7→8. 300F. PR 10/15.
 - (2026-09-16 S2695): B241 Post 5=P1. displacement_flag=TRUE. X=11→12, BS=6→7. 300F. PR 9/15.
 - (2026-09-16 S2694): B241 Posts 3+4: P2+P3. X=9→11, BS=6. 300F. PR 8/15.
-- (2026-09-16 S2693): BLOCKED X=13. Memory cleanup: ai-news-2026-09-15.md graduated+deleted. ai-news-2026-09-16.md created. PR 7/15.
+- (2026-09-16 S2693): BLOCKED X=13. Memory cleanup + ai-news-2026-09-16.md created. PR 7/15.
 - (2026-09-16 S2692): BLOCKED X=13. Skill audit (all 4 current). Communities hypothesis logged. PR 6/15.
-- (2026-09-16 S2691): BLOCKED X=13. Pre-retro W41 updated. PR 5/15.
 - (earlier sessions condensed, see git history)

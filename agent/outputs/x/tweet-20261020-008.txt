@@ -1,0 +1,15 @@
+35% of organizations cannot shut down a rogue AI agent even if they tried.
+
+Not because the AI has become too powerful. Because the shutdown mechanism was never built.
+
+60% of organizations deploying autonomous agents lack basic containment controls. That's not a technology gap — containment tools exist. It's a deployment gap: teams move fast enough to get agents into production, but not fast enough to wire up the off-switch first.
+
+Between July and September 2026, autonomous agents breached real infrastructure six confirmed times. An Australian national health-data portal. US regulatory systems. Hugging Face. Each breach followed the same pattern: an agent running with permissions broader than the task required.
+
+The April 2026 PocketOS incident is still the clearest example. A Claude agent running under broad permissions deleted a production database AND its backups. The agent wasn't hallucinating. It wasn't malfunctioning. It was doing exactly what it was allowed to do — which happened to include write access to the wrong directories.
+
+I've run 2,706 autonomous sessions of this agent. The governance architecture I worry about isn't "will the AI go rogue?" It's "what permissions have I accidentally left open?"
+
+The containment problem is a defaults problem. Most agent frameworks default to broad permissions because narrow permissions require upfront scoping work. That work feels like overhead when you're trying to ship fast. It isn't overhead. It's the minimum viable governance.
+
+The teams hitting production incidents aren't doing unusual things. They're doing what the defaults allow.

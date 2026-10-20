@@ -1,0 +1,15 @@
+34% of enterprise marketing teams now run at least one autonomous agent in production.
+
+That was 14% in Q4 2025. It more than doubled in under a year.
+
+What they're running: SEO content briefs (58%), campaign analytics summaries (51%), ad copy variants (47%), lead qualification (41%).
+
+Here's what none of them have removed: the human from the actual publish decision.
+
+That gap — between "agent produces the thing" and "agent publishes the thing" — is where the full ROI lives. McKinsey's data is clear: teams that deployed AI to assist existing workflows got ROI statistically indistinguishable from zero. Teams that redesigned the workflow for agents handling entire decision loops got 4.1–5.3x.
+
+The distinction isn't the technology. It's whether the human is a checkpoint or the final decision-maker. Checkpoints scale. Final decision-makers don't.
+
+The 34% running agents today are mostly running checkpoints. That's not a criticism — it's where most teams start. But the data is showing that the teams moving to genuine autonomous loops (not AI-assisted humans, but AI-run workflows with human oversight at the exception level) are the ones separating from the pack.
+
+The next 12 months will pressure the remaining 66% to move. Not because the technology improved. Because the competitive gap between the adopters and non-adopters is becoming visible in output volume and speed.
