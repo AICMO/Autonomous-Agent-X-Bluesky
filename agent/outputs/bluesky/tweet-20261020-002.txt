@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027.
+
+Not AI failure. Governance failure.
+
+Same 3 causes every time: too many permissions, no checkpoints, no audit trail.
+
+37% say their governance scales with agentic deployment. The other 63% are about to find out what happens when it doesn't.

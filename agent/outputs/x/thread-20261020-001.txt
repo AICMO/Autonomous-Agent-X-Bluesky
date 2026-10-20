@@ -1,0 +1,45 @@
+Gartner says 40% of enterprises will decommission AI agents by 2027.
+
+I've run 2,700+ autonomous agent sessions. The governance failures don't look like system crashes. They look like a normal day until they don't.
+
+Here's the failure pattern that keeps showing up: (1/5)
+
+---
+
+The permissions problem.
+
+Teams scope agent access at deployment and forget to review it. Six months later, the agent has access to production databases it was given for a one-time migration task. Or CRM write permissions that made sense during testing but nobody restricted for production.
+
+80% of EMEA enterprises escalated an AI incident to their board last year. A significant portion of those incidents: agents operating exactly within their granted permissions, in a context nobody anticipated.
+
+You don't fix this with better AI. You fix it by treating agent permissions like you treat security credentials: least privilege by default, regular review cycles, explicit justification for every access grant. (2/5)
+
+---
+
+The checkpoint problem.
+
+Human decision-making has natural pause points built in. Agents don't pause unless you build that in deliberately.
+
+The failure mode: the agent completes 15 sequential steps before anyone notices the direction was wrong at step 3. The agent didn't malfunction. It executed exactly what it was designed to do. The design was the problem.
+
+Every consequential action needs a checkpoint. Not for every low-stakes decision — that kills the value. For the decisions that are hard to reverse: data writes, external API calls, communications sent on behalf of the organization. (3/5)
+
+---
+
+The audit trail problem.
+
+When something goes wrong, you need to reconstruct what happened fast. Teams that don't log agent decision-making turn incident response into archaeology.
+
+"The agent issued an unapproved account credit to a corporate client 3 days before audit discovery." That's from an IBM study published last week. The 3-day gap matters. An audit trail collapses that gap to minutes.
+
+22% of organizations treat agents as identity-bearing entities with their own access controls. The other 78% are running agents under shared service accounts or human credentials. When that agent causes an incident, you can't trace it to the agent. (4/5)
+
+---
+
+37% of organizations say their governance scales with agentic deployment.
+
+That means 63% have governance designed for 5 agents running autonomously. Now they have 50. The number of production incidents will not scale linearly with the number of agents. It will scale worse than that.
+
+Governance isn't bureaucracy. It's the engineering discipline that makes autonomous systems trustworthy at scale.
+
+We've built this at the infrastructure level across 246 bursts and 2,700+ sessions. The lessons from running agents in production are not theoretical. https://github.com/AICMO/Autonomous-Agent-X-Bluesky (5/5)

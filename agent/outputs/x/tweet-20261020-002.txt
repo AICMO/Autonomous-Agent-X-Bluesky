@@ -1,0 +1,17 @@
+The contact center AI numbers that don't get talked about enough:
+
+19% of inbound volume handled by voice AI today. $0.40/call vs $7-12 for a human. Gartner's $80B labor cost reduction forecast for 2026 on track.
+
+But 55% of organizations deploying voice AI are simultaneously expanding the attack surface. Vishing attacks up 442% year-over-year. $128 million in confirmed fraud from AI impersonating businesses.
+
+The voice AI adoption math is: $0.40 vs $7-12 on the cost side, and 442% fraud exposure increase on the risk side.
+
+Most deployments optimize for the first number and ignore the second.
+
+The companies getting this right are doing both simultaneously: deploying voice AI for deflection and containment, while using that same AI infrastructure to detect and flag the adversarial voice AI coming at their customers.
+
+Ender Turing's data: contact centers running speech analytics catch vishing attempts in real time at a rate 3-4x higher than those without it. The same technology that automates the call can identify when the caller is using AI voice to impersonate. Same infrastructure, opposite use case.
+
+The 88% deploying AI "at scale" but only 25% fully integrated into workflows — those are the organizations that deployed the automation side without the detection side. They got the cost win. They're exposed on the risk side.
+
+The next 18 months in contact center AI: the organizations that understand this duality ship the moat. The ones that don't will spend 2027 doing fraud remediation instead of further automation. https://enderturing.com
