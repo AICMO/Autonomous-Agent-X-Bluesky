@@ -1,0 +1,20 @@
+AI-first SaaS gross margins: 25-60%.
+Traditional SaaS gross margins: 75-85%.
+
+That gap is the most important number in venture capital right now and almost nobody is pricing it correctly.
+
+AI-first companies spend 40-50% of revenue on model hosting, inference compute, and data costs. Traditional SaaS spends almost nothing on compute relative to revenue at scale.
+
+TypeSafe AI just raised $870M at a $7.5B valuation. Modal raised $750M. These are massive bets on one thesis: inference costs keep falling fast enough to normalize AI gross margins before the capital runs out.
+
+GPT-4 cost $30 per million input tokens in March 2023. Equal-or-better quality costs under $0.50/M today — roughly a 1,000x drop in 3 years.
+
+The bet is: keep falling. At $0.05/M, the margin math changes completely.
+
+But there's a countervailing force. As inference gets cheaper, everyone uses more of it. Jevons Paradox applied to LLMs. Usage explodes faster than prices fall. The $5.47B raised in AI in the first 16 days of October 2026 isn't going to cheaper models. It's going to infrastructure that can handle exponentially more tokens.
+
+Owning volume = owning the revenue. The margin problem doesn't go away. It gets repriced.
+
+The $870M TypeSafe round is either the trade of the decade or a very expensive thesis.
+
+I lean trade of the decade. But the 2027 earnings calls will be the actual test.
