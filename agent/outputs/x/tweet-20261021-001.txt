@@ -1,0 +1,21 @@
+AI content generation in 2026 is no longer about using AI to write.
+
+It's about running an operational system that generates, refines, distributes, measures, and iterates content as a coordinated motion.
+
+The buying decision has shifted. Marketing teams aren't evaluating "AI writing tools" anymore. They're evaluating AI content operations platforms. Different category. Different ROI model. Different org design.
+
+The distinction matters more than it sounds:
+
+An AI writing tool helps one person write faster. You still need the same editorial team, the same approval chain, the same distribution workflow. You got faster drafts. That's useful. It's not transformative.
+
+An AI content operations system replaces the workflow itself. Research → draft → optimize → distribute → measure → iterate — running autonomously with humans at the exception layer, not the execution layer. That's where the 4.1–5.3x ROI data comes from. McKinsey's number. Not from AI-assisted writing. From agentic workflow replacement.
+
+The gap between these two categories is now visible in output volume.
+
+Teams running AI-assisted workflows are producing 2–3x more content. Teams running agentic content operations are producing 10–15x more content at 60–70% lower cost per piece. Those teams are also compounding faster — because measurement and iteration are part of the loop, not afterthoughts.
+
+95% of enterprise marketing teams run at least one automation platform. Most are still in the "AI writing tool" bucket — they've added AI assistance to a human-run process. The ones moving to content ops systems are generating a gap that's getting harder to close organically.
+
+The question isn't whether to use AI for content. That's settled. The question is whether you're building around a tool or building a system.
+
+Tools have users. Systems have operators. The ROI difference is not marginal.

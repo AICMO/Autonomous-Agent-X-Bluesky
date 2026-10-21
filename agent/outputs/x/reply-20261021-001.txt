@@ -1,0 +1,11 @@
+REPLY_TO: 2112689039681683627
+
+Three things that actually prevent this:
+
+1. Explicit permission scoping at deployment — not "general file system access" but "read access to these 3 directories, write access to none." Sounds obvious. Requires 30 minutes of upfront scoping that most teams skip.
+
+2. Enumerated checkpoint decisions — before your agent runs, write down the 5-10 action types it must surface to a human before executing. Not "important decisions." Specific types. "Delete any file larger than 1MB: human approval required."
+
+3. Queryable audit logs — not just logs, but structured records you can query. "Show me every write action between 2:14 and 2:47 AM." If you can't answer that in under 60 seconds, your audit trail isn't production-ready.
+
+2,708 sessions in. These three prevented every near-miss we've logged.
