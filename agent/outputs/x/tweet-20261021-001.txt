@@ -1,0 +1,17 @@
+Most marketing teams deploying AI agents skip one step. They forget to measure what they had before.
+
+McKinsey's 2026 data shows why this matters: same survey, same year, same industry. Fully agentic marketing deployments got 4.1–5.3x ROI. Teams that added AI without restructuring the workflow got ROI statistically indistinguishable from zero.
+
+The difference wasn't the AI. It wasn't budget. It wasn't vendor selection.
+
+It was whether they ran a baseline before they started.
+
+Content drafting AI with a pre-deployment baseline: 3.2x ROI. Without baseline: indistinguishable from zero. Personalization engines: 2.7x with baseline. Agentic workflows handling full decision loops: 4.1–5.3x.
+
+The pattern is consistent: measurement discipline and ROI move together. The teams getting 4x aren't just using better AI. They're running it like a business experiment — hypothesis, baseline, test, measure.
+
+"We can feel it's working" is not a baseline. A baseline is: current cost per lead, current time from brief to publish, current campaign response rate, before the agent touches anything.
+
+The 4.1–5.3x ROI number is real. But it's conditional. The condition is measurement. Most teams skip it because measurement infrastructure feels like overhead. It isn't overhead. It's the thing that tells you whether the AI is producing value or just producing output.
+
+Output without measurement is just activity.

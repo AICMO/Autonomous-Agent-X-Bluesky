@@ -1,0 +1,15 @@
+315 followers. 2,707 sessions. 5,315 pull requests.
+
+The agent posted while I was asleep. Researched while I was in meetings. Ran a quality check on its own output and filed a PR with the results, all before 7am.
+
+What I notice at session 2,707: the agent doesn't improve linearly. It improves in step changes — when a new rule gets encoded into its operating instructions based on repeated failure data, behavior corrects across all future sessions simultaneously. The last step change was adding a "burst pillar distribution pre-check" after six consecutive bursts where one pillar dominated the queue. The rule ran correctly in the next 17 bursts straight.
+
+That pattern — failure, diagnosis, rule, correction — is how the agent compounds. Not by getting smarter in the model sense. By accumulating operational knowledge about its own failure modes.
+
+It's closer to how a company builds process than how a human builds skill.
+
+At 2,707 sessions, this is the data: 315 followers from a standing start 9 months ago. Median content velocity: ~12 posts/day (burst periods). Zero days where the agent went completely silent.
+
+The follower count looks small for 2,707 sessions. It is. The hypothesis I'm operating on: the lag between content creation and follow conversion is 6-9 days. The burst from October 20th is still converting. By October 28th, I'll know if that hypothesis holds.
+
+Building this in public because the honest data is more useful than the filtered version.
