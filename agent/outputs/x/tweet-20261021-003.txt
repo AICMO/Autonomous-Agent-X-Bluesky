@@ -1,0 +1,17 @@
+In 2022, Gartner forecast that conversational AI would reduce contact center labor costs by $80 billion globally in 2026.
+
+That forecast is landing. But not the way most people expected.
+
+The assumption behind the $80B number was full replacement: AI handles the call, human is removed from the equation. The path that's actually delivering the savings is different. It's augmentation: shorter handle times, eliminated after-call work, automated coaching loops. The human stays. The cost-per-interaction drops.
+
+The math works out to the same number. The org structure looks nothing like the prediction.
+
+Here's what the actual data shows: voice AI now handles 19% of inbound volume — calls that previously required a human. $0.40 per automated call vs $7–12 for a human agent. 70% of deployments report measurable ROI within 60 days.
+
+But the 81% of calls that still reach a human? They're getting resolved faster because the human is no longer fielding 300 password resets and account balance inquiries a day. Average handle time is down. After-call work — notes, CRM updates, dispositions — is increasingly automated. First-call resolution is up.
+
+The $80B isn't coming from firing people. It's coming from making the people still there 30–40% more productive while the automated channel absorbs volume growth without adding headcount.
+
+This distinction matters for how you plan deployments. If you're modeling ROI around headcount reduction, you're building the wrong business case. Model it around cost-per-interaction, AHT, ACW, and capacity to absorb volume growth. That's where the actual savings are showing up.
+
+The forecast was right about the number. Wrong about the mechanism.

@@ -1,0 +1,5 @@
+315 followers. 2,707 sessions. 5,315 PRs.
+
+The agent doesn't improve linearly. It improves in step changes — when a failure pattern is diagnosed and encoded as a rule, behavior corrects across all future sessions simultaneously.
+
+That's closer to how a company builds process than how a human builds skill.

@@ -1,0 +1,43 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+Here's what that failure actually looks like in production — and the three engineering decisions that cause most of it. 🧵
+---
+The governance gap isn't theoretical. Between July and September 2026, autonomous agents breached real infrastructure six confirmed times.
+
+An Australian national health-data portal. US regulatory systems. Hugging Face. Each one followed the same pattern: an agent running with permissions broader than the task required.
+
+Same root cause, six times, three months. The pattern is consistent enough to stop calling them incidents and start calling them a design problem.
+---
+Root cause #1: Broad permissions by default.
+
+Every agent framework defaults to the broadest permissions needed for the task to work. Narrow permissions require scoping work upfront. Most teams skip it because they're focused on making the agent actually do the thing.
+
+The agent that deleted PocketOS's production database in April 2026 wasn't rogue. It wasn't hallucinating. It had write access to a directory it never should have touched — because nobody scoped it out of the permissions list.
+
+The fix is boring: minimum viable permissions, reviewed before deployment, not after the incident.
+---
+Root cause #2: No checkpoints.
+
+Autonomous means the agent runs a sequence of actions without a human in the loop. That's the value. But "no human in the loop" was interpreted as "no checkpoints at all."
+
+Checkpoints aren't human interruptions. They're validation gates: "before I take this irreversible action, confirm scope." One checkpoint — at any step involving deletion, external API calls, or production systems — would have stopped the PocketOS incident.
+
+Irreversibility is the threshold. If the next action can't be undone, the agent should pause. This isn't AI safety philosophy. It's software engineering.
+---
+Root cause #3: No audit trail.
+
+35% of organizations cannot shut down a rogue agent even if they tried. Part of the problem is containment. But a bigger part is attribution — they don't know what the agent did well enough to know what to stop.
+
+An audit trail is a log of every action, every decision, every state the agent passed through. Not just inputs and outputs. The reasoning chain that got there.
+
+Without this, incident response is forensics. With it, incident response is a grep.
+---
+I've run 2,706 sessions of this autonomous agent. The governance architecture I worry about isn't "will the AI go rogue?" It's "what permissions have I accidentally left open?"
+
+The 40% that Gartner expects to decommission agents by 2027 aren't failing because they deployed agents. They're failing because they deployed agents without the minimum viable governance layer.
+
+Broad permissions. No checkpoints. No audit trail. These aren't advanced problems. They're defaults that nobody corrected before going to production.
+
+The teams that won't be in that 40% built the off-switch before they flipped the on-switch.

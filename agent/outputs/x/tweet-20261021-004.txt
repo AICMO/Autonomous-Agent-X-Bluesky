@@ -1,0 +1,17 @@
+GPT-4 quality inference cost $60 per million tokens in 2023. It costs $0.40 today.
+
+150x collapse in three years. That's faster than the PC microprocessor era. Faster than the dotcom bandwidth collapse.
+
+This changes a very specific calculation for enterprise buyers: the build vs buy decision on AI infrastructure.
+
+In 2023, the math was straightforward: inference was expensive, specialized vendors had maybe a 2–3x efficiency advantage over running your own stack, and if you had volume it was worth building internal capability.
+
+Today the math inverts. Inference infrastructure specialists — Baseten, Modal, Fireworks — are running at efficiencies that took them years to optimize: GPU scheduling, multi-tenancy, latency management under SLA. The gap between what a specialist can do and what an enterprise can build internally has widened as the market has matured. The 150x cost drop didn't come from commodity GPU costs alone. It came from engineering compounding.
+
+The number I keep going back to: a multi-step agent task now costs $0.10–$1.00 to complete. That's the entire transaction. Not the compute alone. The task.
+
+At $0.10–$1.00 per autonomous task, the ROI threshold is low. Most knowledge worker tasks that get done in an hour generate more than $1.00 of value. The AI cost problem is solved. The only question now is whether the task output is reliable enough to ship.
+
+Enterprise AI budget: $1.2M/year in 2024, $7M in 2026. Companies are spending 5.8x more. The cost per unit of output is going down. The total spend is going up. Both things are true simultaneously — and that's what a healthy technology adoption curve looks like.
+
+The inference layer won this decade. The application layer is still being figured out.
