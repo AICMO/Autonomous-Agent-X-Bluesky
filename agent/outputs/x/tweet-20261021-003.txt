@@ -1,0 +1,23 @@
+B247 Post 9 — P3 back-half (call center AI ROI gap: 88% deployed, 25% realized)
+
+88% of contact centers now use AI. Only 25% have actually operationalized it.
+
+The gap between "we deployed AI" and "we're getting ROI from AI" is 63 percentage points.
+
+That number has a cost. Enterprise voice AI delivers 41% first-year returns, climbing to 124% by year three. But 66% of businesses took more than 6 months to see any ROI from AI implementations.
+
+The math on contact center AI is solved. $0.40 per automated call vs $7–12 for a human agent. 19% of inbound volume now handled without human involvement. $80B in projected labor cost reduction for 2026 — Gartner's forecast, on track.
+
+The problem isn't the technology. The problem is what happens between "we deployed it" and "it's working":
+
+The handoff logic is wrong. Voice AI handles the easy calls. When it fails, it transfers to an overloaded queue. The handoff experience is worse than if the customer had spoken to a human from the start. Net result: CSAT goes down despite automation going up.
+
+The coaching loop is missing. Agents who work alongside AI are supposed to improve faster. But 70% of contact centers don't have a feedback mechanism that connects AI performance data to agent training. The AI knows which calls went badly. Nobody acts on that information.
+
+The integration surface is incomplete. 88% deployed AI. 70%+ deployed AI-driven routing and coaching. But only 25% have it integrated into daily workflows — meaning the data is there, but the people aren't using it.
+
+At Ender Turing we see this pattern constantly: organizations that buy AI for call centers and spend the first 18 months doing exactly these integration fixes. The technology worked on day one. The operations layer didn't.
+
+The 63-point gap isn't a technology problem. It's a change management and integration problem that the vendors don't solve for you.
+
+https://enderturing.com

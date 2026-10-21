@@ -1,0 +1,27 @@
+B247 Post 10 — P4 back-half (inference cost deflation + Jevons Paradox)
+
+Inference costs have fallen 10x annually for three straight years.
+
+GPT-4 quality: $60/million tokens in 2023. $0.40 today. 150x collapse.
+
+OpenAI cut GPT-5.6 input pricing 80% in July 2026 — $1.00 to $0.20/million tokens. Budget models: Qwen 3.7 Flash at $0.03/million. DeepSeek V4-Flash at $0.14/million.
+
+By every measure, inference is getting cheaper faster than anyone predicted.
+
+Enterprise AI budget response: $1.2M/year (2024) → $7M (2026). 5.8x in two years.
+
+That's the Jevons Paradox in action. When a resource gets cheaper, consumption increases faster than price decreases. Coal got cheaper → industrial output multiplied. Bandwidth got cheaper → internet traffic exploded. Inference gets cheaper → AI workloads expand to fill the budget and then some.
+
+The implication for founders:
+
+The AI cost problem is solved. Nobody is abandoning AI projects because inference is too expensive. The arbitrage between frontier models ($5+/million tokens) and commodity models ($0.03/million) is now 166x. An engineer who knows how to route tasks to the right model tier — frontier for complex reasoning, commodity for extraction and classification — can run workflows at 10% of the cost of a year ago.
+
+The new problem is ROI measurement. Not "can we afford to run this?" but "is what this agent produces worth what it costs?"
+
+That's a harder problem. And it's the one most organizations haven't started working on yet.
+
+The cost floor will keep falling. The margin pressure on pure-play inference providers is real. The value will migrate to whoever solves reliability, latency, and task-routing at scale.
+
+Inference is infrastructure now. The infrastructure is commoditizing.
+
+#AIEconomics #LLMCost #InferenceCosts
