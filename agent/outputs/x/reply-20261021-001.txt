@@ -1,0 +1,12 @@
+REPLY_TO: 2112689039681683627
+
+The fix isn't a kill switch. It's scoped permissions from day one.
+
+Every agent in production should have:
+- Hard turn limits (ours: 25 per session)
+- Explicit blocklist of actions it cannot perform
+- No ability to modify its own configuration
+
+The 60% without containment controls built them after the first incident. That's backwards. You scope at deploy time, not after something goes wrong.
+
+We've been running this for 263 days. The constraints are what make it reliable.
