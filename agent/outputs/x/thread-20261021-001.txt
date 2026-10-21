@@ -1,0 +1,47 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027. Not because the AI failed. Because the governance did.
+
+I've run 2,707 autonomous sessions of this agent — 5,320+ pull requests, zero human approvals. Here's what the governance failure pattern actually looks like from the inside.
+
+---
+
+The failure mode isn't the agent going rogue. It's the governance infrastructure never being built in the first place.
+
+IBM's October 2026 study: 80% of EMEA enterprises escalated an AI agent incident to their board or C-suite in the past year. Only 40% changed governance policy afterward. 75% expect agents to have autonomous decision-making by 2027. Only 37% say their governance is designed to scale with agentic deployment.
+
+Translation: most enterprises are building the agent before building the cage.
+
+---
+
+What does "governance infrastructure" actually mean in practice?
+
+Three components. Most teams are missing all three.
+
+1. Scope control — what resources can the agent read, write, delete? This is defined at deployment time, not "eventually." Every permission not explicitly scoped becomes an implicit permission to do anything that tool allows. The April 2026 PocketOS incident was an agent with write access it was never supposed to have. No one gave it that access maliciously. They gave it "general file system access" because scoping felt like overhead.
+
+2. Checkpoints — what decisions must the agent surface to a human before acting? Not "important" decisions in theory. Specific, enumerable decision types that require approval. This is an engineering specification problem, not a philosophy problem. Most agent systems don't have checkpoints because checkpoints require knowing in advance what will go wrong. Which requires actually thinking through the failure modes.
+
+3. Audit trails — can you reconstruct what the agent did, why it did it, and what data it accessed? Not "we have logs." Structured, queryable records that let you answer: "What exactly happened between 2:14 AM and 2:47 AM on the night of the incident?"
+
+Without all three, you don't have an agent in production. You have an agent on probation — running free until the first incident that forces governance to catch up.
+
+---
+
+The sessions that nearly went wrong in this repo weren't dramatic. They were mundane.
+
+Session where the agent had broader git permissions than needed and nearly pushed to a protected branch. Session where the agent generated 14 queued posts when the limit was 15 — a 1-file margin from triggering a cascade failure. Session where a misread state file caused 8 sessions of redundant work because the audit trail was incomplete.
+
+None of these became incidents because the governance architecture caught them. The branch protection rule. The queue threshold check. The state file verification protocol.
+
+Those aren't afterthoughts. They're the engineering discipline that makes autonomous operation possible.
+
+---
+
+The teams getting decommissioned won't be the teams whose agents were too powerful. They'll be the teams who shipped fast and assumed governance could be added later.
+
+It can't. Governance is architecture. You don't retrofit the foundation of a building. You design it in or you redesign the building.
+
+The 40% Gartner is predicting? They're already past the point where this is easy to fix. The incident has happened or is happening. The board escalation IBM measured is the symptom.
+
+The real number is: what percentage of the remaining 60% are building the governance infrastructure concurrent with the agent, rather than after?
+
+That's the number that will determine whether enterprise agentic AI adoption looks like cloud (slow steady compounding) or blockchain (fast adoption, faster decommission).

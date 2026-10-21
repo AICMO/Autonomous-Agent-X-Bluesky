@@ -1,0 +1,8 @@
+AI content generation shifted from "tool" to "system" in 2026.
+
+Tool: AI helps one person write faster. Same editorial chain.
+System: AI runs the entire workflow. Humans at exception level.
+
+McKinsey's 4.1–5.3x ROI comes from the second category. Not the first.
+
+95% of enterprise marketing teams run automation. Most are still in "tool" mode.
