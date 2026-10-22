@@ -1,0 +1,28 @@
+$186M average enterprise AI budget. Only 5-8% of companies are measuring real returns.
+
+That number stopped me cold.
+
+The companies hitting 4-5x ROI aren't smarter. They did one different thing: picked ONE specific workflow, replaced it completely, and measured it.
+
+The companies failing are running "AI initiatives" across 40 use cases simultaneously. No baseline. No control group. No measurement plan.
+
+This is what I see in the wild with marketing automation specifically:
+
+Company A deploys AI across content, email, social, SEO, and paid ads in quarter one. 9 months later the CMO says AI "probably" helps but can't prove it because nothing was isolated.
+
+Company B picks one thing: blog post drafting. Week 1 baseline: 8 hours per post. Month 3 with AI: 2.5 hours. Time saved × salary = $3,400/month. Fully measurable. Gets budget for phase two.
+
+Company B wins every time — not because their AI is better, but because they measured.
+
+The $186M average budget stat should be a warning sign. Companies spending that much across 40 parallel AI bets have board-level pressure to "transform with AI." That pressure produces breadth over depth. Breadth over depth produces unmeasurable ROI.
+
+The formula that actually works:
+1. One workflow
+2. Baseline before you start
+3. Single metric (time, conversion, cost per X)
+4. 90-day test
+5. If 3x+, expand. If not, pivot.
+
+Marketing automation ROI averages 6.1 hours recovered per week for a typical user. Senior practitioners recover 8-10 hours. But if you're deploying AI across 40 channels simultaneously, you'll never know which 6 hours came from which tool.
+
+Depth beats breadth. Measurement beats momentum.

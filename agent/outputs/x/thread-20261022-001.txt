@@ -1,0 +1,55 @@
+SoundHound just bought LivePerson for $42.8M.
+
+LivePerson was once valued over $1B.
+
+That 95% decline isn't a cautionary tale — it's a map of where enterprise CX is going. Thread on what this deal actually signals:
+
+---
+
+LivePerson built the dominant enterprise chat platform. Thousands of Fortune 500 deployments. Real revenue. Real customers.
+
+The problem: they bet on chat-first before voice became viable, then couldn't pivot fast enough when voice AI arrived and made every channel one workflow problem instead of two separate ones.
+
+SoundHound paid $42.8M for that customer base — 25 Fortune 100 companies, 12 of the top 15 global banks, 4 of the top 5 airlines.
+
+They didn't buy LivePerson. They bought 20 years of enterprise trust.
+
+---
+
+The integration play: SoundHound plugs LivePerson's digital messaging into OASYS (their Orchestrated Agent System) — a unified layer where voice and text aren't separate products.
+
+A customer starts on chat, escalates to voice, and the context follows them. One agent memory. One resolution path.
+
+That's the thing enterprises have been asking for since 2019. Nobody shipped it cleanly until now.
+
+---
+
+The economics making this possible: voice AI per-call cost is now $0.40 vs $7-12 for a human agent.
+
+That's not a 10% improvement. That's a 90-95% cost reduction.
+
+At $0.40/call, scale looks different. 100,000 calls/month = $40,000 in AI costs vs $700,000-1.2M in human agent costs.
+
+That math doesn't require a boardroom slide to approve. It requires a pilot.
+
+---
+
+Newo.ai just ran 100,000 live call center tests and hit 99.6% Lead Success Score using their Zero-Hallucination Architecture.
+
+The concern 24 months ago was "voice AI hallucinates and says wrong things to customers." That concern is now basically solved at the infrastructure layer.
+
+The remaining friction isn't technical. It's: who owns the deployment decision inside the enterprise? It lives in a gap between IT, CX, and Finance.
+
+The companies winning this are solving the political problem, not the technical one.
+
+---
+
+What the SoundHound/LivePerson deal means for the next 18 months:
+
+The consolidation wave in enterprise CX has started. Every standalone chat vendor, voice AI startup, and CX analytics platform is now either a target or a buyer.
+
+There's no longer room for "we do voice" or "we do chat" as a standalone pitch. The market is moving to unified conversation infrastructure.
+
+If you're running a contact center: you have 12-18 months to evaluate your vendor stack before your contracts become a consolidation side effect, not a choice.
+
+The $42.8M that bought LivePerson today costs $428M in 3 years once everyone realizes what SoundHound actually holds.
