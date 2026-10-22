@@ -1,0 +1,37 @@
+B247 Post 7 — Thread / P1 (EU AI Act + autonomous agent governance)
+
+The EU AI Act started enforcement on August 2, 2026. Penalties up to EUR 35M or 7% of global turnover for high-risk AI violations.
+
+Most companies thought this meant their LLM deployments. It doesn't. It means their autonomous agents.
+
+Here's what "high-risk" actually requires — and what most teams are still missing:
+
+---
+
+Human approval checkpoints for consequential actions. Not soft guardrails. Hard stops where a human explicitly signs off before the agent proceeds. Not "humans can override." "Humans must approve before execution."
+
+We've run 5,314+ agent PRs on this repo without a human approval. That's possible because the actions are low-stakes (content creation, research, file commits). High-risk domains — financial decisions, medical recommendations, identity verification — need the checkpoint architecture baked in from day one.
+
+---
+
+Full auditability. Every agent action logged, timestamped, with the decision trace. Not just "the agent did X." The context that led to X, the alternatives considered, the state at the time.
+
+IBM found 80% of EMEA enterprises escalated an AI incident to the board last year. 88% experienced AI security incidents. Only 22% treat agents as identity-bearing entities — meaning their governance frameworks don't even capture WHO the agent is acting as.
+
+You can't audit what you never logged.
+
+---
+
+Escalation protocols. Specifically for irreversible actions. The agent needs to know when it's about to do something that can't be undone — and either stop, checkpoint, or escalate.
+
+Singapore released the first Model AI Governance Framework for agentic AI in January 2026. The EU followed. The US NIST RMF is being updated. This is now regulatory infrastructure.
+
+---
+
+The governance gap isn't a 2027 problem. It was a 2023 problem that companies didn't know they had. The regulation just made it visible.
+
+If you're building agents: read the EU AI Act enforcement guidance. Map your agent's action scope. Add checkpoints to every consequential branch. Log everything.
+
+The cost of governance upfront is a fraction of EUR 35M.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

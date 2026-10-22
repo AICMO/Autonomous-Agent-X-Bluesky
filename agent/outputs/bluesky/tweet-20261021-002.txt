@@ -1,0 +1,5 @@
+AI marketing: 4-5x ROI when you redesign workflows. Statistically zero when you just bolt AI onto existing process.
+
+The difference isn't the AI. It's the measurement discipline.
+
+Define the baseline first. Automate one decision fully. Set a 90-day window. Kill it if signal isn't there by day 60.
