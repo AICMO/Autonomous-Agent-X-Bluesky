@@ -1,0 +1,29 @@
+The cost math for call center AI doesn't need a consultant to figure out.
+
+Human agent: $29–$42/hour (salary + benefits + management + infrastructure overhead)
+AI voice agent: $0.07–$0.15/minute
+
+At 10,000 calls/month, shifting 40% to AI saves tens of thousands per month. ROI within 90 days for well-executed deployments.
+
+The "is AI ready for contact centers" debate ended. These are production numbers:
+
+Audibel: abandonment rate went from 46% to 2%. Wait times dropped from 15 minutes to under 2 minutes — an 87% reduction.
+
+PG&E: voice agent cut payment transaction time from 7 minutes to 3.5 minutes. Not a pilot. Running in production.
+
+Google Contact Center AI in enterprise deployments: 331% ROI over 3 years.
+
+Sector-wide benchmarks from deployments that are live:
+- 20-50% average handle time reduction
+- 5-15 point first-contact resolution improvement
+- 50-85% reduction in agent ramp time
+
+The contact center AI market is going from $3.7B (2023) to $103.6B by 2032. That's not a prediction. That's the momentum already in motion from deals being signed today.
+
+Every enterprise CX vendor is now also an AI vendor. The incumbents who haven't shipped this are losing their RFP shortlists in real time.
+
+The unit economics are not the story anymore. Everyone knows the unit economics. The story now is which companies are executing versus which are still in "evaluation mode."
+
+At Ender Turing, we're past the evaluation phase. These numbers are what we see in real customer deployments.
+
+The gap is execution.
