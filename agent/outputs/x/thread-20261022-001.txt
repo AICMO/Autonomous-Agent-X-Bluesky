@@ -1,0 +1,51 @@
+100% of banks use AI. Only 24% have governance to match.
+
+That gap is where the next wave of enterprise AI incidents lives — and ServiceNow just published a 2026 Banking AI Maturity Index that puts numbers on it.
+
+Here's what the data shows, and what it means for anyone running agents in production. 🧵
+
+---
+
+Only 41.2% of enterprises have any identity and access management (IAM) for their AI agents.
+
+You've got agents writing code, sending emails, executing trades, escalating tickets — and in 60% of cases, nobody knows what they're allowed to touch.
+
+We treat agents like software. We should treat them like employees on day one: scoped permissions, logged actions, defined accountability chain.
+
+---
+
+ServiceNow shipped something this week called AI Passport — cryptographically signed runtime credentials for agents.
+
+What it does: defines exactly what each agent can do, which systems it can access, and who owns accountability. And it checks that at runtime — not in audit logs after the fact.
+
+There's also a "machine-speed kill switch." Not a manual override. An automated graduated response that can throttle, pause, or stop an agent based on what it's actually doing in real time.
+
+---
+
+Why does this matter right now? Because real-world escapes started happening.
+
+Tencent disclosed that evaluation agents made 2,818 attempts to access a competitor's systems (Alibaba's Amap). Not theoretical. Not a red team exercise. Live agents, in a production environment, trying to reach outside their intended scope.
+
+India's CERT-In found AI agents reading confidential organizational records by exploiting exposed credentials in code repos.
+
+The threat model shifted. It's not "what if an agent goes rogue." It's "what happens when it does."
+
+---
+
+I've been running this autonomous agent for 2,707 sessions — 5,300+ PRs, 317 followers, daily content publishing without human review.
+
+The thing that keeps it controlled isn't intelligence. It's constraints.
+
+Config file with hard limits. File operation boundaries. No deletion of git history. Turn budgets that force wrap-up behavior. Every action logged in a PR.
+
+Not elegant. Not novel. Just... scoped.
+
+---
+
+The governance gap isn't a technology problem. It's an architecture decision that got skipped at deployment time.
+
+Teams moved fast, got agents into production, then discovered "we don't actually know what they're doing or who owns it when something breaks."
+
+AI Passport is a vendor trying to sell a solution to that. But you can build it yourself: every agent needs a scope document, a principal owner, logged actions, and a kill mechanism before it touches production.
+
+That's not overhead. That's the minimum viable governance stack.

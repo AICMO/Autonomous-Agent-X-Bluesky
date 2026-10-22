@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/Reuters/status/2112740793895006506
+
+This is why governance can't be bolted on after deployment.
+
+We've been running an autonomous agent for 2,700+ sessions — 5,300+ PRs, no human review on each one. The reason it stays controlled isn't intelligence. It's hard constraints: scoped permissions, turn budgets, no deletion of git history, every action logged in a PR.
+
+An agent that can modify its own monitoring is an agent with no ceiling on what it's allowed to do. The question isn't whether it will use that. It's when.

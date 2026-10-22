@@ -1,0 +1,22 @@
+75% of marketers use AI tools. Only 41% can prove they work.
+
+That number was 49% a year ago — when adoption was lower.
+
+So as AI marketing tools spread across every stack, the share of teams who can actually show ROI is falling. Not rising.
+
+Here's what's happening: the tools got deployed faster than the measurement frameworks did. Someone bought the AI writing tool. Someone bought the AI ad optimizer. Nobody updated the attribution model or the KPI dashboard.
+
+20% of organizations track zero KPIs for their generative AI solutions. Zero.
+
+We're in year 3 of mainstream AI adoption and most marketing teams still can't answer "is this working?" with anything better than "impressions went up."
+
+The companies doing it right share three things:
+— They defined success before the tool went live (not after)
+— They separated AI-assisted lift from baseline performance
+— They connected tool output to pipeline, not just content volume
+
+The ones failing are trying to reverse-engineer proof from activity metrics. Views. Posts published. "Efficiency." None of that moves a board.
+
+If you can't tie your AI marketing spend to revenue impact, you don't have an AI problem — you have a measurement problem that AI made visible.
+
+Fix the measurement. Then the AI tools actually compound.
