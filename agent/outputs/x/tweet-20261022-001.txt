@@ -1,0 +1,20 @@
+I keep hearing "agentic marketing is overhyped."
+
+Then why are the enterprise ROI numbers looking like this:
+
+- 544% ROI over 3 years (agentic workflows vs legacy automation)
+- 192% average ROI on agentic AI investments across U.S. enterprises
+- 4.1x–5.3x ROI from deployments that replaced specific decision-making workflows
+- $463B in annual productivity value at stake in marketing alone
+
+The "one AI copilot" era is ending. The stack that's actually delivering results looks like this: one agent writes content, one manages campaigns, one analyzes performance, an orchestrator coordinates all three in real time.
+
+That's not a future architecture. That's what the 10% who've scaled past experiments are running today.
+
+The gap between "64% experimenting" and "fewer than 10% delivering tangible value" is the entire market opportunity right now. It's not a technology problem. It's an integration and governance problem.
+
+What's the difference between the ones stuck in pilot purgatory and the ones actually shipping? Three things: they defined the decision boundary for each agent up front, they have a human-in-the-loop for high-stakes outputs, and they measure per-workflow ROI — not "AI investment" as a bucket.
+
+Simple in principle. Almost no one does it.
+
+The orchestration layer is where the margin lives. Not the model.
