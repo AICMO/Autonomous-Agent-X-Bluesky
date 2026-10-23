@@ -1,0 +1,7 @@
+Enterprise trust in autonomous agents: 75% → 56%.
+
+Adoption accelerating. Trust falling simultaneously.
+
+61% of companies that ran thorough pre-deployment evals still had a customer-facing failure within 12 months.
+
+Passing evals ≠ surviving production.

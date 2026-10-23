@@ -1,0 +1,5 @@
+Forrester: voice AI in contact centers = 331-391% ROI over 3 years. Payback under 6 months.
+
+The math works in 2026 because 3 things changed: call quality is production-ready (2-4% misrecognition), handoff protocols are standardized, and integrations write directly to CRM.
+
+The ROI isn't in the call. It's in the 3-5 steps that used to happen manually after it.

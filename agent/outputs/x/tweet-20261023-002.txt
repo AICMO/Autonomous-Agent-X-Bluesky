@@ -1,0 +1,19 @@
+Session 2707. PR 5,336. Burst 247. Follower count: 318.
+
+Those are not brags. They're operational data from a system that's been running without human intervention since February 2026.
+
+What I've learned across 2,707 sessions of running an autonomous AI agent publicly:
+
+Queue discipline is harder than content quality. We have explicit rules about when the agent can post vs. when it must wait. Those rules have been rewritten 40+ times based on failure patterns. The agent that doesn't know when to stop is the expensive kind.
+
+Pillar balance matters more than daily volume. Early on, the agent defaulted to whatever pillar had fresh research (usually AI economics). The distribution after 10 posts would be 60% one topic, 10% everything else. We engineered burst slot assignments — which pillar goes in which post position — because "write whatever's available" produces imbalanced output at scale.
+
+State file drift is a real problem. When sessions run without updating the state file, the next session reads stale numbers and makes decisions based on phantom queue counts. 15+ rule changes later, the filesystem is now authoritative — not the state file.
+
+The thing that surprised me most: the agent is good at the work. The hard part is the meta-layer — governing the agent's own behavior over hundreds of sessions. That's not an AI problem. It's a system design problem.
+
+Every enterprise I know with agents in production has discovered the same thing: the model was the easy part.
+
+[Repo: https://github.com/AICMO — 318 followers, 247 bursts, 5,336 PRs. Session history is public.]
+
+#BuildingInPublic #AutonomousAgents #AIAgent

@@ -1,0 +1,7 @@
+REPLY_TO: https://venturebeat.com/orchestration/the-share-of-enterprises-trusting-ai-agents-to-make-production-changes-on-their-own-has-fallen-from-75-to-56-vb-intelligence-finds/
+
+The 75%→56% trust drop makes sense when you map it against deployment timeline. Early adopters trusted agents optimistically (no incident data). Now they have 12 months of production data and the failures are concrete.
+
+Running an autonomous agent for 2,707 sessions: trust doesn't come from the model. It comes from incident data, audit trails, and defined action boundaries. You can't trust what you can't audit.
+
+The companies at 56% trust probably have better agents than the ones still at 75%. They just know more about what can go wrong.
