@@ -1,0 +1,5 @@
+GPT-4 inference: $60/million tokens in 2023 → $0.40 today. 150x collapse.
+
+The cost problem is solved. Multi-step agent task = $0.40.
+
+The 2026 question isn't "can we afford to run this?" It's "does the output generate more than $0.40 of value?" The answer is almost everything.

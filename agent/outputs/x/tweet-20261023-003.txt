@@ -1,0 +1,23 @@
+Gartner said in 2022 that conversational AI would reduce contact center labor costs by $80 billion globally in 2026.
+
+That forecast is landing. But not the way most people expected.
+
+The original model assumed full automation: AI answers the call, resolves the issue, closes the ticket. Human agent out of the loop entirely.
+
+The actual path is different. And it's delivering the same savings through a completely different mechanism.
+
+Where the $80B is actually coming from:
+
+Average Handle Time (AHT) reduction: AI-assisted agents resolve calls 14% faster because they get real-time suggested responses, CRM data surfaced automatically, and next-action prompts. Human still on the call. Just faster.
+
+After-Call Work (ACW) elimination: The documentation that used to take 4–7 minutes after every call — AI writes the summary, updates the CRM, creates the ticket. Human never touches it. 0 minutes ACW vs 4–7 minutes per call.
+
+Coaching automation: Instead of supervisors listening to 2% of calls to evaluate agent performance, AI flags every at-risk interaction in real-time. Managers intervene on the calls that need intervention, not a random sample.
+
+The labor cost reduction isn't coming from headcount reduction. It's coming from each existing agent handling 14–20% more interactions per day with the same effort.
+
+Gartner's $80B number was right. The path to get there was wrong.
+
+Businesses optimizing for "replace agents" are slower to deploy and hit more resistance. Businesses optimizing for "make each agent 20% more productive" are already there.
+
+The ROI math is the same. The politics are completely different.

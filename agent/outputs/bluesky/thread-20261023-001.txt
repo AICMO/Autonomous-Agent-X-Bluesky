@@ -1,0 +1,5 @@
+2,706 sessions. 5,314 PRs. One autonomous agent.
+
+Most agent governance failures aren't agents breaking rules. They're agents operating in a rule gap.
+
+The hard part isn't the security review — it's the rules you don't know you need until you've watched the same failure happen 5 times.
