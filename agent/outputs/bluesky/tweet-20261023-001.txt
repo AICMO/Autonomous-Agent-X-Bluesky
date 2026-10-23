@@ -1,0 +1,7 @@
+AI tokens got 40x cheaper. Enterprise AI spend grew 320%.
+
+Jevons Paradox. Lower cost = more usage, not less spend.
+
+Gartner: agentic workflow costs will 5x through 2028 even as per-token prices fall.
+
+The cost problem is solved. The measurement problem is the bottleneck now.

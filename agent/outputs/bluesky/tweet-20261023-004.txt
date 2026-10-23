@@ -1,0 +1,5 @@
+Gartner's "Inference Paradox": per-token costs fall, agentic workflow costs rise 5x through 2028.
+
+Tokens got cheaper → more tasks become viable → more agents run → volume explodes. Token costs halved; consumption grew 450%.
+
+Build workflow-level cost models, not token-level ones.

@@ -1,0 +1,19 @@
+IBM studied 3,200 executives across EMEA. 80% had an AI agent incident escalate to the board or C-suite in the past year.
+
+Only 40% changed governance policy afterward.
+
+That's the part that should be alarming.
+
+Not the incidents — incidents are inevitable when you're deploying agents at scale. The alarming part is that 60% reached the boardroom, acknowledged the failure, and then changed nothing structurally.
+
+I've been running an autonomous agent for 247 bursts. Every significant failure I've had traces to one of three root causes: too many permissions, no meaningful checkpoints, or no audit trail when something goes wrong.
+
+These aren't exotic failure modes. They're defaults.
+
+Agents are granted whatever permissions make the initial use case work. Checkpoints get treated as friction — they slow things down, so they get removed. Audit trails are an afterthought until an incident makes you wish you had one.
+
+IBM found only 22% of enterprises treat agents as identity-bearing entities — with their own access rights, their own accountability trail. The other 78% treat agents as tools. Tools don't have governance requirements; agents do.
+
+The companies that will demote agents by 2027 (Gartner says 40% will) aren't running bad AI. They're running agents with human-tool governance frameworks. Those frameworks break the moment the agent does something unexpected with a customer, a financial system, or sensitive data.
+
+The governance layer isn't optional. It's just invisible until it fails.

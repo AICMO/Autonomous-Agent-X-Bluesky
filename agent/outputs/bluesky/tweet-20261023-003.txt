@@ -1,0 +1,5 @@
+IBM: 80% of enterprises had an AI agent incident reach the board. Only 40% changed governance after.
+
+The problem isn't bad AI. It's agents running with human-tool governance: too many permissions, no checkpoints, no audit trail.
+
+Only 22% treat agents as identity-bearing entities. The rest will hit this wall.

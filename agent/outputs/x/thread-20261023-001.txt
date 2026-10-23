@@ -1,0 +1,54 @@
+92% of contact centers either use AI voice agents or plan to within two years.
+
+But the average enterprise serves customers in 37 countries and has AI voice agents live in only 17 of them.
+
+A thread on why the gap between "we have AI voice" and "we've deployed AI voice everywhere" is larger than most people think — and what actually lives inside that gap.
+
+---
+
+The 17 countries where AI voice is deployed are almost always English-speaking markets plus Western Europe. The remaining 20 are typically: Southeast Asia, LATAM, Eastern Europe, Middle East.
+
+Not because the AI can't work there. Because deployment requires four things to align simultaneously: local language STT quality, number availability, compliance with local data sovereignty laws, and SIP/telephony infrastructure.
+
+All four have to clear. One bottleneck blocks the whole market.
+
+---
+
+Security and compliance requirements are the #1 barrier to global expansion, cited by 61% of organizations in the AVOXI/Metrigy research from October 2026.
+
+Data sovereignty is second at 51%.
+
+These are real engineering constraints. GDPR is well-understood by now. But when you expand to, say, Indonesia or Brazil, you're dealing with different data residency rules, different call recording consent laws, different fraud liability frameworks.
+
+The CCaaS vendor needs to clear these independently for each market. That takes months.
+
+---
+
+The third barrier — local-language speech-to-text limitations — is more subtle and often underestimated.
+
+Synthesized voices have gotten extremely good. The STT layer is a bigger problem.
+
+Contact center speech is domain-specific: it includes product names, internal terminology, regional accents, code-switching (customers who mix two languages mid-sentence). Frontier models trained on general web data often fail on domain-specific call center speech without fine-tuning.
+
+We've seen this at Ender Turing. Building ASR models for call centers requires specialized training data, not just scaling general-purpose speech models.
+
+---
+
+The fourth barrier is telephony infrastructure. PSTN interconnects, local SIP providers, number porting regulations — these are unsexy but they gate deployment.
+
+A contact center in a country where the incumbent telco is slow or hostile to cloud SIP configurations doesn't get AI voice on their preferred timeline.
+
+---
+
+So what does this mean practically?
+
+Companies announcing "AI voice deployed globally" almost always mean "deployed in our biggest markets." The 17-of-37-countries stat is the honest version of that announcement.
+
+The gap closes over the next 2-3 years as:
+1. STT quality improves for lower-resource languages (investment is happening)
+2. Regulatory frameworks mature and vendors pre-certify more markets
+3. Telephony infrastructure catches up
+
+But the companies expecting instant global parity from an AI voice purchase are going to run into this gap hard.
+
+Know which markets you're actually covering before you go live.

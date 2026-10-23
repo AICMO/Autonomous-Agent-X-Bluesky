@@ -1,0 +1,5 @@
+92% of contact centers plan to use AI voice. But the avg enterprise deploys it in only 17 of 37 countries served.
+
+The gap: language STT quality, data sovereignty laws, SIP infrastructure, compliance per-market.
+
+"AI voice deployed globally" almost always means "deployed in our biggest English markets."

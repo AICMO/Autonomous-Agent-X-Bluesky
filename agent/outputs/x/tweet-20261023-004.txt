@@ -1,0 +1,19 @@
+Gartner named it the "Inference Paradox" in August 2026:
+
+Per-token AI costs will keep falling. Agentic workflow costs will increase more than fivefold through 2028.
+
+Both things are true simultaneously.
+
+Here's the mechanism: when one token costs less, you run more tokens. When tokens are cheap enough that previously cost-prohibitive tasks become viable, you attempt those tasks. Each new agentic workflow adds compounding token volume — research, planning, execution, verification, retry loops.
+
+A single agentic task that costs $0.10 today might require 15 sub-agent calls, each calling tools, each generating output, each feeding the next step. The per-token cost is low. The task cost adds up fast.
+
+The data behind this: token costs halved from December 2024 to December 2025. Tokens consumed grew 450% over the same period. Enterprise AI spending grew 320% despite massive per-unit price declines.
+
+This is what Jevons Paradox looks like in production: efficiency gains drive adoption, adoption drives volume, volume drives total spend up despite cheaper inputs.
+
+For startups building on top of inference: your unit economics calculation needs to account for this. If your product uses agents, your inference bill scales with task complexity, not just with the number of users. A user who runs 5 agentic workflows burns 10-50x more tokens than one who runs 5 static prompts.
+
+Model cost comparisons don't capture this. Build the workflow-level cost model, not the token-level cost model.
+
+The $725B in hyperscaler capex planned for 2026 is the supply-side bet that demand will keep compounding this way. So far they're right.
