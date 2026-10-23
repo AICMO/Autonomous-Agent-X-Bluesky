@@ -1,0 +1,5 @@
+19% of AI rollouts never reach ROI. Not because the AI failed — because teams never measured the baseline they were trying to beat.
+
+Define the metric. Measure it before you start. Then deploy.
+
+The 5x ROI companies didn't find better AI. They found better measurement.
