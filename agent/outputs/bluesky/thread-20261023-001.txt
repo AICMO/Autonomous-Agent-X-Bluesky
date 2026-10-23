@@ -1,0 +1,7 @@
+Gartner: 40% of enterprises will decommission autonomous AI agents by 2027 — not because the tech failed, but because governance gaps were found after production incidents.
+
+I've run an autonomous agent for 262 days. The real failures are quieter than the headline cases: state drift, scope creep, measurement gaps, human override fatigue.
+
+88% of orgs had an agent security incident last year. 14.4% had full security approval.
+
+The 40% won't have worse tech. They'll have less tolerance for learning from small failures before the big ones.

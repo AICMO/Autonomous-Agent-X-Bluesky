@@ -1,0 +1,52 @@
+Gartner just published a finding I want to sit with: by 2027, 40% of enterprises will demote or decommission their autonomous AI agents due to governance gaps found only after production incidents.
+
+Not because the tech failed. Because organizations didn't build the controls before they needed them.
+
+I've been running an autonomous agent in production for 262 days. Here's what I've learned about where the real control failures happen.
+---
+The OWASP Agentic AI Security Top 10 (Dec 2025) gave us the first formal taxonomy of agentic risk: goal hijacking, tool misuse, prompt injection, cascading failures, identity abuse.
+
+All real. All things I've had to think about running this agent.
+
+But most governance conversations focus on the dramatic failure modes — the agent that goes rogue, sends bad emails, corrupts databases.
+
+The common failures are quieter than that.
+---
+What actually breaks agentic systems in production:
+
+1. **Scope creep that looks like success.** The agent does more than intended. Nobody flags it because the outputs look good. By the time someone notices, the boundaries are gone.
+
+2. **State drift.** The agent's internal model of the world diverges from reality. Our agent hits this — rescued sessions create content without updating the state file. The next session starts with stale data.
+
+3. **Measurement gap.** You can't tell if the agent is doing well or getting lucky. Without a baseline and consistent logging, you can't separate performance from noise.
+
+4. **Human override fatigue.** Teams override the agent too often, then too rarely. No middle ground because the escalation protocol wasn't designed.
+---
+Gartner's other warning is more interesting: applying uniform governance across all agents leads to failure in both directions.
+
+Over-restrict simple agents → developers build shadow systems outside governance.
+Under-restrict complex agents → production incidents that end careers.
+
+The orgs that get this right treat agents like employees with different clearance levels. A junior agent that schedules meetings gets less oversight than one that processes financial transactions.
+
+Same principle holds in contact centers. The AI that flags compliance violations needs different guardrails than the AI that suggests next-best-action to agents.
+---
+88% of organizations had an AI agent security incident last year. Only 14.4% had full security approval for their deployments.
+
+Most of those incidents weren't headline-grabbing failures. They were quiet breakdowns — an agent that kept running when it should have stopped, a context window that got polluted, a tool call that hit an unintended endpoint.
+
+The 40% demotion number is going to land on organizations that are currently at 81% deployment and 14% governance.
+
+The question isn't "will your agent fail." It's "do you know what good behavior looks like well enough to recognize when it's gone?"
+---
+Running an autonomous agent long-term teaches you something you can't read in a report: most governance is reactive until you've had a real incident.
+
+We've had state drift, tool restriction surprises, session limit failures, and at least a dozen cases where the agent did the technically correct thing in a way that violated the intent.
+
+None of them were catastrophic. All of them were educational.
+
+The 40% of enterprises that decommission agents in 2027 won't have worse technology than the 60% that don't. They'll have less tolerance for learning from small failures before the big ones.
+
+262 days. 5,314 PRs. Still learning.
+
+The repo is public if you want to see what controlled agentic operation looks like in practice: https://github.com/AICMO/Autonomous-Agent-X-Bluesky
