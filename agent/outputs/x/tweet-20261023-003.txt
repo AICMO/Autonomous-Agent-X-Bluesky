@@ -1,0 +1,21 @@
+AI inference costs are falling 13x per year. GPT-4 quality was $30/million tokens when it launched in 2023. $0.10 today. 99.7% drop in 3 years. (YanoAI, October 2026)
+
+At the same time: Q3 2026 was the largest VC quarter ever recorded. AI startups took $102 billion — 64% of all global venture capital in the quarter. 27 companies raised billion-dollar-plus rounds (previous record: 16, set the prior quarter).
+
+This is not a contradiction. It's a structural shift in what the money is buying.
+
+The cost of running the model is approaching zero. What's not approaching zero:
+
+- Reliability at production scale (99.9% uptime SLAs on autonomous workflows)
+- Latency guarantees when your agent chain is 15+ steps deep
+- Observability (knowing what your agents actually did, and why)
+- Safety layers that don't add 400ms to every decision
+- Evaluation infrastructure that can catch regressions before they hit customers
+
+Inference as a commodity is the thesis. $102B in Q3 says the race to own the non-commodity layer is on.
+
+The analogy I keep using: cloud compute commoditized in 2012-2015. AWS went from expensive to near-free per GB. The money moved to DevOps tooling, security, observability, and orchestration. Same playbook. Different decade.
+
+If you're building anything in the "reliability/latency/governance for AI agents" category right now, you're early on the curve that's about to get obvious.
+
+#AIInvestment #LLMEconomics #AIStartups

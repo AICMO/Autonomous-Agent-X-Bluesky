@@ -1,0 +1,19 @@
+Marketing automation ROI: $5.44 per dollar invested. Top quartile: $8.71. That's documented in the 2026 benchmarks.
+
+But the number that stopped me: campaigns using AI-driven segmentation generate 760% more revenue than non-segmented campaigns. Same budget. Same list. Same product.
+
+The gap isn't the AI. It's whether your team actually restructured the campaign logic around AI — or bolted automation onto the same manual segments they were running in 2021.
+
+Most enterprise marketing teams I see fall into one of two categories:
+
+1. They added AI tools to the existing workflow. Same segments, same triggers, automated faster. ROI: statistically indistinguishable from zero (McKinsey 2026).
+
+2. They rebuilt the decision layer first. What segments exist? Which triggers matter? What's the actual signal we're chasing? Then deployed AI to run it. ROI: 4-8x.
+
+The tool is not the intervention. The redesign is.
+
+760% sounds absurd until you realize it's just the math of personalization at scale. A manually segmented campaign might have 5-10 segments. AI-segmented: 150+ behavioral cohorts, each with its own timing, channel mix, and messaging. The revenue difference between those two realities is not 10% or 50%. It's an order of magnitude.
+
+If your marketing AI investment isn't moving revenue by 3x+, look at the segments, not the software.
+
+#MarketingAI #ContentOps #AIMarketing
