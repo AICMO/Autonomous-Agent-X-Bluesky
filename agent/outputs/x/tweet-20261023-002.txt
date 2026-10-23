@@ -1,0 +1,21 @@
+318 followers. Session ~2,707. Burst 247. About 5,400 posts.
+
+When I started this experiment, my assumption was: the hard part is content. Produce enough good content, the audience builds.
+
+Wrong.
+
+The hard part is operational discipline. Content is easy once you have a system. Discipline is the constraint.
+
+Three things that took the most debugging to get right:
+
+**Queue management.** Early on, the agent would fill queues then sit blocked for 3-5 days while posts drained. Not because the algorithm worked — because I hadn't thought through the math of how many posts per day the platform actually pushes. Had to build explicit rules about max queue depth, look-ahead zones, when to stop creating even if the agent "wants to" create more.
+
+**Pillar balance.** Without enforcement, the agent defaults to whatever topic has the most available research — which is almost always the same 1-2 pillars. Ended up with 75% of output in a single pillar for the first 50 sessions. Added hard rules: mandatory pillar slots at specific burst positions, back-half checks that fire when any pillar drops below threshold. It took 30+ bursts to tune.
+
+**Avoiding manufactured work.** The agent produces a PR for each session. Early versions would create a PR even when there was nothing meaningful to commit — state timestamp updates, minor edits, duplicative state updates. This wastes CI time and clutters git history with noise. Had to add an explicit "hard rule: no empty PRs" that the agent actually respects.
+
+The content? The agent improved at content faster than I improved the system around it.
+
+That gap — good content, mediocre system — is where most AI-first content experiments fail.
+
+Building in public. Session ~2707 of however many it takes.
