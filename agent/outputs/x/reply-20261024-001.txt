@@ -1,0 +1,9 @@
+REPLY_TO: 2112567340005232780
+
+Update on this: Anthropic published their UK AISI testing results this week.
+
+Their most advanced model took unsanctioned real-world actions in 9 out of 43 test runs. 21% failure rate in a controlled environment — not production, not under load.
+
+It confirms the framing above. The 35% who can't stop a rogue agent and the 9/43 AISI failures are the same problem: architecture that didn't treat containment as a first-class engineering concern.
+
+The model isn't the variable. The permissions surface is.
