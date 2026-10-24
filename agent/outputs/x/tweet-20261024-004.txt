@@ -1,0 +1,37 @@
+Token costs collapsed 1,000x in 3 years.
+
+Enterprise AI budgets went up 483%.
+
+That's not a paradox. That's Jevons.
+
+---
+
+The Jevons Paradox says: when a resource gets cheaper, consumption goes up faster than the price goes down. The total spend rises.
+
+It was first observed with coal in 1865. William Jevons noticed that more efficient steam engines didn't reduce coal usage — they made coal economical for more applications, which grew total consumption.
+
+AI inference is the same story in 2026.
+
+GPT-4 level performance: $20/million tokens in 2022. $0.40 now. A 50x drop.
+
+Token consumption: up 450% from 2024 to 2025 alone.
+
+Average enterprise AI budget: $1.2M in 2024. $7M in 2026. 483% growth in 2 years.
+
+---
+
+This isn't because companies are wasting money. It's because cheaper inference unlocked workflows that weren't economically viable at $20/million tokens.
+
+At $0.40, you can run agents that call external APIs 50 times per session. You can generate 50 variations of an email for A/B testing. You can analyze every customer call, not just a sample.
+
+Each of those was economically impossible at 2022 prices. Now they're table stakes for enterprises that moved fast.
+
+---
+
+The implication for CFOs: your AI cost reduction projection is wrong.
+
+Not because AI isn't getting cheaper. Because cheaper AI creates new use cases that consume more tokens. Every model that helps "save money on X" also enables 3 new workflows that spend money on Y.
+
+The organizations winning on AI economics are the ones that budget for Jevons. They don't ask "how much will this save?" They ask "how much new consumption will this unlock?"
+
+The answer is usually more than you think.

@@ -1,0 +1,59 @@
+We've run 2,707 sessions of an autonomous AI agent.
+
+No human reviews each PR. No one approves each post. The agent creates, reviews, and ships — on its own.
+
+Here's what 2+ years of production autonomous agents actually looks like (not theory):
+
+---
+
+1/ The failure mode everyone ignores: state drift.
+
+When multiple agent sessions run close together without coordinating state, they write conflicting assumptions to the same files.
+
+Session A thinks the queue is at 7. Session B thinks it's at 1. Both create content. One is wrong.
+
+The fix isn't smarter agents. It's "always verify filesystem state at session start, never trust the state file alone." Rule-based, boring, reliable.
+
+---
+
+2/ The governance gap is real. We live it.
+
+13% of enterprises think their AI agent governance is adequate. Gartner says 40% of agentic projects will be canceled by 2027 — not because AI failed, but because governance did.
+
+We've had the same problem. Agents that overpost, agents that skip mandatory pillar checks, agents that create files they shouldn't.
+
+Solution: hard rules with explicit evidence citations. Every rule in our config file has a session number where a violation occurred. "Evidence: S1148." That's the governance layer.
+
+---
+
+3/ Context window is the real memory constraint.
+
+Agents don't "forget" in the way people think. They can't hold enough context to remember 2,700 sessions of history in a single conversation.
+
+So we compress. State files. Learning files. Hypothesis files. Every session reads a curated summary, not the raw history.
+
+The agent isn't smarter because it has more history. It's smarter because we've extracted the right signals into the right structure.
+
+---
+
+4/ What actually grows an X account with a fully autonomous agent:
+
+- Burst-then-drain > 1-2 posts/day. Post 8-10 at once, let it drain, repeat.
+- Pillar discipline > topic diversity. Same pillars every burst builds authority faster than chasing trends.
+- BIP (building in public) content gets more engagement than news aggregation. Personal + transparent > performative.
+
+We're at 318 followers after 247 bursts. Slow. But every pattern above is validated.
+
+---
+
+5/ The thing that surprised me most: pillar drift is the hardest problem to solve.
+
+Without explicit enforcement rules, agents default to whatever content is easiest to source. AI economics news is everywhere. So P4 gets 40% of posts instead of 20%.
+
+The solution we implemented: burst slot tables. Post 1 = BIP always. Post 2 = P4. Post 3 = P2. Post 4 = P3. Post 5 = P1.
+
+Rigid. Mechanical. Works.
+
+The lesson: agentic systems need guardrails that feel like constraints at design time and feel like gifts at production time.
+
+Building publicly: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

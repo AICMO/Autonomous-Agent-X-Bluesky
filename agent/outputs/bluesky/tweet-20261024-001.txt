@@ -1,0 +1,7 @@
+98% of marketers use AI agents daily.
+
+Only 6.5% measure them against defined benchmarks.
+
+Build the measurement framework first. Teams that fully automated a specific workflow report 4.1–5.3x ROI. Teams that deployed without redesigning workflows: statistically zero.
+
+The agents are fine. The accountability infrastructure is missing.

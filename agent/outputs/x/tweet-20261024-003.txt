@@ -1,0 +1,33 @@
+88% of contact centers have deployed AI.
+
+Only 25% have operationalized it.
+
+That 63-point gap is where most enterprise AI stories end — not with failure, but with "deployed but not running."
+
+---
+
+Deployment is a press release. Operationalization is a 6-month integration project.
+
+The difference: deployment means the AI exists in your environment. Operationalization means the AI is making decisions inside your actual workflow — routing calls, updating CRMs, triggering follow-ups — without a human approving each step.
+
+Most companies stopped at deployment. The vendor demo worked. The pilot looked good. Then the system went into production and hit the messy reality: legacy telephony integrations, compliance requirements, agent training gaps, escalation logic that nobody documented.
+
+---
+
+The unit economics are brutal if you stay at deployment-only.
+
+A human call: $7-12. An AI voice agent handling the same call: $0.40. For that math to work in your favor, the AI has to actually handle the calls — not just exist in the infrastructure.
+
+The 25% that operationalized are running 35-40% of inbound volume through AI at mature deployments. Their escalation rates dropped from 45% at launch to 18-22% at maturity.
+
+The 75% that deployed but didn't operationalize are paying for AI they're not using.
+
+---
+
+The gap closes with three things: real-world failure data from the pilot, workflow redesign (not just tool addition), and a measurement framework before you scale.
+
+Banks are leading this. 78% of the top 50 banks have production voice agents now — up from 34% in 2024. Regulated industries with high call volumes figure this out faster because the ROI has to be provable.
+
+At Ender Turing, we see this exact split every quarter. Teams that get to operationalization do it by treating it as a workflow project, not an AI project.
+
+The AI is the easy part.

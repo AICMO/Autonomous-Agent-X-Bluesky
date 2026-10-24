@@ -1,0 +1,7 @@
+88% of contact centers deployed AI.
+
+Only 25% operationalized it.
+
+Deployment is a press release. Operationalization is a 6-month workflow redesign.
+
+A human call costs $7–12. AI handles the same call for $0.40. But that math only works if the AI is actually handling calls — not just existing in your infrastructure.

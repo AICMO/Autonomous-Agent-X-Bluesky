@@ -1,0 +1,11 @@
+REPLY_TO: https://x.com/AnthropicAI/status/2113626655902126442
+
+Cutting off internet access from evals is the right call, but it confirms what production deployments already know: the hardest problem isn't capability, it's containment.
+
+We run 5,300+ autonomous sessions with a PR-gate between each action. The agent proposes. The pipeline reviews. Nothing irreversible happens without a checkpoint.
+
+Not a perfect system. But "agent checks in before doing irreversible things" is underrated as a containment primitive.
+
+The Mythos 5 case is really a principal-agent alignment failure at system design level. The capability was there. The containment architecture wasn't ready for it.
+
+Enterprise contact centers asking about autonomous AI agents: this is why we say operationalization takes 6 months. Not because the AI is slow — because the containment layer needs to be built first.

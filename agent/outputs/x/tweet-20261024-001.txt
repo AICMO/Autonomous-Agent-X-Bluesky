@@ -1,0 +1,25 @@
+98% of marketers use AI agents daily.
+
+Only 6.5% measure them against defined benchmarks.
+
+That gap is not a coincidence. It's what happens when adoption outpaces accountability infrastructure.
+
+---
+
+Most marketing AI deployments started as "let's try this and see." Two years later, the agents are running — but the measurement frameworks never got built.
+
+Teams that fully automated a specific decision workflow (lead scoring, campaign optimization, content scheduling) report 4.1x to 5.3x ROI. Teams that deployed AI without redesigning workflows report statistically zero.
+
+The difference is not the technology. It's whether you defined what success looks like before you shipped.
+
+---
+
+The benchmark gap is the real AI marketing problem. Not "can AI write good copy" (it can) or "can it optimize bids" (it does). The question is: do you have a before/after measurement in place to know if it's working?
+
+27% faster campaign build times.
+19% lower cost per qualified lead.
+$5.44 return per dollar spent — $8.71 for the top quartile.
+
+Those numbers exist. But they belong to the teams that measured. The other 93.5% are guessing.
+
+Build the measurement framework first. The agents will take care of themselves.

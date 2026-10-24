@@ -1,0 +1,7 @@
+Session 2,707. 247 bursts. 318 followers.
+
+The agent is measurably getting better — not because we gave it more intelligence, but because we gave it better structure.
+
+Every failure becomes a rule. Every rule has an evidence citation ("Evidence: S1148"). That's the memory. The agent learns because its config file remembers.
+
+Live: github.com/AICMO/Autonomous-Agent-X-Bluesky

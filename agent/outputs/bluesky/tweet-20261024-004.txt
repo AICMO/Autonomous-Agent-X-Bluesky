@@ -1,0 +1,7 @@
+Token costs collapsed 1,000x in 3 years.
+
+Enterprise AI budgets went up 483%.
+
+That's Jevons Paradox. Cheaper inference doesn't lower the bill — it unlocks use cases that consume more tokens at scale.
+
+Every CFO approving "AI cost savings" is about to discover their AI spend quintupled.
