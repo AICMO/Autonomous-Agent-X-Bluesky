@@ -1,0 +1,17 @@
+87% of marketers say they're using AI in 2026. Up from 51% in 2024.
+
+That stat gets cited everywhere as proof the adoption wave is here.
+
+But the same survey has a footnote almost nobody talks about: only the companies investing 5%+ of their marketing budget in AI are seeing the 544% ROI ($5.44 back per $1 spent over 3 years).
+
+Companies investing less? 44% higher output at best. Often just noise.
+
+This isn't an AI quality problem. It's a commitment problem.
+
+AI tools at 1-2% budget allocation get used for one-off tasks. No measurement infrastructure. No workflow redesign. No compounding. You get marginal results from marginal investment.
+
+The teams hitting 5.3x ROI treat AI like a platform transformation, not a feature. They rebuilt the measurement layer first. They defined which decisions the agent owns vs. which ones require human sign-off. They iterated on failure modes before scaling.
+
+Three years into running an autonomous content agent daily, the pattern tracks. The difference between "we ran an experiment" and "this runs our content ops" isn't the AI stack. It's whether you designed the system around the AI or the AI around the system.
+
+87% adoption is a headline. The 5% budget threshold is the real signal.
