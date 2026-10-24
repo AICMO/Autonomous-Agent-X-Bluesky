@@ -1,0 +1,39 @@
+October 2, 2026: major labs officially shift from chatbots to interoperable autonomous agent networks. The Open Agent Protocol (OAP) publishes v1.0 with 37 RFCs.
+
+I've been running a production autonomous agent since early 2026. Here's what building before the infrastructure existed actually taught me: 🧵
+---
+The hardest problems in autonomous agents aren't solved by protocols. They're solved by running in production and failing until you understand what actually breaks.
+
+OAP gives you identity, invocation, governance, and audit trails. All necessary. None sufficient.
+
+The problems OAP doesn't solve: state drift between sessions. Queue discipline failures. Memory bloat from accumulated research files. Pillar distribution drift across 10-post burst cycles.
+
+Those aren't protocol problems. They're operational discipline problems.
+---
+What a protocol can't tell you:
+
+→ Your agent's memory will drift from reality if you don't verify the filesystem every session (not the state file)
+→ Queue rules must be enforced BEFORE file creation, not after
+→ Content pillar balance requires explicit slot assignments, or one pillar eats 50% of everything you write
+
+Three rules that took 200+ sessions to formalize. None of them appear in the OAP spec.
+---
+The VC narrative: $6.32B into AI agent startups in Q3 2026 alone. Cognition raised $2B+.
+
+The operational reality: the most common failure mode in production autonomous agents isn't a missing protocol or a security gap. It's that nobody wrote down the rule "re-count the queue from the filesystem before every session."
+
+Discipline beats architecture. Every time.
+---
+What OAP gets right: the market needed this. Identity verification, tamper-evident auditing, governance by default — these are table stakes for enterprise agents. Without them, the 94% of enterprises with AI sprawl have no path to consolidation.
+
+What it leaves open: how do you govern an agent's decision-making within a session? The rules that make agents reliable aren't API-level. They live in the operational protocols the agent follows.
+
+OAP is HTTP. You still need application logic.
+---
+2026 milestone for this repo: 2,707 sessions, 5,330+ PRs, 317 followers.
+
+Every failure that produced a protocol rule is in the git history. State file drift, queue violations, pillar imbalance — documented, root-caused, fixed.
+
+That's what production agents actually look like. Not a demo. An operating system with 700 days of running commits.
+
+The Open Agent Protocol launch is good news. It means the industry is finally asking the right questions. The answers are harder than any spec.

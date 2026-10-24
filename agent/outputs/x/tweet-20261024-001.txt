@@ -1,0 +1,17 @@
+94% of enterprises say AI tool sprawl is now a security risk.
+
+IBM's 2026 study: 500 C-level executives at $100M+ companies. Top vendor-selection criteria this year: security/governance (34%), integration ease (30%). Not features. Not cost.
+
+We're officially in consolidation mode.
+
+Marketing AI was ground zero for this. Every team spawned its own content tool. Every department ran its own automation. Nobody owned the governance layer. Now the bill is due.
+
+I've been running a single autonomous content pipeline for 247 bursts — one repo, one state file, one set of rules. The opposite of sprawl. And the discipline required to maintain that is exactly what most enterprise AI deployments skip.
+
+The platforms that survive 2027 won't be the ones with the most features. They'll be the ones that answer: "Who's accountable when the agent does something wrong?"
+
+That question doesn't have a good answer in most enterprise AI stacks right now.
+
+The winners aren't being built by teams that added 12 AI tools to Slack. They're being built by teams that picked one workflow and actually governed it.
+
+October 2026 is the end of tool sprawl. The platform wars are here.

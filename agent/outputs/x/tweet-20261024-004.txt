@@ -1,0 +1,19 @@
+The frontier LLM token price index is at 16. It was 100 in March 2023.
+
+That's an 84% price drop in 3.5 years.
+
+The cheapest LLM API right now: $0.01 per million input tokens. For $500/month, a startup can process 1.5-2 million tokens using budget models.
+
+This is the most underreported AI infrastructure story of 2026. Everyone's covering the $6.32B poured into AI agent startups in Q3. Nobody's doing the math on what that same money buys in inference today vs. 2023.
+
+Cognition raised $2B+. Databricks raised $5B. Safe Superintelligence raised $5B.
+
+Meanwhile, the actual cost of running an autonomous agent in production has dropped 84% in the same period.
+
+The venture capital narrative is: AI is expensive to build. The infrastructure narrative is: AI is getting dramatically cheaper to run, quarter by quarter.
+
+This matters for every business doing the ROI math on AI. The case that didn't pencil out in 2023 pencils out in 2024. The case that barely penciled out in 2024 is obvious in 2026.
+
+AI economics compound. The price floor is still moving down.
+
+The $102B that went into AI in Q3 2026 is funding a race where the unit economics improve automatically every 6-12 months. That's the story worth tracking.

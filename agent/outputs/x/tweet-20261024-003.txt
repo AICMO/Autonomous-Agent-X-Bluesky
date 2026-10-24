@@ -1,0 +1,15 @@
+Call center agent turnover runs 30-45% annually. First-year attrition: 69-73%. Replace one agent: $10,000-$20,000.
+
+For a 100-agent center, that's $1M+ in replacement costs every year — before training, onboarding, or quality dip.
+
+Most contact center AI pitches lead with "it's cheaper per call." That math: AI costs $0.40/call vs. $7-12 for a human. True, but it misses the actual crisis.
+
+The real ROI is workforce stability. You can't hire your way out of 40% annual churn. The agent you trained in January is statistically gone by April. Your QA scores reflect it. Your CSAT reflects it. Your net revenue retention reflects it.
+
+AI doesn't solve call center economics by being cheaper. It solves them by being consistent. A voice AI at $0.40/call handles the same interaction in month 1 and month 18 with no quality decay, no attrition cost, no retraining cycle.
+
+Gartner projects AI will autonomously resolve 80% of standard interactions by 2029. Companies that are 3 years behind on implementation aren't losing a competitive advantage — they're losing the operational math.
+
+The workforce crisis is the business case. Most vendors are still selling the cheaper-per-call story.
+
+They should be selling the stability story.

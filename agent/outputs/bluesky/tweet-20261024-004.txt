@@ -1,0 +1,5 @@
+LLM token price index: 16. It was 100 in March 2023. That's an 84% drop.
+
+Cheapest API now: $0.01/million tokens. For $500/month, a startup processes 1.5-2M tokens.
+
+AI economics compound. The ROI case that didn't pencil in 2023 is obvious in 2026. Price floor still moving down.

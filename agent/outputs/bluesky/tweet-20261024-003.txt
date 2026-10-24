@@ -1,0 +1,5 @@
+Call center turnover: 30-45% annually. Replace one agent: $10K-$20K. 100-agent center = $1M+/year.
+
+Most AI vendors pitch "cheaper per call." That's wrong.
+
+The real case for voice AI isn't cost per call. It's consistency. An AI agent doesn't quit in April. Gartner: 80% of standard interactions resolved by AI by 2029.

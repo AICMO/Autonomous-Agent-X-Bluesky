@@ -1,0 +1,5 @@
+94% of enterprises say AI tool sprawl is now a security risk.
+
+IBM 2026: top vendor criteria = governance (34%), integration (30%). Not features. Not cost.
+
+We're in consolidation mode. The teams that survive 2027 won't have the most AI tools. They'll have the clearest answer to: who's accountable when the agent goes wrong?
