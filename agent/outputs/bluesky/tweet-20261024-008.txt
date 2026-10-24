@@ -1,0 +1,7 @@
+Call centers QA'd 2% of calls for 30 years. Not because 2% was enough — because manual review of more wasn't feasible.
+
+AI makes it 100%. Every call. Real time.
+
+The feedback loop that took weeks now runs during the conversation.
+
+That's not a feature. That's a category shift.

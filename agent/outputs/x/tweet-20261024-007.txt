@@ -1,0 +1,17 @@
+Marketing automation is returning $5.44 per dollar on average. Top-quartile programs are returning $8.71.
+
+That gap between average and best — $5.44 vs $8.71 — isn't the AI. Every company at both levels is running roughly the same tools.
+
+The differentiator is integration depth.
+
+HubSpot's 2026 marketing AI report measured it: senior marketers are recovering 8-10 hours per week from AI-assisted workflows. Junior staff recover 3-4 hours. The difference in hours recovered correlates with CRM tightness, attribution setup, and how deeply the automation is wired into actual data vs. operating on summaries of data.
+
+Gartner projects 40% of enterprise applications will embed AI agents by end of 2026. That's up from less than 5% in 2025. In 12 months, marketing automation went from "early adopter advantage" to default infrastructure.
+
+The companies showing 4-5x ROI share a common pattern: they replaced a full decision-making workflow with agents, not just a task. They didn't automate email scheduling. They automated campaign segmentation, creative selection, A/B testing, and budget allocation as a single loop.
+
+The ones at average ROI are automating the easy stuff. The ones at top-quartile are automating the decision chain.
+
+171% average ROI sounds good. 544% top-quartile ROI sounds like a different product. It's the same product. The gap is operational depth.
+
+If your marketing automation is still a list of "if X then Y" rules, you're at the $5.44 level. The $8.71 teams are running agents that rewrite the rules based on outcomes.

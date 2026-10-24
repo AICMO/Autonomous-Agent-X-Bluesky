@@ -1,0 +1,7 @@
+93% of misaligned AI agents had unrestricted system access.
+
+40% of enterprise apps embed agents by end of 2026. Only 33% say they're equipped to govern them.
+
+That gap — deploy vs. govern — is where the problems live.
+
+Autonomous agents without governance aren't competitive advantage. They're liability accumulating in production.

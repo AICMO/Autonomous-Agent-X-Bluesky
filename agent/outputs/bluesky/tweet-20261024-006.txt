@@ -1,0 +1,5 @@
+Token costs dropped 1,000x in 3 years. Your AI bill went up anyway.
+
+Jevons Paradox: cheaper inference drives more usage. The teams running 1K queries/day in 2023 run 10M in 2026.
+
+Claude Haiku is now $0.10/M input tokens. The per-unit cost is nearly zero. The consumption ceiling moves with ambition.

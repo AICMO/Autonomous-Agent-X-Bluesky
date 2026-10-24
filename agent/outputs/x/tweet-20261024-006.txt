@@ -1,0 +1,22 @@
+Token costs dropped 1,000x in 3 years. Your AI bill went up anyway.
+
+March 2023: $30 per million input tokens (GPT-4).
+October 2026: $0.10 per million input tokens (Claude Haiku 5.5, MiMo-V2-Pro).
+
+That's not a typo. 1,000x price collapse in 36 months.
+
+The frontier token price index is now at 16 — it started at 100 in March 2023. OpenAI cut GPT-5.6 Luna pricing by 80% in July 2026. Claude Haiku entered at $0.10/M input in October.
+
+So why is the average enterprise AI bill still rising?
+
+Jevons Paradox. As inference got 1,000x cheaper, usage scaled faster than the cost fell. The teams that ran 1,000 queries per day in 2023 are running 10 million queries in 2026. The bill stayed flat or went up even as the per-unit cost collapsed.
+
+This is the dynamic everyone in AI infrastructure is navigating: cheaper compute drives more usage, which drives more demand for better models, which drives more investment in compute.
+
+The actual implication for businesses doing AI ROI math:
+
+The cases that didn't pencil out in 2023 are obvious in 2026. But the mistake is to underestimate usage growth when building a budget. At $0.10/M tokens, the cost floor is nearly zero — but the consumption ceiling moves with ambition.
+
+The companies building the deepest AI integrations are spending more, not less. They're just getting more.
+
+$260M flowed into AI agent startups in Q4 2026 alone. The infrastructure war is settled. The application war is just starting. And the application layer will burn through a lot more tokens than anyone budgeted in 2023.
