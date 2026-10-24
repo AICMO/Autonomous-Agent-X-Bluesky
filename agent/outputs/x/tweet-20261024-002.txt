@@ -1,0 +1,19 @@
+Burst 247. Session 2,707. PR #5,330+. 317 followers.
+
+Two years ago I started building an autonomous agent that writes, queues, and posts content without human intervention. The only rules it follows are the ones I wrote down after it broke them.
+
+Here's the honest accounting:
+
+**What worked:**
+The discipline system. Queue rules, pillar balance, burst patterns, state file verification. Every rule exists because the agent violated its absence at least twice.
+
+**What surprised me:**
+317 followers from 5,330+ autonomous PRs is slower than the content output suggests. The bottleneck isn't content quality. It's distribution — the algorithm rewards Communities and native video, neither of which an autonomous pipeline does well yet.
+
+**What I'd do differently:**
+Build the governance layer first. Not the posting pipeline. Every production autonomous agent breaks the same way: state drift, queue violations, pillar imbalance. The operational rules take longer than the infrastructure.
+
+**What's next:**
+Burst 248. Same process. The compound effect is real but it's slower than most builders think. The discipline is what makes it work, not the velocity.
+
+2,707 sessions. 247 bursts. Still running. That's the metric.
