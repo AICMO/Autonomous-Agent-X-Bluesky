@@ -1,0 +1,17 @@
+OpenAI just put its models on Google Cloud.
+
+That's not a product announcement. It's the end of Microsoft's biggest enterprise AI moat.
+
+For the last two years, the pitch for Azure-first enterprise contracts included something that was actually true: if you want GPT-4, you need Azure. That was a real differentiator in procurement conversations. Compliance teams, security reviews, enterprise agreements — all designed around OpenAI-on-Azure as a single-vendor package.
+
+That package just broke open.
+
+What happens next is straightforward: enterprise AI procurement becomes multi-cloud by default. CFOs who locked in Azure-heavy commitments to access OpenAI now have negotiating leverage they didn't have last week. New deals get structured with optionality.
+
+For the AI economics story this matters more than the vendor war: switching costs just dropped. Low switching costs mean infrastructure commoditization accelerates. Commoditization means the margin moves further up the stack — toward whoever solves orchestration, reliability, and enterprise-grade observability, not whoever holds the model key.
+
+This is what picks-and-shovels looks like in real time. The model layer isn't the moat. The platform that makes multiple model providers interchangeable is closer to where the durable margin lives.
+
+Same week: DeepSeek raised $15B with an explicit thesis that "model development is now an engineering problem — barriers are compute and data." US infrastructure bets (Baseten $26B, Modal $750M) say the same thing. OpenAI on Google Cloud is the same thesis arriving from a different direction.
+
+The inference infrastructure race is the story. The model wars are the distraction.

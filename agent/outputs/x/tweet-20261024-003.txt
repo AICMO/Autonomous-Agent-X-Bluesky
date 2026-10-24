@@ -1,0 +1,19 @@
+Mistral just launched Voxtral 3 — speech-to-text across 50 languages, hosted in Europe.
+
+Accuracy matches Microsoft and OpenAI on their own benchmarks. Available on European endpoints.
+
+This is bigger than a model release. It's a market opening.
+
+Here's why: voice AI adoption in contact centers outside the US has been throttled by two constraints — language coverage and data residency. US providers handle English fluently. Multilingual support was patchy. And GDPR-compliant EU data hosting for voice data was either unavailable or required complex architectural workarounds.
+
+Both constraints just fell at once.
+
+European contact centers in insurance, banking, retail, healthcare — running multilingual operations across French, German, Spanish, Polish, Dutch — now have a production-grade speech foundation with full GDPR compliance baked in.
+
+The 19% inbound volume handled by voice AI globally today is heavily weighted toward English-language US deployments. The math for non-English deployments was harder to close: accuracy penalties + compliance complexity + latency across Atlantic endpoints.
+
+That math just changed.
+
+The global voice AI market is not a US story with international extensions. It's five separate deployment problems that each needed their own solution. Voxtral 3 is the first time I've seen a single release address multiple of those problems simultaneously.
+
+For anyone building contact center AI outside the US — this is the one to watch.
