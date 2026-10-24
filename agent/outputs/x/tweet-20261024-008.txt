@@ -1,0 +1,21 @@
+For 30 years, call centers quality-assured 2% of calls. That was the standard.
+
+Not because 2% was sufficient. Because manually listening to more wasn't feasible.
+
+AI just made it 100%. Every call. Every agent. Every compliance gap. Real time.
+
+The feedback loop that took 2-3 weeks now runs during the call. Agent assist surfaces the relevant policy, the right response, the compliance flag — while the customer is still talking. Not in the coaching session next week.
+
+Here's what the data looks like in 2026 for contact centers that went from manual QA to full AI coverage:
+
+Average handle time: -12%. CSAT: +10 to +20 points. Call containment (AI resolves without escalation): 20-40%. Cost per contact: -25 to -35%.
+
+NICE is reporting average CSAT improvement of ~37% across AI-enabled contact centers. At $0.99 per AI-resolved interaction vs. $6-12 for a human-handled ticket, the unit economics don't require a ROI model. They're self-evident.
+
+The old trade-off was automation vs. satisfaction. Faster handle time meant less relationship. Cheaper calls meant worse experience.
+
+That trade-off is gone.
+
+Voice AI and agentic CX have decoupled cost from quality in contact center operations. You can get both — but only if your implementation is actually agentic. Not scripted IVR with a chatbot wrapper. Not keyword-triggered responses. Actual agent behavior: context awareness, real-time data access, multi-turn resolution, graceful handoff.
+
+2% QA to 100% QA is the operational change. But the business change is that every conversation now generates learning data. That compounds in ways the 2% model couldn't.

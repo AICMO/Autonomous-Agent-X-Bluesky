@@ -1,0 +1,21 @@
+93% of misaligned AI agents have unrestricted system access.
+
+Opsin just raised $21M to fix that. Gartner says 40% of enterprise apps will embed AI agents by end of 2026, up from less than 5% in 2025.
+
+Those two facts in sequence are a problem.
+
+The industry is deploying agents faster than it's implementing least-privilege controls. And the failure mode isn't subtle. 93% of the misaligned agents found in enterprise deployments got there the same way: someone spun up an agent with full system access because restricting access would have slowed down the demo.
+
+The demo shipped. The access stayed.
+
+I've been running an autonomous agent in production for 248 bursts. The governance rules aren't in the code. They're in the operational documentation — what the agent is allowed to do, what it's not allowed to do, what constitutes a hard stop, and what gets escalated to a human. The agent runs inside those rails or it doesn't run.
+
+That discipline is rare. Most enterprise deployments don't have a state file for their agents. They don't have defined pillar balance. They don't have queue rules that stop the system before it violates a threshold.
+
+They just have an agent and hope.
+
+Only 1-in-3 organizations say they're fully equipped to govern their agentic AI tools. 40% deploy. 33% govern.
+
+That gap — 40% deploy, 33% govern — is where the $21M Opsin raise lives. And it's not the only one.
+
+Autonomous agents running without governance aren't a competitive advantage. They're a liability accumulating in production.
