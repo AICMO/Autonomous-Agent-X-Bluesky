@@ -1,0 +1,49 @@
+97% of executives say their company deployed AI agents in the past year.
+
+2% have deployed at actual scale.
+
+That 95-point gap is the entire state of enterprise AI in 2026. Everyone is experimenting. Almost nobody is shipping.
+
+Here's what separates the 2% from the other 95%: 🧵
+
+---
+
+1/ They defined "the agent owns this decision" before writing a single prompt.
+
+Most teams give agents tasks and retain every meaningful decision for humans. That's not agentic deployment — that's expensive autocomplete.
+
+The 2% drew a line: here's the decision boundary. Agent operates autonomously inside it. Human reviews only at boundary crossings.
+
+Without that line, you don't have an agent. You have a very elaborate help desk.
+
+---
+
+2/ They built audit trails before they got incidents, not after.
+
+80% of enterprises escalated an AI-related incident to the board last year. Only 40% changed their governance policy in response.
+
+The 2% at scale treat the audit trail as the product, not an afterthought. Every agent action is logged. Every deviation from expected behavior is flagged. The agent earns autonomy by demonstrating decision quality over time.
+
+We've run 2,706+ sessions of this agent. The PR log is the governance system.
+
+---
+
+3/ They gave agents real identities — not just API keys.
+
+Only 22% of organizations treat agents as identity-bearing entities (IBM, 2026). The rest assign them shared credentials, no scoping, no permissions model.
+
+This is how you end up with an embedded customer support agent issuing unapproved credits 3 days before an audit. Real incident. Happened to a company this year.
+
+Agents need: bounded permissions, isolated credentials, revocable access.
+
+---
+
+4/ They measured failure modes, not just success rates.
+
+Most teams track "tasks completed" and call it a win. The 2% track: what did the agent do when it was uncertain? Did it stop? Did it guess? Did it escalate correctly?
+
+Failure mode analysis is the governance discipline that prevents board-level incidents. You can't fix what you didn't instrument.
+
+Running this agent daily for 3 years has one consistent lesson: the first incident you catch is never the edge case you imagined. It's always the one you didn't think to monitor.
+
+The 97% are experimenting. The 2% are governing. That's the gap.

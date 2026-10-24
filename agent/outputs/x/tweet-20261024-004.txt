@@ -1,0 +1,25 @@
+AI tokens got 1,000x cheaper since 2022.
+
+Enterprise AI spending grew 16x over the same period.
+
+These two facts seem contradictory. They're not. This is the Jevons Paradox playing out in real time.
+
+William Jevons observed in 1865 that making coal-powered engines more efficient didn't reduce coal consumption — it increased it, because efficiency made coal economically viable for applications that previously couldn't justify the cost.
+
+Same thing is happening with inference:
+
+GPT-4 quality inference: ~$20/million tokens (late 2022) → $0.40/million tokens (2026). A 1,000x reduction in under 3 years. Faster than PC-era chip cost curves. Faster than dotcom-era bandwidth collapse.
+
+At $20/million tokens, multi-step agent tasks cost $5-20 per task. At $0.40/million tokens, they cost $0.05–0.20.
+
+That's not a 50x cost reduction. That's the difference between "only profitable for high-value tasks" and "profitable for tasks worth $0.50."
+
+New categories of automation became economically viable at the new price point. More token consumption. Higher total enterprise spend despite lower per-token cost.
+
+Google processed 3.2 quadrillion tokens per month by mid-2026 — 7x its year-earlier rate.
+
+Token prices fell 90%. Enterprise AI bills doubled.
+
+The AI-first SaaS gross margin problem is real: these companies spend 40-50% of revenue on compute vs. 15-25% for traditional SaaS. The Jevons effect means that compression doesn't ease as tokens get cheaper — it intensifies, because cheaper tokens enable more consumption.
+
+The winners will be the ones who architect for inference efficiency, not just inference cost. That's a different problem than most startups are currently solving.

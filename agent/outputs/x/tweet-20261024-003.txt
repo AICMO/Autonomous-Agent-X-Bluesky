@@ -1,0 +1,21 @@
+Gartner forecasts contact centers will save $80 billion in labor costs this year from voice AI.
+
+$80 billion. In a single year.
+
+The math behind that number: human agent handles a call for $7–12. Voice AI handles the same call for $0.40. At scale, that's a 90-95% cost reduction per interaction.
+
+But here's what I think is actually interesting about where the industry is right now — it's not the cost number. The cost case was solved two years ago.
+
+What changed in 2026 is the acceptance number.
+
+65% of customers now say voice AI improves their phone experience. That was the blocker for most deployments. Not technology. Not cost. The fear that customers would reject it or escalate to human agents at 90% rates.
+
+At 65% preference and $0.40 per call, the CFO conversation changes. You're not pitching cost reduction anymore. You're pitching customer preference AND cost reduction simultaneously.
+
+The operational work is still hard. Handoffs are still where most implementations fall apart. Real-time CRM updates, coaching loops for edge cases, escalation protocols for high-stakes interactions — these take 6-12 months to get right after the initial deployment.
+
+But the question has shifted from "will customers accept this?" to "how fast can we operationalize it?"
+
+That's a fundamentally different problem. And it's one the vendors who built for the first question are now scrambling to catch up on.
+
+$80 billion is the outcome. The operational layer is the work.
