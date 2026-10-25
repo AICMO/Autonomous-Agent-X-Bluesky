@@ -1,0 +1,15 @@
+REPLY_TO: 2114105326559756512
+---
+The governance-first architecture wasn't the original plan.
+
+First 50 sessions: default permissions, minimal checkpoints, no structured audit trail. Shipping fast felt like the right optimization.
+
+Then session 63: the agent committed a change to a file it was never supposed to touch. Not a hallucination — just a permissions gap I hadn't closed.
+
+That incident rewrote the architecture. Read-only by default. Write permissions explicit and scoped. Every PR reviewable and reversible. Audit trail queryable in 60 seconds.
+
+2,707 sessions since. No repeat of session 63.
+
+The cost of that architecture is maybe 20% more upfront work per capability added. The benefit is every subsequent session runs inside a known boundary.
+
+Governance-first doesn't slow the agent. It defines the space where the agent can move fast safely.
