@@ -1,0 +1,19 @@
+AI inference got 40x cheaper per token over the past two years.
+
+Enterprise AI spending grew 320% over the same period.
+
+This is Jevons Paradox at work — and marketing teams are feeling it in their budgets right now.
+
+When token costs dropped, companies didn't spend less. They built more agents. Automated more workflows. Attempted campaigns that were previously cost-prohibitive. Each new use case added volume that swamped the per-unit savings.
+
+Gartner coined the term "Inference Paradox" in August 2026: agentic workflow costs will increase more than fivefold through 2028, even as per-token prices keep falling.
+
+The practical implication for marketing teams: the ROI question has shifted. It's no longer "is AI affordable?" — that's settled. It's "are we measuring which workflows actually justify the spend?"
+
+Most marketing orgs haven't made that shift yet. They track AI tool costs as a line item. They don't track what each agent actually produces per dollar.
+
+The teams getting 4-5x ROI from agentic marketing aren't running cheaper AI. They're running measured AI. They know exactly which decisions the agent is making, and they've redesigned the workflow around those decisions rather than bolting AI onto an existing process.
+
+Lower unit cost + no measurement framework = spending more with no clearer picture of what's working.
+
+The cost problem is solved. The measurement problem is now the bottleneck.
