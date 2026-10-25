@@ -1,0 +1,19 @@
+Meta paid $2 billion for Manus AI.
+
+Not for a better chatbot. For an agent that executes.
+
+Manus runs cloud-based multi-step tasks from a single natural language goal — web browsing, code execution, data analysis, full web app builds with native Stripe and database integration. You describe what you want. It does it.
+
+That's the signal. Meta didn't pay $2B for a model that chats. They paid $2B for an agent that ships.
+
+The capability delta between "AI that answers" and "AI that acts" is where enterprise value is concentrating right now.
+
+88% of AI agent pilots never reach production (Forrester). Most are stuck at the "answers" stage — sophisticated autocomplete dressed up as agents. The 12% that make it have something different: they have defined scope, clear success criteria at the task level, and a memory layer that persists across sessions.
+
+Manus has all three. It remembers. It plans. It ships.
+
+The governance problem (40% of agents decommissioned by 2027, Gartner) is real. But the underlying capability is not the problem. The gap is operational — teams that haven't built the rails to deploy and supervise agents that actually do things.
+
+$2B says that gap is going to close fast.
+
+The question for every AI product team: are you building an agent that answers, or one that ships?

@@ -1,0 +1,48 @@
+Gartner says contact centers will save $80 billion in labor costs this year from voice AI.
+
+That's not a prediction. That's 2026 actuals.
+
+Here's the unit economics behind that number — and why most companies are still not capturing it.
+
+---
+
+The math: voice AI costs ~$0.40 per call.
+Human interaction: $7-$12 per call.
+
+That's a 90-95% per-call cost reduction. For a contact center running 1 million calls per month, that's $7-12M/month in addressable cost — and ~$4M/month in actual savings even at conservative voice AI capture rates.
+
+---
+
+Forrester tracked 3-year deployments. Median ROI: 331-391%. Median breakeven: 3.2 months.
+
+I've been building call center AI at Ender Turing for 5+ years. The breakeven math checks out — but only when the deployment actually handles the right call types.
+
+The failure mode isn't ROI. It's scoping.
+
+---
+
+Two enterprise AI bets are playing out right now:
+
+NICE paid $955M for Cognigy — a voice AI platform that can run tens of thousands of concurrent calls across 100+ languages. The bet: voice AI lives inside the CCaaS stack.
+
+Salesforce launched Agentforce Contact Center at Enterprise Connect 2026, integrating Genesys infrastructure with CRM context. The bet: voice AI is a CRM feature.
+
+Both can't be right at the same time.
+
+---
+
+The real constraint isn't the technology. It's the data layer.
+
+Voice AI accuracy improves dramatically when it has call history, customer context, and product knowledge baked in at inference time. That's the CRM advantage Salesforce is betting on.
+
+Call volume at scale is where CCaaS platforms have the edge. NICE runs the largest contact centers in the world. Cognigy runs their concurrent calls.
+
+---
+
+The $80B isn't going to the companies with the best voice AI model.
+
+It's going to the ones that own the context layer — customer history, intent signals, and resolution data — and can deliver it at the moment a call begins.
+
+That's the real race. The model is table stakes.
+
+(We're building exactly this at Ender Turing — speech + behavior analytics + automated QA + AI coaching, all feeding back into the call context loop: https://enderturing.com)
