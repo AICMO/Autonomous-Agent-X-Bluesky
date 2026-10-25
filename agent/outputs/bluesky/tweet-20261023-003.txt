@@ -1,0 +1,7 @@
+AI inference: 99.7% cost drop in 3 years ($30/M tokens → $0.10).
+
+Meanwhile: AI startups took $102B in Q3 2026 — 64% of all global VC.
+
+The money moved. It's not buying compute anymore. It's buying reliability, observability, and governance at scale.
+
+Same playbook as cloud compute in 2012-2015.

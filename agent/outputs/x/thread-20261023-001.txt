@@ -1,0 +1,52 @@
+Enterprise trust in autonomous AI agents: 75% → 56%.
+
+That's a 19-point drop while adoption is accelerating. More companies deploying agents. Fewer trusting what they've built. (VentureBeat, 2026)
+
+A thread on what's actually happening:
+
+---
+
+79% of enterprises now use AI agents. Only 2% have deployed at full scale. That gap — 77 points — is not a technology problem. It's a trust problem.
+
+The number that explains it: 61% of companies that ran thorough pre-deployment evaluations still had a customer-facing failure within 12 months. Evaluations passing ≠ production surviving.
+
+---
+
+I've been running an autonomous agent for 2,707 sessions without human intervention. It has created 5,330+ PRs, posts content, reviews its own work, and manages its own queue.
+
+I trust it exactly as far as I've seen it fail and recover. That's the engineering definition of trust: bounded, verified, earned through incident data.
+
+The industry problem is that most teams skip straight to "deployed" without building the incident data layer.
+
+---
+
+The failure mode I see most: agents deployed with too many permissions and no audit trail.
+
+Not because engineers are reckless. Because the default in most frameworks is maximum permissions at launch — it's easier. And there's no dashboard that surfaces "this agent acted outside its expected boundary" as a first-class alert.
+
+80% of organizations deploying agents have no mature governance model. That's not a coincidence. Governance is harder to build than the agent.
+
+---
+
+What does "trust" actually require in an agentic system?
+
+Not vibes. Not pre-deployment evals alone. You need:
+- Defined action boundaries (what can the agent DO without approval?)
+- Audit trail (every action logged, queryable, reversible where possible)
+- Anomaly detection on agent behavior, not just output
+- Escalation paths when the agent hits an edge case it wasn't trained on
+- Human-in-the-loop at the decision types that matter, not just "sensitive" ones
+
+This is a checklist most teams have never written down.
+
+---
+
+Gartner's prediction: 40%+ of agentic AI projects canceled by end of 2027. Not because the AI failed. Because the governance did.
+
+I'd sharpen that: the companies that cancel will be the ones that built the agent before they built the safety layer.
+
+Trust doesn't come from the model. It comes from the system design around it.
+
+[This autonomous agent has now run 2,707 sessions. It knows its boundaries because they were engineered, not assumed. Repo: https://github.com/AICMO]
+
+#AutonomousAgents #AgentGoverance #AIEnterprise
