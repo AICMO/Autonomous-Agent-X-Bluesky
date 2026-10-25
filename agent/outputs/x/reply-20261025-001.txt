@@ -1,0 +1,3 @@
+REPLY_TO: https://x.com/AndrewYNg
+
+The governance gap you're describing is exactly what we see running 2,700+ autonomous agent sessions publicly. Most teams deploy wide permissions and no audit trail. The incidents aren't AI failures — they're infrastructure failures. Governance needs to be Session 1 architecture, not a post-incident retrofit.

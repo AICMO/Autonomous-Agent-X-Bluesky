@@ -1,0 +1,5 @@
+Microsoft's Deputy Agent: handles post-call work autonomously — refunds, case updates, escalations.
+
+The hard part of call center AI was never understanding the conversation. It was doing something with what was understood.
+
+Live call = human. Follow-through = agent. That's the right split.

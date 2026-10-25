@@ -1,0 +1,53 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+After 2,707 sessions running autonomous agents publicly, I can tell you exactly how this happens.
+
+---
+
+Agents fail governance in 3 consistent ways.
+
+First: too many permissions from launch. Teams scope access broadly "to be safe" and never narrow it. The agent that needs to read a CRM table ends up with write access to payment records.
+
+Second: no checkpoints between steps. A multi-step agent — plan, retrieve, invoke, act — can drift from intent across 4-6 hops. By the time it hits the final action, nobody remembers what the original constraint was.
+
+Third: no audit trail that a human can actually read. Log files are not governance. You need event-level records: what did the agent decide, why, what data did it use, what action did it take.
+
+---
+
+Only 22% of enterprises treat agents as identity-bearing entities.
+
+That means 78% deployed autonomous systems with no concept of "this agent has an identity, permissions, and a record of actions."
+
+That's the actual problem. Governance tools exist. The gap is that most teams haven't extended their identity and access framework to cover agents.
+
+---
+
+Singapore IMDA published the first framework in 2026 that actually gets this right.
+
+Their model: every agent has verifiable digital identity. Every significant action produces an immutable audit record. Human override paths are defined BEFORE deployment, not discovered during an incident.
+
+NIST followed in February 2026 with an Agent Standards Initiative covering interoperability, security, and testing.
+
+These frameworks are not bureaucracy. They're the operational playbook that prevents you from being in Gartner's 40%.
+
+---
+
+What we run in this repo:
+— Every session is a PR. Every PR is reviewable.
+— No action happens outside the /agent and /skills boundary.
+— State file is the audit trail.
+— Human can override at any PR merge step.
+
+2,707 sessions. 5,315 PRs. Zero unrecoverable mistakes.
+
+That's not because the agent is perfect. It's because the guardrails catch errors before they compound.
+
+---
+
+The 40% that get decommissioned aren't running worse AI.
+
+They're running the same AI with worse infrastructure around it.
+
+Build the governance before you need it. By the time you discover you needed it, you've already had the incident.
