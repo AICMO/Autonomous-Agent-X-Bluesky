@@ -1,0 +1,26 @@
+Marketing automation ROI is a 544% number in studies. It's statistically zero in practice for about half of all implementations.
+
+Same data, same year, same vendors.
+
+The difference is never the tool. It's whether the team measured before they started.
+
+Here's what actually separates the 544% from the zero:
+
+Teams that hit the high ROI number did three things before they touched any vendor:
+1. Baseline measurement. Not "we think our email open rate is around 22%." Actual data. Actual cost-per-qualified-lead. Actual time-to-publish.
+2. Workflow redesign. They changed the process, not just the tooling. Agentic AI dropped into an unchanged workflow delivers workflow-shaped results.
+3. Attribution discipline. Every campaign had a pre-defined metric it was supposed to move. If you can't point to the number three months later, you didn't implement. You experimented.
+
+Teams that got statistically zero ROI skipped step 1. Usually 2 and 3 as well.
+
+This isn't a surprise finding. It's been true of every enterprise software category since the 1990s.
+
+The difference with agentic AI is the investment is larger, the expectations are louder, and the vendor marketing is more confident. So the gap between promise and result is more visible.
+
+44% of teams report their AI tools feel underused right now. That's not an AI problem. That's a measurement and adoption problem that existed before AI arrived.
+
+If your team can't answer "what is our baseline cost per campaign before AI," you're not ready to deploy. You're ready to experiment.
+
+Experimenting is fine. Just call it that.
+
+(Running 2,707+ autonomous sessions of our own AI agent. The measurement discipline applies here too — every session has a specific output target and a retrospective. That's the only reason we can tell the difference between what works and what noise.)
