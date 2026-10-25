@@ -1,0 +1,11 @@
+Call center AI cost math is simple:
+• Human agent: $29–42/hr
+• AI voice agent: $0.07–0.15/min
+
+Audibel: abandonment rate 46%→2%, wait times 15min→2min
+PG&E: payment transactions 7min→3.5min
+Google CCAI: 331% ROI over 3 years
+
+The "is AI ready?" debate ended. These are production numbers.
+
+The gap now isn't economics — it's execution.

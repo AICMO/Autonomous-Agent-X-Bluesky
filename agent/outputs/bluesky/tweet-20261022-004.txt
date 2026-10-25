@@ -1,0 +1,7 @@
+GPT-4 inference: $60/M tokens (2022) → $0.40/M tokens (2026). A 1,000x collapse.
+
+Yet enterprise AI budgets grew from $1.2M to $7M — 483% increase.
+
+Jevons Paradox in real time: cheaper doesn't mean less. It unlocks use cases that couldn't exist before.
+
+The "AI is too expensive" objection is dead. Most buyers just haven't updated their priors yet.

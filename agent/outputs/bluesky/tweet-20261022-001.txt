@@ -1,0 +1,10 @@
+Agentic marketing ROI numbers:
+• 544% ROI over 3 years vs legacy automation
+• 4.1x–5.3x ROI on specific workflow replacements
+• $463B annual productivity value at stake
+
+10% have scaled past experiments. The rest are stuck in pilot purgatory.
+
+Difference: defined decision boundaries, HITL for high-stakes outputs, per-workflow ROI measurement.
+
+The orchestration layer is where the margin lives.

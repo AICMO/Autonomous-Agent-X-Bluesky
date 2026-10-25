@@ -1,0 +1,25 @@
+GPT-4 equivalent inference: $60/million tokens in 2022. $0.40/million tokens today.
+
+That's a 1,000x cost collapse in 3 years. One of the fastest cost declines in computing history.
+
+OpenAI cut o3 pricing 80% — from $10 to $2/million input tokens. Mistral Large dropped from $3 to $2. Google Gemini Flash now sits at $0.10/million input tokens.
+
+Here's what didn't happen: the AI market didn't shrink.
+
+Average enterprise AI budget grew from $1.2M in 2024 to $7M in 2026. A 483% increase. Per-unit cost collapsed; total spend exploded.
+
+This is the Jevons Paradox playing out in real time. When something becomes dramatically cheaper, consumption expands faster than the efficiency gain. The resource is used more, not less. Coal, bandwidth, compute — same pattern every time.
+
+AI startup inference cost per user: $0.50–$2.00/month in Q1 2023. $0.02–$0.08/month in Q2 2026. That's the cost collapse.
+
+But the market grew anyway. Because cheaper inference unlocks use cases that were previously cost-prohibitive. A feature that cost $5/user/month at 2022 prices costs $0.02 today. The product now reaches markets that couldn't afford it before.
+
+What this means for founders:
+
+1. The "AI is too expensive" objection is dead. It died quietly, and most buyers haven't updated their priors yet.
+
+2. The margin question is real. Frontier reasoning models still hold at $15–25/million output tokens. The race to zero is in commodity inference. If your product depends on commodity inference, pricing power is gone. If it depends on reasoning-layer differentiation, you still have room.
+
+3. Build on the cheapest tier that works. Use frontier models only where they actually change the outcome. The economics reward precision, not defaults.
+
+The cost floor is still moving down. The companies positioning for "when inference is basically free" are thinking about this right.
