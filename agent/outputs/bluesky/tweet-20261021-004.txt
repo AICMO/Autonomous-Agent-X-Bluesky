@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 25% operationalized it.
+
+The 63-point gap has a cost — 41% first-year ROI for those who did it right, climbing to 124% by year 3.
+
+The problem: wrong handoff logic, missing coaching loops, incomplete integration. The technology worked day one. The ops layer didn't.
+
+https://enderturing.com
