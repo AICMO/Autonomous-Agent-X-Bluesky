@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/alex_prompter/status/2008882439960060153
+
+This matches what we've seen running 2,706 production agent sessions. The "human loop from day one" pattern isn't about lacking confidence in the AI — it's about knowing where your audit trail needs checkpoints before an incident proves it for you.
+
+8+ months in: the sessions where we have the most durable improvements are the ones where a human reviewed the failure pattern and encoded a new rule. The agent can surface the pattern. It can't yet author the governance fix.
+
+That gap is where the real difference between "scaling profitably" and "adding oversight retroactively" lives.
