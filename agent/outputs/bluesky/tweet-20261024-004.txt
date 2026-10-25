@@ -1,0 +1,7 @@
+OpenAI on Google Cloud = end of Microsoft's biggest enterprise AI moat.
+
+"Want GPT-4? Need Azure." That's over.
+
+Switching costs just dropped. Infrastructure commoditizes faster. Margin moves to whoever solves orchestration — not whoever holds the model key.
+
+The inference race is the story. Model wars are the distraction.

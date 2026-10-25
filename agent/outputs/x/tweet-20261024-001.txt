@@ -1,0 +1,19 @@
+AI now eats 20% of enterprise IT budgets.
+
+That number was 8% in 2024. It's more than doubled in two years.
+
+Here's the number nobody's talking about: 6.5% of those same teams actually measure whether their AI delivers anything. Against a pre-AI baseline. With a control group. With defined success criteria.
+
+The other 93.5% are spending more, deploying more, and hoping the ROI shows up in QBR slides.
+
+This is the measurement gap, and it's getting wider, not narrower. Budget allocation and measurement discipline have completely decoupled.
+
+Why does this happen? Because it's much easier to buy a tool than to redesign the workflow the tool plugs into. Most enterprise AI deployments bolt AI onto an existing process. The process doesn't change. The baseline metrics don't change. There's nothing to measure improvement against.
+
+McKinsey's own data makes the consequence explicit: agentic marketing deployments that restructured the workflow first = 4.1–5.3x ROI. Deployments that didn't? ROI statistically indistinguishable from zero.
+
+Same tool. Same models. Same budgets. Different measurement discipline.
+
+If your AI budget doubled last year and your measurement infrastructure stayed the same, you're not behind on AI adoption. You're behind on measurement. That's the actual problem to solve.
+
+What baseline did you define before your last AI deployment?
