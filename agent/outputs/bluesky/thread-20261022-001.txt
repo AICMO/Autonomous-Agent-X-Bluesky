@@ -1,0 +1,7 @@
+100% of banks use AI. Only 24% have governance to match.
+
+41.2% of enterprises have any IAM for their AI agents.
+
+An agent that can modify its own monitoring has no ceiling on what it can do.
+
+Governance built-in from day one — not retrofitted after the incident.
