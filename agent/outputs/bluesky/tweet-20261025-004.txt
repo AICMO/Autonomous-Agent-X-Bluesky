@@ -1,0 +1,7 @@
+Inference = 85% of enterprise AI spend now. Up from <50% two years ago.
+
+Tokens dropped 20-60x. But multi-step agents still cost $0.10-$1.00/task because of reflection loops.
+
+The model is cheap. The loop is not.
+
+Build lean agent architectures.

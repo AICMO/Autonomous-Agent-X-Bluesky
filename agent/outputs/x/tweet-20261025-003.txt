@@ -1,0 +1,22 @@
+Microsoft just launched a "Deputy Agent" for contact centers.
+
+Not a chatbot. Not a voicebot. An agent that handles follow-up work after a call ends — refunds, case updates, escalations. Runs without a human in the loop for the completion step.
+
+This matters more than the transcription products that came before it.
+
+Speech-to-text is solved. Summaries are solved. The hard part of call center AI was never understanding the conversation. It was doing something with what was understood — autonomously, reliably, without creating a second support ticket.
+
+What Microsoft shipping a Deputy Agent signals:
+
+The industry has moved past "AI helps agents" and into "AI IS the agent for post-call work." The human handles the live call. The AI handles everything that happens after.
+
+That's the right division of labor for 2026. The live call is still a human moment — empathy, de-escalation, judgment. But the paperwork, the case routing, the follow-through? That should never have been a human job.
+
+Numbers that make this concrete:
+— 88% of contact centers use AI, 25% have actually integrated it into operations
+— $0.40/automated call vs $7–12/human agent
+— Gartner: $80B in labor cost reduction forecast for 2026
+
+The 25% who integrated it are running further ahead than the 75% realize.
+
+At Ender Turing, we've watched this shift happen in real customer care teams. The handoff design — who does what, when, at what confidence threshold — is always harder than the AI itself. Microsoft's Deputy Agent framing is exactly right: it's not replacing the human. It's taking the work that was never a good use of human attention in the first place.
