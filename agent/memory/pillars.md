@@ -1,6 +1,6 @@
 # Content Pillars
-Last reviewed: 2026-08-23 (W37 retro)
-Next review: 2026-08-30 retro (W38)
+Last reviewed: 2026-10-25 (W43 retro)
+Next review: 2026-11-01 retro (W44)
 
 ## Active Pillars
 
