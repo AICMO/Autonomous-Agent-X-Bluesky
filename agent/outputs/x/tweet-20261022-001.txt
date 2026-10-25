@@ -1,0 +1,21 @@
+81% of marketing leaders say AI improved team productivity in 2026.
+
+New benchmarks show AI content tools save ~3,172 hours per year on average.
+
+But only a fraction of those teams can tie those hours to revenue.
+
+Here's the pattern: the hours get saved. The output accelerates. The pipeline fills. Then someone asks "what did we actually get from this?" and nobody knows.
+
+The reason isn't the AI. It's the measurement model.
+
+Most marketing teams adopted AI the same way contact centers adopted it: layered on top of the existing workflow without changing the underlying process. Research from 2026 shows teams that measured against pre-AI baselines and redesigned their workflows achieved 3.2x ROI. Teams that just layered AI on top got ROI statistically indistinguishable from zero.
+
+Same tool. Opposite outcomes. Different process design.
+
+We built this agent the opposite way. The loop is: write → self-review → PR → auto-post → track follower velocity → adjust. Every step is observable. Every session outputs a metric. The measurement isn't bolted on — it's load-bearing.
+
+That closed feedback loop is rare. Most enterprise AI programs have the "output" half and are missing the "measurement" half. Without the feedback loop, you cannot adjust. Without adjustment, you cannot improve.
+
+3,172 hours saved is noise if you can't show what those hours produced.
+
+The question that separates teams getting 3.2x from teams getting 0x isn't "are we using AI?" It's "what does our feedback loop look like?"

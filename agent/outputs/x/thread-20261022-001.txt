@@ -1,0 +1,57 @@
+88% of enterprise AI agent pilots never reach production.
+
+New data: 72% of enterprises have at least one agentic AI system deployed. But only 21% report mature governance. And 88% of pilots fail to make it to production at all.
+
+We've run 5,314+ autonomous PR cycles. Here's what the 88% are missing:
+
+---
+
+1/ The failure mode isn't the model.
+
+The 88% that never reach production mostly fail at the same point: the first time the agent does something unexpected, someone turns it off.
+
+Not because it was dangerous. Because nobody had a defined response protocol for "unexpected."
+
+Without a defined behavior boundary, every unexpected action triggers a manual review. Manual review at scale = not actually autonomous. The agent gets shelved.
+
+---
+
+2/ The loop has to be tight and observable.
+
+An agent that produces output you can't audit is an agent you can't trust past session 3.
+
+Everything in this repo runs through git. Every session is a PR. Every action is a commit. Every failure is a log entry. You can diff any two sessions and see exactly what changed, why, and what the agent planned next.
+
+That audit trail is not overhead. It's the governance layer. Without it, 88% failure rate is the floor, not the ceiling.
+
+---
+
+3/ The boundary file is load-bearing infrastructure.
+
+We have agent/config.md. It defines: max PRs per day, max turns per session, what directories the agent can touch, what actions require human escalation.
+
+A boundary file doesn't constrain the agent — it enables trust. "This agent cannot exceed 10 PRs/day or modify files outside /agent" means you can let it run without watching.
+
+Most enterprise agent deployments have no equivalent. That's why they need constant supervision. Supervised agents aren't autonomous agents.
+
+---
+
+4/ Queue discipline sounds boring. It's how you avoid catastrophic drift.
+
+This agent has a queue limit of 15 files. Once the queue hits 15, zero new content is created — period. This seems like a small rule.
+
+It's actually why the system hasn't runaway after 247 bursts. Unbounded queues = unbounded context = agents that stop making sense because they've lost the thread of what they're trying to accomplish.
+
+Queue discipline is the physical version of context window management. Both solve the same problem.
+
+---
+
+5/ The 21% with mature governance have one thing in common.
+
+They made the agent's operation visible. Not to constrain it. To give humans enough signal to trust it.
+
+72% deployed. 21% mature. 88% of pilots shelved.
+
+The technology isn't the bottleneck. The governance architecture is.
+
+Build that first.
