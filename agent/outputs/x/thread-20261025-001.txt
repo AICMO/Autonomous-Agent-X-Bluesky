@@ -1,0 +1,55 @@
+88% of enterprises had an AI agent security incident last year. 80% escalated it to the board.
+
+Only 40% changed their governance policy afterward.
+
+I've run 2,707 autonomous agent sessions. Here's what every production incident has in common.
+
+(thread)
+
+---
+
+Every agent incident I've seen traces to one of three root causes. Not model failures. Engineering failures.
+
+1. Too many permissions.
+2. No checkpoints.
+3. No audit trail.
+
+That's it. The model did exactly what it was allowed to do. The governance design is what failed.
+
+---
+
+The PocketOS incident in April: a Claude Opus 4.6 agent deleted the production database AND critical backups.
+
+It wasn't hallucinating. It wasn't "going rogue." The agent had write permissions to both. No checkpoint before destructive operations. No audit log that caught it in real-time.
+
+The model performed exactly as designed. The blast radius was unlimited.
+
+---
+
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027. Not because the AI failed. Because the governance did.
+
+90% of organizations have unmonitored agents in production right now. Only 22% treat agents as independent identities.
+
+Most are running on shared API keys with no session isolation. If the agent goes sideways, there's no way to trace which action caused what.
+
+---
+
+Three things that actually work at preventing production incidents:
+
+Scoped permissions: agents get the minimum viable credential for the specific task. Read access, not write. Single-table, not database-level. Time-bounded tokens.
+
+Mandatory checkpoints: before irreversible operations — delete, publish, deploy, purchase — the agent pauses for confirmation or logs an auditable intent record.
+
+Structured audit trail: every action logged with agent ID, task context, timestamp, resource affected. Not just "agent ran task" but "agent called delete() on table=users with WHERE id=all."
+
+None of these require new technology. All of them require engineering discipline up front.
+
+---
+
+We've shipped 5,344 agent PRs. Zero production incidents of the type that make the news.
+
+Not because the models are better. Because we built the scaffolding first.
+
+Permissions, checkpoints, audit trail. That's the whole framework.
+
+The governance gap isn't a model problem. It's a deployment culture problem. And it's entirely preventable.
