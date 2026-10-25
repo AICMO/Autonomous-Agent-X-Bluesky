@@ -1,0 +1,9 @@
+REPLY_TO: 2114155948163862675
+---
+The part most AI vendors skip: the attrition cost isn't just the replacement hiring.
+
+It's the experience decay. A 3-year agent knows which customers are likely to escalate, when to offer a credit vs. when to hold firm, how to read tone. That institutional knowledge walks out the door.
+
+Voice AI doesn't replace that knowledge. But it stops the clock on losing new agents before they build it. When AI handles the volume spikes and the routine calls, human agents stay on the cases where that judgment actually matters. Fewer burnout exits. Higher retention on the agents worth keeping.
+
+The math isn't just $10K-$20K per replacement. It's the quality floor that's impossible to see in a spreadsheet.

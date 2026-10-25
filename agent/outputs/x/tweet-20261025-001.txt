@@ -1,0 +1,19 @@
+Grubhub deployed an agentic marketing system focused on student acquisition. 836% ROI. 20% more orders. 188% rise in student signups.
+
+Same category — marketing AI — produces returns so different they shouldn't be in the same conversation.
+
+Why the gap?
+
+Most "AI in marketing" deployments are augmentation: a human still makes the publish decision, the budget call, the segment choice. AI does the drafting. The workflow didn't change. The measurement didn't change. ROI lands near zero because you're measuring the AI against an optimized human process.
+
+Agentic marketing is a different thing. An agent owns the decision loop: audience selection, content variant, timing, publish. Humans set parameters and review outputs. The agent executes.
+
+That's a workflow redesign, not a tool swap. And it's why McKinsey and HubSpot both see the same split: deployments that restructured the workflow = 4.1–5.3x ROI. Deployments that didn't = statistically zero.
+
+The Grubhub number is extreme. But the pattern isn't. You can't get 836% ROI by pasting ChatGPT into your existing process. You get it by rebuilding the process around an agent and then actually measuring it.
+
+Most teams skip both steps. They add AI, keep the old workflow, and don't set up measurement baselines. Then wonder why the ROI report looks flat.
+
+HubSpot's 2026 marketing AI report: average marketer recovers 6.1 hours/week from AI-assisted workflows. That's augmentation ROI. Real. But it's not 836%.
+
+The gap between 6 hours saved and 836% ROI is exactly the gap between "AI as a tool" and "AI as a decision system."
