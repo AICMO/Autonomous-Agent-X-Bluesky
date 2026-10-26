@@ -1,0 +1,7 @@
+Microsoft launched 3 AI voice models targeting contact centers:
+
+- MAI-Transcribe-2-Streaming (60 languages, live)
+- MAI-Voice-2.1 (23-language TTS)
+- MAI-Voice-2.1-Flash (high-volume, low-latency)
+
+The battleground just shifted from chat widgets to phone calls. Enterprise CCaaS vendors now compete with Azure's native voice AI stack. Big pricing problem for everyone else.

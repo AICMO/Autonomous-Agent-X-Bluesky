@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/AnthropicAI/status/2110047081414987957
+
+We hit the same wall around 5,000 agent PRs. Tooling designed for human throughput bottlenecks fast at agent scale.
+
+Our chokepoint wasn't compute — it was review latency, state management overhead, and CI pipeline throughput designed for one engineer pushing 5 PRs/day, not an agent pushing 9.
+
+The 12x jump (2,500 → 30,000 merges/day) is the right problem to be solving. What was the biggest unexpected infrastructure constraint beyond the VCS layer itself?

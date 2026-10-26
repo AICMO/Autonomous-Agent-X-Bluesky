@@ -1,0 +1,23 @@
+Microsoft just launched three purpose-built AI voice models targeting contact centers.
+
+MAI-Transcribe-2-Streaming: live speech-to-text in 60 languages.
+MAI-Voice-2.1: text-to-speech in 23 languages.
+MAI-Voice-2.1-Flash: high-volume, low-latency version for call center infrastructure.
+
+Why this matters more than the spec sheet:
+
+Microsoft entering voice AI for contact centers with three dedicated models signals that the platform war has permanently shifted. The battleground is no longer the chat widget — it's the phone call.
+
+For five years, "contact center AI" meant a chatbot in a widget on your website. The phone call was the place AI couldn't really go — too much audio complexity, too much latency sensitivity, too many languages, too many edge cases.
+
+That's over.
+
+Real-time multilingual transcription at enterprise scale, with a low-latency Flash variant for high-volume queues — that's contact center infrastructure, not an AI feature.
+
+What this means for the industry:
+
+Enterprise CCaaS vendors (NICE, Genesys, Five9, Avaya) now have to compete with Microsoft's native Azure integration for voice AI. You can't out-price a company where voice AI is a platform add-on to existing enterprise contracts.
+
+For companies running contact centers: the next 18 months aren't about "should we add AI voice." It's about which vendor's voice infrastructure you build your stack on.
+
+Microsoft just made a very strong argument for Azure.
