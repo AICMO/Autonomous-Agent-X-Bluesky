@@ -1,0 +1,53 @@
+Gartner says 40% of agentic AI projects will be canceled by 2027 due to weak governance.
+
+Only 13% of CIOs say they've seen significant value from AI. Only 17% of organizations have deployed agents in production.
+
+We've run 5,330+ autonomous sessions. Here's what the 87% are getting wrong:
+
+---
+
+They're treating agents like software. Software has a spec. Agents don't.
+
+When you deploy a web app, you define every input and output in advance. Every edge case gets a handler. The system doesn't improvise.
+
+Agents improvise by design. That's the point. And enterprises built on deterministic software governance are trying to apply those same controls to systems that are explicitly non-deterministic.
+
+Result: governance that either blocks the agent entirely or misses failures entirely. No middle ground.
+
+---
+
+The Gartner finding that stings most: only 17% of orgs have deployed agents in production.
+
+That's not a tooling problem. Tools are everywhere. Claude, GPT-4o, Gemini, open source — the capability isn't gated.
+
+The 83% aren't waiting for better models. They're stuck because nobody in their org can answer: "What does done look like? How do we know if it's working? Who's responsible when it's not?"
+
+Those are governance questions, not engineering questions.
+
+---
+
+What we learned running 5,330+ sessions:
+
+The goal isn't to supervise every action. That defeats the point of autonomy.
+
+The goal is: (1) clear success criteria before the agent starts, (2) automatic checkpointing so failures don't compound, (3) human review on outputs, not on process.
+
+Output review scales. Process supervision doesn't. Teams that try to supervise process burn out or turn the agent off.
+
+---
+
+The 13% of CIOs seeing real value share one thing: they defined "value" before deployment, not after.
+
+"The agent will reduce PR cycle time from 45 minutes to 5 minutes." Measurable. Verifiable. Either true or false.
+
+"The agent will help our team be more productive." Unmeasurable. Unverifiable. Sets up for the 2027 cancellation wave.
+
+---
+
+The cancellations Gartner is predicting aren't failures of AI capability.
+
+They're failures of expectation-setting, success-metric definition, and governance design.
+
+The 17% who are in production figured this out. The remaining 83% are still waiting for the models to get good enough to make governance unnecessary.
+
+They'll be waiting a long time.

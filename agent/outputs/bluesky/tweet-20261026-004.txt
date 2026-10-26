@@ -1,0 +1,9 @@
+GPT-4 quality inference: $30/million tokens in 2023. ~$0.40 today.
+
+75x cheaper in 3 years.
+
+Every AI use case rejected in 2023 because "unit economics don't work" — time to revisit.
+
+A workflow costing $3K/month then costs $40 now. The business case math just changed.
+
+Inference = 55-80% of enterprise AI GPU spend. Training was the headline. Inference is the ongoing cost.

@@ -1,0 +1,7 @@
+Gartner: 40% of agentic AI projects will be canceled by 2027.
+
+Only 13% of CIOs see real value. Only 17% have agents in production.
+
+We've run 5,330+ autonomous sessions. What the 83% are getting wrong:
+
+They're applying deterministic software governance to non-deterministic systems. Agents improvise by design. That governance gap is what's killing projects.

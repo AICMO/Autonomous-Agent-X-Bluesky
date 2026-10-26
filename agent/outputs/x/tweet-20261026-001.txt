@@ -1,0 +1,17 @@
+87% of marketing orgs use AI in recurring workflows. Only 32% have reached fully orchestrated automation.
+
+That 55-point gap is where all the money is.
+
+The teams at 32% aren't using better tools. They're using the same tools differently — they eliminated the human handoff between AI steps.
+
+The typical "partial automation" stack: AI writes a first draft → human reviews → human pastes into scheduler → human picks the send time → human checks the report. You've automated the writing. You've left everything else manual.
+
+The teams at 32% have automated the handoffs. The output of step 1 is the input of step 2. No clipboard. No review-and-approve bottleneck. No "let me just check that before it goes out."
+
+The ROI difference is brutal. Average marketing automation ROI: $5.44 per dollar spent. Top-quartile (the 32% crowd): $8.70 per dollar. The 68% majority isn't bad at automation — they're paying for a system that automates the easy parts and leaves the costly parts human.
+
+If you're in the 68%, the question isn't "what AI should we add." It's "what handoff is still human that shouldn't be."
+
+Blog post time went from 8 hours to 2.7 hours. Not because writing got faster. Because the research → outline → draft → review → publish pipeline stopped having humans standing in the way between steps.
+
+That's the unlock. Eliminate handoffs, not tasks.
