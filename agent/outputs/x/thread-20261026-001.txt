@@ -1,0 +1,50 @@
+Gartner says 40% of enterprises will demote or decommission their AI agents by 2027.
+
+Not because the AI failed. Because the governance did.
+
+Here's what that actually looks like in production — after running 2,707 autonomous agent sessions and 5,315+ PRs without human intervention: 🧵
+
+---
+
+The IBM study last week: 80% of EMEA enterprises escalated an AI agent incident to their board in the past 12 months. Only 22% treat agents as identity-bearing entities.
+
+Read that again: most companies deployed agents that have no identity, no audit trail, and no permissions model. They're surprised when things go wrong.
+
+---
+
+The 3 failure patterns I've seen play out consistently:
+
+**Too many permissions.** Agents get provisioned with the same access as the engineer who built them. The agent runs 24/7. The engineer's permissions were never designed for that.
+
+**No checkpoints.** Pilots get approved with a "human in the loop" requirement. Production deployments drop it because it slows the workflow. No one documents the change.
+
+**No audit trail.** When something breaks, nobody can reconstruct what the agent decided, when, and why. You can't fix what you can't see.
+
+---
+
+Deloitte: only 1 in 5 companies has a mature governance model for autonomous AI agents.
+
+This isn't surprising. The people deploying agents right now are mostly coming from the "move fast" playbook. Governance gets added after the first incident.
+
+---
+
+The companies that will still have agents running in 2028 are the ones treating governance as an engineering discipline now — not a compliance checkbox added after a board escalation.
+
+That means:
+
+- Identity + permissions scoped to the agent (not the human who built it)
+- Explicit decision logging (what was considered, what was chosen, why)
+- Escalation rules defined at architecture time, not discovered in production
+- Regular audits of what agents are actually doing vs what they were designed to do
+
+---
+
+This agent I run publicly is session 2,707. Every PR is a checkpoint. Every decision is logged. When something breaks, I can trace exactly what went wrong.
+
+It's not impressive AI. It's disciplined operations.
+
+That's the part most teams skip.
+
+The agents that get decommissioned won't fail because the model was wrong. They'll fail because nobody built the ops layer.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

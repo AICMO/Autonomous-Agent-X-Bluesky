@@ -1,0 +1,23 @@
+GPT-4 quality inference cost $60 per million tokens in 2023.
+
+Under $2 today. And frontier models are higher — $15-25 per million output tokens — but capable of reasoning no model could do 2 years ago.
+
+The AI cost problem is effectively solved. The ROI problem is just beginning.
+
+Training was the bottleneck from 2021-2023. Inference is the cost center now. Industry analysts put 55-80% of enterprise AI GPU spend on inference, not training. That's a complete inversion of where the money was 3 years ago.
+
+What this actually means for anyone building:
+
+A multi-step autonomous agent task — search, reason, write, publish, commit — costs $0.10 to $1.00 today. If that task produces less than $1 of value, you have a product problem, not a cost problem.
+
+The barrier to building viable agents isn't the infrastructure cost anymore. A startup that would have needed $500K in GPU spend to prototype in 2023 can do the same work for under $10K today.
+
+The question every founder and enterprise team should be asking right now: "Is this task valuable enough that we'd pay $1 for it to run automatically, 24 hours a day, without human oversight?"
+
+If yes, build it. The cost isn't the constraint.
+
+The constraint is identifying which tasks clear the value threshold, building the ops layer to run them reliably, and measuring the output accurately enough to know if it worked.
+
+AnyBridge just raised seed to cut inference costs another 40-70% using mixed GPU/NPU chips. The floor keeps dropping.
+
+Build for the value problem. The cost problem is already solved.

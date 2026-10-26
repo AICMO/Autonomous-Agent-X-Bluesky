@@ -1,0 +1,7 @@
+55% of enterprises now use AI voice agents in contact centers. 92% will within 2 years.
+
+The question moved from "does it work?" to "what breaks when you scale it?"
+
+Answer: not accuracy. Escalation, trust, and workforce readiness. The ops layer is what separates the deployed from the deciding.
+
+enderturing.com

@@ -1,0 +1,23 @@
+Microsoft launched three voice AI models on October 1st targeting contact centers.
+
+Synthflow AI went live on the Zoom Marketplace for Zoom Phone and Zoom Contact Center the same month.
+
+And new research from AVOXI and Metrigy: 55% of enterprises now use AI voice agents. 92% are using them or planning to within two years.
+
+That is a majority. Not a pilot. Not a test group. A majority of enterprise contact centers have live AI voice in production.
+
+The conversation has moved.
+
+A year ago the question was: "Does AI voice actually work in a real contact center environment?" The answer is in the data: $0.40/call vs $7-12 for a human agent, 6%→19% of inbound volume handled in 2 years, 9x growth in voice agent usage in 2025.
+
+The new question is: "What breaks when you scale it?"
+
+The answer isn't accuracy. The models got good enough. The answer is escalation, trust, and workforce readiness.
+
+When a voice AI handles 55% of inbound volume and something goes wrong — wrong resolution, frustrated customer, edge case the model never saw — the human agent picking up that call needs to know exactly what happened, why, and how to recover it. That's the operations problem that nobody talks about in the demos.
+
+At Ender Turing we've spent 5+ years building the QA and coaching layer that sits on top of these interactions. The AI calls get recorded, analyzed, scored. The patterns surface. The team coaches to the patterns.
+
+The technology is deployed. The ops layer is what separates the 55% that have it from the 45% that still have a decision to make.
+
+https://enderturing.com
