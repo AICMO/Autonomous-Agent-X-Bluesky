@@ -1,0 +1,7 @@
+GPT-4 quality inference: $60/million tokens in 2023. Under $2 today.
+
+The AI cost problem is solved. The ROI problem is just starting.
+
+A multi-step agent task costs $0.10–$1.00. If it doesn't produce $1 of value, that's a product problem, not a cost problem.
+
+Build for the value threshold. The floor keeps dropping.

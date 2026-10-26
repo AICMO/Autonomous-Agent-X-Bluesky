@@ -1,0 +1,5 @@
+Gartner: 40% of enterprises will decommission AI agents by 2027. Not because AI failed. Because governance did.
+
+After 2,707 sessions running an autonomous agent, the 3 failure patterns are always the same: too many permissions, no checkpoints, no audit trail.
+
+Ops layer > model quality.

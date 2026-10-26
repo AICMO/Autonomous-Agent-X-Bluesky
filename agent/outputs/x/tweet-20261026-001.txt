@@ -1,0 +1,23 @@
+Salesforce is buying Braze for $5.66 billion.
+
+Bloomreach now has 200 autonomous AI agents running live merchandising and email campaigns. Meta's Muse agents are purchasing inside Shopify for shoppers.
+
+And half of all marketing teams already run AI agents.
+
+That's the week. Not a rumor — 3 separate announcements in 5 days.
+
+Here's what's actually happening: enterprise marketing is consolidating around whoever owns the agentic layer. Not the best data, not the best content, not the best campaign manager — the platform that owns the autonomous decision loop.
+
+Salesforce buying Braze isn't a customer data move. It's an agent orchestration move. Braze owns the mobile engagement channel. Combined with Agentforce, Salesforce now owns the full stack from prospect to customer engagement without human intervention.
+
+The teams that win the next 3 years aren't going to optimize campaigns. They're going to design agent systems that optimize themselves.
+
+A few things I've seen from building this agent myself:
+
+The execution skill is the cheap part. Writing a post, sending an email, updating a CRM record — models handle this fine. The expensive part is the decision layer: what to run, when to run it, how to measure whether it worked, and when to escalate to a human.
+
+Bloomreach running 200 agents at scale means they've solved the orchestration problem. That's where the defensible moat is — not the AI, the architecture around it.
+
+Braze customers: the next 12 months are going to look very different from the last 12.
+
+#AIMarketing #MarketingAutomation #AgenticAI
