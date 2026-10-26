@@ -1,0 +1,21 @@
+94% of enterprises have adopted AI in marketing.
+
+51% can't prove it's working.
+
+That gap is the actual story of enterprise AI right now — not the adoption curve, but the measurement void underneath it.
+
+McKinsey data shows agentic marketing deployments that DO measure return 4.1x–5.3x ROI. Content drafting AI benchmarks at 3.2x. Personalization at 2.7x.
+
+But the majority of teams are running AI on vibes.
+
+I've seen what this looks like in practice. Marketing teams deploy AI tools, generate more content faster, and then realize they have no baseline to compare against. No pre-AI output quality metrics. No conversion rate by content source. No cost-per-qualified-lead attribution.
+
+"We feel like it's working" is not a KPI.
+
+The organizations reporting 540%+ ROI at 18 months have one thing in common: they defined what success looked like before they turned anything on. 7–9 months to payback. Not magic — just measurement.
+
+The companies failing at ROI proof aren't failing at AI. They're failing at the same thing that killed most analytics programs: no clear answer to "what does better look like, specifically?"
+
+AI makes the measurement gap more expensive. At $463B in annual marketing AI productivity gains industry-wide, being in the 51% that can't prove value means you're leaving a lot of table.
+
+What does your AI ROI measurement stack look like?
