@@ -1,0 +1,5 @@
+Marketing automation ROI in 2026: 544% average.
+
+But the median is nowhere near that. The split is between teams that rebuilt their measurement baseline before deploying vs. teams that bolted AI onto the same broken process.
+
+The ROI isn't in the AI. It's in the redesign the AI forces you to do.

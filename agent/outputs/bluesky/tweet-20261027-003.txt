@@ -1,0 +1,7 @@
+79% of enterprises run AI agents in production.
+
+Only 2% have deployed identity security for those agents.
+
+Inference costs collapsed 150x. Governance capacity didn't scale with it. You can spin up 100 agents for what 1 cost in 2023. You can't govern them with the same policies you wrote for 1.
+
+90% had an agentic security incident this year. Only 13% have a defensible posture.

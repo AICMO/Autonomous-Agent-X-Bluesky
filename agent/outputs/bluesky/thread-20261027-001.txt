@@ -1,0 +1,7 @@
+Voice AI: 6% of inbound calls in 2024 → 35-40% in 2026.
+
+That's not a trend line. That's a step change.
+
+67% of Fortune 500s run production voice AI. The $0.40/call vs $7-12/human math stopped being theoretical.
+
+But 75% still use Human-in-the-Loop — not because AI can't handle calls, but because the ops layer was never rebuilt.
