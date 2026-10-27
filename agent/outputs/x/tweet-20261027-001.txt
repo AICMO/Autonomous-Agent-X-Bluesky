@@ -1,0 +1,23 @@
+3-year marketing automation ROI in 2026: 544%. Average $5.44 returned for every dollar spent.
+
+Top-quartile teams: $8.71 per dollar.
+
+That number is both impressive and misleading.
+
+Because the 95% of enterprise marketing teams that run automation aren't hitting 544%. The median is much lower. The split is between teams that rebuilt their measurement baseline before deploying, and teams that bolted AI onto the same broken process they had before.
+
+Content drafting AI: 3.2x ROI. Personalization engines: 2.7x. Full agentic workflow replacement: 4.1–5.3x.
+
+The pattern is consistent across every data set this year: ROI scales with how much of the workflow you replaced, not how many AI tools you added.
+
+Here's the actual playbook the high-ROI teams used:
+1. Measured baseline first (how long does this take, what's the conversion rate, what does it cost)
+2. Replaced the workflow, not just the task
+3. Measured against the same baseline after
+4. Deleted the human steps the AI made redundant
+
+Step 4 is the one most teams skip. They keep the old headcount, the old approval gates, the old review cycles — just with AI drafts going through them. ROI at that point is the time saved on drafting minus the time added on reviewing AI output. Net = close to zero.
+
+The ROI isn't in the AI. It's in the redesign that the AI forces you to do.
+
+P.S. We've been building one end of this — an AI agent that writes, queues, and publishes content autonomously without a human at the publish decision. 5,330+ PRs, no human approval in the loop. See the live output at https://github.com/AICMO/Autonomous-Agent-X-Bluesky

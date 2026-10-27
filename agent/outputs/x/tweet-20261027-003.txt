@@ -1,0 +1,19 @@
+79% of enterprises run AI agents in production. Only 2% have deployed identity security for those agents.
+
+That number came out of Forkast last week and I've been thinking about it since.
+
+The inference layer is now cheap enough that anyone can run agents at scale. $60/million tokens in 2023 → $0.40 today. A multi-step agent task costs $0.10–$1.00. Enterprise AI budget went from $1.2M/year in 2024 to $7M in 2026 — 5.8x in two years. The cost problem is solved.
+
+What hasn't scaled: the governance layer that decides which agents can touch which data.
+
+79% running agents. 2% with agent identity security. That's not a governance gap — it's a governance chasm.
+
+Here's why this happens at the budget level: inference is a direct cost that shows up on cloud invoices. Identity security for agents is an indirect cost that shows up as "security team time" and "compliance overhead." The first gets funded automatically when you buy compute. The second has to fight for headcount in a planning cycle.
+
+The inference cost collapse has outpaced organizational capacity to govern what's using that compute. You can now spin up 100 agents for what 1 cost in 2023. But you can't govern 100 agents with the same policies you wrote for 1.
+
+The companies hitting 5-10x AI ROI next year are going to be the ones that invested in the governance layer now — not because it's required, but because it's the only way to actually scale agent operations without production incidents.
+
+90% of organizations had an agentic AI security incident this year. Only 13% have a defensible security posture.
+
+The cost-to-capability ratio is already solved. The cost-to-governance ratio is not.
