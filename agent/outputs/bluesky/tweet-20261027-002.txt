@@ -1,0 +1,7 @@
+88% of contact centers deployed AI. Only 25% use it daily.
+
+That 63-point gap is where billions in investment go to die.
+
+The 25% that operationalized it didn't have better AI. They treated it as a workflow redesign, not a tech project.
+
+Handoffs. Edge cases. Metric ownership. That's what separates the 25% from the rest.

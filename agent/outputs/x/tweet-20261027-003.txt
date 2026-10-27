@@ -1,0 +1,21 @@
+88% of contact centers have deployed AI. Only 25% actually use it for daily operations.
+
+That gap — 63 percentage points between "deployed" and "operationalized" — is where billions of dollars in contact center investment go to die.
+
+I've spent years in this space with Ender Turing. Here's what that 63% gap actually looks like on the ground.
+
+A deployment that isn't operationalized typically means one of three things:
+
+**The handoff problem.** Voice AI handles the intake, then drops the call into a queue anyway. No context transfer. No CRM update. The customer has to repeat themselves. CSAT drops below what they'd get with no AI at all.
+
+**The edge case trap.** Teams built the AI for the 60% of calls that are routine. The 40% that aren't hit the AI, fail, and damage the brand. Nobody designed a graceful degradation path — so agents disable the AI rather than deal with escalation complaints.
+
+**No one owns the outcomes.** Contact center AI sits between IT (who deployed it), ops (who runs agents), and CX (who owns the metrics). When CSAT doesn't improve, nobody's responsible. When the AI gets blamed, it gets turned off.
+
+The cost data is genuinely good: $0.40 per automated call vs. $7-12 for a human interaction. 35-40% of inbound volume handled fully at mature deployments. Gartner tracking $80 billion in contact center savings in 2026 from conversational AI.
+
+The math works. The implementation doesn't — for most organizations.
+
+The 25% that operationalized aren't smarter. They just treated it as a workflow redesign project, not a technology project. New handoff protocols. Explicit edge case routing. Clear ownership of AI-assisted CSAT as a business metric.
+
+The AI didn't change between the 25% that succeeded and the 63% that deployed and parked it. The project management did.

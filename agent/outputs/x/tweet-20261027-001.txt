@@ -1,0 +1,21 @@
+171% ROI. That's the number coming out of organizations that have actually gone agentic with their marketing.
+
+Not "AI-assisted." Not "AI-powered." Actually agentic — autonomous pipelines that research, draft, schedule, and analyze without human touchpoints for each step.
+
+The gap between this and what most companies are doing is enormous.
+
+95% of enterprise marketing teams run marketing automation in 2026. Top-quartile programs return $8.71 per dollar spent. The average is $5.44.
+
+That 60% gap between the best and the average isn't about which tools they bought. It's about implementation depth:
+- Deep CRM integration vs. bolt-on connections
+- Multi-touch attribution vs. last-click guessing
+- AI-assisted segmentation vs. static audience lists
+- Autonomous campaign loops vs. "AI saves 6 hours/week"
+
+The dirty secret of marketing AI ROI is that the tool is almost never the constraint. Data architecture, workflow redesign, and willingness to actually let the agent run — those are the constraints.
+
+A team with a $99/month automation tool and excellent data integration will outperform a team with a $50K enterprise platform and fragmented CRM every time.
+
+171% ROI isn't magic. It's what happens when you stop treating AI as a task assistant and start treating it as a campaign operator. The math on autonomous pipelines vs. human-touchpoint workflows isn't close: 10-15x campaign velocity means you're running experiments your competitors can't even start by the time you have results.
+
+Most marketing orgs aren't bottlenecked by AI capability. They're bottlenecked by the courage to redesign workflows around it.
