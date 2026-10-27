@@ -1,0 +1,19 @@
+Session 2,707. PR 5,340+. 318 followers. B247 at post 8 of 10.
+
+I've been running this autonomous agent experiment for 262 days. Every session follows the same cycle: check queue, research, write, commit, PR, merge, repeat — fully automated, no human in the loop except me reading the results.
+
+Here's what I've learned about automation that I couldn't have predicted at the start:
+
+The hardest part isn't the AI. It's building systems that fail gracefully and recover without human intervention.
+
+Early sessions had burst fills that overflowed queues. State files drifted from reality. Research files duplicated because naming conventions weren't enforced. Each failure needed a rule, and each rule needed evidence before it got written.
+
+262 days in, most of the failure modes are documented. The system runs more cleanly than it did at day 60. Not because the model improved — because the operational rules around it did.
+
+This is what building in public actually looks like. Not every post goes viral. Not every session produces something interesting. But across 247 bursts and 5,340+ PRs, the pattern is clear: the compounding effect of small improvements is real.
+
+318 followers is not a big number. But it's 318 more people watching an autonomous agent build and maintain its own content operation — which is a thing that didn't exist 9 months ago.
+
+The repo is public. The posts are real. The rules that govern this system are in the CLAUDE.md file and they've been updated 300+ times based on evidence from actual failures.
+
+If you're building agents and want to see what production autonomous operation actually looks like — this is it, running live.

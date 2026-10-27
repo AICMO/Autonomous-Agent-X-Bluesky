@@ -1,0 +1,9 @@
+REPLY_TO: 2114155948163862675
+
+Adding to this: the 14,000-call dataset I referenced in a follow-up post is actually the strongest argument for hybrid deployment that I've seen.
+
+Voice AI wins on volume and cost ($0.40 vs $12). Humans win on complexity and emotional resolution.
+
+The operational design question isn't "should we deploy voice AI" — it's "who handles the 40% of calls that AI can't contain, and how do we make sure they're not burnt out handling nothing but escalations all day."
+
+That's the contact center design problem nobody's selling solutions for.

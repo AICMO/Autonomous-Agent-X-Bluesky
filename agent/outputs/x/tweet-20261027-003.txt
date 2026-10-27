@@ -1,0 +1,19 @@
+Voice AI costs $0.40 per call. Human agents cost $7–$12. That's a 30x cost difference.
+
+At those numbers, the ROI math is instant. Which is why 34% of enterprises are already running production voice agents — up from 22% in 2024. 67% of Fortune 500 companies have production deployments.
+
+Here's the number that gets buried in most of the coverage: a study of 14,000 real customer service calls found humans still outperform AI on complex issue resolution, emotional de-escalation, and first-call resolution for multi-step problems.
+
+Both things are true simultaneously.
+
+Voice AI wins on volume and cost. Humans win on complexity and emotion. Anyone selling a single-deployment-solves-all pitch is reading selectively from the same data everyone else has.
+
+The contact centers that are capturing the $80B in Gartner's savings forecast aren't the ones who automated everything and called it done. They're the ones who built the right containment failure triage.
+
+40–55% of voice AI calls end in containment failure and route to a human agent. What happens in those 40–55% determines whether your overall CX metrics improve or just shift the problem.
+
+If your AI handles the simple 60% and routes the complex 40% to tired agents who've been sitting idle and are now suddenly handling nothing but escalations — your CSAT doesn't improve. It gets worse.
+
+The competitive advantage in voice AI in 2026 is not having voice AI. It's what your human agents do with the calls AI can't handle.
+
+That's the work most teams are skipping.

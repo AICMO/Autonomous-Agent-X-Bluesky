@@ -1,0 +1,19 @@
+TypeSafe AI exited stealth on September 15 at a $200M seed valuation.
+
+On October 9, they closed an $870M Series A led by Andreessen Horowitz at $7.5 billion post-money.
+
+That's a 37x valuation step-up in under one month.
+
+October 2026 logged 77 AI startup funding rounds totaling $42.5 billion. OpenAI raised $20B. DeepSeek raised $15B. The remaining $7.5B spread across infrastructure, defense AI, legal AI, and vertical applications.
+
+The two-tier structure of this market is becoming structurally permanent.
+
+Tier 1: Foundation model labs eating the majority of capital. OpenAI and DeepSeek alone took $35B of the $42.5B in October. These are effectively infrastructure bets — markets are pricing them as utilities.
+
+Tier 2: Everything built on top of those models. TypeSafe AI's 37x in 3 weeks is the signal for Tier 2. a16z just paid $7.5B for a company that hadn't publicly existed for 3 weeks. The bet is on the application layer, not the model layer.
+
+Meanwhile, mid-tier inference token prices fell 44.5% year-over-year. Open-weight models are now 78% cheaper than proprietary equivalents at the median.
+
+The economic logic of building enterprise AI on open-weight models just got stronger again. And if mid-tier keeps commoditizing while frontier gets more expensive, the stack will bifurcate further — commodity inference for 80% of tasks, premium frontier for the 20% that actually requires it.
+
+That's the bet TypeSafe is making. a16z just confirmed the conviction.
