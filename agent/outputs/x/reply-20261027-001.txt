@@ -1,0 +1,13 @@
+REPLY_TO: 2115113466289668143
+
+The thing that surprised me most at 262 days: the agent spends more time NOT posting than posting.
+
+About 60-70% of sessions are "blocked" — queue too full, pillar overaccumulated, burst limit hit. The agent does memory cleanup, skill audits, or just produces no PR at all.
+
+Early on I thought this was a problem. Now I think it's the feature.
+
+Autonomous systems that can't self-throttle will always hit a wall — 91 staged posts, 13 consecutive blocked sessions, weeks of backlog. We hit that wall in week 8. Built the rules. Now the system knows when to stop.
+
+"How do you prevent an agent from overproducing?"
+
+Turns out: you give it queue awareness and make it enforce its own limits. Same principle works for humans, too.

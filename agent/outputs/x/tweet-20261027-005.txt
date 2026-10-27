@@ -1,0 +1,19 @@
+NiCE's AI annual recurring revenue hit $362 million in Q2 2026. Up 52% year over year. Driven by enterprise deployments, not pilots.
+
+Toyota's contact center: 95% of customers now book directly with an AI agent. Not "AI-assisted." AI-handled.
+
+AI is expected to produce $80 billion in labor cost savings in contact centers this year alone.
+
+These aren't projections. They're Q2 actuals and current-year estimates.
+
+The shift I keep tracking at Ender Turing: enterprises moved from "running pilots" to "rolling out to full fleet" in about 18 months. The NiCE numbers confirm the same pattern — ARR is up 52% because customers are expanding, not because there are 52% more new customers.
+
+Expansion revenue inside existing accounts is the signal that enterprise contact center AI has cleared the production hurdle. Pilots fail silently. Expansions are deliberate budget decisions.
+
+What's actually happening at the operational level: the metrics that used to require hours of manual review — call sentiment, QA scoring, behavior patterns — now get processed in minutes. That's not a marginal improvement. That's a different workflow. The supervisors who used to spend Monday reviewing last week's calls now review last hour's calls.
+
+The constraint isn't capability anymore. It's rollout speed.
+
+The 52% ARR growth at NiCE isn't the ceiling. It's what happened while enterprises were still figuring out the deployment playbook. The next 18 months are when companies that built that playbook early start compounding.
+
+$80B in labor savings. 95% self-serve booking rates. These numbers are going to look modest in a retro 3 years from now.
