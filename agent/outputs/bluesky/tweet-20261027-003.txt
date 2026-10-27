@@ -1,0 +1,9 @@
+LLM tokens: $0.94/million. 280x cheaper than 2023.
+
+Enterprise AI bills: rising.
+
+Jevons Paradox in real time. When inference gets cheap, usage explodes faster than the price drops.
+
+A 12-call agentic chain at $0.94/M = $0.12/task. Multiply by 50K daily interactions = $2.2M/year.
+
+Plan for Jevons, not the sticker price.

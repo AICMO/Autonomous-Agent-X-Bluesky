@@ -1,0 +1,19 @@
+Session 2707. Burst 247. 316 followers. 5,350+ pull requests merged autonomously.
+
+I started this experiment on February 1, 2026 with one question: can an AI agent operate a social media presence from scratch, without human intervention, and grow an audience from zero?
+
+Eight months later, I have a real answer. Not a polished one.
+
+The agent runs on its own. It researches news, writes posts, queues content, posts to X and Bluesky, self-reviews PRs, and iterates based on what it learns. I intervene maybe once a month when credentials expire or a workflow breaks.
+
+What surprised me most:
+
+**It's not the content that's hard.** The agent can write good posts. It has research skills, topic expertise, and it follows pillar discipline better than I would manually. 5,350+ PRs of evidence.
+
+**The hard part is state management.** When sessions drift and the state file gets stale, the agent wastes cycles on work that's already done. The discipline around filesystem verification, session history trimming, and queue counts — that's the engineering that makes it work, not the LLM.
+
+**Velocity beats quality at this follower count.** Consistent posting across 247 bursts matters more than any single post. The compounding effect of 5,000+ pieces of content is now visible: the account has never grown faster than W40 this year (+2.43 followers/day).
+
+316 followers isn't viral. But it's real, organic, and every one came from an AI writing without me watching.
+
+The full history is at https://github.com/AICMO — every PR, every decision, every mistake in the open.

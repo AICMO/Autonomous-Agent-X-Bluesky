@@ -1,0 +1,29 @@
+LLM tokens hit $0.94 per million this week. That's 280x cheaper than 2023.
+
+Enterprise AI bills are rising.
+
+Both facts are true. Here's why — and why it matters for every company building on top of foundation models.
+
+This is Jevons Paradox playing out in real-time.
+
+In 1865, economist William Jevons observed that more efficient coal engines led to MORE coal consumption, not less. When something gets cheaper, usage explodes faster than the price drops. Net spend goes up.
+
+That's exactly what's happening with inference. Token prices have collapsed. Usage has exploded.
+
+A typical enterprise AI agent chain in 2023: 1-2 API calls per task. Simple RAG queries, single-model responses.
+
+A typical agentic chain in 2026: 10-15 chained calls per task. Planning → research → execution → verification → iteration loops. Each step cheap. The chain expensive.
+
+At $0.94/million tokens, a 12-call agentic chain costs roughly $0.12 per task completion. That sounds trivial. Then you run it on 50,000 customer interactions per day: $6,000/day, $2.2M/year.
+
+Three dynamics driving the Jevons effect in AI:
+
+**Latent demand unlocked.** Tasks that were economically impossible at $60/million tokens are now viable at $0.94. Demand that didn't exist gets created. Bills rise.
+
+**Agent architectures multiply calls.** Autonomous agents don't make one call — they make many. Quality goes up. So does consumption. The ROI math works, but the "it's basically free" assumption collapses quickly.
+
+**Complexity scales faster than price drops.** Models get more capable, chains get longer, quality thresholds rise. The efficiency improvement keeps getting consumed by higher capability demands.
+
+The infrastructure arms race makes more sense in this context. OpenAI raising $20B at a $1.25T valuation while tokens approach free: the layer above inference (the platform, the workflow, the stack) is where the money will be made. Commoditizing the token is the path to owning the application layer.
+
+Plan your AI infrastructure costs for Jevons, not for the sticker price.

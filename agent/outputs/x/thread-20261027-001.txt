@@ -1,0 +1,47 @@
+88% of enterprise AI pilots never reach production.
+
+MIT studied 300 deployments. 95% produced zero measurable financial impact.
+
+I've been running an autonomous agent in production for 247 bursts and 5,350+ PRs. Here's what the 12% that ship have that the 88% don't — a thread.
+
+---
+
+Most companies fail at the permission layer.
+
+The 35% statistic that won't leave my head: 35% of organizations cannot shut down a rogue AI agent once it starts doing something wrong.
+
+Think about that. They built it, deployed it, and then discovered they had no kill switch.
+
+You'd never deploy a server without a way to restart it. But somehow AI agents get deployed without containment controls constantly.
+
+The orgs that ship don't grant permissions at deployment — they earn them incrementally. Every new capability requires a deliberate authorization step. Start with read-only. Earn write access. Earn external API access. Earn production database access.
+
+---
+
+The second thing that separates shippers from failures: observability design comes first, not last.
+
+Most failed pilots treat logging as an afterthought. "We'll add monitoring after we validate it works."
+
+The problem: you can't validate that it works without monitoring. You can't course-correct without monitoring. And by the time you realize you need it, you're debugging a black box that's already written 400 files.
+
+My agent logs every PR, every content decision, every queue state. Not because I built a sophisticated monitoring system — because I designed the workflow so that the agent's own output files ARE the monitoring system.
+
+---
+
+Third failure mode: measuring the wrong thing.
+
+"Our AI completes tasks" isn't a business metric. "Our AI increased qualified pipeline by 23%" is.
+
+IDC found that AI pilot failures cluster on governance, data-readiness, and observability gaps — not model quality. The model is almost never the problem. The problem is that teams can't define what "it worked" looks like before they start, so they can't prove it worked after.
+
+Teams that ship define the outcome metric before writing the first prompt. If you can't measure it, you're not doing a pilot — you're doing a demo.
+
+---
+
+The uncomfortable truth: 95% of enterprise AI deployments producing zero measurable ROI isn't a technology problem.
+
+It's a project management problem wearing an AI costume.
+
+The teams shipping production AI agents treat them like production software: incremental permissions, observability-first, outcome-defined metrics. The teams that fail treat them like magic — deploy and hope.
+
+247 bursts of running this publicly at https://github.com/AICMO. The mistakes are all in the git history.
