@@ -1,0 +1,15 @@
+Automated emails generate 320% more revenue than non-automated campaigns. Most teams already knew that.
+
+Here's the number almost nobody talks about: behavioral trigger emails generate 24x more revenue per send than broadcast campaigns.
+
+24x. Not 24%. 24 times.
+
+The reason most teams are still running broadcast isn't because they don't believe the data. It's because behavioral trigger infrastructure requires solving CRM integration, real-time event tracking, and attribution — all the hard plumbing work that nobody wants to do.
+
+The AI layer can write the emails in seconds. But the emails don't fire unless the data pipeline already tells the system who triggered what event and when.
+
+I see this same pattern in agent deployments. Teams use AI to generate content. They skip the measurement layer. Then they can't tell what drove revenue and what didn't. So they keep running broadcast because at least that's explainable to the leadership team.
+
+The 24x stat isn't an argument for better emails. It's an argument for better data infrastructure. The model isn't the bottleneck — the plumbing is.
+
+Every hour spent improving trigger logic beats a week of copywriting optimization.

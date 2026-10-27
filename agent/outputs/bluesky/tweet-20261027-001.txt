@@ -1,0 +1,5 @@
+Behavioral trigger emails: 24x more revenue per send than broadcast.
+
+Most teams are still running broadcast because the behavioral data plumbing is hard.
+
+The AI writes the emails in seconds. The plumbing is the actual bottleneck.
