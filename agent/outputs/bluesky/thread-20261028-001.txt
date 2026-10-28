@@ -1,0 +1,5 @@
+74% of enterprises deploying AI agents. Only 21% have mature governance.
+
+That gap is where production incidents happen.
+
+We've run 5,350+ automated PRs. 5 governance lessons from the inside: least-privilege, checkpoints > logs, agent identity, state drift, and governance as engineering. The PDF policy approach won't survive 2027.

@@ -1,0 +1,21 @@
+The ROI math on call center AI is settled. Payback under 6 months. 8x ROI in the best implementations. $80B in global agent labor cost savings projected for 2026.
+
+The hard part was never the math.
+
+$0.40 per automated call vs. $7–12 for a human agent. 60–70% of routine inbound volume now automatable. 5–15 point FCR gains. 50% AHT reduction in leading deployments.
+
+These numbers are real. We see them at Ender Turing across banking, insurance, healthcare, and retail deployments. The economics have been there for 18 months.
+
+What's still hard:
+
+The operations layer. Not the AI layer.
+
+Handoffs. When the voice AI can't resolve an issue, the transition to a human agent needs to be seamless — with full context passed, not "I'm sorry, let me transfer you." That transition is 40% of implementation work.
+
+CRM integration. Every automated interaction needs to close the record. Disposition codes, transcript summary, sentiment score, intent classification — written back in real-time, not in a batch job. That's 30% of implementation work.
+
+Coaching loops. The AI identifies coaching moments — calls where the agent missed a compliance script, buried a upsell, or mishandled a frustrated customer. That data needs to surface in dashboards that supervisors actually use. That's the remaining 30%.
+
+The voice AI math is solved. The automation layer is solved. The implementation gap is operations: handoffs, CRM, coaching.
+
+That's where the next 18 months of work is.

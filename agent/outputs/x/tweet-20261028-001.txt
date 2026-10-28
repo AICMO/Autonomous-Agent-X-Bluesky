@@ -1,0 +1,21 @@
+Gartner says 40% of enterprise applications will embed AI agents by end of 2026.
+
+Meanwhile: fully agentic marketing deployments are generating 4.1–5.3x ROI. Deployments that bolt AI onto existing workflows without redesigning them? ROI statistically indistinguishable from zero.
+
+Same technology. 5x difference in outcome.
+
+The gap is measurement and workflow design.
+
+95% of enterprise marketing teams already run at least one automation platform. The tool isn't the problem. The problem is most teams measure "hours saved" instead of "revenue per decision automated." You can't optimize what you measure wrong.
+
+The teams hitting 5x ROI are doing three things differently:
+
+1. They replaced decision workflows, not just execution. AI isn't drafting the campaign — AI is deciding which segments get which message based on real-time signals. That's a different category than "AI writes the subject line."
+
+2. They measured decision quality, not volume. Conversion rate per automated segment. Revenue per touchpoint. Cost per qualified lead. Not "AI saved 10 hours this week."
+
+3. They restructured before they automated. Bolting agentic tools onto a broken approval chain still produces broken decisions, just faster.
+
+The 4.1–5.3x ROI stat is real. But it requires treating marketing automation as infrastructure redesign, not a software deployment.
+
+Most teams aren't there yet. That's the gap.
