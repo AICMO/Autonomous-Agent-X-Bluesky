@@ -1,0 +1,7 @@
+1 operator. Commercial AI agents. 100+ companies breached in 23 hours. $50/breach.
+
+The same properties that make enterprise agents useful — persistent, multi-step, cheap — make them dangerous as attack infrastructure. No architectural difference.
+
+79% run AI agents in production. Only 2% have identity security deployed.
+
+That's not a stat anymore. That's an attack surface.

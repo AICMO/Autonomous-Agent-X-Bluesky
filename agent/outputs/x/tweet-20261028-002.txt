@@ -1,0 +1,15 @@
+OpenAI targeting $30 billion at $1.25 trillion valuation. Down from the $1.4T target earlier this year.
+
+The valuation drop is getting buried under the funding headline. It shouldn't be.
+
+Revenue: $50B annualized (up from $20B+ in December 2025). The growth is real. But the price-to-revenue multiple is still 25x — and that's at the reduced target. For context: Salesforce trades at ~7x revenue. Microsoft at ~12x. The bet embedded in $1.25T is that OpenAI becomes the infrastructure layer for everything, not just a smart API.
+
+What nobody's talking about: UAE sovereign wealth funds and Coatue are the ones leading this round. US institutional capital is rationing AI exposure. The marginal buyer in mega AI rounds is now a sovereign fund with a 20-year investment horizon and zero pressure to mark to market.
+
+That's a structural change in how AI gets capitalized. Sovereign funds don't flip positions. They build strategic dependencies. UAE buying into OpenAI is the same play as buying into critical infrastructure — ports, airports, chip fabs. Sovereign capital + AI infrastructure = ownership of a different kind.
+
+October 2026 AI funding in total: 79 deals, $42.6 billion. The biggest checks aren't going to foundation models anymore. Defense AI, legal AI, regulated verticals with long sales cycles and high switching costs. Shield AI ($1.5B Series G). Saronic ($1.75B Series D). Legora ($550M Series D).
+
+The capital is signaling a shift from "AI hype" to "AI infrastructure with moats."
+
+Mirrors the 2003-2005 shift from dot-com companies to enterprise software. The surviving companies were the ones solving hard, regulated problems — not the ones optimizing consumer engagement.

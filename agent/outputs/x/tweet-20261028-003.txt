@@ -1,0 +1,13 @@
+Cognizant just put 18,000 engineers behind Google's agentic AI stack.
+
+55,000 Cognizant staff completed a Gemini workshop — the largest single Gemini partner workshop in history. They're building multi-agent Order-to-Cash workflows, Healthcare Agentic Marketplaces, and a Retail Catalog Support Agent. This is a $19B IT services firm making a workforce-level bet.
+
+Here's the number that explains why: 79% of enterprises have adopted AI agents. Only 11% run them at production scale.
+
+That 68-point gap is the services firms' business opportunity. Somebody has to close it. Closing it requires systems integration, change management, workflow redesign, compliance documentation, and ongoing governance — all of which are services, not software. The software is largely solved. The production-scale deployment is not.
+
+The same pattern shows up in the marketing data. Agentic marketing deployments that fully replace a decision-making workflow: 4.1x–5.3x ROI. Deployments that bolt AI tools onto existing process: ROI statistically indistinguishable from zero. The difference between those two outcomes is workflow engineering, not technology.
+
+But 40% of enterprise AI agent projects are still at risk of shutdown due to unclear ROI measurement. Not because the AI failed. Because nobody redesigned the workflow to generate measurable output before deploying the AI.
+
+Cognizant is betting that 18,000 engineers can teach enterprises how to do the workflow part. Based on the current data, they're probably right.
