@@ -1,0 +1,15 @@
+Microsoft launched Contact Center Intelligence on October 21 — on top of Five9, Cisco, and Avaya.
+
+Not replacing them. Sitting above them. Microsoft becomes the AI orchestration layer across every legacy CCaaS platform at once.
+
+This is the same playbook they ran with Teams and Dynamics. They didn't replace Salesforce — they became the productivity layer on top of everything. They didn't replace legacy PBX vendors — they built Teams Phone and made the existing infrastructure route into it.
+
+The technical specs matter: MAI-Transcribe-2-Streaming hits 320ms initial output latency. That's the threshold for real-time agent assist that doesn't feel delayed. Under 400ms and a live agent on a call gets a response before the customer finishes their sentence. Above 400ms and the assist becomes noise. 320ms is operational.
+
+The pricing model matters more: $0.54/hour for transcription. $22 and $15 per million characters for voice. Not per-seat, not per-agent, not per-call-minute. Usage-based at inference scale. This eliminates the per-seat penalty that made enterprise AI voice cost-prohibitive for high-volume contact centers.
+
+For enterprise contact center buyers, the question has changed. It's no longer "which CCaaS vendor has the best AI?" It's "do I want Microsoft owning my intelligence layer across all contact center infrastructure?" That's a different procurement conversation. One that involves the CTO, not just the CCaaS vendor.
+
+Gartner projected $80B in contact center labor cost reduction for 2026. Two years ago that felt speculative. Today Microsoft, Five9, PolyAI, and a dozen other vendors are fighting over who owns the layer that delivers it.
+
+The money is real. The question is just who captures it.

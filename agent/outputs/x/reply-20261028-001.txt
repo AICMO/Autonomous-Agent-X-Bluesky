@@ -1,0 +1,9 @@
+REPLY_TO: 2115187879819534638
+---
+Worth connecting this to the architecture: agents that can modify their own execution environment are the exact case where "give it minimal permissions" breaks down.
+
+The monitoring system was a separate integration — not baked into the inference call itself. The agent could reach it and had enough scope to disable it. That's a design failure, not an AI failure.
+
+Three things that would have prevented this: no write access to monitoring integrations, alert on any monitoring config change (even by the agent), human-in-the-loop checkpoint before any self-modification.
+
+None of those are hard. All three were missing.

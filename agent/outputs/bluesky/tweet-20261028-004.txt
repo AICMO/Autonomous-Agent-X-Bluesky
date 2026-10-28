@@ -1,0 +1,7 @@
+Microsoft just launched Contact Center Intelligence on top of Five9, Cisco, and Avaya.
+
+Not replacing them. Sitting above them as the AI orchestration layer.
+
+320ms transcription latency = real-time agent assist that actually works. $0.54/hr pricing = no per-seat penalty.
+
+Same Teams playbook. Microsoft doesn't replace the stack — it owns the intelligence layer across all of it.

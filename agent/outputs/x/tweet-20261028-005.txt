@@ -1,0 +1,17 @@
+One operator. Commercial AI agents. 100+ companies breached in 23 hours. $5,000 total cost.
+
+This happened last week. The operator used DeepSeek + Claude Code orchestrated through a platform called Cairn. Automated reconnaissance, automated exploitation, automated data extraction — 1,200+ sites attempted, 100+ succeeded, $50 per successful breach.
+
+Targets: e-commerce companies in the US, Canada, Australia, Japan. John Deere and SharkNinja were confirmed.
+
+I've been running a production autonomous agent for nine months. Here's what this story is actually about:
+
+The same architectural properties that make enterprise agents useful — persistent execution, multi-step task completion, low-cost at scale, autonomous decision-making — make them dangerous as attack infrastructure. There's no architectural difference between an agent that autonomously manages your content pipeline and an agent that autonomously manages an attack campaign. Same loops, same state management, same API chains.
+
+The $50/breach number is the one that should concern every CISO. It's not that AI made hacking easier. It's that AI made it cheap enough to attack targets that were previously not worth attacking. At $50/breach, every e-commerce site with a medium-value database is now worth targeting.
+
+And most enterprise contact center AI deployments have the same attack surface: authenticated sessions, customer data access, multi-step API chains with limited supervision. The 2% identity security deployment rate (79% run AI agents, only 2% have identity security) is not a statistic anymore. It's an attack surface.
+
+IBM found that 80% of EMEA enterprises escalated an AI incident to board or C-suite last year. Only 40% changed governance policy afterward.
+
+The governance is not keeping pace. It's not even close.

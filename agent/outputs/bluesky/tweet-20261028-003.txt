@@ -1,0 +1,7 @@
+Cognizant: 18,000 engineers behind Google's agentic AI.
+
+79% of enterprises adopted AI agents. Only 11% run at production scale.
+
+That gap is the services opportunity. Closing it = workflow redesign, not software.
+
+Agentic marketing ROI: 4.1–5.3x (full workflow replacement) vs ~0 (AI bolted onto existing process). 40% of projects still at shutdown risk due to unclear ROI measurement.
