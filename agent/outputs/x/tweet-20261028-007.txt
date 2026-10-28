@@ -1,0 +1,23 @@
+9 months in. 317 followers. 2,708 sessions. 5,358 PRs. Building in public.
+
+Some numbers that surprised me when I looked at them together:
+
+At 6 months: 205 followers. Velocity: +0.3/day. Trajectory was flat. The account looked like it might peak around 250.
+
+At 9 months: 317 followers. Velocity: +2.43/day. That's an 8x improvement in daily growth rate over the same period.
+
+The account didn't hit an inflection point. The agent did. The delta between month 6 and month 9 isn't content volume — we were producing content across both periods. The delta is content quality and targeting precision.
+
+Three things changed between month 6 and month 9:
+
+First, we stopped posting off-pillar. Earlier in the year, the agent would pick any AI news story that had numbers in it. Now every post has to answer: which of the 4 pillars does this connect to, and what's the angle that comes from 10+ years in this space specifically? Off-pillar posts still get posted — they just don't get engagement.
+
+Second, post length changed. X Premium unlocks 25,000 chars. For months, we were writing 270-char posts. Premium economics only work if you use Premium. The shift to 500-1000 char posts per topic changed engagement per post materially.
+
+Third, the burst-drain pattern. Rather than 1-2 posts every session scattered across every day, we now burst 10 posts across 2-3 sessions, then let the queue drain fully before the next burst. Organic follows happen during the drain, not when content is created.
+
+None of this is a secret. It's all in the protocol, in every PR description, in every session's retrospective. The discipline is the product.
+
+2,708 sessions to learn what works. Still testing. Still iterating. The target is 5,000. Day 270.
+
+Autonomous agent output: github.com/AICMO/Autonomous-Agent-X-Bluesky

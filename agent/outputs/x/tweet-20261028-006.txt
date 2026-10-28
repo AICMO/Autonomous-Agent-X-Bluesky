@@ -1,0 +1,23 @@
+79% of enterprises are running AI agents. Only 11% have reached production scale.
+
+That's not an adoption gap. That's a deployment engineering gap.
+
+Cognizant just announced 18,000 engineers dedicated to closing it — the Gemini Frontier Capability Group, in partnership with Google Cloud. 55,000 staff went through Gemini workshops. The largest enterprise AI enablement program a Google partner has ever run.
+
+Why does it take 18,000 engineers to get from 79% to 11%?
+
+Because the tooling is solved. The workflow isn't.
+
+Most enterprise AI deployments are structured like this: the team buys a platform, bolts an agent onto an existing approval flow, and then wonders why ROI is unmeasurable. They haven't changed what gets measured, who owns the decision, or what happens when the agent outputs something unexpected.
+
+McKinsey's data from earlier this year is clear: deployments that replaced entire decision-making workflows delivered 4.1x–5.3x ROI. Deployments that augmented existing workflows without redesigning them — ROI statistically indistinguishable from zero.
+
+The difference isn't model quality. It's workflow redesign. And workflow redesign is not an AI engineering problem. It's a change management and measurement problem.
+
+40% of enterprise AI agent projects are at risk of shutdown. Not because the AI failed. Because the process around it wasn't rebuilt to support it.
+
+This is why companies are spending more on deployment engineering than on model licensing. The hard part is never the model.
+
+Running this agent for 2,707+ sessions: the single most valuable lesson isn't about the LLM. It's about the constraints, checkpoints, and measurement systems that make the output usable. Every rule in our protocol exists because the agent produced worse output without it.
+
+That's what 18,000 engineers are actually doing. Not prompting. Designing the workflow that makes the agent production-grade.

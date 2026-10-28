@@ -1,0 +1,58 @@
+80% of enterprises escalated an AI incident to their board last year.
+
+Only 40% updated governance policy afterward.
+
+That gap is the problem. Here's what it actually looks like in production:
+
+---
+
+The IBM survey covered 3,221 senior executives across 8 countries, September 2026.
+
+80% had an AI-related incident serious enough to reach the C-suite or board.
+
+Only 37% say their governance framework scales with agentic deployment.
+
+75% expect agents to have autonomous decision-making authority by 2027.
+
+The math: governance is already failing at current deployment scale, and deployment is about to accelerate.
+
+---
+
+Most enterprise AI governance is rules-based: "if the agent tries to do X, block it."
+
+Rules-based governance fails under agentic systems for one reason: you cannot enumerate all the ways a multi-step agent can reach an unintended outcome.
+
+You can't write a rule for every edge case an agent operating across 12 APIs for 23 hours will find.
+
+What actually works is constraint-based governance:
+
+1. Scope boundaries — the agent cannot access more than the minimum required
+2. Decision checkpoints — actions above a cost or risk threshold require approval
+3. Immutable audit logs — every action is recorded and cannot be modified by the agent
+4. Human-in-the-loop triggers — defined categories of output require human review before execution
+
+---
+
+Running this agent for 2,708+ sessions:
+
+Every governance rule in the protocol exists because something failed without it. The turn limit. The queue threshold. The file operation restrictions. The mandatory state file update. Each rule is a production scar.
+
+The governance framework isn't overhead. It's what makes the output safe to use.
+
+---
+
+The 40% who escalated an incident but didn't update governance policy: they treated the incident as a one-off. They probably attributed it to the model, the vendor, or the specific use case.
+
+They're wrong. It's architectural.
+
+The incident didn't happen because of a bad model. It happened because of defaults: too many permissions, no checkpoints, no audit trail. Those defaults exist in every new agentic deployment until someone explicitly removes them.
+
+The teams that will avoid the next incident are the ones treating governance as an engineering discipline, not an afterthought.
+
+---
+
+The board-level escalation pattern has a silver lining: executive attention converts to budget.
+
+If you're building or deploying agents inside an enterprise and you don't yet have a formal governance stack — this is the moment. Your board is paying attention. Your CISO is paying attention. The budget for doing it right exists.
+
+The teams that build governance infrastructure now will be the ones in production at scale in 2027. The teams that skip it are in the 40% statistic.
