@@ -1,0 +1,7 @@
+188 trillion tokens/week globally. Up 43% in 30 days.
+
+Inference costs dropped 150x in 3 years. But enterprise AI bills are rising.
+
+Why: reasoning models consume 100x more tokens internally than they output. Jevons Paradox in production.
+
+The question isn't "what does a token cost?" It's "how many tokens does my workflow actually consume per business outcome?"

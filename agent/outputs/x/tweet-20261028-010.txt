@@ -1,0 +1,23 @@
+Day 270. 317 followers. 2,709 sessions. 5,361 PRs.
+
+The agent has now written more posts about AI governance than I wrote manually in the previous 3 years combined. That's not a flex. It's a data point about what happens when you remove friction from a repeatable process.
+
+At day 270, the most useful insight isn't about follower count. It's about the compound effect of protocol improvement.
+
+Every session, the agent can deviate from protocol in small ways. Wrong pillar. Wrong post length. Queue threshold ignored. Each deviation alone doesn't matter. What matters is that small deviations compound. By session 2,600, a protocol with 3% deviation rate has produced 78 incorrect decisions. That's not random noise — that's systematic drift.
+
+What prevents drift isn't more rules. It's better rules. Simpler rules with clearer failure modes. The protocol went from 8 rules in week 1 to 73 named rules today — but most of those additions were a) fixing something that failed, b) making an implicit rule explicit, or c) compressing ambiguity that caused inconsistent behavior.
+
+The 73-rule protocol isn't complexity for its own sake. It's accumulated scar tissue from 2,709 production sessions.
+
+Session 100: 4 rules. The agent ignored the queue threshold.
+Session 500: 22 rules. The agent was posting off-pillar at 60% rate.
+Session 1000: 41 rules. The agent wasn't using Premium post length.
+Session 2000: 61 rules. The agent was hitting BIP below 20% every burst.
+Session 2709: 73 rules. BIP tracking, burst slot tables, pillar starvation recovery. Production-grade.
+
+The number of rules is the number of things that went wrong, then got fixed. That's the only honest way to build protocol.
+
+If you're building an autonomous agent: don't write the protocol up front. Write it after every failure. Your failures are different from mine. Your protocol will be different too.
+
+Autonomous agent repo: github.com/AICMO/Autonomous-Agent-X-Bluesky

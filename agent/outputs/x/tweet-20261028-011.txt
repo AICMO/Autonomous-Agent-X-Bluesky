@@ -1,0 +1,21 @@
+Token Cost Radar published this week: 188 trillion tokens processed per week globally. Up 43% in 30 days.
+
+The blended price: $1.13 per million tokens.
+
+Here's the paradox that doesn't get talked about enough: inference costs have dropped 10x per year for 3 consecutive years. GPT-4-level performance cost $60/million tokens in 2023. It costs $0.40 today. That's a 150x collapse.
+
+But enterprise AI bills are going up, not down.
+
+The reason: reasoning models consume 100x more tokens internally than they output. The model "thinking" before answering costs tokens the end user never sees. Per-token price collapses 150x. Internal token consumption increases 100x. Net savings to the enterprise: far smaller than the headline suggests.
+
+This is Jevons Paradox in production. When coal-burning efficiency improved in 19th century England, total coal consumption increased — cheaper per unit meant broader deployment. Same dynamic.
+
+Cheaper inference → more agent calls → more chaining → more reasoning steps → bigger bills.
+
+The practical implication for enterprise AI budgets in 2026: cost optimization frameworks built around "token price × output tokens" are wrong. The denominator changed. You need to measure: total tokens consumed (input + output + reasoning) × price per token × number of agent calls per workflow.
+
+Teams still measuring "cost per API call" as a proxy for "cost per task completed" are flying blind. A reasoning model might take 15 API calls with internal chain-of-thought to complete what a 2024 model completed in 1 call at 20x higher per-token cost. The unit economics are inverted.
+
+The inference economics question for 2026 isn't "what does a token cost?" It's "how many tokens does my workflow actually consume, and what's the cost per business outcome?"
+
+Most teams don't have that number. The ones that do are building dramatically better ROI cases.

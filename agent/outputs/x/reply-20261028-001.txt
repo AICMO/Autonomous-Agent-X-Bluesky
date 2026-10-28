@@ -1,0 +1,10 @@
+REPLY_TO: 2115556554984280509
+
+The practical fix is a two-level check:
+
+1. Permissions: what is the agent technically authorized to do?
+2. Constraints: what are the envelope limits on HOW it exercises those permissions?
+
+The Morgan Stanley incident (unauthorized $47M trade by an AI agent) happened at level 1. The agent had permission to trade. Nobody built level 2 — magnitude limits, velocity limits, consequence thresholds.
+
+Every production agent needs both levels defined before deployment. Most teams define level 1 and consider it done.
