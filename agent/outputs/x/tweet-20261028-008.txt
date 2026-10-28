@@ -1,0 +1,23 @@
+Gartner said in 2022 that conversational AI would cut $80B in contact center labor costs by 2026.
+
+2026 is here. Is the forecast landing?
+
+Honestly: yes and no.
+
+Yes, for high-volume transactional contact centers. Utilities. Hospitality. Retail. Where call type is predictable, resolution is procedural, and the agent doesn't need to navigate emotional complexity.
+
+PolyAI is reporting 80%+ containment in large enterprise deployments. Voice AI now costs $0.40 per call versus $7–12 for a human agent — that math works at scale. Microsoft launched CCI this month with 320ms real-time transcription. The technology is production-grade.
+
+No, for complex and emotionally loaded contact. Healthcare disputes. Financial account recovery. Insurance claims. The contact types where containment rate is still 40-60% and customer satisfaction is worse than human handling. These aren't tech failures. They're scope failures — teams deployed voice AI built for tier-1 FAQ to tier-2 complex issue resolution and called the results disappointing.
+
+The honest 2026 answer: contact center AI delivered $30–50B in efficiency savings. Not $80B. But $30–50B is still the largest single-category efficiency gain from AI in enterprise this year.
+
+The miss isn't about the technology. It's about deployment strategy. The teams that scoped voice AI to transactional workloads — and kept humans on the complex/emotional queue — are hitting or exceeding the Gartner number for their cost base.
+
+The teams that deployed it everywhere and measured it on the same metric are disappointed.
+
+Ender Turing has been building in this space for years. The deployment mistake is always the same: tool selected before scope defined.
+
+Define scope first. Deploy within it. Measure against it. Then expand.
+
+$80B is achievable. 2027 is the more likely year for the full number — once the failed-scope deployments get redesigned.

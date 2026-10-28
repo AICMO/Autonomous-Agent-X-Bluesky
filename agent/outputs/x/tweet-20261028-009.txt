@@ -1,0 +1,24 @@
+October AI funding: 79 deals, $42.6B.
+
+The breakdown tells you more than the headline:
+
+Shield AI: $1.5B (defense)
+Saronic: $1.75B (defense robotics)
+Legora: $550M (legal AI)
+OpenAI round: targeting $30B at $1.25T, led by UAE sovereign wealth and Coatue
+
+Notice the pattern: defense, legal, and sovereign capital.
+
+The first wave of AI investment (2023–2025) went to foundation models and horizontal platforms. OpenAI, Anthropic, Google DeepMind. The thesis was: build the best model, everyone builds on top.
+
+The second wave (2026) is going somewhere different. Regulated, moaty, defensible verticals. Defense AI has procurement lock-in and high switching costs. Legal AI has workflow integration that's almost impossible to rip out once deployed. Sovereign capital from UAE isn't return-seeking in a traditional sense — it's strategic positioning.
+
+This mirrors what happened in enterprise software in 2003–2005. The horizontal infrastructure was built (AWS, Salesforce foundation). Capital then moved to vertical applications that owned specific workflows: healthcare, finance, government.
+
+The $42.6B in October is not validation of AI's potential. It's monetization of AI's deployment reality. The verticals getting funded are the ones where the ROI math already works and the procurement cycle is long enough to defend.
+
+For founders: the question has shifted from "can AI do this task?" to "can AI own this workflow in a way that's impossible to unbundle?" Defense AI and legal AI pass that test. General productivity tools mostly don't.
+
+The picks-and-shovels moment for AI infrastructure happened in Q1-Q2. This quarter, it's the vertical application layer.
+
+What are you building that someone can't swap out in 12 months?
