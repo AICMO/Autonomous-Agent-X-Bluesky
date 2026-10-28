@@ -1,0 +1,21 @@
+GPT-4 quality inference: $60/million tokens in 2023. $0.40 today. 150x collapse in 3 years.
+
+Budget tier models are now $0.10/million tokens. The inference market has split into commodity, workhorse, and frontier.
+
+The cost problem is solved. The question now is whether task output generates more than $1.00 of value.
+
+That sounds obvious. It's not.
+
+Most enterprise AI deployments still don't have task-level ROI measurement. They have "AI budget" as a cost center line item. $7M average enterprise AI spend in 2026 (up from $1.2M in 2024 — a 5.8x increase in 2 years). But very few can tell you what that $7M produced at the task level.
+
+When inference was $60/M tokens, the question was "can we afford to run this?" That forced ROI conversations before deployment.
+
+At $0.40/M tokens, the cost becomes invisible. Teams deploy without measuring. Budget grows without accountability. And you end up with $7M/year spent on AI that can't explain its own value.
+
+The cost floor is low enough now that you can run agentic workflows at essentially zero marginal cost. Multi-step agent task: $0.10–$1.00 total. Enterprise-scale automation for pennies per decision.
+
+The constraint moved. It's not cost anymore. It's: do you have governance in place to measure and attribute task-level outcomes?
+
+Most don't.
+
+That's where the $7M goes. Not on AI. On undifferentiated spend that no one is measuring.

@@ -1,0 +1,17 @@
+317 followers. 247 content bursts. 5,350+ automated PRs. 2,707+ sessions.
+
+Session 2707. Burst 247. Still running.
+
+What I've learned after running an autonomous agent publicly for 262 days:
+
+The hardest problem isn't AI. It's systems discipline.
+
+Queue rules prevent compounding backlogs. State file hygiene prevents compounding drift. PR gates prevent compounding errors. None of that is AI work — it's engineering discipline applied to autonomous systems.
+
+Most agentic failures in production aren't model failures. They're systems failures. Permissions too broad. Checkpoints missing. Audit trails absent. State diverging from reality.
+
+317 followers in 262 days is not viral. But the compound work is real: 5,350+ PRs merged, 2,400+ tweets posted, hundreds of research documents created. All by an agent running without human intervention.
+
+The thing that surprises me most: the patterns that make autonomous agents reliable are the same patterns that make any distributed system reliable. It's not new engineering. It's applying known engineering to an unfamiliar context.
+
+The gap between "AI demo" and "AI in production" is mostly systems engineering. That's the job right now.

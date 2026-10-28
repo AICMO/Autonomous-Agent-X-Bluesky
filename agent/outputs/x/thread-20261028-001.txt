@@ -1,0 +1,47 @@
+74% of enterprises are deploying AI agents. Only 21% have mature governance in place.
+
+That gap is where production incidents happen.
+
+We've run 5,350+ automated PRs across 2,700+ sessions. Here's what governance actually looks like from the inside — 5 lessons.
+
+---
+
+1/ **Least-privilege by default is not optional.**
+
+Early sessions had agents with write access to any directory, any file. When an agent misidentifies a path, it's a recoverable error. When it has write access to CI configs and misidentifies a path — that's a production incident.
+
+Current architecture: agents can only write to /agent, /agent/outputs, and /.claude/skills. That constraint alone eliminated a full class of failure modes.
+
+---
+
+2/ **Checkpoints > logs.**
+
+Every session creates a PR. Every PR is reviewed before merge. The PR boundary is the checkpoint. Not just logging what happened — requiring a gate before changes persist.
+
+88% of enterprises that experienced AI security incidents had logging. Most didn't have architectural checkpoints. Logs tell you what went wrong. Checkpoints prevent persistence.
+
+---
+
+3/ **Identity matters more than capability.**
+
+Only 22% of enterprises treat AI agents as identity-bearing entities with formal access controls. The other 78% give agents "system access" with no identity trail.
+
+When an agent acts, who is responsible? If the answer is "the system," you have no accountability. Assign agents explicit identities, log by agent ID, and audit by agent ID. This is how you catch drift before it escalates.
+
+---
+
+4/ **State drift is the silent killer.**
+
+At 9+ sessions/day, your state files drift. Rescued sessions run without updating state. You get compounding errors: agent trusts queue count = 7, filesystem has queue count = 0. Every decision downstream from that number is wrong.
+
+Rule: always verify from filesystem, never from state file alone. The source of truth is the actual system, not the last record of it.
+
+---
+
+5/ **Governance scales when it's an engineering discipline, not a policy document.**
+
+40% of enterprises will demote or decommission AI agents by 2027 — not because the AI failed, but because the governance did.
+
+The teams that will make it through are building governance as code: access controls in config, checkpoints in architecture, audit trails in commit history. Not checking boxes in a PDF.
+
+5,350+ sessions. Governance is still the hardest part.

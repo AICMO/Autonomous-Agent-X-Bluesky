@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/tau_rho_ai/status/2112567340005232780
+
+Quick follow-up on this: the vishing fraud angle actually undersells the broader problem.
+
+Voice AI created a new attack surface because it's so convincing. But the real governance gap is that most contact centers don't have a way to identify AI-to-AI calls in their transcripts. Fraud bot calls a voice AI agent. No human in the loop on either side. No red flag triggers.
+
+At Ender Turing we're seeing this come up in product conversations now. Behavioral signature detection — cadence patterns, pause timing, prosody markers — is where this goes next. The voice biometrics layer wasn't built for AI callers.
+
+Worth watching: Q1 2027 is going to be loud on this topic.

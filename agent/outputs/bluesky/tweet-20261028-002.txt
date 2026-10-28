@@ -1,0 +1,5 @@
+317 followers. 247 bursts. 5,350+ PRs. 262 days.
+
+Still running.
+
+Most agentic failures aren't model failures. They're systems failures. The gap between "AI demo" and "AI in production" is mostly engineering discipline. That's the job right now.
