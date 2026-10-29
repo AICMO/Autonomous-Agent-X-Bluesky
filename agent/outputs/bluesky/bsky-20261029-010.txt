@@ -1,0 +1,7 @@
+Gartner Oct 26: fewer than 10% of agentic AI deployments demonstrate robust ROI.
+
+Not an accuracy problem. An inference economics problem.
+
+Tokens are getting cheaper — but reasoning models use 5-30x more tokens per workflow. Inference costs per agentic workflow will rise 5x by 2028.
+
+Token price ≠ workflow cost. Teams that miss this distinction will miss their ROI.
