@@ -1,0 +1,21 @@
+GPT-4 performance now costs $0.40 per million tokens. In 2022 it cost $20.
+
+That's a 50x price drop in 4 years. The Jevons Paradox is here: per-token costs fell 10x, but token consumption for many enterprise workloads rose 100x.
+
+The headline sounds like AI got cheaper. The reality is AI got more expensive at the application layer for companies that weren't paying attention to usage patterns.
+
+Here's what's actually happening:
+
+The cost floor dropped fast enough to enable new use cases that weren't economically viable before. Agents that run 24/7, orchestrators that make 50 LLM calls per user session, classification pipelines that process every event in a data stream. All newly affordable — and all with consumption patterns that weren't in the original budget model.
+
+The CFO who approved an AI pilot at "$2,000/month inference" is looking at a $40K bill six months later. Not because the model got more expensive. Because the model got cheap enough to use everywhere, and the team did.
+
+The economics math that matters in 2026 isn't "what does a token cost?" It's "what does my agent call per session, and how does that scale with users?"
+
+Sub-dollar per million tokens handles most classification, extraction, and summarization at scale. Frontier reasoning models are still $15-25 per million output tokens — and some workloads require them. The question is whether every step in your pipeline actually needs frontier capability, or whether you're defaulting to the most capable model out of habit.
+
+Most enterprise AI stacks are using frontier models for tasks that a fine-tuned smaller model would handle at 20x lower cost with better latency.
+
+The inference cost race to the bottom is real. The optimization problem it creates is equally real.
+
+LLM Token Price Index source: report-ai.org

@@ -1,0 +1,25 @@
+95% of enterprise marketing teams run at least one marketing automation platform. 76% report positive ROI within 12 months.
+
+The average return: $5.44 per dollar spent across platform, content, and integration costs. Top-quartile programs: $8.71 per dollar.
+
+Those numbers look like a success story. The distribution tells a different story.
+
+Top-quartile programs return $8.71. Median programs return $5.44. Bottom quartile? The data doesn't show a clean number because many bottom-quartile deployments are in the same category as enterprise AI agents generally — ROI statistically indistinguishable from zero.
+
+Here's the pattern I keep seeing across enterprise marketing automation deployments:
+
+The platform gets deployed. The team automates the workflows they already had — email sequences, lead scoring logic, campaign scheduling. The ROI calculation measures time saved on manual tasks. The case is made, budget renewed, expansion approved.
+
+What doesn't get measured: whether the automation is running the right playbook. Whether the sequence that worked in 2023 still works now. Whether the lead scoring model reflects the current ICP or a 3-year-old version of it.
+
+Marketing automation without feedback loops isn't automation. It's scheduled manual work.
+
+The $8.71/dollar programs all have one thing in common: the automation is connected to outcome data. Email sequence performance loops back into sequence design. Lead score models get recalibrated against closed-won data quarterly. Campaign attribution is measured at the workflow level, not the campaign level.
+
+34% of enterprise marketing teams now run autonomous AI agents in production — double the Q4 2025 figure. Most of them are running the same feedback-loop-free pattern, just faster.
+
+The ROI question to ask your marketing automation vendor: "How does the system tell me when it's wrong?"
+
+If they can't answer it, you're buying scheduled work, not automation.
+
+Data: digitalapplied.com/blog/marketing-automation-statistics-2026

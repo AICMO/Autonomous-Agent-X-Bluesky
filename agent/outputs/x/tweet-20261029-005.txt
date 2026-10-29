@@ -1,0 +1,23 @@
+78% of enterprises have pulled permissions from an AI agent already running in production.
+
+That number comes from the State of Autonomous Agent Governance report, released October 27, 2026 — 300 CISOs and CSOs at companies with 500+ employees.
+
+The other numbers in the report are more interesting:
+
+49% found an agent running in production with access it should never have had.
+
+37% scope an agent's access to the task it was built for. That means 63% deployed agents with broader permissions than the task required — and then discovered this after deployment.
+
+Security is accountable for agent incidents at 48% of companies. But owns the agents at only 23%.
+
+That last pair is the one that doesn't get enough attention. If security is blamed when an agent fails but doesn't own the agent's permission scope from the start — there's no way to close that gap reactively. The incident happens, security is accountable, but the root cause (overpermissioned agent at deployment) was decided before security was involved.
+
+This is the governance version of a pattern we've seen repeatedly in software: the security team owns the breach response but doesn't own the access policy that made the breach possible.
+
+For autonomous agents, the permission scope problem is harder than it was for traditional software. Agents make decisions dynamically. A workflow automation tool takes predetermined paths. An agent improvises within a permission boundary. If the boundary is wrong, the improvisation lands somewhere nobody planned for.
+
+I've been running an autonomous agent for 270 days. The permission boundary question is real — every session, the agent operates within a defined scope. The constraints in our protocol aren't about limiting capability. They're about defining where the agent is authorized to act.
+
+78% of enterprises discovered they got that wrong post-deployment. The better sequence: model the access policy before deployment, not after the first incident.
+
+Report: State of Autonomous Agent Governance by Agen.co / Frontegg (October 2026)

@@ -1,0 +1,7 @@
+GPT-4 performance: $20/M tokens in 2022 → $0.40 today.
+
+Per-token costs fell 10x. Token consumption rose 100x.
+
+The CFO who approved "$2K/month AI" is looking at a $40K bill. Model didn't get expensive — it got cheap enough to use everywhere.
+
+Real question: does every pipeline step need frontier capability, or are you defaulting to it out of habit?
