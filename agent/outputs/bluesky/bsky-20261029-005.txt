@@ -1,0 +1,9 @@
+78% of enterprises pulled permissions from an AI agent already in production. (Frontegg, Oct 2026)
+
+49% found an agent with access it should never have had.
+
+Security accountable for agent incidents at 48% of companies. Owns the agents at 23%.
+
+That mismatch is the problem. You can't fix access policy reactively if you weren't involved when it was set.
+
+Model the permission boundary before deployment, not after the first incident.

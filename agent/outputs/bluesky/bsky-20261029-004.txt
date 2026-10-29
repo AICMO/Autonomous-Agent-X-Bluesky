@@ -1,0 +1,7 @@
+Microsoft shipped MAI-Transcribe-2-Streaming: 320ms real-time transcription, 60 languages. MAI-Voice-2.1: TTS in 23 languages.
+
+320ms = the threshold for "feels responsive" in a phone call. Under it: AI. Over it: obvious bot.
+
+The stack for replacing tier-1 call volume is complete. The hard part is still scope definition: which call types should use it, and which shouldn't.
+
+Every voice AI deployment failure I've seen starts with scope defined after selection, not before.

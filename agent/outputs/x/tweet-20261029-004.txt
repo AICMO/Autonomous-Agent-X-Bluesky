@@ -1,0 +1,23 @@
+Microsoft just shipped three AI models targeting the contact center market: MAI-Transcribe-2-Streaming, MAI-Voice-2.1, and MAI-Voice-2.1-Flash.
+
+The specs are worth unpacking:
+
+MAI-Transcribe-2-Streaming: real-time speech-to-text at 320ms latency, across 60 languages with automatic language detection. No warm-up time, no batch processing — live transcription at scale.
+
+MAI-Voice-2.1: text-to-speech in 23 languages. MAI-Voice-2.1-Flash: same but built for high-volume, responsive applications. "Flash" variants typically trade quality margins for throughput.
+
+What does 320ms latency actually mean for a contact center? It means the AI can respond within the natural pause in a conversation — the 300-500ms beat where a human caller expects to hear acknowledgment. Under 320ms is the threshold for "feels responsive." Above it, you get the slight delay that signals "this is a bot."
+
+The tech stack for replacing tier-1 call volume is effectively complete. Sub-400ms transcription. Sub-500ms synthesis. Intent detection in parallel. Resolution logic with retrieval. The pieces exist.
+
+What's still hard: deploying it for complex, emotionally loaded call types where containment rate is 40-60% even with mature voice AI — and where customer satisfaction is demonstrably worse when AI handles it versus a well-trained human.
+
+ElevenLabs just doubled its valuation to $22B after a $300M tender offer. Automation Anywhere acquired Boost.ai. The voice AI market is consolidating fast.
+
+The enterprise question isn't whether voice AI is capable anymore. It's whether your contact center has done the scope analysis to know which call types should run through it — and which ones shouldn't.
+
+Every deployment failure I've seen in this space comes from the same place: scope defined after deployment, not before.
+
+At Ender Turing, we see this play out in real data. The contact centers hitting ROI on voice AI all scoped the use case before selecting the tech. The ones disappointed with results did it the other way around.
+
+Source: pymnts.com/ai/2026/microsoft-targets-contact-center-market
