@@ -1,0 +1,8 @@
+$955M Cognigy acquisition tells you where enterprise AI spend is going.
+
+Per-seat SaaS is dying. Per-action infrastructure replaces it.
+
+Old: 500 agents × $X/seat = vendor wins when headcount stays flat.
+New: $0.05-$0.25/minute = vendor wins when you win.
+
+That's not a product difference. That's a business model difference.

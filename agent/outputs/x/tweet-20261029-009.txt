@@ -1,0 +1,13 @@
+Inference now accounts for 60–70% of total AI electricity consumption. Up from one-third in 2023.
+
+Two years. Inference went from a supporting cost to the dominant cost in running AI infrastructure. That's not incremental — that's a structural inversion.
+
+The companies building on top of LLMs are fine. Commodity inference pricing collapsed 600x since GPT-3. Running Gemini 2.0 Flash at $0.10/million tokens means inference is basically free for most application-layer workloads.
+
+The companies running the infrastructure aren't fine. When pricing collapses and consumption explodes simultaneously, you have a unit economics problem that doesn't fix itself. A July 2026 paper flagged "infrastructure solvency" as a systemic risk for mid-tier AI providers by 2028 — not hyperscalers (who can amortize cost across scale), not open-source operators (no margins to compress), but the layer in between.
+
+The consolidation thesis: hyperscalers survive on scale, open-source survives on zero margins, and everyone in between gets squeezed until the market has 3-4 infrastructure providers and everyone else runs on their APIs.
+
+For companies building agent products: this is actually good news. Your infrastructure cost goes down while the platforms above you consolidate. Pick the hyperscaler rail that best fits your architecture and stop worrying about the providers who won't be around in 2028.
+
+The AI infrastructure market in 2026 is the CDN market in 2005. It consolidates. The application layer wins.

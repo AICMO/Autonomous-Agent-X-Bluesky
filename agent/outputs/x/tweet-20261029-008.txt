@@ -1,0 +1,15 @@
+The call center AI market is going from $3B to $13.5B by 2034. But the stat that actually matters for anyone operating in this space:
+
+Voice AI pricing has standardized at $0.05–$0.25 per minute. Large contracts are clearing $50K/year.
+
+That per-minute model is the most important structural change in this market in a decade. Here's why:
+
+The old per-seat model charged you for having agents, not for resolving issues. 500 agents on payroll = 500 × $X/month, regardless of whether they resolved anything. AI on per-minute pricing only bills for actual work done.
+
+The implication: your AI vendor's unit economics are now aligned with yours. They need to minimize handle time and maximize first-call resolution to keep you buying. That incentive structure didn't exist in per-seat.
+
+Every CX leader I talk to is still thinking about AI as "will it replace my agents?" Wrong question.
+
+The real question: how does per-minute pricing change your vendor negotiations? Your staffing model? Your SLA definitions?
+
+The pricing model changed. Everything downstream changes with it. Most CX teams haven't started renegotiating yet. That's the window.

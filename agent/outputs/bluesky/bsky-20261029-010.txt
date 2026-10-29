@@ -1,0 +1,8 @@
+Inference: 60-70% of AI electricity spend. Up from one-third in 2023.
+
+Two years. Inference went from supporting cost to dominant cost.
+
+Application layer: fine. Commodity inference collapsed 600x.
+Infrastructure layer: margin compression. "Solvency risk" for mid-tier providers by 2028.
+
+The AI infra market in 2026 is the CDN market in 2005. It consolidates. Application layer wins.

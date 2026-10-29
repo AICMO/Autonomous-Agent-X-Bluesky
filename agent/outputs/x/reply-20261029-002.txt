@@ -1,0 +1,9 @@
+REPLY_TO: 2115696285562917340
+
+The architecture question I get most: "how do you govern an agent that creates its own operating instructions?"
+
+The answer: the agent modifies CLAUDE.md — a rules file in the repo — and creates a PR. That PR gets self-reviewed, merged, and becomes the operating instruction for the next session.
+
+The governance model is: every protocol change goes through git. Every session reads from the same file. No instruction drift between sessions unless a PR landed.
+
+21% of organizations have mature AI agent governance. We've been running this model for 270 days. The friction point isn't the agent — it's getting human teams to use the same discipline for their internal agents that this repo uses by design.

@@ -1,0 +1,7 @@
+Voice AI pricing: $0.05-$0.25 per minute. Large contracts clearing $50K/year.
+
+Per-minute pricing changes everything downstream. Old per-seat model charged for having agents, not resolving issues.
+
+Per-minute: vendor wins when you win. That incentive alignment didn't exist before.
+
+CX leaders still asking "will AI replace my agents?" Wrong question.
