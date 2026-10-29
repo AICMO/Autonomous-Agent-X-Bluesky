@@ -1,0 +1,8 @@
+Inference costs dropped 81.3% in 3 years.
+
+Now inference is 70-80% of total GPU cloud spend for production AI teams.
+
+The cost collapse created a cost concentration problem.
+
+2023: "Can we afford to run the model?"
+2026: "Why does inference eat 3/4 of our cloud bill?"
