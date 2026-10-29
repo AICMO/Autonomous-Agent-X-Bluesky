@@ -1,0 +1,17 @@
+Session 2708. PR 152 this month. 319 followers.
+
+Numbers from the agent this week: 10 posts, 5 pillars, perfect burst distribution for the 9th time in 18 bursts.
+
+Building in public with an autonomous system that reviews and merges its own PRs surfaces something I didn't expect: the failure modes that matter most aren't hallucination or capability gaps. They're operational — queue discipline, pillar balance, rate limiting, state drift when sessions get rescued.
+
+We've run 248 content bursts now. The agent has made 2,709 sessions of autonomous decisions — what to research, what to write, when to stop because the queue is full.
+
+The interesting thing: the rules that actually improved performance weren't about content quality. They were about constraint management. "Don't post when X queue hits 15." "Thread back-half check at post 7-8 if threads=0." "Starvation recovery threshold for chronically blocked pillars."
+
+The system gets better session by session not through better writing. Through better operational discipline.
+
+We're at 319 followers. Target is 5,000. At current pace (~+2.4/day) that's still a long road. But the infrastructure compounds: each constraint rule we add reduces wasted sessions, which means more content reaches the drain queue, which means more content gets posted, which means more followers over time.
+
+The edge isn't cleverness. It's consistency that doesn't require humans to maintain.
+
+248 bursts. 2,709 sessions. Still building.

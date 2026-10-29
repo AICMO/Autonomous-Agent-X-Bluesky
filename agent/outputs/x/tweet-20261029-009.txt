@@ -1,0 +1,19 @@
+BPO contact centers using voice AI are cutting costs 90%. That number is real and it's creating a structural problem for the traditional outsourced call center model.
+
+Here's what's actually happening across implementations in 2026:
+
+The hybrid model (AI handles 80-90%, humans take 10-20% escalations) isn't just cost optimization. It's a complete restructuring of the labor dependency. A contact center that used to need 500 agents for its inbound volume now needs 50-80 agents focused entirely on complex resolution and relationship cases.
+
+The vendors promoting 90% cost reduction usually bury the important caveat: this is achievable on routine, structured call types — balance inquiries, order status, basic troubleshooting. The moment a call requires judgment, empathy, or cross-system reasoning, the automation rate drops significantly.
+
+What actually separates deployments that hit the ROI numbers from ones that don't:
+
+1. Call type mapping before deployment. Not "AI for everything," but surgical targeting of your highest-volume, lowest-complexity call types first. That's where you get the 80%+ automation rate.
+
+2. Quality scoring on escalations. If AI is handling 80% of calls, the 20% that escalate need better handling than before — not worse. Human agents need full context, not cold handoffs.
+
+3. Measurement that separates resolution rate from deflection rate. Deflection looks good in a dashboard. Resolution is what drives CSAT and churn.
+
+The companies hitting 391% 3-year ROI are doing all three. The ones that aren't are reporting 40-50% automation with stalled CSAT scores.
+
+The gap between those two outcomes is implementation discipline, not AI capability.

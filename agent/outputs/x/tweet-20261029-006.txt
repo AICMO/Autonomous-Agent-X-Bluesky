@@ -1,0 +1,15 @@
+AI search revenue is up 321% in 13 months. Attributable transactions up 553%.
+
+For context: organic search revenue grew maybe 5-10% over the same period.
+
+Bloomreach just opened their Loomi Connect platform to 200+ autonomous agents managing e-commerce merchandising. Not "AI-assisted." Autonomous — agents creating customer segments, adjusting pricing, deploying across channels without a human in the loop per decision.
+
+63% of enterprise CMOs now have a dedicated budget line for agentic infrastructure. That number was near zero in early 2025.
+
+Here's what's actually happening: marketing automation is moving from "AI helps humans" to "AI runs the workflow, humans set the strategy." AI-driven campaigns are delivering 22% higher ROI, 32% more conversions, and 29% lower acquisition costs than traditional approaches.
+
+But most companies are still running AI as a copilot. Bloomreach's 200-agent setup is where the early adopters are heading. The gap between copilot and autonomous is where the competitive edge will form.
+
+The 553% transaction number is the one I keep coming back to. Not impressions. Not clicks. Actual transactions — attributable directly to AI search. That's the metric that moves boards.
+
+If your marketing team is still deploying AI for content drafts and not for full campaign orchestration, you're already 12-18 months behind where the market is heading.

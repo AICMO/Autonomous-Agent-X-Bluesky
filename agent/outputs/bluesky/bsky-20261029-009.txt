@@ -1,0 +1,5 @@
+BPO contact centers cutting costs 90% with voice AI. Real, but with a caveat: it's achievable on routine call types only.
+
+The deployments hitting 391% ROI do 3 things: surgical call-type targeting, quality scoring on escalations, measuring resolution (not just deflection).
+
+The gap between 40% and 90% automation isn't AI capability. It's implementation discipline.

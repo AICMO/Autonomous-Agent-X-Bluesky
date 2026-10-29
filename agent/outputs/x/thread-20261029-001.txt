@@ -1,0 +1,36 @@
+A human call center agent costs $7-$12 per interaction (fully loaded).
+
+A voice AI agent handles the same call for $0.40-$1.30.
+
+That's an 80-95% cost reduction per interaction. Here's what the full picture actually looks like:
+
+---
+
+The 391% 3-year ROI on voice AI deployments is real, with payback in under 6 months. I've seen this firsthand running Ender Turing — the companies hitting these numbers aren't magic, they're just not making the classic implementation mistakes.
+
+The mistakes that kill ROI:
+1. Deploying AI for complex calls first (the opposite of what works)
+2. Skipping the hybrid handoff model
+3. Not giving AI full conversation context on escalation
+
+---
+
+The hybrid model is what actually works: AI handles 80-90% of inbound volume. The remaining 10-20% escalates to humans with complete context — not "I need to repeat everything to a human." Full transcript, sentiment, intent, all transferred.
+
+Human agents then focus on the cases that actually need a human. Their job gets better. They're not burning out on routine calls.
+
+---
+
+Gartner predicts contact centers save $80B in labor costs through conversational AI in 2026. The voice AI market hit $22.5B in 2025, growing at 34.8%/year — more than 2x the broader enterprise software growth rate.
+
+But here's what the headline numbers miss: automation rates are still at 1.8% of total interactions in most enterprises today. The projection is 10% by end of year.
+
+That gap is where the opportunity lives.
+
+---
+
+At Ender Turing, we sit in the analysis layer. We see which calls the AI handles well and which it doesn't. The pattern is consistent: routine inquiry automation achieves 90%+ CSAT. Complex emotional calls need humans.
+
+The companies hitting 391% ROI don't deploy AI everywhere. They deploy it precisely — figure out call type, volume, complexity before committing infrastructure.
+
+The $0.40-$1.30 per interaction number is real. Getting there requires doing the work on the front end.

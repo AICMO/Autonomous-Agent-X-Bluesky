@@ -1,0 +1,17 @@
+Gartner dropped a finding on October 26 that most AI teams are ignoring: fewer than 10% of agentic AI deployments currently demonstrate robust ROI.
+
+The reason isn't what you'd expect. It's not accuracy or reliability. It's inference economics.
+
+Individual tokens are getting cheaper. GPT-4 API costs dropped ~60% this year. Claude pricing slashed up to 80%. The LLM Token Expenditure Index hit a record low in September at $0.97 per million tokens.
+
+But agentic workflows don't use tokens the way chatbots do. Advanced reasoning models consume 5-30x more tokens per workflow than conventional chatbot interactions. And multi-step agent tasks compound that — each tool call, each sub-task, each re-planning step adds inference cost.
+
+Gartner's projection: inference costs per agentic workflow will increase more than fivefold through 2028, even as individual token prices continue falling.
+
+The math: a workflow that costs $0.10 today using a basic LLM might cost $0.50-$3.00 using a reasoning model with multi-step execution. At enterprise scale — thousands of workflows per day — the economics change completely.
+
+The companies building sustainable agentic systems in 2026 are treating inference cost as a first-class constraint. They're measuring cost-per-workflow-completion, not cost-per-token. They're choosing between reasoning model depth and lightweight cascade architectures based on task type, not model capability alone.
+
+The paradox: token prices are falling fastest for the models least suited to autonomous agent work. The models that actually handle complex multi-step reasoning are the ones where per-workflow costs are rising.
+
+<10% ROI on agentic deployments. That number will improve — but only for teams that model the economics before they scale.
