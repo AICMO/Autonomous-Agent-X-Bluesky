@@ -1,0 +1,37 @@
+The $955M Cognigy acquisition tells you everything about where enterprise AI spend is going.
+
+Per-seat SaaS is dying. Per-action infrastructure is replacing it. Here's the math that's driving the shift:
+
+---
+
+Old model: contact center platform charges $X per agent seat per month.
+
+You have 500 agents. You pay 500 × $X. Vendor wins when headcount stays flat.
+
+New model: agentic AI priced at $0.05–$0.25 per minute of interaction.
+
+1,000 calls/day at 6 minutes average = $300–$1,500/day. Your costs scale with demand, not headcount.
+
+---
+
+Why this matters: the per-seat model had no incentive to reduce handle time or increase resolution rate. The vendor made money regardless.
+
+Per-action pricing flips the incentive. Resolve faster, cost less. Deflect more, cost less. The AI vendor wins when you win.
+
+That's not a product difference. That's a business model difference.
+
+---
+
+$955M for Cognigy. $13.5B projected market by 2034. The acquirers betting on this know something:
+
+The CCaaS winners will be the ones who built billing infrastructure for per-action pricing, not the ones with the most features.
+
+Infrastructure bets always look expensive until they're obvious.
+
+---
+
+The companies that will get priced out of this market aren't the startups. They're the legacy platform vendors who built their entire P&L around seat-count growth.
+
+When the pricing model changes, the business model changes. When the business model changes, the winners change.
+
+$955M says the market already knows who the winners are.

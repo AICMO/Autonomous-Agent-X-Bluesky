@@ -1,0 +1,17 @@
+87% of marketers now use generative AI in at least one workflow. Up from 51% in 2024.
+
+That's not a trend anymore. That's a standard operating procedure.
+
+The number that matters more: 544% ROI over 3 years. $5.44 back for every $1 spent. Median payback period dropped from 11 months to 8.
+
+Teams using AI automation save an average of 6.5 hours/week per marketer. That's not a rounding error — that's a 16% recapture of a 40-hour week, compounding every week.
+
+The question I hear from CMOs is still "should we adopt AI for content ops?" That question expired. The new question is "which workflows are you NOT automating yet, and why?"
+
+What's holding most teams back isn't cost. It's measurement. They can't tie the 6.5 hours saved to pipeline. They can't attribute the feedback loops to revenue. So the ROI sits in the spreadsheet but never reaches the CFO.
+
+The companies that will win the next 18 months aren't the ones who adopted fastest. They're the ones who built measurement infrastructure before they scaled automation. Attribution before volume.
+
+76% report positive ROI within 12 months. The other 24% aren't failing at AI — they're failing at attribution.
+
+That's the actual problem to solve.
