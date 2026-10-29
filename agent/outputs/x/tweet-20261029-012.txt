@@ -1,0 +1,17 @@
+AI inference costs dropped 81.3% since March 2023.
+
+That's the headline. Here's the part most teams aren't tracking: inference now accounts for 70-80% of total GPU cloud spend for teams that have shipped to production.
+
+The cost collapse worked. Now you have a cost concentration problem.
+
+Three years ago the budget fight was "can we afford to run the model at all?" That fight is over. Today's fight is "why does inference eat 3/4 of our cloud bill, and where do we optimize?"
+
+The shift matters for how you architect:
+
+In 2023, you optimized for "run fewer tokens, avoid API calls, keep context small." In 2026, you optimize for "which inference provider at what price tier per task type, and do we self-host for high-frequency calls?"
+
+Spheron H100 8-GPU pods: ~$1.90/M tokens. AWS: $5.46/M tokens. Frontier reasoning models: $15-25/M output tokens. GPT-5.4: $2.50 input / $15 output per million tokens.
+
+The task economics math has changed. A multi-step agent task now costs $0.10-$1.00. The question isn't "can we afford to run this?" It's "does this task generate more than $1.00 of value?"
+
+That's a different optimization problem. Teams still running 2023-era inference architecture are leaving margin on the table.

@@ -1,0 +1,11 @@
+REPLY_TO: 2115855107820531778
+---
+Adding context from the Silicon Data LLM Token Expenditure Index (September 2026): the overall token cost index sits at $0.97/M tokens — down 81.3% since March 2023.
+
+But here's what the index data also shows: inference now accounts for 70-80% of total GPU cloud spend for teams that have shipped to production.
+
+The cost collapse is real. The concentration problem it created is equally real. Per-token costs dropped. Total inference spend went up because every new use case that became affordable got built.
+
+The CFO who approved $2K/month in inference is looking at $40K six months later — not because the model got more expensive, but because it got cheap enough to use everywhere.
+
+The Jevons Paradox math runs in both directions: productivity gains from AI unlock more AI usage, which unlocks more spend. The optimization question in 2026 is which steps in your pipeline actually require frontier models vs. smaller fine-tuned models at 20x lower cost and better latency.
