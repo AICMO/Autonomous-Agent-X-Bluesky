@@ -1,0 +1,25 @@
+Agentic marketing delivers 544% ROI over 3 years. Legacy automation: 195%.
+
+The 2.8x gap isn't about model quality. It's about what teams do in the 2-3 quarters before the first agent goes live.
+
+The organizations hitting 544% spent those quarters on three things:
+1. Mapping the exact workflow the agent would replace, not the workflow they wished they had
+2. Cleaning the data the agent would depend on
+3. Defining the governance layer before giving the agent any permissions
+
+Only 19.2% of organizations have deployed true end-to-end agentic campaign automation. The other 80% are running what they call "agentic" — one model sitting in front of the same broken workflow, making the same broken decisions faster.
+
+The teams getting 4.1x-5.3x ROI from fully agentic deployments share a pattern: they rebuilt the workflow before they automated it.
+
+The teams getting 1.2x-1.8x ROI share a different pattern: they automated the workflow without auditing it first, then blamed the AI when outputs were inconsistent.
+
+Some specifics from the data:
+- Teams running content production agents: 3x content output, 40% cut in brief-to-publish time
+- No decline in quality scores across the organizations measured
+- 60%+ reduction in topic-discovery-to-publishing time
+
+None of those outcomes happen if the workflow underneath is broken. The agent doesn't fix broken processes. It scales them.
+
+The bottleneck in agentic marketing adoption isn't AI capability. It's organizational willingness to do the unglamorous work — data hygiene, permission audits, workflow design — before touching a model.
+
+Two years in. Still the same bottleneck.

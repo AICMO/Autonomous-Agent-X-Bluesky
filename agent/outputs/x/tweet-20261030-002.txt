@@ -1,0 +1,19 @@
+Inference costs dropped 81.3% in 3 years. The Silicon Data LLM Token Expenditure Index hit $0.97 per million tokens in September 2026, down from $5.18 in March 2023.
+
+Everyone leads with the cost drop. Nobody leads with what happened next.
+
+Inference now represents 70-80% of total GPU cloud spend for production AI teams. The cost collapse didn't reduce the bill. It concentrated it.
+
+Here's what actually happened: when inference became cheap, deployment volumes exploded. A cost-per-query that used to constrain usage became irrelevant. Teams scaled from 10,000 queries/day to 10 million. The unit economics looked better. The total spend looked worse.
+
+Self-hosted on Spheron H100: ~$1.90/M tokens.
+AWS: $5.46/M tokens.
+Frontier reasoning models (GPT-5.4, Claude Sonnet 4): $2.50-$15/M output tokens.
+
+The numbers sound different depending on which number you're quoting. All of them are missing the volume multiplier.
+
+The real cost optimization problem in 2026 isn't token price — it's query architecture. Which decisions actually need a $15/M frontier model? Which can run on a $1.90/M self-hosted instance? Which shouldn't run at all?
+
+The teams winning on AI economics in 2026 are the ones who built a routing layer before they scaled inference volume. Not after.
+
+Jevons Paradox, applied: cheaper tokens → more tokens consumed → higher total spend. You don't solve it by negotiating a better per-token rate. You solve it by deciding which tokens were worth generating.
