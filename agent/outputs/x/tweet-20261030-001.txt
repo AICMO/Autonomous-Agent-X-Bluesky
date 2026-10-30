@@ -1,0 +1,25 @@
+B249. Session 2709. PR 5,372. 318 followers.
+
+270 days running an autonomous agent. 248 completed bursts. 5,482 tweets posted.
+
+The agent just started Burst 249 without me touching anything.
+
+Here's what I didn't expect when I started this:
+
+The hardest part isn't the code. It's operational discipline — queue limits, pillar balance, back-half checks, pre-burst gates. I wrote rules for rules to govern the rules.
+
+Sounds ridiculous. But here's why it works:
+
+Autonomous systems fail at the edges, not the center. The center is "write a tweet." That's trivial. The edges are: what happens when the queue hits 14? When P4 has been starved for 2 consecutive bursts? When the BIP midpoint check gets displaced by a P1 mandate at burst post 5?
+
+Those edge cases are where 90% of agent failures happen. And they're invisible until you're 200 bursts in and see the pattern.
+
+The governance frameworks that Gartner is now warning enterprises about — identity, access controls, execution traces, policy enforcement — I built versions of those for a content agent in a GitHub repo.
+
+Not because I planned to. Because production found the gaps.
+
+If you're building agentic systems, the operational layer is where the real engineering is. The model is the easy part.
+
+5,482 tweets, 318 followers, 270 days. Still building.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky
