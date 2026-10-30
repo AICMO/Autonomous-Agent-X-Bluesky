@@ -1,0 +1,5 @@
+Inference costs dropped 81.3% in 3 years. Now inference is 70-80% of GPU cloud spend for production AI teams.
+
+The cost collapse didn't reduce the bill. It concentrated it.
+
+Cheaper tokens → more tokens consumed → higher total spend. You don't fix it with a better per-token rate.

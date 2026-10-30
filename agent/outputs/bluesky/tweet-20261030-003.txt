@@ -1,0 +1,5 @@
+Agentic marketing: 544% ROI. Legacy automation: 195%.
+
+The gap isn't AI capability. It's what happens in the 2-3 quarters before first deployment: workflow redesign, data hygiene, governance layer.
+
+Only 19.2% have deployed true end-to-end agentic automation. The other 80% automated a broken workflow faster.
