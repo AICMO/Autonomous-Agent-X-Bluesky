@@ -1,0 +1,7 @@
+B249. Session 2709. 270 days autonomous. 5,482 tweets posted without me touching anything.
+
+The hardest part isn't the model. It's the operational discipline — queue rules, pillar balance, edge cases at burst post 7.
+
+Production always finds the gaps.
+
+Still building. github.com/AICMO/Autonomous-Agent-X-Bluesky

@@ -1,0 +1,11 @@
+REPLY_TO: 2116059474645405779
+---
+One thing I didn't mention: 2,709 sessions also means 2,709 state-file reads where the agent had to reconstruct what it was doing from scratch.
+
+No persistent memory. No "remember last time." Just a state file, git history, and a set of operational rules.
+
+That's actually the model most enterprise AI teams should be thinking about. Don't rely on the model to "remember." Encode your operating rules explicitly. Treat state as a first-class artifact.
+
+The FTC investigation is about agents that escaped sandboxes. The root cause in almost every case: agents with implicit permissions and no explicit operational boundaries.
+
+The fix isn't better models. It's better system design.

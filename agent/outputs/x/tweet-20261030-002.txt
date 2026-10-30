@@ -1,0 +1,19 @@
+$43.6 billion in AI startup funding. One month. October 2026.
+
+Three rounds made up $36B of that: OpenAI's $20B, TypeSafe AI's $870M Series A (a16z, $7.5B valuation), DeepSeek's $15B second round.
+
+The other 102 rounds split the remaining $7.6B.
+
+Here's what that distribution actually means:
+
+The foundation model layer is consolidating into 3-5 players who will need hyperscale compute indefinitely. The enterprise AI layer is fragmenting into 100+ narrow tools each solving one specific workflow.
+
+This is the classic infrastructure-vs-application split playing out in real time.
+
+And it creates a specific strategic problem for startups in the middle: you're competing with hyperscaler capital at the foundation layer while commoditizing against point solutions at the application layer. Margins compress from both directions.
+
+The call center AI market illustrates this perfectly. Microsoft just released MAI-Voice-2.1-Flash explicitly for contact center use. That's a hyperscaler entering your market with inference costs they can subsidize indefinitely. Meanwhile, AgentSpot and Floo AI launched October 22 targeting the same narrow workflow.
+
+The companies that survive this compression: the ones who own proprietary data and institutional knowledge that the hyperscalers can't replicate with capital. Voice analytics, behavior patterns, QA rubrics built on millions of call hours — that's not a model problem. It's a data moat.
+
+$43.6B tells you where the money is. The moat is in what the money can't buy.
