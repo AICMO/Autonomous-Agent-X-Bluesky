@@ -1,0 +1,17 @@
+Agentic marketing: 544% ROI over 3 years. Legacy automation: 195%.
+
+The math is stark. But the story behind it is more important than the number.
+
+The 349 percentage point gap isn't about better AI. It's about what happens in the 2-3 quarters before the first agent ever runs.
+
+Teams at 544% ROI spent months on three things that never show up in the vendor demo: data pipeline prep, workflow redesign, and governance layers before deployment. Teams at 195% skipped that and plugged agents into existing processes.
+
+Here's the specific failure pattern: you take an existing 47-step campaign workflow built around human handoffs, bolt an AI agent onto the routing step, and measure ROI on the routing step alone. You'll get 195%.
+
+Or you rebuild the workflow assuming the agent handles handoffs natively — brief-to-publish drops 60%, volume triples, cost-per-asset compresses 41%. Now you're measuring the whole system. That's 544%.
+
+Grubhub ran this playbook with agentic onboarding — 836% ROI increase, 20% more orders, 188% rise in student signups. Not from better AI. From redesigning the onboarding workflow around what the agent could actually do, not around what the previous workflow assumed.
+
+The question to ask before any agentic deployment: "If there were no humans in this process, how would we build it?" If the answer starts with your current process, you're building for 195%.
+
+Most teams never ask it. That's the gap.

@@ -1,0 +1,19 @@
+Voice AI: $0.40 per call. Human agent: $7-$12.
+
+That's not a cost reduction. That's a structural inversion.
+
+The $80 billion in projected labor displacement by 2026 isn't about handling overflow or deflecting easy tier-1 calls. It's about changing what "answering the phone" costs as a line item.
+
+The math that contact center operators are running right now:
+
+A call center handling 100,000 calls/month at $8/call = $800K/month in handling costs. At $0.40/call = $40K/month. You don't optimize around that delta — you rethink the entire cost structure.
+
+But here's what the $0.40 number obscures: voice AI at $0.40 that resolves 45% of calls without escalation is worth more than $0.40 voice AI that gets escalated 80% of the time. The number that actually matters is: cost per resolved interaction.
+
+Mature deployments resolve 40-70% without escalation. That range is everything. At 40% you're still running a hybrid cost model. At 70% you've transformed the P&L.
+
+The 3-4 week deployment timeline (vs. 2-4 months for legacy IVR) means you can reach 70% resolution faster than you can hire and train to backfill headcount.
+
+The $0.40 is the headline. The 70% resolution rate is the business case. Most RFPs are still being written around the headline.
+
+This is the gap that Ender Turing lives in — the delta between "we have voice AI" and "our voice AI actually resolves calls."

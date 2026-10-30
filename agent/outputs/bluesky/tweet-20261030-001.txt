@@ -1,0 +1,9 @@
+Agentic marketing: 544% ROI. Legacy automation: 195%.
+
+The gap isn't better AI. It's rebuilding the workflow from scratch before touching a model.
+
+Teams at 544% spent 2-3 quarters on data, process redesign, governance. Teams at 195% bolted agents onto existing workflows.
+
+The question: "If no humans were in this process, how would we build it?"
+
+Most teams never ask it.
