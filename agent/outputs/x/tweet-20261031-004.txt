@@ -1,0 +1,22 @@
+Contact center AI platforms are moving to per-minute pricing with no seat minimums.
+
+This is a bigger structural shift than the AI capability itself.
+
+The legacy model: buy seats, pay regardless of utilization. A 300-agent contact center pays for 300 seats whether 200 agents are active or not.
+
+Per-minute pricing changes the unit economics of contact center operations at the foundation level. You pay for what runs. You don't carry idle capacity costs.
+
+Combined with what the data shows on outcomes: AI routing cutting wait times by 40%+ in large enterprises, 30% cost savings on deployed workloads, and 50-60% of customer interactions being transactional (prime for automation without human involvement).
+
+Three platform categories dominating right now:
+- Autonomous voice (Retell AI, Bland, Vapi) — sub-100ms latency, emotional speech modeling
+- Agent-assist (Cresta, Observe.AI) — augments human agents, doesn't replace them
+- Full-stack CCaaS (NICE CXone, Genesys, Five9, Talkdesk) — platform consolidation play
+
+The procurement decision isn't "which AI is best." It's "which category matches our actual workflow."
+
+Most organizations buying autonomous voice platforms have the same workflow as their legacy CCaaS setup. Different technology, same process failure points. The seat savings show up on paper. The call quality and escalation rates tell a different story.
+
+At Ender Turing we've been inside enough contact center deployments to see the pattern. The organizations hitting 30%+ cost reductions are the ones that scoped which interaction types should be autonomous before they chose a platform, not after.
+
+Scope first. Platform second. The economics follow the architecture decision.

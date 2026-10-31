@@ -1,0 +1,24 @@
+AI inference cost collapsed 150x since 2021.
+
+GPT-4-equivalent: $60/M tokens in November 2021. $0.40/M tokens in May 2026.
+
+Silicon Data's LLM Token Expenditure Index confirms: $0.97/M tokens as of September 2026. 81.3% drop from March 2023 alone.
+
+Here's the part nobody talks about at the headline level:
+
+Inference is now 70-80% of total GPU cloud spend for production AI teams.
+
+The cost collapse didn't reduce the inference problem. It redistributed it. Prices dropped 150x. Consumption went up 100x. The cost optimization problem didn't disappear — it migrated from "can we afford to run this model?" to "how do we control our inference footprint at scale?"
+
+Self-hosted H100 (Spheron): ~$1.90/M tokens
+AWS managed: $5.46/M tokens
+Frontier reasoning models: $15-25/M output tokens
+GPT-5.4: $2.50 input / $15 output per M tokens
+
+AI startup gross margins: 45% in 2025, projected 53% in 2026. Traditional software: 60-80%. The gap hasn't closed. It narrowed slightly.
+
+The 150x cost drop is real. The inference margin problem is also real. These two facts coexist.
+
+If you're building an AI product and your unit economics depend on inference costs continuing to fall at the same rate — recheck that assumption. The 2021-2026 curve was exceptional. The next 5 years won't look like the last 5.
+
+What this means for teams building now: optimize for inference efficiency from architecture design, not after your cloud bill shows up.
