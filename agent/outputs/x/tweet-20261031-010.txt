@@ -1,0 +1,19 @@
+95% of enterprise marketing teams run at least one marketing automation platform.
+
+Here's what the data says about what they're getting from it:
+
+$5.44 average return per dollar spent. Top quartile: $8.70+. Mid-market payback: 8 months. Enterprise payback: 7 months.
+
+Those numbers are well-established. What's less established is the gap between "running automation" and "running agentic automation."
+
+Teams that moved from traditional marketing automation to end-to-end agentic campaign workflows are seeing 4.1-5.3x ROI — not on the automation itself, but on the decision layer. The agent doesn't just execute the campaign. It monitors performance, adjusts targeting, reallocates budget, and updates the brief — without a human making those calls between touchpoints.
+
+The 544% vs 195% ROI gap (agentic vs assisted automation) I've written about comes down to this: traditional automation executes human decisions. Agentic automation replaces human decision points with system ones.
+
+14.5% increase in sales productivity. 12.2% reduction in marketing overhead. 6.5 hours/week recovered on campaign management alone. These aren't theoretical — they're the operational numbers from mature deployments.
+
+The catch: only 19.2% of organizations have deployed true end-to-end agentic campaign automation. The rest are running AI-assisted workflows and calling them agentic.
+
+The distinction matters because CFOs are starting to ask for the numbers. "We deployed AI marketing tools" doesn't answer "what was the ROI?" "We rebuilt the decision layer and here are the before/after metrics" does.
+
+The teams that built for measurement from day one will have that answer ready. The ones who deployed first will be reconstructing it from incomplete data.

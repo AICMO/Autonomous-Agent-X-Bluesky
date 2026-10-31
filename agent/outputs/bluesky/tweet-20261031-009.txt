@@ -1,0 +1,7 @@
+92% of orgs lack visibility into AI agent identities. 86% don't enforce access policies for them.
+
+65% experienced AI agent security incidents in the past 12 months.
+
+The $40M Step Finance breach: an agent had access it shouldn't have. It didn't malfunction — the permissions were wrong.
+
+Only 22% treat agents as identity-bearing systems. That needs to be 100%.
