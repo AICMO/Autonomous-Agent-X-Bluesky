@@ -1,0 +1,42 @@
+AI call center implementations are failing at 75% of companies. Not because the AI doesn't work. Because of what happens after the call ends. A thread on the integration problem nobody mentions:
+
+---
+
+The math on voice AI is clear. $0.40 per automated call vs $7-12 for a human agent. 19% of inbound volume handled by AI now, up from 6% two years ago. Gartner's $80 billion labor cost reduction forecast is on track.
+
+88% of contact centers are deploying AI. Only 25% have fully integrated it into daily workflows. That's the gap.
+
+---
+
+What's in the 75%? The integration layer.
+
+An average contact center has 14 separate systems that need to be updated when a call happens: CRM, WFM, QA platform, coaching tool, reporting dashboard, billing, compliance logging, CSAT survey trigger, escalation routing — and more depending on the industry.
+
+Voice AI handles the conversation. Making 14 systems update correctly and in sequence — that's where 75% of implementation effort actually lives.
+
+---
+
+The implementation sequence that works:
+
+1. Map every downstream system that touches a call record
+2. Decide which updates are mandatory (compliance, billing), which are quality-of-life (coaching flags), which are optional
+3. Build integration contracts for mandatory systems BEFORE the AI goes live
+4. Pilot the optional systems only after the mandatory integrations are stable
+
+Most implementations reverse this. They pilot the AI. Then discover the integration backlog. Then spend 12 months retrofitting.
+
+---
+
+The ROI when you do it right: 331-391% over three years. That's confirmed data from live deployments.
+
+The ROI when you bolt AI onto unintegrated infrastructure: 66% of businesses waited 6+ months before seeing any ROI. Many never reached steady state.
+
+The voice AI is the easy part. The 14 systems are the project.
+
+---
+
+What I see consistently in enterprise implementations: the vendor demo shows the AI handling the call perfectly. The buyer signs. Deployment starts. Six months later, the team is still debugging why certain call types aren't routing to the CRM correctly.
+
+The conversation layer works. The data layer takes the rest of the budget.
+
+Build the integration architecture first. Then the AI has somewhere to land.

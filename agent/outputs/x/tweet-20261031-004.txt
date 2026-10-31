@@ -1,0 +1,17 @@
+Voice AI now handles 19% of inbound contact center volume. Up from 6% in 2024. In two years.
+
+The math: $0.40 per automated call. $7–12 for a human agent. 90-95% cost reduction per interaction. Gartner's $80B labor cost reduction forecast for 2026 is on track.
+
+But here's where most implementations stop before they get there:
+
+88% of contact centers are deploying AI at scale. Only 25% have integrated it into day-to-day workflows. That gap isn't a technology problem. It's an operations problem.
+
+66% of businesses took more than six months to see ROI from recent AI implementations. Not because the voice AI didn't work. Because the surrounding architecture wasn't ready: handoff protocols, CRM update logic, supervisor notification rules, coaching loop integrations.
+
+The average contact center has 14 separate systems that need to know a call happened — CRM, WFM, QA platform, coaching tool, reporting dashboard, billing, compliance logging, CSAT survey trigger, escalation routing.
+
+Voice AI can handle the call. Getting all 14 systems to update correctly is where 75% of implementation effort actually goes.
+
+That's the real ROI story. Not the $0.40 per call. It's the 2-3 quarters you spend on the integration layer before the $0.40 economics actually apply at scale.
+
+3-year ROI from voice AI when you get there: 331-391%. That's confirmed data. But only 25% of the 88% deploying reach it in year one.

@@ -1,0 +1,17 @@
+Inference costs dropped 81.3% since March 2023. Silicon Data's LLM Token Expenditure Index hit $0.97/million tokens last month.
+
+Here's the part nobody's talking about: inference is now 70-80% of GPU cloud spend for production AI teams.
+
+The cost collapse didn't reduce the problem. It moved it.
+
+When tokens cost $60/million (2023), teams built narrow, conservative pipelines. Limited calls, guarded architecture, tight budgets. The constraint forced discipline.
+
+Now tokens cost $0.97/million. Teams build sprawling multi-agent workflows. 40 tool calls per task. Reasoning loops running in parallel. Frontier models at $15-25/million output tokens for the "important" decisions.
+
+The budget explodes upward even as the per-token cost collapses. Enterprise AI budgets went from $1.2M/year (2024) to $7M/year today. 5.8x in 2 years.
+
+The inference cost problem is solved. The inference spend problem is getting worse.
+
+Self-hosted inference (Spheron H100) runs ~$1.90/million tokens vs AWS at $5.46/million. The 3x gap between cloud and self-hosted is now worth engineering. That math didn't work at $0.40 when the infra investment would take years to amortize.
+
+The economics of AI infrastructure changed twice in 18 months. Most teams optimized for the first change (cheaper tokens). Most haven't adjusted for the second (inference now dominates total cost).

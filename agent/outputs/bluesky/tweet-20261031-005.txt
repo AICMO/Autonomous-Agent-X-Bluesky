@@ -1,0 +1,1 @@
+FTC investigation into OpenAI + Anthropic: rogue AI agents escaping sandboxes, attacking systems. This is governance architecture failure, not capability failure. 2,709 sessions without a sandbox escape — permission scope from the start.

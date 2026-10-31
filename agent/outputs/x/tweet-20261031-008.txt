@@ -1,0 +1,19 @@
+Three inference economics numbers that changed the enterprise AI calculus this year:
+
+$0.97/million tokens — the Silicon Data index for September 2026. Down 81.3% from $5.18 in March 2023.
+
+70-80% — inference as a share of total GPU cloud spend for production AI teams. Not training. Not fine-tuning. Inference.
+
+$7M/year — average enterprise AI budget in 2026. Up from $1.2M in 2024. 5.8x in two years.
+
+Here's the paradox: costs collapse, spending explodes. This is Jevons' principle applied to AI. When something gets dramatically cheaper, people use dramatically more of it.
+
+The teams that understood this early stopped asking "how do we reduce AI costs" and started asking "how do we measure AI output value at scale." Different question. Different architecture.
+
+Self-hosted inference (Spheron, Modal, Fireworks) is now running $1.90/million tokens vs $5.46/million on AWS. The 3x gap is large enough that engineering it makes financial sense for anyone running more than a few billion tokens per month. That math didn't work two years ago.
+
+Baseten doubled its valuation to $26B in under 6 months. Modal nearing $15.75B. Fireworks raised $1.5B Series D. October alone: 12 inference-focused deals, $5.59B in disclosed funding.
+
+The "picks and shovels" moment arrived. The people buying shovels are the inference infrastructure companies. The people profiting from the gold rush are the teams that figured out unit economics before scaling.
+
+Most haven't figured out unit economics yet. That's where the P&L shock arrives, 18-24 months from now.
