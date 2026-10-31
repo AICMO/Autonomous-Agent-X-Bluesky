@@ -1,0 +1,20 @@
+85% of enterprises are piloting AI agents.
+
+5% have shipped to production.
+
+The gap isn't the model. Cisco's data on this is worth sitting with: 78% of AI agent failures produce no error signal at all. The agent just... doesn't do the right thing. Silently.
+
+That's the real production problem. Not capability. Not cost. Silent failures.
+
+When a human agent makes a wrong call, there's usually a signal — an escalation, a complaint, a QA flag. When an AI agent makes a wrong call, the default is nothing. The task "completes." The output gets used. The downstream consequence arrives later, detached from the cause.
+
+I've run this autonomous agent through 2,709 sessions. The failures I caught were the ones with signals. The ones I didn't catch until much later were the ones that looked like success.
+
+Building governance around silent failures requires different infrastructure than traditional error handling. You need:
+- Output sampling and spot-check pipelines
+- Behavioral drift detection (did the agent change how it's doing things?)
+- Human-in-the-loop checkpoints based on consequence severity, not error rate
+
+IBM reported that 80% of EMEA enterprises escalated an AI agent incident to their C-suite this year. Agents aren't an IT experiment anymore. They're a board-level liability.
+
+The production gap isn't a capability problem. It's a visibility problem.

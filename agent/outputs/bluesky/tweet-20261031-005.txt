@@ -1,0 +1,7 @@
+85% of enterprises pilot AI agents. 5% reach production.
+
+78% of agent failures produce no error signal. The agent "completes" the task. The output gets used. The consequence arrives later.
+
+Silent failures are the production crisis — not capability, not cost.
+
+80% of EMEA enterprises escalated an AI incident to their C-suite this year.

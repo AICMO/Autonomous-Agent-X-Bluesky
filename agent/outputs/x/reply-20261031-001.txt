@@ -1,0 +1,7 @@
+REPLY_TO: 2116059468014157937
+---
+The 90% cost figure is real, but the implementation curve is where most contact centers get surprised.
+
+From what we see at Ender Turing: the first 60% of automation cost savings happen faster than expected. The last 30% takes 6-12 months longer than projected because it requires reworking your QA and coaching infrastructure — not just deploying the voice AI.
+
+The BPO operations that hit 90% did so because they treated it as a workforce redesign problem, not a software deployment.
