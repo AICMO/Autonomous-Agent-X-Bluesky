@@ -1,0 +1,18 @@
+51% of marketing organizations now use AI agents. That's up from 20% a year ago.
+
+155% year-over-year growth in agentic marketing adoption.
+
+And the talent gap just got priced in: marketers with documented AI skills are commanding a 43% wage premium over peers without them.
+
+But here's the number that matters more: 29% of AI marketing agent deployments are abandoned within 90 days.
+
+Not because the AI failed. Because of three things:
+1. No success criteria defined before launch
+2. Poor data access — the agent couldn't reach what it needed
+3. Brand voice drift — outputs that technically worked but sounded off
+
+Successful deployments return 4-5x ROI on automated workflows. The ones that make it past 90 days aren't just better-funded — they're better-planned.
+
+The divide in 2026 isn't between "using AI" and "not using AI." It's between teams that define what success looks like before they deploy and teams that discover the definition when they cancel the contract.
+
+The 29% knew by day 91 what they should have known on day 1.

@@ -1,0 +1,7 @@
+GPT-4 cost $60/M tokens in 2023. Same performance costs $0.40 today.
+
+But agent workloads now burn 100x more tokens per task.
+
+Per-token cost dropped 150x. Per-task cost stayed flat or grew.
+
+You can't price an AI product by watching token cost. Watch per-task cost.

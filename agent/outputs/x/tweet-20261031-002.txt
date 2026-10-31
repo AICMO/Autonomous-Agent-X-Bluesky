@@ -1,0 +1,17 @@
+GPT-4 cost $60 per million output tokens in March 2023.
+
+The same performance costs $0.40 today.
+
+That's a 99.3% price reduction in 3 years.
+
+But here's the part founders keep glossing over: while per-token cost dropped 150x, token consumption in agent workloads went up 100x.
+
+A simple 2024 chatbot used ~500 tokens per interaction. A 2026 autonomous agent burns 50,000-100,000 tokens per task — reasoning chains, tool calls, retries, memory reads.
+
+Net result: you're paying $0.40 instead of $60, but you're buying 200 tokens instead of one. The bill didn't shrink. The usage changed shape.
+
+The founders who built SaaS products around 2024 token economics now face a different equation. Inference is only 30-45% of total agent run cost — down from 70-80% two years ago. The rest is orchestration, storage, and retries.
+
+You can't build a profitable agent product by watching the per-token price. You build it by watching the per-task cost.
+
+Two very different numbers.

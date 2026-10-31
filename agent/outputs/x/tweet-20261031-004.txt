@@ -1,0 +1,17 @@
+Gartner projects $80 billion in contact center labor cost savings in 2026.
+
+One number explains almost all of it: a routine call now costs $0.40 with voice AI.
+
+Eighteen months ago, it cost $7 to $12.
+
+67% of Fortune 500 companies are already running production voice AI systems. This isn't a pilot conversation anymore.
+
+But the more interesting shift is what RingCentral announced this week. RingCX now runs AI and human agents as a single unified workforce — same supervisor view, same metrics, bidirectional handoff with full context preserved.
+
+Not "AI handles simple calls, humans handle complex ones." One blended workforce where the routing decision happens mid-conversation based on what the customer actually needs.
+
+The two-tier model we spent 2024 and 2025 debating is already a product.
+
+For contact center operators: the question was never "will AI replace agents?" It was always "what does the transition look like and who manages it?" The answer is: it looks like a combined workforce dashboard, and you manage it the same way you manage humans — with metrics and accountability.
+
+We've been building toward this at Ender Turing since 2021. The gap between the vision and the commercial reality closed faster than I expected.
