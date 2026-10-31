@@ -1,0 +1,1 @@
+AI inference: 81.3% cost drop but now 70-80% of total GPU spend. Enterprise AI budgets: $1.2M → $7M/year in 2 years. Costs collapse, spending explodes. Jevons principle. The question isn't cost — it's output value measurement.

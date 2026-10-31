@@ -1,0 +1,19 @@
+Agentic marketing: 544% ROI over a 3-year horizon. Legacy marketing automation: 195%.
+
+Same year. Same industry. Same AI tools available.
+
+The delta isn't the AI. It's what happened before the first agent went live.
+
+Teams hitting 544% spent 2-3 quarters on workflow redesign, data architecture cleanup, and governance prep before deploying a single agent. They didn't optimize existing processes — they rebuilt decision logic from scratch.
+
+Teams hitting 195% bolted agents onto existing workflows. Same content calendar. Same approval chain. Same attribution model. Just with an AI doing the execution.
+
+There's a number buried in the same data that explains the gap: only 19.2% of organizations have deployed true end-to-end agentic campaign automation. The rest are running AI-assisted automation and calling it agentic.
+
+The difference matters. AI-assisted: a human still makes the campaign decision. Agentic: the system makes the decision, executes it, measures it, and adjusts without human approval in the loop.
+
+One generates 195% ROI. The other generates 544%.
+
+The other number: teams running content production agents see 3x content output and 40% faster brief-to-publish with no quality decline. That's the operational efficiency.
+
+The ROI is almost never about the AI. It's about whether you were willing to rebuild the workflow it runs in.

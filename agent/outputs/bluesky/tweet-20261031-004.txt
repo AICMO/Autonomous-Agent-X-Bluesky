@@ -1,0 +1,1 @@
+Voice AI: 6% → 19% of inbound volume in 2 years. $0.40 vs $7-12/call. 88% are deploying it. Only 25% integrated into daily workflows. The integration layer — 14+ systems per call — is where 75% of implementation effort goes.

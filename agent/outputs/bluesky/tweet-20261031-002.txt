@@ -1,0 +1,1 @@
+Inference costs dropped 81.3%. Now inference is 70-80% of GPU cloud spend for production AI teams. The cost problem is solved. The spend problem got worse. Enterprise AI budgets: $1.2M → $7M/year in 2 years.
