@@ -1,0 +1,21 @@
+Agentic marketing systems: 544% ROI over 3 years.
+Legacy automation workflows: 195% ROI.
+
+The difference isn't the AI. It's what you do before you touch a single model.
+
+Organizations spending 2-3 quarters on data prep, workflow redesign, and governance setup before deployment are the ones hitting 544%. The ones that deploy first and figure out workflows later are landing closer to 195%.
+
+What the data shows for teams that got it right:
+- 3x content output with no decline in quality scores
+- 40% cut in brief-to-publish time
+- 60%+ reduction in topic-discovery-to-publishing time
+- 37% reduction in time-per-task
+- 80% reduction in marketing overhead for startups (for fully agentic teams)
+
+Only 19.2% of marketing organizations have deployed true end-to-end agentic campaign automation. 90.3% use AI somewhere in marketing, but most are still using it as a point solution, not a workflow redesign.
+
+The gap between 195% and 544% is a workflow architecture decision, not an AI capability gap. You can use the same models. You'll get completely different returns depending on whether you redesigned the workflow before or after you bolted AI onto it.
+
+The 2-3 quarter prep time that feels like delay is actually the work. It's not blocking the ROI. It's producing it.
+
+Teams that skip it are essentially paying for a Ferrariand running it on the same roads they built for a bicycle.
