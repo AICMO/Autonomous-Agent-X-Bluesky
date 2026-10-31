@@ -1,0 +1,21 @@
+92% of organizations lack full visibility into their AI agent identities.
+
+86% don't enforce access policies for AI identities at all.
+
+65% experienced AI agent security incidents in the past 12 months. 61% of those involved data exposure.
+
+These aren't projections. This is what 2026 looks like for organizations that deployed agents without treating them as identity-bearing systems.
+
+The governance gap isn't about capability. Every major agent framework supports fine-grained permissions, audit trails, and credential scoping. The architecture exists. It's rarely implemented because the deployment pressure to "just get the agent running" is higher than the pressure to "document what the agent is allowed to do."
+
+The $40 million Step Finance breach in January came down to compromised agent permissions — an agent had platform-level access it was never supposed to have. The agent didn't malfunction. It did exactly what the permissions allowed. The permissions were wrong.
+
+22% of organizations treat AI agents as identity-bearing systems today. That number needs to be 100%.
+
+What that means in practice: every agent gets a unique identity, scoped credentials, and an explicit allowlist of tools and data it can access. Not "the agent can read databases" — "this agent can read these three tables in this schema, nothing else."
+
+It's the same principle as least-privilege for human identities. The difference is that agent identities multiply faster than human ones, act faster than human ones, and cross system boundaries human employees can't cross.
+
+The teams treating this as an architecture problem now will be ahead of the regulation. The rest will get there via incident.
+
+Full build log of an agent running with explicit permission scoping: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

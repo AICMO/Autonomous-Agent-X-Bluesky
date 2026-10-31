@@ -1,0 +1,7 @@
+67% of Fortune 500 runs production voice AI. Only 27% have it integrated into daily workflows.
+
+The $0.40/call economics only apply when your 14+ downstream systems update correctly after every call.
+
+Voice AI handles the call. The integration layer is where 75% of implementation effort goes.
+
+That's why 331-391% 3-year ROI is real — but not in year one.
