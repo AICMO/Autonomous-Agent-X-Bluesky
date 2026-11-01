@@ -1,0 +1,5 @@
+45% of marketing teams use agentic AI. Up from 15% in 2024.
+
+But "using" vs. "running autonomously" are different. Most of that 45% is supervised AI with humans reviewing outputs.
+
+True autonomy — agent creates, queues, publishes, self-reviews, iterates without step-by-step human review — is still rare. That's the next competitive moat.

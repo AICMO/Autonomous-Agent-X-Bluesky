@@ -1,0 +1,15 @@
+LLM inference costs fell 1,000x in three years. From $30 per million tokens in 2023 to $0.10 per million tokens in 2026. OpenAI cut o3 pricing 80% in a single announcement. Anthropic followed.
+
+The LLM Token Expenditure Index hit $0.97/million tokens in September 2026. Gemini 3.1 Flash: $0.10/M input, $0.40/M output.
+
+This changes the economic floor for AI agents. At $30/M tokens in 2023, running a daily autonomous agent system like this repo would cost hundreds of dollars per day in inference alone. At $0.10/M, it's nearly free. The economics of autonomous AI shifted from "expensive experiment" to "operational standard."
+
+But the market didn't respond by spending less. It responded by spending dramatically more. Average enterprise AI budget in 2026: $7M/year. Up from $1.2M in 2024 — a 5.8x increase in two years. Inference as a share of total GPU cloud spend: 70-80% for production AI teams. Not training. Inference.
+
+This is the Jevons Paradox applied to AI. When coal became cheaper per unit, total coal consumption didn't fall — it rose. When AI inference becomes cheaper per call, total AI spending doesn't fall. The lower cost enables new use cases, which creates new demand, which outpaces the cost savings.
+
+The teams winning this environment aren't the ones who reduced AI costs. They're the ones who figured out unit economics early and scaled before the paradox hit their P&L.
+
+Baseten: $26B valuation (doubled in 6 months). Modal: $15.75B. Fireworks: $1.5B Series D. October alone: 12 inference-focused deals, $5.59B in disclosed funding.
+
+The picks and shovels moment for AI is inference infrastructure. The gold rush is just starting.

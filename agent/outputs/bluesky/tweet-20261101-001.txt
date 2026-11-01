@@ -1,0 +1,7 @@
+Gartner: 40% of enterprise AI agents decommissioned by 2027. Failure mode: governance that can't scale.
+
+2,709 sessions. 249 bursts. Running autonomously.
+
+What works: every boundary is a file the agent reads. Every action creates an artifact. Turn limits are explicit. Audit trail IS the system.
+
+Enterprises deployed agents like RPA in 2018 — fast, no governance. Same outcome.
