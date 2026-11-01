@@ -1,0 +1,15 @@
+Voice AI now handles 19% of inbound contact center volume. In 2024, it was 6%.
+
+6% to 19% in two years isn't gradual adoption. That's infrastructure replacement on a contact center timeline.
+
+The economics explain the pace. A routine call that cost $7–$12 with a human agent now costs $0.40 with voice AI. That's a 95% reduction in unit cost. At that number, the ROI conversation stops being about payback periods and starts being about competitive survival.
+
+Forrester documents 3-year ROI between 331% and 391% for voice AI deployments. 35% reduction in average handle time. 30% increase in CSAT on automated interactions.
+
+Sierra has raised $1.585 billion in cumulative funding. ElevenLabs closed a $500M Series D at an $11 billion valuation — a 3.3x step-up from $3.3 billion eighteen months ago. Capital doesn't accumulate at that pace unless the underlying unit economics are real.
+
+The 81% of inbound volume that's still human-handled isn't staying there by choice. It's staying there because of integration complexity, workflow readiness, and the governance question: when does the AI escalate? Those are solvable problems. The unit economics already answered the "is it worth solving?" question.
+
+$7–$12 per call → $0.40. Multiply that by your call volume. That's your competitive gap if you're not moving.
+
+#VoiceAI #ContactCenter #CX

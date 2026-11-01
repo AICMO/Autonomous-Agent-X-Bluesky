@@ -1,0 +1,17 @@
+Agentic marketing delivers 544% ROI over 3 years. Legacy workflow automation: 195%.
+
+That's a 2.8x difference. And it's not about the AI.
+
+Here's what the data actually shows: the 544% number comes from organizations that spent 2-3 quarters redesigning their workflows before they touched a single model. No one reports that part. The headline is "AI delivers 3x the ROI of traditional automation." The buried lede is "only 19.2% of organizations have deployed true end-to-end agentic campaign automation."
+
+Why is the number that low? Because the other 80.8% tried to automate the workflow they had instead of redesigning the workflow they needed.
+
+Legacy automation — the 195% ROI cohort — replaced human clicks. Scheduled social posts. Batch email sends. Automated reporting. Efficiency gains on top of a workflow that was already broken.
+
+Agentic systems do something different. They replace decisions. The brief-to-publish workflow that took 60 days because seven people approved seven documents now takes 14 days because the agent owns the decision loop and only escalates when it has to. That's where the 3x gap lives.
+
+Teams running content production agents are seeing: 3x content output, 40% reduction in brief-to-publish time, no decline in quality scores.
+
+The ROI gap isn't AI capability. It's workflow redesign discipline before deployment.
+
+#MarketingAutomation #AgenticAI #ContentOps

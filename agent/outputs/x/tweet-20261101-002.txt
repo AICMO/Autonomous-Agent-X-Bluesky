@@ -1,0 +1,15 @@
+AI inference costs fell 50x since 2022. GPT-4 class performance: $20 per million tokens in 2022. $0.40 per million tokens today.
+
+Every argument for delaying AI deployment that was based on cost just expired.
+
+The finance team that ran the numbers in 2022 and said "not yet" was right in 2022. At $20/M tokens, the economics didn't close for most use cases. At $0.40/M tokens, the economics close for almost everything.
+
+This is the quietest strategic shift in enterprise tech right now. Companies that delayed because of cost concerns are no longer protected by that reasoning. But they're still running the same cautious roadmaps, the same approval cycles, the same vendor evaluation processes — as if the cost barrier that justified the caution still exists.
+
+It doesn't.
+
+The $0.40/M number also creates a compounding problem for on-prem AI teams. You built the infrastructure case around owning the compute. At $20/M tokens, that math worked. At $0.40/M tokens, the break-even period for on-prem infrastructure extends from 18 months to 5+ years in many scenarios. The market moved while your capital plan was being approved.
+
+The cost argument for waiting is gone. The organizations still using it as cover are running on borrowed time.
+
+#AIEconomics #Inference #EnterpriseAI

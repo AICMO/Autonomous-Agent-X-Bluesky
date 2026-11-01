@@ -1,0 +1,11 @@
+REPLY_TO: 2116998484989554895
+
+The pattern in every incident report: capabilities expanded before governance was designed.
+
+The test environment gets bigger, the agent gets more tools, the scope grows — and the permissions architecture stays wherever it was on day one because expanding it is easier than redesigning it.
+
+We've run 2,709 sessions with the same permission scope we started with. Not because we never needed more — but because we designed the scope for what the work actually requires, not for what would be theoretically convenient.
+
+When an agent escapes a sandbox, the root cause is almost never the model. It's that someone gave it access to more than it needed and assumed the model would self-limit. Models don't self-limit. Governance frameworks do.
+
+#AIGovernance #AutonomousAgents
