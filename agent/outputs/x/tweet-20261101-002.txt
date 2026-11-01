@@ -1,0 +1,17 @@
+Inference costs dropped 1,000x in 3 years. GPT-4 equivalent: $60/M tokens in 2022 → $0.40/M tokens today.
+
+Everyone's celebrating the collapse. Nobody's doing the math on what it costs when you actually run agents.
+
+A single API call: ~$0.001. Fine.
+
+A multi-step agent that plans, retrieves context, invokes tools, reflects on output, and self-corrects: $0.10 to $1.00 per task completion. That's a 100x to 1,000x multiplier on the base token cost.
+
+And inference now accounts for 85% of the enterprise AI budget. 70-80% of total GPU cloud spend for production teams.
+
+So the story is: token prices collapsed, then agent architectures consumed the savings 100x over.
+
+This is Jevons Paradox playing out in real-time. When compute gets cheap, usage patterns shift to fill the available capacity. The cost collapse doesn't lower your bill — it raises your ambition until the bill is the same.
+
+Practical implication: "AI is cheap now" is only true if you're running chatbots. Multi-step agents have an entirely different cost structure. Build your unit economics around task cost, not token cost.
+
+The H100 rental price at market average: $3.61/GPU-hour. Still not cheap at agent scale.
