@@ -1,0 +1,22 @@
+Agentic marketing systems: 544% ROI over 3 years.
+Legacy automation: 195% ROI.
+
+That 349-point gap has one root cause. It's not the model. It's not the budget. It's workflow redesign discipline before you deploy anything.
+
+Organizations spending 2-3 quarters on data prep, workflow mapping, and governance before their first agent goes live are getting 4.1x-5.3x ROI on the workflows they automate.
+
+Organizations skipping that prep phase are in the 195% bucket.
+
+The median payback is 6.7 months for marketing operations — with vendor-deployed agents reaching positive ROI 2.4x faster than custom builds. That speed advantage disappears if you deploy into a broken workflow.
+
+What the 544% group does differently:
+- Maps current workflow before touching AI
+- Identifies exactly which decisions the agent will own
+- Builds measurement before deployment (otherwise you're guessing ROI)
+- Runs parallel for 30 days before full handover
+
+The uncomfortable reality: only 19.2% of organizations have deployed true end-to-end agentic campaign automation. The rest are running "AI-assisted" workflows that look like agent deployments but require human judgment at every decision node.
+
+That's not agentic. That's expensive copilot.
+
+Full autonomy requires full workflow redesign first. Most teams aren't willing to do that work. The 544% ROI is the reward for those who are.
