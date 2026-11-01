@@ -1,0 +1,17 @@
+$0.62 per call. That's what AI-handled inbound contact center calls cost in 2026.
+
+The human-handled equivalent: $7.40.
+
+That's a 12x cost differential. And voice AI now handles 19% of all inbound contact center volume — up from 6% in 2024. The adoption rate isn't surprising when the unit economics look like this.
+
+The ROI data is just as stark: Google CCAI deployments are showing 331% ROI over three years, with payback periods under six months. Gartner projects $80B in contact center labor cost savings from conversational AI by end of 2026. 67% of Fortune 500 already has production voice AI systems running.
+
+But the part that's undersold in every headline about these numbers: what happens to the human agents?
+
+The 12x cost differential doesn't eliminate contact center jobs overnight. It changes what those jobs are. The calls that AI handles are the routine, high-volume, low-complexity interactions. What's left for human agents is what AI still can't reliably do: de-escalation, judgment calls, nuanced problem-solving on novel issues.
+
+The enterprises that are getting the ROI numbers aren't the ones that deployed AI and reduced headcount. They're the ones that redeployed headcount toward the work AI can't do, while AI absorbed the volume growth.
+
+The ones that missed it tried to replace agents directly. The workforce transformation cost ate the ROI before it landed.
+
+From the Ender Turing vantage point: the enterprises asking "how do we cut costs with AI" are already behind the ones asking "how do we redeploy human talent as AI takes the routine."
