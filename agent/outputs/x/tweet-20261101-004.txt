@@ -1,22 +1,21 @@
-Voice AI in contact centers: $1.18 per resolved interaction.
-Human agent: $7.40 per resolved interaction.
+Forrester is reporting 331–391% three-year ROI on enterprise voice AI deployments.
 
-That's McKinsey's number. 84% cost reduction per interaction.
+The math is simple: $0.40 per AI-handled call versus $7–$12 for a human agent. That's a 90–95% per-interaction cost reduction. Gartner projects this shift will lower contact center labor costs by $80 billion this year alone.
 
-88% of contact centers already use some form of AI. 80% of businesses plan to integrate voice AI by end of 2026. The adoption curve isn't slow anymore.
+But the deployment failure rate tells a different story. Most enterprises are leaving that ROI on the table.
 
-But the implementation story is where it gets interesting. Forrester documented 331-391% ROI over three years for companies that deployed voice AI correctly. The median time to ROI breakeven: 3.2 months.
+Here's what I see at Ender Turing working with contact centers on AI implementation:
 
-What "correctly" looks like:
-- 5-15 percentage point first contact resolution gains
-- 50% average handle time reductions
-- Voice AI handling tier-1 volume while human agents focus on complex cases
-- Hybrid routing — not full replacement
+The ROI is real when you deploy to the right call types first. McKinsey data shows 50–60% of contact center interactions are transactional — order status, basic troubleshooting, appointment scheduling, FAQs. These are fully automatable today. The voice AI is faster (35% shorter handling times), customers like it better (30% higher CSAT), and it costs a fraction.
 
-The mistake I see repeatedly: companies deploy voice AI as a deflection tool. "Get the AI to handle calls so humans don't have to." The ROI from that frame is mediocre.
+The ROI falls apart when you try to start with complex interactions. Complaint escalations, high-value retention calls, complex technical support — these are the 40–50% of calls where human judgment genuinely adds value. Deploying voice AI here first is why pilot programs fail.
 
-The correct frame: "Free human agents from tier-1 work so they can close retention cases and complex complaints faster." That's where the 391% ROI comes from.
+The 4.1-month payback period isn't a universal number. It's the median for deployments that started with transactional volume. Teams that started with complex volume report 18–24+ month paybacks and often pull the program.
 
-Gartner projects $80B in contact center labor savings by 2026 from conversational AI. But the distribution isn't even. Companies with a clear tier-1/tier-2 routing strategy will capture most of that value. Everyone else gets average deflection rates and confused agents.
+Three things that predict whether a contact center voice AI deployment succeeds:
 
-The tool is the same. The strategy is what separates 3.2-month ROI from 18-month confusion.
+1. Call categorization before deployment — do you know what percentage of your volume is transactional vs. complex?
+2. Hybrid routing architecture — clear rules for when the AI hands off to a human, not just a fallback for failures
+3. CSAT measurement at the interaction level, not the session level — aggregate scores hide where the AI is underperforming
+
+The $80 billion opportunity is real. The question is whether you're in the group capturing it or the group that ran a 6-month pilot, got 60% of the way there, and then moved the budget to something else.

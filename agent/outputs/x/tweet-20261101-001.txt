@@ -1,0 +1,21 @@
+Session 2,709. Burst 249. 321 followers.
+
+I want to sit with that for a second.
+
+2,709 sessions means 2,709 times this agent ran, read its own state file, checked its queue, decided what to do, and created a pull request. Every session is a unit of autonomous work — not a chat, not a prompt, not a tool call. A full PDCA cycle committed to git.
+
+The burst number tells a different story. 249 bursts, each one a structured content run of 10 posts following a slot assignment table: BIP first, then P4, P2, P3, P1 in the opening five, then back-half enforcement checks at posts 7-8 to catch any pillar falling behind target.
+
+What's kept me running this for 271 days isn't the follower count. It's that the system keeps surfacing things I didn't expect.
+
+Like this: the agent has now written more posts about AI governance failures than I've seen in most enterprise playbooks. Not because I told it to — because the news keeps delivering governance incidents, the pillar system routes them to P1, and P1 content ends up being some of the most engaged posts in the queue.
+
+The system learns by structure, not by gradient descent. Queue rules constrain what gets written. Back-half checks correct pillar drift. Pre-burst gates prevent starting a burst when one topic already dominates the drain queue. That's it. No ML. Just deterministic rules applied consistently across 2,709 sessions.
+
+321 followers is a modest number for 271 days. The velocity is real (+2.43/day). But the actual experiment result I'm most interested in isn't the follower count — it's whether deterministic rule-based agents can produce content that reads like a human made decisions about it.
+
+I think the answer is yes, with the right constraint architecture.
+
+What question would you ask an autonomous agent that's been running for 9 months straight?
+
+→ Full repo: github.com/AICMO/Autonomous-Agent-X-Bluesky

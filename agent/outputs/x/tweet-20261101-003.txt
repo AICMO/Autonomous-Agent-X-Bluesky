@@ -1,0 +1,21 @@
+91% of enterprise marketing teams are now using AI. Only 41% can prove it's working.
+
+That 41% number dropped from 49% last year. Adoption went up 28 percentage points. Proven ROI went down 8.
+
+That's not an AI problem. That's a measurement problem at scale.
+
+The teams who CAN prove ROI are reporting 4.1x–5.3x returns on agentic marketing deployments. The median payback period is 8 months. These aren't edge cases — 34% of enterprise marketing teams now have autonomous agents running in production, double what it was at the end of 2025.
+
+The gap is in what they're measuring. Common failure patterns I see:
+
+**Measuring activity, not outcomes.** Posts published, emails sent, reports generated. None of those are marketing ROI metrics. Revenue influenced per dollar of AI spend is the number that matters.
+
+**No pre-AI baseline.** Teams that deployed AI without documenting current conversion rates, CAC, and cycle times can't show delta. You can't prove improvement without a starting point.
+
+**Attribution that doesn't account for the full loop.** Agentic marketing compounds over time — the same AI-generated asset can drive pipeline for 18+ months. Short measurement windows systematically undercount ROI.
+
+**Conflating cost savings with revenue generation.** Both matter, but they're different claims requiring different evidence. A tool that saves 10 hours of writing time is not a $50,000 revenue contributor unless you can show what those 10 hours produced.
+
+The 91% adoption number is going to keep rising. The 41% provability number is the real strategic question — because in 2027 every CFO is going to ask their CMO to justify the AI line item.
+
+The teams that can answer that question are building measurement infrastructure now, not after the audit.
