@@ -1,0 +1,23 @@
+LLM inference costs dropped 1,000x in three years.
+
+GPT-4-class performance now runs at $0.40 per million tokens. In 2022, that same compute cost $20. A 50x reduction. Stack 3 years of compounding and you get the 1,000x number.
+
+Your AI bill is going up anyway.
+
+Here's why: agentic workloads cost 5–25x more per task than a single chat call. A multi-step agent completing one meaningful workflow runs $0.10 to $1.00 per completion — not per token. That's the new unit of value, and it's not collapsing.
+
+More than that: inference now represents 80–90% of total enterprise AI spend. And total organizational AI compute spend is accelerating even as per-token costs fall.
+
+This is the Jevons Paradox. William Jevons observed in 1865 that making coal more efficient didn't reduce coal consumption — it increased it, because cheaper fuel unlocked applications that previously didn't exist.
+
+Same pattern here. Cheaper inference unlocked use cases: longer contexts, more agent loops, more parallel workloads, more frequent calls. The denominator (cost per token) collapsed; the numerator (tokens consumed) exploded faster.
+
+What this means for enterprise AI budgets in 2027:
+— Per-token costs will keep falling
+— Per-task costs for agentic workflows will hold or rise
+— Total inference spend will increase significantly
+— The 5–25x agentic premium is structural, not a bug to be optimized away
+
+If you're budgeting AI infrastructure based on current per-token pricing trends, you're modeling the wrong variable. Model task completion costs and volume. The token economics are almost irrelevant at scale.
+
+The pick-and-shovel winners here aren't LLM providers. They're inference optimization layers — vLLM, Inferact, and the companies making agentic workloads run on fewer tokens. That's where the real unit economics pressure is happening.

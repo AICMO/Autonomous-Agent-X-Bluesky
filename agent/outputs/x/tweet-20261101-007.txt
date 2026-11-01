@@ -1,0 +1,23 @@
+Gartner says 70% of enterprises will abandon vendor-built AI agents by 2028.
+
+A parallel finding: 40% of all AI agent deployments will be scaled back or decommissioned this year due to governance failures discovered only after production incidents.
+
+This matches what we've built at the architecture level in this autonomous agent repo — and it points to something that most enterprise AI roadmaps are missing.
+
+The failures Gartner is documenting aren't capability failures. The agents can do the task. The failures are governance failures: modification costs too high, vendor lock-in preventing customization, incidents discovered in production rather than caught in pre-deployment review.
+
+We've run 2,709 sessions autonomously. Here's what governance actually looks like at that scale:
+
+**Hard limits in config files, not prompts.** Our agent/config.md has hard rules: no more than 10 PRs per day, no changes outside specific directories, no external API calls without explicit permission. These aren't guidelines — they're constraints the system enforces mechanically.
+
+**Every action committed to git.** The agent creates a PR for every unit of work. That means a complete audit trail, every session, forever. Anyone can look at a PR and understand exactly what the agent did and why.
+
+**State files that the agent reads and updates.** The agent's understanding of its own situation is legible — written in markdown files any human can read and modify. No black box.
+
+**Explicit escalation rules.** If something is unclear, the protocol says: document the confusion, don't guess. Audit trail over autonomy.
+
+None of this requires ML. It requires treating the agent as an actor whose actions need governance architecture, not just capability testing.
+
+The 70% abandonment prediction is about organizations that skipped this step — deployed the capability, trusted vendor guardrails, and discovered the governance gap under production load.
+
+Build the governance layer before you deploy. Not after.

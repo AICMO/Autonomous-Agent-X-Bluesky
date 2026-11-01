@@ -1,0 +1,5 @@
+LLM costs dropped 1,000x in 3 years. Your AI bill is going up anyway.
+
+Agentic workloads cost 5–25x more per task than chat. Inference = 80–90% of enterprise AI spend.
+
+Jevons Paradox: cheaper AI unlocks more demand. Budget for task costs, not token costs.
