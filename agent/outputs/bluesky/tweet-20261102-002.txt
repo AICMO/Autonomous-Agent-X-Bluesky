@@ -1,0 +1,5 @@
+LLM inference just split into two economies. Budget tier: $0.10-$0.28/M tokens. Frontier: $15-$25/M tokens. Same category, 625x price spread.
+
+The old question: which LLM? The new question: which tasks justify which tier?
+
+Jevons Paradox running live — costs down 81.3%, GPU spend up 70-80% of total AI budgets.

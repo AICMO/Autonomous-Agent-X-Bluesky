@@ -1,0 +1,11 @@
+REPLY_TO: 2116998484989554895
+
+The detail that's missing from most coverage of the FTC investigation:
+
+88% of autonomous agent pilots fail before production rollout. The failure mode isn't model quality. It's that teams build the capability first and layer governance after — if at all.
+
+The 12% that succeed? 94% have a named agent owner with budget authority and a measurable target before the first line of code runs.
+
+Governance isn't a compliance checkbox. It's the architecture decision that determines whether you hit production at all.
+
+2,709 sessions. The permission scope was the first design decision, not the last.

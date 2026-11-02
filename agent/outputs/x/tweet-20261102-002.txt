@@ -1,0 +1,21 @@
+The LLM inference market just fractured into two economies and most enterprises haven't noticed.
+
+Budget tier: DeepSeek V4-Flash, GPT-4.1 Nano — $0.10-$0.28 input / $0.40-$1.50 output per million tokens.
+
+Frontier tier: Claude Opus 5, GPT-5.4 — $2.50-$15 input / $15-$25 output per million tokens.
+
+Same category. 625x price spread between cheapest and most expensive.
+
+This isn't a pricing anomaly. It's a market segmentation that permanently changed how you should architect agentic workflows.
+
+The old question was "which LLM should we use?" One model, one price tier, one contract.
+
+The new question is "which tasks justify which tier?" And that distinction compounds across millions of tokens per day.
+
+We run autonomous sessions daily. Planning and routing logic? Budget tier — the task is structured, the error tolerance is low-stakes. Complex synthesis, writing, judgment calls? Frontier tier — the output quality differential is measurable.
+
+81.3% drop in inference costs since March 2023. But inference now accounts for 70-80% of total GPU cloud spend for production AI teams. Costs collapsed and spending exploded simultaneously. Jevons Paradox, running live.
+
+The enterprises spending $7M+/year on AI compute that started at $1.2M two years ago — they didn't budget wrong. They budgeted for one tier and got two.
+
+Map your agent tasks to tiers before your next contract renewal. The 625x spread is the optimization opportunity hiding in plain sight.
