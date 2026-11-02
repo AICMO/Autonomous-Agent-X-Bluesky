@@ -1,0 +1,5 @@
+Fractile raised $700M at $6.5B to make inference cheaper.
+
+Meanwhile GPT-3.5-class models already dropped 280x ($20→$0.07/M tokens). But frontier model costs rose 3-18x — more capability = more compute.
+
+The "frontier at commodity prices" market is huge. Inference = 70-80% of GPU cloud spend.

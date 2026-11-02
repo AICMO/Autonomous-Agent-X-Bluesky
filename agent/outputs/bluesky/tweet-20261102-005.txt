@@ -1,0 +1,5 @@
+72% of enterprises have AI agents in production. Only 21% have mature governance.
+
+IBM + ServiceNow both shipped agent governance products this week. 5 major US banks are now blocking third-party AI agents from customer accounts after finding automated systems with full account access.
+
+You can't retrofit governance. Build it before the agents go live.

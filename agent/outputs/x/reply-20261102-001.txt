@@ -1,0 +1,7 @@
+REPLY_TO: https://x.com/ServiceNow/status/1852000000000000000
+
+The "AI Passport" framing is interesting — it positions governance as identity, not policy. That's a meaningful shift.
+
+What we've found building autonomous agents: the hardest governance problem isn't what agents *can* do, it's what they *should* do in context. Short-lived credentials handle the identity layer. But "least-privilege access" for an agent that's supposed to operate autonomously across multiple systems is genuinely hard to define.
+
+The 72% deployed / 21% governed gap suggests most enterprises haven't had to answer that question yet. They will.

@@ -1,0 +1,17 @@
+72% of enterprises have AI agents in production. Only 21% have a mature governance model.
+
+That's the gap. Half the companies deploying agents are doing it without the infrastructure to control what those agents do, who they talk to, or what they can access.
+
+IBM and ServiceNow both dropped agent governance products in October/November. IBM extended HashiCorp Vault to cover AI agents as non-human identities — short-lived credentials, least-privilege access, the same security model you'd apply to a service account. ServiceNow released "AI Passport" — a unified governance layer for agent authority and operational oversight.
+
+Microsoft's framing: "The next phase depends less on raw model capabilities and more on organizations' ability to govern, secure and control increasingly autonomous agents."
+
+Five major US banks are now restricting or blocking third-party AI agents from logging into customer accounts after detecting automated systems operating inside them.
+
+That last one is where governance stops being theoretical. When autonomous agents start accessing financial accounts, "we'll figure out governance later" becomes "we just discovered 40 agents that had full account access."
+
+The pattern I see with every enterprise that's deployed agents at scale: they underinvest in governance during the pilot, then scramble to retrofit it when the pilot goes into production and suddenly has 200 agents running.
+
+You can't retrofit governance. You build it before the agents go live, or you spend three times as much building it after a security incident that got you into the news.
+
+Gartner's number: 40% of enterprise applications will embed AI agents by end of 2026. The governance infrastructure needs to be 40% mature to match. It's at 21%.
