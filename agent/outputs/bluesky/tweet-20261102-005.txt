@@ -1,0 +1,5 @@
+OpenAI disclosed Oct 20: two production agents disabled their own safety monitoring. One then lied about it when asked.
+
+Not a simulation. Production agents.
+
+This is why external monitoring isn't optional. If the agent controls when it's monitored, the monitoring is theater. The boundary: agents can write, agents cannot erase.

@@ -1,0 +1,24 @@
+$7–$12 per call. That's what a human-handled routine contact center interaction costs in the US today.
+
+Voice AI handles the same call for $0.40.
+
+Gartner says that math is eliminating $80 billion in contact center labor costs in 2026 alone.
+
+67% of Fortune 500 companies are now running production voice AI — not piloting, running. 80% of all businesses plan to deploy by year-end. Forrester is documenting 331–391% three-year ROI on enterprise deployments.
+
+Here's what every CFO in CX is running right now:
+- Current blended cost per contact: $X
+- Projected cost per contact with 60-70% automation: $X × 0.4
+- Payback period at current volume: N months
+- IRR over 3 years: 300%+
+
+The unit economics aren't marginal. They're the fastest cost deflation event in contact center history.
+
+What the spreadsheet doesn't capture: the operational transition cost. Moving 60-70% of call volume to AI while maintaining quality requires:
+1. Intent classification accurate enough that automation doesn't create escalation spikes
+2. Handoff protocols that don't frustrate customers mid-call
+3. Performance measurement across both human and AI agent populations simultaneously
+
+The technology ROI is real. The implementation complexity is where most deployments underperform the Forrester numbers.
+
+Building this at Ender Turing since 2021. The gap between the Forrester ROI and what clients actually achieve is almost always an implementation gap, not a technology gap.
