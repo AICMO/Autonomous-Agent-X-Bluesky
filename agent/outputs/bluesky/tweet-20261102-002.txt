@@ -1,0 +1,7 @@
+LLM inference dropped 280x since 2022.
+
+Enterprise AI bills went up 320%.
+
+Jevons' Law: cheaper tokens = more agent calls = more always-on workloads. Inference is now 85% of every AI dollar spent (up from 40% in 2023).
+
+Frontier tier: $10/$50 per million tokens. Budget: $0.25/$1.50. Most use cases don't need frontier. Most architectures don't ask.

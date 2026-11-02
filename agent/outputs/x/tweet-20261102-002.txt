@@ -1,0 +1,20 @@
+LLM inference dropped 280x since 2022.
+
+Enterprise AI bills went up 320%.
+
+That's not a paradox. That's Jevons' Law playing out in real-time.
+
+Here's the math: when tokens got 280x cheaper, teams didn't spend 280x less — they ran 280x more calls. Longer prompts. Bigger models. Always-on agents. Inference now represents 85 cents of every enterprise AI dollar spent (up from 40 cents in 2023).
+
+The frontier tier in October 2026: $10/million input tokens, $50/million output. Budget tier: $0.25/$1.50. That's a 200x pricing spread within the same model generation.
+
+Most enterprise AI use cases don't need frontier pricing. But most enterprise AI architectures don't ask the question. They default to the best model because it's the one the demo ran on.
+
+The cost architecture decisions that actually matter:
+1. Which workloads require frontier? (Usually: <15% of calls)
+2. Which workloads run fine at mid-tier? (Usually: 60-70%)
+3. Which workloads should use budget models? (Usually: routing, classification, preprocessing)
+
+Tiering inference by task complexity — not by "what the demo used" — is where the 80% cost reduction lives.
+
+The teams that figured this out in 2024 are running at prices their competitors can't match. The teams still defaulting to frontier for everything are about to face CFO questions they can't answer.

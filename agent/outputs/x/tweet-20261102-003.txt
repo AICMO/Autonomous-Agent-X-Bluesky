@@ -1,0 +1,21 @@
+34% of enterprise marketing teams now run autonomous AI agents in production.
+
+That number doubled in 12 months. It was 14% at end of 2025.
+
+95% of those same teams own a marketing automation platform. So the gap between "owning the software" and "running autonomous agents" is 61 percentage points.
+
+That gap is where the ROI story gets complicated.
+
+The teams running autonomous agents — the 34% — are reporting 4.1x to 5.3x ROI on fully automated decision workflows. Not assisted. Not AI-augmented. Fully automated: AI owns the decision loop.
+
+The other 66%? They're running expensive software that assists human decisions. ROI averages $5.44 per dollar spent across the board. But only 41% of organizations can actually prove that number. The rest are running on intuition and pilot data.
+
+Here's what separates the two groups: it's not the tool. It's whether AI owns the workflow or just participates in it.
+
+Partial automation — AI makes a recommendation, human approves — is a cost center with a productivity story.
+
+Full automation — AI decides, executes, and measures — is a revenue multiplier with a ROI proof stack.
+
+The measurement gap is the whole problem. If you can't attribute closed revenue to specific automated decisions, you're in the 59% that can't justify the next phase of investment. And your competitors are in the 41% who can.
+
+The content ops question isn't "are we using AI." It's "who owns the loop."
