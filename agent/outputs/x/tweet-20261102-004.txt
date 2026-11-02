@@ -1,0 +1,15 @@
+TELUS deployed voice AI to proactively call newly activated home internet customers in their first 90 days.
+
+Result: customers who received that proactive welcome call were less than half as likely to cancel within 30 days.
+
+Not reactive support. Not deflection. Proactive outreach at scale — an AI calling customers before they have a problem.
+
+This is the Gartner $80 billion story playing out at the campaign level. Gartner forecasts conversational AI will eliminate $80 billion in contact center labor costs in 2026 alone. The mechanism isn't just cost cutting on inbound volume — it's shifting contact centers from cost centers to churn prevention engines.
+
+Voice AI costs $0.40 per call vs. $7-$12 for a human agent. That math enables conversations that were previously economically impossible. No contact center can afford to call every new customer proactively at $7-$12 per call. At $0.40, it becomes routine.
+
+The ROI framing shifts entirely: you're not measuring cost reduction anymore. You're measuring revenue retained from customers who would have churned.
+
+Forrester documents 331-391% ROI over three years for voice AI deployments. That's not from handling more inbound tickets faster. That's from conversations the contact center wasn't having before.
+
+What we see at Ender Turing: the customers getting outsized ROI from voice AI are the ones who restructured their conversation strategy around what the technology makes economically feasible — not the ones who dropped it into the existing workflow and measured call deflection.

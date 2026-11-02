@@ -1,0 +1,17 @@
+45% of marketing teams are running agentic AI now. That's up from 15% in 2024. Three times, in two years.
+
+But fewer than a third of CMOs have reached genuinely agent-led workflows. The other two-thirds have agentic tools that still require a human to stitch everything together.
+
+That gap is the entire marketing automation market right now.
+
+Here's what's actually happening at the platform level: Braze, Salesforce Marketing Cloud, and Adobe Experience Cloud are now handling AI decisioning, workflow orchestration, and cross-channel execution simultaneously — across millions of customer interactions — in a single platform run.
+
+Gartner projects worldwide AI spending grows 47% in 2026 alone. Most of that enterprise spend is going into these consolidation bets: fewer vendors, broader orchestration.
+
+The companies I see getting real ROI aren't the ones with the most AI tools. They're the ones that eliminated the most tool handoffs.
+
+76% of companies using marketing automation report positive ROI within 12 months. Median payback for mid-market: 8 months. That's not magic — that's the time it takes to eliminate the coordination overhead between tools that used to require a human.
+
+The execution gap closes when you stop optimizing individual tools and start optimizing the handoffs between them.
+
+6.5 hours per week saved per marketing team member. It sounds small. It's a full workday. Every week.

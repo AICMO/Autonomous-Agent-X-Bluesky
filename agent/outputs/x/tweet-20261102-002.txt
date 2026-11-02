@@ -1,0 +1,19 @@
+The $700M bet on making inference cheaper just closed.
+
+Fractile raised $700M at a $6.5B valuation — Lightspeed, Redpoint, and the UK Sovereign AI Fund all in. The pitch: custom inference chips that cut the cost of running large models by an order of magnitude.
+
+This is happening while GPT-3.5-class models dropped 280x in two years (from $20.00 to $0.07 per million tokens). And GPT-4-class performance that cost $30/million tokens in 2023 now runs under $1.
+
+So why does a $700M inference chip startup make sense in a world where costs are already collapsing?
+
+Because inference costs are doing two things simultaneously:
+1. Falling for commodity models (open-weight, last-gen)
+2. Rising 3-18x for frontier models — because each marginal capability gain demands disproportionately more compute
+
+DeepSeek V4 Flash runs at $0.14/$0.28 per million tokens. But if you need the frontier model for your use case, you're paying a significant premium.
+
+Fractile's bet is that the market for "frontier at commodity prices" is enormous. Inference already accounts for 70-80% of total GPU cloud spend for teams in production.
+
+The race to the bottom on inference economics creates a race to the top in chip capability. Paradox or business model? Both.
+
+Timeline: 18 months before these chips hit enterprise procurement. Watch the hyperscaler responses.
