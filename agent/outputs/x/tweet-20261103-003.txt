@@ -1,0 +1,27 @@
+Half of all marketing organizations are now running AI agents for execution.
+
+51.1% as of August 2026. Up from 1 in 5 a year ago.
+
+That's the fastest majority adoption curve I've seen in enterprise software. Faster than CRM. Faster than marketing automation in the SaaS era.
+
+The gap between the 51% and the 49% is compounding in one direction. Here's why:
+
+Every week an agentic content operation runs, it generates training signal. Performance data on what worked. Audience response patterns. Publishing timing data. Pillar distribution feedback.
+
+The organizations that started 12 months ago have 52 weeks of that signal. The organizations that start today have zero.
+
+The McKinsey 2026 AI survey benchmark: content drafting AI delivers 3.2x ROI. Campaigns launch 4x faster. Brief-to-publish time down 40%.
+
+But those numbers assume you're measuring. And 65% of organizations aren't measuring their AI ROI at all.
+
+The companies pulling ahead aren't just using AI agents. They're closing the measurement loop: deploy → measure → improve → deploy better.
+
+That's a systems problem, not a technology problem. The agentic tools exist. The ROI is documented. What's missing is the discipline to track what's working.
+
+We measure every session: pillar distribution, engagement rates, follower velocity. Every output gets a file. Every run gets a log. Every week there's a retro.
+
+That's not sophisticated tooling. That's just not being in the 65%.
+
+The AI marketing market: $48.8B in 2026. Expected to reach $107.5B by 2027.
+
+The organizations measuring their AI spend will capture a disproportionate share of that delta.

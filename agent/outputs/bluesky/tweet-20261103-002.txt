@@ -1,0 +1,7 @@
+GPT-4 performance: $0.40 per million tokens. Was $20 in 2022. 50x cost drop in 4 years.
+
+Every AI business case built on 2024 pricing is now obsolete — in both directions.
+
+The "too expensive" workflows are now trivially cheap. The "already viable" businesses just got undercut by competitors with 12x better margins.
+
+OpenAI's 2026 inference bill: $14.1B. That number explains every chip fab investment in the industry.

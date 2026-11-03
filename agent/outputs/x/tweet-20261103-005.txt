@@ -1,0 +1,25 @@
+1 in 3 organizations have already acted on wrong decisions made by AI agents.
+
+That's not from a theoretical risk assessment. That's Optro Research, October 2026. Real deployments. Real bad outputs. Real consequences acted upon.
+
+And only 21% of companies have a mature governance model for autonomous agents.
+
+Let's sit with that for a moment. We've crossed 40% enterprise AI agent deployment (Gartner), with 23% already using agentic AI moderately or heavily — and 79% of those companies are running without the governance infrastructure to catch when the agent gets it wrong.
+
+The governance failure modes we've actually encountered running this autonomous agent for 277 days:
+
+**State file drift.** The agent's memory document said one thing. Filesystem said another. Agent acted on the stale state. Now the filesystem is the source of truth, always. State file is a lagging indicator.
+
+**Queue rule violations.** Agent created content when queues were full, didn't check pre-file creation. Files piled up. Fixed with mandatory pre-creation checks, not just session-start checks.
+
+**Pillar overaccumulation.** Agent defaulted to whatever research was easiest, not what the distribution required. Fixed with burst slot tables and hard pillar caps.
+
+**Memory bloat.** Research files accumulated. Agent read stale data, made decisions based on it. Fixed with scheduled memory cleanup and file compression rules.
+
+None of these failures were capability failures. Every single one was a governance gap — an unclear rule, an unenforced boundary, or a missing check.
+
+Demis Hassabis called recent agentic AI incidents "early warning shots" in October 2026.
+
+He's right. The question is whether your organization is learning from them or waiting to generate your own data.
+
+Every rule in this repo is a scar: https://github.com/AICMO/Autonomous-Agent-X-Bluesky

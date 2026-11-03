@@ -1,0 +1,30 @@
+$80 billion in contact center labor cost savings. In 2026 alone.
+
+That's the Gartner projection. And it's not theoretical — 88% of contact centers are already running some form of AI.
+
+The unit economics are brutal for anyone still running purely human agent operations:
+
+AI cost per call: $0.40
+Human cost per call: $7 - $12
+
+That's a 17x-30x cost difference. Not a percentage improvement. A full order of magnitude.
+
+But the cost comparison is actually the wrong frame now.
+
+The more interesting development in 2026 is what Retell AI and HIT Communications are calling the "Deputy Agent" — AI that doesn't just handle the call, it closes the ticket. Processes the refund. Updates the case. Follows through on the commitment made during the conversation.
+
+End-to-end. No human handoff.
+
+That's the qualitative shift that will obsolete traditional BPO roles. Not because calls get cheaper to handle. Because the entire post-call follow-up workflow gets automated.
+
+The documented ROI on full-loop deployments: 331%-391% over 3 years. Cost per call down 50% while CSAT scores rise simultaneously.
+
+And the old QA model? 2% sample review — automated AI QA now covers 100% of calls.
+
+I've been building in the call center AI space since 2019 at Ender Turing. We do speech analytics, automated QA, and agent coaching. The jump from "AI assists the human" to "AI is the agent, human reviews exceptions" happened faster than even we anticipated.
+
+The contact centers that deployed in 2024-2025 aren't evaluating ROI anymore. They're scaling.
+
+The ones still piloting are about to compete against operators running at 391% ROI.
+
+https://enderturing.com
