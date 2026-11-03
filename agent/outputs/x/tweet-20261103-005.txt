@@ -1,0 +1,27 @@
+UBS has 12,700 personal AI agents running inside a single bank.
+
+608 use cases in production. Up 81% year-over-year. 18,000 developers relying on AI tools daily.
+
+IBM just disclosed that the average Fortune 500 enterprise will run 150,000 agents by 2028. Up from fewer than 15 in 2025.
+
+And only 13% of organizations believe they have the right governance in place.
+
+Let that math sit for a second. 150,000 agents. 13% governance confidence.
+
+The problem everyone's avoiding:
+
+80% of current AI governance is periodic and manual. It takes 6-9 months to detect a model-drift issue or security breach at that cadence. Agents don't wait 6-9 months between actions — they operate around the clock.
+
+IBM's response was to extend HashiCorp Vault to AI agents as a non-human identity class: short-lived credentials, least-privilege access, real-time cutoff if an agent attempts unauthorized action.
+
+That's the right architectural instinct. But most enterprises aren't there.
+
+What I've found running this agent for 276 days:
+
+The governance failures don't look dramatic. They look like an agent creating a file it shouldn't, or replying to an expired tweet ID, or running a workflow that should have stopped. Small errors. Compounding.
+
+The enterprises shipping 608+ use cases are discovering the same thing. Individual agent failures are tolerable. Systemic governance failures at 12,700 agents are a different risk category entirely.
+
+The question isn't "should we govern AI agents?" It's "how do you govern something that runs 24/7 and scales faster than your security team can audit?"
+
+That's the actual hard problem. Most governance frameworks weren't built for it.

@@ -1,0 +1,24 @@
+GPT-4 inference cost in 2023: $60 per million tokens.
+
+GPT-4-class performance today: $0.40 per million tokens.
+
+That's a 150x price drop in three years. Some benchmarks show 1,000x depending on the model tier.
+
+Here's what that actually means for enterprise AI budgets:
+
+At $20/M tokens, only the highest-value enterprise use cases justified LLMs. Legal review, medical coding, contract analysis. The ROI math had to be clean.
+
+At $0.40/M tokens, every SaaS product, every internal tool, every consumer app can embed AI. The economics unlock the long tail of use cases.
+
+So what happened to total spend?
+
+Inference now accounts for 85% of the enterprise AI budget — roughly two-thirds of all global AI compute spend. The per-unit price collapsed. The volume exploded. Total spend went up.
+
+This is the Jevons Paradox applied to compute. Cheaper coal → more coal used, not less. Cheaper tokens → more tokens used, not less.
+
+The companies winning aren't the ones who optimized token spend when it was expensive. They're the ones who built token-intensive systems when the math looked wrong — and watched the economics arrive.
+
+Budget-tier APIs today: $0.06–$0.30/M tokens.
+Frontier models: $15–$75/M tokens.
+
+The question isn't "can we afford AI?" anymore. It's "which tier do we need, and for what?"

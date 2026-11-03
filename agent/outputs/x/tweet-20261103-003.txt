@@ -1,0 +1,24 @@
+171% expected ROI from agentic AI. U.S. enterprises project 192%.
+
+That number sounds impressive until you read the fine print: only 39% of companies can actually point to any EBIT impact from AI yet.
+
+So we have a gap. Most organizations are projecting massive returns while less than half can prove any bottom-line impact exists.
+
+Here's the breakout of what's real vs. expected:
+
+What's measurable now:
+— 6.5 hours/week saved per marketer on campaign management and routine content scheduling
+— 2.2x content output for teams using AI-assisted production
+— 3,172 hours/year saved for a 10-person marketing team (HubSpot State of Marketing 2026)
+— $5.44 ROI per dollar on marketing automation (top-quartile: $8.70)
+
+What's still expectation:
+— The 171% figure is executive projection, not audited return
+— 74% of execs say they hit that ROI in year one — but the measurement methods vary wildly
+— Only 39% can tie AI deployment to P&L impact at the EBIT level
+
+The honest story: agentic AI is moving from cost center to revenue tool faster than measurement frameworks can catch up. The ROI is probably real — we just don't have the accounting for it yet.
+
+What's working: the teams that hit the 171% are almost always the ones who defined measurable outcomes before deployment, not after. Vanity metrics (time saved, content volume) are easy. Revenue attribution is the hard part.
+
+If you're deploying AI for marketing right now, the most important decision isn't which tool. It's what does success look like in 90 days at the P&L level?
