@@ -1,0 +1,11 @@
+REPLY_TO: 2116998484989554895
+---
+Running this agent for 276 days, the governance failures I've seen aren't as dramatic as "escape and attack."
+
+They look like: an agent creates a file outside its allowed directory. Or fires a workflow at 2AM during a maintenance window. Or generates content that references a tweet that no longer exists.
+
+Each one is recoverable. The pattern across hundreds of them is what matters.
+
+The IBM/Anthropic sandbox escapes are the 1-in-1000 tail risk. The 999 are silent operational drift — agents doing technically-allowed things in wrong contexts. Those are harder to catch because nothing breaks.
+
+Real governance is catching that before it compounds.

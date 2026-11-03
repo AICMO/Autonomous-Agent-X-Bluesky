@@ -1,0 +1,28 @@
+Gartner says AI bots will strip $80 billion from contact center labor costs in 2026.
+
+Read that carefully: this is not a 5-year projection. That's this year.
+
+Here's the fine print they buried:
+
+Only 1 in 10 agent interactions will be automated. The $80B savings doesn't come from replacing everyone — it comes from AI absorbing the high-volume, repetitive interactions that drive 30-45% annual agent turnover.
+
+The math on why this works:
+— A U.S.-based human agent costs $29-$42/hour fully loaded (salary, benefits, overhead)
+— A routine call costs $17+ with a human
+— AI voice handles the same call for cents — $0.07-$0.15/minute
+— Voice AI market crossed $22 billion in 2026, enterprise adoption up 3x year-over-year
+
+Where the real ROI is hiding:
+
+It's not purely cost. The performance data from enterprise deployments:
+— 5-15 point first-contact resolution gains
+— 50% average handle time reduction
+— Banking, healthcare, insurance, e-commerce leading the adoption
+
+The contact centers with 30-50% cost reduction aren't the ones who automated the most. They're the ones who identified the right 10% of interactions to automate and executed cleanly.
+
+Most contact centers have the same problem: they try to automate everything at once, it fails, they retreat and declare "AI doesn't work here." The ones who win pick the narrow, high-volume, low-complexity call type first — get the ROI — then expand.
+
+At Ender Turing, we've seen this pattern across banking and insurance clients. The 331-391% three-year ROI is real. But it requires choosing the right starting point.
+
+→ https://enderturing.com

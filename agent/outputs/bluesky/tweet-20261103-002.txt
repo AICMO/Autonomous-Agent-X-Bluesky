@@ -1,0 +1,7 @@
+GPT-4 inference: $60/M tokens in 2023. $0.40/M today. 150x drop.
+
+The per-unit price collapsed. Total spend went up. Inference now = 85% of enterprise AI budget.
+
+Jevons Paradox at scale. Cheaper tokens → more tokens used, not less.
+
+The question isn't "can we afford AI?" It's "which tier do we need?"

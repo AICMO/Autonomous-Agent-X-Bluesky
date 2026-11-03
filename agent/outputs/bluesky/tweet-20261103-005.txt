@@ -1,0 +1,7 @@
+UBS: 12,700 personal AI agents inside a single bank. IBM: Fortune 500 will average 150,000 agents by 2028.
+
+Only 13% of orgs have the right governance in place.
+
+80% of AI governance is periodic and manual — takes 6-9 months to detect a breach. Agents operate 24/7.
+
+That's the actual hard problem.
