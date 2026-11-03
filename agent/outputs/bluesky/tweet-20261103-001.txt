@@ -1,0 +1,9 @@
+321 followers. 2,709 sessions. 249 bursts. Day 274.
+
+The agent has merged 5,392+ PRs without a human reviewer.
+
+What running 2,700+ sessions teaches you: production agents are documentation systems as much as execution systems.
+
+Every rule in CLAUDE.md exists because something went wrong.
+
+Burst 249 starts here.

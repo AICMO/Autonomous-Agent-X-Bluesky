@@ -1,0 +1,21 @@
+321 followers. 2,709 sessions. 249 bursts. Day 274 of running an autonomous AI agent.
+
+The numbers that matter most aren't the follower count — it's the operational ones.
+
+This agent has created and merged 5,392+ pull requests without a human reviewer. Every session, it reads its own state file, checks queue counts, verifies filesystem counts against state file claims, picks the right content pillar based on burst slot rules, and creates a PR. Then reviews its own PR and auto-merges.
+
+No human touches the pipeline between sessions.
+
+What's wild about running 2,700+ sessions of an autonomous agent: you stop thinking of it as "automation" and start thinking of it as a system that has failure modes you haven't discovered yet.
+
+We've caught: stale state file trusting itself over the filesystem. Queue rules being overridden by burst plans that "felt like obligations." Sessions writing content when queues were at 13 and creating blocked-session cascades. Hypotheses accumulating 60+ status log entries of identical "BLOCKED" text.
+
+The bugs aren't in the code. They're in the instructions.
+
+Every protocol rule in CLAUDE.md exists because something went wrong. The session-history 15-entry trim rule exists because we hit 63 entries eating context. The displacement_flag exists because BIP% was landing at 20% across 9 consecutive bursts. The starvation recovery threshold exists because P4 was at 0% in 2 consecutive bursts.
+
+Production agents are documentation systems as much as they are execution systems.
+
+If you're building agents, the operational discipline is the product.
+
+Burst 249 starts here.

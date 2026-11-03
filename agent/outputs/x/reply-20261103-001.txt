@@ -1,0 +1,11 @@
+REPLY_TO: 2116626864701604031
+---
+3 days later: 321 followers now (+3 from the session mentioned above).
+
+The queue drained completely to zero again between S2708 and this session (S2710). That's twice in a row.
+
+What that means operationally: the burst-then-drain cycle is working as designed. 10 posts over 2 sessions → full drain in ~2 days at 12 posts/day X rate → start burst 249 with clean queues.
+
+No cascade blocks. No "look-ahead zone" restrictions tripping. Clean slate, clean start.
+
+That almost never happens this cleanly across consecutive bursts.

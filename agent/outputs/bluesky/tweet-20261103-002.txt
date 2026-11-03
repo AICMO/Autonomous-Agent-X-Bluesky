@@ -1,0 +1,7 @@
+$20/M tokens in 2022. $0.40 today. 50x cheaper.
+
+Catch: token consumption went up 100x. Total AI spend is rising for heavy users.
+
+The inference market hit $50B in 2026, now growing faster than model training.
+
+Per-token cost is a red herring. Total cost of inference at scale is the real metric.
