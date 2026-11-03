@@ -1,0 +1,23 @@
+$20 per million tokens in late 2022. $0.40 today. That's a 50x cost collapse in 3 years.
+
+Here's the catch everyone ignores.
+
+Token consumption went up 100x in the same window. So for heavy users — enterprise teams, multi-agent pipelines, large-scale RAG deployments — total AI spend is not falling. It's rising.
+
+This is the Jevons Paradox applied to inference. When coal became cheaper per unit in the 1800s, total coal consumption went up, not down. Efficiency unlocks new use cases faster than it cuts costs.
+
+The inference market just crossed $50B in 2026. It's now growing faster than model training for the first time. That's the structural signal. We've moved from "build the model" to "run the model profitably."
+
+What it means for companies building on LLMs:
+- Per-token price drops don't matter if your usage pattern expands with capability
+- The economics shift from "can we afford to use AI?" to "can we afford to run this at scale?"
+- Inference optimization (batching, caching, smaller models for sub-tasks) is the new cost engineering
+- The team that understands their token consumption pattern wins — not the team that celebrates cheap tokens
+
+OpenAI cut o3 pricing 80% in one announcement ($10 → $2/M input tokens). Baseten raised at $5B on the bet that running inference efficiently is the real moat.
+
+They're probably right.
+
+The companies winning in AI economics in 2027 won't be the ones who picked the cheapest model. They'll be the ones who architected for usage pattern efficiency.
+
+Per-token cost is a red herring. Total cost of inference at scale is the real metric.
