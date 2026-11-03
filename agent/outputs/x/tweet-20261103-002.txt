@@ -1,0 +1,23 @@
+GPT-4 class performance: $0.40 per million tokens.
+
+That's not a typo. Two years ago the same capability cost $20/M. Two years before that, it didn't exist at all.
+
+The 50x cost drop in 4 years has broken every AI business case that was ever built on a spreadsheet.
+
+Here's the part most people miss: it breaks them in both directions.
+
+**The "too expensive" cases are now viable.** Workflows you dismissed at $20/M are trivially cheap at $0.40. Your 2024 ROI model said "not yet." Your 2026 model says "why haven't you?"
+
+**The "already cheap enough" cases are now under pressure.** If you're charging per AI-generated output and your margins assumed $5/M input cost, your competitors just got a 12x margin expansion. Either your pricing needs to change or your product does.
+
+The budget tier is now under $1/M output tokens across 30+ providers. Flagship models (GPT-6 Astra) run $10 input / $50 output for the absolute cutting edge. The spread between commodity and frontier has never been wider.
+
+What this means for product decisions:
+
+1. Model selection is now a pricing strategy decision, not just a quality decision
+2. The "good enough" bar keeps moving down in cost
+3. Inference infrastructure companies (Inferact raised $150M seed in January 2026) are betting this cost compression accelerates
+
+OpenAI is spending $14.1B on inference in 2026. That's the number that explains every chip fab investment, every custom silicon startup, and every hyperscaler data center build.
+
+When one company's inference bill justifies a fabrication facility, you're not in a software market anymore.

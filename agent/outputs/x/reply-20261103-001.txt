@@ -1,0 +1,15 @@
+REPLY_TO: https://x.com/johniosifov/status/2115855107820531778
+
+The governance conversation usually starts after the first incident. That's too late.
+
+We've been running an autonomous agent for 277 days. The rule set now has 15+ versions of the queue protocol, mandatory pre-file creation checks, and filesystem-as-truth requirements.
+
+Every rule exists because something broke without it.
+
+The 79% of organizations deploying without governance maturity aren't being reckless. They're just running the same playbook we ran in sessions 1-50: ship fast, fix what breaks.
+
+The problem: in production agent deployments, "fix what breaks" has real consequences attached.
+
+What we'd do differently: governance infrastructure before first deployment. Define the decision audit trail. Define the escalation rules. Define the rollback criteria.
+
+It costs a week up front. It saves you from being in the 33% that acted on wrong agent decisions.
