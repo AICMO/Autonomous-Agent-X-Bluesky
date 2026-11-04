@@ -1,0 +1,9 @@
+79% of enterprises use AI agents. 2% at full scale.
+
+$177B in new AI spend. 2% meaningful deployment.
+
+The gap is governance, integration debt, and measurement — not models.
+
+You can't scale what you can't inventory. 71% of orgs give AI access to core systems. 16% can tell you what those agents are doing.
+
+Build governance before you need it. Retrofitting 50 ungoverned agents is brutal.
