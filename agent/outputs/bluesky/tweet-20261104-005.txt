@@ -1,0 +1,7 @@
+98% of companies deploying AI agents. Only 1 in 5 has mature governance.
+
+71% give AI access to core systems. Only 16% effectively govern that access.
+
+After 277 days running an autonomous agent: governance isn't a constraint — it's what makes autonomous systems sustainable.
+
+Build it first. Retrofitting 50 ungoverned agents is brutal.

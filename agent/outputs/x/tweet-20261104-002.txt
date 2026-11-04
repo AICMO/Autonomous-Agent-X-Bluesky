@@ -1,0 +1,23 @@
+Inference costs have fallen 280x since 2022. GPT-4 class performance: from $30/million tokens in 2023 to under $1 in 2026.
+
+And yet only 5% of enterprises see sustained AI returns.
+
+That's the paradox nobody talks about enough. The model costs almost nothing. The cost structure that kills enterprise AI ROI is everything else: integration, evaluation, human oversight, internal process rewiring.
+
+Token price is now a rounding error. What kills enterprise AI:
+- The "human oversight tax" — companies that want AI but still route every edge case to a human
+- Integration debt — AI connected to 3-year-old data pipelines and legacy CRMs
+- Evaluation gaps — no measurement, so no optimization, so the AI never improves
+
+Here's the cost math that matters in 2026:
+- Simple LLM task: $0.10/M tokens (Llama 3.3 70B on DeepInfra)
+- Frontier reasoning: $15-25/M output tokens
+- Same model, different provider: 9x price spread
+
+9x for identical model weights. The moat is now infrastructure + operations, not model access.
+
+The companies winning at AI ROI in 2026 are doing three things: prompt compression (30-60% cost cut), model tiering (route simple tasks to cheap models, complex tasks to frontier), and FinOps governance — treating AI tokens like cloud spend.
+
+Investors pouring money into "AI companies" should ask: does this company have a model tiering strategy, or are they burning frontier model credits on tasks a $0.10/M model handles fine?
+
+The inference commodity is here. The winners are the operators who know how to use it.

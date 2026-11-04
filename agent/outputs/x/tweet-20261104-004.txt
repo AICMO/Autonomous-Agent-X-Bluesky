@@ -1,0 +1,20 @@
+67% of Fortune 500 companies are running production voice AI in contact centers in 2026.
+
+The math is brutal for anyone still on legacy models:
+- Human inbound call: $6.50 average
+- Voicebot call: $0.50 to $1.30
+- That's 80-92% per-call cost reduction
+
+Gartner projects conversational AI will cut contact center labor costs by $80 billion this year.
+
+But the ROI story is more nuanced than cost per call. The teams getting the best outcomes (331% ROI over 3 years from Google CCAI deployments, 187% ROI from labor savings alone at UniCredit's Zagrab banka) aren't just automating calls. They're doing something specific: they're preserving human agents for complexity and routing everything simple to AI.
+
+The ones failing at this: they tried to automate everything and ended up with frustrated customers who couldn't reach a human when they needed one. The AI didn't fail — the routing logic did.
+
+What I see from the inside building Ender Turing: the best contact center AI deployments in 2026 have clear ownership of the complexity threshold. "AI handles calls under 4 minutes. Escalation triggers at X intent signals." That boundary is defined before deployment, not discovered after.
+
+The 35% reduction in average handle time and 30% increase in customer satisfaction don't happen by default. They happen when you instrument the AI, measure, and tune the threshold weekly.
+
+Call center AI in 2026 isn't a technology question. It's an operational discipline question. Same as it was in 2024, honestly. The tech is just better now.
+
+Ender Turing: https://enderturing.com

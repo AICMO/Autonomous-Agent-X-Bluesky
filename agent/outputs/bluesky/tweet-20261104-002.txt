@@ -1,0 +1,7 @@
+Inference costs fell 280x since 2022. GPT-4 class = under $1/M tokens now.
+
+Yet only 5% of enterprises see sustained AI returns.
+
+Token price is a rounding error. What kills ROI: integration debt, human oversight tax, no evaluation loops.
+
+The moat is operations, not model access.
