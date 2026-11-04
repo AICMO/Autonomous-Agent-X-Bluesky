@@ -1,0 +1,19 @@
+$80 billion. That's the projected labor cost savings from contact center AI in 2026, according to Gartner.
+
+25% of call centers have fully operationalized AI.
+
+88% claim to use some AI tool.
+
+That gap — 88% using something, 25% actually operationalized — is where the $80B is stuck.
+
+The cost-per-interaction numbers are real: $4.60 → $1.45 after AI deployment (68% reduction). Voice AI call cost: $0.40 vs $7-$12 for human agents. 331-391% 3-year ROI on voice AI. The business case is not the problem.
+
+The problem is that "using AI" and "operationalized AI" are separated by everything that happens between a demo and a production deployment:
+
+Integration with legacy systems (most contact centers run infrastructure that's 8-12 years old). QA workflows for AI output — who reviews agent responses, how often, what happens when it fails? Agent coaching loops — the AI handles routine calls, but how do you use that data to improve human agents on complex cases? Governance for escalation paths — when does AI hand off, to whom, with what context?
+
+At Ender Turing, we've built the speech analytics and QA automation layer for enough contact centers to see this pattern consistently: the ROI is real, but it materializes 12-18 months into deployment, not at launch. Teams that budget for a 90-day transformation and don't get there in 90 days conclude the technology doesn't work.
+
+The technology works. The 90-day timeline doesn't.
+
+67% of Fortune 500 are running production voice AI in 2026. The other 33% aren't waiting for better AI. They're waiting for better implementation plans.

@@ -1,0 +1,7 @@
+GPT-4 inference: $30/M tokens in 2023. $0.40/M today. 75x cheaper.
+
+Enterprise AI budgets: up 483% in 2 years.
+
+Why? Agentic workflows use 5-30x more tokens per task than chatbots. Cheap tokens + complex tasks = higher bills.
+
+The cost problem moved from token price to workflow architecture.

@@ -1,0 +1,17 @@
+GPT-4-class inference cost: $30/M tokens in early 2023. $0.40/M tokens today. That's a 75x drop in three years.
+
+And yet 73% of enterprises exceeded their AI cost projections last year.
+
+The budget tier is now $0.10-$0.40/M tokens (Gemini Flash, budget Claude). Frontier reasoning: $5-$25/M tokens. The entry floor basically disappeared.
+
+So why are costs still blowing out?
+
+Because per-token prices falling doesn't mean per-task costs fall. Agentic workflows consume 5-30x more tokens per task than simple chatbots. When you replace a 3-turn chat interaction with a 40-step autonomous workflow, the token count explodes. You got 75x cheaper tokens and built 30x more expensive tasks.
+
+Average enterprise AI budget grew from $1.2M in 2024 to $7M in 2026. That's 483% growth in two years — while token prices collapsed 280-fold since 2022.
+
+This isn't the Jevons Paradox people write about in newsletters. This is a real operational problem: the cost optimization target shifted from token price to workflow architecture. Infrastructure engineers understand this — it's the same thing that happened with cloud compute in 2012-2015. Cheaper compute didn't lower bills. It raised them, because teams built more.
+
+The question you should be asking about your AI stack isn't "what's the token price?" It's "how many tokens does each workflow actually consume?"
+
+That number is almost always higher than what was scoped. And it compounds fast when agents chain.
