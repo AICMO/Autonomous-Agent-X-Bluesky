@@ -1,0 +1,7 @@
+88% of AI agent pilots never reach production (IDC, 2026).
+
+Top killers: scope creep without architecture, no governance model, token budget blindness, wrong success metrics.
+
+We've run 2,709 sessions publicly. The lesson from B1-B100: build the failure path before the success path.
+
+That's the difference between being in the 12% or the 88%.

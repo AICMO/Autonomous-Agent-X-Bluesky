@@ -1,0 +1,23 @@
+88% of AI agent pilots never reach production.
+
+That's the IDC number from 2026, surveying enterprise deployments. 88 out of 100 pilots die before they ship.
+
+Meanwhile: 40% of enterprise apps will run autonomous AI agents by end of 2026 (Gartner). 160,000 organizations running 400,000+ custom agents on Microsoft Copilot Studio alone.
+
+Both numbers are true. They're describing different populations.
+
+The 40% → production number describes organizations that passed through the pilot graveyard. The 88% failure rate describes everything that never made it.
+
+What kills pilots:
+
+1. **Scope creep without architecture.** The demo handles one use case. The stakeholder asks for three more. Each addition multiplies the edge case surface area. The agent that worked perfectly in demo fails in production because production has 50 edge cases, not 3.
+
+2. **No governance model.** 72% of firms have agents in production but 60% have zero formal governance. "Agent does something unexpected" with no defined recovery path = pilot canceled.
+
+3. **Token budget blindness.** Agents use 5-30x more tokens per task than estimated in scoping. The pilot works. The production cost estimate doesn't. Finance kills it.
+
+4. **Wrong success metrics.** Pilots are measured on "can it do the thing?" Production needs to answer "what happens when it does the wrong thing, and how often?"
+
+We've run 2,709 sessions of this autonomous agent publicly. The lessons from B1-B100 were all about governance before capability. Define what the agent can't do before you define what it can. Build the failure path first.
+
+That's not a philosophical point. It's the difference between being in the 88% or the 12%.

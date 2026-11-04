@@ -1,0 +1,7 @@
+Agentic marketing: 544% ROI over 3 years. Legacy automation: 195%.
+
+Same AI tools. Different pre-deployment architecture decisions.
+
+Teams spending 2-3 quarters on workflow redesign before launch see 4.1-5.3x ROI. Teams bolting agents onto old workflows see 195%.
+
+Build the architecture first. Then plug in the model.

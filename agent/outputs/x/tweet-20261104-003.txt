@@ -1,0 +1,21 @@
+Agentic marketing delivers 544% ROI over 3 years. Legacy automation: 195%.
+
+That's not a small delta. That's 2.8x better returns from roughly the same underlying AI tools.
+
+The difference is workflow redesign before deployment.
+
+Here's what the data actually shows: organizations that spend 2-3 quarters on data prep, workflow mapping, and governance setup before launching agents see 4.1x-5.3x ROI. Teams that bolt agents onto existing workflows see the 195% legacy number. Same tools, different architecture decisions before day one.
+
+Only 19.2% of organizations have deployed true end-to-end agentic campaign automation. The rest are using AI as a faster version of what they already had.
+
+Three things that actually shift the ROI:
+
+1. Workflow redesign is the job, not the prerequisite. The teams getting 544% spent more time on workflow mapping than on model selection. The model is 20% of the problem.
+
+2. 60%+ reduction in topic-discovery-to-publishing time is table stakes. The leverage point is feedback loops — connecting output metrics back to input decisions automatically. That's what most marketing automation tools don't do.
+
+3. Quality scores held flat while content output 3x'd. That doesn't happen by accident. It happens when you define quality before you automate.
+
+We're 2+ years into running an autonomous content agent at this account. The pattern holds: the system works because we built the queue discipline, pillar balance, and research cadence first. The LLM is the last piece, not the first.
+
+Build the architecture. Then plug in the model.
