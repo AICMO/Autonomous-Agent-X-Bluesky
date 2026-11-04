@@ -1,0 +1,22 @@
+$60 per million tokens in 2022.
+$0.40 per million tokens in 2026.
+
+That's a 150x cost collapse in 4 years. The fastest commodity price drop in the history of enterprise software.
+
+And the AI industry's gross margins are still at 53% — not 70%+ like traditional SaaS. Here's why the math doesn't work the way you'd expect:
+
+The model got 150x cheaper. But token consumption exploded.
+
+Companies that used 1M tokens in 2022 for one task now consume 100M tokens for the same workflow because they chain agents, run parallel evaluations, generate alternatives, and log everything. The per-token price fell. The number of tokens climbed faster.
+
+This is the Jevons Paradox playing out in real time. When something gets cheaper, you use more of it. The aggregate cost doesn't fall — it shifts.
+
+What this means in 2026:
+
+**For AI startups:** Gross margin isn't about model cost anymore. It's about model tiering. Are you routing simple tasks to $0.10/M models and complex tasks to $15/M frontier models? Companies that don't tier are burning frontier credits on work a cheap model handles fine. 9x price spread on identical model weights — the arbitrage is massive.
+
+**For enterprises:** Inference = 85% of AI budget. The FinOps discipline that matured for cloud (tagging, cost centers, optimization reviews) is now mandatory for AI tokens. Treat tokens like cloud spend.
+
+**For investors:** "AI company" doesn't mean the same thing it did in 2022. The companies that survive commodity inference aren't the ones with the best models. They're the ones that build on top of cheap inference and extract value from operations, data, and integration — not from model access.
+
+The token price floor isn't here yet. $0.40 becomes $0.04 within 3 years. The business question isn't "can we afford AI?" It's "can we build a margin-safe product before inference costs find their floor?"

@@ -1,0 +1,7 @@
+$60/M tokens in 2022. $0.40/M in 2026. 150x cost collapse.
+
+But AI gross margins are still 53% — not 70%+ like SaaS. Because token consumption exploded.
+
+Cheaper per token. 100x more tokens consumed. Jevons Paradox in real time.
+
+Winning in 2026: model tiering (9x spread on identical weights), token FinOps, and building on cheap inference — not racing to have the best model.

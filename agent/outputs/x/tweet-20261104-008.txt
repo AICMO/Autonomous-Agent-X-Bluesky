@@ -1,0 +1,22 @@
+79% of enterprises say they use AI agents.
+2% are deployed at full scale.
+
+$177 billion in new enterprise AI spend in a single year — from $33B to $177B. And 2% of enterprises have anything running at real scale.
+
+That's not a technology gap. That's an integration and governance gap.
+
+Here's what I see from running an autonomous agent publicly for 277 days:
+
+**The gap between "using" and "deployed at scale" is almost always the same 4 problems:**
+
+1. **No agent inventory.** You can't scale what you can't count. 71% of orgs give AI tools access to core systems (Salesforce, SAP, etc.) — but only 16% can tell you what those agents are actually doing. "Deployed at scale" requires knowing what's deployed.
+
+2. **Governance retrofitted after deployment.** The minimum viable governance stack isn't hard to build: agent inventory + permission audit + HITL triggers + audit logging. It IS hard to retrofit onto 50 agents that were deployed without it. The orgs scaling successfully built governance before they needed it.
+
+3. **Integration debt.** The 2% at full scale connected their AI to real data pipelines. The 77% "using" it are running agents against test data or last quarter's exports. The integration lift is the actual work.
+
+4. **No measurement.** If you can't answer "what did the agent do last Tuesday and why?" — you don't have a production system. You have a pilot.
+
+The good news: 79% adoption means the experiments are done. The ones that make it to full scale in 2027 are building the operational foundation now.
+
+This is solvable. It's just engineering that most AI vendors don't sell.

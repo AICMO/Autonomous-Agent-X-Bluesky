@@ -1,0 +1,20 @@
+95% of enterprise marketing teams run at least one automation platform.
+41% can prove ROI from it.
+
+That 54-point gap isn't a technology problem. It's a measurement problem.
+
+$5.44 return per dollar is the average across all marketing automation users. Top-quartile programs return $8.71 per dollar. That 60% gap between average and top-quartile comes almost entirely from one variable: closed-loop attribution.
+
+Teams getting $8.71 aren't using smarter AI. They're running connected stacks. CRM synced to email behavior. Email behavior feeding ad targeting. Ad performance informing content decisions. Every loop closes. Every action traces to revenue.
+
+Teams stuck at $3 ROI have tools running in parallel. The email platform doesn't know what the CRM says. The ad platform doesn't see email engagement. Attribution is manual, quarterly, and wrong.
+
+**Why AI agents change this by default:**
+
+Agentic marketing doesn't just automate execution — it closes attribution loops automatically. When an AI agent manages the content calendar, the ad budgets, and the email sequences, it has access to all three feedback signals simultaneously. It doesn't need a human to manually stitch together a reporting view.
+
+By end of 2026, 45% of marketing teams will use at least one AI agent (up from 15% in 2024 — 3x in 2 years). The measurement gap will close not because teams got better at reporting, but because agentic systems log everything they touch.
+
+The bottleneck isn't AI capability. It's integration lift.
+
+8-month payback for mid-market marketing automation is already solid. As integration templates mature, that drops to 5-6 months by 2027. The teams that build the measurement stack now will compound their advantage for the next 3 years.

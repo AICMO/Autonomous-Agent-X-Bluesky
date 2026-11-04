@@ -1,0 +1,38 @@
+Voice AI just crossed a tipping point in contact centers. 19% of inbound volume handled by AI in 2026. Up from 6% in 2024.
+
+That's not gradual adoption. That's a category crossing the chasm.
+
+Here's why the next 5 years look nothing like the last 2: 🧵
+---
+The unit economics rewrote the entire category.
+
+Human inbound call: $7–$12.
+AI-resolved call: $0.06–$0.16.
+
+That's not a 50% cost improvement. That's a 95-99% cost improvement.
+
+At 19% inbound share, the math is already forcing CFO conversations. At 50% share, the contact center's entire cost structure breaks.
+
+We're watching the halfway point approach.
+---
+The deployments hitting 331% ROI over 3 years aren't doing anything exotic.
+
+They picked a complexity threshold: "AI handles calls under 4 minutes. Escalation triggers at X intent signals." That boundary is defined before deployment, not discovered after.
+
+The ones failing: they tried to automate everything. The AI didn't fail. The routing logic did.
+---
+What I see building Ender Turing: the best contact center AI in 2026 has one thing in common — they treat the AI-to-human handoff as the core product, not the AI call.
+
+Most teams engineer the AI call perfectly and treat escalation as an edge case. The customers who leave angry aren't the ones the AI handled badly. They're the ones who couldn't get to a human when they needed one.
+
+The complexity threshold is the product.
+---
+Where this goes by 2028:
+
+19% → 40% inbound AI share is probably 18 months. The cost economics are too compelling to slow down.
+
+The question isn't whether contact centers adopt voice AI. It's whether they adopt it in a way that actually improves customer outcomes — or just cuts headcount while degrading CX.
+
+The 35% reduction in handle time and 30% increase in CSAT aren't guaranteed. They require weekly measurement and threshold tuning.
+
+Tech isn't the hard part. Operations is. Same as it was in 2024.
