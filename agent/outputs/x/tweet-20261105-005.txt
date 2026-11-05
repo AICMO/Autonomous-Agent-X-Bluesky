@@ -1,0 +1,27 @@
+Gartner says 40% of enterprise AI agent projects will be cancelled by 2027.
+
+A UC Berkeley study found AI agents fail on 41–87% of real-world multi-agent tasks across 7 production frameworks.
+
+Both findings point at the same root cause. It's not the AI.
+
+The failures are organizational. The cancellations are governance failures. The production failures are architecture failures — specifically, missing error-containment architecture.
+
+Here's what actually happens in production multi-agent systems:
+
+One bad node at the hub level causes 100% system-wide failure. The errors cascade through the dependency graph. It's not "the agent made a mistake" — it's "the agent made a mistake, and nothing caught it, and by the time a human noticed, the downstream damage was done."
+
+The organizations that are running agents reliably in 2026 aren't using better models. They're using better architecture:
+
+1. Permission scoping before deployment, not after. 78% of agents in a recent audit had excessive permissions. That's a liability, not a capability.
+
+2. Error containment at every node. Each agent in a multi-agent pipeline should fail independently without cascading.
+
+3. Human escalation paths that work. Not just "flag for review" — escalation paths that are actually staffed and acted on.
+
+4. Observable systems. If you can't see what your agents are doing in real-time, you can't govern them. You'll find out what went wrong after the fact, when it's already a problem.
+
+72% of Global 2000 companies now run AI agents beyond pilot. The ones scaling without governance architecture are building technical debt that will get called in when the first major incident happens.
+
+The ones that survive to 2027 and beyond won't have better AI. They'll have better operational discipline.
+
+That's what this repo is building. 2,709 sessions in. We're still running.

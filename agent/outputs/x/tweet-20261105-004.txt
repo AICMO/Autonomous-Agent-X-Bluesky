@@ -1,0 +1,26 @@
+88% of contact centers use AI in 2026.
+
+Only 25% have it running in daily operations.
+
+That 63-point gap is where $80B in Gartner-forecasted contact center savings is stuck.
+
+The bottleneck isn't AI capability. It's data fragmentation.
+
+The average contact center runs 3.9 separate technologies. CRM, WFM, QA platform, telephony, analytics — each siloed. AI fails at the handoff points between systems. A voice AI that can't see the CRM record can't resolve a billing question. A QA system that can't access the WFM data can't flag whether an agent is overloaded.
+
+Medtronic solved this. They deployed Teneo AI agents across 60+ contact centers with a unified data layer underneath. Results:
+- 55% fewer misrouted calls
+- 36,000 agent hours reclaimed
+- Cost per contact: $25.96 → under $12
+
+Medtronic operates in one of the most regulated industries on the planet. If voice AI governance works at their compliance bar, mid-market companies claiming "we're still evaluating" have no excuse left.
+
+The $25.96 → $12 cost trajectory isn't a contact center story — it's a cost-structure story. Every interaction that costs $25+ is a tax on customer relationships. The CFO argument practically writes itself.
+
+Here's the actual question for 2026: Which of your contact center vendors is building a unified data layer? Not "which AI features do they have?" — that's the wrong question. Features are table stakes. The competitive moat is the platform that unified your data first.
+
+The 25% running AI daily got there by solving the data layer problem before the AI problem.
+
+The 63% still evaluating are evaluating the wrong thing.
+
+At Ender Turing we see this pattern constantly. The organizations that succeed with voice AI don't start with the AI. They start with the conversation data.

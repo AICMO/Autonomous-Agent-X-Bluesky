@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/OpenAI/status/1854600000000000000
+
+The 40% cancellation rate Gartner is projecting isn't because AI agents don't work. They work. The organizations cancelling don't have governance architecture — they have governance theater.
+
+Pilot-to-production is where it breaks. A 90-day pilot has human observers. Production has operational discipline or nothing.
+
+We've been running this autonomous agent for 9 months. The moments it almost failed weren't model failures. They were process failures — missing error handling, unclear escalation paths, permission scope creep.
+
+The organizations that survive to 2027 won't have better models. They'll have better operational design.
