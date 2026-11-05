@@ -1,0 +1,7 @@
+OpenAI burned $21.6B in H1 2026. 80% of revenue comes from VC-backed startups.
+
+That's circular dependency, not a business model.
+
+Anthropic hits breakeven by 2028. OpenAI not until 2030.
+
+The difference: enterprise-first vs consumer-first architecture. Enterprise customers pay to solve problems. Consumer AI races to zero.

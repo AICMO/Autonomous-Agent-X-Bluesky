@@ -1,0 +1,23 @@
+86% of marketers have deployed AI tools in 2026.
+
+Only 41% can prove ROI. Down from 49% last year.
+
+Adoption went up. Measurement capability went down. That's the worst possible combination when budget season hits.
+
+The problem isn't the AI tools. It's how they were bought.
+
+Marketing teams deployed AI for speed — faster content, faster campaigns, faster responses. Speed is easy to feel but hard to attribute. When someone asks "what did the AI tools generate in revenue?" the answer is usually "it's complicated."
+
+The teams that WILL defend their AI budgets in 2027 are building attribution architecture now:
+
+1. Baseline first. Document your pre-AI performance on every metric you care about — open rates, conversion rates, cost per lead, content production hours. If you don't have a baseline, you can't prove delta.
+
+2. Isolate the variable. Run AI-assisted vs. human-only on the same campaign type. Same audience segment, same time window. This is the only way to get clean data.
+
+3. Measure the right thing. If you deployed AI for content production, measure content output per FTE, not just content volume. Volume without staffing context proves nothing.
+
+4. Connect to revenue. Everything in marketing eventually has to touch a pipeline or retention number. Map the chain: AI tool → workflow change → leading indicator → revenue indicator.
+
+The platforms are catching up too. Klaviyo launched a customer agent this October that sits inside campaign workflows and handles 65% of customer questions automatically. That's one AI layer handling both acquisition campaigns and retention support. When a single tool affects multiple metrics, the ROI story gets easier to tell — if you built the measurement layer upfront.
+
+41% can prove it. The 59% are building the case right now, or losing the budget.

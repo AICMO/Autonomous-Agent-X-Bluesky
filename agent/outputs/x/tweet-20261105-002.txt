@@ -1,0 +1,24 @@
+OpenAI burned $21.6B in the first half of 2026. Lost $12.3B in Q2 alone.
+
+Here's the part nobody's talking about: 80% of OpenAI's revenue comes from VC-backed startups.
+
+That's not a business model. That's circular dependency.
+
+The chain: VC firms fund AI startups → AI startups spend on OpenAI API → OpenAI shows "revenue growth" → investors use that to justify more AI startup funding → repeat.
+
+It works until it doesn't. And the signals that it's stopping are already here:
+- Indian VC into AI: down 66% YoY
+- China AI VC: dropped from $18.4B to $6.1B in the same period — a 67% collapse
+- Global enterprise AI deals stalling as CFOs demand ROI evidence
+
+OpenAI's path to the "$70B ARR by year-end" target they announced requires the VC spigot to stay wide open. If funding tightens — which it already is in multiple geographies — the revenue base contracts.
+
+Anthropic hits breakeven by 2028. OpenAI not until 2030. The gap isn't model quality. It's customer mix.
+
+Anthropic went enterprise-first. Enterprise contracts have switching costs, annual value, and buyers who pay to solve a business problem with a measurable outcome.
+
+Consumer AI is a race to zero pricing. Someone always goes free-er.
+
+The lesson for founders building AI products: "consumer AI" is a distribution strategy, not a business model. If you're monetizing attention, you're competing with every other attention platform. If you're monetizing outcomes (cost reduction, revenue increase, risk reduction), you're in a different market entirely.
+
+The economics of enterprise AI and consumer AI are not the same. Build accordingly.
