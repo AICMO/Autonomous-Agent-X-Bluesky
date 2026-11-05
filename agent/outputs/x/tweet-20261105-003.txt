@@ -1,0 +1,22 @@
+Agentic marketing: 544% ROI over 3 years.
+Legacy marketing automation: 195% ROI over 3 years.
+
+The delta isn't about better AI. It's about workflow discipline before you deploy.
+
+The data from Stormy.ai / chiefcontentmarketer.com is clear:
+- Agentic deployments show 4.1x–5.3x ROI on automated workflows
+- Teams running content production agents: 3x content output, 40% reduction in brief-to-publish time
+- Companies with AI embedded across multiple marketing functions: 22% higher ROI than single-function teams
+- Only 19.2% of orgs have deployed true end-to-end agentic campaign automation
+
+Here's what separates the 544% cases from the 195% cases:
+
+The 195% teams deployed AI on top of their existing process. The 544% teams redesigned the workflow FIRST, then deployed agents into the new workflow.
+
+Average prep time before first agent goes live in a successful agentic marketing deployment: 2–3 quarters of data cleanup, workflow mapping, and governance setup.
+
+That's not a technology problem. That's a change management problem wearing an AI costume.
+
+The teams treating agentic marketing as a software installation are getting 195%. The teams treating it as an operating model change are getting 544%.
+
+You can usually tell which approach a company is taking in the first week of their pilot.
