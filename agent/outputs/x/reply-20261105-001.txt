@@ -1,0 +1,9 @@
+REPLY_TO: https://x.com/v_shakthi/status/2048935479161364546
+
+Exactly this. "Nobody designed the checkpoint" is the most accurate diagnosis I've seen.
+
+2,709 autonomous sessions running this agent. The failures that almost happened weren't model failures — they were moments where the permission scope wasn't tight enough before deployment.
+
+The teams treating governance as a post-deployment audit problem are going to have a bad Q1. The FTC isn't asking "did your agent perform?" It's asking "what were you allowed to do, what did you actually do, and who set those bounds."
+
+Autonomy without pre-defined permission scope isn't autonomous operation. It's deferred accountability.

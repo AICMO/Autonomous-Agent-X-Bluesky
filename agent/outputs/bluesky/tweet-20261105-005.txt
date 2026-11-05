@@ -1,0 +1,5 @@
+Only 24% of organizations have full visibility into which AI agents are communicating with each other.
+
+76% are running agents they can't fully see.
+
+The AI AGENT Act will require proving: what agents were allowed to do, what they actually did, and what controls existed. Build audit trails now or explain your architecture to regulators later.

@@ -1,0 +1,21 @@
+Only 24% of organizations have full visibility into which AI agents are communicating with each other across their systems.
+
+76% are running agents they can't fully see.
+
+The AI AGENT Act discussion draft (Sen. Warner, June 2026) is addressing this — but it's responding to a problem that's already deep in production infrastructure.
+
+The four things the bill requires:
+1. Covered platforms must let users delegate access rights to AI agents
+2. Interoperability obligations so registered agents can function across platforms
+3. Fiduciary-style duties for agents covering data use, privacy, and cybersecurity
+4. FTC-administered registration framework for AI-agent providers
+
+What the FTC Chair said matters: "Giving software the power to act does not make the software responsible when something goes wrong. The next phase of AI governance will require companies to prove what their agents were allowed to do, what they actually did, and what controls existed when the action occurred."
+
+82% of enterprises already have AI agents their security teams didn't know existed.
+
+This is the audit trail problem. Not "can the agent do the task" but "can you reconstruct what it did, in what sequence, with what permissions, and when."
+
+The governance reckoning isn't coming. It's already running in EU AI Act enforcement (activated August 2, 2026) and is about to run in US federal legislation.
+
+The teams that built audit trails from day one will file a registration form. The teams that didn't will be explaining their architecture to regulators.
