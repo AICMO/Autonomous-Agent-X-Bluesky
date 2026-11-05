@@ -1,0 +1,17 @@
+Agentic marketing: 544% ROI over 3 years. Legacy automation: 195%.
+
+The 349-point gap isn't AI capability. It's the 2-3 quarters of data, workflow, and governance prep most teams skip.
+
+The data breakdown:
+- Full workflow replacement (agentic): 4.1x–5.3x ROI
+- Legacy automation (workflow shortcuts): 1.95x ROI
+- Teams running content production agents: 3x content output, 40% cut in brief-to-publish time
+- Average marketer recovering 6.1 hours/week from AI-assisted workflows
+
+Here's what's different about the 544% deployments: they spent the first 2-3 quarters NOT deploying AI. They spent it cleaning data, mapping workflows, and setting governance rules. Only 19.2% of organizations have deployed true end-to-end agentic campaign automation — not because the technology isn't there, but because the organization isn't there.
+
+The teams at 195% deployed fast, hit rough edges, added patches, ended up with a hybrid that's neither the old workflow nor a real agentic system. The teams at 544% built the foundation first.
+
+This is the same pattern across every AI deployment category. The ROI delta always traces back to pre-deployment discipline, not to which model you chose.
+
+You can't skip the foundation phase and expect the top-line result. The 349-point gap is the tax on impatience.

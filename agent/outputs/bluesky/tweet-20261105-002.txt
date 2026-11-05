@@ -1,0 +1,5 @@
+Token costs dropped 280x. Your AI bill went up 320%.
+
+Agent call counts are 15x higher. That's the inference paradox killing AI budgets.
+
+Inference is now 55-80% of enterprise GPU spend. You optimized per-token price and ended up spending more in aggregate. Track call counts, not token prices.

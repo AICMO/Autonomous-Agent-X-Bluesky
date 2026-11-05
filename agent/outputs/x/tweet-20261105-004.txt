@@ -1,0 +1,18 @@
+AI call handling now costs $0.06–$0.16 per interaction. Human agents cost $7–$12.
+
+That's a 50-100x cost differential. And 88% of contact centers are already using some form of AI.
+
+The numbers running in Q2 2026:
+- AI-resolved enterprise calls: $0.06–$0.16/call (down from $0.08–$0.20 in early 2026 — 35% YoY reduction)
+- Human agent fully-loaded cost: $7–$12/call
+- Voice agent usage growth: 9x during 2025
+- Production deployment growth: 340%
+- Enterprise ROI: 331-391% over 3 years, payback under 3 months
+
+Here's what gets missed in every voice AI deck: the cost per call number is only half the story. The other half is call volume. AI doesn't just replace human calls at lower cost — it handles call volume that was previously abandoned or never attempted. 20-30% more total call volume at 50-100x lower cost per interaction.
+
+The enterprises hitting the high ROI numbers aren't doing 1:1 replacement. They're handling demand that didn't exist before because it was too expensive to serve.
+
+McKinsey analysis: 40-50% headcount reduction while handling 20-30% more total call volume. That math doesn't work with straight replacement. It works when AI serves the demand that human capacity never could.
+
+Call center economics aren't being disrupted. They're being inverted.

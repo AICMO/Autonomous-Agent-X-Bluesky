@@ -1,0 +1,20 @@
+Token costs dropped 280x in 3 years. Your AI bill went up 320%.
+
+This is the inference paradox that's breaking AI budgets in 2026.
+
+The numbers:
+- GPT-4 at launch: ~$30/M tokens
+- State-of-the-art today: ~$0.10/M tokens
+- 280x cheaper per token
+
+But agent call counts are 15x higher. Total inference spend rose 320% for production teams.
+
+The deeper shift: inference now accounts for 55-80% of enterprise AI GPU spend. That number was 40% in 2023. The cost collapse created a cost concentration problem — you optimized per-token economics and ended up spending more in aggregate.
+
+What actually happened: cheap inference unlocked use cases that weren't economically viable at $30/M. Those use cases generate call volume that costs $0.10 × a lot more calls = bigger bill.
+
+The teams getting ahead of this are tracking agent call counts, not just token prices. Because a 280x cost drop plus 15x call increase isn't a win. It's a 19x spend increase dressed as efficiency.
+
+NVIDIA Blackwell is pushing to $0.02/M on B200. The paradox doesn't get smaller when costs drop. It accelerates.
+
+If you're running production AI and your budget is based on token pricing benchmarks, you're measuring the wrong number.
