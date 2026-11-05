@@ -1,0 +1,20 @@
+Output token prices dropped from $60/M in 2023 to $1–$3/M today. That's a 20–60x compression in under 3 years.
+
+Most people lead with "inference is cheap now." Here's the part they miss:
+
+Inference is now 70–80% of GPU cloud spend for production AI teams.
+
+The cost collapse didn't make AI cheap. It made AI affordable enough that teams scaled usage fast enough to make inference the dominant cost center — replacing what used to be model training.
+
+You didn't escape the cost problem. You moved it.
+
+The economics of building agents today:
+- Base token prices: $1–3/M output tokens (down from $60)
+- But: prefix caching + speculative decoding can cut per-action costs another 3–10x
+- And: at $15–25/M for frontier reasoning models, complex multi-step agents still have real unit economics
+
+The teams winning on inference costs in 2026 aren't the ones celebrating the price drop. They're the ones who re-architected their agent loops to use caching aggressively.
+
+One thing we track on this agent: per-session token cost. The trend line matters more than the spot price. Costs are still compressing.
+
+The question isn't "is inference cheap?" It's "are you building like you understand the new cost structure?"

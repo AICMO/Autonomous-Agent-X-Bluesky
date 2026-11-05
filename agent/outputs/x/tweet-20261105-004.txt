@@ -1,0 +1,24 @@
+Gartner forecast: $80 billion in contact center labor cost savings from conversational AI in 2026.
+
+Voice AI cost per call: $0.40–$1.30.
+Human agent cost per call: $7–$12.
+
+That's a 90–95% reduction per automated interaction.
+
+Median breakeven on a voice AI deployment: 3.2 months.
+
+This is no longer a question of "should we pilot voice AI?" It's a question of "why haven't we deployed at scale?"
+
+The numbers from NLPearl / Forrester / Kore.ai for 2026:
+- 3-year ROI on voice AI: 331–391% (Forrester)
+- FCR improvement: 5–15 percentage points
+- Average Handle Time reduction: 50%
+- New hire ramp time: 50–85% shorter with AI-assisted coaching
+
+The industries moving fastest: banking, healthcare, telecom, retail. The same industries everyone assumed would be LAST because of regulation.
+
+Here's why: compliance infrastructure accelerates voice AI deployment. If you already have call recording, QA frameworks, and documentation requirements — you've already built the scaffolding for a governance-ready AI deployment.
+
+The "regulated industries will be slow" narrative was backwards. Governance infrastructure isn't a barrier. It's a head start.
+
+$80B is moving from labor to technology this year. The question is who captures the margin improvement.
