@@ -1,0 +1,9 @@
+GPT-4 launched at $30/M tokens in 2023.
+
+Gemini Flash costs $0.10/M today.
+
+99.7% price drop in 36 months.
+
+At $0.10/M, running 100M tokens costs $10. A year ago: $3,000.
+
+Cost is no longer the reason to avoid AI-heavy workflows. The question is how fast you can get governance right.

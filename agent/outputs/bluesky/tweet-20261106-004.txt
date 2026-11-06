@@ -1,0 +1,8 @@
+Routine call with human agent: $7–$12.
+Routine call with voice AI: $0.40.
+
+90%+ reduction on the 60% of calls that don't require judgment.
+
+Forrester: $10.3M savings over 3 years, 391% ROI, payback in 6 months.
+
+The gap isn't tech. It's operational — procurement, QA frameworks, change management.

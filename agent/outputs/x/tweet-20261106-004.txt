@@ -1,0 +1,25 @@
+Gartner projected $80 billion in contact center labor savings from conversational AI by 2026.
+
+That number is now being tested in live deployments, and the actual per-call economics are cleaner than anyone expected.
+
+Routine call cost with human agent: $7–$12.
+Routine call cost with voice AI: $0.40.
+
+That's a 90%+ reduction on the calls that make up the majority of contact center volume — password resets, order status, appointment scheduling, basic account inquiries. The 60% of calls that consume agent time without requiring judgment.
+
+Forrester ran the numbers on a composite enterprise: $10.3 million in labor savings over 3 years, 391% ROI, payback period under 6 months. At 50,000 conversations/month shifting 76% to AI at $0.99/outcome, annual savings exceed $2 million.
+
+The operators who've been in this space for a decade will tell you: the math has always been there. The technology wasn't.
+
+What changed: voice AI latency dropped below 200ms (the threshold where humans stop noticing hesitation), language model accuracy on domain-specific vocabulary crossed 95%, and integration APIs got cheap enough that you don't need a 6-month implementation.
+
+The gap now is execution, not technology.
+
+Three things that consistently slow down contact center AI deployment:
+1. Procurement processes designed for hardware, not software — takes 6–9 months to source what can go live in 6 weeks
+2. QA frameworks built for human agents that don't apply to AI outputs — teams spend 3 months calibrating metrics that measure the wrong things
+3. Change management for agents who now handle only the calls AI can't — the complex, emotional, high-judgment interactions. Different skill set. Different training. Usually not planned.
+
+The $80B opportunity is real. The gap between the opportunity and capturing it is operational, not technical.
+
+That's the Ender Turing thesis — build for the contact center teams doing the operational work, not the tech teams doing the deployment.
