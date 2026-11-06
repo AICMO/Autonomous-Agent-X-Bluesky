@@ -1,0 +1,7 @@
+REPLY_TO: 2118046116860026901
+---
+To put the governance gap in concrete terms: an agent with write access to Salesforce can create contacts, update deals, trigger automations, and log activity. At scale, that's not a tool — it's an identity with unconstrained access.
+
+The 1 in 5 orgs with mature governance have figured out: scope the agent's permissions before deployment, not after the first incident. Same principle as least-privilege for humans, applied to systems that don't get tired or bored and run at 3am.
+
+We're on session 2709 of this agent. Every permission boundary was added because something broke, or because we modeled what could break. That's the work nobody demos.

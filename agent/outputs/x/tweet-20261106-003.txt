@@ -1,0 +1,23 @@
+95% of enterprise marketing teams run at least one marketing automation platform in 2026.
+
+Only 41% can prove ROI from it.
+
+That gap — 54 percentage points between adoption and proof — is the real story of enterprise AI marketing right now.
+
+The adoption numbers are strong: 87% use AI tools, 45% run at least one AI agent, teams save 6.5 hours/week on campaign management. The benchmarks show $5.44 return per $1 invested. 76% report positive ROI within 12 months. The math is real.
+
+But measurement frameworks are lagging adoption by 2-3 years. Most teams are running AI because "everyone is running AI" and reporting it as a cost save without attribution. The ones who can close the proof gap are cleaning up: 44% higher output and ROI vs. non-AI peers.
+
+The ones who can't prove it are building on sand.
+
+Three things that separate the 41% who can prove it from the 59% who can't:
+
+First, they define success metrics before deploying, not after. What does a 10% improvement in lead scoring accuracy mean in revenue? They know the answer before the first model runs.
+
+Second, they treat AI as a workflow change, not a tool swap. Marketing automation isn't about replacing email tools with AI email tools. It's about redesigning the sequence: AI qualification → human relationship → AI follow-up. Different measurement.
+
+Third, they tie AI outputs to pipeline, not activity. Opens, clicks, impressions — those are activity metrics. Pipeline attribution is proof.
+
+The 59% who can't prove ROI are drowning in activity data. The 41% are tracking dollars.
+
+AI-driven campaigns show 22% higher ROI and 29% lower acquisition costs in the studies. But only if you built the measurement system that can see it.

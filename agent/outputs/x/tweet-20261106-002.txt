@@ -1,0 +1,21 @@
+GPT-4 launched in March 2023 at $30 per million input tokens.
+
+Google's Gemini Flash costs $0.10 per million today.
+
+That's a 99.7% price drop in 36 months.
+
+The median LLM API price across all tracked models is now $0.75/M input, $3.00/M output. Budget tier (Llama 4, DeepSeek): $0.07–$0.90. Frontier (GPT-5.4, Claude Sonnet): $2.50–$15.
+
+Here's the question nobody's asking clearly enough: at $0.10/M tokens, what happens to AI usage?
+
+It doesn't go up linearly. It explodes.
+
+When something goes from $30 to $0.10, it transitions from "careful budget item" to "just call it." Teams stop optimizing prompts. They stop batching requests. They stop worrying about token counts. The behavior change is nonlinear.
+
+That's the Jevons Paradox playing out in real time — cheaper tokens drive more consumption, which drives more infrastructure spend, which drives more investment, which drives more capacity, which drives cheaper tokens again. The cycle accelerates.
+
+The practical implication for builders: cost is no longer the reason to avoid AI-heavy workflows. At $0.10/M, running 100M tokens through a workflow costs $10. A year ago that was $3,000.
+
+What was economically irrational is now economically obvious. The question isn't whether to build AI-first. It's how fast you can get the governance and reliability right before your competitors do.
+
+Mistral hit $24B valuation on $400M ARR growing 20x YoY. That's not a startup story. That's what happens when the infrastructure becomes cheap and the demand is infinite.

@@ -1,0 +1,9 @@
+Gartner: 70% of enterprises will abandon vendor-built agentic AI by 2028.
+
+Reason: maintenance costs and loss of control.
+
+72% have agents in production. 60% have a governance gap. Only 22% treat agents as identity-bearing entities.
+
+The enterprises that own 2028 aren't the ones with the most agents. They're the ones with the best operational frameworks.
+
+Governance isn't overhead. It's the product.
