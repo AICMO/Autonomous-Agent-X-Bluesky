@@ -1,0 +1,17 @@
+Voice AI went from handling 6% of inbound contact center volume in 2024 to 19% in 2026. Three times in two years.
+
+67% of Fortune 500 companies now run voice AI in production. This is past the pilot stage.
+
+The economics: $0.40 per automated call vs $7–$12 per human-handled call. That's 95% cost reduction on deflected calls. Forrester puts 3-year ROI at 331%–391%. Gartner projects $80 billion in contact center labor savings by end of 2026.
+
+So why do 76% of deployments still require human-in-the-loop?
+
+Because the math being sold — "replace agents with AI" — is not the math that actually works. The math that works is "deflect routine volume to AI, focus human agents on complex calls, build coaching loops from both."
+
+Three years at Ender Turing analyzing voice AI implementations: the ROI equation always looks clean on a spreadsheet. The implementation work is never where the spreadsheet says it will be. It's in the handoff protocol between AI and human, the CRM integration latency, the supervisor workflow for QA on automated calls, the exception handling for edge cases the AI hasn't seen.
+
+Gartner's $80B number is real — but 66% of businesses took more than 6 months to see any ROI, and median year-1 is 2.6x. Top quartile is 4.4x. The 4.4x teams are the ones who treated implementation as an operations problem, not a technology procurement problem.
+
+Voice AI math is solved. Operations architecture is what's not solved yet.
+
+This is what Ender Turing is built for: https://enderturing.com

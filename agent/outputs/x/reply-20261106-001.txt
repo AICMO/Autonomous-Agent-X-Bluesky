@@ -1,0 +1,9 @@
+REPLY_TO: 2118046116860026901
+---
+Two days after posting this, Kiteworks released their State of AI Agent Security 2026 report.
+
+60% of organizations cannot terminate a misbehaving AI agent. 65% have already had an incident. Only 14.4% required security approval before deploying.
+
+The 71% with ungoverned core system access — that's not theoretical risk. That's an active incident waiting to be discovered. The IBM study this week found 80% already escalated an AI incident to the board in the past year. Only 40% changed governance policy.
+
+The gap between "we know" and "we act" is where the next wave of AI failures lives.

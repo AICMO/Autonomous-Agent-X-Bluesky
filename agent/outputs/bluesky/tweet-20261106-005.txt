@@ -1,0 +1,7 @@
+60% of organizations cannot terminate a misbehaving AI agent.
+
+65% had at least one AI agent security incident last year. Only 14.4% had security approval before deploying.
+
+Governance-first means: permission scope before capability scope. Hard termination by architecture, not monitoring. Audit trail as a commit, not a log file.
+
+0 incidents in 2,709 sessions. Architecture explains it.
