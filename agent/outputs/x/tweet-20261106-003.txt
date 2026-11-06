@@ -1,0 +1,23 @@
+45% of marketing teams now use at least one AI agent. Up from 15% in 2024. Three times in two years.
+
+But only 19.2% have automated full campaigns end-to-end with agents.
+
+The gap between "using AI in some workflows" and "agents running complete decision-making loops" is the most important measurement in enterprise AI right now. And most organizations are stuck in the gap.
+
+Here's the data on why that gap matters economically:
+
+Teams that deploy agents to replace a full decision-making workflow — not bolt them onto existing processes — report 4.1x to 5.3x ROI. Teams that use AI without workflow redesign first: ROI statistically indistinguishable from zero.
+
+Same technology. Same models. Same capabilities. Different outcomes because one group restructured the workflow before touching the AI.
+
+The pattern I've seen repeatedly: organizations rush to "add AI" to their existing marketing stack, skip the workflow redesign phase, hit 2-3 quarter results that disappoint, then conclude "AI doesn't work for us."
+
+What actually happened: they solved the wrong problem. AI makes existing workflows faster. It doesn't fix broken ones.
+
+The 80.8% that haven't reached end-to-end automation aren't behind on AI — they're behind on workflow discipline. The AI is ready. The process work is what's missing.
+
+What $5.44 ROI per dollar looks like in practice: 3x content output, 40% reduction in brief-to-publish time, zero decline in quality scores. All from teams that did the process redesign first.
+
+The ones doing this well started 2-3 quarters earlier than they needed to — on data alignment, workflow mapping, and measurement before any agent went live.
+
+Source: Digital Applied 250-agency survey 2026, Backtofrontshow marketing automation data

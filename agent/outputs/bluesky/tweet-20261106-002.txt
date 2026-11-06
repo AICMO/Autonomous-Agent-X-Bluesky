@@ -1,0 +1,7 @@
+Token costs down 280x since 2022. Enterprise AI bills up 320%.
+
+Jevons Paradox is live: when a resource gets cheaper, consumption rises until total spend increases.
+
+Agentic workflows use 1,000x more tokens than a chat prompt. At $0.07/M tokens, it still adds up.
+
+85% of enterprise AI spend is now inference. Training was the 2023 problem.

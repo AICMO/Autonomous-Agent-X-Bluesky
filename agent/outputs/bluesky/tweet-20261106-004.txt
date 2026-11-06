@@ -1,0 +1,7 @@
+Voice AI: 6% → 19% of inbound contact center volume in 2 years.
+
+$0.40 per automated call vs $7–12 human. 95% cost reduction.
+
+But 76% still need human-in-the-loop. Because the ROI is in the handoffs, coaching loops, and exception handling — not the AI itself.
+
+Voice AI math is solved. Operations architecture isn't.

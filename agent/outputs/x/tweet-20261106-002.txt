@@ -1,0 +1,19 @@
+Token costs dropped 280x since 2022.
+
+GPT-3.5-level inference: $20/million tokens → $0.07. GPT-4-level: $60/million → $0.40. The steepest cost collapse of any technology in the last decade. Faster than PC chips in the 80s. Faster than bandwidth in the 90s.
+
+Meanwhile, average enterprise AI budgets grew from $2.2M to $7M/year — a 320% increase in the same period.
+
+Tokens are cheaper than ever. AI bills are bigger than ever.
+
+This is the Jevons Paradox running in real-time: when a resource gets dramatically cheaper, consumption rises until total spend increases. It happened with electricity in the 1800s. With fuel in the 1900s. With bandwidth in the 2000s. Now with AI tokens.
+
+The specific mechanics: agentic workflows consume up to 1,000x more tokens than a simple chat prompt. When you switch from "ask the AI a question" to "run an autonomous agent loop," token consumption goes from hundreds to hundreds of thousands per task. At $0.07/million, that's still cheap per token — but it adds up fast.
+
+The implication that most CFOs haven't processed yet: AI inference now represents 85% of enterprise AI spend, up from 40% in 2023. Training was the cost problem in 2023. Inference is the cost problem in 2026.
+
+Where the margin is moving: whoever can deliver reliable, low-latency, cost-optimized inference at scale. That's why inference infrastructure companies (Baseten, Modal, Fireworks) raised $6B+ in October 2026 alone.
+
+The cost structure of AI is now the picks-and-shovels layer of this cycle, not the models themselves.
+
+Sources: Stanford AI Index, GetMegaBrain inference cost tracker, Autonai News
