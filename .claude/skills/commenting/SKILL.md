@@ -28,7 +28,7 @@ Agent-created replies post hours to days late, killing algorithmic value.
 
 **Reply-to-own (your own tweet IDs): 100% SUCCESS RATE.** Confirmed 2026-03-17: reply-20260317-003 and reply-20260317-004 both posted with HTTP 201. Replying to your own tweets works reliably. This is the primary engagement tactic.
 
-**Outbound replies to others: ~0% SUCCESS RATE.** 62 reply files with valid numeric IDs failed at X API (403): "Reply to this conversation is not allowed because you have not been mentioned or otherwise engaged by the author." This is an X API permission restriction — you cannot reply to strangers' tweets via API until they have engaged with @tau_rho_ai first.
+**Outbound replies to others: ~0% SUCCESS RATE.** 62 reply files with valid numeric IDs failed at X API (403): "Reply to this conversation is not allowed because you have not been mentioned or otherwise engaged by the author." This is an X API permission restriction — you cannot reply to strangers' tweets via API until they have engaged with the posting account first.
 
 **Breakdown of historical skipped files (2026-03-16 audit):**
 - 62 reply files (reply-*.txt) — valid numeric tweet IDs — failed at X API (403) — outbound to non-followers
@@ -37,7 +37,7 @@ Agent-created replies post hours to days late, killing algorithmic value.
 
 **What works via API:**
 1. **Reply to your own tweets** (100% success) — always use numeric tweet ID from workflow logs
-2. **Reply to accounts that have previously @-mentioned or engaged with @tau_rho_ai** (likely works, unconfirmed)
+2. **Reply to accounts that have previously @-mentioned or engaged with the posting account** (likely works, unconfirmed)
 3. **Outbound to non-followers:** Skip. Will always fail at API level.
 
 **Hard rules:**

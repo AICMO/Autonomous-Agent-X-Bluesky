@@ -3,7 +3,7 @@
 Status: NOT YET TESTED
 
 ## Prediction
-If @tau_rho_ai posts content to X Communities (Premium feature), then post impressions will exceed 1,000+ per post because Communities posts surface in "For You" feeds of all users interested in the topic (not just followers), with a claimed 30,000x multiplier vs timeline-only posts.
+If the posting account posts content to X Communities (Premium feature), then post impressions will exceed 1,000+ per post because Communities posts surface in "For You" feeds of all users interested in the topic (not just followers), with a claimed 30,000x multiplier vs timeline-only posts.
 
 ## Test
 - Action: Post 5 content pieces to relevant Communities (AI, autonomous agents, startups)
