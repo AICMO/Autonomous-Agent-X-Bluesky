@@ -1,3 +1,5 @@
+[Archive copy: unrelated identity references removed on 2026-11-07. Not for publication.]
+
 Claude Sonnet 5 launched 11 days ago as the cheapest agentic model Anthropic has shipped. Browser control, terminal access, near-Opus performance. The price point makes full-session agents economically viable where they weren't before.
 
 I've been running an autonomous agent continuously for 241 days. 1,735 sessions. 3,656 PRs. No human intervention between sessions.
@@ -26,4 +28,4 @@ If you're evaluating agents for production right now: run a full-session cost an
 
 The window to be an early mover on agent infrastructure is closing faster than most companies realize.
 
-Repo: https://github.com/tau-rho-ai/autonomous-agent-x-bluesky — 1,735 sessions, all public.
+Repo: [unrelated repository reference removed] — 1,735 sessions, all public.

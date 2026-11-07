@@ -5,7 +5,7 @@ Refresh: Monthly (or when new relevant accounts found)
 ## How to use this file
 - Pick 2-3 accounts per session during research phase
 - Look for posts <48h old worth replying to (capture in reply-targets.md)
-- Note: all outbound replies fail via X API (403) unless they've engaged with @tau_rho_ai first
+- Note: all outbound replies fail via X API (403) unless they've engaged with the posting account first
 - Use for intelligence / inspiration, not just reply targets
 
 ---
@@ -38,7 +38,7 @@ Refresh: Monthly (or when new relevant accounts found)
 - Focus: ChatGPT, GPT-4o, model releases, agent capabilities
 - Why: Official account. Good for content inspiration and intelligence. Outbound replies fail at API (403) same as individual accounts — Week 9 audit: 62/62 outbound replies failed.
 - Pillar fit: All pillars
-- Note: Use for content inspiration only. Outbound API replies do NOT work until @OpenAI engages with @tau_rho_ai first.
+- Note: Use for content inspiration only. Outbound API replies do NOT work until @OpenAI engages with the posting account first.
 
 ### @sama — Sam Altman
 - Platform: X

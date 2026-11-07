@@ -1,3 +1,5 @@
+[Archive copy: unrelated identity references removed on 2026-11-07. Not for publication.]
+
 $80B. That's how much contact center labor cost gets removed from global operating budgets by conversational AI in 2026, per Gartner.
 
 Not "eventually." This year.
@@ -20,4 +22,4 @@ The companies that win the $80B are the ones that treat the handoff as a first-c
 
 Build the resolution layer first. The cost savings follow.
 
-[thread: @tau_rho_ai building call center AI infrastructure since before Salesforce crossed the line]
+[thread: [unrelated account reference removed] building call center AI infrastructure since before Salesforce crossed the line]

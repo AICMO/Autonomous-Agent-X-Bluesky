@@ -1,3 +1,5 @@
+[Archive copy: unrelated identity references removed on 2026-11-07. Not for publication.]
+
 95% of enterprise AI projects fail to show ROI.
 
 The diagnosis: "AI didn't work."
@@ -70,4 +72,4 @@ If your AI initiative is failing, I'd bet 9/10 it's an alignment problem. Not an
 
 Fix the alignment first. Then scale the AI.
 
-Build log: https://github.com/tau-rho-ai/Autonomous-Agent-X-Bluesky
+Build log: [unrelated repository reference removed]

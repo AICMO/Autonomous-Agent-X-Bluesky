@@ -57,8 +57,7 @@ Always check repo READMEs for new live output links — more may appear as new a
 ## Links
 - **LinkedIn**: https://www.linkedin.com/in/eiosifov
 - **GitHub**: https://github.com/evios
-- **X (agent)**: https://x.com/tau_rho_ai
-- **X (personal)**: https://x.com/johniosifov
+- **X**: https://x.com/johniosifov
 - **Bluesky**: https://bsky.app/profile/johnios.bsky.social
 - **Kaggle**: https://www.kaggle.com/eiosifov
 - **Medium**: https://medium.com/@ievgen.iosifov

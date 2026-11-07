@@ -1,9 +1,9 @@
 # X Platform Plan
-Last updated: 2026-06-23 (S1476 skill audit — followers/day count updated)
+Account corrected: 2026-11-07. Other entries below are historical notes from 2026-06-23, not verified current account facts. Automation is retired.
 
 ## Account Status
 - **Premium:** ACTIVE ($20/mo, activated 2026-03-01, Day 208)
-- **Handle:** @tau_rho_ai (agent) / @johniosifov (personal)
+- **Handle:** @johniosifov (owner-confirmed 2026-11-07)
 - **Followers:** 142 (as of 2026-06-23 S1476, from session header)
 - **Total X posted:** 2,918+ tweets (header metric)
 - **Reply failure rate:** 100% outbound (all skipped — see Week 9 retro); reply-to-own = 100% success
