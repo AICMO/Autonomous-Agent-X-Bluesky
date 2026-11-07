@@ -31,7 +31,7 @@ Setup: Get all 4 from X Developer Portal → Your App → Keys and tokens
 - `verify.sh` - Verifies credentials are working
 - `auth_2.0.sh` - OAuth 2.0 authorization flow (one-time setup)
 
-## Proxy (Cloudflare bypass)
+## Proxy and TLS verification
 
 GitHub Actions runner IPs get blocked by Cloudflare. Set a residential proxy to route API calls through a clean IP.
 
@@ -39,7 +39,17 @@ GitHub Actions runner IPs get blocked by Cloudflare. Set a residential proxy to 
 |------|------|-------------|
 | `HTTPS_PROXY` | secret | Proxy URL (e.g. `http://user:pass@brd.superproxy.io:22225`) |
 
-Optional. If unset, requests go direct. Credentials are hidden in logs (only host:port shown).
+Optional. If unset, Requests uses its normal environment-based routing. Proxy URLs and credentials are not logged.
+
+Certificate verification stays enabled for direct and proxied requests. An ordinary HTTPS CONNECT proxy does not need to replace the destination certificate. If a trusted proxy intentionally inspects TLS, set `REQUESTS_CA_BUNDLE` to a PEM CA bundle that includes its trusted CA. An untrusted or invalid certificate must fail; do not disable verification or suppress its warnings.
+
+The repository's posting workflows remain retired and its posting secrets have been removed. This fix protects new checkouts; existing clones must update to the fixed commit before running the legacy integration.
+
+Run the offline regression checks after installing the existing integration requirements:
+
+```bash
+python3 -m unittest discover -s agent/integrations/x/tests -v
+```
 
 ## Rate Limits
 
