@@ -1,0 +1,5 @@
+88% of contact centers increased AI spend. 28% met ROI expectations.
+
+Top quartile: $8 per $1 invested. Median: $3.50. Same models, same vendors.
+
+The gap is call-type selection, CRM integration, and QA loop — not AI capability. Implementation is the ROI variable.

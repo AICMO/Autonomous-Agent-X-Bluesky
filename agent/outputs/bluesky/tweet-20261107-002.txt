@@ -1,0 +1,5 @@
+GPT-4 inference: $60/M tokens in 2022. $0.40/M in 2026. 150× collapse.
+
+When inference was expensive, model quality was the moat. When inference is cheap, defensibility moves to data, distribution, and workflow lock-in.
+
+If your product was priced for 2022 inference costs, you're selling a world that no longer exists.

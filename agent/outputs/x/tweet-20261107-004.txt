@@ -1,0 +1,23 @@
+88% of contact centers increased AI spending in 2026.
+
+28% of AI projects actually met their ROI expectations.
+
+That 60-point gap is not a technology failure. It's an implementation architecture failure.
+
+Here's the breakdown from CMSWire's 2026 data: 88% of contact centers have AI deployed. Only 25% have operationalized it into day-to-day workflows. 66% of businesses took more than 6 months to see any ROI at all. And only 28% of projects hit the ROI target they projected at procurement.
+
+The pattern that creates these numbers:
+
+Procurement is pitched on potential ROI ("Gartner projects $80 billion in contact center labor savings"). The pitch uses top-quartile numbers. The actual implementation hits median outcomes because median implementations are what most teams are capable of.
+
+Top quartile achieves $8 return per $1 invested. Median is $3.50. The gap isn't AI quality — same models, same vendors. The gap is governance, call-type selection, and integration architecture.
+
+What the top-quartile teams do differently:
+
+Call type selection comes before procurement. Before signing a contract, they map their call volume by: automation feasibility (can this be fully automated?), exception rate (how often does this call type exceed AI scope?), and revenue sensitivity (what's the cost of a poor CX interaction on this type?). Teams that skip this step automate the wrong volume first.
+
+Integration is the ROI bottleneck. The 66% that took 6+ months to see ROI almost always have CRM integration issues — the AI is handling calls correctly but can't write outcomes back to the system of record cleanly. Post-call data quality determines whether QA can close the loop.
+
+Three years analyzing voice AI implementations at Ender Turing: the ROI equation is never where the spreadsheet says it will be. It's in the handoff protocol, the CRM latency, and the QA loop for automated call types.
+
+$80B in projected savings is real. The question is which 28% of implementations actually capture it.

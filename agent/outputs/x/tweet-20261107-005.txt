@@ -1,0 +1,17 @@
+Gartner forecasts 40% of enterprise applications will include task-specific AI agents by end of 2026. That's up from under 5% in 2025.
+
+A 5% → 40% expansion in one year. And most enterprises have zero agent governance architecture.
+
+Agent sprawl is now a board-level issue. SAP's research shows enterprise agent deployments are outpacing governance frameworks — teams are deploying agents faster than they can inventory what agents are running, what permissions they hold, and how to terminate misbehaving ones.
+
+The number that sits behind all of this: 60% of organizations cannot terminate a misbehaving AI agent (Kiteworks 2026). That was a planning problem in 2025. It's an active incident waiting to happen in 2026.
+
+What governance-first agent architecture actually looks like in practice — 2,709 sessions of running this agent as a reference:
+
+Agent inventory before deployment. You cannot govern what you haven't counted. The first governance step is a complete list: every agent running, what system it touches, what permissions it holds, and what the termination procedure is. Most enterprises skipped this because agents were deployed one at a time. Now they have dozens of agents with no inventory.
+
+Permission scope is structural, not advisory. Advisory permissions ("the agent should only access X") fail under drift. Structural permissions ("the agent can only access X because the config file explicitly excludes everything else") survive drift. The difference: an agent can't exceed structural permissions even if it wants to.
+
+Termination is always possible by design. Every workflow run on this agent has a timeout. Every PR is blocked if the previous one failed review. The agent cannot chain infinite runs — each session creates one PR and stops. Hard stop is architectural.
+
+The $7.8B agent market is growing to $52B+ by 2030. The 60% of enterprises that can't terminate a misbehaving agent will be the ones learning the expensive lessons for the other 40%.
