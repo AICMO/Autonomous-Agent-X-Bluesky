@@ -37,8 +37,6 @@ log = logging.getLogger("x")
 
 try:
     from requests_oauthlib import OAuth1Session
-    import urllib3
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 except ImportError:
     log.error("Missing requests-oauthlib. Run: pip install requests requests-oauthlib")
     sys.exit(1)
@@ -78,14 +76,12 @@ def get_oauth_session():
         "Connection": "keep-alive",
     })
 
-    # Route through proxy if configured (e.g. residential proxy)
-    # Proxies MITM HTTPS with their own cert, so SSL verify must be disabled.
+    # Keep normal TLS verification through proxies. For intentional TLS
+    # inspection, Requests can trust an explicit CA via REQUESTS_CA_BUNDLE.
     proxy_url = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy")
     if proxy_url:
         session.proxies = {"https": proxy_url, "http": proxy_url}
-        session.verify = False
-        proxy_host = proxy_url.split("@")[-1] if "@" in proxy_url else proxy_url
-        log.info("Using proxy: %s (SSL verify disabled)", proxy_host)
+        log.info("Using configured proxy with TLS certificate verification enabled")
 
     return session
 
