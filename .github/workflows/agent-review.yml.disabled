@@ -11,12 +11,14 @@ name: Agent Self-Review
 # Security: All actions pinned to commit SHAs to prevent tag hijacking attacks.
 # Update SHAs manually when upgrading action versions.
 
-on:
-  workflow_dispatch:
-  pull_request:
-    types: [opened, synchronize]
-    paths-ignore:
-      - '.github/workflows/**'
+# Retired 2026-11-07. X publishing will move to CMO separately.
+# Triggers are commented out; the .disabled suffix keeps this file out of GitHub Actions.
+# on:
+#   workflow_dispatch:
+#   pull_request:
+#     types: [opened, synchronize]
+#     paths-ignore:
+#       - '.github/workflows/**'
 
 jobs:
   review:

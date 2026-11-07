@@ -1,27 +1,29 @@
 name: Agent Work Session
 
-on:
-  schedule:
-    - cron: '0 13,15,17,19,21,23 * * *'  # Work: every 2h, 08:00-18:00 US Eastern (UTC-5)
-    - cron: '0 1,3 * * *'                # Work: every 2h, 20:00-22:00 US Eastern (UTC-5)
-  workflow_dispatch:       # Manual trigger or chained via agent-work-trigger.yml
-    inputs:
-      mode:
-        description: 'Session mode'
-        required: false
-        default: 'work'
-        type: choice
-        options:
-          - work
-          - retro
-  # NOTE: push trigger not supported by claude-code-action. The action only supports specific 
-  #     event types (pull_request, issue_comment, workflow_dispatch, schedule, etc.) - not push. 
-  # Use workflow_dispatch or schedule for chaining sessions
-  #push:                    # Triggered when state changes on main
-  #  branches:
-  #    - main
-  #  paths:
-  #    - 'agent/state/**'
+# Retired 2026-11-07. X publishing will move to CMO separately.
+# Triggers are commented out; the .disabled suffix keeps this file out of GitHub Actions.
+# on:
+#   schedule:
+#     - cron: '0 13,15,17,19,21,23 * * *'  # Work: every 2h, 08:00-18:00 US Eastern (UTC-5)
+#     - cron: '0 1,3 * * *'                # Work: every 2h, 20:00-22:00 US Eastern (UTC-5)
+#   workflow_dispatch:       # Manual trigger or chained via agent-work-trigger.yml
+#     inputs:
+#       mode:
+#         description: 'Session mode'
+#         required: false
+#         default: 'work'
+#         type: choice
+#         options:
+#           - work
+#           - retro
+#   # NOTE: push trigger not supported by claude-code-action. The action only supports specific
+#   #     event types (pull_request, issue_comment, workflow_dispatch, schedule, etc.) - not push.
+#   # Use workflow_dispatch or schedule for chaining sessions
+#   #push:                    # Triggered when state changes on main
+#   #  branches:
+#   #    - main
+#   #  paths:
+#   #    - 'agent/state/**'
 
 # Security: All actions pinned to commit SHAs to prevent tag hijacking attacks.
 # A compromised tag (e.g. @v1) could inject malicious code into workflows.
