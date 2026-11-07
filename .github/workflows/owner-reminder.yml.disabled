@@ -4,18 +4,20 @@ name: Owner Reminder
 # Extensible: add new schedules and issue templates as needed.
 # Templates live in agent/integrations/{platform}/templates/engagement-data.md
 
-on:
-  schedule:
-    - cron: '0 14 * * 6'  # Saturday 09:00 US Eastern (UTC-5)
-  workflow_dispatch:
-    inputs:
-      type:
-        description: 'Reminder type'
-        required: false
-        default: 'metrics'
-        type: choice
-        options:
-          - metrics
+# Retired 2026-11-07. X publishing will move to CMO separately.
+# Triggers are commented out; the .disabled suffix keeps this file out of GitHub Actions.
+# on:
+#   schedule:
+#     - cron: '0 14 * * 6'  # Saturday 09:00 US Eastern (UTC-5)
+#   workflow_dispatch:
+#     inputs:
+#       type:
+#         description: 'Reminder type'
+#         required: false
+#         default: 'metrics'
+#         type: choice
+#         options:
+#           - metrics
 
 jobs:
   remind:

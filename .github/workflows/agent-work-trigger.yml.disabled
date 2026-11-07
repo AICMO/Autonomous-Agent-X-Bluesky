@@ -7,15 +7,17 @@ name: Trigger Agent Work
 # GITHUB_TOKEN merges don't trigger push events (GitHub security feature).
 # Without AGENT_PAT, the autonomous loop stops after the agent's PR is merged.
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 13 * * 0'  # Weekly retro: Sunday 08:00 US Eastern (UTC-5)
-  push:
-    branches:
-      - main
-    paths:
-      - 'agent/state/**'
+# Retired 2026-11-07. X publishing will move to CMO separately.
+# Triggers are commented out; the .disabled suffix keeps this file out of GitHub Actions.
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: '0 13 * * 0'  # Weekly retro: Sunday 08:00 US Eastern (UTC-5)
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - 'agent/state/**'
 
 jobs:
   trigger:
