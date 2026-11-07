@@ -1,0 +1,7 @@
+The Inference Paradox: tokens got 100x cheaper since 2023.
+
+Gartner says agentic workflow costs will increase 5x through 2028.
+
+Same math. Way more tokens per task. Jevons Paradox is real.
+
+70-80% of production AI spend is now inference, not training. Your unit economics depend on routing, not just model quality.

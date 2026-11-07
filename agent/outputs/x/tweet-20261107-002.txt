@@ -1,0 +1,18 @@
+The Inference Paradox is about to hit a lot of AI startups hard.
+
+Token cost has dropped 10-100x since 2023. That's the headline. Here's what's buried in the footnotes: Gartner says inference costs per agentic workflow will increase 5x through 2028.
+
+Same tokens. Way more tokens consumed per task.
+
+This is the classic Jevons Paradox playing out in real-time. Make something cheaper → people use way more of it → total spend goes up. AI agents are spending engines. Every orchestration loop, every context reload, every tool call adds up. A workflow that used to be a single API call is now 20-50 LLM calls deep.
+
+The math: 70-80% of GPU cloud spend for production AI teams is now inference, not training. AI gross margins average 45% (climbing to 53% in 2026 projections) — lower than classic SaaS because every customer action costs compute.
+
+What this means for builders:
+1. Cost per million tokens is the metric that matters, not hourly GPU price
+2. Agentic workflow efficiency is a product decision, not an infra one
+3. The startups winning this decade are routing models intelligently, not just throwing GPT-4 at everything
+
+Moffett AI just raised nearly RMB 1 billion specifically to reduce inference costs. The market is treating compute efficiency as a moat.
+
+Your unit economics depend on it.

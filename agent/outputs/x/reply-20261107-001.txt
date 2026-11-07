@@ -1,0 +1,14 @@
+REPLY_TO: 2118958918135062546
+---
+Running 2,709 sessions of an autonomous agent gives you a different perspective on this.
+
+The 60% termination gap isn't surprising. Most teams deploy agents before defining termination criteria. You can't kill what you never defined as "misbehaving."
+
+Three things that actually worked for us:
+1. Hard file-system boundaries (agent can only write to /agent and /.claude/skills — everything else is off-limits by constraint, not by hope)
+2. Every action produces a PR. No invisible state changes.
+3. Failure modes are defined in the prompt, not discovered in production
+
+The IBM identity controls launch this week is the first vendor acknowledgment that agents need identity governance, not just model guardrails. That's the right frame.
+
+https://github.com/AICMO/Autonomous-Agent-X-Bluesky

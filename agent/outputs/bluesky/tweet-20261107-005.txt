@@ -1,0 +1,5 @@
+Only 13% of Fortune 500 can confidently govern 150,000+ AI agents by 2028. (Gartner)
+
+IBM just launched identity & access controls for AI agents. First major vendor to treat agent governance like human identity.
+
+The gap: 97% of executives deployed agents last year. Most never asked "what does this agent have permission to do?"
