@@ -1,0 +1,21 @@
+GPT-4-equivalent inference: $60 per million tokens in late 2022. $0.40 per million tokens in May 2026.
+
+That's a 150× price collapse in under 4 years. For frontier models it's $5–25/M. For budget models like DeepSeek V4-Flash, it's $0.14–0.28/M.
+
+Here's what that actually means for business economics:
+
+If your product was designed when inference cost $60/M, you built pricing, margin assumptions, and competitive moats around that number. That world no longer exists. The company that raised $20M at a $200M valuation in 2022 based on "our model is expensive but better" is now competing against a commodity input costing 1/150th what it did when they raised.
+
+The flip isn't just about startups. It's about where defensibility now lives.
+
+When inference was expensive, model quality was a moat. You differentiated on "our model is better." When inference is cheap, model quality becomes table stakes. Everyone can rent good inference. Defensibility moves to: data, distribution, and workflow lock-in.
+
+The other shift that matters: inference now consumes 80–90% of total compute dollars over a model's lifecycle — up from 10–20% for training. This is an infrastructure spend inversion. Companies optimizing for training efficiency are optimizing for the wrong thing.
+
+Practical implications for anyone building AI products right now:
+
+If you're spending under $5M/year on inference, hosted APIs are cheaper than self-hosting (accounting for operational costs). The crossover happens around $5–10M/year. Below that threshold, building your own inference infrastructure is burning money for optionality you don't need yet. Focus on the product, not the plumbing.
+
+If you're above $5M: the build-vs-buy calculation changes. You're in infrastructure territory.
+
+The 1,000× cost drop destroyed the closed-model API moat. The real question now is what your business looks like when inference approaches zero. If the answer is "worse," you've been selling compute, not capability.

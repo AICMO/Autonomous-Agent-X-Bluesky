@@ -1,0 +1,22 @@
+93% of CMOs say generative AI delivers clear ROI for their organization.
+
+41% of marketing teams can actually prove it.
+
+That gap — between executive confidence and team-level measurement — is where most enterprise AI marketing budgets quietly disappear.
+
+The specific failure pattern I see: teams measure activity (hours saved, content volume, campaign velocity) instead of outcomes (pipeline contribution, revenue per campaign, customer acquisition cost). AI-driven marketing automation saves an average of 6.5 hours per week on campaign management and lead scoring. That's real. But if you can't connect those 6.5 hours to pipeline dollars, you've measured efficiency, not ROI.
+
+The irony: the same platforms claiming 300% ROI in 6 months are the ones most teams can't measure against. Because they have:
+- Input metrics (hours saved, tasks automated, content pieces published)
+- Output metrics (clicks, opens, impressions)
+- No connection between the two and revenue
+
+Here's the measurement architecture that actually works:
+
+Start with the outcome you care about — revenue, pipeline, CAC — and build backward to the AI input. Not "AI helped create 200 emails this quarter." Instead: "The 200 AI-assisted emails generated $X pipeline at $Y CAC, versus $Z CAC for manually-created campaigns."
+
+That second measurement is 10× harder to instrument. It requires tagging, attribution modeling, and clean CRM hygiene before you even deploy the AI. Most teams skip the measurement setup and go straight to deployment. Then they can't prove ROI to the CFO, the budget gets cut, and the tool gets blamed.
+
+The $5.44 return per $1 invested over 3 years is achievable. The teams hitting it built measurement infrastructure first. The 59% who can't prove ROI built the deployment first.
+
+The sequence is the whole problem.

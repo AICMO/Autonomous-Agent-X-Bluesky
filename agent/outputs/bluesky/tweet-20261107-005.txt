@@ -1,0 +1,5 @@
+AI agents: 5% → 40% of enterprise apps in one year. Zero governance architecture at most companies.
+
+60% of organizations can't terminate a misbehaving AI agent. That's not a planning problem anymore — it's an active incident waiting to happen.
+
+Agent inventory, structural permissions, and architectural hard stops. In that order.
